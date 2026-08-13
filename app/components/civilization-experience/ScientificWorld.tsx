@@ -2,6 +2,7 @@
 
 import {
   Suspense,
+  useEffect,
   useMemo,
   useRef,
   useState,
@@ -99,16 +100,23 @@ export type WorldAction =
 
 
 export type MovementInput = {
-  x:
-    number;
-
-  y:
-    number;
-
-  run:
-    boolean;
+  x: number;
+  y: number;
+  run: boolean;
 };
 
+
+type MobileHudPanel =
+  | "districts"
+  | "map"
+  | "mission"
+  | "runtime"
+  | null;
+
+
+/* ==========================================================
+   COMPONENT
+========================================================== */
 
 export default function ScientificWorld({
   paper,
@@ -124,6 +132,91 @@ export default function ScientificWorld({
     useState(
       false,
     );
+
+
+  /* ========================================================
+     RESPONSIVE WORLD UI
+
+     Desktop:
+     Existing HUD architecture remains visible.
+
+     Mobile:
+     The world itself is primary.
+     HUD modules are opened only when requested.
+  ======================================================== */
+
+  const [
+    isMobileWorld,
+    setIsMobileWorld,
+  ] =
+    useState(
+      false,
+    );
+
+
+  const [
+    mobileHudOpen,
+    setMobileHudOpen,
+  ] =
+    useState(
+      false,
+    );
+
+
+  const [
+    mobileHudPanel,
+    setMobileHudPanel,
+  ] =
+    useState<MobileHudPanel>(
+      null,
+    );
+
+
+  useEffect(() => {
+    const mediaQuery =
+      window.matchMedia(
+        "(max-width: 900px), (pointer: coarse)",
+      );
+
+
+    function synchronizeMobileState() {
+      const mobile =
+        mediaQuery.matches;
+
+
+      setIsMobileWorld(
+        mobile,
+      );
+
+
+      if (!mobile) {
+        setMobileHudOpen(
+          false,
+        );
+
+        setMobileHudPanel(
+          null,
+        );
+      }
+    }
+
+
+    synchronizeMobileState();
+
+
+    mediaQuery.addEventListener(
+      "change",
+      synchronizeMobileState,
+    );
+
+
+    return () => {
+      mediaQuery.removeEventListener(
+        "change",
+        synchronizeMobileState,
+      );
+    };
+  }, []);
 
 
   /* ========================================================
@@ -169,10 +262,6 @@ export default function ScientificWorld({
 
   /* ========================================================
      MISSION NAVIGATION
-
-     Observation
-     Intervention
-     Validation
   ======================================================== */
 
   const navigationDestinations =
@@ -210,24 +299,13 @@ export default function ScientificWorld({
     setPlayerPosition,
   ] =
     useState({
-      x:
-        0,
-
-      z:
-        28,
+      x: 0,
+      z: 28,
     });
 
 
   /* ========================================================
-     PHASE 5D-8C
      CIVILIZATION DISTRICT NAVIGATION
-
-     Science
-     Evidence
-     Policy
-     Innovation
-     Civic
-     Lakeside
   ======================================================== */
 
   const districtDestinations =
@@ -382,11 +460,8 @@ export default function ScientificWorld({
       label:
         string;
     }>({
-      type:
-        null,
-
-      label:
-        "",
+      type: null,
+      label: "",
     });
 
 
@@ -405,14 +480,9 @@ export default function ScientificWorld({
 
   const movementRef =
     useRef<MovementInput>({
-      x:
-        0,
-
-      y:
-        0,
-
-      run:
-        false,
+      x: 0,
+      y: 0,
+      run: false,
     });
 
 
@@ -431,11 +501,8 @@ export default function ScientificWorld({
 
   const joystickCenterRef =
     useRef({
-      x:
-        0,
-
-      y:
-        0,
+      x: 0,
+      y: 0,
     });
 
 
@@ -538,6 +605,95 @@ export default function ScientificWorld({
   const missionComplete =
     activeMissionStage >=
     mission.stages.length;
+
+
+  /* ========================================================
+     HUD VISIBILITY
+  ======================================================== */
+
+  const showDistrictHud =
+    worldEntered &&
+    (
+      !isMobileWorld ||
+      mobileHudPanel ===
+        "districts"
+    );
+
+
+  const showDistrictMap =
+    worldEntered &&
+    (
+      !isMobileWorld ||
+      mobileHudPanel ===
+        "map"
+    );
+
+
+  const showRuntimeHud =
+    worldEntered &&
+    (
+      !isMobileWorld ||
+      mobileHudPanel ===
+        "runtime"
+    );
+
+
+  const showMissionHud =
+    worldEntered &&
+    (
+      !isMobileWorld ||
+      mobileHudPanel ===
+        "mission"
+    );
+
+
+  /* ========================================================
+     MOBILE HUD
+  ======================================================== */
+
+  function toggleMobileHud() {
+    setMobileHudOpen(
+      (
+        previous,
+      ) =>
+        !previous,
+    );
+  }
+
+
+  function selectMobileHudPanel(
+    panel:
+      Exclude<
+        MobileHudPanel,
+        null
+      >,
+  ) {
+    setMobileHudPanel(
+      (
+        current,
+      ) =>
+        current ===
+        panel
+          ? null
+          : panel,
+    );
+
+
+    setMobileHudOpen(
+      false,
+    );
+  }
+
+
+  function closeMobileHudPanel() {
+    setMobileHudPanel(
+      null,
+    );
+
+    setMobileHudOpen(
+      false,
+    );
+  }
 
 
   /* ========================================================
@@ -761,11 +917,6 @@ export default function ScientificWorld({
     );
 
 
-    /*
-     * Parameter change invalidates
-     * the previous prediction and measurement.
-     */
-
     setPrediction(
       null,
     );
@@ -789,11 +940,6 @@ export default function ScientificWorld({
     }
 
 
-    /* ------------------------------------------------------
-       MISSION 01
-       OBSERVATION
-    ------------------------------------------------------ */
-
     if (
       interactionTarget.type ===
       "mission-observation"
@@ -810,11 +956,6 @@ export default function ScientificWorld({
       return;
     }
 
-
-    /* ------------------------------------------------------
-       MISSION 03
-       VALIDATION
-    ------------------------------------------------------ */
 
     if (
       interactionTarget.type ===
@@ -836,13 +977,6 @@ export default function ScientificWorld({
     }
 
 
-    /* ------------------------------------------------------
-       EXPERIMENT CONSOLE
-
-       Before the physical experiment begins,
-       commit to a theory prediction.
-    ------------------------------------------------------ */
-
     if (
       interactionTarget.type ===
         "experiment-console" &&
@@ -856,10 +990,6 @@ export default function ScientificWorld({
     }
 
 
-    /* ------------------------------------------------------
-       SEND INTERACTION TO 3D SYSTEM
-    ------------------------------------------------------ */
-
     setInteractSignal(
       (
         value,
@@ -868,11 +998,6 @@ export default function ScientificWorld({
         1,
     );
 
-
-    /* ------------------------------------------------------
-       MISSION 02
-       INTERVENTION
-    ------------------------------------------------------ */
 
     if (
       interactionTarget.type ===
@@ -920,6 +1045,19 @@ export default function ScientificWorld({
     setWorldEntered(
       true,
     );
+
+    /*
+     * Mobile enters the world with
+     * a completely clear HUD.
+     */
+
+    setMobileHudPanel(
+      null,
+    );
+
+    setMobileHudOpen(
+      false,
+    );
   }
 
 
@@ -951,14 +1089,9 @@ export default function ScientificWorld({
               72,
             ],
 
-            fov:
-              70,
-
-            near:
-              0.1,
-
-            far:
-              800,
+            fov: 70,
+            near: 0.1,
+            far: 800,
           }}
           gl={{
             antialias:
@@ -988,10 +1121,6 @@ export default function ScientificWorld({
               null
             }
           >
-            {/* ==========================================
-                DOMAIN / CITY / EXPERIMENT WORLD
-            ========================================== */}
-
             <ScientificCampus
               paper={
                 paper
@@ -1017,10 +1146,6 @@ export default function ScientificWorld({
             />
 
 
-            {/* ==========================================
-                PLAYER
-            ========================================== */}
-
             <PlayerController
               enabled={
                 worldEntered
@@ -1031,20 +1156,12 @@ export default function ScientificWorld({
             />
 
 
-            {/* ==========================================
-                UNIVERSAL 360° LOOK
-            ========================================== */}
-
             <UnifiedLookControls
               enabled={
                 worldEntered
               }
             />
 
-
-            {/* ==========================================
-                INTERACTION
-            ========================================== */}
 
             <ScientificInteractionSystem
               enabled={
@@ -1072,14 +1189,6 @@ export default function ScientificWorld({
             />
 
 
-            {/* ==========================================
-                MISSION NAVIGATION
-
-                Observation
-                Intervention
-                Validation
-            ========================================== */}
-
             <WorldNavigationTracker
               destination={
                 destination
@@ -1099,15 +1208,6 @@ export default function ScientificWorld({
             />
 
 
-            {/* ==========================================
-                PHASE 5D-8C
-                CIVILIZATION DISTRICT TRACKER
-
-                Determines:
-                - current district
-                - district destination distance
-            ========================================== */}
-
             <DistrictNavigationTracker
               destination={
                 districtDestination
@@ -1120,10 +1220,6 @@ export default function ScientificWorld({
               }
             />
 
-
-            {/* ==========================================
-                LIVING WORLD RUNTIME
-            ========================================== */}
 
             <WorldRuntimeController
               enabled={
@@ -1140,8 +1236,6 @@ export default function ScientificWorld({
 
       {/* ==================================================
           WORLD IDENTITY
-
-          Current district is now spatially derived.
       ================================================== */}
 
       {worldEntered && (
@@ -1164,11 +1258,210 @@ export default function ScientificWorld({
 
 
       {/* ==================================================
-          ACTIVE MISSION DESTINATION
+          MOBILE WORLD MENU
       ================================================== */}
 
       {worldEntered &&
-        destination && (
+        isMobileWorld && (
+          <>
+            <button
+              type="button"
+              className={[
+                "scientific-world__mobile-menu-button",
+
+                mobileHudOpen
+                  ? "is-open"
+                  : "",
+              ].join(
+                " ",
+              )}
+              aria-label={
+                mobileHudOpen
+                  ? "Close world interface"
+                  : "Open world interface"
+              }
+              aria-expanded={
+                mobileHudOpen
+              }
+              onClick={
+                toggleMobileHud
+              }
+            >
+              <span />
+              <span />
+              <span />
+            </button>
+
+
+            {mobileHudOpen && (
+              <div className="scientific-world__mobile-menu">
+                <header>
+                  <div>
+                    <small>
+                      WORLD INTERFACE
+                    </small>
+
+                    <strong>
+                      Scientific World
+                    </strong>
+                  </div>
+
+                  <span>
+                    {currentDistrict
+                      ? currentDistrict.label
+                      : "WORLD"}
+                  </span>
+                </header>
+
+
+                <div className="scientific-world__mobile-menu-grid">
+                  <button
+                    type="button"
+                    className={
+                      mobileHudPanel ===
+                      "districts"
+                        ? "is-active"
+                        : ""
+                    }
+                    onClick={() =>
+                      selectMobileHudPanel(
+                        "districts",
+                      )
+                    }
+                  >
+                    <small>
+                      01
+                    </small>
+
+                    <strong>
+                      Districts
+                    </strong>
+
+                    <span>
+                      Navigate city
+                    </span>
+                  </button>
+
+
+                  <button
+                    type="button"
+                    className={
+                      mobileHudPanel ===
+                      "map"
+                        ? "is-active"
+                        : ""
+                    }
+                    onClick={() =>
+                      selectMobileHudPanel(
+                        "map",
+                      )
+                    }
+                  >
+                    <small>
+                      02
+                    </small>
+
+                    <strong>
+                      Map
+                    </strong>
+
+                    <span>
+                      Mission space
+                    </span>
+                  </button>
+
+
+                  <button
+                    type="button"
+                    className={
+                      mobileHudPanel ===
+                      "mission"
+                        ? "is-active"
+                        : ""
+                    }
+                    onClick={() =>
+                      selectMobileHudPanel(
+                        "mission",
+                      )
+                    }
+                  >
+                    <small>
+                      03
+                    </small>
+
+                    <strong>
+                      Mission
+                    </strong>
+
+                    <span>
+                      Research sequence
+                    </span>
+                  </button>
+
+
+                  <button
+                    type="button"
+                    className={
+                      mobileHudPanel ===
+                      "runtime"
+                        ? "is-active"
+                        : ""
+                    }
+                    onClick={() =>
+                      selectMobileHudPanel(
+                        "runtime",
+                      )
+                    }
+                  >
+                    <small>
+                      04
+                    </small>
+
+                    <strong>
+                      Runtime
+                    </strong>
+
+                    <span>
+                      World conditions
+                    </span>
+                  </button>
+                </div>
+
+
+                {mobileHudPanel && (
+                  <button
+                    type="button"
+                    className="scientific-world__mobile-clear"
+                    onClick={
+                      closeMobileHudPanel
+                    }
+                  >
+                    <span>
+                      HIDE ACTIVE PANEL
+                    </span>
+
+                    <span>
+                      ×
+                    </span>
+                  </button>
+                )}
+              </div>
+            )}
+          </>
+        )}
+
+
+      {/* ==================================================
+          ACTIVE MISSION DESTINATION
+
+          Desktop only.
+          Mobile can inspect mission information
+          from the interface menu.
+      ================================================== */}
+
+      {worldEntered &&
+        destination &&
+        !isMobileWorld && (
           <div className="scientific-world__navigation">
             <small>
               MISSION DESTINATION
@@ -1197,63 +1490,82 @@ export default function ScientificWorld({
 
 
       {/* ==================================================
-          PHASE 5D-8C
           DISTRICT NAVIGATION HUD
-
-          Allows direct selection of:
-          Science
-          Evidence
-          Policy
-          Innovation
-          Civic
-          Lakeside
       ================================================== */}
 
-      {worldEntered && (
-        <DistrictNavigationHUD
-          destinations={
-            districtDestinations
-          }
-          destination={
-            districtDestination
-          }
-          currentDistrict={
-            currentDistrict
-          }
-          distance={
-            districtDistance
-          }
-          onSelect={
-            selectDistrict
-          }
-          onClear={
-            clearDistrictDestination
-          }
-        />
+      {showDistrictHud && (
+        <div className="scientific-world__hud-layer">
+          {isMobileWorld && (
+            <button
+              type="button"
+              className="scientific-world__panel-close"
+              aria-label="Close district navigation"
+              onClick={
+                closeMobileHudPanel
+              }
+            >
+              ×
+            </button>
+          )}
+
+          <DistrictNavigationHUD
+            destinations={
+              districtDestinations
+            }
+            destination={
+              districtDestination
+            }
+            currentDistrict={
+              currentDistrict
+            }
+            distance={
+              districtDistance
+            }
+            onSelect={
+              selectDistrict
+            }
+            onClear={
+              clearDistrictDestination
+            }
+          />
+        </div>
       )}
 
 
       {/* ==================================================
-          EXISTING SCIENTIFIC DISTRICT MAP
-
-          This remains mission-oriented.
+          SCIENTIFIC DISTRICT MAP
       ================================================== */}
 
-      {worldEntered && (
-        <ScientificDistrictMap
-          destinations={
-            navigationDestinations
-          }
-          destination={
-            destination
-          }
-          playerX={
-            playerPosition.x
-          }
-          playerZ={
-            playerPosition.z
-          }
-        />
+      {showDistrictMap && (
+        <div className="scientific-world__hud-layer">
+          {isMobileWorld && (
+            <button
+              type="button"
+              className="scientific-world__panel-close"
+              aria-label="Close district map"
+              onClick={
+                closeMobileHudPanel
+              }
+            >
+              ×
+            </button>
+          )}
+
+          <ScientificDistrictMap
+            destinations={
+              navigationDestinations
+            }
+            destination={
+              destination
+            }
+            playerX={
+              playerPosition.x
+            }
+            playerZ={
+              playerPosition.z
+            }
+          />
+        </div>
       )}
 
 
@@ -1261,12 +1573,27 @@ export default function ScientificWorld({
           WORLD RUNTIME HUD
       ================================================== */}
 
-      {worldEntered && (
-        <WorldRuntimeHUD
-          runtime={
-            worldRuntime
-          }
-        />
+      {showRuntimeHud && (
+        <div className="scientific-world__hud-layer">
+          {isMobileWorld && (
+            <button
+              type="button"
+              className="scientific-world__panel-close"
+              aria-label="Close runtime"
+              onClick={
+                closeMobileHudPanel
+              }
+            >
+              ×
+            </button>
+          )}
+
+          <WorldRuntimeHUD
+            runtime={
+              worldRuntime
+            }
+          />
+        </div>
       )}
 
 
@@ -1274,15 +1601,30 @@ export default function ScientificWorld({
           MISSION HUD
       ================================================== */}
 
-      {worldEntered && (
-        <ScientificMissionSystem
-          mission={
-            mission
-          }
-          activeStage={
-            activeMissionStage
-          }
-        />
+      {showMissionHud && (
+        <div className="scientific-world__hud-layer">
+          {isMobileWorld && (
+            <button
+              type="button"
+              className="scientific-world__panel-close"
+              aria-label="Close mission"
+              onClick={
+                closeMobileHudPanel
+              }
+            >
+              ×
+            </button>
+          )}
+
+          <ScientificMissionSystem
+            mission={
+              mission
+            }
+            activeStage={
+              activeMissionStage
+            }
+          />
+        </div>
       )}
 
 
@@ -1326,7 +1668,6 @@ export default function ScientificWorld({
           aria-hidden="true"
         >
           <span />
-
           <span />
         </div>
       )}
@@ -1382,10 +1723,6 @@ export default function ScientificWorld({
               </span>
             </header>
 
-
-            {/* ==========================================
-                PHYSICAL PARAMETERS
-            ========================================== */}
 
             <div className="scientific-world__parameters">
               {definition.controls.map(
@@ -1467,10 +1804,6 @@ export default function ScientificWorld({
             </div>
 
 
-            {/* ==========================================
-                THEORY
-            ========================================== */}
-
             <div className="scientific-world__theory">
               <small>
                 THEORY PREDICTION
@@ -1495,10 +1828,6 @@ export default function ScientificWorld({
               </span>
             </div>
 
-
-            {/* ==========================================
-                MEASUREMENT
-            ========================================== */}
 
             <div className="scientific-world__measurement">
               <div>
@@ -1553,10 +1882,6 @@ export default function ScientificWorld({
               </div>
             </div>
 
-
-            {/* ==========================================
-                RESIDUAL
-            ========================================== */}
 
             {residual !==
               null &&
@@ -1760,9 +2085,7 @@ export default function ScientificWorld({
 
         .scientific-world {
           position: absolute;
-
           inset: 0;
-
           isolation: isolate;
 
           width: 100dvw;
@@ -1789,7 +2112,6 @@ export default function ScientificWorld({
           touch-action: none;
 
           user-select: none;
-
           -webkit-user-select: none;
         }
 
@@ -1800,7 +2122,6 @@ export default function ScientificWorld({
 
         .scientific-world canvas {
           position: absolute !important;
-
           inset: 0 !important;
 
           display: block !important;
@@ -1887,7 +2208,7 @@ export default function ScientificWorld({
 
 
         /* ==================================================
-           ACTIVE MISSION NAVIGATION
+           MISSION NAVIGATION
         ================================================== */
 
         .scientific-world__navigation {
@@ -1913,7 +2234,8 @@ export default function ScientificWorld({
               0.07
             );
 
-          border-radius: 999px;
+          border-radius:
+            999px;
 
           background:
             rgba(
@@ -1999,6 +2321,23 @@ export default function ScientificWorld({
           font-size: 13px;
 
           font-weight: 420;
+        }
+
+
+        /* ==================================================
+           MOBILE WORLD MENU BUTTON
+        ================================================== */
+
+        .scientific-world__mobile-menu-button {
+          display: none;
+        }
+
+        .scientific-world__mobile-menu {
+          display: none;
+        }
+
+        .scientific-world__panel-close {
+          display: none;
         }
 
 
@@ -2121,7 +2460,8 @@ export default function ScientificWorld({
               0.15
             );
 
-          border-radius: 999px;
+          border-radius:
+            999px;
 
           background:
             rgba(
@@ -2192,8 +2532,7 @@ export default function ScientificWorld({
               )
             );
 
-          padding:
-            25px;
+          padding: 25px;
 
           border:
             1px solid
@@ -2360,7 +2699,6 @@ export default function ScientificWorld({
           touch-action: auto;
 
           user-select: auto;
-
           -webkit-user-select: auto;
         }
 
@@ -2442,7 +2780,7 @@ export default function ScientificWorld({
 
 
         /* ==================================================
-           EXPERIMENT PARAMETERS
+           PARAMETERS
         ================================================== */
 
         .scientific-world__parameters {
@@ -2850,16 +3188,12 @@ export default function ScientificWorld({
         .scientific-world__actions
         button {
           appearance: none;
-
-          -webkit-appearance:
-            none;
+          -webkit-appearance: none;
 
           min-width: 58px;
-
           min-height: 58px;
 
-          padding:
-            10px;
+          padding: 10px;
 
           border:
             1px solid
@@ -2915,9 +3249,11 @@ export default function ScientificWorld({
         }
 
         .scientific-world__interact {
-          min-width: 88px !important;
+          min-width:
+            88px !important;
 
-          min-height: 70px !important;
+          min-height:
+            70px !important;
         }
 
         .scientific-world__actions
@@ -3104,8 +3440,8 @@ export default function ScientificWorld({
             );
         }
 
-        .scientific-world__entry section
-        small {
+        .scientific-world__entry
+        section small {
           color:
             rgba(
               158,
@@ -3120,8 +3456,8 @@ export default function ScientificWorld({
             0.15em;
         }
 
-        .scientific-world__entry section
-        strong {
+        .scientific-world__entry
+        section strong {
           display: block;
 
           margin-top: 8px;
@@ -3157,9 +3493,7 @@ export default function ScientificWorld({
         .scientific-world__entry
         button {
           appearance: none;
-
-          -webkit-appearance:
-            none;
+          -webkit-appearance: none;
 
           width: 100%;
 
@@ -3225,11 +3559,12 @@ export default function ScientificWorld({
 
 
         /* ==================================================
-           DISTRICT HUD INTEGRATION
-
-           DistrictNavigationHUD owns its primary styling.
-           These rules reserve the right-side world UI lane.
+           HUD INTEGRATION
         ================================================== */
+
+        .scientific-world__hud-layer {
+          display: contents;
+        }
 
         .scientific-world
         .district-navigation-hud {
@@ -3247,39 +3582,694 @@ export default function ScientificWorld({
         (
           pointer: coarse
         ) {
+          /* ----------------------------------------------
+             IDENTITY
+          ---------------------------------------------- */
+
           .scientific-world__identity {
             top:
               max(
-                14px,
-                env(
-                  safe-area-inset-top
+                18px,
+                calc(
+                  env(
+                    safe-area-inset-top
+                  ) +
+                  8px
                 )
               );
 
-            left: 14px;
+            left:
+              max(
+                18px,
+                calc(
+                  env(
+                    safe-area-inset-left
+                  ) +
+                  14px
+                )
+              );
+
+            max-width:
+              calc(
+                100vw -
+                110px
+              );
           }
 
-          .scientific-world__navigation {
+          .scientific-world__identity
+          strong {
+            font-size: 10px;
+          }
+
+
+          /* ----------------------------------------------
+             MOBILE MENU BUTTON
+          ---------------------------------------------- */
+
+          .scientific-world__mobile-menu-button {
+            position: absolute;
+
             top:
               max(
                 14px,
-                env(
-                  safe-area-inset-top
+                calc(
+                  env(
+                    safe-area-inset-top
+                  ) +
+                  8px
                 )
               );
 
-            min-width:
-              160px;
+            right:
+              max(
+                14px,
+                calc(
+                  env(
+                    safe-area-inset-right
+                  ) +
+                  12px
+                )
+              );
+
+            z-index: 180;
+
+            width: 56px;
+            height: 56px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 5px;
+
+            padding: 0;
+
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.1
+              );
+
+            border-radius: 19px;
+
+            background:
+              rgba(
+                2,
+                5,
+                8,
+                0.62
+              );
+
+            -webkit-backdrop-filter:
+              blur(24px)
+              saturate(125%);
+
+            backdrop-filter:
+              blur(24px)
+              saturate(125%);
+
+            box-shadow:
+              inset
+              0
+              1px
+              0
+              rgba(
+                255,
+                255,
+                255,
+                0.05
+              ),
+              0
+              16px
+              50px
+              rgba(
+                0,
+                0,
+                0,
+                0.22
+              );
+
+            cursor: pointer;
+
+            touch-action:
+              manipulation;
+          }
+
+          .scientific-world__mobile-menu-button
+          span {
+            width: 22px;
+            height: 1.5px;
+
+            display: block;
+
+            border-radius:
+              999px;
+
+            background:
+              rgba(
+                246,
+                249,
+                252,
+                0.82
+              );
+
+            transition:
+              transform
+                0.25s ease,
+              opacity
+                0.2s ease;
+          }
+
+          .scientific-world__mobile-menu-button.is-open
+          span:first-child {
+            transform:
+              translateY(
+                6.5px
+              )
+              rotate(
+                45deg
+              );
+          }
+
+          .scientific-world__mobile-menu-button.is-open
+          span:nth-child(2) {
+            opacity: 0;
+          }
+
+          .scientific-world__mobile-menu-button.is-open
+          span:last-child {
+            transform:
+              translateY(
+                -6.5px
+              )
+              rotate(
+                -45deg
+              );
+          }
+
+
+          /* ----------------------------------------------
+             MOBILE WORLD MENU
+          ---------------------------------------------- */
+
+          .scientific-world__mobile-menu {
+            position: absolute;
+
+            top:
+              max(
+                84px,
+                calc(
+                  env(
+                    safe-area-inset-top
+                  ) +
+                  80px
+                )
+              );
+
+            right:
+              max(
+                14px,
+                calc(
+                  env(
+                    safe-area-inset-right
+                  ) +
+                  12px
+                )
+              );
+
+            z-index: 175;
+
+            width:
+              min(
+                330px,
+                calc(
+                  100vw -
+                  28px
+                )
+              );
+
+            display: block;
+
+            overflow: hidden;
+
+            padding: 18px;
+
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.09
+              );
+
+            border-radius: 25px;
+
+            background:
+              radial-gradient(
+                circle at 100% 0%,
+                rgba(
+                  158,
+                  223,
+                  255,
+                  0.055
+                ),
+                transparent 36%
+              ),
+              rgba(
+                2,
+                5,
+                8,
+                0.82
+              );
+
+            -webkit-backdrop-filter:
+              blur(32px)
+              saturate(125%);
+
+            backdrop-filter:
+              blur(32px)
+              saturate(125%);
+
+            box-shadow:
+              inset
+              0
+              1px
+              0
+              rgba(
+                255,
+                255,
+                255,
+                0.055
+              ),
+              0
+              30px
+              90px
+              rgba(
+                0,
+                0,
+                0,
+                0.34
+              );
+
+            touch-action:
+              auto;
+
+            user-select: none;
+            -webkit-user-select: none;
+          }
+
+          .scientific-world__mobile-menu
+          header {
+            display: flex;
+
+            align-items:
+              flex-start;
+
+            justify-content:
+              space-between;
+
+            gap: 20px;
 
             padding:
-              9px
-              13px;
+              2px
+              2px
+              16px;
           }
 
-          .scientific-world__navigation
-          span {
-            display: none;
+          .scientific-world__mobile-menu
+          header small {
+            display: block;
+
+            color:
+              rgba(
+                158,
+                223,
+                255,
+                0.46
+              );
+
+            font-size: 6px;
+
+            font-weight: 600;
+
+            letter-spacing:
+              0.18em;
           }
+
+          .scientific-world__mobile-menu
+          header strong {
+            display: block;
+
+            margin-top: 6px;
+
+            font-size: 14px;
+
+            font-weight: 430;
+
+            letter-spacing:
+              -0.01em;
+          }
+
+          .scientific-world__mobile-menu
+          header > span {
+            max-width: 110px;
+
+            overflow: hidden;
+
+            color:
+              rgba(
+                220,
+                230,
+                240,
+                0.36
+              );
+
+            font-size: 6px;
+
+            letter-spacing:
+              0.12em;
+
+            text-align: right;
+
+            text-overflow:
+              ellipsis;
+
+            white-space: nowrap;
+          }
+
+
+          /* ----------------------------------------------
+             MOBILE MENU GRID
+          ---------------------------------------------- */
+
+          .scientific-world__mobile-menu-grid {
+            display: grid;
+
+            grid-template-columns:
+              repeat(
+                2,
+                minmax(
+                  0,
+                  1fr
+                )
+              );
+
+            gap: 8px;
+          }
+
+          .scientific-world__mobile-menu-grid
+          button {
+            appearance: none;
+            -webkit-appearance: none;
+
+            min-width: 0;
+
+            min-height: 94px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items:
+              flex-start;
+
+            justify-content:
+              flex-end;
+
+            padding: 14px;
+
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.065
+              );
+
+            border-radius: 17px;
+
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              );
+
+            color:
+              rgba(
+                244,
+                248,
+                251,
+                0.82
+              );
+
+            font: inherit;
+
+            text-align: left;
+
+            cursor: pointer;
+
+            touch-action:
+              manipulation;
+          }
+
+          .scientific-world__mobile-menu-grid
+          button small {
+            margin-bottom: auto;
+
+            color:
+              rgba(
+                158,
+                223,
+                255,
+                0.34
+              );
+
+            font-size: 6px;
+
+            letter-spacing:
+              0.12em;
+          }
+
+          .scientific-world__mobile-menu-grid
+          button strong {
+            font-size: 11px;
+
+            font-weight: 480;
+          }
+
+          .scientific-world__mobile-menu-grid
+          button > span {
+            margin-top: 4px;
+
+            color:
+              rgba(
+                220,
+                230,
+                240,
+                0.3
+              );
+
+            font-size: 6px;
+
+            letter-spacing:
+              0.04em;
+          }
+
+          .scientific-world__mobile-menu-grid
+          button.is-active {
+            border-color:
+              rgba(
+                158,
+                223,
+                255,
+                0.22
+              );
+
+            background:
+              rgba(
+                158,
+                223,
+                255,
+                0.055
+              );
+
+            box-shadow:
+              inset
+              0
+              0
+              0
+              1px
+              rgba(
+                158,
+                223,
+                255,
+                0.025
+              );
+          }
+
+
+          /* ----------------------------------------------
+             HIDE ACTIVE PANEL
+          ---------------------------------------------- */
+
+          .scientific-world__mobile-clear {
+            appearance: none;
+            -webkit-appearance: none;
+
+            width: 100%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content:
+              space-between;
+
+            margin-top: 10px;
+
+            padding:
+              12px
+              4px
+              2px;
+
+            border: 0;
+
+            background:
+              transparent;
+
+            color:
+              rgba(
+                220,
+                230,
+                240,
+                0.4
+              );
+
+            font: inherit;
+
+            font-size: 6px;
+
+            letter-spacing:
+              0.14em;
+
+            cursor: pointer;
+
+            touch-action:
+              manipulation;
+          }
+
+          .scientific-world__mobile-clear
+          span:last-child {
+            font-size: 16px;
+
+            font-weight: 260;
+          }
+
+
+          /* ----------------------------------------------
+             ACTIVE HUD CLOSE BUTTON
+          ---------------------------------------------- */
+
+          .scientific-world__hud-layer {
+            display: contents;
+          }
+
+          .scientific-world__panel-close {
+            position: absolute;
+
+            top:
+              max(
+                18px,
+                calc(
+                  env(
+                    safe-area-inset-top
+                  ) +
+                  12px
+                )
+              );
+
+            right:
+              max(
+                82px,
+                calc(
+                  env(
+                    safe-area-inset-right
+                  ) +
+                  78px
+                )
+              );
+
+            z-index: 190;
+
+            width: 38px;
+            height: 38px;
+
+            display: grid;
+
+            place-items: center;
+
+            padding: 0;
+
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.08
+              );
+
+            border-radius: 50%;
+
+            background:
+              rgba(
+                2,
+                5,
+                8,
+                0.62
+              );
+
+            color:
+              rgba(
+                244,
+                248,
+                251,
+                0.64
+              );
+
+            -webkit-backdrop-filter:
+              blur(18px);
+
+            backdrop-filter:
+              blur(18px);
+
+            font: inherit;
+
+            font-size: 18px;
+
+            font-weight: 260;
+
+            cursor: pointer;
+
+            touch-action:
+              manipulation;
+          }
+
+
+          /* ----------------------------------------------
+             EXPERIMENT
+          ---------------------------------------------- */
 
           .scientific-world__experiment {
             top: auto;
@@ -3303,21 +4293,58 @@ export default function ScientificWorld({
               1fr;
           }
 
+
+          /* ----------------------------------------------
+             MOVEMENT
+          ---------------------------------------------- */
+
           .scientific-world__joystick {
-            left: 15px;
+            left:
+              max(
+                15px,
+                calc(
+                  env(
+                    safe-area-inset-left
+                  ) +
+                  10px
+                )
+              );
+
+            bottom:
+              max(
+                24px,
+                calc(
+                  env(
+                    safe-area-inset-bottom
+                  ) +
+                  12px
+                )
+              );
 
             width: 96px;
             height: 96px;
           }
 
           .scientific-world__actions {
-            right: 15px;
+            right:
+              max(
+                15px,
+                calc(
+                  env(
+                    safe-area-inset-right
+                  ) +
+                  10px
+                )
+              );
 
             bottom:
               max(
                 24px,
-                env(
-                  safe-area-inset-bottom
+                calc(
+                  env(
+                    safe-area-inset-bottom
+                  ) +
+                  12px
                 )
               );
           }
@@ -3350,36 +4377,56 @@ export default function ScientificWorld({
             display: none;
           }
 
-          .scientific-world__navigation {
-            top: 62px;
+          .scientific-world__identity
+          small {
+            font-size: 6px;
+          }
 
-            width:
-              min(
-                210px,
+          .scientific-world__identity
+          strong {
+            margin-top: 4px;
+
+            font-size: 9px;
+
+            letter-spacing:
+              0.07em;
+          }
+
+          .scientific-world__mobile-menu-button {
+            width: 52px;
+            height: 52px;
+
+            border-radius: 17px;
+          }
+
+          .scientific-world__mobile-menu {
+            top:
+              max(
+                78px,
                 calc(
-                  100vw -
-                  28px
+                  env(
+                    safe-area-inset-top
+                  ) +
+                  74px
                 )
               );
 
-            min-width: 0;
+            width:
+              calc(
+                100vw -
+                28px
+              );
+
+            padding: 16px;
+
+            border-radius: 22px;
           }
 
-          .scientific-world__navigation
-          small {
-            font-size: 5px;
-          }
+          .scientific-world__mobile-menu-grid
+          button {
+            min-height: 88px;
 
-          .scientific-world__navigation
-          strong {
-            font-size: 8px;
-          }
-
-          .scientific-world__navigation
-          b {
-            margin-top: 4px;
-
-            font-size: 11px;
+            padding: 13px;
           }
 
           .scientific-world__mission-complete {
