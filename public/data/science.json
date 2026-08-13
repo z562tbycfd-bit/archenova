@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-08-13T17:58:19.308Z",
+  "updated": "2026-08-13T19:13:50.959Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How 'pioneering pairs' of ospreys drive population recovery",
+      "url": "https://phys.org/news/2026-08-pairs-ospreys-population-recovery.html",
+      "summary": "A new study by Bournemouth University (BU) has found that faster recovery of osprey populations relies on a small number of ospreys that, unlike most, prefer to nest away from others of the same species. These birds have…",
+      "ts": 1786648201000,
+      "publishedAt": "2026-08-13T19:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Three days of Ontario wildfire smoke brought unhealthy air to 106 million person-days",
+      "url": "https://phys.org/news/2026-08-days-ontario-wildfire-brought-unhealthy.html",
+      "summary": "Smoke from Canada's July wildfires exposed people across Canada and the United States to unhealthy, very unhealthy or hazardous air for nearly 106 million person-days between July 15–17. Over the peak impact period of Ju…",
+      "ts": 1786647608000,
+      "publishedAt": "2026-08-13T19:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What a dry meteorite tells us about water on Mars",
+      "url": "https://phys.org/news/2026-08-dry-meteorite-mars.html",
+      "summary": "Detecting water where none remains today: Neutron and X-ray tomography make it possible. In an international study conducted with the participation of the Paul Scherrer Institute PSI, researchers have brought to light ma…",
+      "ts": 1786647601000,
+      "publishedAt": "2026-08-13T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One in four cocoa farm audits contain data manipulated to meet sustainability targets, researchers find",
+      "url": "https://phys.org/news/2026-08-cocoa-farm-sustainability.html",
+      "summary": "ETH researchers have used a sustainability program for cocoa cultivation in Côte d'Ivoire to demonstrate that, in one in four cases, data was manipulated to meet the program's requirements. If the auditor were aware of t…",
+      "ts": 1786646404000,
+      "publishedAt": "2026-08-13T18:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One-step synthesis of catalysts that turn carbon dioxide into useful methane",
+      "url": "https://phys.org/news/2026-08-synthesis-catalysts-carbon-dioxide-methane.html",
+      "summary": "A simple flame-synthesis method can produce highly active catalysts for converting carbon dioxide into methane, as reported by researchers from Science Tokyo. The team used flame-assisted spray pyrolysis to manufacture n…",
+      "ts": 1786646402000,
+      "publishedAt": "2026-08-13T18:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "India faces rising uncompensable heat stress, especially during monsoon season",
+      "url": "https://phys.org/news/2026-08-india-uncompensable-stress-monsoon-season.html",
+      "summary": "Animals struggle to cool down in extreme heat and high humidity, and heat stress is rising in many regions around the world. This is especially true for people in tropical countries, including populous India. In a new pa…",
+      "ts": 1786645205000,
+      "publishedAt": "2026-08-13T18:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How multilayer nanocoatings dissipate energy at the nanoscale to prevent failure",
+      "url": "https://phys.org/news/2026-08-multilayer-nanocoatings-dissipate-energy-nanoscale.html",
+      "summary": "An international research team including Alexander Korsunsky from the Skoltech Engineering Center has, for the first time, directly measured mechanical stresses at the contact between a diamond indenter and a complex nan…",
+      "ts": 1786645203000,
+      "publishedAt": "2026-08-13T18:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Millions of Europeans struggle with another wave of extreme heat",
+      "url": "https://phys.org/news/2026-08-millions-europeans-struggle-extreme.html",
+      "summary": "Millions of people across Europe—particularly in France, Italy, Spain and the UK—sweltered through another wave of extreme temperatures Thursday as the continent's latest heat wave intensified.",
+      "ts": 1786645152000,
+      "publishedAt": "2026-08-13T18:19:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Review of studies on single-use plastics reveals broader circular economy approach is needed",
+      "url": "https://phys.org/news/2026-08-plastics-reveals-broader-circular-economy.html",
+      "summary": "A review of research published in the Interdisciplinary Environmental Review on single-use plastics argues that tackling the waste problem will require a shift from recycling alone to a broader circular economy approach,…",
+      "ts": 1786644008000,
+      "publishedAt": "2026-08-13T18:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Paleontologists reconstruct forests of 56 million years ago with chilling parallels for our warming planet",
+      "url": "https://phys.org/news/2026-08-paleontologists-reconstruct-forests-million-years.html",
+      "summary": "If you want to know how rapidly pumping carbon dioxide into the atmosphere will affect future forest ecosystems, you have to look into the distant past. The researchers behind a new study published in Science have done j…",
+      "ts": 1786644006000,
+      "publishedAt": "2026-08-13T18:00:06.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "The glue that binds a proton may be key to its identity",
+      "url": "https://www.sciencenews.org/article/gluons-proton-identity-baryon",
+      "summary": "Gluons do more than hold protons together. They may also help define the proton’s identity through a quantum property called baryon number.",
+      "ts": 1786644000000,
+      "publishedAt": "2026-08-13T18:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Climate change decided who ruled as top predator 35 million years ago",
@@ -283,6 +371,14 @@
       "publishedAt": "2026-08-13T10:40:02.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Thermoelasticity-induced interferometer-displacement noise from the test mass in spaceborne gravitational-wave detectors",
+      "url": "http://link.aps.org/doi/10.1103/7jv7-zw4y",
+      "summary": "Author(s): Xingyu Yan, Fulong Wei, Shen Zhan, and Zebing Zhou In spaceborne gravitational-wave detectors, the test mass is treated as an ideal rigid end mirror for interferometric-displacement readout. In reality, howeve…",
+      "ts": 1786615200000,
+      "publishedAt": "2026-08-13T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Taming Trotter Errors with Quantum Resources",
       "url": "http://link.aps.org/doi/10.1103/qf86-f5jg",
@@ -383,14 +479,6 @@
       "title": "Most informative Cramér-Rao bound for quantum two-parameter estimation with pure-state probes",
       "url": "http://link.aps.org/doi/10.1103/2nx2-k97n",
       "summary": "Author(s): Simon K. Yung, C. M. Yung, Lorcán O. Conlon, and Syed M. Assad Optimal measurements for quantum multiparameter estimation are complicated by the uncertainty principle. Generally, there is a trade-off between t…",
-      "ts": 1786615200000,
-      "publishedAt": "2026-08-13T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Thermoelasticity-induced interferometer-displacement noise from the test mass in spaceborne gravitational-wave detectors",
-      "url": "http://link.aps.org/doi/10.1103/7jv7-zw4y",
-      "summary": "Author(s): Xingyu Yan, Fulong Wei, Shen Zhan, and Zebing Zhou In spaceborne gravitational-wave detectors, the test mass is treated as an ideal rigid end mirror for interferometric-displacement readout. In reality, howeve…",
       "ts": 1786615200000,
       "publishedAt": "2026-08-13T10:00:00.000Z"
     },
@@ -711,94 +799,6 @@
       "title": "The Ambipolar electric field in multispecies plasma atmospheres: effects of alpha particles and stochastic heating",
       "url": "https://arxiv.org/abs/2608.12014",
       "summary": "arXiv:2608.12014v1 Announce Type: new Abstract: We investigate stationary states of a collisionless, gravitationally stratified plasma atmosphere composed of electrons, protons, and alpha particles by extending Pannekoek…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sectoral inter-dependencies drive the loss of structural balance in signed financial networks",
-      "url": "https://arxiv.org/abs/2608.12023",
-      "summary": "arXiv:2608.12023v1 Announce Type: new Abstract: Signed graphs provide an effective architecture for portraying a system in which cooperation and conflict coexist. Emerging from the concept of balance in psychological sci…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A transport geometry of acoustic analogies:exact holonomy of source re-attribution and its observable consequences",
-      "url": "https://arxiv.org/abs/2608.12031",
-      "summary": "arXiv:2608.12031v1 Announce Type: new Abstract: The source term of an acoustic analogy is not unique: different rearrangements of the Navier-Stokes equations attribute the same radiated sound to different apparent source…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial and energetic correlations of ultrashort two electron pulses",
-      "url": "https://arxiv.org/abs/2608.12040",
-      "summary": "arXiv:2608.12040v1 Announce Type: new Abstract: When two electrons are emitted from a metallic needle tip into a nanometric volume on femtosecond timescales, strong Coulomb correlations arise. While longitudinal correlat…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strain-coupled one-dimensional turbulence for rapid distortion",
-      "url": "https://arxiv.org/abs/2608.12048",
-      "summary": "arXiv:2608.12048v1 Announce Type: new Abstract: The distortion of turbulence by mean strain - through component amplification, pressure-mediated redistribution and spectral rescaling - is central to flows ranging from wi…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Background decomposition of the CONUS+ run 1 data",
-      "url": "https://arxiv.org/abs/2608.12065",
-      "summary": "arXiv:2608.12065v1 Announce Type: new Abstract: The CONUS+ experiment is measuring the coherent elastic neutrino nucleus scattering (CE$\\nu$NS) process using reactor anti-neutrinos as a source and four low energy thresho…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Simulation to Real Scans: Anomaly Detection in Maritime Cargo with Muon Scattering Tomography",
-      "url": "https://arxiv.org/abs/2608.12068",
-      "summary": "arXiv:2608.12068v1 Announce Type: new Abstract: Maritime cargo inspection requires imaging technologies capable of detecting concealed threats within dense, sealed containers, a role for which Muon Scattering Tomography …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Twist-Reconfigurable van der Waals Moir\\'e Photonic Crystals",
-      "url": "https://arxiv.org/abs/2608.12128",
-      "summary": "arXiv:2608.12128v1 Announce Type: new Abstract: Moir\\'e photonics has emerged as a fascinating concept to design and in situ control of the optical bands. Moir\\'e enabled light localisation arises from the relative twist…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robustness over efficiency in climate coalitions: a bistable model and a map of architectures",
-      "url": "https://arxiv.org/abs/2608.12143",
-      "summary": "arXiv:2608.12143v1 Announce Type: new Abstract: Designs for international climate cooperation face a trade-off between allocative efficiency and robustness to the erosion of institutions by defection, renegotiation, and …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reducing Spectral Oscillations for Robust Reference Frequency-Based Ultrasound Attenuation Estimation in Harmonic Imaging",
-      "url": "https://arxiv.org/abs/2608.12169",
-      "summary": "arXiv:2608.12169v1 Announce Type: new Abstract: Ultrasound attenuation coefficient estimation (ACE) has emerged as a quantitative imaging biomarker for noninvasive assessment of hepatic steatosis. A system-independent te…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Economic Distance Structures Urban Mobility in 109 U.S. Cities",
-      "url": "https://arxiv.org/abs/2608.12180",
-      "summary": "arXiv:2608.12180v1 Announce Type: new Abstract: Urban mobility promises social integration, yet daily movement is systematically constrained by socioeconomic hierarchies. Introducing \"economic distance\"--the continuous i…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 2D Hydrothermodynamic Analytical Model for Rapid Tumor Ablation using High-Intensity Focused Ultrasound",
-      "url": "https://arxiv.org/abs/2608.12200",
-      "summary": "arXiv:2608.12200v1 Announce Type: new Abstract: We establish a self-consistent 2D hydrothermodynamic analytical model for the localized thermal ablation of dense human tumors using high-intensity focused ultrasound. By e…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     }
