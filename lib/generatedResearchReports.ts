@@ -1,6 +1,226 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "ai-teens-are-turning-to-ai-chatbots-for-emotional-support-here-s-how-to-keep-kids-s",
+    "title": "Teens are turning to AI chatbots for emotional support—here's how to keep kids safe",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-teens-ai-chatbots-emotional-kids.html",
+    "summary": "It's 2 a.m., and a teenage girl, worrying about an issue with a friend, lies awake. Rather than wake her parents, she picks up her phone, opens an AI app and types, \"I'm so stressed out, I can't sleep.\"",
+    "coreInsight": "Teens are turning to AI chatbots for emotional support—here's how to keep kids safe is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "It's 2 a.m., and a teenage girl, worrying about an issue with a friend, lies awake. Rather than wake her parents, she picks up her phone, opens an AI app and types, \"I'm so stressed out, I can't sleep.\"",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1786664404000
+  },
+  {
+    "slug": "ai-two-oceans-one-country-and-20-times-more-sharks-in-the-prehistoric-pacific",
+    "title": "Two oceans, one country—and 20 times more sharks in the prehistoric Pacific",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-oceans-country-sharks-prehistoric-pacific.html",
+    "summary": "How many sharks should a coral reef have? It sounds like a simple question, but almost nowhere on Earth is there a reef that has not at some time been fished or otherwise affected by humans, so there is no yardstick agai…",
+    "coreInsight": "Two oceans, one country—and 20 times more sharks in the prehistoric Pacific is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "How many sharks should a coral reef have? It sounds like a simple question, but almost nowhere on Earth is there a reef that has not at some time been fished or otherwise affected by humans, so there is no yardstick agai…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1786664401000
+  },
+  {
+    "slug": "ai-layered-nano-biohybrid-uses-sunlight-air-and-water-to-make-hydrogen-peroxide",
+    "title": "Layered nano-biohybrid uses sunlight, air and water to make hydrogen peroxide",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-layered-nano-biohybrid-sunlight-air.html",
+    "summary": "A research team led by the U.S. Department of Energy's (DOE) Argonne National Laboratory has developed a new material that combines inorganic material with biological components to produce hydrogen peroxide more efficien…",
+    "coreInsight": "Layered nano-biohybrid uses sunlight, air and water to make hydrogen peroxide indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "A research team led by the U.S. Department of Energy's (DOE) Argonne National Laboratory has developed a new material that combines inorganic material with biological components to produce hydrogen peroxide more efficien…",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9,
+      "engineering": 9.4,
+      "economic": 9.6,
+      "civilization": 10,
+      "overall": 9.5,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1786663202000
+  },
+  {
+    "slug": "bio-fulfilling-friendships-linked-to-better-health-and-well-being-across-22-countrie",
+    "title": "Fulfilling friendships linked to better health and well-being across 22 countries",
+    "category": "Bio",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-fulfilling-friendships-linked-health-countries.html",
+    "summary": "Fulfilling friendships and close social relationships are strongly linked to excellent physical and mental health, finds a substantial global study published in the Journal of Mental Health.",
+    "coreInsight": "Fulfilling friendships linked to better health and well-being across 22 countries indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "Fulfilling friendships and close social relationships are strongly linked to excellent physical and mental health, finds a substantial global study published in the Journal of Mental Health.",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.6,
+      "engineering": 8,
+      "economic": 8.5,
+      "civilization": 9.1,
+      "overall": 8.6,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1786662602000
+  },
+  {
     "slug": "energy-tracer-exchange-reveals-ions-can-speed-up-or-slow-down-inside-battery-solids",
     "title": "Tracer exchange reveals ions can speed up or slow down inside battery solids",
     "category": "Energy",
@@ -1101,116 +1321,6 @@ export const generatedResearchReports =
     "ts": 1786652405000
   },
   {
-    "slug": "general-eu-s-race-for-lithium-and-rare-earths-sidelined-calls-to-reduce-consumption-find",
-    "title": "EU's race for lithium and rare earths sidelined calls to reduce consumption, finds study",
-    "category": "General",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-eu-lithium-rare-earths-sidelined.html",
-    "summary": "In 2024, the Critical Raw Materials Act (CRMA) came into force. The regulation is intended to secure Europe's supply of critical raw materials, especially minerals and metals such as lithium, cobalt, and rare earth eleme…",
-    "coreInsight": "EU's race for lithium and rare earths sidelined calls to reduce consumption, finds study is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "In 2024, the Critical Raw Materials Act (CRMA) came into force. The regulation is intended to secure Europe's supply of critical raw materials, especially minerals and metals such as lithium, cobalt, and rare earth eleme…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Capability Expansion",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1786651204000
-  },
-  {
-    "slug": "general-beyond-the-algorithm-online-negativity-takes-on-a-life-of-its-own-as-users-try-t",
-    "title": "Beyond the algorithm, online negativity takes on a life of its own as users try to stand out",
-    "category": "General",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-algorithm-online-negativity-life-users.html",
-    "summary": "It doesn't take a scientist to figure out that social media can trend toward the negative. But it might take one to figure out why. In a new paper in PNAS, professor of psychology Joshua Conrad Jackson and colleagues sho…",
-    "coreInsight": "Beyond the algorithm, online negativity takes on a life of its own as users try to stand out is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "It doesn't take a scientist to figure out that social media can trend toward the negative. But it might take one to figure out why. In a new paper in PNAS, professor of psychology Joshua Conrad Jackson and colleagues sho…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1786651201000
-  },
-  {
     "slug": "ai-nasa-s-737-reveals-new-paint",
     "title": "NASA’s 737 Reveals New Paint",
     "category": "AI",
@@ -1264,116 +1374,6 @@ export const generatedResearchReports =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1786650083000
-  },
-  {
-    "slug": "general-magnetic-mystery-in-thorium-clusters-resolved-by-new-study",
-    "title": "Magnetic mystery in thorium clusters resolved by new study",
-    "category": "General",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-magnetic-mystery-thorium-clusters.html",
-    "summary": "Scientists from the University of Manchester's Department of Chemistry, Centre for Radiochemistry Research and Photon Science Institute, led by Professor Steve Liddle, have uncovered why a rare class of metal clusters ap…",
-    "coreInsight": "Magnetic mystery in thorium clusters resolved by new study is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "Scientists from the University of Manchester's Department of Chemistry, Centre for Radiochemistry Research and Photon Science Institute, led by Professor Steve Liddle, have uncovered why a rare class of metal clusters ap…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1786650005000
-  },
-  {
-    "slug": "bio-when-important-local-knowledge-about-nature-and-climate-is-not-put-to-use",
-    "title": "When important local knowledge about nature and climate is not put to use",
-    "category": "Bio",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-important-local-knowledge-nature-climate.html",
-    "summary": "Climate change and biodiversity loss require us to base our decisions on the best possible knowledge. Yet a new study conducted by Dr. Roxana Roos at the University of Bergen shows that valuable knowledge about local nat…",
-    "coreInsight": "When important local knowledge about nature and climate is not put to use indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
-    "scientificSignal": "Climate change and biodiversity loss require us to base our decisions on the best possible knowledge. Yet a new study conducted by Dr. Roxana Roos at the University of Bergen shows that valuable knowledge about local nat…",
-    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Measurement reliability",
-      "Regional variability",
-      "Institutional adoption",
-      "Long-term financing and governance"
-    ],
-    "watchpoints": [
-      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.4,
-      "engineering": 8.2,
-      "economic": 8.3,
-      "civilization": 9.5,
-      "overall": 8.7,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1786650001000
   },
   {
     "slug": "ai-financial-value-of-ai-agents-in-drug-development",
@@ -5733,21 +5733,21 @@ export const archeNovaTopSignals =
     "ts": 1786593600000
   },
   {
-    "slug": "ai-previewing-ultrafast-mode-gpt-5-6-sol-at-up-to-14x-the-speed",
-    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "slug": "ai-layered-nano-biohybrid-uses-sunlight-air-and-water-to-make-hydrogen-peroxide",
+    "title": "Layered nano-biohybrid uses sunlight, air and water to make hydrogen peroxide",
     "category": "AI",
-    "source": "OpenAI",
-    "originalUrl": "https://openai.com/index/previewing-ultrafast",
-    "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-    "coreInsight": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-layered-nano-biohybrid-sunlight-air.html",
+    "summary": "A research team led by the U.S. Department of Energy's (DOE) Argonne National Laboratory has developed a new material that combines inorganic material with biological components to produce hydrogen peroxide more efficien…",
+    "coreInsight": "Layered nano-biohybrid uses sunlight, air and water to make hydrogen peroxide indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "A research team led by the U.S. Department of Energy's (DOE) Argonne National Laboratory has developed a new material that combines inorganic material with biological components to produce hydrogen peroxide more efficien…",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
     "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
+    "civilizationFunction": "Capability Expansion",
     "keyConstraints": [
       "Technical reliability",
       "Grid or industrial integration",
@@ -5785,7 +5785,7 @@ export const archeNovaTopSignals =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
-    "ts": 1786615200000
+    "ts": 1786663202000
   },
   {
     "slug": "energy-building-a-practical-path-to-post-quantum-cryptography",
@@ -5841,6 +5841,61 @@ export const archeNovaTopSignals =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1786644702000
+  },
+  {
+    "slug": "ai-previewing-ultrafast-mode-gpt-5-6-sol-at-up-to-14x-the-speed",
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "category": "AI",
+    "source": "OpenAI",
+    "originalUrl": "https://openai.com/index/previewing-ultrafast",
+    "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "coreInsight": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9,
+      "engineering": 9.4,
+      "economic": 9.6,
+      "civilization": 10,
+      "overall": 9.5,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1786615200000
   },
   {
     "slug": "ai-unlocking-ccus-ready-coal-power-investments-a-spatial-real-options-approach",
@@ -6006,62 +6061,6 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1786622400000
-  },
-  {
-    "slug": "space-mtg-i1-captures-eclipse-path-of-totality-over-europe",
-    "title": "MTG-I1 captures eclipse path of totality over Europe",
-    "category": "Space",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I1_captures_eclipse_path_of_totality_over_Europe",
-    "summary": "Video: 00:00:04 Yesterday between 20:26 and 20:34 CEST, parts of the Iberian peninsula experienced a total solar eclipse. This animation, composed of images from the Meteosat Third Generation Imager satellite (MTG-I1), c…",
-    "coreInsight": "MTG-I1 captures eclipse path of totality over Europe indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Video: 00:00:04 Yesterday between 20:26 and 20:34 CEST, parts of the Iberian peninsula experienced a total solar eclipse. This animation, composed of images from the Meteosat Third Generation Imager satellite (MTG-I1), c…",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Infrastructure Formation",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.5,
-      "engineering": 8.9,
-      "economic": 9.2,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1786609800000
   }
 ];
 
@@ -6297,6 +6296,63 @@ export const archeNovaWatchlist =
     "rank": 4
   },
   {
+    "slug": "ai-layered-nano-biohybrid-uses-sunlight-air-and-water-to-make-hydrogen-peroxide",
+    "title": "Layered nano-biohybrid uses sunlight, air and water to make hydrogen peroxide",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-layered-nano-biohybrid-sunlight-air.html",
+    "summary": "A research team led by the U.S. Department of Energy's (DOE) Argonne National Laboratory has developed a new material that combines inorganic material with biological components to produce hydrogen peroxide more efficien…",
+    "coreInsight": "Layered nano-biohybrid uses sunlight, air and water to make hydrogen peroxide indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "A research team led by the U.S. Department of Energy's (DOE) Argonne National Laboratory has developed a new material that combines inorganic material with biological components to produce hydrogen peroxide more efficien…",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9,
+      "engineering": 9.4,
+      "economic": 9.6,
+      "civilization": 10,
+      "overall": 9.5,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1786663202000,
+    "trend": "High Priority",
+    "rank": 5
+  },
+  {
     "slug": "energy-building-a-practical-path-to-post-quantum-cryptography",
     "title": "Building a practical path to post-quantum cryptography",
     "category": "Energy",
@@ -6351,7 +6407,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786644702000,
     "trend": "High Priority",
-    "rank": 5
+    "rank": 6
   },
   {
     "slug": "ai-previewing-ultrafast-mode-gpt-5-6-sol-at-up-to-14x-the-speed",
@@ -6408,7 +6464,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786615200000,
     "trend": "High Priority",
-    "rank": 6
+    "rank": 7
   },
   {
     "slug": "ai-unlocking-ccus-ready-coal-power-investments-a-spatial-real-options-approach",
@@ -6465,7 +6521,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786593600000,
     "trend": "High Priority",
-    "rank": 7
+    "rank": 8
   },
   {
     "slug": "space-an-optical-link-internet-to-connect-networks-in-space",
@@ -6522,7 +6578,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786631966000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 9
   },
   {
     "slug": "ai-gaza-destruction-of-buildings-rises-by-nearly-10-per-cent-since-ceasefire",
@@ -6579,7 +6635,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786622400000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "space-mtg-i1-captures-eclipse-path-of-totality-over-europe",
@@ -6637,7 +6693,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786609800000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "ai-nasa-s-737-reveals-new-paint",
@@ -6694,7 +6750,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786650083000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "ai-paragon-lays-off-staff-after-gateway-cancellation",
@@ -6751,7 +6807,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786616036000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "space-relativistic-dirac-coulomb-breit-four-component-multireference-perturbation-theo",
@@ -6808,7 +6864,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786593600000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "energy-tracer-exchange-reveals-ions-can-speed-up-or-slow-down-inside-battery-solids",
@@ -6865,7 +6921,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786660803000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "space-space-force-awards-five-companies-60-million-for-multi-vendor-satellite-network-",
@@ -6922,7 +6978,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786658400000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "energy-rechargeable-nickel-reservoir-enables-nitrile-production-in-organic-solvents",
@@ -6979,7 +7035,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786652406000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "bio-the-coming-shift-from-biomarkers-to-biological-trajectories",
@@ -7037,7 +7093,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786640429000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "space-space-command-expands-alabama-footprint-as-headquarters-relocation-advances",
@@ -7094,7 +7150,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786638425000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 19
   },
   {
     "slug": "ai-stars-plasma-spurts-may-be-blocked-by-magnetic-fields",
@@ -7150,64 +7206,6 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1786633200000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "space-stat-pharmalittle-we-re-reading-about-california-insulin-sales-a-moderna-patent-",
-    "title": "STAT+: Pharmalittle: We’re reading about California insulin sales, a Moderna patent battle, and more",
-    "category": "Space",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss",
-    "summary": "Seven months after the launch of its own low-cost insulin brand, California has distributed more than 120,000 five-pen packs of insulin glargine priced at $55 each",
-    "coreInsight": "STAT+: Pharmalittle: We’re reading about California insulin sales, a Moderna patent battle, and more indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Seven months after the launch of its own low-cost insulin brand, California has distributed more than 120,000 five-pen packs of insulin glargine priced at $55 each",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 8.5,
-      "economic": 8.8,
-      "civilization": 9.6,
-      "overall": 9,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1786627182000,
     "trend": "Stable",
     "rank": 20
   }

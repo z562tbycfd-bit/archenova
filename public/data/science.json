@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-13T22:44:17.686Z",
+  "updated": "2026-08-13T23:43:11.352Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Teens are turning to AI chatbots for emotional support—here's how to keep kids safe",
+      "url": "https://phys.org/news/2026-08-teens-ai-chatbots-emotional-kids.html",
+      "summary": "It's 2 a.m., and a teenage girl, worrying about an issue with a friend, lies awake. Rather than wake her parents, she picks up her phone, opens an AI app and types, \"I'm so stressed out, I can't sleep.\"",
+      "ts": 1786664404000,
+      "publishedAt": "2026-08-13T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two oceans, one country—and 20 times more sharks in the prehistoric Pacific",
+      "url": "https://phys.org/news/2026-08-oceans-country-sharks-prehistoric-pacific.html",
+      "summary": "How many sharks should a coral reef have? It sounds like a simple question, but almost nowhere on Earth is there a reef that has not at some time been fished or otherwise affected by humans, so there is no yardstick agai…",
+      "ts": 1786664401000,
+      "publishedAt": "2026-08-13T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Layered nano-biohybrid uses sunlight, air and water to make hydrogen peroxide",
+      "url": "https://phys.org/news/2026-08-layered-nano-biohybrid-sunlight-air.html",
+      "summary": "A research team led by the U.S. Department of Energy's (DOE) Argonne National Laboratory has developed a new material that combines inorganic material with biological components to produce hydrogen peroxide more efficien…",
+      "ts": 1786663202000,
+      "publishedAt": "2026-08-13T23:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fulfilling friendships linked to better health and well-being across 22 countries",
+      "url": "https://phys.org/news/2026-08-fulfilling-friendships-linked-health-countries.html",
+      "summary": "Fulfilling friendships and close social relationships are strongly linked to excellent physical and mental health, finds a substantial global study published in the Journal of Mental Health.",
+      "ts": 1786662602000,
+      "publishedAt": "2026-08-13T23:10:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tracer exchange reveals ions can speed up or slow down inside battery solids",
@@ -767,38 +799,6 @@
       "title": "Reducing Spectral Oscillations for Robust Reference Frequency-Based Ultrasound Attenuation Estimation in Harmonic Imaging",
       "url": "https://arxiv.org/abs/2608.12169",
       "summary": "arXiv:2608.12169v1 Announce Type: new Abstract: Ultrasound attenuation coefficient estimation (ACE) has emerged as a quantitative imaging biomarker for noninvasive assessment of hepatic steatosis. A system-independent te…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Economic Distance Structures Urban Mobility in 109 U.S. Cities",
-      "url": "https://arxiv.org/abs/2608.12180",
-      "summary": "arXiv:2608.12180v1 Announce Type: new Abstract: Urban mobility promises social integration, yet daily movement is systematically constrained by socioeconomic hierarchies. Introducing \"economic distance\"--the continuous i…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 2D Hydrothermodynamic Analytical Model for Rapid Tumor Ablation using High-Intensity Focused Ultrasound",
-      "url": "https://arxiv.org/abs/2608.12200",
-      "summary": "arXiv:2608.12200v1 Announce Type: new Abstract: We establish a self-consistent 2D hydrothermodynamic analytical model for the localized thermal ablation of dense human tumors using high-intensity focused ultrasound. By e…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Derivation and application of sheath boundary conditions for drift-kinetic simulations in a linear plasma device based on a gyromoment approach",
-      "url": "https://arxiv.org/abs/2608.12205",
-      "summary": "arXiv:2608.12205v1 Announce Type: new Abstract: Boundary conditions for a drift-kinetic model at the collisional presheath entrance with perpendicular incidence of the magnetic field to the wall are derived and numerical…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of Soret Diffusion and Radiative Heat Loss on the Evolution of Buoyant Flame Kernels in Ultra-Lean Hydrogen-Air Mixture",
-      "url": "https://arxiv.org/abs/2608.12223",
-      "summary": "arXiv:2608.12223v1 Announce Type: new Abstract: Ultra-lean hydrogen flames under terrestrial gravity are governed by a coupled interaction among preferential diffusion, thermal diffusion, heat loss, and self-induced conv…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     }

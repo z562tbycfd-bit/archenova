@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-13T22:44:20.960Z",
+  "updated": "2026-08-13T23:43:14.557Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -408,15 +408,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Cascade Volcanoes Shrouded in Smoke",
-      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
-      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "arXiv q-bio",
       "title": "CosMAP: Contrastive Manifold Approximation and Projection for Dimensionality Reduction of Omics and Genealogical Data",
       "url": "https://arxiv.org/abs/2608.11269",
@@ -622,6 +613,15 @@
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Cascade Volcanoes Shrouded in Smoke",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
+      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
+      "ts": 1786593600000,
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
