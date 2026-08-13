@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-13T11:49:43.389Z",
+  "updated": "2026-08-13T13:16:14.595Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "Class Is in Session: GeForce NOW Levels Up Linux, Chromebooks and More",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-linux-native-app/",
+      "summary": "GeForce NOW is giving cloud gaming an extra-credit upgrade just in time for back-to-school season. The native Linux app for GeForce NOW is officially out of beta. GeForce NOW is also delivering new cloud optimizations th…",
+      "ts": 1786626033000,
+      "publishedAt": "2026-08-13T13:00:33.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: An investigation into Commure, and  Medicare’s new-tech incentives for AI devices",
+      "url": "https://www.statnews.com/2026/08/13/commure-investigation-medicare-tech-incentives-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: a deep dive into General Catalyst-backed Commure, and Medicare's tech incentives for AI devices.",
+      "ts": 1786624166000,
+      "publishedAt": "2026-08-13T12:29:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the …",
+      "ts": 1786623000000,
+      "publishedAt": "2026-08-13T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Neurocrine Biosciences and the delicate balance of benefit and risk",
@@ -784,33 +811,6 @@
       "ts": 1786523400000,
       "publishedAt": "2026-08-12T08:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Climate change is making people with chronic illness even sicker",
-      "url": "https://www.statnews.com/2026/08/12/climate-change-chronic-disease-heat-smoke-arthritis-lupus-pots/?utm_campaign=rss",
-      "summary": "“What research can definitively tell us is that climate change is here, and it’s already making people sick,” writes Lorraine Boissoneault.",
-      "ts": 1786523400000,
-      "publishedAt": "2026-08-12T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Inside a $7 billion Silicon Valley startup’s mad dash to automate the business of health care",
-      "url": "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/?utm_campaign=rss",
-      "summary": "Commure wants to automate health care's administrative tasks with AI. An inside look at the messy realities of the startup's ambitious quest.",
-      "ts": 1786523400000,
-      "publishedAt": "2026-08-12T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Five Reasons Students Should Visit the IAEA Visitor Centre",
-      "url": "http://www.iaea.org/newscenter/news/five-reasons-students-should-visit-the-iaea-visitor-centre",
-      "summary": "",
-      "ts": 1786519806000,
-      "publishedAt": "2026-08-12T07:30:06.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
