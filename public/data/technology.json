@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-13T21:21:43.775Z",
+  "updated": "2026-08-13T21:48:36.102Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
+      "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+      "summary": "Listen to the session or watch below The “censorship-industrial complex” is an idea that a network of government, tech, and research groups is collaborating to suppress conservative online speech. This was fodder for the…",
+      "ts": 1786654800000,
+      "publishedAt": "2026-08-13T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Advancing Microbial-Derived Biologics from Scale-Up to Commercial Production",
@@ -802,15 +811,6 @@
       "ts": 1786543993000,
       "publishedAt": "2026-08-12T14:13:13.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-      "summary": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition is earned directly from the people who know their leadership the best — employees. Hua…",
-      "ts": 1786543200000,
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
