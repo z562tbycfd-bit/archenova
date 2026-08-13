@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-08-13T19:13:50.959Z",
+  "updated": "2026-08-13T20:45:44.954Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "There's nothing 'wild' about most wildfires. Humans start them and have made them more dangerous",
+      "url": "https://phys.org/news/2026-08-wild-wildfires-humans-dangerous.html",
+      "summary": "A wildfire needs a name long before anyone knows what caused it. When the pines of the Gironde in southwestern France caught fire in July, the fire was reported within hours under the name of the ground it was burning. B…",
+      "ts": 1786653603000,
+      "publishedAt": "2026-08-13T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does your city match your relationship status? New study exposes the hidden costs of urban living",
+      "url": "https://phys.org/news/2026-08-city-relationship-status-exposes-hidden.html",
+      "summary": "Kids, marriage and commute: A study co-authored by Dr. Mariana Macedo of Constructor University provides new insights into how major life transitions alter how individuals navigate and experience urban environments. Publ…",
+      "ts": 1786653601000,
+      "publishedAt": "2026-08-13T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rechargeable nickel reservoir enables nitrile production in organic solvents",
+      "url": "https://phys.org/news/2026-08-rechargeable-nickel-reservoir-enables-nitrile.html",
+      "summary": "Inspired by pumped-storage hydropower, a nickel-based redox reservoir enables spontaneous nitrile synthesis in organic solvents, while hydrogen gas is produced separately.",
+      "ts": 1786652406000,
+      "publishedAt": "2026-08-13T20:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Real mummy's curse' behind sale and trade of mummified remains exposed",
+      "url": "https://phys.org/news/2026-08-real-mummy-curse-sale-mummified.html",
+      "summary": "A new study, led by researchers at the University of Staffordshire, has found evidence of potentially hazardous microbial growth on mummified human and animal remains advertised for sale online—posing risks to both selle…",
+      "ts": 1786652405000,
+      "publishedAt": "2026-08-13T20:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "EU's race for lithium and rare earths sidelined calls to reduce consumption, finds study",
+      "url": "https://phys.org/news/2026-08-eu-lithium-rare-earths-sidelined.html",
+      "summary": "In 2024, the Critical Raw Materials Act (CRMA) came into force. The regulation is intended to secure Europe's supply of critical raw materials, especially minerals and metals such as lithium, cobalt, and rare earth eleme…",
+      "ts": 1786651204000,
+      "publishedAt": "2026-08-13T20:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beyond the algorithm, online negativity takes on a life of its own as users try to stand out",
+      "url": "https://phys.org/news/2026-08-algorithm-online-negativity-life-users.html",
+      "summary": "It doesn't take a scientist to figure out that social media can trend toward the negative. But it might take one to figure out why. In a new paper in PNAS, professor of psychology Joshua Conrad Jackson and colleagues sho…",
+      "ts": 1786651201000,
+      "publishedAt": "2026-08-13T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnetic mystery in thorium clusters resolved by new study",
+      "url": "https://phys.org/news/2026-08-magnetic-mystery-thorium-clusters.html",
+      "summary": "Scientists from the University of Manchester's Department of Chemistry, Centre for Radiochemistry Research and Photon Science Institute, led by Professor Steve Liddle, have uncovered why a rare class of metal clusters ap…",
+      "ts": 1786650005000,
+      "publishedAt": "2026-08-13T19:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When important local knowledge about nature and climate is not put to use",
+      "url": "https://phys.org/news/2026-08-important-local-knowledge-nature-climate.html",
+      "summary": "Climate change and biodiversity loss require us to base our decisions on the best possible knowledge. Yet a new study conducted by Dr. Roxana Roos at the University of Bergen shows that valuable knowledge about local nat…",
+      "ts": 1786650001000,
+      "publishedAt": "2026-08-13T19:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heavy rain soaks eastern Japan, prompting highest-level warning",
+      "url": "https://phys.org/news/2026-08-heavy-eastern-japan-prompting-highest.html",
+      "summary": "Torrential rain pummeled eastern Japan on Thursday, triggering landslides and power outages and prompting the weather authority to issue its highest-level heavy rain warning for the region for the first time.",
+      "ts": 1786648804000,
+      "publishedAt": "2026-08-13T19:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Copper's surprising melting behavior provides insights into future fusion design",
+      "url": "https://phys.org/news/2026-08-copper-behavior-insights-future-fusion.html",
+      "summary": "Future fusion power plants aim to recreate the heart of a star here on Earth to power our future energy needs. While the core fusion plasma will burn at hundreds of millions of degrees, the surrounding structural compone…",
+      "ts": 1786648803000,
+      "publishedAt": "2026-08-13T19:20:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How 'pioneering pairs' of ospreys drive population recovery",
@@ -60,9 +140,9 @@
     },
     {
       "source": "Phys.org",
-      "title": "Millions of Europeans struggle with another wave of extreme heat",
+      "title": "Europe swelters under fresh wave of extreme heat",
       "url": "https://phys.org/news/2026-08-millions-europeans-struggle-extreme.html",
-      "summary": "Millions of people across Europe—particularly in France, Italy, Spain and the UK—sweltered through another wave of extreme temperatures Thursday as the continent's latest heat wave intensified.",
+      "summary": "Millions of people across Europe—particularly in France, Italy, Spain and Britain—baked through a new wave of extreme temperatures Thursday as the continent's latest heat wave picked up.",
       "ts": 1786645152000,
       "publishedAt": "2026-08-13T18:19:12.000Z"
     },
@@ -719,86 +799,6 @@
       "title": "Thermochemical non-equilibrium effects on turbulent boundary layers",
       "url": "https://arxiv.org/abs/2608.11717",
       "summary": "arXiv:2608.11717v1 Announce Type: new Abstract: This investigation employs direct numerical simulations (DNS) of high-Mach-number turbulent boundary layers under three flow conditions: a low-enthalpy calorically perfect …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-Cycle Pulses, Transparent Conducting Oxides, Optical Nonlinearity, Quantum Coherence, Thermalization",
-      "url": "https://arxiv.org/abs/2608.11756",
-      "summary": "arXiv:2608.11756v1 Announce Type: new Abstract: We present a first-principles study of the nonlinear optical response of transparent conducting oxides at the nanoscale due to excitation by intense, extremely short pulses…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aggregation-engineered loss-tolerant strong coupling in metallic microcavities",
-      "url": "https://arxiv.org/abs/2608.11778",
-      "summary": "arXiv:2608.11778v1 Announce Type: new Abstract: Room-temperature strong coupling in organic microcavities is usually achieved by combining high-quality optical resonators with highly ordered excitonic media, a requiremen…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial coherence enabled sensorless adaptive optical imaging",
-      "url": "https://arxiv.org/abs/2608.11800",
-      "summary": "arXiv:2608.11800v1 Announce Type: new Abstract: Optical aberrations degrade imaging performance in label-free microscopy, where the absence of a guide star often necessitates sensorless adaptive optics (AO). Conventional…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Usage of GPUs for ALICE Run 3 Offline Reconstruction on the GRID",
-      "url": "https://arxiv.org/abs/2608.11819",
-      "summary": "arXiv:2608.11819v1 Announce Type: new Abstract: ALICE, the dedicated heavy ion experiment at the LHC, records Pb-Pb collisions at an interaction rate of up to 50 kHz. It was the first LHC experiment to leverage GPUs for …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-Stage Deformable-Convolutional Inverse Design of Nanophotonic Absorbers from Optical Spectra",
-      "url": "https://arxiv.org/abs/2608.11860",
-      "summary": "arXiv:2608.11860v1 Announce Type: new Abstract: Data-driven inverse design enables efficient generation of nanophotonic structures with prescribed optical responses, but spectrum-to-geometry mapping remains challenging d…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Programmable vs. Static Beam Shaping in Ultrafast Laser Micromachining: A Critical Review",
-      "url": "https://arxiv.org/abs/2608.11861",
-      "summary": "arXiv:2608.11861v1 Announce Type: new Abstract: Beam shaping has become one of the principal determinants of throughput, precision, and process robustness in ultrafast laser micromachining. Despite this, the field is sti…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Metastable soliton necklaces confined by the boundary of a flattop region",
-      "url": "https://arxiv.org/abs/2608.11885",
-      "summary": "arXiv:2608.11885v1 Announce Type: new Abstract: We present quasistationary ring-shaped soliton necklaces in a two-component envelope propagating in a medium with competing cubic-quintic nonlinearity. Metastable propagati…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "State-resolved quantum transport of vortex electrons in accelerators",
-      "url": "https://arxiv.org/abs/2608.11934",
-      "summary": "arXiv:2608.11934v1 Announce Type: new Abstract: We develop a density-matrix theory of vortex-electron transport in accelerator lattices. In a periodic round lattice, the protected object is a Lewis-Floquet orbital angula…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bridging the gap: Using deep learning to reconstruct noise-reduced super-resolved OCT images from gapped spectra",
-      "url": "https://arxiv.org/abs/2608.11989",
-      "summary": "arXiv:2608.11989v1 Announce Type: new Abstract: Fourier-domain (FD) optical coherence tomography (OCT) depends on broadband sources to maximize axial resolution and image quality. However, these lasers significantly driv…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Ambipolar electric field in multispecies plasma atmospheres: effects of alpha particles and stochastic heating",
-      "url": "https://arxiv.org/abs/2608.12014",
-      "summary": "arXiv:2608.12014v1 Announce Type: new Abstract: We investigate stationary states of a collisionless, gravitationally stratified plasma atmosphere composed of electrons, protons, and alpha particles by extending Pannekoek…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     }
