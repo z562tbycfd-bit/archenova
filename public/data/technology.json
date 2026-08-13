@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-13T14:59:43.363Z",
+  "updated": "2026-08-13T16:05:19.580Z",
   "items": [
     {
       "source": "STAT",
@@ -85,7 +85,16 @@
     },
     {
       "source": "United Nations News",
-      "title": "Occupied West Bank: Settler siege of Palestinians marks a new low: OHCHR",
+      "title": "Security Council LIVE: Escalating attacks threaten peace in Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168131",
+      "summary": "As tensions triggered by the US-Iran war continue to ripple across the Middle East, the Security Council holds an open debate Thursday on Yemen, where escalating deadly military clashes are worsening an already fragile h…",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Occupied West Bank: Settler siege of Palestinians marks a new low",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168130",
       "summary": "In the occupied West Bank, the UN human rights office, OHCHR, appealed on Thursday to Israeli authorities to help Palestinian families trapped in their homes by settlers for days, amid an intensifying campaign to seize t…",
       "ts": 1786622400000,
@@ -127,6 +136,15 @@
       "ts": 1786613400000,
       "publishedAt": "2026-08-13T09:30:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+      "ts": 1786611600000,
+      "publishedAt": "2026-08-13T09:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -207,15 +225,6 @@
       "summary": "APOD Science APOD APOD: 2026 August 13 – Total… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
       "ts": 1786593900000,
       "publishedAt": "2026-08-13T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Cascade Volcanoes Shrouded in Smoke",
-      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
-      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -424,6 +433,15 @@
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Cascade Volcanoes Shrouded in Smoke",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
+      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
+      "ts": 1786593600000,
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -790,24 +808,6 @@
       "title": "UN continues scaling up response to earthquake in Colombia",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168128",
       "summary": "The UN on Wednesday continued scaling up assistance to areas affected by the deadly earthquake that hit Colombia two days earlier.",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Migrant deaths climb sharply in 2026, new UN data shows",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168127",
-      "summary": "Severe weather, war, economic pressure and shifting policies reshaped migration journeys across multiple regions in the first four months of 2026, driving a surge in deaths, according to new data released on Wednesday by…",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan: Attacks and further displacement in Blue Nile and North Kordofan",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168126",
-      "summary": "The United Nations has once again urged warring parties in Sudan to protect civilians as the fighting continues to take a heavy toll on the population.",
       "ts": 1786536000000,
       "publishedAt": "2026-08-12T12:00:00.000Z",
       "categoryId": "global-governance"
