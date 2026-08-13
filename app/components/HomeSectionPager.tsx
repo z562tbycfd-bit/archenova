@@ -45,7 +45,7 @@ const CHAPTER_TARGETS: ChapterTarget[] = [
     id: "civilization-experience",
     mark: "❅",
     title: "EXPERIENCE",
-    subtitle: "ArcheNova Simulation",
+    subtitle: "ArcheNova Open World",
   },
 
   {

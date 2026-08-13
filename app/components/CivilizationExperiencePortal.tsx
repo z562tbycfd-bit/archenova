@@ -26,81 +26,72 @@ export default function CivilizationExperiencePortal() {
 
 
         {/* ================================================
-            TOP
+            CENTER AXIS
+
+            All visible content is intentionally placed
+            on one central axis.
         ================================================= */}
 
-        <header className="experience-portal__top">
-          <span className="experience-portal__eyebrow">
-            EXPERIENCE
-          </span>
+        <div className="experience-portal__center">
 
-          <span
-            className="experience-portal__status"
-            aria-hidden="true"
-          >
-            <i />
+          {/* ==============================================
+              TOP
+          =============================================== */}
 
-            <span>
-              LIVE WORLD
-            </span>
-          </span>
-        </header>
-
-
-        {/* ================================================
-            CONTENT
-        ================================================= */}
-
-        <div className="experience-portal__content">
-          <div className="experience-portal__title-block">
-            <span className="experience-portal__classification">
-              SCIENTIFIC CIVILIZATION
+          <header className="experience-portal__top">
+            <span className="experience-portal__eyebrow">
+              CIVILIZATION EXPERIENCE
             </span>
 
+            <span
+              className="experience-portal__status"
+              aria-hidden="true"
+            >
+              <i />
+
+              <span>
+                LIVE
+              </span>
+            </span>
+          </header>
+
+
+          {/* ==============================================
+              CONTENT
+          =============================================== */}
+
+          <div className="experience-portal__content">
             <h2
               id="experience-title"
             >
-              <span>
-                Scientific
-              </span>
-
-              <span>
-                Open World
-              </span>
+              Scientific Open World
             </h2>
+
+            <p>
+              Explore science, experimentation,
+              infrastructure, and civilization
+              as one connected world.
+            </p>
           </div>
 
 
-          <p className="experience-portal__description">
-            Explore a living world
-            where science becomes
-            experience.
-          </p>
-        </div>
+          {/* ==============================================
+              ENTER
+          =============================================== */}
 
-
-        {/* ================================================
-            ENTER
-        ================================================= */}
-
-        <footer className="experience-portal__enter">
-          <div className="experience-portal__enter-copy">
-            <span>
-              ENTER WORLD
+          <footer className="experience-portal__enter">
+            <span className="experience-portal__enter-label">
+              ENTER EXPERIENCE
             </span>
 
-            <small>
-              EXPLORE · OBSERVE · EXPERIMENT
-            </small>
-          </div>
-
-          <span
-            className="experience-portal__arrow"
-            aria-hidden="true"
-          >
-            →
-          </span>
-        </footer>
+            <span
+              className="experience-portal__arrow"
+              aria-hidden="true"
+            >
+              →
+            </span>
+          </footer>
+        </div>
       </Link>
 
 
@@ -116,9 +107,9 @@ export default function CivilizationExperiencePortal() {
 
           padding:
             clamp(
-              26px,
-              4vw,
-              56px
+              18px,
+              2.8vw,
+              34px
             )
             0;
         }
@@ -129,34 +120,47 @@ export default function CivilizationExperiencePortal() {
         ================================================= */
 
         .experience-portal__card {
-          position: relative;
+  position: relative;
 
-          isolation: isolate;
+  isolation: isolate;
 
-          width: 100%;
+  width: 100%;
+  max-width: 100%;
 
-          min-height:
-            clamp(
-              390px,
-              46vw,
-              560px
-            );
+  min-height:
+    clamp(
+      260px,
+      30vw,
+      340px
+    );
 
-          display: grid;
+  /*
+   * The card itself becomes
+   * the definitive centering coordinate system.
+   */
+  display: grid;
 
-          grid-template-rows:
-            auto
-            1fr
-            auto;
+  grid-template-columns:
+    minmax(0, 1fr);
 
-          overflow: hidden;
+  grid-template-rows:
+    minmax(0, 1fr);
 
-          padding:
-            clamp(
-              28px,
-              4.6vw,
-              58px
-            );
+  place-items: stretch;
+
+  box-sizing: border-box;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: hidden;
+
+  padding:
+    clamp(
+      24px,
+      3.4vw,
+      38px
+    );
 
           border:
             1px solid
@@ -164,47 +168,47 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.09
+              0.075
             );
 
           border-radius:
             clamp(
-              24px,
-              3vw,
-              38px
+              20px,
+              2vw,
+              28px
             );
 
           background:
             linear-gradient(
               145deg,
               rgba(
+                16,
                 18,
                 21,
-                25,
-                0.82
+                0.78
               ),
               rgba(
-                2,
-                3,
+                4,
                 5,
-                0.96
+                7,
+                0.93
               )
-              58%,
+              56%,
               rgba(
                 0,
                 0,
                 0,
-                0.99
+                0.97
               )
             );
 
           -webkit-backdrop-filter:
-            blur(32px)
-            saturate(120%);
+            blur(30px)
+            saturate(115%);
 
           backdrop-filter:
-            blur(32px)
-            saturate(120%);
+            blur(30px)
+            saturate(115%);
 
           box-shadow:
             inset
@@ -215,26 +219,16 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.07
-            ),
-            inset
-            0
-            -1px
-            0
-            rgba(
-              255,
-              255,
-              255,
-              0.025
+              0.05
             ),
             0
-            40px
-            120px
+            24px
+            70px
             rgba(
               0,
               0,
               0,
-              0.32
+              0.24
             );
 
           color: white;
@@ -243,17 +237,19 @@ export default function CivilizationExperiencePortal() {
 
           transition:
             border-color
-              0.45s ease,
+              0.4s ease,
+            background
+              0.4s ease,
             transform
               0.45s
               cubic-bezier(
-                0.2,
-                0.8,
-                0.2,
+                0.16,
+                1,
+                0.3,
                 1
               ),
             box-shadow
-              0.45s ease;
+              0.4s ease;
         }
 
 
@@ -279,17 +275,17 @@ export default function CivilizationExperiencePortal() {
                 255,
                 255,
                 255,
-                0.055
+                0.04
               ),
               transparent
-              25%,
+              26%,
               transparent
-              72%,
+              74%,
               rgba(
                 158,
                 223,
                 255,
-                0.025
+                0.018
               )
             );
 
@@ -304,12 +300,12 @@ export default function CivilizationExperiencePortal() {
         .experience-portal__light {
           position: absolute;
 
-          top: -48%;
-          right: -8%;
+          top: -70%;
+          left: 50%;
 
           z-index: -1;
 
-          width: 58%;
+          width: 54%;
 
           aspect-ratio: 1;
 
@@ -322,29 +318,104 @@ export default function CivilizationExperiencePortal() {
                 150,
                 218,
                 255,
-                0.08
+                0.055
               ),
               rgba(
                 112,
                 188,
                 230,
-                0.025
+                0.018
               )
-              36%,
+              38%,
               transparent
               70%
             );
 
           filter:
-            blur(18px);
+            blur(20px);
+
+          opacity: 0.8;
 
           pointer-events: none;
+
+          transform:
+            translateX(-50%);
 
           transition:
             opacity
               0.45s ease,
             transform
-              0.6s ease;
+              0.55s
+              cubic-bezier(
+                0.16,
+                1,
+                0.3,
+                1
+              );
+        }
+
+
+        /* ================================================
+           CENTRAL AXIS
+
+           This is the important change.
+           The whole visible UI is positioned by this
+           container rather than relying only on text-align.
+        ================================================= */
+
+        .experience-portal__center {
+  position: relative;
+
+  z-index: 2;
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  justify-self: stretch;
+
+  box-sizing: border-box;
+
+          min-height:
+            calc(
+              clamp(
+                260px,
+                30vw,
+                340px
+              ) -
+              clamp(
+                48px,
+                6.8vw,
+                76px
+              )
+            );
+
+          display: grid;
+
+          grid-template-columns:
+            minmax(
+              0,
+              1fr
+            );
+
+          grid-template-rows:
+            auto
+            minmax(
+              0,
+              1fr
+            )
+            auto;
+
+          justify-items: center;
+
+          align-items: stretch;
+
+          margin:
+            0
+            auto;
+
+          text-align: center;
         }
 
 
@@ -355,74 +426,101 @@ export default function CivilizationExperiencePortal() {
         .experience-portal__top {
           position: relative;
 
-          z-index: 2;
+          width: 100%;
 
           display: flex;
 
+          flex-direction: column;
+
           align-items: center;
 
-          justify-content:
-            space-between;
+          justify-content: center;
 
-          gap: 24px;
+          justify-self: stretch;
 
-          min-height: 20px;
+          gap: 9px;
+
+          margin:
+            0
+            auto;
+
+          text-align: center;
         }
 
 
         .experience-portal__eyebrow {
           display: block;
 
+          width: 100%;
+
+          margin:
+            0
+            auto;
+
           color:
             rgba(
+              228,
               235,
-              241,
-              246,
-              0.4
+              240,
+              0.36
             );
 
-          font-size: 8px;
+          font-size: 7px;
 
           font-weight: 600;
 
           line-height: 1;
 
           letter-spacing:
-            0.24em;
+            0.2em;
+
+          text-align: center;
         }
 
 
         .experience-portal__status {
           display: inline-flex;
 
+          width: fit-content;
+
           align-items: center;
 
-          gap: 9px;
+          justify-content: center;
+
+          align-self: center;
+
+          gap: 7px;
+
+          margin:
+            0
+            auto;
 
           color:
             rgba(
               220,
               231,
               238,
-              0.34
+              0.28
             );
 
-          font-size: 7px;
+          font-size: 6px;
 
-          font-weight: 500;
+          font-weight: 520;
 
           line-height: 1;
 
           letter-spacing:
-            0.17em;
+            0.14em;
+
+          text-align: center;
         }
 
 
         .experience-portal__status i {
           flex: 0 0 auto;
 
-          width: 5px;
-          height: 5px;
+          width: 4px;
+          height: 4px;
 
           border-radius: 50%;
 
@@ -431,180 +529,149 @@ export default function CivilizationExperiencePortal() {
               135,
               241,
               198,
-              0.82
+              0.72
             );
 
           box-shadow:
             0
             0
-            12px
+            9px
             rgba(
               135,
               241,
               198,
-              0.42
+              0.3
             );
         }
 
 
         /* ================================================
-           CONTENT POSITION
+           CONTENT
         ================================================= */
 
         .experience-portal__content {
           position: relative;
 
-          z-index: 2;
-
-          align-self: center;
-
           width: 100%;
-          max-width: 760px;
+          max-width: none;
 
-          padding:
-            clamp(
-              48px,
-              6vw,
-              82px
-            )
-            0
-            clamp(
-              42px,
-              5vw,
-              68px
-            );
-        }
-
-
-        /* ================================================
-           TITLE BLOCK
-        ================================================= */
-
-        .experience-portal__title-block {
           display: flex;
 
           flex-direction: column;
 
-          align-items:
-            flex-start;
-        }
+          align-items: center;
 
+          justify-content: center;
 
-        .experience-portal__classification {
-          display: block;
+          justify-self: stretch;
 
-          margin-bottom:
+          align-self: stretch;
+
+          margin:
+            0
+            auto;
+
+          padding:
             clamp(
-              14px,
-              1.8vw,
-              20px
+              30px,
+              4vw,
+              50px
+            )
+            0
+            clamp(
+              26px,
+              3.2vw,
+              38px
             );
 
-          color:
-            rgba(
-              158,
-              223,
-              255,
-              0.4
-            );
-
-          font-size: 7px;
-
-          font-weight: 560;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.2em;
+          text-align: center;
         }
 
 
         .experience-portal__content h2 {
-          margin: 0;
+          width: auto;
+
+          max-width:
+            min(
+              760px,
+              100%
+            );
+
+          margin:
+            0
+            auto;
 
           padding: 0;
 
           color:
             rgba(
+              248,
               250,
               252,
-              253,
-              0.97
+              0.94
             );
 
           font-size:
             clamp(
-              50px,
-              7vw,
-              92px
+              34px,
+              4.4vw,
+              58px
             );
 
-          font-weight: 270;
+          font-weight: 300;
 
-          line-height: 0.88;
+          line-height: 1;
 
           letter-spacing:
-            -0.062em;
+            -0.045em;
+
+          text-align: center;
 
           text-wrap: balance;
         }
 
 
-        .experience-portal__content h2
-        > span {
-          display: block;
-        }
+        .experience-portal__content p {
+          width: auto;
 
-
-        .experience-portal__content h2
-        > span:last-child {
-          color:
-            rgba(
-              232,
-              240,
-              245,
-              0.84
-            );
-        }
-
-
-        /* ================================================
-           DESCRIPTION
-        ================================================= */
-
-        .experience-portal__description {
-          max-width: 340px;
+          max-width: 430px;
 
           margin:
             clamp(
-              25px,
-              3vw,
-              34px
+              17px,
+              2vw,
+              22px
             )
-            0
+            auto
             0;
+
+          padding: 0;
 
           color:
             rgba(
-              218,
-              228,
-              235,
-              0.48
+              216,
+              226,
+              233,
+              0.42
             );
 
           font-size:
             clamp(
-              11px,
-              1.15vw,
-              13px
+              10px,
+              1vw,
+              12px
             );
 
           font-weight: 380;
 
-          line-height: 1.75;
+          line-height: 1.7;
 
           letter-spacing:
             0.002em;
+
+          text-align: center;
+
+          text-wrap: balance;
         }
 
 
@@ -615,20 +682,27 @@ export default function CivilizationExperiencePortal() {
         .experience-portal__enter {
           position: relative;
 
-          z-index: 2;
+          width: 100%;
 
           display: flex;
 
+          flex-direction: column;
+
           align-items: center;
 
-          justify-content:
-            space-between;
+          justify-content: center;
 
-          gap: 24px;
+          justify-self: stretch;
 
-          min-height: 62px;
+          gap: 11px;
 
-          padding-top: 20px;
+          min-height: 54px;
+
+          margin:
+            0
+            auto;
+
+          padding-top: 18px;
 
           border-top:
             1px solid
@@ -636,62 +710,40 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.065
+              0.055
             );
-        }
 
-
-        .experience-portal__enter-copy {
-          display: flex;
-
-          flex-direction: column;
-
-          align-items:
-            flex-start;
-
-          gap: 7px;
-        }
-
-
-        .experience-portal__enter-copy
-        > span {
           color:
             rgba(
-              239,
-              246,
-              250,
-              0.72
+              238,
+              244,
+              248,
+              0.55
             );
 
-          font-size: 8px;
+          text-align: center;
+        }
+
+
+        .experience-portal__enter-label {
+          display: block;
+
+          width: auto;
+
+          margin:
+            0
+            auto;
+
+          font-size: 7px;
 
           font-weight: 600;
 
           line-height: 1;
 
           letter-spacing:
-            0.19em;
-        }
+            0.17em;
 
-
-        .experience-portal__enter-copy
-        > small {
-          color:
-            rgba(
-              218,
-              228,
-              235,
-              0.25
-            );
-
-          font-size: 6px;
-
-          font-weight: 500;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.15em;
+          text-align: center;
         }
 
 
@@ -704,10 +756,14 @@ export default function CivilizationExperiencePortal() {
 
           display: grid;
 
-          width: 40px;
-          height: 40px;
+          width: 34px;
+          height: 34px;
 
           place-items: center;
+
+          margin:
+            0
+            auto;
 
           border:
             1px solid
@@ -715,7 +771,7 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.09
+              0.075
             );
 
           border-radius: 50%;
@@ -725,7 +781,7 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.025
+              0.018
             );
 
           color:
@@ -733,20 +789,30 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.72
+              0.58
             );
 
-          font-size: 14px;
+          font-size: 12px;
 
           line-height: 1;
 
+          text-align: center;
+
           transition:
             background
-              0.35s ease,
+              0.3s ease,
             border-color
-              0.35s ease,
+              0.3s ease,
+            color
+              0.3s ease,
             transform
-              0.35s ease;
+              0.35s
+              cubic-bezier(
+                0.16,
+                1,
+                0.3,
+                1
+              );
         }
 
 
@@ -760,10 +826,34 @@ export default function CivilizationExperiencePortal() {
           .experience-portal__card:hover {
             border-color:
               rgba(
-                158,
-                223,
                 255,
-                0.16
+                255,
+                255,
+                0.12
+              );
+
+            background:
+              linear-gradient(
+                145deg,
+                rgba(
+                  19,
+                  21,
+                  24,
+                  0.82
+                ),
+                rgba(
+                  4,
+                  5,
+                  7,
+                  0.94
+                )
+                56%,
+                rgba(
+                  0,
+                  0,
+                  0,
+                  0.98
+                )
               );
 
             box-shadow:
@@ -775,20 +865,22 @@ export default function CivilizationExperiencePortal() {
                 255,
                 255,
                 255,
-                0.09
+                0.065
               ),
               0
-              46px
-              130px
+              28px
+              78px
               rgba(
                 0,
                 0,
                 0,
-                0.42
+                0.3
               );
 
             transform:
-              translateY(-3px);
+              translateY(
+                -2px
+              );
           }
 
 
@@ -797,11 +889,9 @@ export default function CivilizationExperiencePortal() {
             opacity: 1;
 
             transform:
-              scale(1.08)
-              translate3d(
-                -2%,
-                3%,
-                0
+              translateX(-50%)
+              scale(
+                1.05
               );
           }
 
@@ -810,22 +900,32 @@ export default function CivilizationExperiencePortal() {
           .experience-portal__arrow {
             border-color:
               rgba(
-                158,
-                223,
                 255,
-                0.22
+                255,
+                255,
+                0.13
               );
 
             background:
               rgba(
-                158,
-                223,
                 255,
-                0.07
+                255,
+                255,
+                0.035
+              );
+
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.84
               );
 
             transform:
-              translateX(3px);
+              translateX(
+                3px
+              );
           }
         }
 
@@ -838,15 +938,24 @@ export default function CivilizationExperiencePortal() {
           max-width: 900px
         ) {
           .experience-portal__card {
-            min-height: 470px;
+            min-height: 300px;
+          }
+
+
+          .experience-portal__center {
+            min-height:
+              calc(
+                300px -
+                68px
+              );
           }
 
 
           .experience-portal__content {
             padding:
-              58px
+              38px
               0
-              52px;
+              32px;
           }
         }
 
@@ -860,119 +969,183 @@ export default function CivilizationExperiencePortal() {
         ) {
           .experience-portal {
             padding:
-              20px
+              14px
               0;
           }
 
 
           .experience-portal__card {
-            min-height: 430px;
+            min-height: 270px;
 
             padding:
-              25px
-              23px
-              22px;
+              21px
+              20px
+              18px;
 
-            border-radius: 26px;
+            border-radius: 22px;
+          }
+
+
+          .experience-portal__center {
+            width: 100%;
+
+            min-height:
+              calc(
+                270px -
+                39px
+              );
+
+            justify-items: center;
+
+            margin:
+              0
+              auto;
+
+            text-align: center;
           }
 
 
           .experience-portal__top {
-            min-height: 16px;
+            width: 100%;
+
+            align-items: center;
+
+            gap: 8px;
+
+            text-align: center;
           }
 
 
           .experience-portal__eyebrow {
-            font-size: 7px;
+            width: 100%;
+
+            font-size: 6px;
 
             letter-spacing:
-              0.21em;
+              0.17em;
+
+            text-align: center;
           }
 
 
           .experience-portal__status {
-            gap: 7px;
+            align-self: center;
 
-            font-size: 6px;
+            gap: 6px;
+
+            margin:
+              0
+              auto;
+
+            font-size: 5px;
 
             letter-spacing:
-              0.14em;
-          }
-
-
-          .experience-portal__status i {
-            width: 4px;
-            height: 4px;
+              0.11em;
           }
 
 
           .experience-portal__content {
-            align-self: center;
+            width: 100%;
+            max-width: none;
+
+            align-items: center;
+
+            justify-content: center;
+
+            margin:
+              0
+              auto;
 
             padding:
-              46px
+              32px
               0
-              40px;
-          }
+              27px;
 
-
-          .experience-portal__classification {
-            margin-bottom: 14px;
-
-            font-size: 6px;
+            text-align: center;
           }
 
 
           .experience-portal__content h2 {
+            width: auto;
+
+            max-width: 320px;
+
+            margin:
+              0
+              auto;
+
             font-size:
               clamp(
-                45px,
-                14vw,
-                64px
+                30px,
+                9vw,
+                40px
               );
 
-            line-height: 0.91;
+            line-height: 1.02;
 
-            letter-spacing:
-              -0.057em;
+            text-align: center;
           }
 
 
-          .experience-portal__description {
-            max-width: 250px;
+          .experience-portal__content p {
+            width: auto;
 
-            margin-top: 22px;
+            max-width: 290px;
 
-            font-size: 10px;
+            margin:
+              16px
+              auto
+              0;
 
-            line-height: 1.7;
+            font-size: 9px;
+
+            line-height: 1.65;
+
+            text-align: center;
           }
 
 
           .experience-portal__enter {
-            min-height: 55px;
+            width: 100%;
 
-            padding-top: 17px;
+            align-items: center;
+
+            justify-content: center;
+
+            min-height: 48px;
+
+            gap: 10px;
+
+            margin:
+              0
+              auto;
+
+            padding-top: 15px;
+
+            text-align: center;
           }
 
 
-          .experience-portal__enter-copy
-          > span {
-            font-size: 7px;
-          }
+          .experience-portal__enter-label {
+            margin:
+              0
+              auto;
 
+            font-size: 6px;
 
-          .experience-portal__enter-copy
-          > small {
-            font-size: 5px;
+            text-align: center;
           }
 
 
           .experience-portal__arrow {
-            width: 36px;
-            height: 36px;
+            width: 31px;
+            height: 31px;
 
-            font-size: 13px;
+            margin:
+              0
+              auto;
+
+            font-size: 11px;
           }
         }
 
@@ -985,41 +1158,48 @@ export default function CivilizationExperiencePortal() {
           max-width: 420px
         ) {
           .experience-portal__card {
-            min-height: 410px;
+            min-height: 250px;
 
             padding:
-              23px
-              20px
-              20px;
+              19px
+              18px
+              17px;
+
+            border-radius: 20px;
+          }
+
+
+          .experience-portal__center {
+            min-height:
+              calc(
+                250px -
+                36px
+              );
           }
 
 
           .experience-portal__content {
             padding:
-              39px
+              28px
               0
-              34px;
+              23px;
           }
 
 
           .experience-portal__content h2 {
+            max-width: 290px;
+
             font-size:
               clamp(
-                42px,
-                13.6vw,
-                56px
+                28px,
+                8.7vw,
+                36px
               );
           }
 
 
-          .experience-portal__description {
-            max-width: 230px;
-          }
-
-
-          .experience-portal__enter-copy
-          > small {
-            display: none;
+          .experience-portal__content p {
+            max-width: 255px;
           }
         }
 
