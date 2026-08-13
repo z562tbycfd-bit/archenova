@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-08-13T08:22:38.209Z",
+  "updated": "2026-08-13T10:09:36.763Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Astranis unveils geostationary surveillance satellite",
+      "url": "https://spacenews.com/astranis-unveils-geostationary-surveillance-satellite/",
+      "summary": "The spacecraft is designed to inspect, track and maneuver around satellites in geostationary orbit The post Astranis unveils geostationary surveillance satellite appeared first on SpaceNews.",
+      "ts": 1786613400000,
+      "publishedAt": "2026-08-13T09:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How kids feel about AI, in their own words",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes o…",
+      "ts": 1786611600000,
+      "publishedAt": "2026-08-13T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "MTG-I1 captures eclipse path of totality over Europe",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I1_captures_eclipse_path_of_totality_over_Europe",
+      "summary": "Video: 00:00:04 Yesterday between 20:26 and 20:34 CEST, parts of the Iberian peninsula experienced a total solar eclipse. This animation, composed of images from the Meteosat Third Generation Imager satellite (MTG-I1), c…",
+      "ts": 1786609800000,
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What patients actually think about ‘minimally invasive’ brain implants",
+      "url": "https://www.statnews.com/2026/08/13/patient-perspectives-on-brain-implants-for-depression/?utm_campaign=rss",
+      "summary": "A new study polled people with treatment-resistant depression about what matters to them when it comes to brain implants for mental health.",
+      "ts": 1786609800000,
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What Medicare incentives for AI-based devices mean for tech companies — and hospitals",
+      "url": "https://www.statnews.com/2026/08/13/how-medicare-cms-pays-ntap-for-new-ai-medical-devices/?utm_campaign=rss",
+      "summary": "As Medicare pays hospitals when they use newly-authorized AI devices, researchers say those payments could incentivize overuse.",
+      "ts": 1786609800000,
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’ve seen what life is like without vaccines. Americans need to understand what they save us from",
+      "url": "https://www.statnews.com/2026/08/13/trump-vaccine-executive-order-mmr-separate-shots-policy/?utm_campaign=rss",
+      "summary": "“The ability to prevent a deadly infectious disease is an extraordinary privilege,” writes infectious disease physician Krutika Kuppalli.",
+      "ts": 1786609800000,
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How to disrupt the health misinformation business model",
+      "url": "https://www.statnews.com/2026/08/13/statin-misinformation-medicine-scams-online-regulation-fact-checks/?utm_campaign=rss",
+      "summary": "One way to fight medical misinformation: make it easier for people to understand when they are being manipulated, write Paul Martin Jensen and Avi Tuschman.",
+      "ts": 1786609800000,
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: As young people increasingly get cancer, new fertility options are changing their futures",
+      "url": "https://www.statnews.com/2026/08/13/young-people-cancer-new-fertility-tech/?utm_campaign=rss",
+      "summary": "New technologies, cancer doctors, and reproductive specialists are working to give more patients a chance to have children post-treatment.",
+      "ts": 1786609800000,
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Newsom promotes affordable insulin, but California’s generic label is off to a slow start",
+      "url": "https://www.statnews.com/2026/08/13/newsom-california-generic-insulin-calrx-availability-slow-to-reach-patients/?utm_campaign=rss",
+      "summary": "Gov. Gavin Newsom is focused on making health care affordable, but his CalRx insulin has been slow to reach patients.",
+      "ts": 1786609800000,
+      "publishedAt": "2026-08-13T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 August 13 – Total Solar Eclipse Over Spain",
@@ -730,87 +811,6 @@
       "ts": 1786507260000,
       "publishedAt": "2026-08-12T04:01:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Remote Sensing-Based Hybrid Statistical and Machine Learning Ensemble Modeling of Yellowfin Tuna Catch in the Western Equatorial Indian Ocean",
-      "url": "https://arxiv.org/abs/2608.10003",
-      "summary": "arXiv:2608.10003v1 Announce Type: new Abstract: Yellowfin tuna (Thunnus albacares) is an economically important pelagic species in the Indian Ocean, but its monthly catch variability is difficult to predict because repor…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HIPNO: Symmetry-Aware Physics-Informed Neural Operators for Noninvasive Hemodynamic Inference",
-      "url": "https://arxiv.org/abs/2608.10011",
-      "summary": "arXiv:2608.10011v1 Announce Type: new Abstract: Continuous hemodynamic monitoring guides treatment decisions in surgery and intensive care. However, gold-standard signals are only measured in severe cases due to risks as…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Physics-Informed Neural Network Approach to Multiphysics Continuum Modeling of Cancer Growth via Chemo-fluid Coupling",
-      "url": "https://arxiv.org/abs/2608.10014",
-      "summary": "arXiv:2608.10014v1 Announce Type: new Abstract: Tumor progression is an inherently multiphysical phenomenon in which interstitial fluid dynamics, biochemical transport, and cellular mechanics interact across multiple spa…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A fast diagonalization algorithm to enable singular value decomposition of large matrices for efficient template matching",
-      "url": "https://arxiv.org/abs/2608.10029",
-      "summary": "arXiv:2608.10029v1 Announce Type: new Abstract: Many computational problems possess the following three features: (1) the problem could be solved efficiently if a linear operator could be diagonalized, (2) direct diagona…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reduced Gibbs free energy supply hinders brain information processing during mental fatigue",
-      "url": "https://arxiv.org/abs/2608.10211",
-      "summary": "arXiv:2608.10211v1 Announce Type: new Abstract: Background: Brain information processing deteriorates as cortical neurons gradually transition from a rested state into fatigue. Subjectively, fatigue is experienced as a s…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "History Matters: Damage-Mediated Amplification of Brain Deformation and Injury Risk under Repeated Head Impacts",
-      "url": "https://arxiv.org/abs/2608.10331",
-      "summary": "arXiv:2608.10331v1 Announce Type: new Abstract: Computational head models are typically applied to isolated impacts, leaving repeated head loading largely unexplored. An Ogden-Roxburgh Mullins damage formulation was impl…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Improved cross-validated distances for multivariate pattern analysis",
-      "url": "https://arxiv.org/abs/2608.10394",
-      "summary": "arXiv:2608.10394v1 Announce Type: new Abstract: Characterizing the dissimilarity of neural representations between experimental conditions, and tracking it across time, is a central goal of multivariate pattern analysis.…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structural domains associated with permeation, gating and selectivity of Aquaporin ion channels found across phyla",
-      "url": "https://arxiv.org/abs/2608.10440",
-      "summary": "arXiv:2608.10440v1 Announce Type: new Abstract: Aquaporins (AQPs) are an ancient group of channels that arose early in phylogeny and radiated throughout the kingdoms of life. Classified as members of the broad Membrane I…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How many labels can a biological oscillator carry? A quality-factor screen for proposed information carriers",
-      "url": "https://arxiv.org/abs/2608.10560",
-      "summary": "arXiv:2608.10560v1 Announce Type: new Abstract: How many distinguishable labels can a biological oscillator carry? Proposals invoking collective vibrational modes, endogenous electromagnetic fields, microtubule excitatio…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

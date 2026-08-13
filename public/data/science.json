@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-13T08:22:36.298Z",
+  "updated": "2026-08-13T10:09:33.990Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rapid warming may tip Atlantic circulation at 2°C, while slower warming may avert collapse",
+      "url": "https://phys.org/news/2026-08-rapid-atlantic-circulation-2c-slower.html",
+      "summary": "For several years, climate scientists have shown that the Atlantic Meridional Overturning Circulation (AMOC) could come to a halt if the world warms too much. New research from Utrecht University shows that this picture …",
+      "ts": 1786611606000,
+      "publishedAt": "2026-08-13T09:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Teaching AI the biology of antibodies speeds drug discovery",
+      "url": "https://phys.org/news/2026-08-ai-biology-antibodies-drug-discovery.html",
+      "summary": "Designing an effective antibody drug is like searching for the right key in a warehouse of locks. Scientists may begin with millions—or even billions—of antibody candidates, but only a tiny fraction will recognize and bi…",
+      "ts": 1786611603000,
+      "publishedAt": "2026-08-13T09:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nature's original bioplastic may have fed animals for hundreds of millions of years",
+      "url": "https://phys.org/news/2026-08-nature-bioplastic-fed-animals-hundreds.html",
+      "summary": "Long before humans discovered biodegradable plastics, microorganisms had already invented their own. Many bacteria and archaea produce natural bioplastics called polyhydroxyalkanoates (PHAs), storing them inside their ce…",
+      "ts": 1786611601000,
+      "publishedAt": "2026-08-13T09:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'Imposing ignorance': US climate science under siege",
@@ -775,30 +799,6 @@
       "title": "An Oxygen Target for (Anti)neutrinos",
       "url": "https://arxiv.org/abs/2301.04744",
       "summary": "arXiv:2301.04744v2 Announce Type: replace-cross Abstract: We discuss a method to obtain an effective oxygen target within a low-density detector allowing an accurate characterization of the various event topologies in $\\…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bulldozing an immersed granular material in a confined channel",
-      "url": "https://arxiv.org/abs/2505.05129",
-      "summary": "arXiv:2505.05129v2 Announce Type: replace-cross Abstract: The motion of an immersed granular material in a channel is characterised by complex interactions among the grains, between the grains and the permeating liquid, …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tensor-network approach to quantum optical state evolution beyond the Fock basis",
-      "url": "https://arxiv.org/abs/2511.15295",
-      "summary": "arXiv:2511.15295v5 Announce Type: replace-cross Abstract: Understanding the quantum evolution of light in nonlinear media is central to the development of next-generation quantum technologies. Yet, modeling these process…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hawksmoor's Ceiling, Mercator's Projection and the Roman Pantheon",
-      "url": "https://arxiv.org/abs/2512.22327",
-      "summary": "arXiv:2512.22327v2 Announce Type: replace-cross Abstract: The dome of the Roman Pantheon is coffered with ribs surrounding sunken lacunaria, thus forming a grid. How this is achieved given the curvature of the dome has l…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     }
