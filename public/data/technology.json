@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-13T10:09:36.763Z",
+  "updated": "2026-08-13T11:49:43.389Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Neurocrine Biosciences and the delicate balance of benefit and risk",
+      "url": "https://www.statnews.com/2026/08/13/neurocrine-biosciences-vykat-prader-willi-2/?utm_campaign=rss",
+      "summary": "When it comes to rare disease treatments, patients often confront a difficult risk-benefit calculus. Such is the case with a therapy from Neurocrine Biosciences.",
+      "ts": 1786617000000,
+      "publishedAt": "2026-08-13T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Paragon lays off staff after Gateway cancellation",
+      "url": "https://spacenews.com/paragon-lays-off-staff-after-gateway-cancellation/",
+      "summary": "A subcontractor for a module that was being developed for NASA’s lunar Gateway has laid off 70 people after NASA halted work on the program. The post Paragon lays off staff after Gateway cancellation appeared first on Sp…",
+      "ts": 1786616036000,
+      "publishedAt": "2026-08-13T10:13:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "What’s behind this summer’s heat, and why 2027 could be worse",
+      "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
+      "summary": "This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the hottest two-month stretch in Europe since record-keeping began. The contiguous US endured its hottest month on record in July.…",
+      "ts": 1786615200000,
+      "publishedAt": "2026-08-13T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "Astranis unveils geostationary surveillance satellite",
@@ -784,33 +811,6 @@
       "ts": 1786519806000,
       "publishedAt": "2026-08-12T07:30:06.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "The 2026 International Nuclear Science Olympiad Inspires Young Scientists",
-      "url": "http://www.iaea.org/newscenter/news/the-2026-international-nuclear-science-olympiad-inspires-young-scientists",
-      "summary": "",
-      "ts": 1786516220000,
-      "publishedAt": "2026-08-12T06:30:20.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "OpenAI",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "ts": 1786514400000,
-      "publishedAt": "2026-08-12T06:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Stops Along the Path of Totality",
-      "url": "https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/",
-      "summary": "Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
-      "ts": 1786507260000,
-      "publishedAt": "2026-08-12T04:01:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

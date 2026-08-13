@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-13T10:09:33.990Z",
+  "updated": "2026-08-13T11:49:40.210Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "NZ's new flood maps are missing a hidden threat—the water quietly rising from below",
+      "url": "https://phys.org/news/2026-08-nz-hidden-threat-quietly.html",
+      "summary": "The latest update of nationwide flood maps, to be released next year, will give communities across New Zealand the clearest picture yet of the regional risk of flooding.",
+      "ts": 1786621203000,
+      "publishedAt": "2026-08-13T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the value of star employees changes over a career",
+      "url": "https://phys.org/news/2026-08-star-employees-career.html",
+      "summary": "Overall, star employees tend to create value in different ways as their careers progress. Early on, they create outsized value through their individual performance. Experienced stars, meanwhile, contribute by helping col…",
+      "ts": 1786620002000,
+      "publishedAt": "2026-08-13T11:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shame, stigma, and culture prevent male intimate partner violence survivors from seeking help, study finds",
+      "url": "https://phys.org/news/2026-08-shame-stigma-culture-male-intimate.html",
+      "summary": "Men are less likely than women to seek help after experiencing intimate partner violence, and new research from George Mason University found that the main barriers include viewing it as a private matter, fear of retalia…",
+      "ts": 1786619404000,
+      "publishedAt": "2026-08-13T11:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Protein-like nanoparticles sort themselves inside growing crystals, enabling controlled release",
+      "url": "https://phys.org/news/2026-08-protein-nanoparticles-crystals-enabling.html",
+      "summary": "The tiny bones in your fingers withstand countless taps and swipes thanks to a precise blend of materials. Flexible collagen fibers form the framework, reinforced by hard calcium phosphate hydroxyapatite crystals. This i…",
+      "ts": 1786617602000,
+      "publishedAt": "2026-08-13T10:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Rapid warming may tip Atlantic circulation at 2°C, while slower warming may avert collapse",
@@ -767,38 +799,6 @@
       "title": "Zipf's law before the monetary economy and written administration: volume distribution of kofun, ancient Japanese burial mounds",
       "url": "https://arxiv.org/abs/2606.25303",
       "summary": "arXiv:2606.25303v3 Announce Type: replace Abstract: We analyze the volume distribution of kofun, large mounded tombs constructed in the Japanese archipelago mainly from the mid-third through the seventh century CE. We as…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electric Field Propagation with Spinal Cord Stimulation",
-      "url": "https://arxiv.org/abs/2607.02710",
-      "summary": "arXiv:2607.02710v2 Announce Type: replace Abstract: Spinal cord stimulation is routinely used for the treatment of chronic pain, and is increasingly being investigated for the restoration of movement after paralysis. How…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "anyakrakusuma: A Python Library for Entropic Schr\\\"odinger Bridges on Idealized Geometries",
-      "url": "https://arxiv.org/abs/2607.18184",
-      "summary": "arXiv:2607.18184v2 Announce Type: replace Abstract: We present anyakrakusuma, an open-source Python library that solves the discrete static Schr\\\"{o}dinger bridge problem, the entropically regularized counterpart of opti…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstructing local environments from concise atomistic representations",
-      "url": "https://arxiv.org/abs/2607.20338",
-      "summary": "arXiv:2607.20338v2 Announce Type: replace Abstract: Symmetry-based representations of local atomic structure, such as the power spectrum or bispectrum, are routinely used to characterize the structural diversity of datas…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Oxygen Target for (Anti)neutrinos",
-      "url": "https://arxiv.org/abs/2301.04744",
-      "summary": "arXiv:2301.04744v2 Announce Type: replace-cross Abstract: We discuss a method to obtain an effective oxygen target within a low-density detector allowing an accurate characterization of the various event topologies in $\\…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     }
