@@ -37037,3 +37037,35 @@ line-height:1.75;
 
 
 
+/* ==================================================
+   MOBILE HERO — FULL VERTICAL ACCESS
+   HEROカード内部を縦スクロール可能にする
+================================================== */
+
+@media (max-width: 768px) {
+  .home-hero-card {
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    overscroll-behavior-y: contain;
+
+    -webkit-overflow-scrolling: touch;
+
+    padding-bottom:
+      calc(
+        48px +
+        env(safe-area-inset-bottom)
+      ) !important;
+
+    scrollbar-width: none;
+
+    touch-action: pan-y;
+  }
+
+  .home-hero-card::-webkit-scrollbar {
+    display: none;
+  }
+}
