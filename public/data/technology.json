@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-13T21:48:36.102Z",
+  "updated": "2026-08-13T22:44:20.960Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Space Force awards five companies $60 million for multi-vendor satellite network tests",
+      "url": "https://spacenews.com/space-force-awards-five-companies-60-million-for-multi-vendor-satellite-network-tests/",
+      "summary": "Amazon Leo, Lockheed Martin, Northrop Grumman, Rocket Lab and York Space will prototype and test connections to the SpaceX-built data network backbone The post Space Force awards five companies $60 million for multi-vend…",
+      "ts": 1786658400000,
+      "publishedAt": "2026-08-13T22:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Commure terminates payments under its customer referral programs tied to AI products",
+      "url": "https://www.statnews.com/2026/08/13/commure-terminates-payments-under-customer-referral-programs/?utm_campaign=rss",
+      "summary": "Commure, which develops and sells AI products to clinics, has terminated a program that paid for referrals to new customers.",
+      "ts": 1786657749000,
+      "publishedAt": "2026-08-13T21:49:09.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
@@ -181,6 +199,69 @@
       "ts": 1786623000000,
       "publishedAt": "2026-08-13T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza: Destruction of buildings rises by nearly 10 per cent since ceasefire",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168138",
+      "summary": "New satellite assessments show the destruction of buildings in Gaza has climbed by nearly 10 per cent since October’s faltering ceasefire between Hamas and Israeli forces aim to end the two-year war, which reduced cities…",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola tracing improves in DR Congo – but the virus is still winning the race",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168137",
+      "summary": "Health authorities in the Democratic Republic of the Congo (DRC) are tracking a growing share of people exposed to Ebola, but the epidemic in the country's restive east continues to outpace their ability to find and isol…",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Afghanistan education, Myanmar flooding, Syria recovery, homecare workers in New York",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168135",
+      "summary": "Five years since the Taliban seized power in Kabul, life for some Afghans has improved while many others suffer growing hardship.",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Civilian casualties hit highest level since March 2022",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168134",
+      "summary": "Civilian casualties in Ukraine reached their highest monthly level in July, with more people killed and injured than at any time since March 2022, the UN Human Rights Monitoring Mission in the country, HRMMU, said in an …",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Türkiye’s changes to child detention ‘raise serious human rights concerns’",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168132",
+      "summary": "UN human rights chief Volker Türk on Thursday condemned an amendment adopted by Türkiye’s parliament that would allow judges to give life sentences to child offenders convicted of serious crimes.",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Escalating attacks threaten peace in Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168131",
+      "summary": "As tensions triggered by the US-Iran war continue to ripple across the Middle East, the Security Council held an open debate Thursday on Yemen, where escalating deadly military clashes are worsening an already fragile hu…",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Occupied West Bank: Settler siege of Palestinians marks a new low",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168130",
+      "summary": "In the occupied West Bank, the UN human rights office, OHCHR, appealed on Thursday to Israeli authorities to help Palestinian families trapped in their homes by settlers for days, amid an intensifying campaign to seize t…",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "OpenAI",
@@ -730,87 +811,6 @@
       "ts": 1786550454000,
       "publishedAt": "2026-08-12T16:00:54.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bioprocessing’s Green Shift Gains Momentum",
-      "url": "https://www.genengnews.com/topics/bioprocessing/bioprocessings-green-shift-gains-momentum/",
-      "summary": "Bioprocessing companies face pressure to cut emissions while maintaining production standards. CRB experts said better data collection, strategic planning, and emerging technologies are helping facilities reduce energy u…",
-      "ts": 1786550453000,
-      "publishedAt": "2026-08-12T16:00:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Allogeneic CAR T Company Prepares to Widen Access to Patients",
-      "url": "https://www.genengnews.com/topics/bioprocessing/allogeneic-car-t-company-prepares-to-widen-access-to-patients/",
-      "summary": "An allogeneic CAR T-cell therapy company is planning a pivotal Phase III randomized-control trial, hoping their products can reach more patients and help those who can’t access autologous therapies. The post Allogeneic C…",
-      "ts": 1786550439000,
-      "publishedAt": "2026-08-12T16:00:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Five Steps to Enable Self-Optimizing Process Purification",
-      "url": "https://www.genengnews.com/topics/bioprocessing/5-steps-to-enable-self-optimizing-process-purification/",
-      "summary": "Self-optimization is the next evolutionary step for bioprocessing purification systems and, although that step is near, it currently is hindered by missing integrations among its many parts and by loose usage of precise …",
-      "ts": 1786550437000,
-      "publishedAt": "2026-08-12T16:00:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Pursuing a Dream of Working for NASA",
-      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/pursuing-a-dream-of-working-for-nasa/",
-      "summary": "As a young girl raised in Worcester, Massachusetts, Lindsey Waitt dreamed of working for NASA. Her dream is now a reality as she embarks on her role as a NASA test project engineer with the Artemis launch team – an integ…",
-      "ts": 1786549131000,
-      "publishedAt": "2026-08-12T15:38:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cancer patients face longer wait times to begin treatment, according to new study",
-      "url": "https://www.statnews.com/2026/08/12/cancer-patients-face-longer-wait-times-for-treatment/?utm_campaign=rss",
-      "summary": "“Across every cancer we studied, patients are waiting longer today than they were a decade ago.”",
-      "ts": 1786546800000,
-      "publishedAt": "2026-08-12T15:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The Lindsay Clancy case shows the limits of postpartum psychiatry",
-      "url": "https://www.statnews.com/2026/08/12/lindsay-clancy-postpartum-psychosis-diagnosis-treatment-limits/?utm_campaign=rss",
-      "summary": "“Our understanding and treatment of postpartum psychiatric illnesses remain profoundly inadequate,” experts write.",
-      "ts": 1786546269000,
-      "publishedAt": "2026-08-12T14:51:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Next 10 U.S. Biopharma Clusters",
-      "url": "https://www.genengnews.com/topics/drug-discovery/next-10-u-s-biopharma-clusters/",
-      "summary": "For the first time, GEN's Alex Philippidis examines the top regions and top states just below the 10 largest regions for life sciences activity, as the field looks beyond the East and West Coasts for growth The post Next…",
-      "ts": 1786545456000,
-      "publishedAt": "2026-08-12T14:37:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 12 – Perseids over a Little Planet",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-12-perseids-over-a-little-planet/",
-      "summary": "APOD Science APOD APOD: 2026 August 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
-      "ts": 1786545000000,
-      "publishedAt": "2026-08-12T14:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Quality Assessment Report Evaluates Polar Geospatial Center EarthDEM Elevation Products",
-      "url": "https://science.nasa.gov/science-research/earth-science/quality-assessment-report-evaluates-polar-geospatial-center-earthdem-elevation-products/",
-      "summary": "CSDA’s assessment reports help inform the user community about the quality of commercial Digital Elevation Models (DEMs).",
-      "ts": 1786543993000,
-      "publishedAt": "2026-08-12T14:13:13.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
