@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-13T16:05:19.580Z",
+  "updated": "2026-08-13T17:58:21.510Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Producing Recombinant Antibodies  for In Vivo Research",
+      "url": "https://www.genengnews.com/topics/bioprocessing/producing-recombinant-antibodies-for-in-vivo-research/",
+      "summary": "Antibody reagent variability is a leading but frequently underappreciated source of irreproducible preclinical data. For in vivo studies, the problem is multidimensional: supply must simultaneously meet specifications fo…",
+      "ts": 1786642270000,
+      "publishedAt": "2026-08-13T17:31:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Command expands Alabama footprint as headquarters relocation advances",
+      "url": "https://spacenews.com/space-command-expands-alabama-footprint-as-headquarters-relocation-advances/",
+      "summary": "More than 100 personnel have already relocated to Redstone Arsenal as construction of billion-dollar Space Command facility is set to begin The post Space Command expands Alabama footprint as headquarters relocation adva…",
+      "ts": 1786638425000,
+      "publishedAt": "2026-08-13T16:27:05.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Perseids Meteor Shower",
+      "url": "https://www.nasa.gov/image-article/perseids-meteor-shower-2/",
+      "summary": "The constellation Orion is framed by two Perseid meteors in this photo from Aug. 12, 2018, in Cedar Breaks National Monument, Utah. The Perseids – one of the year’s brightest and most popular meteor showers – has been ra…",
+      "ts": 1786633714000,
+      "publishedAt": "2026-08-13T15:08:34.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Eli Lilly targets booming black market for retatrutide",
@@ -85,9 +112,27 @@
     },
     {
       "source": "United Nations News",
+      "title": "Ukraine: Civilian casualties hit highest level since March 2022",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168134",
+      "summary": "Civilian casualties in Ukraine reached their highest monthly level in July, with more people killed and injured than at any time since March 2022, the UN Human Rights Monitoring Mission in the country, HRMMU, said in an …",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Türkiye’s changes to child detention ‘raise serious human rights concerns’",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168132",
+      "summary": "UN human rights chief Volker Türk on Thursday condemned an amendment adopted by Türkiye’s parliament that would allow judges to give life sentences to child offenders convicted of serious crimes.",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Security Council LIVE: Escalating attacks threaten peace in Yemen",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168131",
-      "summary": "As tensions triggered by the US-Iran war continue to ripple across the Middle East, the Security Council holds an open debate Thursday on Yemen, where escalating deadly military clashes are worsening an already fragile h…",
+      "summary": "As tensions triggered by the US-Iran war continue to ripple across the Middle East, the Security Council held an open debate Thursday on Yemen, where escalating deadly military clashes are worsening an already fragile hu…",
       "ts": 1786622400000,
       "publishedAt": "2026-08-13T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -118,6 +163,15 @@
       "ts": 1786616036000,
       "publishedAt": "2026-08-13T10:13:56.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "ts": 1786615200000,
+      "publishedAt": "2026-08-13T10:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -225,6 +279,15 @@
       "summary": "APOD Science APOD APOD: 2026 August 13 – Total… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
       "ts": 1786593900000,
       "publishedAt": "2026-08-13T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Cascade Volcanoes Shrouded in Smoke",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
+      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
+      "ts": 1786593600000,
+      "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -433,15 +496,6 @@
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Cascade Volcanoes Shrouded in Smoke",
-      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
-      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -757,60 +811,6 @@
       "ts": 1786536600000,
       "publishedAt": "2026-08-12T12:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The secret AI-startup project I’ve been working on the last six months",
-      "url": "https://www.statnews.com/2026/08/12/the-secret-startup-project-ive-been-working-on-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AI Prognosis: The messy reality of hastily developing and selling AI tools to clinics, and other health AI news.",
-      "ts": 1786536555000,
-      "publishedAt": "2026-08-12T12:09:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Definium Therapeutics says its LSD therapy eased anxiety in late-stage trial",
-      "url": "https://www.statnews.com/2026/08/12/definium-lsd-treatment-anxiety-study/?utm_campaign=rss",
-      "summary": "Definium Therapeutics said that its LSD therapy significantly helped patients with generalized anxiety disorder in the first of two large trials.",
-      "ts": 1786536076000,
-      "publishedAt": "2026-08-12T12:01:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Musification of the 2026 total solar eclipse",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Musification_of_the_2026_total_solar_eclipse",
-      "summary": "Video: 00:05:08 [English] Experience a musical simulation of the 12 August 2026 total solar eclipse as seen from the Observatorio Astrofísico de Javalambre (Spain). Click here for information about ESA’s live broadcast f…",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "One species, one planet: The moon is our ethical dress rehearsal for Mars",
-      "url": "https://spacenews.com/one-species-one-planet-the-moon-is-our-ethical-dress-rehearsal-for-mars/",
-      "summary": "Bruce Jakosky, Scott Hubbard and their colleagues have given us a masterclass in pragmatic systems engineering. Their recent SpaceNews editorial titled “Laying the groundwork for the first human mission to […] The post O…",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Youth advocates gather in New York to launch new AI standards",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168129",
-      "summary": "As artificial intelligence (AI) rapidly transforms everything from how we learn, to the job market, children are adopting the technology more than three times faster than adults – exposing them to unique opportunities an…",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN continues scaling up response to earthquake in Colombia",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168128",
-      "summary": "The UN on Wednesday continued scaling up assistance to areas affected by the deadly earthquake that hit Colombia two days earlier.",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
