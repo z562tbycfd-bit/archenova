@@ -3623,156 +3623,164 @@ export default function ScientificWorld({
 
 
           /* ----------------------------------------------
-             MOBILE MENU BUTTON
-          ---------------------------------------------- */
+   MOBILE MENU BUTTON
+---------------------------------------------- */
 
-          .scientific-world__mobile-menu-button {
-            position: absolute;
+.scientific-world__mobile-menu-button {
+  position: absolute;
 
-            top:
-              max(
-                14px,
-                calc(
-                  env(
-                    safe-area-inset-top
-                  ) +
-                  8px
-                )
-              );
+  /*
+   * ArcheNova本体の右上メニューとの重なりを避ける。
+   * Open World側の収納ボタンだけを下へ移動。
+   */
+  top:
+    max(
+      92px,
+      calc(
+        env(
+          safe-area-inset-top
+        ) +
+        76px
+      )
+    );
 
-            right:
-              max(
-                14px,
-                calc(
-                  env(
-                    safe-area-inset-right
-                  ) +
-                  12px
-                )
-              );
+  right:
+    max(
+      14px,
+      calc(
+        env(
+          safe-area-inset-right
+        ) +
+        12px
+      )
+    );
 
-            z-index: 180;
+  z-index: 180;
 
-            width: 56px;
-            height: 56px;
+  width: 56px;
+  height: 56px;
 
-            display: flex;
+  display: flex;
 
-            flex-direction: column;
+  flex-direction: column;
 
-            align-items: center;
+  align-items: center;
 
-            justify-content: center;
+  justify-content: center;
 
-            gap: 5px;
+  gap: 5px;
 
-            padding: 0;
+  padding: 0;
 
-            border:
-              1px solid
-              rgba(
-                255,
-                255,
-                255,
-                0.1
-              );
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.1
+    );
 
-            border-radius: 19px;
+  border-radius: 19px;
 
-            background:
-              rgba(
-                2,
-                5,
-                8,
-                0.62
-              );
+  background:
+    rgba(
+      2,
+      5,
+      8,
+      0.62
+    );
 
-            -webkit-backdrop-filter:
-              blur(24px)
-              saturate(125%);
+  -webkit-backdrop-filter:
+    blur(24px)
+    saturate(125%);
 
-            backdrop-filter:
-              blur(24px)
-              saturate(125%);
+  backdrop-filter:
+    blur(24px)
+    saturate(125%);
 
-            box-shadow:
-              inset
-              0
-              1px
-              0
-              rgba(
-                255,
-                255,
-                255,
-                0.05
-              ),
-              0
-              16px
-              50px
-              rgba(
-                0,
-                0,
-                0,
-                0.22
-              );
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.05
+    ),
+    0
+    16px
+    50px
+    rgba(
+      0,
+      0,
+      0,
+      0.22
+    );
 
-            cursor: pointer;
+  cursor: pointer;
 
-            touch-action:
-              manipulation;
-          }
+  touch-action:
+    manipulation;
+}
 
-          .scientific-world__mobile-menu-button
-          span {
-            width: 22px;
-            height: 1.5px;
 
-            display: block;
+.scientific-world__mobile-menu-button
+span {
+  width: 22px;
+  height: 1.5px;
 
-            border-radius:
-              999px;
+  display: block;
 
-            background:
-              rgba(
-                246,
-                249,
-                252,
-                0.82
-              );
+  border-radius:
+    999px;
 
-            transition:
-              transform
-                0.25s ease,
-              opacity
-                0.2s ease;
-          }
+  background:
+    rgba(
+      246,
+      249,
+      252,
+      0.82
+    );
 
-          .scientific-world__mobile-menu-button.is-open
-          span:first-child {
-            transform:
-              translateY(
-                6.5px
-              )
-              rotate(
-                45deg
-              );
-          }
+  transition:
+    transform
+      0.25s ease,
+    opacity
+      0.2s ease;
+}
 
-          .scientific-world__mobile-menu-button.is-open
-          span:nth-child(2) {
-            opacity: 0;
-          }
 
-          .scientific-world__mobile-menu-button.is-open
-          span:last-child {
-            transform:
-              translateY(
-                -6.5px
-              )
-              rotate(
-                -45deg
-              );
-          }
+.scientific-world__mobile-menu-button.is-open
+span:first-child {
+  transform:
+    translateY(
+      6.5px
+    )
+    rotate(
+      45deg
+    );
+}
+
+
+.scientific-world__mobile-menu-button.is-open
+span:nth-child(2) {
+  opacity: 0;
+}
+
+
+.scientific-world__mobile-menu-button.is-open
+span:last-child {
+  transform:
+    translateY(
+      -6.5px
+    )
+    rotate(
+      -45deg
+    );
+}
 
 
           /* ----------------------------------------------
