@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-12T23:44:04.209Z",
+  "updated": "2026-08-13T02:08:32.554Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "This South African river has a bacteria count off the charts: A natural filter is cleaning it for watering food gardens",
+      "url": "https://phys.org/news/2026-08-south-african-river-bacteria-natural.html",
+      "summary": "Every day, millions of liters of polluted water flow through many South African rivers and disappear into the sea.",
+      "ts": 1786580403000,
+      "publishedAt": "2026-08-13T00:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "EU curbs on 'forever chemicals' in food packaging kick in",
+      "url": "https://phys.org/news/2026-08-eu-curbs-chemicals-food-packaging.html",
+      "summary": "New EU restrictions on toxic substances known as \"forever chemicals\" in food packaging kicked in Wednesday, along with broader rules aimed at cutting packaging waste in the bloc.",
+      "ts": 1786579201000,
+      "publishedAt": "2026-08-13T00:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "African grasslands expanded 5 million year earlier than previously thought, molecular fossils suggest",
@@ -783,22 +799,6 @@
       "title": "Inverse Problem in Effective Field Theory",
       "url": "http://link.aps.org/doi/10.1103/9gtg-yjmv",
       "summary": "Author(s): Francesco Calisto, Clifford Cheung, Grant N. Remmen, Francesco Sciotti, and Michele Tarquini We show that the tree-level spectrum of heavy particles can be directly extracted from the Wilson coefficients of th…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Indistinguishable Photons from a Two-Photon Cascade",
-      "url": "http://link.aps.org/doi/10.1103/t8sk-b2w4",
-      "summary": "Author(s): Timon L. Baltisberger, Francesco Salusti, Mark R. Hogg, Malwina A. Marczak, Nils Heinisch, Sascha R. Valentin, Stefan Schumacher, Arne Ludwig, Klaus D. Jöns, and Richard J. Warburton Decay of a four-level diam…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantum Advantage for Single-Photon State Characterization",
-      "url": "http://link.aps.org/doi/10.1103/g28d-jzgj",
-      "summary": "Author(s): S. N. van den Hoven, M. C. Anguita, S. Marzban, and J. J. Renema We propose a multiphoton interference protocol that characterizes the pairwise overlaps of the internal modes of single photons more efficiently…",
       "ts": 1786528800000,
       "publishedAt": "2026-08-12T10:00:00.000Z"
     }

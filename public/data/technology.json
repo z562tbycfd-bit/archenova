@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-12T23:44:07.963Z",
+  "updated": "2026-08-13T02:08:34.289Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Virgin Galactic delays resumption of commercial flights to 2027",
+      "url": "https://spacenews.com/virgin-galactic-delays-resumption-of-commercial-flights-to-2027/",
+      "summary": "Virgin Galactic says it will not start commercial flights of its new suborbital spaceplane until early 2027, a delay of a few months. The post Virgin Galactic delays resumption of commercial flights to 2027 appeared firs…",
+      "ts": 1786585570000,
+      "publishedAt": "2026-08-13T01:46:10.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
@@ -94,7 +103,7 @@
     },
     {
       "source": "STAT",
-      "title": "Trump administration’s new ‘treatment-first’ addiction toolkit emphasizes faith, abstinence ",
+      "title": "Trump administration’s new ‘treatment first’ addiction toolkit emphasizes faith, abstinence ",
       "url": "https://www.statnews.com/2026/08/12/addiction-homelessness-hhs-toolkit-harm-reduction/?utm_campaign=rss",
       "summary": "The White House nods to use of addiction medications but moves away from other harm reduction strategies.",
       "ts": 1786563820000,
@@ -798,15 +807,6 @@
       "source": "Nature Energy",
       "title": "Experiences of kinesiophobia in patients with chronic obstructive pulmonary disease: a qualitative phenomenological study",
       "url": "https://www.nature.com/articles/s41598-026-66659-y",
-      "summary": "",
-      "ts": 1786492800000,
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Multi-level violence recognition via hybrid convolutional-attention and recurrent architectures",
-      "url": "https://www.nature.com/articles/s41598-026-66068-1",
       "summary": "",
       "ts": 1786492800000,
       "publishedAt": "2026-08-12T00:00:00.000Z",
