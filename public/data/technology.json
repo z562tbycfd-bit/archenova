@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-13T13:16:14.595Z",
+  "updated": "2026-08-13T14:59:43.363Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly targets booming black market for retatrutide",
+      "url": "https://www.statnews.com/2026/08/13/biotech-news-eli-lilly-targets-booming-retatrutide-black-market/?utm_campaign=rss",
+      "summary": "Khartis raises oral immunology funds, Neurocrine drug safety concerns, and more biotech news from The Readout",
+      "ts": 1786632397000,
+      "publishedAt": "2026-08-13T14:46:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "An optical link ‘internet’ to connect networks in space",
+      "url": "https://spacenews.com/an-optical-link-internet-to-connect-networks-in-space/",
+      "summary": "In this episode, David Ariosto speaks with John Mackey, CEO, co-founder and director of Mbryonics. They discuss building optical links for satellites and other space infrastructure, and what it would […] The post An opti…",
+      "ts": 1786631966000,
+      "publishedAt": "2026-08-13T14:39:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Kennedy heads west, slams Becerra",
+      "url": "https://www.statnews.com/2026/08/13/rfk-california-tour-hhs-addiction-treatment-plan-dc-diagnosis/?utm_campaign=rss",
+      "summary": "The health secretary headed to California to lay out the government's new approach to addiction treatment.",
+      "ts": 1786631838000,
+      "publishedAt": "2026-08-13T14:37:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Maritime Satellite Service Revenues to Reach $3.79 Billion by 2035 as NGSO Reshapes Maritime Connectivity",
+      "url": "https://spacenews.com/maritime-satellite-service-revenues-to-reach-3-79-billion-by-2035-as-ngso-reshapes-maritime-connectivity/",
+      "summary": "Paris, France | July 2026 — The maritime satellite communications market is entering a new phase of growth as next-generation satellite networks transform connectivity at sea. According to Novaspace’s newly […] The post …",
+      "ts": 1786631247000,
+      "publishedAt": "2026-08-13T14:27:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid …",
+      "ts": 1786628470000,
+      "publishedAt": "2026-08-13T13:41:10.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about California insulin sales, a Moderna patent battle, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss",
+      "summary": "Seven months after the launch of its own low-cost insulin brand, California has distributed more than 120,000 five-pen packs of insulin glargine priced at $55 each",
+      "ts": 1786627182000,
+      "publishedAt": "2026-08-13T13:19:42.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "Class Is in Session: GeForce NOW Levels Up Linux, Chromebooks and More",
@@ -28,6 +82,15 @@
       "ts": 1786623000000,
       "publishedAt": "2026-08-13T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Occupied West Bank: Settler siege of Palestinians marks a new low: OHCHR",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168130",
+      "summary": "In the occupied West Bank, the UN human rights office, OHCHR, appealed on Thursday to Israeli authorities to help Palestinian families trapped in their homes by settlers for days, amid an intensifying campaign to seize t…",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -144,6 +207,15 @@
       "summary": "APOD Science APOD APOD: 2026 August 13 – Total… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
       "ts": 1786593900000,
       "publishedAt": "2026-08-13T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Cascade Volcanoes Shrouded in Smoke",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
+      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
+      "ts": 1786593600000,
+      "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -600,7 +672,7 @@
       "source": "Genetic Engineering News",
       "title": "Next 10 U.S. Biopharma Clusters",
       "url": "https://www.genengnews.com/topics/drug-discovery/next-10-u-s-biopharma-clusters/",
-      "summary": "For the first time, GEN's Alex Philippidis examines the top regions and top states just below the 10 largest regions for life sciences activity, as the field looks beyond the East and West Coasts for growth The post Next…",
+      "summary": "For the first time, GEN's Alex Philippidis examines the top regions and top states just below the 10 largest regions for life sciences activity, as the field looks beyond the East and West Coasts for growth. The post Nex…",
       "ts": 1786545456000,
       "publishedAt": "2026-08-12T14:37:36.000Z",
       "categoryId": "bio"
@@ -739,78 +811,6 @@
       "ts": 1786536000000,
       "publishedAt": "2026-08-12T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Cholera spreads across borders in West and Central Africa",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168125",
-      "summary": "Cholera is spreading rapidly across West and Central Africa, with active outbreaks now in six countries and millions of children at growing risk, UN children’s agency UNICEF has said.",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "WHO chief voices concern over Trump Administration’s executive order on vaccines",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168124",
-      "summary": "The head of the World Health Organization (WHO) on Wednesday upheld the safety of childhood vaccines in response to a new directive from the White House to overhaul the recommended inoculation schedule.",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Five years after Taliban takeover, Afghan women ‘erased from public life’",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168123",
-      "summary": "Five years after the Taliban seized power, women and girls in Afghanistan have been systematically stripped of their rights, UN agencies said on Wednesday. De facto authorities have issued more than 100 decrees curbing e…",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Deadly attack on Red Sea ship adds to global supply chain uncertainty",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168121",
-      "summary": "A strike on a merchant ship off the southern coast of Yemen that reportedly killed several seafarers on Tuesday threatens to reignite deep concerns about global trade, amid the ongoing Iran-US war that has choked shippin…",
-      "ts": 1786536000000,
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Observes Progress in Safety at Research Reactor in the Philippines",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-observes-progress-in-safety-at-research-reactor-in-the-philippines",
-      "summary": "",
-      "ts": 1786531485000,
-      "publishedAt": "2026-08-12T10:44:45.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Biotech company co-founded by top autoimmune researcher lays out plans with antibody therapies",
-      "url": "https://www.statnews.com/2026/08/12/boulevard-bio-georg-schett-antibody-therapies/?utm_campaign=rss",
-      "summary": "German researcher Georg Schett has made a name for himself as a pioneer in autoimmune disease treatment. Now he's co-founding his own company.",
-      "ts": 1786530600000,
-      "publishedAt": "2026-08-12T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How we picked 35 of the world’s top young scientists and engineers",
-      "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
-      "summary": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever techn…",
-      "ts": 1786525720000,
-      "publishedAt": "2026-08-12T09:08:40.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Neurocrine Biosciences rare disease drug possibly tied to safety issues, experts say",
-      "url": "https://www.statnews.com/2026/08/12/neurocrine-biosciences-vykat-prader-willi/?utm_campaign=rss",
-      "summary": "A newly approved drug for Prader-Willi syndrome, a rare disease that causes an insatiable desire to eat, may be tied to a series of patient deaths, experts say.",
-      "ts": 1786523400000,
-      "publishedAt": "2026-08-12T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

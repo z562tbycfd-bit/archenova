@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-13T13:16:11.920Z",
+  "updated": "2026-08-13T14:59:40.233Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Thinking fast and slow: Wild fish reveal how cognition evolved in two closely related species",
+      "url": "https://phys.org/news/2026-08-fast-wild-fish-reveal-cognition.html",
+      "summary": "Why do two individuals faced with the same information sometimes make completely different decisions? It is a question made famous by Nobel laureate Daniel Kahneman, whose book \"Thinking, Fast and Slow\" explored the cont…",
+      "ts": 1786632002000,
+      "publishedAt": "2026-08-13T14:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Understanding nature's 'dimmer switch': Study sheds new light on how algae regulate photosynthesis with pH",
+      "url": "https://phys.org/news/2026-08-nature-dimmer-algae-photosynthesis-ph.html",
+      "summary": "A new joint study from Constructor University and Princeton University in the Journal of the American Chemical Society focuses on PC645, a protein complex that contributes to cryptophyte algae's ability to photosynthesiz…",
+      "ts": 1786630803000,
+      "publishedAt": "2026-08-13T14:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A magnetic path to lower-power computing",
+      "url": "https://phys.org/news/2026-08-magnetic-path-power.html",
+      "summary": "From smartphones to data centers, modern electronics rely on billions of tiny switches that consume electricity every time they turn on or off. As global demand for computing continues to grow, so does the energy require…",
+      "ts": 1786629604000,
+      "publishedAt": "2026-08-13T14:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greater vegetable diversity needed for healthier diets and climate-resilient agriculture",
+      "url": "https://phys.org/news/2026-08-greater-vegetable-diversity-healthier-diets.html",
+      "summary": "In a study published in the Proceedings of the National Academy of Sciences, researchers show how a wider diversity of vegetables could help improve diets and strengthen agriculture against climate change. They use the t…",
+      "ts": 1786628405000,
+      "publishedAt": "2026-08-13T13:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Complex suicidal somersault behavior in male redback spiders may be explained by surprisingly simple genetics",
+      "url": "https://phys.org/news/2026-08-complex-suicidal-somersault-behavior-male.html",
+      "summary": "The Australian redback spider (Latrodectus hasselti), a cousin of the North American black widow spider, is known to practice sexual cannibalism, which is somewhat common among spider species. However, the male Australia…",
+      "ts": 1786628401000,
+      "publishedAt": "2026-08-13T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Controlling wild pigs can work if it's a group effort",
+      "url": "https://phys.org/news/2026-08-wild-pigs-group-effort.html",
+      "summary": "The federal government is injecting millions of dollars into efforts to combat feral hogs—and it's considering spending even more in the coming years. The problem has grown for decades, but our research has found that a …",
+      "ts": 1786627206000,
+      "publishedAt": "2026-08-13T13:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Muon g-2 experiment places new constraints on a forbidden property of muons",
+      "url": "https://phys.org/news/2026-08-muon-constraints-forbidden-property-muons.html",
+      "summary": "A year after its final muon magnetic anomaly announcement, the Muon g-2 collaboration reports a new measurement of a different property of the muon: its electric dipole moment. The work is published on the arXiv preprint…",
+      "ts": 1786627203000,
+      "publishedAt": "2026-08-13T13:20:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Active supermassive black holes may help form massive planets",
@@ -81,6 +137,14 @@
       "summary": "The tiny bones in your fingers withstand countless taps and swipes thanks to a precise blend of materials. Flexible collagen fibers form the framework, reinforced by hard calcium phosphate hydroxyapatite crystals. This i…",
       "ts": 1786617602000,
       "publishedAt": "2026-08-13T10:40:02.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Thermoelasticity-induced interferometer-displacement noise from the test mass in spaceborne gravitational-wave detectors",
+      "url": "http://link.aps.org/doi/10.1103/7jv7-zw4y",
+      "summary": "Author(s): Xingyu Yan, Fulong Wei, Shen Zhan, and Zebing Zhou In spaceborne gravitational-wave detectors, the test mass is treated as an ideal rigid end mirror for interferometric-displacement readout. In reality, howeve…",
+      "ts": 1786615200000,
+      "publishedAt": "2026-08-13T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -735,70 +799,6 @@
       "title": "Dynamics of fluctuating populations in multi-state switching environments",
       "url": "https://arxiv.org/abs/2608.12208",
       "summary": "arXiv:2608.12208v1 Announce Type: cross Abstract: Microbial populations generally evolve in fluctuating environments under time-varying conditions. These are often described by binary switching models, sometimes seen as …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Earth observation embeddings are effective sub-grid descriptors for probabilistic weather downscaling",
-      "url": "https://arxiv.org/abs/2608.12271",
-      "summary": "arXiv:2608.12271v1 Announce Type: cross Abstract: Global weather reanalyses and forecasts resolve the evolving atmospheric state on coarse grids, but site-specific applications require predictions at arbitrary locations …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics of hyperpolarized nuclear spins at Zeeman-insensitive points",
-      "url": "https://arxiv.org/abs/2601.07614",
-      "summary": "arXiv:2601.07614v2 Announce Type: replace Abstract: Avoided crossing (LAC) transitions are central to spin-based precision measurements since they provide strong observability and field-perturbation insensitivity, but wh…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "X-ray diffraction from chiral molecules with twisted beams",
-      "url": "https://arxiv.org/abs/2602.23655",
-      "summary": "arXiv:2602.23655v2 Announce Type: replace Abstract: Structured x-rays carrying an orbital angular momentum break spatial inversion symmetry and have been proposed as probes of chirality. We theoretically investigate twis…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structured generalized sliced Wasserstein distance for keV X-ray polarization analysis with Gas Pixel Detector",
-      "url": "https://arxiv.org/abs/2603.03384",
-      "summary": "arXiv:2603.03384v2 Announce Type: replace Abstract: Because of the special angular distribution of excited electrons by the photoelectric effect, the Gas Pixel Detector (GPD) is effective in measuring keV X-ray polarizat…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physical mechanisms of ohmic contact and tunnel diode: A novel explanation in terms of impurity-photovoltaic-effect resulting from infrared self-emission at room-temperature",
-      "url": "https://arxiv.org/abs/2603.07182",
-      "summary": "arXiv:2603.07182v4 Announce Type: replace Abstract: A mechanism of quantum-mechanical tunneling is based on electron-wavefunction and is used to explain ohmic contact as well as tunnel and Zener diodes. Tunneling is the …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reinforcement learning with reputation-based adaptive exploration promotes cooperation",
-      "url": "https://arxiv.org/abs/2604.08103",
-      "summary": "arXiv:2604.08103v2 Announce Type: replace Abstract: Reinforcement learning provides a framework for studying how individuals adjust their behavior through repeated interaction and feedback in social dilemmas. In Q-learni…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Membrane Tension Governs Particle Wrapping-Unwrapping Transitions and Stalling",
-      "url": "https://arxiv.org/abs/2604.13415",
-      "summary": "arXiv:2604.13415v3 Announce Type: replace Abstract: Membrane wrapping controls nanoparticle uptake during endocytosis, whereas the reverse process of membrane unwrapping accompanies particle expulsion and membrane fusion…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unfolding unstable skyrmionic polarization textures",
-      "url": "https://arxiv.org/abs/2604.13601",
-      "summary": "arXiv:2604.13601v2 Announce Type: replace Abstract: Polarization of light can form skyrmionic textures, akin to nonlinear solitons in condensed matter, yet their disparate physical context has motivated extensive debate …",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     }
