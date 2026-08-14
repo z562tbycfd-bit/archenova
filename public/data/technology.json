@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-14T15:54:06.873Z",
+  "updated": "2026-08-14T16:55:48.080Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Spire and PlanetiQ win NOAA radio-occultation contracts",
+      "url": "https://spacenews.com/spire-and-planetiq-win-noaa-radio-occultation-contracts/",
+      "summary": "SAN FRANCISCO – The National Oceanic and Atmospheric Administration has awarded contracts to Spire Global and PlanetiQ to provide radio occultation data for terrestrial and space weather forecasts. The NOAA […] The post …",
+      "ts": 1786725238000,
+      "publishedAt": "2026-08-14T16:33:58.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Luigi Mangione pleads guilty to federal stalking charges in the killing of UnitedHealthcare CEO",
+      "url": "https://www.statnews.com/2026/08/14/luigi-mangione-federal-charges-guilty-plea-killing-of-unitedhealthcare-ceo-brian-thompson/?utm_campaign=rss",
+      "summary": "In pleading guilty, Mangione admitted to following UnitedHealth executive Brian Thompson and then shooting him.",
+      "ts": 1786725039000,
+      "publishedAt": "2026-08-14T16:30:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/08/14/up-down-ladder-latest-comings-goings-jobs/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1786724443000,
+      "publishedAt": "2026-08-14T16:20:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "BMS’s New Facility, Recursion–Genentech Partnership, Long-COVID and Persistent C. auris",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/bmss-new-facility-recursion-genentech-partnership-long-covid-and-persistent-c-auris/",
+      "summary": "In this episode of GEN's Touching Base, editors discuss BMS’s new manufacturing facility, and a Recursion–Genentech partnership. Editors also discuss infectious diseases including some long-term consequences of COVID and…",
+      "ts": 1786723229000,
+      "publishedAt": "2026-08-14T16:00:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Newly Discovered Role for Polyamines Could Point to Potential Anticancer Strategies",
+      "url": "https://www.genengnews.com/topics/translational-medicine/newly-discovered-role-for-polyamines-could-point-to-potential-anticancer-strategies/",
+      "summary": "Researchers discovered that polyamines protect living cells against iron overload, and suggest the finding could point to potential therapeutic strategies against cancer, and provide new insights into disorders including…",
+      "ts": 1786723155000,
+      "publishedAt": "2026-08-14T15:59:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: PBMs agree to display TrumpRx drug prices",
+      "url": "https://www.statnews.com/2026/08/14/biotech-news-pbms-agree-to-display-trumprx-drug-prices/?utm_campaign=rss",
+      "summary": "Bristol's Zenbexus wins accelerated approval, Novartis wins UK patent fight over Entresto, and more biotech news from The Readout",
+      "ts": 1786722913000,
+      "publishedAt": "2026-08-14T15:55:13.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "SFA Spectroscopy Chases Away Cloudy Samples",
@@ -19,6 +73,15 @@
       "ts": 1786719738000,
       "publishedAt": "2026-08-14T15:02:18.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Total Solar Eclipse in Sunflower Field",
+      "url": "https://www.nasa.gov/image-article/total-solar-eclipse-in-sunflower-field/",
+      "summary": "This composite image shows the progression of a total solar eclipse over San Millán de los Caballeros, Spain on, Wednesday, Aug. 12, 2026. A total solar eclipse swept across parts of Greenland, Iceland, northern Russia, …",
+      "ts": 1786718935000,
+      "publishedAt": "2026-08-14T14:48:55.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -159,7 +222,7 @@
       "source": "SpaceNews",
       "title": "Bulgaria advances project to launch new space, defense innovation hub",
       "url": "https://spacenews.com/bulgaria-advances-project-to-launch-new-space-defense-innovation-hub/",
-      "summary": "WARSAW, Poland — Bulgaria’s government has approved a draft memorandum of understanding with local company Starbase Europe to collaborate on the development of a new space and defense innovation hub […] The post Bulgaria…",
+      "summary": "WARSAW, Poland — Bulgaria’s government has approved a draft memorandum of understanding with the local satellite manufacturer EnduroSat to collaborate on the development of a new space and defense innovation […] The post…",
       "ts": 1786698000000,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "categoryId": "space"
@@ -748,69 +811,6 @@
       "ts": 1786613400000,
       "publishedAt": "2026-08-13T09:30:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-      "ts": 1786611600000,
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How kids feel about AI, in their own words",
-      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes o…",
-      "ts": 1786611600000,
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "MTG-I1 captures eclipse path of totality over Europe",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I1_captures_eclipse_path_of_totality_over_Europe",
-      "summary": "Video: 00:00:04 Yesterday between 20:26 and 20:34 CEST, parts of the Iberian peninsula experienced a total solar eclipse. This animation, composed of images from the Meteosat Third Generation Imager satellite (MTG-I1), c…",
-      "ts": 1786609800000,
-      "publishedAt": "2026-08-13T08:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What patients actually think about ‘minimally invasive’ brain implants",
-      "url": "https://www.statnews.com/2026/08/13/patient-perspectives-on-brain-implants-for-depression/?utm_campaign=rss",
-      "summary": "A new study polled people with treatment-resistant depression about what matters to them when it comes to brain implants for mental health.",
-      "ts": 1786609800000,
-      "publishedAt": "2026-08-13T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What Medicare incentives for AI-based devices mean for tech companies — and hospitals",
-      "url": "https://www.statnews.com/2026/08/13/how-medicare-cms-pays-ntap-for-new-ai-medical-devices/?utm_campaign=rss",
-      "summary": "As Medicare pays hospitals when they use newly-authorized AI devices, researchers say those payments could incentivize overuse.",
-      "ts": 1786609800000,
-      "publishedAt": "2026-08-13T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’ve seen what life is like without vaccines. Americans need to understand what they save us from",
-      "url": "https://www.statnews.com/2026/08/13/trump-vaccine-executive-order-mmr-separate-shots-policy/?utm_campaign=rss",
-      "summary": "“The ability to prevent a deadly infectious disease is an extraordinary privilege,” writes infectious disease physician Krutika Kuppalli.",
-      "ts": 1786609800000,
-      "publishedAt": "2026-08-13T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How to disrupt the health misinformation business model",
-      "url": "https://www.statnews.com/2026/08/13/statin-misinformation-medicine-scams-online-regulation-fact-checks/?utm_campaign=rss",
-      "summary": "One way to fight medical misinformation: make it easier for people to understand when they are being manipulated, write Paul Martin Jensen and Avi Tuschman.",
-      "ts": 1786609800000,
-      "publishedAt": "2026-08-13T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

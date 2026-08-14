@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-14T15:54:02.577Z",
+  "updated": "2026-08-14T16:55:45.753Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Quality vs. quantity: Why 'super-shedders' may not be the superspreaders of disease outbreaks",
+      "url": "https://phys.org/news/2026-08-quality-quantity-super-shedders-superspreaders.html",
+      "summary": "A host that sheds an abundance of parasites might seem like an obvious disease-spreading threat. But new research suggests that shedding large volumes of parasites does not dictate transmission efficiency—and \"super-shed…",
+      "ts": 1786725601000,
+      "publishedAt": "2026-08-14T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genetic analysis reveals new species of endangered baobab tree in Madagascar",
+      "url": "https://phys.org/news/2026-08-genetic-analysis-reveals-species-endangered.html",
+      "summary": "Madison researchers recognize a new species of baobab tree, Adansonia bozy, unique to Madagascar, according to a study published in the journal Taxon. Previously, members of A. bozy were classified within a different spe…",
+      "ts": 1786724401000,
+      "publishedAt": "2026-08-14T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long-lost convent rediscovered under a soccer field in Denmark",
+      "url": "https://phys.org/news/2026-08-lost-convent-rediscovered-soccer-field.html",
+      "summary": "A medieval monastery complex, long believed to be lost, has now been identified using ground-penetrating radar (GPR) in Roskilde, Denmark. The investigations have uncovered extensive and well-preserved remains of the St …",
+      "ts": 1786723203000,
+      "publishedAt": "2026-08-14T16:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A light-based scan could detect deadly bowel disease in preterm babies",
+      "url": "https://www.sciencenews.org/article/light-scan-deadly-bowel-disease-babies",
+      "summary": "Necrotizing enterocolitis strikes premature babies with almost no warning. A new approach aims to detect it early with a quick, low-risk scan.",
+      "ts": 1786723200000,
+      "publishedAt": "2026-08-14T16:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "US could exhaust domestic phosphorus within 40 years, but waste offers reserves",
@@ -161,6 +193,102 @@
       "summary": "Meteorites provided a rare but ready source of iron for ancient Bronze Age cultures before smelting became common. A new study, published in the Journal of Archaeological Science, sheds light on how the ancient Minoan an…",
       "ts": 1786704001000,
       "publishedAt": "2026-08-14T10:40:01.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Quantum Non-Markovian Hatano-Nelson Model",
+      "url": "http://link.aps.org/doi/10.1103/wsvz-mstf",
+      "summary": "Author(s): Sumit Kumar Jana, Ryo Hanai, Tan Van Vu, Hisao Hayakawa, and Archak Purkayastha While considering non-Hermitian Hamiltonians arising in the presence of dissipation, in most cases, the dissipation is taken to b…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Approaching the Ultimate Limit of Quantum Multiparameter Estimation by Many-Body Physics",
+      "url": "http://link.aps.org/doi/10.1103/cghv-j44h",
+      "summary": "Author(s): Mankei Tsang I propose a physical measurement scheme on multiple independent and identically distributed quantum objects to approach the Holevo-Nagaoka bound for quantum multiparameter estimation. The scheme e…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Gardening on the Moon: An Advection-Diffusion Model to Guide the Search for Supernova Debris in the Lunar Regolith",
+      "url": "http://link.aps.org/doi/10.1103/14kh-nkgl",
+      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar surface material will help researchers reveal a cosmic time cap…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Implications of GW241011 for Rotating Exotic Compact Objects",
+      "url": "http://link.aps.org/doi/10.1103/29y5-nx9y",
+      "summary": "Author(s): N. V. Krishnendu, Tamara Evstafyeva, Aditya Vijaykumar, William E. East, Rimo Das, Sayantani Datta, Nils Siemonsen, Nami Uchikata, Poulami Dutta Roy, Anuradha Gupta, Ish Gupta, Syed U. Naqvi, Manuel Piarulli, …",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "First Evidence of the Decay ${B}^{+}→{π}^{+}{e}^{+}{e}^{−}$",
+      "url": "http://link.aps.org/doi/10.1103/97c9-jl1m",
+      "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) The first evidence for the decay ${B}^{+}→{π}^{+}{e}^{+}{e}^{−}$ is reported using proton-proton collision data recorded by the LHCb experiment at center-of-mass energies of…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Quantum Droplets in a Resonant Bose-Fermi Mixture",
+      "url": "http://link.aps.org/doi/10.1103/5pr6-5fmd",
+      "summary": "Author(s): Sam Foster, Olivier Bleu, Jesper Levinsen, and Meera M. Parish We study the canonical problem of a Fermi gas interacting with a weakly repulsive Bose-Einstein condensate at zero temperature. To explore the qua…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Topological States Enabled by Nonlocal Nonlinearity in Synthetic Dimensions",
+      "url": "http://link.aps.org/doi/10.1103/j9hv-7cfg",
+      "summary": "Author(s): Chong-Xiao Chen, Zheng-Wei Zhou, Han Pu, and Xi-Wang Luo The interplay between topology and nonlinearity represents a central challenge in modern physics. Here, we investigate this interplay by considering a s…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Dynamical Spectral Function of the Kagome Quantum Spin Liquid",
+      "url": "http://link.aps.org/doi/10.1103/fjjf-xspp",
+      "summary": "Author(s): Jiahang Hu, Runze Chi, Yibin Guo, B. Normand, Hai-Jun Liao, and T. Xiang Quantum spin liquids (QSLs) host exotic fractionalized magnetic and gauge-field excitations whose microscopic origins and experimental v…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Electromagnetic Response of a Half-Filled Chern Band near Topological Criticality",
+      "url": "http://link.aps.org/doi/10.1103/v44d-7jr4",
+      "summary": "Author(s): Xinlei Yue, Fabian Pichler, Michael Knap, and Ady Stern We evaluate electromagnetic-response observables in a half-filled Chern band, across a topological phase transition between a composite Fermi liquid (CFL…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Giant Spin-Electric Coupling in Heterometallic Porphyrin Dimers",
+      "url": "http://link.aps.org/doi/10.1103/hl44-cn9m",
+      "summary": "Author(s): Yan Lu, Xilong Xu, and Li Wang Magnetic molecules exhibiting pronounced spin-electric coupling have long been sought to elucidate the intricate relationship between spin orders and electric fields, as well as …",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Nonadiabatic Molecular Dynamics on Real-Time Excited-State Surfaces via Machine Learning Hamiltonians",
+      "url": "http://link.aps.org/doi/10.1103/9wbw-h87d",
+      "summary": "Author(s): Changwei Zhang, Yang Zhong, Zhi-Guo Tao, Yingzhou Li, Zhenggang Lan, Oleg V. Prezhdo, Xin-Gao Gong, Weibin Chu, and Hongjun Xiang Simulating the coupled, nonequilibrium dynamics of electrons and nuclei is a ce…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Universal Jamming Criticality and Self-Organizing Principles from Disorder to the Limit of Perfect Crystalline Order",
+      "url": "http://link.aps.org/doi/10.1103/lyqg-k6tk",
+      "summary": "Author(s): Jianhua Zhang, Jiaqi Si, Ning Xu, and Hua Tong While crystals are defined by periodic order, the nature of amorphous solids remains elusive due to their disordered, diverse, and nonequilibrium structures. Here…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
     },
     {
       "source": "APS PR Applied",
@@ -671,134 +799,6 @@
       "title": "Air-water cavity in multi-plunging jet impacts",
       "url": "https://arxiv.org/abs/2608.13479",
       "summary": "arXiv:2608.13479v1 Announce Type: new Abstract: We report the formation of an original dome-shaped air-water cavity at the impact site of closely-packed plunging water jets. The injector assembly consists of concentric r…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Macroscopic Stability of a Rapidly Rotating Theta Pinch",
-      "url": "https://arxiv.org/abs/2608.13485",
-      "summary": "arXiv:2608.13485v1 Announce Type: new Abstract: The macroscopic ideal-MHD stability of an axisymmetric mirror device with sonic levels of plasma rotation is analyzed by approximating the plasma equilibrium as a rotating …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DD-RNO: A Domain-Decomposed Routed Neural Operator for Airfoil Flow Prediction",
-      "url": "https://arxiv.org/abs/2608.13490",
-      "summary": "arXiv:2608.13490v1 Announce Type: new Abstract: Deep learning surrogates for RANS flow prediction around airfoils face two persistent bottlenecks. A single neural architecture cannot simultaneously resolve sharp near-wal…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Paleoclimate Boundary Conditions as an Out-of-Sample Test for the Forced Response of Ocean Climate Emulators",
-      "url": "https://arxiv.org/abs/2608.13494",
-      "summary": "arXiv:2608.13494v1 Announce Type: new Abstract: AI weather emulators benefit from clear objectives and metrics, which have led to the rapid development of models that outperform traditional benchmarks. In contrast, long-…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-situ Adjoint Wave Control in Reconfigurable Non-Hermitian Nonlinear Systems",
-      "url": "https://arxiv.org/abs/2608.13503",
-      "summary": "arXiv:2608.13503v1 Announce Type: new Abstract: Complex multipath environments are usually avoided in wave-based information processing because repeated scattering creates many interfering propagation paths, obscuring co…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-optical switching of nonlinear structured light in crystal-engineered van der Waals materials",
-      "url": "https://arxiv.org/abs/2608.13548",
-      "summary": "arXiv:2608.13548v1 Announce Type: new Abstract: The orbital angular momentum (OAM) of light is a discrete, unbounded degree of freedom that underpins mode-multiplexed communications and high-dimensional quantum photonics…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Trophic structure predicts seizure propagation in brain network models",
-      "url": "https://arxiv.org/abs/2608.12382",
-      "summary": "arXiv:2608.12382v1 Announce Type: cross Abstract: Epilepsy is widely regarded as a disorder driven by connectivity in the brain. We use a model of seizure dynamics on directed networks to investigate how structural prope…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A microscopic computational simulation of [18F]FDG transport and metabolism identifies valid regimes for compartmental analysis",
-      "url": "https://arxiv.org/abs/2608.12386",
-      "summary": "arXiv:2608.12386v1 Announce Type: cross Abstract: 18F-fluorodeoxyglucose ([18F]FDG) positron emission tomography (PET), combined with compartmental modeling, is a powerful non-invasive imaging method for assessing cellul…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Stability of the Euler-Poisson Dark-Fluid Model",
-      "url": "https://arxiv.org/abs/2608.12434",
-      "summary": "arXiv:2608.12434v1 Announce Type: cross Abstract: We present a stability analysis of a dark-fluid model described as a non-relativistic, rotating, non-viscous, self-gravitating fluid. We assume spherical symmetry and mod…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mechanisms of Nanoscroll Formation and Particle Encapsulation in Janus MXenes",
-      "url": "https://arxiv.org/abs/2608.12439",
-      "summary": "arXiv:2608.12439v1 Announce Type: cross Abstract: Morphology transfer of 2D Janus MXenes into nanoscrolls unlocks unusual properties. Although a scalable synthesis route has been experimentally verified, the atomistic me…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exemplar-based objective classification of gust-induced loads across multiple flight conditions",
-      "url": "https://arxiv.org/abs/2608.12448",
-      "summary": "arXiv:2608.12448v1 Announce Type: cross Abstract: Is it possible to find an objective classification criterion that organizes the complexity of gust-induced loads across many flight conditions? And one that remains as in…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual Gauge Theory for Two Dimensional Superfluid Turbulence",
-      "url": "https://arxiv.org/abs/2608.12485",
-      "summary": "arXiv:2608.12485v1 Announce Type: cross Abstract: We describe turbulent hydrodynamics of superfluids in two spatial dimensions via the dynamics of point-like vortices coupled to an emergent 2+1 dimensional $U(1)$ gauge f…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large-Scale Dynamos Driven by Shear-Flow-Induced Jets",
-      "url": "https://arxiv.org/abs/2608.12530",
-      "summary": "arXiv:2608.12530v1 Announce Type: cross Abstract: At every scale they occupy, magnetic fields affect various phenomena, including star formation, cosmic ray transport, charged particle acceleration, space weather, transp…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Memory-dependent electronic friction for nonadiabatic dynamics at metal surfaces",
-      "url": "https://arxiv.org/abs/2608.12572",
-      "summary": "arXiv:2608.12572v1 Announce Type: cross Abstract: Electronic excitation induced by nuclear motion is a key energy dissipation channel in chemical dynamics at metal surfaces. Here, nonadiabatic effects can be treated via …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser-micromachined silicon-platelet feedhorns for large-scale submillimeter and millimeter-wave focal planes",
-      "url": "https://arxiv.org/abs/2608.12577",
-      "summary": "arXiv:2608.12577v1 Announce Type: cross Abstract: We present the fabrication and characterization of the first silicon-platelet feedhorn arrays produced using laser micromachining. First, we present a demonstration of th…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Feasibility and Convex Design of Probe-Position Matching in a Scanning X-Band Radar Array",
-      "url": "https://arxiv.org/abs/2608.12602",
-      "summary": "arXiv:2608.12602v1 Announce Type: cross Abstract: The probe position of a microstrip element is normally chosen from the isolated-element input resistance. This paper replaces that procedure with a decision available bef…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hierarchical Bayesian Calibration with Bayesian Committee Machine",
-      "url": "https://arxiv.org/abs/2608.12603",
-      "summary": "arXiv:2608.12603v1 Announce Type: cross Abstract: Calibrating computational models to experimental data is a core task in applied statistics, especially in scientific domains, where physical experiments are costly and si…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
