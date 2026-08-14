@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-14T08:17:33.556Z",
+  "updated": "2026-08-14T10:04:29.369Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "An 'influencer' degree? Colleges bet on content creator major as critics question its value",
+      "url": "https://phys.org/news/2026-08-degree-colleges-content-creator-major.html",
+      "summary": "Ask a teen what they want to be when they grow up, and there's a fair chance being an influencer is on their list.",
+      "ts": 1786700402000,
+      "publishedAt": "2026-08-14T09:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "EU cities plan to compensate for a fifth of their emissions through carbon removal, but few have thought through how",
+      "url": "https://phys.org/news/2026-08-eu-cities-compensate-emissions-carbon.html",
+      "summary": "An analysis of 103 European cities' climate-neutral plans for 2030 (including 22 capital cities) shows that municipalities are planning to rely on carbon removal to compensate for about a fifth of their emissions. This w…",
+      "ts": 1786698005000,
+      "publishedAt": "2026-08-14T09:00:05.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Open versioned aggregates of the FAA National Wildlife Strike Database (1990-2026): conditional damage rates by animal family, airframe, and airport",
@@ -783,22 +799,6 @@
       "title": "Thermal transport in crystals: from the quantum Dyson equation to mesoscopic phonon hydrodynamics",
       "url": "https://arxiv.org/abs/2608.13339",
       "summary": "arXiv:2608.13339v1 Announce Type: cross Abstract: Thermal transport in dielectric, non-magnetic crystals is mediated by quantized lattice vibrations, which drift and interact when driven out of equilibrium by a temperatu…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-driven linear analysis of dynamical systems via nonlinearity-subtracted dynamic mode decomposition",
-      "url": "https://arxiv.org/abs/2608.13373",
-      "summary": "arXiv:2608.13373v1 Announce Type: cross Abstract: The Dynamic Mode Decomposition (DMD) has been consolidated as a basic tool for data-driven analysis of dynamical systems, allowing simultaneous identification of coherent…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Field-Widened Multimode Interferometer with Long Time-Bin Delay Using a Multi-Pass Herriott Cell",
-      "url": "https://arxiv.org/abs/2608.13399",
-      "summary": "arXiv:2608.13399v1 Announce Type: cross Abstract: Interference of optical signals in free-space channels requires optical receivers to support many spatial modes due to atmospheric turbulence, typically necessitating ada…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
