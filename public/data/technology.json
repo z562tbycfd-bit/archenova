@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-14T14:53:23.471Z",
+  "updated": "2026-08-14T15:54:06.873Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "SFA Spectroscopy Chases Away Cloudy Samples",
+      "url": "https://www.genengnews.com/insights/sfa-spectroscopy-chases-away-cloudy-samples/",
+      "summary": "Scatter-free absorption spectroscopy quantifies RNA and ligands in cloudy LNPs within 15 seconds, accurately and repeatably. The post SFA Spectroscopy Chases Away Cloudy Samples appeared first on GEN - Genetic Engineerin…",
+      "ts": 1786721231000,
+      "publishedAt": "2026-08-14T15:27:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Back-to-School at USP",
+      "url": "https://www.genengnews.com/topics/drug-discovery/back-to-school-at-usp/",
+      "summary": "Brian McNally, PhD, director of global biologics marketing & strategic collaborations at USP provides his insight on building the workforce behind the next generation of medicines. Don't miss this August issue Point of V…",
+      "ts": 1786719738000,
+      "publishedAt": "2026-08-14T15:02:18.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "A Decade of Advances in Single-Cell Functional Immunomics",
@@ -73,6 +91,15 @@
       "ts": 1786709021000,
       "publishedAt": "2026-08-14T12:03:41.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: The harrowing reality of giving birth in a war zone",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168141",
+      "summary": "Sudanese women about to give birth are losing their babies and sometimes their own lives because of a lack of specialist healthcare support, amid the ongoing war, UN humanitarians said on Friday.",
+      "ts": 1786708800000,
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -784,33 +811,6 @@
       "ts": 1786609800000,
       "publishedAt": "2026-08-13T08:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: As young people increasingly get cancer, new fertility options are changing their futures",
-      "url": "https://www.statnews.com/2026/08/13/young-people-cancer-new-fertility-tech/?utm_campaign=rss",
-      "summary": "New technologies, cancer doctors, and reproductive specialists are working to give more patients a chance to have children post-treatment.",
-      "ts": 1786609800000,
-      "publishedAt": "2026-08-13T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Newsom promotes affordable insulin, but California’s generic label is off to a slow start",
-      "url": "https://www.statnews.com/2026/08/13/newsom-california-generic-insulin-calrx-availability-slow-to-reach-patients/?utm_campaign=rss",
-      "summary": "Gov. Gavin Newsom is focused on making health care affordable, but his CalRx insulin has been slow to reach patients.",
-      "ts": 1786609800000,
-      "publishedAt": "2026-08-13T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 13 – Total Solar Eclipse Over Spain",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-13-total-solar-eclipse-over-spain/",
-      "summary": "APOD Science APOD APOD: 2026 August 13 – Total… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
-      "ts": 1786593900000,
-      "publishedAt": "2026-08-13T04:05:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

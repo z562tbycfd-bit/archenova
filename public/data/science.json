@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-14T14:53:21.754Z",
+  "updated": "2026-08-14T15:54:02.577Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "US could exhaust domestic phosphorus within 40 years, but waste offers reserves",
+      "url": "https://phys.org/news/2026-08-exhaust-domestic-phosphorus-years-reserves.html",
+      "summary": "The United States could exhaust its domestic phosphorus supply within 40 years. Europe, Latin America and Southeast Asia already depend on imports from China and Morocco to meet their needs. Without phosphorus, crops can…",
+      "ts": 1786722004000,
+      "publishedAt": "2026-08-14T15:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Four hazards converge in East Portland, where underinvestment deepens vulnerability",
+      "url": "https://phys.org/news/2026-08-hazards-converge-east-portland-underinvestment.html",
+      "summary": "When it comes to compounding natural hazards like landslides, wildfires, flooding and extreme heat, where you live makes all the difference. New research from Portland State University underscores this disproportionate r…",
+      "ts": 1786720806000,
+      "publishedAt": "2026-08-14T15:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Butterfly-inspired technology could change the way we monitor air",
+      "url": "https://phys.org/news/2026-08-butterfly-technology-air.html",
+      "summary": "Respiratory infectious diseases and air pollution remain persistent global health challenges. Yet the tools used to monitor airborne threats are often expensive, power-hungry and difficult to deploy outside laboratories.",
+      "ts": 1786720801000,
+      "publishedAt": "2026-08-14T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cells use a little-known molecule to protect themselves from iron overload",
+      "url": "https://phys.org/news/2026-08-cells-molecule-iron-overload.html",
+      "summary": "Iron is essential. Our cells need it to produce energy, carry oxygen throughout the body and power countless chemical reactions that sustain life. But this metal has a dark side. When too much of it is left free inside c…",
+      "ts": 1786719603000,
+      "publishedAt": "2026-08-14T15:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny satellite will use the dark side of the moon to eavesdrop on whispers from the early universe",
+      "url": "https://phys.org/news/2026-08-tiny-satellite-dark-side-moon.html",
+      "summary": "A tiny UK-developed satellite, roughly the size of a small carry-on suitcase, could help answer one of the biggest questions in cosmology: What happened during the roughly 150 million years of the cosmic dark ages, befor…",
+      "ts": 1786719601000,
+      "publishedAt": "2026-08-14T15:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tiny DNA rotor lets microscopes track gene transcription one base pair at a time",
@@ -759,46 +799,6 @@
       "title": "Hierarchical Bayesian Calibration with Bayesian Committee Machine",
       "url": "https://arxiv.org/abs/2608.12603",
       "summary": "arXiv:2608.12603v1 Announce Type: cross Abstract: Calibrating computational models to experimental data is a core task in applied statistics, especially in scientific domains, where physical experiments are costly and si…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Wave-Regulated Precursor of a Near-Parallel Interplanetary Shock Observed by Parker Solar Probe",
-      "url": "https://arxiv.org/abs/2608.12606",
-      "summary": "arXiv:2608.12606v1 Announce Type: cross Abstract: Diffusive shock acceleration, at shocks from coronal mass ejections to supernova-remnant blast waves, presupposes a scattering wave field that the accelerated particles t…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structure-preserving uncertainty quantification for GENERIC dynamics",
-      "url": "https://arxiv.org/abs/2608.12624",
-      "summary": "arXiv:2608.12624v1 Announce Type: cross Abstract: Structure-preserving machine learning embeds physical structure directly into model architectures, yet uncertainty quantification (UQ) for such hard-constrained models re…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Free-Space Quantum Networks and Optimized Fiber-Reinforcement",
-      "url": "https://arxiv.org/abs/2608.12636",
-      "summary": "arXiv:2608.12636v1 Announce Type: cross Abstract: Free-space quantum communication provides a flexible complement to fiber-based quantum networks, but its point-to-point capacity is fundamentally limited by diffraction, …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dimension Reduction of Higher-Order Dynamical Networks",
-      "url": "https://arxiv.org/abs/2608.12676",
-      "summary": "arXiv:2608.12676v1 Announce Type: cross Abstract: Low-dimensional reductions provide a useful framework for studying high-dimensional dynamics on complex networks, but most existing approaches are restricted to pairwise …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite-Temperature Thermodynamics of Cu(100) Oxidation: Missing-Row Reconstruction, Defect States, and Order-Disorder Transition from Nested Sampling",
-      "url": "https://arxiv.org/abs/2608.12787",
-      "summary": "arXiv:2608.12787v1 Announce Type: cross Abstract: Metal surfaces undergo structural, compositional, and morphological changes in response to their chemical environment. Tuning the surfaces' function and stability for a g…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
