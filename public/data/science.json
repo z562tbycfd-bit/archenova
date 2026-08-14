@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-14T17:54:35.234Z",
+  "updated": "2026-08-14T18:57:04.087Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "X-band radar data sharpen simulation of westerly weak tornado",
+      "url": "https://phys.org/news/2026-08-band-radar-sharpen-simulation-westerly.html",
+      "summary": "Tornadoes are among the most destructive weather phenomena on Earth. Their small scale, short life cycle and sudden onset make them extremely difficult to predict. This challenge is amplified for weak tornadoes embedded …",
+      "ts": 1786733401000,
+      "publishedAt": "2026-08-14T18:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Controlling the rotation direction of light without complex new materials",
+      "url": "https://phys.org/news/2026-08-rotation-complex-materials.html",
+      "summary": "A new pathway has opened for controlling the rotation direction of light simply by changing how molecules are arranged, without having to synthesize complex new materials. Circularly polarized light is a special form of …",
+      "ts": 1786732804000,
+      "publishedAt": "2026-08-14T18:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bringing butterflies back from the brink of extinction",
+      "url": "https://phys.org/news/2026-08-butterflies-brink-extinction.html",
+      "summary": "On a summer day in Michigan, a tiny Poweshiek skipperling butterfly—smaller than a quarter—takes flight over a restored prairie.",
+      "ts": 1786732802000,
+      "publishedAt": "2026-08-14T18:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mysterious Cygnus Bubble may trace back to microquasar, astronomers suggest",
+      "url": "https://phys.org/news/2026-08-mysterious-cygnus-microquasar-astronomers.html",
+      "summary": "Astronomers have proposed a new explanation for the mysterious Cygnus Bubble, a vast cloud of ultra-high-energy gamma rays stretching thousands of light-years across the sky. While the bubble has generally been linked to…",
+      "ts": 1786731607000,
+      "publishedAt": "2026-08-14T18:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: What are chalk streams and why are these rare rivers under threat?",
+      "url": "https://phys.org/news/2026-08-qa-chalk-streams-rare-rivers.html",
+      "summary": "Chalk streams are among the world's rarest river habitats. Fewer than 300 exist globally, and most are found in England. They support rich wildlife and have been described as England's 'Great Barrier Reef' due to their b…",
+      "ts": 1786731606000,
+      "publishedAt": "2026-08-14T18:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New findings overturn 100-year-old assumption about common bacteria in the lungs",
+      "url": "https://phys.org/news/2026-08-overturn-year-assumption-common-bacteria.html",
+      "summary": "The human body is teeming with more than 35 trillion bacteria, coexisting in microbiomes inside the gut, mouth, lungs, skin and urogenital tract. While it's now clear these microbes are associated with health and disease…",
+      "ts": 1786730404000,
+      "publishedAt": "2026-08-14T18:00:04.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "How a brutal drought may have helped unleash yellow fever in Brazil",
+      "url": "https://www.sciencenews.org/article/drought-yellow-fever-outbreak-brazil",
+      "summary": "Animals searching for water brought the forest to the city, perhaps sparking Brazil’s first yellow fever outbreak in decades.",
+      "ts": 1786730400000,
+      "publishedAt": "2026-08-14T18:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Scientists develop method to deliver sugars directly into cells",
@@ -219,22 +275,6 @@
       "publishedAt": "2026-08-14T10:40:01.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
-      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
-      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
-      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
-      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Quantum Non-Markovian Hatano-Nelson Model",
       "url": "http://link.aps.org/doi/10.1103/wsvz-mstf",
@@ -254,7 +294,7 @@
       "source": "APS Physical Review Letters",
       "title": "Gardening on the Moon: An Advection-Diffusion Model to Guide the Search for Supernova Debris in the Lunar Regolith",
       "url": "http://link.aps.org/doi/10.1103/14kh-nkgl",
-      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar surface material will help researchers reveal a cosmic time cap…",
+      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar dirt will help researchers read the cosmic timeline found in sa…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -327,6 +367,46 @@
       "title": "Universal Jamming Criticality and Self-Organizing Principles from Disorder to the Limit of Perfect Crystalline Order",
       "url": "http://link.aps.org/doi/10.1103/lyqg-k6tk",
       "summary": "Author(s): Jianhua Zhang, Jiaqi Si, Ning Xu, and Hua Tong While crystals are defined by periodic order, the nature of amorphous solids remains elusive due to their disordered, diverse, and nonequilibrium structures. Here…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Persistent-current-biased and current-actuated switch for superconducting circuits",
+      "url": "http://link.aps.org/doi/10.1103/9r4s-6zj2",
+      "summary": "Author(s): Ziyi Zhao, Eva Gurra, Michael R. Vissers, and K. W. Lehnert Broadband and low-loss superconducting switches can facilitate large-scale quantum information processors and cryogenic detectors by dynamically reco…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Grazing-incidence resonant elastic x-ray scattering of skyrmion lattices in bulk MnSi",
+      "url": "http://link.aps.org/doi/10.1103/1788-7m8w",
+      "summary": "Author(s): Jingyi Chen, Andreas Bauer, Christian Pfleiderer, Gerrit van der Laan, Thorsten Hesjedal, and Shilei Zhang Magnetic skyrmions are spin textures with nontrivial topology that form two-dimensional hexagonal latt…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Micromagnetic modeling of surface acoustic wave—driven dynamics: Interplay of strain, magnetorotation, and magnetic anisotropy",
+      "url": "http://link.aps.org/doi/10.1103/7v5p-h1f4",
+      "summary": "Author(s): Florian Millo, Pauline Rovillain, Massimiliano Marangolo, and Daniel Stoeffler This Letter investigates the coupling mechanism of surface acoustic waves (SAWs) with spin waves (SWs) via micromagnetic analysis.…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -719,86 +799,6 @@
       "title": "Flow-thermochemistry coupling governs pressure-dependent CO$_2$ conversion in vortex-stabilized microwave plasma reactors: Insights from three-dimensional CFD modeling",
       "url": "https://arxiv.org/abs/2608.13214",
       "summary": "arXiv:2608.13214v1 Announce Type: new Abstract: In this work, a three-dimensional computational fluid dynamics model is developed for a vortex-stabilized microwave CO$_2$ plasma reactor operating over the pressure range …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical Noise and Missing Forcing Limit Estimates of Earth's Feedback from Prescribed Sea-Surface Temperature Simulations",
-      "url": "https://arxiv.org/abs/2608.13219",
-      "summary": "arXiv:2608.13219v1 Announce Type: new Abstract: Earth's feedback parameter measures how the Earth system responds to forcing and is inversely proportional to climate sensitivity. Sea-surface temperature (SST) patterns ca…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Critical Microwave Mach-Zehnder-Type Interferometry with Dual-LO Rydberg Atoms",
-      "url": "https://arxiv.org/abs/2608.13222",
-      "summary": "arXiv:2608.13222v1 Announce Type: new Abstract: High-precision phase measurement of microwave fields underpins a wide range of applications, including wireless communications, distributed radar, plasma diagnostics, and a…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse-Designed High-Q/V Silicon Nitride Photonic Crystal Cavities for Second- and Third-Harmonic Generation",
-      "url": "https://arxiv.org/abs/2608.13261",
-      "summary": "arXiv:2608.13261v1 Announce Type: new Abstract: SiN photonic crystal (PhC) cavities are promising platforms for nonlinear and quantum photonics because of their wide transparency window, CMOS compatibility, and negligibl…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometric Parametric Instability in Nonlinear Multipass Cells",
-      "url": "https://arxiv.org/abs/2608.13288",
-      "summary": "arXiv:2608.13288v1 Announce Type: new Abstract: Geometric parametric instability (GPI) is the resonant growth of discrete spectral sidebands enabled by longitudinally periodic multimode evolution and has been studied pri…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Origin of effective non-Fourier heat conduction phenomena in heterogeneous materials",
-      "url": "https://arxiv.org/abs/2608.13336",
-      "summary": "arXiv:2608.13336v1 Announce Type: new Abstract: Phenomenological models of non-Fourier heat conduction often lack a strict microstructural foundation, leading to ambiguities when modeling complex heterogeneous materials.…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluating Electrostatic Embedding MLIP/MM for Relative Binding Free Energy Calculations",
-      "url": "https://arxiv.org/abs/2608.13355",
-      "summary": "arXiv:2608.13355v1 Announce Type: new Abstract: Alchemical relative binding free energy (RBFE) calculations are limited by the fixed-charge approximation of classical force fields. Hybrid machine learning interatomic pot…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectrally smooth broadband response via autocorrelation-constrained inverse design",
-      "url": "https://arxiv.org/abs/2608.13367",
-      "summary": "arXiv:2608.13367v1 Announce Type: new Abstract: Time-domain inverse design in photonics is known to be suitable for maximizing the efficiency of optical devices over broad frequency ranges. Objectives commonly used in th…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intermittent Vortex Merging and Extreme Drag in Transitional Airfoil Flow",
-      "url": "https://arxiv.org/abs/2608.13398",
-      "summary": "arXiv:2608.13398v1 Announce Type: new Abstract: Intermittent departures from nominal Kelvin--Helmholtz shedding can produce rare and pronounced drag excursions in transitional airfoil flow. We examine these events using …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modern aerodynamics models do not capture important unsteady forces--the failure of the quasi-steady approximation",
-      "url": "https://arxiv.org/abs/2608.13424",
-      "summary": "arXiv:2608.13424v1 Announce Type: new Abstract: Aerodynamic unsteadiness is inherent to the operation of many engineering applications, especially those that involve large-scale rotating blades, such as modern wind turbi…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling Bond-Dependent Kitaev-like interaction in 2D Edge-Sharing Tetrahedral Magnets: FeX (X=Te, Se)",
-      "url": "https://arxiv.org/abs/2608.13427",
-      "summary": "arXiv:2608.13427v1 Announce Type: new Abstract: Bond-dependent magnetic interactions, exemplified by the Kitaev model, are known to arise from the interplay between spin-orbit coupling(SOC) and specific coordination geom…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }

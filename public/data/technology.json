@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-14T17:54:39.673Z",
+  "updated": "2026-08-14T18:57:07.614Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: AAP president: How pediatricians are navigating federal leaders’ fearmongering on vaccines",
+      "url": "https://www.statnews.com/2026/08/14/vaccine-executive-order-policy-aap-president/?utm_campaign=rss",
+      "summary": "Every parent experiences a unique mix of emotions when caring for a newborn baby. You’re filled with an overwhelming sense of pride, love, and awe for this tiny, precious person…",
+      "ts": 1786732470000,
+      "publishedAt": "2026-08-14T18:34:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Volunteer Develops Machine-Learning Tool to Identify Rare Clouds",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/volunteer-develops-machine-learning-tool-to-identify-rare-clouds/",
+      "summary": "Certain kinds of clouds are misbehaving – appearing more often and lower in the sky than they used to. To help identify the factors influencing these changes, scientists have asked people around the world with cameras to…",
+      "ts": 1786728946000,
+      "publishedAt": "2026-08-14T17:35:46.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
@@ -10,6 +28,15 @@
       "ts": 1786727585000,
       "publishedAt": "2026-08-14T17:13:05.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun ",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+      "summary": "As humanity looks to the Moon and stars for future exploration, predicting space weather — conditions in space primarily driven by the Sun — is more important than ever. Now, a team of astrophysicists and data scientists…",
+      "ts": 1786726823000,
+      "publishedAt": "2026-08-14T17:00:23.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -498,6 +525,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "Author Correction: High-performance perovskite/silicon tandem solar cells enabled by multifunctional titanium oxynitride recombination layers",
+      "url": "https://www.nature.com/articles/s41560-026-02137-z",
+      "summary": "",
+      "ts": 1786665600000,
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "SpaceNews",
       "title": "Space Force awards five companies $60 million for multi-vendor satellite network tests",
       "url": "https://spacenews.com/space-force-awards-five-companies-60-million-for-multi-vendor-satellite-network-tests/",
@@ -774,42 +810,6 @@
       "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
       "ts": 1786618800000,
       "publishedAt": "2026-08-13T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Neurocrine Biosciences and the delicate balance of benefit and risk",
-      "url": "https://www.statnews.com/2026/08/13/neurocrine-biosciences-vykat-prader-willi-2/?utm_campaign=rss",
-      "summary": "When it comes to rare disease treatments, patients often confront a difficult risk-benefit calculus. Such is the case with a therapy from Neurocrine Biosciences.",
-      "ts": 1786617000000,
-      "publishedAt": "2026-08-13T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Paragon lays off staff after Gateway cancellation",
-      "url": "https://spacenews.com/paragon-lays-off-staff-after-gateway-cancellation/",
-      "summary": "A subcontractor for a module that was being developed for NASA’s lunar Gateway has laid off 70 people after NASA halted work on the program. The post Paragon lays off staff after Gateway cancellation appeared first on Sp…",
-      "ts": 1786616036000,
-      "publishedAt": "2026-08-13T10:13:56.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "url": "https://openai.com/index/previewing-ultrafast",
-      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-      "ts": 1786615200000,
-      "publishedAt": "2026-08-13T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What’s behind this summer’s heat, and why 2027 could be worse",
-      "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
-      "summary": "This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the hottest two-month stretch in Europe since record-keeping began. The contiguous US endured its hottest month on record in July.…",
-      "ts": 1786615200000,
-      "publishedAt": "2026-08-13T10:00:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
