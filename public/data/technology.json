@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-14T13:10:55.613Z",
+  "updated": "2026-08-14T14:53:23.471Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "A Decade of Advances in Single-Cell Functional Immunomics",
+      "url": "https://www.genengnews.com/topics/omics/a-decade-of-advances-in-single-cell-functional-immunomics/",
+      "summary": "In this August issue Thought Leader article Tania Konry, PhD, cofounder of Feromics and associate professor at Northeastern University, lends his insight on how the convergence of functional biology, AI, and translationa…",
+      "ts": 1786718801000,
+      "publishedAt": "2026-08-14T14:46:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a lawsuit over lab tests for meds, a Bristol myeloma drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/14/lab-tests-lawsuit-bristol-multiple-myeloma-drug-approved/?utm_campaign=rss",
+      "summary": "The FDA approved a Bristol oral treatment for advanced multiple myeloma, marking the debut of a new class of medicine for the blood cancer",
+      "ts": 1786716017000,
+      "publishedAt": "2026-08-14T14:00:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Drug-testing lab that has sparked controversy sues group that develops drug standards over criticism",
+      "url": "https://www.statnews.com/pharmalot/2026/08/14/controversial-lab-sues-usp-for-disparaging-its-testing-methods/?utm_campaign=rss",
+      "summary": "A lab that tussled with regulators over impurities found in widely used medicines has accused U.S. Pharmacopeia of making false and misleading remarks about its methods.",
+      "ts": 1786713786000,
+      "publishedAt": "2026-08-14T13:23:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 10-14 August 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_10-14_August_2026",
+      "summary": "Week in images: 10-14 August 2026 Discover our week through the lens",
+      "ts": 1786713000000,
+      "publishedAt": "2026-08-14T13:10:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Cheaper launch has moved the spacecraft bottleneck. Mass is out, surface area is in.",
@@ -445,7 +481,7 @@
     },
     {
       "source": "Genetic Engineering News",
-      "title": "Producing Recombinant Antibodies  for In Vivo Research",
+      "title": "Producing Recombinant Antibodies for In Vivo Research",
       "url": "https://www.genengnews.com/topics/bioprocessing/producing-recombinant-antibodies-for-in-vivo-research/",
       "summary": "Antibody reagent variability is a leading but frequently underappreciated source of irreproducible preclinical data. For in vivo studies, the problem is multidimensional: supply must simultaneously meet specifications fo…",
       "ts": 1786642270000,
@@ -775,42 +811,6 @@
       "ts": 1786593900000,
       "publishedAt": "2026-08-13T04:05:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Cascade Volcanoes Shrouded in Smoke",
-      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
-      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CosMAP: Contrastive Manifold Approximation and Projection for Dimensionality Reduction of Omics and Genealogical Data",
-      "url": "https://arxiv.org/abs/2608.11269",
-      "summary": "arXiv:2608.11269v1 Announce Type: new Abstract: Omics datasets, particularly single-cell RNA sequencing data, are high-dimensional, sparse, noisy, and dominated by zero values, making faithful low-dimensional representat…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Consciousness as Intrinsic Structure: Towards a Chemistry of Experience",
-      "url": "https://arxiv.org/abs/2608.11398",
-      "summary": "arXiv:2608.11398v1 Announce Type: new Abstract: To be conscious is to have an experience - not a collection of phenomenal atoms, but a structured whole composed of distinctions and the relations that bind them. Integrate…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Large-scale AI-Ready Data for Anti-Cancer Drug Response Modeling",
-      "url": "https://arxiv.org/abs/2608.11444",
-      "summary": "arXiv:2608.11444v1 Announce Type: new Abstract: Drug response prediction (DRP) models are an active area of research in pharmacogenomics, with growing potential to accelerate the identification of effective anticancer dr…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

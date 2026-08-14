@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-14T13:10:53.054Z",
+  "updated": "2026-08-14T14:53:21.754Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tiny DNA rotor lets microscopes track gene transcription one base pair at a time",
+      "url": "https://phys.org/news/2026-08-tiny-dna-rotor-microscopes-track.html",
+      "summary": "Scientists often describe life as a series of chemical reactions. Pallav Kosuri, Ph.D., describes life as movement. Chemical reactions are how you drive the movement of atoms, proteins, cells and bodies—without movement,…",
+      "ts": 1786718402000,
+      "publishedAt": "2026-08-14T14:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why climate-driven droughts and floods rarely become international news",
+      "url": "https://phys.org/news/2026-08-climate-driven-droughts-rarely-international.html",
+      "summary": "Three factors—spectacular images, a high death toll and strong personal ties—make it more likely that the media in one country will report on a natural disaster in another, according to a study by the University of Bonn,…",
+      "ts": 1786717201000,
+      "publishedAt": "2026-08-14T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human blood may have helped preserve ancient Chinese rock art for 2,000 years",
+      "url": "https://phys.org/news/2026-08-human-blood-ancient-chinese-art.html",
+      "summary": "The Huashan rock art landscape in southern China, close to the border with Vietnam, is a remarkable UNESCO World Heritage site. Thousands of images are painted on river cliffs across more than 80 locations stretching 260…",
+      "ts": 1786716001000,
+      "publishedAt": "2026-08-14T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Arctic balloon samples trace marine sugars from the ocean to cloud-forming heights",
+      "url": "https://phys.org/news/2026-08-arctic-balloon-samples-marine-sugars.html",
+      "summary": "Salt and sugar from the sea can rise as far as the free troposphere, thereby influencing both cloud formation and the Arctic climate. This is the finding of balloon measurements carried out by a team of researchers on Sp…",
+      "ts": 1786714801000,
+      "publishedAt": "2026-08-14T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Doomscrolling at work wastes time, but the real cost is what happens after",
+      "url": "https://phys.org/news/2026-08-doomscrolling-real.html",
+      "summary": "Whether on lunch break or on the clock, many employees scroll through the news and social media during the workday. Researchers found that employees who \"doomscroll\" at work suffer hidden costs that extend beyond lost pr…",
+      "ts": 1786713601000,
+      "publishedAt": "2026-08-14T13:20:01.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Why Aging May Be a Program, Not a Breakdown",
+      "url": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
+      "summary": "By deciphering the molecular signatures of millions of mouse cells, Junyue Cao has found that aging is not haphazard wear and tear but rather a “remodeling of the cell society.” The post Why Aging May Be a Program, Not a…",
+      "ts": 1786713026000,
+      "publishedAt": "2026-08-14T13:10:26.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New AI model detects hidden signs of solar eruptions hours before they emerge",
@@ -73,6 +121,22 @@
       "summary": "Meteorites provided a rare but ready source of iron for ancient Bronze Age cultures before smelting became common. A new study, published in the Journal of Archaeological Science, sheds light on how the ancient Minoan an…",
       "ts": 1786704001000,
       "publishedAt": "2026-08-14T10:40:01.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -735,70 +799,6 @@
       "title": "Finite-Temperature Thermodynamics of Cu(100) Oxidation: Missing-Row Reconstruction, Defect States, and Order-Disorder Transition from Nested Sampling",
       "url": "https://arxiv.org/abs/2608.12787",
       "summary": "arXiv:2608.12787v1 Announce Type: cross Abstract: Metal surfaces undergo structural, compositional, and morphological changes in response to their chemical environment. Tuning the surfaces' function and stability for a g…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photospheric Kelvin--Helmholtz Vortices as Possible Drivers of Coronal Heating: Implications of the DKIST Observations",
-      "url": "https://arxiv.org/abs/2608.12796",
-      "summary": "arXiv:2608.12796v1 Announce Type: cross Abstract: The Daniel K. Inouye Solar Telescope (DKIST) has resolved Kelvin--Helmholtz (KH) vortices at photospheric magnetic-flux boundaries with a characteristic wavelength of 65 …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parametric Matrix Models for Emulation in Nuclear and Many-Body Physics",
-      "url": "https://arxiv.org/abs/2608.12837",
-      "summary": "arXiv:2608.12837v1 Announce Type: cross Abstract: Progress in nuclear and many-body physics today is predicated on the ability to solve large-scale, strongly correlated quantum many-body problems. As the theoretical mode…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shots-to-Approximate-Solution Scaling in Neutral-Atom Quantum Optimization",
-      "url": "https://arxiv.org/abs/2608.12858",
-      "summary": "arXiv:2608.12858v1 Announce Type: cross Abstract: Whether neutral-atom quantum optimization protocols exhibit genuine concentration toward low-energy solution structure remains an open question. Here, we introduce a shot…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Local molecular motions encode time-resolved infrared spectra of proteins",
-      "url": "https://arxiv.org/abs/2608.12914",
-      "summary": "arXiv:2608.12914v1 Announce Type: cross Abstract: Time-resolved infrared spectroscopy probes protein dynamics over timescales spanning more than ten orders of magnitude, yet the molecular motions underlying the observed …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-ordered free energy in correlated quantum systems: An agentic approach",
-      "url": "https://arxiv.org/abs/2608.12942",
-      "summary": "arXiv:2608.12942v1 Announce Type: cross Abstract: How much work can an agent extract from a temporal sequence of quantum states when it can only operate online under causal constraints---deciding which energy extraction …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exponential multi-graylevel computational-weighted dithering for high-quality binarized Fourier single-pixel imaging",
-      "url": "https://arxiv.org/abs/2608.12958",
-      "summary": "arXiv:2608.12958v1 Announce Type: cross Abstract: Binarized Fourier single-pixel imaging (FSI) takes full advantage of the high modulation speed of digital micromirror devices by applying Floyd-Steinberg spatial ditherin…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Blinking membrane patterns induced by protein binding/unbinding",
-      "url": "https://arxiv.org/abs/2608.13016",
-      "summary": "arXiv:2608.13016v1 Announce Type: cross Abstract: Nonequilibrium membrane pattern formation is studied using meshless membrane simulation. Bound proteins are considered to have two states that generate different membrane…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergence of moir\\'e magnetic chaos in twisted bilayer CrI3",
-      "url": "https://arxiv.org/abs/2608.13062",
-      "summary": "arXiv:2608.13062v1 Announce Type: cross Abstract: The study of magnetic chaos has traditionally focused on macroscopic variables under external driving. Here we demonstrate a new type of magnetic chaos, termed moir\\'e ma…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
