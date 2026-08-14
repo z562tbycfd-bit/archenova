@@ -1,7 +1,187 @@
 {
   "ok": true,
-  "updated": "2026-08-14T02:06:35.150Z",
+  "updated": "2026-08-14T04:49:44.031Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "From Observation to Intervention: Memory in Brains and Large Language Models",
+      "url": "https://arxiv.org/abs/2608.12377",
+      "summary": "arXiv:2608.12377v1 Announce Type: new Abstract: Brains and large language models (LLMs) are fundamentally different memory systems, but they can be compared through shared functional questions: where memory-related infor…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Trophic structure predicts seizure propagation in brain network models",
+      "url": "https://arxiv.org/abs/2608.12382",
+      "summary": "arXiv:2608.12382v1 Announce Type: new Abstract: Epilepsy is widely regarded as a disorder driven by connectivity in the brain. We use a model of seizure dynamics on directed networks to investigate how structural propert…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A microscopic computational simulation of [18F]FDG transport and metabolism identifies valid regimes for compartmental analysis",
+      "url": "https://arxiv.org/abs/2608.12386",
+      "summary": "arXiv:2608.12386v1 Announce Type: new Abstract: 18F-fluorodeoxyglucose ([18F]FDG) positron emission tomography (PET), combined with compartmental modeling, is a powerful non-invasive imaging method for assessing cellular…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Bayes-Markov Neuromorphic Model of Cortical Orientation Selectivity: A Computational Re-implementation and Quantitative Simulation Study",
+      "url": "https://arxiv.org/abs/2608.12388",
+      "summary": "arXiv:2608.12388v1 Announce Type: new Abstract: The emergence of orientation selectivity in the primary visual cortex (V1) remains a central question in computational neuroscience. Shirazi's Bayes-Markov model proposed a…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Metacognitive Skill Learning: A Computational Account",
+      "url": "https://arxiv.org/abs/2608.12393",
+      "summary": "arXiv:2608.12393v1 Announce Type: new Abstract: This dissertation presents the first formal theory of metacognitive skill learning. Metacognition, the capacity to monitor and control one's own cognitive processes, has be…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "VR-IPS: Virtual Reality Tool for Photic Stimulation in Photosensitive Diagnosis",
+      "url": "https://arxiv.org/abs/2608.12394",
+      "summary": "arXiv:2608.12394v1 Announce Type: new Abstract: Photosensitivity is a neurological condition in which the brain generates epileptiform activity in response to visual stimuli. The standardized clinical diagnosis procedure…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Zenons Demon and the Denial of Domain-Generality for Transformer-Based Computational Models of Human Behavior",
+      "url": "https://arxiv.org/abs/2608.12396",
+      "summary": "arXiv:2608.12396v1 Announce Type: new Abstract: Transformer-based models of human behavior (e.g., the Centaur model by Binz, et al., 2025) posit to be domain general computational models of human behavior. The claim of d…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Hierarchical Energy-Based Model for Multimodal Cognition",
+      "url": "https://arxiv.org/abs/2608.12398",
+      "summary": "arXiv:2608.12398v1 Announce Type: new Abstract: We propose IM-LEPP (Integrated Multimodal Latent Energy-based Predictive Processing), a hierarchical, energy-based model of multimodal cognition that extends a previously p…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Evaluation Resolution Confounds Learning-Rule Comparisons in Model-Brain RSA of Early Visual Cortex",
+      "url": "https://arxiv.org/abs/2608.12408",
+      "summary": "arXiv:2608.12408v1 Announce Type: new Abstract: Representational similarity analysis (RSA) is increasingly used to ask which learning rules give convolutional networks brain-like representations. Because biologically pla…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Activity-dependent epidemic spreading on multiscale brain networks predicts Alzheimer's disease progression",
+      "url": "https://arxiv.org/abs/2608.12647",
+      "summary": "arXiv:2608.12647v1 Announce Type: new Abstract: Neurodegenerative diseases can be viewed as spreading processes on brain networks, in which pathological proteins propagate between anatomically connected brain regions. Ma…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Stochastic Spatial Metapopulation Modelling of HPAI Control and Poultry Restocking on Jolly Island",
+      "url": "https://arxiv.org/abs/2608.12956",
+      "summary": "arXiv:2608.12956v1 Announce Type: new Abstract: Highly pathogenic avian influenza (HPAI) outbreaks require rapid control during active transmission and evidence-based decisions on the safe restocking of depopulated farms…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Static analysis-guided agentic AI translation enables Rust as a full stack bioinformatics language",
+      "url": "https://arxiv.org/abs/2608.13029",
+      "summary": "arXiv:2608.13029v1 Announce Type: new Abstract: The field of bioinformatics struggles with legacy code - old code that is commonly used but may no longer have a maintainer, or may be written in an now-unfamiliar language…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Shared environmental risk selects asymmetric inheritance of a protective reserve",
+      "url": "https://arxiv.org/abs/2608.13370",
+      "summary": "arXiv:2608.13370v1 Announce Type: new Abstract: Environmental sharing changes the value of diversification even when the marginal statistics experienced by each lineage remain unchanged. A minimal model of cell division …",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Scan-Coil Delay Causes Anisotropic Signal Loss in Fast 4D-STEM",
+      "url": "https://arxiv.org/abs/2608.13106",
+      "summary": "arXiv:2608.13106v1 Announce Type: cross Abstract: Fast pixelated detectors are driving 4D-STEM toward microsecond dwell times, a regime in which the finite response of the scan deflection coils becomes comparable to the …",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Localize, Then Reason: Visual Latent Structural Reasoning for Molecular Properties and Edits",
+      "url": "https://arxiv.org/abs/2608.13244",
+      "summary": "arXiv:2608.13244v1 Announce Type: cross Abstract: Local chemical perception and property reasoning are both essential for understanding how molecular structure determines properties. Current LLM-based chemical reasoning …",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Mixed updating in structured populations",
+      "url": "https://arxiv.org/abs/2512.11164",
+      "summary": "arXiv:2512.11164v3 Announce Type: replace Abstract: Evolutionary graph theory (EGT) studies the effect of population structure on evolutionary dynamics. The vertices of the graph represent the $N$ individuals. The edges …",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Gauged $SU(4)$ Strain Symmetry and the Non Abelian Field Theory of Epidemiological Safe Zones: The Black Death Case",
+      "url": "https://arxiv.org/abs/2603.08874",
+      "summary": "arXiv:2603.08874v2 Announce Type: replace Abstract: Classical reaction-diffusion SIR models cannot explain why large regions -- such as the interior of Poland and Bohemia during the 14th-century Black Death -- remained l…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "An Information Theory Analysis of Whole Slide Image Pathology AI and Diagnostic Field Selection AI Under Limited Resources",
+      "url": "https://arxiv.org/abs/2608.10846",
+      "summary": "arXiv:2608.10846v2 Announce Type: replace Abstract: A key issue in using AI for pathology diagnosis is what image information should be given to the AI and how limited analysis resources should be used. This study compar…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Task- and dataset-specific information in protein language models",
+      "url": "https://arxiv.org/abs/2608.12090",
+      "summary": "arXiv:2608.12090v2 Announce Type: replace-cross Abstract: Protein language models (PLMs) have transferred the latest advances from natural language processing to computational biology. These models, trained on large corp…",
+      "ts": 1786680000000,
+      "publishedAt": "2026-08-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "CesiumAstro buys semiconductor specialist to boost constellation plans",
+      "url": "https://spacenews.com/cesiumastro-buys-semiconductor-specialist-to-boost-constellation-plans/",
+      "summary": "CesiumAstro is acquiring semiconductor specialist Jariet Technologies, adding more in-house capabilities behind the phased-array antenna specialist’s plans for a future communications constellation. The post CesiumAstro …",
+      "ts": 1786674242000,
+      "publishedAt": "2026-08-14T02:24:02.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Thermo and Michael J. Fox Foundation Collaborate to Advance Proteomics-Enabled Parkinson’s Therapy",
@@ -544,15 +724,6 @@
     },
     {
       "source": "arXiv q-bio",
-      "title": "Task- and dataset-specific information in protein language models",
-      "url": "https://arxiv.org/abs/2608.12090",
-      "summary": "arXiv:2608.12090v2 Announce Type: cross Abstract: Protein language models (PLMs) have transferred the latest advances from natural language processing to computational biology. These models, trained on large corpora of p…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
       "title": "On the Convergence Rate Lower Bound of Biochemical Computational Modules",
       "url": "https://arxiv.org/abs/2608.12109",
       "summary": "arXiv:2608.12109v1 Announce Type: cross Abstract: Biochemical reaction networks have become a central theoretical framework for implementing molecular computation. A key challenge is finite time computational accuracy, a…",
@@ -640,177 +811,6 @@
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Virgin Galactic delays resumption of commercial flights to 2027",
-      "url": "https://spacenews.com/virgin-galactic-delays-resumption-of-commercial-flights-to-2027/",
-      "summary": "Virgin Galactic says it will not start commercial flights of its new suborbital spaceplane until early 2027, a delay of a few months. The post Virgin Galactic delays resumption of commercial flights to 2027 appeared firs…",
-      "ts": 1786585570000,
-      "publishedAt": "2026-08-13T01:46:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
-      "url": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/",
-      "summary": "A $28 million contract expansion adds Victus Salo 2 and 3 to an earlier award for responsive-space missions The post Space Force orders two more Impulse Space vehicles for maneuvering demonstrations appeared first on Spa…",
-      "ts": 1786577400000,
-      "publishedAt": "2026-08-12T23:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Pentagon missile buildup changing the factory floor",
-      "url": "https://spacenews.com/pentagon-missile-buildup-changing-the-factory-floor/",
-      "summary": "Startups are bringing software, robotics and manufacturing methods developed around commercial space into a defense industry under pressure to produce weapons faster The post Pentagon missile buildup changing the factory…",
-      "ts": 1786575600000,
-      "publishedAt": "2026-08-12T23:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Command identifies capabilities it needs for the next space war",
-      "url": "https://spacenews.com/space-command-identifies-capabilities-it-needs-for-the-next-space-war/",
-      "summary": "Gen. Stephen Whiting said there is a demand for offensive capabilities and called on the industry to develop ways to disable the critical nodes of large satellite constellations The post Space Command identifies capabili…",
-      "ts": 1786572000000,
-      "publishedAt": "2026-08-12T22:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Talks on launch of clinical trial of Ebola vaccine in DRC advance, WHO says ",
-      "url": "https://www.statnews.com/2026/08/12/ebola-who-drc-ebola-vaccine-trial/?utm_campaign=rss",
-      "summary": "Talks are underway between the Democratic Republic of the Congo and the WHO to expedite the start of a multi-armed Phase 3 clinical trial of Ebola vaccines.",
-      "ts": 1786567589000,
-      "publishedAt": "2026-08-12T20:46:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Data Helps Commercial Space Plan Living Off Our Moon ",
-      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/",
-      "summary": "The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will require special equipment. Where those resources can be found will dicta…",
-      "ts": 1786567227000,
-      "publishedAt": "2026-08-12T20:40:27.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "In Vivo Protein Generation Using Nanoparticle Delivery: Emerging Platforms and CMC Strategies",
-      "url": "https://www.genengnews.com/multimedia/webinars/in-vivo-protein-generation-using-nanoparticle-delivery-emerging-platforms-and-cmc-strategies/",
-      "summary": "In this GEN webinar, our expert speaker, Tao (Tony) Li, PhD, will discuss nanoparticle delivery opportunities beyond oncology and infectious disease, compare emerging nanocarrier platforms, and examine important CMC cons…",
-      "ts": 1786567080000,
-      "publishedAt": "2026-08-12T20:38:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Vaping and cannabis hit record highs among young adults in 2025: Survey",
-      "url": "https://www.statnews.com/2026/08/12/vaping-cannabis-use-rates-young-adults/?utm_campaign=rss",
-      "summary": "Young adults’ use of vapes and cannabis hit all-time highs last year, according to a new survey.",
-      "ts": 1786566636000,
-      "publishedAt": "2026-08-12T20:30:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Providers notch No Surprises Act legal win that could boost their pay",
-      "url": "https://www.statnews.com/2026/08/12/texas-medical-association-no-surprises-act-lawsuit-qpa/?utm_campaign=rss",
-      "summary": "The change could boost how much health insurers, and patients, pay for some care.",
-      "ts": 1786566543000,
-      "publishedAt": "2026-08-12T20:29:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "2026 Total Solar Eclipse in Spain",
-      "url": "https://www.nasa.gov/image-article/2026-total-solar-eclipse-in-spain/",
-      "summary": "A total solar eclipse is seen from San Millán de los Caballeros, Spain, Wednesday, Aug. 12, 2026. A total solar eclipse – the Moon passing between the Sun and Earth, completely blocking the face of the Sun – swept across…",
-      "ts": 1786565308000,
-      "publishedAt": "2026-08-12T20:08:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cancer-Fighting Abilities of NK Immune Cells May Be Disrupted by Some Omega Fatty Acids",
-      "url": "https://www.genengnews.com/topics/cancer/cancer-fighting-abilities-of-nk-immune-cells-may-be-disrupted-by-some-omega-fatty-acids/",
-      "summary": "Omega polyunsaturated fatty acids are recognized for their myriads of health benefits, but a preclinical study has found that some omega fatty acids can restrain the cancer-killing capabilities of natural killer cells by…",
-      "ts": 1786564733000,
-      "publishedAt": "2026-08-12T19:58:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Trump administration’s new ‘treatment first’ addiction toolkit emphasizes faith, abstinence ",
-      "url": "https://www.statnews.com/2026/08/12/addiction-homelessness-hhs-toolkit-harm-reduction/?utm_campaign=rss",
-      "summary": "The White House nods to use of addiction medications but moves away from other harm reduction strategies.",
-      "ts": 1786563820000,
-      "publishedAt": "2026-08-12T19:43:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cortical Organoids Reveal Radial Glial Progenitor Lineage Dynamics",
-      "url": "https://www.genengnews.com/topics/translational-medicine/cortical-organoids-reveal-radial-glial-progenitor-lineage-dynamics/",
-      "summary": "Researchers reveal that radial glial progenitor lineage progression in cortical organoids differs from the developing mouse brain, highlighting the importance of stem-cell niche signals for faithful cortical development.…",
-      "ts": 1786563149000,
-      "publishedAt": "2026-08-12T19:32:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Human Biological Datacenter to Launch to Train World Model of Human Biology",
-      "url": "https://www.genengnews.com/topics/translational-medicine/human-biological-datacenter-to-launch-to-train-world-model-of-human-biology/",
-      "summary": "Vivodyne confirms that it grows over 20 types of different human organ tissues, both healthy and with patient-linked diseases, including liver, lungs, gut, bone marrow, pancreas, kidney, eyes, and lymph nodes. The post H…",
-      "ts": 1786562833000,
-      "publishedAt": "2026-08-12T19:27:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Scientists just created female clones of male mice",
-      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
-      "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.…",
-      "ts": 1786561188000,
-      "publishedAt": "2026-08-12T18:59:48.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Biopharma’s Drawdown Is a Chance to Build Biotech Back Better",
-      "url": "https://www.genengnews.com/topics/bioprocessing/biopharmas-drawdown-is-a-chance-to-build-biotech-back-better/",
-      "summary": "American biotechnology hubs like Boston, Seattle, and San Diego are starting to wake up again. But will they be able to learn from the lessons of the recent past? The post Biopharma’s Drawdown Is a Chance to Build Biotec…",
-      "ts": 1786560361000,
-      "publishedAt": "2026-08-12T18:46:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "WHO says Trump’s latest vaccine policy order is misguided",
-      "url": "https://www.statnews.com/2026/08/12/trump-vaccine-executive-order-critiqued-by-tedros-who/?utm_campaign=rss",
-      "summary": "The White House's order attempting to overhaul the vaccine schedule could subject children to more needles and more disease risk, world health leaders say.",
-      "ts": 1786557786000,
-      "publishedAt": "2026-08-12T18:03:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Upgrades Vertical Motion Simulator for Modern Mission Needs",
-      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs/",
-      "summary": "Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon, all without leaving the ground. NASA’s Vertical Motion Simulator, the l…",
-      "ts": 1786557336000,
-      "publishedAt": "2026-08-12T17:55:36.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Scaling AI agents with trustworthy data",
-      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizat…",
-      "ts": 1786553517000,
-      "publishedAt": "2026-08-12T16:51:57.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
