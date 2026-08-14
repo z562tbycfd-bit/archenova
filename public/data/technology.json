@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-13T23:43:14.557Z",
+  "updated": "2026-08-14T02:06:35.150Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Thermo and Michael J. Fox Foundation Collaborate to Advance Proteomics-Enabled Parkinson’s Therapy",
+      "url": "https://www.genengnews.com/topics/omics/thermo-and-michael-j-fox-foundation-collaborate-to-advance-proteomics-enabled-parkinsons-therapy/",
+      "summary": "PPMI creates a large-scale proteomics resource designed to help researchers study Parkinson’s disease at the protein level and investigate biological signals associated with disease progression, patient heterogeneity, an…",
+      "ts": 1786667990000,
+      "publishedAt": "2026-08-14T00:39:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Pangenome-Guided Breeding Boosts Yield and High-Altitude Adaptation in Buckwheat",
+      "url": "https://www.genengnews.com/topics/omics/pangenome-guided-breeding-boosts-yield-and-high-altitude-adaptation-in-buckwheat/",
+      "summary": "Pangenome-guided breeding helped researchers combine high-altitude adaptation and improved yield in Tartary buckwheat by recovering useful wild alleles. The post Pangenome-Guided Breeding Boosts Yield and High-Altitude A…",
+      "ts": 1786666967000,
+      "publishedAt": "2026-08-14T00:22:47.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Space Force awards five companies $60 million for multi-vendor satellite network tests",
@@ -408,6 +426,15 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "Cascade Volcanoes Shrouded in Smoke",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
+      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
+      "ts": 1786593600000,
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "CosMAP: Contrastive Manifold Approximation and Projection for Dimensionality Reduction of Omics and Genealogical Data",
       "url": "https://arxiv.org/abs/2608.11269",
@@ -519,7 +546,7 @@
       "source": "arXiv q-bio",
       "title": "Task- and dataset-specific information in protein language models",
       "url": "https://arxiv.org/abs/2608.12090",
-      "summary": "arXiv:2608.12090v1 Announce Type: cross Abstract: Protein language models (PLMs) have transferred the latest advances from natural language processing to computational biology. These models, trained on large corpora of p…",
+      "summary": "arXiv:2608.12090v2 Announce Type: cross Abstract: Protein language models (PLMs) have transferred the latest advances from natural language processing to computational biology. These models, trained on large corpora of p…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"
@@ -613,15 +640,6 @@
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Cascade Volcanoes Shrouded in Smoke",
-      "url": "https://science.nasa.gov/earth/earth-observatory/cascade-volcanoes-shrouded-in-smoke/",
-      "summary": "From the International Space Station, astronauts photographed Mount Hood and Mount Rainier as wildfire smoke spread across the Pacific Northwest in summer 2026.",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -793,24 +811,6 @@
       "ts": 1786553517000,
       "publishedAt": "2026-08-12T16:51:57.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Mike Fincke Leaves NASA, Career Includes 4 Spaceflights",
-      "url": "https://www.nasa.gov/news-release/nasa-astronaut-mike-fincke-leaves-nasa-career-includes-4-spaceflights/",
-      "summary": "NASA astronaut Mike Fincke is departing the agency on Wednesday after 30 years of service. Throughout his career, he flew four missions, spent 549 days in space, and completed nine spacewalks in support of the Internatio…",
-      "ts": 1786550585000,
-      "publishedAt": "2026-08-12T16:03:05.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Software Can Solve CGT’s Sectors Traceability Challenges",
-      "url": "https://www.genengnews.com/topics/bioprocessing/software-can-solve-cgts-sectors-traceability-challenges/",
-      "summary": "Cell and gene therapy developers should use software to help trace materials and data through the complex multi-stakeholder supply chains, manufacturing and distribution processes on which such products rely according to…",
-      "ts": 1786550454000,
-      "publishedAt": "2026-08-12T16:00:54.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

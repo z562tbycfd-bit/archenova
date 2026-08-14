@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-13T23:43:11.352Z",
+  "updated": "2026-08-14T02:06:31.065Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why has Britain's grass turned yellow? A plant scientist explains what happens next",
+      "url": "https://phys.org/news/2026-08-britain-grass-yellow-scientist.html",
+      "summary": "Fields, parks and lawns across Europe have turned to straw this summer. Landscapes thousands of years old have been revealed as green outlines against yellow backgrounds, where ancient underground walls and ditches retai…",
+      "ts": 1786668001000,
+      "publishedAt": "2026-08-14T00:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Teens are turning to AI chatbots for emotional support—here's how to keep kids safe",
@@ -534,7 +542,7 @@
       "source": "arXiv Physics",
       "title": "A Perspective on Phase Space Electronic Structure Theory : From Its Surface Hopping Origins Through To Its Future Promise",
       "url": "https://arxiv.org/abs/2608.11448",
-      "summary": "arXiv:2608.11448v1 Announce Type: new Abstract: We trace the history of phase space electronic structure theory (PSEST), high- lighting how this powerful approach emerged from fundamental questions in semi- classical sur…",
+      "summary": "arXiv:2608.11448v2 Announce Type: new Abstract: We trace the history of phase space electronic structure theory (PSEST), high- lighting how this powerful approach emerged from fundamental questions in semi- classical sur…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     },
@@ -791,14 +799,6 @@
       "title": "Robustness over efficiency in climate coalitions: a bistable model and a map of architectures",
       "url": "https://arxiv.org/abs/2608.12143",
       "summary": "arXiv:2608.12143v1 Announce Type: new Abstract: Designs for international climate cooperation face a trade-off between allocative efficiency and robustness to the erosion of institutions by defection, renegotiation, and …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reducing Spectral Oscillations for Robust Reference Frequency-Based Ultrasound Attenuation Estimation in Harmonic Imaging",
-      "url": "https://arxiv.org/abs/2608.12169",
-      "summary": "arXiv:2608.12169v1 Announce Type: new Abstract: Ultrasound attenuation coefficient estimation (ACE) has emerged as a quantitative imaging biomarker for noninvasive assessment of hepatic steatosis. A system-independent te…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z"
     }
