@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-14T16:55:45.753Z",
+  "updated": "2026-08-14T17:54:35.234Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists develop method to deliver sugars directly into cells",
+      "url": "https://phys.org/news/2026-08-scientists-method-sugars-cells.html",
+      "summary": "Sugars, or glycans, play a crucial role in biology—from cell signaling and recognition to interactions with pathogens. Changes in glycosylation are also associated with diseases including cancer. But studying glycans pos…",
+      "ts": 1786729204000,
+      "publishedAt": "2026-08-14T17:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stable RNA elements open new possibilities for mRNA therapeutics",
+      "url": "https://phys.org/news/2026-08-stable-rna-elements-possibilities-mrna.html",
+      "summary": "A research team led by Director Kim V. Narry at the Center for RNA Research within the Institute for Basic Science (IBS) has discovered compact viral RNA elements that can make mRNA more stable and increase protein produ…",
+      "ts": 1786728004000,
+      "publishedAt": "2026-08-14T17:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sediments off Brazil's northeast coast reveal sudden changes in heat transport in the Atlantic",
+      "url": "https://phys.org/news/2026-08-sediments-brazil-northeast-coast-reveal.html",
+      "summary": "According to a new study led by researchers from Brazil and Germany, the main system that transports heat from one end of the Atlantic Ocean to the other may undergo sudden changes in intensity driven by climate change s…",
+      "ts": 1786726804000,
+      "publishedAt": "2026-08-14T17:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Quality vs. quantity: Why 'super-shedders' may not be the superspreaders of disease outbreaks",
@@ -195,6 +219,22 @@
       "publishedAt": "2026-08-14T10:40:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Quantum Non-Markovian Hatano-Nelson Model",
       "url": "http://link.aps.org/doi/10.1103/wsvz-mstf",
@@ -287,22 +327,6 @@
       "title": "Universal Jamming Criticality and Self-Organizing Principles from Disorder to the Limit of Perfect Crystalline Order",
       "url": "http://link.aps.org/doi/10.1103/lyqg-k6tk",
       "summary": "Author(s): Jianhua Zhang, Jiaqi Si, Ning Xu, and Hua Tong While crystals are defined by periodic order, the nature of amorphous solids remains elusive due to their disordered, diverse, and nonequilibrium structures. Here…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
-      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
-      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
-      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
-      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Modeling Bond-Dependent Kitaev-like interaction in 2D Edge-Sharing Tetrahedral Magnets: FeX (X=Te, Se)",
       "url": "https://arxiv.org/abs/2608.13427",
       "summary": "arXiv:2608.13427v1 Announce Type: new Abstract: Bond-dependent magnetic interactions, exemplified by the Kitaev model, are known to arise from the interplay between spin-orbit coupling(SOC) and specific coordination geom…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characteristic Mode Analysis of Plasmonic Nanostructures Using Hydrodynamic Volume Integral Equation",
-      "url": "https://arxiv.org/abs/2608.13435",
-      "summary": "arXiv:2608.13435v1 Announce Type: new Abstract: Metallic nanostructures confine electromagnetic fields at subwavelength scales, making them attractive as plasmonic nanoantennas. At these scales, the response of metals be…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lattice Boltzmann Method for Compressible Navier-Stokes-Fourier Equations",
-      "url": "https://arxiv.org/abs/2608.13437",
-      "summary": "arXiv:2608.13437v1 Announce Type: new Abstract: A lattice Boltzmann scheme for the three-dimensional compressible Navier--Stokes--Fourier equations, derived automatically from the declared system by a symbolic compiler, …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Air-water cavity in multi-plunging jet impacts",
-      "url": "https://arxiv.org/abs/2608.13479",
-      "summary": "arXiv:2608.13479v1 Announce Type: new Abstract: We report the formation of an original dome-shaped air-water cavity at the impact site of closely-packed plunging water jets. The injector assembly consists of concentric r…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
