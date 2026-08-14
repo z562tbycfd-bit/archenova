@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-14T18:57:04.087Z",
+  "updated": "2026-08-14T19:51:04.883Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Early settlement dynamics in the Pacific revealed through ancient DNA",
+      "url": "https://phys.org/news/2026-08-early-settlement-dynamics-pacific-revealed.html",
+      "summary": "New genetic analyses of ancient human skeletons from western Remote Oceania are shedding light on the complex history of settlement in this vast Pacific region over the past 3,000 years. With island nations such as Vanua…",
+      "ts": 1786736402000,
+      "publishedAt": "2026-08-14T19:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Constipation is common in astronauts—blood tests provide new answers",
+      "url": "https://phys.org/news/2026-08-constipation-common-astronauts-blood.html",
+      "summary": "For astronauts in space, constipation is a well-known problem. But why this happens has long been unclear. Now, a new study from the University of Copenhagen in collaboration with NASA provides an idea of what happens in…",
+      "ts": 1786735203000,
+      "publishedAt": "2026-08-14T19:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new way to beat jet lag? Engineered cells speed circadian adjustment",
+      "url": "https://phys.org/news/2026-08-jet-lag-cells-circadian-adjustment.html",
+      "summary": "Adjusting to a new time zone or work schedule can leave the body's internal clock out of sync for days, contributing to sleep disruption, metabolic changes and other health consequences. Researchers at Rice University an…",
+      "ts": 1786734002000,
+      "publishedAt": "2026-08-14T19:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "X-band radar data sharpen simulation of westerly weak tornado",
@@ -275,6 +299,22 @@
       "publishedAt": "2026-08-14T10:40:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Quantum Non-Markovian Hatano-Nelson Model",
       "url": "http://link.aps.org/doi/10.1103/wsvz-mstf",
@@ -380,25 +420,9 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
-      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
-      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Grazing-incidence resonant elastic x-ray scattering of skyrmion lattices in bulk MnSi",
       "url": "http://link.aps.org/doi/10.1103/1788-7m8w",
       "summary": "Author(s): Jingyi Chen, Andreas Bauer, Christian Pfleiderer, Gerrit van der Laan, Thorsten Hesjedal, and Shilei Zhang Magnetic skyrmions are spin textures with nontrivial topology that form two-dimensional hexagonal latt…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
-      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
-      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Micro- and nanoscale focusing across the XUV range of the ASTRID2 light source with a capillary optic",
       "url": "https://arxiv.org/abs/2608.13128",
       "summary": "arXiv:2608.13128v1 Announce Type: new Abstract: Focusing of synchrotron light across extreme ultraviolet (XUV) and soft X-ray regimes is increasingly desired for photoemission-based techniques where reduced beam width gi…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond persuasion: Mobile electoral interfaces in polarized societies",
-      "url": "https://arxiv.org/abs/2608.13184",
-      "summary": "arXiv:2608.13184v1 Announce Type: new Abstract: Many traditional models of electoral dynamics emphasize opinion change, social influence and persuasion mechanisms. In contrast, contemporary polarized societies often exhi…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast Tracking of the Spallation Layer in Bulk Gold, Aluminum, and Steel",
-      "url": "https://arxiv.org/abs/2608.13198",
-      "summary": "arXiv:2608.13198v1 Announce Type: new Abstract: Extreme manufacturing with ultrashort-pulse (USP) lasers at the physical limit of precision and efficiency requires understanding ablation dynamics on the picosecond-to-nan…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow-thermochemistry coupling governs pressure-dependent CO$_2$ conversion in vortex-stabilized microwave plasma reactors: Insights from three-dimensional CFD modeling",
-      "url": "https://arxiv.org/abs/2608.13214",
-      "summary": "arXiv:2608.13214v1 Announce Type: new Abstract: In this work, a three-dimensional computational fluid dynamics model is developed for a vortex-stabilized microwave CO$_2$ plasma reactor operating over the pressure range …",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }

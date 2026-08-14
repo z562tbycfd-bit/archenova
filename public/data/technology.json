@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-14T18:57:07.614Z",
+  "updated": "2026-08-14T19:51:08.932Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
+      "summary": "In honor of America’s historic 250th anniversary, NASA announced on Friday MAX POWER, a public exposition of American air and space innovation, Nov. 7 and Nov. 8, on and near the agency’s Kennedy Space Center in Florida.…",
+      "ts": 1786733076000,
+      "publishedAt": "2026-08-14T18:44:36.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Opinion: AAP president: How pediatricians are navigating federal leaders’ fearmongering on vaccines",
@@ -802,15 +811,6 @@
       "ts": 1786622400000,
       "publishedAt": "2026-08-13T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "ts": 1786618800000,
-      "publishedAt": "2026-08-13T11:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
