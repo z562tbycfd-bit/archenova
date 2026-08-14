@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-14T10:04:32.102Z",
+  "updated": "2026-08-14T11:45:24.760Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Intuitive Machines wins contract for three GEO satellites",
+      "url": "https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/",
+      "summary": "Intuitive Machines announced Aug. 13 that it won a $600 million contract from an undisclosed customer for three geostationary orbit communications satellites. The post Intuitive Machines wins contract for three GEO satel…",
+      "ts": 1786706943000,
+      "publishedAt": "2026-08-14T11:29:03.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "This scientist is helping build a missing map of childhood",
@@ -799,15 +808,6 @@
       "title": "Dynamics of fluctuating populations in multi-state switching environments",
       "url": "https://arxiv.org/abs/2608.12208",
       "summary": "arXiv:2608.12208v1 Announce Type: new Abstract: Microbial populations generally evolve in fluctuating environments under time-varying conditions. These are often described by binary switching models, sometimes seen as co…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Modular Agentic Framework for Synthetically Constrained Multi-Objective Hit-to-Lead Optimization",
-      "url": "https://arxiv.org/abs/2608.11483",
-      "summary": "arXiv:2608.11483v1 Announce Type: cross Abstract: Hit-to-lead optimization requires iterative design of hit analogs across competing potency, selectivity, physicochemical, pharmacokinetic, safety, and synthetic constrain…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"

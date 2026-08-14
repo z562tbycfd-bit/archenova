@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-14T10:04:29.369Z",
+  "updated": "2026-08-14T11:45:22.422Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scholar's work in South America helps fight Chagas disease in the U.S.",
+      "url": "https://phys.org/news/2026-08-scholar-south-america-chagas-disease.html",
+      "summary": "A three-month Fulbright U.S. Scholar trip to Argentina wasn't just about bringing Texas know-how to South America for Gabriel Hamer, Ph.D., a Texas A&M AgriLife Research entomologist and professor in the Department of En…",
+      "ts": 1786707003000,
+      "publishedAt": "2026-08-14T11:30:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crocodiles can't fly. Birds can. Scientists have finally figured out why",
+      "url": "https://phys.org/news/2026-08-crocodiles-fly-birds-scientists-figured.html",
+      "summary": "The closest living relatives of crocodiles and alligators are, perhaps surprisingly, birds. Both are archosauriforms, a group of species that originated about 250 million years ago near the beginning of the Triassic peri…",
+      "ts": 1786705801000,
+      "publishedAt": "2026-08-14T11:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rings forged from meteorites may have been fashionable among ancient Greek elites",
+      "url": "https://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html",
+      "summary": "Meteorites provided a rare but ready source of iron for ancient Bronze Age cultures before smelting became common. A new study, published in the Journal of Archaeological Science, sheds light on how the ancient Minoan an…",
+      "ts": 1786704001000,
+      "publishedAt": "2026-08-14T10:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "An 'influencer' degree? Colleges bet on content creator major as critics question its value",
@@ -775,30 +799,6 @@
       "title": "Accelerating a Strong-Coupling Non-Equilibrium Steady-State Impurity Solver using (Quantics) Tensor Trains",
       "url": "https://arxiv.org/abs/2608.13146",
       "summary": "arXiv:2608.13146v1 Announce Type: cross Abstract: Including higher order diagrammatic corrections to the strong-coupling expansion is mainly limited by the evaluation of high-dimensional, time-ordered integrals. In this …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact analytical solution for the non-selfadjoint problem of Maxwell--Cattaneo--Vernotte heat conduction with heat-transfer boundary condition",
-      "url": "https://arxiv.org/abs/2608.13164",
-      "summary": "arXiv:2608.13164v1 Announce Type: cross Abstract: The most well-known beyond-Fourier heat conduction model, the Maxwell--Cattaneo--Vernotte equation is solved analytically in the presence of heat transfer boundary condit…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Heterogeneously Integrated Squeezed-Light Generation and Detection on a Single Photonic Chip",
-      "url": "https://arxiv.org/abs/2608.13218",
-      "summary": "arXiv:2608.13218v1 Announce Type: cross Abstract: Squeezed light underpins quantum-enhanced sensing and continuous-variable quantum information processing, and integrated photonics offers a route to producing it at scale…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermal transport in crystals: from the quantum Dyson equation to mesoscopic phonon hydrodynamics",
-      "url": "https://arxiv.org/abs/2608.13339",
-      "summary": "arXiv:2608.13339v1 Announce Type: cross Abstract: Thermal transport in dielectric, non-magnetic crystals is mediated by quantized lattice vibrations, which drift and interact when driven out of equilibrium by a temperatu…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
