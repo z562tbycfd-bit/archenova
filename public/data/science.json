@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-14T19:51:04.883Z",
+  "updated": "2026-08-14T20:33:23.780Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Guangzhou crucibles provide earliest direct evidence of brass-making in East Asia",
+      "url": "https://phys.org/news/2026-08-guangzhou-crucibles-earliest-evidence-brass.html",
+      "summary": "For centuries, scholars have read ancient documents describing the production of brass in 10th-century A.D. China. The problem was that the earliest physical evidence of brass production would be found nearly 600 years l…",
+      "ts": 1786738803000,
+      "publishedAt": "2026-08-14T20:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfires have destroyed an area of protected tropical forest twice the size of Wales since 2001, study reveals",
+      "url": "https://phys.org/news/2026-08-wildfires-destroyed-area-tropical-forest.html",
+      "summary": "Over 4 million hectares (9.9 million acres) of protected tropical forest—an area double the size of Wales—have been lost to wildfires since 2001.",
+      "ts": 1786737601000,
+      "publishedAt": "2026-08-14T20:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Early settlement dynamics in the Pacific revealed through ancient DNA",
@@ -299,22 +315,6 @@
       "publishedAt": "2026-08-14T10:40:01.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
-      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
-      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
-      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
-      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Quantum Non-Markovian Hatano-Nelson Model",
       "url": "http://link.aps.org/doi/10.1103/wsvz-mstf",
@@ -334,7 +334,7 @@
       "source": "APS Physical Review Letters",
       "title": "Gardening on the Moon: An Advection-Diffusion Model to Guide the Search for Supernova Debris in the Lunar Regolith",
       "url": "http://link.aps.org/doi/10.1103/14kh-nkgl",
-      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar dirt will help researchers read the cosmic timeline found in sa…",
+      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar surface material will help researchers reveal a cosmic time cap…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -407,6 +407,22 @@
       "title": "Universal Jamming Criticality and Self-Organizing Principles from Disorder to the Limit of Perfect Crystalline Order",
       "url": "http://link.aps.org/doi/10.1103/lyqg-k6tk",
       "summary": "Author(s): Jianhua Zhang, Jiaqi Si, Ning Xu, and Hua Tong While crystals are defined by periodic order, the nature of amorphous solids remains elusive due to their disordered, diverse, and nonequilibrium structures. Here…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -783,22 +799,6 @@
       "title": "Scan-Coil Delay Causes Anisotropic Signal Loss in Fast 4D-STEM",
       "url": "https://arxiv.org/abs/2608.13106",
       "summary": "arXiv:2608.13106v1 Announce Type: new Abstract: Fast pixelated detectors are driving 4D-STEM toward microsecond dwell times, a regime in which the finite response of the scan deflection coils becomes comparable to the dw…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Using Diffusion Models to Estimate Uncertainties in Analytic Continuation",
-      "url": "https://arxiv.org/abs/2608.13123",
-      "summary": "arXiv:2608.13123v1 Announce Type: new Abstract: Inverse problems are ubiquitous in physics, chemistry, and engineering, arising when reconstructing hidden quantities from indirect measurements. A key example is the analy…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Micro- and nanoscale focusing across the XUV range of the ASTRID2 light source with a capillary optic",
-      "url": "https://arxiv.org/abs/2608.13128",
-      "summary": "arXiv:2608.13128v1 Announce Type: new Abstract: Focusing of synchrotron light across extreme ultraviolet (XUV) and soft X-ray regimes is increasingly desired for photoemission-based techniques where reduced beam width gi…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
