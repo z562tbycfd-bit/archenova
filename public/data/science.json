@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-14T20:33:23.780Z",
+  "updated": "2026-08-14T21:26:56.664Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Bones of medieval kings saved from Spanish wildfire",
+      "url": "https://phys.org/news/2026-08-bones-medieval-kings-spanish-wildfire.html",
+      "summary": "Firefighters raced to save a 1,000-year-old monastery in northeastern Spain on Friday as a growing wildfire prompted the hasty removal of the bones of medieval monarchs buried there.",
+      "ts": 1786742404000,
+      "publishedAt": "2026-08-14T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cell biochemistry beyond membranes: Condensate physics reveals general rules for chemical responses",
+      "url": "https://phys.org/news/2026-08-cell-biochemistry-membranes-condensate-physics.html",
+      "summary": "Basic biology courses teach that cells contain organelles—such as the nucleus, mitochondria and Golgi apparatus—set apart by lipid membranes to get things done. Recent cell biology research has revealed another organizat…",
+      "ts": 1786742401000,
+      "publishedAt": "2026-08-14T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bound gravitational waves inspired by photonic systems",
+      "url": "https://phys.org/news/2026-08-bound-gravitational-photonic.html",
+      "summary": "When one mentions \"waves,\" we immediately think of a perturbation that propagates. This applies to waves on the shore, sound waves in the air or electromagnetic waves that we use to transmit information via optical fiber…",
+      "ts": 1786741201000,
+      "publishedAt": "2026-08-14T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cells pulse together as they grow—and malignant cells pulse the longest",
+      "url": "https://phys.org/news/2026-08-cells-pulse-malignant-longest.html",
+      "summary": "Epithelial cells are the tiny shields that line and protect our bodies. In a developing embryo, epithelial cells grow, divide and move into positions to form the outer layers of our skin and the surfaces of our organs an…",
+      "ts": 1786740001000,
+      "publishedAt": "2026-08-14T20:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Guangzhou crucibles provide earliest direct evidence of brass-making in East Asia",
@@ -334,7 +366,7 @@
       "source": "APS Physical Review Letters",
       "title": "Gardening on the Moon: An Advection-Diffusion Model to Guide the Search for Supernova Debris in the Lunar Regolith",
       "url": "http://link.aps.org/doi/10.1103/14kh-nkgl",
-      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar surface material will help researchers reveal a cosmic time cap…",
+      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar dirt will help researchers read the cosmic timeline found in sa…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -412,22 +444,6 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
-      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
-      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
-      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
-      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Persistent-current-biased and current-actuated switch for superconducting circuits",
       "url": "http://link.aps.org/doi/10.1103/9r4s-6zj2",
       "summary": "Author(s): Ziyi Zhao, Eva Gurra, Michael R. Vissers, and K. W. Lehnert Broadband and low-loss superconducting switches can facilitate large-scale quantum information processors and cryogenic detectors by dynamically reco…",
@@ -436,9 +452,25 @@
     },
     {
       "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
       "title": "Grazing-incidence resonant elastic x-ray scattering of skyrmion lattices in bulk MnSi",
       "url": "http://link.aps.org/doi/10.1103/1788-7m8w",
       "summary": "Author(s): Jingyi Chen, Andreas Bauer, Christian Pfleiderer, Gerrit van der Laan, Thorsten Hesjedal, and Shilei Zhang Magnetic skyrmions are spin textures with nontrivial topology that form two-dimensional hexagonal latt…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -767,38 +799,6 @@
       "title": "Time-Domain Benchmark Solutions for Bernstein Waves",
       "url": "https://arxiv.org/abs/2608.12994",
       "summary": "arXiv:2608.12994v1 Announce Type: new Abstract: In previous work, we introduced a semi-analytical method for computing time-domain solutions of linearized Vlasov problems. Rather than representing the plasma response as …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cyclic-Quadrature Intracavity Signal Amplification for Gravitational-Wave Detectors",
-      "url": "https://arxiv.org/abs/2608.13009",
-      "summary": "arXiv:2608.13009v1 Announce Type: new Abstract: The high-frequency sensitivity of laser-interferometric gravitational-wave detectors is limited by quantum shot noise. Increasing the circulating optical power reduces shot…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Imaging-System-Aware Inverse Design of Information-Optimal Color Routers",
-      "url": "https://arxiv.org/abs/2608.13019",
-      "summary": "arXiv:2608.13019v1 Announce Type: new Abstract: Nanophotonic color routers (CRs) are ordinarily optimized to steer predefined RGB bands into labeled subpixels under a single normal plane wave. A camera satisfies neither …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconfigurable Terahertz Multi-Harmonic Dual-Combs",
-      "url": "https://arxiv.org/abs/2608.13036",
-      "summary": "arXiv:2608.13036v1 Announce Type: new Abstract: Dual-comb spectroscopy, constructed from two frequency combs with slightly different repetition frequencies, enables real-time and high-precision measurements without mecha…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scan-Coil Delay Causes Anisotropic Signal Loss in Fast 4D-STEM",
-      "url": "https://arxiv.org/abs/2608.13106",
-      "summary": "arXiv:2608.13106v1 Announce Type: new Abstract: Fast pixelated detectors are driving 4D-STEM toward microsecond dwell times, a regime in which the finite response of the scan deflection coils becomes comparable to the dw…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
