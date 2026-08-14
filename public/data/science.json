@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-14T22:25:24.175Z",
+  "updated": "2026-08-14T23:23:49.506Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Airborne observatory improves views of solar corona during cloud-covered eclipse",
+      "url": "https://phys.org/news/2026-08-airborne-observatory-views-solar-corona.html",
+      "summary": "Using unique equipment installed on NASA's WB-57 aircraft flying above heavy clouds off the coast of Iceland, a Southwest Research Institute-led team successfully observed a total solar eclipse on Wednesday. The high-alt…",
+      "ts": 1786747203000,
+      "publishedAt": "2026-08-14T22:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Wheat gene behind Hessian fly resistance cloned after 50-year search",
@@ -398,7 +406,7 @@
       "source": "APS Physical Review Letters",
       "title": "Gardening on the Moon: An Advection-Diffusion Model to Guide the Search for Supernova Debris in the Lunar Regolith",
       "url": "http://link.aps.org/doi/10.1103/14kh-nkgl",
-      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar dirt will help researchers read the cosmic timeline found in sa…",
+      "summary": "Author(s): Emily S. Costello, John Ellis, Brian D. Fields, Rebecca Surman, and Xilu Wang A model that captures how crater-forming impacts redistribute lunar surface material will help researchers reveal a cosmic time cap…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -791,14 +799,6 @@
       "title": "Second-order stochastic modeling of particle resuspension: macroscopic degeneracy and anomalous pre-detachment transport",
       "url": "https://arxiv.org/abs/2608.12941",
       "summary": "arXiv:2608.12941v1 Announce Type: new Abstract: Particle resuspension models are commonly evaluated using the macroscopic resuspended fraction, although this integrated observable may conceal the temporal dynamics leadin…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast and wide-range wavelength tuning of a III-V/Si3N4 external-cavity laser via two-step pulsed heating",
-      "url": "https://arxiv.org/abs/2608.12943",
-      "summary": "arXiv:2608.12943v1 Announce Type: new Abstract: Fast and wide-range wavelength switching is desirable for optical communications and photonic systems that are frequency-agile. However, thermo-optic (TO)-tuned integrated …",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }

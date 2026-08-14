@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-14T22:25:27.439Z",
+  "updated": "2026-08-14T23:23:51.745Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
+      "url": "https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/",
+      "summary": "The Aug. 10 launch of QZS-7 completes bilateral program to host U.S. sensors aboard Japanese navigation satellites The post U.S. Space Force adds second surveillance sensor to Japanese constellation appeared first on Spa…",
+      "ts": 1786746387000,
+      "publishedAt": "2026-08-14T22:26:27.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Wallops gears up for an increase in launches",
@@ -802,15 +811,6 @@
       "ts": 1786624166000,
       "publishedAt": "2026-08-13T12:29:26.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
-      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the …",
-      "ts": 1786623000000,
-      "publishedAt": "2026-08-13T12:10:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
