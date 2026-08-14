@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-14T21:26:56.664Z",
+  "updated": "2026-08-14T22:25:24.175Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Wheat gene behind Hessian fly resistance cloned after 50-year search",
+      "url": "https://phys.org/news/2026-08-wheat-gene-hessian-fly-resistance.html",
+      "summary": "Researchers at the University of Maryland and their collaborators have cloned a gene that makes wheat resistant to feeding by Hessian fly larvae and demonstrated its direct interaction with a protein produced by the inse…",
+      "ts": 1786746004000,
+      "publishedAt": "2026-08-14T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unlocking the past: New method helps gain insights into old tissues",
+      "url": "https://phys.org/news/2026-08-method-gain-insights-tissues.html",
+      "summary": "A book sits atop a table. Although it's closed, its title, \"Encyclopedia of Human Tissue,\" promises untold secrets. Perhaps with this book, you can learn about different cell types and what they look like under normal co…",
+      "ts": 1786746001000,
+      "publishedAt": "2026-08-14T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's mountain summits are warming—vegetation is responding in surprisingly different ways",
+      "url": "https://phys.org/news/2026-08-europe-mountain-summits-vegetation-ways.html",
+      "summary": "Decades of climate change have not left Europe's mountain vegetation unscathed. However, the changes observed do not always match expectations. As a new international study by a research team led by researchers from the …",
+      "ts": 1786744801000,
+      "publishedAt": "2026-08-14T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineered microbe speeds CO₂ capture and recovers critical metals",
+      "url": "https://phys.org/news/2026-08-microbe-capture-recovers-critical-metals.html",
+      "summary": "A genetically engineered bacterium can rapidly break down one of Earth's most abundant minerals, opening a promising new pathway for simultaneously removing carbon dioxide from the atmosphere and recovering critical elem…",
+      "ts": 1786743601000,
+      "publishedAt": "2026-08-14T21:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Bones of medieval kings saved from Spanish wildfire",
@@ -767,38 +799,6 @@
       "title": "Fast and wide-range wavelength tuning of a III-V/Si3N4 external-cavity laser via two-step pulsed heating",
       "url": "https://arxiv.org/abs/2608.12943",
       "summary": "arXiv:2608.12943v1 Announce Type: new Abstract: Fast and wide-range wavelength switching is desirable for optical communications and photonic systems that are frequency-agile. However, thermo-optic (TO)-tuned integrated …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scalable production of nuclear battery alpha emitters using fusion neutrons",
-      "url": "https://arxiv.org/abs/2608.12963",
-      "summary": "arXiv:2608.12963v1 Announce Type: new Abstract: Nuclear batteries powered by alpha decay have been deployed successfully for over 60 years, on a worldwide $^{238}$Pu supply of kilograms per year. We show that the 14 MeV …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A unified reconstruction algorithm for reduced-frame structured illumination microscopy",
-      "url": "https://arxiv.org/abs/2608.12964",
-      "summary": "arXiv:2608.12964v1 Announce Type: new Abstract: Reduced-frame structured illumination microscopy (SIM) is attractive for live-cell imaging because it can improve temporal throughput and reduce photobleaching, but incompl…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning correction of satellite precipitation is governed by mechanism purity, not algorithmic complexity: a proof-of-concept study in Hunan, China, with pre-registered cross-regional validation",
-      "url": "https://arxiv.org/abs/2608.12988",
-      "summary": "arXiv:2608.12988v1 Announce Type: new Abstract: Satellite precipitation products such as IMERG exhibit biases that vary with terrain, season, and precipitation regime, leaving the applicability boundaries of machine lear…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-Domain Benchmark Solutions for Bernstein Waves",
-      "url": "https://arxiv.org/abs/2608.12994",
-      "summary": "arXiv:2608.12994v1 Announce Type: new Abstract: In previous work, we introduced a semi-analytical method for computing time-domain solutions of linearized Vlasov problems. Rather than representing the plasma response as …",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }

@@ -1,15 +1,33 @@
 {
   "ok": true,
-  "updated": "2026-08-14T21:26:59.548Z",
+  "updated": "2026-08-14T22:25:27.439Z",
   "items": [
     {
+      "source": "SpaceNews",
+      "title": "Wallops gears up for an increase in launches",
+      "url": "https://spacenews.com/wallops-gears-up-for-an-increase-in-launches/",
+      "summary": "With a projected surge in launches from Wallops Island in the coming years, companies and officials say now is the time for infrastructure improvements to benefit companies and their workers. The post Wallops gears up fo…",
+      "ts": 1786744948000,
+      "publishedAt": "2026-08-14T22:02:28.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
-      "title": "Epic’s alleged anti-competitive practices under scrutiny from federal, state investigators",
+      "title": "Epic’s alleged anticompetitive practices under scrutiny from federal, state investigators",
       "url": "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/?utm_campaign=rss",
       "summary": "Epic Systems is the subject of a broad inquiry into its business practices, people who were contacted by FTC investigators told STAT.",
       "ts": 1786741208000,
       "publishedAt": "2026-08-14T21:00:08.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies ",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-competition-invites-students-to-help-imagine-a-future-enabled-by-lunar-technologies/",
+      "summary": "NASA is asking U.S.-based collegiate teams to submit bold, original concepts to the 2027 edition of a student challenge focused on aerospace innovation that could help the agency envision a future on the Moon shaped by n…",
+      "ts": 1786737638000,
+      "publishedAt": "2026-08-14T20:00:38.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -208,6 +226,51 @@
       "ts": 1786709021000,
       "publishedAt": "2026-08-14T12:03:41.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168149",
+      "summary": "As amber heat-health alerts spread across England this summer, a new study has found that the warnings are being received – but not changing behaviour.",
+      "ts": 1786708800000,
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Ebola is winning’: Epidemic now killing one person every 30 minutes",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168148",
+      "summary": "The Ebola outbreak in the eastern Democratic Republic of the Congo (DRC) – the fastest-growing on record and on track to become the deadliest – is killing one person every 30 minutes.",
+      "ts": 1786708800000,
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "900 obstacles and counting: West Bank families trapped as aid access shrinks",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168147",
+      "summary": "Humanitarians continue to provide life-saving assistance to people across the Occupied Palestinian Territory despite facing obstacles such as checkpoints, instability and access restrictions, the United Nations said on F…",
+      "ts": 1786708800000,
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "An attack on healthcare every six hours, and no one held to account",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168144",
+      "summary": "Across the world, healthcare has suffered more than 10,000 attacks in the past eight years, including during the brutal conflict in Ukraine and efforts to contain the current Ebola outbreak spreading rapidly in the easte…",
+      "ts": 1786708800000,
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Meth trafficking across Middle East becoming more advanced, UNODC warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168142",
+      "summary": "Authorities in Iran intercepted 3,663 kilogrammes of methamphetamines headed for Europe and the Persian Gulf in the first quarter of 2026, according to the UN’s drugs and crime fighting agency (UNODC).",
+      "ts": 1786708800000,
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -748,69 +811,6 @@
       "ts": 1786623000000,
       "publishedAt": "2026-08-13T12:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Colombia quake: In Cali’s ruins, an ‘overwhelming sense of humanity’",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168139",
-      "summary": "In one of the cities hardest hit by the earthquake that struck Colombia, hundreds of people are still waiting for news of missing relatives, friends and neighbours.",
-      "ts": 1786622400000,
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza: Destruction of buildings rises by nearly 10 per cent since ceasefire",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168138",
-      "summary": "New satellite assessments show the destruction of buildings in Gaza has climbed by nearly 10 per cent since October’s faltering ceasefire between Hamas and Israeli forces aim to end the two-year war, which reduced cities…",
-      "ts": 1786622400000,
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ebola tracing improves in DR Congo – but the virus is still winning the race",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168137",
-      "summary": "Health authorities in the Democratic Republic of the Congo (DRC) are tracking a growing share of people exposed to Ebola, but the epidemic in the country's restive east continues to outpace their ability to find and isol…",
-      "ts": 1786622400000,
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Afghanistan education, Myanmar flooding, Syria recovery, homecare workers in New York",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168135",
-      "summary": "Five years since the Taliban seized power in Kabul, life for some Afghans has improved while many others suffer growing hardship.",
-      "ts": 1786622400000,
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ukraine: Civilian casualties hit highest level since March 2022",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168134",
-      "summary": "Civilian casualties in Ukraine reached their highest monthly level in July, with more people killed and injured than at any time since March 2022, the UN Human Rights Monitoring Mission in the country, HRMMU, said in an …",
-      "ts": 1786622400000,
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Türkiye’s changes to child detention ‘raise serious human rights concerns’",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168132",
-      "summary": "UN human rights chief Volker Türk on Thursday condemned an amendment adopted by Türkiye’s parliament that would allow judges to give life sentences to child offenders convicted of serious crimes.",
-      "ts": 1786622400000,
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Escalating attacks threaten peace in Yemen",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168131",
-      "summary": "As tensions triggered by the US-Iran war continue to ripple across the Middle East, the Security Council held an open debate Thursday on Yemen, where escalating deadly military clashes are worsening an already fragile hu…",
-      "ts": 1786622400000,
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
