@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-14T11:45:22.422Z",
+  "updated": "2026-08-14T13:10:53.054Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New AI model detects hidden signs of solar eruptions hours before they emerge",
+      "url": "https://phys.org/news/2026-08-ai-hidden-solar-eruptions-hours.html",
+      "summary": "Long before dark sunspots appear on the sun's surface, a new active region—where powerful solar eruptions can originate—begins showing subtle signs of its formation. Now, researchers say a new artificial intelligence mod…",
+      "ts": 1786712401000,
+      "publishedAt": "2026-08-14T13:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A photographic memory is wishful thinking",
+      "url": "https://www.sciencenews.org/article/photographic-memory-nonexistent-brain",
+      "summary": "In fiction, photographic memories crack the case or save the day. But our brains can’t hold on to everything — and that’s a good thing.",
+      "ts": 1786712400000,
+      "publishedAt": "2026-08-14T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pacific farmers are reviving traditional knowledge to tackle a changing climate",
+      "url": "https://phys.org/news/2026-08-pacific-farmers-reviving-traditional-knowledge.html",
+      "summary": "For thousands of years, farmers in the Pacific have lived in harmony with their environment. But rising temperatures, unpredictable rainfall and tired soils are testing even the most experienced hands.",
+      "ts": 1786710601000,
+      "publishedAt": "2026-08-14T12:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Red skies, lost solar power: Why Australia must prepare for more dust storms",
+      "url": "https://phys.org/news/2026-08-red-skies-lost-solar-power.html",
+      "summary": "Imagine you wake up one morning and look out your window. You see a red sky, hear a ferocious blast of wind and watch as tree branches creak and crack. No, the apocalypse has not descended on your local neighborhood. You…",
+      "ts": 1786709401000,
+      "publishedAt": "2026-08-14T12:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum Latin squares cannot solve Euler's 36 officers problem without entanglement",
+      "url": "https://phys.org/news/2026-08-quantum-latin-squares-euler-officers.html",
+      "summary": "Latin squares are arrangements of symbols in a grid in which every symbol appears exactly once in each row and column. These symbol arrangements, which were first studied more than three centuries ago, are now widely use…",
+      "ts": 1786708802000,
+      "publishedAt": "2026-08-14T12:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can 'digital twins' help California manage its growing flood risk?",
+      "url": "https://phys.org/news/2026-08-digital-twins-california.html",
+      "summary": "Approximately 1.4 million Californians live in areas at high risk of flooding each year, and climate change is only driving this number up. But flood risk can be a tricky concept for residents and policymakers alike to g…",
+      "ts": 1786708202000,
+      "publishedAt": "2026-08-14T11:50:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Scholar's work in South America helps fight Chagas disease in the U.S.",
@@ -751,54 +799,6 @@
       "title": "Emergence of moir\\'e magnetic chaos in twisted bilayer CrI3",
       "url": "https://arxiv.org/abs/2608.13062",
       "summary": "arXiv:2608.13062v1 Announce Type: cross Abstract: The study of magnetic chaos has traditionally focused on macroscopic variables under external driving. Here we demonstrate a new type of magnetic chaos, termed moir\\'e ma…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adiabatic perturbation theory of energy transfer and charge transport in condensed matter",
-      "url": "https://arxiv.org/abs/2608.13066",
-      "summary": "arXiv:2608.13066v1 Announce Type: cross Abstract: Energy and charge transfer in condensed matter systems are often described in terms of quasiparticles. The order of accuracy of the results in terms of the electron-to-nu…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-resolved correlation engineering in DLCZ Raman photon sources",
-      "url": "https://arxiv.org/abs/2608.13091",
-      "summary": "arXiv:2608.13091v1 Announce Type: cross Abstract: Memory-assisted quantum networks require photon sources with controllable temporal and correlation properties. The Duan-Lukin-Cirac-Zoller (DLCZ) protocol provides a plat…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Giant exciton effects and magneto-excitonic coupling in V4S9X4 2D magnetic semiconductors",
-      "url": "https://arxiv.org/abs/2608.13093",
-      "summary": "arXiv:2608.13093v1 Announce Type: cross Abstract: Room-temperature spin-optoelectronic devices require a combination of robust ferromagnetism and giant exciton binding, a pairing mutually exclusive in conventional semico…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Graph-theoretic design of lasing networks for physical vision",
-      "url": "https://arxiv.org/abs/2608.13097",
-      "summary": "arXiv:2608.13097v1 Announce Type: cross Abstract: Physical neural networks perform learning through the intrinsic nonlinear dynamics of matter. Optimising their design presents a considerable challenge: complex many-body…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uniformly Rotating Vortex Patches with 90-Degree Corners",
-      "url": "https://arxiv.org/abs/2608.13134",
-      "summary": "arXiv:2608.13134v1 Announce Type: cross Abstract: For the 2-D incompressible Euler equation, we prove the existence of $m$-fold symmetric uniformly rotating vortex patches with 90-degree corners for all $m\\geq 12$. Prope…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accelerating a Strong-Coupling Non-Equilibrium Steady-State Impurity Solver using (Quantics) Tensor Trains",
-      "url": "https://arxiv.org/abs/2608.13146",
-      "summary": "arXiv:2608.13146v1 Announce Type: cross Abstract: Including higher order diagrammatic corrections to the strong-coupling expansion is mainly limited by the evaluation of high-dimensional, time-ordered integrals. In this …",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }

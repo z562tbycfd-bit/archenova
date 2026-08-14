@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-14T11:45:24.760Z",
+  "updated": "2026-08-14T13:10:55.613Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Cheaper launch has moved the spacecraft bottleneck. Mass is out, surface area is in.",
+      "url": "https://spacenews.com/cheaper-launch-has-moved-the-spacecraft-bottleneck-mass-is-out-surface-area-is-in/",
+      "summary": "In the beginning, mass constrained spaceflight. We live at the bottom of a gravity well, and the rocket equation punishes every kilogram we try to lift out of it. Mass […] The post Cheaper launch has moved the spacecraft…",
+      "ts": 1786712400000,
+      "publishedAt": "2026-08-14T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells",
+      "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The p…",
+      "ts": 1786709841000,
+      "publishedAt": "2026-08-14T12:17:21.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Blue Origin outlines plans for second Cape Canaveral launch pad",
+      "url": "https://spacenews.com/blue-origin-outlines-plans-for-second-cape-canaveral-launch-pad/",
+      "summary": "Blue Origin disclosed new details about its plans to not only rebuild but also expand its Florida launch site, adding a second pad for a larger version of New Glenn. The post Blue Origin outlines plans for second Cape Ca…",
+      "ts": 1786709313000,
+      "publishedAt": "2026-08-14T12:08:33.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Bristol multiple myeloma treatment, marking debut of novel drug class",
+      "url": "https://www.statnews.com/2026/08/14/fda-approves-bristol-multiple-myeloma-drug-zenbexus/?utm_campaign=rss",
+      "summary": "The FDA approved a treatment for advanced multiple myeloma made by Bristol Myers Squibb, marking the debut of a new class of drugs for the blood cancer.",
+      "ts": 1786709021000,
+      "publishedAt": "2026-08-14T12:03:41.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Intuitive Machines wins contract for three GEO satellites",
@@ -10,6 +46,24 @@
       "ts": 1786706943000,
       "publishedAt": "2026-08-14T11:29:03.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "A look back at the 2026 total solar eclipse",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
+      "summary": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly turning day into night and revealing the …",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-362-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1786700645000,
+      "publishedAt": "2026-08-14T09:44:05.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -508,6 +562,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Colombia quake: In Cali’s ruins, an ‘overwhelming sense of humanity’",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168139",
+      "summary": "In one of the cities hardest hit by the earthquake that struck Colombia, hundreds of people are still waiting for news of missing relatives, friends and neighbours.",
+      "ts": 1786622400000,
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Gaza: Destruction of buildings rises by nearly 10 per cent since ceasefire",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168138",
       "summary": "New satellite assessments show the destruction of buildings in Gaza has climbed by nearly 10 per cent since October’s faltering ceasefire between Hamas and Israeli forces aim to end the two-year war, which reduced cities…",
@@ -745,69 +808,6 @@
       "title": "Large-scale AI-Ready Data for Anti-Cancer Drug Response Modeling",
       "url": "https://arxiv.org/abs/2608.11444",
       "summary": "arXiv:2608.11444v1 Announce Type: new Abstract: Drug response prediction (DRP) models are an active area of research in pharmacogenomics, with growing potential to accelerate the identification of effective anticancer dr…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Probing and steering biology across Boltz-1s trunk-diffusion boundary",
-      "url": "https://arxiv.org/abs/2608.11475",
-      "summary": "arXiv:2608.11475v1 Announce Type: new Abstract: AlphaFold3-class structure predictors pair a representational trunk, which processes sequence and context, with a diffusion module, which generates atomic coordinates. How …",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Conflict and Congruency Effects in Large Language Models: In-Weight and In-Context Competition in a Verbal Conflict Task",
-      "url": "https://arxiv.org/abs/2608.11510",
-      "summary": "arXiv:2608.11510v1 Announce Type: new Abstract: Congruency effects, observed in conflict tasks such as Stroop and flanker tasks, have been investigated for nearly a century in psychology and neuroscience, but their mecha…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SVPLEX: A Nextflow Pipeline for Cohort-level Structural Variant Calling",
-      "url": "https://arxiv.org/abs/2608.11621",
-      "summary": "arXiv:2608.11621v1 Announce Type: new Abstract: SVPLEX is a Nextflow pipeline for cohort-level structural variant detection from short-read whole-genome sequencing data. The pipeline implements six different structural v…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A multiscale theory based on metabolic scaling connects forest dynamics to tree-size distributions",
-      "url": "https://arxiv.org/abs/2608.11918",
-      "summary": "arXiv:2608.11918v1 Announce Type: new Abstract: Scaling relations linking species size, abundance, and resource availability are among the most robust empirical regularities in ecology. However, a mechanistic explanation…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beyond Local Power: Functional Connectivity Analysis for Subject-Independent Learning Style Recognition",
-      "url": "https://arxiv.org/abs/2608.12000",
-      "summary": "arXiv:2608.12000v1 Announce Type: new Abstract: Identifying individual learning styles optimizes pedagogical efficacy. While traditional questionnaires are structured, behavioral tracking methods require prolonged intera…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Rosetta Stone and Levels of Principled Inference to the Experience of Another Mind",
-      "url": "https://arxiv.org/abs/2608.12030",
-      "summary": "arXiv:2608.12030v1 Announce Type: new Abstract: The classical problem of Other Minds has dogged philosophers for millennia; asking if we have any way to truly understand the experience of another mind. We know our own in…",
-      "ts": 1786593600000,
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamics of fluctuating populations in multi-state switching environments",
-      "url": "https://arxiv.org/abs/2608.12208",
-      "summary": "arXiv:2608.12208v1 Announce Type: new Abstract: Microbial populations generally evolve in fluctuating environments under time-varying conditions. These are often described by binary switching models, sometimes seen as co…",
       "ts": 1786593600000,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "categoryId": "bio"
