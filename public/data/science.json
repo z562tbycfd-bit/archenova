@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-15T10:24:47.048Z",
+  "updated": "2026-08-15T11:21:51.738Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Shackled men in 2,600-year-old Greek mass graves were likely locals, archaeologists find",
+      "url": "https://phys.org/news/2026-08-shackled-men-year-greek-mass.html",
+      "summary": "In 2016, archaeologists working at the Phaleron Burial Ground, part of the ancient Attica region, uncovered an astonishing sight: three mass graves dating to the 7th and 6th centuries BCE containing the skeletons of 79 a…",
+      "ts": 1786792801000,
+      "publishedAt": "2026-08-15T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists simulating ant swarms find a 'first mover' can set the colony in motion",
+      "url": "https://phys.org/news/2026-08-scientists-simulating-ant-swarms-mover.html",
+      "summary": "In ant colonies, a single ant can be the catalyst for a wave of mob activity, launching brief bursts of coordinated movement involving hundreds or even thousands of swarming workers, according to new simulations from New…",
+      "ts": 1786791603000,
+      "publishedAt": "2026-08-15T11:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black-box technologies could undermine confidence in scientific findings",
+      "url": "https://phys.org/news/2026-08-black-technologies-undermine-confidence-scientific.html",
+      "summary": "Scientists are increasingly relying on powerful data sources and tools that they often cannot fully understand, inspect or verify, according to a new study.",
+      "ts": 1786791602000,
+      "publishedAt": "2026-08-15T11:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hurricane poised to hit Hawaii as El Niño stirs Pacific",
@@ -775,30 +799,6 @@
       "title": "AnchorSIPS: A Synthetic Dataset and Evaluation Resource for Evidence-Supported Psychosis-Risk Symptom Measurement",
       "url": "https://arxiv.org/abs/2608.12329",
       "summary": "arXiv:2608.12329v1 Announce Type: cross Abstract: Progress on AI for psychosis-risk assessment is limited by a data-access bottleneck. Real clinical interviews are difficult to share because of privacy, governance, and c…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Thought-Aware KV Cache Compaction for Reasoning via Adaptive Attention Matching",
-      "url": "https://arxiv.org/abs/2608.12331",
-      "summary": "arXiv:2608.12331v1 Announce Type: cross Abstract: Reasoning language models generate lengthy chain-of-thought (CoT) sequences whose key-value (KV) cache grows linearly and becomes a memory bottleneck during decoding. Exi…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Vision-Language Models are Fragile Multilingual Associators",
-      "url": "https://arxiv.org/abs/2608.12333",
-      "summary": "arXiv:2608.12333v1 Announce Type: cross Abstract: Vision-language models must associate visual entities with textual attributes. Whether these associations or concept bindings remain stable when the language of the input…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Steering the Language Axis: From Linear Decodability to Causal Control",
-      "url": "https://arxiv.org/abs/2608.12334",
-      "summary": "arXiv:2608.12334v1 Announce Type: cross Abstract: Despite the impressive multilingual capabilities of Large Language Models, the latent dynamics dictating language selection remain poorly understood. In this work, we ask…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
