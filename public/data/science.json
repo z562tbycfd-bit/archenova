@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T12:40:28.713Z",
+  "updated": "2026-08-15T13:31:47.896Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tungsten may suffer more radiation damage in fusion reactors than expected",
+      "url": "https://phys.org/news/2026-08-tungsten-fusion-reactors.html",
+      "summary": "Fusion reactors, devices that generate energy by fusing light atomic nuclei at extremely high temperatures, could contribute to ongoing efforts aimed at producing electricity more sustainably. The extreme environment ins…",
+      "ts": 1786797601000,
+      "publishedAt": "2026-08-15T12:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Nonrepeating photonic crystal may enable more tunable, reliable semiconductor lasers",
@@ -791,14 +799,6 @@
       "title": "What Drives LLM Self-Reflection? A Controlled Ablation of Uncertainty Routing in Armed Conflict Forecasting",
       "url": "https://arxiv.org/abs/2608.12322",
       "summary": "arXiv:2608.12322v1 Announce Type: cross Abstract: Self-reflection is widely assumed to improve LLM reasoning, yet which component drives the gain remains poorly understood. We present a controlled six-condition ablation …",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance",
-      "url": "https://arxiv.org/abs/2608.12323",
-      "summary": "arXiv:2608.12323v1 Announce Type: cross Abstract: Specifying a penalty can paradoxically convert a legal obligation into a cost-benefit calculation that favors violation. We demonstrate that this enforcement information …",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
