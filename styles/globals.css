@@ -38414,3 +38414,419 @@ line-height:1.75;
 
 
 
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   GLOBAL CENTER ALIGNMENT
+   FINAL OVERRIDE
+
+   Scope:
+   /home only (.archenova-twin-home)
+
+   Purpose:
+   Unify all HOME portal/card typography around
+   one visual center axis without affecting inner pages.
+========================================================== */
+
+
+/* ==========================================================
+   01. HOME SECTION — MASTER ALIGNMENT
+========================================================== */
+
+.archenova-twin-home
+[data-home-section] {
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   02. PRIMARY HOME CARD / PORTAL CONTAINERS
+========================================================== */
+
+.archenova-twin-home
+.an-container,
+
+.archenova-twin-home
+.an-card,
+
+.archenova-twin-home
+.an-glass,
+
+.archenova-twin-home
+.civ-intel-portal,
+
+.archenova-twin-home
+.civ-library-shell,
+
+.archenova-twin-home
+.civ-experience-portal,
+
+.archenova-twin-home
+.ti-home,
+
+.archenova-twin-home
+.ti-home__glass,
+
+.archenova-twin-home
+.ti-home__glass-inner {
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   03. TYPOGRAPHY
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]
+h1,
+
+.archenova-twin-home
+[data-home-section]
+h2,
+
+.archenova-twin-home
+[data-home-section]
+h3,
+
+.archenova-twin-home
+[data-home-section]
+h4,
+
+.archenova-twin-home
+[data-home-section]
+p {
+  text-align: center !important;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ==========================================================
+   04. EYEBROWS / LABELS / META
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]
+[class*="eyebrow"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="label"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="kicker"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="subtitle"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="statement"] {
+  text-align: center !important;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ==========================================================
+   05. HEADER / INTRO BLOCKS
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]
+header {
+  text-align: center !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* ==========================================================
+   06. BUTTON / CTA GROUPS
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]
+[class*="actions"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="cta"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="enter"] {
+  justify-content: center !important;
+
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   07. BUTTON TEXT
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]
+button,
+
+.archenova-twin-home
+[data-home-section]
+a {
+  text-align: center;
+}
+
+
+/* ==========================================================
+   08. HOME HERO
+========================================================== */
+
+.archenova-twin-home
+#home-hero
+.an-hero-inner,
+
+.archenova-twin-home
+#home-hero
+.an-frame,
+
+.archenova-twin-home
+#home-hero
+.an-lead {
+  text-align: center !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* ==========================================================
+   09. TODAY'S INQUIRY
+========================================================== */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__header,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__experience,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__research {
+  text-align: center !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* ==========================================================
+   10. CIVILIZATION INTELLIGENCE
+========================================================== */
+
+.archenova-twin-home
+#civilization-intelligence
+.civ-intel-portal {
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   11. CIVILIZATION EXPERIENCE
+========================================================== */
+
+.archenova-twin-home
+#civilization-experience {
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   12. CIVILIZATION LIBRARY
+========================================================== */
+
+.archenova-twin-home
+#civilization-library
+.civ-library-shell {
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   13. GALAXY / CIVILIZATION ARCHITECTURE
+========================================================== */
+
+.archenova-twin-home
+#galaxy-atlas {
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   14. GENERIC COPY BLOCKS
+   Keep readable width while centering them.
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]
+[class*="description"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="summary"],
+
+.archenova-twin-home
+[data-home-section]
+[class*="copy"] {
+  text-align: center !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* ==========================================================
+   15. MOBILE
+   Override old global "text-align:left" rules.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home,
+  .archenova-twin-home
+  [data-home-section],
+
+  .archenova-twin-home
+  .home-page,
+
+  .archenova-twin-home
+  .twin-page {
+    text-align: center !important;
+  }
+
+
+  .archenova-twin-home
+  [data-home-section]
+  h1,
+
+  .archenova-twin-home
+  [data-home-section]
+  h2,
+
+  .archenova-twin-home
+  [data-home-section]
+  h3,
+
+  .archenova-twin-home
+  [data-home-section]
+  h4,
+
+  .archenova-twin-home
+  [data-home-section]
+  p {
+    text-align: center !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+
+  .archenova-twin-home
+  [data-home-section]
+  header {
+    text-align: center !important;
+
+    margin-inline: auto !important;
+  }
+
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="eyebrow"],
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="label"],
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="subtitle"],
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="description"],
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="summary"] {
+    text-align: center !important;
+
+    margin-inline: auto !important;
+  }
+
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="actions"],
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="cta"],
+
+  .archenova-twin-home
+  [data-home-section]
+  [class*="enter"] {
+    justify-content: center !important;
+  }
+}
+
+
+/* ==========================================================
+   HOME — DATA / RESEARCH CONTENT EXCEPTION
+========================================================== */
+
+.archenova-twin-home
+.ci-signal,
+
+.archenova-twin-home
+.ci-search-result,
+
+.archenova-twin-home
+[class*="signal-card"],
+
+.archenova-twin-home
+[class*="research-card"],
+
+.archenova-twin-home
+[class*="article-card"] {
+  text-align: left !important;
+}
+
+.archenova-twin-home
+.ci-signal p,
+
+.archenova-twin-home
+.ci-search-result p,
+
+.archenova-twin-home
+[class*="signal-card"] p,
+
+.archenova-twin-home
+[class*="research-card"] p,
+
+.archenova-twin-home
+[class*="article-card"] p {
+  text-align: left !important;
+
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
