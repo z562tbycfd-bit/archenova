@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T07:32:40.994Z",
+  "updated": "2026-08-15T08:31:24.098Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Faced with historic drought, the Dutch rethink water management",
+      "url": "https://phys.org/news/2026-08-historic-drought-dutch-rethink.html",
+      "summary": "On the banks of the Waal, the Dutch branch of the Rhine, swimmers are sunning themselves on a Nijmegen beach that didn't exist before the river level dropped a few months ago.",
+      "ts": 1786780801000,
+      "publishedAt": "2026-08-15T08:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Magnitude 7.7 earthquake strikes off coast of Indonesia and tsunami warning issued",
@@ -791,14 +799,6 @@
       "title": "Mimicry without understanding: the origins of decision bias in large language models",
       "url": "https://arxiv.org/abs/2608.12339",
       "summary": "arXiv:2608.12339v1 Announce Type: cross Abstract: Large Language models (LLMs) were found to be susceptible to a host of social, affective, and cognitive biases. We examined two mechanisms through which such biases can b…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "StreamReason-Bench: Can Large Language Models Reason about Event-Time Stream-Processing Semantics?",
-      "url": "https://arxiv.org/abs/2608.12348",
-      "summary": "arXiv:2608.12348v1 Announce Type: cross Abstract: Streaming systems increasingly hand work to large language models (LLMs) -- writing pipelines, triaging alerts, reading logs -- and all of it assumes the model knows how …",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
