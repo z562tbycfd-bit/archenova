@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-14T23:23:49.506Z",
+  "updated": "2026-08-15T01:20:18.294Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'Starwashing': How space companies use the greenwashing playbook while causing environmental damage",
+      "url": "https://phys.org/news/2026-08-starwashing-space-companies-greenwashing-playbook.html",
+      "summary": "From launchpads to low Earth orbit and beyond, space companies and their affiliates are deploying a familiar marketing tactic—with a new twist. In a space economy projected to reach US$1.8 trillion by 2035, they sell spa…",
+      "ts": 1786755601000,
+      "publishedAt": "2026-08-15T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The false and the furious: We aren't just bothered by different beliefs—we're bothered when we think others are wrong",
+      "url": "https://phys.org/news/2026-08-false-furious-bothered-beliefs-wrong.html",
+      "summary": "Why do disagreements about vaccines, climate change or elections often feel so personal? Our research suggests it is not simply because other people have different beliefs. It is because we think those beliefs are mistak…",
+      "ts": 1786753202000,
+      "publishedAt": "2026-08-15T00:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Green roofs can help cool cities in the summer heat, but building them is only the first step. Many don't survive",
+      "url": "https://phys.org/news/2026-08-green-roofs-cool-cities-summer.html",
+      "summary": "As summer temperatures soar across the United States and Europe, cities are being forced to confront the difficult reality that they're getting dangerously hot.",
+      "ts": 1786750801000,
+      "publishedAt": "2026-08-14T23:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Airborne observatory improves views of solar corona during cloud-covered eclipse",
@@ -387,6 +411,22 @@
       "publishedAt": "2026-08-14T10:40:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Quantum Non-Markovian Hatano-Nelson Model",
       "url": "http://link.aps.org/doi/10.1103/wsvz-mstf",
@@ -492,25 +532,9 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
-      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
-      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Grazing-incidence resonant elastic x-ray scattering of skyrmion lattices in bulk MnSi",
       "url": "http://link.aps.org/doi/10.1103/1788-7m8w",
       "summary": "Author(s): Jingyi Chen, Andreas Bauer, Christian Pfleiderer, Gerrit van der Laan, Thorsten Hesjedal, and Shilei Zhang Magnetic skyrmions are spin textures with nontrivial topology that form two-dimensional hexagonal latt…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
-      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
-      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Controlling the dynamics of an electric-field-driven droplet on a lubricant-infused micropillar surface",
       "url": "https://arxiv.org/abs/2608.12868",
       "summary": "arXiv:2608.12868v1 Announce Type: new Abstract: As a non-contact control approach, electric field (EF) can be utilised to drive droplet dynamics on a lubricant-infused surface (LIS), with numerous potential applications …",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse-Designed Lithium Niobate Wavelength Demultiplexer via Birefringent Effective Index Approximation",
-      "url": "https://arxiv.org/abs/2608.12902",
-      "summary": "arXiv:2608.12902v1 Announce Type: new Abstract: Inverse design of thin-film lithium niobate (TFLN) photonic devices is computationally demanding because optical birefringence and fabrication-induced slanted sidewalls gen…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bioinspired Microactuators Fabricated via One-step Meniscus-guided 3D Nanoprinting",
-      "url": "https://arxiv.org/abs/2608.12908",
-      "summary": "arXiv:2608.12908v1 Announce Type: new Abstract: We introduce a bioinspired microactuator fabricated via a one-step meniscus guided 3D nanoprinting technique. This technique directly produces a freestanding three dimensio…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Second-order stochastic modeling of particle resuspension: macroscopic degeneracy and anomalous pre-detachment transport",
-      "url": "https://arxiv.org/abs/2608.12941",
-      "summary": "arXiv:2608.12941v1 Announce Type: new Abstract: Particle resuspension models are commonly evaluated using the macroscopic resuspended fraction, although this integrated observable may conceal the temporal dynamics leadin…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z"
     }
