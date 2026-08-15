@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-15T09:23:55.046Z",
+  "updated": "2026-08-15T10:24:47.048Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hurricane poised to hit Hawaii as El Niño stirs Pacific",
+      "url": "https://phys.org/news/2026-08-hurricane-poised-hawaii-el-nio.html",
+      "summary": "A strengthening tropical storm named Lala is set to hit Hawaii's Big Island with hurricane-force gales on Saturday, bringing dangerous winds, rainfall and heavy surf.",
+      "ts": 1786789201000,
+      "publishedAt": "2026-08-15T10:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extreme weather is making work difficult for many people. This is what needs to change",
+      "url": "https://phys.org/news/2026-08-extreme-weather-difficult-people.html",
+      "summary": "The UK has experienced several heat waves this summer—heat stress among workers is one of the biggest causes of weather-related sick leave. Very high temperatures can cause symptoms like heat rash and cramps, or even exh…",
+      "ts": 1786788004000,
+      "publishedAt": "2026-08-15T10:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Faced with historic drought, the Dutch rethink water management",
@@ -783,22 +799,6 @@
       "title": "Steering the Language Axis: From Linear Decodability to Causal Control",
       "url": "https://arxiv.org/abs/2608.12334",
       "summary": "arXiv:2608.12334v1 Announce Type: cross Abstract: Despite the impressive multilingual capabilities of Large Language Models, the latent dynamics dictating language selection remain poorly understood. In this work, we ask…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "StorySpark: Module-wise Evolutionary Search for Story Premise Generation",
-      "url": "https://arxiv.org/abs/2608.12336",
-      "summary": "arXiv:2608.12336v1 Announce Type: cross Abstract: A story premise is the creative spark from which a full narrative can grow. Yet LLM-based story generation has mostly emphasized later-stage planning, controllability, co…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Mimicry without understanding: the origins of decision bias in large language models",
-      "url": "https://arxiv.org/abs/2608.12339",
-      "summary": "arXiv:2608.12339v1 Announce Type: cross Abstract: Large Language models (LLMs) were found to be susceptible to a host of social, affective, and cognitive biases. We examined two mechanisms through which such biases can b…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
