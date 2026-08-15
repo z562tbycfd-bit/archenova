@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T19:22:31.713Z",
+  "updated": "2026-08-15T20:24:50.830Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ultrafast core-level spectroscopy reveals elusive precursors of exciton condensation in quantum materials",
+      "url": "https://phys.org/news/2026-08-ultrafast-core-spectroscopy-reveals-elusive.html",
+      "summary": "Many fascinating phases in quantum materials emerge when electrons, atoms and other microscopic components begin to act collectively. But these phases do not necessarily appear out of nowhere when a material crosses a tr…",
+      "ts": 1786824001000,
+      "publishedAt": "2026-08-15T20:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Exploring the moon will require rovers that can think for themselves",
@@ -791,14 +799,6 @@
       "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
       "url": "https://arxiv.org/abs/2608.13476",
       "summary": "arXiv:2608.13476v1 Announce Type: new Abstract: We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for c…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
-      "url": "https://arxiv.org/abs/2608.13492",
-      "summary": "arXiv:2608.13492v1 Announce Type: new Abstract: This report presents an improved version of AlayaWorld. While the backbone architecture, chunk-wise autoregressive generation scheme, and training data remain unchanged fro…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
