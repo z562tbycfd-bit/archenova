@@ -251,6 +251,28 @@ export default function CivilizationExperiencePortal() {
             box-shadow
               0.4s ease;
         }
+              .experience-portal__card {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  max-width: 100%;
+
+  margin: 0 auto;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  /*
+   * Reset generic global <a> behavior.
+   */
+  outline: none;
+}
 
 
         /* ================================================
@@ -815,6 +837,39 @@ export default function CivilizationExperiencePortal() {
               );
         }
 
+        
+.experience-portal__axis::after {
+  content: "";
+
+  position: absolute;
+
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(
+        158,
+        223,
+        255,
+        0.12
+      ),
+      transparent
+    );
+
+  opacity: 0.65;
+
+  pointer-events: none;
+}
+
+.experience-portal__card::after {
+  display: none;
+}
 
         /* ================================================
            DESKTOP INTERACTION

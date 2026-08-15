@@ -37077,3 +37077,87 @@ line-height:1.75;
 
 
 
+/* ==========================================================
+   CIVILIZATION EXPERIENCE PORTAL
+   FINAL TEXT CENTER OVERRIDE
+   Scoped only to #civilization-experience
+========================================================== */
+
+#civilization-experience {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__card {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__center {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__top {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__eyebrow {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__status {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__status span {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__content {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__content h2 {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__content p {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__enter {
+  text-align: center !important;
+}
+
+#civilization-experience .experience-portal__enter-label {
+  text-align: center !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  #civilization-experience,
+  #civilization-experience .experience-portal,
+  #civilization-experience .experience-portal__card,
+  #civilization-experience .experience-portal__center,
+  #civilization-experience .experience-portal__top,
+  #civilization-experience .experience-portal__content,
+  #civilization-experience .experience-portal__enter {
+    text-align: center !important;
+  }
+
+  #civilization-experience .experience-portal__eyebrow,
+  #civilization-experience .experience-portal__status,
+  #civilization-experience .experience-portal__status span,
+  #civilization-experience .experience-portal__content h2,
+  #civilization-experience .experience-portal__content p,
+  #civilization-experience .experience-portal__enter-label {
+    text-align: center !important;
+  }
+}
