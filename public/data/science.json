@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T14:24:19.786Z",
+  "updated": "2026-08-15T15:22:46.997Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Neptune's tiny moons tell the story of Triton's destructive capture",
+      "url": "https://phys.org/news/2026-07-neptune-tiny-moons-story-triton.html",
+      "summary": "Neptune's moon and ring system stand out among the giant planets because of the strange imbalance between its one very large moon and its many tiny moons. Its largest moon, Triton, makes up more than 99% of the mass of a…",
+      "ts": 1786807201000,
+      "publishedAt": "2026-08-15T15:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "One-off campus programs fall short on preventing sexual violence, review finds",
@@ -791,14 +799,6 @@
       "title": "The AI Accountability Ecosystem in the Era of Language Models",
       "url": "https://arxiv.org/abs/2608.12320",
       "summary": "arXiv:2608.12320v1 Announce Type: cross Abstract: This article reviews and updates the framework for accountability in AI based on account- ability ecosystems. We update the framework in light of the latest developments …",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LLMs Know the Constraint But Do Not Use It: Activation Bottlenecks in Pragmatic Constraint Reasoning",
-      "url": "https://arxiv.org/abs/2608.12321",
-      "summary": "arXiv:2608.12321v1 Announce Type: cross Abstract: When a salient surface cue competes with an implicit feasibility constraint, LLMs often fail -- but aggregate accuracy conflates genuine constraint inference with conserv…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
