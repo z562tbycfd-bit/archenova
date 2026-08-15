@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-15T15:22:51.350Z",
+  "updated": "2026-08-15T16:26:40.087Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "CDMOs Expand and Build for Future Growth",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cdmos-expand-and-build-for-future-growth/",
+      "summary": "Executives from Fujifilm Biotechnologies, Lonza Group, MilliporeSigma, Samsung Biologics, and Thermo Fisher Scientific discuss their companies' recent service expansions and new facilities in interviews with GEN. The pos…",
+      "ts": 1786809096000,
+      "publishedAt": "2026-08-15T15:51:36.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "United Nations News",
       "title": "Former rebel fighters join campaign against Ebola in the DR Congo",
@@ -802,15 +811,6 @@
       "ts": 1786628470000,
       "publishedAt": "2026-08-13T13:41:10.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about California insulin sales, a Moderna patent battle, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss",
-      "summary": "Seven months after the launch of its own low-cost insulin brand, California has distributed more than 120,000 five-pen packs of insulin glargine priced at $55 each",
-      "ts": 1786627182000,
-      "publishedAt": "2026-08-13T13:19:42.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
