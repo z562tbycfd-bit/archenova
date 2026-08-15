@@ -188,7 +188,7 @@ export default function GatePage() {
             <span />
 
             <p>
-              FOUNDER-LED CIVILIZATION DESIGN INITIATIVE
+              FOUNDER-LED CIVILIZATION DESIGN
             </p>
 
             <span />
