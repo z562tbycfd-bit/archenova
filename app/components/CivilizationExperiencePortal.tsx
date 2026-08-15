@@ -15,73 +15,138 @@ export default function CivilizationExperiencePortal() {
         className="experience-portal__card"
         aria-label="Enter ArcheNova Scientific Open World"
       >
-        {/* ================================================
-            GLASS LIGHT
-        ================================================= */}
+        {/* ==================================================
+            OPTICAL / INDUSTRIAL BACKGROUND
+        ================================================== */}
 
         <div
-          className="experience-portal__light"
+          className="experience-portal__ambient"
+          aria-hidden="true"
+        />
+
+        <div
+          className="experience-portal__grid"
+          aria-hidden="true"
+        />
+
+        <div
+          className="experience-portal__horizon"
           aria-hidden="true"
         />
 
 
-        {/* ================================================
-            CENTER AXIS
+        {/* ==================================================
+            TOP SYSTEM BAR
+        ================================================== */}
 
-            All visible content is intentionally placed
-            on one central axis.
-        ================================================= */}
-
-        <div className="experience-portal__center">
-
-          {/* ==============================================
-              TOP
-          =============================================== */}
-
-          <header className="experience-portal__top">
-            <span className="experience-portal__eyebrow">
+        <header className="experience-portal__top">
+          <div className="experience-portal__identity">
+            <span>
               CIVILIZATION EXPERIENCE
             </span>
 
-            <span
-              className="experience-portal__status"
-              aria-hidden="true"
-            >
-              <i />
-
-              <span>
-                LIVE
-              </span>
-            </span>
-          </header>
-
-
-          {/* ==============================================
-              CONTENT
-          =============================================== */}
-
-          <div className="experience-portal__content">
-            <h2
-              id="experience-title"
-            >
-              Scientific Open World
-            </h2>
-
-            <p>
-              Explore science, experimentation,
-              infrastructure, and civilization
-              as one connected world.
-            </p>
+            <small>
+              ARCHENOVA / WORLD SYSTEM
+            </small>
           </div>
 
 
-          {/* ==============================================
-              ENTER
-          =============================================== */}
+          <div className="experience-portal__live">
+            <i />
 
-          <footer className="experience-portal__enter">
-            <span className="experience-portal__enter-label">
-              ENTER EXPERIENCE
+            <span>
+              WORLD ONLINE
+            </span>
+          </div>
+        </header>
+
+
+        {/* ==================================================
+            PRIMARY CONTENT
+        ================================================== */}
+
+        <div className="experience-portal__content">
+
+          <div className="experience-portal__system-label">
+            <span>
+              OPEN WORLD
+            </span>
+
+            <i />
+
+            <span>
+              001
+            </span>
+          </div>
+
+
+          <h2
+            id="experience-title"
+          >
+            Scientific
+            <br />
+            Open World
+          </h2>
+
+
+          <p>
+            Enter a living civilization where science,
+            infrastructure, experimentation, and
+            physical reality become explorable.
+          </p>
+
+
+          {/* ================================================
+              WORLD LAYERS
+          ================================================= */}
+
+          <div className="experience-portal__layers">
+            <span>
+              SCIENCE
+            </span>
+
+            <i />
+
+            <span>
+              EVIDENCE
+            </span>
+
+            <i />
+
+            <span>
+              INFRASTRUCTURE
+            </span>
+
+            <i />
+
+            <span>
+              CIVILIZATION
+            </span>
+          </div>
+
+        </div>
+
+
+        {/* ==================================================
+            FOOTER / ENTER
+        ================================================== */}
+
+        <footer className="experience-portal__footer">
+
+          <div className="experience-portal__coordinates">
+            <span>
+              WORLD ACCESS
+            </span>
+
+            <small>
+              35.68° N · 139.76° E · REALITY LAYER
+            </small>
+          </div>
+
+
+          <div className="experience-portal__enter">
+            <span className="experience-portal__enter-copy">
+              ENTER WORLD
             </span>
 
             <span
@@ -90,15 +155,17 @@ export default function CivilizationExperiencePortal() {
             >
               →
             </span>
-          </footer>
-        </div>
+          </div>
+
+        </footer>
       </Link>
 
 
       <style jsx>{`
-        /* ================================================
+
+        /* ==================================================
            ROOT
-        ================================================= */
+        ================================================== */
 
         .experience-portal {
           position: relative;
@@ -108,59 +175,46 @@ export default function CivilizationExperiencePortal() {
           padding:
             clamp(
               18px,
-              2.8vw,
+              3vw,
               34px
             )
             0;
         }
 
 
-        /* ================================================
+        /* ==================================================
            CARD
-        ================================================= */
+        ================================================== */
 
         .experience-portal__card {
-  position: relative;
+          position: relative;
 
-  isolation: isolate;
+          isolation: isolate;
 
-  width: 100%;
-  max-width: 100%;
+          width: 100%;
 
-  min-height:
-    clamp(
-      260px,
-      30vw,
-      340px
-    );
+          min-height:
+            clamp(
+              390px,
+              48vw,
+              590px
+            );
 
-  /*
-   * The card itself becomes
-   * the definitive centering coordinate system.
-   */
-  display: grid;
+          display: grid;
 
-  grid-template-columns:
-    minmax(0, 1fr);
+          grid-template-rows:
+            auto
+            1fr
+            auto;
 
-  grid-template-rows:
-    minmax(0, 1fr);
+          overflow: hidden;
 
-  place-items: stretch;
-
-  box-sizing: border-box;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  overflow: hidden;
-
-  padding:
-    clamp(
-      24px,
-      3.4vw,
-      38px
-    );
+          padding:
+            clamp(
+              26px,
+              4vw,
+              52px
+            );
 
           border:
             1px solid
@@ -173,9 +227,9 @@ export default function CivilizationExperiencePortal() {
 
           border-radius:
             clamp(
-              20px,
-              2vw,
-              28px
+              24px,
+              2.8vw,
+              34px
             );
 
           background:
@@ -185,30 +239,30 @@ export default function CivilizationExperiencePortal() {
                 16,
                 18,
                 21,
-                0.78
+                0.66
               ),
               rgba(
-                4,
                 5,
-                7,
-                0.93
+                6,
+                8,
+                0.82
               )
-              56%,
+              48%,
               rgba(
                 0,
                 0,
                 0,
-                0.97
+                0.94
               )
             );
 
           -webkit-backdrop-filter:
             blur(30px)
-            saturate(115%);
+            saturate(112%);
 
           backdrop-filter:
             blur(30px)
-            saturate(115%);
+            saturate(112%);
 
           box-shadow:
             inset
@@ -219,80 +273,77 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.05
+              0.045
             ),
             0
-            24px
-            70px
+            32px
+            100px
             rgba(
               0,
               0,
               0,
-              0.24
+              0.3
             );
 
           color: white;
 
           text-decoration: none;
 
+          transform: none;
+
           transition:
             border-color
-              0.4s ease,
-            background
-              0.4s ease,
-            transform
-              0.45s
-              cubic-bezier(
-                0.16,
-                1,
-                0.3,
-                1
-              ),
+              0.45s ease,
             box-shadow
-              0.4s ease;
+              0.45s ease,
+            background
+              0.45s ease;
         }
-              .experience-portal__card {
-  position: relative;
-
-  display: block;
-
-  width: 100%;
-  max-width: 100%;
-
-  margin: 0 auto;
-  padding: 0;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  text-decoration: none;
-
-  /*
-   * Reset generic global <a> behavior.
-   */
-  outline: none;
-}
 
 
-        /* ================================================
-           GLASS EDGE
-        ================================================= */
+        /* ==================================================
+           REMOVE GLOBAL LINK UNDERLINE
+        ================================================== */
 
-        .experience-portal__card::before {
-          content: "";
+        .experience-portal__card::after {
+          display: none;
+        }
 
+
+        /* ==================================================
+           AMBIENT LIGHT
+        ================================================== */
+
+        .experience-portal__ambient {
           position: absolute;
 
           inset: 0;
 
-          z-index: -1;
+          z-index: -3;
 
-          border-radius: inherit;
+          pointer-events: none;
 
           background:
-            linear-gradient(
-              120deg,
+            radial-gradient(
+              circle
+              at
+              70%
+              28%,
+              rgba(
+                118,
+                190,
+                224,
+                0.075
+              ),
+              transparent
+                27%
+            ),
+
+            radial-gradient(
+              ellipse
+              at
+              50%
+              110%,
               rgba(
                 255,
                 255,
@@ -300,431 +351,469 @@ export default function CivilizationExperiencePortal() {
                 0.04
               ),
               transparent
-              26%,
-              transparent
-              74%,
-              rgba(
-                158,
-                223,
-                255,
-                0.018
-              )
+                42%
             );
-
-          pointer-events: none;
         }
 
 
-        /* ================================================
-           INTERNAL LIGHT
-        ================================================= */
+        /* ==================================================
+           INDUSTRIAL GRID
+        ================================================== */
 
-        .experience-portal__light {
+        .experience-portal__grid {
           position: absolute;
 
-          top: -70%;
-          left: 50%;
+          inset: 0;
+
+          z-index: -2;
+
+          opacity: 0.22;
+
+          pointer-events: none;
+
+          background-image:
+            linear-gradient(
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              )
+              1px,
+              transparent
+              1px
+            ),
+
+            linear-gradient(
+              90deg,
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              )
+              1px,
+              transparent
+              1px
+            );
+
+          background-size:
+            64px
+            64px;
+
+          -webkit-mask-image:
+            linear-gradient(
+              to bottom,
+              transparent,
+              black 25%,
+              black 72%,
+              transparent
+            );
+
+          mask-image:
+            linear-gradient(
+              to bottom,
+              transparent,
+              black 25%,
+              black 72%,
+              transparent
+            );
+        }
+
+
+        /* ==================================================
+           HORIZON / CITY LINE
+        ================================================== */
+
+        .experience-portal__horizon {
+          position: absolute;
+
+          right: 7%;
+          bottom: 29%;
 
           z-index: -1;
 
-          width: 54%;
-
-          aspect-ratio: 1;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(
-                150,
-                218,
-                255,
-                0.055
-              ),
-              rgba(
-                112,
-                188,
-                230,
-                0.018
-              )
-              38%,
-              transparent
-              70%
+          width:
+            min(
+              370px,
+              38%
             );
 
-          filter:
-            blur(20px);
+          height: 1px;
 
-          opacity: 0.8;
+          opacity: 0.34;
 
           pointer-events: none;
 
-          transform:
-            translateX(-50%);
-
-          transition:
-            opacity
-              0.45s ease,
-            transform
-              0.55s
-              cubic-bezier(
-                0.16,
-                1,
-                0.3,
-                1
-              );
-        }
-
-
-        /* ================================================
-           CENTRAL AXIS
-
-           This is the important change.
-           The whole visible UI is positioned by this
-           container rather than relying only on text-align.
-        ================================================= */
-
-        .experience-portal__center {
-  position: relative;
-
-  z-index: 2;
-
-  width: 100%;
-  max-width: 100%;
-
-  min-width: 0;
-
-  justify-self: stretch;
-
-  box-sizing: border-box;
-
-          min-height:
-            calc(
-              clamp(
-                260px,
-                30vw,
-                340px
-              ) -
-              clamp(
-                48px,
-                6.8vw,
-                76px
-              )
+          background:
+            linear-gradient(
+              90deg,
+              transparent,
+              rgba(
+                178,
+                220,
+                240,
+                0.5
+              ),
+              transparent
             );
 
-          display: grid;
-
-          grid-template-columns:
-            minmax(
-              0,
-              1fr
-            );
-
-          grid-template-rows:
-            auto
-            minmax(
-              0,
-              1fr
-            )
-            auto;
-
-          justify-items: center;
-
-          align-items: stretch;
-
-          margin:
+          box-shadow:
             0
-            auto;
-
-          text-align: center;
+            0
+            32px
+            rgba(
+              120,
+              200,
+              235,
+              0.16
+            );
         }
 
 
-        /* ================================================
+        /* ==================================================
            TOP
-        ================================================= */
+        ================================================== */
 
         .experience-portal__top {
           position: relative;
 
-          width: 100%;
+          z-index: 2;
 
+          display: flex;
+
+          align-items:
+            flex-start;
+
+          justify-content:
+            space-between;
+
+          gap: 24px;
+        }
+
+
+        .experience-portal__identity {
           display: flex;
 
           flex-direction: column;
 
-          align-items: center;
-
-          justify-content: center;
-
-          justify-self: stretch;
-
-          gap: 9px;
-
-          margin:
-            0
-            auto;
-
-          text-align: center;
+          gap: 7px;
         }
 
 
-        .experience-portal__eyebrow {
-          display: block;
+        .experience-portal__identity
+        > span {
+          color:
+            rgba(
+              238,
+              243,
+              247,
+              0.52
+            );
 
-          width: 100%;
+          font-size: 8px;
 
-          margin:
-            0
-            auto;
+          font-weight: 620;
+
+          line-height: 1;
+
+          letter-spacing:
+            0.23em;
+        }
+
+
+        .experience-portal__identity
+        > small {
+          color:
+            rgba(
+              215,
+              225,
+              232,
+              0.24
+            );
+
+          font-size: 6px;
+
+          line-height: 1;
+
+          letter-spacing:
+            0.16em;
+        }
+
+
+        .experience-portal__live {
+          display: inline-flex;
+
+          align-items: center;
+
+          gap: 8px;
 
           color:
             rgba(
-              228,
-              235,
-              240,
+              220,
+              230,
+              236,
               0.36
+            );
+
+          font-size: 6px;
+
+          letter-spacing:
+            0.16em;
+        }
+
+
+        .experience-portal__live i {
+          width: 5px;
+          height: 5px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(
+              126,
+              242,
+              192,
+              0.82
+            );
+
+          box-shadow:
+            0
+            0
+            12px
+            rgba(
+              126,
+              242,
+              192,
+              0.38
+            );
+        }
+
+
+        /* ==================================================
+           CONTENT
+        ================================================== */
+
+        .experience-portal__content {
+          position: relative;
+
+          z-index: 2;
+
+          align-self: center;
+
+          width: 100%;
+
+          padding:
+            clamp(
+              46px,
+              7vw,
+              82px
+            )
+            0
+            clamp(
+              40px,
+              5vw,
+              64px
+            );
+
+          text-align: left;
+        }
+
+
+        /* ==================================================
+           SYSTEM LABEL
+        ================================================== */
+
+        .experience-portal__system-label {
+          display: flex;
+
+          align-items: center;
+
+          gap: 10px;
+
+          margin-bottom:
+            clamp(
+              16px,
+              2vw,
+              22px
+            );
+
+          color:
+            rgba(
+              167,
+              212,
+              235,
+              0.44
             );
 
           font-size: 7px;
 
           font-weight: 600;
 
-          line-height: 1;
-
           letter-spacing:
-            0.2em;
-
-          text-align: center;
+            0.19em;
         }
 
 
-        .experience-portal__status {
-          display: inline-flex;
+        .experience-portal__system-label i {
+          width: 24px;
+          height: 1px;
 
-          width: fit-content;
+          background:
+            rgba(
+              166,
+              215,
+              236,
+              0.2
+            );
+        }
 
-          align-items: center;
 
-          justify-content: center;
+        /* ==================================================
+           TITLE
+        ================================================== */
 
-          align-self: center;
+        .experience-portal__content h2 {
+          max-width: 790px;
 
-          gap: 7px;
-
-          margin:
-            0
-            auto;
+          margin: 0;
 
           color:
             rgba(
-              220,
-              231,
-              238,
-              0.28
+              249,
+              251,
+              252,
+              0.97
+            );
+
+          font-size:
+            clamp(
+              54px,
+              7.8vw,
+              104px
+            );
+
+          font-weight: 250;
+
+          line-height: 0.86;
+
+          letter-spacing:
+            -0.066em;
+
+          text-wrap: balance;
+        }
+
+
+        /* ==================================================
+           DESCRIPTION
+        ================================================== */
+
+        .experience-portal__content p {
+          max-width: 470px;
+
+          margin:
+            clamp(
+              27px,
+              3vw,
+              36px
+            )
+            0
+            0;
+
+          color:
+            rgba(
+              218,
+              227,
+              233,
+              0.48
+            );
+
+          font-size:
+            clamp(
+              11px,
+              1.15vw,
+              14px
+            );
+
+          font-weight: 370;
+
+          line-height: 1.78;
+
+          letter-spacing:
+            -0.003em;
+        }
+
+
+        /* ==================================================
+           WORLD LAYERS
+        ================================================== */
+
+        .experience-portal__layers {
+          display: flex;
+
+          align-items: center;
+
+          flex-wrap: wrap;
+
+          gap: 10px;
+
+          margin-top:
+            clamp(
+              28px,
+              4vw,
+              42px
+            );
+
+          color:
+            rgba(
+              217,
+              228,
+              235,
+              0.29
             );
 
           font-size: 6px;
 
-          font-weight: 520;
-
-          line-height: 1;
+          font-weight: 600;
 
           letter-spacing:
-            0.14em;
-
-          text-align: center;
+            0.17em;
         }
 
 
-        .experience-portal__status i {
-          flex: 0 0 auto;
-
-          width: 4px;
-          height: 4px;
-
-          border-radius: 50%;
+        .experience-portal__layers i {
+          width: 18px;
+          height: 1px;
 
           background:
             rgba(
-              135,
-              241,
-              198,
-              0.72
-            );
-
-          box-shadow:
-            0
-            0
-            9px
-            rgba(
-              135,
-              241,
-              198,
-              0.3
+              255,
+              255,
+              255,
+              0.09
             );
         }
 
 
-        /* ================================================
-           CONTENT
-        ================================================= */
+        /* ==================================================
+           FOOTER
+        ================================================== */
 
-        .experience-portal__content {
+        .experience-portal__footer {
           position: relative;
 
-          width: 100%;
-          max-width: none;
+          z-index: 2;
 
           display: flex;
 
-          flex-direction: column;
-
           align-items: center;
 
-          justify-content: center;
+          justify-content:
+            space-between;
 
-          justify-self: stretch;
+          gap: 28px;
 
-          align-self: stretch;
-
-          margin:
-            0
-            auto;
-
-          padding:
-            clamp(
-              30px,
-              4vw,
-              50px
-            )
-            0
-            clamp(
-              26px,
-              3.2vw,
-              38px
-            );
-
-          text-align: center;
-        }
-
-
-        .experience-portal__content h2 {
-          width: auto;
-
-          max-width:
-            min(
-              760px,
-              100%
-            );
-
-          margin:
-            0
-            auto;
-
-          padding: 0;
-
-          color:
-            rgba(
-              248,
-              250,
-              252,
-              0.94
-            );
-
-          font-size:
-            clamp(
-              34px,
-              4.4vw,
-              58px
-            );
-
-          font-weight: 300;
-
-          line-height: 1;
-
-          letter-spacing:
-            -0.045em;
-
-          text-align: center;
-
-          text-wrap: balance;
-        }
-
-
-        .experience-portal__content p {
-          width: auto;
-
-          max-width: 430px;
-
-          margin:
-            clamp(
-              17px,
-              2vw,
-              22px
-            )
-            auto
-            0;
-
-          padding: 0;
-
-          color:
-            rgba(
-              216,
-              226,
-              233,
-              0.42
-            );
-
-          font-size:
-            clamp(
-              10px,
-              1vw,
-              12px
-            );
-
-          font-weight: 380;
-
-          line-height: 1.7;
-
-          letter-spacing:
-            0.002em;
-
-          text-align: center;
-
-          text-wrap: balance;
-        }
-
-
-        /* ================================================
-           ENTER
-        ================================================= */
-
-        .experience-portal__enter {
-          position: relative;
-
-          width: 100%;
-
-          display: flex;
-
-          flex-direction: column;
-
-          align-items: center;
-
-          justify-content: center;
-
-          justify-self: stretch;
-
-          gap: 11px;
-
-          min-height: 54px;
-
-          margin:
-            0
-            auto;
-
-          padding-top: 18px;
+          padding-top: 20px;
 
           border-top:
             1px solid
@@ -732,60 +821,98 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.055
+              0.06
             );
-
-          color:
-            rgba(
-              238,
-              244,
-              248,
-              0.55
-            );
-
-          text-align: center;
         }
 
 
-        .experience-portal__enter-label {
-          display: block;
+        /* ==================================================
+           COORDINATES
+        ================================================== */
 
-          width: auto;
+        .experience-portal__coordinates {
+          display: flex;
 
-          margin:
-            0
-            auto;
+          flex-direction: column;
+
+          gap: 7px;
+        }
+
+
+        .experience-portal__coordinates
+        > span {
+          color:
+            rgba(
+              232,
+              240,
+              244,
+              0.46
+            );
 
           font-size: 7px;
 
           font-weight: 600;
 
-          line-height: 1;
-
           letter-spacing:
-            0.17em;
-
-          text-align: center;
+            0.18em;
         }
 
 
-        /* ================================================
-           ARROW
-        ================================================= */
+        .experience-portal__coordinates
+        > small {
+          color:
+            rgba(
+              210,
+              221,
+              228,
+              0.22
+            );
+
+          font-size: 6px;
+
+          letter-spacing:
+            0.11em;
+        }
+
+
+        /* ==================================================
+           ENTER
+        ================================================== */
+
+        .experience-portal__enter {
+          display: inline-flex;
+
+          align-items: center;
+
+          gap: 14px;
+        }
+
+
+        .experience-portal__enter-copy {
+          color:
+            rgba(
+              240,
+              246,
+              249,
+              0.72
+            );
+
+          font-size: 7px;
+
+          font-weight: 620;
+
+          letter-spacing:
+            0.2em;
+        }
+
 
         .experience-portal__arrow {
-          flex: 0 0 auto;
-
           display: grid;
 
-          width: 34px;
-          height: 34px;
+          width: 44px;
+          height: 44px;
 
           place-items: center;
-
-          margin:
-            0
-            auto;
 
           border:
             1px solid
@@ -793,17 +920,27 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.075
+              0.09
             );
 
-          border-radius: 50%;
+          border-radius:
+            50%;
 
           background:
-            rgba(
-              255,
-              255,
-              255,
-              0.018
+            linear-gradient(
+              145deg,
+              rgba(
+                255,
+                255,
+                255,
+                0.05
+              ),
+              rgba(
+                255,
+                255,
+                255,
+                0.015
+              )
             );
 
           color:
@@ -811,104 +948,50 @@ export default function CivilizationExperiencePortal() {
               255,
               255,
               255,
-              0.58
+              0.78
             );
 
-          font-size: 12px;
+          font-size: 14px;
 
-          line-height: 1;
-
-          text-align: center;
+          box-shadow:
+            inset
+            0
+            1px
+            0
+            rgba(
+              255,
+              255,
+              255,
+              0.04
+            );
 
           transition:
-            background
-              0.3s ease,
             border-color
-              0.3s ease,
-            color
-              0.3s ease,
-            transform
-              0.35s
-              cubic-bezier(
-                0.16,
-                1,
-                0.3,
-                1
-              );
+              0.35s ease,
+            background
+              0.35s ease,
+            box-shadow
+              0.35s ease;
         }
 
-        
-.experience-portal__axis::after {
-  content: "";
 
-  position: absolute;
-
-  left: 10%;
-  right: 10%;
-  bottom: 0;
-
-  height: 1px;
-
-  background:
-    linear-gradient(
-      90deg,
-      transparent,
-      rgba(
-        158,
-        223,
-        255,
-        0.12
-      ),
-      transparent
-    );
-
-  opacity: 0.65;
-
-  pointer-events: none;
-}
-
-.experience-portal__card::after {
-  display: none;
-}
-
-        /* ================================================
+        /* ==================================================
            DESKTOP INTERACTION
-        ================================================= */
+        ================================================== */
 
         @media (
           hover: hover
+        ) and (
+          pointer: fine
         ) {
+
           .experience-portal__card:hover {
             border-color:
               rgba(
-                255,
-                255,
-                255,
-                0.12
-              );
-
-            background:
-              linear-gradient(
-                145deg,
-                rgba(
-                  19,
-                  21,
-                  24,
-                  0.82
-                ),
-                rgba(
-                  4,
-                  5,
-                  7,
-                  0.94
-                )
-                56%,
-                rgba(
-                  0,
-                  0,
-                  0,
-                  0.98
-                )
+                164,
+                218,
+                244,
+                0.14
               );
 
             box-shadow:
@@ -923,30 +1006,13 @@ export default function CivilizationExperiencePortal() {
                 0.065
               ),
               0
-              28px
-              78px
+              38px
+              110px
               rgba(
                 0,
                 0,
                 0,
-                0.3
-              );
-
-            transform:
-              translateY(
-                -2px
-              );
-          }
-
-
-          .experience-portal__card:hover
-          .experience-portal__light {
-            opacity: 1;
-
-            transform:
-              translateX(-50%)
-              scale(
-                1.05
+                0.36
               );
           }
 
@@ -955,73 +1021,52 @@ export default function CivilizationExperiencePortal() {
           .experience-portal__arrow {
             border-color:
               rgba(
-                255,
-                255,
-                255,
-                0.13
+                168,
+                220,
+                245,
+                0.21
               );
 
             background:
               rgba(
-                255,
-                255,
-                255,
-                0.035
+                150,
+                210,
+                240,
+                0.06
               );
 
-            color:
+            box-shadow:
+              inset
+              0
+              1px
+              0
               rgba(
                 255,
                 255,
                 255,
-                0.84
-              );
-
-            transform:
-              translateX(
-                3px
-              );
-          }
-        }
-
-
-        /* ================================================
-           TABLET
-        ================================================= */
-
-        @media (
-          max-width: 900px
-        ) {
-          .experience-portal__card {
-            min-height: 300px;
-          }
-
-
-          .experience-portal__center {
-            min-height:
-              calc(
-                300px -
-                68px
-              );
-          }
-
-
-          .experience-portal__content {
-            padding:
-              38px
+                0.07
+              ),
               0
-              32px;
+              0
+              24px
+              rgba(
+                126,
+                204,
+                240,
+                0.06
+              );
           }
         }
 
 
-        /* ================================================
+        /* ==================================================
            MOBILE
-        ================================================= */
+        ================================================== */
 
         @media (
           max-width: 700px
         ) {
+
           .experience-portal {
             padding:
               14px
@@ -1030,249 +1075,199 @@ export default function CivilizationExperiencePortal() {
 
 
           .experience-portal__card {
-            min-height: 270px;
+            min-height: 430px;
 
             padding:
+              23px
               21px
-              20px
-              18px;
+              20px;
 
-            border-radius: 22px;
+            border-radius: 23px;
+
+            -webkit-backdrop-filter:
+              blur(20px)
+              saturate(110%);
+
+            backdrop-filter:
+              blur(20px)
+              saturate(110%);
           }
 
 
-          .experience-portal__center {
-            width: 100%;
-
-            min-height:
-              calc(
-                270px -
-                39px
-              );
-
-            justify-items: center;
-
-            margin:
-              0
-              auto;
-
-            text-align: center;
-          }
-
-
-          .experience-portal__top {
-            width: 100%;
-
-            align-items: center;
-
-            gap: 8px;
-
-            text-align: center;
-          }
-
-
-          .experience-portal__eyebrow {
-            width: 100%;
-
+          .experience-portal__identity
+          > span {
             font-size: 6px;
 
             letter-spacing:
-              0.17em;
-
-            text-align: center;
+              0.18em;
           }
 
 
-          .experience-portal__status {
-            align-self: center;
-
-            gap: 6px;
-
-            margin:
-              0
-              auto;
-
+          .experience-portal__identity
+          > small {
             font-size: 5px;
+          }
 
-            letter-spacing:
-              0.11em;
+
+          .experience-portal__live {
+            font-size: 5px;
           }
 
 
           .experience-portal__content {
-            width: 100%;
-            max-width: none;
-
-            align-items: center;
-
-            justify-content: center;
-
-            margin:
-              0
-              auto;
-
             padding:
-              32px
+              46px
               0
-              27px;
-
-            text-align: center;
+              40px;
           }
 
 
           .experience-portal__content h2 {
-            width: auto;
-
-            max-width: 320px;
-
-            margin:
-              0
-              auto;
+            max-width: 100%;
 
             font-size:
               clamp(
-                30px,
-                9vw,
-                40px
+                45px,
+                14.5vw,
+                66px
               );
 
-            line-height: 1.02;
-
-            text-align: center;
+            line-height:
+              0.9;
           }
 
 
           .experience-portal__content p {
-            width: auto;
+            max-width: 310px;
 
-            max-width: 290px;
+            margin-top: 23px;
 
-            margin:
-              16px
-              auto
-              0;
+            font-size: 10px;
 
-            font-size: 9px;
-
-            line-height: 1.65;
-
-            text-align: center;
+            line-height: 1.7;
           }
 
 
-          .experience-portal__enter {
-            width: 100%;
+          .experience-portal__layers {
+            max-width: 310px;
 
-            align-items: center;
+            margin-top: 27px;
 
-            justify-content: center;
+            gap: 8px;
 
-            min-height: 48px;
-
-            gap: 10px;
-
-            margin:
-              0
-              auto;
-
-            padding-top: 15px;
-
-            text-align: center;
+            font-size: 5px;
           }
 
 
-          .experience-portal__enter-label {
-            margin:
-              0
-              auto;
+          .experience-portal__layers i {
+            width: 12px;
+          }
 
-            font-size: 6px;
 
-            text-align: center;
+          .experience-portal__footer {
+            align-items:
+              flex-end;
+
+            gap: 14px;
+          }
+
+
+          .experience-portal__coordinates
+          > small {
+            display: none;
           }
 
 
           .experience-portal__arrow {
-            width: 31px;
-            height: 31px;
+            width: 38px;
+            height: 38px;
 
-            margin:
-              0
-              auto;
+            font-size: 12px;
+          }
 
-            font-size: 11px;
+
+          .experience-portal__enter-copy {
+            display: none;
+          }
+
+
+          .experience-portal__grid {
+            background-size:
+              44px
+              44px;
+          }
+
+
+          .experience-portal__horizon {
+            right: 2%;
+
+            width: 48%;
+
+            bottom: 26%;
           }
         }
 
 
-        /* ================================================
+        /* ==================================================
            SMALL MOBILE
-        ================================================= */
+        ================================================== */
 
         @media (
-          max-width: 420px
+          max-width: 430px
         ) {
+
           .experience-portal__card {
-            min-height: 250px;
+            min-height: 410px;
 
             padding:
-              19px
+              21px
               18px
-              17px;
+              18px;
 
-            border-radius: 20px;
-          }
-
-
-          .experience-portal__center {
-            min-height:
-              calc(
-                250px -
-                36px
-              );
+            border-radius: 21px;
           }
 
 
           .experience-portal__content {
             padding:
-              28px
+              40px
               0
-              23px;
+              34px;
           }
 
 
           .experience-portal__content h2 {
-            max-width: 290px;
-
             font-size:
               clamp(
-                28px,
-                8.7vw,
-                36px
+                42px,
+                14vw,
+                58px
               );
           }
 
 
-          .experience-portal__content p {
-            max-width: 255px;
+          .experience-portal__system-label {
+            font-size: 5px;
           }
         }
 
 
-        /* ================================================
+        /* ==================================================
            REDUCED MOTION
-        ================================================= */
+        ================================================== */
 
         @media (
           prefers-reduced-motion:
           reduce
         ) {
+
           .experience-portal__card,
-          .experience-portal__light,
           .experience-portal__arrow {
-            transition: none;
+            transition:
+              none !important;
           }
         }
+
       `}</style>
     </section>
   );
