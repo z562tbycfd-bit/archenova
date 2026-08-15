@@ -1,11 +1,13 @@
 "use client";
 
 import {
+  useCallback,
   useEffect,
   useMemo,
   useRef,
   useState,
   type FormEvent,
+  type KeyboardEvent,
 } from "react";
 
 
@@ -22,69 +24,42 @@ type DialogueMode =
 
 
 type SignalItem = {
-  id:
-    string;
-
-  title:
-    string;
-
-  summary:
-    string;
-
-  category:
-    string;
-
-  source:
-    string;
-
-  url:
-    string | null;
-
-  level:
-    string;
-
-  publishedAt:
-    string | null;
-};
-
-
-type DialogueMessage = {
-  id:
-    string;
-
-  role:
-    "user" |
-    "episteme";
-
-  mode:
-    DialogueMode;
-
-  text:
-    string;
-
-  createdAt:
-    number;
-
-  intelligence?:
-    IntelligenceObject;
+  id: string;
+  title: string;
+  summary: string;
+  category: string;
+  source: string;
+  url: string | null;
+  level: string;
+  publishedAt: string | null;
 };
 
 
 type IntelligenceObject = {
-  interpretation:
-    string;
+  interpretation: string;
+  evidence: string;
+  uncertainty: string;
+  nextQuestions: string[];
+  signalIds: string[];
+};
 
-  evidence:
-    string;
 
-  uncertainty:
-    string;
+type DialogueMessage = {
+  id: string;
 
-  nextQuestions:
-    string[];
+  role:
+    | "user"
+    | "episteme";
 
-  signalIds:
-    string[];
+  mode: DialogueMode;
+
+  text: string;
+
+  createdAt: number;
+
+  intelligence?: IntelligenceObject;
+
+  streaming?: boolean;
 };
 
 
@@ -96,80 +71,55 @@ type RawRecord =
 
 
 /* ==========================================================
-   MODES
+   CONSTANTS
 ========================================================== */
+
+const STORAGE_KEY =
+  "archenova-episteme-dialogue-v2";
+
 
 const MODES:
   readonly {
-    id:
-      DialogueMode;
-
-    label:
-      string;
-
-    description:
-      string;
+    id: DialogueMode;
+    label: string;
+    description: string;
   }[] = [
     {
-      id:
-        "ask",
-
-      label:
-        "Ask",
-
+      id: "ask",
+      label: "Ask",
       description:
-        "Ask Episteme directly.",
+        "Direct inquiry grounded in current ArcheNova intelligence.",
     },
 
     {
-      id:
-        "explore",
-
-      label:
-        "Explore",
-
+      id: "explore",
+      label: "Explore",
       description:
-        "Discover related signals and emerging connections.",
+        "Discover adjacent signals, patterns, and emerging connections.",
     },
 
     {
-      id:
-        "challenge",
-
-      label:
-        "Challenge",
-
+      id: "challenge",
+      label: "Challenge",
       description:
-        "Search for weaknesses, contradictions, and falsifiers.",
+        "Search for assumptions, contradictions, and falsification conditions.",
     },
 
     {
-      id:
-        "compare",
-
-      label:
-        "Compare",
-
+      id: "compare",
+      label: "Compare",
       description:
-        "Compare competing signals, systems, or trajectories.",
+        "Compare competing explanations, systems, or trajectories.",
     },
 
     {
-      id:
-        "simulate",
-
-      label:
-        "Simulate",
-
+      id: "simulate",
+      label: "Simulate",
       description:
-        "Explore an explicit counterfactual scenario.",
+        "Explore an explicit counterfactual without confusing it with evidence.",
     },
   ];
 
-
-/* ==========================================================
-   SUGGESTED QUESTIONS
-========================================================== */
 
 const SUGGESTIONS = [
   "What changed in civilization today?",
@@ -185,8 +135,7 @@ const SUGGESTIONS = [
 ========================================================== */
 
 function normalize(
-  value:
-    string,
+  value: string,
 ) {
   return value
     .toLowerCase()
@@ -203,28 +152,21 @@ function normalize(
 
 
 function words(
-  value:
-    string,
+  value: string,
 ) {
   return normalize(
     value,
   )
-    .split(
-      " ",
-    )
+    .split(" ")
     .filter(
-      (
-        item,
-      ) =>
-        item.length >=
-        4,
+      (item) =>
+        item.length >= 4,
     );
 }
 
 
 function stringValue(
-  value:
-    unknown,
+  value: unknown,
 ) {
   return typeof value ===
     "string"
@@ -234,11 +176,8 @@ function stringValue(
 
 
 function firstString(
-  object:
-    RawRecord,
-
-  keys:
-    string[],
+  object: RawRecord,
+  keys: string[],
 ) {
   for (
     const key
@@ -246,9 +185,7 @@ function firstString(
   ) {
     const value =
       stringValue(
-        object[
-          key
-        ],
+        object[key],
       );
 
     if (
@@ -263,11 +200,8 @@ function firstString(
 
 
 function parseSignal(
-  value:
-    unknown,
-
-  index:
-    number,
+  value: unknown,
+  index: number,
 ): SignalItem | null {
   if (
     !value ||
@@ -293,9 +227,7 @@ function parseSignal(
     );
 
 
-  if (
-    !title
-  ) {
+  if (!title) {
     return null;
   }
 
@@ -386,11 +318,13 @@ function parseSignal(
     id,
     title,
     summary,
+
     category:
       category.toUpperCase(),
 
     source,
     url,
+
     level:
       level.toUpperCase(),
 
@@ -400,8 +334,7 @@ function parseSignal(
 
 
 function extractSignals(
-  payload:
-    unknown,
+  payload: unknown,
 ) {
   if (
     Array.isArray(
@@ -416,8 +349,7 @@ function extractSignals(
         (
           item,
         ): item is SignalItem =>
-          item !==
-          null,
+          item !== null,
       );
   }
 
@@ -435,17 +367,13 @@ function extractSignals(
     payload as RawRecord;
 
 
-  const candidates =
-    [
+  for (
+    const candidate
+    of [
       record.items,
       record.signals,
       record.data,
-    ];
-
-
-  for (
-    const candidate
-    of candidates
+    ]
   ) {
     if (
       Array.isArray(
@@ -460,8 +388,7 @@ function extractSignals(
           (
             item,
           ): item is SignalItem =>
-            item !==
-            null,
+            item !== null,
         );
     }
   }
@@ -472,44 +399,78 @@ function extractSignals(
 
 
 function formatTime(
-  timestamp:
-    number,
+  timestamp: number,
 ) {
-  return new Intl.DateTimeFormat(
-    "en",
-    {
-      hour:
-        "2-digit",
+  return new Intl
+    .DateTimeFormat(
+      "en",
+      {
+        hour:
+          "2-digit",
 
-      minute:
-        "2-digit",
-    },
-  ).format(
-    timestamp,
-  );
+        minute:
+          "2-digit",
+      },
+    )
+    .format(
+      timestamp,
+    );
 }
 
 
-/* ==========================================================
-   SIGNAL RELEVANCE
-========================================================== */
-
-function scoreSignal(
-  query:
-    string,
-
-  signal:
-    SignalItem,
+function createThreadTitle(
+  messages:
+    DialogueMessage[],
 ) {
-  const queryWords =
-    words(
-      query,
+  const firstUser =
+    messages.find(
+      (message) =>
+        message.role ===
+        "user",
     );
 
 
   if (
+    !firstUser
+  ) {
+    return "New Inquiry";
+  }
+
+
+  const text =
+    firstUser.text.trim();
+
+
+  if (
+    text.length <=
+    44
+  ) {
+    return text;
+  }
+
+
+  return `${text.slice(
+    0,
+    44,
+  )}…`;
+}
+
+
+/* ==========================================================
+   RELEVANCE
+========================================================== */
+
+function scoreSignal(
+  query: string,
+  signal: SignalItem,
+) {
+  const queryWords =
+    words(query);
+
+
+  if (
     queryWords.length ===
-      0
+    0
   ) {
     return 0;
   }
@@ -520,12 +481,10 @@ function scoreSignal(
       signal.title,
     );
 
-
   const summary =
     normalize(
       signal.summary,
     );
-
 
   const category =
     normalize(
@@ -538,36 +497,25 @@ function scoreSignal(
 
 
   queryWords.forEach(
-    (
-      word,
-    ) => {
+    (word) => {
       if (
-        title.includes(
-          word,
-        )
+        title.includes(word)
       ) {
-        score +=
-          6;
+        score += 6;
       }
 
 
       if (
-        summary.includes(
-          word,
-        )
+        summary.includes(word)
       ) {
-        score +=
-          3;
+        score += 3;
       }
 
 
       if (
-        category.includes(
-          word,
-        )
+        category.includes(word)
       ) {
-        score +=
-          2;
+        score += 2;
       }
     },
   );
@@ -578,32 +526,26 @@ function scoreSignal(
 
 
 /* ==========================================================
-   PHASE 1 INTELLIGENCE ENGINE
+   LOCAL INTELLIGENCE ENGINE
 
-   This deliberately does NOT pretend to be a frontier
-   language model.
+   This remains intentionally evidence-oriented.
 
-   It structures current indexed evidence and provides an
-   orchestration layer that can later be replaced by a
-   grounded Episteme backend.
+   Later this function can be replaced by:
+   /api/episteme
+   without rewriting the conversation UI.
 ========================================================== */
 
 function buildIntelligence(
-  query:
-    string,
-
-  mode:
-    DialogueMode,
-
-  signals:
-    SignalItem[],
+  query: string,
+  mode: DialogueMode,
+  signals: SignalItem[],
+  previousMessages:
+    DialogueMessage[],
 ): IntelligenceObject {
   const ranked =
     [...signals]
       .map(
-        (
-          signal,
-        ) => ({
+        (signal) => ({
           signal,
 
           score:
@@ -614,10 +556,7 @@ function buildIntelligence(
         }),
       )
       .sort(
-        (
-          a,
-          b,
-        ) =>
+        (a, b) =>
           b.score -
           a.score,
       );
@@ -626,22 +565,58 @@ function buildIntelligence(
   let relevant =
     ranked
       .filter(
-        (
-          item,
-        ) =>
-          item.score >
-          0,
+        (item) =>
+          item.score > 0,
       )
       .slice(
         0,
         5,
       )
       .map(
-        (
-          item,
-        ) =>
+        (item) =>
           item.signal,
       );
+
+
+  /*
+   * Follow-up questions often contain
+   * few explicit keywords.
+   *
+   * Reuse previous evidence context first.
+   */
+  if (
+    relevant.length ===
+      0
+  ) {
+    const previousSignalIds =
+      previousMessages
+        .flatMap(
+          (message) =>
+            message
+              .intelligence
+              ?.signalIds ??
+            [],
+        )
+        .slice(-5);
+
+
+    relevant =
+      previousSignalIds
+        .map(
+          (id) =>
+            signals.find(
+              (signal) =>
+                signal.id ===
+                id,
+            ),
+        )
+        .filter(
+          (
+            signal,
+          ): signal is SignalItem =>
+            Boolean(signal),
+        );
+  }
 
 
   if (
@@ -661,55 +636,50 @@ function buildIntelligence(
 
 
   const evidence =
-    relevant.length >
-    0
-      ? `${relevant.length} indexed intelligence signals are currently attached to this inquiry.`
-      : "No matching indexed signal is currently available.";
+    relevant.length
+      ? `${relevant.length} currently indexed intelligence objects are attached to this response.`
+      : "No sufficiently relevant indexed evidence is currently available.";
 
 
   let interpretation =
     "";
 
   let uncertainty =
-    "This is a structured interpretation of currently indexed ArcheNova intelligence, not a final statement about reality.";
+    "This interpretation is conditional on currently indexed ArcheNova evidence and should remain open to revision.";
+
 
   let nextQuestions:
     string[] =
     [];
 
 
-  switch (
-    mode
-  ) {
+  switch (mode) {
     case "ask":
       interpretation =
         lead
-          ? `The strongest currently indexed connection is “${lead.title}”. The available material suggests that the question should be examined through its observed evidence, causal interpretation, engineering consequences, and unresolved constraints rather than through a single headline.`
-          : "The inquiry is valid, but the current indexed signal set does not yet support a strong synthesis.";
+          ? `The strongest currently indexed connection is “${lead.title}”. The useful conclusion is not the headline alone. The question should be separated into what has actually been observed, what causal interpretation survives that evidence, what engineering capability may follow, and which constraints remain unresolved.`
+          : "The question is meaningful, but the current indexed evidence is insufficient for a strong conclusion.";
 
-      nextQuestions =
-        [
-          "What evidence supports this interpretation?",
-          "What remains unknown?",
-          "Which bottleneck matters most?",
-        ];
+      nextQuestions = [
+        "What evidence supports this interpretation?",
+        "What remains unknown?",
+        "Which bottleneck matters most?",
+      ];
 
       break;
 
 
     case "explore":
       interpretation =
-        relevant.length >
-        0
-          ? `Episteme finds ${relevant.length} potentially related signals. The useful next step is to inspect whether they represent one underlying transition or several superficially similar developments.`
-          : "No sufficiently related indexed signal was found.";
+        relevant.length
+          ? `Episteme identifies ${relevant.length} related intelligence objects. The next task is to determine whether they are independent developments, correlated manifestations of one transition, or merely superficially similar signals.`
+          : "No sufficiently related intelligence object was found.";
 
-      nextQuestions =
-        [
-          "Show the strongest related signal.",
-          "What connects these developments?",
-          "Which domain is changing fastest?",
-        ];
+      nextQuestions = [
+        "What connects these developments?",
+        "Which signal is strongest?",
+        "Which domain is changing fastest?",
+      ];
 
       break;
 
@@ -717,18 +687,17 @@ function buildIntelligence(
     case "challenge":
       interpretation =
         lead
-          ? `The current interpretation should remain provisional. A strong challenge would test whether the evidence behind “${lead.title}” survives independent measurement, alternative causal explanations, and conditions under which the claimed effect should disappear.`
-          : "A falsification analysis requires a more specific claim or evidence object.";
+          ? `The present interpretation should remain provisional. A serious challenge to “${lead.title}” would test whether the conclusion survives independent measurement, alternative causal explanations, replication, and conditions under which the claimed effect should disappear.`
+          : "A meaningful challenge requires a more specific claim or evidence object.";
 
       uncertainty =
-        "Correlation, common assumptions, incomplete replication, model dependence, and measurement boundaries may weaken the apparent conclusion.";
+        "The main failure modes include correlated evidence, shared assumptions, incomplete replication, selection effects, model dependence, and measurement limits.";
 
-      nextQuestions =
-        [
-          "What observation could falsify this?",
-          "Which assumption is weakest?",
-          "What contradictory evidence should be searched for?",
-        ];
+      nextQuestions = [
+        "What observation could falsify this?",
+        "Which assumption is weakest?",
+        "What contradictory evidence should be searched for?",
+      ];
 
       break;
 
@@ -744,15 +713,14 @@ function buildIntelligence(
       interpretation =
         first &&
         second
-          ? `The current comparison begins with “${first.title}” and “${second.title}”. They should be compared on evidence quality, causal mechanism, engineering maturity, scalability, uncertainty, and civilization-level consequence—not headline similarity alone.`
-          : "A meaningful comparison requires at least two sufficiently related intelligence objects.";
+          ? `The strongest comparison currently available is between “${first.title}” and “${second.title}”. They should be compared on evidence quality, causal mechanism, engineering maturity, scalability, resource requirements, uncertainty, and civilization-level consequence rather than headline similarity.`
+          : "A defensible comparison requires at least two sufficiently related intelligence objects.";
 
-      nextQuestions =
-        [
-          "Which has stronger evidence?",
-          "Which is closer to engineering deployment?",
-          "Where do their assumptions diverge?",
-        ];
+      nextQuestions = [
+        "Which has stronger evidence?",
+        "Which is closer to deployment?",
+        "Where do their assumptions diverge?",
+      ];
 
       break;
     }
@@ -761,18 +729,17 @@ function buildIntelligence(
     case "simulate":
       interpretation =
         lead
-          ? `Treat the inquiry as a conditional scenario rather than a prediction. If the constraint represented by “${lead.title}” changes materially, the next task is to identify second-order effects and the next bottleneck that becomes scarce.`
+          ? `Treat this as a conditional scenario rather than a forecast. If the constraint represented by “${lead.title}” changes materially, the next question is which second-order effects appear and which previously secondary constraint becomes the new bottleneck.`
           : "A useful simulation requires an explicit changed condition.";
 
       uncertainty =
-        "Simulation is conditional reasoning. It is not an observed future and should remain separate from empirical evidence.";
+        "Simulation is counterfactual reasoning, not observation. Its conclusions remain conditional on the assumptions supplied.";
 
-      nextQuestions =
-        [
-          "What constraint moves next?",
-          "What second-order effect appears?",
-          "Which assumption dominates the scenario?",
-        ];
+      nextQuestions = [
+        "What constraint moves next?",
+        "What second-order effect appears?",
+        "Which assumption dominates the scenario?",
+      ];
 
       break;
   }
@@ -780,18 +747,13 @@ function buildIntelligence(
 
   return {
     interpretation,
-
     evidence,
-
     uncertainty,
-
     nextQuestions,
 
     signalIds:
       relevant.map(
-        (
-          signal,
-        ) =>
+        (signal) =>
           signal.id,
       ),
   };
@@ -816,9 +778,7 @@ export default function EpistemeDialogue() {
     query,
     setQuery,
   ] =
-    useState(
-      "",
-    );
+    useState("");
 
 
   const [
@@ -827,18 +787,14 @@ export default function EpistemeDialogue() {
   ] =
     useState<
       SignalItem[]
-    >(
-      [],
-    );
+    >([]);
 
 
   const [
     loadingSignals,
     setLoadingSignals,
   ] =
-    useState(
-      true,
-    );
+    useState(true);
 
 
   const [
@@ -847,36 +803,162 @@ export default function EpistemeDialogue() {
   ] =
     useState<
       DialogueMessage[]
-    >(
-      [],
-    );
+    >([]);
 
 
   const [
     thinking,
     setThinking,
   ] =
-    useState(
-      false,
-    );
+    useState(false);
 
 
   const [
     signalPanelOpen,
     setSignalPanelOpen,
   ] =
-    useState(
-      true,
-    );
+    useState(true);
+
+
+  const [
+    hydrated,
+    setHydrated,
+  ] =
+    useState(false);
 
 
   const conversationRef =
     useRef<
       HTMLDivElement |
       null
-    >(
-      null,
-    );
+    >(null);
+
+
+  const textareaRef =
+    useRef<
+      HTMLTextAreaElement |
+      null
+    >(null);
+
+
+  const streamTimerRef =
+    useRef<
+      ReturnType<
+        typeof setInterval
+      > |
+      null
+    >(null);
+
+
+  /* ========================================================
+     LOAD SAVED THREAD
+  ======================================================== */
+
+  useEffect(() => {
+    try {
+      const stored =
+        window.localStorage
+          .getItem(
+            STORAGE_KEY,
+          );
+
+
+      if (stored) {
+        const parsed =
+          JSON.parse(
+            stored,
+          ) as {
+            messages?:
+              DialogueMessage[];
+
+            mode?:
+              DialogueMode;
+          };
+
+
+        if (
+          Array.isArray(
+            parsed.messages,
+          )
+        ) {
+          setMessages(
+            parsed.messages.map(
+              (message) => ({
+                ...message,
+                streaming: false,
+              }),
+            ),
+          );
+        }
+
+
+        if (
+          parsed.mode &&
+          MODES.some(
+            (item) =>
+              item.id ===
+              parsed.mode,
+          )
+        ) {
+          setMode(
+            parsed.mode,
+          );
+        }
+      }
+    } catch (
+      error
+    ) {
+      console.warn(
+        "[Episteme] Could not restore conversation:",
+        error,
+      );
+    } finally {
+      setHydrated(true);
+    }
+  }, []);
+
+
+  /* ========================================================
+     SAVE THREAD
+  ======================================================== */
+
+  useEffect(() => {
+    if (
+      !hydrated
+    ) {
+      return;
+    }
+
+
+    try {
+      window.localStorage
+        .setItem(
+          STORAGE_KEY,
+          JSON.stringify({
+            messages:
+              messages.map(
+                (message) => ({
+                  ...message,
+                  streaming: false,
+                }),
+              ),
+
+            mode,
+          }),
+        );
+    } catch (
+      error
+    ) {
+      console.warn(
+        "[Episteme] Could not save conversation:",
+        error,
+      );
+    }
+  }, [
+    messages,
+    mode,
+    hydrated,
+  ]);
 
 
   /* ========================================================
@@ -913,9 +995,7 @@ export default function EpistemeDialogue() {
           await response.json();
 
 
-        if (
-          !active
-        ) {
+        if (!active) {
           return;
         }
 
@@ -933,9 +1013,7 @@ export default function EpistemeDialogue() {
           error,
         );
       } finally {
-        if (
-          active
-        ) {
+        if (active) {
           setLoadingSignals(
             false,
           );
@@ -948,8 +1026,24 @@ export default function EpistemeDialogue() {
 
 
     return () => {
-      active =
-        false;
+      active = false;
+    };
+  }, []);
+
+
+  /* ========================================================
+     CLEAN STREAM TIMER
+  ======================================================== */
+
+  useEffect(() => {
+    return () => {
+      if (
+        streamTimerRef.current
+      ) {
+        clearInterval(
+          streamTimerRef.current,
+        );
+      }
     };
   }, []);
 
@@ -963,9 +1057,7 @@ export default function EpistemeDialogue() {
       conversationRef.current;
 
 
-    if (
-      !element
-    ) {
+    if (!element) {
       return;
     }
 
@@ -975,7 +1067,9 @@ export default function EpistemeDialogue() {
         element.scrollHeight,
 
       behavior:
-        "smooth",
+        thinking
+          ? "auto"
+          : "smooth",
     });
   }, [
     messages,
@@ -984,16 +1078,42 @@ export default function EpistemeDialogue() {
 
 
   /* ========================================================
-     ACTIVE MODE
+     AUTO GROW
+  ======================================================== */
+
+  useEffect(() => {
+    const textarea =
+      textareaRef.current;
+
+
+    if (!textarea) {
+      return;
+    }
+
+
+    textarea.style.height =
+      "auto";
+
+
+    textarea.style.height =
+      `${Math.min(
+        textarea.scrollHeight,
+        150,
+      )}px`;
+  }, [
+    query,
+  ]);
+
+
+  /* ========================================================
+     DERIVED
   ======================================================== */
 
   const activeMode =
     useMemo(
       () =>
         MODES.find(
-          (
-            item,
-          ) =>
+          (item) =>
             item.id ===
             mode,
         ) ??
@@ -1004,18 +1124,12 @@ export default function EpistemeDialogue() {
     );
 
 
-  /* ========================================================
-     SIGNAL LOOKUP
-  ======================================================== */
-
   const signalMap =
     useMemo(
       () =>
         new Map(
           signals.map(
-            (
-              signal,
-            ) => [
+            (signal) => [
               signal.id,
               signal,
             ],
@@ -1027,100 +1141,229 @@ export default function EpistemeDialogue() {
     );
 
 
-  /* ========================================================
-     ASK
-  ======================================================== */
-
-  function submitQuestion(
-    value?:
-      string,
-  ) {
-    const finalQuery =
-      (
-        value ??
-        query
-      ).trim();
-
-
-    if (
-      !finalQuery ||
-      thinking
-    ) {
-      return;
-    }
-
-
-    const userMessage:
-      DialogueMessage = {
-        id:
-          `user-${Date.now()}`,
-
-        role:
-          "user",
-
-        mode,
-
-        text:
-          finalQuery,
-
-        createdAt:
-          Date.now(),
-      };
-
-
-    setMessages(
-      (
-        previous,
-      ) => [
-        ...previous,
-        userMessage,
+  const threadTitle =
+    useMemo(
+      () =>
+        createThreadTitle(
+          messages,
+        ),
+      [
+        messages,
       ],
     );
 
 
-    setQuery(
-      "",
-    );
+  /* ========================================================
+     STOP
+  ======================================================== */
+
+  const stopGeneration =
+    useCallback(() => {
+      if (
+        streamTimerRef.current
+      ) {
+        clearInterval(
+          streamTimerRef.current,
+        );
+
+        streamTimerRef.current =
+          null;
+      }
 
 
-    setThinking(
-      true,
-    );
+      setMessages(
+        (previous) =>
+          previous.map(
+            (message) =>
+              message.streaming
+                ? {
+                    ...message,
+                    streaming:
+                      false,
+                  }
+                : message,
+          ),
+      );
 
 
-    /*
-     * Small deliberate latency creates a calm,
-     * readable conversation transition.
-     *
-     * This is NOT pretending that a remote model
-     * is reasoning.
-     */
+      setThinking(false);
+    }, []);
 
-    window.setTimeout(
-      () => {
-        const intelligence =
-          buildIntelligence(
-            finalQuery,
-            mode,
-            signals,
+
+  /* ========================================================
+     STREAM RESPONSE
+  ======================================================== */
+
+  const streamResponse =
+    useCallback(
+      (
+        intelligence:
+          IntelligenceObject,
+
+        responseMode:
+          DialogueMode,
+      ) => {
+        if (
+          streamTimerRef.current
+        ) {
+          clearInterval(
+            streamTimerRef.current,
           );
+        }
 
 
-        const epistemeMessage:
+        const fullText =
+          intelligence
+            .interpretation;
+
+
+        const id =
+          `episteme-${Date.now()}`;
+
+
+        const message:
           DialogueMessage = {
-          id:
-            `episteme-${Date.now()}`,
+          id,
 
           role:
             "episteme",
 
-          mode,
+          mode:
+            responseMode,
 
           text:
-            intelligence
-              .interpretation,
+            "",
 
           intelligence,
+
+          createdAt:
+            Date.now(),
+
+          streaming:
+            true,
+        };
+
+
+        setMessages(
+          (previous) => [
+            ...previous,
+            message,
+          ],
+        );
+
+
+        let position =
+          0;
+
+
+        streamTimerRef.current =
+          setInterval(
+            () => {
+              position =
+                Math.min(
+                  position + 4,
+                  fullText.length,
+                );
+
+
+              setMessages(
+                (previous) =>
+                  previous.map(
+                    (item) =>
+                      item.id ===
+                      id
+                        ? {
+                            ...item,
+
+                            text:
+                              fullText.slice(
+                                0,
+                                position,
+                              ),
+
+                            streaming:
+                              position <
+                              fullText.length,
+                          }
+                        : item,
+                  ),
+              );
+
+
+              if (
+                position >=
+                fullText.length
+              ) {
+                if (
+                  streamTimerRef.current
+                ) {
+                  clearInterval(
+                    streamTimerRef.current,
+                  );
+
+                  streamTimerRef.current =
+                    null;
+                }
+
+
+                setThinking(false);
+              }
+            },
+            18,
+          );
+      },
+      [],
+    );
+
+
+  /* ========================================================
+     ASK
+  ======================================================== */
+
+  const submitQuestion =
+    useCallback(
+      (
+        value?: string,
+        forcedMode?:
+          DialogueMode,
+      ) => {
+        const finalQuery =
+          (
+            value ??
+            query
+          ).trim();
+
+
+        if (
+          !finalQuery ||
+          thinking
+        ) {
+          return;
+        }
+
+
+        const activeResponseMode =
+          forcedMode ??
+          mode;
+
+
+        const contextBefore =
+          messages;
+
+
+        const userMessage:
+          DialogueMessage = {
+          id:
+            `user-${Date.now()}`,
+
+          role:
+            "user",
+
+          mode:
+            activeResponseMode,
+
+          text:
+            finalQuery,
 
           createdAt:
             Date.now(),
@@ -1128,22 +1371,45 @@ export default function EpistemeDialogue() {
 
 
         setMessages(
-          (
-            previous,
-          ) => [
+          (previous) => [
             ...previous,
-            epistemeMessage,
+            userMessage,
           ],
         );
 
 
-        setThinking(
-          false,
+        setQuery("");
+        setThinking(true);
+
+
+        window.setTimeout(
+          () => {
+            const intelligence =
+              buildIntelligence(
+                finalQuery,
+                activeResponseMode,
+                signals,
+                contextBefore,
+              );
+
+
+            streamResponse(
+              intelligence,
+              activeResponseMode,
+            );
+          },
+          260,
         );
       },
-      420,
+      [
+        query,
+        thinking,
+        mode,
+        messages,
+        signals,
+        streamResponse,
+      ],
     );
-  }
 
 
   function submit(
@@ -1157,20 +1423,193 @@ export default function EpistemeDialogue() {
 
 
   /* ========================================================
+     KEYBOARD
+  ======================================================== */
+
+  function handleComposerKeyDown(
+    event:
+      KeyboardEvent<HTMLTextAreaElement>,
+  ) {
+    if (
+      event.key ===
+        "Enter" &&
+      !event.shiftKey
+    ) {
+      event.preventDefault();
+
+      submitQuestion();
+    }
+  }
+
+
+  /* ========================================================
      NEW THREAD
   ======================================================== */
 
   function newThread() {
+    stopGeneration();
+
+    setMessages([]);
+    setQuery("");
+    setMode("ask");
+
+    try {
+      window.localStorage
+        .removeItem(
+          STORAGE_KEY,
+        );
+    } catch {
+      // no-op
+    }
+
+
+    window.setTimeout(
+      () => {
+        textareaRef
+          .current
+          ?.focus();
+      },
+      50,
+    );
+  }
+
+
+  /* ========================================================
+     COPY
+  ======================================================== */
+
+  async function copyMessage(
+    text: string,
+  ) {
+    try {
+      await navigator
+        .clipboard
+        .writeText(
+          text,
+        );
+    } catch (
+      error
+    ) {
+      console.warn(
+        "[Episteme] Copy failed:",
+        error,
+      );
+    }
+  }
+
+
+  /* ========================================================
+     SHARE TO X
+  ======================================================== */
+
+  function shareToX(
+    text: string,
+  ) {
+    const clipped =
+      text.length >
+      220
+        ? `${text.slice(
+            0,
+            217,
+          )}…`
+        : text;
+
+
+    const post =
+      `${clipped}\n\n— Episteme · ArcheNova`;
+
+
+    const url =
+      `https://x.com/intent/post?text=${encodeURIComponent(
+        post,
+      )}`;
+
+
+    window.open(
+      url,
+      "_blank",
+      "noopener,noreferrer",
+    );
+  }
+
+
+  /* ========================================================
+     REGENERATE
+  ======================================================== */
+
+  function regenerate(
+    messageIndex: number,
+  ) {
+    if (thinking) {
+      return;
+    }
+
+
+    let userMessage:
+      DialogueMessage |
+      undefined;
+
+
+    for (
+      let index =
+        messageIndex - 1;
+
+      index >= 0;
+
+      index -= 1
+    ) {
+      if (
+        messages[index]
+          .role ===
+        "user"
+      ) {
+        userMessage =
+          messages[index];
+
+        break;
+      }
+    }
+
+
+    if (
+      !userMessage
+    ) {
+      return;
+    }
+
+
+    const preserved =
+      messages.slice(
+        0,
+        messageIndex,
+      );
+
+
     setMessages(
-      [],
+      preserved,
     );
 
-    setQuery(
-      "",
-    );
 
-    setMode(
-      "ask",
+    setThinking(true);
+
+
+    window.setTimeout(
+      () => {
+        const intelligence =
+          buildIntelligence(
+            userMessage!.text,
+            userMessage!.mode,
+            signals,
+            preserved,
+          );
+
+
+        streamResponse(
+          intelligence,
+          userMessage!.mode,
+        );
+      },
+      220,
     );
   }
 
@@ -1181,10 +1620,6 @@ export default function EpistemeDialogue() {
 
   return (
     <section className="ep-dialogue">
-
-      {/* ==================================================
-          AMBIENT WORLD
-      ================================================== */}
 
       <div
         className="ep-dialogue__ambient"
@@ -1198,12 +1633,13 @@ export default function EpistemeDialogue() {
 
 
       {/* ==================================================
-          TOP BAR
+          TOP
       ================================================== */}
 
       <header className="ep-dialogue__top">
 
         <div className="ep-dialogue__brand">
+
           <span>
             ARCHENOVA
           </span>
@@ -1215,6 +1651,12 @@ export default function EpistemeDialogue() {
           <small>
             CONVERSATIONAL INTELLIGENCE
           </small>
+
+        </div>
+
+
+        <div className="ep-dialogue__thread-title">
+          {threadTitle}
         </div>
 
 
@@ -1238,6 +1680,7 @@ export default function EpistemeDialogue() {
           </button>
 
         </div>
+
       </header>
 
 
@@ -1252,9 +1695,7 @@ export default function EpistemeDialogue() {
           signalPanelOpen
             ? "has-signals"
             : "",
-        ].join(
-          " ",
-        )}
+        ].join(" ")}
       >
 
         {/* =================================================
@@ -1271,7 +1712,7 @@ export default function EpistemeDialogue() {
           >
 
             {/* =============================================
-                EMPTY STATE
+                WELCOME
             ============================================= */}
 
             {messages.length ===
@@ -1291,11 +1732,28 @@ export default function EpistemeDialogue() {
 
 
                 <p>
-                  Explore science,
-                  technology, evidence,
-                  and civilization through
-                  dialogue.
+                  Dialogue with the scientific,
+                  technological, and civilizational
+                  intelligence currently observed
+                  by ArcheNova.
                 </p>
+
+
+                <div className="ep-dialogue__welcome-state">
+
+                  <span>
+                    {loadingSignals
+                      ? "Synchronizing intelligence"
+                      : `${signals.length} live intelligence objects indexed`}
+                  </span>
+
+                  <i />
+
+                  <span>
+                    Evidence remains revisable
+                  </span>
+
+                </div>
 
 
                 <div className="ep-dialogue__suggestions">
@@ -1331,6 +1789,7 @@ export default function EpistemeDialogue() {
                   )}
 
                 </div>
+
               </div>
             )}
 
@@ -1342,6 +1801,7 @@ export default function EpistemeDialogue() {
             {messages.map(
               (
                 message,
+                messageIndex,
               ) => {
 
                 const attachedSignals =
@@ -1349,9 +1809,7 @@ export default function EpistemeDialogue() {
                     .intelligence
                     ?.signalIds
                     .map(
-                      (
-                        id,
-                      ) =>
+                      (id) =>
                         signalMap.get(
                           id,
                         ),
@@ -1379,12 +1837,11 @@ export default function EpistemeDialogue() {
                         "user"
                         ? "ep-message--user"
                         : "ep-message--episteme",
-                    ].join(
-                      " ",
-                    )}
+                    ].join(" ")}
                   >
 
                     <header>
+
                       <span>
                         {message.role ===
                         "user"
@@ -1392,31 +1849,51 @@ export default function EpistemeDialogue() {
                           : "EPISTEME"}
                       </span>
 
+
                       <small>
                         {
                           message.mode
                             .toUpperCase()
                         }
+
                         {" · "}
+
                         {
                           formatTime(
                             message.createdAt,
                           )
                         }
                       </small>
+
                     </header>
 
 
                     <div className="ep-message__body">
+
                       <p>
                         {
                           message.text
                         }
+
+                        {message.streaming && (
+                          <span
+                            className="ep-message__cursor"
+                            aria-hidden="true"
+                          />
+                        )}
                       </p>
+
                     </div>
 
 
-                    {message.intelligence && (
+                    {/* =====================================
+                        EPISTEME STRUCTURED INTELLIGENCE
+                    ===================================== */}
+
+                    {message.role ===
+                      "episteme" &&
+                      message.intelligence &&
+                      !message.streaming && (
                       <div className="ep-intelligence">
 
                         <div className="ep-intelligence__grid">
@@ -1453,13 +1930,28 @@ export default function EpistemeDialogue() {
                         </div>
 
 
+                        {/* =================================
+                            SIGNALS
+                        ================================= */}
+
                         {attachedSignals.length >
                           0 && (
                           <div className="ep-intelligence__signals">
 
-                            <span className="ep-intelligence__label">
-                              RELATED SIGNALS
-                            </span>
+                            <div className="ep-intelligence__signal-head">
+
+                              <span className="ep-intelligence__label">
+                                RELATED INTELLIGENCE
+                              </span>
+
+                              <small>
+                                {
+                                  attachedSignals.length
+                                }{" "}
+                                SIGNALS
+                              </small>
+
+                            </div>
 
 
                             {attachedSignals
@@ -1477,15 +1969,17 @@ export default function EpistemeDialogue() {
                                     }
                                     type="button"
                                     onClick={() => {
-                                      setQuery(
-                                        `Explain the significance of: ${signal.title}`,
+                                      setMode(
+                                        "ask",
                                       );
 
-                                      setMode(
+                                      submitQuestion(
+                                        `Explain the significance of: ${signal.title}`,
                                         "ask",
                                       );
                                     }}
                                   >
+
                                     <small>
                                       {
                                         signal.category
@@ -1501,6 +1995,7 @@ export default function EpistemeDialogue() {
                                     <span>
                                       ASK →
                                     </span>
+
                                   </button>
                                 ),
                               )}
@@ -1509,7 +2004,16 @@ export default function EpistemeDialogue() {
                         )}
 
 
+                        {/* =================================
+                            FOLLOW UPS
+                        ================================= */}
+
                         <div className="ep-intelligence__followups">
+
+                          <span className="ep-intelligence__label">
+                            CONTINUE INQUIRY
+                          </span>
+
 
                           {message
                             .intelligence
@@ -1542,6 +2046,50 @@ export default function EpistemeDialogue() {
 
                         </div>
 
+
+                        {/* =================================
+                            MESSAGE ACTIONS
+                        ================================= */}
+
+                        <div className="ep-message__actions">
+
+                          <button
+                            type="button"
+                            onClick={() => {
+                              void copyMessage(
+                                message.text,
+                              );
+                            }}
+                          >
+                            Copy
+                          </button>
+
+
+                          <button
+                            type="button"
+                            onClick={() => {
+                              regenerate(
+                                messageIndex,
+                              );
+                            }}
+                          >
+                            Regenerate
+                          </button>
+
+
+                          <button
+                            type="button"
+                            onClick={() => {
+                              shareToX(
+                                message.text,
+                              );
+                            }}
+                          >
+                            Share to X ↗
+                          </button>
+
+                        </div>
+
                       </div>
                     )}
 
@@ -1555,17 +2103,21 @@ export default function EpistemeDialogue() {
                 THINKING
             ============================================= */}
 
-            {thinking && (
+            {thinking &&
+              !messages.some(
+                (message) =>
+                  message.streaming,
+              ) && (
               <div className="ep-dialogue__thinking">
-                <span />
 
                 <span />
-
+                <span />
                 <span />
 
                 <small>
                   Structuring intelligence
                 </small>
+
               </div>
             )}
 
@@ -1581,9 +2133,7 @@ export default function EpistemeDialogue() {
             <div className="ep-dialogue__modes">
 
               {MODES.map(
-                (
-                  item,
-                ) => (
+                (item) => (
                   <button
                     key={
                       item.id
@@ -1622,12 +2172,13 @@ export default function EpistemeDialogue() {
             >
 
               <textarea
+                ref={
+                  textareaRef
+                }
                 value={
                   query
                 }
-                rows={
-                  1
-                }
+                rows={1}
                 placeholder={`${
                   activeMode.label
                 } Episteme...`}
@@ -1640,33 +2191,35 @@ export default function EpistemeDialogue() {
                       .value,
                   );
                 }}
-                onKeyDown={(
-                  event,
-                ) => {
-                  if (
-                    event.key ===
-                      "Enter" &&
-                    !event.shiftKey
-                  ) {
-                    event.preventDefault();
-
-                    submitQuestion();
-                  }
-                }}
+                onKeyDown={
+                  handleComposerKeyDown
+                }
                 aria-label="Ask Episteme"
               />
 
 
-              <button
-                type="submit"
-                disabled={
-                  thinking ||
-                  !query.trim()
-                }
-                aria-label="Send inquiry"
-              >
-                ↑
-              </button>
+              {thinking ? (
+                <button
+                  type="button"
+                  className="ep-dialogue__stop"
+                  onClick={
+                    stopGeneration
+                  }
+                  aria-label="Stop response"
+                >
+                  ■
+                </button>
+              ) : (
+                <button
+                  type="submit"
+                  disabled={
+                    !query.trim()
+                  }
+                  aria-label="Send inquiry"
+                >
+                  ↑
+                </button>
+              )}
 
             </form>
 
@@ -1680,21 +2233,28 @@ export default function EpistemeDialogue() {
               </span>
 
 
-              <button
-                type="button"
-                onClick={() => {
-                  setSignalPanelOpen(
-                    (
-                      current,
-                    ) =>
-                      !current,
-                  );
-                }}
-              >
-                {signalPanelOpen
-                  ? "Hide Live Signals"
-                  : "Show Live Signals"}
-              </button>
+              <div>
+
+                <span>
+                  Enter to send · Shift + Enter for newline
+                </span>
+
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSignalPanelOpen(
+                      (current) =>
+                        !current,
+                    );
+                  }}
+                >
+                  {signalPanelOpen
+                    ? "Hide Live Signals"
+                    : "Show Live Signals"}
+                </button>
+
+              </div>
 
             </div>
 
@@ -1704,7 +2264,7 @@ export default function EpistemeDialogue() {
 
 
         {/* =================================================
-            X-LIKE LIVE INTELLIGENCE STREAM
+            LIVE SIGNAL STREAM
         ================================================= */}
 
         {signalPanelOpen && (
@@ -1723,13 +2283,30 @@ export default function EpistemeDialogue() {
               </div>
 
 
-              <small>
-                {
-                  loadingSignals
-                    ? "SYNC"
-                    : `${signals.length} INDEXED`
-                }
-              </small>
+              <div className="ep-dialogue__signals-head-actions">
+
+                <small>
+                  {
+                    loadingSignals
+                      ? "SYNC"
+                      : `${signals.length} INDEXED`
+                  }
+                </small>
+
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSignalPanelOpen(
+                      false,
+                    );
+                  }}
+                  aria-label="Close live signals"
+                >
+                  ×
+                </button>
+
+              </div>
 
             </header>
 
@@ -1754,6 +2331,7 @@ export default function EpistemeDialogue() {
                     >
 
                       <header>
+
                         <span>
                           <i />
 
@@ -1762,12 +2340,13 @@ export default function EpistemeDialogue() {
                           }
                         </span>
 
+
                         <small>
-                          {index <
-                          3
+                          {index < 3
                             ? "NOW"
                             : signal.level}
                         </small>
+
                       </header>
 
 
@@ -1814,12 +2393,17 @@ export default function EpistemeDialogue() {
                           <button
                             type="button"
                             onClick={() => {
+                              setSignalPanelOpen(
+                                false,
+                              );
+
                               setMode(
                                 "ask",
                               );
 
-                              setQuery(
+                              submitQuestion(
                                 `Explain why this signal matters: ${signal.title}`,
+                                "ask",
                               );
                             }}
                           >
@@ -1877,13 +2461,11 @@ export default function EpistemeDialogue() {
           isolation: isolate;
 
           width: 100%;
-
           height: 100dvh;
 
           overflow: hidden;
 
-          background:
-            #000;
+          background: #000;
 
           color:
             rgba(
@@ -1912,28 +2494,28 @@ export default function EpistemeDialogue() {
             radial-gradient(
               circle
               at
-              50%
+              44%
               -10%,
               rgba(
-                180,
+                175,
                 220,
-                245,
-                0.07
+                244,
+                0.065
               ),
               transparent
-              36%
+              35%
             ),
 
             radial-gradient(
               circle
               at
               100%
-              50%,
+              52%,
               rgba(
-                110,
-                160,
-                200,
-                0.035
+                100,
+                155,
+                190,
+                0.028
               ),
               transparent
               34%
@@ -1950,7 +2532,7 @@ export default function EpistemeDialogue() {
 
           z-index: -2;
 
-          opacity: 0.12;
+          opacity: 0.095;
 
           pointer-events: none;
 
@@ -1960,7 +2542,7 @@ export default function EpistemeDialogue() {
                 255,
                 255,
                 255,
-                0.025
+                0.02
               )
               1px,
               transparent
@@ -1973,7 +2555,7 @@ export default function EpistemeDialogue() {
                 255,
                 255,
                 255,
-                0.025
+                0.02
               )
               1px,
               transparent
@@ -1986,20 +2568,16 @@ export default function EpistemeDialogue() {
 
           mask-image:
             radial-gradient(
-              ellipse
-              at center,
+              ellipse at center,
               black,
-              transparent
-              90%
+              transparent 90%
             );
 
           -webkit-mask-image:
             radial-gradient(
-              ellipse
-              at center,
+              ellipse at center,
               black,
-              transparent
-              90%
+              transparent 90%
             );
         }
 
@@ -2011,23 +2589,27 @@ export default function EpistemeDialogue() {
         .ep-dialogue__top {
           position: relative;
 
-          z-index: 20;
+          z-index: 300;
 
-          height: 78px;
+          height: 74px;
 
-          display: flex;
+          display: grid;
+
+          grid-template-columns:
+            1fr
+            auto
+            1fr;
 
           align-items: center;
 
-          justify-content:
-            space-between;
+          gap: 20px;
 
           padding:
             0
             clamp(
-              22px,
-              4vw,
-              48px
+              20px,
+              3vw,
+              42px
             );
 
           border-bottom:
@@ -2036,7 +2618,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.055
+              0.052
             );
 
           background:
@@ -2044,24 +2626,27 @@ export default function EpistemeDialogue() {
               0,
               0,
               0,
-              0.35
+              0.4
             );
 
           -webkit-backdrop-filter:
-            blur(24px);
+            blur(28px)
+            saturate(110%);
 
           backdrop-filter:
-            blur(24px);
+            blur(28px)
+            saturate(110%);
         }
 
 
         .ep-dialogue__brand {
           display: flex;
 
-          align-items:
-            baseline;
+          align-items: baseline;
 
-          gap: 12px;
+          gap: 11px;
+
+          min-width: 0;
         }
 
 
@@ -2072,7 +2657,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.28
+              0.24
             );
 
           font-size: 6px;
@@ -2096,7 +2681,7 @@ export default function EpistemeDialogue() {
 
           font-size: 14px;
 
-          font-weight: 460;
+          font-weight: 470;
 
           letter-spacing:
             0.08em;
@@ -2110,7 +2695,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.24
+              0.22
             );
 
           font-size: 6px;
@@ -2120,12 +2705,39 @@ export default function EpistemeDialogue() {
         }
 
 
+        .ep-dialogue__thread-title {
+          max-width: 340px;
+
+          overflow: hidden;
+
+          color:
+            rgba(
+              240,
+              246,
+              249,
+              0.42
+            );
+
+          font-size: 8px;
+
+          line-height: 1.3;
+
+          text-overflow: ellipsis;
+
+          white-space: nowrap;
+
+          text-align: center;
+        }
+
+
         .ep-dialogue__top-actions {
           display: flex;
 
+          justify-content: flex-end;
+
           align-items: center;
 
-          gap: 14px;
+          gap: 13px;
         }
 
 
@@ -2141,7 +2753,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.34
+              0.32
             );
 
           font-size: 6px;
@@ -2175,13 +2787,13 @@ export default function EpistemeDialogue() {
               137,
               240,
               193,
-              0.36
+              0.3
             );
         }
 
 
         .ep-dialogue__new {
-          min-height: 35px;
+          min-height: 34px;
 
           padding:
             0
@@ -2193,18 +2805,17 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.08
+              0.075
             );
 
-          border-radius:
-            999px;
+          border-radius: 999px;
 
           background:
             rgba(
               255,
               255,
               255,
-              0.025
+              0.022
             );
 
           color:
@@ -2212,7 +2823,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.55
+              0.5
             );
 
           font: inherit;
@@ -2220,15 +2831,44 @@ export default function EpistemeDialogue() {
           font-size: 7px;
 
           letter-spacing:
-            0.1em;
+            0.09em;
 
           cursor: pointer;
 
-          -webkit-backdrop-filter:
-            blur(14px);
+          transition:
+            background
+              0.25s ease,
+            border-color
+              0.25s ease,
+            color
+              0.25s ease;
+        }
 
-          backdrop-filter:
-            blur(14px);
+
+        .ep-dialogue__new:hover {
+          border-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.82
+            );
         }
 
 
@@ -2240,7 +2880,7 @@ export default function EpistemeDialogue() {
           height:
             calc(
               100dvh -
-              78px
+              74px
             );
 
           display: grid;
@@ -2262,8 +2902,8 @@ export default function EpistemeDialogue() {
               1fr
             )
             minmax(
-              310px,
-              390px
+              315px,
+              385px
             );
         }
 
@@ -2296,22 +2936,23 @@ export default function EpistemeDialogue() {
           min-height: 0;
 
           overflow-y: auto;
+          overflow-x: hidden;
 
           overscroll-behavior:
             contain;
 
           padding:
             clamp(
-              34px,
-              5vw,
-              70px
+              30px,
+              4vw,
+              58px
             )
             clamp(
               20px,
               6vw,
-              90px
+              84px
             )
-            42px;
+            46px;
 
           scrollbar-width:
             thin;
@@ -2321,7 +2962,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.1
+              0.08
             )
             transparent;
         }
@@ -2350,9 +2991,9 @@ export default function EpistemeDialogue() {
             0 auto;
 
           padding:
-            40px
+            38px
             0
-            80px;
+            76px;
 
           text-align: center;
         }
@@ -2361,10 +3002,10 @@ export default function EpistemeDialogue() {
         .ep-dialogue__welcome-label {
           color:
             rgba(
-              190,
-              223,
-              240,
-              0.48
+              185,
+              220,
+              239,
+              0.46
             );
 
           font-size: 7px;
@@ -2378,7 +3019,7 @@ export default function EpistemeDialogue() {
 
         .ep-dialogue__welcome h1 {
           margin:
-            23px
+            22px
             0
             0;
 
@@ -2387,30 +3028,30 @@ export default function EpistemeDialogue() {
               249,
               251,
               252,
-              0.97
+              0.98
             );
 
           font-size:
             clamp(
-              44px,
+              46px,
               6vw,
-              74px
+              76px
             );
 
-          font-weight: 260;
+          font-weight: 255;
 
-          line-height: 0.97;
+          line-height: 0.96;
 
           letter-spacing:
-            -0.055em;
+            -0.058em;
         }
 
 
         .ep-dialogue__welcome p {
-          max-width: 470px;
+          max-width: 500px;
 
           margin:
-            27px
+            26px
             auto
             0;
 
@@ -2419,12 +3060,56 @@ export default function EpistemeDialogue() {
               220,
               230,
               236,
-              0.45
+              0.44
             );
 
           font-size: 12px;
 
           line-height: 1.75;
+        }
+
+
+        .ep-dialogue__welcome-state {
+          display: flex;
+
+          align-items: center;
+
+          justify-content: center;
+
+          flex-wrap: wrap;
+
+          gap: 9px;
+
+          margin-top: 20px;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
+
+          font-size: 6px;
+
+          letter-spacing:
+            0.1em;
+        }
+
+
+        .ep-dialogue__welcome-state i {
+          width: 3px;
+          height: 3px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
         }
 
 
@@ -2444,7 +3129,7 @@ export default function EpistemeDialogue() {
               )
             );
 
-          gap: 9px;
+          gap: 8px;
 
           width:
             min(
@@ -2453,7 +3138,7 @@ export default function EpistemeDialogue() {
             );
 
           margin:
-            38px
+            34px
             auto
             0;
         }
@@ -2482,18 +3167,26 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.07
+              0.065
             );
 
-          border-radius:
-            17px;
+          border-radius: 17px;
 
           background:
-            rgba(
-              255,
-              255,
-              255,
-              0.018
+            linear-gradient(
+              145deg,
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              ),
+              rgba(
+                255,
+                255,
+                255,
+                0.009
+              )
             );
 
           color:
@@ -2501,14 +3194,14 @@ export default function EpistemeDialogue() {
               235,
               241,
               245,
-              0.55
+              0.5
             );
 
           -webkit-backdrop-filter:
-            blur(16px);
+            blur(18px);
 
           backdrop-filter:
-            blur(16px);
+            blur(18px);
 
           font: inherit;
 
@@ -2522,13 +3215,11 @@ export default function EpistemeDialogue() {
 
           transition:
             border-color
-            0.3s ease,
-
+              0.3s ease,
             background
-            0.3s ease,
-
+              0.3s ease,
             color
-            0.3s ease;
+              0.3s ease;
         }
 
 
@@ -2539,7 +3230,7 @@ export default function EpistemeDialogue() {
               180,
               225,
               245,
-              0.15
+              0.14
             );
 
           background:
@@ -2547,7 +3238,7 @@ export default function EpistemeDialogue() {
               180,
               225,
               245,
-              0.035
+              0.032
             );
 
           color:
@@ -2555,7 +3246,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.82
+              0.8
             );
         }
 
@@ -2567,7 +3258,7 @@ export default function EpistemeDialogue() {
         .ep-message {
           width:
             min(
-              790px,
+              800px,
               100%
             );
 
@@ -2576,7 +3267,7 @@ export default function EpistemeDialogue() {
             auto;
 
           padding:
-            28px
+            30px
             0;
 
           border-bottom:
@@ -2585,7 +3276,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.045
+              0.042
             );
         }
 
@@ -2606,10 +3297,10 @@ export default function EpistemeDialogue() {
         > span {
           color:
             rgba(
-              190,
-              222,
-              239,
-              0.48
+              184,
+              219,
+              238,
+              0.5
             );
 
           font-size: 7px;
@@ -2628,31 +3319,30 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.3
+              0.29
             );
         }
 
 
-        .ep-message header
-        small {
+        .ep-message header small {
           color:
             rgba(
               255,
               255,
               255,
-              0.2
+              0.18
             );
 
           font-size: 6px;
 
           letter-spacing:
-            0.12em;
+            0.11em;
         }
 
 
         .ep-message__body p {
           margin:
-            17px
+            16px
             0
             0;
 
@@ -2661,22 +3351,25 @@ export default function EpistemeDialogue() {
               239,
               244,
               247,
-              0.75
+              0.78
             );
 
           font-size:
             clamp(
               14px,
-              1.6vw,
+              1.45vw,
               17px
             );
 
-          font-weight: 380;
+          font-weight: 370;
 
-          line-height: 1.75;
+          line-height: 1.78;
 
           letter-spacing:
-            -0.01em;
+            -0.008em;
+
+          white-space:
+            pre-wrap;
         }
 
 
@@ -2687,17 +3380,59 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.53
+              0.54
             );
         }
 
 
+        .ep-message__cursor {
+          display: inline-block;
+
+          width: 5px;
+          height: 1em;
+
+          margin-left: 3px;
+
+          vertical-align:
+            -0.13em;
+
+          border-radius:
+            999px;
+
+          background:
+            rgba(
+              205,
+              235,
+              248,
+              0.72
+            );
+
+          animation:
+            epCursor
+            0.9s
+            ease-in-out
+            infinite;
+        }
+
+
+        @keyframes epCursor {
+          0%,
+          100% {
+            opacity: 0.15;
+          }
+
+          50% {
+            opacity: 1;
+          }
+        }
+
+
         /* ==================================================
-           INTELLIGENCE OBJECT
+           INTELLIGENCE
         ================================================== */
 
         .ep-intelligence {
-          margin-top: 25px;
+          margin-top: 26px;
         }
 
 
@@ -2723,7 +3458,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.055
+              0.052
             );
 
           border-radius: 18px;
@@ -2733,13 +3468,12 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.05
+              0.045
             );
         }
 
 
-        .ep-intelligence__grid
-        section {
+        .ep-intelligence__grid section {
           padding: 18px;
 
           background:
@@ -2749,11 +3483,18 @@ export default function EpistemeDialogue() {
               7,
               0.72
             );
+
+          -webkit-backdrop-filter:
+            blur(18px);
+
+          backdrop-filter:
+            blur(18px);
         }
 
 
         .ep-intelligence__grid
         section > span,
+
         .ep-intelligence__label {
           color:
             rgba(
@@ -2788,12 +3529,12 @@ export default function EpistemeDialogue() {
 
           font-size: 9px;
 
-          line-height: 1.7;
+          line-height: 1.72;
         }
 
 
         /* ==================================================
-           ATTACHED SIGNALS
+           RELATED SIGNALS
         ================================================== */
 
         .ep-intelligence__signals {
@@ -2801,7 +3542,38 @@ export default function EpistemeDialogue() {
 
           gap: 8px;
 
-          margin-top: 18px;
+          margin-top: 19px;
+        }
+
+
+        .ep-intelligence__signal-head {
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          gap: 15px;
+
+          margin-bottom: 2px;
+        }
+
+
+        .ep-intelligence__signal-head
+        small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.11em;
         }
 
 
@@ -2810,7 +3582,7 @@ export default function EpistemeDialogue() {
           display: grid;
 
           grid-template-columns:
-            90px
+            88px
             minmax(
               0,
               1fr
@@ -2833,7 +3605,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.055
+              0.052
             );
 
           border-radius: 14px;
@@ -2843,7 +3615,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.015
+              0.012
             );
 
           color: inherit;
@@ -2853,6 +3625,32 @@ export default function EpistemeDialogue() {
           text-align: left;
 
           cursor: pointer;
+
+          transition:
+            background
+              0.25s ease,
+            border-color
+              0.25s ease;
+        }
+
+
+        .ep-intelligence__signals
+        > button:hover {
+          border-color:
+            rgba(
+              190,
+              225,
+              240,
+              0.12
+            );
+
+          background:
+            rgba(
+              190,
+              225,
+              240,
+              0.025
+            );
         }
 
 
@@ -2869,7 +3667,7 @@ export default function EpistemeDialogue() {
           font-size: 5px;
 
           letter-spacing:
-            0.14em;
+            0.13em;
         }
 
 
@@ -2882,7 +3680,7 @@ export default function EpistemeDialogue() {
               245,
               248,
               250,
-              0.66
+              0.68
             );
 
           font-size: 9px;
@@ -2903,7 +3701,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.3
+              0.28
             );
 
           font-size: 6px;
@@ -2915,7 +3713,9 @@ export default function EpistemeDialogue() {
         ================================================== */
 
         .ep-intelligence__followups {
-          margin-top: 16px;
+          margin-top: 20px;
+
+          padding-top: 17px;
 
           border-top:
             1px solid
@@ -2923,8 +3723,16 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.045
+              0.042
             );
+        }
+
+
+        .ep-intelligence__followups
+        > .ep-intelligence__label {
+          display: block;
+
+          margin-bottom: 5px;
         }
 
 
@@ -2940,7 +3748,7 @@ export default function EpistemeDialogue() {
           gap: 15px;
 
           padding:
-            12px
+            11px
             0;
 
           border: 0;
@@ -2951,7 +3759,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.035
+              0.03
             );
 
           background:
@@ -2975,7 +3783,7 @@ export default function EpistemeDialogue() {
 
           transition:
             color
-            0.25s ease;
+              0.2s ease;
         }
 
 
@@ -2986,7 +3794,97 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.78
+              0.8
+            );
+        }
+
+
+        /* ==================================================
+           ANSWER ACTIONS
+        ================================================== */
+
+        .ep-message__actions {
+          display: flex;
+
+          align-items: center;
+
+          flex-wrap: wrap;
+
+          gap: 5px;
+
+          margin-top: 16px;
+        }
+
+
+        .ep-message__actions
+        button {
+          min-height: 28px;
+
+          padding:
+            0
+            9px;
+
+          border:
+            1px solid
+            transparent;
+
+          border-radius:
+            999px;
+
+          background:
+            transparent;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.26
+            );
+
+          font: inherit;
+
+          font-size: 6px;
+
+          letter-spacing:
+            0.07em;
+
+          cursor: pointer;
+
+          transition:
+            color
+              0.2s ease,
+            border-color
+              0.2s ease,
+            background
+              0.2s ease;
+        }
+
+
+        .ep-message__actions
+        button:hover {
+          border-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.68
             );
         }
 
@@ -2998,7 +3896,7 @@ export default function EpistemeDialogue() {
         .ep-dialogue__thinking {
           width:
             min(
-              790px,
+              800px,
               100%
             );
 
@@ -3013,7 +3911,7 @@ export default function EpistemeDialogue() {
             auto;
 
           padding:
-            26px
+            28px
             0;
         }
 
@@ -3064,7 +3962,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.24
+              0.22
             );
 
           font-size: 6px;
@@ -3080,40 +3978,36 @@ export default function EpistemeDialogue() {
             opacity: 0.2;
 
             transform:
-              translateY(
-                0
-              );
+              translateY(0);
           }
 
           50% {
             opacity: 1;
 
             transform:
-              translateY(
-                -3px
-              );
+              translateY(-3px);
           }
         }
 
 
         /* ==================================================
-           COMPOSER AREA
+           COMPOSER SHELL
         ================================================== */
 
         .ep-dialogue__composer-shell {
           position: relative;
 
-          z-index: 30;
+          z-index: 250;
 
           padding:
             10px
             clamp(
               18px,
               6vw,
-              90px
+              84px
             )
             max(
-              18px,
+              17px,
               env(
                 safe-area-inset-bottom
               )
@@ -3126,24 +4020,28 @@ export default function EpistemeDialogue() {
                 0,
                 0,
                 0,
-                0.98
+                0.99
               )
-              52%,
+              50%,
               rgba(
                 0,
                 0,
                 0,
-                0.72
+                0.76
               ),
               transparent
             );
         }
 
 
+        /* ==================================================
+           MODES
+        ================================================== */
+
         .ep-dialogue__modes {
           width:
             min(
-              790px,
+              800px,
               100%
             );
 
@@ -3184,7 +4082,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.055
+              0.05
             );
 
           border-radius:
@@ -3195,7 +4093,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.018
+              0.014
             );
 
           color:
@@ -3203,7 +4101,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.3
+              0.28
             );
 
           font: inherit;
@@ -3213,9 +4111,17 @@ export default function EpistemeDialogue() {
           font-weight: 600;
 
           letter-spacing:
-            0.1em;
+            0.09em;
 
           cursor: pointer;
+
+          transition:
+            background
+              0.22s ease,
+            border-color
+              0.22s ease,
+            color
+              0.22s ease;
         }
 
 
@@ -3226,7 +4132,7 @@ export default function EpistemeDialogue() {
               190,
               225,
               240,
-              0.14
+              0.13
             );
 
           background:
@@ -3234,7 +4140,7 @@ export default function EpistemeDialogue() {
               190,
               225,
               240,
-              0.055
+              0.045
             );
 
           color:
@@ -3242,7 +4148,7 @@ export default function EpistemeDialogue() {
               240,
               247,
               250,
-              0.75
+              0.74
             );
         }
 
@@ -3254,7 +4160,7 @@ export default function EpistemeDialogue() {
         .ep-dialogue__composer {
           width:
             min(
-              790px,
+              800px,
               100%
             );
 
@@ -3267,8 +4173,7 @@ export default function EpistemeDialogue() {
             )
             auto;
 
-          align-items:
-            end;
+          align-items: end;
 
           gap: 10px;
 
@@ -3291,32 +4196,31 @@ export default function EpistemeDialogue() {
               0.09
             );
 
-          border-radius:
-            21px;
+          border-radius: 22px;
 
           background:
             linear-gradient(
               145deg,
               rgba(
-                19,
-                21,
-                24,
-                0.72
+                18,
+                20,
+                23,
+                0.7
               ),
               rgba(
+                4,
                 5,
-                6,
-                8,
-                0.78
+                7,
+                0.8
               )
             );
 
           -webkit-backdrop-filter:
-            blur(26px)
+            blur(28px)
             saturate(115%);
 
           backdrop-filter:
-            blur(26px)
+            blur(28px)
             saturate(115%);
 
           box-shadow:
@@ -3339,14 +4243,66 @@ export default function EpistemeDialogue() {
               0,
               0.3
             );
+
+          transition:
+            border-color
+              0.25s ease,
+            box-shadow
+              0.25s ease;
+        }
+
+
+        .ep-dialogue__composer:focus-within {
+          border-color:
+            rgba(
+              190,
+              225,
+              240,
+              0.17
+            );
+
+          box-shadow:
+            inset
+            0
+            1px
+            0
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            ),
+
+            0
+            18px
+            60px
+            rgba(
+              0,
+              0,
+              0,
+              0.36
+            ),
+
+            0
+            0
+            0
+            4px
+            rgba(
+              185,
+              225,
+              244,
+              0.018
+            );
         }
 
 
         .ep-dialogue__composer
         textarea {
-          width: 100%;
+          display: block;
 
-          max-height: 130px;
+          width: 100%;
+          min-height: 38px;
+          max-height: 150px;
 
           resize: none;
 
@@ -3368,11 +4324,10 @@ export default function EpistemeDialogue() {
               248,
               250,
               252,
-              0.9
+              0.92
             );
 
-          font:
-            inherit;
+          font: inherit;
 
           font-size: 11px;
 
@@ -3394,8 +4349,8 @@ export default function EpistemeDialogue() {
 
         .ep-dialogue__composer
         > button {
-          width: 38px;
-          height: 38px;
+          width: 39px;
+          height: 39px;
 
           display: grid;
 
@@ -3403,15 +4358,14 @@ export default function EpistemeDialogue() {
 
           border: 0;
 
-          border-radius:
-            13px;
+          border-radius: 13px;
 
           background:
             rgba(
-              245,
-              248,
-              250,
-              0.92
+              246,
+              249,
+              251,
+              0.94
             );
 
           color:
@@ -3419,7 +4373,7 @@ export default function EpistemeDialogue() {
               0,
               0,
               0,
-              0.9
+              0.92
             );
 
           font-size: 15px;
@@ -3428,7 +4382,16 @@ export default function EpistemeDialogue() {
 
           transition:
             opacity
-            0.25s ease;
+              0.2s ease,
+            transform
+              0.2s ease;
+        }
+
+
+        .ep-dialogue__composer
+        > button:hover {
+          transform:
+            translateY(-1px);
         }
 
 
@@ -3437,13 +4400,33 @@ export default function EpistemeDialogue() {
           opacity: 0.2;
 
           cursor: default;
+
+          transform: none;
         }
 
+
+        .ep-dialogue__composer
+        > .ep-dialogue__stop {
+          font-size: 9px;
+
+          background:
+            rgba(
+              245,
+              248,
+              250,
+              0.86
+            );
+        }
+
+
+        /* ==================================================
+           COMPOSER META
+        ================================================== */
 
         .ep-dialogue__composer-meta {
           width:
             min(
-              790px,
+              800px,
               100%
             );
 
@@ -3466,19 +4449,31 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.18
+              0.17
             );
 
           font-size: 5px;
 
           letter-spacing:
-            0.08em;
+            0.07em;
+        }
+
+
+        .ep-dialogue__composer-meta
+        > div {
+          display: flex;
+
+          align-items: center;
+
+          gap: 12px;
         }
 
 
         .ep-dialogue__composer-meta
         button {
           border: 0;
+
+          padding: 0;
 
           background:
             transparent;
@@ -3488,7 +4483,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.28
+              0.3
             );
 
           font: inherit;
@@ -3514,7 +4509,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.055
+              0.052
             );
 
           background:
@@ -3526,15 +4521,17 @@ export default function EpistemeDialogue() {
             );
 
           -webkit-backdrop-filter:
-            blur(26px);
+            blur(28px)
+            saturate(110%);
 
           backdrop-filter:
-            blur(26px);
+            blur(28px)
+            saturate(110%);
         }
 
 
         .ep-dialogue__signals-head {
-          height: 86px;
+          height: 84px;
 
           display: flex;
 
@@ -3547,7 +4544,7 @@ export default function EpistemeDialogue() {
 
           padding:
             0
-            20px;
+            19px;
 
           border-bottom:
             1px solid
@@ -3555,13 +4552,13 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.05
+              0.048
             );
         }
 
 
         .ep-dialogue__signals-head
-        > div {
+        > div:first-child {
           display: flex;
 
           flex-direction: column;
@@ -3605,20 +4602,71 @@ export default function EpistemeDialogue() {
         }
 
 
-        .ep-dialogue__signals-head
-        > small {
+        .ep-dialogue__signals-head-actions {
+          display: flex;
+
+          align-items: center;
+
+          gap: 10px;
+        }
+
+
+        .ep-dialogue__signals-head-actions
+        small {
           color:
             rgba(
               255,
               255,
               255,
-              0.22
+              0.2
             );
 
           font-size: 5px;
 
           letter-spacing:
-            0.12em;
+            0.1em;
+        }
+
+
+        .ep-dialogue__signals-head-actions
+        button {
+          display: grid;
+
+          width: 27px;
+          height: 27px;
+
+          place-items: center;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            );
+
+          border-radius: 50%;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.3
+            );
+
+          font: inherit;
+
+          cursor: pointer;
         }
 
 
@@ -3626,7 +4674,7 @@ export default function EpistemeDialogue() {
           height:
             calc(
               100% -
-              86px
+              84px
             );
 
           overflow-y: auto;
@@ -3634,8 +4682,7 @@ export default function EpistemeDialogue() {
           overscroll-behavior:
             contain;
 
-          scrollbar-width:
-            none;
+          scrollbar-width: none;
         }
 
 
@@ -3645,12 +4692,11 @@ export default function EpistemeDialogue() {
 
 
         /* ==================================================
-           SIGNAL / X-LIKE POST
+           SIGNAL
         ================================================== */
 
         .ep-signal {
-          padding:
-            20px;
+          padding: 19px;
 
           border-bottom:
             1px solid
@@ -3658,12 +4704,12 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.045
+              0.042
             );
 
           transition:
             background
-            0.25s ease;
+              0.22s ease;
         }
 
 
@@ -3673,7 +4719,7 @@ export default function EpistemeDialogue() {
               255,
               255,
               255,
-              0.018
+              0.017
             );
         }
 
@@ -3715,8 +4761,7 @@ export default function EpistemeDialogue() {
         }
 
 
-        .ep-signal header
-        i {
+        .ep-signal header i {
           width: 4px;
           height: 4px;
 
@@ -3732,8 +4777,7 @@ export default function EpistemeDialogue() {
         }
 
 
-        .ep-signal header
-        small {
+        .ep-signal header small {
           color:
             rgba(
               255,
@@ -3767,7 +4811,7 @@ export default function EpistemeDialogue() {
 
           font-weight: 430;
 
-          line-height: 1.45;
+          line-height: 1.47;
 
           letter-spacing:
             -0.01em;
@@ -3800,16 +4844,14 @@ export default function EpistemeDialogue() {
           -webkit-box-orient:
             vertical;
 
-          -webkit-line-clamp:
-            3;
+          -webkit-line-clamp: 3;
         }
 
 
         .ep-signal footer {
           display: flex;
 
-          align-items:
-            flex-end;
+          align-items: flex-end;
 
           justify-content:
             space-between;
@@ -3846,6 +4888,7 @@ export default function EpistemeDialogue() {
 
         .ep-signal footer
         a,
+
         .ep-signal footer
         button {
           padding: 0;
@@ -3867,8 +4910,7 @@ export default function EpistemeDialogue() {
 
           font-size: 5px;
 
-          text-decoration:
-            none;
+          text-decoration: none;
 
           cursor: pointer;
         }
@@ -3895,26 +4937,33 @@ export default function EpistemeDialogue() {
                 0,
                 1fr
               )
-              320px;
+              315px;
           }
 
 
           .ep-dialogue__thread {
-            padding-left:
-              30px;
-
-            padding-right:
-              30px;
+            padding-left: 28px;
+            padding-right: 28px;
           }
 
 
           .ep-dialogue__composer-shell {
-            padding-left:
-              30px;
-
-            padding-right:
-              30px;
+            padding-left: 28px;
+            padding-right: 28px;
           }
+
+
+          .ep-dialogue__thread-title {
+            display: none;
+          }
+
+
+          .ep-dialogue__top {
+            grid-template-columns:
+              1fr
+              auto;
+          }
+
         }
 
 
@@ -3927,13 +4976,16 @@ export default function EpistemeDialogue() {
         ) {
 
           .ep-dialogue {
-            height:
-              100dvh;
+            height: 100dvh;
           }
 
 
           .ep-dialogue__top {
             height: 64px;
+
+            grid-template-columns:
+              1fr
+              auto;
 
             padding:
               0
@@ -3943,8 +4995,11 @@ export default function EpistemeDialogue() {
 
           .ep-dialogue__brand
           > span,
+
           .ep-dialogue__brand
-          > small {
+          > small,
+
+          .ep-dialogue__thread-title {
             display: none;
           }
 
@@ -3979,56 +5034,43 @@ export default function EpistemeDialogue() {
 
 
           .ep-dialogue__conversation {
-            height: 100%;
-          }
+            position: relative !important;
 
+            display: grid !important;
 
-          .ep-dialogue__signals {
-            position: absolute;
-
-            inset:
-              64px
-              0
-              0
-              0;
-
-            z-index: 100;
-
-            height:
-              calc(
-                100dvh -
-                64px
-              );
-
-            border-left: 0;
-
-            background:
-              rgba(
+            grid-template-rows:
+              minmax(
                 0,
-                0,
-                0,
-                0.88
-              );
+                1fr
+              )
+              auto !important;
 
-            -webkit-backdrop-filter:
-              blur(30px);
+            width: 100% !important;
+            height: 100% !important;
 
-            backdrop-filter:
-              blur(30px);
+            overflow: hidden !important;
           }
 
 
           .ep-dialogue__thread {
+            min-height: 0 !important;
+
+            overflow-y: auto !important;
+            overflow-x: hidden !important;
+
             padding:
               24px
               17px
-              30px;
+              178px !important;
+
+            -webkit-overflow-scrolling:
+              touch;
           }
 
 
           .ep-dialogue__welcome {
             padding:
-              26px
+              28px
               0
               60px;
           }
@@ -4045,7 +5087,7 @@ export default function EpistemeDialogue() {
 
 
           .ep-dialogue__welcome p {
-            max-width: 300px;
+            max-width: 310px;
 
             font-size: 10px;
           }
@@ -4055,13 +5097,13 @@ export default function EpistemeDialogue() {
             grid-template-columns:
               1fr;
 
-            margin-top: 29px;
+            margin-top: 28px;
           }
 
 
           .ep-dialogue__suggestions
           button {
-            min-height: 52px;
+            min-height: 51px;
           }
 
 
@@ -4100,35 +5142,199 @@ export default function EpistemeDialogue() {
           }
 
 
+          /* ================================================
+             MOBILE COMPOSER — ALWAYS PRESENT
+          ================================================ */
+
           .ep-dialogue__composer-shell {
+            position: absolute !important;
+
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+
+            z-index: 240 !important;
+
+            width: 100% !important;
+
             padding:
-              8px
+              9px
               13px
               max(
-                10px,
+                11px,
                 env(
                   safe-area-inset-bottom
                 )
-              );
+              ) !important;
+
+            background:
+              linear-gradient(
+                to top,
+                rgba(
+                  0,
+                  0,
+                  0,
+                  0.995
+                )
+                58%,
+                rgba(
+                  0,
+                  0,
+                  0,
+                  0.91
+                )
+                76%,
+                rgba(
+                  0,
+                  0,
+                  0,
+                  0.48
+                )
+                90%,
+                transparent
+              ) !important;
+          }
+
+
+          .ep-dialogue__modes {
+            width: 100% !important;
+
+            margin:
+              0
+              0
+              8px !important;
+
+            padding:
+              0
+              2px;
+
+            gap: 6px;
+
+            overflow-x: auto;
+          }
+
+
+          .ep-dialogue__modes
+          button {
+            min-height: 29px;
+
+            padding:
+              0
+              10px;
+
+            font-size: 6px;
           }
 
 
           .ep-dialogue__composer {
-            border-radius: 19px;
+            width: 100% !important;
+
+            min-height: 58px;
+
+            margin: 0 !important;
+
+            padding:
+              8px
+              8px
+              8px
+              16px !important;
+
+            border-radius:
+              20px !important;
+          }
+
+
+          .ep-dialogue__composer
+          textarea {
+            min-height: 38px;
+
+            max-height: 110px;
+
+            padding:
+              9px
+              0;
+
+            font-size: 11px;
+          }
+
+
+          .ep-dialogue__composer
+          > button {
+            width: 40px;
+            height: 40px;
+          }
+
+
+          .ep-dialogue__composer-meta {
+            width: 100% !important;
+
+            margin:
+              7px
+              0
+              0;
+
+            padding:
+              0
+              3px;
           }
 
 
           .ep-dialogue__composer-meta
+          > span,
+
+          .ep-dialogue__composer-meta
+          > div
           > span {
-            max-width: 65%;
+            display: none;
+          }
 
-            overflow: hidden;
 
-            text-overflow:
-              ellipsis;
+          .ep-dialogue__composer-meta
+          > div {
+            width: 100%;
 
-            white-space:
-              nowrap;
+            justify-content:
+              flex-end;
+          }
+
+
+          /* ================================================
+             LIVE SIGNAL MOBILE OVERLAY
+          ================================================ */
+
+          .ep-dialogue__signals {
+            position: fixed !important;
+
+            top: 64px !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            left: 0 !important;
+
+            z-index: 180 !important;
+
+            width: 100% !important;
+            height: auto !important;
+
+            padding-bottom:
+              158px !important;
+
+            border-left: 0;
+
+            background:
+              rgba(
+                0,
+                0,
+                0,
+                0.92
+              ) !important;
+
+            -webkit-backdrop-filter:
+              blur(30px)
+              saturate(110%);
+
+            backdrop-filter:
+              blur(30px)
+              saturate(110%);
           }
 
         }
@@ -4154,6 +5360,12 @@ export default function EpistemeDialogue() {
                 12vw,
                 49px
               );
+          }
+
+
+          .ep-message__actions
+          button {
+            font-size: 5.5px;
           }
 
         }
@@ -4182,329 +5394,6 @@ export default function EpistemeDialogue() {
           }
 
         }
-
-        /* ==========================================================
-   EPISTEME DIALOGUE
-   MOBILE — KEEP ASK ALWAYS VISIBLE
-========================================================== */
-
-@media (max-width: 768px) {
-
-  /*
-   * 会話本体を常に表示
-   */
-  .ep-dialogue__conversation {
-    position: relative !important;
-
-    display: grid !important;
-
-    grid-template-rows:
-      minmax(0, 1fr)
-      auto !important;
-
-    width: 100% !important;
-    height: 100% !important;
-
-    overflow: hidden !important;
-  }
-
-
-  /*
-   * Thread側だけをスクロール
-   * Ask composerは固定領域に残す
-   */
-  .ep-dialogue__thread {
-    min-height: 0 !important;
-
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-
-    padding:
-      24px
-      17px
-      170px !important;
-
-    -webkit-overflow-scrolling: touch;
-  }
-
-
-  /*
-   * ASKエリアを常に画面下部へ表示
-   */
-  .ep-dialogue__composer-shell {
-    position: absolute !important;
-
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-
-    z-index: 220 !important;
-
-    width: 100% !important;
-
-    padding:
-      10px
-      13px
-      max(
-        12px,
-        env(safe-area-inset-bottom)
-      ) !important;
-
-    background:
-      linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.99) 58%,
-        rgba(0, 0, 0, 0.9) 76%,
-        rgba(0, 0, 0, 0.5) 90%,
-        transparent
-      ) !important;
-
-    pointer-events: auto !important;
-  }
-
-
-  /*
-   * モード選択もAskの上に常時表示
-   */
-  .ep-dialogue__modes {
-    display: flex !important;
-
-    width: 100% !important;
-
-    margin:
-      0
-      0
-      8px !important;
-
-    padding:
-      0
-      2px !important;
-
-    gap: 6px !important;
-
-    overflow-x: auto !important;
-
-    scrollbar-width: none;
-  }
-
-  .ep-dialogue__modes::-webkit-scrollbar {
-    display: none;
-  }
-
-
-  .ep-dialogue__modes button {
-    flex: 0 0 auto !important;
-
-    min-height: 29px !important;
-
-    padding:
-      0
-      10px !important;
-
-    font-size:
-      6px !important;
-
-    border-radius:
-      999px !important;
-  }
-
-
-  /*
-   * ChatGPT的なAskバー
-   */
-  .ep-dialogue__composer {
-    position: relative !important;
-
-    z-index: 2 !important;
-
-    width: 100% !important;
-
-    min-height: 58px !important;
-
-    margin:
-      0 !important;
-
-    padding:
-      8px
-      8px
-      8px
-      16px !important;
-
-    border:
-      1px solid
-      rgba(255, 255, 255, 0.11) !important;
-
-    border-radius:
-      20px !important;
-
-    background:
-      linear-gradient(
-        145deg,
-        rgba(22, 24, 28, 0.78),
-        rgba(4, 5, 7, 0.88)
-      ) !important;
-
-    -webkit-backdrop-filter:
-      blur(26px)
-      saturate(115%) !important;
-
-    backdrop-filter:
-      blur(26px)
-      saturate(115%) !important;
-
-    box-shadow:
-      inset
-      0
-      1px
-      0
-      rgba(255, 255, 255, 0.05),
-
-      0
-      18px
-      50px
-      rgba(0, 0, 0, 0.42) !important;
-  }
-
-
-  .ep-dialogue__composer textarea {
-    display: block !important;
-
-    width: 100% !important;
-
-    min-height: 38px !important;
-
-    max-height: 110px !important;
-
-    padding:
-      9px
-      0 !important;
-
-    color:
-      rgba(248, 250, 252, 0.94) !important;
-
-    font-size:
-      11px !important;
-
-    line-height:
-      1.5 !important;
-  }
-
-
-  .ep-dialogue__composer textarea::placeholder {
-    color:
-      rgba(255, 255, 255, 0.3) !important;
-  }
-
-
-  /*
-   * 送信ボタン
-   */
-  .ep-dialogue__composer > button {
-    display: grid !important;
-
-    width: 40px !important;
-    height: 40px !important;
-
-    place-items: center !important;
-
-    border-radius:
-      13px !important;
-
-    opacity: 1;
-
-    visibility: visible !important;
-  }
-
-
-  .ep-dialogue__composer > button:disabled {
-    opacity: 0.24 !important;
-  }
-
-
-  /*
-   * composer下の説明
-   */
-  .ep-dialogue__composer-meta {
-    display: flex !important;
-
-    width: 100% !important;
-
-    margin:
-      7px
-      0
-      0 !important;
-
-    padding:
-      0
-      3px !important;
-  }
-
-
-  /*
-   * LIVE SIGNALSを会話より上に常駐させない
-   */
-  .ep-dialogue__signals {
-    position: fixed !important;
-
-    top: 64px !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    left: 0 !important;
-
-    z-index: 180 !important;
-
-    width: 100% !important;
-    height: auto !important;
-
-    padding-bottom:
-      150px !important;
-
-    background:
-      rgba(0, 0, 0, 0.9) !important;
-
-    -webkit-backdrop-filter:
-      blur(30px)
-      saturate(110%) !important;
-
-    backdrop-filter:
-      blur(30px)
-      saturate(110%) !important;
-  }
-
-
-  /*
-   * Live Signalsを開いていても
-   * Ask欄だけはその上に表示
-   */
-  .ep-dialogue__signals
-  ~ .ep-dialogue__composer-shell,
-  .ep-dialogue__composer-shell {
-    z-index: 220 !important;
-  }
-
-
-  /*
-   * モバイルでは説明テキストより
-   * Ask機能を優先
-   */
-  .ep-dialogue__composer-meta > span {
-    display: none !important;
-  }
-
-
-  .ep-dialogue__composer-meta button {
-    margin-left: auto !important;
-
-    color:
-      rgba(230, 238, 243, 0.4) !important;
-
-    font-size:
-      6px !important;
-
-    letter-spacing:
-      0.08em !important;
-  }
-}
 
       `}</style>
     </section>
