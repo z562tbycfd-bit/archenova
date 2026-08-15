@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T20:24:50.830Z",
+  "updated": "2026-08-15T21:22:45.913Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How healthier farm animals can cut greenhouse gas emissions",
+      "url": "https://phys.org/news/2026-08-healthier-farm-animals-greenhouse-gas.html",
+      "summary": "When a dairy cow miscarries, a farmer loses far more than an unborn calf. Feed has been grown, land and water have been used, and greenhouse gases have been released during the cow's pregnancy, but milk production, a fut…",
+      "ts": 1786826402000,
+      "publishedAt": "2026-08-15T20:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ultrafast core-level spectroscopy reveals elusive precursors of exciton condensation in quantum materials",
@@ -791,14 +799,6 @@
       "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
       "url": "https://arxiv.org/abs/2608.13456",
       "summary": "arXiv:2608.13456v1 Announce Type: new Abstract: World Models (WM) are increasingly seen as a foundation for intelligent agents that can predict, plan, and act beyond their training distribution. In this paper, we study W…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
-      "url": "https://arxiv.org/abs/2608.13476",
-      "summary": "arXiv:2608.13476v1 Announce Type: new Abstract: We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for c…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
