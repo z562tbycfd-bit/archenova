@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-15T11:21:51.738Z",
+  "updated": "2026-08-15T12:40:28.713Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nonrepeating photonic crystal may enable more tunable, reliable semiconductor lasers",
+      "url": "https://phys.org/news/2026-08-nonrepeating-photonic-crystal-enable-tunable.html",
+      "summary": "Over the past two decades, photonic-crystal surface-emitting lasers (PCSELs) have shown promise as a type of advanced semiconductor laser useful in defense- and aerospace-related applications. Typically, these devices ar…",
+      "ts": 1786795205000,
+      "publishedAt": "2026-08-15T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Minnesota iron ore could be key to sustainable and lower cost semiconductor",
+      "url": "https://phys.org/news/2026-08-minnesota-iron-ore-key-sustainable.html",
+      "summary": "For the first time, researchers at the University of Minnesota Twin Cities have demonstrated that the low-purity iron ore prevalent in Minnesota can be used to create semiconductor-quality iron sulfide, also known as \"fo…",
+      "ts": 1786795201000,
+      "publishedAt": "2026-08-15T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Four more belugas arrive at Chicago aquarium from shuttered Canadian theme park",
+      "url": "https://phys.org/news/2026-08-belugas-chicago-aquarium-shuttered-canadian.html",
+      "summary": "Four more belugas have arrived at a Chicago aquarium as part of a plan to move Canada's last remaining captive whales from a shuttered theme park to aquariums in the United States and Spain.",
+      "ts": 1786794002000,
+      "publishedAt": "2026-08-15T11:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Shackled men in 2,600-year-old Greek mass graves were likely locals, archaeologists find",
@@ -775,30 +799,6 @@
       "title": "Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance",
       "url": "https://arxiv.org/abs/2608.12323",
       "summary": "arXiv:2608.12323v1 Announce Type: cross Abstract: Specifying a penalty can paradoxically convert a legal obligation into a cost-benefit calculation that favors violation. We demonstrate that this enforcement information …",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When AI Is Your Pastor: A Benchmark for Theological Triage and Pastoral Guidance in Large Language Models",
-      "url": "https://arxiv.org/abs/2608.12324",
-      "summary": "arXiv:2608.12324v1 Announce Type: cross Abstract: People increasingly ask large language models (LLMs) for counsel on questions of faith, doctrine, and pastoral care. These questions are not ordinary information requests…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Comparative Analysis of Multilingual Pre-trained Models for Nepali Automatic Speech Recognition",
-      "url": "https://arxiv.org/abs/2608.12327",
-      "summary": "arXiv:2608.12327v1 Announce Type: cross Abstract: Multilingual pretrained models nominally support Nepali, yet no controlled benchmark has compared them under a single fine-tuning protocol. We fine-tune six pretrained mo…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AnchorSIPS: A Synthetic Dataset and Evaluation Resource for Evidence-Supported Psychosis-Risk Symptom Measurement",
-      "url": "https://arxiv.org/abs/2608.12329",
-      "summary": "arXiv:2608.12329v1 Announce Type: cross Abstract: Progress on AI for psychosis-risk assessment is limited by a data-access bottleneck. Real clinical interviews are difficult to share because of privacy, governance, and c…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
