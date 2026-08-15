@@ -814,11 +814,12 @@ export default function EpistemeDialogue() {
 
 
   const [
-    signalPanelOpen,
-    setSignalPanelOpen,
-  ] =
-    useState(true);
-
+  signalPanelOpen,
+  setSignalPanelOpen,
+] =
+  useState(
+    false,
+  );
 
   const [
     hydrated,
@@ -848,6 +849,49 @@ export default function EpistemeDialogue() {
       > |
       null
     >(null);
+
+    /* ========================================================
+   RESPONSIVE SIGNAL PANEL DEFAULT
+
+   Desktop:
+   Bloomberg-style intelligence panel visible.
+
+   Mobile:
+   Conversation is primary.
+   Live Signals remain available on demand.
+======================================================== */
+
+useEffect(() => {
+  const media =
+    window.matchMedia(
+      "(min-width: 769px)",
+    );
+
+
+  const syncSignalPanel =
+    () => {
+      setSignalPanelOpen(
+        media.matches,
+      );
+    };
+
+
+  syncSignalPanel();
+
+
+  media.addEventListener(
+    "change",
+    syncSignalPanel,
+  );
+
+
+  return () => {
+    media.removeEventListener(
+      "change",
+      syncSignalPanel,
+    );
+  };
+}, []);
 
 
   /* ========================================================
@@ -5298,46 +5342,173 @@ export default function EpistemeDialogue() {
           }
 
 
-          /* ================================================
-             LIVE SIGNAL MOBILE OVERLAY
-          ================================================ */
+          /* ==========================================================
+   MOBILE LIVE SIGNALS
+   SECONDARY INTELLIGENCE DRAWER
+========================================================== */
 
-          .ep-dialogue__signals {
-            position: fixed !important;
+@media (
+  max-width: 768px
+) {
 
-            top: 64px !important;
-            right: 0 !important;
-            bottom: 0 !important;
-            left: 0 !important;
+  .ep-dialogue__signals {
+    position: fixed !important;
 
-            z-index: 180 !important;
+    top: auto !important;
+    right: 10px !important;
+    bottom:
+      calc(
+        138px +
+        env(
+          safe-area-inset-bottom
+        )
+      ) !important;
+    left: 10px !important;
 
-            width: 100% !important;
-            height: auto !important;
+    z-index: 210 !important;
 
-            padding-bottom:
-              158px !important;
+    width: auto !important;
 
-            border-left: 0;
+    height:
+      min(
+        62dvh,
+        620px
+      ) !important;
 
-            background:
-              rgba(
-                0,
-                0,
-                0,
-                0.92
-              ) !important;
+    max-height:
+      calc(
+        100dvh -
+        220px
+      ) !important;
 
-            -webkit-backdrop-filter:
-              blur(30px)
-              saturate(110%);
+    padding-bottom:
+      0 !important;
 
-            backdrop-filter:
-              blur(30px)
-              saturate(110%);
-          }
+    overflow: hidden !important;
 
-        }
+    border:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.085
+      ) !important;
+
+    border-radius:
+      26px !important;
+
+    background:
+      linear-gradient(
+        160deg,
+        rgba(
+          16,
+          18,
+          21,
+          0.94
+        ),
+        rgba(
+          2,
+          3,
+          5,
+          0.97
+        )
+      ) !important;
+
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.05
+      ),
+
+      0
+      28px
+      90px
+      rgba(
+        0,
+        0,
+        0,
+        0.65
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(34px)
+      saturate(115%) !important;
+
+    backdrop-filter:
+      blur(34px)
+      saturate(115%) !important;
+
+    animation:
+      epMobileSignalsEnter
+      0.38s
+      cubic-bezier(
+        0.22,
+        1,
+        0.36,
+        1
+      );
+  }
+
+
+  .ep-dialogue__signals-head {
+    height:
+      72px !important;
+
+    padding:
+      0
+      18px !important;
+  }
+
+
+  .ep-dialogue__signal-feed {
+    height:
+      calc(
+        100% -
+        72px
+      ) !important;
+  }
+
+
+  .ep-signal {
+    padding:
+      18px !important;
+  }
+
+
+  @keyframes epMobileSignalsEnter {
+    from {
+      opacity: 0;
+
+      transform:
+        translateY(
+          24px
+        )
+        scale(
+          0.985
+        );
+    }
+
+    to {
+      opacity: 1;
+
+      transform:
+        translateY(
+          0
+        )
+        scale(
+          1
+        );
+    }
+  }
+
+}
 
 
         /* ==================================================
@@ -5394,6 +5565,556 @@ export default function EpistemeDialogue() {
           }
 
         }
+
+        /* ==========================================================
+   EPISTEME MOBILE
+   CHAT-FIRST EXPERIENCE
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+
+  /* --------------------------------------------------------
+     CONVERSATION
+  -------------------------------------------------------- */
+
+  .ep-dialogue__thread {
+    padding:
+      20px
+      18px
+      160px !important;
+  }
+
+
+  /* --------------------------------------------------------
+     WELCOME
+  -------------------------------------------------------- */
+
+  .ep-dialogue__welcome {
+    min-height:
+      calc(
+        100dvh -
+        210px
+      ) !important;
+
+    justify-content:
+      center !important;
+
+    padding:
+      34px
+      0
+      72px !important;
+  }
+
+
+  .ep-dialogue__welcome-label {
+    font-size:
+      6px !important;
+
+    letter-spacing:
+      0.24em !important;
+  }
+
+
+  .ep-dialogue__welcome h1 {
+    max-width:
+      370px;
+
+    margin:
+      20px
+      auto
+      0 !important;
+
+    font-size:
+      clamp(
+        38px,
+        11vw,
+        52px
+      ) !important;
+
+    line-height:
+      0.98 !important;
+
+    letter-spacing:
+      -0.052em !important;
+  }
+
+
+  .ep-dialogue__welcome p {
+    max-width:
+      310px !important;
+
+    margin-top:
+      22px !important;
+
+    color:
+      rgba(
+        225,
+        233,
+        238,
+        0.4
+      ) !important;
+
+    font-size:
+      10px !important;
+
+    line-height:
+      1.7 !important;
+  }
+
+
+  /* --------------------------------------------------------
+     SUGGESTIONS
+
+     ChatGPT-like lightweight prompts instead of cards.
+  -------------------------------------------------------- */
+
+  .ep-dialogue__suggestions {
+    display: flex !important;
+
+    width: 100% !important;
+
+    margin-top:
+      30px !important;
+
+    gap:
+      7px !important;
+
+    overflow-x:
+      auto !important;
+
+    scroll-snap-type:
+      x
+      proximity;
+
+    scrollbar-width:
+      none;
+  }
+
+
+  .ep-dialogue__suggestions::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .ep-dialogue__suggestions
+  button {
+    flex:
+      0
+      0
+      auto !important;
+
+    width:
+      min(
+        270px,
+        78vw
+      ) !important;
+
+    min-height:
+      46px !important;
+
+    padding:
+      11px
+      14px !important;
+
+    border-radius:
+      15px !important;
+
+    scroll-snap-align:
+      start;
+
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.015
+      ) !important;
+
+    font-size:
+      8px !important;
+  }
+
+
+  /* --------------------------------------------------------
+     MESSAGES
+  -------------------------------------------------------- */
+
+  .ep-message {
+    width:
+      100% !important;
+
+    padding:
+      24px
+      0 !important;
+  }
+
+
+  .ep-message header {
+    justify-content:
+      flex-start !important;
+
+    gap:
+      12px !important;
+  }
+
+
+  .ep-message header
+  small {
+    margin-left:
+      auto;
+  }
+
+
+  .ep-message__body p {
+    margin-top:
+      14px !important;
+
+    font-size:
+      14px !important;
+
+    line-height:
+      1.72 !important;
+  }
+
+
+  /*
+   * User turn is visually quiet.
+   * Episteme remains the primary reading surface.
+   */
+
+  .ep-message--user {
+    padding-left:
+      14px !important;
+
+    border-left:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.12
+      );
+  }
+
+
+  .ep-message--user
+  .ep-message__body p {
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.56
+      ) !important;
+  }
+
+
+  .ep-message--episteme
+  .ep-message__body p {
+    color:
+      rgba(
+        244,
+        247,
+        249,
+        0.86
+      ) !important;
+  }
+
+
+  /* --------------------------------------------------------
+     STRUCTURED INTELLIGENCE
+  -------------------------------------------------------- */
+
+  .ep-intelligence {
+    margin-top:
+      22px !important;
+  }
+
+
+  .ep-intelligence__grid {
+    border-radius:
+      17px !important;
+  }
+
+
+  .ep-intelligence__grid
+  section {
+    padding:
+      16px !important;
+  }
+
+
+  /* --------------------------------------------------------
+     MODES
+
+     Make them secondary to the text field.
+  -------------------------------------------------------- */
+
+  .ep-dialogue__modes {
+    order:
+      2;
+
+    width:
+      100% !important;
+
+    margin:
+      8px
+      0
+      0 !important;
+
+    padding:
+      0
+      3px !important;
+
+    gap:
+      4px !important;
+  }
+
+
+  .ep-dialogue__modes
+  button {
+    min-height:
+      25px !important;
+
+    padding:
+      0
+      8px !important;
+
+    border-color:
+      transparent !important;
+
+    background:
+      transparent !important;
+
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.25
+      ) !important;
+
+    font-size:
+      5.5px !important;
+  }
+
+
+  .ep-dialogue__modes
+  button.is-active {
+    border-color:
+      rgba(
+        255,
+        255,
+        255,
+        0.06
+      ) !important;
+
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.035
+      ) !important;
+
+    color:
+      rgba(
+        245,
+        249,
+        251,
+        0.72
+      ) !important;
+  }
+
+
+  /* --------------------------------------------------------
+     COMPOSER SHELL
+  -------------------------------------------------------- */
+
+  .ep-dialogue__composer-shell {
+    display:
+      flex !important;
+
+    flex-direction:
+      column !important;
+
+    padding:
+      10px
+      12px
+      max(
+        10px,
+        env(
+          safe-area-inset-bottom
+        )
+      ) !important;
+  }
+
+
+  /* --------------------------------------------------------
+     MAIN CHATGPT-LIKE INPUT
+  -------------------------------------------------------- */
+
+  .ep-dialogue__composer {
+    order:
+      1;
+
+    min-height:
+      62px !important;
+
+    padding:
+      9px
+      9px
+      9px
+      17px !important;
+
+    border-radius:
+      24px !important;
+
+    border:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.11
+      ) !important;
+
+    background:
+      linear-gradient(
+        145deg,
+        rgba(
+          22,
+          24,
+          28,
+          0.86
+        ),
+        rgba(
+          5,
+          6,
+          8,
+          0.92
+        )
+      ) !important;
+
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.055
+      ),
+
+      0
+      18px
+      60px
+      rgba(
+        0,
+        0,
+        0,
+        0.46
+      ) !important;
+  }
+
+
+  .ep-dialogue__composer
+  textarea {
+    min-height:
+      41px !important;
+
+    padding:
+      10px
+      0 !important;
+
+    font-size:
+      12px !important;
+
+    line-height:
+      1.5 !important;
+  }
+
+
+  .ep-dialogue__composer
+  > button {
+    width:
+      42px !important;
+
+    height:
+      42px !important;
+
+    align-self:
+      end;
+
+    border-radius:
+      14px !important;
+  }
+
+
+  /* --------------------------------------------------------
+     META
+  -------------------------------------------------------- */
+
+  .ep-dialogue__composer-meta {
+    order:
+      3;
+
+    width:
+      100% !important;
+
+    min-height:
+      20px;
+
+    margin:
+      5px
+      0
+      0 !important;
+  }
+
+
+  .ep-dialogue__composer-meta
+  > span,
+
+  .ep-dialogue__composer-meta
+  > div
+  > span {
+    display:
+      none !important;
+  }
+
+
+  .ep-dialogue__composer-meta
+  > div {
+    width:
+      100%;
+
+    justify-content:
+      flex-end !important;
+  }
+
+
+  .ep-dialogue__composer-meta
+  button {
+    color:
+      rgba(
+        215,
+        226,
+        233,
+        0.31
+      ) !important;
+
+    font-size:
+      5.5px !important;
+
+    letter-spacing:
+      0.08em;
+  }
+
+}
 
       `}</style>
     </section>
