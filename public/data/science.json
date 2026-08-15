@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T13:31:47.896Z",
+  "updated": "2026-08-15T14:24:19.786Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "One-off campus programs fall short on preventing sexual violence, review finds",
+      "url": "https://phys.org/news/2026-08-campus-fall-short-sexual-violence.html",
+      "summary": "A recent National Student Safety Survey found that one in six students attending Australian universities had been sexually harassed and one in 20 had been sexually assaulted since starting university.",
+      "ts": 1786802402000,
+      "publishedAt": "2026-08-15T14:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tungsten may suffer more radiation damage in fusion reactors than expected",
@@ -791,14 +799,6 @@
       "title": "LLMs Know the Constraint But Do Not Use It: Activation Bottlenecks in Pragmatic Constraint Reasoning",
       "url": "https://arxiv.org/abs/2608.12321",
       "summary": "arXiv:2608.12321v1 Announce Type: cross Abstract: When a salient surface cue competes with an implicit feasibility constraint, LLMs often fail -- but aggregate accuracy conflates genuine constraint inference with conserv…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "What Drives LLM Self-Reflection? A Controlled Ablation of Uncertainty Routing in Armed Conflict Forecasting",
-      "url": "https://arxiv.org/abs/2608.12322",
-      "summary": "arXiv:2608.12322v1 Announce Type: cross Abstract: Self-reflection is widely assumed to improve LLM reasoning, yet which component drives the gain remains poorly understood. We present a controlled six-condition ablation …",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
