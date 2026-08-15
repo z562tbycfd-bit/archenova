@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-15T02:53:27.785Z",
+  "updated": "2026-08-15T03:41:02.852Z",
   "items": [
     {
       "source": "Phys.org",
@@ -411,6 +411,22 @@
       "publishedAt": "2026-08-14T10:40:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
+      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
+      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
+      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
+      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
+      "ts": 1786701600000,
+      "publishedAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Quantum Non-Markovian Hatano-Nelson Model",
       "url": "http://link.aps.org/doi/10.1103/wsvz-mstf",
@@ -516,25 +532,9 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Efficient single-atom transfer from an optical conveyor belt to a tightly confined optical tweezer",
-      "url": "http://link.aps.org/doi/10.1103/wccv-wpqh",
-      "summary": "Author(s): Lei Xu, Ling-Xiao Wang, Guang-Jie Chen, Zhu-Bo Wang, Xin-Biao Xu, Guang-Can Guo, Chang-Ling Zou, and Guo-Yong Xiang Efficient loading of single atoms into tightly confined traps is crucial for advancing quantu…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Grazing-incidence resonant elastic x-ray scattering of skyrmion lattices in bulk MnSi",
       "url": "http://link.aps.org/doi/10.1103/1788-7m8w",
       "summary": "Author(s): Jingyi Chen, Andreas Bauer, Christian Pfleiderer, Gerrit van der Laan, Thorsten Hesjedal, and Shilei Zhang Magnetic skyrmions are spin textures with nontrivial topology that form two-dimensional hexagonal latt…",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast and sensitive readout of a semiconductor quantum dot using an <i>in situ</i> microwave resonator with enhanced gate lever arm",
-      "url": "http://link.aps.org/doi/10.1103/rmgr-vjms",
-      "summary": "Author(s): Tim J. Wilson and Hong-Wen Jiang Quantum dot–based spin qubits require ultrafast, high-fidelity charge readout for quantum error correction and real-time feedback. Improving readout sensitivity has often requi…",
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z"
     },
