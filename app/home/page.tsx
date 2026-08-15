@@ -6,7 +6,6 @@ import GalaxyAtlas from "../components/civilization/GalaxyAtlas";
 import CivilizationLibrary from "../components/CivilizationLibrary";
 import CivilizationIntelligencePortal from "../components/CivilizationIntelligencePortal";
 import CivilizationExperiencePortal from "../components/CivilizationExperiencePortal";
-import HeroCinematic from "../components/HeroCinematic";
 import TodaysInquiryPortal
   from "../components/TodaysInquiryPortal";
 
@@ -20,6 +19,17 @@ export default function Home() {
       <HomeSectionPager />
 
       {/* =========================
+          CIVILIZATION ARCHITECTURE
+      ========================= */}
+      <section
+        id="galaxy-atlas"
+        data-home-section
+        className="home-page twin-page civ-intel-portal-page"
+      >
+        <GalaxyAtlas />
+      </section>
+
+      {/* =========================
     TODAY'S INQUIRY
 ========================= */}
 
@@ -30,28 +40,6 @@ export default function Home() {
 >
   <TodaysInquiryPortal />
 </section>
-
-    {/* =========================
-    PAGE 00 : HERO
-========================= */}
-<section
-  id="home-hero"
-  data-home-section
-  className="home-page twin-page twin-hero-page an-hero-upgraded an-hero-cinematic"
->
-  <HeroCinematic />
-</section>
-
-      {/* =========================
-          CIVILIZATION ARCHITECTURE
-      ========================= */}
-      <section
-        id="galaxy-atlas"
-        data-home-section
-        className="home-page twin-page civ-intel-portal-page"
-      >
-        <GalaxyAtlas />
-      </section>
 
       {/* =========================
           CIVILIZATION INTELLIGENCE

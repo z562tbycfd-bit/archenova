@@ -14,20 +14,14 @@ export default function HeroCinematic() {
   ] = useState(false);
 
   return (
-    <section
-      id="home-hero"
-      data-home-section
-      className={[
-        "home-page",
-        "twin-page",
-        "twin-hero-page",
-        "an-hero-upgraded",
-        "an-hero-cinematic",
-        filmEnded
-          ? "is-film-ended"
-          : "is-film-playing",
-      ].join(" ")}
-    >
+  <div
+    className={[
+      "an-hero-cinematic",
+      filmEnded
+        ? "is-film-ended"
+        : "is-film-playing",
+    ].join(" ")}
+  >
       {/* ==================================================
           CINEMATIC OPENING
           1回だけ最後まで再生
@@ -160,6 +154,6 @@ export default function HeroCinematic() {
           <OriginStoryInline />
         </Reveal>
       </div>
-    </section>
+    </div>
   );
 }
