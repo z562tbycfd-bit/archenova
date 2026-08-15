@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Reveal from "../components/Reveal";
+import EpistemeDialoguePortal
+  from "../components/EpistemeDialoguePortal";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import GalaxyAtlas from "../components/civilization/GalaxyAtlas";
@@ -39,6 +41,18 @@ export default function Home() {
   className="todays-inquiry-page"
 >
   <TodaysInquiryPortal />
+</section>
+
+{/* =========================
+    EPISTEME DIALOGUE
+========================= */}
+
+<section
+  id="episteme-dialogue"
+  data-home-section
+  className="home-page twin-page episteme-dialogue-page"
+>
+  <EpistemeDialoguePortal />
 </section>
 
       {/* =========================

@@ -31,6 +31,13 @@ const CHAPTER_TARGETS: ChapterTarget[] = [
   },
 
   {
+  id: "episteme-dialogue",
+  mark: "☻",
+  title: "DIALOGUE",
+  subtitle: "Episteme",
+},
+
+  {
     id: "civilization-intelligence",
     mark: "⚛︎",
     title: "INTELLIGENCE",

@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-13T00:05:27.623Z",
+  "generatedAt": "2026-08-15T09:24:01.700Z",
   "current": {
-    "date": "2026-08-13",
-    "id": "pentagon-missile-buildup-changing-the-factory-floor",
+    "date": "2026-08-15",
+    "id": "warned-but-not-protected-four-in-ten-adults-in-england-ignore-heat-alerts",
     "experienceVersion": "4D-1",
-    "title": "Pentagon missile buildup changing the factory floor",
-    "experienceTitle": "Pentagon missile buildup changing the factory floor",
+    "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
+    "experienceTitle": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
     "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
     "source": {
-      "title": "Pentagon missile buildup changing the factory floor",
-      "organization": "SpaceNews",
-      "url": "https://spacenews.com/pentagon-missile-buildup-changing-the-factory-floor/",
-      "publishedAt": "2026-08-12T23:00:00.000Z",
-      "updatedAt": "2026-08-13T00:05:27.615Z"
+      "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
+      "organization": "United Nations News",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168149",
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "updatedAt": "2026-08-15T09:24:01.693Z"
     },
     "classification": {
-      "category": "ENGINEERING",
-      "signalCategory": "Reality Discovery",
-      "currentStage": "Scaling / Infrastructure",
-      "expectedHorizon": "0–3 Years"
+      "category": "GOVERNANCE",
+      "signalCategory": "Adaptive Capacity",
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "5–15 Years"
     },
     "reality": {
-      "statement": "Startups are bringing software, robotics and manufacturing methods developed around commercial space into a defense industry under pressure to produce weapons faster The post Pentagon missile buildup changing the factory…"
+      "statement": "As amber heat-health alerts spread across England this summer, a new study has found that the warnings are being received – but not changing behaviour."
     },
     "theory": {
-      "statement": "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems.",
+      "statement": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
       "mechanism": [
-        "Reality Discovery",
-        "Space Systems",
-        "Manufacturing",
-        "Security and Risk",
-        "observation"
+        "Adaptive Capacity",
+        "Health Systems",
+        "Climate and Environment",
+        "observation",
+        "understanding"
       ]
     },
     "hypothesisSpace": [
@@ -38,7 +38,7 @@
         "id": "primary",
         "label": "PRIMARY EXPLANATION",
         "title": "Current Causal Interpretation",
-        "statement": "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems."
+        "statement": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity."
       },
       {
         "id": "alternative",
@@ -57,7 +57,7 @@
       {
         "id": "expected",
         "label": "EXPECTED EFFECT",
-        "statement": "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems."
+        "statement": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions."
       },
       {
         "id": "null",
@@ -71,56 +71,55 @@
       }
     ],
     "prediction": {
-      "statement": "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems."
+      "statement": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions."
     },
     "evidence": {
-      "statement": "Startups are bringing software, robotics and manufacturing methods developed around commercial space into a defense industry under pressure to produce weapons faster The post Pentagon missile buildup changing the factory…",
-      "strength": "Strong",
-      "confidence": 81
+      "statement": "As amber heat-health alerts spread across England this summer, a new study has found that the warnings are being received – but not changing behaviour.",
+      "strength": "Moderate",
+      "confidence": 88
     },
     "falsification": {
-      "statement": "The capability appears to have entered deployment or operational use. The principal uncertainty concerns scale, durability, cost, institutional adoption, and long-term system effects.",
-      "failureCondition": "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems."
+      "statement": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "failureCondition": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions."
     },
     "engineeringReach": {
       "validated": [
-        "May strengthen advanced manufacturing, automation, materials processing, or production reliability."
+        "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities."
       ],
       "plausible": [
-        "Could influence industrial supply chains, infrastructure investment, and strategic production capacity.",
-        "May change how scientific knowledge is converted into repeatable material capability."
+        "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
+        "May influence healthspan, adaptive capacity, and the continuity of human capability."
       ],
       "speculative": []
     },
-    "civilizationMeaning": "Strategically relevant for industrial capability, robotics, materials processing, supply-chain resilience, production automation, and infrastructure formation.",
-    "uncertainty": "The capability appears to have entered deployment or operational use. The principal uncertainty concerns scale, durability, cost, institutional adoption, and long-term system effects.",
-    "watchpoint": "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
-    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-08-13.",
+    "civilizationMeaning": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-08-15.",
     "selection": {
-      "finalScore": 62.2,
-      "repetitionPenalty": 14,
+      "finalScore": 59.2,
+      "repetitionPenalty": 14.7,
       "criteria": {
-        "scientificSignificance": 73,
-        "empiricalStrength": 80,
-        "falsifiability": 77,
-        "engineeringReach": 70.5,
-        "civilizationImpact": 63,
+        "scientificSignificance": 61.5,
+        "empiricalStrength": 73.5,
+        "falsifiability": 79.3,
+        "engineeringReach": 55,
+        "civilizationImpact": 72,
         "explanatoryValue": 80,
         "theoryEvidenceCoupling": 80,
         "fundamentalPrincipleValue": 80,
-        "crossDomainReach": 84,
-        "experienceSuitability": 85
+        "crossDomainReach": 78,
+        "experienceSuitability": 95
       }
     },
     "topicFingerprint": [
-      "engineering",
-      "reality discovery",
-      "space systems",
-      "manufacturing",
-      "security and risk",
+      "governance",
+      "adaptive capacity",
+      "health systems",
+      "climate and environment",
+      "science",
       "technology",
-      "capital",
-      "education & knowledge"
+      "law & governance"
     ]
   },
   "history": [
@@ -147,6 +146,21 @@
         "technology",
         "capital",
         "law & governance"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "pentagon-missile-buildup-changing-the-factory-floor",
+      "title": "Pentagon missile buildup changing the factory floor",
+      "topicFingerprint": [
+        "engineering",
+        "reality discovery",
+        "space systems",
+        "manufacturing",
+        "security and risk",
+        "technology",
+        "capital",
+        "education & knowledge"
       ]
     }
   ]
