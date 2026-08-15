@@ -4183,6 +4183,329 @@ export default function EpistemeDialogue() {
 
         }
 
+        /* ==========================================================
+   EPISTEME DIALOGUE
+   MOBILE — KEEP ASK ALWAYS VISIBLE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * 会話本体を常に表示
+   */
+  .ep-dialogue__conversation {
+    position: relative !important;
+
+    display: grid !important;
+
+    grid-template-rows:
+      minmax(0, 1fr)
+      auto !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /*
+   * Thread側だけをスクロール
+   * Ask composerは固定領域に残す
+   */
+  .ep-dialogue__thread {
+    min-height: 0 !important;
+
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+    padding:
+      24px
+      17px
+      170px !important;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  /*
+   * ASKエリアを常に画面下部へ表示
+   */
+  .ep-dialogue__composer-shell {
+    position: absolute !important;
+
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+
+    z-index: 220 !important;
+
+    width: 100% !important;
+
+    padding:
+      10px
+      13px
+      max(
+        12px,
+        env(safe-area-inset-bottom)
+      ) !important;
+
+    background:
+      linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.99) 58%,
+        rgba(0, 0, 0, 0.9) 76%,
+        rgba(0, 0, 0, 0.5) 90%,
+        transparent
+      ) !important;
+
+    pointer-events: auto !important;
+  }
+
+
+  /*
+   * モード選択もAskの上に常時表示
+   */
+  .ep-dialogue__modes {
+    display: flex !important;
+
+    width: 100% !important;
+
+    margin:
+      0
+      0
+      8px !important;
+
+    padding:
+      0
+      2px !important;
+
+    gap: 6px !important;
+
+    overflow-x: auto !important;
+
+    scrollbar-width: none;
+  }
+
+  .ep-dialogue__modes::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .ep-dialogue__modes button {
+    flex: 0 0 auto !important;
+
+    min-height: 29px !important;
+
+    padding:
+      0
+      10px !important;
+
+    font-size:
+      6px !important;
+
+    border-radius:
+      999px !important;
+  }
+
+
+  /*
+   * ChatGPT的なAskバー
+   */
+  .ep-dialogue__composer {
+    position: relative !important;
+
+    z-index: 2 !important;
+
+    width: 100% !important;
+
+    min-height: 58px !important;
+
+    margin:
+      0 !important;
+
+    padding:
+      8px
+      8px
+      8px
+      16px !important;
+
+    border:
+      1px solid
+      rgba(255, 255, 255, 0.11) !important;
+
+    border-radius:
+      20px !important;
+
+    background:
+      linear-gradient(
+        145deg,
+        rgba(22, 24, 28, 0.78),
+        rgba(4, 5, 7, 0.88)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(26px)
+      saturate(115%) !important;
+
+    backdrop-filter:
+      blur(26px)
+      saturate(115%) !important;
+
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.05),
+
+      0
+      18px
+      50px
+      rgba(0, 0, 0, 0.42) !important;
+  }
+
+
+  .ep-dialogue__composer textarea {
+    display: block !important;
+
+    width: 100% !important;
+
+    min-height: 38px !important;
+
+    max-height: 110px !important;
+
+    padding:
+      9px
+      0 !important;
+
+    color:
+      rgba(248, 250, 252, 0.94) !important;
+
+    font-size:
+      11px !important;
+
+    line-height:
+      1.5 !important;
+  }
+
+
+  .ep-dialogue__composer textarea::placeholder {
+    color:
+      rgba(255, 255, 255, 0.3) !important;
+  }
+
+
+  /*
+   * 送信ボタン
+   */
+  .ep-dialogue__composer > button {
+    display: grid !important;
+
+    width: 40px !important;
+    height: 40px !important;
+
+    place-items: center !important;
+
+    border-radius:
+      13px !important;
+
+    opacity: 1;
+
+    visibility: visible !important;
+  }
+
+
+  .ep-dialogue__composer > button:disabled {
+    opacity: 0.24 !important;
+  }
+
+
+  /*
+   * composer下の説明
+   */
+  .ep-dialogue__composer-meta {
+    display: flex !important;
+
+    width: 100% !important;
+
+    margin:
+      7px
+      0
+      0 !important;
+
+    padding:
+      0
+      3px !important;
+  }
+
+
+  /*
+   * LIVE SIGNALSを会話より上に常駐させない
+   */
+  .ep-dialogue__signals {
+    position: fixed !important;
+
+    top: 64px !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+
+    z-index: 180 !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    padding-bottom:
+      150px !important;
+
+    background:
+      rgba(0, 0, 0, 0.9) !important;
+
+    -webkit-backdrop-filter:
+      blur(30px)
+      saturate(110%) !important;
+
+    backdrop-filter:
+      blur(30px)
+      saturate(110%) !important;
+  }
+
+
+  /*
+   * Live Signalsを開いていても
+   * Ask欄だけはその上に表示
+   */
+  .ep-dialogue__signals
+  ~ .ep-dialogue__composer-shell,
+  .ep-dialogue__composer-shell {
+    z-index: 220 !important;
+  }
+
+
+  /*
+   * モバイルでは説明テキストより
+   * Ask機能を優先
+   */
+  .ep-dialogue__composer-meta > span {
+    display: none !important;
+  }
+
+
+  .ep-dialogue__composer-meta button {
+    margin-left: auto !important;
+
+    color:
+      rgba(230, 238, 243, 0.4) !important;
+
+    font-size:
+      6px !important;
+
+    letter-spacing:
+      0.08em !important;
+  }
+}
+
       `}</style>
     </section>
   );
