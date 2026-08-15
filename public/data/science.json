@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T06:41:05.856Z",
+  "updated": "2026-08-15T07:32:40.994Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Magnitude 7.7 earthquake strikes off coast of Indonesia and tsunami warning issued",
+      "url": "https://phys.org/news/2026-08-magnitude-earthquake-coast-indonesia-tsunami.html",
+      "summary": "A powerful magnitude 7.7 earthquake struck off the coast of Indonesia early Saturday, damaging buildings and homes, and triggering a tsunami warning. Authorities urged people on affected coastlines to move to higher grou…",
+      "ts": 1786778866000,
+      "publishedAt": "2026-08-15T07:27:46.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "After commercial whaling nearly erased them, blue and fin whales are slowly reclaiming the southeast Atlantic",
@@ -791,14 +799,6 @@
       "title": "StreamReason-Bench: Can Large Language Models Reason about Event-Time Stream-Processing Semantics?",
       "url": "https://arxiv.org/abs/2608.12348",
       "summary": "arXiv:2608.12348v1 Announce Type: cross Abstract: Streaming systems increasingly hand work to large language models (LLMs) -- writing pipelines, triaging alerts, reading logs -- and all of it assumes the model knows how …",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "From Caveman to Expert Analyst: Energy Consumption of Variable LLM Tasks",
-      "url": "https://arxiv.org/abs/2608.12350",
-      "summary": "arXiv:2608.12350v1 Announce Type: cross Abstract: The energy demand growth and environmental impacts of artificial intelligence (AI) have generated substantial interest in supplying sufficient low-cost electricity for AI…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
