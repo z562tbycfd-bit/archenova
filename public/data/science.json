@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-15T17:22:23.129Z",
+  "updated": "2026-08-15T18:32:19.718Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Exploring the moon will require rovers that can think for themselves",
+      "url": "https://phys.org/news/2026-08-exploring-moon-require-rovers.html",
+      "summary": "NASA is planning to send three small rovers to the moon with a single instruction: Work out among yourselves how to explore a patch of ground.",
+      "ts": 1786816801000,
+      "publishedAt": "2026-08-15T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Topical clove oil for canine sarcoptic mange promises faster, plant-based treatment",
+      "url": "https://phys.org/news/2026-08-topical-clove-oil-canine-sarcoptic.html",
+      "summary": "Canine sarcoptic mange (scabies) is a skin condition in which microscopic mites (Sarcoptes scabiei) infest dogs' skin. The condition is contagious and zoonotic and can be difficult to detect. If left untreated, it can ca…",
+      "ts": 1786815601000,
+      "publishedAt": "2026-08-15T17:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Early-universe plasma may have stopped dark photons from heating cosmos",
@@ -783,22 +799,6 @@
       "title": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
       "url": "https://arxiv.org/abs/2608.13492",
       "summary": "arXiv:2608.13492v1 Announce Type: new Abstract: This report presents an improved version of AlayaWorld. While the backbone architecture, chunk-wise autoregressive generation scheme, and training data remain unchanged fro…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-      "url": "https://arxiv.org/abs/2608.13547",
-      "summary": "arXiv:2608.13547v1 Announce Type: new Abstract: LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-gener…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "url": "https://arxiv.org/abs/2608.13558",
-      "summary": "arXiv:2608.13558v1 Announce Type: new Abstract: Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manus…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
