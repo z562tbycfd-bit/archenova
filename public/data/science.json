@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T15:23:55.475Z",
+  "updated": "2026-08-16T16:27:19.286Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Strain flips Hall signal in altermagnetic manganese telluride, suggesting a path to practical spintronics",
+      "url": "https://phys.org/news/2026-08-strain-flips-hall-altermagnetic-manganese.html",
+      "summary": "Time-reversal symmetry is an exotic behavior found in systems whose internal physics looks different when running forward versus backward in time. For some time, physicists have searched for this behavior in systems with…",
+      "ts": 1786896004000,
+      "publishedAt": "2026-08-16T16:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Chinese ship sets off for Europe through Arctic, halving travel time",
@@ -791,14 +799,6 @@
       "title": "LLM-Guided Graph Generation for Structure-Based Local Improvement Methods",
       "url": "https://arxiv.org/abs/2608.13333",
       "summary": "arXiv:2608.13333v1 Announce Type: new Abstract: Large neighborhood search normally selects a random subset of decision variables for iterative optimization. For efficiently solving different problems, researchers tend to…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LongEarth-R1: Benchmarking and Aligning Vision-Language Models for Long-Horizon Earth Observation Reasoning",
-      "url": "https://arxiv.org/abs/2608.13344",
-      "summary": "arXiv:2608.13344v1 Announce Type: new Abstract: Long-horizon Earth observation reasoning requires models to organize multi-stage geographic evolution, localize spatial changes, detect temporal anomalies, and infer future…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
