@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-16T14:25:16.123Z",
+  "updated": "2026-08-16T15:23:55.475Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Chinese ship sets off for Europe through Arctic, halving travel time",
+      "url": "https://phys.org/news/2026-08-chinese-ship-europe-arctic-halving.html",
+      "summary": "A Chinese container vessel has set sail for Europe through the Arctic as part of a new weekly service on a route that cuts shipment times in half but that environmental groups warn could speed up the melting of polar ice…",
+      "ts": 1786893004000,
+      "publishedAt": "2026-08-16T15:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Firefighters battle second day of blaze on Greek island",
+      "url": "https://phys.org/news/2026-08-firefighters-day-blaze-greek-island.html",
+      "summary": "Firefighters battled for a second day Sunday to contain a forest fire on the Greek Aegean island of Skyros, as the local mayor voiced hope it could soon be brought under control.",
+      "ts": 1786893001000,
+      "publishedAt": "2026-08-16T15:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shrinking water bodies can turn drought into disease hotspots or dead ends",
+      "url": "https://phys.org/news/2026-08-bodies-drought-disease-hotspots-dead.html",
+      "summary": "Prolonged dry spells or droughts can sometimes reduce aquatic diseases, many of which affect people. Yet other times, water scarcity can counterintuitively lead to an uptick in diseases that depend on water.",
+      "ts": 1786891202000,
+      "publishedAt": "2026-08-16T14:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Einstein Probe catches rare X-ray flash from an exploding star",
@@ -775,30 +799,6 @@
       "title": "LongEarth-R1: Benchmarking and Aligning Vision-Language Models for Long-Horizon Earth Observation Reasoning",
       "url": "https://arxiv.org/abs/2608.13344",
       "summary": "arXiv:2608.13344v1 Announce Type: new Abstract: Long-horizon Earth observation reasoning requires models to organize multi-stage geographic evolution, localize spatial changes, detect temporal anomalies, and infer future…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Rules or Character? Scaling Laws for AI Safety Design",
-      "url": "https://arxiv.org/abs/2608.13345",
-      "summary": "arXiv:2608.13345v1 Announce Type: new Abstract: Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behaviora…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "TopoIntent: Compiling Security Intent into Executable, Compliance-Checked Network Topologies",
-      "url": "https://arxiv.org/abs/2608.13389",
-      "summary": "arXiv:2608.13389v1 Announce Type: new Abstract: Enterprise security topology design requires translating business intent, regulatory requirements, and risk assumptions into zones, boundary devices, inter-zone paths, and …",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Jointly Predicting Courses and Grades Using a Transformer-Based Model",
-      "url": "https://arxiv.org/abs/2608.13409",
-      "summary": "arXiv:2608.13409v1 Announce Type: new Abstract: Existing predictive models in learning analytics often treat student academic history as a simple sequence, overlooking the concurrent nature of courses taken within a seme…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
