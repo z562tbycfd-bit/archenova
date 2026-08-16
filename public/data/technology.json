@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-16T22:23:14.021Z",
+  "updated": "2026-08-16T23:21:36.899Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Satellite operators emphasize launch deals in a constrained market",
+      "url": "https://spacenews.com/satellite-operators-emphasize-launch-deals-in-a-constrained-market/",
+      "summary": "Amid a constrained launch market, satellite operators are emphasizing to investors and customers that they have lined up launch capacity, even if it is uncertain when it will be available. The post Satellite operators em…",
+      "ts": 1786921535000,
+      "publishedAt": "2026-08-16T23:05:35.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "United Nations News",
       "title": "First Person: Syrians lead efforts to clear rubble and rebuild lives",
@@ -801,15 +810,6 @@
       "summary": "More than 100 personnel have already relocated to Redstone Arsenal as construction of billion-dollar Space Command facility is set to begin The post Space Command expands Alabama footprint as headquarters relocation adva…",
       "ts": 1786638425000,
       "publishedAt": "2026-08-13T16:27:05.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Perseids Meteor Shower",
-      "url": "https://www.nasa.gov/image-article/perseids-meteor-shower-2/",
-      "summary": "The constellation Orion is framed by two Perseid meteors in this photo from Aug. 12, 2018, in Cedar Breaks National Monument, Utah. The Perseids – one of the year’s brightest and most popular meteor showers – has been ra…",
-      "ts": 1786633714000,
-      "publishedAt": "2026-08-13T15:08:34.000Z",
       "categoryId": "space"
     }
   ],

@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T22:23:11.242Z",
+  "updated": "2026-08-16T23:21:34.776Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Radio telescopes help scientists map molecules in space and uncover where and how stars form",
+      "url": "https://phys.org/news/2026-08-radio-telescopes-scientists-molecules-space.html",
+      "summary": "You may have heard the phrase \"we are made of star-stuff.\" This statement by the astronomer Carl Sagan refers to the fact that elements heavier than hydrogen and helium were forged in the centers of the first stars. But …",
+      "ts": 1786920001000,
+      "publishedAt": "2026-08-16T22:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Brief firearm safety talks more than double openness to out-of-home storage",
@@ -791,14 +799,6 @@
       "title": "Teach the Magnitude, Not the Direction: Verifier-Bounded Credit Assignment for Multi-Turn Multi-step LLM Agents",
       "url": "https://arxiv.org/abs/2608.13179",
       "summary": "arXiv:2608.13179v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) offers a verifier-bounded performance ceiling for training multi-turn tool-use agents, yet its trajectory-level credit…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "TsuGO: Probing Search Efficiency in LLM Reasoning via Go Life-and-Death Problems",
-      "url": "https://arxiv.org/abs/2608.13221",
-      "summary": "arXiv:2608.13221v1 Announce Type: new Abstract: The evaluation of LLM reasoning is moving from final-answer accuracy to process-level assessment, yet existing methods still fail to capture how models plan reasoning paths…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
