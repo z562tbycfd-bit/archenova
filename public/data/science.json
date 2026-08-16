@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T10:25:07.473Z",
+  "updated": "2026-08-16T11:22:10.671Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Black hole star: Astronomers discover a brand-new type of astrophysical object",
+      "url": "https://phys.org/news/2026-08-black-hole-star-astronomers-brand.html",
+      "summary": "Astronomers at MIT and elsewhere have spotted an extremely bright red spot in the early universe. The object resembles an enormous star, roughly the size of our solar system. But it also is putting out 100 billion times …",
+      "ts": 1786878001000,
+      "publishedAt": "2026-08-16T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Nature has spent billions of years fighting bacteria. AI could help us learn its secrets",
@@ -791,14 +799,6 @@
       "title": "RAIL: An Automatic Classifier of the Artificial Intelligence Readiness Level",
       "url": "https://arxiv.org/abs/2608.13428",
       "summary": "arXiv:2608.13428v1 Announce Type: new Abstract: Assessing the maturity of artificial intelligence technologies is essential for investment decisions, project management, and policy monitoring, yet the available readiness…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
-      "url": "https://arxiv.org/abs/2608.13447",
-      "summary": "arXiv:2608.13447v1 Announce Type: new Abstract: Academic leagues have become important mechanisms for promoting extracurricular education and strengthening the integration between universities and society. This paper pre…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }

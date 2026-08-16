@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-16T10:25:10.569Z",
+  "updated": "2026-08-16T11:22:13.508Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "U.S. defense agencies tap three companies for satellite disposal study",
+      "url": "https://spacenews.com/u-s-defense-agencies-tap-three-companies-for-satellite-disposal-study/",
+      "summary": "Firefly, D-Orbit and Katalyst will compete to show how commercial operators could capture and remove aging spacecraft The post U.S. defense agencies tap three companies for satellite disposal study appeared first on Spac…",
+      "ts": 1786877400000,
+      "publishedAt": "2026-08-16T10:50:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 August 16 – Milky Way over Yellowstone",
@@ -802,15 +811,6 @@
       "ts": 1786632397000,
       "publishedAt": "2026-08-13T14:46:37.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "An optical link ‘internet’ to connect networks in space",
-      "url": "https://spacenews.com/an-optical-link-internet-to-connect-networks-in-space/",
-      "summary": "In this episode, David Ariosto speaks with John Mackey, CEO, co-founder and director of Mbryonics. They discuss building optical links for satellites and other space infrastructure, and what it would […] The post An opti…",
-      "ts": 1786631966000,
-      "publishedAt": "2026-08-13T14:39:26.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
