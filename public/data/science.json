@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T17:20:55.032Z",
+  "updated": "2026-08-16T18:31:54.862Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Gene-edited beagles produce no detectable major dog allergen, early tests find",
+      "url": "https://phys.org/news/2026-08-gene-beagles-major-dog-allergen.html",
+      "summary": "Humans love dogs, but petting them can leave some people sneezing and wheezing. About 15% of the world's population lives with a dog allergy, which can increase the risk of hay fever and asthma. The main culprit is Can f…",
+      "ts": 1786903201000,
+      "publishedAt": "2026-08-16T18:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Phytophthora dieback linked to habitat loss and lower digging activity among quendas in Western Australia",
@@ -791,14 +799,6 @@
       "title": "NAS-Driven Hardware Accelerator Exploration for Edge AI and Quantization Effects on the Pareto Space",
       "url": "https://arxiv.org/abs/2608.13293",
       "summary": "arXiv:2608.13293v1 Announce Type: new Abstract: Edge AI deployment demands neural architectures that are simultaneously accurate, computationally efficient, and hardware-deployable - a challenge addressed by hardware-awa…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2608.13317",
-      "summary": "arXiv:2608.13317v1 Announce Type: new Abstract: Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the send…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
