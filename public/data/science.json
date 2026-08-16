@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T19:22:27.731Z",
+  "updated": "2026-08-16T20:24:20.607Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hurricane Lala pulls away from Hawaii's Big Island",
+      "url": "https://phys.org/news/2026-08-hurricane-lala-hawaii-big-island.html",
+      "summary": "Hurricane Lala was pulling away from Hawaii's Big Island early Sunday as heavy rain and strong winds struck the U.S. Pacific state and officials warned of potentially dangerous flooding.",
+      "ts": 1786909201000,
+      "publishedAt": "2026-08-16T19:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Belgium races to tame huge wildfire creeping toward Germany",
@@ -791,14 +799,6 @@
       "title": "Capability Sheaves for Compositional Agent-Harness Repair: Controlled Quotients and a Real-Repository Stress Test",
       "url": "https://arxiv.org/abs/2608.13228",
       "summary": "arXiv:2608.13228v1 Announce Type: new Abstract: Agent harnesses combine retrieval, routing, state, provenance, and verification, but locally successful components may disagree on shared state. We model this failure with …",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "vToken: Token-Level Virtualization for Reclaimable KV Caches",
-      "url": "https://arxiv.org/abs/2608.13263",
-      "summary": "arXiv:2608.13263v1 Announce Type: new Abstract: Large language model serving faces a critical memory bottleneck: the KV cache grows with sequence length and batch size. PagedAttention uses fixed-size memory blocks to red…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
