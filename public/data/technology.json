@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-16T04:37:56.545Z",
+  "updated": "2026-08-16T05:30:43.427Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 16 – Milky Way over Yellowstone",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-16-milky-way-over-yellowstone/",
+      "summary": "APOD Science APOD APOD: 2026 August 16 – Milky… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1786853100000,
+      "publishedAt": "2026-08-16T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Lunar orbiter among upcoming NASA CLPS task orders",
@@ -802,15 +811,6 @@
       "ts": 1786631966000,
       "publishedAt": "2026-08-13T14:39:26.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Kennedy heads west, slams Becerra",
-      "url": "https://www.statnews.com/2026/08/13/rfk-california-tour-hhs-addiction-treatment-plan-dc-diagnosis/?utm_campaign=rss",
-      "summary": "The health secretary headed to California to lay out the government's new approach to addiction treatment.",
-      "ts": 1786631838000,
-      "publishedAt": "2026-08-13T14:37:18.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
