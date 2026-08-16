@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-16T11:22:10.671Z",
+  "updated": "2026-08-16T12:42:34.555Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why AI training can backfire for older workers",
+      "url": "https://phys.org/news/2026-08-ai-backfire-older-workers.html",
+      "summary": "Employers are increasingly investing in training to prepare their employees for artificial intelligence (AI). Training budgets are growing, and \"upskilling\" has become a common response to rapid technological change.",
+      "ts": 1786882801000,
+      "publishedAt": "2026-08-16T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Centuries-old physics test could help detect millicharged particles",
+      "url": "https://phys.org/news/2026-08-centuries-physics-millicharged-particles.html",
+      "summary": "Theoretical physicists have long predicted the existence of millicharged particles (mCPs), hypothetical particles that carry a very small electric charge. These particles are expected to interact very weakly with ordinar…",
+      "ts": 1786881601000,
+      "publishedAt": "2026-08-16T12:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Black hole star: Astronomers discover a brand-new type of astrophysical object",
@@ -783,22 +799,6 @@
       "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
       "url": "https://arxiv.org/abs/2608.13417",
       "summary": "arXiv:2608.13417v1 Announce Type: new Abstract: Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-horizon experimentation. To understand the current state…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
-      "url": "https://arxiv.org/abs/2608.13420",
-      "summary": "arXiv:2608.13420v1 Announce Type: new Abstract: Embodied intelligent virtual agents are expected to operate as persistent, adaptive, and context-aware entities within complex virtual and Metaverse worlds. However, implem…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "RAIL: An Automatic Classifier of the Artificial Intelligence Readiness Level",
-      "url": "https://arxiv.org/abs/2608.13428",
-      "summary": "arXiv:2608.13428v1 Announce Type: new Abstract: Assessing the maturity of artificial intelligence technologies is essential for investment decisions, project management, and policy monitoring, yet the available readiness…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
