@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T13:32:44.504Z",
+  "updated": "2026-08-16T14:25:16.123Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Einstein Probe catches rare X-ray flash from an exploding star",
+      "url": "https://phys.org/news/2026-08-einstein-probe-rare-ray-star.html",
+      "summary": "Astronomers have linked an X-ray flash discovered by the Einstein Probe to a known type of supernova with unusual features that point to the birth of an ultra-dense, rapidly spinning magnetar. The paper outlining this fi…",
+      "ts": 1786888802000,
+      "publishedAt": "2026-08-16T14:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Active particles could make stable glasses stronger without catastrophic brittle failure",
@@ -791,14 +799,6 @@
       "title": "Jointly Predicting Courses and Grades Using a Transformer-Based Model",
       "url": "https://arxiv.org/abs/2608.13409",
       "summary": "arXiv:2608.13409v1 Announce Type: new Abstract: Existing predictive models in learning analytics often treat student academic history as a simple sequence, overlooking the concurrent nature of courses taken within a seme…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
-      "url": "https://arxiv.org/abs/2608.13410",
-      "summary": "arXiv:2608.13410v1 Announce Type: new Abstract: Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make multi-perspective access difficult for citizens, journali…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
