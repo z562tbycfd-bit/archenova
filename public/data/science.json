@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-16T18:31:54.862Z",
+  "updated": "2026-08-16T19:22:27.731Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Belgium races to tame huge wildfire creeping toward Germany",
+      "url": "https://phys.org/news/2026-08-belgium-huge-wildfire-germany.html",
+      "summary": "Water-bombing aircraft and farmers' tractors joined forces Sunday to help firefighters tame Belgium's largest modern-day wildfire, which has scorched vast swaths of a hard-to-reach nature reserve near the German border.",
+      "ts": 1786908002000,
+      "publishedAt": "2026-08-16T19:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan aims for the moons of Mars",
+      "url": "https://phys.org/news/2026-08-japan-aims-moons-mars.html",
+      "summary": "Japanese scientists are readying a mission to Mars' moons to retrieve samples that may unlock the origins of the solar system and life on Earth, although a rival Chinese mission aims to make it back first.",
+      "ts": 1786907117000,
+      "publishedAt": "2026-08-16T19:05:17.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A small squeeze reveals new clues about an unusual kind of magnet",
+      "url": "https://phys.org/news/2026-08-small-reveals-clues-unusual-kind.html",
+      "summary": "Researchers at Rice University have found that gently squeezing a crystal of iron sulfide can change two of its unusual properties at the same time: its tiny magnetic signal and the way electricity moves through it. The …",
+      "ts": 1786905601000,
+      "publishedAt": "2026-08-16T18:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Gene-edited beagles produce no detectable major dog allergen, early tests find",
@@ -775,30 +799,6 @@
       "title": "vToken: Token-Level Virtualization for Reclaimable KV Caches",
       "url": "https://arxiv.org/abs/2608.13263",
       "summary": "arXiv:2608.13263v1 Announce Type: new Abstract: Large language model serving faces a critical memory bottleneck: the KV cache grows with sequence length and batch size. PagedAttention uses fixed-size memory blocks to red…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Sovereign by necessity? Frontier AI export controls, cyber security, and the limits of national AI capability",
-      "url": "https://arxiv.org/abs/2608.13272",
-      "summary": "arXiv:2608.13272v1 Announce Type: new Abstract: A small number of firms based in two states produce the most capable frontier AI models. The governments of those states have shown both the legal power and the political w…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Towards Context-Aware Clinical Motion Understanding in Daily Living at Home: Freezing of Gait Detection with Egocentric Vision",
-      "url": "https://arxiv.org/abs/2608.13283",
-      "summary": "arXiv:2608.13283v1 Announce Type: new Abstract: Understanding motion in daily living requires context beyond kinematics, because similar inertial patterns during activities of daily living (ADLs) can reflect intentional …",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "NAS-Driven Hardware Accelerator Exploration for Edge AI and Quantization Effects on the Pareto Space",
-      "url": "https://arxiv.org/abs/2608.13293",
-      "summary": "arXiv:2608.13293v1 Announce Type: new Abstract: Edge AI deployment demands neural architectures that are simultaneously accurate, computationally efficient, and hardware-deployable - a challenge addressed by hardware-awa…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
