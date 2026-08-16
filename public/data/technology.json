@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-15T23:22:13.763Z",
+  "updated": "2026-08-16T01:25:30.639Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Lunar orbiter among upcoming NASA CLPS task orders",
+      "url": "https://spacenews.com/lunar-orbiter-among-upcoming-nasa-clps-task-orders/",
+      "summary": "NASA plans to award three more lunar missions this year through a commercial services program, including an orbiter that would replace the Lunar Reconnaissance Orbiter The post Lunar orbiter among upcoming NASA CLPS task…",
+      "ts": 1786837798000,
+      "publishedAt": "2026-08-15T23:49:58.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "CDMOs Expand and Build for Future Growth",
@@ -802,15 +811,6 @@
       "ts": 1786631838000,
       "publishedAt": "2026-08-13T14:37:18.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Maritime Satellite Service Revenues to Reach $3.79 Billion by 2035 as NGSO Reshapes Maritime Connectivity",
-      "url": "https://spacenews.com/maritime-satellite-service-revenues-to-reach-3-79-billion-by-2035-as-ngso-reshapes-maritime-connectivity/",
-      "summary": "Paris, France | July 2026 — The maritime satellite communications market is entering a new phase of growth as next-generation satellite networks transform connectivity at sea. According to Novaspace’s newly […] The post …",
-      "ts": 1786631247000,
-      "publishedAt": "2026-08-13T14:27:27.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

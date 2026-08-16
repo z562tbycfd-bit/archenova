@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-15T23:22:11.520Z",
+  "updated": "2026-08-16T01:25:28.530Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nature has spent billions of years fighting bacteria. AI could help us learn its secrets",
+      "url": "https://phys.org/news/2026-08-nature-spent-billions-years-bacteria.html",
+      "summary": "Tiny viruses that infect bacteria could one day help us tackle infections that antibiotics can no longer treat. But first, scientists need to understand how these viruses work, and artificial intelligence could provide t…",
+      "ts": 1786838401000,
+      "publishedAt": "2026-08-16T00:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How healthier farm animals can cut greenhouse gas emissions",
@@ -791,14 +799,6 @@
       "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
       "url": "https://arxiv.org/abs/2608.13447",
       "summary": "arXiv:2608.13447v1 Announce Type: new Abstract: Academic leagues have become important mechanisms for promoting extracurricular education and strengthening the integration between universities and society. This paper pre…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
-      "url": "https://arxiv.org/abs/2608.13456",
-      "summary": "arXiv:2608.13456v1 Announce Type: new Abstract: World Models (WM) are increasingly seen as a foundation for intelligent agents that can predict, plan, and act beyond their training distribution. In this paper, we study W…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
