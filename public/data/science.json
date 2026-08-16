@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T16:27:19.286Z",
+  "updated": "2026-08-16T17:20:55.032Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Phytophthora dieback linked to habitat loss and lower digging activity among quendas in Western Australia",
+      "url": "https://phys.org/news/2026-08-phytophthora-dieback-linked-habitat-loss.html",
+      "summary": "A new study from Murdoch University has found that the introduced plant disease Phytophthora dieback is indirectly hindering quendas in Western Australia's jarrah forests by reducing their habitat quality and consequentl…",
+      "ts": 1786900801000,
+      "publishedAt": "2026-08-16T17:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Strain flips Hall signal in altermagnetic manganese telluride, suggesting a path to practical spintronics",
@@ -791,14 +799,6 @@
       "title": "StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems",
       "url": "https://arxiv.org/abs/2608.13317",
       "summary": "arXiv:2608.13317v1 Announce Type: new Abstract: Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the send…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LLM-Guided Graph Generation for Structure-Based Local Improvement Methods",
-      "url": "https://arxiv.org/abs/2608.13333",
-      "summary": "arXiv:2608.13333v1 Announce Type: new Abstract: Large neighborhood search normally selects a random subset of decision variables for iterative optimization. For efficiently solving different problems, researchers tend to…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
