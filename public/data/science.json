@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-16T12:42:34.555Z",
+  "updated": "2026-08-16T13:32:44.504Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Active particles could make stable glasses stronger without catastrophic brittle failure",
+      "url": "https://phys.org/news/2026-08-particles-stable-glasses-stronger-catastrophic.html",
+      "summary": "The strongest glasses have an Achilles' heel that causes them to fail catastrophically when pushed past their limit. They do not bend or stretch, as all damage concentrates into a single plane and the material fails in a…",
+      "ts": 1786885201000,
+      "publishedAt": "2026-08-16T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Why AI training can backfire for older workers",
@@ -791,14 +799,6 @@
       "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
       "url": "https://arxiv.org/abs/2608.13410",
       "summary": "arXiv:2608.13410v1 Announce Type: new Abstract: Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make multi-perspective access difficult for citizens, journali…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
-      "url": "https://arxiv.org/abs/2608.13417",
-      "summary": "arXiv:2608.13417v1 Announce Type: new Abstract: Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-horizon experimentation. To understand the current state…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
