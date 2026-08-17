@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-17T19:30:03.859Z",
+  "updated": "2026-08-17T20:29:17.616Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Despite appearing to recover, sunflowers retain drought damage",
+      "url": "https://phys.org/news/2026-08-recover-sunflowers-retain-drought.html",
+      "summary": "Sunflowers are unable to fully recover from drought, new research has found, contradicting previous findings on the plant's ability to reverse drought-induced failure of water-transporting tissues and revealing new insig…",
+      "ts": 1786998003000,
+      "publishedAt": "2026-08-17T20:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dice design solves board gaming's most surprisingly complex problem—who goes first?",
+      "url": "https://phys.org/news/2026-08-dice-board-gaming-complex-problem.html",
+      "summary": "It took nearly 15 years, researchers around the world and enough computing power to search through a universe of possibilities to answer one question: Who goes first?",
+      "ts": 1786998001000,
+      "publishedAt": "2026-08-17T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Last common ancestor of humans and chimpanzees could have been a vertical climber, no matter its feet",
+      "url": "https://phys.org/news/2026-08-common-ancestor-humans-chimpanzees-vertical.html",
+      "summary": "New research suggests that no matter what we eventually determine the last common ancestor of humans and chimpanzees to be, we'll learn it was a primate that climbed trees.",
+      "ts": 1786997401000,
+      "publishedAt": "2026-08-17T20:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Three photons at once beat the standard photon test",
+      "url": "https://phys.org/news/2026-08-photons-standard-photon.html",
+      "summary": "Physicists at the University of Twente have improved the standard test for the quality of individual particles of light. By letting three photons interfere at the same time instead of two, they draw more information from…",
+      "ts": 1786996805000,
+      "publishedAt": "2026-08-17T20:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Training opportunities shrink for alcohol and drug support staff",
+      "url": "https://phys.org/news/2026-08-opportunities-alcohol-drug-staff.html",
+      "summary": "Flinders University researchers examined AOD VET provision in Australia in 2024, comparing it with a 2011 review, and found there has been a contraction in programs despite a major increase in the share of private provid…",
+      "ts": 1786996803000,
+      "publishedAt": "2026-08-17T20:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are zoos ready for the changing climate?",
+      "url": "https://phys.org/news/2026-08-zoos-ready-climate.html",
+      "summary": "When people think about climate change and animals, they might picture melting sea ice, drought-stricken landscapes or species struggling in the wild. Far less attention is given to the animals living in our care. Yet as…",
+      "ts": 1786995605000,
+      "publishedAt": "2026-08-17T19:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Breath-strip-like nanofiber film delivers three pain drugs in under two seconds",
+      "url": "https://phys.org/news/2026-08-nanofiber-pain-drugs-seconds.html",
+      "summary": "Children and seniors who have difficulty chewing and swallowing conventional tablets may have an easier way to find pain relief. Cornell researchers have developed an ultrafast-dissolving nanofiber film that can deliver …",
+      "ts": 1786995603000,
+      "publishedAt": "2026-08-17T19:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unlocking Gondwana's 120-million-year archive: Karoo record refines timing of extinctions and climate upheavals",
+      "url": "https://phys.org/news/2026-08-gondwana-million-year-archive-karoo.html",
+      "summary": "A new review led by professor Emese Bordy at the University of Cape Town (UCT) Department of Geological Sciences brings together more than two decades of research on the Karoo Supergroup, revealing how scientific underst…",
+      "ts": 1786995001000,
+      "publishedAt": "2026-08-17T19:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tiny feet on cells can sense defects and stall migration to heal wounds",
@@ -36,7 +100,7 @@
     },
     {
       "source": "Phys.org",
-      "title": "'Known' TB gene reveals completed unexpected biological role under stress",
+      "title": "'Known' TB gene reveals completely unexpected biological role under stress",
       "url": "https://phys.org/news/2026-08-tb-gene-reveals-unexpected-biological.html",
       "summary": "The complete genome of the tuberculosis bacterium was sequenced and published in 1998. Since then, scientists have deciphered about two-thirds of TB's genes. Or have they?",
       "ts": 1786993206000,
@@ -735,70 +799,6 @@
       "title": "Classification of Intracellular Protein Patterns from Reactive Equilibria",
       "url": "https://arxiv.org/abs/2608.13821",
       "summary": "arXiv:2608.13821v1 Announce Type: new Abstract: Self-organized spatial patterns are central to nonequilibrium physics and cell biology, yet locating instabilities in multi-component, reaction-diffusion networks remains c…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Dual Topological Pipeline for Imperial Network Analysis: Persistent Homology, Structural Fragility, and the Aztec Collapse",
-      "url": "https://arxiv.org/abs/2608.13845",
-      "summary": "arXiv:2608.13845v1 Announce Type: new Abstract: We apply persistent homology and a dual-model topological pipeline to a multilayer network of the Aztec Empire (Triple Alliance, 1427--1521 CE), constructed from tribute re…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Altitude-Dependent Near-Source Spectral Filtering of Meteor Infrasound Above 80 km and Consequences for Period-Based Energy Estimates",
-      "url": "https://arxiv.org/abs/2608.13853",
-      "summary": "arXiv:2608.13853v1 Announce Type: new Abstract: Infrasound signal period is widely used as a proxy for source energy in bolide studies, but the reliability of period-yield relations for small, high-altitude regional mete…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structural Divergence of the Inca Imperial Network, 1400--1572~CE: Persistent Homology, Substitution Topology, and the Topological Signature of Decapitation Collapse",
-      "url": "https://arxiv.org/abs/2608.13857",
-      "summary": "arXiv:2608.13857v1 Announce Type: new Abstract: We apply persistent homology to a six-layer temporal network model of the Inca Empire (Tawantinsuyu), built from the Qhapaq \\~{N}an road system ($6{,}546$ segments; $12{,}0…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elastic wakes mediate collective viscoelastic fluid-structure interactions in side-by-side cantilever arrays",
-      "url": "https://arxiv.org/abs/2608.13908",
-      "summary": "arXiv:2608.13908v1 Announce Type: new Abstract: Fluid-structure interaction (FSI) in viscoelastic flows past deformable structures at low Reynolds numbers remains poorly understood, despite its relevance to biological sy…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Focal-point scanning for dose delivery and optimization with focused laser-accelerated very-high-energy electron beams",
-      "url": "https://arxiv.org/abs/2608.13919",
-      "summary": "arXiv:2608.13919v1 Announce Type: new Abstract: Focused very-high-energy electron (VHEE) beams can produce localized dose enhancement at selected depths, but irradiation of a finite target requires coordinated control of…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determining Meteorological Tidal Transport through a Channel on the Coast",
-      "url": "https://arxiv.org/abs/2608.13933",
-      "summary": "arXiv:2608.13933v1 Announce Type: new Abstract: Transient weather systems are often associated with alternating warm and cold advections of air masses and changing wind directions, which drive coastal ocean and estuarine…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cold-atom comagnetometry via optical control of spin states",
-      "url": "https://arxiv.org/abs/2608.13936",
-      "summary": "arXiv:2608.13936v1 Announce Type: new Abstract: Atomic spin-based comagnetometers are powerful tools for precision sensing and tests of fundamental physics. Compared with the widely used gas-cell comagnetometer systems, …",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PhysTrackX: Open-Source Software for Kinematics Tracking for the Physics Laboratory",
-      "url": "https://arxiv.org/abs/2608.13977",
-      "summary": "arXiv:2608.13977v1 Announce Type: new Abstract: Video analysis software is a staple of the modern undergraduate physics laboratory, enabling students to extract quantitative kinematic data from real-world phenomena. In t…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }

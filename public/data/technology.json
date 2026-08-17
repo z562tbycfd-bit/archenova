@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-17T19:30:06.578Z",
+  "updated": "2026-08-17T20:29:19.646Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Malaria Mosquito Bites Turned Into Immune Boosters in New Chemovaccination Strategy",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/malaria-mosquito-bites-turned-into-immune-boosters-in-new-chemovaccination-strategy/",
+      "summary": "A malaria chemovaccination strategy, using antimalarial compounds to arrest parasites in the liver, turns mosquito bites into immune-boosting vaccination events that protected mice long-term. The post Malaria Mosquito Bi…",
+      "ts": 1786995840000,
+      "publishedAt": "2026-08-17T19:44:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Sanofi to lay off 229 workers in Mass., a year after $9.1B Blueprint Medicines acquisition",
@@ -10,6 +19,15 @@
       "ts": 1786994634000,
       "publishedAt": "2026-08-17T19:23:54.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "What Flock’s defenders are missing",
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic licen…",
+      "ts": 1786994169000,
+      "publishedAt": "2026-08-17T19:16:09.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -793,24 +811,6 @@
       "ts": 1786737638000,
       "publishedAt": "2026-08-14T20:00:38.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow",
-      "url": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
-      "summary": "In honor of America’s historic 250th anniversary, NASA announced on Friday MAX POWER, a public exposition of American air and space innovation, Nov. 7 and Nov. 8, on and near the agency’s Kennedy Space Center in Florida.…",
-      "ts": 1786733076000,
-      "publishedAt": "2026-08-14T18:44:36.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: AAP president: How pediatricians are navigating federal leaders’ fearmongering on vaccines",
-      "url": "https://www.statnews.com/2026/08/14/vaccine-executive-order-policy-aap-president/?utm_campaign=rss",
-      "summary": "Every parent experiences a unique mix of emotions when caring for a newborn baby. You’re filled with an overwhelming sense of pride, love, and awe for this tiny, precious person…",
-      "ts": 1786732470000,
-      "publishedAt": "2026-08-14T18:34:30.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
