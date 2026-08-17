@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-17T13:40:36.489Z",
+  "updated": "2026-08-17T14:29:46.973Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "World off-track on nearly every food system goal, latest assessment reveals",
+      "url": "https://phys.org/news/2026-08-world-track-food-goal-latest.html",
+      "summary": "The latest study from the Food Systems Countdown Initiative (FSCI) reveals the stark reality of where global food systems transformation stands: for most indicators on health, environment, livelihoods, governance and res…",
+      "ts": 1786976404000,
+      "publishedAt": "2026-08-17T14:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When can your child stay home alone? Neuroscience suggests we're asking the wrong question",
+      "url": "https://phys.org/news/2026-08-child-stay-home-neuroscience-wrong.html",
+      "summary": "Would you trust your child to stay home alone? For many caregivers, the answer depends on age. But when it comes to safety and independence, neuroscience suggests a different question may be more important: Is your child…",
+      "ts": 1786976401000,
+      "publishedAt": "2026-08-17T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Social media analysis offers businesses a new way to forecast feature demand",
+      "url": "https://phys.org/news/2026-08-social-media-analysis-businesses-feature.html",
+      "summary": "Social media has become an important source of information for consumers making purchasing decisions, with prior research finding that more than 90% of consumers consult social media before making a purchase. For busines…",
+      "ts": 1786975205000,
+      "publishedAt": "2026-08-17T14:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gold nanoclusters could help break down Alzheimer's amyloid plaques",
+      "url": "https://phys.org/news/2026-08-gold-nanoclusters-alzheimer-amyloid-plaques.html",
+      "summary": "Alzheimer's disease is a neurodegenerative brain disorder characterized by progressive memory loss and a decline in other mental functions. Past studies have consistently linked this disorder to the accumulation of the p…",
+      "ts": 1786975201000,
+      "publishedAt": "2026-08-17T14:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "The COVID-19 vaccine may offer brain cancer patients a surprise benefit",
+      "url": "https://www.sciencenews.org/article/covid-19-vaccine-mrna-cancer-survival",
+      "summary": "A recent shot of the COVID-19 vaccine doubled survival time in glioblastoma patients who had undergone tumor biopsy or surgery.",
+      "ts": 1786975200000,
+      "publishedAt": "2026-08-17T14:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Survey finds social work needs clearer ethical guidance for AI use",
@@ -97,6 +137,22 @@
       "summary": "About one in 10 teenagers experiences social anxiety—persistent and disruptive worries about being judged by classmates and other peers. In a new study of adolescents with social anxiety, researchers at the Cummings Scho…",
       "ts": 1786964401000,
       "publishedAt": "2026-08-17T11:00:01.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Standard Model of Electromagnetism and Chirality in Crystals",
+      "url": "http://link.aps.org/doi/10.1103/jvv7-z2fq",
+      "summary": "Author(s): R. Winkler and U. Zülicke A comprehensive symmetry-based classification identifies 12 fundamentally distinct types of crystal structures across five polar and five chiral categories, providing a complete taxon…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Coulomb Screening of Superconductivity in Magic-Angle Graphene",
+      "url": "http://link.aps.org/doi/10.1103/z9qg-287y",
+      "summary": "Author(s): Julien Barrier, Liangtao Peng, Shuigang Xu, Christophe De Beule, V. I. Fal’ko, K. Watanabe, T. Tanigushi, A. K. Geim, Shaffique Adam, and Alexey I. Berdyugin Metallic layers placed near magic-angle graphene su…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -743,62 +799,6 @@
       "title": "Optimizing bounds for energy-constrained optimal cooling problems in two dimensions",
       "url": "https://arxiv.org/abs/2608.14334",
       "summary": "arXiv:2608.14334v1 Announce Type: cross Abstract: We study optimal control problems for incompressible fluids in two-dimensional domains with a cold boundary and internal heat sources and sinks. Given a kinetic energy bu…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analytical Theory of Higher-Order Collective Spin Interactions in Cavity Quantum Electrodynamics",
-      "url": "https://arxiv.org/abs/2608.14343",
-      "summary": "arXiv:2608.14343v1 Announce Type: cross Abstract: Cavity-mediated collective-spin interactions are commonly described by a quadratic one-axis twisting Hamiltonian. However, the underlying atom-light interaction naturally…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unraveling the Roles of Shallow, Deep and Auger Trapping in Charge Carrier Recombination in Triple-Cation Perovskites",
-      "url": "https://arxiv.org/abs/2608.14368",
-      "summary": "arXiv:2608.14368v1 Announce Type: cross Abstract: Understanding charge-carrier recombination in metal halide perovskites is essential for accurately identifying the factors limiting solar cell efficiency, yet it remains …",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of Twisted-Yarn Architecture on Pressure and Proximity Sensing Characteristics of Textile Capacitive Sensors for Robotic Skin",
-      "url": "https://arxiv.org/abs/2608.14406",
-      "summary": "arXiv:2608.14406v1 Announce Type: cross Abstract: Textile-integrated capacitive sensors offer flexible and conformable tactile sensing for wearable electronics and human-robot interaction; however, the influence of yarn-…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "UMPIRE-Net: Unrolled Magnitude-Phase Regularization Network for Accelerated MRI",
-      "url": "https://arxiv.org/abs/2608.14422",
-      "summary": "arXiv:2608.14422v1 Announce Type: cross Abstract: MRI reconstruction from undersampled k-space measurements is an ill-posed inverse problem. Physics-driven deep learning (PD-DL) methods have shown strong performance for …",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
-      "url": "https://arxiv.org/abs/2608.14502",
-      "summary": "arXiv:2608.14502v1 Announce Type: cross Abstract: Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations req…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An energy-based perspective on the correlation between stress drop and rupture speed",
-      "url": "https://arxiv.org/abs/2304.08016",
-      "summary": "arXiv:2304.08016v3 Announce Type: replace Abstract: Stress drop $\\Delta\\tau$ and rupture speed $V_r$ are two important earthquake source parameters that control the characteristics of rupture process and the associated g…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uncertainty quantification of reacting fluids interacting with porous media using a hybrid physics-based and data-driven approach",
-      "url": "https://arxiv.org/abs/2510.03649",
-      "summary": "arXiv:2510.03649v2 Announce Type: replace Abstract: Accurately simulating coupled physical processes under uncertainty is essential for reliable modeling and design in performance-critical applications such as combustion…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }

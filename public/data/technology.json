@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-17T13:40:40.486Z",
+  "updated": "2026-08-17T14:29:49.084Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Total solar eclipse 2026 (Official ESA broadcast)",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast",
+      "summary": "Video: 01:10:42 We broadcast live from the Observatorio Astrofísico de Javalambre in Spain as a total solar eclipse crossed Europe on 12 August 2026. The path of totality swept across Greenland, Iceland, Spain and a smal…",
+      "ts": 1786975200000,
+      "publishedAt": "2026-08-17T14:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Akeso and Summit’s lung cancer drug shows worsening tumor-progression benefit",
@@ -216,6 +225,15 @@
       "summary": "APOD Science APOD APOD: 2026 August 17 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
       "ts": 1786939500000,
       "publishedAt": "2026-08-17T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Chasing Fire Clouds in Utah",
+      "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
+      "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
+      "ts": 1786939260000,
+      "publishedAt": "2026-08-17T04:01:00.000Z",
       "categoryId": "space"
     },
     {
@@ -598,6 +616,15 @@
     },
     {
       "source": "NASA",
+      "title": "Summer Triangle Corner: Deneb",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/summer-triangle-corner-deneb/",
+      "summary": "Bird constellations abound in the night sky, including Cygnus, the majestic swan. Easy to find with its dazzling stars, it is one of the few constellations that look like its namesake, and it is full of treasures. Visibl…",
+      "ts": 1786788000000,
+      "publishedAt": "2026-08-15T10:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
       "title": "APOD: 2026 August 15 – Bright Perseids from Sweden",
       "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden/",
       "summary": "APOD Science APOD APOD: 2026 August 15 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
@@ -784,33 +811,6 @@
       "ts": 1786716017000,
       "publishedAt": "2026-08-14T14:00:17.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Drug-testing lab that has sparked controversy sues group that develops drug standards over criticism",
-      "url": "https://www.statnews.com/pharmalot/2026/08/14/controversial-lab-sues-usp-for-disparaging-its-testing-methods/?utm_campaign=rss",
-      "summary": "A lab that tussled with regulators over impurities found in widely used medicines has accused U.S. Pharmacopeia of making false and misleading remarks about its methods.",
-      "ts": 1786713786000,
-      "publishedAt": "2026-08-14T13:23:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 10-14 August 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_10-14_August_2026",
-      "summary": "Week in images: 10-14 August 2026 Discover our week through the lens",
-      "ts": 1786713000000,
-      "publishedAt": "2026-08-14T13:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Cheaper launch has moved the spacecraft bottleneck. Mass is out, surface area is in.",
-      "url": "https://spacenews.com/cheaper-launch-has-moved-the-spacecraft-bottleneck-mass-is-out-surface-area-is-in/",
-      "summary": "In the beginning, mass constrained spaceflight. We live at the bottom of a gravity well, and the rocket equation punishes every kilogram we try to lift out of it. Mass […] The post Cheaper launch has moved the spacecraft…",
-      "ts": 1786712400000,
-      "publishedAt": "2026-08-14T13:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
