@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-17T21:27:28.889Z",
+  "updated": "2026-08-17T22:26:23.070Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hubble solves merger mystery from Milky Way's early years",
+      "url": "https://phys.org/news/2026-08-hubble-merger-mystery-milky-early.html",
+      "summary": "Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies. Now, new data from NASA's Hubble Space Telescope show definitive evidence of a dwarf galaxy merging with the young Milky Way…",
+      "ts": 1787005201000,
+      "publishedAt": "2026-08-17T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A weakening Atlantic Ocean current system could accelerate Earth's warming",
+      "url": "https://phys.org/news/2026-08-weakening-atlantic-ocean-current-earth.html",
+      "summary": "A current system in the Atlantic Ocean that shapes regional climates and distributes ocean nutrients also serves as a control knob to help regulate temperatures across the planet, new research has found.",
+      "ts": 1787004601000,
+      "publishedAt": "2026-08-17T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers identify ways to reduce the lag between biodiversity data and action",
+      "url": "https://phys.org/news/2026-08-ways-lag-biodiversity-action.html",
+      "summary": "Biodiversity is enormously diverse, unevenly observed and constantly in motion across space and time. This makes it far harder to monitor than many other parts of the environment. As a result, managing biodiversity often…",
+      "ts": 1787004004000,
+      "publishedAt": "2026-08-17T22:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can computers learn what makes the most iconic jazz musicians stand out?",
+      "url": "https://phys.org/news/2026-08-iconic-jazz-musicians.html",
+      "summary": "Machine learning models can identify jazz pianists from recordings and reveal the musical \"fingerprints\" that make individual performers recognizable, according to a study investigating 20 famous jazz pianists. The resea…",
+      "ts": 1787004001000,
+      "publishedAt": "2026-08-17T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pesticides make Argentine ants go crazy, sending them roaming or clustering before workers die",
+      "url": "https://phys.org/news/2026-08-pesticides-argentine-ants-crazy-roaming.html",
+      "summary": "Don't assume an uptick in ant activity after setting out pesticide traps means the treatment failed. New UC Riverside research shows their behavior changes as chemicals make their way through a colony.",
+      "ts": 1787003401000,
+      "publishedAt": "2026-08-17T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Labrador Sea a key player in providing oxygen for deep North Atlantic life",
+      "url": "https://phys.org/news/2026-08-labrador-sea-key-player-oxygen.html",
+      "summary": "Researchers from Cornell University have pinpointed the source of oxygen that sustains deep-sea life in the North Atlantic Ocean: the churning waters in the Labrador Sea.",
+      "ts": 1787002803000,
+      "publishedAt": "2026-08-17T21:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum light engine links atom-photon thermodynamics to classical physics",
+      "url": "https://phys.org/news/2026-08-quantum-links-atom-photon-thermodynamics.html",
+      "summary": "What is heat, and what is useful work if a machine consists only of an atom and light particles? In modern quantum technologies, this kind of question connects thermodynamics with quantum physics. Researchers at the Univ…",
+      "ts": 1787002202000,
+      "publishedAt": "2026-08-17T21:30:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How rugged gullies protect hidden rainforests in the Greater Blue Mountains",
@@ -564,14 +620,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
-      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
-      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Complete-Coverage Searches for Lorentz Violation in the Minimal Matter Sector",
       "url": "http://link.aps.org/doi/10.1103/ckyj-bbfl",
       "summary": "Author(s): Marshall J. Basson, Eric Biddulph-West, Caitlyn Holl, Will Lankenau, Facundo Martin Lopez, Bianca Rose Lott, Chihui Shao, Danny P. Shope, Jay D. Tasson, and Zhiyu Zhang All 43 previously unconstrained Lorentz-…",
@@ -591,14 +639,6 @@
       "title": "Evidence of Nuclear Geometry-Driven Anisotropic Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions at $\\sqrt{{s}_{\\mathrm{NN}}}=5.36\\text{ }\\text{ }\\mathrm{TeV}$",
       "url": "http://link.aps.org/doi/10.1103/gymp-vp87",
       "summary": "Author(s): I. J. Abualrob et al. (ALICE Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due t…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
-      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
-      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
@@ -652,17 +692,33 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
-      "url": "http://link.aps.org/doi/10.1103/gl65-17z7",
-      "summary": "Author(s): Qianli Ma, Brianna R. Billingsley, Alin Niraula, Madalynn Marshall, David A. Dahlbom, Yiqing Hao, Daniel M. Pajerowski, Alexander I. Kolesnikov, Xiaojian Bai, Cristian D. Batista, Tai Kong, and Huibo Cao We re…",
+      "title": "Curved Odd Elasticity",
+      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
+      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Curved Odd Elasticity",
-      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
-      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
+      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
+      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
+      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
+      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
+      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
+      "url": "http://link.aps.org/doi/10.1103/gl65-17z7",
+      "summary": "Author(s): Qianli Ma, Brianna R. Billingsley, Alin Niraula, Madalynn Marshall, David A. Dahlbom, Yiqing Hao, Daniel M. Pajerowski, Alexander I. Kolesnikov, Xiaojian Bai, Cristian D. Batista, Tai Kong, and Huibo Cao We re…",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
@@ -743,62 +799,6 @@
       "title": "Precision calculations of the hyperfine constants and isotope and isomer shifts in low-lying states of 229Th3+",
       "url": "https://arxiv.org/abs/2608.13700",
       "summary": "arXiv:2608.13700v1 Announce Type: new Abstract: We present high-precision calculations of the hyperfine constants, isotope shift, and isomer shift in low-lying states of Th3+ relevant to spectroscopy of the 229Th nuclear…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Characterization Measurements of Commercial Polyvinyltoluene Scintillators for Accurate Geant4 Detector Modeling",
-      "url": "https://arxiv.org/abs/2608.13710",
-      "summary": "arXiv:2608.13710v1 Announce Type: new Abstract: Accurate Monte Carlo simulation of plastic scintillator detectors requires precise wavelength-dependent optical properties. We present the first comprehensive measurements …",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of the RIOT 2 for use in LA-supported classrooms",
-      "url": "https://arxiv.org/abs/2608.13740",
-      "summary": "arXiv:2608.13740v1 Announce Type: new Abstract: This paper describes the development of the RIOT 2, an observational tool that can be used to study classrooms in which there are multiple members of an instructional team.…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear wave dynamics in photonic time crystals",
-      "url": "https://arxiv.org/abs/2608.13743",
-      "summary": "arXiv:2608.13743v1 Announce Type: new Abstract: Maxwell's wave equation in the presence of a cubic nonlinearity and a periodically time-varying refractive index (a photonic time crystal) is reduced, for spatially monochr…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhanced Third-Harmonic Generation in a Bound State in the Continuum Assisted Multiband All-Dielectric Metasurface",
-      "url": "https://arxiv.org/abs/2608.13746",
-      "summary": "arXiv:2608.13746v1 Announce Type: new Abstract: Multiband Fano resonances are demonstrated in the near-infrared (near-IR) using an all-dielectric metasurface whose unit cell consists of four silicon nanoblocks on a glass…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Interactive, Automated 4D-STEM data acquisition and analysis routine for Scanning Electron Nanobeam Diffraction and Ptychography experiments",
-      "url": "https://arxiv.org/abs/2608.13752",
-      "summary": "arXiv:2608.13752v1 Announce Type: new Abstract: Modern transmission electron microscopes are versatile instruments which have become indispensable tools for understanding structure and chemical composition at the nano- a…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-dimensional Galerkin projection models for predicting turbulent secondary mean flow in a square duct",
-      "url": "https://arxiv.org/abs/2608.13771",
-      "summary": "arXiv:2608.13771v1 Announce Type: new Abstract: The presence of sidewalls in turbulent duct flows leads to the emergence of secondary flow structures in the form of counter-rotating streamwise vortices near the corners (…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fully fiber-integrated endoscopic OCT probes by single-step two-photon 3D printing",
-      "url": "https://arxiv.org/abs/2608.13772",
-      "summary": "arXiv:2608.13772v1 Announce Type: new Abstract: Optical coherence tomography (OCT) provides depth-resolved, label-free imaging of microstructure and has become a central modality for optical biopsy. Bringing this capabil…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }

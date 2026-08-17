@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-17T21:27:32.668Z",
+  "updated": "2026-08-17T22:26:24.797Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "HEO to use Planet satellites for non-Earth imaging",
+      "url": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/",
+      "summary": "HEO, the Australian company that uses Earth observation satellites to take images of other spacecraft, has signed an agreement with Planet to access that company’s satellites The post HEO to use Planet satellites for non…",
+      "ts": 1787004000000,
+      "publishedAt": "2026-08-17T22:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Albumin-Fused Antibodies May Reduce Fetal Exposure to Therapeutics",
@@ -21,6 +30,15 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "NASA Selects Companies to Provide Payload Processing Services",
+      "url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/",
+      "summary": "NASA has selected four companies to provide payload processing facilities under the Spacecraft Processing Operations Contract on‑ramp provision. The provision enables qualified providers to offer commercial payload proce…",
+      "ts": 1786997840000,
+      "publishedAt": "2026-08-17T20:17:20.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Malaria Mosquito Bites Turned Into Immune Boosters in New Chemovaccination Strategy",
       "url": "https://www.genengnews.com/topics/infectious-diseases/malaria-mosquito-bites-turned-into-immune-boosters-in-new-chemovaccination-strategy/",
@@ -28,6 +46,15 @@
       "ts": 1786995840000,
       "publishedAt": "2026-08-17T19:44:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Mission Studies Air Pollution Over Ethiopia",
+      "url": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
+      "summary": "A NASA-funded air pollution monitoring network has provided one of the most detailed long-term views yet of the role of black carbon, or soot produced by fires, diesel vehicles, and other combustion sources, in Ethiopia’…",
+      "ts": 1786994674000,
+      "publishedAt": "2026-08-17T19:24:34.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -64,6 +91,15 @@
       "ts": 1786989618000,
       "publishedAt": "2026-08-17T18:00:18.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Next Generation of Planetary Scientists Learn Public Engagement Skills",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/next-generation-of-planetary-scientists-learn-public-engagement-skills/",
+      "summary": "FORCE is a world-class laboratory that uses high-pressure experimental equipment to recreate the extreme conditions found deep within Earth and other planetary bodies, enabling researchers to better understand how planet…",
+      "ts": 1786989162000,
+      "publishedAt": "2026-08-17T17:52:42.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -390,15 +426,6 @@
       "categoryId": "space"
     },
     {
-      "source": "STAT",
-      "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
-      "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
-      "summary": "Private equity deals for practice management firms are declining sharply.",
-      "ts": 1786939260000,
-      "publishedAt": "2026-08-17T04:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
       "source": "NASA",
       "title": "Chasing Fire Clouds in Utah",
       "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
@@ -406,6 +433,15 @@
       "ts": 1786939260000,
       "publishedAt": "2026-08-17T04:01:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
+      "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
+      "summary": "Private equity deals for practice management firms are declining sharply.",
+      "ts": 1786939260000,
+      "publishedAt": "2026-08-17T04:01:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
@@ -775,42 +811,6 @@
       "ts": 1786795200000,
       "publishedAt": "2026-08-15T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "NASA",
-      "title": "Summer Triangle Corner: Deneb",
-      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/summer-triangle-corner-deneb/",
-      "summary": "Bird constellations abound in the night sky, including Cygnus, the majestic swan. Easy to find with its dazzling stars, it is one of the few constellations that look like its namesake, and it is full of treasures. Visibl…",
-      "ts": 1786788000000,
-      "publishedAt": "2026-08-15T10:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 15 – Bright Perseids from Sweden",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden/",
-      "summary": "APOD Science APOD APOD: 2026 August 15 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
-      "ts": 1786766700000,
-      "publishedAt": "2026-08-15T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "U.S. Space Force adds second surveillance sensor to Japanese constellation",
-      "url": "https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/",
-      "summary": "The Aug. 10 launch of QZS-7 completes bilateral program to host U.S. sensors aboard Japanese navigation satellites The post U.S. Space Force adds second surveillance sensor to Japanese constellation appeared first on Spa…",
-      "ts": 1786746387000,
-      "publishedAt": "2026-08-14T22:26:27.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Wallops gears up for an increase in launches",
-      "url": "https://spacenews.com/wallops-gears-up-for-an-increase-in-launches/",
-      "summary": "With a projected surge in launches from Wallops Island in the coming years, companies and officials say now is the time for infrastructure improvements to benefit companies and their workers. The post Wallops gears up fo…",
-      "ts": 1786744948000,
-      "publishedAt": "2026-08-14T22:02:28.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
