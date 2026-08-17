@@ -1,12 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-17T12:48:03.945Z",
+  "updated": "2026-08-17T13:40:40.486Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Akeso and Summit’s lung cancer drug shows worsening tumor-progression benefit",
+      "url": "https://www.statnews.com/2026/08/17/biotech-news-akeso-summit-ivonescimabs-worsening-tumor-progression-benefit/?utm_campaign=rss",
+      "summary": "Europe pulls Tavneos over trial integrity concerns, pricing concerns over AstraZeneca's hypertension drug, and more biotech news from The Readout",
+      "ts": 1786973895000,
+      "publishedAt": "2026-08-17T13:38:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an AstraZeneca setback, falling U.S. drug prices, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/17/astrazeneca-lung-cancer-setback-falling-drug-prices/?utm_campaign=rss",
+      "summary": "AstraZeneca is discontinuing a late-stage drug trial in patients with metastatic non-small cell lung cancer, extending a run of setbacks",
+      "ts": 1786972937000,
+      "publishedAt": "2026-08-17T13:22:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Your AI Is Only as Good as Your Inputs",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/your-ai-is-only-as-good-as-your-inputs/",
+      "summary": "Augustė Užuotaitė of Thermo Fisher Scientific feels the real innovation ahead is not just smarter software or technology. It is robust assay design, reagent chemistry, and consumables designed for automated workflows: st…",
+      "ts": 1786972449000,
+      "publishedAt": "2026-08-17T13:14:09.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "Securing the Infrastructure of Intelligence",
       "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "summary": "AI factories are the defining infrastructure of the AI era—where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories …",
+      "summary": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factorie…",
       "ts": 1786970091000,
       "publishedAt": "2026-08-17T12:34:51.000Z",
       "categoryId": "ai-compute"
@@ -154,6 +181,24 @@
       "ts": 1786946400000,
       "publishedAt": "2026-08-17T06:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "The Defender’s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "ts": 1786944600000,
+      "publishedAt": "2026-08-17T05:30:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "ts": 1786942800000,
+      "publishedAt": "2026-08-17T05:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -766,51 +811,6 @@
       "ts": 1786712400000,
       "publishedAt": "2026-08-14T13:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells",
-      "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The p…",
-      "ts": 1786709841000,
-      "publishedAt": "2026-08-14T12:17:21.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Blue Origin outlines plans for second Cape Canaveral launch pad",
-      "url": "https://spacenews.com/blue-origin-outlines-plans-for-second-cape-canaveral-launch-pad/",
-      "summary": "Blue Origin disclosed new details about its plans to not only rebuild but also expand its Florida launch site, adding a second pad for a larger version of New Glenn. The post Blue Origin outlines plans for second Cape Ca…",
-      "ts": 1786709313000,
-      "publishedAt": "2026-08-14T12:08:33.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA approves Bristol multiple myeloma treatment, marking debut of novel drug class",
-      "url": "https://www.statnews.com/2026/08/14/fda-approves-bristol-multiple-myeloma-drug-zenbexus/?utm_campaign=rss",
-      "summary": "The FDA approved a treatment for advanced multiple myeloma made by Bristol Myers Squibb, marking the debut of a new class of drugs for the blood cancer.",
-      "ts": 1786709021000,
-      "publishedAt": "2026-08-14T12:03:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168149",
-      "summary": "As amber heat-health alerts spread across England this summer, a new study has found that the warnings are being received – but not changing behaviour.",
-      "ts": 1786708800000,
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Ebola is winning’: Epidemic now killing one person every 30 minutes",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168148",
-      "summary": "The Ebola outbreak in the eastern Democratic Republic of the Congo (DRC) – the fastest-growing on record and on track to become the deadliest – is killing one person every 30 minutes.",
-      "ts": 1786708800000,
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-17T12:48:02.184Z",
+  "updated": "2026-08-17T13:40:36.489Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Survey finds social work needs clearer ethical guidance for AI use",
+      "url": "https://phys.org/news/2026-08-survey-social-clearer-ethical-guidance.html",
+      "summary": "Much like the automobile a century earlier, generative artificial intelligence has arrived in society with significant concerns. Just as cities and towns learned that cars required limits governing their use and developm…",
+      "ts": 1786974001000,
+      "publishedAt": "2026-08-17T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Poor genetic health threatens many species—but it's fixable",
+      "url": "https://phys.org/news/2026-08-poor-genetic-health-threatens-species.html",
+      "summary": "By the early 1990s, there were only around 20 Florida panthers left on the planet.",
+      "ts": 1786972802000,
+      "publishedAt": "2026-08-17T13:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young people more likely to hold hostile attitudes toward women, study finds",
+      "url": "https://phys.org/news/2026-08-young-people-hostile-attitudes-women.html",
+      "summary": "Young people are significantly more likely than older generations to hold hostile attitudes toward women, and these attitudes are being reflected in classroom behavior, according to new research from the University of Me…",
+      "ts": 1786971603000,
+      "publishedAt": "2026-08-17T13:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two eyeless shrimp-like species found in Japan's groundwater are new to science",
+      "url": "https://phys.org/news/2026-08-eyeless-shrimp-species-japan-groundwater.html",
+      "summary": "Researchers have identified two new species in the genus Bogidiella, small shrimp-like amphipods that live in subterranean aquatic environments, from cave waters on the Ryukyu Islands, a subtropical island chain in south…",
+      "ts": 1786971601000,
+      "publishedAt": "2026-08-17T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Dark matter may be gravitationally lensing a likely source of cosmic neutrinos",
@@ -767,38 +799,6 @@
       "title": "Uncertainty quantification of reacting fluids interacting with porous media using a hybrid physics-based and data-driven approach",
       "url": "https://arxiv.org/abs/2510.03649",
       "summary": "arXiv:2510.03649v2 Announce Type: replace Abstract: Accurately simulating coupled physical processes under uncertainty is essential for reliable modeling and design in performance-critical applications such as combustion…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rapid multi-mode trapped-ion laser cooling in a phase-stable standing wave",
-      "url": "https://arxiv.org/abs/2512.10900",
-      "summary": "arXiv:2512.10900v3 Announce Type: replace Abstract: Laser cooling is fundamental to quantum computing and metrology using atomic systems. Precise control often requires cooling atoms' motional degrees of freedom to the q…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Validating the Boltzmann approach to the Large-Eddy simulations of forced homogeneous incompressible turbulence",
-      "url": "https://arxiv.org/abs/2512.23116",
-      "summary": "arXiv:2512.23116v2 Announce Type: replace Abstract: The simulation of turbulent flows remains a central challenge, as even our most powerful computers cannot resolve the finest scales of motion in many flows of practical…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "It's Not the Tool, It's the Task: A Framework for Cognitively Activated AI Augmentation in Physics Instruction",
-      "url": "https://arxiv.org/abs/2601.13812",
-      "summary": "arXiv:2601.13812v3 Announce Type: replace Abstract: Generative artificial intelligence (AI) systems can now reliably solve many standard tasks used in introductory physics courses, producing correct equations, graphs, an…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Amplified up-conversion of electromagnetic waves using time-varying metasurfaces",
-      "url": "https://arxiv.org/abs/2602.08193",
-      "summary": "arXiv:2602.08193v2 Announce Type: replace Abstract: Time-varying metamaterials and photonic time crystals offer a powerful route to wave amplification through temporal modulation of material parameters. Here, we experime…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }
