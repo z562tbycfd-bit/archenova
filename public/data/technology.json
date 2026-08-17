@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-17T22:26:24.797Z",
+  "updated": "2026-08-17T23:24:59.024Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -426,15 +426,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Chasing Fire Clouds in Utah",
-      "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
-      "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
-      "ts": 1786939260000,
-      "publishedAt": "2026-08-17T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
       "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
@@ -442,6 +433,15 @@
       "ts": 1786939260000,
       "publishedAt": "2026-08-17T04:01:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Chasing Fire Clouds in Utah",
+      "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
+      "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
+      "ts": 1786939260000,
+      "publishedAt": "2026-08-17T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",

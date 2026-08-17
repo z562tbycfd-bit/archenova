@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-17T22:26:23.070Z",
+  "updated": "2026-08-17T23:24:53.447Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Male Neanderthal pelvises resemble those of modern females, challenging decades-old assumptions",
+      "url": "https://phys.org/news/2026-08-male-neanderthal-pelvises-resemble-modern.html",
+      "summary": "A new study by the Department of Anatomy and Anthropology at Tel Aviv University, published in Scientific Reports, offers an explanation for one of the striking differences between men and women: the evolutionary develop…",
+      "ts": 1787008803000,
+      "publishedAt": "2026-08-17T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trying to compete with China could slow global climate action, report warns",
+      "url": "https://phys.org/news/2026-08-china-global-climate-action.html",
+      "summary": "China's dominance of key green technologies is helping to subsidize the global transition to a low-carbon economy, but trade tensions could make it harder for other countries to meet their climate targets, according to a…",
+      "ts": 1787008801000,
+      "publishedAt": "2026-08-17T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Red blood cells inspire next-generation therapeutic nanocarriers",
+      "url": "https://phys.org/news/2026-08-red-blood-cells-generation-therapeutic.html",
+      "summary": "Red blood cells serve as the foundation for nanocarriers that show promise in a new study as effective and efficient vehicles for gene therapy, tumor targeting and other medical treatments. Scientists at The Ohio State U…",
+      "ts": 1787007601000,
+      "publishedAt": "2026-08-17T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Time-gating technique sees through deep tissue, dense fog, and other obstacles",
+      "url": "https://phys.org/news/2026-08-gating-technique-deep-tissue-dense.html",
+      "summary": "From helping doctors detect cancer to guiding self-driving cars through traffic, many modern imaging systems rely on near-infrared light, producing a crisp picture when visible light would scatter and yield a blurry pict…",
+      "ts": 1787006403000,
+      "publishedAt": "2026-08-17T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researcher is trying to save biodiverse landscapes, one unkempt garden at a time",
+      "url": "https://phys.org/news/2026-08-biodiverse-landscapes-unkempt-garden.html",
+      "summary": "You've probably seen it before: A native garden starts out lush and intentional, then slowly unravels. A meadow is overtaken by weeds. Native grasses are cut down to sad little stumps. A pollinator garden somehow loses i…",
+      "ts": 1787006401000,
+      "publishedAt": "2026-08-17T22:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hubble solves merger mystery from Milky Way's early years",
@@ -759,46 +799,6 @@
       "title": "Unknown Unknowns: Model Misspecification in Machine Learning for Physics",
       "url": "https://arxiv.org/abs/2608.13633",
       "summary": "arXiv:2608.13633v1 Announce Type: new Abstract: Machine learning is now a central tool for solving inverse problems in particle physics and astronomy. Models are trained on simulation and deployed on real data, raising t…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From the Earth to the Sun",
-      "url": "https://arxiv.org/abs/2608.13635",
-      "summary": "arXiv:2608.13635v1 Announce Type: new Abstract: This year marks 360 years since the founding of the French Academy of Sciences. This is the story of the academy's daring 17th century expedition to measure the Earth-sun d…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual-species alkali and alkaline-earth-like optical tweezer arrays via interferometrically aligned high-NA objectives",
-      "url": "https://arxiv.org/abs/2608.13646",
-      "summary": "arXiv:2608.13646v1 Announce Type: new Abstract: We have developed a dual-species optical tweezer array apparatus combining $^{87}\\text{Rb}$ and $^{174}\\text{Yb}$ atoms with a permanent hybrid Twyman-Green--Fizeau interfe…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalized space-charge solver for three-dimensional converging or diverging beams",
-      "url": "https://arxiv.org/abs/2608.13683",
-      "summary": "arXiv:2608.13683v1 Announce Type: new Abstract: Nonlinear space-charge effects play a critical role in the dynamics of high-intensity, high-brightness beams. While conventional space-charge forces scale inversely with th…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strong-field Herman-Kluk propagator method for high-harmonic generation in molecules",
-      "url": "https://arxiv.org/abs/2608.13686",
-      "summary": "arXiv:2608.13686v1 Announce Type: new Abstract: We extend our recently developed semiclassical strong-field Herman-Kluk (SFHK) propagator method to calculate high-order harmonic generation (HHG) in diatomic molecules dri…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Precision calculations of the hyperfine constants and isotope and isomer shifts in low-lying states of 229Th3+",
-      "url": "https://arxiv.org/abs/2608.13700",
-      "summary": "arXiv:2608.13700v1 Announce Type: new Abstract: We present high-precision calculations of the hyperfine constants, isotope shift, and isomer shift in low-lying states of Th3+ relevant to spectroscopy of the 229Th nuclear…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }
