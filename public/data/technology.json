@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-17T20:29:19.646Z",
+  "updated": "2026-08-17T21:27:32.668Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Albumin-Fused Antibodies May Reduce Fetal Exposure to Therapeutics",
+      "url": "https://www.genengnews.com/topics/drug-discovery/albumin-fused-antibodies-may-reduce-fetal-exposure-to-therapeutics/",
+      "summary": "Preclinical study found that fusing immunoglobulin G (IgG) antibodies to albumin minimized antibody transport across the placenta and prevented adverse effects in offspring in mice, pointing to albumin as an attractive f…",
+      "ts": 1787000785000,
+      "publishedAt": "2026-08-17T21:06:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "New EU sanctions target leaders of Russia’s space industry",
+      "url": "https://spacenews.com/new-eu-sanctions-target-leaders-of-russias-space-industry/",
+      "summary": "JOHANNESBURG — The European Union has sanctioned the head of a Roscosmos subsidiary developing a synthetic aperture radar satellite system for the Russian military. The sanctions are part of what […] The post New EU sanc…",
+      "ts": 1787000713000,
+      "publishedAt": "2026-08-17T21:05:13.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Malaria Mosquito Bites Turned Into Immune Boosters in New Chemovaccination Strategy",
@@ -792,24 +810,6 @@
       "summary": "With a projected surge in launches from Wallops Island in the coming years, companies and officials say now is the time for infrastructure improvements to benefit companies and their workers. The post Wallops gears up fo…",
       "ts": 1786744948000,
       "publishedAt": "2026-08-14T22:02:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Epic’s alleged anticompetitive practices under scrutiny from federal, state investigators",
-      "url": "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/?utm_campaign=rss",
-      "summary": "Epic Systems is the subject of a broad inquiry into its business practices, people who were contacted by FTC investigators told STAT.",
-      "ts": 1786741208000,
-      "publishedAt": "2026-08-14T21:00:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies ",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-competition-invites-students-to-help-imagine-a-future-enabled-by-lunar-technologies/",
-      "summary": "NASA is asking U.S.-based collegiate teams to submit bold, original concepts to the 2027 edition of a student challenge focused on aerospace innovation that could help the agency envision a future on the Moon shaped by n…",
-      "ts": 1786737638000,
-      "publishedAt": "2026-08-14T20:00:38.000Z",
       "categoryId": "space"
     }
   ],

@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-17T20:29:17.616Z",
+  "updated": "2026-08-17T21:27:28.889Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How rugged gullies protect hidden rainforests in the Greater Blue Mountains",
+      "url": "https://phys.org/news/2026-08-rugged-gullies-hidden-rainforests-greater.html",
+      "summary": "Researchers have uncovered rainforest communities previously hidden within the rugged gullies of the Greater Blue Mountains World Heritage Area that are protecting vegetation not known to grow anywhere else.",
+      "ts": 1787001603000,
+      "publishedAt": "2026-08-17T21:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Butterflies on the move to higher ground as warming redraws Alpine habitats",
+      "url": "https://phys.org/news/2026-08-butterflies-higher-ground-redraws-alpine.html",
+      "summary": "Climate change presents animals and plants with a fundamental challenge: What can they do when their established habitats become increasingly warm? They can adapt to the changing conditions—or move to areas where the cli…",
+      "ts": 1787001601000,
+      "publishedAt": "2026-08-17T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brazil's vast coastline could help address food insecurity through sustainable seafood",
+      "url": "https://phys.org/news/2026-08-brazil-vast-coastline-food-insecurity.html",
+      "summary": "New research into seafood consumption and production in Brazil highlights how one of the world's most populous countries could build healthier and more sustainable food systems by encouraging people to eat more seafood, …",
+      "ts": 1787001001000,
+      "publishedAt": "2026-08-17T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Observations since 1850 reveal regional climate fingerprints of human-induced warming",
+      "url": "https://phys.org/news/2026-08-reveal-regional-climate-fingerprints-human.html",
+      "summary": "There is no question that the current global temperature increase is human-caused. Global warming has long since emerged as the dominant signal amid natural climate fluctuations. However, identifying how this warming man…",
+      "ts": 1787000405000,
+      "publishedAt": "2026-08-17T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineered E. coli convert kimchi radish waste into biodegradable bioplastic",
+      "url": "https://phys.org/news/2026-08-coli-kimchi-radish-biodegradable-bioplastic.html",
+      "summary": "Every year, thousands of tons of radish by-products generated during kimchi production are discarded despite containing valuable carbon and nutrient resources. Researchers at the World Institute of Kimchi (WiKim) have de…",
+      "ts": 1787000404000,
+      "publishedAt": "2026-08-17T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How plants selectively silence jumping genes while protecting essential ones",
+      "url": "https://phys.org/news/2026-08-silence-genes-essential.html",
+      "summary": "Histone variants help establish DNA methylation at transposons (jumping genes) while preventing this epigenetic modification from spreading to essential genes in plants, a study from the Institute of Science Tokyo reveal…",
+      "ts": 1786999203000,
+      "publishedAt": "2026-08-17T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From Google to ChatGPT, physics students increasingly seek answers through conversational AI",
+      "url": "https://phys.org/news/2026-08-google-chatgpt-physics-students-conversational.html",
+      "summary": "Students around the world are increasingly turning to artificial intelligence tools such as ChatGPT to find answers to questions about physics, according to a new study led by researchers at Bar-Ilan University.",
+      "ts": 1786999201000,
+      "publishedAt": "2026-08-17T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Locust neurons detect PFAS at environmentally relevant levels, pointing to portable sensors",
+      "url": "https://phys.org/news/2026-08-locust-neurons-pfas-environmentally-relevant.html",
+      "summary": "Researchers at Michigan State University have discovered that neurons in a locust's brain can distinguish among multiple PFAS compounds, including PFOS, one of the world's most common \"forever chemicals,\" at environmenta…",
+      "ts": 1786998602000,
+      "publishedAt": "2026-08-17T20:30:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Despite appearing to recover, sunflowers retain drought damage",
@@ -500,6 +564,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
+      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
+      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Complete-Coverage Searches for Lorentz Violation in the Minimal Matter Sector",
       "url": "http://link.aps.org/doi/10.1103/ckyj-bbfl",
       "summary": "Author(s): Marshall J. Basson, Eric Biddulph-West, Caitlyn Holl, Will Lankenau, Facundo Martin Lopez, Bianca Rose Lott, Chihui Shao, Danny P. Shope, Jay D. Tasson, and Zhiyu Zhang All 43 previously unconstrained Lorentz-…",
@@ -519,6 +591,14 @@
       "title": "Evidence of Nuclear Geometry-Driven Anisotropic Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions at $\\sqrt{{s}_{\\mathrm{NN}}}=5.36\\text{ }\\text{ }\\mathrm{TeV}$",
       "url": "http://link.aps.org/doi/10.1103/gymp-vp87",
       "summary": "Author(s): I. J. Abualrob et al. (ALICE Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due t…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
+      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
+      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
@@ -572,33 +652,17 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Curved Odd Elasticity",
-      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
-      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
-      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
-      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
-      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
-      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
       "url": "http://link.aps.org/doi/10.1103/gl65-17z7",
       "summary": "Author(s): Qianli Ma, Brianna R. Billingsley, Alin Niraula, Madalynn Marshall, David A. Dahlbom, Yiqing Hao, Daniel M. Pajerowski, Alexander I. Kolesnikov, Xiaojian Bai, Cristian D. Batista, Tai Kong, and Huibo Cao We re…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Curved Odd Elasticity",
+      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
+      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
@@ -735,70 +799,6 @@
       "title": "Fully fiber-integrated endoscopic OCT probes by single-step two-photon 3D printing",
       "url": "https://arxiv.org/abs/2608.13772",
       "summary": "arXiv:2608.13772v1 Announce Type: new Abstract: Optical coherence tomography (OCT) provides depth-resolved, label-free imaging of microstructure and has become a central modality for optical biopsy. Bringing this capabil…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shaper-based dispersion scan for the characterization of polarization-shaped laser fields",
-      "url": "https://arxiv.org/abs/2608.13778",
-      "summary": "arXiv:2608.13778v1 Announce Type: new Abstract: We present a pulse-shaper-based dispersion-scan (d-scan) framework for the combined generation and characterization of polarization-tailored femtosecond laser fields. By in…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective Excitonic Entanglement in Singlet Fission",
-      "url": "https://arxiv.org/abs/2608.13785",
-      "summary": "arXiv:2608.13785v1 Announce Type: new Abstract: Singlet fission, the conversion of one singlet exciton into two triplet excitons, has the potential to revolutionize solar energy production by boosting the efficiency of s…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cross-frequency amplification of perturbations in a laminar separation bubble using resolvent analysis",
-      "url": "https://arxiv.org/abs/2608.13788",
-      "summary": "arXiv:2608.13788v1 Announce Type: new Abstract: A large-eddy simulation (LES) of a laminar separation bubble (LSB) induced by an adverse pressure gradient over a flat plate is performed at an inflow displacement-thicknes…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intracavity THz generation using a thin lithium niobate plate in a compact Kerr-lens mode-locked Yb:CALGO bulk oscillator",
-      "url": "https://arxiv.org/abs/2608.13794",
-      "summary": "arXiv:2608.13794v1 Announce Type: new Abstract: We demonstrate intracavity terahertz (THz) generation via optical rectification in a 50-m-thick lithium niobate crystal placed inside a compact diode-pumped Kerr-lens mode-…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Label-Free Deep-Tissue Peripheral Nerve Detection with a Handheld Multimodal OCT Probe and NerveDetNet",
-      "url": "https://arxiv.org/abs/2608.13807",
-      "summary": "arXiv:2608.13807v1 Announce Type: new Abstract: Peripheral nerves buried beneath intact tissue are difficult to visualize during surgery and remain inaccessible to white light wide-field imaging and other surface optical…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Photothermal Transients to Effective Transport Operators: An Operator-Based Interpretation of TTG Dynamics",
-      "url": "https://arxiv.org/abs/2608.13813",
-      "summary": "arXiv:2608.13813v1 Announce Type: new Abstract: Transient thermal grating (TTG) measurements probe thermal transport on submicrometer spatial and subnanosecond temporal scales, where departures from purely diffusive beha…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Internal Temperature and Center-of-Mass Dynamics of a Levitated Nanoparticle: A Simulator",
-      "url": "https://arxiv.org/abs/2608.13816",
-      "summary": "arXiv:2608.13816v1 Announce Type: new Abstract: This document describes the models used in the simulator for the dynamics of a nanoparticle levitated in a Paul trap combined with an optical tweezer. The focus is the coup…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Classification of Intracellular Protein Patterns from Reactive Equilibria",
-      "url": "https://arxiv.org/abs/2608.13821",
-      "summary": "arXiv:2608.13821v1 Announce Type: new Abstract: Self-organized spatial patterns are central to nonequilibrium physics and cell biology, yet locating instabilities in multi-component, reaction-diffusion networks remains c…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }
