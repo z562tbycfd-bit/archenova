@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-16T23:21:34.776Z",
+  "updated": "2026-08-17T01:22:39.132Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Giant crocodylians dominated the food chain in Miocene South America, fossil evidence suggests",
+      "url": "https://phys.org/news/2026-08-giant-crocodylians-dominated-food-chain.html",
+      "summary": "South America was a frightening place during the Miocene. More than 10 million years ago, a vast lake covered much of the continent, home to giant turtles and crocodylians.",
+      "ts": 1786928404000,
+      "publishedAt": "2026-08-17T01:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Flightless beetles evolved distinct snail-hunting shapes on Japan's largest island",
+      "url": "https://phys.org/news/2026-08-flightless-beetles-evolved-distinct-snail.html",
+      "summary": "Islands are widely recognized as natural laboratories of evolution. The ocean restricts movement among islands, allowing isolated populations to adapt to different environments and, at times, diverge into new species. Ho…",
+      "ts": 1786925401000,
+      "publishedAt": "2026-08-17T00:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Radio telescopes help scientists map molecules in space and uncover where and how stars form",
@@ -783,22 +799,6 @@
       "title": "Rethinking Normalization Placement for LLMs: Post-Norm under Curriculum Depth Growing",
       "url": "https://arxiv.org/abs/2608.13156",
       "summary": "arXiv:2608.13156v1 Announce Type: new Abstract: Pre-norm is the standard normalization placement in modern Transformers because it facilitates joint optimization of full-depth models. We ask whether this preference persi…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SkillShapley: Boundary-Adaptive Shapley Valuation for Skill Step Attribution in LLM Agents",
-      "url": "https://arxiv.org/abs/2608.13173",
-      "summary": "arXiv:2608.13173v1 Announce Type: new Abstract: Agent skills are crucial external instructions that enable language agents to execute long procedural tasks such as coding or document processing. Existing agent skills are…",
-      "ts": 1786766400000,
-      "publishedAt": "2026-08-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Teach the Magnitude, Not the Direction: Verifier-Bounded Credit Assignment for Multi-Turn Multi-step LLM Agents",
-      "url": "https://arxiv.org/abs/2608.13179",
-      "summary": "arXiv:2608.13179v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) offers a verifier-bounded performance ceiling for training multi-turn tool-use agents, yet its trajectory-level credit…",
       "ts": 1786766400000,
       "publishedAt": "2026-08-15T04:00:00.000Z"
     }
