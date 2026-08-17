@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-17T18:41:55.905Z",
+  "updated": "2026-08-17T19:30:03.859Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tiny feet on cells can sense defects and stall migration to heal wounds",
+      "url": "https://phys.org/news/2026-08-tiny-feet-cells-defects-stall.html",
+      "summary": "Cells travel through the body both individually and in collective groups during development, wound healing and diseases such as cancer. New research from the McKelvey School of Engineering at Washington University in St.…",
+      "ts": 1786994406000,
+      "publishedAt": "2026-08-17T19:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Entertainment value of European soccer remains high despite top clubs' dominance",
+      "url": "https://phys.org/news/2026-08-european-soccer-high-clubs-dominance.html",
+      "summary": "The appeal of soccer matches to spectators is a key factor in the success of professional sports leagues. League officials therefore seek to make competitions as interesting as possible. But how can the appeal of matches…",
+      "ts": 1786994401000,
+      "publishedAt": "2026-08-17T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "35-year monitoring study clarifies ecological forces behind Lyme disease risk",
+      "url": "https://phys.org/news/2026-08-year-ecological-lyme-disease.html",
+      "summary": "Tick-borne diseases are on the rise in the United States. Lyme disease is the most commonly reported, with nearly half a million people diagnosed each year. Caused by the bacterium Borrelia burgdorferi, it is most often …",
+      "ts": 1786993212000,
+      "publishedAt": "2026-08-17T19:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient Austronesian seafarers carried symbolic art 4,000 years ago",
+      "url": "https://phys.org/news/2026-08-ancient-austronesian-seafarers-art-years.html",
+      "summary": "A 4,000-year-old painted stone plaque discovered on a remote Indonesian island is the first known example of portable art belonging to the Austronesian Painting Tradition (APT), providing a rare glimpse into the symbolic…",
+      "ts": 1786993208000,
+      "publishedAt": "2026-08-17T19:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Known' TB gene reveals completed unexpected biological role under stress",
+      "url": "https://phys.org/news/2026-08-tb-gene-reveals-unexpected-biological.html",
+      "summary": "The complete genome of the tuberculosis bacterium was sequenced and published in 1998. Since then, scientists have deciphered about two-thirds of TB's genes. Or have they?",
+      "ts": 1786993206000,
+      "publishedAt": "2026-08-17T19:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change is driving some entire communities to relocate, but simply moving isn't enough",
+      "url": "https://phys.org/news/2026-08-climate-entire-communities-relocate-simply.html",
+      "summary": "The abandoned houses of Old Podampetta on India's east coast tell the story of a small fishing village that no longer exists. Families once woke up to the sound of the sea and made their living by reading the tides and w…",
+      "ts": 1786993204000,
+      "publishedAt": "2026-08-17T19:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Gluons may play a central role in baryon number conservation—and matter's stability",
@@ -751,54 +799,6 @@
       "title": "PhysTrackX: Open-Source Software for Kinematics Tracking for the Physics Laboratory",
       "url": "https://arxiv.org/abs/2608.13977",
       "summary": "arXiv:2608.13977v1 Announce Type: new Abstract: Video analysis software is a staple of the modern undergraduate physics laboratory, enabling students to extract quantitative kinematic data from real-world phenomena. In t…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-quantum-channel mediated tunable single-photon skyrmions from metasurfaces",
-      "url": "https://arxiv.org/abs/2608.13984",
-      "summary": "arXiv:2608.13984v1 Announce Type: new Abstract: Quantum optical skyrmions, as topologically robust quantum information carriers, hold transformative potential for resilient high-dimensional quantum information networks. …",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transient Chirp Dynamics in Terahertz Quantum Cascade Lasers",
-      "url": "https://arxiv.org/abs/2608.14000",
-      "summary": "arXiv:2608.14000v1 Announce Type: new Abstract: Laser frequency chirp is a ubiquitous dynamical process in semiconductor lasers, vital for frequency-modulated photonic systems. In the mid-infrared (MIR) and terahertz (TH…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Huygens' principle and field equivalence relations for cylindrical enclosing surfaces",
-      "url": "https://arxiv.org/abs/2608.14005",
-      "summary": "arXiv:2608.14005v1 Announce Type: new Abstract: Frequency-domain Huygens' principle and equivalence relations for an infinitely long cylindrical surface enclosing the field sources or scatterers are addressed. Assuming t…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Different Environments in Quantum Statistical Mechanics: To $\\beta$ or not to $(k_{\\mathrm{B}} T)^{-1}$",
-      "url": "https://arxiv.org/abs/2608.14050",
-      "summary": "arXiv:2608.14050v1 Announce Type: new Abstract: We piece together textbook material to re-derive the parameter $\\beta$ entering reduced density operators from quantum statistical mechanics. By re-deriving $\\beta$, we sho…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Linear-response time-dependent density-functional theory with local range separation: Core and valence resonances of the neon atom",
-      "url": "https://arxiv.org/abs/2608.14052",
-      "summary": "arXiv:2608.14052v1 Announce Type: new Abstract: We investigate range-separated hybrids (RSHs) and locally range-separated hybrids (LRSHs) for linear-response time-dependent density-functional theory (TDDFT) Sternheimer c…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reaction-Transformation-Aware Flow Matching for Generalizable Transition State Generation",
-      "url": "https://arxiv.org/abs/2608.14076",
-      "summary": "arXiv:2608.14076v1 Announce Type: new Abstract: Transition-state (TS) structures define the energetic barriers and mechanistic pathways of elementary chemical reactions, yet their identification remains computationally d…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }

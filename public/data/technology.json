@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-17T18:42:00.277Z",
+  "updated": "2026-08-17T19:30:06.578Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Sanofi to lay off 229 workers in Mass., a year after $9.1B Blueprint Medicines acquisition",
+      "url": "https://www.statnews.com/2026/08/17/sanofi-layoffs-mass-blueprint-medicines/?utm_campaign=rss",
+      "summary": "Sanofi, one of the Massachusetts' largest pharmaceutical employers, will lay off more than 200 workers there a year after acquiring Blueprint Medicines.",
+      "ts": 1786994634000,
+      "publishedAt": "2026-08-17T19:23:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eyepoint study results for vision treatment disappoint, but company still sees promise",
+      "url": "https://www.statnews.com/2026/08/17/eyepoint-duravyu-wet-amd-study/?utm_campaign=rss",
+      "summary": "Eyepoint said patients given its experimental treatment for wet AMD failed to maintain vision with less frequent injections compared to a standard treatment.",
+      "ts": 1786992342000,
+      "publishedAt": "2026-08-17T18:45:42.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "University of Rhode Island Wins Grant to Study Cerebral Amyloid Angiopathy Prevalent in Alzheimer’s Patients",
@@ -793,24 +811,6 @@
       "ts": 1786732470000,
       "publishedAt": "2026-08-14T18:34:30.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Volunteer Develops Machine-Learning Tool to Identify Rare Clouds",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/volunteer-develops-machine-learning-tool-to-identify-rare-clouds/",
-      "summary": "Certain kinds of clouds are misbehaving – appearing more often and lower in the sky than they used to. To help identify the factors influencing these changes, scientists have asked people around the world with cameras to…",
-      "ts": 1786728946000,
-      "publishedAt": "2026-08-14T17:35:46.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
-      "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-      "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM I…",
-      "ts": 1786727585000,
-      "publishedAt": "2026-08-14T17:13:05.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
