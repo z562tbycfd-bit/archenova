@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-17T15:27:21.940Z",
+  "updated": "2026-08-17T16:29:53.334Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Colorful Collage of Tarantula Nebula",
+      "url": "https://www.nasa.gov/image-article/colorful-collage-of-tarantula-nebula/",
+      "summary": "Data from NASA’s Chandra X-ray Observatory, NASA’s James Webb Space Telescope, and NASA’s Hubble Space Telescope combine to reveal a vibrant view of 30 Doradus, or the Tarantula Nebula, in this Aug. 11, 2026, image. Loca…",
+      "ts": 1786982409000,
+      "publishedAt": "2026-08-17T16:00:09.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
+      "summary": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface. To help advance that capability, the Rock and Roll with NA…",
+      "ts": 1786979345000,
+      "publishedAt": "2026-08-17T15:09:05.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Solves Merger Mystery From Milky Way’s Early Years",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/",
+      "summary": "New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution.",
+      "ts": 1786978811000,
+      "publishedAt": "2026-08-17T15:00:11.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Roundup: Removing Impurities from Biomanufacturing",
@@ -246,15 +273,6 @@
       "categoryId": "space"
     },
     {
-      "source": "STAT",
-      "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
-      "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
-      "summary": "Private equity deals for practice management firms are declining sharply.",
-      "ts": 1786939260000,
-      "publishedAt": "2026-08-17T04:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
       "source": "NASA",
       "title": "Chasing Fire Clouds in Utah",
       "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
@@ -262,6 +280,15 @@
       "ts": 1786939260000,
       "publishedAt": "2026-08-17T04:01:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
+      "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
+      "summary": "Private equity deals for practice management firms are declining sharply.",
+      "ts": 1786939260000,
+      "publishedAt": "2026-08-17T04:01:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
@@ -784,33 +811,6 @@
       "ts": 1786722913000,
       "publishedAt": "2026-08-14T15:55:13.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "SFA Spectroscopy Chases Away Cloudy Samples",
-      "url": "https://www.genengnews.com/insights/sfa-spectroscopy-chases-away-cloudy-samples/",
-      "summary": "Scatter-free absorption spectroscopy quantifies RNA and ligands in cloudy LNPs within 15 seconds, accurately and repeatably. The post SFA Spectroscopy Chases Away Cloudy Samples appeared first on GEN - Genetic Engineerin…",
-      "ts": 1786721231000,
-      "publishedAt": "2026-08-14T15:27:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Back-to-School at USP",
-      "url": "https://www.genengnews.com/topics/drug-discovery/back-to-school-at-usp/",
-      "summary": "Brian McNally, PhD, director of global biologics marketing & strategic collaborations at USP provides his insight on building the workforce behind the next generation of medicines. Don't miss this August issue Point of V…",
-      "ts": 1786719738000,
-      "publishedAt": "2026-08-14T15:02:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Total Solar Eclipse in Sunflower Field",
-      "url": "https://www.nasa.gov/image-article/total-solar-eclipse-in-sunflower-field/",
-      "summary": "This composite image shows the progression of a total solar eclipse over San Millán de los Caballeros, Spain on, Wednesday, Aug. 12, 2026. A total solar eclipse swept across parts of Greenland, Iceland, northern Russia, …",
-      "ts": 1786718935000,
-      "publishedAt": "2026-08-14T14:48:55.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

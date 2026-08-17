@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-17T15:27:19.685Z",
+  "updated": "2026-08-17T16:29:50.712Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Trace elements offer new clues to mysterious black eye lesions in cats",
+      "url": "https://phys.org/news/2026-08-elements-clues-mysterious-black-eye.html",
+      "summary": "A distinctive black or dark brown lesion that appears on the eyes of some cats has long puzzled veterinarians. Now, researchers have identified two elements that may help explain what is happening inside the affected cor…",
+      "ts": 1786983608000,
+      "publishedAt": "2026-08-17T16:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can math prove that Humpty Dumpty was simply mismanaged?",
+      "url": "https://phys.org/news/2026-08-math-humpty-dumpty-simply-mismanaged.html",
+      "summary": "Humpty Dumpty had all the king's horses and all the king's men, but it wasn't enough to put him back together again. This raises the question: How many horses and men did he actually need?",
+      "ts": 1786983601000,
+      "publishedAt": "2026-08-17T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI learns to spot tomato diseases using nearly 9,000 field images",
+      "url": "https://phys.org/news/2026-08-ai-tomato-diseases-field-images.html",
+      "summary": "A breakthrough in AI-driven crop disease detection is set to reduce harvest losses and chemical-related health risks, thanks to a first-of-its-kind tomato leaf dataset comprising almost 9,000 images.",
+      "ts": 1786982407000,
+      "publishedAt": "2026-08-17T16:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "TikTok video leads to discovery of rare underground eel in India",
+      "url": "https://phys.org/news/2026-08-tiktok-video-discovery-rare-underground.html",
+      "summary": "Researchers have discovered a new genus and species of underground earthworm eel living beneath the Indo-Gangetic Plain in Bihar, northern India. The small, colorless creature, named Gangaichthys indonepalicus, is the fi…",
+      "ts": 1786982401000,
+      "publishedAt": "2026-08-17T16:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Snail slime does many jobs thanks to calcium",
+      "url": "https://www.sciencenews.org/article/snail-slime-mucus-many-jobs-calcium",
+      "summary": "Snails have five distinct types of mucus, each with its own job. The mollusks tweak calcium secretions to get the chemical mixture just right.",
+      "ts": 1786982400000,
+      "publishedAt": "2026-08-17T16:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia needs more people who think like scientists—here's what that means",
+      "url": "https://phys.org/news/2026-08-australia-people-scientists.html",
+      "summary": "How we think and feel about science develops from an early age—and we never know where that early interest might take us.",
+      "ts": 1786981208000,
+      "publishedAt": "2026-08-17T15:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Who's watching who? Otters turn their attention to humans",
+      "url": "https://phys.org/news/2026-08-otters-attention-humans.html",
+      "summary": "For many people, a trip to the zoo is a chance to watch playful otters dart through the water and chatter with one another. But while we may worry that crowds could stress the otter community, a new Australian study show…",
+      "ts": 1786981201000,
+      "publishedAt": "2026-08-17T15:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "We asked AI tools for financial advice: Results were practical, but with big blind spots",
@@ -193,6 +249,110 @@
       "summary": "About one in 10 teenagers experiences social anxiety—persistent and disruptive worries about being judged by classmates and other peers. In a new study of adolescents with social anxiety, researchers at the Cummings Scho…",
       "ts": 1786964401000,
       "publishedAt": "2026-08-17T11:00:01.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
+      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
+      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Complete-Coverage Searches for Lorentz Violation in the Minimal Matter Sector",
+      "url": "http://link.aps.org/doi/10.1103/ckyj-bbfl",
+      "summary": "Author(s): Marshall J. Basson, Eric Biddulph-West, Caitlyn Holl, Will Lankenau, Facundo Martin Lopez, Bianca Rose Lott, Chihui Shao, Danny P. Shope, Jay D. Tasson, and Zhiyu Zhang All 43 previously unconstrained Lorentz-…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Four-Loop Gluon Anomalous Dimension of General Lorentz Spin: Transcendental Part",
+      "url": "http://link.aps.org/doi/10.1103/g4l4-t4cv",
+      "summary": "Author(s): B. A. Kniehl, S.-O. Moch, V. N. Velizhanin, and A. Vogt We consider the anomalous dimension ${γ}_{gg}^{(3)}(N)$ of the twist-two gluon operator of arbitrary Lorentz spin $N$ in the quark flavor singlet sector …",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Evidence of Nuclear Geometry-Driven Anisotropic Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions at $\\sqrt{{s}_{\\mathrm{NN}}}=5.36\\text{ }\\text{ }\\mathrm{TeV}$",
+      "url": "http://link.aps.org/doi/10.1103/gymp-vp87",
+      "summary": "Author(s): I. J. Abualrob et al. (ALICE Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due t…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
+      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
+      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Deformation and Magicity in Heavy Actinides: First Observation of the Ground-State Rotational Band of $^{252}\\mathrm{Fm}$",
+      "url": "http://link.aps.org/doi/10.1103/7gzt-ldn5",
+      "summary": "Author(s): R. Orlandi et al. Observation of the ground-state rotational band in 252Fm provides compelling evidence that Z=100 and N=152 act as a deformed doubly magic shell closure. [Phys. Rev. Lett. 137, 082501] Publish…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Robust Two-Dimensional Surface Superconductivity and Vortex Lattice in the Weyl Semimetal $γ\\text{−}{\\mathrm{PtBi}}_{2}$",
+      "url": "http://link.aps.org/doi/10.1103/9cyw-m5zr",
+      "summary": "Author(s): Jose Antonio Moreno, Pablo García Talavera, Edwin Herrera, Sara López Valle, Zhuoqi Li, Lin-Lin Wang, Sergey Bud’ko, Alexander I. Buzdin, Isabel Guillamón, Paul C. Canfield, and Hermann Suderow Vortex formatio…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Quantized Spin Hall Effect in Three-Dimensional Nodal-Ring Semimetal: Geometric Scaling and Symmetry-Engineered Spin Response",
+      "url": "http://link.aps.org/doi/10.1103/74ky-d71n",
+      "summary": "Author(s): Jiali Chen, Chaoxi Cui, Zhi-Ming Yu, Wei Jiang, and Yugui Yao The anomalous Hall conductivity in magnetic Weyl semimetals scales linearly with the momentum separation between Weyl nodes, establishing a geometr…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Anomalous Hydrodynamic Fluctuations in the Quantum XXZ Spin Chain",
+      "url": "http://link.aps.org/doi/10.1103/jrtg-yf1q",
+      "summary": "Author(s): Takato Yoshimura, Žiga Krajnik, Alvise Bastianello, and Enej Ilievski The quantum XXZ spin-$1/2$ chain features non-Gaussian spin current fluctuations in the regime of easy-axis anisotropy. Using ballistic mac…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Quantized Chern-Simons Axion Coupling in Anomalous Floquet Systems",
+      "url": "http://link.aps.org/doi/10.1103/8l6h-b89b",
+      "summary": "Author(s): Lucila Peralta Gavensky, Nathan Goldman, and Gonzalo Usaj Quantized bulk response functions are hallmark signatures of topological phases, but their manifestation in periodically driven (Floquet) systems is no…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Lattice Deformation Induced Higher-Order Hybrid Topology",
+      "url": "http://link.aps.org/doi/10.1103/4y5t-mh92",
+      "summary": "Author(s): Peng Wu, Yu-Gui Peng, Qi-Li Sun, Min-Hang Ling, Weiyin Deng, Xue-Feng Zhu, and Zhengyou Liu Hybrid systems provide a general framework for realizing cooperative effects among multiple topological phases. Unlik…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
+      "url": "http://link.aps.org/doi/10.1103/gl65-17z7",
+      "summary": "Author(s): Qianli Ma, Brianna R. Billingsley, Alin Niraula, Madalynn Marshall, David A. Dahlbom, Yiqing Hao, Daniel M. Pajerowski, Alexander I. Kolesnikov, Xiaojian Bai, Cristian D. Batista, Tai Kong, and Huibo Cao We re…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Curved Odd Elasticity",
+      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
+      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
     },
     {
       "source": "APS PRX",
@@ -639,166 +799,6 @@
       "title": "Absorbing phase transition in a queueing model of coupled adaptive agents",
       "url": "https://arxiv.org/abs/2608.14398",
       "summary": "arXiv:2608.14398v1 Announce Type: new Abstract: What decides whether people do things together or separately? Many activities cannot be carried out alone, and an individual must rank them against the private tasks compet…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-driven modeling of hypersonic flows in chemical non-equilibrium with catalytic surfaces",
-      "url": "https://arxiv.org/abs/2608.14445",
-      "summary": "arXiv:2608.14445v1 Announce Type: new Abstract: Hypersonic flows involve extreme thermochemical non-equilibrium, where strong energy dissipation leads to tightly coupled chemical reactions, radiation, and energy exchange…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Angular displacement readout of a mechanical oscillator with a guided mode resonance",
-      "url": "https://arxiv.org/abs/2608.14447",
-      "summary": "arXiv:2608.14447v1 Announce Type: new Abstract: Measuring the angular displacement of a mechanical oscillator is a ubiquitous task; however, the multimode nature of angular optomechanical coupling makes coherent signal e…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantifying internal variability in large-ensemble climate data with the Wasserstein distance",
-      "url": "https://arxiv.org/abs/2608.14455",
-      "summary": "arXiv:2608.14455v1 Announce Type: new Abstract: Quantifying forced and internal variability in climate data is fundamental to detecting the climate change signal and assessing uncertainty in climate projections. We propo…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Length scale of cellular activity determines signatures of epithelial remodeling",
-      "url": "https://arxiv.org/abs/2608.14458",
-      "summary": "arXiv:2608.14458v1 Announce Type: new Abstract: Cellular activity drives epithelial fluidization --- a widespread phenomenon observed during tissue development, remodeling, and repair both in vivo and in vitro. Yet the p…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring student understanding in quantum computing: Development and validation of the Quantum Computing Conceptual Survey",
-      "url": "https://arxiv.org/abs/2608.14459",
-      "summary": "arXiv:2608.14459v1 Announce Type: new Abstract: Research-based assessments (RBAs) have proven to be valuable tools in PER, supporting both instructional reform and foundational research. In the rapidly-growing field of Q…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Spin Hamiltonians from Terahertz Two-Dimensional Coherent Spectroscopy",
-      "url": "https://arxiv.org/abs/2608.14460",
-      "summary": "arXiv:2608.14460v1 Announce Type: new Abstract: Effective Hamiltonians connect microscopic interactions to measurable collective behavior in quantum materials, but determining their parameters directly from experiment re…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "No Reduction of Tropical Convection with Warming Expected from Theory or Models",
-      "url": "https://arxiv.org/abs/2608.14483",
-      "summary": "arXiv:2608.14483v1 Announce Type: new Abstract: Theoretical arguments have for decades anticipated substantial weakening of tropical convection as the surface warms, yet convection-resolving models show no robust change …",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Limitations of post accelerating ion beams using the snowplow field in a near-critical density target",
-      "url": "https://arxiv.org/abs/2608.14521",
-      "summary": "arXiv:2608.14521v1 Announce Type: new Abstract: Laser-matter interaction at relativistic intensities is central to almost every scientific case for multi-PW laser facilities. In particular, the progress in laser-driven i…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GPU implementation of mixed quantum-classical Liouville molecular dynamics without momentum jump",
-      "url": "https://arxiv.org/abs/2608.14544",
-      "summary": "arXiv:2608.14544v1 Announce Type: new Abstract: We implemented on GPU a mixed quantum-classical Liouville molecular dynamics simulation based on a momentum-jump-free theory. The trajectory spawning that was previously im…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Unsteady Aneurysm Hemodynamics with Physics-Informed DeepONets",
-      "url": "https://arxiv.org/abs/2608.13629",
-      "summary": "arXiv:2608.13629v1 Announce Type: cross Abstract: Clinically actionable, patient-specific hemodynamic assessment, specifically wall shear stress, vortex structure and pressure distributions, is critical for determining r…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A new approach to the reaction-diffusion systems modelling",
-      "url": "https://arxiv.org/abs/2608.13636",
-      "summary": "arXiv:2608.13636v1 Announce Type: cross Abstract: We consider a new methodology for modelling the reaction-diffusion systems based on systems of ordinary differential equations. In contrary to the specialised numerical m…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Heuristic Lookahead Distillation Protocol Search",
-      "url": "https://arxiv.org/abs/2608.13644",
-      "summary": "arXiv:2608.13644v1 Announce Type: cross Abstract: Bipartite qubit entanglement distillation is the process of converting noisy ebits into pure ebits using only local operations and classical communication. This is a core…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thickness-dependent secondary-electron emission from suspended MoS$_2$ membranes in the helium ion microscope",
-      "url": "https://arxiv.org/abs/2608.13688",
-      "summary": "arXiv:2608.13688v1 Announce Type: cross Abstract: Secondary-electron (SE) emission in the helium ion microscope (HIM) becomes sensitive to membrane thickness when the sample is thin enough for He-ion transmission and whe…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ion-Pairing Enhancement under Osmotic Stress: Disentangling the Effects of Ion and Water Activities",
-      "url": "https://arxiv.org/abs/2608.13735",
-      "summary": "arXiv:2608.13735v1 Announce Type: cross Abstract: The dependence of ion pairing on osmotic stress may strongly affect the performance of ionic materials and membranes whose interior is often osmotically stresses, yet qua…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strong photoresponse of edge two-dimensional electrons in a magnetic field",
-      "url": "https://arxiv.org/abs/2608.13811",
-      "summary": "arXiv:2608.13811v1 Announce Type: cross Abstract: Electrons in two-dimensional electron gases in the presence of an out-of-plane magnetic field propagate along the edge with a high velocity of the order of the Fermi velo…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Posterior Inference of Hamiltonian Parameters from RIXS Spectroscopy",
-      "url": "https://arxiv.org/abs/2608.13848",
-      "summary": "arXiv:2608.13848v1 Announce Type: cross Abstract: We present the first application of simulation-based inference to resonant inelastic X-ray scattering spectroscopy. Using truncated marginal neural ratio estimation to ef…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CCAT: a two-octave 1.024 GHz KID readout featuring an overlap-channel polyphase synthesis filter bank on RFSoC",
-      "url": "https://arxiv.org/abs/2608.13852",
-      "summary": "arXiv:2608.13852v1 Announce Type: cross Abstract: Next-generation submillimeter instruments require gigahertz-scale readout bandwidths to support the growing detector counts of large microwave kinetic inductance detector…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Omni-Photonic Base Station: A Three-Functional-Domain Photonic Architecture for Evolutionary 6G Wireless Infrastructure",
-      "url": "https://arxiv.org/abs/2608.13909",
-      "summary": "arXiv:2608.13909v1 Announce Type: cross Abstract: 6G mobile communications impose immersive communication demands for higher data rates and massive connectivity, while emerging integrated sensing-computing-intelligence s…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resilience Beyond Pairwise Networks",
-      "url": "https://arxiv.org/abs/2608.13950",
-      "summary": "arXiv:2608.13950v1 Announce Type: cross Abstract: We derive a one-dimensional reduction for nonlinear dynamics on simplicial complexes containing both pairwise and triangular (higher-order) interactions. The effective st…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian inference of event-by-event collision geometry from charged-particle multiplicity in heavy-ion collisions",
-      "url": "https://arxiv.org/abs/2608.14045",
-      "summary": "arXiv:2608.14045v1 Announce Type: cross Abstract: We propose the Inference-driven Participant Determination (IPD) method, a Bayesian framework for inferring event-by-event posterior distributions of the number of partici…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }
