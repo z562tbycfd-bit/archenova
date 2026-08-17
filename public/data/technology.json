@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-17T17:27:44.220Z",
+  "updated": "2026-08-17T18:42:00.277Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "University of Rhode Island Wins Grant to Study Cerebral Amyloid Angiopathy Prevalent in Alzheimer’s Patients",
+      "url": "https://www.genengnews.com/topics/translational-medicine/university-of-rhode-island-wins-grant-to-study-cerebral-amyloid-angiopathy-prevalent-in-alzheimers-patients/",
+      "summary": "The University of Rhode Island $1.5 million grant is part of a $9 million five-year Transatlantic Networks of Excellence grant from the Leducq Foundation. The initiative is known as TRAFFIC. The post University of Rhode …",
+      "ts": 1786989618000,
+      "publishedAt": "2026-08-17T18:00:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Microbiome Field Enters Its Next Chapter",
+      "url": "https://www.genengnews.com/topics/omics/the-microbiome-field-enters-its-next-chapter/",
+      "summary": "New analytical tools and microbiome-based therapies are pushing the field beyond early hype toward clinical and scientific progress. The post The Microbiome Field Enters Its Next Chapter appeared first on GEN - Genetic E…",
+      "ts": 1786987851000,
+      "publishedAt": "2026-08-17T17:30:51.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Rewriting Disease: Oligonucleotides Take Aim at the Untreatable",
@@ -172,6 +190,15 @@
       "ts": 1786968000000,
       "publishedAt": "2026-08-17T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen: Türk alarmed by rising civilian toll, urges restraint",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168151",
+      "summary": "Escalating conflict in Yemen is killing and injuring a growing number of civilians, the UN human rights chief warned on Monday, as Houthi rebels also strike Saudi Arabia and Red Sea shipping linked to the wider Iran–US c…",
+      "ts": 1786968000000,
+      "publishedAt": "2026-08-17T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -784,33 +811,6 @@
       "ts": 1786727585000,
       "publishedAt": "2026-08-14T17:13:05.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun ",
-      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-      "summary": "As humanity looks to the Moon and stars for future exploration, predicting space weather — conditions in space primarily driven by the Sun — is more important than ever. Now, a team of astrophysicists and data scientists…",
-      "ts": 1786726823000,
-      "publishedAt": "2026-08-14T17:00:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Spire and PlanetiQ win NOAA radio-occultation contracts",
-      "url": "https://spacenews.com/spire-and-planetiq-win-noaa-radio-occultation-contracts/",
-      "summary": "SAN FRANCISCO – The National Oceanic and Atmospheric Administration has awarded contracts to Spire Global and PlanetiQ to provide radio occultation data for terrestrial and space weather forecasts. The NOAA […] The post …",
-      "ts": 1786725238000,
-      "publishedAt": "2026-08-14T16:33:58.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Luigi Mangione pleads guilty to federal stalking charges in the killing of UnitedHealthcare CEO",
-      "url": "https://www.statnews.com/2026/08/14/luigi-mangione-federal-charges-guilty-plea-killing-of-unitedhealthcare-ceo-brian-thompson/?utm_campaign=rss",
-      "summary": "In pleading guilty, Mangione admitted to following UnitedHealth executive Brian Thompson and then shooting him.",
-      "ts": 1786725039000,
-      "publishedAt": "2026-08-14T16:30:39.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
