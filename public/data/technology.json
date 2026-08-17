@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-17T06:59:12.357Z",
+  "updated": "2026-08-17T07:57:13.940Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Watch Sophie Adenot’s spacewalk live ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_Sophie_Adenot_s_spacewalk_live",
+      "summary": "Watch ESA astronaut Sophie Adenot venture into the vacuum of space for her first-ever spacewalk on Tuesday, 8 August.",
+      "ts": 1786946400000,
+      "publishedAt": "2026-08-17T06:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Lynk and Omnispace form Elveo Mobile to advance D2D services",
@@ -799,15 +808,6 @@
       "title": "A microscopic computational simulation of [18F]FDG transport and metabolism identifies valid regimes for compartmental analysis",
       "url": "https://arxiv.org/abs/2608.12386",
       "summary": "arXiv:2608.12386v1 Announce Type: new Abstract: 18F-fluorodeoxyglucose ([18F]FDG) positron emission tomography (PET), combined with compartmental modeling, is a powerful non-invasive imaging method for assessing cellular…",
-      "ts": 1786680000000,
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Bayes-Markov Neuromorphic Model of Cortical Orientation Selectivity: A Computational Re-implementation and Quantitative Simulation Study",
-      "url": "https://arxiv.org/abs/2608.12388",
-      "summary": "arXiv:2608.12388v1 Announce Type: new Abstract: The emergence of orientation selectivity in the primary visual cortex (V1) remains a central question in computational neuroscience. Shirazi's Bayes-Markov model proposed a…",
       "ts": 1786680000000,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "categoryId": "bio"

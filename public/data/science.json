@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-17T06:59:09.042Z",
+  "updated": "2026-08-17T07:57:11.030Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The Nigerian fishing community being eaten up by the Atlantic",
+      "url": "https://phys.org/news/2026-08-nigerian-fishing-community-eaten-atlantic.html",
+      "summary": "The beach shrinks every year in Ayetoro, in southern Nigeria, and what is left is peppered with the remains of homes swallowed by the ocean—some years ago, some just months prior.",
+      "ts": 1786952401000,
+      "publishedAt": "2026-08-17T07:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hawaii recovery efforts begin as Lala is downgraded, moves west",
+      "url": "https://phys.org/news/2026-08-hawaii-recovery-efforts-lala-downgraded.html",
+      "summary": "Clean-up efforts were underway Sunday as Hurricane Lala, which was downgraded to a tropical storm, rolled past Hawaii's Big Island and dumped heavy rain across the U.S. Pacific state.",
+      "ts": 1786951715000,
+      "publishedAt": "2026-08-17T07:28:35.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Unknown Unknowns: Model Misspecification in Machine Learning for Physics",
@@ -783,22 +799,6 @@
       "title": "Optomechanical systems with a Fano membrane in the middle",
       "url": "https://arxiv.org/abs/2607.22526",
       "summary": "arXiv:2607.22526v2 Announce Type: replace Abstract: Conventional membrane-in-the-middle (MIM) optomechanical systems offer limited control over the optical linewidth, which can limit their performance when operating in t…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SERS study of single-live-cell electrical permeabilization dynamics via plasmonic nanotubes",
-      "url": "https://arxiv.org/abs/2608.10924",
-      "summary": "arXiv:2608.10924v3 Announce Type: replace Abstract: There is a growing demand for minimally invasive methods to analyze intracellular processes and signaling activities in individual living cells, including the identific…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Spectral-Domain Pseudo-Inverse Method for True 3D Gravity Inversion",
-      "url": "https://arxiv.org/abs/2608.11014",
-      "summary": "arXiv:2608.11014v2 Announce Type: replace Abstract: The main difficulty in 3D gravity inversion is that surface observations lack vertical wavenumber information, making the problem underdetermined and depth resolution p…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }
