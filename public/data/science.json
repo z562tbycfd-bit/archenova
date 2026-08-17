@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-17T16:29:50.712Z",
+  "updated": "2026-08-17T17:27:42.501Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New X-ray imaging technique could double scanning efficiency while revealing hidden detail",
+      "url": "https://phys.org/news/2026-08-ray-imaging-technique-scanning-efficiency.html",
+      "summary": "Researchers at Monash University have developed a new X-ray imaging technique that can image two overlapping samples at the same time, potentially doubling scanning efficiency while opening new possibilities for industri…",
+      "ts": 1786987207000,
+      "publishedAt": "2026-08-17T17:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parents should encourage tweens and teens to take risks—here's why",
+      "url": "https://phys.org/news/2026-08-parents-tweens-teens.html",
+      "summary": "Parents may have heard of the dangers of being a \"helicopter parent.\" They hover so closely over their kids that they never get a chance to develop independence and resilience.",
+      "ts": 1786987203000,
+      "publishedAt": "2026-08-17T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hostile attitudes toward women are driving extremism in young Australians",
+      "url": "https://phys.org/news/2026-08-hostile-attitudes-women-extremism-young.html",
+      "summary": "\"Students are funneled into echo chambers, lured into extremist content through innocent avenues such as gaming and workout videos, then exposed to extreme misogyny, racism, homophobia and transphobia.\" That's how one Au…",
+      "ts": 1786986005000,
+      "publishedAt": "2026-08-17T17:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stellar explosions come into focus with new nuclear reaction measurements",
+      "url": "https://phys.org/news/2026-08-stellar-explosions-focus-nuclear-reaction.html",
+      "summary": "In two separate papers published in Physical Review Letters, researchers investigated the nuclear reactions that take place inside supernovae and X-ray bursts—two of the universe's most powerful explosions. Together, the…",
+      "ts": 1786986003000,
+      "publishedAt": "2026-08-17T17:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI agents coordinate behavior based on majority opinion—even when said opinions are meaningless",
+      "url": "https://phys.org/news/2026-08-ai-agents-behavior-based-majority.html",
+      "summary": "A new study published in Science Advances takes a closer look at how AI agents' choices are influenced by their peers. The team found that more advanced models tend to follow the majority when shown other agents' choices…",
+      "ts": 1786984809000,
+      "publishedAt": "2026-08-17T16:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mega-Earth GJ 523b is 23 times as massive as our planet—but only 2.5 times as wide",
+      "url": "https://phys.org/news/2026-08-mega-earth-gj-523b-massive.html",
+      "summary": "It's nearly 170 million years old. It's more than 2.5 times the size of Earth. And it's the first exoplanet discovered and cataloged by researchers with the Wisconsin Center for Origins Research (WiCOR).",
+      "ts": 1786984804000,
+      "publishedAt": "2026-08-17T16:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Personal expectations of aging shape our social lives",
+      "url": "https://phys.org/news/2026-08-personal-aging-social.html",
+      "summary": "What we expect from our own aging is not merely a notion. In two recent studies, an international research team led by psychologist Christina Ristl from the University of Vienna has shown that our expectations regarding …",
+      "ts": 1786984803000,
+      "publishedAt": "2026-08-17T16:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Trace elements offer new clues to mysterious black eye lesions in cats",
@@ -252,14 +308,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
-      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
-      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Complete-Coverage Searches for Lorentz Violation in the Minimal Matter Sector",
       "url": "http://link.aps.org/doi/10.1103/ckyj-bbfl",
       "summary": "Author(s): Marshall J. Basson, Eric Biddulph-West, Caitlyn Holl, Will Lankenau, Facundo Martin Lopez, Bianca Rose Lott, Chihui Shao, Danny P. Shope, Jay D. Tasson, and Zhiyu Zhang All 43 previously unconstrained Lorentz-…",
@@ -279,14 +327,6 @@
       "title": "Evidence of Nuclear Geometry-Driven Anisotropic Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions at $\\sqrt{{s}_{\\mathrm{NN}}}=5.36\\text{ }\\text{ }\\mathrm{TeV}$",
       "url": "http://link.aps.org/doi/10.1103/gymp-vp87",
       "summary": "Author(s): I. J. Abualrob et al. (ALICE Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due t…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
-      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
-      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
@@ -340,17 +380,33 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
-      "url": "http://link.aps.org/doi/10.1103/gl65-17z7",
-      "summary": "Author(s): Qianli Ma, Brianna R. Billingsley, Alin Niraula, Madalynn Marshall, David A. Dahlbom, Yiqing Hao, Daniel M. Pajerowski, Alexander I. Kolesnikov, Xiaojian Bai, Cristian D. Batista, Tai Kong, and Huibo Cao We re…",
+      "title": "Curved Odd Elasticity",
+      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
+      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Curved Odd Elasticity",
-      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
-      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
+      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
+      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
+      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
+      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
+      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
+      "url": "http://link.aps.org/doi/10.1103/gl65-17z7",
+      "summary": "Author(s): Qianli Ma, Brianna R. Billingsley, Alin Niraula, Madalynn Marshall, David A. Dahlbom, Yiqing Hao, Daniel M. Pajerowski, Alexander I. Kolesnikov, Xiaojian Bai, Cristian D. Batista, Tai Kong, and Huibo Cao We re…",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
@@ -743,62 +799,6 @@
       "title": "On-axis top-up injection with multipole injection kicker in FCC-ee",
       "url": "https://arxiv.org/abs/2608.14313",
       "summary": "arXiv:2608.14313v1 Announce Type: new Abstract: Top-up injection is required in FCC-ee to maintain high luminosity given the short beam lifetime. The present baseline relies on on-axis off-energy injection with a convent…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Is the TDDFRT representation of a molecular electronic transition unique?",
-      "url": "https://arxiv.org/abs/2608.14345",
-      "summary": "arXiv:2608.14345v1 Announce Type: new Abstract: In this article a piece of the reference time-dependent density-functional response theory (TDDFRT) representation of molecular electronic transitions is studied through th…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long-time behavior of optimal mixing in an advection-diffusion shell model",
-      "url": "https://arxiv.org/abs/2608.14346",
-      "summary": "arXiv:2608.14346v1 Announce Type: new Abstract: We investigate the long-time behavior of optimal mixing in an advection-diffusion equation using a shell model framework. Our focus is on quantifying the decay of the scala…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full-field and Bloch-periodic-factor discretizations: Accuracy and phantom modes",
-      "url": "https://arxiv.org/abs/2608.14348",
-      "summary": "arXiv:2608.14348v1 Announce Type: new Abstract: One can distinguish four major formulations of the Bloch-mode problem in linear periodic media. First, there are two common complementary ways of slicing the Bloch variety …",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multidimensional Design of Metal-Nitrogen-Carbon Electrocatalysts for Direct Propylene Epoxidation",
-      "url": "https://arxiv.org/abs/2608.14351",
-      "summary": "arXiv:2608.14351v1 Announce Type: new Abstract: Propylene oxide is a major industrial chemical whose production currently relies on hazardous chlorine- or peroxide-based oxidants. Direct electrochemical epoxidation using…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterizing the Evolution of Tropical Cyclone Thermal Structure: A Tropical Cyclone Thermal Phase Space",
-      "url": "https://arxiv.org/abs/2608.14374",
-      "summary": "arXiv:2608.14374v1 Announce Type: new Abstract: Current understandings of the tropical cyclone (TC) warm core primarily relies on statistical averages from soundings and satellite products, which provide a climatological…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scientific understanding across disciplines: in varietate concordia?",
-      "url": "https://arxiv.org/abs/2608.14378",
-      "summary": "arXiv:2608.14378v1 Announce Type: new Abstract: Understanding is a generally acknowledged aim of science, but the way in which understanding is pursued and criteria for when it is achieved differ widely across scientific…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Absorbing phase transition in a queueing model of coupled adaptive agents",
-      "url": "https://arxiv.org/abs/2608.14398",
-      "summary": "arXiv:2608.14398v1 Announce Type: new Abstract: What decides whether people do things together or separately? Many activities cannot be carried out alone, and an individual must rank them against the private tasks compet…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }

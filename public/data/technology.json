@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-17T16:29:53.334Z",
+  "updated": "2026-08-17T17:27:44.220Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Rewriting Disease: Oligonucleotides Take Aim at the Untreatable",
+      "url": "https://www.genengnews.com/topics/drug-discovery/rewriting-disease-oligonucleotides-take-aim-at-the-untreatable/",
+      "summary": "How synthetic DNA and RNA are becoming the discovery engines behind a new generation of precision therapies. The post Rewriting Disease: Oligonucleotides Take Aim at the Untreatable appeared first on GEN - Genetic Engine…",
+      "ts": 1786986795000,
+      "publishedAt": "2026-08-17T17:13:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Human Cell Atlas at 10: A Decade of Discovery and the Road to HCA 2.0",
+      "url": "https://www.genengnews.com/topics/omics/human-cell-atlas-at-10-a-decade-of-discovery-and-the-road-to-hca-2-0/",
+      "summary": "Marking its 10th anniversary, the Human Cell Atlas reflects on a decade of breakthroughs while charting an ambitious course for the next decade. GEN's Julianna LeMieux, PhD, spoke with Holger Heyn, PhD, ICREA professor a…",
+      "ts": 1786985794000,
+      "publishedAt": "2026-08-17T16:56:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Pharma Races to Scale AI as Billions Flow into Drug Discovery",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery-2/",
+      "summary": "Investors unpack what it takes to succeed in an increasingly crowded AI biology ecosystem. The post Pharma Races to Scale AI as Billions Flow into Drug Discovery appeared first on GEN - Genetic Engineering and Biotechnol…",
+      "ts": 1786985032000,
+      "publishedAt": "2026-08-17T16:43:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "ULA names Peller as new CEO",
+      "url": "https://spacenews.com/ula-names-peller-as-new-ceo/",
+      "summary": "United Launch Alliance has named Mark Peller, a longtime manager and executive at the company, as its new chief executive. The post ULA names Peller as new CEO appeared first on SpaceNews.",
+      "ts": 1786985031000,
+      "publishedAt": "2026-08-17T16:43:51.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "Colorful Collage of Tarantula Nebula",
@@ -273,15 +309,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Chasing Fire Clouds in Utah",
-      "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
-      "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
-      "ts": 1786939260000,
-      "publishedAt": "2026-08-17T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
       "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
@@ -289,6 +316,15 @@
       "ts": 1786939260000,
       "publishedAt": "2026-08-17T04:01:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Chasing Fire Clouds in Utah",
+      "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
+      "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
+      "ts": 1786939260000,
+      "publishedAt": "2026-08-17T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -774,42 +810,6 @@
       "summary": "In pleading guilty, Mangione admitted to following UnitedHealth executive Brian Thompson and then shooting him.",
       "ts": 1786725039000,
       "publishedAt": "2026-08-14T16:30:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/08/14/up-down-ladder-latest-comings-goings-jobs/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1786724443000,
-      "publishedAt": "2026-08-14T16:20:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "BMS’s New Facility, Recursion–Genentech Partnership, Long-COVID and Persistent C. auris",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/bmss-new-facility-recursion-genentech-partnership-long-covid-and-persistent-c-auris/",
-      "summary": "In this episode of GEN's Touching Base, editors discuss BMS’s new manufacturing facility, and a Recursion–Genentech partnership. Editors also discuss infectious diseases including some long-term consequences of COVID and…",
-      "ts": 1786723229000,
-      "publishedAt": "2026-08-14T16:00:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Newly Discovered Role for Polyamines Could Point to Potential Anticancer Strategies",
-      "url": "https://www.genengnews.com/topics/translational-medicine/newly-discovered-role-for-polyamines-could-point-to-potential-anticancer-strategies/",
-      "summary": "Researchers discovered that polyamines protect living cells against iron overload, and suggest the finding could point to potential therapeutic strategies against cancer, and provide new insights into disorders including…",
-      "ts": 1786723155000,
-      "publishedAt": "2026-08-14T15:59:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: PBMs agree to display TrumpRx drug prices",
-      "url": "https://www.statnews.com/2026/08/14/biotech-news-pbms-agree-to-display-trumprx-drug-prices/?utm_campaign=rss",
-      "summary": "Bristol's Zenbexus wins accelerated approval, Novartis wins UK patent fight over Entresto, and more biotech news from The Readout",
-      "ts": 1786722913000,
-      "publishedAt": "2026-08-14T15:55:13.000Z",
       "categoryId": "bio"
     }
   ],
