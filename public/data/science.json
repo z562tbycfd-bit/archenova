@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-17T11:28:02.451Z",
+  "updated": "2026-08-17T12:48:02.184Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Dark matter may be gravitationally lensing a likely source of cosmic neutrinos",
+      "url": "https://phys.org/news/2026-08-dark-gravitationally-lensing-source-cosmic.html",
+      "summary": "Astronomers have discovered that the jet of a distant blazar has been gravitationally lensed by an unseen source of dark matter. Led by Silke Britzen at the Max Planck Institute for Radio Astronomy in Germany, the team's…",
+      "ts": 1786970408000,
+      "publishedAt": "2026-08-17T12:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Miami's largest tree canopies deliver most cooling, monitoring data suggests",
+      "url": "https://phys.org/news/2026-08-miami-largest-tree-canopies-cooling.html",
+      "summary": "People rarely give much thought to the trees around them—until there aren't any. Not when they're driving past them. Not when they're scrolling on a park bench. But on a sweltering Miami afternoon, when the sidewalk feel…",
+      "ts": 1786970404000,
+      "publishedAt": "2026-08-17T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study shows university's advising model boosts international students",
+      "url": "https://phys.org/news/2026-08-university-boosts-international-students.html",
+      "summary": "Ling LeBeau and Steve Schaffling spent five years building and refining a framework for supporting international students at Syracuse University, culminating in the establishment of the International Student Success Mode…",
+      "ts": 1786969203000,
+      "publishedAt": "2026-08-17T12:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New model measures full economic value of accurate hurricane forecasts",
+      "url": "https://phys.org/news/2026-08-full-economic-accurate-hurricane.html",
+      "summary": "When it comes to the cost of a bad forecast, researchers have gone beyond damaged buildings and vehicles to calculate the cost of injuries, evacuations and the long-term loss of public trust.",
+      "ts": 1786968003000,
+      "publishedAt": "2026-08-17T12:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Is bird flu infecting humans? How would we know?",
+      "url": "https://phys.org/news/2026-08-bird-flu-infecting-humans.html",
+      "summary": "Bird flu is circulating among birds on the Australian mainland. So, with the confirmed number of detections growing, you may be wondering about the risk of birds infecting humans.",
+      "ts": 1786966803000,
+      "publishedAt": "2026-08-17T11:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The brightened night sky nobody actually wanted",
@@ -759,46 +799,6 @@
       "title": "Amplified up-conversion of electromagnetic waves using time-varying metasurfaces",
       "url": "https://arxiv.org/abs/2602.08193",
       "summary": "arXiv:2602.08193v2 Announce Type: replace Abstract: Time-varying metamaterials and photonic time crystals offer a powerful route to wave amplification through temporal modulation of material parameters. Here, we experime…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hamiltonian dynamics for stochastic reconstruction in emission tomography",
-      "url": "https://arxiv.org/abs/2603.15070",
-      "summary": "arXiv:2603.15070v2 Announce Type: replace Abstract: Objective: To develop a practical stochastic reconstruction framework for emission tomography that generates ensembles of data-compatible images and enables uncertainty…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design, construction, and operation of a 30-ton Water-based Liquid scintillator detector at Brookhaven National Laboratory",
-      "url": "https://arxiv.org/abs/2603.20019",
-      "summary": "arXiv:2603.20019v3 Announce Type: replace Abstract: Water-based Liquid Scintillator (WbLS) was proposed over a decade ago as a novel detector medium that might allow the separation and tuning of the relative ratio of the…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Building an analogue simulator of a photonic quantum computer with transparent tape, maple syrup, and cat lasers, and implementing first quantum algorithms in the classroom",
-      "url": "https://arxiv.org/abs/2604.00030",
-      "summary": "arXiv:2604.00030v2 Announce Type: replace Abstract: This work presents the implementation of single-qubit gates, including $R_x$ and $R_z$ gates realized using transparent adhesive tape, and $R_y$ gates obtained with opt…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative Multi-Modal Optical Coherence Photoacoustic Elastography",
-      "url": "https://arxiv.org/abs/2606.18990",
-      "summary": "arXiv:2606.18990v2 Announce Type: replace Abstract: We present a novel multi-modal optical coherence photoacoustic elastography framework, which combines two imaging modalities, optical coherence tomography and photoacou…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-Shot Realization of 10000-Mode Octave-Spanning Artificial Gauge Fields",
-      "url": "https://arxiv.org/abs/2606.23960",
-      "summary": "arXiv:2606.23960v3 Announce Type: replace Abstract: Artificial gauge fields (AGFs) enable photons and other bosons to emulate fermionic phenomena such as chiral edge transport and quantum Hall phases; however, existing t…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }

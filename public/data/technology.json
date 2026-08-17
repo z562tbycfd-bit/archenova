@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-17T11:28:05.536Z",
+  "updated": "2026-08-17T12:48:03.945Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "Securing the Infrastructure of Intelligence",
+      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+      "summary": "AI factories are the defining infrastructure of the AI era—where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories …",
+      "ts": 1786970091000,
+      "publishedAt": "2026-08-17T12:34:51.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "L3Harris names space sector leader Sam Mehta CEO after Kubasik steps down",
+      "url": "https://spacenews.com/l3harris-names-space-sector-leader-sam-mehta-ceo-after-kubasik-steps-down/",
+      "summary": "Christopher Kubasik exits after board investigation into unspecified conduct The post L3Harris names space sector leader Sam Mehta CEO after Kubasik steps down appeared first on SpaceNews.",
+      "ts": 1786969926000,
+      "publishedAt": "2026-08-17T12:32:06.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The 77th International Astronautical Congress (IAC 2026) is the One Space Event You Cannot Miss",
+      "url": "https://spacenews.com/the-77th-international-astronautical-congress-iac-2026-is-the-one-space-event-you-cannot-miss/",
+      "summary": "For more than 75 years, the International Astronautical Congress (IAC) has been the annual moment when the global space community comes together – not online, not in separate regional events, […] The post The 77th Intern…",
+      "ts": 1786969407000,
+      "publishedAt": "2026-08-17T12:23:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: dead robot friends and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What happens when a kid’s robot best friend dies? When Xander first met Moxie, she…",
+      "ts": 1786968600000,
+      "publishedAt": "2026-08-17T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Everything the Trump administration did on health care last week",
+      "url": "https://www.statnews.com/2026/08/17/health-news-everything-the-trump-administration-did-on-health-care/?utm_campaign=rss",
+      "summary": "An executive order remaking the federal vaccine agenda, Epic's antitrust lawsuits, and more health news from Morning Rounds",
+      "ts": 1786968237000,
+      "publishedAt": "2026-08-17T12:03:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SEOPS adds second Waymaker rideshare mission",
+      "url": "https://spacenews.com/seops-adds-second-waymaker-rideshare-mission/",
+      "summary": "Launch services provider SEOPS has added a second dedicated rideshare mission after seeing high demand for one announced less than three months ago. The post SEOPS adds second Waymaker rideshare mission appeared first on…",
+      "ts": 1786968000000,
+      "publishedAt": "2026-08-17T12:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "A rocket crashed into the moon. It was harmless, but the next one might not be.",
@@ -757,60 +811,6 @@
       "ts": 1786708800000,
       "publishedAt": "2026-08-14T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "900 obstacles and counting: West Bank families trapped as aid access shrinks",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168147",
-      "summary": "Humanitarians continue to provide life-saving assistance to people across the Occupied Palestinian Territory despite facing obstacles such as checkpoints, instability and access restrictions, the United Nations said on F…",
-      "ts": 1786708800000,
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "An attack on healthcare every six hours, and no one held to account",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168144",
-      "summary": "Across the world, healthcare has suffered more than 10,000 attacks in the past eight years, including during the brutal conflict in Ukraine and efforts to contain the current Ebola outbreak spreading rapidly in the easte…",
-      "ts": 1786708800000,
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Meth trafficking across Middle East becoming more advanced, UNODC warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168142",
-      "summary": "Authorities in Iran intercepted 3,663 kilogrammes of methamphetamines headed for Europe and the Persian Gulf in the first quarter of 2026, according to the UN’s drugs and crime fighting agency (UNODC).",
-      "ts": 1786708800000,
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan: The harrowing reality of giving birth in a war zone",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168141",
-      "summary": "Sudanese women about to give birth are losing their babies and sometimes their own lives because of a lack of specialist healthcare support, amid the ongoing war, UN humanitarians said on Friday.",
-      "ts": 1786708800000,
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Intuitive Machines wins contract for three GEO satellites",
-      "url": "https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/",
-      "summary": "Intuitive Machines announced Aug. 13 that it won a $600 million contract from an undisclosed customer for three geostationary orbit communications satellites. The post Intuitive Machines wins contract for three GEO satel…",
-      "ts": 1786706943000,
-      "publishedAt": "2026-08-14T11:29:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "A look back at the 2026 total solar eclipse",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
-      "summary": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly turning day into night and revealing the …",
-      "ts": 1786701600000,
-      "publishedAt": "2026-08-14T10:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
