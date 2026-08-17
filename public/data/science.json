@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-17T14:29:46.973Z",
+  "updated": "2026-08-17T15:27:19.685Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "We asked AI tools for financial advice: Results were practical, but with big blind spots",
+      "url": "https://phys.org/news/2026-08-ai-tools-financial-advice-results.html",
+      "summary": "Ever used or thought of using artificial intelligence (AI) for financial advice? Is it a good idea?",
+      "ts": 1786980001000,
+      "publishedAt": "2026-08-17T15:20:01.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Theory of Fluids Enters the 21st Century",
+      "url": "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/",
+      "summary": "From the 1800s to the early 2000s, physicists used the same theory to understand the behavior of fluids. Now, using a modern insight, they have redefined fluids from the bottom up. The post Theory of Fluids Enters the 21…",
+      "ts": 1786979477000,
+      "publishedAt": "2026-08-17T15:11:17.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First pair of feeding supermassive black holes found in a Green Pea galaxy",
+      "url": "https://phys.org/news/2026-08-pair-supermassive-black-holes-green.html",
+      "summary": "Astronomers have discovered the first confirmed dual active galactic nucleus in a Green Pea galaxy, revealing two supermassive black holes growing at the same time inside a compact, intensely star-forming system. X-ray o…",
+      "ts": 1786979401000,
+      "publishedAt": "2026-08-17T15:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK children begin unsupervised outdoor play nearly a year later than their parents did, survey shows",
+      "url": "https://phys.org/news/2026-08-uk-children-unsupervised-outdoor-play.html",
+      "summary": "Researchers have found that children are now nearly 11 when they first start playing outdoors without supervision. That's more than a year older than their parents' generation, with parents reporting they played outdoors…",
+      "ts": 1786978812000,
+      "publishedAt": "2026-08-17T15:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turtle travels: Researchers uncover different migration strategies among male green sea turtles",
+      "url": "https://phys.org/news/2026-08-turtle-uncover-migration-strategies-male.html",
+      "summary": "Florida State University researchers studying male green sea turtles off the coast of Brazil have discovered two distinct migration strategies, with some turtles traveling up to 1,000 kilometers (620 miles) after breedin…",
+      "ts": 1786978805000,
+      "publishedAt": "2026-08-17T15:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Anomalous quantum oscillations reveal new physics in a topological insulator",
+      "url": "https://phys.org/news/2026-08-anomalous-quantum-oscillations-reveal-physics.html",
+      "summary": "A study has been published in Nature Communications that identifies an unusual regime of quantum oscillations in a three-dimensional topological insulator. The results show that, when subjected to temperatures near absol…",
+      "ts": 1786977605000,
+      "publishedAt": "2026-08-17T14:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Making computer science more accessible beyond English",
+      "url": "https://phys.org/news/2026-08-science-accessible-english.html",
+      "summary": "When Siddhartha Jayanti sat down to write the first computer science paper in Telugu, an Indian language with approximately 100 million speakers, he realized he first had to solve a problem that had little to do with com…",
+      "ts": 1786977603000,
+      "publishedAt": "2026-08-17T14:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "World off-track on nearly every food system goal, latest assessment reveals",
@@ -743,62 +799,6 @@
       "title": "Bayesian inference of event-by-event collision geometry from charged-particle multiplicity in heavy-ion collisions",
       "url": "https://arxiv.org/abs/2608.14045",
       "summary": "arXiv:2608.14045v1 Announce Type: cross Abstract: We propose the Inference-driven Participant Determination (IPD) method, a Bayesian framework for inferring event-by-event posterior distributions of the number of partici…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accurate and efficient calculation of atomic forces in solids with non-self-consistent hybrid functionals",
-      "url": "https://arxiv.org/abs/2608.14147",
-      "summary": "arXiv:2608.14147v1 Announce Type: cross Abstract: Hybrid functionals are routinely employed self-consistently within the generalized Kohn-Sham framework. The evaluation of the nonlocal Fock exchange operator makes hybrid…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrostatic Phenomenology Benchmarks for Machine-Learned Interatomic Potentials in Electrochemistry: Beyond the Energy-Force Metric",
-      "url": "https://arxiv.org/abs/2608.14153",
-      "summary": "arXiv:2608.14153v1 Announce Type: cross Abstract: Accurate treatment of long-range interactions in machine learning interatomic potentials (MLIPs) is essential for electrochemical simulations. However, aggregate energy a…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extending Occam's inversion with lasso fusion, overcomplete dictionaries, and isotropic total variation regularisation",
-      "url": "https://arxiv.org/abs/2608.14225",
-      "summary": "arXiv:2608.14225v1 Announce Type: cross Abstract: Occam's inversion is a robust algorithm to perform nonlinear geophysical inversion. It provides the smoothest model within observation noise, thereby discouraging geologi…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Meteorology-driven Causal Nowcasting of Fugitive Landfill Emissions Enables Proactive Public Health Response",
-      "url": "https://arxiv.org/abs/2608.14254",
-      "summary": "arXiv:2608.14254v1 Announce Type: cross Abstract: Fugitive emissions from waste sites increasingly expose communities to toxic and odorous gases, yet public-health responses remain largely retrospective, with episodes in…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient simulation of second-order phase transitions in quantum anharmonic materials",
-      "url": "https://arxiv.org/abs/2608.14292",
-      "summary": "arXiv:2608.14292v1 Announce Type: cross Abstract: When a crystal undergoes a second-order structural phase transition, such as in ferroelectrics, Peierls, and charge-density waves, the diverging fluctuations of the order…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupling-Aware Vanka Smoothing for Multigrid Preconditioning of the Implicit Immersed Boundary Equations",
-      "url": "https://arxiv.org/abs/2608.14310",
-      "summary": "arXiv:2608.14310v1 Announce Type: cross Abstract: The immersed boundary (IB) method models fluid--structure interaction using the natural Lagrangian and Eulerian formulations of structural mechanics and fluid dynamics, r…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimizing bounds for energy-constrained optimal cooling problems in two dimensions",
-      "url": "https://arxiv.org/abs/2608.14334",
-      "summary": "arXiv:2608.14334v1 Announce Type: cross Abstract: We study optimal control problems for incompressible fluids in two-dimensional domains with a cold boundary and internal heat sources and sinks. Given a kinetic energy bu…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }

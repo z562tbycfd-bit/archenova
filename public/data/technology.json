@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-17T14:29:49.084Z",
+  "updated": "2026-08-17T15:27:21.940Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Roundup: Removing Impurities from Biomanufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/roundup-removing-impurities-from-biomanufacturing/",
+      "summary": "GEN asked leaders in biomanufacturing: What technologies do you use to carry out effective impurity removal at specific points throughout upstream and downstream processing to ensure product quality and patient safety? T…",
+      "ts": 1786978194000,
+      "publishedAt": "2026-08-17T14:49:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The IRS is probing UnitedHealth, and a private equity slowdown",
+      "url": "https://www.statnews.com/2026/08/17/irs-probe-unitedhealth-group-taxes-private-equity-deals-physician-groups/?utm_campaign=rss",
+      "summary": "UnitedHealth faces an investigation over tax payments, and we examine why PE deals for doctor groups are slowing.",
+      "ts": 1786977647000,
+      "publishedAt": "2026-08-17T14:40:47.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Total solar eclipse 2026 (Official ESA broadcast)",
@@ -228,15 +246,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Chasing Fire Clouds in Utah",
-      "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
-      "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
-      "ts": 1786939260000,
-      "publishedAt": "2026-08-17T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
       "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
@@ -244,6 +253,15 @@
       "ts": 1786939260000,
       "publishedAt": "2026-08-17T04:01:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Chasing Fire Clouds in Utah",
+      "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
+      "summary": "NASA aircraft are sampling smoke lofted high into the atmosphere by one of the most formidable cloud types in the sky—towering, smoke-infused pyrocumulonimbus.",
+      "ts": 1786939260000,
+      "publishedAt": "2026-08-17T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -793,24 +811,6 @@
       "ts": 1786718935000,
       "publishedAt": "2026-08-14T14:48:55.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "A Decade of Advances in Single-Cell Functional Immunomics",
-      "url": "https://www.genengnews.com/topics/omics/a-decade-of-advances-in-single-cell-functional-immunomics/",
-      "summary": "In this August issue Thought Leader article Tania Konry, PhD, cofounder of Feromics and associate professor at Northeastern University, lends his insight on how the convergence of functional biology, AI, and translationa…",
-      "ts": 1786718801000,
-      "publishedAt": "2026-08-14T14:46:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a lawsuit over lab tests for meds, a Bristol myeloma drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/14/lab-tests-lawsuit-bristol-multiple-myeloma-drug-approved/?utm_campaign=rss",
-      "summary": "The FDA approved a Bristol oral treatment for advanced multiple myeloma, marking the debut of a new class of medicine for the blood cancer",
-      "ts": 1786716017000,
-      "publishedAt": "2026-08-14T14:00:17.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
