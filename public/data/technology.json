@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-17T10:33:48.455Z",
+  "updated": "2026-08-17T11:28:05.536Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "A rocket crashed into the moon. It was harmless, but the next one might not be.",
+      "url": "https://spacenews.com/a-rocket-crashed-into-the-moon-it-was-harmless-but-the-next-one-might-not-be/",
+      "summary": "Earlier this month, a discarded SpaceX Falcon 9 upper stage crashed into the lunar surface at 8,700 kilometers per hour. This was not a controlled landing. The stage had been […] The post A rocket crashed into the moon. …",
+      "ts": 1786964400000,
+      "publishedAt": "2026-08-17T11:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Long March 12 launches despite recent 7A failure, Long March 2C launches satellite for UAE",
@@ -370,6 +379,15 @@
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "ts": 1786936500000,
+      "publishedAt": "2026-08-17T03:15:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Nature Energy",
@@ -793,24 +811,6 @@
       "ts": 1786701600000,
       "publishedAt": "2026-08-14T10:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-362-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1786700645000,
-      "publishedAt": "2026-08-14T09:44:05.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "This scientist is helping build a missing map of childhood",
-      "url": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
-      "summary": "In 2017, Deanne Taylor attended a presentation at the University of Pennsylvania, just a short walk from her office. A researcher was there to unveil the Human Cell Atlas, an ambitious project that aimed to map every cel…",
-      "ts": 1786698000000,
-      "publishedAt": "2026-08-14T09:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

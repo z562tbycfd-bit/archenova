@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-17T10:33:46.192Z",
+  "updated": "2026-08-17T11:28:02.451Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The brightened night sky nobody actually wanted",
+      "url": "https://phys.org/news/2026-08-brightened-night-sky.html",
+      "summary": "A new paper has put hard numbers on a plan that's been rattling around the astronomy community for a while now—a California company called Reflect Orbital wants to put giant mirrors in orbit and beam sunlight down to Ear…",
+      "ts": 1786965609000,
+      "publishedAt": "2026-08-17T11:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Amber fossil reveals firefly relative with unprecedented antennae",
+      "url": "https://phys.org/news/2026-08-amber-fossil-reveals-firefly-unprecedented.html",
+      "summary": "Insects rely on a wide range of strategies to sense their surroundings and communicate with their peers. Fireflies (Lampyridae) and some related beetles are known for their ability to produce visible light through chemic…",
+      "ts": 1786965605000,
+      "publishedAt": "2026-08-17T11:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can dogs help teens cope with peer stress?",
+      "url": "https://phys.org/news/2026-08-dogs-teens-cope-peer-stress.html",
+      "summary": "About one in 10 teenagers experiences social anxiety—persistent and disruptive worries about being judged by classmates and other peers. In a new study of adolescents with social anxiety, researchers at the Cummings Scho…",
+      "ts": 1786964401000,
+      "publishedAt": "2026-08-17T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The Nigerian fishing community being eaten up by the Atlantic",
@@ -775,30 +799,6 @@
       "title": "Single-Shot Realization of 10000-Mode Octave-Spanning Artificial Gauge Fields",
       "url": "https://arxiv.org/abs/2606.23960",
       "summary": "arXiv:2606.23960v3 Announce Type: replace Abstract: Artificial gauge fields (AGFs) enable photons and other bosons to emulate fermionic phenomena such as chiral edge transport and quantum Hall phases; however, existing t…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contextual Cellular Growth (ConCeG) of neural cells for realistic grey matter tissue generation for diffusion MRI simulations",
-      "url": "https://arxiv.org/abs/2607.03286",
-      "summary": "arXiv:2607.03286v2 Announce Type: replace Abstract: Accurate interpretation of diffusion magnetic resonance imaging (dMRI) signals in grey matter (GM) remains challenging due to the complex, heterogeneous, and densely pa…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Continuum modeling of fluidic and elastic flow during growth-driven wound closure in partial-EMT cell monolayers",
-      "url": "https://arxiv.org/abs/2607.05820",
-      "summary": "arXiv:2607.05820v2 Announce Type: replace Abstract: Large-scale circular gap closure occurs over a time scale on which cell growth and proliferation become important. Growth is the main driver of the closing process, whi…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optomechanical systems with a Fano membrane in the middle",
-      "url": "https://arxiv.org/abs/2607.22526",
-      "summary": "arXiv:2607.22526v2 Announce Type: replace Abstract: Conventional membrane-in-the-middle (MIM) optomechanical systems offer limited control over the optical linewidth, which can limit their performance when operating in t…",
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z"
     }
