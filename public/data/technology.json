@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-17T09:44:05.168Z",
+  "updated": "2026-08-17T10:33:48.455Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Long March 12 launches despite recent 7A failure, Long March 2C launches satellite for UAE",
+      "url": "https://spacenews.com/long-march-12-launches-despite-recent-7a-failure-long-march-2c-launches-satellite-for-uae/",
+      "summary": "HELSINKI — China launched a new batch of Guowang megaconstellation satellites over the weekend, following up with a separate launch of a developmental satellite for the UAE. The launch of […] The post Long March 12 launc…",
+      "ts": 1786960575000,
+      "publishedAt": "2026-08-17T09:56:15.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Malaria-Causing Plasmodium in Uganda Show Rapid Spread of Drug Resistance Mutations",
@@ -361,6 +370,42 @@
       "ts": 1786939200000,
       "publishedAt": "2026-08-17T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Interface engineering towards high-efficiency perovskite/CIGS tandem solar cells",
+      "url": "https://www.nature.com/articles/s41560-026-02124-4",
+      "summary": "",
+      "ts": 1786924800000,
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Diffusionless mechanisms produce diffusion-like electrochemistry in battery particles",
+      "url": "https://www.nature.com/articles/s41560-026-02123-5",
+      "summary": "",
+      "ts": 1786924800000,
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Economic and behavioural policy coupling has divergent effects on electric vehicle adoption at individual and system scales",
+      "url": "https://www.nature.com/articles/s41560-026-02114-6",
+      "summary": "",
+      "ts": 1786924800000,
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Electronic conductivity of solid electrolytes causes physical self-discharge in all-solid-state batteries",
+      "url": "https://www.nature.com/articles/s41560-026-02090-x",
+      "summary": "",
+      "ts": 1786924800000,
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "SpaceNews",
@@ -766,51 +811,6 @@
       "ts": 1786698000000,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Job titles of the future: Space travel agent",
-      "url": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
-      "summary": "Roman Chiporukha has long turned wild travel dreams into reality. Over two decades as co-owner of the luxury lifestyle firm Roman & Erica, he has orchestrated everything from the construction of a client’s superyacht to …",
-      "ts": 1786698000000,
-      "publishedAt": "2026-08-14T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Cloning could be used to save species—or make human “organ sacks”",
-      "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
-      "summary": "This week I spoke to scientists who have found a way to turn male mouse embryos female. They’ve developed a CRISPR-based approach to essentially cut out the Y chromosome. It allowed them to create female clones of male m…",
-      "ts": 1786698000000,
-      "publishedAt": "2026-08-14T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Bulgaria advances project to launch new space, defense innovation hub",
-      "url": "https://spacenews.com/bulgaria-advances-project-to-launch-new-space-defense-innovation-hub/",
-      "summary": "WARSAW, Poland — Bulgaria’s government has approved a draft memorandum of understanding with the local satellite manufacturer EnduroSat to collaborate on the development of a new space and defense innovation […] The post…",
-      "ts": 1786698000000,
-      "publishedAt": "2026-08-14T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "In-Orbit Services Market to Generate $3 Billion in Revenue Over the Next Decade",
-      "url": "https://spacenews.com/in-orbit-services-market-to-generate-3-billion-in-revenue-over-the-next-decade/",
-      "summary": "Paris, France | August 2026 – Novaspace’s latest In-Orbit Services Markets report projects that emerging in-orbit services will generate approximately $3 billion in cumulative service revenues over the next decade, highl…",
-      "ts": 1786698000000,
-      "publishedAt": "2026-08-14T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "How will legal challenges fare against CMS rule on gender-affirming care?",
-      "url": "https://www.statnews.com/2026/08/14/cms-transgender-care-rule-how-will-legal-challenges-fare/?utm_campaign=rss",
-      "summary": "A CMS rule finalized this week may prove more difficult to challenge than previous Trump administration actions to end transgender care for young people.",
-      "ts": 1786696200000,
-      "publishedAt": "2026-08-14T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
