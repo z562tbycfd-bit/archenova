@@ -6408,6 +6408,999 @@ p {
 
 }
 
+/* ==========================================================
+   ARCHENOVA SEARCH
+   FINAL DISPLAY INTEGRATION
+   Desktop + Mobile
+========================================================== */
+
+
+/* ==========================================================
+   1. ROOT
+   HOME already owns the outer glass card.
+========================================================== */
+
+.archenova-twin-home .an-search {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  box-shadow: none !important;
+
+  overflow: hidden !important;
+
+  isolation: isolate;
+}
+
+
+/* ==========================================================
+   2. REMOVE THE SECOND CARD
+========================================================== */
+
+.archenova-twin-home .an-search__surface {
+  position: relative !important;
+
+  inset: auto !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  overflow: hidden !important;
+}
+
+
+.archenova-twin-home .an-search__surface::before,
+.archenova-twin-home .an-search__surface::after {
+  display: none !important;
+}
+
+
+/* ==========================================================
+   3. INTERNAL ELEMENTS MUST NOT CREATE OUTER FRAMES
+========================================================== */
+
+.archenova-twin-home .an-search__header,
+.archenova-twin-home .an-search__search-row,
+.archenova-twin-home .an-search__workspace,
+.archenova-twin-home .an-search__field,
+.archenova-twin-home .an-search__canvas {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /* --------------------------------------------------------
+     Search fills the HOME card instead of creating
+     another viewport-sized card.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home .an-search {
+    height: clamp(
+      640px,
+      72svh,
+      820px
+    ) !important;
+
+    min-height: 640px !important;
+    max-height: 820px !important;
+  }
+
+
+  .archenova-twin-home .an-search__surface {
+    height: 100% !important;
+
+    min-height: 0 !important;
+
+    display: grid !important;
+
+    grid-template-rows:
+      58px
+      54px
+      minmax(0, 1fr)
+      34px !important;
+  }
+
+
+  /* --------------------------------------------------------
+     UNSELECTED
+
+     Sidebar + full star field.
+     There is NO detail-panel column.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home
+  .an-search__workspace.no-selection {
+    display: grid !important;
+
+    grid-template-columns:
+      172px
+      minmax(0, 1fr) !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* --------------------------------------------------------
+     SELECTED
+
+     Only now is the third column created.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home
+  .an-search__workspace.has-selection {
+    display: grid !important;
+
+    grid-template-columns:
+      172px
+      minmax(0, 1fr)
+      278px !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .archenova-twin-home .an-search__sidebar {
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    border-right:
+      1px solid
+      rgba(255,255,255,0.035) !important;
+
+    background:
+      rgba(0,0,0,0.025) !important;
+  }
+
+
+  /* --------------------------------------------------------
+     FIELD
+  -------------------------------------------------------- */
+
+  .archenova-twin-home .an-search__field {
+    position: relative !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    display: grid !important;
+
+    grid-template-rows:
+      48px
+      minmax(0, 1fr)
+      auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .archenova-twin-home .an-search__field-head {
+    width: 100% !important;
+
+    min-height: 48px !important;
+
+    margin: 0 !important;
+
+    padding:
+      7px
+      17px !important;
+  }
+
+
+  .archenova-twin-home .an-search__canvas {
+    position: relative !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* --------------------------------------------------------
+     No selection = use released width.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home
+  .an-search__workspace.no-selection
+  .an-search__field {
+    grid-column: 2 !important;
+
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__workspace.no-selection
+  .an-search__canvas {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+
+  /* --------------------------------------------------------
+     Selected state.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home
+  .an-search__workspace.has-selection
+  .an-search__field {
+    grid-column: 2 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__workspace.has-selection
+  .an-search__detail {
+    grid-column: 3 !important;
+
+    position: relative !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    overflow-y: auto !important;
+
+    border-left:
+      1px solid
+      rgba(255,255,255,0.055) !important;
+
+    background:
+      linear-gradient(
+        160deg,
+        rgba(12,13,15,0.46),
+        rgba(0,0,0,0.62)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(24px)
+      saturate(108%) !important;
+
+    backdrop-filter:
+      blur(24px)
+      saturate(108%) !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MEDIUM DESKTOP
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-width: 1180px) {
+
+  .archenova-twin-home
+  .an-search__workspace.no-selection {
+    grid-template-columns:
+      142px
+      minmax(0,1fr) !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__workspace.has-selection {
+    grid-template-columns:
+      142px
+      minmax(0,1fr)
+      220px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SHORT WINDOWS / EDGE
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-height: 760px) {
+
+  .archenova-twin-home .an-search {
+    height:
+      calc(100svh - 96px) !important;
+
+    min-height: 560px !important;
+    max-height: none !important;
+  }
+
+
+  .archenova-twin-home .an-search__surface {
+    grid-template-rows:
+      50px
+      46px
+      minmax(0,1fr)
+      30px !important;
+  }
+
+
+  .archenova-twin-home .an-search__field {
+    grid-template-rows:
+      42px
+      minmax(0,1fr)
+      auto !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /* --------------------------------------------------------
+     ROOT
+     Critical:
+     remove desktop 100%-height chain.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home .an-search {
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: visible !important;
+  }
+
+
+  .archenova-twin-home .an-search__surface {
+    position: relative !important;
+
+    display: grid !important;
+
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    grid-template-rows:
+      52px
+      58px
+      auto !important;
+
+    overflow: visible !important;
+  }
+
+
+  /* --------------------------------------------------------
+     HEADER
+  -------------------------------------------------------- */
+
+  .archenova-twin-home .an-search__header {
+    min-height: 52px !important;
+
+    margin: 0 !important;
+
+    padding:
+      0
+      18px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__identity > span,
+  .archenova-twin-home
+  .an-search__identity > small {
+    display: none !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__identity > strong {
+    font-size: 12px !important;
+
+    letter-spacing: 0.18em !important;
+  }
+
+
+  /* --------------------------------------------------------
+     SEARCH
+  -------------------------------------------------------- */
+
+  .archenova-twin-home .an-search__search-row {
+    min-height: 58px !important;
+
+    margin: 0 !important;
+
+    padding:
+      7px
+      14px
+      9px !important;
+  }
+
+
+  .archenova-twin-home .an-search__search {
+    width: 100% !important;
+
+    min-height: 42px !important;
+
+    margin: 0 !important;
+  }
+
+
+  .archenova-twin-home .an-search__reset {
+    display: none !important;
+  }
+
+
+  /* ========================================================
+     THIS REMOVES THE LARGE BLANK REGION IN YOUR SCREENSHOT
+  ======================================================== */
+
+  .archenova-twin-home
+  .an-search__workspace,
+  .archenova-twin-home
+  .an-search__workspace.no-selection,
+  .archenova-twin-home
+  .an-search__workspace.has-selection {
+    position: relative !important;
+
+    display: block !important;
+
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: visible !important;
+  }
+
+
+  .archenova-twin-home .an-search__sidebar {
+    display: none !important;
+  }
+
+
+  .archenova-twin-home .an-search__field {
+    position: relative !important;
+
+    display: grid !important;
+
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    grid-template-rows:
+      64px
+      auto
+      auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: visible !important;
+
+    align-self: start !important;
+  }
+
+
+  /* --------------------------------------------------------
+     CIVILIZATION FIELD begins immediately.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home .an-search__field-head {
+    position: relative !important;
+
+    width: 100% !important;
+
+    min-height: 64px !important;
+
+    margin: 0 !important;
+
+    padding:
+      13px
+      18px !important;
+
+    align-self: start !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__field-head > div {
+    gap: 5px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__field-head span {
+    font-size: 5px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__field-head strong {
+    font-size: 9px !important;
+
+    line-height: 1.3 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__field-head > small {
+    display: none !important;
+  }
+
+
+  /* ========================================================
+     STAR FIELD
+     18 nodes = clean 2-column x 9-row layout.
+  ======================================================== */
+
+  .archenova-twin-home .an-search__canvas {
+    position: relative !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0,1fr)
+      ) !important;
+
+    grid-template-rows:
+      none !important;
+
+    grid-auto-flow: row !important;
+
+    grid-auto-rows:
+      74px !important;
+
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 666px !important;
+    max-height: none !important;
+
+    gap:
+      0
+      6px !important;
+
+    margin: 0 !important;
+
+    padding:
+      10px
+      18px
+      18px !important;
+
+    overflow: hidden !important;
+
+    align-content: start !important;
+    align-items: stretch !important;
+  }
+
+
+  /* --------------------------------------------------------
+     Kill all desktop absolute positioning.
+  -------------------------------------------------------- */
+
+  .archenova-twin-home .an-search-node,
+  .archenova-twin-home
+  .an-search__workspace.no-selection
+  .an-search-node,
+  .archenova-twin-home
+  .an-search__workspace.has-selection
+  .an-search-node {
+    position: relative !important;
+
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    width: 100% !important;
+
+    height: 74px !important;
+    min-height: 74px !important;
+    max-height: 74px !important;
+
+    margin: 0 !important;
+
+    padding:
+      8px
+      7px !important;
+
+    transform: none !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    gap: 8px !important;
+
+    overflow: hidden !important;
+
+    border: 0 !important;
+
+    background: transparent !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node:hover {
+    transform: none !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node__star {
+    flex:
+      0
+      0
+      17px !important;
+
+    width: 17px !important;
+    height: 17px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node__copy {
+    flex:
+      1
+      1
+      auto !important;
+
+    min-width: 0 !important;
+
+    max-width:
+      calc(100% - 25px) !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node__copy strong {
+    display: block !important;
+
+    width: 100% !important;
+
+    overflow: hidden !important;
+
+    font-size: 6.5px !important;
+
+    line-height: 1.2 !important;
+
+    text-overflow: ellipsis !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node__copy small {
+    display: block !important;
+
+    margin-top: 3px !important;
+
+    font-size: 3.4px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* --------------------------------------------------------
+     Selection hierarchy
+  -------------------------------------------------------- */
+
+  .archenova-twin-home
+  .an-search-node.is-background {
+    opacity: 0.34 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node.is-connected {
+    opacity: 0.78 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node.is-selected {
+    opacity: 1 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node.is-hidden {
+    display: none !important;
+  }
+
+
+  /*
+   * Desktop SVG coordinates are no longer valid
+   * after converting mobile to grid layout.
+   */
+  .archenova-twin-home
+  .an-search__connections {
+    display: none !important;
+  }
+
+
+  /* ========================================================
+     FILTER BAR
+     It belongs AFTER the 18-node field.
+  ======================================================== */
+
+  .archenova-twin-home
+  .an-search__mobile-filters {
+    position: relative !important;
+
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    z-index: 20 !important;
+
+    display: flex !important;
+
+    width: 100% !important;
+
+    min-height: 52px !important;
+
+    gap: 6px !important;
+
+    margin: 0 !important;
+
+    padding:
+      10px
+      14px
+      12px !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    background:
+      rgba(0,0,0,0.08) !important;
+
+    border-top:
+      1px solid
+      rgba(255,255,255,0.035) !important;
+
+    scrollbar-width: none;
+  }
+
+
+  .archenova-twin-home
+  .an-search__mobile-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .archenova-twin-home
+  .an-search__mobile-filters button {
+    flex:
+      0
+      0
+      auto !important;
+
+    min-height: 30px !important;
+
+    padding:
+      0
+      11px !important;
+  }
+
+
+  /* ========================================================
+     SELECTED SYSTEM
+
+     It is visually above the nodes.
+     It NEVER reserves space in the star layout.
+  ======================================================== */
+
+  .archenova-twin-home
+  .an-search__detail {
+    position: fixed !important;
+
+    left: 12px !important;
+    right: 12px !important;
+
+    /*
+     * Leave room for HOME's persistent bottom pager.
+     */
+    bottom:
+      calc(
+        104px +
+        env(safe-area-inset-bottom)
+      ) !important;
+
+    top: auto !important;
+
+    z-index: 1000 !important;
+
+    width: auto !important;
+
+    height: auto !important;
+
+    max-height:
+      min(
+        68svh,
+        650px
+      ) !important;
+
+    margin: 0 !important;
+
+    padding:
+      18px
+      16px !important;
+
+    overflow-y: auto !important;
+
+    border:
+      1px solid
+      rgba(255,255,255,0.085) !important;
+
+    border-radius: 18px !important;
+
+    background:
+      linear-gradient(
+        145deg,
+        rgba(13,14,16,0.84),
+        rgba(0,0,0,0.92)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(28px)
+      saturate(110%) !important;
+
+    backdrop-filter:
+      blur(28px)
+      saturate(110%) !important;
+
+    box-shadow:
+      0
+      26px
+      80px
+      rgba(0,0,0,0.48) !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__detail-head span {
+    color:
+      rgba(255,255,255,0.94) !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search__detail h3 {
+    color:
+      rgba(255,255,255,0.97) !important;
+  }
+
+
+  /*
+   * ArcheNova Search's own footer is unnecessary
+   * because HOME already has persistent navigation.
+   */
+  .archenova-twin-home
+  .an-search__footer {
+    display: none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+
+  .archenova-twin-home
+  .an-search__canvas {
+    grid-auto-rows:
+      68px !important;
+
+    min-height:
+      612px !important;
+
+    padding-left:
+      13px !important;
+
+    padding-right:
+      13px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node {
+    height:
+      68px !important;
+
+    min-height:
+      68px !important;
+
+    max-height:
+      68px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-search-node__copy strong {
+    font-size:
+      6px !important;
+  }
+
+}
+
      `}</style>
 
    </section>
