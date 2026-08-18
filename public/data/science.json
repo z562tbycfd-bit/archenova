@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-18T13:43:32.503Z",
+  "updated": "2026-08-18T14:35:24.967Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Retro phone trend reveals growing desire to disconnect",
+      "url": "https://phys.org/news/2026-08-retro-trend-reveals-desire-disconnect.html",
+      "summary": "From wall-mounted smartphone docks to old-fashioned coiled-phone handsets, a growing trend for retro phone accessories may be a sign that many people are looking for ways to create distance from their smartphones.",
+      "ts": 1787062808000,
+      "publishedAt": "2026-08-18T14:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long-range magnetic interactions govern how a ferrimagnet approaches its phase transition",
+      "url": "https://phys.org/news/2026-08-range-magnetic-interactions-ferrimagnet-approaches.html",
+      "summary": "Close to a phase transition, very different materials can follow the same mathematical rules. The concept of universality, which groups seemingly distinct systems based on their common properties, was developed to descri…",
+      "ts": 1787062801000,
+      "publishedAt": "2026-08-18T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The link between incoherent beliefs and conspiracism",
+      "url": "https://phys.org/news/2026-08-link-incoherent-beliefs-conspiracism.html",
+      "summary": "Simultaneous belief in logically incompatible claims is linked to conspiratorial thinking, according to a study that models belief using a Bayesian framework.",
+      "ts": 1787061608000,
+      "publishedAt": "2026-08-18T14:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tomato roots reveal hidden steps in 400-million-year-old fungal partnership",
+      "url": "https://phys.org/news/2026-08-tomato-roots-reveal-hidden-million.html",
+      "summary": "Scientists at VIB and Ghent University have produced the first high-resolution, cell-by-cell map of how tomato roots respond to colonization by arbuscular mycorrhizal fungi. These ancient fungal partners help plants abso…",
+      "ts": 1787061602000,
+      "publishedAt": "2026-08-18T14:00:02.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "What Spider-Man gets right — and wrong — about turning off superpowers",
+      "url": "https://www.sciencenews.org/article/spider-man-superpower-inhibitor-rna",
+      "summary": "In 'Spider-Man: Brand New Day,' Peter Parker devises a superpower inhibitor based on a real therapy using RNA.",
+      "ts": 1787061600000,
+      "publishedAt": "2026-08-18T14:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Unusual superconductivity could emerge in valley-imbalanced rhombohedral graphene",
@@ -121,6 +161,14 @@
       "summary": "Biologists, zoologists and psychologists have been trying to trace the origins of human language for centuries. One well-known theory, known as the social brain hypothesis, suggests that increasingly complex social lives…",
       "ts": 1787048401000,
       "publishedAt": "2026-08-18T10:20:01.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Highly linear flux-to-voltage transducer based on superconducting quantum interference proximity transistors",
+      "url": "http://link.aps.org/doi/10.1103/f7n9-jkwg",
+      "summary": "Author(s): Angelo Greco, Giorgio De Simoni, and Francesco Giazotto Superconducting quantum interference devices (SQUIDs) are state-of-the-art in ultrasensitive magnetometry; however, conventional SQUIDs are fundamentally…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -751,54 +799,6 @@
       "title": "Minkowski and Abraham Momenta Revisited from the Perspective of Photon Dynamics",
       "url": "https://arxiv.org/abs/2608.16282",
       "summary": "arXiv:2608.16282v1 Announce Type: new Abstract: The distinction between Minkowski and Abraham momenta has traditionally been discussed in the context of electron dynamics. In this work, we revisit the problem from the pe…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupled Transient Processes Govern Intraplate Earthquake Swarm Evolution: Insights from the 2019-2020 Palghar Sequence",
-      "url": "https://arxiv.org/abs/2608.16317",
-      "summary": "arXiv:2608.16317v1 Announce Type: new Abstract: Earthquake swarms provide a natural window into fault response to transient perturbations, yet their driving processes are commonly interpreted using fluid-driven and aseis…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling Newtonian noise of acoustic origin in the Virgo gravitational wave detector",
-      "url": "https://arxiv.org/abs/2608.16327",
-      "summary": "arXiv:2608.16327v1 Announce Type: new Abstract: Since the first gravitational-wave (GW) detection of September 14th 2015 and with hundreds of gravitational-wave sources identified by the LIGO-Virgo-KAGRA network, GW have…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unlocking Multi-Component Bulk-Materials Molecular Dynamics with a Small-Footprint Machine Learning Interatomic Potential",
-      "url": "https://arxiv.org/abs/2608.16329",
-      "summary": "arXiv:2608.16329v1 Announce Type: new Abstract: Bulk materials, as opposed to nanomaterials, require molecular dynamics (MD) simulations on a large spatial scale (~10^9 atoms or more) to adequately capture their atomic-s…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring Initial CO2 Transport Topologies for Germany's Carbon Management",
-      "url": "https://arxiv.org/abs/2608.16342",
-      "summary": "arXiv:2608.16342v1 Announce Type: new Abstract: Germany's climate target requires carbon capture and sequestration for residual emissions from hard-to-abate sectors such as cement production and waste incineration. Plann…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extracting a nitrile-centered, ether-assisted motif hierarchy for lithium-battery electrolyte design from billion-scale molecular space",
-      "url": "https://arxiv.org/abs/2608.16364",
-      "summary": "arXiv:2608.16364v1 Announce Type: new Abstract: Designing electrolyte molecules for lithium batteries requires balancing electronic stability with appropriate Li+ solvation, yet the structural basis remains unclear acros…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Assessing the Projector Augmented-Wave Method for Stopping Power Calculations",
-      "url": "https://arxiv.org/abs/2608.16389",
-      "summary": "arXiv:2608.16389v1 Announce Type: new Abstract: The stopping power of charged particles is investigated using time-dependent density functional theory (TDDFT). Such simulations are made possible by recent advances in com…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }

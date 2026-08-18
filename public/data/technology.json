@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-18T13:43:34.543Z",
+  "updated": "2026-08-18T14:35:27.798Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Exercise-Boosting Molecule May Help Improve Muscle Health in Type 2 Diabetes",
+      "url": "https://www.genengnews.com/topics/translational-medicine/exercise-boosting-molecule-may-help-improve-muscle-health-in-type-2-diabetes/",
+      "summary": "Researchers discovered that a key molecule released during exercise strengthens muscles, improves exercise performance and could be a therapeutic treatment for muscle damage caused by type 2 diabetes. The post Exercise-B…",
+      "ts": 1787062438000,
+      "publishedAt": "2026-08-18T14:13:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Glenn’s Legacy Forged Through Decades of Flight Research",
+      "url": "https://www.nasa.gov/general/nasa-glenn-inflight-research/",
+      "summary": "Many of NASA’s most important aerospace breakthroughs that began in the laboratory were ultimately proven in the sky. For decades, experts at NASA’s Glenn Research Center in Cleveland conducted flight tests — piloting ai…",
+      "ts": 1787061600000,
+      "publishedAt": "2026-08-18T14:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a setback for Eyepoint, a win for Amylyx, and more",
@@ -64,6 +82,15 @@
       "ts": 1787054400000,
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola: Motorbike riders carrying the sick may hold key to response boost",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168157",
+      "summary": "From the frontlines of the deadliest-ever Ebola outbreak in Democratic Republic of the Congo (DRC), the UN World Health Organization (WHO) shared details on Tuesday of a massive push for community engagement, a day after…",
+      "ts": 1787054400000,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "IAEA News",
@@ -783,33 +810,6 @@
       "summary": "UnitedHealth faces an investigation over tax payments, and we examine why PE deals for doctor groups are slowing.",
       "ts": 1786977647000,
       "publishedAt": "2026-08-17T14:40:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Total solar eclipse 2026 (Official ESA broadcast)",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast",
-      "summary": "Video: 01:10:42 We broadcast live from the Observatorio Astrofísico de Javalambre in Spain as a total solar eclipse crossed Europe on 12 August 2026. The path of totality swept across Greenland, Iceland, Spain and a smal…",
-      "ts": 1786975200000,
-      "publishedAt": "2026-08-17T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Akeso and Summit’s lung cancer drug shows worsening tumor-progression benefit",
-      "url": "https://www.statnews.com/2026/08/17/biotech-news-akeso-summit-ivonescimabs-worsening-tumor-progression-benefit/?utm_campaign=rss",
-      "summary": "Europe pulls Tavneos over trial integrity concerns, pricing concerns over AstraZeneca's hypertension drug, and more biotech news from The Readout",
-      "ts": 1786973895000,
-      "publishedAt": "2026-08-17T13:38:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an AstraZeneca setback, falling U.S. drug prices, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/17/astrazeneca-lung-cancer-setback-falling-drug-prices/?utm_campaign=rss",
-      "summary": "AstraZeneca is discontinuing a late-stage drug trial in patients with metastatic non-small cell lung cancer, extending a run of setbacks",
-      "ts": 1786972937000,
-      "publishedAt": "2026-08-17T13:22:17.000Z",
       "categoryId": "bio"
     }
   ],
