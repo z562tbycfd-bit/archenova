@@ -33,16 +33,7 @@ export default function Home() {
   <ArcheNovaMap />
 </section>
 
-      {/* =========================
-          CIVILIZATION ARCHITECTURE
-      ========================= */}
-      <section
-        id="galaxy-atlas"
-        data-home-section
-        className="home-page twin-page civ-intel-portal-page"
-      >
-        <GalaxyAtlas />
-      </section>
+
 
       {/* =========================
     TODAY'S INQUIRY
