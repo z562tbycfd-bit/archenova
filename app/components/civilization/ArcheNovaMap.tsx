@@ -6769,32 +6769,10 @@ export default function ArcheNovaMap() {
    DESKTOP
 ---------------------------------------------------------- */
 
-@media (min-width: 769px) {
-
-  /*
-   * Default state:
-   * sidebar + full search field
-   */
-  .an-map__workspace.no-selection {
-    grid-template-columns:
-      190px
-      minmax(0, 1fr) !important;
-  }
 
 
-  /*
-   * Selected state:
-   * restore detail column
-   */
-  .an-map__workspace.has-selection {
-    grid-template-columns:
-      190px
-      minmax(0, 1fr)
-      280px !important;
-  }
 
-
-  /*
+/*
    * Wider central field makes the neural space
    * feel intentional rather than empty.
    */
@@ -6805,33 +6783,6 @@ export default function ArcheNovaMap() {
   }
 
 }
-
-
-/* ----------------------------------------------------------
-   MEDIUM DESKTOP
----------------------------------------------------------- */
-
-@media
-(max-width: 1180px)
-and
-(min-width: 769px) {
-
-  .an-map__workspace.no-selection {
-    grid-template-columns:
-      150px
-      minmax(0, 1fr) !important;
-  }
-
-
-  .an-map__workspace.has-selection {
-    grid-template-columns:
-      150px
-      minmax(0, 1fr)
-      230px !important;
-  }
-
-}
-
 
 /* ----------------------------------------------------------
    FIELD TRANSITION
@@ -6915,6 +6866,253 @@ and
   .an-map__workspace.has-selection {
     display:
       block !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   PRODUCTION-STABLE WORKSPACE
+   Desktop detail uses overlay instead of changing grid
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /* --------------------------------------------------------
+     WORKSPACE
+     Always keep one stable geometry.
+  -------------------------------------------------------- */
+
+  .an-map__workspace,
+  .an-map__workspace.no-selection,
+  .an-map__workspace.has-selection {
+    position: relative !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+      190px
+      minmax(0, 1fr) !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    overflow: hidden !important;
+
+    transition: none !important;
+  }
+
+
+  /* --------------------------------------------------------
+     SIDEBAR
+  -------------------------------------------------------- */
+
+  .an-map__sidebar {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+
+  /* --------------------------------------------------------
+     MAP FIELD
+     Always occupies all available space.
+  -------------------------------------------------------- */
+
+  .an-map__field {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* --------------------------------------------------------
+     DETAIL
+     Overlay instead of creating a third grid column.
+  -------------------------------------------------------- */
+
+  .an-map__detail {
+    position: absolute !important;
+
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+
+    z-index: 90 !important;
+
+    width: 280px !important;
+    max-width:
+      min(
+        280px,
+        34%
+      ) !important;
+
+    box-sizing: border-box !important;
+
+    overflow-y: auto !important;
+
+    border-left:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.055
+      ) !important;
+
+    background:
+      linear-gradient(
+        145deg,
+        rgba(
+          12,
+          13,
+          15,
+          0.72
+        ),
+        rgba(
+          2,
+          3,
+          4,
+          0.86
+        )
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(26px)
+      saturate(110%) !important;
+
+    backdrop-filter:
+      blur(26px)
+      saturate(110%) !important;
+
+    box-shadow:
+      -18px
+      0
+      50px
+      rgba(
+        0,
+        0,
+        0,
+        0.18
+      ) !important;
+  }
+
+
+  /* --------------------------------------------------------
+     NO SELECTION
+     Entire central field remains available.
+  -------------------------------------------------------- */
+
+  .an-map__workspace.no-selection
+  .an-map__field {
+    width: 100% !important;
+  }
+
+
+  /* --------------------------------------------------------
+     SELECTED
+     Keep map geometry unchanged.
+     Detail simply floats above it.
+  -------------------------------------------------------- */
+
+  .an-map__workspace.has-selection
+  .an-map__field {
+    width: 100% !important;
+  }
+
+
+  /* --------------------------------------------------------
+     CORE
+     Keep actual center stable.
+  -------------------------------------------------------- */
+
+  .an-map__core-field,
+  .an-map__workspace.no-selection
+  .an-map__core-field,
+  .an-map__workspace.has-selection
+  .an-map__core-field {
+    left: 50% !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MEDIUM PC / LAPTOP
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-width: 1180px) {
+
+  .an-map__workspace,
+  .an-map__workspace.no-selection,
+  .an-map__workspace.has-selection {
+    grid-template-columns:
+      150px
+      minmax(0, 1fr) !important;
+  }
+
+
+  .an-map__detail {
+    width: 230px !important;
+
+    max-width: 36% !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+   Preserve existing bottom-sheet architecture.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-map__workspace,
+  .an-map__workspace.no-selection,
+  .an-map__workspace.has-selection {
+    display: block !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .an-map__field {
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+  }
+
+
+  /*
+   * Do NOT inherit desktop detail geometry.
+   */
+  .an-map__detail {
+    position: absolute !important;
+
+    left: 8px !important;
+    right: 8px !important;
+    top: auto !important;
+    bottom: 8px !important;
+
+    width: auto !important;
+    max-width: none !important;
+    max-height: 56% !important;
   }
 
 }
