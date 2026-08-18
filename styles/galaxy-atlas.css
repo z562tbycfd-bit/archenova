@@ -5615,3 +5615,386 @@ bottom:26px;
     bottom: 12px !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   GALAXY ATLAS — FULL CARD VISIBILITY FIX
+   Mac / Windows / Edge / Chrome / Safari
+   Preserve original design
+========================================================== */
+
+/*
+ * HOME section may still use viewport snapping,
+ * but GalaxyAtlas itself must be allowed to grow.
+ */
+.gx-page {
+  position: relative !important;
+
+  width: 100% !important;
+
+  height: auto !important;
+  min-height: 100svh !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding:
+    clamp(24px, 4vh, 48px)
+    0 !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/*
+ * The frame must size from its content,
+ * not from a fixed viewport fraction.
+ */
+.gx-frame {
+  position: relative !important;
+
+  width:
+    min(
+      1500px,
+      96vw
+    ) !important;
+
+  height: auto !important;
+  min-height: 760px !important;
+  max-height: none !important;
+
+  margin:
+    0
+    auto !important;
+
+  overflow: hidden !important;
+
+  box-sizing: border-box !important;
+
+  padding:
+    92px
+    32px
+    88px !important;
+}
+
+
+/*
+ * Map becomes part of normal document flow.
+ * This is the critical change.
+ */
+.gx-map {
+  position: relative !important;
+
+  left: auto !important;
+  top: auto !important;
+
+  width:
+    min(
+      960px,
+      68vw
+    ) !important;
+
+  height:
+    560px !important;
+
+  margin:
+    10px
+    auto
+    0 !important;
+
+  transform: none !important;
+
+  overflow: visible !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/*
+ * Keep the existing absolute node coordinate system.
+ */
+.gx-lines {
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  overflow: visible !important;
+}
+
+
+/*
+ * Topbar remains visually at the top,
+ * but no longer determines the card height.
+ */
+.gx-topbar {
+  top: 24px !important;
+
+  left:
+    clamp(
+      22px,
+      3vw,
+      42px
+    ) !important;
+
+  right:
+    clamp(
+      22px,
+      3vw,
+      42px
+    ) !important;
+}
+
+
+/*
+ * Footer remains inside the actual frame.
+ */
+.gx-bottom {
+  bottom: 22px !important;
+}
+
+
+/*
+ * Prevent HOME generic max-height rules
+ * from clipping GalaxyAtlas.
+ */
+.archenova-twin-home
+#galaxy-atlas,
+.archenova-twin-home
+#galaxy-atlas
+> *,
+.archenova-twin-home
+#galaxy-atlas
+.gx-page,
+.archenova-twin-home
+#galaxy-atlas
+.gx-frame {
+  height: auto !important;
+
+  max-height: none !important;
+
+  overflow: visible !important;
+}
+
+
+/*
+ * The frame itself must still clip its cosmic artwork,
+ * but not be externally clipped.
+ */
+.archenova-twin-home
+#galaxy-atlas
+.gx-frame {
+  overflow: hidden !important;
+}
+
+
+/* ==========================================================
+   SHORT DESKTOP
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and (max-height: 820px) {
+
+  .gx-frame {
+    min-height:
+      680px !important;
+
+    padding-top:
+      76px !important;
+
+    padding-bottom:
+      72px !important;
+  }
+
+
+  .gx-map {
+    width:
+      min(
+        850px,
+        66vw
+      ) !important;
+
+    height:
+      496px !important;
+  }
+
+
+  .gx-topbar {
+    top:
+      18px !important;
+  }
+
+
+  .gx-bottom {
+    bottom:
+      16px !important;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+   Keep existing mobile visual system.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .gx-page {
+    min-height:
+      100svh !important;
+
+    height:
+      auto !important;
+
+    overflow:
+      visible !important;
+
+    padding:
+      16px
+      0 !important;
+  }
+
+
+  .gx-frame {
+    width:
+      min(
+        86vw,
+        390px
+      ) !important;
+
+    height:
+      88svh !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      88svh !important;
+
+    padding:
+      0 !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .gx-map {
+    position:
+      absolute !important;
+
+    left:
+      50% !important;
+
+    top:
+      50% !important;
+
+    width:
+      min(
+        350px,
+        92vw
+      ) !important;
+
+    height:
+      470px !important;
+
+    margin:
+      0 !important;
+
+    transform:
+      translate(
+        -50%,
+        -50%
+      )
+      scale(
+        0.9
+      ) !important;
+  }
+}
