@@ -1726,8 +1726,10 @@ export default function ArcheNovaMap() {
                       }
                       className={[
                         "an-map-node",
-
+                        
                         `an-map-node--${node.layer}`,
+                        
+                        `an-map-node-id--${node.id}`,
 
                         selected
                           ? "is-selected"
@@ -7436,6 +7438,208 @@ export default function ArcheNovaMap() {
 
     top:
       50% !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   ALL-NODES SAFE VIEWPORT
+   Keep every system inside the visible field.
+========================================================== */
+
+/* ----------------------------------------------------------
+   1. CANVAS
+   Give the node network an internal safe area.
+---------------------------------------------------------- */
+
+.an-map__canvas {
+  position: relative !important;
+
+  overflow: hidden !important;
+}
+
+
+/* ----------------------------------------------------------
+   2. CONNECTION LAYER
+---------------------------------------------------------- */
+
+.an-map__connections {
+  position: absolute !important;
+
+  left: 4% !important;
+  top: 5% !important;
+
+  width: 92% !important;
+  height: 88% !important;
+}
+
+
+/* ----------------------------------------------------------
+   3. ALL NODES
+   Remap original 0–100 coordinates into a safe 8–92 / 8–90
+   visual range without changing the underlying data.
+---------------------------------------------------------- */
+
+.an-map-node {
+
+/*
+ * Existing CSS variables contain strings such as "13%",
+ * therefore use transform-based field compression instead.
+ */
+
+.an-map__canvas {
+  --an-safe-scale-x: 0.84;
+  --an-safe-scale-y: 0.82;
+}
+
+
+/* ----------------------------------------------------------
+   4. SAFE FIELD WRAPPING
+   Scale the visual network around the center.
+---------------------------------------------------------- */
+
+.an-map__connections {
+  transform: none !important;
+}
+
+
+/* Edge node corrections — desktop */
+@media (min-width: 769px) {
+
+  /* LEFT EDGE */
+
+  .an-map-node[style*="--an-map-x: 13%"],
+  .an-map-node[style*="--an-map-x: 15%"],
+  .an-map-node[style*="--an-map-x: 16%"],
+  .an-map-node[style*="--an-map-x: 17%"] {
+    left: 10% !important;
+  }
+
+
+  /* RIGHT EDGE */
+
+  .an-map-node[style*="--an-map-x: 83%"],
+  .an-map-node[style*="--an-map-x: 84%"] {
+    left: 89% !important;
+  }
+
+
+  /* BOTTOM EDGE */
+
+  .an-map-node[style*="--an-map-y: 88%"] {
+    top: 84% !important;
+  }
+
+  .an-map-node[style*="--an-map-y: 93%"] {
+    top: 88% !important;
+  }
+
+
+  /* TOP EDGE */
+
+  .an-map-node[style*="--an-map-y: 22%"],
+  .an-map-node[style*="--an-map-y: 24%"],
+  .an-map-node[style*="--an-map-y: 27%"],
+  .an-map-node[style*="--an-map-y: 28%"] {
+    top: max(var(--an-map-y), 16%) !important;
+  }
+
+}
+
+
+/* ----------------------------------------------------------
+   5. LABEL SAFETY
+---------------------------------------------------------- */
+
+.an-map-node__copy {
+  max-width: 92px !important;
+
+  overflow: visible !important;
+}
+
+
+.an-map-node__copy strong {
+  max-width: 92px !important;
+
+  overflow: visible !important;
+
+  text-overflow: clip !important;
+
+  white-space: nowrap !important;
+}
+
+
+/* Right-edge labels extend inward instead of outward. */
+
+@media (min-width: 769px) {
+
+  .an-map-node[style*="--an-map-x: 83%"],
+  .an-map-node[style*="--an-map-x: 84%"] {
+    flex-direction: row-reverse !important;
+
+    text-align: right !important;
+  }
+
+}
+
+
+/* ----------------------------------------------------------
+   6. CORE
+   Keep center independent from edge corrections.
+---------------------------------------------------------- */
+
+.an-map__core-field {
+  left: 50% !important;
+  top: 50% !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Mobile needs stronger horizontal protection because
+   * labels occupy a much larger fraction of the field.
+   */
+
+  .an-map-node[style*="--an-map-x: 13%"] {
+    left: 17% !important;
+  }
+
+  .an-map-node[style*="--an-map-x: 15%"],
+  .an-map-node[style*="--an-map-x: 16%"],
+  .an-map-node[style*="--an-map-x: 17%"] {
+    left: 18% !important;
+  }
+
+
+  .an-map-node[style*="--an-map-x: 83%"],
+  .an-map-node[style*="--an-map-x: 84%"] {
+    left: 82% !important;
+  }
+
+
+  .an-map-node[style*="--an-map-y: 88%"] {
+    top: 82% !important;
+  }
+
+
+  .an-map-node[style*="--an-map-y: 93%"] {
+    top: 87% !important;
+  }
+
+
+  .an-map-node__copy {
+    max-width: 64px !important;
+  }
+
+
+  .an-map-node__copy strong {
+    max-width: 64px !important;
   }
 
 }
