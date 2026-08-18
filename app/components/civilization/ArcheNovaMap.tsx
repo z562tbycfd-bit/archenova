@@ -1,15 +1,17 @@
 "use client";
 
 import Link from "next/link";
+
 import {
   useMemo,
   useState,
   type CSSProperties,
 } from "react";
 
-/* =========================================================
+
+/* ==========================================================
    TYPES
-========================================================= */
+========================================================== */
 
 type MapLayer =
   | "all"
@@ -20,43 +22,71 @@ type MapLayer =
   | "experience"
   | "preserve";
 
-type NodeLayer = Exclude<MapLayer, "all">;
+
+type NodeLayer =
+  Exclude<
+    MapLayer,
+    "all"
+  >;
+
 
 type ArcheNovaNode = {
   id: string;
+
   title: string;
+
   shortTitle: string;
+
   eyebrow: string;
+
   description: string;
+
   layer: NodeLayer;
+
   href: string;
+
   x: number;
+
   y: number;
-  status: "ACTIVE" | "CORE" | "RESEARCH" | "SYSTEM";
+
+  status:
+    | "ACTIVE"
+    | "CORE"
+    | "RESEARCH"
+    | "SYSTEM";
+
   connections: string[];
+
   capabilities: string[];
 };
 
-type MapNodeStyle = CSSProperties & {
-  "--map-x": string;
-  "--map-y": string;
-};
 
-/* =========================================================
+type MapNodeStyle =
+  CSSProperties & {
+    "--map-x": string;
+    "--map-y": string;
+  };
+
+
+/* ==========================================================
    LAYERS
-========================================================= */
+========================================================== */
 
 const MAP_LAYERS: readonly {
   id: MapLayer;
+
   label: string;
+
   short: string;
+
   description: string;
 }[] = [
   {
     id: "all",
     label: "All Systems",
     short: "ALL",
-    description: "View the complete ArcheNova architecture.",
+    description:
+      "View the complete ArcheNova architecture.",
   },
   {
     id: "observe",
@@ -102,11 +132,14 @@ const MAP_LAYERS: readonly {
   },
 ];
 
-/* =========================================================
-   NODES
-========================================================= */
 
-const MAP_NODES: readonly ArcheNovaNode[] = [
+/* ==========================================================
+   NODES
+========================================================== */
+
+const MAP_NODES:
+  readonly ArcheNovaNode[] = [
+
   {
     id: "inquiry",
     title: "Today's Inquiry",
@@ -119,13 +152,18 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 13,
     y: 22,
     status: "ACTIVE",
-    connections: ["episteme", "research", "intelligence"],
+    connections: [
+      "episteme",
+      "research",
+      "intelligence",
+    ],
     capabilities: [
       "Scientific inquiry",
       "Evidence framing",
       "Falsification",
     ],
   },
+
   {
     id: "research",
     title: "Research",
@@ -138,13 +176,18 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 17,
     y: 47,
     status: "RESEARCH",
-    connections: ["inquiry", "episteme", "library"],
+    connections: [
+      "inquiry",
+      "episteme",
+      "library",
+    ],
     capabilities: [
       "Research synthesis",
       "Evidence",
       "Scientific records",
     ],
   },
+
   {
     id: "observatory",
     title: "Observatory",
@@ -157,13 +200,18 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 15,
     y: 73,
     status: "SYSTEM",
-    connections: ["research", "intelligence", "memory"],
+    connections: [
+      "research",
+      "intelligence",
+      "memory",
+    ],
     capabilities: [
       "Signal detection",
       "Monitoring",
       "Reality contact",
     ],
   },
+
   {
     id: "episteme",
     title: "Episteme",
@@ -190,6 +238,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Challenge",
     ],
   },
+
   {
     id: "intelligence",
     title: "Civilization Intelligence",
@@ -215,6 +264,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "System analysis",
     ],
   },
+
   {
     id: "architecture",
     title: "Civilization Architecture",
@@ -239,6 +289,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Institutional design",
     ],
   },
+
   {
     id: "governance",
     title: "Governance",
@@ -263,6 +314,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Correctability",
     ],
   },
+
   {
     id: "constitution",
     title: "Constitution",
@@ -275,13 +327,18 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 61,
     y: 78,
     status: "CORE",
-    connections: ["governance", "architecture", "memory"],
+    connections: [
+      "governance",
+      "architecture",
+      "memory",
+    ],
     capabilities: [
       "Principles",
       "Constraints",
       "Institutional continuity",
     ],
   },
+
   {
     id: "realization",
     title: "Realization",
@@ -306,6 +363,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Deployment",
     ],
   },
+
   {
     id: "technology",
     title: "Technology",
@@ -329,6 +387,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Capability expansion",
     ],
   },
+
   {
     id: "projects",
     title: "Projects",
@@ -352,6 +411,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Physical implementation",
     ],
   },
+
   {
     id: "experience",
     title: "Civilization Experience",
@@ -364,13 +424,18 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 36,
     y: 84,
     status: "ACTIVE",
-    connections: ["dialogue", "episteme", "realization"],
+    connections: [
+      "dialogue",
+      "episteme",
+      "realization",
+    ],
     capabilities: [
       "Open world",
       "Scientific interaction",
       "Exploration",
     ],
   },
+
   {
     id: "dialogue",
     title: "Dialogue",
@@ -383,13 +448,18 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 36,
     y: 70,
     status: "SYSTEM",
-    connections: ["episteme", "experience", "crossings"],
+    connections: [
+      "episteme",
+      "experience",
+      "crossings",
+    ],
     capabilities: [
       "Dialogue",
       "Interaction",
       "Revision",
     ],
   },
+
   {
     id: "crossings",
     title: "Crossings",
@@ -402,13 +472,17 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 16,
     y: 88,
     status: "SYSTEM",
-    connections: ["dialogue", "experience"],
+    connections: [
+      "dialogue",
+      "experience",
+    ],
     capabilities: [
       "Fragments",
       "Public exchange",
       "Signals",
     ],
   },
+
   {
     id: "library",
     title: "Civilization Library",
@@ -421,13 +495,18 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 50,
     y: 93,
     status: "SYSTEM",
-    connections: ["research", "memory", "constitution"],
+    connections: [
+      "research",
+      "memory",
+      "constitution",
+    ],
     capabilities: [
       "Archive",
       "Papers",
       "Knowledge preservation",
     ],
   },
+
   {
     id: "memory",
     title: "Institutional Memory",
@@ -452,6 +531,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Historical evidence",
     ],
   },
+
   {
     id: "capital",
     title: "Capital Systems",
@@ -475,6 +555,7 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
       "Resource allocation",
     ],
   },
+
   {
     id: "commercialization",
     title: "Commercialization",
@@ -487,7 +568,11 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
     x: 72,
     y: 88,
     status: "SYSTEM",
-    connections: ["capital", "projects", "technology"],
+    connections: [
+      "capital",
+      "projects",
+      "technology",
+    ],
     capabilities: [
       "Commercialization",
       "Deployment",
@@ -496,415 +581,894 @@ const MAP_NODES: readonly ArcheNovaNode[] = [
   },
 ];
 
-/* =========================================================
+
+/* ==========================================================
    HELPERS
-========================================================= */
+========================================================== */
 
-function normalize(value: string) {
-  return value.toLowerCase().trim();
+function normalize(
+  value:
+    string,
+) {
+  return value
+    .toLowerCase()
+    .trim();
 }
 
-function getLayer(id: NodeLayer) {
-  return MAP_LAYERS.find((layer) => layer.id === id);
+
+function getLayer(
+  id:
+    NodeLayer,
+) {
+  return MAP_LAYERS.find(
+    (
+      layer,
+    ) =>
+      layer.id ===
+      id,
+  );
 }
+
 
 /*
- * Original coordinates remain the source of truth.
- * They are mapped into a safe internal region so a node
- * can never sit directly against the clipping boundary.
+ * Wider safe mapping.
+ *
+ * The old 10 + value * 0.8 compressed the
+ * entire system too much.
  */
-function safeX(value: number) {
-  return 9 + value * 0.82;
+function safeX(
+  value:
+    number,
+) {
+  return (
+    4 +
+    value *
+      0.92
+  );
 }
 
-function safeY(value: number) {
-  return 8 + value * 0.84;
+
+function safeY(
+  value:
+    number,
+) {
+  return (
+    3 +
+    value *
+      0.94
+  );
 }
 
-/* =========================================================
+
+/* ==========================================================
    COMPONENT
-========================================================= */
+========================================================== */
 
 export default function ArcheNovaMap() {
-  const [activeLayer, setActiveLayer] =
-    useState<MapLayer>("all");
 
-  const [query, setQuery] = useState("");
+  const [
+    activeLayer,
+    setActiveLayer,
+  ] =
+    useState<MapLayer>(
+      "all",
+    );
 
-  /*
-   * No forced Episteme selection.
-   */
-  const [selectedId, setSelectedId] =
-    useState<string | null>(null);
 
-  const selectedNode = useMemo(
-    () =>
-      selectedId
-        ? MAP_NODES.find((node) => node.id === selectedId) ??
-          null
-        : null,
-    [selectedId],
-  );
+  const [
+    query,
+    setQuery,
+  ] =
+    useState(
+      "",
+    );
 
-  const visibleNodes = useMemo(() => {
-    const q = normalize(query);
 
-    return MAP_NODES.filter((node) => {
-      const layerMatch =
-        activeLayer === "all" ||
-        node.layer === activeLayer;
+  const [
+    selectedId,
+    setSelectedId,
+  ] =
+    useState<string | null>(
+      null,
+    );
 
-      const queryMatch =
-        !q ||
-        normalize(
-          [
-            node.title,
-            node.shortTitle,
-            node.eyebrow,
-            node.description,
-            ...node.capabilities,
-          ].join(" "),
-        ).includes(q);
 
-      return layerMatch && queryMatch;
-    });
-  }, [activeLayer, query]);
+  /* ========================================================
+     SELECTED
+  ======================================================== */
 
-  const visibleIds = useMemo(
-    () =>
-      new Set(
-        visibleNodes.map((node) => node.id),
-      ),
-    [visibleNodes],
-  );
+  const selectedNode =
+    useMemo(
+      () => {
 
-  const selectedConnections = useMemo(
-    () =>
-      new Set(
-        selectedNode?.connections ?? [],
-      ),
-    [selectedNode],
-  );
+        if (
+          !selectedId
+        ) {
+          return null;
+        }
 
-  /*
-   * Build every unique connection once.
-   */
-  const connectionLines = useMemo(() => {
-    const seen = new Set<string>();
 
-    const lines: {
-      id: string;
-      x1: number;
-      y1: number;
-      x2: number;
-      y2: number;
-      active: boolean;
-    }[] = [];
-
-    MAP_NODES.forEach((node) => {
-      node.connections.forEach((targetId) => {
-        const target =
+        return (
           MAP_NODES.find(
-            (item) => item.id === targetId,
+            (
+              node,
+            ) =>
+              node.id ===
+              selectedId,
+          ) ??
+          null
+        );
+      },
+      [
+        selectedId,
+      ],
+    );
+
+
+  /* ========================================================
+     FILTER
+  ======================================================== */
+
+  const visibleNodes =
+    useMemo(
+      () => {
+
+        const normalizedQuery =
+          normalize(
+            query,
           );
 
-        if (!target) return;
 
-        const key = [node.id, target.id]
-          .sort()
-          .join("--");
+        return MAP_NODES.filter(
+          (
+            node,
+          ) => {
 
-        if (seen.has(key)) return;
+            const layerMatch =
+              activeLayer ===
+                "all" ||
+              node.layer ===
+                activeLayer;
 
-        seen.add(key);
 
-        lines.push({
-          id: key,
-          x1: safeX(node.x),
-          y1: safeY(node.y),
-          x2: safeX(target.x),
-          y2: safeY(target.y),
-          active:
-            !!selectedNode &&
-            (node.id === selectedNode.id ||
-              target.id === selectedNode.id),
-        });
-      });
-    });
+            const queryMatch =
+              !normalizedQuery ||
+              normalize(
+                [
+                  node.title,
+                  node.shortTitle,
+                  node.eyebrow,
+                  node.description,
+                  ...node.capabilities,
+                ].join(
+                  " ",
+                ),
+              ).includes(
+                normalizedQuery,
+              );
 
-    return lines;
-  }, [selectedNode]);
 
-  function selectNode(id: string) {
-    setSelectedId((current) =>
-      current === id ? null : id,
+            return (
+              layerMatch &&
+              queryMatch
+            );
+          },
+        );
+      },
+      [
+        activeLayer,
+        query,
+      ],
     );
-  }
 
-  function resetMap() {
-    setQuery("");
-    setActiveLayer("all");
-    setSelectedId(null);
-  }
+
+  const visibleIds =
+    useMemo(
+      () =>
+        new Set(
+          visibleNodes.map(
+            (
+              node,
+            ) =>
+              node.id,
+          ),
+        ),
+      [
+        visibleNodes,
+      ],
+    );
+
+
+  /* ========================================================
+     RELATIONS
+  ======================================================== */
+
+  const selectedConnections =
+    useMemo(
+      () =>
+        new Set(
+          selectedNode
+            ?.connections ??
+          [],
+        ),
+      [
+        selectedNode,
+      ],
+    );
+
+
+  const connectionLines =
+    useMemo(
+      () => {
+
+        const seen =
+          new Set<string>();
+
+
+        const lines:
+          {
+            id: string;
+
+            x1: number;
+
+            y1: number;
+
+            x2: number;
+
+            y2: number;
+
+            active: boolean;
+          }[] =
+          [];
+
+
+        MAP_NODES.forEach(
+          (
+            node,
+          ) => {
+
+            node
+              .connections
+              .forEach(
+                (
+                  targetId,
+                ) => {
+
+                  const target =
+                    MAP_NODES.find(
+                      (
+                        item,
+                      ) =>
+                        item.id ===
+                        targetId,
+                    );
+
+
+                  if (
+                    !target
+                  ) {
+                    return;
+                  }
+
+
+                  const key =
+                    [
+                      node.id,
+                      target.id,
+                    ]
+                      .sort()
+                      .join(
+                        "--",
+                      );
+
+
+                  if (
+                    seen.has(
+                      key,
+                    )
+                  ) {
+                    return;
+                  }
+
+
+                  seen.add(
+                    key,
+                  );
+
+
+                  lines.push({
+                    id:
+                      key,
+
+                    x1:
+                      safeX(
+                        node.x,
+                      ),
+
+                    y1:
+                      safeY(
+                        node.y,
+                      ),
+
+                    x2:
+                      safeX(
+                        target.x,
+                      ),
+
+                    y2:
+                      safeY(
+                        target.y,
+                      ),
+
+                    active:
+                      Boolean(
+                        selectedNode &&
+                        (
+                          node.id ===
+                            selectedNode.id ||
+                          target.id ===
+                            selectedNode.id
+                        )
+                      ),
+                  });
+                },
+              );
+          },
+        );
+
+
+        return lines;
+      },
+      [
+        selectedNode,
+      ],
+    );
+
 
   const activeLayerData =
     MAP_LAYERS.find(
-      (layer) => layer.id === activeLayer,
-    ) ?? MAP_LAYERS[0];
+      (
+        layer,
+      ) =>
+        layer.id ===
+        activeLayer,
+    ) ??
+    MAP_LAYERS[0];
+
+
+  /* ========================================================
+     ACTIONS
+  ======================================================== */
+
+  function selectNode(
+    id:
+      string,
+  ) {
+    setSelectedId(
+      (
+        current,
+      ) =>
+        current ===
+          id
+          ? null
+          : id,
+    );
+  }
+
+
+  function clearSelection() {
+    setSelectedId(
+      null,
+    );
+  }
+
+
+  function resetSearch() {
+    setQuery(
+      "",
+    );
+
+    setActiveLayer(
+      "all",
+    );
+
+    setSelectedId(
+      null,
+    );
+  }
+
+
+  /* ========================================================
+     UI
+  ======================================================== */
 
   return (
-    <section className="an-search">
+    <section
+      className="an-search"
+      aria-label="ArcheNova Search"
+    >
+
+      {/* ==================================================
+          SPACE
+      ================================================== */}
+
       <div
         className="an-search__space"
         aria-hidden="true"
       />
 
-      <div className="an-search__glass">
-        {/* HEADER */}
+
+      {/* ==================================================
+          SURFACE
+          No second outer card.
+      ================================================== */}
+
+      <div className="an-search__surface">
+
+        {/* =================================================
+            HEADER
+        ================================================= */}
 
         <header className="an-search__header">
-          <div className="an-search__brand">
-            <span>ARCHENOVA</span>
-            <strong>SEARCH</strong>
+
+          <div className="an-search__identity">
+
+            <span>
+              ARCHENOVA
+            </span>
+
+            <strong>
+              SEARCH
+            </strong>
+
             <small>
               INTERACTIVE CIVILIZATION ARCHITECTURE
             </small>
+
           </div>
 
-          <div className="an-search__online">
+
+          <div className="an-search__status">
+
             <span>
               <i />
+
               SYSTEM ONLINE
             </span>
 
+
             <small>
-              {MAP_NODES.length} NODES
+              {
+                MAP_NODES.length
+              } NODES
             </small>
+
           </div>
+
         </header>
 
-        {/* SEARCH */}
+
+        {/* =================================================
+            TOOLBAR
+        ================================================= */}
 
         <div className="an-search__toolbar">
+
           <label className="an-search__input">
-            <span aria-hidden="true">⌕</span>
+
+            <span
+              aria-hidden="true"
+            >
+              ⌕
+            </span>
+
 
             <input
               type="search"
-              value={query}
-              onChange={(event) =>
-                setQuery(event.target.value)
+              value={
+                query
               }
+              onChange={(
+                event,
+              ) => {
+                setQuery(
+                  event
+                    .target
+                    .value,
+                );
+              }}
               placeholder="Search ArcheNova..."
               aria-label="Search ArcheNova"
             />
 
+
             {query && (
               <button
                 type="button"
-                onClick={() => setQuery("")}
+                onClick={() => {
+                  setQuery(
+                    "",
+                  );
+                }}
                 aria-label="Clear search"
               >
                 ×
               </button>
             )}
+
           </label>
 
+
           <span className="an-search__visible">
-            {visibleNodes.length} visible
+            {
+              visibleNodes.length
+            } visible
           </span>
+
         </div>
 
-        {/* WORKSPACE */}
+
+        {/* =================================================
+            WORKSPACE
+        ================================================= */}
 
         <div
           className={[
             "an-search__workspace",
-            selectedNode ? "has-selection" : "",
+
+            selectedNode
+              ? "has-selection"
+              : "",
           ]
-            .filter(Boolean)
-            .join(" ")}
+            .filter(
+              Boolean,
+            )
+            .join(
+              " ",
+            )}
         >
-          {/* SIDEBAR */}
+
+          {/* ===============================================
+              SIDEBAR
+          =============================================== */}
 
           <aside className="an-search__sidebar">
-            <div className="an-search__side-title">
-              <span>SYSTEM LAYERS</span>
-              <small>FILTER</small>
+
+            <div className="an-search__sidebar-head">
+
+              <span>
+                SYSTEM LAYERS
+              </span>
+
+              <small>
+                FILTER
+              </small>
+
             </div>
+
 
             <div className="an-search__filters">
-              {MAP_LAYERS.map((layer) => {
-                const count =
-                  layer.id === "all"
-                    ? MAP_NODES.length
-                    : MAP_NODES.filter(
-                        (node) =>
-                          node.layer === layer.id,
-                      ).length;
 
-                return (
-                  <button
-                    key={layer.id}
-                    type="button"
-                    className={
-                      activeLayer === layer.id
-                        ? "is-active"
-                        : ""
-                    }
-                    onClick={() =>
-                      setActiveLayer(layer.id)
-                    }
-                  >
-                    <span>{layer.label}</span>
-                    <small>{count}</small>
-                  </button>
-                );
-              })}
+              {MAP_LAYERS.map(
+                (
+                  layer,
+                ) => {
+
+                  const count =
+                    layer.id ===
+                      "all"
+                      ? MAP_NODES.length
+                      : MAP_NODES.filter(
+                          (
+                            node,
+                          ) =>
+                            node.layer ===
+                            layer.id,
+                        ).length;
+
+
+                  return (
+                    <button
+                      key={
+                        layer.id
+                      }
+                      type="button"
+                      className={
+                        activeLayer ===
+                          layer.id
+                          ? "is-active"
+                          : ""
+                      }
+                      onClick={() => {
+                        setActiveLayer(
+                          layer.id,
+                        );
+                      }}
+                    >
+
+                      <span>
+                        {
+                          layer.label
+                        }
+                      </span>
+
+                      <small>
+                        {
+                          count
+                        }
+                      </small>
+
+                    </button>
+                  );
+                },
+              )}
+
             </div>
 
+
             <div className="an-search__layer-info">
-              <span>ACTIVE LAYER</span>
+
+              <span>
+                ACTIVE LAYER
+              </span>
 
               <strong>
-                {activeLayerData.label}
+                {
+                  activeLayerData
+                    .label
+                }
               </strong>
 
               <p>
-                {activeLayerData.description}
+                {
+                  activeLayerData
+                    .description
+                }
               </p>
+
             </div>
+
           </aside>
 
-          {/* FIELD */}
+
+          {/* ===============================================
+              FIELD
+          =============================================== */}
 
           <main className="an-search__field">
+
             <div className="an-search__field-head">
+
               <div>
-                <span>CIVILIZATION FIELD</span>
+
+                <span>
+                  CIVILIZATION FIELD
+                </span>
 
                 <strong>
                   Navigate systems through relationships.
                 </strong>
+
               </div>
 
+
               <small>
-                {selectedNode
-                  ? "SELECTED"
-                  : "SELECT A NODE"}
+                {
+                  selectedNode
+                    ? "SELECTED"
+                    : "SELECT A NODE"
+                }
               </small>
+
             </div>
 
-            {/* ONE COORDINATE SYSTEM */}
+
+            {/* =============================================
+                CANVAS
+            ============================================= */}
 
             <div
               className="an-search__canvas"
-              onClick={() => setSelectedId(null)}
+              onClick={
+                clearSelection
+              }
             >
+
+              {/* STARS */}
+
               <div
-                className="an-search__grid"
+                className="an-search__stars"
                 aria-hidden="true"
               />
 
+
+              {/* CONNECTIONS */}
+
               <svg
-                className="an-search__connections"
+                className={[
+                  "an-search__connections",
+
+                  selectedNode
+                    ? "is-visible"
+                    : "",
+                ]
+                  .filter(
+                    Boolean,
+                  )
+                  .join(
+                    " ",
+                  )}
                 viewBox="0 0 100 100"
                 preserveAspectRatio="none"
                 aria-hidden="true"
               >
-                {connectionLines.map((line) => (
-                  <line
-                    key={line.id}
-                    x1={line.x1}
-                    y1={line.y1}
-                    x2={line.x2}
-                    y2={line.y2}
-                    className={
-                      line.active
-                        ? "is-active"
-                        : ""
-                    }
-                  />
-                ))}
+
+                {connectionLines.map(
+                  (
+                    line,
+                  ) => (
+                    <line
+                      key={
+                        line.id
+                      }
+                      x1={
+                        line.x1
+                      }
+                      y1={
+                        line.y1
+                      }
+                      x2={
+                        line.x2
+                      }
+                      y2={
+                        line.y2
+                      }
+                      className={
+                        line.active
+                          ? "is-active"
+                          : ""
+                      }
+                    />
+                  ),
+                )}
+
               </svg>
 
-              <div
-                className="an-search__core"
-                aria-hidden="true"
-              >
-                <span>ARCHENOVA</span>
-                <small>CIVILIZATION SYSTEM</small>
-              </div>
 
-              {MAP_NODES.map((node) => {
-                const selected =
-                  selectedNode?.id === node.id;
+              {/* NODES */}
 
-                const connected =
-                  selectedConnections.has(
-                    node.id,
+              {MAP_NODES.map(
+                (
+                  node,
+                ) => {
+
+                  const selected =
+                    selectedNode
+                      ?.id ===
+                    node.id;
+
+
+                  const connected =
+                    selectedConnections.has(
+                      node.id,
+                    );
+
+
+                  const visible =
+                    visibleIds.has(
+                      node.id,
+                    );
+
+
+                  const style:
+                    MapNodeStyle = {
+                    "--map-x":
+                      `${
+                        safeX(
+                          node.x,
+                        )
+                      }%`,
+
+                    "--map-y":
+                      `${
+                        safeY(
+                          node.y,
+                        )
+                      }%`,
+                  };
+
+
+                  return (
+                    <button
+                      key={
+                        node.id
+                      }
+                      type="button"
+                      style={
+                        style
+                      }
+                      className={[
+                        "an-search-node",
+
+                        selected
+                          ? "is-selected"
+                          : "",
+
+                        connected
+                          ? "is-connected"
+                          : "",
+
+                        visible
+                          ? ""
+                          : "is-hidden",
+                      ]
+                        .filter(
+                          Boolean,
+                        )
+                        .join(
+                          " ",
+                        )}
+                      onClick={(
+                        event,
+                      ) => {
+
+                        event
+                          .stopPropagation();
+
+                        selectNode(
+                          node.id,
+                        );
+                      }}
+                      aria-pressed={
+                        selected
+                      }
+                      aria-label={`Select ${node.title}`}
+                    >
+
+                      <i />
+
+                      <span>
+
+                        <strong>
+                          {
+                            node.shortTitle
+                          }
+                        </strong>
+
+                        <small>
+                          {
+                            getLayer(
+                              node.layer,
+                            )
+                              ?.short
+                          }
+                        </small>
+
+                      </span>
+
+                    </button>
                   );
+                },
+              )}
 
-                const visible =
-                  visibleIds.has(node.id);
 
-                const style: MapNodeStyle = {
-                  "--map-x": `${safeX(node.x)}%`,
-                  "--map-y": `${safeY(node.y)}%`,
-                };
+              {/* EMPTY */}
 
-                return (
-                  <button
-                    key={node.id}
-                    type="button"
-                    style={style}
-                    className={[
-                      "an-search-node",
-                      selected
-                        ? "is-selected"
-                        : "",
-                      connected
-                        ? "is-connected"
-                        : "",
-                      visible
-                        ? ""
-                        : "is-hidden",
-                    ]
-                      .filter(Boolean)
-                      .join(" ")}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      selectNode(node.id);
-                    }}
-                    aria-pressed={selected}
-                    aria-label={`Select ${node.title}`}
-                  >
-                    <i />
-
-                    <span>
-                      <strong>
-                        {node.shortTitle}
-                      </strong>
-
-                      <small>
-                        {
-                          getLayer(node.layer)
-                            ?.short
-                        }
-                      </small>
-                    </span>
-                  </button>
-                );
-              })}
-
-              {visibleNodes.length === 0 && (
+              {visibleNodes.length ===
+                0 && (
                 <div
                   className="an-search__empty"
-                  onClick={(event) =>
-                    event.stopPropagation()
-                  }
+                  onClick={(
+                    event,
+                  ) => {
+                    event
+                      .stopPropagation();
+                  }}
                 >
-                  <span>NO MATCH</span>
+
+                  <span>
+                    NO MATCH
+                  </span>
 
                   <strong>
                     No system matches this search.
@@ -912,1225 +1476,2825 @@ export default function ArcheNovaMap() {
 
                   <button
                     type="button"
-                    onClick={resetMap}
+                    onClick={
+                      resetSearch
+                    }
                   >
                     RESET SEARCH
                   </button>
+
                 </div>
               )}
+
             </div>
 
-            {/* MOBILE FILTER */}
+
+            {/* =============================================
+                MOBILE FILTERS
+            ============================================= */}
 
             <nav
               className="an-search__mobile-filters"
               aria-label="Map layers"
             >
-              {MAP_LAYERS.map((layer) => (
-                <button
-                  key={layer.id}
-                  type="button"
-                  className={
-                    activeLayer === layer.id
-                      ? "is-active"
-                      : ""
-                  }
-                  onClick={() =>
-                    setActiveLayer(layer.id)
-                  }
-                >
-                  {layer.short}
-                </button>
-              ))}
+
+              {MAP_LAYERS.map(
+                (
+                  layer,
+                ) => (
+                  <button
+                    key={
+                      layer.id
+                    }
+                    type="button"
+                    className={
+                      activeLayer ===
+                        layer.id
+                        ? "is-active"
+                        : ""
+                    }
+                    onClick={() => {
+                      setActiveLayer(
+                        layer.id,
+                      );
+                    }}
+                  >
+                    {
+                      layer.short
+                    }
+                  </button>
+                ),
+              )}
+
             </nav>
+
           </main>
 
-          {/* DETAIL */}
+
+          {/* ===============================================
+              DETAIL PANEL
+          =============================================== */}
 
           {selectedNode && (
             <aside className="an-search__detail">
+
               <div className="an-search__detail-top">
+
                 <div>
-                  <span>SELECTED SYSTEM</span>
+
+                  <span>
+                    SELECTED SYSTEM
+                  </span>
+
                   <small>
-                    {selectedNode.status}
+                    {
+                      selectedNode
+                        .status
+                    }
                   </small>
+
                 </div>
+
 
                 <button
                   type="button"
-                  onClick={() =>
-                    setSelectedId(null)
+                  onClick={
+                    clearSelection
                   }
                   aria-label="Close details"
                 >
                   ×
                 </button>
+
               </div>
+
 
               <div className="an-search__detail-layer">
+
                 <i />
-                {getLayer(
-                  selectedNode.layer,
-                )?.label}
+
+                <span>
+                  {
+                    getLayer(
+                      selectedNode
+                        .layer,
+                    )
+                      ?.label
+                  }
+                </span>
+
               </div>
 
-              <span className="an-search__eyebrow">
-                {selectedNode.eyebrow}
+
+              <span className="an-search__detail-eyebrow">
+                {
+                  selectedNode
+                    .eyebrow
+                }
               </span>
 
-              <h3>{selectedNode.title}</h3>
 
-              <p>
-                {selectedNode.description}
+              <h3>
+                {
+                  selectedNode
+                    .title
+                }
+              </h3>
+
+
+              <p className="an-search__detail-description">
+                {
+                  selectedNode
+                    .description
+                }
               </p>
 
+
               <section className="an-search__capabilities">
-                <span>CAPABILITIES</span>
+
+                <span>
+                  CAPABILITIES
+                </span>
 
                 <div>
-                  {selectedNode.capabilities.map(
-                    (capability) => (
-                      <small key={capability}>
-                        {capability}
-                      </small>
-                    ),
-                  )}
-                </div>
-              </section>
 
-              <section className="an-search__relations">
-                <span>CONNECTED SYSTEMS</span>
-
-                <div>
-                  {selectedNode.connections.map(
-                    (connectionId) => {
-                      const node =
-                        MAP_NODES.find(
-                          (item) =>
-                            item.id ===
-                            connectionId,
-                        );
-
-                      if (!node) return null;
-
-                      return (
-                        <button
-                          key={node.id}
-                          type="button"
-                          onClick={() =>
-                            setSelectedId(
-                              node.id,
-                            )
+                  {selectedNode
+                    .capabilities
+                    .map(
+                      (
+                        capability,
+                      ) => (
+                        <small
+                          key={
+                            capability
                           }
                         >
-                          <span>
-                            {node.shortTitle}
-                          </span>
+                          {
+                            capability
+                          }
+                        </small>
+                      ),
+                    )}
 
-                          <small>→</small>
-                        </button>
-                      );
-                    },
-                  )}
                 </div>
+
               </section>
 
+
+              <section className="an-search__relations">
+
+                <span>
+                  CONNECTED SYSTEMS
+                </span>
+
+
+                <div>
+
+                  {selectedNode
+                    .connections
+                    .map(
+                      (
+                        connectionId,
+                      ) => {
+
+                        const node =
+                          MAP_NODES.find(
+                            (
+                              item,
+                            ) =>
+                              item.id ===
+                              connectionId,
+                          );
+
+
+                        if (
+                          !node
+                        ) {
+                          return null;
+                        }
+
+
+                        return (
+                          <button
+                            key={
+                              node.id
+                            }
+                            type="button"
+                            onClick={() => {
+                              setSelectedId(
+                                node.id,
+                              );
+                            }}
+                          >
+
+                            <span>
+                              {
+                                node.shortTitle
+                              }
+                            </span>
+
+                            <small>
+                              →
+                            </small>
+
+                          </button>
+                        );
+                      },
+                    )}
+
+                </div>
+
+              </section>
+
+
               <Link
-                href={selectedNode.href}
+                href={
+                  selectedNode
+                    .href
+                }
                 className="an-search__enter"
               >
-                <span>ENTER SYSTEM</span>
+
+                <span>
+                  ENTER SYSTEM
+                </span>
 
                 <strong>
-                  {selectedNode.shortTitle}
+                  {
+                    selectedNode
+                      .shortTitle
+                  }
                 </strong>
 
-                <i>↗</i>
+                <i>
+                  ↗
+                </i>
+
               </Link>
+
             </aside>
           )}
+
         </div>
 
-        {/* FOOTER */}
+
+        {/* =================================================
+            FOOTER
+        ================================================= */}
 
         <footer className="an-search__footer">
-          <span>REALITY</span>
+
+          <span>
+            REALITY
+          </span>
+
           <i />
-          <span>OBSERVE</span>
+
+          <span>
+            OBSERVE
+          </span>
+
           <i />
-          <span>UNDERSTAND</span>
+
+          <span>
+            UNDERSTAND
+          </span>
+
           <i />
-          <span>DESIGN</span>
+
+          <span>
+            DESIGN
+          </span>
+
           <i />
-          <span>REALIZE</span>
+
+          <span>
+            REALIZE
+          </span>
+
           <i />
-          <span>PRESERVE</span>
+
+          <span>
+            PRESERVE
+          </span>
+
         </footer>
+
       </div>
 
+
+      {/* ==================================================
+          CSS
+      ================================================== */}
+
       <style jsx global>{`
-        /* ================================================
-           ISOLATION
-        ================================================= */
+
+        /* ==================================================
+           RESET
+        ================================================== */
 
         .an-search,
         .an-search *,
         .an-search *::before,
         .an-search *::after {
-          box-sizing: border-box;
+          box-sizing:
+            border-box;
         }
+
+
+        /* ==================================================
+           ROOT
+           Fill the existing HOME card.
+        ================================================== */
 
         .an-search {
-          position: relative;
-          isolation: isolate;
+          position:
+            relative;
 
-          width: 100%;
-          max-width: 1480px;
+          isolation:
+            isolate;
 
-          height: clamp(
-            650px,
-            calc(100svh - 112px),
-            840px
-          );
+          width:
+            100%;
 
-          margin: 0 auto;
-          padding: 8px;
+          max-width:
+            none;
 
-          color: rgba(248, 249, 250, 0.94);
+          height:
+            100%;
+
+          min-height:
+            720px;
+
+          margin:
+            0;
+
+          padding:
+            0;
+
+          overflow:
+            hidden;
+
+          color:
+            rgba(
+              248,
+              249,
+              250,
+              0.94
+            );
+
+          background:
+            transparent;
         }
 
-        /* ================================================
+
+        /* ==================================================
            SPACE
-        ================================================= */
+        ================================================== */
 
         .an-search__space {
-          position: absolute;
-          inset: 0;
-          z-index: -2;
+          position:
+            absolute;
 
-          pointer-events: none;
+          inset:
+            0;
+
+          z-index:
+            -3;
+
+          pointer-events:
+            none;
 
           background:
             radial-gradient(
-              ellipse at 50% 48%,
-              rgba(255,255,255,.035),
-              transparent 48%
+              ellipse
+              at
+              50%
+              48%,
+              rgba(
+                255,
+                255,
+                255,
+                0.028
+              ),
+              transparent
+              62%
             );
         }
 
-        /* ================================================
-           GLASS
-        ================================================= */
 
-        .an-search__glass {
-          position: relative;
+        /* ==================================================
+           SURFACE
+           No second card / no external frame.
+        ================================================== */
 
-          width: 100%;
-          height: 100%;
+        .an-search__surface {
+          position:
+            absolute;
 
-          display: grid;
+          inset:
+            0;
+
+          width:
+            100%;
+
+          height:
+            100%;
+
+          display:
+            grid;
+
           grid-template-rows:
+            64px
             58px
-            54px
-            minmax(0, 1fr)
-            34px;
+            minmax(
+              0,
+              1fr
+            )
+            38px;
 
-          overflow: hidden;
+          overflow:
+            hidden;
 
-          border: 1px solid
-            rgba(255,255,255,.075);
+          border:
+            0;
 
-          border-radius: 26px;
+          border-radius:
+            inherit;
 
           background:
-            linear-gradient(
-              145deg,
-              rgba(12,13,15,.48),
-              rgba(3,4,5,.58) 50%,
-              rgba(0,0,0,.68)
+            transparent;
+
+          box-shadow:
+            none;
+
+          -webkit-backdrop-filter:
+            none;
+
+          backdrop-filter:
+            none;
+        }
+
+
+        /* ==================================================
+           HEADER
+        ================================================== */
+
+        .an-search__header {
+          position:
+            relative;
+
+          z-index:
+            20;
+
+          display:
+            flex;
+
+          align-items:
+            center;
+
+          justify-content:
+            space-between;
+
+          gap:
+            20px;
+
+          padding:
+            0
+            24px;
+
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+        }
+
+
+        .an-search__identity {
+          display:
+            flex;
+
+          align-items:
+            baseline;
+
+          gap:
+            10px;
+
+          min-width:
+            0;
+        }
+
+
+        .an-search__identity
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.25
+            );
+
+          font-size:
+            6px;
+
+          letter-spacing:
+            0.17em;
+        }
+
+
+        .an-search__identity
+        > strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.92
+            );
+
+          font-size:
+            13px;
+
+          font-weight:
+            450;
+
+          letter-spacing:
+            0.1em;
+        }
+
+
+        .an-search__identity
+        > small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.21
+            );
+
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.12em;
+        }
+
+
+        .an-search__status {
+          display:
+            flex;
+
+          align-items:
+            center;
+
+          gap:
+            12px;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
+
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.11em;
+        }
+
+
+        .an-search__status
+        > span {
+          display:
+            flex;
+
+          align-items:
+            center;
+
+          gap:
+            6px;
+        }
+
+
+        .an-search__status
+        i {
+          width:
+            4px;
+
+          height:
+            4px;
+
+          border-radius:
+            50%;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.72
+            );
+
+          box-shadow:
+            0
+            0
+            8px
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+        }
+
+
+        /* ==================================================
+           TOOLBAR
+        ================================================== */
+
+        .an-search__toolbar {
+          position:
+            relative;
+
+          z-index:
+            20;
+
+          display:
+            flex;
+
+          align-items:
+            center;
+
+          gap:
+            12px;
+
+          padding:
+            9px
+            18px;
+
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.022
+            );
+        }
+
+
+        .an-search__input {
+          width:
+            min(
+              520px,
+              100%
+            );
+
+          height:
+            38px;
+
+          display:
+            grid;
+
+          grid-template-columns:
+            auto
+            minmax(
+              0,
+              1fr
+            )
+            auto;
+
+          align-items:
+            center;
+
+          gap:
+            10px;
+
+          padding:
+            0
+            13px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.06
+            );
+
+          border-radius:
+            999px;
+
+          background:
+            rgba(
+              0,
+              0,
+              0,
+              0.10
             );
 
           -webkit-backdrop-filter:
-            blur(24px) saturate(108%);
+            blur(
+              16px
+            );
 
           backdrop-filter:
-            blur(24px) saturate(108%);
-
-          box-shadow:
-            inset 0 1px 0
-              rgba(255,255,255,.035),
-            0 30px 90px
-              rgba(0,0,0,.18);
-        }
-
-        .an-search__glass::before {
-          content: "";
-
-          position: absolute;
-          inset: 0;
-
-          pointer-events: none;
-
-          background:
-            linear-gradient(
-              125deg,
-              rgba(255,255,255,.025),
-              transparent 22%,
-              transparent 78%,
-              rgba(255,255,255,.01)
+            blur(
+              16px
             );
         }
 
-        /* ================================================
-           HEADER
-        ================================================= */
 
-        .an-search__header {
-          position: relative;
-          z-index: 20;
+        .an-search__input
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.28
+            );
 
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          gap: 20px;
-
-          padding: 0 22px;
-
-          border-bottom:
-            1px solid rgba(255,255,255,.04);
+          font-size:
+            12px;
         }
 
-        .an-search__brand {
-          display: flex;
-          align-items: baseline;
-          gap: 9px;
-
-          min-width: 0;
-        }
-
-        .an-search__brand > span {
-          font-size: 6px;
-          letter-spacing: .17em;
-          color: rgba(255,255,255,.27);
-        }
-
-        .an-search__brand > strong {
-          font-size: 13px;
-          font-weight: 450;
-          letter-spacing: .1em;
-        }
-
-        .an-search__brand > small {
-          font-size: 5px;
-          letter-spacing: .12em;
-          color: rgba(255,255,255,.22);
-        }
-
-        .an-search__online {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-
-          font-size: 5px;
-          letter-spacing: .11em;
-          color: rgba(255,255,255,.25);
-        }
-
-        .an-search__online > span {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-        }
-
-        .an-search__online i {
-          width: 4px;
-          height: 4px;
-
-          border-radius: 50%;
-
-          background: rgba(235,240,242,.65);
-        }
-
-        /* ================================================
-           TOOLBAR
-        ================================================= */
-
-        .an-search__toolbar {
-          position: relative;
-          z-index: 20;
-
-          display: flex;
-          align-items: center;
-          gap: 12px;
-
-          padding: 7px 16px;
-
-          border-bottom:
-            1px solid rgba(255,255,255,.035);
-        }
-
-        .an-search__input {
-          width: min(480px, 100%);
-          height: 36px;
-
-          display: grid;
-          grid-template-columns:
-            auto minmax(0,1fr) auto;
-
-          align-items: center;
-          gap: 9px;
-
-          padding: 0 12px;
-
-          border:
-            1px solid rgba(255,255,255,.065);
-
-          border-radius: 12px;
-
-          background: rgba(255,255,255,.015);
-        }
-
-        .an-search__input > span {
-          font-size: 12px;
-          color: rgba(255,255,255,.26);
-        }
 
         .an-search__input input {
-          min-width: 0;
-          width: 100%;
+          min-width:
+            0;
 
-          border: 0;
-          outline: 0;
+          width:
+            100%;
 
-          background: transparent;
+          border:
+            0;
 
-          color: rgba(255,255,255,.8);
+          outline:
+            0;
 
-          font: inherit;
-          font-size: 9px;
+          background:
+            transparent;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.84
+            );
+
+          font:
+            inherit;
+
+          font-size:
+            9px;
         }
 
-        .an-search__input input::placeholder {
-          color: rgba(255,255,255,.2);
+
+        .an-search__input
+        input::placeholder {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
         }
 
-        .an-search__input button {
-          border: 0;
-          background: transparent;
-          color: rgba(255,255,255,.3);
-          cursor: pointer;
+
+        .an-search__input
+        button {
+          border:
+            0;
+
+          background:
+            transparent;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.32
+            );
+
+          font:
+            inherit;
+
+          cursor:
+            pointer;
         }
+
 
         .an-search__visible {
-          margin-left: auto;
+          margin-left:
+            auto;
 
-          font-size: 5px;
-          letter-spacing: .1em;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.19
+            );
 
-          color: rgba(255,255,255,.2);
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.1em;
         }
 
-        /* ================================================
+
+        /* ==================================================
            WORKSPACE
-        ================================================= */
+        ================================================== */
 
         .an-search__workspace {
-          position: relative;
+          position:
+            relative;
 
-          min-width: 0;
-          min-height: 0;
+          width:
+            100%;
 
-          display: grid;
+          height:
+            100%;
+
+          min-width:
+            0;
+
+          min-height:
+            0;
+
+          display:
+            grid;
 
           grid-template-columns:
-            176px
-            minmax(0, 1fr);
+            190px
+            minmax(
+              0,
+              1fr
+            );
 
-          overflow: hidden;
+          overflow:
+            hidden;
         }
+
 
         .an-search__workspace.has-selection {
           grid-template-columns:
-            176px
-            minmax(0, 1fr)
-            270px;
+            190px
+            minmax(
+              0,
+              1fr
+            )
+            310px;
         }
 
-        /* ================================================
+
+        /* ==================================================
            SIDEBAR
-        ================================================= */
+        ================================================== */
 
         .an-search__sidebar {
-          min-width: 0;
-          min-height: 0;
+          min-width:
+            0;
 
-          padding: 17px 12px;
+          min-height:
+            0;
 
-          overflow: hidden;
+          padding:
+            19px
+            14px;
+
+          overflow:
+            hidden;
 
           border-right:
-            1px solid rgba(255,255,255,.035);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.022
+            );
 
-          background: rgba(0,0,0,.055);
+          background:
+            rgba(
+              0,
+              0,
+              0,
+              0.025
+            );
         }
 
-        .an-search__side-title {
-          display: flex;
-          justify-content: space-between;
 
-          padding: 0 5px 12px;
+        .an-search__sidebar-head {
+          display:
+            flex;
 
-          font-size: 5px;
-          letter-spacing: .14em;
+          justify-content:
+            space-between;
 
-          color: rgba(255,255,255,.25);
+          padding:
+            0
+            5px
+            13px;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.24
+            );
+
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.14em;
         }
+
 
         .an-search__filters {
-          display: grid;
-          gap: 3px;
+          display:
+            grid;
+
+          gap:
+            4px;
         }
 
-        .an-search__filters button {
-          width: 100%;
-          height: 32px;
 
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
+        .an-search__filters
+        button {
+          width:
+            100%;
 
-          padding: 0 9px;
+          height:
+            34px;
 
-          border: 1px solid transparent;
-          border-radius: 9px;
+          display:
+            flex;
 
-          background: transparent;
+          align-items:
+            center;
 
-          color: rgba(255,255,255,.34);
+          justify-content:
+            space-between;
 
-          font: inherit;
-          font-size: 7px;
+          padding:
+            0
+            10px;
 
-          cursor: pointer;
-        }
+          border:
+            1px solid
+            transparent;
 
-        .an-search__filters button small {
-          font-size: 5px;
-          color: rgba(255,255,255,.16);
-        }
-
-        .an-search__filters button:hover {
-          background: rgba(255,255,255,.02);
-          color: rgba(255,255,255,.65);
-        }
-
-        .an-search__filters button.is-active {
-          border-color:
-            rgba(255,255,255,.07);
+          border-radius:
+            9px;
 
           background:
-            rgba(255,255,255,.035);
+            transparent;
 
-          color: rgba(255,255,255,.78);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.33
+            );
+
+          font:
+            inherit;
+
+          font-size:
+            7px;
+
+          cursor:
+            pointer;
         }
+
+
+        .an-search__filters
+        button small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
+
+          font-size:
+            5px;
+        }
+
+
+        .an-search__filters
+        button:hover {
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.64
+            );
+        }
+
+
+        .an-search__filters
+        button.is-active {
+          border-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.03
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.78
+            );
+        }
+
 
         .an-search__layer-info {
-          margin-top: 17px;
-          padding: 14px 9px 0;
+          margin-top:
+            18px;
+
+          padding:
+            15px
+            10px
+            0;
 
           border-top:
-            1px solid rgba(255,255,255,.035);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
         }
 
-        .an-search__layer-info > span {
-          font-size: 5px;
-          letter-spacing: .12em;
-          color: rgba(255,255,255,.17);
+
+        .an-search__layer-info
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.17
+            );
+
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.12em;
         }
 
-        .an-search__layer-info strong {
-          display: block;
 
-          margin-top: 7px;
+        .an-search__layer-info
+        strong {
+          display:
+            block;
 
-          font-size: 9px;
-          font-weight: 420;
+          margin-top:
+            8px;
 
-          color: rgba(255,255,255,.55);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.56
+            );
+
+          font-size:
+            9px;
+
+          font-weight:
+            420;
         }
 
-        .an-search__layer-info p {
-          margin: 7px 0 0;
 
-          font-size: 6px;
-          line-height: 1.55;
+        .an-search__layer-info
+        p {
+          margin:
+            8px
+            0
+            0;
 
-          color: rgba(220,225,228,.27);
+          color:
+            rgba(
+              220,
+              225,
+              228,
+              0.26
+            );
+
+          font-size:
+            6px;
+
+          line-height:
+            1.6;
         }
 
-        /* ================================================
+
+        /* ==================================================
            FIELD
-        ================================================= */
+        ================================================== */
 
         .an-search__field {
-          min-width: 0;
-          min-height: 0;
+          min-width:
+            0;
 
-          display: grid;
+          min-height:
+            0;
+
+          display:
+            grid;
 
           grid-template-rows:
-            54px
-            minmax(0,1fr);
+            58px
+            minmax(
+              0,
+              1fr
+            );
 
-          overflow: hidden;
+          overflow:
+            hidden;
         }
+
 
         .an-search__field-head {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
+          display:
+            flex;
 
-          gap: 16px;
+          align-items:
+            center;
 
-          padding: 8px 16px;
+          justify-content:
+            space-between;
+
+          gap:
+            16px;
+
+          padding:
+            9px
+            22px;
 
           border-bottom:
-            1px solid rgba(255,255,255,.03);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
         }
 
-        .an-search__field-head > div {
-          display: grid;
-          gap: 3px;
+
+        .an-search__field-head
+        > div {
+          display:
+            grid;
+
+          gap:
+            4px;
         }
 
-        .an-search__field-head span {
-          font-size: 5px;
-          font-weight: 650;
-          letter-spacing: .15em;
 
-          color: rgba(255,255,255,.24);
+        .an-search__field-head
+        span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.23
+            );
+
+          font-size:
+            5px;
+
+          font-weight:
+            650;
+
+          letter-spacing:
+            0.15em;
         }
 
-        .an-search__field-head strong {
-          font-size: 8px;
-          font-weight: 390;
 
-          color: rgba(255,255,255,.48);
+        .an-search__field-head
+        strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
+
+          font-size:
+            8px;
+
+          font-weight:
+            390;
         }
 
-        .an-search__field-head > small {
-          font-size: 5px;
-          letter-spacing: .1em;
 
-          color: rgba(255,255,255,.15);
+        .an-search__field-head
+        > small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.15
+            );
+
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.1em;
         }
 
-        /* ================================================
+
+        /* ==================================================
            CANVAS
-        ================================================= */
+        ================================================== */
 
         .an-search__canvas {
-          position: relative;
+          position:
+            relative;
 
-          min-width: 0;
-          min-height: 0;
+          width:
+            100%;
 
-          overflow: hidden;
+          height:
+            100%;
+
+          min-width:
+            0;
+
+          min-height:
+            0;
+
+          overflow:
+            hidden;
 
           background:
             radial-gradient(
-              ellipse at center,
-              rgba(255,255,255,.018),
-              transparent 52%
+              ellipse
+              at
+              50%
+              48%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              ),
+              transparent
+              68%
             );
         }
 
-        .an-search__grid {
-          position: absolute;
-          inset: 0;
 
-          opacity: .13;
+        .an-search__stars {
+          position:
+            absolute;
 
-          pointer-events: none;
+          inset:
+            0;
+
+          z-index:
+            0;
+
+          pointer-events:
+            none;
+
+          opacity:
+            0.24;
 
           background-image:
-            linear-gradient(
-              rgba(255,255,255,.018) 1px,
-              transparent 1px
+            radial-gradient(
+              circle,
+              rgba(
+                255,
+                255,
+                255,
+                0.60
+              )
+              0
+              0.46px,
+              transparent
+              0.74px
             ),
-            linear-gradient(
-              90deg,
-              rgba(255,255,255,.018) 1px,
-              transparent 1px
-            );
 
-          background-size: 52px 52px;
-
-          mask-image:
             radial-gradient(
-              ellipse,
-              #000,
-              transparent 90%
+              circle,
+              rgba(
+                255,
+                255,
+                255,
+                0.25
+              )
+              0
+              0.34px,
+              transparent
+              0.60px
             );
 
-          -webkit-mask-image:
-            radial-gradient(
-              ellipse,
-              #000,
-              transparent 90%
-            );
+          background-size:
+            64px
+            64px,
+
+            113px
+            113px;
+
+          background-position:
+            0
+            0,
+
+            35px
+            21px;
         }
 
-        /* ================================================
+
+        /* ==================================================
            CONNECTIONS
-        ================================================= */
+        ================================================== */
 
         .an-search__connections {
-          position: absolute;
-          inset: 0;
+          position:
+            absolute;
 
-          width: 100%;
-          height: 100%;
+          inset:
+            0;
 
-          pointer-events: none;
-        }
+          z-index:
+            1;
 
-        .an-search__connections line {
-          stroke: rgba(255,255,255,.018);
-          stroke-width: .18;
+          width:
+            100%;
 
-          vector-effect: non-scaling-stroke;
+          height:
+            100%;
+
+          pointer-events:
+            none;
+
+          opacity:
+            0;
 
           transition:
-            stroke .2s ease,
-            opacity .2s ease;
+            opacity
+            0.24s
+            ease;
         }
 
-        .an-search__connections line.is-active {
-          stroke: rgba(255,255,255,.28);
-          stroke-width: .32;
+
+        .an-search__connections.is-visible {
+          opacity:
+            1;
         }
 
-        /* ================================================
-           CORE
-        ================================================= */
 
-        .an-search__core {
-          position: absolute;
+        .an-search__connections
+        line {
+          stroke:
+            transparent;
 
-          left: 50%;
-          top: 51%;
+          stroke-width:
+            0.18;
 
-          z-index: 2;
+          vector-effect:
+            non-scaling-stroke;
+        }
 
-          width: 116px;
-          height: 44px;
 
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
+        .an-search__connections
+        line.is-active {
+          stroke:
+            rgba(
+              255,
+              255,
+              255,
+              0.46
+            );
 
-          transform: translate(-50%,-50%);
+          stroke-width:
+            0.42;
+
+          vector-effect:
+            non-scaling-stroke;
+
+          filter:
+            drop-shadow(
+              0
+              0
+              3px
+              rgba(
+                255,
+                255,
+                255,
+                0.16
+              )
+            );
+        }
+
+
+        /* ==================================================
+           NODE
+        ================================================== */
+
+        .an-search-node {
+          position:
+            absolute;
+
+          left:
+            var(
+              --map-x
+            );
+
+          top:
+            var(
+              --map-y
+            );
+
+          z-index:
+            5;
+
+          width:
+            auto;
+
+          min-width:
+            0;
+
+          min-height:
+            0;
+
+          display:
+            flex;
+
+          align-items:
+            center;
+
+          gap:
+            6px;
+
+          padding:
+            0;
 
           border:
-            1px solid rgba(255,255,255,.055);
+            0;
 
-          border-radius: 13px;
+          border-radius:
+            0;
+
+          background:
+            transparent;
+
+          color:
+            inherit;
+
+          font:
+            inherit;
+
+          text-align:
+            left;
+
+          cursor:
+            pointer;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
+          box-shadow:
+            none;
+
+          -webkit-backdrop-filter:
+            none;
+
+          backdrop-filter:
+            none;
+
+          transition:
+            opacity
+            0.22s ease,
+            transform
+            0.22s ease;
+        }
+
+
+        .an-search-node:hover {
+          z-index:
+            20;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            translateY(
+              -1px
+            );
+        }
+
+
+        .an-search-node.is-hidden {
+          opacity:
+            0.035;
+
+          pointer-events:
+            none;
+        }
+
+
+        .an-search-node
+        > i {
+          position:
+            relative;
+
+          flex:
+            0
+            0
+            12px;
+
+          width:
+            12px;
+
+          height:
+            12px;
+
+          background:
+            transparent;
+        }
+
+
+        .an-search-node
+        > i::before {
+          content:
+            "";
+
+          position:
+            absolute;
+
+          left:
+            50%;
+
+          top:
+            50%;
+
+          width:
+            10px;
+
+          height:
+            1px;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
 
           background:
             linear-gradient(
-              145deg,
-              rgba(255,255,255,.025),
-              rgba(0,0,0,.18)
+              90deg,
+              transparent,
+              rgba(
+                255,
+                255,
+                255,
+                0.22
+              ),
+              transparent
             );
-
-          -webkit-backdrop-filter: blur(14px);
-          backdrop-filter: blur(14px);
-
-          pointer-events: none;
         }
 
-        .an-search__core span {
-          font-size: 7px;
-          font-weight: 450;
-          letter-spacing: .12em;
 
-          color: rgba(255,255,255,.48);
-        }
+        .an-search-node
+        > i::after {
+          content:
+            "";
 
-        .an-search__core small {
-          margin-top: 3px;
+          position:
+            absolute;
 
-          font-size: 3.5px;
-          letter-spacing: .1em;
+          left:
+            50%;
 
-          color: rgba(255,255,255,.15);
-        }
+          top:
+            50%;
 
-        /* ================================================
-           NODE
-        ================================================= */
+          width:
+            2px;
 
-        .an-search-node {
-          position: absolute;
-
-          left: var(--map-x);
-          top: var(--map-y);
-
-          z-index: 5;
-
-          width: 90px;
-          min-height: 38px;
-
-          display: flex;
-          align-items: center;
-          gap: 7px;
-
-          padding: 5px 7px;
-
-          transform: translate(-50%,-50%);
-
-          border:
-            1px solid rgba(255,255,255,.045);
-
-          border-radius: 10px;
-
-          background: rgba(4,5,6,.48);
-
-          -webkit-backdrop-filter: blur(14px);
-          backdrop-filter: blur(14px);
-
-          color: inherit;
-          font: inherit;
-          text-align: left;
-
-          cursor: pointer;
-
-          transition:
-            opacity .2s ease,
-            transform .2s ease,
-            border-color .2s ease,
-            background .2s ease;
-        }
-
-        .an-search-node:hover {
-          z-index: 20;
+          height:
+            2px;
 
           transform:
-            translate(-50%,-50%)
-            translateY(-2px);
+            translate(
+              -50%,
+              -50%
+            );
 
-          border-color:
-            rgba(255,255,255,.14);
+          border-radius:
+            50%;
 
           background:
-            rgba(18,19,20,.72);
+            rgba(
+              255,
+              255,
+              255,
+              0.66
+            );
+
+          box-shadow:
+            0
+            0
+            5px
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
         }
+
+
+        .an-search-node
+        > span {
+          min-width:
+            0;
+
+          display:
+            flex;
+
+          flex-direction:
+            column;
+
+          gap:
+            2px;
+
+          padding:
+            2px
+            3px;
+
+          background:
+            transparent;
+        }
+
+
+        .an-search-node
+        strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.60
+            );
+
+          font-size:
+            6px;
+
+          font-weight:
+            400;
+
+          line-height:
+            1.15;
+
+          white-space:
+            nowrap;
+        }
+
+
+        .an-search-node
+        small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
+
+          font-size:
+            3.4px;
+
+          letter-spacing:
+            0.08em;
+        }
+
+
+        .an-search-node:hover
+        strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.84
+            );
+        }
+
+
+        /* ==================================================
+           SELECTED BACKGROUND DIMMING
+        ================================================== */
+
+        .an-search__workspace.has-selection
+        .an-search-node {
+          opacity:
+            0.20;
+        }
+
+
+        .an-search__workspace.has-selection
+        .an-search-node.is-connected {
+          opacity:
+            0.56;
+        }
+
+
+        .an-search__workspace.has-selection
+        .an-search-node.is-selected {
+          opacity:
+            1;
+        }
+
+
+        /* ==================================================
+           SELECTED NODE
+        ================================================== */
 
         .an-search-node.is-selected {
-          z-index: 30;
+          z-index:
+            30;
 
-          border-color:
-            rgba(255,255,255,.25);
+          padding:
+            4px
+            7px
+            4px
+            4px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.12
+            );
+
+          border-radius:
+            8px;
 
           background:
-            rgba(255,255,255,.065);
+            rgba(
+              0,
+              0,
+              0,
+              0.22
+            );
+
+          -webkit-backdrop-filter:
+            blur(
+              13px
+            );
+
+          backdrop-filter:
+            blur(
+              13px
+            );
 
           box-shadow:
-            0 0 24px rgba(255,255,255,.035);
+            0
+            10px
+            28px
+            rgba(
+              0,
+              0,
+              0,
+              0.18
+            );
         }
 
-        .an-search-node.is-connected {
-          border-color:
-            rgba(255,255,255,.09);
+
+        .an-search-node.is-selected
+        strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.96
+            );
         }
 
-        .an-search-node.is-hidden {
-          opacity: .035;
-          pointer-events: none;
+
+        .an-search-node.is-selected
+        > i::before {
+          background:
+            linear-gradient(
+              90deg,
+              transparent,
+              rgba(
+                255,
+                255,
+                255,
+                0.62
+              ),
+              transparent
+            );
         }
 
-        .an-search-node > i {
-          flex: 0 0 5px;
 
-          width: 5px;
-          height: 5px;
+        .an-search-node.is-selected
+        > i::after {
+          width:
+            3px;
 
-          border-radius: 2px;
+          height:
+            3px;
 
-          background: rgba(255,255,255,.56);
+          background:
+            #fff;
 
           box-shadow:
-            0 0 8px rgba(255,255,255,.12);
+            0
+            0
+            7px
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
         }
 
-        .an-search-node > span {
-          min-width: 0;
 
-          display: grid;
-          gap: 2px;
-        }
-
-        .an-search-node strong {
-          overflow: hidden;
-
-          font-size: 6px;
-          font-weight: 430;
-
-          color: rgba(248,249,250,.67);
-
-          white-space: nowrap;
-          text-overflow: ellipsis;
-        }
-
-        .an-search-node small {
-          font-size: 3.5px;
-          letter-spacing: .07em;
-
-          color: rgba(255,255,255,.17);
-        }
-
-        /* ================================================
+        /* ==================================================
            EMPTY
-        ================================================= */
+        ================================================== */
 
         .an-search__empty {
-          position: absolute;
+          position:
+            absolute;
 
-          left: 50%;
-          top: 50%;
+          left:
+            50%;
 
-          z-index: 80;
+          top:
+            50%;
 
-          display: grid;
-          justify-items: center;
-          gap: 7px;
+          z-index:
+            80;
 
-          transform: translate(-50%,-50%);
+          display:
+            grid;
 
-          text-align: center;
+          justify-items:
+            center;
+
+          gap:
+            7px;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
+          text-align:
+            center;
         }
 
-        .an-search__empty > span {
-          font-size: 5px;
-          letter-spacing: .14em;
-          color: rgba(255,255,255,.2);
+
+        .an-search__empty
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.19
+            );
+
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.14em;
         }
 
-        .an-search__empty > strong {
-          font-size: 9px;
-          font-weight: 400;
-          color: rgba(255,255,255,.5);
+
+        .an-search__empty
+        > strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.50
+            );
+
+          font-size:
+            9px;
+
+          font-weight:
+            400;
         }
+
 
         .an-search__empty button {
-          margin-top: 4px;
-          padding: 7px 10px;
+          margin-top:
+            4px;
+
+          padding:
+            7px
+            10px;
 
           border:
-            1px solid rgba(255,255,255,.07);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
 
-          border-radius: 999px;
+          border-radius:
+            999px;
 
-          background: rgba(255,255,255,.02);
-          color: rgba(255,255,255,.45);
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.02
+            );
 
-          font: inherit;
-          font-size: 5px;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.44
+            );
 
-          cursor: pointer;
+          font:
+            inherit;
+
+          font-size:
+            5px;
+
+          cursor:
+            pointer;
         }
 
-        /* ================================================
+
+        /* ==================================================
            DETAIL
-        ================================================= */
+        ================================================== */
 
         .an-search__detail {
-          min-width: 0;
-          min-height: 0;
+          position:
+            relative;
 
-          padding: 18px 16px;
+          z-index:
+            80;
 
-          overflow-y: auto;
+          min-width:
+            0;
+
+          min-height:
+            0;
+
+          padding:
+            22px
+            20px;
+
+          overflow-y:
+            auto;
 
           border-left:
-            1px solid rgba(255,255,255,.04);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
 
-          background: rgba(0,0,0,.08);
+          background:
+            linear-gradient(
+              155deg,
+              rgba(
+                8,
+                10,
+                12,
+                0.82
+              ),
+              rgba(
+                2,
+                3,
+                5,
+                0.76
+              )
+            );
 
-          scrollbar-width: none;
+          -webkit-backdrop-filter:
+            blur(
+              30px
+            )
+            saturate(
+              115%
+            );
+
+          backdrop-filter:
+            blur(
+              30px
+            )
+            saturate(
+              115%
+            );
+
+          box-shadow:
+            -24px
+            0
+            70px
+            rgba(
+              0,
+              0,
+              0,
+              0.30
+            );
+
+          scrollbar-width:
+            none;
         }
+
 
         .an-search__detail::-webkit-scrollbar {
-          display: none;
+          display:
+            none;
         }
+
 
         .an-search__detail-top {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
+          display:
+            flex;
 
-          gap: 10px;
+          align-items:
+            center;
+
+          justify-content:
+            space-between;
+
+          gap:
+            10px;
         }
 
-        .an-search__detail-top > div {
-          display: flex;
-          align-items: center;
-          gap: 7px;
+
+        .an-search__detail-top
+        > div {
+          display:
+            flex;
+
+          align-items:
+            center;
+
+          gap:
+            8px;
         }
 
-        .an-search__detail-top span {
-          font-size: 5px;
-          letter-spacing: .12em;
 
-          color: rgba(255,255,255,.22);
+        .an-search__detail-top
+        span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.62
+            );
+
+          font-size:
+            6px;
+
+          font-weight:
+            600;
+
+          letter-spacing:
+            0.16em;
+
+          text-shadow:
+            0
+            0
+            12px
+            rgba(
+              255,
+              255,
+              255,
+              0.08
+            );
         }
 
-        .an-search__detail-top small {
-          padding: 3px 6px;
+
+        .an-search__detail-top
+        small {
+          padding:
+            4px
+            7px;
 
           border:
-            1px solid rgba(255,255,255,.05);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.10
+            );
 
-          border-radius: 999px;
+          border-radius:
+            999px;
 
-          font-size: 4px;
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
 
-          color: rgba(255,255,255,.3);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.52
+            );
+
+          font-size:
+            4.5px;
+
+          letter-spacing:
+            0.08em;
         }
 
-        .an-search__detail-top button {
-          width: 26px;
-          height: 26px;
 
-          display: grid;
-          place-items: center;
+        .an-search__detail-top
+        button {
+          width:
+            28px;
+
+          height:
+            28px;
+
+          display:
+            grid;
+
+          place-items:
+            center;
 
           border:
-            1px solid rgba(255,255,255,.055);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.08
+            );
 
-          border-radius: 50%;
+          border-radius:
+            50%;
 
-          background: transparent;
-          color: rgba(255,255,255,.34);
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.02
+            );
 
-          cursor: pointer;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
+
+          font:
+            inherit;
+
+          cursor:
+            pointer;
         }
+
 
         .an-search__detail-layer {
-          display: flex;
-          align-items: center;
-          gap: 6px;
+          display:
+            flex;
 
-          margin-top: 22px;
+          align-items:
+            center;
 
-          font-size: 5px;
-          letter-spacing: .12em;
+          gap:
+            7px;
 
-          color: rgba(255,255,255,.32);
+          margin-top:
+            24px;
         }
 
-        .an-search__detail-layer i {
-          width: 4px;
-          height: 4px;
 
-          border-radius: 1px;
+        .an-search__detail-layer
+        i {
+          width:
+            4px;
 
-          background: rgba(255,255,255,.5);
+          height:
+            4px;
+
+          border-radius:
+            50%;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.72
+            );
+
+          box-shadow:
+            0
+            0
+            8px
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
         }
 
-        .an-search__eyebrow {
-          display: block;
 
-          margin-top: 15px;
+        .an-search__detail-layer
+        span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.44
+            );
 
-          font-size: 5px;
-          letter-spacing: .14em;
+          font-size:
+            5px;
 
-          color: rgba(255,255,255,.17);
+          letter-spacing:
+            0.13em;
         }
+
+
+        .an-search__detail-eyebrow {
+          display:
+            block;
+
+          margin-top:
+            17px;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.28
+            );
+
+          font-size:
+            5px;
+
+          letter-spacing:
+            0.14em;
+        }
+
 
         .an-search__detail h3 {
-          margin: 7px 0 0;
+          margin:
+            9px
+            0
+            0;
 
-          font-size: clamp(18px,2vw,23px);
-          font-weight: 320;
-          line-height: 1.08;
-          letter-spacing: -.025em;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.96
+            );
 
-          color: rgba(250,250,250,.88);
+          font-size:
+            clamp(
+              21px,
+              2vw,
+              27px
+            );
+
+          font-weight:
+            340;
+
+          line-height:
+            1.08;
+
+          letter-spacing:
+            -0.025em;
+
+          text-shadow:
+            0
+            2px
+            20px
+            rgba(
+              0,
+              0,
+              0,
+              0.48
+            );
         }
 
-        .an-search__detail > p {
-          margin: 12px 0 0;
 
-          font-size: 7px;
-          line-height: 1.65;
+        .an-search__detail-description {
+          margin:
+            14px
+            0
+            0;
 
-          color: rgba(220,225,228,.36);
+          color:
+            rgba(
+              225,
+              230,
+              234,
+              0.62
+            );
+
+          font-size:
+            7.5px;
+
+          line-height:
+            1.72;
         }
+
+
+        /* ==================================================
+           CAPABILITIES
+        ================================================== */
 
         .an-search__capabilities,
         .an-search__relations {
-          margin-top: 20px;
+          margin-top:
+            22px;
         }
 
-        .an-search__capabilities > span,
-        .an-search__relations > span {
-          font-size: 5px;
-          letter-spacing: .13em;
 
-          color: rgba(255,255,255,.17);
+        .an-search__capabilities
+        > span,
+        .an-search__relations
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.34
+            );
+
+          font-size:
+            5px;
+
+          font-weight:
+            600;
+
+          letter-spacing:
+            0.13em;
         }
 
-        .an-search__capabilities > div {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 5px;
 
-          margin-top: 8px;
+        .an-search__capabilities
+        > div {
+          display:
+            flex;
+
+          flex-wrap:
+            wrap;
+
+          gap:
+            6px;
+
+          margin-top:
+            9px;
         }
 
-        .an-search__capabilities small {
-          padding: 4px 6px;
+
+        .an-search__capabilities
+        small {
+          padding:
+            5px
+            7px;
 
           border:
-            1px solid rgba(255,255,255,.05);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.08
+            );
 
-          border-radius: 999px;
+          border-radius:
+            999px;
 
-          font-size: 4.5px;
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.02
+            );
 
-          color: rgba(255,255,255,.3);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.46
+            );
+
+          font-size:
+            4.5px;
         }
 
-        .an-search__relations > div {
-          display: grid;
-          gap: 2px;
 
-          margin-top: 7px;
+        /* ==================================================
+           RELATIONS
+        ================================================== */
+
+        .an-search__relations
+        > div {
+          display:
+            grid;
+
+          gap:
+            3px;
+
+          margin-top:
+            8px;
         }
 
-        .an-search__relations button {
-          min-height: 29px;
 
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
+        .an-search__relations
+        button {
+          min-height:
+            31px;
 
-          padding: 0 7px;
+          display:
+            flex;
 
-          border: 0;
-          border-radius: 7px;
+          align-items:
+            center;
 
-          background: transparent;
+          justify-content:
+            space-between;
 
-          color: rgba(255,255,255,.34);
+          padding:
+            0
+            8px;
 
-          font: inherit;
-          font-size: 6px;
+          border:
+            0;
 
-          cursor: pointer;
+          border-radius:
+            8px;
+
+          background:
+            transparent;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
+
+          font:
+            inherit;
+
+          font-size:
+            6px;
+
+          text-align:
+            left;
+
+          cursor:
+            pointer;
         }
 
-        .an-search__relations button:hover {
-          background: rgba(255,255,255,.02);
-          color: rgba(255,255,255,.65);
+
+        .an-search__relations
+        button:hover {
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.03
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.78
+            );
         }
+
+
+        /* ==================================================
+           ENTER
+        ================================================== */
 
         .an-search__enter {
-          width: 100%;
-          min-height: 48px;
+          width:
+            100%;
 
-          display: grid;
-          grid-template-columns: 1fr auto;
-          align-items: center;
+          min-height:
+            52px;
 
-          margin-top: 20px;
-          padding: 8px 10px;
+          display:
+            grid;
+
+          grid-template-columns:
+            1fr
+            auto;
+
+          align-items:
+            center;
+
+          margin-top:
+            24px;
+
+          padding:
+            10px
+            12px;
 
           border:
-            1px solid rgba(255,255,255,.075);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.10
+            );
 
-          border-radius: 11px;
+          border-radius:
+            12px;
 
-          background: rgba(255,255,255,.025);
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
 
-          color: inherit;
-          text-decoration: none;
+          color:
+            inherit;
+
+          text-decoration:
+            none;
         }
+
 
         .an-search__enter::after {
-          display: none !important;
+          display:
+            none !important;
         }
 
-        .an-search__enter > span {
-          grid-column: 1;
 
-          font-size: 4px;
-          letter-spacing: .12em;
+        .an-search__enter
+        > span {
+          grid-column:
+            1;
 
-          color: rgba(255,255,255,.19);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.28
+            );
+
+          font-size:
+            4px;
+
+          letter-spacing:
+            0.12em;
         }
 
-        .an-search__enter > strong {
-          grid-column: 1;
 
-          font-size: 8px;
-          font-weight: 420;
+        .an-search__enter
+        > strong {
+          grid-column:
+            1;
 
-          color: rgba(255,255,255,.62);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.76
+            );
+
+          font-size:
+            8px;
+
+          font-weight:
+            430;
         }
 
-        .an-search__enter > i {
-          grid-column: 2;
-          grid-row: 1 / 3;
 
-          font-style: normal;
+        .an-search__enter
+        > i {
+          grid-column:
+            2;
 
-          color: rgba(255,255,255,.34);
+          grid-row:
+            1
+            /
+            3;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
+
+          font-style:
+            normal;
         }
 
-        /* ================================================
-           MOBILE FILTERS
-        ================================================= */
+
+        /* ==================================================
+           MOBILE FILTER
+        ================================================== */
 
         .an-search__mobile-filters {
-          display: none;
+          display:
+            none;
         }
 
-        /* ================================================
+
+        /* ==================================================
            FOOTER
-        ================================================= */
+        ================================================== */
 
         .an-search__footer {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 7px;
+          display:
+            flex;
+
+          align-items:
+            center;
+
+          justify-content:
+            center;
+
+          gap:
+            7px;
 
           border-top:
-            1px solid rgba(255,255,255,.03);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
 
-          font-size: 4px;
-          letter-spacing: .11em;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.14
+            );
 
-          color: rgba(255,255,255,.14);
+          font-size:
+            4px;
+
+          letter-spacing:
+            0.11em;
         }
 
-        .an-search__footer i {
-          width: 10px;
-          height: 1px;
 
-          background: rgba(255,255,255,.055);
+        .an-search__footer
+        i {
+          width:
+            10px;
+
+          height:
+            1px;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.05
+            );
         }
 
-        /* ================================================
-           MEDIUM PC
-        ================================================= */
+
+        /* ==================================================
+           LARGE DESKTOP
+        ================================================== */
+
+        @media (
+          min-width: 1200px
+        ) {
+
+          .an-search__workspace {
+            grid-template-columns:
+              200px
+              minmax(
+                0,
+                1fr
+              );
+          }
+
+
+          .an-search__workspace.has-selection {
+            grid-template-columns:
+              200px
+              minmax(
+                0,
+                1fr
+              )
+              320px;
+          }
+
+        }
+
+
+        /* ==================================================
+           MEDIUM DESKTOP
+        ================================================== */
 
         @media
           (min-width: 769px)
@@ -2139,29 +4303,37 @@ export default function ArcheNovaMap() {
 
           .an-search__workspace {
             grid-template-columns:
-              145px
-              minmax(0,1fr);
+              150px
+              minmax(
+                0,
+                1fr
+              );
           }
+
 
           .an-search__workspace.has-selection {
             grid-template-columns:
-              145px
-              minmax(0,1fr)
-              220px;
+              150px
+              minmax(
+                0,
+                1fr
+              )
+              235px;
           }
 
-          .an-search-node {
-            width: 76px;
+
+          .an-search-node
+          strong {
+            font-size:
+              5.4px;
           }
 
-          .an-search-node strong {
-            font-size: 5.4px;
-          }
         }
 
-        /* ================================================
+
+        /* ==================================================
            SHORT PC / WINDOWS
-        ================================================= */
+        ================================================== */
 
         @media
           (min-width: 769px)
@@ -2169,300 +4341,526 @@ export default function ArcheNovaMap() {
           (max-height: 760px) {
 
           .an-search {
-            height: calc(100svh - 80px);
-            min-height: 560px;
+            min-height:
+              560px;
           }
 
-          .an-search__glass {
-            grid-template-rows:
-              48px
-              46px
-              minmax(0,1fr)
-              28px;
-          }
 
-          .an-search__field {
-            grid-template-rows:
-              45px
-              minmax(0,1fr);
-          }
-
-          .an-search__sidebar {
-            padding-top: 12px;
-          }
-
-          .an-search__filters button {
-            height: 28px;
-          }
-        }
-
-        /* ================================================
-           MOBILE
-        ================================================= */
-
-        @media (max-width: 768px) {
-          .an-search {
-            width: 100%;
-
-            height: min(
-              760px,
-              calc(100svh - 74px)
-            );
-
-            min-height: 590px;
-
-            padding: 4px;
-          }
-
-          .an-search__glass {
+          .an-search__surface {
             grid-template-rows:
               50px
               48px
-              minmax(0,1fr);
-
-            border-radius: 21px;
+              minmax(
+                0,
+                1fr
+              )
+              30px;
           }
+
+
+          .an-search__field {
+            grid-template-rows:
+              46px
+              minmax(
+                0,
+                1fr
+              );
+          }
+
+
+          .an-search__filters
+          button {
+            height:
+              29px;
+          }
+
+
+          .an-search__sidebar {
+            padding-top:
+              13px;
+          }
+
+        }
+
+
+        /* ==================================================
+           MOBILE
+        ================================================== */
+
+        @media (
+          max-width: 768px
+        ) {
+
+          .an-search {
+            width:
+              100%;
+
+            height:
+              100%;
+
+            min-height:
+              610px;
+
+            padding:
+              0;
+          }
+
+
+          .an-search__surface {
+            grid-template-rows:
+              52px
+              50px
+              minmax(
+                0,
+                1fr
+              );
+          }
+
 
           .an-search__header {
-            padding: 0 13px;
+            padding:
+              0
+              14px;
           }
 
-          .an-search__brand > span,
-          .an-search__brand > small,
-          .an-search__online > span {
-            display: none;
+
+          .an-search__identity
+          > span,
+          .an-search__identity
+          > small,
+          .an-search__status
+          > span {
+            display:
+              none;
           }
 
-          .an-search__brand > strong {
-            font-size: 11px;
+
+          .an-search__identity
+          > strong {
+            font-size:
+              11px;
           }
+
 
           .an-search__toolbar {
-            padding: 6px 10px;
+            padding:
+              7px
+              11px;
           }
 
+
           .an-search__input {
-            height: 35px;
+            height:
+              36px;
           }
+
 
           .an-search__workspace,
           .an-search__workspace.has-selection {
-            display: block;
+            display:
+              block;
 
-            min-height: 0;
+            min-height:
+              0;
 
-            overflow: hidden;
+            overflow:
+              hidden;
           }
+
 
           .an-search__sidebar {
-            display: none;
+            display:
+              none;
           }
+
 
           .an-search__field {
-            width: 100%;
-            height: 100%;
+            width:
+              100%;
+
+            height:
+              100%;
 
             grid-template-rows:
-              44px
-              minmax(0,1fr)
-              43px;
+              46px
+              minmax(
+                0,
+                1fr
+              )
+              44px;
           }
+
 
           .an-search__field-head {
-            padding: 6px 11px;
+            padding:
+              7px
+              12px;
           }
 
-          .an-search__field-head strong {
-            font-size: 7px;
+
+          .an-search__field-head
+          strong {
+            font-size:
+              7px;
           }
 
-          .an-search__field-head > small {
-            display: none;
+
+          .an-search__field-head
+          > small {
+            display:
+              none;
           }
 
-          /*
-           * Same coordinate system.
-           * Only visual node size changes.
-           */
+
+          .an-search__stars {
+            opacity:
+              0.19;
+
+            background-size:
+              76px
+              76px,
+
+              128px
+              128px;
+          }
+
+
           .an-search-node {
-            width: 64px;
-            min-height: 33px;
-
-            gap: 5px;
-
-            padding: 4px 5px;
-
-            border-radius: 8px;
+            gap:
+              4px;
           }
 
-          .an-search-node > i {
-            flex-basis: 4px;
 
-            width: 4px;
-            height: 4px;
+          .an-search-node
+          > i {
+            flex-basis:
+              10px;
+
+            width:
+              10px;
+
+            height:
+              10px;
           }
 
-          .an-search-node strong {
-            font-size: 4.8px;
+
+          .an-search-node
+          > i::before {
+            width:
+              8px;
           }
 
-          .an-search-node small {
-            font-size: 2.9px;
+
+          .an-search-node
+          strong {
+            font-size:
+              4.6px;
           }
 
-          .an-search__core {
-            width: 82px;
-            height: 38px;
 
-            border-radius: 10px;
+          .an-search-node
+          small {
+            display:
+              none;
           }
 
-          .an-search__core span {
-            font-size: 5.5px;
+
+          .an-search-node.is-selected {
+            padding:
+              3px
+              5px
+              3px
+              3px;
+
+            border-radius:
+              7px;
           }
 
-          .an-search__core small {
-            font-size: 2.7px;
-          }
 
           .an-search__mobile-filters {
-            display: flex;
-            align-items: center;
+            display:
+              flex;
 
-            gap: 5px;
+            align-items:
+              center;
 
-            padding: 7px 9px;
+            gap:
+              5px;
 
-            overflow-x: auto;
+            padding:
+              7px
+              9px;
+
+            overflow-x:
+              auto;
 
             border-top:
-              1px solid rgba(255,255,255,.035);
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              );
 
-            scrollbar-width: none;
+            scrollbar-width:
+              none;
           }
+
 
           .an-search__mobile-filters::-webkit-scrollbar {
-            display: none;
+            display:
+              none;
           }
 
-          .an-search__mobile-filters button {
-            flex: 0 0 auto;
 
-            height: 27px;
+          .an-search__mobile-filters
+          button {
+            flex:
+              0
+              0
+              auto;
 
-            padding: 0 8px;
+            height:
+              27px;
+
+            padding:
+              0
+              8px;
 
             border:
-              1px solid rgba(255,255,255,.045);
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.045
+              );
 
-            border-radius: 999px;
-
-            background: transparent;
-
-            color: rgba(255,255,255,.22);
-
-            font: inherit;
-            font-size: 4px;
-            letter-spacing: .07em;
-
-            cursor: pointer;
-          }
-
-          .an-search__mobile-filters button.is-active {
-            border-color:
-              rgba(255,255,255,.11);
+            border-radius:
+              999px;
 
             background:
-              rgba(255,255,255,.035);
+              transparent;
 
             color:
-              rgba(255,255,255,.66);
+              rgba(
+                255,
+                255,
+                255,
+                0.22
+              );
+
+            font:
+              inherit;
+
+            font-size:
+              4px;
+
+            letter-spacing:
+              0.07em;
+
+            cursor:
+              pointer;
           }
 
+
+          .an-search__mobile-filters
+          button.is-active {
+            border-color:
+              rgba(
+                255,
+                255,
+                255,
+                0.11
+              );
+
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.035
+              );
+
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.66
+              );
+          }
+
+
           /*
-           * Detail is overlay only.
-           * Opening it NEVER changes map width.
+           * Mobile detail is an overlay.
+           * It never changes the map geometry.
            */
           .an-search__detail {
-            position: absolute;
+            position:
+              absolute;
 
-            left: 7px;
-            right: 7px;
-            bottom: 7px;
+            left:
+              8px;
 
-            z-index: 100;
+            right:
+              8px;
 
-            max-height: 58%;
+            bottom:
+              8px;
 
-            padding: 16px 14px;
+            z-index:
+              100;
+
+            width:
+              auto;
+
+            max-height:
+              60%;
+
+            padding:
+              18px
+              16px;
 
             border:
-              1px solid rgba(255,255,255,.075);
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.10
+              );
 
-            border-radius: 17px;
+            border-radius:
+              18px;
 
             background:
               linear-gradient(
-                145deg,
-                rgba(15,16,18,.82),
-                rgba(1,2,3,.91)
+                150deg,
+                rgba(
+                  10,
+                  12,
+                  14,
+                  0.90
+                ),
+                rgba(
+                  1,
+                  2,
+                  3,
+                  0.88
+                )
               );
 
             -webkit-backdrop-filter:
-              blur(26px) saturate(108%);
+              blur(
+                30px
+              )
+              saturate(
+                115%
+              );
 
             backdrop-filter:
-              blur(26px) saturate(108%);
+              blur(
+                30px
+              )
+              saturate(
+                115%
+              );
 
             box-shadow:
-              0 20px 60px rgba(0,0,0,.38);
+              0
+              24px
+              70px
+              rgba(
+                0,
+                0,
+                0,
+                0.40
+              );
           }
 
-          .an-search__detail h3 {
-            font-size: 19px;
+
+          .an-search__detail-top
+          span {
+            font-size:
+              5.5px;
           }
+
+
+          .an-search__detail
+          h3 {
+            font-size:
+              20px;
+          }
+
+
+          .an-search__detail-description {
+            font-size:
+              7px;
+          }
+
 
           .an-search__footer {
-            display: none;
+            display:
+              none;
           }
+
         }
 
-        /* ================================================
+
+        /* ==================================================
            SMALL MOBILE
-        ================================================= */
+        ================================================== */
 
-        @media (max-width: 390px) {
+        @media (
+          max-width: 390px
+        ) {
+
           .an-search {
-            min-height: 570px;
+            min-height:
+              590px;
           }
 
-          .an-search-node {
-            width: 58px;
-            min-height: 31px;
+
+          .an-search-node
+          strong {
+            font-size:
+              4.25px;
           }
 
-          .an-search-node strong {
-            font-size: 4.4px;
-          }
 
           .an-search__visible {
-            display: none;
+            display:
+              none;
           }
+
         }
 
-        /* ================================================
-           REDUCED MOTION
-        ================================================= */
 
-        @media (prefers-reduced-motion: reduce) {
+        /* ==================================================
+           REDUCED MOTION
+        ================================================== */
+
+        @media (
+          prefers-reduced-motion:
+          reduce
+        ) {
+
           .an-search *,
           .an-search *::before,
           .an-search *::after {
-            transition: none !important;
-            animation: none !important;
+            transition:
+              none !important;
+
+            animation:
+              none !important;
           }
+
         }
+
       `}</style>
+
     </section>
   );
 }
