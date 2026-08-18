@@ -1024,12 +1024,12 @@ export default function ArcheNovaMap() {
 
 
   const [
-    selectedId,
-    setSelectedId,
-  ] =
-    useState<string>(
-      "episteme",
-    );
+  selectedId,
+  setSelectedId,
+] =
+  useState<string | null>(
+    null,
+  );
 
 
   const [
@@ -1046,8 +1046,15 @@ export default function ArcheNovaMap() {
   ======================================================== */
 
   const selectedNode =
-    useMemo(
-      () =>
+  useMemo(
+    () => {
+      if (
+        !selectedId
+      ) {
+        return null;
+      }
+
+      return (
         MAP_NODES.find(
           (
             node,
@@ -1055,11 +1062,13 @@ export default function ArcheNovaMap() {
             node.id ===
             selectedId,
         ) ??
-        MAP_NODES[0],
-      [
-        selectedId,
-      ],
-    );
+        null
+      );
+    },
+    [
+      selectedId,
+    ],
+  );
 
 
   /* ========================================================
@@ -1140,16 +1149,17 @@ export default function ArcheNovaMap() {
   ======================================================== */
 
   const selectedConnections =
-    useMemo(
-      () =>
-        new Set(
-          selectedNode
-            .connections,
-        ),
-      [
-        selectedNode,
-      ],
-    );
+  useMemo(
+    () =>
+      new Set(
+        selectedNode
+          ?.connections ??
+        [],
+      ),
+    [
+      selectedNode,
+    ],
+  );
 
 
   const connectionLines =
@@ -1248,10 +1258,15 @@ export default function ArcheNovaMap() {
                     target.y,
 
                   active:
-                    node.id ===
-                      selectedNode.id ||
-                    target.id ===
-                      selectedNode.id,
+  Boolean(
+    selectedNode &&
+    (
+      node.id ===
+        selectedNode.id ||
+      target.id ===
+        selectedNode.id
+    )
+  ),
                 });
               },
             );
@@ -1272,17 +1287,32 @@ export default function ArcheNovaMap() {
   ======================================================== */
 
   function selectNode(
-    id:
-      string,
+  id:
+    string,
+) {
+  if (
+    selectedId ===
+    id
   ) {
     setSelectedId(
-      id,
+      null,
     );
 
     setDetailOpen(
-      true,
+      false,
     );
+
+    return;
   }
+
+  setSelectedId(
+    id,
+  );
+
+  setDetailOpen(
+    true,
+  );
+}
 
 
   /* ========================================================
@@ -1418,7 +1448,13 @@ export default function ArcheNovaMap() {
             WORKSPACE
         ================================================= */}
 
-        <div className="an-map__workspace">
+        <div className={[
+          "an-map__workspace",
+          selectedNode
+          ? "has-selection"
+          : "no-selection",
+        ].join(" ")}
+        >
 
           {/* ===============================================
               FILTER SIDEBAR
@@ -1616,26 +1652,6 @@ export default function ArcheNovaMap() {
 
 
               {/* ===========================================
-                  CENTRAL FIELD
-              =========================================== */}
-
-              <div
-                className="an-map__core-field"
-                aria-hidden="true"
-              >
-                <span />
-
-                <strong>
-                  ARCHENOVA
-                </strong>
-
-                <small>
-                  CIVILIZATION SYSTEM
-                </small>
-              </div>
-
-
-              {/* ===========================================
                   NODES
               =========================================== */}
 
@@ -1651,9 +1667,9 @@ export default function ArcheNovaMap() {
 
 
                   const selected =
-                    selectedNode
-                      .id ===
-                    node.id;
+                  selectedNode
+                  ?.id ===
+                  node.id;
 
 
                   const connected =
@@ -1821,6 +1837,7 @@ export default function ArcheNovaMap() {
               DETAIL PANEL
           =============================================== */}
 
+{selectedNode && (
           <aside
             className={[
               "an-map__detail",
@@ -1855,6 +1872,10 @@ export default function ArcheNovaMap() {
                 onClick={() => {
                   setDetailOpen(
                     false,
+                  );
+                  
+                  setSelectedId(
+                    null,
                   );
                 }}
                 aria-label="Close details"
@@ -2028,6 +2049,8 @@ export default function ArcheNovaMap() {
             </Link>
 
           </aside>
+
+          )}
 
         </div>
 
@@ -5219,6 +5242,1682 @@ export default function ArcheNovaMap() {
           }
 
         }
+
+      /* ==========================================================
+   ARCHENOVA SEARCH
+   GLASS TRANSPARENCY
+   Match Episteme / Civilization Intelligence
+========================================================== */
+
+.an-map__card {
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.055) !important;
+
+  border-radius:
+    24px !important;
+
+  /*
+   * Transparent black glass.
+   * Do not turn the card into a black solid surface.
+   */
+  background:
+    linear-gradient(
+      145deg,
+      rgba(12, 13, 15, 0.22) 0%,
+      rgba(5, 6, 8, 0.27) 48%,
+      rgba(0, 0, 0, 0.34) 100%
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(24px)
+    saturate(105%) !important;
+
+  backdrop-filter:
+    blur(24px)
+    saturate(105%) !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(255, 255, 255, 0.028),
+
+    0
+    26px
+    80px
+    rgba(0, 0, 0, 0.20) !important;
+}
+
+
+/*
+ * Extremely subtle reflection on glass.
+ * Keep this almost invisible.
+ */
+.an-map__card::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse at 45% 0%,
+      rgba(255, 255, 255, 0.025),
+      transparent 42%
+    ),
+
+    linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.012),
+      transparent 22%,
+      transparent 78%,
+      rgba(255, 255, 255, 0.006)
+    ) !important;
+}
+
+
+/* ==========================================================
+   INTERNAL PANELS
+   Do not create another opaque layer inside the glass.
+========================================================== */
+
+.an-map__sidebar {
+  background:
+    rgba(0, 0, 0, 0.055) !important;
+}
+
+
+.an-map__detail {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.008),
+      rgba(0, 0, 0, 0.07)
+    ) !important;
+}
+
+
+.an-map__canvas {
+  background:
+    radial-gradient(
+      ellipse at 50% 48%,
+      rgba(255, 255, 255, 0.018),
+      transparent 40%
+    ),
+
+    rgba(0, 0, 0, 0.025) !important;
+}
+
+
+/* Search itself remains a slightly stronger glass surface. */
+
+.an-map__search {
+  background:
+    rgba(0, 0, 0, 0.12) !important;
+
+  border-color:
+    rgba(255, 255, 255, 0.06) !important;
+
+  -webkit-backdrop-filter:
+    blur(16px) !important;
+
+  backdrop-filter:
+    blur(16px) !important;
+}
+
+
+/* ==========================================================
+   NODES
+   Small floating glass pieces
+========================================================== */
+
+.an-map-node {
+  background:
+    rgba(4, 5, 6, 0.27) !important;
+
+  border-color:
+    rgba(255, 255, 255, 0.045) !important;
+
+  -webkit-backdrop-filter:
+    blur(12px) !important;
+
+  backdrop-filter:
+    blur(12px) !important;
+}
+
+
+.an-map-node:hover {
+  background:
+    rgba(255, 255, 255, 0.035) !important;
+
+  border-color:
+    rgba(255, 255, 255, 0.14) !important;
+}
+
+
+.an-map-node.is-selected {
+  background:
+    rgba(255, 255, 255, 0.045) !important;
+
+  border-color:
+    rgba(255, 255, 255, 0.24) !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-map__card {
+    background:
+      linear-gradient(
+        145deg,
+        rgba(12, 13, 15, 0.24),
+        rgba(2, 3, 4, 0.34)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(22px)
+      saturate(105%) !important;
+
+    backdrop-filter:
+      blur(22px)
+      saturate(105%) !important;
+  }
+
+
+  /*
+   * Detail sheet needs greater opacity than the parent
+   * because text must remain readable above the map.
+   */
+  .an-map__detail {
+    background:
+      linear-gradient(
+        145deg,
+        rgba(15, 16, 18, 0.70),
+        rgba(1, 2, 3, 0.78)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(28px) !important;
+
+    backdrop-filter:
+      blur(28px) !important;
+  }
+
+
+  .an-map__mobile-filters {
+    background:
+      rgba(0, 0, 0, 0.10) !important;
+  }
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   SIMPLIFIED NEURAL FIELD
+   Keep logic / interaction / structure unchanged
+========================================================== */
+
+
+/* ==========================================================
+   1. DEFAULT CONNECTIONS
+   Almost invisible until selected
+========================================================== */
+
+.an-map__connections line {
+  stroke:
+    rgba(
+      255,
+      255,
+      255,
+      0.018
+    ) !important;
+
+  stroke-width:
+    0.18 !important;
+
+  opacity:
+    0.34 !important;
+}
+
+
+/* ==========================================================
+   2. ACTIVE CONNECTIONS
+   Only selected relationships become readable
+========================================================== */
+
+.an-map__connections line.is-active {
+  stroke:
+    rgba(
+      255,
+      255,
+      255,
+      0.52
+    ) !important;
+
+  stroke-width:
+    0.32 !important;
+
+  opacity:
+    1 !important;
+
+  filter:
+    drop-shadow(
+      0
+      0
+      2px
+      rgba(
+        255,
+        255,
+        255,
+        0.20
+      )
+    ) !important;
+}
+
+
+/* ==========================================================
+   3. REMOVE GRID FEEL
+========================================================== */
+
+.an-map__canvas-grid {
+  opacity:
+    0.012 !important;
+
+  background-size:
+    72px
+    72px !important;
+}
+
+
+/* ==========================================================
+   4. QUIETER COSMIC BACKGROUND
+========================================================== */
+
+.an-map__canvas {
+  background:
+    radial-gradient(
+      ellipse at 50% 50%,
+      rgba(
+        255,
+        255,
+        255,
+        0.012
+      ),
+      transparent 38%
+    ),
+
+    rgba(
+      0,
+      0,
+      0,
+      0.018
+    ) !important;
+}
+
+
+/* ==========================================================
+   5. REDUCE STAR DENSITY
+========================================================== */
+
+.an-map__stars {
+  opacity:
+    0.16 !important;
+
+  background-size:
+    82px
+    82px,
+    144px
+    144px !important;
+}
+
+
+/* ==========================================================
+   6. CORE
+   Smaller and quieter
+========================================================== */
+
+.an-map__core-field {
+  width:
+    86px !important;
+
+  height:
+    86px !important;
+
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.055
+    ) !important;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(
+        255,
+        255,
+        255,
+        0.022
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.46
+      )
+      70%
+    ) !important;
+
+  box-shadow:
+    0
+    0
+    34px
+    rgba(
+      255,
+      255,
+      255,
+      0.018
+    ) !important;
+}
+
+
+.an-map__core-field > span {
+  opacity:
+    0.35 !important;
+}
+
+
+.an-map__core-field strong {
+  font-size:
+    6.5px !important;
+
+  opacity:
+    0.8;
+}
+
+
+.an-map__core-field small {
+  display:
+    none !important;
+}
+
+
+/* ==========================================================
+   7. NODES
+   Make the system feel lighter
+========================================================== */
+
+.an-map-node {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.03
+    ) !important;
+
+  background:
+    rgba(
+      0,
+      0,
+      0,
+      0.18
+    ) !important;
+}
+
+
+.an-map-node__pulse {
+  opacity:
+    0.42 !important;
+}
+
+
+.an-map-node__core {
+  width:
+    5px !important;
+
+  height:
+    5px !important;
+
+  flex-basis:
+    5px !important;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.56
+    ) !important;
+
+  box-shadow:
+    0
+    0
+    6px
+    rgba(
+      255,
+      255,
+      255,
+      0.16
+    ) !important;
+}
+
+
+.an-map-node__copy small {
+  opacity:
+    0.55;
+}
+
+
+/* ==========================================================
+   8. SELECTED NODE
+   Clear focus without visual noise
+========================================================== */
+
+.an-map-node.is-selected {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.22
+    ) !important;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    ) !important;
+
+  box-shadow:
+    0
+    0
+    20px
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    ) !important;
+}
+
+
+.an-map-node.is-selected
+.an-map-node__pulse {
+  opacity:
+    1 !important;
+
+  box-shadow:
+    0
+    0
+    12px
+    rgba(
+      255,
+      255,
+      255,
+      0.14
+    ) !important;
+}
+
+
+/* ==========================================================
+   9. CONNECTED NODES
+   Slight emphasis only
+========================================================== */
+
+.an-map-node.is-connected {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.07
+    ) !important;
+}
+
+
+.an-map-node.is-connected
+.an-map-node__core {
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.76
+    ) !important;
+}
+
+
+/* ==========================================================
+   10. MOBILE
+   Even simpler
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-map__connections line {
+    opacity:
+      0.20 !important;
+  }
+
+
+  .an-map__connections line.is-active {
+    opacity:
+      0.92 !important;
+
+    stroke-width:
+      0.30 !important;
+  }
+
+
+  .an-map__stars {
+    opacity:
+      0.11 !important;
+  }
+
+
+  .an-map__core-field {
+    width:
+      66px !important;
+
+    height:
+      66px !important;
+  }
+
+
+  .an-map-node {
+    background:
+      rgba(
+        0,
+        0,
+        0,
+        0.14
+      ) !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   NODE CLEANUP
+   Prevent visual overlap / reduce card clutter
+========================================================== */
+
+
+/* ==========================================================
+   1. DEFAULT NODE
+   Card -> point + label
+========================================================== */
+
+.an-map-node {
+  width: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  padding: 0 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+
+  gap: 7px !important;
+
+  overflow: visible !important;
+}
+
+
+/* ==========================================================
+   2. REMOVE THE LARGE RING
+========================================================== */
+
+.an-map-node__pulse {
+  position: relative !important;
+
+  left: auto !important;
+  top: auto !important;
+
+  flex: 0 0 auto !important;
+
+  width: 18px !important;
+  height: 18px !important;
+
+  transform: none !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.10) !important;
+
+  border-radius: 50% !important;
+
+  background:
+    rgba(0,0,0,0.16) !important;
+
+  opacity: 1 !important;
+}
+
+
+/* ==========================================================
+   3. CORE DOT
+   Put the neuron core inside the ring visually
+========================================================== */
+
+.an-map-node__core {
+  position: absolute !important;
+
+  left: 9px !important;
+  top: 50% !important;
+
+  width: 4px !important;
+  height: 4px !important;
+
+  margin: 0 !important;
+
+  transform:
+    translate(-50%, -50%) !important;
+
+  border-radius: 50% !important;
+
+  background:
+    rgba(255,255,255,0.62) !important;
+
+  box-shadow:
+    0
+    0
+    6px
+    rgba(255,255,255,0.16) !important;
+}
+
+
+/* ==========================================================
+   4. LABEL
+========================================================== */
+
+.an-map-node__copy {
+  display: flex !important;
+  flex-direction: column !important;
+
+  min-width: 0 !important;
+
+  gap: 2px !important;
+
+  padding:
+    2px 5px !important;
+
+  border-radius:
+    7px !important;
+
+  background:
+    rgba(0,0,0,0.12) !important;
+}
+
+
+.an-map-node__copy strong {
+  overflow: visible !important;
+
+  color:
+    rgba(255,255,255,0.58) !important;
+
+  font-size:
+    6px !important;
+
+  font-weight:
+    400 !important;
+
+  line-height:
+    1.15 !important;
+
+  letter-spacing:
+    0.01em !important;
+
+  text-overflow:
+    clip !important;
+
+  white-space:
+    nowrap !important;
+}
+
+
+.an-map-node__copy small {
+  color:
+    rgba(255,255,255,0.18) !important;
+
+  font-size:
+    3.3px !important;
+
+  line-height:
+    1 !important;
+
+  letter-spacing:
+    0.08em !important;
+}
+
+
+/* ==========================================================
+   5. HOVER
+   Do not create a giant floating card
+========================================================== */
+
+.an-map-node:hover {
+  z-index:
+    40 !important;
+
+  transform:
+    translate(-50%, -50%)
+    scale(1.035) !important;
+
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.an-map-node:hover
+.an-map-node__copy {
+  background:
+    rgba(0,0,0,0.34) !important;
+}
+
+
+.an-map-node:hover
+.an-map-node__copy strong {
+  color:
+    rgba(255,255,255,0.86) !important;
+}
+
+
+/* ==========================================================
+   6. SELECTED
+   Only selected node becomes a glass capsule
+========================================================== */
+
+.an-map-node.is-selected {
+  z-index:
+    50 !important;
+
+  padding:
+    4px 7px 4px 4px !important;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.16) !important;
+
+  border-radius:
+    999px !important;
+
+  background:
+    rgba(5,5,6,0.28) !important;
+
+  -webkit-backdrop-filter:
+    blur(14px) !important;
+
+  backdrop-filter:
+    blur(14px) !important;
+
+  box-shadow:
+    0
+    0
+    18px
+    rgba(255,255,255,0.035) !important;
+}
+
+
+.an-map-node.is-selected
+.an-map-node__copy {
+  padding:
+    0 3px !important;
+
+  background:
+    transparent !important;
+}
+
+
+.an-map-node.is-selected
+.an-map-node__copy strong {
+  color:
+    rgba(255,255,255,0.96) !important;
+}
+
+
+.an-map-node.is-selected
+.an-map-node__pulse {
+  border-color:
+    rgba(255,255,255,0.34) !important;
+
+  box-shadow:
+    0
+    0
+    12px
+    rgba(255,255,255,0.11) !important;
+}
+
+
+.an-map-node.is-selected
+.an-map-node__core {
+  background:
+    #fff !important;
+
+  box-shadow:
+    0
+    0
+    8px
+    rgba(255,255,255,0.52) !important;
+}
+
+
+/* ==========================================================
+   7. CONNECTED NODE
+   Do not turn all connected nodes into cards
+========================================================== */
+
+.an-map-node.is-connected {
+  border:
+    0 !important;
+
+  background:
+    transparent !important;
+}
+
+
+.an-map-node.is-connected
+.an-map-node__copy strong {
+  color:
+    rgba(255,255,255,0.68) !important;
+}
+
+
+/* ==========================================================
+   8. SPACE THE MOST CROWDED CLUSTERS
+   Slight coordinate correction only
+========================================================== */
+
+.an-map-node-observe,
+.an-map-node-understand,
+.an-map-node-design,
+.an-map-node-realize,
+.an-map-node-experience,
+.an-map-node-preserve {
+  isolation: isolate;
+}
+
+
+/* ==========================================================
+   9. MOBILE
+   Make node labels even quieter
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-map-node {
+    gap:
+      4px !important;
+  }
+
+
+  .an-map-node__pulse {
+    width:
+      14px !important;
+
+    height:
+      14px !important;
+  }
+
+
+  .an-map-node__core {
+    left:
+      7px !important;
+
+    width:
+      3px !important;
+
+    height:
+      3px !important;
+  }
+
+
+  .an-map-node__copy {
+    padding:
+      1px
+      3px !important;
+  }
+
+
+  .an-map-node__copy strong {
+    font-size:
+      4.6px !important;
+  }
+
+
+  .an-map-node__copy small {
+    display:
+      none !important;
+  }
+
+
+  .an-map-node.is-selected {
+    padding:
+      3px
+      5px
+      3px
+      3px !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   CORE + NODE VISUAL REFINEMENT
+   Remove unsettling circular / biological feeling
+========================================================== */
+
+
+/* ==========================================================
+   1. CENTRAL CORE
+   Circle -> quiet coordinate anchor
+========================================================== */
+
+.an-map__core-field {
+  width:
+    118px !important;
+
+  height:
+    72px !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/*
+ * Remove inner circle.
+ */
+.an-map__core-field > span {
+  display:
+    none !important;
+}
+
+
+/*
+ * Horizontal axis.
+ */
+.an-map__core-field::before {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 84px;
+  height: 1px;
+
+  transform:
+    translate(-50%, -50%);
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.04),
+      rgba(255,255,255,0.18),
+      rgba(255,255,255,0.04),
+      transparent
+    );
+
+  pointer-events:
+    none;
+}
+
+
+/*
+ * Vertical axis.
+ */
+.an-map__core-field::after {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 1px;
+  height: 46px;
+
+  transform:
+    translate(-50%, -50%);
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      rgba(255,255,255,0.03),
+      rgba(255,255,255,0.12),
+      rgba(255,255,255,0.03),
+      transparent
+    );
+
+  pointer-events:
+    none;
+}
+
+
+.an-map__core-field strong {
+  position:
+    relative;
+
+  z-index:
+    3;
+
+  padding:
+    5px
+    8px;
+
+  background:
+    rgba(0,0,0,0.18);
+
+  color:
+    rgba(255,255,255,0.72) !important;
+
+  font-size:
+    6px !important;
+
+  font-weight:
+    420 !important;
+
+  line-height:
+    1 !important;
+
+  letter-spacing:
+    0.18em !important;
+
+  -webkit-backdrop-filter:
+    blur(8px);
+
+  backdrop-filter:
+    blur(8px);
+}
+
+
+.an-map__core-field small {
+  display:
+    none !important;
+}
+
+
+/* ==========================================================
+   2. NODE POINT
+   Circle -> refined coordinate marker
+========================================================== */
+
+.an-map-node__pulse {
+  position:
+    relative !important;
+
+  left:
+    auto !important;
+
+  top:
+    auto !important;
+
+  flex:
+    0 0
+    16px !important;
+
+  width:
+    16px !important;
+
+  height:
+    16px !important;
+
+  transform:
+    none !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+
+  opacity:
+    1 !important;
+}
+
+
+/*
+ * Tiny horizontal locator.
+ */
+.an-map-node__pulse::before {
+  content: "";
+
+  position:
+    absolute;
+
+  left:
+    50%;
+
+  top:
+    50%;
+
+  width:
+    14px;
+
+  height:
+    1px;
+
+  transform:
+    translate(-50%, -50%);
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.22),
+      transparent
+    );
+}
+
+
+/*
+ * Tiny vertical locator.
+ */
+.an-map-node__pulse::after {
+  content: "";
+
+  position:
+    absolute;
+
+  left:
+    50%;
+
+  top:
+    50%;
+
+  width:
+    1px;
+
+  height:
+    10px;
+
+  transform:
+    translate(-50%, -50%);
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      rgba(255,255,255,0.16),
+      transparent
+    );
+}
+
+
+/* ==========================================================
+   3. NODE CORE
+   Round soma -> tiny luminous point
+========================================================== */
+
+.an-map-node__core {
+  position:
+    absolute !important;
+
+  left:
+    8px !important;
+
+  top:
+    50% !important;
+
+  width:
+    2px !important;
+
+  height:
+    2px !important;
+
+  margin:
+    0 !important;
+
+  transform:
+    translate(-50%, -50%) !important;
+
+  border-radius:
+    50% !important;
+
+  background:
+    rgba(255,255,255,0.72) !important;
+
+  box-shadow:
+    0
+    0
+    5px
+    rgba(255,255,255,0.32) !important;
+}
+
+
+/* ==========================================================
+   4. NODE LABEL
+   Clean and architectural
+========================================================== */
+
+.an-map-node__copy {
+  padding:
+    2px
+    4px !important;
+
+  background:
+    transparent !important;
+}
+
+
+.an-map-node__copy strong {
+  color:
+    rgba(255,255,255,0.60) !important;
+
+  font-size:
+    5.8px !important;
+
+  font-weight:
+    400 !important;
+
+  letter-spacing:
+    0.015em !important;
+}
+
+
+.an-map-node__copy small {
+  color:
+    rgba(255,255,255,0.17) !important;
+}
+
+
+/* ==========================================================
+   5. SELECTED NODE
+   Refined linear emphasis instead of circular glow
+========================================================== */
+
+.an-map-node.is-selected {
+  padding:
+    4px
+    8px
+    4px
+    5px !important;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.13) !important;
+
+  border-radius:
+    8px !important;
+
+  background:
+    rgba(4,4,5,0.24) !important;
+
+  -webkit-backdrop-filter:
+    blur(12px) !important;
+
+  backdrop-filter:
+    blur(12px) !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(255,255,255,0.025),
+
+    0
+    10px
+    28px
+    rgba(0,0,0,0.18) !important;
+}
+
+
+.an-map-node.is-selected
+.an-map-node__pulse::before {
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.62),
+      transparent
+    );
+}
+
+
+.an-map-node.is-selected
+.an-map-node__pulse::after {
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      rgba(255,255,255,0.46),
+      transparent
+    );
+}
+
+
+.an-map-node.is-selected
+.an-map-node__core {
+  width:
+    3px !important;
+
+  height:
+    3px !important;
+
+  background:
+    #fff !important;
+
+  box-shadow:
+    0
+    0
+    7px
+    rgba(255,255,255,0.5) !important;
+}
+
+
+/* ==========================================================
+   6. CONNECTED NODE
+   Minimal emphasis
+========================================================== */
+
+.an-map-node.is-connected
+.an-map-node__copy strong {
+  color:
+    rgba(255,255,255,0.68) !important;
+}
+
+
+.an-map-node.is-connected
+.an-map-node__pulse::before {
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.32),
+      transparent
+    );
+}
+
+
+/* ==========================================================
+   7. MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-map__core-field {
+    width:
+      88px !important;
+
+    height:
+      58px !important;
+  }
+
+
+  .an-map__core-field::before {
+    width:
+      62px;
+  }
+
+
+  .an-map__core-field::after {
+    height:
+      34px;
+  }
+
+
+  .an-map__core-field strong {
+    font-size:
+      5px !important;
+
+    letter-spacing:
+      0.14em !important;
+  }
+
+
+  .an-map-node__pulse {
+    width:
+      13px !important;
+
+    height:
+      13px !important;
+
+    flex-basis:
+      13px !important;
+  }
+
+
+  .an-map-node__pulse::before {
+    width:
+      11px;
+  }
+
+
+  .an-map-node__pulse::after {
+    height:
+      8px;
+  }
+
+
+  .an-map-node__core {
+    left:
+      6.5px !important;
+  }
+
+
+  .an-map-node__copy strong {
+    font-size:
+      4.5px !important;
+  }
+
+
+  .an-map-node.is-selected {
+    border-radius:
+      7px !important;
+
+    padding:
+      3px
+      6px
+      3px
+      4px !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   NO-SELECTION LAYOUT
+   Expand the field when no system is selected
+========================================================== */
+
+
+/* ----------------------------------------------------------
+   DESKTOP
+---------------------------------------------------------- */
+
+@media (min-width: 769px) {
+
+  /*
+   * Default state:
+   * sidebar + full search field
+   */
+  .an-map__workspace.no-selection {
+    grid-template-columns:
+      190px
+      minmax(0, 1fr) !important;
+  }
+
+
+  /*
+   * Selected state:
+   * restore detail column
+   */
+  .an-map__workspace.has-selection {
+    grid-template-columns:
+      190px
+      minmax(0, 1fr)
+      280px !important;
+  }
+
+
+  /*
+   * Wider central field makes the neural space
+   * feel intentional rather than empty.
+   */
+  .an-map__workspace.no-selection
+  .an-map__field {
+    grid-column:
+      2 !important;
+  }
+
+}
+
+
+/* ----------------------------------------------------------
+   MEDIUM DESKTOP
+---------------------------------------------------------- */
+
+@media
+(max-width: 1180px)
+and
+(min-width: 769px) {
+
+  .an-map__workspace.no-selection {
+    grid-template-columns:
+      150px
+      minmax(0, 1fr) !important;
+  }
+
+
+  .an-map__workspace.has-selection {
+    grid-template-columns:
+      150px
+      minmax(0, 1fr)
+      230px !important;
+  }
+
+}
+
+
+/* ----------------------------------------------------------
+   FIELD TRANSITION
+---------------------------------------------------------- */
+
+.an-map__workspace {
+  transition:
+    grid-template-columns
+    0.34s
+    cubic-bezier(
+      0.22,
+      1,
+      0.36,
+      1
+    );
+}
+
+
+/* ----------------------------------------------------------
+   CORE POSITION
+   Keep the visual center balanced.
+---------------------------------------------------------- */
+
+@media (min-width: 769px) {
+
+  .an-map__workspace.no-selection
+  .an-map__core-field {
+    left:
+      50% !important;
+  }
+
+}
+
+
+/* ----------------------------------------------------------
+   OPTIONAL:
+   Give the empty state a tiny amount of meaning
+   without adding another card.
+---------------------------------------------------------- */
+
+.an-map__workspace.no-selection
+.an-map__field-head > small::before {
+  content:
+    "EXPLORE";
+}
+
+
+.an-map__workspace.no-selection
+.an-map__field-head > small {
+  font-size:
+    0 !important;
+}
+
+
+.an-map__workspace.no-selection
+.an-map__field-head > small::before {
+  font-size:
+    5px;
+
+  letter-spacing:
+    0.12em;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.16
+    );
+}
+
+
+/* ----------------------------------------------------------
+   MOBILE
+   Existing full-width architecture remains unchanged.
+---------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .an-map__workspace.no-selection,
+  .an-map__workspace.has-selection {
+    display:
+      block !important;
+  }
+
+}
 
       `}</style>
 
