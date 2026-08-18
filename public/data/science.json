@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-18T17:29:17.253Z",
+  "updated": "2026-08-18T18:40:33.279Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "From the coasts to the plains, bird flu could threaten not just birds—but their homes",
+      "url": "https://phys.org/news/2026-08-coasts-plains-bird-flu-threaten.html",
+      "summary": "Yesterday, I woke to a cold, damp Canberra morning—and silence. The trees around my home were empty of feathered silhouettes. Even the usual bright-eyed, warble-voiced magpies were absent.",
+      "ts": 1787077205000,
+      "publishedAt": "2026-08-18T18:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "End-to-end design creates two low-cost materials to capture methane",
+      "url": "https://phys.org/news/2026-08-materials-capture-methane.html",
+      "summary": "Developing new materials to tackle pressing global issues is a gap-filled process that can leave potential climate solutions lost in unread academic papers and forgotten dissertations.",
+      "ts": 1787077204000,
+      "publishedAt": "2026-08-18T18:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI and 8 million digitized plant specimens reveal how the climate is changing nature in large parts of the world",
+      "url": "https://phys.org/news/2026-08-ai-million-digitized-specimens-reveal.html",
+      "summary": "AI optimists will be encouraged by a recent report on the state of the world's plants and fungi by the Royal Botanic Gardens, Kew.",
+      "ts": 1787076601000,
+      "publishedAt": "2026-08-18T18:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cells remodel actin normally without coronins, challenging textbook view",
+      "url": "https://phys.org/news/2026-08-cells-remodel-actin-coronins-textbook.html",
+      "summary": "Coronins are found throughout the animal kingdom, from single-celled amoebae to humans, and are involved in many vital processes, including immunity, development and cell survival. For decades, textbooks and hundreds of …",
+      "ts": 1787076010000,
+      "publishedAt": "2026-08-18T18:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australian beekeepers can't tackle Varroa mite alone. Here's how we can help",
+      "url": "https://phys.org/news/2026-08-australian-beekeepers-tackle-varroa-mite.html",
+      "summary": "For decades, Australia was the last inhabited continent free of the bee-killing Varroa mite (Varroa destructor).",
+      "ts": 1787076008000,
+      "publishedAt": "2026-08-18T18:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oral exams are making a comeback to stop AI cheating. But they have their own problems",
+      "url": "https://phys.org/news/2026-08-oral-exams-comeback-ai-problems.html",
+      "summary": "Universities are increasingly turning to oral exams to stop students from using artificial intelligence (AI) to cheat.",
+      "ts": 1787074811000,
+      "publishedAt": "2026-08-18T17:40:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Novel plastic turns into a gas when heated—then reforms once cooled",
+      "url": "https://phys.org/news/2026-08-plastic-gas-reforms-cooled.html",
+      "summary": "In a study published in Macromolecules, researchers introduce a novel polymer that could simplify how materials are applied, removed and recycled by eliminating several complex processing steps used today.",
+      "ts": 1787074806000,
+      "publishedAt": "2026-08-18T17:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fifteen years of data link plastic pollution to seabird population losses",
+      "url": "https://phys.org/news/2026-08-fifteen-years-link-plastic-pollution.html",
+      "summary": "Every year, about 50 million metric tons of plastic is dumped into the environment. This waste entangles, chokes and poisons wildlife worldwide, including sable shearwaters living on the remote Australian island of Lord …",
+      "ts": 1787074201000,
+      "publishedAt": "2026-08-18T17:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Yellowstone's past droughts may signal less geyser activity and more wildfires",
@@ -348,6 +412,38 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Constraints on Large-Scale White Noise in the Cosmic Density Field",
+      "url": "http://link.aps.org/doi/10.1103/7dwt-h1h7",
+      "summary": "Author(s): Gabriela Barenboim, Aurora Ireland, and Albert Stebbins We present observational constraints on large-scale white noise (LSWN) in the cosmic density field, a phenomenon predicted to arise from nonlinear mode c…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Free-Streaming Length of Dark Matter from JWST Observations of 28 Strong Gravitational Lenses",
+      "url": "http://link.aps.org/doi/10.1103/qckh-cqrd",
+      "summary": "Author(s): D. Gilman et al. The formation of gravitationally bound overdensities of dark matter (DM), or halos, is a generic prediction of theories with particle DM. We present a measurement of halo properties in 28 quad…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Non-Hermitian Anomalous Scaling Engineering",
+      "url": "http://link.aps.org/doi/10.1103/39t1-94yh",
+      "summary": "Author(s): Shulin Wang, Jiawei He, Zhiyuan Yang, Stefano Longhi, and Peng Xue Non-Hermitian systems exhibit anomalous scaling, a striking departure from conventional bulk laws, rooted in the non-Hermitian skin effect (NH…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Evidence for Wave Turbulence Spectra in Rotating Turbulence",
+      "url": "http://link.aps.org/doi/10.1103/33dv-bfcx",
+      "summary": "Author(s): Omri Shaltiel, Omri Gat, and Eran Sharon Though highly impacting our lives, rotating turbulent flows are not well understood. These anisotropic three-dimensional fluctuating flows are governed by different non…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Extendibility of Fermionic Gaussian States",
       "url": "http://link.aps.org/doi/10.1103/65dd-448y",
       "summary": "Author(s): Amir-Reza Negari and Farzin Salek We investigate $({k}_{1},{k}_{2})$ extendibility of fermionic Gaussian states, a property central to quantum correlations and approximations of separability. We show that thes…",
@@ -372,22 +468,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Constraints on Large-Scale White Noise in the Cosmic Density Field",
-      "url": "http://link.aps.org/doi/10.1103/7dwt-h1h7",
-      "summary": "Author(s): Gabriela Barenboim, Aurora Ireland, and Albert Stebbins We present observational constraints on large-scale white noise (LSWN) in the cosmic density field, a phenomenon predicted to arise from nonlinear mode c…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Free-Streaming Length of Dark Matter from JWST Observations of 28 Strong Gravitational Lenses",
-      "url": "http://link.aps.org/doi/10.1103/qckh-cqrd",
-      "summary": "Author(s): D. Gilman et al. The formation of gravitationally bound overdensities of dark matter (DM), or halos, is a generic prediction of theories with particle DM. We present a measurement of halo properties in 28 quad…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "High Post-Minkowskian Gravitational Waveform for Hyperbolic Encounters in the Extreme-Mass-Ratio Limit",
       "url": "http://link.aps.org/doi/10.1103/l9cd-88h7",
       "summary": "Author(s): Andrea Geralico The frequency-domain waveform emitted by a two-body scattering process is computed in the extreme-mass-ratio limit through the fifth post-Minkowskian (PM) order [i.e., $O({G}^{5})$] and the fra…",
@@ -399,22 +479,6 @@
       "title": "Holographic Origin of $a$ Maximization and Higher-Derivative ${\\mathrm{AdS}}_{5}/{\\mathrm{CFT}}_{4}$",
       "url": "http://link.aps.org/doi/10.1103/nrlq-ktd1",
       "summary": "Author(s): Kiril Hristov, Saurish Khandelwal, Yi Pang, and Gabriele Tartaglino-Mazzucchelli We develop a consistent partially off-shell framework for evaluating higher-derivative actions of five-dimensional $\\mathcal{N}=…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Non-Hermitian Anomalous Scaling Engineering",
-      "url": "http://link.aps.org/doi/10.1103/39t1-94yh",
-      "summary": "Author(s): Shulin Wang, Jiawei He, Zhiyuan Yang, Stefano Longhi, and Peng Xue Non-Hermitian systems exhibit anomalous scaling, a striking departure from conventional bulk laws, rooted in the non-Hermitian skin effect (NH…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Evidence for Wave Turbulence Spectra in Rotating Turbulence",
-      "url": "http://link.aps.org/doi/10.1103/33dv-bfcx",
-      "summary": "Author(s): Omri Shaltiel, Omri Gat, and Eran Sharon Though highly impacting our lives, rotating turbulent flows are not well understood. These anisotropic three-dimensional fluctuating flows are governed by different non…",
       "ts": 1787047200000,
       "publishedAt": "2026-08-18T10:00:00.000Z"
     },
@@ -735,70 +799,6 @@
       "title": "Electron Injection and Beam Dynamics in a Laser Wakefield Acceleration Driven by Laser Pulses Carrying Orbital Angular Momentum",
       "url": "https://arxiv.org/abs/2608.15039",
       "summary": "arXiv:2608.15039v1 Announce Type: new Abstract: Laser pulses carrying orbital angular momentum (OAM) provide a new degree of freedom for controlling plasma-based accelerators. Here, we demonstrate experimentally laser wa…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical nonlinearity in a strongly interacting Rydberg atom ensemble",
-      "url": "https://arxiv.org/abs/2608.15072",
-      "summary": "arXiv:2608.15072v1 Announce Type: new Abstract: Rydberg atoms, characterized by their giant polarizability and strong long-range interactions, provide an ideal platform for exploring optical nonlinearities. By coupling l…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-Synchronized Terahertz and X-Ray Free-Electron Lasers from a Single Pre-Bunched Electron Beam",
-      "url": "https://arxiv.org/abs/2608.15106",
-      "summary": "arXiv:2608.15106v1 Announce Type: new Abstract: Ultrafast pump-probe spectroscopy combining intense terahertz (THz) and X-ray pulses is a critical tool for investigating complex structural and electronic dynamics in mate…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust inverse design of non-periodic Bloch surface wave sensors",
-      "url": "https://arxiv.org/abs/2608.15152",
-      "summary": "arXiv:2608.15152v1 Announce Type: new Abstract: One-dimensional photonic crystals supporting Bloch surface waves (BSWs) have emerged as highly sensitive platforms for label-free refractometric sensing. However, the pract…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasolver: Physics-Informed Neural Operators for Elastoplasticity",
-      "url": "https://arxiv.org/abs/2608.15157",
-      "summary": "arXiv:2608.15157v1 Announce Type: new Abstract: Elastoplastic analysis is computationally demanding because its nonlinear, path-dependent constitutive behavior requires incremental loading and repeated iterative solution…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Driven Time Crystal in Low-Symmetry ENZ Conductors",
-      "url": "https://arxiv.org/abs/2608.15208",
-      "summary": "arXiv:2608.15208v1 Announce Type: new Abstract: In recent years, epsilon-near-zero (ENZ) materials have attracted a great deal of attention in nonlinear optics, as they combine field enhancement with strong, ultrafast no…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Cavity-Based X-ray Free-Electron Lasers: Milestones and Challenges",
-      "url": "https://arxiv.org/abs/2608.15244",
-      "summary": "arXiv:2608.15244v1 Announce Type: new Abstract: Cavity-based X-ray free-electron lasers (CBXFELs) could advance X-ray science by delivering fully coherent radiation with high spectral brightness and enhanced pulse contro…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AlgoPlasma: Open Algorithms for Plasma Modeling",
-      "url": "https://arxiv.org/abs/2608.15249",
-      "summary": "arXiv:2608.15249v1 Announce Type: new Abstract: AlgoPlasma is an open-source library in which core numerical algorithms for plasma modeling are implemented as modular, well-documented, and independently testable componen…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Relative and absolute dosimetric commissioning of the ELIMAIA--ELIMED laser-driven proton beamline at 23.45 MeV",
-      "url": "https://arxiv.org/abs/2608.15272",
-      "summary": "arXiv:2608.15272v1 Announce Type: new Abstract: The development of laser-driven proton beamlines for biomedical and radiobiological applications requires traceable dosimetry and reliable online monitoring at the irradiat…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }

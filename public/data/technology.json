@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-18T17:29:19.751Z",
+  "updated": "2026-08-18T18:40:35.402Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Embedding Regulatory Strategy in Cell and Gene Therapy Development",
+      "url": "https://www.genengnews.com/multimedia/webinars/embedding-regulatory-strategy-in-cell-and-gene-therapy-development/",
+      "summary": "In this GEN webinar, experts from Rose BioSolutions, a CDMO and Cell Solutions organization formed from Charles River Laboratories’ businesses, will discuss how integrating regulatory strategy at the earliest stages of d…",
+      "ts": 1787077065000,
+      "publishedAt": "2026-08-18T18:17:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Real-world psilocybin data suggest need for close monitoring",
+      "url": "https://www.statnews.com/2026/08/18/biotech-news-real-world-psilocybin-data-suggest-need-for-close-monitoring/?utm_campaign=rss",
+      "summary": "Amylyx reports success in a pivotal trial, biopharma A-listers join a pain-blocking device company board, and more biotech news from The Readout",
+      "ts": 1787076468000,
+      "publishedAt": "2026-08-18T18:07:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Sugar-Sweetened Beverages Daily Can Lead to Higher Stomach Cancer Risk",
+      "url": "https://www.genengnews.com/topics/cancer/sugar-sweetened-beverages-daily-can-lead-to-higher-stomach-cancer-risk/",
+      "summary": "Participants who consumed at least one serving of a sugar-sweetened beverage per day had a 2.45X higher risk of gastric cancer compared with those consuming less than one serving per month. The post Sugar-Sweetened Bever…",
+      "ts": 1787074616000,
+      "publishedAt": "2026-08-18T17:36:56.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Leaders of Mass General, Dana-Farber among hospital execs who got big raises in 2024",
@@ -783,33 +810,6 @@
       "summary": "Sanofi, one of the Massachusetts' largest pharmaceutical employers, will lay off more than 200 workers there a year after acquiring Blueprint Medicines.",
       "ts": 1786994634000,
       "publishedAt": "2026-08-17T19:23:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What Flock’s defenders are missing",
-      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic licen…",
-      "ts": 1786994169000,
-      "publishedAt": "2026-08-17T19:16:09.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Eyepoint study results for vision treatment disappoint, but company still sees promise",
-      "url": "https://www.statnews.com/2026/08/17/eyepoint-duravyu-wet-amd-study/?utm_campaign=rss",
-      "summary": "Eyepoint said patients given its experimental treatment for wet AMD failed to maintain vision with less frequent injections compared to a standard treatment.",
-      "ts": 1786992342000,
-      "publishedAt": "2026-08-17T18:45:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "University of Rhode Island Wins Grant to Study Cerebral Amyloid Angiopathy Prevalent in Alzheimer’s Patients",
-      "url": "https://www.genengnews.com/topics/translational-medicine/university-of-rhode-island-wins-grant-to-study-cerebral-amyloid-angiopathy-prevalent-in-alzheimers-patients/",
-      "summary": "The University of Rhode Island $1.5 million grant is part of a $9 million five-year Transatlantic Networks of Excellence grant from the Leducq Foundation. The initiative is known as TRAFFIC. The post University of Rhode …",
-      "ts": 1786989618000,
-      "publishedAt": "2026-08-17T18:00:18.000Z",
       "categoryId": "bio"
     }
   ],
