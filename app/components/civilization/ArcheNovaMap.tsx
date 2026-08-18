@@ -1326,7 +1326,7 @@ export default function ArcheNovaMap() {
             </span>
 
             <strong>
-              MAP
+              SEARCH
             </strong>
 
             <small>
