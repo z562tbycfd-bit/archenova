@@ -26,9 +26,9 @@ export default function Home() {
           ARCHENOVA MAP
       ========================= */}
       <section
-  id="galaxy-atlas"
-  data-home-section
-  className="home-page twin-page civ-intel-portal-page"
+      id="archenova-map"
+      data-home-section
+      className="home-page twin-page civ-intel-portal-page"
 >
   <ArcheNovaMap />
 </section>
