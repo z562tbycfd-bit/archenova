@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-18T09:35:43.790Z",
+  "updated": "2026-08-18T10:30:25.857Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How body size and habitat shape the vocal repertoires of primates",
+      "url": "https://phys.org/news/2026-08-body-size-habitat-vocal-repertoires.html",
+      "summary": "Biologists, zoologists and psychologists have been trying to trace the origins of human language for centuries. One well-known theory, known as the social brain hypothesis, suggests that increasingly complex social lives…",
+      "ts": 1787048401000,
+      "publishedAt": "2026-08-18T10:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How tomato 'golden hour' research could help crops survive heat waves and drought",
@@ -791,14 +799,6 @@
       "title": "Modelling of Flowing Plasma in the Magnetic Field of the Small Volume Plasma System Experiment",
       "url": "https://arxiv.org/abs/2608.16624",
       "summary": "arXiv:2608.16624v1 Announce Type: new Abstract: A flow model for a magnetized plasma has been developed to investigate the flow dynamics in the small volume plasma system (SVPS) experiment. The SVPS experimental conditio…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensitivity Scaling and Limits of Cavity Enhancement in Miniaturized Optically Pumped Magnetometers",
-      "url": "https://arxiv.org/abs/2608.16670",
-      "summary": "arXiv:2608.16670v1 Announce Type: new Abstract: The sensitivity of miniaturized optically pumped magnetometers (OPMs) is limited by weak atom-light coupling, which an optical cavity can enhance. In this work, we model th…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-18T09:35:47.279Z",
+  "updated": "2026-08-18T10:30:27.891Z",
   "items": [
     {
       "source": "ESA",
@@ -10,6 +10,15 @@
       "ts": 1787058000000,
       "publishedAt": "2026-08-18T13:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A pill that mimics exercise? Early results on drug designed to maintain both weight loss and muscle mass",
+      "url": "https://www.statnews.com/2026/08/18/enveda-pill-mimics-exercise-phase-one-trial-leptin-weight-loss-maintenance/?utm_campaign=rss",
+      "summary": "Colorado biotech Enveda reports preliminary results on a drug to help people maintain weight loss after GLP-1 use. Just don't call it exercise in a pill.",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "ESA",
@@ -802,15 +811,6 @@
       "ts": 1786957234000,
       "publishedAt": "2026-08-17T09:00:34.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How much hydrogen awaits us underground?",
-      "url": "https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/",
-      "summary": "In the 1990s, Barbara Sherwood Lollar descended into the Kidd Creek mine in northern Ontario, which cuts more than three kilometers into the ancient root of North America. There her team of geochemists found water that h…",
-      "ts": 1786957200000,
-      "publishedAt": "2026-08-17T09:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
