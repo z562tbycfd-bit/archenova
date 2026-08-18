@@ -17,7 +17,7 @@ const CHAPTER_TARGETS: ChapterTarget[] = [
 
   {
     id: "archenova-map",
-    mark: "⛲︎",
+    mark: "⛳︎",
     title: "MAP",
     subtitle:"Navigation",
   },
