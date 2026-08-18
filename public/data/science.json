@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-17T23:24:53.447Z",
+  "updated": "2026-08-18T01:19:44.538Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Can telecoms turn data into action? Seven-dimension model maps readiness",
+      "url": "https://phys.org/news/2026-08-telecoms-action-dimension-readiness.html",
+      "summary": "Research in the International Journal of Business Information Systems discusses a sector-specific framework to help telecommunications companies assess how effectively they use big data.",
+      "ts": 1787014802000,
+      "publishedAt": "2026-08-18T01:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Immune cells have a 'sense of touch,' scientists discover",
+      "url": "https://phys.org/news/2026-08-immune-cells-scientists.html",
+      "summary": "Scientists have long believed that tissue-resident memory T cells—which remain in tissues after an infection has cleared and respond rapidly if the threat returns—are shaped primarily by biochemical signals. A McGill Uni…",
+      "ts": 1787011201000,
+      "publishedAt": "2026-08-18T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Global genomic surveillance uncovers emergence and spatiotemporal patterns of World Health Organization priority antibiotic resistance in invasive <i>Salmonella</i>",
+      "url": "https://www.nature.com/articles/s41467-026-76354-1",
+      "summary": "",
+      "ts": 1787011200000,
+      "publishedAt": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular electromagnetic sensor may enable remote-controlled gene therapy",
+      "url": "https://phys.org/news/2026-08-molecular-electromagnetic-sensor-enable-remote.html",
+      "summary": "The deoxyribonucleic acid (DNA) of living organisms contains regulatory elements that control when, where and to what extent specific genes are turned on or off. They can be co-opted to create \"gene switches\" that hold s…",
+      "ts": 1787010004000,
+      "publishedAt": "2026-08-17T23:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Male Neanderthal pelvises resemble those of modern females, challenging decades-old assumptions",
@@ -769,38 +801,6 @@
       "summary": "Author(s): R. Winkler and U. Zülicke A comprehensive symmetry-based classification identifies 12 fundamentally distinct types of crystal structures across five polar and five chiral categories, providing a complete taxon…",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Coulomb Screening of Superconductivity in Magic-Angle Graphene",
-      "url": "http://link.aps.org/doi/10.1103/z9qg-287y",
-      "summary": "Author(s): Julien Barrier, Liangtao Peng, Shuigang Xu, Christophe De Beule, V. I. Fal’ko, K. Watanabe, T. Tanigushi, A. K. Geim, Shaffique Adam, and Alexey I. Berdyugin Metallic layers placed near magic-angle graphene su…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The Nigerian fishing community being eaten up by the Atlantic",
-      "url": "https://phys.org/news/2026-08-nigerian-fishing-community-eaten-atlantic.html",
-      "summary": "The beach shrinks every year in Ayetoro, in southern Nigeria, and what is left is peppered with the remains of homes swallowed by the ocean—some years ago, some just months prior.",
-      "ts": 1786952401000,
-      "publishedAt": "2026-08-17T07:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hawaii recovery efforts begin as Lala is downgraded, moves west",
-      "url": "https://phys.org/news/2026-08-hawaii-recovery-efforts-lala-downgraded.html",
-      "summary": "Clean-up efforts were underway Sunday as Hurricane Lala, which was downgraded to a tropical storm, rolled past Hawaii's Big Island and dumped heavy rain across the U.S. Pacific state.",
-      "ts": 1786951715000,
-      "publishedAt": "2026-08-17T07:28:35.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unknown Unknowns: Model Misspecification in Machine Learning for Physics",
-      "url": "https://arxiv.org/abs/2608.13633",
-      "summary": "arXiv:2608.13633v1 Announce Type: new Abstract: Machine learning is now a central tool for solving inverse problems in particle physics and astronomy. Models are trained on simulation and deployed on real data, raising t…",
-      "ts": 1786939200000,
-      "publishedAt": "2026-08-17T04:00:00.000Z"
     }
   ],
   "sources": [
