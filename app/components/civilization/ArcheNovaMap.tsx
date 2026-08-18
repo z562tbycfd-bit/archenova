@@ -7117,6 +7117,227 @@ export default function ArcheNovaMap() {
 
 }
 
+/* ==========================================================
+   ARCHENOVA SEARCH
+   FINAL NO-SELECTION WIDTH FIX
+========================================================== */
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * VERY IMPORTANT:
+   * override the original 3-column workspace.
+   */
+
+  .an-map__workspace.no-selection {
+    display: grid !important;
+
+    grid-template-columns:
+      190px
+      minmax(0, 1fr) !important;
+
+    grid-template-areas:
+      "sidebar field" !important;
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .an-map__workspace.no-selection
+  .an-map__sidebar {
+    grid-area: sidebar !important;
+
+    width: auto !important;
+
+    min-width: 0 !important;
+  }
+
+
+  .an-map__workspace.no-selection
+  .an-map__field {
+    grid-area: field !important;
+
+    grid-column: auto !important;
+
+    width: 100% !important;
+
+    max-width: none !important;
+
+    min-width: 0 !important;
+  }
+
+
+  /*
+   * Safety:
+   * Detail must consume absolutely no grid space
+   * when nothing is selected.
+   */
+
+  .an-map__workspace.no-selection
+  > .an-map__detail {
+    display: none !important;
+
+    position: absolute !important;
+
+    width: 0 !important;
+
+    min-width: 0 !important;
+
+    max-width: 0 !important;
+
+    padding: 0 !important;
+
+    margin: 0 !important;
+
+    border: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* ========================================================
+     SELECTED
+     Restore normal desktop architecture.
+  ======================================================== */
+
+  .an-map__workspace.has-selection {
+    display: grid !important;
+
+    grid-template-columns:
+      190px
+      minmax(0, 1fr)
+      280px !important;
+
+    grid-template-areas:
+      "sidebar field detail" !important;
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .an-map__workspace.has-selection
+  .an-map__sidebar {
+    grid-area: sidebar !important;
+  }
+
+
+  .an-map__workspace.has-selection
+  .an-map__field {
+    grid-area: field !important;
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+  }
+
+
+  .an-map__workspace.has-selection
+  > .an-map__detail {
+    display: block !important;
+
+    position: relative !important;
+
+    grid-area: detail !important;
+
+    width: auto !important;
+
+    min-width: 0 !important;
+
+    max-width: none !important;
+
+    padding:
+      19px
+      17px !important;
+
+    border-left:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.04
+      ) !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MEDIUM DESKTOP
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and (max-width: 1180px) {
+
+  .an-map__workspace.no-selection {
+    grid-template-columns:
+      150px
+      minmax(0, 1fr) !important;
+  }
+
+
+  .an-map__workspace.has-selection {
+    grid-template-columns:
+      150px
+      minmax(0, 1fr)
+      230px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+   Keep existing architecture unchanged.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-map__workspace.no-selection,
+  .an-map__workspace.has-selection {
+    display: block !important;
+  }
+
+
+  .an-map__workspace.no-selection
+  > .an-map__detail {
+    display: none !important;
+  }
+
+
+  .an-map__workspace.has-selection
+  > .an-map__detail {
+    display: block !important;
+
+    position: absolute !important;
+
+    left: 8px !important;
+    right: 8px !important;
+
+    bottom: 8px !important;
+
+    width: auto !important;
+
+    max-width: none !important;
+    max-height: 56% !important;
+  }
+
+}
+
       `}</style>
 
     </div>
