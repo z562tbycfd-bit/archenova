@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-18T19:29:10.134Z",
+  "updated": "2026-08-18T20:26:31.370Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Trump administration sued over visa time limit that would affect grad students, postdocs",
+      "url": "https://www.statnews.com/2026/08/18/dhs-sued-over-visa-time-limit-for-foreign-students/?utm_campaign=rss",
+      "summary": "DHS was sued Tuesday over a sweeping policy change that would limit how long foreign students and scholars can remain in the U.S.",
+      "ts": 1787082844000,
+      "publishedAt": "2026-08-18T19:54:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Strengthening Democratic Oversight in National Security",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "ts": 1787079600000,
+      "publishedAt": "2026-08-18T19:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: The White House declares ‘promises made, promises kept’ on lowering drug prices. Nice try",
@@ -346,7 +364,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: How health care costs are undermining America’s public-sector employers",
+      "title": "How health care costs are undermining America’s public-sector employers",
       "url": "https://www.statnews.com/2026/08/18/public-sector-employees-health-care-costs-out-of-pocket-series-part-4/?utm_campaign=rss",
       "summary": "Politicians are contemplating raising taxes and cutting benefits as the cost of health care for government workers surges.",
       "ts": 1787041800000,
@@ -793,24 +811,6 @@
       "ts": 1787000785000,
       "publishedAt": "2026-08-17T21:06:25.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "New EU sanctions target leaders of Russia’s space industry",
-      "url": "https://spacenews.com/new-eu-sanctions-target-leaders-of-russias-space-industry/",
-      "summary": "JOHANNESBURG — The European Union has sanctioned the head of a Roscosmos subsidiary developing a synthetic aperture radar satellite system for the Russian military. The sanctions are part of what […] The post New EU sanc…",
-      "ts": 1787000713000,
-      "publishedAt": "2026-08-17T21:05:13.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Selects Companies to Provide Payload Processing Services",
-      "url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/",
-      "summary": "NASA has selected four companies to provide payload processing facilities under the Spacecraft Processing Operations Contract on‑ramp provision. The provision enables qualified providers to offer commercial payload proce…",
-      "ts": 1786997840000,
-      "publishedAt": "2026-08-17T20:17:20.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

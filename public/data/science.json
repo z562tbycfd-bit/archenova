@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-08-18T19:29:07.983Z",
+  "updated": "2026-08-18T20:26:28.456Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Working from home should be a right, not a reward",
+      "url": "https://phys.org/news/2026-08-home-reward.html",
+      "summary": "The Australian state of Victoria was due to enforce a legal right to work from home starting in September 2026. But just weeks away from its implementation, the new premier, Ben Carroll, announced a year's delay in respo…",
+      "ts": 1787084409000,
+      "publishedAt": "2026-08-18T20:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Secrets of a mystery mammal from Patagonia revealed at last",
+      "url": "https://phys.org/news/2026-08-secrets-mystery-mammal-patagonia-revealed.html",
+      "summary": "Eight years of painstaking research on the virtually unknown Wolffsohn's viscacha have helped to shine the spotlight on this super-rare South American rodent and catalyze the conservation action it so urgently needs.",
+      "ts": 1787084407000,
+      "publishedAt": "2026-08-18T20:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sound-based traps reveal how fragile biomolecular droplets move, merge and change stiffness",
+      "url": "https://phys.org/news/2026-08-based-reveal-fragile-biomolecular-droplets.html",
+      "summary": "Being able to measure something plays a vital role in our ability to understand many phenomena. But measuring can often affect what we are trying to measure. This is particularly the case when measuring substances that a…",
+      "ts": 1787084401000,
+      "publishedAt": "2026-08-18T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists 'see' nanoscale forces, providing evidence of electric fields at the air‑water interface",
+      "url": "https://phys.org/news/2026-08-scientists-nanoscale-evidence-electric-fields.html",
+      "summary": "Bubbles are round, and we know surface tension does that. But squeeze that gas-liquid boundary into a space only a few tens of nanometers wide—could other forces be at work?",
+      "ts": 1787083210000,
+      "publishedAt": "2026-08-18T20:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moving nitrogen within pyridine opens a new path for molecular editing",
+      "url": "https://phys.org/news/2026-08-nitrogen-pyridine-path-molecular.html",
+      "summary": "A research team has developed a new molecular editing strategy that can directly convert pyridine compounds into their positional isomers. Instead of moving individual substituents around the molecule, the method relocat…",
+      "ts": 1787083208000,
+      "publishedAt": "2026-08-18T20:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate doom may discourage climate action, but there's a way to counter it",
+      "url": "https://phys.org/news/2026-08-climate-doom-discourage-action-counter.html",
+      "summary": "Every summer is getting hotter. Wildfires are blazing, and the worst is yet to come. There's nothing to be done—we're doomed! Sound familiar?",
+      "ts": 1787083201000,
+      "publishedAt": "2026-08-18T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genome-folding complex reveals a mechanism that helps establish neuron identity",
+      "url": "https://phys.org/news/2026-08-genome-complex-reveals-mechanism-neuron.html",
+      "summary": "A functional nervous system depends on the cooperation of many kinds of cells. As developing organisms build their nervous systems, their neurons must take on different forms and functions to fulfill their designated rol…",
+      "ts": 1787082006000,
+      "publishedAt": "2026-08-18T19:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The global race to make a practical quantum computer just took a big leap forward",
+      "url": "https://phys.org/news/2026-08-global-quantum-big.html",
+      "summary": "In the global race to build bigger and better quantum computers, researchers have taken a step forward. A new machine called Helios is radically different from other quantum computers.",
+      "ts": 1787082004000,
+      "publishedAt": "2026-08-18T19:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experiment shows how AI discoveries can shape human cultural evolution",
+      "url": "https://phys.org/news/2026-08-ai-discoveries-human-cultural-evolution.html",
+      "summary": "Artificial intelligence can develop solutions that humans would be unlikely to discover on their own. But what happens when machines do more than solve individual problems and actually discover entirely new solution stra…",
+      "ts": 1787081403000,
+      "publishedAt": "2026-08-18T19:30:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists entangle quantum memories across a record-breaking 420 km",
+      "url": "https://phys.org/news/2026-08-physicists-entangle-quantum-memories-km.html",
+      "summary": "Optical fibers are already the backbone of global communication systems. Recently, however, physicists have started to explore how their functionality could be boosted further by conveying information via entangled quant…",
+      "ts": 1787081401000,
+      "publishedAt": "2026-08-18T19:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Structural snapshots reveal key steps in switching on DNA replication",
@@ -719,86 +799,6 @@
       "title": "What is superatom?",
       "url": "https://arxiv.org/abs/2608.14739",
       "summary": "arXiv:2608.14739v1 Announce Type: new Abstract: The term \"superatom\" has served the cluster community well for over three decades, but the jellium picture that gave it birth has quietly become a cage. This Perspective as…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical validation of calorimeter inpainting with generative diffusion priors",
-      "url": "https://arxiv.org/abs/2608.14801",
-      "summary": "arXiv:2608.14801v1 Announce Type: new Abstract: Localized detector inefficiencies produce incomplete calorimeter data that limit the ability to perform precision measurements. We address this problem in relativistic heav…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elucidating Trace Gas Interactions with Ice Surfaces using Molecular Dynamics",
-      "url": "https://arxiv.org/abs/2608.14849",
-      "summary": "arXiv:2608.14849v1 Announce Type: new Abstract: Recent experimental work carried out by Yettapu, Manning, and Cyran on ice / vapor interfaces revealed changes in sum frequency generation (SFG) signals at ~ 3170 cm$^{-1}$…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Separation of Flexible Enantiomers Using Shear Flow",
-      "url": "https://arxiv.org/abs/2608.14857",
-      "summary": "arXiv:2608.14857v1 Announce Type: new Abstract: Mechanical separation of enantiomers is an attractive alternative to synthetic methods for producing enantiopure samples. Shear flow that produces solution vorticity has be…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A physics-informed SUPG-stabilized finite element framework with shock-capturing for simulating inviscid high-speed flows around a cylinder",
-      "url": "https://arxiv.org/abs/2608.14883",
-      "summary": "arXiv:2608.14883v1 Announce Type: new Abstract: This study presents a hybrid computational framework for simulating non-reacting inviscid high-speed flows of nitrogen gas (N$_2$) around a circular cylinder. Owing to the …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How much work can you get by removing weights from a piston?",
-      "url": "https://arxiv.org/abs/2608.14908",
-      "summary": "arXiv:2608.14908v1 Announce Type: new Abstract: In thermodynamics, reversible adiabatic expansion can be understood as a limit of stepwise irreversible processes. We make this idea concrete by studying an ideal gas in an…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hidden transverse-flow topology in partially coherent structured light",
-      "url": "https://arxiv.org/abs/2608.14923",
-      "summary": "arXiv:2608.14923v1 Announce Type: new Abstract: Partial coherence is commonly viewed as a mechanism that reduces contrast or smooths intensity structure. Here we show that it can also encode hidden transverse-flow topolo…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impacts of Sulfate Injection Geoengineering on Particulate Matter with Diameter less than 2.5 {\\mu}m",
-      "url": "https://arxiv.org/abs/2608.14928",
-      "summary": "arXiv:2608.14928v1 Announce Type: new Abstract: Particulate matter with aerodynamic diameter less than 2.5 {\\mu}m (PM2.5) is of great concern for human health. Here, for the first time, we examine the impact of sulfate a…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aperiodic temporal modulation for distortionless broadband impedance matching beyond the Bode-Fano limit",
-      "url": "https://arxiv.org/abs/2608.14933",
-      "summary": "arXiv:2608.14933v1 Announce Type: new Abstract: The Bode-Fano bound sets a fundamental trade-off between bandwidth and reflection in passive, linear, time-invariant matching networks. We show that an aperiodically time-m…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Updated all-electron Dirac--Fock densities and an element-adaptive parameterisation of scattering factors and potentials for neutral atoms",
-      "url": "https://arxiv.org/abs/2608.14934",
-      "summary": "arXiv:2608.14934v1 Announce Type: new Abstract: Updated reference data and an analytic parameterisation of elastic electron and X-ray scattering are presented for all 118 neutral atoms. The reference electron densities f…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Developing an Offshore Machine Learning Surface Layer Scheme",
-      "url": "https://arxiv.org/abs/2608.14935",
-      "summary": "arXiv:2608.14935v1 Announce Type: new Abstract: Turbulent fluxes between the surface and the atmosphere are typically parameterized using empirically fit relationships. Here we test machine learning techniques for fittin…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
