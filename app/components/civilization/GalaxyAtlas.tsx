@@ -11,7 +11,6 @@ type GalaxyNode = {
   id: string;
   title: string;
   subtitle: string;
-  function: string;
   href: string;
   x: number;
   y: number;
@@ -19,19 +18,14 @@ type GalaxyNode = {
 
 
 /* ==========================================================
-   CIVILIZATION MAP
-
-   Keep the original six-galaxy architecture,
-   but clarify the role of each domain.
+   GALAXY NODES
 ========================================================== */
 
 const galaxyNodes: GalaxyNode[] = [
   {
     id: "observatory",
     title: "Observatory",
-    subtitle: "Observation · Evidence · Record",
-    function:
-      "Maintain contact with reality through observation and evidence.",
+    subtitle: "Observation · Evidence",
     href: "/episteme",
     x: 25,
     y: 39,
@@ -40,9 +34,7 @@ const galaxyNodes: GalaxyNode[] = [
   {
     id: "governance",
     title: "Governance",
-    subtitle: "Order · Rules · Coordination",
-    function:
-      "Translate responsibility into durable institutional order.",
+    subtitle: "Order · Coordination",
     href: "/governance",
     x: 50,
     y: 22,
@@ -51,9 +43,7 @@ const galaxyNodes: GalaxyNode[] = [
   {
     id: "intelligence",
     title: "Intelligence",
-    subtitle: "Analysis · Synthesis · Foresight",
-    function:
-      "Transform distributed evidence into actionable understanding.",
+    subtitle: "Analysis · Synthesis",
     href: "/intelligence",
     x: 75,
     y: 39,
@@ -62,9 +52,7 @@ const galaxyNodes: GalaxyNode[] = [
   {
     id: "realization",
     title: "Realization",
-    subtitle: "Engineering · Deployment · Creation",
-    function:
-      "Convert validated knowledge into physical capability.",
+    subtitle: "Engineering · Deployment",
     href: "/realization",
     x: 76,
     y: 69,
@@ -73,9 +61,7 @@ const galaxyNodes: GalaxyNode[] = [
   {
     id: "structure",
     title: "Structure",
-    subtitle: "Architecture · Continuity · Succession",
-    function:
-      "Preserve system coherence across scale, time, and transition.",
+    subtitle: "Architecture · Continuity",
     href: "/architecture",
     x: 50,
     y: 82,
@@ -84,9 +70,7 @@ const galaxyNodes: GalaxyNode[] = [
   {
     id: "dialogue",
     title: "Dialogue",
-    subtitle: "Exchange · Challenge · Resonance",
-    function:
-      "Expose assumptions to challenge, interpretation, and revision.",
+    subtitle: "Exchange · Revision",
     href: "/dialogue",
     x: 24,
     y: 69,
@@ -125,7 +109,7 @@ function SpiralGalaxy({
 
 
 /* ==========================================================
-   GALAXY ATLAS
+   COMPONENT
 ========================================================== */
 
 export default function GalaxyAtlas() {
@@ -133,7 +117,7 @@ export default function GalaxyAtlas() {
     <div className="gx-page">
 
       {/* ==================================================
-          SPACE
+          BACKGROUND
       ================================================== */}
 
       <div
@@ -155,25 +139,25 @@ export default function GalaxyAtlas() {
 
 
         {/* =================================================
-            TOP
+            HEADER
         ================================================= */}
 
         <header className="gx-topbar">
 
-          <div className="gx-identity">
+          <div className="gx-topbar-copy">
 
             <span>
               ARCHENOVA MAP
             </span>
 
             <strong>
-              Civilization Architecture
+              Civilization Atlas
             </strong>
 
           </div>
 
 
-          <div className="gx-map-status">
+          <div className="gx-topbar-state">
 
             <span>
               <i />
@@ -194,32 +178,29 @@ export default function GalaxyAtlas() {
             INTRO
         ================================================= */}
 
-        <div className="gx-intro">
+        <section className="gx-intro">
 
           <span>
-            CIVILIZATION ATLAS
+            CIVILIZATION ARCHITECTURE
           </span>
 
           <h2>
-            Navigate the architecture
+            A connected map
+            <br />
             of civilization.
           </h2>
 
           <p>
             Observation, governance, intelligence,
             realization, structure, and dialogue
-            operate as one connected system.
+            operate as one interdependent system.
           </p>
 
-        </div>
+        </section>
 
 
         {/* =================================================
             MAP
-
-            IMPORTANT:
-            This is intentionally a DIV rather than MAIN.
-            The HOME page already owns the document MAIN.
         ================================================= */}
 
         <div className="gx-map">
@@ -283,7 +264,9 @@ export default function GalaxyAtlas() {
 
 
             {galaxyNodes.map(
-              (node) => (
+              (
+                node,
+              ) => (
                 <line
                   key={
                     node.id
@@ -347,11 +330,13 @@ export default function GalaxyAtlas() {
 
 
           {/* ===============================================
-              GALAXY NODES
+              NODES
           =============================================== */}
 
           {galaxyNodes.map(
-            (node) => (
+            (
+              node,
+            ) => (
               <Link
                 key={
                   node.id
@@ -367,7 +352,7 @@ export default function GalaxyAtlas() {
                   top:
                     `${node.y}%`,
                 }}
-                aria-label={`Enter ${node.title}: ${node.function}`}
+                aria-label={`Enter ${node.title}`}
               >
 
                 <SpiralGalaxy
@@ -394,13 +379,6 @@ export default function GalaxyAtlas() {
                     }
                   </small>
 
-                </span>
-
-
-                <span className="gx-node-function">
-                  {
-                    node.function
-                  }
                 </span>
 
               </Link>
@@ -473,10 +451,7 @@ export default function GalaxyAtlas() {
 
 
       {/* ==================================================
-          COMPONENT-SCOPED GLOBAL CSS
-
-          This deliberately overrides old generic HOME
-          sizing rules only inside the Galaxy Atlas.
+          CSS
       ================================================== */}
 
       <style jsx global>{`
@@ -486,17 +461,26 @@ export default function GalaxyAtlas() {
         ================================================== */
 
         .gx-page {
-          position: relative !important;
+          position:
+            relative !important;
 
-          isolation: isolate;
+          isolation:
+            isolate;
 
-          width: 100% !important;
+          width:
+            100% !important;
 
-          min-width: 0 !important;
+          min-width:
+            0 !important;
 
-          height: auto !important;
-          min-height: 0 !important;
-          max-height: none !important;
+          height:
+            auto !important;
+
+          min-height:
+            0 !important;
+
+          max-height:
+            none !important;
 
           margin:
             0
@@ -505,7 +489,7 @@ export default function GalaxyAtlas() {
           padding:
             clamp(
               8px,
-              1.5vw,
+              1.4vw,
               18px
             ) !important;
 
@@ -528,25 +512,28 @@ export default function GalaxyAtlas() {
         ================================================== */
 
         .gx-space {
-          position: absolute;
+          position:
+            absolute;
 
           inset:
             -10%;
 
-          z-index: -4;
+          z-index:
+            -5;
 
-          pointer-events: none;
+          pointer-events:
+            none;
 
           background:
             radial-gradient(
               ellipse
               at
               50%
-              46%,
+              48%,
               rgba(
-                125,
-                170,
-                220,
+                142,
+                182,
+                225,
                 0.055
               ),
               transparent
@@ -557,12 +544,12 @@ export default function GalaxyAtlas() {
               circle
               at
               18%
-              28%,
+              30%,
               rgba(
                 185,
-                215,
+                217,
                 245,
-                0.026
+                0.025
               ),
               transparent
               23%
@@ -571,11 +558,11 @@ export default function GalaxyAtlas() {
             radial-gradient(
               circle
               at
-              83%
-              65%,
+              82%
+              64%,
               rgba(
-                210,
-                225,
+                190,
+                220,
                 245,
                 0.02
               ),
@@ -585,12 +572,14 @@ export default function GalaxyAtlas() {
         }
 
 
-        .gx-space::after {
+        .gx-space::before {
           content: "";
 
-          position: absolute;
+          position:
+            absolute;
 
-          inset: 0;
+          inset:
+            0;
 
           opacity:
             0.28;
@@ -602,7 +591,7 @@ export default function GalaxyAtlas() {
                 255,
                 255,
                 255,
-                0.55
+                0.46
               )
               0
               0.55px,
@@ -611,15 +600,15 @@ export default function GalaxyAtlas() {
             );
 
           background-size:
-            52px
-            52px;
+            50px
+            50px;
 
           mask-image:
             radial-gradient(
               ellipse
               at center,
               black
-              25%,
+              24%,
               transparent
               90%
             );
@@ -629,7 +618,7 @@ export default function GalaxyAtlas() {
               ellipse
               at center,
               black
-              25%,
+              24%,
               transparent
               90%
             );
@@ -637,11 +626,12 @@ export default function GalaxyAtlas() {
 
 
         /* ==================================================
-           GLASS FRAME
+           GLASS CARD
         ================================================== */
 
         .gx-frame {
-          position: relative !important;
+          position:
+            relative !important;
 
           width:
             min(
@@ -677,7 +667,7 @@ export default function GalaxyAtlas() {
               255,
               255,
               255,
-              0.075
+              0.07
             );
 
           border-radius:
@@ -691,23 +681,23 @@ export default function GalaxyAtlas() {
             linear-gradient(
               145deg,
               rgba(
-                17,
-                19,
-                22,
+                18,
+                20,
+                23,
                 0.72
               ),
               rgba(
-                5,
                 6,
-                8,
-                0.84
+                7,
+                9,
+                0.86
               )
-              52%,
+              54%,
               rgba(
                 0,
                 0,
                 0,
-                0.95
+                0.96
               )
             );
 
@@ -736,12 +726,12 @@ export default function GalaxyAtlas() {
               255,
               255,
               255,
-              0.05
+              0.045
             ),
 
             0
-            30px
-            90px
+            28px
+            84px
             rgba(
               0,
               0,
@@ -757,13 +747,17 @@ export default function GalaxyAtlas() {
         .gx-frame::before {
           content: "";
 
-          position: absolute;
+          position:
+            absolute;
 
-          inset: 0;
+          inset:
+            0;
 
-          z-index: 0;
+          z-index:
+            0;
 
-          pointer-events: none;
+          pointer-events:
+            none;
 
           background:
             radial-gradient(
@@ -772,13 +766,13 @@ export default function GalaxyAtlas() {
               50%
               43%,
               rgba(
-                179,
-                217,
-                240,
+                185,
+                219,
+                239,
                 0.045
               ),
               transparent
-              29%
+              30%
             ),
 
             linear-gradient(
@@ -787,7 +781,7 @@ export default function GalaxyAtlas() {
                 255,
                 255,
                 255,
-                0.025
+                0.022
               ),
               transparent
               24%,
@@ -797,24 +791,24 @@ export default function GalaxyAtlas() {
                 255,
                 255,
                 255,
-                0.012
+                0.01
               )
             );
         }
 
 
         .gx-border {
-          position: absolute;
+          position:
+            absolute;
 
           inset:
             1px;
 
-          z-index: 1;
+          z-index:
+            1;
 
-          pointer-events: none;
-
-          border-radius:
-            inherit;
+          pointer-events:
+            none;
 
           border:
             1px solid
@@ -822,8 +816,11 @@ export default function GalaxyAtlas() {
               255,
               255,
               255,
-              0.018
+              0.017
             );
+
+          border-radius:
+            inherit;
         }
 
 
@@ -832,28 +829,32 @@ export default function GalaxyAtlas() {
         ================================================== */
 
         .gx-topbar {
-          position: relative;
+          position:
+            relative;
 
-          z-index: 5;
+          z-index:
+            5;
 
-          display: flex;
+          display:
+            flex;
 
-          align-items: center;
+          align-items:
+            center;
 
           justify-content:
             space-between;
 
           gap:
-            20px;
+            18px;
 
           padding:
-            22px
+            20px
             clamp(
-              22px,
+              20px,
               4vw,
-              46px
+              44px
             )
-            15px;
+            14px;
 
           border-bottom:
             1px solid
@@ -866,27 +867,29 @@ export default function GalaxyAtlas() {
         }
 
 
-        .gx-identity {
-          display: flex;
+        .gx-topbar-copy {
+          display:
+            flex;
 
           align-items:
             baseline;
 
           gap:
-            11px;
+            10px;
 
-          min-width: 0;
+          min-width:
+            0;
         }
 
 
-        .gx-identity
+        .gx-topbar-copy
         > span {
           color:
             rgba(
               185,
-              217,
-              235,
-              0.42
+              218,
+              236,
+              0.4
             );
 
           font-size:
@@ -900,7 +903,7 @@ export default function GalaxyAtlas() {
         }
 
 
-        .gx-identity
+        .gx-topbar-copy
         > strong {
           color:
             rgba(
@@ -915,16 +918,15 @@ export default function GalaxyAtlas() {
 
           font-weight:
             410;
-
-          letter-spacing:
-            0.02em;
         }
 
 
-        .gx-map-status {
-          display: flex;
+        .gx-topbar-state {
+          display:
+            flex;
 
-          align-items: center;
+          align-items:
+            center;
 
           gap:
             12px;
@@ -945,7 +947,7 @@ export default function GalaxyAtlas() {
         }
 
 
-        .gx-map-status
+        .gx-topbar-state
         > span {
           display:
             inline-flex;
@@ -958,7 +960,7 @@ export default function GalaxyAtlas() {
         }
 
 
-        .gx-map-status i {
+        .gx-topbar-state i {
           width:
             4px;
 
@@ -970,21 +972,21 @@ export default function GalaxyAtlas() {
 
           background:
             rgba(
-              135,
+              137,
               235,
-              190,
+              193,
               0.72
             );
 
           box-shadow:
             0
             0
-            10px
+            9px
             rgba(
-              135,
+              137,
               235,
-              190,
-              0.26
+              193,
+              0.28
             );
         }
 
@@ -994,16 +996,18 @@ export default function GalaxyAtlas() {
         ================================================== */
 
         .gx-intro {
-          position: relative;
+          position:
+            relative;
 
-          z-index: 4;
+          z-index:
+            4;
 
           width:
             min(
               620px,
               calc(
                 100% -
-                40px
+                36px
               )
             );
 
@@ -1012,9 +1016,9 @@ export default function GalaxyAtlas() {
             auto;
 
           padding:
-            25px
+            23px
             0
-            8px;
+            5px;
 
           text-align:
             center;
@@ -1025,10 +1029,10 @@ export default function GalaxyAtlas() {
         > span {
           color:
             rgba(
-              188,
-              220,
-              238,
-              0.35
+              186,
+              219,
+              237,
+              0.34
             );
 
           font-size:
@@ -1038,7 +1042,7 @@ export default function GalaxyAtlas() {
             650;
 
           letter-spacing:
-            0.23em;
+            0.22em;
         }
 
 
@@ -1058,16 +1062,16 @@ export default function GalaxyAtlas() {
 
           font-size:
             clamp(
-              25px,
-              3vw,
-              40px
+              24px,
+              2.7vw,
+              38px
             ) !important;
 
           font-weight:
             280;
 
           line-height:
-            1.03;
+            1.02;
 
           letter-spacing:
             -0.04em;
@@ -1085,16 +1089,16 @@ export default function GalaxyAtlas() {
             );
 
           margin:
-            14px
+            13px
             auto
             0;
 
           color:
             rgba(
-              218,
-              228,
+              217,
+              227,
               234,
-              0.35
+              0.34
             );
 
           font-size:
@@ -1111,14 +1115,16 @@ export default function GalaxyAtlas() {
         /* ==================================================
            MAP
 
-           Critical Windows/Edge stability:
-           one explicit coordinate space.
+           Fixed coordinate space.
+           This is the key to preventing Windows / Edge crush.
         ================================================== */
 
         .gx-map {
-          position: relative !important;
+          position:
+            relative !important;
 
-          z-index: 3;
+          z-index:
+            3;
 
           width:
             calc(
@@ -1126,31 +1132,25 @@ export default function GalaxyAtlas() {
               clamp(
                 24px,
                 5vw,
-                64px
+                62px
               )
             ) !important;
 
           min-width:
             0 !important;
 
-          /*
-           * Do not use 100dvh here.
-           *
-           * A stable pixel-clamped coordinate system avoids
-           * Windows Edge / display scaling compression.
-           */
           height:
             clamp(
-              500px,
-              49vw,
-              650px
+              480px,
+              46vw,
+              620px
             ) !important;
 
           min-height:
-            500px !important;
+            480px !important;
 
           max-height:
-            650px !important;
+            620px !important;
 
           margin:
             0
@@ -1172,19 +1172,29 @@ export default function GalaxyAtlas() {
         ================================================== */
 
         .gx-lines {
-          position: absolute !important;
+          position:
+            absolute !important;
 
-          inset: 0 !important;
+          inset:
+            0 !important;
 
-          z-index: 1;
+          z-index:
+            1;
 
-          display: block !important;
+          display:
+            block !important;
 
-          width: 100% !important;
-          height: 100% !important;
+          width:
+            100% !important;
 
-          max-width: none !important;
-          max-height: none !important;
+          height:
+            100% !important;
+
+          max-width:
+            none !important;
+
+          max-height:
+            none !important;
 
           overflow:
             visible !important;
@@ -1220,7 +1230,7 @@ export default function GalaxyAtlas() {
               255,
               255,
               255,
-              0.055
+              0.05
             );
 
           stroke-dasharray:
@@ -1232,7 +1242,7 @@ export default function GalaxyAtlas() {
         .gx-orbit.three {
           stroke:
             rgba(
-              170,
+              172,
               215,
               239,
               0.095
@@ -1252,7 +1262,8 @@ export default function GalaxyAtlas() {
 
 
         .gx-network {
-          fill: none;
+          fill:
+            none;
 
           stroke:
             rgba(
@@ -1288,11 +1299,12 @@ export default function GalaxyAtlas() {
 
 
         /* ==================================================
-           IMPERIAL / CORE
+           CENTRAL CORE
         ================================================== */
 
         .gx-imperial {
-          position: absolute;
+          position:
+            absolute;
 
           left:
             50%;
@@ -1305,9 +1317,9 @@ export default function GalaxyAtlas() {
 
           width:
             clamp(
-              118px,
-              14vw,
-              170px
+              116px,
+              13vw,
+              160px
             );
 
           aspect-ratio:
@@ -1334,14 +1346,14 @@ export default function GalaxyAtlas() {
           text-decoration:
             none;
 
-          overflow:
-            visible !important;
-
           max-width:
             none !important;
 
           max-height:
             none !important;
+
+          overflow:
+            visible !important;
         }
 
 
@@ -1356,7 +1368,7 @@ export default function GalaxyAtlas() {
             absolute;
 
           inset:
-            -44%;
+            -42%;
 
           border-radius:
             50%;
@@ -1365,10 +1377,10 @@ export default function GalaxyAtlas() {
             radial-gradient(
               circle,
               rgba(
-                185,
-                224,
+                184,
+                223,
                 245,
-                0.085
+                0.08
               ),
               transparent
               67%
@@ -1381,9 +1393,7 @@ export default function GalaxyAtlas() {
 
           transition:
             transform
-              0.5s ease,
-            opacity
-              0.5s ease;
+            0.45s ease;
         }
 
 
@@ -1397,7 +1407,7 @@ export default function GalaxyAtlas() {
           border:
             1px solid
             rgba(
-              200,
+              202,
               229,
               244,
               0.11
@@ -1410,9 +1420,9 @@ export default function GalaxyAtlas() {
             radial-gradient(
               circle,
               rgba(
-                172,
-                215,
-                239,
+                170,
+                216,
+                240,
                 0.06
               ),
               transparent
@@ -1450,10 +1460,10 @@ export default function GalaxyAtlas() {
                 255,
                 255,
                 255,
-                0.32
+                0.31
               ),
               rgba(
-                180,
+                179,
                 219,
                 240,
                 0.1
@@ -1471,7 +1481,7 @@ export default function GalaxyAtlas() {
           box-shadow:
             0
             0
-            32px
+            30px
             rgba(
               160,
               207,
@@ -1594,14 +1604,11 @@ export default function GalaxyAtlas() {
             clamp(
               13px,
               1.5vw,
-              18px
+              17px
             );
 
           font-weight:
             430;
-
-          letter-spacing:
-            -0.025em;
         }
 
 
@@ -1669,9 +1676,9 @@ export default function GalaxyAtlas() {
 
           width:
             clamp(
-              108px,
-              12vw,
-              152px
+              104px,
+              11vw,
+              144px
             );
 
           max-width:
@@ -1700,13 +1707,13 @@ export default function GalaxyAtlas() {
 
           transition:
             transform
-              0.42s
-              cubic-bezier(
-                0.22,
-                1,
-                0.36,
-                1
-              );
+            0.38s
+            cubic-bezier(
+              0.22,
+              1,
+              0.36,
+              1
+            );
         }
 
 
@@ -1729,25 +1736,25 @@ export default function GalaxyAtlas() {
 
           width:
             clamp(
-              58px,
-              6.6vw,
-              84px
+              56px,
+              6vw,
+              78px
             );
 
           aspect-ratio:
             1;
+
+          border-radius:
+            50%;
 
           flex:
             0
             0
             auto;
 
-          border-radius:
-            50%;
-
           transition:
             filter
-              0.35s ease;
+            0.3s ease;
         }
 
 
@@ -1756,7 +1763,7 @@ export default function GalaxyAtlas() {
             absolute;
 
           inset:
-            -30%;
+            -28%;
 
           border-radius:
             50%;
@@ -1765,7 +1772,7 @@ export default function GalaxyAtlas() {
             radial-gradient(
               circle,
               rgba(
-                165,
+                166,
                 211,
                 238,
                 0.09
@@ -1797,14 +1804,14 @@ export default function GalaxyAtlas() {
           height:
             7px;
 
-          border-radius:
-            50%;
-
           transform:
             translate(
               -50%,
               -50%
             );
+
+          border-radius:
+            50%;
 
           background:
             rgba(
@@ -1817,7 +1824,7 @@ export default function GalaxyAtlas() {
           box-shadow:
             0
             0
-            15px
+            14px
             rgba(
               205,
               235,
@@ -1963,28 +1970,24 @@ export default function GalaxyAtlas() {
           height:
             2px;
 
-          border-radius:
-            50%;
-
           transform:
             translate(
               -50%,
               -50%
             );
 
+          border-radius:
+            50%;
+
           background:
             rgba(
               255,
               255,
               255,
-              0.7
+              0.68
             );
         }
 
-
-        /* ==================================================
-           NODE LABEL
-        ================================================== */
 
         .gx-node-label {
           display:
@@ -2011,7 +2014,7 @@ export default function GalaxyAtlas() {
               244,
               248,
               250,
-              0.76
+              0.75
             );
 
           font-size:
@@ -2023,9 +2026,6 @@ export default function GalaxyAtlas() {
 
           font-weight:
             430;
-
-          letter-spacing:
-            -0.01em;
         }
 
 
@@ -2047,105 +2047,6 @@ export default function GalaxyAtlas() {
 
           line-height:
             1.35;
-        }
-
-
-        /* ==================================================
-           NODE FUNCTION
-           Progressive disclosure on desktop.
-        ================================================== */
-
-        .gx-node-function {
-          position:
-            absolute;
-
-          top:
-            calc(
-              100% +
-              9px
-            );
-
-          left:
-            50%;
-
-          z-index:
-            20;
-
-          width:
-            180px;
-
-          padding:
-            9px
-            10px;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.06
-            );
-
-          border-radius:
-            12px;
-
-          background:
-            rgba(
-              5,
-              7,
-              9,
-              0.78
-            );
-
-          color:
-            rgba(
-              220,
-              230,
-              236,
-              0.44
-            );
-
-          -webkit-backdrop-filter:
-            blur(
-              18px
-            );
-
-          backdrop-filter:
-            blur(
-              18px
-            );
-
-          font-size:
-            6px;
-
-          line-height:
-            1.55;
-
-          opacity:
-            0;
-
-          visibility:
-            hidden;
-
-          transform:
-            translateX(
-              -50%
-            )
-            translateY(
-              -3px
-            );
-
-          pointer-events:
-            none;
-
-          transition:
-            opacity
-              0.25s ease,
-            transform
-              0.25s ease,
-            visibility
-              0.25s ease;
         }
 
 
@@ -2173,24 +2074,23 @@ export default function GalaxyAtlas() {
             wrap;
 
           gap:
-            8px;
+            7px;
 
           width:
             min(
-              760px,
+              720px,
               calc(
                 100% -
-                40px
+                36px
               )
             );
 
           margin:
-            -2px
-            auto
-            0;
+            0
+            auto;
 
           padding:
-            12px
+            11px
             0;
 
           border-top:
@@ -2207,7 +2107,7 @@ export default function GalaxyAtlas() {
               255,
               255,
               255,
-              0.22
+              0.21
             );
 
           font-size:
@@ -2220,7 +2120,7 @@ export default function GalaxyAtlas() {
 
         .gx-system-line i {
           width:
-            12px;
+            10px;
 
           height:
             1px;
@@ -2270,9 +2170,9 @@ export default function GalaxyAtlas() {
             12px;
 
           padding:
-            8px
+            7px
             20px
-            25px;
+            24px;
         }
 
 
@@ -2341,7 +2241,7 @@ export default function GalaxyAtlas() {
 
 
         /* ==================================================
-           INTERACTION
+           HOVER
         ================================================== */
 
         @media (
@@ -2351,9 +2251,6 @@ export default function GalaxyAtlas() {
         ) {
 
           .gx-node:hover {
-            z-index:
-              30;
-
             transform:
               translate(
                 -50%,
@@ -2387,29 +2284,11 @@ export default function GalaxyAtlas() {
           }
 
 
-          .gx-node:hover
-          .gx-node-function {
-            opacity:
-              1;
-
-            visibility:
-              visible;
-
-            transform:
-              translateX(
-                -50%
-              )
-              translateY(
-                0
-              );
-          }
-
-
           .gx-imperial:hover
           .gx-imperial-halo {
             transform:
               scale(
-                1.08
+                1.07
               );
           }
 
@@ -2417,15 +2296,28 @@ export default function GalaxyAtlas() {
 
 
         /* ==================================================
-           WINDOWS / EDGE / DESKTOP RESILIENCE
-
-           HOME controls viewport sizing.
-           GalaxyAtlas controls only its internal map.
+           WINDOWS / EDGE / DESKTOP SAFETY
         ================================================== */
 
         @media (
           min-width: 769px
         ) {
+
+          .archenova-twin-home
+          #galaxy-atlas {
+            height:
+              auto !important;
+
+            min-height:
+              100svh !important;
+
+            max-height:
+              none !important;
+
+            overflow:
+              visible !important;
+          }
+
 
           .archenova-twin-home
           #galaxy-atlas
@@ -2435,9 +2327,6 @@ export default function GalaxyAtlas() {
 
             max-width:
               100% !important;
-
-            min-width:
-              0 !important;
 
             height:
               auto !important;
@@ -2495,23 +2384,13 @@ export default function GalaxyAtlas() {
 
           .gx-map {
             height:
-              clamp(
-                500px,
-                58vw,
-                590px
-              ) !important;
-          }
+              520px !important;
 
+            min-height:
+              520px !important;
 
-          .gx-node {
-            width:
-              112px;
-          }
-
-
-          .gx-node-function {
-            display:
-              none;
+            max-height:
+              520px !important;
           }
 
         }
@@ -2520,26 +2399,54 @@ export default function GalaxyAtlas() {
         /* ==================================================
            MOBILE
 
-           Preserve original six-node composition,
-           but expand vertically instead of compressing it.
+           Full card visibility has priority.
         ================================================== */
 
         @media (
           max-width: 768px
         ) {
 
-          .gx-page {
-            width:
-              100% !important;
+          .archenova-twin-home
+          #galaxy-atlas {
+            height:
+              auto !important;
 
-            max-width:
-              100% !important;
+            min-height:
+              auto !important;
+
+            max-height:
+              none !important;
 
             padding:
-              6px !important;
+              70px
+              8px
+              78px !important;
 
             overflow:
               visible !important;
+          }
+
+
+          .archenova-twin-home
+          #galaxy-atlas
+          > .gx-page {
+            height:
+              auto !important;
+
+            min-height:
+              0 !important;
+
+            max-height:
+              none !important;
+
+            overflow:
+              visible !important;
+          }
+
+
+          .gx-page {
+            padding:
+              4px !important;
           }
 
 
@@ -2550,6 +2457,15 @@ export default function GalaxyAtlas() {
             max-width:
               100% !important;
 
+            height:
+              auto !important;
+
+            min-height:
+              0 !important;
+
+            max-height:
+              none !important;
+
             border-radius:
               22px;
           }
@@ -2557,13 +2473,13 @@ export default function GalaxyAtlas() {
 
           .gx-topbar {
             padding:
-              18px
-              16px
-              13px;
+              17px
+              15px
+              12px;
           }
 
 
-          .gx-identity {
+          .gx-topbar-copy {
             flex-direction:
               column;
 
@@ -2571,18 +2487,18 @@ export default function GalaxyAtlas() {
               flex-start;
 
             gap:
-              4px;
+              3px;
           }
 
 
-          .gx-identity
+          .gx-topbar-copy
           > strong {
             font-size:
               8px;
           }
 
 
-          .gx-map-status
+          .gx-topbar-state
           > span:last-child {
             display:
               none;
@@ -2593,20 +2509,22 @@ export default function GalaxyAtlas() {
             width:
               calc(
                 100% -
-                30px
+                28px
               );
 
-            padding-top:
-              21px;
+            padding:
+              20px
+              0
+              4px;
           }
 
 
           .gx-intro h2 {
             font-size:
               clamp(
-                25px,
+                24px,
                 8vw,
-                34px
+                33px
               ) !important;
           }
 
@@ -2614,7 +2532,7 @@ export default function GalaxyAtlas() {
           .gx-intro p {
             width:
               min(
-                310px,
+                300px,
                 100%
               );
 
@@ -2628,23 +2546,20 @@ export default function GalaxyAtlas() {
               100% !important;
 
             height:
-              600px !important;
+              580px !important;
 
             min-height:
-              600px !important;
+              580px !important;
 
             max-height:
-              600px !important;
+              580px !important;
 
             overflow:
               hidden !important;
           }
 
 
-          /*
-           * Vertical mobile map.
-           * Avoid squeezing desktop coordinates.
-           */
+          /* Mobile galaxy layout */
 
           .gx-node-governance {
             left:
@@ -2701,26 +2616,23 @@ export default function GalaxyAtlas() {
 
 
           .gx-imperial {
-            left:
-              50%;
+            width:
+              112px;
 
             top:
               52%;
-
-            width:
-              116px;
           }
 
 
           .gx-node {
             width:
-              96px;
+              92px;
           }
 
 
           .gx-galaxy {
             width:
-              53px;
+              50px;
           }
 
 
@@ -2738,24 +2650,18 @@ export default function GalaxyAtlas() {
           }
 
 
-          .gx-node-function {
-            display:
-              none;
-          }
-
-
           .gx-system-line {
             width:
               calc(
                 100% -
-                28px
+                24px
               );
 
             gap:
-              5px;
+              4px;
 
             padding:
-              11px
+              10px
               0;
           }
 
@@ -2769,13 +2675,13 @@ export default function GalaxyAtlas() {
 
           .gx-system-line i {
             width:
-              6px;
+              5px;
           }
 
 
           .gx-bottom {
             padding-bottom:
-              20px;
+              19px;
           }
 
 
@@ -2800,31 +2706,31 @@ export default function GalaxyAtlas() {
 
           .gx-map {
             height:
-              570px !important;
+              550px !important;
 
             min-height:
-              570px !important;
+              550px !important;
 
             max-height:
-              570px !important;
+              550px !important;
           }
 
 
           .gx-node {
             width:
-              88px;
+              86px;
           }
 
 
           .gx-galaxy {
             width:
-              49px;
+              47px;
           }
 
 
           .gx-imperial {
             width:
-              108px;
+              104px;
           }
 
 
@@ -2836,14 +2742,26 @@ export default function GalaxyAtlas() {
 
 
           .gx-system-line {
-            gap:
+            display:
+              grid;
+
+            grid-template-columns:
+              repeat(
+                3,
+                auto
+              );
+
+            justify-content:
+              center;
+
+            row-gap:
               4px;
           }
 
 
           .gx-system-line i {
-            width:
-              4px;
+            display:
+              none;
           }
 
         }
@@ -2860,8 +2778,7 @@ export default function GalaxyAtlas() {
 
           .gx-node,
           .gx-galaxy,
-          .gx-imperial-halo,
-          .gx-node-function {
+          .gx-imperial-halo {
             transition:
               none !important;
           }
