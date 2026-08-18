@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-18T11:27:11.757Z",
+  "updated": "2026-08-18T12:50:39.910Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Aerial imagery maps hurricane wind damage and shows stronger building codes work",
+      "url": "https://phys.org/news/2026-08-aerial-imagery-hurricane-stronger-codes.html",
+      "summary": "Massive storms like Hurricane Katrina in 2005, which caused more than $100 billion in damage, were once considered lifetime events. Increasingly, however, they are becoming the norm: a direct result of climate change, wh…",
+      "ts": 1787056803000,
+      "publishedAt": "2026-08-18T12:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Distinct neurons drive mice's social sounds and squeaks",
+      "url": "https://phys.org/news/2026-08-distinct-neurons-mice-social.html",
+      "summary": "Mice use almost completely distinct sets of neurons for their two different types of vocalizations—the squeaks they produce when in distress or fighting and the whistle-like ultrasonic vocalizations they use when communi…",
+      "ts": 1787056801000,
+      "publishedAt": "2026-08-18T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ruby-forming mineral found by Mars rover hints at violent impacts",
+      "url": "https://phys.org/news/2026-08-ruby-mineral-mars-rover-hints.html",
+      "summary": "So far, most of the minerals found on Mars tell a story of lava poured out by ancient volcanoes, followed by long stretches in which water trickled through and slowly reshaped the rock. However, some rocks scattered acro…",
+      "ts": 1787056201000,
+      "publishedAt": "2026-08-18T12:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Caregivers are active agents in their infants' learning, but interactions differ across cultures",
+      "url": "https://phys.org/news/2026-08-caregivers-agents-infants-interactions-differ.html",
+      "summary": "A baby sits on the floor and reaches toward a red ball on the floor and grunts. The mother responds, \"Do you see the ball?\" She picks it up, holds it in front of the baby and says, \"Do you want to hold the ball?\" The bab…",
+      "ts": 1787055601000,
+      "publishedAt": "2026-08-18T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nuking an asteroid on short notice could save us",
+      "url": "https://phys.org/news/2026-08-nuking-asteroid-short.html",
+      "summary": "Readers of a certain age will remember a golden era of asteroid films, capped by two with very different endings. \"Deep Impact\" drove home the devastating consequences of letting a large piece of rock hit our planet, whe…",
+      "ts": 1787054409000,
+      "publishedAt": "2026-08-18T12:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new approach to building noise-resistant quantum sensors",
+      "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html",
+      "summary": "Quantum sensors, devices that collect measurements by exploiting quantum-mechanical phenomena, could potentially detect extremely weak magnetic, gravitational and electromagnetic signals with greater sensitivity than cla…",
+      "ts": 1787054407000,
+      "publishedAt": "2026-08-18T12:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soot spikes from traffic and holiday bonfires emerge in Addis Ababa air record",
+      "url": "https://phys.org/news/2026-08-soot-spikes-traffic-holiday-bonfires.html",
+      "summary": "An air pollution monitoring network has provided one of the most detailed long-term views yet of the role of black carbon, or soot produced by fires, diesel vehicles and other combustion sources, in Ethiopia's capital, A…",
+      "ts": 1787053201000,
+      "publishedAt": "2026-08-18T11:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "School's back, stress doesn't have to be",
@@ -743,62 +799,6 @@
       "title": "Unravelling carbene moiety role in the N-heterocyclic carbene-phosphinidenes coordination chemistry: bonding and reactivity in gold chemistry",
       "url": "https://arxiv.org/abs/2608.16472",
       "summary": "arXiv:2608.16472v1 Announce Type: new Abstract: The coordination properties of the emerging class of N-heterocyclic carbene-phosphinidene (NHCP) ligands have been reported to be strongly affected by the carbene (NHC) moi…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-Driven Reconstruction of Spatially Resolved Electron and Ion Energy Distributions from Macroscopic Plasma Quantities with Deep Neural Networks",
-      "url": "https://arxiv.org/abs/2608.16519",
-      "summary": "arXiv:2608.16519v1 Announce Type: new Abstract: Spatially resolved EEDFs/IEDFs provide essential kinetic information about low-temperature plasmas (LTPs) and play a central role in determining transport, chemical reactio…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collision efficiency of rapidly settling particle pairs in a turbulent flow",
-      "url": "https://arxiv.org/abs/2608.16528",
-      "summary": "arXiv:2608.16528v1 Announce Type: new Abstract: We investigate the collision dynamics of hydrodynamically interacting inertialess spherical particle pairs sedimenting in a homogeneous isotropic turbulent flow. The analys…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Aligned Deep Learning Enables SERS Resolving and Sequencing of Dynamic Single-Molecule DNA Oligomers in Plasmonic Nanocavity",
-      "url": "https://arxiv.org/abs/2608.16576",
-      "summary": "arXiv:2608.16576v1 Announce Type: new Abstract: Single-molecule surface-enhanced Raman spectroscopy (SM-SERS) captures dynamic molecular behavior with ultrahigh sensitivity, but its biopolymer analysis is hindered by str…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Differential-Embedding Reconstruction of Dynamical Systems from Scalar Time Series",
-      "url": "https://arxiv.org/abs/2608.16583",
-      "summary": "arXiv:2608.16583v1 Announce Type: new Abstract: We study the reconstruction of an unknown dynamical system from a single noisy scalar time series. The goal is to recover the underlying dynamics for forecasting. We introd…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Complete O(3) Interactions from Wigner-6j Recoupling to Local O(2) Frames",
-      "url": "https://arxiv.org/abs/2608.16592",
-      "summary": "arXiv:2608.16592v1 Announce Type: new Abstract: Equivariant atomistic models commonly use either Clebsch Gordan tensor product(CGTP) or edge aligned SO(2) operationsCGTP support general O(3) representations but become ex…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Engineering Polarization Switching in VCSELs with Custom Aperture Shapes",
-      "url": "https://arxiv.org/abs/2608.16597",
-      "summary": "arXiv:2608.16597v1 Announce Type: new Abstract: We experimentally fabricate and measure vertical-cavity surface-emitting lasers (VCSELs) with custom aperture shapes, demonstrating predictable polarization control and swi…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Declining Modularity of Intellectual Bases During the Emergence of Research Areas",
-      "url": "https://arxiv.org/abs/2608.16602",
-      "summary": "arXiv:2608.16602v1 Announce Type: new Abstract: Understanding how research areas emerge can help identify nascent areas early and inform research strategy, yet how the intellectual base of a field restructures as an area…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
