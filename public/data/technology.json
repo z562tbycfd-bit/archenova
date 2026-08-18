@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-18T16:33:43.983Z",
+  "updated": "2026-08-18T17:29:19.751Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Leaders of Mass General, Dana-Farber among hospital execs who got big raises in 2024",
+      "url": "https://www.statnews.com/2026/08/18/massachusetts-hospital-ceo-compensation-2024/?utm_campaign=rss",
+      "summary": "Top executives of major health systems got substantial raises, even as their hospitals grappled with plenty of challenges.",
+      "ts": 1787073988000,
+      "publishedAt": "2026-08-18T17:26:28.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA’s B777 Gets New Coat of Paint",
@@ -109,6 +118,42 @@
       "ts": 1787054400000,
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Colombia earthquake: UN ramps up aid for 100,000 people",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168161",
+      "summary": "The UN is scaling up humanitarian assistance in western Colombia as needs continue to grow following last week’s devastating 7.4-magnitude earthquake, according to the latest update released on Tuesday.",
+      "ts": 1787054400000,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza: Only three per cent of cropland available to grow food",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168160",
+      "summary": "Amid ongoing deadly hostilities in Gaza, the enclave’s farmers face the increasingly difficult challenge of finding safe land to grow their crops.",
+      "ts": 1787054400000,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Singapore: Independent rights experts urge immediate end to ‘unlawful use’ of death penalty",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168159",
+      "summary": "Independent UN Human Rights Council-appointed experts on Tuesday condemned the execution of at least 16 people in Singapore for drug-related offences this year and urged the country to end its “continued and unlawful use…",
+      "ts": 1787054400000,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Drone strikes and political impasse in Libya",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168158",
+      "summary": "As Libya faces a political impasse delaying long-planned elections alongside clashes and drone strikes that left a major oil refinery ablaze, the Security Council heard the latest updates, with an activist warning that t…",
+      "ts": 1787054400000,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -765,51 +810,6 @@
       "summary": "The University of Rhode Island $1.5 million grant is part of a $9 million five-year Transatlantic Networks of Excellence grant from the Leducq Foundation. The initiative is known as TRAFFIC. The post University of Rhode …",
       "ts": 1786989618000,
       "publishedAt": "2026-08-17T18:00:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Next Generation of Planetary Scientists Learn Public Engagement Skills",
-      "url": "https://science.nasa.gov/learning-resources/science-activation/next-generation-of-planetary-scientists-learn-public-engagement-skills/",
-      "summary": "FORCE is a world-class laboratory that uses high-pressure experimental equipment to recreate the extreme conditions found deep within Earth and other planetary bodies, enabling researchers to better understand how planet…",
-      "ts": 1786989162000,
-      "publishedAt": "2026-08-17T17:52:42.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Microbiome Field Enters Its Next Chapter",
-      "url": "https://www.genengnews.com/topics/omics/the-microbiome-field-enters-its-next-chapter/",
-      "summary": "New analytical tools and microbiome-based therapies are pushing the field beyond early hype toward clinical and scientific progress. The post The Microbiome Field Enters Its Next Chapter appeared first on GEN - Genetic E…",
-      "ts": 1786987851000,
-      "publishedAt": "2026-08-17T17:30:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Rewriting Disease: Oligonucleotides Take Aim at the Untreatable",
-      "url": "https://www.genengnews.com/topics/drug-discovery/rewriting-disease-oligonucleotides-take-aim-at-the-untreatable/",
-      "summary": "How synthetic DNA and RNA are becoming the discovery engines behind a new generation of precision therapies. The post Rewriting Disease: Oligonucleotides Take Aim at the Untreatable appeared first on GEN - Genetic Engine…",
-      "ts": 1786986795000,
-      "publishedAt": "2026-08-17T17:13:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Human Cell Atlas at 10: A Decade of Discovery and the Road to HCA 2.0",
-      "url": "https://www.genengnews.com/topics/omics/human-cell-atlas-at-10-a-decade-of-discovery-and-the-road-to-hca-2-0/",
-      "summary": "Marking its 10th anniversary, the Human Cell Atlas reflects on a decade of breakthroughs while charting an ambitious course for the next decade. GEN's Julianna LeMieux, PhD, spoke with Holger Heyn, PhD, ICREA professor a…",
-      "ts": 1786985794000,
-      "publishedAt": "2026-08-17T16:56:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Pharma Races to Scale AI as Billions Flow into Drug Discovery",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery-2/",
-      "summary": "Investors unpack what it takes to succeed in an increasingly crowded AI biology ecosystem. The post Pharma Races to Scale AI as Billions Flow into Drug Discovery appeared first on GEN - Genetic Engineering and Biotechnol…",
-      "ts": 1786985032000,
-      "publishedAt": "2026-08-17T16:43:52.000Z",
       "categoryId": "bio"
     }
   ],
