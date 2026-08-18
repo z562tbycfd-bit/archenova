@@ -7401,6 +7401,43 @@ p {
 
 }
 
+/* ==========================================================
+   SELECTED SYSTEM CLOSE BUTTON
+   Optical centering fix
+========================================================== */
+
+.an-search__detail-head button {
+  display: grid !important;
+  place-items: center !important;
+
+  padding: 0 !important;
+
+  line-height: 1 !important;
+
+  text-align: center !important;
+}
+
+
+.an-search__detail-head button {
+  font-size: 0 !important;
+}
+
+
+.an-search__detail-head button::before {
+  content: "×";
+
+  display: block;
+
+  font-size: 18px;
+  font-weight: 300;
+
+  line-height: 1;
+
+  transform: translateY(-1px);
+
+  color: inherit;
+}
+
      `}</style>
 
    </section>
