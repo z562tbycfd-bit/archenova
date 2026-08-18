@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-18T10:30:25.857Z",
+  "updated": "2026-08-18T11:27:11.757Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "School's back, stress doesn't have to be",
+      "url": "https://phys.org/news/2026-08-school-stress-doesnt.html",
+      "summary": "Going back to school can be an exciting time for students from elementary school through college, whether it's finding the perfect outfit to wear on the first day, returning to campus or filling a chalkboard with career …",
+      "ts": 1787052003000,
+      "publishedAt": "2026-08-18T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Ecological engineers' an existential threat to wildlife of iconic wetland",
+      "url": "https://phys.org/news/2026-08-ecological-existential-threat-wildlife-iconic.html",
+      "summary": "A study examining how feral water buffalo interact with landscapes has uncovered the pest's disastrous impacts on northern long-necked turtles in the Top End's tropical wetlands.",
+      "ts": 1787050801000,
+      "publishedAt": "2026-08-18T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How body size and habitat shape the vocal repertoires of primates",
@@ -783,22 +799,6 @@
       "title": "Declining Modularity of Intellectual Bases During the Emergence of Research Areas",
       "url": "https://arxiv.org/abs/2608.16602",
       "summary": "arXiv:2608.16602v1 Announce Type: new Abstract: Understanding how research areas emerge can help identify nascent areas early and inform research strategy, yet how the intellectual base of a field restructures as an area…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sublime Transfer Printing of Three-Dimensional Nanostructure Ensembles",
-      "url": "https://arxiv.org/abs/2608.16604",
-      "summary": "arXiv:2608.16604v1 Announce Type: new Abstract: High-resolution three-dimensional (3D) nanostructures for visible-light photon manipulation provide unique and bespoke capabilities in optics and photonics. However subwave…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modelling of Flowing Plasma in the Magnetic Field of the Small Volume Plasma System Experiment",
-      "url": "https://arxiv.org/abs/2608.16624",
-      "summary": "arXiv:2608.16624v1 Announce Type: new Abstract: A flow model for a magnetized plasma has been developed to investigate the flow dynamics in the small volume plasma system (SVPS) experiment. The SVPS experimental conditio…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }

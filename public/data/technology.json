@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-18T10:30:27.891Z",
+  "updated": "2026-08-18T11:27:14.198Z",
   "items": [
     {
       "source": "ESA",
@@ -10,6 +10,42 @@
       "ts": 1787058000000,
       "publishedAt": "2026-08-18T13:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Amylyx endocrine drug succeeds in pivotal study",
+      "url": "https://www.statnews.com/2026/08/18/amylyx-endocrine-drug-succeeds-in-pivotal-study-avexitide-bariatric-surgery-patients/?utm_campaign=rss",
+      "summary": "In a Phase 3 trial of people with post-bariatric hypoglycemia, those taking the drug, avexitide, experienced a 55% reduction in the rate of serious low blood sugar events compared with…",
+      "ts": 1787050860000,
+      "publishedAt": "2026-08-18T11:01:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "ts": 1787050800000,
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "url": "https://openai.com/index/introducing-chatgpt-for-teens",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "ts": 1787050800000,
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "We still don’t know how people are really using AI",
+      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent …",
+      "ts": 1787047603000,
+      "publishedAt": "2026-08-18T10:06:43.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -34,6 +70,15 @@
       "title": "The role of the astronaut is in flux",
       "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
       "summary": "When the four astronauts on board NASA’s Artemis II swung around the moon earlier this year, they set a new record for the farthest humans have ever ventured from Earth, surpassing the distance set by Apollo 13 in 1972 b…",
+      "ts": 1787043600000,
+      "publishedAt": "2026-08-18T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI’s recursive self-improvement might not come so quickly after all",
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips…",
       "ts": 1787043600000,
       "publishedAt": "2026-08-18T09:00:00.000Z",
       "categoryId": "ai-compute"
@@ -462,6 +507,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "Best practices for measuring the performance and stability of indoor photovoltaic devices",
+      "url": "https://www.nature.com/articles/s41560-026-02101-x",
+      "summary": "",
+      "ts": 1787011200000,
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "Curiosity Blog, Sols 4975-4981: Happy 14th Landing Anniversary",
       "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
@@ -757,60 +811,6 @@
       "ts": 1786968000000,
       "publishedAt": "2026-08-17T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Qusra siege eases as UN reaches trapped families, but crisis deepens in Gaza",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168155",
-      "summary": "Humanitarian workers have reached Palestinian families who had been trapped for days by Israeli settlers in Qusra village in the northern West Bank, the UN said on Monday, as officials warned that the standoff must not b…",
-      "ts": 1786968000000,
-      "publishedAt": "2026-08-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ebola outbreak becomes deadliest in DR Congo’s history",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168154",
-      "summary": "The Ebola Bundibugyo outbreak in the Democratic Republic of the Congo (DRC) is now the deadliest the country has ever faced, the UN’s World Health Organization (WHO) said on Monday.",
-      "ts": 1786968000000,
-      "publishedAt": "2026-08-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Yemen: Türk alarmed by rising civilian toll, urges restraint",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168151",
-      "summary": "Escalating conflict in Yemen is killing and injuring a growing number of civilians, the UN human rights chief warned on Monday, as Houthi rebels also strike Saudi Arabia and Red Sea shipping linked to the wider Iran–US c…",
-      "ts": 1786968000000,
-      "publishedAt": "2026-08-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "A rocket crashed into the moon. It was harmless, but the next one might not be.",
-      "url": "https://spacenews.com/a-rocket-crashed-into-the-moon-it-was-harmless-but-the-next-one-might-not-be/",
-      "summary": "Earlier this month, a discarded SpaceX Falcon 9 upper stage crashed into the lunar surface at 8,700 kilometers per hour. This was not a controlled landing. The stage had been […] The post A rocket crashed into the moon. …",
-      "ts": 1786964400000,
-      "publishedAt": "2026-08-17T11:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Long March 12 launches despite recent 7A failure, Long March 2C launches satellite for UAE",
-      "url": "https://spacenews.com/long-march-12-launches-despite-recent-7a-failure-long-march-2c-launches-satellite-for-uae/",
-      "summary": "HELSINKI — China launched a new batch of Guowang megaconstellation satellites over the weekend, following up with a separate launch of a developmental satellite for the UAE. The launch of […] The post Long March 12 launc…",
-      "ts": 1786960575000,
-      "publishedAt": "2026-08-17T09:56:15.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Malaria-Causing Plasmodium in Uganda Show Rapid Spread of Drug Resistance Mutations",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/malaria-causing-plasmodium-in-uganda-show-rapid-spread-of-drug-resistance-mutations/",
-      "summary": "Researchers identified rapidly spreading genetic mutations in Ugandan malaria parasites linked to reduced susceptibility to artemisinin, lumefantrine, and mefloquine, offering new markers for resistance surveillance. The…",
-      "ts": 1786957234000,
-      "publishedAt": "2026-08-17T09:00:34.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
