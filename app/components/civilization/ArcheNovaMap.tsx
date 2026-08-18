@@ -59,10 +59,13 @@ type ArcheNovaNode = {
 
 
 type MapNodeStyle =
- CSSProperties & {
-   "--an-search-x": string;
-   "--an-search-y": string;
- };
+  CSSProperties & {
+    "--an-search-x": string;
+    "--an-search-y": string;
+
+    "--an-search-open-x": string;
+    "--an-search-open-y": string;
+  };
 
 
 /* ==========================================================
@@ -822,6 +825,56 @@ function normalize(
    .trim();
 }
 
+/* ==========================================================
+  EXPANDED NODE
+========================================================== */
+
+
+function getExpandedX(
+  x:
+    number,
+) {
+  const center =
+    50;
+
+  const distance =
+    x -
+    center;
+
+  return Math.max(
+    5,
+    Math.min(
+      95,
+      center +
+        distance *
+          1.18,
+    ),
+  );
+}
+
+
+function getExpandedY(
+  y:
+    number,
+) {
+  const center =
+    52;
+
+  const distance =
+    y -
+    center;
+
+  return Math.max(
+    7,
+    Math.min(
+      93,
+      center +
+        distance *
+          1.08,
+    ),
+  );
+}
+
 
 /* ==========================================================
   COMPONENT
@@ -1368,14 +1421,29 @@ export default function ArcheNovaMap() {
                       node.id,
                     );
 
-                  const style:
-                    MapNodeStyle = {
-                    "--an-search-x":
-                      `${node.x}%`,
+                  const expandedX =
+  5 +
+  node.x * 0.9;
 
-                    "--an-search-y":
-                      `${node.y}%`,
-                  };
+const expandedY =
+  4 +
+  node.y * 0.92;
+
+
+const style:
+  MapNodeStyle = {
+  "--an-search-x":
+    `${node.x}%`,
+
+  "--an-search-y":
+    `${node.y}%`,
+
+  "--an-search-open-x":
+    `${getExpandedX(node.x)}%`,
+
+  "--an-search-open-y":
+    `${getExpandedY(node.y)}%`,
+};
 
 
                   return (
@@ -4807,6 +4875,1538 @@ p {
          }
 
        }
+
+       /* ==========================================================
+   FINAL LAYOUT OVERRIDE
+   HOME-INTEGRATED / DESKTOP + MOBILE
+========================================================== */
+
+/* ----------------------------------------------------------
+   ROOT
+   ArcheNovaMap does not create another outer card.
+---------------------------------------------------------- */
+
+.an-search {
+  width: 100% !important;
+  max-width: none !important;
+
+  height: 100% !important;
+  min-height: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   REMOVE SECOND SURFACE
+---------------------------------------------------------- */
+
+.an-search__surface {
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  overflow: hidden !important;
+}
+
+
+.an-search__surface::before {
+  display: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   INTERNAL STRUCTURE
+---------------------------------------------------------- */
+
+.an-search__workspace {
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  overflow: hidden !important;
+}
+
+
+.an-search__field {
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  overflow: hidden !important;
+}
+
+
+.an-search__canvas {
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  overflow: hidden !important;
+}
+
+
+/* ----------------------------------------------------------
+   NO EXTRA FRAME
+---------------------------------------------------------- */
+
+.an-search__header,
+.an-search__search-row,
+.an-search__sidebar,
+.an-search__field,
+.an-search__canvas,
+.an-search__footer {
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .an-search {
+    height: 100% !important;
+    min-height: 620px !important;
+  }
+
+
+  .an-search__surface {
+    grid-template-rows:
+      64px
+      58px
+      minmax(0, 1fr)
+      38px !important;
+  }
+
+
+  .an-search__workspace {
+    grid-template-columns:
+      176px
+      minmax(0, 1fr) !important;
+  }
+
+
+  .an-search__workspace.has-selection {
+    grid-template-columns:
+      176px
+      minmax(0, 1fr)
+      270px !important;
+  }
+
+
+  .an-search__canvas {
+    min-height: 0 !important;
+  }
+
+
+  /*
+   * The HOME container owns the visual glass.
+   * Search itself stays transparent.
+   */
+
+  .an-search__sidebar {
+    background:
+      rgba(
+        0,
+        0,
+        0,
+        0.025
+      ) !important;
+  }
+
+
+  .an-search__detail {
+    background:
+      linear-gradient(
+        160deg,
+        rgba(12, 13, 15, 0.40),
+        rgba(0, 0, 0, 0.52)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(22px)
+      saturate(105%);
+
+    backdrop-filter:
+      blur(22px)
+      saturate(105%);
+  }
+
+}
+
+
+/* ==========================================================
+   TABLET / MEDIUM PC
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-width: 1180px) {
+
+  .an-search__workspace {
+    grid-template-columns:
+      145px
+      minmax(0, 1fr) !important;
+  }
+
+
+  .an-search__workspace.has-selection {
+    grid-template-columns:
+      145px
+      minmax(0, 1fr)
+      220px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Do not inherit a desktop fixed canvas.
+   */
+
+  .an-search {
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    overflow: visible !important;
+  }
+
+
+  .an-search__surface {
+    display: grid !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    min-height: 0 !important;
+
+    grid-template-rows:
+      52px
+      58px
+      auto !important;
+
+    overflow: visible !important;
+  }
+
+
+  /* --------------------------------------------------------
+     HEADER
+  -------------------------------------------------------- */
+
+  .an-search__header {
+    min-height: 52px;
+
+    padding:
+      0
+      18px !important;
+  }
+
+
+  .an-search__identity {
+    gap: 8px;
+  }
+
+
+  .an-search__identity span,
+  .an-search__identity small {
+    display: none !important;
+  }
+
+
+  .an-search__identity strong {
+    font-size: 12px !important;
+
+    letter-spacing: 0.18em;
+  }
+
+
+  .an-search__status {
+    font-size: 6px !important;
+  }
+
+
+  .an-search__status small {
+    display: none !important;
+  }
+
+
+  /* --------------------------------------------------------
+     SEARCH
+  -------------------------------------------------------- */
+
+  .an-search__search-row {
+    min-height: 58px;
+
+    padding:
+      8px
+      14px !important;
+  }
+
+
+  .an-search__search {
+    width: 100% !important;
+
+    min-height: 42px !important;
+
+    border-radius: 14px !important;
+  }
+
+
+  .an-search__search input {
+    font-size: 8px !important;
+  }
+
+
+  .an-search__reset {
+    display: none !important;
+  }
+
+
+  /* --------------------------------------------------------
+     WORKSPACE
+  -------------------------------------------------------- */
+
+  .an-search__workspace,
+  .an-search__workspace.has-selection,
+  .an-search__workspace.no-selection {
+    position: relative !important;
+
+    display: block !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    min-height: 0 !important;
+
+    overflow: visible !important;
+  }
+
+
+  .an-search__sidebar {
+    display: none !important;
+  }
+
+
+  /* --------------------------------------------------------
+     FIELD
+  -------------------------------------------------------- */
+
+  .an-search__field {
+    display: grid !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    min-height: 0 !important;
+
+    grid-template-rows:
+      74px
+      auto
+      auto !important;
+
+    overflow: visible !important;
+  }
+
+
+  .an-search__field-head {
+    min-height: 74px;
+
+    padding:
+      16px
+      18px !important;
+  }
+
+
+  .an-search__field-head div {
+    gap: 7px;
+  }
+
+
+  .an-search__field-head span {
+    font-size: 5px !important;
+
+    letter-spacing: 0.18em;
+  }
+
+
+  .an-search__field-head strong {
+    font-size: 9px !important;
+
+    line-height: 1.3;
+  }
+
+
+  .an-search__field-head small {
+    display: none !important;
+  }
+
+
+  /* ========================================================
+     MOBILE NODE FIELD
+
+     The key fix:
+     absolute coordinates become a clean 3-column system.
+  ======================================================== */
+
+  .an-search__canvas {
+    position: relative !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(0, 1fr)
+      ) !important;
+
+    grid-auto-rows:
+      76px !important;
+
+    gap:
+      4px
+      4px !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    min-height: 0 !important;
+
+    padding:
+      22px
+      12px
+      26px !important;
+
+    overflow: hidden !important;
+
+    align-items: center;
+  }
+
+
+  /*
+   * Background atmosphere remains.
+   */
+
+  .an-search__nebula {
+    position: absolute !important;
+
+    inset: 0 !important;
+
+    z-index: 0;
+  }
+
+
+  /*
+   * SVG stays behind the systems.
+   *
+   * Desktop branch geometry does not correspond to
+   * grid positions, therefore hide it on mobile.
+   * Connected systems are still highlighted.
+   */
+
+  .an-search__connections {
+    display: none !important;
+  }
+
+
+  /* --------------------------------------------------------
+     NODE
+  -------------------------------------------------------- */
+
+  .an-search-node {
+    position: relative !important;
+
+    left: auto !important;
+    top: auto !important;
+
+    z-index: 5;
+
+    width: 100% !important;
+    height: 58px !important;
+
+    min-width: 0 !important;
+    min-height: 58px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    gap: 7px !important;
+
+    padding:
+      7px
+      5px !important;
+
+    transform: none !important;
+
+    border: 0 !important;
+
+    background: transparent !important;
+
+    overflow: hidden;
+  }
+
+
+  /*
+   * Disable the old attribute-based edge corrections.
+   */
+
+  .an-search-node[style*="14%"],
+  .an-search-node[style*="13%"],
+  .an-search-node[style*="15%"],
+  .an-search-node[style*="84%"],
+  .an-search-node[style*="85%"] {
+    left: auto !important;
+  }
+
+
+  .an-search-node:hover {
+    transform: none !important;
+  }
+
+
+  .an-search-node__star {
+    flex:
+      0
+      0
+      15px !important;
+
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+
+  .an-search-node__star::before {
+    width: 13px !important;
+  }
+
+
+  .an-search-node__star::after {
+    height: 13px !important;
+  }
+
+
+  .an-search-node__star i {
+    width: 4px !important;
+    height: 4px !important;
+  }
+
+
+  .an-search-node__copy {
+    flex: 1 1 auto;
+
+    min-width: 0 !important;
+
+    gap: 3px !important;
+  }
+
+
+  .an-search-node__copy strong {
+    display: block;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.67
+      );
+
+    font-size: 6.2px !important;
+
+    font-weight: 440;
+
+    line-height: 1.2;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+  }
+
+
+  .an-search-node__copy small {
+    display: block;
+
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.18
+      );
+
+    font-size: 3.4px !important;
+
+    line-height: 1.2;
+
+    letter-spacing: 0.08em;
+
+    white-space: nowrap;
+  }
+
+
+  /* --------------------------------------------------------
+     SELECTED
+  -------------------------------------------------------- */
+
+  .an-search-node.is-selected {
+    z-index: 10;
+  }
+
+
+  .an-search-node.is-selected
+  .an-search-node__copy strong {
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.98
+      ) !important;
+  }
+
+
+  .an-search-node.is-selected
+  .an-search-node__star i {
+    width: 6px !important;
+    height: 6px !important;
+  }
+
+
+  /* --------------------------------------------------------
+     CONNECTED
+  -------------------------------------------------------- */
+
+  .an-search-node.is-connected {
+    opacity: 1 !important;
+  }
+
+
+  .an-search-node.is-connected
+  .an-search-node__copy strong {
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.82
+      ) !important;
+  }
+
+
+  /*
+   * Do not make all unrelated systems almost disappear.
+   * This was reducing readability heavily on mobile.
+   */
+
+  .an-search-node.is-background {
+    opacity: 0.34 !important;
+  }
+
+
+  .an-search-node.is-hidden {
+    display: none !important;
+  }
+
+
+  /* ========================================================
+     FILTERS
+  ======================================================== */
+
+  .an-search__mobile-filters {
+    position: relative !important;
+
+    z-index: 20;
+
+    display: flex !important;
+
+    width: 100%;
+
+    gap: 6px;
+
+    padding:
+      12px
+      12px
+      14px !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    border-top:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.035
+      );
+
+    background:
+      rgba(
+        0,
+        0,
+        0,
+        0.10
+      );
+
+    scrollbar-width: none;
+  }
+
+
+  .an-search__mobile-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .an-search__mobile-filters button {
+    flex:
+      0
+      0
+      auto !important;
+
+    min-height: 31px !important;
+
+    padding:
+      0
+      12px !important;
+
+    font-size: 4.5px !important;
+  }
+
+
+  /* ========================================================
+     DETAIL
+  ======================================================== */
+
+  .an-search__detail {
+    position: fixed !important;
+
+    left: 12px !important;
+    right: 12px !important;
+    bottom:
+      calc(
+        14px +
+        env(
+          safe-area-inset-bottom
+        )
+      ) !important;
+
+    z-index: 1000 !important;
+
+    width: auto !important;
+
+    max-height: 68svh !important;
+
+    padding:
+      18px
+      16px !important;
+
+    overflow-y: auto !important;
+
+    border:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.085
+      ) !important;
+
+    border-radius: 18px !important;
+
+    background:
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.78),
+        rgba(0, 0, 0, 0.88)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(26px)
+      saturate(110%);
+
+    backdrop-filter:
+      blur(26px)
+      saturate(110%);
+
+    box-shadow:
+      0
+      24px
+      80px
+      rgba(
+        0,
+        0,
+        0,
+        0.45
+      ) !important;
+  }
+
+
+  .an-search__detail-head span {
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.92
+      ) !important;
+
+    font-size: 5.8px !important;
+  }
+
+
+  .an-search__detail h3 {
+    font-size: 21px !important;
+  }
+
+
+  .an-search__detail p {
+    font-size: 7.4px !important;
+
+    line-height: 1.65;
+  }
+
+
+  /* --------------------------------------------------------
+     EMPTY SEARCH
+  -------------------------------------------------------- */
+
+  .an-search__empty {
+    grid-column:
+      1 / -1;
+
+    position: relative !important;
+
+    left: auto !important;
+    top: auto !important;
+
+    min-height: 200px;
+
+    justify-content: center;
+
+    transform: none !important;
+  }
+
+
+  /* --------------------------------------------------------
+     FOOTER
+  -------------------------------------------------------- */
+
+  .an-search__footer {
+    display: none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .an-search__canvas {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      ) !important;
+
+    grid-auto-rows:
+      68px !important;
+
+    padding:
+      18px
+      15px
+      24px !important;
+  }
+
+
+  .an-search-node {
+    height: 54px !important;
+
+    min-height: 54px !important;
+
+    padding:
+      6px
+      4px !important;
+  }
+
+
+  .an-search-node__copy strong {
+    font-size: 6px !important;
+  }
+
+
+  .an-search-node__copy small {
+    font-size: 3.2px !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   FULL-FIELD EXPANSION
+   Display-only refinement
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /* ------------------------------------------
+     Use more of the available HOME card height
+  ------------------------------------------ */
+
+  .an-search__field {
+    grid-template-rows:
+      56px
+      minmax(0, 1fr)
+      auto !important;
+
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+
+
+  .an-search__field-head {
+    min-height: 56px !important;
+
+    padding:
+      10px
+      18px !important;
+  }
+
+
+  /* ------------------------------------------
+     Expand the node field
+  ------------------------------------------ */
+
+  .an-search__canvas {
+    display: grid !important;
+
+    width: 100% !important;
+
+    height: 100% !important;
+    min-height: 0 !important;
+
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(0, 1fr)
+      ) !important;
+
+    /*
+     * Stretch all rows across the usable field
+     * instead of keeping fixed 76px rows.
+     */
+    grid-template-rows:
+      repeat(
+        6,
+        minmax(
+          62px,
+          1fr
+        )
+      ) !important;
+
+    grid-auto-rows:
+      auto !important;
+
+    align-content:
+      stretch !important;
+
+    align-items:
+      center !important;
+
+    justify-items:
+      stretch !important;
+
+    gap:
+      0
+      2px !important;
+
+    padding:
+      10px
+      10px
+      12px !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  /* ------------------------------------------
+     Make each node occupy its grid cell better
+  ------------------------------------------ */
+
+  .an-search-node {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    display:
+      flex !important;
+
+    align-items:
+      center !important;
+
+    justify-content:
+      flex-start !important;
+
+    padding:
+      8px
+      6px !important;
+
+    overflow:
+      visible !important;
+  }
+
+
+  .an-search-node__copy {
+    min-width:
+      0 !important;
+
+    max-width:
+      calc(
+        100% -
+        22px
+      ) !important;
+  }
+
+
+  .an-search-node__copy strong {
+    font-size:
+      6.4px !important;
+  }
+
+
+  .an-search-node__copy small {
+    font-size:
+      3.4px !important;
+  }
+
+
+  /* ------------------------------------------
+     Reduce dead space above / below map
+  ------------------------------------------ */
+
+  .an-search__mobile-filters {
+    padding:
+      8px
+      12px
+      10px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .an-search__canvas {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      ) !important;
+
+    grid-template-rows:
+      repeat(
+        9,
+        minmax(
+          54px,
+          1fr
+        )
+      ) !important;
+
+    grid-auto-rows:
+      auto !important;
+
+    gap:
+      0 !important;
+
+    padding:
+      8px
+      12px
+      10px !important;
+  }
+
+
+  .an-search-node {
+    padding:
+      6px
+      5px !important;
+  }
+
+
+  .an-search-node__copy strong {
+    font-size:
+      6px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   DESKTOP
+   Expand field into existing HOME card
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .an-search {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .an-search__surface {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .an-search__workspace {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .an-search__field {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    grid-template-rows:
+      48px
+      minmax(
+        0,
+        1fr
+      )
+      auto !important;
+  }
+
+
+  .an-search__field-head {
+    min-height:
+      48px !important;
+
+    padding:
+      7px
+      16px !important;
+  }
+
+
+  .an-search__canvas {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    inset:
+      auto !important;
+
+    padding:
+      0 !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   DYNAMIC FIELD EXPANSION
+   No selection = use the full available field
+========================================================== */
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * No selected system:
+   *
+   * Sidebar + full-width civilization field.
+   *
+   * IMPORTANT:
+   * No empty third column is reserved.
+   */
+  .an-search__workspace.no-selection {
+    display: grid !important;
+
+    grid-template-columns:
+      176px
+      minmax(0, 1fr) !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+
+  /*
+   * Selected system:
+   *
+   * Sidebar + field + detail.
+   */
+  .an-search__workspace.has-selection {
+    display: grid !important;
+
+    grid-template-columns:
+      176px
+      minmax(0, 1fr)
+      270px !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+
+  /*
+   * Make sure the field actually expands
+   * into all released space.
+   */
+  .an-search__workspace.no-selection
+  .an-search__field {
+    width: 100% !important;
+
+    max-width: none !important;
+
+    min-width: 0 !important;
+
+    grid-column:
+      2 !important;
+  }
+
+
+  /*
+   * Selected state remains normal.
+   */
+  .an-search__workspace.has-selection
+  .an-search__field {
+    width: 100% !important;
+
+    max-width: none !important;
+
+    min-width: 0 !important;
+
+    grid-column:
+      2 !important;
+  }
+
+
+  .an-search__workspace.has-selection
+  .an-search__detail {
+    grid-column:
+      3 !important;
+  }
+
+
+  /*
+   * Canvas follows the enlarged field.
+   */
+  .an-search__workspace.no-selection
+  .an-search__canvas {
+    width: 100% !important;
+
+    max-width: none !important;
+
+    min-width: 0 !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MEDIUM DESKTOP
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-width: 1180px) {
+
+  .an-search__workspace.no-selection {
+    grid-template-columns:
+      145px
+      minmax(0, 1fr) !important;
+  }
+
+
+  .an-search__workspace.has-selection {
+    grid-template-columns:
+      145px
+      minmax(0, 1fr)
+      220px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * On mobile the detail is an overlay / sheet.
+   *
+   * Therefore it must never reserve layout space.
+   */
+  .an-search__workspace.no-selection,
+  .an-search__workspace.has-selection {
+    display: block !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+
+  /*
+   * Field always occupies the complete mobile width.
+   */
+  .an-search__workspace.no-selection
+  .an-search__field,
+  .an-search__workspace.has-selection
+  .an-search__field {
+    width: 100% !important;
+
+    max-width: none !important;
+
+    min-width: 0 !important;
+
+    margin: 0 !important;
+  }
+
+
+  /*
+   * Selected System is removed from document layout
+   * and displayed over the star field.
+   */
+  .an-search__detail {
+    position: fixed !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   NO-SELECTION FIELD EXPANSION
+========================================================== */
+
+
+/* ----------------------------------------------------------
+   DESKTOP
+   When Selected System is absent, expand the constellation.
+---------------------------------------------------------- */
+
+@media (min-width: 769px) {
+
+  /*
+   * Default selected-state geometry.
+   */
+  .an-search__workspace.has-selection
+  .an-search-node {
+    left:
+      var(
+        --an-search-x
+      ) !important;
+
+    top:
+      var(
+        --an-search-y
+      ) !important;
+  }
+
+
+  /*
+   * No selection:
+   * use much more of the available star field.
+   */
+  .an-search__workspace.no-selection
+  .an-search-node {
+    left:
+      var(
+        --an-search-open-x
+      ) !important;
+
+    top:
+      var(
+        --an-search-open-y
+      ) !important;
+  }
+
+
+  /*
+   * Give the no-selection field slightly more breathing room.
+   */
+  .an-search__workspace.no-selection
+  .an-search__canvas {
+    padding:
+      0
+      12px
+      0
+      8px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   LARGE DESKTOP
+   Expand a little more on wide HOME cards.
+========================================================== */
+
+@media (min-width: 1280px) {
+
+  .an-search__workspace.no-selection
+  .an-search-node {
+    /*
+     * Keep labels from touching the physical card edges
+     * while still using the entire available map.
+     */
+    max-width:
+      116px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+   Grid mode already uses full width.
+   Remove unnecessary internal dead space instead.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Mobile nodes are grid-positioned,
+   * so inline x/y variables must not take control.
+   */
+  .an-search__workspace.no-selection
+  .an-search-node,
+  .an-search__workspace.has-selection
+  .an-search-node {
+    left:
+      auto !important;
+
+    top:
+      auto !important;
+  }
+
+
+  /*
+   * Fill more of the available vertical field.
+   */
+  .an-search__workspace.no-selection
+  .an-search__canvas {
+    padding:
+      4px
+      10px
+      6px !important;
+
+    align-content:
+      stretch !important;
+  }
+
+
+  /*
+   * When the detail is closed,
+   * use the full field without reserving visual breathing room.
+   */
+  .an-search__workspace.no-selection
+  .an-search__field {
+    padding-bottom:
+      0 !important;
+  }
+
+}
 
      `}</style>
 
