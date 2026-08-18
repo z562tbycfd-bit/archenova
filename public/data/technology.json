@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-18T12:50:42.137Z",
+  "updated": "2026-08-18T13:43:34.543Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a setback for Eyepoint, a win for Amylyx, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/18/eyepoint-blindness-treatment-setback-amylyx-avexitide-win/?utm_campaign=rss",
+      "summary": "Eyepoint disclosed that a Phase 3 trial of its experimental treatment for a common cause of age-related blindness fell short of its primary goal",
+      "ts": 1787059537000,
+      "publishedAt": "2026-08-18T13:25:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Kindergarten vaccine exemptions are climbing",
+      "url": "https://www.statnews.com/2026/08/18/health-news-kindergarten-vaccine-exemptions-are-climbing/?utm_campaign=rss",
+      "summary": "Doritos as \"real\" \"food,\" public-sector health care in trouble, and more health news from Morning Rounds",
+      "ts": 1787058157000,
+      "publishedAt": "2026-08-18T13:02:37.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Wildfires, drought and extreme heat, 2026",
@@ -10,6 +28,15 @@
       "ts": 1787058000000,
       "publishedAt": "2026-08-18T13:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Prominent AI startup rolls out virtual cell model in race to speed up science",
+      "url": "https://www.statnews.com/2026/08/18/david-baker-genbio-ai-new-virtual-model-unveiled-aido-cell/?utm_campaign=rss",
+      "summary": "A prominent AI startup has rolled out a virtual cell model, advancing the race to speed up science.",
+      "ts": 1787058000000,
+      "publishedAt": "2026-08-18T13:00:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "MIT Technology Review",
@@ -37,6 +64,15 @@
       "ts": 1787054400000,
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA imPACT Review Highlights Namibia’s Commitment to Cancer Care and Opportunities to Expand Services",
+      "url": "http://www.iaea.org/newscenter/news/iaea-impact-review-highlights-namibias-commitment-to-cancer-care-and-opportunities-to-expand-services",
+      "summary": "",
+      "ts": 1787052635000,
+      "publishedAt": "2026-08-18T11:30:35.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -775,42 +811,6 @@
       "ts": 1786972937000,
       "publishedAt": "2026-08-17T13:22:17.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Your AI Is Only as Good as Your Inputs",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/your-ai-is-only-as-good-as-your-inputs/",
-      "summary": "Augustė Užuotaitė of Thermo Fisher Scientific feels the real innovation ahead is not just smarter software or technology. It is robust assay design, reagent chemistry, and consumables designed for automated workflows: st…",
-      "ts": 1786972449000,
-      "publishedAt": "2026-08-17T13:14:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Securing the Infrastructure of Intelligence",
-      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "summary": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factorie…",
-      "ts": 1786970091000,
-      "publishedAt": "2026-08-17T12:34:51.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "L3Harris names space sector leader Sam Mehta CEO after Kubasik steps down",
-      "url": "https://spacenews.com/l3harris-names-space-sector-leader-sam-mehta-ceo-after-kubasik-steps-down/",
-      "summary": "Christopher Kubasik exits after board investigation into unspecified conduct The post L3Harris names space sector leader Sam Mehta CEO after Kubasik steps down appeared first on SpaceNews.",
-      "ts": 1786969926000,
-      "publishedAt": "2026-08-17T12:32:06.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The 77th International Astronautical Congress (IAC 2026) is the One Space Event You Cannot Miss",
-      "url": "https://spacenews.com/the-77th-international-astronautical-congress-iac-2026-is-the-one-space-event-you-cannot-miss/",
-      "summary": "For more than 75 years, the International Astronautical Congress (IAC) has been the annual moment when the global space community comes together – not online, not in separate regional events, […] The post The 77th Intern…",
-      "ts": 1786969407000,
-      "publishedAt": "2026-08-17T12:23:27.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

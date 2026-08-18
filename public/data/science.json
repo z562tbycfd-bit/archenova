@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-18T12:50:39.910Z",
+  "updated": "2026-08-18T13:43:32.503Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Unusual superconductivity could emerge in valley-imbalanced rhombohedral graphene",
+      "url": "https://phys.org/news/2026-08-unusual-superconductivity-emerge-valley-imbalanced.html",
+      "summary": "Superconductors are materials in which electrical current flows with a resistance of zero, typically below specific temperatures. In conventional superconductors, this state of matter emerges when two electrons bind toge…",
+      "ts": 1787060403000,
+      "publishedAt": "2026-08-18T13:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Webb captures clearest image yet of the Lion Nebula",
+      "url": "https://phys.org/news/2026-08-webb-captures-clearest-image-lion.html",
+      "summary": "The NASA/ESA/CSA James Webb Space Telescope recently imaged NGC 2392 (also known as the Lion Nebula), named for its distinctive appearance, which resembles a lion's face seen head-on.",
+      "ts": 1787060401000,
+      "publishedAt": "2026-08-18T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI reconstructs hidden history of Earth's mantle flow from surface clues",
+      "url": "https://phys.org/news/2026-08-ai-reconstructs-hidden-history-earth.html",
+      "summary": "The mantle, a rocky layer accounting for more than 80% of Earth's volume, circulates at rates of only a few centimeters per year. This circulation drives plate tectonics and influences major geological phenomena such as …",
+      "ts": 1787059205000,
+      "publishedAt": "2026-08-18T13:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drier soils may turn late summer into prolonged extreme heat",
+      "url": "https://phys.org/news/2026-08-drier-soils-late-summer-prolonged.html",
+      "summary": "The summers of recent years have been hot, but not unusual from a meteorological perspective. According to researchers at Leipzig University, though, the next extreme summer would far exceed anything we have experienced …",
+      "ts": 1787059201000,
+      "publishedAt": "2026-08-18T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New gene activity tool measures biological age of cells and screens aging-related compounds",
+      "url": "https://phys.org/news/2026-08-gene-tool-biological-age-cells.html",
+      "summary": "Researchers at Karolinska Institutet and Stockholm University have developed a new tool that estimates a cell's biological age by analyzing its gene activity. In an article published in the journal Advanced Science, they…",
+      "ts": 1787058001000,
+      "publishedAt": "2026-08-18T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Aerial imagery maps hurricane wind damage and shows stronger building codes work",
@@ -759,46 +799,6 @@
       "title": "Assessing the Projector Augmented-Wave Method for Stopping Power Calculations",
       "url": "https://arxiv.org/abs/2608.16389",
       "summary": "arXiv:2608.16389v1 Announce Type: new Abstract: The stopping power of charged particles is investigated using time-dependent density functional theory (TDDFT). Such simulations are made possible by recent advances in com…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ChemReporter: A Framework for Curating and Exporting Large-Scale Chemical Datasets for MLIP Training",
-      "url": "https://arxiv.org/abs/2608.16418",
-      "summary": "arXiv:2608.16418v1 Announce Type: new Abstract: Training set quality and diversity are key determinants of the reliability of machine learning interatomic potentials (MLIPs), yet using massive datasets in full is often i…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Proton Radiography with Isotrajectory Optics",
-      "url": "https://arxiv.org/abs/2608.16440",
-      "summary": "arXiv:2608.16440v1 Announce Type: new Abstract: We consider a compact isotrajectory-optics scheme for proton radiography. The calculation uses a 30-60 MeV proton interval as a reference example, typical of high-energy sh…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Decadal wave reconstruction in the Mediterranean Sea with graph neural networks",
-      "url": "https://arxiv.org/abs/2608.16449",
-      "summary": "arXiv:2608.16449v1 Announce Type: new Abstract: Accurate simulation and prediction of ocean waves are essential for coastal risk management and climate studies. Deep learning has shown promising results for wave modeling…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microcoulomb-level electron beam and multi-Joule hard X-rays driven by a high-efficiency laser-plasma accelerator",
-      "url": "https://arxiv.org/abs/2608.16459",
-      "summary": "arXiv:2608.16459v1 Announce Type: new Abstract: We report on the production of ultrahigh-charge relativistic electron beams and the development of a laser-wakefield acceleration platform at the LMJ facility. Making use o…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unravelling carbene moiety role in the N-heterocyclic carbene-phosphinidenes coordination chemistry: bonding and reactivity in gold chemistry",
-      "url": "https://arxiv.org/abs/2608.16472",
-      "summary": "arXiv:2608.16472v1 Announce Type: new Abstract: The coordination properties of the emerging class of N-heterocyclic carbene-phosphinidene (NHCP) ligands have been reported to be strongly affected by the carbene (NHC) moi…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
