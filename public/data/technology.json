@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-18T18:40:35.402Z",
+  "updated": "2026-08-18T19:29:10.134Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: The White House declares ‘promises made, promises kept’ on lowering drug prices. Nice try",
+      "url": "https://www.statnews.com/2026/08/18/white-house-claims-drug-price-drop-examined-ed-silverman-pharmalot/?utm_campaign=rss",
+      "summary": "In its effort to lower drug prices, the White House has declared \"promises made, promises kept.\" That's a narrative that doesn't reflect the full story.",
+      "ts": 1787078520000,
+      "publishedAt": "2026-08-18T18:42:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Embedding Regulatory Strategy in Cell and Gene Therapy Development",
@@ -19,6 +28,15 @@
       "ts": 1787076468000,
       "publishedAt": "2026-08-18T18:07:48.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "NASA’s next Gateways to Blue Skies competition invites collegiate teams to imagine innovative new ways aircraft could inspect land-based infrastructure, such as bridges and tunnels, to improve safety, reliability, and co…",
+      "ts": 1787076224000,
+      "publishedAt": "2026-08-18T18:03:44.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -214,6 +232,15 @@
       "title": "Partnering with CodeAI to prepare the first AI generation",
       "url": "https://openai.com/index/partnering-with-codeai",
       "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "ts": 1787050800000,
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
       "ts": 1787050800000,
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "categoryId": "ai-compute"
@@ -784,33 +811,6 @@
       "ts": 1786997840000,
       "publishedAt": "2026-08-17T20:17:20.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Malaria Mosquito Bites Turned Into Immune Boosters in New Chemovaccination Strategy",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/malaria-mosquito-bites-turned-into-immune-boosters-in-new-chemovaccination-strategy/",
-      "summary": "A malaria chemovaccination strategy, using antimalarial compounds to arrest parasites in the liver, turns mosquito bites into immune-boosting vaccination events that protected mice long-term. The post Malaria Mosquito Bi…",
-      "ts": 1786995840000,
-      "publishedAt": "2026-08-17T19:44:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Mission Studies Air Pollution Over Ethiopia",
-      "url": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
-      "summary": "A NASA-funded air pollution monitoring network has provided one of the most detailed long-term views yet of the role of black carbon, or soot produced by fires, diesel vehicles, and other combustion sources, in Ethiopia’…",
-      "ts": 1786994674000,
-      "publishedAt": "2026-08-17T19:24:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sanofi to lay off 229 workers in Mass., a year after $9.1B Blueprint Medicines acquisition",
-      "url": "https://www.statnews.com/2026/08/17/sanofi-layoffs-mass-blueprint-medicines/?utm_campaign=rss",
-      "summary": "Sanofi, one of the Massachusetts' largest pharmaceutical employers, will lay off more than 200 workers there a year after acquiring Blueprint Medicines.",
-      "ts": 1786994634000,
-      "publishedAt": "2026-08-17T19:23:54.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
