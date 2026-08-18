@@ -39074,3 +39074,574 @@ a {
     margin-right: auto !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   HOME SECTION ISOLATION FIX
+   Final parent-layout correction
+========================================================== */
+
+
+/* ==========================================================
+   SHARED
+   This section must not inherit old HOME clipping rules.
+========================================================== */
+
+.archenova-twin-home
+#archenova-search-section {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  background: transparent !important;
+}
+
+
+.archenova-twin-home
+#archenova-search-section::before,
+.archenova-twin-home
+#archenova-search-section::after {
+  display: none !important;
+
+  content: none !important;
+}
+
+
+/*
+ * Critical:
+ * old generic HOME rules must not constrain
+ * the ArcheNova Search component.
+ */
+
+.archenova-twin-home
+#archenova-search-section
+> .an-search {
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+
+  transform: none !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * Search section owns one complete HOME viewport.
+   *
+   * Do not let generic [data-home-section]
+   * min/max-height rules clip the component.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section {
+    display: flex !important;
+
+    align-items: stretch !important;
+    justify-content: stretch !important;
+
+    width: 100% !important;
+
+    height:
+      100svh !important;
+
+    min-height:
+      680px !important;
+
+    max-height:
+      none !important;
+
+    padding:
+      clamp(
+        12px,
+        1.5vw,
+        24px
+      ) !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  > .an-search {
+    flex:
+      1 1 auto !important;
+
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      none !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  /*
+   * The internal surface must fill
+   * the parent section exactly.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__surface {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    min-height:
+      0 !important;
+
+    max-width:
+      none !important;
+
+    max-height:
+      none !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__workspace {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__field {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__canvas {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    min-height:
+      0 !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SHORT WINDOWS / EDGE
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-height: 820px) {
+
+  .archenova-twin-home
+  #archenova-search-section {
+    height:
+      100svh !important;
+
+    min-height:
+      620px !important;
+
+    padding:
+      8px
+      12px !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  > .an-search {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * This is the key mobile correction.
+   *
+   * HOME owns the viewport height.
+   * ArcheNova Search fills the usable area
+   * rather than becoming a second long page.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section {
+    position:
+      relative !important;
+
+    display:
+      flex !important;
+
+    align-items:
+      stretch !important;
+
+    justify-content:
+      stretch !important;
+
+    width:
+      100% !important;
+
+    height:
+      100svh !important;
+
+    min-height:
+      100svh !important;
+
+    max-height:
+      100svh !important;
+
+    margin:
+      0 !important;
+
+    padding:
+      0 !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  > .an-search {
+    position:
+      relative !important;
+
+    flex:
+      1 1 auto !important;
+
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      none !important;
+
+    margin:
+      0 !important;
+
+    padding:
+      0 !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__surface {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      none !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__workspace {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__field {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  /*
+   * 18 nodes remain inside the available field.
+   *
+   * 3 columns × 6 rows.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__canvas {
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    display:
+      grid !important;
+
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(
+          0,
+          1fr
+        )
+      ) !important;
+
+    grid-template-rows:
+      repeat(
+        6,
+        minmax(
+          0,
+          1fr
+        )
+      ) !important;
+
+    gap:
+      0
+      2px !important;
+
+    padding:
+      5px
+      8px !important;
+
+    overflow:
+      hidden !important;
+
+    align-content:
+      stretch !important;
+
+    align-items:
+      stretch !important;
+  }
+
+
+  /*
+   * Eliminate old absolute node positioning.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search-node {
+    position:
+      relative !important;
+
+    left:
+      auto !important;
+
+    right:
+      auto !important;
+
+    top:
+      auto !important;
+
+    bottom:
+      auto !important;
+
+    width:
+      100% !important;
+
+    height:
+      100% !important;
+
+    min-width:
+      0 !important;
+
+    min-height:
+      0 !important;
+
+    max-width:
+      none !important;
+
+    max-height:
+      none !important;
+
+    margin:
+      0 !important;
+
+    transform:
+      none !important;
+  }
+
+
+  /*
+   * Selected System stays inside Search,
+   * never becomes another page-height layer.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__detail {
+    position:
+      absolute !important;
+
+    left:
+      8px !important;
+
+    right:
+      8px !important;
+
+    top:
+      8px !important;
+
+    bottom:
+      56px !important;
+
+    width:
+      auto !important;
+
+    height:
+      auto !important;
+
+    max-height:
+      none !important;
+
+    margin:
+      0 !important;
+
+    overflow-y:
+      auto !important;
+
+    z-index:
+      1000 !important;
+  }
+
+
+  /*
+   * ArcheNova Search footer is unnecessary on mobile
+   * because HOME pager already exists.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__footer {
+    display:
+      none !important;
+  }
+
+}
