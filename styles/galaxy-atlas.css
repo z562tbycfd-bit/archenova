@@ -6261,3 +6261,1101 @@ bottom:26px;
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ArcheNova Map
+   ANDROMEDA × FOUR SEASONS × NATURE × APPLE
+   Visual Enhancement Layer
+
+   IMPORTANT:
+   This layer does NOT redefine the fundamental desktop/mobile
+   geometry of .gx-map / .gx-node / .gx-frame.
+========================================================== */
+
+
+/* ==========================================================
+   01. PREMIUM BLACK GLASS
+========================================================== */
+
+.gx-andromeda .gx-frame {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(10, 12, 17, 0.70),
+      rgba(2, 3, 7, 0.88)
+    ) !important;
+
+  border-color:
+    rgba(255, 255, 255, 0.085) !important;
+
+  box-shadow:
+    0 42px 120px rgba(0, 0, 0, 0.46),
+    inset 0 1px 0 rgba(255, 255, 255, 0.055),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.018) !important;
+
+  -webkit-backdrop-filter:
+    blur(24px)
+    saturate(112%);
+
+  backdrop-filter:
+    blur(24px)
+    saturate(112%);
+}
+
+
+/*
+ * Keep the inner border extremely subtle.
+ * This avoids the previous "multiple frame" appearance.
+ */
+
+.gx-andromeda .gx-border {
+  border-color:
+    rgba(255, 255, 255, 0.035) !important;
+
+  opacity: 0.65;
+}
+
+
+/* ==========================================================
+   02. GLASS LIGHT
+========================================================== */
+
+.gx-frame-gloss {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  pointer-events: none;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      118deg,
+      transparent 0%,
+      transparent 34%,
+      rgba(255, 255, 255, 0.016) 45%,
+      rgba(255, 255, 255, 0.045) 50%,
+      rgba(255, 255, 255, 0.012) 55%,
+      transparent 66%,
+      transparent 100%
+    );
+
+  background-size:
+    240% 100%;
+
+  animation:
+    gxLuxuryGlassSweep 34s ease-in-out infinite;
+}
+
+
+/* ==========================================================
+   03. DEEP SPACE
+========================================================== */
+
+.gx-deep-field {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  pointer-events: none;
+
+  opacity: 0.38;
+
+  background-image:
+    radial-gradient(
+      circle at 13% 18%,
+      rgba(255,255,255,.72) 0 0.7px,
+      transparent 1px
+    ),
+
+    radial-gradient(
+      circle at 71% 22%,
+      rgba(205,220,255,.55) 0 0.7px,
+      transparent 1px
+    ),
+
+    radial-gradient(
+      circle at 32% 74%,
+      rgba(255,235,195,.48) 0 0.8px,
+      transparent 1.1px
+    );
+
+  background-size:
+    137px 137px,
+    211px 211px,
+    293px 293px;
+
+  animation:
+    gxDeepFieldDrift 100s linear infinite;
+}
+
+
+/* ==========================================================
+   04. ANDROMEDA NEBULA
+========================================================== */
+
+.gx-nebula {
+  position: absolute;
+
+  pointer-events: none;
+
+  z-index: 1;
+
+  border-radius: 50%;
+
+  filter:
+    blur(60px);
+
+  will-change:
+    transform;
+}
+
+
+.gx-nebula-a {
+  width: 48vw;
+  height: 24vw;
+
+  left: 12%;
+  top: 24%;
+
+  opacity: 0.13;
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(130, 165, 225, 0.34),
+      rgba(70, 100, 165, 0.08) 42%,
+      transparent 72%
+    );
+
+  transform:
+    rotate(-18deg);
+
+  animation:
+    gxNebulaDriftA 80s ease-in-out infinite alternate;
+}
+
+
+.gx-nebula-b {
+  width: 42vw;
+  height: 18vw;
+
+  right: 8%;
+  top: 46%;
+
+  opacity: 0.105;
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(255, 226, 178, 0.28),
+      rgba(170, 130, 80, 0.05) 44%,
+      transparent 74%
+    );
+
+  transform:
+    rotate(16deg);
+
+  animation:
+    gxNebulaDriftB 96s ease-in-out infinite alternate;
+}
+
+
+.gx-nebula-c {
+  width: 32vw;
+  height: 18vw;
+
+  left: 35%;
+  bottom: 10%;
+
+  opacity: 0.075;
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(200, 215, 255, 0.25),
+      transparent 70%
+    );
+
+  animation:
+    gxNebulaBreath 24s ease-in-out infinite;
+}
+
+
+/* ==========================================================
+   05. NATURE-LIKE SCIENTIFIC MAP
+========================================================== */
+
+.gx-field {
+  opacity: 0.8;
+}
+
+
+.gx-reference-point {
+  fill:
+    rgba(245, 216, 162, 0.72);
+
+  filter:
+    drop-shadow(
+      0 0 2px
+      rgba(245,216,162,.48)
+    );
+}
+
+
+.gx-andromeda .gx-orbit.stable {
+  stroke:
+    rgba(230, 234, 241, 0.17) !important;
+
+  stroke-width:
+    0.17 !important;
+}
+
+
+.gx-andromeda .gx-orbit.resonance {
+  stroke:
+    rgba(245, 216, 162, 0.15) !important;
+
+  stroke-width:
+    0.14 !important;
+
+  stroke-dasharray:
+    1.4 2.2 !important;
+}
+
+
+.gx-andromeda .gx-network {
+  stroke:
+    rgba(245, 216, 162, 0.18) !important;
+
+  stroke-width:
+    0.17 !important;
+}
+
+
+.gx-andromeda .gx-link {
+  stroke:
+    rgba(210, 220, 235, 0.105) !important;
+
+  stroke-width:
+    0.12 !important;
+
+  transition:
+    opacity 600ms ease,
+    stroke 600ms ease;
+}
+
+
+/* ==========================================================
+   06. CENTRAL ANDROMEDA FIELD
+========================================================== */
+
+.gx-core-atmosphere {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 118%;
+  height: 118%;
+
+  transform:
+    translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(255,255,255,.035) 0%,
+      rgba(245,216,162,.035) 26%,
+      rgba(120,160,220,.025) 43%,
+      transparent 69%
+    );
+
+  filter:
+    blur(12px);
+
+  animation:
+    gxCoreBreathing 14s ease-in-out infinite;
+}
+
+
+/* ==========================================================
+   07. CENTRAL ORBITAL RINGS
+========================================================== */
+
+.gx-core-orbit {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  border:
+    1px solid
+    rgba(255,255,255,.07);
+}
+
+
+.gx-core-orbit-a {
+  width: 72%;
+  height: 35%;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(-9deg);
+
+  border-color:
+    rgba(245,216,162,.11);
+
+  animation:
+    gxCoreOrbitA 90s linear infinite;
+}
+
+
+.gx-core-orbit-b {
+  width: 82%;
+  height: 44%;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(14deg);
+
+  border-color:
+    rgba(180,205,245,.065);
+
+  animation:
+    gxCoreOrbitB 120s linear infinite;
+}
+
+
+.gx-core-orbit-c {
+  width: 58%;
+  height: 64%;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(68deg);
+
+  border-color:
+    rgba(255,255,255,.045);
+
+  animation:
+    gxCoreOrbitC 150s linear infinite;
+}
+
+
+/* ==========================================================
+   08. CENTRAL AXIS
+========================================================== */
+
+.gx-core-axis {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 70%;
+  height: 1px;
+
+  transform:
+    translate(-50%, -50%);
+
+  pointer-events: none;
+
+  opacity: 0.42;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(150,185,235,.18),
+      rgba(255,255,255,.75),
+      rgba(245,216,162,.22),
+      transparent
+    );
+
+  box-shadow:
+    0 0 12px
+    rgba(255,255,255,.08);
+}
+
+
+/* ==========================================================
+   09. CORE PULSE
+========================================================== */
+
+.gx-core-pulse {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 4px;
+  height: 4px;
+
+  transform:
+    translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  background:
+    rgba(255,248,230,.96);
+
+  box-shadow:
+    0 0 10px rgba(255,255,255,.9),
+    0 0 28px rgba(245,216,162,.45),
+    0 0 70px rgba(130,170,240,.18);
+
+  animation:
+    gxCivilizationPulse 5.5s ease-in-out infinite;
+}
+
+
+/* ==========================================================
+   10. CENTRAL TYPOGRAPHY
+========================================================== */
+
+.gx-core-copy {
+  position: relative;
+
+  z-index: 10;
+
+  display: grid;
+
+  place-items: center;
+
+  gap: 0.58rem;
+
+  pointer-events: none;
+}
+
+
+.gx-core-eyebrow {
+  font-size:
+    0.47rem;
+
+  font-weight:
+    450;
+
+  letter-spacing:
+    0.30em;
+
+  text-transform:
+    uppercase;
+
+  color:
+    rgba(215,220,230,.46);
+}
+
+
+.gx-core-copy strong {
+  position: relative;
+
+  z-index: auto;
+
+  font-weight:
+    330;
+
+  letter-spacing:
+    .24em;
+
+  text-transform:
+    uppercase;
+
+  background:
+    linear-gradient(
+      100deg,
+      #ffffff 0%,
+      #b9bec7 35%,
+      #fff8e8 50%,
+      #bcc4cf 68%,
+      #ffffff 100%
+    );
+
+  background-size:
+    220% auto;
+
+  -webkit-background-clip:
+    text;
+
+  background-clip:
+    text;
+
+  color:
+    transparent;
+
+  animation:
+    gxSilverFlow 34s linear infinite;
+}
+
+
+.gx-core-copy small {
+  position: relative;
+
+  z-index: auto;
+
+  margin-top: 0;
+
+  font-size:
+    .55rem;
+
+  letter-spacing:
+    .08em;
+
+  color:
+    rgba(245,216,162,.60);
+}
+
+
+/*
+ * Hide direct legacy text positioning only when
+ * the new copy wrapper is present.
+ */
+
+.gx-imperial > .gx-core-copy {
+  width: 100%;
+}
+
+
+/* ==========================================================
+   11. MINI GALAXY HALO
+========================================================== */
+
+.gx-galaxy-halo {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 130%;
+  height: 130%;
+
+  transform:
+    translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  opacity: 0.34;
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(255,255,255,.06),
+      rgba(120,170,245,.035) 38%,
+      transparent 70%
+    );
+
+  filter:
+    blur(7px);
+
+  transition:
+    opacity 700ms ease,
+    transform 900ms
+    cubic-bezier(.2,.8,.2,1);
+}
+
+
+/* ==========================================================
+   12. NODE TYPOGRAPHY
+========================================================== */
+
+.gx-andromeda
+.gx-node-label strong {
+  font-weight:
+    360 !important;
+
+  color:
+    rgba(240,243,248,.94) !important;
+
+  text-shadow:
+    0 0 12px
+    rgba(255,255,255,.10) !important;
+}
+
+
+.gx-andromeda
+.gx-node-label small {
+  color:
+    rgba(218,199,164,.65) !important;
+}
+
+
+/* index is desktop-only scientific annotation */
+
+.gx-andromeda
+.gx-node-label em {
+  display: block;
+
+  margin-bottom:
+    0.05rem;
+
+  font-size:
+    0.42rem;
+
+  font-style:
+    normal;
+
+  letter-spacing:
+    0.20em;
+
+  color:
+    rgba(170,180,195,.36);
+}
+
+
+/* ==========================================================
+   13. APPLE-LIKE INTERACTION
+========================================================== */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .gx-andromeda .gx-node {
+    transition:
+      transform 800ms
+        cubic-bezier(.16,1,.3,1),
+      filter 800ms
+        cubic-bezier(.16,1,.3,1);
+  }
+
+
+  .gx-andromeda
+  .gx-node:hover {
+    filter:
+      brightness(1.13)
+      saturate(1.06);
+  }
+
+
+  .gx-andromeda
+  .gx-node:hover
+  .gx-galaxy-halo {
+    opacity:
+      0.72;
+
+    transform:
+      translate(-50%, -50%)
+      scale(1.15);
+  }
+
+
+  .gx-andromeda
+  .gx-node:hover
+  .gx-galaxy-core {
+    box-shadow:
+      0 0 18px rgba(255,255,255,.65),
+      0 0 42px rgba(245,216,162,.38);
+  }
+
+
+  .gx-andromeda
+  .gx-imperial {
+    transition:
+      filter 900ms
+      cubic-bezier(.16,1,.3,1);
+  }
+
+
+  .gx-andromeda
+  .gx-imperial:hover {
+    filter:
+      brightness(1.10);
+  }
+
+
+  .gx-andromeda
+  .gx-imperial:hover
+  .gx-core-atmosphere {
+    animation-duration:
+      7s;
+  }
+}
+
+
+/* ==========================================================
+   14. MOBILE VISUAL REFINEMENT
+   Geometry remains controlled by the existing mobile fix.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Mobile Safari benefits from a lighter backdrop workload.
+   */
+
+  .gx-andromeda .gx-frame {
+    -webkit-backdrop-filter:
+      blur(15px)
+      saturate(108%);
+
+    backdrop-filter:
+      blur(15px)
+      saturate(108%);
+  }
+
+
+  .gx-nebula {
+    filter:
+      blur(38px);
+  }
+
+
+  .gx-nebula-a {
+    width:
+      90vw;
+
+    height:
+      44vw;
+
+    left:
+      -18%;
+
+    top:
+      22%;
+
+    opacity:
+      .10;
+  }
+
+
+  .gx-nebula-b {
+    width:
+      82vw;
+
+    height:
+      42vw;
+
+    right:
+      -20%;
+
+    top:
+      52%;
+
+    opacity:
+      .08;
+  }
+
+
+  .gx-nebula-c {
+    display:
+      none;
+  }
+
+
+  .gx-core-orbit-c {
+    display:
+      none;
+  }
+
+
+  .gx-core-eyebrow {
+    font-size:
+      .34rem;
+
+    letter-spacing:
+      .20em;
+  }
+
+
+  .gx-core-copy {
+    gap:
+      .35rem;
+  }
+
+
+  .gx-core-copy small {
+    display:
+      none;
+  }
+
+
+  /*
+   * Existing mobile architecture intentionally hides em/small.
+   */
+
+  .gx-andromeda
+  .gx-node-label em {
+    display:
+      none !important;
+  }
+
+
+  .gx-galaxy-halo {
+    opacity:
+      .24;
+  }
+
+
+  .gx-frame-gloss {
+    animation-duration:
+      50s;
+  }
+}
+
+
+/* ==========================================================
+   15. REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .gx-andromeda *,
+  .gx-andromeda *::before,
+  .gx-andromeda *::after {
+    animation-duration:
+      0.001ms !important;
+
+    animation-iteration-count:
+      1 !important;
+
+    scroll-behavior:
+      auto !important;
+  }
+}
+
+
+/* ==========================================================
+   16. ANIMATION SYSTEM
+========================================================== */
+
+@keyframes gxLuxuryGlassSweep {
+
+  0% {
+    background-position:
+      180% 0;
+  }
+
+  45% {
+    background-position:
+      180% 0;
+  }
+
+  65% {
+    background-position:
+      -80% 0;
+  }
+
+  100% {
+    background-position:
+      -80% 0;
+  }
+}
+
+
+@keyframes gxDeepFieldDrift {
+
+  from {
+    background-position:
+      0 0,
+      0 0,
+      0 0;
+  }
+
+  to {
+    background-position:
+      137px 68px,
+      -211px 105px,
+      146px -293px;
+  }
+}
+
+
+@keyframes gxNebulaDriftA {
+
+  from {
+    transform:
+      translate3d(-2%, -1%, 0)
+      rotate(-18deg)
+      scale(1);
+  }
+
+  to {
+    transform:
+      translate3d(5%, 3%, 0)
+      rotate(-14deg)
+      scale(1.07);
+  }
+}
+
+
+@keyframes gxNebulaDriftB {
+
+  from {
+    transform:
+      translate3d(2%, 2%, 0)
+      rotate(16deg)
+      scale(1);
+  }
+
+  to {
+    transform:
+      translate3d(-5%, -3%, 0)
+      rotate(11deg)
+      scale(1.08);
+  }
+}
+
+
+@keyframes gxNebulaBreath {
+
+  0%,
+  100% {
+    opacity:
+      .055;
+
+    transform:
+      scale(.96);
+  }
+
+  50% {
+    opacity:
+      .095;
+
+    transform:
+      scale(1.06);
+  }
+}
+
+
+@keyframes gxCoreBreathing {
+
+  0%,
+  100% {
+    opacity:
+      .72;
+
+    transform:
+      translate(-50%, -50%)
+      scale(.97);
+  }
+
+  50% {
+    opacity:
+      1;
+
+    transform:
+      translate(-50%, -50%)
+      scale(1.035);
+  }
+}
+
+
+@keyframes gxCivilizationPulse {
+
+  0%,
+  100% {
+    opacity:
+      .68;
+
+    transform:
+      translate(-50%, -50%)
+      scale(.82);
+  }
+
+  50% {
+    opacity:
+      1;
+
+    transform:
+      translate(-50%, -50%)
+      scale(1.25);
+  }
+}
+
+
+@keyframes gxCoreOrbitA {
+
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotate(-9deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotate(351deg);
+  }
+}
+
+
+@keyframes gxCoreOrbitB {
+
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotate(14deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotate(-346deg);
+  }
+}
+
+
+@keyframes gxCoreOrbitC {
+
+  from {
+    transform:
+      translate(-50%, -50%)
+      rotate(68deg);
+  }
+
+  to {
+    transform:
+      translate(-50%, -50%)
+      rotate(428deg);
+  }
+}
