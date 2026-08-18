@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-18T22:15:25.691Z",
+  "updated": "2026-08-18T22:25:46.421Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Canada's AI strategy needs educators who feel prepared, not just trained",
+      "url": "https://phys.org/news/2026-08-canada-ai-strategy.html",
+      "summary": "The Canadian government recently introduced AI for All, a national artificial intelligence strategy that has two focuses: building trust and creating opportunity.",
+      "ts": 1787091603000,
+      "publishedAt": "2026-08-18T22:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study suggests three-quarters of Indo-Pacific coral reefs could drown as sea levels rise",
+      "url": "https://phys.org/news/2026-08-quarters-indo-pacific-coral-reefs.html",
+      "summary": "Nanyang Technological University, Singapore (NTU Singapore) scientists have found that most coral reefs across the Indo-Pacific may struggle to grow fast enough to keep pace with accelerating sea-level rise. Their study …",
+      "ts": 1787091601000,
+      "publishedAt": "2026-08-18T22:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Rare satellite data reveal major limits in flood models",
@@ -783,22 +799,6 @@
       "title": "Quantum Boltzmann Equation Self-Consistent-Field for the Entropic Regularization of Mean-Field Singularities",
       "url": "https://arxiv.org/abs/2608.14979",
       "summary": "arXiv:2608.14979v1 Announce Type: new Abstract: We present a Quantum Boltzmann Equation self-consistent-field (QBE-SCF) formulation for molecular electronic structure in which the one-electron reduced density matrix is p…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Voltage-Controlled Phosphate Precipitation Gating in Solid-State Nanopore Memristors",
-      "url": "https://arxiv.org/abs/2608.15014",
-      "summary": "arXiv:2608.15014v1 Announce Type: new Abstract: Nanofluidic memristors preserve a record of electrical activity via ion migration and alterations in conductance that depend on the history of the device s state. These cha…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Imaginary Gauge Fields for One-Way Transparency and Absorption in a Passive Metasurface",
-      "url": "https://arxiv.org/abs/2608.15015",
-      "summary": "arXiv:2608.15015v1 Announce Type: new Abstract: Electromagnetic nonreciprocity enables waves to respond differently when their propagation direction is reversed, forming the basis of isolation, directional routing, and a…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
