@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-18T22:25:50.561Z",
+  "updated": "2026-08-18T23:23:41.624Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab to test Space Force data network connection in orbit in 2027",
+      "url": "https://spacenews.com/rocket-lab-to-test-space-force-data-network-connection-in-orbit-in-2027/",
+      "summary": "The company will use a Photon spacecraft to test interoperability with the Space Data Network's core infrastructure built by SpaceX The post Rocket Lab to test Space Force data network connection in orbit in 2027 appeare…",
+      "ts": 1787093556000,
+      "publishedAt": "2026-08-18T22:52:36.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Fauci adviser David Morens pleads guilty to avoiding records requests, conspiracy to defraud government",
@@ -799,15 +808,6 @@
       "title": "Universal Approximation Theorems for Dynamical Systems with Infinite-Time Horizon Guarantees",
       "url": "https://arxiv.org/abs/2602.08640",
       "summary": "arXiv:2602.08640v4 Announce Type: replace-cross Abstract: Universal approximation theorems establish the expressive capacity of neural network architectures. For dynamical systems, existing results are limited to finite …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Leakage-Audited Benchmarking Reveals Limited Evidence for Cross-Subject Auditory-Evoked EEG Vowel Perception Decoding",
-      "url": "https://arxiv.org/abs/2605.00865",
-      "summary": "arXiv:2605.00865v3 Announce Type: replace-cross Abstract: We tested whether auditory-evoked EEG supports subject-independent five-vowel perception decoding when trial identity, model identity, prediction provenance, and …",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"

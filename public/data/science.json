@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-08-18T22:25:46.421Z",
+  "updated": "2026-08-18T23:23:38.078Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "US moves to open vast tracts of pristine forests to logging",
+      "url": "https://phys.org/news/2026-08-vast-tracts-pristine-forests.html",
+      "summary": "President Donald Trump's administration on Tuesday proposed a rule change that would open 44 million acres (68,750 square miles) of wild, undisturbed forest for road construction and logging.",
+      "ts": 1787095203000,
+      "publishedAt": "2026-08-18T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Largest catalog yet of how human cells read DNA shows how chemical marks alter genetic instructions",
+      "url": "https://phys.org/news/2026-08-largest-human-cells-dna-chemical.html",
+      "summary": "Every cell in the body contains essentially the same DNA, yet a brain cell behaves differently from a muscle cell or an immune cell. The difference lies largely in how each cell reads its genetic instructions.",
+      "ts": 1787095201000,
+      "publishedAt": "2026-08-18T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lost 'mega-escarpment' across ancient USA may explain Grand Canyon's missing billion years",
+      "url": "https://phys.org/news/2026-08-lost-mega-escarpment-ancient-usa.html",
+      "summary": "Scientists have found evidence that a colossal cliff stretching thousands of kilometers across ancient North America may have exposed the heart of the Grand Canyon nearly a billion years before it was carved by the Color…",
+      "ts": 1787094605000,
+      "publishedAt": "2026-08-18T23:10:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study links bad bosses with greater work intensity",
+      "url": "https://phys.org/news/2026-08-links-bad-bosses-greater-intensity.html",
+      "summary": "Work intensity is significantly higher under poor line managers, according to new research led by Bayes Business School (City St George's, University of London) that could have strong implications for global occupational…",
+      "ts": 1787094603000,
+      "publishedAt": "2026-08-18T23:10:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Shrews’ noses grow in winter as their brains shrink",
+      "url": "https://www.sciencenews.org/article/shrews-winter-organ-mass-adaptation",
+      "summary": "Long-clawed shrews’ snouts temporarily grow larger in the winter. This skull reshaping may be an extreme survival strategy in cold conditions.",
+      "ts": 1787094060000,
+      "publishedAt": "2026-08-18T23:01:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mars attacks: How much dust from the red planet is safe to breathe?",
+      "url": "https://phys.org/news/2026-08-mars-red-planet-safe.html",
+      "summary": "NASA has released a report recommending an initial health standard for the Martian dust that astronauts could inhale during future missions. Although sending people to Mars is still years away, NASA needs to establish sa…",
+      "ts": 1787094001000,
+      "publishedAt": "2026-08-18T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dying radio galaxies suggest a shorter, more dynamic afterlife for black hole jets",
+      "url": "https://phys.org/news/2026-08-dying-radio-galaxies-shorter-dynamic.html",
+      "summary": "Astronomers have uncovered a previously underexplored population of faint, rapidly fading remnant radio galaxies, offering new insights into what happens after supermassive black holes stop powering their enormous radio …",
+      "ts": 1787093402000,
+      "publishedAt": "2026-08-18T22:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to better forecast once-in-a-millennium weather events",
+      "url": "https://phys.org/news/2026-08-millennium-weather-events.html",
+      "summary": "For all that day-to-day weather forecasts have improved, it remains a challenge to forecast events that might happen once in 1,000 years—like the deadliest heat waves.",
+      "ts": 1787092803000,
+      "publishedAt": "2026-08-18T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sustainable medical electronics can reduce environmental impact by up to 65%",
+      "url": "https://phys.org/news/2026-08-sustainable-medical-electronics-environmental-impact.html",
+      "summary": "While electronic devices have become an integral part of everyday life, the consumption of critical raw materials and energy demand associated with their production continue to rise. According to the European Commission'…",
+      "ts": 1787092801000,
+      "publishedAt": "2026-08-18T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rethinking how we name and classify our human ancestors following recent evolutionary discoveries",
+      "url": "https://phys.org/news/2026-08-rethinking-human-ancestors-evolutionary-discoveries.html",
+      "summary": "Recent advances in our understanding of human evolution challenge the way we currently name and classify our ancestors, according to new research from Monash University. The study, published in the American Journal of Bi…",
+      "ts": 1787092205000,
+      "publishedAt": "2026-08-18T22:30:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Canada's AI strategy needs educators who feel prepared, not just trained",
@@ -719,86 +799,6 @@
       "title": "A physics-informed SUPG-stabilized finite element framework with shock-capturing for simulating inviscid high-speed flows around a cylinder",
       "url": "https://arxiv.org/abs/2608.14883",
       "summary": "arXiv:2608.14883v1 Announce Type: new Abstract: This study presents a hybrid computational framework for simulating non-reacting inviscid high-speed flows of nitrogen gas (N$_2$) around a circular cylinder. Owing to the …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How much work can you get by removing weights from a piston?",
-      "url": "https://arxiv.org/abs/2608.14908",
-      "summary": "arXiv:2608.14908v1 Announce Type: new Abstract: In thermodynamics, reversible adiabatic expansion can be understood as a limit of stepwise irreversible processes. We make this idea concrete by studying an ideal gas in an…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hidden transverse-flow topology in partially coherent structured light",
-      "url": "https://arxiv.org/abs/2608.14923",
-      "summary": "arXiv:2608.14923v1 Announce Type: new Abstract: Partial coherence is commonly viewed as a mechanism that reduces contrast or smooths intensity structure. Here we show that it can also encode hidden transverse-flow topolo…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impacts of Sulfate Injection Geoengineering on Particulate Matter with Diameter less than 2.5 {\\mu}m",
-      "url": "https://arxiv.org/abs/2608.14928",
-      "summary": "arXiv:2608.14928v1 Announce Type: new Abstract: Particulate matter with aerodynamic diameter less than 2.5 {\\mu}m (PM2.5) is of great concern for human health. Here, for the first time, we examine the impact of sulfate a…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aperiodic temporal modulation for distortionless broadband impedance matching beyond the Bode-Fano limit",
-      "url": "https://arxiv.org/abs/2608.14933",
-      "summary": "arXiv:2608.14933v1 Announce Type: new Abstract: The Bode-Fano bound sets a fundamental trade-off between bandwidth and reflection in passive, linear, time-invariant matching networks. We show that an aperiodically time-m…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Updated all-electron Dirac--Fock densities and an element-adaptive parameterisation of scattering factors and potentials for neutral atoms",
-      "url": "https://arxiv.org/abs/2608.14934",
-      "summary": "arXiv:2608.14934v1 Announce Type: new Abstract: Updated reference data and an analytic parameterisation of elastic electron and X-ray scattering are presented for all 118 neutral atoms. The reference electron densities f…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Developing an Offshore Machine Learning Surface Layer Scheme",
-      "url": "https://arxiv.org/abs/2608.14935",
-      "summary": "arXiv:2608.14935v1 Announce Type: new Abstract: Turbulent fluxes between the surface and the atmosphere are typically parameterized using empirically fit relationships. Here we test machine learning techniques for fittin…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Domain-filling rolls in two-dimensional fixed-flux Rayleigh-B\\'enard convection",
-      "url": "https://arxiv.org/abs/2608.14954",
-      "summary": "arXiv:2608.14954v1 Announce Type: new Abstract: Rayleigh-B\\'enard convection of large horizontal extent sometimes self-organizes into domain-filling structures. In two dimensions, domain-filling rolls persist - from some…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generative data assimilation highlights fronts as key regulators of ocean energy cascade",
-      "url": "https://arxiv.org/abs/2608.14955",
-      "summary": "arXiv:2608.14955v1 Announce Type: new Abstract: Mesoscale eddies are fundamental to the ocean circulation, yet the extent to which submesoscale motions, a few kilometers across, influence mesoscale eddy energetics throug…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a 10 mol% Rubidium-doped CsI Crystal for $^{87}$Rb Beta-Spectroscopy and Sterile Neutrino Searches",
-      "url": "https://arxiv.org/abs/2608.14959",
-      "summary": "arXiv:2608.14959v1 Announce Type: new Abstract: The third-forbidden non-unique beta-decay of $^{87}$Rb to $^{87}$Sr (Q$_\\beta = 282.275(6)$ keV) has long served as an important benchmark for understanding forbidden beta-…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Boltzmann Equation Self-Consistent-Field for the Entropic Regularization of Mean-Field Singularities",
-      "url": "https://arxiv.org/abs/2608.14979",
-      "summary": "arXiv:2608.14979v1 Announce Type: new Abstract: We present a Quantum Boltzmann Equation self-consistent-field (QBE-SCF) formulation for molecular electronic structure in which the one-electron reduced density matrix is p…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
