@@ -15,12 +15,17 @@ type ChapterTarget = {
 
 const CHAPTER_TARGETS: ChapterTarget[] = [
 
-  
+  {
+    id: "archenova-map",
+    mark: "⛲︎",
+    title: "MAP",
+    subtitle:"Navigation",
+  },
   {
     id: "galaxy-atlas",
     mark: "❂",
     title: "GALAXY",
-    subtitle: "ArcheNova MAP",
+    subtitle: "",
   },
 
   {

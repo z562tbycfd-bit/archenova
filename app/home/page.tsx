@@ -10,6 +10,8 @@ import CivilizationIntelligencePortal from "../components/CivilizationIntelligen
 import CivilizationExperiencePortal from "../components/CivilizationExperiencePortal";
 import TodaysInquiryPortal
   from "../components/TodaysInquiryPortal";
+import ArcheNovaMap
+  from "../components/civilization/ArcheNovaMap";
 
 export default function Home() {
   return (
@@ -19,6 +21,17 @@ export default function Home() {
     >
       <MobileHomeScrollReset />
       <HomeSectionPager />
+
+      {/* =========================
+          ARCHENOVA MAP
+      ========================= */}
+      <section
+  id="galaxy-atlas"
+  data-home-section
+  className="home-page twin-page civ-intel-portal-page"
+>
+  <ArcheNovaMap />
+</section>
 
       {/* =========================
           CIVILIZATION ARCHITECTURE
