@@ -5627,3 +5627,116 @@ bottom:26px;
 
 
 
+/* ==========================================================
+   GALAXY ATLAS
+   DESKTOP DISPLAY STABILITY ONLY
+
+   Purpose:
+   - Preserve current design
+   - Preserve current node positions / labels
+   - Preserve mobile behavior
+   - Prevent Windows / Edge viewport distortion
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * Keep the current frame design,
+   * but prevent browser-specific size collapse.
+   */
+  .gx-frame {
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    box-sizing: border-box !important;
+
+    transform: none !important;
+  }
+
+
+  /*
+   * Preserve the existing visual dimensions,
+   * while preventing width / height from exceeding
+   * the available frame.
+   */
+  .gx-map {
+    box-sizing: border-box !important;
+
+    max-width:
+      calc(100% - 48px) !important;
+
+    max-height:
+      calc(100% - 120px) !important;
+
+    transform:
+      translate(-50%, -50%) !important;
+
+    transform-origin:
+      center center !important;
+  }
+
+
+  /*
+   * SVG must always follow the actual map box.
+   */
+  .gx-lines {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    overflow: visible !important;
+  }
+
+
+  /*
+   * Prevent browser sizing differences from
+   * shrinking absolutely positioned nodes.
+   */
+  .gx-node,
+  .gx-imperial {
+    box-sizing: border-box !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /*
+   * Keep all node labels visible exactly as
+   * the existing CSS intends.
+   */
+  .gx-node-label {
+    overflow: visible !important;
+  }
+
+
+  .gx-node-label strong,
+  .gx-node-label small {
+    max-width: none !important;
+
+    overflow: visible !important;
+  }
+}
+
+
+/* ==========================================================
+   SHORT DESKTOP SAFETY
+   Windows laptops / browser UI / display scaling
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and (max-height: 820px) {
+
+  /*
+   * Do not redesign the map.
+   * Only make sure it cannot exceed the usable frame height.
+   */
+  .gx-map {
+    max-height:
+      calc(100svh - 170px) !important;
+  }
+}
