@@ -3,22 +3,17 @@
 import Link from "next/link";
 
 import {
-  useCallback,
-  useEffect,
   useMemo,
-  useRef,
   useState,
-  type KeyboardEvent,
+  type CSSProperties,
 } from "react";
-
-import styles from "./ArcheNovaMap.module.css";
 
 
 /* ==========================================================
    TYPES
 ========================================================== */
 
-type LayerId =
+type MapLayer =
   | "all"
   | "observe"
   | "understand"
@@ -27,170 +22,265 @@ type LayerId =
   | "experience"
   | "preserve";
 
+
 type NodeLayer =
-  Exclude<LayerId, "all">;
+  Exclude<
+    MapLayer,
+    "all"
+  >;
 
-type ViewMode =
-  | "map"
-  | "focus"
-  | "path";
-
-type NodeStatus =
-  | "CORE"
-  | "ACTIVE"
-  | "SYSTEM"
-  | "RESEARCH";
 
 type ArcheNovaNode = {
   id: string;
+
   title: string;
+
   shortTitle: string;
+
   eyebrow: string;
+
   description: string;
-  href: string;
+
   layer: NodeLayer;
-  status: NodeStatus;
+
+  href: string;
+
   x: number;
+
   y: number;
-  connections: readonly string[];
-  capabilities: readonly string[];
+
+  status:
+    | "ACTIVE"
+    | "CORE"
+    | "RESEARCH"
+    | "SYSTEM";
+
+  connections:
+    string[];
+
+  capabilities:
+    string[];
 };
 
-type LayerDefinition = {
-  id: LayerId;
-  label: string;
-  description: string;
-};
+
+type MapNodeStyle =
+  CSSProperties & {
+    "--an-map-x":
+      string;
+
+    "--an-map-y":
+      string;
+  };
 
 
 /* ==========================================================
    LAYERS
 ========================================================== */
 
-const LAYERS:
-  readonly LayerDefinition[] = [
+const MAP_LAYERS: readonly {
+  id: MapLayer;
+
+  label: string;
+
+  short:
+    string;
+
+  description:
+    string;
+}[] = [
   {
     id: "all",
-    label: "All",
+    label: "All Systems",
+    short: "ALL",
     description:
-      "The complete ArcheNova civilization architecture.",
+      "View the complete ArcheNova architecture.",
   },
+
   {
     id: "observe",
     label: "Observe",
+    short: "OBSERVE",
     description:
-      "Reality contact, evidence, research and signal detection.",
+      "Reality contact, evidence, research, and signal detection.",
   },
+
   {
     id: "understand",
     label: "Understand",
+    short: "UNDERSTAND",
     description:
-      "Reasoning, synthesis and civilization intelligence.",
+      "Reasoning, intelligence, synthesis, and model formation.",
   },
+
   {
     id: "design",
     label: "Design",
+    short: "DESIGN",
     description:
-      "Architecture, governance, capital and institutional design.",
+      "Architecture, governance, institutions, and system design.",
   },
+
   {
     id: "realize",
     label: "Realize",
+    short: "REALIZE",
     description:
-      "Engineering, deployment, projects and value realization.",
+      "Engineering, implementation, projects, and commercialization.",
   },
+
   {
     id: "experience",
     label: "Experience",
+    short: "EXPERIENCE",
     description:
-      "Dialogue, interaction and direct exploration.",
+      "Dialogue, interaction, open worlds, and human participation.",
   },
+
   {
     id: "preserve",
     label: "Preserve",
+    short: "PRESERVE",
     description:
-      "Memory, evidence and durable knowledge.",
+      "Memory, documentation, origin, and durable knowledge.",
   },
 ];
 
 
 /* ==========================================================
-   SYSTEM MAP
+   NODES
 ========================================================== */
 
-const NODES:
+const MAP_NODES:
   readonly ArcheNovaNode[] = [
 
   /* OBSERVE */
 
   {
     id: "inquiry",
-    title: "Today's Inquiry",
-    shortTitle: "Inquiry",
-    eyebrow: "DAILY REALITY CONTACT",
+
+    title:
+      "Today's Inquiry",
+
+    shortTitle:
+      "Inquiry",
+
+    eyebrow:
+      "DAILY REALITY CONTACT",
+
     description:
-      "One scientific question selected for deeper contact with evidence, uncertainty and unresolved reality.",
-    href: "/home#todays-inquiry",
-    layer: "observe",
-    status: "ACTIVE",
-    x: 12,
-    y: 21,
+      "A daily scientific inquiry selected for deeper contact with evidence, uncertainty, and unresolved reality.",
+
+    layer:
+      "observe",
+
+    href:
+      "/home#todays-inquiry",
+
+    x:
+      13,
+
+    y:
+      22,
+
+    status:
+      "ACTIVE",
+
     connections: [
-      "research",
       "episteme",
+      "research",
       "intelligence",
     ],
+
     capabilities: [
-      "Inquiry",
-      "Evidence",
+      "Scientific inquiry",
+      "Evidence framing",
       "Falsification",
     ],
   },
 
   {
-    id: "research",
-    title: "Research",
-    shortTitle: "Research",
-    eyebrow: "SCIENTIFIC DISCOVERY",
+    id:
+      "research",
+
+    title:
+      "Research",
+
+    shortTitle:
+      "Research",
+
+    eyebrow:
+      "KNOWLEDGE DISCOVERY",
+
     description:
-      "Research programs, scientific analysis and evidence-oriented exploration.",
-    href: "/research",
-    layer: "observe",
-    status: "RESEARCH",
-    x: 13,
-    y: 48,
+      "Research programs, scientific analysis, generated reports, and evidence-oriented exploration.",
+
+    layer:
+      "observe",
+
+    href:
+      "/research",
+
+    x:
+      17,
+
+    y:
+      47,
+
+    status:
+      "RESEARCH",
+
     connections: [
       "inquiry",
-      "observatory",
       "episteme",
       "library",
     ],
+
     capabilities: [
-      "Research",
+      "Research synthesis",
       "Evidence",
-      "Scientific synthesis",
+      "Scientific records",
     ],
   },
 
   {
-    id: "observatory",
-    title: "Observatory",
-    shortTitle: "Observatory",
-    eyebrow: "SIGNAL OBSERVATION",
+    id:
+      "observatory",
+
+    title:
+      "Observatory",
+
+    shortTitle:
+      "Observatory",
+
+    eyebrow:
+      "SIGNAL OBSERVATION",
+
     description:
-      "Observes scientific, technological and civilization-scale changes before they become obvious.",
-    href: "/observatory",
-    layer: "observe",
-    status: "SYSTEM",
-    x: 15,
-    y: 73,
+      "Observes changing scientific, technological, institutional, and civilization-scale conditions.",
+
+    layer:
+      "observe",
+
+    href:
+      "/observatory",
+
+    x:
+      15,
+
+    y:
+      73,
+
+    status:
+      "SYSTEM",
+
     connections: [
       "research",
       "intelligence",
       "memory",
     ],
+
     capabilities: [
-      "Signals",
+      "Signal detection",
       "Monitoring",
       "Reality contact",
     ],
@@ -200,17 +290,36 @@ const NODES:
   /* UNDERSTAND */
 
   {
-    id: "episteme",
-    title: "Episteme",
-    shortTitle: "Episteme",
-    eyebrow: "COGNITIVE ORCHESTRATION",
+    id:
+      "episteme",
+
+    title:
+      "Episteme",
+
+    shortTitle:
+      "Episteme",
+
+    eyebrow:
+      "COGNITIVE ORCHESTRATION",
+
     description:
-      "Interactive intelligence for asking, exploring, challenging, comparing and synthesizing knowledge.",
-    href: "/episteme",
-    layer: "understand",
-    status: "CORE",
-    x: 35,
-    y: 30,
+      "ArcheNova's interactive intelligence layer for asking, exploring, challenging, comparing, and synthesizing knowledge.",
+
+    layer:
+      "understand",
+
+    href:
+      "/episteme",
+
+    x:
+      36,
+
+    y:
+      28,
+
+    status:
+      "CORE",
+
     connections: [
       "inquiry",
       "research",
@@ -218,6 +327,7 @@ const NODES:
       "dialogue",
       "memory",
     ],
+
     capabilities: [
       "Dialogue",
       "Reasoning",
@@ -227,17 +337,36 @@ const NODES:
   },
 
   {
-    id: "intelligence",
-    title: "Civilization Intelligence",
-    shortTitle: "Intelligence",
-    eyebrow: "SYSTEMIC INTELLIGENCE",
+    id:
+      "intelligence",
+
+    title:
+      "Civilization Intelligence",
+
+    shortTitle:
+      "Intelligence",
+
+    eyebrow:
+      "SYSTEMIC INTELLIGENCE",
+
     description:
-      "Transforms signals into structured intelligence about capability, risk, infrastructure and future trajectories.",
-    href: "/civilization-intelligence",
-    layer: "understand",
-    status: "ACTIVE",
-    x: 39,
-    y: 58,
+      "Transforms signals into structured intelligence about capability, risk, infrastructure, coordination, and future trajectories.",
+
+    layer:
+      "understand",
+
+    href:
+      "/civilization-intelligence",
+
+    x:
+      39,
+
+    y:
+      58,
+
+    status:
+      "ACTIVE",
+
     connections: [
       "episteme",
       "observatory",
@@ -245,6 +374,7 @@ const NODES:
       "governance",
       "realization",
     ],
+
     capabilities: [
       "Signal synthesis",
       "Prioritization",
@@ -256,48 +386,88 @@ const NODES:
   /* DESIGN */
 
   {
-    id: "architecture",
-    title: "Civilization Architecture",
-    shortTitle: "Architecture",
-    eyebrow: "SYSTEM DESIGN",
+    id:
+      "architecture",
+
+    title:
+      "Civilization Architecture",
+
+    shortTitle:
+      "Architecture",
+
+    eyebrow:
+      "SYSTEM DESIGN",
+
     description:
-      "Structures technology, institutions, capital and infrastructure into coherent civilization architectures.",
-    href: "/architecture",
-    layer: "design",
-    status: "CORE",
-    x: 61,
-    y: 23,
+      "Structures technologies, institutions, capital, energy, and civilization-scale systems into coherent architectures.",
+
+    layer:
+      "design",
+
+    href:
+      "/architecture",
+
+    x:
+      61,
+
+    y:
+      24,
+
+    status:
+      "CORE",
+
     connections: [
       "intelligence",
       "governance",
       "constitution",
       "realization",
     ],
+
     capabilities: [
-      "Architecture",
+      "System architecture",
       "Integration",
-      "System design",
+      "Institutional design",
     ],
   },
 
   {
-    id: "governance",
-    title: "Governance",
-    shortTitle: "Governance",
-    eyebrow: "ORDER & RESPONSIBILITY",
+    id:
+      "governance",
+
+    title:
+      "Governance",
+
+    shortTitle:
+      "Governance",
+
+    eyebrow:
+      "ORDER & RESPONSIBILITY",
+
     description:
-      "Defines authority, responsibility, correction capacity and institutional boundaries.",
-    href: "/governance",
-    layer: "design",
-    status: "SYSTEM",
-    x: 63,
-    y: 50,
+      "Defines responsibility, authority, correction, institutional boundaries, and durable governance structures.",
+
+    layer:
+      "design",
+
+    href:
+      "/governance",
+
+    x:
+      63,
+
+    y:
+      52,
+
+    status:
+      "SYSTEM",
+
     connections: [
       "architecture",
       "constitution",
       "capital",
       "intelligence",
     ],
+
     capabilities: [
       "Governance",
       "Responsibility",
@@ -306,50 +476,46 @@ const NODES:
   },
 
   {
-    id: "constitution",
-    title: "Constitution",
-    shortTitle: "Constitution",
-    eyebrow: "FOUNDATIONAL CONSTRAINTS",
+    id:
+      "constitution",
+
+    title:
+      "Constitution",
+
+    shortTitle:
+      "Constitution",
+
+    eyebrow:
+      "FOUNDATIONAL CONSTRAINTS",
+
     description:
-      "Preserves durable principles, constraints and responsibilities across institutional change.",
-    href: "/constitution",
-    layer: "design",
-    status: "CORE",
-    x: 60,
-    y: 78,
+      "Encodes the durable principles, limits, responsibilities, and institutional constraints of ArcheNova.",
+
+    layer:
+      "design",
+
+    href:
+      "/constitution",
+
+    x:
+      61,
+
+    y:
+      78,
+
+    status:
+      "CORE",
+
     connections: [
       "governance",
       "architecture",
       "memory",
     ],
+
     capabilities: [
       "Principles",
       "Constraints",
-      "Continuity",
-    ],
-  },
-
-  {
-    id: "capital",
-    title: "Capital Systems",
-    shortTitle: "Capital",
-    eyebrow: "RESOURCE ARCHITECTURE",
-    description:
-      "Structures capital as a responsibility-bearing system for enabling durable implementation.",
-    href: "/capital",
-    layer: "design",
-    status: "SYSTEM",
-    x: 69,
-    y: 65,
-    connections: [
-      "governance",
-      "projects",
-      "commercialization",
-    ],
-    capabilities: [
-      "Capital",
-      "Allocation",
-      "Responsibility",
+      "Institutional continuity",
     ],
   },
 
@@ -357,23 +523,43 @@ const NODES:
   /* REALIZE */
 
   {
-    id: "realization",
-    title: "Realization",
-    shortTitle: "Realization",
-    eyebrow: "IMPLEMENTATION",
+    id:
+      "realization",
+
+    title:
+      "Realization",
+
+    shortTitle:
+      "Realization",
+
+    eyebrow:
+      "IMPLEMENTATION",
+
     description:
-      "Converts validated structures into engineering programs, systems and real capability.",
-    href: "/realization",
-    layer: "realize",
-    status: "ACTIVE",
-    x: 84,
-    y: 24,
+      "Converts validated structures into engineering programs, implementation pathways, and real capability.",
+
+    layer:
+      "realize",
+
+    href:
+      "/realization",
+
+    x:
+      83,
+
+    y:
+      27,
+
+    status:
+      "ACTIVE",
+
     connections: [
       "architecture",
       "intelligence",
       "technology",
       "projects",
     ],
+
     capabilities: [
       "Implementation",
       "Engineering",
@@ -382,75 +568,90 @@ const NODES:
   },
 
   {
-    id: "technology",
-    title: "Technology",
-    shortTitle: "Technology",
-    eyebrow: "CAPABILITY ENGINEERING",
+    id:
+      "technology",
+
+    title:
+      "Technology",
+
+    shortTitle:
+      "Technology",
+
+    eyebrow:
+      "CAPABILITY ENGINEERING",
+
     description:
-      "Develops technologies that expand scientific, industrial and civilizational capability.",
-    href: "/technology",
-    layer: "realize",
-    status: "SYSTEM",
-    x: 85,
-    y: 50,
+      "Explores technologies capable of expanding scientific, industrial, infrastructural, and civilizational capability.",
+
+    layer:
+      "realize",
+
+    href:
+      "/technology",
+
+    x:
+      84,
+
+    y:
+      52,
+
+    status:
+      "SYSTEM",
+
     connections: [
       "realization",
       "projects",
       "commercialization",
     ],
+
     capabilities: [
       "Technology",
-      "Engineering",
-      "Capability",
+      "Engineering systems",
+      "Capability expansion",
     ],
   },
 
   {
-    id: "projects",
-    title: "Projects",
-    shortTitle: "Projects",
-    eyebrow: "EXECUTION",
+    id:
+      "projects",
+
+    title:
+      "Projects",
+
+    shortTitle:
+      "Projects",
+
+    eyebrow:
+      "EXECUTION",
+
     description:
-      "Concrete programs through which architectures confront physical, institutional and economic reality.",
-    href: "/projects",
-    layer: "realize",
-    status: "ACTIVE",
-    x: 84,
-    y: 76,
+      "Concrete implementations through which ArcheNova architectures are tested against physical, institutional, and economic reality.",
+
+    layer:
+      "realize",
+
+    href:
+      "/projects",
+
+    x:
+      84,
+
+    y:
+      77,
+
+    status:
+      "ACTIVE",
+
     connections: [
-      "realization",
       "technology",
-      "capital",
+      "realization",
       "commercialization",
     ],
+
     capabilities: [
       "Projects",
       "Execution",
-      "Implementation",
-    ],
-  },
-
-  {
-    id: "commercialization",
-    title: "Commercialization",
-    shortTitle: "Commercialize",
-    eyebrow: "VALUE REALIZATION",
-    description:
-      "Connects validated capability with deployment, adoption and sustainable economic value.",
-    href: "/commercialization",
-    layer: "realize",
-    status: "SYSTEM",
-    x: 73,
-    y: 89,
-    connections: [
-      "projects",
-      "technology",
-      "capital",
-    ],
-    capabilities: [
-      "Deployment",
-      "Adoption",
-      "Economic value",
+      "Physical implementation",
     ],
   },
 
@@ -458,72 +659,132 @@ const NODES:
   /* EXPERIENCE */
 
   {
-    id: "dialogue",
-    title: "Dialogue",
-    shortTitle: "Dialogue",
-    eyebrow: "HUMAN ↔ SYSTEM EXCHANGE",
-    description:
-      "A conversational layer for questions, interpretations, challenges and revision.",
-    href: "/dialogue",
-    layer: "experience",
-    status: "SYSTEM",
-    x: 36,
-    y: 71,
-    connections: [
-      "episteme",
+    id:
       "experience",
-      "crossings",
-    ],
-    capabilities: [
-      "Dialogue",
-      "Exchange",
-      "Revision",
-    ],
-  },
 
-  {
-    id: "experience",
-    title: "Civilization Experience",
-    shortTitle: "Experience",
-    eyebrow: "INTERACTIVE WORLD",
+    title:
+      "Civilization Experience",
+
+    shortTitle:
+      "Experience",
+
+    eyebrow:
+      "INTERACTIVE WORLD",
+
     description:
-      "A living environment for exploring scientific and civilization systems through interaction.",
-    href: "/civilization-experience",
-    layer: "experience",
-    status: "ACTIVE",
-    x: 36,
-    y: 86,
+      "A living scientific and civilization-scale environment for exploring systems through direct interaction.",
+
+    layer:
+      "experience",
+
+    href:
+      "/civilization-experience",
+
+    x:
+      36,
+
+    y:
+      84,
+
+    status:
+      "ACTIVE",
+
     connections: [
       "dialogue",
       "episteme",
       "realization",
     ],
+
     capabilities: [
       "Open world",
-      "Interaction",
+      "Scientific interaction",
       "Exploration",
     ],
   },
 
   {
-    id: "crossings",
-    title: "Crossings",
-    shortTitle: "Crossings",
-    eyebrow: "PUBLIC EXCHANGE",
+    id:
+      "dialogue",
+
+    title:
+      "Dialogue",
+
+    shortTitle:
+      "Dialogue",
+
+    eyebrow:
+      "HUMAN ↔ SYSTEM EXCHANGE",
+
     description:
-      "A lightweight crossing layer for scientific, technological and civilization-scale fragments.",
-    href: "/crossings",
-    layer: "experience",
-    status: "SYSTEM",
-    x: 16,
-    y: 89,
+      "A conversational and social layer for exchanging questions, interpretations, challenges, and ideas.",
+
+    layer:
+      "experience",
+
+    href:
+      "/dialogue",
+
+    x:
+      36,
+
+    y:
+      70,
+
+    status:
+      "SYSTEM",
+
+    connections: [
+      "episteme",
+      "experience",
+      "crossings",
+    ],
+
+    capabilities: [
+      "Dialogue",
+      "Interaction",
+      "Revision",
+    ],
+  },
+
+  {
+    id:
+      "crossings",
+
+    title:
+      "Crossings",
+
+    shortTitle:
+      "Crossings",
+
+    eyebrow:
+      "PUBLIC EXCHANGE",
+
+    description:
+      "A lightweight public crossing layer for scientific, technological, and civilization-scale fragments.",
+
+    layer:
+      "experience",
+
+    href:
+      "/crossings",
+
+    x:
+      16,
+
+    y:
+      88,
+
+    status:
+      "SYSTEM",
+
     connections: [
       "dialogue",
       "experience",
     ],
+
     capabilities: [
       "Fragments",
-      "Exchange",
+      "Public exchange",
       "Signals",
     ],
   },
@@ -532,23 +793,87 @@ const NODES:
   /* PRESERVE */
 
   {
-    id: "memory",
-    title: "Institutional Memory",
-    shortTitle: "Memory",
-    eyebrow: "LONG-TERM CONTINUITY",
+    id:
+      "library",
+
+    title:
+      "Civilization Library",
+
+    shortTitle:
+      "Library",
+
+    eyebrow:
+      "DURABLE KNOWLEDGE",
+
     description:
-      "Preserves lessons, failures, evidence and architectures across time.",
-    href: "/origin",
-    layer: "preserve",
-    status: "CORE",
-    x: 18,
-    y: 61,
+      "Preserves research, papers, architectures, records, and validated knowledge for future reconstruction.",
+
+    layer:
+      "preserve",
+
+    href:
+      "/papers",
+
+    x:
+      50,
+
+    y:
+      93,
+
+    status:
+      "SYSTEM",
+
+    connections: [
+      "research",
+      "memory",
+      "constitution",
+    ],
+
+    capabilities: [
+      "Archive",
+      "Papers",
+      "Knowledge preservation",
+    ],
+  },
+
+  {
+    id:
+      "memory",
+
+    title:
+      "Institutional Memory",
+
+    shortTitle:
+      "Memory",
+
+    eyebrow:
+      "LONG-TERM CONTINUITY",
+
+    description:
+      "Maintains persistent knowledge, failures, lessons, evidence, and architectures across time.",
+
+    layer:
+      "preserve",
+
+    href:
+      "/origin",
+
+    x:
+      15,
+
+    y:
+      61,
+
+    status:
+      "CORE",
+
     connections: [
       "observatory",
       "episteme",
       "library",
       "constitution",
     ],
+
     capabilities: [
       "Memory",
       "Continuity",
@@ -557,26 +882,90 @@ const NODES:
   },
 
   {
-    id: "library",
-    title: "Civilization Library",
-    shortTitle: "Library",
-    eyebrow: "DURABLE KNOWLEDGE",
+    id:
+      "capital",
+
+    title:
+      "Capital Systems",
+
+    shortTitle:
+      "Capital",
+
+    eyebrow:
+      "RESOURCE ARCHITECTURE",
+
     description:
-      "Preserves research, papers, architectures and validated knowledge for future reconstruction.",
-    href: "/papers",
-    layer: "preserve",
-    status: "SYSTEM",
-    x: 50,
-    y: 94,
+      "Structures capital as a responsibility-bearing system for enabling durable implementation without escaping consequences.",
+
+    layer:
+      "design",
+
+    href:
+      "/capital",
+
+    x:
+      68,
+
+    y:
+      66,
+
+    status:
+      "SYSTEM",
+
     connections: [
-      "research",
-      "memory",
-      "constitution",
+      "governance",
+      "commercialization",
+      "projects",
     ],
+
     capabilities: [
-      "Archive",
-      "Papers",
-      "Preservation",
+      "Capital",
+      "Responsibility",
+      "Resource allocation",
+    ],
+  },
+
+  {
+    id:
+      "commercialization",
+
+    title:
+      "Commercialization",
+
+    shortTitle:
+      "Commercialize",
+
+    eyebrow:
+      "VALUE REALIZATION",
+
+    description:
+      "Connects engineering capability with sustainable economic value, deployment, adoption, and institutional scale.",
+
+    layer:
+      "realize",
+
+    href:
+      "/commercialization",
+
+    x:
+      72,
+
+    y:
+      88,
+
+    status:
+      "SYSTEM",
+
+    connections: [
+      "capital",
+      "projects",
+      "technology",
+    ],
+
+    capabilities: [
+      "Commercialization",
+      "Deployment",
+      "Economic value",
     ],
   },
 ];
@@ -586,139 +975,27 @@ const NODES:
    HELPERS
 ========================================================== */
 
-function normalize(
-  value: string,
-) {
-  return value
-    .toLowerCase()
-    .replace(
-      /[^a-z0-9\s-]/g,
-      " ",
-    )
-    .replace(
-      /\s+/g,
-      " ",
-    )
-    .trim();
-}
-
-
-function getNode(
-  id: string,
-) {
-  return NODES.find(
-    (
-      node,
-    ) =>
-      node.id === id,
-  );
-}
-
-
 function getLayer(
-  id: LayerId,
+  id:
+    NodeLayer,
 ) {
-  return LAYERS.find(
+  return MAP_LAYERS.find(
     (
       layer,
     ) =>
-      layer.id === id,
+      layer.id ===
+      id,
   );
 }
 
 
-/* ==========================================================
-   BREADTH-FIRST PATH SEARCH
-========================================================== */
-
-function findPath(
-  startId: string,
-  endId: string,
+function normalize(
+  value:
+    string,
 ) {
-  if (
-    startId === endId
-  ) {
-    return [
-      startId,
-    ];
-  }
-
-  const queue:
-    string[][] = [
-      [
-        startId,
-      ],
-    ];
-
-  const visited =
-    new Set<string>(
-      [
-        startId,
-      ],
-    );
-
-  while (
-    queue.length > 0
-  ) {
-    const path =
-      queue.shift();
-
-    if (
-      !path
-    ) {
-      continue;
-    }
-
-    const last =
-      path[
-        path.length -
-        1
-      ];
-
-    const node =
-      getNode(
-        last,
-      );
-
-    if (
-      !node
-    ) {
-      continue;
-    }
-
-    for (
-      const connection
-      of node.connections
-    ) {
-      if (
-        connection === endId
-      ) {
-        return [
-          ...path,
-          connection,
-        ];
-      }
-
-      if (
-        !visited.has(
-          connection,
-        )
-      ) {
-        visited.add(
-          connection,
-        );
-
-        queue.push(
-          [
-            ...path,
-            connection,
-          ],
-        );
-      }
-    }
-  }
-
-  return [];
+  return value
+    .toLowerCase()
+    .trim();
 }
 
 
@@ -729,12 +1006,13 @@ function findPath(
 export default function ArcheNovaMap() {
 
   const [
-    layer,
-    setLayer,
+    activeLayer,
+    setActiveLayer,
   ] =
-    useState<LayerId>(
+    useState<MapLayer>(
       "all",
     );
+
 
   const [
     query,
@@ -744,74 +1022,40 @@ export default function ArcheNovaMap() {
       "",
     );
 
+
   const [
     selectedId,
     setSelectedId,
   ] =
-    useState(
+    useState<string>(
       "episteme",
     );
 
-  const [
-    viewMode,
-    setViewMode,
-  ] =
-    useState<ViewMode>(
-      "map",
-    );
 
   const [
-    detailExpanded,
-    setDetailExpanded,
+    detailOpen,
+    setDetailOpen,
   ] =
     useState(
-      false,
-    );
-
-  const [
-    mobileDetailOpen,
-    setMobileDetailOpen,
-  ] =
-    useState(
-      false,
-    );
-
-  const [
-    pathStart,
-    setPathStart,
-  ] =
-    useState(
-      "research",
-    );
-
-  const [
-    pathEnd,
-    setPathEnd,
-  ] =
-    useState(
-      "projects",
-    );
-
-  const searchRef =
-    useRef<
-      HTMLInputElement |
-      null
-    >(
-      null,
+      true,
     );
 
 
   /* ========================================================
-     SELECTED
+     SELECTED NODE
   ======================================================== */
 
   const selectedNode =
     useMemo(
       () =>
-        getNode(
-          selectedId,
+        MAP_NODES.find(
+          (
+            node,
+          ) =>
+            node.id ===
+            selectedId,
         ) ??
-        NODES[0],
+        MAP_NODES[0],
       [
         selectedId,
       ],
@@ -819,112 +1063,88 @@ export default function ArcheNovaMap() {
 
 
   /* ========================================================
-     SEARCH / FILTER
+     FILTER
   ======================================================== */
 
-  const visibleIds =
+  const visibleNodes =
     useMemo(
       () => {
-        const result =
-          new Set<string>();
 
-        const q =
+        const normalizedQuery =
           normalize(
             query,
           );
 
-        NODES.forEach(
+
+        return MAP_NODES.filter(
           (
             node,
           ) => {
+
             const layerMatch =
-              layer ===
+              activeLayer ===
                 "all" ||
               node.layer ===
-                layer;
+                activeLayer;
 
-            const haystack =
+
+            const queryMatch =
+              !normalizedQuery ||
               normalize(
                 [
                   node.title,
-                  node.shortTitle,
                   node.eyebrow,
                   node.description,
                   ...node.capabilities,
                 ].join(
                   " ",
                 ),
+              ).includes(
+                normalizedQuery,
               );
 
-            const queryMatch =
-              q.length ===
-                0 ||
-              haystack.includes(
-                q,
-              );
 
-            if (
+            return (
               layerMatch &&
               queryMatch
-            ) {
-              result.add(
-                node.id,
-              );
-            }
+            );
           },
         );
-
-        return result;
       },
       [
-        layer,
+        activeLayer,
         query,
       ],
     );
 
 
-  const searchResults =
+  const visibleIds =
     useMemo(
-      () => {
-        if (
-          !query.trim()
-        ) {
-          return [];
-        }
-
-        return NODES
-          .filter(
+      () =>
+        new Set(
+          visibleNodes.map(
             (
               node,
             ) =>
-              visibleIds.has(
-                node.id,
-              ),
-          )
-          .slice(
-            0,
-            6,
-          );
-      },
+              node.id,
+          ),
+        ),
       [
-        query,
-        visibleIds,
+        visibleNodes,
       ],
     );
 
 
   /* ========================================================
-     FOCUS
+     CONNECTIONS
   ======================================================== */
 
-  const focusIds =
+  const selectedConnections =
     useMemo(
       () =>
-        new Set<string>(
-          [
-            selectedNode.id,
-            ...selectedNode.connections,
-          ],
+        new Set(
+          selectedNode
+            .connections,
         ),
       [
         selectedNode,
@@ -932,108 +1152,59 @@ export default function ArcheNovaMap() {
     );
 
 
-  /* ========================================================
-     PATH
-  ======================================================== */
-
-  const activePath =
-    useMemo(
-      () =>
-        findPath(
-          pathStart,
-          pathEnd,
-        ),
-      [
-        pathStart,
-        pathEnd,
-      ],
-    );
-
-
-  const pathIds =
-    useMemo(
-      () =>
-        new Set(
-          activePath,
-        ),
-      [
-        activePath,
-      ],
-    );
-
-
-  const pathEdges =
+  const connectionLines =
     useMemo(
       () => {
-        const keys =
-          new Set<string>();
 
-        for (
-          let i = 0;
-          i <
-          activePath.length -
-            1;
-          i +=
-          1
-        ) {
-          keys.add(
-            [
-              activePath[i],
-              activePath[
-                i + 1
-              ],
-            ]
-              .sort()
-              .join(
-                "::",
-              ),
-          );
-        }
-
-        return keys;
-      },
-      [
-        activePath,
-      ],
-    );
-
-
-  /* ========================================================
-     CONNECTION LINES
-  ======================================================== */
-
-  const lines =
-    useMemo(
-      () => {
-        const used =
-          new Set<string>();
-
-        const output:
+        const lines:
           {
             id: string;
-            from: ArcheNovaNode;
-            to: ArcheNovaNode;
+
+            x1: number;
+
+            y1: number;
+
+            x2: number;
+
+            y2: number;
+
+            active: boolean;
           }[] =
           [];
 
-        NODES.forEach(
+
+        const seen =
+          new Set<
+            string
+          >();
+
+
+        MAP_NODES.forEach(
           (
             node,
           ) => {
+
             node.connections.forEach(
               (
                 targetId,
               ) => {
+
                 const target =
-                  getNode(
-                    targetId,
+                  MAP_NODES.find(
+                    (
+                      item,
+                    ) =>
+                      item.id ===
+                      targetId,
                   );
+
 
                 if (
                   !target
                 ) {
                   return;
                 }
+
 
                 const key =
                   [
@@ -1042,203 +1213,75 @@ export default function ArcheNovaMap() {
                   ]
                     .sort()
                     .join(
-                      "::",
+                      "--",
                     );
 
+
                 if (
-                  used.has(
+                  seen.has(
                     key,
                   )
                 ) {
                   return;
                 }
 
-                used.add(
+
+                seen.add(
                   key,
                 );
 
-                output.push({
-                  id: key,
-                  from: node,
-                  to: target,
+
+                lines.push({
+                  id:
+                    key,
+
+                  x1:
+                    node.x,
+
+                  y1:
+                    node.y,
+
+                  x2:
+                    target.x,
+
+                  y2:
+                    target.y,
+
+                  active:
+                    node.id ===
+                      selectedNode.id ||
+                    target.id ===
+                      selectedNode.id,
                 });
               },
             );
           },
         );
 
-        return output;
+
+        return lines;
       },
-      [],
+      [
+        selectedNode,
+      ],
     );
 
 
   /* ========================================================
-     SELECT
+     SELECT NODE
   ======================================================== */
 
-  const selectNode =
-    useCallback(
-      (
-        id: string,
-      ) => {
-        setSelectedId(
-          id,
-        );
-
-        setDetailExpanded(
-          false,
-        );
-
-        setMobileDetailOpen(
-          true,
-        );
-      },
-      [],
+  function selectNode(
+    id:
+      string,
+  ) {
+    setSelectedId(
+      id,
     );
 
-
-  /* ========================================================
-     KEYBOARD
-  ======================================================== */
-
-  useEffect(
-    () => {
-      const onKeyDown =
-        (
-          event:
-            globalThis.KeyboardEvent,
-        ) => {
-          if (
-            event.key ===
-              "/" &&
-            !event.metaKey &&
-            !event.ctrlKey
-          ) {
-            const target =
-              event.target as
-                HTMLElement |
-                null;
-
-            const tag =
-              target
-                ?.tagName
-                .toLowerCase();
-
-            if (
-              tag !==
-                "input" &&
-              tag !==
-                "textarea"
-            ) {
-              event.preventDefault();
-
-              searchRef
-                .current
-                ?.focus();
-            }
-          }
-
-          if (
-            event.key ===
-            "Escape"
-          ) {
-            setQuery(
-              "",
-            );
-
-            setViewMode(
-              "map",
-            );
-
-            setMobileDetailOpen(
-              false,
-            );
-
-            searchRef
-              .current
-              ?.blur();
-          }
-        };
-
-      window.addEventListener(
-        "keydown",
-        onKeyDown,
-      );
-
-      return () => {
-        window.removeEventListener(
-          "keydown",
-          onKeyDown,
-        );
-      };
-    },
-    [],
-  );
-
-
-  /* ========================================================
-     NODE STATE
-  ======================================================== */
-
-  function nodeState(
-    node:
-      ArcheNovaNode,
-  ) {
-    if (
-      !visibleIds.has(
-        node.id,
-      )
-    ) {
-      return styles.filtered;
-    }
-
-    if (
-      viewMode ===
-        "focus" &&
-      !focusIds.has(
-        node.id,
-      )
-    ) {
-      return styles.dimmed;
-    }
-
-    if (
-      viewMode ===
-        "path" &&
-      !pathIds.has(
-        node.id,
-      )
-    ) {
-      return styles.dimmed;
-    }
-
-    return "";
-  }
-
-
-  /* ========================================================
-     KEYBOARD NODE
-  ======================================================== */
-
-  function nodeKeyDown(
-    event:
-      KeyboardEvent<HTMLButtonElement>,
-    node:
-      ArcheNovaNode,
-  ) {
-    if (
-      event.key ===
-        "Enter" ||
-      event.key ===
-        " "
-    ) {
-      event.preventDefault();
-
-      selectNode(
-        node.id,
-      );
-    }
+    setDetailOpen(
+      true,
+    );
   }
 
 
@@ -1247,49 +1290,37 @@ export default function ArcheNovaMap() {
   ======================================================== */
 
   return (
-    <section
-      className={
-        styles.root
-      }
-      aria-label="ArcheNova interactive civilization map"
-    >
+    <div className="an-map">
+
+      {/* ==================================================
+          AMBIENT SPACE
+      ================================================== */}
 
       <div
-        className={
-          styles.ambient
-        }
+        className="an-map__ambient"
         aria-hidden="true"
       />
 
       <div
-        className={
-          styles.noise
-        }
+        className="an-map__stars"
         aria-hidden="true"
       />
 
 
-      <div
-        className={
-          styles.card
-        }
-      >
+      {/* ==================================================
+          MAIN GLASS CARD
+      ================================================== */}
 
-        {/* ==================================================
+      <section className="an-map__card">
+
+        {/* =================================================
             HEADER
-        ================================================== */}
+        ================================================= */}
 
-        <header
-          className={
-            styles.header
-          }
-        >
+        <header className="an-map__header">
 
-          <div
-            className={
-              styles.brand
-            }
-          >
+          <div className="an-map__identity">
+
             <span>
               ARCHENOVA
             </span>
@@ -1299,534 +1330,347 @@ export default function ArcheNovaMap() {
             </strong>
 
             <small>
-              CIVILIZATION NAVIGATION SYSTEM
+              INTERACTIVE CIVILIZATION ARCHITECTURE
             </small>
+
           </div>
 
 
-          <div
-            className={
-              styles.headerStatus
-            }
-          >
+          <div className="an-map__status">
+
             <span>
               <i />
 
-              LIVE
+              SYSTEM ONLINE
             </span>
 
             <small>
               {
-                NODES.length
-              } SYSTEMS
+                MAP_NODES.length
+              } NODES
             </small>
+
           </div>
 
         </header>
 
 
-        {/* ==================================================
-            COMMAND BAR
-        ================================================== */}
+        {/* =================================================
+            SEARCH
+        ================================================= */}
 
-        <div
-          className={
-            styles.command
-          }
-        >
+        <div className="an-map__search-row">
 
-          <div
-            className={
-              styles.searchWrap
-            }
-          >
+          <label className="an-map__search">
 
-            <div
-              className={
-                styles.search
-              }
+            <span
+              aria-hidden="true"
             >
-              <span
-                aria-hidden="true"
-              >
-                ⌕
-              </span>
+              ⌕
+            </span>
 
-              <input
-                ref={
-                  searchRef
-                }
-                type="search"
-                value={
-                  query
-                }
-                placeholder="Search the civilization system"
-                aria-label="Search ArcheNova Map"
-                onChange={(
-                  event,
-                ) => {
+            <input
+              type="search"
+              value={
+                query
+              }
+              onChange={(
+                event,
+              ) => {
+                setQuery(
+                  event
+                    .target
+                    .value,
+                );
+              }}
+              placeholder="Search ArcheNova..."
+              aria-label="Search ArcheNova Map"
+            />
+
+            {query && (
+              <button
+                type="button"
+                onClick={() => {
                   setQuery(
-                    event
-                      .target
-                      .value,
+                    "",
                   );
                 }}
-              />
-
-              <kbd>
-                /
-              </kbd>
-
-              {query && (
-                <button
-                  type="button"
-                  aria-label="Clear search"
-                  onClick={() => {
-                    setQuery(
-                      "",
-                    );
-                  }}
-                >
-                  ×
-                </button>
-              )}
-            </div>
-
-
-            {searchResults.length >
-              0 && (
-              <div
-                className={
-                  styles.searchResults
-                }
+                aria-label="Clear search"
               >
-                {searchResults.map(
-                  (
-                    node,
-                  ) => (
-                    <button
-                      key={
-                        node.id
-                      }
-                      type="button"
-                      onClick={() => {
-                        selectNode(
-                          node.id,
-                        );
-
-                        setQuery(
-                          "",
-                        );
-                      }}
-                    >
-                      <span>
-                        {
-                          node.title
-                        }
-                      </span>
-
-                      <small>
-                        {
-                          getLayer(
-                            node.layer,
-                          )?.label
-                        }
-                      </small>
-                    </button>
-                  ),
-                )}
-              </div>
+                ×
+              </button>
             )}
 
-          </div>
+          </label>
 
 
-          <div
-            className={
-              styles.viewModes
-            }
-            aria-label="Map display mode"
-          >
-            {(
-              [
-                "map",
-                "focus",
-                "path",
-              ] as
-                const
-            ).map(
-              (
-                mode,
-              ) => (
-                <button
-                  key={
-                    mode
-                  }
-                  type="button"
-                  className={
-                    viewMode ===
-                      mode
-                      ? styles.activeMode
-                      : ""
-                  }
-                  onClick={() => {
-                    setViewMode(
-                      mode,
-                    );
-                  }}
-                >
-                  {
-                    mode ===
-                      "map"
-                      ? "Map"
-                      : mode ===
-                          "focus"
-                        ? "Focus"
-                        : "Path"
-                  }
-                </button>
-              ),
-            )}
+          <div className="an-map__mobile-count">
+            {
+              visibleNodes
+                .length
+            } visible
           </div>
 
         </div>
 
 
-        {/* ==================================================
-            LAYERS
-        ================================================== */}
-
-        <nav
-          className={
-            styles.layers
-          }
-          aria-label="ArcheNova system layers"
-        >
-          {LAYERS.map(
-            (
-              item,
-            ) => (
-              <button
-                key={
-                  item.id
-                }
-                type="button"
-                className={
-                  layer ===
-                    item.id
-                    ? styles.activeLayer
-                    : ""
-                }
-                onClick={() => {
-                  setLayer(
-                    item.id,
-                  );
-                }}
-              >
-                {
-                  item.label
-                }
-              </button>
-            ),
-          )}
-        </nav>
-
-
-        {/* ==================================================
-            PATH CONTROL
-        ================================================== */}
-
-        {viewMode ===
-          "path" && (
-          <div
-            className={
-              styles.pathControl
-            }
-          >
-            <span>
-              ROUTE
-            </span>
-
-            <select
-              value={
-                pathStart
-              }
-              aria-label="Path start"
-              onChange={(
-                event,
-              ) => {
-                setPathStart(
-                  event
-                    .target
-                    .value,
-                );
-              }}
-            >
-              {NODES.map(
-                (
-                  node,
-                ) => (
-                  <option
-                    key={
-                      node.id
-                    }
-                    value={
-                      node.id
-                    }
-                  >
-                    {
-                      node.shortTitle
-                    }
-                  </option>
-                ),
-              )}
-            </select>
-
-            <i>
-              →
-            </i>
-
-            <select
-              value={
-                pathEnd
-              }
-              aria-label="Path destination"
-              onChange={(
-                event,
-              ) => {
-                setPathEnd(
-                  event
-                    .target
-                    .value,
-                );
-              }}
-            >
-              {NODES.map(
-                (
-                  node,
-                ) => (
-                  <option
-                    key={
-                      node.id
-                    }
-                    value={
-                      node.id
-                    }
-                  >
-                    {
-                      node.shortTitle
-                    }
-                  </option>
-                ),
-              )}
-            </select>
-
-            <small>
-              {activePath.length >
-                0
-                ? `${activePath.length} systems`
-                : "No route"}
-            </small>
-          </div>
-        )}
-
-
-        {/* ==================================================
+        {/* =================================================
             WORKSPACE
-        ================================================== */}
+        ================================================= */}
 
-        <div
-          className={
-            styles.workspace
-          }
-        >
+        <div className="an-map__workspace">
 
           {/* ===============================================
-              MAP
+              FILTER SIDEBAR
           =============================================== */}
 
-          <div
-            className={
-              styles.mapPanel
-            }
-          >
+          <aside className="an-map__sidebar">
 
-            <div
-              className={
-                styles.mapHeader
-              }
-            >
-              <div>
-                <span>
-                  {
-                    viewMode ===
-                      "focus"
-                      ? "FOCUS MODE"
-                      : viewMode ===
-                          "path"
-                        ? "PATH MODE"
-                        : "CIVILIZATION FIELD"
-                  }
-                </span>
+            <div className="an-map__sidebar-head">
 
-                <strong>
-                  {
-                    viewMode ===
-                      "focus"
-                      ? selectedNode.title
-                      : viewMode ===
-                          "path"
-                        ? "System route"
-                        : "Navigate relationships, not pages."
-                  }
-                </strong>
-              </div>
+              <span>
+                SYSTEM LAYERS
+              </span>
 
               <small>
-                {
-                  visibleIds
-                    .size
-                } VISIBLE
+                FILTER
               </small>
+
             </div>
 
 
-            <div
-              className={
-                styles.canvas
-              }
-            >
+            <div className="an-map__filters">
+
+              {MAP_LAYERS.map(
+                (
+                  layer,
+                ) => {
+
+                  const count =
+                    layer.id ===
+                      "all"
+                      ? MAP_NODES.length
+                      : MAP_NODES.filter(
+                          (
+                            node,
+                          ) =>
+                            node.layer ===
+                            layer.id,
+                        ).length;
+
+
+                  return (
+                    <button
+                      key={
+                        layer.id
+                      }
+                      type="button"
+                      className={
+                        activeLayer ===
+                          layer.id
+                          ? "is-active"
+                          : ""
+                      }
+                      onClick={() => {
+                        setActiveLayer(
+                          layer.id,
+                        );
+                      }}
+                    >
+
+                      <span>
+                        {
+                          layer.label
+                        }
+                      </span>
+
+                      <small>
+                        {
+                          count
+                        }
+                      </small>
+
+                    </button>
+                  );
+                },
+              )}
+
+            </div>
+
+
+            <div className="an-map__layer-info">
+
+              <span>
+                ACTIVE LAYER
+              </span>
+
+              <strong>
+                {
+                  MAP_LAYERS.find(
+                    (
+                      layer,
+                    ) =>
+                      layer.id ===
+                      activeLayer,
+                  )?.label
+                }
+              </strong>
+
+              <p>
+                {
+                  MAP_LAYERS.find(
+                    (
+                      layer,
+                    ) =>
+                      layer.id ===
+                      activeLayer,
+                  )?.description
+                }
+              </p>
+
+            </div>
+
+          </aside>
+
+
+          {/* ===============================================
+              MAP FIELD
+          =============================================== */}
+
+          <main className="an-map__field">
+
+            <div className="an-map__field-head">
+
+              <div>
+                <span>
+                  CIVILIZATION FIELD
+                </span>
+
+                <strong>
+                  Navigate systems
+                  through relationships.
+                </strong>
+              </div>
+
+
+              <small>
+                SELECT A NODE
+              </small>
+
+            </div>
+
+
+            <div className="an-map__canvas">
+
+              {/* ===========================================
+                  GRID
+              =========================================== */}
 
               <div
-                className={
-                  styles.grid
-                }
+                className="an-map__canvas-grid"
                 aria-hidden="true"
               />
 
 
-              {/* CONNECTIONS */}
+              {/* ===========================================
+                  CONNECTIONS
+              =========================================== */}
 
               <svg
-                className={
-                  styles.connections
-                }
+                className="an-map__connections"
                 viewBox="0 0 100 100"
                 preserveAspectRatio="none"
                 aria-hidden="true"
               >
-                {lines.map(
+
+                {connectionLines.map(
                   (
                     line,
-                  ) => {
-                    const selectedEdge =
-                      line.from
-                        .id ===
-                        selectedId ||
-                      line.to
-                        .id ===
-                        selectedId;
-
-                    const pathEdge =
-                      pathEdges.has(
-                        line.id,
-                      );
-
-                    const shouldDim =
-                      viewMode ===
-                        "focus"
-                        ? !selectedEdge
-                        : viewMode ===
-                            "path"
-                          ? !pathEdge
-                          : false;
-
-                    return (
-                      <line
-                        key={
-                          line.id
-                        }
-                        x1={
-                          line.from
-                            .x
-                        }
-                        y1={
-                          line.from
-                            .y
-                        }
-                        x2={
-                          line.to
-                            .x
-                        }
-                        y2={
-                          line.to
-                            .y
-                        }
-                        className={[
-                          selectedEdge
-                            ? styles.activeConnection
-                            : "",
-                          pathEdge
-                            ? styles.pathConnection
-                            : "",
-                          shouldDim
-                            ? styles.dimConnection
-                            : "",
-                        ]
-                          .filter(
-                            Boolean,
-                          )
-                          .join(
-                            " ",
-                          )}
-                      />
-                    );
-                  },
+                  ) => (
+                    <line
+                      key={
+                        line.id
+                      }
+                      x1={
+                        line.x1
+                      }
+                      y1={
+                        line.y1
+                      }
+                      x2={
+                        line.x2
+                      }
+                      y2={
+                        line.y2
+                      }
+                      className={
+                        line.active
+                          ? "is-active"
+                          : ""
+                      }
+                    />
+                  ),
                 )}
+
               </svg>
 
 
-              {/* CENTER */}
+              {/* ===========================================
+                  CENTRAL FIELD
+              =========================================== */}
 
               <div
-                className={
-                  styles.center
-                }
+                className="an-map__core-field"
                 aria-hidden="true"
               >
                 <span />
 
                 <strong>
-                  A
+                  ARCHENOVA
                 </strong>
 
                 <small>
-                  ARCHENOVA
+                  CIVILIZATION SYSTEM
                 </small>
               </div>
 
 
-              {/* NODES */}
+              {/* ===========================================
+                  NODES
+              =========================================== */}
 
-              {NODES.map(
+              {MAP_NODES.map(
                 (
                   node,
                 ) => {
-                  const selected =
-                    node.id ===
-                    selectedId;
 
-                  const connected =
-                    selectedNode
-                      .connections
-                      .includes(
-                        node.id,
-                      );
-
-                  const pathNode =
-                    pathIds.has(
+                  const visible =
+                    visibleIds.has(
                       node.id,
                     );
+
+
+                  const selected =
+                    selectedNode
+                      .id ===
+                    node.id;
+
+
+                  const connected =
+                    selectedConnections.has(
+                      node.id,
+                    );
+
+
+                  const style:
+                    MapNodeStyle = {
+                    "--an-map-x":
+                      `${node.x}%`,
+
+                    "--an-map-y":
+                      `${node.y}%`,
+                  };
+
 
                   return (
                     <button
@@ -1834,20 +1678,25 @@ export default function ArcheNovaMap() {
                         node.id
                       }
                       type="button"
+                      style={
+                        style
+                      }
                       className={[
-                        styles.node,
+                        "an-map-node",
+
+                        `an-map-node--${node.layer}`,
+
                         selected
-                          ? styles.selectedNode
+                          ? "is-selected"
                           : "",
+
                         connected
-                          ? styles.connectedNode
+                          ? "is-connected"
                           : "",
-                        pathNode
-                          ? styles.pathNode
-                          : "",
-                        nodeState(
-                          node,
-                        ),
+
+                        visible
+                          ? ""
+                          : "is-hidden",
                       ]
                         .filter(
                           Boolean,
@@ -1855,38 +1704,20 @@ export default function ArcheNovaMap() {
                         .join(
                           " ",
                         )}
-                      style={{
-                        left:
-                          `${node.x}%`,
-                        top:
-                          `${node.y}%`,
-                      }}
                       onClick={() => {
                         selectNode(
                           node.id,
                         );
                       }}
-                      onKeyDown={(
-                        event,
-                      ) => {
-                        nodeKeyDown(
-                          event,
-                          node,
-                        );
-                      }}
-                      aria-label={`Select ${node.title}`}
+                      aria-label={`Open ${node.title}`}
                     >
-                      <span
-                        className={
-                          styles.nodePoint
-                        }
-                      />
 
-                      <span
-                        className={
-                          styles.nodeCopy
-                        }
-                      >
+                      <span className="an-map-node__pulse" />
+
+                      <span className="an-map-node__core" />
+
+                      <span className="an-map-node__copy">
+
                         <strong>
                           {
                             node.shortTitle
@@ -1897,60 +1728,147 @@ export default function ArcheNovaMap() {
                           {
                             getLayer(
                               node.layer,
-                            )?.label
+                            )?.short
                           }
                         </small>
+
                       </span>
+
                     </button>
                   );
                 },
               )}
 
+
+              {/* ===========================================
+                  EMPTY SEARCH
+              =========================================== */}
+
+              {visibleNodes.length ===
+                0 && (
+                <div className="an-map__empty">
+
+                  <span>
+                    NO MATCH
+                  </span>
+
+                  <strong>
+                    No system matches
+                    this search.
+                  </strong>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setQuery(
+                        "",
+                      );
+
+                      setActiveLayer(
+                        "all",
+                      );
+                    }}
+                  >
+                    Reset Map
+                  </button>
+
+                </div>
+              )}
+
             </div>
 
-          </div>
+
+            {/* =============================================
+                MOBILE FILTERS
+            ============================================= */}
+
+            <div className="an-map__mobile-filters">
+
+              {MAP_LAYERS.map(
+                (
+                  layer,
+                ) => (
+                  <button
+                    key={
+                      layer.id
+                    }
+                    type="button"
+                    className={
+                      activeLayer ===
+                        layer.id
+                        ? "is-active"
+                        : ""
+                    }
+                    onClick={() => {
+                      setActiveLayer(
+                        layer.id,
+                      );
+                    }}
+                  >
+                    {
+                      layer.short
+                    }
+                  </button>
+                ),
+              )}
+
+            </div>
+
+          </main>
 
 
           {/* ===============================================
-              DETAIL
+              DETAIL PANEL
           =============================================== */}
 
           <aside
             className={[
-              styles.detail,
-              mobileDetailOpen
-                ? styles.mobileDetailOpen
+              "an-map__detail",
+
+              detailOpen
+                ? "is-open"
                 : "",
-            ]
-              .filter(
-                Boolean,
-              )
-              .join(
-                " ",
-              )}
+            ].join(
+              " ",
+            )}
           >
 
-            <button
-              type="button"
-              className={
-                styles.mobileClose
-              }
-              aria-label="Close detail"
-              onClick={() => {
-                setMobileDetailOpen(
-                  false,
-                );
-              }}
-            >
-              ×
-            </button>
+            <div className="an-map__detail-top">
+
+              <div>
+                <span>
+                  SELECTED SYSTEM
+                </span>
+
+                <small>
+                  {
+                    selectedNode
+                      .status
+                  }
+                </small>
+              </div>
 
 
-            <div
-              className={
-                styles.detailMeta
-              }
-            >
+              <button
+                type="button"
+                className="an-map__detail-close"
+                onClick={() => {
+                  setDetailOpen(
+                    false,
+                  );
+                }}
+                aria-label="Close details"
+              >
+                ×
+              </button>
+
+            </div>
+
+
+            <div className="an-map__detail-layer">
+
+              <i />
+
               <span>
                 {
                   getLayer(
@@ -1960,20 +1878,10 @@ export default function ArcheNovaMap() {
                 }
               </span>
 
-              <small>
-                {
-                  selectedNode
-                    .status
-                }
-              </small>
             </div>
 
 
-            <span
-              className={
-                styles.detailEyebrow
-              }
-            >
+            <span className="an-map__detail-eyebrow">
               {
                 selectedNode
                   .eyebrow
@@ -1989,11 +1897,7 @@ export default function ArcheNovaMap() {
             </h3>
 
 
-            <p
-              className={
-                styles.detailDescription
-              }
-            >
+            <p className="an-map__detail-description">
               {
                 selectedNode
                   .description
@@ -2001,17 +1905,113 @@ export default function ArcheNovaMap() {
             </p>
 
 
+            <div className="an-map__capabilities">
+
+              <span>
+                CAPABILITIES
+              </span>
+
+              <div>
+
+                {selectedNode
+                  .capabilities
+                  .map(
+                    (
+                      capability,
+                    ) => (
+                      <small
+                        key={
+                          capability
+                        }
+                      >
+                        {
+                          capability
+                        }
+                      </small>
+                    ),
+                  )}
+
+              </div>
+
+            </div>
+
+
+            <div className="an-map__relations">
+
+              <span>
+                CONNECTED SYSTEMS
+              </span>
+
+
+              <div>
+
+                {selectedNode
+                  .connections
+                  .map(
+                    (
+                      connectionId,
+                    ) => {
+
+                      const node =
+                        MAP_NODES.find(
+                          (
+                            item,
+                          ) =>
+                            item.id ===
+                            connectionId,
+                        );
+
+
+                      if (
+                        !node
+                      ) {
+                        return null;
+                      }
+
+
+                      return (
+                        <button
+                          key={
+                            node.id
+                          }
+                          type="button"
+                          onClick={() => {
+                            selectNode(
+                              node.id,
+                            );
+                          }}
+                        >
+
+                          <span>
+                            {
+                              node.shortTitle
+                            }
+                          </span>
+
+                          <small>
+                            →
+                          </small>
+
+                        </button>
+                      );
+                    },
+                  )}
+
+              </div>
+
+            </div>
+
+
             <Link
               href={
                 selectedNode
                   .href
               }
-              className={
-                styles.enter
-              }
+              className="an-map__enter"
             >
+
               <span>
-                Enter
+                ENTER SYSTEM
               </span>
 
               <strong>
@@ -2024,244 +2024,3204 @@ export default function ArcheNovaMap() {
               <i>
                 ↗
               </i>
+
             </Link>
-
-
-            <button
-              type="button"
-              className={
-                styles.more
-              }
-              onClick={() => {
-                setDetailExpanded(
-                  (
-                    current,
-                  ) =>
-                    !current,
-                );
-              }}
-            >
-              <span>
-                {
-                  detailExpanded
-                    ? "Hide details"
-                    : "More details"
-                }
-              </span>
-
-              <i>
-                {
-                  detailExpanded
-                    ? "−"
-                    : "+"
-                }
-              </i>
-            </button>
-
-
-            {detailExpanded && (
-              <div
-                className={
-                  styles.expanded
-                }
-              >
-
-                <section>
-                  <span>
-                    CAPABILITIES
-                  </span>
-
-                  <div
-                    className={
-                      styles.capabilities
-                    }
-                  >
-                    {selectedNode
-                      .capabilities
-                      .map(
-                        (
-                          capability,
-                        ) => (
-                          <small
-                            key={
-                              capability
-                            }
-                          >
-                            {
-                              capability
-                            }
-                          </small>
-                        ),
-                      )}
-                  </div>
-                </section>
-
-
-                <section>
-                  <span>
-                    CONNECTED SYSTEMS
-                  </span>
-
-                  <div
-                    className={
-                      styles.related
-                    }
-                  >
-                    {selectedNode
-                      .connections
-                      .map(
-                        (
-                          id,
-                        ) => {
-                          const node =
-                            getNode(
-                              id,
-                            );
-
-                          if (
-                            !node
-                          ) {
-                            return null;
-                          }
-
-                          return (
-                            <button
-                              key={
-                                node.id
-                              }
-                              type="button"
-                              onClick={() => {
-                                selectNode(
-                                  node.id,
-                                );
-                              }}
-                            >
-                              <span>
-                                {
-                                  node.shortTitle
-                                }
-                              </span>
-
-                              <small>
-                                →
-                              </small>
-                            </button>
-                          );
-                        },
-                      )}
-                  </div>
-                </section>
-
-              </div>
-            )}
-
-
-            <div
-              className={
-                styles.nextPath
-              }
-            >
-              <span>
-                NEXT LOGICAL SYSTEMS
-              </span>
-
-              {selectedNode
-                .connections
-                .slice(
-                  0,
-                  3,
-                )
-                .map(
-                  (
-                    id,
-                  ) => {
-                    const node =
-                      getNode(
-                        id,
-                      );
-
-                    if (
-                      !node
-                    ) {
-                      return null;
-                    }
-
-                    return (
-                      <button
-                        key={
-                          node.id
-                        }
-                        type="button"
-                        onClick={() => {
-                          selectNode(
-                            node.id,
-                          );
-                        }}
-                      >
-                        {
-                          node.shortTitle
-                        }
-
-                        <span>
-                          →
-                        </span>
-                      </button>
-                    );
-                  },
-                )}
-            </div>
 
           </aside>
 
         </div>
 
 
-        {/* ==================================================
+        {/* =================================================
             FOOTER
-        ================================================== */}
+        ================================================= */}
 
-        <footer
-          className={
-            styles.footer
-          }
-        >
+        <footer className="an-map__footer">
+
           <span>
-            Reality
+            REALITY
           </span>
 
           <i />
 
           <span>
-            Observe
+            OBSERVE
           </span>
 
           <i />
 
           <span>
-            Understand
+            UNDERSTAND
           </span>
 
           <i />
 
           <span>
-            Design
+            DESIGN
           </span>
 
           <i />
 
           <span>
-            Realize
+            REALIZE
           </span>
 
           <i />
 
           <span>
-            Preserve
+            PRESERVE
           </span>
+
         </footer>
 
-      </div>
+      </section>
 
-    </section>
+
+      {/* ==================================================
+          CSS
+      ================================================== */}
+
+      <style jsx global>{`
+
+        /* ==================================================
+           ROOT
+        ================================================== */
+
+        .an-map {
+          position: relative;
+
+          isolation: isolate;
+
+          width: 100%;
+          max-width: 100%;
+
+          height:
+            min(
+              820px,
+              calc(
+                100svh -
+                120px
+              )
+            );
+
+          min-height: 620px;
+
+          margin:
+            0 auto;
+
+          padding:
+            10px;
+
+          overflow:
+            hidden;
+
+          color:
+            rgba(
+              247,
+              250,
+              252,
+              0.94
+            );
+
+          box-sizing:
+            border-box;
+        }
+
+
+        /* ==================================================
+           AMBIENT SPACE
+        ================================================== */
+
+        .an-map__ambient {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: -4;
+
+          pointer-events: none;
+
+          background:
+            radial-gradient(
+              circle
+              at
+              50%
+              45%,
+              rgba(
+                151,
+                198,
+                226,
+                0.055
+              ),
+              transparent
+              38%
+            ),
+
+            radial-gradient(
+              circle
+              at
+              15%
+              30%,
+              rgba(
+                96,
+                146,
+                190,
+                0.025
+              ),
+              transparent
+              30%
+            ),
+
+            radial-gradient(
+              circle
+              at
+              85%
+              70%,
+              rgba(
+                160,
+                190,
+                220,
+                0.02
+              ),
+              transparent
+              32%
+            );
+        }
+
+
+        .an-map__stars {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: -3;
+
+          opacity: 0.23;
+
+          pointer-events: none;
+
+          background-image:
+            radial-gradient(
+              circle,
+              rgba(
+                255,
+                255,
+                255,
+                0.45
+              )
+              0
+              0.55px,
+              transparent
+              0.8px
+            );
+
+          background-size:
+            56px
+            56px;
+
+          mask-image:
+            radial-gradient(
+              ellipse
+              at center,
+              black,
+              transparent
+              96%
+            );
+
+          -webkit-mask-image:
+            radial-gradient(
+              ellipse
+              at center,
+              black,
+              transparent
+              96%
+            );
+        }
+
+
+        /* ==================================================
+           MAIN GLASS
+        ================================================== */
+
+        .an-map__card {
+          position: relative;
+
+          width:
+            min(
+              1440px,
+              100%
+            );
+
+          height: 100%;
+
+          display: grid;
+
+          grid-template-rows:
+            auto
+            auto
+            minmax(
+              0,
+              1fr
+            )
+            auto;
+
+          margin:
+            0 auto;
+
+          overflow:
+            hidden;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
+
+          border-radius:
+            28px;
+
+          background:
+            linear-gradient(
+              145deg,
+              rgba(
+                16,
+                18,
+                21,
+                0.72
+              ),
+              rgba(
+                5,
+                6,
+                8,
+                0.85
+              )
+              52%,
+              rgba(
+                0,
+                0,
+                0,
+                0.94
+              )
+            );
+
+          -webkit-backdrop-filter:
+            blur(30px)
+            saturate(115%);
+
+          backdrop-filter:
+            blur(30px)
+            saturate(115%);
+
+          box-shadow:
+            inset
+            0
+            1px
+            0
+            rgba(
+              255,
+              255,
+              255,
+              0.04
+            ),
+
+            0
+            32px
+            100px
+            rgba(
+              0,
+              0,
+              0,
+              0.32
+            );
+
+          box-sizing:
+            border-box;
+        }
+
+
+        .an-map__card::before {
+          content: "";
+
+          position: absolute;
+
+          inset: 0;
+
+          pointer-events: none;
+
+          background:
+            radial-gradient(
+              circle
+              at
+              48%
+              44%,
+              rgba(
+                178,
+                219,
+                241,
+                0.035
+              ),
+              transparent
+              28%
+            ),
+
+            linear-gradient(
+              120deg,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              ),
+              transparent
+              24%,
+              transparent
+              76%,
+              rgba(
+                255,
+                255,
+                255,
+                0.009
+              )
+            );
+        }
+
+
+        /* ==================================================
+           HEADER
+        ================================================== */
+
+        .an-map__header {
+          position: relative;
+
+          z-index: 20;
+
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          min-height: 64px;
+
+          gap: 20px;
+
+          padding:
+            0
+            24px;
+
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.045
+            );
+        }
+
+
+        .an-map__identity {
+          display: flex;
+
+          align-items: baseline;
+
+          gap: 10px;
+
+          min-width: 0;
+        }
+
+
+        .an-map__identity
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.26
+            );
+
+          font-size: 6px;
+
+          font-weight: 650;
+
+          letter-spacing:
+            0.18em;
+        }
+
+
+        .an-map__identity
+        > strong {
+          color:
+            rgba(
+              250,
+              252,
+              253,
+              0.94
+            );
+
+          font-size: 13px;
+
+          font-weight: 470;
+
+          letter-spacing:
+            0.1em;
+        }
+
+
+        .an-map__identity
+        > small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.13em;
+        }
+
+
+        .an-map__status {
+          display: flex;
+
+          align-items: center;
+
+          gap: 13px;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.24
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.12em;
+        }
+
+
+        .an-map__status
+        > span {
+          display: flex;
+
+          align-items: center;
+
+          gap: 6px;
+        }
+
+
+        .an-map__status i {
+          width: 5px;
+          height: 5px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(
+              129,
+              232,
+              183,
+              0.8
+            );
+
+          box-shadow:
+            0
+            0
+            10px
+            rgba(
+              129,
+              232,
+              183,
+              0.3
+            );
+        }
+
+
+        /* ==================================================
+           SEARCH
+        ================================================== */
+
+        .an-map__search-row {
+          position: relative;
+
+          z-index: 20;
+
+          display: flex;
+
+          align-items: center;
+
+          min-height: 58px;
+
+          padding:
+            9px
+            18px;
+
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.04
+            );
+        }
+
+
+        .an-map__search {
+          width:
+            min(
+              520px,
+              100%
+            );
+
+          min-height: 38px;
+
+          display: grid;
+
+          grid-template-columns:
+            auto
+            minmax(
+              0,
+              1fr
+            )
+            auto;
+
+          align-items: center;
+
+          gap: 10px;
+
+          padding:
+            0
+            13px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
+
+          border-radius:
+            13px;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
+
+          -webkit-backdrop-filter:
+            blur(18px);
+
+          backdrop-filter:
+            blur(18px);
+        }
+
+
+        .an-map__search
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.24
+            );
+
+          font-size: 12px;
+        }
+
+
+        .an-map__search input {
+          width: 100%;
+
+          border: 0;
+
+          outline: 0;
+
+          background:
+            transparent;
+
+          color:
+            rgba(
+              248,
+              250,
+              252,
+              0.86
+            );
+
+          font: inherit;
+
+          font-size: 9px;
+        }
+
+
+        .an-map__search input::placeholder {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
+        }
+
+
+        .an-map__search
+        button {
+          width: 24px;
+          height: 24px;
+
+          display: grid;
+
+          place-items: center;
+
+          border: 0;
+
+          background:
+            transparent;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.32
+            );
+
+          cursor: pointer;
+        }
+
+
+        .an-map__mobile-count {
+          display: none;
+
+          margin-left: auto;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
+
+          font-size: 6px;
+
+          letter-spacing:
+            0.1em;
+        }
+
+
+        /* ==================================================
+           WORKSPACE
+        ================================================== */
+
+        .an-map__workspace {
+          position: relative;
+
+          z-index: 10;
+
+          min-height: 0;
+
+          display: grid;
+
+          grid-template-columns:
+            190px
+            minmax(
+              0,
+              1fr
+            )
+            280px;
+
+          overflow: hidden;
+        }
+
+
+        /* ==================================================
+           SIDEBAR
+        ================================================== */
+
+        .an-map__sidebar {
+          min-width: 0;
+
+          overflow: hidden;
+
+          padding:
+            18px
+            14px;
+
+          border-right:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.04
+            );
+
+          background:
+            rgba(
+              0,
+              0,
+              0,
+              0.1
+            );
+        }
+
+
+        .an-map__sidebar-head {
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          padding:
+            0
+            5px
+            13px;
+        }
+
+
+        .an-map__sidebar-head
+        span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.3
+            );
+
+          font-size: 6px;
+
+          font-weight: 650;
+
+          letter-spacing:
+            0.16em;
+        }
+
+
+        .an-map__sidebar-head
+        small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
+
+          font-size: 5px;
+        }
+
+
+        .an-map__filters {
+          display: grid;
+
+          gap: 4px;
+        }
+
+
+        .an-map__filters
+        button {
+          width: 100%;
+
+          min-height: 34px;
+
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          padding:
+            0
+            10px;
+
+          border:
+            1px solid
+            transparent;
+
+          border-radius:
+            10px;
+
+          background:
+            transparent;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.34
+            );
+
+          font: inherit;
+
+          font-size: 7px;
+
+          text-align: left;
+
+          cursor: pointer;
+
+          transition:
+            border-color
+            0.2s ease,
+            background
+            0.2s ease,
+            color
+            0.2s ease;
+        }
+
+
+        .an-map__filters
+        button small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
+
+          font-size: 5px;
+        }
+
+
+        .an-map__filters
+        button:hover {
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.7
+            );
+        }
+
+
+        .an-map__filters
+        button.is-active {
+          border-color:
+            rgba(
+              184,
+              219,
+              239,
+              0.09
+            );
+
+          background:
+            rgba(
+              184,
+              219,
+              239,
+              0.045
+            );
+
+          color:
+            rgba(
+              244,
+              249,
+              252,
+              0.82
+            );
+        }
+
+
+        .an-map__layer-info {
+          margin-top: 18px;
+
+          padding:
+            14px
+            10px
+            0;
+
+          border-top:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.04
+            );
+        }
+
+
+        .an-map__layer-info
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.13em;
+        }
+
+
+        .an-map__layer-info
+        strong {
+          display: block;
+
+          margin-top: 8px;
+
+          color:
+            rgba(
+              245,
+              249,
+              251,
+              0.6
+            );
+
+          font-size: 9px;
+
+          font-weight: 430;
+        }
+
+
+        .an-map__layer-info
+        p {
+          margin:
+            8px
+            0
+            0;
+
+          color:
+            rgba(
+              218,
+              228,
+              234,
+              0.26
+            );
+
+          font-size: 6px;
+
+          line-height: 1.6;
+        }
+
+
+        /* ==================================================
+           FIELD
+        ================================================== */
+
+        .an-map__field {
+          position: relative;
+
+          min-width: 0;
+          min-height: 0;
+
+          display: grid;
+
+          grid-template-rows:
+            auto
+            minmax(
+              0,
+              1fr
+            )
+            auto;
+
+          margin: 0;
+
+          padding: 0;
+
+          overflow: hidden;
+
+          max-width: none;
+        }
+
+
+        .an-map__field-head {
+          min-height: 60px;
+
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          gap: 20px;
+
+          padding:
+            10px
+            18px;
+
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
+        }
+
+
+        .an-map__field-head
+        > div {
+          display: flex;
+
+          flex-direction: column;
+
+          gap: 4px;
+        }
+
+
+        .an-map__field-head
+        span {
+          color:
+            rgba(
+              181,
+              217,
+              238,
+              0.3
+            );
+
+          font-size: 5px;
+
+          font-weight: 650;
+
+          letter-spacing:
+            0.16em;
+        }
+
+
+        .an-map__field-head
+        strong {
+          color:
+            rgba(
+              245,
+              248,
+              250,
+              0.58
+            );
+
+          font-size: 9px;
+
+          font-weight: 400;
+        }
+
+
+        .an-map__field-head
+        > small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.1em;
+        }
+
+
+        /* ==================================================
+           CANVAS
+        ================================================== */
+
+        .an-map__canvas {
+          position: relative;
+
+          min-height: 0;
+
+          overflow: hidden;
+
+          background:
+            radial-gradient(
+              circle
+              at
+              50%
+              50%,
+              rgba(
+                166,
+                207,
+                232,
+                0.026
+              ),
+              transparent
+              35%
+            );
+        }
+
+
+        .an-map__canvas-grid {
+          position: absolute;
+
+          inset: 0;
+
+          opacity: 0.18;
+
+          pointer-events: none;
+
+          background-image:
+            linear-gradient(
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              )
+              1px,
+              transparent
+              1px
+            ),
+
+            linear-gradient(
+              90deg,
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              )
+              1px,
+              transparent
+              1px
+            );
+
+          background-size:
+            44px
+            44px;
+
+          mask-image:
+            radial-gradient(
+              ellipse
+              at center,
+              black,
+              transparent
+              90%
+            );
+
+          -webkit-mask-image:
+            radial-gradient(
+              ellipse
+              at center,
+              black,
+              transparent
+              90%
+            );
+        }
+
+
+        /* ==================================================
+           CONNECTIONS
+        ================================================== */
+
+        .an-map__connections {
+          position: absolute;
+
+          inset: 0;
+
+          width: 100%;
+          height: 100%;
+
+          pointer-events: none;
+
+          overflow: visible;
+        }
+
+
+        .an-map__connections
+        line {
+          stroke:
+            rgba(
+              180,
+              215,
+              235,
+              0.055
+            );
+
+          stroke-width:
+            0.22;
+
+          vector-effect:
+            non-scaling-stroke;
+
+          transition:
+            stroke
+            0.25s ease,
+            opacity
+            0.25s ease;
+        }
+
+
+        .an-map__connections
+        line.is-active {
+          stroke:
+            rgba(
+              189,
+              224,
+              243,
+              0.32
+            );
+        }
+
+
+        /* ==================================================
+           CORE FIELD
+        ================================================== */
+
+        .an-map__core-field {
+          position: absolute;
+
+          left: 50%;
+          top: 52%;
+
+          width: 108px;
+          height: 108px;
+
+          display: flex;
+
+          flex-direction: column;
+
+          align-items: center;
+
+          justify-content: center;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
+          border:
+            1px solid
+            rgba(
+              190,
+              225,
+              244,
+              0.08
+            );
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle,
+              rgba(
+                183,
+                221,
+                242,
+                0.055
+              ),
+              rgba(
+                2,
+                3,
+                5,
+                0.82
+              )
+              65%
+            );
+
+          box-shadow:
+            0
+            0
+            50px
+            rgba(
+              155,
+              204,
+              231,
+              0.035
+            );
+
+          pointer-events: none;
+        }
+
+
+        .an-map__core-field
+        > span {
+          position: absolute;
+
+          inset: 14px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
+
+          border-radius: 50%;
+        }
+
+
+        .an-map__core-field
+        strong {
+          color:
+            rgba(
+              247,
+              250,
+              252,
+              0.58
+            );
+
+          font-size: 8px;
+
+          font-weight: 450;
+
+          letter-spacing:
+            0.12em;
+        }
+
+
+        .an-map__core-field
+        small {
+          margin-top: 5px;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+
+          font-size: 4px;
+
+          letter-spacing:
+            0.12em;
+        }
+
+
+        /* ==================================================
+           NODE
+        ================================================== */
+
+        .an-map-node {
+          position: absolute;
+
+          left:
+            var(
+              --an-map-x
+            );
+
+          top:
+            var(
+              --an-map-y
+            );
+
+          z-index: 5;
+
+          width: 94px;
+
+          min-height: 42px;
+
+          display: flex;
+
+          align-items: center;
+
+          gap: 8px;
+
+          padding:
+            6px
+            7px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.045
+            );
+
+          border-radius:
+            12px;
+
+          background:
+            rgba(
+              5,
+              7,
+              9,
+              0.66
+            );
+
+          color: inherit;
+
+          font: inherit;
+
+          text-align: left;
+
+          cursor: pointer;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
+          -webkit-backdrop-filter:
+            blur(14px);
+
+          backdrop-filter:
+            blur(14px);
+
+          transition:
+            opacity
+            0.25s ease,
+            transform
+            0.25s ease,
+            border-color
+            0.25s ease,
+            background
+            0.25s ease;
+        }
+
+
+        .an-map-node:hover {
+          z-index: 20;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            translateY(
+              -2px
+            );
+
+          border-color:
+            rgba(
+              187,
+              222,
+              241,
+              0.17
+            );
+
+          background:
+            rgba(
+              15,
+              19,
+              22,
+              0.82
+            );
+        }
+
+
+        .an-map-node.is-selected {
+          z-index: 30;
+
+          border-color:
+            rgba(
+              195,
+              229,
+              247,
+              0.28
+            );
+
+          background:
+            rgba(
+              173,
+              214,
+              237,
+              0.075
+            );
+
+          box-shadow:
+            0
+            0
+            28px
+            rgba(
+              163,
+              211,
+              237,
+              0.055
+            );
+        }
+
+
+        .an-map-node.is-connected {
+          border-color:
+            rgba(
+              185,
+              220,
+              239,
+              0.11
+            );
+        }
+
+
+        .an-map-node.is-hidden {
+          opacity: 0.08;
+
+          pointer-events: none;
+        }
+
+
+        .an-map-node__pulse {
+          position: absolute;
+
+          left: 13px;
+          top: 50%;
+
+          width: 14px;
+          height: 14px;
+
+          transform:
+            translateY(
+              -50%
+            );
+
+          border:
+            1px solid
+            rgba(
+              181,
+              221,
+              241,
+              0.16
+            );
+
+          border-radius: 50%;
+        }
+
+
+        .an-map-node.is-selected
+        .an-map-node__pulse {
+          box-shadow:
+            0
+            0
+            18px
+            rgba(
+              184,
+              225,
+              246,
+              0.2
+            );
+        }
+
+
+        .an-map-node__core {
+          position: relative;
+
+          z-index: 2;
+
+          flex:
+            0
+            0
+            6px;
+
+          width: 6px;
+          height: 6px;
+
+          margin-left: 3px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(
+              196,
+              230,
+              247,
+              0.68
+            );
+
+          box-shadow:
+            0
+            0
+            9px
+            rgba(
+              196,
+              230,
+              247,
+              0.28
+            );
+        }
+
+
+        .an-map-node__copy {
+          min-width: 0;
+
+          display: flex;
+
+          flex-direction: column;
+
+          gap: 2px;
+        }
+
+
+        .an-map-node__copy
+        strong {
+          overflow: hidden;
+
+          color:
+            rgba(
+              245,
+              249,
+              251,
+              0.68
+            );
+
+          font-size: 6.5px;
+
+          font-weight: 440;
+
+          text-overflow:
+            ellipsis;
+
+          white-space: nowrap;
+        }
+
+
+        .an-map-node__copy
+        small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+
+          font-size: 3.8px;
+
+          letter-spacing:
+            0.08em;
+        }
+
+
+        /* ==================================================
+           EMPTY
+        ================================================== */
+
+        .an-map__empty {
+          position: absolute;
+
+          left: 50%;
+          top: 50%;
+
+          z-index: 50;
+
+          display: flex;
+
+          flex-direction: column;
+
+          align-items: center;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
+          text-align: center;
+        }
+
+
+        .an-map__empty
+        span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.2
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.16em;
+        }
+
+
+        .an-map__empty
+        strong {
+          margin-top: 8px;
+
+          color:
+            rgba(
+              247,
+              250,
+              252,
+              0.55
+            );
+
+          font-size: 10px;
+
+          font-weight: 410;
+        }
+
+
+        .an-map__empty
+        button {
+          margin-top: 13px;
+
+          padding:
+            8px
+            12px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.08
+            );
+
+          border-radius:
+            999px;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.5
+            );
+
+          font: inherit;
+
+          font-size: 6px;
+
+          cursor: pointer;
+        }
+
+
+        /* ==================================================
+           MOBILE FILTERS
+        ================================================== */
+
+        .an-map__mobile-filters {
+          display: none;
+        }
+
+
+        /* ==================================================
+           DETAIL PANEL
+        ================================================== */
+
+        .an-map__detail {
+          min-width: 0;
+
+          overflow-y: auto;
+
+          padding:
+            19px
+            17px;
+
+          border-left:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.04
+            );
+
+          background:
+            rgba(
+              0,
+              0,
+              0,
+              0.16
+            );
+
+          scrollbar-width:
+            none;
+        }
+
+
+        .an-map__detail::-webkit-scrollbar {
+          display: none;
+        }
+
+
+        .an-map__detail-top {
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          gap: 12px;
+        }
+
+
+        .an-map__detail-top
+        > div {
+          display: flex;
+
+          align-items: center;
+
+          gap: 7px;
+        }
+
+
+        .an-map__detail-top
+        span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.24
+            );
+
+          font-size: 5px;
+
+          font-weight: 650;
+
+          letter-spacing:
+            0.13em;
+        }
+
+
+        .an-map__detail-top
+        small {
+          padding:
+            4px
+            6px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            );
+
+          border-radius:
+            999px;
+
+          color:
+            rgba(
+              184,
+              221,
+              240,
+              0.35
+            );
+
+          font-size: 4px;
+
+          letter-spacing:
+            0.08em;
+        }
+
+
+        .an-map__detail-close {
+          display: none;
+        }
+
+
+        .an-map__detail-layer {
+          display: flex;
+
+          align-items: center;
+
+          gap: 7px;
+
+          margin-top: 24px;
+        }
+
+
+        .an-map__detail-layer
+        i {
+          width: 5px;
+          height: 5px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(
+              177,
+              219,
+              240,
+              0.68
+            );
+        }
+
+
+        .an-map__detail-layer
+        span {
+          color:
+            rgba(
+              185,
+              220,
+              239,
+              0.42
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.13em;
+        }
+
+
+        .an-map__detail-eyebrow {
+          display: block;
+
+          margin-top: 16px;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.15em;
+        }
+
+
+        .an-map__detail h3 {
+          margin:
+            8px
+            0
+            0;
+
+          color:
+            rgba(
+              248,
+              250,
+              252,
+              0.9
+            );
+
+          font-size:
+            clamp(
+              18px,
+              2vw,
+              24px
+            );
+
+          font-weight: 330;
+
+          line-height: 1.08;
+
+          letter-spacing:
+            -0.03em;
+        }
+
+
+        .an-map__detail-description {
+          margin:
+            13px
+            0
+            0;
+
+          color:
+            rgba(
+              218,
+              228,
+              234,
+              0.38
+            );
+
+          font-size: 7px;
+
+          line-height: 1.7;
+        }
+
+
+        /* ==================================================
+           CAPABILITIES
+        ================================================== */
+
+        .an-map__capabilities {
+          margin-top: 21px;
+        }
+
+
+        .an-map__capabilities
+        > span,
+        .an-map__relations
+        > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+
+          font-size: 5px;
+
+          font-weight: 650;
+
+          letter-spacing:
+            0.14em;
+        }
+
+
+        .an-map__capabilities
+        > div {
+          display: flex;
+
+          flex-wrap: wrap;
+
+          gap: 5px;
+
+          margin-top: 9px;
+        }
+
+
+        .an-map__capabilities
+        small {
+          padding:
+            5px
+            7px;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            );
+
+          border-radius:
+            999px;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.015
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.32
+            );
+
+          font-size: 4.5px;
+        }
+
+
+        /* ==================================================
+           RELATIONS
+        ================================================== */
+
+        .an-map__relations {
+          margin-top: 21px;
+        }
+
+
+        .an-map__relations
+        > div {
+          display: grid;
+
+          gap: 3px;
+
+          margin-top: 8px;
+        }
+
+
+        .an-map__relations
+        button {
+          min-height: 31px;
+
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          gap: 10px;
+
+          padding:
+            0
+            8px;
+
+          border:
+            1px solid
+            transparent;
+
+          border-radius:
+            8px;
+
+          background:
+            transparent;
+
+          color:
+            rgba(
+              225,
+              234,
+              239,
+              0.36
+            );
+
+          font: inherit;
+
+          font-size: 6px;
+
+          text-align: left;
+
+          cursor: pointer;
+
+          transition:
+            background
+            0.2s ease,
+            color
+            0.2s ease;
+        }
+
+
+        .an-map__relations
+        button:hover {
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.72
+            );
+        }
+
+
+        .an-map__relations
+        button small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+        }
+
+
+        /* ==================================================
+           ENTER
+        ================================================== */
+
+        .an-map__enter {
+          width: 100%;
+
+          min-height: 52px;
+
+          display: grid;
+
+          grid-template-columns:
+            1fr
+            auto;
+
+          align-items: center;
+
+          gap: 3px;
+
+          margin-top: 22px;
+
+          padding:
+            9px
+            11px;
+
+          border:
+            1px solid
+            rgba(
+              187,
+              223,
+              242,
+              0.1
+            );
+
+          border-radius:
+            13px;
+
+          background:
+            rgba(
+              183,
+              221,
+              241,
+              0.035
+            );
+
+          color:
+            inherit;
+
+          text-decoration: none;
+
+          transition:
+            border-color
+            0.22s ease,
+            background
+            0.22s ease,
+            transform
+            0.22s ease;
+        }
+
+
+        .an-map__enter::after {
+          display:
+            none !important;
+        }
+
+
+        .an-map__enter
+        > span {
+          grid-column:
+            1;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.2
+            );
+
+          font-size: 4.5px;
+
+          letter-spacing:
+            0.13em;
+        }
+
+
+        .an-map__enter
+        > strong {
+          grid-column:
+            1;
+
+          color:
+            rgba(
+              244,
+              249,
+              251,
+              0.66
+            );
+
+          font-size: 8px;
+
+          font-weight: 430;
+        }
+
+
+        .an-map__enter
+        > i {
+          grid-column:
+            2;
+
+          grid-row:
+            1 / 3;
+
+          color:
+            rgba(
+              190,
+              223,
+              241,
+              0.4
+            );
+
+          font-size: 11px;
+
+          font-style: normal;
+        }
+
+
+        .an-map__enter:hover {
+          transform:
+            translateY(
+              -1px
+            );
+
+          border-color:
+            rgba(
+              190,
+              226,
+              245,
+              0.2
+            );
+
+          background:
+            rgba(
+              185,
+              224,
+              245,
+              0.06
+            );
+        }
+
+
+        /* ==================================================
+           FOOTER
+        ================================================== */
+
+        .an-map__footer {
+          position: relative;
+
+          z-index: 20;
+
+          min-height: 38px;
+
+          display: flex;
+
+          align-items: center;
+
+          justify-content: center;
+
+          gap: 7px;
+
+          padding:
+            0
+            16px;
+
+          border-top:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.038
+            );
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            );
+
+          font-size: 4.5px;
+
+          letter-spacing:
+            0.12em;
+        }
+
+
+        .an-map__footer
+        i {
+          width: 11px;
+          height: 1px;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.06
+            );
+        }
+
+
+        /* ==================================================
+           MEDIUM DESKTOP
+        ================================================== */
+
+        @media (
+          max-width: 1180px
+        ) and (
+          min-width: 769px
+        ) {
+
+          .an-map__workspace {
+            grid-template-columns:
+              150px
+              minmax(
+                0,
+                1fr
+              )
+              230px;
+          }
+
+
+          .an-map__sidebar {
+            padding-left:
+              10px;
+
+            padding-right:
+              10px;
+          }
+
+
+          .an-map-node {
+            width: 82px;
+          }
+
+
+          .an-map-node__copy
+          strong {
+            font-size:
+              5.8px;
+          }
+
+
+          .an-map__detail {
+            padding:
+              16px
+              13px;
+          }
+
+        }
+
+
+        /* ==================================================
+           SHORT PC / WINDOWS
+        ================================================== */
+
+        @media (
+          min-width: 769px
+        ) and (
+          max-height: 760px
+        ) {
+
+          .an-map {
+            height:
+              calc(
+                100svh -
+                92px
+              );
+
+            min-height:
+              540px;
+          }
+
+
+          .an-map__header {
+            min-height:
+              54px;
+          }
+
+
+          .an-map__search-row {
+            min-height:
+              48px;
+
+            padding-top:
+              5px;
+
+            padding-bottom:
+              5px;
+          }
+
+
+          .an-map__field-head {
+            min-height:
+              48px;
+          }
+
+
+          .an-map__detail-description {
+            line-height:
+              1.55;
+          }
+
+
+          .an-map__footer {
+            min-height:
+              31px;
+          }
+
+        }
+
+
+        /* ==================================================
+           MOBILE
+        ================================================== */
+
+        @media (
+          max-width: 768px
+        ) {
+
+          .an-map {
+            width: 100%;
+
+            height:
+              min(
+                800px,
+                calc(
+                  100svh -
+                  92px
+                )
+              );
+
+            min-height:
+              610px;
+
+            padding:
+              5px;
+          }
+
+
+          .an-map__card {
+            border-radius:
+              22px;
+
+            grid-template-rows:
+              auto
+              auto
+              minmax(
+                0,
+                1fr
+              );
+          }
+
+
+          .an-map__header {
+            min-height:
+              54px;
+
+            padding:
+              0
+              14px;
+          }
+
+
+          .an-map__identity
+          > span,
+          .an-map__identity
+          > small {
+            display:
+              none;
+          }
+
+
+          .an-map__identity
+          > strong {
+            font-size:
+              11px;
+          }
+
+
+          .an-map__status
+          > span {
+            display:
+              none;
+          }
+
+
+          .an-map__search-row {
+            min-height:
+              52px;
+
+            gap:
+              9px;
+
+            padding:
+              7px
+              11px;
+          }
+
+
+          .an-map__search {
+            width: 100%;
+
+            min-height:
+              37px;
+          }
+
+
+          .an-map__mobile-count {
+            display:
+              block;
+
+            flex:
+              0
+              0
+              auto;
+          }
+
+
+          .an-map__workspace {
+            position:
+              relative;
+
+            display:
+              block;
+
+            min-height:
+              0;
+
+            overflow:
+              hidden;
+          }
+
+
+          .an-map__sidebar {
+            display:
+              none;
+          }
+
+
+          .an-map__field {
+            width:
+              100%;
+
+            height:
+              100%;
+
+            grid-template-rows:
+              auto
+              minmax(
+                0,
+                1fr
+              )
+              auto;
+          }
+
+
+          .an-map__field-head {
+            min-height:
+              49px;
+
+            padding:
+              7px
+              12px;
+          }
+
+
+          .an-map__field-head
+          strong {
+            font-size:
+              7px;
+          }
+
+
+          .an-map__field-head
+          > small {
+            display:
+              none;
+          }
+
+
+          .an-map__canvas {
+            min-height:
+              410px;
+          }
+
+
+          /*
+           * Mobile Map geometry.
+           *
+           * Keep all nodes inside the glass card.
+           */
+
+          .an-map-node {
+            width:
+              74px;
+
+            min-height:
+              37px;
+
+            gap:
+              6px;
+
+            padding:
+              5px
+              6px;
+
+            border-radius:
+              10px;
+          }
+
+
+          .an-map-node__pulse {
+            left:
+              11px;
+
+            width:
+              12px;
+
+            height:
+              12px;
+          }
+
+
+          .an-map-node__core {
+            width:
+              5px;
+
+            height:
+              5px;
+
+            flex-basis:
+              5px;
+          }
+
+
+          .an-map-node__copy
+          strong {
+            font-size:
+              5.4px;
+          }
+
+
+          .an-map-node__copy
+          small {
+            font-size:
+              3.3px;
+          }
+
+
+          .an-map__core-field {
+            width:
+              82px;
+
+            height:
+              82px;
+          }
+
+
+          .an-map__core-field
+          strong {
+            font-size:
+              6px;
+          }
+
+
+          .an-map__core-field
+          small {
+            font-size:
+              3px;
+          }
+
+
+          /* ===============================================
+             Mobile-specific node positions
+          =============================================== */
+
+          .an-map-node[style*="13%"] {
+            left:
+              15% !important;
+          }
+
+
+          /* ===============================================
+             MOBILE FILTER BAR
+          =============================================== */
+
+          .an-map__mobile-filters {
+            display:
+              flex;
+
+            gap:
+              5px;
+
+            padding:
+              8px
+              10px;
+
+            overflow-x:
+              auto;
+
+            border-top:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.04
+              );
+
+            scrollbar-width:
+              none;
+          }
+
+
+          .an-map__mobile-filters::-webkit-scrollbar {
+            display:
+              none;
+          }
+
+
+          .an-map__mobile-filters
+          button {
+            flex:
+              0
+              0
+              auto;
+
+            min-height:
+              28px;
+
+            padding:
+              0
+              9px;
+
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.05
+              );
+
+            border-radius:
+              999px;
+
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.015
+              );
+
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.25
+              );
+
+            font:
+              inherit;
+
+            font-size:
+              4.5px;
+
+            letter-spacing:
+              0.08em;
+
+            cursor:
+              pointer;
+          }
+
+
+          .an-map__mobile-filters
+          button.is-active {
+            border-color:
+              rgba(
+                185,
+                221,
+                241,
+                0.12
+              );
+
+            background:
+              rgba(
+                185,
+                221,
+                241,
+                0.045
+              );
+
+            color:
+              rgba(
+                242,
+                248,
+                251,
+                0.67
+              );
+          }
+
+
+          /* ===============================================
+             MOBILE DETAIL SHEET
+          =============================================== */
+
+          .an-map__detail {
+            position:
+              absolute;
+
+            left:
+              8px;
+
+            right:
+              8px;
+
+            bottom:
+              8px;
+
+            z-index:
+              100;
+
+            max-height:
+              56%;
+
+            padding:
+              17px
+              15px;
+
+            overflow-y:
+              auto;
+
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.075
+              );
+
+            border-radius:
+              18px;
+
+            background:
+              linear-gradient(
+                145deg,
+                rgba(
+                  21,
+                  23,
+                  26,
+                  0.92
+                ),
+                rgba(
+                  2,
+                  3,
+                  5,
+                  0.96
+                )
+              );
+
+            -webkit-backdrop-filter:
+              blur(28px)
+              saturate(115%);
+
+            backdrop-filter:
+              blur(28px)
+              saturate(115%);
+
+            box-shadow:
+              0
+              24px
+              70px
+              rgba(
+                0,
+                0,
+                0,
+                0.42
+              );
+
+            opacity:
+              0;
+
+            visibility:
+              hidden;
+
+            transform:
+              translateY(
+                12px
+              );
+
+            pointer-events:
+              none;
+
+            transition:
+              opacity
+              0.25s ease,
+              visibility
+              0.25s ease,
+              transform
+              0.25s ease;
+          }
+
+
+          .an-map__detail.is-open {
+            opacity:
+              1;
+
+            visibility:
+              visible;
+
+            transform:
+              translateY(
+                0
+              );
+
+            pointer-events:
+              auto;
+          }
+
+
+          .an-map__detail-close {
+            width:
+              28px;
+
+            height:
+              28px;
+
+            display:
+              grid;
+
+            place-items:
+              center;
+
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.06
+              );
+
+            border-radius:
+              50%;
+
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              );
+
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.38
+              );
+
+            font:
+              inherit;
+
+            cursor:
+              pointer;
+          }
+
+
+          .an-map__detail h3 {
+            font-size:
+              20px;
+          }
+
+
+          .an-map__detail-description {
+            font-size:
+              7px;
+          }
+
+
+          .an-map__footer {
+            display:
+              none;
+          }
+
+        }
+
+
+        /* ==================================================
+           SMALL MOBILE
+        ================================================== */
+
+        @media (
+          max-width: 430px
+        ) {
+
+          .an-map {
+            min-height:
+              590px;
+          }
+
+
+          .an-map__canvas {
+            min-height:
+              390px;
+          }
+
+
+          .an-map-node {
+            width:
+              68px;
+          }
+
+
+          .an-map-node__copy
+          strong {
+            font-size:
+              5px;
+          }
+
+
+          .an-map__mobile-count {
+            display:
+              none;
+          }
+
+        }
+
+
+        /* ==================================================
+           REDUCED MOTION
+        ================================================== */
+
+        @media (
+          prefers-reduced-motion:
+          reduce
+        ) {
+
+          .an-map *,
+          .an-map *::before,
+          .an-map *::after {
+            animation:
+              none !important;
+
+            transition:
+              none !important;
+
+            scroll-behavior:
+              auto !important;
+          }
+
+        }
+
+      `}</style>
+
+    </div>
   );
 }
