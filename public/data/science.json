@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-18T02:57:12.377Z",
+  "updated": "2026-08-18T03:50:26.366Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "If your career feels chaotic, try this research-based 'workout routine'",
+      "url": "https://phys.org/news/2026-08-career-chaotic-based-workout-routine.html",
+      "summary": "People's ability to successfully navigate career changes depends on their adaptability and flexibility—skills that can be developed through training transition \"muscles,\" according to Sarah Wittman, assistant professor o…",
+      "ts": 1787023202000,
+      "publishedAt": "2026-08-18T03:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Molecular memory: How a mother's age echoes in her offspring's cells",
@@ -708,6 +716,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
+      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
+      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Complete-Coverage Searches for Lorentz Violation in the Minimal Matter Sector",
       "url": "http://link.aps.org/doi/10.1103/ckyj-bbfl",
       "summary": "Author(s): Marshall J. Basson, Eric Biddulph-West, Caitlyn Holl, Will Lankenau, Facundo Martin Lopez, Bianca Rose Lott, Chihui Shao, Danny P. Shope, Jay D. Tasson, and Zhiyu Zhang All 43 previously unconstrained Lorentz-…",
@@ -727,6 +743,14 @@
       "title": "Evidence of Nuclear Geometry-Driven Anisotropic Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions at $\\sqrt{{s}_{\\mathrm{NN}}}=5.36\\text{ }\\text{ }\\mathrm{TeV}$",
       "url": "http://link.aps.org/doi/10.1103/gymp-vp87",
       "summary": "Author(s): I. J. Abualrob et al. (ALICE Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due t…",
+      "ts": 1786960800000,
+      "publishedAt": "2026-08-17T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
+      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
+      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Lattice Deformation Induced Higher-Order Hybrid Topology",
       "url": "http://link.aps.org/doi/10.1103/4y5t-mh92",
       "summary": "Author(s): Peng Wu, Yu-Gui Peng, Qi-Li Sun, Min-Hang Ling, Weiyin Deng, Xue-Feng Zhu, and Zhengyou Liu Hybrid systems provide a general framework for realizing cooperative effects among multiple topological phases. Unlik…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Curved Odd Elasticity",
-      "url": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
-      "summary": "Author(s): Yuan Zhou, Lazaros Tsaloukidis, Jack Binysh, Yuchao Chen, Nikta Fakhri, Corentin Coulais, and Piotr Surówka Living materials such as membranes, cytoskeletal assemblies, cell collectives, and tissues can often …",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
-      "url": "http://link.aps.org/doi/10.1103/35c1-ylnx",
-      "summary": "Author(s): Kenan Tian, Siwen Chen, Lei Wang, Yuanji Sheng, Dingjiang Long, Rui Li, Han Xie, Yiming Chen, Xiang Bian, Hao Wang, Ruoyu Ding, Chang-Kui Duan, Peiran Yin, Xi Kong, and Pu Huang Exotic spin-spin-velocity-depen…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
-      "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
-      "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     }
