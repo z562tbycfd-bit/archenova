@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-18T16:16:50.695Z",
+  "updated": "2026-08-18T16:33:42.059Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Layered rock in India shows potential signs of microbial life dating to 3.5 billion years ago",
+      "url": "https://phys.org/news/2026-08-layered-india-potential-microbial-life.html",
+      "summary": "A team of researchers reports that they may have found rock containing some of the earliest forms of microbial life on Earth. Their study, published in the Proceedings of the National Academy of Sciences, describes the b…",
+      "ts": 1787070602000,
+      "publishedAt": "2026-08-18T16:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The use of AI in biotechnology is changing faster than the rules governing either technology",
+      "url": "https://phys.org/news/2026-08-ai-biotechnology-faster-technology.html",
+      "summary": "The recent announcement of novel, viable viruses created by artificial intelligence (AI) was celebrated as a major advance in the fight against antibiotic resistance. But it also raised urgent concerns about regulation.",
+      "ts": 1787070009000,
+      "publishedAt": "2026-08-18T16:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New bone analysis challenges long-held theory on farming's arrival in Ireland and Great Britain",
+      "url": "https://phys.org/news/2026-08-bone-analysis-held-theory-farming.html",
+      "summary": "New research led by University College Dublin has rewritten a key chapter in Irish prehistory, revealing that bones long thought to mark the beginning of farming in Ireland belong to bear and wild boar, not cattle.",
+      "ts": 1787070007000,
+      "publishedAt": "2026-08-18T16:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How only a few tree species drive Amazon forest recovery",
+      "url": "https://phys.org/news/2026-08-tree-species-amazon-forest-recovery.html",
+      "summary": "When a destroyed section of the Amazon rainforest begins to recover, nature deploys only a few tree species that can withstand poor soil conditions and blazing sun and grow rapidly, a Brazilian study has shown.",
+      "ts": 1787069908000,
+      "publishedAt": "2026-08-18T16:18:28.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Fiber-optic cable reveals hidden crevasses that could destabilize glaciers",
@@ -767,38 +799,6 @@
       "title": "Direct camera-information optimization of color metalenses without a prescribed phase profile",
       "url": "https://arxiv.org/abs/2608.15907",
       "summary": "arXiv:2608.15907v1 Announce Type: new Abstract: Color metalens design conventionally assigns a target phase to each meta-atom without consulting the camera that will use it. Here we optimize the meta-atom width map direc…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Similarity of start-up flow in porous media for large pressure gradients",
-      "url": "https://arxiv.org/abs/2608.15908",
-      "summary": "arXiv:2608.15908v1 Announce Type: new Abstract: We investigate the start-up flows through ordered porous media (hexagonal close-packed, face-centred cubic and body-centred sphere packs) by means of direct numerical simul…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Monolithic high density integrated photonics on bulk lithium niobate",
-      "url": "https://arxiv.org/abs/2608.15936",
-      "summary": "arXiv:2608.15936v1 Announce Type: new Abstract: Functional electro-optic (EO) tunable photonic integrated circuits are crucial to next-generation information processing and advanced computing, where ferroelectric materia…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An improved phase-field framework for simulating impacts of solidifying metal drops",
-      "url": "https://arxiv.org/abs/2608.15941",
-      "summary": "arXiv:2608.15941v1 Announce Type: new Abstract: Here, an improved phase-field method for simulating the impact dynamics of solidifying molten metal droplets is developed using targeted free-energy modifications. Conventi…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transport-defined photodetection through electrically selectable nonequilibrium carrier transport",
-      "url": "https://arxiv.org/abs/2608.16047",
-      "summary": "arXiv:2608.16047v1 Announce Type: new Abstract: Broadband optical fields can change in both intensity and spectral distribution, but a fixed-response detector maps this evolving information onto a single electrical signa…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }

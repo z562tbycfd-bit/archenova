@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-18T16:16:59.581Z",
+  "updated": "2026-08-18T16:33:43.983Z",
   "items": [
     {
       "source": "NASA",
@@ -253,6 +253,15 @@
       "ts": 1787041800000,
       "publishedAt": "2026-08-18T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "ts": 1787036400000,
+      "publishedAt": "2026-08-18T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -802,15 +811,6 @@
       "ts": 1786985032000,
       "publishedAt": "2026-08-17T16:43:52.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "ULA names Peller as new CEO",
-      "url": "https://spacenews.com/ula-names-peller-as-new-ceo/",
-      "summary": "United Launch Alliance has named Mark Peller, a longtime manager and executive at the company, as its new chief executive. The post ULA names Peller as new CEO appeared first on SpaceNews.",
-      "ts": 1786985031000,
-      "publishedAt": "2026-08-17T16:43:51.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
