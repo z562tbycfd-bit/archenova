@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-18T08:39:23.785Z",
+  "updated": "2026-08-18T09:35:47.279Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Wildfires, drought and extreme heat, 2026",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Wildfires_drought_and_extreme_heat_2026",
+      "summary": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how th…",
+      "ts": 1787058000000,
+      "publishedAt": "2026-08-18T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Hera's Mars flyby guided impact study of Deimos moon",
+      "url": "https://www.esa.int/Space_Safety/Hera/Hera_s_Mars_flyby_guided_impact_study_of_Deimos_moon",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/simulation_of_deimos_impact/27417261-2-eng-GB/Simulation_of_Deimos_impact_card_full.gif\" alt=\"Simulation of Deimos impact\">",
+      "ts": 1787044560000,
+      "publishedAt": "2026-08-18T09:16:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The role of the astronaut is in flux",
+      "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
+      "summary": "When the four astronauts on board NASA’s Artemis II swung around the moon earlier this year, they set a new record for the farthest humans have ever ventured from Earth, surpassing the distance set by Apollo 13 in 1972 b…",
+      "ts": 1787043600000,
+      "publishedAt": "2026-08-18T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NRO to expand use of HawkEye 360’s satellite intelligence",
+      "url": "https://spacenews.com/nro-to-expand-use-of-hawkeye-360s-satellite-intelligence/",
+      "summary": "NRO contract increases U.S. government access to satellite data used to locate radars, ships and other electronic emitters The post NRO to expand use of HawkEye 360’s satellite intelligence appeared first on SpaceNews.",
+      "ts": 1787043600000,
+      "publishedAt": "2026-08-18T09:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Doritos as farm-to-table snacks? Big Food, under duress, gets creative",
@@ -775,42 +811,6 @@
       "ts": 1786957200000,
       "publishedAt": "2026-08-17T09:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What happens when a kid’s robot best friend dies?",
-      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
-      "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing…",
-      "ts": 1786957200000,
-      "publishedAt": "2026-08-17T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Kennedy’s split-screen week: Talk of vaccines in D.C., fraud and addiction out West",
-      "url": "https://www.statnews.com/2026/08/17/rfk-jr-california-tour-maha-messaging-fight-fraud-addiction/?utm_campaign=rss",
-      "summary": "The California trip shows how Kennedy likes to focus on key MAHA themes, while avoiding some divisive topics.",
-      "ts": 1786955400000,
-      "publishedAt": "2026-08-17T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: UnitedHealth faces IRS probe over potential tax avoidance",
-      "url": "https://www.statnews.com/2026/08/17/unitedhealth-irs-probe-audit-targets-foreign-subsidiary-transfers/?utm_campaign=rss",
-      "summary": "The health insurer may face a significant increase in taxes, amid a dispute with federal authorities.",
-      "ts": 1786955400000,
-      "publishedAt": "2026-08-17T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Epic confronts unprecedented challenges as it prepares to address customers and unveil road map",
-      "url": "https://www.statnews.com/2026/08/17/ugm-epic-confronts-challenges-succession-ai-strategy-antitrust/?utm_campaign=rss",
-      "summary": "Epic, whose software is used by the majority of American hospitals, faces unprecedented challenges ahead of its annual User Group Meeting.",
-      "ts": 1786955400000,
-      "publishedAt": "2026-08-17T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
