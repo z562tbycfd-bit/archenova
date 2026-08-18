@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-18T20:26:28.456Z",
+  "updated": "2026-08-18T21:26:34.376Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A single asteroid impact may explain the appearance of Mars' moon Deimos",
+      "url": "https://phys.org/news/2026-08-asteroid-impact-mars-moon-deimos.html",
+      "summary": "Deimos, the smaller and outermost of Mars' two moons, is roughly oval in shape and has a deep depression at its south pole. Unlike its heavily scarred sister moon, Phobos, Deimos is covered by a loose layer of dust and r…",
+      "ts": 1787088006000,
+      "publishedAt": "2026-08-18T21:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How workplace conflict expression shapes team performance",
+      "url": "https://phys.org/news/2026-08-workplace-conflict-team.html",
+      "summary": "Workplace conflict has played a foundational role in theories about how people interact on the job. In a recent paper, researchers developed a new measure of how conflict is expressed among workers that highlights how th…",
+      "ts": 1787088001000,
+      "publishedAt": "2026-08-18T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Hidden stars' suggest that distant galaxies are much more massive than they appear",
+      "url": "https://phys.org/news/2026-08-hidden-stars-distant-galaxies-massive.html",
+      "summary": "Astronomers have discovered that the most massive galaxies in the early universe contain far more small stars than expected. As a result, these early galaxies were likely much more massive than initial measurements sugge…",
+      "ts": 1787086804000,
+      "publishedAt": "2026-08-18T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden losses of amphibians and dragonflies in Berlin's municipal water supply",
+      "url": "https://phys.org/news/2026-08-hidden-losses-amphibians-dragonflies-berlin.html",
+      "summary": "A new study led by researchers at the Museum für Naturkunde Berlin shows that Berlin's dragonfly populations have declined by more than half since 1963, while populations of frogs, toads and newts have fallen by more tha…",
+      "ts": 1787086801000,
+      "publishedAt": "2026-08-18T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Switchable' smart gel may pave way for next-gen drug delivery and sensing tech",
+      "url": "https://phys.org/news/2026-08-switchable-smart-gel-pave-gen.html",
+      "summary": "University of Birmingham scientists have developed a new material that changes from a gel to a liquid-like state under ultraviolet light and can be rebuilt using heat or dismantled by acid.",
+      "ts": 1787086204000,
+      "publishedAt": "2026-08-18T20:50:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plants could transform how scientists measure the climate benefits of tidal marshes",
+      "url": "https://phys.org/news/2026-08-scientists-climate-benefits-tidal-marshes.html",
+      "summary": "Growing up in New Jersey, Emily Wilson regularly passed tidal marshes without giving them much thought. They were part of the coastal landscape—stretches of green and blue she saw from the road.",
+      "ts": 1787086202000,
+      "publishedAt": "2026-08-18T20:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep-learning approach rapidly predicts where metals bind within proteins",
+      "url": "https://phys.org/news/2026-08-deep-approach-rapidly-metals-proteins.html",
+      "summary": "In the living world, roughly a third of all proteins we know rely on metals to function. Zinc helps enzymes break down molecules, iron helps carry oxygen in the blood, calcium helps relay signals in cells and potassium f…",
+      "ts": 1787085605000,
+      "publishedAt": "2026-08-18T20:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Grasshopper-inspired AI boosts emergency resource prediction",
+      "url": "https://phys.org/news/2026-08-grasshopper-ai-boosts-emergency-resource.html",
+      "summary": "A hybrid artificial intelligence (AI) system modeled on grasshopper behavior could help allocate medical resources, transport and power during an urban emergency, according to research in the International Journal of Env…",
+      "ts": 1787085604000,
+      "publishedAt": "2026-08-18T20:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Working from home should be a right, not a reward",
@@ -556,6 +620,30 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Extendibility of Fermionic Gaussian States",
+      "url": "http://link.aps.org/doi/10.1103/65dd-448y",
+      "summary": "Author(s): Amir-Reza Negari and Farzin Salek We investigate $({k}_{1},{k}_{2})$ extendibility of fermionic Gaussian states, a property central to quantum correlations and approximations of separability. We show that thes…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Kirkwood-Dirac Nonpositivity Is a Necessary Resource for Quantum Computing",
+      "url": "http://link.aps.org/doi/10.1103/x819-898d",
+      "summary": "Author(s): Jonathan J. Thio, Songqinghao Yang, Nicole Yunger Halpern, Stephan De Bièvre, Crispin H. W. Barnes, and David R. M. Arvidsson-Shukur We elucidate the boundary between classical and quantum computation by const…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Characterization of the Three-Flavor Composition of Cosmic Neutrinos with IceCube",
+      "url": "http://link.aps.org/doi/10.1103/vntd-m133",
+      "summary": "Author(s): R. Abbasi et al. (IceCube Collaboration) The flavor composition of cosmic neutrinos probes both the physical properties of their sources and oscillations over energies and distances unreachable by terrestrial …",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Constraints on Large-Scale White Noise in the Cosmic Density Field",
       "url": "http://link.aps.org/doi/10.1103/7dwt-h1h7",
       "summary": "Author(s): Gabriela Barenboim, Aurora Ireland, and Albert Stebbins We present observational constraints on large-scale white noise (LSWN) in the cosmic density field, a phenomenon predicted to arise from nonlinear mode c…",
@@ -588,25 +676,57 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Extendibility of Fermionic Gaussian States",
-      "url": "http://link.aps.org/doi/10.1103/65dd-448y",
-      "summary": "Author(s): Amir-Reza Negari and Farzin Salek We investigate $({k}_{1},{k}_{2})$ extendibility of fermionic Gaussian states, a property central to quantum correlations and approximations of separability. We show that thes…",
+      "title": "Unlocking Static Polarization and Strain Density Waves in Perovskites by Softening a Hidden Antiferrodistortive Tilt Gradient Mode",
+      "url": "http://link.aps.org/doi/10.1103/xlvk-k52x",
+      "summary": "Author(s): Yajun Zhang, Devesh R. Kripalani, Xu He, Konstantin Shapovalov, Jiyuan Yang, Hongjian Zhao, Shi Liu, Huadong Yong, Xingyi Zhang, Jie Wang, Kun Zhou, and Philippe Ghosez Spin density waves (SDWs) represent a fu…",
       "ts": 1787047200000,
       "publishedAt": "2026-08-18T10:00:00.000Z"
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Kirkwood-Dirac Nonpositivity Is a Necessary Resource for Quantum Computing",
-      "url": "http://link.aps.org/doi/10.1103/x819-898d",
-      "summary": "Author(s): Jonathan J. Thio, Songqinghao Yang, Nicole Yunger Halpern, Stephan De Bièvre, Crispin H. W. Barnes, and David R. M. Arvidsson-Shukur We elucidate the boundary between classical and quantum computation by const…",
+      "title": "Discovery of Berezinskii-Kosterlitz-Thouless Correlations in the Quantum Kagome Compound ${\\mathrm{Cs}}_{2}{\\mathrm{Cu}}_{3}{\\mathrm{SnF}}_{12}$",
+      "url": "http://link.aps.org/doi/10.1103/bm42-z87g",
+      "summary": "Author(s): M. S. Grbić, I. Jakovac, I. Kupčić, H. Tanaka, and M. Horvatić We investigate the microscopic properties of the kagome compound ${\\mathrm{Cs}}_{2}{\\mathrm{Cu}}_{3}{\\mathrm{SnF}}_{12}$ using $^{63,65}\\mathrm{Cu…",
       "ts": 1787047200000,
       "publishedAt": "2026-08-18T10:00:00.000Z"
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Characterization of the Three-Flavor Composition of Cosmic Neutrinos with IceCube",
-      "url": "http://link.aps.org/doi/10.1103/vntd-m133",
-      "summary": "Author(s): R. Abbasi et al. (IceCube Collaboration) The flavor composition of cosmic neutrinos probes both the physical properties of their sources and oscillations over energies and distances unreachable by terrestrial …",
+      "title": "Spin Stripes and Superconductivity in Bilayer Nickelates",
+      "url": "http://link.aps.org/doi/10.1103/zqg5-gzbq",
+      "summary": "Author(s): Hao-Xin Wang, Hanbit Oh, Tobias Helbig, Bai Yang Wang, Jiarui Li, Yijun Yu, Harold Y. Hwang, Hong-Chen Jiang, Yi-Ming Wu, and S. Raghu Density matrix renormalization group calculations reveal spin-stripe order…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Majorana Edge Modes in Isolated Wires",
+      "url": "http://link.aps.org/doi/10.1103/97fb-45n9",
+      "summary": "Author(s): Jaden Thomas-Markarian, Kartiek Agarwal, and Ivar Martin Topological superconductors are believed to host exotic quasiparticle excitations known as Majorana zero modes (MZMs), with much of the evidence based o…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Charged Excitations Made Neutral: $N$-Centered Ensemble Density Functional Theory of Fukui Functions",
+      "url": "http://link.aps.org/doi/10.1103/gjf6-25xy",
+      "summary": "Author(s): Lucien Dupuy and Emmanuel Fromager An in-principle exact working equation to compute electronic affinity and ionization Fukui functions is derived within the $N$-centered (Nc) ensemble extension of density fun…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Paradoxical Increase of Capacity due to Spurious Overlaps in Attractor Networks",
+      "url": "http://link.aps.org/doi/10.1103/wjsd-xzlq",
+      "summary": "Author(s): Marco Benedetti, Nicolas Brunel, Enzo Marinari, and Ulises Pereira-Obilinovic In Hopfield-type associative memory models, memories are stored in the connectivity matrix and can be retrieved subsequently thanks…",
+      "ts": 1787047200000,
+      "publishedAt": "2026-08-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Highly linear flux-to-voltage transducer based on superconducting quantum interference proximity transistors",
+      "url": "http://link.aps.org/doi/10.1103/f7n9-jkwg",
+      "summary": "Author(s): Angelo Greco, Giorgio De Simoni, and Francesco Giazotto Superconducting quantum interference devices (SQUIDs) are state-of-the-art in ultrasensitive magnetometry; however, conventional SQUIDs are fundamentally…",
       "ts": 1787047200000,
       "publishedAt": "2026-08-18T10:00:00.000Z"
     },
@@ -636,30 +756,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Unlocking Static Polarization and Strain Density Waves in Perovskites by Softening a Hidden Antiferrodistortive Tilt Gradient Mode",
-      "url": "http://link.aps.org/doi/10.1103/xlvk-k52x",
-      "summary": "Author(s): Yajun Zhang, Devesh R. Kripalani, Xu He, Konstantin Shapovalov, Jiyuan Yang, Hongjian Zhao, Shi Liu, Huadong Yong, Xingyi Zhang, Jie Wang, Kun Zhou, and Philippe Ghosez Spin density waves (SDWs) represent a fu…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Discovery of Berezinskii-Kosterlitz-Thouless Correlations in the Quantum Kagome Compound ${\\mathrm{Cs}}_{2}{\\mathrm{Cu}}_{3}{\\mathrm{SnF}}_{12}$",
-      "url": "http://link.aps.org/doi/10.1103/bm42-z87g",
-      "summary": "Author(s): M. S. Grbić, I. Jakovac, I. Kupčić, H. Tanaka, and M. Horvatić We investigate the microscopic properties of the kagome compound ${\\mathrm{Cs}}_{2}{\\mathrm{Cu}}_{3}{\\mathrm{SnF}}_{12}$ using $^{63,65}\\mathrm{Cu…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spin Stripes and Superconductivity in Bilayer Nickelates",
-      "url": "http://link.aps.org/doi/10.1103/zqg5-gzbq",
-      "summary": "Author(s): Hao-Xin Wang, Hanbit Oh, Tobias Helbig, Bai Yang Wang, Jiarui Li, Yijun Yu, Harold Y. Hwang, Hong-Chen Jiang, Yi-Ming Wu, and S. Raghu Density matrix renormalization group calculations reveal spin-stripe order…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Probing the Quantum Geometry of Correlated Metals Using Optical Conductivity",
       "url": "http://link.aps.org/doi/10.1103/hrxh-y5dl",
       "summary": "Author(s): Deven P. Carmichael and Martin Claassen Recent studies have revealed that the quantum geometry of electronic bands determines the electromagnetic properties of noninteracting insulators and semimetals. However…",
@@ -668,41 +764,9 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Majorana Edge Modes in Isolated Wires",
-      "url": "http://link.aps.org/doi/10.1103/97fb-45n9",
-      "summary": "Author(s): Jaden Thomas-Markarian, Kartiek Agarwal, and Ivar Martin Topological superconductors are believed to host exotic quasiparticle excitations known as Majorana zero modes (MZMs), with much of the evidence based o…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Quantum Brownian Motion: Proving That the Schmid Transition Belongs to the Berezinskii-Kosterlitz-Thouless Universality Class",
       "url": "http://link.aps.org/doi/10.1103/drcz-b46s",
       "summary": "Author(s): F. G. Capone, A. de Candia, V. Cataudella, R. Fazio, N. Nagaosa, C. A. Perroni, and G. De Filippis We investigate the equilibrium properties of a quantum Brownian particle moving in a periodic potential, speci…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Charged Excitations Made Neutral: $N$-Centered Ensemble Density Functional Theory of Fukui Functions",
-      "url": "http://link.aps.org/doi/10.1103/gjf6-25xy",
-      "summary": "Author(s): Lucien Dupuy and Emmanuel Fromager An in-principle exact working equation to compute electronic affinity and ionization Fukui functions is derived within the $N$-centered (Nc) ensemble extension of density fun…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Paradoxical Increase of Capacity due to Spurious Overlaps in Attractor Networks",
-      "url": "http://link.aps.org/doi/10.1103/wjsd-xzlq",
-      "summary": "Author(s): Marco Benedetti, Nicolas Brunel, Enzo Marinari, and Ulises Pereira-Obilinovic In Hopfield-type associative memory models, memories are stored in the connectivity matrix and can be retrieved subsequently thanks…",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Highly linear flux-to-voltage transducer based on superconducting quantum interference proximity transistors",
-      "url": "http://link.aps.org/doi/10.1103/f7n9-jkwg",
-      "summary": "Author(s): Angelo Greco, Giorgio De Simoni, and Francesco Giazotto Superconducting quantum interference devices (SQUIDs) are state-of-the-art in ultrasensitive magnetometry; however, conventional SQUIDs are fundamentally…",
       "ts": 1787047200000,
       "publishedAt": "2026-08-18T10:00:00.000Z"
     },
@@ -737,70 +801,6 @@
       "summary": "Borneo in Indonesia, home to pristine rainforest and protected species, is burning. Meteorologist Safillah Anggie Wahyuni hopes a solution lies in the clouds.",
       "ts": 1787041201000,
       "publishedAt": "2026-08-18T08:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Each degree of warming could add a month of intolerable heat for 1 billion people",
-      "url": "https://phys.org/news/2026-08-degree-month-intolerable-billion-people.html",
-      "summary": "The threat that rising temperatures fueled by climate change pose to the health of older people has been dramatically underestimated, according to a U.S. modeling study published Tuesday.",
-      "ts": 1787041004000,
-      "publishedAt": "2026-08-18T08:16:44.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A looming rock collapse threatens a Swiss village as thawing permafrost destabilizes the Alps",
-      "url": "https://phys.org/news/2026-08-looming-collapse-threatens-swiss-village.html",
-      "summary": "An unstable mountain rock formation looming above the Swiss village of Kandersteg threatens a landslide that could rival the disaster that destroyed nearby Blatten last year, a collapse scientists linked to thawing perma…",
-      "ts": 1787040159000,
-      "publishedAt": "2026-08-18T08:02:39.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Ancient Egyptian tomb shows how burial trends changed over hundreds of years",
-      "url": "https://phys.org/news/2026-08-ancient-egyptian-tomb-burial-trends.html",
-      "summary": "The Theban Necropolis, opposite Luxor, consists of more than 400 tombs. In a new Frontiers in Environmental Archaeology study, researchers in Spain examined part of one of these tombs—chamber three in tomb TT 209—to reco…",
-      "ts": 1787025601000,
-      "publishedAt": "2026-08-18T04:00:01.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterization of Thermal Systems from Noisy and Low-resolution Measurements Using Dynamic Mode Decomposition",
-      "url": "https://arxiv.org/abs/2608.14581",
-      "summary": "arXiv:2608.14581v1 Announce Type: new Abstract: Thermal monitoring in practical applications is often constrained by sparse sensing, measurement noise, and limited spatial resolution, which hinder the identification of h…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Calibration-Leverage Tradeoff in Exactly Solvable Win-Probability Models",
-      "url": "https://arxiv.org/abs/2608.14696",
-      "summary": "arXiv:2608.14696v1 Announce Type: new Abstract: We study ball-by-ball win probability (WP) for second-innings run chases in Twenty20 cricket, built as an exactly solvable Markov model: we estimate a single object, the pe…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring new directions in enhancing the ACTS parameter optimization suite",
-      "url": "https://arxiv.org/abs/2608.14714",
-      "summary": "arXiv:2608.14714v1 Announce Type: new Abstract: Track seeding strongly affects both the quality and computational cost of charged-particle reconstruction, yet its many configuration parameters are commonly tuned through …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra",
-      "url": "https://arxiv.org/abs/2608.14720",
-      "summary": "arXiv:2608.14720v1 Announce Type: new Abstract: Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Desp…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "What is superatom?",
-      "url": "https://arxiv.org/abs/2608.14739",
-      "summary": "arXiv:2608.14739v1 Announce Type: new Abstract: The term \"superatom\" has served the cluster community well for over three decades, but the jellium picture that gave it birth has quietly become a cage. This Perspective as…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
     }
   ],
   "sources": [

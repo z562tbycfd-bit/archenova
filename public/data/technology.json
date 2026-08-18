@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-18T20:26:31.370Z",
+  "updated": "2026-08-18T21:26:36.560Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Fauci adviser David Morens pleads guilty to avoiding records requests, defrauding government",
+      "url": "https://www.statnews.com/2026/08/18/david-morens-guilty-plea-niaid-fauci-adviser/?utm_campaign=rss",
+      "summary": "Morens said he had agreed to work to avoid public disclosures and to use his influence to advance a company's interests.",
+      "ts": 1787088310000,
+      "publishedAt": "2026-08-18T21:25:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Nonprofit health system raked in $1.1 billion this year from stake in medical billing firm",
+      "url": "https://www.statnews.com/2026/08/18/bon-secours-mercy-revenue-cycle-firm-ensemble-2026-payouts/?utm_campaign=rss",
+      "summary": "Private equity firms have taken a strong interest in revenue cycle management firms, such as Ensemble.",
+      "ts": 1787086223000,
+      "publishedAt": "2026-08-18T20:50:23.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Trump administration sued over visa time limit that would affect grad students, postdocs",
@@ -13,7 +31,7 @@
     },
     {
       "source": "OpenAI",
-      "title": "Strengthening Democratic Oversight in National Security",
+      "title": "Strengthening democratic oversight in national security",
       "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
       "ts": 1787079600000,
@@ -181,6 +199,24 @@
       "ts": 1787054400000,
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "What’s journalism worth in disasters and emergencies? A lot, says a new UN report",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168164",
+      "summary": "A single New York Times article on a disaster generated an additional $500,000 in official aid. That’s just one of the findings on the critical role a free press plays in saving lives, according to a new UN report releas…",
+      "ts": 1787054400000,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Lebanon: 860,000 displaced people have returned home, but humanitarian crisis remains ‘immense’",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168163",
+      "summary": "Around 860,000 people displaced by the conflict in southern Lebanon have returned, but the displacement and humanitarian crisis are “far from over,” the UN warned on Tuesday.",
+      "ts": 1787054400000,
+      "publishedAt": "2026-08-18T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -774,42 +810,6 @@
       "summary": "arXiv:2606.08805v2 Announce Type: replace-cross Abstract: Dynamical mean-field theory (DMFT) maps deterministic chaos in random recurrent neural networks to an effective Gaussian process, usually treated as an ensemble d…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Best practices for measuring the performance and stability of indoor photovoltaic devices",
-      "url": "https://www.nature.com/articles/s41560-026-02101-x",
-      "summary": "",
-      "ts": 1787011200000,
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4975-4981: Happy 14th Landing Anniversary",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-      "summary": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug. 7, 2026 This week was very special for the Curiosity team here on Earth as we celebrated the 14th la…",
-      "ts": 1787008241000,
-      "publishedAt": "2026-08-17T23:10:41.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "HEO to use Planet satellites for non-Earth imaging",
-      "url": "https://spacenews.com/heo-to-use-planet-satellites-for-non-earth-imaging/",
-      "summary": "HEO, the Australian company that uses Earth observation satellites to take images of other spacecraft, has signed an agreement with Planet to access that company’s satellites The post HEO to use Planet satellites for non…",
-      "ts": 1787004000000,
-      "publishedAt": "2026-08-17T22:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Albumin-Fused Antibodies May Reduce Fetal Exposure to Therapeutics",
-      "url": "https://www.genengnews.com/topics/drug-discovery/albumin-fused-antibodies-may-reduce-fetal-exposure-to-therapeutics/",
-      "summary": "Preclinical study found that fusing immunoglobulin G (IgG) antibodies to albumin minimized antibody transport across the placenta and prevented adverse effects in offspring in mice, pointing to albumin as an attractive f…",
-      "ts": 1787000785000,
-      "publishedAt": "2026-08-17T21:06:25.000Z",
       "categoryId": "bio"
     }
   ],
