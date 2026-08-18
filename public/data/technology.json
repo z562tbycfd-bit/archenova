@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-18T14:35:27.798Z",
+  "updated": "2026-08-18T15:33:44.074Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s B777 Gets New Coat of Paint",
+      "url": "https://www.nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint/",
+      "summary": "NASA’s Boeing 777 shows off a new paint job in this Aug. 11, 2026, photo. The B777 was acquired to replace and extend the capabilities of the NASA DC-8, which was retired in 2024. The B777, set to begin operations from N…",
+      "ts": 1787065836000,
+      "publishedAt": "2026-08-18T15:10:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Government workers feel the squeeze on health care",
+      "url": "https://www.statnews.com/2026/08/18/health-care-costs-surge-for-cities-counties-generous-model-deadline-for-states/?utm_campaign=rss",
+      "summary": "Municipalities are struggling with the cost of health insurance for their workers, and states are facing a major decision on Medicaid drug coverage.",
+      "ts": 1787063801000,
+      "publishedAt": "2026-08-18T14:36:41.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Exercise-Boosting Molecule May Help Improve Muscle Health in Type 2 Diabetes",
@@ -55,6 +73,15 @@
       "ts": 1787058000000,
       "publishedAt": "2026-08-18T13:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency",
+      "url": "http://www.iaea.org/newscenter/pressreleases/joint-statement-by-the-minister-of-foreign-affairs-and-expatriates-of-the-syrian-arab-republic-and-the-director-general-of-the-international-atomic-energy-agency",
+      "summary": "",
+      "ts": 1787056267000,
+      "publishedAt": "2026-08-18T12:31:07.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -784,33 +811,6 @@
       "ts": 1786979345000,
       "publishedAt": "2026-08-17T15:09:05.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Solves Merger Mystery From Milky Way’s Early Years",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/",
-      "summary": "New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution.",
-      "ts": 1786978811000,
-      "publishedAt": "2026-08-17T15:00:11.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Roundup: Removing Impurities from Biomanufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/roundup-removing-impurities-from-biomanufacturing/",
-      "summary": "GEN asked leaders in biomanufacturing: What technologies do you use to carry out effective impurity removal at specific points throughout upstream and downstream processing to ensure product quality and patient safety? T…",
-      "ts": 1786978194000,
-      "publishedAt": "2026-08-17T14:49:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The IRS is probing UnitedHealth, and a private equity slowdown",
-      "url": "https://www.statnews.com/2026/08/17/irs-probe-unitedhealth-group-taxes-private-equity-deals-physician-groups/?utm_campaign=rss",
-      "summary": "UnitedHealth faces an investigation over tax payments, and we examine why PE deals for doctor groups are slowing.",
-      "ts": 1786977647000,
-      "publishedAt": "2026-08-17T14:40:47.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-18T14:35:24.967Z",
+  "updated": "2026-08-18T15:33:39.839Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "ISS hosts first spacewalk by a Frenchwoman",
+      "url": "https://phys.org/news/2026-08-iss-hosts-spacewalk-frenchwoman.html",
+      "summary": "Sophie Adenot became the first French woman astronaut to venture outside the International Space Station for a spacewalk Tuesday, accompanied by American astronaut Anil Menon.",
+      "ts": 1787067062000,
+      "publishedAt": "2026-08-18T15:31:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dynamic surface reconstruction explains how copper sulfide catalysts tune CO₂ reduction",
+      "url": "https://phys.org/news/2026-08-dynamic-surface-reconstruction-copper-sulfide.html",
+      "summary": "Copper sulfide (CuS) catalysts continuously reconstruct their surface during electrochemical CO2 reduction, reports a study from the Institute of Science Tokyo, Japan. By uncovering the mechanism behind the dynamic surfa…",
+      "ts": 1787066408000,
+      "publishedAt": "2026-08-18T15:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Boys are rarely taught to be caring. If they were, we could better prevent domestic violence",
+      "url": "https://phys.org/news/2026-08-boys-rarely-taught-domestic-violence.html",
+      "summary": "Following another series of alleged killings of women across Australia, the country has once again found itself asking familiar questions: How many more women have to die before we act? What more should governments do? W…",
+      "ts": 1787066407000,
+      "publishedAt": "2026-08-18T15:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young men are 'voicemaxxing' to sound more attractive. But women aren't impressed",
+      "url": "https://phys.org/news/2026-08-young-men-voicemaxxing-women.html",
+      "summary": "Looksmaxxing, fibermaxxing, proteinmaxxing, T-maxxing. There are so many TikTok trends that promise to optimize our lives.",
+      "ts": 1787065210000,
+      "publishedAt": "2026-08-18T15:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Double spiral inside narwhal tusks may explain their resistance to bending",
+      "url": "https://phys.org/news/2026-08-spiral-narwhal-tusks-resistance.html",
+      "summary": "The narwhal's impressive tusk has long been the subject of myths. In the Middle Ages, they were sold as unicorn horns believed to possess magical powers. Now, an international team of researchers led by Aarhus University…",
+      "ts": 1787065208000,
+      "publishedAt": "2026-08-18T15:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Korean 'aegyo' speech sounds cute: Adults raise vocal resonances to sound younger and smaller",
+      "url": "https://phys.org/news/2026-08-korean-aegyo-speech-cute-adults.html",
+      "summary": "In Korean, the term \"aegyo\" denotes a playful cuteness put on by adults to win someone's affection, typically in romantic contexts. This is usually accomplished with bashful expressions or a childlike manner of speaking …",
+      "ts": 1787065204000,
+      "publishedAt": "2026-08-18T15:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Loud snoring—simulation reveals the physical mechanism that keeps so many of us awake at night",
+      "url": "https://phys.org/news/2026-08-loud-simulation-reveals-physical-mechanism.html",
+      "summary": "Anyone who has had to share a room—or worse, a bed—with a loud snorer knows the effect unchecked snoring can have on sleep, sanity and emotional stability. An entire industry of products, technologies and treatments clai…",
+      "ts": 1787065201000,
+      "publishedAt": "2026-08-18T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Snooping' on dolphins offers acoustic clues to hotspots for food and friends",
+      "url": "https://phys.org/news/2026-08-snooping-dolphins-acoustic-clues-hotspots.html",
+      "summary": "For dolphins, the ocean is a world of sound. Their whistles carry social information, helping them communicate and stay connected, while echolocation—rapid-fire clicks—functions like underwater sonar, helping them naviga…",
+      "ts": 1787064007000,
+      "publishedAt": "2026-08-18T14:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than 5,000 little penguins will be vaxxed against bird flu. How will this protect them?",
+      "url": "https://phys.org/news/2026-08-penguins-vaxxed-bird-flu.html",
+      "summary": "A major push is underway to catch and vaccinate more than 5,000 little penguins in Victoria to protect them against the virulent H5N1 bird flu.",
+      "ts": 1787064005000,
+      "publishedAt": "2026-08-18T14:40:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Retro phone trend reveals growing desire to disconnect",
@@ -727,78 +799,6 @@
       "title": "Hyperbolic Metamaterials for Enhanced Scintillation",
       "url": "https://arxiv.org/abs/2608.16121",
       "summary": "arXiv:2608.16121v1 Announce Type: new Abstract: Scintillators are indispensable for the detection of X-rays, $\\gamma$-rays, and energetic particles in applications ranging from medical imaging and security screening to h…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanocavity Confinement by Orthogonal Valley- and SSH- Topological Interfaces In Glide-Symmetric Photonic Crystal Structures",
-      "url": "https://arxiv.org/abs/2608.16138",
-      "summary": "arXiv:2608.16138v1 Announce Type: new Abstract: Valley photonic crystals enable valley-dependent transport and chirality-selective emission, but incorporating wavelength-scale localization remains challenging. Existing v…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pattern Formation in Bioconvection of Thiovulum in a Hele-Shaw Chamber",
-      "url": "https://arxiv.org/abs/2608.16145",
-      "summary": "arXiv:2608.16145v1 Announce Type: new Abstract: This paper is associated with a video winner of a 2025 American Physical Society's Division of Fluid Dynamics (DFD) Gallery of Fluid Motion Award for work presented at the …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Highly Efficient 3-in-1 FPGA-Based Unit Combining an ADC, DAC, and Multichannel Pulse Generator for Pulsed EPR Spectroscopy",
-      "url": "https://arxiv.org/abs/2608.16151",
-      "summary": "arXiv:2608.16151v1 Announce Type: new Abstract: A hardware and software system for pulsed electron paramagnetic resonance (EPR) spectroscopy is presented, built around a single PCI Express (PCIe) card that combines a 16-…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonadiabatic Dynamics near Multiple Light-Induced Conical Intersections under Bichromatic Driving: Quantum Wave-Packet Dynamics versus Floquet Surface Hopping",
-      "url": "https://arxiv.org/abs/2608.16228",
-      "summary": "arXiv:2608.16228v1 Announce Type: new Abstract: Light-induced conical intersections (LICIs) create externally tunable pathways for nonadiabatic transitions, enabling active control of molecular photophysical and photoche…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Booster-based beam recycling for swap-out injection at the High Energy Photon Source",
-      "url": "https://arxiv.org/abs/2608.16242",
-      "summary": "arXiv:2608.16242v1 Announce Type: new Abstract: Fourth-generation synchrotron light sources employ ultralow-emittance storage rings with stringent injection requirements. On-axis swap-out injection alleviates the depende…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective Blinking of Upconversion Emission in Lanthanide-doped Nanocrystals",
-      "url": "https://arxiv.org/abs/2608.16244",
-      "summary": "arXiv:2608.16244v1 Announce Type: new Abstract: Fluorescence blinking, often regarded as a limitation for stable emitters, can enable super-resolution localization microscopy and serve as a versatile reporter of the phot…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topological Skyrmion-type microparticle manipulation based on surface acoustic wave phase modulations",
-      "url": "https://arxiv.org/abs/2608.16258",
-      "summary": "arXiv:2608.16258v1 Announce Type: new Abstract: Surface acoustic wave (SAW) micromanipulation enables the precise, non-contact handling of microscale particles and has attracted considerable interest in microfluidics and…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "TARDIS Lab: infrastructure for characterization and assembly of highly granular silicon calorimeter modules for LUXE and future Higgs Factories",
-      "url": "https://arxiv.org/abs/2608.16260",
-      "summary": "arXiv:2608.16260v1 Announce Type: new Abstract: The TARDIS Lab has been established at IFIC (CSIC-UV) to develop infrastructure and expertise in high-granularity silicon calorimetry. The laboratory provides an ISO7 clean…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Minkowski and Abraham Momenta Revisited from the Perspective of Photon Dynamics",
-      "url": "https://arxiv.org/abs/2608.16282",
-      "summary": "arXiv:2608.16282v1 Announce Type: new Abstract: The distinction between Minkowski and Abraham momenta has traditionally been discussed in the context of electron dynamics. In this work, we revisit the problem from the pe…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
