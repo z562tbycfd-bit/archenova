@@ -65,11 +65,10 @@ type ArcheNovaNode = {
 
 type MapNodeStyle =
   CSSProperties & {
-    "--an-map-x":
-      string;
-
-    "--an-map-y":
-      string;
+    "--an-map-x": string;
+    "--an-map-y": string;
+    "--an-map-rest-x": string;
+    "--an-map-rest-y": string;
   };
 
 
@@ -1679,13 +1678,41 @@ export default function ArcheNovaMap() {
 
 
                   const style:
-                    MapNodeStyle = {
-                    "--an-map-x":
-                      `${node.x}%`,
+  MapNodeStyle = {
+  "--an-map-x":
+    `${node.x}%`,
 
-                    "--an-map-y":
-                      `${node.y}%`,
-                  };
+  "--an-map-y":
+    `${node.y}%`,
+
+  "--an-map-rest-x":
+    `${
+      22 +
+      (
+        MAP_NODES.findIndex(
+          item =>
+            item.id ===
+            node.id,
+        ) %
+        5
+      ) *
+      14
+    }%`,
+
+  "--an-map-rest-y":
+    `${
+      22 +
+      Math.floor(
+        MAP_NODES.findIndex(
+          item =>
+            item.id ===
+            node.id,
+        ) /
+        5,
+      ) *
+      20
+    }%`,
+};
 
 
                   return (
@@ -7334,6 +7361,81 @@ export default function ArcheNovaMap() {
 
     max-width: none !important;
     max-height: 56% !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   RESTING STATE NODE COMPOSITION
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * No selection:
+   * visually compose all nodes into a cleaner,
+   * centered constellation.
+   */
+  .an-map__workspace.no-selection
+  .an-map-node {
+    left:
+      var(--an-map-rest-x) !important;
+
+    top:
+      var(--an-map-rest-y) !important;
+
+    transform:
+      translate(-50%, -50%) !important;
+  }
+
+
+  /*
+   * Once a node is selected,
+   * return to the real semantic map coordinates.
+   */
+  .an-map__workspace.has-selection
+  .an-map-node {
+    left:
+      var(--an-map-x) !important;
+
+    top:
+      var(--an-map-y) !important;
+  }
+
+
+  /*
+   * No selection:
+   * mute all branches further.
+   */
+  .an-map__workspace.no-selection
+  .an-map__connections {
+    opacity:
+      0.14 !important;
+  }
+
+
+  /*
+   * Selected:
+   * restore relationship visibility.
+   */
+  .an-map__workspace.has-selection
+  .an-map__connections {
+    opacity:
+      1 !important;
+  }
+
+
+  /*
+   * Center the ArcheNova anchor in the resting state.
+   */
+  .an-map__workspace.no-selection
+  .an-map__core-field {
+    left:
+      50% !important;
+
+    top:
+      50% !important;
   }
 
 }
