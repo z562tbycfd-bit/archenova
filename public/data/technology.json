@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-18T07:39:42.567Z",
+  "updated": "2026-08-18T08:39:23.785Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Doritos as farm-to-table snacks? Big Food, under duress, gets creative",
+      "url": "https://www.statnews.com/2026/08/18/farm-to-table-doritos-ultra-processed-food-ad-campaign-healthwashing/?utm_campaign=rss",
+      "summary": "Doritos in the classic nacho cheese flavor have 27 ingredients, including not just familiar ones but also a number of additives and preservatives.",
+      "ts": 1787041800000,
+      "publishedAt": "2026-08-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: 8 steps to making surrogacy more ethical for everyone involved",
+      "url": "https://www.statnews.com/2026/08/18/mckenna-west-surrogacy-laws-ethics/?utm_campaign=rss",
+      "summary": "“Everything about the West case shows how miserably surrogacy has been managed in America,” writes Arthur Caplan.",
+      "ts": 1787041800000,
+      "publishedAt": "2026-08-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: In parts of the world, antibiotic overuse isn’t the problem — underuse is",
+      "url": "https://www.statnews.com/2026/08/18/antibiotic-underuse-overuse-resistance-aware/?utm_campaign=rss",
+      "summary": "“Like climate change, antimicrobial resistance is a global challenge, but its causes and consequences are unevenly distributed,” writes GARDP’s Peter Beyer.",
+      "ts": 1787041800000,
+      "publishedAt": "2026-08-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How health care costs are undermining America’s public-sector employers",
+      "url": "https://www.statnews.com/2026/08/18/public-sector-employees-health-care-costs-out-of-pocket-series-part-4/?utm_campaign=rss",
+      "summary": "Politicians are contemplating raising taxes and cutting benefits as the cost of health care for government workers surges.",
+      "ts": 1787041800000,
+      "publishedAt": "2026-08-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "MultiStructRNA: a Python package for multi-algorithm RNA secondary structure prediction, ensemble analysis, and visualization",
@@ -775,42 +811,6 @@
       "ts": 1786955400000,
       "publishedAt": "2026-08-17T08:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: We proved bipartisan health care reform works in North Carolina. Let’s bring it nationwide",
-      "url": "https://www.statnews.com/2026/08/17/healthy-opportunities-pilots-hop-program-north-carolina-medicaid-social-services/?utm_campaign=rss",
-      "summary": "“North Carolina proved that pragmatism can beat partisanship,” write Mandy Cohen and Kody Kinsley.",
-      "ts": 1786955400000,
-      "publishedAt": "2026-08-17T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Paid paternity leave is pediatric preventive care",
-      "url": "https://www.statnews.com/2026/08/17/paid-paternity-leave-baby-help-pediatricians/?utm_campaign=rss",
-      "summary": "“A growing body of evidence shows that fathers make unique, independent contributions to children's health and development,” writes pediatrician Nishant Pandya.",
-      "ts": 1786955400000,
-      "publishedAt": "2026-08-17T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Watch Sophie Adenot’s spacewalk live ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_Sophie_Adenot_s_spacewalk_live",
-      "summary": "Watch ESA astronaut Sophie Adenot venture into the vacuum of space for her first-ever spacewalk on Tuesday, 18 August.",
-      "ts": 1786946400000,
-      "publishedAt": "2026-08-17T06:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The Defender’s Window",
-      "url": "https://openai.com/index/the-defenders-window",
-      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
-      "ts": 1786944600000,
-      "publishedAt": "2026-08-17T05:30:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

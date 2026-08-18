@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-18T07:39:40.114Z",
+  "updated": "2026-08-18T08:39:21.133Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Make it rain: Indonesia chases clouds to stem El Niño fires",
+      "url": "https://phys.org/news/2026-08-indonesia-clouds-stem-el-nio.html",
+      "summary": "Borneo in Indonesia, home to pristine rainforest and protected species, is burning. Meteorologist Safillah Anggie Wahyuni hopes a solution lies in the clouds.",
+      "ts": 1787041201000,
+      "publishedAt": "2026-08-18T08:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Each degree of warming could add a month of intolerable heat for 1 billion people",
+      "url": "https://phys.org/news/2026-08-degree-month-intolerable-billion-people.html",
+      "summary": "The threat that rising temperatures fueled by climate change pose to the health of older people has been dramatically underestimated, according to a U.S. modeling study published Tuesday.",
+      "ts": 1787041004000,
+      "publishedAt": "2026-08-18T08:16:44.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A looming rock collapse threatens a Swiss village as thawing permafrost destabilizes the Alps",
+      "url": "https://phys.org/news/2026-08-looming-collapse-threatens-swiss-village.html",
+      "summary": "An unstable mountain rock formation looming above the Swiss village of Kandersteg threatens a landslide that could rival the disaster that destroyed nearby Blatten last year, a collapse scientists linked to thawing perma…",
+      "ts": 1787040159000,
+      "publishedAt": "2026-08-18T08:02:39.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ancient Egyptian tomb shows how burial trends changed over hundreds of years",
@@ -775,30 +799,6 @@
       "title": "The ASD2 Chip for the Upgrade of the ATLAS MDT Chamber Readout at HL-LHC",
       "url": "https://arxiv.org/abs/2608.16713",
       "summary": "arXiv:2608.16713v1 Announce Type: new Abstract: Upgrading the ATLAS detector for operation at the High-Luminosity LHC requires a new, more se-lective trigger scheme to control the readout of MDT drift-tube chambers by in…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A source-term interpretation of turbulent rough wall-pressure spectra",
-      "url": "https://arxiv.org/abs/2608.16729",
-      "summary": "arXiv:2608.16729v1 Announce Type: new Abstract: Wall-pressure fluctuations beneath a turbulent boundary layer drive the flow-induced noise and structural loading of rough surfaces. On a smooth wall their variance grows w…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-situ measurements of space plasma: recent progress and future challenges",
-      "url": "https://arxiv.org/abs/2608.16734",
-      "summary": "arXiv:2608.16734v1 Announce Type: new Abstract: Space plasmas like the solar wind or the Earth's space environment offer unique opportunities to observe fundamental plasma processes and their impact in situ. With modern …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A diffuse-interface method for compressible two-phase flows with seven- and six-equation models",
-      "url": "https://arxiv.org/abs/2608.16750",
-      "summary": "arXiv:2608.16750v1 Announce Type: new Abstract: In this work, a novel phase-field method is proposed for the six- and seven-equation non-equilibrium models for simulating compressible two-phase flows. Such formulations a…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
