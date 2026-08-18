@@ -67,8 +67,6 @@ type MapNodeStyle =
   CSSProperties & {
     "--an-map-x": string;
     "--an-map-y": string;
-    "--an-map-rest-x": string;
-    "--an-map-rest-y": string;
   };
 
 
@@ -1595,232 +1593,160 @@ export default function ArcheNovaMap() {
             </div>
 
 
-            <div className="an-map__canvas">
+           <div className="an-map__canvas">
 
-              {/* ===========================================
-                  GRID
-              =========================================== */}
+  <div
+    className="an-map__canvas-grid"
+    aria-hidden="true"
+  />
 
-              <div
-                className="an-map__canvas-grid"
-                aria-hidden="true"
-              />
+  <div className="an-map__stage">
 
-
-              {/* ===========================================
-                  CONNECTIONS
-              =========================================== */}
-
-              <svg
-                className="an-map__connections"
-                viewBox="0 0 100 100"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-              >
-
-                {connectionLines.map(
-                  (
-                    line,
-                  ) => (
-                    <line
-                      key={
-                        line.id
-                      }
-                      x1={
-                        line.x1
-                      }
-                      y1={
-                        line.y1
-                      }
-                      x2={
-                        line.x2
-                      }
-                      y2={
-                        line.y2
-                      }
-                      className={
-                        line.active
-                          ? "is-active"
-                          : ""
-                      }
-                    />
-                  ),
-                )}
-
-              </svg>
+    <svg
+      className="an-map__connections"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+      {connectionLines.map(
+        (line) => (
+          <line
+            key={line.id}
+            x1={line.x1}
+            y1={line.y1}
+            x2={line.x2}
+            y2={line.y2}
+            className={
+              line.active
+                ? "is-active"
+                : ""
+            }
+          />
+        ),
+      )}
+    </svg>
 
 
-              {/* ===========================================
-                  NODES
-              =========================================== */}
+    <div
+      className="an-map__core-field"
+      aria-hidden="true"
+    >
+      <span />
 
-              {MAP_NODES.map(
-                (
-                  node,
-                ) => {
+      <strong>
+        ARCHENOVA
+      </strong>
 
-                  const visible =
-                    visibleIds.has(
-                      node.id,
-                    );
-
-
-                  const selected =
-                  selectedNode
-                  ?.id ===
-                  node.id;
+      <small>
+        CIVILIZATION SYSTEM
+      </small>
+    </div>
 
 
-                  const connected =
-                    selectedConnections.has(
-                      node.id,
-                    );
+    {MAP_NODES.map(
+      (node) => {
 
+        const visible =
+          visibleIds.has(node.id);
 
-                  const style:
-  MapNodeStyle = {
-  "--an-map-x":
-    `${node.x}%`,
+        const selected =
+          selectedNode?.id === node.id;
 
-  "--an-map-y":
-    `${node.y}%`,
-
-  "--an-map-rest-x":
-    `${
-      22 +
-      (
-        MAP_NODES.findIndex(
-          item =>
-            item.id ===
+        const connected =
+          selectedConnections.has(
             node.id,
-        ) %
-        5
-      ) *
-      14
-    }%`,
+          );
 
-  "--an-map-rest-y":
-    `${
-      22 +
-      Math.floor(
-        MAP_NODES.findIndex(
-          item =>
-            item.id ===
-            node.id,
-        ) /
-        5,
-      ) *
-      20
-    }%`,
-};
+        const style:
+          MapNodeStyle = {
+          "--an-map-x":
+            `${node.x}%`,
 
+          "--an-map-y":
+            `${node.y}%`,
+        };
 
-                  return (
-                    <button
-                      key={
-                        node.id
-                      }
-                      type="button"
-                      style={
-                        style
-                      }
-                      className={[
-                        "an-map-node",
-                        
-                        `an-map-node--${node.layer}`,
-                        
-                        `an-map-node-id--${node.id}`,
+        return (
+          <button
+            key={node.id}
+            type="button"
+            style={style}
+            className={[
+              "an-map-node",
 
-                        selected
-                          ? "is-selected"
-                          : "",
+              `an-map-node--${node.layer}`,
 
-                        connected
-                          ? "is-connected"
-                          : "",
+              `an-map-node-id--${node.id}`,
 
-                        visible
-                          ? ""
-                          : "is-hidden",
-                      ]
-                        .filter(
-                          Boolean,
-                        )
-                        .join(
-                          " ",
-                        )}
-                      onClick={() => {
-                        selectNode(
-                          node.id,
-                        );
-                      }}
-                      aria-label={`Open ${node.title}`}
-                    >
+              selected
+                ? "is-selected"
+                : "",
 
-                      <span className="an-map-node__pulse" />
+              connected
+                ? "is-connected"
+                : "",
 
-                      <span className="an-map-node__core" />
+              visible
+                ? ""
+                : "is-hidden",
+            ]
+              .filter(Boolean)
+              .join(" ")}
+            onClick={() => {
+              selectNode(node.id);
+            }}
+            aria-label={`Open ${node.title}`}
+          >
+            <span className="an-map-node__pulse" />
 
-                      <span className="an-map-node__copy">
+            <span className="an-map-node__core" />
 
-                        <strong>
-                          {
-                            node.shortTitle
-                          }
-                        </strong>
+            <span className="an-map-node__copy">
+              <strong>
+                {node.shortTitle}
+              </strong>
 
-                        <small>
-                          {
-                            getLayer(
-                              node.layer,
-                            )?.short
-                          }
-                        </small>
+              <small>
+                {
+                  getLayer(
+                    node.layer,
+                  )?.short
+                }
+              </small>
+            </span>
+          </button>
+        );
+      },
+    )}
 
-                      </span>
-
-                    </button>
-                  );
-                },
-              )}
+  </div>
 
 
-              {/* ===========================================
-                  EMPTY SEARCH
-              =========================================== */}
+  {visibleNodes.length === 0 && (
+    <div className="an-map__empty">
 
-              {visibleNodes.length ===
-                0 && (
-                <div className="an-map__empty">
+      <span>
+        NO MATCH
+      </span>
 
-                  <span>
-                    NO MATCH
-                  </span>
+      <strong>
+        No system matches this search.
+      </strong>
 
-                  <strong>
-                    No system matches
-                    this search.
-                  </strong>
+      <button
+        type="button"
+        onClick={() => {
+          setQuery("");
+          setActiveLayer("all");
+        }}
+      >
+        Reset Search
+      </button>
 
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setQuery(
-                        "",
-                      );
+    </div>
+  )}
 
-                      setActiveLayer(
-                        "all",
-                      );
-                    }}
-                  >
-                    Reset Map
-                  </button>
-
-                </div>
-              )}
-
-            </div>
+</div>
 
 
             {/* =============================================
@@ -4888,16 +4814,6 @@ export default function ArcheNovaMap() {
 
 
           /* ===============================================
-             Mobile-specific node positions
-          =============================================== */
-
-          .an-map-node[style*="13%"] {
-            left:
-              15% !important;
-          }
-
-
-          /* ===============================================
              MOBILE FILTER BAR
           =============================================== */
 
@@ -7467,10 +7383,10 @@ export default function ArcheNovaMap() {
 .an-map__connections {
   position: absolute !important;
 
-  left: 4% !important;
+
   top: 5% !important;
 
-  width: 92% !important;
+
   height: 88% !important;
 }
 
@@ -7520,10 +7436,6 @@ export default function ArcheNovaMap() {
   /* RIGHT EDGE */
 
   .an-map-node[style*="--an-map-x: 83%"],
-  .an-map-node[style*="--an-map-x: 84%"] {
-    left: 89% !important;
-  }
-
 
   /* BOTTOM EDGE */
 
@@ -7575,13 +7487,7 @@ export default function ArcheNovaMap() {
 @media (min-width: 769px) {
 
   .an-map-node[style*="--an-map-x: 83%"],
-  .an-map-node[style*="--an-map-x: 84%"] {
-    flex-direction: row-reverse !important;
-
-    text-align: right !important;
   }
-
-}
 
 
 /* ----------------------------------------------------------
@@ -7618,10 +7524,6 @@ export default function ArcheNovaMap() {
 
 
   .an-map-node[style*="--an-map-x: 83%"],
-  .an-map-node[style*="--an-map-x: 84%"] {
-    left: 82% !important;
-  }
-
 
   .an-map-node[style*="--an-map-y: 88%"] {
     top: 82% !important;
@@ -7640,6 +7542,331 @@ export default function ArcheNovaMap() {
 
   .an-map-node__copy strong {
     max-width: 64px !important;
+  }
+
+}
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   STABLE STAGE
+   ONE CANONICAL NODE VIEWPORT
+========================================================== */
+
+/*
+ * Canvas itself remains the clipping boundary.
+ */
+.an-map__canvas {
+  position: relative !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  overflow: hidden !important;
+}
+
+
+/*
+ * IMPORTANT:
+ *
+ * All nodes, core and connections now share
+ * exactly the same coordinate system.
+ *
+ * 7% / 9% safety margins prevent labels from
+ * being clipped at 13%, 84%, 93%, etc.
+ */
+.an-map__stage {
+  position: absolute !important;
+
+  left: 7% !important;
+  right: 7% !important;
+
+  top: 8% !important;
+  bottom: 9% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  overflow: visible !important;
+
+  transform: none !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   CONNECTIONS
+========================================================== */
+
+.an-map__stage
+.an-map__connections {
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  transform: none !important;
+
+  overflow: visible !important;
+
+  pointer-events: none !important;
+}
+
+
+/*
+ * Default branches remain quiet.
+ */
+.an-map__stage
+.an-map__connections line {
+  stroke:
+    rgba(
+      255,
+      255,
+      255,
+      0.016
+    ) !important;
+
+  stroke-width:
+    0.18 !important;
+
+  opacity:
+    0.32 !important;
+}
+
+
+/*
+ * Only selected relationships become visible.
+ */
+.an-map__stage
+.an-map__connections line.is-active {
+  stroke:
+    rgba(
+      255,
+      255,
+      255,
+      0.48
+    ) !important;
+
+  stroke-width:
+    0.28 !important;
+
+  opacity:
+    1 !important;
+}
+
+
+/* ==========================================================
+   NODES
+   IMPORTANT:
+   Stop all previous edge-specific positioning hacks.
+========================================================== */
+
+.an-map__stage
+.an-map-node {
+  left:
+    var(--an-map-x) !important;
+
+  top:
+    var(--an-map-y) !important;
+
+  transform:
+    translate(
+      -50%,
+      -50%
+    ) !important;
+}
+
+
+/*
+ * Cancel previous ID / coordinate corrections.
+ */
+.an-map__stage
+
+.an-map__stage
+.an-map-node-id--research,
+
+.an-map__stage
+.an-map-node-id--observatory,
+
+.an-map__stage
+.an-map-node-id--memory,
+
+.an-map__stage
+.an-map-node-id--crossings,
+
+.an-map__stage
+.an-map-node-id--realization,
+
+.an-map__stage
+.an-map-node-id--technology,
+
+.an-map__stage
+.an-map-node-id--projects,
+
+.an-map__stage
+.an-map-node-id--commercialization,
+
+.an-map__stage
+.an-map-node-id--library {
+  left:
+    var(--an-map-x) !important;
+
+  top:
+    var(--an-map-y) !important;
+}
+
+
+/* ==========================================================
+   CORE
+========================================================== */
+
+.an-map__stage
+.an-map__core-field {
+  left:
+    50% !important;
+
+  top:
+    52% !important;
+}
+
+
+/* ==========================================================
+   LABEL SAFETY
+========================================================== */
+
+.an-map__stage
+.an-map-node__copy {
+  overflow:
+    visible !important;
+
+  max-width:
+    86px !important;
+}
+
+
+.an-map__stage
+.an-map-node__copy strong {
+  overflow:
+    visible !important;
+
+  max-width:
+    86px !important;
+
+  white-space:
+    nowrap !important;
+
+  text-overflow:
+    clip !important;
+}
+
+
+/*
+ * Right-most systems:
+ * label points inward.
+ */
+.an-map__stage
+.an-map-node-id--realization,
+
+.an-map__stage
+.an-map-node-id--technology,
+
+.an-map__stage
+
+
+
+/* ==========================================================
+   PC
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .an-map__stage {
+    left:
+      8% !important;
+
+    right:
+      8% !important;
+
+    top:
+      8% !important;
+
+    bottom:
+      10% !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SHORT WINDOWS / EDGE
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-height: 760px) {
+
+  .an-map__stage {
+    left:
+      8% !important;
+
+    right:
+      8% !important;
+
+    top:
+      7% !important;
+
+    bottom:
+      11% !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-map__stage {
+    left:
+      12% !important;
+
+    right:
+      12% !important;
+
+    top:
+      8% !important;
+
+    bottom:
+      13% !important;
+  }
+
+
+  .an-map__stage
+  .an-map-node {
+    left:
+      var(--an-map-x) !important;
+
+    top:
+      var(--an-map-y) !important;
+  }
+
+
+  .an-map__stage
+  .an-map-node__copy {
+    max-width:
+      58px !important;
+  }
+
+
+  .an-map__stage
+  .an-map-node__copy strong {
+    max-width:
+      58px !important;
   }
 
 }

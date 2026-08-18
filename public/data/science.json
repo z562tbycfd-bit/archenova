@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-18T15:33:39.839Z",
+  "updated": "2026-08-18T16:16:50.695Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fiber-optic cable reveals hidden crevasses that could destabilize glaciers",
+      "url": "https://phys.org/news/2026-08-fiber-optic-cable-reveals-hidden.html",
+      "summary": "In recent years, the Alps have experienced devastating glacier collapses: In September 2023, a section of the Marmolada glacier in the Dolomites collapsed, resulting in the deaths of seven mountaineers. Just over a year …",
+      "ts": 1787068812000,
+      "publishedAt": "2026-08-18T16:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young people in public housing less likely to be involved in crime",
+      "url": "https://phys.org/news/2026-08-young-people-housing-involved-crime.html",
+      "summary": "Young people who have lived in public housing for at least 10 years are significantly less likely to commit crimes or become victims of crime than their peers in the general population, a study by researchers from the Un…",
+      "ts": 1787068810000,
+      "publishedAt": "2026-08-18T16:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient Jomon DNA reveals a hidden Ice Age survival genetic toolkit",
+      "url": "https://phys.org/news/2026-08-ancient-jomon-dna-reveals-hidden.html",
+      "summary": "Between 29,000 and 19,000 years ago, the planet experienced some of its coldest temperatures and drastic landscape changes at the peak of the Ice Age, during the Last Glacial Maximum (LGM), the period of most extensive g…",
+      "ts": 1787067610000,
+      "publishedAt": "2026-08-18T15:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI should transform the strategy process—but never make the final call, researcher argues",
+      "url": "https://phys.org/news/2026-08-ai-strategy.html",
+      "summary": "A practitioner article published in the SMS Explorer, \"AI Will Help Formulate Strategy, But Should Never Finish It,\" by Michael Olenick challenges a growing assumption in the business world: that generative AI can take s…",
+      "ts": 1787067609000,
+      "publishedAt": "2026-08-18T15:40:09.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "ISS hosts first spacewalk by a Frenchwoman",
@@ -767,38 +799,6 @@
       "title": "Transport-defined photodetection through electrically selectable nonequilibrium carrier transport",
       "url": "https://arxiv.org/abs/2608.16047",
       "summary": "arXiv:2608.16047v1 Announce Type: new Abstract: Broadband optical fields can change in both intensity and spectral distribution, but a fixed-response detector maps this evolving information onto a single electrical signa…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-situ adjoint protocols for nonlinear PT-symmetric self-optimizing machines",
-      "url": "https://arxiv.org/abs/2608.16056",
-      "summary": "arXiv:2608.16056v1 Announce Type: new Abstract: Adjoint methods provide a powerful route for gradient-based optimization, but their physical implementation is obstructed in generic nonlinear systems because the adjoint d…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring Mean Spanwise Flow with a Rotating Single Hot-Wire Probe over a Wide Yawed Riblet-Textured Surface",
-      "url": "https://arxiv.org/abs/2608.16059",
-      "summary": "arXiv:2608.16059v1 Announce Type: new Abstract: This study investigates the spatial development and recovery of near-wall flow steering induced by yawed widely-spaced riblets. To accurately measure the mean spanwise velo…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topologically Configurable Nonlinear Vortex Generation at van der Waals Heterostructures",
-      "url": "https://arxiv.org/abs/2608.16105",
-      "summary": "arXiv:2608.16105v1 Announce Type: new Abstract: van der Waals (vdW) materials offer a highly tunable and efficient platform at nanoscale for nonlinear and quantum optics. Twist-stacked vdW heterostructures enable elegant…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hyperbolic Metamaterials for Enhanced Scintillation",
-      "url": "https://arxiv.org/abs/2608.16121",
-      "summary": "arXiv:2608.16121v1 Announce Type: new Abstract: Scintillators are indispensable for the detection of X-rays, $\\gamma$-rays, and energetic particles in applications ranging from medical imaging and security screening to h…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }

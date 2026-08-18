@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-15T09:24:01.700Z",
+  "generatedAt": "2026-08-18T16:16:59.685Z",
   "current": {
-    "date": "2026-08-15",
-    "id": "warned-but-not-protected-four-in-ten-adults-in-england-ignore-heat-alerts",
+    "date": "2026-08-18",
+    "id": "iss-hosts-first-spacewalk-by-a-frenchwoman",
     "experienceVersion": "4D-1",
-    "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
-    "experienceTitle": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
+    "title": "ISS hosts first spacewalk by a Frenchwoman",
+    "experienceTitle": "ISS hosts first spacewalk by a Frenchwoman",
     "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
     "source": {
-      "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
-      "organization": "United Nations News",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168149",
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "updatedAt": "2026-08-15T09:24:01.693Z"
+      "title": "ISS hosts first spacewalk by a Frenchwoman",
+      "organization": "Phys.org",
+      "url": "https://phys.org/news/2026-08-iss-hosts-spacewalk-frenchwoman.html",
+      "publishedAt": "2026-08-18T15:31:02.000Z",
+      "updatedAt": "2026-08-18T16:16:59.674Z"
     },
     "classification": {
-      "category": "GOVERNANCE",
-      "signalCategory": "Adaptive Capacity",
+      "category": "SCIENCE",
+      "signalCategory": "Reality Discovery",
       "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years"
+      "expectedHorizon": "5–20 Years"
     },
     "reality": {
-      "statement": "As amber heat-health alerts spread across England this summer, a new study has found that the warnings are being received – but not changing behaviour."
+      "statement": "Sophie Adenot became the first French woman astronaut to venture outside the International Space Station for a spacewalk Tuesday, accompanied by American astronaut Anil Menon."
     },
     "theory": {
-      "statement": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+      "statement": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
       "mechanism": [
-        "Adaptive Capacity",
-        "Health Systems",
-        "Climate and Environment",
+        "Reality Discovery",
+        "Space Systems",
         "observation",
-        "understanding"
+        "understanding",
+        "design"
       ]
     },
     "hypothesisSpace": [
@@ -38,7 +38,7 @@
         "id": "primary",
         "label": "PRIMARY EXPLANATION",
         "title": "Current Causal Interpretation",
-        "statement": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity."
+        "statement": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways."
       },
       {
         "id": "alternative",
@@ -57,7 +57,7 @@
       {
         "id": "expected",
         "label": "EXPECTED EFFECT",
-        "statement": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions."
+        "statement": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration."
       },
       {
         "id": "null",
@@ -71,53 +71,52 @@
       }
     ],
     "prediction": {
-      "statement": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions."
+      "statement": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration."
     },
     "evidence": {
-      "statement": "As amber heat-health alerts spread across England this summer, a new study has found that the warnings are being received – but not changing behaviour.",
-      "strength": "Moderate",
-      "confidence": 88
+      "statement": "Sophie Adenot became the first French woman astronaut to venture outside the International Space Station for a spacewalk Tuesday, accompanied by American astronaut Anil Menon.",
+      "strength": "Strong",
+      "confidence": 80
     },
     "falsification": {
       "statement": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "failureCondition": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions."
+      "failureCondition": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration."
     },
     "engineeringReach": {
       "validated": [
-        "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities."
+        "May strengthen orbital sensing, communications, navigation, logistics, or off-Earth operations."
       ],
       "plausible": [
-        "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-        "May influence healthspan, adaptive capacity, and the continuity of human capability."
+        "Could affect space governance, launch infrastructure, strategic coordination, and planetary observation.",
+        "May contribute to civilization becoming less dependent on a single planetary operating environment."
       ],
       "speculative": []
     },
-    "civilizationMeaning": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "civilizationMeaning": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
     "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-08-15.",
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-08-18.",
     "selection": {
-      "finalScore": 59.2,
-      "repetitionPenalty": 14.7,
+      "finalScore": 51.5,
+      "repetitionPenalty": 25,
       "criteria": {
-        "scientificSignificance": 61.5,
-        "empiricalStrength": 73.5,
-        "falsifiability": 79.3,
+        "scientificSignificance": 72.5,
+        "empiricalStrength": 81.5,
+        "falsifiability": 76.7,
         "engineeringReach": 55,
-        "civilizationImpact": 72,
+        "civilizationImpact": 66,
         "explanatoryValue": 80,
         "theoryEvidenceCoupling": 80,
-        "fundamentalPrincipleValue": 80,
-        "crossDomainReach": 78,
+        "fundamentalPrincipleValue": 95,
+        "crossDomainReach": 77,
         "experienceSuitability": 95
       }
     },
     "topicFingerprint": [
-      "governance",
-      "adaptive capacity",
-      "health systems",
-      "climate and environment",
       "science",
+      "reality discovery",
+      "space systems",
+      "space",
       "technology",
       "law & governance"
     ]
@@ -161,6 +160,20 @@
         "technology",
         "capital",
         "education & knowledge"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "warned-but-not-protected-four-in-ten-adults-in-england-ignore-heat-alerts",
+      "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
+      "topicFingerprint": [
+        "governance",
+        "adaptive capacity",
+        "health systems",
+        "climate and environment",
+        "science",
+        "technology",
+        "law & governance"
       ]
     }
   ]

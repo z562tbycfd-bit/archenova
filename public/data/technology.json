@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-18T15:33:44.074Z",
+  "updated": "2026-08-18T16:16:59.581Z",
   "items": [
     {
       "source": "NASA",
@@ -253,6 +253,24 @@
       "ts": 1787041800000,
       "publishedAt": "2026-08-18T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 18 – Perseids from Perseus",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-18-perseids-from-perseus/",
+      "summary": "APODScienceAPODAPOD: 2026 August 18 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fasci…",
+      "ts": 1787025900000,
+      "publishedAt": "2026-08-18T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Lala Batters Hawaii",
+      "url": "https://science.nasa.gov/earth/earth-observatory/lala-batters-hawaii/",
+      "summary": "The powerful storm delivered extreme rainfall and damaging winds to the state, passing the Island of Hawaiʻi as a category 1 hurricane.",
+      "ts": 1787025660000,
+      "publishedAt": "2026-08-18T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -792,24 +810,6 @@
       "summary": "United Launch Alliance has named Mark Peller, a longtime manager and executive at the company, as its new chief executive. The post ULA names Peller as new CEO appeared first on SpaceNews.",
       "ts": 1786985031000,
       "publishedAt": "2026-08-17T16:43:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Colorful Collage of Tarantula Nebula",
-      "url": "https://www.nasa.gov/image-article/colorful-collage-of-tarantula-nebula/",
-      "summary": "Data from NASA’s Chandra X-ray Observatory, NASA’s James Webb Space Telescope, and NASA’s Hubble Space Telescope combine to reveal a vibrant view of 30 Doradus, or the Tarantula Nebula, in this Aug. 11, 2026, image. Loca…",
-      "ts": 1786982409000,
-      "publishedAt": "2026-08-17T16:00:09.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-      "summary": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface. To help advance that capability, the Rock and Roll with NA…",
-      "ts": 1786979345000,
-      "publishedAt": "2026-08-17T15:09:05.000Z",
       "categoryId": "space"
     }
   ],
