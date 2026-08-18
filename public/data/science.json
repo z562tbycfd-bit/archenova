@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-18T01:19:44.538Z",
+  "updated": "2026-08-18T02:57:12.377Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Molecular memory: How a mother's age echoes in her offspring's cells",
+      "url": "https://phys.org/news/2026-08-molecular-memory-mother-age-echoes.html",
+      "summary": "In humans and many other animals, a mother's age can affect the physical and behavioral characteristics of the next generation. Scientists call these changes maternal age effects, and while they are widespread across the…",
+      "ts": 1787019602000,
+      "publishedAt": "2026-08-18T02:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Billions of invasive round goby are in the Great Lakes. Researchers want to stop them from spreading inland",
+      "url": "https://phys.org/news/2026-08-billions-invasive-goby-great-lakes.html",
+      "summary": "For decades, the round goby has been one of the Great Lakes' most destructive invasive species. Scientists estimate its population numbers in the billions, making eradication unrealistic.",
+      "ts": 1787017202000,
+      "publishedAt": "2026-08-18T01:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Can telecoms turn data into action? Seven-dimension model maps readiness",
@@ -783,22 +799,6 @@
       "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
       "url": "http://link.aps.org/doi/10.1103/26wx-tg6f",
       "summary": "Author(s): A. Hayrapetyan et al. (CMS Collaboration) Light-ion collisions at the LHC reveal collective hydrodynamic flow with a larger elliptic flow in central Ne-Ne collisions than in OO collisions that might be due to …",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
-      "url": "http://link.aps.org/doi/10.1103/gl65-17z7",
-      "summary": "Author(s): Qianli Ma, Brianna R. Billingsley, Alin Niraula, Madalynn Marshall, David A. Dahlbom, Yiqing Hao, Daniel M. Pajerowski, Alexander I. Kolesnikov, Xiaojian Bai, Cristian D. Batista, Tai Kong, and Huibo Cao We re…",
-      "ts": 1786960800000,
-      "publishedAt": "2026-08-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Standard Model of Electromagnetism and Chirality in Crystals",
-      "url": "http://link.aps.org/doi/10.1103/jvv7-z2fq",
-      "summary": "Author(s): R. Winkler and U. Zülicke A comprehensive symmetry-based classification identifies 12 fundamentally distinct types of crystal structures across five polar and five chiral categories, providing a complete taxon…",
       "ts": 1786960800000,
       "publishedAt": "2026-08-17T10:00:00.000Z"
     }

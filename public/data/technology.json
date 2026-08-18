@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-18T01:19:47.173Z",
+  "updated": "2026-08-18T02:57:16.068Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4975-4981: Happy 14th Landing Anniversary",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+      "summary": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug. 7, 2026 This week was very special for the Curiosity team here on Earth as we celebrated the 14th la…",
+      "ts": 1787008241000,
+      "publishedAt": "2026-08-17T23:10:41.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "HEO to use Planet satellites for non-Earth imaging",
@@ -426,15 +435,6 @@
       "categoryId": "space"
     },
     {
-      "source": "STAT",
-      "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
-      "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
-      "summary": "Private equity deals for practice management firms are declining sharply.",
-      "ts": 1786939260000,
-      "publishedAt": "2026-08-17T04:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
       "source": "NASA",
       "title": "Chasing Fire Clouds in Utah",
       "url": "https://science.nasa.gov/earth/earth-observatory/chasing-fire-clouds-in-utah/",
@@ -442,6 +442,15 @@
       "ts": 1786939260000,
       "publishedAt": "2026-08-17T04:01:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: State laws may be curbing private equity takeovers of physician group",
+      "url": "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss",
+      "summary": "Private equity deals for practice management firms are declining sharply.",
+      "ts": 1786939260000,
+      "publishedAt": "2026-08-17T04:01:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
@@ -799,15 +808,6 @@
       "title": "The grass beneath our feet: Why rangelands matter",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168119",
       "summary": "In northern Kenya, a herder scans the sky for rain that hasn't come. The grass his animals need is thinning by the day.",
-      "ts": 1786795200000,
-      "publishedAt": "2026-08-15T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Former rebel fighters join campaign against Ebola in the DR Congo",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168146",
-      "summary": "Demobilised former combatants are actively joining the fight against Ebola by participating in public information campaigns in the east of the Democratic Republic of the Congo (DRC).",
       "ts": 1786795200000,
       "publishedAt": "2026-08-15T12:00:00.000Z",
       "categoryId": "global-governance"
