@@ -40297,3 +40297,159 @@ a {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   DISPLAY-ONLY MICRO FIX
+   PC Research star + Mobile bottom spacing
+========================================================== */
+
+
+/* ==========================================================
+   PC — RESEARCH STAR VISIBILITY
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * Do not alter the node position itself.
+   * Only make sure the star flare is fully visible.
+   */
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search-node {
+    overflow: visible !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search-node__star {
+    overflow: visible !important;
+
+    flex-shrink: 0 !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search-node__star::before,
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search-node__star::after,
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search-node__star > i {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+
+  /*
+   * Research-specific optical correction.
+   *
+   * Moves ONLY the star a few pixels inward,
+   * without moving the Research text or node.
+   */
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search-node:nth-of-type(2)
+  .an-search-node__star {
+    transform:
+      translateX(3px) !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE — MORE AIR ABOVE FILTER DOCK
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Give the final row of stars more visual breathing room.
+   * This does not change the grid structure.
+   */
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__canvas {
+    padding-bottom:
+      18px !important;
+  }
+
+
+  /*
+   * Add a small separation between
+   * the node field and the filter dock.
+   */
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__mobile-filters {
+    margin-top:
+      8px !important;
+
+    margin-bottom:
+      12px !important;
+  }
+
+
+  /*
+   * Slightly reduce dock height so the bottom feels lighter.
+   */
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__mobile-filters {
+    height:
+      44px !important;
+
+    min-height:
+      44px !important;
+
+    max-height:
+      44px !important;
+
+    padding:
+      6px
+      8px !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__mobile-filters button {
+    height:
+      30px !important;
+
+    min-height:
+      30px !important;
+
+    max-height:
+      30px !important;
+  }
+
+
+  /*
+   * Keep Selected System clear of the refined dock.
+   */
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__detail {
+    bottom:
+      64px !important;
+  }
+
+}
