@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-19T15:33:16.915Z",
+  "updated": "2026-08-19T16:34:00.611Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "CAR T Manufacturing Innovation Expands Patient Access",
+      "url": "https://www.genengnews.com/topics/bioprocessing/car-t-manufacturing-innovation-expands-patient-access/",
+      "summary": "Advances in manufacturing, automation, and lentiviral vector technologies are reshaping the future of CAR T therapies. Ex vivo and in vivo approaches will evolve together, helping improve scalability, lower costs, and ex…",
+      "ts": 1787155254000,
+      "publishedAt": "2026-08-19T16:00:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cutting Costs in Serum-Free FGF2 Processing With Recycled Media",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cutting-costs-in-serum-free-fgf2-processing-with-recycled-media/",
+      "summary": "Reusing spent culture media in an L. lactis cell fermentation model streamlines continuous bioprocessing and cuts costs for FGF2 production, making serum-free production increasingly cost-effective and productive. The po…",
+      "ts": 1787155252000,
+      "publishedAt": "2026-08-19T16:00:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cell Therapy Company Aims to Pioneer Analytics Automation",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cell-therapy-company-aims-to-pioneer-analytics-automation/",
+      "summary": "BlueRock says it’s helping advance the cell therapy industry by developing an automated system for analytical auditing. They say it’s among the few systems specifically designed for this application. The post Cell Therap…",
+      "ts": 1787155212000,
+      "publishedAt": "2026-08-19T16:00:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Vector Production a Bottleneck for Gene Therapy Sector",
+      "url": "https://www.genengnews.com/topics/bioprocessing/vector-production-a-bottleneck-for-gene-therapy-sector/",
+      "summary": "More effective purification materials would make viral vector production more efficient, say researchers working on an affinity adsorbent-based method they claim can differentiate between full and empty capsids more effe…",
+      "ts": 1787155210000,
+      "publishedAt": "2026-08-19T16:00:10.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: American Cancer Society cancels alcohol industry fundraiser",
@@ -775,42 +811,6 @@
       "ts": 1787052635000,
       "publishedAt": "2026-08-18T11:30:35.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA imPACT Review Highlights Namibia’s Commitment to Cancer Care and Opportunities to Expand Services",
-      "url": "http://www.iaea.org/newscenter/news/iaea-impact-review-highlights-namibias-commitment-to-cancer-care-and-opportunities-to-expand-services",
-      "summary": "",
-      "ts": 1787052635000,
-      "publishedAt": "2026-08-18T11:30:35.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Amylyx endocrine drug succeeds in pivotal study",
-      "url": "https://www.statnews.com/2026/08/18/amylyx-endocrine-drug-succeeds-in-pivotal-study-avexitide-bariatric-surgery-patients/?utm_campaign=rss",
-      "summary": "In a Phase 3 trial of people with post-bariatric hypoglycemia, those taking the drug, avexitide, experienced a 55% reduction in the rate of serious low blood sugar events compared with…",
-      "ts": 1787050860000,
-      "publishedAt": "2026-08-18T11:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "ts": 1787050800000,
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "ts": 1787050800000,
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

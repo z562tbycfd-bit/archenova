@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-19T15:33:14.777Z",
+  "updated": "2026-08-19T16:33:57.300Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Parasite linked to 'mushy fish' could be much more widespread than thought",
+      "url": "https://phys.org/news/2026-08-parasite-linked-mushy-fish-widespread.html",
+      "summary": "If you're a keen angler and regularly catch yellowtail kingfish (Seriola lalandi), you may have encountered instances of the fish's flesh turning mushy and unpalatable once cooked. Some have said it's a bit like trying t…",
+      "ts": 1787156406000,
+      "publishedAt": "2026-08-19T16:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gentle chemical glow helps scientists capture sharper images of living cells",
+      "url": "https://phys.org/news/2026-08-gentle-chemical-scientists-capture-sharper.html",
+      "summary": "We reach for brighter, better lighting for sharper pictures, whether we're photographing a puppy or a microscopic cell. In most cases, the light comes from outside the object being photographed. A recent study explored a…",
+      "ts": 1787156404000,
+      "publishedAt": "2026-08-19T16:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greenwashing firms are scrutinized less if they are in politicians' pockets, study finds",
+      "url": "https://phys.org/news/2026-08-greenwashing-firms-scrutinized-politicians-pockets.html",
+      "summary": "Companies with strong political connections are more likely to escape scrutiny over greenwashing, according to new research from Durham University Business School. Greenwashing occurs when organizations overstate or misr…",
+      "ts": 1787155203000,
+      "publishedAt": "2026-08-19T16:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study shows hearing children of deaf adults experience stigma but show agency and resilience",
+      "url": "https://phys.org/news/2026-08-children-deaf-adults-stigma-agency.html",
+      "summary": "Hearing children of deaf adults can experience stigma, discrimination and social exclusion because of their association with their deaf parents, while also demonstrating significant resilience and agency in responding to…",
+      "ts": 1787155201000,
+      "publishedAt": "2026-08-19T16:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A new documentary shows what growing up lion is really like",
+      "url": "https://www.sciencenews.org/article/lion-documentary-series-review-natgeo",
+      "summary": "The thrilling National Geographic series, premiering August 19, follows Kio from lion cub to king.",
+      "ts": 1787155200000,
+      "publishedAt": "2026-08-19T16:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shrews exhibit reversible size changes in their skulls and noses to get through the winter",
+      "url": "https://phys.org/news/2026-08-shrews-reversible-size-skulls-noses.html",
+      "summary": "Scientists had previously observed that some species of shrews undergo a form of biological plasticity in which their bodies, skulls, brains and some organs shrink in the winter, then regrow in the spring. Now, a new stu…",
+      "ts": 1787154005000,
+      "publishedAt": "2026-08-19T15:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research: Extreme heat is altering when, where and how we travel",
+      "url": "https://phys.org/news/2026-08-extreme.html",
+      "summary": "Before booking a vacation, it pays to check the weather.",
+      "ts": 1787154002000,
+      "publishedAt": "2026-08-19T15:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Students need more than AI skills—they need accountable AI literacy",
@@ -743,62 +799,6 @@
       "title": "Towards Rapid Prototyping of Spray Injectors: A Regime-Agnostic Neural Operator Surrogate for Gas-Liquid Interface Evolution",
       "url": "https://arxiv.org/abs/2608.17825",
       "summary": "arXiv:2608.17825v1 Announce Type: new Abstract: Spray atomisation rapidly creates large liquid-gas interfacial areas and is central to many industrial processes. However, predicting spray behaviour and surface area remai…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Control of Magnetic Reconnection in High Energy Density Plasmas",
-      "url": "https://arxiv.org/abs/2608.17839",
-      "summary": "arXiv:2608.17839v1 Announce Type: new Abstract: Magnetic reconnection governs the explosive release of magnetic energy in systems from the solar corona to fusion plasmas, yet controlling it in the laboratory has remained…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Investigation of the Asymptotic Properties of Active Impedance in Large Finite Array Antennas",
-      "url": "https://arxiv.org/abs/2608.17844",
-      "summary": "arXiv:2608.17844v1 Announce Type: new Abstract: This paper presents an improved full-wave solver for finite array antennas, and uses this solver to examine asymptotic properties of active impedance for large regular arra…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Benchmarking Least-Squares Tensor Hypercontraction Techniques for Molecular Systems",
-      "url": "https://arxiv.org/abs/2608.17885",
-      "summary": "arXiv:2608.17885v1 Announce Type: new Abstract: Finding a low-rank approximation for the two-electron integral (ERI) tensor is a crucial step towards reducing the computational cost of many-body electronic structure meth…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Residual Learning Approach for Unsteady Aerodynamic Load Prediction",
-      "url": "https://arxiv.org/abs/2608.17894",
-      "summary": "arXiv:2608.17894v1 Announce Type: new Abstract: This paper investigates the feasibility of using residual learning to improve unsteady aerodynamic load prediction for aeroelastic applications. The machine learning techni…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A higher-derivative model predicts a smoothness vs duration relationship in head-pointing movements",
-      "url": "https://arxiv.org/abs/2608.17904",
-      "summary": "arXiv:2608.17904v1 Announce Type: new Abstract: Head movements require integration of visual, proprioceptive, vestibular, and cervical motor signals. The dynamical principles governing their temporal organization remain …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computational Prosopography across a Millennium: Mathematically Oriented Lineages Traced from the Fields Medalists",
-      "url": "https://arxiv.org/abs/2608.17915",
-      "summary": "arXiv:2608.17915v1 Announce Type: new Abstract: We reconstruct the mentor--student network through which documented scholarly training passed across roughly nine centuries, and subject both the network and the means of r…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simplicial closure fragments the explosive cooperation transitions in higher-order public goods games",
-      "url": "https://arxiv.org/abs/2608.17968",
-      "summary": "arXiv:2608.17968v1 Announce Type: new Abstract: Hypergraph (HG) and simplicial complex (SC) are two common representations of higher-order networks, and are often expected to differ mainly quantitatively when they encode…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
