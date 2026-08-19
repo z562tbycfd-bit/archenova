@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-19T19:27:21.542Z",
+  "updated": "2026-08-19T20:30:12.661Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The bloodsucking insect with a saw for a mouth: How the tsetse fly bites through almost anything",
+      "url": "https://phys.org/news/2026-08-bloodsucking-insect-mouth-tsetse-fly.html",
+      "summary": "Tsetse flies transmit some of Africa's most persistent parasitic diseases. They have affected human health, livestock production and rural development for generations, across a region spanning millions of square kilomete…",
+      "ts": 1787170805000,
+      "publishedAt": "2026-08-19T20:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A viral 'loose cannon' enzyme helps phages shut down bacterial defenses",
+      "url": "https://phys.org/news/2026-08-viral-loose-cannon-enzyme-phages.html",
+      "summary": "As antimicrobial resistance grows around the world, novel therapies to counter it become increasingly important. Phages—viruses that infect bacteria—are an exciting avenue of research in this regard, providing a means to…",
+      "ts": 1787170804000,
+      "publishedAt": "2026-08-19T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Harsher weather could encourage sustainable ecolabeling in fishing industry",
+      "url": "https://phys.org/news/2026-08-harsher-weather-sustainable-ecolabeling-fishing.html",
+      "summary": "New research by a Washington State University economist examines how changing environmental conditions may influence the practice and trustworthiness of sustainable ecolabeling in the fishing industry.",
+      "ts": 1787169606000,
+      "publishedAt": "2026-08-19T20:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microbial clocks can accurately estimate time since death across different climates",
+      "url": "https://phys.org/news/2026-08-microbial-clocks-accurately-death-climates.html",
+      "summary": "New research reveals that microbial clocks—forensic tools that track the succession and development of bacteria and fungi involved in decomposition after death—are highly accurate for estimating time since death, or post…",
+      "ts": 1787169604000,
+      "publishedAt": "2026-08-19T20:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When home is no longer safe for older women",
+      "url": "https://phys.org/news/2026-08-home-longer-safe-older-women.html",
+      "summary": "Climate change is making Australia's housing crisis more dangerous for older women. Extreme heat, floods, fires and storms are turning insecure housing into a safety issue, not just an affordability issue.",
+      "ts": 1787168406000,
+      "publishedAt": "2026-08-19T19:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Interacting with AI can make people act more like robots",
+      "url": "https://phys.org/news/2026-08-interacting-ai-people-robots.html",
+      "summary": "As AI continues to develop at a rapid pace, social robots powered by AI are becoming more commonplace in customer service settings such as retail, hospitality, tourism and health care. But as these robots become smarter …",
+      "ts": 1787168401000,
+      "publishedAt": "2026-08-19T19:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Model siblings: Adolescent coping strategies influenced by birth order, study shows",
@@ -751,54 +799,6 @@
       "title": "LV-CARE-Diff: A Conditional Anatomy-Aware Diffusion Model for Left Ventricular Shape Reconstruction and Function Quantification from Ultra-Sparse Cine Slices",
       "url": "https://arxiv.org/abs/2608.17357",
       "summary": "arXiv:2608.17357v1 Announce Type: new Abstract: Left ventricular functional quantification is an essential examination and is routinely performed using cardiovascular magnetic resonance (CMR) cine imaging. However, conve…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine Learning-Assisted Analysis and Inverse Design of Prism-Based Surface Plasmon Resonance Sensors",
-      "url": "https://arxiv.org/abs/2608.17368",
-      "summary": "arXiv:2608.17368v1 Announce Type: new Abstract: In this work, we demonstrate a data-driven machine learning (ML) framework for the efficient design and optimization of Kretschmann-configuration-based surface plasmon reso…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-Second Collisionless Gyrokinetic Eigenvalue Solutions via Orbit-Invariant Decomposition",
-      "url": "https://arxiv.org/abs/2608.17418",
-      "summary": "arXiv:2608.17418v1 Announce Type: new Abstract: Fast analysis of microscopic drift-wave instabilities based on linear gyrokinetic simulation is desirable for modeling anomalous transport in fusion device. In this work, w…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fiber Nonlinearity Compensation of Coherent Signals Using Deep Photonic Reservoir Computer",
-      "url": "https://arxiv.org/abs/2608.17419",
-      "summary": "arXiv:2608.17419v1 Announce Type: new Abstract: Photonic reservoir computer (PRC) is a promising optical computing framework for high-speed optical signal processing, and various reports have shown its functionality of l…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimal control of a swimming robot based on Purcell's microswimmer model",
-      "url": "https://arxiv.org/abs/2608.17455",
-      "summary": "arXiv:2608.17455v1 Announce Type: new Abstract: Purcell's swimmer is a well-known planar model of a swimming microorganism, governed by low Reynolds number hydrodynamics, which is comprised of three rigid links connected…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MolDStruct: benchmarking a hybrid Monte Carlo/Molecular Dynamics model for X-ray free-electron laser ionisation and fragmentation dynamics",
-      "url": "https://arxiv.org/abs/2608.17460",
-      "summary": "arXiv:2608.17460v1 Announce Type: new Abstract: Single Particle Imaging with intense X-ray free-electron laser pulses requires modelling of the resulting ionisation and Coulomb explosion dynamics of biomolecules to optim…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mutual Recognition in the Philosophy of Physics: QBism, Phenomenology, Hegel",
-      "url": "https://arxiv.org/abs/2608.17472",
-      "summary": "arXiv:2608.17472v1 Announce Type: new Abstract: Recent discussions of QBism have turned increasingly toward the question of its ontology. I argue that key insights into QBism's ontology of agency can be identified by rec…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }

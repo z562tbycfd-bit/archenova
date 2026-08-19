@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-19T19:27:25.412Z",
+  "updated": "2026-08-19T20:30:15.660Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Human Multi-Organ Chip Offers New Insight Into Cancer Metastasis",
+      "url": "https://www.genengnews.com/topics/cancer/human-multi-organ-chip-offers-new-insight-into-cancer-metastasis/",
+      "summary": "A human multi-organ chip models how breast cancer spreads from blood vessels to bone and lung, offering a patient-specific tool to study metastasis and potential treatments. The post Human Multi-Organ Chip Offers New Ins…",
+      "ts": 1787169814000,
+      "publishedAt": "2026-08-19T20:03:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How Trump loyalist Heidi Overton became the president’s pick to run the FDA",
+      "url": "https://www.statnews.com/2026/08/19/heidi-overton-fda-commissioner-nominee-competing-interests-ahead/?utm_campaign=rss",
+      "summary": "If she wins confirmation as FDA commissioner, Heidi Overton will face plenty of big challenges.",
+      "ts": 1787169800000,
+      "publishedAt": "2026-08-19T20:03:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Rare Immune Cell Type in Supercentenarians May Help Maintain Healthy Aging",
+      "url": "https://www.genengnews.com/topics/translational-medicine/abundance-of-rare-immune-cell-type-in-supercentenarians-may-help-maintain-healthy-aging/",
+      "summary": "Researchers studying immune cells in Japanese supercentenarians have found that normally rare, CD4 cytotoxic T lymphocytes become increasingly abundant with extreme age, and may help to stave off cancer. The post Rare Im…",
+      "ts": 1787168383000,
+      "publishedAt": "2026-08-19T19:39:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: New CDC director tells staff she is prepared to speak ‘truth to power’",
+      "url": "https://www.statnews.com/2026/08/19/cdc-director-erica-schwartz-staff-meeting-truth-to-power/?utm_campaign=rss",
+      "summary": "Then new CDC director told staff she is “very comfortable and very confident ... [in] speaking truth to power.”",
+      "ts": 1787167905000,
+      "publishedAt": "2026-08-19T19:31:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Katalyst Space and NASA abandon plans for Swift reboost",
@@ -10,6 +46,15 @@
       "ts": 1787167386000,
       "publishedAt": "2026-08-19T19:23:06.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "ts": 1787166000000,
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
@@ -766,51 +811,6 @@
       "ts": 1787058157000,
       "publishedAt": "2026-08-18T13:02:37.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Wildfires, drought and extreme heat, 2026",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Wildfires_drought_and_extreme_heat_2026",
-      "summary": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how th…",
-      "ts": 1787058000000,
-      "publishedAt": "2026-08-18T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Prominent AI startup rolls out virtual cell model in race to speed up science",
-      "url": "https://www.statnews.com/2026/08/18/david-baker-genbio-ai-new-virtual-model-unveiled-aido-cell/?utm_campaign=rss",
-      "summary": "A prominent AI startup has rolled out a virtual cell model, advancing the race to speed up science.",
-      "ts": 1787058000000,
-      "publishedAt": "2026-08-18T13:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency",
-      "url": "http://www.iaea.org/newscenter/pressreleases/joint-statement-by-the-minister-of-foreign-affairs-and-expatriates-of-the-syrian-arab-republic-and-the-director-general-of-the-international-atomic-energy-agency",
-      "summary": "",
-      "ts": 1787056267000,
-      "publishedAt": "2026-08-18T12:31:07.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: how people really use AI, and Flock’s design choices",
-      "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We still don’t know how people are really using AI AI companies like Anthropic and…",
-      "ts": 1787055000000,
-      "publishedAt": "2026-08-18T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Eoptic, Inc. Selected to Supply DeepScan™ Imaging Payloads Scheduled for Launch in 2027",
-      "url": "https://spacenews.com/eoptic-inc-selected-to-supply-deepscan-imaging-payloads-scheduled-for-launch-in-2027/",
-      "summary": "Rochester, NY – August 18, 2026 – Eoptic, Inc., a developer of advanced multi-spectral and multi-modal imaging systems, today announced it has been selected as an approved supplier in support of strategic […] The post Eo…",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
