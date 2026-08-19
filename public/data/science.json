@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-19T12:51:10.822Z",
+  "updated": "2026-08-19T13:46:11.050Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Quantum simulators gain quantitative error bars in 51-ion test",
+      "url": "https://phys.org/news/2026-08-quantum-simulators-gain-quantitative-error.html",
+      "summary": "In the coming years, increasingly larger and more powerful quantum systems are expected to tackle problems that are difficult or impossible to solve using conventional computers. However, the more powerful quantum simula…",
+      "ts": 1787147131000,
+      "publishedAt": "2026-08-19T13:45:31.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why many birds add fresh plants to their nests remains unclear despite signs of healthier offspring",
+      "url": "https://phys.org/news/2026-08-birds-fresh-unclear-healthier-offspring.html",
+      "summary": "As they build their nests, many birds are known to interweave dried grasses and other materials with green plants, such as fresh leaves, grass stems, herbs and aromatic leaves. While this behavior is well documented, why…",
+      "ts": 1787146804000,
+      "publishedAt": "2026-08-19T13:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New design method stabilizes human growth factor for potential therapeutic use",
+      "url": "https://phys.org/news/2026-08-method-stabilizes-human-growth-factor.html",
+      "summary": "A new study published in the Biophysical Journal reports on the development of a stable, biologically active version of the human fibroblast growth factor. Human fibroblast growth factor, or FGF, has potent wound-healing…",
+      "ts": 1787146801000,
+      "publishedAt": "2026-08-19T13:40:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "No refrigerator, no problem. This experimental vaccine doesn’t need it.",
+      "url": "https://www.sciencenews.org/article/experimental-vaccine-doesnt-need-fridge",
+      "summary": "In early trials, a new vaccine that didn’t require refrigeration still protected against tetanus and diphtheria.",
+      "ts": 1787146200000,
+      "publishedAt": "2026-08-19T13:30:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neutron capture experiment sheds light on ancient stardust",
+      "url": "https://phys.org/news/2026-08-neutron-capture-ancient-stardust.html",
+      "summary": "Niobium-94, an isotope of niobium with 41 protons and 53 neutrons, is a critical crossroads in the complex nuclear processes that forge heavy elements under the intense pressures and temperatures of dying stars. In an ar…",
+      "ts": 1787145605000,
+      "publishedAt": "2026-08-19T13:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sea cucumber breeding clues could help rebuild populations depleted by overfishing",
+      "url": "https://phys.org/news/2026-08-sea-cucumber-clues-rebuild-populations.html",
+      "summary": "The reproductive life of sea cucumbers has come under the microscope as University of the Sunshine Coast researchers battle overfishing of the marine creatures. Sea cucumbers—which can spawn by wobbling their heads and e…",
+      "ts": 1787145601000,
+      "publishedAt": "2026-08-19T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Volcano myths unravel, from 'smoke' plumes to Yellowstone catastrophe claims",
+      "url": "https://phys.org/news/2026-08-volcano-myths-unravel-plumes-yellowstone.html",
+      "summary": "Volcanoes emit smoke. Beneath a volcano lies a huge chamber filled with liquid magma. A series of earthquakes means an eruption is imminent. And if a \"supervolcano\" like Yellowstone were to awaken, a global catastrophe w…",
+      "ts": 1787144405000,
+      "publishedAt": "2026-08-19T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are subsea oil and gas pipelines a previously unrecognized source of ocean microplastics?",
+      "url": "https://phys.org/news/2026-08-subsea-oil-gas-pipelines-previously.html",
+      "summary": "Decommissioning pipelines used by the oil and gas industry could result in substantial quantities of microplastics being released into the UK's marine environment annually, a new study suggests.",
+      "ts": 1787144401000,
+      "publishedAt": "2026-08-19T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Study of behavior-related digital dieting apps finds different effects of persuasion-related features",
@@ -735,70 +799,6 @@
       "title": "Quantum sensors that compute: quantum computational magnetic-field sensing using a superconducting qubit",
       "url": "https://arxiv.org/abs/2608.17400",
       "summary": "arXiv:2608.17400v1 Announce Type: cross Abstract: A measurement of a single-qubit quantum sensor reveals at most 1 bit of information about the signal that was sensed. To perform a classification task on the signal, the …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Giant Bandgap Pulsation Driven by Hotspot Breathing Phonons in a Flat-Band Solid",
-      "url": "https://arxiv.org/abs/2608.17408",
-      "summary": "arXiv:2608.17408v1 Announce Type: cross Abstract: The electronic bandgap of solids is conventionally viewed as a static property at a given temperature, with only weak and stochastic thermal fluctuations under equilibriu…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Engineering of Dual Wavelength, Polarization Selective Metalenses in Silicon Carbide",
-      "url": "https://arxiv.org/abs/2608.17506",
-      "summary": "arXiv:2608.17506v1 Announce Type: cross Abstract: Spin defects in silicon carbide (SiC) are promising candidates for integrated quantum photonics, offering long-lived spin states and near-infrared emission suitable for l…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conditional-path Monte Carlo for rare stochastic dynamics on networks: Details and derivations",
-      "url": "https://arxiv.org/abs/2608.17511",
-      "summary": "arXiv:2608.17511v1 Announce Type: cross Abstract: The simulation of rare macroscopic events in stochastic network dynamics, such as widespread epidemic outbreaks, cascading failures in communication networks, or the esca…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The PANSY Meteor Head-echo Orbit Catalogue: Continuous Antarctic Radar Observations of Southern Meteoroid Streams",
-      "url": "https://arxiv.org/abs/2608.17589",
-      "summary": "arXiv:2608.17589v1 Announce Type: cross Abstract: Meteor head echoes from high-power, large-aperture radars provide pulse-resolved positions and velocities for individual micrometeoroids in a submillimeter-radius range t…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "KPZ scaling in one-dimensional arrays of photon condensates",
-      "url": "https://arxiv.org/abs/2608.17602",
-      "summary": "arXiv:2608.17602v1 Announce Type: cross Abstract: Bose-Einstein condensates of photons in dye filled microcavities are known to feature many properties of the ideal bose gas at thermal equilibrium. Nevertheless, the fini…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast high-order solvers for the Lippmann--Schwinger equation in piecewise-smooth heterogeneous media",
-      "url": "https://arxiv.org/abs/2608.17615",
-      "summary": "arXiv:2608.17615v1 Announce Type: cross Abstract: This article presents a fast, high-order Nystr\\\"om solver for the two-dimensional Lippmann--Schwinger equation arising from time-harmonic scattering by penetrable, piecew…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Irradiation-Induced Spin Bath Evolution and as-Grown Hydrogen Defects in CVD Diamond Revealed by NV-Based DEER Spectroscopy",
-      "url": "https://arxiv.org/abs/2608.17619",
-      "summary": "arXiv:2608.17619v1 Announce Type: cross Abstract: The aim of this paper is to provide the reader with a review and current state of the art of the fabrication of high T2 coherence diamond, optimised by the use of double …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-atom detection with a quantum-controlled mechanical oscillator",
-      "url": "https://arxiv.org/abs/2608.17656",
-      "summary": "arXiv:2608.17656v1 Announce Type: cross Abstract: Using supersonic expansion, we create a time-gated, directional beam of Xe atoms with a narrow momentum distribution and detect their collisions with a levitated nanosphe…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }

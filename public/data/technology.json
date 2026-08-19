@@ -1,12 +1,30 @@
 {
   "ok": true,
-  "updated": "2026-08-19T12:51:13.101Z",
+  "updated": "2026-08-19T13:46:15.621Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an FDA commish nominee, mRNA cancer vaccine results, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/?utm_campaign=rss",
+      "summary": "President Trump is expected to nominate Heidi Overton, White House deputy director of domestic policy, to serve as the next FDA commissioner",
+      "ts": 1787145794000,
+      "publishedAt": "2026-08-19T13:23:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The space industry’s next challenge: supply chain resilience",
+      "url": "https://spacenews.com/the-space-industrys-next-challenge-supply-chain-resilience/",
+      "summary": "America’s space economy is scaling faster than its industrial base can support. Commercial constellations are proliferating, national security architectures are becoming more distributed and resilient and civil missions …",
+      "ts": 1787144400000,
+      "publishedAt": "2026-08-19T13:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Vantor names new head of U.S. government business",
       "url": "https://spacenews.com/vantor-names-new-head-of-u-s-government-business/",
-      "summary": "Will Cocos succeeds Susanne Hake as executive vice president and general manager of the the Earth intelligence company’s government business The post Vantor names new head of U.S. government business appeared first on Sp…",
+      "summary": "Will Cocos succeeds Susanne Hake as executive vice president and general manager of the Earth intelligence company’s government business The post Vantor names new head of U.S. government business appeared first on SpaceN…",
       "ts": 1787141895000,
       "publishedAt": "2026-08-19T12:18:15.000Z",
       "categoryId": "space"
@@ -28,6 +46,24 @@
       "ts": 1787140800000,
       "publishedAt": "2026-08-19T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan war: 200,000 newly displaced as fighting and floods intensify",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168165",
+      "summary": "Intensifying fighting in Sudan has displaced at least another 200,000 people since late 2025, while destructive seasonal floods are compounding the massive humanitarian emergency there, the UN International Organization …",
+      "ts": 1787140800000,
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Aid workers under fire as drones reshape warfare",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168153",
+      "summary": "The UN is warning that aid workers face a deadly and evolving threat, with armed drones reshaping battlefields worldwide – putting humanitarian teams increasingly in the line of fire.",
+      "ts": 1787140800000,
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -775,42 +811,6 @@
       "ts": 1787043600000,
       "publishedAt": "2026-08-18T09:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NRO to expand use of HawkEye 360’s satellite intelligence",
-      "url": "https://spacenews.com/nro-to-expand-use-of-hawkeye-360s-satellite-intelligence/",
-      "summary": "NRO contract increases U.S. government access to satellite data used to locate radars, ships and other electronic emitters The post NRO to expand use of HawkEye 360’s satellite intelligence appeared first on SpaceNews.",
-      "ts": 1787043600000,
-      "publishedAt": "2026-08-18T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Doritos as farm-to-table snacks? Big Food, under duress, gets creative",
-      "url": "https://www.statnews.com/2026/08/18/farm-to-table-doritos-ultra-processed-food-ad-campaign-healthwashing/?utm_campaign=rss",
-      "summary": "Doritos in the classic nacho cheese flavor have 27 ingredients, including not just familiar ones but also a number of additives and preservatives.",
-      "ts": 1787041800000,
-      "publishedAt": "2026-08-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: 8 steps to making surrogacy more ethical for everyone involved",
-      "url": "https://www.statnews.com/2026/08/18/mckenna-west-surrogacy-laws-ethics/?utm_campaign=rss",
-      "summary": "“Everything about the West case shows how miserably surrogacy has been managed in America,” writes Arthur Caplan.",
-      "ts": 1787041800000,
-      "publishedAt": "2026-08-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: In parts of the world, antibiotic overuse isn’t the problem — underuse is",
-      "url": "https://www.statnews.com/2026/08/18/antibiotic-underuse-overuse-resistance-aware/?utm_campaign=rss",
-      "summary": "“Like climate change, antimicrobial resistance is a global challenge, but its causes and consequences are unevenly distributed,” writes GARDP’s Peter Beyer.",
-      "ts": 1787041800000,
-      "publishedAt": "2026-08-18T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
