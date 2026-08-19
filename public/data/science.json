@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-19T18:38:09.049Z",
+  "updated": "2026-08-19T19:27:21.542Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Model siblings: Adolescent coping strategies influenced by birth order, study shows",
+      "url": "https://phys.org/news/2026-08-siblings-adolescent-coping-strategies-birth.html",
+      "summary": "Growing up as the oldest sibling of a younger brother and sister shaped the way University of Delaware associate professor Mellissa S. Gordon learned to communicate and cope with challenges. As a single parent, her mothe…",
+      "ts": 1787167207000,
+      "publishedAt": "2026-08-19T19:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI screens 100,000+ membrane combinations, predicting carbon capture performance within seconds",
+      "url": "https://phys.org/news/2026-08-ai-screens-membrane-combinations-carbon.html",
+      "summary": "Reducing carbon dioxide emissions from industrial processes and energy production remains one of the major technological challenges in addressing climate change. Membrane-based gas separation offers an energy-efficient a…",
+      "ts": 1787167204000,
+      "publishedAt": "2026-08-19T19:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soft vibrations reveal warning signs before granular crystals yield",
+      "url": "https://phys.org/news/2026-08-soft-vibrations-reveal-granular-crystals.html",
+      "summary": "Sand, powders, and other collections of visible-sized grains are found throughout daily life, from food and pharmaceuticals to soils and industrial materials. When grains of similar size are arranged regularly, they can …",
+      "ts": 1787166003000,
+      "publishedAt": "2026-08-19T19:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "3D map of cell signaling sites could help improve cancer treatment",
+      "url": "https://phys.org/news/2026-08-3d-cell-sites-cancer-treatment.html",
+      "summary": "Cell-communication molecules called kinases play a key role in the growth and spread of many cancers. But exactly which kinases are active in a particular cancer is not always clear—there are 1.8 million sites on human p…",
+      "ts": 1787166001000,
+      "publishedAt": "2026-08-19T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-driven proteins in artificial membranes—a new method for biohybrid systems",
+      "url": "https://phys.org/news/2026-08-driven-proteins-artificial-membranes-method.html",
+      "summary": "Light-driven membrane proteins are key components in biohybrid systems because they can convert light energy into ion gradients, enabling energy conversion or sensory applications. While their integration into natural li…",
+      "ts": 1787164804000,
+      "publishedAt": "2026-08-19T18:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate taxonomy tool turns risk assessments into practical adaptation guidance",
+      "url": "https://phys.org/news/2026-08-climate-taxonomy-tool-guidance.html",
+      "summary": "As climate impacts such as heat waves, floods and fires intensify worldwide, there is an urgent demand for information on how to respond. IIASA researchers and partners have developed a new tool that meets that need, int…",
+      "ts": 1787164803000,
+      "publishedAt": "2026-08-19T18:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "7,300 excess deaths and counting in France's historically hot summer",
@@ -451,6 +499,62 @@
       "publishedAt": "2026-08-19T11:00:07.000Z"
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Multiple Phases in ${\\mathrm{K}}_{2}{\\mathrm{Cr}}_{3}{\\mathrm{As}}_{3}$: A Playground for Manipulating Topological Superconductivity",
+      "url": "http://link.aps.org/doi/10.1103/kykd-2nj4",
+      "summary": "Author(s): Seigo Ogawa, Tomoki Miyoshi, Saki Uchida, Kazuaki Matano, Shinji Kawasaki, Yoshihiko Inada, and Guo-qing Zheng Researchers have made the first definitive measurements of an elusive superconducting state. [Phys…",
+      "ts": 1787133600000,
+      "publishedAt": "2026-08-19T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Temporal interface in wire media controlled by switches",
+      "url": "http://link.aps.org/doi/10.1103/r4wr-h5y5",
+      "summary": "Author(s): Constantin Simovski and Mikhail Sidorenko In our previous work, we have theoretically shown that the temporal interface in a wire medium may result in an unambiguous encoding of the spatial frequencies of the …",
+      "ts": 1787133600000,
+      "publishedAt": "2026-08-19T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Electromagnetic modes in spherical cavities: Angular spectra, dispersion relations, and self-adjoint extensions",
+      "url": "http://link.aps.org/doi/10.1103/6vg1-k5zb",
+      "summary": "Author(s): Mustafa Bakr, Tongyu Zhang, and Smain Amari We present a comprehensive theory of electromagnetic modes in spherical cavities, resolving questions about the nature of angular quantization. The standard result t…",
+      "ts": 1787133600000,
+      "publishedAt": "2026-08-19T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Reservoir computing as a language model",
+      "url": "http://link.aps.org/doi/10.1103/sd11-x3ny",
+      "summary": "Author(s): Felix Köster and Atsushi Uchida Large language models have dominated the scientific and media landscape due to their impressive performance in processing large amounts of data and producing humanlike text. Nev…",
+      "ts": 1787133600000,
+      "publishedAt": "2026-08-19T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "${\\mathrm{VO}}_{2}$-based energy-efficient artificial spiking sensor emulating human-skin-like high-precision temperature perception",
+      "url": "http://link.aps.org/doi/10.1103/qksb-q166",
+      "summary": "Author(s): Xi Zeng, Thomas Ratier, Rafael Puyol, Léopold Van Brandt, and Denis Flandre Bioinspired neuromorphic spiking sensors hold great promise for energy-efficient and architecturally simplified neuromorphic networks…",
+      "ts": 1787133600000,
+      "publishedAt": "2026-08-19T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Exceptional topological entanglement in open quantum systems",
+      "url": "http://link.aps.org/doi/10.1103/bg9k-rw48",
+      "summary": "Author(s): Shahab Ramezanpour and Amr S. Helmy Fast and robust entanglement generation is a central requirement for scalable quantum technologies, where limited coherence time, parameter drift, and timing uncertainty can…",
+      "ts": 1787133600000,
+      "publishedAt": "2026-08-19T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Nonreciprocal spin transport across a Pt/Ti bilayer",
+      "url": "http://link.aps.org/doi/10.1103/s958-6zdz",
+      "summary": "Author(s): Feng Li, Qian Zhao, Ping Tang, Zimu Li, Quwen Wang, Yixin Fan, Tengfei Zhang, Jianbo Wang, Qingfang Liu, Guoqiang Yu, and Jinwu Wei Interfacial engineering of spin currents is crucial for developing spintronic…",
+      "ts": 1787133600000,
+      "publishedAt": "2026-08-19T10:00:00.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "UK politicians vastly overestimate public opposition to climate policies, study finds",
       "url": "https://phys.org/news/2026-08-uk-politicians-vastly-overestimate-opposition.html",
@@ -695,110 +799,6 @@
       "title": "Mutual Recognition in the Philosophy of Physics: QBism, Phenomenology, Hegel",
       "url": "https://arxiv.org/abs/2608.17472",
       "summary": "arXiv:2608.17472v1 Announce Type: new Abstract: Recent discussions of QBism have turned increasingly toward the question of its ontology. I argue that key insights into QBism's ontology of agency can be identified by rec…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chiral rotational dynamics in the molecular frame: Breaking symmetry with angular momentum",
-      "url": "https://arxiv.org/abs/2608.17479",
-      "summary": "arXiv:2608.17479v1 Announce Type: new Abstract: Achiral molecules can be prepared in superposition states that are chiral. Here, we propose angular momentum orientation in the molecular frame to achieve the required symm…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Steady transport of active particles under continuous release in confined shear flow",
-      "url": "https://arxiv.org/abs/2608.17494",
-      "summary": "arXiv:2608.17494v1 Announce Type: new Abstract: Continuous release is a fundamental source condition in transport, yet theoretical treatments have focused on downstream concentration development for passive solutes or fu…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Agentic Porting, Construction and Initial Verification and Validation of Libraries within the Open Source Unified TRAnsient Multi-Phase Advanced Reactor simulation Kit (Outram Park) Part I: Thermal Hydraulics",
-      "url": "https://arxiv.org/abs/2608.17504",
-      "summary": "arXiv:2608.17504v1 Announce Type: new Abstract: Agentic porting of multiple open-source libraries into Rust, with human in the loop, has been performed for construction of modules within the Open-source Unified TRAnsient…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Roughness-controlled layer in oscillatory turbulent boundary layers over densely packed uniform roughness",
-      "url": "https://arxiv.org/abs/2608.17543",
-      "summary": "arXiv:2608.17543v1 Announce Type: new Abstract: In coastal wave boundary layers over gravel-scale roughness, with near-bed orbital excursions ten to a hundred times the roughness height, the boundary layer is only a few …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The vanishing distance: a practical range boundary for dynamic wavefront shaping",
-      "url": "https://arxiv.org/abs/2608.17551",
-      "summary": "arXiv:2608.17551v1 Announce Type: new Abstract: Wavefront shaping (WFS) is a powerful modern method to control light propagation through scattering media, with applications ranging from biomedical imaging via cryptograph…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Field deployment of a laser wakefield accelerator for on-site application",
-      "url": "https://arxiv.org/abs/2608.17554",
-      "summary": "arXiv:2608.17554v1 Announce Type: new Abstract: Successive innovations in particle accelerators have continually expanded the frontiers of scientific discovery. Laser wakefield accelerators promise to transform science, …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bright dual-pulse betatron X-ray generation from a laser wakefield accelerator",
-      "url": "https://arxiv.org/abs/2608.17555",
-      "summary": "arXiv:2608.17555v1 Announce Type: new Abstract: Pump-probe experiments using dual ultrashort X-ray pulses provide unique opportunities for resolving non-equilibrium dynamics initiated by intense X-ray excitation. Betatro…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magic-wavelength matter-wave interferometry with optical clock states",
-      "url": "https://arxiv.org/abs/2608.17576",
-      "summary": "arXiv:2608.17576v1 Announce Type: new Abstract: Optical clocks and atom interferometers provide complementary ways to measure time, motion and gravity. Combining these capabilities requires matter-wave beam splitters tha…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Operando multidimensional spectroscopy reveals A-site-dependent carrier cooling in perovskite solar cells",
-      "url": "https://arxiv.org/abs/2608.17577",
-      "summary": "arXiv:2608.17577v1 Announce Type: new Abstract: Understanding how photogenerated carriers dissipate excess energy in operating perovskite solar cells is essential for connecting ultrafast photophysics with photovoltaic f…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parallel single-pixel imaging based on modulation region expansion and overlapping reconstruction",
-      "url": "https://arxiv.org/abs/2608.17579",
-      "summary": "arXiv:2608.17579v1 Announce Type: new Abstract: Parallel single-pixel imaging (PSPI) enhances the data acquisition efficiency of single-pixel imaging, but its reconstruction quality depends on a cumbersome and noise-sens…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modelling flow-driven pore closure of weakening poroelastic media",
-      "url": "https://arxiv.org/abs/2608.17581",
-      "summary": "arXiv:2608.17581v1 Announce Type: new Abstract: Poroelastic materials, such as polymer tissue scaffolds, porous rocks, and hydrogels, can weaken due to interactions between the solid skeleton and chemical species in the …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy and Frenesy: the arrow and the bustle of time",
-      "url": "https://arxiv.org/abs/2608.17586",
-      "summary": "arXiv:2608.17586v1 Announce Type: new Abstract: Nonequilibrium statistical mechanics is the science of time as it manifests itself in the transient or steady entropy producing dynamical condition of many-body systems. Be…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probabilistic Inverse Modeling of Contaminant Transport via a Conditioned-on-Design Bayesian Physics Informed Neural Network",
-      "url": "https://arxiv.org/abs/2608.17591",
-      "summary": "arXiv:2608.17591v1 Announce Type: new Abstract: We address the inverse problem of reactive transport in heterogeneous porous media, where unknown model parameters must be inferred from sparse experimental observations. T…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }

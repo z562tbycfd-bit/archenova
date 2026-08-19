@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-19T18:38:11.234Z",
+  "updated": "2026-08-19T19:27:25.412Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Katalyst Space and NASA abandon plans for Swift reboost",
+      "url": "https://spacenews.com/katalyst-space-and-nasa-abandon-plans-for-swift-reboost/",
+      "summary": "Katalyst Space and NASA have called off plans to use the company’s Link spacecraft to raise the orbit of the agency’s Swift gamma-ray observatory, citing attitude-control problems with the spacecraft. The post Katalyst S…",
+      "ts": 1787167386000,
+      "publishedAt": "2026-08-19T19:23:06.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "OpenAI",
       "title": "Offering Zero Data Retention for frontier models",
@@ -18,6 +27,15 @@
       "summary": "Due to an ongoing commercial spacecraft attitude control issue, NASA and Katalyst Space announced Wednesday the LINK spacecraft will not capture or boost an agency satellite to a higher altitude to extend its science mis…",
       "ts": 1787162905000,
       "publishedAt": "2026-08-19T18:08:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds",
+      "url": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+      "summary": "Lee esta historia en español aquí. Some of Earth’s microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks and crannies of the Moon’s South Pole region, NASA scientists say. Publis…",
+      "ts": 1787162560000,
+      "publishedAt": "2026-08-19T18:02:40.000Z",
       "categoryId": "space"
     },
     {
@@ -202,18 +220,18 @@
     },
     {
       "source": "United Nations News",
-      "title": "Sudan war: 200,000 newly displaced as fighting and floods intensify",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168165",
-      "summary": "Intensifying fighting in Sudan has displaced at least another 200,000 people since late 2025, while destructive seasonal floods are compounding the massive humanitarian emergency there, the UN International Organization …",
+      "title": "Aid workers under fire as drones reshape warfare",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168153",
+      "summary": "The UN is warning that aid workers face a deadly and evolving threat, with armed drones reshaping battlefields worldwide – putting humanitarian teams increasingly in the line of fire.",
       "ts": 1787140800000,
       "publishedAt": "2026-08-19T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
-      "title": "Aid workers under fire as drones reshape warfare",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168153",
-      "summary": "The UN is warning that aid workers face a deadly and evolving threat, with armed drones reshaping battlefields worldwide – putting humanitarian teams increasingly in the line of fire.",
+      "title": "Sudan war: 200,000 newly displaced as fighting and floods intensify",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168165",
+      "summary": "Intensifying fighting in Sudan has displaced at least another 200,000 people since late 2025, while destructive seasonal floods are compounding the massive humanitarian emergency there, the UN International Organization …",
       "ts": 1787140800000,
       "publishedAt": "2026-08-19T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -793,24 +811,6 @@
       "ts": 1787054400000,
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "New report takes closer look at the Space Force spending surge",
-      "url": "https://spacenews.com/new-report-takes-closer-look-at-the-space-force-spending-surge/",
-      "summary": "Aerospace Corp. analysis finds most growth concentrated in classified programs, target tracking, missile warning and command and control The post New report takes closer look at the Space Force spending surge appeared fi…",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "What’s journalism worth in disasters and emergencies? A lot, says a new UN report",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168164",
-      "summary": "A single New York Times article on a disaster generated an additional $500,000 in official aid. That’s just one of the findings on the critical role a free press plays in saving lives, according to a new UN report releas…",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
