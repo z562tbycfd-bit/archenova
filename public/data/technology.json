@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-19T07:39:47.676Z",
+  "updated": "2026-08-19T08:39:41.875Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Accrediting body considers changes to racism curriculum standards for public health schools",
+      "url": "https://www.statnews.com/2026/08/19/public-health-education-accrediting-body-ceph-walks-dei-tightrope/?utm_campaign=rss",
+      "summary": "The accrediting group for schools of public health is weighing the removal of language that specifically requires programs to teach about structural bias and racism.",
+      "ts": 1787128200000,
+      "publishedAt": "2026-08-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: In wake of boy’s death, gene editing experts dissect Huidagene’s decisions",
+      "url": "https://www.statnews.com/2026/08/19/huidagene-clinical-trial-deaths-experts-dissect-study-design/?utm_campaign=rss",
+      "summary": "Experts question technical improvements Huidagene tried when using a Duchenne muscular dystrophy treatment strategy largely abandoned by U.S. companies.",
+      "ts": 1787128200000,
+      "publishedAt": "2026-08-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a pediatrician. AI chatbots are grooming my patients",
+      "url": "https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/?utm_campaign=rss",
+      "summary": "“At present, the law does not recognize that child abuse is child abuse when it’s perpetrated by an algorithm operated by a corporation,” writes a pediatrician.",
+      "ts": 1787128200000,
+      "publishedAt": "2026-08-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "She grew up unvaccinated. Now she’s a leading voice for science — and empathy",
+      "url": "https://www.statnews.com/2026/08/19/science-communication-liz-marnik-vaccine-advocate/?utm_campaign=rss",
+      "summary": "Immunologist Liz Marnik, who grew up unvaccinated, says shaming people who distrust science will do nothing to improve vaccine acceptance.",
+      "ts": 1787128200000,
+      "publishedAt": "2026-08-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: AI has created a shadow medical system",
+      "url": "https://www.statnews.com/2026/08/19/ai-doctor-outperforms-chatgpt-oura-quest-ro-hims-medical-system/?utm_campaign=rss",
+      "summary": "Financial incentives – health care makes up nearly one-fifth of the American economy – have driven every major AI company into health care.",
+      "ts": 1787128200000,
+      "publishedAt": "2026-08-19T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
@@ -763,51 +808,6 @@
       "title": "Phylogeny-based metrics of biodiversity: concepts and methods",
       "url": "https://arxiv.org/abs/2608.15278",
       "summary": "arXiv:2608.15278v1 Announce Type: new Abstract: The concept of valuing evolutionary history has a long tradition and was formalized by several research groups in the early 1990s, each aiming to capture the products of ev…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic Pharmacokinetic Escape: A Field-Theoretic Approach to Fluctuation-Induced Tumor Relapse",
-      "url": "https://arxiv.org/abs/2608.15356",
-      "summary": "arXiv:2608.15356v1 Announce Type: new Abstract: Classical mathematical oncology employs deterministic mean-field models predicting that sufficiently high chemotherapy doses drive tumor density to zero. We show that this …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Head Impact Characterization and Cellular Response of a Live-neuron cell-integrated Biomechanical Full-body Surrogate Model",
-      "url": "https://arxiv.org/abs/2608.15418",
-      "summary": "arXiv:2608.15418v1 Announce Type: new Abstract: In this study, we develop a novel integrated framework that links the impact response with cellular dynamics using a live-neuron cell-integrated biomechanical full-body sur…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The effect of the excitatory feedback in anticipated synchronization and phase bistability regimes in neuronal populations",
-      "url": "https://arxiv.org/abs/2608.15449",
-      "summary": "arXiv:2608.15449v1 Announce Type: new Abstract: Anticipated synchronization (AS), in which the receiver leads the sender and the phase lag is negative, can emerge in unidirectionally coupled dynamical systems when the re…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Characterising cardiac tissue properties with graph neural networks",
-      "url": "https://arxiv.org/abs/2608.15843",
-      "summary": "arXiv:2608.15843v1 Announce Type: new Abstract: Characterising electrophysiological properties of cardiac tissue efficiently and accurately from spatially sparse intracardiac measurements is clinically important for loca…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Control-Theoretic Formulation of Global Workspace Theory",
-      "url": "https://arxiv.org/abs/2608.15926",
-      "summary": "arXiv:2608.15926v1 Announce Type: new Abstract: Global workspace theory explains conscious access as the broadcasting of selected information to the rest of the network, but it lacks a formal criterion for identifying th…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"

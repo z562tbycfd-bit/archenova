@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-19T07:39:44.946Z",
+  "updated": "2026-08-19T08:39:38.602Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Italian scientists bet on octopus to fight crab invasion",
+      "url": "https://phys.org/news/2026-08-italian-scientists-octopus-crab-invasion.html",
+      "summary": "From a fishing trawler in the Adriatic, Italian scientists gently release thousands of tiny octopuses in the hope of fighting an invasive crab species that has devastated local fisheries.",
+      "ts": 1787128202000,
+      "publishedAt": "2026-08-19T08:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "China recovers rocket stage on land for first time, after earlier recovery at sea",
+      "url": "https://phys.org/news/2026-08-china-recovers-rocket-stage-earlier.html",
+      "summary": "China has successfully recaptured the first stage of a rocket on land for the first time, state media reported Wednesday, as the country seeks to advance its space program.",
+      "ts": 1787128201000,
+      "publishedAt": "2026-08-19T08:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Archaeologists unveil skeletal remains believed to be ritual offering in Peru",
+      "url": "https://phys.org/news/2026-08-archaeologists-unveil-skeletal-believed-ritual.html",
+      "summary": "Archaeologists on Tuesday unveiled the skeletal remains of an adult they believe was buried as an offering near the base of Huaca Pucllana, an ancient adobe pyramid in Peru's capital of Lima.",
+      "ts": 1787127415000,
+      "publishedAt": "2026-08-19T08:16:55.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Alumni relationships can affect court rulings between judges and lawyers",
@@ -775,30 +799,6 @@
       "title": "Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors",
       "url": "https://arxiv.org/abs/2608.18036",
       "summary": "arXiv:2608.18036v1 Announce Type: cross Abstract: MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that ma…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
-      "url": "https://arxiv.org/abs/2608.18055",
-      "summary": "arXiv:2608.18055v1 Announce Type: cross Abstract: Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstruc…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Geometric Tensor Preconditioning for Stable Training of Recurrent Neural Quantum States",
-      "url": "https://arxiv.org/abs/2608.18065",
-      "summary": "arXiv:2608.18065v1 Announce Type: cross Abstract: Neural Quantum States (NQS) provide a powerful neural network-based variational framework for representing many-body wave functions and solving for ground states. Recurre…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A cryogenic readout integrated circuit with analog pile-up and in-Pixel ADC for high frame rate Skipper CCD-in-CMOS Sensors",
-      "url": "https://arxiv.org/abs/2406.15207",
-      "summary": "arXiv:2406.15207v2 Announce Type: replace Abstract: The Skipper CCD-in-CMOS Parallel Read-Out Circuit V2 (SPROCKET2) is an in-Pixel analog front end and ADC designed for the vertical readout of Skipper CCD-in-CMOS image …",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
