@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-19T16:34:00.611Z",
+  "updated": "2026-08-19T17:28:27.380Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "ts": 1787166000000,
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Trust in science: A new STAT initiative",
+      "url": "https://www.statnews.com/2026/08/19/trust-in-science-a-new-stat-initiative/?utm_campaign=rss",
+      "summary": "Dear Readers, When we launched STAT more than a decade ago, our mission statement promised that we would deliver \"trusted, tough-minded journalism.'' Little did we know that trust would be…",
+      "ts": 1787159973000,
+      "publishedAt": "2026-08-19T17:19:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Experts scrutinize Huidagene’s disclosures after patient death",
+      "url": "https://www.statnews.com/2026/08/19/biotech-news-experts-scrutinize-huidagene-disclosures-after-patient-death/?utm_campaign=rss",
+      "summary": "Merck and Moderna's mRNA cancer vaccine, an expected nominee to lead the FDA, and more biotech news from The Readout",
+      "ts": 1787159340000,
+      "publishedAt": "2026-08-19T17:09:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Regeneron drug for disease that causes dangerous bone growth earns FDA approval",
+      "url": "https://www.statnews.com/2026/08/19/regeneron-fop-garetosmab-fda-approval-pasatru/?utm_campaign=rss",
+      "summary": "A Regeneron drug that treats an ultra-rare disease that causes bone to form where it's not meant to be has won approval.",
+      "ts": 1787158931000,
+      "publishedAt": "2026-08-19T17:02:11.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "CAR T Manufacturing Innovation Expands Patient Access",
@@ -775,42 +811,6 @@
       "ts": 1787054400000,
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Singapore: Independent rights experts urge immediate end to ‘unlawful use’ of death penalty",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168159",
-      "summary": "Independent UN Human Rights Council-appointed experts on Tuesday condemned the execution of at least 16 people in Singapore for drug-related offences this year and urged the country to end its “continued and unlawful use…",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Drone strikes and political impasse in Libya",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168158",
-      "summary": "As Libya faces a political impasse delaying long-planned elections alongside clashes and drone strikes that left a major oil refinery ablaze, the Security Council heard the latest updates, with an activist warning that t…",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ebola: Motorbike riders carrying the sick may hold key to response boost",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168157",
-      "summary": "From the frontlines of the deadliest-ever Ebola outbreak in Democratic Republic of the Congo (DRC), the UN World Health Organization (WHO) shared details on Tuesday of a massive push for community engagement, a day after…",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "imPACT Review Highlights Namibia’s Commitment to Cancer Care and Opportunities to Expand Services",
-      "url": "http://www.iaea.org/newscenter/news/impact-review-highlights-namibias-commitment-to-cancer-care-and-opportunities-to-expand-services",
-      "summary": "",
-      "ts": 1787052635000,
-      "publishedAt": "2026-08-18T11:30:35.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [

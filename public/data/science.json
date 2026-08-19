@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-19T16:33:57.300Z",
+  "updated": "2026-08-19T17:28:24.063Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI flood map reveals 11 million Americans may be omitted from official risk zones",
+      "url": "https://phys.org/news/2026-08-ai-reveals-million-americans-omitted.html",
+      "summary": "Official flood maps shape disaster preparedness, insurance decisions and urban planning, but large parts of the United States remain unmapped or under-mapped. This means some communities may be left unaware of the risks …",
+      "ts": 1787160003000,
+      "publishedAt": "2026-08-19T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dynamic framework can better predict wildfires",
+      "url": "https://phys.org/news/2026-08-dynamic-framework-wildfires.html",
+      "summary": "Southwest Research Institute (SwRI) has developed a new framework for early wildfire detection using real-time modeling that combines multiple datasets with complex remote-sensing capabilities. Understanding real-time wi…",
+      "ts": 1787160001000,
+      "publishedAt": "2026-08-19T17:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Metastable 3D printing 'ink' enables a closed-loop material cycle",
+      "url": "https://phys.org/news/2026-08-metastable-3d-ink-enables-loop.html",
+      "summary": "Polymers used for light-based 3D printing are very stable because of their chemical structure, but they are typically hard to recycle. A research team led by Professor Dr. Eva Blasco, a researcher at the Institute for Mo…",
+      "ts": 1787158808000,
+      "publishedAt": "2026-08-19T17:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Connecting the power of the stars to geometry",
+      "url": "https://phys.org/news/2026-08-power-stars-geometry.html",
+      "summary": "In the world of fusion energy, scientists and engineers study the fourth state of matter known as plasma in an effort to design and build a new type of power plant. Relying on the heat produced by two small atoms smashin…",
+      "ts": 1787158804000,
+      "publishedAt": "2026-08-19T17:00:04.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Static electricity is a mystery, and scientists are all charged up",
+      "url": "https://www.sciencenews.org/article/static-electricity-is-a-mystery",
+      "summary": "Scientists are largely clueless about the origins of static electricity. A quirky group of researchers aims to change that.",
+      "ts": 1787158800000,
+      "publishedAt": "2026-08-19T17:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What if our cities were designed for wildlife as well as people?",
+      "url": "https://phys.org/news/2026-08-cities-wildlife-people.html",
+      "summary": "On a warm evening in May, swifts scream over rooftops, chasing insects above the traffic. A fox slips along a garden wall while gulls squabble on a supermarket roof. We tend to treat these animals as visitors. But they'r…",
+      "ts": 1787157603000,
+      "publishedAt": "2026-08-19T16:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Foldamer–protein pair unlocks precise building blocks for artificial molecular materials",
+      "url": "https://phys.org/news/2026-08-foldamerprotein-pair-precise-blocks-artificial.html",
+      "summary": "Proteins form complex three-dimensional shapes and can join together to create larger structures. Researchers want to use these properties to make artificial materials. However, arranging proteins and synthetic molecules…",
+      "ts": 1787157601000,
+      "publishedAt": "2026-08-19T16:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Parasite linked to 'mushy fish' could be much more widespread than thought",
@@ -743,62 +799,6 @@
       "title": "Astrobiology and the Transformation of Scientific Epistemology",
       "url": "https://arxiv.org/abs/2608.17728",
       "summary": "arXiv:2608.17728v1 Announce Type: new Abstract: Astrobiology occupies an unusual position within the philosophy of science. Confronted with the n = 1 problem - having only a single example of life to study - it attempts …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tunable high-charge relativistic electron beams via direct laser acceleration in hohlraum-preheated foam targets",
-      "url": "https://arxiv.org/abs/2608.17772",
-      "summary": "arXiv:2608.17772v1 Announce Type: new Abstract: Direct laser acceleration (DLA) in near-critical-density (NCD) plasmas can efficiently generate high-charge relativistic electron beams, yet beam parameters depend critical…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anthropogenic Heat in Urban Climate Systems: Forcing, Sensitivity, and Feedback",
-      "url": "https://arxiv.org/abs/2608.17782",
-      "summary": "arXiv:2608.17782v1 Announce Type: new Abstract: Anthropogenic heat flux, the heat released to the environment from human activities such as building energy use, transportation, industrial processes, and human metabolism,…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optically Writable Atomic Vapor Memory as a Substrate for Optical Reservoir Computing",
-      "url": "https://arxiv.org/abs/2608.17807",
-      "summary": "arXiv:2608.17807v1 Announce Type: new Abstract: We present an optical random access memory (ORAM) based on warm cesium (Cs) atomic vapor and demonstrate its operation as the physical substrate of a reservoir computer. In…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust Orbital Angular Momentum Transfer Using low-cost Diffractive Optics",
-      "url": "https://arxiv.org/abs/2608.17816",
-      "summary": "arXiv:2608.17816v1 Announce Type: new Abstract: Reliable transfer of orbital angular momentum (OAM) to microscopic objects typically relies on high-fidelity vortex beams generated by programmable spatial light modulators…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning assisted Bayesian calibration of an accelerator digital twin from orbit response data",
-      "url": "https://arxiv.org/abs/2608.17820",
-      "summary": "arXiv:2608.17820v1 Announce Type: new Abstract: Digital twins of particle accelerators are used to plan and control operations and to design data collection campaigns. Accurate modeling typically requires knowledge of qu…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatially explicit feature importance for building height estimation using research-access high-resolution SAR and optical sensors",
-      "url": "https://arxiv.org/abs/2608.17822",
-      "summary": "arXiv:2608.17822v1 Announce Type: new Abstract: Accurate building height information at the individual footprint scale is essential for material stock accounting and post-disaster damage assessments yet remains difficult…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Rapid Prototyping of Spray Injectors: A Regime-Agnostic Neural Operator Surrogate for Gas-Liquid Interface Evolution",
-      "url": "https://arxiv.org/abs/2608.17825",
-      "summary": "arXiv:2608.17825v1 Announce Type: new Abstract: Spray atomisation rapidly creates large liquid-gas interfacial areas and is central to many industrial processes. However, predicting spray behaviour and surface area remai…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
