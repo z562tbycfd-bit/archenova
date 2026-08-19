@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-19T04:39:07.359Z",
+  "updated": "2026-08-19T05:32:55.542Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
+      "summary": "Photographers at NASA’s Johnson Space Center in Houston have documented some of the most defining moments in human spaceflight. From astronaut training and engineering tests to mission control operations and milestone ce…",
+      "ts": 1787115726000,
+      "publishedAt": "2026-08-19T05:02:06.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Physician group sues Trump administration over dietary guidelines process ",
+      "url": "https://www.statnews.com/2026/08/19/physician-group-sues-trump-administration-over-dietary-guidelines-food-pyramid-hhs-usda/?utm_campaign=rss",
+      "summary": "The suit, brought by a nonprofit that advocates for plant-based diets, claims HHS and the USDA used a “secret panel” of scientists to flip the food pyramid.",
+      "ts": 1787115600000,
+      "publishedAt": "2026-08-19T05:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 19 – The Case of the Mysterious Maybe Meteor",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-19-the-case-of-the-mysterious-maybe-meteor/",
+      "summary": "APODScienceAPODAPOD: 2026 August 19 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our f…",
+      "ts": 1787112300000,
+      "publishedAt": "2026-08-19T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "The Little Scientist: LLM Agent-Driven Discovery via the Scientific Method",
@@ -781,33 +808,6 @@
       "title": "Phil Bourne (1953-2026): From Small Molecules to Big Data --- The Journey of a Multifaceted Visionary",
       "url": "https://arxiv.org/abs/2608.15978",
       "summary": "arXiv:2608.15978v1 Announce Type: new Abstract: Born in London in 1953 and raised in Australia, Phil Bourne spent over four decades in science moving across scales: from crystal structures to the world's premier structur…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Continual-learning rules shape representational drift",
-      "url": "https://arxiv.org/abs/2608.16141",
-      "summary": "arXiv:2608.16141v1 Announce Type: new Abstract: Lifelong learning requires acquiring new knowledge without erasing the old. Yet neural population codes for familiar stimuli and behaviors change over days and weeks. This …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "tSymPerturb converts longitudinal symptom networks into time-indexed intervention strategies",
-      "url": "https://arxiv.org/abs/2608.16366",
-      "summary": "arXiv:2608.16366v1 Announce Type: new Abstract: Longitudinal symptom networks encode directed prediction across measurement occasions, but outgoing connectivity does not by itself identify which symptom should be modifie…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "KHiM-Mamba: Injecting Pathology Knowledge into Mamba via Hidden-State Modulation for Whole Slide Image Analysis",
-      "url": "https://arxiv.org/abs/2608.14757",
-      "summary": "arXiv:2608.14757v1 Announce Type: cross Abstract: Whole slide image analysis is commonly formulated as multiple instance learning (MIL), where instance features are contextually updated and aggregated into a slide repres…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"
