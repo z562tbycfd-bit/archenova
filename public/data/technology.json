@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-18T23:23:41.624Z",
+  "updated": "2026-08-19T01:21:23.477Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump expected to pick White House adviser Heidi Overton to lead FDA",
+      "url": "https://www.statnews.com/2026/08/18/heidi-overton-fda-commissioner-nominee-white-house-adviser/?utm_campaign=rss",
+      "summary": "Heidi Overton, a doctor and White House adviser, is expected to be President Trump's pick to lead the FDA.",
+      "ts": 1787102305000,
+      "publishedAt": "2026-08-19T01:18:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China’s Landspace recovers booster with second  orbital launch of Zhuque-3 rocket",
+      "url": "https://spacenews.com/chinas-landspace-recovers-booster-with-second-orbital-launch-of-zhuque-3-rocket/",
+      "summary": "HELSINKI — Landspace successfully landed the first stage of its Zhuque-3 rocket Tuesday following the second launch of the rocket from the Gobi Desert. The second Zhuque-3 rocket lifted off […] The post China’s Landspace…",
+      "ts": 1787101521000,
+      "publishedAt": "2026-08-19T01:05:21.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Rocket Lab to test Space Force data network connection in orbit in 2027",
@@ -790,24 +808,6 @@
       "title": "A Practical Guide to Tuning Spiking Neuronal Dynamics for Computational Neuroscience and NeuroAI Research",
       "url": "https://arxiv.org/abs/2506.08138",
       "summary": "arXiv:2506.08138v2 Announce Type: replace-cross Abstract: In this work, we examine and study the fundamental elements of spiking neural networks (SNNs) as well as how to tune them. Concretely, we focus on two different f…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evaluating the impact of incomplete contact tracing data on urban epidemic dynamics",
-      "url": "https://arxiv.org/abs/2601.14632",
-      "summary": "arXiv:2601.14632v3 Announce Type: replace-cross Abstract: Contact tracing (CT) is a frontline measure against emerging epidemics, yet in practice it is never complete. The quantitative impact of missing information -- su…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Universal Approximation Theorems for Dynamical Systems with Infinite-Time Horizon Guarantees",
-      "url": "https://arxiv.org/abs/2602.08640",
-      "summary": "arXiv:2602.08640v4 Announce Type: replace-cross Abstract: Universal approximation theorems establish the expressive capacity of neural network architectures. For dynamical systems, existing results are limited to finite …",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"

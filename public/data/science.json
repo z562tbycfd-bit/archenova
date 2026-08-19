@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-18T23:23:38.078Z",
+  "updated": "2026-08-19T01:21:19.808Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Topography controls how mountains respond to large earthquakes",
+      "url": "https://phys.org/news/2026-08-topography-mountains-large-earthquakes.html",
+      "summary": "Large earthquakes can dramatically reshape mountain landscapes by triggering thousands of landslides and rapidly accelerating erosion. However, the reasons why some mountain regions experience intense, long-lasting erosi…",
+      "ts": 1787102401000,
+      "publishedAt": "2026-08-19T01:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Digital spirituality grows, but young people still rely on family and faith leaders",
+      "url": "https://phys.org/news/2026-08-digital-spirituality-young-people-family.html",
+      "summary": "Social media, music, religion-focused apps and other online spiritual content have become popular ways for adolescents to find comfort and connection—and explore ideas related to faith, religion and spirituality, accordi…",
+      "ts": 1787101203000,
+      "publishedAt": "2026-08-19T01:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Premium customer, quickest service? Not so fast, at least in a world of agentic AI-driven services",
+      "url": "https://phys.org/news/2026-08-premium-customer-quickest-fast-world.html",
+      "summary": "It's conventional wisdom in the business world: Premium customers get a pass to the front of the line. Think airports or amusement parks. But new research from the University of Michigan finds the best approach—at least …",
+      "ts": 1787100001000,
+      "publishedAt": "2026-08-19T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some bacteria build internal 'power cables' to extend respiration beyond the cell membrane",
+      "url": "https://phys.org/news/2026-08-bacteria-internal-power-cables-respiration.html",
+      "summary": "All living cells need energy, and most generate it through respiration, a series of chemical reactions normally confined to the cell membrane. Because this machinery takes up space, a cell's energy-generating capacity ha…",
+      "ts": 1787098801000,
+      "publishedAt": "2026-08-19T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New set of international rules needed to protect health of fishing stocks, study shows",
+      "url": "https://phys.org/news/2026-08-international-health-fishing-stocks.html",
+      "summary": "The global community should work to establish an array of new international legal rules to protect the health of fish stocks, new research says. Rather than one set of laws covering all possible maritime sustainability i…",
+      "ts": 1787097601000,
+      "publishedAt": "2026-08-19T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Krypton gas emerges as a new ingredient for quantum computing",
+      "url": "https://phys.org/news/2026-08-krypton-gas-emerges-ingredient-quantum.html",
+      "summary": "To commercialize quantum computing, manufacturers need high-quality superconducting materials for microchips, but they also require a reliable, sustainable nanofabrication process. Tantalum is a corrosion-resistant metal…",
+      "ts": 1787096406000,
+      "publishedAt": "2026-08-18T23:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research helps NYC students aim higher in public high school applications",
+      "url": "https://phys.org/news/2026-08-nyc-students-aim-higher-high.html",
+      "summary": "Many New York City eighth-graders—particularly those from underserved communities—aren't applying to academically competitive high schools where they could succeed, according to new Cornell research.",
+      "ts": 1787096402000,
+      "publishedAt": "2026-08-18T23:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Artificial intelligence acts as an 'ideological chameleon' and may deepen political polarization",
+      "url": "https://phys.org/news/2026-08-artificial-intelligence-ideological-chameleon-deepen.html",
+      "summary": "Researchers at the State University of Campinas (UNICAMP) in the state of São Paulo, Brazil, examined the ideological stance of large language models—artificial intelligence systems trained to understand and generate hum…",
+      "ts": 1787095801000,
+      "publishedAt": "2026-08-18T23:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "US moves to open vast tracts of pristine forests to logging",
@@ -735,70 +799,6 @@
       "title": "Characterization of Thermal Systems from Noisy and Low-resolution Measurements Using Dynamic Mode Decomposition",
       "url": "https://arxiv.org/abs/2608.14581",
       "summary": "arXiv:2608.14581v1 Announce Type: new Abstract: Thermal monitoring in practical applications is often constrained by sparse sensing, measurement noise, and limited spatial resolution, which hinder the identification of h…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Calibration-Leverage Tradeoff in Exactly Solvable Win-Probability Models",
-      "url": "https://arxiv.org/abs/2608.14696",
-      "summary": "arXiv:2608.14696v1 Announce Type: new Abstract: We study ball-by-ball win probability (WP) for second-innings run chases in Twenty20 cricket, built as an exactly solvable Markov model: we estimate a single object, the pe…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring new directions in enhancing the ACTS parameter optimization suite",
-      "url": "https://arxiv.org/abs/2608.14714",
-      "summary": "arXiv:2608.14714v1 Announce Type: new Abstract: Track seeding strongly affects both the quality and computational cost of charged-particle reconstruction, yet its many configuration parameters are commonly tuned through …",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra",
-      "url": "https://arxiv.org/abs/2608.14720",
-      "summary": "arXiv:2608.14720v1 Announce Type: new Abstract: Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Desp…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "What is superatom?",
-      "url": "https://arxiv.org/abs/2608.14739",
-      "summary": "arXiv:2608.14739v1 Announce Type: new Abstract: The term \"superatom\" has served the cluster community well for over three decades, but the jellium picture that gave it birth has quietly become a cage. This Perspective as…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical validation of calorimeter inpainting with generative diffusion priors",
-      "url": "https://arxiv.org/abs/2608.14801",
-      "summary": "arXiv:2608.14801v1 Announce Type: new Abstract: Localized detector inefficiencies produce incomplete calorimeter data that limit the ability to perform precision measurements. We address this problem in relativistic heav…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elucidating Trace Gas Interactions with Ice Surfaces using Molecular Dynamics",
-      "url": "https://arxiv.org/abs/2608.14849",
-      "summary": "arXiv:2608.14849v1 Announce Type: new Abstract: Recent experimental work carried out by Yettapu, Manning, and Cyran on ice / vapor interfaces revealed changes in sum frequency generation (SFG) signals at ~ 3170 cm$^{-1}$…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Separation of Flexible Enantiomers Using Shear Flow",
-      "url": "https://arxiv.org/abs/2608.14857",
-      "summary": "arXiv:2608.14857v1 Announce Type: new Abstract: Mechanical separation of enantiomers is an attractive alternative to synthetic methods for producing enantiopure samples. Shear flow that produces solution vorticity has be…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A physics-informed SUPG-stabilized finite element framework with shock-capturing for simulating inviscid high-speed flows around a cylinder",
-      "url": "https://arxiv.org/abs/2608.14883",
-      "summary": "arXiv:2608.14883v1 Announce Type: new Abstract: This study presents a hybrid computational framework for simulating non-reacting inviscid high-speed flows of nitrogen gas (N$_2$) around a circular cylinder. Owing to the …",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z"
     }
