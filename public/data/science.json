@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-19T22:26:48.559Z",
+  "updated": "2026-08-19T23:24:18.093Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Kyoto's gardens provide habitats for local amphibians",
+      "url": "https://phys.org/news/2026-08-kyoto-gardens-habitats-local-amphibians.html",
+      "summary": "Where they could once hop and amble freely, urbanization is diminishing amphibians' habitats. Yet small-scale water bodies managed by people—such as those found in the gardens of Japan's temples, shrines and schools—rema…",
+      "ts": 1787181603000,
+      "publishedAt": "2026-08-19T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Foreign tariffs made U.S. whiskey cheaper... depending on where you live",
+      "url": "https://phys.org/news/2026-08-foreign-tariffs-whiskey-cheaper.html",
+      "summary": "A new study finds that one side effect of Trump-era trade wars has been cheaper whiskey in much of the United States. But if you live in whiskey hubs Kentucky or Tennessee, your prices actually went up.",
+      "ts": 1787181601000,
+      "publishedAt": "2026-08-19T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Legacy of colonial biodiversity exploitation explains poverty in biodiversity-rich countries",
+      "url": "https://phys.org/news/2026-08-legacy-colonial-biodiversity-exploitation-poverty.html",
+      "summary": "Nature provides resources to society, and the diversity of species (think of pollinators, for example) is expected to underpin human economies. So why are the poorest countries also those richest in wildlife, containing …",
+      "ts": 1787180404000,
+      "publishedAt": "2026-08-19T23:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rye reference genome uncovers diversity that could strengthen wheat breeding",
+      "url": "https://phys.org/news/2026-08-rye-genome-uncovers-diversity-wheat.html",
+      "summary": "Rye is not only a hardy and high-yielding crop, but also possesses a valuable gene pool for wheat breeding. An international research team led by the IPK Leibniz Institute has significantly improved the foundations for r…",
+      "ts": 1787180401000,
+      "publishedAt": "2026-08-19T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Solar panels can cool crops—and workers",
+      "url": "https://phys.org/news/2026-08-solar-panels-cool-crops-workers.html",
+      "summary": "Photovoltaic technology, most commonly seen as bulky solar panels used on solar farms, is expected to become a dominant energy source by 2050. But these panels are often installed on land that might otherwise be used to …",
+      "ts": 1787179203000,
+      "publishedAt": "2026-08-19T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "3D-printed ceramic waveguide lasers could surpass the power of glass fiber lasers by 10 times",
+      "url": "https://phys.org/news/2026-08-3d-ceramic-waveguide-lasers-surpass.html",
+      "summary": "At the bottom of the ocean, optical fibers transmit telecommunications and internet data around the world. Waveguides make that feat possible by channeling and amplifying the light—and therefore the data within—over enor…",
+      "ts": 1787179201000,
+      "publishedAt": "2026-08-19T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Too much RNA can starve cells of energy, study finds",
+      "url": "https://phys.org/news/2026-08-rna-starve-cells-energy.html",
+      "summary": "A new study from researchers at the Texas A&M College of Veterinary Medicine and Biomedical Sciences (VMBS) has uncovered a previously unknown consequence of viral infection: Too much RNA inside a cell can disrupt its ab…",
+      "ts": 1787178603000,
+      "publishedAt": "2026-08-19T22:30:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Does 'AI‑watermarking' mean the party is over for cheating students?",
@@ -745,62 +801,6 @@
       "summary": "Climate change is the main driver of Europe's rising marine temperatures, directly adding around 2°C of warming in the Mediterranean this summer and severely affecting ecosystems, a study said Wednesday.",
       "ts": 1787129401000,
       "publishedAt": "2026-08-19T08:50:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Italian scientists bet on octopus to fight crab invasion",
-      "url": "https://phys.org/news/2026-08-italian-scientists-octopus-crab-invasion.html",
-      "summary": "From a fishing trawler in the Adriatic, Italian scientists gently release thousands of tiny octopuses in the hope of fighting an invasive crab species that has devastated local fisheries.",
-      "ts": 1787128202000,
-      "publishedAt": "2026-08-19T08:30:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "China successfully recovers rocket stage on land for the first time",
-      "url": "https://phys.org/news/2026-08-china-recovers-rocket-stage-earlier.html",
-      "summary": "China has successfully recaptured the first stage of a rocket on land for the first time, state media reported Wednesday, as the country seeks to advance its space program.",
-      "ts": 1787128201000,
-      "publishedAt": "2026-08-19T08:30:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Archaeologists unveil skeletal remains believed to be ritual offering in Peru",
-      "url": "https://phys.org/news/2026-08-archaeologists-unveil-skeletal-believed-ritual.html",
-      "summary": "Archaeologists on Tuesday unveiled the skeletal remains of an adult they believe was buried as an offering near the base of Huaca Pucllana, an ancient adobe pyramid in Peru's capital of Lima.",
-      "ts": 1787127415000,
-      "publishedAt": "2026-08-19T08:16:55.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Alumni relationships can affect court rulings between judges and lawyers",
-      "url": "https://phys.org/news/2026-08-alumni-relationships-affect-court-lawyers.html",
-      "summary": "New research in Economic Inquiry provides evidence of in-group bias operating within the judiciary—a setting where impartiality is expected.",
-      "ts": 1787122804000,
-      "publishedAt": "2026-08-19T07:00:04.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents",
-      "url": "https://arxiv.org/abs/2608.16897",
-      "summary": "arXiv:2608.16897v1 Announce Type: new Abstract: Large-scale urban simulation plays a pivotal role in social science, traffic safety, and transportation policy. Recent work has shown that large language models, when promp…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "QuantumNovelty: A Skill-Orchestrating Language Agent for Referee-Style Review and Patentability Screening of Quantum Papers and Patents",
-      "url": "https://arxiv.org/abs/2608.16900",
-      "summary": "arXiv:2608.16900v1 Announce Type: new Abstract: Language-model agents increasingly produce quantum-science results; we ask whether the same agentic paradigm can also scrutinize them in an auditable, reproducible, and cos…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-Driven Generation of Compact Quasi-Isodynamic Stellarators",
-      "url": "https://arxiv.org/abs/2608.16938",
-      "summary": "arXiv:2608.16938v1 Announce Type: new Abstract: Stellarator design explores a vast space of three-dimensional plasma boundaries, only a small fraction of which yields usable equilibria. Data-driven models can narrow this…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
     }
   ],
   "sources": [

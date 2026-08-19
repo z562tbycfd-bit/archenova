@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-19T22:26:53.916Z",
+  "updated": "2026-08-19T23:24:22.613Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Hypersonic missile startup Castelion raises $1 billion ",
+      "url": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/",
+      "summary": "Company founded by former SpaceX executives aims to produce a low-cost hypersonic weapon and a broader portfolio of longer-range strike and missile defense weapons The post Hypersonic missile startup Castelion raises $1 …",
+      "ts": 1787181161000,
+      "publishedAt": "2026-08-19T23:12:41.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Eartheye Space forges strategic partnership with IN2",
+      "url": "https://spacenews.com/eartheye-space-forges-strategic-partnership-with-in2/",
+      "summary": "SAN FRANCISCO – Risk-management firm IN2 will have access to Eartheye Space multi-sensor satellite tasking and analytics through a memorandum of understanding signed Aug. 19. IN2 will include Eartheye satellite […] The p…",
+      "ts": 1787180836000,
+      "publishedAt": "2026-08-19T23:07:16.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Human Multi-Organ Chip Offers New Insight Into Cancer Metastasis",
@@ -792,24 +810,6 @@
       "summary": "Researchers discovered that a key molecule released during exercise strengthens muscles, improves exercise performance and could be a therapeutic treatment for muscle damage caused by type 2 diabetes. The post Exercise-B…",
       "ts": 1787062438000,
       "publishedAt": "2026-08-18T14:13:58.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Glenn’s Legacy Forged Through Decades of Flight Research",
-      "url": "https://www.nasa.gov/general/nasa-glenn-inflight-research/",
-      "summary": "Many of NASA’s most important aerospace breakthroughs that began in the laboratory were ultimately proven in the sky. For decades, experts at NASA’s Glenn Research Center in Cleveland conducted flight tests — piloting ai…",
-      "ts": 1787061600000,
-      "publishedAt": "2026-08-18T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a setback for Eyepoint, a win for Amylyx, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/18/eyepoint-blindness-treatment-setback-amylyx-avexitide-win/?utm_campaign=rss",
-      "summary": "Eyepoint disclosed that a Phase 3 trial of its experimental treatment for a common cause of age-related blindness fell short of its primary goal",
-      "ts": 1787059537000,
-      "publishedAt": "2026-08-18T13:25:37.000Z",
       "categoryId": "bio"
     }
   ],
