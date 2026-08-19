@@ -40453,3 +40453,164 @@ a {
   }
 
 }
+
+
+
+
+/* ==========================================================
+   ARCHENOVA SEARCH
+   SELECTED SYSTEM CLOSE ICON
+   Optical center + refined monochrome design
+========================================================== */
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button {
+  position: relative !important;
+
+  width: 42px !important;
+  height: 42px !important;
+
+  min-width: 42px !important;
+  min-height: 42px !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  padding: 0 !important;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.075)
+    !important;
+
+  border-radius: 50% !important;
+
+  background:
+    rgba(255,255,255,0.012)
+    !important;
+
+  color: transparent !important;
+
+  font-size: 0 !important;
+  line-height: 0 !important;
+
+  overflow: hidden !important;
+
+  cursor: pointer !important;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease
+    !important;
+}
+
+
+/* Hide the literal × text visually */
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button::before,
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button::after {
+  content: "" !important;
+
+  position: absolute !important;
+
+  left: 50% !important;
+  top: 50% !important;
+
+  width: 16px !important;
+  height: 1.5px !important;
+
+  border-radius: 999px !important;
+
+  background:
+    rgba(255,255,255,0.58)
+    !important;
+
+  transform-origin: center !important;
+
+  pointer-events: none !important;
+}
+
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button::before {
+  transform:
+    translate(-50%, -50%)
+    rotate(45deg)
+    !important;
+}
+
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button::after {
+  transform:
+    translate(-50%, -50%)
+    rotate(-45deg)
+    !important;
+}
+
+
+/* Subtle interaction */
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button:hover {
+  border-color:
+    rgba(255,255,255,0.14)
+    !important;
+
+  background:
+    rgba(255,255,255,0.03)
+    !important;
+
+  transform:
+    scale(1.03)
+    !important;
+}
+
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button:hover::before,
+.archenova-twin-home
+#archenova-search-section
+.an-search__detail-head button:hover::after {
+  background:
+    rgba(255,255,255,0.82)
+    !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__detail-head button {
+    width: 38px !important;
+    height: 38px !important;
+
+    min-width: 38px !important;
+    min-height: 38px !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__detail-head button::before,
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__detail-head button::after {
+    width: 14px !important;
+    height: 1.4px !important;
+  }
+
+}
