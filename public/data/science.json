@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-19T21:27:09.669Z",
+  "updated": "2026-08-19T22:26:48.559Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Does 'AI‑watermarking' mean the party is over for cheating students?",
+      "url": "https://phys.org/news/2026-08-aiwatermarking-party-students.html",
+      "summary": "Concerns about students cheating with AI are rife in schools and universities.",
+      "ts": 1787178004000,
+      "publishedAt": "2026-08-19T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI prompts offer a new tool for mapping how emotion concepts relate",
+      "url": "https://phys.org/news/2026-08-ai-prompts-tool-emotion-concepts.html",
+      "summary": "How similar are \"joy\" and \"surprise\"? Conversely, how far apart are \"joy\" and \"sadness\"? We naturally organize words that express emotions—such as \"happy,\" \"afraid,\" and \"angry\"—according to similarities and differences …",
+      "ts": 1787178001000,
+      "publishedAt": "2026-08-19T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Ecology of fear' can dramatically change the behavior of blue mussels",
+      "url": "https://phys.org/news/2026-08-ecology-behavior-blue-mussels.html",
+      "summary": "For a blue mussel, a good meal does not come entirely without risk. Blue mussels feed by filtering microscopic algae from seawater. But some unwelcome guests can slip in along with their food. Tiny parasite larvae can hi…",
+      "ts": 1787177401000,
+      "publishedAt": "2026-08-19T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why apples react differently to climate change than wheat",
+      "url": "https://phys.org/news/2026-08-apples-react-differently-climate-wheat.html",
+      "summary": "Although climate change is already having a negative impact on crops, declines in yields have so far been offset by technological advances in agriculture. For field crops that do not rely on pollinators, however, this tr…",
+      "ts": 1787176803000,
+      "publishedAt": "2026-08-19T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Disarming' discovery could help scientists fight deadly fungal infections",
+      "url": "https://phys.org/news/2026-08-discovery-scientists-deadly-fungal-infections.html",
+      "summary": "Researchers from Monash University, in collaboration with the University of Warwick, have discovered how the bacterial antibiotic \"gladiolin\" can disarm Candida albicans, one of the leading causes of life-threatening fun…",
+      "ts": 1787176801000,
+      "publishedAt": "2026-08-19T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dark Stars may have left gravitational-wave echoes across the universe",
+      "url": "https://phys.org/news/2026-08-dark-stars-left-gravitational-echoes.html",
+      "summary": "A mysterious background of extremely low-frequency gravitational waves detected by networks of pulsars may carry information about events that began more than 13 billion years ago—including the formation of some of the f…",
+      "ts": 1787176201000,
+      "publishedAt": "2026-08-19T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lake Zurich sees water level hit record low amid drought",
+      "url": "https://phys.org/news/2026-08-lake-zurich-drought.html",
+      "summary": "Lake Zurich's water level sank to its lowest level in 75 years on Wednesday, official measurements showed, as a drawn-out drought also took a toll on a range of other major Swiss lakes.",
+      "ts": 1787175604000,
+      "publishedAt": "2026-08-19T21:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Were Denisovans tall compared to other ancient humans? We should be skeptical",
+      "url": "https://phys.org/news/2026-08-denisovans-tall-ancient-humans-skeptical.html",
+      "summary": "Take a walk in London's Trafalgar Square this summer, and people of all body sizes—some tall, some short—will be wilting in the heat: a real mix of sizes.",
+      "ts": 1787175601000,
+      "publishedAt": "2026-08-19T21:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How we found a new transmissible cancer in bullhead catfish",
@@ -735,70 +799,6 @@
       "title": "Data-Driven Generation of Compact Quasi-Isodynamic Stellarators",
       "url": "https://arxiv.org/abs/2608.16938",
       "summary": "arXiv:2608.16938v1 Announce Type: new Abstract: Stellarator design explores a vast space of three-dimensional plasma boundaries, only a small fraction of which yields usable equilibria. Data-driven models can narrow this…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PocketCaBER and PocketDoS: Low-cost open-source tools for teaching and learning advanced topics in fluid mechanics",
-      "url": "https://arxiv.org/abs/2608.16943",
-      "summary": "arXiv:2608.16943v1 Announce Type: new Abstract: We describe two open-source, 3D-printable, flexure-based tools for the quantitative measurement of extensional properties of viscoelastic fluids. These low-cost, portable, …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Erbium-implanted tellurite waveguides with low-temperature post-implantation activation and signal enhancement",
-      "url": "https://arxiv.org/abs/2608.17028",
-      "summary": "arXiv:2608.17028v1 Announce Type: new Abstract: In this paper, we demonstrate erbium ion implantation and signal enhancement in tellurium oxide hybrid waveguides. Silicon nitride strips with a width of 2 $\\mu$m and a hei…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Validating direct solvers for Newton's gravitational N-body problem, and the systematic comparison between IEEE floating point and Posits",
-      "url": "https://arxiv.org/abs/2608.17032",
-      "summary": "arXiv:2608.17032v1 Announce Type: new Abstract: We present a systematic comparison between arbitrary precise arithmetic and integration, IEEE-754 compliant floating point arithmetic (fp16, bfp16, fp32, double precision f…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Turbulent Microscale Flow Field Prediction In Porous Media Using Convolutional Neural Networks",
-      "url": "https://arxiv.org/abs/2608.17062",
-      "summary": "arXiv:2608.17062v1 Announce Type: new Abstract: Turbulence modeling in porous media can be greatly improved by combining high-resolution numerical methods with modern data-driven techniques. The development of accurate m…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian Optimization of Molybdenum-99 Production by Laser Wakefield Acceleration Using Coupled PIC and Monte Carlo Simulations",
-      "url": "https://arxiv.org/abs/2608.17119",
-      "summary": "arXiv:2608.17119v1 Announce Type: new Abstract: This work applies Bayesian optimization to a loop composed of PIC simulations of laser electron acceleration and Monte Carlo (MC) simulations of bremsstrahlung-induced nucl…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Autonomous route to the strange attractor: the many life stages of the chaotic bubblewheel",
-      "url": "https://arxiv.org/abs/2608.17169",
-      "summary": "arXiv:2608.17169v1 Announce Type: new Abstract: A body floating atop a supersaturated fluid may accumulate bubbles along its underbelly, which can render the body rotationally unstable. But rotation can strip the surface…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Implementation Possibility of Quantum Simulation for Quantum Molecular Dynamics",
-      "url": "https://arxiv.org/abs/2608.17261",
-      "summary": "arXiv:2608.17261v1 Announce Type: new Abstract: In this work, we explore the implementation possibility of quantum simulation for quantum molecular dynamics, in particular for reaction dynamics, though several implementa…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scintillation Properties of a Stilbene Crystal for Low-Mass Dark Matter Searches",
-      "url": "https://arxiv.org/abs/2608.17276",
-      "summary": "arXiv:2608.17276v1 Announce Type: new Abstract: Direct searches for low-mass WIMPs require sensitivity to low-energy nuclear recoils. Hydrogen-containing targets offer favorable scattering kinematics because low-mass WIM…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
