@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-19T05:32:55.542Z",
+  "updated": "2026-08-19T06:48:00.282Z",
   "items": [
     {
       "source": "NASA",
@@ -262,6 +262,15 @@
       "ts": 1787093556000,
       "publishedAt": "2026-08-18T22:52:36.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "ts": 1787090400000,
+      "publishedAt": "2026-08-18T22:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -799,15 +808,6 @@
       "title": "A Control-Theoretic Formulation of Global Workspace Theory",
       "url": "https://arxiv.org/abs/2608.15926",
       "summary": "arXiv:2608.15926v1 Announce Type: new Abstract: Global workspace theory explains conscious access as the broadcasting of selected information to the rest of the network, but it lacks a formal criterion for identifying th…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Phil Bourne (1953-2026): From Small Molecules to Big Data --- The Journey of a Multifaceted Visionary",
-      "url": "https://arxiv.org/abs/2608.15978",
-      "summary": "arXiv:2608.15978v1 Announce Type: new Abstract: Born in London in 1953 and raised in Australia, Phil Bourne spent over four decades in science moving across scales: from crystal structures to the world's premier structur…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"
