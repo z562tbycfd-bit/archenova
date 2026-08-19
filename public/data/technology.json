@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-19T13:46:15.621Z",
+  "updated": "2026-08-19T14:36:12.058Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Career Spotlight: Mechanic (Ages 14-18)",
+      "url": "https://www.nasa.gov/learning-resources/career-spotlight-mechanic-ages-14-18/",
+      "summary": "What does a mechanic do? Machines and engines are all around us. They power everything from cars and boats to airplanes and even rockets. Mechanics are experts who know how machinery works, especially engines, and how to…",
+      "ts": 1787147300000,
+      "publishedAt": "2026-08-19T13:48:20.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about an FDA commish nominee, mRNA cancer vaccine results, and more",
@@ -799,15 +808,6 @@
       "title": "The role of the astronaut is in flux",
       "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
       "summary": "When the four astronauts on board NASA’s Artemis II swung around the moon earlier this year, they set a new record for the farthest humans have ever ventured from Earth, surpassing the distance set by Apollo 13 in 1972 b…",
-      "ts": 1787043600000,
-      "publishedAt": "2026-08-18T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI’s recursive self-improvement might not come so quickly after all",
-      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-      "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips…",
       "ts": 1787043600000,
       "publishedAt": "2026-08-18T09:00:00.000Z",
       "categoryId": "ai-compute"

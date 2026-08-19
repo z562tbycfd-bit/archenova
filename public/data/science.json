@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-19T13:46:11.050Z",
+  "updated": "2026-08-19T14:36:09.458Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Is the laundry still damp, or just cold? Why your skin can't tell the difference",
+      "url": "https://phys.org/news/2026-08-laundry-damp-cold-skin-difference.html",
+      "summary": "It's a cold winter afternoon, and you've just brought the laundry in. Suddenly, you pause. Are these clothes a bit damp?",
+      "ts": 1787149210000,
+      "publishedAt": "2026-08-19T14:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Search in strange quark sector reveals new particle possibilities",
+      "url": "https://phys.org/news/2026-08-strange-quark-sector-reveals-particle.html",
+      "summary": "Despite science's best efforts to classify the vast menagerie of subatomic particles discovered over the past few decades, some exotic varieties defy explanation. Now, nuclear physicists at the U.S. Department of Energy'…",
+      "ts": 1787149205000,
+      "publishedAt": "2026-08-19T14:20:05.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
+      "url": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
+      "summary": "No one yet knows which technology will power the quantum computers of the future, but the race to create them has already produced some of science’s most intricate machinery. The post Building a Quantum Computer, One Fra…",
+      "ts": 1787148963000,
+      "publishedAt": "2026-08-19T14:16:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Concerns about the New World screwworm have put Texas pet adoptions on hold",
+      "url": "https://phys.org/news/2026-08-world-screwworm-texas-pet.html",
+      "summary": "Adoptions are on hold for thousands of dogs and cats in Texas, potentially putting the animals at risk of being euthanized, because of efforts to stop the spread of the New World screwworm, an insect that has crossed the…",
+      "ts": 1787148424000,
+      "publishedAt": "2026-08-19T14:07:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "An echo of Einstein: An unexpected link between whale calls and special relativity",
+      "url": "https://phys.org/news/2026-08-echo-einstein-unexpected-link-whale.html",
+      "summary": "Standing on the sandy, windswept shores of Provincetown, Massachusetts, people may find themselves squinting at the horizon, waiting for a whale to make its grand entrance with a spectacular breach.",
+      "ts": 1787148010000,
+      "publishedAt": "2026-08-19T14:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists give aircraft composite waste a second life",
+      "url": "https://phys.org/news/2026-08-scientists-aircraft-composite-life.html",
+      "summary": "Researchers from the National University of Singapore (NUS) have developed a method to turn waste from the tough, lightweight composites used in aircraft and other high-performance structures into aerogels that could be …",
+      "ts": 1787148008000,
+      "publishedAt": "2026-08-19T14:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reusing liquid pickle waste to produce omega-3 fatty acids",
+      "url": "https://phys.org/news/2026-08-reusing-liquid-pickle-omega-fatty.html",
+      "summary": "Docosahexaenoic acid (DHA) and eicosapentaenoic acid (EPA) are omega-3 fatty acids known to have beneficial effects and are popular as functional foods and dietary supplements. They are polyunsaturated fatty acids (PUFAs…",
+      "ts": 1787147545000,
+      "publishedAt": "2026-08-19T13:52:25.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Quantum simulators gain quantitative error bars in 51-ion test",
@@ -156,7 +212,7 @@
     },
     {
       "source": "Phys.org",
-      "title": "China recovers rocket stage on land for first time, after earlier recovery at sea",
+      "title": "China successfully recovers rocket stage on land for the first time",
       "url": "https://phys.org/news/2026-08-china-recovers-rocket-stage-earlier.html",
       "summary": "China has successfully recaptured the first stage of a rocket on land for the first time, state media reported Wednesday, as the country seeks to advance its space program.",
       "ts": 1787128201000,
@@ -743,62 +799,6 @@
       "title": "Demonstration of a scalable all-solid-state refrigerator exploiting diffusion geometries and limiting interfacial conductances at temperatures below 1",
       "url": "https://arxiv.org/abs/2608.17125",
       "summary": "arXiv:2608.17125v1 Announce Type: cross Abstract: Solid-state refrigerators using Normal-metal/Insulator/Superconductor (NIS) junctions have previously demonstrated excellent electron cooling but limited ability to cool …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reduced-Order Physics-Informed Neural Network with Adaptive Basis Refinement for Structural Identification",
-      "url": "https://arxiv.org/abs/2608.17131",
-      "summary": "arXiv:2608.17131v1 Announce Type: cross Abstract: Physics-informed neural networks (PINNs) provide a flexible framework for solving forward and inverse problems. However, their direct application to structural dynamics r…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Iterative tensor network transformations for element-wise evaluation of elementary and filtering functions",
-      "url": "https://arxiv.org/abs/2608.17135",
-      "summary": "arXiv:2608.17135v1 Announce Type: cross Abstract: Tensor networks are powerful formats for compressing large-scale data. However, their application to general data processing has been limited by the difficulty of perform…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast Nondestructive Readout for High-Clock-Rate Atom Array Quantum Processor",
-      "url": "https://arxiv.org/abs/2608.17189",
-      "summary": "arXiv:2608.17189v1 Announce Type: cross Abstract: Neutral-atom arrays have rapidly advanced to support thousands of qubits and execute high-fidelity logical operations. However, these processors remain severely throttled…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Discovery of novel magnetic Y-Mn-B compounds via advanced machine learning guided framework",
-      "url": "https://arxiv.org/abs/2608.17200",
-      "summary": "arXiv:2608.17200v1 Announce Type: cross Abstract: Rare-earth transition-metal borides offer critical structural motifs for permanent-magnet design; however, the manganese-rich regions within these compositional phase spa…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Connectivity-Order Law and Conditional Minimal-Mechanism Identification in Many-Body Geometric Phases",
-      "url": "https://arxiv.org/abs/2608.17280",
-      "summary": "arXiv:2608.17280v1 Announce Type: cross Abstract: The value of a multiqubit geometric phase at a single operating point does not reveal whether it was generated directly or through a connected sequence of lower-body inte…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ostrogradsky's Theorem is Incompatible with Background Independence in Quantum Gravity",
-      "url": "https://arxiv.org/abs/2608.17364",
-      "summary": "arXiv:2608.17364v1 Announce Type: cross Abstract: Ostrogradsky's theorem shows that higher-derivative dynamical systems inevitably yields a Hamiltonian featuring a ghost mode that is unbounded from below. However, we arg…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum sensors that compute: quantum computational magnetic-field sensing using a superconducting qubit",
-      "url": "https://arxiv.org/abs/2608.17400",
-      "summary": "arXiv:2608.17400v1 Announce Type: cross Abstract: A measurement of a single-qubit quantum sensor reveals at most 1 bit of information about the signal that was sensed. To perform a classification task on the signal, the …",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
