@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-08-19T14:36:09.458Z",
+  "updated": "2026-08-19T15:33:14.777Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Students need more than AI skills—they need accountable AI literacy",
+      "url": "https://phys.org/news/2026-08-students-ai-skills-accountable-literacy.html",
+      "summary": "As students return to Canadian colleges and universities soon, many will enter classrooms where generative artificial intelligence (GenAI) is already part of everyday academic life. Many might use tools such as ChatGPT a…",
+      "ts": 1787152809000,
+      "publishedAt": "2026-08-19T15:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Jellyfish reveal how rapid cell turnover may suppress early cancer growth",
+      "url": "https://phys.org/news/2026-08-jellyfish-reveal-rapid-cell-turnover.html",
+      "summary": "Although increased cell proliferation is a hallmark of cancerous tissues, in some cases it may actually protect against tumor growth, according to a new study by Caltech researchers. Using mathematical models, the work s…",
+      "ts": 1787152803000,
+      "publishedAt": "2026-08-19T15:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 100-year-old mystery in the cat kidney may be linked to scent communication",
+      "url": "https://phys.org/news/2026-08-year-mystery-cat-kidney-linked.html",
+      "summary": "Many animals obtain information about others from scent marks left in the environment, including urine. Because these marks remain after the sender has left, they allow animals to communicate across space and time. But o…",
+      "ts": 1787151626000,
+      "publishedAt": "2026-08-19T15:00:26.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New lipid nanoparticle delivers capped circular RNA for longer-lasting gene expression",
+      "url": "https://phys.org/news/2026-08-lipid-nanoparticle-capped-circular-rna.html",
+      "summary": "Researchers at Nagoya University in Japan in collaboration with FUJIFILM have developed a novel way of delivering circular RNA (cirRNA) into cells, paving the way for longer-lasting mRNA-based therapeutics including canc…",
+      "ts": 1787151621000,
+      "publishedAt": "2026-08-19T15:00:21.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Peru's highest mountain confirms tropics were a major methane source before the industrial era",
+      "url": "https://phys.org/news/2026-08-peru-highest-mountain-tropics-major.html",
+      "summary": "A new analysis of ice cores collected from the Andes in Peru has produced the first global record of historical tropical methane, filling a critical gap in our understanding of the origins of Earth's greenhouse gases.",
+      "ts": 1787151617000,
+      "publishedAt": "2026-08-19T15:00:17.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Growing role of AI in youth services could put young people at risk",
+      "url": "https://phys.org/news/2026-08-role-ai-youth-young-people.html",
+      "summary": "With AI use growing across the youth services sector, new research by Swinburne University of Technology and Youth Affairs Council Victoria (YACVic) has, for the first time, identified key risks to young people and how t…",
+      "ts": 1787151615000,
+      "publishedAt": "2026-08-19T15:00:15.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Antarctica's brief rebound was caused by climate variability, not a 'new normal'",
+      "url": "https://phys.org/news/2026-08-antarctica-rebound-climate-variability.html",
+      "summary": "Between 2021 and 2023, Antarctica appeared to be growing. Heavy snowfall fueled by wetter weather caused parts of the continent to gain mass, leading some to question whether climate change is really causing the ice to m…",
+      "ts": 1787151610000,
+      "publishedAt": "2026-08-19T15:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fastest known Milky Way star offers new test of supermassive black hole's spin",
+      "url": "https://phys.org/news/2026-08-fastest-milky-star-supermassive-black.html",
+      "summary": "Astronomers have discovered the fastest known star in our galaxy, the Milky Way, orbiting the black hole at its center. The star, named S301, was detected with the European Southern Observatory's Very Large Telescope Int…",
+      "ts": 1787151601000,
+      "publishedAt": "2026-08-19T15:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A record-breaking star could reveal how the Milky Way’s giant black hole spins",
+      "url": "https://www.sciencenews.org/article/record-breaking-star-black-hole-spin",
+      "summary": "The star passes very close to the Milky Way’s supermassive black hole and could reveal the black hole’s spin by tracking how it warps the star’s orbit.",
+      "ts": 1787151600000,
+      "publishedAt": "2026-08-19T15:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "VR supports research into spaceflight-related mental health",
+      "url": "https://phys.org/news/2026-08-vr-spaceflight-mental-health.html",
+      "summary": "As humanity gets closer to the possibility of long-term interplanetary travel, psychologists have started raising concerns about astronauts' mental health. Researchers at Texas A&M University conducted research on sailor…",
+      "ts": 1787151503000,
+      "publishedAt": "2026-08-19T14:58:23.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turning a quantum battery's environmental sensitivity into an advantage",
+      "url": "https://phys.org/news/2026-08-quantum-battery-environmental-sensitivity-advantage.html",
+      "summary": "Quantum batteries, devices that store energy by exploiting quantum mechanical phenomena, could, in principle, be charged faster and more efficiently than classical ones. Despite their potential, connecting these batterie…",
+      "ts": 1787150407000,
+      "publishedAt": "2026-08-19T14:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Offloading work tasks to AI comes with a cost—to our brains",
+      "url": "https://phys.org/news/2026-08-offloading-tasks-ai-brains.html",
+      "summary": "Imagine your team has been tasked with delivering a high-stakes policy paper under intense time pressure. Everyone turns to generative artificial intelligence (AI), and within minutes, it delivers a full draft complete w…",
+      "ts": 1787150403000,
+      "publishedAt": "2026-08-19T14:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Is the laundry still damp, or just cold? Why your skin can't tell the difference",
@@ -703,102 +799,6 @@
       "title": "Simplicial closure fragments the explosive cooperation transitions in higher-order public goods games",
       "url": "https://arxiv.org/abs/2608.17968",
       "summary": "arXiv:2608.17968v1 Announce Type: new Abstract: Hypergraph (HG) and simplicial complex (SC) are two common representations of higher-order networks, and are often expected to differ mainly quantitatively when they encode…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flexible Piezoresistive Yarn Pressure Sensor for Arterial Blood Pressure Waveform Measurement",
-      "url": "https://arxiv.org/abs/2608.17974",
-      "summary": "arXiv:2608.17974v1 Announce Type: new Abstract: The arterial blood pressure (ABP) waveform contains essential information concerning the hemodynamic status and its relation to the diagnosis of cardiovascular conditions. …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How Do AI Climate Models Respond to Warming Across Climate Zones?",
-      "url": "https://arxiv.org/abs/2608.17986",
-      "summary": "arXiv:2608.17986v1 Announce Type: new Abstract: Regional climate zones are expected to shift under global warming. Whether AI climate models have learned to generalize climate-zone distributions under warming in a physic…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conservation of Pseudoangular Momentum in the Radiative Emission and Optical Excitation of Valley-Polarized Surface Lattice Resonances",
-      "url": "https://arxiv.org/abs/2608.18005",
-      "summary": "arXiv:2608.18005v1 Announce Type: new Abstract: Surface lattice resonances (SLRs) are collective polaritonic excitations in nanoparticle arrays, with band-edge states enabling symmetry-based control of radiation includin…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Achieving Long Retention in Area-Dependent Resistive Memory with Phase-Separated Amorphous Tantalum Oxide",
-      "url": "https://arxiv.org/abs/2608.18059",
-      "summary": "arXiv:2608.18059v1 Announce Type: new Abstract: Resistive random-access memory (ReRAM) is a promising future nonvolatile memory technology. Most ReRAM exhibit a fundamental tradeoff: filament-type ReRAM provides long dat…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast and high resolution spatial light modulation for cold atoms",
-      "url": "https://arxiv.org/abs/2608.18071",
-      "summary": "arXiv:2608.18071v1 Announce Type: new Abstract: Programmable arrays of ultracold atoms are a leading platform for quantum computation and simulation, enabling state-of-the-art implementations of quantum error correction,…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Orphan risks at the frontier of artificial intelligence: What diverging safety and compliance frameworks reveal about how AI companies choose the risks they prioritize",
-      "url": "https://arxiv.org/abs/2608.16895",
-      "summary": "arXiv:2608.16895v1 Announce Type: cross Abstract: Companies developing some of the world's most powerful artificial intelligence systems are surprisingly diligent in how they map out the risks their technologies present.…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A formal correspondence between Bayesian inference problems and the Heisenberg representation",
-      "url": "https://arxiv.org/abs/2608.16941",
-      "summary": "arXiv:2608.16941v1 Announce Type: cross Abstract: The proposed formulation establishes a formal correspondence between the Heisenberg representation and the Bayesian formulation of inverse problems by identifying the obs…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Meshfree Snow Modelling using a Modified Cam-Clay Approach",
-      "url": "https://arxiv.org/abs/2608.16967",
-      "summary": "arXiv:2608.16967v1 Announce Type: cross Abstract: Snow is a complex geomaterial whose macroscopic response is governed by density, temperature, and the topology of its evolving microstructure. Its mechanical behavior spa…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrodynamization in 1D Bose gases at nonzero temperature",
-      "url": "https://arxiv.org/abs/2608.16980",
-      "summary": "arXiv:2608.16980v1 Announce Type: cross Abstract: Hydrodynamization refers to the remarkably rapid process in relativistic heavy-ion collisions by which hydrodynamic descriptions become applicable. Following the observat…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PowderLine: a programmatic powder diffraction analysis application",
-      "url": "https://arxiv.org/abs/2608.17009",
-      "summary": "arXiv:2608.17009v1 Announce Type: cross Abstract: Whole-pattern fitting methods, such as Rietveld refinement, excel at extracting detailed structural, chemical, and microstructural information from powder diffraction dat…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tracking nonlinear solar-wind dynamics over three solar cycles using Wind observations",
-      "url": "https://arxiv.org/abs/2608.17037",
-      "summary": "arXiv:2608.17037v1 Announce Type: cross Abstract: The solar wind is a turbulent, weakly collisional plasma characterized by non-Gaussian fluctuations, long-range correlations, and multifractal dynamics. We investigate th…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demonstration of a scalable all-solid-state refrigerator exploiting diffusion geometries and limiting interfacial conductances at temperatures below 1",
-      "url": "https://arxiv.org/abs/2608.17125",
-      "summary": "arXiv:2608.17125v1 Announce Type: cross Abstract: Solid-state refrigerators using Normal-metal/Insulator/Superconductor (NIS) junctions have previously demonstrated excellent electron cooling but limited ability to cool …",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }

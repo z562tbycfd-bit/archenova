@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-19T14:36:12.058Z",
+  "updated": "2026-08-19T15:33:16.915Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: American Cancer Society cancels alcohol industry fundraiser",
+      "url": "https://www.statnews.com/2026/08/19/cancer-society-cancels-alcohol-industry-gala-fundraiser-deadliest-drug-series/?utm_campaign=rss",
+      "summary": "The American Cancer Society had an optics problem: its annual Wine and Spirits Industry's Gala. It decided to do something about it.",
+      "ts": 1787152681000,
+      "publishedAt": "2026-08-19T15:18:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Moog Inc. Expands METEORITE Satellite Bus Capacity for High-Maneuverability Missions",
+      "url": "https://spacenews.com/moog-inc-expands-meteorite-satellite-bus-capacity-for-high-maneuverability-missions/",
+      "summary": "East Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer and systems integrator of high-performance precision motion and fluid controls and control systems announces a new, […] The post Moo…",
+      "ts": 1787152312000,
+      "publishedAt": "2026-08-19T15:11:52.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Gene Switch Uses Electromagnetic Fields to Control Genes Remotely",
+      "url": "https://www.genengnews.com/topics/omics/gene-switch-uses-electromagnetic-fields-to-control-genes-remotely/",
+      "summary": "DNA regulatory elements, which control when, where, and to what extent specific genes are turned on or off, can be co-opted by scientists to create gene switches. The post Gene Switch Uses Electromagnetic Fields to Contr…",
+      "ts": 1787151883000,
+      "publishedAt": "2026-08-19T15:04:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Replay: MTG-I2 pre-launch media briefing",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Replay_MTG-I2_pre-launch_media_briefing",
+      "summary": "Video: 00:51:38 On Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2). The satellite is set to be launched on a…",
+      "ts": 1787151600000,
+      "publishedAt": "2026-08-19T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Brain organoids, kept alive more than five years, matured like human brains",
+      "url": "https://www.statnews.com/2026/08/19/brain-organoids-alive-5-years-neuroscience-research-harvard/?utm_campaign=rss",
+      "summary": "Brain organoids kept alive more than five years continued to develop and mature, and showed molecular and genetic signatures like those of human brains.",
+      "ts": 1787151600000,
+      "publishedAt": "2026-08-19T15:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Career Spotlight: Mechanic (Ages 14-18)",
@@ -172,6 +217,15 @@
       "ts": 1787128200000,
       "publishedAt": "2026-08-19T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "ts": 1787122800000,
+      "publishedAt": "2026-08-19T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -756,60 +810,6 @@
       "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
       "ts": 1787050800000,
       "publishedAt": "2026-08-18T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "ts": 1787050800000,
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "url": "https://openai.com/index/introducing-chatgpt-for-teens",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "ts": 1787050800000,
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "We still don’t know how people are really using AI",
-      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent …",
-      "ts": 1787047603000,
-      "publishedAt": "2026-08-18T10:06:43.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A pill that mimics exercise? Early results on drug designed to maintain both weight loss and muscle mass",
-      "url": "https://www.statnews.com/2026/08/18/enveda-pill-mimics-exercise-phase-one-trial-leptin-weight-loss-maintenance/?utm_campaign=rss",
-      "summary": "Colorado biotech Enveda reports preliminary results on a drug to help people maintain weight loss after GLP-1 use. Just don't call it exercise in a pill.",
-      "ts": 1787047200000,
-      "publishedAt": "2026-08-18T10:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Hera's Mars flyby guided impact study of Deimos moon",
-      "url": "https://www.esa.int/Space_Safety/Hera/Hera_s_Mars_flyby_guided_impact_study_of_Deimos_moon",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/simulation_of_deimos_impact/27417261-2-eng-GB/Simulation_of_Deimos_impact_card_full.gif\" alt=\"Simulation of Deimos impact\">",
-      "ts": 1787044560000,
-      "publishedAt": "2026-08-18T09:16:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The role of the astronaut is in flux",
-      "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
-      "summary": "When the four astronauts on board NASA’s Artemis II swung around the moon earlier this year, they set a new record for the farthest humans have ever ventured from Earth, surpassing the distance set by Apollo 13 in 1972 b…",
-      "ts": 1787043600000,
-      "publishedAt": "2026-08-18T09:00:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
