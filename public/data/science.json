@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-19T11:27:03.031Z",
+  "updated": "2026-08-19T12:51:10.822Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study of behavior-related digital dieting apps finds different effects of persuasion-related features",
+      "url": "https://phys.org/news/2026-08-behavior-digital-dieting-apps-effects.html",
+      "summary": "The booming smartphone industry has spawned an enormous market in health-related mobile phone applications, with apps related to dieting making up about 12% of the market. The apps use persuasive systems design, includin…",
+      "ts": 1787143201000,
+      "publishedAt": "2026-08-19T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study on impact of changes to information reporting on gig workers' behavior uncovers unreported income",
+      "url": "https://phys.org/news/2026-08-impact-gig-workers-behavior-uncovers.html",
+      "summary": "Because of the recent rise of platform gig work, more U.S. workers are being compensated through self-employment. Their earnings are not subject to tax withholding but are generally covered by information reporting on Fo…",
+      "ts": 1787142005000,
+      "publishedAt": "2026-08-19T12:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Coral experts unite in historic effort to restore Florida's coral reef",
+      "url": "https://phys.org/news/2026-08-coral-experts-historic-effort-florida.html",
+      "summary": "Throughout the first week of August, 12 organizations came together in an unprecedented collaborative effort to protect the future of Florida's Coral Reef during one of nature's most elusive events: coral spawning. Scien…",
+      "ts": 1787140805000,
+      "publishedAt": "2026-08-19T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers catch hot birth of galaxy cluster more than 11 billion light-years away",
+      "url": "https://phys.org/news/2026-08-astronomers-hot-birth-galaxy-cluster.html",
+      "summary": "Astronomers have detected an enormous cloud of gas tens of millions of degrees hot surrounding one of the most extreme structures known in the early universe. The study offers one of the clearest views yet of a galaxy cl…",
+      "ts": 1787140802000,
+      "publishedAt": "2026-08-19T12:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Studies find media literacy, social media use can predict trust in institutions, civic engagement",
+      "url": "https://phys.org/news/2026-08-media-literacy-social-civic-engagement.html",
+      "summary": "New research from the University of Kansas has found that the more media-literate people are, the more they trust institutions such as government and nonprofits. In addition, their social media habits can predict civic e…",
+      "ts": 1787139605000,
+      "publishedAt": "2026-08-19T11:40:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Review maps long-term health risks from historical metal mining in England and Wales",
@@ -759,46 +799,6 @@
       "title": "Single-atom detection with a quantum-controlled mechanical oscillator",
       "url": "https://arxiv.org/abs/2608.17656",
       "summary": "arXiv:2608.17656v1 Announce Type: cross Abstract: Using supersonic expansion, we create a time-gated, directional beam of Xe atoms with a narrow momentum distribution and detect their collisions with a levitated nanosphe…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On Robust Alpha-Damping Viscous Scheme",
-      "url": "https://arxiv.org/abs/2608.17664",
-      "summary": "arXiv:2608.17664v1 Announce Type: cross Abstract: In this paper, we investigate the convergence of an implicit defect-correction solver for a viscous discretization based on the alpha-damping scheme for unstructured grid…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Semi-Analytical Theory for Improved Orbit Design of the GARAT\\'EA-L",
-      "url": "https://arxiv.org/abs/2608.17672",
-      "summary": "arXiv:2608.17672v1 Announce Type: cross Abstract: This work proposes a semi-analytical theory for improving orbit design of the GARAT\\'EA-L Brazilian lunar mission. The dynamical model incorporates the lunar gravitationa…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust stabilization of high-frequency magnetic droplets in W-CoFeB-MgO nanoconstriction spin Hall nano-oscillators",
-      "url": "https://arxiv.org/abs/2608.17677",
-      "summary": "arXiv:2608.17677v1 Announce Type: cross Abstract: Magnetic droplets are highly nonlinear spin-wave solitons that can be excited in nanoscale spintronic devices with strong perpendicular magnetic anisotropy. Although exte…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrodynamic Mode Coupling: Effects of density variations in nanoscale channel flows",
-      "url": "https://arxiv.org/abs/2608.17705",
-      "summary": "arXiv:2608.17705v1 Announce Type: cross Abstract: We apply a modal framework for investigating the effect of density variations on gravity-type driven flows at the nanoscale. Using eigenfunction decomposition of the dens…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Atomistic Structure Generation and Neural-Network Screening of Hard Carbons to Identify High-Capacity Sodium Storage",
-      "url": "https://arxiv.org/abs/2608.17716",
-      "summary": "arXiv:2608.17716v1 Announce Type: cross Abstract: Hard carbons are established anodes for lithium-ion batteries and leading candidates for sodium-ion batteries, yet their electrochemical performance is governed by a hete…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }

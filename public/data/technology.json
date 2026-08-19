@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-19T11:27:04.689Z",
+  "updated": "2026-08-19T12:51:13.101Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Vantor names new head of U.S. government business",
+      "url": "https://spacenews.com/vantor-names-new-head-of-u-s-government-business/",
+      "summary": "Will Cocos succeeds Susanne Hake as executive vice president and general manager of the the Earth intelligence company’s government business The post Vantor names new head of U.S. government business appeared first on Sp…",
+      "ts": 1787141895000,
+      "publishedAt": "2026-08-19T12:18:15.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
+      "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI’s recursive self-improvement might not come so quickly after all The AI industr…",
+      "ts": 1787141400000,
+      "publishedAt": "2026-08-19T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission",
+      "url": "https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/",
+      "summary": "Firefly Aerospace will fly a payload from Zeno Power on an upcoming lunar lander mission to test a radioisotope heat source to enable future missions to survive the lunar night. The post Firefly Aerospace to fly Zeno Pow…",
+      "ts": 1787140800000,
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Dissecting Chinese trial strategy in wake of deaths",
+      "url": "https://www.statnews.com/2026/08/19/health-news-dissecting-chinese-trial-strategy-in-wake-of-deaths/?utm_campaign=rss",
+      "summary": "Cancer \"vaccine\" successfully slowed melanoma, dissecting Chinese trial strategy in wake of deaths, and more health news from Morning Rounds",
+      "ts": 1787140046000,
+      "publishedAt": "2026-08-19T11:47:26.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: What Epic did — and didn’t — say about AI at its annual meeting",
@@ -37,6 +73,15 @@
       "ts": 1787130000000,
       "publishedAt": "2026-08-19T09:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "New Research Launched on Safety of Edible Insects and Other Novel Foods",
+      "url": "http://www.iaea.org/newscenter/news/new-research-launched-on-safety-of-edible-insects-and-other-novel-foods",
+      "summary": "",
+      "ts": 1787128205000,
+      "publishedAt": "2026-08-19T08:30:05.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -765,51 +810,6 @@
       "summary": "“Like climate change, antimicrobial resistance is a global challenge, but its causes and consequences are unevenly distributed,” writes GARDP’s Peter Beyer.",
       "ts": 1787041800000,
       "publishedAt": "2026-08-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "How health care costs are undermining America’s public-sector employers",
-      "url": "https://www.statnews.com/2026/08/18/public-sector-employees-health-care-costs-out-of-pocket-series-part-4/?utm_campaign=rss",
-      "summary": "Politicians are contemplating raising taxes and cutting benefits as the cost of health care for government workers surges.",
-      "ts": 1787041800000,
-      "publishedAt": "2026-08-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "url": "https://openai.com/index/asana",
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-      "ts": 1787036400000,
-      "publishedAt": "2026-08-18T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 18 – Perseids from Perseus",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-18-perseids-from-perseus/",
-      "summary": "APODScienceAPODAPOD: 2026 August 18 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fasci…",
-      "ts": 1787025900000,
-      "publishedAt": "2026-08-18T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Lala Batters Hawaii",
-      "url": "https://science.nasa.gov/earth/earth-observatory/lala-batters-hawaii/",
-      "summary": "The powerful storm delivered extreme rainfall and damaging winds to the state, passing the Island of Hawaiʻi as a category 1 hurricane.",
-      "ts": 1787025660000,
-      "publishedAt": "2026-08-18T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MultiStructRNA: a Python package for multi-algorithm RNA secondary structure prediction, ensemble analysis, and visualization",
-      "url": "https://arxiv.org/abs/2608.14846",
-      "summary": "arXiv:2608.14846v1 Announce Type: new Abstract: We introduce MultiStructRNA, a unified Python toolkit for RNA secondary structure prediction, ensemble analysis, and visualization. Although RNA secondary structure is cent…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
