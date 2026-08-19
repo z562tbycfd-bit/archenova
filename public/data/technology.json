@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-19T17:28:27.380Z",
+  "updated": "2026-08-19T18:38:11.234Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1787166000000,
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Updates Next Steps for Commercial Swift Boost Mission",
+      "url": "https://www.nasa.gov/news-release/nasa-updates-next-steps-for-commercial-swift-boost-mission/",
+      "summary": "Due to an ongoing commercial spacecraft attitude control issue, NASA and Katalyst Space announced Wednesday the LINK spacecraft will not capture or boost an agency satellite to a higher altitude to extend its science mis…",
+      "ts": 1787162905000,
+      "publishedAt": "2026-08-19T18:08:25.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -37,6 +46,15 @@
       "ts": 1787158931000,
       "publishedAt": "2026-08-19T17:02:11.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Ancient Milky Way Merger",
+      "url": "https://www.nasa.gov/image-article/ancient-milky-way-merger/",
+      "summary": "This artist’s concept, released on Aug. 17, 2026, depicts a collision between our Milky Way galaxy and a dwarf galaxy known as LKH that happened about 12 billion years ago. A study of data from NASA’s Hubble Space Telesc…",
+      "ts": 1787156328000,
+      "publishedAt": "2026-08-19T16:18:48.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -73,6 +91,15 @@
       "ts": 1787155210000,
       "publishedAt": "2026-08-19T16:00:10.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Establishes State Hubs to Grow Technical Aerospace Workforce",
+      "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
+      "summary": "NASA has awarded approximately $10.5 million to seven institutions to help strengthen and streamline state-based pathways for students into skilled technical jobs in the aerospace industry. The awards were made through t…",
+      "ts": 1787154910000,
+      "publishedAt": "2026-08-19T15:55:10.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -781,33 +808,6 @@
       "title": "What’s journalism worth in disasters and emergencies? A lot, says a new UN report",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168164",
       "summary": "A single New York Times article on a disaster generated an additional $500,000 in official aid. That’s just one of the findings on the critical role a free press plays in saving lives, according to a new UN report releas…",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Lebanon: 860,000 displaced people have returned home, but humanitarian crisis remains ‘immense’",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168163",
-      "summary": "Around 860,000 people displaced by the conflict in southern Lebanon have returned, but the displacement and humanitarian crisis are “far from over,” the UN warned on Tuesday.",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Colombia earthquake: UN ramps up aid for 100,000 people",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168161",
-      "summary": "The UN is scaling up humanitarian assistance in western Colombia as needs continue to grow following last week’s devastating 7.4-magnitude earthquake, according to the latest update released on Tuesday.",
-      "ts": 1787054400000,
-      "publishedAt": "2026-08-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza: Only three per cent of cropland available to grow food",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168160",
-      "summary": "Amid ongoing deadly hostilities in Gaza, the enclave’s farmers face the increasingly difficult challenge of finding safe land to grow their crops.",
       "ts": 1787054400000,
       "publishedAt": "2026-08-18T12:00:00.000Z",
       "categoryId": "global-governance"

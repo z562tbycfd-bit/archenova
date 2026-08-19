@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-19T17:28:24.063Z",
+  "updated": "2026-08-19T18:38:09.049Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "7,300 excess deaths and counting in France's historically hot summer",
+      "url": "https://phys.org/news/2026-08-excess-deaths-france-historically-hot.html",
+      "summary": "France saw more than 7,300 excess deaths during heat waves so far this year, health authorities said Wednesday, as the country has also endured a record number of hot days since mid-June, according to an AFP analysis.",
+      "ts": 1787163605000,
+      "publishedAt": "2026-08-19T18:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Novel insights into aerosol behavior could improve air-quality forecasting",
+      "url": "https://phys.org/news/2026-08-insights-aerosol-behavior-air-quality.html",
+      "summary": "New research from Purdue University demonstrates how organic aerosol molecules can influence one another's behavior in ways that existing atmospheric models do not fully capture.",
+      "ts": 1787163602000,
+      "publishedAt": "2026-08-19T18:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beijing's isoprene-emitting trees highlight ozone risks in greener, hotter cities",
+      "url": "https://phys.org/news/2026-08-beijing-isoprene-emitting-trees-highlight.html",
+      "summary": "Amid current heat waves, urban greening is once again moving to the center of public debate. Greener cities are generally expected to have cleaner air because trees capture airborne particles, absorb gaseous pollutants a…",
+      "ts": 1787162419000,
+      "publishedAt": "2026-08-19T18:00:19.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Most species in UK zoos are non-native and not threatened, undermining conservation goals",
+      "url": "https://phys.org/news/2026-08-species-uk-zoos-native-threatened.html",
+      "summary": "In British zoos and aquariums, fewer than 10% of vertebrate species are native to the UK, and just 2% are high conservation priorities, according to a study by Justin Lennon at the University of Brighton and colleagues, …",
+      "ts": 1787162417000,
+      "publishedAt": "2026-08-19T18:00:17.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oases in the desert of Arabia created 'brands' in the Bronze Age",
+      "url": "https://phys.org/news/2026-08-oases-arabia-brands-bronze-age.html",
+      "summary": "Did brands exist before modern society, in noncapitalist economies? An international team led by Marta Luciani of the University of Vienna has made unexpected discoveries about Bronze Age trade: Yes, brands did indeed ex…",
+      "ts": 1787162414000,
+      "publishedAt": "2026-08-19T18:00:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cities are getting hotter: 'Thermal Justice' offers a fairer way to adapt",
+      "url": "https://phys.org/news/2026-08-cities-hotter-thermal-justice-fairer.html",
+      "summary": "When temperatures rise, public advice is familiar: drink water, avoid strenuous activity during the hottest hours, keep homes cool and check on older or isolated people. These recommendations are reflected in the latest …",
+      "ts": 1787161206000,
+      "publishedAt": "2026-08-19T17:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genetic 'switches' could program 3D-printed bone tissue for blood vessel growth",
+      "url": "https://phys.org/news/2026-08-genetic-3d-bone-tissue-blood.html",
+      "summary": "An interdisciplinary team of engineers and chemists at Penn State has laid the groundwork for 3D printing spheroids—tiny clusters of living cells—capable of regenerating bone tissue in response to severe trauma or infect…",
+      "ts": 1787161201000,
+      "publishedAt": "2026-08-19T17:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI flood map reveals 11 million Americans may be omitted from official risk zones",
@@ -743,62 +799,6 @@
       "title": "Probabilistic Inverse Modeling of Contaminant Transport via a Conditioned-on-Design Bayesian Physics Informed Neural Network",
       "url": "https://arxiv.org/abs/2608.17591",
       "summary": "arXiv:2608.17591v1 Announce Type: new Abstract: We address the inverse problem of reactive transport in heterogeneous porous media, where unknown model parameters must be inferred from sparse experimental observations. T…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large area Waveguide Energy Harvesting Based on Fully Polarized Elastic Topological Metamaterials",
-      "url": "https://arxiv.org/abs/2608.17626",
-      "summary": "arXiv:2608.17626v1 Announce Type: new Abstract: To address the challenge that elastic wave energy can only transmit through narrow path waveguides in topological metamaterials, the proposal of large area waveguides effec…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Body-of-Revolution Finite-Element Model of Plasmon-Enhanced Fluorescence",
-      "url": "https://arxiv.org/abs/2608.17655",
-      "summary": "arXiv:2608.17655v1 Announce Type: new Abstract: Plasmon-enhanced fluorescence (PEF) is one of the most widely investigated optical phenomena in hybrid systems of emitters and plasmonic nanoantennas, with applications ran…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time estimation of the transmission matrix of an atmospheric channel",
-      "url": "https://arxiv.org/abs/2608.17696",
-      "summary": "arXiv:2608.17696v1 Announce Type: new Abstract: Optical wavelengths have received significant attention in free-space channels and are vital for applications in communications, imaging and sensing. Their widespread imple…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An information-theoretic perspective on feed-forward loop abundances in transcriptional networks",
-      "url": "https://arxiv.org/abs/2608.17699",
-      "summary": "arXiv:2608.17699v1 Announce Type: new Abstract: Biological networks feature recurring motifs, but their uneven abundance remains poorly understood. Feed-forward loops (FFLs) are important motifs in the transcriptional ne…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of the ectonic emission mechanism on the collisionless expansion of a multicomponent cathode plasma",
-      "url": "https://arxiv.org/abs/2608.17701",
-      "summary": "arXiv:2608.17701v1 Announce Type: new Abstract: In this paper, the authors delve into the collisionless kinetic theory of planar vacuum diodes to investigate how a pulse-periodic (ectonic) cathode plasma emission mechani…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neutron Interferometers from Stacked Holographic Photopolymer Gratings",
-      "url": "https://arxiv.org/abs/2608.17708",
-      "summary": "arXiv:2608.17708v1 Announce Type: new Abstract: Long-wavelength neutron interferometry using discrete optical elements is notoriously challenging due to stringent alignment and stability requirements. Here, we introduce …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Astrobiology and the Transformation of Scientific Epistemology",
-      "url": "https://arxiv.org/abs/2608.17728",
-      "summary": "arXiv:2608.17728v1 Announce Type: new Abstract: Astrobiology occupies an unusual position within the philosophy of science. Confronted with the n = 1 problem - having only a single example of life to study - it attempts …",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
