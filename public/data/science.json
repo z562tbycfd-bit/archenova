@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-19T06:47:58.103Z",
+  "updated": "2026-08-19T07:39:44.946Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Alumni relationships can affect court rulings between judges and lawyers",
+      "url": "https://phys.org/news/2026-08-alumni-relationships-affect-court-lawyers.html",
+      "summary": "New research in Economic Inquiry provides evidence of in-group bias operating within the judiciary—a setting where impartiality is expected.",
+      "ts": 1787122804000,
+      "publishedAt": "2026-08-19T07:00:04.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents",
@@ -791,14 +799,6 @@
       "title": "A cryogenic readout integrated circuit with analog pile-up and in-Pixel ADC for high frame rate Skipper CCD-in-CMOS Sensors",
       "url": "https://arxiv.org/abs/2406.15207",
       "summary": "arXiv:2406.15207v2 Announce Type: replace Abstract: The Skipper CCD-in-CMOS Parallel Read-Out Circuit V2 (SPROCKET2) is an in-Pixel analog front end and ADC designed for the vertical readout of Skipper CCD-in-CMOS image …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Information, entropy and the paradox of choice: A model for understanding human choice behavior",
-      "url": "https://arxiv.org/abs/2412.12721",
-      "summary": "arXiv:2412.12721v3 Announce Type: replace Abstract: Choice overload occurs when individuals feel overwhelmed by excessive alternatives during decision making. Although larger choice sets are often assumed to be more sati…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
