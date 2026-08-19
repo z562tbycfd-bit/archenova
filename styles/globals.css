@@ -40629,16 +40629,18 @@ a {
 
 /* ==========================================================
    ARCHENOVA SEARCH
-   MOBILE BOTTOM COMPOSITION FIX
-   Reduce dead space below filter dock
+   MOBILE FILTER DOCK — FINAL POSITION
+   HomeSectionPager collision fix
 ========================================================== */
 
 @media (max-width: 768px) {
 
-  /*
-   * Field becomes the positioning reference.
-   * Existing size/grid structure is preserved.
-   */
+  /* --------------------------------------------------------
+     FIELD
+     Position reference only.
+     Existing layout is preserved.
+  -------------------------------------------------------- */
+
   .archenova-twin-home
   #archenova-search-section
   .an-search__field {
@@ -40646,36 +40648,44 @@ a {
   }
 
 
-  /*
-   * Reserve a small area at the bottom of the star field
-   * so the dock never overlaps the last node row.
-   */
+  /* --------------------------------------------------------
+     STAR FIELD
+     Reserve only the space required by the filter dock.
+  -------------------------------------------------------- */
+
   .archenova-twin-home
   #archenova-search-section
   .an-search__canvas {
     padding-bottom:
-      56px !important;
+      88px !important;
   }
 
 
-  /*
-   * Move the horizontal filter dock toward
-   * the HOME navigation instead of leaving
-   * a large empty region underneath.
-   */
+  /* ========================================================
+     FILTER DOCK
+
+     - move above HomeSectionPager
+     - expand horizontally
+     - keep glass / monochrome design
+  ======================================================== */
+
   .archenova-twin-home
   #archenova-search-section
   .an-search__mobile-filters {
     position: absolute !important;
 
     left:
-      12px !important;
+      7px !important;
 
     right:
-      12px !important;
+      7px !important;
 
+    /*
+     * Critical:
+     * enough clearance for HomeSectionPager.
+     */
     bottom:
-      18px !important;
+      82px !important;
 
     z-index:
       45 !important;
@@ -40683,20 +40693,23 @@ a {
     width:
       auto !important;
 
+    max-width:
+      none !important;
+
     height:
-      46px !important;
+      50px !important;
 
     min-height:
-      46px !important;
+      50px !important;
 
     max-height:
-      46px !important;
+      50px !important;
 
     margin:
       0 !important;
 
     padding:
-      6px
+      7px
       8px !important;
 
     display:
@@ -40705,8 +40718,11 @@ a {
     align-items:
       center !important;
 
+    justify-content:
+      flex-start !important;
+
     gap:
-      5px !important;
+      6px !important;
 
     overflow-x:
       auto !important;
@@ -40714,13 +40730,19 @@ a {
     overflow-y:
       hidden !important;
 
+    overscroll-behavior-x:
+      contain !important;
+
+    -webkit-overflow-scrolling:
+      touch;
+
     border:
       1px solid
       rgba(
         255,
         255,
         255,
-        0.055
+        0.06
       ) !important;
 
     border-radius:
@@ -40729,16 +40751,26 @@ a {
     background:
       linear-gradient(
         180deg,
-        rgba(16, 17, 19, 0.34),
-        rgba(0, 0, 0, 0.44)
+        rgba(
+          18,
+          19,
+          21,
+          0.34
+        ),
+        rgba(
+          0,
+          0,
+          0,
+          0.48
+        )
       ) !important;
 
     -webkit-backdrop-filter:
-      blur(18px)
+      blur(20px)
       saturate(105%) !important;
 
     backdrop-filter:
-      blur(18px)
+      blur(20px)
       saturate(105%) !important;
 
     box-shadow:
@@ -40750,7 +40782,16 @@ a {
         255,
         255,
         255,
-        0.025
+        0.03
+      ),
+      0
+      12px
+      30px
+      rgba(
+        0,
+        0,
+        0,
+        0.14
       ) !important;
 
     scrollbar-width:
@@ -40766,45 +40807,190 @@ a {
   }
 
 
-  /*
-   * Keep each filter compact.
-   */
+  /* ========================================================
+     FILTER BUTTONS
+  ======================================================== */
+
   .archenova-twin-home
   #archenova-search-section
   .an-search__mobile-filters button {
+    position:
+      relative !important;
+
     flex:
       0 0 auto !important;
 
     width:
       auto !important;
 
+    min-width:
+      68px !important;
+
     height:
-      32px !important;
+      34px !important;
 
     min-height:
-      32px !important;
+      34px !important;
 
     max-height:
-      32px !important;
+      34px !important;
 
     margin:
       0 !important;
 
     padding:
       0
-      12px !important;
+      13px !important;
+
+    display:
+      inline-flex !important;
+
+    align-items:
+      center !important;
+
+    justify-content:
+      center !important;
+
+    border:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.045
+      ) !important;
+
+    border-radius:
+      999px !important;
+
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.012
+      ) !important;
+
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.30
+      ) !important;
+
+    font-size:
+      4.6px !important;
+
+    line-height:
+      1 !important;
+
+    letter-spacing:
+      0.09em !important;
+
+    white-space:
+      nowrap !important;
+
+    transform:
+      none !important;
   }
 
 
-  /*
-   * Selected System remains above the dock.
-   * Only bottom clearance is adjusted.
-   */
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__mobile-filters
+  button.is-active {
+    border-color:
+      rgba(
+        255,
+        255,
+        255,
+        0.13
+      ) !important;
+
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.06
+      ) !important;
+
+    color:
+      rgba(
+        255,
+        255,
+        255,
+        0.92
+      ) !important;
+
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.045
+      ) !important;
+  }
+
+
+  /* ========================================================
+     SELECTED SYSTEM
+
+     Keep its lower edge above the relocated filter.
+  ======================================================== */
+
   .archenova-twin-home
   #archenova-search-section
   .an-search__detail {
     bottom:
-      72px !important;
+      142px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__mobile-filters {
+    left:
+      6px !important;
+
+    right:
+      6px !important;
+
+    bottom:
+      78px !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__mobile-filters button {
+    min-width:
+      62px !important;
+
+    padding:
+      0
+      11px !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__detail {
+    bottom:
+      136px !important;
   }
 
 }
