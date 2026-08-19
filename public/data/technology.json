@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-19T08:39:41.875Z",
+  "updated": "2026-08-19T09:36:06.261Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Child-monitoring apps might need a reboot",
+      "url": "https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/",
+      "summary": "Pam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a seven-­mile dirt road. She moved…",
+      "ts": 1787130000000,
+      "publishedAt": "2026-08-19T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Fly around Schiaparelli Crater with Mars Express ",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Fly_around_Schiaparelli_Crater_with_Mars_Express",
+      "summary": "Video: 00:04:10 ESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars. Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. …",
+      "ts": 1787130000000,
+      "publishedAt": "2026-08-19T09:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Accrediting body considers changes to racism curriculum standards for public health schools",
@@ -589,6 +607,15 @@
     },
     {
       "source": "IAEA News",
+      "title": "imPACT Review Highlights Namibia’s Commitment to Cancer Care and Opportunities to Expand Services",
+      "url": "http://www.iaea.org/newscenter/news/impact-review-highlights-namibias-commitment-to-cancer-care-and-opportunities-to-expand-services",
+      "summary": "",
+      "ts": 1787052635000,
+      "publishedAt": "2026-08-18T11:30:35.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
       "title": "IAEA imPACT Review Highlights Namibia’s Commitment to Cancer Care and Opportunities to Expand Services",
       "url": "http://www.iaea.org/newscenter/news/iaea-impact-review-highlights-namibias-commitment-to-cancer-care-and-opportunities-to-expand-services",
       "summary": "",
@@ -781,33 +808,6 @@
       "title": "Synaptic delays modulate population phase and amplitude responses in oscillatory excitatory-inhibitory networks",
       "url": "https://arxiv.org/abs/2608.15077",
       "summary": "arXiv:2608.15077v1 Announce Type: new Abstract: Synaptic delays are fundamental determinants of neuronal communication and can profoundly influence the emergence and stability of cortical oscillations. Although their rol…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Phase- and amplitude-dependent control of synchronization in excitatory-inhibitory networks via pulsed stimulation",
-      "url": "https://arxiv.org/abs/2608.15081",
-      "summary": "arXiv:2608.15081v1 Announce Type: new Abstract: Oscillatory neuronal networks exhibit complex collective responses to external perturbations that depend on both the intrinsic network dynamics and the timing of stimulatio…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Valhalla: A Layered Knowledge-State and Service-Governance Framework for Long-Term Scientific Knowledge Work",
-      "url": "https://arxiv.org/abs/2608.15193",
-      "summary": "arXiv:2608.15193v1 Announce Type: new Abstract: As large language model (LLM) agents are increasingly adopted in scientific research, external knowledge bases, knowledge graphs, and long-term memory have improved informa…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Phylogeny-based metrics of biodiversity: concepts and methods",
-      "url": "https://arxiv.org/abs/2608.15278",
-      "summary": "arXiv:2608.15278v1 Announce Type: new Abstract: The concept of valuing evolutionary history has a long tradition and was formalized by several research groups in the early 1990s, each aiming to capture the products of ev…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"

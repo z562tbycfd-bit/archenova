@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-19T08:39:38.602Z",
+  "updated": "2026-08-19T09:36:03.966Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "UK politicians vastly overestimate public opposition to climate policies, study finds",
+      "url": "https://phys.org/news/2026-08-uk-politicians-vastly-overestimate-opposition.html",
+      "summary": "Members of Parliament from the UK's three biggest political parties in the House of Commons significantly overestimate levels of public resistance to major policy proposals for tackling climate change, a University of Ca…",
+      "ts": 1787130004000,
+      "publishedAt": "2026-08-19T09:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change main driver of European ocean warming: Study",
+      "url": "https://phys.org/news/2026-08-climate-main-driver-european-ocean.html",
+      "summary": "Climate change is the main driver of Europe's rising marine temperatures, directly adding around 2°C of warming in the Mediterranean this summer and severely affecting ecosystems, a study said Wednesday.",
+      "ts": 1787129401000,
+      "publishedAt": "2026-08-19T08:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Italian scientists bet on octopus to fight crab invasion",
@@ -783,22 +799,6 @@
       "title": "High-Harmonicity Planar Penning Traps for Single-Electron Qubits",
       "url": "https://arxiv.org/abs/2608.17984",
       "summary": "arXiv:2608.17984v1 Announce Type: cross Abstract: We present a detailed account of the design choices required for planar Penning traps that feature a highly harmonic confining potential. High harmonicity is indispensabl…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
-      "url": "https://arxiv.org/abs/2608.18004",
-      "summary": "arXiv:2608.18004v1 Announce Type: cross Abstract: Probabilistic modeling of physical fields benefits from both a data-driven prior and known physical structure such as the governing equations. Energy-based models (EBMs) …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors",
-      "url": "https://arxiv.org/abs/2608.18036",
-      "summary": "arXiv:2608.18036v1 Announce Type: cross Abstract: MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that ma…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }
