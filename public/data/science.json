@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-19T10:31:13.930Z",
+  "updated": "2026-08-19T11:27:03.031Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Review maps long-term health risks from historical metal mining in England and Wales",
+      "url": "https://phys.org/news/2026-08-term-health-historical-metal-england.html",
+      "summary": "Unlike many other pollutants, toxic metals do not break down in the environment. Although they may become diluted over time, they can remain in landscapes for centuries, posing potential risks to wildlife, livestock, eco…",
+      "ts": 1787138401000,
+      "publishedAt": "2026-08-19T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Volatile weekly work hours may have adverse effects on health, employment",
+      "url": "https://phys.org/news/2026-08-volatile-weekly-hours-adverse-effects.html",
+      "summary": "Workers who juggle volatile work hours that change from week to week may experience adverse health effects that affect their ability to work, although the limitations vary by gender, say researchers at the University of …",
+      "ts": 1787137529000,
+      "publishedAt": "2026-08-19T11:05:29.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cape Town's caracals expose a hidden rat poison problem for the city's wildlife",
+      "url": "https://phys.org/news/2026-08-cape-town-caracals-expose-hidden.html",
+      "summary": "Rat poisons used in homes, businesses and on farms are moving into South Africa's wildlife, according to new research from the Urban Caracal Project, a key research and education initiative based in the Institute for Com…",
+      "ts": 1787137207000,
+      "publishedAt": "2026-08-19T11:00:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "UK politicians vastly overestimate public opposition to climate policies, study finds",
@@ -775,30 +799,6 @@
       "title": "Atomistic Structure Generation and Neural-Network Screening of Hard Carbons to Identify High-Capacity Sodium Storage",
       "url": "https://arxiv.org/abs/2608.17716",
       "summary": "arXiv:2608.17716v1 Announce Type: cross Abstract: Hard carbons are established anodes for lithium-ion batteries and leading candidates for sodium-ion batteries, yet their electrochemical performance is governed by a hete…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VERaiPHY -- Validation & Evaluation for Robust AI in PHYsics",
-      "url": "https://arxiv.org/abs/2608.17724",
-      "summary": "arXiv:2608.17724v1 Announce Type: cross Abstract: Modern machine learning is leading to substantial gains in precision, flexibility, and computational efficiency in fundamental physics. Statistical validation, uncertaint…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From complex-step differentiation to a general reconstruction framework",
-      "url": "https://arxiv.org/abs/2608.17924",
-      "summary": "arXiv:2608.17924v1 Announce Type: cross Abstract: The complex-step method is traditionally derived from the Taylor expansion of an analytic function and it is widely used as a numerical technique for derivative approxima…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Harmonicity Planar Penning Traps for Single-Electron Qubits",
-      "url": "https://arxiv.org/abs/2608.17984",
-      "summary": "arXiv:2608.17984v1 Announce Type: cross Abstract: We present a detailed account of the design choices required for planar Penning traps that feature a highly harmonic confining potential. High harmonicity is indispensabl…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }

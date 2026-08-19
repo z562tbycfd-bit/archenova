@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-19T10:31:15.697Z",
+  "updated": "2026-08-19T11:27:04.689Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: What Epic did — and didn’t — say about AI at its annual meeting",
+      "url": "https://www.statnews.com/2026/08/19/ai-prognosis-what-epic-did-and-didnt-say-about-ai-at-its-annual-meeting/?utm_campaign=rss",
+      "summary": "At Epic's annual meeting, the prevailing question behind closed doors is “What the heck is going on with Epic?”",
+      "ts": 1787138712000,
+      "publishedAt": "2026-08-19T11:25:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Moderna and Merck say mRNA cancer vaccine succeeded in late-stage melanoma trial",
+      "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/?utm_campaign=rss",
+      "summary": "A personalized mRNA cancer vaccine succeeded in a late-stage melanoma study, results that could herald a new, powerful approach in oncology.",
+      "ts": 1787136300000,
+      "publishedAt": "2026-08-19T10:45:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Child-monitoring apps might need a reboot",
@@ -790,24 +808,6 @@
       "title": "MultiStructRNA: a Python package for multi-algorithm RNA secondary structure prediction, ensemble analysis, and visualization",
       "url": "https://arxiv.org/abs/2608.14846",
       "summary": "arXiv:2608.14846v1 Announce Type: new Abstract: We introduce MultiStructRNA, a unified Python toolkit for RNA secondary structure prediction, ensemble analysis, and visualization. Although RNA secondary structure is cent…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Social Discounting Enables Fast and Reliable Collective Escape",
-      "url": "https://arxiv.org/abs/2608.14965",
-      "summary": "arXiv:2608.14965v1 Announce Type: new Abstract: Solitary animals face a tradeoff when detecting threats: faster detection means accepting more false alarms. We show that groups can manage this tradeoff better by treating…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synaptic delays modulate population phase and amplitude responses in oscillatory excitatory-inhibitory networks",
-      "url": "https://arxiv.org/abs/2608.15077",
-      "summary": "arXiv:2608.15077v1 Announce Type: new Abstract: Synaptic delays are fundamental determinants of neuronal communication and can profoundly influence the emergence and stability of cortical oscillations. Although their rol…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"
