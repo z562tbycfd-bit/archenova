@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-19T20:30:12.661Z",
+  "updated": "2026-08-19T21:27:09.669Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How we found a new transmissible cancer in bullhead catfish",
+      "url": "https://phys.org/news/2026-08-transmissible-cancer-bullhead-catfish.html",
+      "summary": "For more than a decade, anglers on Lake Memphremagog—which straddles the Quebec–Vermont border—have been catching brown bullhead catfish marked with distinctive black lesions.",
+      "ts": 1787174402000,
+      "publishedAt": "2026-08-19T21:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Universal pattern revealed in quantum matter",
+      "url": "https://phys.org/news/2026-08-universal-pattern-revealed-quantum.html",
+      "summary": "When different materials transition from one phase to another, such as water coming to a boil or a magnet losing its ability to attract metals, something remarkable can happen: They begin to behave identically, following…",
+      "ts": 1787174401000,
+      "publishedAt": "2026-08-19T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human-related microbes may survive moon's South Pole",
+      "url": "https://phys.org/news/2026-08-human-microbes-survive-moon-south.html",
+      "summary": "Some of Earth's microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks and crannies of the moon's South Pole region, NASA scientists say.",
+      "ts": 1787173801000,
+      "publishedAt": "2026-08-19T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Evolutionary process behind live birth in lizards uncovered",
+      "url": "https://phys.org/news/2026-08-evolutionary-birth-lizards-uncovered.html",
+      "summary": "Scientists studying one of nature's greatest reproductive innovations have discovered how some lizards evolved from laying eggs to giving birth to live young. The new research is the first to reveal the evolutionary proc…",
+      "ts": 1787173204000,
+      "publishedAt": "2026-08-19T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Orange lips and roaring calls: Meet the DRC's shy new rainforest monkey",
+      "url": "https://phys.org/news/2026-08-orange-lips-roaring-drc-shy.html",
+      "summary": "There are 536 species of monkeys in the world today, and the Democratic Republic of Congo has a new one. Named Likweli, this rainforest primate is one of only five new African monkey species described in the past 75 year…",
+      "ts": 1787173202000,
+      "publishedAt": "2026-08-19T21:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A little bit more than magic: The secret to quantum computing may lie in negativity",
+      "url": "https://phys.org/news/2026-08-bit-magic-secret-quantum-negativity.html",
+      "summary": "Quantum computers hold great promise for applications from drug discovery to cybersecurity. Yet figuring out what would give quantum computers their edge over everyday \"classical\" computers is a subtle problem. A new the…",
+      "ts": 1787172004000,
+      "publishedAt": "2026-08-19T20:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why isn't the accounting profession more diverse? Research points to the real levers of change",
+      "url": "https://phys.org/news/2026-08-isnt-accounting-diverse-real-levers.html",
+      "summary": "For the past few decades, universities, employers and professional organizations worldwide have invested in mentoring programs, scholarships and student support initiatives to diversify careers such as professional accou…",
+      "ts": 1787172003000,
+      "publishedAt": "2026-08-19T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Interworld Slingshot: Exploring a new way to find resources in space",
+      "url": "https://phys.org/news/2026-08-interworld-slingshot-exploring-resources-space.html",
+      "summary": "Before people can mine resources on the moon, asteroids or Mars, they need to answer a few key questions: What is there? How much is there? And where can it be found? A team led by SETI Institute research scientist Pablo…",
+      "ts": 1787171402000,
+      "publishedAt": "2026-08-19T20:30:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The bloodsucking insect with a saw for a mouth: How the tsetse fly bites through almost anything",
@@ -735,70 +799,6 @@
       "title": "Scintillation Properties of a Stilbene Crystal for Low-Mass Dark Matter Searches",
       "url": "https://arxiv.org/abs/2608.17276",
       "summary": "arXiv:2608.17276v1 Announce Type: new Abstract: Direct searches for low-mass WIMPs require sensitivity to low-energy nuclear recoils. Hydrogen-containing targets offer favorable scattering kinematics because low-mass WIM…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanophotonic dispersion engineering in tantala-based microresonators with ultralow-loss claddings",
-      "url": "https://arxiv.org/abs/2608.17277",
-      "summary": "arXiv:2608.17277v1 Announce Type: new Abstract: Integrated photonics optimized to leverage low loss, nonlinear-optical processes and optoelectronic integration requires robust optical cladding materials and associated fa…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Noise-separated evidence for a slow collective displacement in a rarefied hypersonic bow-shock layer",
-      "url": "https://arxiv.org/abs/2608.17285",
-      "summary": "arXiv:2608.17285v1 Announce Type: new Abstract: Time-resolved direct simulation Monte Carlo (DSMC) fields are used to test whether a detached rarefied hypersonic bow shock contains a slow collective displacement that can…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reputation and institutional certification as complementary trust mechanisms in a single online market",
-      "url": "https://arxiv.org/abs/2608.17312",
-      "summary": "arXiv:2608.17312v1 Announce Type: new Abstract: Reputation and institutional certification are the two main trust mechanisms under information asymmetry, yet their interaction remains poorly understood. We analyze nearly…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The FLARE Facility",
-      "url": "https://arxiv.org/abs/2608.17332",
-      "summary": "arXiv:2608.17332v1 Announce Type: new Abstract: The Facility for Laboratory Reconnection Experiments (FLARE) has been constructed to study magnetic reconnection in multiple X-line regimes relevant to space, astrophysical…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporally Distinguishing Photocatalytic Dynamics",
-      "url": "https://arxiv.org/abs/2608.17340",
-      "summary": "arXiv:2608.17340v1 Announce Type: new Abstract: Light can induce both photothermal and nonthermal catalytic activity in plasmonic nanoparticles, but the extent, timescale, and efficacy of these two mechanisms remain unre…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inductively Scalable, Single-Step Neural Surrogates for Wave-Scattering Inverse Problems",
-      "url": "https://arxiv.org/abs/2608.17344",
-      "summary": "arXiv:2608.17344v1 Announce Type: new Abstract: Neural network surrogates are an emerging alternative to traditional electromagnetic wave simulators like finite-difference time-domain (FDTD); their goal is to replace rig…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral design of confining optical structures by supersymmetry techniques",
-      "url": "https://arxiv.org/abs/2608.17346",
-      "summary": "arXiv:2608.17346v1 Announce Type: new Abstract: In this work, we apply supersymmetric transformations to an optical medium with quadratic index distributions on both transversal coordinates defining an elliptic profile. …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LV-CARE-Diff: A Conditional Anatomy-Aware Diffusion Model for Left Ventricular Shape Reconstruction and Function Quantification from Ultra-Sparse Cine Slices",
-      "url": "https://arxiv.org/abs/2608.17357",
-      "summary": "arXiv:2608.17357v1 Announce Type: new Abstract: Left ventricular functional quantification is an essential examination and is routinely performed using cardiovascular magnetic resonance (CMR) cine imaging. However, conve…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z"
     }

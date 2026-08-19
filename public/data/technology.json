@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-19T20:30:15.660Z",
+  "updated": "2026-08-19T21:27:11.870Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -19,6 +19,15 @@
       "ts": 1787169800000,
       "publishedAt": "2026-08-19T20:03:20.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA TechLeap Prize: Orbital Clarity Challenge",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-techleap-prize-orbital-clarity-challenge/",
+      "summary": "The Orbital Clarity Challenge — the sixth in the NASA TechLeap Prize series — is a collaborative effort between NASA’s Heliophysics Division, Flight Opportunities program, and Center of Excellence for Collaborative Innov…",
+      "ts": 1787169468000,
+      "publishedAt": "2026-08-19T19:57:48.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -801,15 +810,6 @@
       "summary": "Eyepoint disclosed that a Phase 3 trial of its experimental treatment for a common cause of age-related blindness fell short of its primary goal",
       "ts": 1787059537000,
       "publishedAt": "2026-08-18T13:25:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Kindergarten vaccine exemptions are climbing",
-      "url": "https://www.statnews.com/2026/08/18/health-news-kindergarten-vaccine-exemptions-are-climbing/?utm_campaign=rss",
-      "summary": "Doritos as \"real\" \"food,\" public-sector health care in trouble, and more health news from Morning Rounds",
-      "ts": 1787058157000,
-      "publishedAt": "2026-08-18T13:02:37.000Z",
       "categoryId": "bio"
     }
   ],
