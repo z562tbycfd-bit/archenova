@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-19T01:21:23.477Z",
+  "updated": "2026-08-19T02:59:09.840Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Space nuclear programs face near- and long-term challenges",
+      "url": "https://spacenews.com/space-nuclear-programs-face-near-and-long-term-challenges/",
+      "summary": "While space nuclear programs are “having a moment,” industry officials say they face near-term challenges as well as longer-term concerns. The post Space nuclear programs face near- and long-term challenges appeared firs…",
+      "ts": 1787107011000,
+      "publishedAt": "2026-08-19T02:36:51.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Trump expected to pick White House adviser Heidi Overton to lead FDA",
@@ -708,7 +717,7 @@
       "source": "arXiv q-bio",
       "title": "EquiPocket: an E(3)-Equivariant Geometric Graph Neural Network for Ligand Binding Site Prediction",
       "url": "https://arxiv.org/abs/2302.12177",
-      "summary": "arXiv:2302.12177v4 Announce Type: replace Abstract: Predicting the binding sites of target proteins plays a fundamental role in drug discovery. Most existing deep-learning methods consider a protein as a 3D image by spat…",
+      "summary": "arXiv:2302.12177v5 Announce Type: replace Abstract: Predicting the binding sites of target proteins plays a fundamental role in drug discovery. Most existing deep-learning methods consider a protein as a 3D image by spat…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"
@@ -799,15 +808,6 @@
       "title": "First-Passage Time Fluctuation Theorem and Thermodynamic Bound in Cooperative Biomolecular Networks",
       "url": "https://arxiv.org/abs/2501.09087",
       "summary": "arXiv:2501.09087v3 Announce Type: replace-cross Abstract: Using a pathway analysis technique, a dynamic fluctuation relation is derived for a kinetically cooperative biomolecular machine (e.g., an enzyme or a motor prote…",
-      "ts": 1787025600000,
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Practical Guide to Tuning Spiking Neuronal Dynamics for Computational Neuroscience and NeuroAI Research",
-      "url": "https://arxiv.org/abs/2506.08138",
-      "summary": "arXiv:2506.08138v2 Announce Type: replace-cross Abstract: In this work, we examine and study the fundamental elements of spiking neural networks (SNNs) as well as how to tune them. Concretely, we focus on two different f…",
       "ts": 1787025600000,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "categoryId": "bio"
