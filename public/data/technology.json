@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-20T14:38:10.395Z",
+  "updated": "2026-08-20T15:35:47.407Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: How a Trump loyalist got the FDA nomination",
+      "url": "https://www.statnews.com/2026/08/20/heidi-overton-fda-commissioner-nominee-erica-schwartz-cdc-speech/?utm_campaign=rss",
+      "summary": "What you need to know about Heidi Overton, and Erica Schwartz's first speech to CDC staff.",
+      "ts": 1787236712000,
+      "publishedAt": "2026-08-20T14:38:32.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA approves Ultragenyx gene therapy",
@@ -801,15 +810,6 @@
       "summary": "At Epic's annual meeting, the prevailing question behind closed doors is “What the heck is going on with Epic?”",
       "ts": 1787138712000,
       "publishedAt": "2026-08-19T11:25:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Moderna and Merck say mRNA cancer vaccine succeeded in late-stage melanoma trial",
-      "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/?utm_campaign=rss",
-      "summary": "A personalized mRNA cancer vaccine succeeded in a late-stage melanoma study, results that could herald a new, powerful approach in oncology.",
-      "ts": 1787136300000,
-      "publishedAt": "2026-08-19T10:45:00.000Z",
       "categoryId": "bio"
     }
   ],

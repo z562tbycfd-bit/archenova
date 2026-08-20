@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-20T14:38:06.997Z",
+  "updated": "2026-08-20T15:35:44.569Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Designing supramolecular therapies to cross the blood-brain barrier",
+      "url": "https://phys.org/news/2026-08-supramolecular-therapies-blood-brain-barrier.html",
+      "summary": "A new Northwestern Medicine study has uncovered key molecular design principles that could help supramolecular therapeutics cross the blood-brain barrier, a major challenge for this novel approach to treating neurologica…",
+      "ts": 1787239203000,
+      "publishedAt": "2026-08-20T15:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The first wave of bird flu is the worst: What can Australia learn from overseas?",
+      "url": "https://phys.org/news/2026-08-bird-flu-worst-australia-overseas.html",
+      "summary": "Hundreds of dead birds are now being reported as the lethal H5N1 strain of bird flu begins to spread across Australia. Government reports show the virus is circulating in resident birds.",
+      "ts": 1787239201000,
+      "publishedAt": "2026-08-20T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tobacco companies helped flood the federal comment process that stalled menthol cigarette ban",
+      "url": "https://phys.org/news/2026-08-tobacco-companies-federal-comment-stalled.html",
+      "summary": "When the U.S. Food and Drug Administration (FDA) proposed banning menthol cigarettes and flavored cigars in 2022, nearly 250,000 public comments flooded in—a record response that led the Biden administration to delay a f…",
+      "ts": 1787238006000,
+      "publishedAt": "2026-08-20T15:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Over 75% of UK wetlands have been destroyed—restoring them would help prevent wildfires",
+      "url": "https://phys.org/news/2026-08-uk-wetlands-destroyed-wildfires.html",
+      "summary": "Firefighters have been battling a vast wildfire in the hills above Blaenavon in south Wales, spreading across more than 4,000 hectares (9,900 acres), for three weeks.",
+      "ts": 1787238001000,
+      "publishedAt": "2026-08-20T15:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Spikes, claws and stingers have no single best shape",
+      "url": "https://www.sciencenews.org/article/spike-claw-stinger-shape-piercing-tools",
+      "summary": "A study of 143 piercing tools, from tusks to love darts, finds they trade off piercing ability for durability. And no one shape wins out.",
+      "ts": 1787238000000,
+      "publishedAt": "2026-08-20T15:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Homebuyers are choosing homes with much higher carbon footprints than they realize",
+      "url": "https://phys.org/news/2026-08-homebuyers-homes-higher-carbon-footprints.html",
+      "summary": "When people shop for a home, they tend to focus on the information listings put front and center: price, floor area, number of bedrooms and location. Rarely do listings show how a home can shape a household's carbon foot…",
+      "ts": 1787236806000,
+      "publishedAt": "2026-08-20T14:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How sex sheds evolutionary baggage",
+      "url": "https://phys.org/news/2026-08-sex-evolutionary-baggage.html",
+      "summary": "Why is there sex—or, more precisely, sexual reproduction? If you're an evolutionary biologist, the answer isn't obvious. Sexual reproduction is biologically costly, requiring not only competition for mates but also the c…",
+      "ts": 1787236805000,
+      "publishedAt": "2026-08-20T14:40:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Interstellar travel IV: Solar, magnetic, & directed-energy sails",
@@ -743,62 +799,6 @@
       "title": "The Radioactive Background of the JUNO Calibration System",
       "url": "https://arxiv.org/abs/2608.19051",
       "summary": "arXiv:2608.19051v1 Announce Type: new Abstract: The Jiangmen Underground Neutrino Observatory (JUNO) experiment is a reactor antineutrino detector employing 20 kton of ultra-pure liquid scintillator to determine the neut…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transversality Locks Longitudinal Gradients in Structured-Light Quadrupole Transitions",
-      "url": "https://arxiv.org/abs/2608.19054",
-      "summary": "arXiv:2608.19054v1 Announce Type: new Abstract: Electric quadrupole absorption is driven by optical field gradients, not by field amplitudes alone. This distinction is crucial for structured light, where a paraxially sma…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Open Source Reference System for Portable Low-Field MRI",
-      "url": "https://arxiv.org/abs/2608.19062",
-      "summary": "arXiv:2608.19062v1 Announce Type: new Abstract: Despite its renewed attention, the pathway to point-of-care portable low-field MRI systems remains challenging, limiting adoption across research groups. Incomplete documen…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elongation suppresses rheotaxis and enables microfluidic enrichment of \\b{eta}-lactam-resistant bacteria",
-      "url": "https://arxiv.org/abs/2608.19077",
-      "summary": "arXiv:2608.19077v1 Announce Type: new Abstract: Antimicrobial resistance (AMR) complicates the treatment of diseases including lung and urinary tract infections (UTIs), which are among the most common bacterial infection…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Identifying Cost-Favorable Locations for Cosmic Explorer",
-      "url": "https://arxiv.org/abs/2608.19114",
-      "summary": "arXiv:2608.19114v1 Announce Type: new Abstract: Cosmic Explorer (CE) is a proposed next-generation gravitational-wave observatory that aims to extend our gravitational-wave vision to the edge of the observable universe. …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of style of faulting on the probabilistic characterization of directionality of horizontal response spectral ordinates",
-      "url": "https://arxiv.org/abs/2608.19142",
-      "summary": "arXiv:2608.19142v1 Announce Type: new Abstract: Horizontal earthquake ground motions exhibit substantial changes in amplitude with changes in orientation. While the effects of style of faulting on central tendency measur…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterisation of Commercially Available NUV-MT Silicon Photomultipliers",
-      "url": "https://arxiv.org/abs/2608.19156",
-      "summary": "arXiv:2608.19156v1 Announce Type: new Abstract: Silicon Photomultipliers (SiPMs) based on NUV-MT technology offer improved photo-detection efficiency and reduced correlated noise compared to earlier designs, making them …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
-      "url": "https://arxiv.org/abs/2608.19163",
-      "summary": "arXiv:2608.19163v1 Announce Type: new Abstract: Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, …",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
