@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-20T02:58:39.084Z",
+  "updated": "2026-08-20T03:52:40.114Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Levitating molten metal on ISS could refine ultra-strong metallic glass",
+      "url": "https://phys.org/news/2026-08-levitating-molten-metal-iss-refine.html",
+      "summary": "The research team led by materials scientist Ralf Busch from Saarland University is preparing for its first science-in-space mission. If everything goes to plan, from 31 August the researchers will spend one week remotel…",
+      "ts": 1787196001000,
+      "publishedAt": "2026-08-20T03:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Fine-particle pollution may undermine plants' ability to absorb carbon and conserve water",
@@ -793,14 +801,6 @@
       "summary": "Because of the recent rise of platform gig work, more U.S. workers are being compensated through self-employment. Their earnings are not subject to tax withholding but are generally covered by information reporting on Fo…",
       "ts": 1787142005000,
       "publishedAt": "2026-08-19T12:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Coral experts unite in historic effort to restore Florida's coral reef",
-      "url": "https://phys.org/news/2026-08-coral-experts-historic-effort-florida.html",
-      "summary": "Throughout the first week of August, 12 organizations came together in an unprecedented collaborative effort to protect the future of Florida's Coral Reef during one of nature's most elusive events: coral spawning. Scien…",
-      "ts": 1787140805000,
-      "publishedAt": "2026-08-19T12:00:05.000Z"
     }
   ],
   "sources": [
