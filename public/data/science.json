@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-20T11:28:27.053Z",
+  "updated": "2026-08-20T12:53:22.406Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "RNA droplets may have helped start life on Earth",
+      "url": "https://phys.org/news/2026-08-rna-droplets-life-earth.html",
+      "summary": "It's one of the origins-of-life chicken-or-egg problems: How could RNA have helped give rise to the first cells before there were cells to contain it?",
+      "ts": 1787229604000,
+      "publishedAt": "2026-08-20T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Snake bones with flint cuts show Mount Carmel settlers ate reptiles 15,000 years ago",
+      "url": "https://phys.org/news/2026-08-snake-bones-flint-mount-carmel.html",
+      "summary": "Around 15,000 years ago, the way of life of human communities in the southern Levant underwent a fundamental change. Groups of hunter-gatherers, who until then had been nomadic, reduced their mobility and established sma…",
+      "ts": 1787229603000,
+      "publishedAt": "2026-08-20T12:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Changing wage benefits highlight need to align skills and jobs",
+      "url": "https://phys.org/news/2026-08-wage-benefits-highlight-align-skills.html",
+      "summary": "Adelaide University research shows that while higher education (HE) in Australia continues to deliver a substantial wage premium, education, skills and labor-market policy need to align more closely.",
+      "ts": 1787228401000,
+      "publishedAt": "2026-08-20T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drought stress in trees: What to expect and what to do",
+      "url": "https://phys.org/news/2026-08-drought-stress-trees.html",
+      "summary": "Recurring and prolonged periods of drought are worsening worldwide, triggering a dangerous chain reaction for trees, according to a forest health expert at North Carolina State University.",
+      "ts": 1787227203000,
+      "publishedAt": "2026-08-20T12:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "An unproven autism drug got a boost after a White House briefing",
+      "url": "https://www.sciencenews.org/article/kids-unproven-autism-drug-trump-brief",
+      "summary": "In fall of 2025, the Trump administration touted the drug leucovorin for autism therapy without new evidence. Dispensing of the drug to kids rose.",
+      "ts": 1787227200000,
+      "publishedAt": "2026-08-20T12:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dark energy and quantum gravity may be deeply intertwined",
+      "url": "https://phys.org/news/2026-08-dark-energy-quantum-gravity-deeply.html",
+      "summary": "For close to a century, physicists have pursued a way to unite gravity with quantum mechanics. Known as quantum gravity, this goal has remained frustratingly out of reach so far. Similarly elusive is the force of dark en…",
+      "ts": 1787226006000,
+      "publishedAt": "2026-08-20T11:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First public firearm industry archive reveals ignored warning over suspicious gun sales",
+      "url": "https://phys.org/news/2026-08-firearm-industry-archive-reveals-suspicious.html",
+      "summary": "UC San Francisco's Industry Documents Library, in partnership with the Minnesota Attorney General's Office, has made public nearly 700 internal documents from a Midwest retailer as part of the state's lawsuit alleging th…",
+      "ts": 1787226004000,
+      "publishedAt": "2026-08-20T11:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New analysis reveals 'encouraging' global mangrove cover increase despite losses in key regions",
@@ -743,62 +799,6 @@
       "title": "Technical Proposal for the Atom Interferometer CERN Experiment (AICE) Facility",
       "url": "https://arxiv.org/abs/2608.18743",
       "summary": "arXiv:2608.18743v1 Announce Type: cross Abstract: We present the technical proposal for the Atom Interferometer CERN Experiment (AICE), a $\\mathcal{O}(100)$ m vertical atom interferometer to be installed against the wall…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FAST-HEP: Compiling Declarative Analysis Workflows for High-Energy Physics and Beyond",
-      "url": "https://arxiv.org/abs/2608.18745",
-      "summary": "arXiv:2608.18745v1 Announce Type: cross Abstract: High-energy physics analyses increasingly rely on complex software workflows whose scientific lifetime often exceeds that of the underlying software ecosystem. Maintainin…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the temperature dependence of the optical band gap in the material system of lithium niobate and lithium tantalate",
-      "url": "https://arxiv.org/abs/2608.18763",
-      "summary": "arXiv:2608.18763v1 Announce Type: cross Abstract: Lithium niobate and lithium tantalate see widespread use in optics and electronics, and are increasingly used for cryogenic applications. Despite their broad deployment, …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-Enhanced Atomic Sensor via Spin Nonequilibrium Criticality",
-      "url": "https://arxiv.org/abs/2608.18941",
-      "summary": "arXiv:2608.18941v1 Announce Type: cross Abstract: The sensitivity of quantum sensors is fundamentally constrained by the standard quantum limit (SQL) arising from intrinsic quantum fluctuations. While non-classical resou…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sign-problem-resilient singular-value probe in determinant quantum Monte Carlo",
-      "url": "https://arxiv.org/abs/2608.19028",
-      "summary": "arXiv:2608.19028v1 Announce Type: cross Abstract: The sign problem limits determinant quantum Monte Carlo studies of strongly correlated fermion systems. In the spin-channel Hubbard-Stratonovich decoupling, spin correlat…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The role of weak interfaces in the tensile deformation and fracture of particle-filled polymers studied by phase-field model",
-      "url": "https://arxiv.org/abs/2608.19031",
-      "summary": "arXiv:2608.19031v1 Announce Type: cross Abstract: Weak particle-matrix interfaces play a critical role in the tensile fracture of particle-filled polymer composites, but how they govern progressive debonding, fracture lo…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Distinct Modes of Quantum Information Transfer in Power-Law Long-Range Spin Networks",
-      "url": "https://arxiv.org/abs/2608.19057",
-      "summary": "arXiv:2608.19057v1 Announce Type: cross Abstract: We identify different regimes of quantum state transfer in long-range coupled spin-$\\frac{1}{2}$ systems, where naturally occurring power-law interactions enable rapid, h…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Activated switching between coexisting limit cycles",
-      "url": "https://arxiv.org/abs/2608.19060",
-      "summary": "arXiv:2608.19060v1 Announce Type: cross Abstract: Noise-activated switching between coexisting stable states is a fundamental mechanism underlying stochastic dynamics in systems ranging from chemical reactions to neural …",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }

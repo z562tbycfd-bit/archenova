@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-20T11:28:34.756Z",
+  "updated": "2026-08-20T12:53:24.425Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "China’s Chang’e-7 lunar ice-hunting mission set for Sunday launch",
+      "url": "https://spacenews.com/chinas-change-7-lunar-ice-hunting-mission-set-for-sunday-launch/",
+      "summary": "HELSINKI — China will launch a complex, multi-spacecraft mission late Sunday to study and land near the lunar south pole, including a search for evidence of water-ice. A Long March […] The post China’s Chang’e-7 lunar ic…",
+      "ts": 1787230101000,
+      "publishedAt": "2026-08-20T12:48:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Built Without Bacteria: Bringing Cell-Free Synthesis to the Bench",
+      "url": "https://www.genengnews.com/multimedia/webinars/built-without-bacteria-bringing-cell-free-synthesis-to-the-bench/",
+      "summary": "In this GEN webinar, speakers from Flock Bio and Ribbon Bio will explore how bench-based, cell-free DNA production can complement expertise in custom DNA design and manufacturing. The post Built Without Bacteria: Bringin…",
+      "ts": 1787228184000,
+      "publishedAt": "2026-08-20T12:16:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: polycrisis support networks and a hydrogen gold rush",
+      "url": "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Support networks aim to help kids through the polycrisis Sometime in the late 2000…",
+      "ts": 1787227800000,
+      "publishedAt": "2026-08-20T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "Muon Space raises $250 million to ramp up satellite production",
@@ -13,7 +40,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: One of the most consequential year for cancer treatment, ever",
+      "title": "STAT+: One of the most consequential years for cancer treatment, ever",
       "url": "https://www.statnews.com/2026/08/20/cancer-vaccine-merck-moderna-biotech-observations/?utm_campaign=rss",
       "summary": "Between success with a pancreatic cancer drug and now success with an mRNA neoantigen vaccine, it has been a banner year for developing cancer therapies.",
       "ts": 1787221800000,
@@ -66,6 +93,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "IAEA News",
+      "title": "New IAEA Project to Strengthen Testing of Nuclear Fuels and Materials in Research Reactors",
+      "url": "http://www.iaea.org/newscenter/news/new-iaea-project-to-strengthen-testing-of-nuclear-fuels-and-materials-in-research-reactors",
+      "summary": "",
+      "ts": 1787217694000,
+      "publishedAt": "2026-08-20T09:21:34.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "Support networks aim to help kids through the polycrisis",
       "url": "https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/",
@@ -78,7 +114,7 @@
       "source": "STAT",
       "title": "STAT+: How health systems are embracing chatbots to query and summarize patient records",
       "url": "https://www.statnews.com/2026/08/20/health-systems-embrace-ai-chatbots-query-patient-records-ehr/?utm_campaign=rss",
-      "summary": "Several large health systems are rolling out AI chatbots to query patient records, saying they save time and increase diagnostic accuracy.",
+      "summary": "Several large health systems are rolling out AI chatbots to query patient records, because they can save time and increase diagnostic accuracy.",
       "ts": 1787214600000,
       "publishedAt": "2026-08-20T08:30:00.000Z",
       "categoryId": "bio"
@@ -289,6 +325,15 @@
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Iron-mediated reversible lattice-oxygen redox enables stable 200 Wh kg<sup>−1</sup> sodium-ion batteries",
+      "url": "https://www.nature.com/articles/s41560-026-02112-8",
+      "summary": "",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "SpaceNews",
@@ -766,51 +811,6 @@
       "ts": 1787112300000,
       "publishedAt": "2026-08-19T04:05:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Little Scientist: LLM Agent-Driven Discovery via the Scientific Method",
-      "url": "https://arxiv.org/abs/2608.16951",
-      "summary": "arXiv:2608.16951v1 Announce Type: new Abstract: What happens when you teach an LLM-based agent the scientific method? Motivation: Scientific discovery emerges from cycles of hypothesis, implementation, empirical testing,…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dormancy stabilizes non-transitive competitive dynamics",
-      "url": "https://arxiv.org/abs/2608.17179",
-      "summary": "arXiv:2608.17179v1 Announce Type: new Abstract: Competitive interactions can maintain diversity, yet coexistence is often fragile in well-mixed populations, where stochastic fluctuations can lead to extinction. This is t…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "scDNM-VAE enables directly inspectable deep clustering of single-cell RNA-seq data through signed dendritic gating",
-      "url": "https://arxiv.org/abs/2608.17228",
-      "summary": "arXiv:2608.17228v1 Announce Type: new Abstract: Deep clustering models for single-cell RNA sequencing often assign cells through latent or centroid-based mechanisms that are difficult to inspect. We introduce scDNM-VAE (…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Leveraging generative hallucination and biophysics-informed modeling for unified biomolecular sequence-structure co-design",
-      "url": "https://arxiv.org/abs/2608.17381",
-      "summary": "arXiv:2608.17381v1 Announce Type: new Abstract: Biomolecular design underpins applications from molecular recognition to therapeutics and synthetic biology, yet de novo interaction design remains challenging-especially f…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DMT-Dens: Density-preserving manifold visualization for biological data",
-      "url": "https://arxiv.org/abs/2608.17571",
-      "summary": "arXiv:2608.17571v1 Announce Type: new Abstract: Motivation: Low-dimensional embeddings are widely used to explore cell-state heterogeneity in single-cell and other high-dimensional biological data. Although many methods …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
