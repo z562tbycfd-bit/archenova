@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-20T13:48:58.957Z",
+  "updated": "2026-08-20T14:38:10.395Z",
   "items": [
     {
       "source": "STAT",
@@ -381,6 +381,60 @@
       "categoryId": "bio"
     },
     {
+      "source": "Cell",
+      "title": "Protein condensate as a plant sunscreen",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00868-8?rss=yes",
+      "summary": "Plant photosynthesis generates singlet oxygen (1O2), a powerful oxidant that can inhibit photosynthesis in return. In this issue of Cell, Shao et al. demonstrate that a small zinc-finger protein, MBS1, via 1O2-induced ox…",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Cuproptosis enters the cancer-immunity circuit",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00874-3?rss=yes",
+      "summary": "In this issue of Cell, Lei et al. reveal a reciprocal circuit in which cuproptotic tumor cells promote dendritic cell activation and CD8⁺ T cell priming, whereas T cell-derived IFN-γ sensitizes tumor cells to FDX1-depend…",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Neurodegeneration as a dysregulation of neuroimmune crosstalk",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00813-5?rss=yes",
+      "summary": "This perspective provides an overview of the growing literature on the role of the immune system in driving neurodegeneration and argues that restoring neuroimmune dialogue, rather than simply clearing protein aggregates…",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Modern science outreach: A guide for scientists",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00812-3?rss=yes",
+      "summary": "This paper outlines six actionable practices to help scientists effectively reach and engage broad audiences, with a focus on leveraging modern media and emerging dissemination channels. We encourage scientists at all le…",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Lymphatic vessels invade bone in disease but are absent in health and regeneration",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00639-2?rss=yes",
+      "summary": "Multiple lines of evidence argue against the presence of LECs inside bone during homeostasis or repair after injury, in contrast to a previous study published in Cell (Biswas et al. 2023). Instead, LECs actively invade b…",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Multimodal evidence for bone lymphatics in skeletal health and repair",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00746-4?rss=yes",
+      "summary": "Spatial transcriptomics, single-cell transcriptomics, and high-resolution imaging support bone lymphatics as integral components of the skeletal microenvironment and provide a framework for resolving their identity and d…",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
       "source": "Nature Energy",
       "title": "Iron-mediated reversible lattice-oxygen redox enables stable 200 Wh kg<sup>−1</sup> sodium-ion batteries",
       "url": "https://www.nature.com/articles/s41560-026-02112-8",
@@ -756,60 +810,6 @@
       "summary": "A personalized mRNA cancer vaccine succeeded in a late-stage melanoma study, results that could herald a new, powerful approach in oncology.",
       "ts": 1787136300000,
       "publishedAt": "2026-08-19T10:45:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Child-monitoring apps might need a reboot",
-      "url": "https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/",
-      "summary": "Pam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a seven-­mile dirt road. She moved…",
-      "ts": 1787130000000,
-      "publishedAt": "2026-08-19T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Fly around Schiaparelli Crater with Mars Express ",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Fly_around_Schiaparelli_Crater_with_Mars_Express",
-      "summary": "Video: 00:04:10 ESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars. Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. …",
-      "ts": 1787130000000,
-      "publishedAt": "2026-08-19T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "New Research Launched on Safety of Edible Insects and Other Novel Foods",
-      "url": "http://www.iaea.org/newscenter/news/new-research-launched-on-safety-of-edible-insects-and-other-novel-foods",
-      "summary": "",
-      "ts": 1787128205000,
-      "publishedAt": "2026-08-19T08:30:05.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Accrediting body considers changes to racism curriculum standards for public health schools",
-      "url": "https://www.statnews.com/2026/08/19/public-health-education-accrediting-body-ceph-walks-dei-tightrope/?utm_campaign=rss",
-      "summary": "The accrediting group for schools of public health is weighing the removal of language that specifically requires programs to teach about structural bias and racism.",
-      "ts": 1787128200000,
-      "publishedAt": "2026-08-19T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In wake of boy’s death, gene editing experts dissect Huidagene’s decisions",
-      "url": "https://www.statnews.com/2026/08/19/huidagene-clinical-trial-deaths-experts-dissect-study-design/?utm_campaign=rss",
-      "summary": "Experts question technical improvements Huidagene tried when using a Duchenne muscular dystrophy treatment strategy largely abandoned by U.S. companies.",
-      "ts": 1787128200000,
-      "publishedAt": "2026-08-19T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m a pediatrician. AI chatbots are grooming my patients",
-      "url": "https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/?utm_campaign=rss",
-      "summary": "“At present, the law does not recognize that child abuse is child abuse when it’s perpetrated by an algorithm operated by a corporation,” writes a pediatrician.",
-      "ts": 1787128200000,
-      "publishedAt": "2026-08-19T08:30:00.000Z",
       "categoryId": "bio"
     }
   ],

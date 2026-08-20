@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-20T13:48:56.699Z",
+  "updated": "2026-08-20T14:38:06.997Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Interstellar travel IV: Solar, magnetic, & directed-energy sails",
+      "url": "https://phys.org/news/2026-08-interstellar-iv-solar-magnetic-energy.html",
+      "summary": "Welcome back to our series on interstellar travel! In our first installment, we examined attempts to realize nuclear propulsion and how the technology could be used to reach the nearest star. In our second, we examined h…",
+      "ts": 1787235609000,
+      "publishedAt": "2026-08-20T14:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global sand dunes map reveals clues to distant worlds, including Mars",
+      "url": "https://phys.org/news/2026-08-global-sand-dunes-reveals-clues.html",
+      "summary": "A new study from Monash University has delivered the most complete and accurate digital map of Earth's windblown sand dunes to date. The research, published in Nature Communications, answers long-standing questions about…",
+      "ts": 1787235603000,
+      "publishedAt": "2026-08-20T14:20:03.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Are We Thinking Correctly About AI Intelligence?",
+      "url": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
+      "summary": "Computer scientist Melanie Mitchell discusses why artificial intelligence doesn’t “think” or “reason” like humans, and how we can create better methods for measuring machine cognition. The post Are We Thinking Correctly …",
+      "ts": 1787234680000,
+      "publishedAt": "2026-08-20T14:04:40.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Children prefer fair punishment to unequal treatment, study finds",
+      "url": "https://phys.org/news/2026-08-children-fair-unequal-treatment.html",
+      "summary": "Consistent enforcement of rules is more important than the severity of the punishment itself, and children expect adults to treat every member of their group impartially and equally. Moreover, fair punishment brings emot…",
+      "ts": 1787234409000,
+      "publishedAt": "2026-08-20T14:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The higher the hope, the harder the fall: Study finds ESG downgrades hit optimistic investors the hardest",
+      "url": "https://phys.org/news/2026-08-higher-harder-fall-esg-downgrades.html",
+      "summary": "A new study from Murdoch University has found that Environmental, Social and Governance (ESG) downgrades trigger significantly larger share price losses when they come as a surprise to optimistic investors. The findings …",
+      "ts": 1787234403000,
+      "publishedAt": "2026-08-20T14:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dark boreal forests of Canada absorb enough heat to cancel up to a 5th of their climate benefit, scientists warn",
+      "url": "https://phys.org/news/2026-08-dark-boreal-forests-canada-absorb.html",
+      "summary": "Dense evergreen plantations in Canada's boreal forest absorb so much winter sunlight that the resulting surface warming can offset 6% to 20% of the climate benefit they are credited with. Canada's current carbon accounti…",
+      "ts": 1787234402000,
+      "publishedAt": "2026-08-20T14:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Clubbing may boost well-being for women in midlife",
@@ -113,6 +161,38 @@
       "summary": "To make a good impression at work, it might be better to spend less time polishing your resume and more time honing your communication skills. That's according to a large analysis of more than 200 studies showing that th…",
       "ts": 1787223602000,
       "publishedAt": "2026-08-20T11:00:02.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Nucleation suppression by charge screening on grain boundaries: A kinetic model for bulk imprint in polycrystalline ferroelectric thin films",
+      "url": "http://link.aps.org/doi/10.1103/sj7p-6lkc",
+      "summary": "Author(s): Huanhuan Tian, Jianguo Yang, and Ming Liu The imprint effect, a major reliability issue in ferroelectric memories, degrades the device by shifting the coercive field over time. This work reviews existing impri…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Machine-learning-assisted material and geometry characterization from Casimir force measurement",
+      "url": "http://link.aps.org/doi/10.1103/11zc-ty7q",
+      "summary": "Author(s): Hideo Iizuka and Shanhui Fan A broadband electromagnetic source is important for scientific and technological applications. Quantum vacuum fluctuations, which manifest most prominently in the Casimir effect, p…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Raman detuning compensation in atom gravimeters for surveys of marine gravity",
+      "url": "http://link.aps.org/doi/10.1103/9cy9-3jd3",
+      "summary": "Author(s): Su-Peng Li, Xi Chen, Bei-Bei Liu, Ming-Qi Huang, Yu-Heng Zhao, Yu Luo, Sheng-Hua Li, Chang-Chun Wang, Jian-Wei Pan, Luo-Kan Chen, and Shuai Chen A cold-atom gravimeter, with high sensitivity, long-term stabili…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Implementation of a $ZZ$-free i<span class=\"sc\">swap</span> gate via dual-microwave suppression of $ZZ$ coupling",
+      "url": "http://link.aps.org/doi/10.1103/snwt-prqy",
+      "summary": "Author(s): Yuan Li, Yuanhao Fu, Dayu Li, Chen Zha, Sirui Cao, Jianbin Cai, Yisen Hu, Daojin Fan, Zhiyuan Chen, Zihua Chen, Yangsen Ye, Jin Lin, Ming Gong, Shaowei Li, and Yong-Heng Huo A major source of error in quantum …",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -719,86 +799,6 @@
       "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
       "url": "https://arxiv.org/abs/2608.19163",
       "summary": "arXiv:2608.19163v1 Announce Type: new Abstract: Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flux-form spatiotemporal neural operators for coarse-grained dynamics of multiscale PDEs",
-      "url": "https://arxiv.org/abs/2608.18148",
-      "summary": "arXiv:2608.18148v1 Announce Type: cross Abstract: We study data-driven prediction of coarse-grained dynamics in multiscale PDE systems. Adopting a closure-free operator-learning viewpoint, we apply a linear coarse-graini…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fixed-order postselected CHSH reference acquisition for parity-constrained spatial-mode qubits on a commercial cloud photonic processor",
-      "url": "https://arxiv.org/abs/2608.18153",
-      "summary": "arXiv:2608.18153v1 Announce Type: cross Abstract: We report a fixed-order Clauser-Horne-Shimony-Holt (CHSH) acquisition and reporting protocol for two encoded photonic qubits on Quandela's commercial, cloud-accessible Be…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Processes under Epistemic Constraints",
-      "url": "https://arxiv.org/abs/2608.18159",
-      "summary": "arXiv:2608.18159v1 Announce Type: cross Abstract: This doctoral dissertation on the foundations of quantum theory isolates and then formalizes a physically relevant concept that I have called \"Epistemic Constraint.\" Here…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Safe Domain Adaptation for Physics: Overcoming Nuisances, Label Shifts, and Simulation Priors",
-      "url": "https://arxiv.org/abs/2608.18190",
-      "summary": "arXiv:2608.18190v1 Announce Type: cross Abstract: Domain adaptation is widely used to make neural networks trained on simulations applicable to experimental data. Its premise is that the two domains differ only in nuisan…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radiation damage to the Hubble Space Telescope has been several years out of phase with the Solar cycle",
-      "url": "https://arxiv.org/abs/2608.18214",
-      "summary": "arXiv:2608.18214v1 Announce Type: cross Abstract: As well as obtaining beautiful images of the Universe, the Hubble Space Telescope's CCD detectors are sensitive radiation dosimeters that have been monitored in Low Earth…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Voltage Profiling of 2D Semiconductors via Proximal Exciton Sensing",
-      "url": "https://arxiv.org/abs/2608.18382",
-      "summary": "arXiv:2608.18382v1 Announce Type: cross Abstract: High contact resistances in atomically thin semiconductors often mask intrinsic electrical transport properties, particularly at low carrier densities where exotic correl…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unified Strong-Field Dynamics Simulations from Atoms to Heterostructures",
-      "url": "https://arxiv.org/abs/2608.18472",
-      "summary": "arXiv:2608.18472v1 Announce Type: cross Abstract: We present \\textsc{TDSE-Z}, a high-performance open-source framework for strong-field quantum dynamics in atomic, molecular, and semiconductor effective-mass systems. The…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A simple geometric proof of Kepler's first Law",
-      "url": "https://arxiv.org/abs/2608.18537",
-      "summary": "arXiv:2608.18537v1 Announce Type: cross Abstract: We present a simple geometric proof of Kepler's first law. The core of the argument rests on a kinematic invariant that we call the velocity projection ratio - the ratio …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MorphoGP: A Nonparametric Framework for Predicting Equilibrium Beach Profiles Under Tidal Influence",
-      "url": "https://arxiv.org/abs/2608.18558",
-      "summary": "arXiv:2608.18558v1 Announce Type: cross Abstract: The prediction of equilibrium beach profiles under tidal influence is of fundamental importance for sustainable coastal development, informing shoreline protection strate…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fourier Transforms of Color Glass Condensate Multi-Wilson-Line Correlators via Filon Quadrature",
-      "url": "https://arxiv.org/abs/2608.18589",
-      "summary": "arXiv:2608.18589v1 Announce Type: cross Abstract: Calculating cross sections in the Color Glass Condensate effective theory requires Fourier transforms of multi-Wilson-line correlators from transverse coordinate space to…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
