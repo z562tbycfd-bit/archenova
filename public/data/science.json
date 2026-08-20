@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-20T21:30:06.435Z",
+  "updated": "2026-08-20T22:29:34.460Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Decode the chatter of birds with a neuroscientist",
+      "url": "https://phys.org/news/2026-08-decode-chatter-birds-neuroscientist.html",
+      "summary": "If you're not a bird person, you may not be able to distinguish between the different sounds birds make. Birdsong—the courting and territorial vocalization of songbirds—has been studied for decades, but less is understoo…",
+      "ts": 1787264406000,
+      "publishedAt": "2026-08-20T22:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fibrinogen discovery reshapes understanding of how wounds heal",
+      "url": "https://phys.org/news/2026-08-fibrinogen-discovery-reshapes-wounds.html",
+      "summary": "Scientists have redefined how the key blood-clotting protein fibrinogen behaves when it contacts air, overturning two decades of scientific consensus on wound healing. It is the culmination of more than a decade of inter…",
+      "ts": 1787264403000,
+      "publishedAt": "2026-08-20T22:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Welcome to the jungle: Newly discovered snake named after Slash from Guns N' Roses",
+      "url": "https://phys.org/news/2026-08-jungle-newly-snake-slash-guns.html",
+      "summary": "Slash, aka Saul Hudson, is probably best known as the guitarist for Guns N' Roses. But there's more to Slash than his music. He's also a lifelong reptile lover and an avid supporter of zoos and museums. And now, he's the…",
+      "ts": 1787263801000,
+      "publishedAt": "2026-08-20T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Messy life-producing cellular process caught in action for first time",
+      "url": "https://phys.org/news/2026-08-messy-life-cellular-caught-action.html",
+      "summary": "All living things have a fleet of tiny copy machines that turn instructions from DNA into RNA molecules responsible for helping build proteins that keep organisms alive. One of those nanoscale machines, called eukaryotic…",
+      "ts": 1787263203000,
+      "publishedAt": "2026-08-20T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Small doses of caustic soda increase biogas production from banana waste",
+      "url": "https://phys.org/news/2026-08-small-doses-caustic-soda-biogas.html",
+      "summary": "Low concentrations of caustic soda (sodium hydroxide, NaOH) are more efficient than high doses for preparing organic waste for biogas production. This finding increases methane production, reduces reagent consumption and…",
+      "ts": 1787263201000,
+      "publishedAt": "2026-08-20T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Intense light bent out of shape—ultrafast lenses made from gas",
+      "url": "https://phys.org/news/2026-08-intense-bent-ultrafast-lenses-gas.html",
+      "summary": "Researchers from the MPIK in Heidelberg used an atomic gas as a time-dependent lens to shape and spectrally manipulate intense high-frequency laser pulses. This gas-based optical element could pave the way toward better …",
+      "ts": 1787262602000,
+      "publishedAt": "2026-08-20T21:50:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Natural forest regrowth offers a lower-cost path to climate and biodiversity goals",
+      "url": "https://phys.org/news/2026-08-natural-forest-regrowth-path-climate.html",
+      "summary": "As nations race to restore ecosystems and curb climate change, research has shown that letting nature do the work is a cost-effective, viable solution. A study from the University of Queensland and the University of Newc…",
+      "ts": 1787262003000,
+      "publishedAt": "2026-08-20T21:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How membraneless organelles assemble into organized protein hubs",
+      "url": "https://phys.org/news/2026-08-membraneless-organelles-protein-hubs.html",
+      "summary": "Inside every cell, thousands of proteins must reach the right place at the right time. Helping coordinate this complex logistics network are centriolar satellites—tiny, membraneless organelles that play important roles i…",
+      "ts": 1787262001000,
+      "publishedAt": "2026-08-20T21:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Magnetically levitated quantum bit could address design flaws",
@@ -735,70 +799,6 @@
       "title": "Bifurcation and Hysteresis in Vacuum Diodes",
       "url": "https://arxiv.org/abs/2608.18161",
       "summary": "arXiv:2608.18161v1 Announce Type: new Abstract: For electrons with nonzero initial velocity $u_0\\ne0$ in vacuum, the space-charge-limited current density (SCLCD) is given by $J_{Jaff\\acute{e}}$. For current densities $J>…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Grant-Making Under Uncertainty",
-      "url": "https://arxiv.org/abs/2608.18175",
-      "summary": "arXiv:2608.18175v1 Announce Type: new Abstract: The theory of Decision-making under uncertainty as it applies to NIH grant-making generally and to NIH research plans concerning the science of science in particular.",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Teaching Quantum Design Automation with Block-Based Programming",
-      "url": "https://arxiv.org/abs/2608.18206",
-      "summary": "arXiv:2608.18206v1 Announce Type: new Abstract: As quantum circuits grow beyond small toy examples, preparing them for execution on physical devices becomes increasingly complex. Design automation is therefore essential …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing the electroweak structure of nuclei with rare atoms and molecules",
-      "url": "https://arxiv.org/abs/2608.18219",
-      "summary": "arXiv:2608.18219v1 Announce Type: new Abstract: Precision experiments of atoms and molecules have become a powerful probe of the electroweak structure of atomic nuclei and of physics beyond the Standard Model. We review …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transferable Fast Calorimeter Shower Generation via Multi-Geometry Pre-training",
-      "url": "https://arxiv.org/abs/2608.18233",
-      "summary": "arXiv:2608.18233v1 Announce Type: new Abstract: Detailed Geant4 simulation of calorimeter showers dominates the computing budget of high-energy physics experiments. Deep generative surrogates reduce this cost, but they h…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A compact low-frequency optomechanical triaxial inertial sensor",
-      "url": "https://arxiv.org/abs/2608.18247",
-      "summary": "arXiv:2608.18247v1 Announce Type: new Abstract: Triaxial optomechanical accelerometers offer compact, ground-testable alternatives to electrostatic sensors for satellite geodesy, seismometry, and various other applicatio…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Angle-domain null subtraction imaging from beamformed plane-wave data",
-      "url": "https://arxiv.org/abs/2608.18252",
-      "summary": "arXiv:2608.18252v1 Announce Type: new Abstract: Null subtraction imaging (NSI) narrows the apparent lateral response by combining fields produced with a zero-mean apodization and two DC-offset variants. Conventional NSI …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intrusive versus non-intrusive reduced-order modeling of generalized Newtonian fluid flows",
-      "url": "https://arxiv.org/abs/2608.18259",
-      "summary": "arXiv:2608.18259v1 Announce Type: new Abstract: This study compares three reduced-order modeling (ROM) approaches for flow simulations of generalized Newtonian fluids described by the Carreau rheological model. All three…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SeisEvo: Evolution of Seismic Data Reconstruction Algorithms by Agents",
-      "url": "https://arxiv.org/abs/2608.18272",
-      "summary": "arXiv:2608.18272v1 Announce Type: new Abstract: Classical seismic data reconstruction relies on manually designed structural priors and iterative operators, whose coupled design space is far larger than manual trial and …",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
