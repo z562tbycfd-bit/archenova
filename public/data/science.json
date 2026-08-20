@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-20T18:41:47.581Z",
+  "updated": "2026-08-20T19:33:03.595Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How well do past extinctions predict extinction risk today?",
+      "url": "https://phys.org/news/2026-08-extinctions-extinction-today.html",
+      "summary": "In the last few centuries, mammals and other animals have been going extinct at least 100 times faster than they did before humans arrived on the scene. So who will be next? Which species are most likely to survive, and …",
+      "ts": 1787254202000,
+      "publishedAt": "2026-08-20T19:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Wall-to-wall' map of NYC trees could help cool cities worldwide",
+      "url": "https://phys.org/news/2026-08-wall-nyc-trees-cool-cities.html",
+      "summary": "Researchers have created an interactive map identifying 1.8 million individual trees in New York City, using a new approach that could optimize the placement of trees for cooling in cities around the world.",
+      "ts": 1787253609000,
+      "publishedAt": "2026-08-20T19:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Who helps more—low-income earners or the wealthy? It depends on the situation",
+      "url": "https://phys.org/news/2026-08-income-earners-wealthy-situation.html",
+      "summary": "Are people from lower socioeconomic backgrounds more willing to help—or do the wealthy give more? For years, research has provided conflicting answers. A new study by Kühne Logistics University (KLU), based on data from …",
+      "ts": 1787253601000,
+      "publishedAt": "2026-08-20T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A cell-motility pathway helps set the pace of embryo development",
+      "url": "https://phys.org/news/2026-08-cell-motility-pathway-pace-embryo.html",
+      "summary": "A molecular pathway known for controlling cell shape and movement also helps regulate the rhythm by which the vertebrate body is divided into repeated segments, FMI researchers report in the journal Development.",
+      "ts": 1787252406000,
+      "publishedAt": "2026-08-20T19:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Shaking up' biofilm research: Active topography reduces bacterial infections",
+      "url": "https://phys.org/news/2026-08-biofilm-topography-bacterial-infections.html",
+      "summary": "The use of antibiotics has traditionally been considered the gold standard in bacterial infection control—the more bacterial cells you kill, and the faster you kill them, the better. University of Tennessee, Knoxville Pr…",
+      "ts": 1787252401000,
+      "publishedAt": "2026-08-20T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "China's solar push linked to bird diversity losses across 2,344 counties",
+      "url": "https://phys.org/news/2026-08-china-solar-linked-bird-diversity.html",
+      "summary": "The global push for solar energy expansion could carry hidden biodiversity costs, according to a study across China published in the journal Science on Thursday.",
+      "ts": 1787251801000,
+      "publishedAt": "2026-08-20T18:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Cursive is making a comeback. But does it deserve one?",
@@ -411,6 +459,38 @@
       "publishedAt": "2026-08-20T11:00:02.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Nucleation suppression by charge screening on grain boundaries: A kinetic model for bulk imprint in polycrystalline ferroelectric thin films",
+      "url": "http://link.aps.org/doi/10.1103/sj7p-6lkc",
+      "summary": "Author(s): Huanhuan Tian, Jianguo Yang, and Ming Liu The imprint effect, a major reliability issue in ferroelectric memories, degrades the device by shifting the coercive field over time. This work reviews existing impri…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Machine-learning-assisted material and geometry characterization from Casimir force measurement",
+      "url": "http://link.aps.org/doi/10.1103/11zc-ty7q",
+      "summary": "Author(s): Hideo Iizuka and Shanhui Fan A broadband electromagnetic source is important for scientific and technological applications. Quantum vacuum fluctuations, which manifest most prominently in the Casimir effect, p…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Raman detuning compensation in atom gravimeters for surveys of marine gravity",
+      "url": "http://link.aps.org/doi/10.1103/9cy9-3jd3",
+      "summary": "Author(s): Su-Peng Li, Xi Chen, Bei-Bei Liu, Ming-Qi Huang, Yu-Heng Zhao, Yu Luo, Sheng-Hua Li, Chang-Chun Wang, Jian-Wei Pan, Luo-Kan Chen, and Shuai Chen A cold-atom gravimeter, with high sensitivity, long-term stabili…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Implementation of a $ZZ$-free i<span class=\"sc\">swap</span> gate via dual-microwave suppression of $ZZ$ coupling",
+      "url": "http://link.aps.org/doi/10.1103/snwt-prqy",
+      "summary": "Author(s): Yuan Li, Yuanhao Fu, Dayu Li, Chen Zha, Sirui Cao, Jianbin Cai, Yisen Hu, Daojin Fan, Zhiyuan Chen, Zihua Chen, Yangsen Ye, Jin Lin, Ming Gong, Shaowei Li, and Yong-Heng Huo A major source of error in quantum …",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Robust Two-Qubit Geometric Phase Gates Using Amplitude and Frequency Ramping",
       "url": "http://link.aps.org/doi/10.1103/x9b9-5d78",
@@ -455,38 +535,6 @@
       "title": "Twin-Twisted van der Waals Crystal for Entangled Photon Source",
       "url": "http://link.aps.org/doi/10.1103/wp59-zvvb",
       "summary": "Author(s): Chaojie Ma, Mingkang Zhang, Lu He, Yijun Wang, Xuping Shi, Chang Liu, Youbao Ni, Haixin Wu, Yun-Kun Wu, Xifeng Ren, Zhipei Sun, Ling-Jun Kong, Xiangdong Zhang, Hao Hong, and Kaihui Liu Bright entangled photon …",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Nucleation suppression by charge screening on grain boundaries: A kinetic model for bulk imprint in polycrystalline ferroelectric thin films",
-      "url": "http://link.aps.org/doi/10.1103/sj7p-6lkc",
-      "summary": "Author(s): Huanhuan Tian, Jianguo Yang, and Ming Liu The imprint effect, a major reliability issue in ferroelectric memories, degrades the device by shifting the coercive field over time. This work reviews existing impri…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Machine-learning-assisted material and geometry characterization from Casimir force measurement",
-      "url": "http://link.aps.org/doi/10.1103/11zc-ty7q",
-      "summary": "Author(s): Hideo Iizuka and Shanhui Fan A broadband electromagnetic source is important for scientific and technological applications. Quantum vacuum fluctuations, which manifest most prominently in the Casimir effect, p…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Raman detuning compensation in atom gravimeters for surveys of marine gravity",
-      "url": "http://link.aps.org/doi/10.1103/9cy9-3jd3",
-      "summary": "Author(s): Su-Peng Li, Xi Chen, Bei-Bei Liu, Ming-Qi Huang, Yu-Heng Zhao, Yu Luo, Sheng-Hua Li, Chang-Chun Wang, Jian-Wei Pan, Luo-Kan Chen, and Shuai Chen A cold-atom gravimeter, with high sensitivity, long-term stabili…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Implementation of a $ZZ$-free i<span class=\"sc\">swap</span> gate via dual-microwave suppression of $ZZ$ coupling",
-      "url": "http://link.aps.org/doi/10.1103/snwt-prqy",
-      "summary": "Author(s): Yuan Li, Yuanhao Fu, Dayu Li, Chen Zha, Sirui Cao, Jianbin Cai, Yisen Hu, Daojin Fan, Zhiyuan Chen, Zihua Chen, Yangsen Ye, Jin Lin, Ming Gong, Shaowei Li, and Yong-Heng Huo A major source of error in quantum …",
       "ts": 1787220000000,
       "publishedAt": "2026-08-20T10:00:00.000Z"
     },
@@ -751,54 +799,6 @@
       "title": "Science Done on a Machine by a Machine: AI Agents in Computational Chemistry",
       "url": "https://arxiv.org/abs/2608.18508",
       "summary": "arXiv:2608.18508v1 Announce Type: new Abstract: We are witnessing an explosion of agentic systems for computational chemistry simulations: from half a dozen in 2024 to a dozen in 2025, and the current number approaches f…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "UBio-MolFM: Enabling Biomolecular Dynamics at DFT Accuracy and $10^5$ Atoms with One Untuned Potential",
-      "url": "https://arxiv.org/abs/2608.18623",
-      "summary": "arXiv:2608.18623v1 Announce Type: new Abstract: Ion conduction, membrane permeation and metal recognition hinge on electronic structure, yet first-principles simulation reaches only hundreds of atoms. UBio-MolFM lifts th…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Maxwell's Equations as a Boundary Value Problem in Multilayer Nanophotonics",
-      "url": "https://arxiv.org/abs/2608.18635",
-      "summary": "arXiv:2608.18635v1 Announce Type: new Abstract: Calculating strong-field, broadband nonlinear phenomena in complex nanophotonic structures remains difficult because it requires simultaneous handling of non-perturbative d…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-informed neural network for inverse modeling of granular flows",
-      "url": "https://arxiv.org/abs/2608.18641",
-      "summary": "arXiv:2608.18641v1 Announce Type: new Abstract: Granular flows are ubiquitous in natural and industrial systems, yet their complex dynamics remain difficult to characterize. For inverse problems involving unknown inlet, …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Trapping: The \"Waterfall\" of Vlasov-Poisson Dynamics and the Post-Transient Emergence of Drift-Independent Hole Structures in Collisionless Plasmas",
-      "url": "https://arxiv.org/abs/2608.18658",
-      "summary": "arXiv:2608.18658v1 Announce Type: new Abstract: A key aspect of structure formation in collisionless plasmas is particle trapping or, more precisely, the gap this process leaves in the theoretical description. While the …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear collective dynamics and microwave comb generation in a diamond maser",
-      "url": "https://arxiv.org/abs/2608.18692",
-      "summary": "arXiv:2608.18692v1 Announce Type: new Abstract: Optically pumped room temperature masers are a promising platform for driven dissipative spin photon physics beyond steady state emission. Here we observe a sequence of dyn…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensitivity of the ECMWF seasonal forecast model to CO2 and anthropogenic aerosol forcings: Experimental design and impact on climate trends",
-      "url": "https://arxiv.org/abs/2608.18712",
-      "summary": "arXiv:2608.18712v1 Announce Type: new Abstract: Detection and attribution studies typically rely on free running climate models with modified anthropogenic forcings, yet they fail to reproduce key observed decadal trends…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
