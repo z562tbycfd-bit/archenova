@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-20T19:33:05.908Z",
+  "updated": "2026-08-20T20:30:46.727Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -354,6 +354,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "ts": 1787209200000,
+      "publishedAt": "2026-08-20T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "ESA",
       "title": "ESA’s photosynthesis satellite fuelled ",
       "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX/ESA_s_photosynthesis_satellite_fuelled",
@@ -369,6 +378,15 @@
       "summary": "APODScienceAPODAPOD: 2026 August 20 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our f…",
       "ts": 1787198700000,
       "publishedAt": "2026-08-20T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "An Uncommon Drifter in the Denmark Strait",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
+      "summary": "A large iceberg, observed in summer 2026, had drifted more than 1,000 kilometers south from the northeastern Greenland bay where it likely originated.",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -523,15 +541,6 @@
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "An Uncommon Drifter in the Denmark Strait",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
-      "summary": "A large iceberg, observed in summer 2026, had drifted more than 1,000 kilometers south from the northeastern Greenland bay where it likely originated.",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -802,15 +811,6 @@
       "ts": 1787152681000,
       "publishedAt": "2026-08-19T15:18:01.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Moog Inc. Expands METEORITE Satellite Bus Capacity for High-Maneuverability Missions",
-      "url": "https://spacenews.com/moog-inc-expands-meteorite-satellite-bus-capacity-for-high-maneuverability-missions/",
-      "summary": "East Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer and systems integrator of high-performance precision motion and fluid controls and control systems announces a new, […] The post Moo…",
-      "ts": 1787152312000,
-      "publishedAt": "2026-08-19T15:11:52.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

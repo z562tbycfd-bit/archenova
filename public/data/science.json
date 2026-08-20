@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-20T19:33:03.595Z",
+  "updated": "2026-08-20T20:30:43.948Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Alternative mRNA modification lets ribosomes move nearly twice as fast",
+      "url": "https://phys.org/news/2026-08-alternative-mrna-modification-ribosomes-fast.html",
+      "summary": "In a new study, scientists from Johns Hopkins Medicine report that an experimental mRNA-based platform has the potential to help deliver next-generation mRNA therapeutics, including vaccines to fight infectious diseases,…",
+      "ts": 1787257801000,
+      "publishedAt": "2026-08-20T20:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Belgium's fire of the century now 'under control'",
+      "url": "https://phys.org/news/2026-08-belgium-century.html",
+      "summary": "Belgium's largest wildfire in a century was brought \"under control\" Thursday after a seven-day fight involving hundreds of firefighters in the boggy terrain of the High Fens nature reserve.",
+      "ts": 1787257208000,
+      "publishedAt": "2026-08-20T20:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New measurements explain how silicon and diamond achieve extreme reversible stretching",
+      "url": "https://phys.org/news/2026-08-silicon-diamond-extreme-reversible.html",
+      "summary": "A research team led by Yang Lu from the Department of Mechanical Engineering at the Faculty of Engineering, The University of Hong Kong (HKU), has uncovered the microscopic physical nature of ultralarge elasticity in cov…",
+      "ts": 1787257206000,
+      "publishedAt": "2026-08-20T20:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hypersonic impact rapidly transforms diamond into graphite, revealing energy-absorbing mechanism",
+      "url": "https://phys.org/news/2026-08-hypersonic-impact-rapidly-diamond-graphite.html",
+      "summary": "Rice University researchers have developed a way to stabilize diamond during high-temperature and low-pressure processing, creating a strong bulk composite and discovering that high-speed collisions can rapidly transform…",
+      "ts": 1787256006000,
+      "publishedAt": "2026-08-20T20:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "As Europe's rivers recede, shippers scramble to limit damage",
+      "url": "https://phys.org/news/2026-08-europe-rivers-recede-shippers-scramble.html",
+      "summary": "Exceptionally low river levels in a Europe hit hard by drought and record heat have plunged transporters into turmoil this summer, driving up costs that everyday consumers could end up bearing.",
+      "ts": 1787256001000,
+      "publishedAt": "2026-08-20T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From the lab to headlines: Why do some studies make the news while others don't?",
+      "url": "https://phys.org/news/2026-08-lab-headlines-news-dont.html",
+      "summary": "When we read a news story about a new cancer treatment, an Alzheimer's breakthrough or an innovative technology, we rarely think about everything that happens behind the scenes before that information reaches newspapers,…",
+      "ts": 1787255401000,
+      "publishedAt": "2026-08-20T19:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why social media algorithms send you posts you don't like",
+      "url": "https://phys.org/news/2026-08-social-media-algorithms-dont.html",
+      "summary": "Do your social media accounts feed you content that reflects your core beliefs and guiding principles? Our new research published in the Proceedings of the National Academy of Sciences shows that the algorithms supplying…",
+      "ts": 1787254806000,
+      "publishedAt": "2026-08-20T19:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's heat waves scorch 80 million with 40 C heat",
+      "url": "https://phys.org/news/2026-08-europe-million.html",
+      "summary": "Europe's deadly, record-breaking summer heat waves sent temperatures above 40°C (104°F) in areas inhabited by 80 million people from mid-June to mid-August, according to official data analyzed by AFP, with many of those …",
+      "ts": 1787254804000,
+      "publishedAt": "2026-08-20T19:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How well do past extinctions predict extinction risk today?",
@@ -459,38 +523,6 @@
       "publishedAt": "2026-08-20T11:00:02.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Nucleation suppression by charge screening on grain boundaries: A kinetic model for bulk imprint in polycrystalline ferroelectric thin films",
-      "url": "http://link.aps.org/doi/10.1103/sj7p-6lkc",
-      "summary": "Author(s): Huanhuan Tian, Jianguo Yang, and Ming Liu The imprint effect, a major reliability issue in ferroelectric memories, degrades the device by shifting the coercive field over time. This work reviews existing impri…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Machine-learning-assisted material and geometry characterization from Casimir force measurement",
-      "url": "http://link.aps.org/doi/10.1103/11zc-ty7q",
-      "summary": "Author(s): Hideo Iizuka and Shanhui Fan A broadband electromagnetic source is important for scientific and technological applications. Quantum vacuum fluctuations, which manifest most prominently in the Casimir effect, p…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Raman detuning compensation in atom gravimeters for surveys of marine gravity",
-      "url": "http://link.aps.org/doi/10.1103/9cy9-3jd3",
-      "summary": "Author(s): Su-Peng Li, Xi Chen, Bei-Bei Liu, Ming-Qi Huang, Yu-Heng Zhao, Yu Luo, Sheng-Hua Li, Chang-Chun Wang, Jian-Wei Pan, Luo-Kan Chen, and Shuai Chen A cold-atom gravimeter, with high sensitivity, long-term stabili…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Implementation of a $ZZ$-free i<span class=\"sc\">swap</span> gate via dual-microwave suppression of $ZZ$ coupling",
-      "url": "http://link.aps.org/doi/10.1103/snwt-prqy",
-      "summary": "Author(s): Yuan Li, Yuanhao Fu, Dayu Li, Chen Zha, Sirui Cao, Jianbin Cai, Yisen Hu, Daojin Fan, Zhiyuan Chen, Zihua Chen, Yangsen Ye, Jin Lin, Ming Gong, Shaowei Li, and Yong-Heng Huo A major source of error in quantum …",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Robust Two-Qubit Geometric Phase Gates Using Amplitude and Frequency Ramping",
       "url": "http://link.aps.org/doi/10.1103/x9b9-5d78",
@@ -535,6 +567,46 @@
       "title": "Twin-Twisted van der Waals Crystal for Entangled Photon Source",
       "url": "http://link.aps.org/doi/10.1103/wp59-zvvb",
       "summary": "Author(s): Chaojie Ma, Mingkang Zhang, Lu He, Yijun Wang, Xuping Shi, Chang Liu, Youbao Ni, Haixin Wu, Yun-Kun Wu, Xifeng Ren, Zhipei Sun, Ling-Jun Kong, Xiangdong Zhang, Hao Hong, and Kaihui Liu Bright entangled photon …",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Nucleation suppression by charge screening on grain boundaries: A kinetic model for bulk imprint in polycrystalline ferroelectric thin films",
+      "url": "http://link.aps.org/doi/10.1103/sj7p-6lkc",
+      "summary": "Author(s): Huanhuan Tian, Jianguo Yang, and Ming Liu The imprint effect, a major reliability issue in ferroelectric memories, degrades the device by shifting the coercive field over time. This work reviews existing impri…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Machine-learning-assisted material and geometry characterization from Casimir force measurement",
+      "url": "http://link.aps.org/doi/10.1103/11zc-ty7q",
+      "summary": "Author(s): Hideo Iizuka and Shanhui Fan A broadband electromagnetic source is important for scientific and technological applications. Quantum vacuum fluctuations, which manifest most prominently in the Casimir effect, p…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Passive cryogenic vacuum metrology from translational damping of a Meissner-levitated magnetic sphere",
+      "url": "http://link.aps.org/doi/10.1103/dc1v-w5hq",
+      "summary": "Author(s): Kun Wang, Fang Xiong, Tong Wu, Xu-Ran Tao, Kai Ma, Yi-Chong Ren, Feng Xu, Xiao-Jing Chen, and Fei Xue Pressure metrology in cryogenic ultrahigh vacuum is limited by the need for in situ readout that does not p…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Raman detuning compensation in atom gravimeters for surveys of marine gravity",
+      "url": "http://link.aps.org/doi/10.1103/9cy9-3jd3",
+      "summary": "Author(s): Su-Peng Li, Xi Chen, Bei-Bei Liu, Ming-Qi Huang, Yu-Heng Zhao, Yu Luo, Sheng-Hua Li, Chang-Chun Wang, Jian-Wei Pan, Luo-Kan Chen, and Shuai Chen A cold-atom gravimeter, with high sensitivity, long-term stabili…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Implementation of a $ZZ$-free i<span class=\"sc\">swap</span> gate via dual-microwave suppression of $ZZ$ coupling",
+      "url": "http://link.aps.org/doi/10.1103/snwt-prqy",
+      "summary": "Author(s): Yuan Li, Yuanhao Fu, Dayu Li, Chen Zha, Sirui Cao, Jianbin Cai, Yisen Hu, Daojin Fan, Zhiyuan Chen, Zihua Chen, Yangsen Ye, Jin Lin, Ming Gong, Shaowei Li, and Yong-Heng Huo A major source of error in quantum …",
       "ts": 1787220000000,
       "publishedAt": "2026-08-20T10:00:00.000Z"
     },
@@ -727,78 +799,6 @@
       "title": "Neural network predictions of plasma confinement loss in Wendelstein 7-X pellet-fueled discharges",
       "url": "https://arxiv.org/abs/2608.18325",
       "summary": "arXiv:2608.18325v1 Announce Type: new Abstract: The energy confinement time is a key parameter of a magnetized fusion plasma, helping to determine whether ignition can occur. Experiments in tokamaks and stellarators have…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian Optimization for Practical H2 Sensors: Inverse Design of Pd-based Plasmonic Metasurfaces",
-      "url": "https://arxiv.org/abs/2608.18333",
-      "summary": "arXiv:2608.18333v1 Announce Type: new Abstract: Hydrogen detection is becoming increasingly important as its use grows across energy and industrial systems. Optical sensing platforms based on palladium (Pd) nanoparticles…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupled-cluster molecular properties across the main group that extrapolate beyond training size",
-      "url": "https://arxiv.org/abs/2608.18346",
-      "summary": "arXiv:2608.18346v1 Announce Type: new Abstract: Coupled-cluster theory defines the accuracy standard for molecular electronic-structure properties but scales too steeply for routine application, whereas density-functiona…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma dynamics near the magnetic X-point of the two-wire model: Theory and Simulation",
-      "url": "https://arxiv.org/abs/2608.18373",
-      "summary": "arXiv:2608.18373v1 Announce Type: new Abstract: The two-wire model (TWM) is a magnetic configuration generated by two parallel current-carrying wires, and it contains an X-point at its center and a separatrix. Since the …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution of lunar wake potentials: structure, energy conversion, and their imprints on velocity distributions",
-      "url": "https://arxiv.org/abs/2608.18383",
-      "summary": "arXiv:2608.18383v1 Announce Type: new Abstract: We study the evolution of electric potentials in the lunar wake. The wake potential exhibits two distinct spatial scales. The macroscopic scale arises from solar wind expan…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Directional Hydrogen Migration in Acetonitrile Dication in Asymmetric Ultrashort Intense Laser Fields",
-      "url": "https://arxiv.org/abs/2608.18393",
-      "summary": "arXiv:2608.18393v1 Announce Type: new Abstract: We investigate intramolecular hydrogen migration in acetonitrile dication in phase-controlled $\\omega$-$2\\omega$ intense laser fields (800 and 400 nm, 3.3$\\times$10$^{14}$ …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impacts of Nuclear War on Human Health from Changed Surface Ultraviolet Radiation",
-      "url": "https://arxiv.org/abs/2608.18411",
-      "summary": "arXiv:2608.18411v1 Announce Type: new Abstract: Climate model simulations indicate that surface ultraviolet (UV) radiation would change after soot injection into the stratosphere during a nuclear war, due to the competin…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beam-Tracing-Based Quantitative Reconstruction of Density Fluctuations in QUEST Using Doppler Backscattering",
-      "url": "https://arxiv.org/abs/2608.18444",
-      "summary": "arXiv:2608.18444v1 Announce Type: new Abstract: A three-channel X-/Ku-band Doppler backscattering (DBS) system has been developed and installed on QUEST for turbulence and electric-field measurements. In spherical tokama…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Propagation of Laguerre-Gaussian and Bessel-Gaussian scalar beams in an effective anisotropic background",
-      "url": "https://arxiv.org/abs/2608.18478",
-      "summary": "arXiv:2608.18478v1 Announce Type: new Abstract: We investigate the propagation of structured scalar optical beams in an effective anisotropic background inspired by the scalar sector of the Standard-Model Extension and c…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Science Done on a Machine by a Machine: AI Agents in Computational Chemistry",
-      "url": "https://arxiv.org/abs/2608.18508",
-      "summary": "arXiv:2608.18508v1 Announce Type: new Abstract: We are witnessing an explosion of agentic systems for computational chemistry simulations: from half a dozen in 2024 to a dozen in 2025, and the current number approaches f…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
