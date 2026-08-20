@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-20T07:42:23.234Z",
+  "updated": "2026-08-20T08:40:40.598Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: How health systems are embracing chatbots to query and summarize patient records",
+      "url": "https://www.statnews.com/2026/08/20/health-systems-embrace-ai-chatbots-query-patient-records-ehr/?utm_campaign=rss",
+      "summary": "Several large health systems are rolling out AI chatbots to query patient records, saying they save time and increase diagnostic accuracy.",
+      "ts": 1787214600000,
+      "publishedAt": "2026-08-20T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Capricor’s Duchenne muscular dystrophy drug and the countless tiny decisions that can make or break a study",
+      "url": "https://www.statnews.com/2026/08/20/capricor-deramiocel-duchenne-muscular-dystrophy-rare-disease-studies-decisions/?utm_campaign=rss",
+      "summary": "“Regulatory flexibility can be exercised in rare disease without sacrificing rigor,” writes Mindy Leffler, whose son has Duchenne muscular dystrophy.",
+      "ts": 1787214600000,
+      "publishedAt": "2026-08-20T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Reduce protein to increase longevity? Nutrition experts say that’s a bad idea",
+      "url": "https://www.statnews.com/2026/08/20/reduce-protein-increase-longevity-bad-idea-nutrition-experts/?utm_campaign=rss",
+      "summary": "Reducing protein intake could increase human longevity, researchers recently suggested. That's a bad idea, for several reasons, experts say.",
+      "ts": 1787214600000,
+      "publishedAt": "2026-08-20T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Can reclassifying muscle dysmorphia unlock better care for boys and men?",
+      "url": "https://www.statnews.com/2026/08/20/reclassify-muscle-dysmorphia-eating-disorder-uscf-expert-jason-nagata/?utm_campaign=rss",
+      "summary": "Males make up about a third of the population struggling with eating disorders in the United States. While these conditions often start during the teen years, by some estimates, as…",
+      "ts": 1787214600000,
+      "publishedAt": "2026-08-20T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The global health aid architecture is collapsing. The faith economy isn’t",
+      "url": "https://www.statnews.com/2026/08/20/global-health-humanitarian-relief-faith-based-organizations-trump/?utm_campaign=rss",
+      "summary": "“Washington has rediscovered faith as a delivery mechanism. The bigger opportunity is faith as a source of capital,” writes Dr. Alaa Murabit.",
+      "ts": 1787214600000,
+      "publishedAt": "2026-08-20T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA’s photosynthesis satellite fuelled ",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX/ESA_s_photosynthesis_satellite_fuelled",
+      "summary": "Europe’s newest eye on the health of Earth’s vegetation has taken another crucial step towards orbit – the European Space Agency’s FLEX satellite has been fuelled at Europe’s Spaceport in French Guiana ahead of its plann…",
+      "ts": 1787209200000,
+      "publishedAt": "2026-08-20T07:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 August 20 – The Elephant’s Trunk in Cepheus",
@@ -754,60 +808,6 @@
       "title": "scVGAE: A ZINB-Based Variational Graph Autoencoder for Single-Cell RNA-Seq Imputation",
       "url": "https://arxiv.org/abs/2403.08959",
       "summary": "arXiv:2403.08959v3 Announce Type: replace Abstract: Single-cell RNA sequencing (scRNA-seq) provides high-resolution measurements of cellular heterogeneity, but sparsity and technical zeros can obscure biological structur…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Trilobite tridents: A model of lift, drag and stability for queue formation",
-      "url": "https://arxiv.org/abs/2506.15922",
-      "summary": "arXiv:2506.15922v2 Announce Type: replace Abstract: The trident like cephalic projections of Walliserops trifurcatus have been interpreted as sexually selected weapons for intraspecific combat. We evaluate one possible, …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Properties of biodiversity indices that incorporate future extinction risk",
-      "url": "https://arxiv.org/abs/2602.16059",
-      "summary": "arXiv:2602.16059v3 Announce Type: replace Abstract: The loss of biodiversity due to the likely widespread extinction of species in the near future is a focus of current concern in conservation biology. One approach to me…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Large-scale AI-Ready Data for Anti-Cancer Drug Response Modeling",
-      "url": "https://arxiv.org/abs/2608.11444",
-      "summary": "arXiv:2608.11444v2 Announce Type: replace Abstract: Drug response prediction (DRP) models are an active area of research in pharmacogenomics, with growing potential to accelerate the identification of effective anticance…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scientific Machine Learning of Chaotic Systems Learns Reduced-Order Equations for Neural Populations",
-      "url": "https://arxiv.org/abs/2507.03631",
-      "summary": "arXiv:2507.03631v5 Announce Type: replace-cross Abstract: Extracting interpretable mathematical models from complex dynamical systems is difficult, especially for chaotic dynamics observed with noisy experimental data. W…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying Memorization and Privacy Risks in Genomic Language Models",
-      "url": "https://arxiv.org/abs/2603.08913",
-      "summary": "arXiv:2603.08913v2 Announce Type: replace-cross Abstract: Genomic language models (GLMs) have emerged as powerful tools for learning representations of DNA sequences, enabling advances in variant prediction, regulatory e…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How to make the most of your masked language model for protein engineering",
-      "url": "https://arxiv.org/abs/2603.10302",
-      "summary": "arXiv:2603.10302v3 Announce Type: replace-cross Abstract: A plethora of protein language models have been released in recent years. Yet comparatively little work has addressed how to best sample from them to optimize des…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z",
       "categoryId": "bio"

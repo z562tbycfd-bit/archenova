@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-20T07:42:16.909Z",
+  "updated": "2026-08-20T08:40:35.176Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rescue mission is called off for NASA's aging Swift space telescope",
+      "url": "https://phys.org/news/2026-08-mission-nasa-aging-swift-space.html",
+      "summary": "The mission to save NASA's sinking Swift Observatory was called off Wednesday, dooming the telescope to a fiery reentry later this year.",
+      "ts": 1787213828000,
+      "publishedAt": "2026-08-20T08:17:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What beats seeing eclipses from space? Try the northern and southern lights",
+      "url": "https://phys.org/news/2026-08-eclipses-space-northern-southern.html",
+      "summary": "Eclipses may be wondrous, but nothing beats seeing the northern and southern lights from space.",
+      "ts": 1787213747000,
+      "publishedAt": "2026-08-20T08:15:47.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Honeybees struggle to gather nectar in August, direct measurements reveal",
@@ -783,22 +799,6 @@
       "title": "Observation of helical pulses",
       "url": "https://arxiv.org/abs/2501.07851",
       "summary": "arXiv:2501.07851v3 Announce Type: replace Abstract: Ultrafast spatiotemporal vortex pulses constitute a category within spatiotemporal topological waves. Nevertheless, the experimental realization of helical pulses singl…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Axion generation and detection in laser-plasma wakefields",
-      "url": "https://arxiv.org/abs/2504.12500",
-      "summary": "arXiv:2504.12500v3 Announce Type: replace Abstract: The axions are compelling candidates for cold dark matter, but their extremely weak interaction with photons makes laboratory searches challenging. We show that the qua…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stratified wakes of a prolate spheroid at moderate angle of attack",
-      "url": "https://arxiv.org/abs/2505.01599",
-      "summary": "arXiv:2505.01599v2 Announce Type: replace Abstract: Ocean submersibles and aerial vehicles often encounter a density-stratified environment whose effect on flow features is of interest. A 6:1 prolate spheroid of diameter…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
