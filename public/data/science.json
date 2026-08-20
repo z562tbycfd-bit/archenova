@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-20T10:32:49.863Z",
+  "updated": "2026-08-20T11:28:27.053Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New analysis reveals 'encouraging' global mangrove cover increase despite losses in key regions",
+      "url": "https://phys.org/news/2026-08-analysis-reveals-global-mangrove-losses.html",
+      "summary": "Global mangrove cover—vegetation vital to tackling climate change—has increased over the past 40 years, despite significant losses in some key regions, according to a new analysis.",
+      "ts": 1787224805000,
+      "publishedAt": "2026-08-20T11:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Communication style outweighs resume content in workplace first impressions, analysis finds",
+      "url": "https://phys.org/news/2026-08-communication-style-outweighs-resume-content.html",
+      "summary": "To make a good impression at work, it might be better to spend less time polishing your resume and more time honing your communication skills. That's according to a large analysis of more than 200 studies showing that th…",
+      "ts": 1787223602000,
+      "publishedAt": "2026-08-20T11:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Area affected by wildfires in Europe could almost triple due to climate change",
@@ -783,22 +799,6 @@
       "title": "Activated switching between coexisting limit cycles",
       "url": "https://arxiv.org/abs/2608.19060",
       "summary": "arXiv:2608.19060v1 Announce Type: cross Abstract: Noise-activated switching between coexisting stable states is a fundamental mechanism underlying stochastic dynamics in systems ranging from chemical reactions to neural …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring the limits of high-energy proton-pion separation in granular calorimeters",
-      "url": "https://arxiv.org/abs/2608.19064",
-      "summary": "arXiv:2608.19064v1 Announce Type: cross Abstract: Highly granular calorimeters provide detailed information about hadronic-shower development that may enable particle identification beyond their conventional role in ener…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equations of Tree Tensor Network Varieties",
-      "url": "https://arxiv.org/abs/2608.19071",
-      "summary": "arXiv:2608.19071v1 Announce Type: cross Abstract: We show that tree tensor network varieties, including tensor train varieties, are general Markov models associated to spaced trees. This allows us to prove that the prime…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }

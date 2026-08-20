@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-20T10:32:54.835Z",
+  "updated": "2026-08-20T11:28:34.756Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Muon Space raises $250 million to ramp up satellite production",
+      "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/",
+      "summary": "Muon Space has raised $250 million to fuel the small satellite specialist’s push into larger, more powerful spacecraft and constellations. The post Muon Space raises $250 million to ramp up satellite production appeared …",
+      "ts": 1787223600000,
+      "publishedAt": "2026-08-20T11:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: One of the most consequential year for cancer treatment, ever",
@@ -799,15 +808,6 @@
       "title": "DMT-Dens: Density-preserving manifold visualization for biological data",
       "url": "https://arxiv.org/abs/2608.17571",
       "summary": "arXiv:2608.17571v1 Announce Type: new Abstract: Motivation: Low-dimensional embeddings are widely used to explore cell-state heterogeneity in single-cell and other high-dimensional biological data. Although many methods …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Leakage-Proof Benchmark and Conformal Selective Triage for Electrohysterogram-Based Preterm Birth Prediction",
-      "url": "https://arxiv.org/abs/2608.17712",
-      "summary": "arXiv:2608.17712v1 Announce Type: new Abstract: Preterm birth remains a major cause of neonatal morbidity and mortality worldwide. Electrohysterography (EHG), a noninvasive measure of uterine myoelectrical activity, has …",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z",
       "categoryId": "bio"
