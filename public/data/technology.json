@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-20T20:30:46.727Z",
+  "updated": "2026-08-20T21:30:08.251Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -381,15 +381,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "An Uncommon Drifter in the Denmark Strait",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
-      "summary": "A large iceberg, observed in summer 2026, had drifted more than 1,000 kilometers south from the northeastern Greenland bay where it likely originated.",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "arXiv q-bio",
       "title": "Adaptive therapy under parametric, structural, and measurement uncertainty",
       "url": "https://arxiv.org/abs/2608.18387",
@@ -541,6 +532,15 @@
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "An Uncommon Drifter in the Denmark Strait",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
+      "summary": "A large iceberg, observed in summer 2026, had drifted more than 1,000 kilometers south from the northeastern Greenland bay where it likely originated.",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "OpenAI",

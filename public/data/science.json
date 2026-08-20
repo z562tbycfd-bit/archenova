@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-20T20:30:43.948Z",
+  "updated": "2026-08-20T21:30:06.435Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Magnetically levitated quantum bit could address design flaws",
+      "url": "https://phys.org/news/2026-08-magnetically-levitated-quantum-bit-flaws.html",
+      "summary": "Researchers at the FAMU-FSU College of Engineering and the National High Magnetic Field Laboratory, headquartered at Florida State University, have designed a new quantum computing architecture that uses magnetic levitat…",
+      "ts": 1787260804000,
+      "publishedAt": "2026-08-20T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new role for nitrate reductase in regulating nitrogen-responsive nodulation",
+      "url": "https://phys.org/news/2026-08-role-nitrate-reductase-nitrogen-responsive.html",
+      "summary": "Certain plants, including legumes, form specialized organs called root nodules, where they establish symbiotic relationships with nitrogen-fixing bacteria. This root nodule symbiosis enables plants to use atmospheric nit…",
+      "ts": 1787260801000,
+      "publishedAt": "2026-08-20T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI boosts sensitivity to double-Higgs signatures occurring about once per trillion collisions",
+      "url": "https://phys.org/news/2026-08-ai-boosts-sensitivity-higgs-signatures.html",
+      "summary": "Is the universe as stable as we think it is? That's one of the big questions that particle physicists worldwide are preparing to answer with the Large Hadron Collider, or LHC—the world's most powerful particle accelerato…",
+      "ts": 1787260201000,
+      "publishedAt": "2026-08-20T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan to launch probe for Mars moons in October: Space agency",
+      "url": "https://phys.org/news/2026-08-japan-probe-mars-moons-october.html",
+      "summary": "Japan's ambitious mission to collect and bring back samples from one of Mars' moons will lift off Oct. 20, the space agency announced Thursday.",
+      "ts": 1787259605000,
+      "publishedAt": "2026-08-20T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dynamics of the Icelandic ice sheet altered North Atlantic seawater chemistry, environmental physicists reveal",
+      "url": "https://phys.org/news/2026-08-dynamics-icelandic-ice-sheet-north.html",
+      "summary": "Over the past 230,000 years, the growth and retreat of the Icelandic ice sheet have led to major changes in the seawater chemistry of the North Atlantic, caused by the interaction between volcanism and ice in Iceland. Sc…",
+      "ts": 1787259601000,
+      "publishedAt": "2026-08-20T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scorching summer triggers record rockfalls in Alps, scientist says",
+      "url": "https://phys.org/news/2026-08-summer-triggers-rockfalls-alps-scientist.html",
+      "summary": "The exceptionally hot summer in the Alps has been marked by a record number of rockfalls, some of them fatal, with \"a large majority attributable to the climate crisis,\" according to scientist Ludovic Ravanel.",
+      "ts": 1787258406000,
+      "publishedAt": "2026-08-20T20:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rising ocean temperatures reduce the natural carbon storage capacity of seagrass meadows",
+      "url": "https://phys.org/news/2026-08-ocean-temperatures-natural-carbon-storage.html",
+      "summary": "A new study published in Communications Earth & Environment, with contributions from researchers at the Leibniz Centre for Tropical Marine Research (ZMT), shows that higher seawater temperatures could significantly reduc…",
+      "ts": 1787258401000,
+      "publishedAt": "2026-08-20T20:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Alternative mRNA modification lets ribosomes move nearly twice as fast",
@@ -743,62 +799,6 @@
       "title": "SeisEvo: Evolution of Seismic Data Reconstruction Algorithms by Agents",
       "url": "https://arxiv.org/abs/2608.18272",
       "summary": "arXiv:2608.18272v1 Announce Type: new Abstract: Classical seismic data reconstruction relies on manually designed structural priors and iterative operators, whose coupled design space is far larger than manual trial and …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Comprehensive Review of Large Language Models for Nanophotonics: From Surrogate Modeling to Autonomous Design",
-      "url": "https://arxiv.org/abs/2608.18279",
-      "summary": "arXiv:2608.18279v1 Announce Type: new Abstract: Metasurfaces have revolutionized the development of photonic devices by enabling unprecedented precision in light manipulation. However, their design processes are often co…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Liquid bridges between horizontal cylinders: effects of gravity and electric fields",
-      "url": "https://arxiv.org/abs/2608.18291",
-      "summary": "arXiv:2608.18291v1 Announce Type: new Abstract: Liquid bridges suspended between two parallel horizontal cylinders are studied using experiments, reduced-order mathematical modelling and numerical simulations. Both non-e…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultra-broadband integrated optical parametric amplifier for quantum sensing",
-      "url": "https://arxiv.org/abs/2608.18295",
-      "summary": "arXiv:2608.18295v1 Announce Type: new Abstract: Although thin-film lithium niobate (TFLN) facilitates efficient signal generation and nonlinear and quantum interactions, the realization of optical parametric amplificatio…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical investigations of low-latitude ground magnetic fields due to cavity mode oscillations",
-      "url": "https://arxiv.org/abs/2608.18304",
-      "summary": "arXiv:2608.18304v1 Announce Type: new Abstract: Pi2 oscillations have been known to be associated with cavity mode oscillations (CMOs) in the inner magnetosphere at low latitudes. CMOs can also be excited by interplaneta…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward Topology-Optimized Foundry PDKs: A Seeded Design Framework for Multimode Interferometers",
-      "url": "https://arxiv.org/abs/2608.18308",
-      "summary": "arXiv:2608.18308v1 Announce Type: new Abstract: We present an end-to-end design methodology for multimode interferometer (MMI)-based photonic devices that combines parameter optimization (PO) on analytical models with se…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fully Parallel Dual-Grid Immersed-Boundary Framework for Flow-Induced Sound from Complex Moving and Deforming Bodies",
-      "url": "https://arxiv.org/abs/2608.18323",
-      "summary": "arXiv:2608.18323v1 Announce Type: new Abstract: Predicting flow-induced sound from moving and deforming bodies is computationally demanding because the near-field hydrodynamics and the far-field acoustics require substan…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural network predictions of plasma confinement loss in Wendelstein 7-X pellet-fueled discharges",
-      "url": "https://arxiv.org/abs/2608.18325",
-      "summary": "arXiv:2608.18325v1 Announce Type: new Abstract: The energy confinement time is a key parameter of a magnetized fusion plasma, helping to determine whether ignition can occur. Experiments in tokamaks and stellarators have…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
