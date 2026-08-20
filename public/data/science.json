@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-19T23:24:18.093Z",
+  "updated": "2026-08-20T01:20:32.076Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover learning and memory formation in model membranes",
+      "url": "https://phys.org/news/2026-08-scientists-memory-formation-membranes.html",
+      "summary": "A decades-long collaboration between two scientists at the Department of Energy's Oak Ridge National Laboratory is reshaping how we understand learning.",
+      "ts": 1787188801000,
+      "publishedAt": "2026-08-20T01:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modern consumption patterns traced back to WWII mobilization",
+      "url": "https://phys.org/news/2026-08-modern-consumption-patterns-wwii-mobilization.html",
+      "summary": "Research in the International Journal of Sustainable Development has examined eight nations involved in World War II, both Allied and Axis countries, and shows how that period of history helped set societies on the path …",
+      "ts": 1787187601000,
+      "publishedAt": "2026-08-20T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sustainability commitments have serious consequences",
+      "url": "https://phys.org/news/2026-08-sustainability-commitments-consequences.html",
+      "summary": "Amid increasingly stiff competition for capital, one way for a business to stand out is to make strong social impact pledges. For example, companies can voluntarily commit to environmental impact goals in hopes of attrac…",
+      "ts": 1787186402000,
+      "publishedAt": "2026-08-20T00:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change is rewriting England's 'green and pleasant' story",
+      "url": "https://phys.org/news/2026-08-climate-rewriting-england-green-pleasant.html",
+      "summary": "In 1804, William Blake wrote in his poem Jerusalem of England's \"green and pleasant\" land. This idealized vision of English pastoral has resonated through two centuries, fusing the character of the nation with its landsc…",
+      "ts": 1787185201000,
+      "publishedAt": "2026-08-20T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Perovskite-based sensor detects ammonia leaks at concentrations as low as 1 ppm",
+      "url": "https://phys.org/news/2026-08-perovskite-based-sensor-ammonia-leaks.html",
+      "summary": "A team led by principal researcher Myungkwan Song of the Energy & Environment Materials Research Division at the Korea Institute of Materials Science (KIMS) has developed an ultrasensitive ammonia gas sensor using an env…",
+      "ts": 1787184001000,
+      "publishedAt": "2026-08-20T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
+      "url": "https://www.nature.com/articles/s41467-026-76837-1",
+      "summary": "",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Chromatin decompaction within the nucleus increases plasma membrane tension promoting NETosis execution, independently of transcription",
+      "url": "https://www.nature.com/articles/s41467-026-76578-1",
+      "summary": "",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Changing bacterial feedstock unlocks flexible biopolymers with stronger antibacterial effects",
+      "url": "https://phys.org/news/2026-08-bacterial-feedstock-flexible-biopolymers-stronger.html",
+      "summary": "Changing the carbon source used during bacterial fermentation—essentially, what bacteria are fed—can significantly influence the properties of the sugar polymers they produce, known as bacterial exopolysaccharides (EPSs)…",
+      "ts": 1787182803000,
+      "publishedAt": "2026-08-19T23:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Supramolecular nanofibers paired with nanohole substrate improve exciton transport in organic solid",
+      "url": "https://phys.org/news/2026-08-supramolecular-nanofibers-paired-nanohole-substrate.html",
+      "summary": "Self-assembling, anthracene-based supramolecular nanofibers can enable excitons to migrate hundreds of nanometers, according to a new experimental finding by researchers at Science Tokyo. Coupling these nanofibers with a…",
+      "ts": 1787182801000,
+      "publishedAt": "2026-08-19T23:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Kyoto's gardens provide habitats for local amphibians",
@@ -729,78 +801,6 @@
       "summary": "Rat poisons used in homes, businesses and on farms are moving into South Africa's wildlife, according to new research from the Urban Caracal Project, a key research and education initiative based in the Institute for Com…",
       "ts": 1787137207000,
       "publishedAt": "2026-08-19T11:00:07.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Multiple Phases in ${\\mathrm{K}}_{2}{\\mathrm{Cr}}_{3}{\\mathrm{As}}_{3}$: A Playground for Manipulating Topological Superconductivity",
-      "url": "http://link.aps.org/doi/10.1103/kykd-2nj4",
-      "summary": "Author(s): Seigo Ogawa, Tomoki Miyoshi, Saki Uchida, Kazuaki Matano, Shinji Kawasaki, Yoshihiko Inada, and Guo-qing Zheng Researchers have made the first definitive measurements of an elusive superconducting state. [Phys…",
-      "ts": 1787133600000,
-      "publishedAt": "2026-08-19T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Temporal interface in wire media controlled by switches",
-      "url": "http://link.aps.org/doi/10.1103/r4wr-h5y5",
-      "summary": "Author(s): Constantin Simovski and Mikhail Sidorenko In our previous work, we have theoretically shown that the temporal interface in a wire medium may result in an unambiguous encoding of the spatial frequencies of the …",
-      "ts": 1787133600000,
-      "publishedAt": "2026-08-19T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Electromagnetic modes in spherical cavities: Angular spectra, dispersion relations, and self-adjoint extensions",
-      "url": "http://link.aps.org/doi/10.1103/6vg1-k5zb",
-      "summary": "Author(s): Mustafa Bakr, Tongyu Zhang, and Smain Amari We present a comprehensive theory of electromagnetic modes in spherical cavities, resolving questions about the nature of angular quantization. The standard result t…",
-      "ts": 1787133600000,
-      "publishedAt": "2026-08-19T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Reservoir computing as a language model",
-      "url": "http://link.aps.org/doi/10.1103/sd11-x3ny",
-      "summary": "Author(s): Felix Köster and Atsushi Uchida Large language models have dominated the scientific and media landscape due to their impressive performance in processing large amounts of data and producing humanlike text. Nev…",
-      "ts": 1787133600000,
-      "publishedAt": "2026-08-19T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "${\\mathrm{VO}}_{2}$-based energy-efficient artificial spiking sensor emulating human-skin-like high-precision temperature perception",
-      "url": "http://link.aps.org/doi/10.1103/qksb-q166",
-      "summary": "Author(s): Xi Zeng, Thomas Ratier, Rafael Puyol, Léopold Van Brandt, and Denis Flandre Bioinspired neuromorphic spiking sensors hold great promise for energy-efficient and architecturally simplified neuromorphic networks…",
-      "ts": 1787133600000,
-      "publishedAt": "2026-08-19T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Exceptional topological entanglement in open quantum systems",
-      "url": "http://link.aps.org/doi/10.1103/bg9k-rw48",
-      "summary": "Author(s): Shahab Ramezanpour and Amr S. Helmy Fast and robust entanglement generation is a central requirement for scalable quantum technologies, where limited coherence time, parameter drift, and timing uncertainty can…",
-      "ts": 1787133600000,
-      "publishedAt": "2026-08-19T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Nonreciprocal spin transport across a Pt/Ti bilayer",
-      "url": "http://link.aps.org/doi/10.1103/s958-6zdz",
-      "summary": "Author(s): Feng Li, Qian Zhao, Ping Tang, Zimu Li, Quwen Wang, Yixin Fan, Tengfei Zhang, Jianbo Wang, Qingfang Liu, Guoqiang Yu, and Jinwu Wei Interfacial engineering of spin currents is crucial for developing spintronic…",
-      "ts": 1787133600000,
-      "publishedAt": "2026-08-19T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "UK politicians vastly overestimate public opposition to climate policies, study finds",
-      "url": "https://phys.org/news/2026-08-uk-politicians-vastly-overestimate-opposition.html",
-      "summary": "Members of Parliament from the UK's three biggest political parties in the House of Commons significantly overestimate levels of public resistance to major policy proposals for tackling climate change, a University of Ca…",
-      "ts": 1787130004000,
-      "publishedAt": "2026-08-19T09:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Climate change main driver of European ocean warming: Study",
-      "url": "https://phys.org/news/2026-08-climate-main-driver-european-ocean.html",
-      "summary": "Climate change is the main driver of Europe's rising marine temperatures, directly adding around 2°C of warming in the Mediterranean this summer and severely affecting ecosystems, a study said Wednesday.",
-      "ts": 1787129401000,
-      "publishedAt": "2026-08-19T08:50:01.000Z"
     }
   ],
   "sources": [
