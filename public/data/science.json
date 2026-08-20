@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-20T12:53:22.406Z",
+  "updated": "2026-08-20T13:48:56.699Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Clubbing may boost well-being for women in midlife",
+      "url": "https://phys.org/news/2026-08-clubbing-boost-women-midlife.html",
+      "summary": "An online survey published in the journal Psychology of Music asked 136 women ages 40 and older about their experiences at electronic dance music (EDM) events. Nine in 10 respondents (91%) said clubbing contributes posit…",
+      "ts": 1787233207000,
+      "publishedAt": "2026-08-20T13:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers gain access to crucial deliberations on deep-sea mining",
+      "url": "https://phys.org/news/2026-08-gain-access-crucial-deliberations-deep.html",
+      "summary": "As competition between the United States and China intensifies over critical minerals, pressure is mounting to begin exploitation of deep-sea minerals before a code to regulate mining of the seabed in areas beyond nation…",
+      "ts": 1787233202000,
+      "publishedAt": "2026-08-20T13:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "ALMA uncovers sulfur for the first time around a rare class of supergiant star",
+      "url": "https://phys.org/news/2026-08-alma-uncovers-sulfur-rare-class.html",
+      "summary": "Astronomers have discovered a chemically rich collection of sulfur-bearing molecules surrounding the rare massive star HD 87643. The observations include the first detection of sulfur monoxide and sulfur dioxide around a…",
+      "ts": 1787232007000,
+      "publishedAt": "2026-08-20T13:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ocean time travelers return with secrets of the Great Barrier Reef",
+      "url": "https://phys.org/news/2026-08-ocean-secrets-great-barrier-reef.html",
+      "summary": "A team of Australian researchers has woven together modern science and Indigenous knowledge to reveal new insights into the evolution, history and future of the southern Great Barrier Reef. The 24-day voyage, led by The …",
+      "ts": 1787232001000,
+      "publishedAt": "2026-08-20T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uncovering the evolution of Edo-period Japanese ceramic jars with AI",
+      "url": "https://phys.org/news/2026-08-uncovering-evolution-edo-period-japanese.html",
+      "summary": "Archaeological artifacts offer valuable insights into the history of past societies. They reveal not only technological developments but also the changing economic systems, cultural traditions and everyday practices of t…",
+      "ts": 1787230804000,
+      "publishedAt": "2026-08-20T13:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "RNA droplets may have helped start life on Earth",
@@ -759,46 +799,6 @@
       "title": "Fourier Transforms of Color Glass Condensate Multi-Wilson-Line Correlators via Filon Quadrature",
       "url": "https://arxiv.org/abs/2608.18589",
       "summary": "arXiv:2608.18589v1 Announce Type: cross Abstract: Calculating cross sections in the Color Glass Condensate effective theory requires Fourier transforms of multi-Wilson-line correlators from transverse coordinate space to…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long-time asymptotics of the integrable defocusing Wadati-Konno-Ichikawa equation with a finite-genus algebro-geometric background",
-      "url": "https://arxiv.org/abs/2608.18630",
-      "summary": "arXiv:2608.18630v1 Announce Type: cross Abstract: We study the finite-genus algebro-geometric solutions of the Wadati-Konno-Ichikawa (WKI) equation with the saturable nonlinearity and long-time asymptotic behaviors of th…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Branching (Almost) Everywhere And All at Once",
-      "url": "https://arxiv.org/abs/2608.18644",
-      "summary": "arXiv:2608.18644v1 Announce Type: cross Abstract: It is sometimes said that a reason to prefer Everettian quantum mechanics is that it allows one to avoid the kind of spooky action at a distance that is a consequence of …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A single design choice determines whether machine learning models of materials make physically impossible predictions",
-      "url": "https://arxiv.org/abs/2608.18714",
-      "summary": "arXiv:2608.18714v1 Announce Type: cross Abstract: Machine-learned models are replacing first-principles calculations across materials discovery, and physical symmetry is the central guarantee built into them. The debate …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact time-correlated coincidence modeling with reset boundaries",
-      "url": "https://arxiv.org/abs/2608.18728",
-      "summary": "arXiv:2608.18728v1 Announce Type: cross Abstract: Delayed-coincidence searches identify a rare prompt-delayed signal, but their accidental background is not a simple product of marginal rates: muon vetoes, event dead tim…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Technical Proposal for the Atom Interferometer CERN Experiment (AICE) Facility",
-      "url": "https://arxiv.org/abs/2608.18743",
-      "summary": "arXiv:2608.18743v1 Announce Type: cross Abstract: We present the technical proposal for the Atom Interferometer CERN Experiment (AICE), a $\\mathcal{O}(100)$ m vertical atom interferometer to be installed against the wall…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }

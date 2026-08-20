@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-20T12:53:24.425Z",
+  "updated": "2026-08-20T13:48:58.957Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Ultragenyx gene therapy",
+      "url": "https://www.statnews.com/2026/08/20/biotech-news-fda-approves-utlragenyx-gene-therapy/?utm_campaign=rss",
+      "summary": "Regeneron wins ultra-rare disease drug approval, a validating win for mRNA research, and more biotech news from The Readout",
+      "ts": 1787233084000,
+      "publishedAt": "2026-08-20T13:38:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Contrasting legal decisions on gender-affirming care",
+      "url": "https://www.statnews.com/2026/08/20/health-news-contrasting-legal-decisions-on-gender-affirming-care/?utm_campaign=rss",
+      "summary": "Heidi Overton's rise under Trump, inside a 5-year-old brain organoid, and other health news from Morning Rounds",
+      "ts": 1787232548000,
+      "publishedAt": "2026-08-20T13:29:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Regeneron rare disease drug, an Ultragenyx gene therapy, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/20/regeneron-rare-disease-drug-utragenyx-gene-therapy/?utm_campaign=rss",
+      "summary": "A Regeneron drug for an ultra-rare disease that causes bone to grow where it shouldn't won U.S. regulatory approval, capping a three-decade effort",
+      "ts": 1787230865000,
+      "publishedAt": "2026-08-20T13:01:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Bring the Fire: Play Games on GeForce NOW With New Firefox Browser Support",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-firefox/",
+      "summary": "It’s a new way into the cloud. GeForce NOW welcomes Firefox support to the cloud, opening up another way to jump into high-performance PC gaming straight from the browser, starting today. Whether on a school laptop or ev…",
+      "ts": 1787230824000,
+      "publishedAt": "2026-08-20T13:00:24.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova",
+      "url": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/",
+      "summary": "Portal Space Systems has acquired a Falcon 9 to launch its first Supernova spacecraft and will offer excess capacity on the vehicle for rideshare payloads. The post Portal Space Systems to include rideshare payloads on F…",
+      "ts": 1787230800000,
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rock West Composites® Is Premiering Its New STRATOPultrusion™ Product Line at the 2026 Small Satellite Conference",
+      "url": "https://spacenews.com/rock-west-composites-is-premiering-its-new-stratopultrusion-product-line-at-the-2026-small-satellite-conference/",
+      "summary": "San Diego, CA – Rock West Composites (RWC) is premiering its recently launched space-grade STRATOPultrusion™ product line at the 2026 Small Satellite Conference this August in Salt Lake City, Utah. […] The post Rock West…",
+      "ts": 1787230800000,
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "China’s Chang’e-7 lunar ice-hunting mission set for Sunday launch",
@@ -757,60 +811,6 @@
       "ts": 1787128200000,
       "publishedAt": "2026-08-19T08:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "She grew up unvaccinated. Now she’s a leading voice for science — and empathy",
-      "url": "https://www.statnews.com/2026/08/19/science-communication-liz-marnik-vaccine-advocate/?utm_campaign=rss",
-      "summary": "Immunologist Liz Marnik, who grew up unvaccinated, says shaming people who distrust science will do nothing to improve vaccine acceptance.",
-      "ts": 1787128200000,
-      "publishedAt": "2026-08-19T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: AI has created a shadow medical system",
-      "url": "https://www.statnews.com/2026/08/19/ai-doctor-outperforms-chatgpt-oura-quest-ro-hims-medical-system/?utm_campaign=rss",
-      "summary": "Financial incentives – health care makes up nearly one-fifth of the American economy – have driven every major AI company into health care.",
-      "ts": 1787128200000,
-      "publishedAt": "2026-08-19T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "ts": 1787122800000,
-      "publishedAt": "2026-08-19T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
-      "summary": "Photographers at NASA’s Johnson Space Center in Houston have documented some of the most defining moments in human spaceflight. From astronaut training and engineering tests to mission control operations and milestone ce…",
-      "ts": 1787115726000,
-      "publishedAt": "2026-08-19T05:02:06.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Physician group sues Trump administration over dietary guidelines process ",
-      "url": "https://www.statnews.com/2026/08/19/physician-group-sues-trump-administration-over-dietary-guidelines-food-pyramid-hhs-usda/?utm_campaign=rss",
-      "summary": "The suit, brought by a nonprofit that advocates for plant-based diets, claims HHS and the USDA used a “secret panel” of scientists to flip the food pyramid.",
-      "ts": 1787115600000,
-      "publishedAt": "2026-08-19T05:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 19 – The Case of the Mysterious Maybe Meteor",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-19-the-case-of-the-mysterious-maybe-meteor/",
-      "summary": "APODScienceAPODAPOD: 2026 August 19 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our f…",
-      "ts": 1787112300000,
-      "publishedAt": "2026-08-19T04:05:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
