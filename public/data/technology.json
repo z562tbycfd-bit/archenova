@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-20T15:35:47.407Z",
+  "updated": "2026-08-20T16:37:07.045Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Moog Highlights Huntsville Expansion and New Hardware-in-the-Loop Lab During Space and Missile Defense Symposium ",
+      "url": "https://spacenews.com/moog-highlights-huntsville-expansion-and-new-hardware-in-the-loop-lab-during-space-and-missile-defense-symposium/",
+      "summary": "Huntsville, AL — Moog Inc. (NYSE: MOG.A and MOG.B) announces a significant expansion at its Huntsville, AL facility that now includes a new secure Hypersonic/Interceptor Hardware-in-the-Loop (HWIL) lab. It is […] The pos…",
+      "ts": 1787241600000,
+      "publishedAt": "2026-08-20T16:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Debates over AI consciousness are a trap",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, D…",
+      "ts": 1787240559000,
+      "publishedAt": "2026-08-20T15:42:39.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: How a Trump loyalist got the FDA nomination",
@@ -91,6 +109,15 @@
       "ts": 1787227800000,
       "publishedAt": "2026-08-20T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "As elections near, South Sudan risks new atrocity crimes, warns rights probe",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168173",
+      "summary": "The under-reported humanitarian crisis in South Sudan risks deepening with the real possibility of further atrocity crimes unless renewed fighting stops, a UN-backed probe said on Thursday.",
+      "ts": 1787227200000,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -388,6 +415,15 @@
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How ChatGPT Work helps Stampli move ideas to market",
+      "url": "https://openai.com/index/stampli",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Cell",
@@ -775,42 +811,6 @@
       "ts": 1787140800000,
       "publishedAt": "2026-08-19T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan war: 200,000 newly displaced as fighting and floods intensify",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168165",
-      "summary": "Intensifying fighting in Sudan has displaced at least another 200,000 people since late 2025, while destructive seasonal floods are compounding the massive humanitarian emergency there, the UN International Organization …",
-      "ts": 1787140800000,
-      "publishedAt": "2026-08-19T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Aid workers under fire as drones reshape warfare",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168153",
-      "summary": "The UN is warning that aid workers face a deadly and evolving threat, with armed drones reshaping battlefields worldwide – putting humanitarian teams increasingly in the line of fire.",
-      "ts": 1787140800000,
-      "publishedAt": "2026-08-19T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Dissecting Chinese trial strategy in wake of deaths",
-      "url": "https://www.statnews.com/2026/08/19/health-news-dissecting-chinese-trial-strategy-in-wake-of-deaths/?utm_campaign=rss",
-      "summary": "Cancer \"vaccine\" successfully slowed melanoma, dissecting Chinese trial strategy in wake of deaths, and more health news from Morning Rounds",
-      "ts": 1787140046000,
-      "publishedAt": "2026-08-19T11:47:26.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What Epic did — and didn’t — say about AI at its annual meeting",
-      "url": "https://www.statnews.com/2026/08/19/ai-prognosis-what-epic-did-and-didnt-say-about-ai-at-its-annual-meeting/?utm_campaign=rss",
-      "summary": "At Epic's annual meeting, the prevailing question behind closed doors is “What the heck is going on with Epic?”",
-      "ts": 1787138712000,
-      "publishedAt": "2026-08-19T11:25:12.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

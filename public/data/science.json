@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-20T15:35:44.569Z",
+  "updated": "2026-08-20T16:37:04.280Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A little Big Bang: Bowling-pin-shaped nuclei shed new light on the universe's first moments",
+      "url": "https://phys.org/news/2026-08-big-bowling-pin-nuclei-universe.html",
+      "summary": "What happened in the first moments of the universe—before the building blocks of life and the world we know today came into existence? Physicists at the CERN research facility in Switzerland are trying to answer this que…",
+      "ts": 1787242805000,
+      "publishedAt": "2026-08-20T16:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "3D imaging and machine learning improve noncontact weight estimation of frozen skipjack tuna",
+      "url": "https://phys.org/news/2026-08-3d-imaging-machine-noncontact-weight.html",
+      "summary": "Accurately determining fish body size and weight is essential for fisheries resource management and seafood processing; however, measuring large quantities of fish is labor-intensive, and results may vary among operators…",
+      "ts": 1787242801000,
+      "publishedAt": "2026-08-20T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neanderthal hips challenge long-standing hypothesis of a trade-off between childbirth and bipedal walking",
+      "url": "https://phys.org/news/2026-08-neanderthal-hips-hypothesis-childbirth-bipedal.html",
+      "summary": "The most prominent difference between human male and female skeletons is the pelvis, which anthropologists often use to determine the sex of ancient remains. Scientists have long believed the human pelvis evolved mainly …",
+      "ts": 1787242202000,
+      "publishedAt": "2026-08-20T16:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "International review standardizes selenosugar nomenclature and selenium metabolism",
+      "url": "https://phys.org/news/2026-08-international-standardizes-selenosugar-nomenclature-selenium.html",
+      "summary": "Selenosugars are the major urinary metabolites responsible for the physiological excretion of selenium. Understanding selenium metabolism relies on accurately detecting and identifying selenosugars. However, research has…",
+      "ts": 1787241611000,
+      "publishedAt": "2026-08-20T16:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Illuminating the limits of the international unit of light, the candela",
+      "url": "https://phys.org/news/2026-08-illuminating-limits-international-candela.html",
+      "summary": "The candela, the international unit of light in use for almost a century, forms the basis of photometry. According to a new study, measurements derived from it systematically misjudge the brightness of colored light sour…",
+      "ts": 1787241609000,
+      "publishedAt": "2026-08-20T16:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoparticle combines two strategies to speed up the healing of chronic wounds",
+      "url": "https://phys.org/news/2026-08-nanoparticle-combines-strategies-chronic-wounds.html",
+      "summary": "Researchers at the University of São Paulo (USP) in Ribeirão Preto, Brazil, have developed a nanoparticle that can address the various factors hindering the healing of chronic wounds, which include ulcers associated with…",
+      "ts": 1787240407000,
+      "publishedAt": "2026-08-20T15:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fertilizer prices and shortages are hamstringing our farmers. But we have other options",
+      "url": "https://phys.org/news/2026-08-fertilizer-prices-shortages-hamstringing-farmers.html",
+      "summary": "When was the last time you bought a loaf of bread?",
+      "ts": 1787240401000,
+      "publishedAt": "2026-08-20T15:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Designing supramolecular therapies to cross the blood-brain barrier",
@@ -217,6 +273,54 @@
       "summary": "To make a good impression at work, it might be better to spend less time polishing your resume and more time honing your communication skills. That's according to a large analysis of more than 200 studies showing that th…",
       "ts": 1787223602000,
       "publishedAt": "2026-08-20T11:00:02.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Robust Two-Qubit Geometric Phase Gates Using Amplitude and Frequency Ramping",
+      "url": "http://link.aps.org/doi/10.1103/x9b9-5d78",
+      "summary": "Author(s): C. M. Bowers, D. Palani, J. J. Barta, T. H. Guglielmo, S. B. Libby, D. Leibfried, and D. H. Slichter Adiabatic ramping of both state-dependent force amplitude and motional frequency delivers high-fidelity trap…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Enhancing Image Recognition Using Gaussian Boson Sampling",
+      "url": "http://link.aps.org/doi/10.1103/9mb1-t3w4",
+      "summary": "Author(s): Si-Qiu Gong, Ming-Cheng Chen, Hua-Liang Liu, Hao Su, Yi-Chao Gu, Hao-Yang Tang, Meng-Hao Jia, Yu-Hao Deng, Han-Tao Sun, Qian Wei, Hui Wang, Han-Sen Zhong, Xiao Jiang, Li Li, Nai-Le Liu, Dong-Ling Deng, Chao-Ya…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Hundred-Channel Reconfigurable Quantum Teleportation",
+      "url": "http://link.aps.org/doi/10.1103/rfz9-3prw",
+      "summary": "Author(s): Yanbo Lou, Jiabin Wang, Yuyan Zou, Lingyue Hou, Shengshuai Liu, and Jietai Jing Researchers have demonstrated the quantum teleportation of a 100-pixel image by a method that could help to scale up quantum netw…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Evaporative Flux Reversal of Binary Droplets: From Edge to Apex",
+      "url": "http://link.aps.org/doi/10.1103/m739-56q7",
+      "summary": "Author(s): Minhyeok Kuk and Hyoungsoo Kim Experimental studies of multicomponent droplet evaporation reveal distinct stages, with internal flow shifting from multiple vortices within the droplet to a single toroidal vort…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Self-Dual Higgs Transitions: Toric Code and Beyond",
+      "url": "http://link.aps.org/doi/10.1103/flfk-m8lj",
+      "summary": "Author(s): Wenjie Ji (纪文杰), Ryan A. Lanzetta, Zheng Zhou (周正), and Chong Wang (王翀) The toric code, when deformed in a way that preserves the self-duality ${\\mathbb{Z}}_{2}$ symmetry exchanging the electric and magnetic e…",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Twin-Twisted van der Waals Crystal for Entangled Photon Source",
+      "url": "http://link.aps.org/doi/10.1103/wp59-zvvb",
+      "summary": "Author(s): Chaojie Ma, Mingkang Zhang, Lu He, Yijun Wang, Xuping Shi, Chang Liu, Youbao Ni, Haixin Wu, Yun-Kun Wu, Xifeng Ren, Zhipei Sun, Ling-Jun Kong, Xiangdong Zhang, Hao Hong, and Kaihui Liu Bright entangled photon …",
+      "ts": 1787220000000,
+      "publishedAt": "2026-08-20T10:00:00.000Z"
     },
     {
       "source": "APS PR Applied",
@@ -695,110 +799,6 @@
       "title": "Orientation-dependent drag, lift, and torque correlations for regular Platonic polyhedral particles",
       "url": "https://arxiv.org/abs/2608.18890",
       "summary": "arXiv:2608.18890v1 Announce Type: new Abstract: In this work, particle-resolved direct numerical simulations are performed to investigate flow past the five Platonic solids, which represent a progression in particle sphe…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Molecular Insights into Gas Nanofilms Confined Between Bulk Liquid Phases",
-      "url": "https://arxiv.org/abs/2608.18891",
-      "summary": "arXiv:2608.18891v1 Announce Type: new Abstract: Nanometer-thick fluid films play a critical role in confined multiphase processes, yet the thermodynamics and stability of free gas nanofilms remain poorly understood compa…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Remarkable Enhancement of High Harmonic Generation from Superhard Material under High Pressure",
-      "url": "https://arxiv.org/abs/2608.18905",
-      "summary": "arXiv:2608.18905v1 Announce Type: new Abstract: High harmonic generation (HHG) in solids offers a pathway to develop compact extreme ultraviolet (EUV) sources crucial for attosecond science and advanced spectroscopy. Her…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mach-disk formation and shock-structure transitions in underexpanded coflowing jets",
-      "url": "https://arxiv.org/abs/2608.18923",
-      "summary": "arXiv:2608.18923v1 Announce Type: new Abstract: The near-field shock structures of underexpanded sonic jets exiting into a subsonic coflow are investigated over a range of nozzle pressure ratio (NPR) and coflow-to-nozzle…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stefan Bergman (1895-1977). Notes on His Bio- and Bibliography",
-      "url": "https://arxiv.org/abs/2608.18927",
-      "summary": "arXiv:2608.18927v1 Announce Type: new Abstract: Stefan Bergman worked in the field of pure and applied mathematics and became known primarily for his work on complex analysis of several variables. He studied the theory o…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-power TCV scenario for conventional and alternative divertor studies",
-      "url": "https://arxiv.org/abs/2608.18939",
-      "summary": "arXiv:2608.18939v1 Announce Type: new Abstract: Alternative divertor configurations (ADCs) must be evaluated under boundary plasma conditions approaching reactor-level values to be considered a reliable, physics-based so…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Structured Framework for Calibrating Stochastic Car-Following Models: Data Adequacy, Parameter Sensitivity, and Objective Selection",
-      "url": "https://arxiv.org/abs/2608.18944",
-      "summary": "arXiv:2608.18944v1 Announce Type: new Abstract: Calibrating a stochastic car-following model is harder than its deterministic counterpart: the loss itself becomes a random variable, so a favorable random realization can …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On-chip Bragg peak extraction from MHz frame rate X-ray detectors using a cellular automaton architecture",
-      "url": "https://arxiv.org/abs/2608.18970",
-      "summary": "arXiv:2608.18970v1 Announce Type: new Abstract: High-frame rate pixel detectors can produce data volumes that exceed available off-chip bandwidth, yet in many applications only a sparse subset of each frame carries relev…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extremes on Rewind: Generating 1,000-Member Ensembles Initialized at a Final Condition",
-      "url": "https://arxiv.org/abs/2608.19008",
-      "summary": "arXiv:2608.19008v1 Announce Type: new Abstract: Scenario planning for rare, high-impact events often requires massive ensembles to stochastically sample relevant trajectories. Although autoregressive weather emulators ca…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D trapping of a meta-atom in an intensity minimum",
-      "url": "https://arxiv.org/abs/2608.19016",
-      "summary": "arXiv:2608.19016v1 Announce Type: new Abstract: High-refractive-index particles have recently attracted a growing interest in optical levitation experiments, offering the ability to further engineer optical forces throug…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of metal nanoparticles on whispering gallery modes of a microcavity",
-      "url": "https://arxiv.org/abs/2608.19017",
-      "summary": "arXiv:2608.19017v1 Announce Type: new Abstract: Photonic microcavities offer high energy density and low mode volume and attract special attention due to wide range of applications. Subsequent developments in the area of…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Molecular Implementation of the Machine-Learned Skala Exchange-Correlation Functional in CP2K through GauXC",
-      "url": "https://arxiv.org/abs/2608.19033",
-      "summary": "arXiv:2608.19033v1 Announce Type: new Abstract: Machine-learned exchange--correlation (XC) functionals offer a route to improve Kohn--Sham density-functional theory without incurring the cost of explicitly correlated ele…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Machine-learning Molecular Dynamics at the Speed of Empirical Potentials",
-      "url": "https://arxiv.org/abs/2608.19041",
-      "summary": "arXiv:2608.19041v1 Announce Type: new Abstract: No interatomic potential has offered universality across chemistry, near-first-principles accuracy and the speed of empirical potentials at once. Here we introduce DPA4C, a…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Radioactive Background of the JUNO Calibration System",
-      "url": "https://arxiv.org/abs/2608.19051",
-      "summary": "arXiv:2608.19051v1 Announce Type: new Abstract: The Jiangmen Underground Neutrino Observatory (JUNO) experiment is a reactor antineutrino detector employing 20 kton of ultra-pure liquid scintillator to determine the neut…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
