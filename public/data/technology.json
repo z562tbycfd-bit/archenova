@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-20T22:29:42.522Z",
+  "updated": "2026-08-20T23:27:03.583Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Golden Dome chief touts progress as funding questions loom",
+      "url": "https://spacenews.com/golden-dome-chief-touts-progress-as-funding-questions-loom/",
+      "summary": "Guetlein joins North Dakota senators in making the case for the missile defense program The post Golden Dome chief touts progress as funding questions loom appeared first on SpaceNews.",
+      "ts": 1787266954000,
+      "publishedAt": "2026-08-20T23:02:34.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Elve qualifies millimeter-wave amplifiers for spaceflight",
+      "url": "https://spacenews.com/elve-qualifies-millimeter-wave-amplifiers-for-spaceflight/",
+      "summary": "SAN FRANCISCO – California startup Elve has qualified its 100-watt millimeter-wave Traveling Wave Tube Amplifier platform for spaceflight. With U.S. Space Force Small Business Innovation Research funding, Elve “didn’t ju…",
+      "ts": 1787266313000,
+      "publishedAt": "2026-08-20T22:51:53.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "SpaceWERX selects 11 firms to scale technologies for military space",
@@ -9,6 +27,15 @@
       "summary": "The new round of STRATFIs were awarded to Agile Space Industries, Antares Nuclear, EO Solutions, Hydrosat, Kall Morris, Method Security, Muon Space, Scout Space, Sedaro, Star Catcher Industries and ThinkOrbital The post …",
       "ts": 1787262275000,
       "publishedAt": "2026-08-20T21:44:35.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "SmallSat 2026",
+      "url": "https://science.nasa.gov/earth/smallsat-2026/",
+      "summary": "SmallSat 2026 Join NASA in the Exhibit Hall (Booth # 635, 835, 641, and 940) for Storytelling by NASA experts. Full Agenda below. MONDAY, AUGUST 24, 9:00 – 10:00 AM WelcomeJose NunezBryceTech’s Smallsats by the Numbers: …",
+      "ts": 1787256341000,
+      "publishedAt": "2026-08-20T20:05:41.000Z",
       "categoryId": "space"
     },
     {
@@ -390,6 +417,15 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "An Uncommon Drifter in the Denmark Strait",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
+      "summary": "A large iceberg, observed in summer 2026, had drifted more than 1,000 kilometers south from the northeastern Greenland bay where it likely originated.",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "Adaptive therapy under parametric, structural, and measurement uncertainty",
       "url": "https://arxiv.org/abs/2608.18387",
@@ -541,15 +577,6 @@
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "An Uncommon Drifter in the Denmark Strait",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
-      "summary": "A large iceberg, observed in summer 2026, had drifted more than 1,000 kilometers south from the northeastern Greenland bay where it likely originated.",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -784,33 +811,6 @@
       "ts": 1787155252000,
       "publishedAt": "2026-08-19T16:00:52.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cell Therapy Company Aims to Pioneer Analytics Automation",
-      "url": "https://www.genengnews.com/topics/bioprocessing/cell-therapy-company-aims-to-pioneer-analytics-automation/",
-      "summary": "BlueRock says it’s helping advance the cell therapy industry by developing an automated system for analytical auditing. They say it’s among the few systems specifically designed for this application. The post Cell Therap…",
-      "ts": 1787155212000,
-      "publishedAt": "2026-08-19T16:00:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Vector Production a Bottleneck for Gene Therapy Sector",
-      "url": "https://www.genengnews.com/topics/bioprocessing/vector-production-a-bottleneck-for-gene-therapy-sector/",
-      "summary": "More effective purification materials would make viral vector production more efficient, say researchers working on an affinity adsorbent-based method they claim can differentiate between full and empty capsids more effe…",
-      "ts": 1787155210000,
-      "publishedAt": "2026-08-19T16:00:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Establishes State Hubs to Grow Technical Aerospace Workforce",
-      "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
-      "summary": "NASA has awarded approximately $10.5 million to seven institutions to help strengthen and streamline state-based pathways for students into skilled technical jobs in the aerospace industry. The awards were made through t…",
-      "ts": 1787154910000,
-      "publishedAt": "2026-08-19T15:55:10.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

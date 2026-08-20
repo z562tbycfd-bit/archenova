@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-20T22:29:34.460Z",
+  "updated": "2026-08-20T23:27:00.494Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Thinner lenses, brighter colors: Metalens research clears two hurdles for AR and VR glasses",
+      "url": "https://phys.org/news/2026-08-thinner-lenses-brighter-metalens-hurdles.html",
+      "summary": "AR and VR glasses once seen only in science fiction may soon be realized not as bulky stacks of lenses but as a single eyeglass-like optical element. That future is now closer to reality.",
+      "ts": 1787268002000,
+      "publishedAt": "2026-08-20T23:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rising carbon dioxide is supercharging grass growth in African savannas, study finds",
+      "url": "https://phys.org/news/2026-08-carbon-dioxide-supercharging-grass-growth.html",
+      "summary": "Rising atmospheric carbon dioxide is boosting grass growth in Africa's water-limited savannas, according to a new study led by the University of Sheffield.",
+      "ts": 1787266801000,
+      "publishedAt": "2026-08-20T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers build 'digital twin' to model Manhattan air quality",
+      "url": "https://phys.org/news/2026-08-digital-twin-manhattan-air-quality.html",
+      "summary": "Cornell engineers have developed a \"digital twin\" framework that creates a real-time virtual representation of urban carbon dioxide conditions, providing a tool that could help city planners monitor emissions, identify h…",
+      "ts": 1787265607000,
+      "publishedAt": "2026-08-20T22:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "North Sea wind farm expansion may shift rain offshore, simulations suggest",
+      "url": "https://phys.org/news/2026-08-north-sea-farm-expansion-shift.html",
+      "summary": "Offshore wind farms are a key pillar of the energy transition. The European Union plans to expand offshore wind capacity in the North Sea by 2050. A new study by the Helmholtz-Zentrum Hereon indicates that a very extensi…",
+      "ts": 1787265602000,
+      "publishedAt": "2026-08-20T22:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Decode the chatter of birds with a neuroscientist",
@@ -769,38 +801,6 @@
       "summary": "Eclipses may be wondrous, but nothing beats seeing the northern and southern lights from space.",
       "ts": 1787213747000,
       "publishedAt": "2026-08-20T08:15:47.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Honeybees struggle to gather nectar in August, direct measurements reveal",
-      "url": "https://phys.org/news/2026-08-honeybees-struggle-nectar-august-reveal.html",
-      "summary": "Letting late-summer weeds grow could help honeybees when they find it most challenging to gather nectar, according to new research published in the journal, Functional Ecology.",
-      "ts": 1787199001000,
-      "publishedAt": "2026-08-20T04:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Warming waters draw summer 'feeding frenzies' by whales off Greenland",
-      "url": "https://phys.org/news/2026-08-summer-frenzies-whales-greenland.html",
-      "summary": "The effects of global warming depend on species: The losers are legion, but a lucky few are winners. Now, researchers have shown that baleen whales are taking advantage of a newly opened-up fish bonanza in the Greenland …",
-      "ts": 1787198401000,
-      "publishedAt": "2026-08-20T04:00:01.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shifting Social Dispositions, Stable Prosocial Traits: A Global Age-Period-Cohort Analysis of Human Personality",
-      "url": "https://arxiv.org/abs/2608.18119",
-      "summary": "arXiv:2608.18119v1 Announce Type: new Abstract: Generational stereotypes are widespread, but they often rely on anecdotes, and it remains challenging to disentangle true birth-cohort differences from the universal effect…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bifurcation and Hysteresis in Vacuum Diodes",
-      "url": "https://arxiv.org/abs/2608.18161",
-      "summary": "arXiv:2608.18161v1 Announce Type: new Abstract: For electrons with nonzero initial velocity $u_0\\ne0$ in vacuum, the space-charge-limited current density (SCLCD) is given by $J_{Jaff\\acute{e}}$. For current densities $J>…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
     }
   ],
   "sources": [
