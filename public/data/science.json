@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-20T01:20:32.076Z",
+  "updated": "2026-08-20T02:58:39.084Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fine-particle pollution may undermine plants' ability to absorb carbon and conserve water",
+      "url": "https://phys.org/news/2026-08-fine-particle-pollution-undermine-ability.html",
+      "summary": "Researchers at the Faculty of Social Sciences at the University of Hong Kong (HKU) have discovered that fine particulate pollution (PM2.5) significantly impairs plants' ability to use water efficiently and absorb carbon …",
+      "ts": 1787193601000,
+      "publishedAt": "2026-08-20T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Innovation enhances multiomics workflow, eliminates sample preparation",
+      "url": "https://phys.org/news/2026-08-multiomics-workflow-sample.html",
+      "summary": "A patent-pending method developed and tested for multiple applications at Purdue University eliminates sample preparation, a bottleneck that currently dominates a laboratory scientist's time and budget, and enables spati…",
+      "ts": 1787192401000,
+      "publishedAt": "2026-08-20T02:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Racing to build a radio telescope on the moon",
+      "url": "https://phys.org/news/2026-08-radio-telescope-moon.html",
+      "summary": "Remember the \"Wow!\" signal? That high-energy radio signature occurred in 1977, when Earth was much \"quieter\" in the radio band. If it happened today, it probably wouldn't even move the needle on the background noise of h…",
+      "ts": 1787191201000,
+      "publishedAt": "2026-08-20T02:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Couples' coping skills help reduce depression in GI cancer survivors",
+      "url": "https://phys.org/news/2026-08-couples-coping-skills-depression-gi.html",
+      "summary": "Dyadic coping is a potentially modifiable protective factor in the psychological health of middle-aged and older gastrointestinal cancer survivors, according to a study recently published in the European Journal of Cance…",
+      "ts": 1787190001000,
+      "publishedAt": "2026-08-20T01:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Scientists discover learning and memory formation in model membranes",
@@ -54,6 +86,14 @@
       "source": "Nature Communications",
       "title": "Chromatin decompaction within the nucleus increases plasma membrane tension promoting NETosis execution, independently of transcription",
       "url": "https://www.nature.com/articles/s41467-026-76578-1",
+      "summary": "",
+      "ts": 1787184000000,
+      "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Shape-independent fluidity in epithelial cell monolayers",
+      "url": "https://www.nature.com/articles/s41467-026-76793-w",
       "summary": "",
       "ts": 1787184000000,
       "publishedAt": "2026-08-20T00:00:00.000Z"
@@ -761,46 +801,6 @@
       "summary": "Throughout the first week of August, 12 organizations came together in an unprecedented collaborative effort to protect the future of Florida's Coral Reef during one of nature's most elusive events: coral spawning. Scien…",
       "ts": 1787140805000,
       "publishedAt": "2026-08-19T12:00:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Astronomers catch hot birth of galaxy cluster more than 11 billion light-years away",
-      "url": "https://phys.org/news/2026-08-astronomers-hot-birth-galaxy-cluster.html",
-      "summary": "Astronomers have detected an enormous cloud of gas tens of millions of degrees hot surrounding one of the most extreme structures known in the early universe. The study offers one of the clearest views yet of a galaxy cl…",
-      "ts": 1787140802000,
-      "publishedAt": "2026-08-19T12:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Studies find media literacy, social media use can predict trust in institutions, civic engagement",
-      "url": "https://phys.org/news/2026-08-media-literacy-social-civic-engagement.html",
-      "summary": "New research from the University of Kansas has found that the more media-literate people are, the more they trust institutions such as government and nonprofits. In addition, their social media habits can predict civic e…",
-      "ts": 1787139605000,
-      "publishedAt": "2026-08-19T11:40:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Review maps long-term health risks from historical metal mining in England and Wales",
-      "url": "https://phys.org/news/2026-08-term-health-historical-metal-england.html",
-      "summary": "Unlike many other pollutants, toxic metals do not break down in the environment. Although they may become diluted over time, they can remain in landscapes for centuries, posing potential risks to wildlife, livestock, eco…",
-      "ts": 1787138401000,
-      "publishedAt": "2026-08-19T11:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Volatile weekly work hours may have adverse effects on health, employment",
-      "url": "https://phys.org/news/2026-08-volatile-weekly-hours-adverse-effects.html",
-      "summary": "Workers who juggle volatile work hours that change from week to week may experience adverse health effects that affect their ability to work, although the limitations vary by gender, say researchers at the University of …",
-      "ts": 1787137529000,
-      "publishedAt": "2026-08-19T11:05:29.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Cape Town's caracals expose a hidden rat poison problem for the city's wildlife",
-      "url": "https://phys.org/news/2026-08-cape-town-caracals-expose-hidden.html",
-      "summary": "Rat poisons used in homes, businesses and on farms are moving into South Africa's wildlife, according to new research from the Urban Caracal Project, a key research and education initiative based in the Institute for Com…",
-      "ts": 1787137207000,
-      "publishedAt": "2026-08-19T11:00:07.000Z"
     }
   ],
   "sources": [

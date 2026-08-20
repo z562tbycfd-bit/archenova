@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-20T01:20:35.520Z",
+  "updated": "2026-08-20T02:58:42.479Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -292,9 +292,27 @@
     },
     {
       "source": "United Nations News",
-      "title": "Aid workers under fire as drones reshape warfare",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168153",
-      "summary": "The UN is warning that aid workers face a deadly and evolving threat, with armed drones reshaping battlefields worldwide – putting humanitarian teams increasingly in the line of fire.",
+      "title": "Raising alarm over new illegal Israeli outposts, UN condemns attacks, incitement against Palestinians",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168171",
+      "summary": "Reports of new illegal Israeli outposts in the occupied West Bank raised alarms at UN Headquarters on Wednesday while the UN rights office called on Israel to condemn its national security minister’s words that incite “v…",
+      "ts": 1787140800000,
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "International Criminal Court: New US sanctions ‘a flagrant attack’ against its independence",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168168",
+      "summary": "The International Criminal Court (ICC) on Wednesday responded to a new round of US sanctions targeting its president and a senior prosecutor, calling them “a flagrant attack” against the court.",
+      "ts": 1787140800000,
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Zambia: Arrests and detention of political opponents following election raises concern",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168169",
+      "summary": "In the wake of President Hakainde Hichilema of Zambia’s re-election for a second five-year term, UN human rights chief has raised concerns over the reported arrests and detention of political opponents in the country.",
       "ts": 1787140800000,
       "publishedAt": "2026-08-19T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -304,6 +322,15 @@
       "title": "Sudan war: 200,000 newly displaced as fighting and floods intensify",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168165",
       "summary": "Intensifying fighting in Sudan has displaced at least another 200,000 people since late 2025, while destructive seasonal floods are compounding the massive humanitarian emergency there, the UN International Organization …",
+      "ts": 1787140800000,
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Aid workers under fire as drones reshape warfare",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168153",
+      "summary": "The UN is warning that aid workers face a deadly and evolving threat, with armed drones reshaping battlefields worldwide – putting humanitarian teams increasingly in the line of fire.",
       "ts": 1787140800000,
       "publishedAt": "2026-08-19T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -783,33 +810,6 @@
       "summary": "Top executives of major health systems got substantial raises, even as their hospitals grappled with plenty of challenges.",
       "ts": 1787073988000,
       "publishedAt": "2026-08-18T17:26:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s B777 Gets New Coat of Paint",
-      "url": "https://www.nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint/",
-      "summary": "NASA’s Boeing 777 shows off a new paint job in this Aug. 11, 2026, photo. The B777 was acquired to replace and extend the capabilities of the NASA DC-8, which was retired in 2024. The B777, set to begin operations from N…",
-      "ts": 1787065836000,
-      "publishedAt": "2026-08-18T15:10:36.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Government workers feel the squeeze on health care",
-      "url": "https://www.statnews.com/2026/08/18/health-care-costs-surge-for-cities-counties-generous-model-deadline-for-states/?utm_campaign=rss",
-      "summary": "Municipalities are struggling with the cost of health insurance for their workers, and states are facing a major decision on Medicaid drug coverage.",
-      "ts": 1787063801000,
-      "publishedAt": "2026-08-18T14:36:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Exercise-Boosting Molecule May Help Improve Muscle Health in Type 2 Diabetes",
-      "url": "https://www.genengnews.com/topics/translational-medicine/exercise-boosting-molecule-may-help-improve-muscle-health-in-type-2-diabetes/",
-      "summary": "Researchers discovered that a key molecule released during exercise strengthens muscles, improves exercise performance and could be a therapeutic treatment for muscle damage caused by type 2 diabetes. The post Exercise-B…",
-      "ts": 1787062438000,
-      "publishedAt": "2026-08-18T14:13:58.000Z",
       "categoryId": "bio"
     }
   ],
