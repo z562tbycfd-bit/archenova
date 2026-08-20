@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-20T08:40:35.176Z",
+  "updated": "2026-08-20T09:36:57.863Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Area affected by wildfires in Europe could almost triple due to climate change",
+      "url": "https://phys.org/news/2026-08-area-affected-wildfires-europe-triple.html",
+      "summary": "Increasingly hot, dry and windy conditions could substantially extend the area affected by wildfires across Europe, according to a new study led by the Potsdam Institute for Climate Impact Research (PIK) with contributio…",
+      "ts": 1787217001000,
+      "publishedAt": "2026-08-20T09:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia races to shield little penguins from H5N1 bird flu",
+      "url": "https://phys.org/news/2026-08-australia-shield-penguins-h5n1-bird.html",
+      "summary": "Australian wildlife workers have launched an unprecedented effort to vaccinate wild populations of little penguins against the highly contagious H5N1 avian influenza.",
+      "ts": 1787215803000,
+      "publishedAt": "2026-08-20T08:50:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Honduras places 80% of country on El Niño drought alert",
+      "url": "https://phys.org/news/2026-08-honduras-country-el-nio-drought.html",
+      "summary": "The Honduran government on Wednesday placed 80% of the country, including the capital, on drought alert as El Niño scorches harvests and causes livestock to die of thirst.",
+      "ts": 1787215802000,
+      "publishedAt": "2026-08-20T08:50:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Rescue mission is called off for NASA's aging Swift space telescope",
@@ -775,30 +799,6 @@
       "title": "Equations of Tree Tensor Network Varieties",
       "url": "https://arxiv.org/abs/2608.19071",
       "summary": "arXiv:2608.19071v1 Announce Type: cross Abstract: We show that tree tensor network varieties, including tensor train varieties, are general Markov models associated to spaced trees. This allows us to prove that the prime…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of manufacturing tolerances on the performance of metamaterial microwave anti-reflection coatings",
-      "url": "https://arxiv.org/abs/2608.19176",
-      "summary": "arXiv:2608.19176v1 Announce Type: cross Abstract: Metamaterial anti-reflection coatings (ARC) are used in a variety of applications, including: lenses, filters, and absorbers. Typically, the design of a given ARC is done…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrostriction in a Bose-Einstein Condensate of Dipolar Molecules",
-      "url": "https://arxiv.org/abs/2608.19180",
-      "summary": "arXiv:2608.19180v1 Announce Type: cross Abstract: The recent creation of a Bose-Einstein condensate (BEC) of dipolar molecules has opened a new frontier for many-body quantum systems in which dipolar interactions can dri…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of helical pulses",
-      "url": "https://arxiv.org/abs/2501.07851",
-      "summary": "arXiv:2501.07851v3 Announce Type: replace Abstract: Ultrafast spatiotemporal vortex pulses constitute a category within spatiotemporal topological waves. Nevertheless, the experimental realization of helical pulses singl…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }

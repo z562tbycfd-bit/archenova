@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-20T08:40:40.598Z",
+  "updated": "2026-08-20T09:36:59.775Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Support networks aim to help kids through the polycrisis",
+      "url": "https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/",
+      "summary": "Sometime in the late 2000s, Pim Sullivan-Tailyour was sitting in the back of a car, headed toward her great-grandmother’s tiny town in the south of Thailand. She watched big mountains pass by out the window. She was just…",
+      "ts": 1787216400000,
+      "publishedAt": "2026-08-20T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: How health systems are embracing chatbots to query and summarize patient records",
@@ -799,15 +808,6 @@
       "title": "EquiPocket: an E(3)-Equivariant Geometric Graph Neural Network for Ligand Binding Site Prediction",
       "url": "https://arxiv.org/abs/2302.12177",
       "summary": "arXiv:2302.12177v5 Announce Type: replace Abstract: Predicting the binding sites of target proteins plays a fundamental role in drug discovery. Most existing deep-learning methods consider a protein as a 3D image by spat…",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "scVGAE: A ZINB-Based Variational Graph Autoencoder for Single-Cell RNA-Seq Imputation",
-      "url": "https://arxiv.org/abs/2403.08959",
-      "summary": "arXiv:2403.08959v3 Announce Type: replace Abstract: Single-cell RNA sequencing (scRNA-seq) provides high-resolution measurements of cellular heterogeneity, but sparsity and technical zeros can obscure biological structur…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z",
       "categoryId": "bio"
