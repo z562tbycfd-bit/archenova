@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-20T16:37:04.280Z",
+  "updated": "2026-08-20T17:31:29.329Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Soil methane sink may be larger than thought, three-model analysis finds",
+      "url": "https://phys.org/news/2026-08-soil-methane-larger-thought-analysis.html",
+      "summary": "Methane-munching microbes in soil might be more important than previously thought, a new study finds. Soil is an important carbon sink, and scientists are still learning much about the diversity of its microbial communit…",
+      "ts": 1787246407000,
+      "publishedAt": "2026-08-20T17:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Temporary liver coating may improve safety and targeting of mRNA vaccines and cancer therapies",
+      "url": "https://phys.org/news/2026-08-temporary-liver-coating-safety-mrna.html",
+      "summary": "With the commercialization of mRNA vaccines against COVID-19, research and development into the application of mRNA in vaccines and pharmaceuticals is accelerating. In particular, it is attracting attention not only in v…",
+      "ts": 1787246403000,
+      "publishedAt": "2026-08-20T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Farm mice study shows antibiotic resistance is an environmental problem, not just a medical one",
+      "url": "https://phys.org/news/2026-08-farm-mice-antibiotic-resistance-environmental.html",
+      "summary": "Scientists analyzed the genomes of gut microorganisms from an extensive population of 875 wild house mice (Mus musculus) collected from farms in Germany. They searched for genes responsible for resistance to common antib…",
+      "ts": 1787245210000,
+      "publishedAt": "2026-08-20T17:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Women compete just as hard as men for top jobs and can win them more often, auction-style study suggests",
+      "url": "https://phys.org/news/2026-08-women-hard-men-jobs-auction.html",
+      "summary": "New behavioral economics research on gender and competition, using bidding experiments, finds no overall gender gap in competitiveness; where a gap does appear, it is women who push hardest for the highest positions.",
+      "ts": 1787245201000,
+      "publishedAt": "2026-08-20T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA's physical properties may shape which mutations evolution preserves",
+      "url": "https://phys.org/news/2026-08-dna-physical-properties-mutations-evolution.html",
+      "summary": "Nearly every cell in the human body contains essentially the same genetic information, yet different cells activate different genes. For regulatory proteins to reach these genes, DNA must be accessible. This accessibilit…",
+      "ts": 1787244005000,
+      "publishedAt": "2026-08-20T16:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Preschool teachers overwhelmingly support play-based learning, study finds",
+      "url": "https://phys.org/news/2026-08-preschool-teachers-overwhelmingly-play-based.html",
+      "summary": "Thinkers from Plato to Maria Montessori have championed play as one of the most powerful ways that young children learn and grow. American preschool teachers overwhelmingly agree—but a new study finds that teachers in ur…",
+      "ts": 1787244003000,
+      "publishedAt": "2026-08-20T16:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A little Big Bang: Bowling-pin-shaped nuclei shed new light on the universe's first moments",
@@ -751,54 +799,6 @@
       "title": "Hidden Variables in Quantum Mechanics: A Journey Into de Broglie-Bohm Pilot-Wave Theory",
       "url": "https://arxiv.org/abs/2608.18829",
       "summary": "arXiv:2608.18829v1 Announce Type: new Abstract: This work provides an introduction to the most influential hidden-variable interpretation of the quantum formalism, i.e., the de Broglie-Bohm pilot-wave theory. As the read…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inter-turbine spacing and flow unsteadiness effects on wake-induced blade dynamics",
-      "url": "https://arxiv.org/abs/2608.18831",
-      "summary": "arXiv:2608.18831v1 Announce Type: new Abstract: Wind turbines operating downstream of others in a farm are routinely exposed to waked inflow, with reduced mean velocity and elevated turbulence driving power deficits and …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Perturbation theory of mesoscale plasmonic waveguide with an analytical treatment of nonclassical electromagnetic boundary condition",
-      "url": "https://arxiv.org/abs/2608.18856",
-      "summary": "arXiv:2608.18856v1 Announce Type: new Abstract: The optical modes of mesoscale plasmonic waveguides (MPWs) are significantly affected by nonclassical quantum effects, which can be comprehensively described by the nonclas…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Invertible mapping between structured light and vector terahertz emission",
-      "url": "https://arxiv.org/abs/2608.18857",
-      "summary": "arXiv:2608.18857v1 Announce Type: new Abstract: Terahertz (THz) radiation provides a powerful platform for ultrafast spectroscopy, imaging, and communication, yet deterministic control over its spatial and polarization s…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultra-wideband MRE of the human liver and spleen for viscoelastic model identification in hepatic inflammation",
-      "url": "https://arxiv.org/abs/2608.18867",
-      "summary": "arXiv:2608.18867v1 Announce Type: new Abstract: Magnetic resonance elastography (MRE) is established for noninvasive assessment of liver fibrosis. Conventional abdominal MRE is typically limited to 40-60 Hz. Lower freque…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrodynamic Brachistochrone: Conflicting Paths of Time and Energy Minima within Viscous Media",
-      "url": "https://arxiv.org/abs/2608.18871",
-      "summary": "arXiv:2608.18871v1 Announce Type: new Abstract: We experimentally and theoretically study the hydrodynamic analog of the classical brachistochrone problem: the {\\it time-} and {\\it energy-minimizing} paths for a spherica…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Orientation-dependent drag, lift, and torque correlations for regular Platonic polyhedral particles",
-      "url": "https://arxiv.org/abs/2608.18890",
-      "summary": "arXiv:2608.18890v1 Announce Type: new Abstract: In this work, particle-resolved direct numerical simulations are performed to investigate flow past the five Platonic solids, which represent a progression in particle sphe…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
