@@ -1,7 +1,160 @@
 {
   "ok": true,
-  "updated": "2026-08-20T03:52:42.104Z",
+  "updated": "2026-08-20T04:38:57.114Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "Adaptive therapy under parametric, structural, and measurement uncertainty",
+      "url": "https://arxiv.org/abs/2608.18387",
+      "summary": "arXiv:2608.18387v1 Announce Type: new Abstract: Adaptive therapy has emerged as a promising treatment strategy that exploits within-tumour competition to delay disease progression. Implementation, however, typically reli…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Characterization of Minimal Degenerate Zero-One Reaction Networks",
+      "url": "https://arxiv.org/abs/2608.18509",
+      "summary": "arXiv:2608.18509v1 Announce Type: new Abstract: A fundamental problem in the algebraic study of biochemical reaction networks is to characterize degeneracy. Two-dimensional zero-one networks, where each reactant appears …",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Multitask Bayesian Neural Networks for Multiparameter Protein Engineering",
+      "url": "https://arxiv.org/abs/2608.18604",
+      "summary": "arXiv:2608.18604v1 Announce Type: new Abstract: Simultaneously engineering multiple protein properties remains a major challenge. Existing machine learning-based pipelines for protein engineering often model properties s…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Polarization controlled second harmonic generation imaging of stretched collagen fibrils reveals collagen deformation pathway in situ",
+      "url": "https://arxiv.org/abs/2608.18898",
+      "summary": "arXiv:2608.18898v1 Announce Type: new Abstract: The tensile properties of single collagen fibrils, the building block of load-bearing tissues, have been studied extensively by nanomechanical techniques and molecular dyna…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Transcranial magnetic stimulation of visual-motion area V5/MT modulates sensory thalamus responses during visual speech recognition",
+      "url": "https://arxiv.org/abs/2608.19034",
+      "summary": "arXiv:2608.19034v1 Announce Type: new Abstract: Responses in the sensory thalamic nuclei are modulated by perceptual tasks. Whether such response modulations rely on feedback from cerebral cortex in humans is unknown. He…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Accurate Decoding of Natural Sentences from Non-Invasive Brain Recordings",
+      "url": "https://arxiv.org/abs/2608.18114",
+      "summary": "arXiv:2608.18114v1 Announce Type: cross Abstract: Restoring communication for people who have lost the ability to speak or move after a brain injury is a major challenge. While intracranial implants now enable high-perfo…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "GenEx: A Graph-Based Representational Paradigm for SARS-CoV-2 Variant Detection via Codon Co-occurrence Networks",
+      "url": "https://arxiv.org/abs/2608.18238",
+      "summary": "arXiv:2608.18238v1 Announce Type: cross Abstract: Genomic analysis on viruses such as SARS-CoV-2 variants: Beta, Gamma, Delta, and Omicron is heavily dominated by classical bioinformatics methods, including Sequence Alig…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Learning constructive models of emergent systems",
+      "url": "https://arxiv.org/abs/2608.18248",
+      "summary": "arXiv:2608.18248v1 Announce Type: cross Abstract: Emergent systems - systems containing multi-scale interactions - often arise through iteration rather than explicit forward design. As such, design principles for buildin…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Atrial Fibrillation Detection with Arbitrary Leads via a Codebook-Based Reconstruction-Classification Framework",
+      "url": "https://arxiv.org/abs/2608.18451",
+      "summary": "arXiv:2608.18451v1 Announce Type: cross Abstract: \\textbf{Background and Objective}: Reliable atrial fibrillation (AF) detection from electrocardiogram (ECG) signals remains challenging in real-world clinical settings du…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Role of Grid Cells in Reducing Spatial Aliasing in Hippocampal Place Representations",
+      "url": "https://arxiv.org/abs/2608.18569",
+      "summary": "arXiv:2608.18569v1 Announce Type: cross Abstract: Spatial aliasing occurs when two or more distinct locations produce highly similar place-cell representations, primarily due to environmental symmetry or repetitive struc…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference",
+      "url": "https://arxiv.org/abs/2608.18982",
+      "summary": "arXiv:2608.18982v1 Announce Type: cross Abstract: Bioassay activity prediction is often data-limited because drug-discovery datasets rely on time-consuming and expensive wet-lab experiments for data generation and evalua…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Positive equilibria in mass action networks: geometry and bounds",
+      "url": "https://arxiv.org/abs/2409.06877",
+      "summary": "arXiv:2409.06877v5 Announce Type: replace Abstract: Any mass action network gives rise to a parameterised family of polynomial equations whose positive solutions are the positive equilibria of the network. Here, we consi…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Simulation and inference methods for non-Markovian stochastic biochemical reaction networks",
+      "url": "https://arxiv.org/abs/2512.02478",
+      "summary": "arXiv:2512.02478v2 Announce Type: replace Abstract: Stochastic models of reaction networks are widely used to capture intrinsic noise in complex systems in the life sciences. Typical formulations of these models are base…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Inferring Mechanisms from Bits: Promises and Pitfalls of Higher-Order Information in Cognitive Science",
+      "url": "https://arxiv.org/abs/2512.02671",
+      "summary": "arXiv:2512.02671v2 Announce Type: replace Abstract: Higher-order information theory has become a rapidly growing toolkit in computational neuroscience, motivated by the idea that multivariate dependencies can reveal aspe…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Flexibility and Invariance of Object Representations in the Human Brain",
+      "url": "https://arxiv.org/abs/2605.23111",
+      "summary": "arXiv:2605.23111v5 Announce Type: replace Abstract: The human brain represents objects in a way that is both invariant across instances and flexible enough to support different contexts and tasks. Yet how the brain recon…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Eccentricity-Constrained CNN Training Reveals Adaptive Information Coding Around the Visual Field",
+      "url": "https://arxiv.org/abs/2607.19316",
+      "summary": "arXiv:2607.19316v2 Announce Type: replace Abstract: In the primate visual system, center-preferring cortical populations have higher spatial resolution and overlap face- and word-selective regions while periphery-preferr…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cross-Cohort Spectral-Temporal Dissociation in Frozen EEG Foundation-Model Representations",
+      "url": "https://arxiv.org/abs/2607.24834",
+      "summary": "arXiv:2607.24834v3 Announce Type: replace Abstract: Objective. We tested whether frozen representations from five EEG foundation models support decoding of long-range temporal correlations, measured as the detrended-fluc…",
+      "ts": 1787198400000,
+      "publishedAt": "2026-08-20T04:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Hypersonic missile startup Castelion raises $1 billion ",
@@ -657,159 +810,6 @@
       "summary": "arXiv:2605.12763v2 Announce Type: replace-cross Abstract: Rich learning in recurrent neural networks often proceeds through sudden transitions in latent dynamics, but there is little theory predicting how gradient descen…",
       "ts": 1787112000000,
       "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GEqTrain: A Configuration-Driven Framework for Retargeting Equivariant Graph Neural Networks Across 3D Scientific Tasks",
-      "url": "https://arxiv.org/abs/2607.19083",
-      "summary": "arXiv:2607.19083v3 Announce Type: replace-cross Abstract: Equivariant graph neural networks provide a powerful modeling language for three-dimensional scientific data, but their reuse is often limited by implementations …",
-      "ts": 1787112000000,
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space nuclear programs face near- and long-term challenges",
-      "url": "https://spacenews.com/space-nuclear-programs-face-near-and-long-term-challenges/",
-      "summary": "While space nuclear programs are “having a moment,” industry officials say they face near-term challenges as well as longer-term concerns. The post Space nuclear programs face near- and long-term challenges appeared firs…",
-      "ts": 1787107011000,
-      "publishedAt": "2026-08-19T02:36:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump expected to pick White House adviser Heidi Overton to lead FDA",
-      "url": "https://www.statnews.com/2026/08/18/heidi-overton-fda-commissioner-nominee-white-house-adviser/?utm_campaign=rss",
-      "summary": "Heidi Overton, a doctor and White House adviser, is expected to be President Trump's pick to lead the FDA.",
-      "ts": 1787102305000,
-      "publishedAt": "2026-08-19T01:18:25.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "China’s Landspace recovers booster with second  orbital launch of Zhuque-3 rocket",
-      "url": "https://spacenews.com/chinas-landspace-recovers-booster-with-second-orbital-launch-of-zhuque-3-rocket/",
-      "summary": "HELSINKI — Landspace successfully landed the first stage of its Zhuque-3 rocket Tuesday following the second launch of the rocket from the Gobi Desert. The second Zhuque-3 rocket lifted off […] The post China’s Landspace…",
-      "ts": 1787101521000,
-      "publishedAt": "2026-08-19T01:05:21.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocket Lab to test Space Force data network connection in orbit in 2027",
-      "url": "https://spacenews.com/rocket-lab-to-test-space-force-data-network-connection-in-orbit-in-2027/",
-      "summary": "The company will use a Photon spacecraft to test interoperability with the Space Data Network's core infrastructure built by SpaceX The post Rocket Lab to test Space Force data network connection in orbit in 2027 appeare…",
-      "ts": 1787093556000,
-      "publishedAt": "2026-08-18T22:52:36.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "ChatGPT Ads expands across Europe",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "ts": 1787090400000,
-      "publishedAt": "2026-08-18T22:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Fauci adviser David Morens pleads guilty to avoiding records requests, conspiracy to defraud government",
-      "url": "https://www.statnews.com/2026/08/18/david-morens-guilty-plea-niaid-fauci-adviser/?utm_campaign=rss",
-      "summary": "Morens said he had agreed to work to avoid public disclosures and to use his influence to advance a company's interests.",
-      "ts": 1787088310000,
-      "publishedAt": "2026-08-18T21:25:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Nonprofit health system raked in $1.1 billion this year from stake in medical billing firm",
-      "url": "https://www.statnews.com/2026/08/18/bon-secours-mercy-revenue-cycle-firm-ensemble-2026-payouts/?utm_campaign=rss",
-      "summary": "Private equity firms have taken a strong interest in revenue cycle management firms, such as Ensemble.",
-      "ts": 1787086223000,
-      "publishedAt": "2026-08-18T20:50:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Trump administration sued over visa time limit that would affect grad students, postdocs",
-      "url": "https://www.statnews.com/2026/08/18/dhs-sued-over-visa-time-limit-for-foreign-students/?utm_campaign=rss",
-      "summary": "DHS was sued Tuesday over a sweeping policy change that would limit how long foreign students and scholars can remain in the U.S.",
-      "ts": 1787082844000,
-      "publishedAt": "2026-08-18T19:54:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "ts": 1787079600000,
-      "publishedAt": "2026-08-18T19:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s LRO Images Falcon 9 Crater on Moon, Learns New Details",
-      "url": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-      "summary": "Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter (LRO) captured a series of images of a new crater on the Moon. The crater formed on Aug. 5, when a SpaceX Falcon 9 upper stage impacted the surface following it…",
-      "ts": 1787078990000,
-      "publishedAt": "2026-08-18T18:49:50.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The White House declares ‘promises made, promises kept’ on lowering drug prices. Nice try",
-      "url": "https://www.statnews.com/2026/08/18/white-house-claims-drug-price-drop-examined-ed-silverman-pharmalot/?utm_campaign=rss",
-      "summary": "In its effort to lower drug prices, the White House has declared \"promises made, promises kept.\" That's a narrative that doesn't reflect the full story.",
-      "ts": 1787078520000,
-      "publishedAt": "2026-08-18T18:42:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Embedding Regulatory Strategy in Cell and Gene Therapy Development",
-      "url": "https://www.genengnews.com/multimedia/webinars/embedding-regulatory-strategy-in-cell-and-gene-therapy-development/",
-      "summary": "In this GEN webinar, experts from Rose BioSolutions, a CDMO and Cell Solutions organization formed from Charles River Laboratories’ businesses, will discuss how integrating regulatory strategy at the earliest stages of d…",
-      "ts": 1787077065000,
-      "publishedAt": "2026-08-18T18:17:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Real-world psilocybin data suggest need for close monitoring",
-      "url": "https://www.statnews.com/2026/08/18/biotech-news-real-world-psilocybin-data-suggest-need-for-close-monitoring/?utm_campaign=rss",
-      "summary": "Amylyx reports success in a pivotal trial, biopharma A-listers join a pain-blocking device company board, and more biotech news from The Readout",
-      "ts": 1787076468000,
-      "publishedAt": "2026-08-18T18:07:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "NASA’s next Gateways to Blue Skies competition invites collegiate teams to imagine innovative new ways aircraft could inspect land-based infrastructure, such as bridges and tunnels, to improve safety, reliability, and co…",
-      "ts": 1787076224000,
-      "publishedAt": "2026-08-18T18:03:44.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Sugar-Sweetened Beverages Daily Can Lead to Higher Stomach Cancer Risk",
-      "url": "https://www.genengnews.com/topics/cancer/sugar-sweetened-beverages-daily-can-lead-to-higher-stomach-cancer-risk/",
-      "summary": "Participants who consumed at least one serving of a sugar-sweetened beverage per day had a 2.45X higher risk of gastric cancer compared with those consuming less than one serving per month. The post Sugar-Sweetened Bever…",
-      "ts": 1787074616000,
-      "publishedAt": "2026-08-18T17:36:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Leaders of Mass General, Dana-Farber among hospital execs who got big raises in 2024",
-      "url": "https://www.statnews.com/2026/08/18/massachusetts-hospital-ceo-compensation-2024/?utm_campaign=rss",
-      "summary": "Top executives of major health systems got substantial raises, even as their hospitals grappled with plenty of challenges.",
-      "ts": 1787073988000,
-      "publishedAt": "2026-08-18T17:26:28.000Z",
       "categoryId": "bio"
     }
   ],
