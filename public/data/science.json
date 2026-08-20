@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-08-20T17:31:29.329Z",
+  "updated": "2026-08-20T18:41:47.581Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Cursive is making a comeback. But does it deserve one?",
+      "url": "https://phys.org/news/2026-08-cursive-comeback.html",
+      "summary": "Learning to read and write cursive was once a rite of passage for practically every American schoolchild.",
+      "ts": 1787251207000,
+      "publishedAt": "2026-08-20T18:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extreme rain shifts toward larger, less frequent storms across eastern US",
+      "url": "https://phys.org/news/2026-08-extreme-shifts-larger-frequent-storms.html",
+      "summary": "Extreme precipitation events are among the most damaging natural disasters and a major concern in our changing climate. In the U.S., since 1980, the most destructive events alone have caused more than 2,800 deaths and $7…",
+      "ts": 1787251206000,
+      "publishedAt": "2026-08-20T18:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stone tools suggest Neanderthals once inhabited Arabian deserts",
+      "url": "https://phys.org/news/2026-08-stone-tools-neanderthals-inhabited-arabian.html",
+      "summary": "Neanderthals are largely associated with colder climates across Eurasia. But researchers know that both Homo sapiens and Neanderthals moved through nearby Southwest Asia between about 100,000 and 50,000 years ago, and Ar…",
+      "ts": 1787250601000,
+      "publishedAt": "2026-08-20T18:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brand messaging shapes consumer choices in vegan cosmetics",
+      "url": "https://phys.org/news/2026-08-brand-messaging-consumer-choices-vegan.html",
+      "summary": "Major cosmetics retailers such as Sephora, Ulta and Amazon now feature sections aimed at socially conscious consumers, highlighting products that are sustainable, eco-friendly, cruelty-free or packaged with recycled mate…",
+      "ts": 1787250006000,
+      "publishedAt": "2026-08-20T18:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new kind of polymer with two faces and a twist control electron spin",
+      "url": "https://phys.org/news/2026-08-kind-polymer-electron.html",
+      "summary": "Researchers from the University of Osaka have developed a new class of chiral semiconducting polymers that can generate highly spin-polarized electrical currents. The team's unique molecular design allows the polymers to…",
+      "ts": 1787250004000,
+      "publishedAt": "2026-08-20T18:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Blocc chemistry could automate molecular discovery and democratize access to new materials",
+      "url": "https://phys.org/news/2026-08-blocc-chemistry-automate-molecular-discovery.html",
+      "summary": "A paper published in the journal Science lays out a roadmap for broadening access to the process of discovering molecular tools that can benefit society, including medicines, materials and a wide range of everyday consum…",
+      "ts": 1787248809000,
+      "publishedAt": "2026-08-20T18:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Accounting staff turnover may lead to future financial reporting problems",
+      "url": "https://phys.org/news/2026-08-accounting-staff-turnover-future-financial.html",
+      "summary": "Investors looking for early signs of declining financial reporting quality may want to pay attention to employee turnover in a company's accounting department, according to new research from the University at Buffalo Sch…",
+      "ts": 1787248807000,
+      "publishedAt": "2026-08-20T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "100-million-year-old molecular 'bypasses' may have helped grasses dominate landscapes and agriculture",
+      "url": "https://phys.org/news/2026-08-million-year-molecular-bypasses-grasses.html",
+      "summary": "100 million years ago, long before human intervention, ancestors of grasses, including wheat, rice and maize, developed \"bypasses\" in chemical pathways used to create two critical compounds: lignin and starch. These more…",
+      "ts": 1787248803000,
+      "publishedAt": "2026-08-20T18:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Why Epstein-Barr is the ‘everything virus’",
+      "url": "https://www.sciencenews.org/article/epstein-barr-virus-autoimmune",
+      "summary": "The Epstein-Barr virus has taken a huge toll on global health. Understanding how it works could offer ways to combat multiple sclerosis, cancer and more.",
+      "ts": 1787248800000,
+      "publishedAt": "2026-08-20T18:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newton's momentum principles could help design safer offshore facilities in extreme waves",
+      "url": "https://phys.org/news/2026-08-newton-momentum-principles-safer-offshore.html",
+      "summary": "Researchers have developed a novel model to accurately and efficiently predict the impact of \"green water\"—water washing onto the deck of an offshore facility during extreme wave conditions.",
+      "ts": 1787247605000,
+      "publishedAt": "2026-08-20T17:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oxygen vacancies unlock fast lithium-ion transport in battery material",
+      "url": "https://phys.org/news/2026-08-oxygen-vacancies-fast-lithium-ion.html",
+      "summary": "Lithium titanate (LTO, Li4Ti5O12) is a well-established battery material that in its pristine state is a poor conductor of lithium ions. It develops high ionic conductivity only during charging, when additional lithium i…",
+      "ts": 1787247601000,
+      "publishedAt": "2026-08-20T17:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Soil methane sink may be larger than thought, three-model analysis finds",
@@ -711,94 +799,6 @@
       "title": "Sensitivity of the ECMWF seasonal forecast model to CO2 and anthropogenic aerosol forcings: Experimental design and impact on climate trends",
       "url": "https://arxiv.org/abs/2608.18712",
       "summary": "arXiv:2608.18712v1 Announce Type: new Abstract: Detection and attribution studies typically rely on free running climate models with modified anthropogenic forcings, yet they fail to reproduce key observed decadal trends…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparative study of nonperturbative electron-positron pair production by intense laser fields colliding with either bremsstrahlung $\\gamma$-rays or relativistic ions",
-      "url": "https://arxiv.org/abs/2608.18718",
-      "summary": "arXiv:2608.18718v1 Announce Type: new Abstract: It is well known that electron-positron pairs can be created in the strong-field environments formed by (i) a high-intensity laser field and a high-energy $\\gamma$-photon (…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Study of the intrinsic resolution of LaBr3(Ce,Sr) and NaI(Tl) crystals",
-      "url": "https://arxiv.org/abs/2608.18724",
-      "summary": "arXiv:2608.18724v1 Announce Type: new Abstract: The Gravitational wave burst high-energy Elec?tromagnetic Counterpart All-sky Monitor (GECAM) utilizes a large number of LaBr3 and NaI(Tl) crystals as sensitive materials f…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seeded SU(1,1) interferometry for Fourier-domain optical coherence tomography",
-      "url": "https://arxiv.org/abs/2608.18750",
-      "summary": "arXiv:2608.18750v1 Announce Type: new Abstract: We demonstrate Fourier-domain optical coherence tomography (FD-OCT) based on a seeded SU(1,1) interferometer. Multilayer objects are probed with broadband light centered at…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electron Correlation Enables Phase-Coherent One-Attosecond Pulse Trains",
-      "url": "https://arxiv.org/abs/2608.18773",
-      "summary": "arXiv:2608.18773v1 Announce Type: new Abstract: Attosecond synthesis is ultimately a phase problem: a broad spectrum produces an ultrashort waveform only if its harmonics remain phase-locked. We show theoretically that c…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Birth of Radar Meteor Astronomy at Jodrell Bank: The Collaboration between Bernard Lovell and Manning Prentice",
-      "url": "https://arxiv.org/abs/2608.18790",
-      "summary": "arXiv:2608.18790v1 Announce Type: new Abstract: The discovery of radar echoes from meteor trains at Jodrell Bank in December 1945 heralded the beginning of a new era in meteor astronomy. This paper examines the early col…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scaling-law-informed neural point processes for earthquake sequence forecasting",
-      "url": "https://arxiv.org/abs/2608.18791",
-      "summary": "arXiv:2608.18791v1 Announce Type: new Abstract: Earthquake sequence forecasting requires models that can learn nonlinear history dependence while retaining robust statistical structure. We develop a scaling-law-informed …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Removing Population Size, World Cities Leave on Land a Footprint of Wealth",
-      "url": "https://arxiv.org/abs/2608.18792",
-      "summary": "arXiv:2608.18792v1 Announce Type: new Abstract: Urban expansion builds on precious arable land, affecting ecosystems and health, despite worldwide measures to alleviate its impacts, in small and large cities. Nonetheless…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interference-engineered shortcut to perfect state transfer",
-      "url": "https://arxiv.org/abs/2608.18794",
-      "summary": "arXiv:2608.18794v1 Announce Type: new Abstract: Achieving fast, high-fidelity state transfer is fundamental to scalable integrated photonics and quantum information processing. While adiabatic evolution provides inherent…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Could John Ellard Gore have pre-empted the Hertzsprung-Russell diagram?",
-      "url": "https://arxiv.org/abs/2608.18799",
-      "summary": "arXiv:2608.18799v1 Announce Type: new Abstract: John Ellard Gore (1845-1910) was an Irish amateur astronomer, prolific science writer and civil engineer. He was an inaugural member of the British Astronomical Association…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "$Ab$ $initio$ calculation of hyperfine-structure properties to extract nuclear magnetic octupole moments of $^{69}$Ga and $^{71}$Ga",
-      "url": "https://arxiv.org/abs/2608.18811",
-      "summary": "arXiv:2608.18811v1 Announce Type: new Abstract: We calculate the hyperfine-structure properties of the low-lying states in $^{69}$Ga and $^{71}$Ga using the relativistic coupled-cluster method at the singles and doubles …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hidden Variables in Quantum Mechanics: A Journey Into de Broglie-Bohm Pilot-Wave Theory",
-      "url": "https://arxiv.org/abs/2608.18829",
-      "summary": "arXiv:2608.18829v1 Announce Type: new Abstract: This work provides an introduction to the most influential hidden-variable interpretation of the quantum formalism, i.e., the de Broglie-Bohm pilot-wave theory. As the read…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z"
     }
