@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-21T14:37:22.340Z",
+  "updated": "2026-08-21T15:35:33.697Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "From Models to Agents: The Next Phase of AI Adoption in Molecular Discovery",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/from-models-to-agents-the-next-phase-of-ai-adoption-in-molecular-discovery/",
+      "summary": "Despite advances, AI applications in scientific research have not experienced their “Claude Code” moment. The compute power exists. The models exist. What’s missing is a system that coordinates them. The post From Models…",
+      "ts": 1787326089000,
+      "publishedAt": "2026-08-21T15:28:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "DeepCyte Launches Single-Cell Metabolomic Reference Atlas of Drug Toxicity Mechanisms",
+      "url": "https://www.genengnews.com/topics/drug-discovery/deepcyte-launches-single-cell-metabolomic-reference-atlas-of-drug-toxicity-mechanisms/",
+      "summary": "Rather than generating new wet-lab data for every compound, DeepCyte trains a foundation model that is capable of predicting toxicity mechanisms for compounds that it has never measured. The post DeepCyte Launches Single…",
+      "ts": 1787325234000,
+      "publishedAt": "2026-08-21T15:13:54.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Up and down the ladder: The latest comings and goings",
@@ -792,24 +810,6 @@
       "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider …",
       "ts": 1787219242000,
       "publishedAt": "2026-08-20T09:47:22.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "New IAEA Project to Strengthen Testing of Nuclear Fuels and Materials in Research Reactors",
-      "url": "http://www.iaea.org/newscenter/news/new-iaea-project-to-strengthen-testing-of-nuclear-fuels-and-materials-in-research-reactors",
-      "summary": "",
-      "ts": 1787217694000,
-      "publishedAt": "2026-08-20T09:21:34.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Support networks aim to help kids through the polycrisis",
-      "url": "https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/",
-      "summary": "Sometime in the late 2000s, Pim Sullivan-Tailyour was sitting in the back of a car, headed toward her great-grandmother’s tiny town in the south of Thailand. She watched big mountains pass by out the window. She was just…",
-      "ts": 1787216400000,
-      "publishedAt": "2026-08-20T09:00:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
