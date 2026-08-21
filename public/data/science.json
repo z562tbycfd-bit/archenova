@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-21T15:35:32.011Z",
+  "updated": "2026-08-21T16:37:01.720Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Stellar eruptions in the laboratory: First experimental evidence for their suppression in strong magnetic fields",
+      "url": "https://phys.org/news/2026-08-stellar-eruptions-laboratory-experimental-evidence.html",
+      "summary": "An international team of astrophysicists and plasma physicists has provided the first experimental evidence that strong magnetic fields surrounding active stars can completely suppress coronal mass ejections. This offers…",
+      "ts": 1787329210000,
+      "publishedAt": "2026-08-21T16:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young people who pass through youth justice die at six times the rate of their peers",
+      "url": "https://phys.org/news/2026-08-young-people-youth-justice-die.html",
+      "summary": "Conversations about the youth justice system typically focus on crime and punishment. In Australia, this has fueled increasingly populist and punitive youth justice policies like Queensland's Adult Crime, Adult Time poli…",
+      "ts": 1787329204000,
+      "publishedAt": "2026-08-21T16:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mapping Indonesian seagrass quality to target blue carbon conservation",
+      "url": "https://phys.org/news/2026-08-indonesian-seagrass-quality-blue-carbon.html",
+      "summary": "Not all of Indonesia's seagrass meadows are faring alike. A study has revealed substantial spatial differences in the condition of 21 seagrass meadows across central and eastern Indonesia, providing a clearer picture of …",
+      "ts": 1787328005000,
+      "publishedAt": "2026-08-21T16:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stellar spin may explain why repeated black hole flares grow dimmer",
+      "url": "https://phys.org/news/2026-08-stellar-black-hole-flares-dimmer.html",
+      "summary": "At the center of most galaxies lies a supermassive black hole, with a mass millions to billions of times that of our sun and some of the most extreme gravity in the universe.",
+      "ts": 1787328001000,
+      "publishedAt": "2026-08-21T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shark DNA could hold answers to how we age",
+      "url": "https://phys.org/news/2026-08-shark-dna-age.html",
+      "summary": "Age isn't just a number for one of the ocean's top apex predators. It's a mystery University of Georgia researchers are solving. A new UGA study has determined how to estimate the age of sharks by analyzing changes to in…",
+      "ts": 1787326804000,
+      "publishedAt": "2026-08-21T15:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "More than half of adults in US say they lack basic statistical understanding",
@@ -212,6 +252,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -255,6 +303,22 @@
       "title": "Spinon Singlet Pairing: Origin of $d$-Wave Sign Structure in a Partially Filled Stripe",
       "url": "http://link.aps.org/doi/10.1103/wcqv-pcls",
       "summary": "Author(s): Jia-Long Wang, Shi-Jie Hu, and Xue-Feng Zhang Significant research advances have led to a consensus that the Fermi-Hubbard model and its extended variants are archetypical frameworks for elucidating the intert…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
+      "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
+      "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
+      "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
+      "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -735,70 +799,6 @@
       "title": "Full frame denoising for pyramid wavefront sensors",
       "url": "https://arxiv.org/abs/2608.19934",
       "summary": "arXiv:2608.19934v1 Announce Type: new Abstract: Adaptive optics systems operating under low-flux conditions face significant challenges, as photon and detector noise in particular degrade wavefront measurements and ultim…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diagonalization of the Landau Hamiltonian with a Periodic Potential via a Galerkin Projection Method and Applications to Topological Band Properties",
-      "url": "https://arxiv.org/abs/2608.19940",
-      "summary": "arXiv:2608.19940v1 Announce Type: new Abstract: In this paper, we study the numerical computation of eigenfunctions of the Landau Hamiltonian with a periodic potential. We propose a spectral method using the eigenfunctio…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Oscillator-driven broadband femtosecond transient microspectroscopy with supercontinuum probes generated in a photonic crystal fiber",
-      "url": "https://arxiv.org/abs/2608.19967",
-      "summary": "arXiv:2608.19967v1 Announce Type: new Abstract: We present an oscillator-driven femtosecond transient microspectroscopy system based on supercontinuum generation in a photonic crystal fiber (PCF). The system operates at …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resonant state expansion for acoustic resonators. Part I. Eigenvalue problem",
-      "url": "https://arxiv.org/abs/2608.19979",
-      "summary": "arXiv:2608.19979v1 Announce Type: new Abstract: Resonant-state expansion (RSE) is a powerful modal framework for the perturbative analysis of open resonant systems, providing direct access to complex eigenfrequencies and…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resonance Raman spectroscopy from ab initio Hagedorn wavepacket dynamics",
-      "url": "https://arxiv.org/abs/2608.19985",
-      "summary": "arXiv:2608.19985v1 Announce Type: new Abstract: We present a practical, ab initio time-dependent method using Hagedorn wavepackets to simulate resonance Raman (RR) spectra of polyatomic molecules. Hagedorn functions---Ga…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3-D numerical modelling of the feedback between deformation and thermal structure during subduction initiation for the French Lesser Antilles",
-      "url": "https://arxiv.org/abs/2608.19990",
-      "summary": "arXiv:2608.19990v1 Announce Type: new Abstract: We used 3-D thermomechanical modelling to investigate conditions during subduction-zone initiation and early thermal development with focus on the Lesser Antilles. Our mode…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resonant state expansion for acoustic resonators. Part II. Scattering problem",
-      "url": "https://arxiv.org/abs/2608.19992",
-      "summary": "arXiv:2608.19992v1 Announce Type: new Abstract: We develop a resonant-state expansion formulation for acoustic scattering by individual resonators. The scattered pressure and particle-velocity fields are expanded over th…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanoscale silicon sensor - guided new insights into early metabolic response of Escherichia coli to ampicillin",
-      "url": "https://arxiv.org/abs/2608.20014",
-      "summary": "arXiv:2608.20014v1 Announce Type: new Abstract: Antibiotic killing is often attributed to inhibition of specific cellular targets, yet metabolic processes can strongly influence drug efficacy. However, the relationship b…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergence of cooperation: A reputation-modulated reinforcement learning",
-      "url": "https://arxiv.org/abs/2608.20016",
-      "summary": "arXiv:2608.20016v1 Announce Type: new Abstract: Reputation is widely recognized as a key mechanism for sustaining cooperation. However, most existing game-theoretic models treat reputation primarily as an external factor…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }

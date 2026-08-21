@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-21T15:35:33.697Z",
+  "updated": "2026-08-21T16:37:08.762Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Lab-Grown Neocortex Models Mimic Early Brain Organization",
+      "url": "https://www.genengnews.com/topics/translational-medicine/lab-grown-neocortex-models-mimic-early-brain-organization/",
+      "summary": "By using chemical signals to guide cells to adopt distinct regional identities, scientists created lab-grown human organoids that mimic early brain development and could illuminate how specialized brain areas emerge. The…",
+      "ts": 1787328633000,
+      "publishedAt": "2026-08-21T16:10:33.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "From Models to Agents: The Next Phase of AI Adoption in Molecular Discovery",
@@ -802,15 +811,6 @@
       "ts": 1787220000000,
       "publishedAt": "2026-08-20T10:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Unlocking hidden revenue streams with market models",
-      "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider …",
-      "ts": 1787219242000,
-      "publishedAt": "2026-08-20T09:47:22.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
