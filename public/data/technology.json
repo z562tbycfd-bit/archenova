@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-21T11:28:10.999Z",
+  "updated": "2026-08-21T12:51:43.187Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: threats from space mirrors and credit for AI drugs",
+      "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This company’s plans to deploy space mirrors could jeopardize the night sky for ma…",
+      "ts": 1787314200000,
+      "publishedAt": "2026-08-21T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Mother tongue",
@@ -799,15 +808,6 @@
       "title": "Multitask Bayesian Neural Networks for Multiparameter Protein Engineering",
       "url": "https://arxiv.org/abs/2608.18604",
       "summary": "arXiv:2608.18604v1 Announce Type: new Abstract: Simultaneously engineering multiple protein properties remains a major challenge. Existing machine learning-based pipelines for protein engineering often model properties s…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Polarization controlled second harmonic generation imaging of stretched collagen fibrils reveals collagen deformation pathway in situ",
-      "url": "https://arxiv.org/abs/2608.18898",
-      "summary": "arXiv:2608.18898v1 Announce Type: new Abstract: The tensile properties of single collagen fibrils, the building block of load-bearing tissues, have been studied extensively by nanomechanical techniques and molecular dyna…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"

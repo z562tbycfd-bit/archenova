@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-21T11:28:08.300Z",
+  "updated": "2026-08-21T12:51:39.055Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Interplanetary spacecraft capture a coronal mass ejection component hidden from Earth",
+      "url": "https://phys.org/news/2026-08-interplanetary-spacecraft-capture-coronal-mass.html",
+      "summary": "During a coronal mass ejection (CME), the sun hurls billions of tons of magnetized plasma into space. These eruptions are among the most powerful events in the solar system, and when they are aimed toward Earth, they can…",
+      "ts": 1787316642000,
+      "publishedAt": "2026-08-21T12:50:42.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Forest service detects emerald ash borer in 5 additional counties",
+      "url": "https://phys.org/news/2026-08-forest-emerald-ash-borer-additional.html",
+      "summary": "The Texas A&M Forest Service has confirmed emerald ash borer in Delta, Erath, Hardin, Walker and Wood counties, continuing the spread of the invasive insect into new areas of Texas. Eight new counties have been confirmed…",
+      "ts": 1787316003000,
+      "publishedAt": "2026-08-21T12:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Leaving abusive relationships can be harder for migrant women. Here's what they need to feel safe",
+      "url": "https://phys.org/news/2026-08-abusive-relationships-harder-migrant-women.html",
+      "summary": "Like many women raised in traditional cultures and religious contexts, I was taught that a \"good\" woman holds the family together. In my culture, women were often glorified for quietly accepting hardship.",
+      "ts": 1787314803000,
+      "publishedAt": "2026-08-21T12:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "China is launching a moon mission to find water ice",
+      "url": "https://phys.org/news/2026-08-china-moon-mission-ice.html",
+      "summary": "We've known for nearly two decades that some form of water exists on the moon. What we still don't know is exactly how much accessible water ice lies inside permanently shadowed craters, how deeply it is buried or what f…",
+      "ts": 1787313603000,
+      "publishedAt": "2026-08-21T12:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Crossword: Lab Animals",
+      "url": "https://www.sciencenews.org/article/crossword-lab-animals-september-2026",
+      "summary": "Solve the crossword from our September 2026 issue, in which we celebrate some creature features.",
+      "ts": 1787313600000,
+      "publishedAt": "2026-08-21T12:00:00.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Shock wave therapy for erectile dysfunction is on the rise",
+      "url": "https://www.sciencenews.org/article/shock-therapy-ed-therapy-treatment",
+      "summary": "A sound wave–based therapy commonly used to dislodge kidney stones is gaining traction as a treatment for erectile dysfunction.",
+      "ts": 1787313600000,
+      "publishedAt": "2026-08-21T12:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ph.D. student's forensic review highlights need for standardized bloodstain pattern classification",
+      "url": "https://phys.org/news/2026-08-phd-student-forensic-highlights-standardized.html",
+      "summary": "A University of Staffordshire Ph.D. student has received national recognition for research that could transform how bloodstain evidence at crime scenes is analyzed. Emma Hook has been awarded the Science & Justice Review…",
+      "ts": 1787312403000,
+      "publishedAt": "2026-08-21T11:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Archaeologists uncover 11 rare marked arrowheads at Tepecik-Çiftlik whose purpose remains a mystery",
@@ -743,62 +799,6 @@
       "title": "A Protocol for Shielding-Enhanced Loading of Single Polar Molecules into Optical Tweezers",
       "url": "https://arxiv.org/abs/2608.20332",
       "summary": "arXiv:2608.20332v1 Announce Type: new Abstract: We propose the high-fidelity preparation of single bosonic molecules in optical tweezers starting from small tweezer-trapped molecular ensembles. Our scheme combines a stat…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Broadband hard X-ray attosecond pulses from extremely chirped electron beams",
-      "url": "https://arxiv.org/abs/2604.09969",
-      "summary": "arXiv:2604.09969v2 Announce Type: cross Abstract: Attosecond pulses from free-electron lasers have opened the doors to atomic site-specific studies of bound electronic dynamics on their natural, sub-femtosecond timescale…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gisin's Argument and the Limits of Causal Explanations in Relativistic Spacetime",
-      "url": "https://arxiv.org/abs/2608.18010",
-      "summary": "arXiv:2608.18010v1 Announce Type: cross Abstract: Gisin has provided an argument for the conclusion that no covariant nonlocal model can reproduce the operational statistics observed in Bell experiments. Gisin's argument…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermal Throttling of Quantum State Transfer",
-      "url": "https://arxiv.org/abs/2608.19315",
-      "summary": "arXiv:2608.19315v1 Announce Type: cross Abstract: Quantum state transfer on qubit lattices is a crucial step in a panoply of quantum information processing tasks. Understanding its fundamental limits in the presence of p…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum R\\'enyi-Jarzynski Equality",
-      "url": "https://arxiv.org/abs/2608.19320",
-      "summary": "arXiv:2608.19320v1 Announce Type: cross Abstract: The Jarzynski equality provides a strict link between nonequilibrium work and equilibrium free energy changes. Its typical quantum formulations, however, rely on measurem…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multipolar Light-Matter Hamiltonians in Symmetry-Breaking Photonic Vacuums",
-      "url": "https://arxiv.org/abs/2608.19336",
-      "summary": "arXiv:2608.19336v1 Announce Type: cross Abstract: We show that the conventional multipolar Hamiltonian is qualitatively modified when the photonic vacuum breaks inversion or time-reversal symmetry. By explicitly applying…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamic Ensembles of Phosphine-Stabilized Gold Nanoclusters",
-      "url": "https://arxiv.org/abs/2608.19404",
-      "summary": "arXiv:2608.19404v1 Announce Type: cross Abstract: Atomically precise phosphine-stabilized gold nanoclusters are commonly characterized by single-crystal X-ray diffraction, yet the extent to which these static structures …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical complexity from fluctuations in the information content",
-      "url": "https://arxiv.org/abs/2608.19485",
-      "summary": "arXiv:2608.19485v1 Announce Type: cross Abstract: We argue that the variance of the information content ($C$), an information-theoretic quantity, can be naturally interpreted as a measure of statistical complexity. We sh…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
