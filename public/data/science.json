@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-21T22:27:10.755Z",
+  "updated": "2026-08-21T23:26:19.181Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Multiple superconducting phases and order-parameter evolution in pressurized UTe<sub>2</sub>",
+      "url": "https://www.nature.com/articles/s41467-026-77045-7",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hydrogel platform uses vitamin B2 and blue light to simplify living tissue models",
+      "url": "https://phys.org/news/2026-08-hydrogel-platform-vitamin-b2-blue.html",
+      "summary": "Researchers at Tampere University have developed a versatile hydrogel platform that makes it easier to create customized biomaterials for tissue engineering, disease modeling, drug discovery and regenerative medicine. Th…",
+      "ts": 1787348401000,
+      "publishedAt": "2026-08-21T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change could triple the price of wheat",
+      "url": "https://phys.org/news/2026-08-climate-triple-price-wheat.html",
+      "summary": "Bread, pasta and breakfast cereals may seem far removed from dry fields in North America, Europe or Asia. Yet when water shortages hit several of the world's most important wheat-growing regions simultaneously, the conse…",
+      "ts": 1787347201000,
+      "publishedAt": "2026-08-21T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Your high school friends may shape whether you become an entrepreneur decades later",
+      "url": "https://phys.org/news/2026-08-high-school-friends-entrepreneur-decades.html",
+      "summary": "With more young Canadians considering self-employment amid a high youth unemployment rate, entrepreneurship programs are facing growing demand. Applications to Futurpreneur, the national organization that finances young …",
+      "ts": 1787346003000,
+      "publishedAt": "2026-08-21T21:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Complex odors prove easier to map than expected with machine learning",
+      "url": "https://phys.org/news/2026-08-complex-odors-easier-machine.html",
+      "summary": "If you want to describe a particular color, you could look to the Pantone color wheel to find its exact hue, saturation and brightness, and how it compares with other colors. But nothing like that has existed for complex…",
+      "ts": 1787346001000,
+      "publishedAt": "2026-08-21T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser-cut aluminum foil could replace costly terahertz polarizers",
+      "url": "https://phys.org/news/2026-08-laser-aluminum-foil-terahertz-polarizers.html",
+      "summary": "When physicists at the ARC Centre for Transformative Meta-Optical Systems (TMOS) needed a key component for their terahertz experiments, they ran into a frustrating problem—they needed tiny optical devices, known as wire…",
+      "ts": 1787344802000,
+      "publishedAt": "2026-08-21T20:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Scientists map hair follicle formation in spacetime, advancing understanding of how organs develop",
@@ -751,54 +799,6 @@
       "title": "Determining neutral fueling response to RMPs in MAST using a multi-reservoir particle balance model and EMC3 EIRENE",
       "url": "https://arxiv.org/abs/2608.19446",
       "summary": "arXiv:2608.19446v1 Announce Type: new Abstract: The application of certain configurations of resonant magnetic perturbations (RMPs) has been shown to cause a plasma pump-out in both L- and H-mode discharges at MAST. In t…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-situ Time-domain Physical Adjoint Optimization of Complex Wave Dynamics",
-      "url": "https://arxiv.org/abs/2608.19456",
-      "summary": "arXiv:2608.19456v1 Announce Type: new Abstract: Direct optimization of complex wave dynamics through the intrinsic evolution of physical systems is fundamentally limited by the lack of directly accessible gradients. Adjo…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Which pulse maximizes resonant nonlinear conversion?",
-      "url": "https://arxiv.org/abs/2608.19464",
-      "summary": "arXiv:2608.19464v1 Announce Type: new Abstract: At fixed pulse energy, which drive waveform extracts the most $n$th-order nonlinear conversion from a resonator ($n=2$ for second harmonic)? A short pulse couples poorly to…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupled multiscale paleoclimate reconstruction with four-dimensional variational data assimilation",
-      "url": "https://arxiv.org/abs/2608.19469",
-      "summary": "arXiv:2608.19469v1 Announce Type: new Abstract: Paleoclimate archives extend climate knowledge beyond the instrumental era, registering different seasons, variables, time averages, and memory lengths. A longstanding prob…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PSEC6: an 8-Channel 40 GSa/s Waveform Sampling ASIC in TSMC 65nm with 10.24 GHz PLL",
-      "url": "https://arxiv.org/abs/2608.19473",
-      "summary": "arXiv:2608.19473v1 Announce Type: new Abstract: Picosecond level timing resolution is a prerequisite capability for improved coincidence matching, time-of-flight measurements, and secondary vertex reconstruction. Here, w…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-Encoded Multireceiver Fluorometry Enables Full-Range Nonlinear Quantification under the Inner Filter Effect",
-      "url": "https://arxiv.org/abs/2608.19477",
-      "summary": "arXiv:2608.19477v1 Announce Type: new Abstract: The inner filter effect (IFE) transforms the nominally linear fluorescence-concentration relationship into a geometry-dependent and often nonmonotonic response, resulting i…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fisher-information limits of detector-bandwidth-efficient 3D light-field microscopy",
-      "url": "https://arxiv.org/abs/2608.19498",
-      "summary": "arXiv:2608.19498v1 Announce Type: new Abstract: Light-field microscopy enables snapshot volumetric imaging, but its information rate is constrained by both optical encoding and detector readout architecture. Here we deve…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
