@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-21T18:39:05.727Z",
+  "updated": "2026-08-21T19:27:15.589Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
+      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/",
+      "summary": "For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov Download the PDF version NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system ana…",
+      "ts": 1787334060000,
+      "publishedAt": "2026-08-21T17:41:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Five-Year Brain Organoids Reveal New Insights Into Human Development",
@@ -12,6 +21,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Webb Opens Treasure Chest",
+      "url": "https://www.nasa.gov/image-article/webb-opens-treasure-chest/",
+      "summary": "NASA’s James Webb Space Telescope captured this Aug. 6, 2026, infrared image of part of the Carina Nebula, a star-forming region also home to the Cosmic Cliffs. This feature, called the “Treasure Chest,” is an object kno…",
+      "ts": 1787333711000,
+      "publishedAt": "2026-08-21T17:35:11.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "DANDELION Computational Tool Identifies Previously Unknown Asthma-Related Genes and Pathway",
       "url": "https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/",
@@ -19,6 +37,15 @@
       "ts": 1787333077000,
       "publishedAt": "2026-08-21T17:24:37.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Artemis II Crew Set to Receive Congressional Space Medal of Honor",
+      "url": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-set-to-receive-congressional-space-medal-of-honor/",
+      "summary": "President Donald J. Trump will award each of NASA’s Artemis II crew members the Congressional Space Medal of Honor at 11 a.m. EDT on Friday, Aug. 28, during a ceremony at the agency’s Johnson Space Center in Houston. NAS…",
+      "ts": 1787331996000,
+      "publishedAt": "2026-08-21T17:06:36.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -121,6 +148,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "New initiative launched to shield terrorism victims from online harm",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168186",
+      "summary": "The UN has launched a new initiative to protect victims of terrorist attacks from online harm and re-traumatisation, drawing on harrowing survivor accounts, from the Nova Music Festival in Israel to an attack on a FIFA W…",
+      "ts": 1787313600000,
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Somalia: Humanitarian aid cuts leave millions of children vulnerable to hunger",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168184",
       "summary": "The global funding crisis for humanitarian work is taking a growing toll on the most vulnerable children in Somalia, where some aid programmes and facilities have been forced to shut down.",
@@ -217,6 +253,15 @@
       "ts": 1787297405000,
       "publishedAt": "2026-08-21T07:30:05.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "Europe’s Scorching Summer",
+      "url": "https://science.nasa.gov/earth/europes-scorching-summer/",
+      "summary": "A series of heat waves in 2026 is breaking records and taking a toll in Europe.",
+      "ts": 1787284860000,
+      "publishedAt": "2026-08-21T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -766,51 +811,6 @@
       "ts": 1787227200000,
       "publishedAt": "2026-08-20T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Mpox: Children account for half of suspected cases in Guinea-Bissau",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168176",
-      "summary": "Children, who are particularly vulnerable to the disease, account for half of the 46 suspected mpox cases identified in Guinea-Bissau – with 16 of them under the age of four.",
-      "ts": 1787227200000,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo receives 70,000 Ebola vaccine doses as Bundibugyo outbreak spreads",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168174",
-      "summary": "The Democratic Republic of the Congo (DRC) will receive 70,000 doses of the Ervebo vaccine from the UN’s international vaccine coordination group (ICG) to protect frontline communities against the Ebola virus disease.",
-      "ts": 1787227200000,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "As elections near, South Sudan risks new atrocity crimes, warns rights probe",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168173",
-      "summary": "The under-reported humanitarian crisis in South Sudan risks deepening with the real possibility of further atrocity crimes unless renewed fighting stops, a UN-backed probe said on Thursday.",
-      "ts": 1787227200000,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Muon Space raises $250 million to ramp up satellite production",
-      "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/",
-      "summary": "Muon Space has raised $250 million to fuel the small satellite specialist’s push into larger, more powerful spacecraft and constellations. The post Muon Space raises $250 million to ramp up satellite production appeared …",
-      "ts": 1787223600000,
-      "publishedAt": "2026-08-20T11:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: One of the most consequential years for cancer treatment, ever",
-      "url": "https://www.statnews.com/2026/08/20/cancer-vaccine-merck-moderna-biotech-observations/?utm_campaign=rss",
-      "summary": "Between success with a pancreatic cancer drug and now success with an mRNA neoantigen vaccine, it has been a banner year for developing cancer therapies.",
-      "ts": 1787221800000,
-      "publishedAt": "2026-08-20T10:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

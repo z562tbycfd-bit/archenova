@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-21T18:39:02.359Z",
+  "updated": "2026-08-21T19:27:13.971Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Realistic solid-state model brings fractons in quantum spin liquids closer to detection",
+      "url": "https://phys.org/news/2026-08-realistic-solid-state-fractons-quantum.html",
+      "summary": "Quasiparticles arise from the complex interaction of many particles in solids; for example, we describe lattice vibrations in crystals as phonons. Fractons are exotic quasiparticles that occur at the vertices of magnetic…",
+      "ts": 1787340003000,
+      "publishedAt": "2026-08-21T19:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New ROOT method charts a path to reversing biological changes once thought irreversible",
+      "url": "https://phys.org/news/2026-08-root-method-path-reversing-biological.html",
+      "summary": "Once a cell has locked into an abnormal state—the way cancer cells do—can it ever be restored to normal? A KAIST research team led by Professor Kwang-Hyun Cho of the Department of Bio and Brain Engineering has, for the f…",
+      "ts": 1787338804000,
+      "publishedAt": "2026-08-21T19:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden chemical pathway could keep phosphorus from fueling lake algal blooms",
+      "url": "https://phys.org/news/2026-08-hidden-chemical-pathway-phosphorus-fueling.html",
+      "summary": "Why do some lakes remain plagued by harmful algal blooms even after phosphorus pollution has been reduced? Part of the answer lies beneath the surface. A new Concordia study has uncovered a previously overlooked chemical…",
+      "ts": 1787337601000,
+      "publishedAt": "2026-08-21T18:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ocean plankton reveal sugar-for-nutrients partnership that sustains life in barren seas",
@@ -372,14 +396,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -423,6 +439,14 @@
       "title": "Spinon Singlet Pairing: Origin of $d$-Wave Sign Structure in a Partially Filled Stripe",
       "url": "http://link.aps.org/doi/10.1103/wcqv-pcls",
       "summary": "Author(s): Jia-Long Wang, Shi-Jie Hu, and Xue-Feng Zhang Significant research advances have led to a consensus that the Fermi-Hubbard model and its extended variants are archetypical frameworks for elucidating the intert…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "The comets discovered from New Zealand, and the astronomers who found them",
       "url": "https://arxiv.org/abs/2608.19636",
       "summary": "arXiv:2608.19636v1 Announce Type: new Abstract: Eleven comets were discovered by six New Zealanders from New Zealand shores. New Zealand's important geographical position south of the Equator is highlighted. This locatio…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting the Growth Rate of the Relativistic Tearing Instability: The Role of the Non-ideal MHD Structure",
-      "url": "https://arxiv.org/abs/2608.19645",
-      "summary": "arXiv:2608.19645v1 Announce Type: new Abstract: Magnetic reconnection in magnetically dominated pair plasmas is a key process in high-energy astrophysical systems. We revisit the relativistic tearing instability in a Har…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Co-seismic surface fault displacement captured in videos: image tracking across three earthquakes",
-      "url": "https://arxiv.org/abs/2608.19656",
-      "summary": "arXiv:2608.19656v1 Announce Type: new Abstract: Cases have been reported in which surface displacements, including co-seismic fault slip, were captured by closed-circuit television (CCTV) cameras. Such video recordings m…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cavity-Enhanced Activation of Radiatively Suppressed Light-Hole Exciton Emission in Colloidal Nanoplatelets",
-      "url": "https://arxiv.org/abs/2608.19681",
-      "summary": "arXiv:2608.19681v1 Announce Type: new Abstract: Light-hole (LH) excitons provide access to well-defined polarization and spin degrees of freedom that are central to quantum photonics and chiral light-matter interactions.…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
