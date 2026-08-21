@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-21T17:30:46.450Z",
+  "updated": "2026-08-21T18:39:05.727Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Five-Year Brain Organoids Reveal New Insights Into Human Development",
+      "url": "https://www.genengnews.com/topics/translational-medicine/five-year-brain-organoids-reveal-new-insights-into-human-development/",
+      "summary": "Researchers kept human brain organoids developing for over five years, revealing prolonged maturation that mirrors human brain development and creating new opportunities to study disorders and test drugs. The post Five-Y…",
+      "ts": 1787333890000,
+      "publishedAt": "2026-08-21T17:38:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "DANDELION Computational Tool Identifies Previously Unknown Asthma-Related Genes and Pathway",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/",
+      "summary": "Researchers developed a computational tool that could help to finding genes most directly related to disease, and which in a reported study identified 21 genes related to asthma, most of which hadn’t been discovered by o…",
+      "ts": 1787333077000,
+      "publishedAt": "2026-08-21T17:24:37.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: HHS document offers new clues to Kennedy’s vaccine plans",
@@ -793,24 +811,6 @@
       "ts": 1787221800000,
       "publishedAt": "2026-08-20T10:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Capricor Therapeutics’ Duchenne treatment is heading for an FDA rejection",
-      "url": "https://www.statnews.com/2026/08/20/capricor-therapeutics-duchenne-treatment-fda/?utm_campaign=rss",
-      "summary": "Capricor Therapeutics is trying to stave off FDA rejection of its cell therapy for Duchenne muscular dystrophy.",
-      "ts": 1787221800000,
-      "publishedAt": "2026-08-20T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The next big thing in hydrogen could be underground",
-      "url": "https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt/",
-      "summary": "There’s a hunt for new sources of hydrogen, and the gas (or at least the right conditions to make it) could be hiding beneath our feet. Hydrogen can be used as a fuel in everything from large trucks to planes to steelmak…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

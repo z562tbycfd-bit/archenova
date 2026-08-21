@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-08-21T17:30:42.266Z",
+  "updated": "2026-08-21T18:39:02.359Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ocean plankton reveal sugar-for-nutrients partnership that sustains life in barren seas",
+      "url": "https://phys.org/news/2026-08-ocean-plankton-reveal-sugar-nutrients.html",
+      "summary": "In the vast, nutrient-poor regions of the world's oceans, there is a constant struggle for survival. Yet tiny organisms known as Collodaria have thrived there for millions of years. These Collodaria host microscopically …",
+      "ts": 1787336407000,
+      "publishedAt": "2026-08-21T18:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK forecasts 'biggest' El Nino will smash records, spark hottest year",
+      "url": "https://phys.org/news/2026-08-uk-biggest-el-nino-hottest.html",
+      "summary": "This year's El Niño weather pattern will be the biggest in more than a century and could make 2027 the hottest year globally, Britain's national weather agency predicted Friday.",
+      "ts": 1787336401000,
+      "publishedAt": "2026-08-21T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First 15 days of egg development may determine survival for California's most endangered salmon",
+      "url": "https://phys.org/news/2026-08-days-egg-survival-california-endangered.html",
+      "summary": "Sacramento River winter-run Chinook salmon are California's most endangered salmon, with a single surviving population and an average of a few thousand returning fish in recent decades. Shasta Dam blocks their original h…",
+      "ts": 1787335207000,
+      "publishedAt": "2026-08-21T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Autonomous ship operators' liability remains unclear during oil spills",
+      "url": "https://phys.org/news/2026-08-autonomous-ship-liability-unclear-oil.html",
+      "summary": "If a remotely operated oil tanker causes a spill, the shipowner remains responsible for compensating victims under existing international rules. But another question remains unresolved: Can the person controlling the shi…",
+      "ts": 1787335205000,
+      "publishedAt": "2026-08-21T18:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thunderquakes enable seismic imaging of Earth's shallow subsurface",
+      "url": "https://phys.org/news/2026-08-thunderquakes-enable-seismic-imaging-earth.html",
+      "summary": "Seismic waves produced by thunderstorms, called thunderquakes, can be used as a novel source for seismic imaging, according to a new study led by researchers at Penn State.",
+      "ts": 1787335201000,
+      "publishedAt": "2026-08-21T18:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "‘Thunderquakes’ do more than shake the ground — they map it",
+      "url": "https://www.sciencenews.org/article/thunderquakes-shake-ground-map-it",
+      "summary": "Scientists used fiber-optic cables to turn “thunderquakes” into underground maps that could help reveal hidden hazards beneath cities.",
+      "ts": 1787335200000,
+      "publishedAt": "2026-08-21T18:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shipwrecks from WWI and WWII are polluting the North Sea",
+      "url": "https://phys.org/news/2026-08-shipwrecks-wwi-wwii-polluting-north.html",
+      "summary": "In April 1917, the German submarine UC-30 sailed beneath the waves off the coast of Rømø. It had originally been on a mission in Ireland, but after suffering engine trouble, it turned around and was almost home in German…",
+      "ts": 1787334013000,
+      "publishedAt": "2026-08-21T17:40:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Move over bears. Fat Marmot Week puts a spotlight on the alpine rodents",
+      "url": "https://phys.org/news/2026-08-fat-marmot-week-spotlight-alpine.html",
+      "summary": "Last winter was tough for marmots living high in the Colorado mountains, where researchers say two-thirds of one population died while hibernating because of insufficient snow cover.",
+      "ts": 1787334011000,
+      "publishedAt": "2026-08-21T17:40:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Company mergers can cut costs without cutting prices for consumers, study finds",
+      "url": "https://phys.org/news/2026-08-company-mergers-prices-consumers.html",
+      "summary": "Merging companies might become cheaper and more efficient to run, but savings are not necessarily passed on to shoppers—and in some cases, customers end up paying more—according to new research.",
+      "ts": 1787332808000,
+      "publishedAt": "2026-08-21T17:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Patience predicts longer education paths and faster earnings growth, real-money experiment finds",
+      "url": "https://phys.org/news/2026-08-patience-longer-paths-faster-growth.html",
+      "summary": "Some teenagers are happy to wait for a bigger reward tomorrow rather than cash in today. Others would rather take the sure thing now—or gamble on a risky, high-payoff bet. According to a new study, these everyday differe…",
+      "ts": 1787332801000,
+      "publishedAt": "2026-08-21T17:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "LHC collisions reveal oxygen and neon's shifting nuclear geometry",
+      "url": "https://phys.org/news/2026-08-lhc-collisions-reveal-oxygen-neon.html",
+      "summary": "Many people are aware that the Large Hadron Collider (LHC) at CERN smashes tiny subatomic particles together at nearly the speed of light to test foundational laws of physics and discover new fundamental particles, but s…",
+      "ts": 1787332201000,
+      "publishedAt": "2026-08-21T17:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When 'but they're your family' isn't reason enough to stay",
+      "url": "https://phys.org/news/2026-08-theyre-family-isnt-stay.html",
+      "summary": "\"She's your mom.\" \"They're your family.\" \"Blood is thicker than water.\"",
+      "ts": 1787331609000,
+      "publishedAt": "2026-08-21T17:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Twenty years and 7,500 fossils reveal what blurs Earth's marine fossil record",
+      "url": "https://phys.org/news/2026-08-twenty-years-fossils-reveal-blurs.html",
+      "summary": "In productive marine environments, a square meter (10.8 square feet) of seafloor can be perforated by hundreds to thousands of isolated and interconnected tunnels through which crawl and writhe a cornucopia of clams, shr…",
+      "ts": 1787331607000,
+      "publishedAt": "2026-08-21T17:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The framing of nature changes how kids respond to environmental education",
+      "url": "https://phys.org/news/2026-08-nature-kids-environmental.html",
+      "summary": "How to teach children to care about the environment? Beyond including climate change and biodiversity in the curriculum, researchers argue that environmental ethics—how we frame the relationship between humans and nature…",
+      "ts": 1787330405000,
+      "publishedAt": "2026-08-21T16:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists uncover environmental cues behind black bear hibernation",
+      "url": "https://phys.org/news/2026-08-scientists-uncover-environmental-cues-black.html",
+      "summary": "New research from Virginia Tech scientists in the College of Natural Resources and Environment provides fresh insight into how environmental conditions influence black bear hibernation, with implications for wildlife man…",
+      "ts": 1787330401000,
+      "publishedAt": "2026-08-21T16:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Stellar eruptions in the laboratory: First experimental evidence for their suppression in strong magnetic fields",
@@ -679,126 +799,6 @@
       "title": "Cavity-Enhanced Activation of Radiatively Suppressed Light-Hole Exciton Emission in Colloidal Nanoplatelets",
       "url": "https://arxiv.org/abs/2608.19681",
       "summary": "arXiv:2608.19681v1 Announce Type: new Abstract: Light-hole (LH) excitons provide access to well-defined polarization and spin degrees of freedom that are central to quantum photonics and chiral light-matter interactions.…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Iterative Projection-Based Embedding Scheme Combined with Variational Quantum Eigensolver",
-      "url": "https://arxiv.org/abs/2608.19715",
-      "summary": "arXiv:2608.19715v1 Announce Type: new Abstract: Quantum embedding methods offer a promising route to extend quantum chemical calculations to large multiscale systems by treating a chemically important subsystem at a high…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Comparative Study of Coherent and Action-Detected 2D Electronic Spectroscopies of a Multichromophore Photosynthetic System",
-      "url": "https://arxiv.org/abs/2608.19721",
-      "summary": "arXiv:2608.19721v1 Announce Type: new Abstract: Coherent two-dimensional electronic spectroscopy (C-2DES) is a powerful tool for resolving excitonic structure and dynamics in light-harvesting complexes with dense energy-…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear tunnel oscillations of light in spherical Bragg resonators",
-      "url": "https://arxiv.org/abs/2608.19731",
-      "summary": "arXiv:2608.19731v1 Announce Type: new Abstract: A weakly nonlinear regime of radial tunneling is theoretically considered for a light wave in a spherical dielectric Bragg resonator containing a set of ``shell'' eigenmode…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental Realization of Topological Surface Acoustic Wave Resonances under Surface Liquid Loading for Micro-volume sample Sensings",
-      "url": "https://arxiv.org/abs/2608.19772",
-      "summary": "arXiv:2608.19772v1 Announce Type: new Abstract: Surface acoustic wave (SAW) sensors, owing to their high operating frequencies, compatibility with planar micro-fabrication, and exceptional sensitivity to surface perturba…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rare Fluctuations from Normally Hyperbolic Invariant Manifolds",
-      "url": "https://arxiv.org/abs/2608.19814",
-      "summary": "arXiv:2608.19814v1 Announce Type: new Abstract: Freidlin--Wentzell theory converts weak-noise large deviations into a Hamiltonian variational problem. We study how a $k$-dimensional normally hyperbolic invariant manifold…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simultaneous 3D co-registered perfusion and oxygenation with ULM, photoacoustic imaging, and a planar matrix array",
-      "url": "https://arxiv.org/abs/2608.19823",
-      "summary": "arXiv:2608.19823v1 Announce Type: new Abstract: Objective. Joint assessment of tissue oxygenation and microvascular perfusion could offer valuable insights into vascular function across a wide range of biomedical applica…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear-Electronic Orbital Subsystem Density Functional Theory",
-      "url": "https://arxiv.org/abs/2608.19834",
-      "summary": "arXiv:2608.19834v1 Announce Type: new Abstract: We present a new computational approach based on Nuclear-Electronic Orbital and Subsystem Density Functional Theory. The resulting NEO-sDFT methodology enables quantum chem…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation of trapped non-neutral plasma dynamics with rotating wall compression",
-      "url": "https://arxiv.org/abs/2608.19841",
-      "summary": "arXiv:2608.19841v1 Announce Type: new Abstract: A spectral macroparticle simulation scheme is used to model non-neutral plasma dynamics in a Penning-Malmberg trap. This grid-free numerical scheme is well adapted to the s…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Developing a Compact SWIR Imaging Spectrometer for CO2 and CH4 Retrieval Using Photonic Crystal Filters",
-      "url": "https://arxiv.org/abs/2608.19877",
-      "summary": "arXiv:2608.19877v1 Announce Type: new Abstract: The need for atmospheric measurements with higher spatial and temporal resolution is driving the development of satellites and satellite constellations to complement existi…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Non-Hermitian Biorthogonal Encoding Paradigm for Physical-Layer Secure Computational Imaging",
-      "url": "https://arxiv.org/abs/2608.19878",
-      "summary": "arXiv:2608.19878v1 Announce Type: new Abstract: The conventional paradigm of computational imaging, rooted in Hermitian systems, is fundamentally constrained by rigid orthogonal basis transformations, which bottleneck th…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The impact of feature engineering and an optimisation framework for ocean colour machine learning",
-      "url": "https://arxiv.org/abs/2608.19899",
-      "summary": "arXiv:2608.19899v1 Announce Type: new Abstract: Machine learning (ML) is widely used for the development of ocean colour algorithms, but most studies focus on model parameter training and hyperparameter tuning. The optim…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Overview of Potential Medical Applications of Microwave Kinetic Inductance Detectors",
-      "url": "https://arxiv.org/abs/2608.19918",
-      "summary": "arXiv:2608.19918v1 Announce Type: new Abstract: Microwave kinetic inductance detectors (MKIDs) have proven to be a versatile detector technology and are very promising for several applications in medical imaging. Deep im…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of ion temperature on lunar photoelectron sheath",
-      "url": "https://arxiv.org/abs/2608.19926",
-      "summary": "arXiv:2608.19926v1 Announce Type: new Abstract: Observations suggest that the solar wind ions impinging on the lunar surface possess a finite temperature. The effect of ion temperature on the plasma sheath over the lunar…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SoilWaterNow: Soil water nowcasting for mapping plant available water (PAW) across paddocks for improved on-farm decision-making",
-      "url": "https://arxiv.org/abs/2608.19930",
-      "summary": "arXiv:2608.19930v1 Announce Type: new Abstract: Timely, paddock-scale estimates of plant-available water (PAW) can support crop management in water-limited grain systems. We present the Sydney Soil Water-Energy Balance (…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full frame denoising for pyramid wavefront sensors",
-      "url": "https://arxiv.org/abs/2608.19934",
-      "summary": "arXiv:2608.19934v1 Announce Type: new Abstract: Adaptive optics systems operating under low-flux conditions face significant challenges, as photon and detector noise in particular degrade wavefront measurements and ultim…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
