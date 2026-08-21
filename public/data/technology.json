@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-20T23:27:03.583Z",
+  "updated": "2026-08-21T01:24:39.055Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "New space transportation policy focuses on increased launch rates",
+      "url": "https://spacenews.com/new-space-transportation-policy-focuses-on-increased-launch-rates/",
+      "summary": "The White House released a new space transportation policy Aug. 20 with an emphasis on enabling a sharp increase in the number of launches and reentries. The post New space transportation policy focuses on increased laun…",
+      "ts": 1787268613000,
+      "publishedAt": "2026-08-20T23:30:13.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Golden Dome chief touts progress as funding questions loom",
@@ -801,15 +810,6 @@
       "summary": "Advances in manufacturing, automation, and lentiviral vector technologies are reshaping the future of CAR T therapies. Ex vivo and in vivo approaches will evolve together, helping improve scalability, lower costs, and ex…",
       "ts": 1787155254000,
       "publishedAt": "2026-08-19T16:00:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cutting Costs in Serum-Free FGF2 Processing With Recycled Media",
-      "url": "https://www.genengnews.com/topics/bioprocessing/cutting-costs-in-serum-free-fgf2-processing-with-recycled-media/",
-      "summary": "Reusing spent culture media in an L. lactis cell fermentation model streamlines continuous bioprocessing and cuts costs for FGF2 production, making serum-free production increasingly cost-effective and productive. The po…",
-      "ts": 1787155252000,
-      "publishedAt": "2026-08-19T16:00:52.000Z",
       "categoryId": "bio"
     }
   ],

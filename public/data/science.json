@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-20T23:27:00.494Z",
+  "updated": "2026-08-21T01:24:34.956Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tourist sign translations made more culturally fluent by AI system",
+      "url": "https://phys.org/news/2026-08-tourist-culturally-fluent-ai.html",
+      "summary": "A new artificial intelligence, or AI, translation model could improve the accuracy and cultural appropriateness of Chinese-English public signs at tourist attractions, according to research in the International Journal o…",
+      "ts": 1787272801000,
+      "publishedAt": "2026-08-21T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Occupational health challenges require more than individual support, new doctoral study shows",
+      "url": "https://phys.org/news/2026-08-occupational-health-require-individual-doctoral.html",
+      "summary": "Mental health issues are now the most prevalent cause of sick leave in Finland. It is common for an employee's declining occupational well-being to result in a sick leave referral, while nothing changes at the workplace …",
+      "ts": 1787270401000,
+      "publishedAt": "2026-08-21T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Bridge health monitoring using existing telecommunication fiber-optic networks",
+      "url": "https://www.nature.com/articles/s41467-026-76935-0",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Trimester-dependent vertical transmission of H5N1 influenza virus through placental and mammary routes impairs offspring development",
+      "url": "https://www.nature.com/articles/s41467-026-76891-9",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A systematic review and meta-analysis on heat thresholds for maternal health and birth outcomes",
+      "url": "https://www.nature.com/articles/s41467-026-76822-8",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scarce emergence of new species drove the decline of African megaherbivores, study suggests",
+      "url": "https://phys.org/news/2026-08-scarce-emergence-species-drove-decline.html",
+      "summary": "A study by the National Museum of Natural Sciences (MNCN-CSIC), the National Research Center on Human Evolution (CENIEH) and the University of Alcalá offers a new explanation for the decline of African megaherbivores. Th…",
+      "ts": 1787269204000,
+      "publishedAt": "2026-08-20T23:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Thinner lenses, brighter colors: Metalens research clears two hurdles for AR and VR glasses",
@@ -753,54 +801,6 @@
       "summary": "Author(s): Su-Peng Li, Xi Chen, Bei-Bei Liu, Ming-Qi Huang, Yu-Heng Zhao, Yu Luo, Sheng-Hua Li, Chang-Chun Wang, Jian-Wei Pan, Luo-Kan Chen, and Shuai Chen A cold-atom gravimeter, with high sensitivity, long-term stabili…",
       "ts": 1787220000000,
       "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Implementation of a $ZZ$-free i<span class=\"sc\">swap</span> gate via dual-microwave suppression of $ZZ$ coupling",
-      "url": "http://link.aps.org/doi/10.1103/snwt-prqy",
-      "summary": "Author(s): Yuan Li, Yuanhao Fu, Dayu Li, Chen Zha, Sirui Cao, Jianbin Cai, Yisen Hu, Daojin Fan, Zhiyuan Chen, Zihua Chen, Yangsen Ye, Jin Lin, Ming Gong, Shaowei Li, and Yong-Heng Huo A major source of error in quantum …",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Area affected by wildfires in Europe could almost triple due to climate change",
-      "url": "https://phys.org/news/2026-08-area-affected-wildfires-europe-triple.html",
-      "summary": "Increasingly hot, dry and windy conditions could substantially extend the area affected by wildfires across Europe, according to a new study led by the Potsdam Institute for Climate Impact Research (PIK) with contributio…",
-      "ts": 1787217001000,
-      "publishedAt": "2026-08-20T09:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Australia races to shield little penguins from H5N1 bird flu",
-      "url": "https://phys.org/news/2026-08-australia-shield-penguins-h5n1-bird.html",
-      "summary": "Australian wildlife workers have launched an unprecedented effort to vaccinate wild populations of little penguins against the highly contagious H5N1 avian influenza.",
-      "ts": 1787215803000,
-      "publishedAt": "2026-08-20T08:50:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Honduras places 80% of country on El Niño drought alert",
-      "url": "https://phys.org/news/2026-08-honduras-country-el-nio-drought.html",
-      "summary": "The Honduran government on Wednesday placed 80% of the country, including the capital, on drought alert as El Niño scorches harvests and causes livestock to die of thirst.",
-      "ts": 1787215802000,
-      "publishedAt": "2026-08-20T08:50:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rescue mission is called off for NASA's aging Swift space telescope",
-      "url": "https://phys.org/news/2026-08-mission-nasa-aging-swift-space.html",
-      "summary": "The mission to save NASA's sinking Swift Observatory was called off Wednesday, dooming the telescope to a fiery reentry later this year.",
-      "ts": 1787213828000,
-      "publishedAt": "2026-08-20T08:17:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "What beats seeing eclipses from space? Try the northern and southern lights",
-      "url": "https://phys.org/news/2026-08-eclipses-space-northern-southern.html",
-      "summary": "Eclipses may be wondrous, but nothing beats seeing the northern and southern lights from space.",
-      "ts": 1787213747000,
-      "publishedAt": "2026-08-20T08:15:47.000Z"
     }
   ],
   "sources": [
