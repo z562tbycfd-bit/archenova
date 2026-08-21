@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-21T12:51:39.055Z",
+  "updated": "2026-08-21T13:47:34.910Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New solar system models show Earth is no fluke",
+      "url": "https://phys.org/news/2026-08-solar-earth-fluke.html",
+      "summary": "Over the past three decades, computer models of planetary system formation have gone from fairly crude representations to sophisticated simulations using thousands of different starting points.",
+      "ts": 1787319605000,
+      "publishedAt": "2026-08-21T13:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Blood-camouflaged nanoparticles defeat drug-resistant breast tumors in mouse model",
+      "url": "https://phys.org/news/2026-08-blood-camouflaged-nanoparticles-defeat-drug.html",
+      "summary": "Triple-negative breast cancer (TNBC) is one of the most aggressive and treatment-resistant subtypes of breast cancer, accounting for 15% to 20% of all cases. Unlike other breast cancers, TNBC lacks targetable receptors, …",
+      "ts": 1787319603000,
+      "publishedAt": "2026-08-21T13:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: How Brown University is navigating the rise of generative AI use in the classroom",
+      "url": "https://phys.org/news/2026-08-qa-brown-university-generative-ai.html",
+      "summary": "In just a few short years, generative artificial intelligence tools have made a leap from novelties that produce stilted text to genuine societal disruptors that may alter the way people learn, work and even think.",
+      "ts": 1787318401000,
+      "publishedAt": "2026-08-21T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What dandelions and bees can teach us about our responsibilities to the natural world",
+      "url": "https://phys.org/news/2026-08-dandelions-bees-responsibilities-natural-world.html",
+      "summary": "In spring, on the traditional and treaty lands of the Mississaugas of the Credit, young children, Anishinaabe storytellers and educators walk together with Aki (Land) and Nibi (Water).",
+      "ts": 1787317202000,
+      "publishedAt": "2026-08-21T13:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Interplanetary spacecraft capture a coronal mass ejection component hidden from Earth",
@@ -767,38 +799,6 @@
       "title": "Point Spread Function Engineering Using Implicit Neural Representations",
       "url": "https://arxiv.org/abs/2608.20277",
       "summary": "arXiv:2608.20277v1 Announce Type: new Abstract: Point spread function (PSF) engineering through pupil plane modulation is a technique used in microscopy to achieve specific imaging properties, such as depth encoding or e…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Excitation of the lower-hybrid drift instability in the outflow of electron-only magnetic reconnection",
-      "url": "https://arxiv.org/abs/2608.20299",
-      "summary": "arXiv:2608.20299v1 Announce Type: new Abstract: We report experimental evidence for the lower-hybrid drift instability in the current sheet normal direction of electron-only magnetic reconnection. In our laser-driven cap…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computational Methods of Wave Propagation for Semiclassical Models of High Harmonic Generation in Bulk Solids",
-      "url": "https://arxiv.org/abs/2608.20306",
-      "summary": "arXiv:2608.20306v1 Announce Type: new Abstract: We present a theoretical framework for self consistent treatment of nonlinear light-matter interactions in the ultra-fast strong-field regime based on numerical solution of…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spin-torque microwave detectors of positive rectangular pulse signals",
-      "url": "https://arxiv.org/abs/2608.20323",
-      "summary": "arXiv:2608.20323v1 Announce Type: new Abstract: We analyze the performance of a spin-torque microwave detector (STMD) driven by positive rectangular current pulses $I(t)$ of various amplitudes $I_0$, durations $\\tau$, an…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Protocol for Shielding-Enhanced Loading of Single Polar Molecules into Optical Tweezers",
-      "url": "https://arxiv.org/abs/2608.20332",
-      "summary": "arXiv:2608.20332v1 Announce Type: new Abstract: We propose the high-fidelity preparation of single bosonic molecules in optical tweezers starting from small tweezer-trapped molecular ensembles. Our scheme combines a stat…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }

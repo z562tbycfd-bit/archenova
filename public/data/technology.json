@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-21T12:51:43.187Z",
+  "updated": "2026-08-21T13:47:38.057Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a big Roche investment in the U.S., estrogen patch shortages, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/21/roche-genentech-investment-estrogen-patch-shortages/?utm_campaign=rss",
+      "summary": "Roche's Genentech will invest $750 million to double the size of its existing production facility in Oregon",
+      "ts": 1787319619000,
+      "publishedAt": "2026-08-21T13:40:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Are cancer patients getting too much drug?",
+      "url": "https://www.statnews.com/2026/08/21/biotech-news-are-cancer-patients-us-getting-too-much-drug/?utm_campaign=rss",
+      "summary": "Moderna's stunning surge and drop, AI in scientific writing, and more biotech news from The Readout",
+      "ts": 1787318629000,
+      "publishedAt": "2026-08-21T13:23:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 17-21 August 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_17-21_August_2026",
+      "summary": "Week in images: 17-21 August 2026 Discover our week through the lens",
+      "ts": 1787317800000,
+      "publishedAt": "2026-08-21T13:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Scientists deploy Merck’s Ebola vaccine in DRC",
+      "url": "https://www.statnews.com/2026/08/21/health-news-scientists-deploy-merck-ebola-vaccine-in-drc/?utm_campaign=rss",
+      "summary": "Prostate cancer therapy, Meta glasses in hospital settings, and more health news from Morning Rounds",
+      "ts": 1787317481000,
+      "publishedAt": "2026-08-21T13:04:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The COSMOSIS framework can ensure that Washington governs space with its complexity in mind.",
+      "url": "https://spacenews.com/the-cosmosis-framework-can-ensure-that-washington-governs-space-with-its-complexity-in-mind/",
+      "summary": "Policy documents from both the White House and the Office of Space Commerce this summer acknowledge that space is a complex system, as to which forms of adaptive governance should […] The post The COSMOSIS framework can …",
+      "ts": 1787317200000,
+      "publishedAt": "2026-08-21T13:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: threats from space mirrors and credit for AI drugs",
@@ -766,51 +811,6 @@
       "ts": 1787209200000,
       "publishedAt": "2026-08-20T07:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 20 – The Elephant’s Trunk in Cepheus",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-20-the-elephants-trunk-in-cepheus/",
-      "summary": "APODScienceAPODAPOD: 2026 August 20 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our f…",
-      "ts": 1787198700000,
-      "publishedAt": "2026-08-20T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "An Uncommon Drifter in the Denmark Strait",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
-      "summary": "A large iceberg, observed in summer 2026, had drifted more than 1,000 kilometers south from the northeastern Greenland bay where it likely originated.",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Adaptive therapy under parametric, structural, and measurement uncertainty",
-      "url": "https://arxiv.org/abs/2608.18387",
-      "summary": "arXiv:2608.18387v1 Announce Type: new Abstract: Adaptive therapy has emerged as a promising treatment strategy that exploits within-tumour competition to delay disease progression. Implementation, however, typically reli…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Characterization of Minimal Degenerate Zero-One Reaction Networks",
-      "url": "https://arxiv.org/abs/2608.18509",
-      "summary": "arXiv:2608.18509v1 Announce Type: new Abstract: A fundamental problem in the algebraic study of biochemical reaction networks is to characterize degeneracy. Two-dimensional zero-one networks, where each reactant appears …",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multitask Bayesian Neural Networks for Multiparameter Protein Engineering",
-      "url": "https://arxiv.org/abs/2608.18604",
-      "summary": "arXiv:2608.18604v1 Announce Type: new Abstract: Simultaneously engineering multiple protein properties remains a major challenge. Existing machine learning-based pipelines for protein engineering often model properties s…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
