@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-21T10:32:32.883Z",
+  "updated": "2026-08-21T11:28:08.300Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Archaeologists uncover 11 rare marked arrowheads at Tepecik-Çiftlik whose purpose remains a mystery",
+      "url": "https://phys.org/news/2026-08-archaeologists-uncover-rare-arrowheads-tepecik.html",
+      "summary": "For decades, archaeologists have been uncovering rare and mysterious incised obsidian arrowheads across Neolithic Central Anatolia, each one bearing a unique design etched into its glassy black surface nearly 9,000 years…",
+      "ts": 1787311204000,
+      "publishedAt": "2026-08-21T11:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What comes after fire? What forests need to survive in a warming world",
+      "url": "https://phys.org/news/2026-08-forests-survive-world.html",
+      "summary": "Jennifer Bhatnagar spent the summer of 2023 traversing barren hillsides blackened by wildfire in northern California. She walked through devastated properties, examined the hot soil beneath her feet, collected samples an…",
+      "ts": 1787311202000,
+      "publishedAt": "2026-08-21T11:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spinach peptide discovery leads to citrus greening treatment",
+      "url": "https://phys.org/news/2026-08-spinach-peptide-discovery-citrus-greening.html",
+      "summary": "A citrus greening disease treatment rooted in more than a decade of research at Texas A&M AgriLife Research has reached a milestone on the path to commercial availability. The U.S. Environmental Protection Agency has gra…",
+      "ts": 1787310001000,
+      "publishedAt": "2026-08-21T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What a record-breaking El Niño could mean for the world",
@@ -775,30 +799,6 @@
       "title": "Statistical complexity from fluctuations in the information content",
       "url": "https://arxiv.org/abs/2608.19485",
       "summary": "arXiv:2608.19485v1 Announce Type: cross Abstract: We argue that the variance of the information content ($C$), an information-theoretic quantity, can be naturally interpreted as a measure of statistical complexity. We sh…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stability and squeezing of the three-photon degenerate parametric down-conversion",
-      "url": "https://arxiv.org/abs/2608.19494",
-      "summary": "arXiv:2608.19494v1 Announce Type: cross Abstract: Nonlinear multiphoton conversion processes are theoretically and experimentally challenging systems in quantum optics and related areas. These phenomena bring remarkable …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An end-to-end differentiable transient vapor-compression framework for automated machine sizing and unified optimal control",
-      "url": "https://arxiv.org/abs/2608.19552",
-      "summary": "arXiv:2608.19552v1 Announce Type: cross Abstract: Accelerating the electrification of thermal energy requires vapor-compression heat pumps capable of dynamic, grid-responsive operation. However, equipment engineering rem…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-guided machine learning for sim-to-real calibration of NV diamond magnetometers",
-      "url": "https://arxiv.org/abs/2608.19582",
-      "summary": "arXiv:2608.19582v1 Announce Type: cross Abstract: Ensemble nitrogen-vacancy (NV) centers in diamond enable robust vector magnetometry in unshielded environments, yet deployment remains bottlenecked by complex calibration…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
