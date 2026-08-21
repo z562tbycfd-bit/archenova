@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-21T08:42:38.464Z",
+  "updated": "2026-08-21T09:38:33.734Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Mother tongue",
+      "url": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
+      "summary": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and s…",
+      "ts": 1787302800000,
+      "publishedAt": "2026-08-21T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "When AI designs a drug, who gets the credit?",
+      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its genera…",
+      "ts": 1787302800000,
+      "publishedAt": "2026-08-21T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
+      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+      "summary": "A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study. Later this year, the US company Reflect Orbit…",
+      "ts": 1787302800000,
+      "publishedAt": "2026-08-21T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Landspace aims to refly recovered Zhuque-3 booster within six months",
+      "url": "https://spacenews.com/landspace-aims-to-refly-recovered-zhuque-3-booster-within-six-months/",
+      "summary": "HELSINKI — Chinese commercial launch firm Landspace is targeting a reflight of its Zhuque-3 first stage in months, following its historic successful vertical landing Aug. 18. A company representative told […] The post La…",
+      "ts": 1787302451000,
+      "publishedAt": "2026-08-21T08:54:11.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Focal therapy for localized prostate cancer has divided physicians. Will new data change minds?",
@@ -28,6 +64,15 @@
       "ts": 1787301000000,
       "publishedAt": "2026-08-21T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Sentinel-1 captures major ice loss from Greenland glacier",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier",
+      "summary": "Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026. The event mark…",
+      "ts": 1787300520000,
+      "publishedAt": "2026-08-21T08:22:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -763,51 +808,6 @@
       "title": "Transcranial magnetic stimulation of visual-motion area V5/MT modulates sensory thalamus responses during visual speech recognition",
       "url": "https://arxiv.org/abs/2608.19034",
       "summary": "arXiv:2608.19034v1 Announce Type: new Abstract: Responses in the sensory thalamic nuclei are modulated by perceptual tasks. Whether such response modulations rely on feedback from cerebral cortex in humans is unknown. He…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Accurate Decoding of Natural Sentences from Non-Invasive Brain Recordings",
-      "url": "https://arxiv.org/abs/2608.18114",
-      "summary": "arXiv:2608.18114v1 Announce Type: cross Abstract: Restoring communication for people who have lost the ability to speak or move after a brain injury is a major challenge. While intracranial implants now enable high-perfo…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GenEx: A Graph-Based Representational Paradigm for SARS-CoV-2 Variant Detection via Codon Co-occurrence Networks",
-      "url": "https://arxiv.org/abs/2608.18238",
-      "summary": "arXiv:2608.18238v1 Announce Type: cross Abstract: Genomic analysis on viruses such as SARS-CoV-2 variants: Beta, Gamma, Delta, and Omicron is heavily dominated by classical bioinformatics methods, including Sequence Alig…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning constructive models of emergent systems",
-      "url": "https://arxiv.org/abs/2608.18248",
-      "summary": "arXiv:2608.18248v1 Announce Type: cross Abstract: Emergent systems - systems containing multi-scale interactions - often arise through iteration rather than explicit forward design. As such, design principles for buildin…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Atrial Fibrillation Detection with Arbitrary Leads via a Codebook-Based Reconstruction-Classification Framework",
-      "url": "https://arxiv.org/abs/2608.18451",
-      "summary": "arXiv:2608.18451v1 Announce Type: cross Abstract: \\textbf{Background and Objective}: Reliable atrial fibrillation (AF) detection from electrocardiogram (ECG) signals remains challenging in real-world clinical settings du…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Role of Grid Cells in Reducing Spatial Aliasing in Hippocampal Place Representations",
-      "url": "https://arxiv.org/abs/2608.18569",
-      "summary": "arXiv:2608.18569v1 Announce Type: cross Abstract: Spatial aliasing occurs when two or more distinct locations produce highly similar place-cell representations, primarily due to environmental symmetry or repetitive struc…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"

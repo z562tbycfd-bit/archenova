@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-21T08:42:35.681Z",
+  "updated": "2026-08-21T09:38:30.416Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What a record-breaking El Niño could mean for the world",
+      "url": "https://phys.org/news/2026-08-el-nio-world.html",
+      "summary": "This year's El Niño is on track to be the strongest on record, threatening to unleash extreme weather across the globe and make 2027 the hottest recorded year by far.",
+      "ts": 1787303401000,
+      "publishedAt": "2026-08-21T09:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seeing the unseen: A new tool visualizes hidden structures in complex biological data",
+      "url": "https://phys.org/news/2026-08-unseen-tool-visualizes-hidden-complex.html",
+      "summary": "Modern biology research can now generate valuable data on an unprecedented scale. But there is one major obstacle: making sense of these complex high-dimensional datasets. A team at the University of Basel, Switzerland, …",
+      "ts": 1787302803000,
+      "publishedAt": "2026-08-21T09:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pioneering cancer treatment saves python named Jodie Foster: UK zoo",
+      "url": "https://phys.org/news/2026-08-cancer-treatment-python-jodie-foster.html",
+      "summary": "A British zoo Friday hailed the successful treatment of a cancer-stricken python named after Hollywood star Jodie Foster, who became the first snake to receive an innovative treatment combining surgery and electrochemoth…",
+      "ts": 1787302801000,
+      "publishedAt": "2026-08-21T09:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Schools are starting to teach AI literacy. For many, that means helping kids see chatbots' flaws",
@@ -775,30 +799,6 @@
       "title": "Physics-guided machine learning for sim-to-real calibration of NV diamond magnetometers",
       "url": "https://arxiv.org/abs/2608.19582",
       "summary": "arXiv:2608.19582v1 Announce Type: cross Abstract: Ensemble nitrogen-vacancy (NV) centers in diamond enable robust vector magnetometry in unshielded environments, yet deployment remains bottlenecked by complex calibration…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Complementary, Not Cumulative: Interaction Effects in Physics-Informed Neural Networks for Navier-Stokes Vortex Shedding",
-      "url": "https://arxiv.org/abs/2608.19632",
-      "summary": "arXiv:2608.19632v1 Announce Type: cross Abstract: Physics-informed neural networks (PINNs) embed governing partial differential equations directly into the training loss, offering a promising alternative to costly CFD so…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kerr Quasinormal Modes without Variable Separation: A Two-Dimensional Hyperboloidal Teukolsky Solver with Physics-Informed Neural Networks",
-      "url": "https://arxiv.org/abs/2608.19774",
-      "summary": "arXiv:2608.19774v1 Announce Type: cross Abstract: We use physics-informed neural networks (PINNs) to solve the gravitational quasinormal-mode (QNM) eigenvalue problem for Kerr spacetime directly in the two-dimensional hy…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constitutive modelling of open-porous neo-Hookean solids",
-      "url": "https://arxiv.org/abs/2608.19793",
-      "summary": "arXiv:2608.19793v1 Announce Type: cross Abstract: Open-porous materials exhibit pronounced compressibility, nonlinear densification, and power-law scaling of stiffness with density. In this work, we propose a thermodynam…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
