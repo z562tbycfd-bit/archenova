@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-21T07:44:37.551Z",
+  "updated": "2026-08-21T08:42:38.464Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Focal therapy for localized prostate cancer has divided physicians. Will new data change minds?",
+      "url": "https://www.statnews.com/2026/08/21/focal-therapy-prostate-cancer-still-experimental-or-viable-alternative/?utm_campaign=rss",
+      "summary": "Urologic oncologists who treat prostate cancer are split over the benefits of focal therapy compared to traditional surgery or radiation.",
+      "ts": 1787301000000,
+      "publishedAt": "2026-08-21T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Lil Nas X’s bipolar diagnosis and the paradox of treatment",
+      "url": "https://www.statnews.com/2026/08/21/lil-nas-xs-bipolar-diagnosis-treatment-medication-achievement/?utm_campaign=rss",
+      "summary": "We continue to romanticize the symptoms of mental health problems, especially when we talk about achievement.",
+      "ts": 1787301000000,
+      "publishedAt": "2026-08-21T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: A cure for HIV would be a triumph. But it shouldn’t harm survivors",
+      "url": "https://www.statnews.com/2026/08/21/hiv-cure-survivors-harm-benefits-research-ryan-white-hiv-aids-program/?utm_campaign=rss",
+      "summary": "Long-term survivors deserve to see a cure, not fear the losses it might bring.",
+      "ts": 1787301000000,
+      "publishedAt": "2026-08-21T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Miniature giants: investigating limb long bone structure in dwarf proboscideans",
@@ -781,33 +808,6 @@
       "title": "The Role of Grid Cells in Reducing Spatial Aliasing in Hippocampal Place Representations",
       "url": "https://arxiv.org/abs/2608.18569",
       "summary": "arXiv:2608.18569v1 Announce Type: cross Abstract: Spatial aliasing occurs when two or more distinct locations produce highly similar place-cell representations, primarily due to environmental symmetry or repetitive struc…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference",
-      "url": "https://arxiv.org/abs/2608.18982",
-      "summary": "arXiv:2608.18982v1 Announce Type: cross Abstract: Bioassay activity prediction is often data-limited because drug-discovery datasets rely on time-consuming and expensive wet-lab experiments for data generation and evalua…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Positive equilibria in mass action networks: geometry and bounds",
-      "url": "https://arxiv.org/abs/2409.06877",
-      "summary": "arXiv:2409.06877v5 Announce Type: replace Abstract: Any mass action network gives rise to a parameterised family of polynomial equations whose positive solutions are the positive equilibria of the network. Here, we consi…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Simulation and inference methods for non-Markovian stochastic biochemical reaction networks",
-      "url": "https://arxiv.org/abs/2512.02478",
-      "summary": "arXiv:2512.02478v2 Announce Type: replace Abstract: Stochastic models of reaction networks are widely used to capture intrinsic noise in complex systems in the life sciences. Typical formulations of these models are base…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"
