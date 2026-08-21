@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-21T13:47:34.910Z",
+  "updated": "2026-08-21T14:37:15.894Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Antarctic krill fishing is now concentrated in the exact pattern conservation rules were designed to prevent",
+      "url": "https://phys.org/news/2026-08-antarctic-krill-fishing-exact-pattern.html",
+      "summary": "The companies fishing for Antarctic krill have harvested so much so quickly that the season had to close in August 2026, three months before it was scheduled to end. That's the second consecutive year of an early closing…",
+      "ts": 1787322006000,
+      "publishedAt": "2026-08-21T14:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum dots keep their glow under heat after dual modification",
+      "url": "https://phys.org/news/2026-08-quantum-dots-dual-modification.html",
+      "summary": "Quantum dots are semiconductor crystals only a few nanometers in size. Their ability to produce bright, precisely tunable colors has made them promising materials for light-emitting diodes, displays, solar cells and othe…",
+      "ts": 1787322001000,
+      "publishedAt": "2026-08-21T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Rainbow-on-a-chip' could help unlock 6G networks and precision timing for quantum technologies",
+      "url": "https://phys.org/news/2026-08-rainbow-chip-6g-networks-precision.html",
+      "summary": "Loughborough University physicists and an international team have demonstrated that a grain-of-rice-sized microchip can be used to produce a spectrum of precisely spaced frequencies of light, which is then converted into…",
+      "ts": 1787320803000,
+      "publishedAt": "2026-08-21T14:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Women in politics face more personal, sexualized attacks than men, a recent analysis shows",
+      "url": "https://phys.org/news/2026-08-women-politics-personal-sexualized-men.html",
+      "summary": "Online spaces, and social media in particular, are forums for vigorous political debate. They provide a space for members of the public to express political opinions, organize and sometimes even interact directly with po…",
+      "ts": 1787320801000,
+      "publishedAt": "2026-08-21T14:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New solar system models show Earth is no fluke",
@@ -767,38 +799,6 @@
       "title": "Intensity-based scattering correction enables in vivo two-photon imaging beyond 1 mm",
       "url": "https://arxiv.org/abs/2608.20224",
       "summary": "arXiv:2608.20224v1 Announce Type: new Abstract: Optical imaging of the deep brain with subcellular resolution is essential for neuroscience, but noninvasive imaging beyond the cortex, through scattering white matter and …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
-      "url": "https://arxiv.org/abs/2608.20231",
-      "summary": "arXiv:2608.20231v1 Announce Type: new Abstract: The standard objection to full automation is demand-side: if humans earn nothing, who buys the output? This confuses an accounting role with a biological species. We model …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Acoustic Resonance Distribution for Core-Shell Scatterers",
-      "url": "https://arxiv.org/abs/2608.20254",
-      "summary": "arXiv:2608.20254v1 Announce Type: new Abstract: Acoustic metamaterials can exhibit unusual effective properties through mechanisms such as energy localization and resonant behavior in their constituent building blocks. H…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vibrational Activation Triggers Ultrafast Excited State Intramolecular Proton Transfer in Single-Benzene Fluorophores",
-      "url": "https://arxiv.org/abs/2608.20261",
-      "summary": "arXiv:2608.20261v1 Announce Type: new Abstract: Single-benzene fluorophores (SBFs) are exceptionally light-weight quantum emitters which have recently been shown to display Excited State Intramolecular Proton Transfer (E…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Point Spread Function Engineering Using Implicit Neural Representations",
-      "url": "https://arxiv.org/abs/2608.20277",
-      "summary": "arXiv:2608.20277v1 Announce Type: new Abstract: Point spread function (PSF) engineering through pupil plane modulation is a technique used in microscopy to achieve specific imaging properties, such as depth encoding or e…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }

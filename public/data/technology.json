@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-21T13:47:38.057Z",
+  "updated": "2026-08-21T14:37:22.340Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/08/21/up-down-ladder-latest-comings-goings-jobs-2/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1787320311000,
+      "publishedAt": "2026-08-21T13:51:51.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a big Roche investment in the U.S., estrogen patch shortages, and more",
@@ -55,6 +64,15 @@
       "ts": 1787314200000,
       "publishedAt": "2026-08-21T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo Ebola outbreak spreading exponentially, UN responders warn",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168182",
+      "summary": "As the deadliest Ebola outbreak in DR Congo’s history continued spreading on Friday, UN responders renewed their urgent appeal for immediate international support, with existing funding for lifesaving work critically low…",
+      "ts": 1787313600000,
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "MIT Technology Review",
@@ -661,6 +679,51 @@
     },
     {
       "source": "United Nations News",
+      "title": "Russian missiles kill 17 more in Ukraine as Guterres calls for ceasefire",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168181",
+      "summary": "Russian ballistic missile strikes killed 17 people and injured more than 40 in and around the Ukrainian capital Kyiv on Thursday, local authorities reported.",
+      "ts": 1787227200000,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Middle East: 94 per cent need shelter in Gaza, Israel ramps up demolitions in Lebanon",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168180",
+      "summary": "Ninety-four cent of Gaza’s 2.1 million residents need shelter as Israeli gunfire and strikes continue inside the enclave, UN agencies and peacekeepers warned on Thursday.",
+      "ts": 1787227200000,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Colombia earthquake: 1.2 million need aid as some communities remain out of reach",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168178",
+      "summary": "Ten days after a powerful earthquake struck western Colombia, an estimated 1.2 million people need humanitarian assistance, while some communities have still received little or no aid, UN agencies said on Thursday.",
+      "ts": 1787227200000,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Mpox: Children account for half of suspected cases in Guinea-Bissau",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168176",
+      "summary": "Children, who are particularly vulnerable to the disease, account for half of the 46 suspected mpox cases identified in Guinea-Bissau – with 16 of them under the age of four.",
+      "ts": 1787227200000,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo receives 70,000 Ebola vaccine doses as Bundibugyo outbreak spreads",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168174",
+      "summary": "The Democratic Republic of the Congo (DRC) will receive 70,000 doses of the Ervebo vaccine from the UN’s international vaccine coordination group (ICG) to protect frontline communities against the Ebola virus disease.",
+      "ts": 1787227200000,
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "As elections near, South Sudan risks new atrocity crimes, warns rights probe",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168173",
       "summary": "The under-reported humanitarian crisis in South Sudan risks deepening with the real possibility of further atrocity crimes unless renewed fighting stops, a UN-backed probe said on Thursday.",
@@ -748,69 +811,6 @@
       "ts": 1787216400000,
       "publishedAt": "2026-08-20T09:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: How health systems are embracing chatbots to query and summarize patient records",
-      "url": "https://www.statnews.com/2026/08/20/health-systems-embrace-ai-chatbots-query-patient-records-ehr/?utm_campaign=rss",
-      "summary": "Several large health systems are rolling out AI chatbots to query patient records, because they can save time and increase diagnostic accuracy.",
-      "ts": 1787214600000,
-      "publishedAt": "2026-08-20T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Capricor’s Duchenne muscular dystrophy drug and the countless tiny decisions that can make or break a study",
-      "url": "https://www.statnews.com/2026/08/20/capricor-deramiocel-duchenne-muscular-dystrophy-rare-disease-studies-decisions/?utm_campaign=rss",
-      "summary": "“Regulatory flexibility can be exercised in rare disease without sacrificing rigor,” writes Mindy Leffler, whose son has Duchenne muscular dystrophy.",
-      "ts": 1787214600000,
-      "publishedAt": "2026-08-20T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Reduce protein to increase longevity? Nutrition experts say that’s a bad idea",
-      "url": "https://www.statnews.com/2026/08/20/reduce-protein-increase-longevity-bad-idea-nutrition-experts/?utm_campaign=rss",
-      "summary": "Reducing protein intake could increase human longevity, researchers recently suggested. That's a bad idea, for several reasons, experts say.",
-      "ts": 1787214600000,
-      "publishedAt": "2026-08-20T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Can reclassifying muscle dysmorphia unlock better care for boys and men?",
-      "url": "https://www.statnews.com/2026/08/20/reclassify-muscle-dysmorphia-eating-disorder-uscf-expert-jason-nagata/?utm_campaign=rss",
-      "summary": "Males make up about a third of the population struggling with eating disorders in the United States. While these conditions often start during the teen years, by some estimates, as…",
-      "ts": 1787214600000,
-      "publishedAt": "2026-08-20T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The global health aid architecture is collapsing. The faith economy isn’t",
-      "url": "https://www.statnews.com/2026/08/20/global-health-humanitarian-relief-faith-based-organizations-trump/?utm_campaign=rss",
-      "summary": "“Washington has rediscovered faith as a delivery mechanism. The bigger opportunity is faith as a source of capital,” writes Dr. Alaa Murabit.",
-      "ts": 1787214600000,
-      "publishedAt": "2026-08-20T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing AI Futures",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "ts": 1787209200000,
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA’s photosynthesis satellite fuelled ",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX/ESA_s_photosynthesis_satellite_fuelled",
-      "summary": "Europe’s newest eye on the health of Earth’s vegetation has taken another crucial step towards orbit – the European Space Agency’s FLEX satellite has been fuelled at Europe’s Spaceport in French Guiana ahead of its plann…",
-      "ts": 1787209200000,
-      "publishedAt": "2026-08-20T07:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
