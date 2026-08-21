@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-21T20:27:57.797Z",
+  "updated": "2026-08-21T21:26:46.415Z",
   "items": [
     {
       "source": "Phys.org",
@@ -428,6 +428,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -476,14 +484,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
       "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
       "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
@@ -495,6 +495,30 @@
       "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
       "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
       "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Spin splitting torque–induced perpendicular magnetization field-free switching in the ${\\mathrm{SrTiO}}_{3}/{\\mathrm{RuO}}_{2}/[{\\mathrm{C}\\mathrm{o}/\\mathrm{Pt}]}_{2}$ heterostructure",
+      "url": "http://link.aps.org/doi/10.1103/r8ck-3pbm",
+      "summary": "Author(s): Xiaoyu Feng, Xinge Feng, Peng Zhang, Fangjun Guo, Zhirui Wang, Yifei Wang, Zhiqiang Zhang, Wending Liu, Dangwei Guo, Desheng Xue, and Xiaolong Fan Exploring materials with unconventional spin transport propert…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Magnetophotoelectric effect in graphene via tailored potential landscapes",
+      "url": "http://link.aps.org/doi/10.1103/k1y8-vr4y",
+      "summary": "Author(s): Joris Josiek, Friedemann Queisser, Stephan Winnerl, and Ralf Schützhold We study the propagation of charge carriers in planar graphene under the combined influence of a constant transversal magnetic field $B$ …",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit",
+      "url": "http://link.aps.org/doi/10.1103/zjgr-1cxw",
+      "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Fisher-information limits of detector-bandwidth-efficient 3D light-field microscopy",
       "url": "https://arxiv.org/abs/2608.19498",
       "summary": "arXiv:2608.19498v1 Announce Type: new Abstract: Light-field microscopy enables snapshot volumetric imaging, but its information rate is constrained by both optical encoding and detector readout architecture. Here we deve…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On-demand thermal power amplification enabled by active heat $Q$-switching",
-      "url": "https://arxiv.org/abs/2608.19500",
-      "summary": "arXiv:2608.19500v1 Announce Type: new Abstract: Thermal management underpins essentially every energy technology, from solar harvesters and waste-heat recovery to industrial process heating and electronic cooling. Yet, t…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spheroid rolling up on diverging inclines",
-      "url": "https://arxiv.org/abs/2608.19541",
-      "summary": "arXiv:2608.19541v1 Announce Type: new Abstract: Objects rolling upward on diverging inclined rails exhibit a counterintuitive behavior that has intrigued physicists and students alike. Among the most well-known is the do…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast optical coherence elastography for volumetric and dynamic in vivo imaging",
-      "url": "https://arxiv.org/abs/2608.19566",
-      "summary": "arXiv:2608.19566v1 Announce Type: new Abstract: Imaging the mechanical properties of biological tissues in vivo with high spatial and temporal resolution is essential for understanding physiological function and disease …",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }

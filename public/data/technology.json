@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-21T20:27:59.879Z",
+  "updated": "2026-08-21T21:26:51.581Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -18,6 +18,15 @@
       "summary": "Paris, France | August 2026– More than 6,500 Earth observation (EO) satellites are expected to launch by 2035, generating $155.9 billion in manufacturing revenues as governments expand sovereign intelligence, surveillanc…",
       "ts": 1787341694000,
       "publishedAt": "2026-08-21T19:48:14.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
+      "summary": "On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere — the corona — to those in the path of totality who w…",
+      "ts": 1787337820000,
+      "publishedAt": "2026-08-21T18:43:40.000Z",
       "categoryId": "space"
     },
     {
@@ -760,18 +769,18 @@
     },
     {
       "source": "SpaceNews",
-      "title": "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova",
-      "url": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/",
-      "summary": "Portal Space Systems has acquired a Falcon 9 to launch its first Supernova spacecraft and will offer excess capacity on the vehicle for rideshare payloads. The post Portal Space Systems to include rideshare payloads on F…",
+      "title": "Rock West Composites® Is Premiering Its New STRATOPultrusion™ Product Line at the 2026 Small Satellite Conference",
+      "url": "https://spacenews.com/rock-west-composites-is-premiering-its-new-stratopultrusion-product-line-at-the-2026-small-satellite-conference/",
+      "summary": "San Diego, CA – Rock West Composites (RWC) is premiering its recently launched space-grade STRATOPultrusion™ product line at the 2026 Small Satellite Conference this August in Salt Lake City, Utah. […] The post Rock West…",
       "ts": 1787230800000,
       "publishedAt": "2026-08-20T13:00:00.000Z",
       "categoryId": "space"
     },
     {
       "source": "SpaceNews",
-      "title": "Rock West Composites® Is Premiering Its New STRATOPultrusion™ Product Line at the 2026 Small Satellite Conference",
-      "url": "https://spacenews.com/rock-west-composites-is-premiering-its-new-stratopultrusion-product-line-at-the-2026-small-satellite-conference/",
-      "summary": "San Diego, CA – Rock West Composites (RWC) is premiering its recently launched space-grade STRATOPultrusion™ product line at the 2026 Small Satellite Conference this August in Salt Lake City, Utah. […] The post Rock West…",
+      "title": "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova",
+      "url": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/",
+      "summary": "Portal Space Systems has acquired a Falcon 9 to launch its first Supernova spacecraft and will offer excess capacity on the vehicle for rideshare payloads. The post Portal Space Systems to include rideshare payloads on F…",
       "ts": 1787230800000,
       "publishedAt": "2026-08-20T13:00:00.000Z",
       "categoryId": "space"
@@ -802,15 +811,6 @@
       "ts": 1787227800000,
       "publishedAt": "2026-08-20T12:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Russian missiles kill 17 more in Ukraine as Guterres calls for ceasefire",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168181",
-      "summary": "Russian ballistic missile strikes killed 17 people and injured more than 40 in and around the Ukrainian capital Kyiv on Thursday, local authorities reported.",
-      "ts": 1787227200000,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
