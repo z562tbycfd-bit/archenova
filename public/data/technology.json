@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-21T16:37:08.762Z",
+  "updated": "2026-08-21T17:30:46.450Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: HHS document offers new clues to Kennedy’s vaccine plans",
+      "url": "https://www.statnews.com/2026/08/21/rfi-reveals-possible-kennedy-strategy-vaccine-policy-changes/?utm_campaign=rss",
+      "summary": "Kennedy asks for feedback on new vaccine recommendation categories, how shots are tested.",
+      "ts": 1787330403000,
+      "publishedAt": "2026-08-21T16:40:03.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Lab-Grown Neocortex Models Mimic Early Brain Organization",
@@ -91,6 +100,15 @@
       "ts": 1787314200000,
       "publishedAt": "2026-08-21T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Somalia: Humanitarian aid cuts leave millions of children vulnerable to hunger",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168184",
+      "summary": "The global funding crisis for humanitarian work is taking a growing toll on the most vulnerable children in Somalia, where some aid programmes and facilities have been forced to shut down.",
+      "ts": 1787313600000,
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1787220000000,
       "publishedAt": "2026-08-20T10:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "LatConnect 60 selects Transcelestial’s Space Optical Network for SWIRSAT imaging constellation",
-      "url": "https://spacenews.com/latconnect-60-selects-transcelestials-space-optical-network-for-swirsat-imaging-constellation/",
-      "summary": "SAN FRANCISCO / PERTH, 20 AUGUST 2026: LatConnect 60 (LC60) has signed a commercial contract with Transcelestial for an optical communications terminal on its SWIRSAT-1 mission, plus access to Transcelestial’s […] The po…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Draper Selects Proteus Space for Advanced On-Orbit Mission",
-      "url": "https://spacenews.com/draper-selects-proteus-space-for-advanced-on-orbit-mission/",
-      "summary": "LOS ANGELES, CA, September 8th, 2026. Proteus Space, a dual-use aerospace company delivering rapid, end-to-end access to space, today announced it has been selected by The Charles Stark Draper Laboratory, […] The post Dr…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
