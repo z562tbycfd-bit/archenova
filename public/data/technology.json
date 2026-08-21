@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-21T09:38:33.734Z",
+  "updated": "2026-08-21T10:32:34.662Z",
   "items": [
     {
       "source": "MIT Technology Review",
@@ -73,6 +73,15 @@
       "ts": 1787300520000,
       "publishedAt": "2026-08-21T08:22:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Revamps Major Nuclear Power Database",
+      "url": "http://www.iaea.org/newscenter/news/iaea-revamps-major-nuclear-power-database",
+      "summary": "",
+      "ts": 1787297405000,
+      "publishedAt": "2026-08-21T07:30:05.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "arXiv q-bio",
@@ -799,15 +808,6 @@
       "title": "Polarization controlled second harmonic generation imaging of stretched collagen fibrils reveals collagen deformation pathway in situ",
       "url": "https://arxiv.org/abs/2608.18898",
       "summary": "arXiv:2608.18898v1 Announce Type: new Abstract: The tensile properties of single collagen fibrils, the building block of load-bearing tissues, have been studied extensively by nanomechanical techniques and molecular dyna…",
-      "ts": 1787198400000,
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Transcranial magnetic stimulation of visual-motion area V5/MT modulates sensory thalamus responses during visual speech recognition",
-      "url": "https://arxiv.org/abs/2608.19034",
-      "summary": "arXiv:2608.19034v1 Announce Type: new Abstract: Responses in the sensory thalamic nuclei are modulated by perceptual tasks. Whether such response modulations rely on feedback from cerebral cortex in humans is unknown. He…",
       "ts": 1787198400000,
       "publishedAt": "2026-08-20T04:00:00.000Z",
       "categoryId": "bio"
