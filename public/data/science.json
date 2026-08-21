@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-21T19:27:13.971Z",
+  "updated": "2026-08-21T20:27:57.797Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists map hair follicle formation in spacetime, advancing understanding of how organs develop",
+      "url": "https://phys.org/news/2026-08-scientists-hair-follicle-formation-spacetime.html",
+      "summary": "In a new research report, scientists at Johns Hopkins Medicine say they have developed a technology that allows them to capture a 3D molecular \"snapshot\" of hundreds of hair follicles as they develop and then reconstruct…",
+      "ts": 1787343601000,
+      "publishedAt": "2026-08-21T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Inside the race to prepare cities for extreme heat",
+      "url": "https://phys.org/news/2026-08-cities-extreme.html",
+      "summary": "A sea of corrugated metal roofs stretches into the distance across an informal settlement in Makassar, Indonesia.",
+      "ts": 1787342407000,
+      "publishedAt": "2026-08-21T20:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Iron hydride enters an exotic state of matter under Earth's inner-core conditions",
+      "url": "https://phys.org/news/2026-08-iron-hydride-exotic-state-earth.html",
+      "summary": "Earth's inner core, composed primarily of iron with a small percentage of light elements, may enter a superionic state at extreme pressure and temperature, according to experimental results from researchers at Science To…",
+      "ts": 1787342404000,
+      "publishedAt": "2026-08-21T20:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New Monte Carlo method accelerates simulations of densely entangled polymer melts",
+      "url": "https://phys.org/news/2026-08-monte-carlo-method-simulations-densely.html",
+      "summary": "Long polymer chains are everywhere: in synthetic materials, soft matter, biological systems such as chromosomes, and mathematical models of filaments and knots. When many such chains are densely packed, they form what ph…",
+      "ts": 1787341204000,
+      "publishedAt": "2026-08-21T19:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Realistic solid-state model brings fractons in quantum spin liquids closer to detection",
@@ -767,38 +799,6 @@
       "title": "Ultrafast optical coherence elastography for volumetric and dynamic in vivo imaging",
       "url": "https://arxiv.org/abs/2608.19566",
       "summary": "arXiv:2608.19566v1 Announce Type: new Abstract: Imaging the mechanical properties of biological tissues in vivo with high spatial and temporal resolution is essential for understanding physiological function and disease …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterizing the temporal evolution of Biermann-battery-driven magnetic reconnection in laser-ablated plasmas",
-      "url": "https://arxiv.org/abs/2608.19591",
-      "summary": "arXiv:2608.19591v1 Announce Type: new Abstract: This paper presents an experimental investigation of magnetic reconnection between two laser-produced expanding plasmas, focusing on the quantitative evaluation of the reco…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shift or curtail? How much data-center flexibility is worth depends on the host power grid",
-      "url": "https://arxiv.org/abs/2608.19622",
-      "summary": "arXiv:2608.19622v1 Announce Type: new Abstract: Data-center growth risks overbuilding power grid infrastructure and stranding capital. Flexible data-center operation can defer infrastructure investments, but its value de…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collisionless Resonances Set the Size of a Weyl Exceptional Ring",
-      "url": "https://arxiv.org/abs/2608.19624",
-      "summary": "arXiv:2608.19624v1 Announce Type: new Abstract: Eliminating continuum degrees of freedom converts conservative dynamics into a dispersive, non-Hermitian response whose topology need not represent the causally selected ki…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The comets discovered from New Zealand, and the astronomers who found them",
-      "url": "https://arxiv.org/abs/2608.19636",
-      "summary": "arXiv:2608.19636v1 Announce Type: new Abstract: Eleven comets were discovered by six New Zealanders from New Zealand shores. New Zealand's important geographical position south of the Equator is highlighted. This locatio…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }

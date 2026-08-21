@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-21T19:27:15.589Z",
+  "updated": "2026-08-21T20:27:59.879Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Chinese radio-frequency intelligence startup StarRF closes new funding round",
+      "url": "https://spacenews.com/chinese-radio-frequency-intelligence-startup-starrf-closes-new-funding-round/",
+      "summary": "HELSINKI — A Chinese startup building a constellation to detect and geolocate radio-frequency emissions from orbit has closed a funding round as China’s commercial sector expands. Tianjin-based Xingkan Jiuzhou Technology…",
+      "ts": 1787342939000,
+      "publishedAt": "2026-08-21T20:08:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "New Novaspace forecast: 6,500+ EO satellites to launch by 2035",
+      "url": "https://spacenews.com/new-novaspace-forecast-6500-eo-satellites-to-launch-by-2035/",
+      "summary": "Paris, France | August 2026– More than 6,500 Earth observation (EO) satellites are expected to launch by 2035, generating $155.9 billion in manufacturing revenues as governments expand sovereign intelligence, surveillanc…",
+      "ts": 1787341694000,
+      "publishedAt": "2026-08-21T19:48:14.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
@@ -790,24 +808,6 @@
       "title": "Russian missiles kill 17 more in Ukraine as Guterres calls for ceasefire",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168181",
       "summary": "Russian ballistic missile strikes killed 17 people and injured more than 40 in and around the Ukrainian capital Kyiv on Thursday, local authorities reported.",
-      "ts": 1787227200000,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Middle East: 94 per cent need shelter in Gaza, Israel ramps up demolitions in Lebanon",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168180",
-      "summary": "Ninety-four cent of Gaza’s 2.1 million residents need shelter as Israeli gunfire and strikes continue inside the enclave, UN agencies and peacekeepers warned on Thursday.",
-      "ts": 1787227200000,
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Colombia earthquake: 1.2 million need aid as some communities remain out of reach",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168178",
-      "summary": "Ten days after a powerful earthquake struck western Colombia, an estimated 1.2 million people need humanitarian assistance, while some communities have still received little or no aid, UN agencies said on Thursday.",
       "ts": 1787227200000,
       "publishedAt": "2026-08-20T12:00:00.000Z",
       "categoryId": "global-governance"
