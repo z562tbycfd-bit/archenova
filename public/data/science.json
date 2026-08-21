@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-21T01:24:34.956Z",
+  "updated": "2026-08-21T03:04:58.284Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI-driven literature mining speeds discovery of heat-stable lead-free dielectric materials",
+      "url": "https://phys.org/news/2026-08-ai-driven-literature-discovery-stable.html",
+      "summary": "Artificial intelligence has analyzed data scattered across hundreds of research papers to discover new lead-free dielectric materials that maintain stable performance even at high temperatures. The study presents a new a…",
+      "ts": 1787280001000,
+      "publishedAt": "2026-08-21T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Century-old physics idea explains why cubic fluid equations work",
+      "url": "https://phys.org/news/2026-08-century-physics-idea-cubic-fluid.html",
+      "summary": "The Korea Institute of Civil Engineering and Building Technology (KICT) has developed a new cubic equation of state (EOS) that provides a physical justification for a mathematical structure that the chemical and petroleu…",
+      "ts": 1787276404000,
+      "publishedAt": "2026-08-21T01:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tourist sign translations made more culturally fluent by AI system",
@@ -22,6 +38,54 @@
       "source": "Nature Communications",
       "title": "Bridge health monitoring using existing telecommunication fiber-optic networks",
       "url": "https://www.nature.com/articles/s41467-026-76935-0",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "TTC33 forms a complex with WDR61 and PHF5A to recruit factors relevant to genomic integrity",
+      "url": "https://www.nature.com/articles/s41467-026-76928-z",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Charge-carrier enrichment type-dependent product selectivity in methane photooxidation",
+      "url": "https://www.nature.com/articles/s41467-026-77011-3",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structural and mechanistic insights into protective non-neutralizing antibodies targeting Crimean-Congo hemorrhagic fever virus nucleocapsid protein",
+      "url": "https://www.nature.com/articles/s41467-026-76702-1",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Heatwaves favour acyclic monoterpene emissions in tropical forests",
+      "url": "https://www.nature.com/articles/s41467-026-77087-x",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Vorticity-induced short-range ordering for heat insulation in anisotropically bonded CsAg<sub>2</sub>I<sub>3</sub>",
+      "url": "https://www.nature.com/articles/s41467-026-76794-9",
+      "summary": "",
+      "ts": 1787270400000,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Optimal canopy light-use strategy shapes global greenness dynamics",
+      "url": "https://www.nature.com/articles/s41467-026-76896-4",
       "summary": "",
       "ts": 1787270400000,
       "publishedAt": "2026-08-21T00:00:00.000Z"
@@ -735,70 +799,6 @@
       "title": "Enhancing Image Recognition Using Gaussian Boson Sampling",
       "url": "http://link.aps.org/doi/10.1103/9mb1-t3w4",
       "summary": "Author(s): Si-Qiu Gong, Ming-Cheng Chen, Hua-Liang Liu, Hao Su, Yi-Chao Gu, Hao-Yang Tang, Meng-Hao Jia, Yu-Hao Deng, Han-Tao Sun, Qian Wei, Hui Wang, Han-Sen Zhong, Xiao Jiang, Li Li, Nai-Le Liu, Dong-Ling Deng, Chao-Ya…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Hundred-Channel Reconfigurable Quantum Teleportation",
-      "url": "http://link.aps.org/doi/10.1103/rfz9-3prw",
-      "summary": "Author(s): Yanbo Lou, Jiabin Wang, Yuyan Zou, Lingyue Hou, Shengshuai Liu, and Jietai Jing Researchers have demonstrated the quantum teleportation of a 100-pixel image by a method that could help to scale up quantum netw…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Evaporative Flux Reversal of Binary Droplets: From Edge to Apex",
-      "url": "http://link.aps.org/doi/10.1103/m739-56q7",
-      "summary": "Author(s): Minhyeok Kuk and Hyoungsoo Kim Experimental studies of multicomponent droplet evaporation reveal distinct stages, with internal flow shifting from multiple vortices within the droplet to a single toroidal vort…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Self-Dual Higgs Transitions: Toric Code and Beyond",
-      "url": "http://link.aps.org/doi/10.1103/flfk-m8lj",
-      "summary": "Author(s): Wenjie Ji (纪文杰), Ryan A. Lanzetta, Zheng Zhou (周正), and Chong Wang (王翀) The toric code, when deformed in a way that preserves the self-duality ${\\mathbb{Z}}_{2}$ symmetry exchanging the electric and magnetic e…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Twin-Twisted van der Waals Crystal for Entangled Photon Source",
-      "url": "http://link.aps.org/doi/10.1103/wp59-zvvb",
-      "summary": "Author(s): Chaojie Ma, Mingkang Zhang, Lu He, Yijun Wang, Xuping Shi, Chang Liu, Youbao Ni, Haixin Wu, Yun-Kun Wu, Xifeng Ren, Zhipei Sun, Ling-Jun Kong, Xiangdong Zhang, Hao Hong, and Kaihui Liu Bright entangled photon …",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Nucleation suppression by charge screening on grain boundaries: A kinetic model for bulk imprint in polycrystalline ferroelectric thin films",
-      "url": "http://link.aps.org/doi/10.1103/sj7p-6lkc",
-      "summary": "Author(s): Huanhuan Tian, Jianguo Yang, and Ming Liu The imprint effect, a major reliability issue in ferroelectric memories, degrades the device by shifting the coercive field over time. This work reviews existing impri…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Machine-learning-assisted material and geometry characterization from Casimir force measurement",
-      "url": "http://link.aps.org/doi/10.1103/11zc-ty7q",
-      "summary": "Author(s): Hideo Iizuka and Shanhui Fan A broadband electromagnetic source is important for scientific and technological applications. Quantum vacuum fluctuations, which manifest most prominently in the Casimir effect, p…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Passive cryogenic vacuum metrology from translational damping of a Meissner-levitated magnetic sphere",
-      "url": "http://link.aps.org/doi/10.1103/dc1v-w5hq",
-      "summary": "Author(s): Kun Wang, Fang Xiong, Tong Wu, Xu-Ran Tao, Kai Ma, Yi-Chong Ren, Feng Xu, Xiao-Jing Chen, and Fei Xue Pressure metrology in cryogenic ultrahigh vacuum is limited by the need for in situ readout that does not p…",
-      "ts": 1787220000000,
-      "publishedAt": "2026-08-20T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Raman detuning compensation in atom gravimeters for surveys of marine gravity",
-      "url": "http://link.aps.org/doi/10.1103/9cy9-3jd3",
-      "summary": "Author(s): Su-Peng Li, Xi Chen, Bei-Bei Liu, Ming-Qi Huang, Yu-Heng Zhao, Yu Luo, Sheng-Hua Li, Chang-Chun Wang, Jian-Wei Pan, Luo-Kan Chen, and Shuai Chen A cold-atom gravimeter, with high sensitivity, long-term stabili…",
       "ts": 1787220000000,
       "publishedAt": "2026-08-20T10:00:00.000Z"
     }
