@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T16:26:54.241Z",
+  "updated": "2026-08-22T17:22:33.667Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI mapping reveals hidden stage of Arctic freeze with climate implications",
+      "url": "https://phys.org/news/2026-08-ai-reveals-hidden-stage-arctic.html",
+      "summary": "As autumn gives way to winter across the Arctic, the ground doesn't immediately freeze solid. Instead, soils often linger near the freezing point for days or even weeks in a phase called the zero curtain. In a new NASA-l…",
+      "ts": 1787418001000,
+      "publishedAt": "2026-08-22T17:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Heat wave-hit Europe logs over 30,000 excess summer deaths: First figures",
@@ -793,14 +801,6 @@
       "summary": "A British zoo Friday hailed the successful treatment of a cancer-stricken python named after Hollywood star Jodie Foster, who became the first snake to receive an innovative treatment combining surgery and electrochemoth…",
       "ts": 1787302801000,
       "publishedAt": "2026-08-21T09:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Schools are starting to teach AI literacy. For many, that means helping kids see chatbots' flaws",
-      "url": "https://phys.org/news/2026-08-schools-ai-literacy-kids-chatbots.html",
-      "summary": "Artificial intelligence chatbots have become the bane of teachers everywhere, but to prepare for the new school year, a group of educators in Charleston, South Carolina, packed into a high school auditorium and talked ab…",
-      "ts": 1787301602000,
-      "publishedAt": "2026-08-21T08:40:02.000Z"
     }
   ],
   "sources": [
