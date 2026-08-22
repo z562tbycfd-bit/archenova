@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-22T03:35:42.557Z",
+  "updated": "2026-08-22T05:29:41.299Z",
   "items": [
     {
       "source": "Phys.org",
@@ -30,6 +30,14 @@
       "source": "Nature Communications",
       "title": "Multiple superconducting phases and order-parameter evolution in pressurized UTe<sub>2</sub>",
       "url": "https://www.nature.com/articles/s41467-026-77045-7",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Sex of central neurons controls intestinal niche signalling to drive sex differences in stem cell activity and cancer susceptibility",
+      "url": "https://www.nature.com/articles/s41467-026-76998-z",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -580,14 +588,6 @@
     },
     {
       "source": "APS PRX",
-      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
-      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
-      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
       "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
       "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
       "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
@@ -615,6 +615,14 @@
       "title": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit",
       "url": "http://link.aps.org/doi/10.1103/zjgr-1cxw",
       "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
+      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
+      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -791,14 +799,6 @@
       "title": "Effect of Microscale Turbulent Structures Dynamics on Forced Convection in Turbulent Porous Media Flow",
       "url": "https://arxiv.org/abs/2608.19342",
       "summary": "arXiv:2608.19342v1 Announce Type: new Abstract: The influence of microscale flow structures (smaller than the pore size) on turbulent heat transfer in porous media has not been yet investigated. The goal of this study is…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Black-Box Coherence Matrix Eigen-Spectroscopy with Programmable Photonics",
-      "url": "https://arxiv.org/abs/2608.19353",
-      "summary": "arXiv:2608.19353v1 Announce Type: new Abstract: The precise characterization of spatial optical coherence is fundamental to emerging applications in optical communications and computational imaging. However, extracting t…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
