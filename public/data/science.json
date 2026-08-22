@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T22:24:17.482Z",
+  "updated": "2026-08-22T23:23:10.364Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How we found Haida Gwaii's first marbled murrelet nest in more than 30 years",
+      "url": "https://phys.org/news/2026-08-haida-gwaii-marbled-murrelet-years.html",
+      "summary": "Scrambling through dense salal in the dark, weaving between the majestic western red cedars of northern Haida Gwaii, I could barely imagine where we were just days before—crossing Dixon Entrance off the coast in an open …",
+      "ts": 1787439601000,
+      "publishedAt": "2026-08-22T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Computer models pinpoint catalysts for replacing fossil-fueled ammonia production",
@@ -791,14 +799,6 @@
       "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
       "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
       "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Spin splitting torque–induced perpendicular magnetization field-free switching in the ${\\mathrm{SrTiO}}_{3}/{\\mathrm{RuO}}_{2}/[{\\mathrm{C}\\mathrm{o}/\\mathrm{Pt}]}_{2}$ heterostructure",
-      "url": "http://link.aps.org/doi/10.1103/r8ck-3pbm",
-      "summary": "Author(s): Xiaoyu Feng, Xinge Feng, Peng Zhang, Fangjun Guo, Zhirui Wang, Yifei Wang, Zhiqiang Zhang, Wending Liu, Dangwei Guo, Desheng Xue, and Xiaolong Fan Exploring materials with unconventional spin transport propert…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
