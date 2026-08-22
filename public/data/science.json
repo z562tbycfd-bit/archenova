@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T18:33:03.975Z",
+  "updated": "2026-08-22T19:23:51.246Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines",
+      "url": "https://phys.org/news/2026-08-dynamic-duo-hierarchical-dna-materials.html",
+      "summary": "Biomolecular nanomachines, such as enzymes and molecular motors, are the workhorses behind the synthesis and organization of complex materials in life. Powered by chemical energy, they build, transport and organize biomo…",
+      "ts": 1787425201000,
+      "publishedAt": "2026-08-22T19:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mars Curiosity rover discovers massive field of polygons",
@@ -791,14 +799,6 @@
       "title": "Magnetophotoelectric effect in graphene via tailored potential landscapes",
       "url": "http://link.aps.org/doi/10.1103/k1y8-vr4y",
       "summary": "Author(s): Joris Josiek, Friedemann Queisser, Stephan Winnerl, and Ralf Schützhold We study the propagation of charge carriers in planar graphene under the combined influence of a constant transversal magnetic field $B$ …",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit",
-      "url": "http://link.aps.org/doi/10.1103/zjgr-1cxw",
-      "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }

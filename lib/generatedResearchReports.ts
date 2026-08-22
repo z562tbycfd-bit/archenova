@@ -1,6 +1,61 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "energy-the-dynamic-duo-weaving-hierarchical-dna-materials-with-two-classes-of-biomolecu",
+    "title": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-dynamic-duo-hierarchical-dna-materials.html",
+    "summary": "Biomolecular nanomachines, such as enzymes and molecular motors, are the workhorses behind the synthesis and organization of complex materials in life. Powered by chemical energy, they build, transport and organize biomo…",
+    "coreInsight": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Biomolecular nanomachines, such as enzymes and molecular motors, are the workhorses behind the synthesis and organization of complex materials in life. Powered by chemical energy, they build, transport and organize biomo…",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1787425201000
+  },
+  {
     "slug": "general-mars-curiosity-rover-discovers-massive-field-of-polygons",
     "title": "Mars Curiosity rover discovers massive field of polygons",
     "category": "General",
@@ -2097,61 +2152,6 @@ export const generatedResearchReports =
       "classification": "Adaptive Resilience Signal"
     },
     "ts": 1787342407000
-  },
-  {
-    "slug": "general-iron-hydride-enters-an-exotic-state-of-matter-under-earth-s-inner-core-condition",
-    "title": "Iron hydride enters an exotic state of matter under Earth's inner-core conditions",
-    "category": "General",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-iron-hydride-exotic-state-earth.html",
-    "summary": "Earth's inner core, composed primarily of iron with a small percentage of light elements, may enter a superionic state at extreme pressure and temperature, according to experimental results from researchers at Science To…",
-    "coreInsight": "Iron hydride enters an exotic state of matter under Earth's inner-core conditions indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
-    "scientificSignal": "Earth's inner core, composed primarily of iron with a small percentage of light elements, may enter a superionic state at extreme pressure and temperature, according to experimental results from researchers at Science To…",
-    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Measurement reliability",
-      "Regional variability",
-      "Institutional adoption",
-      "Long-term financing and governance"
-    ],
-    "watchpoints": [
-      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.1,
-      "engineering": 7.9,
-      "economic": 8,
-      "civilization": 9.2,
-      "overall": 8.4,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1787342404000
   },
   {
     "slug": "space-new-novaspace-forecast-6-500-eo-satellites-to-launch-by-2035",
@@ -4304,61 +4304,6 @@ export const generatedResearchReports =
     "ts": 1787306400000
   },
   {
-    "slug": "quantum-fast-high-fidelity-baseband-reset-of-a-latched-state-for-readout-of-a-quantum-do",
-    "title": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit",
-    "category": "Quantum",
-    "source": "APS PR Applied",
-    "originalUrl": "http://link.aps.org/doi/10.1103/zjgr-1cxw",
-    "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
-    "coreInsight": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this Quantum signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Quantum phenomenon control",
-      "Device stability",
-      "Scalable quantum system",
-      "Industrial application",
-      "New computation and sensing capability"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1787306400000
-  },
-  {
     "slug": "ai-mother-tongue",
     "title": "Mother tongue",
     "category": "AI",
@@ -5514,6 +5459,61 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1787284800000
+  },
+  {
+    "slug": "quantum-resource-efficient-bio-molecular-docking-on-a-nisq-era-digital-quantum-computer",
+    "title": "Resource-Efficient Bio-Molecular Docking on a NISQ-era Digital Quantum Computer",
+    "category": "Quantum",
+    "source": "arXiv q-bio",
+    "originalUrl": "https://arxiv.org/abs/2608.19868",
+    "summary": "arXiv:2608.19868v1 Announce Type: cross Abstract: Molecular docking is a vital computational task in drug discovery, wherein the objective is to efficiently identify optimal binding poses between a ligand and a target re…",
+    "coreInsight": "Resource-Efficient Bio-Molecular Docking on a NISQ-era Digital Quantum Computer indicates a possible shift in computation, AI infrastructure, chips, data systems, automation, or strategic intelligence capacity.",
+    "scientificSignal": "arXiv:2608.19868v1 Announce Type: cross Abstract: Molecular docking is a vital computational task in drug discovery, wherein the objective is to efficiently identify optimal binding poses between a ligand and a target re…",
+    "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
+    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
+    "strategicRelevance": "Strategically relevant for AI infrastructure, semiconductors, cloud platforms, data centers, simulation systems, automation, and institutional decision intelligence.",
+    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
+    "capitalImplication": "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud systems, data centers, model deployment, and computational platforms.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Compute cost",
+      "Energy demand",
+      "Hardware availability",
+      "Security, safety, and governance constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
+    "technologyRoadmap": [
+      "Computational architecture",
+      "Hardware or model optimization",
+      "Platform deployment",
+      "Institutional and industrial adoption",
+      "Civilization-scale prediction capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Deployment into research and enterprise systems.",
+      "mid": "5–15 Years: Infrastructure-scale computational integration.",
+      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "Very High",
+      "timeHorizon": "3–10 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8,
+      "engineering": 9.2,
+      "economic": 9.1,
+      "civilization": 9,
+      "overall": 8.8,
+      "classification": "Intelligence Infrastructure Signal"
+    },
+    "ts": 1787284800000
   }
 ];
 
@@ -5852,21 +5852,21 @@ export const archeNovaTopSignals =
     "ts": 1787284800000
   },
   {
-    "slug": "energy-iaea-revamps-major-nuclear-power-database",
-    "title": "IAEA Revamps Major Nuclear Power Database",
+    "slug": "energy-the-dynamic-duo-weaving-hierarchical-dna-materials-with-two-classes-of-biomolecu",
+    "title": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines",
     "category": "Energy",
-    "source": "IAEA News",
-    "originalUrl": "http://www.iaea.org/newscenter/news/iaea-revamps-major-nuclear-power-database",
-    "summary": "",
-    "coreInsight": "IAEA Revamps Major Nuclear Power Database indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "IAEA Revamps Major Nuclear Power Database",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-dynamic-duo-hierarchical-dna-materials.html",
+    "summary": "Biomolecular nanomachines, such as enzymes and molecular motors, are the workhorses behind the synthesis and organization of complex materials in life. Powered by chemical energy, they build, transport and organize biomo…",
+    "coreInsight": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Biomolecular nanomachines, such as enzymes and molecular motors, are the workhorses behind the synthesis and organization of complex materials in life. Powered by chemical energy, they build, transport and organize biomo…",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
     "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
+    "civilizationFunction": "Capability Expansion",
     "keyConstraints": [
       "Technical reliability",
       "Grid or industrial integration",
@@ -5904,7 +5904,7 @@ export const archeNovaTopSignals =
       "overall": 9.2,
       "classification": "Civilization Energy Signal"
     },
-    "ts": 1787297405000
+    "ts": 1787425201000
   },
   {
     "slug": "general-mysteries-of-the-commonplace",
@@ -6420,6 +6420,63 @@ export const archeNovaWatchlist =
     "rank": 6
   },
   {
+    "slug": "energy-the-dynamic-duo-weaving-hierarchical-dna-materials-with-two-classes-of-biomolecu",
+    "title": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-dynamic-duo-hierarchical-dna-materials.html",
+    "summary": "Biomolecular nanomachines, such as enzymes and molecular motors, are the workhorses behind the synthesis and organization of complex materials in life. Powered by chemical energy, they build, transport and organize biomo…",
+    "coreInsight": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Biomolecular nanomachines, such as enzymes and molecular motors, are the workhorses behind the synthesis and organization of complex materials in life. Powered by chemical energy, they build, transport and organize biomo…",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1787425201000,
+    "trend": "Stable",
+    "rank": 7
+  },
+  {
     "slug": "general-mysteries-of-the-commonplace",
     "title": "Mysteries of the commonplace",
     "category": "General",
@@ -6474,7 +6531,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787396400000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 8
   },
   {
     "slug": "ai-scientists-map-hair-follicle-formation-in-spacetime-advancing-understanding-of-h",
@@ -6531,7 +6588,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787343601000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 9
   },
   {
     "slug": "ai-nasa-shares-views-of-august-solar-eclipse-from-ground-air-space",
@@ -6588,7 +6645,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787337820000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "ai-from-models-to-agents-the-next-phase-of-ai-adoption-in-molecular-discovery",
@@ -6645,7 +6702,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787326089000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "energy-iaea-revamps-major-nuclear-power-database",
@@ -6702,7 +6759,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787297405000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "bio-hydrogel-platform-uses-vitamin-b2-and-blue-light-to-simplify-living-tissue-model",
@@ -6760,7 +6817,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787348401000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "general-huge-breakthrough-in-the-math-of-imbalance",
@@ -6817,7 +6874,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787324012000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "ai-ai-mapping-reveals-hidden-stage-of-arctic-freeze-with-climate-implications",
@@ -6874,7 +6931,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787418001000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "space-asian-summer-monsoon-orbital-variability-directly-paced-by-co2-and-precession-no",
@@ -6931,7 +6988,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787356800000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "general-soccer-ticket-crackdowns-and-price-hikes-are-excluding-traditional-fans",
@@ -6989,7 +7046,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787355604000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "space-chinese-radio-frequency-intelligence-startup-starrf-closes-new-funding-round",
@@ -7046,7 +7103,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787342939000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "space-tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applicati",
@@ -7103,7 +7160,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1787334060000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 19
   },
   {
     "slug": "space-webb-opens-treasure-chest",
@@ -7159,63 +7216,6 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1787333711000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "space-nasa-s-artemis-ii-crew-set-to-receive-congressional-space-medal-of-honor",
-    "title": "NASA’s Artemis II Crew Set to Receive Congressional Space Medal of Honor",
-    "category": "Space",
-    "source": "NASA",
-    "originalUrl": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-set-to-receive-congressional-space-medal-of-honor/",
-    "summary": "President Donald J. Trump will award each of NASA’s Artemis II crew members the Congressional Space Medal of Honor at 11 a.m. EDT on Friday, Aug. 28, during a ceremony at the agency’s Johnson Space Center in Houston. NAS…",
-    "coreInsight": "NASA’s Artemis II Crew Set to Receive Congressional Space Medal of Honor indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "President Donald J. Trump will award each of NASA’s Artemis II crew members the Congressional Space Medal of Honor at 11 a.m. EDT on Friday, Aug. 28, during a ceremony at the agency’s Johnson Space Center in Houston. NAS…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1787331996000,
     "trend": "Stable",
     "rank": 20
   }
