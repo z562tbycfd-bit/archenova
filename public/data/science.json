@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-22T14:23:28.437Z",
+  "updated": "2026-08-22T15:23:02.030Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Thawing Arctic riverbeds may erode up to 10 times faster than unfrozen ground",
+      "url": "https://phys.org/news/2026-08-arctic-riverbeds-erode-faster-unfrozen.html",
+      "summary": "Sometimes science throws up the unexpected. When a team of researchers set out to model river erosion in Canada's High Arctic, they did not expect the findings to defy common sense.",
+      "ts": 1787412005000,
+      "publishedAt": "2026-08-22T15:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A museum-shelf mystery reveals 6,500-year-old human tooth pendant in Serbia",
+      "url": "https://phys.org/news/2026-08-museum-shelf-mystery-reveals-year.html",
+      "summary": "More than 6,500 years ago, someone carefully drilled a hole in a human tooth, strung it on a cord and likely used it as a necklace. Found during field surveys at the Vinča cultural site of Jablanica in Serbia, the human …",
+      "ts": 1787410806000,
+      "publishedAt": "2026-08-22T15:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Near-total lunar eclipse is coming up with the Americas in prime position",
+      "url": "https://phys.org/news/2026-08-total-lunar-eclipse-americas-prime.html",
+      "summary": "Now it's the moon's turn to pull a disappearing act. After being shut out of this month's total solar eclipse, the Americas will have the best seats in the celestial house when Earth's shadow briefly envelops the moon. A…",
+      "ts": 1787409514000,
+      "publishedAt": "2026-08-22T14:38:34.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Animal genomes follow irreversible 'evolutionary highways' across thousands of species",
@@ -44,8 +68,24 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Longitudinal digital phenotyping of activity rhythms and biological aging using commercial wearables",
+      "url": "https://www.nature.com/articles/s41467-026-76147-6",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "An LRR-truncated NLR natural variant confers dual resistance to drought and blast in rice",
       "url": "https://www.nature.com/articles/s41467-026-76840-6",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Time-Temperature-Transformation Diagrams to Navigate the Nucleation and Quenchability of Metastable α-Li₃PS<sub>4</sub>",
+      "url": "https://www.nature.com/articles/s41467-026-76661-7",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -660,6 +700,14 @@
     },
     {
       "source": "APS PRX",
+      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
+      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
+      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
       "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
       "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
       "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
@@ -687,14 +735,6 @@
       "title": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit",
       "url": "http://link.aps.org/doi/10.1103/zjgr-1cxw",
       "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
-      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
-      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -759,46 +799,6 @@
       "title": "Radiotracer photoluminescence for element-specific identification of color centers",
       "url": "https://arxiv.org/abs/2608.19219",
       "summary": "arXiv:2608.19219v1 Announce Type: new Abstract: We report on the implementation of a radiotracer photoluminescence spectroscopy setup at the ISOLDE radioactive ion beam facility at CERN, enabling element-specific identif…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "UPLOAD-ANYON: Progress Towards an Optimised Twisted Anyon Cavity with High-Sensitivity AM-Noise Detection for an Ultralight Axion Dark Matter Search",
-      "url": "https://arxiv.org/abs/2608.19225",
-      "summary": "arXiv:2608.19225v1 Announce Type: new Abstract: We propose a superconducting single-mode microwave haloscope based on helical cavity resonators for the detection of ultralight dark matter axions over the mass range $10^{…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Serenity-S1, a CMS Tracker Readout and Data Processing Card for HL-LHC",
-      "url": "https://arxiv.org/abs/2608.19226",
-      "summary": "arXiv:2608.19226v1 Announce Type: new Abstract: The CERN Large Hadron Collider will be upgraded to the High-Luminosity LHC, increasing the particle-collision rate and the demands on detector readout. A key element of thi…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cosmic-ray characterization of a timing detector based on extruded scintillators and wavelength-shifting fibers read-out through SiPMs",
-      "url": "https://arxiv.org/abs/2608.19229",
-      "summary": "arXiv:2608.19229v1 Announce Type: new Abstract: Timing detectors based on extruded scintillators of different dimensions with different kinds of wavelength-shifting fibers read-out through SiPMs have been extensively tes…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalised Perturbed Convective Wave Theory",
-      "url": "https://arxiv.org/abs/2608.19236",
-      "summary": "arXiv:2608.19236v1 Announce Type: new Abstract: The theory of the perturbed convective wave equation for compressible flows (cPCWE) is generalised to spatially varying mean-density fields. The resulting equation is an ex…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weakly nonlinear internal waves by tidal flow over a ridge in a shear current",
-      "url": "https://arxiv.org/abs/2608.19237",
-      "summary": "arXiv:2608.19237v1 Announce Type: new Abstract: We extend Thorpe successive approximation expansion to the forced, tide locked internal wave generation problem of Lamb and Dunphy, where a barotropic tide over a ridge rad…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
