@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-22T13:33:14.718Z",
+  "updated": "2026-08-22T14:23:28.437Z",
   "items": [
     {
       "source": "Phys.org",
@@ -660,14 +660,6 @@
     },
     {
       "source": "APS PRX",
-      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
-      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
-      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
       "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
       "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
       "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
@@ -695,6 +687,14 @@
       "title": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit",
       "url": "http://link.aps.org/doi/10.1103/zjgr-1cxw",
       "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
+      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
+      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
