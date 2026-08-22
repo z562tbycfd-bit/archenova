@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-22T06:42:23.321Z",
+  "updated": "2026-08-22T07:33:14.862Z",
   "items": [
     {
       "source": "Phys.org",
@@ -12,8 +12,32 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Glucagon-like Peptide-1 Receptor Agonists and Risk of Tuberculosis in Type 2 Diabetes",
+      "url": "https://www.nature.com/articles/s41467-026-77068-0",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "An LRR-truncated NLR natural variant confers dual resistance to drought and blast in rice",
+      "url": "https://www.nature.com/articles/s41467-026-76840-6",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Data-driven construction of an imine reductase library capable of broad-scope reductive amination at equimolar substrate concentrations",
       "url": "https://www.nature.com/articles/s41467-026-76869-7",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structural basis of the gating mechanism of the large-conductance mechanosensitive channel from <i>Escherichia coli</i>",
+      "url": "https://www.nature.com/articles/s41467-026-76193-0",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -775,30 +799,6 @@
       "title": "Multivariate amplitude analysis of the cascade particle decays based on the Nearest Neighbors fitting",
       "url": "https://arxiv.org/abs/2608.19267",
       "summary": "arXiv:2608.19267v1 Announce Type: new Abstract: The Nearest Neighbors estimation of likelihood is implemented for the multivariate amplitude analysis of the cascades of particle decays. In this approach Monte Carlo simul…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The 1908 Tunguska event in data of the nearest weather station",
-      "url": "https://arxiv.org/abs/2608.19288",
-      "summary": "arXiv:2608.19288v1 Announce Type: new Abstract: This paper is a continuation of a series of works, devoted to various aspects of the 1908 Tunguska event. In this paper data is discussed from a weather station in the sett…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rural Commute Patterns",
-      "url": "https://arxiv.org/abs/2608.19291",
-      "summary": "arXiv:2608.19291v1 Announce Type: new Abstract: Transportation provides access to employment opportunities and essential services such as healthcare services, while urban areas have various transportation options, the si…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of Microscale Turbulent Structures Dynamics on Forced Convection in Turbulent Porous Media Flow",
-      "url": "https://arxiv.org/abs/2608.19342",
-      "summary": "arXiv:2608.19342v1 Announce Type: new Abstract: The influence of microscale flow structures (smaller than the pore size) on turbulent heat transfer in porous media has not been yet investigated. The goal of this study is…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
