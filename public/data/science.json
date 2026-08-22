@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-22T02:56:03.410Z",
+  "updated": "2026-08-22T03:44:49.675Z",
   "items": [
     {
       "source": "Phys.org",
@@ -9,6 +9,14 @@
       "summary": "Two-thirds of Americans favor banning the use of the herbicide glyphosate, the active ingredient in the popular weedkiller Roundup, on crops grown in the United States, according to a nationally representative survey con…",
       "ts": 1787364001000,
       "publishedAt": "2026-08-22T02:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Data-driven construction of an imine reductase library capable of broad-scope reductive amination at equimolar substrate concentrations",
+      "url": "https://www.nature.com/articles/s41467-026-76869-7",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
     },
     {
       "source": "Nature Communications",
@@ -22,6 +30,14 @@
       "source": "Nature Communications",
       "title": "Multiple superconducting phases and order-parameter evolution in pressurized UTe<sub>2</sub>",
       "url": "https://www.nature.com/articles/s41467-026-77045-7",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Reconfiguring handed shape-morphing and actuation in hydrogels via light-encoded rapid expansion",
+      "url": "https://www.nature.com/articles/s41467-026-76133-y",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -500,6 +516,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -543,14 +567,6 @@
       "title": "Spinon Singlet Pairing: Origin of $d$-Wave Sign Structure in a Partially Filled Stripe",
       "url": "http://link.aps.org/doi/10.1103/wcqv-pcls",
       "summary": "Author(s): Jia-Long Wang, Shi-Jie Hu, and Xue-Feng Zhang Significant research advances have led to a consensus that the Fermi-Hubbard model and its extended variants are archetypical frameworks for elucidating the intert…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -783,22 +799,6 @@
       "title": "Informing spectral models for dense plasmas with K-edge absorption measurements of warm dense copper",
       "url": "https://arxiv.org/abs/2608.19382",
       "summary": "arXiv:2608.19382v1 Announce Type: new Abstract: Warm dense matter remains a challenging regime to characterize experimentally and to model with predictive accuracy. Recent experimental platforms have been developed to ge…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scalar-Longitudinal Radiation in Extended Electrodynamics with Multipole Theory and a Compensated Source Model",
-      "url": "https://arxiv.org/abs/2608.19405",
-      "summary": "arXiv:2608.19405v1 Announce Type: new Abstract: Extended electrodynamics (EED) leaves the Lorenz gauge condition unimposed and treats the scalar combination $C=\\nabla\\cdot\\mathbf{A}+c^{-2}\\partial\\Phi/\\partial t$ as a dy…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stability and nonlinear dynamics of three-layer viscous films inside a vertical cylindrical tube",
-      "url": "https://arxiv.org/abs/2608.19417",
-      "summary": "arXiv:2608.19417v1 Announce Type: new Abstract: We investigate the dynamics and stability of three immiscible viscous liquid layers coating the interior of a vertical cylindrical tube, a configuration relevant to stratif…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
