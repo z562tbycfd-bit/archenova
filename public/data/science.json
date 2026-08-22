@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T01:19:47.349Z",
+  "updated": "2026-08-22T02:56:03.410Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Bipartisan majorities in US favor banning glyphosate",
+      "url": "https://phys.org/news/2026-08-bipartisan-majorities-favor-glyphosate.html",
+      "summary": "Two-thirds of Americans favor banning the use of the herbicide glyphosate, the active ingredient in the popular weedkiller Roundup, on crops grown in the United States, according to a nationally representative survey con…",
+      "ts": 1787364001000,
+      "publishedAt": "2026-08-22T02:00:01.000Z"
+    },
     {
       "source": "Nature Communications",
       "title": "Alcohol reshapes liver zonal plasticity and immune-metabolic reprogramming in metabolic-syndrome associated hepatocellular carcinoma",
@@ -492,14 +500,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -543,6 +543,14 @@
       "title": "Spinon Singlet Pairing: Origin of $d$-Wave Sign Structure in a Partially Filled Stripe",
       "url": "http://link.aps.org/doi/10.1103/wcqv-pcls",
       "summary": "Author(s): Jia-Long Wang, Shi-Jie Hu, and Xue-Feng Zhang Significant research advances have led to a consensus that the Fermi-Hubbard model and its extended variants are archetypical frameworks for elucidating the intert…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -791,14 +799,6 @@
       "title": "Stability and nonlinear dynamics of three-layer viscous films inside a vertical cylindrical tube",
       "url": "https://arxiv.org/abs/2608.19417",
       "summary": "arXiv:2608.19417v1 Announce Type: new Abstract: We investigate the dynamics and stability of three immiscible viscous liquid layers coating the interior of a vertical cylindrical tube, a configuration relevant to stratif…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Second-Order Continuum Model for Disordered Traffic",
-      "url": "https://arxiv.org/abs/2608.19440",
-      "summary": "arXiv:2608.19440v1 Announce Type: new Abstract: In this study, a two-dimensional second-order macroscopic traffic flow model is proposed to capture the complex dynamics of disordered traffic by explicitly incorporating c…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
