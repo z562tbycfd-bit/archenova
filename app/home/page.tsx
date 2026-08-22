@@ -26,6 +26,9 @@ import TodaysInquiryPortal
 import ArcheNovaMap
   from "../components/civilization/ArcheNovaMap";
 
+import CivilizationRealizationPortal
+  from "../components/CivilizationRealizationPortal";
+
 
 /* ==========================================================
    TYPES
@@ -382,25 +385,10 @@ export default function Home() {
         >
 
           <HomeCategoryItem
-            className="an-flow-category__item--realization"
-          >
-
-            {/*
-              FUTURE:
-
-              import CivilizationRealizationPortal
-                from "../components/CivilizationRealizationPortal";
-
-              <CivilizationRealizationPortal />
-            */}
-
-            <FutureSystemPlaceholder
-              eyebrow="FUTURE SYSTEM"
-              title="Civilization Realization"
-              description="This space is reserved for the dedicated realization component that will connect validated research to implementation, reliability, correctability, manufacturing, deployment, and durable value."
-            />
-
-          </HomeCategoryItem>
+  className="an-flow-category__item--realization"
+>
+  <CivilizationRealizationPortal />
+</HomeCategoryItem>
 
         </HomeCategory>
 
