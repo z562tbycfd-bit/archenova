@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-21T23:26:19.181Z",
+  "updated": "2026-08-22T01:19:47.349Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Alcohol reshapes liver zonal plasticity and immune-metabolic reprogramming in metabolic-syndrome associated hepatocellular carcinoma",
+      "url": "https://www.nature.com/articles/s41467-026-77089-9",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
     {
       "source": "Nature Communications",
       "title": "Multiple superconducting phases and order-parameter evolution in pressurized UTe<sub>2</sub>",
@@ -9,6 +17,14 @@
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soccer ticket crackdowns and price hikes are excluding traditional fans",
+      "url": "https://phys.org/news/2026-08-soccer-ticket-crackdowns-price-hikes.html",
+      "summary": "The new season of the English Premier League is almost ready to kick off, and with it comes another annual cycle of the national game. Each August brings hope and expectation for supporters, with an opportunity to start …",
+      "ts": 1787355604000,
+      "publishedAt": "2026-08-21T23:40:04.000Z"
     },
     {
       "source": "Phys.org",
@@ -783,22 +799,6 @@
       "title": "Second-Order Continuum Model for Disordered Traffic",
       "url": "https://arxiv.org/abs/2608.19440",
       "summary": "arXiv:2608.19440v1 Announce Type: new Abstract: In this study, a two-dimensional second-order macroscopic traffic flow model is proposed to capture the complex dynamics of disordered traffic by explicitly incorporating c…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measurement and Optimal Targeting of a Hidden Scatterer in a Complex Environment Utilizing Fisher Information",
-      "url": "https://arxiv.org/abs/2608.19442",
-      "summary": "arXiv:2608.19442v1 Announce Type: new Abstract: A complex, non-Hermitian scattering system with a high degree of multiple scattering and interference is often treated as a black box, described simply by the relationship …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determining neutral fueling response to RMPs in MAST using a multi-reservoir particle balance model and EMC3 EIRENE",
-      "url": "https://arxiv.org/abs/2608.19446",
-      "summary": "arXiv:2608.19446v1 Announce Type: new Abstract: The application of certain configurations of resonant magnetic perturbations (RMPs) has been shown to cause a plasma pump-out in both L- and H-mode discharges at MAST. In t…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
