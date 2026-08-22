@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T20:29:48.824Z",
+  "updated": "2026-08-22T22:24:17.482Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Computer models pinpoint catalysts for replacing fossil-fueled ammonia production",
+      "url": "https://phys.org/news/2026-08-catalysts-fossil-fueled-ammonia-production.html",
+      "summary": "Ammonia is one of the most important chemicals produced in the world, ranking second only to sulfuric acid in the total volume produced each year. It is used mostly to make fertilizer, which is essential to feeding the w…",
+      "ts": 1787432404000,
+      "publishedAt": "2026-08-22T21:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The dynamic duo: 'Weaving' hierarchical DNA materials with two classes of biomolecular nanomachines",
@@ -791,14 +799,6 @@
       "title": "Spin splitting torque–induced perpendicular magnetization field-free switching in the ${\\mathrm{SrTiO}}_{3}/{\\mathrm{RuO}}_{2}/[{\\mathrm{C}\\mathrm{o}/\\mathrm{Pt}]}_{2}$ heterostructure",
       "url": "http://link.aps.org/doi/10.1103/r8ck-3pbm",
       "summary": "Author(s): Xiaoyu Feng, Xinge Feng, Peng Zhang, Fangjun Guo, Zhirui Wang, Yifei Wang, Zhiqiang Zhang, Wending Liu, Dangwei Guo, Desheng Xue, and Xiaolong Fan Exploring materials with unconventional spin transport propert…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Magnetophotoelectric effect in graphene via tailored potential landscapes",
-      "url": "http://link.aps.org/doi/10.1103/k1y8-vr4y",
-      "summary": "Author(s): Joris Josiek, Friedemann Queisser, Stephan Winnerl, and Ralf Schützhold We study the propagation of charge carriers in planar graphene under the combined influence of a constant transversal magnetic field $B$ …",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
