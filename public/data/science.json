@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T17:22:33.667Z",
+  "updated": "2026-08-22T18:33:03.975Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mars Curiosity rover discovers massive field of polygons",
+      "url": "https://phys.org/news/2026-08-mars-curiosity-rover-massive-field.html",
+      "summary": "The surface of Mars is home to some of the most breathtaking and awe-inspiring landscapes in the solar system. This is primarily because the Red Planet lacks several resurfacing processes that Earth possesses, including …",
+      "ts": 1787421604000,
+      "publishedAt": "2026-08-22T18:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI mapping reveals hidden stage of Arctic freeze with climate implications",
@@ -100,6 +108,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Asian summer monsoon orbital variability directly paced by CO2 and precession, not eccentricity",
+      "url": "https://www.nature.com/articles/s41467-026-76856-y",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Longitudinal digital phenotyping of activity rhythms and biological aging using commercial wearables",
       "url": "https://www.nature.com/articles/s41467-026-76147-6",
       "summary": "",
@@ -126,6 +142,14 @@
       "source": "Nature Communications",
       "title": "Data-driven construction of an imine reductase library capable of broad-scope reductive amination at equimolar substrate concentrations",
       "url": "https://www.nature.com/articles/s41467-026-76869-7",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Ru-enabled dehydration-reductive amination of α-, β-hydroxy acids into amino acids",
+      "url": "https://www.nature.com/articles/s41467-026-77053-7",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -777,30 +801,6 @@
       "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "What a record-breaking El Niño could mean for the world",
-      "url": "https://phys.org/news/2026-08-el-nio-world.html",
-      "summary": "This year's El Niño is on track to be the strongest on record, threatening to unleash extreme weather across the globe and make 2027 the hottest recorded year by far.",
-      "ts": 1787303401000,
-      "publishedAt": "2026-08-21T09:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Seeing the unseen: A new tool visualizes hidden structures in complex biological data",
-      "url": "https://phys.org/news/2026-08-unseen-tool-visualizes-hidden-complex.html",
-      "summary": "Modern biology research can now generate valuable data on an unprecedented scale. But there is one major obstacle: making sense of these complex high-dimensional datasets. A team at the University of Basel, Switzerland, …",
-      "ts": 1787302803000,
-      "publishedAt": "2026-08-21T09:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Pioneering cancer treatment saves python named Jodie Foster: UK zoo",
-      "url": "https://phys.org/news/2026-08-cancer-treatment-python-jodie-foster.html",
-      "summary": "A British zoo Friday hailed the successful treatment of a cancer-stricken python named after Hollywood star Jodie Foster, who became the first snake to receive an innovative treatment combining surgery and electrochemoth…",
-      "ts": 1787302801000,
-      "publishedAt": "2026-08-21T09:00:01.000Z"
     }
   ],
   "sources": [
