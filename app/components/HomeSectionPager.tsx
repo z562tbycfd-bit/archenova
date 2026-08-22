@@ -140,7 +140,7 @@ const CHAPTER_TARGETS:
       "GOVERNANCE",
 
     subtitle:
-      "Under what responsibility may it scale?",
+      "What should govern power?",
   },
 
   {
