@@ -95,24 +95,94 @@ function HomeCategory({
     }
 
 
-    const item =
-      rail.querySelector<HTMLElement>(
-        ".an-flow-category__item",
+    const items =
+      Array.from(
+        rail.querySelectorAll<HTMLElement>(
+          ".an-flow-category__item",
+        ),
       );
 
 
-    const amount =
-      item
-        ? item.offsetWidth + 18
-        : rail.clientWidth * 0.82;
+    if (
+      items.length <=
+      1
+    ) {
+      return;
+    }
 
 
-    rail.scrollBy({
+    const railRect =
+      rail.getBoundingClientRect();
+
+
+    const currentIndex =
+      items.reduce(
+        (
+          closestIndex,
+          item,
+          index,
+        ) => {
+
+          const itemRect =
+            item.getBoundingClientRect();
+
+
+          const currentDistance =
+            Math.abs(
+              itemRect.left -
+              railRect.left,
+            );
+
+
+          const closestRect =
+            items[
+              closestIndex
+            ]
+              .getBoundingClientRect();
+
+
+          const closestDistance =
+            Math.abs(
+              closestRect.left -
+              railRect.left,
+            );
+
+
+          return currentDistance <
+            closestDistance
+            ? index
+            : closestIndex;
+
+        },
+        0,
+      );
+
+
+    const targetIndex =
+      direction ===
+      "right"
+        ? Math.min(
+            items.length -
+              1,
+            currentIndex +
+              1,
+          )
+        : Math.max(
+            0,
+            currentIndex -
+              1,
+          );
+
+
+    const target =
+      items[
+        targetIndex
+      ];
+
+
+    rail.scrollTo({
       left:
-        direction ===
-        "right"
-          ? amount
-          : -amount,
+        target.offsetLeft,
 
       behavior:
         "smooth",
@@ -152,31 +222,44 @@ function HomeCategory({
 
 
         <div
-  className="an-flow-category__navigation"
-  aria-label="Card navigation"
->
-  <button
-    type="button"
-    className="
-      an-flow-category__nav
-      an-flow-category__nav--prev
-    "
-    aria-label="Previous card"
-  >
-    <span aria-hidden="true" />
-  </button>
+          className="an-flow-category__navigation"
+          aria-label={`${category} card navigation`}
+        >
 
-  <button
-    type="button"
-    className="
-      an-flow-category__nav
-      an-flow-category__nav--next
-    "
-    aria-label="Next card"
-  >
-    <span aria-hidden="true" />
-  </button>
-</div>
+          <button
+            type="button"
+            className="
+              an-flow-category__nav
+              an-flow-category__nav--prev
+            "
+            onClick={() => {
+              scrollRail(
+                "left",
+              );
+            }}
+            aria-label={`Previous ${category} card`}
+          >
+            <span aria-hidden="true" />
+          </button>
+
+
+          <button
+            type="button"
+            className="
+              an-flow-category__nav
+              an-flow-category__nav--next
+            "
+            onClick={() => {
+              scrollRail(
+                "right",
+              );
+            }}
+            aria-label={`Next ${category} card`}
+          >
+            <span aria-hidden="true" />
+          </button>
+
+        </div>
 
       </header>
 
