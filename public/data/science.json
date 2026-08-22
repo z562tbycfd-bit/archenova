@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T10:25:47.953Z",
+  "updated": "2026-08-22T11:22:04.675Z",
   "items": [
+    {
+      "source": "Science News",
+      "title": "Mysteries of the commonplace",
+      "url": "https://www.sciencenews.org/article/ed-note-september-2026",
+      "summary": "Editor in Chief Nancy Shute reviews new research in static electricity and other science revelations in our September magazine issue.",
+      "ts": 1787396400000,
+      "publishedAt": "2026-08-22T11:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Bipartisan majorities in US favor banning glyphosate",
@@ -572,14 +580,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -627,10 +627,10 @@
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
-      "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
-      "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
+      "source": "APS PRX",
+      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
+      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
+      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -639,6 +639,22 @@
       "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
       "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
       "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
+      "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
+      "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -663,14 +679,6 @@
       "title": "Fast, high-fidelity baseband reset of a latched state for readout of a quantum dot qubit",
       "url": "http://link.aps.org/doi/10.1103/zjgr-1cxw",
       "summary": "Author(s): Piotr Marciniec, M. A. Wolfe, Tyler Kovach, J. Reily, Sanghyeok Park, Jared Benson, Mark Friesen, Benjamin D. Woods, Matthew J. Curry, Nathaniel C. Bishop, J. Corrigan, and M. A. Eriksson Fast, high-fidelity q…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
-      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
-      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -791,14 +799,6 @@
       "title": "Modeling the compressible flow field of an impulsively started circular cylinder with refined potential flow theory",
       "url": "https://arxiv.org/abs/2608.19246",
       "summary": "arXiv:2608.19246v1 Announce Type: new Abstract: New analytical model predicts how fluid flows around a cylinder at high speeds, capturing wake patterns, turbulence, and shock waves with less computation than full simulat…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Sharp and Conservative VOF Method for Multicomponent Liquid--Gas Mass Transfer: Bubble Dissolution and Droplet Evaporation",
-      "url": "https://arxiv.org/abs/2608.19254",
-      "summary": "arXiv:2608.19254v1 Announce Type: new Abstract: We present a sharp and conservative geometrical VOF--finite-volume method for multicomponent liquid--gas mass transfer across deformable interfaces. The method solves probl…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
