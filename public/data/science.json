@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-22T15:23:02.030Z",
+  "updated": "2026-08-22T16:26:54.241Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Heat wave-hit Europe logs over 30,000 excess summer deaths: First figures",
+      "url": "https://phys.org/news/2026-08-europe-excess-summer-deaths-figures.html",
+      "summary": "Europe saw at least 30,000 excess deaths across a blistering summer of back-to-back heat waves and drought that scientists have blamed on man-made climate change, according to provisional figures.",
+      "ts": 1787415603000,
+      "publishedAt": "2026-08-22T16:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI decodes DNA initiator sequence found in about 60% of human genes",
+      "url": "https://phys.org/news/2026-08-ai-decodes-dna-sequence-human.html",
+      "summary": "Precise activation of tens of thousands of genes is critical for healthy development and growth. Specialized segments of our DNA are responsible for carefully orchestrating genetic sequences that result in the production…",
+      "ts": 1787413201000,
+      "publishedAt": "2026-08-22T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Arctic shipping a daunting prospect in hotly contested region",
+      "url": "https://phys.org/news/2026-08-arctic-shipping-daunting-prospect-hotly.html",
+      "summary": "With Gulf turmoil slashing Suez Canal traffic, shipping firms are tempted to try the Arctic for quicker trips between Europe and Asia—but commercial prospects are unlikely to match countries' strategic ambitions for the …",
+      "ts": 1787412601000,
+      "publishedAt": "2026-08-22T15:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Thawing Arctic riverbeds may erode up to 10 times faster than unfrozen ground",
@@ -102,6 +126,14 @@
       "source": "Nature Communications",
       "title": "XPO1-mediated TRIM21 nuclear export reprograms TREM2+ macrophage polarization by targeting IRF3 to augment anti-PD-1 efficacy in small cell lung cancer",
       "url": "https://www.nature.com/articles/s41467-026-76862-0",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "HOMEODOMAIN-LIKE shapes chromatin architecture and rewires leaf epidermal patterns",
+      "url": "https://www.nature.com/articles/s41467-026-76911-8",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -769,38 +801,6 @@
       "summary": "Artificial intelligence chatbots have become the bane of teachers everywhere, but to prepare for the new school year, a group of educators in Charleston, South Carolina, packed into a high school auditorium and talked ab…",
       "ts": 1787301602000,
       "publishedAt": "2026-08-21T08:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Panama Canal to reduce shipping over El Niño-fueled drought",
-      "url": "https://phys.org/news/2026-08-panama-canal-shipping-el-nio.html",
-      "summary": "The Panama Canal will cut the number of ships passing through it starting next month because of drought caused by the El Niño phenomenon, the operator of the strategic waterway linking the Atlantic and Pacific said Thurs…",
-      "ts": 1787300656000,
-      "publishedAt": "2026-08-21T08:24:16.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Neural Networks as Fast Surrogate Models for Electrochemical Flow Reactors",
-      "url": "https://arxiv.org/abs/2608.19209",
-      "summary": "arXiv:2608.19209v1 Announce Type: new Abstract: This work presents a physics-informed neural network (PINN) for modeling a transient two-dimensional electrochemical flow reactor with diffusion, migration, convection, and…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The near-wall cycle for skin-friction generation revealed through explainable deep learning",
-      "url": "https://arxiv.org/abs/2608.19213",
-      "summary": "arXiv:2608.19213v1 Announce Type: new Abstract: Skin friction in wall-bounded turbulence is produced by intermittent near-wall motions, yet conventional coherent-structure definitions do not identify which individual eve…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radiotracer photoluminescence for element-specific identification of color centers",
-      "url": "https://arxiv.org/abs/2608.19219",
-      "summary": "arXiv:2608.19219v1 Announce Type: new Abstract: We report on the implementation of a radiotracer photoluminescence spectroscopy setup at the ISOLDE radioactive ion beam facility at CERN, enabling element-specific identif…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
     }
   ],
   "sources": [
