@@ -3,240 +3,655 @@
 import {
   useEffect,
   useMemo,
+  useRef,
   useState,
 } from "react";
 
+
+/* ==========================================================
+   TYPES
+========================================================== */
+
 type ChapterTarget = {
   id: string;
+
   mark: string;
+
   title: string;
+
   subtitle: string;
 };
 
-const CHAPTER_TARGETS: ChapterTarget[] = [
+
+/* ==========================================================
+   CHAPTERS
+
+   Fixed HOME architecture:
+
+   01 Search
+   02 Episteme
+   03 Inquiry
+   04 Knowledge
+   05 Intelligence
+   06 Realization
+   07 Governance
+   08 Experience
+
+   Cards added inside Knowledge / Intelligence /
+   Realization / Governance / Experience do not become
+   new HomeSectionPager pages.
+========================================================== */
+
+const CHAPTER_TARGETS:
+  readonly ChapterTarget[] = [
 
   {
-    id: "archenova-search-section",
-    mark: "⌭",
-    title: "SEARCH",
-    subtitle:"ArcheNova Contents",
+    id:
+      "archenova-search-section",
+
+    mark:
+      "⌭",
+
+    title:
+      "SEARCH",
+
+    subtitle:
+      "Explore ArcheNova",
   },
 
   {
-  id: "todays-inquiry",
-  mark: "☁︎",
-  title: "INQUIRY",
-  subtitle: "Today's Inquiry",
+    id:
+      "episteme-dialogue",
+
+    mark:
+      "☻",
+
+    title:
+      "EPISTEME",
+
+    subtitle:
+      "Dialogue & Reasoning",
   },
 
   {
-  id: "episteme-dialogue",
-  mark: "☻",
-  title: "EPISTEME",
-  subtitle: "ArcheNova DIALOGUE",
-},
+    id:
+      "todays-inquiry",
 
-  {
-    id: "civilization-intelligence",
-    mark: "⚛︎",
-    title: "INTELLIGENCE",
-    subtitle: "ArcheNova OS",
+    mark:
+      "☁︎",
+
+    title:
+      "INQUIRY",
+
+    subtitle:
+      "What should we ask?",
   },
 
   {
-    id: "civilization-experience",
-    mark: "❅",
-    title: "EXPERIENCE",
-    subtitle: "ArcheNova Open World",
+    id:
+      "civilization-library",
+
+    mark:
+      "⎅",
+
+    title:
+      "KNOWLEDGE",
+
+    subtitle:
+      "What has been established?",
   },
 
   {
-    id: "civilization-library",
-    mark: "⎅",
-    title: "LIBRARY",
-    subtitle: "ArcheNova BOOK",
+    id:
+      "civilization-intelligence",
+
+    mark:
+      "⚛︎",
+
+    title:
+      "INTELLIGENCE",
+
+    subtitle:
+      "What does it mean?",
+  },
+
+  {
+    id:
+      "civilization-realization",
+
+    mark:
+      "♅",
+
+    title:
+      "REALIZATION",
+
+    subtitle:
+      "What would make it real?",
+  },
+
+  {
+    id:
+      "civilization-governance",
+
+    mark:
+      "♆",
+
+    title:
+      "GOVERNANCE",
+
+    subtitle:
+      "Under what responsibility may it scale?",
+  },
+
+  {
+    id:
+      "civilization-experience",
+
+    mark:
+      "❅",
+
+    title:
+      "EXPERIENCE",
+
+    subtitle:
+      "How can humans encounter it?",
   },
 ];
+
+
+/* ==========================================================
+   SCROLL
+========================================================== */
 
 function scrollToChapter(
   id: string,
 ) {
-  document
-    .getElementById(id)
-    ?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+  const element =
+    document.getElementById(
+      id,
+    );
+
+
+  if (!element) {
+    return;
+  }
+
+
+  element.scrollIntoView({
+    behavior:
+      "smooth",
+
+    block:
+      "start",
+  });
 }
 
+
+/* ==========================================================
+   COMPONENT
+========================================================== */
+
 export default function HomeSectionPager() {
+
   const [
     activeId,
     setActiveId,
-  ] = useState(
-    CHAPTER_TARGETS[0].id,
-  );
+  ] =
+    useState<string>(
+      CHAPTER_TARGETS[0].id,
+    );
+
+
+  /*
+   * Keep current active section available to
+   * IntersectionObserver without rebuilding the observer
+   * every time the active section changes.
+   */
+  const activeIdRef =
+    useRef<string>(
+      CHAPTER_TARGETS[0].id,
+    );
+
 
   const targets =
     useMemo(
-      () => CHAPTER_TARGETS,
+      () =>
+        CHAPTER_TARGETS,
       [],
     );
 
-  useEffect(() => {
-    const observer =
-      new IntersectionObserver(
-        (entries) => {
-          const visible =
-            entries
-              .filter(
-                (entry) =>
-                  entry.isIntersecting,
-              )
-              .sort(
-                (a, b) =>
-                  b.intersectionRatio -
-                  a.intersectionRatio,
-              )[0];
 
-          if (
-            visible?.target?.id
-          ) {
-            setActiveId(
-              visible.target.id,
-            );
-          }
-        },
-        {
-          threshold: [
-            0.25,
-            0.45,
-            0.65,
-          ],
+  useEffect(
+    () => {
+      activeIdRef.current =
+        activeId;
+    },
+    [
+      activeId,
+    ],
+  );
+
+
+  /* ========================================================
+     ACTIVE SECTION DETECTION
+  ======================================================== */
+
+  useEffect(
+    () => {
+
+      const elements =
+        targets
+          .map(
+            (
+              target,
+            ) =>
+              document.getElementById(
+                target.id,
+              ),
+          )
+          .filter(
+            (
+              element,
+            ): element is HTMLElement =>
+              Boolean(
+                element,
+              ),
+          );
+
+
+      if (
+        elements.length ===
+        0
+      ) {
+        return;
+      }
+
+
+      /*
+       * Store the most recent ratio for every HOME section.
+       *
+       * This is more stable than judging only the entries
+       * supplied by the current IntersectionObserver callback.
+       */
+      const ratios =
+        new Map<
+          string,
+          number
+        >();
+
+
+      elements.forEach(
+        (
+          element,
+        ) => {
+          ratios.set(
+            element.id,
+            0,
+          );
         },
       );
 
-    targets.forEach(
-      (target) => {
-        const element =
-          document.getElementById(
-            target.id,
-          );
 
-        if (element) {
+      const observer =
+        new IntersectionObserver(
+          (
+            entries,
+          ) => {
+
+            entries.forEach(
+              (
+                entry,
+              ) => {
+
+                ratios.set(
+                  entry.target.id,
+                  entry.isIntersecting
+                    ? entry.intersectionRatio
+                    : 0,
+                );
+              },
+            );
+
+
+            let strongestId =
+              activeIdRef.current;
+
+
+            let strongestRatio =
+              0;
+
+
+            targets.forEach(
+              (
+                target,
+              ) => {
+
+                const ratio =
+                  ratios.get(
+                    target.id,
+                  ) ??
+                  0;
+
+
+                if (
+                  ratio >
+                  strongestRatio
+                ) {
+                  strongestRatio =
+                    ratio;
+
+                  strongestId =
+                    target.id;
+                }
+              },
+            );
+
+
+            /*
+             * Do not replace the active page when
+             * every tracked section is effectively outside
+             * the observation area.
+             */
+            if (
+              strongestRatio <=
+              0
+            ) {
+              return;
+            }
+
+
+            if (
+              strongestId !==
+              activeIdRef.current
+            ) {
+              activeIdRef.current =
+                strongestId;
+
+              setActiveId(
+                strongestId,
+              );
+            }
+
+          },
+          {
+            /*
+             * Multiple thresholds make detection stable
+             * for large full-page HOME sections as well as
+             * slightly shorter responsive sections.
+             */
+            threshold: [
+              0.05,
+              0.12,
+              0.2,
+              0.32,
+              0.45,
+              0.6,
+              0.75,
+            ],
+
+            /*
+             * Slightly reduce the effective viewport so
+             * the next chapter is not activated too early.
+             */
+            rootMargin:
+              "-5% 0px -5% 0px",
+          },
+        );
+
+
+      elements.forEach(
+        (
+          element,
+        ) => {
           observer.observe(
             element,
           );
-        }
-      },
-    );
+        },
+      );
 
-    return () => {
-      observer.disconnect();
-    };
-  }, [targets]);
+
+      return () => {
+        observer.disconnect();
+      };
+
+    },
+    [
+      targets,
+    ],
+  );
+
+
+  /* ========================================================
+     CURRENT POSITION
+  ======================================================== */
 
   const currentIndex =
     targets.findIndex(
-      (target) =>
+      (
+        target,
+      ) =>
         target.id ===
         activeId,
     );
 
+
   const safeCurrentIndex =
-    currentIndex >= 0
+    currentIndex >=
+      0
       ? currentIndex
       : 0;
+
 
   const previousTarget =
     targets[
       Math.max(
         0,
-        safeCurrentIndex - 1,
+        safeCurrentIndex -
+          1,
       )
     ];
+
 
   const nextTarget =
     targets[
       Math.min(
-        targets.length - 1,
-        safeCurrentIndex + 1,
+        targets.length -
+          1,
+        safeCurrentIndex +
+          1,
       )
     ];
+
+
+  const isFirst =
+    safeCurrentIndex ===
+    0;
+
+
+  const isLast =
+    safeCurrentIndex ===
+    targets.length -
+      1;
+
+
+  /* ========================================================
+     UI
+  ======================================================== */
 
   return (
     <nav
       className="chapter-navigator"
-      aria-label="Home chapter navigation"
+      aria-label="ArcheNova HOME navigation"
     >
+
+      {/* ===============================================
+          PREVIOUS
+      =============================================== */}
+
       <button
         type="button"
-        className="chapter-nav-arrow"
-        onClick={() =>
+        className={[
+          "chapter-nav-arrow",
+
+          isFirst
+            ? "is-edge"
+            : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+        onClick={() => {
+
+          if (
+            isFirst
+          ) {
+            return;
+          }
+
+
           scrollToChapter(
             previousTarget.id,
-          )
+          );
+        }}
+        aria-label={
+          isFirst
+            ? "First HOME section"
+            : `Previous section: ${previousTarget.title}`
         }
-        aria-label="Previous chapter"
+        disabled={
+          isFirst
+        }
       >
         ↑
       </button>
 
+
+      {/* ===============================================
+          SECTION LIST
+      =============================================== */}
+
       <div className="chapter-nav-list">
+
         {targets.map(
-          (target) => (
-            <button
-              key={target.id}
-              type="button"
-              className={[
-                "chapter-nav-item",
-                activeId ===
-                target.id
-                  ? "active"
-                  : "",
-              ]
-                .filter(Boolean)
-                .join(" ")}
-              onClick={() =>
-                scrollToChapter(
-                  target.id,
-                )
-              }
-              aria-label={`Go to ${target.title}`}
-              title={`${target.title} · ${target.subtitle}`}
-            >
-              <span className="chapter-nav-mark">
-                {target.mark}
-              </span>
+          (
+            target,
+          ) => {
 
-              <span className="chapter-nav-copy">
-                <strong>
-                  {target.title}
-                </strong>
+            const active =
+              activeId ===
+              target.id;
 
-                <small>
+
+            return (
+              <button
+                key={
+                  target.id
+                }
+                type="button"
+                className={[
+                  "chapter-nav-item",
+
+                  active
+                    ? "active"
+                    : "",
+                ]
+                  .filter(
+                    Boolean,
+                  )
+                  .join(
+                    " ",
+                  )}
+                onClick={() => {
+                  scrollToChapter(
+                    target.id,
+                  );
+                }}
+                aria-label={
+                  `Go to ${target.title}`
+                }
+                aria-current={
+                  active
+                    ? "page"
+                    : undefined
+                }
+                title={
+                  `${target.title} · ${target.subtitle}`
+                }
+              >
+
+                <span
+                  className="chapter-nav-mark"
+                  aria-hidden="true"
+                >
                   {
-                    target.subtitle
+                    target.mark
                   }
-                </small>
-              </span>
-            </button>
-          ),
+                </span>
+
+
+                <span className="chapter-nav-copy">
+
+                  <strong>
+                    {
+                      target.title
+                    }
+                  </strong>
+
+                  <small>
+                    {
+                      target.subtitle
+                    }
+                  </small>
+
+                </span>
+
+              </button>
+            );
+          },
         )}
+
       </div>
+
+
+      {/* ===============================================
+          NEXT
+      =============================================== */}
 
       <button
         type="button"
-        className="chapter-nav-arrow"
-        onClick={() =>
+        className={[
+          "chapter-nav-arrow",
+
+          isLast
+            ? "is-edge"
+            : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+        onClick={() => {
+
+          if (
+            isLast
+          ) {
+            return;
+          }
+
+
           scrollToChapter(
             nextTarget.id,
-          )
+          );
+        }}
+        aria-label={
+          isLast
+            ? "Last HOME section"
+            : `Next section: ${nextTarget.title}`
         }
-        aria-label="Next chapter"
+        disabled={
+          isLast
+        }
       >
         ↓
       </button>
+
     </nav>
   );
 }

@@ -40994,3 +40994,6216 @@ a {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA SPACE
+   HOME-INTEGRATED HORIZONTAL SYSTEM
+   ----------------------------------------------------------
+   Scope:
+   HOME / #archenova-space only
+
+   Purpose:
+   - preserve existing portal design
+   - organize Episteme / Intelligence / Experience / Library
+   - horizontal navigation
+   - avoid CSS leakage into standalone pages
+========================================================== */
+
+
+/* ==========================================================
+   ROOT
+========================================================== */
+
+.archenova-twin-home
+#archenova-space {
+  position: relative !important;
+
+  isolation: isolate !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  color:
+    rgba(
+      248,
+      249,
+      250,
+      0.94
+    );
+
+  /*
+   * Important:
+   * The existing HOME architecture owns the outer frame.
+   * Do not create another heavy card.
+   */
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.007
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.035
+      )
+    ) !important;
+
+  border: 0 !important;
+
+  box-shadow:
+    none !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+.archenova-twin-home
+#archenova-space,
+.archenova-twin-home
+#archenova-space *,
+.archenova-twin-home
+#archenova-space *::before,
+.archenova-twin-home
+#archenova-space *::after {
+  box-sizing:
+    border-box;
+}
+
+
+/* ==========================================================
+   AMBIENT BACKGROUND
+========================================================== */
+
+.archenova-twin-home
+#archenova-space::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 0;
+
+  pointer-events:
+    none;
+
+  background:
+    radial-gradient(
+      ellipse
+      at
+      16%
+      20%,
+      rgba(
+        255,
+        255,
+        255,
+        0.018
+      ),
+      transparent
+      32%
+    ),
+
+    radial-gradient(
+      ellipse
+      at
+      80%
+      72%,
+      rgba(
+        255,
+        255,
+        255,
+        0.011
+      ),
+      transparent
+      34%
+    );
+}
+
+
+.archenova-twin-home
+#archenova-space
+> * {
+  position:
+    relative;
+
+  z-index:
+    1;
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__header {
+  flex:
+    0
+    0
+    auto;
+
+  width:
+    100%;
+
+  min-height:
+    108px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    32px;
+
+  padding:
+    20px
+    clamp(
+      20px,
+      3vw,
+      42px
+    );
+
+  border-bottom:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    );
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__header-copy {
+  min-width: 0;
+
+  max-width:
+    760px;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__kicker {
+  display:
+    block;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.30
+    );
+
+  font-size:
+    6px;
+
+  font-weight:
+    650;
+
+  letter-spacing:
+    0.20em;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__header h2 {
+  max-width:
+    720px;
+
+  margin:
+    8px
+    0
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.86
+    );
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      27px
+    );
+
+  font-weight:
+    330;
+
+  line-height:
+    1.15;
+
+  letter-spacing:
+    -0.025em;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__header p {
+  max-width:
+    690px;
+
+  margin:
+    9px
+    0
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.28
+    );
+
+  font-size:
+    6.5px;
+
+  line-height:
+    1.65;
+}
+
+
+/* ==========================================================
+   STATUS
+========================================================== */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__status {
+  flex:
+    0
+    0
+    auto;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  gap:
+    8px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.34
+    );
+
+  font-size:
+    6px;
+
+  letter-spacing:
+    0.12em;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__status i {
+  width:
+    4px;
+
+  height:
+    4px;
+
+  border-radius:
+    50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.72
+    );
+
+  box-shadow:
+    0
+    0
+    10px
+    rgba(
+      255,
+      255,
+      255,
+      0.26
+    );
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__status small {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.18
+    );
+
+  font-size:
+    4.5px;
+}
+
+
+/* ==========================================================
+   MAIN HORIZONTAL RAIL
+========================================================== */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__body {
+  flex:
+    1
+    1
+    auto;
+
+  width:
+    100%;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  display:
+    flex;
+
+  align-items:
+    stretch;
+
+  gap:
+    14px;
+
+  padding:
+    18px
+    clamp(
+      20px,
+      3vw,
+      42px
+    )
+    20px;
+
+  overflow-x:
+    auto !important;
+
+  overflow-y:
+    hidden !important;
+
+  scroll-snap-type:
+    x
+    mandatory;
+
+  scroll-padding-inline:
+    clamp(
+      20px,
+      3vw,
+      42px
+    );
+
+  overscroll-behavior-x:
+    contain;
+
+  -webkit-overflow-scrolling:
+    touch;
+
+  scrollbar-width:
+    none;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__body::-webkit-scrollbar {
+  display:
+    none;
+}
+
+
+/* ==========================================================
+   DOMAIN LANE
+========================================================== */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__lane {
+  position:
+    relative;
+
+  flex:
+    0
+    0
+    min(
+      880px,
+      78vw
+    );
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  display:
+    grid;
+
+  grid-template-rows:
+    auto
+    minmax(
+      0,
+      1fr
+    );
+
+  scroll-snap-align:
+    start;
+
+  overflow:
+    hidden;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.055
+    );
+
+  border-radius:
+    18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        13,
+        14,
+        16,
+        0.25
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.38
+      )
+    );
+
+  -webkit-backdrop-filter:
+    blur(
+      18px
+    )
+    saturate(
+      105%
+    );
+
+  backdrop-filter:
+    blur(
+      18px
+    )
+    saturate(
+      105%
+    );
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.018
+    );
+}
+
+
+/* ==========================================================
+   LANE HEADER
+========================================================== */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__lane-head {
+  min-height:
+    68px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    22px;
+
+  padding:
+    13px
+    17px;
+
+  border-bottom:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    );
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__lane-identity {
+  flex:
+    0
+    0
+    auto;
+
+  min-width:
+    0;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__lane-identity span {
+  display:
+    block;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.22
+    );
+
+  font-size:
+    4.5px;
+
+  font-weight:
+    650;
+
+  letter-spacing:
+    0.17em;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__lane-identity h3 {
+  margin:
+    5px
+    0
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.76
+    );
+
+  font-size:
+    11px;
+
+  font-weight:
+    390;
+
+  letter-spacing:
+    -0.015em;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__lane-head p {
+  max-width:
+    340px;
+
+  margin: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.22
+    );
+
+  font-size:
+    5.5px;
+
+  line-height:
+    1.55;
+
+  text-align:
+    right;
+}
+
+
+/* ==========================================================
+   INTERNAL CONTENT RAIL
+   Future content can be appended horizontally.
+========================================================== */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__rail {
+  width:
+    100%;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  display:
+    flex;
+
+  align-items:
+    stretch;
+
+  gap:
+    12px;
+
+  overflow-x:
+    auto !important;
+
+  overflow-y:
+    hidden !important;
+
+  scroll-snap-type:
+    x
+    proximity;
+
+  overscroll-behavior-x:
+    contain;
+
+  scrollbar-width:
+    none;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__rail::-webkit-scrollbar {
+  display:
+    none;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__item {
+  flex:
+    0
+    0
+    100%;
+
+  width:
+    100%;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  scroll-snap-align:
+    start;
+
+  overflow:
+    hidden;
+}
+
+
+/*
+ * Important:
+ * Do not rewrite Episteme / Intelligence /
+ * Experience / Library internals here.
+ *
+ * Only allow their root to use the lane width.
+ */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__item
+> * {
+  width:
+    100%;
+
+  max-width:
+    none;
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__footer {
+  flex:
+    0
+    0
+    38px;
+
+  min-height:
+    38px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  gap:
+    8px;
+
+  padding:
+    0
+    18px;
+
+  overflow:
+    hidden;
+
+  border-top:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.03
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.13
+    );
+
+  font-size:
+    4px;
+
+  letter-spacing:
+    0.12em;
+}
+
+
+.archenova-twin-home
+#archenova-space
+.an-home-space__footer i {
+  width:
+    14px;
+
+  height:
+    1px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.055
+    );
+}
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * ArcheNova Space owns one HOME section.
+   * Avoid relying on child portal viewport height.
+   */
+
+  .archenova-twin-home
+  #archenova-space {
+    display:
+      flex !important;
+
+    flex-direction:
+      column !important;
+
+    width:
+      100% !important;
+
+    height:
+      clamp(
+        650px,
+        74svh,
+        840px
+      ) !important;
+
+    min-height:
+      650px !important;
+
+    max-height:
+      840px !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  /*
+   * Leave a glimpse of the next space.
+   */
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane {
+    flex-basis:
+      min(
+        880px,
+        calc(
+          100vw -
+          300px
+        )
+      );
+  }
+
+}
+
+
+/* ==========================================================
+   MEDIUM DESKTOP
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-width: 1100px) {
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane {
+    flex-basis:
+      min(
+        760px,
+        80vw
+      );
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header {
+    min-height:
+      104px;
+  }
+
+}
+
+
+/* ==========================================================
+   SHORT WINDOWS / EDGE
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-height: 760px) {
+
+  .archenova-twin-home
+  #archenova-space {
+    height:
+      calc(
+        100svh -
+        92px
+      ) !important;
+
+    min-height:
+      560px !important;
+
+    max-height:
+      none !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header {
+    min-height:
+      88px;
+
+    padding-top:
+      13px;
+
+    padding-bottom:
+      13px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header h2 {
+    font-size:
+      18px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__body {
+    padding-top:
+      12px;
+
+    padding-bottom:
+      13px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane-head {
+    min-height:
+      58px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Critical:
+   * No fixed desktop-height chain on mobile.
+   */
+
+  .archenova-twin-home
+  #archenova-space {
+    display:
+      flex !important;
+
+    flex-direction:
+      column !important;
+
+    width:
+      100% !important;
+
+    height:
+      auto !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      none !important;
+
+    margin:
+      0 !important;
+
+    padding:
+      0 !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  /* ========================================================
+     HEADER
+  ======================================================== */
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header {
+    min-height:
+      0;
+
+    align-items:
+      flex-start;
+
+    gap:
+      14px;
+
+    padding:
+      21px
+      18px
+      18px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header h2 {
+    max-width:
+      310px;
+
+    margin-top:
+      9px;
+
+    font-size:
+      21px;
+
+    line-height:
+      1.12;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header p {
+    max-width:
+      320px;
+
+    margin-top:
+      10px;
+
+    font-size:
+      6.5px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__status {
+    margin-top:
+      2px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__status small {
+    display:
+      none;
+  }
+
+
+  /* ========================================================
+     HORIZONTAL BODY
+  ======================================================== */
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__body {
+    width:
+      100%;
+
+    min-height:
+      0;
+
+    align-items:
+      flex-start;
+
+    gap:
+      10px;
+
+    padding:
+      14px
+      16px
+      18px;
+
+    scroll-padding-inline:
+      16px;
+  }
+
+
+  /*
+   * 89% means the next category remains visible,
+   * making horizontal movement obvious.
+   */
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane {
+    flex:
+      0
+      0
+      89%;
+
+    width:
+      89%;
+
+    height:
+      auto;
+
+    min-height:
+      0;
+
+    border-radius:
+      16px;
+  }
+
+
+  /* ========================================================
+     LANE HEADER
+  ======================================================== */
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane-head {
+    min-height:
+      84px;
+
+    display:
+      block;
+
+    padding:
+      14px
+      14px
+      13px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane-identity h3 {
+    margin-top:
+      6px;
+
+    font-size:
+      12px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane-head p {
+    max-width:
+      280px;
+
+    margin-top:
+      9px;
+
+    font-size:
+      5.7px;
+
+    text-align:
+      left;
+  }
+
+
+  /* ========================================================
+     INTERNAL RAIL
+  ======================================================== */
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__rail {
+    width:
+      100%;
+
+    min-height:
+      0;
+
+    overflow-x:
+      auto !important;
+
+    overflow-y:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__item {
+    flex-basis:
+      100%;
+
+    width:
+      100%;
+  }
+
+
+  /* ========================================================
+     FOOTER
+  ======================================================== */
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__footer {
+    min-height:
+      36px;
+
+    gap:
+      6px;
+
+    padding:
+      0
+      12px;
+
+    font-size:
+      3.5px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__footer i {
+    width:
+      8px;
+  }
+
+}
+
+
+/* ==========================================================
+   VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header {
+    padding-left:
+      15px;
+
+    padding-right:
+      15px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__header h2 {
+    font-size:
+      19px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__body {
+    padding-left:
+      13px;
+
+    padding-right:
+      13px;
+
+    scroll-padding-inline:
+      13px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-space
+  .an-home-space__lane {
+    flex-basis:
+      91%;
+
+    width:
+      91%;
+  }
+
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+
+  .archenova-twin-home
+  #archenova-space,
+  .archenova-twin-home
+  #archenova-space *,
+  .archenova-twin-home
+  #archenova-space *::before,
+  .archenova-twin-home
+  #archenova-space *::after {
+    animation:
+      none !important;
+
+    transition:
+      none !important;
+
+    scroll-behavior:
+      auto !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   FOUR FIXED CATEGORY SPACES
+
+   HomeSectionPager structure:
+   01 Search
+   02 Inquiry
+   03 Communication
+   04 Intelligence
+   05 Experience
+   06 Knowledge
+
+   Future cards belong INSIDE each horizontal rail.
+   They must NOT receive data-home-section.
+========================================================== */
+
+
+/* ==========================================================
+   CATEGORY PAGE
+   Do not create another viewport system.
+========================================================== */
+
+.archenova-twin-home
+.an-home-category-page {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  background: transparent !important;
+
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   CATEGORY SPACE
+========================================================== */
+
+.archenova-twin-home
+.an-home-category {
+  position: relative;
+
+  isolation: isolate;
+
+  width: 100%;
+
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: grid;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    36px;
+
+  overflow: hidden;
+
+  color:
+    rgba(
+      248,
+      249,
+      250,
+      0.94
+    );
+
+  /*
+   * Same restrained black transparent glass language.
+   * No heavy second outer card.
+   */
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        12,
+        13,
+        15,
+        0.08
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.16
+      )
+    );
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.055
+    );
+
+  border-radius:
+    20px;
+
+  -webkit-backdrop-filter:
+    blur(16px)
+    saturate(104%);
+
+  backdrop-filter:
+    blur(16px)
+    saturate(104%);
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.018
+    );
+}
+
+
+/* ==========================================================
+   VERY SUBTLE ATMOSPHERE
+========================================================== */
+
+.archenova-twin-home
+.an-home-category::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 0;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse
+      at
+      18%
+      20%,
+      rgba(
+        255,
+        255,
+        255,
+        0.014
+      ),
+      transparent
+      32%
+    ),
+
+    radial-gradient(
+      ellipse
+      at
+      82%
+      74%,
+      rgba(
+        255,
+        255,
+        255,
+        0.008
+      ),
+      transparent
+      34%
+    );
+}
+
+
+.archenova-twin-home
+.an-home-category
+> * {
+  position: relative;
+
+  z-index: 1;
+}
+
+
+/* ==========================================================
+   CATEGORY HEADER
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__header {
+  width: 100%;
+
+  min-width: 0;
+
+  min-height: 106px;
+
+  display: grid;
+
+  grid-template-columns:
+    150px
+    minmax(0, 1fr)
+    auto;
+
+  align-items: center;
+
+  gap: 26px;
+
+  padding:
+    18px
+    clamp(
+      18px,
+      2.8vw,
+      38px
+    );
+
+  border-bottom:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    );
+}
+
+
+/* ==========================================================
+   CATEGORY IDENTITY
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__identity {
+  min-width: 0;
+}
+
+
+.archenova-twin-home
+.an-home-category__identity
+> span {
+  display: block;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.18
+    );
+
+  font-size: 4.5px;
+
+  font-weight: 650;
+
+  letter-spacing:
+    0.16em;
+}
+
+
+.archenova-twin-home
+.an-home-category__identity
+> small {
+  display: block;
+
+  margin-top: 8px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.72
+    );
+
+  font-size: 8px;
+
+  font-weight: 520;
+
+  letter-spacing:
+    0.16em;
+}
+
+
+/* ==========================================================
+   PURPOSE
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__purpose {
+  min-width: 0;
+
+  max-width: 760px;
+}
+
+
+.archenova-twin-home
+.an-home-category__purpose h2 {
+  margin: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.88
+    );
+
+  font-size:
+    clamp(
+      18px,
+      1.7vw,
+      25px
+    );
+
+  font-weight: 330;
+
+  line-height: 1.12;
+
+  letter-spacing:
+    -0.025em;
+}
+
+
+.archenova-twin-home
+.an-home-category__purpose p {
+  max-width: 700px;
+
+  margin:
+    8px
+    0
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.28
+    );
+
+  font-size: 6.3px;
+
+  line-height: 1.6;
+}
+
+
+/* ==========================================================
+   EXPLORE INDICATOR
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__rail-status {
+  flex: 0 0 auto;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.2
+    );
+
+  font-size: 4.5px;
+
+  letter-spacing:
+    0.12em;
+}
+
+
+.archenova-twin-home
+.an-home-category__rail-status
+i {
+  width: 4px;
+  height: 4px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.62
+    );
+
+  box-shadow:
+    0
+    0
+    8px
+    rgba(
+      255,
+      255,
+      255,
+      0.18
+    );
+}
+
+
+.archenova-twin-home
+.an-home-category__rail-status
+small {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.38
+    );
+
+  font-size: 8px;
+}
+
+
+/* ==========================================================
+   HORIZONTAL CARD RAIL
+
+   THIS is where future systems are added.
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__rail {
+  width: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: stretch;
+
+  gap: 14px;
+
+  padding:
+    14px
+    clamp(
+      14px,
+      2vw,
+      28px
+    )
+    16px;
+
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+
+  scroll-snap-type:
+    x mandatory;
+
+  scroll-padding-inline:
+    clamp(
+      14px,
+      2vw,
+      28px
+    );
+
+  overscroll-behavior-x:
+    contain;
+
+  -webkit-overflow-scrolling:
+    touch;
+
+  scrollbar-width: none;
+}
+
+
+.archenova-twin-home
+.an-home-category__rail::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* ==========================================================
+   CATEGORY CARD SLOT
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__item {
+  flex:
+    0
+    0
+    min(
+      1180px,
+      calc(
+        100% -
+        80px
+      )
+    );
+
+  width:
+    min(
+      1180px,
+      calc(
+        100% -
+        80px
+      )
+    );
+
+  min-width: 0;
+  min-height: 0;
+
+  scroll-snap-align: start;
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.045
+    );
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        13,
+        14,
+        16,
+        0.17
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.27
+      )
+    );
+
+  -webkit-backdrop-filter:
+    blur(14px)
+    saturate(103%);
+
+  backdrop-filter:
+    blur(14px)
+    saturate(103%);
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.014
+    );
+}
+
+
+/*
+ * Existing portal remains responsible
+ * for its internal appearance and interaction.
+ */
+
+.archenova-twin-home
+.an-home-category__item
+> * {
+  width: 100%;
+
+  max-width: none;
+}
+
+
+/* ==========================================================
+   SINGLE CARD STATE
+
+   Current state has one card per category.
+   Give it almost the entire available width.
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__rail
+> .an-home-category__item:only-child {
+  flex-basis:
+    calc(
+      100% -
+      4px
+    );
+
+  width:
+    calc(
+      100% -
+      4px
+    );
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__footer {
+  min-width: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  padding:
+    0
+    14px;
+
+  overflow: hidden;
+
+  border-top:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.028
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.12
+    );
+
+  font-size: 3.8px;
+
+  letter-spacing:
+    0.11em;
+}
+
+
+.archenova-twin-home
+.an-home-category__footer
+i {
+  width: 12px;
+
+  height: 1px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.05
+    );
+}
+
+
+/* ==========================================================
+   DESKTOP
+
+   Parent [data-home-section] continues to own the page.
+   We do NOT create another 100svh hierarchy.
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .archenova-twin-home
+  .an-home-category-page {
+    display: flex !important;
+
+    align-items: stretch !important;
+
+    justify-content: stretch !important;
+
+    padding:
+      clamp(
+        10px,
+        1.3vw,
+        20px
+      ) !important;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category {
+    flex:
+      1
+      1
+      auto;
+
+    height:
+      100%;
+
+    min-height:
+      0;
+  }
+
+}
+
+
+/* ==========================================================
+   SHORT WINDOWS / EDGE
+
+   Compress typography, not the fundamental structure.
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-height: 760px) {
+
+  .archenova-twin-home
+  .an-home-category-page {
+    padding:
+      7px
+      10px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__header {
+    min-height:
+      80px;
+
+    padding-top:
+      11px;
+
+    padding-bottom:
+      11px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__purpose h2 {
+    font-size:
+      17px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__purpose p {
+    margin-top:
+      5px;
+
+    line-height:
+      1.45;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__rail {
+    padding-top:
+      9px;
+
+    padding-bottom:
+      9px;
+  }
+
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media
+  (min-width: 769px)
+  and
+  (max-width: 1050px) {
+
+  .archenova-twin-home
+  .an-home-category__header {
+    grid-template-columns:
+      125px
+      minmax(
+        0,
+        1fr
+      )
+      auto;
+
+    gap:
+      18px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__item {
+    flex-basis:
+      calc(
+        100% -
+        55px
+      );
+
+    width:
+      calc(
+        100% -
+        55px
+      );
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__rail
+  > .an-home-category__item:only-child {
+    flex-basis:
+      calc(
+        100% -
+        4px
+      );
+
+    width:
+      calc(
+        100% -
+        4px
+      );
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Keep each category as ONE HomeSectionPager page.
+   * Do not create nested viewport heights here.
+   */
+
+  .archenova-twin-home
+  .an-home-category-page {
+    position: relative !important;
+
+    display: flex !important;
+
+    align-items: stretch !important;
+
+    justify-content: stretch !important;
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    margin: 0 !important;
+
+    padding:
+      6px !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category {
+    flex:
+      1
+      1
+      auto;
+
+    width: 100%;
+
+    min-width: 0;
+    min-height: 0;
+
+    grid-template-rows:
+      auto
+      minmax(
+        0,
+        1fr
+      );
+
+    border-radius:
+      17px;
+  }
+
+
+  /* ========================================================
+     HEADER
+  ======================================================== */
+
+  .archenova-twin-home
+  .an-home-category__header {
+    min-height:
+      116px;
+
+    display: grid;
+
+    grid-template-columns:
+      minmax(
+        0,
+        1fr
+      )
+      auto;
+
+    grid-template-areas:
+      "identity status"
+      "purpose purpose";
+
+    align-content: center;
+
+    gap:
+      10px
+      14px;
+
+    padding:
+      15px
+      15px
+      14px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__identity {
+    grid-area:
+      identity;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__purpose {
+    grid-area:
+      purpose;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__rail-status {
+    grid-area:
+      status;
+
+    justify-self:
+      end;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__identity
+  > span {
+    font-size:
+      4px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__identity
+  > small {
+    margin-top:
+      6px;
+
+    font-size:
+      7px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__purpose h2 {
+    font-size:
+      19px;
+
+    line-height:
+      1.1;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__purpose p {
+    max-width:
+      330px;
+
+    margin-top:
+      7px;
+
+    font-size:
+      5.8px;
+
+    line-height:
+      1.55;
+  }
+
+
+  /* ========================================================
+     HORIZONTAL RAIL
+  ======================================================== */
+
+  .archenova-twin-home
+  .an-home-category__rail {
+    min-height: 0;
+
+    gap:
+      10px;
+
+    padding:
+      11px
+      12px
+      14px;
+
+    scroll-padding-inline:
+      12px;
+  }
+
+
+  /*
+   * Once multiple cards exist,
+   * show a little of the next card.
+   */
+
+  .archenova-twin-home
+  .an-home-category__item {
+    flex:
+      0
+      0
+      91%;
+
+    width:
+      91%;
+
+    border-radius:
+      15px;
+  }
+
+
+  /*
+   * Current single-card categories use the entire rail.
+   */
+
+  .archenova-twin-home
+  .an-home-category__rail
+  > .an-home-category__item:only-child {
+    flex-basis:
+      100%;
+
+    width:
+      100%;
+  }
+
+
+  /*
+   * HOME already has its persistent pager,
+   * so the internal footer is unnecessary on mobile.
+   */
+
+  .archenova-twin-home
+  .an-home-category__footer {
+    display:
+      none;
+  }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+
+  .archenova-twin-home
+  .an-home-category-page {
+    padding:
+      4px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__header {
+    min-height:
+      108px;
+
+    padding:
+      13px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__purpose h2 {
+    font-size:
+      17px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__rail {
+    padding-left:
+      9px;
+
+    padding-right:
+      9px;
+
+    scroll-padding-inline:
+      9px;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__item {
+    flex-basis:
+      92%;
+
+    width:
+      92%;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__rail
+  > .an-home-category__item:only-child {
+    flex-basis:
+      100%;
+
+    width:
+      100%;
+  }
+
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+
+  .archenova-twin-home
+  .an-home-category,
+  .archenova-twin-home
+  .an-home-category *,
+  .archenova-twin-home
+  .an-home-category *::before,
+  .archenova-twin-home
+  .an-home-category *::after {
+    animation:
+      none !important;
+
+    transition:
+      none !important;
+
+    scroll-behavior:
+      auto !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   CARD INTERNAL VERTICAL SCROLL
+   ----------------------------------------------------------
+   Horizontal:
+   category card navigation
+
+   Vertical:
+   content inside each card
+========================================================== */
+
+
+/* ==========================================================
+   CARD SLOT
+   Allow vertical content scrolling.
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__item {
+  position: relative !important;
+
+  min-height: 0 !important;
+
+  /*
+   * IMPORTANT:
+   * The category rail remains horizontal,
+   * but each individual card can scroll vertically.
+   */
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+
+  overscroll-behavior-y:
+    contain;
+
+  -webkit-overflow-scrolling:
+    touch;
+
+  scrollbar-width:
+    thin;
+
+  scrollbar-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.16
+    )
+    transparent;
+}
+
+
+/* ==========================================================
+   WEBKIT SCROLLBAR
+   Minimal monochrome scrollbar
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__item::-webkit-scrollbar {
+  width:
+    5px;
+}
+
+
+.archenova-twin-home
+.an-home-category__item::-webkit-scrollbar-track {
+  background:
+    transparent;
+}
+
+
+.archenova-twin-home
+.an-home-category__item::-webkit-scrollbar-thumb {
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.13
+    );
+}
+
+
+.archenova-twin-home
+.an-home-category__item::-webkit-scrollbar-thumb:hover {
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.22
+    );
+}
+
+
+/* ==========================================================
+   INTERNAL PORTAL ROOT
+   Do not clip its vertical content.
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__item
+> * {
+  width:
+    100% !important;
+
+  max-width:
+    none !important;
+
+  /*
+   * Let the child become as tall as its own content.
+   */
+  height:
+    auto !important;
+
+  min-height:
+    100%;
+
+  max-height:
+    none !important;
+}
+
+
+/* ==========================================================
+   CATEGORY RAIL
+   Horizontal only.
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__rail {
+  overflow-x:
+    auto !important;
+
+  overflow-y:
+    hidden !important;
+
+  /*
+   * Helps browsers distinguish
+   * horizontal rail movement from
+   * vertical card scrolling.
+   */
+  touch-action:
+    pan-x;
+}
+
+
+/* ==========================================================
+   CARD
+   Vertical gesture belongs here.
+========================================================== */
+
+.archenova-twin-home
+.an-home-category__item {
+  touch-action:
+    pan-y;
+}
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /*
+   * The rail gets the available category height.
+   * Each card then becomes its own vertical viewport.
+   */
+
+  .archenova-twin-home
+  .an-home-category__rail {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    align-items:
+      stretch !important;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__item {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      100% !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Keep the category page itself fixed to the
+   * HOME pager layout, while the card content scrolls.
+   */
+
+  .archenova-twin-home
+  .an-home-category__rail {
+    min-height:
+      0 !important;
+
+    overflow-x:
+      auto !important;
+
+    overflow-y:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__item {
+    min-height:
+      0 !important;
+
+    max-height:
+      100% !important;
+
+    overflow-x:
+      hidden !important;
+
+    overflow-y:
+      auto !important;
+
+    -webkit-overflow-scrolling:
+      touch;
+  }
+
+
+  /*
+   * Slight visual breathing room so that
+   * the last line is not flush against
+   * the bottom of the card.
+   */
+
+  .archenova-twin-home
+  .an-home-category__item
+  > * {
+    padding-bottom:
+      12px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE SCROLLBAR
+   Hide it visually while keeping scroll interaction.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  .an-home-category__item {
+    scrollbar-width:
+      none;
+  }
+
+
+  .archenova-twin-home
+  .an-home-category__item::-webkit-scrollbar {
+    display:
+      none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   FUTURE REALIZATION / GOVERNANCE COMPONENT SLOT
+========================================================== */
+
+.archenova-twin-home
+.an-future-system {
+  width: 100%;
+
+  min-height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: flex-start;
+
+  padding:
+    clamp(
+      28px,
+      5vw,
+      72px
+    );
+
+  background:
+    radial-gradient(
+      ellipse
+      at 20% 25%,
+      rgba(
+        255,
+        255,
+        255,
+        0.018
+      ),
+      transparent
+      38%
+    );
+}
+
+
+.archenova-twin-home
+.an-future-system__eyebrow {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.2
+    );
+
+  font-size: 5px;
+
+  font-weight: 650;
+
+  letter-spacing:
+    0.17em;
+}
+
+
+.archenova-twin-home
+.an-future-system h3 {
+  max-width: 680px;
+
+  margin:
+    12px
+    0
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.92
+    );
+
+  font-size:
+    clamp(
+      28px,
+      4vw,
+      52px
+    );
+
+  font-weight: 300;
+
+  line-height: 1.02;
+
+  letter-spacing:
+    -0.04em;
+}
+
+
+.archenova-twin-home
+.an-future-system p {
+  max-width: 720px;
+
+  margin:
+    18px
+    0
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.34
+    );
+
+  font-size: 7px;
+
+  line-height: 1.7;
+}
+
+
+.archenova-twin-home
+.an-future-system__status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: 28px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.2
+    );
+
+  font-size: 4.5px;
+
+  letter-spacing:
+    0.13em;
+}
+
+
+.archenova-twin-home
+.an-future-system__status i {
+  width: 4px;
+
+  height: 4px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.58
+    );
+
+  box-shadow:
+    0
+    0
+    9px
+    rgba(
+      255,
+      255,
+      255,
+      0.17
+    );
+}
+
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  .an-future-system {
+    justify-content:
+      flex-start;
+
+    padding:
+      28px
+      18px;
+  }
+
+
+  .archenova-twin-home
+  .an-future-system h3 {
+    font-size:
+      28px;
+  }
+
+
+  .archenova-twin-home
+  .an-future-system p {
+    font-size:
+      6.8px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   FINAL TYPOGRAPHY + INTERNAL VERTICAL SCROLL
+   ==========================================================
+   Purpose:
+   1. Unify all category typography.
+   2. Make every category card vertically scrollable.
+   3. Preserve horizontal card navigation.
+   4. Preserve black translucent glass design.
+========================================================== */
+
+
+/* ==========================================================
+   1. CATEGORY HEADER TYPOGRAPHY
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__header {
+  align-items:
+    center !important;
+
+  min-height:
+    104px !important;
+
+  padding:
+    16px
+    clamp(
+      18px,
+      2.7vw,
+      38px
+    ) !important;
+}
+
+
+/* ----------------------------------------------------------
+   Small system identifier
+   "04 / ARCHENOVA"
+---------------------------------------------------------- */
+
+.archenova-twin-home
+.an-flow-category__identity
+> span {
+  display:
+    block !important;
+
+  margin:
+    0 !important;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.20
+    ) !important;
+
+  font-weight:
+    620 !important;
+
+  line-height:
+    1 !important;
+
+  letter-spacing:
+    0.18em !important;
+
+  text-transform:
+    uppercase;
+}
+
+
+/* ----------------------------------------------------------
+   Category name
+   RESEARCH / LIBRARY
+   INTELLIGENCE
+   REALIZATION
+   GOVERNANCE
+   EXPERIENCE
+---------------------------------------------------------- */
+
+.archenova-twin-home
+.an-flow-category__identity
+> strong {
+  display:
+    block !important;
+
+  margin-top:
+    9px !important;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.72
+    ) !important;
+
+  font-weight:
+    560 !important;
+
+  line-height:
+    1.15 !important;
+
+  letter-spacing:
+    0.16em !important;
+
+  text-transform:
+    uppercase;
+}
+
+
+/* ==========================================================
+   PRIMARY QUESTION
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__purpose h2 {
+  max-width:
+    760px !important;
+
+  margin:
+    0 !important;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.94
+    ) !important;
+
+  font-weight:
+    320 !important;
+
+  line-height:
+    1.08 !important;
+
+  letter-spacing:
+    -0.028em !important;
+
+  text-wrap:
+    balance;
+}
+
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__purpose p {
+  max-width:
+    720px !important;
+
+  margin:
+    8px
+    0
+    0 !important;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.31
+    ) !important;
+
+  font-weight:
+    400 !important;
+
+  line-height:
+    1.62 !important;
+
+  letter-spacing:
+    0.015em !important;
+}
+
+
+/* ==========================================================
+   EXPLORE INDICATOR
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__direction {
+  display:
+    flex !important;
+
+  align-items:
+    center !important;
+
+  gap:
+    7px !important;
+
+  white-space:
+    nowrap;
+}
+
+
+.archenova-twin-home
+.an-flow-category__direction span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.23
+    ) !important;
+
+  font-weight:
+    620 !important;
+
+  letter-spacing:
+    0.15em !important;
+}
+
+
+.archenova-twin-home
+.an-flow-category__direction small {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.42
+    ) !important;
+
+  font-weight:
+    300 !important;
+}
+
+
+/* ==========================================================
+   2. CRITICAL HEIGHT CHAIN
+   Required for internal card scrolling.
+========================================================== */
+
+/*
+ * A CSS overflow container only scrolls when its own
+ * available height is constrained.
+ *
+ * Therefore:
+ *
+ * category
+ *   ↓
+ * rail
+ *   ↓
+ * item
+ *
+ * must all participate in a finite-height chain.
+ */
+
+.archenova-twin-home
+.an-flow-category-page {
+  min-height:
+    0 !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+.archenova-twin-home
+.an-flow-category {
+  height:
+    100% !important;
+
+  min-height:
+    0 !important;
+
+  grid-template-rows:
+    auto
+    minmax(
+      0,
+      1fr
+    )
+    34px !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* ==========================================================
+   HORIZONTAL RAIL
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail {
+  position:
+    relative !important;
+
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-width:
+    0 !important;
+
+  min-height:
+    0 !important;
+
+  max-height:
+    100% !important;
+
+  display:
+    flex !important;
+
+  align-items:
+    stretch !important;
+
+  overflow-x:
+    auto !important;
+
+  /*
+   * Vertical movement belongs to the card,
+   * not the horizontal rail.
+   */
+  overflow-y:
+    hidden !important;
+
+  overscroll-behavior-x:
+    contain;
+
+  scrollbar-width:
+    none;
+}
+
+
+.archenova-twin-home
+.an-flow-category__rail::-webkit-scrollbar {
+  display:
+    none;
+}
+
+
+/* ==========================================================
+   CARD = VERTICAL SCROLL VIEWPORT
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item {
+  position:
+    relative !important;
+
+  height:
+    100% !important;
+
+  min-height:
+    0 !important;
+
+  max-height:
+    100% !important;
+
+  /*
+   * Horizontal movement is prevented inside one card.
+   * Vertical movement is explicitly enabled.
+   */
+  overflow-x:
+    hidden !important;
+
+  overflow-y:
+    auto !important;
+
+  overscroll-behavior-y:
+    contain;
+
+  -webkit-overflow-scrolling:
+    touch;
+
+  touch-action:
+    pan-y;
+
+  scrollbar-width:
+    thin;
+
+  scrollbar-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.14
+    )
+    transparent;
+}
+
+
+/* ==========================================================
+   DESKTOP SCROLLBAR
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item::-webkit-scrollbar {
+  display:
+    block;
+
+  width:
+    4px;
+}
+
+
+.archenova-twin-home
+.an-flow-category__item::-webkit-scrollbar-track {
+  background:
+    transparent;
+}
+
+
+.archenova-twin-home
+.an-flow-category__item::-webkit-scrollbar-thumb {
+  min-height:
+    32px;
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.12
+    );
+}
+
+
+.archenova-twin-home
+.an-flow-category__item:hover::-webkit-scrollbar-thumb {
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.20
+    );
+}
+
+
+/* ==========================================================
+   DIRECT PORTAL ROOT
+   Critical for existing components.
+========================================================== */
+
+/*
+ * Some existing HOME portals were originally designed
+ * as standalone HOME sections and may contain their own
+ * fixed height / max-height.
+ *
+ * Inside a category card, the direct root must be allowed
+ * to become taller than the card so the parent can scroll.
+ */
+
+.archenova-twin-home
+.an-flow-category__item
+> * {
+  width:
+    100% !important;
+
+  max-width:
+    none !important;
+
+  height:
+    auto !important;
+
+  min-height:
+    100% !important;
+
+  max-height:
+    none !important;
+}
+
+
+/* ==========================================================
+   REALIZATION / GOVERNANCE PLACEHOLDERS
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item
+> .an-future-system {
+  min-height:
+    100% !important;
+
+  height:
+    auto !important;
+}
+
+
+/* ==========================================================
+   EXISTING PORTAL WRAPPERS
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item--library,
+.archenova-twin-home
+.an-flow-category__item--intelligence,
+.archenova-twin-home
+.an-flow-category__item--experience,
+.archenova-twin-home
+.an-flow-category__item--realization,
+.archenova-twin-home
+.an-flow-category__item--governance {
+  min-height:
+    0 !important;
+
+  overflow-y:
+    auto !important;
+}
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .archenova-twin-home
+  .an-flow-category-page {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__rail {
+    flex:
+      1
+      1
+      auto;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item {
+    align-self:
+      stretch;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      100% !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE TYPOGRAPHY
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  .an-flow-category {
+    /*
+     * Mobile HOME pager supplies the external height.
+     * The internal grid must consume it rather than
+     * creating another viewport.
+     */
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    grid-template-rows:
+      auto
+      minmax(
+        0,
+        1fr
+      ) !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__header {
+    min-height:
+      112px !important;
+
+    grid-template-columns:
+      minmax(
+        0,
+        1fr
+      )
+      auto !important;
+
+    grid-template-areas:
+      "identity direction"
+      "purpose purpose" !important;
+
+    align-content:
+      center !important;
+
+    gap:
+      10px
+      14px !important;
+
+    padding:
+      14px
+      15px
+      13px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__identity {
+    grid-area:
+      identity;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__purpose {
+    grid-area:
+      purpose;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__direction {
+    grid-area:
+      direction;
+
+    justify-self:
+      end;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__identity
+  > span {
+
+    letter-spacing:
+      0.17em !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__identity
+  > strong {
+    margin-top:
+      6px !important;
+
+    letter-spacing:
+      0.15em !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__purpose h2 {
+    max-width:
+      335px !important;
+
+    line-height:
+      1.07 !important;
+
+    letter-spacing:
+      -0.03em !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__purpose p {
+    max-width:
+      340px !important;
+
+    margin-top:
+      7px !important;
+
+    line-height:
+      1.52 !important;
+  }
+
+
+  /* ========================================================
+     MOBILE RAIL
+  ======================================================== */
+
+  .archenova-twin-home
+  .an-flow-category__rail {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      100% !important;
+
+    padding:
+      10px
+      11px
+      12px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      100% !important;
+
+    overflow-y:
+      auto !important;
+
+    /*
+     * Keep iOS scrolling fluid.
+     */
+    -webkit-overflow-scrolling:
+      touch;
+
+    touch-action:
+      pan-y;
+
+    /*
+     * Hide scrollbar on mobile while preserving scrolling.
+     */
+    scrollbar-width:
+      none;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item::-webkit-scrollbar {
+    display:
+      none;
+  }
+
+
+  /*
+   * Existing component root is allowed to grow vertically.
+   */
+  .archenova-twin-home
+  .an-flow-category__item
+  > * {
+    height:
+      auto !important;
+
+    min-height:
+      100% !important;
+
+    max-height:
+      none !important;
+  }
+
+
+  /*
+   * HOME already has its own pager.
+   */
+  .archenova-twin-home
+  .an-flow-category__footer {
+    display:
+      none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+
+  .archenova-twin-home
+  .an-flow-category__header {
+    min-height:
+      104px !important;
+
+    padding:
+      12px
+      13px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   VISUAL HIERARCHY REFINEMENT
+   Category = chapter
+   Card     = concrete system
+========================================================== */
+
+
+/* ==========================================================
+   CATEGORY PAGE
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page {
+  padding:
+    clamp(
+      8px,
+      1.15vw,
+      16px
+    ) !important;
+}
+
+
+/* ==========================================================
+   CATEGORY OUTER GLASS
+   Softer / more transparent than inner cards
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category {
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.06
+    ) !important;
+
+  border-radius:
+    22px !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        12,
+        13,
+        15,
+        0.11
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.20
+      )
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(18px)
+    saturate(103%) !important;
+
+  backdrop-filter:
+    blur(18px)
+    saturate(103%) !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.025
+    ),
+
+    0
+    18px
+    70px
+    rgba(
+      0,
+      0,
+      0,
+      0.12
+    ) !important;
+}
+
+
+/* ==========================================================
+   CATEGORY HEADER
+   Stronger chapter hierarchy
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__header {
+  min-height:
+    118px !important;
+
+  padding:
+    20px
+    clamp(
+      20px,
+      3vw,
+      42px
+    ) !important;
+
+  border-bottom:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.045
+    ) !important;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.012
+      ),
+      transparent
+    );
+}
+
+
+/* ==========================================================
+   CATEGORY ID
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__identity
+> span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.22
+    ) !important;
+
+  letter-spacing:
+    0.20em !important;
+}
+
+
+.archenova-twin-home
+.an-flow-category__identity
+> strong {
+  margin-top:
+    9px !important;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.76
+    ) !important;
+
+  font-weight:
+    600 !important;
+
+  letter-spacing:
+    0.17em !important;
+}
+
+
+/* ==========================================================
+   CATEGORY QUESTION
+   This becomes the visual anchor.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__purpose h2 {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.96
+    ) !important;
+
+  font-size:
+    clamp(
+      21px,
+      2vw,
+      30px
+    ) !important;
+
+  font-weight:
+    310 !important;
+
+  line-height:
+    1.06 !important;
+
+  letter-spacing:
+    -0.032em !important;
+}
+
+
+/* ==========================================================
+   CATEGORY DESCRIPTION
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__purpose p {
+  margin-top:
+    10px !important;
+
+  max-width:
+    760px !important;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.34
+    ) !important;
+
+  line-height:
+    1.65 !important;
+}
+
+
+/* ==========================================================
+   EXPLORE INDICATOR
+   Make horizontal navigation understandable
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__direction {
+  min-width:
+    82px;
+
+  justify-content:
+    flex-end;
+}
+
+
+.archenova-twin-home
+.an-flow-category__direction::before {
+  content:
+    "HORIZONTAL";
+
+  margin-right:
+    2px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.12
+    );
+
+  font-size:
+    3.6px;
+
+  letter-spacing:
+    0.13em;
+}
+
+
+.archenova-twin-home
+.an-flow-category__direction span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.32
+    ) !important;
+}
+
+
+/* ==========================================================
+   RAIL
+   Give cards more visual separation
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail {
+  gap:
+    18px !important;
+
+  padding:
+    18px
+    clamp(
+      16px,
+      2.4vw,
+      34px
+    )
+    20px !important;
+
+  scroll-padding-inline:
+    clamp(
+      16px,
+      2.4vw,
+      34px
+    ) !important;
+}
+
+
+/* ==========================================================
+   INNER CARD GLASS
+   Slightly denser than category glass
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item {
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.075
+    ) !important;
+
+  border-radius:
+    18px !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        20,
+        21,
+        24,
+        0.30
+      ),
+      rgba(
+        3,
+        4,
+        5,
+        0.44
+      )
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(106%) !important;
+
+  backdrop-filter:
+    blur(22px)
+    saturate(106%) !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.032
+    ),
+
+    0
+    16px
+    42px
+    rgba(
+      0,
+      0,
+      0,
+      0.12
+    ) !important;
+}
+
+
+/* ==========================================================
+   CARD HOVER
+========================================================== */
+
+@media (hover: hover) {
+
+  .archenova-twin-home
+  .an-flow-category__item {
+    transition:
+      border-color
+      0.22s ease,
+      background
+      0.22s ease,
+      transform
+      0.22s ease;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item:hover {
+    border-color:
+      rgba(
+        255,
+        255,
+        255,
+        0.13
+      ) !important;
+
+    background:
+      linear-gradient(
+        145deg,
+        rgba(
+          24,
+          25,
+          28,
+          0.34
+        ),
+        rgba(
+          4,
+          5,
+          6,
+          0.48
+        )
+      ) !important;
+
+    transform:
+      translateY(
+        -1px
+      );
+  }
+
+}
+
+
+/* ==========================================================
+   SINGLE CARD
+   Give a small side margin so category remains visible.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail
+> .an-flow-category__item:only-child {
+  flex-basis:
+    calc(
+      100% -
+      12px
+    ) !important;
+
+  width:
+    calc(
+      100% -
+      12px
+    ) !important;
+}
+
+
+/* ==========================================================
+   MULTIPLE CARDS
+   Show next card edge.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail
+> .an-flow-category__item:not(:only-child) {
+  flex-basis:
+    min(
+      1080px,
+      86%
+    ) !important;
+
+  width:
+    min(
+      1080px,
+      86%
+    ) !important;
+}
+
+
+/* ==========================================================
+   CARD SCROLL EDGE CUES
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail {
+  mask-image:
+    linear-gradient(
+      90deg,
+      transparent 0,
+      black 12px,
+      black calc(100% - 22px),
+      transparent 100%
+    );
+
+  -webkit-mask-image:
+    linear-gradient(
+      90deg,
+      transparent 0,
+      black 12px,
+      black calc(100% - 22px),
+      transparent 100%
+    );
+}
+
+
+/* ==========================================================
+   CARD INTERNAL SCROLL
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item {
+  overflow-x:
+    hidden !important;
+
+  overflow-y:
+    auto !important;
+
+  overscroll-behavior:
+    contain;
+
+  scrollbar-gutter:
+    stable;
+}
+
+
+/* ==========================================================
+   CARD SCROLLBAR
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item::-webkit-scrollbar {
+  width:
+    4px !important;
+}
+
+
+.archenova-twin-home
+.an-flow-category__item::-webkit-scrollbar-thumb {
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.14
+    ) !important;
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__footer {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.15
+    ) !important;
+
+  border-top:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    ) !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  .an-flow-category-page {
+    padding:
+      5px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category {
+    border-radius:
+      18px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__header {
+    min-height:
+      124px !important;
+
+    padding:
+      15px
+      16px
+      14px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__purpose h2 {
+    max-width:
+      340px !important;
+
+    font-size:
+      20px !important;
+
+    line-height:
+      1.06 !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__purpose p {
+    margin-top:
+      8px !important;
+
+    font-size:
+      5.9px !important;
+
+    line-height:
+      1.55 !important;
+  }
+
+
+  /*
+   * On mobile the "HORIZONTAL" text is unnecessary.
+   */
+  .archenova-twin-home
+  .an-flow-category__direction::before {
+    display:
+      none;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__rail {
+    gap:
+      10px !important;
+
+    padding:
+      12px
+      11px
+      14px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item {
+    border-radius:
+      15px !important;
+  }
+
+
+  /*
+   * Multiple cards:
+   * show enough of the next one to communicate swiping.
+   */
+  .archenova-twin-home
+  .an-flow-category__rail
+  > .an-flow-category__item:not(:only-child) {
+    flex-basis:
+      90% !important;
+
+    width:
+      90% !important;
+  }
+
+
+  /*
+   * Current one-card categories fill the field.
+   */
+  .archenova-twin-home
+  .an-flow-category__rail
+  > .an-flow-category__item:only-child {
+    flex-basis:
+      100% !important;
+
+    width:
+      100% !important;
+  }
+
+
+  /*
+   * Vertical scrolling remains available,
+   * but scrollbar stays visually hidden.
+   */
+  .archenova-twin-home
+  .an-flow-category__item {
+    scrollbar-width:
+      none;
+
+    -webkit-overflow-scrolling:
+      touch;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item::-webkit-scrollbar {
+    display:
+      none;
+  }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 390px) {
+
+  .archenova-twin-home
+  .an-flow-category__header {
+    min-height:
+      116px !important;
+
+    padding:
+      13px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   FINAL FULL-VIEWPORT CATEGORY FRAME
+   ----------------------------------------------------------
+   One category = one complete screen.
+
+   Applies only to:
+   Knowledge
+   Intelligence
+   Realization
+   Governance
+   Experience
+
+   Search / Episteme / Inquiry are untouched.
+========================================================== */
+
+
+/* ==========================================================
+   1. CATEGORY HOME SECTION
+   Escape all old HOME width / max-width / padding rules.
+========================================================== */
+
+.archenova-twin-home
+[data-home-section].an-flow-category-page {
+  position: relative !important;
+
+  /*
+   * Escape any old HOME max-width container.
+   */
+  left: 50% !important;
+
+  width: 100vw !important;
+  max-width: 100vw !important;
+
+  height: 100dvh !important;
+  min-height: 100dvh !important;
+  max-height: 100dvh !important;
+
+  margin:
+    0
+    0
+    0
+    -50vw !important;
+
+  padding:
+    0 !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+
+  overflow:
+    hidden !important;
+
+  scroll-snap-align:
+    start !important;
+
+  scroll-snap-stop:
+    always;
+
+  box-sizing:
+    border-box !important;
+}
+
+
+/* ==========================================================
+   2. THE LARGE GLASS FRAME
+   This is now exactly the full viewport.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page
+> .an-flow-category {
+  position:
+    absolute !important;
+
+  inset:
+    0 !important;
+
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-width:
+    0 !important;
+
+  min-height:
+    0 !important;
+
+  max-width:
+    none !important;
+
+  max-height:
+    none !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  display:
+    grid !important;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    38px !important;
+
+  overflow:
+    hidden !important;
+
+  /*
+   * Existing ArcheNova black translucent glass.
+   */
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.055
+    ) !important;
+
+  border-radius:
+    0 !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        12,
+        13,
+        15,
+        0.16
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.29
+      )
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(18px)
+    saturate(104%) !important;
+
+  backdrop-filter:
+    blur(18px)
+    saturate(104%) !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.022
+    ) !important;
+
+  box-sizing:
+    border-box !important;
+}
+
+
+/* ==========================================================
+   3. HEADER
+   Fixed visual chapter region.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__header {
+  position:
+    relative !important;
+
+  width:
+    100% !important;
+
+  min-width:
+    0 !important;
+
+  min-height:
+    116px !important;
+
+  margin:
+    0 !important;
+
+  flex:
+    none !important;
+
+  box-sizing:
+    border-box !important;
+}
+
+
+/* ==========================================================
+   4. RAIL
+   Takes every remaining pixel below the header.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail {
+  position:
+    relative !important;
+
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-width:
+    0 !important;
+
+  min-height:
+    0 !important;
+
+  max-height:
+    none !important;
+
+  display:
+    flex !important;
+
+  align-items:
+    stretch !important;
+
+  overflow-x:
+    auto !important;
+
+  overflow-y:
+    hidden !important;
+
+  box-sizing:
+    border-box !important;
+}
+
+
+/* ==========================================================
+   5. INTERNAL CARD
+   Card fills the remaining category height.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item {
+  position:
+    relative !important;
+
+  height:
+    100% !important;
+
+  min-height:
+    0 !important;
+
+  max-height:
+    100% !important;
+
+  align-self:
+    stretch !important;
+
+  overflow-x:
+    hidden !important;
+
+  /*
+   * Long portal contents scroll INSIDE the card.
+   */
+  overflow-y:
+    auto !important;
+
+  overscroll-behavior-y:
+    contain;
+
+  -webkit-overflow-scrolling:
+    touch;
+
+  box-sizing:
+    border-box !important;
+}
+
+
+/* ==========================================================
+   6. SINGLE CARD
+   Current card uses essentially the whole category field.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail
+> .an-flow-category__item:only-child {
+  flex:
+    0
+    0
+    calc(
+      100% -
+      16px
+    ) !important;
+
+  width:
+    calc(
+      100% -
+      16px
+    ) !important;
+
+  max-width:
+    none !important;
+}
+
+
+/* ==========================================================
+   7. MULTIPLE FUTURE CARDS
+   Future cards remain horizontally navigable.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail
+> .an-flow-category__item:not(:only-child) {
+  flex:
+    0
+    0
+    min(
+      1120px,
+      88%
+    ) !important;
+
+  width:
+    min(
+      1120px,
+      88%
+    ) !important;
+}
+
+
+/* ==========================================================
+   8. CHILD COMPONENT
+   Prevent portal root from enlarging the HOME section.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item
+> * {
+  width:
+    100% !important;
+
+  max-width:
+    none !important;
+
+  height:
+    auto !important;
+
+  min-height:
+    100% !important;
+
+  max-height:
+    none !important;
+}
+
+
+/* ==========================================================
+   9. FOOTER
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__footer {
+  width:
+    100% !important;
+
+  height:
+    38px !important;
+
+  min-height:
+    38px !important;
+
+  margin:
+    0 !important;
+
+  box-sizing:
+    border-box !important;
+}
+
+
+/* ==========================================================
+   10. PREVENT NEXT HOME SECTION FROM BLEEDING INTO VIEW
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page
++ [data-home-section] {
+  position:
+    relative;
+}
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    height:
+      100dvh !important;
+
+    min-height:
+      100dvh !important;
+
+    max-height:
+      100dvh !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__rail {
+    padding:
+      18px
+      24px
+      20px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    left:
+      50% !important;
+
+    width:
+      100vw !important;
+
+    max-width:
+      100vw !important;
+
+    height:
+      100dvh !important;
+
+    min-height:
+      100dvh !important;
+
+    max-height:
+      100dvh !important;
+
+    margin-left:
+      -50vw !important;
+
+    padding:
+      0 !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category-page
+  > .an-flow-category {
+    inset:
+      0 !important;
+
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    border-radius:
+      0 !important;
+
+    grid-template-rows:
+      auto
+      minmax(0, 1fr) !important;
+  }
+
+
+  /*
+   * Give the chapter header enough room,
+   * but never let it expand according to content.
+   */
+  .archenova-twin-home
+  .an-flow-category__header {
+    min-height:
+      122px !important;
+
+    max-height:
+      122px !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  /*
+   * The remainder of the physical screen
+   * belongs entirely to the content cards.
+   */
+  .archenova-twin-home
+  .an-flow-category__rail {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    padding:
+      11px
+      11px
+      14px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item {
+    height:
+      100% !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      100% !important;
+
+    overflow-y:
+      auto !important;
+
+    -webkit-overflow-scrolling:
+      touch;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__rail
+  > .an-flow-category__item:only-child {
+    flex-basis:
+      100% !important;
+
+    width:
+      100% !important;
+  }
+
+
+  /*
+   * HOME pager already exists outside this glass.
+   */
+  .archenova-twin-home
+  .an-flow-category__footer {
+    display:
+      none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SAFARI FALLBACK
+========================================================== */
+
+@supports not (height: 100dvh) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    height:
+      100vh !important;
+
+    min-height:
+      100vh !important;
+
+    max-height:
+      100vh !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   ADAPTIVE CATEGORY LAYOUT
+   ----------------------------------------------------------
+   IMPORTANT
+
+   - No font scaling
+   - No zoom scaling
+   - No forced component shrinking
+   - One HOME category = one viewport
+   - Header adapts to its real content
+   - Card receives all remaining space
+   - Long card content scrolls internally
+========================================================== */
+
+
+/* ==========================================================
+   1. ONE CATEGORY = ONE HOME VIEW
+========================================================== */
+
+.archenova-twin-home
+[data-home-section].an-flow-category-page {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  height: 100dvh !important;
+  min-height: 100dvh !important;
+  max-height: 100dvh !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  box-sizing: border-box !important;
+
+  scroll-snap-align: start !important;
+  scroll-snap-stop: always;
+}
+
+
+/* ==========================================================
+   2. OUTER CATEGORY GLASS
+   Keep current design.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page
+> .an-flow-category {
+  position: relative !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  max-width: none !important;
+  max-height: 100% !important;
+
+  margin: 0 !important;
+
+  /*
+   * Critical:
+   *
+   * Header and footer determine their own natural heights.
+   * The rail receives every remaining pixel.
+   */
+  display: grid !important;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    auto !important;
+
+  overflow: hidden !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   3. HEADER
+   DO NOT force its height.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__header {
+  position: relative !important;
+
+  width: 100% !important;
+
+  min-width: 0 !important;
+
+  /*
+   * Remove old fixed-height constraints.
+   */
+  height: auto !important;
+
+  min-height: 0 !important;
+  max-height: none !important;
+
+  flex: none !important;
+
+  overflow: visible !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   4. HEADER CONTENT
+   Let existing typography determine the size.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__identity,
+.archenova-twin-home
+.an-flow-category__purpose,
+.archenova-twin-home
+.an-flow-category__direction {
+  min-width: 0 !important;
+}
+
+
+/*
+ * Do not truncate the main question.
+ */
+
+.archenova-twin-home
+.an-flow-category__purpose h2 {
+  max-height: none !important;
+
+  overflow: visible !important;
+
+  -webkit-line-clamp: unset !important;
+  line-clamp: unset !important;
+}
+
+
+/*
+ * Do not truncate the description either.
+ */
+
+.archenova-twin-home
+.an-flow-category__purpose p {
+  max-height: none !important;
+
+  overflow: visible !important;
+
+  -webkit-line-clamp: unset !important;
+  line-clamp: unset !important;
+}
+
+
+/* ==========================================================
+   5. RAIL
+   Receives all space remaining after the real header.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail {
+  position: relative !important;
+
+  width: 100% !important;
+
+  height: auto !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  max-height: none !important;
+
+  display: flex !important;
+
+  align-items: stretch !important;
+
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+
+  box-sizing: border-box !important;
+
+  /*
+   * Important for nested flex/grid shrinking.
+   */
+  flex: 1 1 auto !important;
+
+  scrollbar-width: none;
+}
+
+
+.archenova-twin-home
+.an-flow-category__rail::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* ==========================================================
+   6. CARD
+   Card itself fills the remaining rail height.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item {
+  position: relative !important;
+
+  align-self: stretch !important;
+
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  max-height: 100% !important;
+
+  /*
+   * Horizontal movement is handled by the rail.
+   * Vertical movement belongs to the card.
+   */
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+
+  overscroll-behavior-y: contain;
+
+  -webkit-overflow-scrolling: touch;
+
+  box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   7. SINGLE CARD
+   Exactly one card = use the available rail.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail
+> .an-flow-category__item:only-child {
+  flex:
+    0
+    0
+    100% !important;
+
+  width: 100% !important;
+
+  max-width: none !important;
+}
+
+
+/* ==========================================================
+   8. MULTIPLE FUTURE CARDS
+   Preserve horizontal navigation.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__rail
+> .an-flow-category__item:not(:only-child) {
+  flex:
+    0
+    0
+    min(
+      1120px,
+      90%
+    ) !important;
+
+  width:
+    min(
+      1120px,
+      90%
+    ) !important;
+}
+
+
+/* ==========================================================
+   9. CRITICAL
+   EXISTING COMPONENTS KEEP THEIR ORIGINAL SCALE
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item
+> * {
+  width: 100% !important;
+
+  max-width: none !important;
+
+  /*
+   * Never scale the component.
+   */
+  zoom: 1 !important;
+
+  transform: none !important;
+
+  /*
+   * Content determines its real height.
+   *
+   * If it exceeds the card,
+   * the CARD scrolls vertically.
+   */
+  height: auto !important;
+
+  min-height: 100% !important;
+
+  max-height: none !important;
+
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+
+/* ==========================================================
+   10. LIBRARY / INTELLIGENCE / EXPERIENCE
+   Explicitly remove old scaling variables.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__item--library,
+.archenova-twin-home
+.an-flow-category__item--intelligence,
+.archenova-twin-home
+.an-flow-category__item--experience,
+.archenova-twin-home
+.an-flow-category__item--realization,
+.archenova-twin-home
+.an-flow-category__item--governance {
+  --an-content-scale: 1 !important;
+
+  min-height: 0 !important;
+
+  overflow-y: auto !important;
+}
+
+
+/* ==========================================================
+   11. SCROLLBAR
+   Desktop only: extremely subtle.
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .archenova-twin-home
+  .an-flow-category__item {
+    scrollbar-width: thin;
+
+    scrollbar-color:
+      rgba(255,255,255,0.12)
+      transparent;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item::-webkit-scrollbar {
+    display: block;
+
+    width: 4px;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+
+    background:
+      rgba(
+        255,
+        255,
+        255,
+        0.12
+      );
+  }
+
+}
+
+
+/* ==========================================================
+   12. FOOTER
+   Let the footer determine its own natural height.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__footer {
+  width: 100% !important;
+
+  height: auto !important;
+
+  min-height: 0 !important;
+  max-height: none !important;
+
+  flex: none !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    width: 100% !important;
+
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category-page
+  > .an-flow-category {
+    height: 100% !important;
+
+    min-height: 0 !important;
+
+    grid-template-rows:
+      auto
+      minmax(0, 1fr) !important;
+  }
+
+
+  /*
+   * Header adapts to its real text.
+   */
+  .archenova-twin-home
+  .an-flow-category__header {
+    height: auto !important;
+
+    min-height: 0 !important;
+    max-height: none !important;
+
+    overflow: visible !important;
+  }
+
+
+  /*
+   * Rail automatically gets exactly what is left.
+   */
+  .archenova-twin-home
+  .an-flow-category__rail {
+    height: auto !important;
+
+    min-height: 0 !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+
+
+  /*
+   * Card fills remaining height and scrolls naturally.
+   */
+  .archenova-twin-home
+  .an-flow-category__item {
+    height: 100% !important;
+
+    min-height: 0 !important;
+
+    max-height: 100% !important;
+
+    overflow-y: auto !important;
+
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: none;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category__item::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  /*
+   * Existing portals stay at their own original size.
+   */
+  .archenova-twin-home
+  .an-flow-category__item
+  > * {
+    zoom: 1 !important;
+
+    transform: none !important;
+
+    height: auto !important;
+
+    min-height: 100% !important;
+
+    max-height: none !important;
+  }
+
+
+  /*
+   * HOME already owns the bottom navigation.
+   */
+  .archenova-twin-home
+  .an-flow-category__footer {
+    display: none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SAFARI FALLBACK
+========================================================== */
+
+@supports not (height: 100dvh) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    height: 100vh !important;
+
+    min-height: 100vh !important;
+
+    max-height: 100vh !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   CATEGORY HORIZONTAL CENTERING FIX
+   ----------------------------------------------------------
+   Display-only correction.
+   Does not change:
+   - typography
+   - card size
+   - internal scroll
+   - glass design
+========================================================== */
+
+.archenova-twin-home
+[data-home-section].an-flow-category-page {
+  position:
+    relative !important;
+
+  left:
+    auto !important;
+
+  right:
+    auto !important;
+
+  transform:
+    none !important;
+
+  width:
+    100% !important;
+
+  max-width:
+    none !important;
+
+  margin-left:
+    0 !important;
+
+  margin-right:
+    0 !important;
+
+  margin-inline:
+    0 !important;
+
+  padding-left:
+    0 !important;
+
+  padding-right:
+    0 !important;
+
+  box-sizing:
+    border-box !important;
+}
+
+
+/* ==========================================================
+   OUTER CATEGORY GLASS
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page
+> .an-flow-category {
+  position:
+    relative !important;
+
+  left:
+    auto !important;
+
+  right:
+    auto !important;
+
+  transform:
+    none !important;
+
+  width:
+    100% !important;
+
+  max-width:
+    none !important;
+
+  margin-left:
+    auto !important;
+
+  margin-right:
+    auto !important;
+
+  margin-inline:
+    auto !important;
+}
+
+
+/* ==========================================================
+   MAKE THE CATEGORY ALIGN TO THE HOME CENTER AXIS
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page {
+  display:
+    flex !important;
+
+  justify-content:
+    center !important;
+
+  align-items:
+    stretch !important;
+}
+
+
+.archenova-twin-home
+.an-flow-category-page
+> .an-flow-category {
+  flex:
+    1 1 auto !important;
+
+  min-width:
+    0 !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    left:
+      auto !important;
+
+    width:
+      100% !important;
+
+    max-width:
+      100% !important;
+
+    margin-left:
+      0 !important;
+
+    margin-right:
+      0 !important;
+
+    transform:
+      none !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category-page
+  > .an-flow-category {
+    width:
+      100% !important;
+
+    max-width:
+      100% !important;
+
+    margin:
+      0 auto !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   CATEGORY FRAME SEPARATION
+   ----------------------------------------------------------
+   Separate each large category glass card visually.
+
+   Does NOT change:
+   - typography
+   - inner card size
+   - internal vertical scrolling
+   - component scale
+   - HomeSectionPager
+========================================================== */
+
+
+/* ==========================================================
+   1. EACH CATEGORY PAGE REMAINS ONE FULL HOME SCREEN
+========================================================== */
+
+.archenova-twin-home
+[data-home-section].an-flow-category-page {
+  position: relative !important;
+
+  width: 100% !important;
+  height: 100dvh !important;
+
+  min-height: 100dvh !important;
+  max-height: 100dvh !important;
+
+  /*
+   * Critical:
+   * create independent space around every large card.
+   *
+   * The SECTION remains 100dvh,
+   * therefore the next section does not enter this screen.
+   */
+  padding:
+    10px
+    12px !important;
+
+  margin: 0 !important;
+
+  overflow: hidden !important;
+
+  box-sizing: border-box !important;
+
+  background: transparent !important;
+}
+
+
+/* ==========================================================
+   2. EACH LARGE FRAME BECOMES AN INDEPENDENT GLASS OBJECT
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page
+> .an-flow-category {
+  position: relative !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  margin: 0 !important;
+
+  overflow: hidden !important;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.06
+    ) !important;
+
+  border-radius:
+    20px !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        12,
+        13,
+        15,
+        0.13
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.23
+      )
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(18px)
+    saturate(104%) !important;
+
+  backdrop-filter:
+    blur(18px)
+    saturate(104%) !important;
+
+  /*
+   * Very weak independent shadow.
+   * Prevents two consecutive cards from visually merging.
+   */
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.024
+    ),
+
+    0
+    10px
+    32px
+    rgba(
+      0,
+      0,
+      0,
+      0.16
+    ) !important;
+
+  box-sizing: border-box !important;
+
+  contain: paint;
+}
+
+
+/* ==========================================================
+   3. REMOVE POSSIBLE CONNECTING PSEUDO SURFACES
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page::before,
+.archenova-twin-home
+.an-flow-category-page::after {
+  display: none !important;
+}
+
+
+/*
+ * Preserve the subtle atmosphere INSIDE each category,
+ * but prevent it from escaping into adjacent sections.
+ */
+
+.archenova-twin-home
+.an-flow-category::before,
+.archenova-twin-home
+.an-flow-category::after {
+  border-radius:
+    inherit;
+
+  overflow:
+    hidden;
+}
+
+
+/* ==========================================================
+   4. HEADER / RAIL / FOOTER STAY INSIDE THE SAME CARD
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category__header,
+.archenova-twin-home
+.an-flow-category__rail,
+.archenova-twin-home
+.an-flow-category__footer {
+  max-width: 100% !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   5. FIRST / LAST CATEGORY
+   Same geometry as every other category.
+========================================================== */
+
+.archenova-twin-home
+.an-flow-category-page:first-of-type,
+.archenova-twin-home
+.an-flow-category-page:last-of-type {
+  padding-top:
+    10px !important;
+
+  padding-bottom:
+    10px !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    width: 100% !important;
+
+    height: 100dvh !important;
+
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+
+    /*
+     * Smaller but clearly visible separation.
+     */
+    padding:
+      7px
+      6px !important;
+
+    overflow:
+      hidden !important;
+  }
+
+
+  .archenova-twin-home
+  .an-flow-category-page
+  > .an-flow-category {
+    width: 100% !important;
+    height: 100% !important;
+
+    border-radius:
+      17px !important;
+
+    overflow:
+      hidden !important;
+  }
+
+}
+
+
+/* ==========================================================
+   SAFARI FALLBACK
+========================================================== */
+
+@supports not (height: 100dvh) {
+
+  .archenova-twin-home
+  [data-home-section].an-flow-category-page {
+    height:
+      100vh !important;
+
+    min-height:
+      100vh !important;
+
+    max-height:
+      100vh !important;
+  }
+
+}
+
+
+
+
+
+
+
+
