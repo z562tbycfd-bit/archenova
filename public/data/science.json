@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-22T03:44:49.675Z",
+  "updated": "2026-08-22T04:34:40.828Z",
   "items": [
     {
       "source": "Phys.org",
@@ -30,6 +30,14 @@
       "source": "Nature Communications",
       "title": "Multiple superconducting phases and order-parameter evolution in pressurized UTe<sub>2</sub>",
       "url": "https://www.nature.com/articles/s41467-026-77045-7",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Sex of central neurons controls intestinal niche signalling to drive sex differences in stem cell activity and cancer susceptibility",
+      "url": "https://www.nature.com/articles/s41467-026-76998-z",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -791,14 +799,6 @@
       "title": "Black-Box Coherence Matrix Eigen-Spectroscopy with Programmable Photonics",
       "url": "https://arxiv.org/abs/2608.19353",
       "summary": "arXiv:2608.19353v1 Announce Type: new Abstract: The precise characterization of spatial optical coherence is fundamental to emerging applications in optical communications and computational imaging. However, extracting t…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Informing spectral models for dense plasmas with K-edge absorption measurements of warm dense copper",
-      "url": "https://arxiv.org/abs/2608.19382",
-      "summary": "arXiv:2608.19382v1 Announce Type: new Abstract: Warm dense matter remains a challenging regime to characterize experimentally and to model with predictive accuracy. Recent experimental platforms have been developed to ge…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
