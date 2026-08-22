@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-22T12:42:02.908Z",
+  "updated": "2026-08-22T13:33:14.718Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Animal genomes follow irreversible 'evolutionary highways' across thousands of species",
+      "url": "https://phys.org/news/2026-08-animal-genomes-irreversible-evolutionary-highways.html",
+      "summary": "A human, an octopus, and a coral could hardly look more different—yet deep inside their cells, their chromosomes still carry recognizable pieces of a genome inherited from an animal ancestor that lived more than 600 mill…",
+      "ts": 1787403604000,
+      "publishedAt": "2026-08-22T13:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Earth's magnetosphere might not protect us from superstorms after all",
@@ -588,6 +596,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -635,6 +651,14 @@
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
+      "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
+      "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
       "source": "APS PRX",
       "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
       "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
@@ -647,22 +671,6 @@
       "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
       "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
       "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
-      "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
-      "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -791,14 +799,6 @@
       "title": "Weakly nonlinear internal waves by tidal flow over a ridge in a shear current",
       "url": "https://arxiv.org/abs/2608.19237",
       "summary": "arXiv:2608.19237v1 Announce Type: new Abstract: We extend Thorpe successive approximation expansion to the forced, tide locked internal wave generation problem of Lamb and Dunphy, where a barotropic tide over a ridge rad…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A stop to field line misconceptions",
-      "url": "https://arxiv.org/abs/2608.19241",
-      "summary": "arXiv:2608.19241v1 Announce Type: new Abstract: For two hundred years - ever since Faraday's first conception of the field lines - hearts and minds of students have been pervaded by erroneous and unsubstantiated claims a…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
