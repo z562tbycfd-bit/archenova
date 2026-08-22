@@ -47207,3 +47207,613 @@ i {
 
 
 
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA FLOW CATEGORY
+   REFINED TYPOGRAPHY
+========================================================== */
+
+/* ----------------------------------------------------------
+   01 / 02 / 03 ...
+---------------------------------------------------------- */
+
+.an-flow-category__identity > span {
+  display: block;
+
+  color: rgba(255, 255, 255, 0.28);
+
+  font-size: 8px;
+
+  font-weight: 300;
+
+  line-height: 1;
+
+  letter-spacing: 0.22em;
+
+  text-transform: uppercase;
+}
+
+
+/* ----------------------------------------------------------
+   RESEARCH / LIBRARY
+   INTELLIGENCE
+   IMPLEMENTATION
+   GOVERNANCE
+   EXPERIENCE
+---------------------------------------------------------- */
+
+.an-flow-category__identity > strong {
+  display: block;
+
+  margin-top: 8px;
+
+  color: rgba(255, 255, 255, 0.88);
+
+  font-size: clamp(
+    12px,
+    1vw,
+    15px
+  );
+
+  font-weight: 320;
+
+  line-height: 1.15;
+
+  letter-spacing: 0.085em;
+
+  text-transform: uppercase;
+}
+
+
+/* ----------------------------------------------------------
+   MAIN QUESTION
+---------------------------------------------------------- */
+
+.an-flow-category__purpose > h2 {
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.96);
+
+  font-size: clamp(
+    22px,
+    2.15vw,
+    34px
+  );
+
+  font-weight: 280;
+
+  line-height: 1.08;
+
+  letter-spacing: -0.025em;
+
+  text-wrap: balance;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+
+/* ----------------------------------------------------------
+   DESCRIPTION
+---------------------------------------------------------- */
+
+.an-flow-category__purpose > p {
+  max-width: 720px;
+
+  margin: 10px 0 0;
+
+  color: rgba(255, 255, 255, 0.38);
+
+  font-size: clamp(
+    7px,
+    0.64vw,
+    9px
+  );
+
+  font-weight: 300;
+
+  line-height: 1.7;
+
+  letter-spacing: 0.015em;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* ----------------------------------------------------------
+   EXPLORE
+---------------------------------------------------------- */
+
+.an-flow-category__direction > span {
+  color: rgba(255, 255, 255, 0.24);
+
+  font-size: 5px;
+
+  font-weight: 300;
+
+  letter-spacing: 0.18em;
+}
+
+
+.an-flow-category__direction > small {
+  color: rgba(255, 255, 255, 0.42);
+
+  font-size: 12px;
+
+  font-weight: 200;
+}
+
+
+/* ----------------------------------------------------------
+   FOOTER
+---------------------------------------------------------- */
+
+.an-flow-category__footer {
+  font-weight: 300;
+
+  letter-spacing: 0.14em;
+}
+
+
+.an-flow-category__footer > span {
+  color: rgba(255, 255, 255, 0.15);
+
+  font-size: 4px;
+
+  font-weight: 300;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .an-flow-category__identity > span {
+    font-size: 7px;
+
+    letter-spacing: 0.2em;
+  }
+
+
+  .an-flow-category__identity > strong {
+    margin-top: 6px;
+
+    font-size: 11px;
+
+    font-weight: 320;
+
+    letter-spacing: 0.075em;
+  }
+
+
+  .an-flow-category__purpose > h2 {
+    font-size: clamp(
+      22px,
+      7vw,
+      30px
+    );
+
+    font-weight: 280;
+
+    line-height: 1.08;
+  }
+
+
+  .an-flow-category__purpose > p {
+    margin-top: 9px;
+
+    font-size: 7px;
+
+    line-height: 1.65;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA FLOW CATEGORY
+   RAIL NAVIGATION
+========================================================== */
+
+.an-flow-category__navigation {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-end;
+
+  gap: 8px;
+
+  flex: 0 0 auto;
+}
+
+
+.an-flow-category__nav-button {
+  position: relative;
+
+  width: 36px;
+  height: 36px;
+
+  display: grid;
+
+  place-items: center;
+
+  padding: 0;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.07
+    );
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.022
+      ),
+      rgba(
+        255,
+        255,
+        255,
+        0.006
+      )
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.46
+    );
+
+  font: inherit;
+
+  font-size: 13px;
+
+  font-weight: 260;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  -webkit-backdrop-filter:
+    blur(14px);
+
+  backdrop-filter:
+    blur(14px);
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.018
+    );
+
+  transition:
+    border-color
+    0.18s
+    ease,
+    background
+    0.18s
+    ease,
+    color
+    0.18s
+    ease,
+    transform
+    0.18s
+    ease;
+}
+
+
+.an-flow-category__nav-button:hover {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.15
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.9
+    );
+
+  transform:
+    translateY(
+      -1px
+    );
+}
+
+
+.an-flow-category__nav-button:active {
+  transform:
+    translateY(
+      0
+    )
+    scale(
+      0.96
+    );
+}
+
+
+/* ==========================================================
+   RAIL
+========================================================== */
+
+.an-flow-category__rail {
+  scroll-behavior: smooth;
+
+  scroll-snap-type:
+    x
+    mandatory;
+
+  overscroll-behavior-inline:
+    contain;
+}
+
+
+.an-flow-category__item {
+  scroll-snap-align: start;
+
+  scroll-snap-stop: always;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (
+  max-width:
+  768px
+) {
+
+  .an-flow-category__navigation {
+    gap: 6px;
+  }
+
+
+  .an-flow-category__nav-button {
+    width: 32px;
+    height: 32px;
+
+    font-size: 12px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.an-flow-category__navigation {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.an-flow-category__nav {
+  position: relative;
+
+  width: 42px;
+  height: 28px;
+
+  display: grid;
+  place-items: center;
+
+  padding: 0;
+
+  border: 0;
+  outline: 0;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  opacity: 0.42;
+
+  transition:
+    opacity 180ms ease,
+    transform 220ms ease;
+}
+
+.an-flow-category__nav:hover {
+  opacity: 0.92;
+}
+
+
+/* ------------------------------------------
+   ARROW LINE
+------------------------------------------ */
+
+.an-flow-category__nav span {
+  position: relative;
+
+  display: block;
+
+  width: 19px;
+  height: 1px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.48
+    );
+
+  transition:
+    width 220ms ease,
+    background 180ms ease;
+}
+
+.an-flow-category__nav:hover span {
+  width: 25px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.86
+    );
+}
+
+
+/* ------------------------------------------
+   ARROW HEAD
+------------------------------------------ */
+
+.an-flow-category__nav span::after {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+
+  width: 5px;
+  height: 5px;
+
+  border-top:
+    1px solid
+    currentColor;
+
+  border-right:
+    1px solid
+    currentColor;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.62
+    );
+}
+
+
+/* NEXT */
+
+.an-flow-category__nav--next span::after {
+  right: 0;
+
+  transform:
+    translateY(-50%)
+    rotate(45deg);
+}
+
+
+/* PREVIOUS */
+
+.an-flow-category__nav--prev span::after {
+  left: 0;
+
+  transform:
+    translateY(-50%)
+    rotate(-135deg);
+}
+
+
+/* ------------------------------------------
+   MICRO MOTION
+------------------------------------------ */
+
+.an-flow-category__nav--prev:hover {
+  transform:
+    translateX(-2px);
+}
+
+.an-flow-category__nav--next:hover {
+  transform:
+    translateX(2px);
+}
+
+
+/* ------------------------------------------
+   KEYBOARD ACCESSIBILITY
+------------------------------------------ */
+
+.an-flow-category__nav:focus-visible {
+  opacity: 1;
+}
+
+.an-flow-category__nav:focus-visible::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 2px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.12
+    );
+
+  border-radius: 999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

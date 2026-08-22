@@ -1,5 +1,11 @@
+"use client";
+
 import type {
   ReactNode,
+} from "react";
+
+import {
+  useRef,
 } from "react";
 
 import EpistemeDialoguePortal
@@ -65,6 +71,55 @@ function HomeCategory({
   description,
   children,
 }: HomeCategoryProps) {
+
+  const railRef =
+    useRef<HTMLDivElement | null>(
+      null,
+    );
+
+
+  function scrollRail(
+    direction:
+      "left" |
+      "right",
+  ) {
+
+    const rail =
+      railRef.current;
+
+
+    if (
+      !rail
+    ) {
+      return;
+    }
+
+
+    const item =
+      rail.querySelector<HTMLElement>(
+        ".an-flow-category__item",
+      );
+
+
+    const amount =
+      item
+        ? item.offsetWidth + 18
+        : rail.clientWidth * 0.82;
+
+
+    rail.scrollBy({
+      left:
+        direction ===
+        "right"
+          ? amount
+          : -amount,
+
+      behavior:
+        "smooth",
+    });
+  }
+
+
   return (
     <div className="an-flow-category">
 
@@ -74,8 +129,6 @@ function HomeCategory({
 
           <span>
             {code}
-            {" / "}
-            ARCHENOVA
           </span>
 
           <strong>
@@ -99,29 +152,42 @@ function HomeCategory({
 
 
         <div
-          className="an-flow-category__direction"
-          aria-hidden="true"
-        >
+  className="an-flow-category__navigation"
+  aria-label="Card navigation"
+>
+  <button
+    type="button"
+    className="
+      an-flow-category__nav
+      an-flow-category__nav--prev
+    "
+    aria-label="Previous card"
+  >
+    <span aria-hidden="true" />
+  </button>
 
-          <i />
-
-          <span>
-            EXPLORE
-          </span>
-
-          <small>
-            →
-          </small>
-
-        </div>
+  <button
+    type="button"
+    className="
+      an-flow-category__nav
+      an-flow-category__nav--next
+    "
+    aria-label="Next card"
+  >
+    <span aria-hidden="true" />
+  </button>
+</div>
 
       </header>
 
 
-      <div className="an-flow-category__rail">
-
+      <div
+        ref={
+          railRef
+        }
+        className="an-flow-category__rail"
+      >
         {children}
-
       </div>
 
 
@@ -241,7 +307,6 @@ export default function Home() {
 
 
       {/* ==================================================
-          01
           SEARCH
       ================================================== */}
 
@@ -258,7 +323,6 @@ export default function Home() {
 
 
       {/* ==================================================
-          02
           EPISTEME
       ================================================== */}
 
@@ -276,7 +340,6 @@ export default function Home() {
 
 
       {/* ==================================================
-          03
           INQUIRY
       ================================================== */}
 
@@ -290,7 +353,7 @@ export default function Home() {
 
 
       {/* ==================================================
-          04
+          01
           RESEARCH / LIBRARY
       ================================================== */}
 
@@ -307,7 +370,7 @@ export default function Home() {
       >
 
         <HomeCategory
-          code="04"
+          code="01"
           category="RESEARCH / LIBRARY"
           question="What has been established?"
           description="Preserve reproducible evidence, research, records, and validated knowledge that can remain independently accessible and reconstructable."
@@ -325,7 +388,7 @@ export default function Home() {
 
 
       {/* ==================================================
-          05
+          02
           INTELLIGENCE
       ================================================== */}
 
@@ -342,7 +405,7 @@ export default function Home() {
       >
 
         <HomeCategory
-          code="05"
+          code="02"
           category="INTELLIGENCE"
           question="What does it mean?"
           description="Transform evidence and changing signals into structured understanding of capability, risk, infrastructure, coordination, and future trajectories."
@@ -360,10 +423,15 @@ export default function Home() {
 
 
       {/* ==================================================
-          06
-          REALIZATION
+          03
+          IMPLEMENTATION
 
-          Reserved for future dedicated component.
+          Realization
+          → Projects
+          → Commercialization
+          → Capital
+          → Governance
+          → Deployment
       ================================================== */}
 
       <section
@@ -373,22 +441,180 @@ export default function Home() {
           home-page
           twin-page
           an-flow-category-page
-          an-flow-category-page--realization
+          an-flow-category-page--implementation
         "
       >
 
         <HomeCategory
-          code="06"
-          category="REALIZATION"
-          question="What minimum structure would make it real?"
-          description="Connect scientific evidence to engineering by identifying the minimum causal structure sufficient for reproducible, reliable, correctable, and valuable implementation."
+          code="03"
+          category="IMPLEMENTATION"
+          question="How does knowledge become reality?"
+          description="Move validated knowledge through realization, projects, commercialization, capital, governance, and deployment until capability can survive real-world use without losing responsibility or correctability."
         >
 
+          {/* =============================================
+              01 / REALIZATION
+              EXISTING COMPONENT
+          ============================================= */}
+
           <HomeCategoryItem
-  className="an-flow-category__item--realization"
->
-  <CivilizationRealizationPortal />
-</HomeCategoryItem>
+            className="
+              an-flow-category__item--implementation
+              an-flow-category__item--realization
+            "
+          >
+            <CivilizationRealizationPortal />
+          </HomeCategoryItem>
+
+
+          {/* =============================================
+              02 / PROJECTS
+              FUTURE COMPONENT
+          ============================================= */}
+
+          <HomeCategoryItem
+            className="
+              an-flow-category__item--implementation
+              an-flow-category__item--projects
+            "
+          >
+
+            {/*
+              FUTURE:
+
+              import CivilizationProjectsPortal
+                from "../components/CivilizationProjectsPortal";
+
+              <CivilizationProjectsPortal />
+            */}
+
+            <FutureSystemPlaceholder
+              eyebrow="02 · PROJECT FORMATION"
+              title="Projects"
+              description="Convert realizable capability into concrete projects with defined objectives, sites, stakeholders, resources, timelines, technical milestones, and measurable success conditions."
+            />
+
+          </HomeCategoryItem>
+
+
+          {/* =============================================
+              03 / COMMERCIALIZATION
+              FUTURE COMPONENT
+          ============================================= */}
+
+          <HomeCategoryItem
+            className="
+              an-flow-category__item--implementation
+              an-flow-category__item--commercialization
+            "
+          >
+
+            {/*
+              FUTURE:
+
+              import CivilizationCommercializationPortal
+                from "../components/CivilizationCommercializationPortal";
+
+              <CivilizationCommercializationPortal />
+            */}
+
+            <FutureSystemPlaceholder
+              eyebrow="03 · VALUE FORMATION"
+              title="Commercialization"
+              description="Determine whether a validated capability can become an adoptable product, service, platform, or infrastructure with real demand, viable economics, manufacturing, and sustainable operation."
+            />
+
+          </HomeCategoryItem>
+
+
+          {/* =============================================
+              04 / CAPITAL
+              FUTURE COMPONENT
+          ============================================= */}
+
+          <HomeCategoryItem
+            className="
+              an-flow-category__item--implementation
+              an-flow-category__item--capital
+            "
+          >
+
+            {/*
+              FUTURE:
+
+              import CivilizationCapitalPortal
+                from "../components/CivilizationCapitalPortal";
+
+              <CivilizationCapitalPortal />
+            */}
+
+            <FutureSystemPlaceholder
+              eyebrow="04 · CAPITAL ARCHITECTURE"
+              title="Capital"
+              description="Structure the resources required for implementation while defining who bears risk, who absorbs failure, how capital remains accountable, and what conditions justify continued investment."
+            />
+
+          </HomeCategoryItem>
+
+
+          {/* =============================================
+              05 / GOVERNANCE
+              FUTURE COMPONENT
+          ============================================= */}
+
+          <HomeCategoryItem
+            className="
+              an-flow-category__item--implementation
+              an-flow-category__item--implementation-governance
+            "
+          >
+
+            {/*
+              FUTURE:
+
+              import CivilizationImplementationGovernancePortal
+                from "../components/CivilizationImplementationGovernancePortal";
+
+              <CivilizationImplementationGovernancePortal />
+            */}
+
+            <FutureSystemPlaceholder
+              eyebrow="05 · RESPONSIBILITY GATE"
+              title="Governance"
+              description="Define the authority, accountability, constraints, correction capacity, recovery pathways, and responsibility required before implementation may expand in scale."
+            />
+
+          </HomeCategoryItem>
+
+
+          {/* =============================================
+              06 / DEPLOYMENT
+              FUTURE COMPONENT
+          ============================================= */}
+
+          <HomeCategoryItem
+            className="
+              an-flow-category__item--implementation
+              an-flow-category__item--deployment
+            "
+          >
+
+            {/*
+              FUTURE:
+
+              import CivilizationDeploymentPortal
+                from "../components/CivilizationDeploymentPortal";
+
+              <CivilizationDeploymentPortal />
+            */}
+
+            <FutureSystemPlaceholder
+              eyebrow="06 · REAL-WORLD OPERATION"
+              title="Deployment"
+              description="Test whether the implemented system remains reliable, useful, correctable, maintainable, and valuable under real operating conditions before it becomes durable infrastructure."
+            />
+
+          </HomeCategoryItem>
 
         </HomeCategory>
 
@@ -396,10 +622,8 @@ export default function Home() {
 
 
       {/* ==================================================
-          07
+          04
           GOVERNANCE
-
-          Reserved for future dedicated component.
       ================================================== */}
 
       <section
@@ -414,10 +638,10 @@ export default function Home() {
       >
 
         <HomeCategory
-          code="07"
+          code="04"
           category="GOVERNANCE"
           question="Under what responsibility may it scale?"
-          description="Define the authority, accountability, institutional constraints, capital structure, correction capacity, recovery pathways, and conditions required for legitimate scale."
+          description="Define the authority, accountability, institutional constraints, correction capacity, recovery pathways, and conditions under which civilization-scale capability may legitimately persist and expand."
         >
 
           <HomeCategoryItem
@@ -436,7 +660,7 @@ export default function Home() {
             <FutureSystemPlaceholder
               eyebrow="FUTURE SYSTEM"
               title="Civilization Governance"
-              description="This space is reserved for the dedicated governance component that will define responsibility, authority, constraints, correction, recovery, capital discipline, and permissible scale."
+              description="This space is reserved for the dedicated governance component that will define responsibility, authority, institutional constraints, correction, recovery, and permissible civilization-scale power."
             />
 
           </HomeCategoryItem>
@@ -447,7 +671,7 @@ export default function Home() {
 
 
       {/* ==================================================
-          08
+          05
           EXPERIENCE
       ================================================== */}
 
@@ -464,7 +688,7 @@ export default function Home() {
       >
 
         <HomeCategory
-          code="08"
+          code="05"
           category="EXPERIENCE"
           question="How can humans encounter it?"
           description="Transform validated capability into accessible interaction, exploration, participation, and direct human experience."

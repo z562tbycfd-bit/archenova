@@ -98,7 +98,7 @@ const CHAPTER_TARGETS:
       "KNOWLEDGE",
 
     subtitle:
-      "What has been established?",
+      "What is known?",
   },
 
   {
@@ -116,18 +116,14 @@ const CHAPTER_TARGETS:
   },
 
   {
-    id:
-      "civilization-realization",
+  id: "civilization-realization",
 
-    mark:
-      "♅",
+  mark: "♅",
 
-    title:
-      "REALIZATION",
+  title: "IMPLEMENTATION",
 
-    subtitle:
-      "What would make it real?",
-  },
+  subtitle: "How does it become real?",
+},
 
   {
     id:
@@ -140,7 +136,7 @@ const CHAPTER_TARGETS:
       "GOVERNANCE",
 
     subtitle:
-      "What responsibility permits scale?",
+      "How may it scale?",
   },
 
   {
@@ -154,7 +150,7 @@ const CHAPTER_TARGETS:
       "EXPERIENCE",
 
     subtitle:
-      "How can humans encounter it?",
+      "How is it experienced?",
   },
 ];
 
