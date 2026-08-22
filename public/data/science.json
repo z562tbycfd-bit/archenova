@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-22T09:28:43.527Z",
+  "updated": "2026-08-22T10:25:47.953Z",
   "items": [
     {
       "source": "Phys.org",
@@ -36,6 +36,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "XPO1-mediated TRIM21 nuclear export reprograms TREM2+ macrophage polarization by targeting IRF3 to augment anti-PD-1 efficacy in small cell lung cancer",
+      "url": "https://www.nature.com/articles/s41467-026-76862-0",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Structural basis of the gating mechanism of the large-conductance mechanosensitive channel from <i>Escherichia coli</i>",
       "url": "https://www.nature.com/articles/s41467-026-76193-0",
       "summary": "",
@@ -44,8 +52,24 @@
     },
     {
       "source": "Nature Communications",
+      "title": "A somatic checkpoint through NHR-49/HNF4α governs reproductive investment and longevity in <i>C. elegans</i>",
+      "url": "https://www.nature.com/articles/s41467-026-77056-4",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Alcohol reshapes liver zonal plasticity and immune-metabolic reprogramming in metabolic-syndrome associated hepatocellular carcinoma",
       "url": "https://www.nature.com/articles/s41467-026-77089-9",
+      "summary": "",
+      "ts": 1787356800000,
+      "publishedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "CX3CR1⁺ CD8⁺ cytotoxic T cells drive tumor killing in esophageal squamous cell carcinoma during neoadjuvant therapy",
+      "url": "https://www.nature.com/articles/s41467-026-76959-6",
       "summary": "",
       "ts": 1787356800000,
       "publishedAt": "2026-08-22T00:00:00.000Z"
@@ -548,6 +572,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
+      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
+      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
+      "ts": 1787306400000,
+      "publishedAt": "2026-08-21T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
@@ -591,14 +623,6 @@
       "title": "Spinon Singlet Pairing: Origin of $d$-Wave Sign Structure in a Partially Filled Stripe",
       "url": "http://link.aps.org/doi/10.1103/wcqv-pcls",
       "summary": "Author(s): Jia-Long Wang, Shi-Jie Hu, and Xue-Feng Zhang Significant research advances have led to a consensus that the Fermi-Hubbard model and its extended variants are archetypical frameworks for elucidating the intert…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "A Sharp and Conservative VOF Method for Multicomponent Liquid--Gas Mass Transfer: Bubble Dissolution and Droplet Evaporation",
       "url": "https://arxiv.org/abs/2608.19254",
       "summary": "arXiv:2608.19254v1 Announce Type: new Abstract: We present a sharp and conservative geometrical VOF--finite-volume method for multicomponent liquid--gas mass transfer across deformable interfaces. The method solves probl…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Silicon Photonic Transmitter for High Energy Physics and Cryogenic Detectors",
-      "url": "https://arxiv.org/abs/2608.19258",
-      "summary": "arXiv:2608.19258v1 Announce Type: new Abstract: We demonstrate a silicon photonic transmitter designed for reading out physics detectors in extreme environments. The transmitter operates at room and cryogenic temperature…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time feedback control of ELM frequency using divertor gas puffing and its effects on tungsten-induced radiation and plasma performance in KSTAR",
-      "url": "https://arxiv.org/abs/2608.19259",
-      "summary": "arXiv:2608.19259v1 Announce Type: new Abstract: The edge-localized mode (ELM) frequency ($f_{\\mathrm{ELM}}$) was successfully controlled in real time on KSTAR using a proportional-integral (PI) feedback controller, emplo…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multivariate amplitude analysis of the cascade particle decays based on the Nearest Neighbors fitting",
-      "url": "https://arxiv.org/abs/2608.19267",
-      "summary": "arXiv:2608.19267v1 Announce Type: new Abstract: The Nearest Neighbors estimation of likelihood is implemented for the multivariate amplitude analysis of the cascades of particle decays. In this approach Monte Carlo simul…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z"
     }
