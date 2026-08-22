@@ -3,58 +3,77 @@
 import Link from "next/link";
 
 import {
- useMemo,
- useState,
- type CSSProperties,
+  useMemo,
+  useState,
+  type CSSProperties,
 } from "react";
 
 
 /* ==========================================================
-  TYPES
+   TYPES
 ========================================================== */
 
 type MapLayer =
- | "all"
- | "observe"
- | "understand"
- | "design"
- | "realize"
- | "experience"
- | "preserve";
+  | "all"
+  | "observe"
+  | "understand"
+  | "design"
+  | "realize"
+  | "experience"
+  | "preserve";
 
 
 type NodeLayer =
- Exclude<MapLayer, "all">;
+  Exclude<
+    MapLayer,
+    "all"
+  >;
+
+
+type MapDomain =
+  | "all"
+  | "space"
+  | "science"
+  | "governance";
+
+
+type NodeDomain =
+  Exclude<
+    MapDomain,
+    "all"
+  >;
 
 
 type ArcheNovaNode = {
- id: string;
+  id: string;
 
- title: string;
+  title: string;
 
- shortTitle: string;
+  shortTitle: string;
 
- eyebrow: string;
+  eyebrow: string;
 
- description: string;
+  description: string;
 
- layer: NodeLayer;
+  domain: NodeDomain;
 
- href: string;
+  layer: NodeLayer;
 
- x: number;
+  href: string;
 
- y: number;
+  x: number;
 
- status:
-   | "ACTIVE"
-   | "CORE"
-   | "RESEARCH"
-   | "SYSTEM";
+  y: number;
 
- connections: string[];
+  status:
+    | "ACTIVE"
+    | "CORE"
+    | "RESEARCH"
+    | "SYSTEM";
 
- capabilities: string[];
+  connections: string[];
+
+  capabilities: string[];
 };
 
 
@@ -69,766 +88,1114 @@ type MapNodeStyle =
 
 
 /* ==========================================================
-  LAYERS
+   DOMAINS
+========================================================== */
+
+const MAP_DOMAINS: readonly {
+  id: MapDomain;
+
+  label: string;
+
+  short: string;
+
+  purpose: string;
+
+  description: string;
+}[] = [
+  {
+    id: "all",
+
+    label:
+      "All Domains",
+
+    short:
+      "ALL",
+
+    purpose:
+      "Explore the complete ArcheNova system.",
+
+    description:
+      "View all systems across ArcheNova Space, Science & Technology, and Governance.",
+  },
+
+  {
+    id: "space",
+
+    label:
+      "ArcheNova Space",
+
+    short:
+      "SPACE",
+
+    purpose:
+      "Explore, connect, preserve, and experience knowledge.",
+
+    description:
+      "ArcheNova's native environment for inquiry, intelligence, dialogue, memory, knowledge, and direct experience.",
+  },
+
+  {
+    id: "science",
+
+    label:
+      "Science & Technology",
+
+    short:
+      "SCIENCE",
+
+    purpose:
+      "Observe reality, build understanding, and convert knowledge into capability.",
+
+    description:
+      "Scientific observation, research, intelligence, engineering, technology, and implementation connected as one reality-facing system.",
+  },
+
+  {
+    id: "governance",
+
+    label:
+      "Governance",
+
+    short:
+      "GOVERN",
+
+    purpose:
+      "Design responsibility, order, capital, and durable institutions.",
+
+    description:
+      "The institutional architecture that governs authority, responsibility, capital, correction, continuity, and durable implementation.",
+  },
+];
+
+
+/* ==========================================================
+   LAYERS
 ========================================================== */
 
 const MAP_LAYERS: readonly {
- id: MapLayer;
- label: string;
- short: string;
- description: string;
+  id: MapLayer;
+
+  label: string;
+
+  short: string;
+
+  description: string;
 }[] = [
- {
-   id: "all",
-   label: "All Systems",
-   short: "ALL",
-   description:
-     "View the complete ArcheNova architecture.",
- },
+  {
+    id: "all",
 
- {
-   id: "observe",
-   label: "Observe",
-   short: "OBSERVE",
-   description:
-     "Reality contact, evidence, research, and signal detection.",
- },
+    label:
+      "All Systems",
 
- {
-   id: "understand",
-   label: "Understand",
-   short: "UNDERSTAND",
-   description:
-     "Reasoning, intelligence, synthesis, and model formation.",
- },
+    short:
+      "ALL",
 
- {
-   id: "design",
-   label: "Design",
-   short: "DESIGN",
-   description:
-     "Architecture, governance, institutions, and system design.",
- },
+    description:
+      "View the complete ArcheNova architecture.",
+  },
 
- {
-   id: "realize",
-   label: "Realize",
-   short: "REALIZE",
-   description:
-     "Engineering, implementation, projects, and commercialization.",
- },
+  {
+    id: "observe",
 
- {
-   id: "experience",
-   label: "Experience",
-   short: "EXPERIENCE",
-   description:
-     "Dialogue, interaction, open worlds, and human participation.",
- },
+    label:
+      "Observe",
 
- {
-   id: "preserve",
-   label: "Preserve",
-   short: "PRESERVE",
-   description:
-     "Memory, documentation, origin, and durable knowledge.",
- },
+    short:
+      "OBSERVE",
+
+    description:
+      "Reality contact, evidence, research, and signal detection.",
+  },
+
+  {
+    id: "understand",
+
+    label:
+      "Understand",
+
+    short:
+      "UNDERSTAND",
+
+    description:
+      "Reasoning, intelligence, synthesis, and model formation.",
+  },
+
+  {
+    id: "design",
+
+    label:
+      "Design",
+
+    short:
+      "DESIGN",
+
+    description:
+      "Architecture, governance, institutions, and system design.",
+  },
+
+  {
+    id: "realize",
+
+    label:
+      "Realize",
+
+    short:
+      "REALIZE",
+
+    description:
+      "Engineering, implementation, projects, and commercialization.",
+  },
+
+  {
+    id: "experience",
+
+    label:
+      "Experience",
+
+    short:
+      "EXPERIENCE",
+
+    description:
+      "Dialogue, interaction, open worlds, and human participation.",
+  },
+
+  {
+    id: "preserve",
+
+    label:
+      "Preserve",
+
+    short:
+      "PRESERVE",
+
+    description:
+      "Memory, documentation, origin, and durable knowledge.",
+  },
 ];
 
 
 /* ==========================================================
-  NODES
+   NODES
 ========================================================== */
 
 const MAP_NODES:
- readonly ArcheNovaNode[] = [
+  readonly ArcheNovaNode[] = [
 
- /* OBSERVE */
+  /* ========================================================
+     SCIENCE & TECHNOLOGY
+  ======================================================== */
 
- {
-   id: "inquiry",
+  {
+    id:
+      "inquiry",
 
-   title: "Today's Inquiry",
+    title:
+      "Today's Inquiry",
 
-   shortTitle: "Inquiry",
+    shortTitle:
+      "Inquiry",
 
-   eyebrow: "DAILY REALITY CONTACT",
+    eyebrow:
+      "DAILY REALITY CONTACT",
 
-   description:
-     "A daily scientific inquiry selected for deeper contact with evidence, uncertainty, and unresolved reality.",
+    description:
+      "A daily scientific inquiry selected for deeper contact with evidence, uncertainty, and unresolved reality.",
 
-   layer: "observe",
+    domain:
+      "science",
 
-   href: "/home#todays-inquiry",
+    layer:
+      "observe",
 
-   x: 14,
+    href:
+      "/home#todays-inquiry",
 
-   y: 20,
+    x:
+      14,
 
-   status: "ACTIVE",
+    y:
+      20,
 
-   connections: [
-     "episteme",
-     "research",
-     "intelligence",
-   ],
+    status:
+      "ACTIVE",
 
-   capabilities: [
-     "Scientific inquiry",
-     "Evidence framing",
-     "Falsification",
-   ],
- },
+    connections: [
+      "episteme",
+      "research",
+      "intelligence",
+    ],
 
- {
-   id: "research",
+    capabilities: [
+      "Scientific inquiry",
+      "Evidence framing",
+      "Falsification",
+    ],
+  },
 
-   title: "Research",
+  {
+    id:
+      "research",
 
-   shortTitle: "Research",
+    title:
+      "Research",
 
-   eyebrow: "KNOWLEDGE DISCOVERY",
+    shortTitle:
+      "Research",
 
-   description:
-     "Research programs, scientific analysis, generated reports, and evidence-oriented exploration.",
+    eyebrow:
+      "KNOWLEDGE DISCOVERY",
 
-   layer: "observe",
+    description:
+      "Research programs, scientific analysis, generated reports, and evidence-oriented exploration.",
 
-   href: "/research",
+    domain:
+      "science",
 
-   x: 13,
+    layer:
+      "observe",
 
-   y: 43,
+    href:
+      "/research",
 
-   status: "RESEARCH",
+    x:
+      13,
 
-   connections: [
-     "inquiry",
-     "episteme",
-     "library",
-   ],
+    y:
+      43,
 
-   capabilities: [
-     "Research synthesis",
-     "Evidence",
-     "Scientific records",
-   ],
- },
+    status:
+      "RESEARCH",
 
- {
-   id: "observatory",
+    connections: [
+      "inquiry",
+      "episteme",
+      "library",
+    ],
 
-   title: "Observatory",
+    capabilities: [
+      "Research synthesis",
+      "Evidence",
+      "Scientific records",
+    ],
+  },
 
-   shortTitle: "Observatory",
+  {
+    id:
+      "observatory",
 
-   eyebrow: "SIGNAL OBSERVATION",
+    title:
+      "Observatory",
 
-   description:
-     "Observes changing scientific, technological, institutional, and civilization-scale conditions.",
+    shortTitle:
+      "Observatory",
 
-   layer: "observe",
+    eyebrow:
+      "SIGNAL OBSERVATION",
 
-   href: "/observatory",
+    description:
+      "Observes changing scientific, technological, institutional, and civilization-scale conditions.",
 
-   x: 14,
+    domain:
+      "science",
 
-   y: 66,
+    layer:
+      "observe",
 
-   status: "SYSTEM",
+    href:
+      "/observatory",
 
-   connections: [
-     "research",
-     "intelligence",
-     "memory",
-   ],
+    x:
+      14,
 
-   capabilities: [
-     "Signal detection",
-     "Monitoring",
-     "Reality contact",
-   ],
- },
+    y:
+      66,
 
+    status:
+      "SYSTEM",
 
- /* UNDERSTAND */
+    connections: [
+      "research",
+      "intelligence",
+      "memory",
+    ],
 
- {
-   id: "episteme",
+    capabilities: [
+      "Signal detection",
+      "Monitoring",
+      "Reality contact",
+    ],
+  },
 
-   title: "Episteme",
+  {
+    id:
+      "intelligence",
 
-   shortTitle: "Episteme",
+    title:
+      "Civilization Intelligence",
 
-   eyebrow: "COGNITIVE ORCHESTRATION",
+    shortTitle:
+      "Intelligence",
 
-   description:
-     "ArcheNova's interactive intelligence layer for asking, exploring, challenging, comparing, and synthesizing knowledge.",
+    eyebrow:
+      "SYSTEMIC INTELLIGENCE",
 
-   layer: "understand",
+    description:
+      "Transforms signals into structured intelligence about capability, risk, infrastructure, coordination, and future trajectories.",
 
-   href: "/episteme",
+    domain:
+      "science",
 
-   x: 36,
+    layer:
+      "understand",
 
-   y: 27,
+    href:
+      "/civilization-intelligence",
 
-   status: "CORE",
+    x:
+      38,
 
-   connections: [
-     "inquiry",
-     "research",
-     "intelligence",
-     "dialogue",
-     "memory",
-   ],
+    y:
+      53,
 
-   capabilities: [
-     "Dialogue",
-     "Reasoning",
-     "Synthesis",
-     "Challenge",
-   ],
- },
+    status:
+      "ACTIVE",
 
- {
-   id: "intelligence",
+    connections: [
+      "episteme",
+      "observatory",
+      "architecture",
+      "governance",
+      "realization",
+    ],
 
-   title: "Civilization Intelligence",
+    capabilities: [
+      "Signal synthesis",
+      "Prioritization",
+      "System analysis",
+    ],
+  },
 
-   shortTitle: "Intelligence",
+  {
+    id:
+      "realization",
 
-   eyebrow: "SYSTEMIC INTELLIGENCE",
+    title:
+      "Realization",
 
-   description:
-     "Transforms signals into structured intelligence about capability, risk, infrastructure, coordination, and future trajectories.",
+    shortTitle:
+      "Realization",
 
-   layer: "understand",
+    eyebrow:
+      "IMPLEMENTATION",
 
-   href: "/civilization-intelligence",
+    description:
+      "Converts validated structures into engineering programs, implementation pathways, and real capability.",
 
-   x: 38,
+    domain:
+      "science",
 
-   y: 53,
+    layer:
+      "realize",
 
-   status: "ACTIVE",
+    href:
+      "/realization",
 
-   connections: [
-     "episteme",
-     "observatory",
-     "architecture",
-     "governance",
-     "realization",
-   ],
+    x:
+      84,
 
-   capabilities: [
-     "Signal synthesis",
-     "Prioritization",
-     "System analysis",
-   ],
- },
+    y:
+      22,
 
+    status:
+      "ACTIVE",
 
- /* DESIGN */
+    connections: [
+      "architecture",
+      "intelligence",
+      "technology",
+      "projects",
+    ],
 
- {
-   id: "architecture",
+    capabilities: [
+      "Implementation",
+      "Engineering",
+      "Deployment",
+    ],
+  },
 
-   title: "Civilization Architecture",
+  {
+    id:
+      "technology",
 
-   shortTitle: "Architecture",
+    title:
+      "Technology",
 
-   eyebrow: "SYSTEM DESIGN",
+    shortTitle:
+      "Technology",
 
-   description:
-     "Structures technologies, institutions, capital, energy, and civilization-scale systems into coherent architectures.",
+    eyebrow:
+      "CAPABILITY ENGINEERING",
 
-   layer: "design",
+    description:
+      "Explores technologies capable of expanding scientific, industrial, infrastructural, and civilizational capability.",
 
-   href: "/architecture",
+    domain:
+      "science",
 
-   x: 61,
+    layer:
+      "realize",
 
-   y: 22,
+    href:
+      "/technology",
 
-   status: "CORE",
+    x:
+      85,
 
-   connections: [
-     "intelligence",
-     "governance",
-     "constitution",
-     "realization",
-   ],
+    y:
+      47,
 
-   capabilities: [
-     "System architecture",
-     "Integration",
-     "Institutional design",
-   ],
- },
+    status:
+      "SYSTEM",
 
- {
-   id: "governance",
+    connections: [
+      "realization",
+      "projects",
+      "commercialization",
+    ],
 
-   title: "Governance",
+    capabilities: [
+      "Technology",
+      "Engineering systems",
+      "Capability expansion",
+    ],
+  },
 
-   shortTitle: "Governance",
+  {
+    id:
+      "projects",
 
-   eyebrow: "ORDER & RESPONSIBILITY",
+    title:
+      "Projects",
 
-   description:
-     "Defines responsibility, authority, correction, institutional boundaries, and durable governance structures.",
+    shortTitle:
+      "Projects",
 
-   layer: "design",
+    eyebrow:
+      "EXECUTION",
 
-   href: "/governance",
+    description:
+      "Concrete implementations through which ArcheNova architectures are tested against physical, institutional, and economic reality.",
 
-   x: 62,
+    domain:
+      "science",
 
-   y: 48,
+    layer:
+      "realize",
 
-   status: "SYSTEM",
+    href:
+      "/projects",
 
-   connections: [
-     "architecture",
-     "constitution",
-     "capital",
-     "intelligence",
-   ],
+    x:
+      84,
 
-   capabilities: [
-     "Governance",
-     "Responsibility",
-     "Correctability",
-   ],
- },
+    y:
+      71,
 
- {
-   id: "constitution",
+    status:
+      "ACTIVE",
 
-   title: "Constitution",
+    connections: [
+      "technology",
+      "realization",
+      "commercialization",
+    ],
 
-   shortTitle: "Constitution",
+    capabilities: [
+      "Projects",
+      "Execution",
+      "Physical implementation",
+    ],
+  },
 
-   eyebrow: "FOUNDATIONAL CONSTRAINTS",
 
-   description:
-     "Encodes the durable principles, limits, responsibilities, and institutional constraints of ArcheNova.",
+  /* ========================================================
+     ARCHENOVA SPACE
+  ======================================================== */
 
-   layer: "design",
+  {
+    id:
+      "episteme",
 
-   href: "/constitution",
+    title:
+      "Episteme",
 
-   x: 59,
+    shortTitle:
+      "Episteme",
 
-   y: 73,
+    eyebrow:
+      "COGNITIVE ORCHESTRATION",
 
-   status: "CORE",
+    description:
+      "ArcheNova's interactive intelligence layer for asking, exploring, challenging, comparing, and synthesizing knowledge.",
 
-   connections: [
-     "governance",
-     "architecture",
-     "memory",
-   ],
+    domain:
+      "space",
 
-   capabilities: [
-     "Principles",
-     "Constraints",
-     "Institutional continuity",
-   ],
- },
+    layer:
+      "understand",
 
+    href:
+      "/episteme",
 
- /* REALIZE */
+    x:
+      36,
 
- {
-   id: "realization",
+    y:
+      27,
 
-   title: "Realization",
+    status:
+      "CORE",
 
-   shortTitle: "Realization",
+    connections: [
+      "inquiry",
+      "research",
+      "intelligence",
+      "dialogue",
+      "memory",
+    ],
 
-   eyebrow: "IMPLEMENTATION",
+    capabilities: [
+      "Dialogue",
+      "Reasoning",
+      "Synthesis",
+      "Challenge",
+    ],
+  },
 
-   description:
-     "Converts validated structures into engineering programs, implementation pathways, and real capability.",
+  {
+    id:
+      "experience",
 
-   layer: "realize",
+    title:
+      "Civilization Experience",
 
-   href: "/realization",
+    shortTitle:
+      "Experience",
 
-   x: 84,
+    eyebrow:
+      "INTERACTIVE WORLD",
 
-   y: 22,
+    description:
+      "A living scientific and civilization-scale environment for exploring systems through direct interaction.",
 
-   status: "ACTIVE",
+    domain:
+      "space",
 
-   connections: [
-     "architecture",
-     "intelligence",
-     "technology",
-     "projects",
-   ],
+    layer:
+      "experience",
 
-   capabilities: [
-     "Implementation",
-     "Engineering",
-     "Deployment",
-   ],
- },
+    href:
+      "/civilization-experience",
 
- {
-   id: "technology",
+    x:
+      38,
 
-   title: "Technology",
+    y:
+      84,
 
-   shortTitle: "Technology",
+    status:
+      "ACTIVE",
 
-   eyebrow: "CAPABILITY ENGINEERING",
+    connections: [
+      "dialogue",
+      "episteme",
+      "realization",
+    ],
 
-   description:
-     "Explores technologies capable of expanding scientific, industrial, infrastructural, and civilizational capability.",
+    capabilities: [
+      "Open world",
+      "Scientific interaction",
+      "Exploration",
+    ],
+  },
 
-   layer: "realize",
+  {
+    id:
+      "dialogue",
 
-   href: "/technology",
+    title:
+      "Dialogue",
 
-   x: 85,
+    shortTitle:
+      "Dialogue",
 
-   y: 47,
+    eyebrow:
+      "HUMAN ↔ SYSTEM EXCHANGE",
 
-   status: "SYSTEM",
+    description:
+      "A conversational and social layer for exchanging questions, interpretations, challenges, and ideas.",
 
-   connections: [
-     "realization",
-     "projects",
-     "commercialization",
-   ],
+    domain:
+      "space",
 
-   capabilities: [
-     "Technology",
-     "Engineering systems",
-     "Capability expansion",
-   ],
- },
+    layer:
+      "experience",
 
- {
-   id: "projects",
+    href:
+      "/dialogue",
 
-   title: "Projects",
+    x:
+      37,
 
-   shortTitle: "Projects",
+    y:
+      68,
 
-   eyebrow: "EXECUTION",
+    status:
+      "SYSTEM",
 
-   description:
-     "Concrete implementations through which ArcheNova architectures are tested against physical, institutional, and economic reality.",
+    connections: [
+      "episteme",
+      "experience",
+      "crossings",
+    ],
 
-   layer: "realize",
+    capabilities: [
+      "Dialogue",
+      "Interaction",
+      "Revision",
+    ],
+  },
 
-   href: "/projects",
+  {
+    id:
+      "crossings",
 
-   x: 84,
+    title:
+      "Crossings",
 
-   y: 71,
+    shortTitle:
+      "Crossings",
 
-   status: "ACTIVE",
+    eyebrow:
+      "PUBLIC EXCHANGE",
 
-   connections: [
-     "technology",
-     "realization",
-     "commercialization",
-   ],
+    description:
+      "A lightweight public crossing layer for scientific, technological, and civilization-scale fragments.",
 
-   capabilities: [
-     "Projects",
-     "Execution",
-     "Physical implementation",
-   ],
- },
+    domain:
+      "space",
 
+    layer:
+      "experience",
 
- /* EXPERIENCE */
+    href:
+      "/crossings",
 
- {
-   id: "experience",
+    x:
+      15,
 
-   title: "Civilization Experience",
+    y:
+      87,
 
-   shortTitle: "Experience",
+    status:
+      "SYSTEM",
 
-   eyebrow: "INTERACTIVE WORLD",
+    connections: [
+      "dialogue",
+      "experience",
+    ],
 
-   description:
-     "A living scientific and civilization-scale environment for exploring systems through direct interaction.",
+    capabilities: [
+      "Fragments",
+      "Public exchange",
+      "Signals",
+    ],
+  },
 
-   layer: "experience",
+  {
+    id:
+      "library",
 
-   href: "/civilization-experience",
+    title:
+      "Civilization Library",
 
-   x: 38,
+    shortTitle:
+      "Library",
 
-   y: 84,
+    eyebrow:
+      "DURABLE KNOWLEDGE",
 
-   status: "ACTIVE",
+    description:
+      "Preserves research, papers, architectures, records, and validated knowledge for future reconstruction.",
 
-   connections: [
-     "dialogue",
-     "episteme",
-     "realization",
-   ],
+    domain:
+      "space",
 
-   capabilities: [
-     "Open world",
-     "Scientific interaction",
-     "Exploration",
-   ],
- },
+    layer:
+      "preserve",
 
- {
-   id: "dialogue",
+    href:
+      "/papers",
 
-   title: "Dialogue",
+    x:
+      51,
 
-   shortTitle: "Dialogue",
+    y:
+      91,
 
-   eyebrow: "HUMAN ↔ SYSTEM EXCHANGE",
+    status:
+      "SYSTEM",
 
-   description:
-     "A conversational and social layer for exchanging questions, interpretations, challenges, and ideas.",
+    connections: [
+      "research",
+      "memory",
+      "constitution",
+    ],
 
-   layer: "experience",
+    capabilities: [
+      "Archive",
+      "Papers",
+      "Knowledge preservation",
+    ],
+  },
 
-   href: "/dialogue",
+  {
+    id:
+      "memory",
 
-   x: 37,
+    title:
+      "Institutional Memory",
 
-   y: 68,
+    shortTitle:
+      "Memory",
 
-   status: "SYSTEM",
+    eyebrow:
+      "LONG-TERM CONTINUITY",
 
-   connections: [
-     "episteme",
-     "experience",
-     "crossings",
-   ],
+    description:
+      "Maintains persistent knowledge, failures, lessons, evidence, and architectures across time.",
 
-   capabilities: [
-     "Dialogue",
-     "Interaction",
-     "Revision",
-   ],
- },
+    domain:
+      "space",
 
- {
-   id: "crossings",
+    layer:
+      "preserve",
 
-   title: "Crossings",
+    href:
+      "/origin",
 
-   shortTitle: "Crossings",
+    x:
+      15,
 
-   eyebrow: "PUBLIC EXCHANGE",
+    y:
+      76,
 
-   description:
-     "A lightweight public crossing layer for scientific, technological, and civilization-scale fragments.",
+    status:
+      "CORE",
 
-   layer: "experience",
+    connections: [
+      "observatory",
+      "episteme",
+      "library",
+      "constitution",
+    ],
 
-   href: "/crossings",
+    capabilities: [
+      "Memory",
+      "Continuity",
+      "Historical evidence",
+    ],
+  },
 
-   x: 15,
 
-   y: 87,
+  /* ========================================================
+     GOVERNANCE
+  ======================================================== */
 
-   status: "SYSTEM",
+  {
+    id:
+      "architecture",
 
-   connections: [
-     "dialogue",
-     "experience",
-   ],
+    title:
+      "Civilization Architecture",
 
-   capabilities: [
-     "Fragments",
-     "Public exchange",
-     "Signals",
-   ],
- },
+    shortTitle:
+      "Architecture",
 
+    eyebrow:
+      "SYSTEM DESIGN",
 
- /* PRESERVE */
+    description:
+      "Structures technologies, institutions, capital, energy, and civilization-scale systems into coherent architectures.",
 
- {
-   id: "library",
+    domain:
+      "governance",
 
-   title: "Civilization Library",
+    layer:
+      "design",
 
-   shortTitle: "Library",
+    href:
+      "/architecture",
 
-   eyebrow: "DURABLE KNOWLEDGE",
+    x:
+      61,
 
-   description:
-     "Preserves research, papers, architectures, records, and validated knowledge for future reconstruction.",
+    y:
+      22,
 
-   layer: "preserve",
+    status:
+      "CORE",
 
-   href: "/papers",
+    connections: [
+      "intelligence",
+      "governance",
+      "constitution",
+      "realization",
+    ],
 
-   x: 51,
+    capabilities: [
+      "System architecture",
+      "Integration",
+      "Institutional design",
+    ],
+  },
 
-   y: 91,
+  {
+    id:
+      "governance",
 
-   status: "SYSTEM",
+    title:
+      "Governance",
 
-   connections: [
-     "research",
-     "memory",
-     "constitution",
-   ],
+    shortTitle:
+      "Governance",
 
-   capabilities: [
-     "Archive",
-     "Papers",
-     "Knowledge preservation",
-   ],
- },
+    eyebrow:
+      "ORDER & RESPONSIBILITY",
 
- {
-   id: "memory",
+    description:
+      "Defines responsibility, authority, correction, institutional boundaries, and durable governance structures.",
 
-   title: "Institutional Memory",
+    domain:
+      "governance",
 
-   shortTitle: "Memory",
+    layer:
+      "design",
 
-   eyebrow: "LONG-TERM CONTINUITY",
+    href:
+      "/governance",
 
-   description:
-     "Maintains persistent knowledge, failures, lessons, evidence, and architectures across time.",
+    x:
+      62,
 
-   layer: "preserve",
+    y:
+      48,
 
-   href: "/origin",
+    status:
+      "SYSTEM",
 
-   x: 15,
+    connections: [
+      "architecture",
+      "constitution",
+      "capital",
+      "intelligence",
+    ],
 
-   y: 76,
+    capabilities: [
+      "Governance",
+      "Responsibility",
+      "Correctability",
+    ],
+  },
 
-   status: "CORE",
+  {
+    id:
+      "constitution",
 
-   connections: [
-     "observatory",
-     "episteme",
-     "library",
-     "constitution",
-   ],
+    title:
+      "Constitution",
 
-   capabilities: [
-     "Memory",
-     "Continuity",
-     "Historical evidence",
-   ],
- },
+    shortTitle:
+      "Constitution",
 
- {
-   id: "capital",
+    eyebrow:
+      "FOUNDATIONAL CONSTRAINTS",
 
-   title: "Capital Systems",
+    description:
+      "Encodes the durable principles, limits, responsibilities, and institutional constraints of ArcheNova.",
 
-   shortTitle: "Capital",
+    domain:
+      "governance",
 
-   eyebrow: "RESOURCE ARCHITECTURE",
+    layer:
+      "design",
 
-   description:
-     "Structures capital as a responsibility-bearing system for enabling durable implementation without escaping consequences.",
+    href:
+      "/constitution",
 
-   layer: "design",
+    x:
+      59,
 
-   href: "/capital",
+    y:
+      73,
 
-   x: 70,
+    status:
+      "CORE",
 
-   y: 62,
+    connections: [
+      "governance",
+      "architecture",
+      "memory",
+    ],
 
-   status: "SYSTEM",
+    capabilities: [
+      "Principles",
+      "Constraints",
+      "Institutional continuity",
+    ],
+  },
 
-   connections: [
-     "governance",
-     "commercialization",
-     "projects",
-   ],
+  {
+    id:
+      "capital",
 
-   capabilities: [
-     "Capital",
-     "Responsibility",
-     "Resource allocation",
-   ],
- },
+    title:
+      "Capital Systems",
 
- {
-   id: "commercialization",
+    shortTitle:
+      "Capital",
 
-   title: "Commercialization",
+    eyebrow:
+      "RESOURCE ARCHITECTURE",
 
-   shortTitle: "Commercialize",
+    description:
+      "Structures capital as a responsibility-bearing system for enabling durable implementation without escaping consequences.",
 
-   eyebrow: "VALUE REALIZATION",
+    domain:
+      "governance",
 
-   description:
-     "Connects engineering capability with sustainable economic value, deployment, adoption, and institutional scale.",
+    layer:
+      "design",
 
-   layer: "realize",
+    href:
+      "/capital",
 
-   href: "/commercialization",
+    x:
+      70,
 
-   x: 73,
+    y:
+      62,
 
-   y: 86,
+    status:
+      "SYSTEM",
 
-   status: "SYSTEM",
+    connections: [
+      "governance",
+      "commercialization",
+      "projects",
+    ],
 
-   connections: [
-     "capital",
-     "projects",
-     "technology",
-   ],
+    capabilities: [
+      "Capital",
+      "Responsibility",
+      "Resource allocation",
+    ],
+  },
 
-   capabilities: [
-     "Commercialization",
-     "Deployment",
-     "Economic value",
-   ],
- },
+  {
+    id:
+      "commercialization",
+
+    title:
+      "Commercialization",
+
+    shortTitle:
+      "Commercialize",
+
+    eyebrow:
+      "VALUE REALIZATION",
+
+    description:
+      "Connects engineering capability with sustainable economic value, deployment, adoption, and institutional scale.",
+
+    domain:
+      "governance",
+
+    layer:
+      "realize",
+
+    href:
+      "/commercialization",
+
+    x:
+      73,
+
+    y:
+      86,
+
+    status:
+      "SYSTEM",
+
+    connections: [
+      "capital",
+      "projects",
+      "technology",
+    ],
+
+    capabilities: [
+      "Commercialization",
+      "Deployment",
+      "Economic value",
+    ],
+  },
 ];
 
 
 /* ==========================================================
-  HELPERS
+   HELPERS
 ========================================================== */
 
-
-
-
 function getLayer(
- id: NodeLayer,
+  id:
+    NodeLayer,
 ) {
- return MAP_LAYERS.find(
-   (layer) =>
-     layer.id === id,
- );
+  return MAP_LAYERS.find(
+    (
+      layer,
+    ) =>
+      layer.id ===
+      id,
+  );
+}
+
+
+function getDomain(
+  id:
+    NodeDomain,
+) {
+  return MAP_DOMAINS.find(
+    (
+      domain,
+    ) =>
+      domain.id ===
+      id,
+  );
 }
 
 
 function normalize(
- value: string,
+  value:
+    string,
 ) {
- return value
-   .toLowerCase()
-   .trim();
+  return value
+    .toLowerCase()
+    .trim();
 }
 
-/* ==========================================================
-  EXPANDED NODE
-========================================================== */
 
+/* ==========================================================
+   EXPANDED NODE
+========================================================== */
 
 function getExpandedX(
   x:
@@ -877,125 +1244,199 @@ function getExpandedY(
 
 
 /* ==========================================================
-  COMPONENT
+   COMPONENT
 ========================================================== */
 
 export default function ArcheNovaMap() {
 
- const [
-   activeLayer,
-   setActiveLayer,
- ] =
-   useState<MapLayer>(
-     "all",
-   );
+  const [
+    activeDomain,
+    setActiveDomain,
+  ] =
+    useState<MapDomain>(
+      "all",
+    );
 
 
- const [
-   query,
-   setQuery,
- ] =
-   useState("");
+  const [
+    activeLayer,
+    setActiveLayer,
+  ] =
+    useState<MapLayer>(
+      "all",
+    );
 
 
- /*
-  * IMPORTANT
-  *
-  * Nothing is selected initially.
-  * Episteme is no longer forced open.
-  */
- const [
-   selectedId,
-   setSelectedId,
- ] =
-   useState<string | null>(
-     null,
-   );
-
- const selectedNode =
-   useMemo(
-     () =>
-       selectedId
-         ? MAP_NODES.find(
-             (node) =>
-               node.id === selectedId,
-           ) ?? null
-         : null,
-     [
-       selectedId,
-     ],
-   );
+  const [
+    query,
+    setQuery,
+  ] =
+    useState(
+      "",
+    );
 
 
- /* ========================================================
-    FILTER
- ======================================================== */
-
- const visibleNodes =
-   useMemo(
-     () => {
-
-       const normalizedQuery =
-         normalize(query);
-
-
-       return MAP_NODES.filter(
-         (node) => {
-
-           const layerMatch =
-             activeLayer === "all" ||
-             node.layer === activeLayer;
+  const [
+    selectedId,
+    setSelectedId,
+  ] =
+    useState<
+      string |
+      null
+    >(
+      null,
+    );
 
 
-           const queryMatch =
-             !normalizedQuery ||
-             normalize(
-               [
-                 node.title,
-                 node.eyebrow,
-                 node.description,
-                 ...node.capabilities,
-               ].join(" "),
-             ).includes(
-               normalizedQuery,
-             );
+  const selectedNode =
+    useMemo(
+      () =>
+        selectedId
+          ? MAP_NODES.find(
+              (
+                node,
+              ) =>
+                node.id ===
+                selectedId,
+            ) ??
+            null
+          : null,
+      [
+        selectedId,
+      ],
+    );
 
 
-           return (
-             layerMatch &&
-             queryMatch
-           );
-         },
-       );
-     },
-     [
-       activeLayer,
-       query,
-     ],
-   );
+  const activeDomainInfo =
+    useMemo(
+      () =>
+        MAP_DOMAINS.find(
+          (
+            domain,
+          ) =>
+            domain.id ===
+            activeDomain,
+        ) ??
+        MAP_DOMAINS[0],
+      [
+        activeDomain,
+      ],
+    );
 
 
- const visibleIds =
-   useMemo(
-     () =>
-       new Set(
-         visibleNodes.map(
-           (node) =>
-             node.id,
-         ),
-       ),
-     [
-       visibleNodes,
-     ],
-   );
+  const activeLayerInfo =
+    useMemo(
+      () =>
+        MAP_LAYERS.find(
+          (
+            layer,
+          ) =>
+            layer.id ===
+            activeLayer,
+        ) ??
+        MAP_LAYERS[0],
+      [
+        activeLayer,
+      ],
+    );
 
- /*
-  * Only the selected node's branches are generated.
-  *
-  * This keeps the normal map visually quiet.
-  */
- 
- /* ========================================================
+
+  /* ========================================================
+     FILTER
+  ======================================================== */
+
+  const visibleNodes =
+    useMemo(
+      () => {
+
+        const normalizedQuery =
+          normalize(
+            query,
+          );
+
+
+        return MAP_NODES.filter(
+          (
+            node,
+          ) => {
+
+            const domainMatch =
+              activeDomain ===
+                "all" ||
+              node.domain ===
+                activeDomain;
+
+
+            const layerMatch =
+              activeLayer ===
+                "all" ||
+              node.layer ===
+                activeLayer;
+
+
+            const queryMatch =
+              !normalizedQuery ||
+              normalize(
+                [
+                  node.title,
+                  node.shortTitle,
+                  node.eyebrow,
+                  node.description,
+                  getDomain(
+                    node.domain,
+                  )?.label ??
+                    "",
+                  getDomain(
+                    node.domain,
+                  )?.purpose ??
+                    "",
+                  getLayer(
+                    node.layer,
+                  )?.label ??
+                    "",
+                  ...node.capabilities,
+                ].join(
+                  " ",
+                ),
+              ).includes(
+                normalizedQuery,
+              );
+
+
+            return (
+              domainMatch &&
+              layerMatch &&
+              queryMatch
+            );
+          },
+        );
+      },
+      [
+        activeDomain,
+        activeLayer,
+        query,
+      ],
+    );
+
+
+  const visibleIds =
+    useMemo(
+      () =>
+        new Set(
+          visibleNodes.map(
+            (
+              node,
+            ) =>
+              node.id,
+          ),
+        ),
+      [
+        visibleNodes,
+      ],
+    );
+
+
+  /* ========================================================
      CONNECTIONS
   ======================================================== */
 
@@ -1004,7 +1445,8 @@ export default function ArcheNovaMap() {
       () =>
         new Set(
           selectedNode
-            ? selectedNode.connections
+            ? selectedNode
+                .connections
             : [],
         ),
       [
@@ -1016,54 +1458,65 @@ export default function ArcheNovaMap() {
   const activeConnectionLines =
     useMemo(
       () => {
-        if (!selectedNode) {
+
+        if (
+          !selectedNode
+        ) {
           return [];
         }
 
-        return selectedNode.connections.flatMap(
-          (
-            targetId,
-          ) => {
-            const target =
-              MAP_NODES.find(
-                (
-                  node,
-                ) =>
-                  node.id ===
-                  targetId,
-              );
 
-            if (!target) {
-              return [];
-            }
+        return selectedNode
+          .connections
+          .flatMap(
+            (
+              targetId,
+            ) => {
 
-            return [
-              {
-                id:
-                  `${selectedNode.id}--${target.id}`,
+              const target =
+                MAP_NODES.find(
+                  (
+                    node,
+                  ) =>
+                    node.id ===
+                    targetId,
+                );
 
-                x1:
-                  selectedNode.x,
 
-                y1:
-                  selectedNode.y,
+              if (
+                !target
+              ) {
+                return [];
+              }
 
-                x2:
-                  target.x,
 
-                y2:
-                  target.y,
-              },
-            ];
-          },
-        );
-      
+              return [
+                {
+                  id:
+                    `${selectedNode.id}--${target.id}`,
+
+                  x1:
+                    selectedNode.x,
+
+                  y1:
+                    selectedNode.y,
+
+                  x2:
+                    target.x,
+
+                  y2:
+                    target.y,
+                },
+              ];
+            },
+          );
       },
       [
         selectedNode,
       ],
     );
-    
+
+
   /* ========================================================
      SELECT
   ======================================================== */
@@ -1076,7 +1529,8 @@ export default function ArcheNovaMap() {
       (
         current,
       ) =>
-        current === id
+        current ===
+          id
           ? null
           : id,
     );
@@ -1086,6 +1540,10 @@ export default function ArcheNovaMap() {
   function resetMap() {
     setQuery(
       "",
+    );
+
+    setActiveDomain(
+      "all",
     );
 
     setActiveLayer(
@@ -1098,7 +1556,7 @@ export default function ArcheNovaMap() {
   }
 
 
-   /* ========================================================
+  /* ========================================================
      UI
   ======================================================== */
 
@@ -1127,12 +1585,17 @@ export default function ArcheNovaMap() {
       <div
         className={[
           "an-search__surface",
+
           selectedNode
             ? "has-selection"
             : "no-selection",
         ]
-          .filter(Boolean)
-          .join(" ")}
+          .filter(
+            Boolean,
+          )
+          .join(
+            " ",
+          )}
       >
 
         {/* =================================================
@@ -1163,9 +1626,15 @@ export default function ArcheNovaMap() {
             <i />
 
             <span>
-              {visibleNodes.length}
+              {
+                visibleNodes
+                  .length
+              }
               /
-              {MAP_NODES.length}
+              {
+                MAP_NODES
+                  .length
+              }
             </span>
 
             <small>
@@ -1185,29 +1654,39 @@ export default function ArcheNovaMap() {
 
           <label className="an-search__search">
 
-            <span aria-hidden="true">
+            <span
+              aria-hidden="true"
+            >
               ⌕
             </span>
 
 
             <input
               type="search"
-              value={query}
-              onChange={(event) => {
+              value={
+                query
+              }
+              onChange={(
+                event,
+              ) => {
                 setQuery(
-                  event.target.value,
+                  event
+                    .target
+                    .value,
                 );
               }}
               placeholder="Search systems, capabilities, ideas..."
               aria-label="Search ArcheNova"
             />
-            
+
 
             {query && (
               <button
                 type="button"
                 onClick={() => {
-                  setQuery("");
+                  setQuery(
+                    "",
+                  );
                 }}
                 aria-label="Clear search"
               >
@@ -1221,7 +1700,9 @@ export default function ArcheNovaMap() {
           <button
             type="button"
             className="an-search__reset"
-            onClick={resetMap}
+            onClick={
+              resetMap
+            }
           >
             RESET
           </button>
@@ -1236,10 +1717,13 @@ export default function ArcheNovaMap() {
         <div
           className={[
             "an-search__workspace",
+
             selectedNode
               ? "has-selection"
               : "no-selection",
-          ].join(" ")}
+          ].join(
+            " ",
+          )}
         >
 
           {/* ===============================================
@@ -1248,7 +1732,93 @@ export default function ArcheNovaMap() {
 
           <aside className="an-search__sidebar">
 
+            {/* =============================================
+                DOMAIN
+            ============================================= */}
+
             <span className="an-search__section-label">
+              PURPOSE DOMAINS
+            </span>
+
+
+            <div className="an-search__domain-filters">
+
+              {MAP_DOMAINS.map(
+                (
+                  domain,
+                ) => {
+
+                  const count =
+                    domain.id ===
+                      "all"
+                      ? MAP_NODES.length
+                      : MAP_NODES.filter(
+                          (
+                            node,
+                          ) =>
+                            node.domain ===
+                            domain.id,
+                        ).length;
+
+
+                  return (
+                    <button
+                      key={
+                        domain.id
+                      }
+                      type="button"
+                      className={
+                        activeDomain ===
+                          domain.id
+                          ? "is-active"
+                          : ""
+                      }
+                      onClick={() => {
+                        setActiveDomain(
+                          domain.id,
+                        );
+                      }}
+                    >
+                      <span>
+                        {
+                          domain.label
+                        }
+                      </span>
+
+                      <small>
+                        {
+                          count
+                        }
+                      </small>
+                    </button>
+                  );
+                },
+              )}
+
+            </div>
+
+
+            <div className="an-search__domain-info">
+
+              <span>
+                PURPOSE
+              </span>
+
+              <strong>
+                {
+                  activeDomainInfo
+                    .purpose
+                }
+              </strong>
+
+            </div>
+
+
+            {/* =============================================
+                LAYERS
+            ============================================= */}
+
+            <span className="an-search__section-label an-search__section-label--layers">
               SYSTEM LAYERS
             </span>
 
@@ -1256,22 +1826,46 @@ export default function ArcheNovaMap() {
             <div className="an-search__filters">
 
               {MAP_LAYERS.map(
-                (layer) => {
+                (
+                  layer,
+                ) => {
 
                   const count =
-                    layer.id === "all"
-                      ? MAP_NODES.length
+                    layer.id ===
+                      "all"
+                      ? MAP_NODES.filter(
+                          (
+                            node,
+                          ) =>
+                            activeDomain ===
+                              "all" ||
+                            node.domain ===
+                              activeDomain,
+                        ).length
                       : MAP_NODES.filter(
-                          (node) =>
-                            node.layer === layer.id,
+                          (
+                            node,
+                          ) =>
+                            node.layer ===
+                              layer.id &&
+                            (
+                              activeDomain ===
+                                "all" ||
+                              node.domain ===
+                                activeDomain
+                            ),
                         ).length;
+
 
                   return (
                     <button
-                      key={layer.id}
+                      key={
+                        layer.id
+                      }
                       type="button"
                       className={
-                        activeLayer === layer.id
+                        activeLayer ===
+                          layer.id
                           ? "is-active"
                           : ""
                       }
@@ -1282,11 +1876,15 @@ export default function ArcheNovaMap() {
                       }}
                     >
                       <span>
-                        {layer.label}
+                        {
+                          layer.label
+                        }
                       </span>
 
                       <small>
-                        {count}
+                        {
+                          count
+                        }
                       </small>
                     </button>
                   );
@@ -1299,24 +1897,20 @@ export default function ArcheNovaMap() {
             <div className="an-search__layer-info">
 
               <span>
-                ACTIVE
+                ACTIVE LAYER
               </span>
 
               <strong>
                 {
-                  MAP_LAYERS.find(
-                    (layer) =>
-                      layer.id === activeLayer,
-                  )?.label
+                  activeLayerInfo
+                    .label
                 }
               </strong>
 
               <p>
                 {
-                  MAP_LAYERS.find(
-                    (layer) =>
-                      layer.id === activeLayer,
-                  )?.description
+                  activeLayerInfo
+                    .description
                 }
               </p>
 
@@ -1340,7 +1934,13 @@ export default function ArcheNovaMap() {
                 </span>
 
                 <strong>
-                  Search. Select. Explore.
+                  {
+                    activeDomain ===
+                      "all"
+                      ? "Navigate ArcheNova through purpose and relationship."
+                      : activeDomainInfo
+                          .purpose
+                  }
                 </strong>
 
               </div>
@@ -1360,7 +1960,9 @@ export default function ArcheNovaMap() {
             <div
               className="an-search__canvas"
               onClick={() => {
-                setSelectedId(null);
+                setSelectedId(
+                  null,
+                );
               }}
             >
 
@@ -1375,6 +1977,119 @@ export default function ArcheNovaMap() {
 
 
               {/* ===========================================
+                  DOMAIN FIELDS
+              =========================================== */}
+
+              <div
+                className={[
+                  "an-search-domain-field",
+                  "an-search-domain-field--space",
+
+                  activeDomain ===
+                    "space"
+                    ? "is-active"
+                    : "",
+
+                  activeDomain !==
+                    "all" &&
+                  activeDomain !==
+                    "space"
+                    ? "is-muted"
+                    : "",
+                ]
+                  .filter(
+                    Boolean,
+                  )
+                  .join(
+                    " ",
+                  )}
+                aria-hidden="true"
+              >
+                <span>
+                  ARCHENOVA SPACE
+                </span>
+
+                <strong>
+                  Explore, connect,
+                  preserve & experience.
+                </strong>
+              </div>
+
+
+              <div
+                className={[
+                  "an-search-domain-field",
+                  "an-search-domain-field--science",
+
+                  activeDomain ===
+                    "science"
+                    ? "is-active"
+                    : "",
+
+                  activeDomain !==
+                    "all" &&
+                  activeDomain !==
+                    "science"
+                    ? "is-muted"
+                    : "",
+                ]
+                  .filter(
+                    Boolean,
+                  )
+                  .join(
+                    " ",
+                  )}
+                aria-hidden="true"
+              >
+                <span>
+                  SCIENCE & TECHNOLOGY
+                </span>
+
+                <strong>
+                  Observe reality,
+                  understand,
+                  realize capability.
+                </strong>
+              </div>
+
+
+              <div
+                className={[
+                  "an-search-domain-field",
+                  "an-search-domain-field--governance",
+
+                  activeDomain ===
+                    "governance"
+                    ? "is-active"
+                    : "",
+
+                  activeDomain !==
+                    "all" &&
+                  activeDomain !==
+                    "governance"
+                    ? "is-muted"
+                    : "",
+                ]
+                  .filter(
+                    Boolean,
+                  )
+                  .join(
+                    " ",
+                  )}
+                aria-hidden="true"
+              >
+                <span>
+                  GOVERNANCE
+                </span>
+
+                <strong>
+                  Design responsibility,
+                  order & durable institutions.
+                </strong>
+              </div>
+
+
+              {/* ===========================================
                   ACTIVE CONNECTIONS ONLY
               =========================================== */}
 
@@ -1386,13 +2101,25 @@ export default function ArcheNovaMap() {
                   aria-hidden="true"
                 >
                   {activeConnectionLines.map(
-                    (line) => (
+                    (
+                      line,
+                    ) => (
                       <line
-                        key={line.id}
-                        x1={line.x1}
-                        y1={line.y1}
-                        x2={line.x2}
-                        y2={line.y2}
+                        key={
+                          line.id
+                        }
+                        x1={
+                          line.x1
+                        }
+                        y1={
+                          line.y1
+                        }
+                        x2={
+                          line.x2
+                        }
+                        y2={
+                          line.y2
+                        }
                       />
                     ),
                   )}
@@ -1405,54 +2132,64 @@ export default function ArcheNovaMap() {
               =========================================== */}
 
               {MAP_NODES.map(
-                (node) => {
+                (
+                  node,
+                ) => {
 
                   const visible =
                     visibleIds.has(
                       node.id,
                     );
 
+
                   const selected =
-                    selectedNode?.id ===
+                    selectedNode
+                      ?.id ===
                     node.id;
+
 
                   const connected =
                     selectedConnections.has(
                       node.id,
                     );
 
-                  const expandedX =
-  5 +
-  node.x * 0.9;
 
-const expandedY =
-  4 +
-  node.y * 0.92;
+                  const style:
+                    MapNodeStyle = {
 
+                    "--an-search-x":
+                      `${node.x}%`,
 
-const style:
-  MapNodeStyle = {
-  "--an-search-x":
-    `${node.x}%`,
+                    "--an-search-y":
+                      `${node.y}%`,
 
-  "--an-search-y":
-    `${node.y}%`,
+                    "--an-search-open-x":
+                      `${getExpandedX(
+                        node.x,
+                      )}%`,
 
-  "--an-search-open-x":
-    `${getExpandedX(node.x)}%`,
-
-  "--an-search-open-y":
-    `${getExpandedY(node.y)}%`,
-};
+                    "--an-search-open-y":
+                      `${getExpandedY(
+                        node.y,
+                      )}%`,
+                  };
 
 
                   return (
                     <button
-                      key={node.id}
+                      key={
+                        node.id
+                      }
                       type="button"
-                      style={style}
+                      style={
+                        style
+                      }
                       className={[
                         "an-search-node",
+
+                        `an-search-node--${node.id}`,
+
+                        `an-search-node-domain--${node.domain}`,
 
                         selected
                           ? "is-selected"
@@ -1472,16 +2209,25 @@ const style:
                           ? ""
                           : "is-hidden",
                       ]
-                        .filter(Boolean)
-                        .join(" ")}
-                      onClick={(event) => {
+                        .filter(
+                          Boolean,
+                        )
+                        .join(
+                          " ",
+                        )}
+                      onClick={(
+                        event,
+                      ) => {
+
                         event.stopPropagation();
 
                         selectNode(
                           node.id,
                         );
                       }}
-                      aria-pressed={selected}
+                      aria-pressed={
+                        selected
+                      }
                       aria-label={
                         selected
                           ? `Deselect ${node.title}`
@@ -1493,10 +2239,13 @@ const style:
                         <i />
                       </span>
 
+
                       <span className="an-search-node__copy">
 
                         <strong>
-                          {node.shortTitle}
+                          {
+                            node.shortTitle
+                          }
                         </strong>
 
                         <small>
@@ -1519,10 +2268,13 @@ const style:
                   EMPTY
               =========================================== */}
 
-              {visibleNodes.length === 0 && (
+              {visibleNodes.length ===
+                0 && (
                 <div
                   className="an-search__empty"
-                  onClick={(event) => {
+                  onClick={(
+                    event,
+                  ) => {
                     event.stopPropagation();
                   }}
                 >
@@ -1532,12 +2284,15 @@ const style:
                   </span>
 
                   <strong>
-                    No system matches this search.
+                    No system matches
+                    this combination.
                   </strong>
 
                   <button
                     type="button"
-                    onClick={resetMap}
+                    onClick={
+                      resetMap
+                    }
                   >
                     RESET SEARCH
                   </button>
@@ -1554,23 +2309,85 @@ const style:
 
             <div className="an-search__mobile-filters">
 
-              {MAP_LAYERS.map(
-                (layer) => (
+              {/* DOMAIN */}
+
+              {MAP_DOMAINS.map(
+                (
+                  domain,
+                ) => (
                   <button
-                    key={layer.id}
-                    type="button"
-                    className={
-                      activeLayer === layer.id
-                        ? "is-active"
-                        : ""
+                    key={
+                      `domain-${domain.id}`
                     }
+                    type="button"
+                    className={[
+                      "an-search__mobile-domain",
+
+                      activeDomain ===
+                        domain.id
+                        ? "is-active"
+                        : "",
+                    ]
+                      .filter(
+                        Boolean,
+                      )
+                      .join(
+                        " ",
+                      )}
+                    onClick={() => {
+                      setActiveDomain(
+                        domain.id,
+                      );
+                    }}
+                  >
+                    {
+                      domain.short
+                    }
+                  </button>
+                ),
+              )}
+
+
+              <span
+                className="an-search__mobile-filter-divider"
+                aria-hidden="true"
+              />
+
+
+              {/* LAYER */}
+
+              {MAP_LAYERS.map(
+                (
+                  layer,
+                ) => (
+                  <button
+                    key={
+                      `layer-${layer.id}`
+                    }
+                    type="button"
+                    className={[
+                      "an-search__mobile-layer",
+
+                      activeLayer ===
+                        layer.id
+                        ? "is-active"
+                        : "",
+                    ]
+                      .filter(
+                        Boolean,
+                      )
+                      .join(
+                        " ",
+                      )}
                     onClick={() => {
                       setActiveLayer(
                         layer.id,
                       );
                     }}
                   >
-                    {layer.short}
+                    {
+                      layer.short
+                    }
                   </button>
                 ),
               )}
@@ -1596,7 +2413,10 @@ const style:
                   </span>
 
                   <small>
-                    {selectedNode.status}
+                    {
+                      selectedNode
+                        .status
+                    }
                   </small>
 
                 </div>
@@ -1605,7 +2425,9 @@ const style:
                 <button
                   type="button"
                   onClick={() => {
-                    setSelectedId(null);
+                    setSelectedId(
+                      null,
+                    );
                   }}
                   aria-label="Close selected system"
                 >
@@ -1615,6 +2437,41 @@ const style:
               </div>
 
 
+              {/* ===========================================
+                  DOMAIN PURPOSE
+              =========================================== */}
+
+              <div className="an-search__detail-domain">
+
+                <span>
+                  PURPOSE DOMAIN
+                </span>
+
+                <strong>
+                  {
+                    getDomain(
+                      selectedNode
+                        .domain,
+                    )?.label
+                  }
+                </strong>
+
+                <p>
+                  {
+                    getDomain(
+                      selectedNode
+                        .domain,
+                    )?.purpose
+                  }
+                </p>
+
+              </div>
+
+
+              {/* ===========================================
+                  LAYER
+              =========================================== */}
+
               <div className="an-search__detail-layer">
 
                 <i />
@@ -1622,7 +2479,8 @@ const style:
                 <span>
                   {
                     getLayer(
-                      selectedNode.layer,
+                      selectedNode
+                        .layer,
                     )?.label
                   }
                 </span>
@@ -1631,17 +2489,26 @@ const style:
 
 
               <span className="an-search__detail-eyebrow">
-                {selectedNode.eyebrow}
+                {
+                  selectedNode
+                    .eyebrow
+                }
               </span>
 
 
               <h3>
-                {selectedNode.title}
+                {
+                  selectedNode
+                    .title
+                }
               </h3>
 
 
-              <p>
-                {selectedNode.description}
+              <p className="an-search__detail-description">
+                {
+                  selectedNode
+                    .description
+                }
               </p>
 
 
@@ -1651,17 +2518,26 @@ const style:
                   CAPABILITIES
                 </span>
 
+
                 <div>
 
-                  {selectedNode.capabilities.map(
-                    (capability) => (
-                      <small
-                        key={capability}
-                      >
-                        {capability}
-                      </small>
-                    ),
-                  )}
+                  {selectedNode
+                    .capabilities
+                    .map(
+                      (
+                        capability,
+                      ) => (
+                        <small
+                          key={
+                            capability
+                          }
+                        >
+                          {
+                            capability
+                          }
+                        </small>
+                      ),
+                    )}
 
                 </div>
 
@@ -1674,43 +2550,58 @@ const style:
                   CONNECTED SYSTEMS
                 </span>
 
+
                 <div>
 
-                  {selectedNode.connections.map(
-                    (connectionId) => {
+                  {selectedNode
+                    .connections
+                    .map(
+                      (
+                        connectionId,
+                      ) => {
 
-                      const node =
-                        MAP_NODES.find(
-                          (item) =>
-                            item.id === connectionId,
+                        const node =
+                          MAP_NODES.find(
+                            (
+                              item,
+                            ) =>
+                              item.id ===
+                              connectionId,
+                          );
+
+
+                        if (
+                          !node
+                        ) {
+                          return null;
+                        }
+
+
+                        return (
+                          <button
+                            key={
+                              node.id
+                            }
+                            type="button"
+                            onClick={() => {
+                              setSelectedId(
+                                node.id,
+                              );
+                            }}
+                          >
+                            <span>
+                              {
+                                node.shortTitle
+                              }
+                            </span>
+
+                            <small>
+                              →
+                            </small>
+                          </button>
                         );
-
-                      if (!node) {
-                        return null;
-                      }
-
-
-                      return (
-                        <button
-                          key={node.id}
-                          type="button"
-                          onClick={() => {
-                            setSelectedId(
-                              node.id,
-                            );
-                          }}
-                        >
-                          <span>
-                            {node.shortTitle}
-                          </span>
-
-                          <small>
-                            →
-                          </small>
-                        </button>
-                      );
-                    },
-                  )}
+                      },
+                    )}
 
                 </div>
 
@@ -1718,7 +2609,10 @@ const style:
 
 
               <Link
-                href={selectedNode.href}
+                href={
+                  selectedNode
+                    .href
+                }
                 className="an-search__enter"
               >
 
@@ -1727,7 +2621,10 @@ const style:
                 </span>
 
                 <strong>
-                  {selectedNode.shortTitle}
+                  {
+                    selectedNode
+                      .shortTitle
+                  }
                 </strong>
 
                 <i>
@@ -1787,5659 +2684,4030 @@ const style:
       </div>
 
 
+      {/* ==================================================
+          CSS
+      ================================================== */}
+
+      <style jsx global>{`
+
+        /* ==================================================
+           ROOT
+        ================================================== */
+
+        .an-search,
+        .an-search *,
+        .an-search *::before,
+        .an-search *::after {
+          box-sizing: border-box;
+        }
+
+
+        .an-search {
+          position: relative;
+
+          isolation: isolate;
+
+          width: 100% !important;
+          max-width: none !important;
+
+          height: 100% !important;
+          min-height: 0 !important;
+
+          margin: 0 !important;
+          padding: 0 !important;
+
+          overflow: hidden !important;
+
+          color:
+            rgba(
+              248,
+              249,
+              250,
+              0.94
+            );
+
+          background:
+            transparent !important;
+
+          border: 0 !important;
+          border-radius: 0 !important;
+
+          box-shadow:
+            none !important;
+        }
+
+
+        /* ==================================================
+           AMBIENT SPACE
+        ================================================== */
+
+        .an-search__space {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: -3;
+
+          pointer-events: none;
+
+          background:
+            radial-gradient(
+              ellipse
+              at
+              50%
+              45%,
+              rgba(
+                255,
+                255,
+                255,
+                0.026
+              ),
+              transparent
+              46%
+            ),
+
+            radial-gradient(
+              ellipse
+              at
+              15%
+              25%,
+              rgba(
+                255,
+                255,
+                255,
+                0.014
+              ),
+              transparent
+              34%
+            ),
+
+            radial-gradient(
+              ellipse
+              at
+              82%
+              72%,
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              ),
+              transparent
+              35%
+            );
+        }
+
+
+        .an-search__stars {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: -2;
+
+          pointer-events: none;
+
+          opacity: 0.34;
+
+          background-image:
+            radial-gradient(
+              circle,
+              rgba(
+                255,
+                255,
+                255,
+                0.5
+              )
+              0
+              0.55px,
+              transparent
+              0.8px
+            ),
 
+            radial-gradient(
+              circle,
+              rgba(
+                255,
+                255,
+                255,
+                0.22
+              )
+              0
+              0.4px,
+              transparent
+              0.7px
+            );
+
+          background-size:
+            61px
+            61px,
+            103px
+            103px;
+
+          background-position:
+            0
+            0,
+            31px
+            19px;
+        }
 
 
-     {/* ==================================================
-         CSS
-     ================================================== */}
-
-     <style jsx global>{`
-
-       /* ==================================================
-          ROOT
-       ================================================== */
-
-       .an-search,
-       .an-search *,
-       .an-search *::before,
-       .an-search *::after {
-         box-sizing: border-box;
-       }
+        /* ==================================================
+           SINGLE SURFACE
+        ================================================== */
 
+        .an-search__surface {
+          position: relative !important;
 
-       .an-search {
-         position: relative;
+          width: 100% !important;
+          height: 100% !important;
+
+          min-width: 0 !important;
+          min-height: 0 !important;
 
-         isolation: isolate;
+          display: grid !important;
 
-         width: 100% !important;
-         max-width: none !important;
+          grid-template-rows:
+            58px
+            54px
+            minmax(
+              0,
+              1fr
+            )
+            34px !important;
 
-         /*
-          * Critical production fix:
-          * never depend on parent height:100%.
-          */
-         height:
-           clamp(
-             680px,
-             78svh,
-             860px
-           ) !important;
-
-         min-height:
-           680px !important;
-
-         margin: 0 !important;
-
-         padding: 0 !important;
-
-         overflow: hidden !important;
-
-         color:
-           rgba(
-             248,
-             249,
-             250,
-             0.94
-           );
-
-         background:
-           transparent !important;
-       }
-
-
-       /* ==================================================
-          SPACE
-       ================================================== */
-
-       .an-search__space {
-         position: absolute;
-
-         inset: 0;
-
-         z-index: -3;
-
-         pointer-events: none;
-
-         background:
-           radial-gradient(
-             ellipse
-             at 50% 45%,
-             rgba(
-               255,
-               255,
-               255,
-               0.026
-             ),
-             transparent 46%
-           ),
-
-           radial-gradient(
-             ellipse
-             at 15% 25%,
-             rgba(
-               255,
-               255,
-               255,
-               0.014
-             ),
-             transparent 34%
-           ),
-
-           radial-gradient(
-             ellipse
-             at 82% 72%,
-             rgba(
-               255,
-               255,
-               255,
-               0.012
-             ),
-             transparent 35%
-           );
-       }
-
-
-       .an-search__stars {
-         position: absolute;
-
-         inset: 0;
-
-         z-index: -2;
-
-         pointer-events: none;
-
-         opacity: 0.34;
-
-         background-image:
-           radial-gradient(
-             circle,
-             rgba(
-               255,
-               255,
-               255,
-               0.5
-             )
-             0
-             0.55px,
-             transparent 0.8px
-           ),
-
-           radial-gradient(
-             circle,
-             rgba(
-               255,
-               255,
-               255,
-               0.22
-             )
-             0
-             0.4px,
-             transparent 0.7px
-           );
-
-         background-size:
-           61px 61px,
-           103px 103px;
-
-         background-position:
-           0 0,
-           31px 19px;
-       }
-
-
-       /* ==================================================
-          SINGLE GLASS SURFACE
-       ================================================== */
-
-       .an-search__surface {
-         position: relative !important;
-
-         inset: auto !important;
-
-         width: 100% !important;
-         height: 100% !important;
-
-         min-width: 0 !important;
-         min-height: 0 !important;
-
-         display: grid !important;
-
-         grid-template-rows:
-           64px
-           58px
-           minmax(0, 1fr)
-           38px !important;
-
-         overflow: hidden !important;
-
-         border: 0 !important;
-
-         border-radius: 0 !important;
-
-         /*
-          * No second dark card.
-          * Background remains visibly transparent.
-          */
-         background:
-           linear-gradient(
-             145deg,
-             rgba(
-               6,
-               7,
-               8,
-               0.18
-             ),
-             rgba(
-               0,
-               0,
-               0,
-               0.28
-             )
-           ) !important;
-
-         box-shadow:
-           none !important;
-
-         -webkit-backdrop-filter:
-           blur(15px)
-           saturate(104%);
-
-         backdrop-filter:
-           blur(15px)
-           saturate(104%);
-       }
-
-
-       .an-search__surface::before {
-         content: "";
-
-         position: absolute;
-
-         inset: 0;
-
-         z-index: -1;
-
-         pointer-events: none;
-
-         background:
-           linear-gradient(
-             115deg,
-             rgba(
-               255,
-               255,
-               255,
-               0.014
-             ),
-             transparent 26%,
-             transparent 74%,
-             rgba(
-               255,
-               255,
-               255,
-               0.007
-             )
-           );
-       }
-
-
-       /* ==================================================
-          HEADER
-       ================================================== */
-
-       .an-search__header {
-         position: relative;
-
-         z-index: 20;
-
-         min-width: 0;
-
-         display: flex;
-
-         align-items: center;
-
-         justify-content:
-           space-between;
-
-         gap: 20px;
-
-         padding:
-           0
-           clamp(
-             15px,
-             2.2vw,
-             28px
-           );
+          overflow: hidden !important;
 
-         border-bottom:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.035
-           );
-       }
-
-
-       .an-search__identity {
-         min-width: 0;
-
-         display: flex;
-
-         align-items: baseline;
-
-         gap: 9px;
-       }
-
-
-       .an-search__identity
-span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.25
-           );
-
-         font-size: 6px;
-
-         font-weight: 650;
-
-         letter-spacing:
-           0.18em;
-       }
-
-
-       .an-search__identity
-strong {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.92
-           );
-
-         font-size: 13px;
-
-         font-weight: 430;
+          border: 0 !important;
+          border-radius: 0 !important;
 
-         letter-spacing:
-           0.1em;
-       }
+          background:
+            transparent !important;
 
+          box-shadow:
+            none !important;
 
-       .an-search__identity
-small {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.2
-           );
-
-         font-size: 5px;
-
-         letter-spacing:
-           0.13em;
-       }
-
-
-       .an-search__status {
-         display: flex;
-
-         align-items: center;
-
-         gap: 7px;
-
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.32
-           );
-
-         font-size: 5px;
-
-         letter-spacing:
-           0.11em;
-       }
+          -webkit-backdrop-filter:
+            none !important;
 
+          backdrop-filter:
+            none !important;
+        }
 
-       .an-search__status i {
-         width: 4px;
-         height: 4px;
 
-         border-radius: 50%;
-
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.62
-           );
-
-         box-shadow:
-           0
-           0
-           9px
-           rgba(
-             255,
-             255,
-             255,
-             0.24
-           );
-       }
-
-
-       .an-search__status small {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.17
-           );
-
-         font-size: 4px;
-       }
-
-
-       /* ==================================================
-          SEARCH
-       ================================================== */
-
-       .an-search__search-row {
-         position: relative;
-
-         z-index: 20;
-
-         min-width: 0;
-
-         display: flex;
+        .an-search__surface::before,
+        .an-search__surface::after {
+          display: none !important;
+        }
 
-         align-items: center;
 
-         gap: 10px;
+        /* ==================================================
+           HEADER
+        ================================================== */
 
-         padding:
-           8px
-           clamp(
-             12px,
-             1.7vw,
-             20px
-           );
+        .an-search__header {
+          position: relative;
 
-         border-bottom:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.03
-           );
-       }
-
-
-       .an-search__search {
-         width:
-           min(
-             540px,
-             100%
-           );
-
-         min-width: 0;
+          z-index: 20;
 
-         min-height: 38px;
+          min-width: 0;
 
-         display: grid;
+          display: flex;
 
-         grid-template-columns:
-           auto
-           minmax(0, 1fr)
-           auto;
+          align-items: center;
 
-         align-items: center;
+          justify-content:
+            space-between;
 
-         gap: 9px;
+          gap: 20px;
 
-         padding:
-           0
-           12px;
+          padding:
+            0
+            clamp(
+              15px,
+              2.2vw,
+              28px
+            );
 
-         border:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.055
-           );
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
 
-         border-radius: 12px;
+          box-shadow:
+            none !important;
+        }
 
-         background:
-           rgba(
-             0,
-             0,
-             0,
-             0.11
-           );
 
-         -webkit-backdrop-filter:
-           blur(12px);
+        .an-search__identity {
+          min-width: 0;
 
-         backdrop-filter:
-           blur(12px);
-       }
+          display: flex;
 
+          align-items: baseline;
 
-       .an-search__search
-span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.28
-           );
-
-         font-size: 12px;
-       }
-
+          gap: 9px;
+        }
 
-       .an-search__search input {
-         width: 100%;
-         min-width: 0;
 
-         border: 0;
+        .an-search__identity > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.25
+            );
 
-         outline: 0;
+          font-size: 6px;
 
-         background: transparent;
+          font-weight: 650;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.8
-           );
+          letter-spacing:
+            0.18em;
+        }
 
-         font: inherit;
 
-         font-size: 8px;
-       }
-
-
-       .an-search__search
-       input::placeholder {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.2
-           );
-       }
+        .an-search__identity > strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.92
+            );
 
+          font-size: 13px;
 
-       .an-search__search
-       button {
-         width: 24px;
-         height: 24px;
+          font-weight: 430;
 
-         display: grid;
+          letter-spacing:
+            0.1em;
+        }
 
-         place-items: center;
 
-         border: 0;
+        .an-search__identity > small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.2
+            );
 
-         background: transparent;
+          font-size: 5px;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.34
-           );
+          letter-spacing:
+            0.13em;
+        }
 
-         cursor: pointer;
-       }
 
+        .an-search__status {
+          display: flex;
 
-       .an-search__reset {
-         flex: 0 0 auto;
+          align-items: center;
 
-         min-height: 34px;
+          gap: 7px;
 
-         padding:
-           0
-           11px;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.32
+            );
 
-         border:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.045
-           );
+          font-size: 5px;
 
-         border-radius: 10px;
+          letter-spacing:
+            0.11em;
+        }
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.01
-           );
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.23
-           );
-
-         font: inherit;
-
-         font-size: 5px;
+        .an-search__status i {
+          width: 4px;
+          height: 4px;
 
-         letter-spacing:
-           0.11em;
-
-         cursor: pointer;
-       }
-
-
-       .an-search__reset:hover {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.65
-           );
-
-         border-color:
-           rgba(
-             255,
-             255,
-             255,
-             0.1
-           );
-       }
+          border-radius: 50%;
 
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.62
+            );
 
-       /* ==================================================
-          WORKSPACE
-       ================================================== */
+          box-shadow:
+            0
+            0
+            9px
+            rgba(
+              255,
+              255,
+              255,
+              0.24
+            );
+        }
 
-       .an-search__workspace {
-         position: relative;
 
-         width: 100% !important;
-         height: 100% !important;
+        .an-search__status small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.17
+            );
 
-         min-width: 0 !important;
-         min-height: 0 !important;
+          font-size: 4px;
+        }
 
-         display: grid;
 
-         grid-template-columns:
-           176px
-           minmax(
-             0,
-             1fr
-           );
+        /* ==================================================
+           SEARCH
+        ================================================== */
 
-         overflow: hidden !important;
-       }
+        .an-search__search-row {
+          position: relative;
 
+          z-index: 20;
 
-       .an-search__workspace.has-selection {
-         grid-template-columns:
-           176px
-           minmax(
-             0,
-             1fr
-           )
-           270px;
-       }
+          min-width: 0;
 
+          display: flex;
 
-       /* ==================================================
-          SIDEBAR
-       ================================================== */
+          align-items: center;
 
-       .an-search__sidebar {
-         min-width: 0;
-         min-height: 0;
+          gap: 10px;
 
-         padding:
-           17px
-           13px;
+          padding:
+            8px
+            clamp(
+              12px,
+              1.7vw,
+              20px
+            );
 
-         overflow: hidden;
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.03
+            );
 
-         border-right:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.032
-           );
+          box-shadow:
+            none !important;
+        }
 
-         background:
-           rgba(
-             0,
-             0,
-             0,
-             0.055
-           );
-       }
 
+        .an-search__search {
+          width:
+            min(
+              540px,
+              100%
+            );
 
-       .an-search__section-label {
-         display: block;
+          min-width: 0;
 
-         padding:
-           0
-           5px
-           11px;
+          min-height: 38px;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.22
-           );
+          display: grid;
 
-         font-size: 5px;
+          grid-template-columns:
+            auto
+            minmax(
+              0,
+              1fr
+            )
+            auto;
 
-         font-weight: 650;
+          align-items: center;
 
-         letter-spacing:
-           0.16em;
-       }
+          gap: 9px;
 
+          padding:
+            0
+            12px;
 
-       .an-search__filters {
-         display: grid;
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            );
 
-         gap: 3px;
-       }
+          border-radius: 12px;
 
+          background:
+            rgba(
+              0,
+              0,
+              0,
+              0.11
+            );
 
-       .an-search__filters
-       button {
-         width: 100%;
+          -webkit-backdrop-filter:
+            blur(
+              12px
+            );
 
-         min-height: 33px;
-
-         display: flex;
+          backdrop-filter:
+            blur(
+              12px
+            );
+        }
 
-         align-items: center;
 
-         justify-content:
-           space-between;
+        .an-search__search > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.28
+            );
 
-         gap: 10px;
+          font-size: 12px;
+        }
 
-         padding:
-           0
-           9px;
 
-         border:
-           1px solid
-           transparent;
-
-         border-radius: 9px;
-
-         background:
-           transparent;
+        .an-search__search input {
+          width: 100%;
+          min-width: 0;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.31
-           );
-
-         font: inherit;
-
-         font-size: 6.5px;
-
-         cursor: pointer;
-
-         text-align: left;
-       }
+          border: 0;
 
-
-       .an-search__filters
-       button small {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.14
-           );
-
-         font-size: 4.5px;
-       }
-
-
-       .an-search__filters
-       button:hover {
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.018
-           );
-
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.62
-           );
-       }
-
-
-       .an-search__filters
-       button.is-active {
-         border-color:
-           rgba(
-             255,
-             255,
-             255,
-             0.07
-           );
+          outline: 0;
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.027
-           );
+          background:
+            transparent;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.82
-           );
-       }
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.8
+            );
 
+          font: inherit;
 
-       .an-search__layer-info {
-         margin-top: 17px;
+          font-size: 8px;
+        }
 
-         padding:
-           13px
-           8px
-           0;
 
-         border-top:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.032
-           );
-       }
+        .an-search__search input::placeholder {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.2
+            );
+        }
 
 
-       .an-search__layer-info
-span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.15
-           );
+        .an-search__search button {
+          width: 24px;
+          height: 24px;
 
-         font-size: 4.5px;
+          display: grid;
 
-         letter-spacing:
-           0.13em;
-       }
+          place-items: center;
 
+          border: 0;
 
-       .an-search__layer-info
-       strong {
-         display: block;
+          background:
+            transparent;
 
-         margin-top: 7px;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.34
+            );
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.52
-           );
+          cursor: pointer;
+        }
 
-         font-size: 8px;
 
-         font-weight: 430;
-       }
+        .an-search__reset {
+          flex:
+            0
+            0
+            auto;
 
+          min-height: 34px;
 
-       .an-search__layer-info
-       p {
-         margin:
-           7px
-           0
-           0;
+          padding:
+            0
+            11px;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.22
-           );
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.045
+            );
 
-         font-size: 5.5px;
+          border-radius: 10px;
 
-         line-height: 1.55;
-       }
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.01
+            );
 
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.23
+            );
 
-       /* ==================================================
-          FIELD
-       ================================================== */
+          font: inherit;
 
-       .an-search__field {
-         position: relative;
+          font-size: 5px;
 
-         width: 100% !important;
-         height: 100% !important;
+          letter-spacing:
+            0.11em;
 
-         min-width: 0 !important;
-         min-height: 0 !important;
+          cursor: pointer;
+        }
 
-         display: grid;
 
-         grid-template-rows:
-           54px
-           minmax(
-             0,
-             1fr
-           )
-           auto;
+        .an-search__reset:hover {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.65
+            );
 
-         overflow: hidden !important;
-       }
+          border-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.1
+            );
+        }
 
 
-       .an-search__field-head {
-         min-width: 0;
+        /* ==================================================
+           WORKSPACE
+        ================================================== */
 
-         display: flex;
+        .an-search__workspace {
+          position: relative;
 
-         align-items: center;
+          width: 100% !important;
+          height: 100% !important;
 
-         justify-content:
-           space-between;
+          min-width: 0 !important;
+          min-height: 0 !important;
 
-         gap: 16px;
+          display: grid;
 
-         padding:
-           8px
-           16px;
+          overflow: hidden !important;
+        }
 
-         border-bottom:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.028
-           );
-       }
 
+        .an-search__workspace.no-selection {
+          grid-template-columns:
+            190px
+            minmax(
+              0,
+              1fr
+            );
+        }
 
-       .an-search__field-head
-div {
-         min-width: 0;
 
-         display: flex;
+        .an-search__workspace.has-selection {
+          grid-template-columns:
+            190px
+            minmax(
+              0,
+              1fr
+            )
+            278px;
+        }
 
-         flex-direction: column;
 
-         gap: 4px;
-       }
+        /* ==================================================
+           SIDEBAR
+        ================================================== */
 
+        .an-search__sidebar {
+          min-width: 0;
+          min-height: 0;
 
-       .an-search__field-head
-       span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.19
-           );
+          padding:
+            15px
+            12px;
 
-         font-size: 4.5px;
+          overflow-y: auto;
+          overflow-x: hidden;
 
-         font-weight: 650;
+          border-right:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
 
-         letter-spacing:
-           0.15em;
-       }
+          background:
+            rgba(
+              0,
+              0,
+              0,
+              0.025
+            );
 
+          scrollbar-width:
+            none;
+        }
 
-       .an-search__field-head
-       strong {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.5
-           );
 
-         font-size: 8px;
+        .an-search__sidebar::-webkit-scrollbar {
+          display: none;
+        }
 
-         font-weight: 400;
-       }
 
+        .an-search__section-label {
+          display: block;
 
-       .an-search__field-head
-small {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.15
-           );
+          padding:
+            0
+            5px
+            10px;
 
-         font-size: 4.5px;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
 
-         letter-spacing:
-           0.1em;
-       }
+          font-size: 5px;
 
+          font-weight: 650;
 
-       /* ==================================================
-          CANVAS
-       ================================================== */
+          letter-spacing:
+            0.16em;
+        }
 
-       .an-search__canvas {
-         position: relative !important;
 
-         width: 100% !important;
-         height: 100% !important;
+        .an-search__section-label--layers {
+          margin-top: 18px;
 
-         min-width: 0 !important;
+          padding-top: 14px;
 
-         /*
-          * Production stability:
-          * the field can never collapse to zero height.
-          */
-         min-height: 420px !important;
+          border-top:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.032
+            );
+        }
 
-         overflow: hidden !important;
 
-         opacity: 1 !important;
-         visibility: visible !important;
+        /* ==================================================
+           DOMAIN FILTERS
+        ================================================== */
 
-         background:
-           radial-gradient(
-             ellipse
-             at 50% 47%,
-             rgba(
-               255,
-               255,
-               255,
-               0.018
-             ),
-             transparent 48%
-           );
-       }
+        .an-search__domain-filters {
+          display: grid;
 
+          gap: 3px;
+        }
 
-       .an-search__nebula {
-         position: absolute;
 
-         inset: 5%;
+        .an-search__domain-filters button,
+        .an-search__filters button {
+          width: 100%;
 
-         pointer-events: none;
+          min-height: 31px;
 
-         opacity: 0.42;
+          display: flex;
 
-         background:
-           radial-gradient(
-             ellipse
-             at 34% 44%,
-             rgba(
-               255,
-               255,
-               255,
-               0.016
-             ),
-             transparent 33%
-           ),
+          align-items: center;
 
-           radial-gradient(
-             ellipse
-             at 68% 57%,
-             rgba(
-               255,
-               255,
-               255,
-               0.012
-             ),
-             transparent 38%
-           );
+          justify-content:
+            space-between;
 
-         filter:
-           blur(
-             18px
-           );
-       }
+          gap: 8px;
 
+          padding:
+            0
+            9px;
 
-       /* ==================================================
-          CONNECTIONS
-       ================================================== */
+          border:
+            1px solid
+            transparent;
 
-       .an-search__connections {
-         position: absolute;
+          border-radius: 9px;
 
-         inset: 0;
+          background:
+            transparent;
 
-         z-index: 2;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.31
+            );
 
-         width: 100%;
-         height: 100%;
+          font: inherit;
 
-         overflow: visible;
+          font-size: 6.2px;
 
-         pointer-events: none;
-       }
+          cursor: pointer;
 
+          text-align: left;
+        }
 
-       .an-search__connections
-       line {
-         stroke:
-           rgba(
-             255,
-             255,
-             255,
-             0.17
-           );
 
-         stroke-width:
-           0.45;
+        .an-search__domain-filters button small,
+        .an-search__filters button small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.14
+            );
 
-         stroke-linecap:
-           round;
+          font-size: 4.5px;
+        }
 
-         vector-effect:
-           non-scaling-stroke;
 
-         filter:
-           drop-shadow(
-             0
-             0
-             2px
-             rgba(
-               255,
-               255,
-               255,
-               0.06
-             )
-           );
-       }
+        .an-search__domain-filters button:hover,
+        .an-search__filters button:hover {
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
 
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.62
+            );
+        }
 
-       /* ==================================================
-          NODE
-       ================================================== */
 
-       .an-search-node {
-         position: absolute;
+        .an-search__domain-filters button.is-active,
+        .an-search__filters button.is-active {
+          border-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.075
+            );
 
-         left:
-           var(
-             --an-search-x
-           );
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.028
+            );
 
-         top:
-           var(
-             --an-search-y
-           );
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.84
+            );
+        }
 
-         z-index: 5;
 
-         width: 104px;
+        .an-search__domain-info {
+          margin-top: 11px;
 
-         min-height: 38px;
+          padding:
+            10px
+            8px
+            0;
 
-         display: flex !important;
+          border-top:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+        }
 
-         align-items: center;
 
-         gap: 8px;
+        .an-search__domain-info > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.14
+            );
 
-         padding:
-           5px
-           7px;
+          font-size: 4px;
 
-         border:
-           0;
+          letter-spacing:
+            0.14em;
+        }
 
-         border-radius:
-           10px;
 
-         /*
-          * No visible card frame.
-          * Only star + typography remain.
-          */
-         background:
-           transparent;
+        .an-search__domain-info strong {
+          display: block;
 
-         color: inherit;
+          margin-top: 6px;
 
-         font: inherit;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.43
+            );
 
-         text-align: left;
+          font-size: 5.5px;
 
-         cursor: pointer;
+          font-weight: 400;
 
-         transform:
-           translate(
-             -50%,
-             -50%
-           );
+          line-height: 1.55;
+        }
 
-         opacity: 1;
 
-         visibility: visible !important;
+        /* ==================================================
+           LAYER FILTER
+        ================================================== */
 
-         transition:
-           opacity
-           0.22s ease,
-           transform
-           0.22s ease;
-       }
+        .an-search__filters {
+          display: grid;
 
+          gap: 3px;
+        }
 
-       .an-search-node:hover {
-         z-index: 25;
 
-         transform:
-           translate(
-             -50%,
-             -50%
-           )
-           translateY(
-             -2px
-           );
-       }
+        .an-search__layer-info {
+          margin-top: 13px;
 
+          padding:
+            11px
+            8px
+            0;
 
-       .an-search-node__star {
-         position: relative;
+          border-top:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.032
+            );
+        }
 
-         flex:
-           0
-           0
-           17px;
 
-         width: 17px;
-         height: 17px;
+        .an-search__layer-info > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.15
+            );
 
-         display: grid;
+          font-size: 4px;
 
-         place-items: center;
-       }
+          letter-spacing:
+            0.13em;
+        }
 
 
-       .an-search-node__star::before {
-         content: "";
+        .an-search__layer-info strong {
+          display: block;
 
-         position: absolute;
+          margin-top: 6px;
 
-         width: 15px;
-         height: 1px;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.52
+            );
 
-         background:
-           linear-gradient(
-             90deg,
-             transparent,
-             rgba(
-               255,
-               255,
-               255,
-               0.23
-             ),
-             transparent
-           );
-       }
+          font-size: 8px;
 
+          font-weight: 430;
+        }
 
-       .an-search-node__star::after {
-         content: "";
 
-         position: absolute;
+        .an-search__layer-info p {
+          margin:
+            6px
+            0
+            0;
 
-         width: 1px;
-         height: 15px;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
 
-         background:
-           linear-gradient(
-             180deg,
-             transparent,
-             rgba(
-               255,
-               255,
-               255,
-               0.19
-             ),
-             transparent
-           );
-       }
+          font-size: 5.2px;
 
+          line-height: 1.5;
+        }
 
-       .an-search-node__star
-       i {
-         position: relative;
 
-         z-index: 2;
+        /* ==================================================
+           FIELD
+        ================================================== */
 
-         width: 4px;
-         height: 4px;
+        .an-search__field {
+          position: relative;
 
-         border-radius: 50%;
+          width: 100% !important;
+          height: 100% !important;
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.74
-           );
+          min-width: 0 !important;
+          min-height: 0 !important;
 
-         box-shadow:
-           0
-           0
-           7px
-           rgba(
-             255,
-             255,
-             255,
-             0.34
-           ),
+          display: grid;
 
-           0
-           0
-           15px
-           rgba(
-             255,
-             255,
-             255,
-             0.09
-           );
-       }
+          grid-template-rows:
+            48px
+            minmax(
+              0,
+              1fr
+            )
+            auto;
 
+          overflow: hidden !important;
 
-       .an-search-node__copy {
-         min-width: 0;
+          box-shadow:
+            none !important;
+        }
 
-         display: flex;
 
-         flex-direction: column;
+        .an-search__field-head {
+          position: relative;
 
-         gap: 2px;
-       }
+          z-index: 15;
 
+          min-width: 0;
 
-       .an-search-node__copy
-       strong {
-         overflow: hidden;
+          display: flex;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.64
-           );
+          align-items: center;
 
-         font-size: 6.5px;
+          justify-content:
+            space-between;
 
-         font-weight: 430;
-
-         text-overflow: ellipsis;
+          gap: 16px;
 
-         white-space: nowrap;
-       }
-
-
-       .an-search-node__copy
-       small {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.15
-           );
-
-         font-size: 3.7px;
-
-         letter-spacing:
-           0.08em;
-       }
-
-
-       .an-search-node.is-connected
-       .an-search-node__star
-       i {
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.9
-           );
-
-         box-shadow:
-           0
-           0
-           10px
-           rgba(
-             255,
-             255,
-             255,
-             0.46
-           ),
-
-           0
-           0
-           24px
-           rgba(
-             255,
-             255,
-             255,
-             0.13
-           );
-       }
-
-
-       .an-search-node.is-connected
-       .an-search-node__copy
-       strong {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.79
-           );
-       }
+          padding:
+            7px
+            17px;
 
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.028
+            );
+        }
 
-       .an-search-node.is-selected {
-         z-index: 30;
-       }
 
+        .an-search__field-head > div {
+          min-width: 0;
 
-       .an-search-node.is-selected
-       .an-search-node__star
-       i {
-         width: 6px;
-         height: 6px;
+          display: flex;
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             1
-           );
+          flex-direction: column;
 
-         box-shadow:
-           0
-           0
-           11px
-           rgba(
-             255,
-             255,
-             255,
-             0.72
-           ),
+          gap: 4px;
+        }
 
-           0
-           0
-           27px
-           rgba(
-             255,
-             255,
-             255,
-             0.22
-           );
-       }
 
+        .an-search__field-head span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.19
+            );
 
-       .an-search-node.is-selected
-       .an-search-node__copy
-       strong {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.98
-           );
+          font-size: 4.5px;
 
-         font-weight: 520;
-       }
+          font-weight: 650;
 
+          letter-spacing:
+            0.15em;
+        }
 
-       .an-search-node.is-selected
-       .an-search-node__copy
-       small {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.42
-           );
-       }
 
+        .an-search__field-head strong {
+          max-width: 540px;
 
-       .an-search-node.is-background {
-         opacity: 0.24;
-       }
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.5
+            );
 
+          font-size: 8px;
 
-       .an-search-node.is-hidden {
-         opacity:
-           0.035 !important;
+          font-weight: 400;
 
-         pointer-events:
-           none !important;
-       }
+          line-height: 1.35;
+        }
 
 
-       /* ==================================================
-          EMPTY
-       ================================================== */
+        .an-search__field-head > small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.15
+            );
 
-       .an-search__empty {
-         position: absolute;
+          font-size: 4.5px;
 
-         left: 50%;
-         top: 50%;
+          letter-spacing:
+            0.1em;
+        }
 
-         z-index: 50;
 
-         display: flex;
+        /* ==================================================
+           CANVAS
+        ================================================== */
 
-         flex-direction: column;
+        .an-search__canvas {
+          position: relative !important;
 
-         align-items: center;
+          width: 100% !important;
+          height: 100% !important;
 
-         transform:
-           translate(
-             -50%,
-             -50%
-           );
+          min-width: 0 !important;
+          min-height: 0 !important;
 
-         text-align: center;
-       }
+          overflow: hidden !important;
 
+          opacity: 1 !important;
+          visibility: visible !important;
 
-       .an-search__empty
-       span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.18
-           );
+          background:
+            radial-gradient(
+              ellipse
+              at
+              50%
+              47%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              ),
+              transparent
+              48%
+            );
+        }
 
-         font-size: 5px;
 
-         letter-spacing:
-           0.15em;
-       }
-
-
-       .an-search__empty
-       strong {
-         margin-top: 8px;
-
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.55
-           );
-
-         font-size: 10px;
-
-         font-weight: 400;
-       }
-
-
-       .an-search__empty
-       button {
-         margin-top: 13px;
-
-         padding:
-           7px
-           11px;
+        .an-search__nebula {
+          position: absolute;
 
-         border:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.07
-           );
+          inset: 5%;
 
-         border-radius: 999px;
+          z-index: 0;
 
-         background:
-           transparent;
+          pointer-events: none;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.45
-           );
+          opacity: 0.4;
 
-         font: inherit;
+          background:
+            radial-gradient(
+              ellipse
+              at
+              34%
+              44%,
+              rgba(
+                255,
+                255,
+                255,
+                0.016
+              ),
+              transparent
+              33%
+            ),
 
-         font-size: 5px;
+            radial-gradient(
+              ellipse
+              at
+              68%
+              57%,
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              ),
+              transparent
+              38%
+            );
 
-         cursor: pointer;
-       }
+          filter:
+            blur(
+              18px
+            );
+        }
 
 
-       /* ==================================================
-          DETAIL
-       ================================================== */
+        /* ==================================================
+           PURPOSE DOMAINS
+           Not cards — atmospheric regions.
+        ================================================== */
 
-       .an-search__detail {
-         min-width: 0;
-         min-height: 0;
+        .an-search-domain-field {
+          position: absolute;
 
-         position: relative;
+          z-index: 1;
 
-         z-index: 40;
+          pointer-events: none;
 
-         padding:
-           18px
-           16px;
+          overflow: hidden;
 
-         overflow-y: auto;
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
 
-         border-left:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.045
-           );
+          border-radius:
+            46%;
 
-         /*
-          * Slightly stronger glass only while selected.
-          * This is intentionally more legible than
-          * background node typography.
-          */
-         background:
-           linear-gradient(
-             160deg,
-             rgba(
-               14,
-               15,
-               17,
-               0.48
-             ),
-             rgba(
-               0,
-               0,
-               0,
-               0.62
-             )
-           );
+          opacity: 0.48;
 
-         -webkit-backdrop-filter:
-           blur(24px)
-           saturate(108%);
+          transition:
+            opacity
+            0.3s ease,
+            border-color
+            0.3s ease,
+            background
+            0.3s ease;
+        }
 
-         backdrop-filter:
-           blur(24px)
-           saturate(108%);
 
-         scrollbar-width: none;
-       }
+        .an-search-domain-field::before {
+          content: "";
 
+          position: absolute;
 
-       .an-search__detail::-webkit-scrollbar {
-         display: none;
-       }
-
+          inset: 0;
 
-       .an-search__detail-head {
-         display: flex;
+          border-radius:
+            inherit;
 
-         align-items: center;
+          background:
+            radial-gradient(
+              ellipse
+              at center,
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              ),
+              transparent
+              70%
+            );
+        }
 
-         justify-content:
-           space-between;
-
-         gap: 12px;
-       }
-
-
-       .an-search__detail-head
-div {
-         display: flex;
-
-         align-items: center;
-
-         gap: 7px;
-       }
-
-
-       .an-search__detail-head
-       span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.82
-           );
 
-         font-size: 5.5px;
+        .an-search-domain-field > span,
+        .an-search-domain-field > strong {
+          position: absolute;
 
-         font-weight: 680;
+          z-index: 1;
+        }
 
-         letter-spacing:
-           0.15em;
 
-         text-shadow:
-           0
-           0
-           12px
-           rgba(
-             255,
-             255,
-             255,
-             0.08
-           );
-       }
+        .an-search-domain-field > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.105
+            );
 
+          font-size: 4px;
 
-       .an-search__detail-head
-       small {
-         padding:
-           4px
-           6px;
+          font-weight: 650;
 
-         border:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.09
-           );
-
-         border-radius: 999px;
-
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.52
-           );
-
-         font-size: 4px;
-       }
+          letter-spacing:
+            0.18em;
+        }
 
 
-       .an-search__detail-head
-       button {
-         width: 27px;
-         height: 27px;
+        .an-search-domain-field > strong {
+          max-width: 150px;
 
-         display: grid;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.075
+            );
 
-         place-items: center;
+          font-size: 6px;
 
-         border:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.065
-           );
+          font-weight: 360;
 
-         border-radius: 50%;
+          line-height: 1.45;
+        }
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.015
-           );
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.48
-           );
-
-         font: inherit;
-
-         cursor: pointer;
-       }
-
-
-       .an-search__detail-layer {
-         display: flex;
+        /* ArcheNova Space */
 
-         align-items: center;
-
-         gap: 7px;
+        .an-search-domain-field--space {
+          left: 4%;
+          top: 18%;
 
-         margin-top: 22px;
-       }
+          width: 48%;
+          height: 72%;
 
+          background:
+            radial-gradient(
+              ellipse
+              at
+              46%
+              58%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              ),
+              transparent
+              72%
+            );
+        }
 
-       .an-search__detail-layer
-       i {
-         width: 4px;
-         height: 4px;
-
-         border-radius: 50%;
-
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.78
-           );
-
-         box-shadow:
-           0
-           0
-           8px
-           rgba(
-             255,
-             255,
-             255,
-             0.24
-           );
-       }
 
+        .an-search-domain-field--space > span {
+          left: 7%;
+          bottom: 8%;
+        }
 
-       .an-search__detail-layer
-       span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.48
-           );
-
-         font-size: 5px;
-
-         letter-spacing:
-           0.12em;
-       }
 
-
-       .an-search__detail-eyebrow {
-         display: block;
+        .an-search-domain-field--space > strong {
+          left: 7%;
+          bottom: 12%;
+        }
 
-         margin-top: 15px;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.31
-           );
+        /* Science */
 
-         font-size: 5px;
+        .an-search-domain-field--science {
+          left: 7%;
+          top: 5%;
 
-         letter-spacing:
-           0.14em;
-       }
+          width: 88%;
+          height: 64%;
 
+          border-radius: 50%;
 
-       .an-search__detail
-       h3 {
-         margin:
-           7px
-           0
-           0;
+          background:
+            radial-gradient(
+              ellipse
+              at
+              48%
+              34%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              ),
+              transparent
+              68%
+            );
+        }
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.97
-           );
 
-         font-size:
-           clamp(
-             18px,
-             1.8vw,
-             24px
-           );
+        .an-search-domain-field--science > span {
+          left: 42%;
+          top: 5%;
+        }
 
-         font-weight: 330;
-
-         line-height: 1.08;
-
-         letter-spacing:
-           -0.025em;
-       }
-
 
-       .an-search__detail
-p {
-         margin:
-           12px
-           0
-           0;
+        .an-search-domain-field--science > strong {
+          left: 42%;
+          top: 9%;
+        }
 
-         color:
-           rgba(
-             238,
-             241,
-             243,
-             0.57
-           );
 
-         font-size: 7px;
+        /* Governance */
 
-         line-height: 1.68;
-       }
+        .an-search-domain-field--governance {
+          right: 3%;
+          top: 18%;
 
+          width: 46%;
+          height: 72%;
 
-       /* ==================================================
-          CAPABILITIES
-       ================================================== */
+          background:
+            radial-gradient(
+              ellipse
+              at
+              60%
+              55%,
+              rgba(
+                255,
+                255,
+                255,
+                0.016
+              ),
+              transparent
+              70%
+            );
+        }
 
-       .an-search__capabilities {
-         margin-top: 20px;
-       }
 
+        .an-search-domain-field--governance > span {
+          right: 7%;
+          bottom: 8%;
 
-       .an-search__capabilities
-span,
-       .an-search__relations
-span {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.34
-           );
+          text-align: right;
+        }
 
-         font-size: 5px;
 
-         font-weight: 650;
+        .an-search-domain-field--governance > strong {
+          right: 7%;
+          bottom: 12%;
 
-         letter-spacing:
-           0.14em;
-       }
+          text-align: right;
+        }
 
 
-       .an-search__capabilities
-div {
-         display: flex;
+        .an-search-domain-field.is-active {
+          opacity: 0.95;
 
-         flex-wrap: wrap;
+          border-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.045
+            );
+        }
 
-         gap: 5px;
 
-         margin-top: 9px;
-       }
+        .an-search-domain-field.is-active > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
+        }
 
 
-       .an-search__capabilities
-       small {
-         padding:
-           5px
-           7px;
+        .an-search-domain-field.is-active > strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.13
+            );
+        }
 
-         border:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.065
-           );
 
-         border-radius: 999px;
+        .an-search-domain-field.is-muted {
+          opacity:
+            0.08;
+        }
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.015
-           );
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.45
-           );
+        /* ==================================================
+           CONNECTIONS
+        ================================================== */
 
-         font-size: 4.5px;
-       }
+        .an-search__connections {
+          position: absolute;
 
+          inset: 0;
 
-       /* ==================================================
-          RELATIONS
-       ================================================== */
+          z-index: 2;
 
-       .an-search__relations {
-         margin-top: 20px;
-       }
+          width: 100%;
+          height: 100%;
 
+          overflow: visible;
 
-       .an-search__relations
-div {
-         display: grid;
+          pointer-events: none;
+        }
 
-         gap: 2px;
 
-         margin-top: 8px;
-       }
+        .an-search__connections line {
+          stroke:
+            rgba(
+              255,
+              255,
+              255,
+              0.17
+            );
 
+          stroke-width:
+            0.45;
 
-       .an-search__relations
-       button {
-         min-height: 30px;
+          stroke-linecap:
+            round;
 
-         display: flex;
+          vector-effect:
+            non-scaling-stroke;
 
-         align-items: center;
+          filter:
+            drop-shadow(
+              0
+              0
+              2px
+              rgba(
+                255,
+                255,
+                255,
+                0.06
+              )
+            );
+        }
 
-         justify-content:
-           space-between;
 
-         gap: 10px;
+        /* ==================================================
+           NODE
+        ================================================== */
 
-         padding:
-           0
-           7px;
+        .an-search-node {
+          position: absolute;
 
-         border: 0;
+          left:
+            var(
+              --an-search-x
+            );
 
-         border-radius: 8px;
+          top:
+            var(
+              --an-search-y
+            );
 
-         background:
-           transparent;
+          z-index: 5;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.48
-           );
+          width: 104px;
 
-         font: inherit;
+          min-height: 38px;
 
-         font-size: 6px;
+          display: flex !important;
 
-         cursor: pointer;
+          align-items: center;
 
-         text-align: left;
-       }
+          gap: 8px;
 
+          padding:
+            5px
+            7px;
 
-       .an-search__relations
-       button:hover {
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.025
-           );
+          border: 0;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.85
-           );
-       }
+          border-radius: 10px;
 
+          background:
+            transparent;
 
-       .an-search__relations
-       button small {
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.26
-           );
-       }
+          color: inherit;
 
+          font: inherit;
 
-       /* ==================================================
-          ENTER
-       ================================================== */
+          text-align: left;
 
-       .an-search__enter {
-         width: 100%;
+          cursor: pointer;
 
-         min-height: 50px;
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
 
-         display: grid;
+          opacity: 1;
 
-         grid-template-columns:
-           1fr
-           auto;
+          visibility:
+            visible !important;
 
-         align-items: center;
+          overflow:
+            visible;
 
-         gap: 3px;
+          transition:
+            opacity
+            0.22s ease,
+            transform
+            0.22s ease;
+        }
 
-         margin-top: 20px;
 
-         padding:
-           8px
-           10px;
+        .an-search-node:hover {
+          z-index: 25;
 
-         border:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.08
-           );
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            translateY(
+              -2px
+            );
+        }
 
-         border-radius: 12px;
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.02
-           );
+        .an-search-node__star {
+          position: relative;
 
-         color: inherit;
+          flex:
+            0
+            0
+            17px;
 
-         text-decoration: none;
-       }
+          flex-shrink: 0;
 
+          width: 17px;
+          height: 17px;
 
-       .an-search__enter::after {
-         display:
-           none !important;
-       }
+          min-width: 17px;
+          min-height: 17px;
 
+          display: grid;
 
-       .an-search__enter
-span {
-         grid-column: 1;
+          place-items: center;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.3
-           );
+          overflow:
+            visible;
+        }
 
-         font-size: 4.5px;
 
-         letter-spacing:
-           0.13em;
-       }
+        .an-search-node__star::before {
+          content: "";
 
+          position: absolute;
 
-       .an-search__enter
-strong {
-         grid-column: 1;
+          left: 50%;
+          top: 50%;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.76
-           );
+          width: 15px;
+          height: 1px;
 
-         font-size: 8px;
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
 
-         font-weight: 430;
-       }
+          background:
+            linear-gradient(
+              90deg,
+              transparent,
+              rgba(
+                255,
+                255,
+                255,
+                0.23
+              ),
+              transparent
+            );
+        }
 
 
-       .an-search__enter
-i {
-         grid-column: 2;
+        .an-search-node__star::after {
+          content: "";
 
-         grid-row:
-           1 / 3;
+          position: absolute;
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.42
-           );
+          left: 50%;
+          top: 50%;
 
-         font-size: 11px;
+          width: 1px;
+          height: 15px;
 
-         font-style: normal;
-       }
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
 
+          background:
+            linear-gradient(
+              180deg,
+              transparent,
+              rgba(
+                255,
+                255,
+                255,
+                0.19
+              ),
+              transparent
+            );
+        }
 
-       .an-search__enter:hover {
-         border-color:
-           rgba(
-             255,
-             255,
-             255,
-             0.16
-           );
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.035
-           );
-       }
+        .an-search-node__star i {
+          position: relative;
 
+          z-index: 2;
 
-       /* ==================================================
-          MOBILE FILTERS
-       ================================================== */
+          width: 4px;
+          height: 4px;
 
-       .an-search__mobile-filters {
-         display: none;
-       }
+          border-radius: 50%;
 
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.74
+            );
 
-       /* ==================================================
-          FOOTER
-       ================================================== */
+          box-shadow:
+            0
+            0
+            7px
+            rgba(
+              255,
+              255,
+              255,
+              0.34
+            ),
 
-       .an-search__footer {
-         position: relative;
+            0
+            0
+            15px
+            rgba(
+              255,
+              255,
+              255,
+              0.09
+            );
+        }
 
-         z-index: 20;
 
-         min-width: 0;
+        .an-search-node__copy {
+          min-width: 0;
 
-         display: flex;
+          display: flex;
 
-         align-items: center;
+          flex-direction: column;
 
-         justify-content: center;
+          gap: 2px;
 
-         gap: 7px;
+          overflow:
+            hidden;
+        }
 
-         padding:
-           0
-           14px;
 
-         overflow: hidden;
+        .an-search-node__copy strong {
+          overflow: hidden;
 
-         border-top:
-           1px solid
-           rgba(
-             255,
-             255,
-             255,
-             0.028
-           );
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.64
+            );
 
-         color:
-           rgba(
-             255,
-             255,
-             255,
-             0.13
-           );
+          font-size: 6.5px;
 
-         font-size: 4px;
+          font-weight: 430;
 
-         letter-spacing:
-           0.11em;
-       }
+          text-overflow:
+            ellipsis;
 
+          white-space:
+            nowrap;
+        }
 
-       .an-search__footer
-       i {
-         width: 10px;
-         height: 1px;
 
-         background:
-           rgba(
-             255,
-             255,
-             255,
-             0.05
-           );
-       }
+        .an-search-node__copy small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.15
+            );
 
+          font-size: 3.7px;
 
-       /* ==================================================
-          MEDIUM PC
-       ================================================== */
+          letter-spacing:
+            0.08em;
+        }
 
-       @media
-         (min-width: 769px)
-         and
-         (max-width: 1180px) {
 
-         .an-search__workspace {
-           grid-template-columns:
-             145px
-             minmax(
-               0,
-               1fr
-             );
-         }
+        .an-search-node.is-connected
+        .an-search-node__star i {
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.9
+            );
 
+          box-shadow:
+            0
+            0
+            10px
+            rgba(
+              255,
+              255,
+              255,
+              0.46
+            ),
 
-         .an-search__workspace.has-selection {
-           grid-template-columns:
-             145px
-             minmax(
-               0,
-               1fr
-             )
-             220px;
-         }
+            0
+            0
+            24px
+            rgba(
+              255,
+              255,
+              255,
+              0.13
+            );
+        }
 
 
-         .an-search__sidebar {
-           padding-left: 9px;
-           padding-right: 9px;
-         }
+        .an-search-node.is-connected
+        .an-search-node__copy strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.79
+            );
+        }
 
 
-         .an-search-node {
-           width: 90px;
-         }
+        .an-search-node.is-selected {
+          z-index:
+            30;
+        }
 
 
-         .an-search-node__copy
-         strong {
-           font-size: 5.8px;
-         }
+        .an-search-node.is-selected
+        .an-search-node__star i {
+          width: 6px;
+          height: 6px;
 
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              1
+            );
 
-         .an-search__detail {
-           padding:
-             16px
-             12px;
-         }
+          box-shadow:
+            0
+            0
+            11px
+            rgba(
+              255,
+              255,
+              255,
+              0.72
+            ),
 
-       }
+            0
+            0
+            27px
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
+        }
 
 
-       /* ==================================================
-          SHORT PC / WINDOWS / EDGE SCALING
-       ================================================== */
+        .an-search-node.is-selected
+        .an-search-node__copy strong {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.98
+            );
 
-       @media
-         (min-width: 769px)
-         and
-         (max-height: 760px) {
+          font-weight:
+            520;
+        }
 
-         .an-search {
-           height:
-             calc(
-               100svh -
-               78px
-             ) !important;
 
-           min-height:
-             580px !important;
-         }
+        .an-search-node.is-selected
+        .an-search-node__copy small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.42
+            );
+        }
 
 
-         .an-search__surface {
-           grid-template-rows:
-             52px
-             48px
-             minmax(
-               0,
-               1fr
-             )
-             31px !important;
-         }
+        .an-search-node.is-background {
+          opacity:
+            0.24;
+        }
 
 
-         .an-search__field {
-           grid-template-rows:
-             46px
-             minmax(
-               0,
-               1fr
-             )
-             auto;
-         }
+        .an-search-node.is-hidden {
+          opacity:
+            0.035 !important;
 
+          pointer-events:
+            none !important;
+        }
 
-         .an-search__canvas {
-           min-height:
-             360px !important;
-         }
 
+        /* ==================================================
+           EMPTY
+        ================================================== */
 
-         .an-search__sidebar {
-           padding-top:
-             11px;
-         }
+        .an-search__empty {
+          position: absolute;
 
+          left: 50%;
+          top: 50%;
 
-         .an-search__filters
-         button {
-           min-height:
-             29px;
-         }
+          z-index: 50;
 
+          display: flex;
 
-         .an-search__layer-info {
-           margin-top:
-             10px;
-         }
+          flex-direction: column;
 
+          align-items: center;
 
-         .an-search__detail {
-           padding-top:
-             13px;
-         }
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
 
+          text-align:
+            center;
+        }
 
-         .an-search__detail-layer {
-           margin-top:
-             14px;
-         }
 
-       }
+        .an-search__empty span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
 
+          font-size: 5px;
 
-       /* ==================================================
-          MOBILE
-       ================================================== */
+          letter-spacing:
+            0.15em;
+        }
 
-       @media (
-         max-width: 768px
-       ) {
 
-         .an-search {
-           width: 100% !important;
+        .an-search__empty strong {
+          margin-top: 8px;
 
-           height:
-             min(
-               760px,
-               calc(
-                 100svh -
-                 72px
-               )
-             ) !important;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.55
+            );
 
-           min-height:
-             600px !important;
+          font-size: 10px;
 
-           max-height:
-             none !important;
+          font-weight:
+            400;
+        }
 
-           margin:
-             0 !important;
 
-           padding:
-             0 !important;
+        .an-search__empty button {
+          margin-top: 13px;
 
-           overflow:
-             hidden !important;
-         }
+          padding:
+            7px
+            11px;
 
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
 
-         .an-search__surface {
-           width:
-             100% !important;
+          border-radius:
+            999px;
 
-           height:
-             100% !important;
+          background:
+            transparent;
 
-           grid-template-rows:
-             52px
-             50px
-             minmax(
-               0,
-               1fr
-             ) !important;
-         }
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.45
+            );
 
+          font: inherit;
 
-         .an-search__header {
-           padding:
-             0
-             13px;
-         }
+          font-size: 5px;
 
+          cursor:
+            pointer;
+        }
 
-         .an-search__identity
-span,
-         .an-search__identity
-small {
-           display:
-             none;
-         }
 
+        /* ==================================================
+           DETAIL
+        ================================================== */
 
-         .an-search__identity
-strong {
-           font-size:
-             11px;
-         }
+        .an-search__detail {
+          min-width: 0;
+          min-height: 0;
 
+          position: relative;
 
-         .an-search__status
-         small {
-           display:
-             none;
-         }
+          z-index: 40;
 
+          padding:
+            18px
+            16px;
 
-         .an-search__search-row {
-           padding:
-             6px
-             10px;
-         }
+          overflow-y:
+            auto;
 
+          border-left:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            );
 
-         .an-search__search {
-           min-height:
-             36px;
-         }
+          background:
+            linear-gradient(
+              160deg,
+              rgba(
+                12,
+                13,
+                15,
+                0.46
+              ),
+              rgba(
+                0,
+                0,
+                0,
+                0.62
+              )
+            );
 
+          -webkit-backdrop-filter:
+            blur(
+              24px
+            )
+            saturate(
+              108%
+            );
 
-         .an-search__reset {
-           display:
-             none;
-         }
+          backdrop-filter:
+            blur(
+              24px
+            )
+            saturate(
+              108%
+            );
 
+          scrollbar-width:
+            none;
+        }
 
-         .an-search__workspace,
-         .an-search__workspace.has-selection,
-         .an-search__workspace.no-selection {
-           position:
-             relative;
 
-           display:
-             block;
+        .an-search__detail::-webkit-scrollbar {
+          display:
+            none;
+        }
 
-           width:
-             100% !important;
 
-           height:
-             100% !important;
+        .an-search__detail-head {
+          display: flex;
 
-           min-height:
-             0 !important;
+          align-items: center;
 
-           overflow:
-             hidden !important;
-         }
+          justify-content:
+            space-between;
 
+          gap: 12px;
+        }
 
-         .an-search__sidebar {
-           display:
-             none;
-         }
 
+        .an-search__detail-head > div {
+          display: flex;
 
-         .an-search__field {
-           width:
-             100% !important;
+          align-items: center;
 
-           height:
-             100% !important;
+          gap: 7px;
+        }
 
-           min-height:
-             0 !important;
 
-           grid-template-rows:
-             47px
-             minmax(
-               0,
-               1fr
-             )
-             auto;
-         }
+        .an-search__detail-head span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.9
+            );
 
+          font-size: 5.5px;
 
-         .an-search__field-head {
-           padding:
-             7px
-             11px;
-         }
+          font-weight: 680;
 
+          letter-spacing:
+            0.15em;
+        }
 
-         .an-search__field-head
-         strong {
-           font-size:
-             7px;
-         }
 
+        .an-search__detail-head small {
+          padding:
+            4px
+            6px;
 
-         .an-search__field-head
-small {
-           display:
-             none;
-         }
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.09
+            );
 
+          border-radius:
+            999px;
 
-         .an-search__canvas {
-           width:
-             100% !important;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.52
+            );
 
-           height:
-             100% !important;
+          font-size: 4px;
+        }
 
-           min-height:
-             390px !important;
 
-           overflow:
-             hidden !important;
-         }
+        /* ==================================================
+           CLOSE BUTTON
+           CSS-built × keeps perfect optical centering.
+        ================================================== */
 
+        .an-search__detail-head button {
+          position: relative;
 
-         /* ===============================================
-            MOBILE NODE GEOMETRY
-         =============================================== */
+          flex:
+            0
+            0
+            30px;
 
-         .an-search-node {
-           width:
-             78px;
+          width: 30px;
+          height: 30px;
 
-           min-height:
-             34px;
+          display: grid;
 
-           gap:
-             5px;
+          place-items:
+            center;
 
-           padding:
-             4px
-             4px;
-         }
+          padding: 0;
 
+          overflow:
+            hidden;
 
-         .an-search-node__star {
-           flex-basis:
-             13px;
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.07
+            );
 
-           width:
-             13px;
+          border-radius:
+            50%;
 
-           height:
-             13px;
-         }
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.015
+            );
 
+          color:
+            transparent;
 
-         .an-search-node__star::before {
-           width:
-             12px;
-         }
+          font-size:
+            0;
 
+          line-height:
+            0;
 
-         .an-search-node__star::after {
-           height:
-             12px;
-         }
+          cursor:
+            pointer;
+        }
 
 
-         .an-search-node__star
-         i {
-           width:
-             3.5px;
+        .an-search__detail-head button::before,
+        .an-search__detail-head button::after {
+          content: "";
 
-           height:
-             3.5px;
-         }
+          position: absolute;
 
+          left: 50%;
+          top: 50%;
 
-         .an-search-node__copy
-         strong {
-           font-size:
-             5.2px;
-         }
+          width: 11px;
+          height: 1px;
 
+          border-radius:
+            999px;
 
-         .an-search-node__copy
-         small {
-           font-size:
-             3px;
-         }
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.55
+            );
 
+          transform-origin:
+            center;
+        }
 
-         /*
-          * Pull edge systems inward.
-          * Attribute selector targets inline CSS variables.
-          */
-         .an-search-node[
-           style*="14%"
-         ],
-         .an-search-node[
-           style*="13%"
-         ],
-         .an-search-node[
-           style*="15%"
-         ] {
-           left:
-             17% !important;
-         }
 
+        .an-search__detail-head button::before {
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(
+              45deg
+            );
+        }
 
-         .an-search-node[
-           style*="84%"
-         ],
-         .an-search-node[
-           style*="85%"
-         ] {
-           left:
-             82% !important;
-         }
 
+        .an-search__detail-head button::after {
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(
+              -45deg
+            );
+        }
 
-         /* ===============================================
-            MOBILE FILTERS
-         =============================================== */
 
-         .an-search__mobile-filters {
-           display:
-             flex;
+        /* ==================================================
+           DETAIL DOMAIN
+        ================================================== */
 
-           gap:
-             5px;
+        .an-search__detail-domain {
+          margin-top: 18px;
 
-           padding:
-             7px
-             9px;
+          padding:
+            12px
+            0
+            14px;
 
-           overflow-x:
-             auto;
+          border-top:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.038
+            );
 
-           border-top:
-             1px solid
-             rgba(
-               255,
-               255,
-               255,
-               0.03
-             );
+          border-bottom:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.038
+            );
+        }
 
-           scrollbar-width:
-             none;
-         }
 
+        .an-search__detail-domain > span {
+          display: block;
 
-         .an-search__mobile-filters::-webkit-scrollbar {
-           display:
-             none;
-         }
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.23
+            );
 
+          font-size: 4.5px;
 
-         .an-search__mobile-filters
-         button {
-           flex:
-             0
-             0
-             auto;
+          font-weight: 650;
 
-           min-height:
-             27px;
+          letter-spacing:
+            0.14em;
+        }
 
-           padding:
-             0
-             8px;
 
-           border:
-             1px solid
-             rgba(
-               255,
-               255,
-               255,
-               0.045
-             );
+        .an-search__detail-domain > strong {
+          display: block;
 
-           border-radius:
-             999px;
+          margin-top: 7px;
 
-           background:
-             rgba(
-               255,
-               255,
-               255,
-               0.01
-             );
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.76
+            );
 
-           color:
-             rgba(
-               255,
-               255,
-               255,
-               0.23
-             );
+          font-size: 7px;
 
-           font:
-             inherit;
+          font-weight: 470;
 
-           font-size:
-             4.3px;
+          letter-spacing:
+            0.03em;
+        }
 
-           letter-spacing:
-             0.07em;
 
-           cursor:
-             pointer;
-         }
+        .an-search__detail-domain > p {
+          margin:
+            7px
+            0
+            0;
 
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.38
+            );
 
-         .an-search__mobile-filters
-         button.is-active {
-           border-color:
-             rgba(
-               255,
-               255,
-               255,
-               0.1
-             );
+          font-size: 5.7px;
 
-           background:
-             rgba(
-               255,
-               255,
-               255,
-               0.03
-             );
+          line-height: 1.55;
+        }
 
-           color:
-             rgba(
-               255,
-               255,
-               255,
-               0.72
-             );
-         }
 
+        .an-search__detail-layer {
+          display: flex;
 
-         /* ===============================================
-            MOBILE DETAIL GLASS SHEET
-         =============================================== */
+          align-items: center;
 
-         .an-search__detail {
-           position:
-             absolute;
+          gap: 7px;
 
-           left:
-             8px;
+          margin-top:
+            16px;
+        }
 
-           right:
-             8px;
 
-           bottom:
-             8px;
+        .an-search__detail-layer i {
+          width: 4px;
+          height: 4px;
 
-           z-index:
-             100;
+          border-radius:
+            50%;
 
-           max-height:
-             57%;
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.78
+            );
 
-           padding:
-             16px
-             14px;
+          box-shadow:
+            0
+            0
+            8px
+            rgba(
+              255,
+              255,
+              255,
+              0.24
+            );
+        }
 
-           overflow-y:
-             auto;
 
-           border:
-             1px solid
-             rgba(
-               255,
-               255,
-               255,
-               0.08
-             );
+        .an-search__detail-layer span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
 
-           border-radius:
-             17px;
+          font-size: 5px;
 
-           background:
-             linear-gradient(
-               145deg,
-               rgba(
-                 15,
-                 16,
-                 18,
-                 0.76
-               ),
-               rgba(
-                 0,
-                 0,
-                 0,
-                 0.84
-               )
-             );
+          letter-spacing:
+            0.12em;
+        }
 
-           -webkit-backdrop-filter:
-             blur(25px)
-             saturate(108%);
 
-           backdrop-filter:
-             blur(25px)
-             saturate(108%);
+        .an-search__detail-eyebrow {
+          display: block;
 
-           box-shadow:
-             0
-             20px
-             60px
-             rgba(
-               0,
-               0,
-               0,
-               0.34
-             );
-         }
+          margin-top:
+            15px;
 
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.31
+            );
 
-         .an-search__detail-head
-         span {
-           font-size:
-             5.5px;
+          font-size: 5px;
 
-           color:
-             rgba(
-               255,
-               255,
-               255,
-               0.88
-             );
-         }
+          letter-spacing:
+            0.14em;
+        }
 
 
-         .an-search__detail
-         h3 {
-           font-size:
-             20px;
-         }
+        .an-search__detail h3 {
+          margin:
+            7px
+            0
+            0;
 
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.97
+            );
 
-         .an-search__detail
-p {
-           font-size:
-             7px;
-         }
+          font-size:
+            clamp(
+              18px,
+              1.8vw,
+              24px
+            );
 
+          font-weight: 330;
 
-         .an-search__footer {
-           display:
-             none;
-         }
+          line-height: 1.08;
 
-       }
+          letter-spacing:
+            -0.025em;
+        }
 
 
-       /* ==================================================
-          SMALL MOBILE
-       ================================================== */
+        .an-search__detail-description {
+          margin:
+            12px
+            0
+            0;
 
-       @media (
-         max-width: 430px
-       ) {
+          color:
+            rgba(
+              238,
+              241,
+              243,
+              0.57
+            );
 
-         .an-search {
-           min-height:
-             590px !important;
-         }
+          font-size: 7px;
 
+          line-height: 1.68;
+        }
 
-         .an-search__canvas {
-           min-height:
-             380px !important;
-         }
 
+        /* ==================================================
+           CAPABILITIES
+        ================================================== */
 
-         .an-search-node {
-           width:
-             72px;
-         }
+        .an-search__capabilities {
+          margin-top:
+            20px;
+        }
 
 
-         .an-search-node__copy
-         strong {
-           font-size:
-             4.8px;
-         }
+        .an-search__capabilities > span,
+        .an-search__relations > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.34
+            );
 
+          font-size: 5px;
 
-         .an-search-node__copy
-         small {
-           font-size:
-             2.8px;
-         }
+          font-weight: 650;
 
-       }
+          letter-spacing:
+            0.14em;
+        }
 
 
-       /* ==================================================
-          REDUCED MOTION
-       ================================================== */
+        .an-search__capabilities > div {
+          display: flex;
 
-       @media (
-         prefers-reduced-motion:
-         reduce
-       ) {
+          flex-wrap: wrap;
 
-         .an-search *,
-         .an-search *::before,
-         .an-search *::after {
-           animation:
-             none !important;
+          gap: 5px;
 
-           transition:
-             none !important;
+          margin-top: 9px;
+        }
 
-           scroll-behavior:
-             auto !important;
-         }
 
-       }
+        .an-search__capabilities small {
+          padding:
+            5px
+            7px;
 
-       /* ==========================================================
-   FINAL LAYOUT OVERRIDE
-   HOME-INTEGRATED / DESKTOP + MOBILE
-========================================================== */
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.065
+            );
 
-/* ----------------------------------------------------------
-   ROOT
-   ArcheNovaMap does not create another outer card.
----------------------------------------------------------- */
+          border-radius:
+            999px;
 
-.an-search {
-  width: 100% !important;
-  max-width: none !important;
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.015
+            );
 
-  height: 100% !important;
-  min-height: 0 !important;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.45
+            );
 
-  margin: 0 !important;
-  padding: 0 !important;
+          font-size:
+            4.5px;
+        }
 
-  overflow: hidden !important;
 
-  background: transparent !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
+        /* ==================================================
+           RELATIONS
+        ================================================== */
 
+        .an-search__relations {
+          margin-top:
+            20px;
+        }
 
-/* ----------------------------------------------------------
-   REMOVE SECOND SURFACE
----------------------------------------------------------- */
 
-.an-search__surface {
-  width: 100% !important;
-  height: 100% !important;
+        .an-search__relations > div {
+          display: grid;
 
-  min-width: 0 !important;
-  min-height: 0 !important;
+          gap: 2px;
 
-  border: 0 !important;
-  border-radius: 0 !important;
+          margin-top:
+            8px;
+        }
 
-  background: transparent !important;
 
-  box-shadow: none !important;
+        .an-search__relations button {
+          min-height:
+            30px;
 
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
+          display: flex;
 
-  overflow: hidden !important;
-}
+          align-items: center;
 
+          justify-content:
+            space-between;
 
-.an-search__surface::before {
-  display: none !important;
-}
+          gap: 10px;
 
+          padding:
+            0
+            7px;
 
-/* ----------------------------------------------------------
-   INTERNAL STRUCTURE
----------------------------------------------------------- */
+          border: 0;
 
-.an-search__workspace {
-  width: 100% !important;
-  height: 100% !important;
+          border-radius:
+            8px;
 
-  min-width: 0 !important;
-  min-height: 0 !important;
+          background:
+            transparent;
 
-  overflow: hidden !important;
-}
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
 
+          font: inherit;
 
-.an-search__field {
-  width: 100% !important;
-  height: 100% !important;
+          font-size:
+            6px;
 
-  min-width: 0 !important;
-  min-height: 0 !important;
+          cursor:
+            pointer;
 
-  overflow: hidden !important;
-}
+          text-align:
+            left;
+        }
 
 
-.an-search__canvas {
-  width: 100% !important;
-  height: 100% !important;
+        .an-search__relations button:hover {
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
 
-  min-width: 0 !important;
-  min-height: 0 !important;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.85
+            );
+        }
 
-  overflow: hidden !important;
-}
 
+        .an-search__relations button small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.26
+            );
+        }
 
-/* ----------------------------------------------------------
-   NO EXTRA FRAME
----------------------------------------------------------- */
 
-.an-search__header,
-.an-search__search-row,
-.an-search__sidebar,
-.an-search__field,
-.an-search__canvas,
-.an-search__footer {
-  box-shadow: none !important;
-}
+        /* ==================================================
+           ENTER
+        ================================================== */
 
+        .an-search__enter {
+          width: 100%;
 
-/* ==========================================================
-   DESKTOP
-========================================================== */
+          min-height:
+            50px;
 
-@media (min-width: 769px) {
+          display: grid;
 
-  .an-search {
-    height: 100% !important;
-    min-height: 620px !important;
-  }
+          grid-template-columns:
+            1fr
+            auto;
 
+          align-items:
+            center;
 
-  .an-search__surface {
-    grid-template-rows:
-      64px
-      58px
-      minmax(0, 1fr)
-      38px !important;
-  }
+          gap: 3px;
 
+          margin-top:
+            20px;
 
-  .an-search__workspace {
-    grid-template-columns:
-      176px
-      minmax(0, 1fr) !important;
-  }
+          padding:
+            8px
+            10px;
 
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.08
+            );
 
-  .an-search__workspace.has-selection {
-    grid-template-columns:
-      176px
-      minmax(0, 1fr)
-      270px !important;
-  }
+          border-radius:
+            12px;
 
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.02
+            );
 
-  .an-search__canvas {
-    min-height: 0 !important;
-  }
+          color:
+            inherit;
 
+          text-decoration:
+            none;
+        }
 
-  /*
-   * The HOME container owns the visual glass.
-   * Search itself stays transparent.
-   */
 
-  .an-search__sidebar {
-    background:
-      rgba(
-        0,
-        0,
-        0,
-        0.025
-      ) !important;
-  }
+        .an-search__enter::after {
+          display:
+            none !important;
+        }
 
 
-  .an-search__detail {
-    background:
-      linear-gradient(
-        160deg,
-        rgba(12, 13, 15, 0.40),
-        rgba(0, 0, 0, 0.52)
-      ) !important;
+        .an-search__enter > span {
+          grid-column:
+            1;
 
-    -webkit-backdrop-filter:
-      blur(22px)
-      saturate(105%);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.3
+            );
 
-    backdrop-filter:
-      blur(22px)
-      saturate(105%);
-  }
+          font-size:
+            4.5px;
 
-}
+          letter-spacing:
+            0.13em;
+        }
 
 
-/* ==========================================================
-   TABLET / MEDIUM PC
-========================================================== */
+        .an-search__enter > strong {
+          grid-column:
+            1;
 
-@media
-  (min-width: 769px)
-  and
-  (max-width: 1180px) {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.76
+            );
 
-  .an-search__workspace {
-    grid-template-columns:
-      145px
-      minmax(0, 1fr) !important;
-  }
+          font-size:
+            8px;
 
+          font-weight:
+            430;
+        }
 
-  .an-search__workspace.has-selection {
-    grid-template-columns:
-      145px
-      minmax(0, 1fr)
-      220px !important;
-  }
 
-}
+        .an-search__enter > i {
+          grid-column:
+            2;
 
+          grid-row:
+            1 /
+            3;
 
-/* ==========================================================
-   MOBILE
-========================================================== */
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.42
+            );
 
-@media (max-width: 768px) {
+          font-size:
+            11px;
 
-  /*
-   * Do not inherit a desktop fixed canvas.
-   */
+          font-style:
+            normal;
+        }
 
-  .an-search {
-    width: 100% !important;
 
-    height: auto !important;
-    min-height: 0 !important;
+        /* ==================================================
+           MOBILE FILTERS
+        ================================================== */
 
-    overflow: visible !important;
-  }
+        .an-search__mobile-filters {
+          display:
+            none;
+        }
 
 
-  .an-search__surface {
-    display: grid !important;
+        /* ==================================================
+           FOOTER
+        ================================================== */
 
-    width: 100% !important;
-    height: auto !important;
+        .an-search__footer {
+          position:
+            relative;
 
-    min-height: 0 !important;
+          z-index:
+            20;
 
-    grid-template-rows:
-      52px
-      58px
-      auto !important;
+          min-width:
+            0;
 
-    overflow: visible !important;
-  }
+          display:
+            flex;
 
+          align-items:
+            center;
 
-  /* --------------------------------------------------------
-     HEADER
-  -------------------------------------------------------- */
+          justify-content:
+            center;
 
-  .an-search__header {
-    min-height: 52px;
+          gap: 7px;
 
-    padding:
-      0
-      18px !important;
-  }
+          padding:
+            0
+            14px;
 
+          overflow:
+            hidden;
 
-  .an-search__identity {
-    gap: 8px;
-  }
+          border-top:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.028
+            );
 
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.13
+            );
 
-  .an-search__identity span,
-  .an-search__identity small {
-    display: none !important;
-  }
+          font-size:
+            4px;
 
+          letter-spacing:
+            0.11em;
+        }
 
-  .an-search__identity strong {
-    font-size: 12px !important;
 
-    letter-spacing: 0.18em;
-  }
+        .an-search__footer i {
+          width: 10px;
+          height: 1px;
 
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.05
+            );
+        }
 
-  .an-search__status {
-    font-size: 6px !important;
-  }
 
+        /* ==================================================
+           MEDIUM DESKTOP
+        ================================================== */
 
-  .an-search__status small {
-    display: none !important;
-  }
+        @media
+          (min-width: 769px)
+          and
+          (max-width: 1180px) {
 
+          .an-search__workspace.no-selection {
+            grid-template-columns:
+              155px
+              minmax(
+                0,
+                1fr
+              );
+          }
 
-  /* --------------------------------------------------------
-     SEARCH
-  -------------------------------------------------------- */
 
-  .an-search__search-row {
-    min-height: 58px;
+          .an-search__workspace.has-selection {
+            grid-template-columns:
+              155px
+              minmax(
+                0,
+                1fr
+              )
+              220px;
+          }
 
-    padding:
-      8px
-      14px !important;
-  }
 
+          .an-search__sidebar {
+            padding-left:
+              9px;
 
-  .an-search__search {
-    width: 100% !important;
+            padding-right:
+              9px;
+          }
 
-    min-height: 42px !important;
 
-    border-radius: 14px !important;
-  }
+          .an-search__domain-filters button,
+          .an-search__filters button {
+            font-size:
+              5.5px;
+          }
 
 
-  .an-search__search input {
-    font-size: 8px !important;
-  }
+          .an-search-node {
+            width:
+              90px;
+          }
 
 
-  .an-search__reset {
-    display: none !important;
-  }
+          .an-search-node__copy strong {
+            font-size:
+              5.8px;
+          }
 
 
-  /* --------------------------------------------------------
-     WORKSPACE
-  -------------------------------------------------------- */
+          .an-search__detail {
+            padding:
+              16px
+              12px;
+          }
 
-  .an-search__workspace,
-  .an-search__workspace.has-selection,
-  .an-search__workspace.no-selection {
-    position: relative !important;
+        }
 
-    display: block !important;
 
-    width: 100% !important;
-    height: auto !important;
+        /* ==================================================
+           SHORT PC / WINDOWS
+        ================================================== */
 
-    min-height: 0 !important;
+        @media
+          (min-width: 769px)
+          and
+          (max-height: 760px) {
 
-    overflow: visible !important;
-  }
+          .an-search__surface {
+            grid-template-rows:
+              50px
+              46px
+              minmax(
+                0,
+                1fr
+              )
+              30px !important;
+          }
 
 
-  .an-search__sidebar {
-    display: none !important;
-  }
+          .an-search__field {
+            grid-template-rows:
+              42px
+              minmax(
+                0,
+                1fr
+              )
+              auto;
+          }
 
 
-  /* --------------------------------------------------------
-     FIELD
-  -------------------------------------------------------- */
+          .an-search__sidebar {
+            padding-top:
+              9px;
+          }
 
-  .an-search__field {
-    display: grid !important;
 
-    width: 100% !important;
-    height: auto !important;
+          .an-search__domain-filters button,
+          .an-search__filters button {
+            min-height:
+              27px;
+          }
 
-    min-height: 0 !important;
 
-    grid-template-rows:
-      74px
-      auto
-      auto !important;
+          .an-search__domain-info {
+            margin-top:
+              7px;
+          }
 
-    overflow: visible !important;
-  }
 
+          .an-search__section-label--layers {
+            margin-top:
+              9px;
 
-  .an-search__field-head {
-    min-height: 74px;
+            padding-top:
+              9px;
+          }
 
-    padding:
-      16px
-      18px !important;
-  }
 
+          .an-search__layer-info {
+            margin-top:
+              8px;
+          }
 
-  .an-search__field-head div {
-    gap: 7px;
-  }
+        }
 
 
-  .an-search__field-head span {
-    font-size: 5px !important;
+        /* ==================================================
+           MOBILE
+        ================================================== */
 
-    letter-spacing: 0.18em;
-  }
+        @media (
+          max-width: 768px
+        ) {
 
+          .an-search {
+            width:
+              100% !important;
 
-  .an-search__field-head strong {
-    font-size: 9px !important;
+            height:
+              auto !important;
 
-    line-height: 1.3;
-  }
+            min-height:
+              0 !important;
 
+            max-height:
+              none !important;
 
-  .an-search__field-head small {
-    display: none !important;
-  }
+            overflow:
+              visible !important;
+          }
 
 
-  /* ========================================================
-     MOBILE NODE FIELD
+          .an-search__surface {
+            display:
+              grid !important;
 
-     The key fix:
-     absolute coordinates become a clean 3-column system.
-  ======================================================== */
+            width:
+              100% !important;
 
-  .an-search__canvas {
-    position: relative !important;
+            height:
+              auto !important;
 
-    display: grid !important;
+            min-height:
+              0 !important;
 
-    grid-template-columns:
-      repeat(
-        3,
-        minmax(0, 1fr)
-      ) !important;
+            grid-template-rows:
+              52px
+              58px
+              auto !important;
 
-    grid-auto-rows:
-      76px !important;
+            overflow:
+              visible !important;
+          }
 
-    gap:
-      4px
-      4px !important;
 
-    width: 100% !important;
-    height: auto !important;
+          /* ----------------------------------------------
+             HEADER
+          ---------------------------------------------- */
 
-    min-height: 0 !important;
+          .an-search__header {
+            min-height:
+              52px;
 
-    padding:
-      22px
-      12px
-      26px !important;
+            padding:
+              0
+              18px !important;
+          }
 
-    overflow: hidden !important;
 
-    align-items: center;
-  }
+          .an-search__identity > span,
+          .an-search__identity > small {
+            display:
+              none !important;
+          }
 
 
-  /*
-   * Background atmosphere remains.
-   */
+          .an-search__identity > strong {
+            font-size:
+              12px !important;
 
-  .an-search__nebula {
-    position: absolute !important;
+            letter-spacing:
+              0.18em !important;
+          }
 
-    inset: 0 !important;
 
-    z-index: 0;
-  }
+          .an-search__status small {
+            display:
+              none !important;
+          }
 
 
-  /*
-   * SVG stays behind the systems.
-   *
-   * Desktop branch geometry does not correspond to
-   * grid positions, therefore hide it on mobile.
-   * Connected systems are still highlighted.
-   */
+          /* ----------------------------------------------
+             SEARCH
+          ---------------------------------------------- */
 
-  .an-search__connections {
-    display: none !important;
-  }
+          .an-search__search-row {
+            min-height:
+              58px;
 
+            padding:
+              7px
+              14px
+              9px !important;
+          }
 
-  /* --------------------------------------------------------
-     NODE
-  -------------------------------------------------------- */
 
-  .an-search-node {
-    position: relative !important;
+          .an-search__search {
+            width:
+              100% !important;
 
-    left: auto !important;
-    top: auto !important;
+            min-height:
+              42px !important;
+          }
 
-    z-index: 5;
 
-    width: 100% !important;
-    height: 58px !important;
+          .an-search__reset {
+            display:
+              none !important;
+          }
 
-    min-width: 0 !important;
-    min-height: 58px !important;
 
-    display: flex !important;
+          /* ----------------------------------------------
+             WORKSPACE
+          ---------------------------------------------- */
 
-    align-items: center !important;
-    justify-content: flex-start !important;
+          .an-search__workspace,
+          .an-search__workspace.no-selection,
+          .an-search__workspace.has-selection {
+            position:
+              relative !important;
 
-    gap: 7px !important;
+            display:
+              block !important;
 
-    padding:
-      7px
-      5px !important;
+            width:
+              100% !important;
 
-    transform: none !important;
+            height:
+              auto !important;
 
-    border: 0 !important;
+            min-height:
+              0 !important;
 
-    background: transparent !important;
+            overflow:
+              visible !important;
+          }
 
-    overflow: hidden;
-  }
 
+          .an-search__sidebar {
+            display:
+              none !important;
+          }
 
-  /*
-   * Disable the old attribute-based edge corrections.
-   */
 
-  .an-search-node[style*="14%"],
-  .an-search-node[style*="13%"],
-  .an-search-node[style*="15%"],
-  .an-search-node[style*="84%"],
-  .an-search-node[style*="85%"] {
-    left: auto !important;
-  }
+          /* ----------------------------------------------
+             FIELD
+          ---------------------------------------------- */
 
+          .an-search__field {
+            position:
+              relative !important;
 
-  .an-search-node:hover {
-    transform: none !important;
-  }
+            display:
+              grid !important;
 
+            width:
+              100% !important;
 
-  .an-search-node__star {
-    flex:
-      0
-      0
-      15px !important;
+            height:
+              auto !important;
 
-    width: 15px !important;
-    height: 15px !important;
-  }
+            min-height:
+              0 !important;
 
+            grid-template-rows:
+              64px
+              auto
+              auto !important;
 
-  .an-search-node__star::before {
-    width: 13px !important;
-  }
+            overflow:
+              visible !important;
+          }
 
 
-  .an-search-node__star::after {
-    height: 13px !important;
-  }
+          .an-search__field-head {
+            min-height:
+              64px;
 
+            padding:
+              13px
+              18px !important;
+          }
 
-  .an-search-node__star i {
-    width: 4px !important;
-    height: 4px !important;
-  }
 
+          .an-search__field-head > div {
+            gap:
+              5px;
+          }
 
-  .an-search-node__copy {
-    flex: 1 1 auto;
 
-    min-width: 0 !important;
+          .an-search__field-head span {
+            font-size:
+              5px !important;
+          }
 
-    gap: 3px !important;
-  }
 
+          .an-search__field-head strong {
+            max-width:
+              300px;
 
-  .an-search-node__copy strong {
-    display: block;
+            font-size:
+              8px !important;
 
-    width: 100%;
+            line-height:
+              1.35;
+          }
 
-    overflow: hidden;
 
-    color:
-      rgba(
-        255,
-        255,
-        255,
-        0.67
-      );
+          .an-search__field-head > small {
+            display:
+              none !important;
+          }
 
-    font-size: 6.2px !important;
 
-    font-weight: 440;
+          /* =================================================
+             DOMAIN BACKGROUND — MOBILE
 
-    line-height: 1.2;
+             Keep meaning visible but extremely subtle.
+          ================================================= */
 
-    text-overflow: ellipsis;
+          .an-search-domain-field {
+            z-index:
+              1;
 
-    white-space: nowrap;
-  }
+            opacity:
+              0.3;
 
+            border-color:
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              );
+          }
 
-  .an-search-node__copy small {
-    display: block;
 
-    color:
-      rgba(
-        255,
-        255,
-        255,
-        0.18
-      );
+          .an-search-domain-field > strong {
+            display:
+              none;
+          }
 
-    font-size: 3.4px !important;
 
-    line-height: 1.2;
+          .an-search-domain-field > span {
+            font-size:
+              3.5px;
 
-    letter-spacing: 0.08em;
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.07
+              );
+          }
 
-    white-space: nowrap;
-  }
 
+          .an-search-domain-field--science {
+            left:
+              3%;
 
-  /* --------------------------------------------------------
-     SELECTED
-  -------------------------------------------------------- */
+            top:
+              1%;
 
-  .an-search-node.is-selected {
-    z-index: 10;
-  }
+            width:
+              94%;
 
+            height:
+              38%;
+          }
 
-  .an-search-node.is-selected
-  .an-search-node__copy strong {
-    color:
-      rgba(
-        255,
-        255,
-        255,
-        0.98
-      ) !important;
-  }
 
+          .an-search-domain-field--science > span {
+            left:
+              50%;
 
-  .an-search-node.is-selected
-  .an-search-node__star i {
-    width: 6px !important;
-    height: 6px !important;
-  }
+            top:
+              6%;
 
+            transform:
+              translateX(
+                -50%
+              );
+          }
 
-  /* --------------------------------------------------------
-     CONNECTED
-  -------------------------------------------------------- */
 
-  .an-search-node.is-connected {
-    opacity: 1 !important;
-  }
+          .an-search-domain-field--space {
+            left:
+              2%;
 
+            top:
+              29%;
 
-  .an-search-node.is-connected
-  .an-search-node__copy strong {
-    color:
-      rgba(
-        255,
-        255,
-        255,
-        0.82
-      ) !important;
-  }
+            width:
+              56%;
 
+            height:
+              68%;
+          }
 
-  /*
-   * Do not make all unrelated systems almost disappear.
-   * This was reducing readability heavily on mobile.
-   */
 
-  .an-search-node.is-background {
-    opacity: 0.34 !important;
-  }
+          .an-search-domain-field--space > span {
+            left:
+              8%;
 
+            bottom:
+              4%;
+          }
 
-  .an-search-node.is-hidden {
-    display: none !important;
-  }
 
+          .an-search-domain-field--governance {
+            right:
+              2%;
 
-  /* ========================================================
-     FILTERS
-  ======================================================== */
+            top:
+              29%;
 
-  .an-search__mobile-filters {
-    position: relative !important;
+            width:
+              56%;
 
-    z-index: 20;
+            height:
+              68%;
+          }
 
-    display: flex !important;
 
-    width: 100%;
+          .an-search-domain-field--governance > span {
+            right:
+              8%;
 
-    gap: 6px;
+            bottom:
+              4%;
+          }
 
-    padding:
-      12px
-      12px
-      14px !important;
 
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
+          /* =================================================
+             STAR FIELD
+             Preserve current clean 2 × 9 system.
+          ================================================= */
 
-    border-top:
-      1px solid
-      rgba(
-        255,
-        255,
-        255,
-        0.035
-      );
+          .an-search__canvas {
+            position:
+              relative !important;
 
-    background:
-      rgba(
-        0,
-        0,
-        0,
-        0.10
-      );
+            display:
+              grid !important;
 
-    scrollbar-width: none;
-  }
+            grid-template-columns:
+              repeat(
+                2,
+                minmax(
+                  0,
+                  1fr
+                )
+              ) !important;
 
+            grid-template-rows:
+              none !important;
 
-  .an-search__mobile-filters::-webkit-scrollbar {
-    display: none;
-  }
+            grid-auto-flow:
+              row !important;
 
+            grid-auto-rows:
+              74px !important;
 
-  .an-search__mobile-filters button {
-    flex:
-      0
-      0
-      auto !important;
+            width:
+              100% !important;
 
-    min-height: 31px !important;
+            height:
+              auto !important;
 
-    padding:
-      0
-      12px !important;
+            min-height:
+              666px !important;
 
-    font-size: 4.5px !important;
-  }
+            gap:
+              0
+              6px !important;
 
+            margin:
+              0 !important;
 
-  /* ========================================================
-     DETAIL
-  ======================================================== */
+            padding:
+              10px
+              18px
+              18px !important;
 
-  .an-search__detail {
-    position: fixed !important;
+            overflow:
+              hidden !important;
 
-    left: 12px !important;
-    right: 12px !important;
-    bottom:
-      calc(
-        14px +
-        env(
-          safe-area-inset-bottom
-        )
-      ) !important;
+            align-content:
+              start !important;
 
-    z-index: 1000 !important;
+            align-items:
+              stretch !important;
+          }
 
-    width: auto !important;
 
-    max-height: 68svh !important;
+          .an-search__connections {
+            display:
+              none !important;
+          }
 
-    padding:
-      18px
-      16px !important;
 
-    overflow-y: auto !important;
+          /* =================================================
+             MOBILE NODE
+          ================================================= */
 
-    border:
-      1px solid
-      rgba(
-        255,
-        255,
-        255,
-        0.085
-      ) !important;
+          .an-search-node,
+          .an-search__workspace.no-selection
+          .an-search-node,
+          .an-search__workspace.has-selection
+          .an-search-node {
+            position:
+              relative !important;
 
-    border-radius: 18px !important;
+            left:
+              auto !important;
 
-    background:
-      linear-gradient(
-        145deg,
-        rgba(13, 14, 16, 0.78),
-        rgba(0, 0, 0, 0.88)
-      ) !important;
+            right:
+              auto !important;
 
-    -webkit-backdrop-filter:
-      blur(26px)
-      saturate(110%);
+            top:
+              auto !important;
 
-    backdrop-filter:
-      blur(26px)
-      saturate(110%);
+            bottom:
+              auto !important;
 
-    box-shadow:
-      0
-      24px
-      80px
-      rgba(
-        0,
-        0,
-        0,
-        0.45
-      ) !important;
-  }
+            width:
+              100% !important;
 
+            height:
+              74px !important;
 
-  .an-search__detail-head span {
-    color:
-      rgba(
-        255,
-        255,
-        255,
-        0.92
-      ) !important;
+            min-height:
+              74px !important;
 
-    font-size: 5.8px !important;
-  }
+            max-height:
+              74px !important;
 
+            margin:
+              0 !important;
 
-  .an-search__detail h3 {
-    font-size: 21px !important;
-  }
+            padding:
+              8px
+              7px !important;
 
+            transform:
+              none !important;
 
-  .an-search__detail p {
-    font-size: 7.4px !important;
+            display:
+              flex !important;
 
-    line-height: 1.65;
-  }
+            align-items:
+              center !important;
 
+            justify-content:
+              flex-start !important;
 
-  /* --------------------------------------------------------
-     EMPTY SEARCH
-  -------------------------------------------------------- */
+            gap:
+              8px !important;
 
-  .an-search__empty {
-    grid-column:
-      1 / -1;
+            overflow:
+              hidden !important;
 
-    position: relative !important;
+            border:
+              0 !important;
 
-    left: auto !important;
-    top: auto !important;
+            background:
+              transparent !important;
+          }
 
-    min-height: 200px;
 
-    justify-content: center;
+          .an-search-node:hover {
+            transform:
+              none !important;
+          }
 
-    transform: none !important;
-  }
 
+          .an-search-node__star {
+            flex:
+              0
+              0
+              17px !important;
 
-  /* --------------------------------------------------------
-     FOOTER
-  -------------------------------------------------------- */
+            width:
+              17px !important;
 
-  .an-search__footer {
-    display: none !important;
-  }
+            height:
+              17px !important;
+          }
 
-}
 
+          .an-search-node__copy {
+            flex:
+              1
+              1
+              auto;
 
-/* ==========================================================
-   VERY SMALL MOBILE
-========================================================== */
+            min-width:
+              0 !important;
 
-@media (max-width: 430px) {
+            max-width:
+              calc(
+                100% -
+                25px
+              ) !important;
+          }
 
-  .an-search__canvas {
-    grid-template-columns:
-      repeat(
-        2,
-        minmax(0, 1fr)
-      ) !important;
 
-    grid-auto-rows:
-      68px !important;
+          .an-search-node__copy strong {
+            display:
+              block !important;
 
-    padding:
-      18px
-      15px
-      24px !important;
-  }
+            width:
+              100% !important;
 
+            overflow:
+              hidden !important;
 
-  .an-search-node {
-    height: 54px !important;
+            font-size:
+              6.5px !important;
 
-    min-height: 54px !important;
+            line-height:
+              1.2 !important;
 
-    padding:
-      6px
-      4px !important;
-  }
+            text-overflow:
+              ellipsis !important;
 
+            white-space:
+              nowrap !important;
+          }
 
-  .an-search-node__copy strong {
-    font-size: 6px !important;
-  }
 
+          .an-search-node__copy small {
+            display:
+              block !important;
 
-  .an-search-node__copy small {
-    font-size: 3.2px !important;
-  }
+            margin-top:
+              3px !important;
 
-}
+            font-size:
+              3.4px !important;
 
-/* ==========================================================
-   ARCHENOVA SEARCH
-   FULL-FIELD EXPANSION
-   Display-only refinement
-========================================================== */
+            white-space:
+              nowrap !important;
+          }
 
-@media (max-width: 768px) {
 
-  /* ------------------------------------------
-     Use more of the available HOME card height
-  ------------------------------------------ */
+          .an-search-node.is-background {
+            opacity:
+              0.34 !important;
+          }
 
-  .an-search__field {
-    grid-template-rows:
-      56px
-      minmax(0, 1fr)
-      auto !important;
 
-    height: 100% !important;
-    min-height: 0 !important;
-  }
+          .an-search-node.is-connected {
+            opacity:
+              0.78 !important;
+          }
 
 
-  .an-search__field-head {
-    min-height: 56px !important;
+          .an-search-node.is-selected {
+            opacity:
+              1 !important;
+          }
 
-    padding:
-      10px
-      18px !important;
-  }
 
+          .an-search-node.is-hidden {
+            display:
+              none !important;
+          }
 
-  /* ------------------------------------------
-     Expand the node field
-  ------------------------------------------ */
 
-  .an-search__canvas {
-    display: grid !important;
+          /* =================================================
+             MOBILE FILTER DOCK
 
-    width: 100% !important;
+             DOMAIN first → divider → LAYER
+          ================================================= */
 
-    height: 100% !important;
-    min-height: 0 !important;
+          .an-search__mobile-filters {
+            position:
+              relative !important;
 
-    grid-template-columns:
-      repeat(
-        3,
-        minmax(0, 1fr)
-      ) !important;
+            z-index:
+              20;
 
-    /*
-     * Stretch all rows across the usable field
-     * instead of keeping fixed 76px rows.
-     */
-    grid-template-rows:
-      repeat(
-        6,
-        minmax(
-          62px,
-          1fr
-        )
-      ) !important;
+            display:
+              flex !important;
 
-    grid-auto-rows:
-      auto !important;
+            align-items:
+              center;
 
-    align-content:
-      stretch !important;
+            width:
+              100% !important;
 
-    align-items:
-      center !important;
+            min-height:
+              52px !important;
 
-    justify-items:
-      stretch !important;
+            gap:
+              6px;
 
-    gap:
-      0
-      2px !important;
+            margin:
+              0 !important;
 
-    padding:
-      10px
-      10px
-      12px !important;
+            padding:
+              10px
+              14px
+              12px !important;
 
-    overflow:
-      hidden !important;
-  }
+            overflow-x:
+              auto !important;
 
+            overflow-y:
+              hidden !important;
 
-  /* ------------------------------------------
-     Make each node occupy its grid cell better
-  ------------------------------------------ */
+            border-top:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.035
+              );
 
-  .an-search-node {
-    width:
-      100% !important;
+            background:
+              rgba(
+                0,
+                0,
+                0,
+                0.08
+              );
 
-    height:
-      100% !important;
+            scrollbar-width:
+              none;
+          }
 
-    min-height:
-      0 !important;
 
-    display:
-      flex !important;
+          .an-search__mobile-filters::-webkit-scrollbar {
+            display:
+              none;
+          }
 
-    align-items:
-      center !important;
 
-    justify-content:
-      flex-start !important;
+          .an-search__mobile-filters button {
+            flex:
+              0
+              0
+              auto !important;
 
-    padding:
-      8px
-      6px !important;
+            min-height:
+              30px !important;
 
-    overflow:
-      visible !important;
-  }
+            padding:
+              0
+              11px !important;
 
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.045
+              );
 
-  .an-search-node__copy {
-    min-width:
-      0 !important;
+            border-radius:
+              999px;
 
-    max-width:
-      calc(
-        100% -
-        22px
-      ) !important;
-  }
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.01
+              );
 
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.25
+              );
 
-  .an-search-node__copy strong {
-    font-size:
-      6.4px !important;
-  }
+            font:
+              inherit;
 
+            font-size:
+              4.3px;
 
-  .an-search-node__copy small {
-    font-size:
-      3.4px !important;
-  }
+            letter-spacing:
+              0.07em;
 
+            cursor:
+              pointer;
+          }
 
-  /* ------------------------------------------
-     Reduce dead space above / below map
-  ------------------------------------------ */
 
-  .an-search__mobile-filters {
-    padding:
-      8px
-      12px
-      10px !important;
-  }
+          .an-search__mobile-filters button.is-active {
+            border-color:
+              rgba(
+                255,
+                255,
+                255,
+                0.12
+              );
 
-}
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.035
+              );
 
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.8
+              );
+          }
 
-/* ==========================================================
-   SMALL MOBILE
-========================================================== */
 
-@media (max-width: 430px) {
+          .an-search__mobile-domain.is-active {
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.055
+              ) !important;
 
-  .an-search__canvas {
-    grid-template-columns:
-      repeat(
-        2,
-        minmax(0, 1fr)
-      ) !important;
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.92
+              ) !important;
+          }
 
-    grid-template-rows:
-      repeat(
-        9,
-        minmax(
-          54px,
-          1fr
-        )
-      ) !important;
 
-    grid-auto-rows:
-      auto !important;
+          .an-search__mobile-filter-divider {
+            flex:
+              0
+              0
+              1px;
 
-    gap:
-      0 !important;
+            width:
+              1px;
 
-    padding:
-      8px
-      12px
-      10px !important;
-  }
+            height:
+              18px;
 
+            margin:
+              0
+              3px;
 
-  .an-search-node {
-    padding:
-      6px
-      5px !important;
-  }
+            background:
+              rgba(
+                255,
+                255,
+                255,
+                0.08
+              );
+          }
 
 
-  .an-search-node__copy strong {
-    font-size:
-      6px !important;
-  }
+          /* =================================================
+             MOBILE DETAIL
+          ================================================= */
 
-}
+          .an-search__detail {
+            position:
+              fixed !important;
 
+            left:
+              12px !important;
 
-/* ==========================================================
-   DESKTOP
-   Expand field into existing HOME card
-========================================================== */
+            right:
+              12px !important;
 
-@media (min-width: 769px) {
+            bottom:
+              calc(
+                104px +
+                env(
+                  safe-area-inset-bottom
+                )
+              ) !important;
 
-  .an-search {
-    width:
-      100% !important;
+            top:
+              auto !important;
 
-    height:
-      100% !important;
+            z-index:
+              1000 !important;
 
-    min-height:
-      0 !important;
-  }
+            width:
+              auto !important;
 
+            height:
+              auto !important;
 
-  .an-search__surface {
-    width:
-      100% !important;
+            max-height:
+              min(
+                68svh,
+                650px
+              ) !important;
 
-    height:
-      100% !important;
+            margin:
+              0 !important;
 
-    min-height:
-      0 !important;
-  }
+            padding:
+              18px
+              16px !important;
 
+            overflow-y:
+              auto !important;
 
-  .an-search__workspace {
-    width:
-      100% !important;
+            border:
+              1px solid
+              rgba(
+                255,
+                255,
+                255,
+                0.085
+              ) !important;
 
-    height:
-      100% !important;
+            border-radius:
+              18px !important;
 
-    min-height:
-      0 !important;
-  }
+            background:
+              linear-gradient(
+                145deg,
+                rgba(
+                  13,
+                  14,
+                  16,
+                  0.84
+                ),
+                rgba(
+                  0,
+                  0,
+                  0,
+                  0.92
+                )
+              ) !important;
 
+            -webkit-backdrop-filter:
+              blur(
+                28px
+              )
+              saturate(
+                110%
+              ) !important;
 
-  .an-search__field {
-    width:
-      100% !important;
+            backdrop-filter:
+              blur(
+                28px
+              )
+              saturate(
+                110%
+              ) !important;
 
-    height:
-      100% !important;
+            box-shadow:
+              0
+              26px
+              80px
+              rgba(
+                0,
+                0,
+                0,
+                0.48
+              ) !important;
+          }
 
-    min-height:
-      0 !important;
 
-    grid-template-rows:
-      48px
-      minmax(
-        0,
-        1fr
-      )
-      auto !important;
-  }
+          .an-search__detail-domain {
+            margin-top:
+              14px;
 
+            padding:
+              11px
+              0
+              12px;
+          }
 
-  .an-search__field-head {
-    min-height:
-      48px !important;
 
-    padding:
-      7px
-      16px !important;
-  }
+          .an-search__detail-domain > strong {
+            font-size:
+              8px;
+          }
 
 
-  .an-search__canvas {
-    width:
-      100% !important;
+          .an-search__detail-domain > p {
+            font-size:
+              6.2px;
+          }
 
-    height:
-      100% !important;
 
-    min-height:
-      0 !important;
+          .an-search__detail h3 {
+            font-size:
+              21px !important;
+          }
 
-    inset:
-      auto !important;
 
-    padding:
-      0 !important;
-  }
+          .an-search__detail-description {
+            font-size:
+              7.4px !important;
+          }
 
-}
 
-/* ==========================================================
-   ARCHENOVA SEARCH
-   DYNAMIC FIELD EXPANSION
-   No selection = use the full available field
-========================================================== */
+          .an-search__footer {
+            display:
+              none !important;
+          }
 
+        }
 
-/* ==========================================================
-   DESKTOP
-========================================================== */
 
-@media (min-width: 769px) {
+        /* ==================================================
+           VERY SMALL MOBILE
+        ================================================== */
 
-  /*
-   * No selected system:
-   *
-   * Sidebar + full-width civilization field.
-   *
-   * IMPORTANT:
-   * No empty third column is reserved.
-   */
-  .an-search__workspace.no-selection {
-    display: grid !important;
+        @media (
+          max-width: 390px
+        ) {
 
-    grid-template-columns:
-      176px
-      minmax(0, 1fr) !important;
+          .an-search__canvas {
+            grid-auto-rows:
+              68px !important;
 
-    width: 100% !important;
-    height: 100% !important;
+            min-height:
+              612px !important;
 
-    min-width: 0 !important;
-    min-height: 0 !important;
-  }
+            padding-left:
+              13px !important;
 
+            padding-right:
+              13px !important;
+          }
 
-  /*
-   * Selected system:
-   *
-   * Sidebar + field + detail.
-   */
-  .an-search__workspace.has-selection {
-    display: grid !important;
 
-    grid-template-columns:
-      176px
-      minmax(0, 1fr)
-      270px !important;
+          .an-search-node {
+            height:
+              68px !important;
 
-    width: 100% !important;
-    height: 100% !important;
+            min-height:
+              68px !important;
 
-    min-width: 0 !important;
-    min-height: 0 !important;
-  }
+            max-height:
+              68px !important;
+          }
 
 
-  /*
-   * Make sure the field actually expands
-   * into all released space.
-   */
-  .an-search__workspace.no-selection
-  .an-search__field {
-    width: 100% !important;
+          .an-search-node__copy strong {
+            font-size:
+              6px !important;
+          }
 
-    max-width: none !important;
+        }
 
-    min-width: 0 !important;
 
-    grid-column:
-      2 !important;
-  }
+        /* ==================================================
+           REDUCED MOTION
+        ================================================== */
 
+        @media (
+          prefers-reduced-motion:
+          reduce
+        ) {
 
-  /*
-   * Selected state remains normal.
-   */
-  .an-search__workspace.has-selection
-  .an-search__field {
-    width: 100% !important;
+          .an-search *,
+          .an-search *::before,
+          .an-search *::after {
+            animation:
+              none !important;
 
-    max-width: none !important;
+            transition:
+              none !important;
 
-    min-width: 0 !important;
+            scroll-behavior:
+              auto !important;
+          }
 
-    grid-column:
-      2 !important;
-  }
+        }
 
+      `}</style>
 
-  .an-search__workspace.has-selection
-  .an-search__detail {
-    grid-column:
-      3 !important;
-  }
-
-
-  /*
-   * Canvas follows the enlarged field.
-   */
-  .an-search__workspace.no-selection
-  .an-search__canvas {
-    width: 100% !important;
-
-    max-width: none !important;
-
-    min-width: 0 !important;
-  }
-
-}
-
-
-/* ==========================================================
-   MEDIUM DESKTOP
-========================================================== */
-
-@media
-  (min-width: 769px)
-  and
-  (max-width: 1180px) {
-
-  .an-search__workspace.no-selection {
-    grid-template-columns:
-      145px
-      minmax(0, 1fr) !important;
-  }
-
-
-  .an-search__workspace.has-selection {
-    grid-template-columns:
-      145px
-      minmax(0, 1fr)
-      220px !important;
-  }
-
-}
-
-
-/* ==========================================================
-   MOBILE
-========================================================== */
-
-@media (max-width: 768px) {
-
-  /*
-   * On mobile the detail is an overlay / sheet.
-   *
-   * Therefore it must never reserve layout space.
-   */
-  .an-search__workspace.no-selection,
-  .an-search__workspace.has-selection {
-    display: block !important;
-
-    width: 100% !important;
-    height: auto !important;
-
-    min-width: 0 !important;
-    min-height: 0 !important;
-  }
-
-
-  /*
-   * Field always occupies the complete mobile width.
-   */
-  .an-search__workspace.no-selection
-  .an-search__field,
-  .an-search__workspace.has-selection
-  .an-search__field {
-    width: 100% !important;
-
-    max-width: none !important;
-
-    min-width: 0 !important;
-
-    margin: 0 !important;
-  }
-
-
-  /*
-   * Selected System is removed from document layout
-   * and displayed over the star field.
-   */
-  .an-search__detail {
-    position: fixed !important;
-  }
-
-}
-
-/* ==========================================================
-   ARCHENOVA SEARCH
-   NO-SELECTION FIELD EXPANSION
-========================================================== */
-
-
-/* ----------------------------------------------------------
-   DESKTOP
-   When Selected System is absent, expand the constellation.
----------------------------------------------------------- */
-
-@media (min-width: 769px) {
-
-  /*
-   * Default selected-state geometry.
-   */
-  .an-search__workspace.has-selection
-  .an-search-node {
-    left:
-      var(
-        --an-search-x
-      ) !important;
-
-    top:
-      var(
-        --an-search-y
-      ) !important;
-  }
-
-
-  /*
-   * No selection:
-   * use much more of the available star field.
-   */
-  .an-search__workspace.no-selection
-  .an-search-node {
-    left:
-      var(
-        --an-search-open-x
-      ) !important;
-
-    top:
-      var(
-        --an-search-open-y
-      ) !important;
-  }
-
-
-  /*
-   * Give the no-selection field slightly more breathing room.
-   */
-  .an-search__workspace.no-selection
-  .an-search__canvas {
-    padding:
-      0
-      12px
-      0
-      8px !important;
-  }
-
-}
-
-
-/* ==========================================================
-   LARGE DESKTOP
-   Expand a little more on wide HOME cards.
-========================================================== */
-
-@media (min-width: 1280px) {
-
-  .an-search__workspace.no-selection
-  .an-search-node {
-    /*
-     * Keep labels from touching the physical card edges
-     * while still using the entire available map.
-     */
-    max-width:
-      116px;
-  }
-
-}
-
-
-/* ==========================================================
-   MOBILE
-   Grid mode already uses full width.
-   Remove unnecessary internal dead space instead.
-========================================================== */
-
-@media (max-width: 768px) {
-
-  /*
-   * Mobile nodes are grid-positioned,
-   * so inline x/y variables must not take control.
-   */
-  .an-search__workspace.no-selection
-  .an-search-node,
-  .an-search__workspace.has-selection
-  .an-search-node {
-    left:
-      auto !important;
-
-    top:
-      auto !important;
-  }
-
-
-  /*
-   * Fill more of the available vertical field.
-   */
-  .an-search__workspace.no-selection
-  .an-search__canvas {
-    padding:
-      4px
-      10px
-      6px !important;
-
-    align-content:
-      stretch !important;
-  }
-
-
-  /*
-   * When the detail is closed,
-   * use the full field without reserving visual breathing room.
-   */
-  .an-search__workspace.no-selection
-  .an-search__field {
-    padding-bottom:
-      0 !important;
-  }
-
-}
-
-/* ==========================================================
-   ARCHENOVA SEARCH
-   FINAL DISPLAY INTEGRATION
-   Desktop + Mobile
-========================================================== */
-
-
-/* ==========================================================
-   1. ROOT
-   HOME already owns the outer glass card.
-========================================================== */
-
-.archenova-twin-home .an-search {
-  position: relative !important;
-
-  width: 100% !important;
-  max-width: none !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  border: 0 !important;
-  outline: 0 !important;
-  border-radius: 0 !important;
-
-  background: transparent !important;
-
-  box-shadow: none !important;
-
-  overflow: hidden !important;
-
-  isolation: isolate;
-}
-
-
-/* ==========================================================
-   2. REMOVE THE SECOND CARD
-========================================================== */
-
-.archenova-twin-home .an-search__surface {
-  position: relative !important;
-
-  inset: auto !important;
-
-  width: 100% !important;
-  max-width: none !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  border: 0 !important;
-  outline: 0 !important;
-  border-radius: 0 !important;
-
-  background: transparent !important;
-
-  box-shadow: none !important;
-
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-
-  overflow: hidden !important;
-}
-
-
-.archenova-twin-home .an-search__surface::before,
-.archenova-twin-home .an-search__surface::after {
-  display: none !important;
-}
-
-
-/* ==========================================================
-   3. INTERNAL ELEMENTS MUST NOT CREATE OUTER FRAMES
-========================================================== */
-
-.archenova-twin-home .an-search__header,
-.archenova-twin-home .an-search__search-row,
-.archenova-twin-home .an-search__workspace,
-.archenova-twin-home .an-search__field,
-.archenova-twin-home .an-search__canvas {
-  outline: 0 !important;
-  box-shadow: none !important;
-}
-
-
-/* ==========================================================
-   DESKTOP
-========================================================== */
-
-@media (min-width: 769px) {
-
-  /* --------------------------------------------------------
-     Search fills the HOME card instead of creating
-     another viewport-sized card.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home .an-search {
-    height: clamp(
-      640px,
-      72svh,
-      820px
-    ) !important;
-
-    min-height: 640px !important;
-    max-height: 820px !important;
-  }
-
-
-  .archenova-twin-home .an-search__surface {
-    height: 100% !important;
-
-    min-height: 0 !important;
-
-    display: grid !important;
-
-    grid-template-rows:
-      58px
-      54px
-      minmax(0, 1fr)
-      34px !important;
-  }
-
-
-  /* --------------------------------------------------------
-     UNSELECTED
-
-     Sidebar + full star field.
-     There is NO detail-panel column.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home
-  .an-search__workspace.no-selection {
-    display: grid !important;
-
-    grid-template-columns:
-      172px
-      minmax(0, 1fr) !important;
-
-    width: 100% !important;
-    height: 100% !important;
-
-    min-width: 0 !important;
-    min-height: 0 !important;
-
-    overflow: hidden !important;
-  }
-
-
-  /* --------------------------------------------------------
-     SELECTED
-
-     Only now is the third column created.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home
-  .an-search__workspace.has-selection {
-    display: grid !important;
-
-    grid-template-columns:
-      172px
-      minmax(0, 1fr)
-      278px !important;
-
-    width: 100% !important;
-    height: 100% !important;
-
-    min-width: 0 !important;
-    min-height: 0 !important;
-
-    overflow: hidden !important;
-  }
-
-
-  .archenova-twin-home .an-search__sidebar {
-    min-width: 0 !important;
-    min-height: 0 !important;
-
-    border-right:
-      1px solid
-      rgba(255,255,255,0.035) !important;
-
-    background:
-      rgba(0,0,0,0.025) !important;
-  }
-
-
-  /* --------------------------------------------------------
-     FIELD
-  -------------------------------------------------------- */
-
-  .archenova-twin-home .an-search__field {
-    position: relative !important;
-
-    width: 100% !important;
-    height: 100% !important;
-
-    min-width: 0 !important;
-    min-height: 0 !important;
-
-    display: grid !important;
-
-    grid-template-rows:
-      48px
-      minmax(0, 1fr)
-      auto !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    overflow: hidden !important;
-  }
-
-
-  .archenova-twin-home .an-search__field-head {
-    width: 100% !important;
-
-    min-height: 48px !important;
-
-    margin: 0 !important;
-
-    padding:
-      7px
-      17px !important;
-  }
-
-
-  .archenova-twin-home .an-search__canvas {
-    position: relative !important;
-
-    width: 100% !important;
-    height: 100% !important;
-
-    min-width: 0 !important;
-    min-height: 0 !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    overflow: hidden !important;
-  }
-
-
-  /* --------------------------------------------------------
-     No selection = use released width.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home
-  .an-search__workspace.no-selection
-  .an-search__field {
-    grid-column: 2 !important;
-
-    width: 100% !important;
-    max-width: none !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__workspace.no-selection
-  .an-search__canvas {
-    width: 100% !important;
-    max-width: none !important;
-  }
-
-
-  /* --------------------------------------------------------
-     Selected state.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home
-  .an-search__workspace.has-selection
-  .an-search__field {
-    grid-column: 2 !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__workspace.has-selection
-  .an-search__detail {
-    grid-column: 3 !important;
-
-    position: relative !important;
-
-    width: 100% !important;
-    height: 100% !important;
-
-    min-width: 0 !important;
-    min-height: 0 !important;
-
-    overflow-y: auto !important;
-
-    border-left:
-      1px solid
-      rgba(255,255,255,0.055) !important;
-
-    background:
-      linear-gradient(
-        160deg,
-        rgba(12,13,15,0.46),
-        rgba(0,0,0,0.62)
-      ) !important;
-
-    -webkit-backdrop-filter:
-      blur(24px)
-      saturate(108%) !important;
-
-    backdrop-filter:
-      blur(24px)
-      saturate(108%) !important;
-  }
-
-}
-
-
-/* ==========================================================
-   MEDIUM DESKTOP
-========================================================== */
-
-@media
-  (min-width: 769px)
-  and
-  (max-width: 1180px) {
-
-  .archenova-twin-home
-  .an-search__workspace.no-selection {
-    grid-template-columns:
-      142px
-      minmax(0,1fr) !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__workspace.has-selection {
-    grid-template-columns:
-      142px
-      minmax(0,1fr)
-      220px !important;
-  }
-
-}
-
-
-/* ==========================================================
-   SHORT WINDOWS / EDGE
-========================================================== */
-
-@media
-  (min-width: 769px)
-  and
-  (max-height: 760px) {
-
-  .archenova-twin-home .an-search {
-    height:
-      calc(100svh - 96px) !important;
-
-    min-height: 560px !important;
-    max-height: none !important;
-  }
-
-
-  .archenova-twin-home .an-search__surface {
-    grid-template-rows:
-      50px
-      46px
-      minmax(0,1fr)
-      30px !important;
-  }
-
-
-  .archenova-twin-home .an-search__field {
-    grid-template-rows:
-      42px
-      minmax(0,1fr)
-      auto !important;
-  }
-
-}
-
-
-/* ==========================================================
-   MOBILE
-========================================================== */
-
-@media (max-width: 768px) {
-
-  /* --------------------------------------------------------
-     ROOT
-     Critical:
-     remove desktop 100%-height chain.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home .an-search {
-    width: 100% !important;
-
-    height: auto !important;
-    min-height: 0 !important;
-    max-height: none !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    overflow: visible !important;
-  }
-
-
-  .archenova-twin-home .an-search__surface {
-    position: relative !important;
-
-    display: grid !important;
-
-    width: 100% !important;
-
-    height: auto !important;
-    min-height: 0 !important;
-    max-height: none !important;
-
-    grid-template-rows:
-      52px
-      58px
-      auto !important;
-
-    overflow: visible !important;
-  }
-
-
-  /* --------------------------------------------------------
-     HEADER
-  -------------------------------------------------------- */
-
-  .archenova-twin-home .an-search__header {
-    min-height: 52px !important;
-
-    margin: 0 !important;
-
-    padding:
-      0
-      18px !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__identity > span,
-  .archenova-twin-home
-  .an-search__identity > small {
-    display: none !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__identity > strong {
-    font-size: 12px !important;
-
-    letter-spacing: 0.18em !important;
-  }
-
-
-  /* --------------------------------------------------------
-     SEARCH
-  -------------------------------------------------------- */
-
-  .archenova-twin-home .an-search__search-row {
-    min-height: 58px !important;
-
-    margin: 0 !important;
-
-    padding:
-      7px
-      14px
-      9px !important;
-  }
-
-
-  .archenova-twin-home .an-search__search {
-    width: 100% !important;
-
-    min-height: 42px !important;
-
-    margin: 0 !important;
-  }
-
-
-  .archenova-twin-home .an-search__reset {
-    display: none !important;
-  }
-
-
-  /* ========================================================
-     THIS REMOVES THE LARGE BLANK REGION IN YOUR SCREENSHOT
-  ======================================================== */
-
-  .archenova-twin-home
-  .an-search__workspace,
-  .archenova-twin-home
-  .an-search__workspace.no-selection,
-  .archenova-twin-home
-  .an-search__workspace.has-selection {
-    position: relative !important;
-
-    display: block !important;
-
-    width: 100% !important;
-
-    height: auto !important;
-    min-height: 0 !important;
-    max-height: none !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    overflow: visible !important;
-  }
-
-
-  .archenova-twin-home .an-search__sidebar {
-    display: none !important;
-  }
-
-
-  .archenova-twin-home .an-search__field {
-    position: relative !important;
-
-    display: grid !important;
-
-    width: 100% !important;
-
-    height: auto !important;
-    min-height: 0 !important;
-    max-height: none !important;
-
-    grid-template-rows:
-      64px
-      auto
-      auto !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    overflow: visible !important;
-
-    align-self: start !important;
-  }
-
-
-  /* --------------------------------------------------------
-     CIVILIZATION FIELD begins immediately.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home .an-search__field-head {
-    position: relative !important;
-
-    width: 100% !important;
-
-    min-height: 64px !important;
-
-    margin: 0 !important;
-
-    padding:
-      13px
-      18px !important;
-
-    align-self: start !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__field-head > div {
-    gap: 5px !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__field-head span {
-    font-size: 5px !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__field-head strong {
-    font-size: 9px !important;
-
-    line-height: 1.3 !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__field-head > small {
-    display: none !important;
-  }
-
-
-  /* ========================================================
-     STAR FIELD
-     18 nodes = clean 2-column x 9-row layout.
-  ======================================================== */
-
-  .archenova-twin-home .an-search__canvas {
-    position: relative !important;
-
-    display: grid !important;
-
-    grid-template-columns:
-      repeat(
-        2,
-        minmax(0,1fr)
-      ) !important;
-
-    grid-template-rows:
-      none !important;
-
-    grid-auto-flow: row !important;
-
-    grid-auto-rows:
-      74px !important;
-
-    width: 100% !important;
-
-    height: auto !important;
-    min-height: 666px !important;
-    max-height: none !important;
-
-    gap:
-      0
-      6px !important;
-
-    margin: 0 !important;
-
-    padding:
-      10px
-      18px
-      18px !important;
-
-    overflow: hidden !important;
-
-    align-content: start !important;
-    align-items: stretch !important;
-  }
-
-
-  /* --------------------------------------------------------
-     Kill all desktop absolute positioning.
-  -------------------------------------------------------- */
-
-  .archenova-twin-home .an-search-node,
-  .archenova-twin-home
-  .an-search__workspace.no-selection
-  .an-search-node,
-  .archenova-twin-home
-  .an-search__workspace.has-selection
-  .an-search-node {
-    position: relative !important;
-
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    bottom: auto !important;
-
-    width: 100% !important;
-
-    height: 74px !important;
-    min-height: 74px !important;
-    max-height: 74px !important;
-
-    margin: 0 !important;
-
-    padding:
-      8px
-      7px !important;
-
-    transform: none !important;
-
-    display: flex !important;
-
-    align-items: center !important;
-    justify-content: flex-start !important;
-
-    gap: 8px !important;
-
-    overflow: hidden !important;
-
-    border: 0 !important;
-
-    background: transparent !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node:hover {
-    transform: none !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node__star {
-    flex:
-      0
-      0
-      17px !important;
-
-    width: 17px !important;
-    height: 17px !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node__copy {
-    flex:
-      1
-      1
-      auto !important;
-
-    min-width: 0 !important;
-
-    max-width:
-      calc(100% - 25px) !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node__copy strong {
-    display: block !important;
-
-    width: 100% !important;
-
-    overflow: hidden !important;
-
-    font-size: 6.5px !important;
-
-    line-height: 1.2 !important;
-
-    text-overflow: ellipsis !important;
-
-    white-space: nowrap !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node__copy small {
-    display: block !important;
-
-    margin-top: 3px !important;
-
-    font-size: 3.4px !important;
-
-    white-space: nowrap !important;
-  }
-
-
-  /* --------------------------------------------------------
-     Selection hierarchy
-  -------------------------------------------------------- */
-
-  .archenova-twin-home
-  .an-search-node.is-background {
-    opacity: 0.34 !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node.is-connected {
-    opacity: 0.78 !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node.is-selected {
-    opacity: 1 !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node.is-hidden {
-    display: none !important;
-  }
-
-
-  /*
-   * Desktop SVG coordinates are no longer valid
-   * after converting mobile to grid layout.
-   */
-  .archenova-twin-home
-  .an-search__connections {
-    display: none !important;
-  }
-
-
-  /* ========================================================
-     FILTER BAR
-     It belongs AFTER the 18-node field.
-  ======================================================== */
-
-  .archenova-twin-home
-  .an-search__mobile-filters {
-    position: relative !important;
-
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    bottom: auto !important;
-
-    z-index: 20 !important;
-
-    display: flex !important;
-
-    width: 100% !important;
-
-    min-height: 52px !important;
-
-    gap: 6px !important;
-
-    margin: 0 !important;
-
-    padding:
-      10px
-      14px
-      12px !important;
-
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
-
-    background:
-      rgba(0,0,0,0.08) !important;
-
-    border-top:
-      1px solid
-      rgba(255,255,255,0.035) !important;
-
-    scrollbar-width: none;
-  }
-
-
-  .archenova-twin-home
-  .an-search__mobile-filters::-webkit-scrollbar {
-    display: none;
-  }
-
-
-  .archenova-twin-home
-  .an-search__mobile-filters button {
-    flex:
-      0
-      0
-      auto !important;
-
-    min-height: 30px !important;
-
-    padding:
-      0
-      11px !important;
-  }
-
-
-  /* ========================================================
-     SELECTED SYSTEM
-
-     It is visually above the nodes.
-     It NEVER reserves space in the star layout.
-  ======================================================== */
-
-  .archenova-twin-home
-  .an-search__detail {
-    position: fixed !important;
-
-    left: 12px !important;
-    right: 12px !important;
-
-    /*
-     * Leave room for HOME's persistent bottom pager.
-     */
-    bottom:
-      calc(
-        104px +
-        env(safe-area-inset-bottom)
-      ) !important;
-
-    top: auto !important;
-
-    z-index: 1000 !important;
-
-    width: auto !important;
-
-    height: auto !important;
-
-    max-height:
-      min(
-        68svh,
-        650px
-      ) !important;
-
-    margin: 0 !important;
-
-    padding:
-      18px
-      16px !important;
-
-    overflow-y: auto !important;
-
-    border:
-      1px solid
-      rgba(255,255,255,0.085) !important;
-
-    border-radius: 18px !important;
-
-    background:
-      linear-gradient(
-        145deg,
-        rgba(13,14,16,0.84),
-        rgba(0,0,0,0.92)
-      ) !important;
-
-    -webkit-backdrop-filter:
-      blur(28px)
-      saturate(110%) !important;
-
-    backdrop-filter:
-      blur(28px)
-      saturate(110%) !important;
-
-    box-shadow:
-      0
-      26px
-      80px
-      rgba(0,0,0,0.48) !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__detail-head span {
-    color:
-      rgba(255,255,255,0.94) !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search__detail h3 {
-    color:
-      rgba(255,255,255,0.97) !important;
-  }
-
-
-  /*
-   * ArcheNova Search's own footer is unnecessary
-   * because HOME already has persistent navigation.
-   */
-  .archenova-twin-home
-  .an-search__footer {
-    display: none !important;
-  }
-
-}
-
-
-/* ==========================================================
-   VERY SMALL MOBILE
-========================================================== */
-
-@media (max-width: 390px) {
-
-  .archenova-twin-home
-  .an-search__canvas {
-    grid-auto-rows:
-      68px !important;
-
-    min-height:
-      612px !important;
-
-    padding-left:
-      13px !important;
-
-    padding-right:
-      13px !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node {
-    height:
-      68px !important;
-
-    min-height:
-      68px !important;
-
-    max-height:
-      68px !important;
-  }
-
-
-  .archenova-twin-home
-  .an-search-node__copy strong {
-    font-size:
-      6px !important;
-  }
-
-}
-
-/* ==========================================================
-   SELECTED SYSTEM CLOSE BUTTON
-   Optical centering fix
-========================================================== */
-
-.an-search__detail-head button {
-  display: grid !important;
-  place-items: center !important;
-
-  padding: 0 !important;
-
-  line-height: 1 !important;
-
-  text-align: center !important;
-}
-
-
-.an-search__detail-head button {
-  font-size: 0 !important;
-}
-
-
-.an-search__detail-head button::before {
-  content: "×";
-
-  display: block;
-
-  font-size: 18px;
-  font-weight: 300;
-
-  line-height: 1;
-
-  transform: translateY(-1px);
-
-  color: inherit;
-}
-
-     `}</style>
-
-   </section>
- );
+    </section>
+  );
 }
