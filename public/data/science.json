@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-23T14:25:39.213Z",
+  "updated": "2026-08-23T15:24:54.472Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "JWST peeks at Callisto's ancient scars",
+      "url": "https://phys.org/news/2026-08-jwst-peeks-callisto-ancient-scars.html",
+      "summary": "Of Jupiter's four Galilean moons, Callisto is the one that gets the least attention. Io is constantly being resurfaced by volcanoes. Europa has a giant liquid water ocean. And Ganymede has its own magnetic field that int…",
+      "ts": 1787497204000,
+      "publishedAt": "2026-08-23T15:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hot temperatures can dull blue morpho butterflies' iridescent scales",
+      "url": "https://phys.org/news/2026-08-hot-temperatures-dull-blue-morpho.html",
+      "summary": "Blue morpho butterflies have captivated the human eye for centuries. We even have one as an emoji on our phones. In a recent experiment, researchers at the Smithsonian Tropical Research Institute (STRI) documented for th…",
+      "ts": 1787497201000,
+      "publishedAt": "2026-08-23T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "China abruptly postpones ambitious Chang'e-7 lunar mission launch",
+      "url": "https://phys.org/news/2026-08-china-abruptly-postpones-ambitious-lunar.html",
+      "summary": "China said on Sunday it was postponing its planned ambitious Chang'e-7 lunar mission, which was set to carry out explorations including searching for water ice on the moon.",
+      "ts": 1787495931000,
+      "publishedAt": "2026-08-23T14:38:51.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The superconducting gap of an ultrathin nickelate defies expectations",
@@ -775,30 +799,6 @@
       "title": "First Measurement of the Decay-Time-Integrated $CP$ Asymmetry in ${B}_{s}^{0}→{D}_{s}^{−}{π}^{+}$ Decays",
       "url": "http://link.aps.org/doi/10.1103/ljtv-y278",
       "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) A measurement of the flavor-untagged decay-time-integrated $CP$ asymmetry in the flavor-specific decay ${B}_{s}^{0}→{D}_{s}^{−}{π}^{+}$, $⟨{A}_{\\text{untagged}}^{s}⟩$, is pe…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Next-to-Next-to-Leading-Order QCD Corrections to Hadron Production in Deep-Inelastic Scattering at Finite Transverse Momentum",
-      "url": "http://link.aps.org/doi/10.1103/bf1g-9hq7",
-      "summary": "Author(s): Liang Dong, Shen Fang, Jun Gao, Hai Tao Li, Ding Yu Shao, and Yu Jiao Zhu We present the first calculation of hadron production in deep-inelastic scattering (DIS) at finite transverse momentum to next-to-next-…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Adiabatic Hydrodynamization and Quasinormal Modes of Nonthermal Attractors",
-      "url": "http://link.aps.org/doi/10.1103/262r-xh1p",
-      "summary": "Author(s): Matisse De Lescluze, Michal P. Heller, Aleksas Mazeliauskas, Bruno Scheihing-Hitschfeld, and Clemens Werthmann Nonthermal attractors govern the emergent self-similar dynamics of far-from-equilibrium quantum sy…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spinon Singlet Pairing: Origin of $d$-Wave Sign Structure in a Partially Filled Stripe",
-      "url": "http://link.aps.org/doi/10.1103/wcqv-pcls",
-      "summary": "Author(s): Jia-Long Wang, Shi-Jie Hu, and Xue-Feng Zhang Significant research advances have led to a consensus that the Fermi-Hubbard model and its extended variants are archetypical frameworks for elucidating the intert…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }

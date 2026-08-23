@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-23T14:25:43.316Z",
+  "updated": "2026-08-23T15:24:57.264Z",
   "items": [
     {
       "source": "NASA",
@@ -10,6 +10,15 @@
       "ts": 1787470768000,
       "publishedAt": "2026-08-23T07:39:28.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Breaking the silence over sexual violence against men and boys in war",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168150",
+      "summary": "Conflicts can expose civilians and detainees to grave abuses; the challenge is not only to document these crimes, but also to ensure all survivors are recognised, protected and able to access justice and care.",
+      "ts": 1787400000000,
+      "publishedAt": "2026-08-22T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "NASA",
@@ -799,15 +808,6 @@
       "title": "Rock West Composites® Is Premiering Its New STRATOPultrusion™ Product Line at the 2026 Small Satellite Conference",
       "url": "https://spacenews.com/rock-west-composites-is-premiering-its-new-stratopultrusion-product-line-at-the-2026-small-satellite-conference/",
       "summary": "San Diego, CA – Rock West Composites (RWC) is premiering its recently launched space-grade STRATOPultrusion™ product line at the 2026 Small Satellite Conference this August in Salt Lake City, Utah. […] The post Rock West…",
-      "ts": 1787230800000,
-      "publishedAt": "2026-08-20T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova",
-      "url": "https://spacenews.com/portal-space-systems-to-include-rideshare-payloads-on-falcon-9-launch-of-supernova/",
-      "summary": "Portal Space Systems has acquired a Falcon 9 to launch its first Supernova spacecraft and will offer excess capacity on the vehicle for rideshare payloads. The post Portal Space Systems to include rideshare payloads on F…",
       "ts": 1787230800000,
       "publishedAt": "2026-08-20T13:00:00.000Z",
       "categoryId": "space"
