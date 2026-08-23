@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-23T16:28:42.560Z",
+  "updated": "2026-08-23T17:22:08.107Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Oldest human brain cells grown in lab 'recorded passage of time'",
+      "url": "https://phys.org/news/2026-08-oldest-human-brain-cells-grown.html",
+      "summary": "Peppercorn-sized clumps of human brain cells grown in a lab for a record seven years aged similarly to those inside our heads, suggesting they \"recorded the passage of time,\" scientists said Wednesday.",
+      "ts": 1787504402000,
+      "publishedAt": "2026-08-23T17:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "JWST peeks at Callisto's ancient scars",
@@ -791,14 +799,6 @@
       "title": "Beyond Hagedorn: A Harmonic Approach to $T\\overline{T}$ Deformation",
       "url": "http://link.aps.org/doi/10.1103/kcs1-7q6n",
       "summary": "Author(s): Jie Gu, Jue Hou, and Yunfeng Jiang We apply harmonic analysis to study the $T\\overline{T}$-deformed torus partition function. We first express the CFT partition functions in terms of Maass waveforms, including…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "First Measurement of the Decay-Time-Integrated $CP$ Asymmetry in ${B}_{s}^{0}→{D}_{s}^{−}{π}^{+}$ Decays",
-      "url": "http://link.aps.org/doi/10.1103/ljtv-y278",
-      "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) A measurement of the flavor-untagged decay-time-integrated $CP$ asymmetry in the flavor-specific decay ${B}_{s}^{0}→{D}_{s}^{−}{π}^{+}$, $⟨{A}_{\\text{untagged}}^{s}⟩$, is pe…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
