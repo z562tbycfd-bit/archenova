@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-23T17:22:10.336Z",
+  "updated": "2026-08-23T18:32:28.672Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Merck/Moderna Cancer Vaccine Gives a Shot in the Arm to Sequencing Companies, Too",
+      "url": "https://www.genengnews.com/topics/cancer/stockwatch-merck-moderna-cancer-vaccine-gives-a-shot-in-the-arm-to-sequencing-companies-too/",
+      "summary": "Because intismeran autogene is a personalized cancer therapy made for each patient based on the individual genetic mutations of their tumors, the Merck-Moderna stock surge extended to sequencing giants such as Illumina, …",
+      "ts": 1787507675000,
+      "publishedAt": "2026-08-23T17:54:35.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Curiosity Blog, Sols 4982–4987: Back to Our Regularly Scheduled Programming",
@@ -802,15 +811,6 @@
       "ts": 1787230824000,
       "publishedAt": "2026-08-20T13:00:24.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rock West Composites® Is Premiering Its New STRATOPultrusion™ Product Line at the 2026 Small Satellite Conference",
-      "url": "https://spacenews.com/rock-west-composites-is-premiering-its-new-stratopultrusion-product-line-at-the-2026-small-satellite-conference/",
-      "summary": "San Diego, CA – Rock West Composites (RWC) is premiering its recently launched space-grade STRATOPultrusion™ product line at the 2026 Small Satellite Conference this August in Salt Lake City, Utah. […] The post Rock West…",
-      "ts": 1787230800000,
-      "publishedAt": "2026-08-20T13:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
