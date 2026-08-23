@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-23T19:23:18.504Z",
+  "updated": "2026-08-23T20:25:18.247Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Could teaching assistants be an overlooked teacher pipeline? New research says yes",
+      "url": "https://phys.org/news/2026-08-overlooked-teacher-pipeline.html",
+      "summary": "As school districts continue searching for ways to recruit and retain teachers, new research from UNC-Chapel Hill suggests one promising pipeline may already be in classrooms: teaching assistants.",
+      "ts": 1787515203000,
+      "publishedAt": "2026-08-23T20:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Collaborative drawing offers new insights into how strangers become friends",
@@ -791,14 +799,6 @@
       "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
       "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
       "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
-      "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
-      "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
