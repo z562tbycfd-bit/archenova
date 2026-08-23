@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-23T09:29:25.127Z",
+  "updated": "2026-08-23T10:26:43.505Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Blowing in the wind, humble balloon gets green makeover",
+      "url": "https://phys.org/news/2026-08-humble-balloon-green-makeover.html",
+      "summary": "A global symbol of parties and celebrations but an environmental headache, the humble balloon is undergoing a green revolution thanks to U.K. researchers.",
+      "ts": 1787478003000,
+      "publishedAt": "2026-08-23T09:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How we found Haida Gwaii's first marbled murrelet nest in more than 30 years",
@@ -791,14 +799,6 @@
       "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
       "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
       "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Generation of Large Coherent-State Superpositions in Free-Space Optical Pulses",
-      "url": "http://link.aps.org/doi/10.1103/q2h3-58pz",
-      "summary": "Author(s): Lucas Caron, Hector Simon, Hugo Basset, Romaric Journet, and Rosa Tualle-Brouri Researchers generate large-amplitude optical cat states in free space, establishing a vital building block for fault-tolerant qua…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
