@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-23T12:43:03.900Z",
+  "updated": "2026-08-23T13:33:33.788Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Quantum computer microscope is set to significantly improve electron microscopy",
+      "url": "https://phys.org/news/2026-08-quantum-microscope-significantly-electron-microscopy.html",
+      "summary": "Electron microscopes are used wherever particularly small details need to be imaged. But from a strictly physical point of view, every electron in a conventional electron microscope represents a missed opportunity: If al…",
+      "ts": 1787490001000,
+      "publishedAt": "2026-08-23T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Blowing in the wind, humble balloon gets green makeover",
@@ -791,14 +799,6 @@
       "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
       "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
       "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Phonon-Activated Collective Hopping in a Superionic Phase",
-      "url": "http://link.aps.org/doi/10.1103/lx5w-x6wl",
-      "summary": "Author(s): Hung-Min Lin, Mayanak K. Gupta, Niuchang Ouyang, Tyler Wilson, Artem Pogodin, Md Towhidur Rahman, Alexandra Zevalkink, J. Ross Stewart, Fanni Juranyi, Tao Hong, Yan Wu, Songxue Chi, Douglas L. Abernathy, and O…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
