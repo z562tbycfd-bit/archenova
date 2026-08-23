@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-23T20:25:18.247Z",
+  "updated": "2026-08-23T21:23:46.432Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Protein degradation rate helps explain why humans develop more slowly than mice",
+      "url": "https://phys.org/news/2026-08-protein-degradation-humans-slowly-mice.html",
+      "summary": "Humans develop at a slower rate than other mammalian species, like mice, but scientists are still trying to understand the molecular basis of these differences. Now, researchers from the Ebisuya Group at EMBL Barcelona a…",
+      "ts": 1787518801000,
+      "publishedAt": "2026-08-23T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Could teaching assistants be an overlooked teacher pipeline? New research says yes",
@@ -793,14 +801,6 @@
       "summary": "A citrus greening disease treatment rooted in more than a decade of research at Texas A&M AgriLife Research has reached a milestone on the path to commercial availability. The U.S. Environmental Protection Agency has gra…",
       "ts": 1787310001000,
       "publishedAt": "2026-08-21T11:00:01.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Testing the Equivalence to Thermal States via Extractable Work under Local Operations and Classical Communication",
-      "url": "http://link.aps.org/doi/10.1103/zsb1-gx7f",
-      "summary": "Author(s): Toshihiro Yada, Nobuyuki Yoshioka, and Takahiro Sagawa Understanding the thermal behavior of quantum many-body pure states is one of the most fundamental issues in quantum thermodynamics. It is widely known th…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
     }
   ],
   "sources": [
