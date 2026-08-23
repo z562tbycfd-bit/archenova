@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-23T18:32:25.637Z",
+  "updated": "2026-08-23T19:23:18.504Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Collaborative drawing offers new insights into how strangers become friends",
+      "url": "https://phys.org/news/2026-08-collaborative-insights-strangers-friends.html",
+      "summary": "The closer two people grow, the more alike their brains work—or so the assumption goes. Two ETH Zurich studies challenge this idea by examining the brain activity of younger and older adults who drew together over severa…",
+      "ts": 1787511601000,
+      "publishedAt": "2026-08-23T19:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Oldest human brain cells grown in lab 'recorded passage of time'",
@@ -791,14 +799,6 @@
       "title": "Conservative Black Hole Scattering at Fifth Post-Minkowskian and Second Self-Force Order",
       "url": "http://link.aps.org/doi/10.1103/4dvk-nglx",
       "summary": "Author(s): Mathias Driesse, Gustav Uhre Jakobsen, Gustav Mogull, Christoph Nega, Jan Plefka, Benjamin Sauer, and Johann Usovitsch Using the worldline quantum field theory formalism, we compute conservative contributions …",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Beyond Hagedorn: A Harmonic Approach to $T\\overline{T}$ Deformation",
-      "url": "http://link.aps.org/doi/10.1103/kcs1-7q6n",
-      "summary": "Author(s): Jie Gu, Jue Hou, and Yunfeng Jiang We apply harmonic analysis to study the $T\\overline{T}$-deformed torus partition function. We first express the CFT partition functions in terms of Maass waveforms, including…",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
