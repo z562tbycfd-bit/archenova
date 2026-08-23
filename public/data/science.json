@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-23T13:33:33.788Z",
+  "updated": "2026-08-23T14:25:39.213Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The superconducting gap of an ultrathin nickelate defies expectations",
+      "url": "https://phys.org/news/2026-08-superconducting-gap-ultrathin-nickelate-defies.html",
+      "summary": "Superconductors are materials that carry electrical current with zero resistance below a specific critical temperature. In conventional superconductors, the transition to superconductivity generally occurs at very low te…",
+      "ts": 1787494201000,
+      "publishedAt": "2026-08-23T14:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Quantum computer microscope is set to significantly improve electron microscopy",
@@ -791,14 +799,6 @@
       "title": "Spinon Singlet Pairing: Origin of $d$-Wave Sign Structure in a Partially Filled Stripe",
       "url": "http://link.aps.org/doi/10.1103/wcqv-pcls",
       "summary": "Author(s): Jia-Long Wang, Shi-Jie Hu, and Xue-Feng Zhang Significant research advances have led to a consensus that the Fermi-Hubbard model and its extended variants are archetypical frameworks for elucidating the intert…",
-      "ts": 1787306400000,
-      "publishedAt": "2026-08-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Room-Temperature Noncollinear Ferroelectricity in van der Waals ${\\mathrm{WO}}_{2}{\\mathrm{Cl}}_{2}$ with a Wide Bandgap",
-      "url": "http://link.aps.org/doi/10.1103/zjyw-z6s6",
-      "summary": "Author(s): Yu Xing, Ning Ding, Zhipeng Wang, Zhiwen Pan, Lei Guo, Guowei Du, Yangrui Liu, Xiaoxing Cao, Ran Su, Mengting Jiang, Xuezhi Ma, Xiyu Chen, Junchao Zhang, Xinyu Yang, Haoran Ye, Honghong Yao, Rui Feng, Dexiang …",
       "ts": 1787306400000,
       "publishedAt": "2026-08-21T10:00:00.000Z"
     }
