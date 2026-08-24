@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-24T11:31:10.624Z",
+  "updated": "2026-08-24T12:54:08.562Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "An AI job boom? Here's what the tedious, temporary work in data labeling is actually like",
+      "url": "https://phys.org/news/2026-08-ai-job-boom-tedious-temporary.html",
+      "summary": "Amid all the talk about artificial intelligence (AI) both creating and destroying jobs, a troubling reality flies under the radar.",
+      "ts": 1787575201000,
+      "publishedAt": "2026-08-24T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why hundreds of scientists want more protection for Australia's oceans",
+      "url": "https://phys.org/news/2026-08-hundreds-scientists-australia-oceans.html",
+      "summary": "Australia is one of the world's great ocean nations. It is home to more marine species than any other country, with ocean ecosystems spanning all five of the world's climate zones, from the coral-rich tropics to the icy …",
+      "ts": 1787574005000,
+      "publishedAt": "2026-08-24T12:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Book Week is not just for big kids—how to engage babies and toddlers at story time",
+      "url": "https://phys.org/news/2026-08-week-big-kids-engage-babies.html",
+      "summary": "Book Week is a great opportunity for parents and caregivers to inspire a love of reading in babies and toddlers.",
+      "ts": 1787572805000,
+      "publishedAt": "2026-08-24T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Housing may shape death risks for low-income older renters",
+      "url": "https://phys.org/news/2026-08-housing-death-income-older-renters.html",
+      "summary": "For low-income older adults, where they live may affect how long they live, according to new research from Washington University in St. Louis.",
+      "ts": 1787571601000,
+      "publishedAt": "2026-08-24T11:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Recycling meat waste may help bring cultivated meat to market",
@@ -767,38 +799,6 @@
       "title": "Matrix-free algorithms for fast ab initio calculations on distributed CPU architectures using finite-element discretization",
       "url": "https://arxiv.org/abs/2512.08571",
       "summary": "arXiv:2512.08571v3 Announce Type: replace Abstract: Finite-element (FE) discretisations have emerged as a powerful real-space alternative to large-scale Kohn-Sham density functional theory (DFT) calculations, offering sy…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Fr\\'echet interaction density of certain wave equations",
-      "url": "https://arxiv.org/abs/2512.09609",
-      "summary": "arXiv:2512.09609v2 Announce Type: replace Abstract: We extend the adjoint method to complex-valued PDEs and introduce the \\emph{Fr\\'echet interaction density}, as the most fundamental interaction from which Fr\\'echet sen…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Winter Precipitation Type Diagnosis and Uncertainty Quantification with a Physically Consistent Machine Learning Method",
-      "url": "https://arxiv.org/abs/2512.13899",
-      "summary": "arXiv:2512.13899v2 Announce Type: replace Abstract: Accurately forecasting winter precipitation type and its transitions is critical for high-impact decision making. However, existing methods struggle in thermodynamicall…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pathway to Optical-Cycle Dynamic Photonics: Extreme Electron Temperatures in Transparent Conducting Oxides",
-      "url": "https://arxiv.org/abs/2512.24641",
-      "summary": "arXiv:2512.24641v2 Announce Type: replace Abstract: We theoretically demonstrate that transparent conducting oxides (TCOs) exhibit oscillatory and sign-reversing dynamic modulation in transmittance on the order of a few …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimization of Cryogenic Detector Test Station by Rejecting Electromagnetic Interference",
-      "url": "https://arxiv.org/abs/2601.03158",
-      "summary": "arXiv:2601.03158v2 Announce Type: replace Abstract: We report on the solution optimized for characterizing SNSPDs by rejecting electromagnetic interference (EMI) from various sources. The proposed readout method enhances…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

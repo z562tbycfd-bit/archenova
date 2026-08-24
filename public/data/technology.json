@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-24T11:31:17.483Z",
+  "updated": "2026-08-24T12:54:10.881Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "FDA plans to regulate generative AI",
+      "url": "https://www.statnews.com/2026/08/24/health-news-fda-plans-to-regulate-generative-ai/?utm_campaign=rss",
+      "summary": "New clues to RFK Jr.'s vaccine plans, a bottleneck for nurse practitioners, and more health news from Morning Rounds",
+      "ts": 1787575556000,
+      "publishedAt": "2026-08-24T12:45:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: kids outlearning AI, and space travel agents",
+      "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a computer to use human lang…",
+      "ts": 1787573400000,
+      "publishedAt": "2026-08-24T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Tory Bruno Named Honorary Chair Of World Space Week 2027",
+      "url": "https://spacenews.com/tory-bruno-named-honorary-chair-of-world-space-week-2027/",
+      "summary": "Houston — World Space Week Association announced today that Tory Bruno, President of National Security at Blue Origin, will serve as Honorary Chair of World Space Week 2027. “Tory Bruno […] The post Tory Bruno Named Hono…",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA pauses Regenxbio gene therapy trial again due to safety concerns ",
+      "url": "https://www.statnews.com/2026/08/24/fda-pauses-regenxbio-gene-therapy-trial-hunter-syndrome-safety-concerns/?utm_campaign=rss",
+      "summary": "The FDA put a hold on a Regenxbio gene therapy trial again after new safety concerns emerged.",
+      "ts": 1787572788000,
+      "publishedAt": "2026-08-24T11:59:48.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Kids outlearn AI—and we still don’t know why",
@@ -772,42 +808,6 @@
       "title": "Longitudinal Bayesian Learning of Continuous Disease Position across the Alzheimer's Disease Continuum",
       "url": "https://arxiv.org/abs/2608.19436",
       "summary": "arXiv:2608.19436v1 Announce Type: cross Abstract: Alzheimer's disease (AD) progresses as a continuous biological process, whereas most existing neuroimaging-based artificial intelligence methods remain limited to discret…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Resource-Efficient Bio-Molecular Docking on a NISQ-era Digital Quantum Computer",
-      "url": "https://arxiv.org/abs/2608.19868",
-      "summary": "arXiv:2608.19868v1 Announce Type: cross Abstract: Molecular docking is a vital computational task in drug discovery, wherein the objective is to efficiently identify optimal binding poses between a ligand and a target re…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis",
-      "url": "https://arxiv.org/abs/2608.19902",
-      "summary": "arXiv:2608.19902v1 Announce Type: cross Abstract: AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and the claim is limited to what the evid…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Flow Matching Meets 3D Curvilinear Structure Segmentation in Medical Imaging",
-      "url": "https://arxiv.org/abs/2608.19965",
-      "summary": "arXiv:2608.19965v1 Announce Type: cross Abstract: Segmentation of curvilinear anatomical structures in 3D medical images remains challenging due to complex topology, severe class imbalance, weak contrast, and large varia…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Emergence of cooperation: A reputation-modulated reinforcement learning",
-      "url": "https://arxiv.org/abs/2608.20016",
-      "summary": "arXiv:2608.20016v1 Announce Type: cross Abstract: Reputation is widely recognized as a key mechanism for sustaining cooperation. However, most existing game-theoretic models treat reputation primarily as an external fact…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"
