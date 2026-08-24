@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-24T15:41:22.810Z",
+  "updated": "2026-08-24T16:40:11.958Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Soil bacteria share amino acids, helping nearly half survive nutrient gaps",
+      "url": "https://phys.org/news/2026-08-soil-bacteria-amino-acids-survive.html",
+      "summary": "Bacteria, too, depend on good neighborly relations: A new study by the Osnabrück University, in collaboration with researchers from the University of Cambridge in England, shows that soil bacteria live in beneficial comm…",
+      "ts": 1787588409000,
+      "publishedAt": "2026-08-24T16:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Floating wetlands slash wastewater greenhouse gas emissions, according to study",
+      "url": "https://phys.org/news/2026-08-wetlands-slash-wastewater-greenhouse-gas.html",
+      "summary": "A world-first trial of floating wetland pods in wastewater lagoons shows they cut greenhouse gas emissions by more than a quarter, highlighting their potential as a nature-based solution for decarbonizing the water secto…",
+      "ts": 1787588407000,
+      "publishedAt": "2026-08-24T16:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny root hairs, big impact: How bacteria help plants survive drought",
+      "url": "https://phys.org/news/2026-08-tiny-root-hairs-big-impact.html",
+      "summary": "What helps plants cope better with drought? With heat waves and periods of extreme drought becoming increasingly common worldwide, the need for drought-tolerant plants is increasingly urgent. With the help of bacteria, p…",
+      "ts": 1787587207000,
+      "publishedAt": "2026-08-24T16:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "As California embraces universal transitional kindergarten, the state's other child-care workers are struggling",
+      "url": "https://phys.org/news/2026-08-california-embraces-universal-transitional-kindergarten.html",
+      "summary": "Last spring, UC Berkeley researcher Anna Powell sat in on a Zoom call as a number of Bay Area child care center leaders discussed, with sympathy and frustration, the difficult position their businesses were in.",
+      "ts": 1787587202000,
+      "publishedAt": "2026-08-24T16:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Antarctic bacteria share 'life‑support' genes to survive extreme conditions",
@@ -767,38 +799,6 @@
       "title": "Revisiting the hydromechanical formulation of a micromechanics-based phase-field model for poro-elastoplastic media",
       "url": "https://arxiv.org/abs/2608.20422",
       "summary": "arXiv:2608.20422v1 Announce Type: cross Abstract: Even for tension-dominated fracture propagation, porous materials may deform plastically adjacent to the propagating fracture. As is common for porous materials, existing…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wrong-Physics Backdoors in Neural PDE Operators",
-      "url": "https://arxiv.org/abs/2608.20439",
-      "summary": "arXiv:2608.20439v1 Announce Type: cross Abstract: Neural PDE operators are increasingly trained on reusable solver archives, yet validation often relies on clean prediction error and parameter-agnostic plausibility check…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shared Physics Responses Recover Hidden Rankings in Neural Operator Libraries",
-      "url": "https://arxiv.org/abs/2608.20441",
-      "summary": "arXiv:2608.20441v1 Announce Type: cross Abstract: Selecting the optimal neural-operator prediction during deployment is challenging when high-fidelity reference solutions are unavailable. We demonstrate that under a squa…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective Quantum Logic Spectroscopy",
-      "url": "https://arxiv.org/abs/2608.20471",
-      "summary": "arXiv:2608.20471v1 Announce Type: cross Abstract: Scaling trapped-ion quantum sensors from single ions to large ensembles is a key challenge for next-generation precision measurements. At the same time, many ion species …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uncertainty propagation in auto-regressive random neural network models",
-      "url": "https://arxiv.org/abs/2608.20483",
-      "summary": "arXiv:2608.20483v1 Announce Type: cross Abstract: We develop analytical and particle-based methods for uncertainty propagation in random neural network models, where both the inputs and network parameters are allowed to …",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }
