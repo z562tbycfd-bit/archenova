@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-24T21:31:42.043Z",
+  "updated": "2026-08-24T22:28:21.735Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Catching cow burps in real time: Methane sensor matches industry monitor in early field test",
+      "url": "https://phys.org/news/2026-08-cow-burps-real-methane-sensor.html",
+      "summary": "Methane is a short-lived but powerful greenhouse gas; cutting methane emissions can slow near-term warming and improve air quality by reducing harmful ground-level ozone. As ruminants digest feed, they release methane—th…",
+      "ts": 1787610004000,
+      "publishedAt": "2026-08-24T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The midlife clock is ticking: How we understand 'time left' can help us use it well",
+      "url": "https://phys.org/news/2026-08-midlife-clock-left.html",
+      "summary": "In Adaptation and the Life Cycle, psychologist Bernice Neugarten tells us that we arrive in our middle years by our social clocks, not our age.",
+      "ts": 1787610001000,
+      "publishedAt": "2026-08-24T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular trick opens the door to a new generation of glass",
+      "url": "https://phys.org/news/2026-08-molecular-door-generation-glass.html",
+      "summary": "Researchers at TU Dortmund University, Paderborn University, the University of Duisburg-Essen, and the University of Oxford have developed a new method for selectively modifying the internal structure of specific types o…",
+      "ts": 1787609401000,
+      "publishedAt": "2026-08-24T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildlife trafficking spreads across social media, putting thousands of species at risk",
+      "url": "https://phys.org/news/2026-08-wildlife-trafficking-social-media-thousands.html",
+      "summary": "Researchers monitoring online activity for six weeks in mid-2025 found primates, birds, snakes, frogs, orchids and many other wildlife groups advertised for sale across Facebook, Instagram, TikTok and YouTube. Wildlife i…",
+      "ts": 1787608804000,
+      "publishedAt": "2026-08-24T22:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human rights rankings reveal surprising over- and underperformers",
+      "url": "https://phys.org/news/2026-08-human-rights-reveal-underperformers.html",
+      "summary": "When it comes to human rights, it probably won't surprise you that Scandinavian countries perform well by statistical measures, along with Canada and Australia. But did you know that Mozambique, the Philippines, and Rwan…",
+      "ts": 1787608801000,
+      "publishedAt": "2026-08-24T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Temperature-tunable micropillars enable programmable sorting of particles and cells",
+      "url": "https://phys.org/news/2026-08-temperature-tunable-micropillars-enable-programmable.html",
+      "summary": "A programmable microfluidic device developed at the Institute of Science Tokyo, Japan, combines deterministic lateral displacement, a microfluidic technique used to separate particles according to size, with temperature-…",
+      "ts": 1787607609000,
+      "publishedAt": "2026-08-24T21:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A bird's eye view of illegal logging and its consequences in the Peruvian Amazon",
+      "url": "https://phys.org/news/2026-08-bird-eye-view-illegal-consequences.html",
+      "summary": "When I first arrived in Peru's Allpahuayo-Mishana National Reserve in 2005, a local youth surprised me with an offer to sell me a live owl, despite the fact that we were in a protected area where commercial hunting was p…",
+      "ts": 1787607606000,
+      "publishedAt": "2026-08-24T21:40:06.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI finds six ways to print rocket-grade alloy on commercial 3D printers",
@@ -743,62 +799,6 @@
       "title": "Impact of Plasmonic Modes and Thermophysical Properties on the Double-Pulse Structuring of Highly-Ordered LIPSS for Biosensing Applications",
       "url": "https://arxiv.org/abs/2608.20573",
       "summary": "arXiv:2608.20573v1 Announce Type: new Abstract: The fabrication of highly ordered laser-induced periodic surface structures (LIPSS) on thin metallic films is dictated, predomaninatly, by a synergy of periodic electromagn…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wind farms as sensor arrays of turbulent boundary layer spatio-temporal flow structure",
-      "url": "https://arxiv.org/abs/2608.20582",
-      "summary": "arXiv:2608.20582v1 Announce Type: new Abstract: Temporal fluctuations of wind farm-generated power arise from the interaction between atmospheric turbulence, turbine properties, and wind-farm layout. However, accurately …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sidewall-Poled Nanophotonic Lithium Niobate with Bidirectional Characterization",
-      "url": "https://arxiv.org/abs/2608.20619",
-      "summary": "arXiv:2608.20619v1 Announce Type: new Abstract: Accurate characterization of integrated nonlinear photonic devices is often limited by unknown facet-coupling losses and fabrication-induced non-uniformities, leading to sy…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Covariant Curvature-History Field Formulation for State-Dependent Infinite-Derivative Gravity",
-      "url": "https://arxiv.org/abs/2608.20625",
-      "summary": "arXiv:2608.20625v1 Announce Type: new Abstract: We construct a covariant auxiliary-field formulation for state-dependent infinite-derivative gravity. Null-congruence curvature-history integrals provide a natural motivati…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gas Beam Dump and Power Meter for High Energy Lasers",
-      "url": "https://arxiv.org/abs/2608.20645",
-      "summary": "arXiv:2608.20645v1 Announce Type: new Abstract: Gaseous optics exhibit substantially higher laser-induced-damage thresholds than solid materials, enabling high-intensity operation without permanent degradation. In this L…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Zero-dimensional multi-physics-constrained parameter design and optimization for advanced quasi-isodynamic stellarators",
-      "url": "https://arxiv.org/abs/2608.20652",
-      "summary": "arXiv:2608.20652v1 Announce Type: new Abstract: A zero-dimensional (0D) multi-physics-constrained framework for parameter design and optimization of Stable Quasi-Isodynamic Designs (SQuIDs) is presented. Single- and mult…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry Adapted Hierarchical Equations of Motion for Exact Simulations of Large Polariton Systems",
-      "url": "https://arxiv.org/abs/2608.20657",
-      "summary": "arXiv:2608.20657v1 Announce Type: new Abstract: Hierarchical equations of motion(HEOM) provide exact dynamics of open quantum systems coupled to harmonic baths, but their computational cost becomes prohibitive for system…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Power-law-anchored residual learning for H-mode energy confinement time in tokamaks: interpolation and parameter-defined extrapolation",
-      "url": "https://arxiv.org/abs/2608.20684",
-      "summary": "arXiv:2608.20684v1 Announce Type: new Abstract: Reliable prediction of the energy confinement time is essential for magnetic-confinement fusion. Conventional power-law scalings provide constrained extrapolation trends bu…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

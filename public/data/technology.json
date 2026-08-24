@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-24T21:31:44.467Z",
+  "updated": "2026-08-24T22:28:28.323Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Robotics and the future of on-orbit labor",
+      "url": "https://spacenews.com/robotics-and-the-future-of-on-orbit-labor/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss interviews Icarus Robotics CEO and co-founder Ethan Barajas at the 2026 Small Satellite Conference in Salt Lake City, Utah. They discuss why astronauts have […] The post Robotics an…",
+      "ts": 1787610362000,
+      "publishedAt": "2026-08-24T22:26:02.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "PARP Inhibitor Combination Therapy Boosts Antitumor Activity in NSCLC Models",
+      "url": "https://www.genengnews.com/topics/cancer/parp-inhibitor-combination-therapy-boosts-antitumor-activity-in-nsclc-models/",
+      "summary": "Pairing HER3-DXd with the PARP inhibitor olaparib increased DNA damage, induced apoptosis, and slowed tumor progression in vivo in preclinical non-small cell lung cancer models. The post PARP Inhibitor Combination Therap…",
+      "ts": 1787607442000,
+      "publishedAt": "2026-08-24T21:37:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sets Coverage for Roman Space Telescope Launch from Florida",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-roman-space-telescope-launch-from-florida/",
+      "summary": "Coverage plans are ready for NASA’s Nancy Grace Roman Space Telescope prelaunch and launch activities. Roman is NASA’s next-generation observatory designed to explore some of the universe’s biggest mysteries, including d…",
+      "ts": 1787604298000,
+      "publishedAt": "2026-08-24T20:44:58.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Small Molecules, Big Expectations: How CDMOs Are Helping Sponsors Navigate Complexity, Speed, Scale-Up, and Sustainability",
@@ -202,9 +229,45 @@
     },
     {
       "source": "United Nations News",
+      "title": "Gaza: Children still at risk despite drop in acute hunger",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168193",
+      "summary": "Among tent cities pitched on the rubble of destroyed homes in Gaza, children are, by one measure, finally getting enough to eat. By another, however, many of them may never fully recover, according to a new study by the …",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Two UN peacekeepers killed in South Sudan ambush",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168192",
+      "summary": "Two UN peacekeepers have been killed and a total of seven people injured after unidentified gunmen ambushed a patrol in South Sudan’s eastern Jonglei state on Monday.",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Civilian suffering grows in Russia-Ukraine war",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168191",
+      "summary": "Spiralling drone and missile attacks on civilians in the ongoing Russia-Ukraine war were in the spotlight on Monday as the Security Council hears the latest reports from UN officials about the situation on the ground. UN…",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Global food supply has become ‘collateral damage’ in conflicts: Secretary-General",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168190",
+      "summary": "The disruption of maritime traffic in the Strait of Hormuz, Black Sea and Bab al-Mandab Strait has worsened hunger crises and must immediately end, UN Secretary-General António Guterres said.",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Security Council LIVE: War, hunger, flooding escalates in Sudan",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168188",
-      "summary": "The Security Council is currently hearing top UN officials brief on the latest updates about war-torn Sudan as escalating conflict, drone strikes against civilians, displacement, hunger and flooding affects millions and …",
+      "summary": "Suffering in Sudan continues to grow in the world’s worst humanitarian crisis amid brutal mass killings, abductions and rape, top UN officials warned the Security Council on Monday, calling for action to end the four-yea…",
       "ts": 1787572800000,
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -748,69 +811,6 @@
       "ts": 1787319619000,
       "publishedAt": "2026-08-21T13:40:19.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Are cancer patients getting too much drug?",
-      "url": "https://www.statnews.com/2026/08/21/biotech-news-are-cancer-patients-us-getting-too-much-drug/?utm_campaign=rss",
-      "summary": "Moderna's stunning surge and drop, AI in scientific writing, and more biotech news from The Readout",
-      "ts": 1787318629000,
-      "publishedAt": "2026-08-21T13:23:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 17-21 August 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_17-21_August_2026",
-      "summary": "Week in images: 17-21 August 2026 Discover our week through the lens",
-      "ts": 1787317800000,
-      "publishedAt": "2026-08-21T13:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Scientists deploy Merck’s Ebola vaccine in DRC",
-      "url": "https://www.statnews.com/2026/08/21/health-news-scientists-deploy-merck-ebola-vaccine-in-drc/?utm_campaign=rss",
-      "summary": "Prostate cancer therapy, Meta glasses in hospital settings, and more health news from Morning Rounds",
-      "ts": 1787317481000,
-      "publishedAt": "2026-08-21T13:04:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The COSMOSIS framework can ensure that Washington governs space with its complexity in mind.",
-      "url": "https://spacenews.com/the-cosmosis-framework-can-ensure-that-washington-governs-space-with-its-complexity-in-mind/",
-      "summary": "Policy documents from both the White House and the Office of Space Commerce this summer acknowledge that space is a complex system, as to which forms of adaptive governance should […] The post The COSMOSIS framework can …",
-      "ts": 1787317200000,
-      "publishedAt": "2026-08-21T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: threats from space mirrors and credit for AI drugs",
-      "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This company’s plans to deploy space mirrors could jeopardize the night sky for ma…",
-      "ts": 1787314200000,
-      "publishedAt": "2026-08-21T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "AI for Good: How the UN uses AI to advance human rights",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168177",
-      "summary": "For Ari, a six-year-old boy with learning difficulties in Jamaica, artificial intelligence (AI) opened the door to something many children take for granted: reading a book in his own language. Thousands of miles away, go…",
-      "ts": 1787313600000,
-      "publishedAt": "2026-08-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New initiative launched to shield terrorism victims from online harm",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168186",
-      "summary": "The UN has launched a new initiative to protect victims of terrorist attacks from online harm and re-traumatisation, drawing on harrowing survivor accounts, from the Nova Music Festival in Israel to an attack on a FIFA W…",
-      "ts": 1787313600000,
-      "publishedAt": "2026-08-21T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
