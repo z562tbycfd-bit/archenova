@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-24T04:47:53.892Z",
+  "updated": "2026-08-24T05:39:48.146Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Americans bought 12% less soda under new SNAP restrictions, study says",
+      "url": "https://www.statnews.com/2026/08/24/snap-restrictions-12-percent-drop-soda-purchases/?utm_campaign=rss",
+      "summary": "The drop in soda purchases is meaningful, but not enormous, one of the study's authors said.",
+      "ts": 1787547600000,
+      "publishedAt": "2026-08-24T05:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "What Lake Bonneville Left Behind",
@@ -799,15 +808,6 @@
       "title": "Ten simple rules for non-visual, reproducible and accessible bioinformatics",
       "url": "https://arxiv.org/abs/2608.14400",
       "summary": "arXiv:2608.14400v2 Announce Type: replace Abstract: Bioinformatics workflows rely heavily on visual representations. Quality-control plots, cell embeddings, heatmaps, genome-browser tracks, and interactive dashboards are…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The mutual arrangement of Wright-Fisher diffusion path measures and its impact on parameter estimation",
-      "url": "https://arxiv.org/abs/2410.15955",
-      "summary": "arXiv:2410.15955v3 Announce Type: replace-cross Abstract: The Wright-Fisher diffusion is a fundamentally important model of evolution encompassing genetic drift, mutation, and natural selection. Suppose you want to infer…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"
