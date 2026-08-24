@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-24T05:39:48.146Z",
+  "updated": "2026-08-24T07:02:17.197Z",
   "items": [
     {
       "source": "STAT",
@@ -408,6 +408,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "ESA",
+      "title": "Watch Sophie Adenot’s second spacewalk live",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_Sophie_Adenot_s_second_spacewalk_live",
+      "summary": "After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98.",
+      "ts": 1787320800000,
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Up and down the ladder: The latest comings and goings",
       "url": "https://www.statnews.com/pharmalot/2026/08/21/up-down-ladder-latest-comings-goings-jobs-2/?utm_campaign=rss",
@@ -799,15 +808,6 @@
       "title": "Quo nomine vis vocari? Random-copying, conformity, and anti-conformity in the temporal sequence of papal names",
       "url": "https://arxiv.org/abs/2605.07028",
       "summary": "arXiv:2605.07028v2 Announce Type: replace Abstract: The study of cultural evolution seeks to understand the processes by which behavioral variants are chosen in human cultures over time. The selection of new popes, each …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Ten simple rules for non-visual, reproducible and accessible bioinformatics",
-      "url": "https://arxiv.org/abs/2608.14400",
-      "summary": "arXiv:2608.14400v2 Announce Type: replace Abstract: Bioinformatics workflows rely heavily on visual representations. Quality-control plots, cell embeddings, heatmaps, genome-browser tracks, and interactive dashboards are…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"
