@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-24T19:31:14.590Z",
+  "updated": "2026-08-24T20:32:29.519Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Shell-crushing predators may have sparked early Cenozoic boom in marine snail evolution",
+      "url": "https://phys.org/news/2026-08-shell-predators-early-cenozoic-boom.html",
+      "summary": "A large-scale study of nearly 700 species reveals the evolutionary relationships and history of Neogastropoda, a diverse group of marine snails. The findings provide new evidence for their single origin, identify four ne…",
+      "ts": 1787603401000,
+      "publishedAt": "2026-08-24T20:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When to trust the experts? Follow these guidelines to evaluate science on any topic",
+      "url": "https://phys.org/news/2026-08-experts-guidelines-science-topic.html",
+      "summary": "When should we trust the evidence and the experts who interpret it for us?",
+      "ts": 1787602807000,
+      "publishedAt": "2026-08-24T20:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Glacier retreat could promote the spread of diseases among bees",
+      "url": "https://phys.org/news/2026-08-glacier-retreat-diseases-bees.html",
+      "summary": "A study conducted in the Swiss Alps by the University of Lausanne and the University of Milan shows that glacier retreat and changing vegetation could influence the spread of certain pathogens between honeybees and wild …",
+      "ts": 1787602802000,
+      "publishedAt": "2026-08-24T20:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ball milling enhances the antiviral activity of inexpensive inorganic materials",
+      "url": "https://phys.org/news/2026-08-ball-milling-antiviral-inexpensive-inorganic.html",
+      "summary": "Since the COVID-19 pandemic, developing surfaces that can inactivate viruses upon contact has become an important goal in public health care. Ideally, such surfaces would work on their own without requiring chemical disi…",
+      "ts": 1787602202000,
+      "publishedAt": "2026-08-24T20:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Marker words suggest sharp rise in AI-assisted biomedical writing after ChatGPT",
+      "url": "https://phys.org/news/2026-08-marker-words-sharp-ai-biomedical.html",
+      "summary": "Up until two years ago, using large language models was still considered a special skill that everyone was encouraged to learn. Now, it is ubiquitous, especially in writing research papers that eventually become part of …",
+      "ts": 1787601607000,
+      "publishedAt": "2026-08-24T20:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Women and racialized CEOs may outperform their peers because they face tougher barriers to the top",
+      "url": "https://phys.org/news/2026-08-women-racialized-ceos-outperform-peers.html",
+      "summary": "Every so often, a headline declares that women make better leaders. A widely cited 2019 Harvard Business Review analysis, for instance, found women outscored men on most leadership competencies.",
+      "ts": 1787601603000,
+      "publishedAt": "2026-08-24T20:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The 'wonder material' graphene can be made using a kitchen blender, a mobile phone and a newspaper",
+      "url": "https://phys.org/news/2026-08-material-graphene-kitchen-blender-mobile.html",
+      "summary": "There is something slightly ridiculous about using a kitchen blender to make graphene. This is, after all, the \"wonder material\" associated with futuristic technologies. You might reasonably expect its production to invo…",
+      "ts": 1787601001000,
+      "publishedAt": "2026-08-24T19:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gut bacteria mostly compete—but cooperation finds a way",
+      "url": "https://phys.org/news/2026-08-gut-bacteria-cooperation.html",
+      "summary": "Understanding how bacteria influence one another is essential for understanding how microbial communities are formed and maintained. Researchers at Umeå University have now systematically mapped interactions between comm…",
+      "ts": 1787600407000,
+      "publishedAt": "2026-08-24T19:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What Gen Z‑led uprisings across Asia reveal about the strengths and limitations of youth protest",
+      "url": "https://phys.org/news/2026-08-gen-zled-uprisings-asia-reveal.html",
+      "summary": "Recent Gen Z-led uprisings have reshaped political narratives across Asia, raising a pointed question: Can street-level youth outrage be transformed into governing power and lasting institutional change? Or does it burn …",
+      "ts": 1787600405000,
+      "publishedAt": "2026-08-24T19:40:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What happens inside a wildfire? A Ph.D. student is finding out",
@@ -727,78 +799,6 @@
       "title": "Attosecond Transient Polarimetry",
       "url": "https://arxiv.org/abs/2608.20821",
       "summary": "arXiv:2608.20821v1 Announce Type: new Abstract: We introduce elliptical-dichroic attosecond transient absorption spectroscopy (eDATAS), an ultrafast attosecond spectroscopy technique in which an atomic gas is probed by e…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Advantage-level Aggregation Reinforcement Learning for X-point Target Magnetic Configuration Control in an EXL-50U Experiment-Calibrated Simulation Environment",
-      "url": "https://arxiv.org/abs/2608.20834",
-      "summary": "arXiv:2608.20834v1 Announce Type: new Abstract: Managing divertor heat loads is a central challenge for compact, high-power tokamaks. To increase local flux expansion and decouple the dissipation volume from the core, EH…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reinforcement learning for vertical position control on the EXL-50U spherical tokamak",
-      "url": "https://arxiv.org/abs/2608.20901",
-      "summary": "arXiv:2608.20901v1 Announce Type: new Abstract: Vertical position control is essential for sustaining high-performance operation in spherical tokamaks, where increased plasma elongation introduces stringent requirements …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Orbital-Optimized Quasi-Variational Distinguishable Cluster Doubles Method",
-      "url": "https://arxiv.org/abs/2608.20915",
-      "summary": "arXiv:2608.20915v1 Announce Type: new Abstract: We present the orbital-optimized quasi-variational distinguishable cluster doubles (OQVDCD) method, obtained by applying the distinguishable cluster (DC) approximation to o…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Resolution Speckle-based Single-Pixel Imaging using Silicon Photonic Non-Redundant Optical Phased Array",
-      "url": "https://arxiv.org/abs/2608.20922",
-      "summary": "arXiv:2608.20922v1 Announce Type: new Abstract: Optical phased arrays (OPAs) are promising wavefront controlling devices for imaging applications due to their compact and high-speed nature. However, conventional periodic…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Graph Neural Network Framework for Characterizing Rainfall Variability Regimes across India",
-      "url": "https://arxiv.org/abs/2608.20947",
-      "summary": "arXiv:2608.20947v1 Announce Type: new Abstract: The Indian Summer Monsoon shows significant spatial variation. While prior work primarily focused on forecasting rainfall amounts, little attention has been given to how co…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Low-Fidelity Method for Aerofoil Shape Optimisation for Curvilinear Blade Kinematics",
-      "url": "https://arxiv.org/abs/2608.20951",
-      "summary": "arXiv:2608.20951v1 Announce Type: new Abstract: This study develops a low-fidelity framework for aerofoil shape optimisation under curvilinear blade kinematics, using a hovering cyclorotor as a representative case. Aerof…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direction-Selective Wave Freezing and Amplification at a Hyperbolic Time Interface",
-      "url": "https://arxiv.org/abs/2608.20968",
-      "summary": "arXiv:2608.20968v1 Announce Type: new Abstract: Hyperbolic media are well known for converting high k-components that are evanescent in conventional dielectrics into propagating bulk waves through their open equifrequenc…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resolving positive semi-definiteness in physics-informed kernels for scientific machine learning",
-      "url": "https://arxiv.org/abs/2608.20985",
-      "summary": "arXiv:2608.20985v1 Announce Type: new Abstract: Many modern machine learning models can be understood as kernel-based function-space models, including Gaussian processes and neural tangent kernels. In scientific machine …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ion Irradiation of GridPix Detector at Bonn Isochronous Cyclotron",
-      "url": "https://arxiv.org/abs/2608.20987",
-      "summary": "arXiv:2608.20987v1 Announce Type: new Abstract: The potential successor of the IXPE --- the EXPO or Enhanced X-ray Polarimetry Observatory will have a new X-ray polarimeter based on GridPix technology. To certify this de…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

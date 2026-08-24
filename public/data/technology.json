@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-24T19:31:21.351Z",
+  "updated": "2026-08-24T20:32:31.264Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -19,6 +19,24 @@
       "ts": 1787594408000,
       "publishedAt": "2026-08-24T18:00:08.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Perseverance Captures Another Phobos Transit",
+      "url": "https://science.nasa.gov/photojournal/perseverance-captures-another-phobos-transit/",
+      "summary": "Description NASA’s Perseverance Mars rover used its Mastcam-Z camera to capture the silhouette of Phobos, one of the two Martian moons, as it crossed in front of the Sun on Aug. 12, 2026, the 1,948th Martian day, or sol,…",
+      "ts": 1787594209000,
+      "publishedAt": "2026-08-24T17:56:49.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Starstruck: NASA Research Shows How Sun’s Ancient History Shaped Earth",
+      "url": "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/",
+      "summary": "At the center of our solar system, the Sun influences every planet that orbits it. In two recent NASA-funded studies, scientists uncovered how ancient events in the Sun’s history may have helped create Earth’s unique cli…",
+      "ts": 1787594037000,
+      "publishedAt": "2026-08-24T17:53:57.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -165,6 +183,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "Tory Bruno Named Honorary Chair Of World Space Week 2027",
       "url": "https://spacenews.com/tory-bruno-named-honorary-chair-of-world-space-week-2027/",
@@ -193,7 +220,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: FDA pauses Regenxbio gene therapy trial again due to safety concerns ",
+      "title": "STAT+: FDA pauses Regenxbio gene therapy trial again due to safety concerns",
       "url": "https://www.statnews.com/2026/08/24/fda-pauses-regenxbio-gene-therapy-trial-hunter-syndrome-safety-concerns/?utm_campaign=rss",
       "summary": "The FDA put a hold on a Regenxbio gene therapy trial again after new safety concerns emerged.",
       "ts": 1787572788000,
@@ -289,6 +316,15 @@
       "ts": 1787547600000,
       "publishedAt": "2026-08-24T05:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 24 – Comet 220P in Outburst",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-24-comet-220p-in-outburst/",
+      "summary": "APOD Science APOD APOD: 2026 August 24 – Comet… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1787544300000,
+      "publishedAt": "2026-08-24T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -775,42 +811,6 @@
       "ts": 1787313600000,
       "publishedAt": "2026-08-21T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Somalia: Humanitarian aid cuts leave millions of children vulnerable to hunger",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168184",
-      "summary": "The global funding crisis for humanitarian work is taking a growing toll on the most vulnerable children in Somalia, where some aid programmes and facilities have been forced to shut down.",
-      "ts": 1787313600000,
-      "publishedAt": "2026-08-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo Ebola outbreak spreading exponentially, UN responders warn",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168182",
-      "summary": "As the deadliest Ebola outbreak in DR Congo’s history continued spreading on Friday, UN responders renewed their urgent appeal for immediate international support, with existing funding for lifesaving work critically low…",
-      "ts": 1787313600000,
-      "publishedAt": "2026-08-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Mother tongue",
-      "url": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
-      "summary": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and s…",
-      "ts": 1787302800000,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "When AI designs a drug, who gets the credit?",
-      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-      "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its genera…",
-      "ts": 1787302800000,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
