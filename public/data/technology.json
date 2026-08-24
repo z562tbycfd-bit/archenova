@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-24T12:54:10.881Z",
+  "updated": "2026-08-24T13:53:34.936Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Medicaid obesity-drug coverage, a Regenxbio gene therapy, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss",
+      "summary": "President Trump’s pledge to make pricey weight loss drugs widely available for low-income Americans through Medicaid is not panning out",
+      "ts": 1787578581000,
+      "publishedAt": "2026-08-24T13:36:21.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "FDA plans to regulate generative AI",
@@ -28,6 +37,15 @@
       "ts": 1787572800000,
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan war: $22 million education boost to help 200,000 children",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168187",
+      "summary": "For millions of children in Sudan, the classroom remains out of reach as the country’s civil war continues to disrupt their education. To help tackle this huge problem, the UN global education fund on Monday announced a …",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -790,24 +808,6 @@
       "title": "Automatic bioinformatic software named entity recognition from literature",
       "url": "https://arxiv.org/abs/2608.19201",
       "summary": "arXiv:2608.19201v1 Announce Type: cross Abstract: Bioinformatics software and databases are essential components of modern life science research, yet their mentions in the scientific literature are often inconsistent and…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantum Kernel Estimation for the Discovery of Early Lung Cancer Detection",
-      "url": "https://arxiv.org/abs/2608.19304",
-      "summary": "arXiv:2608.19304v1 Announce Type: cross Abstract: Lung cancer screening with low-dose chest computed tomography reduces mortality, but its impact is limited by uptake, adherence, and management challenges. Blood-based ce…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Longitudinal Bayesian Learning of Continuous Disease Position across the Alzheimer's Disease Continuum",
-      "url": "https://arxiv.org/abs/2608.19436",
-      "summary": "arXiv:2608.19436v1 Announce Type: cross Abstract: Alzheimer's disease (AD) progresses as a continuous biological process, whereas most existing neuroimaging-based artificial intelligence methods remain limited to discret…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"

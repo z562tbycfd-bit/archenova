@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-24T12:54:08.562Z",
+  "updated": "2026-08-24T13:53:32.700Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New free-space optical link adds a wireless component to the nation's longest quantum network",
+      "url": "https://phys.org/news/2026-08-free-space-optical-link-wireless.html",
+      "summary": "There's a new lighthouse on Long Island. But instead of shining light to guide ships through waterways, this one transmits and receives particles of light that carry quantum information. Perched atop a seven-story buildi…",
+      "ts": 1787578980000,
+      "publishedAt": "2026-08-24T13:43:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long-term study reveals hidden threat of schistosomiasis in endangered chimpanzees",
+      "url": "https://phys.org/news/2026-08-term-reveals-hidden-threat-schistosomiasis.html",
+      "summary": "A 12-year study of rescued chimpanzees at the Ngamba Island Chimpanzee Sanctuary (NICS) in Uganda has revealed persistent intestinal schistosomiasis infections, highlighting the need for long-term disease surveillance to…",
+      "ts": 1787578803000,
+      "publishedAt": "2026-08-24T13:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dry landscapes and newly fallowed fields may raise California Valley fever risk",
+      "url": "https://phys.org/news/2026-08-dry-landscapes-newly-fallowed-fields.html",
+      "summary": "Researchers at UC San Diego and UC Berkeley have found that certain landscapes surrounding California communities are associated with differing rates of Valley fever, a fungal respiratory infection caused by inhaling spo…",
+      "ts": 1787578802000,
+      "publishedAt": "2026-08-24T13:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Immigration can bring small overall gains but uneven wage effects",
+      "url": "https://phys.org/news/2026-08-immigration-small-gains-uneven-wage.html",
+      "summary": "Immigration can produce a small economic gain for the native-born population overall while causing larger shifts in wages between different groups of workers, according to new research co-authored by King's Business Scho…",
+      "ts": 1787577605000,
+      "publishedAt": "2026-08-24T13:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 4-star system caught eclipsing itself in a way never seen before",
+      "url": "https://phys.org/news/2026-08-star-caught-eclipsing.html",
+      "summary": "Astronomers have found a four-star system doing something that has never been confirmed before. The system, TIC 433545934, has two close pairs of stars orbiting each other. While each pair eclipses its own two stars, as …",
+      "ts": 1787577001000,
+      "publishedAt": "2026-08-24T13:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to CT scan a 400-pound crocodile",
+      "url": "https://phys.org/news/2026-08-ct-scan-pound-crocodile.html",
+      "summary": "At 61, Bill had begun showing changes in his health—decreased appetite, weight loss and abdominal bloating. But his bloodwork was normal, leaving the cause of his symptoms unknown. The next step was clear: Bill should ge…",
+      "ts": 1787576404000,
+      "publishedAt": "2026-08-24T13:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia's bird flu response: Too little, but it's not too late",
+      "url": "https://phys.org/news/2026-08-australia-bird-flu-response-late.html",
+      "summary": "When news broke over the weekend that Australia's first mainland case of bird flu in a mammal—the death of a long-nosed fur seal—had been detected, I felt deep sadness and dread for what's likely to come next. We should …",
+      "ts": 1787576402000,
+      "publishedAt": "2026-08-24T13:00:02.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Personalized brain stimulation can ease chronic pain",
+      "url": "https://www.sciencenews.org/article/brain-stimulation-chronic-pain",
+      "summary": "A week-long brain mapping session can lead to lasting relief, a case series of three pain patients shows.",
+      "ts": 1787576400000,
+      "publishedAt": "2026-08-24T13:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "An AI job boom? Here's what the tedious, temporary work in data labeling is actually like",
@@ -735,70 +799,6 @@
       "title": "Symmetry Constrained Quantum Error Mitigation for the Schwinger Model",
       "url": "https://arxiv.org/abs/2608.21103",
       "summary": "arXiv:2608.21103v1 Announce Type: cross Abstract: Quantum error mitigation (QEM) is at the very heart of near-term quantum simulations and lattice gauge theories are no exceptions, rather their physical symmetries provid…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Matching Urban Flood Sensor Placement to Monitoring Objectives Using Bayesian Optimal Experimental Design",
-      "url": "https://arxiv.org/abs/2608.21182",
-      "summary": "arXiv:2608.21182v1 Announce Type: cross Abstract: Flood-monitoring sensors are often placed according to coverage, access, or expected inundation. However, the value of a measurement depends on the prediction or decision…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Meandering stripes in the frustrated $J_1$-$J_2$ Ising model on the honeycomb lattice",
-      "url": "https://arxiv.org/abs/2608.21261",
-      "summary": "arXiv:2608.21261v1 Announce Type: cross Abstract: We study the frustrated $J_1$-$J_2$ Ising model on the honeycomb lattice with ferromagnetic nearest-neighbor couplings fixed at $J_1=1$ and strong antiferromagnetic next-…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural quantum states in condensed matter: advances, best practices, and prospects",
-      "url": "https://arxiv.org/abs/2608.21291",
-      "summary": "arXiv:2608.21291v1 Announce Type: cross Abstract: Neural quantum states provide flexible variational representations of quantum many-body wave functions by combining neural-network parametrizations with Monte Carlo sampl…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics of localized solutions in three core coupled waveguides with quasi-periodic nonlinearity",
-      "url": "https://arxiv.org/abs/2608.21331",
-      "summary": "arXiv:2608.21331v1 Announce Type: cross Abstract: In this paper we investigate the behavior of localized solutions, specifically solitons, in a system of three coupled waveguides. The nonlinearity is modeled by a quasi-p…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A tunable photonic band gap resonator for axion dark matter searches",
-      "url": "https://arxiv.org/abs/2408.03861",
-      "summary": "arXiv:2408.03861v2 Announce Type: replace Abstract: Axions are a well-motivated dark matter candidate particle. Haloscopes aim to detect axions in the galactic halo by measuring the photon signal resulting from axions in…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fault-tolerant hyper-Ramsey spectroscopy of ultra-narrow clock transitions with dynamical decoupling",
-      "url": "https://arxiv.org/abs/2506.23091",
-      "summary": "arXiv:2506.23091v5 Announce Type: replace Abstract: A probe laser field that interrogates an atomic transition also shifts it. Although Hyper-Ramsey (HR) spectroscopy was developed to mitigate these light-induced frequen…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Computation of Stellarator Coils with an Augmented Lagrangian Optimization Method",
-      "url": "https://arxiv.org/abs/2507.12681",
-      "summary": "arXiv:2507.12681v3 Announce Type: replace Abstract: Finding feasible coils for stellarator fusion devices is a critical challenge of realizing this concept for future power plants. Current design efforts struggle to navi…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Matrix-free algorithms for fast ab initio calculations on distributed CPU architectures using finite-element discretization",
-      "url": "https://arxiv.org/abs/2512.08571",
-      "summary": "arXiv:2512.08571v3 Announce Type: replace Abstract: Finite-element (FE) discretisations have emerged as a powerful real-space alternative to large-scale Kohn-Sham density functional theory (DFT) calculations, offering sy…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }
