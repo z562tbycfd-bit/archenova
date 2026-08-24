@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-24T08:50:36.914Z",
+  "updated": "2026-08-24T09:50:22.902Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Engineered yeasts help turn PET plastic and crop waste into protein-rich cookies",
+      "url": "https://phys.org/news/2026-08-yeasts-pet-plastic-crop-protein.html",
+      "summary": "Plastic might be the last ingredient you would ever add to a cookie recipe. But a team of researchers is looking to change that. They've programmed yeasts to turn plastic and agricultural waste into edible proteins and f…",
+      "ts": 1787562007000,
+      "publishedAt": "2026-08-24T09:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoparticle flu vaccine protects against three influenza strains in mice",
+      "url": "https://phys.org/news/2026-08-nanoparticle-flu-vaccine-influenza-strains.html",
+      "summary": "A new nanoparticle vaccine could one day give patients immunity to the flu with fewer trips to the doctor and without requiring health officials to correctly guess which flu strains will become dominant each year.",
+      "ts": 1787562003000,
+      "publishedAt": "2026-08-24T09:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Motor neurons don’t just move muscles. They may direct that motion too",
+      "url": "https://www.sciencenews.org/article/motor-neurons-muscles-motion",
+      "summary": "A fruit fly study shows motor neurons do more than relay commands: They send signals back to the brain and organize movement sequences.",
+      "ts": 1787562000000,
+      "publishedAt": "2026-08-24T09:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "China says unmanned moon mission delayed over 'launch conditions'",
@@ -775,30 +799,6 @@
       "title": "The Impossibility of Cohesion Without Fragmentation",
       "url": "https://arxiv.org/abs/2601.15317",
       "summary": "arXiv:2601.15317v3 Announce Type: replace Abstract: Accounts of social division and cohesion presuppose relations whose maintenance already depends on positional compatibility. We develop this feasibility layer as a stat…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-photon-excited fluorescence spectroscopy of Rb atoms in a magneto-optical trap",
-      "url": "https://arxiv.org/abs/2602.07161",
-      "summary": "arXiv:2602.07161v2 Announce Type: replace Abstract: We report the results of two-photon-excited fluorescence (TPEF) measurements of the $5\\mathrm{S}_{1/2} \\rightarrow 5\\mathrm{D}_{5/2}$ transition of $^{85}$Rb and $^{87}…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Valley-peak modulation in phase space: a law-invariant VPM and its theta-function structure",
-      "url": "https://arxiv.org/abs/2603.01199",
-      "summary": "arXiv:2603.01199v3 Announce Type: replace Abstract: Valley-peak modulation (VPM) was introduced as a metric for quantifying read noise in deep sub-electron read noise (DSERN) CMOS image sensors. In its original amplitude…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-corrected NMR crystallography at scale",
-      "url": "https://arxiv.org/abs/2603.06236",
-      "summary": "arXiv:2603.06236v2 Announce Type: replace Abstract: Structure determination by chemical-shift-driven NMR crystallography relies on comparing chemical shieldings measured in solid-state NMR experiments with simulations. H…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

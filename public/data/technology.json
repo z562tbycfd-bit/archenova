@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-24T08:50:39.338Z",
+  "updated": "2026-08-24T09:50:25.322Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Kids outlearn AI—and we still don’t know why",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child…",
+      "ts": 1787562000000,
+      "publishedAt": "2026-08-24T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Inside Moderna and Merck’s cancer vaccine triumph",
@@ -799,15 +808,6 @@
       "title": "Climate change and human mobility will shape dengue emergence risk in Europe",
       "url": "https://arxiv.org/abs/2608.20079",
       "summary": "arXiv:2608.20079v1 Announce Type: cross Abstract: The risk of local arbovirus outbreaks in Europe is expected to increase due to climate change, as suggested by the multiplication of arbovirus outbreaks in the last decad…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Growth phases of an active tissue: determinate, indeterminate, and proportionate",
-      "url": "https://arxiv.org/abs/2608.20091",
-      "summary": "arXiv:2608.20091v1 Announce Type: cross Abstract: Growth may cease at a target size or continue throughout life: the determinate and indeterminate phenotypes. We develop an active viscoelastic continuum model of a tissue…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"
