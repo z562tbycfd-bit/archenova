@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-24T22:28:21.735Z",
+  "updated": "2026-08-24T23:24:17.081Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Natural gas drilling could raise salt levels, in turn boosting radium in water",
+      "url": "https://phys.org/news/2026-08-natural-gas-drilling-salt-boosting.html",
+      "summary": "Pennsylvania ranks second in U.S. natural gas production, accounting for about one-fifth of U.S. output in 2024, and has one of the most extensive histories of energy extraction in the country. A team of researchers from…",
+      "ts": 1787613602000,
+      "publishedAt": "2026-08-24T23:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA starshade would enable astronomers to directly image rocky exoworlds",
+      "url": "https://phys.org/news/2026-08-nasa-starshade-enable-astronomers-image.html",
+      "summary": "A NASA-led team hopes to take a shortcut to direct imaging of extrasolar Earth-like planets. The idea is to use what they call a hybrid telescope composed of an orbital starshade coupled with the next-generation extremel…",
+      "ts": 1787613601000,
+      "publishedAt": "2026-08-24T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Meteorite dust holds records of magnetism that may have helped form the sun",
+      "url": "https://phys.org/news/2026-08-meteorite-magnetism-sun.html",
+      "summary": "Around 4.6 billion years ago, the solar system was little more than a giant ball of gas and dust. Over the next few million years, this \"solar nebula\" underwent a huge transformation, flattening into a disk of matter tha…",
+      "ts": 1787613001000,
+      "publishedAt": "2026-08-24T23:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How fusion reactions can survive flaws—up to a point",
+      "url": "https://phys.org/news/2026-08-fusion-reactions-survive-flaws.html",
+      "summary": "Researchers at Lawrence Livermore National Laboratory (LLNL) have found that implosions designed for inertial fusion energy (IFE) can tolerate significant imperfections before performance abruptly declines, a finding tha…",
+      "ts": 1787612401000,
+      "publishedAt": "2026-08-24T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the sun's galactic journey and superflare-filled youth shaped Earth's climate",
+      "url": "https://phys.org/news/2026-08-sun-galactic-journey-superflare-youth.html",
+      "summary": "At the center of our solar system, the sun influences every planet that orbits it. In two recent studies, scientists uncovered how ancient events in the sun's history may have helped create Earth's unique climate and dri…",
+      "ts": 1787611801000,
+      "publishedAt": "2026-08-24T22:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why marine heat waves and acidification strike together",
+      "url": "https://phys.org/news/2026-08-marine-acidification.html",
+      "summary": "Marine heat waves and extreme ocean acidification events are each damaging on their own. But when both stressors hit simultaneously, their individual effects can be exacerbated.",
+      "ts": 1787611201000,
+      "publishedAt": "2026-08-24T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Supersized quantum sensors make faint photons easier to catch",
+      "url": "https://phys.org/news/2026-08-supersized-quantum-sensors-faint-photons.html",
+      "summary": "Our everyday life is flooded with photons, the quantum building blocks of light. For cutting-edge technology, from quantum computing to deep-tissue imaging, detecting every single photon counts.",
+      "ts": 1787610601000,
+      "publishedAt": "2026-08-24T22:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Catching cow burps in real time: Methane sensor matches industry monitor in early field test",
@@ -635,6 +691,62 @@
       "publishedAt": "2026-08-24T11:00:03.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Particle View of Many-Body Electronic Structure with Neural Network Wave Function",
+      "url": "http://link.aps.org/doi/10.1103/g6v2-grnl",
+      "summary": "Author(s): Zichen Wang, Weizhong Fu, Zhe Li, Weiluo Ren, and Ji Chen A combination of theoretical approaches bridges the gap between complex quantum wave functions and the classical picture of electron positions for mole…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Real-Space Visualization of the Intrinsic Aging in $n$-type ${\\mathrm{Mg}}_{3}(\\mathrm{Sb},\\mathrm{Bi}{)}_{2}$ Thermoelectrics",
+      "url": "http://link.aps.org/doi/10.1103/gl3r-hxtm",
+      "summary": "Author(s): Yuxiang Gong, Nuo Qu, Sumayya, Yu-Ke Zhu, Jianbo Zhu, Tinglu Song, Qianru Lin, Lankun Wang, Ran Xin, Fengkai Guo, Wei Cai, Yuan Yu, Jiehe Sui, and Zihang Liu Spontaneous degradation of an Mg3(Sb,Bi)2 thermoele…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Electromechanical coupling at tunable band extrema in flexoelectric metamaterials",
+      "url": "http://link.aps.org/doi/10.1103/666q-r3hv",
+      "summary": "Author(s): Kshiteej J. Deshmukh, Ihina Mahajan, Alper Erturk, and Pradeep Sharma Stopping and localizing elastic waves can concentrate energy for high-sensitivity sensing and harvesting, but this often requires intricate…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Real-time amplitude and phase estimation of ac magnetic fields with spins in diamond",
+      "url": "http://link.aps.org/doi/10.1103/d5bm-lsjj",
+      "summary": "Author(s): C. T.-K. Lew, S. A. Wilkinson, N. Gillespie, B. C. Gibson, D. A. Broadway, and J.-P. Tetienne Nitrogen-vacancy (NV) centers in diamond have been shown to be capable of detecting ac magnetic fields with high se…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Dispersive Hong-Ou-Mandel interference with finite coincidence windows",
+      "url": "http://link.aps.org/doi/10.1103/7qgl-v5ld",
+      "summary": "Author(s): T. J. Walstra, A. J. Hasenack, D. J. de Ruiter, P. W. H. Pinkse, T. D. Bradley, and B. Škorić Hong-Ou-Mandel (HOM) interference is a fundamental tool for assessing photon indistinguishability in quantum inform…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "High-fidelity, robust, and programmable quantum logic units via intersubspace dynamical decoupling",
+      "url": "http://link.aps.org/doi/10.1103/l2l1-632m",
+      "summary": "Author(s): Yao Song, Junkai Zeng, Guangchong Hu, Yu He, and Xiu-Hao Deng Scalable quantum computing in frequency-crowded nuclear spin registers promises long coherence times and native many-body logic. However, as system…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Battery-free wireless quartz-crystal-microbalance sensor operating at a range of 50 m",
+      "url": "http://link.aps.org/doi/10.1103/wv9d-w2fv",
+      "summary": "Author(s): Motoyuki Hamana, Ambuj Kumar Gautam, Motoharu Haga, Riki Nishihara, Wenlou Yuan, Fumihito Kato, Nobutomo Nakamura, Hiroki Okita, and Hirotsugu Ogi Starting from a quartz-crystal microbalance, the authors devel…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "First-Order Phase Transition in Atom-Molecule Quantum Degenerate Mixtures with Coherent Three-Body Recombination",
       "url": "http://link.aps.org/doi/10.1103/llw4-tbnt",
@@ -689,118 +801,6 @@
       "summary": "A new nanoparticle vaccine could one day give patients immunity to the flu with fewer trips to the doctor and without requiring health officials to correctly guess which flu strains will become dominant each year.",
       "ts": 1787562003000,
       "publishedAt": "2026-08-24T09:00:03.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "Motor neurons don’t just move muscles. They may direct that motion too",
-      "url": "https://www.sciencenews.org/article/motor-neurons-muscles-motion",
-      "summary": "A fruit fly study shows motor neurons do more than relay commands: They send signals back to the brain and organize movement sequences.",
-      "ts": 1787562000000,
-      "publishedAt": "2026-08-24T09:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "China says unmanned moon mission delayed over 'launch conditions'",
-      "url": "https://phys.org/news/2026-08-china-unmanned-moon-mission-delayed.html",
-      "summary": "China's manned space agency said Sunday it is delaying a research moon mission that is part of Beijing's efforts to land a crew there by 2030, less than two weeks after a rare launch failure.",
-      "ts": 1787555401000,
-      "publishedAt": "2026-08-24T07:10:01.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-reciprocal heat transfer advances flexible thermoelectric devices",
-      "url": "https://arxiv.org/abs/2608.20386",
-      "summary": "arXiv:2608.20386v1 Announce Type: new Abstract: Complex heat dissipation assemblies, inferior performance, and limited flexibility are the primary constraints impeding the wide application and commercialization of conven…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Effective Gravitational Field of the Ball in Association Football",
-      "url": "https://arxiv.org/abs/2608.20395",
-      "summary": "arXiv:2608.20395v1 Announce Type: new Abstract: In association football, collective player motion is organized around the ball. We ask whether this many-agent response can be described by an effective field analogous to …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
-      "url": "https://arxiv.org/abs/2608.20438",
-      "summary": "arXiv:2608.20438v1 Announce Type: new Abstract: Population-level behavior in large-language-model (LLM) agents cannot be characterized by single-agent benchmarks. We introduce PV-SST, a peer-voted social-platform testbed…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time ESR tracking for sub-micron 3D magnetic mapping with VB- quantum sensors in hexagonal boron nitride",
-      "url": "https://arxiv.org/abs/2608.20502",
-      "summary": "arXiv:2608.20502v1 Announce Type: new Abstract: The discovery of spin-dependent luminescent properties of negatively charged boron-vacancy centers ($V^-_B$) in hexagonal boron nitride (hBN) enabled a new platform for qua…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrostatic Influence of Diamond Heat-Spreaders on GaN FET Performance",
-      "url": "https://arxiv.org/abs/2608.20506",
-      "summary": "arXiv:2608.20506v1 Announce Type: new Abstract: Diamond, with its exceptional thermal conductivity, is widely explored as a heat spreader to improve thermal management in GaN-based power and RF electronics. In this work,…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An integrated diffusion-weighted imaging processing and interpretation platform for MR-guided radiotherapy",
-      "url": "https://arxiv.org/abs/2608.20519",
-      "summary": "arXiv:2608.20519v1 Announce Type: new Abstract: Background: Magnetic resonance imaging-guided linear accelerators (MR-Linacs) allow diffusion-weighted imaging (DWI) to be acquired at every treatment fraction, but convert…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large Scale AI Grading of Handwritten Physics Assessments: Score Agreement and Olympiad Team Selection Outcomes",
-      "url": "https://arxiv.org/abs/2608.20521",
-      "summary": "arXiv:2608.20521v1 Announce Type: new Abstract: Multimodal AI can read handwritten physics solutions, but high-stakes grading requires agreement with official scores and outcomes. This study evaluated GPT-5.5-based gradi…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GOES-East full-disk AI nowcasting of cloud evolution in observation space",
-      "url": "https://arxiv.org/abs/2608.20540",
-      "summary": "arXiv:2608.20540v1 Announce Type: new Abstract: Clouds affect aviation, solar energy, remote sensing, and storm prediction, yet they remain among the hardest atmospheric features to forecast, particularly at convective s…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact Scaling Theory of Social Tipping Phenomena in Finite Populations",
-      "url": "https://arxiv.org/abs/2608.20555",
-      "summary": "arXiv:2608.20555v1 Announce Type: new Abstract: Granovetter's threshold model provides a classical framework for social mobilization, where collective action spreads through cascades as individuals join once movement siz…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beat-spectrum design for 100-km-range optical correlation-domain reflectometry with localized 15-cm resolution",
-      "url": "https://arxiv.org/abs/2608.20565",
-      "summary": "arXiv:2608.20565v1 Announce Type: new Abstract: Conventional optical correlation-domain reflectometry (OCDR) based on sinusoidal frequency modulation exhibits a coupling between measurement range and spatial resolution b…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Actuator Disk Models reproduce Actuator Line Model power and thrust fluctuation statistics in wind farm simulations",
-      "url": "https://arxiv.org/abs/2608.20568",
-      "summary": "arXiv:2608.20568v1 Announce Type: new Abstract: Actuator-disk models (ADM) are widely used in wind-farm simulations, but their accuracy in reproducing power and thrust temporal fluctuation statistics has not yet been com…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Plasmonic Modes and Thermophysical Properties on the Double-Pulse Structuring of Highly-Ordered LIPSS for Biosensing Applications",
-      "url": "https://arxiv.org/abs/2608.20573",
-      "summary": "arXiv:2608.20573v1 Announce Type: new Abstract: The fabrication of highly ordered laser-induced periodic surface structures (LIPSS) on thin metallic films is dictated, predomaninatly, by a synergy of periodic electromagn…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
     }
   ],
   "sources": [
