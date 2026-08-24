@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-24T17:32:32.402Z",
+  "updated": "2026-08-24T18:42:21.066Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mapping thorium's preferred sites could pave the way for nuclear clocks",
+      "url": "https://phys.org/news/2026-08-thorium-sites-pave-nuclear-clocks.html",
+      "summary": "For decades, physicists have used a technique called Mössbauer spectroscopy to peer inside solid materials, revealing fine details of their surroundings by studying how their atomic nuclei absorb and re-emit gamma rays.",
+      "ts": 1787596804000,
+      "publishedAt": "2026-08-24T18:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fish DNA in Ozark streams reveals region's complex geologic history",
+      "url": "https://phys.org/news/2026-08-fish-dna-ozark-streams-reveals.html",
+      "summary": "My students and I encountered a mystery. We were partnering with the Missouri Department of Conservation to monitor for fish presence and abundance in the Missouri Ozarks. We visited half a dozen rivers and streams acros…",
+      "ts": 1787596802000,
+      "publishedAt": "2026-08-24T18:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mule helps scientists build the clearest horse and donkey genomes yet",
+      "url": "https://phys.org/news/2026-08-mule-scientists-clearest-horse-donkey.html",
+      "summary": "A mule has helped researchers build the most complete reference genomes to date for horses and donkeys, giving scientists access to complex regions of DNA that earlier versions could not fully capture.",
+      "ts": 1787595604000,
+      "publishedAt": "2026-08-24T18:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A single lever could ease India's twin agricultural pressures of fertilizer pollution and groundwater stress",
+      "url": "https://phys.org/news/2026-08-lever-ease-india-twin-agricultural.html",
+      "summary": "A new study from the Indian Institute of Technology Gandhinagar (IITGN) and the Helmholtz Centre for Environmental Research (UFZ) has shown that redesigning India's cereal cultivation patterns around nitrogen management …",
+      "ts": 1787595602000,
+      "publishedAt": "2026-08-24T18:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 2-degree twist creates a nanoscale grid that traps light energy at room temperature",
+      "url": "https://phys.org/news/2026-08-degree-nanoscale-grid-energy-room.html",
+      "summary": "You may have once tried taking a close-up picture of a computer screen and noticed a wavy, rippling effect. This optical effect occurs whenever two fine, repeating grids overlap and slightly misalign, such as when the pi…",
+      "ts": 1787594403000,
+      "publishedAt": "2026-08-24T18:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study uses the internet of bodies to gauge film's emotional power",
+      "url": "https://phys.org/news/2026-08-internet-bodies-gauge-emotional-power.html",
+      "summary": "Research in the International Journal of Arts and Technology monitored electrical brain activity and heart rates in people watching patriotically themed Chinese films. The researchers found that the main incidental music…",
+      "ts": 1787594401000,
+      "publishedAt": "2026-08-24T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Five ways Europe's heat-wave summer is hot, hot, hot",
+      "url": "https://phys.org/news/2026-08-ways-europe-summer-hot.html",
+      "summary": "Temperatures have been off the charts this year in Europe, the continent warming faster than any other continent. Here are five reasons why Europe's summer of 2026 will go down in the history of climate change:",
+      "ts": 1787593206000,
+      "publishedAt": "2026-08-24T17:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One step closer to the ideal glass—simulations reveal hidden order at absolute zero",
+      "url": "https://phys.org/news/2026-08-closer-ideal-glass-simulations-reveal.html",
+      "summary": "In the physical sense, glass is not limited to familiar window glass; it forms whenever a liquid is cooled so quickly that it cannot crystallize. As a result, glass has an amorphous structure—that is, its \"building block…",
+      "ts": 1787593203000,
+      "publishedAt": "2026-08-24T17:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Cowpea plants create underground defense system for the next generation after insect attacks",
@@ -735,70 +799,6 @@
       "title": "Intracavity Photon Statistics from Correlated Molecular Electronic Structure",
       "url": "https://arxiv.org/abs/2608.21071",
       "summary": "arXiv:2608.21071v1 Announce Type: new Abstract: Quantum optics characterizes light through photon correlations, but ab initio cavity quantum electrodynamics (QED) has only calculated raw field moments at present. In this…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstruction Bias in Timepix4 Subpixel Centroiding for Electron Imaging",
-      "url": "https://arxiv.org/abs/2608.21072",
-      "summary": "arXiv:2608.21072v1 Announce Type: new Abstract: Subpixel centroiding is widely used to improve the spatial resolution of hybrid pixel detectors for electron imaging by estimating the true interaction position within an e…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow-based surrogate models for particle tracking",
-      "url": "https://arxiv.org/abs/2608.21080",
-      "summary": "arXiv:2608.21080v1 Announce Type: new Abstract: Particle tracking is a fundamental tool for particle-accelerator design and optimisation. Conventional tracking routines provide high accuracy but are computationally deman…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Remote sensing of the temporal and spatial variability of atmospheric refractivity using ADS-B interferometry (ADSBi)",
-      "url": "https://arxiv.org/abs/2608.21108",
-      "summary": "arXiv:2608.21108v1 Announce Type: new Abstract: The extreme variability of humidity in the lower atmosphere over short spatial and temporal scales presents an enormous challenge for existing observing systems. Variations…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Timbuktu to SKA: Who owns the Astronomy knowledge Africa produces?",
-      "url": "https://arxiv.org/abs/2608.21119",
-      "summary": "arXiv:2608.21119v1 Announce Type: new Abstract: Africa has deep and diverse traditions of astronomical knowledge, ranging from archaeological astronomy, pharaonic stellar timekeeping, and manuscript astronomy in Timbuktu…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neuromorphic Infrared Fibre-Optic Event-Based Sensing with Fast and Efficient Photonic-Electronic Spiking Neurons",
-      "url": "https://arxiv.org/abs/2608.21124",
-      "summary": "arXiv:2608.21124v1 Announce Type: new Abstract: Current photonic technologies for remote sensing require the capture of large amounts of data, suffering as a result from high energy consumption, excessive data redundancy…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Preventing quart-NaI adhesion in Bridgman growth using ammonium iodide",
-      "url": "https://arxiv.org/abs/2608.21171",
-      "summary": "arXiv:2608.21171v1 Announce Type: new Abstract: Adhesion between NaI(Tl) single crystals and the walls of quartz ampoules remains a major limitation for Bridgman growth under sealed conditions, particularly for applicati…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Fourier Neural Operator for Accelerated Discretization-Invariant Solutions of the Radiative Transfer Equation",
-      "url": "https://arxiv.org/abs/2608.21173",
-      "summary": "arXiv:2608.21173v1 Announce Type: new Abstract: The radiative transfer equation (RTE) governs thermal radiation in participating media, which is critical to modeling combustion, atmospheric, high-temperature, and radiati…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First step toward multi machine ELM energy scalings and extrapolations to SPARC and ITER",
-      "url": "https://arxiv.org/abs/2608.21179",
-      "summary": "arXiv:2608.21179v1 Announce Type: new Abstract: It is shown that the ELM energy loss normalized by the plasma stored energy ({\\Delta}EELM/Wplasma) for high-density small/QCE ELM regimes scales inversely with the separatr…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

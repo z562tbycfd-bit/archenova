@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-24T17:32:34.603Z",
+  "updated": "2026-08-24T18:42:23.228Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Male Sex Hormones Suppress Lung Allergies by Acting on Neurons in Mice",
+      "url": "https://www.genengnews.com/topics/translational-medicine/male-sex-hormones-suppress-lung-allergies-by-acting-on-neurons-in-mice/",
+      "summary": "A study in mice found that male sex hormones can suppress allergic responses by promoting sympathetic nerve connections and norepinephrine release in the lungs. The post Male Sex Hormones Suppress Lung Allergies by Actin…",
+      "ts": 1787594408000,
+      "publishedAt": "2026-08-24T18:00:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Reid Wiseman at Freedom 250 Grand Prix",
+      "url": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-at-freedom-250-grand-prix/",
+      "summary": "NASA astronaut and Artemis II commander Reid Wiseman is seen in the two-seat IndyCar as he prepares for driver Conor Daly to take him on a lap ahead of the start of the Freedom 250 Grand Prix, Sunday, Aug. 23, 2026, in W…",
+      "ts": 1787592849000,
+      "publishedAt": "2026-08-24T17:34:09.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Aerospace demonstrates DiskSats in low-Earth orbit",
@@ -9,6 +27,24 @@
       "summary": "SALT LAKE CITY – The Aerospace Corp. is continuing to demonstrate the viability of pancake-shaped DiskSats in the wake of their December launch on a Rocket Lab Electron. “It’s the […] The post Aerospace demonstrates Disk…",
       "ts": 1787592600000,
       "publishedAt": "2026-08-24T17:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "MAIA Air Sensor at Work in Addis Ababa",
+      "url": "https://science.nasa.gov/photojournal/maia-air-sensor-at-work-in-addis-ababa/",
+      "summary": "Description This roof-mounted air sensor in Addis Ababa, the capital of Ethiopia, is one of 10 used by NASA’s Multi-Angle Imager for Aerosols (MAIA) to study the city’s air quality. MAIA’s air sensors provide a detailed …",
+      "ts": 1787592421000,
+      "publishedAt": "2026-08-24T17:27:01.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Mapping Air Pollution With MAIA Sensors in Addis Ababa",
+      "url": "https://science.nasa.gov/photojournal/mapping-air-pollution-with-maia-sensors-in-addis-ababa/",
+      "summary": "Description This map of Addis Ababa, the capital of Ethiopia, shows the locations of 10 air sensors that NASA’s Multi-Angle Imager for Aerosols (MAIA) mission is using to provide one of the most detailed looks ever at th…",
+      "ts": 1787592088000,
+      "publishedAt": "2026-08-24T17:21:28.000Z",
       "categoryId": "space"
     },
     {
@@ -775,42 +811,6 @@
       "ts": 1787302800000,
       "publishedAt": "2026-08-21T09:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Landspace aims to refly recovered Zhuque-3 booster within six months",
-      "url": "https://spacenews.com/landspace-aims-to-refly-recovered-zhuque-3-booster-within-six-months/",
-      "summary": "HELSINKI — Chinese commercial launch firm Landspace is targeting a reflight of its Zhuque-3 first stage in months, following its historic successful vertical landing Aug. 18. A company representative told […] The post La…",
-      "ts": 1787302451000,
-      "publishedAt": "2026-08-21T08:54:11.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Focal therapy for localized prostate cancer has divided physicians. Will new data change minds?",
-      "url": "https://www.statnews.com/2026/08/21/focal-therapy-prostate-cancer-still-experimental-or-viable-alternative/?utm_campaign=rss",
-      "summary": "Urologic oncologists who treat prostate cancer are split over the benefits of focal therapy compared to traditional surgery or radiation.",
-      "ts": 1787301000000,
-      "publishedAt": "2026-08-21T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Lil Nas X’s bipolar diagnosis and the paradox of treatment",
-      "url": "https://www.statnews.com/2026/08/21/lil-nas-xs-bipolar-diagnosis-treatment-medication-achievement/?utm_campaign=rss",
-      "summary": "We continue to romanticize the symptoms of mental health problems, especially when we talk about achievement.",
-      "ts": 1787301000000,
-      "publishedAt": "2026-08-21T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: A cure for HIV would be a triumph. But it shouldn’t harm survivors",
-      "url": "https://www.statnews.com/2026/08/21/hiv-cure-survivors-harm-benefits-research-ryan-white-hiv-aids-program/?utm_campaign=rss",
-      "summary": "Long-term survivors deserve to see a cure, not fear the losses it might bring.",
-      "ts": 1787301000000,
-      "publishedAt": "2026-08-21T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
