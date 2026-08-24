@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-24T16:40:11.958Z",
+  "updated": "2026-08-24T17:32:32.402Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Cowpea plants create underground defense system for the next generation after insect attacks",
+      "url": "https://phys.org/news/2026-08-cowpea-underground-defense-generation-insect.html",
+      "summary": "Plants might seem helpless when it comes to insect attacks, but they are known to employ various techniques to deter pests. One of these techniques involves sending out signals to recruit parasitoid wasps, and a new stud…",
+      "ts": 1787592601000,
+      "publishedAt": "2026-08-24T17:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "South Africa produces enough food, yet millions face hunger. Better cold storage could help change that",
+      "url": "https://phys.org/news/2026-08-south-africa-food-millions-hunger.html",
+      "summary": "South Africa can produce enough food for its population, according to official statistics. But millions face hunger, partly because food is lost and wasted in the value chain. An estimated 10.3 million metric tons of foo…",
+      "ts": 1787592006000,
+      "publishedAt": "2026-08-24T17:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mechanical memory helps explain how cells adapt their movement to changing environments",
+      "url": "https://phys.org/news/2026-08-mechanical-memory-cells-movement-environments.html",
+      "summary": "Cells in our bodies squeeze through dense tissue channels, thread past neighboring cells and navigate every nook and cranny within the extracellular matrix—the mesh-like network that surrounds and supports cells. How wel…",
+      "ts": 1787592002000,
+      "publishedAt": "2026-08-24T17:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Corners in focus: Metasurface enables motion tracking without digital image processing",
+      "url": "https://phys.org/news/2026-08-corners-focus-metasurface-enables-motion.html",
+      "summary": "A research team at City University of Hong Kong (CityUHK) has developed a new optical corner-detection imaging method that uses azimuthal Hilbert transform metasurfaces and is designed to work as a universal framework. T…",
+      "ts": 1787590806000,
+      "publishedAt": "2026-08-24T17:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What live sewage spill data does (and doesn't) tell us about water pollution",
+      "url": "https://phys.org/news/2026-08-sewage-doesnt-pollution.html",
+      "summary": "During periods of heavy rainfall, pipes known as storm overflows aim to prevent excess water from overflowing into the sewage system. But this is not always the case.",
+      "ts": 1787590801000,
+      "publishedAt": "2026-08-24T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The world inches toward catastrophic climate events: 'Bigger shocks are on the way'",
+      "url": "https://phys.org/news/2026-08-world-inches-catastrophic-climate-events.html",
+      "summary": "In the opening scene of American writer Kim Stanley Robinson's \"The Ministry for the Future,\" a heat wave combined with a breakdown of the electrical grid in India kills 20 million people. The devastation causes the worl…",
+      "ts": 1787589773000,
+      "publishedAt": "2026-08-24T16:42:53.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Listening to the bush: How AI can help NZ rid its wilderness of 'hold‑out' pest possums",
+      "url": "https://phys.org/news/2026-08-bush-ai-nz-wilderness-holdout.html",
+      "summary": "Possums are among New Zealand's most destructive introduced mammals. They damage native forests, prey on wildlife and remain a major target of the country's Predator Free 2050 program.",
+      "ts": 1787589611000,
+      "publishedAt": "2026-08-24T16:40:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can satellites detect when forests lose resilience?",
+      "url": "https://phys.org/news/2026-08-satellites-forests-resilience.html",
+      "summary": "For years, scientists have been using a method called \"temporal autocorrelation (TAC)\" to measure forest resilience using satellite data. However, scientists have not used TAC uniformly, and its use as a resilience indic…",
+      "ts": 1787589605000,
+      "publishedAt": "2026-08-24T16:40:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Soil bacteria share amino acids, helping nearly half survive nutrient gaps",
@@ -735,70 +799,6 @@
       "title": "First step toward multi machine ELM energy scalings and extrapolations to SPARC and ITER",
       "url": "https://arxiv.org/abs/2608.21179",
       "summary": "arXiv:2608.21179v1 Announce Type: new Abstract: It is shown that the ELM energy loss normalized by the plasma stored energy ({\\Delta}EELM/Wplasma) for high-density small/QCE ELM regimes scales inversely with the separatr…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shaping liquids into space structures - microgravity-assisted design and manufacturing of minimal surfaces",
-      "url": "https://arxiv.org/abs/2608.21190",
-      "summary": "arXiv:2608.21190v1 Announce Type: new Abstract: This work advances a fundamentally new approach to space-based construction by using liquid self organization in microgravity as a generative design and fabrication princip…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Droplet coalescence in fluids obeying Darcy's law",
-      "url": "https://arxiv.org/abs/2608.21192",
-      "summary": "arXiv:2608.21192v1 Announce Type: new Abstract: During drop coalescence, a connecting bridge of fluid forms and rapidly expands due to surface tension. For spherical drops, these dynamics are well understood in both the …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Variational Principle for the Vorticity Equation",
-      "url": "https://arxiv.org/abs/2608.21279",
-      "summary": "arXiv:2608.21279v1 Announce Type: new Abstract: We present a variational formulation of the incompressible vorticity equation based on Gauss's principle of least constraint using the Gauss constraint functional $\\Zvec_\\o…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Oblique Bragg-Doppler scattering at relativistic grating created by backward Raman amplification in hydrogen",
-      "url": "https://arxiv.org/abs/2608.21282",
-      "summary": "arXiv:2608.21282v1 Announce Type: new Abstract: We report the first observation of relativistic \"Bragg-Doppler\" reflection, which occurs when a light beam is incident on a fine-period phase grating moving at close to the…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine-Learned NMR Shieldings in Molecular Solids with Built-In Hybrid-Functional Molecular Corrections",
-      "url": "https://arxiv.org/abs/2608.21313",
-      "summary": "arXiv:2608.21313v1 Announce Type: new Abstract: Fast and accurate chemical shielding estimators are essential for shielding-driven Nuclear Magnetic Resonance (NMR) crystallography. Machine-learning models for shielding p…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning predictions of the Hessian matrix for peptides chains and small proteins",
-      "url": "https://arxiv.org/abs/2608.21322",
-      "summary": "arXiv:2608.21322v1 Announce Type: new Abstract: Molecular Hessians have a key role in describing molecular vibrations, trajectories and optimization paths. An explicit calculation of them through standard quantum mechani…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magic Velocity Selection in Atom Interferometry",
-      "url": "https://arxiv.org/abs/2608.21350",
-      "summary": "arXiv:2608.21350v1 Announce Type: new Abstract: Velocity-selective Raman transitions are widely used in atom interferometers to prepare atomic ensembles with narrowly defined momentum distributions. However, differential…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting the hydromechanical formulation of a micromechanics-based phase-field model for poro-elastoplastic media",
-      "url": "https://arxiv.org/abs/2608.20422",
-      "summary": "arXiv:2608.20422v1 Announce Type: cross Abstract: Even for tension-dominated fracture propagation, porous materials may deform plastically adjacent to the propagating fracture. As is common for porous materials, existing…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

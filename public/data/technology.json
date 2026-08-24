@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-24T16:40:17.682Z",
+  "updated": "2026-08-24T17:32:34.603Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Aerospace demonstrates DiskSats in low-Earth orbit",
+      "url": "https://spacenews.com/aerospace-demonstrates-disksats-in-low-earth-orbit/",
+      "summary": "SALT LAKE CITY – The Aerospace Corp. is continuing to demonstrate the viability of pancake-shaped DiskSats in the wake of their December launch on a Rocket Lab Electron. “It’s the […] The post Aerospace demonstrates Disk…",
+      "ts": 1787592600000,
+      "publishedAt": "2026-08-24T17:30:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Rznomics Joins Lilly Gateway Labs to Quicken RNA Therapeutic Candidate Discovery and Development",
@@ -802,15 +811,6 @@
       "ts": 1787301000000,
       "publishedAt": "2026-08-21T08:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Sentinel-1 captures major ice loss from Greenland glacier",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier",
-      "summary": "Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026. The event mark…",
-      "ts": 1787300520000,
-      "publishedAt": "2026-08-21T08:22:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
