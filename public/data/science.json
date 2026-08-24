@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-24T10:38:51.875Z",
+  "updated": "2026-08-24T11:31:10.624Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Recycling meat waste may help bring cultivated meat to market",
+      "url": "https://phys.org/news/2026-08-recycling-meat-cultivated.html",
+      "summary": "Researchers found microalgae can be grown using waste from cultivated meat production, then processed and fed back into the system, replacing some of the expensive ingredients needed to grow new meat cells.",
+      "ts": 1787570401000,
+      "publishedAt": "2026-08-24T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds food insecurity remains in historically redlined neighborhoods",
+      "url": "https://phys.org/news/2026-08-food-insecurity-historically-redlined-neighborhoods.html",
+      "summary": "Bad housing, high crime and poor schools are more important than transportation or income when it comes to accessing healthy food in neighborhoods historically subjected to \"redlining\"—the now-illegal practice once used …",
+      "ts": 1787569203000,
+      "publishedAt": "2026-08-24T11:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Engineered yeasts help turn PET plastic and crop waste into protein-rich cookies",
@@ -783,22 +799,6 @@
       "title": "Optimization of Cryogenic Detector Test Station by Rejecting Electromagnetic Interference",
       "url": "https://arxiv.org/abs/2601.03158",
       "summary": "arXiv:2601.03158v2 Announce Type: replace Abstract: We report on the solution optimized for characterizing SNSPDs by rejecting electromagnetic interference (EMI) from various sources. The proposed readout method enhances…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deterministic and probabilistic neural surrogates of global hybrid-Vlasov simulations",
-      "url": "https://arxiv.org/abs/2601.12614",
-      "summary": "arXiv:2601.12614v4 Announce Type: replace Abstract: Hybrid-Vlasov simulations resolve ion-kinetic effects in the solar wind-magnetosphere interaction, but even 5D (2D + 3V) configurations are computationally expensive. W…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Impossibility of Cohesion Without Fragmentation",
-      "url": "https://arxiv.org/abs/2601.15317",
-      "summary": "arXiv:2601.15317v3 Announce Type: replace Abstract: Accounts of social division and cohesion presuppose relations whose maintenance already depends on positional compatibility. We develop this feasibility layer as a stat…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-24T10:38:54.185Z",
+  "updated": "2026-08-24T11:31:17.483Z",
   "items": [
     {
       "source": "MIT Technology Review",
@@ -64,6 +64,15 @@
       "ts": 1787560200000,
       "publishedAt": "2026-08-24T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Watch live: MTG-I2 set for liftoff",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Watch_live_MTG-I2_set_for_liftoff",
+      "summary": "The next Meteosat Third Generation Imager satellite (MTG-I2) is set for liftoff on flight VA270 on an Ariane 6, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, which will de…",
+      "ts": 1787559240000,
+      "publishedAt": "2026-08-24T08:14:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -799,15 +808,6 @@
       "title": "Emergence of cooperation: A reputation-modulated reinforcement learning",
       "url": "https://arxiv.org/abs/2608.20016",
       "summary": "arXiv:2608.20016v1 Announce Type: cross Abstract: Reputation is widely recognized as a key mechanism for sustaining cooperation. However, most existing game-theoretic models treat reputation primarily as an external fact…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Climate change and human mobility will shape dengue emergence risk in Europe",
-      "url": "https://arxiv.org/abs/2608.20079",
-      "summary": "arXiv:2608.20079v1 Announce Type: cross Abstract: The risk of local arbovirus outbreaks in Europe is expected to increase due to climate change, as suggested by the multiplication of arbovirus outbreaks in the last decad…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"
