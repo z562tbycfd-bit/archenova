@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-24T18:42:21.066Z",
+  "updated": "2026-08-24T19:31:14.590Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What happens inside a wildfire? A Ph.D. student is finding out",
+      "url": "https://phys.org/news/2026-08-wildfire-phd-student.html",
+      "summary": "What happens during a wildfire? The short answer is: much more than we know. As wildfires burn through trees, grasses and other vegetation, heat from the flames sets off thousands of chemical reactions at once. Molecules…",
+      "ts": 1787599209000,
+      "publishedAt": "2026-08-24T19:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dung beetles offer insights into biodiversity in Singapore",
+      "url": "https://phys.org/news/2026-08-dung-beetles-insights-biodiversity-singapore.html",
+      "summary": "Dung beetles could provide scientists with a new way to uncover the animals living in Singapore's forests, including elusive species that are difficult to spot with conventional wildlife surveys. NTU researchers found th…",
+      "ts": 1787599201000,
+      "publishedAt": "2026-08-24T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why ancient grasslands, once plowed, don't grow back the same",
+      "url": "https://phys.org/news/2026-08-ancient-grasslands-plowed-dont.html",
+      "summary": "When a 10,000-year-old prairie is plowed up to plant corn or a savanna is consumed by a strip mall, these once-grassy expanses, if left to regrow, can eventually look vaguely like they did before. But a growing body of r…",
+      "ts": 1787598007000,
+      "publishedAt": "2026-08-24T19:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mapping the 'hidden highways' of Mexico's illegal wildlife trade",
+      "url": "https://phys.org/news/2026-08-hidden-highways-mexico-illegal-wildlife.html",
+      "summary": "For decades, wildlife traffickers have illegally captured and sold hundreds of thousands of wild parrots native to Mexico. Despite changes to international wildlife laws, the conservation status of these birds has contin…",
+      "ts": 1787598005000,
+      "publishedAt": "2026-08-24T19:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's buildings are designed for a climate that no longer exists—new open dataset offers a fix",
+      "url": "https://phys.org/news/2026-08-europe-climate-longer-dataset.html",
+      "summary": "The weather files engineers use to design buildings are built from decades of historical measurements. The data can be more than 30 years old. But a building designed today is expected to perform well in 2080, and ideall…",
+      "ts": 1787598003000,
+      "publishedAt": "2026-08-24T19:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mapping thorium's preferred sites could pave the way for nuclear clocks",
@@ -388,6 +428,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "First-Order Phase Transition in Atom-Molecule Quantum Degenerate Mixtures with Coherent Three-Body Recombination",
+      "url": "http://link.aps.org/doi/10.1103/llw4-tbnt",
+      "summary": "Author(s): G. A. Bougas, A. Vardi, H. R. Sadeghpour, C. Chin, and S. I. Mistakidis We map the phase diagram of a two-mode atom-molecule Bose-Einstein condensate with Fano-Feshbach and coherent three-body recombination (c…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Optimizing the Dynamical Preparation of Quantum Spin Lakes on the Ruby Lattice",
       "url": "http://link.aps.org/doi/10.1103/7dnl-6kg2",
       "summary": "Author(s): DinhDuy Vu, Dominik S. Kufel, Jack Kemp, Lode Pollet, Chris R. Laumann, and Norman Y. Yao Quantum spin liquids are elusive long-range entangled states. Motivated by experiments in Rydberg quantum simulators, r…",
@@ -751,54 +799,6 @@
       "title": "Ion Irradiation of GridPix Detector at Bonn Isochronous Cyclotron",
       "url": "https://arxiv.org/abs/2608.20987",
       "summary": "arXiv:2608.20987v1 Announce Type: new Abstract: The potential successor of the IXPE --- the EXPO or Enhanced X-ray Polarimetry Observatory will have a new X-ray polarimeter based on GridPix technology. To certify this de…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Artificial Anisotropy Induced Bound States in the Continuum for Integrated Photonic Waveguide",
-      "url": "https://arxiv.org/abs/2608.20992",
-      "summary": "arXiv:2608.20992v1 Announce Type: new Abstract: Bound states in the continuum (BICs) enable counterintuitive light confinement without radiation loss, providing a powerful foundation for integrated photonic waveguides. H…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-Resolved Surface-Fault Displacement During the 2026 Kumamoto Earthquake From CCTV Video",
-      "url": "https://arxiv.org/abs/2608.21045",
-      "summary": "arXiv:2608.21045v1 Announce Type: new Abstract: Video recordings can provide unusually direct constraints on the time evolution of coseismic surface-fault displacement, but quantitative analysis is complicated when camer…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Short spatial mooring-tilt variations from deep Mediterranean observations",
-      "url": "https://arxiv.org/abs/2608.21046",
-      "summary": "arXiv:2608.21046v1 Announce Type: new Abstract: Interaction between energy-abundant mesoscale eddies and internal waves can lead to convection-turbulence generation and may prove important for deep-sea life and circulati…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Zero-gravity convection in a closed duct as the realization of a thermal machine",
-      "url": "https://arxiv.org/abs/2608.21052",
-      "summary": "arXiv:2608.21052v1 Announce Type: new Abstract: The possibility of convection in a wall-heated unstirred simple fluid in zero-gravity conditions is discussed. It is shown that a low-Prandtl-number fluid possesses a stabl…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A differentiable photon-by-photon likelihood for continuous free-energy landscapes and diffusion coefficients from single-molecule FRET",
-      "url": "https://arxiv.org/abs/2608.21061",
-      "summary": "arXiv:2608.21061v1 Announce Type: new Abstract: Single-molecule FRET probes the conformational dynamics of biomolecules by measuring the distance between two dyes. The experiment produces a stream of coloured photons, wh…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intracavity Photon Statistics from Correlated Molecular Electronic Structure",
-      "url": "https://arxiv.org/abs/2608.21071",
-      "summary": "arXiv:2608.21071v1 Announce Type: new Abstract: Quantum optics characterizes light through photon correlations, but ab initio cavity quantum electrodynamics (QED) has only calculated raw field moments at present. In this…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

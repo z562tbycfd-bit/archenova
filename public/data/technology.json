@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-24T18:42:23.228Z",
+  "updated": "2026-08-24T19:31:21.351Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Small Molecules, Big Expectations: How CDMOs Are Helping Sponsors Navigate Complexity, Speed, Scale-Up, and Sustainability",
+      "url": "https://www.genengnews.com/multimedia/podcasts/gencast/small-molecules-big-expectations-how-cdmos-are-helping-sponsors-navigate-complexity-speed-scale-up-and-sustainability/",
+      "summary": "In this sponsoredGEN Podcast – part 2 in a 3-part series -- a trio of experts from SK Pharmteco discuss how CDMOs are helping biopharma companies navigate critical areas including scale-up, technology transfer, advanced …",
+      "ts": 1787598556000,
+      "publishedAt": "2026-08-24T19:09:16.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Male Sex Hormones Suppress Lung Allergies by Acting on Neurons in Mice",
@@ -799,15 +808,6 @@
       "title": "When AI designs a drug, who gets the credit?",
       "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
       "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its genera…",
-      "ts": 1787302800000,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
-      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
-      "summary": "A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study. Later this year, the US company Reflect Orbit…",
       "ts": 1787302800000,
       "publishedAt": "2026-08-21T09:00:00.000Z",
       "categoryId": "ai-compute"
