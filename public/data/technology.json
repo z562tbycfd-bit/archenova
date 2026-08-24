@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-24T13:53:34.936Z",
+  "updated": "2026-08-24T14:44:15.299Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Public-sector purgatory, and a union-hospital fight",
+      "url": "https://www.statnews.com/2026/08/24/public-sector-workers-health-insurance-costs-hospital-union-battle/?utm_campaign=rss",
+      "summary": "Aon, the big consulting and brokerage house, confirms 2027 is going to be brutal for job-based health care premiums. Aon’s chief actuary said in the news release: “Employers will need…",
+      "ts": 1787581399000,
+      "publishedAt": "2026-08-24T14:23:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How to encourage smarter AI use in the classroom",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon th…",
+      "ts": 1787581219000,
+      "publishedAt": "2026-08-24T14:20:19.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The Fuel for the Next Generation of Cislunar Exploration? Technology and Talent.",
+      "url": "https://spacenews.com/the-fuel-for-the-next-generation-of-cislunar-exploration-technology-and-talent/",
+      "summary": "After NASA astronauts landed on the moon in 1969, their achievement bore decades’ worth of fruit, including scientific discoveries and a strategic national security advantage. Now — with plans to […] The post The Fuel fo…",
+      "ts": 1787580000000,
+      "publishedAt": "2026-08-24T14:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about Medicaid obesity-drug coverage, a Regenxbio gene therapy, and more",
@@ -40,6 +67,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Security Council LIVE: War, hunger, flooding escalates in Sudan",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168188",
+      "summary": "The Security Council is currently hearing top UN officials brief on the latest updates about war-torn Sudan as escalating conflict, drone strikes against civilians, displacement, hunger and flooding affects millions and …",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Sudan war: $22 million education boost to help 200,000 children",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168187",
       "summary": "For millions of children in Sudan, the classroom remains out of reach as the country’s civil war continues to disrupt their education. To help tackle this huge problem, the UN global education fund on Monday announced a …",
@@ -55,6 +91,15 @@
       "ts": 1787572788000,
       "publishedAt": "2026-08-24T11:59:48.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Nuclear Energy Side Events at the 70th IAEA General Conference",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-energy-side-events-at-the-70th-iaea-general-conference",
+      "summary": "The IAEA Department of Nuclear Energy will host its regular Operators' Forum and three side events during the 70th IAEA General Conference, to be held in Vienna from 14 to 18 September 2026. Programmes of the side events…",
+      "ts": 1787568853000,
+      "publishedAt": "2026-08-24T10:54:13.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -763,51 +808,6 @@
       "title": "Hepatitis C Virus Genotyping with a Transformer Neural Network",
       "url": "https://arxiv.org/abs/2608.19415",
       "summary": "arXiv:2608.19415v1 Announce Type: new Abstract: This study aims to explore the applicability of Transformer-based models for genetic sequence classification by evaluating their performance in predicting hepatitis C virus…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A stochastic dose-response framework for environmentally persistent pathogens",
-      "url": "https://arxiv.org/abs/2608.19607",
-      "summary": "arXiv:2608.19607v1 Announce Type: new Abstract: Infectious diseases caused by environmentally persistent pathogens can strongly affect host populations as transmission occurs not only through direct host-host contact but…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Correlations at criticality in ecological communities",
-      "url": "https://arxiv.org/abs/2608.20086",
-      "summary": "arXiv:2608.20086v1 Announce Type: new Abstract: Ecological communities are continually reshaped by invasion, exclusion, and diversification, processes that naturally drive them toward the boundary of dynamical stability.…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PEtab SciML: an exchange format for specifying and training dynamic scientific machine learning models",
-      "url": "https://arxiv.org/abs/2608.20184",
-      "summary": "arXiv:2608.20184v1 Announce Type: new Abstract: Summary: Dynamic scientific machine learning (SciML) models that combine mechanistic ordinary differential equations (ODEs) with machine learning (ML) components have appli…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Novel models of trait evolution via an expansion of Lande's fitness function: The Ornstein-Uhlenbeck process meets the Little Prince's boa",
-      "url": "https://arxiv.org/abs/2608.20232",
-      "summary": "arXiv:2608.20232v1 Announce Type: new Abstract: Adaptive topographies form the foundation for much of our understanding of evolutionary change. Lande's 1976 influential paper on the adaptive topography of phenotypes demo…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Automatic bioinformatic software named entity recognition from literature",
-      "url": "https://arxiv.org/abs/2608.19201",
-      "summary": "arXiv:2608.19201v1 Announce Type: cross Abstract: Bioinformatics software and databases are essential components of modern life science research, yet their mentions in the scientific literature are often inconsistent and…",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"

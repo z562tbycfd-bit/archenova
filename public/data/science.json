@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-24T13:53:32.700Z",
+  "updated": "2026-08-24T14:44:11.328Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Borneo forest fires spike again: Why El Niño isn't the sole culprit",
+      "url": "https://phys.org/news/2026-08-borneo-forest-spike-el-nio.html",
+      "summary": "Forest and land fires across Indonesia have spiked once again. News and social media in the country are flooded with images of thick plumes of smoke from Kalimantan (or Borneo)—the world's third-largest island—that are c…",
+      "ts": 1787582404000,
+      "publishedAt": "2026-08-24T14:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "LST-1 and MAGIC telescopes shatter distance record for the very high-energy blazar OP 313",
+      "url": "https://phys.org/news/2026-08-lst-magic-telescopes-shatter-distance.html",
+      "summary": "On Aug. 15, the CTAO LST Collaboration and the MAGIC Collaboration released findings from observations of OP 313, the most distant very-high-energy blazar ever recorded. The paper, published in Astronomy & Astrophysics, …",
+      "ts": 1787582401000,
+      "publishedAt": "2026-08-24T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reframing Homer's Sirens through gender, nature and social order",
+      "url": "https://phys.org/news/2026-08-reframing-homer-sirens-gender-nature.html",
+      "summary": "Though they are pivotal to Homer's epic, luring Odysseus with the promise of eternal wisdom, the Greek poet barely described the mysterious Sirens. What might a better understanding of these formless, disembodied feminin…",
+      "ts": 1787581203000,
+      "publishedAt": "2026-08-24T14:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How chromosomes find their partners",
+      "url": "https://phys.org/news/2026-08-chromosomes-partners.html",
+      "summary": "For a long time, so-called satellite DNA was considered largely worthless. Now, ETH Zurich researchers have shown in fruit flies that these repetitive sections of genetic material act as a kind of barcode, enabling the c…",
+      "ts": 1787581201000,
+      "publishedAt": "2026-08-24T14:20:01.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "A New Framework for How the Brain Compresses Our Noisy World",
+      "url": "https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/",
+      "summary": "An updated view of categorization reflects the modern understanding that the nervous system is more of a prediction engine than a filing cabinet. The post A New Framework for How the Brain Compresses Our Noisy World firs…",
+      "ts": 1787580055000,
+      "publishedAt": "2026-08-24T14:00:55.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists identify design rules for the best thermoelectric materials",
+      "url": "https://phys.org/news/2026-08-scientists-thermoelectric-materials.html",
+      "summary": "Researchers from Tokyo Metropolitan University have used a theoretical framework to derive design rules for creating new thermoelectric materials. The efficiency of converting thermal energy to electricity is often deter…",
+      "ts": 1787580003000,
+      "publishedAt": "2026-08-24T14:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "GenAI cannot accurately grade student essays in higher education, study finds",
+      "url": "https://phys.org/news/2026-08-genai-accurately-grade-student-essays.html",
+      "summary": "New research from Cardiff University and the University of Melbourne has investigated whether GenAI could mimic human marking when evaluating written student work. The results have been published in the journal Assessmen…",
+      "ts": 1787580001000,
+      "publishedAt": "2026-08-24T14:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New free-space optical link adds a wireless component to the nation's longest quantum network",
@@ -743,62 +799,6 @@
       "title": "Training DeepFilterNet with Accurate Room Acoustic Simulations Improves Single-Channel Speech Enhancement",
       "url": "https://arxiv.org/abs/2608.20971",
       "summary": "arXiv:2608.20971v1 Announce Type: cross Abstract: We investigate how the realism of synthetic room impulse response (RIR) datasets affects the training of DeepFilterNet3 for single-channel speech enhancement. We compare …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scalable photoexcitation-induced molecular dynamics with machine-learned Hamiltonians",
-      "url": "https://arxiv.org/abs/2608.20994",
-      "summary": "arXiv:2608.20994v1 Announce Type: cross Abstract: Ultrafast photoexcitation offers a controllable route to steer structural dynamics in solids, yet predicting how nonequilibrium electronic excitation drives lattice motio…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On Transmission Function Amplitude and Phase Recovery in Multislice Electron Ptychography",
-      "url": "https://arxiv.org/abs/2608.21007",
-      "summary": "arXiv:2608.21007v1 Announce Type: cross Abstract: {Multislice electron ptychography commonly accounts for inelastic scattering by including an absorptive object potential in the reconstruction forward model that attenuat…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Minimization of micromotion for nanoparticles in a Paul trap",
-      "url": "https://arxiv.org/abs/2608.21011",
-      "summary": "arXiv:2608.21011v1 Announce Type: cross Abstract: When a charged particle in a Paul trap is displaced from the node of the AC trapping field, excess micromotion arises as an undesired effect. Excess micromotion heats the…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "NestyNet. III. Symbolic Regression from Analytic Neural Surrogates",
-      "url": "https://arxiv.org/abs/2608.21051",
-      "summary": "arXiv:2608.21051v1 Announce Type: cross Abstract: Many physical laws are simple only after the right representation, decomposition or internal coordinate has been found, but discovering that structure from data is combin…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electric-Field-Induced Second Harmonic Generation at a Reconfigurable LaAlO$_3$/SrTiO$_3$ Nanojunction",
-      "url": "https://arxiv.org/abs/2608.21065",
-      "summary": "arXiv:2608.21065v1 Announce Type: cross Abstract: Electrically tunable nonlinear optical responses at the nanoscale remain challenging to achieve because conventional nonlinear materials lack the combination of large sus…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Active Reinforcement of Jammed Emulsions by Living Microswimmers",
-      "url": "https://arxiv.org/abs/2608.21078",
-      "summary": "arXiv:2608.21078v1 Announce Type: cross Abstract: We show that living microswimmers mechanically reinforce dense emulsions. Castor-oil-in-water emulsions laden with the microalga Chlamydomonas reinhardtii are compared in…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry Constrained Quantum Error Mitigation for the Schwinger Model",
-      "url": "https://arxiv.org/abs/2608.21103",
-      "summary": "arXiv:2608.21103v1 Announce Type: cross Abstract: Quantum error mitigation (QEM) is at the very heart of near-term quantum simulations and lattice gauge theories are no exceptions, rather their physical symmetries provid…",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }
