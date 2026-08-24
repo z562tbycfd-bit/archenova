@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-24T14:44:11.328Z",
+  "updated": "2026-08-24T15:41:22.810Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Antarctic bacteria share 'life‑support' genes to survive extreme conditions",
+      "url": "https://phys.org/news/2026-08-antarctic-bacteria-lifesupport-genes-survive.html",
+      "summary": "Antarctica is one of the driest, coldest places on Earth. Very little life survives its extremes. In the soils scattered around the frozen ice sheets, however, communities of microbes do survive. And one of the keys to t…",
+      "ts": 1787586003000,
+      "publishedAt": "2026-08-24T15:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A forecast is not a decision: Design engineering for drought preparedness",
+      "url": "https://phys.org/news/2026-08-decision-drought-preparedness.html",
+      "summary": "More than 80 countries face chronic drought, yet only a third have systems in place to act before a drought arrives rather than after. The gap is costly. According to the United Nations Food and Agriculture Organization,…",
+      "ts": 1787586001000,
+      "publishedAt": "2026-08-24T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate scientists solve monsoon puzzle and warn of risks to fisheries",
+      "url": "https://phys.org/news/2026-08-climate-scientists-monsoon-puzzle-fisheries.html",
+      "summary": "A new study has reconciled a long-standing paradox in the South Asian summer monsoon cycle. Climate scientists have discovered why geological records from land and sea have told opposite stories about monsoons throughout…",
+      "ts": 1787584805000,
+      "publishedAt": "2026-08-24T15:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Making the case for independent science",
+      "url": "https://phys.org/news/2026-08-case-independent-science.html",
+      "summary": "Hungarian Prime Minister Viktor Orbán's 16-year rule ended in the spring, when voters replaced him with Péter Magyar, who has pledged to undo Orbán-led initiatives that, in the eyes of critics, isolated and politicized s…",
+      "ts": 1787584802000,
+      "publishedAt": "2026-08-24T15:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden in plain sight: New evidence links Henry VIII's lost castle to Dover Castle",
+      "url": "https://phys.org/news/2026-08-hidden-plain-sight-evidence-links.html",
+      "summary": "Dr. Christopher Moore, a research fellow and former Ph.D. researcher in hidden and lost heritage at Kent, combined archive records with architectural evidence to link the 1883–84 extension to Sandown Castle, one of Henry…",
+      "ts": 1787583610000,
+      "publishedAt": "2026-08-24T15:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny ocean plankton hold clues to the future of Maine lobster",
+      "url": "https://phys.org/news/2026-08-tiny-ocean-plankton-clues-future.html",
+      "summary": "The future of Maine's lobster industry may depend on a creature the size of a sesame seed. Researchers at the University of Maine have discovered that planktonic baby lobsters, or larvae, preferentially feed on Calanus f…",
+      "ts": 1787583602000,
+      "publishedAt": "2026-08-24T15:00:02.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Heat therapy for sick frogs lowers sperm levels",
+      "url": "https://www.sciencenews.org/article/infection-treatment-lowers-frog-sperm",
+      "summary": "Scientists often use thermal treatment to combat fatal fungal infection in frogs, but it may come at a cost.",
+      "ts": 1787583600000,
+      "publishedAt": "2026-08-24T15:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Borneo forest fires spike again: Why El Niño isn't the sole culprit",
@@ -169,6 +225,38 @@
       "summary": "Bad housing, high crime and poor schools are more important than transportation or income when it comes to accessing healthy food in neighborhoods historically subjected to \"redlining\"—the now-illegal practice once used …",
       "ts": 1787569203000,
       "publishedAt": "2026-08-24T11:00:03.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Optimizing the Dynamical Preparation of Quantum Spin Lakes on the Ruby Lattice",
+      "url": "http://link.aps.org/doi/10.1103/7dnl-6kg2",
+      "summary": "Author(s): DinhDuy Vu, Dominik S. Kufel, Jack Kemp, Lode Pollet, Chris R. Laumann, and Norman Y. Yao Quantum spin liquids are elusive long-range entangled states. Motivated by experiments in Rydberg quantum simulators, r…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Midair Single-Sided Acoustic Levitation in High-Pressure Regions of Zero-Order Bessel Beams",
+      "url": "http://link.aps.org/doi/10.1103/pfkh-4x7j",
+      "summary": "Author(s): Yusuke Koroyasu, Christopher Stone, Yoichi Ochiai, Takayuki Hoshi, Bruce W. Drinkwater, and Tatsuki Fushimi Acoustic levitation enables noncontact manipulation using sound waves. While conventional methods ent…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Thermodynamic Model for Thermomigration in Metals",
+      "url": "http://link.aps.org/doi/10.1103/196y-5h6h",
+      "summary": "Author(s): Daniel J. Long, Edmund Tarleton, Alan C. F. Cocks, and Felix Hofmann We investigate the mechanisms involved in the thermomigration of interstitial hydrogen in metals. Using irreversible thermodynamics, we deve…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Granular Büttiker-Landauer Motor",
+      "url": "http://link.aps.org/doi/10.1103/1ggv-8f83",
+      "summary": "Author(s): O. Devauchelle, P. Popović, P. Szymczak, A. Abramian, and A. Lazarus Random walkers usually diffuse according to Fick’s law. On average, they move down the gradient of their concentration and, in the absence o…",
+      "ts": 1787565600000,
+      "publishedAt": "2026-08-24T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -711,94 +799,6 @@
       "title": "Uncertainty propagation in auto-regressive random neural network models",
       "url": "https://arxiv.org/abs/2608.20483",
       "summary": "arXiv:2608.20483v1 Announce Type: cross Abstract: We develop analytical and particle-based methods for uncertainty propagation in random neural network models, where both the inputs and network parameters are allowed to …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-limiting electrostriction of a single ion in an ultracold polar gas: From mesoscopic ions to crystalline molecular rings",
-      "url": "https://arxiv.org/abs/2608.20489",
-      "summary": "arXiv:2608.20489v1 Announce Type: cross Abstract: We investigate the self-assembly of polar molecules around a single ion immersed in an ultracold, dilute two-dimensional molecular gas. The ion aligns and attracts the mo…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum critical behavior in chains of hindered dipolar planar rotors",
-      "url": "https://arxiv.org/abs/2608.20501",
-      "summary": "arXiv:2608.20501v1 Announce Type: cross Abstract: We study the ground-state properties of linear chains of dipolar planar rotors hindered by a six-fold on-site potential, a model motivated by water molecules confined in …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Consistency Models for Fast MRI Reconstruction Using Regularization by Denoising",
-      "url": "https://arxiv.org/abs/2608.20561",
-      "summary": "arXiv:2608.20561v1 Announce Type: cross Abstract: Diffusion models (DMs) have emerged as powerful generative priors for MRI reconstruction with promising results. Yet DM-based methods require extensive iterative refineme…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calibrating Inelastic Markets to Options: The Lean Marketron and the Generalized Langevin Equation",
-      "url": "https://arxiv.org/abs/2608.20589",
-      "summary": "arXiv:2608.20589v1 Announce Type: cross Abstract: The Marketron model of \\cite{HalperinItkin2025Mark} and its option pricing extension in \\cite{HalperinItkinMarketron2} suffer from structural non-identifiability: an eigh…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VortexChat: An agentic framework for autonomous multi-objective integrated photonic design",
-      "url": "https://arxiv.org/abs/2608.20688",
-      "summary": "arXiv:2608.20688v1 Announce Type: cross Abstract: The advancement of modern integrated photonics is frequently bottlenecked by device design workflows that rely heavily on manual simulation and expert intuition. While in…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Legibility Gap: How Gender Equity Interventions Redistribute Recognition Across Cultures",
-      "url": "https://arxiv.org/abs/2608.20827",
-      "summary": "arXiv:2608.20827v1 Announce Type: cross Abstract: Efforts to promote gender equity in science increasingly rely on name-based inference to quantify representation and guide policy and behavior. Yet linguistic cues that s…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Ultra Scalability of Non-Volatile Magnetic Tunnel Junctions with a 3D Storage Layer",
-      "url": "https://arxiv.org/abs/2608.20850",
-      "summary": "arXiv:2608.20850v1 Announce Type: cross Abstract: The perpendicular Spin Transfer Torque Magnetic Random Access Memory is one of the most promising emerging non-volatile memory technologies, based on ultra-thin magnetic …",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Excitation and Recombination Data for Nd I-V with Applications to Kilonovae",
-      "url": "https://arxiv.org/abs/2608.20881",
-      "summary": "arXiv:2608.20881v1 Announce Type: cross Abstract: Neodymium (Nd), a key r-process element, significantly influences the opacity and emergent spectra of kilonovae resulting from neutron star mergers. We present new atomic…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-Driven Characterisation of Wave-Forced Turbulence Using Time-Resolved Forecast-Error Growth",
-      "url": "https://arxiv.org/abs/2608.20931",
-      "summary": "arXiv:2608.20931v1 Announce Type: cross Abstract: Periodic surface-wave forcing can reorganise turbulent flows through coherent spectral response, synchronization, intermittency, and changes in short-term predictability,…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Identifying the structure of dynamical transitions in logistic map",
-      "url": "https://arxiv.org/abs/2608.20956",
-      "summary": "arXiv:2608.20956v1 Announce Type: cross Abstract: Nonlinear dynamical systems manifest rich variety of dynamical states and transitions driven by fluctuations. To understand the pattern of fluctuations during dynamical t…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Training DeepFilterNet with Accurate Room Acoustic Simulations Improves Single-Channel Speech Enhancement",
-      "url": "https://arxiv.org/abs/2608.20971",
-      "summary": "arXiv:2608.20971v1 Announce Type: cross Abstract: We investigate how the realism of synthetic room impulse response (RIR) datasets affects the training of DeepFilterNet3 for single-channel speech enhancement. We compare …",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

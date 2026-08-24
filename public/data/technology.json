@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-24T14:44:15.299Z",
+  "updated": "2026-08-24T15:41:27.089Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Rznomics Joins Lilly Gateway Labs to Quicken RNA Therapeutic Candidate Discovery and Development",
+      "url": "https://www.genengnews.com/topics/drug-discovery/rznomics-joins-lilly-gateway-labs-to-quicken-rna-therapeutic-candidate-discovery-and-development/",
+      "summary": "Through its entry into Lilly Gateway Labs, Rznomics officials say they plan to accelerate candidate discovery and development across its target gene database bank comprising over 200 disease targets. The post Rznomics Jo…",
+      "ts": 1787584887000,
+      "publishedAt": "2026-08-24T15:21:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How XPUs Meet a World-Class AI Factory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+      "summary": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastr…",
+      "ts": 1787583654000,
+      "publishedAt": "2026-08-24T15:00:54.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with f…",
+      "ts": 1787583641000,
+      "publishedAt": "2026-08-24T15:00:41.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "summary": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financ…",
+      "ts": 1787583619000,
+      "publishedAt": "2026-08-24T15:00:19.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Spirit Electronics Adds Texas Instruments and Microchip Technology Space Grade Components to Online Store Ahead of SmallSat 2026",
+      "url": "https://spacenews.com/spirit-electronics-adds-texas-instruments-and-microchip-technology-space-grade-components-to-online-store-ahead-of-smallsat-2026/",
+      "summary": "PHOENIX, AZ — August 24, 2026 — Spirit Electronics, a value‑added distributor of high‑reliability electronics focused on performance‑driven program requirements, announced that space‑grade and high‑reliability components…",
+      "ts": 1787583600000,
+      "publishedAt": "2026-08-24T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lady Gaga and her fiancé launch a biotech startup",
+      "url": "https://www.statnews.com/2026/08/24/biotech-news-lady-gaga-and-her-fiance-launch-biotech-startup/?utm_campaign=rss",
+      "summary": "FTC challenges Amgen's Enbrel patent strategy, the long, winding path for the Moderna-Merck cancer vaccine, and more biotech news",
+      "ts": 1787583449000,
+      "publishedAt": "2026-08-24T14:57:29.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Public-sector purgatory, and a union-hospital fight",
@@ -757,60 +811,6 @@
       "ts": 1787300520000,
       "publishedAt": "2026-08-21T08:22:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Revamps Major Nuclear Power Database",
-      "url": "http://www.iaea.org/newscenter/news/iaea-revamps-major-nuclear-power-database",
-      "summary": "",
-      "ts": 1787297405000,
-      "publishedAt": "2026-08-21T07:30:05.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Europe’s Scorching Summer",
-      "url": "https://science.nasa.gov/earth/europes-scorching-summer/",
-      "summary": "A series of heat waves in 2026 is breaking records and taking a toll in Europe.",
-      "ts": 1787284860000,
-      "publishedAt": "2026-08-21T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Miniature giants: investigating limb long bone structure in dwarf proboscideans",
-      "url": "https://arxiv.org/abs/2608.19205",
-      "summary": "arXiv:2608.19205v1 Announce Type: new Abstract: Terrestrial vertebrates rely on their skeleton to provide structural support and allow the movement of the body. Heavy, graviportal taxa, such as extant elephants, exhibit …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Connectome and the Quest for the Functional Logic of the Drosophila Early Olfactory System",
-      "url": "https://arxiv.org/abs/2608.19290",
-      "summary": "arXiv:2608.19290v1 Announce Type: new Abstract: In recent decades, the early olfactory system (EOS) of the fruit fly has become a leading model for studying olfactory processing and associative memory, owing in part to a…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reducing Boolean Networks via Analysis of Dynamic Network Subgraph Behavior",
-      "url": "https://arxiv.org/abs/2608.19292",
-      "summary": "arXiv:2608.19292v1 Announce Type: new Abstract: Boolean networks provide a compact framework for modeling regulatory systems, yet their rapidly expanding state spaces make systematic dynamical analysis challenging. Here,…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hepatitis C Virus Genotyping with a Transformer Neural Network",
-      "url": "https://arxiv.org/abs/2608.19415",
-      "summary": "arXiv:2608.19415v1 Announce Type: new Abstract: This study aims to explore the applicability of Transformer-based models for genetic sequence classification by evaluating their performance in predicting hepatitis C virus…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
