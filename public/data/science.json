@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-24T07:02:14.507Z",
+  "updated": "2026-08-24T08:50:36.914Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "China says unmanned moon mission delayed over 'launch conditions'",
+      "url": "https://phys.org/news/2026-08-china-unmanned-moon-mission-delayed.html",
+      "summary": "China's manned space agency said Sunday it is delaying a research moon mission that is part of Beijing's efforts to land a crew there by 2030, less than two weeks after a rare launch failure.",
+      "ts": 1787555401000,
+      "publishedAt": "2026-08-24T07:10:01.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Non-reciprocal heat transfer advances flexible thermoelectric devices",
@@ -791,14 +799,6 @@
       "title": "Quantum-corrected NMR crystallography at scale",
       "url": "https://arxiv.org/abs/2603.06236",
       "summary": "arXiv:2603.06236v2 Announce Type: replace Abstract: Structure determination by chemical-shift-driven NMR crystallography relies on comparing chemical shieldings measured in solid-state NMR experiments with simulations. H…",
-      "ts": 1787544000000,
-      "publishedAt": "2026-08-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dipolar solvent contributions for transient nanoscale electroosmotic flow",
-      "url": "https://arxiv.org/abs/2603.13021",
-      "summary": "arXiv:2603.13021v2 Announce Type: replace Abstract: Electrohydrodynamic flows of electrolytes with low to moderate ion concentration at the nanoscale are significantly influenced by the molecular structure of water-like …",
       "ts": 1787544000000,
       "publishedAt": "2026-08-24T04:00:00.000Z"
     }

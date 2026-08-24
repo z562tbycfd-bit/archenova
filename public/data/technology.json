@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-24T07:02:17.197Z",
+  "updated": "2026-08-24T08:50:39.338Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Inside Moderna and Merck’s cancer vaccine triumph",
+      "url": "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/?utm_campaign=rss",
+      "summary": "Moderna and Merck's wild gambit on a cancer vaccine appears to have worked, despite big doubts, logistical challenges, and pandemic-era complications.",
+      "ts": 1787560200000,
+      "publishedAt": "2026-08-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicaid transgender care rule sets precedent that could restrict coverage of other drugs",
+      "url": "https://www.statnews.com/2026/08/24/transgender-care-ban-precedent-could-be-broadly-applied-medicaid-states/?utm_campaign=rss",
+      "summary": "The legal theory used to restrict gender-affirming care for minors could be applied broadly, experts say.",
+      "ts": 1787560200000,
+      "publishedAt": "2026-08-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA digital health leader promises generative AI regulatory guidance is coming",
+      "url": "https://www.statnews.com/2026/08/24/fda-rick-abramson-generative-ai-guidances-are-coming/?utm_campaign=rss",
+      "summary": "FDA expects to issue guidance on policies regarding generative AI devices, according to Rick Abramson, the agency’s head of digital health policy.",
+      "ts": 1787560200000,
+      "publishedAt": "2026-08-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Nurse practitioner trainees find themselves stymied by shortage of clinical mentors",
+      "url": "https://www.statnews.com/2026/08/24/nurse-practitioner-preceptor-shortage-clinical-placement-challenges/?utm_campaign=rss",
+      "summary": "Nurse practitioner students face a preceptor shortage, often paying thousands to secure clinical supervision.",
+      "ts": 1787560200000,
+      "publishedAt": "2026-08-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Medicine stopped shaking hands. We should start again",
+      "url": "https://www.statnews.com/2026/08/24/doctors-hand-shakes-patients-research/?utm_campaign=rss",
+      "summary": "A handshake takes only a few seconds but can make a major difference to a patient, an emergency physician writes.",
+      "ts": 1787560200000,
+      "publishedAt": "2026-08-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a retired doctor. Volunteering at a community clinic gave me an entirely new medical education",
+      "url": "https://www.statnews.com/2026/08/24/retired-doctor-community-clinic-volunteering-education/?utm_campaign=rss",
+      "summary": "“It was only after retiring from mainstream medicine when I fully comprehended the callous limitations of our health care system,” writes Benjamin I. Lee.",
+      "ts": 1787560200000,
+      "publishedAt": "2026-08-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Americans bought 12% less soda under new SNAP restrictions, study says",
@@ -754,60 +808,6 @@
       "title": "Growth phases of an active tissue: determinate, indeterminate, and proportionate",
       "url": "https://arxiv.org/abs/2608.20091",
       "summary": "arXiv:2608.20091v1 Announce Type: cross Abstract: Growth may cease at a target size or continue throughout life: the determinate and indeterminate phenotypes. We develop an active viscoelastic continuum model of a tissue…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Decoding silent reading from non-invasive EEG",
-      "url": "https://arxiv.org/abs/2608.20186",
-      "summary": "arXiv:2608.20186v1 Announce Type: cross Abstract: Non-invasive decoding of inner speech faces a fundamental data problem: a corpus pairing brain activity with a person's spontaneous inner monologue cannot be collected, a…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GENIE: Generative Neural Inference for Epidemics",
-      "url": "https://arxiv.org/abs/2608.20253",
-      "summary": "arXiv:2608.20253v1 Announce Type: cross Abstract: The SARS-CoV-2 pandemic highlighted the ongoing risk infectious diseases pose to society and the value of reliable information on the likely future burden. When forecasti…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A statistical-mechanical framework for mechanically adaptive cytoskeletal organization",
-      "url": "https://arxiv.org/abs/2408.14242",
-      "summary": "arXiv:2408.14242v3 Announce Type: replace Abstract: Living cells continuously remodel their cytoskeleton in response to mechanical cues. Although these responses have been extensively documented, it remains unclear why c…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic mutation as a mechanism for the emergence of SARS-CoV-2 new variants -- A Scientific Conjecture on Artificial Intelligence Paradigm",
-      "url": "https://arxiv.org/abs/2502.10471",
-      "summary": "arXiv:2502.10471v4 Announce Type: replace Abstract: The article summaries authors' researches on spreading dynamics of COVID 19 by use of the method of continuously asking and answering questions. Scientific conjecture p…",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Thousand Brains Theory 2.0: An Extension for the Long-Range Connections of the Neocortical Heterarchy",
-      "url": "https://arxiv.org/abs/2507.05888",
-      "summary": "arXiv:2507.05888v2 Announce Type: replace Abstract: Vernon Mountcastle hypothesized that the basis for intelligence in mammals is the replication of a general computational unit, the cortical column. The Thousand Brains …",
-      "ts": 1787284800000,
-      "publishedAt": "2026-08-21T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quo nomine vis vocari? Random-copying, conformity, and anti-conformity in the temporal sequence of papal names",
-      "url": "https://arxiv.org/abs/2605.07028",
-      "summary": "arXiv:2605.07028v2 Announce Type: replace Abstract: The study of cultural evolution seeks to understand the processes by which behavioral variants are chosen in human cultures over time. The selection of new popes, each …",
       "ts": 1787284800000,
       "publishedAt": "2026-08-21T04:00:00.000Z",
       "categoryId": "bio"
