@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-25T12:51:09.463Z",
+  "updated": "2026-08-25T13:52:13.879Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "One Standard, Multiple Platforms: ICH Q2(R2) Qualification of Host Cell Protein Analysis by LC–MS/MS",
+      "url": "https://www.genengnews.com/multimedia/webinars/one-standard-multiple-platforms-ich-q2r2-qualification-of-host-cell-protein-analysis-by-lc-ms-ms/",
+      "summary": "In this GEN webinar, USP and Alphalyse present the work qualifying beta-lactoglobulin (LACB) as a cross-platform standard for LC-MS/MS HCP analysis. The post One Standard, Multiple Platforms: ICH Q2(R2) Qualification of …",
+      "ts": 1787665547000,
+      "publishedAt": "2026-08-25T13:45:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA promises new AI guidance, and what happened at Epic’s UGM",
+      "url": "https://www.statnews.com/2026/08/25/fda-promises-new-ai-guidance-and-epic-ugm-updates/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: FDA's plans for regulating generative AI-powered devices, and updates from EPIC's UGM.",
+      "ts": 1787665483000,
+      "publishedAt": "2026-08-25T13:44:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Turkish anti-trust authorities probe Teva for allegedly gaming the patent system, disparaging rival drugs",
+      "url": "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss",
+      "summary": "Turkish regulators are investigating Teva Pharmaceutical for allegedly manipulating the patent system and disparaging rival drugs.",
+      "ts": 1787665430000,
+      "publishedAt": "2026-08-25T13:43:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about RFK Jr. vaccine disclosures, a Merck loss over Medicare prices, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/25/rfk-vaccine-disclosure-merck-court-loss-over-medicare/?utm_campaign=rss",
+      "summary": "Democratic senators said RFK Jr.'s recent explanation of how he disposed of a financial stake in Gardasil litigation conflicts with his earlier answers",
+      "ts": 1787664202000,
+      "publishedAt": "2026-08-25T13:23:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Pioneering Study of Alpha-Gal Syndrome Launched at Martha’s Vineyard Hospital",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/pioneering-study-of-alpha-gal-syndrome-launched-at-marthas-vineyard-hospital/",
+      "summary": "Martha’s Vineyard Hospital launches a two-year study tracking up to 300 residents to understand who develops alpha-gal syndrome after lone star tick exposure and why. The post Pioneering Study of Alpha-Gal Syndrome Launc…",
+      "ts": 1787662839000,
+      "publishedAt": "2026-08-25T13:00:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
+      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
+      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
+      "ts": 1787662800000,
+      "publishedAt": "2026-08-25T13:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
@@ -60,7 +114,7 @@
       "source": "STAT",
       "title": "STAT+: AI is good at catching drug theft at hospitals, but only when humans do their part",
       "url": "https://www.statnews.com/2026/08/25/ai-drug-diversion-software-human-oversight-controlcheck-sentri7/?utm_campaign=rss",
-      "summary": "New AI technology can help hospitals prevent the controlled substances from being stolen, or abused by staff, but those tools aren't foolproof.",
+      "summary": "New AI technology can help hospitals prevent controlled substances from being stolen, or abused by staff, but those tools aren't foolproof.",
       "ts": 1787646600000,
       "publishedAt": "2026-08-25T08:30:00.000Z",
       "categoryId": "bio"
@@ -757,60 +811,6 @@
       "ts": 1787575556000,
       "publishedAt": "2026-08-24T12:45:56.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: kids outlearning AI, and space travel agents",
-      "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a computer to use human lang…",
-      "ts": 1787573400000,
-      "publishedAt": "2026-08-24T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Tory Bruno Named Honorary Chair Of World Space Week 2027",
-      "url": "https://spacenews.com/tory-bruno-named-honorary-chair-of-world-space-week-2027/",
-      "summary": "Houston — World Space Week Association announced today that Tory Bruno, President of National Security at Blue Origin, will serve as Honorary Chair of World Space Week 2027. “Tory Bruno […] The post Tory Bruno Named Hono…",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Can restoring land create jobs? These young entrepreneurs are proving it",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168194",
-      "summary": "From Ecuador to Bangladesh, a new generation of entrepreneurs is turning land restoration into economic opportunity. Whether repurposing agricultural waste, building greenhouses or deploying AI-powered sensors, they are …",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "100 days of Ebola and the race to stop the spread",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168195",
-      "summary": "A hundred days after the Bundibugyo Ebola outbreak was declared, the Democratic Republic of the Congo (DRC) is facing an epidemic of an unprecedented scale and efforts must grow to contain the spread in the eastern regio…",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza: Children still at risk despite drop in acute hunger",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168193",
-      "summary": "Among tent cities pitched on the rubble of destroyed homes in Gaza, children are, by one measure, finally getting enough to eat. By another, however, many of them may never fully recover, according to a new study by the …",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

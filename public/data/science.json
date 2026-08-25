@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-25T12:51:06.374Z",
+  "updated": "2026-08-25T13:52:10.017Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "From nightlife to life at night: Cities must stay open later to beat the rising heat",
+      "url": "https://phys.org/news/2026-08-nightlife-life-night-cities-stay.html",
+      "summary": "Summer in Europe is normally cause for celebration. Not this one, however, which will rank as one of the hottest on record. Wildfires have broken out everywhere from France to Greece, while intense drought has turned the…",
+      "ts": 1787665207000,
+      "publishedAt": "2026-08-25T13:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI financial advice can improve decisions or steer investors wrong, experiment finds",
+      "url": "https://phys.org/news/2026-08-ai-financial-advice-decisions-investors.html",
+      "summary": "To what extent can AI improve our financial decisions or steer us in the wrong direction? Researchers at the University of Bayreuth investigated this question in a new study involving 3,700 participants and fictional inv…",
+      "ts": 1787665201000,
+      "publishedAt": "2026-08-25T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Now boarding' … 240,000 miles from Earth, at the moon's first airport",
+      "url": "https://phys.org/news/2026-08-boarding-miles-earth-moon-airport.html",
+      "summary": "The moon's getting its first airport, and it's about to get busy. Within the next two decades, NASA's planned Gateway—humanity's first lunar spaceport—may become a bustling hub for Orion crew capsules, lunar landers, car…",
+      "ts": 1787664003000,
+      "publishedAt": "2026-08-25T13:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Probing issues relevant to students boosts civic engagement",
+      "url": "https://phys.org/news/2026-08-probing-issues-relevant-students-boosts.html",
+      "summary": "When social studies students delve into issues that affect their communities and discuss them in class, they are more likely to consider other people's points of view and are generally more interested in voting and other…",
+      "ts": 1787664001000,
+      "publishedAt": "2026-08-25T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Monitoring employee performance: The pitfalls for HR",
+      "url": "https://phys.org/news/2026-08-employee-pitfalls-hr.html",
+      "summary": "Performance metrics designed to motivate employees and drive efficiency in the workplace can paradoxically leave workers less engaged and more likely to quit, research has found.",
+      "ts": 1787662805000,
+      "publishedAt": "2026-08-25T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cow gut enzyme could help target bacterial biofilms and antibiotic-resistant infections",
+      "url": "https://phys.org/news/2026-08-cow-gut-enzyme-bacterial-biofilms.html",
+      "summary": "The bacterium Acinetobacter baumannii poses a substantial threat in health care settings, readily forming biofilms on wounds and medical surfaces and contributing to persistent infections and delayed healing. Its growing…",
+      "ts": 1787662801000,
+      "publishedAt": "2026-08-25T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Archaeologists investigate a feared young woman's 17th century vampiric grave in Poland",
@@ -751,54 +799,6 @@
       "title": "Exchange and core-polarization effects on Rydberg-transition electric-dipole matrix elements in Rb and Cs",
       "url": "https://arxiv.org/abs/2608.22798",
       "summary": "arXiv:2608.22798v1 Announce Type: new Abstract: Microwave electric-field measurements with Rydberg atoms require accurate Rydberg-transition electric-dipole matrix elements. We calculate these matrix elements for Rb and …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Separation of the Isomeric State $^{26\\text{m}}\\text{Al}$ from the Intense Ground State Background via Sequential Optical Pumping in Collinear Laser Spectroscopy",
-      "url": "https://arxiv.org/abs/2608.22825",
-      "summary": "arXiv:2608.22825v1 Announce Type: new Abstract: We propose a novel, highly efficient method for isolating the isomeric state $^{26\\text{m}}\\text{Al}$ from an overwhelming ground-state $^{26\\text{g}}\\text{Al}$ background …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A swept-source dual-comb spectrometer on a chip",
-      "url": "https://arxiv.org/abs/2608.22827",
-      "summary": "arXiv:2608.22827v1 Announce Type: new Abstract: Dual-comb spectroscopy (DCS) enables high-speed, high-resolution spectroscopy by down-converting optical spectra to the radio-frequency (RF) domain through the interference…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polymer-Linked Nanoparticle Networks Running on Heat Can Act as Computing Devices",
-      "url": "https://arxiv.org/abs/2608.22841",
-      "summary": "arXiv:2608.22841v1 Announce Type: new Abstract: Developing physical neural network (PNN) hardwares is important to next generation artificial intelligence systems. Phononic devices-using heat current to encode and proces…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topological space-time waves in complex channels",
-      "url": "https://arxiv.org/abs/2608.22848",
-      "summary": "arXiv:2608.22848v1 Announce Type: new Abstract: Structured light in space and time has become a powerful playground in which to explore the fundamental physics of wave systems, while simultaneously introducing new exotic…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Binding Affinity between Polymer Dots (Pdots) and Ovalbumin Protein at Varying pH",
-      "url": "https://arxiv.org/abs/2608.22871",
-      "summary": "arXiv:2608.22871v1 Announce Type: new Abstract: Determining the binding mechanisms between polymer dots and proteins is important for developing novel nanotechnologies for biomedicine and bioimaging. In this work, we use…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Drafting-Kissing-Tumbling Dynamics of Two Particles Subjected to Horizontal Oscillations",
-      "url": "https://arxiv.org/abs/2608.22912",
-      "summary": "arXiv:2608.22912v1 Announce Type: new Abstract: We investigate the effects of horizontal oscillations on the drafting--kissing--tumbling (DKT) dynamics of two monodisperse spherical particles settling under gravity in a …",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }
