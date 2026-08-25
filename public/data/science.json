@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-25T08:44:44.081Z",
+  "updated": "2026-08-25T09:37:20.330Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Cool Japan: Human fridge chills workers in extreme heat",
+      "url": "https://phys.org/news/2026-08-cool-japan-human-fridge-chills.html",
+      "summary": "Feeling dizzy and unwell after cycling to work in Japan's punishing summer heat, warehouse worker Isao Tabuchi headed for his company's newest acquisition: a refrigerator for humans.",
+      "ts": 1787649601000,
+      "publishedAt": "2026-08-25T09:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The hidden chemistry behind glow-in-the-dark art",
+      "url": "https://phys.org/news/2026-08-hidden-chemistry-dark-art.html",
+      "summary": "Some of the world's brightest colors don't just reflect light; they create it. Scientists and museum conservators are now uncovering why these luminous pigments fade and how to preserve them for future generations. The f…",
+      "ts": 1787648412000,
+      "publishedAt": "2026-08-25T09:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Namibia paves way for phosphate mining in the Atlantic Ocean",
+      "url": "https://phys.org/news/2026-08-namibia-paves-phosphate-atlantic-ocean.html",
+      "summary": "Namibia has granted environmental clearance for an offshore phosphate mining project that paves the way for the world's first commercial seabed-dredging operation for the mineral, despite opposition from green groups and…",
+      "ts": 1787648408000,
+      "publishedAt": "2026-08-25T09:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tides can vary by almost a meter across a single bay, four decades of satellite images reveal",
+      "url": "https://phys.org/news/2026-08-tides-vary-meter-bay-decades.html",
+      "summary": "Tide levels can vary by almost a meter across a single bay, according to a new study that uses decades of satellite images to measure tides at the scale of individual beaches.",
+      "ts": 1787648404000,
+      "publishedAt": "2026-08-25T09:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bright ideas accelerate the hunt for quantum emitters",
+      "url": "https://phys.org/news/2026-08-bright-ideas-quantum-emitters.html",
+      "summary": "The search for materials that can power future quantum technologies is accelerating, but identifying the most promising candidates remains painfully slow. Evaluating whether a material can efficiently emit quantum light …",
+      "ts": 1787648402000,
+      "publishedAt": "2026-08-25T09:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tens of thousands flee fire near U.S. city of Reno",
+      "url": "https://phys.org/news/2026-08-tens-thousands-city-reno.html",
+      "summary": "Tens of thousands of people looked set to spend another night away from home Monday as a wind-driven fire bore down on the western U.S. city of Reno.",
+      "ts": 1787647801000,
+      "publishedAt": "2026-08-25T08:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Trees 'giving up': Climate change hammers historic English gardens",
@@ -751,54 +799,6 @@
       "title": "From Maxwell Fluid to Kelvin Voigt Solid: A Transient Network Model of Condensate Aging and Morphology Transition in Phase Separation",
       "url": "https://arxiv.org/abs/2608.23076",
       "summary": "arXiv:2608.23076v1 Announce Type: new Abstract: Biomolecular condensates can undergo striking changes, such as transitioning from a liquid-like to a gel- or a solid-like aggregate due to changes in molecular interactions…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme Ultrafast Dynamics of the Refractive Index in Transparent Conductive Oxides: Theory and Experiment",
-      "url": "https://arxiv.org/abs/2608.23079",
-      "summary": "arXiv:2608.23079v1 Announce Type: new Abstract: Recent experiments in transparent conductive oxides (TCOs) have revealed light-induced order-unity variations in the refractive index occurring at extreme time scales, as s…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics of an internally actuated elastic particle in a plane Poiseuille flow",
-      "url": "https://arxiv.org/abs/2608.23099",
-      "summary": "arXiv:2608.23099v1 Announce Type: new Abstract: We analytically analyse the dynamics of an internally actuated particle, modelled as a compressible elastic sphere embedded with a magnetic bead at its undeformed centre, t…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weakly Compressible Subcycling for Accelerating Simulations of Surface-Tension-Dominated Incompressible Two-Phase Flows",
-      "url": "https://arxiv.org/abs/2608.23110",
-      "summary": "arXiv:2608.23110v1 Announce Type: new Abstract: Simulations of surface-tension-dominated incompressible two-phase flows are computationally expensive due to the severe capillary time-step constraint. Although many studie…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Cosmic Muon Tomography System with Machine Learning based Momentum Measurement for Multi-Object Reconstruction and Material Characterization",
-      "url": "https://arxiv.org/abs/2608.23141",
-      "summary": "arXiv:2608.23141v1 Announce Type: new Abstract: Cosmic muon tomography is a powerful non-destructive imaging technique for inspecting dense and shielded materials through multiple Coulomb scattering. In this work, we pre…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Movable Gate MOSFETs as Readout Devices for Cantilever-Based Nano-Electromechanical Sensors",
-      "url": "https://arxiv.org/abs/2608.23168",
-      "summary": "arXiv:2608.23168v1 Announce Type: new Abstract: This work proposes a novel readout mechanism for highly sensitive cantilever-based mass sensors using movable-gate (MG) MOSFETs. Traditional dynamic-mode cantilever sensors…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Model dependent analytic spin torsion corrections to Blandford Znajek energy extraction in Einstein Cartan gravity",
-      "url": "https://arxiv.org/abs/2608.23174",
-      "summary": "arXiv:2608.23174v1 Announce Type: new Abstract: We investigate the leading near-horizon response of Blandford-Znajek energy extraction to a compact, neutral spin-polarized source within minimally coupled Einstein-Cartan-…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }

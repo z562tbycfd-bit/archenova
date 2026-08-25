@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-25T08:44:46.360Z",
+  "updated": "2026-08-25T09:37:25.942Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Welcome to the spiderverse, a world measured through webs",
+      "url": "https://www.technologyreview.com/2026/08/25/1141750/welcome-to-spiderverse-arachnid-webs/",
+      "summary": "Counting the creatures in the world around us is critical for a raft of conservation efforts. It helps scientists gauge biodiversity, track migration, and spot invasive species. That census-taking, though, often requires…",
+      "ts": 1787648400000,
+      "publishedAt": "2026-08-25T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodi…",
+      "ts": 1787648400000,
+      "publishedAt": "2026-08-25T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Comments on OMB research rule mysteriously removed from federal website",
@@ -489,6 +507,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "ts": 1787616000000,
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "Robotics and the future of on-orbit labor",
       "url": "https://spacenews.com/robotics-and-the-future-of-on-orbit-labor/",
@@ -784,33 +811,6 @@
       "ts": 1787572800000,
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA pauses Regenxbio gene therapy trial again due to safety concerns",
-      "url": "https://www.statnews.com/2026/08/24/fda-pauses-regenxbio-gene-therapy-trial-hunter-syndrome-safety-concerns/?utm_campaign=rss",
-      "summary": "The FDA put a hold on a Regenxbio gene therapy trial again after new safety concerns emerged.",
-      "ts": 1787572788000,
-      "publishedAt": "2026-08-24T11:59:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Nuclear Energy Side Events at the 70th IAEA General Conference",
-      "url": "http://www.iaea.org/newscenter/news/nuclear-energy-side-events-at-the-70th-iaea-general-conference",
-      "summary": "The IAEA Department of Nuclear Energy will host its regular Operators' Forum and three side events during the 70th IAEA General Conference, to be held in Vienna from 14 to 18 September 2026. Programmes of the side events…",
-      "ts": 1787568853000,
-      "publishedAt": "2026-08-24T10:54:13.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Kids outlearn AI—and we still don’t know why",
-      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child…",
-      "ts": 1787562000000,
-      "publishedAt": "2026-08-24T09:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
