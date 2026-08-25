@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-25T21:30:22.136Z",
+  "updated": "2026-08-25T22:29:24.370Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Workplace social media reduces staff turnover, study finds",
+      "url": "https://phys.org/news/2026-08-workplace-social-media-staff-turnover.html",
+      "summary": "Social media used inside organizations may help engage employees and increase staff retention, according to a paper in the International Journal of Applied Systemic Studies that examined this phenomenon in China. Employe…",
+      "ts": 1787696403000,
+      "publishedAt": "2026-08-25T22:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hydroclimate whiplash damages California's tallest redwoods after years of drought",
+      "url": "https://phys.org/news/2026-08-hydroclimate-whiplash-california-tallest-redwoods.html",
+      "summary": "Tall trees are generally associated with high-biomass forests. This is particularly true for forests dominated by Sequoia sempervirens (hereafter redwood), the world's tallest tree species. Extreme decay resistance, the …",
+      "ts": 1787696401000,
+      "publishedAt": "2026-08-25T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "3D atomic imaging reveals a new pathway to crystal formation",
+      "url": "https://phys.org/news/2026-08-3d-atomic-imaging-reveals-pathway.html",
+      "summary": "The most common scientific approach for thinking about how condensation, freezing and other phase transitions begin is based in classical nucleation theory, which was developed about a century ago. Thousands of experimen…",
+      "ts": 1787695203000,
+      "publishedAt": "2026-08-25T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Closing the gap between wildfire modeling and real-world response",
+      "url": "https://phys.org/news/2026-08-gap-wildfire-real-world-response.html",
+      "summary": "Canada's 2023 wildfire season burned more than 18.5 million hectares (45.7 million acres), an area larger than Greece. As fires like these grow more frequent and unpredictable, a team of UBC Okanagan researchers has take…",
+      "ts": 1787695201000,
+      "publishedAt": "2026-08-25T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "JWST reveals a race against time for forming planets",
+      "url": "https://phys.org/news/2026-08-jwst-reveals-planets.html",
+      "summary": "Planets form from disks of gas and dust around young stars, but the gas needed for growth does not last forever. New observations from NASA's James Webb Space Telescope (JWST) now offer a new view of how this gas escapes…",
+      "ts": 1787694601000,
+      "publishedAt": "2026-08-25T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Habitat changes found to be no deterrent for some Fijian native bees",
+      "url": "https://phys.org/news/2026-08-habitat-deterrent-fijian-native-bees.html",
+      "summary": "While extreme weather and habitat changes can spell doom for many native animals, including insects, a different picture has emerged from a new study led by Flinders University. Long-running investigations into Fiji's na…",
+      "ts": 1787694005000,
+      "publishedAt": "2026-08-25T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microcline reveals how a common mineral surface triggers ice formation in clouds",
+      "url": "https://phys.org/news/2026-08-microcline-reveals-common-mineral-surface.html",
+      "summary": "Pure water freezes only at around -38°C (-36°F). Tiny mineral dust particles act as so-called ice nucleators—crystallization seeds on which ice crystals form. A research team at Bielefeld University and the University of…",
+      "ts": 1787694001000,
+      "publishedAt": "2026-08-25T21:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Scientists unlock 'ancestral code' of banana family",
@@ -587,6 +643,30 @@
       "publishedAt": "2026-08-25T11:00:02.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Nonlinear dynamics of hopfions for frequency multiplication",
+      "url": "http://link.aps.org/doi/10.1103/sycn-zrt2",
+      "summary": "Author(s): Waleed I. Waseer, Yunshan Cao, and Peng Yan Hopfions, associated with higher-dimensional topology through the Hopf fibration, exhibit exotic features like complex knots and improved stability compared to skyrm…",
+      "ts": 1787652000000,
+      "publishedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Deterministic photonic controlled-$π$-phase gate enabled by passive time-reversal-symmetric photon transport",
+      "url": "http://link.aps.org/doi/10.1103/49mp-bx59",
+      "summary": "Author(s): Zhaohua Tian, Ying Gu, and Xue-Wen Chen Photons are ideal in many aspects for quantum technologies. However, the absence of direct photon-photon interaction and the problem of wave-packet distortion inherent i…",
+      "ts": 1787652000000,
+      "publishedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Transient dynamics of parametric driving for single-electron image-current detection in a Paul trap",
+      "url": "http://link.aps.org/doi/10.1103/krxg-clfg",
+      "summary": "Author(s): Baiyi Yu, Andris Huang, Isabel Sacksteder, and Hartmut Haeffner Nondestructive detection of single-electron motion is crucial for quantum information processing with electrons trapped in Paul traps. The standa…",
+      "ts": 1787652000000,
+      "publishedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Uncovering Hidden Entanglement in Twin Beams",
       "url": "http://link.aps.org/doi/10.1103/1rdk-5zzk",
@@ -675,30 +755,6 @@
       "publishedAt": "2026-08-25T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Nonlinear dynamics of hopfions for frequency multiplication",
-      "url": "http://link.aps.org/doi/10.1103/sycn-zrt2",
-      "summary": "Author(s): Waleed I. Waseer, Yunshan Cao, and Peng Yan Hopfions, associated with higher-dimensional topology through the Hopf fibration, exhibit exotic features like complex knots and improved stability compared to skyrm…",
-      "ts": 1787652000000,
-      "publishedAt": "2026-08-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Deterministic photonic controlled-$π$-phase gate enabled by passive time-reversal-symmetric photon transport",
-      "url": "http://link.aps.org/doi/10.1103/49mp-bx59",
-      "summary": "Author(s): Zhaohua Tian, Ying Gu, and Xue-Wen Chen Photons are ideal in many aspects for quantum technologies. However, the absence of direct photon-photon interaction and the problem of wave-packet distortion inherent i…",
-      "ts": 1787652000000,
-      "publishedAt": "2026-08-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Transient dynamics of parametric driving for single-electron image-current detection in a Paul trap",
-      "url": "http://link.aps.org/doi/10.1103/krxg-clfg",
-      "summary": "Author(s): Baiyi Yu, Andris Huang, Isabel Sacksteder, and Hartmut Haeffner Nondestructive detection of single-electron motion is crucial for quantum information processing with electrons trapped in Paul traps. The standa…",
-      "ts": 1787652000000,
-      "publishedAt": "2026-08-25T10:00:00.000Z"
-    },
-    {
       "source": "Phys.org",
       "title": "Cool Japan: Human fridge chills workers in extreme heat",
       "url": "https://phys.org/news/2026-08-cool-japan-human-fridge-chills.html",
@@ -745,62 +801,6 @@
       "summary": "Tens of thousands of people looked set to spend another night away from home Monday as a wind-driven fire bore down on the western U.S. city of Reno.",
       "ts": 1787647801000,
       "publishedAt": "2026-08-25T08:50:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Trees 'giving up': Climate change hammers historic English gardens",
-      "url": "https://phys.org/news/2026-08-trees-climate-historic-english-gardens.html",
-      "summary": "At Hampton Court Palace, head gardener Graham Dillamore strode across the burned beige grass in the spectacular formal gardens southwest of London, laid out in the 17th century.",
-      "ts": 1787646664000,
-      "publishedAt": "2026-08-25T08:31:04.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gate Voltage Effect on Pulse Detection Efficiency of Perimeter-Gated SPADs",
-      "url": "https://arxiv.org/abs/2608.21371",
-      "summary": "arXiv:2608.21371v1 Announce Type: new Abstract: Perimeter-gated single-photon avalanche diodes (pg-SPADs) are known for their dynamic dark noise modulation capabilities. They are reported to trade noise for photon sensit…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of Neutron Transmutation Doped Germanium (NTD-Ge) for Cryogenic Applications",
-      "url": "https://arxiv.org/abs/2608.21392",
-      "summary": "arXiv:2608.21392v1 Announce Type: new Abstract: This paper presents the systematic fabrication and characterization of cryogenic thermometers based on neutron transmutation-doped germanium (NTD-Ge). High-purity (10N) ger…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cryogenic Mechanical Loss of GaAs/AlGaAs Crystalline Coatings",
-      "url": "https://arxiv.org/abs/2608.21394",
-      "summary": "arXiv:2608.21394v1 Announce Type: new Abstract: Optical coatings with minimal thermal noise are essential for high-precision, laser-based metrology experiments. Substrate-transferred crystalline GaAs/Al$_{0.92}$Ga$_{0.08…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mitigating warp divergence in GPU optical photon Monte Carlo: an order of magnitude speedup with Shader Execution Reordering",
-      "url": "https://arxiv.org/abs/2608.21396",
-      "summary": "arXiv:2608.21396v1 Announce Type: new Abstract: In high energy, nuclear, and medical physics, optical photon transport Monte Carlo is a frequent bottleneck in detector simulation. GPU ray tracing accelerates photon propa…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical characterization and ionizing-radiation response of the BCF-20XL scintillating-wavelength-shifting fiber",
-      "url": "https://arxiv.org/abs/2608.21397",
-      "summary": "arXiv:2608.21397v1 Announce Type: new Abstract: We report optical characterization and ionizing-radiation measurements of the scintillating-wavelength-shifting (Sci-WLS) fiber BCF-20XL from Luxium Solutions. Attenuation …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical-Fiber Activation of Observer-Split Source Terms in a Rotating Aluminum Disc",
-      "url": "https://arxiv.org/abs/2608.21403",
-      "summary": "arXiv:2608.21403v1 Announce Type: new Abstract: We propose an optical-fiber implementation of the Observer-Split source framework for finite rotating systems in extended Aharonov-Bohm electrodynamics. A covariantly conse…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
     }
   ],
   "sources": [
