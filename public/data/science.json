@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-24T23:24:17.081Z",
+  "updated": "2026-08-25T01:21:35.589Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What would happen to human interaction if AI could read our emotions?",
+      "url": "https://phys.org/news/2026-08-human-interaction-ai-emotions.html",
+      "summary": "AI systems are increasingly being developed to recognize emotions by analyzing facial expressions, voices, body language and other physiological signals. Although the scientific validity of many of these systems remains …",
+      "ts": 1787619602000,
+      "publishedAt": "2026-08-25T01:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Blood-clotting protein may be SARS-CoV-2's hidden accomplice, helping it hide from antibodies and reach blood vessels",
+      "url": "https://phys.org/news/2026-08-blood-clotting-protein-sars-cov.html",
+      "summary": "Fibrinogen, the abundant plasma protein best known for forming blood clots, may play a second and far less benign role during SARS-CoV-2 infection: acting as a molecular bridge that simultaneously hides the virus from ne…",
+      "ts": 1787616001000,
+      "publishedAt": "2026-08-25T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Combinatorial group testing for efficient scaling across biological applications",
+      "url": "https://www.nature.com/articles/s41467-026-77055-5",
+      "summary": "",
+      "ts": 1787616000000,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Redox-stratified macromolecule degradation supports microbial survival in the oligotrophic Kermadec Trench sediments",
+      "url": "https://www.nature.com/articles/s41467-026-77249-x",
+      "summary": "",
+      "ts": 1787616000000,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Quantifying replication fidelity of unnatural base pairs using nanopore sequencing",
+      "url": "https://www.nature.com/articles/s41467-026-76964-9",
+      "summary": "",
+      "ts": 1787616000000,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "BRANCHED1 acts as a rheostat of Nuclear Factor Y-dependent epigenetic regulation in axillary bud development",
+      "url": "https://www.nature.com/articles/s41467-026-77029-7",
+      "summary": "",
+      "ts": 1787616000000,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Protein entanglement misfolding influences whether proteins undergo proteasomal degradation or persist in near-native misfolded states",
+      "url": "https://www.nature.com/articles/s41467-026-76875-9",
+      "summary": "",
+      "ts": 1787616000000,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Ectoderm tensile stress controls mesoderm internalization during embryo gastrulation",
+      "url": "https://www.nature.com/articles/s41467-026-77010-4",
+      "summary": "",
+      "ts": 1787616000000,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mystery statue unearthed at Sardis archaeological dig",
+      "url": "https://phys.org/news/2026-08-mystery-statue-unearthed-sardis-archaeological.html",
+      "summary": "Researchers with the long-running Harvard–Cornell Archaeological Exploration of Sardis have unearthed a larger-than-life statue estimated to be nearly 2,500 years old.",
+      "ts": 1787614801000,
+      "publishedAt": "2026-08-24T23:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Natural gas drilling could raise salt levels, in turn boosting radium in water",
@@ -691,62 +763,6 @@
       "publishedAt": "2026-08-24T11:00:03.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Particle View of Many-Body Electronic Structure with Neural Network Wave Function",
-      "url": "http://link.aps.org/doi/10.1103/g6v2-grnl",
-      "summary": "Author(s): Zichen Wang, Weizhong Fu, Zhe Li, Weiluo Ren, and Ji Chen A combination of theoretical approaches bridges the gap between complex quantum wave functions and the classical picture of electron positions for mole…",
-      "ts": 1787565600000,
-      "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Real-Space Visualization of the Intrinsic Aging in $n$-type ${\\mathrm{Mg}}_{3}(\\mathrm{Sb},\\mathrm{Bi}{)}_{2}$ Thermoelectrics",
-      "url": "http://link.aps.org/doi/10.1103/gl3r-hxtm",
-      "summary": "Author(s): Yuxiang Gong, Nuo Qu, Sumayya, Yu-Ke Zhu, Jianbo Zhu, Tinglu Song, Qianru Lin, Lankun Wang, Ran Xin, Fengkai Guo, Wei Cai, Yuan Yu, Jiehe Sui, and Zihang Liu Spontaneous degradation of an Mg3(Sb,Bi)2 thermoele…",
-      "ts": 1787565600000,
-      "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Electromechanical coupling at tunable band extrema in flexoelectric metamaterials",
-      "url": "http://link.aps.org/doi/10.1103/666q-r3hv",
-      "summary": "Author(s): Kshiteej J. Deshmukh, Ihina Mahajan, Alper Erturk, and Pradeep Sharma Stopping and localizing elastic waves can concentrate energy for high-sensitivity sensing and harvesting, but this often requires intricate…",
-      "ts": 1787565600000,
-      "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Real-time amplitude and phase estimation of ac magnetic fields with spins in diamond",
-      "url": "http://link.aps.org/doi/10.1103/d5bm-lsjj",
-      "summary": "Author(s): C. T.-K. Lew, S. A. Wilkinson, N. Gillespie, B. C. Gibson, D. A. Broadway, and J.-P. Tetienne Nitrogen-vacancy (NV) centers in diamond have been shown to be capable of detecting ac magnetic fields with high se…",
-      "ts": 1787565600000,
-      "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Dispersive Hong-Ou-Mandel interference with finite coincidence windows",
-      "url": "http://link.aps.org/doi/10.1103/7qgl-v5ld",
-      "summary": "Author(s): T. J. Walstra, A. J. Hasenack, D. J. de Ruiter, P. W. H. Pinkse, T. D. Bradley, and B. Škorić Hong-Ou-Mandel (HOM) interference is a fundamental tool for assessing photon indistinguishability in quantum inform…",
-      "ts": 1787565600000,
-      "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "High-fidelity, robust, and programmable quantum logic units via intersubspace dynamical decoupling",
-      "url": "http://link.aps.org/doi/10.1103/l2l1-632m",
-      "summary": "Author(s): Yao Song, Junkai Zeng, Guangchong Hu, Yu He, and Xiu-Hao Deng Scalable quantum computing in frequency-crowded nuclear spin registers promises long coherence times and native many-body logic. However, as system…",
-      "ts": 1787565600000,
-      "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Battery-free wireless quartz-crystal-microbalance sensor operating at a range of 50 m",
-      "url": "http://link.aps.org/doi/10.1103/wv9d-w2fv",
-      "summary": "Author(s): Motoyuki Hamana, Ambuj Kumar Gautam, Motoharu Haga, Riki Nishihara, Wenlou Yuan, Fumihito Kato, Nobutomo Nakamura, Hiroki Okita, and Hirotsugu Ogi Starting from a quartz-crystal microbalance, the authors devel…",
-      "ts": 1787565600000,
-      "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "First-Order Phase Transition in Atom-Molecule Quantum Degenerate Mixtures with Coherent Three-Body Recombination",
       "url": "http://link.aps.org/doi/10.1103/llw4-tbnt",
@@ -785,22 +801,6 @@
       "summary": "Author(s): O. Devauchelle, P. Popović, P. Szymczak, A. Abramian, and A. Lazarus Random walkers usually diffuse according to Fick’s law. On average, they move down the gradient of their concentration and, in the absence o…",
       "ts": 1787565600000,
       "publishedAt": "2026-08-24T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Engineered yeasts help turn PET plastic and crop waste into protein-rich cookies",
-      "url": "https://phys.org/news/2026-08-yeasts-pet-plastic-crop-protein.html",
-      "summary": "Plastic might be the last ingredient you would ever add to a cookie recipe. But a team of researchers is looking to change that. They've programmed yeasts to turn plastic and agricultural waste into edible proteins and f…",
-      "ts": 1787562007000,
-      "publishedAt": "2026-08-24T09:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Nanoparticle flu vaccine protects against three influenza strains in mice",
-      "url": "https://phys.org/news/2026-08-nanoparticle-flu-vaccine-influenza-strains.html",
-      "summary": "A new nanoparticle vaccine could one day give patients immunity to the flu with fewer trips to the doctor and without requiring health officials to correctly guess which flu strains will become dominant each year.",
-      "ts": 1787562003000,
-      "publishedAt": "2026-08-24T09:00:03.000Z"
     }
   ],
   "sources": [
