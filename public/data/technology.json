@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-25T22:29:26.202Z",
+  "updated": "2026-08-25T23:26:29.698Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
+      "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
+      "summary": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system. The network u…",
+      "ts": 1787696914000,
+      "publishedAt": "2026-08-25T22:28:34.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Addressing a sticking point in sustainable adhesives",
@@ -100,6 +109,15 @@
       "ts": 1787690774000,
       "publishedAt": "2026-08-25T20:46:14.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama/",
+      "summary": "NASA will announce the winners of the final phase of its LunaRecycle Challenge on Friday, Aug. 28, at The University of Alabama (UA) Lee Styslinger College of Engineering in Tuscaloosa, Alabama. Launched in 2024, the cha…",
+      "ts": 1787689258000,
+      "publishedAt": "2026-08-25T20:20:58.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -282,19 +300,19 @@
       "categoryId": "bio"
     },
     {
-      "source": "SpaceNews",
-      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
-      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
-      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
+      "source": "NASA",
+      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
+      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
-      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
+      "source": "SpaceNews",
+      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
+      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
+      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
@@ -316,6 +334,33 @@
       "ts": 1787659482000,
       "publishedAt": "2026-08-25T12:04:42.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti ramps up the fight against gangs in the capital, but violence spreads elsewhere",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168203",
+      "summary": "The killings in Kenscoff began late Sunday, when armed men descended on the farming community in the hills overlooking Haiti’s capital, setting homes ablaze and attacking residents. By Monday, bodies lay in the streets a…",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "One million children in Afghanistan face deadly malnutrition",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168202",
+      "summary": "Some 3.7 million children in Afghanistan are suffering from wasting, one of the most dangerous forms of malnutrition, with around one million currently battling the most severe, life-threatening form of the condition.",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "As wars spread, the global food system unravels",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168201",
+      "summary": "A family with four children abandoned its farm in Somalia after armed groups arrived and demanded payments for the right to continue cultivating the land. They walked roughly 100 kilometers to a displacement camp. One of…",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -763,51 +808,6 @@
       "title": "Robust State-space Reconstruction of Brain Dynamics via Bootstrap Monte Carlo SSA",
       "url": "https://arxiv.org/abs/2510.00011",
       "summary": "arXiv:2510.00011v3 Announce Type: replace Abstract: Reconstructing latent state-space geometry from time series provides a powerful route to studying nonlinear dynamics across complex systems. Delay-coordinate embedding …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HuBMAP Data Portal: a resource for multimodal spatial and single-cell data of healthy human tissues",
-      "url": "https://arxiv.org/abs/2511.05708",
-      "summary": "arXiv:2511.05708v3 Announce Type: replace Abstract: The NIH Human BioMolecular Atlas Program (HuBMAP) Data Portal (https://portal.hubmapconsortium.org/) serves as a comprehensive repository for multimodal, multi-scale sp…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Promotion of cooperation in deme-structured populations with growth-merging dynamics",
-      "url": "https://arxiv.org/abs/2601.20416",
-      "summary": "arXiv:2601.20416v2 Announce Type: replace Abstract: The spatial structure of populations may promote the emergence and maintenance of cooperation. Cooperation in the prisoner's dilemma is favored under specific update ru…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Dynamical Systems and System Identification Framework for Phase Amplitude Coupling Analysis",
-      "url": "https://arxiv.org/abs/2603.08866",
-      "summary": "arXiv:2603.08866v2 Announce Type: replace Abstract: Phase-amplitude coupling (PAC), a form of cross-frequency coupling, is involved in diverse cognitive functions and neural communication, making its accurate detection a…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pattern Formation in a Spatial Public Goods Dilemma due to Diffusive or Directed Motion",
-      "url": "https://arxiv.org/abs/2603.21025",
-      "summary": "arXiv:2603.21025v2 Announce Type: replace Abstract: The costly provision of public goods serves as a model problem for the evolution of cooperative behavior, presenting a social dilemma between the collective benefits of…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cruise Ship-Associated Andes Virus Cluster aboard MV Hondius, 2026: A Stochastic Scenario Analysis",
-      "url": "https://arxiv.org/abs/2606.08391",
-      "summary": "arXiv:2606.08391v2 Announce Type: replace Abstract: In April 2026, the MV Hondius expedition cruise ship became the site of the first documented cruise ship-associated Andes hantavirus (ANDV) cluster, with 13 confirmed a…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "categoryId": "bio"
