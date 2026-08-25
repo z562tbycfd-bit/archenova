@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-25T15:44:00.430Z",
+  "updated": "2026-08-25T16:39:47.492Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Pennsylvania reports first 2 measles deaths in the U.S. this year, both people unvaccinated",
+      "url": "https://www.statnews.com/2026/08/25/two-measles-deaths-reported-pennsylvania-residents-not-vaccinated/?utm_campaign=rss",
+      "summary": "Two unvaccinated Pennsylvania residents have died from measles, state health officials said Tuesday, the first measles-related deaths in the U.S. this year.",
+      "ts": 1787673744000,
+      "publishedAt": "2026-08-25T16:02:24.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Expanded Synthetic Promoter Library Introduced to Boost Biomanufacturing Operations",
@@ -109,6 +118,15 @@
       "ts": 1787662839000,
       "publishedAt": "2026-08-25T13:00:39.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
+      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
+      "ts": 1787662800000,
+      "publishedAt": "2026-08-25T13:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -793,24 +811,6 @@
       "ts": 1787592421000,
       "publishedAt": "2026-08-24T17:27:01.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Mapping Air Pollution With MAIA Sensors in Addis Ababa",
-      "url": "https://science.nasa.gov/photojournal/mapping-air-pollution-with-maia-sensors-in-addis-ababa/",
-      "summary": "Description This map of Addis Ababa, the capital of Ethiopia, shows the locations of 10 air sensors that NASA’s Multi-Angle Imager for Aerosols (MAIA) mission is using to provide one of the most detailed looks ever at th…",
-      "ts": 1787592088000,
-      "publishedAt": "2026-08-24T17:21:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Rznomics Joins Lilly Gateway Labs to Quicken RNA Therapeutic Candidate Discovery and Development",
-      "url": "https://www.genengnews.com/topics/drug-discovery/rznomics-joins-lilly-gateway-labs-to-quicken-rna-therapeutic-candidate-discovery-and-development/",
-      "summary": "Through its entry into Lilly Gateway Labs, Rznomics officials say they plan to accelerate candidate discovery and development across its target gene database bank comprising over 200 disease targets. The post Rznomics Jo…",
-      "ts": 1787584887000,
-      "publishedAt": "2026-08-24T15:21:27.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-25T15:43:50.383Z",
+  "updated": "2026-08-25T16:39:42.189Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Chemical physicists quantitatively model electron interactions in real quantum materials",
+      "url": "https://phys.org/news/2026-08-chemical-physicists-quantitatively-electron-interactions.html",
+      "summary": "A team of scientists from Caltech and Yale University has shown for the first time how to accurately quantify an important quantum phenomenon in metals, called the Kondo effect, for specific real materials. Unlike previo…",
+      "ts": 1787674805000,
+      "publishedAt": "2026-08-25T16:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Companies, regulators and stakeholders shape sustainability reporting, says researcher",
+      "url": "https://phys.org/news/2026-08-companies-stakeholders-sustainability.html",
+      "summary": "Sustainability reporting is shaped by the social, economic and political environment in which companies operate. New research shows how corporate culture, cross-border regulatory influences and stakeholder involvement in…",
+      "ts": 1787674804000,
+      "publishedAt": "2026-08-25T16:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genetic evidence reveals how goosegrass colonized a newly formed volcanic island",
+      "url": "https://phys.org/news/2026-08-genetic-evidence-reveals-goosegrass-colonized.html",
+      "summary": "Opportunities to directly observe how life colonizes newly formed land and how ecosystems subsequently develop are exceedingly rare. In a study published in the Journal of Plant Research, researchers at University of Tsu…",
+      "ts": 1787673608000,
+      "publishedAt": "2026-08-25T16:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Expert pieces together puzzle from fragments of 1,600-year-old Roman text",
+      "url": "https://phys.org/news/2026-08-expert-pieces-puzzle-fragments-year.html",
+      "summary": "A Roman law expert at the University of Cincinnati edited and translated a Latin legal text he pieced together from fragments that surprisingly survived in the Egyptian sands for more than 1,600 years. What's less surpri…",
+      "ts": 1787673606000,
+      "publishedAt": "2026-08-25T16:00:06.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A new cancer vaccine may keep melanoma from coming back",
+      "url": "https://www.sciencenews.org/article/cancer-vaccine-melanoma-treatment-mrna",
+      "summary": "A personalized mRNA vaccine paired with Keytruda may help keep skin cancer from returning after surgery, a large clinical trial suggests.",
+      "ts": 1787673600000,
+      "publishedAt": "2026-08-25T16:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The real reasons you procrastinate—and how to stop, according to science",
@@ -759,46 +799,6 @@
       "title": "A scalable Bayesian framework for modern sea-level inference",
       "url": "https://arxiv.org/abs/2608.22336",
       "summary": "arXiv:2608.22336v1 Announce Type: new Abstract: This paper presents a scalable Bayesian framework for the inference of modern-day sea-level change and surface mass redistribution. To motivate this approach, we first revi…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "UMEX Viewer - Software Suite for High-Speed AFM Data Analysis and Its Applications",
-      "url": "https://arxiv.org/abs/2608.22343",
-      "summary": "arXiv:2608.22343v1 Announce Type: new Abstract: Recent technical advances in atomic force microscopy (AFM) have led to the development of high-speed AFM (HS-AFM), which enables video-rate imaging and direct visualization…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shimmer: End-to-End Open-Source Passive B0 Shimming Methodology for Low-Field MRI Magnets",
-      "url": "https://arxiv.org/abs/2608.22351",
-      "summary": "arXiv:2608.22351v1 Announce Type: new Abstract: Low-field MRI scanners based on permanent magnet arrays require accurate B0 shimming to achieve sufficient field homogeneity for imaging. Here, we present Shimmer, an open-…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diagonalizing an optical coherence matrix via on-chip Stokes tomography",
-      "url": "https://arxiv.org/abs/2608.22372",
-      "summary": "arXiv:2608.22372v1 Announce Type: new Abstract: Structured coherence -- partially coherent light spanned by a finite number of modes -- is emerging as a powerful tool in optical communications, computation, cryptography,…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chebyshev self-imaging from inverse-sampled angular spectra",
-      "url": "https://arxiv.org/abs/2608.22415",
-      "summary": "arXiv:2608.22415v1 Announce Type: new Abstract: For nearly two centuries, conventional self-imaging has obeyed a single rule: a periodic wave reconstructs itself at a fixed distance, independent of its bandwidth. Here we…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A score-based particle flow filter for non-Gaussian data assimilation in high-dimensional chaotic systems",
-      "url": "https://arxiv.org/abs/2608.22454",
-      "summary": "arXiv:2608.22454v1 Announce Type: new Abstract: Current particle flow filters rely on Gaussian prior assumptions that fail to capture the non-Gaussian attractor structure of chaotic systems. This study proposes a Score-b…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }
