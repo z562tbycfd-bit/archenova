@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-25T11:29:53.001Z",
+  "updated": "2026-08-25T12:51:09.463Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
+      "url": "https://www.technologyreview.com/2026/08/25/1142909/the-download-smarter-ai-in-schools-robot-carnival-shanghai/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How to encourage smarter AI use in the classroom Chatbots took schools by surprise…",
+      "ts": 1787659800000,
+      "publishedAt": "2026-08-25T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "CDC releases latest life expectancy data",
+      "url": "https://www.statnews.com/2026/08/25/health-news-cdc-releases-latest-life-expectancy-data/?utm_campaign=rss",
+      "summary": "Deleted public comments on White House proposals, how Trump cuts are reshaping rural health care, and more Morning Rounds news",
+      "ts": 1787659482000,
+      "publishedAt": "2026-08-25T12:04:42.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "United Nations News",
       "title": "UN chief, Red Cross renew call for rules on lethal autonomous weapons",
@@ -73,6 +91,15 @@
       "ts": 1787646600000,
       "publishedAt": "2026-08-25T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA-led Study Finds 5-star Rating System Can Help Make CT Imaging Safer",
+      "url": "http://www.iaea.org/newscenter/news/iaea-led-study-finds-5-star-rating-system-can-help-make-ct-imaging-safer",
+      "summary": "",
+      "ts": 1787641935000,
+      "publishedAt": "2026-08-25T07:12:15.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "arXiv q-bio",
@@ -781,33 +808,6 @@
       "title": "Gaza: Children still at risk despite drop in acute hunger",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168193",
       "summary": "Among tent cities pitched on the rubble of destroyed homes in Gaza, children are, by one measure, finally getting enough to eat. By another, however, many of them may never fully recover, according to a new study by the …",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Two UN peacekeepers killed in South Sudan ambush",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168192",
-      "summary": "Two UN peacekeepers have been killed and a total of seven people injured after unidentified gunmen ambushed a patrol in South Sudan’s eastern Jonglei state on Monday.",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Civilian suffering grows in Russia-Ukraine war",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168191",
-      "summary": "As spiralling drone and missile attacks on civilians in the ongoing Russia-Ukraine war continue, top UN officials told the Security Council on Monday that every diplomatic effort must work towards a full, immediate and u…",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Global food supply has become ‘collateral damage’ in conflicts: Secretary-General",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168190",
-      "summary": "The disruption of maritime traffic in the Strait of Hormuz, Black Sea and Bab al-Mandab Strait has worsened hunger crises and must immediately end, UN Secretary-General António Guterres said.",
       "ts": 1787572800000,
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "categoryId": "global-governance"

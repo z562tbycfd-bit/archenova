@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-25T11:29:50.498Z",
+  "updated": "2026-08-25T12:51:06.374Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Archaeologists investigate a feared young woman's 17th century vampiric grave in Poland",
+      "url": "https://phys.org/news/2026-08-archaeologists-young-woman-17th-century.html",
+      "summary": "In 2022, excavations at a cemetery in Pień, Poland, led by researchers from the Institute of Archaeology at Nicolaus Copernicus University, led to a mysterious discovery. In what they call Grave 75, they uncovered the 40…",
+      "ts": 1787661815000,
+      "publishedAt": "2026-08-25T12:43:35.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does heavy social media use damage your family's relationship?",
+      "url": "https://phys.org/news/2026-08-heavy-social-media-family-relationship.html",
+      "summary": "Children glued to their phones all day? Parents spending hours scrolling? The positive (and slightly surprising) news is that while social media may not be the most meaningful way to spend your time, it is not necessaril…",
+      "ts": 1787661601000,
+      "publishedAt": "2026-08-25T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Large mammals alter soil chemistry and increase fertility in the Atlantic Forest",
+      "url": "https://phys.org/news/2026-08-large-mammals-soil-chemistry-fertility.html",
+      "summary": "A study published in the journal Ecological Monographs indicates that large mammals, such as tapirs, peccaries, agoutis and deer, alter the chemical composition of litter and soil in tropical forests of the Brazilian Atl…",
+      "ts": 1787660403000,
+      "publishedAt": "2026-08-25T12:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The little red dots of our cosmos might hide something big",
+      "url": "https://phys.org/news/2026-08-red-dots-cosmos-big.html",
+      "summary": "Little red dots may reside in small, dense galaxies with total masses equivalent to around 1 billion times that of the sun, according to research published in Nature Astronomy.",
+      "ts": 1787659204000,
+      "publishedAt": "2026-08-25T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient dental calculus reveals diverse diets of commoners in premodern Osaka, Japan, the 'Kitchen of the Realm'",
+      "url": "https://phys.org/news/2026-08-ancient-dental-calculus-reveals-diverse.html",
+      "summary": "What did ordinary people really eat in premodern Japan, beyond the dishes described in cookbooks and the bones discarded at urban waste pits? Reconstructing past diets at the level of individual food items is remarkably …",
+      "ts": 1787659203000,
+      "publishedAt": "2026-08-25T12:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Less sugar early in life might decrease dementia risk",
+      "url": "https://www.sciencenews.org/article/more-sugar-early-life-dementia-risk",
+      "summary": "Children exposed to World War II sugar rationing had lower dementia and Alzheimer’s risk decades later, data suggest.",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can AI replace traditional language learning? A new study says not yet",
+      "url": "https://phys.org/news/2026-08-ai-traditional-language.html",
+      "summary": "When university students set out to learn English as an additional language, it's not just about internalizing a new list of words; they also have to learn common word combinations.",
+      "ts": 1787658001000,
+      "publishedAt": "2026-08-25T11:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI helps workers most when paired with experience, new study finds",
@@ -743,62 +799,6 @@
       "title": "Drafting-Kissing-Tumbling Dynamics of Two Particles Subjected to Horizontal Oscillations",
       "url": "https://arxiv.org/abs/2608.22912",
       "summary": "arXiv:2608.22912v1 Announce Type: new Abstract: We investigate the effects of horizontal oscillations on the drafting--kissing--tumbling (DKT) dynamics of two monodisperse spherical particles settling under gravity in a …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Importance-Reweighted Fock-Space Variational Monte Carlo",
-      "url": "https://arxiv.org/abs/2608.22925",
-      "summary": "arXiv:2608.22925v1 Announce Type: new Abstract: Fock-space variational Monte Carlo (FS-VMC) evaluates variational quantities by stochastic sampling over discrete many-body configurations. For ab initio electronic Hamilto…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalizing Abell-Tersoff bond-order potential with explicit high-order many-body correlations for robust extrapolation of potential energy surfaces",
-      "url": "https://arxiv.org/abs/2608.22933",
-      "summary": "arXiv:2608.22933v1 Announce Type: new Abstract: Machine-learning interatomic potentials enable accurate and efficient atomistic simulations, but their reliability for out-of-distribution configurations far beyond the tra…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-calibrated equilibrium sensing for inverse design of nonlocal topological photonic lattices",
-      "url": "https://arxiv.org/abs/2608.22944",
-      "summary": "arXiv:2608.22944v1 Announce Type: new Abstract: Topological photonic lattices are commonly designed using short-range Hamiltonians, yet realistic nanophotonic structures are governed by geometry- and wavelength-dependent…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 3D VTI factored eikonal solver using six-tetrahedron pyramidal stencil",
-      "url": "https://arxiv.org/abs/2608.22949",
-      "summary": "arXiv:2608.22949v1 Announce Type: new Abstract: Accurate traveltime computation for the eikonal equation is essential in seismic applications such as tomography and migration. The fast sweeping method (FSM) is widely use…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "$\\mathscr{PT}$-symmetric hydrodynamics of odd viscous liquids and their oscillator counterparts",
-      "url": "https://arxiv.org/abs/2608.22958",
-      "summary": "arXiv:2608.22958v1 Announce Type: new Abstract: Odd viscosity, the nondissipative part of the viscous response of a time-reversal-broken fluid, is notoriously difficult to measure precisely because it does no work. Here …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-consistent modelling of all-optical switching and magneto-optic readout in an integrated Si$_3$N$_4$/GdFeCo waveguide",
-      "url": "https://arxiv.org/abs/2608.22969",
-      "summary": "arXiv:2608.22969v1 Announce Type: new Abstract: What a guided beam carries after passing through an all-optically switched magnetic film has not been computed, although such switching has been demonstrated on a silicon n…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-Time Density--Source Mapping for Open Electron--Photon Systems",
-      "url": "https://arxiv.org/abs/2608.22995",
-      "summary": "arXiv:2608.22995v1 Announce Type: new Abstract: Real-time quantum-electrodynamical density-functional theory (QEDFT) for an open device requires local electron and field histories to determine their sources. For occupati…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }
