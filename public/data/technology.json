@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-25T14:48:54.575Z",
+  "updated": "2026-08-25T15:44:00.430Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Expanded Synthetic Promoter Library Introduced to Boost Biomanufacturing Operations",
+      "url": "https://www.genengnews.com/topics/bioprocessing/expanded-synthetic-promoter-library-introduced-to-boost-biomanufacturing-operations/",
+      "summary": "Developed de novo using the company’s proprietary transcriptional analysis and sequence engineering platform, SynGenSys’ CHO.SET synthetic promoters combine advanced computational design with empirical validation. The po…",
+      "ts": 1787672129000,
+      "publishedAt": "2026-08-25T15:35:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
+      "summary": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark a…",
+      "ts": 1787671848000,
+      "publishedAt": "2026-08-25T15:30:48.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Neural Mechanism Identified That Drives Increased Alcohol Use in Isolated Male Mice",
+      "url": "https://www.genengnews.com/topics/translational-medicine/neural-mechanism-identified-that-drives-increased-alcohol-use-in-isolated-male-mice/",
+      "summary": "A study in mice has found that loneliness can reprogram the brain in ways that promote alcohol consumption, and identified a neural mechanism through which isolation escalates alcohol use in male mice, but suppresses it …",
+      "ts": 1787671391000,
+      "publishedAt": "2026-08-25T15:23:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Astronauts Anil Menon and Sophie Adenot on Spacewalk",
+      "url": "https://www.nasa.gov/image-article/astronauts-anil-menon-and-sophie-adenot-on-spacewalk/",
+      "summary": "From left, Expedition 75 flight engineers Anil Menon of NASA (partially obscured and wearing the spacesuit with a red stripe on the legs) and Sophie Adenot of ESA (European Space Agency) work together during a six‑hour a…",
+      "ts": 1787669846000,
+      "publishedAt": "2026-08-25T14:57:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How Trump’s funding cuts are reshaping the health system",
+      "url": "https://www.statnews.com/2026/08/25/how-trumps-funding-cuts-are-reshaping-the-health-system/?utm_campaign=rss",
+      "summary": "STAT examines Republicans’ health care funding cuts, mRNA science defeats politics, and Medicaid tries out a new way to deny drug coverage.",
+      "ts": 1787669488000,
+      "publishedAt": "2026-08-25T14:51:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Angel secures $1.75m WA Government backing to advance Western Australian spaceport plans",
+      "url": "https://spacenews.com/space-angel-secures-1-75m-wa-government-backing-to-advance-western-australian-spaceport-plans/",
+      "summary": "Space Angel has welcomed its selection by the Western Australian Government as the recipient of the $1.75 million Spaceport Establishment Support Grant, announced by Science and Innovation Minister Stephen Dawson. […] Th…",
+      "ts": 1787666400000,
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: After a years-long slump, Massachusetts biopharma sector has come roaring back in 2026",
@@ -85,6 +139,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Japan’s ‘2050 Weather Forecast’ highlights extreme heat in the future",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168197",
+      "summary": "As extreme heat becomes an increasingly visible reality across Japan, meteorologists, scientists, businesses and professional footballers are joining forces to encourage stronger climate action and raise awareness of the…",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "UN chief, Red Cross renew call for rules on lethal autonomous weapons",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168196",
       "summary": "Amid unconfirmed reports that fully autonomous and AI-guided drones are now being used on the battlefield, UN chief António Guterres and the President of the Red Cross on Tuesday renewed their urgent call for stricter gl…",
@@ -163,6 +226,15 @@
       "ts": 1787641935000,
       "publishedAt": "2026-08-25T07:12:15.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "ts": 1787641500000,
+      "publishedAt": "2026-08-25T07:05:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
@@ -739,78 +811,6 @@
       "ts": 1787584887000,
       "publishedAt": "2026-08-24T15:21:27.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How XPUs Meet a World-Class AI Factory",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-      "summary": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastr…",
-      "ts": 1787583654000,
-      "publishedAt": "2026-08-24T15:00:54.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with f…",
-      "ts": 1787583641000,
-      "publishedAt": "2026-08-24T15:00:41.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "summary": "According to OpenRouter data, agentic AI workloads consume 15x more tokens than a simple chat request. Why? Consider what happens when an AI agent researches a company for an investment decision. The agent queries financ…",
-      "ts": 1787583619000,
-      "publishedAt": "2026-08-24T15:00:19.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Spirit Electronics Adds Texas Instruments and Microchip Technology Space Grade Components to Online Store Ahead of SmallSat 2026",
-      "url": "https://spacenews.com/spirit-electronics-adds-texas-instruments-and-microchip-technology-space-grade-components-to-online-store-ahead-of-smallsat-2026/",
-      "summary": "PHOENIX, AZ — August 24, 2026 — Spirit Electronics, a value‑added distributor of high‑reliability electronics focused on performance‑driven program requirements, announced that space‑grade and high‑reliability components…",
-      "ts": 1787583600000,
-      "publishedAt": "2026-08-24T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lady Gaga and her fiancé launch a biotech startup",
-      "url": "https://www.statnews.com/2026/08/24/biotech-news-lady-gaga-and-her-fiance-launch-biotech-startup/?utm_campaign=rss",
-      "summary": "FTC challenges Amgen's Enbrel patent strategy, the long, winding path for the Moderna-Merck cancer vaccine, and more biotech news",
-      "ts": 1787583449000,
-      "publishedAt": "2026-08-24T14:57:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Public-sector purgatory, and a union-hospital fight",
-      "url": "https://www.statnews.com/2026/08/24/public-sector-workers-health-insurance-costs-hospital-union-battle/?utm_campaign=rss",
-      "summary": "Aon, the big consulting and brokerage house, confirms 2027 is going to be brutal for job-based health care premiums. Aon’s chief actuary said in the news release: “Employers will need…",
-      "ts": 1787581399000,
-      "publishedAt": "2026-08-24T14:23:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How to encourage smarter AI use in the classroom",
-      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon th…",
-      "ts": 1787581219000,
-      "publishedAt": "2026-08-24T14:20:19.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The Fuel for the Next Generation of Cislunar Exploration? Technology and Talent.",
-      "url": "https://spacenews.com/the-fuel-for-the-next-generation-of-cislunar-exploration-technology-and-talent/",
-      "summary": "After NASA astronauts landed on the moon in 1969, their achievement bore decades’ worth of fruit, including scientific discoveries and a strategic national security advantage. Now — with plans to […] The post The Fuel fo…",
-      "ts": 1787580000000,
-      "publishedAt": "2026-08-24T14:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

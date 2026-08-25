@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-25T14:48:49.317Z",
+  "updated": "2026-08-25T15:43:50.383Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The real reasons you procrastinate—and how to stop, according to science",
+      "url": "https://phys.org/news/2026-08-real-procrastinate-science.html",
+      "summary": "Faced with a task or project, do you repeatedly tell yourself that you'll do it \"tomorrow,\" \"soon\" or \"after watching just a few more videos\"?",
+      "ts": 1787672404000,
+      "publishedAt": "2026-08-25T15:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Listening for extinction: Study finds areas of critical concern for northern spotted owls",
+      "url": "https://phys.org/news/2026-08-extinction-areas-critical-northern-owls.html",
+      "summary": "Northern spotted owl populations are approaching or have already crossed functional extinction across large areas of the Pacific Northwest, a new study, published in Ecological Applications found. Researchers used artifi…",
+      "ts": 1787672402000,
+      "publishedAt": "2026-08-25T15:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Egypt's deserts were once home to a diverse shark community",
+      "url": "https://phys.org/news/2026-08-egypt-home-diverse-shark-community.html",
+      "summary": "During the Late Cretaceous period, parts of Egypt were covered in water. A new study, published in the journal Cretaceous Research, describes new evidence that this tropical sea was home to a diverse community of sharks.…",
+      "ts": 1787671802000,
+      "publishedAt": "2026-08-25T15:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How people treat you may shape your reputation and stabilize cooperation",
+      "url": "https://phys.org/news/2026-08-people-reputation-stabilize-cooperation.html",
+      "summary": "When one person helps, or refuses to help, another in public, this may change not only the provider's reputation but also the recipient's. A theoretical study led by Kobe University offers a simple explanation for how co…",
+      "ts": 1787671205000,
+      "publishedAt": "2026-08-25T15:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brazilians are MacGyver-ing their way around traditional markets",
+      "url": "https://phys.org/news/2026-08-brazilians-macgyver-ing-traditional.html",
+      "summary": "Life hacks are everywhere on social media—people reuse everyday materials and objects to create ingenious solutions to common problems and needs.",
+      "ts": 1787671201000,
+      "publishedAt": "2026-08-25T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change may halve omega‑3 fatty acids in fish and the organisms they eat",
+      "url": "https://phys.org/news/2026-08-climate-halve-omega3-fatty-acids.html",
+      "summary": "You've probably heard that eating fish and other seafood is good for your health. One of the main reasons is that seafood is an excellent source of two important omega-3 fats called EPA and DHA.",
+      "ts": 1787670007000,
+      "publishedAt": "2026-08-25T15:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoscale hairs may help gecko skin trap moisture and slow evaporation",
+      "url": "https://phys.org/news/2026-08-nanoscale-hairs-gecko-skin-moisture.html",
+      "summary": "In a dry shrubland, a gecko sprints toward shelter. Its greatest danger is not a predator, although hawks circle overhead and sand cats wait in ambush. Rather, its most pressing concern is dehydration. Its skin is paper-…",
+      "ts": 1787670003000,
+      "publishedAt": "2026-08-25T15:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A tiny drop of water is all that's needed to find threatened frogs",
@@ -743,62 +799,6 @@
       "title": "A score-based particle flow filter for non-Gaussian data assimilation in high-dimensional chaotic systems",
       "url": "https://arxiv.org/abs/2608.22454",
       "summary": "arXiv:2608.22454v1 Announce Type: new Abstract: Current particle flow filters rely on Gaussian prior assumptions that fail to capture the non-Gaussian attractor structure of chaotic systems. This study proposes a Score-b…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Volume-Surface-Wire Integral Equations for EEG Source Imaging",
-      "url": "https://arxiv.org/abs/2608.22477",
-      "summary": "arXiv:2608.22477v1 Announce Type: new Abstract: In EEG source imaging, the precision of the imaging of the brain activity depends on the accuracy of the forward head model which is, in turn, affected by the representatio…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Environmental Stress on Low Gain Avalanche Diode Sensors Response",
-      "url": "https://arxiv.org/abs/2608.22482",
-      "summary": "arXiv:2608.22482v1 Announce Type: new Abstract: Low Gain Avalanche Diodes or LGADs are silicon sensors capable of achieving excellent timing resolution due to their characteristic internal gain. Detectors based on LGAD t…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stationary electron vortex states in a plasma bubble field",
-      "url": "https://arxiv.org/abs/2608.22486",
-      "summary": "arXiv:2608.22486v1 Announce Type: new Abstract: Plasma wakefield accelerators (PWFAs) offer accelerating gradients of 10-100~GV/m and relativistically propagating plasma bubbles capable of confining charged particles. We…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pulse-Echo Ultrasound Methods for Speed-of-Sound Estimation: A Review",
-      "url": "https://arxiv.org/abs/2608.22487",
-      "summary": "arXiv:2608.22487v1 Announce Type: new Abstract: Speed of sound (SoS) is fundamental to ultrasound beamforming and a promising quantitative biomarker for tissue characterization. Although transmission- and reflector-based…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reflexivity from Hierarchical Causality",
-      "url": "https://arxiv.org/abs/2608.22497",
-      "summary": "arXiv:2608.22497v1 Announce Type: new Abstract: We consider reflexivity in hierarchical causal systems in which higher-level states constrain the lower-level dynamics that remain admissible [Wilcox and Gebbie (2014),Gebb…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interpretable statistical feature engineering for early disruption prediction in the short pulse ADITYA tokamak",
-      "url": "https://arxiv.org/abs/2608.22515",
-      "summary": "arXiv:2608.22515v1 Announce Type: new Abstract: Reliable early disruption prediction is critical for the safe operation and real-time control of tokamaks. However, machine learning based prediction frameworks have predom…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrogen Molecular Ion and Molecule in Classical Electrodynamics with Classical Zero-Point Radiation",
-      "url": "https://arxiv.org/abs/2608.22535",
-      "summary": "arXiv:2608.22535v1 Announce Type: new Abstract: The hydrogen molecular ion and the hydrogen molecule are treated in an approximate calculation based on classical electrodynamics which includes classical zero-point radiat…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }
