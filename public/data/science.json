@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-25T17:33:21.615Z",
+  "updated": "2026-08-25T18:41:41.803Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Could 12 inches of rain hit New York City? AI maps plausible rare storms",
+      "url": "https://phys.org/news/2026-08-inches-york-city-ai-plausible.html",
+      "summary": "Can a city's seawall stand up to a blockbuster storm? Will a region's power grid hold against record-breaking heat? And can a town's firefighting resources contain a major wildfire?",
+      "ts": 1787683205000,
+      "publishedAt": "2026-08-25T18:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The summer climate change became a scorching reality for Europe",
+      "url": "https://phys.org/news/2026-08-summer-climate-reality-europe.html",
+      "summary": "For generations, summer in Europe has been languid and dreamy, bringing fine weather and lengthy days on sunny beaches and terraces. But in 2026, the brutal reality of climate change forced its way into daily life.",
+      "ts": 1787683201000,
+      "publishedAt": "2026-08-25T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New workflow helps ecologists measure how individual animals use their habitat",
+      "url": "https://phys.org/news/2026-08-workflow-ecologists-individual-animals-habitat.html",
+      "summary": "A researcher has developed a new, reproducible workflow that lets ecologists measure, in a standardized way, how individual animals within a species differ in their habitat use, based on GPS tracking data. The tool was d…",
+      "ts": 1787682008000,
+      "publishedAt": "2026-08-25T18:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfires don't just pollute the air, rain may turn its smoke into fertilizer",
+      "url": "https://phys.org/news/2026-08-wildfires-dont-pollute-air-fertilizer.html",
+      "summary": "Wildfire smoke is usually discussed as an airborne pollutant and a threat to human health. But when smoke and rain coincide, nutrients released by burned landscapes rain back down. A new study finds that smoke-rain event…",
+      "ts": 1787682007000,
+      "publishedAt": "2026-08-25T18:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gamma-ray signal could be long awaited evidence for WIMPs",
+      "url": "https://phys.org/news/2026-08-gamma-ray-awaited-evidence-wimps.html",
+      "summary": "Dark matter is known to make up roughly 85% of all mass in the universe, as evidenced by the way galaxies spin and how galaxy clusters are held together under gravity. Yet despite decades of searching, physicists have ne…",
+      "ts": 1787681401000,
+      "publishedAt": "2026-08-25T18:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bioinspired nanoparticles deliver gene editing to lower 'bad' cholesterol",
+      "url": "https://phys.org/news/2026-08-bioinspired-nanoparticles-gene-bad-cholesterol.html",
+      "summary": "Researchers from the Yong Loo Lin School of Medicine, National University of Singapore (NUS Medicine), and Tianjin Medical University General Hospital have developed a bioinspired lipid nanoparticle (LNP) that can delive…",
+      "ts": 1787680812000,
+      "publishedAt": "2026-08-25T18:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists resurrect ancient proteins, offering new antibiotic leads",
+      "url": "https://phys.org/news/2026-08-scientists-resurrect-ancient-proteins-antibiotic.html",
+      "summary": "University of Oregon biologists have resurrected prehistoric proteins up to 160 million years old that carry natural antimicrobial properties. The revived molecules could inspire the design of new treatments for antibiot…",
+      "ts": 1787680807000,
+      "publishedAt": "2026-08-25T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lunar soil reads as a cosmic time capsule for exploding stars",
+      "url": "https://phys.org/news/2026-08-lunar-soil-cosmic-capsule-stars.html",
+      "summary": "When a star reaches its final stages of life, it ends in a bright, powerful explosion called a supernova and scatters material across the universe. A new study led by a University of Hawai'i at Mānoa researcher has disco…",
+      "ts": 1787679605000,
+      "publishedAt": "2026-08-25T17:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From flames to haze, wildfire smoke transforms as it travels, and it can harm your health in different ways",
+      "url": "https://phys.org/news/2026-08-flames-haze-wildfire-health-ways.html",
+      "summary": "As wildfire smoke plumes travel thousands of miles, sunlight and atmospheric chemistry bleach their color, strip away their campfire aroma and add them to the mix of urban smog.",
+      "ts": 1787679603000,
+      "publishedAt": "2026-08-25T17:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Moving turtle nests to save the eggs can have hidden consequences",
@@ -371,6 +443,30 @@
       "publishedAt": "2026-08-25T11:00:02.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Nonlinear dynamics of hopfions for frequency multiplication",
+      "url": "http://link.aps.org/doi/10.1103/sycn-zrt2",
+      "summary": "Author(s): Waleed I. Waseer, Yunshan Cao, and Peng Yan Hopfions, associated with higher-dimensional topology through the Hopf fibration, exhibit exotic features like complex knots and improved stability compared to skyrm…",
+      "ts": 1787652000000,
+      "publishedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Deterministic photonic controlled-$π$-phase gate enabled by passive time-reversal-symmetric photon transport",
+      "url": "http://link.aps.org/doi/10.1103/49mp-bx59",
+      "summary": "Author(s): Zhaohua Tian, Ying Gu, and Xue-Wen Chen Photons are ideal in many aspects for quantum technologies. However, the absence of direct photon-photon interaction and the problem of wave-packet distortion inherent i…",
+      "ts": 1787652000000,
+      "publishedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Transient dynamics of parametric driving for single-electron image-current detection in a Paul trap",
+      "url": "http://link.aps.org/doi/10.1103/krxg-clfg",
+      "summary": "Author(s): Baiyi Yu, Andris Huang, Isabel Sacksteder, and Hartmut Haeffner Nondestructive detection of single-electron motion is crucial for quantum information processing with electrons trapped in Paul traps. The standa…",
+      "ts": 1787652000000,
+      "publishedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Uncovering Hidden Entanglement in Twin Beams",
       "url": "http://link.aps.org/doi/10.1103/1rdk-5zzk",
@@ -703,102 +799,6 @@
       "title": "Inverted model selection in physics-informed neural networks: when a lower residual selects a worse solution",
       "url": "https://arxiv.org/abs/2608.21683",
       "summary": "arXiv:2608.21683v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) are commonly evaluated via a single aggregate residual, assuming a smaller residual indicates a better solution. Testing this direc…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Translation of a spherical viscous drop driven by localized forcing in Stokes flow",
-      "url": "https://arxiv.org/abs/2608.21722",
-      "summary": "arXiv:2608.21722v1 Announce Type: new Abstract: Localized forcing in the fluid inside or outside a viscous drop can drive drop translation. Using the Lorentz reciprocal theorem, we derive an integral expression for the t…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Propagating fronts of convection rolls in Rayleigh-B\\'enard convection",
-      "url": "https://arxiv.org/abs/2608.21728",
-      "summary": "arXiv:2608.21728v1 Announce Type: new Abstract: We investigate the propagation of counter-rotating convection rolls in Rayleigh-B\\'enard convection initiated locally in a quiescent fluid layer under supercritical conditi…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "State-Space Model-Enabled Reinforcement Learning for Magnetic Configuration Controlon EXL-50U",
-      "url": "https://arxiv.org/abs/2608.21737",
-      "summary": "arXiv:2608.21737v1 Announce Type: new Abstract: Accurate feedback control of the plasma current ($I_p$) and centroid position $(R_c,Z_c)$ is essential for the stable operation of spherical torus (ST) plasmas. Conventiona…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the degradation of hot spot performance due to mid-to-high-mode hydrodynamic instabilities",
-      "url": "https://arxiv.org/abs/2608.21785",
-      "summary": "arXiv:2608.21785v1 Announce Type: new Abstract: In an ignited design of inertial confinement fusion, the role of mid-to-high-mode hydrodynamic instabilities in degrading hot-spot performance, beyond reducing temperature,…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coexistence of Magnon-Induced Optical Vortex and Gaussian Beam Scattering Assisted by Rotational Umklapp Process",
-      "url": "https://arxiv.org/abs/2608.21788",
-      "summary": "arXiv:2608.21788v1 Announce Type: new Abstract: The exploitation of crystal-lattice symmetries to engineer angular momentum transfer between structured light and magnons marks a novel frontier for optomagnonic research. …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Critical Topological Photonics in Synthetic Dimensions",
-      "url": "https://arxiv.org/abs/2608.21791",
-      "summary": "arXiv:2608.21791v1 Announce Type: new Abstract: Topological states and criticality have long been regarded as incompatible ingredients: the former requires a finite spectral gap, whereas the latter demands its closure. G…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An integrated micro-thermometer for mid-infrared photothermal spectroscopy of dense materials built in a CMOS 200 mm pilot line",
-      "url": "https://arxiv.org/abs/2608.21809",
-      "summary": "arXiv:2608.21809v1 Announce Type: new Abstract: Indirect photothermal infrared spectroscopy of dense materials typically relies on photoacoustic cells for detecting acoustic waves generated by light-induced heating. This…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Video Diffusion for Satellite-based High-Dynamical-Fidelity Precipitation (HiDFiP) Field Generation",
-      "url": "https://arxiv.org/abs/2608.21812",
-      "summary": "arXiv:2608.21812v1 Announce Type: new Abstract: High spatiotemporal fidelity precipitation products that accurately capture storm spatial organization, propagation, and lifecycle evolution, are essential for advancing hy…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Fundamental Limits of Single-snapshot Compressive Ultrasound Imaging Using Random Aberrative Masks",
-      "url": "https://arxiv.org/abs/2608.21820",
-      "summary": "arXiv:2608.21820v1 Announce Type: new Abstract: Compressive sensing emerges as a paradigm shift to realize real-time volumetric ultrasound imaging using a single element transducer equipped with an aberrative mask. Such …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A scattering correction method for CT reconstruction based on the Wavelet Adaptive Material-dependent Boltzmann Transport Equation (WAM-BTE)",
-      "url": "https://arxiv.org/abs/2608.21861",
-      "summary": "arXiv:2608.21861v1 Announce Type: new Abstract: X-ray computed tomography (CT) is an essential imaging technology in clinical diagnosis. However, scattered photons can reduce image contrast and introduce CT value bias, w…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simple data fusion from several ocean and atmosphere hindcast models improves surface drifter trajectory prediction",
-      "url": "https://arxiv.org/abs/2608.21875",
-      "summary": "arXiv:2608.21875v1 Announce Type: new Abstract: Simulating the trajectory of surface drifters in the ocean matters for search and rescue, pollution tracking, oil and chemical spill response, and marine risk analysis. Acc…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Feature-domain Fourier ptychographic tomography with dark-field illumination",
-      "url": "https://arxiv.org/abs/2608.21890",
-      "summary": "arXiv:2608.21890v1 Announce Type: new Abstract: Fourier ptychographic tomography (FPT) is an implementation of intensity diffraction tomography that reconstructs three-dimensional (3D) refractive-index (RI) distributions…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }
