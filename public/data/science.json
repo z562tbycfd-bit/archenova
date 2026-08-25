@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-25T10:35:00.157Z",
+  "updated": "2026-08-25T11:29:50.498Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI helps workers most when paired with experience, new study finds",
+      "url": "https://phys.org/news/2026-08-ai-workers-paired.html",
+      "summary": "As companies race to integrate artificial intelligence into the workplace, new research suggests workers benefit most when AI is paired with experience rather than treated as a replacement for it.",
+      "ts": 1787656805000,
+      "publishedAt": "2026-08-25T11:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Setting limits on phase transitions in the dark energy era",
+      "url": "https://phys.org/news/2026-08-limits-phase-transitions-dark-energy.html",
+      "summary": "The universe is known to be expanding at an accelerating rate. Physicists typically attribute this acceleration to dark energy, a mysterious component of the universe that exerts negative pressure, causing space to expan…",
+      "ts": 1787655604000,
+      "publishedAt": "2026-08-25T11:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds sustainable farming program helps refugees, immigrants boost health while launching agribusinesses",
+      "url": "https://phys.org/news/2026-08-sustainable-farming-refugees-immigrants-boost.html",
+      "summary": "The slang term \"touch grass\" encourages people to step away from the internet or devices and connect with the real world. New research from the University of Kansas has found that a project that helps resettled refugees …",
+      "ts": 1787655602000,
+      "publishedAt": "2026-08-25T11:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Cool Japan: Human fridge chills workers in extreme heat",
@@ -775,30 +799,6 @@
       "title": "Real-Time Density--Source Mapping for Open Electron--Photon Systems",
       "url": "https://arxiv.org/abs/2608.22995",
       "summary": "arXiv:2608.22995v1 Announce Type: new Abstract: Real-time quantum-electrodynamical density-functional theory (QEDFT) for an open device requires local electron and field histories to determine their sources. For occupati…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensitivity Limits for $\\phi$-OTDR",
-      "url": "https://arxiv.org/abs/2608.23007",
-      "summary": "arXiv:2608.23007v1 Announce Type: new Abstract: We demonstrate a new lower bound on the sensitivity of $\\phi$-OTDR by estimating phase using Kalman filtering. Numerical analysis shows a $\\sim$35-dB reduction in the minim…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photonic Crystal Defect Nanocavities Based on Monocrystalline Yttrium Iron Garnet",
-      "url": "https://arxiv.org/abs/2608.23043",
-      "summary": "arXiv:2608.23043v1 Announce Type: new Abstract: Monocrystalline yttrium iron garnet (YIG) is a key material for magneto optics and quantum magnonics owing to its high optical transparency, large magneto-optical (MO) effe…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Maxwell Fluid to Kelvin Voigt Solid: A Transient Network Model of Condensate Aging and Morphology Transition in Phase Separation",
-      "url": "https://arxiv.org/abs/2608.23076",
-      "summary": "arXiv:2608.23076v1 Announce Type: new Abstract: Biomolecular condensates can undergo striking changes, such as transitioning from a liquid-like to a gel- or a solid-like aggregate due to changes in molecular interactions…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }

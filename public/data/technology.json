@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-25T10:35:03.378Z",
+  "updated": "2026-08-25T11:29:53.001Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "UN chief, Red Cross renew call for rules on lethal autonomous weapons",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168196",
+      "summary": "Amid unconfirmed reports that fully autonomous and AI-guided drones are now being used on the battlefield, UN chief António Guterres and the President of the Red Cross on Tuesday renewed their urgent call for stricter gl…",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Welcome to the spiderverse, a world measured through webs",
@@ -799,15 +808,6 @@
       "title": "Global food supply has become ‘collateral damage’ in conflicts: Secretary-General",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168190",
       "summary": "The disruption of maritime traffic in the Strait of Hormuz, Black Sea and Bab al-Mandab Strait has worsened hunger crises and must immediately end, UN Secretary-General António Guterres said.",
-      "ts": 1787572800000,
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: War, hunger, flooding escalates in Sudan",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168188",
-      "summary": "Suffering in Sudan continues to grow in the world’s worst humanitarian crisis amid brutal mass killings, abductions and rape, top UN officials warned the Security Council on Monday, calling for action to end the four-yea…",
       "ts": 1787572800000,
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "categoryId": "global-governance"
