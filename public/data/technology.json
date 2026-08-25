@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-25T13:52:13.879Z",
+  "updated": "2026-08-25T14:48:54.575Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: After a years-long slump, Massachusetts biopharma sector has come roaring back in 2026",
+      "url": "https://www.statnews.com/2026/08/25/massachusetts-biotech-slump-then-turnaround/?utm_campaign=rss",
+      "summary": "The number of people working in Massachusetts’ biotech sector fell last year, for the first time since at least 2002. But 2026 is looking up.",
+      "ts": 1787666328000,
+      "publishedAt": "2026-08-25T13:58:48.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "One Standard, Multiple Platforms: ICH Q2(R2) Qualification of Host Cell Protein Analysis by LC–MS/MS",
@@ -22,7 +31,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Turkish anti-trust authorities probe Teva for allegedly gaming the patent system, disparaging rival drugs",
+      "title": "STAT+: Turkish antitrust authorities probe Teva for allegedly gaming the patent system, disparaging rival drugs",
       "url": "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss",
       "summary": "Turkish regulators are investigating Teva Pharmaceutical for allegedly manipulating the patent system and disparaging rival drugs.",
       "ts": 1787665430000,
@@ -154,6 +163,15 @@
       "ts": 1787641935000,
       "publishedAt": "2026-08-25T07:12:15.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "ts": 1787641200000,
+      "publishedAt": "2026-08-25T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "arXiv q-bio",
@@ -793,24 +811,6 @@
       "ts": 1787580000000,
       "publishedAt": "2026-08-24T14:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Medicaid obesity-drug coverage, a Regenxbio gene therapy, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss",
-      "summary": "President Trump’s pledge to make pricey weight loss drugs widely available for low-income Americans through Medicaid is not panning out",
-      "ts": 1787578581000,
-      "publishedAt": "2026-08-24T13:36:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA plans to regulate generative AI",
-      "url": "https://www.statnews.com/2026/08/24/health-news-fda-plans-to-regulate-generative-ai/?utm_campaign=rss",
-      "summary": "New clues to RFK Jr.'s vaccine plans, a bottleneck for nurse practitioners, and more health news from Morning Rounds",
-      "ts": 1787575556000,
-      "publishedAt": "2026-08-24T12:45:56.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

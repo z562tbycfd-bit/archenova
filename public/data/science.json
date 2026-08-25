@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-25T13:52:10.017Z",
+  "updated": "2026-08-25T14:48:49.317Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A tiny drop of water is all that's needed to find threatened frogs",
+      "url": "https://phys.org/news/2026-08-tiny-threatened-frogs.html",
+      "summary": "New James Cook University research has used highly sensitive environmental DNA (e-DNA) techniques to find two species of threatened frogs in places they've never been seen before—and find another still struggling to reco…",
+      "ts": 1787668808000,
+      "publishedAt": "2026-08-25T14:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chatbots are making our writing more similar but losing the identity and personality behind it",
+      "url": "https://phys.org/news/2026-08-chatbots-similar-identity-personality.html",
+      "summary": "Large language models (LLMs) are making writing styles more similar without changing the overall meaning, according to an analysis of more than 880,000 texts across different writing types published in Nature Human Behav…",
+      "ts": 1787668804000,
+      "publishedAt": "2026-08-25T14:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Left‑handed people tend to be left‑leaning voters",
+      "url": "https://phys.org/news/2026-08-lefthanded-people-tend-leftleaning-voters.html",
+      "summary": "Political preferences are generally explained by income, age and level of education. However, our research suggests that a far more unexpected trait may also have a hand in how we vote. A survey carried out in 18 western…",
+      "ts": 1787668801000,
+      "publishedAt": "2026-08-25T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Families bear hidden costs of finding safety",
+      "url": "https://phys.org/news/2026-08-families-hidden-safety.html",
+      "summary": "Led by La Trobe University, the research sheds light on a largely overlooked question in response to family violence: What does it cost families to become safe?",
+      "ts": 1787667606000,
+      "publishedAt": "2026-08-25T14:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young golden eagles leave their parents' territory late",
+      "url": "https://phys.org/news/2026-08-young-golden-eagles-parents-territory.html",
+      "summary": "When a young golden eagle (Aquila chrysaetos) finally leaves its parents' territory, it leaves behind the only safety net it has ever known. Until now, biologists had assumed that eagles took this step as soon as they co…",
+      "ts": 1787667603000,
+      "publishedAt": "2026-08-25T14:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The hidden physics behind the shape of rose thorns",
+      "url": "https://phys.org/news/2026-08-hidden-physics-rose-thorns.html",
+      "summary": "Roses are known for their thorns, the sharp structures that can sting and prickle the skin. Thorns, botanically known as prickles, are thought to discourage animals from feeding on plants and may also help climbing roses…",
+      "ts": 1787666407000,
+      "publishedAt": "2026-08-25T14:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The missing plants that could transform cities for people and nature",
+      "url": "https://phys.org/news/2026-08-cities-people-nature.html",
+      "summary": "Urban parks and public spaces need more shrubs and small trees to improve community well-being and support wildlife, University of Queensland researchers say.",
+      "ts": 1787666401000,
+      "publishedAt": "2026-08-25T14:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "How memories may survive hibernation",
+      "url": "https://www.sciencenews.org/article/memories-survive-hibernation-brain-cell",
+      "summary": "Hibernating mice rapidly lost and regrew half of the connections in their memory centers, while key connection hubs survived.",
+      "ts": 1787666400000,
+      "publishedAt": "2026-08-25T14:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "From nightlife to life at night: Cities must stay open later to beat the rising heat",
@@ -735,70 +799,6 @@
       "title": "Hydrogen Molecular Ion and Molecule in Classical Electrodynamics with Classical Zero-Point Radiation",
       "url": "https://arxiv.org/abs/2608.22535",
       "summary": "arXiv:2608.22535v1 Announce Type: new Abstract: The hydrogen molecular ion and the hydrogen molecule are treated in an approximate calculation based on classical electrodynamics which includes classical zero-point radiat…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Early-Time Reshaping of Laser-Induced Plasma Profiles",
-      "url": "https://arxiv.org/abs/2608.22545",
-      "summary": "arXiv:2608.22545v1 Announce Type: new Abstract: Laser-induced plasmas are primarily characterized by their temporal density decay. Using time-resolved transverse optical diffractometry, we reveal their concurrent spatial…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "General Symmetry-Based Potential Energy Surface Grid Reduction in Normal Coordinates",
-      "url": "https://arxiv.org/abs/2608.22650",
-      "summary": "arXiv:2608.22650v1 Announce Type: new Abstract: The construction of a grid-based potential energy surface (PES) can be prohibitively expensive as the number of grid points grows exponentially with molecular size. Molecul…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the feasibility of model-based feedback control of vertical instability growth rate using out-vessel coils in ARC-like scenarios",
-      "url": "https://arxiv.org/abs/2608.22677",
-      "summary": "arXiv:2608.22677v1 Announce Type: new Abstract: In this work, we propose a model-based feedback controller that regulates the vertical instability growth rate ($\\gamma_{gr}$) of a high-elongation, double-null tokamak dir…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution of cooperation with Q-learning: how much information do we need?",
-      "url": "https://arxiv.org/abs/2608.22705",
-      "summary": "arXiv:2608.22705v1 Announce Type: new Abstract: Cooperation is ubiquitous in both natural and human societies, yet its evolutionary basis remains a major challenge. A long-standing puzzle is whether having more informati…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Areal-time disruption prediction and mitigation system for the EXL-50U spherical torus",
-      "url": "https://arxiv.org/abs/2608.22720",
-      "summary": "arXiv:2608.22720v1 Announce Type: new Abstract: This work presents a real-time disruption prediction and mitigation system developed for high-current operations in the EXL-50U Spherical Torus. By leveraging Reflective Me…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Periodic Spin Dynamics and Duty-Cycle Optimization in a PWM Bell--Bloom Magnetometer",
-      "url": "https://arxiv.org/abs/2608.22737",
-      "summary": "arXiv:2608.22737v1 Announce Type: new Abstract: We investigate the duty-cycle-dependent response of a pulse-width-modulated Bell--Bloom atomic magnetometer. A Bloch-equation model is developed to describe the pump-on and…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Loop-Gain Matrix: Coupled Rebalancing Feedback and the Blind Spots of Scalar Stability Monitoring",
-      "url": "https://arxiv.org/abs/2608.22768",
-      "summary": "arXiv:2608.22768v1 Announce Type: new Abstract: The stability of markets hosting leveraged exchange-traded products is governed not by any single product's loop gain but by the spectral radius of a loop-gain matrix, and …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exchange and core-polarization effects on Rydberg-transition electric-dipole matrix elements in Rb and Cs",
-      "url": "https://arxiv.org/abs/2608.22798",
-      "summary": "arXiv:2608.22798v1 Announce Type: new Abstract: Microwave electric-field measurements with Rydberg atoms require accurate Rydberg-transition electric-dipole matrix elements. We calculate these matrix elements for Rb and …",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }
