@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-25T19:33:22.894Z",
+  "updated": "2026-08-25T20:31:13.046Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Propulsion is having a moment",
+      "url": "https://spacenews.com/propulsion-is-having-a-moment/",
+      "summary": "In this episode, SpaceNews Mike Gruss interviews Kevin Lausten, CEO of Morpheus Space, at the 2026 Small Satellite Conference in Salt Lake City, Utah. They discuss why propulsion is critical […] The post Propulsion is ha…",
+      "ts": 1787687977000,
+      "publishedAt": "2026-08-25T19:59:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Ames’ Contributions to Roman’s Mission",
+      "url": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission/",
+      "summary": "Set to launch on Sunday, Aug. 30, NASA’s Nancy Grace Roman Space Telescope will empower astronomers to explore vast regions of the cosmos and settle essential questions in the areas of dark energy, dark matter, planets o…",
+      "ts": 1787687095000,
+      "publishedAt": "2026-08-25T19:44:55.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "In Massachusetts, Latest Annual Snapshot Shows a Tale of Two Biopharmas",
@@ -793,24 +811,6 @@
       "ts": 1787616000000,
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Robotics and the future of on-orbit labor",
-      "url": "https://spacenews.com/robotics-and-the-future-of-on-orbit-labor/",
-      "summary": "In this episode, SpaceNews’ Mike Gruss interviews Icarus Robotics CEO and co-founder Ethan Barajas at the 2026 Small Satellite Conference in Salt Lake City, Utah. They discuss why astronauts have […] The post Robotics an…",
-      "ts": 1787610362000,
-      "publishedAt": "2026-08-24T22:26:02.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "PARP Inhibitor Combination Therapy Boosts Antitumor Activity in NSCLC Models",
-      "url": "https://www.genengnews.com/topics/cancer/parp-inhibitor-combination-therapy-boosts-antitumor-activity-in-nsclc-models/",
-      "summary": "Pairing HER3-DXd with the PARP inhibitor olaparib increased DNA damage, induced apoptosis, and slowed tumor progression in vivo in preclinical non-small cell lung cancer models. The post PARP Inhibitor Combination Therap…",
-      "ts": 1787607442000,
-      "publishedAt": "2026-08-24T21:37:22.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

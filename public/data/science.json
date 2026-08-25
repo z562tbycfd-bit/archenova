@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-25T19:33:20.827Z",
+  "updated": "2026-08-25T20:31:09.968Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Even biodiversity-friendly policies may not halt declines in Europe's common birds and butterflies by 2050",
+      "url": "https://phys.org/news/2026-08-biodiversity-friendly-policies-halt-declines.html",
+      "summary": "As part of its efforts to map out Europe's science-policy interface for biodiversity, a paper on the correlation between governance objectives for safeguarding the biosphere and on-the-ground realities for select species…",
+      "ts": 1787689203000,
+      "publishedAt": "2026-08-25T20:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Machine learning method uncovers hidden patterns in DNA methylation",
+      "url": "https://phys.org/news/2026-08-machine-method-uncovers-hidden-patterns.html",
+      "summary": "In a study recently published in Nature Communications, researchers from Berlin, Potsdam, and Jena present a new method for analyzing the epigenome. The machine-learning method identifies differentially methylated DNA re…",
+      "ts": 1787689201000,
+      "publishedAt": "2026-08-25T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Buy now, pay later' may reshape retail prices, inventory, research finds",
+      "url": "https://phys.org/news/2026-08-buy-pay-reshape-retail-prices.html",
+      "summary": "\"Buy now, pay later\" plans—which allow consumers to split purchases into a handful of interest-free installments—have become a common way for Americans to pay for everything from furniture to groceries. New research from…",
+      "ts": 1787688004000,
+      "publishedAt": "2026-08-25T20:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electron beams cut poultry pathogens while preserving turkey quality",
+      "url": "https://phys.org/news/2026-08-electron-poultry-pathogens-turkey-quality.html",
+      "summary": "Researchers are gauging the effectiveness of electron beams in the fight against foodborne pathogens in poultry. \"Impact of Electron Beam (eBeam) Treatment on Meat Quality and Sensory Attributes of Ground Chicken and Tur…",
+      "ts": 1787688001000,
+      "publishedAt": "2026-08-25T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Relentless heat and drought take a toll on herders' physical and mental health, in Kenya and the US",
+      "url": "https://phys.org/news/2026-08-relentless-drought-toll-herders-physical.html",
+      "summary": "If being outside in the heat for even a few minutes felt miserable this summer, imagine what it's like for herders who are always out walking with their livestock and rarely get a break.",
+      "ts": 1787686809000,
+      "publishedAt": "2026-08-25T19:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemists harness light to build 3D molecular structures for drug discovery",
+      "url": "https://phys.org/news/2026-08-chemists-harness-3d-molecular-drug.html",
+      "summary": "Researchers from the Department of Chemistry at The University of Hong Kong (HKU), led by Professor Jian He and collaborators, have developed a new light-driven method for constructing three-dimensional molecular buildin…",
+      "ts": 1787686805000,
+      "publishedAt": "2026-08-25T19:40:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Learning to lead: Navigating competing expectations helps new managers build stronger teams",
@@ -751,54 +799,6 @@
       "title": "Coherent Oscillations of Protons in Hydrogen-loaded Metals",
       "url": "https://arxiv.org/abs/2608.21452",
       "summary": "arXiv:2608.21452v1 Announce Type: new Abstract: We review recent calculations and numerical simulations showing the formation of coherent states of protons in hydrogen-loaded metals with a cubic crystal lattice. In these…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Earth as a Closed Life-Support System: Finite Buffers, Dynamical Thresholds, and Planetary Sustainability",
-      "url": "https://arxiv.org/abs/2608.21505",
-      "summary": "arXiv:2608.21505v1 Announce Type: new Abstract: Earth is nearly closed with respect to matter but open with respect to energy. We formulate planetary sustainability as a minimal nonequilibrium dynamical problem for coupl…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Femtosecond Laser Induced Metallization in Silicon via Photon Momentum Mediated Band Transition",
-      "url": "https://arxiv.org/abs/2608.21527",
-      "summary": "arXiv:2608.21527v1 Announce Type: new Abstract: Silicon-based technology has been at the forefront of electronic and photonic research since the dawn of the electronic revolution. However, silicon is fundamentally an ind…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probabilistic inference of surface parameters for Monin-Obukhov similarity theory",
-      "url": "https://arxiv.org/abs/2608.21549",
-      "summary": "arXiv:2608.21549v1 Announce Type: new Abstract: In simulations of atmospheric flow, the grid spacing typically exceeds the size of the roughness elements at the surface by an order of magnitude. The unresolved effects of…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical injection locking of white light cavity based superluminal lasers",
-      "url": "https://arxiv.org/abs/2608.21552",
-      "summary": "arXiv:2608.21552v1 Announce Type: new Abstract: Optical injection locking is a simple method for synchronizing a laser to an external laser source by injecting part of the external laser light into the cavity of the othe…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weyl Points and Fermi Arc Surface States in a Self-assemblable Zinc-Blende Photonic Crystal",
-      "url": "https://arxiv.org/abs/2608.21565",
-      "summary": "arXiv:2608.21565v1 Announce Type: new Abstract: Colloidal self-assembly has long been proposed as a method for growing large-scale three-dimensional photonic crystals with important optical properties in visible and near…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstructing High-Fidelity Light Yield Maps for Surface LArTPCs Using Crossing Cosmic Muons",
-      "url": "https://arxiv.org/abs/2608.21581",
-      "summary": "arXiv:2608.21581v1 Announce Type: new Abstract: Photon detection systems in liquid argon time projection chambers provide prompt scintillation light information that can improve triggering, timing, calorimetry, and inter…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }
