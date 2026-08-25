@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-25T20:31:09.968Z",
+  "updated": "2026-08-25T21:30:22.136Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists unlock 'ancestral code' of banana family",
+      "url": "https://phys.org/news/2026-08-scientists-ancestral-code-banana-family.html",
+      "summary": "Scientists have recently reconstructed the ancestral karyotype of the banana family, revealing how chromosome numbers decreased stepwise from 17 to 9–11 over evolutionary time.",
+      "ts": 1787692804000,
+      "publishedAt": "2026-08-25T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pomegranate emerges as a promising natural phytobiotic for veterinary medicine",
+      "url": "https://phys.org/news/2026-08-pomegranate-emerges-natural-phytobiotic-veterinary.html",
+      "summary": "Researchers have identified a broad range of biological properties of pomegranate with potential medical applications, including antimicrobial, antiparasitic, antioxidant, immunomodulatory, antidiabetic, anti-inflammator…",
+      "ts": 1787692801000,
+      "publishedAt": "2026-08-25T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Finding the world's highest late Middle Pleistocene marine deposits",
+      "url": "https://phys.org/news/2026-08-world-highest-late-middle-pleistocene.html",
+      "summary": "Selma Sarı and an international group of colleagues investigated the TOL-1 section in the Mut Basin (southern Türkiye), while documenting the world's highest known Late Middle Pleistocene (MIS 7) marine deposits, preserv…",
+      "ts": 1787691606000,
+      "publishedAt": "2026-08-25T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sound waves do double duty, carrying and protecting quantum information",
+      "url": "https://phys.org/news/2026-08-duty-quantum.html",
+      "summary": "Researchers at the Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS) have demonstrated a promising new way to protect fragile quantum information using nothing but mechanical vibrations—essentiall…",
+      "ts": 1787691603000,
+      "publishedAt": "2026-08-25T21:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Developing a genetic toolkit for manipulating abundant intestinal microbes",
+      "url": "https://phys.org/news/2026-08-genetic-toolkit-abundant-intestinal-microbes.html",
+      "summary": "Weill Cornell Medicine investigators have developed a set of molecular tools to regulate the activity of specific genes in one of the most common classes of intestinal bacteria. The ability to genetically manipulate thes…",
+      "ts": 1787690406000,
+      "publishedAt": "2026-08-25T20:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to win shares and influence fast-food market: Warm and fuzzy can't cut it",
+      "url": "https://phys.org/news/2026-08-fast-food-fuzzy.html",
+      "summary": "New research from QUT challenges a common assumption in social media marketing: For fast-food brands, social media posts that signal expertise and competence are shared more often than those focused on warmth and friendl…",
+      "ts": 1787690401000,
+      "publishedAt": "2026-08-25T20:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Even biodiversity-friendly policies may not halt declines in Europe's common birds and butterflies by 2050",
@@ -751,54 +799,6 @@
       "title": "Optical-Fiber Activation of Observer-Split Source Terms in a Rotating Aluminum Disc",
       "url": "https://arxiv.org/abs/2608.21403",
       "summary": "arXiv:2608.21403v1 Announce Type: new Abstract: We propose an optical-fiber implementation of the Observer-Split source framework for finite rotating systems in extended Aharonov-Bohm electrodynamics. A covariantly conse…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Does DESI Provide Evidence for Dynamical Dark Energy?",
-      "url": "https://arxiv.org/abs/2608.21405",
-      "summary": "arXiv:2608.21405v1 Announce Type: new Abstract: Recent results from the Dark Energy Spectroscopic Instrument (DESI) have been announced as evidence that dark energy is dynamical. We distinguish three claims the headline …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamic Regulation of Superradiance in a Charged Two-Dimensional Black Hole",
-      "url": "https://arxiv.org/abs/2608.21406",
-      "summary": "arXiv:2608.21406v1 Announce Type: new Abstract: Within the framework of gravitational thermodynamicization, we investigate the propagation of charged scalar fields in static two-dimensional black-hole spacetimes. Startin…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neutron Stars in Energy--Momentum Squared Gravity: Structure, Stability, and Multimessenger Constraints",
-      "url": "https://arxiv.org/abs/2608.21419",
-      "summary": "arXiv:2608.21419v1 Announce Type: new Abstract: We study nonrotating neutron stars in energy--momentum squared gravity (EMSG). The stellar models are obtained from the modified Tolman--Oppenheimer--Volkoff equations and …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Directed Cascades Generate New Critical Universality Classes",
-      "url": "https://arxiv.org/abs/2608.21421",
-      "summary": "arXiv:2608.21421v1 Announce Type: new Abstract: Spectrally stable cascades can undergo enormous transient growth before eventually dying out. We show that this amplification is controlled by the directed architecture of …",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Technologies: System-Level Performance and Validation Priorities",
-      "url": "https://arxiv.org/abs/2608.21436",
-      "summary": "arXiv:2608.21436v1 Announce Type: new Abstract: Performance claims in quantum technology are not properties of hardware alone. They are properties of a declared task, system boundary, normalization denominator, uncertain…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coherent Oscillations of Protons in Hydrogen-loaded Metals",
-      "url": "https://arxiv.org/abs/2608.21452",
-      "summary": "arXiv:2608.21452v1 Announce Type: new Abstract: We review recent calculations and numerical simulations showing the formation of coherent states of protons in hydrogen-loaded metals with a cubic crystal lattice. In these…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }

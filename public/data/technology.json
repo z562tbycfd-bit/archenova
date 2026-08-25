@@ -1,7 +1,106 @@
 {
   "ok": true,
-  "updated": "2026-08-25T20:31:13.046Z",
+  "updated": "2026-08-25T21:30:24.637Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Addressing a sticking point in sustainable adhesives",
+      "url": "https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/",
+      "summary": "Petroleum-based adhesives are everywhere: bonding the wood and drywall in a construction project, holding together the joints of furniture, and even sticking labels to otherwise recyclable containers. “The labels on a co…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "YouTuber finds niche as college admissions mentor",
+      "url": "https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/",
+      "summary": "As a first-generation student from a small town, Gohar Khan ’21 had to navigate the college admissions process largely on his own. He founded his YouTube channel, Gohar’s Guide, to make things easier for other young peop…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Launching youth entrepreneurship",
+      "url": "https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/",
+      "summary": "Even as a teenager, Laurie Stach ’06 says, she had a “crazy ambition to take on the world and solve problems.” At MIT, she realized she wasn’t the only one. “Adults always see these youth who are good at math and science…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A new stamp on cyberfraud prevention",
+      "url": "https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/",
+      "summary": "For Rupert Young ’95, SM ’95, his career in data science and cybersecurity began when his grandfather gifted him thousands of stamps: He built intricate databases to catalogue them, displaying the “precise eye” for detai…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AgeLab research inspires an A I startup",
+      "url": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/",
+      "summary": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be …",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Amping up T cells to target cancer",
+      "url": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
+      "summary": "Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these vaccines don’t stimulate enough…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Taking your temperature from the inside",
+      "url": "https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/",
+      "summary": "Oral and forehead thermometers may not accurately capture a person’s core body temperature, and the few ingestible temperature sensors on the market are so big they are hard to swallow and risk obstructing the GI tract. …",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Seeing through murky waters",
+      "url": "https://www.technologyreview.com/2026/08/25/1140955/seeing-through-murky-waters/",
+      "summary": "When remotely operated vehicles settle on the seafloor or dig through a sand bed, they can kick up clouds of sediment that onboard cameras struggle to see through. Often, the only thing to do is wait until the dust settl…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Your brain on AI",
+      "url": "https://www.technologyreview.com/2026/08/25/1140958/your-brain-on-ai/",
+      "summary": "Many people find AI-based chatbots helpful in keeping up with news, but a study by Pattie Maes and her colleagues at the MIT Media Lab points to a big problem with this strategy. Participants who evaluated paired news he…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "MIT tech powered the Artemis II livestreams",
+      "url": "https://www.technologyreview.com/2026/08/25/1140961/mit-tech-powered-the-artemis-ii-livestreams/",
+      "summary": "During the original US missions to the moon in the 1960s and ’70s, astronauts relied on radio-­frequency systems to communicate, sending grainy, low-quality images and videos to Earth. But on the Artemis II Orion mission…",
+      "ts": 1787691600000,
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sword Health to acquire Headspace, according to filing",
+      "url": "https://www.statnews.com/2026/08/25/sword-health-to-acquire-headspace-per-regulatory-filing/?utm_campaign=rss",
+      "summary": "Sword Health, a digital health company, plans to acquire mental health services provider Headspace, according to a regulatory filing.",
+      "ts": 1787690774000,
+      "publishedAt": "2026-08-25T20:46:14.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Propulsion is having a moment",
@@ -183,19 +282,19 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
-      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
+      "source": "SpaceNews",
+      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
+      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
+      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
     },
     {
-      "source": "SpaceNews",
-      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
-      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
-      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
+      "source": "NASA",
+      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
+      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
@@ -712,105 +811,6 @@
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Divisive Normalization Shapes Low-Rank Slow Manifolds for Continuous Working Memory",
-      "url": "https://arxiv.org/abs/2608.01947",
-      "summary": "arXiv:2608.01947v2 Announce Type: replace Abstract: The ability to robustly maintain and update continuous variables is a hallmark of working memory. While classical continuous attractor networks suffer from severe fine-…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evaluation Resolution Confounds Learning-Rule Comparisons in Model-Brain RSA of Early Visual Cortex",
-      "url": "https://arxiv.org/abs/2608.12408",
-      "summary": "arXiv:2608.12408v2 Announce Type: replace Abstract: Representational similarity analysis (RSA) is increasingly used to ask which learning rules give convolutional networks brain-like representations. Because biologically…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mining Artifacts in Mycelium SEM Micrographs",
-      "url": "https://arxiv.org/abs/2103.07573",
-      "summary": "arXiv:2103.07573v2 Announce Type: replace-cross Abstract: Mycelium is a promising biomaterial based on fungal mycelium, a highly porous, nanofibrous structure. Scanning electron micrographs are used to characterize its n…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Condensation Transition in Entropy-Constrained Probability Spaces",
-      "url": "https://arxiv.org/abs/2605.08967",
-      "summary": "arXiv:2605.08967v2 Announce Type: replace-cross Abstract: Probability spaces are known to undergo a concentration of measure in high dimensions. In particular, if a $K$-dimensional probability distribution is sampled fro…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BIRDNet: Mining and Encoding Boolean Implication Knowledge Graphs as Interpretable Deep Neural Networks",
-      "url": "https://arxiv.org/abs/2605.28739",
-      "summary": "arXiv:2605.28739v2 Announce Type: replace-cross Abstract: Tabular data in knowledge-rich domains often carries a latent prior in the form of Boolean implication relationships (BIRs) between pairs of features. We mine suc…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Funnel-like protein energy landscapes emerge from functional evolution under thermal fluctuations",
-      "url": "https://arxiv.org/abs/2608.01143",
-      "summary": "arXiv:2608.01143v2 Announce Type: replace-cross Abstract: Foldable proteins exhibit funnel-like energy landscapes, but their evolution under selection for function remains unclear. We study this in a lattice protein mode…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Framework for Grounding Healthcare LLMs in a Causal Knowledge Graph: A Cardiovascular Example Pilot",
-      "url": "https://arxiv.org/abs/2608.15382",
-      "summary": "arXiv:2608.15382v2 Announce Type: replace-cross Abstract: Large language models (LLMs) are increasingly proposed for healthcare decision support, but their evaluations still reward single-answer accuracy rather than reas…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PertMind: Eliciting Emergent Biological Reasoning in LLM via Reinforcement Learning on Cellular Perturbation Data",
-      "url": "https://arxiv.org/abs/2608.16419",
-      "summary": "arXiv:2608.16419v2 Announce Type: replace-cross Abstract: Large language models can describe mechanisms, yet scalable post-training still depends on costly, manually curated biological reasoning traces. Here we show that…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "ts": 1787616000000,
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "ts": 1787616000000,
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Quantifying the impact of cell-to-cell inconsistency on electric vehicle battery degradation and utilization",
-      "url": "https://www.nature.com/articles/s41560-026-02131-5",
-      "summary": "",
-      "ts": 1787616000000,
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
