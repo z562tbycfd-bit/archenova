@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-25T07:45:37.267Z",
+  "updated": "2026-08-25T08:44:44.081Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Trees 'giving up': Climate change hammers historic English gardens",
+      "url": "https://phys.org/news/2026-08-trees-climate-historic-english-gardens.html",
+      "summary": "At Hampton Court Palace, head gardener Graham Dillamore strode across the burned beige grass in the spectacular formal gardens southwest of London, laid out in the 17th century.",
+      "ts": 1787646664000,
+      "publishedAt": "2026-08-25T08:31:04.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Gate Voltage Effect on Pulse Detection Efficiency of Perimeter-Gated SPADs",
@@ -791,14 +799,6 @@
       "title": "Model dependent analytic spin torsion corrections to Blandford Znajek energy extraction in Einstein Cartan gravity",
       "url": "https://arxiv.org/abs/2608.23174",
       "summary": "arXiv:2608.23174v1 Announce Type: new Abstract: We investigate the leading near-horizon response of Blandford-Znajek energy extraction to a compact, neutral spin-polarized source within minimally coupled Einstein-Cartan-…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The power law in human mobility is a mixture artifact: evidence from a pandemic natural experiment",
-      "url": "https://arxiv.org/abs/2608.23194",
-      "summary": "arXiv:2608.23194v1 Announce Type: new Abstract: For nearly two decades, human mobility has been read as scale free. Displacement distributions follow heavy tails that look like truncated power laws, traced to individual …",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z"
     }

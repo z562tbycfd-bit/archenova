@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-25T07:45:41.012Z",
+  "updated": "2026-08-25T08:44:46.360Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Comments on OMB research rule mysteriously removed from federal website",
+      "url": "https://www.statnews.com/2026/08/25/russell-vought-omb-funding-comments-daughter-benefited-nih-research/?utm_campaign=rss",
+      "summary": "Some comments on a proposed OMB research rule have been mysteriously removed from a public-facing government webpage.",
+      "ts": 1787646600000,
+      "publishedAt": "2026-08-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AI is good at catching drug theft at hospitals, but only when humans do their part",
+      "url": "https://www.statnews.com/2026/08/25/ai-drug-diversion-software-human-oversight-controlcheck-sentri7/?utm_campaign=rss",
+      "summary": "New AI technology can help hospitals prevent the controlled substances from being stolen, or abused by staff, but those tools aren't foolproof.",
+      "ts": 1787646600000,
+      "publishedAt": "2026-08-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Whale songs: the sounds of love and loss as heard by an OB-GYN",
+      "url": "https://www.statnews.com/2026/08/25/human-whale-songs-of-grief-essay-dr-caroline-cherston/?utm_campaign=rss",
+      "summary": "“I have developed a trained ear for many kinds of ‘humanized’ whale songs especially the types sung by women,” writes physician Caroline Cherston.",
+      "ts": 1787646600000,
+      "publishedAt": "2026-08-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Cancer screening guidelines need to address long-term care facilities",
+      "url": "https://www.statnews.com/2026/08/25/cancer-screening-guidelines-long-term-care-facilities/?utm_campaign=rss",
+      "summary": "After her aunt died, cancer epidemiologist Kim Johnson looked into screening guidelines for long-term care residents — and found almost nothing.",
+      "ts": 1787646600000,
+      "publishedAt": "2026-08-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "How Trump’s cuts are reshaping America’s health system",
+      "url": "https://www.statnews.com/2026/08/25/rural-hospitals-response-medicaid-cuts-part-1-unraveled-series/?utm_campaign=rss",
+      "summary": "A scramble to prepare for massive federal cuts across the health care system is hitting rural states like Maine particularly hard.",
+      "ts": 1787646600000,
+      "publishedAt": "2026-08-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "PepLLM: ESM-Guided Llama for Structured Protein-Peptide Binding Interface Analysis",
@@ -670,6 +715,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Can restoring land create jobs? These young entrepreneurs are proving it",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168194",
+      "summary": "From Ecuador to Bangladesh, a new generation of entrepreneurs is turning land restoration into economic opportunity. Whether repurposing agricultural waste, building greenhouses or deploying AI-powered sensors, they are …",
+      "ts": 1787572800000,
+      "publishedAt": "2026-08-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "100 days of Ebola and the race to stop the spread",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168195",
       "summary": "A hundred days after the Bundibugyo Ebola outbreak was declared, the Democratic Republic of the Congo (DRC) is facing an epidemic of an unprecedented scale and efforts must grow to contain the spread in the eastern regio…",
@@ -757,60 +811,6 @@
       "ts": 1787562000000,
       "publishedAt": "2026-08-24T09:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Inside Moderna and Merck’s cancer vaccine triumph",
-      "url": "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/?utm_campaign=rss",
-      "summary": "Moderna and Merck's wild gambit on a cancer vaccine appears to have worked, despite big doubts, logistical challenges, and pandemic-era complications.",
-      "ts": 1787560200000,
-      "publishedAt": "2026-08-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicaid transgender care rule sets precedent that could restrict coverage of other drugs",
-      "url": "https://www.statnews.com/2026/08/24/transgender-care-ban-precedent-could-be-broadly-applied-medicaid-states/?utm_campaign=rss",
-      "summary": "The legal theory used to restrict gender-affirming care for minors could be applied broadly, experts say.",
-      "ts": 1787560200000,
-      "publishedAt": "2026-08-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA digital health leader promises generative AI regulatory guidance is coming",
-      "url": "https://www.statnews.com/2026/08/24/fda-rick-abramson-generative-ai-guidances-are-coming/?utm_campaign=rss",
-      "summary": "FDA expects to issue guidance on policies regarding generative AI devices, according to Rick Abramson, the agency’s head of digital health policy.",
-      "ts": 1787560200000,
-      "publishedAt": "2026-08-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Nurse practitioner trainees find themselves stymied by shortage of clinical mentors",
-      "url": "https://www.statnews.com/2026/08/24/nurse-practitioner-preceptor-shortage-clinical-placement-challenges/?utm_campaign=rss",
-      "summary": "Nurse practitioner students face a preceptor shortage, often paying thousands to secure clinical supervision.",
-      "ts": 1787560200000,
-      "publishedAt": "2026-08-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Medicine stopped shaking hands. We should start again",
-      "url": "https://www.statnews.com/2026/08/24/doctors-hand-shakes-patients-research/?utm_campaign=rss",
-      "summary": "A handshake takes only a few seconds but can make a major difference to a patient, an emergency physician writes.",
-      "ts": 1787560200000,
-      "publishedAt": "2026-08-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m a retired doctor. Volunteering at a community clinic gave me an entirely new medical education",
-      "url": "https://www.statnews.com/2026/08/24/retired-doctor-community-clinic-volunteering-education/?utm_campaign=rss",
-      "summary": "“It was only after retiring from mainstream medicine when I fully comprehended the callous limitations of our health care system,” writes Benjamin I. Lee.",
-      "ts": 1787560200000,
-      "publishedAt": "2026-08-24T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
