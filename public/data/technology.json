@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-25T16:39:47.492Z",
+  "updated": "2026-08-25T17:33:26.794Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Galactic Gems Glisten in New Gallery From NASA’s Chandra",
+      "url": "https://science.nasa.gov/missions/chandra/galactic-gems-glisten-in-new-gallery-from-nasas-chandra/",
+      "summary": "Galaxies are like cosmic gems, each with characteristics including size and shape that make them distinct. A new gallery released today from NASA’s Chandra X-ray Observatory and other telescopes displays a collection of …",
+      "ts": 1787674429000,
+      "publishedAt": "2026-08-25T16:13:49.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Pennsylvania reports first 2 measles deaths in the U.S. this year, both people unvaccinated",
@@ -154,6 +163,24 @@
       "ts": 1787659482000,
       "publishedAt": "2026-08-25T12:04:42.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Rohingyas in Myanmar suffering ‘heartbreaking’ misery and cruelty",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168200",
+      "summary": "Members of the minority ethnic Rohingya Muslim group in Myanmar are “suffering, misery, and cruelty on multiple levels and across the country that is heartbreaking,” according to the UN High Commissioner for Human Rights…",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Land degradation is costing far more than restoring: UN deputy chief",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168198",
+      "summary": "Countries are spending too little to restore degraded land even as the economic cost of doing nothing climbs towards $1 trillion a year, UN Deputy Secretary-General Amina Mohammed warned at a major UN land conference in …",
+      "ts": 1787659200000,
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -783,33 +810,6 @@
       "summary": "At the center of our solar system, the Sun influences every planet that orbits it. In two recent NASA-funded studies, scientists uncovered how ancient events in the Sun’s history may have helped create Earth’s unique cli…",
       "ts": 1787594037000,
       "publishedAt": "2026-08-24T17:53:57.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Reid Wiseman at Freedom 250 Grand Prix",
-      "url": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-at-freedom-250-grand-prix/",
-      "summary": "NASA astronaut and Artemis II commander Reid Wiseman is seen in the two-seat IndyCar as he prepares for driver Conor Daly to take him on a lap ahead of the start of the Freedom 250 Grand Prix, Sunday, Aug. 23, 2026, in W…",
-      "ts": 1787592849000,
-      "publishedAt": "2026-08-24T17:34:09.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Aerospace demonstrates DiskSats in low-Earth orbit",
-      "url": "https://spacenews.com/aerospace-demonstrates-disksats-in-low-earth-orbit/",
-      "summary": "SALT LAKE CITY – The Aerospace Corp. is continuing to demonstrate the viability of pancake-shaped DiskSats in the wake of their December launch on a Rocket Lab Electron. “It’s the […] The post Aerospace demonstrates Disk…",
-      "ts": 1787592600000,
-      "publishedAt": "2026-08-24T17:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "MAIA Air Sensor at Work in Addis Ababa",
-      "url": "https://science.nasa.gov/photojournal/maia-air-sensor-at-work-in-addis-ababa/",
-      "summary": "Description This roof-mounted air sensor in Addis Ababa, the capital of Ethiopia, is one of 10 used by NASA’s Multi-Angle Imager for Aerosols (MAIA) to study the city’s air quality. MAIA’s air sensors provide a detailed …",
-      "ts": 1787592421000,
-      "publishedAt": "2026-08-24T17:27:01.000Z",
       "categoryId": "space"
     }
   ],
