@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-26T10:37:25.115Z",
+  "updated": "2026-08-26T11:32:06.629Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "MTG-I2 ready for launch",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
+      "summary": "Video: 00:00:31 The Meteosat Third Generation-Imager2 (MTG-I2) satellite, is ready for launch on board an Ariane 6 launcher from Europe’s Spaceport in French Guiana. Lift off is scheduled for 27 August 2026 at 22:10 CEST…",
+      "ts": 1787742000000,
+      "publishedAt": "2026-08-26T11:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "New Zika Virus Vaccine Approach Harnesses the Power of T Cells in Mice",
@@ -802,15 +811,6 @@
       "ts": 1787641935000,
       "publishedAt": "2026-08-25T07:12:15.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "ts": 1787641500000,
-      "publishedAt": "2026-08-25T07:05:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

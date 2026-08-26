@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-26T10:37:20.791Z",
+  "updated": "2026-08-26T11:32:04.333Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers map tick habitat to strengthen African swine fever preparedness",
+      "url": "https://phys.org/news/2026-08-habitat-african-swine-fever-preparedness.html",
+      "summary": "A small, nest-dwelling tick found across large parts of Texas could play an outsized role in how the United States responds to African swine fever (ASF) should the virus reach domestic or wild pigs.",
+      "ts": 1787743201000,
+      "publishedAt": "2026-08-26T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Utah mountain ranges may store a billion tons of hidden ice",
+      "url": "https://phys.org/news/2026-08-utah-mountain-ranges-billion-tons.html",
+      "summary": "Unlike conventional glaciers, rock glaciers appear as piles of rock that obscure large masses of unaccounted-for ice. Rock glaciers are common in the Wasatch and Uinta ranges, even appearing on the Colorado Plateau in th…",
+      "ts": 1787742009000,
+      "publishedAt": "2026-08-26T11:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New quantum computing method broadens spectroscopy of hard-to-model matter",
+      "url": "https://phys.org/news/2026-08-quantum-method-broadens-spectroscopy-hard.html",
+      "summary": "Scientists could have a new way to explore the hidden behavior of matter, thanks to research involving Queen Mary University of London that uses a quantum computer to carry out a new form of computational spectroscopy.",
+      "ts": 1787742007000,
+      "publishedAt": "2026-08-26T11:00:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Butterfly-inspired crystals could enable durable, potentially safer glitter",
@@ -775,30 +799,6 @@
       "title": "Phoretic interactions in two-medium wedge geometries",
       "url": "https://arxiv.org/abs/2608.24566",
       "summary": "arXiv:2608.24566v1 Announce Type: cross Abstract: We investigate the diffusiophoretic motion of a chemically isotropic active colloid in a three-dimensional wedge formed by two distinct fluid media, in the limit of vanis…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Delayed Optimizer-State Transport Shapes Short-Horizon Training Decisions",
-      "url": "https://arxiv.org/abs/2608.24593",
-      "summary": "arXiv:2608.24593v1 Announce Type: cross Abstract: Adaptive optimizers retain gradient history in moment variables, allowing a local change in loss weighting to alter later updates. We examine whether this delayed transpo…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chebyshev interpolation in Einstein-Boltzmann codes",
-      "url": "https://arxiv.org/abs/2608.24682",
-      "summary": "arXiv:2608.24682v1 Announce Type: cross Abstract: Einstein-Boltzmann codes compute theoretical predictions of cosmological models and rely heavily on interpolation in their independent variables: time $\\tau$, wavenumber …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global geometry of the genotype-phenotype map illuminates a trade-off between penetrance and mutational adaptability",
-      "url": "https://arxiv.org/abs/2608.24704",
-      "summary": "arXiv:2608.24704v1 Announce Type: cross Abstract: Evolution in changing environments requires both reliable expression of the currently favored phenotype, as quantified by penetrance, and the capacity to reach alternativ…",
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z"
     }
