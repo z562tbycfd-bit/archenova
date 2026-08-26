@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-26T11:32:04.333Z",
+  "updated": "2026-08-26T12:56:07.224Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Human rights expert explains why labor trafficking often hides in plain sight",
+      "url": "https://phys.org/news/2026-08-human-rights-expert-labor-trafficking.html",
+      "summary": "It can happen in fields, restaurants, hotels and construction sites—a type of human trafficking often hiding in plain sight and receiving far less media coverage. Labor trafficking is a human rights violation in which in…",
+      "ts": 1787748001000,
+      "publishedAt": "2026-08-26T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do customer loyalty programs actually work? The benefits are in the eye of the cardholder",
+      "url": "https://phys.org/news/2026-08-customer-loyalty-benefits-eye-cardholder.html",
+      "summary": "Whether you love a loyalty discount at the supermarket or frequently forget your loyalty card, loyalty programs (LPs) can be an essential support for families and households amid growing cost-of-living pressures.",
+      "ts": 1787746801000,
+      "publishedAt": "2026-08-26T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hyperdoped silicon photodiode advances short-wave infrared detection at room temperature",
+      "url": "https://phys.org/news/2026-08-hyperdoped-silicon-photodiode-advances-short.html",
+      "summary": "Detecting short-wave infrared (SWIR) light, a region of the electromagnetic spectrum just beyond the light visible to the human eye, could be advantageous for many real-world applications. For instance, it could enable m…",
+      "ts": 1787745606000,
+      "publishedAt": "2026-08-26T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Appropriated racial oppression shapes Black parents' socialization of children",
+      "url": "https://phys.org/news/2026-08-appropriated-racial-oppression-black-parents.html",
+      "summary": "Black parents who experienced higher levels of appropriated racial oppression—defined as shaping one's behavior and self-concept around dominant cultural norms of whiteness—were less likely to transmit positive, cultural…",
+      "ts": 1787745601000,
+      "publishedAt": "2026-08-26T12:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Microbes might get freeze-dried on the moon’s south pole",
+      "url": "https://www.sciencenews.org/article/microbes-freeze-dried-moons-south-pole",
+      "summary": "Artemis IV will put people on the moon’s surface for the first time in 50 years. NASA research reveals the microbes that might hitch a ride.",
+      "ts": 1787745600000,
+      "publishedAt": "2026-08-26T12:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Support groups for parents halved violence against children in wartime Ukraine, trial finds",
+      "url": "https://phys.org/news/2026-08-groups-parents-halved-violence-children.html",
+      "summary": "Ukrainian parents who joined a support group program called \"Hope Groups,\" designed for families living through the war, reported that violence against children was cut in half and that they had less than half the depres…",
+      "ts": 1787744401000,
+      "publishedAt": "2026-08-26T11:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Researchers map tick habitat to strengthen African swine fever preparedness",
@@ -751,54 +799,6 @@
       "title": "Efficient Treatment of Non-Linearity in Quantum Computational Fluid Dynamics Using Hybrid Tensor Networks",
       "url": "https://arxiv.org/abs/2608.24150",
       "summary": "arXiv:2608.24150v1 Announce Type: cross Abstract: Nonlinear terms present a fundamental challenge for quantum computational fluid dynamics, as their implementation on inherently linear quantum hardware typically requires…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Decoupling candidate dual AGN from chance superpositions in the GOTHIC survey via a deep-learning framework",
-      "url": "https://arxiv.org/abs/2608.24164",
-      "summary": "arXiv:2608.24164v1 Announce Type: cross Abstract: Dual active galactic nuclei (DAGN) mark a critical phase in the evolution of merging galaxies and the pairing of supermassive black holes, yet they remain difficult to id…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Minimal Thermodynamically Consistent Chemical Oscillator",
-      "url": "https://arxiv.org/abs/2608.24200",
-      "summary": "arXiv:2608.24200v1 Announce Type: cross Abstract: Inspired by the chemical reaction network considered as the smallest system featuring a Hopf bifurcation and its reversible extension, we introduce an even more minimal r…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-optimal instruments for high-contrast imaging with multi-plane light converters",
-      "url": "https://arxiv.org/abs/2608.24315",
-      "summary": "arXiv:2608.24315v1 Announce Type: cross Abstract: Spatial Mode Demultiplexers (SPADE) are devices that split an incoming wavefront into a particular set of electric field modes. SPADEs have been shown to be quantum-optim…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conformation-Mediated Kinetics of Polymer Chain Scission under Tension",
-      "url": "https://arxiv.org/abs/2608.24378",
-      "summary": "arXiv:2608.24378v1 Announce Type: cross Abstract: Chain scission is a key molecular process underlying damage and fracture in polymer networks. In this Letter, we develop a statistical-mechanical framework for predicting…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Randomized Block Davidson Eigensolvers for Plane-Wave Density-Functional Theory",
-      "url": "https://arxiv.org/abs/2608.24529",
-      "summary": "arXiv:2608.24529v1 Announce Type: cross Abstract: Iterative diagonalization is the dominant cost of plane-wave density-functional theory (DFT), with search-space orthogonalization scaling particularly quickly with proble…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phoretic interactions in two-medium wedge geometries",
-      "url": "https://arxiv.org/abs/2608.24566",
-      "summary": "arXiv:2608.24566v1 Announce Type: cross Abstract: We investigate the diffusiophoretic motion of a chemically isotropic active colloid in a three-dimensional wedge formed by two distinct fluid media, in the limit of vanis…",
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z"
     }

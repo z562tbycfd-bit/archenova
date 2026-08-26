@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-26T11:32:06.629Z",
+  "updated": "2026-08-26T12:56:11.576Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids’ use of technology was onc…",
+      "ts": 1787746200000,
+      "publishedAt": "2026-08-26T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "ESA",
       "title": "MTG-I2 ready for launch",
@@ -46,6 +55,15 @@
       "ts": 1787734800000,
       "publishedAt": "2026-08-26T09:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
+      "url": "http://www.iaea.org/newscenter/news/malaysia-strengthens-nuclear-workforce-planning-capacity",
+      "summary": "",
+      "ts": 1787734341000,
+      "publishedAt": "2026-08-26T08:52:21.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "ESA",
@@ -642,19 +660,19 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
-      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
+      "source": "SpaceNews",
+      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
+      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
+      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
     },
     {
-      "source": "SpaceNews",
-      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
-      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
-      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
+      "source": "NASA",
+      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
+      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
@@ -793,24 +811,6 @@
       "ts": 1787646600000,
       "publishedAt": "2026-08-25T08:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "How Trump’s cuts are reshaping America’s health system",
-      "url": "https://www.statnews.com/2026/08/25/rural-hospitals-response-medicaid-cuts-part-1-unraveled-series/?utm_campaign=rss",
-      "summary": "A scramble to prepare for massive federal cuts across the health care system is hitting rural states like Maine particularly hard.",
-      "ts": 1787646600000,
-      "publishedAt": "2026-08-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA-led Study Finds 5-star Rating System Can Help Make CT Imaging Safer",
-      "url": "http://www.iaea.org/newscenter/news/iaea-led-study-finds-5-star-rating-system-can-help-make-ct-imaging-safer",
-      "summary": "",
-      "ts": 1787641935000,
-      "publishedAt": "2026-08-25T07:12:15.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
