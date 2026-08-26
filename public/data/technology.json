@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-26T06:53:22.409Z",
+  "updated": "2026-08-26T07:48:54.174Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
+      "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
+      "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates…",
+      "ts": 1787727660000,
+      "publishedAt": "2026-08-26T07:01:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 August 26 – JWST Images The Lion’s Head Nebula",
@@ -534,19 +543,19 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
-      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
+      "source": "SpaceNews",
+      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
+      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
+      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
     },
     {
-      "source": "SpaceNews",
-      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
-      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
-      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
+      "source": "NASA",
+      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
+      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
@@ -799,15 +808,6 @@
       "title": "Forward and reverse delay-driven hippocampal replay without symmetric plasticity",
       "url": "https://arxiv.org/abs/2608.21814",
       "summary": "arXiv:2608.21814v1 Announce Type: new Abstract: Hippocampal replay is a phenomenon observed in mammals and songbirds where neural activation sequences experienced during wakeful periods are repeated during rest or sleep.…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Phenotypic Assortment and the Evolution of Cooperation in Finite Periodic Phenotype Spaces",
-      "url": "https://arxiv.org/abs/2608.21872",
-      "summary": "arXiv:2608.21872v1 Announce Type: new Abstract: We study the evolution of cooperation in a finite haploid population whose individuals carry both a strategy and a phenotype on a finite periodic space. Cooperators help wi…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "categoryId": "bio"
