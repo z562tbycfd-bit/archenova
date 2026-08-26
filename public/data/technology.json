@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-26T16:19:31.724Z",
+  "updated": "2026-08-26T19:04:47.665Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Kennedy posts vaccine misinformation, spars on social media amid measles deaths",
+      "url": "https://www.statnews.com/2026/08/26/kennedy-vaccine-comments-reaction-josh-shapiro-jerome-adams/?utm_campaign=rss",
+      "summary": "Kennedy has blamed others for declining vaccination rates, and downplayed the dangers of measles.",
+      "ts": 1787768236000,
+      "publishedAt": "2026-08-26T18:17:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Myotis Bat Genomes Reveal How They Fight Viruses, Cancer, and Cellular Damage",
+      "url": "https://www.genengnews.com/topics/omics/myotis-bat-genomes-reveal-how-they-fight-viruses-cancer-and-cellular-damage/",
+      "summary": "Scientists studying eight Myotis bat species uncovered genetic adaptations that may explain their exceptional longevity, cancer resistance, viral defense, and ability to repair or eliminate damaged cells. The post <i>Myo…",
+      "ts": 1787766244000,
+      "publishedAt": "2026-08-26T17:44:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Johnson Pilots Chase Moon’s Shadow for Eclipse Science ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-pilots-chase-moons-shadow-for-eclipse-science/",
+      "summary": "During the Aug. 12 total solar eclipse over Europe, scientists aimed to study a long-standing mystery: why the Sun’s outer atmosphere, the corona, is far hotter than its visible surface. Capturing the data they needed me…",
+      "ts": 1787765585000,
+      "publishedAt": "2026-08-26T17:33:05.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "RTX’s Blue Canyon Technologies introduces new spacecraft mission enabler",
@@ -181,6 +208,24 @@
       "ts": 1787742000000,
       "publishedAt": "2026-08-26T11:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "ts": 1787738400000,
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "ts": 1787738400000,
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Genetic Engineering News",
@@ -765,51 +810,6 @@
       "summary": "STAT examines Republicans’ health care funding cuts, mRNA science defeats politics, and Medicaid tries out a new way to deny drug coverage.",
       "ts": 1787669488000,
       "publishedAt": "2026-08-25T14:51:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Angel secures $1.75m WA Government backing to advance Western Australian spaceport plans",
-      "url": "https://spacenews.com/space-angel-secures-1-75m-wa-government-backing-to-advance-western-australian-spaceport-plans/",
-      "summary": "Space Angel has welcomed its selection by the Western Australian Government as the recipient of the $1.75 million Spaceport Establishment Support Grant, announced by Science and Innovation Minister Stephen Dawson. […] Th…",
-      "ts": 1787666400000,
-      "publishedAt": "2026-08-25T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: After a years-long slump, Massachusetts biopharma sector has come roaring back in 2026",
-      "url": "https://www.statnews.com/2026/08/25/massachusetts-biotech-slump-then-turnaround/?utm_campaign=rss",
-      "summary": "The number of people working in Massachusetts’ biotech sector fell last year, for the first time since at least 2002. But 2026 is looking up.",
-      "ts": 1787666328000,
-      "publishedAt": "2026-08-25T13:58:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "One Standard, Multiple Platforms: ICH Q2(R2) Qualification of Host Cell Protein Analysis by LC–MS/MS",
-      "url": "https://www.genengnews.com/multimedia/webinars/one-standard-multiple-platforms-ich-q2r2-qualification-of-host-cell-protein-analysis-by-lc-ms-ms/",
-      "summary": "In this GEN webinar, USP and Alphalyse present the work qualifying beta-lactoglobulin (LACB) as a cross-platform standard for LC-MS/MS HCP analysis. The post One Standard, Multiple Platforms: ICH Q2(R2) Qualification of …",
-      "ts": 1787665547000,
-      "publishedAt": "2026-08-25T13:45:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA promises new AI guidance, and what happened at Epic’s UGM",
-      "url": "https://www.statnews.com/2026/08/25/fda-promises-new-ai-guidance-and-epic-ugm-updates/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: FDA's plans for regulating generative AI-powered devices, and updates from EPIC's UGM.",
-      "ts": 1787665483000,
-      "publishedAt": "2026-08-25T13:44:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Turkish antitrust authorities probe Teva for allegedly gaming the patent system, disparaging rival drugs",
-      "url": "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss",
-      "summary": "Turkish regulators are investigating Teva Pharmaceutical for allegedly manipulating the patent system and disparaging rival drugs.",
-      "ts": 1787665430000,
-      "publishedAt": "2026-08-25T13:43:50.000Z",
       "categoryId": "bio"
     }
   ],
