@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-26T04:41:45.254Z",
+  "updated": "2026-08-26T05:36:11.405Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Even low-level traffic noise can reduce birdsong's stress-relieving effects",
+      "url": "https://phys.org/news/2026-08-traffic-noise-birdsong-stress-relieving.html",
+      "summary": "Traffic noise disrupts recognized benefits of birdsong and other sounds from nature, a new study from the University of Surrey reports.",
+      "ts": 1787720401000,
+      "publishedAt": "2026-08-26T05:00:01.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Minimum-Distortion Wealth Taxation, I: Information-Theoretic versus Transport-Geometric Optimality on the Proportional Class",
@@ -791,14 +799,6 @@
       "title": "Predicting THz Generation Capability of Organic Crystals through Data Mining and Crystal Nonlinearity Models",
       "url": "https://arxiv.org/abs/2608.24835",
       "summary": "arXiv:2608.24835v1 Announce Type: cross Abstract: We report the use of DFT computation and mathematical models to predict the nonlinear dielectric polarization (P^{NL}) and nonlinear susceptibility coefficients (\\chi^{(2…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Binary Hypothesis Testing: A Robust Framework Against the Look Elsewhere Effect",
-      "url": "https://arxiv.org/abs/2608.24872",
-      "summary": "arXiv:2608.24872v1 Announce Type: cross Abstract: In particle physics, discovery claims conventionally require an observed significance exceeding $5\\sigma$. However, the interpretation of a $5\\sigma$ result depends criti…",
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z"
     }
