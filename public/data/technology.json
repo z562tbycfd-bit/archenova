@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-26T08:46:51.600Z",
+  "updated": "2026-08-26T09:43:46.665Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Zika Virus Vaccine Approach Harnesses the Power of T Cells in Mice",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/new-zika-virus-vaccine-approach-harnesses-the-power-of-t-cells-in-mice/",
+      "summary": "An experimental Zika vaccine protected mice through CD8+ T cells, suggesting a possible path around antibody-dependent enhancement concerns that have complicated vaccine development for Zika and related viruses. The post…",
+      "ts": 1787734836000,
+      "publishedAt": "2026-08-26T09:00:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Raised on AI",
+      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creatin…",
+      "ts": 1787734800000,
+      "publishedAt": "2026-08-26T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming g…",
+      "ts": 1787734800000,
+      "publishedAt": "2026-08-26T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Newer shingles vaccine linked to lower heart disease risk, ‘natural experiment’ shows",
+      "url": "https://www.statnews.com/2026/08/26/shingles-vaccine-shingrix-reduces-heart-disease-dementia-risk-oxford-study/?utm_campaign=rss",
+      "summary": "Oxford researchers call shingles shot first vaccine protecting both heart and brain. Lower heart disease risk follows study showing reduced dementia risk.",
+      "ts": 1787734800000,
+      "publishedAt": "2026-08-26T09:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Second spacewalk completed for Sophie Adenot ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
+      "summary": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.",
+      "ts": 1787733600000,
+      "publishedAt": "2026-08-26T08:40:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: New treatments for common cardiovascular risk factor near the market, with billions at stake",
@@ -766,51 +811,6 @@
       "ts": 1787641200000,
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PepLLM: ESM-Guided Llama for Structured Protein-Peptide Binding Interface Analysis",
-      "url": "https://arxiv.org/abs/2608.21367",
-      "summary": "arXiv:2608.21367v1 Announce Type: new Abstract: Protein-peptide interactions are central to cellular regulation and peptide-based drug discovery, yet existing computational methods mainly focus on interaction classificat…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Tensor Network Framework for Interpretable Graph Analysis of Brain Networks",
-      "url": "https://arxiv.org/abs/2608.21368",
-      "summary": "arXiv:2608.21368v1 Announce Type: new Abstract: Identifying robust neurobiological signatures of brain disorders requires machine learning approaches that combine predictive performance with interpretable representations…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scalable Enumeration of Pareto-optimal Polymers for Computing Equilibrium Concentrations",
-      "url": "https://arxiv.org/abs/2608.21370",
-      "summary": "arXiv:2608.21370v1 Announce Type: new Abstract: Predicting equilibrium concentrations of molecular complexes is essential for verifying the behavior of engineered DNA systems. However, a finite set of monomer types can i…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synthetic Wastewater Epidemiology Data Generation using Patterns-of-Life Simulation",
-      "url": "https://arxiv.org/abs/2608.21413",
-      "summary": "arXiv:2608.21413v1 Announce Type: new Abstract: Wastewater contains rich biological signals that can be used to monitor population health, track infectious diseases, and detect emerging outbreaks. Pathogens and other bio…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DNA Methylation Profiling in Melanoma: From Lesion Classification to Therapeutic Stratification",
-      "url": "https://arxiv.org/abs/2608.21448",
-      "summary": "arXiv:2608.21448v1 Announce Type: new Abstract: DNA methylation provides a stable record of cellular identity, capturing epigenetic programs that distinguish specialized cell states despite a shared genome. Because malig…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

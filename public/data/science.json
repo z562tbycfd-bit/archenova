@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-26T08:46:48.762Z",
+  "updated": "2026-08-26T09:43:44.588Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Butterfly-inspired crystals could enable durable, potentially safer glitter",
+      "url": "https://phys.org/news/2026-08-butterfly-crystals-enable-durable-potentially.html",
+      "summary": "The next time you need to freshen up the paint on your house or apply a bit of cosmetic glitter before heading out for the night, you might want to give a quick nod to the butterflies fluttering in a nearby garden. Takin…",
+      "ts": 1787734809000,
+      "publishedAt": "2026-08-26T09:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Catalyzing the community: Chemists and Navajo leaders educate on clean water",
+      "url": "https://phys.org/news/2026-08-catalyzing-community-chemists-navajo-leaders.html",
+      "summary": "Many Native American communities in rural areas rely on well water, but the quality and safety of that water can vary significantly. Researchers led by Jani C. Ingram measured levels of heavy metals in well water on trib…",
+      "ts": 1787734804000,
+      "publishedAt": "2026-08-26T09:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Volcanic eruptions and warming climate disrupt long-standing link between Indian and Pacific oceans",
+      "url": "https://phys.org/news/2026-08-volcanic-eruptions-climate-disrupt-link.html",
+      "summary": "A new study that combines paleoclimate data and climate models suggests that large volcanic eruptions can disrupt the relationship between atmospheric circulation patterns over the tropical Indian and Pacific oceans. In …",
+      "ts": 1787734802000,
+      "publishedAt": "2026-08-26T09:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Too small for fries: Drought shrinks Belgian potatoes",
@@ -775,30 +799,6 @@
       "title": "Global geometry of the genotype-phenotype map illuminates a trade-off between penetrance and mutational adaptability",
       "url": "https://arxiv.org/abs/2608.24704",
       "summary": "arXiv:2608.24704v1 Announce Type: cross Abstract: Evolution in changing environments requires both reliable expression of the currently favored phenotype, as quantified by penetrance, and the capacity to reach alternativ…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photospheric index of geomagnetic activity",
-      "url": "https://arxiv.org/abs/2608.24752",
-      "summary": "arXiv:2608.24752v1 Announce Type: cross Abstract: Geomagnetic indices quantify the disturbances of the Earth's magnetic field. They form an important space weather and space climate record that tracks solar-terrestrial e…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-controlled correlated electric-field noise in enclosed ion traps from billiard return spectra",
-      "url": "https://arxiv.org/abs/2608.24770",
-      "summary": "arXiv:2608.24770v1 Announce Type: cross Abstract: We ask how passive conducting geometry determines the spatial structure of electric-field noise seen by trapped ions. From a boundary-potential covariance and the Dirichl…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calculation of Field Line Slippage Rates in Coronal Simulations",
-      "url": "https://arxiv.org/abs/2608.24775",
-      "summary": "arXiv:2608.24775v1 Announce Type: cross Abstract: We present the Universal Slippage calculator (\\texttt{USlip}), an extension of the Universal Fieldline Tracer (\\texttt{UFiT}), that computes magnetic field line slippage …",
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z"
     }
