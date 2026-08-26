@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-26T07:48:54.174Z",
+  "updated": "2026-08-26T08:46:51.600Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: New treatments for common cardiovascular risk factor near the market, with billions at stake",
+      "url": "https://www.statnews.com/2026/08/26/lp-a-drugs-novartis-amgen-lilly-potential-heart-disease-blockbuster/?utm_campaign=rss",
+      "summary": "High cholesterol can be managed with medicine, but high Lp(a) levels, another common cardiovascular risk, cannot. Drugmakers are hoping to change that.",
+      "ts": 1787733000000,
+      "publishedAt": "2026-08-26T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: When it comes to women’s health, money talks",
+      "url": "https://www.statnews.com/2026/08/26/womens-health-reverse-pitch-profit-driven-approach-endometriosis-osteoporosis/?utm_campaign=rss",
+      "summary": "Women's health experts suggest a 'reverse pitch' approach to endometriosis, osteoporosis, and autoimmune treatments, stressing the profit potential.",
+      "ts": 1787733000000,
+      "publishedAt": "2026-08-26T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Many post-Dobbs abortion fears have not come to pass. What does that mean for advocates?",
+      "url": "https://www.statnews.com/2026/08/26/dobbs-abortion-predictions-infant-mortality-data-freedom/?utm_campaign=rss",
+      "summary": "Opposition to abortion restrictions should focus on values, not statistics, writes David N. Hackney, author of “Impossible Choices.”",
+      "ts": 1787733000000,
+      "publishedAt": "2026-08-26T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Medical aid in dying and the burden of choosing to live",
+      "url": "https://www.statnews.com/2026/08/26/medical-aid-in-dying-new-york-choice-burden-philosophy-ethics/?utm_campaign=rss",
+      "summary": "“Once medical aid in dying becomes available, the status quo changes,” writes Monika Piotrowska.",
+      "ts": 1787733000000,
+      "publishedAt": "2026-08-26T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
@@ -772,42 +808,6 @@
       "title": "DNA Methylation Profiling in Melanoma: From Lesion Classification to Therapeutic Stratification",
       "url": "https://arxiv.org/abs/2608.21448",
       "summary": "arXiv:2608.21448v1 Announce Type: new Abstract: DNA methylation provides a stable record of cellular identity, capturing epigenetic programs that distinguish specialized cell states despite a shared genome. Because malig…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Explainable AI-based Decision Support for Nocturnal Hypoglycemia Prevention in Type 1 Diabetes",
-      "url": "https://arxiv.org/abs/2608.21563",
-      "summary": "arXiv:2608.21563v1 Announce Type: new Abstract: Purpose: Nocturnal hypoglycemia (NH) remains a challenge for individuals with type 1 diabetes (T1D), particularly those who are physically active or on multiple daily injec…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Motional Degrees of Freedom in Network Hamiltonian Models",
-      "url": "https://arxiv.org/abs/2608.21634",
-      "summary": "arXiv:2608.21634v1 Announce Type: new Abstract: Network Hamiltonian Models (NHMs) provide an efficient framework for modeling the aggregation of interacting particles (e.g., the condensation of proteins into gel-like, ol…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Conditional Structure-Aware Generative Transformer for Multi-Objective Design of m1{\\Psi}-Modified RNA 5' UTRs",
-      "url": "https://arxiv.org/abs/2608.21696",
-      "summary": "arXiv:2608.21696v1 Announce Type: new Abstract: The 5' untranslated region is a major determinant of translation initiation, and its effect becomes especially important in modified mRNA sequences, where start-codon conte…",
-      "ts": 1787630400000,
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Forward and reverse delay-driven hippocampal replay without symmetric plasticity",
-      "url": "https://arxiv.org/abs/2608.21814",
-      "summary": "arXiv:2608.21814v1 Announce Type: new Abstract: Hippocampal replay is a phenomenon observed in mammals and songbirds where neural activation sequences experienced during wakeful periods are repeated during rest or sleep.…",
       "ts": 1787630400000,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "categoryId": "bio"

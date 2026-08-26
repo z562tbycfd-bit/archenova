@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-26T07:48:52.696Z",
+  "updated": "2026-08-26T08:46:48.762Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Too small for fries: Drought shrinks Belgian potatoes",
+      "url": "https://phys.org/news/2026-08-small-fries-drought-belgian-potatoes.html",
+      "summary": "Mathieu Comijn inspected rows of potatoes in a field of cracked earth and browned leaves, pulling from the ground tubers barely the size of pingpong balls.",
+      "ts": 1787733601000,
+      "publishedAt": "2026-08-26T08:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fire haze threatens health of millions in Indonesia, ministry warns",
+      "url": "https://phys.org/news/2026-08-haze-threatens-health-millions-indonesia.html",
+      "summary": "Millions of Indonesians risk health complications from exposure to thick haze covering several cities and towns, officials said Wednesday, as El Niño-fueled wildfires wreak havoc on Borneo and Sumatra.",
+      "ts": 1787732403000,
+      "publishedAt": "2026-08-26T08:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plant-like chemical gardens show how simple reactions build complex structures",
+      "url": "https://phys.org/news/2026-08-chemical-gardens-simple-reactions-complex.html",
+      "summary": "The famous quote by Cicero, \"If you have a garden and a library, you have everything you need,\" reminds us that the beauty of life lies in the harmony between nature and knowledge. More than 2,000 years later, this idea …",
+      "ts": 1787731801000,
+      "publishedAt": "2026-08-26T08:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Even low-level traffic noise can reduce birdsong's stress-relieving effects",
@@ -775,30 +799,6 @@
       "title": "Calculation of Field Line Slippage Rates in Coronal Simulations",
       "url": "https://arxiv.org/abs/2608.24775",
       "summary": "arXiv:2608.24775v1 Announce Type: cross Abstract: We present the Universal Slippage calculator (\\texttt{USlip}), an extension of the Universal Fieldline Tracer (\\texttt{UFiT}), that computes magnetic field line slippage …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kinetic Turnover in the Early-Stage Nucleation of Multi-Shell Condensed Clusters",
-      "url": "https://arxiv.org/abs/2608.24792",
-      "summary": "arXiv:2608.24792v1 Announce Type: cross Abstract: Nucleation is a key rate-limiting process in phase transition and phase separation. Recent studies highlight a significant discrepancy between experimentally measured nuc…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Roton Instability in Quantum Droplets with Finite-Range Soft-Core Interaction",
-      "url": "https://arxiv.org/abs/2608.24813",
-      "summary": "arXiv:2608.24813v1 Announce Type: cross Abstract: We investigate the emergence of roton instability in self-bound quantum droplets interacting via a finite-range soft-core potential modeled by a Heaviside step interactio…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Predicting THz Generation Capability of Organic Crystals through Data Mining and Crystal Nonlinearity Models",
-      "url": "https://arxiv.org/abs/2608.24835",
-      "summary": "arXiv:2608.24835v1 Announce Type: cross Abstract: We report the use of DFT computation and mathematical models to predict the nonlinear dielectric polarization (P^{NL}) and nonlinear susceptibility coefficients (\\chi^{(2…",
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z"
     }
