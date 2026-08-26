@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-26T12:56:11.576Z",
+  "updated": "2026-08-26T13:57:13.743Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: AI biotech Insitro’s Daphne Koller on how to speed up clinical trials",
+      "url": "https://www.statnews.com/2026/08/26/biotech-insitro-ceo-daphne-koller-speeding-up-clinical-trials-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis: A conversation with Insitro CEO Daphne Koller on artificial intelligence in drug discovery, and other health AI news.",
+      "ts": 1787752000000,
+      "publishedAt": "2026-08-26T13:46:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Even at big companies, health care costs are increasing ",
+      "url": "https://www.statnews.com/2026/08/26/health-news-even-at-big-companies-health-care-costs-increasing/?utm_campaign=rss",
+      "summary": "Two U.S. measles deaths, the profit motive for women's health, and more Morning Rounds news today",
+      "ts": 1787750951000,
+      "publishedAt": "2026-08-26T13:29:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a GSK shingles shot, U.S. employers dropping GLP-1 coverage, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/26/gsk-shingles-shot-us-employers-dropping-glp1-coverage/?utm_campaign=rss",
+      "summary": "About 14% of employers in the U.S. have already or plan to drop coverage of GLP-1 drugs in 2027, as companies see ​rising health care costs",
+      "ts": 1787749765000,
+      "publishedAt": "2026-08-26T13:09:25.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
@@ -781,33 +808,6 @@
       "title": "STAT+: Comments on OMB research rule mysteriously removed from federal website",
       "url": "https://www.statnews.com/2026/08/25/russell-vought-omb-funding-comments-daughter-benefited-nih-research/?utm_campaign=rss",
       "summary": "Some comments on a proposed OMB research rule have been mysteriously removed from a public-facing government webpage.",
-      "ts": 1787646600000,
-      "publishedAt": "2026-08-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI is good at catching drug theft at hospitals, but only when humans do their part",
-      "url": "https://www.statnews.com/2026/08/25/ai-drug-diversion-software-human-oversight-controlcheck-sentri7/?utm_campaign=rss",
-      "summary": "New AI technology can help hospitals prevent controlled substances from being stolen, or abused by staff, but those tools aren't foolproof.",
-      "ts": 1787646600000,
-      "publishedAt": "2026-08-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Whale songs: the sounds of love and loss as heard by an OB-GYN",
-      "url": "https://www.statnews.com/2026/08/25/human-whale-songs-of-grief-essay-dr-caroline-cherston/?utm_campaign=rss",
-      "summary": "“I have developed a trained ear for many kinds of ‘humanized’ whale songs especially the types sung by women,” writes physician Caroline Cherston.",
-      "ts": 1787646600000,
-      "publishedAt": "2026-08-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Cancer screening guidelines need to address long-term care facilities",
-      "url": "https://www.statnews.com/2026/08/25/cancer-screening-guidelines-long-term-care-facilities/?utm_campaign=rss",
-      "summary": "After her aunt died, cancer epidemiologist Kim Johnson looked into screening guidelines for long-term care residents — and found almost nothing.",
       "ts": 1787646600000,
       "publishedAt": "2026-08-25T08:30:00.000Z",
       "categoryId": "bio"

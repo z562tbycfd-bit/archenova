@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-26T12:56:07.224Z",
+  "updated": "2026-08-26T13:57:10.713Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Dogs may use blinking as a subtle social signal",
+      "url": "https://phys.org/news/2026-08-dogs-subtle-social.html",
+      "summary": "Blinking keeps eyes moist, sweeps away bits of dirt and dust, and helps the brain rest when processing visual information. But in dogs, it may also serve another function as a subtle social signal. That was one of the co…",
+      "ts": 1787751605000,
+      "publishedAt": "2026-08-26T13:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are earthquakes becoming more common? Here's what the numbers say",
+      "url": "https://phys.org/news/2026-08-earthquakes-common.html",
+      "summary": "Whenever there's a series of destructive or notable earthquakes, scientists get asked the same question: Are earthquakes becoming more frequent?",
+      "ts": 1787751603000,
+      "publishedAt": "2026-08-26T13:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "After 80 years, elusive molecules reveal how ozone starts turning plant emissions into haze",
+      "url": "https://phys.org/news/2026-08-years-elusive-molecules-reveal-ozone.html",
+      "summary": "Scientists have directly observed a fleeting chemical reaction that creates a key ingredient in urban smog. The research offers insight into the earliest stages of pollution formation and could help improve air quality f…",
+      "ts": 1787750409000,
+      "publishedAt": "2026-08-26T13:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Historic sulfur emissions—the likely cause of damage to Murujuga rock art",
+      "url": "https://phys.org/news/2026-08-historic-sulfur-emissions-murujuga-art.html",
+      "summary": "Murujuga is a sacred cultural landscape of land and sea Country across the Burrup Peninsula and Dampier Archipelago in Western Australia's Pilbara region.",
+      "ts": 1787750402000,
+      "publishedAt": "2026-08-26T13:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What has the return‑to‑office movement taught us? People, not technology, help companies get ahead",
+      "url": "https://phys.org/news/2026-08-returntooffice-movement-taught-people-technology.html",
+      "summary": "We like to believe that whatever ails a company can be fixed by digitizing it. And technology is easy to swap. Rip out the old system, bolt in the new one, declare yourself modern. But a company is not its buildings, its…",
+      "ts": 1787749201000,
+      "publishedAt": "2026-08-26T13:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Human rights expert explains why labor trafficking often hides in plain sight",
@@ -759,46 +799,6 @@
       "title": "Chaotic cosmic ray acceleration in nonlinear Alfven waves",
       "url": "https://arxiv.org/abs/2608.23775",
       "summary": "arXiv:2608.23775v1 Announce Type: cross Abstract: We demonstrate that motion of a particle in a single coherent linearly polarized (LP) Alfven wave with relative amplitude $\\delta = B_w /B_0 \\gtrsim 0.25 $ becomes chaoti…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computing statistical Euler limits of the Navier--Stokes equations in three dimensions",
-      "url": "https://arxiv.org/abs/2608.23786",
-      "summary": "arXiv:2608.23786v1 Announce Type: cross Abstract: We develop a Monte Carlo lattice Boltzmann method to efficiently compute statistical solutions to the three-dimensional incompressible Navier--Stokes and Euler equations.…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Can Strain or Anion Interchange Make an Unstable Structure Stable? Energetics, Lattice Dynamics and Strain-Tunable Band Gaps of Lithium Chalcohalide Antiperovskites (Li$_{3}$$BA$) and their Anion Interchange Variants (Li$_{3}$$AB$)",
-      "url": "https://arxiv.org/abs/2608.23815",
-      "summary": "arXiv:2608.23815v1 Announce Type: cross Abstract: Lithium chalcohalide antiperovskites are a promising, non-toxic alternative to lead halide perovskites, with potential as solid electrolytes for Li-ion batteries. we comp…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum encoding of structured light into in-plane topological spin textures",
-      "url": "https://arxiv.org/abs/2608.23856",
-      "summary": "arXiv:2608.23856v1 Announce Type: cross Abstract: Structured light offers a powerful means of controlling light-matter interactions through multiple tunable optical degrees of freedom. Using micromagnetic simulations, we…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Evolving Cosmic Shoreline and Sandbar Bounding the Rocky Airless Valley",
-      "url": "https://arxiv.org/abs/2608.23912",
-      "summary": "arXiv:2608.23912v1 Announce Type: cross Abstract: Recent JWST observations challenge the traditional 'cosmic shoreline' from both sides, revealing thick volatile atmospheres on the hottest close-in 'lava worlds,' where i…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Treatment of Non-Linearity in Quantum Computational Fluid Dynamics Using Hybrid Tensor Networks",
-      "url": "https://arxiv.org/abs/2608.24150",
-      "summary": "arXiv:2608.24150v1 Announce Type: cross Abstract: Nonlinear terms present a fundamental challenge for quantum computational fluid dynamics, as their implementation on inherently linear quantum hardware typically requires…",
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z"
     }
