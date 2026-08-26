@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-26T13:57:13.743Z",
+  "updated": "2026-08-26T14:51:35.027Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Key data on a new class of cardio drugs are coming",
+      "url": "https://www.statnews.com/2026/08/26/biotech-news-key-data-on-new-class-of-cardio-drugs-coming/?utm_campaign=rss",
+      "summary": "GSK's shingles vaccine, new financial investment in women's health, and more biotech news from The Readout",
+      "ts": 1787754771000,
+      "publishedAt": "2026-08-26T14:32:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
+      "summary": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station o…",
+      "ts": 1787753789000,
+      "publishedAt": "2026-08-26T14:16:29.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Centrix and University of Sussex Collaborate to Drive Data-Driven Pharma Development",
+      "url": "https://www.genengnews.com/topics/drug-discovery/centrix-and-university-of-sussex-collaborate-to-drive-data-driven-pharma-development/",
+      "summary": "The KTP provides access to academic expertise while embedding that capability within Centrix’s business. This project represents an opportunity to apply advanced data science techniques to a real-world pharmaceutical dev…",
+      "ts": 1787752704000,
+      "publishedAt": "2026-08-26T13:58:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
+      "url": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests/",
+      "summary": "EDITOR’S NOTE: This story, originally published in December, was revised Aug. 26, 2026 with an update on a new phase of testing, including video from a recent test run and new images. To help NASA and commercial partners…",
+      "ts": 1787752684000,
+      "publishedAt": "2026-08-26T13:58:04.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: AI biotech Insitro’s Daphne Koller on how to speed up clinical trials",
@@ -10,6 +46,15 @@
       "ts": 1787752000000,
       "publishedAt": "2026-08-26T13:46:40.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Contractor to Civil Servant: NASA Welcomes Jeret Howard",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard/",
+      "summary": "At 17, Jeret Howard raised his right hand to serve his country as a United States Army combat medic in Iraq. This past summer, he raised his right hand again at NASA’s Stennis Space Center near Bay St. Louis, Mississippi…",
+      "ts": 1787751148000,
+      "publishedAt": "2026-08-26T13:32:28.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -37,6 +82,15 @@
       "ts": 1787746200000,
       "publishedAt": "2026-08-26T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Rising tensions in Gaza, West Bank",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
+      "summary": "Amid illegal Israeli settlement surges, continued attacks in Gaza and the West Bank alongside tensions throughout Occupied Palestinian Territory, the Security Council is meeting at 10am (local time) on Wednesday to hear …",
+      "ts": 1787745600000,
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "ESA",
@@ -757,60 +811,6 @@
       "ts": 1787659200000,
       "publishedAt": "2026-08-25T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Land degradation is costing far more than restoring: UN deputy chief",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168198",
-      "summary": "Countries are spending too little to restore degraded land even as the economic cost of doing nothing climbs towards $1 trillion a year, UN Deputy Secretary-General Amina Mohammed warned at a major UN land conference in …",
-      "ts": 1787659200000,
-      "publishedAt": "2026-08-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Japan’s ‘2050 Weather Forecast’ highlights extreme heat in the future",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168197",
-      "summary": "As extreme heat becomes an increasingly visible reality across Japan, meteorologists, scientists, businesses and professional footballers are joining forces to encourage stronger climate action and raise awareness of the…",
-      "ts": 1787659200000,
-      "publishedAt": "2026-08-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN chief, Red Cross renew call for rules on lethal autonomous weapons",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168196",
-      "summary": "Amid unconfirmed reports that fully autonomous and AI-guided drones are now being used on the battlefield, UN chief António Guterres and the President of the Red Cross on Tuesday renewed their urgent call for stricter gl…",
-      "ts": 1787659200000,
-      "publishedAt": "2026-08-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Welcome to the spiderverse, a world measured through webs",
-      "url": "https://www.technologyreview.com/2026/08/25/1141750/welcome-to-spiderverse-arachnid-webs/",
-      "summary": "Counting the creatures in the world around us is critical for a raft of conservation efforts. It helps scientists gauge biodiversity, track migration, and spot invasive species. That census-taking, though, often requires…",
-      "ts": 1787648400000,
-      "publishedAt": "2026-08-25T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-      "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodi…",
-      "ts": 1787648400000,
-      "publishedAt": "2026-08-25T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Comments on OMB research rule mysteriously removed from federal website",
-      "url": "https://www.statnews.com/2026/08/25/russell-vought-omb-funding-comments-daughter-benefited-nih-research/?utm_campaign=rss",
-      "summary": "Some comments on a proposed OMB research rule have been mysteriously removed from a public-facing government webpage.",
-      "ts": 1787646600000,
-      "publishedAt": "2026-08-25T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-26T13:57:10.713Z",
+  "updated": "2026-08-26T14:51:31.604Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI robot trains teachers to handle heated issues",
+      "url": "https://phys.org/news/2026-08-ai-robot-teachers-issues.html",
+      "summary": "Researchers at La Trobe University are using a robot driven by artificial intelligence (AI) to better prepare teachers to deal with challenging conversations in schools.",
+      "ts": 1787755209000,
+      "publishedAt": "2026-08-26T14:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "High magnetic fields revive superconductivity in nickelates",
+      "url": "https://phys.org/news/2026-08-high-magnetic-fields-revive-superconductivity.html",
+      "summary": "Scientists from the National University of Singapore (NUS), in collaboration with Los Alamos National Laboratory in the United States, have uncovered that a class of nickel-based materials known as samarium (Sm)-based in…",
+      "ts": 1787755204000,
+      "publishedAt": "2026-08-26T14:40:04.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "In Hilbert Space, All Things Are Quantumly Possible",
+      "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+      "summary": "To explore quantum phenomena, we must leave the familiar world and enter the abstract realm of Hilbert space. The post In Hilbert Space, All Things Are Quantumly Possible first appeared on Quanta Magazine",
+      "ts": 1787754635000,
+      "publishedAt": "2026-08-26T14:30:35.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Comet 220P McNaught puts on an encore performance",
+      "url": "https://phys.org/news/2026-08-comet-220p-mcnaught-encore.html",
+      "summary": "It has been a busy month for astronomy. In the midst of an eclipse season bookended by the total solar eclipse on Aug. 12 and the deep partial lunar eclipse coming up this week on Aug. 28, an outbound comet hanging high …",
+      "ts": 1787754011000,
+      "publishedAt": "2026-08-26T14:20:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "LLM-based platform for generating new materials synthesis recipes dramatically cuts trial and error",
+      "url": "https://phys.org/news/2026-08-llm-based-platform-generating-materials.html",
+      "summary": "A research team led by Professor Sung Beom Cho of the School of Advanced Materials Science and Engineering at Sungkyunkwan University (SKKU), in collaboration with the teams of Professors Jin Sung Park and Hyunsouk Cho o…",
+      "ts": 1787754001000,
+      "publishedAt": "2026-08-26T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Too hot to incubate: Nile crocodiles hatch on their own in French reserve",
+      "url": "https://phys.org/news/2026-08-hot-incubate-nile-crocodiles-hatch.html",
+      "summary": "France's heat waves have produced an unusual outcome at a wildlife park, where 10 Nile crocodiles hatched without human assistance for the first time, the director of the reserve said Wednesday.",
+      "ts": 1787753401000,
+      "publishedAt": "2026-08-26T14:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parents are increasingly abusive toward teachers and principals. How can schools respond?",
+      "url": "https://phys.org/news/2026-08-parents-abusive-teachers-principals-schools.html",
+      "summary": "Some private schools have begun asking parents to sign a code of conduct to try to stop abusive behavior toward teachers.",
+      "ts": 1787752807000,
+      "publishedAt": "2026-08-26T14:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A field guide for the Wild West of AI-assisted environmental science",
+      "url": "https://phys.org/news/2026-08-field-wild-west-ai-environmental.html",
+      "summary": "Researchers at UC Santa Barbara's National Center for Ecological Analysis and Synthesis (NCEAS) are blazing a trail through the Wild West of AI-assisted science, with a field guide aimed at environmental data scientists.",
+      "ts": 1787752805000,
+      "publishedAt": "2026-08-26T14:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Dogs may use blinking as a subtle social signal",
@@ -735,70 +799,6 @@
       "title": "Ice melting in an oscillatory flow",
       "url": "https://arxiv.org/abs/2608.24875",
       "summary": "arXiv:2608.24875v1 Announce Type: new Abstract: We investigate the melting dynamics of an ice disk subjected to an external oscillatory flow using two-dimensional direct numerical simulations, in the absence of buoyancy,…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elements of Topology, Differential Geometry and General Relativity for Physicists: A Mathematica-based Tutorial Approach",
-      "url": "https://arxiv.org/abs/2608.23266",
-      "summary": "arXiv:2608.23266v1 Announce Type: cross Abstract: This book is a self-contained, tutorial introduction to topology, differential geometry, and general relativity for students and researchers in physics. Its distinguishin…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning",
-      "url": "https://arxiv.org/abs/2608.23571",
-      "summary": "arXiv:2608.23571v1 Announce Type: cross Abstract: Equivariant message-passing networks are the standard model for molecular property and interatomic-potential prediction, and recent work predicts the electronic Hamiltoni…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Spin-Position Coupled Rydberg Interactions",
-      "url": "https://arxiv.org/abs/2608.23694",
-      "summary": "arXiv:2608.23694v1 Announce Type: cross Abstract: Strong interactions between $s$-orbital Rydberg atoms underpin atom-array-based quantum computation and quantum simulation. Typically, the spin dependence of these intera…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of electron spin interactions between Rydberg atoms",
-      "url": "https://arxiv.org/abs/2608.23711",
-      "summary": "arXiv:2608.23711v1 Announce Type: cross Abstract: We report the observation of electron spin interactions between Rydberg atoms, which are driven by spin-orbit coupling through second-order dipole perturbation and exhibi…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GravDyn: A Python Framework for Gravitational Modeling of Irregular Celestial Bodies Using Polyhedral, mascon, and Series Expansion Methods",
-      "url": "https://arxiv.org/abs/2608.23717",
-      "summary": "arXiv:2608.23717v1 Announce Type: cross Abstract: GravDyn is an open-source Python package for computing gravitational potentials and accelerations around irregular celestial bodies. It implements three approaches within…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sustained macroscopic quantum coherence in a superradiant solid under ambient conditions",
-      "url": "https://arxiv.org/abs/2608.23748",
-      "summary": "arXiv:2608.23748v1 Announce Type: cross Abstract: Macroscopic quantum coherence, such as in laser, Bose-Einstein condensates, superfluids, and superconductors, is important to fundamental physics and useful for quantum t…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy Production Bounds the Accuracy of Computation in Markov Networks",
-      "url": "https://arxiv.org/abs/2608.23764",
-      "summary": "arXiv:2608.23764v1 Announce Type: cross Abstract: Biological and artificial networks compute by transforming time-dependent inputs into functional outputs. Because the internal state of a stochastic network relaxes on fi…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chaotic cosmic ray acceleration in nonlinear Alfven waves",
-      "url": "https://arxiv.org/abs/2608.23775",
-      "summary": "arXiv:2608.23775v1 Announce Type: cross Abstract: We demonstrate that motion of a particle in a single coherent linearly polarized (LP) Alfven wave with relative amplitude $\\delta = B_w /B_0 \\gtrsim 0.25 $ becomes chaoti…",
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z"
     }
