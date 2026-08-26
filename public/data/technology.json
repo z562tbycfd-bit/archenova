@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-08-26T14:51:35.027Z",
+  "updated": "2026-08-26T16:19:31.724Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "RTX’s Blue Canyon Technologies introduces new spacecraft mission enabler",
+      "url": "https://spacenews.com/rtxs-blue-canyon-technologies-introduces-new-spacecraft-mission-enabler/",
+      "summary": "LAFAYETTE, Colo. (August 26, 2026) — Small satellite manufacturer and mission services provider Blue Canyon Technologies, part of RTX’s (NYSE: RTX) Raytheon business, has unveiled its latest spacecraft subsystem, the […]…",
+      "ts": 1787760777000,
+      "publishedAt": "2026-08-26T16:12:57.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Cytometry Technique for Characterizing Viral Vectors",
+      "url": "https://www.genengnews.com/topics/bioprocessing/new-cytometry-technique-for-characterizing-viral-vectors/",
+      "summary": "Kite Pharma has developed a flow virometry technique to analyze single lentiviral particles, which they hope will improve product consistency by characterizing viral vector size and surface features. The post New Cytomet…",
+      "ts": 1787760033000,
+      "publishedAt": "2026-08-26T16:00:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Extracellular Secretion System Could Solve Industry Endonuclease Production Challenges",
+      "url": "https://www.genengnews.com/topics/bioprocessing/extracellular-secretion-system-could-solve-industry-endonuclease-production-challenges/",
+      "summary": "A new extracellular secretion system could help biopharmaceutical manufacturers bypass the problems that make traditional Escherichia coli-based recombinant endonuclease production a major challenge, according to the aut…",
+      "ts": 1787760015000,
+      "publishedAt": "2026-08-26T16:00:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Affordable Bioreactor Helps Prep Students for Biomanufacturing Careers",
+      "url": "https://www.genengnews.com/topics/bioprocessing/affordable-bioreactor-helps-prep-students-for-biomanufacturing-careers/",
+      "summary": "A bioreactor designed to test biosensors that measure multiple parameters in real time is being developed as a simple, budget-friendly bioreactor for high schools and colleges to help prepare the biomanufacturing workfor…",
+      "ts": 1787760005000,
+      "publishedAt": "2026-08-26T16:00:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Sterilization Posits Biomanufacturing Next Scaling Challenge",
+      "url": "https://www.genengnews.com/topics/bioprocessing/rethinking-sterilization-could-unlock-biomanufacturing-scale/",
+      "summary": "Steam sterilization has underpinned biomanufacturing for decades, but its infrastructure burden is increasingly difficult to ignore. Alternative technologies could reduce capital costs, accelerate plant construction, and…",
+      "ts": 1787760004000,
+      "publishedAt": "2026-08-26T16:00:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "On the fence about a statin? In borderline cases, calcium scans could be a tiebreaker",
+      "url": "https://www.statnews.com/2026/08/26/cac-scans-statin-use-prevent-calculator-heart-disease-risk/?utm_campaign=rss",
+      "summary": "The increasingly popular coronary artery calcium scan is helpful in guiding statin use in only a small share of cases, new studies find.",
+      "ts": 1787756400000,
+      "publishedAt": "2026-08-26T15:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves new pancreatic cancer drug expected to usher in new era of treatment",
+      "url": "https://www.statnews.com/2026/08/26/pancreatic-cancer-drug-rasonque-approved/?utm_campaign=rss",
+      "summary": "The FDA has approved a life-extending treatment for advanced pancreatic cancer — the first such therapy to attack a genetic cause of the highly lethal malignancy.",
+      "ts": 1787756173000,
+      "publishedAt": "2026-08-26T14:56:13.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Key data on a new class of cardio drugs are coming",
@@ -10,6 +73,15 @@
       "ts": 1787754771000,
       "publishedAt": "2026-08-26T14:32:51.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The threat environment and processing at the edge",
+      "url": "https://spacenews.com/the-threat-environment-and-processing-at-the-edge/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss interviews FrontGrade CTO Lorne Graves. They discuss how processing power on spacecraft is adapting to the rise of megaconstellations, what benefits satellite processing power […] T…",
+      "ts": 1787754580000,
+      "publishedAt": "2026-08-26T14:29:40.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -73,6 +145,15 @@
       "ts": 1787749765000,
       "publishedAt": "2026-08-26T13:09:25.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Joint Statement - ATLAS Ministerial Launch Event",
+      "url": "http://www.iaea.org/newscenter/pressreleases/joint-statement-atlas-ministerial-launch-event",
+      "summary": "",
+      "ts": 1787747066000,
+      "publishedAt": "2026-08-26T12:24:26.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -199,6 +280,15 @@
       "ts": 1787727660000,
       "publishedAt": "2026-08-26T07:01:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-launches-atlas-as-countries-explore-nuclear-power-for-shipping-and-offshore-energy",
+      "summary": "",
+      "ts": 1787722235000,
+      "publishedAt": "2026-08-26T05:30:35.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -721,96 +811,6 @@
       "ts": 1787665430000,
       "publishedAt": "2026-08-25T13:43:50.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about RFK Jr. vaccine disclosures, a Merck loss over Medicare prices, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/25/rfk-vaccine-disclosure-merck-court-loss-over-medicare/?utm_campaign=rss",
-      "summary": "Democratic senators said RFK Jr.'s recent explanation of how he disposed of a financial stake in Gardasil litigation conflicts with his earlier answers",
-      "ts": 1787664202000,
-      "publishedAt": "2026-08-25T13:23:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Pioneering Study of Alpha-Gal Syndrome Launched at Martha’s Vineyard Hospital",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/pioneering-study-of-alpha-gal-syndrome-launched-at-marthas-vineyard-hospital/",
-      "summary": "Martha’s Vineyard Hospital launches a two-year study tracking up to 300 residents to understand who develops alpha-gal syndrome after lone star tick exposure and why. The post Pioneering Study of Alpha-Gal Syndrome Launc…",
-      "ts": 1787662839000,
-      "publishedAt": "2026-08-25T13:00:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
-      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
-      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
-      "ts": 1787662800000,
-      "publishedAt": "2026-08-25T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
-      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
-      "ts": 1787662800000,
-      "publishedAt": "2026-08-25T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
-      "url": "https://www.technologyreview.com/2026/08/25/1142909/the-download-smarter-ai-in-schools-robot-carnival-shanghai/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How to encourage smarter AI use in the classroom Chatbots took schools by surprise…",
-      "ts": 1787659800000,
-      "publishedAt": "2026-08-25T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "CDC releases latest life expectancy data",
-      "url": "https://www.statnews.com/2026/08/25/health-news-cdc-releases-latest-life-expectancy-data/?utm_campaign=rss",
-      "summary": "Deleted public comments on White House proposals, how Trump cuts are reshaping rural health care, and more Morning Rounds news",
-      "ts": 1787659482000,
-      "publishedAt": "2026-08-25T12:04:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Haiti ramps up the fight against gangs in the capital, but violence spreads elsewhere",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168203",
-      "summary": "The killings in Kenscoff began late Sunday, when armed men descended on the farming community in the hills overlooking Haiti’s capital, setting homes ablaze and attacking residents. By Monday, bodies lay in the streets a…",
-      "ts": 1787659200000,
-      "publishedAt": "2026-08-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "One million children in Afghanistan face deadly malnutrition",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168202",
-      "summary": "Some 3.7 million children in Afghanistan are suffering from wasting, one of the most dangerous forms of malnutrition, with around one million currently battling the most severe, life-threatening form of the condition.",
-      "ts": 1787659200000,
-      "publishedAt": "2026-08-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "As wars spread, the global food system unravels",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168201",
-      "summary": "A family with four children abandoned its farm in Somalia after armed groups arrived and demanded payments for the right to continue cultivating the land. They walked roughly 100 kilometers to a displacement camp. One of…",
-      "ts": 1787659200000,
-      "publishedAt": "2026-08-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Rohingyas in Myanmar suffering ‘heartbreaking’ misery and cruelty",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168200",
-      "summary": "Members of the minority ethnic Rohingya Muslim group in Myanmar are “suffering, misery, and cruelty on multiple levels and across the country that is heartbreaking,” according to the UN High Commissioner for Human Rights…",
-      "ts": 1787659200000,
-      "publishedAt": "2026-08-25T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
