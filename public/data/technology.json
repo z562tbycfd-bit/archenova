@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-26T19:04:47.665Z",
+  "updated": "2026-08-26T22:51:49.296Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "summary": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory,…",
+      "ts": 1787778330000,
+      "publishedAt": "2026-08-26T21:05:30.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Ancient Peptides Resurrected from Lactoferrin’s Evolutionary Past Could Point to New Antibiotics",
+      "url": "https://www.genengnews.com/topics/drug-discovery/ancient-peptides-resurrected-from-lactoferrins-evolutionary-past-could-point-to-new-antibiotics/",
+      "summary": "Scientists working their way back through millions of years of the evolutionary past of mammalian lactoferrin reconstructed extinct peptides, some of which in laboratory were more potent against drug-resistant bacteria t…",
+      "ts": 1787772877000,
+      "publishedAt": "2026-08-26T19:34:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Building Foresight for Earth Science, featuring Lindsey Jacobson",
+      "url": "https://www.nasa.gov/earth/earth-visualization-mapping/building-foresight-for-earth-science-featuring-lindsey-jacobson/",
+      "summary": "NASA’s Earth-observing satellite missions track dozens of features of a changing planet — aerosols, sea levels, land cover, cloud cover — over years and decades. Sustaining that record for the scientific and operational …",
+      "ts": 1787771655000,
+      "publishedAt": "2026-08-26T19:14:15.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a gro…",
+      "ts": 1787770800000,
+      "publishedAt": "2026-08-26T19:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Roman Space Telescope Travels to SpaceX Hangar",
+      "url": "https://www.nasa.gov/image-article/roman-space-telescope-travels-to-spacex-hangar/",
+      "summary": "NASA’s Nancy Grace Roman Space Telescope, encapsulated in its payload fairing, travels from the Payload Hazardous Servicing Facility to the SpaceX hangar at Launch Complex 39A at NASA’s Kennedy Space Center on Tuesday, A…",
+      "ts": 1787769619000,
+      "publishedAt": "2026-08-26T18:40:19.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Kennedy posts vaccine misinformation, spars on social media amid measles deaths",
@@ -571,6 +616,15 @@
     },
     {
       "source": "OpenAI",
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "ts": 1787702400000,
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
       "title": "How loveholidays is making everyone a builder with Codex",
       "url": "https://openai.com/index/loveholidays",
       "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
@@ -757,60 +811,6 @@
       "ts": 1787674429000,
       "publishedAt": "2026-08-25T16:13:49.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Pennsylvania reports first 2 measles deaths in the U.S. this year, both people unvaccinated",
-      "url": "https://www.statnews.com/2026/08/25/two-measles-deaths-reported-pennsylvania-residents-not-vaccinated/?utm_campaign=rss",
-      "summary": "Two unvaccinated Pennsylvania residents have died from measles, state health officials said Tuesday, the first measles-related deaths in the U.S. this year.",
-      "ts": 1787673744000,
-      "publishedAt": "2026-08-25T16:02:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Expanded Synthetic Promoter Library Introduced to Boost Biomanufacturing Operations",
-      "url": "https://www.genengnews.com/topics/bioprocessing/expanded-synthetic-promoter-library-introduced-to-boost-biomanufacturing-operations/",
-      "summary": "Developed de novo using the company’s proprietary transcriptional analysis and sequence engineering platform, SynGenSys’ CHO.SET synthetic promoters combine advanced computational design with empirical validation. The po…",
-      "ts": 1787672129000,
-      "publishedAt": "2026-08-25T15:35:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
-      "summary": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark a…",
-      "ts": 1787671848000,
-      "publishedAt": "2026-08-25T15:30:48.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Neural Mechanism Identified That Drives Increased Alcohol Use in Isolated Male Mice",
-      "url": "https://www.genengnews.com/topics/translational-medicine/neural-mechanism-identified-that-drives-increased-alcohol-use-in-isolated-male-mice/",
-      "summary": "A study in mice has found that loneliness can reprogram the brain in ways that promote alcohol consumption, and identified a neural mechanism through which isolation escalates alcohol use in male mice, but suppresses it …",
-      "ts": 1787671391000,
-      "publishedAt": "2026-08-25T15:23:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Astronauts Anil Menon and Sophie Adenot on Spacewalk",
-      "url": "https://www.nasa.gov/image-article/astronauts-anil-menon-and-sophie-adenot-on-spacewalk/",
-      "summary": "From left, Expedition 75 flight engineers Anil Menon of NASA (partially obscured and wearing the spacesuit with a red stripe on the legs) and Sophie Adenot of ESA (European Space Agency) work together during a six‑hour a…",
-      "ts": 1787669846000,
-      "publishedAt": "2026-08-25T14:57:26.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: How Trump’s funding cuts are reshaping the health system",
-      "url": "https://www.statnews.com/2026/08/25/how-trumps-funding-cuts-are-reshaping-the-health-system/?utm_campaign=rss",
-      "summary": "STAT examines Republicans’ health care funding cuts, mRNA science defeats politics, and Medicaid tries out a new way to deny drug coverage.",
-      "ts": 1787669488000,
-      "publishedAt": "2026-08-25T14:51:28.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
