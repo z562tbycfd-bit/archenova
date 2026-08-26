@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-26T09:43:46.665Z",
+  "updated": "2026-08-26T10:37:25.115Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -327,6 +327,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "ts": 1787702400000,
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NASA",
       "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
       "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
@@ -624,19 +633,19 @@
       "categoryId": "bio"
     },
     {
-      "source": "SpaceNews",
-      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
-      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
-      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
+      "source": "NASA",
+      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
+      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Integrating Model-Based Systems Engineering and Fault Management to Enable Autonomous Space Missions",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/integrating-model-based-systems-engineering-and-fault-management-to-enable-autonomous-space-missions/",
-      "summary": "Fully autonomous space mission operations require the ability to detect faults and compensate for them without human intervention. To address this challenge and provide model-based support for system design and operation…",
+      "source": "SpaceNews",
+      "title": "Tendeg Launches NewTEN Steerable Compact Antenna at SmallSat",
+      "url": "https://spacenews.com/tendeg-launches-newten-steerable-compact-antenna-at-smallsat/",
+      "summary": "SALT LAKE CITY – Aug. 25, 2026 – Tendeg has released NewTEN, a two-axis steerable reflector antenna that expands communications performance and pointing access for small spacecraft. Unveiled Monday, Aug. […] The post Ten…",
       "ts": 1787662800000,
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "categoryId": "space"
@@ -801,15 +810,6 @@
       "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
       "ts": 1787641500000,
       "publishedAt": "2026-08-25T07:05:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "ts": 1787641200000,
-      "publishedAt": "2026-08-25T07:00:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
