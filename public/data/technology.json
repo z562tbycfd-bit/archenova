@@ -1,7 +1,205 @@
 {
   "ok": true,
-  "updated": "2026-08-27T04:22:50.561Z",
+  "updated": "2026-08-27T16:12:23.040Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Hospitals plot their response to funding cuts",
+      "url": "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/?utm_campaign=rss",
+      "summary": "Hospital prep a lobbying push, RFK Jr. faces more bad news on measles, and the cancer drug that helped Ben Sasse gets approved.",
+      "ts": 1787844410000,
+      "publishedAt": "2026-08-27T15:26:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Jonny Kim Departs Agency to Continue Military Service",
+      "url": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service/",
+      "summary": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutena…",
+      "ts": 1787843424000,
+      "publishedAt": "2026-08-27T15:10:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "What’s in Merck and Moderna’s cancer vaccine algorithm?",
+      "url": "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/?utm_campaign=rss",
+      "summary": "A heart drug failure, RevMed's pancreatic cancer drug approved, and more biotech news from The Readout",
+      "ts": 1787842161000,
+      "publishedAt": "2026-08-27T14:49:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a pancreatic cancer drug approval, a Trump deal with biotechs, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/?utm_campaign=rss",
+      "summary": "The FDA approved a life-extending treatment for advanced pancreatic cancer from Revolution Medicines that is the first to attack a genetic cause",
+      "ts": 1787836827000,
+      "publishedAt": "2026-08-27T13:20:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "RFK Jr. said a Samoa trip had nothing to do with vaccines. New documents refute that",
+      "url": "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/?utm_campaign=rss",
+      "summary": "Health secretary Robert F. Kennedy Jr. said a Samoa trip had nothing to do with vaccines. New documents obtained by The Associated Press and The Guardian refute that testimony.",
+      "ts": 1787836598000,
+      "publishedAt": "2026-08-27T13:16:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Decoding DEA action on kratom-related substances",
+      "url": "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/?utm_campaign=rss",
+      "summary": "RFK Jr. downplays measles threat, FDA approves pancreatic drug, and more health news from Morning Rounds",
+      "ts": 1787835666000,
+      "publishedAt": "2026-08-27T13:01:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
+      "summary": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new ways to play, more supported devices and platforms, and even more big PC games headed to the cloud. New NVIDIA DLSS 4.5 technology contr…",
+      "ts": 1787835633000,
+      "publishedAt": "2026-08-27T13:00:33.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "summary": "NVIDIA Vice President of Hyperscale and HPC Ian Buck hand-delivers Vera CPU systems across the AI ecosystem as Vera begins shipping at scale.",
+      "ts": 1787835617000,
+      "publishedAt": "2026-08-27T13:00:17.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cassidy criticizes FDA oversight of abortion pill manufacturers in new report",
+      "url": "https://www.statnews.com/2026/08/27/bill-cassidy-louisiana-senator-new-report-mifepristone-heidi-overton/?utm_campaign=rss",
+      "summary": "The report raises a high-profile issue for Heidi Overton as she faces confirmation as FDA commissioner.",
+      "ts": 1787835600000,
+      "publishedAt": "2026-08-27T13:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
+      "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible f…",
+      "ts": 1787832600000,
+      "publishedAt": "2026-08-27T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Alnylam’s heart drug troubles take center stage at a cardiology conference",
+      "url": "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/?utm_campaign=rss",
+      "summary": "The European Society of Cardiology Congress that kicks off Friday in Munich will be a consequential meeting for Alnylam Pharmaceuticals.",
+      "ts": 1787826600000,
+      "publishedAt": "2026-08-27T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Is Slate Auto’s new electric truck the EV Americans need?",
+      "url": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
+      "summary": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source o…",
+      "ts": 1787824800000,
+      "publishedAt": "2026-08-27T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The mystery of Moderna’s magic algorithm",
+      "url": "https://www.statnews.com/2026/08/27/moderna-merck-cancer-vaccine-secret-ingredient-an-algorithm/?utm_campaign=rss",
+      "summary": "A personalized cancer vaccine developed by Moderna and Merck may be a triumph of immunology and cancer biology. It might also be the triumph of an algorithm.",
+      "ts": 1787819400000,
+      "publishedAt": "2026-08-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "A state gave sheriffs 20% of its opioid settlement cash. We followed the money",
+      "url": "https://www.statnews.com/2026/08/27/opioid-settlement-funds-enforcement-or-treatment-louisiana-sheriff-investigation/?utm_campaign=rss",
+      "summary": "KFF Health News examines how sheriffs are spending opioid settlement money, finds they're spending millions on police gear.",
+      "ts": 1787819400000,
+      "publishedAt": "2026-08-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Hospitals are plotting a long-shot push to roll back $1 trillion in Medicaid cuts",
+      "url": "https://www.statnews.com/2026/08/27/hospitals-lobby-reverse-medicaid-cuts-part-2-unraveled-series/?utm_campaign=rss",
+      "summary": "Inside health systems' efforts to mitigate massive funding cuts.",
+      "ts": 1787819400000,
+      "publishedAt": "2026-08-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: A bill is supposed to protect U.S. biotech from Chinese competition. But there’s a loophole",
+      "url": "https://www.statnews.com/2026/08/27/binsa-biotech-china-eurowashing-geography-clinical-trials/?utm_campaign=rss",
+      "summary": "“Biotech industry leaders must forge a new geographic path before heavy-handed legislation forces the issue,” write executives at Optimapharm.",
+      "ts": 1787819400000,
+      "publishedAt": "2026-08-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I studied Reddit forums on menopause — and found what doctors are missing",
+      "url": "https://www.statnews.com/2026/08/27/menopause-perimenopause-symptoms-reddit-clinical-data-study/?utm_campaign=rss",
+      "summary": "“The menopause symptoms women are discussing online should become the questions researchers ask next,” writes researcher Yulin Hswen.",
+      "ts": 1787819400000,
+      "publishedAt": "2026-08-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Expedition Sound podcast series",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
+      "summary": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavá…",
+      "ts": 1787815800000,
+      "publishedAt": "2026-08-27T07:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "First contracts kick off European Launcher Challenge",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/First_contracts_kick_off_European_Launcher_Challenge",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/06/european_launcher_challenge_visual/26128354-4-eng-GB/European_Launcher_Challenge_visual_card_full.png\" alt=\"European Launcher Challenge v…",
+      "ts": 1787815020000,
+      "publishedAt": "2026-08-27T07:17:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "MTG-I2 ready for launch on Ariane 6",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_ready_for_launch_on_Ariane_6",
+      "summary": "The Meteosat Third Generation Imager2 satellite (MTG-I2) has been encapsulated inside the Ariane 6 fairing and is in place on its launch pad. It is scheduled to lift off on Thursday evening, 27 August, from Europe’s Spac…",
+      "ts": 1787814000000,
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 27 – Colorful Aurora over an Icelandic Waterfall",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-27-colorful-aurora-over-an-icelandic-waterfall/",
+      "summary": "APOD Science APOD APOD: 2026 August 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
+      "ts": 1787803500000,
+      "publishedAt": "2026-08-27T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Rare, Widespread Snow in the Atacama Desert",
+      "url": "https://science.nasa.gov/earth/earth-observatory/rare-widespread-snow-in-the-atacama-desert/",
+      "summary": "Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast.",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Real-time closed-loop protocol to assess neural variability in temporal coding",
@@ -253,6 +451,15 @@
       "ts": 1787803200000,
       "publishedAt": "2026-08-27T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "ts": 1787799600000,
+      "publishedAt": "2026-08-27T03:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -603,213 +810,6 @@
       "summary": "Women's health experts suggest a 'reverse pitch' approach to endometriosis, osteoporosis, and autoimmune treatments, stressing the profit potential.",
       "ts": 1787733000000,
       "publishedAt": "2026-08-26T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Many post-Dobbs abortion fears have not come to pass. What does that mean for advocates?",
-      "url": "https://www.statnews.com/2026/08/26/dobbs-abortion-predictions-infant-mortality-data-freedom/?utm_campaign=rss",
-      "summary": "Opposition to abortion restrictions should focus on values, not statistics, writes David N. Hackney, author of “Impossible Choices.”",
-      "ts": 1787733000000,
-      "publishedAt": "2026-08-26T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Medical aid in dying and the burden of choosing to live",
-      "url": "https://www.statnews.com/2026/08/26/medical-aid-in-dying-new-york-choice-burden-philosophy-ethics/?utm_campaign=rss",
-      "summary": "“Once medical aid in dying becomes available, the status quo changes,” writes Monika Piotrowska.",
-      "ts": 1787733000000,
-      "publishedAt": "2026-08-26T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
-      "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
-      "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates…",
-      "ts": 1787727660000,
-      "publishedAt": "2026-08-26T07:01:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-launches-atlas-as-countries-explore-nuclear-power-for-shipping-and-offshore-energy",
-      "summary": "",
-      "ts": 1787722235000,
-      "publishedAt": "2026-08-26T05:30:35.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 26 – JWST Images The Lion’s Head Nebula",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-26-jwst-images-the-lions-head-nebula/",
-      "summary": "APOD Science APOD APOD: 2026 August 26 – JWST… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1787717100000,
-      "publishedAt": "2026-08-26T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Human-Factors Guided Cognitive Model of Visuospatial Complexity in Embodied Active Vision",
-      "url": "https://arxiv.org/abs/2608.23572",
-      "summary": "arXiv:2608.23572v1 Announce Type: new Abstract: We propose a novel framework for the analysis of multimodal data -- encompassing visual, auditory, and spatial stimuli -- foregrounding the role of complexity in embodied p…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "InfoDPP-PAC: Principled Patch Selection for Whole Slide Image Analysis",
-      "url": "https://arxiv.org/abs/2608.23574",
-      "summary": "arXiv:2608.23574v1 Announce Type: new Abstract: Each WSI slide contains thousands of candidate tissue patches, while supervision is usually available only at slide level. Existing bag-construction strategies like Uniform…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A nonlinear dynamics approach to assess amplitude-frequency coupling in non-invasive human electrogastrography recordings",
-      "url": "https://arxiv.org/abs/2608.23613",
-      "summary": "arXiv:2608.23613v1 Announce Type: new Abstract: Conventional electrogastrography (EGG) analyses summarize gastric slow-wave activity using dominant frequency, power, or phase-based metrics, without explicitly modeling am…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Optimizing RNA yield using deep neural networks coupled to massively parallel screening",
-      "url": "https://arxiv.org/abs/2608.23722",
-      "summary": "arXiv:2608.23722v1 Announce Type: new Abstract: Messenger RNA (mRNA)-based therapeutics have emerged as a powerful platform for vaccines, protein replacement therapies, and cancer immunotherapy. A critical bottleneck in …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Finch: Toxicity Dose Response Curve Prediction of Chemical Compounds and Mixtures",
-      "url": "https://arxiv.org/abs/2608.23821",
-      "summary": "arXiv:2608.23821v1 Announce Type: new Abstract: A holistic approach to chemical mixtures is reshaping risk assessment emphasizing mixture testing over single compounds eliminating animal testing and advancing modeling me…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Global geometry of the genotype-phenotype map illuminates a trade-off between penetrance and mutational adaptability",
-      "url": "https://arxiv.org/abs/2608.24704",
-      "summary": "arXiv:2608.24704v1 Announce Type: new Abstract: Evolution in changing environments requires both reliable expression of the currently favored phenotype, as quantified by penetrance, and the capacity to reach alternative …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Primate vision reveals a missing principle for robust dynamic AI",
-      "url": "https://arxiv.org/abs/2608.23790",
-      "summary": "arXiv:2608.23790v1 Announce Type: cross Abstract: How does an intelligent visual system combine what objects look like with how they move while remaining robust as appearance changes? We addressed this question by compar…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Kernel-Dependent Pattern Formation in a Population Model with Nonlocal Facilitation and Competition",
-      "url": "https://arxiv.org/abs/2608.23964",
-      "summary": "arXiv:2608.23964v1 Announce Type: cross Abstract: Spatial patterns, such as those in dryland vegetation models, have historically been studied in systems of reaction-diffusion systems with pattern onset via a Turing bifu…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying the Biophysical Properties of Red Blood Cells in Gaucher Disease",
-      "url": "https://arxiv.org/abs/2608.24021",
-      "summary": "arXiv:2608.24021v1 Announce Type: cross Abstract: Gaucher disease (GD), the most common lysosomal storage disorder, alters red blood cell (RBC) mechanics and circulation, contributing to vascular occlusions, bone infarct…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beauty is in the ELBO of the Beholder: A Variational Account of Processing Fluency in Face Perception",
-      "url": "https://arxiv.org/abs/2608.24219",
-      "summary": "arXiv:2608.24219v1 Announce Type: cross Abstract: Facial attractiveness has been linked to statistical regularities such as symmetry and averageness, suggesting that beauty may depend on the ease with which a face is per…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Validation of HRV Studio: A Transparent and Quality-Control-Aware Platform for Heart Rate Variability Analysis",
-      "url": "https://arxiv.org/abs/2608.24241",
-      "summary": "arXiv:2608.24241v1 Announce Type: cross Abstract: Reproducibility of heart rate variability (HRV) analysis is limited by differences in preprocessing and computational conventions across software platforms. We developed …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evaluating Deep Multivariate Imputation Models on Wearable Device Data",
-      "url": "https://arxiv.org/abs/2608.24436",
-      "summary": "arXiv:2608.24436v1 Announce Type: cross Abstract: Wearable device data enables continuous health monitoring, but suffers from structured missingness: features sharing a physical sensor drop out together. Deep imputation …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Potential survivable niches for microbial life on the lunar south pole",
-      "url": "https://arxiv.org/abs/2608.24751",
-      "summary": "arXiv:2608.24751v1 Announce Type: cross Abstract: Most lunar surface conditions are incredibly harsh for microbial survival. High ultraviolet radiation, temperatures, and energetic particle radiation limit survival over …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BioKERN: Biological Kernel Regularization for Histology-to-Transcriptomics Neighborhood Retrieval",
-      "url": "https://arxiv.org/abs/2608.24823",
-      "summary": "arXiv:2608.24823v1 Announce Type: cross Abstract: Spatially resolved biology requires representations that preserve biological neighborhood structure rather than only exact cross-modal correspondences. Existing histology…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Inkspot: A stress-resilient, anthocyanin rich, dwarf tomato variant for off-world cultivation",
-      "url": "https://arxiv.org/abs/2505.16890",
-      "summary": "arXiv:2505.16890v4 Announce Type: replace Abstract: As humanity prepares for sustained off-world habitation, the development of regolith-based agriculture (RBA) is essential for achieving self-sufficiency in space crop p…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rule-Based Gillespie Simulation of Chemical Systems",
-      "url": "https://arxiv.org/abs/2509.01504",
-      "summary": "arXiv:2509.01504v3 Announce Type: replace Abstract: The M{\\O}D computational framework implements rule-based generative chemistries as explicit transformations of graphs representing chemical structural formulae. Here, w…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CytoNet: A Foundation Model for the Human Cerebral Cortex at Cellular Resolution",
-      "url": "https://arxiv.org/abs/2511.01870",
-      "summary": "arXiv:2511.01870v3 Announce Type: replace Abstract: Studying the cellular architecture of the human cerebral cortex is essential for understanding how the brain is organized from the micro to the macro level, and how it …",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Data-Driven Modeling of Spatiotemporal Dynamics Using Multimodal Imaging Data",
-      "url": "https://arxiv.org/abs/2511.08847",
-      "summary": "arXiv:2511.08847v2 Announce Type: replace Abstract: Understanding how biological systems evolve across space and time remains a fundamental challenge, particularly when dynamic processes vary substantially across individ…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
