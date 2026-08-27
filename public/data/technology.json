@@ -1,7 +1,268 @@
 {
   "ok": true,
-  "updated": "2026-08-26T22:51:49.296Z",
+  "updated": "2026-08-27T04:22:50.561Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "Real-time closed-loop protocol to assess neural variability in temporal coding",
+      "url": "https://arxiv.org/abs/2608.24895",
+      "summary": "arXiv:2608.24895v1 Announce Type: new Abstract: Understanding temporal coding in neural systems is essential for decoding brain communication and advancing knowledge of neural information processing. Neural activity ofte…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Can extrinsic methods reveal intrinsic structure? Complementing IIT with QStr",
+      "url": "https://arxiv.org/abs/2608.24928",
+      "summary": "arXiv:2608.24928v1 Announce Type: new Abstract: Integrated Information Theory (IIT) proposes that all quality is structure: the quality of every experience can be characterized as a phenomenal structure and accounted for…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Beyond Tokens: Probing Higher-Order Epistasis in Learned Protein Representations",
+      "url": "https://arxiv.org/abs/2608.24953",
+      "summary": "arXiv:2608.24953v1 Announce Type: new Abstract: Protein fitness landscapes contain nonlinear interactions in which mutation effects depend on other residues. We introduce ORBIT, an Order-Resolved Benchmarking of Interact…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Maternal Anxiety During Pregnancy and Predictive Processing Across Development: A Cross-Cohort Empirical Reappraisal",
+      "url": "https://arxiv.org/abs/2608.24983",
+      "summary": "arXiv:2608.24983v1 Announce Type: new Abstract: Prenatal maternal distress has been linked to differences in offspring brain and behavioural development, but is rarely framed computationally. Predictive-processing (PP) a…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Designability of RNA Targets with Up to Two Length-2 Helices",
+      "url": "https://arxiv.org/abs/2608.25194",
+      "summary": "arXiv:2608.25194v1 Announce Type: new Abstract: RNA inverse folding asks for an RNA sequence whose prescribed secondary structure is the unique maximum-base-pair compatible fold. In the four-letter Watson-Crick model (A-…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A meta-algorithm for ab initio reconstruction of complex mixtures in cryo-EM",
+      "url": "https://arxiv.org/abs/2608.25388",
+      "summary": "arXiv:2608.25388v1 Announce Type: new Abstract: We describe a systematic approach for spawning and aggregating multi-class cryo-EM reconstruction jobs. This approach formalizes standard ad hoc strategies of iterative cla…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Tree Buckets and the Reconstruction of Pairs of Phylogenetic Trees",
+      "url": "https://arxiv.org/abs/2608.25446",
+      "summary": "arXiv:2608.25446v1 Announce Type: new Abstract: Phylogenetic trees are used in evolutionary biology to represent the evolutionary history of a collection of taxa. As we have incomplete information about any evolutionary …",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Propensity Straight-Through Gradients for Discrete Stochastic Systems",
+      "url": "https://arxiv.org/abs/2608.25631",
+      "summary": "arXiv:2608.25631v1 Announce Type: new Abstract: Continuous-time Markov chains (CTMCs) provide the backbone for modeling discrete stochastic dynamics across applied, physical, and biological sciences. Their integration wi…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The emergence and evolution of a referential code in populations of bee-like agents",
+      "url": "https://arxiv.org/abs/2608.25779",
+      "summary": "arXiv:2608.25779v1 Announce Type: new Abstract: Communication requires a shared code, and any change to it must be coordinated between senders and receivers to avoid a breakdown of communication. The honeybee waggle danc…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A spinal circuit for collective coordination",
+      "url": "https://arxiv.org/abs/2608.25909",
+      "summary": "arXiv:2608.25909v1 Announce Type: new Abstract: The coordinated movement of animal groups is one of the most widespread social behaviors, which are generally attributed to high-order cognitive processing in the brain. Ye…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "What sets the critical genome length for sympatric speciation? A closed form and asymptotic theory",
+      "url": "https://arxiv.org/abs/2608.25995",
+      "summary": "arXiv:2608.25995v1 Announce Type: new Abstract: In the Derrida--Higgs model of sympatric speciation, a sexually reproducing population with finite binary genomes can mate only when the genetic overlap between two individ…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Evaluating Post-hoc Explanations of the Transformer-based Genome Language Model DNABERT-2",
+      "url": "https://arxiv.org/abs/2604.21690",
+      "summary": "arXiv:2604.21690v1 Announce Type: cross Abstract: Explaining deep neural network predictions on genome sequences enables biological insight and hypothesis generation-often of greater interest than predictive performance …",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Directed walks shape a universal square-root law of entropy production rate in nonreciprocal systems",
+      "url": "https://arxiv.org/abs/2608.25030",
+      "summary": "arXiv:2608.25030v1 Announce Type: cross Abstract: The entropy production rate (EPR) quantifies irreversibility of a nonequilibrium steady state, yet standard formulas obscure how a complex interaction network generates i…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Von-Neumann State-Space Transformer for neural decoding",
+      "url": "https://arxiv.org/abs/2608.25088",
+      "summary": "arXiv:2608.25088v1 Announce Type: cross Abstract: Cortical computation is strikingly low-dimensional: a handful of latent variables, carried in a neural population's activity, steer the higher-dimensional responses of in…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Clustering of anterior corneal surface shapes in normal adults",
+      "url": "https://arxiv.org/abs/2608.25130",
+      "summary": "arXiv:2608.25130v1 Announce Type: cross Abstract: In the present study, we investigated a large dataset of normal adult corneal topographies in an exploratory attempt to identify the natural groupings of their 3D shapes,…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Can You Trust Frozen Hematology Foundation Models under Acquisition Shift?",
+      "url": "https://arxiv.org/abs/2608.25148",
+      "summary": "arXiv:2608.25148v1 Announce Type: cross Abstract: Frozen hematology foundation-model (FM) embeddings reach near-saturated in-domain white-blood-cell (WBC) accuracy, but clinical deployment demands reliability across scan…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Federation Is Nearly Free, Reasoning Is Not: Tradeoffs for AI Co-Scientists in Protein Characterization Workflows",
+      "url": "https://arxiv.org/abs/2608.25215",
+      "summary": "arXiv:2608.25215v1 Announce Type: cross Abstract: Natural language driven autonomous co-scientist workflows involve a fundamental trade-off between flexibility and reasoning at the expense of determinism, reproducibility…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks",
+      "url": "https://arxiv.org/abs/2608.25286",
+      "summary": "arXiv:2608.25286v1 Announce Type: cross Abstract: Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. Yet the ability of AI agents to carry out computational biol…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Interpreting Protein Language Model Embeddings via Orthogonal Projection for Protein Fitness Prediction",
+      "url": "https://arxiv.org/abs/2608.25548",
+      "summary": "arXiv:2608.25548v1 Announce Type: cross Abstract: Recently, there has been a growing adoption of protein language models (PLMs) in biomedical science. Their embeddings provide a rich numerical representation of protein s…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Giant strongly biconnected components of directed networks: a generating function approach",
+      "url": "https://arxiv.org/abs/2608.25562",
+      "summary": "arXiv:2608.25562v1 Announce Type: cross Abstract: Strongly connected components (SCCs) characterize modular structure in directed networks but are fragile to single node failures. We study strongly biconnected components…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "GenAIT: Development and Validation of an Objective Generative AI Literacy Test for High School Students",
+      "url": "https://arxiv.org/abs/2608.25815",
+      "summary": "arXiv:2608.25815v1 Announce Type: cross Abstract: There is growing international interest in generative AI (GenAI) literacy and its assessment among high school students, but objective assessment in this population remai…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "CardioFusion-AI: Robust ECG--PPG Fusion for Multimodal Physiological Monitoring Under Signal Degradation",
+      "url": "https://arxiv.org/abs/2608.26000",
+      "summary": "arXiv:2608.26000v1 Announce Type: cross Abstract: Wearable electrocardiogram (ECG) and photoplethysmogram (PPG) sensors are complementary but individually fragile: motion artifact, poor contact, and sensor dropout can de…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "FBApro: A fast, simple linear transformation for diverse metabolic modeling tasks",
+      "url": "https://arxiv.org/abs/2601.14577",
+      "summary": "arXiv:2601.14577v3 Announce Type: replace Abstract: Constraint-based metabolic modeling is the predominant framework for simulating cellular metabolism. The central assumption of these models is that metabolism operates …",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cardiovascular-Kidney-Metabolic Health: Insights from Wearables and Blood Biomarkers",
+      "url": "https://arxiv.org/abs/2603.27787",
+      "summary": "arXiv:2603.27787v2 Announce Type: replace Abstract: Cardiovascular-Kidney-Metabolic (CKM) syndrome represents a growing public health crisis, yet its subclinical heterogeneity remains underexplored. Early detection of ph…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Smooth $\\%$MinMax: A Differentiable Relaxation for Codon Harmonization",
+      "url": "https://arxiv.org/abs/2607.03881",
+      "summary": "arXiv:2607.03881v2 Announce Type: replace Abstract: Codon harmonization aims to adapt the coding sequences for heterologous expression while preserving the native-like patterns of frequent and rare codons that may influe…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Thermodynamic cost of inference and learning in physical neural networks",
+      "url": "https://arxiv.org/abs/2503.09980",
+      "summary": "arXiv:2503.09980v4 Announce Type: replace-cross Abstract: How much of the energy consumed by artificial neural networks is set by physics rather than by implementation? For irreversible digital hardware the reference is …",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "CMADiff: Cross-Modal Aligned Diffusion for Controllable Protein Generation",
+      "url": "https://arxiv.org/abs/2503.21450",
+      "summary": "arXiv:2503.21450v5 Announce Type: replace-cross Abstract: AI-assisted protein design has emerged as a critical tool for advancing biotechnology, as deep generative models have demonstrated their reliability in this domai…",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Evolutionary chemical learning in dimerization networks",
+      "url": "https://arxiv.org/abs/2506.14006",
+      "summary": "arXiv:2506.14006v2 Announce Type: replace-cross Abstract: We present a framework for chemical learning based on Competitive Dimerization Networks (CDNs) - systems in which multiple molecular species, e.g., proteins, DNA …",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "LatConnect 60 and Phi Earth Partner to Connect Space and Soil",
+      "url": "https://spacenews.com/latconnect-60-and-phi-earth-partner-to-connect-space-and-soil/",
+      "summary": "Nature-based projects are generating more environmental data than ever before. Satellites observe landscapes from orbit, while field teams capture what is happening on the ground. Yet these data sources often […] The pos…",
+      "ts": 1787795659000,
+      "publishedAt": "2026-08-27T01:54:19.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
@@ -550,267 +811,6 @@
       "ts": 1787716800000,
       "publishedAt": "2026-08-26T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Tree rearrangement graphs admit paths of decreasing Robinson-Foulds distance",
-      "url": "https://arxiv.org/abs/2512.21397",
-      "summary": "arXiv:2512.21397v2 Announce Type: replace Abstract: Tree rearrangements such as Nearest Neighbor Interchange (NNI) and Subtree Prune and Regraft (SPR) are commonly used to explore phylogenetic treespace. Computing distan…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Distributed delay stabilizes bistable genetic networks",
-      "url": "https://arxiv.org/abs/2512.21455",
-      "summary": "arXiv:2512.21455v2 Announce Type: replace Abstract: Delay is an inherent feature of genetic regulatory networks. It represents the time required for the assembly of functional regulator proteins. The protein production p…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spatiotemporal noise stabilizes unbounded diversity in strongly-competitive communities",
-      "url": "https://arxiv.org/abs/2602.13423",
-      "summary": "arXiv:2602.13423v2 Announce Type: replace Abstract: Classical ecological models predict that diverse communities should be unstable, presenting a central challenge to explaining the stable biodiversity seen in nature. We…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On Tree-Network Distinguishability and Full Identifiability of Phylogenetic Networks",
-      "url": "https://arxiv.org/abs/2607.12919",
-      "summary": "arXiv:2607.12919v3 Announce Type: replace Abstract: Phylogenetic networks generalize phylogenetic trees to evolutionary histories that include reticulate events such as recombination, horizontal gene transfer, and hybrid…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Estimating Time-Dependent COVID-19 Parameters Using Kolmogorov-Arnold Network and Physics-Informed Neural Network",
-      "url": "https://arxiv.org/abs/2607.15302",
-      "summary": "arXiv:2607.15302v2 Announce Type: replace Abstract: We introduce a novel method for estimating COVID-19 time-varying parameters. These parameters are in the context of an SIRD compartmental differential equations. The ti…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dendritic structure enables powerful plasticity",
-      "url": "https://arxiv.org/abs/2608.23251",
-      "summary": "arXiv:2608.23251v2 Announce Type: replace Abstract: Over the past decades, it has become increasingly clear that the complex morphology of cortical neurons is more than just a quirk of evolution, and that dendritic compa…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Minimal Decision Dynamics and Contextual Probability: A Quantum Tug-of-War Model",
-      "url": "https://arxiv.org/abs/2601.10034",
-      "summary": "arXiv:2601.10034v3 Announce Type: replace-cross Abstract: Decision making often exhibits context dependence that is difficult to accommodate within a single non-invasive classical probability model. This paper develops a…",
-      "ts": 1787716800000,
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "ts": 1787702400000,
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "ts": 1787702400000,
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
-      "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
-      "summary": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system. The network u…",
-      "ts": 1787696914000,
-      "publishedAt": "2026-08-25T22:28:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Addressing a sticking point in sustainable adhesives",
-      "url": "https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/",
-      "summary": "Petroleum-based adhesives are everywhere: bonding the wood and drywall in a construction project, holding together the joints of furniture, and even sticking labels to otherwise recyclable containers. “The labels on a co…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "YouTuber finds niche as college admissions mentor",
-      "url": "https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/",
-      "summary": "As a first-generation student from a small town, Gohar Khan ’21 had to navigate the college admissions process largely on his own. He founded his YouTube channel, Gohar’s Guide, to make things easier for other young peop…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Launching youth entrepreneurship",
-      "url": "https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/",
-      "summary": "Even as a teenager, Laurie Stach ’06 says, she had a “crazy ambition to take on the world and solve problems.” At MIT, she realized she wasn’t the only one. “Adults always see these youth who are good at math and science…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A new stamp on cyberfraud prevention",
-      "url": "https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/",
-      "summary": "For Rupert Young ’95, SM ’95, his career in data science and cybersecurity began when his grandfather gifted him thousands of stamps: He built intricate databases to catalogue them, displaying the “precise eye” for detai…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AgeLab research inspires an A I startup",
-      "url": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/",
-      "summary": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be …",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Amping up T cells to target cancer",
-      "url": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
-      "summary": "Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these vaccines don’t stimulate enough…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Taking your temperature from the inside",
-      "url": "https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/",
-      "summary": "Oral and forehead thermometers may not accurately capture a person’s core body temperature, and the few ingestible temperature sensors on the market are so big they are hard to swallow and risk obstructing the GI tract. …",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Seeing through murky waters",
-      "url": "https://www.technologyreview.com/2026/08/25/1140955/seeing-through-murky-waters/",
-      "summary": "When remotely operated vehicles settle on the seafloor or dig through a sand bed, they can kick up clouds of sediment that onboard cameras struggle to see through. Often, the only thing to do is wait until the dust settl…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Your brain on AI",
-      "url": "https://www.technologyreview.com/2026/08/25/1140958/your-brain-on-ai/",
-      "summary": "Many people find AI-based chatbots helpful in keeping up with news, but a study by Pattie Maes and her colleagues at the MIT Media Lab points to a big problem with this strategy. Participants who evaluated paired news he…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "MIT tech powered the Artemis II livestreams",
-      "url": "https://www.technologyreview.com/2026/08/25/1140961/mit-tech-powered-the-artemis-ii-livestreams/",
-      "summary": "During the original US missions to the moon in the 1960s and ’70s, astronauts relied on radio-­frequency systems to communicate, sending grainy, low-quality images and videos to Earth. But on the Artemis II Orion mission…",
-      "ts": 1787691600000,
-      "publishedAt": "2026-08-25T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sword Health to acquire Headspace, according to filing",
-      "url": "https://www.statnews.com/2026/08/25/sword-health-to-acquire-headspace-per-regulatory-filing/?utm_campaign=rss",
-      "summary": "Sword Health, a digital health company, plans to acquire mental health services provider Headspace, according to a regulatory filing.",
-      "ts": 1787690774000,
-      "publishedAt": "2026-08-25T20:46:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama/",
-      "summary": "NASA will announce the winners of the final phase of its LunaRecycle Challenge on Friday, Aug. 28, at The University of Alabama (UA) Lee Styslinger College of Engineering in Tuscaloosa, Alabama. Launched in 2024, the cha…",
-      "ts": 1787689258000,
-      "publishedAt": "2026-08-25T20:20:58.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Propulsion is having a moment",
-      "url": "https://spacenews.com/propulsion-is-having-a-moment/",
-      "summary": "In this episode, SpaceNews Mike Gruss interviews Kevin Lausten, CEO of Morpheus Space, at the 2026 Small Satellite Conference in Salt Lake City, Utah. They discuss why propulsion is critical […] The post Propulsion is ha…",
-      "ts": 1787687977000,
-      "publishedAt": "2026-08-25T19:59:37.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Ames’ Contributions to Roman’s Mission",
-      "url": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission/",
-      "summary": "Set to launch on Sunday, Aug. 30, NASA’s Nancy Grace Roman Space Telescope will empower astronomers to explore vast regions of the cosmos and settle essential questions in the areas of dark energy, dark matter, planets o…",
-      "ts": 1787687095000,
-      "publishedAt": "2026-08-25T19:44:55.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "In Massachusetts, Latest Annual Snapshot Shows a Tale of Two Biopharmas",
-      "url": "https://www.genengnews.com/topics/translational-medicine/in-massachusetts-latest-annual-snapshot-shows-a-tale-of-two-biopharmas/",
-      "summary": "The job contraction, according to MassBio, reflected pipeline reprioritization by biopharma giants plus contraction by smaller companies, with R&D jobs dropping significantly between Q2 and Q3 of 2025, then starting to b…",
-      "ts": 1787685442000,
-      "publishedAt": "2026-08-25T19:17:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Ames Experts Available for Roman Space Telescope Interviews ",
-      "url": "https://www.nasa.gov/news-release/nasa-ames-experts-available-for-roman-space-telescope-interviews/",
-      "summary": "NASA’s Ames Research Center in California’s Silicon Valley invites media to learn more about NASA’s Nancy Grace Roman Space Telescope, scheduled to launch Sunday, Aug. 30, 2026, from NASA’s Kennedy Space Center in Florid…",
-      "ts": 1787683621000,
-      "publishedAt": "2026-08-25T18:47:01.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Art and algorithms at Sotheby’s",
-      "url": "https://www.technologyreview.com/2026/08/25/1140908/art-and-algorithms-at-sothebys/",
-      "summary": "Do fine art and high tech ever converge? At Sotheby’s they do, thanks to Kelly Shen ’17. Shen works in the growing field of art intelligence for the New York auction house. Shen builds algorithms to predict prices, using…",
-      "ts": 1787680800000,
-      "publishedAt": "2026-08-25T18:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars",
-      "url": "https://science.nasa.gov/missions/pandora-missions/nasas-pandora-mission-begins-study-of-exoplanets-host-stars/",
-      "summary": "Pandora, NASA’s newest exoplanet mission and the first satellite to launch through the agency’s Astrophysics Pioneers program, is now making unique observations of worlds beyond our solar system and the stars they orbit.…",
-      "ts": 1787680502000,
-      "publishedAt": "2026-08-25T17:55:02.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Galactic Gems Glisten in New Gallery From NASA’s Chandra",
-      "url": "https://science.nasa.gov/missions/chandra/galactic-gems-glisten-in-new-gallery-from-nasas-chandra/",
-      "summary": "Galaxies are like cosmic gems, each with characteristics including size and shape that make them distinct. A new gallery released today from NASA’s Chandra X-ray Observatory and other telescopes displays a collection of …",
-      "ts": 1787674429000,
-      "publishedAt": "2026-08-25T16:13:49.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
