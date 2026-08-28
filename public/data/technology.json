@@ -1,7 +1,106 @@
 {
   "ok": true,
-  "updated": "2026-08-27T16:12:23.040Z",
+  "updated": "2026-08-28T01:20:30.797Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genetic Toolkit Isolates Neuron Types in Drosophila Brain",
+      "url": "https://www.genengnews.com/topics/translational-medicine/genetic-toolkit-isolates-neuron-types-in-drosophila-brain/",
+      "summary": "By targeting specific neuron types in the Drosophila brain, researchers linked distinct octopamine/tyramine cell types to behaviors including aggression suppression and visual motion tracking. The post Genetic Toolkit Is…",
+      "ts": 1787866154000,
+      "publishedAt": "2026-08-27T21:29:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "MTG-I2 completes Europe’s latest weather trio",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_completes_Europe_s_latest_weather_trio",
+      "summary": "The second Meteosat Third Generation Imager satellite (MTG-I2) has been launched on board Ariane 6, flight VA270, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, delivering …",
+      "ts": 1787863680000,
+      "publishedAt": "2026-08-27T20:48:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A startup claims it’s found a drug to make your blood young",
+      "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
+      "summary": "I knew I’d officially become a ‘longevity influencer’ this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment, an injectable com…",
+      "ts": 1787860093000,
+      "publishedAt": "2026-08-27T19:48:13.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Roivant therapy for rare autoimmune disease",
+      "url": "https://www.statnews.com/2026/08/27/fda-approves-roivant-therapy-for-rare-autoimmune-disease/?utm_campaign=rss",
+      "summary": "The FDA approved a new medicine from Roivant and its subsidiary Priovant for the treatment of dermatomyositis, a rare autoimmune disease.",
+      "ts": 1787860021000,
+      "publishedAt": "2026-08-27T19:47:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "UCSF QBI Awarded $46M to Translate Landmark Autism Map Into Precision Therapies",
+      "url": "https://www.genengnews.com/topics/omics/ucsf-qbi-awarded-46m-to-translate-landmark-autism-map-into-precision-therapies/",
+      "summary": "A landmark molecular map revealed shared pathways connecting diverse autism risk genes. Now, a $46 million investment will help QBI scientists and their collaborators pursue new precision medicines. The post UCSF QBI Awa…",
+      "ts": 1787853640000,
+      "publishedAt": "2026-08-27T18:00:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Inhaled Suppressor tRNA Restores Gene Function in Cystic Fibrosis Models",
+      "url": "https://www.genengnews.com/topics/drug-discovery/inhaled-suppressor-trna-restores-gene-function-in-cystic-fibrosis-models/",
+      "summary": "A preclinical study showed how chemically enhanced suppressor tRNAs combined with a lung-targeted delivery system can restore production of a critical protein in models of cystic fibrosis caused by nonsense mutations. Th…",
+      "ts": 1787853622000,
+      "publishedAt": "2026-08-27T18:00:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Aprea Expands Development of WEE1 Inhibitor After Seeing Early Clinical Activity Signs vs. Cancer",
+      "url": "https://www.genengnews.com/topics/cancer/aprea-expands-development-of-wee1-inhibitor-after-seeing-early-clinical-activity-signs-vs-cancer/",
+      "summary": "The Phase I dose escalation trial of ACESOT-1051 (NCT06260514) will accelerate its patient enrollment, with Aprea planning to more than triple its number of active clinical sites for the study from three to 10. The expan…",
+      "ts": 1787851687000,
+      "publishedAt": "2026-08-27T17:28:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Former Stanford president releases emails to rebut fraud and cover-up allegations in new book",
+      "url": "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/?utm_campaign=rss",
+      "summary": "Marc Tessier-Lavigne released new details from his research and travel in an attempt to refute allegations in a new book that he published fraudulent results.",
+      "ts": 1787851669000,
+      "publishedAt": "2026-08-27T17:27:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: CMS plans launch event for ACCESS, the Medicare chronic care pilot",
+      "url": "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: CMS plans a launch event for Medicare chronic care pilot, and what the Meta settlement means for health AI.",
+      "ts": 1787851274000,
+      "publishedAt": "2026-08-27T17:21:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Next Wave of ADC Innovation: The Science Behind Dual-Payload Bioconjugates",
+      "url": "https://www.genengnews.com/multimedia/webinars/the-next-wave-of-adc-innovation-the-science-behind-dual-payload-bioconjugates/",
+      "summary": "In this GEN webinar, our expert speaker, Cindy Cheng, PhD, will explore how mechanism-driven payload pairing counters specific resistance pathways by combining orthogonal or complementary mechanisms. The post The Next Wa…",
+      "ts": 1787851217000,
+      "publishedAt": "2026-08-27T17:20:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Multi-Academic Study Finds No Link Between Pesticide Exposure and Autism Traits",
+      "url": "https://www.genengnews.com/topics/translational-medicine/multi-academic-study-finds-no-link-between-pesticide-exposure-and-autism-traits/",
+      "summary": "Study showed nearly all mothers had detectable organophosphate pesticide levels in urine during pregnancy, yet team found no significant relationship in children between this exposure and traits related to autism. The po…",
+      "ts": 1787847409000,
+      "publishedAt": "2026-08-27T16:16:49.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Hospitals plot their response to funding cuts",
@@ -18,6 +117,15 @@
       "summary": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutena…",
       "ts": 1787843424000,
       "publishedAt": "2026-08-27T15:10:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The electronics ‘under the hood’ of space networking",
+      "url": "https://spacenews.com/the-electronics-under-the-hood-of-space-networking/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss interviews Jeff Janicik, founder and chairman of Innoflight. They discuss Golden Dome, Artemis and working with big numbers for the Space Development Agency. Sponsored […] The post …",
+      "ts": 1787842234000,
+      "publishedAt": "2026-08-27T14:50:34.000Z",
       "categoryId": "space"
     },
     {
@@ -93,6 +201,60 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "United Nations News",
+      "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168220",
+      "summary": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
+      "ts": 1787832000000,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "After Israeli seizure of Kalandia training centre, UNRWA warns of impact on youth",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168219",
+      "summary": "The seizure of a vocational training centre in occupied East Jerusalem has left hundreds of Palestinian young people without access to skills and training that could help shape their futures.",
+      "ts": 1787832000000,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN chief condemns “indifference” as Ebola cases mount in DR Congo",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168217",
+      "summary": "The Ebola Bundibugyo outbreak in the Democratic Republic of the Congo (DRC) requires “urgent” action and funding to rein in its alarming spread, the UN Secretary-General told reporters at UN Headquarters on Thursday.",
+      "ts": 1787832000000,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Lebanon: Civilian risks grow as military activity continues, UN says",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168215",
+      "summary": "Damaged roads, disrupted services and ongoing military activity continue to put civilians at risk in south Lebanon as strikes between Israeli forces and Hezbollah continue, according to the UN’s peacekeeping mission in t…",
+      "ts": 1787832000000,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Tracking Syria’s transition",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168214",
+      "summary": "As Damascus continues to rebuild after more than a decade of war – from the recent dissolution of the Kurdish-led Syrian Democratic Forces to the United States’ removal of Syria from its sponsors of terrorism list – a to…",
+      "ts": 1787832000000,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Shock and devastation remain, a day after Himalayan flood disaster",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168213",
+      "summary": "Amid reports that hundreds of people are still missing in Nepal and China after a floodwater surge slammed into towns and villages on Wednesday, aid teams have been working to reach communities cut off by the disaster.",
+      "ts": 1787832000000,
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Alnylam’s heart drug troubles take center stage at a cardiology conference",
       "url": "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/?utm_campaign=rss",
@@ -108,6 +270,15 @@
       "summary": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source o…",
       "ts": 1787824800000,
       "publishedAt": "2026-08-27T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "ts": 1787821200000,
+      "publishedAt": "2026-08-27T09:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -189,15 +360,6 @@
       "summary": "APOD Science APOD APOD: 2026 August 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
       "ts": 1787803500000,
       "publishedAt": "2026-08-27T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Rare, Widespread Snow in the Atacama Desert",
-      "url": "https://science.nasa.gov/earth/earth-observatory/rare-widespread-snow-in-the-atacama-desert/",
-      "summary": "Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast.",
-      "ts": 1787803200000,
-      "publishedAt": "2026-08-27T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -453,6 +615,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Rare, Widespread Snow in the Atacama Desert",
+      "url": "https://science.nasa.gov/earth/earth-observatory/rare-widespread-snow-in-the-atacama-desert/",
+      "summary": "Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast.",
+      "ts": 1787803200000,
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "OpenAI",
       "title": "Expanding OpenAI’s presence in Brazil",
       "url": "https://openai.com/index/expanding-our-presence-in-brazil",
@@ -639,177 +810,6 @@
       "summary": "The KTP provides access to academic expertise while embedding that capability within Centrix’s business. This project represents an opportunity to apply advanced data science techniques to a real-world pharmaceutical dev…",
       "ts": 1787752704000,
       "publishedAt": "2026-08-26T13:58:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
-      "url": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests/",
-      "summary": "EDITOR’S NOTE: This story, originally published in December, was revised Aug. 26, 2026 with an update on a new phase of testing, including video from a recent test run and new images. To help NASA and commercial partners…",
-      "ts": 1787752684000,
-      "publishedAt": "2026-08-26T13:58:04.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI biotech Insitro’s Daphne Koller on how to speed up clinical trials",
-      "url": "https://www.statnews.com/2026/08/26/biotech-insitro-ceo-daphne-koller-speeding-up-clinical-trials-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AI Prognosis: A conversation with Insitro CEO Daphne Koller on artificial intelligence in drug discovery, and other health AI news.",
-      "ts": 1787752000000,
-      "publishedAt": "2026-08-26T13:46:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Contractor to Civil Servant: NASA Welcomes Jeret Howard",
-      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard/",
-      "summary": "At 17, Jeret Howard raised his right hand to serve his country as a United States Army combat medic in Iraq. This past summer, he raised his right hand again at NASA’s Stennis Space Center near Bay St. Louis, Mississippi…",
-      "ts": 1787751148000,
-      "publishedAt": "2026-08-26T13:32:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Even at big companies, health care costs are increasing ",
-      "url": "https://www.statnews.com/2026/08/26/health-news-even-at-big-companies-health-care-costs-increasing/?utm_campaign=rss",
-      "summary": "Two U.S. measles deaths, the profit motive for women's health, and more Morning Rounds news today",
-      "ts": 1787750951000,
-      "publishedAt": "2026-08-26T13:29:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a GSK shingles shot, U.S. employers dropping GLP-1 coverage, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/26/gsk-shingles-shot-us-employers-dropping-glp1-coverage/?utm_campaign=rss",
-      "summary": "About 14% of employers in the U.S. have already or plan to drop coverage of GLP-1 drugs in 2027, as companies see ​rising health care costs",
-      "ts": 1787749765000,
-      "publishedAt": "2026-08-26T13:09:25.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Joint Statement - ATLAS Ministerial Launch Event",
-      "url": "http://www.iaea.org/newscenter/pressreleases/joint-statement-atlas-ministerial-launch-event",
-      "summary": "",
-      "ts": 1787747066000,
-      "publishedAt": "2026-08-26T12:24:26.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
-      "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids’ use of technology was onc…",
-      "ts": 1787746200000,
-      "publishedAt": "2026-08-26T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Rising tensions in Gaza, West Bank",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
-      "summary": "Amid illegal Israeli settlement surges, continued attacks in Gaza and the West Bank alongside tensions throughout Occupied Palestinian Territory, the Security Council is meeting at 10am (local time) on Wednesday to hear …",
-      "ts": 1787745600000,
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "ESA",
-      "title": "MTG-I2 ready for launch",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
-      "summary": "Video: 00:00:31 The Meteosat Third Generation-Imager2 (MTG-I2) satellite, is ready for launch on board an Ariane 6 launcher from Europe’s Spaceport in French Guiana. Lift off is scheduled for 27 August 2026 at 22:10 CEST…",
-      "ts": 1787742000000,
-      "publishedAt": "2026-08-26T11:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "ts": 1787738400000,
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "ts": 1787738400000,
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New Zika Virus Vaccine Approach Harnesses the Power of T Cells in Mice",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/new-zika-virus-vaccine-approach-harnesses-the-power-of-t-cells-in-mice/",
-      "summary": "An experimental Zika vaccine protected mice through CD8+ T cells, suggesting a possible path around antibody-dependent enhancement concerns that have complicated vaccine development for Zika and related viruses. The post…",
-      "ts": 1787734836000,
-      "publishedAt": "2026-08-26T09:00:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Raised on AI",
-      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
-      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creatin…",
-      "ts": 1787734800000,
-      "publishedAt": "2026-08-26T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming g…",
-      "ts": 1787734800000,
-      "publishedAt": "2026-08-26T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Newer shingles vaccine linked to lower heart disease risk, ‘natural experiment’ shows",
-      "url": "https://www.statnews.com/2026/08/26/shingles-vaccine-shingrix-reduces-heart-disease-dementia-risk-oxford-study/?utm_campaign=rss",
-      "summary": "Oxford researchers call shingles shot first vaccine protecting both heart and brain. Lower heart disease risk follows study showing reduced dementia risk.",
-      "ts": 1787734800000,
-      "publishedAt": "2026-08-26T09:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
-      "url": "http://www.iaea.org/newscenter/news/malaysia-strengthens-nuclear-workforce-planning-capacity",
-      "summary": "",
-      "ts": 1787734341000,
-      "publishedAt": "2026-08-26T08:52:21.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "ESA",
-      "title": "Second spacewalk completed for Sophie Adenot ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
-      "summary": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.",
-      "ts": 1787733600000,
-      "publishedAt": "2026-08-26T08:40:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: New treatments for common cardiovascular risk factor near the market, with billions at stake",
-      "url": "https://www.statnews.com/2026/08/26/lp-a-drugs-novartis-amgen-lilly-potential-heart-disease-blockbuster/?utm_campaign=rss",
-      "summary": "High cholesterol can be managed with medicine, but high Lp(a) levels, another common cardiovascular risk, cannot. Drugmakers are hoping to change that.",
-      "ts": 1787733000000,
-      "publishedAt": "2026-08-26T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: When it comes to women’s health, money talks",
-      "url": "https://www.statnews.com/2026/08/26/womens-health-reverse-pitch-profit-driven-approach-endometriosis-osteoporosis/?utm_campaign=rss",
-      "summary": "Women's health experts suggest a 'reverse pitch' approach to endometriosis, osteoporosis, and autoimmune treatments, stressing the profit potential.",
-      "ts": 1787733000000,
-      "publishedAt": "2026-08-26T08:30:00.000Z",
       "categoryId": "bio"
     }
   ],
