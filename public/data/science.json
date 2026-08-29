@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-29T13:01:12.523Z",
+  "updated": "2026-08-29T17:33:18.812Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How plastic welds retain a molecular 'memory' of their former surfaces to strengthen pipe joints",
+      "url": "https://phys.org/news/2026-08-plastic-welds-retain-molecular-memory.html",
+      "summary": "Welding plastic is a critically important part of everyday engineering—especially for preventing leaks in underground water and gas pipes. For decades, engineers have understood that a properly welded joint in polyethyle…",
+      "ts": 1788023401000,
+      "publishedAt": "2026-08-29T17:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A never-before-seen picture of eagle migrations",
+      "url": "https://phys.org/news/2026-08-picture-eagle-migrations.html",
+      "summary": "In 1899, scientists began tracking avian migration by placing a small ring with an identifier around birds' ankles. Researchers then had to recapture the birds elsewhere, leaving the journey between those points a myster…",
+      "ts": 1788021602000,
+      "publishedAt": "2026-08-29T16:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Takeaway cups may be releasing microplastics into your coffee",
+      "url": "https://phys.org/news/2026-08-takeaway-cups-microplastics-coffee.html",
+      "summary": "Single-use paper cups used for takeout coffee and other beverages release millions of microplastic particles when exposed to hot liquid, University of Queensland researchers have found.",
+      "ts": 1788019203000,
+      "publishedAt": "2026-08-29T16:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Centuries of child labor left lasting spinal damage in Dutch children, study finds",
+      "url": "https://phys.org/news/2026-08-centuries-child-labor-left-spinal.html",
+      "summary": "Children in the postmedieval Dutch workforce worked so hard that their spines became worn and deformed, with some children affected before they even had a chance to lose their baby teeth, a new study published in the Int…",
+      "ts": 1788012601000,
+      "publishedAt": "2026-08-29T14:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Talking to your children about consent and sexual violence can be hard. Here's how to start the conversation",
@@ -41,6 +73,70 @@
       "summary": "Since the release of ChatGPT in 2022, artificial intelligence (AI) has dominated the cultural landscape. Uptake across various sectors, including law enforcement, quickly followed, usually with minimal foresight and litt…",
       "ts": 1787964002000,
       "publishedAt": "2026-08-29T00:40:02.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Strong and crack-tolerant elastomers via geometrically confined H-bonding semicarbazides",
+      "url": "https://www.nature.com/articles/s41467-026-77193-w",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Many-body interactions resolve halide distribution at the air/water interface",
+      "url": "https://www.nature.com/articles/s41467-026-77205-9",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Hydrogen Bond-Enabled Carbon Dot-Based Network for Efficient Inverted Organic Solar Cells with Prolonged Photoelectrical-Mechanical-Moist Stability",
+      "url": "https://www.nature.com/articles/s41467-026-76944-z",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Persistent chromatin alterations and gene expression reprogramming follow widespread DNA damage in glioblastoma",
+      "url": "https://www.nature.com/articles/s41467-026-77331-4",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Hybrid exosomal nanomotors convert pathological ROS into transport-driving cues to enhance cartilage accumulation in osteoarthritis",
+      "url": "https://www.nature.com/articles/s41467-026-76949-8",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Unraveling single-molecule reactions via multiplexed in-situ DNA sequencing",
+      "url": "https://www.nature.com/articles/s41467-026-77308-3",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Woven dECM yarn scaffolds enable volumetric muscle loss regeneration via immunomodulation",
+      "url": "https://www.nature.com/articles/s41467-026-77032-y",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Steric Gating Contributes to the Preferential Ubiquitin Charging of BIRC6 by UBA6 versus UBA1",
+      "url": "https://www.nature.com/articles/s41467-026-75898-6",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -703,102 +799,6 @@
       "title": "Automatic generation of exchange-correlation response kernels",
       "url": "https://arxiv.org/abs/2608.26440",
       "summary": "arXiv:2608.26440v1 Announce Type: new Abstract: Computing density-functional response properties requires contracting derivatives of the exchange--correlation (xc) energy with perturbed densities on a grid. While the xc …",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase retrieval based on intensity-only spatiotemporal wavefront shaping",
-      "url": "https://arxiv.org/abs/2608.26445",
-      "summary": "arXiv:2608.26445v1 Announce Type: new Abstract: We introduce a phase retrieval method based on harmonic field representations generated by intensity-only spatiotemporal modulation. A periodic amplitude angular modulation…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global Prevalence of Anti-similar Earthquakes at Intermediate Depth",
-      "url": "https://arxiv.org/abs/2608.26448",
-      "summary": "arXiv:2608.26448v1 Announce Type: new Abstract: Anti-similar earthquakes, those with nearly identical but flipped waveforms, remain an uncommon observation. We document three locations where these events occur at interme…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HoloCMA: A Holographic Eye on Coarse-Mode Aerosols",
-      "url": "https://arxiv.org/abs/2608.26466",
-      "summary": "arXiv:2608.26466v1 Announce Type: new Abstract: Coarse-mode aerosols (CMAs), including pollen, spores, and dust, remain difficult to characterize in situ because conventional instruments rarely resolve particle geometry …",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The ultimate state of elastic turbulence",
-      "url": "https://arxiv.org/abs/2608.26479",
-      "summary": "arXiv:2608.26479v1 Announce Type: new Abstract: The asymptotic properties, with vanishing viscosity, of inertial turbulence in Newtonian fluids have been of intense scrutiny over the years. Much less is known about elast…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When Does Forecast-Error Energy Grow Logistically in Geophysical Turbulence?",
-      "url": "https://arxiv.org/abs/2608.26492",
-      "summary": "arXiv:2608.26492v1 Announce Type: new Abstract: Coarse-graining can yield a simple macroscopic growth curve in a bounded chaotic system even when constituent scales follow different clocks. The distinction matters as red…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring and Modelling Lag in Amorphous Silicon Flat-Panel X-ray Detectors",
-      "url": "https://arxiv.org/abs/2608.26542",
-      "summary": "arXiv:2608.26542v1 Announce Type: new Abstract: Detector lag, also referred to as afterglow, is a source of image degradation in flat-panel x-ray detectors, producing temporal artefacts that reduce image quality and quan…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond geometric symmetry: Broadband linear relations in wave scattering",
-      "url": "https://arxiv.org/abs/2608.26562",
-      "summary": "arXiv:2608.26562v1 Announce Type: new Abstract: The design and control of wave scattering, that is, of the reflection and transmission parameters of a device, is of ubiquitous importance. These parameters generally chang…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resolvent analysis to inform viscoelastic coatings for turbulent drag reduction",
-      "url": "https://arxiv.org/abs/2608.26611",
-      "summary": "arXiv:2608.26611v1 Announce Type: new Abstract: Viscoelastic compliant coatings offer a passive route to modify wall-bounded turbulence; however, their effectiveness for drag reduction remains unresolved. We perform reso…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lower bound on the thickness of broadband dielectric mirrors",
-      "url": "https://arxiv.org/abs/2608.26633",
-      "summary": "arXiv:2608.26633v1 Announce Type: new Abstract: We present a lower bound on the total physical thickness of a lossless, non-dispersive dielectric mirror for a given minimum reflectance across a wavelength band. The bound…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Z-Fold Wing Aeroelasticity: Compositional Modeling, 1:2 Double-Hopf Dynamics, and Nonlinear Stiffness Effects",
-      "url": "https://arxiv.org/abs/2608.26637",
-      "summary": "arXiv:2608.26637v1 Announce Type: new Abstract: Folding changes the linearized aeroelastic spectrum and can switch which mode becomes unstable first, with consequences for local postflutter interactions. This study formu…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Widely Tunable, Etch-free Multi-dielectric Fano Metasurfaces in the Visible",
-      "url": "https://arxiv.org/abs/2608.26677",
-      "summary": "arXiv:2608.26677v1 Announce Type: new Abstract: Fano resonances, characterized by a unique, sharp, and asymmetric spectral line shape arising from the interference between a narrowband discrete resonant state and a broad…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Visible Dielectric Metastructure for Generating Ultranarrow-band Perfect Absorption and Bound States in the Continuum",
-      "url": "https://arxiv.org/abs/2608.26679",
-      "summary": "arXiv:2608.26679v1 Announce Type: new Abstract: The ability to generate ultranarrow-band perfect absorption and bound states in the continuum (BICs) in the visible spectrum is highly useful and desired for many advanced …",
       "ts": 1787889600000,
       "publishedAt": "2026-08-28T04:00:00.000Z"
     }
