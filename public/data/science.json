@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-29T06:12:16.528Z",
+  "updated": "2026-08-29T13:01:12.523Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Talking to your children about consent and sexual violence can be hard. Here's how to start the conversation",
+      "url": "https://phys.org/news/2026-08-children-consent-sexual-violence-hard.html",
+      "summary": "There have been multiple high-profile alleged incidents of sexual violence against women and girls in news headlines this month. Some involve teenage boys.",
+      "ts": 1788004808000,
+      "publishedAt": "2026-08-29T12:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nano-sandwich photocathode improves solar conversion of CO₂ into ethanol",
+      "url": "https://phys.org/news/2026-08-nano-sandwich-photocathode-solar-conversion.html",
+      "summary": "Czech researchers at Charles University in Prague, led by Pavla Eliášová, have developed an advanced photocathode that helps convert the greenhouse gas carbon dioxide into pure ethanol using sunlight. The new technology …",
+      "ts": 1788004801000,
+      "publishedAt": "2026-08-29T12:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Many cities buried urban streams. Here's how to bring them back",
@@ -491,6 +507,22 @@
       "publishedAt": "2026-08-28T10:00:00.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Quantum Thermal State Preparation for Near-Term Quantum Processors",
+      "url": "http://link.aps.org/doi/10.1103/cbrd-ssnm",
+      "summary": "Author(s): Jerome Lloyd and Dmitry A. Abanin Researchers develop an algorithm that prepares many-body quantum thermal states accurately by combining bath resetting and modulated coupling. [Phys. Rev. X 16, 031053] Publis…",
+      "ts": 1787911200000,
+      "publishedAt": "2026-08-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Observing the Spatial and Temporal Evolution of Exciton Wave Functions in Organic Semiconductors",
+      "url": "http://link.aps.org/doi/10.1103/3zmg-276c",
+      "summary": "Author(s): Marcel Theilen, Siegfried Kaidisch, Monja Stettner, Sarah Zajusch, Eric Fackelman, Alexa Adamkiewicz, Robert Wallauer, Andreas Windischbacher, Christian S. Kern, Michael G. Ramsey, François C. Bocquet, Serguei…",
+      "ts": 1787911200000,
+      "publishedAt": "2026-08-28T10:00:00.000Z"
+    },
+    {
       "source": "APS PR Applied",
       "title": "ϒ-scheme heterojunction photocatalyst: Polarization-driven charge separation beyond interfacial limitations",
       "url": "http://link.aps.org/doi/10.1103/48s9-mn9m",
@@ -767,38 +799,6 @@
       "title": "Visible Dielectric Metastructure for Generating Ultranarrow-band Perfect Absorption and Bound States in the Continuum",
       "url": "https://arxiv.org/abs/2608.26679",
       "summary": "arXiv:2608.26679v1 Announce Type: new Abstract: The ability to generate ultranarrow-band perfect absorption and bound states in the continuum (BICs) in the visible spectrum is highly useful and desired for many advanced …",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Directional Emission From High-Q Asymmetric Hollow Whispering Gallery Resonators",
-      "url": "https://arxiv.org/abs/2608.26691",
-      "summary": "arXiv:2608.26691v1 Announce Type: new Abstract: Whispering gallery mode (WGM) resonators with broken rotational symmetry exhibit phenomena that are generally absent in conventional symmetric cavities, including direction…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AlGaN/GaN Hall-Effect Sensor for In-Situ Magnetic Field Monitoring of the HSX Stellarator",
-      "url": "https://arxiv.org/abs/2608.26704",
-      "summary": "arXiv:2608.26704v1 Announce Type: new Abstract: Direct magnetic field sensors can address integration drift commonly observed in conventional inductive magnetic diagnostics used in fusion systems. In this work, an AlGaN/…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SnapPINN: Pressure and Energy Dissipation Reconstruction from a Sparse and Noisy Velocity Snapshot",
-      "url": "https://arxiv.org/abs/2608.26711",
-      "summary": "arXiv:2608.26711v1 Announce Type: new Abstract: Reconstructing pressure and turbulence quantities from experimental velocity measurements is challenging, especially without time-resolved data. Furthermore, limitations su…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Circular Dichroism Spectroscopy of Single Objects: Problems, Artifacts, and Corrections",
-      "url": "https://arxiv.org/abs/2608.26717",
-      "summary": "arXiv:2608.26717v1 Announce Type: new Abstract: Molecular aggregates are at the basis of a broad range of functional systems, including photosynthetic light-harvesting complexes, organic photovoltaics, optoelectronic dev…",
       "ts": 1787889600000,
       "publishedAt": "2026-08-28T04:00:00.000Z"
     }

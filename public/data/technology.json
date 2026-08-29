@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-29T06:12:18.043Z",
+  "updated": "2026-08-29T13:01:15.930Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: A Novartis drug cut inflammation. Can it improve heart outcomes? ",
+      "url": "https://www.statnews.com/2026/08/29/novartis-pacibekitug-inflammation-il6-tourmaline-heart-disease/?utm_campaign=rss",
+      "summary": "A newly acquired Novartis drug cut signs of inflammation. The test will be whether that can improve people's heart health.",
+      "ts": 1787988731000,
+      "publishedAt": "2026-08-29T07:32:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-364-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1787978975000,
+      "publishedAt": "2026-08-29T04:49:35.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "NASA",
       "title": "NASA’s Artemis II Crew Receives Congressional Space Medal of Honor",
@@ -163,6 +181,60 @@
       "ts": 1787919600000,
       "publishedAt": "2026-08-28T12:20:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Four children killed as separate attacks in Gaza destroy aid supplies",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168229",
+      "summary": "Israeli attacks killed four children and destroyed humanitarian aid supplies in what turned out to be a deadly week in war-ravaged Gaza, the UN emergency relief agency, OCHA, said on Friday.",
+      "ts": 1787918400000,
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "As the Himalayas melt, deadly floods become the new normal",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168227",
+      "summary": "A day before a wall of ice, rock and muddy water tore through Himalayan valleys along the Nepal-China border, Dipesh Chapagain was discussing with a colleague just how devastating such a disaster could be.",
+      "ts": 1787918400000,
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Deadly gang attacks spike in Haiti",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168222",
+      "summary": "Following a deadly spate of gang attacks on civilians in Haiti and amid reports of illicit weapons slipping into the Caribbean country, the Security Council has called an emergency meeting at 3pm (local time) to hear and…",
+      "ts": 1787918400000,
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "WHO reports more than 3,200 attacks on Ukraine’s healthcare system since full-scale invasion",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168226",
+      "summary": "Since the beginning of Russia’s full-scale invasion of Ukraine, 3,205 attacks on healthcare facilities have been carried out, World Health Organization (WHO) Representative for Ukraine Jarno Habicht reported on Friday fo…",
+      "ts": 1787918400000,
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Risks of child recruitment by armed groups rise in post-quake Colombia",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168224",
+      "summary": "The recent earthquake in Colombia could increase the risk of child recruitment by armed groups in Chocó and Valle del Cauca, where thousands of children remain out of school in areas already affected by conflict, the UN …",
+      "ts": 1787918400000,
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Immense impact’ of Nepal flood disaster highlighted as casualties mount",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168221",
+      "summary": "The impact of the deadly flood in Nepal has been described as “immense” as the authorities there confirm that 538 bodies have been recovered from the disaster-stricken area.",
+      "ts": 1787918400000,
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "IAEA News",
@@ -733,84 +805,12 @@
     },
     {
       "source": "United Nations News",
-      "title": "UN chief condemns “indifference” as Ebola cases mount in DR Congo",
+      "title": "UN chief condemns ‘indifference’ as Ebola cases mount in DR Congo",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168217",
       "summary": "The Ebola Bundibugyo outbreak in the Democratic Republic of the Congo (DRC) requires “urgent” action and funding to rein in its alarming spread, the UN Secretary-General told reporters at UN Headquarters on Thursday.",
       "ts": 1787832000000,
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Lebanon: Civilian risks grow as military activity continues, UN says",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168215",
-      "summary": "Damaged roads, disrupted services and ongoing military activity continue to put civilians at risk in south Lebanon as strikes between Israeli forces and Hezbollah continue, according to the UN’s peacekeeping mission in t…",
-      "ts": 1787832000000,
-      "publishedAt": "2026-08-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Tracking Syria’s transition",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168214",
-      "summary": "As Damascus continues to rebuild after more than a decade of war – from the recent dissolution of the Kurdish-led Syrian Democratic Forces to the United States’ removal of Syria from its sponsors of terrorism list – a to…",
-      "ts": 1787832000000,
-      "publishedAt": "2026-08-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Shock and devastation remain, a day after Himalayan flood disaster",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168213",
-      "summary": "Amid reports that hundreds of people are still missing in Nepal and China after a floodwater surge slammed into towns and villages on Wednesday, aid teams have been working to reach communities cut off by the disaster.",
-      "ts": 1787832000000,
-      "publishedAt": "2026-08-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Alnylam’s heart drug troubles take center stage at a cardiology conference",
-      "url": "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/?utm_campaign=rss",
-      "summary": "The European Society of Cardiology Congress that kicks off Friday in Munich will be a consequential meeting for Alnylam Pharmaceuticals.",
-      "ts": 1787826600000,
-      "publishedAt": "2026-08-27T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Is Slate Auto’s new electric truck the EV Americans need?",
-      "url": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
-      "summary": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source o…",
-      "ts": 1787824800000,
-      "publishedAt": "2026-08-27T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "ts": 1787821200000,
-      "publishedAt": "2026-08-27T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The mystery of Moderna’s magic algorithm",
-      "url": "https://www.statnews.com/2026/08/27/moderna-merck-cancer-vaccine-secret-ingredient-an-algorithm/?utm_campaign=rss",
-      "summary": "A personalized cancer vaccine developed by Moderna and Merck may be a triumph of immunology and cancer biology. It might also be the triumph of an algorithm.",
-      "ts": 1787819400000,
-      "publishedAt": "2026-08-27T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "A state gave sheriffs 20% of its opioid settlement cash. We followed the money",
-      "url": "https://www.statnews.com/2026/08/27/opioid-settlement-funds-enforcement-or-treatment-louisiana-sheriff-investigation/?utm_campaign=rss",
-      "summary": "KFF Health News examines how sheriffs are spending opioid settlement money, finds they're spending millions on police gear.",
-      "ts": 1787819400000,
-      "publishedAt": "2026-08-27T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
