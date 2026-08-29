@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-29T17:33:18.812Z",
+  "updated": "2026-08-29T20:36:51.253Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Airborne tuberculosis bacteria may mutate as they dry, revealing a target to curb drug resistance",
+      "url": "https://phys.org/news/2026-08-airborne-tuberculosis-bacteria-mutate-dry.html",
+      "summary": "Tuberculosis bacteria released into the air from infected individuals dry out to form infectious particles that are second only to measles in contagiousness. Weill Cornell Medicine investigators have discovered specific …",
+      "ts": 1788033601000,
+      "publishedAt": "2026-08-29T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How everyday household tasks impact relationships",
+      "url": "https://phys.org/news/2026-08-everyday-household-tasks-impact-relationships.html",
+      "summary": "The physical, cognitive and emotional loads of running a household should be recognized when examining the health of a couple's relationship, new research has found. A University of Queensland study examined the \"tri-loa…",
+      "ts": 1788026404000,
+      "publishedAt": "2026-08-29T18:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Most people would sacrifice some life satisfaction in exchange for a more equal society",
+      "url": "https://phys.org/news/2026-08-people-sacrifice-life-satisfaction-exchange.html",
+      "summary": "What kind of society would you rather live in: an equal one where everyone is just about getting by? Or an unequal one where most people are doing substantially better, but a small group consistently falls behind? Now im…",
+      "ts": 1788026402000,
+      "publishedAt": "2026-08-29T18:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How plastic welds retain a molecular 'memory' of their former surfaces to strengthen pipe joints",
@@ -548,6 +572,22 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Searches for Light Dark Matter and Evidence of Coherent Elastic Neutrino-Nucleus Scattering of Solar Neutrinos with the LUX-ZEPLIN (LZ) Experiment",
+      "url": "http://link.aps.org/doi/10.1103/jvqf-njpj",
+      "summary": "Author(s): D. S. Akerib et al. (LZ Collaboration) The LZ collaboration reports strong evidence (4.5σ) for coherent elastic scattering of 8B solar neutrinos. [Phys. Rev. Lett. 137, 091806] Published Fri Aug 28, 2026",
+      "ts": 1787911200000,
+      "publishedAt": "2026-08-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Probing the Solar $^{8}\\mathrm{B}$ Neutrino Fog with XENONnT",
+      "url": "http://link.aps.org/doi/10.1103/xvpn-w3q9",
+      "summary": "Author(s): E. Aprile et al. (XENON Collaboration) We report a $3.3σ$ measurement of coherent elastic neutrino-nucleus scattering from solar $^{8}\\mathrm{B}$ neutrinos using a $6.77\\text{ }\\text{ }\\mathrm{t}×\\mathrm{yr}$ …",
+      "ts": 1787911200000,
+      "publishedAt": "2026-08-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Perturbative Anomalous Exponents from Kolmogorov Multipliers",
       "url": "http://link.aps.org/doi/10.1103/6qrr-3646",
       "summary": "Author(s): Alexei A. Mailybaev and Simon Thalabard A perturbative framework for anomalous scaling in turbulence, built on the statistics of Kolmogorov multipliers rather than correlation-function hierarchies, establishes…",
@@ -759,46 +799,6 @@
       "title": "Loss-tolerant hybrid metasurface mirror for reducing coating Brownian noise in precision optical cavities",
       "url": "https://arxiv.org/abs/2608.26370",
       "summary": "arXiv:2608.26370v1 Announce Type: new Abstract: We propose a hybrid mirror design that places an embedded metasurface beneath a Bragg reflector, combining the low coating Brownian noise of metasurface mirrors with the lo…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantifying the effect of resonant amplitude and frequency of phononic material vibrations on the coupled fluid-structure interaction dynamics in separated aerodynamic flows",
-      "url": "https://arxiv.org/abs/2608.26381",
-      "summary": "arXiv:2608.26381v1 Announce Type: new Abstract: Phononic materials (PMs) with engineered resonances have been leveraged for fluid-structure interaction (FSI) with fluid flow instabilities, yielding beneficial outcomes su…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optically Induced Thermal Runaway in Phase-Change VO2 Nanostructures",
-      "url": "https://arxiv.org/abs/2608.26401",
-      "summary": "arXiv:2608.26401v1 Announce Type: new Abstract: While thermal runaway occurs across diverse physical disciplines, its presence in subwavelength phase-change photonics remains unexplored because existing thermo-optical mo…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards a universal meta-optics solver via large language models",
-      "url": "https://arxiv.org/abs/2608.26417",
-      "summary": "arXiv:2608.26417v1 Announce Type: new Abstract: Metasurface design increasingly requires fast models that can operate across structurally distinct device families, rather than retraining a separate surrogate for every ge…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct numerical simulation of NOx formation in turbulent lean premixed hydrogen-air flames under engine-relevant conditions",
-      "url": "https://arxiv.org/abs/2608.26435",
-      "summary": "arXiv:2608.26435v1 Announce Type: new Abstract: In this study, direct numerical simulations (DNS) are employed to investigate NOx formation in turbulent lean premixed hydrogen-air flames under engine-relevant conditions.…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automatic generation of exchange-correlation response kernels",
-      "url": "https://arxiv.org/abs/2608.26440",
-      "summary": "arXiv:2608.26440v1 Announce Type: new Abstract: Computing density-functional response properties requires contracting derivatives of the exchange--correlation (xc) energy with perturbed densities on a grid. While the xc …",
       "ts": 1787889600000,
       "publishedAt": "2026-08-28T04:00:00.000Z"
     }
