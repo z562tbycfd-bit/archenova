@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-29T20:36:51.253Z",
+  "updated": "2026-08-29T23:03:46.847Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Strategic irrigation stress can lift lucerne seed yield and returns",
+      "url": "https://phys.org/news/2026-08-strategic-irrigation-stress-lucerne-seed.html",
+      "summary": "More water does not necessarily produce more alfalfa seed. A five-year trial near Keith, South Australia, found that strategically delaying irrigation until plants showed early signs of leaf drop generally increased seed…",
+      "ts": 1788037205000,
+      "publishedAt": "2026-08-29T21:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Airborne tuberculosis bacteria may mutate as they dry, revealing a target to curb drug resistance",
@@ -134,6 +142,14 @@
       "source": "Nature Communications",
       "title": "Hybrid exosomal nanomotors convert pathological ROS into transport-driving cues to enhance cartilage accumulation in osteoarthritis",
       "url": "https://www.nature.com/articles/s41467-026-76949-8",
+      "summary": "",
+      "ts": 1787961600000,
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Cascade electrosynthesis of glycolic acid from ethylene and oxygen with an energy efficiency of 62.9%",
+      "url": "https://www.nature.com/articles/s41467-026-75221-3",
       "summary": "",
       "ts": 1787961600000,
       "publishedAt": "2026-08-29T00:00:00.000Z"
@@ -783,22 +799,6 @@
       "title": "Apokamp-type Gas Discharge Phenomenon: Experimental and Theoretical Backgrounds",
       "url": "https://arxiv.org/abs/2608.26356",
       "summary": "arXiv:2608.26356v1 Announce Type: new Abstract: The apokamp discharge is an atmospheric-pressure plasma jet generated at the bending point of the discharge channel between high-voltage and floating-potential electrodes. …",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A European high-energy heavy-ion facility for electronics irradiation based at CERN: Concept Design Report",
-      "url": "https://arxiv.org/abs/2608.26369",
-      "summary": "arXiv:2608.26369v1 Announce Type: new Abstract: This proposal presents a concept design for a European high-energy heavy-ion facility dedicated to electronics radiation-effects testing, directly addressing the critical c…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Loss-tolerant hybrid metasurface mirror for reducing coating Brownian noise in precision optical cavities",
-      "url": "https://arxiv.org/abs/2608.26370",
-      "summary": "arXiv:2608.26370v1 Announce Type: new Abstract: We propose a hybrid mirror design that places an embedded metasurface beneath a Bragg reflector, combining the low coating Brownian noise of metasurface mirrors with the lo…",
       "ts": 1787889600000,
       "publishedAt": "2026-08-28T04:00:00.000Z"
     }

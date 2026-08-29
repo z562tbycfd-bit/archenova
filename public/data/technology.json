@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-29T20:36:54.213Z",
+  "updated": "2026-08-29T23:03:49.241Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "Rising seas, rising stakes: What increasing sea-levels mean to humanity",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168206",
+      "summary": "The ocean is rising faster now than at any point in recorded history. The impacts are already being felt and the threats are growing.",
+      "ts": 1788004800000,
+      "publishedAt": "2026-08-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "STAT",
       "title": "STAT+: A Novartis drug cut inflammation. Can it improve heart outcomes? ",
@@ -799,15 +808,6 @@
       "title": "After Israeli seizure of Kalandia training centre, UNRWA warns of impact on youth",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168219",
       "summary": "The seizure of a vocational training centre in occupied East Jerusalem has left hundreds of Palestinian young people without access to skills and training that could help shape their futures.",
-      "ts": 1787832000000,
-      "publishedAt": "2026-08-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN chief condemns ‘indifference’ as Ebola cases mount in DR Congo",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168217",
-      "summary": "The Ebola Bundibugyo outbreak in the Democratic Republic of the Congo (DRC) requires “urgent” action and funding to rein in its alarming spread, the UN Secretary-General told reporters at UN Headquarters on Thursday.",
       "ts": 1787832000000,
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "categoryId": "global-governance"
