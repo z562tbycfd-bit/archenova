@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-30T15:13:08.938Z",
+  "updated": "2026-08-30T19:08:00.576Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tides can be mapped much more locally using a new method based on satellite images",
+      "url": "https://phys.org/news/2026-08-tides-locally-method-based-satellite.html",
+      "summary": "When high or low tide occurs, the water does not necessarily rise and fall uniformly along the entire coastline. In fact, the height of the tide in a bay can vary by up to one meter (3 feet) from one location to another …",
+      "ts": 1788116404000,
+      "publishedAt": "2026-08-30T19:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "As super El Nino strengthens, study suggests that climate change is intensifying El Ninos",
+      "url": "https://phys.org/news/2026-08-super-el-nino-climate-ninos.html",
+      "summary": "A new study suggests that El Ninos—the natural climatic chaos agent that pops up periodically and spikes global temperatures—are getting stronger because of human-caused climate change.",
+      "ts": 1788112802000,
+      "publishedAt": "2026-08-30T18:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Infection kills gut cells, while diet reshapes existing ones, fruit fly study finds",
+      "url": "https://phys.org/news/2026-08-infection-gut-cells-diet-reshapes.html",
+      "summary": "The intestines rely on different strategies to rebuild themselves in response to diet changes versus infections, according to a new Cornell study—a finding that can shed light on how gut health adapts to harsh conditions…",
+      "ts": 1788109201000,
+      "publishedAt": "2026-08-30T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tropical Storm Karina strengthens into a hurricane in the Pacific, could be a major storm this week",
+      "url": "https://phys.org/news/2026-08-tropical-storm-karina-hurricane-pacific.html",
+      "summary": "Tropical Storm Karina strengthened into a hurricane in the Pacific Ocean on Sunday and could become a major storm this week, forecasters said. The cyclone's center was at far out sea and was not threatening land.",
+      "ts": 1788104401000,
+      "publishedAt": "2026-08-30T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's newest Roman space telescope launches on a quest to explore the hidden universe",
+      "url": "https://phys.org/news/2026-08-nasa-roman-space-telescope-quest.html",
+      "summary": "NASA's newest crown jewel blasted off Sunday to hunt for planets around other stars, explore secret dark energy and survey the cosmos like never before.",
+      "ts": 1788103614000,
+      "publishedAt": "2026-08-30T15:26:54.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New method tests magnet-powered braking for safer, more reusable spacecraft reentry",
+      "url": "https://phys.org/news/2026-08-method-magnet-powered-safer-reusable.html",
+      "summary": "Researchers from Tokyo Metropolitan University have created a new system to test magnetohydrodynamic aerobraking for spacecraft reentering the atmosphere. Their platform generates intense magnetic fields with a powerful …",
+      "ts": 1788103340000,
+      "publishedAt": "2026-08-30T15:22:20.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The length of your online reviews may help scammers map your friends and target them",
@@ -753,54 +801,6 @@
       "summary": "Australia said Friday it would evacuate workers from a research station on a remote island over the \"psychosocial\" risk posed by a potential outbreak of the highly contagious H5N1 avian influenza.",
       "ts": 1787906402000,
       "publishedAt": "2026-08-28T08:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bird flu detected in dead dolphin in South Australia",
-      "url": "https://phys.org/news/2026-08-bird-flu-dead-dolphin-south.html",
-      "summary": "H5N1 bird flu has been detected in a dead dolphin in South Australia, state officials said Friday, the first case of its kind in the country.",
-      "ts": 1787905201000,
-      "publishedAt": "2026-08-28T08:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Satellite images show bedrock and glacier collapsed on Nepal-China border, then rivers flooded",
-      "url": "https://phys.org/news/2026-08-satellite-images-bedrock-glacier-collapsed.html",
-      "summary": "As rescue teams searched for missing people following catastrophic flooding along the Nepal-China border, Earth scientists reviewed satellite imagery for clues to the cause and assessed the devastation.",
-      "ts": 1787904398000,
-      "publishedAt": "2026-08-28T08:06:38.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Low oxygen could limit insects' uphill escape from climate warming",
-      "url": "https://phys.org/news/2026-08-oxygen-limit-insects-uphill-climate.html",
-      "summary": "Reduced oxygen levels and air pressure at higher elevations may limit insects' ability to move upslope to escape a warming climate, with potential consequences for the essential services they provide, like pollination, a…",
-      "ts": 1787890202000,
-      "publishedAt": "2026-08-28T04:10:02.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time virtual circuits for plasma shape control via neural network emulators: integration and testing in the MAST-U PCS",
-      "url": "https://arxiv.org/abs/2608.26216",
-      "summary": "arXiv:2608.26216v1 Announce Type: new Abstract: The deployment of advanced, AI-enabled control algorithms in tokamak experiments requires robust integration with existing plasma control system (PCS) architectures and ext…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prompt Sensitivity of Generative Agents: Evidence from an Epidemic Model",
-      "url": "https://arxiv.org/abs/2608.26221",
-      "summary": "arXiv:2608.26221v1 Announce Type: new Abstract: As generative AI gains traction, researchers are investigating its potential to serve as proxies for humans. From undergoing cognitive psychology experiments to experiencin…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Holography as an Information Principle in Quantum Gravity",
-      "url": "https://arxiv.org/abs/2608.26282",
-      "summary": "arXiv:2608.26282v1 Announce Type: new Abstract: We draw on 't Hooft's seminal formulation of the holographic principle to analyse the methodological and conceptual role of information in quantum gravity. We argue that, i…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
     }
   ],
   "sources": [

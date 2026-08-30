@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-08-30T15:13:12.850Z",
+  "updated": "2026-08-30T19:08:04.989Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Protagonist and Takeda’s drug for rare blood cancer",
+      "url": "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/?utm_campaign=rss",
+      "summary": "Mimrylo, from Takeda and Protagonist, is a new kind of treatment for the blood cancer polycythemia vera.",
+      "ts": 1788114618000,
+      "publishedAt": "2026-08-30T18:30:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Revolution Shares Stay Flat Despite Historic FDA Approval of Oral Pancreatic Cancer Therapy",
+      "url": "https://www.genengnews.com/topics/cancer/stockwatch-revolution-shares-stay-flat-despite-historic-fda-approval-of-oral-pancreatic-cancer-therapy/",
+      "summary": "In April, Revolution shares rocketed 54% after the company announced dazzling data from its Phase III RASolute 302 trial (NCT06625320) evaluating Rasonque in patients with metastatic pancreatic ductal adenocarcinoma (PDA…",
+      "ts": 1788114300000,
+      "publishedAt": "2026-08-30T18:25:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Alnylam defends heart disease drugs after failure of AstraZeneca’s Wainua",
+      "url": "https://www.statnews.com/2026/08/30/alnylam-attr-astrazeneca-wainua-attruby-heart-disease/?utm_campaign=rss",
+      "summary": "An AstraZeneca heart disease trial failure has put Alnylam under pressure. It's mounting a defense of its medicines.",
+      "ts": 1788110945000,
+      "publishedAt": "2026-08-30T17:29:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Ribbon-Cutting Event for NASA Deep Space Network’s Deep Space Station 23",
+      "url": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
+      "summary": "Description Leadership from NASA Headquarters, the Jet Propulsion Laboratory, and the Deep Space Network (DSN) stand in front of the recently completed Deep Space Station 23 antenna at the Deep Space Network’s Goldstone …",
+      "ts": 1788101879000,
+      "publishedAt": "2026-08-30T14:57:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Deep Space Network’s New Goldstone Antenna Goes Online",
+      "url": "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/",
+      "summary": "Description Long shadows are cast by the recently completed Deep Space Station 23 at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. A 34-meter (114-foot) multifrequency beam-waveguid…",
+      "ts": 1788101588000,
+      "publishedAt": "2026-08-30T14:53:08.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Panorama Showcasing the 34-Meter Antennas of the DSN’s Goldstone Complex",
+      "url": "https://science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex/",
+      "summary": "Description Five antennas soak in the summer sun at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. The recently completed Deep Space Station 23, a 34-meter (114-foot) beam-waveguide …",
+      "ts": 1788101232000,
+      "publishedAt": "2026-08-30T14:47:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+      "url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+      "summary": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT Sunday aboard a SpaceX Falcon…",
+      "ts": 1788095886000,
+      "publishedAt": "2026-08-30T13:18:06.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "United Nations News",
       "title": "Rising seas, rising stakes: What increasing sea-levels mean to humanity",
@@ -748,69 +811,6 @@
       "ts": 1787836598000,
       "publishedAt": "2026-08-27T13:16:38.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Decoding DEA action on kratom-related substances",
-      "url": "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/?utm_campaign=rss",
-      "summary": "RFK Jr. downplays measles threat, FDA approves pancreatic drug, and more health news from Morning Rounds",
-      "ts": 1787835666000,
-      "publishedAt": "2026-08-27T13:01:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
-      "summary": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new ways to play, more supported devices and platforms, and even more big PC games headed to the cloud. New NVIDIA DLSS 4.5 technology contr…",
-      "ts": 1787835633000,
-      "publishedAt": "2026-08-27T13:00:33.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "summary": "NVIDIA Vice President of Hyperscale and HPC Ian Buck hand-delivers Vera CPU systems across the AI ecosystem as Vera begins shipping at scale.",
-      "ts": 1787835617000,
-      "publishedAt": "2026-08-27T13:00:17.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cassidy criticizes FDA oversight of abortion pill manufacturers in new report",
-      "url": "https://www.statnews.com/2026/08/27/bill-cassidy-louisiana-senator-new-report-mifepristone-heidi-overton/?utm_campaign=rss",
-      "summary": "The report raises a high-profile issue for Heidi Overton as she faces confirmation as FDA commissioner.",
-      "ts": 1787835600000,
-      "publishedAt": "2026-08-27T13:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
-      "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible f…",
-      "ts": 1787832600000,
-      "publishedAt": "2026-08-27T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168220",
-      "summary": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
-      "ts": 1787832000000,
-      "publishedAt": "2026-08-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "After Israeli seizure of Kalandia training centre, UNRWA warns of impact on youth",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168219",
-      "summary": "The seizure of a vocational training centre in occupied East Jerusalem has left hundreds of Palestinian young people without access to skills and training that could help shape their futures.",
-      "ts": 1787832000000,
-      "publishedAt": "2026-08-27T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
