@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-30T19:08:00.576Z",
+  "updated": "2026-08-30T22:29:33.360Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'Cut-to-fuse' strategy: A new route for molecular skeletal editing",
+      "url": "https://phys.org/news/2026-08-fuse-strategy-route-molecular-skeletal.html",
+      "summary": "Restructuring a molecule without rebuilding it from scratch is an increasingly important goal in modern organic chemistry. Skeletal editing is an approach that helps chemists explore new chemical structures and simplify …",
+      "ts": 1788123603000,
+      "publishedAt": "2026-08-30T21:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tides can be mapped much more locally using a new method based on satellite images",
@@ -793,14 +801,6 @@
       "summary": "Author(s): Lukas Scarfe, Yingwen Zhang, and Ebrahim Karimi Here, we present a proof-of-principle high-dimensional quantum key distribution (QKD) protocol utilizing the position and momentum entanglement of photon pairs. …",
       "ts": 1787911200000,
       "publishedAt": "2026-08-28T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Australia to evacuate sub-Antarctic research base over bird flu fears",
-      "url": "https://phys.org/news/2026-08-australia-evacuate-antarctic-base-bird.html",
-      "summary": "Australia said Friday it would evacuate workers from a research station on a remote island over the \"psychosocial\" risk posed by a potential outbreak of the highly contagious H5N1 avian influenza.",
-      "ts": 1787906402000,
-      "publishedAt": "2026-08-28T08:40:02.000Z"
     }
   ],
   "sources": [

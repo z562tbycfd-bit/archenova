@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-30T19:08:04.989Z",
+  "updated": "2026-08-30T22:29:36.342Z",
   "items": [
     {
       "source": "STAT",
@@ -64,6 +64,15 @@
       "ts": 1788095886000,
       "publishedAt": "2026-08-30T13:18:06.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘The lake is our life’: Protecting a shared lifeline in Uganda",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168228",
+      "summary": "On the shores of Nkondo, in Uganda’s Kikuube district, the day begins before sunrise. Fishers enter the lake to fish, while families around Lake Albert rely on its waters for food, income and daily survival.",
+      "ts": 1788091200000,
+      "publishedAt": "2026-08-30T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -801,15 +810,6 @@
       "summary": "The FDA approved a life-extending treatment for advanced pancreatic cancer from Revolution Medicines that is the first to attack a genetic cause",
       "ts": 1787836827000,
       "publishedAt": "2026-08-27T13:20:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "RFK Jr. said a Samoa trip had nothing to do with vaccines. New documents refute that",
-      "url": "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/?utm_campaign=rss",
-      "summary": "Health secretary Robert F. Kennedy Jr. said a Samoa trip had nothing to do with vaccines. New documents obtained by The Associated Press and The Guardian refute that testimony.",
-      "ts": 1787836598000,
-      "publishedAt": "2026-08-27T13:16:38.000Z",
       "categoryId": "bio"
     }
   ],
