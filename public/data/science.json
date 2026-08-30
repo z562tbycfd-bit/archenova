@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-30T10:20:21.260Z",
+  "updated": "2026-08-30T15:13:08.938Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The length of your online reviews may help scammers map your friends and target them",
+      "url": "https://phys.org/news/2026-08-length-online-scammers-friends.html",
+      "summary": "On the surface, posting online reviews looks like a win-win activity. It helps both businesses we like and people who might frequent them. But although posting reviews can benefit others, it can also put us all at risk, …",
+      "ts": 1788102002000,
+      "publishedAt": "2026-08-30T15:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Know your pest pressure: Monitoring is the foundation for managing lucerne seed wasp",
+      "url": "https://phys.org/news/2026-08-pest-pressure-foundation-lucerne-seed.html",
+      "summary": "Lucerne seed wasp (LSW) is a serious pest in alfalfa crops, causing damage that is difficult to see in the field. Its larvae feed inside developing seeds, meaning losses may not become apparent until harvest, cleaning or…",
+      "ts": 1788100201000,
+      "publishedAt": "2026-08-30T14:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Aboriginal artists painted giant ancestral beings as colonization arrived, study finds",
+      "url": "https://phys.org/news/2026-08-aboriginal-artists-giant-ancestral-colonization.html",
+      "summary": "Slithering across the ceiling of an Australian rock shelter is a giant snake with a crocodile-like head, razor-sharp teeth and a long tongue. It's more than 6 meters (20 feet) long, making it one of the largest Rainbow S…",
+      "ts": 1788098401000,
+      "publishedAt": "2026-08-30T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hollow-core fiber platform could help different quantum technologies connect",
+      "url": "https://phys.org/news/2026-08-hollow-core-fiber-platform-quantum.html",
+      "summary": "Quantum technologies promise secure communication networks, powerful forms of computing and new sensing tools. One of the major challenges, however, is that different quantum systems often operate at different wavelength…",
+      "ts": 1788094802000,
+      "publishedAt": "2026-08-30T13:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "NASA's Roman telescope set to launch on cosmic mapping mission",
@@ -767,38 +799,6 @@
       "title": "Holography as an Information Principle in Quantum Gravity",
       "url": "https://arxiv.org/abs/2608.26282",
       "summary": "arXiv:2608.26282v1 Announce Type: new Abstract: We draw on 't Hooft's seminal formulation of the holographic principle to analyse the methodological and conceptual role of information in quantum gravity. We argue that, i…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The mass ejected by a bubble bursting from a free drop",
-      "url": "https://arxiv.org/abs/2608.26296",
-      "summary": "arXiv:2608.26296v1 Announce Type: new Abstract: A bubble bursting at a flat liquid surface ejects droplets only below a critical Ohnesorge number Oh$_c\\simeq0.043$. We ask how much it ejects when the bath is a drop of fi…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moving forward with multilayer metastructures - simple design of complex optics",
-      "url": "https://arxiv.org/abs/2608.26298",
-      "summary": "arXiv:2608.26298v1 Announce Type: new Abstract: I propose a simple and progressive way of designing and fabricating complex multilayered optics, even as we scale to large numbers of layers. The approach relies on success…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "District-Level Food Environment Indicators and Social Vulnerability in S\\~ao Paulo",
-      "url": "https://arxiv.org/abs/2608.26299",
-      "summary": "arXiv:2608.26299v1 Announce Type: new Abstract: Urban food environments may reflect broader socioeconomic inequalities, but district-level evidence remains limited in Brazilian cities. This study examined whether indicat…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Retrievable but Unencountered: The Missing Exposure Denominator in Large Academic Ebook Collections",
-      "url": "https://arxiv.org/abs/2608.26308",
-      "summary": "arXiv:2608.26308v1 Announce Type: new Abstract: Academic libraries hold ebook collections so large that no reader can inspect more than a negligible fraction of the catalogue. Assessment of those collections rests almost…",
       "ts": 1787889600000,
       "publishedAt": "2026-08-28T04:00:00.000Z"
     }
