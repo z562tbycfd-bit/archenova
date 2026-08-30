@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-29T23:03:46.847Z",
+  "updated": "2026-08-30T04:20:16.084Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists melted a diamond and cracked a secret of ice giants",
+      "url": "https://phys.org/news/2026-08-scientists-diamond-secret-ice-giants.html",
+      "summary": "Some of the strangest weather in the solar system doesn't happen on Earth or even in Jupiter's Great Red Spot—it happens in the interiors of ice giants like Neptune and Uranus. Specifically, scientists have long believed…",
+      "ts": 1788049804000,
+      "publishedAt": "2026-08-30T00:30:04.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "What one sees depends on how far the eye has moved",
+      "url": "https://www.nature.com/articles/s41467-026-76503-6",
+      "summary": "",
+      "ts": 1788048000000,
+      "publishedAt": "2026-08-30T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Strategic irrigation stress can lift lucerne seed yield and returns",
@@ -783,22 +799,6 @@
       "title": "Adapting the TG-43 formalism for use in Diffusing alpha-emitters Radiation Therapy",
       "url": "https://arxiv.org/abs/2608.26330",
       "summary": "arXiv:2608.26330v1 Announce Type: new Abstract: Background: Diffusing alpha-emitters Radiation Therapy (\"Alpha DaRT\") enables the treatment of solid tumors using alpha particles. In Alpha DaRT, the tumor dose distributio…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Variational Acoustics",
-      "url": "https://arxiv.org/abs/2608.26340",
-      "summary": "arXiv:2608.26340v1 Announce Type: new Abstract: Many variational principles for acoustics have appeared in the literature, often introduced in an \\textit{ad hoc} manner by picking and choosing terms in a Lagrangian densi…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Apokamp-type Gas Discharge Phenomenon: Experimental and Theoretical Backgrounds",
-      "url": "https://arxiv.org/abs/2608.26356",
-      "summary": "arXiv:2608.26356v1 Announce Type: new Abstract: The apokamp discharge is an atmospheric-pressure plasma jet generated at the bending point of the discharge channel between high-voltage and floating-potential electrodes. …",
       "ts": 1787889600000,
       "publishedAt": "2026-08-28T04:00:00.000Z"
     }
