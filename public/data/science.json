@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-30T22:29:33.360Z",
+  "updated": "2026-08-31T01:10:27.390Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Using data to help wheat growers adapt to unpredictable weather",
+      "url": "https://phys.org/news/2026-08-wheat-growers-unpredictable-weather.html",
+      "summary": "For generations, wheat planting has followed predictable seasonal patterns. But this year, unseasonably warm weather in March and April accelerated wheat growth, pushing the crop into a vulnerable growth stage when wides…",
+      "ts": 1788136203000,
+      "publishedAt": "2026-08-31T00:30:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'Cut-to-fuse' strategy: A new route for molecular skeletal editing",
@@ -791,14 +799,6 @@
       "title": "ϒ-scheme heterojunction photocatalyst: Polarization-driven charge separation beyond interfacial limitations",
       "url": "http://link.aps.org/doi/10.1103/48s9-mn9m",
       "summary": "Author(s): Zi-Xuan Yang, Lei Li, Tao Huang, Hui Wan, X. S. Wang, Gui-Fang Huang, Wangyu Hu, and Wei-Qing Huang Interfacial electric fields are widely exploited in heterojunction photocatalysts to promote charge separatio…",
-      "ts": 1787911200000,
-      "publishedAt": "2026-08-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Spatial mode encoding for quantum key distribution: From hundreds to thousands of modes",
-      "url": "http://link.aps.org/doi/10.1103/x9qt-4qt3",
-      "summary": "Author(s): Lukas Scarfe, Yingwen Zhang, and Ebrahim Karimi Here, we present a proof-of-principle high-dimensional quantum key distribution (QKD) protocol utilizing the position and momentum entanglement of photon pairs. …",
       "ts": 1787911200000,
       "publishedAt": "2026-08-28T10:00:00.000Z"
     }
