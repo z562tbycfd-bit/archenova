@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-31T16:49:54.251Z",
+  "updated": "2026-08-31T21:46:50.040Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Spatial Transcriptomics Tools May Link Tumor Organization to Treatment Response",
+      "url": "https://www.genengnews.com/topics/omics/spatial-transcriptomics-tools-may-link-tumor-organization-to-treatment-response/",
+      "summary": "A new spatial transcriptomics framework compares tumor “floor plans.\" In a study of 262 solid tumors, the team identified recurring spatial groups that may connect spatial structure, biological function, and response to …",
+      "ts": 1788212493000,
+      "publishedAt": "2026-08-31T21:41:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "New guidelines on migraine prevention reflect increasing options for patients",
+      "url": "https://www.statnews.com/2026/08/31/migraine-prevention-medication-guidelines/?utm_campaign=rss",
+      "summary": "“There has been a wealth of new treatment available” for migraine prevention, said a co-author of new guidelines released Monday.",
+      "ts": 1788206400000,
+      "publishedAt": "2026-08-31T20:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Trump strikes nine more deals with drugmakers to lower prices",
+      "url": "https://www.statnews.com/2026/08/31/trump-most-favored-nation-drug-pricing-new-round-price-cuts-announced/?utm_campaign=rss",
+      "summary": "President Trump on Monday announced the next round of pricing deals with drugmakers, with nine new companies making such agreements.",
+      "ts": 1788205724000,
+      "publishedAt": "2026-08-31T19:48:44.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Single-Use Comes of Age—What Comes Next?",
+      "url": "https://www.genengnews.com/topics/bioprocessing/single-use-comes-of-age-what-comes-next/",
+      "summary": "Single-use systems (SUS) bioprocessing technology has become mainstream. But the more interesting question today is what the industry needs next, and how SUS will enable the future. The post Single-Use Comes of Age—What …",
+      "ts": 1788201010000,
+      "publishedAt": "2026-08-31T18:30:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in whi…",
+      "ts": 1788199200000,
+      "publishedAt": "2026-08-31T18:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "‘One-Two Punch’ Targets Resistance Mechanism in Aggressive Triple-Negative Breast Cancer",
+      "url": "https://www.genengnews.com/topics/cancer/one-two-punch-targets-resistance-mechanism-in-aggressive-triple-negative-breast-cancer/",
+      "summary": "Researchers discovered an unexpected role for lysyl oxidase inside triple negative breast cancer cells, and demonstrated that blocking LOX disrupts cellular processes to create a weakness that can be exploited using a se…",
+      "ts": 1788199065000,
+      "publishedAt": "2026-08-31T17:57:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Can buying a drug patent application be seen as a bid to prolong a monopoly?",
@@ -756,60 +810,6 @@
       "summary": "It took Cytokinetics 27 years to win its first drug approval. With the results of a new trial, its second could come much faster.",
       "ts": 1787912129000,
       "publishedAt": "2026-08-28T10:15:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In autopsy of failed heart disease study, AstraZeneca raises broader questions about silencer drugs",
-      "url": "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/?utm_campaign=rss",
-      "summary": "AstraZeneca detailed the surprise failure of a closely watched heart disease trial, a study with ripple effects for a competitive billion-dollar market.",
-      "ts": 1787908993000,
-      "publishedAt": "2026-08-28T09:23:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Observing Samba and Tango’s reentries",
-      "url": "https://www.esa.int/Space_Safety/Space_Debris/Observing_Samba_and_Tango_s_reentries",
-      "summary": "The final two of ESA's pioneering Cluster spacecraft, Samba and Tango, will end their journeys as they burn up in our atmosphere on 31 August and 1 September respectively. Their targeted reentries mark the end of a missi…",
-      "ts": 1787907780000,
-      "publishedAt": "2026-08-28T09:03:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How to sign up for a virtual power plant—and decide whether you should",
-      "url": "https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/",
-      "summary": "MIT Technology Review’s How To series helps you get things done. Your thermostat may not look like a power plant. Neither does your electric vehicle, home battery, or HVAC system. But utility and energy companies increas…",
-      "ts": 1787907600000,
-      "publishedAt": "2026-08-28T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Vaccines take center stage at federal autism advisory committee",
-      "url": "https://www.statnews.com/2026/08/28/vaccines-autism-advisory-committee-strategic-plan-boost-research-funding/?utm_campaign=rss",
-      "summary": "Comments about vaccines overshadowed an advisory committee meeting to discuss a plan for boosting federal funding for autism research.",
-      "ts": 1787905800000,
-      "publishedAt": "2026-08-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: A billing code was supposed to incentivize relationship-based primary care for Medicare patients. It may not be working as hoped",
-      "url": "https://www.statnews.com/2026/08/28/medicare-g2211-code-billing-research-primary-care/?utm_campaign=rss",
-      "summary": "Primary care is much more than what happens during an office visit, writes physician Ishani Ganguli.",
-      "ts": 1787905800000,
-      "publishedAt": "2026-08-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: We quit the CDC last year. The problems we protested remain",
-      "url": "https://www.statnews.com/2026/08/28/cdc-protest-resignations-one-year-later-houry-jernigan-daskalakis/?utm_campaign=rss",
-      "summary": "How disease spreads and the risks and benefits of interventions are questions for science, not for ideology.",
-      "ts": 1787905800000,
-      "publishedAt": "2026-08-28T08:30:00.000Z",
       "categoryId": "bio"
     }
   ],
