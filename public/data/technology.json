@@ -1,7 +1,178 @@
 {
   "ok": true,
-  "updated": "2026-08-31T08:17:25.677Z",
+  "updated": "2026-08-31T16:49:54.251Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Can buying a drug patent application be seen as a bid to prolong a monopoly?",
+      "url": "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss",
+      "summary": "A drug patent case involving Amgen is being closely watched given its potential implications for pharmaceutical patent deals broadly.",
+      "ts": 1788191813000,
+      "publishedAt": "2026-08-31T15:56:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Key Immune Cells Identified That Could Strengthen Flu Vaccines",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/key-immune-cells-identified-that-could-strengthen-flu-vaccines/",
+      "summary": "New research identifies long-lived lung immune cells that support protective T-cell memory, suggesting galectin-1 could enhance flu vaccines and improve respiratory immunity against influenza infection. The post Key Immu…",
+      "ts": 1788190407000,
+      "publishedAt": "2026-08-31T15:33:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care",
+      "url": "https://www.statnews.com/2026/08/31/health-care-inc-glp-1s-are-breaking-employers-and-340-battles/?utm_campaign=rss",
+      "summary": "Another hospital system sues CVS Health, how Medicaid cuts will change everything, and more",
+      "ts": 1788190050000,
+      "publishedAt": "2026-08-31T15:27:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
+      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-associate-members-2/",
+      "summary": "August 31, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Outlier and Rendezvous Robotics as its newest Associate Members, bringing expertise in reusable satellite platforms and adapta…",
+      "ts": 1788188400000,
+      "publishedAt": "2026-08-31T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Darpa Awards UC San Diego Up to $11.3 Million for ‘Smarter’ Red Blood Cells",
+      "url": "https://www.genengnews.com/topics/translational-medicine/darpa-awards-uc-san-diego-up-to-11-3-million-for-smarter-red-blood-cells/",
+      "summary": "The DARPA-funded UC San Diego project could allow scientists to temporarily improve human performance using redesigned red blood cells, with applications in both the military and in civilian medicine. The post Darpa Awar…",
+      "ts": 1788187803000,
+      "publishedAt": "2026-08-31T14:50:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Nancy Grace Roman Space Telescope Launches",
+      "url": "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
+      "summary": "NASA’s Nancy Grace Roman Space Telescope, aboard a SpaceX Falcon Heavy rocket, transits the Sun during launch from the agency’s Kennedy Space Center in Florida on Aug. 30, 2026. Roman is named after the agency’s first ch…",
+      "ts": 1788185431000,
+      "publishedAt": "2026-08-31T14:10:31.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Media briefing: BepiColombo's next milestone towards Mercury",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
+      "summary": "Video: 01:09:40 Rewatch the European Space Agency's 31 August 2026 online press briefing on the latest developments of the ESA/JAXA BepiColombo mission, Europe's and Japan's first mission to Mercury. This briefing focuse…",
+      "ts": 1788184800000,
+      "publishedAt": "2026-08-31T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Speed to Field Starts Below the Prime",
+      "url": "https://spacenews.com/speed-to-field-starts-below-the-prime/",
+      "summary": "I have spent much of my career looking at the defense industrial base from different vantage points: as a warfighter, inside major defense companies, and now leading a company whose […] The post Speed to Field Starts Bel…",
+      "ts": 1788183043000,
+      "publishedAt": "2026-08-31T13:30:43.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "What happened this month at the European Space Agency? (August 2026) ",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/What_happened_this_month_at_the_European_Space_Agency_August_2026",
+      "summary": "Video: 00:03:19 August was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries. From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, …",
+      "ts": 1788183000000,
+      "publishedAt": "2026-08-31T13:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Synthetically Engineered Marine Bacteria Could Play Key Role in Decarbonizing the Atmosphere at Industrial Scales",
+      "url": "https://www.genengnews.com/topics/bioprocessing/synthetically-engineered-marine-bacteria-could-play-key-role-in-decarbonizing-the-atmosphere-at-industrial-scales/",
+      "summary": "A group of academic researchers genetically engineered Alteromonas macleodii, a widespread marine bacterium, to produce more siderophores, accelerating olivine weathering 2.6-fold in seawater bioreactors and enhancing at…",
+      "ts": 1788182216000,
+      "publishedAt": "2026-08-31T13:16:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: We’re reading about drug pricing deals, a new cancer therapy approval, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss",
+      "summary": "In today's Pharmalittle newsletter, drug pricing deals, a new cancer therapy approval, and more of the latest pharma headlines.",
+      "ts": 1788181391000,
+      "publishedAt": "2026-08-31T13:03:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Can a pregnancy hormone steer a cardiovascular treatment? ",
+      "url": "https://www.statnews.com/2026/08/31/biotech-news-can-a-pregnancy-hormone-steer-a-cardiovascular-treatment/?utm_campaign=rss",
+      "summary": "Caution and survival in radiopharmaceuticals, mRNA skepticism, and more biotech news from The Readout",
+      "ts": 1788180499000,
+      "publishedAt": "2026-08-31T12:48:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-techniques-improve-rice-varieties-boost-yields-in-lao-pdr",
+      "summary": "",
+      "ts": 1788179402000,
+      "publishedAt": "2026-08-31T12:30:02.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "A winner, a loser, and a mid-stage signal from a major cardiology research conference",
+      "url": "https://www.statnews.com/2026/08/31/health-news-mid-stage-results-from-esc-2026-cardiology/?utm_campaign=rss",
+      "summary": "The mental health system after Lindsay Clancy, pushing boundaries for new radiopharmaceuticals, and more health news from Morning Rounds",
+      "ts": 1788179118000,
+      "publishedAt": "2026-08-31T12:25:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Roman Commissioning",
+      "url": "https://science.nasa.gov/missions/roman-space-telescope/roman-commissioning/",
+      "summary": "Where is Roman? Roman is making its three-month journey from Earth to Sun-Earth Lagrange Point 2, or L2. Along the way, Roman is undergoing a process called commissioning, where systems are turned on, adjusted, calibrate…",
+      "ts": 1788178613000,
+      "publishedAt": "2026-08-31T12:16:53.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Nepal flash flood imaged by satellites",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Nepal_flash_flood_imaged_by_satellites",
+      "summary": "With thousands of emergency responders conducting search-and-rescue operations following the catastrophic flash flood that struck northern Nepal on 26 August, satellite imagery is helping to reveal the scale of the inund…",
+      "ts": 1788177420000,
+      "publishedAt": "2026-08-31T11:57:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking",
+      "url": "https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history/?utm_campaign=rss",
+      "summary": "The latest study on CTE in football players “quantifies but does not reveal a problem,” writes Emily Harrison, a historian who studies brain injury in football.",
+      "ts": 1788165000000,
+      "publishedAt": "2026-08-31T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: After a rough stretch, mRNA gets a boost — at least for now",
+      "url": "https://www.statnews.com/2026/08/31/mrna-cancer-vaccine-intersects-politics-medicine/?utm_campaign=rss",
+      "summary": "With clinical success on a personalized mRNA vaccine for melanoma, experts are hoping for a more stable future for the technology in other areas.",
+      "ts": 1788165000000,
+      "publishedAt": "2026-08-31T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cadre of radiopharmaceuticals experts pushes the bounds in cancer therapy",
+      "url": "https://www.statnews.com/2026/08/31/radiopharmaceuticals-dosing-pushing-bounds-cancer-treatment/?utm_campaign=rss",
+      "summary": "Researchers believe radiopharmaceuticals have great promise as cancer treatments. But are they using them too timidly?",
+      "ts": 1788165000000,
+      "publishedAt": "2026-08-31T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Roman lifts off on a mission to survey the infrared sky ",
@@ -12,6 +183,15 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-23rd-batch-of-alps-treated-water-iaea-confirms",
+      "summary": "",
+      "ts": 1788154684000,
+      "publishedAt": "2026-08-31T05:38:04.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "APOD: 2026 August 31 – Launch of the Roman Space Telescope",
       "url": "https://science.nasa.gov/image-article/apod-2026-august-31-launch-of-the-roman-space-telescope/",
@@ -19,6 +199,15 @@
       "ts": 1788149100000,
       "publishedAt": "2026-08-31T04:05:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "ts": 1788148800000,
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "arXiv q-bio",
@@ -621,195 +810,6 @@
       "summary": "How disease spreads and the risks and benefits of interventions are questions for science, not for ideology.",
       "ts": 1787905800000,
       "publishedAt": "2026-08-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "ts": 1787896800000,
-      "publishedAt": "2026-08-28T06:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 28 – The Sky Turns Above Paranal",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-28-the-sky-turns-above-paranal/",
-      "summary": "APOD Science APOD APOD: 2026 August 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photog…",
-      "ts": 1787889900000,
-      "publishedAt": "2026-08-28T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "The Forested Floodplains of Congaree National Park",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-forested-floodplains-of-congaree-national-park/",
-      "summary": "The meandering Congaree River sustains towering forest ecosystems and fashions oxbow lakes as it shifts across its floodplain.",
-      "ts": 1787889660000,
-      "publishedAt": "2026-08-28T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pre-Registered External Evaluation Yields a Consistent Partial-Replication Category across Three Transcriptomic Foundation Models",
-      "url": "https://arxiv.org/abs/2608.26170",
-      "summary": "arXiv:2608.26170v1 Announce Type: new Abstract: Transcriptomic foundation models are increasingly used as reusable cell and gene representations, but validating them on new data under weak supervision and distribution sh…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Interpretable Tumor Microenvironment Representations by Fitting Pan-Cancer Cell State-Niche Correlation",
-      "url": "https://arxiv.org/abs/2608.26208",
-      "summary": "arXiv:2608.26208v1 Announce Type: new Abstract: In the tumor microenvironment, cell's state is influenced by cell-cell interactions (CCIs) with neighboring cells in its niches. Identifying dysregulated CCIs that are asso…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multimodal risk trajectories reveal heterogeneous paths to dementia",
-      "url": "https://arxiv.org/abs/2608.26210",
-      "summary": "arXiv:2608.26210v1 Announce Type: new Abstract: Dementia comprises biologically heterogeneous disorders, yet current risk assessment provides limited insight into how subtype-specific risk emerges and diverges before cli…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PathoMIC: A Benchmark for Cross-Species Antimicrobial Peptide Activity Prediction",
-      "url": "https://arxiv.org/abs/2608.26228",
-      "summary": "arXiv:2608.26228v1 Announce Type: new Abstract: With activity against multidrug-resistant pathogens and mechanisms distinct from conventional antibiotics, antimicrobial peptides (AMPs) offer a promising approach to comba…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Interpreting Latent Protein Language Model Features with Geometric Annotations",
-      "url": "https://arxiv.org/abs/2608.26419",
-      "summary": "arXiv:2608.26419v1 Announce Type: new Abstract: Protein language models (pLMs) encode information about protein sequences which enable downstream tasks such as structure prediction, but their internal representations are…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hysteresis and multistability in network spreading with neuronal activity feedback",
-      "url": "https://arxiv.org/abs/2608.26528",
-      "summary": "arXiv:2608.26528v1 Announce Type: new Abstract: Spreading processes on networks often interact with other dynamics on the same nodes. Neurodegenerative disease provides one example: pathological proteins spread through a…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "RegimeFormer: A Large Protein Model of Global Perturbation Regimes",
-      "url": "https://arxiv.org/abs/2608.26586",
-      "summary": "arXiv:2608.26586v1 Announce Type: new Abstract: Protein language models organize sequence and structure at scale, but a global representation of how proteins respond to mutation remains lacking. We present RegimeFormer, …",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DINIRS: Digital Twin for Individualized Treatment Effects of Non-Invasive Respiratory Support Strategies",
-      "url": "https://arxiv.org/abs/2608.26915",
-      "summary": "arXiv:2608.26915v1 Announce Type: new Abstract: Objective: Choosing between noninvasive respiratory support (NIRS) and invasive mechanical ventilation (IMV) for patients with acute respiratory failure is a complex, time-…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beta oscillation changes in ALS: A Dual-Site International Replication Study",
-      "url": "https://arxiv.org/abs/2608.27003",
-      "summary": "arXiv:2608.27003v1 Announce Type: new Abstract: Reproducible biomarkers that monitor motor and cognitive dysfunction in amyotrophic lateral sclerosis (ALS) are needed. Previous work reported reduced beta-band event-relat…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Surf_2_Volume: a workflow for converting CIFTI parcellations to NIfTI volume space",
-      "url": "https://arxiv.org/abs/2608.27012",
-      "summary": "arXiv:2608.27012v1 Announce Type: new Abstract: Parcellations distributed in Connectivity Informatics Technology Initiative (CIFTI) format cannot be used directly in many analysis programs that require volume input. Exis…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Conservative deterministic Markov models in mathematical biology: uniqueness of steady states, reversibility and computational methods",
-      "url": "https://arxiv.org/abs/2608.27252",
-      "summary": "arXiv:2608.27252v1 Announce Type: new Abstract: Ordinary differential equations are commonly used throughout the sciences to build mechanistic models of time-dependent processes. Often, such models are Markov models desc…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reservoir: A Large-Scale Simulated Dataset for Training and Evaluating Epidemiological Models",
-      "url": "https://arxiv.org/abs/2608.27408",
-      "summary": "arXiv:2608.27408v1 Announce Type: new Abstract: Large-scale, standardized datasets have driven many advances in AI-based scientific modeling, from protein structure prediction to natural language processing. Infectious d…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Assessing mentalization in humans and large language models",
-      "url": "https://arxiv.org/abs/2608.26291",
-      "summary": "arXiv:2608.26291v1 Announce Type: cross Abstract: Mentalization - the ability to infer others' beliefs and intentions to guide one's own choices - is a key cognitive function underlying human social interactions. Large l…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cheaper by the Batch: Shared Traversal for Genotype Graph Editing",
-      "url": "https://arxiv.org/abs/2608.26488",
-      "summary": "arXiv:2608.26488v1 Announce Type: cross Abstract: Updating a graph by inserting or replacing nodes while preserving semantics and reusing existing structure is a recurring computational problem. In population genetics, t…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Predicting Quantifiability from Primary Screens to Prioritize Dose-Response Profiling",
-      "url": "https://arxiv.org/abs/2608.26538",
-      "summary": "arXiv:2608.26538v1 Announce Type: cross Abstract: High-throughput drug screening relies on low-cost primary assays to prioritize compounds for more expensive dose-response profiling, where potency is ultimately quantifie…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GRAS: Guided Reduced-Variance Proposals and Adaptive Selection for Training-Free Reward Alignment in Discrete Diffusion",
-      "url": "https://arxiv.org/abs/2608.26585",
-      "summary": "arXiv:2608.26585v1 Announce Type: cross Abstract: Discrete diffusion models have become a strong, widely adopted class of generators for sequence data, and steering them toward a downstream reward at inference time, with…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sequential and distributive dual futile cycle: Hopf bifurcation can occur under parameter-rich kinetics but cannot occur under mass action kinetics",
-      "url": "https://arxiv.org/abs/2608.27081",
-      "summary": "arXiv:2608.27081v1 Announce Type: cross Abstract: This paper establishes that the system of ordinary differential equations arising from the sequential and distributive dual futile cycle has the structural capacity for H…",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Structural Theory of Admissible Transitions in Biological Reaction Networks",
-      "url": "https://arxiv.org/abs/2608.27201",
-      "summary": "arXiv:2608.27201v1 Announce Type: cross Abstract: Biological reaction networks often exhibit complex transient behavior that cannot be explained solely by the analysis of steady states or long-term persistence. Existing …",
-      "ts": 1787889600000,
-      "publishedAt": "2026-08-28T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
