@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-08-31T21:46:48.341Z",
+  "updated": "2026-09-01T01:03:34.746Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Australia's reefs follow trend of global coral cover decline",
+      "url": "https://phys.org/news/2026-08-australia-reefs-trend-global-coral.html",
+      "summary": "Australia's coral reefs are in relatively good condition compared with coral reefs globally, although coral cover on Australian reefs has declined over the past 40 years—reflecting the global trend, a major new report ha…",
+      "ts": 1788222001000,
+      "publishedAt": "2026-09-01T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Important role of plastid ion channels in plant stress response identified",
+      "url": "https://phys.org/news/2026-08-important-role-plastid-ion-channels.html",
+      "summary": "When plants are attacked by herbivores or pathogens, they must respond rapidly while also preparing for potential future attacks. Calcium, a cellular second messenger, and the plant hormone jasmonic acid play important r…",
+      "ts": 1788219604000,
+      "publishedAt": "2026-08-31T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Even small amounts of ocean plastic can affect petrel chicks",
+      "url": "https://phys.org/news/2026-08-small-amounts-ocean-plastic-affect.html",
+      "summary": "Ocean plastic pollution is accidentally on the menu for southern giant petrel chicks. Even small nibbles of it may affect their physiology during development, according to a study from the University of California, Davis…",
+      "ts": 1788218406000,
+      "publishedAt": "2026-08-31T23:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sliding sugars offer simpler, smarter route to precision liver-targeted therapies",
+      "url": "https://phys.org/news/2026-08-sugars-simpler-smarter-route-precision.html",
+      "summary": "Targeted drug delivery directly to the liver has unlocked major breakthroughs across medicine, but constructing the chemical key to enter liver cells remains complex and costly. Today, researchers at Kumamoto University,…",
+      "ts": 1788218402000,
+      "publishedAt": "2026-08-31T23:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Even ancient bacteria possessed intercellular communication structures like humans today, study finds",
+      "url": "https://phys.org/news/2026-08-ancient-bacteria-intercellular-communication-humans.html",
+      "summary": "Communication between cells in plants, animals and humans takes place via specialized connecting structures. An international team led by biologists from Heinrich Heine University Düsseldorf (HHU) and involving the Unive…",
+      "ts": 1788217205000,
+      "publishedAt": "2026-08-31T23:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI chatbot use for emotional support tied to loneliness in students",
+      "url": "https://phys.org/news/2026-08-ai-chatbot-emotional-loneliness-students.html",
+      "summary": "Young people leaning on AI chatbots for emotional support or personal advice are significantly more likely to struggle with serious emotional problems, feel isolated and doubt that they truly matter to others, a new uOtt…",
+      "ts": 1788216601000,
+      "publishedAt": "2026-08-31T22:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Role of ethics education in accounting fraud prevention",
+      "url": "https://phys.org/news/2026-08-role-ethics-accounting-fraud.html",
+      "summary": "Two SUNY Polytechnic Institute (SUNY Poly) College of Business faculty members are exploring how integrating ethics and values throughout accounting and business education can better prepare students to recognize and pre…",
+      "ts": 1788216006000,
+      "publishedAt": "2026-08-31T22:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'One-pot' CRISPR platform delivers lab-like sensitivity in 30 minutes for at-home testing",
+      "url": "https://phys.org/news/2026-08-pot-crispr-platform-lab-sensitivity.html",
+      "summary": "A research team from The Hong Kong University of Science and Technology (HKUST) has developed an innovative \"one-pot\" testing platform, known as TEMPO, that could transform highly sensitive nucleic acid testing from a la…",
+      "ts": 1788216003000,
+      "publishedAt": "2026-08-31T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nature's color palette explains why everything we see is a mix of red, yellow, green and blue",
+      "url": "https://phys.org/news/2026-08-nature-palette-red-yellow-green.html",
+      "summary": "Biologists and linguists alike have long puzzled over the universal human tendency to see and name colors as a combination of four \"pure\" hues—red, yellow, green and blue.",
+      "ts": 1788215403000,
+      "publishedAt": "2026-08-31T22:30:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Faint far-infrared radiation drives a correlated insulator-to-metal transition in magic-angle graphene",
+      "url": "https://phys.org/news/2026-08-faint-infrared-insulator-metal-transition.html",
+      "summary": "One of the central ideas in modern physics is the phase transition—a sudden transformation of the state of a material. We encounter phase transitions throughout everyday life: water freezes into ice, wax melts in the war…",
+      "ts": 1788214803000,
+      "publishedAt": "2026-08-31T22:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A single fix reverses the case for rolling back vehicle emissions standards",
+      "url": "https://phys.org/news/2026-08-reverses-case-vehicle-emissions-standards.html",
+      "summary": "Two administrations, the Biden administration and the second Trump administration, reached opposite conclusions about whether vehicle emissions standards should be rolled back. These conclusions came from different assum…",
+      "ts": 1788214204000,
+      "publishedAt": "2026-08-31T22:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: What dinosaur teeth reveal about diet and evolution",
+      "url": "https://phys.org/news/2026-08-qa-dinosaur-teeth-reveal-diet.html",
+      "summary": "What did dinosaurs eat? Teeth provide important clues to understanding the ecology of dinosaurs, which became extinct approximately 66 million years ago. Their shape, structure and patterns of wear can help scientists re…",
+      "ts": 1788213609000,
+      "publishedAt": "2026-08-31T22:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Femtosecond nano-imaging reveals ultrafast optical control of phonon polaritons",
+      "url": "https://phys.org/news/2026-08-femtosecond-nano-imaging-reveals-ultrafast.html",
+      "summary": "A collaborative research team has successfully visualized in real space the ultrafast optical modulation of hyperbolic phonon polaritons (HPhPs) in a van der Waals heterostructure composed of hBN and WS2. The research is…",
+      "ts": 1788213607000,
+      "publishedAt": "2026-08-31T22:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Managing chronic conditions together may be key to longer lifespan, canine study finds",
+      "url": "https://phys.org/news/2026-08-chronic-conditions-key-longer-lifespan.html",
+      "summary": "As dogs age, many develop more than one chronic health condition. New research from Texas A&M College of Veterinary Medicine and Biomedical Sciences (VMBS) shows those conditions can dramatically shorten a dog's lifespan…",
+      "ts": 1788213001000,
+      "publishedAt": "2026-08-31T21:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "ESA JUICE probe targets dark Jovian moon Kallichore in 2031",
@@ -547,6 +659,22 @@
       "publishedAt": "2026-08-31T10:00:00.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Flux-Floquet Instability in Fluctuating Superconductors",
+      "url": "http://link.aps.org/doi/10.1103/tq9r-g727",
+      "summary": "Author(s): Marios H. Michael, Duilio De Santis, Eugene A. Demler, and Patrick A. Lee Intense terahertz light triggers a flux-Floquet instability in high-temperature superconductors, generating a giant magnetic response t…",
+      "ts": 1788170400000,
+      "publishedAt": "2026-08-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Low-Depth Quantum Symmetrization",
+      "url": "http://link.aps.org/doi/10.1103/9qhy-ms2y",
+      "summary": "Author(s): Zhenning Liu, Andrew M. Childs, and Daniel Gottesman Researchers develop low-depth quantum symmetrization algorithms that enable efficient bosonic simulations, low-depth Dicke state preparation, and multiphoto…",
+      "ts": 1788170400000,
+      "publishedAt": "2026-08-31T10:00:00.000Z"
+    },
+    {
       "source": "APS PR Applied",
       "title": "Soft-tissue boundary-enhanced proton imaging driven by hollow lasers",
       "url": "http://link.aps.org/doi/10.1103/6kd9-47mv",
@@ -671,134 +799,6 @@
       "title": "A microwave SQUID multiplexing concept for macro-cryogenic calorimeter arrays",
       "url": "https://arxiv.org/abs/2608.27556",
       "summary": "arXiv:2608.27556v1 Announce Type: new Abstract: Massive cryogenic calorimeters read out by transition-edge sensors (TES) can reach eV-scale baseline resolution, but the single-channel dc-SQUID readout conventionally used…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Large-Scale Heterogeneous Data Organization for Scientific Foundation Models: A Nuclear Fusion Case Study",
-      "url": "https://arxiv.org/abs/2608.27578",
-      "summary": "arXiv:2608.27578v1 Announce Type: new Abstract: Training effective foundation models requires massive and organized datasets, yet scientific domains such as nuclear fusion present unique challenges due to largely heterog…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Criticality and universality in network dismantling",
-      "url": "https://arxiv.org/abs/2608.27613",
-      "summary": "arXiv:2608.27613v1 Announce Type: new Abstract: Identifying the smallest set of elements whose removal dismantle a complex network, known as the network dismantling problem, is a fundamental task with many practical appl…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Moisture-Vorticity Theory for the Boreal Summer Quasi-Biweekly Oscillation",
-      "url": "https://arxiv.org/abs/2608.27665",
-      "summary": "arXiv:2608.27665v1 Announce Type: new Abstract: We develop a moisture vorticity theory for the boreal summer quasi-biweekly oscillation (QBWO) in the tropics and analyze it with the aid of GPT-5.5. The model is formulate…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Assisted Deep Learning Denoising for Stabilized IMPULSED dMRI Microenvironment Parameter Fitting",
-      "url": "https://arxiv.org/abs/2608.27681",
-      "summary": "arXiv:2608.27681v1 Announce Type: new Abstract: Diffusion-weighted MRI (dMRI) is a powerful tool for quantifying cellular microenvironment parameters. This study proposes a physics-assisted deep learning (DL)-based denoi…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Application of the latent twins approach for clear sky retrieval from IASI observations",
-      "url": "https://arxiv.org/abs/2608.27692",
-      "summary": "arXiv:2608.27692v1 Announce Type: new Abstract: In recent years, data-driven approaches emerged as alternatives to traditional physics-based retrievals, taking advantage of machine learning techniques such as learnable p…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantified absorption of laser light by silver atoms in a hollow-cathode lamp",
-      "url": "https://arxiv.org/abs/2608.27700",
-      "summary": "arXiv:2608.27700v1 Announce Type: new Abstract: We present a quantitative study of laser absorption on the $5{^{2}}\\mathrm{S}_{1/2} \\rightarrow 5{^{2}}\\mathrm{P}_{3/2}$ transition of silver in a hollow-cathode lamp. Spec…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extending Silicon Avalanche Photodetection Beyond 2 ~\\mu$m by Direct GeSn Integration",
-      "url": "https://arxiv.org/abs/2608.27702",
-      "summary": "arXiv:2608.27702v1 Announce Type: new Abstract: Silicon avalanche photodiodes provide a technologically mature platform for sensitive photodetection, but their spectral response is intrinsically limited by the silicon ba…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deterministic control over launching efficiency of higher-order hyperbolic phonon polaritons",
-      "url": "https://arxiv.org/abs/2608.27733",
-      "summary": "arXiv:2608.27733v1 Announce Type: new Abstract: Hyperbolic materials, which exhibit an extreme form of birefringence enabling the volume confinement and frequency-dependent propagation of deeply sub-diffractional optical…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Don't look now: paying for documented need punishes discovery in US lead-pipe funding",
-      "url": "https://arxiv.org/abs/2608.27736",
-      "summary": "arXiv:2608.27736v1 Announce Type: new Abstract: The United States is allotting USD 15 billion for lead service line replacement in proportion to documented lead, the largest of a growing class of environmental-indicator …",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Noise-robust navigation from an adaptive run-and-tumble policy",
-      "url": "https://arxiv.org/abs/2608.27751",
-      "summary": "arXiv:2608.27751v1 Announce Type: new Abstract: How do organisms navigate when the signals guiding them are noisy? Variance adaptation, the rescaling of sensitivity to noise, is common in sensory systems, but its role in…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frequency Synchronization Circuit Model for Analog Vector-Matrix Multiplication in the Frequency Domain",
-      "url": "https://arxiv.org/abs/2608.27765",
-      "summary": "arXiv:2608.27765v1 Announce Type: new Abstract: This work introduces a frequency synchronization circuit model for analog vector-matrix multiplication in the frequency domain. The frequency synchronization is implemented…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "OrbGNN: A Wave function-based Machine Learning Interelectronic Representation",
-      "url": "https://arxiv.org/abs/2608.27806",
-      "summary": "arXiv:2608.27806v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) have become emerging tools in molecular modeling and computational chemistry. By learning high-dimensional potential energy …",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Migration of Belle II TOP Feature Extraction from the Zynq Processing System to PCIe40 Readout PCs",
-      "url": "https://arxiv.org/abs/2608.27814",
-      "summary": "arXiv:2608.27814v1 Announce Type: new Abstract: The Belle II Time-of-Propagation (TOP) detector is a key system for charged-particle identification (PID). Although TOP operated successfully during initial Belle II data t…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resolving Spin-Phonon Relaxation Pathways in Molecular Qubits via Regularized Regression",
-      "url": "https://arxiv.org/abs/2608.27820",
-      "summary": "arXiv:2608.27820v1 Announce Type: new Abstract: Designing molecular qubits requires controlling the spin-lattice relaxation pathways that fundamentally limit the coherence time. For spin-1/2 molecular qubits, significant…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RNA-like Polyelectrolyte in a Viral Capsid: Molecular Dynamics with Explicit Electrostatic Interactions",
-      "url": "https://arxiv.org/abs/2608.27825",
-      "summary": "arXiv:2608.27825v1 Announce Type: new Abstract: The organization of RNA genomes within viral capsids is primarily controlled by electrostatic interactions between the negatively charged genome and positively charged N-te…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reinforcement-learning control of turbulence transition in the modified Hasegawa-Wakatani system",
-      "url": "https://arxiv.org/abs/2608.27845",
-      "summary": "arXiv:2608.27845v1 Announce Type: new Abstract: Control of plasma turbulence remains a long-standing challenge in magnetically confined fusion research. Here, we explore a reinforcement-learning (RL) approach for bidirec…",
       "ts": 1788148800000,
       "publishedAt": "2026-08-31T04:00:00.000Z"
     }

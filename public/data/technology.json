@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-31T21:46:50.040Z",
+  "updated": "2026-09-01T01:03:38.226Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -40,7 +40,7 @@
     },
     {
       "source": "MIT Technology Review",
-      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
       "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in whi…",
       "ts": 1788199200000,
@@ -226,6 +226,15 @@
       "ts": 1788165000000,
       "publishedAt": "2026-08-31T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "ts": 1788159600000,
+      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "ESA",
@@ -802,15 +811,6 @@
       "ts": 1787916973000,
       "publishedAt": "2026-08-28T11:36:13.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cytokinetics details trial win for what could be its next approval",
-      "url": "https://www.statnews.com/2026/08/28/cytokinetics-myqorzo-aficamten-nhcm-acacia-trial-success/?utm_campaign=rss",
-      "summary": "It took Cytokinetics 27 years to win its first drug approval. With the results of a new trial, its second could come much faster.",
-      "ts": 1787912129000,
-      "publishedAt": "2026-08-28T10:15:29.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
