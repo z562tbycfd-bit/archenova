@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-09-01T13:13:41.793Z",
+  "updated": "2026-09-01T17:41:18.627Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a reproductive psychiatrist. The Lindsay Clancy trial will cause terrible damage to my field",
+      "url": "https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry/?utm_campaign=rss",
+      "summary": "“The whole of my field has been flattened into a single lazy question: Did the health care system fail her?” writes Jennifer Okwerekwu.",
+      "ts": 1788283717000,
+      "publishedAt": "2026-09-01T17:28:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "ts": 1788282000000,
+      "publishedAt": "2026-09-01T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Lilly Looks Beyond Obesity with Up-to-$2.9B Acquisition of Merida Biosciences",
+      "url": "https://www.genengnews.com/topics/translational-medicine/lilly-looks-beyond-obesity-with-up-to-2-9b-acquisition-of-merida-biosciences/",
+      "summary": "Based in Cambridge, MA, Merida develops biologic drugs that are engineered to selectively degrade pathogenic autoantibodies linked to a number of immune-mediated conditions. Merida has said its precision degradation appr…",
+      "ts": 1788281458000,
+      "publishedAt": "2026-09-01T16:50:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: 5 burning questions on Trump’s latest deals with drugmakers",
+      "url": "https://www.statnews.com/2026/09/01/trump-pharma-deals-analysis-latest-round-most-favored-nation-drug-pricing/?utm_campaign=rss",
+      "summary": "Here are some of the key questions about the agreements the Trump administration has reached with drugmakers on pricing.",
+      "ts": 1788274282000,
+      "publishedAt": "2026-09-01T14:51:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Making the AI-powered case for legacy modernization",
+      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+      "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization …",
+      "ts": 1788271200000,
+      "publishedAt": "2026-09-01T14:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Novartis gets multiple sclerosis win with BTK inhibitor",
+      "url": "https://www.statnews.com/2026/09/01/biotech-news-novartis-gets-multiple-sclerosis-win-with-btk-inhibitor/?utm_campaign=rss",
+      "summary": "More Trump drug pricing deals, GSK speeds up development of mRNA flu vaccine, and other biotech news",
+      "ts": 1788269653000,
+      "publishedAt": "2026-09-01T13:34:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Novartis and Bristol pausing cell therapy trials, a $480K cancer drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/?utm_campaign=rss",
+      "summary": "Novartis and Bristol Myers Squibb have paused multiple cell therapy trials, while $480,000 has now become a routine price for a cancer drug. Read the latest pharma headlines in today's…",
+      "ts": 1788268866000,
+      "publishedAt": "2026-09-01T13:21:06.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA clears Stryker’s ‘surgical cockpit’ that uses Apple’s VR headset, Vision Pro",
@@ -37,6 +100,33 @@
       "ts": 1788264184000,
       "publishedAt": "2026-09-01T12:03:04.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "ts": 1788264000000,
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Food aid cutback in the occupied West Bank as health fears grow in Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168237",
+      "summary": "Lack of funding has forced the World Food Programme (WFP) to slash aid to families in the West Bank by half even though needs have more than doubled over the past two years.",
+      "ts": 1788264000000,
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nepal floods: Mounting death toll and concern for women and girls",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168234",
+      "summary": "As rescue efforts continue in Nepal, humanitarians are focused on how the recent deadly flash floods have impacted women and girls, as well as access to healthcare.",
+      "ts": 1788264000000,
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "ESA",
@@ -501,7 +591,7 @@
       "source": "Genetic Engineering News",
       "title": "Spatial Transcriptomics Tools May Link Tumor Organization to Treatment Response",
       "url": "https://www.genengnews.com/topics/omics/spatial-transcriptomics-tools-may-link-tumor-organization-to-treatment-response/",
-      "summary": "A new spatial transcriptomics framework compares tumor “floor plans.\" In a study of 262 solid tumors, the team identified recurring spatial groups that may connect spatial structure, biological function, and response to …",
+      "summary": "A new spatial transcriptomics framework compares tumor \"floor plans.\" In a study of 262 solid tumors, the team identified recurring spatial groups that may connect spatial structure, biological function, and response to …",
       "ts": 1788212493000,
       "publishedAt": "2026-08-31T21:41:33.000Z",
       "categoryId": "bio"
@@ -526,7 +616,7 @@
     },
     {
       "source": "STAT",
-      "title": "Trump strikes nine more deals with drugmakers to lower prices",
+      "title": "STAT+: Trump strikes nine more deals with drugmakers to lower prices",
       "url": "https://www.statnews.com/2026/08/31/trump-most-favored-nation-drug-pricing-new-round-price-cuts-announced/?utm_campaign=rss",
       "summary": "President Trump on Monday announced the next round of pricing deals with drugmakers, with nine new companies making such agreements.",
       "ts": 1788205724000,
@@ -705,112 +795,22 @@
       "categoryId": "space"
     },
     {
-      "source": "ESA",
-      "title": "Nepal flash flood imaged by satellites",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Nepal_flash_flood_imaged_by_satellites",
-      "summary": "With thousands of emergency responders conducting search-and-rescue operations following the catastrophic flash flood that struck northern Nepal on 26 August, satellite imagery is helping to reveal the scale of the inund…",
-      "ts": 1788177420000,
-      "publishedAt": "2026-08-31T11:57:00.000Z",
-      "categoryId": "space"
+      "source": "United Nations News",
+      "title": "Nepal flooding deaths surpass 900 as needs climb",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168233",
+      "summary": "The confirmed death toll from Nepal’s catastrophic floods has surged to 903, with more than 4,200 still missing as rescue crews and humanitarian workers battle blocked highways to reach the hardest-hit areas, UN Spokespe…",
+      "ts": 1788177600000,
+      "publishedAt": "2026-08-31T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
-      "source": "STAT",
-      "title": "Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking",
-      "url": "https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history/?utm_campaign=rss",
-      "summary": "The latest study on CTE in football players “quantifies but does not reveal a problem,” writes Emily Harrison, a historian who studies brain injury in football.",
-      "ts": 1788165000000,
-      "publishedAt": "2026-08-31T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: After a rough stretch, mRNA gets a boost — at least for now",
-      "url": "https://www.statnews.com/2026/08/31/mrna-cancer-vaccine-intersects-politics-medicine/?utm_campaign=rss",
-      "summary": "With clinical success on a personalized mRNA vaccine for melanoma, experts are hoping for a more stable future for the technology in other areas.",
-      "ts": 1788165000000,
-      "publishedAt": "2026-08-31T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cadre of radiopharmaceuticals experts pushes the bounds in cancer therapy",
-      "url": "https://www.statnews.com/2026/08/31/radiopharmaceuticals-dosing-pushing-bounds-cancer-treatment/?utm_campaign=rss",
-      "summary": "Researchers believe radiopharmaceuticals have great promise as cancer treatments. But are they using them too timidly?",
-      "ts": 1788165000000,
-      "publishedAt": "2026-08-31T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "ts": 1788159600000,
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "ts": 1788159600000,
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Roman lifts off on a mission to survey the infrared sky ",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky",
-      "summary": "Image: NASA’s Nancy Grace Roman Space Telescope lifted off on a SpaceX Falcon Heavy rocket from NASA’s Kennedy Space Center in Florida, USA, at 07:26 EDT / 12:26 BST/ 13:26 CEST on 30 August 2026. With the successful lau…",
-      "ts": 1788159600000,
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-23rd-batch-of-alps-treated-water-iaea-confirms",
-      "summary": "",
-      "ts": 1788154684000,
-      "publishedAt": "2026-08-31T05:38:04.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 31 – Launch of the Roman Space Telescope",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-31-launch-of-the-roman-space-telescope/",
-      "summary": "APOD Science APOD APOD: 2026 August 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
-      "ts": 1788149100000,
-      "publishedAt": "2026-08-31T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Non-standard memory models with indexed retrieval",
-      "url": "https://arxiv.org/abs/2608.27479",
-      "summary": "arXiv:2608.27479v1 Announce Type: new Abstract: The standard memory models for neural networks are variants of the Hopfield network, where feature representations are stored as vectors in a matrix. Retrieval happens base…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multiscale Community-Based Fingerprinting of Signed Functional Networks",
-      "url": "https://arxiv.org/abs/2608.27483",
-      "summary": "arXiv:2608.27483v1 Announce Type: new Abstract: Objective: Recent studies demonstrate that functional connectomes contain subject-specific signatures, or \\textit{fingerprints}, that can identify individuals across repeat…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
+      "source": "United Nations News",
+      "title": "‘Slavery is not a thing of the past’: UN supports call for reparations",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168232",
+      "summary": "Slavery is not just a thing of the past. Its effects continue to be felt in systemic inequality and racism. This was reiterated on Monday by the UN Committee against Racial Discrimination (CERD) as the world marks the In…",
+      "ts": 1788177600000,
+      "publishedAt": "2026-08-31T12:00:00.000Z",
+      "categoryId": "global-governance"
     }
   ],
   "categories": [
