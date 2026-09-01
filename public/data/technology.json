@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-01T17:41:18.627Z",
+  "updated": "2026-09-01T20:44:20.037Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "How AI plotted an interstellar journey to Alpha Centauri",
+      "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+      "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. It’s a hugely ambitious mission—if all goes well, the space…",
+      "ts": 1788289836000,
+      "publishedAt": "2026-09-01T19:10:36.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Advanced Imaging Technique Reveals Immune Cell Metabolic States in Blood Samples",
+      "url": "https://www.genengnews.com/topics/translational-medicine/advanced-imaging-technique-reveals-immune-cell-metabolic-states-in-blood-samples/",
+      "summary": "Researchers showed how optical metabolic imaging (OMI) can be used to characterize metabolic activity within immune cells from the peripheral blood of patients, which could potentially help to improve disease diagnostics…",
+      "ts": 1788288756000,
+      "publishedAt": "2026-09-01T18:52:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: House votes to temporarily block Trump plan to politicize federal grants",
+      "url": "https://www.statnews.com/2026/09/01/stopgap-spending-bill-contains-reprieve-nih-research-grant-control/?utm_campaign=rss",
+      "summary": "The House voted to pass a stopgap funding bill that, for now, blocks a White House proposal to give political appointees more control over research grants.",
+      "ts": 1788286197000,
+      "publishedAt": "2026-09-01T18:09:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Opinion: I’m a reproductive psychiatrist. The Lindsay Clancy trial will cause terrible damage to my field",
@@ -84,6 +111,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "ts": 1788267600000,
+      "publishedAt": "2026-09-01T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
       "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
@@ -109,6 +145,24 @@
       "ts": 1788264000000,
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168239",
+      "summary": "UN Secretary-General António Guterres on Tuesday urged leaders of the Shanghai Cooperation Organization (SCO) to help reshape global governance for a changing world, arguing that a more multipolar international order can…",
+      "ts": 1788264000000,
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Decades of war have left ‘depth and breadth’ of trauma across Afghanistan, UN finds",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168238",
+      "summary": "Victims of Afghanistan’s decades-long armed conflict continue to suffer profound physical, psychological, social and economic consequences, often without access to justice, reparation or formal acknowledgement of the har…",
+      "ts": 1788264000000,
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -757,60 +811,6 @@
       "ts": 1788181391000,
       "publishedAt": "2026-08-31T13:03:11.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Can a pregnancy hormone steer a cardiovascular treatment? ",
-      "url": "https://www.statnews.com/2026/08/31/biotech-news-can-a-pregnancy-hormone-steer-a-cardiovascular-treatment/?utm_campaign=rss",
-      "summary": "Caution and survival in radiopharmaceuticals, mRNA skepticism, and more biotech news from The Readout",
-      "ts": 1788180499000,
-      "publishedAt": "2026-08-31T12:48:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
-      "url": "http://www.iaea.org/newscenter/news/nuclear-techniques-improve-rice-varieties-boost-yields-in-lao-pdr",
-      "summary": "",
-      "ts": 1788179402000,
-      "publishedAt": "2026-08-31T12:30:02.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "A winner, a loser, and a mid-stage signal from a major cardiology research conference",
-      "url": "https://www.statnews.com/2026/08/31/health-news-mid-stage-results-from-esc-2026-cardiology/?utm_campaign=rss",
-      "summary": "The mental health system after Lindsay Clancy, pushing boundaries for new radiopharmaceuticals, and more health news from Morning Rounds",
-      "ts": 1788179118000,
-      "publishedAt": "2026-08-31T12:25:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Roman Commissioning",
-      "url": "https://science.nasa.gov/missions/roman-space-telescope/roman-commissioning/",
-      "summary": "Where is Roman? Roman is making its three-month journey from Earth to Sun-Earth Lagrange Point 2, or L2. Along the way, Roman is undergoing a process called commissioning, where systems are turned on, adjusted, calibrate…",
-      "ts": 1788178613000,
-      "publishedAt": "2026-08-31T12:16:53.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Nepal flooding deaths surpass 900 as needs climb",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168233",
-      "summary": "The confirmed death toll from Nepal’s catastrophic floods has surged to 903, with more than 4,200 still missing as rescue crews and humanitarian workers battle blocked highways to reach the hardest-hit areas, UN Spokespe…",
-      "ts": 1788177600000,
-      "publishedAt": "2026-08-31T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Slavery is not a thing of the past’: UN supports call for reparations",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168232",
-      "summary": "Slavery is not just a thing of the past. Its effects continue to be felt in systemic inequality and racism. This was reiterated on Monday by the UN Committee against Racial Discrimination (CERD) as the world marks the In…",
-      "ts": 1788177600000,
-      "publishedAt": "2026-08-31T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
