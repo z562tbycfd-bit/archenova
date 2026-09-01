@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-09-01T20:44:20.037Z",
+  "updated": "2026-09-01T23:06:56.888Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: ADA review of members’ expulsion denies group censored opinions, called in police",
+      "url": "https://www.statnews.com/2026/09/01/ada-members-review-june-expulsion-denies-censoring-opinions-calling-new-orleans-police/?utm_campaign=rss",
+      "summary": "A review of findings from a five-person committee is being sent to the ADA board for action, STAT has learned, but it appears unlikely to quiet the controversy.",
+      "ts": 1788303960000,
+      "publishedAt": "2026-09-01T23:06:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Diabetes association CEO: What an independent review says happened at the ADA’s controversial June conference",
+      "url": "https://www.statnews.com/2026/09/01/american-diabetes-association-june-conference-independent-review/?utm_campaign=rss",
+      "summary": "“This is not a moment our community can afford to spend fighting itself,” writes American Diabetes Association CEO Charles “Chuck” Henderson.",
+      "ts": 1788303600000,
+      "publishedAt": "2026-09-01T23:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Single-Cell Striatum Atlas Reveals Neurological Disorder Vulnerabilities",
+      "url": "https://www.genengnews.com/topics/translational-medicine/single-cell-striatum-atlas-reveals-neurological-disorder-vulnerabilities/",
+      "summary": "Researchers generated a single-cell atlas of the striatum, identifying 31 neuronal subpopulations and disease-linked vulnerabilities that could inform studies of Huntington’s disease, schizophrenia, depression, and subst…",
+      "ts": 1788301919000,
+      "publishedAt": "2026-09-01T22:31:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "TraceIQ Launched to Maximize Pharmaceutical Traceability",
+      "url": "https://www.genengnews.com/topics/bioprocessing/traceiq-launched-to-maximize-pharmaceutical-traceability/",
+      "summary": "TraceIQ, which was developed and being marketing by Systech, combines enterprise traceability, operational intelligence, and AI-assisted investigations to help manufacturers prevent disruptions, accelerate exception reso…",
+      "ts": 1788298606000,
+      "publishedAt": "2026-09-01T21:36:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
+      "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+      "summary": "“We’re at an inflection point in cybersecurity,” Jensen Huang told a sold-out crowd at CrowdStrike’s Fal.Con 2026 in Las Vegas Tuesday. Attacks are now automated. Defense has to be, too. The NVIDIA founder and CEO joined…",
+      "ts": 1788297560000,
+      "publishedAt": "2026-09-01T21:19:20.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Andelyn to Support Manufacturing Scaleup for Genprex’s Diabetes Gene Therapy",
+      "url": "https://www.genengnews.com/topics/bioprocessing/andelyn-to-support-manufacturing-scaleup-for-genprexs-diabetes-gene-therapy/",
+      "summary": "Under the agreement, Andelyn will transition Genprex's adeno-associated virus (AAV)-based diabetes gene therapy candidate with process optimization, scale-up, and IND-enabling and clinical-stage manufacturing to support …",
+      "ts": 1788297435000,
+      "publishedAt": "2026-09-01T21:17:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Selects Blue Origin as Mars Telecommunications Network Provider",
+      "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
+      "summary": "NASA awarded Blue Origin a contract Tuesday to develop the agency’s Mars Telecommunications Network, a next-generation communications system that will enable reliable, high-bandwidth communications and navigation service…",
+      "ts": 1788296917000,
+      "publishedAt": "2026-09-01T21:08:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "What’s Up: September 2026 Skywatching Tips from NASA",
+      "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-september-2026-skywatching-tips-from-nasa/",
+      "summary": "Brilliant Venus and a Harvest Moon Use the Moon to find Antares and the Teapot, spot brilliant Venus, welcome the equinox, and see the Harvest Moon near Saturn and Neptune. Skywatching Highlights Transcript The Moon join…",
+      "ts": 1788290125000,
+      "publishedAt": "2026-09-01T19:15:25.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "How AI plotted an interstellar journey to Alpha Centauri",
@@ -28,6 +100,15 @@
       "ts": 1788286197000,
       "publishedAt": "2026-09-01T18:09:57.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Historic Engines Take Their Place on Artemis III",
+      "url": "https://www.nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii/",
+      "summary": "On Aug. 24, technicians at NASA’s Kennedy Space Center in Florida began installing the four RS‑25 engines in the core stage of the agency’s Space Launch System (SLS) rocket that will carry the Artemis III crew into low E…",
+      "ts": 1788283835000,
+      "publishedAt": "2026-09-01T17:30:35.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -234,6 +315,15 @@
       "summary": "APOD Science APOD APOD: 2026 September 1 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photog…",
       "ts": 1788235500000,
       "publishedAt": "2026-09-01T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Ice Island Survives Run-In With Joe Island",
+      "url": "https://science.nasa.gov/earth/earth-observatory/iceberg-from-petermann-glacier-speeds-away/",
+      "summary": "In summer 2026, a substantial iceberg calved from Petermann Glacier in northwest Greenland and swiftly drifted into Nares Strait, colliding with an island along the way.",
+      "ts": 1788235200000,
+      "publishedAt": "2026-09-01T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -624,15 +714,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Ice Island Survives Run-In With Joe Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/iceberg-from-petermann-glacier-speeds-away/",
-      "summary": "In summer 2026, a substantial iceberg calved from Petermann Glacier in northwest Greenland and swiftly drifted into Nares Strait, colliding with an island along the way.",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "Nature Energy",
       "title": "Industrializing reactive capture of CO<sub>2</sub>",
       "url": "https://www.nature.com/articles/s41560-026-02113-7",
@@ -729,87 +810,6 @@
       "summary": "New research identifies long-lived lung immune cells that support protective T-cell memory, suggesting galectin-1 could enhance flu vaccines and improve respiratory immunity against influenza infection. The post Key Immu…",
       "ts": 1788190407000,
       "publishedAt": "2026-08-31T15:33:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care",
-      "url": "https://www.statnews.com/2026/08/31/health-care-inc-glp-1s-are-breaking-employers-and-340-battles/?utm_campaign=rss",
-      "summary": "Another hospital system sues CVS Health, how Medicaid cuts will change everything, and more",
-      "ts": 1788190050000,
-      "publishedAt": "2026-08-31T15:27:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
-      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-associate-members-2/",
-      "summary": "August 31, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Outlier and Rendezvous Robotics as its newest Associate Members, bringing expertise in reusable satellite platforms and adapta…",
-      "ts": 1788188400000,
-      "publishedAt": "2026-08-31T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Darpa Awards UC San Diego Up to $11.3 Million for ‘Smarter’ Red Blood Cells",
-      "url": "https://www.genengnews.com/topics/translational-medicine/darpa-awards-uc-san-diego-up-to-11-3-million-for-smarter-red-blood-cells/",
-      "summary": "The DARPA-funded UC San Diego project could allow scientists to temporarily improve human performance using redesigned red blood cells, with applications in both the military and in civilian medicine. The post Darpa Awar…",
-      "ts": 1788187803000,
-      "publishedAt": "2026-08-31T14:50:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Nancy Grace Roman Space Telescope Launches",
-      "url": "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
-      "summary": "NASA’s Nancy Grace Roman Space Telescope, aboard a SpaceX Falcon Heavy rocket, transits the Sun during launch from the agency’s Kennedy Space Center in Florida on Aug. 30, 2026. Roman is named after the agency’s first ch…",
-      "ts": 1788185431000,
-      "publishedAt": "2026-08-31T14:10:31.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Media briefing: BepiColombo's next milestone towards Mercury",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
-      "summary": "Video: 01:09:40 Rewatch the European Space Agency's 31 August 2026 online press briefing on the latest developments of the ESA/JAXA BepiColombo mission, Europe's and Japan's first mission to Mercury. This briefing focuse…",
-      "ts": 1788184800000,
-      "publishedAt": "2026-08-31T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Speed to Field Starts Below the Prime",
-      "url": "https://spacenews.com/speed-to-field-starts-below-the-prime/",
-      "summary": "I have spent much of my career looking at the defense industrial base from different vantage points: as a warfighter, inside major defense companies, and now leading a company whose […] The post Speed to Field Starts Bel…",
-      "ts": 1788183043000,
-      "publishedAt": "2026-08-31T13:30:43.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "What happened this month at the European Space Agency? (August 2026) ",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/What_happened_this_month_at_the_European_Space_Agency_August_2026",
-      "summary": "Video: 00:03:19 August was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries. From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, …",
-      "ts": 1788183000000,
-      "publishedAt": "2026-08-31T13:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Synthetically Engineered Marine Bacteria Could Play Key Role in Decarbonizing the Atmosphere at Industrial Scales",
-      "url": "https://www.genengnews.com/topics/bioprocessing/synthetically-engineered-marine-bacteria-could-play-key-role-in-decarbonizing-the-atmosphere-at-industrial-scales/",
-      "summary": "A group of academic researchers genetically engineered Alteromonas macleodii, a widespread marine bacterium, to produce more siderophores, accelerating olivine weathering 2.6-fold in seawater bioreactors and enhancing at…",
-      "ts": 1788182216000,
-      "publishedAt": "2026-08-31T13:16:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: We’re reading about drug pricing deals, a new cancer therapy approval, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss",
-      "summary": "In today's Pharmalittle newsletter, drug pricing deals, a new cancer therapy approval, and more of the latest pharma headlines.",
-      "ts": 1788181391000,
-      "publishedAt": "2026-08-31T13:03:11.000Z",
       "categoryId": "bio"
     }
   ],

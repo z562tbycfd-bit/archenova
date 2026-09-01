@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-09-01T20:44:17.702Z",
+  "updated": "2026-09-01T23:06:53.678Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Survey reveals marine biodiversity hotspot needs protection",
+      "url": "https://phys.org/news/2026-09-survey-reveals-marine-biodiversity-hotspot.html",
+      "summary": "An environmental DNA study by a multi-institutional research collaboration has revealed distinct regions of extraordinary marine biodiversity that can help inform management of a proposed marine park in Western Australia…",
+      "ts": 1788303603000,
+      "publishedAt": "2026-09-01T23:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "LEDs let archaeologists see the past in a new light",
+      "url": "https://phys.org/news/2026-09-archaeologists.html",
+      "summary": "An archaeological excavation is a little like eating a layered cake: Once you have removed a layer, you cannot put it back. The problem becomes even trickier if two layers look almost exactly the same. Researchers from A…",
+      "ts": 1788302407000,
+      "publishedAt": "2026-09-01T22:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "To promote climate action, emotion may matter more than information",
+      "url": "https://phys.org/news/2026-09-climate-action-emotion.html",
+      "summary": "Every year, public authorities and nongovernmental organizations spend millions on communication campaigns designed to encourage people to take action on climate change. But which strategies work best? Should campaigns r…",
+      "ts": 1788302401000,
+      "publishedAt": "2026-09-01T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Giant impact could have formed an intact moon within five hours, simulations suggest",
+      "url": "https://phys.org/news/2026-09-giant-impact-intact-moon-hours.html",
+      "summary": "New Southwest Research Institute (SwRI) modeling, conducted in collaboration with scientists at the University of Arizona, shows fundamental differences in how the moon may have formed from the giant impact that created …",
+      "ts": 1788301206000,
+      "publishedAt": "2026-09-01T22:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Elementary school teachers report increased student hunger and anxiety after universal free school meals ended",
+      "url": "https://phys.org/news/2026-09-elementary-school-teachers-student-hunger.html",
+      "summary": "A recent study published in the Journal of Nutrition Education and Behavior explored elementary school teachers' experiences before and after the end of the federal universal free school meals (UFSM) policy. Researchers …",
+      "ts": 1788301204000,
+      "publishedAt": "2026-09-01T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Salt of the Earth: How Egypt's coastal sabkhas tell a story of climate and change",
+      "url": "https://phys.org/news/2026-08-salt-earth-egypt-coastal-sabkhas.html",
+      "summary": "Have you ever walked across a salt flat so expansive it feels like another planet? That's what it's like standing in Egypt's coastal sabkhas—those otherworldly landscapes where the ground crunches beneath your feet and t…",
+      "ts": 1788300006000,
+      "publishedAt": "2026-09-01T22:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Saturn encounter may have set distant centaur on path to becoming a comet",
+      "url": "https://phys.org/news/2026-09-saturn-encounter-distant-centaur-path.html",
+      "summary": "More than 3 billion miles (4.8 billion kilometers) from Earth, an ancient icy object is slowly awakening. As it drifts inward through the solar system, the frozen body known as Centaur 450P/LONEOS has begun releasing gas…",
+      "ts": 1788300004000,
+      "publishedAt": "2026-09-01T22:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canada's Labrador Shelf preserves climate records once thought erased by ice",
+      "url": "https://phys.org/news/2026-09-canada-labrador-shelf-climate-thought.html",
+      "summary": "The Labrador Shelf is a shallow marine area on the margin of the Labrador Sea in the North Atlantic off the east coast of Canada. During the last ice age, this region was covered by the Laurentide Ice Sheet, one of the l…",
+      "ts": 1788298805000,
+      "publishedAt": "2026-09-01T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A roadmap for animal-free chemical testing",
+      "url": "https://phys.org/news/2026-09-roadmap-animal-free-chemical.html",
+      "summary": "For many years, the European Union has pursued a policy aimed at the replacement, reduction and refinement of animal testing (the 3Rs principle). To put the ethical principle of the 3Rs into practice, the European Commis…",
+      "ts": 1788298802000,
+      "publishedAt": "2026-09-01T21:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A sustainable flame retardant derived from corn steep liquor",
+      "url": "https://phys.org/news/2026-09-sustainable-flame-retardant-derived-corn.html",
+      "summary": "Certain phosphorus compounds are highly effective at suppressing fires, which is why they are widely used in flame retardants. Phosphorus, however, is a finite resource. Estimates suggest it could be depleted within the …",
+      "ts": 1788297604000,
+      "publishedAt": "2026-09-01T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ocean heat waves linked with poorer health among children in coastal communities",
+      "url": "https://phys.org/news/2026-09-ocean-linked-poorer-health-children.html",
+      "summary": "Marine heat waves—periods of abnormally warm ocean temperatures—may have negative health effects on children who live in coastal communities in low- and middle-income countries, according to a study led by researchers at…",
+      "ts": 1788297601000,
+      "publishedAt": "2026-09-01T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-informed AdaptiveFlow redefines large-scale cloud computing for drug discovery",
+      "url": "https://phys.org/news/2026-09-ai-adaptiveflow-redefines-large-scale.html",
+      "summary": "Researchers today announced AdaptiveFlow, an AI-informed platform that can virtually screen billions of drug-like molecules with a 1,000-fold reduction in computational costs over existing methods. Developed and validate…",
+      "ts": 1788296407000,
+      "publishedAt": "2026-09-01T21:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Precision optics to make plant health visible from space",
+      "url": "https://phys.org/news/2026-09-precision-optics-health-visible-space.html",
+      "summary": "When the ESA Earth observation mission FLEX launches into space on September 15, 2026, as scheduled, it will carry high-precision optical components from Jena, Germany. Researchers at the Fraunhofer Institute for Applied…",
+      "ts": 1788296405000,
+      "publishedAt": "2026-09-01T21:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Larger catalyst batches could make carbon recycling cheaper and easier to scale",
@@ -695,110 +799,6 @@
       "title": "HALO: A Physics-Aware LLM Agent Framework for Nanophotonic Design",
       "url": "https://arxiv.org/abs/2608.28877",
       "summary": "arXiv:2608.28877v1 Announce Type: new Abstract: Language models have recently been applied to nanophotonic design, but it remains unclear whether they can reliably translate optical objectives into simulation-ready desig…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Defects encode high-dimensional topological information",
-      "url": "https://arxiv.org/abs/2608.28902",
-      "summary": "arXiv:2608.28902v1 Announce Type: new Abstract: In polarization fields, Stokes skyrmions are continuous vectorial textures that encode integer-valued topological invariants across real space, enabling robust optical info…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "libNLPBE: An Open-Source Python Package for Solving the Non-Linear Poisson-Boltzmann Equation",
-      "url": "https://arxiv.org/abs/2608.28908",
-      "summary": "arXiv:2608.28908v1 Announce Type: new Abstract: Solvent environments surrounding a solute can significantly alter its chemical properties. These changes become more prominent in electrolyte solutions, where mobile ions l…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Active wetting transition in cell aggregates",
-      "url": "https://arxiv.org/abs/2608.28912",
-      "summary": "arXiv:2608.28912v1 Announce Type: new Abstract: During many biological processes, cell aggregates spread on substrates in a process of active wetting. The existing models of tissue spreading, however, do not explicitly c…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "NeuralFlowNet: Towards Data-Free Physics-Informed Neural Network Solutions of Navier-Stokes Equations Across Low and High Reynolds Numbers",
-      "url": "https://arxiv.org/abs/2608.28935",
-      "summary": "arXiv:2608.28935v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) have emerged as a compelling pathway toward trustworthy artificial-intelligence-based computational fluid dynamics (CFD) by embeddi…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First-return statistics and the point-spread function of a Henyey-Greenstein random walk - a far-field stable law",
-      "url": "https://arxiv.org/abs/2608.28940",
-      "summary": "arXiv:2608.28940v1 Announce Type: new Abstract: A particle launched normally into a half space, scattering by the Henyey-Greenstein (HG) phase function, exits after a first-return time whose count of flights n approaches…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Guided Machine Learning for Predictive Turbulent Combustion Simulation",
-      "url": "https://arxiv.org/abs/2608.29033",
-      "summary": "arXiv:2608.29033v1 Announce Type: new Abstract: Predictive simulation of turbulent combustion remains challenging because stiff chemical kinetics, turbulent transport, molecular mixing, and heat release interact nonlinea…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulating spectrally resolved exciton--exciton-interaction pump--probe spectroscopy",
-      "url": "https://arxiv.org/abs/2608.29041",
-      "summary": "arXiv:2608.29041v1 Announce Type: new Abstract: Exciton--exciton-interaction pump--probe spectroscopy (EEI--PP) captures the fifth-order signal of light-matter interaction, directly probing exciton--exciton annihilation.…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral-Embedded Operator Learning for Three-Phase Interfacial Flow: A Ternary Cahn-Hilliard-Navier-Stokes Benchmark",
-      "url": "https://arxiv.org/abs/2608.29069",
-      "summary": "arXiv:2608.29069v1 Announce Type: new Abstract: Operator-learning surrogates have been benchmarked largely on single-field, single-interface problems, leaving unclear whether architectural choices validated in those sett…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sustained Heterogeneity: an emergent collective mechanism in LLM-driven traffic",
-      "url": "https://arxiv.org/abs/2608.29174",
-      "summary": "arXiv:2608.29174v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly adopted as closed-loop controllers in physical multi-agent systems, yet their emergent collective dynamics remain incompletely…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Generalized Gompertz Law for the Rise and Fall of Empires",
-      "url": "https://arxiv.org/abs/2608.29202",
-      "summary": "arXiv:2608.29202v1 Announce Type: new Abstract: Human societies tend to evolve toward increasing scale and complexity, often followed by stagnation and decline. Historical empires provide a prominent example of this traj…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From localized dryout to convective elongated vapor structures: Reynolds number effects on boiling transition in a rectangular mini-channel",
-      "url": "https://arxiv.org/abs/2608.29240",
-      "summary": "arXiv:2608.29240v1 Announce Type: new Abstract: Three-dimensional conjugate simulations were conducted to investigate saturated flow boiling in a rectangular mini-channel, with particular emphasis on the role of inlet Re…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measurement Validity in LLM Cultural Alignment",
-      "url": "https://arxiv.org/abs/2608.29266",
-      "summary": "arXiv:2608.29266v1 Announce Type: new Abstract: Researchers increasingly treat LLM survey responses as a proxy for human cultural values. This includes projecting model outputs onto instruments like the Inglehart-Welzel …",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Controlling light shifts in chip-scale atomic beam clocks",
-      "url": "https://arxiv.org/abs/2608.29317",
-      "summary": "arXiv:2608.29317v1 Announce Type: new Abstract: Chip-scale atomic beam clocks are being investigated to extend the range of clock stability achievable in low-power timing applications. Here, we demonstrate a centimeter-s…",
       "ts": 1788235200000,
       "publishedAt": "2026-09-01T04:00:00.000Z"
     }
