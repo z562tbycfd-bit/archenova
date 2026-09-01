@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-09-01T07:27:01.562Z",
+  "updated": "2026-09-01T13:13:41.793Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA clears Stryker’s ‘surgical cockpit’ that uses Apple’s VR headset, Vision Pro",
+      "url": "https://www.statnews.com/2026/09/01/fda-stryker-surgical-cockpit-apple-vr-headset-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: Stryker deploys Apple's VR headset Vision Pro for a surgical use case, chatbots for loneliness, and more.",
+      "ts": 1788268220000,
+      "publishedAt": "2026-09-01T13:10:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Paxlovid did not help long Covid, study finds",
+      "url": "https://www.statnews.com/2026/09/01/health-news-paxlovid-did-not-help-long-covid-study-finds/?utm_campaign=rss",
+      "summary": "New Trump drug pricing deals, weed edibles and driving research, and more health news from Morning Rounds",
+      "ts": 1788268111000,
+      "publishedAt": "2026-09-01T13:08:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
+      "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How engineered microbes could help feed the world’s crops Fertilizer is crucial fo…",
+      "ts": 1788264600000,
+      "publishedAt": "2026-09-01T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Will House delay Trump plan to politicize NIH grants? ",
+      "url": "https://www.statnews.com/2026/09/01/house-spending-bill-vote-grant-rule-trump-mfn-deals-dc-diagnois/?utm_campaign=rss",
+      "summary": "The federal spending bill has an important provision for researchers, and Trump announced more MFN deals with pharma firms.",
+      "ts": 1788264184000,
+      "publishedAt": "2026-09-01T12:03:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Samba’s fiery farewell recorded",
+      "url": "https://www.esa.int/Space_Safety/Space_Debris/Samba_s_fiery_farewell_recorded",
+      "summary": "Yesterday, on 31 August 2026, Samba reentered Earth’s atmosphere at 21:39:38 UTC / 23:39:38 CEST as the third of the four Cluster satellites. Samba had been lined up for a special 'targeted reentry' safely over the South…",
+      "ts": 1788253500000,
+      "publishedAt": "2026-09-01T09:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How engineered microbes could help feed the world’s crops",
+      "url": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+      "summary": "Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions. Some companies hope microbes can help. A growing body of research shows that seeding the soil around a…",
+      "ts": 1788253200000,
+      "publishedAt": "2026-09-01T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: NIH proposal to cap research grants draws mixed reception, agency says",
+      "url": "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss",
+      "summary": "An NIH proposal to cap the number of research grants investigators can receive has drawn a mixed reception, the agency says.",
+      "ts": 1788251400000,
+      "publishedAt": "2026-09-01T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The Trump administration is burying science and health care in paperwork",
+      "url": "https://www.statnews.com/2026/09/01/white-house-science-medicaid-bureaucracy-paperwork/?utm_campaign=rss",
+      "summary": "This White House has become the paperwork administration, write Brandon Marshall and Abdullah Shihipar.",
+      "ts": 1788251400000,
+      "publishedAt": "2026-09-01T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "As MAHA champions nutrition, it’s ignoring the experts, dietitians say",
+      "url": "https://www.statnews.com/2026/09/01/maha-nutrition-makeover-hampered-dietitian-workforce-crisis/?utm_campaign=rss",
+      "summary": "A key aspect of the Make America Healthy Again agenda could be hampered by a shrinking and underpaid workforce of registered dietitians.",
+      "ts": 1788251400000,
+      "publishedAt": "2026-09-01T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 September 1 – A Plane Lunar Eclipse",
@@ -9,15 +90,6 @@
       "summary": "APOD Science APOD APOD: 2026 September 1 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photog…",
       "ts": 1788235500000,
       "publishedAt": "2026-09-01T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Ice Island Survives Run-In With Joe Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/iceberg-from-petermann-glacier-speeds-away/",
-      "summary": "In summer 2026, a substantial iceberg calved from Petermann Glacier in northwest Greenland and swiftly drifted into Nares Strait, colliding with an island along the way.",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -408,6 +480,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Ice Island Survives Run-In With Joe Island",
+      "url": "https://science.nasa.gov/earth/earth-observatory/iceberg-from-petermann-glacier-speeds-away/",
+      "summary": "In summer 2026, a substantial iceberg calved from Petermann Glacier in northwest Greenland and swiftly drifted into Nares Strait, colliding with an island along the way.",
+      "ts": 1788235200000,
+      "publishedAt": "2026-09-01T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Industrializing reactive capture of CO<sub>2</sub>",
+      "url": "https://www.nature.com/articles/s41560-026-02113-7",
+      "summary": "",
+      "ts": 1788220800000,
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Spatial Transcriptomics Tools May Link Tumor Organization to Treatment Response",
       "url": "https://www.genengnews.com/topics/omics/spatial-transcriptomics-tools-may-link-tumor-organization-to-treatment-response/",
@@ -718,96 +808,6 @@
       "title": "Multiscale Community-Based Fingerprinting of Signed Functional Networks",
       "url": "https://arxiv.org/abs/2608.27483",
       "summary": "arXiv:2608.27483v1 Announce Type: new Abstract: Objective: Recent studies demonstrate that functional connectomes contain subject-specific signatures, or \\textit{fingerprints}, that can identify individuals across repeat…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Correspondence Score for Validating Learned Patient Representations in Clinical Tabular Data",
-      "url": "https://arxiv.org/abs/2608.27489",
-      "summary": "arXiv:2608.27489v1 Announce Type: new Abstract: Identifying patients with similar clinical characteristics is important for cohort discovery, clinical decision support, and personalized medicine. However, it is unclear w…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CIR-DDG: backbone-agnostic residual correction of antibody-antigen affinity changes with explicit cross-chain geometry",
-      "url": "https://arxiv.org/abs/2608.27530",
-      "summary": "arXiv:2608.27530v1 Announce Type: new Abstract: Motivation: Accurate prediction of mutation-induced protein--protein binding free-energy changes is important for antibody affinity maturation, yet scarce labels and comple…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Two blind spots in the demographic inference of human origins from genomic data",
-      "url": "https://arxiv.org/abs/2608.27591",
-      "summary": "arXiv:2608.27591v1 Announce Type: new Abstract: Ancient DNA and new inference methods have transformed the study of human origins, but consensus has not followed. Evidence increasingly indicates that hominin populations …",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A weighted model of perception and decision-making between targets of finite size",
-      "url": "https://arxiv.org/abs/2608.27670",
-      "summary": "arXiv:2608.27670v1 Announce Type: new Abstract: Recent research grounded in experiments has connected neural ring models of vision to how animals navigate a complex landscape of attractive targets. In this paper we inves…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dark energy: the cost of function in protein evolution",
-      "url": "https://arxiv.org/abs/2608.27711",
-      "summary": "arXiv:2608.27711v1 Announce Type: new Abstract: The evolutionary fate of proteins is driven by both folding stability and biological function, dual constraints that often conflict, creating frustration and imposing funct…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Efficient Auto-Interpretability of AI Models in Biology",
-      "url": "https://arxiv.org/abs/2608.27754",
-      "summary": "arXiv:2608.27754v1 Announce Type: new Abstract: Sparse autoencoders (SAEs), and other interpretability methods could turn AI models in Biology and other fields into engines of scientific discovery by explaining the super…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hydrodynamic theories of chemotaxis-driven invasion in proliferating cell populations",
-      "url": "https://arxiv.org/abs/2608.27833",
-      "summary": "arXiv:2608.27833v1 Announce Type: new Abstract: Biased migration up chemical gradients and proliferation are fundamental drivers of collective invasion in several biological processes ranging from embryonic morphogenesis…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Expanding the Human Ancestry Ontology to include under-represented populations and ethnicities for broader utility in annotations",
-      "url": "https://arxiv.org/abs/2608.28030",
-      "summary": "arXiv:2608.28030v1 Announce Type: new Abstract: Successful discovery, integration and reuse of data relies on the availability of rich, well-structured and machine-readable metadata to describe every aspect of the data, …",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Linking individual bioenergetics to ecosystem dynamics with integral projection models",
-      "url": "https://arxiv.org/abs/2608.28215",
-      "summary": "arXiv:2608.28215v1 Announce Type: new Abstract: Linking individual-level processes, such as survival and reproduction, to ecosystem dynamics is challenging due to interactions among populations and species. These interac…",
-      "ts": 1788148800000,
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Adaptive self-organized criticality in deep neural networks",
-      "url": "https://arxiv.org/abs/2608.28431",
-      "summary": "arXiv:2608.28431v1 Announce Type: new Abstract: Deep neural networks are high-dimensional dynamical systems whose function depends on the stable propagation of activity and perturbations across many layers. Maintaining s…",
       "ts": 1788148800000,
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "categoryId": "bio"
