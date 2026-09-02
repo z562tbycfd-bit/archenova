@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-09-02T13:22:37.443Z",
+  "updated": "2026-09-02T17:42:15.502Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Spectrometry Technique Could Aid Formulation Development",
+      "url": "https://www.genengnews.com/topics/bioprocessing/new-spectrometry-technique-could-aid-formulation-development/",
+      "summary": "A new spectrometry technique could help companies better understand what happens when antigens and antibodies bind. Its developers hope it could help with applications including choosing formulation buffers during manufa…",
+      "ts": 1788364850000,
+      "publishedAt": "2026-09-02T16:00:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The DNA Balancing Act in Boosting Bacterial Productivity",
+      "url": "https://www.genengnews.com/topics/bioprocessing/math-model-predicts-plasmid-power-struggles/",
+      "summary": "A new mathematical model tracks how plasmids move through competing E. coli populations, revealing how antibiotics, genetic costs, and plasmid loss could shape biotechnology cultures and future probiotic dosing strategie…",
+      "ts": 1788364848000,
+      "publishedAt": "2026-09-02T16:00:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bicistornic Vectors + piggyBac = Improved Antibody Cell Line Production",
+      "url": "https://www.genengnews.com/topics/bioprocessing/bicistornic-vectors-piggybac-improved-antibody-cell-line-production/",
+      "summary": "To produce stable cell lines for monoclonal antibody production, manufacturers typically use the piggyBac transposon system. For larger, multi-specific antibodies that have payloads of three or four cistrons, piggyBac is…",
+      "ts": 1788364843000,
+      "publishedAt": "2026-09-02T16:00:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Regulatory Demands for More Process Control Data Fueling Innovation",
+      "url": "https://www.genengnews.com/topics/bioprocessing/regulatory-demands-for-more-process-control-data-fueling-innovation/",
+      "summary": "Advances in technology are making it easier for biopharma companies to embrace continuous manufacturing. However, they are also changing what regulators expect from drug firms in terms of the process control strategies t…",
+      "ts": 1788364822000,
+      "publishedAt": "2026-09-02T16:00:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Facilitating AI integration with simplicity at scale",
+      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silo…",
+      "ts": 1788357600000,
+      "publishedAt": "2026-09-02T14:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Doctors groups release vaccination guidelines ahead of respiratory illness season",
+      "url": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/?utm_campaign=rss",
+      "summary": "Ahead of respiratory illness season, professional organizations have issued guidance on flu, Covid, and RSV vaccines.",
+      "ts": 1788357600000,
+      "publishedAt": "2026-09-02T14:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: ARPA-H funds biotechs working on custom RNA therapies",
+      "url": "https://www.statnews.com/2026/09/02/biotech-news-arp-h-funds-biotechs-working-on-custom-rna-therapies/?utm_campaign=rss",
+      "summary": "Roche licenses a tri-specific antibody, new Trump deals may undercut its own goals, and other biotech news",
+      "ts": 1788356270000,
+      "publishedAt": "2026-09-02T13:37:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How a former ARPA-H director’s startup is tackling AI’s ‘dumb problems’",
+      "url": "https://www.statnews.com/2026/09/02/why-transfyr-tackles-dumb-problems-intersection-bio-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis: A startup tackling the 'dumb problems' at the intersection of AI and bio, accuracy of AI scribes, and more.",
+      "ts": 1788355792000,
+      "publishedAt": "2026-09-02T13:29:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Huntington’s gene therapy, Novo’s challenges, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/02/uniqure-huntingtons-fda-novo-nordisk-investors-pharmalittle-newsletter/?utm_campaign=rss",
+      "summary": "UniQure has submitted its Huntington’s gene therapy to the FDA, investors remain unenthusiastic on Novo Nordisk, and more of the latest pharma headlines in today's Pharmalittle newsletter.",
+      "ts": 1788355615000,
+      "publishedAt": "2026-09-02T13:26:55.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: AI puzzles and a path to our nearest star system",
@@ -727,87 +808,6 @@
       "title": "FoldKit: A Python library for efficient storage and retrieval of co-folding predictions",
       "url": "https://arxiv.org/abs/2608.28788",
       "summary": "arXiv:2608.28788v1 Announce Type: new Abstract: AlphaFold 3 (AF3) enables structure prediction of biomolecular complexes through co-folding multiple interacting molecules, making it increasingly useful for de novo protei…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geochemical Hazard Assessment of Martian Regolith for Future Human Exploration",
-      "url": "https://arxiv.org/abs/2608.28805",
-      "summary": "arXiv:2608.28805v1 Announce Type: new Abstract: As human missions to Mars move from concept to planning to reality, a systematic quantitative health risk assessment of martian regolith exposure has become critically impo…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CryoAnomaly: Few-Shot Cryo-EM Particle Picking via Anomaly-Guided Hard Negative Suppression",
-      "url": "https://arxiv.org/abs/2608.28817",
-      "summary": "arXiv:2608.28817v1 Announce Type: new Abstract: Cryo-electron microscopy (cryo-EM) is crucial for analyzing 3D biological structures, in which automated particle picking is essential for the workflow. However, fully supe…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reconstruction-Aware Cryo-EM Particle Picking",
-      "url": "https://arxiv.org/abs/2608.28838",
-      "summary": "arXiv:2608.28838v1 Announce Type: new Abstract: Cryo-electron microscopy (cryo-EM) determines the structures of proteins and macromolecular assemblies at near-atomic resolution, and the final 3D reconstruction depends on…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Confounder-Aware Feature Correction for Single-Cell Batch Integration",
-      "url": "https://arxiv.org/abs/2608.28849",
-      "summary": "arXiv:2608.28849v1 Announce Type: new Abstract: Batch integration is a central preprocessing step in single-cell genomics, where datasets collected across experiments, donors, and protocols must be combined despite perva…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structurally Informed Connectivity Disruptions in Cocaine Use Disorder",
-      "url": "https://arxiv.org/abs/2608.28892",
-      "summary": "arXiv:2608.28892v1 Announce Type: new Abstract: Cocaine Use Disorder (CUD) is associated with widespread alterations in large-scale functional brain networks, yet the mechanisms contributing to these changes and their re…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Front-end and Back-end Computational Modeling of 40-Hz Auditory Steady-State Response Abnormalities in Schizophrenia",
-      "url": "https://arxiv.org/abs/2608.29104",
-      "summary": "arXiv:2608.29104v1 Announce Type: new Abstract: 40-Hz ASSR is reduced in schizophrenia, but it is unclear if this reflects altered auditory input or cortical E/I dynamics. We hypothesized that similar group differences c…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rate-Coding Bundle Memory: A Unified Model of Memory and Control for Symbolic Computation in the Brain",
-      "url": "https://arxiv.org/abs/2608.29189",
-      "summary": "arXiv:2608.29189v1 Announce Type: new Abstract: We propose a neurobiologically plausible model of cognition that combines the advantages of connectionist and symbolic systems, and that can explain a wide range of cogniti…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Clustering versus sorting: a mass-conserving reaction-diffusion model of planar polarity puncta",
-      "url": "https://arxiv.org/abs/2608.29679",
-      "summary": "arXiv:2608.29679v1 Announce Type: new Abstract: Planar cell polarity is preceded by the clustering of polarity proteins into discrete, low-turnover membrane subdomains (puncta), yet the minimal interactions that nucleate…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Local connectivity balance shapes population dynamics in random recurrent networks",
-      "url": "https://arxiv.org/abs/2608.30008",
-      "summary": "arXiv:2608.30008v1 Announce Type: new Abstract: Disordered dynamical systems comprising many interacting units, from ecological communities to neural circuits, are ubiquitous, and understanding how connectivity shapes th…",
       "ts": 1788235200000,
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "categoryId": "bio"
