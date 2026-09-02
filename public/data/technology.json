@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-09-02T08:32:46.829Z",
+  "updated": "2026-09-02T13:22:37.443Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI puzzles and a path to our nearest star system",
+      "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and game…",
+      "ts": 1788351000000,
+      "publishedAt": "2026-09-02T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Agile Space Industries Celebrates Durango Headquarters Expansion with Ribbon Cutting",
+      "url": "https://spacenews.com/agile-space-industries-celebrates-durango-headquarters-expansion-with-ribbon-cutting/",
+      "summary": "DURANGO, Colo. — Sept. 2, 2026 — Agile Space Industries celebrated the completion of a 20,500-square-foot expansion of its Durango headquarters with a ribbon-cutting ceremony on August 26, joined by […] The post Agile Sp…",
+      "ts": 1788350400000,
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Air attack destroys food aid for families in South Kordofan",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168251",
+      "summary": "Two truckloads of food aid destined for hungry families in South Kordofan state, Sudan, were destroyed in an aerial attack over the weekend, the World Food Progamme (WFP) said on Wednesday.",
+      "ts": 1788350400000,
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168240",
+      "summary": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now c…",
+      "ts": 1788350400000,
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "HHS spins a tale of a would-be content creator child",
+      "url": "https://www.statnews.com/2026/09/02/health-news-hhs-spins-a-tale-of-a-would-be-content-creator/?utm_campaign=rss",
+      "summary": "The next DSM and the algorithm, an unexpected discovery on alpha-gal syndrome, and more health news from Morning Rounds",
+      "ts": 1788350356000,
+      "publishedAt": "2026-09-02T11:59:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Third spacewalk completed for Sophie Adenot ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Third_spacewalk_completed_for_Sophie_Adenot",
+      "summary": "ESA astronaut Sophie Adenot and NASA astronaut Jessica Meir successfully completed US EVA-99 at 21:29 CEST on Tuesday 1 September. It was Sophie’s third spacewalk, and the 33rd conducted by a European astronaut.",
+      "ts": 1788346800000,
+      "publishedAt": "2026-09-02T11:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Cluster’s encore for reentry science a success",
+      "url": "https://www.esa.int/Space_Safety/Space_Debris/Cluster_s_encore_for_reentry_science_a_success",
+      "summary": "The Cluster mission danced its final dance as Tango reentered the atmosphere on 1 September, at 23:30:31 CEST. The end of the Cluster mission in 2024 turned into the start of the reentry data collection campaign. After f…",
+      "ts": 1788344400000,
+      "publishedAt": "2026-09-02T10:20:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: How Trump’s latest pharma deals may undermine efforts to rein in drug costs",
@@ -37,6 +100,15 @@
       "ts": 1788332400000,
       "publishedAt": "2026-09-02T07:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
+      "url": "http://www.iaea.org/newscenter/news/technical-cooperation-side-events-at-the-70th-iaea-general-conference",
+      "summary": "",
+      "ts": 1788330763000,
+      "publishedAt": "2026-09-02T06:32:43.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "arXiv q-bio",
@@ -736,78 +808,6 @@
       "title": "Local connectivity balance shapes population dynamics in random recurrent networks",
       "url": "https://arxiv.org/abs/2608.30008",
       "summary": "arXiv:2608.30008v1 Announce Type: new Abstract: Disordered dynamical systems comprising many interacting units, from ecological communities to neural circuits, are ubiquitous, and understanding how connectivity shapes th…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Observation delays can bias inference of selective advantage in evolutionary competition",
-      "url": "https://arxiv.org/abs/2608.30085",
-      "summary": "arXiv:2608.30085v1 Announce Type: new Abstract: Relative-frequency trajectories are often used to infer selective advantage in competing biological populations. A common empirical approach is to fit a linear function to …",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Science sandboxes measure the scientific capability of AI agents",
-      "url": "https://arxiv.org/abs/2608.30165",
-      "summary": "arXiv:2608.30165v1 Announce Type: new Abstract: Scientific progress depends not only on finding solutions, but on learning the rules that explain why they work and using that understanding to design better experiments. W…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "\"More Is Different'' in Neural Circuits: Algebraic Emergence of Effective Theories in Canonical Recurrent Motifs of Biological Neuronal Networks",
-      "url": "https://arxiv.org/abs/2608.30231",
-      "summary": "arXiv:2608.30231v1 Announce Type: new Abstract: Canonical neural circuit motifs are usually described functionally: divisive normalization rescales population activity by a pooled signal, and winner-take-all competition …",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dimensionality-induced critical phase transition in stochastic Lotka-Volterra equation: From statistical averaging to systemic tipping point",
-      "url": "https://arxiv.org/abs/2608.30655",
-      "summary": "arXiv:2608.30655v1 Announce Type: new Abstract: By analyzing a stochastic Lotka-Volterra (LV) equation, we show that the underlying logic behind the diversity-stability debate in ecology can be framed as a dimensionality…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Resource supply dynamics control stability and chaos in complex ecosystems",
-      "url": "https://arxiv.org/abs/2608.30966",
-      "summary": "arXiv:2608.30966v1 Announce Type: new Abstract: Ecological interactions are often mediated by feedbacks between organisms and their resource environments. Yet, how resource supply dynamics dictate collective dynamical ph…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Propensity Straight-Through Gradients for Discrete Stochastic Systems",
-      "url": "https://arxiv.org/abs/2608.25631",
-      "summary": "arXiv:2608.25631v1 Announce Type: cross Abstract: Continuous-time Markov chains (CTMCs) provide the backbone for modeling discrete stochastic dynamics across applied, physical, and biological sciences. Their integration …",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Orientations without transitive arcs for cubic graphs and phylogenetic networks",
-      "url": "https://arxiv.org/abs/2608.28654",
-      "summary": "arXiv:2608.28654v1 Announce Type: cross Abstract: An $st$-orientation of an undirected graph $G$ is an acyclic digraph with a single source $s$ and a single sink $t$ that can be obtained from $G$ by assigning a direction…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis",
-      "url": "https://arxiv.org/abs/2608.28990",
-      "summary": "arXiv:2608.28990v1 Announce Type: cross Abstract: Protein co-abundance clusters preserved across tissues can reveal shared disease mechanisms and candidate therapeutic targets, particularly when proteins implicated in or…",
       "ts": 1788235200000,
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "categoryId": "bio"

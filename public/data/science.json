@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-02T08:32:45.000Z",
+  "updated": "2026-09-02T13:22:33.013Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A summer odyssey: Female dotterels seek multiple mates across Northern Europe",
+      "url": "https://phys.org/news/2026-09-summer-odyssey-female-dotterels-multiple.html",
+      "summary": "On a high Norwegian plateau in late May, patches of bare ground begin to appear through the snow, and with them arrive some of Europe's most approachable birds. Eurasian dotterels breed on exposed mountain ridges and Arc…",
+      "ts": 1788355209000,
+      "publishedAt": "2026-09-02T13:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Floridians become more cautious as economic outlook weakens in August",
+      "url": "https://phys.org/news/2026-09-floridians-cautious-economic-outlook-weakens.html",
+      "summary": "Consumer sentiment in Florida continued its downward trend in August, declining for the sixth consecutive month to 67.4, down 1.9 points from a revised July reading of 69.3. National consumer sentiment also decreased.",
+      "ts": 1788355204000,
+      "publishedAt": "2026-09-02T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Despite years of rain, Blue Mountains forests still haven't recovered from the Black Summer megafires",
+      "url": "https://phys.org/news/2026-09-years-blue-mountains-forests-havent.html",
+      "summary": "For three years before the Black Summer megafires of 2019–20, cool-season rainfall in southeastern Australia was only half the normal amount. When fires broke out, intensely dry conditions helped them spread through area…",
+      "ts": 1788354009000,
+      "publishedAt": "2026-09-02T13:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beneficial bacteria support tomato growth and suppress disease",
+      "url": "https://phys.org/news/2026-09-beneficial-bacteria-tomato-growth-suppress.html",
+      "summary": "Bacterial canker, a vascular infection, can wreak havoc on tomato plants, with symptoms ranging from wilted leaves to the collapse of an entire plant. Clavibacter michiganensis, the seedborne pathogen that causes the dis…",
+      "ts": 1788354006000,
+      "publishedAt": "2026-09-02T13:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seven new species show 250-million-year-old marine group is still evolving",
+      "url": "https://phys.org/news/2026-09-species-million-year-marine-group.html",
+      "summary": "Scientists believed there were only two species of hornerid bryozoans in Aotearoa New Zealand, but new research shows several more have been secretly evolving and thriving in the nation's southern waters.",
+      "ts": 1788354004000,
+      "publishedAt": "2026-09-02T13:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research: Google's AI Overviews reinforce some conspiracy theories",
+      "url": "https://phys.org/news/2026-09-google-ai-overviews-conspiracy-theories.html",
+      "summary": "Imagine overhearing on a bus that the city council plans to implement new restrictions under an urban planning program called \"15-minute cities.\" Curious, you search the term on Google.",
+      "ts": 1788352803000,
+      "publishedAt": "2026-09-02T12:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than 120 molecular species found in giant cloud near Milky Way's center",
+      "url": "https://phys.org/news/2026-08-molecular-species-giant-cloud-milky.html",
+      "summary": "Astronomers have discovered a second interstellar cloud near the center of the Milky Way that is extraordinarily rich in complex molecules, including several molecules associated with prebiotic chemistry. The newly studi…",
+      "ts": 1788352202000,
+      "publishedAt": "2026-09-02T12:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "UN report finds 1.5°C warming limit likely to be exceeded by 2030",
+      "url": "https://phys.org/news/2026-09-15c-limit-exceeded.html",
+      "summary": "For more than a decade, the world has been trying to limit global warming to 1.5°C.",
+      "ts": 1788351603000,
+      "publishedAt": "2026-09-02T12:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human-like AI not always the answer in customer service",
+      "url": "https://phys.org/news/2026-09-human-ai-customer.html",
+      "summary": "The next time something goes wrong with your bank account, package delivery or a bill, there's a good chance you'll be directed to AI for customer service.",
+      "ts": 1788350401000,
+      "publishedAt": "2026-09-02T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Temperature emerges as a control for topological properties of materials",
+      "url": "https://phys.org/news/2026-09-temperature-emerges-topological-properties-materials.html",
+      "summary": "Spin-orbit coupling (SOC), an interaction between an electron's spin and its motion, plays a key role in creating topological insulators—unusual materials that are insulating in their interior but can conduct electricity…",
+      "ts": 1788349762000,
+      "publishedAt": "2026-09-02T11:49:22.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research could improve detection of chiral molecules in pharmaceuticals and biotechnology",
+      "url": "https://phys.org/news/2026-09-chiral-molecules-pharmaceuticals-biotechnology.html",
+      "summary": "Ohio University Distinguished Professor Alexander Govorov of the Department of Physics and Astronomy and the Nanoscale and Quantum Phenomena Institute (NQPI) in the College of Arts and Sciences has co-authored a new stud…",
+      "ts": 1788349252000,
+      "publishedAt": "2026-09-02T11:40:52.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Blue Origin's New Glenn explosion shows infrasound can detect rocket accidents from up to 1,700 kilometers away",
+      "url": "https://phys.org/news/2026-09-blue-explosion-infrasound.html",
+      "summary": "When Blue Origin's New Glenn launch vehicle accidentally exploded during a static test fire in May 2026, the explosion generated low frequency soundwaves below the range of human hearing.",
+      "ts": 1788349203000,
+      "publishedAt": "2026-09-02T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are remote workers more or less productive?",
+      "url": "https://phys.org/news/2026-09-remote-workers-productive.html",
+      "summary": "Employees want to work from home. Employers want them in the office. A new University of Iowa study suggests hybrid work may be an effective compromise.",
+      "ts": 1788349201000,
+      "publishedAt": "2026-09-02T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Can U.S. parks promote safety, recreation and environmental protection?",
+      "url": "https://phys.org/news/2026-09-qa-safety-recreation-environmental.html",
+      "summary": "Recently, heavy rains have caused flooding in Grand Canyon and Zion National Parks, resulting in the loss of at least two lives. In U.S. national parks, maintaining visitor safety can be complicated because it is difficu…",
+      "ts": 1788348006000,
+      "publishedAt": "2026-09-02T11:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Peacock-like displays outpace antlers and tusks in evolutionary change, model suggests",
+      "url": "https://phys.org/news/2026-09-peacock-displays-outpace-antlers-tusks.html",
+      "summary": "Many animal species, ranging from peacocks and birds of paradise to some lizards, fish and beetles, display physical features or ornaments that can attract potential mates. These ornaments can include colorful plumage, e…",
+      "ts": 1788348005000,
+      "publishedAt": "2026-09-02T11:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mountains may offer climate refugia for one of North America's most imperiled turtles",
+      "url": "https://phys.org/news/2026-09-mountains-climate-refugia-north-america.html",
+      "summary": "As climate warming pushes many species toward cooler environments, high-elevation areas are expected to play an increasingly important role in biodiversity conservation. A new study by the Great Hollow Nature Preserve & …",
+      "ts": 1788346803000,
+      "publishedAt": "2026-09-02T11:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bovine stem cells offer new approach to future cultivated steak research",
+      "url": "https://phys.org/news/2026-08-bovine-stem-cells-approach-future.html",
+      "summary": "Cultivated meat aims to produce meat from animal cells in the laboratory without needing to raise a living animal for meat production. It has been proposed as a potentially more sustainable alternative to conventional me…",
+      "ts": 1788339607000,
+      "publishedAt": "2026-09-02T09:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Eight-letter DNA alphabet is accurately transcribed by a natural enzyme",
+      "url": "https://phys.org/news/2026-08-letter-dna-alphabet-accurately-natural.html",
+      "summary": "All known life on Earth uses the same genetic alphabet, consisting of four letters. Now, researchers at the University of California San Diego have demonstrated that one of biology's most essential enzymes can accurately…",
+      "ts": 1788339604000,
+      "publishedAt": "2026-09-02T09:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Global warming will exceed limit, UN says in a report that maps path to get back below danger zone",
@@ -655,150 +799,6 @@
       "title": "Life Operators: a self-evolving framework for multiscale life modelling",
       "url": "https://arxiv.org/abs/2609.00068",
       "summary": "arXiv:2609.00068v1 Announce Type: cross Abstract: Medical AI is moving beyond recognition towards clinical dialogue and longitudinal prediction. Yet a central question remains: how would a patient's state change under in…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Searching for Axions on a Higher Note: Third-Harmonic Generation from Colliding High-Intensity Laser Beams",
-      "url": "https://arxiv.org/abs/2609.00123",
-      "summary": "arXiv:2609.00123v1 Announce Type: cross Abstract: We propose a new laboratory strategy to generate and detect axion-like particles via third-harmonic generation induced by two non-collinear, polarised high-intensity lase…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anomaly detection for multijet scenarios",
-      "url": "https://arxiv.org/abs/2609.00132",
-      "summary": "arXiv:2609.00132v1 Announce Type: cross Abstract: Signals of physics beyond the Standard Model continue to resist discovery at the LHC. Recent years have seen the proliferation of new anomaly detection techniques, promis…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Size-Dependent Growth Rates Amplify Infinitesimal Asymmetry in Nanocrystals",
-      "url": "https://arxiv.org/abs/2609.00145",
-      "summary": "arXiv:2609.00145v1 Announce Type: cross Abstract: The kinetic Wulff construction predicts symmetric nonequilibrium shapes when crystallographically equivalent facets share a fixed growth rate. However, nanocrystals grow …",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Lagrangian View of Flow Matching",
-      "url": "https://arxiv.org/abs/2609.00198",
-      "summary": "arXiv:2609.00198v1 Announce Type: cross Abstract: Modern explicit-time generative models, such as Flow Matching [Lipman et al., 2023] and Rectified Flow [Liu et al., 2023], are typically derived top-down via Optimal Tran…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cryogenic Enhancement of Electron Spin Polarization from a Strained GaAs/GaAsP Superlattice Photocathode",
-      "url": "https://arxiv.org/abs/2609.00212",
-      "summary": "arXiv:2609.00212v1 Announce Type: cross Abstract: We report electron spin polarization of 95.0 +/- 0.8 (stat) +/- 2.4 (sys)% from a strained GaAs/GaAsP superlattice photocathode grown by metalorganic chemical vapor depos…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solving the Incompressible Navier-Stokes Equations on Oriented Curved Surfaces Discretized by Point Clouds",
-      "url": "https://arxiv.org/abs/2609.00216",
-      "summary": "arXiv:2609.00216v1 Announce Type: cross Abstract: We present a meshfree numerical solver for the incompressible Navier-Stokes equations on oriented curved surfaces that are represented by surface point clouds. On curved …",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct Measurement of Polar Coronal Hole-like Solar Wind in its Acceleration Phase",
-      "url": "https://arxiv.org/abs/2609.00318",
-      "summary": "arXiv:2609.00318v1 Announce Type: cross Abstract: The early evolution of fast polar coronal hole (PCH) solar wind remains largely unconstrained by in situ measurements. In March 2025, Parker Solar Probe (Parker) at its c…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial correlations of photons interacting via transverse Rydberg blockade",
-      "url": "https://arxiv.org/abs/2609.00348",
-      "summary": "arXiv:2609.00348v1 Announce Type: cross Abstract: We develop a theory of the transverse spatial dynamics of two interacting photons in a Rydberg nonlinear medium. Extending the well-studied one-dimensional case, we explo…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AdaptNTK: Adaptive Uncertainty Quantification and Active Learning for Neural Network Potentials",
-      "url": "https://arxiv.org/abs/2609.00488",
-      "summary": "arXiv:2609.00488v1 Announce Type: cross Abstract: Machine learning interatomic potentials bridge the gap between quantum chemical precision and classical computational speed, enabling molecular dynamics simulations with …",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Why Multi-Layer Message Passing Works: Completeness Theory for Graph Neural Network Interatomic Potentials",
-      "url": "https://arxiv.org/abs/2609.00528",
-      "summary": "arXiv:2609.00528v1 Announce Type: cross Abstract: We prove that the Hypergraph Neural Network, an invariant architecture with 3-body message passing, is a universal approximator for potential energy surfaces. Our main co…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GenONet: A Generative operator Network for High-Resolution Precipitation Nowcasting",
-      "url": "https://arxiv.org/abs/2609.00544",
-      "summary": "arXiv:2609.00544v1 Announce Type: cross Abstract: High-resolution precipitation nowcasting is critical for reducing the impacts of severe weather but remains difficult because of rapid storm evolution. Deep learning mode…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GW and Bethe-Salpeter Theory for Molecular Polaritons, Quasiparticles, and Excitons",
-      "url": "https://arxiv.org/abs/2609.00594",
-      "summary": "arXiv:2609.00594v1 Announce Type: cross Abstract: The electron self-energy is central to quasiparticle theory, yet how an optical cavity enters it remains unclear. We address this question for a molecule in a single-mode…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A deviatoric-stress closure for constitutive modeling of viscoelastic dynamics",
-      "url": "https://arxiv.org/abs/2609.00635",
-      "summary": "arXiv:2609.00635v1 Announce Type: cross Abstract: Standard rheological measurements yield only selected stress components; thus, inferring tensorial constitutive equations from experimentally accessible observables is co…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Separating perception from reasoning in vision-language models: a model-free render ceiling for crystal structures",
-      "url": "https://arxiv.org/abs/2609.00663",
-      "summary": "arXiv:2609.00663v1 Announce Type: cross Abstract: Multimodal evaluations cannot say whether a vision-language model misread an image or misreasoned about it, because every existing method for separating the two places a …",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficiently classifying shocks in complex systems requires dormant reporters",
-      "url": "https://arxiv.org/abs/2609.00725",
-      "summary": "arXiv:2609.00725v1 Announce Type: cross Abstract: Many natural and engineered systems are large complex networks of interacting components, and external perturbations drive them along different dynamical paths. Identifyi…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Superconducting Flux Memory for Cryogenic Applications",
-      "url": "https://arxiv.org/abs/2609.00772",
-      "summary": "arXiv:2609.00772v1 Announce Type: cross Abstract: We report the development of flux memory for use with superconducting circuits. This technology stores persistent currents in superconducting loops on-chip to be used to …",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporally constraining source imaging estimates in an underdetermined neural system with eigenmodes of cortical geometry",
-      "url": "https://arxiv.org/abs/2609.00809",
-      "summary": "arXiv:2609.00809v1 Announce Type: cross Abstract: Geometric eigenmodes provide a compact and biologically grounded representation of large-scale neural activity. Previous work demonstrated that they can mitigate the unde…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimizing diffusion-limited transport, with applications to electrochemical systems",
-      "url": "https://arxiv.org/abs/2609.00849",
-      "summary": "arXiv:2609.00849v1 Announce Type: cross Abstract: Transport in certain systems fails when diffusion cannot replenish or remove material from a boundary rapidly enough, causing the boundary concentration to reach a critic…",
       "ts": 1788321600000,
       "publishedAt": "2026-09-02T04:00:00.000Z"
     }
