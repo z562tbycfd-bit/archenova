@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-01T23:06:56.888Z",
+  "updated": "2026-09-02T03:31:19.914Z",
   "items": [
     {
       "source": "STAT",
@@ -229,6 +229,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Response must outpace spread of Ebola: UN relief chief",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168246",
+      "summary": "The world must move faster to contain an Ebola outbreak in the Democratic Republic of the Congo (DRC) that is growing exponentially, the UN’s Emergency Relief Coordinator warned on Tuesday.",
+      "ts": 1788264000000,
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168239",
       "summary": "UN Secretary-General António Guterres on Tuesday urged leaders of the Shanghai Cooperation Organization (SCO) to help reshape global governance for a changing world, arguing that a more multipolar international order can…",
@@ -339,7 +348,7 @@
       "source": "arXiv q-bio",
       "title": "A large dataset of human EEG responses to short naturalistic videos for studying dynamic visual event processing",
       "url": "https://arxiv.org/abs/2608.28768",
-      "summary": "arXiv:2608.28768v1 Announce Type: new Abstract: Vision neuroscience has experienced a surge in the collection and use of large-scale datasets of brain responses to naturalistic images. However, static images lack the tem…",
+      "summary": "arXiv:2608.28768v2 Announce Type: new Abstract: Vision neuroscience has experienced a surge in the collection and use of large-scale datasets of brain responses to naturalistic images. However, static images lack the tem…",
       "ts": 1788235200000,
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "categoryId": "bio"
@@ -636,7 +645,7 @@
       "source": "arXiv q-bio",
       "title": "JUMP-lite: Compact, reproducible benchmarking of cell representations",
       "url": "https://arxiv.org/abs/2608.07632",
-      "summary": "arXiv:2608.07632v2 Announce Type: replace Abstract: Image-based profiling captures rich phenotypic signatures for drug discovery and functional genomics. Large public datasets like JUMP Cell Painting now provide millions…",
+      "summary": "arXiv:2608.07632v3 Announce Type: replace Abstract: Image-based profiling captures rich phenotypic signatures for drug discovery and functional genomics. Large public datasets like JUMP Cell Painting now provide millions…",
       "ts": 1788235200000,
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "categoryId": "bio"
@@ -712,6 +721,15 @@
       "ts": 1788235200000,
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "url": "https://openai.com/index/gilbert-tobin",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "ts": 1788224400000,
+      "publishedAt": "2026-09-01T01:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Nature Energy",
@@ -792,24 +810,6 @@
       "summary": "Researchers discovered an unexpected role for lysyl oxidase inside triple negative breast cancer cells, and demonstrated that blocking LOX disrupts cellular processes to create a weakness that can be exploited using a se…",
       "ts": 1788199065000,
       "publishedAt": "2026-08-31T17:57:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Can buying a drug patent application be seen as a bid to prolong a monopoly?",
-      "url": "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss",
-      "summary": "A drug patent case involving Amgen is being closely watched given its potential implications for pharmaceutical patent deals broadly.",
-      "ts": 1788191813000,
-      "publishedAt": "2026-08-31T15:56:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Key Immune Cells Identified That Could Strengthen Flu Vaccines",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/key-immune-cells-identified-that-could-strengthen-flu-vaccines/",
-      "summary": "New research identifies long-lived lung immune cells that support protective T-cell memory, suggesting galectin-1 could enhance flu vaccines and improve respiratory immunity against influenza infection. The post Key Immu…",
-      "ts": 1788190407000,
-      "publishedAt": "2026-08-31T15:33:27.000Z",
       "categoryId": "bio"
     }
   ],
