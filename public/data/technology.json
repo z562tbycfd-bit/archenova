@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-02T17:42:15.502Z",
+  "updated": "2026-09-02T20:42:19.998Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Ultragenyx drug to treat Angelman syndrome, a rare disease, fails late-stage trial",
+      "url": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/?utm_campaign=rss",
+      "summary": "Ultragenyx said its experimental therapy for Angelman syndrome, a rare disease, showed no benefit compared to a sham treatment in a Phase 3 trial.",
+      "ts": 1788381444000,
+      "publishedAt": "2026-09-02T20:37:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Navigating the Regulatory Labyrinth: How Biotech Leaders Are Rethinking Strategy in an Uncertain Regulatory Era",
+      "url": "https://www.genengnews.com/topics/translational-medicine/navigating-the-regulatory-labyrinth-how-biotech-leaders-are-rethinking-strategy-in-an-uncertain-regulatory-era/",
+      "summary": "The companies that emerge from this evolving regulatory cycle with clean, rigorous, globally positioned programs will find themselves in a structurally superior competitive position when the environment stabilizes. The p…",
+      "ts": 1788380613000,
+      "publishedAt": "2026-09-02T20:23:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "GLP-1 Drug Semaglutide Slows Aging and Extends Lifespan in Mice",
+      "url": "https://www.genengnews.com/topics/drug-discovery/glp-1-drug-semaglutide-slows-aging-and-extends-lifespan-in-mice/",
+      "summary": "Semaglutide improved health, reduced aging-related changes, and extended lifespan in older female mice, sometimes outperforming caloric restriction. However, human longevity benefits remain unproven. The post GLP-1 Drug …",
+      "ts": 1788376014000,
+      "publishedAt": "2026-09-02T19:06:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
+      "url": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
+      "summary": "Community college students across the U.S. now have another opportunity to discover how their education can lead to fulfilling roles at the forefront of aerospace, science, engineering, and technology. The updated NASA C…",
+      "ts": 1788375665000,
+      "publishedAt": "2026-09-02T19:01:05.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
+      "summary": "NASA’s Hubble Space Telescope observes a giant, evolving, 10-sided atmospheric wave encircling Saturn’s south pole.",
+      "ts": 1788372037000,
+      "publishedAt": "2026-09-02T18:00:37.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "New Spectrometry Technique Could Aid Formulation Development",
@@ -37,6 +82,24 @@
       "ts": 1788364822000,
       "publishedAt": "2026-09-02T16:00:22.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Rising Over Louisiana",
+      "url": "https://www.nasa.gov/image-article/rising-over-louisiana/",
+      "summary": "On Aug. 28, 2026 (the evening of Aug. 27 in some time zones), the Moon passed into Earth’s shadow, creating a deep partial lunar eclipse. At the moment of greatest eclipse, 12:13 a.m. EDT, 96.3% of the Moon’s disk was im…",
+      "ts": 1788363530000,
+      "publishedAt": "2026-09-02T15:38:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/",
+      "summary": "High above Earth, thin veils of metallic haze drift through the edge of space. Known as sporadic E layers, these high-altitude “clouds” form from the vaporized dust of burnt-up meteors, earning their name from the unpred…",
+      "ts": 1788360834000,
+      "publishedAt": "2026-09-02T14:53:54.000Z",
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -100,6 +163,15 @@
       "ts": 1788350400000,
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Don’t give up’: Syrian women’s ongoing search for the missing",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168264",
+      "summary": "Yasmin Al-Mashaan lost five brothers during more than a decade of conflict in Syria. Two were forcibly disappeared. Three were killed during peaceful demonstrations or by snipers loyal to the Bashar Al-Assad regime.",
+      "ts": 1788350400000,
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -190,6 +262,15 @@
       "ts": 1788330763000,
       "publishedAt": "2026-09-02T06:32:43.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 2 – Solar Eclipses and Culture",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-2-solar-eclipses-and-culture/",
+      "summary": "APOD Science APOD APOD: 2026 September 2 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1788321900000,
+      "publishedAt": "2026-09-02T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -730,87 +811,6 @@
       "ts": 1788264000000,
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "ESA",
-      "title": "Samba’s fiery farewell recorded",
-      "url": "https://www.esa.int/Space_Safety/Space_Debris/Samba_s_fiery_farewell_recorded",
-      "summary": "Yesterday, on 31 August 2026, Samba reentered Earth’s atmosphere at 21:39:38 UTC / 23:39:38 CEST as the third of the four Cluster satellites. Samba had been lined up for a special 'targeted reentry' safely over the South…",
-      "ts": 1788253500000,
-      "publishedAt": "2026-09-01T09:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How engineered microbes could help feed the world’s crops",
-      "url": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
-      "summary": "Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions. Some companies hope microbes can help. A growing body of research shows that seeding the soil around a…",
-      "ts": 1788253200000,
-      "publishedAt": "2026-09-01T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: NIH proposal to cap research grants draws mixed reception, agency says",
-      "url": "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss",
-      "summary": "An NIH proposal to cap the number of research grants investigators can receive has drawn a mixed reception, the agency says.",
-      "ts": 1788251400000,
-      "publishedAt": "2026-09-01T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The Trump administration is burying science and health care in paperwork",
-      "url": "https://www.statnews.com/2026/09/01/white-house-science-medicaid-bureaucracy-paperwork/?utm_campaign=rss",
-      "summary": "This White House has become the paperwork administration, write Brandon Marshall and Abdullah Shihipar.",
-      "ts": 1788251400000,
-      "publishedAt": "2026-09-01T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "As MAHA champions nutrition, it’s ignoring the experts, dietitians say",
-      "url": "https://www.statnews.com/2026/09/01/maha-nutrition-makeover-hampered-dietitian-workforce-crisis/?utm_campaign=rss",
-      "summary": "A key aspect of the Make America Healthy Again agenda could be hampered by a shrinking and underpaid workforce of registered dietitians.",
-      "ts": 1788251400000,
-      "publishedAt": "2026-09-01T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 1 – A Plane Lunar Eclipse",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-1-a-plane-lunar-eclipse/",
-      "summary": "APOD Science APOD APOD: 2026 September 1 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photog…",
-      "ts": 1788235500000,
-      "publishedAt": "2026-09-01T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Ice Island Survives Run-In With Joe Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/iceberg-from-petermann-glacier-speeds-away/",
-      "summary": "In summer 2026, a substantial iceberg calved from Petermann Glacier in northwest Greenland and swiftly drifted into Nares Strait, colliding with an island along the way.",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Finding Tree-Like Substructures in Phylogenetic Networks: ILP Approaches and Their Application",
-      "url": "https://arxiv.org/abs/2608.28659",
-      "summary": "arXiv:2608.28659v1 Announce Type: new Abstract: Phylogenetic networks model evolutionary histories that involve reticulate events, but their structural complexity makes them difficult to interpret. Extracting their simpl…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "FoldKit: A Python library for efficient storage and retrieval of co-folding predictions",
-      "url": "https://arxiv.org/abs/2608.28788",
-      "summary": "arXiv:2608.28788v1 Announce Type: new Abstract: AlphaFold 3 (AF3) enables structure prediction of biomolecular complexes through co-folding multiple interacting molecules, making it increasingly useful for de novo protei…",
-      "ts": 1788235200000,
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
