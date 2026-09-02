@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-02T20:42:19.998Z",
+  "updated": "2026-09-02T23:05:08.631Z",
   "items": [
     {
       "source": "STAT",
@@ -46,6 +46,15 @@
       "ts": 1788372037000,
       "publishedAt": "2026-09-02T18:00:37.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Converted Human Pancreatic Duct Cells Show Diabetes Therapy Potential",
+      "url": "https://www.genengnews.com/topics/translational-medicine/converted-human-pancreatic-duct-cells-show-diabetes-therapy-potential/",
+      "summary": "Loss of function in the ALDH3B2 gene can convert human pancreatic duct cells into functional β-like cells that in tests secreted insulin in response to glucose, and lowered blood glucose levels when transplanted into dia…",
+      "ts": 1788372000000,
+      "publishedAt": "2026-09-02T18:00:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "Genetic Engineering News",
@@ -799,15 +808,6 @@
       "title": "Food aid cutback in the occupied West Bank as health fears grow in Gaza",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168237",
       "summary": "Lack of funding has forced the World Food Programme (WFP) to slash aid to families in the West Bank by half even though needs have more than doubled over the past two years.",
-      "ts": 1788264000000,
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Nepal floods: Mounting death toll and concern for women and girls",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168234",
-      "summary": "As rescue efforts continue in Nepal, humanitarians are focused on how the recent deadly flash floods have impacted women and girls, as well as access to healthcare.",
       "ts": 1788264000000,
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "categoryId": "global-governance"

@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-09-02T20:42:17.510Z",
+  "updated": "2026-09-02T23:05:04.203Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Trees use a 'muscle' to correct their posture—a newly discovered role for tension wood",
+      "url": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html",
+      "summary": "A research team from INRAE and the University Clermont Auvergne has shown that trees are capable of correcting a curvature they detect in their stems through a specific biological process. In the study, young trees with …",
+      "ts": 1788390005000,
+      "publishedAt": "2026-09-02T23:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trapped light generates nanoscale magnetization",
+      "url": "https://phys.org/news/2026-09-generates-nanoscale-magnetization.html",
+      "summary": "Using an engineered metasurface that traps light, Cornell researchers have demonstrated a new way to generate strong static magnetic fields without using external magnets or magnetic materials—an approach that could adva…",
+      "ts": 1788388801000,
+      "publishedAt": "2026-09-02T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Copper's oxygen-rich early oxidation layer could inform catalyst design and nuclear waste storage",
+      "url": "https://phys.org/news/2026-09-copper-oxygen-rich-early-oxidation.html",
+      "summary": "Copper roofs lose their reddish color over time because a pale green layer of copper oxide forms on their surface, protecting the roof from further corrosion for many years. But what exactly happens during the first step…",
+      "ts": 1788387604000,
+      "publishedAt": "2026-09-02T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe facing housing affordability crisis, continental study of more than 22 million property listings suggests",
+      "url": "https://phys.org/news/2026-09-europe-housing-crisis-continental-million.html",
+      "summary": "Nearly half of people living in Europe on an average income can only afford to buy the equivalent of a one-bedroom apartment or studio apartment, while 39% of Europeans cannot afford to rent a property this size.",
+      "ts": 1788386403000,
+      "publishedAt": "2026-09-02T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-designed proteins enable a new generation of RNA transporters",
+      "url": "https://phys.org/news/2026-09-ai-proteins-enable-generation-rna.html",
+      "summary": "RNA-based therapeutics use RNA as a blueprint that enables cells to produce specific proteins—including proteins that can precisely modify genes. For this to work, the RNA must reach the inside of the cell intact. Delive…",
+      "ts": 1788386401000,
+      "publishedAt": "2026-09-02T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fish dads offer new insight into behavioral effects of receiving paternal care",
+      "url": "https://phys.org/news/2026-09-fish-dads-insight-behavioral-effects.html",
+      "summary": "The plot of \"Finding Nemo,\" a film that features an overprotective single father fish taking on dangers at sea to care for his son, may be more reflective of actual fish dad behavior than was previously known. A new stud…",
+      "ts": 1788385801000,
+      "publishedAt": "2026-09-02T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Making superconductors thinner can change how they accommodate magnetic fields",
+      "url": "https://phys.org/news/2026-08-superconductors-thinner-accommodate-magnetic-fields.html",
+      "summary": "What happens when a superconductor becomes so thin that electrons can no longer behave as if they were moving through an ordinary three-dimensional piece of metal? This question has been at the center of my recent work o…",
+      "ts": 1788385201000,
+      "publishedAt": "2026-09-02T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden DNA in medieval gospels reveals history of deadly livestock virus",
+      "url": "https://phys.org/news/2026-09-hidden-dna-medieval-gospels-reveals.html",
+      "summary": "Some of Europe's most well-known historic manuscripts, including the York Gospels, have proven to be biological time capsules for uncovering the 3,500-year history of the sheeppox virus (SPPV).",
+      "ts": 1788384002000,
+      "publishedAt": "2026-09-02T21:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Harnessing gold nanorods and light for targeted cancer therapy",
+      "url": "https://phys.org/news/2026-09-harnessing-gold-nanorods-cancer-therapy.html",
+      "summary": "One of the major challenges in the quest to beat cancer is developing treatments that can selectively destroy cancer cells while leaving healthy cells unharmed. With this in mind, researchers at the Indian Institute of T…",
+      "ts": 1788383401000,
+      "publishedAt": "2026-09-02T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "PACMAN AI framework for controlling fusion systems safely makes key decisions in milliseconds",
+      "url": "https://phys.org/news/2026-09-pacman-ai-framework-fusion-safely.html",
+      "summary": "Inside some fusion energy systems, particles hotter than the core of the sun can become unruly in a few thousandths of a second, far faster than any human operator can react. A new software framework developed by researc…",
+      "ts": 1788382808000,
+      "publishedAt": "2026-09-02T21:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NYC, the nation's largest school system, bans AI for students through 8th grade",
+      "url": "https://phys.org/news/2026-09-nyc-nation-largest-school-ai.html",
+      "summary": "New York City's public schools will temporarily ban elementary and middle school students from using artificial intelligence tools during the upcoming school year, Mayor Zohran Mamdani announced Wednesday.",
+      "ts": 1788382803000,
+      "publishedAt": "2026-09-02T21:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tracing the legal history of the kiss—from property and contracts to consent",
+      "url": "https://phys.org/news/2026-09-legal-history-property-consent.html",
+      "summary": "Is a kiss just a kiss? Or is it a sign of love, affection, a biological urge, a contract or even an assault? Law, history, evolution and anthropology show that it can be all those things.",
+      "ts": 1788382201000,
+      "publishedAt": "2026-09-02T20:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hubble tracks new decagon encircling Saturn's south pole",
@@ -572,6 +668,38 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Search for New Physics via Low-Energy Electron Recoils with a 4.2 Tonne-Year Exposure from the LZ Experiment",
+      "url": "http://link.aps.org/doi/10.1103/wnxl-yf95",
+      "summary": "Author(s): D. S. Akerib et al. (The LZ Collaboration) We report results from searches for new physics models through electron recoils using data collected by the LUX-ZEPLIN experiment during its first two science runs, w…",
+      "ts": 1788343200000,
+      "publishedAt": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Q-Factor Matching for Femtosecond Near-Field Enhancement in Hybrid Metal-Dielectric Metasurfaces",
+      "url": "http://link.aps.org/doi/10.1103/zkdb-qhps",
+      "summary": "Author(s): Yaolong Li, Xu Shi, Yuxin Zhang, Lin Qiao, Hong Yang, Shufeng Wang, Guowei Lyu, Yasutaka Matsuo, Xiaoyong Hu, Qihuang Gong, and Hiroaki Misawa Matching the cavity resonance lifetime to the driving laser pulse …",
+      "ts": 1788343200000,
+      "publishedAt": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Arm qubit: A superconducting qubit co-designed for coherence and coupling",
+      "url": "http://link.aps.org/doi/10.1103/3l3b-7jsm",
+      "summary": "Author(s): Jeremy B. Kline, Alec Yen, Stanley Chen, and Kevin P. O’Brien We present a superconducting qubit, which consists of two strongly coupled modes: one for data storage and one for coupling, allowing faster, highe…",
+      "ts": 1788343200000,
+      "publishedAt": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Enhancement of magnon-phonon coupling in ferromagnetic ${\\mathrm{Co}}_{2}\\mathrm{FeSi}$ alloy using the monostable-bistable magnetic transition",
+      "url": "http://link.aps.org/doi/10.1103/jxzs-blby",
+      "summary": "Author(s): Kazuto Yamanoi, Shinya Yamada, Kohei Hamaya, and Yukio Nozaki Magnon-phonon hybridization enables coupled control of spin and mechanical excitations, but the limited frequency tunability of conventional surfac…",
+      "ts": 1788343200000,
+      "publishedAt": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Symmetry-Driven Thermalization via Finite de Finetti Theorems",
       "url": "http://link.aps.org/doi/10.1103/df89-tdks",
       "summary": "Author(s): Uttam Singh and Nicolas J. Cerf Thermal behavior in subsystems of closed quantum systems is commonly attributed to dynamical chaos, quantum ergodicity, canonical typicality, or the eigenstate thermalization hy…",
@@ -615,14 +743,6 @@
       "title": "Unconventional Materials for Light Dark Matter Detection",
       "url": "http://link.aps.org/doi/10.1103/jdw6-3556",
       "summary": "Author(s): Yonit Hochberg, Dino Novko, Rotem Ovadia, and Antonio Politano We propose the use of several unconventional materials as detectors for dark matter with mass beneath the MeV scale. These include the transition-…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Search for New Physics via Low-Energy Electron Recoils with a 4.2 Tonne-Year Exposure from the LZ Experiment",
-      "url": "http://link.aps.org/doi/10.1103/wnxl-yf95",
-      "summary": "Author(s): D. S. Akerib et al. (The LZ Collaboration) We report results from searches for new physics models through electron recoils using data collected by the LUX-ZEPLIN experiment during its first two science runs, w…",
       "ts": 1788343200000,
       "publishedAt": "2026-09-02T10:00:00.000Z"
     },
@@ -681,126 +801,6 @@
       "summary": "Author(s): Xiangzhou Zhu, Stefano Mocatti, and Matteo Calandra Light-induced sliding ferroelectricity in two-dimensional van der Waals materials enables polarization control via relative layer motion. However, polarizati…",
       "ts": 1788343200000,
       "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Emergent Gauge Flux and Spin Ordering in Magnetized Triangular Spin Liquids: Applications to Hofstadter-Hubbard Model",
-      "url": "http://link.aps.org/doi/10.1103/gbnt-vmns",
-      "summary": "Author(s): Jiahao Yang (杨家豪), Hao Tian, Si-Yu Pan, and Gang v. Chen Motivated by recent progress in moiré superlattices and spin-$1/2$ triangular-lattice antiferromagnets, we study how orbital magnetic flux and Zeeman co…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Electronic Tuning of the Soft-Phonon Transport Anomaly in ${\\mathrm{Ta}}_{2}\\mathrm{Ni}({\\mathrm{S}}_{x}{\\mathrm{Se}}_{1−x}{)}_{5}$",
-      "url": "http://link.aps.org/doi/10.1103/l5xq-2yrt",
-      "summary": "Author(s): Yuan-Shan Zhang, Masahiko Isobe, Hidenori Takagi, and Dennis Huang Tuning the electronic structure of the excitonic insulator candidate Ta2NiSe5 via sulfur substitution reveals that its highly directional phon…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Chern-Simons-Matter Conformal Field Theory on the Fuzzy Sphere: Higgs Transition of the Kalmeyer-Laughlin Chiral Spin Liquid",
-      "url": "http://link.aps.org/doi/10.1103/m64z-bvm3",
-      "summary": "Author(s): Zheng Zhou (周正), Chong Wang (王翀), and Yin-Chen He (何寅琛) Exact diagonalization provides strong numerical evidence that the Higgs transition between a Kalmeyer-Laughlin chiral spin liquid and a trivially gapped …",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Terahertz Magneto-Photocurrents in the Topological Insulator ${\\mathrm{Bi}}_{2}{\\mathrm{Se}}_{3}$ Probe Its Topological Surface States",
-      "url": "http://link.aps.org/doi/10.1103/yvbq-rdkz",
-      "summary": "Author(s): Chihun In, Genaro Bierhance, Deepti Jain, Tom S. Seifert, Oliver Gueckstock, Roberto Mantovan, Seongshik Oh, and Tobias Kampfrath We study ultrafast magneto-photocurrents in a three-dimensional topological ins…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Symmetry Classification of Nonrelativistic Hidden Spin Polarization in Noncollinear Magnets",
-      "url": "http://link.aps.org/doi/10.1103/8pg5-pz4z",
-      "summary": "Author(s): Yuzhong Hu, Pan Zhou, Baoru Pan, PengBo Lyu, and Lizhong Sun Hidden spin polarization (HSP), in which spin-polarized states exist locally while the total spin polarization is hidden in momentum space, has been…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Q-Factor Matching for Femtosecond Near-Field Enhancement in Hybrid Metal-Dielectric Metasurfaces",
-      "url": "http://link.aps.org/doi/10.1103/zkdb-qhps",
-      "summary": "Author(s): Yaolong Li, Xu Shi, Yuxin Zhang, Lin Qiao, Hong Yang, Shufeng Wang, Guowei Lyu, Yasutaka Matsuo, Xiaoyong Hu, Qihuang Gong, and Hiroaki Misawa Matching the cavity resonance lifetime to the driving laser pulse …",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Arm qubit: A superconducting qubit co-designed for coherence and coupling",
-      "url": "http://link.aps.org/doi/10.1103/3l3b-7jsm",
-      "summary": "Author(s): Jeremy B. Kline, Alec Yen, Stanley Chen, and Kevin P. O’Brien We present a superconducting qubit, which consists of two strongly coupled modes: one for data storage and one for coupling, allowing faster, highe…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Enhancement of magnon-phonon coupling in ferromagnetic ${\\mathrm{Co}}_{2}\\mathrm{FeSi}$ alloy using the monostable-bistable magnetic transition",
-      "url": "http://link.aps.org/doi/10.1103/jxzs-blby",
-      "summary": "Author(s): Kazuto Yamanoi, Shinya Yamada, Kohei Hamaya, and Yukio Nozaki Magnon-phonon hybridization enables coupled control of spin and mechanical excitations, but the limited frequency tunability of conventional surfac…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bovine stem cells offer new approach to future cultivated steak research",
-      "url": "https://phys.org/news/2026-08-bovine-stem-cells-approach-future.html",
-      "summary": "Cultivated meat aims to produce meat from animal cells in the laboratory without needing to raise a living animal for meat production. It has been proposed as a potentially more sustainable alternative to conventional me…",
-      "ts": 1788339607000,
-      "publishedAt": "2026-09-02T09:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Eight-letter DNA alphabet is accurately transcribed by a natural enzyme",
-      "url": "https://phys.org/news/2026-08-letter-dna-alphabet-accurately-natural.html",
-      "summary": "All known life on Earth uses the same genetic alphabet, consisting of four letters. Now, researchers at the University of California San Diego have demonstrated that one of biology's most essential enzymes can accurately…",
-      "ts": 1788339604000,
-      "publishedAt": "2026-09-02T09:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Global warming will exceed limit, UN says in a report that maps path to get back below danger zone",
-      "url": "https://phys.org/news/2026-09-global-exceed-limit-path-danger.html",
-      "summary": "In a strategic retreat in the fight against climate change, the United Nations has acknowledged that Earth has lost its chance to prevent some of the worst of global warming's harms. So now the world must figure out how …",
-      "ts": 1788334716000,
-      "publishedAt": "2026-09-02T07:38:36.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scientists discover the key ingredients that make birdsong pretty",
-      "url": "https://phys.org/news/2026-08-scientists-key-ingredients-birdsong-pretty.html",
-      "summary": "What makes birdsong beautiful? Answering this question could help us understand how soundscapes make the natural world relaxing for humans, opening the door to improving parks, upgrading the design of stressful places li…",
-      "ts": 1788321601000,
-      "publishedAt": "2026-09-02T04:00:01.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward a social psychology of AI: language-model agents reproduce human-like minimal-group bias",
-      "url": "https://arxiv.org/abs/2609.00009",
-      "summary": "arXiv:2609.00009v1 Announce Type: new Abstract: Language-model agents now interact in groups, but evaluations that probe memorised stereotype content or use models to simulate people leave this social behaviour unmeasure…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bridging Dependence: From Opinion Leader Influence to Standard Correlation Measures",
-      "url": "https://arxiv.org/abs/2609.00010",
-      "summary": "arXiv:2609.00010v1 Announce Type: new Abstract: As a cornerstone result of social choice and democracy the- ory, the Condorcet Jury Theorem (CJT) provides probabilistic guaran- tees for the correctness of majority decisi…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Odd-Parity Perturbations of Geometrically Regular Black Holes with Hedgehog Scalar Hair",
-      "url": "https://arxiv.org/abs/2609.00016",
-      "summary": "arXiv:2609.00016v1 Announce Type: new Abstract: In this paper, we study linear perturbations of a geometrically regular black hole supported by a constrained $\\mathrm{SO}(3)$ scalar triplet in the hedgehog configuration.…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z"
     }
   ],
   "sources": [
