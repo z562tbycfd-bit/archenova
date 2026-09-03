@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-09-03T13:21:03.447Z",
+  "updated": "2026-09-03T17:37:31.418Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+      "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress …",
+      "ts": 1788455160000,
+      "publishedAt": "2026-09-03T17:06:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Analytical Blueprint for Cell & Gene Therapy Success",
+      "url": "https://www.genengnews.com/resources/ebooks/the-analytical-blueprint-forcell-gene-therapy-success/",
+      "summary": "This eBook brings together expert perspectives on several of the most pressing analytical topics facing today’s cell and gene therapy developers. The post The Analytical Blueprint for Cell & Gene Therapy Success appeared…",
+      "ts": 1788454311000,
+      "publishedAt": "2026-09-03T16:51:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New com…",
+      "ts": 1788451259000,
+      "publishedAt": "2026-09-03T16:00:59.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4988-4994: More New Tricks for an Old Dog",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4988-4994-more-new-tricks-for-an-old-dog/",
+      "summary": "Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, Aug. 21, 2026 After Curiosity’s 14 years on the surface, Mars continues to surprise. Both of our workspaces this week containe…",
+      "ts": 1788451188000,
+      "publishedAt": "2026-09-03T15:59:48.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Seattle scientists launch $95 million AI biology effort",
+      "url": "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/?utm_campaign=rss",
+      "summary": "Ultragenyx drug fails pivotal Phase 3, FDA's success at regulating unproven stem cells, and other biotech news",
+      "ts": 1788446345000,
+      "publishedAt": "2026-09-03T14:39:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Igniting Roman’s Journey",
+      "url": "https://www.nasa.gov/image-article/igniting-romans-journey/",
+      "summary": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT on Aug. 30 aboard a SpaceX Fa…",
+      "ts": 1788445463000,
+      "publishedAt": "2026-09-03T14:24:23.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Fauci speaks, and writes",
+      "url": "https://www.statnews.com/2026/09/03/anthony-fauci-vaccine-skeptics-book-trump-drug-pricing-deals-medicaid/?utm_campaign=rss",
+      "summary": "Anthony Fauci is working on a book, we unpack Trump's latest drug pricing deals, and more from STAT's D.C. Diagnosis newsletter.",
+      "ts": 1788444694000,
+      "publishedAt": "2026-09-03T14:11:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "HHS flip-flops on disability lawsuit",
+      "url": "https://www.statnews.com/2026/09/03/health-news-hhs-flip-flops-on-disability-lawsuit-community-integration/?utm_campaign=rss",
+      "summary": "Drug overdose deaths decreasing, a path to patients for AI devices, and more health news from Morning Rounds",
+      "ts": 1788441718000,
+      "publishedAt": "2026-09-03T13:21:58.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: OpenEvidence launches new family of AI models",
@@ -21,10 +93,19 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s Hubble Spies Superbubble Scene",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/",
+      "summary": "This Hubble Space Telescope image features a sprawling cosmic vista called N44.",
+      "ts": 1788441362000,
+      "publishedAt": "2026-09-03T13:16:02.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "NVIDIA",
-      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 26 New Games Coming to GeForce NOW",
+      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
-      "summary": "September is here with 26 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts …",
+      "summary": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts …",
       "ts": 1788440435000,
       "publishedAt": "2026-09-03T13:00:35.000Z",
       "categoryId": "ai-compute"
@@ -46,6 +127,33 @@
       "ts": 1788437400000,
       "publishedAt": "2026-09-03T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gloria Steinem: A voice for women, to the very end",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168272",
+      "summary": "Gloria Steinem, the journalist and women's rights campaigner who became one of the most influential voices of the feminist movement, has died at the age of 92. In an announcement on Instagram, her family said she had pas…",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168271",
+      "summary": "Following revelations from the UN nuclear watchdog that the former Syrian regime failed to report holding nuclear material and the discovery in May of an undeclared chemical weapons cache, the Security Council met Thursd…",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Outside forces fuel Sudan war, new report finds",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168270",
+      "summary": "Foreign recruitment and external support networks are fuelling the brutal conflict in Sudan, independent UN human rights investigators said on Thursday in a new report, calling for accountability as fighting continues be…",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -498,6 +606,78 @@
       "categoryId": "bio"
     },
     {
+      "source": "Cell",
+      "title": "J. Michael Bishop: A remembrance—Not a hagiography",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00925-6?rss=yes",
+      "summary": "It is with no small measure of sadness that we reflect on the life of Professor J. Michael Bishop, who passed away in March at age 90. Mike was a towering figure in biomedical science whose scientific leadership and disc…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Metabolite buffering of labile iron governs ferroptosis",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00869-X?rss=yes",
+      "summary": "Iron abundance alone does not determine ferroptosis sensitivity. In this issue of Cell, Sharma and colleagues identify polyamines as endogenous metabolic buffers that reduce the chemical accessibility of labile iron, rev…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Enteric glial serotonin signaling drives anti-tumor immunity in colorectal cancer",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00935-9?rss=yes",
+      "summary": "Peripheral serotonergic signaling has been implicated in diverse physiological processes, yet its role in coordinating glial-immune interactions remains poorly understood. In this issue of Cell, Wen and colleagues identi…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "The regulatory logic linking inflammation and fibrosis",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00928-1?rss=yes",
+      "summary": "Fibrosis is a major contributor to disease and mortality yet lacks effective therapies. This review proposes that fibrotic states are maintained by chromatin-regulated circuits in fibroblasts and macrophages shaped by im…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Sexual dimorphism in the complete Drosophila male central nervous system connectome",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00942-6?rss=yes",
+      "summary": "The Drosophila whole male central nervous system connectome enables end-to-end analysis of sensorimotor circuits. Comparison with existing female datasets shows that brain-wide wiring differences between the sexes are co…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "The complete gustatory connectome of adult Drosophila reveals how taste guides feeding, foraging, and social behavior",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00943-8?rss=yes",
+      "summary": "The complete gustatory system and the full set of feeding motor neurons of adult Drosophila are mapped at synaptic resolution, enabling the identification of taste neuron types and their likely tastants and showing how v…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "The organization of visual pathways in the Drosophila brain",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00941-4?rss=yes",
+      "summary": "Tracing visual signals through the fly connectome provides a brain-wide view of visual organization, linking visual inputs to more than half of central-brain cell types through multisynaptic pathways. Estimates of the in…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Genomics and social practices at Mogou and other Gansu sites during prehistoric trans-Eurasian exchange",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00919-0?rss=yes",
+      "summary": "Ancient DNA from 149 individuals at 11 sites in Gansu, China, dated to around 4,700–3,000 years ago, reveals human population history during early transcontinental exchanges of agriculture and technology, as well as cont…",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Ultragenyx drug to treat Angelman syndrome, a rare disease, fails late-stage trial",
       "url": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/?utm_campaign=rss",
@@ -631,186 +811,6 @@
       "ts": 1788357600000,
       "publishedAt": "2026-09-02T14:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Doctors groups release vaccination guidelines ahead of respiratory illness season",
-      "url": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/?utm_campaign=rss",
-      "summary": "Ahead of respiratory illness season, professional organizations have issued guidance on flu, Covid, and RSV vaccines.",
-      "ts": 1788357600000,
-      "publishedAt": "2026-09-02T14:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: ARPA-H funds biotechs working on custom RNA therapies",
-      "url": "https://www.statnews.com/2026/09/02/biotech-news-arp-h-funds-biotechs-working-on-custom-rna-therapies/?utm_campaign=rss",
-      "summary": "Roche licenses a tri-specific antibody, new Trump deals may undercut its own goals, and other biotech news",
-      "ts": 1788356270000,
-      "publishedAt": "2026-09-02T13:37:50.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: How a former ARPA-H director’s startup is tackling AI’s ‘dumb problems’",
-      "url": "https://www.statnews.com/2026/09/02/why-transfyr-tackles-dumb-problems-intersection-bio-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AI Prognosis: A startup tackling the 'dumb problems' at the intersection of AI and bio, accuracy of AI scribes, and more.",
-      "ts": 1788355792000,
-      "publishedAt": "2026-09-02T13:29:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Huntington’s gene therapy, Novo’s challenges, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/02/uniqure-huntingtons-fda-novo-nordisk-investors-pharmalittle-newsletter/?utm_campaign=rss",
-      "summary": "UniQure has submitted its Huntington’s gene therapy to the FDA, investors remain unenthusiastic on Novo Nordisk, and more of the latest pharma headlines in today's Pharmalittle newsletter.",
-      "ts": 1788355615000,
-      "publishedAt": "2026-09-02T13:26:55.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI puzzles and a path to our nearest star system",
-      "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and game…",
-      "ts": 1788351000000,
-      "publishedAt": "2026-09-02T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "ts": 1788350400000,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Agile Space Industries Celebrates Durango Headquarters Expansion with Ribbon Cutting",
-      "url": "https://spacenews.com/agile-space-industries-celebrates-durango-headquarters-expansion-with-ribbon-cutting/",
-      "summary": "DURANGO, Colo. — Sept. 2, 2026 — Agile Space Industries celebrated the completion of a 20,500-square-foot expansion of its Durango headquarters with a ribbon-cutting ceremony on August 26, joined by […] The post Agile Sp…",
-      "ts": 1788350400000,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Repression of political opposition surges in post-election Zambia",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168267",
-      "summary": "Following Zambia’s contested presidential and parliamentary elections almost three weeks ago, the crackdown on political opposition has intensified, raising concerns about the future of democracy in the country, accordin…",
-      "ts": 1788350400000,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: US-Iran war intensifies, aid for Myanmar, casualties in Ukraine",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168268",
-      "summary": "Fighting between the United States and Iran has sharply escalated after a month-long lull, with the two sides exchanging strikes as fears grow over further civilian casualties.",
-      "ts": 1788350400000,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Don’t give up’: Syrian women’s ongoing search for the missing",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168264",
-      "summary": "Yasmin Al-Mashaan lost five brothers during more than a decade of conflict in Syria. Two were forcibly disappeared. Three were killed during peaceful demonstrations or by snipers loyal to the Bashar Al-Assad regime.",
-      "ts": 1788350400000,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan: Air attack destroys food aid for families in South Kordofan",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168251",
-      "summary": "Two truckloads of food aid destined for hungry families in South Kordofan state, Sudan, were destroyed in an aerial attack over the weekend, the World Food Progamme (WFP) said on Wednesday.",
-      "ts": 1788350400000,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168240",
-      "summary": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now c…",
-      "ts": 1788350400000,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "HHS spins a tale of a would-be content creator child",
-      "url": "https://www.statnews.com/2026/09/02/health-news-hhs-spins-a-tale-of-a-would-be-content-creator/?utm_campaign=rss",
-      "summary": "The next DSM and the algorithm, an unexpected discovery on alpha-gal syndrome, and more health news from Morning Rounds",
-      "ts": 1788350356000,
-      "publishedAt": "2026-09-02T11:59:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Third spacewalk completed for Sophie Adenot ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Third_spacewalk_completed_for_Sophie_Adenot",
-      "summary": "ESA astronaut Sophie Adenot and NASA astronaut Jessica Meir successfully completed US EVA-99 at 21:29 CEST on Tuesday 1 September. It was Sophie’s third spacewalk, and the 33rd conducted by a European astronaut.",
-      "ts": 1788346800000,
-      "publishedAt": "2026-09-02T11:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Cluster’s encore for reentry science a success",
-      "url": "https://www.esa.int/Space_Safety/Space_Debris/Cluster_s_encore_for_reentry_science_a_success",
-      "summary": "The Cluster mission danced its final dance as Tango reentered the atmosphere on 1 September, at 23:30:31 CEST. The end of the Cluster mission in 2024 turned into the start of the reentry data collection campaign. After f…",
-      "ts": 1788344400000,
-      "publishedAt": "2026-09-02T10:20:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: How Trump’s latest pharma deals may undermine efforts to rein in drug costs",
-      "url": "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/?utm_campaign=rss",
-      "summary": "Analysts say private deals involve drugmakers agreeing to lower prices in Medicaid, where prices are low, in return for no price cuts in Medicare.",
-      "ts": 1788337800000,
-      "publishedAt": "2026-09-02T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The Ig Nobel Prizes, long held in the U.S., head to Europe due to Trump policies",
-      "url": "https://www.statnews.com/2026/09/02/ig-nobel-prizes-europe-trump-policies/?utm_campaign=rss",
-      "summary": "For the first time since they began, the Ig Nobel Prizes, a satirical version of the Nobel prizes, is being held overseas.",
-      "ts": 1788337800000,
-      "publishedAt": "2026-09-02T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The next DSM should address the algorithm’s role in eating disorders",
-      "url": "https://www.statnews.com/2026/09/02/dsm-6-eating-disorders-algorithms-social-media-influence-screening/?utm_campaign=rss",
-      "summary": "The new DSM, expected in 2030, should address the digital environments of eating disorders patients, experts write.",
-      "ts": 1788337800000,
-      "publishedAt": "2026-09-02T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA’s first lunar rover rolls forward",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward",
-      "summary": "Yesterday evening, during a signing ceremony at the Space for Inspiration event in Copenhagen, Denmark, the European Space Agency (ESA) and ispace-Europe celebrated the implementation of MAGPIE, set to be the first Europ…",
-      "ts": 1788332400000,
-      "publishedAt": "2026-09-02T07:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
-      "url": "http://www.iaea.org/newscenter/news/technical-cooperation-side-events-at-the-70th-iaea-general-conference",
-      "summary": "",
-      "ts": 1788330763000,
-      "publishedAt": "2026-09-02T06:32:43.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
