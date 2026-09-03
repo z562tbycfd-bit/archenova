@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-03T17:37:31.418Z",
+  "updated": "2026-09-03T20:40:59.734Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Immune Cells Driving Alzheimer’s-Like Neurodegeneration Traced to Lymph Nodes",
+      "url": "https://www.genengnews.com/topics/translational-medicine/immune-cells-driving-alzheimers-like-neurodegeneration-traced-to-lymph-nodes/",
+      "summary": "A study in mice traces immune cells that drive neurodegeneration to the body’s lymph nodes, suggesting that processes outside the brain contribute to the damage seen in various tauopathies. The post Immune Cells Driving …",
+      "ts": 1788462078000,
+      "publishedAt": "2026-09-03T19:01:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Psilocybin Prevents Chemotherapy-Related Peripheral Neuropathy in Mice",
+      "url": "https://www.genengnews.com/topics/drug-discovery/psilocybin-prevents-chemotherapy-related-peripheral-neuropathy-in-mice/",
+      "summary": "A study found that psilocybin given before chemotherapy prevented the onset of nerve injury in mouse models, even after repeated treatment cycles, and also protected tumor-bearing mice from neuropathy, without impairing …",
+      "ts": 1788458425000,
+      "publishedAt": "2026-09-03T18:00:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "‘Tactical athletes’ get new guidance for cardiovascular fitness",
+      "url": "https://www.statnews.com/2026/09/03/tactical-athlete-health-risks-new-cardiovascular-guidelines-police-firefighters/?utm_campaign=rss",
+      "summary": "Tactical athletes, a category of people first recognized in the early 2000s, also need distinct kinds of health care.",
+      "ts": 1788458400000,
+      "publishedAt": "2026-09-03T18:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
@@ -127,6 +154,15 @@
       "ts": 1788437400000,
       "publishedAt": "2026-09-03T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Lebanon–Israel tensions escalate as Gaza sees major aid delivery",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168275",
+      "summary": "Peacekeepers in Lebanon have reported a marked deterioration in the security situation along the Blue Line of separation, with Israeli forces intensifying their military footprint in violation of a landmark Security Coun…",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -775,42 +811,6 @@
       "ts": 1788364843000,
       "publishedAt": "2026-09-02T16:00:43.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Regulatory Demands for More Process Control Data Fueling Innovation",
-      "url": "https://www.genengnews.com/topics/bioprocessing/regulatory-demands-for-more-process-control-data-fueling-innovation/",
-      "summary": "Advances in technology are making it easier for biopharma companies to embrace continuous manufacturing. However, they are also changing what regulators expect from drug firms in terms of the process control strategies t…",
-      "ts": 1788364822000,
-      "publishedAt": "2026-09-02T16:00:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Rising Over Louisiana",
-      "url": "https://www.nasa.gov/image-article/rising-over-louisiana/",
-      "summary": "On Aug. 28, 2026 (the evening of Aug. 27 in some time zones), the Moon passed into Earth’s shadow, creating a deep partial lunar eclipse. At the moment of greatest eclipse, 12:13 a.m. EDT, 96.3% of the Moon’s disk was im…",
-      "ts": 1788363530000,
-      "publishedAt": "2026-09-02T15:38:50.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds",
-      "url": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/",
-      "summary": "High above Earth, thin veils of metallic haze drift through the edge of space. Known as sporadic E layers, these high-altitude “clouds” form from the vaporized dust of burnt-up meteors, earning their name from the unpred…",
-      "ts": 1788360834000,
-      "publishedAt": "2026-09-02T14:53:54.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Facilitating AI integration with simplicity at scale",
-      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silo…",
-      "ts": 1788357600000,
-      "publishedAt": "2026-09-02T14:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
