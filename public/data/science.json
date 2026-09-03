@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-03T20:40:57.030Z",
+  "updated": "2026-09-03T23:04:33.197Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "From peas to potatoes, AI identifies nearly 800 promising plant proteins for food and cosmetics",
+      "url": "https://phys.org/news/2026-09-peas-potatoes-ai-proteins-food.html",
+      "summary": "Scientists from Leeds' School of Food Science and Nutrition have developed an advanced AI process that can rapidly identify plant proteins capable of acting as emulsifiers from tens of millions of initial candidates. To …",
+      "ts": 1788476404000,
+      "publishedAt": "2026-09-03T23:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How an unassuming wildflower thrives in salt-laden air that kills other plants",
+      "url": "https://phys.org/news/2026-09-unassuming-wildflower-salt-laden-air.html",
+      "summary": "On the windswept coasts of Oregon and California lives an unassuming little plant that can withstand salty blasts that kill its inland counterparts. It's called the yellow monkeyflower. Now, researchers are beginning to …",
+      "ts": 1788475801000,
+      "publishedAt": "2026-09-03T22:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Warming seas could shrink most mollusks by 2100, but some may grow",
+      "url": "https://phys.org/news/2026-09-seas-mollusks.html",
+      "summary": "Research led by scientists at the University of Louisiana at Lafayette challenges a long-held assumption about the effects of climate change on marine life: Warmer oceans won't simply make animals smaller.",
+      "ts": 1788475203000,
+      "publishedAt": "2026-09-03T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parliamentary motions show growing AI use, with no disclosure from MPs",
+      "url": "https://phys.org/news/2026-09-parliamentary-motions-ai-disclosure-mps.html",
+      "summary": "The two research teams have developed and used AI detectors trained on thousands of political motions in Sweden and the UK. What surprised the researchers was not that politicians were using AI—but that not a single one …",
+      "ts": 1788475201000,
+      "publishedAt": "2026-09-03T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Iron helped scientists trace Earth's oxygen. Now it's telling a bigger story",
+      "url": "https://phys.org/news/2026-09-iron-scientists-earth-oxygen-bigger.html",
+      "summary": "For decades, scientists have studied iron preserved in ancient rocks to reconstruct how Earth's oceans and atmosphere became rich in oxygen. A new study suggests iron has recorded other major transformations too.",
+      "ts": 1788474605000,
+      "publishedAt": "2026-09-03T22:30:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Built to last or break down: Ring size tunes biodegradable plastic lifetimes",
+      "url": "https://phys.org/news/2026-09-built-size-tunes-biodegradable-plastic.html",
+      "summary": "Biodegradable plastics should be tough enough for use yet able to break down at an appropriate rate afterward. Researchers at the University of Osaka show that changing the size of rings threaded onto a biodegradable pol…",
+      "ts": 1788474002000,
+      "publishedAt": "2026-09-03T22:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellites spot forest stress two years before bark beetle die-offs become apparent",
+      "url": "https://phys.org/news/2026-09-satellites-forest-stress-years-bark.html",
+      "summary": "Satellite measurements detected declining photosynthetic activity in Western U.S. forests two years before bark beetle mortality appeared in aerial detection surveys, according to new University of Utah-led research.",
+      "ts": 1788473405000,
+      "publishedAt": "2026-09-03T22:10:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Arctic melt season is a week longer now than it was in the 1980s, new research on sea ice trends shows",
+      "url": "https://phys.org/news/2026-09-arctic-season-week-longer-1980s.html",
+      "summary": "Relatively few people have been to the Arctic, and even fewer have set foot in Antarctica. Most people rely on imagination and the media to visualize these landscapes and the ways they are changing.",
+      "ts": 1788472806000,
+      "publishedAt": "2026-09-03T22:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microbes—dead or alive—can be early indicators of soil health under regenerative farming",
+      "url": "https://phys.org/news/2026-09-microbes-dead-alive-early-indicators.html",
+      "summary": "Researchers have demonstrated a series of biological tests that could serve as \"proxies\" for measuring how different regenerative agriculture practices could improve soil carbon—years before it would be possible to measu…",
+      "ts": 1788472201000,
+      "publishedAt": "2026-09-03T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Even second graders can reason like scientists—if we ask them the right way",
+      "url": "https://phys.org/news/2026-09-graders-scientists.html",
+      "summary": "When a child asks \"Why does a blowfish puff up?\" we often jump in with facts. But what if we paused and suggested that they ask instead, \"How does a blowfish puff up?\" It may seem like splitting hairs, but this small shi…",
+      "ts": 1788471604000,
+      "publishedAt": "2026-09-03T21:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoscale multiferroic materials open the path to efficient magnetic memory technology",
+      "url": "https://phys.org/news/2026-09-nanoscale-multiferroic-materials-path-efficient.html",
+      "summary": "With the rapid spread of cloud computing, artificial intelligence and data centers, global energy consumption is rising to new heights. A promising way to reduce this burden is to develop memory devices that store inform…",
+      "ts": 1788471601000,
+      "publishedAt": "2026-09-03T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Predictive tools can confuse rare mutations with dangerous ones",
+      "url": "https://phys.org/news/2026-09-tools-rare-mutations-dangerous.html",
+      "summary": "When a patient's DNA is read, it is compared with a reference version of the human genome. This allows geneticists and rare disease experts to look at a list of places where the patient's DNA differs. Most variations wil…",
+      "ts": 1788470407000,
+      "publishedAt": "2026-09-03T21:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beyond the 'Great Divide': What we really know about political polarization",
+      "url": "https://phys.org/news/2026-09-great-political-polarization.html",
+      "summary": "Americans are deeply divided. At least that's what we've been told for years. But how divided are we really? A new review suggests the answer may depend on how researchers ask the question.",
+      "ts": 1788470401000,
+      "publishedAt": "2026-09-03T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ig Nobel Prize winners reveal why babies smell better than teenagers",
+      "url": "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html",
+      "summary": "Babies smell wonderful—at least to their parents. An international research team of Ilona Croy, Tomasz Frackowiak, Thomas Hummel and Agnieszka Sorokowska investigated why teenagers lose this special olfactory advantage a…",
+      "ts": 1788469806000,
+      "publishedAt": "2026-09-03T21:10:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Traces of nearly 4 million coins reveal how Rome achieved economic integration",
+      "url": "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html",
+      "summary": "For centuries, the study of ancient history relied primarily on interpreting classical texts and examining inscriptions and archaeological remains at their sites of origin or in museums. In recent years, however, a littl…",
+      "ts": 1788469801000,
+      "publishedAt": "2026-09-03T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Green thumb' molecule helps leaf stalks grow in crowded conditions",
+      "url": "https://phys.org/news/2026-09-green-thumb-molecule-leaf-stalks.html",
+      "summary": "Potassium (K) is one of the three essential nutrients for plants. It plays a critical role in a wide range of processes, including cell growth, photosynthesis and regulation of water balance. Plants take up K from the so…",
+      "ts": 1788469206000,
+      "publishedAt": "2026-09-03T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A molecular brake that keeps muscle architecture in check",
+      "url": "https://phys.org/news/2026-09-molecular-muscle-architecture.html",
+      "summary": "Every movement we make, from blinking to sprinting, depends on the ability of muscle fibers to contract in a rapid and coordinated way. Achieving this precision requires an intricate internal membrane network known as th…",
+      "ts": 1788469201000,
+      "publishedAt": "2026-09-03T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How a plant's refusal to self-pollinate could help India grow more of its own cooking oil",
+      "url": "https://phys.org/news/2026-09-pollinate-india-cooking-oil.html",
+      "summary": "Most people assume plants reproduce through whatever pollen happens to land on them. This is not true. A collaborative research initiative involving the Indian Institute of Technology Gandhinagar (IITGN) has mapped and f…",
+      "ts": 1788468601000,
+      "publishedAt": "2026-09-03T20:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hot subdwarfs come into focus as AI scans thousands of stars in Gaia data",
@@ -657,150 +801,6 @@
       "summary": "Author(s): Yu Wu, Dudu Song, Zhengyi Lu, Shunping Zhang, and Hongxing Xu Light emission via inelastic electron tunneling (LEIT) is an ultrabroadband light source with potential impact in visible-light communication, inte…",
       "ts": 1788429600000,
       "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Farming experts tout 'conscious' food systems to fix agriculture woes",
-      "url": "https://phys.org/news/2026-09-farming-experts-tout-conscious-food.html",
-      "summary": "Farmers around the world are struggling with the impact of climate change, financial pressures and depleted soil—and industry experts say bringing consumers closer to the people who produce their food could provide a sol…",
-      "ts": 1788427201000,
-      "publishedAt": "2026-09-03T09:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Electron spin unlocks magnetic control of hydrogen surface reactions",
-      "url": "https://phys.org/news/2026-09-electron-magnetic-hydrogen-surface-reactions.html",
-      "summary": "Chemical reactions at surfaces play a central role in many processes, including catalysis and materials synthesis. It is well known that the outcome of these reactions is influenced by the translational, vibrational and …",
-      "ts": 1788426007000,
-      "publishedAt": "2026-09-03T09:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Heavy water's atmospheric fingerprints boost weather forecasts for up to five days",
-      "url": "https://phys.org/news/2026-09-heavy-atmospheric-fingerprints-boost-weather.html",
-      "summary": "Weather forecasts rely on many different kinds of data, including temperature, humidity and wind. For the first time, researchers, including those at the University of Tokyo, have demonstrated that a long-theorized impro…",
-      "ts": 1788426003000,
-      "publishedAt": "2026-09-03T09:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI boom is testing tech firms' climate pledges",
-      "url": "https://phys.org/news/2026-09-ai-boom-tech-firms-climate.html",
-      "summary": "Technology companies are stepping up their climate commitments but not fast enough to counter rapidly growing energy needs linked to the artificial intelligence boom, a report said Wednesday.",
-      "ts": 1788424802000,
-      "publishedAt": "2026-09-03T08:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rare trio of Pacific hurricanes fueled by historic El Niño",
-      "url": "https://phys.org/news/2026-09-rare-trio-pacific-hurricanes-fueled.html",
-      "summary": "A rare trio of hurricanes were churning through the Pacific Ocean on Thursday, which scientists attributed to waters warmed by a historically strong El Niño phenomenon.",
-      "ts": 1788423709000,
-      "publishedAt": "2026-09-03T08:21:49.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "In Chile, injured penguins sport copper vests to help them heal",
-      "url": "https://phys.org/news/2026-09-chile-penguins-sport-copper-vests.html",
-      "summary": "Researchers in Chile have designed an unlikely new garment for injured penguins—snug red vests threaded with copper and zinc that they hope will help the aquatic birds heal faster.",
-      "ts": 1788423054000,
-      "publishedAt": "2026-09-03T08:10:54.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Underwater meadows sustain millions in extreme poverty",
-      "url": "https://phys.org/news/2026-09-underwater-meadows-sustain-millions-extreme.html",
-      "summary": "A study provides the first large-scale empirical evidence that seagrass meadows act as a critical safety net for millions of coastal people living in extreme poverty across the Indo-Pacific.",
-      "ts": 1788422402000,
-      "publishedAt": "2026-09-03T08:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Biodegradable 'nanobone' could one day help regrow bone without painful grafts",
-      "url": "https://phys.org/news/2026-09-biodegradable-nanobone-day-regrow-bone.html",
-      "summary": "For children born with cleft lip and palate, repairing gaps in the jawbone often means waiting until they are 10 to 12 years old before undergoing invasive bone graft surgery. University of Sydney researchers have develo…",
-      "ts": 1788411602000,
-      "publishedAt": "2026-09-03T05:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "With education technology, engagement is not the same as learning",
-      "url": "https://phys.org/news/2026-09-technology-engagement.html",
-      "summary": "A new report from the American Psychological Association warns that student engagement with educational technology is not the same as learning—and that generative AI tools pose particular risks by improving students' imm…",
-      "ts": 1788408003000,
-      "publishedAt": "2026-09-03T04:00:03.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantized mereology",
-      "url": "https://arxiv.org/abs/2609.01620",
-      "summary": "arXiv:2609.01620v1 Announce Type: new Abstract: This paper investigates quantized mereology, which merges quantum information theory with classical mereology, the formal analysis of the part-whole relationship. It emphas…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy Conservation, Lorentz Invariance and a Second Dimension of Time",
-      "url": "https://arxiv.org/abs/2609.01626",
-      "summary": "arXiv:2609.01626v1 Announce Type: new Abstract: The law of conservation of energy can be stated: Energy can neither be created or destroyed but only converted to from one form to another. Laboratory experiments demonstra…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Barrow Holographic Dark Energy with a Ricci Cutoff in Power-Law $f(Q,L_m)$ Gravity: Late-Time Cosmological Dynamics",
-      "url": "https://arxiv.org/abs/2609.01629",
-      "summary": "arXiv:2609.01629v1 Announce Type: new Abstract: We investigate late-time Barrow holographic dark energy (BHDE) with Ricci cutoff in $f(Q,L_m)=Q+\\alpha Q^n-2L_m$ gravity. The $Q^n$ term modifies the symmetric-teleparallel…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Charged Anisotropic Compact Stars in $f(R,\\phi,X)$ Gravity: A Class I Embedding Approach with Reissner-Nordstr\\\"{o}m Exterior",
-      "url": "https://arxiv.org/abs/2609.01630",
-      "summary": "arXiv:2609.01630v1 Announce Type: new Abstract: This work examines the physical characteristics of charged, anisotropic compact spheres within the framework of $f(R,\\phi,X)$ modified gravity. Starting from a static, sphe…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Running Vacuum Cosmology in f(R,T) Gravity: Observational Constraints and Thermodynamic Analysis",
-      "url": "https://arxiv.org/abs/2609.01632",
-      "summary": "arXiv:2609.01632v1 Announce Type: new Abstract: Despite the remarkable observational success of the $\\Lambda$CDM model, the physical origin of dark energy and the cosmological constant remain unresolved, motivating the e…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-native machine learning reconstruction of DSMC moment fields with support monitoring",
-      "url": "https://arxiv.org/abs/2609.01637",
-      "summary": "arXiv:2609.01637v1 Announce Type: new Abstract: Direct simulation Monte Carlo (DSMC) resolves rarefied-gas dynamics without a constitutive closure, but finite-sample estimates of macroscopic moments converge at markedly …",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse planning of social interactions in relationships",
-      "url": "https://arxiv.org/abs/2609.01639",
-      "summary": "arXiv:2609.01639v1 Announce Type: new Abstract: We propose a formal account of how structured, shared knowledge about social relationships shapes action interpretation. The model represents relationships as constraints i…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Probability Model for Pentagonal Prism Dice Rolls",
-      "url": "https://arxiv.org/abs/2609.01643",
-      "summary": "arXiv:2609.01643v1 Announce Type: new Abstract: In the realm of probability theory and game design, the study of dice probabilities plays a crucial role. The featured dice are usually fair, so their probabilities can be …",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parameter inference from a non-stationary unknown process using statistical feature-based slow feature analysis",
-      "url": "https://arxiv.org/abs/2609.01651",
-      "summary": "arXiv:2609.01651v1 Announce Type: new Abstract: Non-stationary phenomena are ubiquitous, with examples to be found in climatological measurements, brain activity, and the behavior of financial markets. Starting with a ti…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
     }
   ],
   "sources": [

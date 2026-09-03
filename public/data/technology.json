@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-03T20:40:59.734Z",
+  "updated": "2026-09-03T23:04:36.904Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Recipients of gene-edited pig kidneys successfully receive human organs",
+      "url": "https://www.statnews.com/2026/09/03/recipients-of-gene-edited-pig-kidneys-receive-human-organs/?utm_campaign=rss",
+      "summary": "Two recipients of gene-edited pig kidneys have successfully received human organs, a milestone in the wider effort to advance xenografts.",
+      "ts": 1788474600000,
+      "publishedAt": "2026-09-03T22:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Schiess takes command of Space Force as the service prepares for expansion",
+      "url": "https://spacenews.com/schiess-takes-command-of-space-force-as-the-service-prepares-for-expansion/",
+      "summary": "Gen. Douglas Schiess succeeds Gen. Chance Saltzman as the third chief of space operations of the U.S. Space Force The post Schiess takes command of Space Force as the service prepares for expansion appeared first on Spac…",
+      "ts": 1788469403000,
+      "publishedAt": "2026-09-03T21:03:23.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Ionis wins FDA approval for first drug for Alexander disease, a rare and deadly neurological disorder",
+      "url": "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/?utm_campaign=rss",
+      "summary": "Zanvastro is the first disease-modifying treatment for Alexander disease, a rare and fatal disorder.",
+      "ts": 1788468356000,
+      "publishedAt": "2026-09-03T20:45:56.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Immune Cells Driving Alzheimer’s-Like Neurodegeneration Traced to Lymph Nodes",
@@ -129,6 +156,15 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "ts": 1788441300000,
+      "publishedAt": "2026-09-03T13:15:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NVIDIA",
       "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
@@ -153,6 +189,24 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Child-monitoring apps might need a reboot Digital harms have become the defining f…",
       "ts": 1788437400000,
       "publishedAt": "2026-09-03T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -318,15 +372,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Peatland Fires Darken Skies in Indonesia",
-      "url": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/",
-      "summary": "With Indonesia gripped by drought, fires are smoldering on the surface and underground.",
-      "ts": 1788408060000,
-      "publishedAt": "2026-09-03T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "Why are drug overdose deaths declining?",
       "url": "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/?utm_campaign=rss",
@@ -334,6 +379,15 @@
       "ts": 1788408060000,
       "publishedAt": "2026-09-03T04:01:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Peatland Fires Darken Skies in Indonesia",
+      "url": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/",
+      "summary": "With Indonesia gripped by drought, fires are smoldering on the surface and underground.",
+      "ts": 1788408060000,
+      "publishedAt": "2026-09-03T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -642,6 +696,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Safety overview: GPT-6 Astra",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "ts": 1788393600000,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Cell",
       "title": "J. Michael Bishop: A remembrance—Not a hagiography",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00925-6?rss=yes",
@@ -748,69 +811,6 @@
       "ts": 1788375665000,
       "publishedAt": "2026-09-02T19:01:05.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Tracks New Decagon Encircling Saturn’s South Pole",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
-      "summary": "NASA’s Hubble Space Telescope observes a giant, evolving, 10-sided atmospheric wave encircling Saturn’s south pole.",
-      "ts": 1788372037000,
-      "publishedAt": "2026-09-02T18:00:37.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Human Pancreatic Duct Cells Show Diabetes Therapy Potential",
-      "url": "https://www.genengnews.com/topics/translational-medicine/human-pancreatic-duct-cells-show-diabetes-therapy-potential/",
-      "summary": "Loss of function in the ALDH3B2 gene can convert human pancreatic duct cells into functional β-like cells that in tests secreted insulin in response to glucose, and lowered blood glucose levels when transplanted into dia…",
-      "ts": 1788372000000,
-      "publishedAt": "2026-09-02T18:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Converted Human Pancreatic Duct Cells Show Diabetes Therapy Potential",
-      "url": "https://www.genengnews.com/topics/translational-medicine/converted-human-pancreatic-duct-cells-show-diabetes-therapy-potential/",
-      "summary": "Loss of function in the ALDH3B2 gene can convert human pancreatic duct cells into functional β-like cells that in tests secreted insulin in response to glucose, and lowered blood glucose levels when transplanted into dia…",
-      "ts": 1788372000000,
-      "publishedAt": "2026-09-02T18:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "FLEX and Sentinel-3C sealed within Vega-C fairing",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_sealed_within_Vega-C_fairing",
-      "summary": "At Europe’s Spaceport in French Guiana, preparations for one of the year’s most anticipated Earth-observation launches are entering their final stages. FLEX and Copernicus Sentinel-3C have now been enclosed within the pr…",
-      "ts": 1788365280000,
-      "publishedAt": "2026-09-02T16:08:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New Spectrometry Technique Could Aid Formulation Development",
-      "url": "https://www.genengnews.com/topics/bioprocessing/new-spectrometry-technique-could-aid-formulation-development/",
-      "summary": "A new spectrometry technique could help companies better understand what happens when antigens and antibodies bind. Its developers hope it could help with applications including choosing formulation buffers during manufa…",
-      "ts": 1788364850000,
-      "publishedAt": "2026-09-02T16:00:50.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The DNA Balancing Act in Boosting Bacterial Productivity",
-      "url": "https://www.genengnews.com/topics/bioprocessing/math-model-predicts-plasmid-power-struggles/",
-      "summary": "A new mathematical model tracks how plasmids move through competing E. coli populations, revealing how antibiotics, genetic costs, and plasmid loss could shape biotechnology cultures and future probiotic dosing strategie…",
-      "ts": 1788364848000,
-      "publishedAt": "2026-09-02T16:00:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bicistornic Vectors + piggyBac = Improved Antibody Cell Line Production",
-      "url": "https://www.genengnews.com/topics/bioprocessing/bicistornic-vectors-piggybac-improved-antibody-cell-line-production/",
-      "summary": "To produce stable cell lines for monoclonal antibody production, manufacturers typically use the piggyBac transposon system. For larger, multi-specific antibodies that have payloads of three or four cistrons, piggyBac is…",
-      "ts": 1788364843000,
-      "publishedAt": "2026-09-02T16:00:43.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
