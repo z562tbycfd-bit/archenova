@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-09-02T23:05:04.203Z",
+  "updated": "2026-09-03T03:31:54.056Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study reveals distinct patterns across single-, multi-, and mass homicides",
+      "url": "https://phys.org/news/2026-09-reveals-distinct-patterns-multi-mass.html",
+      "summary": "An updated analysis of U.S. homicide data has found that intimate partner violence (IPV) often precipitates mass homicide and is also frequently associated with multi-victim and single-victim deaths. The study categorize…",
+      "ts": 1788405641000,
+      "publishedAt": "2026-09-03T03:20:41.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crash in dugong population estimates, a warning sign governments can't ignore",
+      "url": "https://phys.org/news/2026-09-dugong-population.html",
+      "summary": "A 50% decline in the Gulf of Carpentaria dugong population estimate is a wake-up call for urgent action to protect dugongs in the Gulf, based on surveys undertaken by researchers from James Cook University, Charles Darwi…",
+      "ts": 1788402004000,
+      "publishedAt": "2026-09-03T02:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pacific islands to face food shortages due to global warming: Scientists",
+      "url": "https://phys.org/news/2026-09-pacific-islands-food-shortages-due.html",
+      "summary": "The Pacific islands will face food shortages, and drinking water will be affected by rising seas, scientists said Wednesday, as a U.N. report found the world would fail to limit global warming to 1.5°C.",
+      "ts": 1788396002000,
+      "publishedAt": "2026-09-03T00:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Five-metal 2D catalysts could convert CO₂ to CO without needing an extra electrical boost",
+      "url": "https://phys.org/news/2026-09-metal-2d-catalysts-extra-electrical.html",
+      "summary": "Carbon dioxide (CO₂) is usually discussed as something the world needs to get rid of. Activities such as the burning of fossil fuels for daily use, including electricity and transportation, and industrial applications re…",
+      "ts": 1788392401000,
+      "publishedAt": "2026-09-02T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cellular maintenance crew may miss as much as half of certain misfolded proteins",
+      "url": "https://phys.org/news/2026-09-cellular-maintenance-crew-misfolded-proteins.html",
+      "summary": "As proteins are made in a cell, they are folded into the 3D structure that allows them to work, but sometimes this process can go wrong. When it does, the misfolded proteins lose some or all of their function and usually…",
+      "ts": 1788391203000,
+      "publishedAt": "2026-09-02T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Caterpillar twitches in an ultraquiet chamber help biologists understand how these insects hear without ears",
+      "url": "https://phys.org/news/2026-09-caterpillar-twitches-ultraquiet-chamber-biologists.html",
+      "summary": "In a quiet summer garden, a caterpillar perches on a branch, munching serenely on leaves. A moment later, it freezes. It senses danger—and just in time. From behind, a wasp approaches, sizing up its prey.",
+      "ts": 1788391201000,
+      "publishedAt": "2026-09-02T23:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Trees use a 'muscle' to correct their posture—a newly discovered role for tension wood",
@@ -668,33 +716,9 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Search for New Physics via Low-Energy Electron Recoils with a 4.2 Tonne-Year Exposure from the LZ Experiment",
-      "url": "http://link.aps.org/doi/10.1103/wnxl-yf95",
-      "summary": "Author(s): D. S. Akerib et al. (The LZ Collaboration) We report results from searches for new physics models through electron recoils using data collected by the LUX-ZEPLIN experiment during its first two science runs, w…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Q-Factor Matching for Femtosecond Near-Field Enhancement in Hybrid Metal-Dielectric Metasurfaces",
-      "url": "http://link.aps.org/doi/10.1103/zkdb-qhps",
-      "summary": "Author(s): Yaolong Li, Xu Shi, Yuxin Zhang, Lin Qiao, Hong Yang, Shufeng Wang, Guowei Lyu, Yasutaka Matsuo, Xiaoyong Hu, Qihuang Gong, and Hiroaki Misawa Matching the cavity resonance lifetime to the driving laser pulse …",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Arm qubit: A superconducting qubit co-designed for coherence and coupling",
-      "url": "http://link.aps.org/doi/10.1103/3l3b-7jsm",
-      "summary": "Author(s): Jeremy B. Kline, Alec Yen, Stanley Chen, and Kevin P. O’Brien We present a superconducting qubit, which consists of two strongly coupled modes: one for data storage and one for coupling, allowing faster, highe…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Enhancement of magnon-phonon coupling in ferromagnetic ${\\mathrm{Co}}_{2}\\mathrm{FeSi}$ alloy using the monostable-bistable magnetic transition",
-      "url": "http://link.aps.org/doi/10.1103/jxzs-blby",
-      "summary": "Author(s): Kazuto Yamanoi, Shinya Yamada, Kohei Hamaya, and Yukio Nozaki Magnon-phonon hybridization enables coupled control of spin and mechanical excitations, but the limited frequency tunability of conventional surfac…",
+      "title": "Analytically Continuing the Randomized Measurement Toolbox",
+      "url": "http://link.aps.org/doi/10.1103/837t-68bf",
+      "summary": "Author(s): Akash Vijay, Ayush Raj, Jonah Kudler-Flam, Benoît Vermersch, Andreas Elben, and Laimei Nie We develop a framework for extracting nonpolynomial analytic functions of density matrices in randomized measurement e…",
       "ts": 1788343200000,
       "publishedAt": "2026-09-02T10:00:00.000Z"
     },
@@ -748,6 +772,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Search for New Physics via Low-Energy Electron Recoils with a 4.2 Tonne-Year Exposure from the LZ Experiment",
+      "url": "http://link.aps.org/doi/10.1103/wnxl-yf95",
+      "summary": "Author(s): D. S. Akerib et al. (The LZ Collaboration) We report results from searches for new physics models through electron recoils using data collected by the LUX-ZEPLIN experiment during its first two science runs, w…",
+      "ts": 1788343200000,
+      "publishedAt": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Fundamental Impossibility of a Superradiant Neutrino Laser",
       "url": "http://link.aps.org/doi/10.1103/8x7k-rwx2",
       "summary": "Author(s): Yu-Kun Lu, Hanzhen Lin (林翰桢), and Wolfgang Ketterle Two studies find that fundamental quantum constraints rule out a previously proposed neutrino-laser scheme. [Phys. Rev. Lett. 137, 101804] Published Wed Sep …",
@@ -767,38 +799,6 @@
       "title": "Infrared Singularities of Multileg Amplitudes with a Massive Particle at Three Loops",
       "url": "http://link.aps.org/doi/10.1103/6bzh-h122",
       "summary": "Author(s): Einan Gardi and Zehao Zhu We determine the complete three-loop QCD soft anomalous dimension for multileg amplitudes involving a single massive colored particle and any number of massless ones. This is achieved…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Identification of $^{17}\\mathrm{Na}$ Ground State and Mirror Symmetry Violation with $^{17}\\mathrm{C}$",
-      "url": "http://link.aps.org/doi/10.1103/3mqd-58tp",
-      "summary": "Author(s): L. Ni et al. The ground state of the three-proton emitter $^{17}\\mathrm{Na}$ has been identified. Energy correlations between the protons and the $^{14}\\mathrm{O}$ residue indicate that its decay is sequential…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Optimizing Optomechanical Detection by Spatially Mapping and Masking Measurement Inefficiency",
-      "url": "http://link.aps.org/doi/10.1103/3dxh-3415",
-      "summary": "Author(s): Youssef Tawfik, Shan Hao, and Thomas P. Purdy Many optical measurement techniques, such as light scattering from wavelength-scale particles or detecting motion of a surface with an optical lever, encode inform…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantized Transconductance Emerges from Nonsymmetric Quantum Fluctuations",
-      "url": "http://link.aps.org/doi/10.1103/gx9l-gg4q",
-      "summary": "Author(s): K. Mertiri and Yuli V. Nazarov We show theoretically that weak quantum fluctuations induced by a nonsymmetric electromagnetic environment may lead to a quantized transconductance of a multiterminal quantum con…",
-      "ts": 1788343200000,
-      "publishedAt": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Light-Induced Transient Polarization Reversal in Rhombohedrally Stacked Bilayer Transition Metal Dichalcogenides via an Electronic Mechanism",
-      "url": "http://link.aps.org/doi/10.1103/gb1r-x1cd",
-      "summary": "Author(s): Xiangzhou Zhu, Stefano Mocatti, and Matteo Calandra Light-induced sliding ferroelectricity in two-dimensional van der Waals materials enables polarization control via relative layer motion. However, polarizati…",
       "ts": 1788343200000,
       "publishedAt": "2026-09-02T10:00:00.000Z"
     }

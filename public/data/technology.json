@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-02T23:05:08.631Z",
+  "updated": "2026-09-03T03:31:57.981Z",
   "items": [
     {
       "source": "STAT",
@@ -46,6 +46,15 @@
       "ts": 1788372037000,
       "publishedAt": "2026-09-02T18:00:37.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Human Pancreatic Duct Cells Show Diabetes Therapy Potential",
+      "url": "https://www.genengnews.com/topics/translational-medicine/human-pancreatic-duct-cells-show-diabetes-therapy-potential/",
+      "summary": "Loss of function in the ALDH3B2 gene can convert human pancreatic duct cells into functional β-like cells that in tests secreted insulin in response to glucose, and lowered blood glucose levels when transplanted into dia…",
+      "ts": 1788372000000,
+      "publishedAt": "2026-09-02T18:00:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "Genetic Engineering News",
@@ -162,6 +171,15 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and game…",
       "ts": 1788351000000,
       "publishedAt": "2026-09-02T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "ts": 1788350400000,
+      "publishedAt": "2026-09-02T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -357,7 +375,7 @@
       "source": "arXiv q-bio",
       "title": "On the interpretation of the kinetics of ligand-receptor binding",
       "url": "https://arxiv.org/abs/2609.01228",
-      "summary": "arXiv:2609.01228v1 Announce Type: new Abstract: When the rates of ligand binding are measured by methods such as surface plasmon resonance, it is common practice to use the observed rate constants for the onset and offse…",
+      "summary": "arXiv:2609.01228v2 Announce Type: new Abstract: When the rates of ligand binding are measured by methods such as surface plasmon resonance, it is common practice to use the observed rate constants for the onset and offse…",
       "ts": 1788321600000,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "categoryId": "bio"
@@ -790,24 +808,6 @@
       "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168239",
       "summary": "UN Secretary-General António Guterres on Tuesday urged leaders of the Shanghai Cooperation Organization (SCO) to help reshape global governance for a changing world, arguing that a more multipolar international order can…",
-      "ts": 1788264000000,
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Decades of war have left ‘depth and breadth’ of trauma across Afghanistan, UN finds",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168238",
-      "summary": "Victims of Afghanistan’s decades-long armed conflict continue to suffer profound physical, psychological, social and economic consequences, often without access to justice, reparation or formal acknowledgement of the har…",
-      "ts": 1788264000000,
-      "publishedAt": "2026-09-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Food aid cutback in the occupied West Bank as health fears grow in Gaza",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168237",
-      "summary": "Lack of funding has forced the World Food Programme (WFP) to slash aid to families in the West Bank by half even though needs have more than doubled over the past two years.",
       "ts": 1788264000000,
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "categoryId": "global-governance"
