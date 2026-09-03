@@ -1,7 +1,135 @@
 {
   "ok": true,
-  "updated": "2026-09-03T08:41:06.340Z",
+  "updated": "2026-09-03T13:21:00.576Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Quantum control algorithm looks to explain how birds migrate",
+      "url": "https://phys.org/news/2026-09-quantum-algorithm-birds-migrate.html",
+      "summary": "The hidden world of quantum mechanics exists at scales many orders of magnitude smaller than living organisms, yet scientists have long theorized that quantum effects play an important role in biology. Birds' ability to …",
+      "ts": 1788441607000,
+      "publishedAt": "2026-09-03T13:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why feeding birds can make you feel better",
+      "url": "https://phys.org/news/2026-09-birds.html",
+      "summary": "More than 56 million U.S. adults feed wild birds.",
+      "ts": 1788441601000,
+      "publishedAt": "2026-09-03T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Farewell black spruce? How climate change and pests are reshaping North America's forests",
+      "url": "https://phys.org/news/2026-09-farewell-black-spruce-climate-pests.html",
+      "summary": "More than 80% of North American forests could face greater threats from pests and diseases by midcentury, a University of British Columbia-led study finds. If global emissions continue unchecked, rising temperatures and …",
+      "ts": 1788440409000,
+      "publishedAt": "2026-09-03T13:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Overqualification can make or break family life, study reveals",
+      "url": "https://phys.org/news/2026-09-overqualification-family-life-reveals.html",
+      "summary": "New research shows overqualified employees who prioritize work over family are more likely to let anxiety and fear about their careers spill into their home lives, creating damaging conflict.",
+      "ts": 1788440401000,
+      "publishedAt": "2026-09-03T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can an AI tutor help students improve at math?",
+      "url": "https://phys.org/news/2026-09-ai-students-math.html",
+      "summary": "As schools contend with rapid developments in artificial intelligence, new research from the University of Toronto Mississauga suggests an AI tutor could help students with math, but only if it holds back answers and coa…",
+      "ts": 1788439204000,
+      "publishedAt": "2026-09-03T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When panic freezes people: Virtual quake tests capture real-time fear and injury risk",
+      "url": "https://phys.org/news/2026-09-panic-people-virtual-quake-capture.html",
+      "summary": "Growing up, many of us were taught to drop, cover and hold on during an earthquake. The guidance is straightforward, but how people actually respond when the ground starts shaking can be far more complicated. Now, UC Ber…",
+      "ts": 1788439202000,
+      "publishedAt": "2026-09-03T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The biggest black hole merger ever observed could be less massive than it appears",
+      "url": "https://phys.org/news/2026-09-biggest-black-hole-merger-massive.html",
+      "summary": "Gravitational waves are ripples in spacetime created when pairs of black holes spiral into each other and eventually merge. But if this ripple has been warped by another massive object on its way to Earth, a new analysis…",
+      "ts": 1788438649000,
+      "publishedAt": "2026-09-03T12:30:49.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Our pay is called a 'salary,' but were Roman soldiers really paid in salt?",
+      "url": "https://phys.org/news/2026-09-pay-salary-roman-soldiers-paid.html",
+      "summary": "Every other Wednesday, like clockwork, my salary arrives in my bank account. By Thursday, most of it is gone.",
+      "ts": 1788438004000,
+      "publishedAt": "2026-09-03T12:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Looking back to forecast the future of lobster",
+      "url": "https://phys.org/news/2026-09-future-lobster.html",
+      "summary": "For generations, the lobster fishery has been central to the cultural and economic identity of Maine and Atlantic Canada. Predicting what the future holds for the species—and the people who depend on it—has long been a p…",
+      "ts": 1788436804000,
+      "publishedAt": "2026-09-03T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Salt may have helped turn Earth into a frozen world 700 million years ago",
+      "url": "https://phys.org/news/2026-08-salt-earth-frozen-world-million.html",
+      "summary": "Earth may have been pushed deeper into a global deep freeze by something surprisingly ordinary: salt. Around 700 million years ago, Earth entered periods of extreme glaciation known as Snowball Earth, when ice is thought…",
+      "ts": 1788435606000,
+      "publishedAt": "2026-09-03T11:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Teenage kicks: Why Australian youth culture must be preserved",
+      "url": "https://phys.org/news/2026-09-teenage-australian-youth-culture.html",
+      "summary": "From the rock 'n' roll and punk scenes, soda fountains and graduation-week celebrations, surfers, skaters, ravers and the modern-day Eshay, generations of young Australians have been creating culture, but much of it risk…",
+      "ts": 1788435601000,
+      "publishedAt": "2026-09-03T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Informal supporters share experiences of NDIS behavior support practitioners",
+      "url": "https://phys.org/news/2026-09-ndis-behavior-practitioners.html",
+      "summary": "A new national survey of informal supporters of people with disabilities who have received NDIS-funded behavior support services has identified wide variation in supporters' confidence in practitioners' knowledge and ski…",
+      "ts": 1788434402000,
+      "publishedAt": "2026-09-03T11:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Britons disagree about poverty: They draw the line differently",
+      "url": "https://phys.org/news/2026-09-britons-poverty-line-differently.html",
+      "summary": "People with different political beliefs do not only disagree about how much poverty exists in Britain but they also differ over whether the same material circumstances should be defined as poverty, according to new resea…",
+      "ts": 1788433207000,
+      "publishedAt": "2026-09-03T11:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Farming experts tout 'conscious' food systems to fix agriculture woes",
+      "url": "https://phys.org/news/2026-09-farming-experts-tout-conscious-food.html",
+      "summary": "Farmers around the world are struggling with the impact of climate change, financial pressures and depleted soil—and industry experts say bringing consumers closer to the people who produce their food could provide a sol…",
+      "ts": 1788427201000,
+      "publishedAt": "2026-09-03T09:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electron spin unlocks magnetic control of hydrogen surface reactions",
+      "url": "https://phys.org/news/2026-09-electron-magnetic-hydrogen-surface-reactions.html",
+      "summary": "Chemical reactions at surfaces play a central role in many processes, including catalysis and materials synthesis. It is well known that the outcome of these reactions is influenced by the translational, vibrational and …",
+      "ts": 1788426007000,
+      "publishedAt": "2026-09-03T09:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heavy water's atmospheric fingerprints boost weather forecasts for up to five days",
+      "url": "https://phys.org/news/2026-09-heavy-atmospheric-fingerprints-boost-weather.html",
+      "summary": "Weather forecasts rely on many different kinds of data, including temperature, humidity and wind. For the first time, researchers, including those at the University of Tokyo, have demonstrated that a long-theorized impro…",
+      "ts": 1788426003000,
+      "publishedAt": "2026-09-03T09:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI boom is testing tech firms' climate pledges",
@@ -671,134 +799,6 @@
       "title": "Logarithmic-scale variational quantum eigensolver for off-lattice protein structure prediction in continuous torsional angle space",
       "url": "https://arxiv.org/abs/2609.02113",
       "summary": "arXiv:2609.02113v1 Announce Type: cross Abstract: Classical and current quantum approaches to protein structure prediction (QPSP) face limitations, notably massive qubit requirements restricting near-term models to simpl…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electron acceleration by turbulent reconnection in solar flares",
-      "url": "https://arxiv.org/abs/2609.02151",
-      "summary": "arXiv:2609.02151v1 Announce Type: cross Abstract: Solar flares can release magnetic energy explosively in the corona and produce high-energy particles on short timescales. However, how and where these particles are accel…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural Logic, Invariance, and the Retina---McCulloch and Pitts",
-      "url": "https://arxiv.org/abs/2609.02183",
-      "summary": "arXiv:2609.02183v1 Announce Type: cross Abstract: This chapter reconstructs the McCulloch-Pitts program as a physics of neural computation rather than the familiar cartoon of a binary neuron. The 1943 logical calculus is…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Memory as an Energy Landscape---Hopfield",
-      "url": "https://arxiv.org/abs/2609.02195",
-      "summary": "arXiv:2609.02195v1 Announce Type: cross Abstract: This chapter reconstructs the Hopfield network as a physical theory of memory rather than merely an early neural-network algorithm. It begins with the problem as it stood…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of Hong-Ou-Mandel interference between photon and polariton",
-      "url": "https://arxiv.org/abs/2609.02200",
-      "summary": "arXiv:2609.02200v1 Announce Type: cross Abstract: Light-matter interactions underlie many quantum technologies, yet whether quasiparticles formed from such interactions preserve the full quantum state of light remains un…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A proposal for a hybrid free-space optical quantum communication network with hexagonal boron nitride-based single photon sources",
-      "url": "https://arxiv.org/abs/2609.02229",
-      "summary": "arXiv:2609.02229v1 Announce Type: cross Abstract: Hexagonal boron nitride (hBN) is known as a promising solid-state platform to host room temperature quantum emitters that produce high purity single photons. The bright a…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Heat transfer problem of a dense gas described by the Enskog equation with a modification of the Enskog factor",
-      "url": "https://arxiv.org/abs/2609.02276",
-      "summary": "arXiv:2609.02276v1 Announce Type: cross Abstract: Heat transfer in a dense gas between two parallel plates is studied for assessing the quantitative difference of two variants of the Enskog equation, i.e., the original E…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of reactive targets on diffusive transport with intermittent restarts",
-      "url": "https://arxiv.org/abs/2609.02355",
-      "summary": "arXiv:2609.02355v1 Announce Type: cross Abstract: We study search processes in a complex environment using the strategy of stochastic resetting. A common occurrence in these environments is targets with finite reactivity…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective Cell Fluidity Controls Active Prestress Transmission in Cell-Extracellular-Matrix Tissues",
-      "url": "https://arxiv.org/abs/2609.02360",
-      "summary": "arXiv:2609.02360v1 Announce Type: cross Abstract: Tissues are active composites in which multicellular collectives and extracellular matrices mechanically reorganize one another. We develop a three-dimensional micromecha…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D hybrid cellular Potts model with a discrete deformable fiber network: modeling cell contraction and extracellular matrix remodeling",
-      "url": "https://arxiv.org/abs/2609.02375",
-      "summary": "arXiv:2609.02375v1 Announce Type: cross Abstract: The extracellular matrix (ECM) is a fibrous and dynamic network that plays a critical role in development, homeostasis, and disease. Cells both respond to and remodel the…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computational methods for photoionization of H$_2$ molecules: a comparative study",
-      "url": "https://arxiv.org/abs/2609.02461",
-      "summary": "arXiv:2609.02461v1 Announce Type: cross Abstract: Single-photon ionization cross sections of molecular hydrogen in the electric dipole limit have been computed. Both time-dependent and -independent approaches within the …",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prominent Dimensional Effects on High-order Harmonic Generation in Strongly Correlated Electron Systems",
-      "url": "https://arxiv.org/abs/2609.02466",
-      "summary": "arXiv:2609.02466v1 Announce Type: cross Abstract: Dimensionality strongly affects elementary excitations in correlated quantum materials, yet its impact on extreme nonlinear optical responses remains largely unexplored. …",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A meshfree solver for coupled bulk-surface problems with self-organizing surface geometry",
-      "url": "https://arxiv.org/abs/2609.02489",
-      "summary": "arXiv:2609.02489v1 Announce Type: cross Abstract: In many systems, the interaction between a deformable surface or interface and the surrounding bulk fluid is coupled with intrinsic spatiotemporal dynamics within the mov…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-Shot Fidelity Reveals Hard and Soft Limits: A Universal Yardstick for Photon-Number-Resolving Detectors",
-      "url": "https://arxiv.org/abs/2609.02503",
-      "summary": "arXiv:2609.02503v1 Announce Type: cross Abstract: Photon-number-resolving (PNR) detectors are essential for photonic quantum computing, where a single measurement outcome must reliably herald a specific quantum state. Ho…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Wannier-first approach for extended chiral systems",
-      "url": "https://arxiv.org/abs/2609.02524",
-      "summary": "arXiv:2609.02524v1 Announce Type: cross Abstract: We present a real-space formulation of DFT for extended systems in which localized Wannier-like functions are constructed directly from localized Gaussian basis functions…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-dry processing of 3C-SiC nanomechanical string resonators for extreme aspect ratios and high intrinsic quality factor",
-      "url": "https://arxiv.org/abs/2609.02530",
-      "summary": "arXiv:2609.02530v1 Announce Type: cross Abstract: Conventional fabrication of suspended nanomechanical resonators typically relies on wet-chemical process steps and critical point drying, which can compromise sample yiel…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magnetic-Field-Calibration-Free Determination of the Hyperfine Constant $A$ in Ultracold Fermi gases of $^{40}$K",
-      "url": "https://arxiv.org/abs/2609.02572",
-      "summary": "arXiv:2609.02572v1 Announce Type: cross Abstract: Hyperfine constant $A$ is a key parameter of the hyperfine structure and underpins precision spectroscopy and metrology. In this Letter, we develop a magnetic-field-calib…",
       "ts": 1788408000000,
       "publishedAt": "2026-09-03T04:00:00.000Z"
     }

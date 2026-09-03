@@ -1,7 +1,124 @@
 {
   "ok": true,
-  "updated": "2026-09-03T08:41:09.364Z",
+  "updated": "2026-09-03T13:21:03.447Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: OpenEvidence launches new family of AI models",
+      "url": "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: What FDA's TEMPO pilot means for AI regulation, OpenEvidence launches new AI models, and more.",
+      "ts": 1788441512000,
+      "publishedAt": "2026-09-03T13:18:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: We’re reading about an Ultragenyx failure, RevMed for lung cancer, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/?utm_campaign=rss",
+      "summary": "The latest pharma news from the Pharmalot campus via the Pharmalittle newsletter",
+      "ts": 1788441488000,
+      "publishedAt": "2026-09-03T13:18:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 26 New Games Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
+      "summary": "September is here with 26 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts …",
+      "ts": 1788440435000,
+      "publishedAt": "2026-09-03T13:00:35.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Galaxia Takes Next Step in Earth Observation with purchase of Simera Sense Hyperspectral Imager",
+      "url": "https://spacenews.com/galaxia-takes-next-step-in-earth-observation-with-purchase-of-simera-sense-hyperspectral-imager/",
+      "summary": "Leuven, Belgium & Halifax, Canada – 3 September 2026 – European optical payload provider Simera Sense today announced that Canadian space technology company Galaxia has acquired a HyperScape100 hyperspectral imaging […] …",
+      "ts": 1788440400000,
+      "publishedAt": "2026-09-03T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: rethinking child safety and fossil-fueled farming",
+      "url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Child-monitoring apps might need a reboot Digital harms have become the defining f…",
+      "ts": 1788437400000,
+      "publishedAt": "2026-09-03T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nepal floods leave 22,000 children without safe water: UNICEF",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168269",
+      "summary": "More than a week after flash floods struck the Bhotekoshi-Trishuli river basin in Nepal, at least 22,000 children urgently need safe drinking water, sanitation and hygiene support, the United Nations Children’s Fund (UNI…",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "El Niño is surging. Months of extreme heat could follow",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168265",
+      "summary": "Fuelled by exceptionally warm Pacific waters, the El Niño climate pattern is intensifying and has yet to peak. Forecasters are almost certain it will persist through February 2027 – with unusually warm conditions expecte…",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "One in five children in 21 nations faced tech-facilitated sexual abuse: UNICEF",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168236",
+      "summary": "About 20 million children aged 12 to 17 – one in five across 21 countries – were sexually exploited by perpetrators using technology such as social media, according to a UN Children’s Fund (UNICEF) report released on Thu…",
+      "ts": 1788436800000,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA to Acquire Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "summary": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and instit…",
+      "ts": 1788436789000,
+      "publishedAt": "2026-09-03T11:59:49.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Abivax has still not been acquired. What’s going on?",
+      "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/?utm_campaign=rss",
+      "summary": "Biotech M&A activity is off the charts, yet the French drugmaker Abivax hasn't been picked up yet. There may be some explanations.",
+      "ts": 1788431400000,
+      "publishedAt": "2026-09-03T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Agriculture relies on fossil fuels. It’s costing us.",
+      "url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
+      "summary": "If you’ve had to fill up your vehicle’s gas tank or buy a plane ticket lately, you’ve probably felt the effects of rising fossil-fuel prices. But farmers buying fertilizer for their crops are especially aware of just how…",
+      "ts": 1788429600000,
+      "publishedAt": "2026-09-03T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Latest updates: BepiColombo's arrival at Mercury",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
+      "summary": "After eight years of travelling through the inner Solar System, BepiColombo is arriving at Mercury. This page will show the latest updates throughout the mission's arrival.",
+      "ts": 1788429600000,
+      "publishedAt": "2026-09-03T10:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Scaling agentic AI pilots across the enterprise",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "summary": "As agentic AI moves from experimentation toward enterprise deployment, the challenge is figuring out how agents can work together, connect to the systems and data they need, and operate safely across the workflows that r…",
+      "ts": 1788427832000,
+      "publishedAt": "2026-09-03T09:30:32.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized",
@@ -46,6 +163,24 @@
       "ts": 1788408773000,
       "publishedAt": "2026-09-03T04:12:53.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 3 – The Eclipse and the Stork",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-3-the-eclipse-and-the-stork/",
+      "summary": "APOD Science APOD APOD: 2026 September 3 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1788408300000,
+      "publishedAt": "2026-09-03T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Peatland Fires Darken Skies in Indonesia",
+      "url": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/",
+      "summary": "With Indonesia gripped by drought, fires are smoldering on the surface and underground.",
+      "ts": 1788408060000,
+      "publishedAt": "2026-09-03T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -562,6 +697,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "Repression of political opposition surges in post-election Zambia",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168267",
+      "summary": "Following Zambia’s contested presidential and parliamentary elections almost three weeks ago, the crackdown on political opposition has intensified, raising concerns about the future of democracy in the country, accordin…",
+      "ts": 1788350400000,
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: US-Iran war intensifies, aid for Myanmar, casualties in Ukraine",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168268",
+      "summary": "Fighting between the United States and Iran has sharply escalated after a month-long lull, with the two sides exchanging strikes as fears grow over further civilian casualties.",
+      "ts": 1788350400000,
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "‘Don’t give up’: Syrian women’s ongoing search for the missing",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168264",
       "summary": "Yasmin Al-Mashaan lost five brothers during more than a decade of conflict in Syria. Two were forcibly disappeared. Three were killed during peaceful demonstrations or by snipers loyal to the Bashar Al-Assad regime.",
@@ -658,159 +811,6 @@
       "ts": 1788330763000,
       "publishedAt": "2026-09-02T06:32:43.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 2 – Solar Eclipses and Culture",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-2-solar-eclipses-and-culture/",
-      "summary": "APOD Science APOD APOD: 2026 September 2 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
-      "ts": 1788321900000,
-      "publishedAt": "2026-09-02T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "One Faithful Pass Over the Cuckoo's Nest",
-      "url": "https://arxiv.org/abs/2609.00383",
-      "summary": "arXiv:2609.00383v1 Announce Type: new Abstract: Narrative theories of consciousness hold that conscious experience is (at least partly) constituted by a partially opaque inner narrative that does not perfectly track the …",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A distributed-delay Wilson-Cowan model of sleep-related rhythms in the corticothalamic system",
-      "url": "https://arxiv.org/abs/2609.00520",
-      "summary": "arXiv:2609.00520v1 Announce Type: new Abstract: The corticothalamic circuit supports rhythms with timescales that differ by orders of magnitude: sleep spindles, the sigma-band events of non-rapid-eye-movement (NREM) slee…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BME-like Quartet Weights for Phylogenetic Trees",
-      "url": "https://arxiv.org/abs/2609.00614",
-      "summary": "arXiv:2609.00614v1 Announce Type: new Abstract: Like pairwise distances, quartets can be highly redundant and correlated on a phylogenetic tree, and their number grows on the order of n^4 rather than n^2. I explore BME-l…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Operationalizing open-ended biological discovery across single-cell representations",
-      "url": "https://arxiv.org/abs/2609.00681",
-      "summary": "arXiv:2609.00681v1 Announce Type: new Abstract: Single-cell studies are typically initiated from predefined research questions, leaving much of the biological information encoded within existing data unexplored. We forma…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Efficiently classifying shocks in complex systems requires dormant reporters",
-      "url": "https://arxiv.org/abs/2609.00725",
-      "summary": "arXiv:2609.00725v1 Announce Type: new Abstract: Many natural and engineered systems are large complex networks of interacting components, and external perturbations drive them along different dynamical paths. Identifying…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Temporally constraining source imaging estimates in an underdetermined neural system with eigenmodes of cortical geometry",
-      "url": "https://arxiv.org/abs/2609.00809",
-      "summary": "arXiv:2609.00809v1 Announce Type: new Abstract: Geometric eigenmodes provide a compact and biologically grounded representation of large-scale neural activity. Previous work demonstrated that they can mitigate the underd…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Active Visual Semantics: A large-scale MEG and eye-tracking dataset for understanding visual intelligence in action",
-      "url": "https://arxiv.org/abs/2609.01055",
-      "summary": "arXiv:2609.01055v1 Announce Type: new Abstract: Here we present the Active Visual Semantics (AVS) dataset, a large-scale collection of magnetoencephalography (MEG) and eye-tracking data recorded while five participants f…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From static structures to dynamic landscapes: cryo-EM redefines RNA biology",
-      "url": "https://arxiv.org/abs/2609.01132",
-      "summary": "arXiv:2609.01132v1 Announce Type: new Abstract: RNA molecules perform diverse biological functions by dynamically exploring multiple conformational states rather than adopting a single static structure. Capturing these e…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PopPert: Population-level Joint-Distribution Modeling for Single-Cell Perturbation Prediction",
-      "url": "https://arxiv.org/abs/2609.01357",
-      "summary": "arXiv:2609.01357v1 Announce Type: new Abstract: Predicting transcriptional responses to specific perturbations is critical for understanding cellular regulatory mechanisms and accelerating drug discovery. Single-cell RNA…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Task-Specific Antibody Representations via Function-Aware Masking",
-      "url": "https://arxiv.org/abs/2609.00518",
-      "summary": "arXiv:2609.00518v1 Announce Type: cross Abstract: Antibody-specific language models pretrained via masked language modeling (MLM) learn representations that are critical for downstream sequence design and property predic…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Importance and methods to control, vary, and characterize mud strength for studying locomotion",
-      "url": "https://arxiv.org/abs/2609.00563",
-      "summary": "arXiv:2609.00563v1 Announce Type: cross Abstract: Animals and robots encounter mud at the water-land interface. Like sand, mud can stay solid or flow like a fluid. Unlike sand, the yield strength of mud at which solid-fl…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mudskippers use tail thrusting to help crutching to move on mud of various wetness",
-      "url": "https://arxiv.org/abs/2609.00564",
-      "summary": "arXiv:2609.00564v1 Announce Type: cross Abstract: At the water-land interface, amphibious fishes encounter wet flowable substrates made of granular solid-water mixtures, which can stay solid or flow like a fluid. As thes…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "FLaG: Frequency-Domain Latent-attention Gated Pooling for Token Aggregation",
-      "url": "https://arxiv.org/abs/2609.00831",
-      "summary": "arXiv:2609.00831v1 Announce Type: cross Abstract: Token aggregation converts token-level representations into fixed-dimensional sample representations, but most pooling methods operate only in the original token space. W…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Score-Based Generative Data Assimilation for Integrating Aggregated Surveillance Data into Agent-Based Models in Epidemic Tracking",
-      "url": "https://arxiv.org/abs/2609.01434",
-      "summary": "arXiv:2609.01434v1 Announce Type: cross Abstract: Reliable epidemic monitoring often requires inferring regional infection burden and transmission heterogeneity from noisy, spatially aggregated, and potentially sparse su…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stable cooperation emerges in stochastic multiplicative growth",
-      "url": "https://arxiv.org/abs/2202.02787",
-      "summary": "arXiv:2202.02787v2 Announce Type: replace Abstract: Understanding the evolutionary stability of cooperation is a central problem in biology, sociology, and economics. There exist only a few known mechanisms that guarante…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A mathematical model of HPAI transmission between dairy cattle and wild birds with environmental effects",
-      "url": "https://arxiv.org/abs/2508.12201",
-      "summary": "arXiv:2508.12201v2 Announce Type: replace Abstract: Highly pathogenic avian influenza (HPAI), particularly H5N1, poses an increasing threat at the wildlife--livestock--environment interface, with recent detections in dai…",
-      "ts": 1788321600000,
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
