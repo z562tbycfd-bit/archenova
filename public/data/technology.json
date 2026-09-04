@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-04T17:26:21.858Z",
+  "updated": "2026-09-04T20:27:42.201Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Ames Fire Department Aircraft Firefighting Training",
+      "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/",
+      "summary": "The fire department at NASA’s Ames Research Center in California’s Silicon Valley will perform training on the Moffett Federal Airfield beginning Tuesday, Sept. 8 through Friday, Sept. 11. The training will involve the u…",
+      "ts": 1788551516000,
+      "publishedAt": "2026-09-04T19:51:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Architecting memory and storage in the AI era",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of com…",
+      "ts": 1788547159000,
+      "publishedAt": "2026-09-04T18:39:19.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Medicines Discovery Catapult Backs Two U.K. Biotech Companies Tackling Chronic Diseases",
+      "url": "https://www.genengnews.com/topics/drug-discovery/medicines-discovery-catapult-backs-two-u-k-biotech-companies-tackling-chronic-diseases/",
+      "summary": "Medicines Discovery Catapult provided its investment and expert support to help two biotech companies accelerate the development of new treatments for a range of autoimmune, inflammatory, and age-related diseases. The po…",
+      "ts": 1788542912000,
+      "publishedAt": "2026-09-04T17:28:32.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Micro-Bladder Model Demonstrates How Phage Therapy Could Help to Reduce Recurrent UTIs",
@@ -21,6 +48,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
+      "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
+      "summary": "NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the pu…",
+      "ts": 1788540539000,
+      "publishedAt": "2026-09-04T16:48:59.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Top Boston hospitals clash over Medicare Advantage network after split",
       "url": "https://www.statnews.com/2026/09/04/mass-general-brigham-medicare-advantage-network-cancer-treatment-dana-farber/?utm_campaign=rss",
@@ -37,6 +73,15 @@
       "ts": 1788536082000,
       "publishedAt": "2026-09-04T15:34:42.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Lunar Occultation of Venus",
+      "url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus/",
+      "summary": "On Wednesday, June 17, skywatchers across the United States—and parts of Canada—enjoyed a rare event: a daytime lunar occultation of Venus. A lunar occultation occurs when the Moon moves directly in front of another cele…",
+      "ts": 1788531297000,
+      "publishedAt": "2026-09-04T14:14:57.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -144,6 +189,15 @@
       "summary": "Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about …",
       "ts": 1788508800000,
       "publishedAt": "2026-09-04T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
+      "summary": "APOD Science APOD APOD: 2026 September 4 – Na… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+      "ts": 1788494700000,
+      "publishedAt": "2026-09-04T04:05:00.000Z",
       "categoryId": "space"
     },
     {
@@ -607,18 +661,18 @@
     },
     {
       "source": "OpenAI",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "ts": 1788436800000,
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "ts": 1788436800000,
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "categoryId": "ai-compute"
@@ -756,60 +810,6 @@
       "summary": "“These successes are surprising, worth discussing, and even celebrating a bit,” STAT Lab Dish columnist Paul Knoepfler writes of the FDA and stem cells.",
       "ts": 1788424200000,
       "publishedAt": "2026-09-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I was a doula before I was an OB-GYN. I wish the two professions understood each other more",
-      "url": "https://www.statnews.com/2026/09/03/doula-turned-ob-gyn-birth-plan-disappointment-urgency/?utm_campaign=rss",
-      "summary": "“The longer I practice, the more I think many conflicts in maternity care come from a simple misunderstanding,” writes Debra Eluobaju, a doula turned OB-GYN.",
-      "ts": 1788424200000,
-      "publishedAt": "2026-09-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "The pediatricians who take in vaccine-skeptical parents others won’t",
-      "url": "https://www.statnews.com/2026/09/03/vaccine-hesitant-parents-how-pediatrician-builds-trust/?utm_campaign=rss",
-      "summary": "At a \"practice of last resort,\" pediatricians prioritize allaying parents' vaccine concerns without hardline dismissals.",
-      "ts": 1788424200000,
-      "publishedAt": "2026-09-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Reviews Finland's Nuclear and Radiological Emergency Preparedness and Response",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-finlands-nuclear-and-radiological-emergency-preparedness-and-response",
-      "summary": "",
-      "ts": 1788408773000,
-      "publishedAt": "2026-09-03T04:12:53.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 3 – The Eclipse and the Stork",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-3-the-eclipse-and-the-stork/",
-      "summary": "APOD Science APOD APOD: 2026 September 3 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
-      "ts": 1788408300000,
-      "publishedAt": "2026-09-03T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Peatland Fires Darken Skies in Indonesia",
-      "url": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/",
-      "summary": "With Indonesia gripped by drought, fires are smoldering on the surface and underground.",
-      "ts": 1788408060000,
-      "publishedAt": "2026-09-03T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Why are drug overdose deaths declining?",
-      "url": "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/?utm_campaign=rss",
-      "summary": "Naloxone and harm reduction measures may be helping to curb drug overdose deaths, a new report says.",
-      "ts": 1788408060000,
-      "publishedAt": "2026-09-03T04:01:00.000Z",
       "categoryId": "bio"
     }
   ],

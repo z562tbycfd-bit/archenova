@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-04T17:26:19.094Z",
+  "updated": "2026-09-04T20:27:39.962Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI helps reveal the immersive sensory experiences of ancient Etruscan tombs",
+      "url": "https://phys.org/news/2026-09-ai-reveal-immersive-sensory-ancient.html",
+      "summary": "The Etruscan painted tombs in Tarquinia, Italy, date to the first millennium BCE and are known for their vivid scenes of music, feasting, processions and the afterlife. While these tombs have been extensively studied, ar…",
+      "ts": 1788553206000,
+      "publishedAt": "2026-09-04T20:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Before mixing starts, initial catalyst structure governs fuel-cell ink dispersion",
+      "url": "https://phys.org/news/2026-09-catalyst-fuel-cell-ink-dispersion.html",
+      "summary": "Researchers from Kanazawa University, the University of Tokyo and HORIBA, Ltd. have shown that the initial state of platinum-on-carbon (Pt/C) catalyst particles before they are mixed with an ionomer strongly influences h…",
+      "ts": 1788553204000,
+      "publishedAt": "2026-09-04T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Evidence-based approach shows de-escalation is a learnable police skill",
+      "url": "https://phys.org/news/2026-09-evidence-based-approach-de-escalation.html",
+      "summary": "A three-year research collaboration between Florida State University's College of Criminology and Criminal Justice and the Leon County Sheriff's Office (LCSO) has produced one of the most comprehensive real-world studies…",
+      "ts": 1788552005000,
+      "publishedAt": "2026-09-04T20:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How Mercury formed its graphite crust and core",
+      "url": "https://phys.org/news/2026-09-mercury-graphite-crust-core.html",
+      "summary": "As the BepiColombo mission prepares to enter the final phase of its journey to Mercury, a series of studies conducted by researchers at the University of Liège and KU Leuven sheds new light on the early stages of the evo…",
+      "ts": 1788552001000,
+      "publishedAt": "2026-09-04T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "El Niño set to bring warmer spring to NZ and Australia",
+      "url": "https://phys.org/news/2026-09-el-nio-warmer-nz-australia.html",
+      "summary": "El Niño is firmly established and will intensify into a very strong event in the coming months, with major impacts on rainfall and temperature patterns and associated risks of floods, drought and extreme heat, according …",
+      "ts": 1788550804000,
+      "publishedAt": "2026-09-04T19:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Embedded platinum channels bring nanoscale spin-based thermoelectric conversion to bulk materials",
+      "url": "https://phys.org/news/2026-09-embedded-platinum-channels-nanoscale-based.html",
+      "summary": "A joint research team from NIMS and the University of Tokyo has developed a new composite in which three-dimensional nano-interfaces are distributed throughout the material by coating the surfaces of magnetic-insulator p…",
+      "ts": 1788550802000,
+      "publishedAt": "2026-09-04T19:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Food and water stations for wild birds are contributing to spread of deadly diseases, study finds",
+      "url": "https://phys.org/news/2026-09-food-stations-wild-birds-contributing.html",
+      "summary": "Feeding stations providing food and water for wild birds are contributing to the spread of disease-causing parasites among farmland birds, researchers have said, with birds three times more likely to catch a parasite fro…",
+      "ts": 1788549604000,
+      "publishedAt": "2026-09-04T19:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Students with lower grades earn degrees more often when they belong to an academic major's majority group",
+      "url": "https://phys.org/news/2026-09-students-grades-degrees-academic-major.html",
+      "summary": "Despite efforts to encourage broader participation, women earn about 25% of undergraduate engineering degrees and 18% of undergraduate computer science degrees—and men remain a small minority among people earning nursing…",
+      "ts": 1788549601000,
+      "publishedAt": "2026-09-04T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Same-sex marriages surged before Bolsonaro took office, Brazil data reveal",
+      "url": "https://phys.org/news/2026-09-sex-marriages-surged-bolsonaro-office.html",
+      "summary": "A new study has shown that the election of Jair Bolsonaro, known for his homophobic views, as president of Brazil in 2018 caused a temporary surge in the number of same-sex marriages. The increase was particularly high i…",
+      "ts": 1788548404000,
+      "publishedAt": "2026-09-04T19:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Virus-like particles enable gene activity tracking over time in the same cells",
+      "url": "https://phys.org/news/2026-09-virus-particles-enable-gene-tracking.html",
+      "summary": "In recent years, scientists have developed methods to measure a cell's transcriptome, or all the RNA produced by a cell, to study the cell's identity and genetic activity. However, these methods rely on killing the cell …",
+      "ts": 1788548402000,
+      "publishedAt": "2026-09-04T19:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sound waves and water droplets transform paper waste into higher-value chemical compound",
+      "url": "https://phys.org/news/2026-09-droplets-paper-higher-chemical-compound.html",
+      "summary": "Researchers at the University of Illinois Urbana-Champaign have developed a fast, simple way to turn lignin, a plentiful plant-based byproduct of the papermaking industry, into potentially more valuable renewable chemica…",
+      "ts": 1788547206000,
+      "publishedAt": "2026-09-04T18:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Underlying mechanism of Atg2-mediated lipid transfer in autophagy identified",
+      "url": "https://phys.org/news/2026-09-underlying-mechanism-atg2-lipid-autophagy.html",
+      "summary": "Autophagy is an intracellular degradation mechanism in eukaryotes. The autophagosome, which encloses damaged or excess cellular material for degradation, is constructed from lipids supplied by the endoplasmic reticulum (…",
+      "ts": 1788547201000,
+      "publishedAt": "2026-09-04T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Particle shape and size predict asteroid strength, revealing Bennu's surface is 50 times weaker than ground coffee",
+      "url": "https://phys.org/news/2026-09-particle-size-asteroid-strength-revealing.html",
+      "summary": "In a new Nature Communications study, researchers developed a universal scaling framework for the strength of granular asteroids, showing that their tensile strength can be predicted from the size and shape of their cons…",
+      "ts": 1788546006000,
+      "publishedAt": "2026-09-04T18:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From pets to zoos: How students perceive animal husbandry",
+      "url": "https://phys.org/news/2026-09-pets-zoos-students-animal-husbandry.html",
+      "summary": "Animals fulfill a wide range of roles in human society. They provide food, contribute to scientific research, live alongside people as companion animals, and play important roles in education, conservation, research and …",
+      "ts": 1788546002000,
+      "publishedAt": "2026-09-04T18:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Want a solution to plastic pollution? Scientists urge UN to require global reporting",
+      "url": "https://phys.org/news/2026-09-solution-plastic-pollution-scientists-urge.html",
+      "summary": "Plastic is a wonder material that has molded itself to fit a wide variety of applications. But it comes with a host of drawbacks that aren't fully considered. That's why the United Nations has convened to hammer out a tr…",
+      "ts": 1788544810000,
+      "publishedAt": "2026-09-04T18:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Archaea as 'flexitarians': Ammonia-oxidizing microbes also feed on amino acids",
+      "url": "https://phys.org/news/2026-09-archaea-flexitarians-ammonia-oxidizing-microbes.html",
+      "summary": "Symbiotic ammonia-oxidizing archaea in marine sponges are not strict specialists but true \"flexitarians.\" A team led by microbiologists Bettina Glasl and Katharina Kitzinger from the University of Vienna, in collaboratio…",
+      "ts": 1788544801000,
+      "publishedAt": "2026-09-04T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mixed grazing, controlled burns and collaboration can curb Mediterranean wildfire risks",
+      "url": "https://phys.org/news/2026-09-grazing-collaboration-curb-mediterranean-wildfire.html",
+      "summary": "Wildfires in the Mediterranean region are becoming drastically more intense. The recent major fires in France, Spain and Greece show that firefighting efforts are reaching their limits.",
+      "ts": 1788543608000,
+      "publishedAt": "2026-09-04T17:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turbulent times for star formation in Stephan's Quintet",
+      "url": "https://phys.org/news/2026-09-turbulent-star-formation-stephan-quintet.html",
+      "summary": "Star formation in galaxies is closely linked to molecular gas. In the distant past, when galaxy interactions were more common, these encounters compressed molecular gas, causing dense clouds to collapse under their own g…",
+      "ts": 1788543604000,
+      "publishedAt": "2026-09-04T17:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mosque workshops help Muslim women discuss reproductive health in NSW",
@@ -655,150 +799,6 @@
       "title": "Beyond Dose in Boron Neutron Capture Therapy: Cellular $^{10}$B-Capture Statistics and Microdosimetric Context in Effect Prediction",
       "url": "https://arxiv.org/abs/2609.03130",
       "summary": "arXiv:2609.03130v1 Announce Type: new Abstract: Boron neutron capture therapy (BNCT) produces high-linear-energy-transfer, short-range particles through the $^{10}$B(n,$\\alpha$)$^{7}$Li reaction. Conventional descriptors…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MGKDB: An IMAS-aligned multicode gyrokinetic simulation database for reproducible fusion turbulence modeling and data-driven analysis",
-      "url": "https://arxiv.org/abs/2609.03132",
-      "summary": "arXiv:2609.03132v1 Announce Type: new Abstract: Expensive fusion simulations are commonly preserved in code-specific formats that limit discovery, comparison, and reuse. We present the Multiscale GyroKinetic DataBase (MG…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Overlimiting Ion Transport and Reaction Limitations in Charged Porous Media",
-      "url": "https://arxiv.org/abs/2609.03146",
-      "summary": "arXiv:2609.03146v1 Announce Type: new Abstract: Electrochemical reaction rates are controlled by both interfacial charge-transfer kinetics and reactive-ion transport. In charged porous media, fixed charges enrich reactiv…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stochastic Tensor Contraction for Efficient MP2 Exchange",
-      "url": "https://arxiv.org/abs/2609.03168",
-      "summary": "arXiv:2609.03168v1 Announce Type: new Abstract: Second-order Moller--Plesset perturbation theory (MP2) is one of the simplest correlated wave-function methods, but its conventional $O(N^5)$ cost limits its application to…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hall-MHD in driven turbulence FLASH simulations",
-      "url": "https://arxiv.org/abs/2609.03183",
-      "summary": "arXiv:2609.03183v1 Announce Type: new Abstract: The origin of magnetic fields in turbulent astrophysical systems has long been a central problem in plasma astrophysics. Fluctuation dynamos are a class of field amplificat…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improving Clinical Target Volume Segmentation Accuracy using Anatomical Priors and Active Learning for the AGITG TOPGEAR Clinical Trial",
-      "url": "https://arxiv.org/abs/2609.03186",
-      "summary": "arXiv:2609.03186v1 Announce Type: new Abstract: Training deep learning-based medical image segmentation models is challenging with limited curated datasets. For AGITG TOPGEAR, a gastric cancer trial, the Clinical Target …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Grammar-based topology search for reconfigurable integrated photonic spectrometers",
-      "url": "https://arxiv.org/abs/2609.03196",
-      "summary": "arXiv:2609.03196v1 Announce Type: new Abstract: Reconfigurable integrated photonic spectrometers can generate exponentially increasing measurement states from a small number of switching elements, making them a promising…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improving precipitation forecasts in an AI weather model using observational data",
-      "url": "https://arxiv.org/abs/2609.03210",
-      "summary": "arXiv:2609.03210v1 Announce Type: new Abstract: Artificial intelligence weather prediction (AIWP) systems now surpass state-of-the-art physical models for medium-range weather forecasting. Current global AIWP models are …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vortex solitons in disclination quasicrystals",
-      "url": "https://arxiv.org/abs/2609.03244",
-      "summary": "arXiv:2609.03244v1 Announce Type: new Abstract: Being structures characterized by discrete rotational symmetry $\\mathcal{C}_\\nu$ of order $\\nu$, photonic quasicrystals are capable to support stable propagation of linear …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast Patient-Specific Breast CT Dosimetry: 22-Fold Acceleration of Monte Carlo MGD Estimation",
-      "url": "https://arxiv.org/abs/2609.03263",
-      "summary": "arXiv:2609.03263v1 Announce Type: new Abstract: Accurate patient-specific mean glandular dose (MGD) estimation in breast computed tomography (BCT) requires anatomically realistic models, but high-resolution patient-deriv…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Silicon-Compatible Uncooled Compact Broadband Infrared Spectrometer",
-      "url": "https://arxiv.org/abs/2609.03284",
-      "summary": "arXiv:2609.03284v1 Announce Type: new Abstract: Infrared spectroscopy is a widely used technique for molecular identification, yet its widespread deployment remains constrained by bulky instrumentation, cryogenic cooling…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite-source filtering and Doppler modulation of infragravity waves generated by breakpoint forcing",
-      "url": "https://arxiv.org/abs/2609.03300",
-      "summary": "arXiv:2609.03300v1 Announce Type: new Abstract: Infragravity waves generated in the surf zone contribute substantially to nearshore water-level variability, with group-scale variations in wave breaking generating free lo…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-Angle Beam Scanning Transmission Electron Microscopy for Diffraction-Contrast-Free Magnetic Imaging",
-      "url": "https://arxiv.org/abs/2609.03303",
-      "summary": "arXiv:2609.03303v1 Announce Type: new Abstract: Recent development of the differential phase contrast (DPC) scanning transmission electron microscopy (STEM) technique has significantly advanced materials science supporte…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Internal geometries regulate the symmetry of defect configurations in cell populations confined to domains with a negative Euler characteristic",
-      "url": "https://arxiv.org/abs/2609.03328",
-      "summary": "arXiv:2609.03328v1 Announce Type: new Abstract: Nematic order of confined cell populations plays an important role in determining cell alignment and stable configurations of topological defects, which are related to vari…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large-Language Models as a Cognitive Virus",
-      "url": "https://arxiv.org/abs/2609.03344",
-      "summary": "arXiv:2609.03344v1 Announce Type: new Abstract: Large-language models (LLMs) are rapidly becoming part of human culture, reshaping how information is produced, transmitted, and used. Here we propose that their diffusion …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Minute-Scale High-Fidelity Gyrokinetic Simulations with Portability from Laptop to Supercomputer",
-      "url": "https://arxiv.org/abs/2609.03354",
-      "summary": "arXiv:2609.03354v1 Announce Type: new Abstract: Global gyrokinetic particle simulations remain computationally expensive, as they demand both adequate marker statistics and three-dimensional field solvers. In this work, …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Added value of dynamical downscaling in sub-seasonal tropical cyclone forecast",
-      "url": "https://arxiv.org/abs/2609.03364",
-      "summary": "arXiv:2609.03364v1 Announce Type: new Abstract: Improving the sub-seasonal forecast of tropical cyclones (TCs) remains a significant challenge for climate models. This study evaluated the characteristics of tropical cycl…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PSDWII: Physical-Structure-Driven Waveform Inversion Imaging",
-      "url": "https://arxiv.org/abs/2609.03380",
-      "summary": "arXiv:2609.03380v1 Announce Type: new Abstract: This paper proposes a Physical-Structure-Driven Waveform Inversion Imaging framework (PSDWII), grounded in the recognition that surface-recorded seismic data are directly r…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cascade coalescence dynamically sustains bubble retention near gas-evolving surfaces",
-      "url": "https://arxiv.org/abs/2609.03387",
-      "summary": "arXiv:2609.03387v1 Announce Type: new Abstract: Bubble detachment from solid surfaces governs heat, mass, and charge transport across technologies vital to clean energy, including high-current-density water electrolysis …",
       "ts": 1788494400000,
       "publishedAt": "2026-09-04T04:00:00.000Z"
     }
