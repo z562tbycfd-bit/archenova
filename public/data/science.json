@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-03T23:04:33.197Z",
+  "updated": "2026-09-04T03:33:34.358Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Your house may be a haven for wildlife. It's time we design homes with nature in mind",
+      "url": "https://phys.org/news/2026-09-house-haven-wildlife-homes-nature.html",
+      "summary": "Ever found a bare-nosed wombat napping under your house or heard a possum thumping around in your attic?",
+      "ts": 1788488401000,
+      "publishedAt": "2026-09-04T02:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "France recorded 'hottest summer ever': Environment minister",
+      "url": "https://phys.org/news/2026-09-france-hottest-summer-environment-minister.html",
+      "summary": "France experienced its hottest summer on record in 2026, marked by heat waves, drought and massive wildfires, the environment minister said Thursday.",
+      "ts": 1788483603000,
+      "publishedAt": "2026-09-04T01:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How El Nino is choking the Panama Canal",
+      "url": "https://phys.org/news/2026-09-el-nino-panama-canal.html",
+      "summary": "The Panama Canal will restrict the number of vessels transiting the crucial waterway from Friday for only the second time because of drought caused by the El Niño climate phenomenon.",
+      "ts": 1788481205000,
+      "publishedAt": "2026-09-04T00:20:05.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Overcoming polarization-breakdown trade-off via hydrogen bonding-modulated molecular stacking in high-temperature high-energy-density flexible dielectric",
+      "url": "https://www.nature.com/articles/s41467-026-77564-3",
+      "summary": "",
+      "ts": 1788480000000,
+      "publishedAt": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-triggered interface lets adhesive peel cleanly and rebond through 15 cycles",
+      "url": "https://phys.org/news/2026-09-triggered-interface-adhesive-rebond.html",
+      "summary": "Adhesives are essential in electronics, vehicles and other products, but they can hinder repair and recycling when bonded parts are difficult to separate cleanly. A research team led by The University of Osaka has develo…",
+      "ts": 1788478803000,
+      "publishedAt": "2026-09-03T23:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soft nanoscale confinement prevents ice, exposing water's liquid-to-glass transition",
+      "url": "https://phys.org/news/2026-09-soft-nanoscale-confinement-ice-exposing.html",
+      "summary": "An international collaboration of researchers has used ANSTO's facilities to uncover new properties of one of the most fundamental everyday materials, water, and answer an important scientific question. The findings, pub…",
+      "ts": 1788478801000,
+      "publishedAt": "2026-09-03T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny fossils reveal big insights about ant ancestors",
+      "url": "https://phys.org/news/2026-09-tiny-fossils-reveal-big-insights.html",
+      "summary": "Two tiny ant fossils recovered in southern Saskatchewan are helping scientists better understand the evolutionary history of modern ants. Ant fossils dating from 72–56 million years ago are rare. What happened to insects…",
+      "ts": 1788477601000,
+      "publishedAt": "2026-09-03T23:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "From peas to potatoes, AI identifies nearly 800 promising plant proteins for food and cosmetics",
@@ -743,62 +799,6 @@
       "title": "Generation of Fully Phase-Controlled Two-Photon Entangled States",
       "url": "http://link.aps.org/doi/10.1103/4gnb-y56d",
       "summary": "Author(s): Ian Ford, Adrien Amour, and Matthias Keller Control over the internal states of trapped ions makes them the ideal system to generate single and two-photon states. Coupling a single ion to an optical cavity ena…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "High-Flux X-Ray Emission due to Injection into a Laser-Wakefield Accelerator beyond its Depletion Length",
-      "url": "http://link.aps.org/doi/10.1103/krsl-322s",
-      "summary": "Author(s): J. C. Wood, K. Põder, N. C. Lopes, J. M. Cole, S. Alatabi, A. J. Hughes, P. Foster, C. Kamperidis, O. Kononenko, S. P. D. Mangles, D. Neely, C. A. J. Palmer, D. R. Rusby, G. Sarri, M. J. V. Streeter, D. R. Sym…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Phonon-Assisted Broadband Light Emission in Strain-Gradient-Modulated Diamond Nanoribbons",
-      "url": "http://link.aps.org/doi/10.1103/gcf5-chmf",
-      "summary": "Author(s): Yuxuan Zhang, Shuo Qiao, Anliang Lu, Xiaohui Sun, Jun Lyu, Jinlong Du, Yang Lu, and Lin Yang Strain-gradient engineering provides a doping-free route to modulate broadband optical emission in microfabricated d…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Europium Valence in Pressurized EuO",
-      "url": "http://link.aps.org/doi/10.1103/ktfc-l4yt",
-      "summary": "Author(s): Christoph J. Sahle, Alessandro Mirone, Robert P. C. Bauer, Harald Müller, Sylvain Petitgirard, Kari O. Ruotsalainen, Michael Hanfland, and John S. Tse A direct spectroscopic probe of the 4f states across a pre…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Polarization-induced anisotropic plasmonic nanobubbles",
-      "url": "http://link.aps.org/doi/10.1103/hzxb-g8ws",
-      "summary": "Author(s): Yukun Ji, Yatao Ren, and Hong Qi Plasmonic nanobubbles are extensively employed in many fields owing to their distinctive optical and photothermal properties. The mechanisms behind nanobubble formation have at…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Fast readout of quantum dot spin qubits via Andreev spins",
-      "url": "http://link.aps.org/doi/10.1103/qcch-2hhy",
-      "summary": "Author(s): Michèle Jakob, Katharina Laubscher, Patrick Del Vecchio, Anasua Chatterjee, Valla Fatemi, and Stefano Bosco Spin qubits in semiconducting quantum dots are currently limited by slow readout processes, which are…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Chip-scale terahertz distributed-feedback cherenkov laser in a silicon grating",
-      "url": "http://link.aps.org/doi/10.1103/135n-fstn",
-      "summary": "Author(s): Hossein Shirvani and Yen-Chieh Huang We report a distributed-feedback behavior in electron-driven dielectric gratings, arising from intrinsic forward-backward wave interactions, relevant to low-threshold coher…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Collimated light emission from inelastic electron tunneling enabled <u/>by a nonlocal plasmonic metasurface",
-      "url": "http://link.aps.org/doi/10.1103/64r3-vdww",
-      "summary": "Author(s): Yu Wu, Dudu Song, Zhengyi Lu, Shunping Zhang, and Hongxing Xu Light emission via inelastic electron tunneling (LEIT) is an ultrabroadband light source with potential impact in visible-light communication, inte…",
       "ts": 1788429600000,
       "publishedAt": "2026-09-03T10:00:00.000Z"
     }

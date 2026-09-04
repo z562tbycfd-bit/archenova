@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-03T23:04:36.904Z",
+  "updated": "2026-09-04T03:33:37.301Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cancer Drug Reduces SIV Reservoir in Macaques, May Inform HIV Cure Strategies",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/cancer-drug-reduces-siv-reservoir-in-macaques-may-inform-hiv-cure-strategies/",
+      "summary": "Venetoclax, a cancer drug that inhibits BCL-2, reduced the intact SIV reservoir in macaques, offering preclinical support for targeting BCL-2 as part of HIV cure strategies. The post Cancer Drug Reduces SIV Reservoir in …",
+      "ts": 1788483888000,
+      "publishedAt": "2026-09-04T01:04:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Watchmaker Genomics Boosts Manufacturing Capacity with Major Boulder Campus Expansion",
+      "url": "https://www.genengnews.com/topics/omics/watchmaker-genomics-boosts-manufacturing-capacity-with-major-boulder-campus-expansion/",
+      "summary": "The Flatiron Park facility in Colorado will serve as the Watchmaker Boulder Manufacturing Center of Excellence for reagent manufacturing and will house the company’s manufacturing, quality, R&D, and operations teams. The…",
+      "ts": 1788481737000,
+      "publishedAt": "2026-09-04T00:28:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Recipients of gene-edited pig kidneys successfully receive human organs",
@@ -372,15 +390,6 @@
       "categoryId": "space"
     },
     {
-      "source": "STAT",
-      "title": "Why are drug overdose deaths declining?",
-      "url": "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/?utm_campaign=rss",
-      "summary": "Naloxone and harm reduction measures may be helping to curb drug overdose deaths, a new report says.",
-      "ts": 1788408060000,
-      "publishedAt": "2026-09-03T04:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
       "source": "NASA",
       "title": "Peatland Fires Darken Skies in Indonesia",
       "url": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/",
@@ -388,6 +397,15 @@
       "ts": 1788408060000,
       "publishedAt": "2026-09-03T04:01:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Why are drug overdose deaths declining?",
+      "url": "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/?utm_campaign=rss",
+      "summary": "Naloxone and harm reduction measures may be helping to curb drug overdose deaths, a new report says.",
+      "ts": 1788408060000,
+      "publishedAt": "2026-09-03T04:01:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
@@ -793,24 +811,6 @@
       "ts": 1788380613000,
       "publishedAt": "2026-09-02T20:23:33.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "GLP-1 Drug Semaglutide Slows Aging and Extends Lifespan in Mice",
-      "url": "https://www.genengnews.com/topics/drug-discovery/glp-1-drug-semaglutide-slows-aging-and-extends-lifespan-in-mice/",
-      "summary": "Semaglutide improved health, reduced aging-related changes, and extended lifespan in older female mice, sometimes outperforming caloric restriction. However, human longevity benefits remain unproven. The post GLP-1 Drug …",
-      "ts": 1788376014000,
-      "publishedAt": "2026-09-02T19:06:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
-      "url": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
-      "summary": "Community college students across the U.S. now have another opportunity to discover how their education can lead to fulfilling roles at the forefront of aerospace, science, engineering, and technology. The updated NASA C…",
-      "ts": 1788375665000,
-      "publishedAt": "2026-09-02T19:01:05.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
