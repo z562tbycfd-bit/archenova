@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-04T08:36:59.733Z",
+  "updated": "2026-09-04T13:15:10.018Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Week in images: 31 Aug - 04 Sep 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_31_Aug_-_04_Sep_2026",
+      "summary": "Week in images: 31 Aug - 04 Sep 2026 Discover our week through the lens",
+      "ts": 1788527400000,
+      "publishedAt": "2026-09-04T13:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Disabled workers at greater risk of losing health insurance",
+      "url": "https://www.statnews.com/2026/09/04/health-news-disabled-workers-at-greater-risk-of-losing-insurance/?utm_campaign=rss",
+      "summary": "An organ transplant first, new details on ADA conference controversy, and more health news from Morning Rounds",
+      "ts": 1788527295000,
+      "publishedAt": "2026-09-04T13:08:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: We’re reading about a Bristol CAR-T trial pause, Pfizer offloading a shelved candidate, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/04/pharmalittle-bristol-car-t-trial-pause-pfizer-offloads-shelved-candidate/?utm_campaign=rss",
+      "summary": "The latest pharma news from the Pharmalot campus brought to you by the Pharmalittle newsletter",
+      "ts": 1788526946000,
+      "publishedAt": "2026-09-04T13:02:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a…",
+      "ts": 1788523800000,
+      "publishedAt": "2026-09-04T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The…",
+      "ts": 1788513919000,
+      "publishedAt": "2026-09-04T09:25:19.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Opinion: Make infectious disease data boring again",
@@ -28,6 +73,24 @@
       "ts": 1788510600000,
       "publishedAt": "2026-09-04T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "How Sentinel-3 tracks climate change ",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/How_Sentinel-3_tracks_climate_change",
+      "summary": "Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about …",
+      "ts": 1788508800000,
+      "publishedAt": "2026-09-04T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "A Trio of Tropical Cyclones in the Pacific",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
+      "summary": "The Pacific was buzzing with storms while the Atlantic was notably quiet.",
+      "ts": 1788494460000,
+      "publishedAt": "2026-09-04T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -660,15 +723,6 @@
       "categoryId": "space"
     },
     {
-      "source": "STAT",
-      "title": "Why are drug overdose deaths declining?",
-      "url": "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/?utm_campaign=rss",
-      "summary": "Naloxone and harm reduction measures may be helping to curb drug overdose deaths, a new report says.",
-      "ts": 1788408060000,
-      "publishedAt": "2026-09-03T04:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
       "source": "NASA",
       "title": "Peatland Fires Darken Skies in Indonesia",
       "url": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/",
@@ -676,6 +730,15 @@
       "ts": 1788408060000,
       "publishedAt": "2026-09-03T04:01:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Why are drug overdose deaths declining?",
+      "url": "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/?utm_campaign=rss",
+      "summary": "Naloxone and harm reduction measures may be helping to curb drug overdose deaths, a new report says.",
+      "ts": 1788408060000,
+      "publishedAt": "2026-09-03T04:01:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
@@ -745,69 +808,6 @@
       "title": "Subcellularly Resolved Single-Cell Embedding Learning with Transcriptomic data, Protein Structure and Localization Information",
       "url": "https://arxiv.org/abs/2609.02344",
       "summary": "arXiv:2609.02344v1 Announce Type: new Abstract: Existing cell embedding methods predominantly rely on transcriptomic or proteomic measurements and represent each cell as a holistic entity, thereby overlooking the subcell…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fungal Memory and Minimal Cognition",
-      "url": "https://arxiv.org/abs/2609.02345",
-      "summary": "arXiv:2609.02345v1 Announce Type: new Abstract: This paper argues that fungal mycelial networks exhibit minimal cognition through memory-integrated adaptive regulation. Drawing on cybernetic and enactivist frameworks, I …",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beyond species area curves: a theoretical approach to the relationship between diversity and area",
-      "url": "https://arxiv.org/abs/2609.02365",
-      "summary": "arXiv:2609.02365v1 Announce Type: new Abstract: Species area curves, which describe the number of species present as a function of area, have long been used to understand biodiversity and inform conservation efforts. Whi…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "3D hybrid cellular Potts model with a discrete deformable fiber network: modeling cell contraction and extracellular matrix remodeling",
-      "url": "https://arxiv.org/abs/2609.02375",
-      "summary": "arXiv:2609.02375v1 Announce Type: new Abstract: The extracellular matrix (ECM) is a fibrous and dynamic network that plays a critical role in development, homeostasis, and disease. Cells both respond to and remodel the E…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An adaptive time-tree transition kernel for Bayesian phylogenetic inference",
-      "url": "https://arxiv.org/abs/2609.02445",
-      "summary": "arXiv:2609.02445v1 Announce Type: new Abstract: Bayesian phylogenetic and phylodynamic analyses can be very time-consuming, owing to the combination of complex models that are used to estimate key parameters from increas…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Prediction emerges in RNNs trained for perception",
-      "url": "https://arxiv.org/abs/2609.02739",
-      "summary": "arXiv:2609.02739v1 Announce Type: new Abstract: The brain is highly proficient at making sense of noisy and ambiguous sensory inputs. Predictive processing hypothesises that this ability relies on prediction. However, it…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Higher-order rich clubs and configuration models on general directed hypergraphs",
-      "url": "https://arxiv.org/abs/2609.01624",
-      "summary": "arXiv:2609.01624v1 Announce Type: cross Abstract: Detecting structure in complex networks, especially those arising from physical systems, is a central problem across the sciences. One approach is via rich club analysis,…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Omega-N: Interpretable Structural Node Descriptors and Their Applicability Domain",
-      "url": "https://arxiv.org/abs/2609.01633",
-      "summary": "arXiv:2609.01633v1 Announce Type: cross Abstract: A composite structural index summarises a network in one number; for a triangle-based index it is spectrally redundant: Tr(A^3) is the third moment of the adjacency spect…",
       "ts": 1788408000000,
       "publishedAt": "2026-09-03T04:00:00.000Z",
       "categoryId": "bio"

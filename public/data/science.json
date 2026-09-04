@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-09-04T08:36:56.580Z",
+  "updated": "2026-09-04T13:15:08.055Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate risk is changing where banks lend—before disaster strikes",
+      "url": "https://phys.org/news/2026-09-climate-banks-disaster.html",
+      "summary": "Whether buying a home or opening a local business, affordability is no longer the only question people should be asking, says Kristle Romero Cortes, an associate professor. They should also consider what their property m…",
+      "ts": 1788526806000,
+      "publishedAt": "2026-09-04T13:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wrinkled carbon nitride challenges flat-sheet model for photocatalyst design",
+      "url": "https://phys.org/news/2026-09-wrinkled-carbon-nitride-flat-sheet.html",
+      "summary": "Graphene is flat. But that doesn't mean other 2D materials—particularly those containing more than one element—necessarily share the same structure. In the past, researchers have often simplified these materials by model…",
+      "ts": 1788526804000,
+      "publishedAt": "2026-09-04T13:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How damaged teeth can reinforce stigma and disadvantage",
+      "url": "https://phys.org/news/2026-09-teeth-stigma-disadvantage.html",
+      "summary": "For women involved in street sex work who took part in our research, damaged or missing teeth were more than a health problem. They could become visible reminders of lives they were trying to change.",
+      "ts": 1788525605000,
+      "publishedAt": "2026-09-04T12:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How hibernating squirrels retain sense of touch in the cold",
+      "url": "https://phys.org/news/2026-09-hibernating-squirrels-retain-cold.html",
+      "summary": "For most mammals, cold suppresses neural activity and diminishes the sense of touch. But the thirteen-lined ground squirrel can detect touch in conditions as low as 4°C (39°F), about as cold as the inside of a refrigerat…",
+      "ts": 1788525601000,
+      "publishedAt": "2026-09-04T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prom season can increase body image anxiety for some teens—how parents can help",
+      "url": "https://phys.org/news/2026-09-prom-season-body-image-anxiety.html",
+      "summary": "Prom is one of the most exciting events on the school calendar for many high school seniors.",
+      "ts": 1788524403000,
+      "publishedAt": "2026-09-04T12:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Orange hydrogen: Could Western Australia's rocks help power a low-carbon future?",
+      "url": "https://phys.org/news/2026-09-orange-hydrogen-western-australia-power.html",
+      "summary": "Deep beneath parts of Western Australia, injecting CO2-rich water into iron-rich rocks may offer an unexpected opportunity for both clean energy production and carbon storage.",
+      "ts": 1788523206000,
+      "publishedAt": "2026-09-04T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Iron Age Botswana site sourced copper across southern Africa—but tin from just one place",
+      "url": "https://phys.org/news/2026-09-iron-age-botswana-site-sourced.html",
+      "summary": "Around 700 years ago, people living on hilltop settlements on the edge of the Kalahari wore beads, bangles and clips made from metal traded across the southern half of the African continent.",
+      "ts": 1788523204000,
+      "publishedAt": "2026-09-04T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers test far-ultraviolet light to prevent bird flu in poultry",
+      "url": "https://phys.org/news/2026-09-ultraviolet-bird-flu-poultry.html",
+      "summary": "When a strain of highly pathogenic avian influenza, or HPAI, tore through U.S. poultry farms in early 2025, farmers culled tens of millions of birds, and egg prices soared.",
+      "ts": 1788522003000,
+      "publishedAt": "2026-09-04T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Malaysia declares haze emergency in Sarawak state on Borneo",
+      "url": "https://phys.org/news/2026-09-malaysia-declares-haze-emergency-sarawak.html",
+      "summary": "Malaysia declared an emergency in the Serian division of its Sarawak state on Borneo after hazardous haze from fires in neighboring Indonesia drove air pollution to critical levels, the Prime Minister's Office said.",
+      "ts": 1788520801000,
+      "publishedAt": "2026-09-04T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zero‑alcohol drinks are rising in popularity. What do young people think about them?",
+      "url": "https://phys.org/news/2026-09-zeroalcohol-popularity-young-people.html",
+      "summary": "Over the past decade, zero-alcohol drinks have gone from a relatively niche product to a staple in supermarket aisles, liquor stores and pubs.",
+      "ts": 1788519601000,
+      "publishedAt": "2026-09-04T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Volunteers fight uphill battle against Indonesian fires",
+      "url": "https://phys.org/news/2026-09-volunteers-uphill-indonesian.html",
+      "summary": "Twice already this week, Indonesian volunteer firefighter Kristoforus Sinyong worked throughout the night fighting some of the blazes that have consumed swaths of the island of Borneo.",
+      "ts": 1788518402000,
+      "publishedAt": "2026-09-04T10:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular snapshots reveal how bacteria assemble outer membrane proteins",
+      "url": "https://phys.org/news/2026-09-molecular-snapshots-reveal-bacteria-outer.html",
+      "summary": "Gram-negative bacteria are responsible for several infections that are hard to treat because of their high resistance to antibiotics. These bacteria possess an outermost layer called the outer membrane that acts as a pro…",
+      "ts": 1788512403000,
+      "publishedAt": "2026-09-04T09:00:03.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Hyperfine transitions in atoms and rotational transitions in molecules of the early Universe as a possible source of CMB distortions",
@@ -703,102 +799,6 @@
       "title": "Optimal Control of Periodic Nonequilibrium Mechanochemical Systems via Automatic Differentiation",
       "url": "https://arxiv.org/abs/2609.03217",
       "summary": "arXiv:2609.03217v1 Announce Type: cross Abstract: Biological molecular machines are mesoscopic systems that act repeatedly and periodically to perform important cellular tasks while contending with strong fluctuations an…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Reshaping of Gaussian Water Wave Packets",
-      "url": "https://arxiv.org/abs/2609.03259",
-      "summary": "arXiv:2609.03259v1 Announce Type: cross Abstract: The propagation of narrowband wave packets is a classical problem with broad relevance across nonlinear wave physics. Within the framework of the nonlinear Schr\\\"odinger …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bifurcations in the Heliosphere: Global-scale Coronal Pseudostreamer Evolution and the Creation of Secondary Heliospheric Current Sheets",
-      "url": "https://arxiv.org/abs/2609.03298",
-      "summary": "arXiv:2609.03298v1 Announce Type: cross Abstract: The heliospheric current sheet (HCS) is the boundary between open magnetic fields of opposite polarity in the solar wind that connect back to their respective open flux r…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Introducing SINFONIA: Symplectic, slimplectic and Magnusian (Neural) Flows for Orbital Numerical Integration and Acceleration",
-      "url": "https://arxiv.org/abs/2609.03329",
-      "summary": "arXiv:2609.03329v1 Announce Type: cross Abstract: Long-duration gravitational-wave modelling must resolve fast orbital motion together with slow dissipative evolution while preventing small numerical errors from accumula…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An interpretation-independent formulation of the measurement problem",
-      "url": "https://arxiv.org/abs/2609.03409",
-      "summary": "arXiv:2609.03409v1 Announce Type: cross Abstract: In this paper, we do not try to solve the measurement problem, but rather to properly formulate it. One of the reasons why it still lacks a precise, agreed definition is …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal scaling of fluctuations and correlations across the superfluid transition",
-      "url": "https://arxiv.org/abs/2609.03433",
-      "summary": "arXiv:2609.03433v1 Announce Type: cross Abstract: The critical behavior of a system near a continuous phase transition is commonly characterized by power laws and a set of universal critical exponents. Yet universality a…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Granular Rods Fall Faster in Denser Obstacle Fields",
-      "url": "https://arxiv.org/abs/2609.03473",
-      "summary": "arXiv:2609.03473v1 Announce Type: cross Abstract: How particle shape affects transport through obstacle fields under external driving is a fundamental question in nonequilibrium physics. We simulate a dissipative rod fal…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural-Network Maxent: a general extension with learned nonlinearity, applied to time-series for Desert Locust distribution modelling",
-      "url": "https://arxiv.org/abs/2609.03603",
-      "summary": "arXiv:2609.03603v1 Announce Type: cross Abstract: Species Distribution Modelling (SDM) is essential for understanding how environmental conditions shape biodiversity, particularly for destructive pests such as the Desert…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frenkel line of Yukawa fluids within the self-consistent relaxation theory",
-      "url": "https://arxiv.org/abs/2609.03606",
-      "summary": "arXiv:2609.03606v1 Announce Type: cross Abstract: For a simple model fluid, the Yukawa fluid, the condition for dynamic crossover, known as the Frenkel line, is defined. The condition is related to the fact that the roto…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Quasi-Monte Carlo: a window for pre-asymptotic quantum advantage",
-      "url": "https://arxiv.org/abs/2609.03625",
-      "summary": "arXiv:2609.03625v1 Announce Type: cross Abstract: Numerical integration with Monte Carlo methods is a central computational task in many scientific and industrial applications, including financial derivative pricing and …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling Tissue Detachment and Rupture Using an Extended Vertex Model with T2-inverse Transitions",
-      "url": "https://arxiv.org/abs/2609.03691",
-      "summary": "arXiv:2609.03691v1 Announce Type: cross Abstract: The vertex model is widely used to describe the mechanics of epithelial tissues, but its conventional formulation assumes that all cells remain tightly packed and always …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Role of Preceding CMEs and SIRs in Enhancing Shock Acceleration of Electrons",
-      "url": "https://arxiv.org/abs/2609.03709",
-      "summary": "arXiv:2609.03709v1 Announce Type: cross Abstract: The role of large-scale pre-existing interplanetary structures, including preceding coronal mass ejections (CMEs) and stream interaction regions (SIRs), in shaping the sh…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
-      "url": "https://arxiv.org/abs/2609.03718",
-      "summary": "arXiv:2609.03718v1 Announce Type: cross Abstract: Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL ta…",
       "ts": 1788494400000,
       "publishedAt": "2026-09-04T04:00:00.000Z"
     }
