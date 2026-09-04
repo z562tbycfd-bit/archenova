@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-04T13:15:10.018Z",
+  "updated": "2026-09-04T17:26:21.858Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Micro-Bladder Model Demonstrates How Phage Therapy Could Help to Reduce Recurrent UTIs",
+      "url": "https://www.genengnews.com/topics/translational-medicine/micro-bladder-model-demonstrates-how-phage-therapy-could-help-to-reduce-recurrent-utis/",
+      "summary": "Researchers used a novel human 3D micro-bladder model to demonstrate how phage therapy could help to reduce recurrent urinary tract infections (UTIs) by attacking the reservoirs of bacteria hidden deep within the bladder…",
+      "ts": 1788541962000,
+      "publishedAt": "2026-09-04T17:12:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "C. difficile Have Lasting Effects on the Infant Gut, Challenging Long-Held Assumption",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/c-difficile-have-lasting-effects-on-the-infant-gut-challenging-long-held-assumption/",
+      "summary": "A new study from CHOP challenges the assumption that infant C. difficile colonization is harmless, finding that it can reshape the developing gut and immune system with potentially lasting health effects. The post <i>C. …",
+      "ts": 1788540946000,
+      "publishedAt": "2026-09-04T16:55:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Top Boston hospitals clash over Medicare Advantage network after split",
+      "url": "https://www.statnews.com/2026/09/04/mass-general-brigham-medicare-advantage-network-cancer-treatment-dana-farber/?utm_campaign=rss",
+      "summary": "First, Mass General Brigham split with Dana-Farber. Now its Medicare Advantage plan is dropping the cancer hospital.",
+      "ts": 1788537904000,
+      "publishedAt": "2026-09-04T16:05:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: After failure of Angelman syndrome drug, experts see hope in other experimental therapies",
+      "url": "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss",
+      "summary": "After the failure of an experimental drug for Angelman syndrome, experts cautioned that there is still reason to think similar experimental medicines can succeed.",
+      "ts": 1788536082000,
+      "publishedAt": "2026-09-04T15:34:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA takes another look at botanical drugs",
+      "url": "https://www.statnews.com/2026/09/04/biotech-news-fda-takes-another-look-at-botanical-drugs/?utm_campaign=rss",
+      "summary": "The biggest barrier for a top schzophrenia treatment, Ionis' first approval for Alexander disease, and more biotech news",
+      "ts": 1788529602000,
+      "publishedAt": "2026-09-04T13:46:42.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Week in images: 31 Aug - 04 Sep 2026",
@@ -37,6 +82,24 @@
       "ts": 1788523800000,
       "publishedAt": "2026-09-04T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Repeated attacks on humanitarian warehouses put vital medical aid at risk in Ukraine: WHO",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168278",
+      "summary": "A new airstrike overnight damaged one of the main warehouses used by the World Health Organization (WHO) in Ukraine to store humanitarian medical supplies in the Kyiv region, the UN agency said on Friday.",
+      "ts": 1788523200000,
+      "publishedAt": "2026-09-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "What is Environmental Remediation?",
+      "url": "http://www.iaea.org/newscenter/news/what-is-environmental-remediation",
+      "summary": "",
+      "ts": 1788517810000,
+      "publishedAt": "2026-09-04T10:30:10.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -435,6 +498,15 @@
       "categoryId": "space"
     },
     {
+      "source": "ESA",
+      "title": "BepiColombo’s Mercury arrival begins - full replay",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/BepiColombo_s_Mercury_arrival_begins_-_full_replay",
+      "summary": "Video: 02:31:10 Watch the replay of the livestream originally broadcast on 3 September as ESA/JAXA's BepiColombo mission took the first critical step towards arriving at Mercury. After travelling through the inner Solar …",
+      "ts": 1788447600000,
+      "publishedAt": "2026-09-03T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Seattle scientists launch $95 million AI biology effort",
       "url": "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/?utm_campaign=rss",
@@ -738,78 +810,6 @@
       "summary": "Naloxone and harm reduction measures may be helping to curb drug overdose deaths, a new report says.",
       "ts": 1788408060000,
       "publishedAt": "2026-09-03T04:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Enhancing Clinical Decision Support and Differential Diagnosis with Knowledge Graphs, and Retrieval Augmented Generation in Generative AI",
-      "url": "https://arxiv.org/abs/2609.01653",
-      "summary": "arXiv:2609.01653v1 Announce Type: new Abstract: Diagnostic error carries a burden, while unconstrained large language models (LLMs) remain vulnerable to hallucination and weak integration of quantitative laboratory dynam…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A mechanistic modeling framework to interpret ACTH stimulation tests across HPA axis adaptation states and glucocorticoid feedback dynamics",
-      "url": "https://arxiv.org/abs/2609.01684",
-      "summary": "arXiv:2609.01684v1 Announce Type: new Abstract: The hypothalamic pituitary adrenal (HPA) axis is a key regulatory system coordinating endocrine responses to physiological and psychological stress. While the ACTH stimulat…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Slow-Fast Brain-Computer Interfaces: Preventing Neuroadaptive Overfitting in AI-Mediated Neural Interfaces",
-      "url": "https://arxiv.org/abs/2609.01767",
-      "summary": "arXiv:2609.01767v1 Announce Type: new Abstract: Artificial intelligence (AI) is transforming brain-computer interfaces (BCIs) from task-specific neural decoders into adaptive systems that complete language, smooth moveme…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A greedy nearest-neighbor approach to quantify site revisitation: comparing two sympatric raven species",
-      "url": "https://arxiv.org/abs/2609.01858",
-      "summary": "arXiv:2609.01858v1 Announce Type: new Abstract: A central challenge in movement ecology is to describe ecologically meaningful residence sites from raw tracking data due to heterogeneous sampling frequency and uncertain …",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mutation--selection balance on an infinite trait space: confinement, drift and equilibrium",
-      "url": "https://arxiv.org/abs/2609.02086",
-      "summary": "arXiv:2609.02086v1 Announce Type: new Abstract: We study a trait-structured population model incorporating mutation, selection and density-dependent regulation on a countably infinite trait space. The underlying stochast…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural Logic, Invariance, and the Retina---McCulloch and Pitts",
-      "url": "https://arxiv.org/abs/2609.02183",
-      "summary": "arXiv:2609.02183v1 Announce Type: new Abstract: This chapter reconstructs the McCulloch-Pitts program as a physics of neural computation rather than the familiar cartoon of a binary neuron. The 1943 logical calculus is d…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mus siliconus: A Neuro-Musculoskeletal Digital Twin of the Mouse Integrating Neural Dynamics, Biomechanics, and Tactile Sensing",
-      "url": "https://arxiv.org/abs/2609.02243",
-      "summary": "arXiv:2609.02243v1 Announce Type: new Abstract: Digital twin technologies could transform neuroscience and biomedicine by creating predictive computational representations of living organisms. However, most animal digita…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Subcellularly Resolved Single-Cell Embedding Learning with Transcriptomic data, Protein Structure and Localization Information",
-      "url": "https://arxiv.org/abs/2609.02344",
-      "summary": "arXiv:2609.02344v1 Announce Type: new Abstract: Existing cell embedding methods predominantly rely on transcriptomic or proteomic measurements and represent each cell as a holistic entity, thereby overlooking the subcell…",
-      "ts": 1788408000000,
-      "publishedAt": "2026-09-03T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
