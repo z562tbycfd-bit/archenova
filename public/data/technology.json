@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-04T20:27:42.201Z",
+  "updated": "2026-09-04T22:51:21.499Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Novartis’ experimental cardiovascular drug fails a pivotal study",
+      "url": "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/?utm_campaign=rss",
+      "summary": "A closely watched cardiovascular drug from Novartis failed in a pivotal study, the company said Friday, a major blow to the firm.",
+      "ts": 1788556047000,
+      "publishedAt": "2026-09-04T21:07:27.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Ames Fire Department Aircraft Firefighting Training",
@@ -799,15 +808,6 @@
       "title": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized",
       "url": "https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/?utm_campaign=rss",
       "summary": "AI products from Cadence and Limbic are among four devices recently accepted into the FDA’s TEMPO pilot that will allow digital health companies to release products without marketing authorization.",
-      "ts": 1788424200000,
-      "publishedAt": "2026-09-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: STAT+: A surprising bright spot at the FDA on regulating unproven stem cells",
-      "url": "https://www.statnews.com/2026/09/03/stem-cell-clinics-fda-cber-warning-letters-marketing/?utm_campaign=rss",
-      "summary": "“These successes are surprising, worth discussing, and even celebrating a bit,” STAT Lab Dish columnist Paul Knoepfler writes of the FDA and stem cells.",
       "ts": 1788424200000,
       "publishedAt": "2026-09-03T08:30:00.000Z",
       "categoryId": "bio"
