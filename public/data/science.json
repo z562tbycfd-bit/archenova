@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-05T05:22:03.086Z",
+  "updated": "2026-09-05T10:09:52.022Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI could undermine managers' judgment unless used carefully, study warns",
+      "url": "https://phys.org/news/2026-09-ai-undermine-judgment.html",
+      "summary": "Generative artificial intelligence (Gen-AI) has become a routine part of working life, but overreliance on the technology may erode managers' ability to build moral insights, contextual understanding and know-how to get …",
+      "ts": 1788597602000,
+      "publishedAt": "2026-09-05T08:40:02.000Z"
+    },
     {
       "source": "arXiv AI",
       "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
@@ -791,14 +799,6 @@
       "title": "The Psychological Costs of Artificial Intelligence Adoption in Software Engineering",
       "url": "https://arxiv.org/abs/2609.03456",
       "summary": "arXiv:2609.03456v1 Announce Type: cross Abstract: Artificial intelligence (AI) is increasingly used to augment software engineering (SE) workflows. While code generation remains the main use case, organizations are activ…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents",
-      "url": "https://arxiv.org/abs/2609.03467",
-      "summary": "arXiv:2609.03467v1 Announce Type: cross Abstract: Large language models (LLMs) are increas- ingly deployed as long-horizon conversational agents, motivating growing interest in mem- ory systems. However, existing benchma…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }

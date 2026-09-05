@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-05T05:22:05.130Z",
+  "updated": "2026-09-05T10:09:54.229Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: What STAT readers think about M.D. vs. D.O., AI in medicine, surrogacy, and more",
+      "url": "https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor/?utm_campaign=rss",
+      "summary": "“A click, signature, or brief review should not magically transfer responsibility from an AI developer or platform to a physician,” a reader tells STAT.",
+      "ts": 1788597000000,
+      "publishedAt": "2026-09-05T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Novartis’ experimental cardiovascular drug fails a pivotal study",
@@ -802,15 +811,6 @@
       "ts": 1788433200000,
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Abivax has still not been acquired. What’s going on?",
-      "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/?utm_campaign=rss",
-      "summary": "Biotech M&A activity is off the charts, yet the French drugmaker Abivax hasn't been picked up yet. There may be some explanations.",
-      "ts": 1788431400000,
-      "publishedAt": "2026-09-03T10:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
