@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-05T18:51:27.041Z",
+  "updated": "2026-09-05T20:59:23.129Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How much clearcutting can nature sustain? A study determines the ecological limit for boreal forest birds",
+      "url": "https://phys.org/news/2026-09-clearcutting-nature-sustain-ecological-limit.html",
+      "summary": "A study led by the University of Jyväskylä in Finland evaluated, for the first time, an ecological threshold for the amount of clearcutting in boreal forests. According to the results, maintaining populations of bird spe…",
+      "ts": 1788640201000,
+      "publishedAt": "2026-09-05T20:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "FAST finds two mysterious hydrogen clouds with no visible stars",
@@ -791,14 +799,6 @@
       "title": "Toward Collective-Centric Evaluation of Preference Inference for Participatory Democracy",
       "url": "https://arxiv.org/abs/2609.02990",
       "summary": "arXiv:2609.02990v1 Announce Type: cross Abstract: To scale up collective decision-making, participatory democracy platforms such as Polis and Remesh enable online deliberation among thousands of participants. However, at…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Evaluating Graph Neural Networks for Change-Criticality Classification in Maritime Navigation Charts",
-      "url": "https://arxiv.org/abs/2609.02996",
-      "summary": "arXiv:2609.02996v1 Announce Type: cross Abstract: Graph neural networks (GNNs) are a class of neural networks suitable for learning on graph-structured data. Their application to spatial data is a natural extension, howe…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
