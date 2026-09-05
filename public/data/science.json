@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-04T22:51:19.169Z",
+  "updated": "2026-09-05T00:41:41.924Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Deadly floods of 2021—Researchers identify gaps in hazard mapping",
+      "url": "https://phys.org/news/2026-09-deadly-gaps-hazard.html",
+      "summary": "The catastrophic flooding in July 2021 claimed the lives of more than 200 people in Germany and Belgium. The high death toll makes it clear that hazard mapping and risk communication must be improved urgently. Researcher…",
+      "ts": 1788565201000,
+      "publishedAt": "2026-09-04T23:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Researchers tune into Arctic under-ice sounds and test through-ice communication",
@@ -644,6 +652,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Competition between Geometrical Frustration and the Kondo Effect in CePdAl Revealed by High-Resolution Magnetization",
+      "url": "http://link.aps.org/doi/10.1103/g1rn-czgb",
+      "summary": "Author(s): Yusei Shimizu, Shota Nakamura, Yoichi Ikeda, Yohei Kono, Shunichiro Kittaka, Toshiro Sakakibara, and Yosikazu Isikawa CePdAl is a heavy-fermion compound with a quasi-kagome structure, where geometrical frustra…",
+      "ts": 1788516000000,
+      "publishedAt": "2026-09-04T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Dynamical Breaking of Inversion Symmetry, Strong Second Harmonic Generation, and Nonequilibrium Ferroelectricity with Nonlinear Phonons",
       "url": "http://link.aps.org/doi/10.1103/lwpl-brrr",
       "summary": "Author(s): Egor I. Kiselev We show how crystalline inversion symmetry can be dynamically broken by optical phonons with generic, hardening Kerr-like nonlinearities. The symmetry-broken state is reached through a parametr…",
@@ -671,14 +687,6 @@
       "title": "Dynamically tunable Fano sensor based on diode-reconfigurable spoof surface plasmons",
       "url": "http://link.aps.org/doi/10.1103/gx27-jlp4",
       "summary": "Author(s): Dongchao Zou, Kai-Da Xu, Ke Zhang, Junlong Li, Jintao Lai, Yuanmei Xu, and Xue-Shi Li A dynamically tunable Fano resonance sensor based on PIN-diode-reconfigurable resonators is proposed to achieve multistate …",
-      "ts": 1788516000000,
-      "publishedAt": "2026-09-04T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Competition between Geometrical Frustration and the Kondo Effect in CePdAl Revealed by High-Resolution Magnetization",
-      "url": "http://link.aps.org/doi/10.1103/g1rn-czgb",
-      "summary": "Author(s): Yusei Shimizu, Shota Nakamura, Yoichi Ikeda, Yohei Kono, Shunichiro Kittaka, Toshiro Sakakibara, and Yosikazu Isikawa CePdAl is a heavy-fermion compound with a quasi-kagome structure, where geometrical frustra…",
       "ts": 1788516000000,
       "publishedAt": "2026-09-04T10:00:00.000Z"
     },
@@ -791,14 +799,6 @@
       "title": "The Surviving Fragment of the Zij-i Malikshahi: A Preliminary Edition, Translation, and Study of the 100-Star Catalogue in BnF Arabe 5968",
       "url": "https://arxiv.org/abs/2609.02926",
       "summary": "arXiv:2609.02926v1 Announce Type: new Abstract: The astronomical programme sponsored by the Saljuq Sultan Malikshah I in the late eleventh century occupies an important place in the history of Islamic astronomy. Umar Kha…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scaling Neural Network Quantum States for Ab Initio Quantum Chemistry",
-      "url": "https://arxiv.org/abs/2609.02929",
-      "summary": "arXiv:2609.02929v1 Announce Type: new Abstract: Neural-network quantum states (NNQSs) can represent many-electron wave functions without explicitly enumerating the determinant space, but their accuracy depends jointly on…",
       "ts": 1788494400000,
       "publishedAt": "2026-09-04T04:00:00.000Z"
     }

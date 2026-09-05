@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-04T22:51:21.499Z",
+  "updated": "2026-09-05T00:41:45.611Z",
   "items": [
     {
       "source": "STAT",
@@ -136,6 +136,33 @@
       "ts": 1788523800000,
       "publishedAt": "2026-09-04T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN tells the world: Stop making Africa look small",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168284",
+      "summary": "The UN General Assembly has voted overwhelmingly to encourage governments, schools and tech companies worldwide to stop using maps that make Africa look far smaller than it really is.",
+      "ts": 1788523200000,
+      "publishedAt": "2026-09-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "West Bank: UN rights report warns of forcible displacement from three refugee camps",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168282",
+      "summary": "Israeli security forces forcibly displaced the entire population of three Palestine refugee camps in the occupied West Bank in January and February last year – and continue to prevent their return, in violation of intern…",
+      "ts": 1788523200000,
+      "publishedAt": "2026-09-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN aims to raise nearly $50 million for Nepal flood response",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168281",
+      "summary": "The UN and its humanitarian partners launched a $49.6 million flash appeal on Friday to deliver emergency assistance to more than 84,000 people affected by last week’s catastrophic floods in Nepal.",
+      "ts": 1788523200000,
+      "publishedAt": "2026-09-04T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -784,33 +811,6 @@
       "ts": 1788429600000,
       "publishedAt": "2026-09-03T10:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Latest updates: BepiColombo's arrival at Mercury",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
-      "summary": "After eight years of travelling through the inner Solar System, BepiColombo is arriving at Mercury. This page will show the latest updates throughout the mission's arrival.",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Scaling agentic AI pilots across the enterprise",
-      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
-      "summary": "As agentic AI moves from experimentation toward enterprise deployment, the challenge is figuring out how agents can work together, connect to the systems and data they need, and operate safely across the workflows that r…",
-      "ts": 1788427832000,
-      "publishedAt": "2026-09-03T09:30:32.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized",
-      "url": "https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/?utm_campaign=rss",
-      "summary": "AI products from Cadence and Limbic are among four devices recently accepted into the FDA’s TEMPO pilot that will allow digital health companies to release products without marketing authorization.",
-      "ts": 1788424200000,
-      "publishedAt": "2026-09-03T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
