@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-05T10:09:54.229Z",
+  "updated": "2026-09-05T13:44:09.137Z",
   "items": [
+    {
+      "source": "IAEA News",
+      "title": "Update 365 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-365-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1788604982000,
+      "publishedAt": "2026-09-05T10:43:02.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "STAT",
       "title": "Opinion: What STAT readers think about M.D. vs. D.O., AI in medicine, surrogacy, and more",
@@ -801,15 +810,6 @@
       "summary": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and instit…",
       "ts": 1788436789000,
       "publishedAt": "2026-09-03T11:59:49.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "ts": 1788433200000,
-      "publishedAt": "2026-09-03T11:00:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
