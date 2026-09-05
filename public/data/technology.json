@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-05T00:41:45.611Z",
+  "updated": "2026-09-05T05:22:05.130Z",
   "items": [
     {
       "source": "STAT",
@@ -795,6 +795,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "ts": 1788433200000,
+      "publishedAt": "2026-09-03T11:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Abivax has still not been acquired. What’s going on?",
       "url": "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/?utm_campaign=rss",
@@ -802,15 +811,6 @@
       "ts": 1788431400000,
       "publishedAt": "2026-09-03T10:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Agriculture relies on fossil fuels. It’s costing us.",
-      "url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
-      "summary": "If you’ve had to fill up your vehicle’s gas tank or buy a plane ticket lately, you’ve probably felt the effects of rising fossil-fuel prices. But farmers buying fertilizer for their crops are especially aware of just how…",
-      "ts": 1788429600000,
-      "publishedAt": "2026-09-03T10:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
