@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-05T16:37:31.929Z",
+  "updated": "2026-09-05T18:51:29.325Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -10,6 +10,24 @@
       "ts": 1788615873000,
       "publishedAt": "2026-09-05T13:44:33.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "As wildfires spread north, UN agencies race to help Europe adapt",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168273",
+      "summary": "As the climate warms, the threat of wildfires is spreading in Europe. How can historically cooler and wetter countries prepare?",
+      "ts": 1788609600000,
+      "publishedAt": "2026-09-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Central Park adapts to climate change while helping New York stay cool",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168277",
+      "summary": "In the heart of Manhattan in New York City, the effects of climate change are becoming increasingly visible.",
+      "ts": 1788609600000,
+      "publishedAt": "2026-09-05T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "IAEA News",
@@ -790,24 +808,6 @@
       "title": "Outside forces fuel Sudan war, new report finds",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168270",
       "summary": "Foreign recruitment and external support networks are fuelling the brutal conflict in Sudan, independent UN human rights investigators said on Thursday in a new report, calling for accountability as fighting continues be…",
-      "ts": 1788436800000,
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Nepal floods leave 22,000 children without safe water: UNICEF",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168269",
-      "summary": "More than a week after flash floods struck the Bhotekoshi-Trishuli river basin in Nepal, at least 22,000 children urgently need safe drinking water, sanitation and hygiene support, the United Nations Children’s Fund (UNI…",
-      "ts": 1788436800000,
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "El Niño is surging. Months of extreme heat could follow",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168265",
-      "summary": "Fuelled by exceptionally warm Pacific waters, the El Niño climate pattern is intensifying and has yet to peak. Forecasters are almost certain it will persist through February 2027 – with unusually warm conditions expecte…",
       "ts": 1788436800000,
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "categoryId": "global-governance"

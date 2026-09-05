@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-09-05T16:37:29.179Z",
+  "updated": "2026-09-05T18:51:27.041Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "FAST finds two mysterious hydrogen clouds with no visible stars",
+      "url": "https://phys.org/news/2026-09-fast-mysterious-hydrogen-clouds-visible.html",
+      "summary": "Astronomers have found two clouds of hydrogen near the Whirlpool galaxy that appear to contain almost no stars. The clouds, discovered with China's FAST radio telescope, each contain roughly 3 million times the mass of t…",
+      "ts": 1788633602000,
+      "publishedAt": "2026-09-05T18:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Views from a physician and veterinarian: How to improve barriers to pet care when owners are hospitalized",
+      "url": "https://phys.org/news/2026-09-views-physician-veterinarian-barriers-pet.html",
+      "summary": "The human-animal bond is often so strong that pet owners may delay or forgo medical treatment or leave a health care facility against medical advice if they have no one to care for their pet at home. A perspective paper …",
+      "ts": 1788631204000,
+      "publishedAt": "2026-09-05T18:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "US study tests psilocybin to fight cancer side effects",
+      "url": "https://phys.org/news/2026-09-psilocybin-cancer-side-effects.html",
+      "summary": "Here's a novel idea for countering the painful side effects of chemotherapy: Beforehand, take the hallucinogenic drug found in magic mushrooms.",
+      "ts": 1788629401000,
+      "publishedAt": "2026-09-05T17:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A black hole as light as 40 tons can exist inside a star if dark matter helps",
+      "url": "https://phys.org/news/2026-09-black-hole-tons-star-dark.html",
+      "summary": "In 1974, Stephen Hawking made a prediction that transformed our understanding of black holes. Black holes, he showed, are not truly black: They slowly lose energy through a quantum process now known as Hawking radiation.…",
+      "ts": 1788627601000,
+      "publishedAt": "2026-09-05T17:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tree species diversity protects forests from climate extremes, study finds",
@@ -767,38 +799,6 @@
       "title": "Evaluating Graph Neural Networks for Change-Criticality Classification in Maritime Navigation Charts",
       "url": "https://arxiv.org/abs/2609.02996",
       "summary": "arXiv:2609.02996v1 Announce Type: cross Abstract: Graph neural networks (GNNs) are a class of neural networks suitable for learning on graph-structured data. Their application to spatial data is a natural extension, howe…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
-      "url": "https://arxiv.org/abs/2609.02998",
-      "summary": "arXiv:2609.02998v1 Announce Type: cross Abstract: On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher on the student's own rollouts. Vanilla OPD applies…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ObserverBench: Testing Mechanistic Estimates for Intervention and Control",
-      "url": "https://arxiv.org/abs/2609.03026",
-      "summary": "arXiv:2609.03026v1 Announce Type: cross Abstract: Mechanistic interpretability is increasingly used to guide interventions such as activation steering, circuit removal, and safety monitoring. Yet an internal estimate tha…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SHELF: A Synthetic Harness for Multi-Task Bibliographic Benchmarking",
-      "url": "https://arxiv.org/abs/2609.03047",
-      "summary": "arXiv:2609.03047v1 Announce Type: cross Abstract: Libraries and archives manage large collections with limited staff and computing budgets, yet common benchmarks do not systematically test their bibliographic work. They …",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Reducing Catastrophic Risk from AI with Systematic Monitoring and Evaluation of Rogue AI Progression",
-      "url": "https://arxiv.org/abs/2609.03189",
-      "summary": "arXiv:2609.03189v1 Announce Type: cross Abstract: This article presents a structured framework of behavioral indicators that may signal progression toward potentially catastrophic threats from artificial intelligence sys…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
