@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-05T13:44:06.245Z",
+  "updated": "2026-09-05T16:37:29.179Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tree species diversity protects forests from climate extremes, study finds",
+      "url": "https://phys.org/news/2026-09-tree-species-diversity-forests-climate.html",
+      "summary": "New research has found that tree species diversity can play a crucial role in protecting forests from the growing threat of extreme climate events. The study analyzed data from 88,116 separate forest plots across the Uni…",
+      "ts": 1788624001000,
+      "publishedAt": "2026-09-05T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover how narwhals grow nature's only straight tusk",
+      "url": "https://phys.org/news/2026-08-scientists-narwhals-nature-straight-tusk.html",
+      "summary": "Narwhals have nature's only straight tusk, a single tooth up to three meters (10 feet) long, so strange they were sold as magical unicorn horns during the Middle Ages.",
+      "ts": 1788620407000,
+      "publishedAt": "2026-09-05T15:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some disagreement makes groups more trustworthy, mathematical framework finds",
+      "url": "https://phys.org/news/2026-09-disagreement-groups-trustworthy-mathematical-framework.html",
+      "summary": "When humans are making decisions, they are known not to rely solely on their own considerations and the evidence available to them. Past behavioral science and psychology studies have shown that people are often also inf…",
+      "ts": 1788616804000,
+      "publishedAt": "2026-09-05T14:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Lakes aren't just storing water—they're changing the carbon cycle",
@@ -775,30 +799,6 @@
       "title": "Reducing Catastrophic Risk from AI with Systematic Monitoring and Evaluation of Rogue AI Progression",
       "url": "https://arxiv.org/abs/2609.03189",
       "summary": "arXiv:2609.03189v1 Announce Type: cross Abstract: This article presents a structured framework of behavioral indicators that may signal progression toward potentially catastrophic threats from artificial intelligence sys…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
-      "url": "https://arxiv.org/abs/2609.03241",
-      "summary": "arXiv:2609.03241v1 Announce Type: cross Abstract: A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers provide reliable yet sparse supervision, while dense s…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Exploring the Potential of Contrastive Language-Image Pre-training for Multi-Source Remote Sensing Data",
-      "url": "https://arxiv.org/abs/2609.03391",
-      "summary": "arXiv:2609.03391v1 Announce Type: cross Abstract: Contrastive language-image learning (CLIP) has become a key paradigm for remote sensing vision-language understanding. However, existing remote sensing contrastive learni…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "TabScope: Question-Adaptive Scope Selection for Table Question Answering",
-      "url": "https://arxiv.org/abs/2609.03395",
-      "summary": "arXiv:2609.03395v1 Announce Type: cross Abstract: Large Language Models (LLMs) have shown strong performance on table question answering, yet their accuracy often degrades as table size increases. We find that this degra…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
