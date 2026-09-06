@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-06T10:30:52.354Z",
+  "updated": "2026-09-06T14:00:19.317Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How algorithms are making our environments bland",
+      "url": "https://phys.org/news/2026-09-algorithms-environments-bland.html",
+      "summary": "The Pantone color of the year for 2026 is white. It's called Cloud Dancer, which is described as a \"lofty white.\" This choice reflects a growing trend away from color in our visual world.",
+      "ts": 1788699602000,
+      "publishedAt": "2026-09-06T13:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Quiet' pulsar suddenly reveals three glitches in 15 years of observations",
+      "url": "https://phys.org/news/2026-09-quiet-pulsar-suddenly-reveals-glitches.html",
+      "summary": "Using more than 15 years of observations from the Parkes radio telescope, astronomers detected three rotational glitches in the pulsar PSR J1637−4642—a young neutron star that had shown no signs of glitches since its dis…",
+      "ts": 1788698403000,
+      "publishedAt": "2026-09-06T12:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Germany's Isar Aerospace launches rocket into orbit from Norway",
@@ -783,22 +799,6 @@
       "title": "Reflect-SQL: A Self-Reflection Based Framework for Text-to-SQL",
       "url": "https://arxiv.org/abs/2609.02944",
       "summary": "arXiv:2609.02944v1 Announce Type: cross Abstract: Democratizing data access through natural language is a crucial goal for modern enterprises, but the practical adoption of Text-to-SQL is critically hindered by real-worl…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Privacy-Preserving Heterogeneous Multi-LLM Federated Inference for Cognitive Diagnosis",
-      "url": "https://arxiv.org/abs/2609.02947",
-      "summary": "arXiv:2609.02947v1 Announce Type: cross Abstract: Significant challenges remain in AI-driven educational systems in balancing privacy preservation with accurate cognitive diagnosis. To overcome this, we propose a federat…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "PrivateHub: Contrastive Diffusion Model for Private Sensor-Intensive Environment Data Generation",
-      "url": "https://arxiv.org/abs/2609.02958",
-      "summary": "arXiv:2609.02958v1 Announce Type: cross Abstract: Sensor-intensive environments enable many intelligent services by inferring user applications from heterogeneous data streams. However, not all applications should be exp…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
