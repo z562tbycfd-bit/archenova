@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-06T21:08:47.084Z",
+  "updated": "2026-09-06T23:35:51.390Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Advanced optical imaging reveals hidden activity in blood immune cells",
+      "url": "https://phys.org/news/2026-09-advanced-optical-imaging-reveals-hidden.html",
+      "summary": "A routine blood sample contains a diverse collection of immune cells that can reveal important clues about health and disease. These cells, known as peripheral blood mononuclear cells (PBMCs), are widely used to study in…",
+      "ts": 1788730201000,
+      "publishedAt": "2026-09-06T21:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How bird movements are helping researchers track a global virus",
@@ -791,14 +799,6 @@
       "title": "Anonymization, Not Elimination: Utility-Preserved Speech Anonymization",
       "url": "https://arxiv.org/abs/2604.17000",
       "summary": "arXiv:2604.17000v1 Announce Type: cross Abstract: The growing reliance on large-scale speech data has made privacy protection a critical concern. However, existing anonymization approaches often degrade data utility, for…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "X-Translator: A Real-Time Multilingual Speaker-Aware Speech-to-Speech Translation System",
-      "url": "https://arxiv.org/abs/2607.17544",
-      "summary": "arXiv:2607.17544v1 Announce Type: cross Abstract: Real-time speech-to-speech translation (S2ST) systems must balance translation quality, latency, speech naturalness, and speaker consistency. Publicly documented S2ST sys…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
