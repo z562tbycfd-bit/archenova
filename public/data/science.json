@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-06T16:55:43.086Z",
+  "updated": "2026-09-06T18:56:04.390Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Small molecular substitutions reshape energy pathways behind aggregation-induced emission",
+      "url": "https://phys.org/news/2026-09-small-molecular-substitutions-reshape-energy.html",
+      "summary": "Certain chemical substances, broadly called luminogens, have an inherent ability to emit light. Most fluorescent molecules emit light in solution but lose their emission in the solid state, where the molecules aggregate.",
+      "ts": 1788719401000,
+      "publishedAt": "2026-09-06T18:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Six unusual structures identified at Earth's core-mantle boundary with the help of deep learning",
+      "url": "https://phys.org/news/2026-09-unusual-earth-core-mantle-boundary.html",
+      "summary": "Since scientists can't drill 2,900 km (1,800 miles) to the boundary between Earth's core and deep mantle, they must use information relayed by seismic waves recorded during earthquakes to study this region. In a new stud…",
+      "ts": 1788714001000,
+      "publishedAt": "2026-09-06T17:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The extinct American 'cheetah' was not a cheetah after all",
@@ -783,22 +799,6 @@
       "title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
       "url": "https://arxiv.org/abs/2609.01865",
       "summary": "arXiv:2609.01865v1 Announce Type: cross Abstract: Embedding-based code retrieval is a core component of coding agents and retrieval-augmented code generation, where retrieving correct code matters more than retrieving le…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Counterexamples as Feedback for Agent Self-Correction",
-      "url": "https://arxiv.org/abs/2609.02892",
-      "summary": "arXiv:2609.02892v1 Announce Type: cross Abstract: Single-turn code-generation metrics understate a central property of deployed agents: whether they can repair a wrong artifact after receiving concrete feedback. This pap…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Listen to the Latents: Self-Correcting Speech Recognition in Large Audio Language Models Through Hidden-State Interactions",
-      "url": "https://arxiv.org/abs/2609.02940",
-      "summary": "arXiv:2609.02940v1 Announce Type: cross Abstract: Recent automatic speech recognition (ASR) systems increasingly integrate large language models (LLMs) to leverage their semantic knowledge, either externally through logi…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
