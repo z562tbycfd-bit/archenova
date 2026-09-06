@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-06T14:00:19.317Z",
+  "updated": "2026-09-06T16:55:43.086Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The extinct American 'cheetah' was not a cheetah after all",
+      "url": "https://phys.org/news/2026-09-extinct-american-cheetah.html",
+      "summary": "With their slender bodies and long front legs, Miracinonyx trumani—often nicknamed the \"American cheetah\"—was long thought to be a North American analog of the African big cat. But in a new study published in the journal…",
+      "ts": 1788706801000,
+      "publishedAt": "2026-09-06T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extreme pressure turns blue pigment into record-long single-atom copper chains",
+      "url": "https://phys.org/news/2026-09-extreme-pressure-blue-pigment-atom.html",
+      "summary": "As the electronics in our technology keep shrinking, traditional silicon-based chips are approaching their fundamental physical limits. Yet the wires connecting them might be able to shrink beyond conventional dimensions…",
+      "ts": 1788704401000,
+      "publishedAt": "2026-09-06T14:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How algorithms are making our environments bland",
@@ -783,22 +799,6 @@
       "title": "Listen to the Latents: Self-Correcting Speech Recognition in Large Audio Language Models Through Hidden-State Interactions",
       "url": "https://arxiv.org/abs/2609.02940",
       "summary": "arXiv:2609.02940v1 Announce Type: cross Abstract: Recent automatic speech recognition (ASR) systems increasingly integrate large language models (LLMs) to leverage their semantic knowledge, either externally through logi…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation",
-      "url": "https://arxiv.org/abs/2609.02942",
-      "summary": "arXiv:2609.02942v1 Announce Type: cross Abstract: LLM-as-a-Judge pipelines are increasingly used to evaluate AI-generated text, based on the assumption that judgments arise from reasoning over candidate responses with re…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Reflect-SQL: A Self-Reflection Based Framework for Text-to-SQL",
-      "url": "https://arxiv.org/abs/2609.02944",
-      "summary": "arXiv:2609.02944v1 Announce Type: cross Abstract: Democratizing data access through natural language is a crucial goal for modern enterprises, but the practical adoption of Text-to-SQL is critically hindered by real-worl…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
