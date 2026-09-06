@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-06T05:38:16.150Z",
+  "updated": "2026-09-06T10:30:52.354Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Germany's Isar Aerospace launches rocket into orbit from Norway",
+      "url": "https://phys.org/news/2026-09-germany-isar-aerospace-rocket-orbit.html",
+      "summary": "Germany's Isar Aerospace launched a rocket into orbit from Norway on Saturday as Europe races to boost its ability to economically send satellites into space independently of the United States.",
+      "ts": 1788681601000,
+      "publishedAt": "2026-09-06T08:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Haze emergency grips Malaysian Borneo town",
+      "url": "https://phys.org/news/2026-09-haze-emergency-malaysian-borneo-town.html",
+      "summary": "Acrid smoke hung heavily over the Malaysian town of Serian, seeping into homes and cloaking roadside stalls, as residents navigated an air-quality emergency fueled by transboundary haze from Indonesia's raging fires.",
+      "ts": 1788679895000,
+      "publishedAt": "2026-09-06T07:31:35.000Z"
+    },
     {
       "source": "Nature Communications",
       "title": "PRMT7 restricts CD8+ T cells expansion via the NF-ΚB pathway",
@@ -783,22 +799,6 @@
       "title": "PrivateHub: Contrastive Diffusion Model for Private Sensor-Intensive Environment Data Generation",
       "url": "https://arxiv.org/abs/2609.02958",
       "summary": "arXiv:2609.02958v1 Announce Type: cross Abstract: Sensor-intensive environments enable many intelligent services by inferring user applications from heterogeneous data streams. However, not all applications should be exp…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors",
-      "url": "https://arxiv.org/abs/2609.02959",
-      "summary": "arXiv:2609.02959v1 Announce Type: cross Abstract: What does a language model predict when it has few clues? The answer lurks in its unembedding geometry: a single direction of the unembedding matrix encodes the unigram d…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When Optimization Becomes Manipulation: Defending Generative Search against Malicious Generative Engine Optimization",
-      "url": "https://arxiv.org/abs/2609.02964",
-      "summary": "arXiv:2609.02964v1 Announce Type: cross Abstract: This paper focuses on defending generative search engines against malicious Generative Engine Optimization (GEO), which rewrites web documents to match engines' citation …",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
