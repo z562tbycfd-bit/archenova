@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-06T18:56:04.390Z",
+  "updated": "2026-09-06T21:08:47.084Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How bird movements are helping researchers track a global virus",
+      "url": "https://phys.org/news/2026-08-bird-movements-track-global-virus.html",
+      "summary": "While the highly virulent avian influenza strain has only recently been discovered on Australian shores, researchers at Deakin University have been working behind the scenes for years, anticipating what an outbreak might…",
+      "ts": 1788728401000,
+      "publishedAt": "2026-09-06T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Small molecular substitutions reshape energy pathways behind aggregation-induced emission",
@@ -791,14 +799,6 @@
       "title": "X-Translator: A Real-Time Multilingual Speaker-Aware Speech-to-Speech Translation System",
       "url": "https://arxiv.org/abs/2607.17544",
       "summary": "arXiv:2607.17544v1 Announce Type: cross Abstract: Real-time speech-to-speech translation (S2ST) systems must balance translation quality, latency, speech naturalness, and speaker consistency. Publicly documented S2ST sys…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
-      "url": "https://arxiv.org/abs/2609.01865",
-      "summary": "arXiv:2609.01865v1 Announce Type: cross Abstract: Embedding-based code retrieval is a core component of coding agents and retrieval-augmented code generation, where retrieving correct code matters more than retrieving le…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }
