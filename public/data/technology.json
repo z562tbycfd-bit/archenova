@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-09-07T03:33:06.148Z",
+  "updated": "2026-09-07T09:04:33.112Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "Self-Supervised Pretraining of Molecular Graph Encoders with LeJEPA",
+      "url": "https://arxiv.org/abs/2609.04261",
+      "summary": "arXiv:2609.04261v1 Announce Type: new Abstract: Self-supervised pretraining has transformed language and vision, but its value for molecular graph neural networks remains contested. We ask whether pretraining on a large …",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MarkerScout: A Disease-Agnostic Machine Learning Framework for Biomarker Prediction from Multi-Scale Mechanistic Models",
+      "url": "https://arxiv.org/abs/2609.04268",
+      "summary": "arXiv:2609.04268v1 Announce Type: new Abstract: We demonstrate the framework on three infectious diseases derived from a companion mechanistic immune-simulation platform: SARS-CoV-2, Influenza A Virus, and Plasmodium fal…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Towards AI-Driven Nanomedicine Discovery: A Benchmark and Multimodal Learning Framework for Nano Self-Assembly Prediction",
+      "url": "https://arxiv.org/abs/2609.04278",
+      "summary": "arXiv:2609.04278v1 Announce Type: new Abstract: Nano self-assembly organizes molecular components into bioactive nanoscale structures. Self-assembled nanoparticles (NAPs) derived from Chinese herbal formulas and applicat…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Advancing Alzheimer's Disease Treatment: Synergistic Ligand Combinations Targeting BACE1 via Multi-Ligand Simultaneous Docking",
+      "url": "https://arxiv.org/abs/2609.04301",
+      "summary": "arXiv:2609.04301v1 Announce Type: new Abstract: Alzheimer's disease is a progressive neurodegenerative disorder characterized by memory loss, cognitive decline, and behavioral changes, primarily affecting the elderly. Cu…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Roadmap for MEG Foundation Models",
+      "url": "https://arxiv.org/abs/2609.04461",
+      "summary": "arXiv:2609.04461v1 Announce Type: new Abstract: Foundation models are beginning to reshape brain-signal analysis by moving the field beyond task-specific decoding pipelines toward reusable models pretrained on broad neur…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The physical foundation beneath protein generative modeling",
+      "url": "https://arxiv.org/abs/2609.04465",
+      "summary": "arXiv:2609.04465v1 Announce Type: new Abstract: Physical equations in protein modeling appear to have been replaced by generative models trained directly on structure data. By learning a mapping from noise to data, sampl…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+      "url": "https://arxiv.org/abs/2609.04490",
+      "summary": "arXiv:2609.04490v1 Announce Type: cross Abstract: Quantization is widely used to reduce the computational and memory demands of neural-network inference. In recurrent networks, however, the quantized state is stored and …",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Semantic Model of Genetic Evidence: A Step Toward Bridging the Basic-Science-Clinic Gap",
+      "url": "https://arxiv.org/abs/2609.04509",
+      "summary": "arXiv:2609.04509v1 Announce Type: cross Abstract: Scientific and clinical decision-making depends on evidence from the primary literature, but existing standards for representing that evidence (FHIR Evidence, ECO, SEPIO,…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Stochastic epidemic models with pulse vaccination, varying infectivity and waning immunity",
+      "url": "https://arxiv.org/abs/2609.04601",
+      "summary": "arXiv:2609.04601v1 Announce Type: cross Abstract: We introduce a fully stochastic, non-Markovian SIRS-type epidemic model that incorporates varying infectivity, waning immunity and a pulse vaccination strategy that may n…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online",
+      "url": "https://arxiv.org/abs/2609.04658",
+      "summary": "arXiv:2609.04658v1 Announce Type: cross Abstract: Multi-omic studies increasingly require data to be examined from complementary biological perspectives, yet interactive exploration remains fragmented across modalities a…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Simulation-free Unbalanced Dynamic Optimal Transport with General Growth Penalty",
+      "url": "https://arxiv.org/abs/2609.04710",
+      "summary": "arXiv:2609.04710v1 Announce Type: cross Abstract: Inferring cellular dynamics from unpaired single-cell snapshots requires modeling both state transitions and population growth or death. Unbalanced dynamic optimal transp…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Eco-evolutionary cycles in a matching type predator-prey interaction",
+      "url": "https://arxiv.org/abs/2609.04834",
+      "summary": "arXiv:2609.04834v1 Announce Type: cross Abstract: We study the population dynamics of a predator-prey system with two types in each species. Within a species, predator or prey, dynamics are described by a neutral competi…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Short Combinatorial Proof of the Pons-Batle Identity for Counting Tree-Child Networks",
+      "url": "https://arxiv.org/abs/2609.04979",
+      "summary": "arXiv:2609.04979v1 Announce Type: cross Abstract: Tree-child networks are a useful class of binary phylogenetic networks. The Pons--Batle identity (Pons and Batle, \\textit{Scientific Reports}, 2021) states that the numbe…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Layered mixed matrices and reaction networks",
+      "url": "https://arxiv.org/abs/2609.05100",
+      "summary": "arXiv:2609.05100v1 Announce Type: cross Abstract: The purpose of this work is twofold. In the first part, we consider layered mixed matrices introduced by Murota, relate them to existing notions in combinatorial commutat…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Quantum Optimisation for Protein-Protein Interaction Network Alignment",
+      "url": "https://arxiv.org/abs/2609.05238",
+      "summary": "arXiv:2609.05238v1 Announce Type: cross Abstract: Protein-protein interaction (PPI) network alignment combines topological and sequence information to identify conserved modules across species, but global alignment remai…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks",
+      "url": "https://arxiv.org/abs/2609.05400",
+      "summary": "arXiv:2609.05400v1 Announce Type: cross Abstract: When there is not enough labeled data to properly train deep learning models, transfer learning can help. We still do not fully understand how effective it is in neuroima…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "An AI-Enabled Agent-Based Simulation Platform for Studying COVID-19 Pandemic",
+      "url": "https://arxiv.org/abs/2106.11070",
+      "summary": "arXiv:2106.11070v3 Announce Type: replace Abstract: Understanding outbreak dynamics is essential for designing effective control measures. We developed an agent-based model to examine how changes in epidemiological and i…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Small Molecule Optimization with Large Language Models",
+      "url": "https://arxiv.org/abs/2407.18897",
+      "summary": "arXiv:2407.18897v2 Announce Type: replace-cross Abstract: Molecular optimization, the process of designing molecules with desirable properties, represents a critical challenge in drug discovery. Recent advancements in la…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Deep Learning-Driven Peptide Classification in Biological Nanopores",
+      "url": "https://arxiv.org/abs/2509.14029",
+      "summary": "arXiv:2509.14029v2 Announce Type: replace-cross Abstract: Nanopore-based single-molecule sensing is a promising route to fast, low-cost disease diagnosis and protein sequencing: as an analyte such as a peptide or protein…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Collagen and myocyte interplay in cardiac volume overload: a multi-constituent growth and remodeling framework",
+      "url": "https://arxiv.org/abs/2510.11670",
+      "summary": "arXiv:2510.11670v3 Announce Type: replace-cross Abstract: Hearts subjected to volume overload (VO) are prone to detrimental anatomical and functional changes in response to elevated mechanical loading, ultimately leading…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Aletheia: An Offline-First Clinical Decision Support System for Differential Diagnosis in Low-Resource Healthcare Settings",
+      "url": "https://arxiv.org/abs/2607.24814",
+      "summary": "arXiv:2607.24814v3 Announce Type: replace-cross Abstract: Access to specialist clinical expertise remains severely limited across sub-Saharan Africa, where physician-to-patient ratios can fall below 1:25,000 in rural set…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Omega-N: Interpretable Structural Node Descriptors and Their Applicability Domain",
+      "url": "https://arxiv.org/abs/2609.01633",
+      "summary": "arXiv:2609.01633v2 Announce Type: replace-cross Abstract: A composite structural index summarises a network in one number, and for a triangle-based index it is spectrally redundant: Tr(A^3) is the third moment of the adj…",
+      "ts": 1788753600000,
+      "publishedAt": "2026-09-07T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "ts": 1788739200000,
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Not so fast: Diabetes association panel not done reviewing ejections from its June meeting",
@@ -604,213 +811,6 @@
       "ts": 1788481737000,
       "publishedAt": "2026-09-04T00:28:57.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Recipients of gene-edited pig kidneys successfully receive human organs",
-      "url": "https://www.statnews.com/2026/09/03/recipients-of-gene-edited-pig-kidneys-receive-human-organs/?utm_campaign=rss",
-      "summary": "Two recipients of gene-edited pig kidneys have successfully received human organs, a milestone in the wider effort to advance xenografts.",
-      "ts": 1788474600000,
-      "publishedAt": "2026-09-03T22:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Schiess takes command of Space Force as the service prepares for expansion",
-      "url": "https://spacenews.com/schiess-takes-command-of-space-force-as-the-service-prepares-for-expansion/",
-      "summary": "Gen. Douglas Schiess succeeds Gen. Chance Saltzman as the third chief of space operations of the U.S. Space Force The post Schiess takes command of Space Force as the service prepares for expansion appeared first on Spac…",
-      "ts": 1788469403000,
-      "publishedAt": "2026-09-03T21:03:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Ionis wins FDA approval for first drug for Alexander disease, a rare and deadly neurological disorder",
-      "url": "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/?utm_campaign=rss",
-      "summary": "Zanvastro is the first disease-modifying treatment for Alexander disease, a rare and fatal disorder.",
-      "ts": 1788468356000,
-      "publishedAt": "2026-09-03T20:45:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Immune Cells Driving Alzheimer’s-Like Neurodegeneration Traced to Lymph Nodes",
-      "url": "https://www.genengnews.com/topics/translational-medicine/immune-cells-driving-alzheimers-like-neurodegeneration-traced-to-lymph-nodes/",
-      "summary": "A study in mice traces immune cells that drive neurodegeneration to the body’s lymph nodes, suggesting that processes outside the brain contribute to the damage seen in various tauopathies. The post Immune Cells Driving …",
-      "ts": 1788462078000,
-      "publishedAt": "2026-09-03T19:01:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Psilocybin Prevents Chemotherapy-Related Peripheral Neuropathy in Mice",
-      "url": "https://www.genengnews.com/topics/drug-discovery/psilocybin-prevents-chemotherapy-related-peripheral-neuropathy-in-mice/",
-      "summary": "A study found that psilocybin given before chemotherapy prevented the onset of nerve injury in mouse models, even after repeated treatment cycles, and also protected tumor-bearing mice from neuropathy, without impairing …",
-      "ts": 1788458425000,
-      "publishedAt": "2026-09-03T18:00:25.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "‘Tactical athletes’ get new guidance for cardiovascular fitness",
-      "url": "https://www.statnews.com/2026/09/03/tactical-athlete-health-risks-new-cardiovascular-guidelines-police-firefighters/?utm_campaign=rss",
-      "summary": "Tactical athletes, a category of people first recognized in the early 2000s, also need distinct kinds of health care.",
-      "ts": 1788458400000,
-      "publishedAt": "2026-09-03T18:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
-      "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
-      "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Progress …",
-      "ts": 1788455160000,
-      "publishedAt": "2026-09-03T17:06:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Analytical Blueprint for Cell & Gene Therapy Success",
-      "url": "https://www.genengnews.com/resources/ebooks/the-analytical-blueprint-forcell-gene-therapy-success/",
-      "summary": "This eBook brings together expert perspectives on several of the most pressing analytical topics facing today’s cell and gene therapy developers. The post The Analytical Blueprint for Cell & Gene Therapy Success appeared…",
-      "ts": 1788454311000,
-      "publishedAt": "2026-09-03T16:51:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New com…",
-      "ts": 1788451259000,
-      "publishedAt": "2026-09-03T16:00:59.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4988-4994: More New Tricks for an Old Dog",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4988-4994-more-new-tricks-for-an-old-dog/",
-      "summary": "Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, Aug. 21, 2026 After Curiosity’s 14 years on the surface, Mars continues to surprise. Both of our workspaces this week containe…",
-      "ts": 1788451188000,
-      "publishedAt": "2026-09-03T15:59:48.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "BepiColombo’s Mercury arrival begins - full replay",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/BepiColombo_s_Mercury_arrival_begins_-_full_replay",
-      "summary": "Video: 02:31:10 Watch the replay of the livestream originally broadcast on 3 September as ESA/JAXA's BepiColombo mission took the first critical step towards arriving at Mercury. After travelling through the inner Solar …",
-      "ts": 1788447600000,
-      "publishedAt": "2026-09-03T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Seattle scientists launch $95 million AI biology effort",
-      "url": "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/?utm_campaign=rss",
-      "summary": "Ultragenyx drug fails pivotal Phase 3, FDA's success at regulating unproven stem cells, and other biotech news",
-      "ts": 1788446345000,
-      "publishedAt": "2026-09-03T14:39:05.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Igniting Roman’s Journey",
-      "url": "https://www.nasa.gov/image-article/igniting-romans-journey/",
-      "summary": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT on Aug. 30 aboard a SpaceX Fa…",
-      "ts": 1788445463000,
-      "publishedAt": "2026-09-03T14:24:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Fauci speaks, and writes",
-      "url": "https://www.statnews.com/2026/09/03/anthony-fauci-vaccine-skeptics-book-trump-drug-pricing-deals-medicaid/?utm_campaign=rss",
-      "summary": "Anthony Fauci is working on a book, we unpack Trump's latest drug pricing deals, and more from STAT's D.C. Diagnosis newsletter.",
-      "ts": 1788444694000,
-      "publishedAt": "2026-09-03T14:11:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "HHS flip-flops on disability lawsuit",
-      "url": "https://www.statnews.com/2026/09/03/health-news-hhs-flip-flops-on-disability-lawsuit-community-integration/?utm_campaign=rss",
-      "summary": "Drug overdose deaths decreasing, a path to patients for AI devices, and more health news from Morning Rounds",
-      "ts": 1788441718000,
-      "publishedAt": "2026-09-03T13:21:58.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: OpenEvidence launches new family of AI models",
-      "url": "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: What FDA's TEMPO pilot means for AI regulation, OpenEvidence launches new AI models, and more.",
-      "ts": 1788441512000,
-      "publishedAt": "2026-09-03T13:18:32.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: We’re reading about an Ultragenyx failure, RevMed for lung cancer, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/?utm_campaign=rss",
-      "summary": "The latest pharma news from the Pharmalot campus via the Pharmalittle newsletter",
-      "ts": 1788441488000,
-      "publishedAt": "2026-09-03T13:18:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Spies Superbubble Scene",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/",
-      "summary": "This Hubble Space Telescope image features a sprawling cosmic vista called N44.",
-      "ts": 1788441362000,
-      "publishedAt": "2026-09-03T13:16:02.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "ts": 1788441300000,
-      "publishedAt": "2026-09-03T13:15:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
-      "summary": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts …",
-      "ts": 1788440435000,
-      "publishedAt": "2026-09-03T13:00:35.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Galaxia Takes Next Step in Earth Observation with purchase of Simera Sense Hyperspectral Imager",
-      "url": "https://spacenews.com/galaxia-takes-next-step-in-earth-observation-with-purchase-of-simera-sense-hyperspectral-imager/",
-      "summary": "Leuven, Belgium & Halifax, Canada – 3 September 2026 – European optical payload provider Simera Sense today announced that Canadian space technology company Galaxia has acquired a HyperScape100 hyperspectral imaging […] …",
-      "ts": 1788440400000,
-      "publishedAt": "2026-09-03T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: rethinking child safety and fossil-fueled farming",
-      "url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Child-monitoring apps might need a reboot Digital harms have become the defining f…",
-      "ts": 1788437400000,
-      "publishedAt": "2026-09-03T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "ts": 1788436800000,
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
