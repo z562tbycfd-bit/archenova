@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-09-07T09:04:33.112Z",
+  "updated": "2026-09-07T15:35:49.467Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+      "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is search…",
+      "ts": 1788783000000,
+      "publishedAt": "2026-09-07T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+      "url": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/?utm_campaign=rss",
+      "summary": "Novo Nordisk has stopped two trials of a drug that aims to tame inflammation as a way to improve cardiovascular health, another blow for the approach.",
+      "ts": 1788779632000,
+      "publishedAt": "2026-09-07T11:13:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "BepiColombo begins Mercury arrival with MTM separation success",
+      "url": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
+      "summary": "On 3 September 2026 at 15:49 CEST, the European Space Agency's BepiColombo Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for – BepiColombo’s Mercury Transfe…",
+      "ts": 1788769500000,
+      "publishedAt": "2026-09-07T08:25:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+      "url": "http://www.iaea.org/newscenter/statements/iaea-director-generals-introductory-statement-to-the-board-of-governors-7-september-2026",
+      "summary": "(As prepared for delivery) Ladies and gentlemen, In a fragmented world, the IAEA is more indispensable than ever. Our impartial and expert work is part of some of the most sensitive and consequential international effort…",
+      "ts": 1788762600000,
+      "publishedAt": "2026-09-07T06:30:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "ESA",
+      "title": "Europe's space future in focus at the International Space Summit",
+      "url": "https://www.esa.int/About_Us/Corporate_news/Europe_s_space_future_in_focus_at_the_International_Space_Summit",
+      "summary": "The International Space Summit, taking place in Paris, France, on 9 and 10 September, will bring together world leaders, ministers, industry representatives and astronauts at a pivotal moment for the future of space. ESA…",
+      "ts": 1788761400000,
+      "publishedAt": "2026-09-07T06:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 7 – The Pelican Nebula in Gas, Dust, and Stars",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-7-the-pelican-nebula-in-gas-dust-and-stars/",
+      "summary": "APOD Science APOD APOD: 2026 September 7 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1788753900000,
+      "publishedAt": "2026-09-07T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "A Bright Spot at Mount Michael",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-bright-spot-at-mount-michael/",
+      "summary": "With austral winter nearing its end, clouds cleared for a satellite view of volcanic activity in the remote South Atlantic.",
+      "ts": 1788753660000,
+      "publishedAt": "2026-09-07T04:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Self-Supervised Pretraining of Molecular Graph Encoders with LeJEPA",
@@ -747,69 +810,6 @@
       "summary": "arXiv:2512.13859v2 Announce Type: replace Abstract: Classical autoassociative memory models have been central to understanding emergent computations in recurrent neural circuits across diverse biological contexts. Howeve…",
       "ts": 1788494400000,
       "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Resolving satellite-in situ mismatches in Net Primary Production using high-frequency in situ bio-optical observations in the subpolar Northwest Atlantic",
-      "url": "https://arxiv.org/abs/2604.08634",
-      "summary": "arXiv:2604.08634v2 Announce Type: replace Abstract: Net primary productivity (NPP) plays a central role in biological carbon pump (BCP) and global carbon cycling, but NPP estimates in high-latitude regions remain highly …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Obstruction of Absolute Concentration Robustness by Conservation Laws in Non-Redundant Zero-One Networks",
-      "url": "https://arxiv.org/abs/2604.14592",
-      "summary": "arXiv:2604.14592v5 Announce Type: replace Abstract: Absolute concentration robustness (ACR) is a structural property of biochemical reaction networks in which a species attains the same steady-state concentration at ever…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SpCAST enables scalable and interpretable integration of single-cell RNA sequencing and single-cell-resolved spatial transcriptomics",
-      "url": "https://arxiv.org/abs/2605.26904",
-      "summary": "arXiv:2605.26904v2 Announce Type: replace Abstract: Single-cell-resolution spatial transcriptomics (scST) preserves tissue architecture but often provides targeted or sparse transcriptomic measurements, whereas scRNA-seq…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Temporally constraining source imaging estimates in an underdetermined neural system with eigenmodes of cortical geometry",
-      "url": "https://arxiv.org/abs/2609.00809",
-      "summary": "arXiv:2609.00809v2 Announce Type: replace Abstract: Geometric eigenmodes provide a compact and biologically grounded representation of large-scale neural activity. Previous work demonstrated that they can mitigate the un…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multiparametric MRI Radiomics and Machine Learning Framework for Predicting Treatment Response in Glioblastoma",
-      "url": "https://arxiv.org/abs/2608.05733",
-      "summary": "arXiv:2608.05733v3 Announce Type: replace-cross Abstract: Distinguishing True Progression (TP) from Pseudo-Progression (PsP) after chemoradiotherapy remains a major diagnostic challenge in GBM, as both entities present n…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cancer Drug Reduces SIV Reservoir in Macaques, May Inform HIV Cure Strategies",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/cancer-drug-reduces-siv-reservoir-in-macaques-may-inform-hiv-cure-strategies/",
-      "summary": "Venetoclax, a cancer drug that inhibits BCL-2, reduced the intact SIV reservoir in macaques, offering preclinical support for targeting BCL-2 as part of HIV cure strategies. The post Cancer Drug Reduces SIV Reservoir in …",
-      "ts": 1788483888000,
-      "publishedAt": "2026-09-04T01:04:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Watchmaker Genomics Boosts Manufacturing Capacity with Major Boulder Campus Expansion",
-      "url": "https://www.genengnews.com/topics/omics/watchmaker-genomics-boosts-manufacturing-capacity-with-major-boulder-campus-expansion/",
-      "summary": "The Flatiron Park facility in Colorado will serve as the Watchmaker Boulder Manufacturing Center of Excellence for reagent manufacturing and will house the company’s manufacturing, quality, R&D, and operations teams. The…",
-      "ts": 1788481737000,
-      "publishedAt": "2026-09-04T00:28:57.000Z",
       "categoryId": "bio"
     }
   ],
