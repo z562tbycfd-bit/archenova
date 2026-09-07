@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-09-07T19:40:55.154Z",
+  "updated": "2026-09-07T22:37:03.805Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Park rangers and residents speak up to save Togo's last national park",
+      "url": "https://phys.org/news/2026-09-rangers-residents-togo-national.html",
+      "summary": "A few years ago, I drove with an old friend from Togo, West Africa, towards the country's last remaining large protected area, Fazao-Malfakassa National Park. Our destination was the Hotel Fazao, where his uncle had once…",
+      "ts": 1788818409000,
+      "publishedAt": "2026-09-07T22:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI governance model inspired by Pope Leo XIV aims to put ethics first",
+      "url": "https://phys.org/news/2026-09-ai-pope-leo-xiv-aims.html",
+      "summary": "Researchers at the John Paul II Catholic University of Lublin (KUL) and the University of Eastern Finland have developed a new model of artificial intelligence governance inspired by the teachings of Pope Leo XIV as set …",
+      "ts": 1788817202000,
+      "publishedAt": "2026-09-07T21:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bumpy battery surfaces can masquerade as nanoscale ion pathways, misleading material design",
+      "url": "https://phys.org/news/2026-09-bumpy-battery-surfaces-masquerade-nanoscale.html",
+      "summary": "A signal that appears to show ions moving inside a battery may, in fact, be an illusion caused by an uneven surface. A KAIST research team has identified the origin of this type of artifact, which can lead researchers to…",
+      "ts": 1788816004000,
+      "publishedAt": "2026-09-07T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "War drama Pressure depicts D‑day's weather forecast—what we found when we recreated the challenge using modern systems",
+      "url": "https://phys.org/news/2026-09-war-drama-pressure-depicts-dday.html",
+      "summary": "Meteorologist James Stagg gave what many regard as the most important weather forecast in history in June 1944. The fate of more than 150,000 Allied troops preparing to invade the Normandy beaches on D-Day and the future…",
+      "ts": 1788816001000,
+      "publishedAt": "2026-09-07T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Survey of young researchers raises concerns over future of science in U.S.",
+      "url": "https://phys.org/news/2026-09-survey-young-future-science.html",
+      "summary": "One-third of young scientists who had been planning careers in academic research changed their minds in the spring of 2025, according to a new survey. Fewer expected to remain in higher education or work in the U.S., or …",
+      "ts": 1788814803000,
+      "publishedAt": "2026-09-07T21:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From strays to territory bosses: Epigenetics makes cheetahs adaptable",
+      "url": "https://phys.org/news/2026-09-strays-territory-bosses-epigenetics-cheetahs.html",
+      "summary": "The findings of a new study led by the Leibniz-IZW on Namibian free-ranging cheetahs (Acinonyx jubatus jubatus) demonstrate that epigenetic mechanisms might play an important role in how animals develop different phenoty…",
+      "ts": 1788813605000,
+      "publishedAt": "2026-09-07T20:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A child's first 5 years set them up for life. African study explores how to target education spending",
+      "url": "https://phys.org/news/2026-09-child-years-life-african-explores.html",
+      "summary": "The first five years of life lay an important foundation for children's future schooling, health and earnings. Yet over 77% of children in sub-Saharan Africa don't have access to early childhood care and education. This …",
+      "ts": 1788813601000,
+      "publishedAt": "2026-09-07T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep biosphere has endured mountain-building and erosion over hundreds of millions of years",
+      "url": "https://phys.org/news/2026-09-deep-biosphere-mountain-erosion-hundreds.html",
+      "summary": "A new study reveals that microbial life deep within Earth has persisted and repeatedly flourished through hundreds of millions of years of mountain-building and erosion. By analyzing minerals, fluids and gases from a 2.3…",
+      "ts": 1788812404000,
+      "publishedAt": "2026-09-07T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The listening gap is real—how AI might help teachers bridge it",
+      "url": "https://phys.org/news/2026-09-gap-real-ai-teachers-bridge.html",
+      "summary": "A Grade 4 teacher showed her class a video of children who walk miles barefoot to school. A hand shot up: \"Why are you showing us AI slop? No way this is real.\"",
+      "ts": 1788812401000,
+      "publishedAt": "2026-09-07T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'The Jungle Book' offers an unconventional tool for undergraduate economics education",
+      "url": "https://phys.org/news/2026-09-jungle-unconventional-tool-undergraduate-economics.html",
+      "summary": "Research in the International Journal of Pluralism and Economics Education argues that \"The Jungle Book\" can serve as an unconventional teaching tool for undergraduate economics, using the original stories by Rudyard Kip…",
+      "ts": 1788811208000,
+      "publishedAt": "2026-09-07T20:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Weak hydrogen bonds dethrone copper as the most stable metal binder, opening a new path for metal selection",
+      "url": "https://phys.org/news/2026-09-weak-hydrogen-bonds-dethrone-copper.html",
+      "summary": "Copper has been knocked off the top of a stability ranking it had dominated for decades. Without altering the atoms directly bonded to the metal, a KAIST research team reversed the longstanding trend in which copper gene…",
+      "ts": 1788811201000,
+      "publishedAt": "2026-09-07T20:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Port Hills research reveals 'fire trap' risk from non-native grass",
@@ -711,94 +799,6 @@
       "title": "Elastic turbulence in straight confined geometries",
       "url": "https://arxiv.org/abs/2609.04617",
       "summary": "arXiv:2609.04617v1 Announce Type: new Abstract: Elastic turbulence (ET) in straight geometries has been extensively studied in idealised configurations such as periodic shear and planar channel flow, yet experiments are …",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of extremely high temperature on future photovoltaic power potential over East Asia",
-      "url": "https://arxiv.org/abs/2609.04632",
-      "summary": "arXiv:2609.04632v1 Announce Type: new Abstract: As global warming intensifies, the frequency and intensity of extremely high temperatures are expected to increase. This will impact the production of photovoltaics (PVs), …",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Performance Photonic Crystal Biosensors using Sub-wavelength Nanopillars",
-      "url": "https://arxiv.org/abs/2609.04656",
-      "summary": "arXiv:2609.04656v1 Announce Type: new Abstract: Photonic-crystal (PC) slabs composed of subwavelength silicon pillars erected on a thin silicon backing layer, with heights of only one or half lattice constant, are simula…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Research and simulation of analytical polarization control enabled by optical computing on an integrated photonics chip",
-      "url": "https://arxiv.org/abs/2609.04666",
-      "summary": "arXiv:2609.04666v1 Announce Type: new Abstract: Dynamic polarization controllers are key devices with broad applications in many fields. However, most on-chip polarization controllers still rely on traditional blind-sear…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-Dimensional Phase Diagram of Higher-Order Networked Systems",
-      "url": "https://arxiv.org/abs/2609.04692",
-      "summary": "arXiv:2609.04692v1 Announce Type: new Abstract: Higher-order networks exhibit rich critical phenomena that cannot be captured by traditional pairwise models. Here, we develop an analytical dimension-reduction framework t…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Voltage-embedded equivariant machine learning potential for open system simulations",
-      "url": "https://arxiv.org/abs/2609.04696",
-      "summary": "arXiv:2609.04696v1 Announce Type: new Abstract: Modeling electrochemical interfaces under operational non-equilibrium conditions is vital for energy technologies but remains bottlenecked by the expensive cost of ab initi…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Activated carbon-assisted anionic dye decomposition using a dual-liquid post-double dielectric barrier discharge plasma reactor",
-      "url": "https://arxiv.org/abs/2609.04734",
-      "summary": "arXiv:2609.04734v1 Announce Type: new Abstract: Non-thermal Plasma (NTP) technology, including the Dielectric Barrier Discharge (DBD) reactor, has emerged as an effective advanced oxidation process (AOP) for treating per…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analytical model for polarization transfer during gas-phase collision events in spin-exchange optical pumping: Spin-$\\frac{1}{2}$ $^{129}$Xe versus spin-$\\frac{3}{2}$ $^{131}$Xe",
-      "url": "https://arxiv.org/abs/2609.04743",
-      "summary": "arXiv:2609.04743v1 Announce Type: new Abstract: Spin-exchange optical pumping (SEOP) is a method for producing spin-hyperpolarized noble gas nuclei, such as 129Xe and 131Xe, which are used in various magnetic resonance a…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "BEAM3R: Beam's-eye-view architecture with Mamba-3 for implicit dose reconstruction",
-      "url": "https://arxiv.org/abs/2609.04747",
-      "summary": "arXiv:2609.04747v1 Announce Type: new Abstract: To enable accurate and rapid photon control point and proton beamlet dose calculation in the DoseRAD2026 challenge, we present BEAM3R, a dose estimation framework operating…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modulation-Frequency Dependence of Spatial Resolution in Optical Correlation-Domain Reflectometry",
-      "url": "https://arxiv.org/abs/2609.04818",
-      "summary": "arXiv:2609.04818v1 Announce Type: new Abstract: The spatial resolution of optical correlation-domain reflectometry (OCDR) has conventionally been described by an expression that is independent of the modulation frequency…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dead-zone-free free-induction-decay alkali-metal atomic magnetometer",
-      "url": "https://arxiv.org/abs/2609.04847",
-      "summary": "arXiv:2609.04847v1 Announce Type: new Abstract: The detection dead zone is an important systematic limitation in scalar atomic magnetometers, constraining their practical utility. In this work, we demonstrate a sensitive…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frugal Effective Models for Nanophotonic Scattering: Optimizing Global Polarizability Matrices for Metasurface Design",
-      "url": "https://arxiv.org/abs/2609.04863",
-      "summary": "arXiv:2609.04863v1 Announce Type: new Abstract: Accurate nano-photonics simulations of large scale devices like optical metasurfaces require high accuracy reduced models for the device constituents. We present an automat…",
       "ts": 1788753600000,
       "publishedAt": "2026-09-07T04:00:00.000Z"
     }
