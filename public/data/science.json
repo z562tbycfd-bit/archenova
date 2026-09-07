@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-06T23:35:51.390Z",
+  "updated": "2026-09-07T03:33:01.939Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Growing up socially isolated linked to young people becoming NEET",
+      "url": "https://phys.org/news/2026-09-socially-isolated-linked-young-people.html",
+      "summary": "About 1 million young people in the UK are not in education, employment or training (NEET). The consequences for their health and income can be significant and long-lasting, with costs to the economy as well.",
+      "ts": 1788741002000,
+      "publishedAt": "2026-09-07T00:30:02.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Telomere variant sequences encode the genetic blueprint for allele-specific telomere length",
+      "url": "https://www.nature.com/articles/s41467-026-77310-9",
+      "summary": "",
+      "ts": 1788739200000,
+      "publishedAt": "2026-09-07T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Advanced optical imaging reveals hidden activity in blood immune cells",
@@ -783,22 +799,6 @@
       "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
       "url": "https://arxiv.org/abs/2609.04198",
       "summary": "arXiv:2609.04198v1 Announce Type: new Abstract: Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Traceable TTS: Toward Watermark-Free TTS with Strong Traceability",
-      "url": "https://arxiv.org/abs/2507.03887",
-      "summary": "arXiv:2507.03887v1 Announce Type: cross Abstract: Recent advances in Text-To-Speech (TTS) technology have enabled synthetic speech to mimic human voices with remarkable realism, raising significant security concerns. Thi…",
-      "ts": 1788580800000,
-      "publishedAt": "2026-09-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Anonymization, Not Elimination: Utility-Preserved Speech Anonymization",
-      "url": "https://arxiv.org/abs/2604.17000",
-      "summary": "arXiv:2604.17000v1 Announce Type: cross Abstract: The growing reliance on large-scale speech data has made privacy protection a critical concern. However, existing anonymization approaches often degrade data utility, for…",
       "ts": 1788580800000,
       "publishedAt": "2026-09-05T04:00:00.000Z"
     }

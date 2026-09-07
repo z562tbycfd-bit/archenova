@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-06T23:35:53.521Z",
+  "updated": "2026-09-07T03:33:06.148Z",
   "items": [
     {
       "source": "STAT",
@@ -10,6 +10,24 @@
       "ts": 1788736051000,
       "publishedAt": "2026-09-06T23:07:31.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Advance safety for all’: International police cooperation helps tackle cross-border crime",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168280",
+      "summary": "As criminal networks increasingly exploit weak institutions and operate across borders, the UN says no police force can tackle them alone.",
+      "ts": 1788696000000,
+      "publishedAt": "2026-09-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "New reservoir offers innovative solution to South Sudan cattle beef",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168266",
+      "summary": "At the end of a history-laden path winding through palm trees and scattered ruins – remnants of once-vibrant villages destroyed by cattle raids – lies a rare sight in this dry part of Terekeka county in South Sudan: a sp…",
+      "ts": 1788696000000,
+      "publishedAt": "2026-09-06T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "OpenAI",
@@ -793,24 +811,6 @@
       "ts": 1788436800000,
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "ts": 1788436800000,
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "General Assembly backs creation of new UN learning institute under UN80 reforms",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168276",
-      "summary": "The UN General Assembly has approved the merger of two United Nations learning and training bodies, creating a new institution designed to strengthen support for both Member States and the UN system itself.",
-      "ts": 1788436800000,
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
