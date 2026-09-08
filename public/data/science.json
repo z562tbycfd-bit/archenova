@@ -1,7 +1,159 @@
 {
   "ok": true,
-  "updated": "2026-09-08T18:30:37.835Z",
+  "updated": "2026-09-08T21:39:56.594Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Waterlogged seeds reveal melons' ancient journey",
+      "url": "https://phys.org/news/2026-09-waterlogged-seeds-reveal-melons-ancient.html",
+      "summary": "Melons produce many seeds, making the melon shape a traditional symbol of fertility and prosperity in Chinese culture. But the historical debate about how melons made their way to modern tables is as long and twisted as …",
+      "ts": 1788903001000,
+      "publishedAt": "2026-09-08T21:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA technique for manipulating satellite photos now reveals ancient images",
+      "url": "https://phys.org/news/2026-09-nasa-technique-satellite-photos-reveals.html",
+      "summary": "High in the central tower of Angkor Wat, an ancient Cambodian temple, paintings depict horseback riders and a traditional musical ensemble. Thousands of visitors pass these images daily without noticing them because they…",
+      "ts": 1788902410000,
+      "publishedAt": "2026-09-08T21:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Helium-3 lifts new quantum computing concept with faster tunneling rates",
+      "url": "https://phys.org/news/2026-09-helium-quantum-concept-faster-tunneling.html",
+      "summary": "Helium—the lightest atom that can be laser-cooled and controlled—powers a new design for high-powered, stable quantum computers.",
+      "ts": 1788902401000,
+      "publishedAt": "2026-09-08T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A crystalline sponge reveals structures of large 'beyond rule of 5' molecules",
+      "url": "https://phys.org/news/2026-09-crystalline-sponge-reveals-large-molecules.html",
+      "summary": "Drug discovery has traditionally followed the \"rule of 5,\" which identifies chemical properties generally associated with good absorption of orally administered drugs, including a molecular weight below 500 daltons (Da).…",
+      "ts": 1788901207000,
+      "publishedAt": "2026-09-08T21:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "No evidence that Multi-Agency Safeguarding Hubs have improved child protection outcomes",
+      "url": "https://phys.org/news/2026-09-evidence-multi-agency-safeguarding-hubs.html",
+      "summary": "New research concludes that Multi-Agency Safeguarding Hubs (MASHs) are failing to provide better protection for children in England, instead causing families distress and putting more pressure on social care resources.",
+      "ts": 1788901204000,
+      "publishedAt": "2026-09-08T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Not all eggs are the same—uncovering a tropical parasite's secret weapons",
+      "url": "https://phys.org/news/2026-09-eggs-uncovering-tropical-parasite-secret.html",
+      "summary": "A team of scientists from the Faculty of Science at Charles University has achieved a major breakthrough in research into schistosomiasis, a serious tropical disease affecting more than 250 million people worldwide. Usin…",
+      "ts": 1788900007000,
+      "publishedAt": "2026-09-08T20:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physics-based AI unlocks first global predictions of carbon cycling in ocean sediments",
+      "url": "https://phys.org/news/2026-09-physics-based-ai-global-carbon.html",
+      "summary": "Researchers at The University of Manchester have developed a new physics-based artificial intelligence approach that, for the first time, enables accurate global-scale predictions of how dissolved organic carbon moves be…",
+      "ts": 1788900003000,
+      "publishedAt": "2026-09-08T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Curved nanographene with five-, six- and seven-membered rings synthesized in two steps",
+      "url": "https://phys.org/news/2026-09-nanographene-membered.html",
+      "summary": "Nanographenes can be considered molecular fragments of graphene, a 2D conductive material in which carbon atoms are connected in a honeycomb pattern. Because their electronic and photophysical properties vary depending o…",
+      "ts": 1788898810000,
+      "publishedAt": "2026-09-08T20:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mentoring based on young peoples' strengths can alleviate the crisis in education, training and employment",
+      "url": "https://phys.org/news/2026-09-based-young-peoples-strengths-alleviate.html",
+      "summary": "We can all see the huge waste of talent this represents for the young people concerned and society as a whole.",
+      "ts": 1788898802000,
+      "publishedAt": "2026-09-08T20:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fast radio bursts could help disentangle galactic feedback from dark matter effects",
+      "url": "https://phys.org/news/2026-09-fast-radio-disentangle-galactic-feedback.html",
+      "summary": "Intense, brief flashes of radio light called fast radio bursts (FRBs) travel across billions of light-years to reach Earth, passing through a fog of matter along the way. The bursts' origins are unclear but may originate…",
+      "ts": 1788897610000,
+      "publishedAt": "2026-09-08T20:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From classrooms to careers, Black women describe lasting effects of racialized bias",
+      "url": "https://phys.org/news/2026-09-classrooms-careers-black-women-effects.html",
+      "summary": "As a child, Nefatari excelled at advanced mathematics. But a teacher questioned her academic success in this area because the teacher believed Black girls were not good at math. Years later, as a research participant, Ne…",
+      "ts": 1788897601000,
+      "publishedAt": "2026-09-08T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Giant impacts may strip small icy moons of subsurface oceans",
+      "url": "https://phys.org/news/2026-09-giant-impacts-small-icy-moons.html",
+      "summary": "Southwest Research Institute (SwRI) scientists used simulations to understand the role disruptive impacts play on icy moons with subsurface oceans in our solar system. A recent paper published in the journal Nature Astro…",
+      "ts": 1788896410000,
+      "publishedAt": "2026-09-08T19:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The autonomy paradox: How more freedom at work can leave you feeling powerless",
+      "url": "https://phys.org/news/2026-09-autonomy-paradox-freedom-powerless.html",
+      "summary": "You may know the feeling. You're supposed to have finished work for the day, but later, during your evening meal, you start mentally preparing for tomorrow's meeting. Or you have a quick check of your emails while you ha…",
+      "ts": 1788896404000,
+      "publishedAt": "2026-09-08T19:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The future of malaria control is … more mosquitoes?",
+      "url": "https://phys.org/news/2026-09-future-malaria-mosquitoes.html",
+      "summary": "South Africa's malaria elimination teams could soon have backup from millions of decoy mosquitoes specially bred at Africa's first mosquito factory. These insects are part of South Africa's pioneering Sterile Insect Tech…",
+      "ts": 1788895205000,
+      "publishedAt": "2026-09-08T19:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Martian air could yield methane rocket fuel with fewer unwanted byproducts",
+      "url": "https://phys.org/news/2026-09-martian-air-yield-methane-rocket.html",
+      "summary": "As NASA prepares to send humans to Mars as early as the 2030s, University of Mississippi researchers are working on one of the key questions: How will they get back?",
+      "ts": 1788895201000,
+      "publishedAt": "2026-09-08T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quebec wildfire smoke left forest moths with deformed wings, research finds",
+      "url": "https://phys.org/news/2026-09-quebec-wildfire-left-forest-moths.html",
+      "summary": "Over the course of the summer of 2023, Quebec experienced its worst wildfire season on record. By its end, some 4.5 million hectares (11.1 million acres) of the province's boreal forest had burned. While the effects of t…",
+      "ts": 1788894013000,
+      "publishedAt": "2026-09-08T19:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Star-fingered toads use fingertip lobules to detect prey in murky water",
+      "url": "https://phys.org/news/2026-09-star-fingered-toads-fingertip-lobules.html",
+      "summary": "Surinam toads (Pipa pipa) are strange, flat frogs with minuscule eyes that live in the murky waters of the Amazon basin and carry their eggs on their backs. The way they catch prey is even weirder. They lie in wait with …",
+      "ts": 1788894009000,
+      "publishedAt": "2026-09-08T19:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New molecular magnet design boosts performance for ultrahigh-density data storage",
+      "url": "https://phys.org/news/2026-09-molecular-magnet-boosts-ultrahigh-density.html",
+      "summary": "Researchers at The University of Manchester and the Australian National University have developed a new class of molecular magnets that combines the most successful features of previous designs, resulting in some of the …",
+      "ts": 1788892809000,
+      "publishedAt": "2026-09-08T18:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Too hot to learn: How climate change hurts children's chances from birth",
+      "url": "https://phys.org/news/2026-09-hot-climate-children-chances-birth.html",
+      "summary": "Children across Europe have returned to school after a summer of extreme heat. As the climate warms, one question is becoming harder to ignore: How can students learn when classrooms become dangerously hot?",
+      "ts": 1788892807000,
+      "publishedAt": "2026-09-08T18:40:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New iron-bearing compounds could store water near Earth's core",
@@ -387,6 +539,38 @@
       "publishedAt": "2026-09-08T11:00:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Bridging gaps in Rydberg rf receivers using modulation-transfer bandwidth enhancement",
+      "url": "http://link.aps.org/doi/10.1103/y9dt-gs85",
+      "summary": "Author(s): Mickael Branco, K. V. Adwaith, Gabriel Boccara, Duc-Anh Trinh, Sacha Welinski, Perrine Berger, Fabienne Goldfarb, and Fabien Bretenaker We optimize theoretically and experimentally the performances of the rece…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Enhanced sensitivity in whispering-gallery-mode sensors through mode hybridization",
+      "url": "http://link.aps.org/doi/10.1103/ndy6-ny7l",
+      "summary": "Author(s): Vivek Gualani, Sofía Sisteré, Josep Salvans-Tort, Maria Riera, Wenle Weng, Josep Sanjuan, and Miquel Nofrarias Mode interactions in crystalline microresonators play a significant role in determining the behavi…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "RASER-resolved $^{129}\\mathrm{Xe}$ chemical shifts in an inhomogeneous ultralow magnetic field",
+      "url": "http://link.aps.org/doi/10.1103/64np-3ndy",
+      "summary": "Author(s): Sebastian W. Atalla, Andrew K. Maresca, Aaron J. Ferreira, Nikolas M. Jauch, and Rosa T. Branca Low-field nuclear magnetic resonance (NMR) spectroscopy ($<1\\text{ }\\mathrm{T}$) often suffers from reduced sensi…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Programmable dynamic phase control of a quasiperiodic optical lattice",
+      "url": "http://link.aps.org/doi/10.1103/z5xd-vqh9",
+      "summary": "Author(s): Andrew O. Neely, Cedric C. Wilson, Ryan Everly, Yu Yao, Raffaella F. Zanetti, and Charles D. Brown The quantum dynamics of quasiperiodic systems display a rich variety of physical behaviors due to the combinat…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Exponentially Enhanced Two-Mode Multiboson Entanglement via Phase-Modulated Tunneling",
       "url": "http://link.aps.org/doi/10.1103/mxnp-zvth",
@@ -595,6 +779,14 @@
       "publishedAt": "2026-09-08T09:00:01.000Z"
     },
     {
+      "source": "Quanta Magazine",
+      "title": "AI Has Solved One of Math’s $1 Million Millennium Prize Problems",
+      "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      "summary": "Mathematicians at OpenAI showed that the Navier-Stokes equations, which describe how fluids flow, can sometimes “blow up.” But the massive result is not without controversy. The post AI Has Solved One of Math’s $1 Millio…",
+      "ts": 1788857032000,
+      "publishedAt": "2026-09-08T08:43:52.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "How beavers can help create fire breaks as part of a drought preparation plan",
       "url": "https://phys.org/news/2026-09-beavers-drought.html",
@@ -609,198 +801,6 @@
       "summary": "Nearly a century ago, a single colony of Staphylococcus aureus (S. aureus) helped launch the antibiotic age. In 1928, Alexander Fleming returned to his London lab to find that a stray mold had wiped out the Staphylococcu…",
       "ts": 1788831601000,
       "publishedAt": "2026-09-08T01:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Early Earth's auroral belts may have formed a natural ion-beam reactor for prebiotic chemistry",
-      "url": "https://phys.org/news/2026-09-early-earth-auroral-belts-natural.html",
-      "summary": "We usually think of auroras as beautiful lights in the night sky. I see them as visible traces of a connection between the sun, Earth's magnetic field and the atmosphere. This led me to an origin-of-life question: Could …",
-      "ts": 1788828004000,
-      "publishedAt": "2026-09-08T00:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Crime is falling—but the public doesn't feel safer, UK study finds",
-      "url": "https://phys.org/news/2026-09-crime-falling-doesnt-safer-uk.html",
-      "summary": "Crime levels are falling for most offenses across the UK—but the public doesn't necessarily feel safer. It's a human trait to focus on frightening information in the news or on social media—but it could also mean that pe…",
-      "ts": 1788825601000,
-      "publishedAt": "2026-09-08T00:00:01.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Ki-67 regulates heterochromatin organization in neurons and forms condensates with heterochromatic components",
-      "url": "https://www.nature.com/articles/s41467-026-77430-2",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Periodic polar vortices in BaTiO<sub>3</sub>/SrTiO<sub>3</sub> superlattices monolithically grown on silicon",
-      "url": "https://www.nature.com/articles/s41467-026-77270-0",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Arginine metabolism as a mutualistic strategy in the interaction between <i>Porphyromonas gingivalis</i> and <i>Filifactor alocis</i>",
-      "url": "https://www.nature.com/articles/s41467-026-77383-6",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A cytoskeleton-associated <i>Plasmodium</i> protein critical for organelle segregation",
-      "url": "https://www.nature.com/articles/s41467-026-77586-x",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Near-term increased exposure to political risk for African power trades",
-      "url": "https://www.nature.com/articles/s41467-026-77362-x",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Gut microbiota composition outperforms chronological age in predicting systemic inflammation and incident disease risk",
-      "url": "https://www.nature.com/articles/s41467-026-77499-9",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Late Permian core-surface-magnetosphere conditions revealed by single crystal paleointensities from the Emeishan large igneous province",
-      "url": "https://www.nature.com/articles/s41467-026-77506-z",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A core transcriptional regulatory circuitry controls super-enhancer-driven activation of <i>LGR5</i> in colorectal cancer",
-      "url": "https://www.nature.com/articles/s41467-026-76761-4",
-      "summary": "",
-      "ts": 1788825600000,
-      "publishedAt": "2026-09-08T00:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How Indigenous Protected Areas became a vital way to protect nature in Australia",
-      "url": "https://phys.org/news/2026-09-indigenous-areas-vital-nature-australia.html",
-      "summary": "When you think of conservation in Australia, chances are you'll think of a national park.",
-      "ts": 1788823201000,
-      "publishedAt": "2026-09-07T23:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Park rangers and residents speak up to save Togo's last national park",
-      "url": "https://phys.org/news/2026-09-rangers-residents-togo-national.html",
-      "summary": "A few years ago, I drove with an old friend from Togo, West Africa, towards the country's last remaining large protected area, Fazao-Malfakassa National Park. Our destination was the Hotel Fazao, where his uncle had once…",
-      "ts": 1788818409000,
-      "publishedAt": "2026-09-07T22:00:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI governance model inspired by Pope Leo XIV aims to put ethics first",
-      "url": "https://phys.org/news/2026-09-ai-pope-leo-xiv-aims.html",
-      "summary": "Researchers at the John Paul II Catholic University of Lublin (KUL) and the University of Eastern Finland have developed a new model of artificial intelligence governance inspired by the teachings of Pope Leo XIV as set …",
-      "ts": 1788817202000,
-      "publishedAt": "2026-09-07T21:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bumpy battery surfaces can masquerade as nanoscale ion pathways, misleading material design",
-      "url": "https://phys.org/news/2026-09-bumpy-battery-surfaces-masquerade-nanoscale.html",
-      "summary": "A signal that appears to show ions moving inside a battery may, in fact, be an illusion caused by an uneven surface. A KAIST research team has identified the origin of this type of artifact, which can lead researchers to…",
-      "ts": 1788816004000,
-      "publishedAt": "2026-09-07T21:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "War drama Pressure depicts D‑day's weather forecast—what we found when we recreated the challenge using modern systems",
-      "url": "https://phys.org/news/2026-09-war-drama-pressure-depicts-dday.html",
-      "summary": "Meteorologist James Stagg gave what many regard as the most important weather forecast in history in June 1944. The fate of more than 150,000 Allied troops preparing to invade the Normandy beaches on D-Day and the future…",
-      "ts": 1788816001000,
-      "publishedAt": "2026-09-07T21:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Survey of young researchers raises concerns over future of science in U.S.",
-      "url": "https://phys.org/news/2026-09-survey-young-future-science.html",
-      "summary": "One-third of young scientists who had been planning careers in academic research changed their minds in the spring of 2025, according to a new survey. Fewer expected to remain in higher education or work in the U.S., or …",
-      "ts": 1788814803000,
-      "publishedAt": "2026-09-07T21:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "From strays to territory bosses: Epigenetics makes cheetahs adaptable",
-      "url": "https://phys.org/news/2026-09-strays-territory-bosses-epigenetics-cheetahs.html",
-      "summary": "The findings of a new study led by the Leibniz-IZW on Namibian free-ranging cheetahs (Acinonyx jubatus jubatus) demonstrate that epigenetic mechanisms might play an important role in how animals develop different phenoty…",
-      "ts": 1788813605000,
-      "publishedAt": "2026-09-07T20:40:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A child's first 5 years set them up for life. African study explores how to target education spending",
-      "url": "https://phys.org/news/2026-09-child-years-life-african-explores.html",
-      "summary": "The first five years of life lay an important foundation for children's future schooling, health and earnings. Yet over 77% of children in sub-Saharan Africa don't have access to early childhood care and education. This …",
-      "ts": 1788813601000,
-      "publishedAt": "2026-09-07T20:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Deep biosphere has endured mountain-building and erosion over hundreds of millions of years",
-      "url": "https://phys.org/news/2026-09-deep-biosphere-mountain-erosion-hundreds.html",
-      "summary": "A new study reveals that microbial life deep within Earth has persisted and repeatedly flourished through hundreds of millions of years of mountain-building and erosion. By analyzing minerals, fluids and gases from a 2.3…",
-      "ts": 1788812404000,
-      "publishedAt": "2026-09-07T20:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The listening gap is real—how AI might help teachers bridge it",
-      "url": "https://phys.org/news/2026-09-gap-real-ai-teachers-bridge.html",
-      "summary": "A Grade 4 teacher showed her class a video of children who walk miles barefoot to school. A hand shot up: \"Why are you showing us AI slop? No way this is real.\"",
-      "ts": 1788812401000,
-      "publishedAt": "2026-09-07T20:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "'The Jungle Book' offers an unconventional tool for undergraduate economics education",
-      "url": "https://phys.org/news/2026-09-jungle-unconventional-tool-undergraduate-economics.html",
-      "summary": "Research in the International Journal of Pluralism and Economics Education argues that \"The Jungle Book\" can serve as an unconventional teaching tool for undergraduate economics, using the original stories by Rudyard Kip…",
-      "ts": 1788811208000,
-      "publishedAt": "2026-09-07T20:00:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Weak hydrogen bonds dethrone copper as the most stable metal binder, opening a new path for metal selection",
-      "url": "https://phys.org/news/2026-09-weak-hydrogen-bonds-dethrone-copper.html",
-      "summary": "Copper has been knocked off the top of a stability ranking it had dominated for decades. Without altering the atoms directly bonded to the metal, a KAIST research team reversed the longstanding trend in which copper gene…",
-      "ts": 1788811201000,
-      "publishedAt": "2026-09-07T20:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Port Hills research reveals 'fire trap' risk from non-native grass",
-      "url": "https://phys.org/news/2026-09-port-hills-reveals-native-grass.html",
-      "summary": "New research from Te Whare Wānanga o Waitaha | University of Canterbury (UC) examining the aftermath of the February 2024 Port Hills wildfire found that some young native trees and shrubs were able to resprout after bein…",
-      "ts": 1788810007000,
-      "publishedAt": "2026-09-07T19:40:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Inexpensive blue pigment enables efficient one-step conversion of carbon dioxide to methane",
-      "url": "https://phys.org/news/2026-09-inexpensive-blue-pigment-enables-efficient.html",
-      "summary": "A common blue pigment could help turn carbon dioxide (CO₂) from an industrial waste product into a useful fuel. A joint research team led by Tohoku University's Advanced Institute for Materials Research (WPI-AIMR), in co…",
-      "ts": 1788810002000,
-      "publishedAt": "2026-09-07T19:40:02.000Z"
     }
   ],
   "sources": [

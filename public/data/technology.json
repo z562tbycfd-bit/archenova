@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-09-08T18:30:41.157Z",
+  "updated": "2026-09-08T21:39:58.972Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA names acting heads of drug and vaccine centers to permanent roles",
+      "url": "https://www.statnews.com/2026/09/08/fda-names-leaders-cder-cber-michael-davis-karim-mikhail/?utm_campaign=rss",
+      "summary": "The moves bring stability to an agency that's been rocked by the exits of top leadership.",
+      "ts": 1788902140000,
+      "publishedAt": "2026-09-08T21:15:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "From the Corps to the Cosmos, featuring Jaden Caradine",
+      "url": "https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+      "summary": "Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there. Before he enrolled at Embry-Riddle Aeronautical University, before he discovered the field that would become h…",
+      "ts": 1788899399000,
+      "publishedAt": "2026-09-08T20:29:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Calls for Proposals to Accelerate Lunar Surface Technologies ",
+      "url": "https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/",
+      "summary": "NASA is seeking proposals to advance the technology and infrastructure needed to explore the Moon and establish a Moon Base in the lunar South Pole region. Announced on Tuesday, Sept. 8, the solicitation targets capabili…",
+      "ts": 1788898576000,
+      "publishedAt": "2026-09-08T20:16:16.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Multi-Attribute Method (MAM) as a Biologics Lifecycle Backbone",
+      "url": "https://www.genengnews.com/sponsored/the-multi-attribute-method-mam-as-a-biologics-lifecycle-backbone/",
+      "summary": "A more coherent approach: a peptide-mapping LC-HRMS (liquid chromatography-high resolution mass spectrometry) workflow that can identify and monitor multiple product quality attributes, including selected critical qualit…",
+      "ts": 1788897077000,
+      "publishedAt": "2026-09-08T19:51:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ADCs, mAbs, CAR Ts: One Bioluminescent Platform Measures Them All",
+      "url": "https://www.genengnews.com/sponsored/adcs-mabs-car-ts-one-bioluminescent-platform-measures-them-all/",
+      "summary": "The HiBiT Target Cell Killing (TCK) platform, with off-the-shelf, mix-and-match components, measures four killing mechanisms for broad immunotherapy modality assessment. The post ADCs, mAbs, CAR Ts: One Bioluminescent Pl…",
+      "ts": 1788895686000,
+      "publishedAt": "2026-09-08T19:28:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Drug Discovery Hits a New Bottleneck: Experimental Validation",
+      "url": "https://www.genengnews.com/sponsored/ai-drug-discovery-hits-a-new-bottleneck-experimental-validation/",
+      "summary": "Sponsored content brought to you by Artificial intelligence is dramatically accelerating early drug discovery. Models can screen chemical space, predict structures, optimize properties, and propose new molecules at speed…",
+      "ts": 1788893781000,
+      "publishedAt": "2026-09-08T18:56:21.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Targeted Lentiviral Delivery Without Vector Reengineering",
@@ -19,6 +73,15 @@
       "ts": 1788889139000,
       "publishedAt": "2026-09-08T17:38:59.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "ts": 1788886800000,
+      "publishedAt": "2026-09-08T17:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -184,6 +247,51 @@
     },
     {
       "source": "United Nations News",
+      "title": "UN chief demands Israeli withdrawal from Lebanon amid Nabatieh escalation",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168298",
+      "summary": "The Secretary-General has condemned mounting civilian casualties in southern Lebanon and called on Israel to withdraw its forces from Lebanese territory, as fighting intensifies in and around Nabatieh.",
+      "ts": 1788868800000,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "AI datacentres pose growing threat to electricity systems worldwide",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168296",
+      "summary": "Use of data-intensive technologies – in particular artificial intelligence (AI) data centres – is growing faster than electricity infrastructure can handle, the UN’s economic commission for Europe has warned, raising con…",
+      "ts": 1788868800000,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola response in eastern DR Congo must include food aid, WFP says",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168295",
+      "summary": "As Ebola sweeps across the eastern Democratic Republic of the Congo (DRC), ensuring families meet their basic food needs is crucial to halt the spread of the deadly disease.",
+      "ts": 1788868800000,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘This is not 1945’: General Assembly president gavels open new session aimed at restoring global trust",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168293",
+      "summary": "The UN General Assembly gavelled open its 81st session on Tuesday at UN Headquarters as the incoming president pledged to restore public trust in the institution during a time of war, humanitarian crises and intensifying…",
+      "ts": 1788868800000,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Syria’s transition hinges on justice for all, UN Human Rights Council hears",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168292",
+      "summary": "A successful and lasting transition in Syria requires comprehensive accountability, inclusion and guarantees that violations will not be repeated, UN independent investigators told the Human Rights Council in Geneva on T…",
+      "ts": 1788868800000,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "In Gaza, women-headed households face ‘impossible choices’ to survive",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168291",
       "summary": "In war-torn Gaza, a growing number of women-headed households face “impossible decisions” every day, amid ongoing Israeli airstrikes and still-scarce resources, UN humanitarians said on Tuesday.",
@@ -217,6 +325,15 @@
       "ts": 1788867143000,
       "publishedAt": "2026-09-08T11:32:23.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "ts": 1788867000000,
+      "publishedAt": "2026-09-08T11:30:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -412,6 +529,15 @@
       "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
       "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
       "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "ts": 1788825600000,
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
       "ts": 1788825600000,
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "categoryId": "ai-compute"
@@ -685,132 +811,6 @@
       "ts": 1788753600000,
       "publishedAt": "2026-09-07T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Deep Learning-Driven Peptide Classification in Biological Nanopores",
-      "url": "https://arxiv.org/abs/2509.14029",
-      "summary": "arXiv:2509.14029v2 Announce Type: replace-cross Abstract: Nanopore-based single-molecule sensing is a promising route to fast, low-cost disease diagnosis and protein sequencing: as an analyte such as a peptide or protein…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Collagen and myocyte interplay in cardiac volume overload: a multi-constituent growth and remodeling framework",
-      "url": "https://arxiv.org/abs/2510.11670",
-      "summary": "arXiv:2510.11670v3 Announce Type: replace-cross Abstract: Hearts subjected to volume overload (VO) are prone to detrimental anatomical and functional changes in response to elevated mechanical loading, ultimately leading…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Aletheia: An Offline-First Clinical Decision Support System for Differential Diagnosis in Low-Resource Healthcare Settings",
-      "url": "https://arxiv.org/abs/2607.24814",
-      "summary": "arXiv:2607.24814v3 Announce Type: replace-cross Abstract: Access to specialist clinical expertise remains severely limited across sub-Saharan Africa, where physician-to-patient ratios can fall below 1:25,000 in rural set…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Omega-N: Interpretable Structural Node Descriptors and Their Applicability Domain",
-      "url": "https://arxiv.org/abs/2609.01633",
-      "summary": "arXiv:2609.01633v2 Announce Type: replace-cross Abstract: A composite structural index summarises a network in one number, and for a triangle-based index it is spectrally redundant: Tr(A^3) is the third moment of the adj…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "ts": 1788739200000,
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Not so fast: Diabetes association panel not done reviewing ejections from its June meeting",
-      "url": "https://www.statnews.com/2026/09/06/ada-diabetes-association-ejection-conference-review-not-final/?utm_campaign=rss",
-      "summary": "The American Diabetes Association “continues to move from crisis to crisis to crisis,” says one of five members ejected from June conference.",
-      "ts": 1788736051000,
-      "publishedAt": "2026-09-06T23:07:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Advance safety for all’: International police cooperation helps tackle cross-border crime",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168280",
-      "summary": "As criminal networks increasingly exploit weak institutions and operate across borders, the UN says no police force can tackle them alone.",
-      "ts": 1788696000000,
-      "publishedAt": "2026-09-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New reservoir offers innovative solution to South Sudan cattle beef",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168266",
-      "summary": "At the end of a history-laden path winding through palm trees and scattered ruins – remnants of once-vibrant villages destroyed by cattle raids – lies a rare sight in this dry part of Terekeka county in South Sudan: a sp…",
-      "ts": 1788696000000,
-      "publishedAt": "2026-09-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "OpenAI",
-      "title": "An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind",
-      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-      "ts": 1788685200000,
-      "publishedAt": "2026-09-06T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "ts": 1788681600000,
-      "publishedAt": "2026-09-06T08:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Isar Aerospace achieves first launch to orbit from continental Europe",
-      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/spectrum_launches_to_orbit/27452129-2-eng-GB/Spectrum_launches_to_orbit_card_full.jpg\" alt=\"Spectrum launches to orbit\">",
-      "ts": 1788639840000,
-      "publishedAt": "2026-09-05T20:24:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "NewBiologix and Synastra Join Forces to Advance rAAV Manufacturing for Duchenne Gene Therapy",
-      "url": "https://www.genengnews.com/topics/bioprocessing/newbiologix-and-synastra-join-forces-to-advance-raav-manufacturing-for-duchenne-gene-therapy/",
-      "summary": "The collaboration brings together Synastra’s expertise in genomic engineering, AAV vector design, rare-disease gene therapy, and translational development with NewBiologix’s proprietary cell engineering and rAAV manufact…",
-      "ts": 1788615873000,
-      "publishedAt": "2026-09-05T13:44:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "As wildfires spread north, UN agencies race to help Europe adapt",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168273",
-      "summary": "As the climate warms, the threat of wildfires is spreading in Europe. How can historically cooler and wetter countries prepare?",
-      "ts": 1788609600000,
-      "publishedAt": "2026-09-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Central Park adapts to climate change while helping New York stay cool",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168277",
-      "summary": "In the heart of Manhattan in New York City, the effects of climate change are becoming increasingly visible.",
-      "ts": 1788609600000,
-      "publishedAt": "2026-09-05T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
