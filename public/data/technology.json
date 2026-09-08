@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-09-08T05:51:48.489Z",
+  "updated": "2026-09-08T10:50:37.504Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Roivant lung disease drug hits mid-stage study goals",
+      "url": "https://www.statnews.com/2026/09/08/roivant-mosliciguat-pulmonary-hypertension-interstitial-lung-disease-results/?utm_campaign=rss",
+      "summary": "These positive results could open up a new way to treat serious lung disease.",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Anak Krakatau eruption by Sentinel-3",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Anak_Krakatau_eruption_by_Sentinel-3",
+      "summary": "Image: Copernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September.",
+      "ts": 1788857100000,
+      "publishedAt": "2026-09-08T08:45:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Reynolds is selling fruity new vapes unauthorized by FDA",
+      "url": "https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized/?utm_campaign=rss",
+      "summary": "The decision to move ahead with new products in the absence of FDA authorization could spur other big manufacturers to do the same, one tobacco-nicotine expert said.",
+      "ts": 1788856200000,
+      "publishedAt": "2026-09-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "A breakthrough pancreatic cancer drug won approval. They still struggle to access it",
+      "url": "https://www.statnews.com/2026/09/08/pancreatic-cancer-patients-caught-beween-fda-drug-approval-insurance-coverage/?utm_campaign=rss",
+      "summary": "When the FDA approved a new pancreatic cancer drug called Rasonque, researchers celebrated. But some patients hoping for quick access have been stymied.",
+      "ts": 1788856200000,
+      "publishedAt": "2026-09-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms",
+      "url": "https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all/?utm_campaign=rss",
+      "summary": "Katherine Clark, a top House Democrat, received more than $100,000 in campaign donations from people linked to UnitedHealth Group.",
+      "ts": 1788856200000,
+      "publishedAt": "2026-09-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: It’s time to take the gloves off during vaccination",
+      "url": "https://www.statnews.com/2026/09/08/flu-vaccination-season-gloves-waste-climate-changes/?utm_campaign=rss",
+      "summary": "Most of the time, it’s unnecessary to use gloves to administer a flu shot, write Cassandra Thiel and Preeti Jaggi.",
+      "ts": 1788856200000,
+      "publishedAt": "2026-09-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a fat medical student. I refuse to let myself be shamed for it",
+      "url": "https://www.statnews.com/2026/09/08/fat-medical-student-inclusivity-advocacy-health-at-any-size-physician/?utm_campaign=rss",
+      "summary": "“As a medical student in a larger body, I have often been ostracized, othered, made to feel different, like I’ve invaded a secret society of thin people.”",
+      "ts": 1788856200000,
+      "publishedAt": "2026-09-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Hospitals pursue deals to ensure survival as Trump’s Medicaid cuts loom",
+      "url": "https://www.statnews.com/2026/09/08/rural-hospital-mergers-medicaid-cuts-part-3-unraveled-series/?utm_campaign=rss",
+      "summary": "Rural health systems are seeking partnership to survive, fueling a debate over competition and the rising cost of medical care.",
+      "ts": 1788856200000,
+      "publishedAt": "2026-09-08T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Neuromuscular drug from Novartis fails in key study, adding to pressure on company",
+      "url": "https://www.statnews.com/2026/09/08/novartis-del-desiran-myotonic-dystrophy-harbor-trial-failure-neuromuscular/?utm_campaign=rss",
+      "summary": "A Novartis drug for a rare neuromuscular condition failed in a key study, the company's second major trial collapse in a matter of days.",
+      "ts": 1788852535000,
+      "publishedAt": "2026-09-08T07:28:55.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 September 8 – Hubble: Decagon Around Saturn’s South Pole",
@@ -19,6 +100,24 @@
       "ts": 1788840060000,
       "publishedAt": "2026-09-08T04:01:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Quasi-ballistic ion transport boosts evaporation-driven electricity generation",
+      "url": "https://www.nature.com/articles/s41560-026-02142-2",
+      "summary": "",
+      "ts": 1788825600000,
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Applying causal machine learning to assess and improve cleantech policy design",
+      "url": "https://www.nature.com/articles/s41560-026-02134-2",
+      "summary": "",
+      "ts": 1788825600000,
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -709,105 +808,6 @@
       "title": "Enhancer-promoter proximity predicts transcriptional competence but not transcriptional output in the Drosophila brain",
       "url": "https://arxiv.org/abs/2609.03058",
       "summary": "arXiv:2609.03058v1 Announce Type: new Abstract: How 3D genome architecture contributes to transcriptional specificity across neuronal cell types remains unclear. Here, we used multiplexed chromatin tracing to map chromat…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An Integrative Computational Approach to Predict Viral Epitopes by Targeting the MHC-TCR Complexation",
-      "url": "https://arxiv.org/abs/2609.03182",
-      "summary": "arXiv:2609.03182v1 Announce Type: new Abstract: T-cell immunity acts as a major defense system against controlling viral infections in vertebrates. During viral entry, innate immune cells degrade the viral proteins (anti…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Coarse-Graining Agent-Based Models of Bacterial Infections",
-      "url": "https://arxiv.org/abs/2609.03212",
-      "summary": "arXiv:2609.03212v1 Announce Type: new Abstract: Agent-based models (ABMs) provide a natural framework for representing cell-level rules and spatial heterogeneity in bacterial infections, but their computational cost limi…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structural control over equilibrium silicon and oxygen isotopic fractionation: A first-principles density-functional theory study",
-      "url": "https://arxiv.org/abs/2609.03486",
-      "summary": "arXiv:2609.03486v1 Announce Type: new Abstract: Isotopic fractionation factors for oxygen and silicon in selected silicates (quartz, enstatite, forsterite, lizardite, kaolinite) have been calculated using first-principle…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Identification of Biological Stains at Crime Scenes: A Promising Role for Proteomics and Machine Learning",
-      "url": "https://arxiv.org/abs/2609.03521",
-      "summary": "arXiv:2609.03521v1 Announce Type: new Abstract: Forensic body fluid identification is crucial for reconstructing crime scene events. While DNA analysis provides individualization, it lacks information about the fluid's o…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling Tissue Detachment and Rupture Using an Extended Vertex Model with T2-inverse Transitions",
-      "url": "https://arxiv.org/abs/2609.03691",
-      "summary": "arXiv:2609.03691v1 Announce Type: new Abstract: The vertex model is widely used to describe the mechanics of epithelial tissues, but its conventional formulation assumes that all cells remain tightly packed and always sh…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "High-Order Triadic Functional Connectivity in the Brain and Beyond",
-      "url": "https://arxiv.org/abs/2609.03987",
-      "summary": "arXiv:2609.03987v1 Announce Type: new Abstract: Here, we report high-order functional network connectivity as a promising way for studying the brain connectome. Traditional functional connectivity approaches capture only…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Axonal delay dispersion decides whether a neuron detects an event or a sequence, and predicts cortical column diameter",
-      "url": "https://arxiv.org/abs/2609.04195",
-      "summary": "arXiv:2609.04195v1 Announce Type: new Abstract: Cortical neurons fire sparsely -- often fewer than one spike per sensory window -- making rate coding insufficient and temporal coding a necessity. That conduction delays c…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Enumerating Chemical Structures, Stereoisomers, and Stereogenic Units with Analytic Combinatorics",
-      "url": "https://arxiv.org/abs/2609.02932",
-      "summary": "arXiv:2609.02932v1 Announce Type: cross Abstract: The enumeration of chemical structures traditionally relies on graph- and group-theoretic techniques, including P\\'olya theory, in order to account for stereochemical sym…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Tensor-based Brain Surface Modeling and Analysis",
-      "url": "https://arxiv.org/abs/2609.03302",
-      "summary": "arXiv:2609.03302v1 Announce Type: cross Abstract: We present a unified computational approach to tensor-based morphometry in detecting the brain surface shape differences between two clinical groups based on magnetic res…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Large-Language Models as a Cognitive Virus",
-      "url": "https://arxiv.org/abs/2609.03344",
-      "summary": "arXiv:2609.03344v1 Announce Type: cross Abstract: Large-language models (LLMs) are rapidly becoming part of human culture, reshaping how information is produced, transmitted, and used. Here we propose that their diffusio…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
-      "url": "https://arxiv.org/abs/2609.03377",
-      "summary": "arXiv:2609.03377v1 Announce Type: cross Abstract: Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional struct…",
       "ts": 1788494400000,
       "publishedAt": "2026-09-04T04:00:00.000Z",
       "categoryId": "bio"

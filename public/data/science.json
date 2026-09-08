@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-08T05:51:45.224Z",
+  "updated": "2026-09-08T10:50:33.905Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Kauai on tornado watch as Hurricane Lowell nears Hawaiian Islands",
+      "url": "https://phys.org/news/2026-09-kauai-tornado-hurricane-lowell-nears.html",
+      "summary": "Residents of Kauai were warned to watch for tornadoes late Monday as Hurricane Lowell edged toward the westernmost Hawaiian Islands in the U.S. Pacific island chain, the National Weather Service said.",
+      "ts": 1788858601000,
+      "publishedAt": "2026-09-08T09:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Melting Svalbard glaciers may flush ancient methane from rocks beneath the ice",
+      "url": "https://phys.org/news/2026-09-svalbard-glaciers-flush-ancient-methane.html",
+      "summary": "Meltwater rivers flowing from Svalbard glaciers are carrying ancient methane from rocks beneath the ice into the open air, new research published in Nature Communications shows.",
+      "ts": 1788858011000,
+      "publishedAt": "2026-09-08T09:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Super-resolution imaging reveals that cohesin prevents local mixing of compact, active genome domains",
+      "url": "https://phys.org/news/2026-09-super-resolution-imaging-reveals-cohesin.html",
+      "summary": "The human genome is about two meters (6.6 feet) long, yet it is folded inside a cell nucleus only about 10 micrometers in diameter. To fit into this tiny space, DNA is wrapped around histone proteins to form nucleosomes,…",
+      "ts": 1788858009000,
+      "publishedAt": "2026-09-08T09:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Praying for rain as fires, haze plague Indonesian Borneo",
+      "url": "https://phys.org/news/2026-09-praying-haze-plague-indonesian-borneo.html",
+      "summary": "Wildfires ravaging the Indonesian part of Borneo are choking communities as far away as Malaysia with putrid haze, testing the resources and resolve of those who must endure it.",
+      "ts": 1788858006000,
+      "publishedAt": "2026-09-08T09:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Worm's radical transformation shows metamorphosis can change the functions of cells",
+      "url": "https://phys.org/news/2026-09-worm-radical-metamorphosis-functions-cells.html",
+      "summary": "A squishy worm that starts its life as something of a floating head in the Pacific Ocean is changing what scientists know about metamorphosis at the cellular level.",
+      "ts": 1788858004000,
+      "publishedAt": "2026-09-08T09:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI model decodes cell signaling fingerprints across diverse cell types",
+      "url": "https://phys.org/news/2026-09-ai-decodes-cell-fingerprints-diverse.html",
+      "summary": "As an embryo develops from a small cluster of stem cells, those once \"blank slate\" cells begin to take on more specialized roles like brain, liver or muscle cells and organize themselves into three-dimensional structures…",
+      "ts": 1788858003000,
+      "publishedAt": "2026-09-08T09:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rearranged polymer chains create degradable materials with potential for stronger, tougher packaging",
+      "url": "https://phys.org/news/2026-09-rearranged-polymer-chains-degradable-materials.html",
+      "summary": "What if the key to making stronger, more sustainable plastics isn't changing their ingredients, but rearranging their molecules? Virginia Tech researchers have put that idea to the test, creating degradable polymers with…",
+      "ts": 1788858001000,
+      "publishedAt": "2026-09-08T09:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How beavers can help create fire breaks as part of a drought preparation plan",
@@ -743,62 +799,6 @@
       "title": "Coherent-structure dynamics in wall turbulence from state-space trajectories",
       "url": "https://arxiv.org/abs/2609.04515",
       "summary": "arXiv:2609.04515v1 Announce Type: new Abstract: We identify dynamical processes in the near-wall region of turbulent wall-bounded flow by representing coherent-structure energy as trajectories in a low-dimensional state …",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quasi-Two-Dimensional Simulation of a Rotating Detonation Engine Combustor and Injector",
-      "url": "https://arxiv.org/abs/2609.04519",
-      "summary": "arXiv:2609.04519v1 Announce Type: new Abstract: A numerical simulation of an annular rotating detonation engine with stoichiometric hydrogen-oxygen is performed. A generic, well posed, and easily implemented approach usi…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Crowding controls the scaling of bus frequency with demand",
-      "url": "https://arxiv.org/abs/2609.04520",
-      "summary": "arXiv:2609.04520v1 Announce Type: new Abstract: Cities must allocate limited resources to maintain mobility, with uncertainties about the resulting state of the system. Analyzing roughly 3,000 bus routes with more than 4…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Memory-Dependent Neural Network Correlation Potentials for Accurate Electron Dynamics",
-      "url": "https://arxiv.org/abs/2609.04527",
-      "summary": "arXiv:2609.04527v1 Announce Type: new Abstract: Time-dependent density functional theory, though exact in theory, is in practice applied in an adiabatic approximation using exchange-correlation functionals with only loca…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lagrangian dynamics unveil polymer conformation in viscoelastic flows",
-      "url": "https://arxiv.org/abs/2609.04538",
-      "summary": "arXiv:2609.04538v1 Announce Type: new Abstract: The complex flow behavior of viscoelastic fluids emerges from a feedback between fluid stress and the out-of-equilibrium conformational dynamics of their constituent polyme…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Assessing the effect of error field penetration during plasma current ramp-up in the DIII-D tokamak",
-      "url": "https://arxiv.org/abs/2609.04546",
-      "summary": "arXiv:2609.04546v1 Announce Type: new Abstract: This work provides evidence that established error field penetration threshold scalings remain applicable during plasma current ramp-up. In dedicated DIII-D experiments wit…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "X-ray photoelectron spectroscopy of Ar and Kr clusters formed in He nanodroplets",
-      "url": "https://arxiv.org/abs/2609.04553",
-      "summary": "arXiv:2609.04553v1 Announce Type: new Abstract: We report the first soft x-ray photoelectron spectroscopy (XPS) measurements of Ar and Kr clusters formed inside superfluid helium nanodroplets (HNDs) through consecutive p…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When a high-mountain slope failure cascades downstream: reconstructing the 26 August 2026 Gyirong mixed rock-ice disaster",
-      "url": "https://arxiv.org/abs/2609.04563",
-      "summary": "arXiv:2609.04563v1 Announce Type: new Abstract: On 26 August 2026, a high-elevation slope failure involving rock and glacier ice near the China--Nepal border developed into a channelised mass-flow and flood cascade that …",
       "ts": 1788753600000,
       "publishedAt": "2026-09-07T04:00:00.000Z"
     }
