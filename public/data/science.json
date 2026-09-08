@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-07T22:37:03.805Z",
+  "updated": "2026-09-08T00:59:36.046Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Early Earth's auroral belts may have formed a natural ion-beam reactor for prebiotic chemistry",
+      "url": "https://phys.org/news/2026-09-early-earth-auroral-belts-natural.html",
+      "summary": "We usually think of auroras as beautiful lights in the night sky. I see them as visible traces of a connection between the sun, Earth's magnetic field and the atmosphere. This led me to an origin-of-life question: Could …",
+      "ts": 1788828004000,
+      "publishedAt": "2026-09-08T00:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crime is falling—but the public doesn't feel safer, UK study finds",
+      "url": "https://phys.org/news/2026-09-crime-falling-doesnt-safer-uk.html",
+      "summary": "Crime levels are falling for most offenses across the UK—but the public doesn't necessarily feel safer. It's a human trait to focus on frightening information in the news or on social media—but it could also mean that pe…",
+      "ts": 1788825601000,
+      "publishedAt": "2026-09-08T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How Indigenous Protected Areas became a vital way to protect nature in Australia",
+      "url": "https://phys.org/news/2026-09-indigenous-areas-vital-nature-australia.html",
+      "summary": "When you think of conservation in Australia, chances are you'll think of a national park.",
+      "ts": 1788823201000,
+      "publishedAt": "2026-09-07T23:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Park rangers and residents speak up to save Togo's last national park",
@@ -775,30 +799,6 @@
       "title": "Cartesian isotropic tensors revisited",
       "url": "https://arxiv.org/abs/2609.04576",
       "summary": "arXiv:2609.04576v1 Announce Type: new Abstract: An alternative, streamlined methodology is presented for deriving the isotropic Cartesian tensor bases under the special orthogonal group $\\text{SO}(3)$. By shifting the tr…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Band Gaps and Localization of Surface Waves at Hyperbolic Material and Topological Insulator Interfaces",
-      "url": "https://arxiv.org/abs/2609.04587",
-      "summary": "arXiv:2609.04587v1 Announce Type: new Abstract: We develop analytical criteria for surface electromagnetic waves at interfaces between hyperbolic materials and topological insulators. The analysis identifies propagation …",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transport fidelity and domain of validity of compact Gaussian kinetic representations for rarefied flows",
-      "url": "https://arxiv.org/abs/2609.04606",
-      "summary": "arXiv:2609.04606v1 Announce Type: new Abstract: Compact representations of rarefied flows must retain nonequilibrium transport information while identifying their range of validity. We investigate a common localized-Gaus…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elastic turbulence in straight confined geometries",
-      "url": "https://arxiv.org/abs/2609.04617",
-      "summary": "arXiv:2609.04617v1 Announce Type: new Abstract: Elastic turbulence (ET) in straight geometries has been extensively studied in idealised configurations such as periodic shear and planar channel flow, yet experiments are …",
       "ts": 1788753600000,
       "publishedAt": "2026-09-07T04:00:00.000Z"
     }
