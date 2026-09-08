@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-09-08T14:58:35.205Z",
+  "updated": "2026-09-08T18:30:41.157Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Targeted Lentiviral Delivery Without Vector Reengineering",
+      "url": "https://www.genengnews.com/sponsored/targeted-lentiviral-delivery-without-vector-reengineering/",
+      "summary": "Rather than requiring genetic modification of the viral glycoprotein, G-Link uses a modular protein adaptor to blind native VSV-G tropism and redirect delivery after vector production. The post Targeted Lentiviral Delive…",
+      "ts": 1788890337000,
+      "publishedAt": "2026-09-08T17:58:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA warns an API supplier about residue on walls, a corroded product line, and open-toed sandals",
+      "url": "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/?utm_campaign=rss",
+      "summary": "The FDA warned a supplier of active pharma ingredients about residue on walls, a corroded product line, and open-toed sandals at its facility. It also included photos.",
+      "ts": 1788889139000,
+      "publishedAt": "2026-09-08T17:38:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Superbubble in the Large Magellanic Cloud",
+      "url": "https://www.nasa.gov/image-article/superbubble-in-the-large-magellanic-cloud/",
+      "summary": "NASA’s Hubble Space Telescope captures a photogenic nebula, N44, in the Large Magellanic Cloud in this Sept. 3, 2026, image. N44 is dominated by two features: a vast central void and a shell of dense, dusty gas. The cent…",
+      "ts": 1788886155000,
+      "publishedAt": "2026-09-08T16:49:15.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ProBioGen Grants Transgene Additional License for AGE1.CR.pIX Cell Line",
+      "url": "https://www.genengnews.com/topics/bioprocessing/probiogen-grants-transgene-additional-license-for-age1-cr-pix-cell-line/",
+      "summary": "ProBioGen’s AGE1.CR.pIX is a stable proliferating avian cell line derived from duck embryo primary cells. It was developed as an alternative to the use of chicken eggs for large-scale vaccine production. The post ProBioG…",
+      "ts": 1788884449000,
+      "publishedAt": "2026-09-08T16:20:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Anticancer Candidate Strengthens Bones and Prevents Weight Gain in Postmenopausal Mice",
+      "url": "https://www.genengnews.com/topics/drug-discovery/anticancer-candidate-strengthens-bones-and-prevents-weight-gain-in-postmenopausal-mice/",
+      "summary": "A preclinical study in post-menopausal bone loss mouse models found that CADD522, a small-molecule drug targeting RUNX2, protected against osteoporosis, prevented fat gain, and reversed some of the metabolic changes link…",
+      "ts": 1788882484000,
+      "publishedAt": "2026-09-08T15:48:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Regenerative Medicine in the Bronze Age: MSCs and MSC-EVs Leading the Way",
+      "url": "https://www.genengnews.com/sponsored/regenerative-medicine-in-the-bronze-age-mscs-and-msc-evs-leading-the-way/",
+      "summary": "The field of regenerative medicine is gaining momentum. Mesenchymal stem cells (MSCs) remain central to this field, with expanding applications as direct therapies and as producers of MSC-derived extracellular vesicles (…",
+      "ts": 1788881299000,
+      "publishedAt": "2026-09-08T15:28:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Technique for Manipulating Satellite Photos Now Reveals Ancient Images  ",
+      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-technique-for-manipulating-satellite-photos-now-reveals-ancient-images/",
+      "summary": "Algorithm NASA first applied to satellite imagery is now used to peer into antiquity",
+      "ts": 1788880556000,
+      "publishedAt": "2026-09-08T15:15:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "RNAV8 Bio Joins ARPA-H Team to Pioneer Programmable RNA Medicines",
+      "url": "https://www.genengnews.com/topics/omics/rnav8-bio-joins-arpa-h-team-to-pioneer-programmable-rna-medicines/",
+      "summary": "The PROPEL program aims to control gene expression through RNA structure, building logic-gated RNA therapies that switch on only where and when intended, without altering the genome. The post RNAV8 Bio Joins ARPA-H Team …",
+      "ts": 1788879562000,
+      "publishedAt": "2026-09-08T14:59:22.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: UnitedHealth’s Democrat investment, and surprise billing bloat debate",
@@ -40,7 +112,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Oura goes public, reported $1.2B earnings in its last fiscal year",
+      "title": "STAT+: Oura files to goes public, reported $1.2B in earnings",
       "url": "https://www.statnews.com/2026/09/08/health-tech-newsletter-oura-goes-public-reports-profitability/?utm_campaign=rss",
       "summary": "In health tech news today, Oura reports a profit, the FDA loses another key digital health leader, and more",
       "ts": 1788877121000,
@@ -55,6 +127,24 @@
       "ts": 1788876571000,
       "publishedAt": "2026-09-08T14:09:31.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "1,000 Museum Visitors Dive Into NASA Sea Level Science on World Ocean Day",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/",
+      "summary": "More than 1,000 visitors explored NASA sea level science firsthand during World Ocean Day at the University of Georgia Aquarium on Skidaway Island on June 6, 2026.",
+      "ts": 1788876412000,
+      "publishedAt": "2026-09-08T14:06:52.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+      "summary": "For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system, Trans-Neptunian Objects (TNOs). Some of these are the s…",
+      "ts": 1788876028000,
+      "publishedAt": "2026-09-08T14:00:28.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -201,6 +291,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Roivant lung disease drug hits mid-stage study goals",
       "url": "https://www.statnews.com/2026/09/08/roivant-mosliciguat-pulmonary-hypertension-interstitial-lung-disease-results/?utm_campaign=rss",
@@ -208,6 +307,15 @@
       "ts": 1788861600000,
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "ts": 1788858000000,
+      "publishedAt": "2026-09-08T09:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "ESA",
@@ -703,114 +811,6 @@
       "ts": 1788609600000,
       "publishedAt": "2026-09-05T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 365 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-365-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1788604982000,
-      "publishedAt": "2026-09-05T10:43:02.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What STAT readers think about M.D. vs. D.O., AI in medicine, surrogacy, and more",
-      "url": "https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor/?utm_campaign=rss",
-      "summary": "“A click, signature, or brief review should not magically transfer responsibility from an AI developer or platform to a physician,” a reader tells STAT.",
-      "ts": 1788597000000,
-      "publishedAt": "2026-09-05T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 5 – Chasing the Moon’s Shadow",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow/",
-      "summary": "APOD Science APOD APOD: 2026 September 5 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
-      "ts": 1788581100000,
-      "publishedAt": "2026-09-05T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Novartis’ experimental cardiovascular drug fails a pivotal study",
-      "url": "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/?utm_campaign=rss",
-      "summary": "A closely watched cardiovascular drug from Novartis failed in a pivotal study, the company said Friday, a major blow to the firm.",
-      "ts": 1788556047000,
-      "publishedAt": "2026-09-04T21:07:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Ames Fire Department Aircraft Firefighting Training",
-      "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/",
-      "summary": "The fire department at NASA’s Ames Research Center in California’s Silicon Valley will perform training on the Moffett Federal Airfield beginning Tuesday, Sept. 8 through Friday, Sept. 11. The training will involve the u…",
-      "ts": 1788551516000,
-      "publishedAt": "2026-09-04T19:51:56.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Architecting memory and storage in the AI era",
-      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of com…",
-      "ts": 1788547159000,
-      "publishedAt": "2026-09-04T18:39:19.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Medicines Discovery Catapult Backs Two U.K. Biotech Companies Tackling Chronic Diseases",
-      "url": "https://www.genengnews.com/topics/drug-discovery/medicines-discovery-catapult-backs-two-u-k-biotech-companies-tackling-chronic-diseases/",
-      "summary": "Medicines Discovery Catapult provided its investment and expert support to help two biotech companies accelerate the development of new treatments for a range of autoimmune, inflammatory, and age-related diseases. The po…",
-      "ts": 1788542912000,
-      "publishedAt": "2026-09-04T17:28:32.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Micro-Bladder Model Demonstrates How Phage Therapy Could Help to Reduce Recurrent UTIs",
-      "url": "https://www.genengnews.com/topics/translational-medicine/micro-bladder-model-demonstrates-how-phage-therapy-could-help-to-reduce-recurrent-utis/",
-      "summary": "Researchers used a novel human 3D micro-bladder model to demonstrate how phage therapy could help to reduce recurrent urinary tract infections (UTIs) by attacking the reservoirs of bacteria hidden deep within the bladder…",
-      "ts": 1788541962000,
-      "publishedAt": "2026-09-04T17:12:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "C. difficile Have Lasting Effects on the Infant Gut, Challenging Long-Held Assumption",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/c-difficile-have-lasting-effects-on-the-infant-gut-challenging-long-held-assumption/",
-      "summary": "A new study from CHOP challenges the assumption that infant C. difficile colonization is harmless, finding that it can reshape the developing gut and immune system with potentially lasting health effects. The post <i>C. …",
-      "ts": 1788540946000,
-      "publishedAt": "2026-09-04T16:55:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Hosts Virtual Artemis Webinar for Blind, Low-Vision Community",
-      "url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
-      "summary": "NASA will host a virtual webinar at 2 p.m. EDT on Friday, Oct. 2, titled “The RS-25 Engine and the Future of Artemis Missions: An Accessible Webinar for the Blind and Low-Vision Community.” This webinar is open to the pu…",
-      "ts": 1788540539000,
-      "publishedAt": "2026-09-04T16:48:59.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Top Boston hospitals clash over Medicare Advantage network after split",
-      "url": "https://www.statnews.com/2026/09/04/mass-general-brigham-medicare-advantage-network-cancer-treatment-dana-farber/?utm_campaign=rss",
-      "summary": "First, Mass General Brigham split with Dana-Farber. Now its Medicare Advantage plan is dropping the cancer hospital.",
-      "ts": 1788537904000,
-      "publishedAt": "2026-09-04T16:05:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: After failure of Angelman syndrome drug, experts see hope in other experimental therapies",
-      "url": "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss",
-      "summary": "After the failure of an experimental drug for Angelman syndrome, experts cautioned that there is still reason to think similar experimental medicines can succeed.",
-      "ts": 1788536082000,
-      "publishedAt": "2026-09-04T15:34:42.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

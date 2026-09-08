@@ -1,7 +1,207 @@
 {
   "ok": true,
-  "updated": "2026-09-08T14:58:33.063Z",
+  "updated": "2026-09-08T18:30:37.835Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New iron-bearing compounds could store water near Earth's core",
+      "url": "https://phys.org/news/2026-09-iron-compounds-earth-core.html",
+      "summary": "Geochemical studies of volcanic rocks from Baffin Island, Canada, and Iceland suggest that some of the water dating back to Earth's formation may still be preserved deep within the planet. However, it has remained unclea…",
+      "ts": 1788891604000,
+      "publishedAt": "2026-09-08T18:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "In Nepal, climate adaptation starts with what communities already know",
+      "url": "https://phys.org/news/2026-09-nepal-climate-communities.html",
+      "summary": "The catastrophic flood along the Nepal–China border that killed more than 1,400 people and left nearly 6,000 people missing devastated communities and infrastructure and renewed questions about how Himalayan countries pr…",
+      "ts": 1788891601000,
+      "publishedAt": "2026-09-08T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change may erase 25 million hectares of kelp forests by 2050",
+      "url": "https://phys.org/news/2026-09-climate-erase-million-hectares-kelp.html",
+      "summary": "Climate change is driving rapid declines in seaweed forests globally, outpacing restoration efforts and undermining seaweed restoration as a viable carbon dioxide removal strategy, according to an essay by Karen Filbee-D…",
+      "ts": 1788890408000,
+      "publishedAt": "2026-09-08T18:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study reveals another reason to save the world's trees",
+      "url": "https://phys.org/news/2026-09-reveals-world-trees.html",
+      "summary": "All over the world, from Oregon's old-growth forests to Queensland's eucalyptus groves, creatures depend on trees for shelter. A new analysis from the University of Illinois Urbana-Champaign suggests that as the climate …",
+      "ts": 1788890406000,
+      "publishedAt": "2026-09-08T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why should we care if there aren't any squished insects on our windshield?",
+      "url": "https://phys.org/news/2026-09-squished-insects-windshield.html",
+      "summary": "This summer, you may have wondered why you are seeing so few insects squished on your car's windshield compared with a road trip several years ago.",
+      "ts": 1788889203000,
+      "publishedAt": "2026-09-08T17:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bear baiting in England became more common following Norman invasion, research reveals",
+      "url": "https://phys.org/news/2026-09-baiting-england-common-norman-invasion.html",
+      "summary": "Bear baiting in England became more popular after the Norman Conquest in 1066, new research shows. The study by Cardiff University and the University of Nottingham brings together archaeological analysis of bear bones an…",
+      "ts": 1788889201000,
+      "publishedAt": "2026-09-08T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Male beauty ratings reveal lower averages but an exceptional upper tier",
+      "url": "https://phys.org/news/2026-09-male-beauty-reveal-averages-exceptional.html",
+      "summary": "Women's faces are rated as more attractive than men's across cultures, age groups and sexual orientations. This effect, known as the \"Gender Attractiveness Gap\" (GAP), was recently demonstrated in a large-scale study led…",
+      "ts": 1788888003000,
+      "publishedAt": "2026-09-08T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study predicts large disparities in access to food, water and energy in 2050",
+      "url": "https://phys.org/news/2026-09-large-disparities-access-food-energy.html",
+      "summary": "How will global access to food, water and energy evolve in coming decades? A new study coauthored by MIT researchers suggests the answers could be very different depending on region, resource and income.",
+      "ts": 1788888001000,
+      "publishedAt": "2026-09-08T17:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plants' response to rising CO₂ could put the brakes on dryland expansion",
+      "url": "https://phys.org/news/2026-09-response-dryland-expansion.html",
+      "summary": "Drylands are defined as regions where rainfall is low relative to the atmosphere's ability to draw water from soil and plants. Expanding boundaries of these regions are frequent concerns in climate change considerations.…",
+      "ts": 1788887402000,
+      "publishedAt": "2026-09-08T17:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat waves inhibit antibiotic resistance in soils, but at a price",
+      "url": "https://phys.org/news/2026-09-inhibit-antibiotic-resistance-soils-price.html",
+      "summary": "Extreme heat waves disrupt life in soil. Soil bacteria that produce and resist antibiotics switch into survival mode, temporarily reducing the number of resistance genes. At the same time, heat and drought are causing si…",
+      "ts": 1788886808000,
+      "publishedAt": "2026-09-08T17:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Arthropods inspire interdisciplinary solutions to global challenges, initiative shows",
+      "url": "https://phys.org/news/2026-09-arthropods-interdisciplinary-solutions-global.html",
+      "summary": "Arthropods are small, but they could play an outsized role in tackling some of the world's biggest challenges.",
+      "ts": 1788886806000,
+      "publishedAt": "2026-09-08T17:00:06.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A choir of katydid ancestors filled the Jurassic rainforest with song",
+      "url": "https://www.sciencenews.org/article/hear-insect-ancestors-jurassic-sound",
+      "summary": "An analysis of sound-making structures on preserved wings reveals the mating calls of ancient Jurassic insects, re-creating part of an ancient soundscape.",
+      "ts": 1788886800000,
+      "publishedAt": "2026-09-08T17:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beyond the sea walls: Underwater archaeology reveals the hidden scale of ancient Mediterranean ports",
+      "url": "https://phys.org/news/2026-09-sea-walls-underwater-archaeology-reveals.html",
+      "summary": "Trade routes and ports have shaped the history of human civilization, with the Mediterranean network among the most prominent and influential. Yet our understanding of its past is shaped largely by what remains visible o…",
+      "ts": 1788885606000,
+      "publishedAt": "2026-09-08T16:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "World's most endangered tigers born in Greece as zoos build a safety net",
+      "url": "https://phys.org/news/2026-09-world-endangered-tigers-born-greece.html",
+      "summary": "The world's most endangered tigers have started a family in Greece, offering hope for a predator rapidly vanishing from the wild.",
+      "ts": 1788885601000,
+      "publishedAt": "2026-09-08T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New way to harness copper makes antibiotic-resistant bacteria and cancer cells more vulnerable",
+      "url": "https://phys.org/news/2026-09-harness-copper-antibiotic-resistant-bacteria.html",
+      "summary": "University of Missouri researchers have discovered a new way to harness one of the body's natural defenses: copper. While copper is essential for life and helps power important biological processes, having too much of it…",
+      "ts": 1788884412000,
+      "publishedAt": "2026-09-08T16:20:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quiet black holes with a stellar companion raise questions about how they form",
+      "url": "https://phys.org/news/2026-09-quiet-black-holes-stellar-companion.html",
+      "summary": "Active black holes are easy to detect. Their superheated accretion disks emit bright X-rays, and the jets streaming from their poles are easily seen at visible and radio wavelengths. But most stellar-mass black holes are…",
+      "ts": 1788884401000,
+      "publishedAt": "2026-09-08T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hubble and Webb find that far-out solar system objects 'remember' the past",
+      "url": "https://phys.org/news/2026-09-hubble-webb-solar.html",
+      "summary": "For the first time, scientists used the combined power of NASA's Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system, trans-Neptunian objects (TNOs). Some are the smalles…",
+      "ts": 1788883513000,
+      "publishedAt": "2026-09-08T16:05:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fresh laundry scent leads to higher spending on second-hand clothes, study finds",
+      "url": "https://phys.org/news/2026-09-fresh-laundry-scent-higher.html",
+      "summary": "The scent of fresh laundry in a store encourages people to spend more on secondhand clothes than the scent of citrus or the typical scent of secondhand clothes does. This is according to research by psychologists Matteo …",
+      "ts": 1788883201000,
+      "publishedAt": "2026-09-08T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Interstellar visitor 3I/ATLAS carries clues from the frozen outskirts of another star system",
+      "url": "https://phys.org/news/2026-09-interstellar-visitor-3iatlas-clues-frozen.html",
+      "summary": "UK astronomers have uncovered new clues about the origin of 3I/ATLAS—only the third known object from beyond the solar system ever spotted. In a new paper published in Monthly Notices of the Royal Astronomical Society, r…",
+      "ts": 1788882601000,
+      "publishedAt": "2026-09-08T15:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pumping antibiotics out: A new route to bacterial drug resistance",
+      "url": "https://phys.org/news/2026-09-antibiotics-route-bacterial-drug-resistance.html",
+      "summary": "Bacteria can survive antibiotics in several ways, including by pumping the drugs out of their cells before they can take effect. Researchers at the University of Osaka have discovered a previously unknown mechanism that …",
+      "ts": 1788882004000,
+      "publishedAt": "2026-09-08T15:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Current events: Scientists keep close eye on Atlantic Ocean changes",
+      "url": "https://phys.org/news/2026-09-current-events-scientists-eye-atlantic.html",
+      "summary": "The year is 2060. London shudders through months of Nordic winter freezes. Across northern Europe, oak and beech forests wither under severe frost and drought, while cereal yields collapse from temperatures plunging as l…",
+      "ts": 1788882002000,
+      "publishedAt": "2026-09-08T15:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do black holes grow along with the universe? A new study says yes",
+      "url": "https://phys.org/news/2026-09-black-holes-universe.html",
+      "summary": "We know the universe is constantly expanding. We also know that gravitationally bound objects, such as solar systems and black holes, seem to be immune to that expansion. But a new paper by theoretical physicists Valerio…",
+      "ts": 1788880804000,
+      "publishedAt": "2026-09-08T15:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "ALMA watches a massive binary assemble in real time",
+      "url": "https://phys.org/news/2026-09-alma-massive-binary-real.html",
+      "summary": "Using the Atacama Large Millimeter/submillimeter Array (ALMA), astronomers have captured one of the most detailed three-dimensional views yet of a massive binary star system while it is still being born. By tracking the …",
+      "ts": 1788880802000,
+      "publishedAt": "2026-09-08T15:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Eggshells-inspired aluminum material offers significant protection from space debris",
+      "url": "https://phys.org/news/2026-09-eggshells-aluminum-material-significant-space.html",
+      "summary": "There are nearly 1 million pieces of debris larger than 1 centimeter (0.4 inch) in near-Earth orbit. As we continue launching spacecraft and telescopes to explore the universe, this debris poses a significant threat of h…",
+      "ts": 1788879606000,
+      "publishedAt": "2026-09-08T15:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ask an expert: How to talk to children about 9/11",
+      "url": "https://phys.org/news/2026-09-expert-children.html",
+      "summary": "For millions of Americans, Sept. 11, 2001, is a vivid memory. For younger generations, it's a history lesson.",
+      "ts": 1788879604000,
+      "publishedAt": "2026-09-08T15:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A new game demonstrates quantum advantage with provable classical limits",
@@ -185,6 +385,150 @@
       "summary": "While most Australians assume the ivory trade ended decades ago, Adelaide University research has found an active collectors' market exists online, with most listings showing no proof that the items are legal.",
       "ts": 1788865201000,
       "publishedAt": "2026-09-08T11:00:01.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Exponentially Enhanced Two-Mode Multiboson Entanglement via Phase-Modulated Tunneling",
+      "url": "http://link.aps.org/doi/10.1103/mxnp-zvth",
+      "summary": "Author(s): Pritam Chattopadhyay, Abraham G. Kofman, and Gershon Kurizki The entanglement of quantum systems is commonly restricted by their coupling Hamiltonian and initial state properties. Here, we prove by exact analy…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Parent Hamiltonian and Intrinsic Phase Transition in Non-Hermitian Photonic Systems",
+      "url": "http://link.aps.org/doi/10.1103/7ly2-g3bh",
+      "summary": "Author(s): Yuntao Xiao, Yuchen Guo, Xiaojian Huang, Huixia Gao, Dengke Qu, Lei Xiao, Kunkun Wang, Shuo Yang, and Peng Xue Non-Hermitian systems host phenomena absent in Hermitian physics, but realizing Hamiltonians with …",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Simple, Efficient, and Generic Postselection Decoding for qLDPC Codes",
+      "url": "http://link.aps.org/doi/10.1103/sv11-f78l",
+      "summary": "Author(s): Haipeng Xie, Nobuyuki Yoshioka, Kento Tsubouchi, and Ying Li Quantum error correction is indispensable for scalable quantum computation. Although encoding logical qubits substantially enhances noise resilience…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Bounds on Lorentz Invariance Violation from Muon Fluctuations at the Pierre Auger Observatory",
+      "url": "http://link.aps.org/doi/10.1103/t5k4-2m32",
+      "summary": "Author(s): A. Abdul Halim et al. (Pierre Auger Collaboration) Quantum gravity theories often modify spacetime symmetries. In particular, Lorentz invariance may be violated when approaching the Planck scale. Although the …",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Lorentz-Violating Scenarios for the Highest-Energy Photons from GRB 221009A",
+      "url": "http://link.aps.org/doi/10.1103/zjh2-mc47",
+      "summary": "Author(s): Giorgio Galanti and Marco Roncadelli A photon at $\\mathcal{E}≃251\\text{ }\\text{ }\\mathrm{TeV}$ from GRB 221009A was detected by the Carpet Collaboration in 2022 using a partial dataset. Very recently, Carpet h…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Conformal Defects and Goldstone Bosons in Anti–de Sitter Space",
+      "url": "http://link.aps.org/doi/10.1103/853m-z97v",
+      "summary": "Author(s): Lorenzo Bianchi, Elia de Sabbata, and Marco Meineri We study local quantum field theories in anti–de Sitter (AdS) space, with boundary conditions that break some of the bulk isometries. Specifically, we focus …",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Delayed Charged Lepton Yukawa Equilibration in Minimal Seesaw",
+      "url": "http://link.aps.org/doi/10.1103/nfkx-q6z7",
+      "summary": "Author(s): Rishav Roshan and Sudipta Show While most studies of the minimal type-I seesaw neglect the heaviest decoupled right-handed neutrino, assuming negligible contributions to neutrino masses and leptogenesis, we de…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Isotensor $πππ$ Scattering with a $ρ$-Resonant Subsystem from QCD",
+      "url": "http://link.aps.org/doi/10.1103/yyfr-j1yl",
+      "summary": "Author(s): Raúl A. Briceño, Maxwell T. Hansen, Andrew W. Jackura, Robert G. Edwards, and Christopher E. Thomas (for the Hadron Spectrum Collaboration) This Letter presents a lattice quantum chromodynamics (QCD) determina…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Energy Correlators within Jets in Transversely Polarized Proton-Proton Collisions at $\\sqrt{s}=200\\text{ }\\text{ }\\mathrm{GeV}$",
+      "url": "http://link.aps.org/doi/10.1103/fgsf-gx2q",
+      "summary": "Author(s): B. E. Aboona et al. (STAR Collaboration) We report the first measurement of one- and two-point energy correlators within jets in transversely polarized proton-proton collisions at $\\sqrt{s}=200\\text{ }\\text{ }…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "General Double-Zero-Index Photonic Crystals",
+      "url": "http://link.aps.org/doi/10.1103/xb4y-tl1w",
+      "summary": "Author(s): Zebin Zhu, Dong Zhao, Ziyao Wang, Xucheng Yang, Liyong Jiang, and Zhen Gao Some photonic crystals (PCs) with Dirac-like (or semi-Dirac) conical dispersions exhibit the property of double-zero index (DZI), whic…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Negative Refraction of Terahertz Phonons via Interfacial Momentum Compensation",
+      "url": "http://link.aps.org/doi/10.1103/n9zv-9kc5",
+      "summary": "Author(s): Hao Chen, Zhong-Ke Ding, Yuan Yao, Chang-Hao Ding, Nannan Luo, Jiang Zeng, Li-Ming Tang, and Ke-Qiu Chen Negative refraction provides a route to steer and focus wave energy flow, but it remains difficult to re…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Competing Ordering Modes in the Distorted Quantum Kagome Material Clinoatacamite ${\\mathrm{Cu}}_{2}\\mathrm{Cl}{(\\mathrm{OH})}_{3}$",
+      "url": "http://link.aps.org/doi/10.1103/xmh8-68vk",
+      "summary": "Author(s): L. Stödter, C. Kastner, H. O. Jeschke, M. Reehuis, E. Chan, M.-H. Lemée-Cailleau, K. Beauvois, B. Ouladdiaf, F. Yokaichiya, F. Bert, T. J. Hicken, J. A. Krieger, H. Luetkens, J. L. Allen, R. Feyerherm, M. Tova…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Magnetization Plateaux as a Roadmap to Quantum Spin Liquids",
+      "url": "http://link.aps.org/doi/10.1103/tkpx-sq6n",
+      "summary": "Author(s): Anna Keselman, Xinyuan Xu, Hao Zhang, Cristian D. Batista, and Oleg A. Starykh We investigate the spin-$1/2$ ${J}_{1}–{J}_{2}$ triangular-lattice Heisenberg antiferromagnet in a magnetic field by combining lar…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Approaching Kasteleyn Transition in Frustrated Quantum Heisenberg Antiferromagnets",
+      "url": "http://link.aps.org/doi/10.1103/4cn4-fymq",
+      "summary": "Author(s): Katarína Karl’ová, Afonso Rufino, Taras Verkholyak, Nils Caci, Stefan Wessel, Jozef Strečka, Frédéric Mila, and Andreas Honecker We show that the Kasteleyn transition, the abrupt proliferation of infinite stri…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Spontaneous Raman Scattering under Vibrational Strong Coupling: The Critical Role of Polariton Spatial Mode Coherence",
+      "url": "http://link.aps.org/doi/10.1103/m138-4w64",
+      "summary": "Author(s): Maxime Dherbécourt, Joël Bellessa, Clémentine Symonds, Guillaume Weick, and David Hagenmüller Resonant coupling of a vibration to a cavity mode has been reported to dramatically modify spontaneous Raman scatte…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Near-Field Photon Nernst Effect",
+      "url": "http://link.aps.org/doi/10.1103/z52f-tjqt",
+      "summary": "Author(s): Alireza Kalantari Dehaghi and Linxiao Zhu We consider the consequence of having nonreciprocal photon transfer between two surfaces with temperature gradient. We demonstrate that in a system consisting of graph…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Extensive Spatiotemporal Chaos in Nonreciprocal Flocking",
+      "url": "http://link.aps.org/doi/10.1103/lfwy-bbmv",
+      "summary": "Author(s): Chul-Ung Woo, Jae Dong Noh, and Heiko Rieger Two intermingled species of active matter can exhibit coherent rotation or disorderly scrambling depending on their mutual interactions. [Phys. Rev. Lett. 137, 1183…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Breakdown of Emergent Chiral Order and Defect Chaos in Nonreciprocal Flocks",
+      "url": "http://link.aps.org/doi/10.1103/c6dy-38z1",
+      "summary": "Author(s): Charlotte Myin, Suropriya Saha, and Benoît Mahault Two intermingled species of active matter can exhibit coherent rotation or disorderly scrambling depending on their mutual interactions. [Phys. Rev. Lett. 137…",
+      "ts": 1788861600000,
+      "publishedAt": "2026-09-08T10:00:00.000Z"
     },
     {
       "source": "APS PRX",
@@ -457,350 +801,6 @@
       "summary": "A common blue pigment could help turn carbon dioxide (CO₂) from an industrial waste product into a useful fuel. A joint research team led by Tohoku University's Advanced Institute for Materials Research (WPI-AIMR), in co…",
       "ts": 1788810002000,
       "publishedAt": "2026-09-07T19:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Ships, ice cores and krill surveys underpin Australia's 10-year Antarctic monitoring strategy",
-      "url": "https://phys.org/news/2026-09-ships-ice-cores-krill-surveys.html",
-      "summary": "The important role ships play in gathering scientific data in Antarctica and the Southern Ocean has been outlined at a leading Antarctic science conference in Hobart. The biennial Australian Antarctic Research Conference…",
-      "ts": 1788808806000,
-      "publishedAt": "2026-09-07T19:20:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Why 'you're smart' can backfire: Young children may cheat more after ability praise",
-      "url": "https://phys.org/news/2026-09-youre-smart-backfire-young-children.html",
-      "summary": "Parents and teachers might think telling kids \"they're smart\" is a helpful way to build self-confidence and support positive development.",
-      "ts": 1788808804000,
-      "publishedAt": "2026-09-07T19:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Stripped-down LSD reveals structural features linked to hallucinogenic and therapeutic effects",
-      "url": "https://phys.org/news/2026-09-lsd-reveals-features-linked-hallucinogenic.html",
-      "summary": "University of California, Davis, researchers have stripped down LSD to the base features responsible for its hallucinogenic and therapeutic effects.",
-      "ts": 1788807610000,
-      "publishedAt": "2026-09-07T19:00:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How climate change may amplify the impact of earthquakes in the Arctic",
-      "url": "https://phys.org/news/2026-09-climate-amplify-impact-earthquakes-arctic.html",
-      "summary": "Permafrost refers to permanently frozen ground. The rock is held together by ice, much like cement binds concrete. However, when the ice thaws, the ground becomes weak and unstable. During an earthquake, this can trigger…",
-      "ts": 1788807607000,
-      "publishedAt": "2026-09-07T19:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New nitride semiconductor expands material options for more powerful electronics",
-      "url": "https://phys.org/news/2026-09-nitride-semiconductor-material-options-powerful.html",
-      "summary": "Polar wurtzite nitride semiconductors, such as aluminum nitride (AlN) and gallium nitride (GaN), are central to modern high-power and high-frequency electronic devices because of their wide band gaps, high breakdown elec…",
-      "ts": 1788807606000,
-      "publishedAt": "2026-09-07T19:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Heel-strike' may have allowed early humans to walk farther—at the cost of high-impact forces",
-      "url": "https://phys.org/news/2026-09-heel-early-humans-high-impact.html",
-      "summary": "The average person takes thousands of steps each day, instinctively walking heel-to-toe. Although they hardly register them, those consistent heel-first strides are more distinctive to humans than previously thought and …",
-      "ts": 1788807604000,
-      "publishedAt": "2026-09-07T19:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Slender crystal's blue-to-yellow glow could make invisible forces visible",
-      "url": "https://phys.org/news/2026-09-slender-crystal-blue-yellow-invisible.html",
-      "summary": "Applying pressure to luminescent organic crystals usually brings molecules closer together and weakens their fluorescence. Materials that instead brighten and undergo a large color change are rare, and clear design princ…",
-      "ts": 1788806404000,
-      "publishedAt": "2026-09-07T18:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "What can a pair of underpants tell you about your vegetable garden?",
-      "url": "https://phys.org/news/2026-09-pair-underpants-vegetable-garden.html",
-      "summary": "This summer, 115 participants in Leiden and The Hague worked with scientists from Leiden University to investigate the soil life in their community garden plots. With mangetout peas, a taste test, a buried pair of underp…",
-      "ts": 1788806402000,
-      "publishedAt": "2026-09-07T18:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Neutrophil vesicles help Candida albicans evade immune-cell engulfment",
-      "url": "https://phys.org/news/2026-09-neutrophil-vesicles-candida-albicans-evade.html",
-      "summary": "The immune system is a highly sophisticated defense network designed to protect against pathogens. A research team from the Universities of Würzburg and Jena and the Leibniz Institute for Natural Product Research and Inf…",
-      "ts": 1788805208000,
-      "publishedAt": "2026-09-07T18:20:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Yes, passing 1.5 C of global warming is cause for alarm, but not despair",
-      "url": "https://phys.org/news/2026-09-global-alarm-despair.html",
-      "summary": "The news has been full of headlines about findings from a United Nations report: The world is set to exceed the 1.5°C global warming target set out in the 2015 Paris Agreement. The report has raised concerns and question…",
-      "ts": 1788805201000,
-      "publishedAt": "2026-09-07T18:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Reversible electric control unlocks persistent chiral phonon states",
-      "url": "https://phys.org/news/2026-09-reversible-electric-persistent-chiral-phonon.html",
-      "summary": "Atoms in a material are rarely still. They jiggle back and forth in collective lattice vibrations known as phonons. Their motion can also carry a rotational element: In 2023, scientists at PSI experimentally proved the e…",
-      "ts": 1788804007000,
-      "publishedAt": "2026-09-07T18:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New report offers lessons for preserving cultural heritage in crisis zones",
-      "url": "https://phys.org/news/2026-09-lessons-cultural-heritage-crisis-zones.html",
-      "summary": "The report, \"Digital heritage preservation for vulnerable collections: Reflections on the Sudan Memory project history and inventory,\" was authored by Dr. Laura Gibson, senior lecturer in digital content management educa…",
-      "ts": 1788804003000,
-      "publishedAt": "2026-09-07T18:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Entangled particles revive a 35-year-old test of the Standard Model",
-      "url": "https://phys.org/news/2026-09-entangled-particles-revive-year-standard.html",
-      "summary": "Physicists at the BESIII Collaboration have breathed new life into a decades-old test of one of the Standard Model's most important ideas, using a technique that had gone almost untouched by experimenters for 35 years.",
-      "ts": 1788802810000,
-      "publishedAt": "2026-09-07T17:40:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Organic farming outperforms wildflower strips on profits while both improve farm biodiversity",
-      "url": "https://phys.org/news/2026-09-farming-outperforms-wildflower-profits-farm.html",
-      "summary": "What makes more sense when farming wheat—strips of wildflowers along fields or organic farming? Both options provide financial support via the European Union as environmentally friendly and sustainable farming practices.…",
-      "ts": 1788802801000,
-      "publishedAt": "2026-09-07T17:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Climate and air quality are closely linked, report highlights",
-      "url": "https://phys.org/news/2026-09-climate-air-quality-linked-highlights.html",
-      "summary": "An increase in pollution from wildfires and heat waves risks undermining international efforts to improve air quality and protect human and ecosystem health, according to a new report from the World Meteorological Organi…",
-      "ts": 1788801605000,
-      "publishedAt": "2026-09-07T17:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Can atmospheric methane removal limit peak warming?",
-      "url": "https://phys.org/news/2026-09-atmospheric-methane-limit-peak.html",
-      "summary": "In a new report, the United Nations Environment Program (UNEP) concludes that global warming is expected to exceed 1.5°C within the next few years. This makes two questions increasingly important: how high will temperatu…",
-      "ts": 1788801603000,
-      "publishedAt": "2026-09-07T17:20:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Self-processing brain systems show both conservation and reorganization across primates",
-      "url": "https://phys.org/news/2026-09-brain-primates.html",
-      "summary": "New in JNeurosci, Ning Liu, from the Institute of Biophysics, Chinese Academy of Sciences, explored whether brain structures for self-processing are conserved across primates, including humans, chimpanzees and macaques.",
-      "ts": 1788800407000,
-      "publishedAt": "2026-09-07T17:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Excavations at Prado Vargas now span 140 square meters of a Neanderthal layer",
-      "url": "https://phys.org/news/2026-09-excavations-prado-vargas-span-square.html",
-      "summary": "The 2026 field season at Prado Vargas Cave, located in the village of Cornejo in the northern province of Burgos, Spain, within the Ojo Guareña karst complex, has expanded the excavation of Neanderthal sublevel 4D by 32 …",
-      "ts": 1788800403000,
-      "publishedAt": "2026-09-07T17:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Could bats self-medicate? More than 50 wild bats offer clues",
-      "url": "https://phys.org/news/2026-09-medicate-wild-clues.html",
-      "summary": "When humans get sick, we change our routines and try various solutions to feel better and get well, like staying in bed to rest, going to the doctor, getting medication from the pharmacy, using home remedies and more.",
-      "ts": 1788799204000,
-      "publishedAt": "2026-09-07T16:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Dark plasma regions reveal overlooked source of reactive atomic oxygen",
-      "url": "https://phys.org/news/2026-09-dark-plasma-regions-reveal-overlooked.html",
-      "summary": "Scientists from Tokyo Metropolitan University have found a way to make plasma more effective for its wide-ranging uses, from antimicrobial applications to surface conditioning in the semiconductor industry. They mapped t…",
-      "ts": 1788799201000,
-      "publishedAt": "2026-09-07T16:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Ancient charcoal reveals evidence of wildfires near the South Pole",
-      "url": "https://phys.org/news/2026-09-ancient-charcoal-reveals-evidence-wildfires.html",
-      "summary": "A journey back in time to the Late Cretaceous: A swampy rainforest with conifers and tree ferns stretches as far as the eye can see, dinosaurs roam through the misty wetlands, and the climate is mild and warm. The averag…",
-      "ts": 1788798005000,
-      "publishedAt": "2026-09-07T16:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Galileo, Copernicus, Cleansky, IRIS² must work together to secure Europe's place in the space race",
-      "url": "https://phys.org/news/2026-09-galileo-copernicus-cleansky-iris-europe.html",
-      "summary": "\"Seeing the Earth from above is a powerful reminder of our interdependence,\" said Thomas Pesquet. The words of France's 10th astronaut to head into space are a reminder of how we are \"in this together,\" something the wor…",
-      "ts": 1788798003000,
-      "publishedAt": "2026-09-07T16:20:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tiny polymer particles keep water jets stable for longer",
-      "url": "https://phys.org/news/2026-09-tiny-polymer-particles-jets-stable.html",
-      "summary": "Tiny, soft polymer particles—known as microgels—can help to stabilize extremely thin liquid jets. How this works is the finding of a study led by researchers at TU Darmstadt, which has been published in Nature Communicat…",
-      "ts": 1788796808000,
-      "publishedAt": "2026-09-07T16:00:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The DESI legacy imaging survey releases the largest 2D map of the universe",
-      "url": "https://phys.org/news/2026-09-desi-legacy-imaging-survey-largest.html",
-      "summary": "In 2012, the Dark Energy Spectroscopic Instrument (DESI) was commissioned to measure the effect of dark energy, the mysterious force driving the expansion of the cosmos. Since then, the DESI Legacy Imaging Surveys have o…",
-      "ts": 1788796806000,
-      "publishedAt": "2026-09-07T16:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Pair of white dwarfs locked in 6-minute orbit might one day be observed by gravitational waves",
-      "url": "https://phys.org/news/2026-09-pair-white-dwarfs-minute-orbit.html",
-      "summary": "Current gravitational-wave observatories aren't sensitive enough to capture the gravitational waves of binary stars. They can only see the gravitational chirps of black holes just as they are merging. But that will chang…",
-      "ts": 1788795608000,
-      "publishedAt": "2026-09-07T15:40:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New model measures economic risks solar storms pose to US power grid",
-      "url": "https://phys.org/news/2026-09-economic-solar-storms-pose-power.html",
-      "summary": "In 1967, a solar storm nearly triggered World War III by jamming early-warning radar systems in the United States, causing U.S. leaders to think the Soviet Union was responsible. Though society averted catastrophe thanks…",
-      "ts": 1788795601000,
-      "publishedAt": "2026-09-07T15:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A vital native bee highway can start in your own backyard",
-      "url": "https://phys.org/news/2026-09-vital-native-bee-highway-backyard.html",
-      "summary": "When it comes to bees, most of us can identify the ubiquitous honey bee (Apis mellifera) and that's about it.",
-      "ts": 1788794405000,
-      "publishedAt": "2026-09-07T15:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How 'hyperselection' is making modern life efficient, pleasant—and boring",
-      "url": "https://phys.org/news/2026-09-hyperselection-modern-life-efficient-pleasant.html",
-      "summary": "It's difficult to imagine a song like Queen's 1975 \"Bohemian Rhapsody\" topping the charts today. Almost six minutes long, it moves through several radically different musical sections and famously ignores the conventiona…",
-      "ts": 1788794403000,
-      "publishedAt": "2026-09-07T15:20:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Two-color X-ray pulses capture the same nanoparticle at two moments in time",
-      "url": "https://phys.org/news/2026-09-ray-pulses-capture-nanoparticle-moments.html",
-      "summary": "One big dream of ultrafast science has been to watch changes in nanoparticles or biomolecules on their natural timescale. Experimentally, this can be realized by taking two snapshots of the same object only femtoseconds …",
-      "ts": 1788793207000,
-      "publishedAt": "2026-09-07T15:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "We teach students how to argue. But are we teaching them how to listen?",
-      "url": "https://phys.org/news/2026-09-students.html",
-      "summary": "Picture a senior English classroom.",
-      "ts": 1788793202000,
-      "publishedAt": "2026-09-07T15:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Reconstructed ancient protein maps how bacterial enzymes evolved distinct functions",
-      "url": "https://phys.org/news/2026-09-reconstructed-ancient-protein-bacterial-enzymes.html",
-      "summary": "How do related proteins develop different functions? This is the question investigated by a research team involving Kiel University, DESY and the Center for Structural Systems Biology (CSSB). Led by Holger Sondermann, pr…",
-      "ts": 1788792004000,
-      "publishedAt": "2026-09-07T14:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New digital tool shows exactly where California's water goes—and how climate change might disrupt it",
-      "url": "https://phys.org/news/2026-09-digital-tool-california-climate-disrupt.html",
-      "summary": "Water has always been one of California's most contested resources. For more than a century, battles have raged over how much of the state's water should be diverted to farmland, pumped into cities or used to conserve aq…",
-      "ts": 1788792001000,
-      "publishedAt": "2026-09-07T14:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New blending method gives common polymers a visible, reversible stress signal",
-      "url": "https://phys.org/news/2026-09-blending-method-common-polymers-visible.html",
-      "summary": "Polymeric materials, such as plastics and rubbers, are essential in everyday life. However, detecting where mechanical stress is concentrated inside them remains a challenge.",
-      "ts": 1788790806000,
-      "publishedAt": "2026-09-07T14:20:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "What happens when you flush? Study reveals how toilet aerosols reach the breathing zone",
-      "url": "https://phys.org/news/2026-09-flush-reveals-toilet-aerosols-zone.html",
-      "summary": "Researchers from Flinders University have found that flushing toilets can release aerosols and bioaerosols into the surrounding air, with some studies detecting particles at heights corresponding to adults' breathing zon…",
-      "ts": 1788790804000,
-      "publishedAt": "2026-09-07T14:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Genomic analysis clarifies origin of unusual tail in endangered Tsushima leopard cat",
-      "url": "https://phys.org/news/2026-09-genomic-analysis-unusual-tail-endangered.html",
-      "summary": "Tsushima leopard cats are an endangered species found only on this isolated island. The most recent government survey estimated the population at around 150 individuals, and because domestic cats also inhabit the same la…",
-      "ts": 1788789609000,
-      "publishedAt": "2026-09-07T14:00:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Isle of Jura research casts new light on how rivers carve through landscapes",
-      "url": "https://phys.org/news/2026-09-isle-jura-rivers-landscapes.html",
-      "summary": "The waters of the remote Scottish island of Jura have long been famous for making whiskey. Now, the island's rivers have helped geologists learn more about how rivers erode rocks, providing new evidence that what streams…",
-      "ts": 1788789607000,
-      "publishedAt": "2026-09-07T14:00:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rare pulsar unleashes 114 giant pulses in a single hour",
-      "url": "https://phys.org/news/2026-08-rare-pulsar-unleashes-giant-pulses.html",
-      "summary": "Astronomers have detected extreme, never-before-seen behavior from a rare kind of pulsar and stumbled on a surprising link to one of astronomy's biggest current mysteries. Using 174 hours of radio observations, researche…",
-      "ts": 1788789001000,
-      "publishedAt": "2026-09-07T13:50:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Investments promising social or environmental benefits need tougher anti‑greenwashing rules",
-      "url": "https://phys.org/news/2026-09-investments-social-environmental-benefits-tougher.html",
-      "summary": "Investment funds increasingly promise to deliver social or environmental benefits alongside financial returns. Regulators rightly ask whether these \"impact investment\" claims are accurate.",
-      "ts": 1788788401000,
-      "publishedAt": "2026-09-07T13:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Dog parks are an antidote to the isolation and divisions that social media can fuel",
-      "url": "https://phys.org/news/2026-09-dog-antidote-isolation-divisions-social.html",
-      "summary": "The case against social media has become so well rehearsed that most people can easily merge it into ordinary conversation: It makes people lonely. It sorts them into camps. It hands them a room full of people who alread…",
-      "ts": 1788787203000,
-      "publishedAt": "2026-09-07T13:20:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Decades-old museum specimens reveal 10 extraordinary new worms",
-      "url": "https://phys.org/news/2026-09-decades-museum-specimens-reveal-extraordinary.html",
-      "summary": "Scientists have discovered that one of the most unusual creatures in the animal kingdom is far more diverse and evolutionarily complex than previously known. An international team led by the University of Göttingen has r…",
-      "ts": 1788787201000,
-      "publishedAt": "2026-09-07T13:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Do black holes have hidden hair? Scientists find a new way to check",
-      "url": "https://phys.org/news/2026-09-black-holes-hidden-hair-scientists.html",
-      "summary": "When two black holes crash together and merge, the newly formed black hole rings like a bell, sending out gravitational waves with specific frequencies that fade over time. This brief, fading pattern of waves is called r…",
-      "ts": 1788786006000,
-      "publishedAt": "2026-09-07T13:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Climate change images are getting scarier—could fear help drive action?",
-      "url": "https://phys.org/news/2026-09-climate-images-scarier-action.html",
-      "summary": "Over the summer, Europe provided a stark new set of images of climate change. Wildfires raced across forests and grasslands, rivers and reservoirs dried up in droughts, and extreme heat disrupted everyday life.",
-      "ts": 1788786001000,
-      "publishedAt": "2026-09-07T13:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Behind the scenes: The science that confirmed Australia's first H5 bird flu case",
-      "url": "https://phys.org/news/2026-09-scenes-science-australia-h5-bird.html",
-      "summary": "When a suspected case of H5 bird flu arrived in Australia, CSIRO scientists knew the first hours would matter.",
-      "ts": 1788784801000,
-      "publishedAt": "2026-09-07T12:40:01.000Z"
     }
   ],
   "sources": [
