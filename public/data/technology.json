@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-08T00:59:38.434Z",
+  "updated": "2026-09-08T05:51:48.489Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 8 – Hubble: Decagon Around Saturn’s South Pole",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
+      "summary": "APOD Science APOD APOD: 2026 September 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1788840300000,
+      "publishedAt": "2026-09-08T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "The Otherworldly Geology of Vasquez Rocks",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-otherworldly-geology-of-vasquez-rocks/",
+      "summary": "Layers of sedimentary rock that jut from the Soledad Basin at surprising angles have long enthralled television and film producers, including the team behind Star Trek.",
+      "ts": 1788840060000,
+      "publishedAt": "2026-09-08T04:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
@@ -790,24 +808,6 @@
       "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
       "url": "https://arxiv.org/abs/2609.03377",
       "summary": "arXiv:2609.03377v1 Announce Type: cross Abstract: Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional struct…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural-Network Maxent: a general extension with learned nonlinearity, applied to time-series for Desert Locust distribution modelling",
-      "url": "https://arxiv.org/abs/2609.03603",
-      "summary": "arXiv:2609.03603v1 Announce Type: cross Abstract: Species Distribution Modelling (SDM) is essential for understanding how environmental conditions shape biodiversity, particularly for destructive pests such as the Desert…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Inferring Affective Consciousness in an Artificial Agent: A Case Study",
-      "url": "https://arxiv.org/abs/2609.03883",
-      "summary": "arXiv:2609.03883v1 Announce Type: cross Abstract: Creatures that display 'hedonic place preference behaviour' are thought by many scientists to experience feelings, on the assumption that their attraction to pleasure-pro…",
       "ts": 1788494400000,
       "publishedAt": "2026-09-04T04:00:00.000Z",
       "categoryId": "bio"

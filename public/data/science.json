@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-08T00:59:36.046Z",
+  "updated": "2026-09-08T05:51:45.224Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How beavers can help create fire breaks as part of a drought preparation plan",
+      "url": "https://phys.org/news/2026-09-beavers-drought.html",
+      "summary": "Most of the countryside around the Holnicote estate in Somerset has been dry and dusty for most of the summer. But one corner remains conspicuously green.",
+      "ts": 1788835201000,
+      "publishedAt": "2026-09-08T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Changing the antibiotic playbook to catch an ESKAPE artist",
+      "url": "https://phys.org/news/2026-09-antibiotic-playbook-eskape-artist.html",
+      "summary": "Nearly a century ago, a single colony of Staphylococcus aureus (S. aureus) helped launch the antibiotic age. In 1928, Alexander Fleming returned to his London lab to find that a stray mold had wiped out the Staphylococcu…",
+      "ts": 1788831601000,
+      "publishedAt": "2026-09-08T01:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Early Earth's auroral belts may have formed a natural ion-beam reactor for prebiotic chemistry",
@@ -783,22 +799,6 @@
       "title": "When a high-mountain slope failure cascades downstream: reconstructing the 26 August 2026 Gyirong mixed rock-ice disaster",
       "url": "https://arxiv.org/abs/2609.04563",
       "summary": "arXiv:2609.04563v1 Announce Type: new Abstract: On 26 August 2026, a high-elevation slope failure involving rock and glacier ice near the China--Nepal border developed into a channelised mass-flow and flood cascade that …",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Photoemission for Bright Beams in X-Band Photoinjectors",
-      "url": "https://arxiv.org/abs/2609.04571",
-      "summary": "arXiv:2609.04571v1 Announce Type: new Abstract: The ongoing development of low-cost and compact x-ray light sources is vital for increasing the number of experiments that can be performed at the atomic scale. Smaller sou…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cartesian isotropic tensors revisited",
-      "url": "https://arxiv.org/abs/2609.04576",
-      "summary": "arXiv:2609.04576v1 Announce Type: new Abstract: An alternative, streamlined methodology is presented for deriving the isotropic Cartesian tensor bases under the special orthogonal group $\\text{SO}(3)$. By shifting the tr…",
       "ts": 1788753600000,
       "publishedAt": "2026-09-07T04:00:00.000Z"
     }
