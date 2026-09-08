@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-09-08T21:39:56.594Z",
+  "updated": "2026-09-08T23:55:01.801Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Germany's 15-year-olds post lowest PISA results since testing began 25 years ago",
+      "url": "https://phys.org/news/2026-09-germany-year-olds-lowest-pisa.html",
+      "summary": "The PISA study regularly assesses 15-year-olds' ability to understand and solve real-life problems in reading, mathematics and science toward the end of their compulsory education. It demonstrates the extent to which you…",
+      "ts": 1788910806000,
+      "publishedAt": "2026-09-08T23:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers rewire ribosomes to specialize in one protein",
+      "url": "https://phys.org/news/2026-09-rewire-ribosomes-specialize-protein.html",
+      "summary": "Every cell relies on ribosomes, the molecular machines that read genetic instructions and use them to assemble proteins. A cell needs thousands of types of proteins at any one time, so ribosomes must be generalists, capa…",
+      "ts": 1788910801000,
+      "publishedAt": "2026-09-08T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When disaster strikes, what happens to our pets?",
+      "url": "https://phys.org/news/2026-09-disaster-pets.html",
+      "summary": "As large-scale disasters—including earthquakes, torrential rains, typhoons and wildfires—become increasingly frequent, ensuring that pets as well as their owners can evacuate safely and receive appropriate care has becom…",
+      "ts": 1788909606000,
+      "publishedAt": "2026-09-08T23:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny molecular rings open new ways for designing better medicines",
+      "url": "https://phys.org/news/2026-09-tiny-molecular-ways-medicines.html",
+      "summary": "Cyclopropanes are organic chemistry's smallest rings. Three carbon atoms are joined in a triangle, creating a compact and unusually strained structure. Despite—or partly because of—this unusual geometry, cyclopropanes ar…",
+      "ts": 1788909604000,
+      "publishedAt": "2026-09-08T23:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prehistoric builders hauled 25-tonne stones at least 18 km to build iconic Devil's Arrows",
+      "url": "https://phys.org/news/2026-09-prehistoric-builders-hauled-tonne-stones.html",
+      "summary": "New research has revealed that ancient builders deliberately transported enormous 25-tonne stones across at least 18 kilometers (11 miles) to build Britain's tallest surviving prehistoric stone row—the iconic Devil's Arr…",
+      "ts": 1788909001000,
+      "publishedAt": "2026-09-08T23:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Untangling the meta-biomaterial puzzle one property at a time",
+      "url": "https://phys.org/news/2026-09-untangling-meta-biomaterial-puzzle-property.html",
+      "summary": "From repairing damaged tissues to developing better implants, many medical developments depend on materials that can mimic the complex properties of human tissue. Meta-biomaterials are among the most promising candidates…",
+      "ts": 1788908407000,
+      "publishedAt": "2026-09-08T23:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new mission could rendezvous with Halley's Comet in 2061",
+      "url": "https://phys.org/news/2026-09-mission-rendezvous-halley-comet.html",
+      "summary": "Halley's Comet captures the imagination in a way that few other astronomical objects do. When it last made its approach toward the sun (admittedly when this author, who is now middle-aged, was 1 year old in 1986), humani…",
+      "ts": 1788908405000,
+      "publishedAt": "2026-09-08T23:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Grandchildren repay childhood care by supporting ailing grandparents in Hong Kong",
+      "url": "https://phys.org/news/2026-09-grandchildren-repay-childhood-ailing-grandparents.html",
+      "summary": "As Hong Kong Special Administrative Region's population ages at one of the fastest rates in the world, demand for family elder care increases daily. To understand the responsibilities and roles assumed by grandchildren i…",
+      "ts": 1788907203000,
+      "publishedAt": "2026-09-08T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Did wildfires help spark the invention of pottery?",
+      "url": "https://phys.org/news/2026-09-wildfires-pottery.html",
+      "summary": "A new study suggests that a period of intense fires and landscape upheaval in the ancient southern Levant may have helped create the conditions that led Neolithic communities to discover how fire could transform clay.",
+      "ts": 1788907201000,
+      "publishedAt": "2026-09-08T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sparse-data method estimates sea surface temperatures 40% more accurately than conventional approach",
+      "url": "https://phys.org/news/2026-09-sparse-method-sea-surface-temperatures.html",
+      "summary": "Researchers have developed a method for extrapolating sea surface temperatures from sparse data that is significantly more accurate than other commonly used computational methods and slightly more accurate than the best-…",
+      "ts": 1788906004000,
+      "publishedAt": "2026-09-08T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Portugal's Pinhal Interior shows why fire and floods are part of the same cycle",
+      "url": "https://phys.org/news/2026-09-portugal-pinhal-interior.html",
+      "summary": "Across southern Europe, increasingly extreme heat, wildfire and intense rainfall are forcing planners to consider how one event can alter the risk of the next. Portugal's exceptionally wet winter and another summer of wi…",
+      "ts": 1788906001000,
+      "publishedAt": "2026-09-08T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why does microwaving fish smell so bad?",
+      "url": "https://phys.org/news/2026-09-microwaving-fish-bad.html",
+      "summary": "The work break room can be a place of rest, gossip, fun or recovery. But it can also be a cause for complaint when yesterday's fish dinner becomes a smelly microwaved lunch. For most people, microwaving fish at work is a…",
+      "ts": 1788904805000,
+      "publishedAt": "2026-09-08T22:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extremely massive galaxy proto-supercluster smashes distance record",
+      "url": "https://phys.org/news/2026-09-extremely-massive-galaxy-proto-supercluster.html",
+      "summary": "An international team of astronomers has discovered the most distant progenitor to a galaxy supercluster ever. The discovery supports existing theories of how galaxy clusters evolve and reveals how they are connected to …",
+      "ts": 1788904803000,
+      "publishedAt": "2026-09-08T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cosmic radiation at flight altitudes rises when the sun is less active",
+      "url": "https://phys.org/news/2026-09-cosmic-flight-altitudes-sun.html",
+      "summary": "Radiation from space is constantly entering Earth's atmosphere, but how much of it reaches the altitudes used by commercial aircraft depends not only on height and location, but also on the activity of the sun. A new stu…",
+      "ts": 1788903603000,
+      "publishedAt": "2026-09-08T21:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Optimizing tomato plant growth with microbes",
+      "url": "https://phys.org/news/2026-09-optimizing-tomato-growth-microbes.html",
+      "summary": "Plants are home to a diverse array of microorganisms that support their growth and help them adapt to environmental stress—of which there has been an abundance lately. High temperatures and drought caused by human-induce…",
+      "ts": 1788903601000,
+      "publishedAt": "2026-09-08T21:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Waterlogged seeds reveal melons' ancient journey",
@@ -681,126 +801,6 @@
       "summary": "Author(s): Katarína Karl’ová, Afonso Rufino, Taras Verkholyak, Nils Caci, Stefan Wessel, Jozef Strečka, Frédéric Mila, and Andreas Honecker We show that the Kasteleyn transition, the abrupt proliferation of infinite stri…",
       "ts": 1788861600000,
       "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spontaneous Raman Scattering under Vibrational Strong Coupling: The Critical Role of Polariton Spatial Mode Coherence",
-      "url": "http://link.aps.org/doi/10.1103/m138-4w64",
-      "summary": "Author(s): Maxime Dherbécourt, Joël Bellessa, Clémentine Symonds, Guillaume Weick, and David Hagenmüller Resonant coupling of a vibration to a cavity mode has been reported to dramatically modify spontaneous Raman scatte…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Near-Field Photon Nernst Effect",
-      "url": "http://link.aps.org/doi/10.1103/z52f-tjqt",
-      "summary": "Author(s): Alireza Kalantari Dehaghi and Linxiao Zhu We consider the consequence of having nonreciprocal photon transfer between two surfaces with temperature gradient. We demonstrate that in a system consisting of graph…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Extensive Spatiotemporal Chaos in Nonreciprocal Flocking",
-      "url": "http://link.aps.org/doi/10.1103/lfwy-bbmv",
-      "summary": "Author(s): Chul-Ung Woo, Jae Dong Noh, and Heiko Rieger Two intermingled species of active matter can exhibit coherent rotation or disorderly scrambling depending on their mutual interactions. [Phys. Rev. Lett. 137, 1183…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Breakdown of Emergent Chiral Order and Defect Chaos in Nonreciprocal Flocks",
-      "url": "http://link.aps.org/doi/10.1103/c6dy-38z1",
-      "summary": "Author(s): Charlotte Myin, Suropriya Saha, and Benoît Mahault Two intermingled species of active matter can exhibit coherent rotation or disorderly scrambling depending on their mutual interactions. [Phys. Rev. Lett. 137…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Topological Flowscape Reveals State Transitions in Nonreciprocal Living Matter",
-      "url": "http://link.aps.org/doi/10.1103/tq6h-f5ws",
-      "summary": "Author(s): Hyunseok Lee, EliseAnne Koskelo, Shreyas Gokhale, Junang Li, Chenyi Fei, Chih-Wei Joshua Liu, Lisa Lin, Jörn Dunkel, Dominic J. Skinner, and Nikta Fakhri Characterizing living systems far from the thermodynami…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Kauai on tornado watch as Hurricane Lowell nears Hawaiian Islands",
-      "url": "https://phys.org/news/2026-09-kauai-tornado-hurricane-lowell-nears.html",
-      "summary": "Residents of Kauai were warned to watch for tornadoes late Monday as Hurricane Lowell edged toward the westernmost Hawaiian Islands in the U.S. Pacific island chain, the National Weather Service said.",
-      "ts": 1788858601000,
-      "publishedAt": "2026-09-08T09:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Melting Svalbard glaciers may flush ancient methane from rocks beneath the ice",
-      "url": "https://phys.org/news/2026-09-svalbard-glaciers-flush-ancient-methane.html",
-      "summary": "Meltwater rivers flowing from Svalbard glaciers are carrying ancient methane from rocks beneath the ice into the open air, new research published in Nature Communications shows.",
-      "ts": 1788858011000,
-      "publishedAt": "2026-09-08T09:00:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Super-resolution imaging reveals that cohesin prevents local mixing of compact, active genome domains",
-      "url": "https://phys.org/news/2026-09-super-resolution-imaging-reveals-cohesin.html",
-      "summary": "The human genome is about two meters (6.6 feet) long, yet it is folded inside a cell nucleus only about 10 micrometers in diameter. To fit into this tiny space, DNA is wrapped around histone proteins to form nucleosomes,…",
-      "ts": 1788858009000,
-      "publishedAt": "2026-09-08T09:00:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Praying for rain as fires, haze plague Indonesian Borneo",
-      "url": "https://phys.org/news/2026-09-praying-haze-plague-indonesian-borneo.html",
-      "summary": "Wildfires ravaging the Indonesian part of Borneo are choking communities as far away as Malaysia with putrid haze, testing the resources and resolve of those who must endure it.",
-      "ts": 1788858006000,
-      "publishedAt": "2026-09-08T09:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Worm's radical transformation shows metamorphosis can change the functions of cells",
-      "url": "https://phys.org/news/2026-09-worm-radical-metamorphosis-functions-cells.html",
-      "summary": "A squishy worm that starts its life as something of a floating head in the Pacific Ocean is changing what scientists know about metamorphosis at the cellular level.",
-      "ts": 1788858004000,
-      "publishedAt": "2026-09-08T09:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI model decodes cell signaling fingerprints across diverse cell types",
-      "url": "https://phys.org/news/2026-09-ai-decodes-cell-fingerprints-diverse.html",
-      "summary": "As an embryo develops from a small cluster of stem cells, those once \"blank slate\" cells begin to take on more specialized roles like brain, liver or muscle cells and organize themselves into three-dimensional structures…",
-      "ts": 1788858003000,
-      "publishedAt": "2026-09-08T09:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rearranged polymer chains create degradable materials with potential for stronger, tougher packaging",
-      "url": "https://phys.org/news/2026-09-rearranged-polymer-chains-degradable-materials.html",
-      "summary": "What if the key to making stronger, more sustainable plastics isn't changing their ingredients, but rearranging their molecules? Virginia Tech researchers have put that idea to the test, creating degradable polymers with…",
-      "ts": 1788858001000,
-      "publishedAt": "2026-09-08T09:00:01.000Z"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "AI Has Solved One of Math’s $1 Million Millennium Prize Problems",
-      "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
-      "summary": "Mathematicians at OpenAI showed that the Navier-Stokes equations, which describe how fluids flow, can sometimes “blow up.” But the massive result is not without controversy. The post AI Has Solved One of Math’s $1 Millio…",
-      "ts": 1788857032000,
-      "publishedAt": "2026-09-08T08:43:52.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How beavers can help create fire breaks as part of a drought preparation plan",
-      "url": "https://phys.org/news/2026-09-beavers-drought.html",
-      "summary": "Most of the countryside around the Holnicote estate in Somerset has been dry and dusty for most of the summer. But one corner remains conspicuously green.",
-      "ts": 1788835201000,
-      "publishedAt": "2026-09-08T02:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Changing the antibiotic playbook to catch an ESKAPE artist",
-      "url": "https://phys.org/news/2026-09-antibiotic-playbook-eskape-artist.html",
-      "summary": "Nearly a century ago, a single colony of Staphylococcus aureus (S. aureus) helped launch the antibiotic age. In 1928, Alexander Fleming returned to his London lab to find that a stray mold had wiped out the Staphylococcu…",
-      "ts": 1788831601000,
-      "publishedAt": "2026-09-08T01:40:01.000Z"
     }
   ],
   "sources": [

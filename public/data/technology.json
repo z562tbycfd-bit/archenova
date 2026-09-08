@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-08T21:39:58.972Z",
+  "updated": "2026-09-08T23:55:04.937Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "NRAS Mutations May Require Mutation-Guided Combination Therapies",
+      "url": "https://www.genengnews.com/topics/cancer/nras-mutations-may-require-mutation-guided-combination-therapies/",
+      "summary": "Mutant NRAS has remained difficult to target in cancer. New findings suggest that its signaling partnership with wild-type HRAS may offer a targetable vulnerability, but effective strategies may need to be tailored to th…",
+      "ts": 1788904192000,
+      "publishedAt": "2026-09-08T21:49:52.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA names acting heads of drug and vaccine centers to permanent roles",
@@ -799,15 +808,6 @@
       "title": "An AI-Enabled Agent-Based Simulation Platform for Studying COVID-19 Pandemic",
       "url": "https://arxiv.org/abs/2106.11070",
       "summary": "arXiv:2106.11070v3 Announce Type: replace Abstract: Understanding outbreak dynamics is essential for designing effective control measures. We developed an agent-based model to examine how changes in epidemiological and i…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Small Molecule Optimization with Large Language Models",
-      "url": "https://arxiv.org/abs/2407.18897",
-      "summary": "arXiv:2407.18897v2 Announce Type: replace-cross Abstract: Molecular optimization, the process of designing molecules with desirable properties, represents a critical challenge in drug discovery. Recent advancements in la…",
       "ts": 1788753600000,
       "publishedAt": "2026-09-07T04:00:00.000Z",
       "categoryId": "bio"
