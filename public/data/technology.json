@@ -1,7 +1,205 @@
 {
   "ok": true,
-  "updated": "2026-09-08T10:50:37.504Z",
+  "updated": "2026-09-08T14:58:35.205Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: UnitedHealth’s Democrat investment, and surprise billing bloat debate",
+      "url": "https://www.statnews.com/2026/09/08/unitedhealth-campaign-donations-katherine-clark-no-surprises-act-debate/?utm_campaign=rss",
+      "summary": "UnitedHealth execs shower a top Democrats with cash, and the No Surprises Act debate heats up.",
+      "ts": 1788879103000,
+      "publishedAt": "2026-09-08T14:51:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Measuring Cell Line Development Quality Within Days of Single-Cell Cloning, Not Months Later",
+      "url": "https://www.genengnews.com/sponsored/measuring-cell-line-development-quality-within-days-of-single-cell-cloning-not-months-later/",
+      "summary": "For nearly a decade, the Beacon platform has advanced from integrated single-cell cloning to earlier productivity, product-quality, and stability measurements, with AI-assisted clone evaluation pointing toward the next s…",
+      "ts": 1788879013000,
+      "publishedAt": "2026-09-08T14:50:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Clean Cells Broadens Viral Safety Testing Portfolio with NGS",
+      "url": "https://www.genengnews.com/topics/bioprocessing/clean-cells-broadens-viral-safety-testing-portfolio-with-ngs/",
+      "summary": "The expanded next-generation sequencing offering from Clean Cells now covers GMP-compliant viral safety testing for viral vectors and recombinant preparations, building on existing identity testing capabilities. The post…",
+      "ts": 1788878990000,
+      "publishedAt": "2026-09-08T14:49:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Health care features prominently in Democrats’ agenda",
+      "url": "https://www.statnews.com/2026/09/08/democrats-agenda-midterms-health-care-medicaid-cuts-aca-subsidies/?utm_campaign=rss",
+      "summary": "Democrats are sharpening their health care plans as the midterm elections near.",
+      "ts": 1788877351000,
+      "publishedAt": "2026-09-08T14:22:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Oura goes public, reported $1.2B earnings in its last fiscal year",
+      "url": "https://www.statnews.com/2026/09/08/health-tech-newsletter-oura-goes-public-reports-profitability/?utm_campaign=rss",
+      "summary": "In health tech news today, Oura reports a profit, the FDA loses another key digital health leader, and more",
+      "ts": 1788877121000,
+      "publishedAt": "2026-09-08T14:18:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves AstraZeneca breast cancer drug",
+      "url": "https://www.statnews.com/2026/09/08/biotech-news-fda-approves-astrazeneca-breast-cancer-drug/?utm_campaign=rss",
+      "summary": "Roivant drug delivers mid-stage results, Moonwalk raises funds to develop longer-lasting obesity drugs, and more biotech news",
+      "ts": 1788876571000,
+      "publishedAt": "2026-09-08T14:09:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about another Novartis trial failure, a Novo Nordisk setback, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/08/novartis-reports-second-trial-failure-novo-nordisk-setback/?utm_campaign=rss",
+      "summary": "An experimental Novartis drug for a rare neuromuscular condition failed to improve muscle function in a pivotal study",
+      "ts": 1788874011000,
+      "publishedAt": "2026-09-08T13:26:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "ts": 1788872400000,
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: our 35 Innovators Under 35 this year",
+      "url": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation…",
+      "ts": 1788869400000,
+      "publishedAt": "2026-09-08T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Moonwalk to Use $70 Million to Develop RNAi Therapies for Obesity, Cardiometabolic Disease",
+      "url": "https://www.genengnews.com/topics/drug-discovery/moonwalk-to-use-70-million-to-develop-rnai-therapies-for-obesity-cardiometabolic-disease/",
+      "summary": "New financing will help Moonwalk Biosciences expand its pipeline of siRNA medicines targeting adipose tissue while building out its proprietary drug discovery platform. The post Moonwalk to Use $70 Million to Develop RNA…",
+      "ts": 1788868811000,
+      "publishedAt": "2026-09-08T12:00:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "In Gaza, women-headed households face ‘impossible choices’ to survive",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168291",
+      "summary": "In war-torn Gaza, a growing number of women-headed households face “impossible decisions” every day, amid ongoing Israeli airstrikes and still-scarce resources, UN humanitarians said on Tuesday.",
+      "ts": 1788868800000,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Tobacco use can undermine fertility, UN health agency warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168290",
+      "summary": "Smoking very likely makes it harder to have a baby, the UN World Health Organization (WHO) warned in a new publication issued on Tuesday, highlighting that women who smoke have a 40 per cent higher risk of infertility co…",
+      "ts": 1788868800000,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AstraZeneca’s experimental COPD treatment posts strong results in late-stage studies",
+      "url": "https://www.statnews.com/2026/09/08/astrazeneca-tozorakimab-copd-exacerbations-titania-oberon/?utm_campaign=rss",
+      "summary": "An experimental COPD drug from AstraZeneca could prove competitive with existing treatments, and have a slice of the market to itself.",
+      "ts": 1788867900000,
+      "publishedAt": "2026-09-08T11:45:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "An administrative gap delays access to new pancreatic cancer treatment ",
+      "url": "https://www.statnews.com/2026/09/08/health-news-administrative-gap-delays-access-to-revmed-pancreatic-cancer-drug/?utm_campaign=rss",
+      "summary": "A new wave of illegal fruity vapes, more and more kids on GLP-1s, and other health news from Morning Rounds",
+      "ts": 1788867143000,
+      "publishedAt": "2026-09-08T11:32:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Inhibrx claims first win for long-sought immunotherapy target",
+      "url": "https://www.statnews.com/2026/09/08/inhibrx-inbrx-106-ox40-immunotherapy-head-and-neck-cancer-hpv-positive/?utm_campaign=rss",
+      "summary": "“Pushing this is like a rock up a hill, because there’s been so much failure in the space,” said Inhibrx CEO Mark Lappe.",
+      "ts": 1788867000000,
+      "publishedAt": "2026-09-08T11:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
+      "url": "http://www.iaea.org/newscenter/news/regional-cooperation-strengthens-radioactive-waste-management-in-europe",
+      "summary": "",
+      "ts": 1788866817000,
+      "publishedAt": "2026-09-08T11:26:57.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Hosts Workshop for International Financial Institutions on Nuclear Financing",
+      "url": "http://www.iaea.org/newscenter/news/iaea-hosts-workshop-for-international-financial-institutions-on-nuclear-financing",
+      "summary": "",
+      "ts": 1788865349000,
+      "publishedAt": "2026-09-08T11:02:29.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "With $116M in Series A Financing, BrainChild Bio Targets CNS Tumors, Starting with One in Children’s Brainstems",
+      "url": "https://www.genengnews.com/topics/cancer/with-116m-in-series-a-financing-brainchild-bio-targets-cns-tumors-starting-with-one-in-childrens-brainstems/",
+      "summary": "BCB-276 is designed to treat diffuse intrinsic pontine glioma (DIPG) by targeting B7-H3, an immune checkpoint protein encoded by the CD276 gene that has been shown to be involved in tumor progression and immune evasion a…",
+      "ts": 1788865214000,
+      "publishedAt": "2026-09-08T11:00:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This founder is teaching chips how to recycle (their energy)",
+      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+      "summary": "Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology of…",
+      "ts": 1788863760000,
+      "publishedAt": "2026-09-08T10:36:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person the…",
+      "ts": 1788863640000,
+      "publishedAt": "2026-09-08T10:34:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This founder is making cheaper, cleaner steel",
+      "url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
+      "summary": "The steel industry isn’t exactly known for innovation. Very little has changed about purifying iron ore since the process was invented and commercialized in the 1850s. The majority of steelmakers melt solid iron ore at d…",
+      "ts": 1788863580000,
+      "publishedAt": "2026-09-08T10:33:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This geneticist’s age-reversal tech could help restore sight",
+      "url": "https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/",
+      "summary": "Yuancheng (Ryan) Lu is obsessed with aging. And with eyes. As he steps outside the Whitehead Institute in Cambridge, Massachusetts, his aviator glasses darken automatically in the sun. Age-related blindness runs in his f…",
+      "ts": 1788863520000,
+      "publishedAt": "2026-09-08T10:32:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Roivant lung disease drug hits mid-stage study goals",
@@ -100,6 +298,15 @@
       "ts": 1788840060000,
       "publishedAt": "2026-09-08T04:01:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "ts": 1788825600000,
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Nature Energy",
@@ -603,213 +810,6 @@
       "summary": "After the failure of an experimental drug for Angelman syndrome, experts cautioned that there is still reason to think similar experimental medicines can succeed.",
       "ts": 1788536082000,
       "publishedAt": "2026-09-04T15:34:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Lunar Occultation of Venus",
-      "url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus/",
-      "summary": "On Wednesday, June 17, skywatchers across the United States—and parts of Canada—enjoyed a rare event: a daytime lunar occultation of Venus. A lunar occultation occurs when the Moon moves directly in front of another cele…",
-      "ts": 1788531297000,
-      "publishedAt": "2026-09-04T14:14:57.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA takes another look at botanical drugs",
-      "url": "https://www.statnews.com/2026/09/04/biotech-news-fda-takes-another-look-at-botanical-drugs/?utm_campaign=rss",
-      "summary": "The biggest barrier for a top schzophrenia treatment, Ionis' first approval for Alexander disease, and more biotech news",
-      "ts": 1788529602000,
-      "publishedAt": "2026-09-04T13:46:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 31 Aug - 04 Sep 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_31_Aug_-_04_Sep_2026",
-      "summary": "Week in images: 31 Aug - 04 Sep 2026 Discover our week through the lens",
-      "ts": 1788527400000,
-      "publishedAt": "2026-09-04T13:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Disabled workers at greater risk of losing health insurance",
-      "url": "https://www.statnews.com/2026/09/04/health-news-disabled-workers-at-greater-risk-of-losing-insurance/?utm_campaign=rss",
-      "summary": "An organ transplant first, new details on ADA conference controversy, and more health news from Morning Rounds",
-      "ts": 1788527295000,
-      "publishedAt": "2026-09-04T13:08:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: We’re reading about a Bristol CAR-T trial pause, Pfizer offloading a shelved candidate, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/04/pharmalittle-bristol-car-t-trial-pause-pfizer-offloads-shelved-candidate/?utm_campaign=rss",
-      "summary": "The latest pharma news from the Pharmalot campus brought to you by the Pharmalittle newsletter",
-      "ts": 1788526946000,
-      "publishedAt": "2026-09-04T13:02:26.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: selling battlefield drone data and AI reshaping language",
-      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a…",
-      "ts": 1788523800000,
-      "publishedAt": "2026-09-04T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN tells the world: Stop making Africa look small",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168284",
-      "summary": "The UN General Assembly has voted overwhelmingly to encourage governments, schools and tech companies worldwide to stop using maps that make Africa look far smaller than it really is.",
-      "ts": 1788523200000,
-      "publishedAt": "2026-09-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "West Bank: UN rights report warns of forcible displacement from three refugee camps",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168282",
-      "summary": "Israeli security forces forcibly displaced the entire population of three Palestine refugee camps in the occupied West Bank in January and February last year – and continue to prevent their return, in violation of intern…",
-      "ts": 1788523200000,
-      "publishedAt": "2026-09-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN aims to raise nearly $50 million for Nepal flood response",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168281",
-      "summary": "The UN and its humanitarian partners launched a $49.6 million flash appeal on Friday to deliver emergency assistance to more than 84,000 people affected by last week’s catastrophic floods in Nepal.",
-      "ts": 1788523200000,
-      "publishedAt": "2026-09-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Repeated attacks on humanitarian warehouses put vital medical aid at risk in Ukraine: WHO",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168278",
-      "summary": "A new airstrike overnight damaged one of the main warehouses used by the World Health Organization (WHO) in Ukraine to store humanitarian medical supplies in the Kyiv region, the UN agency said on Friday.",
-      "ts": 1788523200000,
-      "publishedAt": "2026-09-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "What is Environmental Remediation?",
-      "url": "http://www.iaea.org/newscenter/news/what-is-environmental-remediation",
-      "summary": "",
-      "ts": 1788517810000,
-      "publishedAt": "2026-09-04T10:30:10.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
-      "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The…",
-      "ts": 1788513919000,
-      "publishedAt": "2026-09-04T09:25:19.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Make infectious disease data boring again",
-      "url": "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/?utm_campaign=rss",
-      "summary": "“Is CDC now applying different standards to state data depending on who governs the state or what political party won an election?” ask former CDC officials.",
-      "ts": 1788510600000,
-      "publishedAt": "2026-09-04T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lindsay Clancy case exposes dangers of fragmented U.S. health system, experts say",
-      "url": "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/?utm_campaign=rss",
-      "summary": "In the months before killing her children, Lindsay Clancy repeatedly sought help for her deteriorating mental health.",
-      "ts": 1788510600000,
-      "publishedAt": "2026-09-04T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The FDA removed the red tape around one of the best drugs for children with schizophrenia. But the fear remains",
-      "url": "https://www.statnews.com/2026/09/04/clozapine-children-schizophrenia-neutrophil-fda-monitoring/?utm_campaign=rss",
-      "summary": "Clozapine “is one of the most underused drugs in all of medicine,” writes Nitin Gogtay.",
-      "ts": 1788510600000,
-      "publishedAt": "2026-09-04T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "How Sentinel-3 tracks climate change ",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/How_Sentinel-3_tracks_climate_change",
-      "summary": "Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about …",
-      "ts": 1788508800000,
-      "publishedAt": "2026-09-04T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 4 – Na Uhane Mahoe Huki Pu i ke Ola",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
-      "summary": "APOD Science APOD APOD: 2026 September 4 – Na… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1788494700000,
-      "publishedAt": "2026-09-04T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "A Trio of Tropical Cyclones in the Pacific",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
-      "summary": "The Pacific was buzzing with storms while the Atlantic was notably quiet.",
-      "ts": 1788494460000,
-      "publishedAt": "2026-09-04T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Architecture-dependent Effects of Trade-offs on Evolutionary Navigability and Epistasis",
-      "url": "https://arxiv.org/abs/2609.02961",
-      "summary": "arXiv:2609.02961v1 Announce Type: new Abstract: The structure of the genotype-phenotype map plays a central role in determining how populations move through fitness landscapes, yet less is known about how this structure …",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SurfSpec: Enhancing Off-Target-Agnostic Specificity by Bounding Pocket-Ligand Geometric Mismatch",
-      "url": "https://arxiv.org/abs/2609.02963",
-      "summary": "arXiv:2609.02963v1 Announce Type: new Abstract: Lead optimization in structure-based drug design aims to improve target binding while avoiding unintended interactions with off-target pockets. However, existing affinity-d…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sparse concept attribution for histomorphological hypothesis generation from whole-slide classifiers",
-      "url": "https://arxiv.org/abs/2609.02985",
-      "summary": "arXiv:2609.02985v1 Announce Type: new Abstract: Histology images contain rich morphological information and can provide insights into pathological processes. However, deriving hypotheses relating morphological phenotypes…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Advances in Machine Learning for Directed Evolution: A Five-Year Retrospective",
-      "url": "https://arxiv.org/abs/2609.03046",
-      "summary": "arXiv:2609.03046v1 Announce Type: new Abstract: The last five-plus years have seen many protein engineering disciplines transformed by advances in machine learning (ML), but the same cannot be said for directed evolution…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Enhancer-promoter proximity predicts transcriptional competence but not transcriptional output in the Drosophila brain",
-      "url": "https://arxiv.org/abs/2609.03058",
-      "summary": "arXiv:2609.03058v1 Announce Type: new Abstract: How 3D genome architecture contributes to transcriptional specificity across neuronal cell types remains unclear. Here, we used multiplexed chromatin tracing to map chromat…",
-      "ts": 1788494400000,
-      "publishedAt": "2026-09-04T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
