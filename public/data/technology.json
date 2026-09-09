@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-09-09T13:32:12.934Z",
+  "updated": "2026-09-09T17:40:32.635Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "ts": 1788973200000,
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: ARPA-H to invest $62 million to develop FDA-authorized AI to help treat heart failure",
+      "url": "https://www.statnews.com/2026/09/09/arpa-h-advocate-program-autonomous-ai-bots-for-heart-failure/?utm_campaign=rss",
+      "summary": "ARPA-H, the government agency that funds cutting edge health research, plans to commit $62.7 million to develop artificial intelligence bots that direct treatment of heart failure.",
+      "ts": 1788969660000,
+      "publishedAt": "2026-09-09T16:01:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Increasing CHO Cell Productivity",
+      "url": "https://www.genengnews.com/topics/bioprocessing/increasing-cho-cell-productivity/",
+      "summary": "Overexpressing the gene Pabpc1 in CHO cell cultures increases productivity by 30–50%, offering a broadly applicable strategy to engineer highly productive cell lines for antibody production. The post Increasing CHO Cell …",
+      "ts": 1788969650000,
+      "publishedAt": "2026-09-09T16:00:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+      "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+      "summary": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations across the media and entertainment industri…",
+      "ts": 1788969642000,
+      "publishedAt": "2026-09-09T16:00:42.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "No One-Size-Fits-All Solution for Autologous Cell Therapy Manufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/no-one-size-fits-all-solution-for-autologous-cell-therapy-manufacturing/",
+      "summary": "The operational challenges of making patient-specific cell therapies require careful consideration. Choosing the manufacturing model that fits the healthcare infrastructure, the logistical requirements, and the market en…",
+      "ts": 1788969638000,
+      "publishedAt": "2026-09-09T16:00:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Microscale Chromatography Moves Toward Manufacturing Readiness",
+      "url": "https://www.genengnews.com/topics/bioprocessing/microscale-chromatography-moves-toward-manufacturing-readiness/",
+      "summary": "AstraZeneca researchers show that automated microscale chromatography can generate process-characterization insights comparable to traditional bench-scale systems, potentially giving bioprocess developers a faster, mater…",
+      "ts": 1788969609000,
+      "publishedAt": "2026-09-09T16:00:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
+      "url": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
+      "summary": "Last November, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure, and benefit commercial industries, including shipping. The satellite now is fl…",
+      "ts": 1788969600000,
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis II Crew at NASA Marshall",
+      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-at-nasa-marshall/",
+      "summary": "The crew of NASA’s Artemis II mission – NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman and CSA (Canadian Space Agency) astronaut Jeremy Hansen – visited Huntsville, Alabama, Sept. 1, 2026, where they met…",
+      "ts": 1788967904000,
+      "publishedAt": "2026-09-09T15:31:44.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Can AI fix the emergency room?",
+      "url": "https://www.statnews.com/2026/09/09/scribe-emergency-room-fix-health-care-ai-prognosis/?utm_campaign=rss",
+      "summary": "AI can't change the ER's problems, which exemplify health care's bigger problems, writes Brittany Trang in this week's AI Prognosis.",
+      "ts": 1788965935000,
+      "publishedAt": "2026-09-09T14:58:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Orexin discoverers awarded prestigious Lasker award",
+      "url": "https://www.statnews.com/2026/09/09/biotech-news-orexin-discovers-awawrded-prestigious-lasker-award/?utm_campaign=rss",
+      "summary": "A new FDA CBER head, AI company Schrodinger with a new startup, and more biotech news from The Readout",
+      "ts": 1788961100000,
+      "publishedAt": "2026-09-09T13:38:20.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
@@ -39,6 +129,33 @@
       "categoryId": "space"
     },
     {
+      "source": "United Nations News",
+      "title": "UN hails Libya election deal as Security Council urges Libyans to seize the moment",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168302",
+      "summary": "The UN Security Council has welcomed a breakthrough agreement between Libya's rival political blocs, calling it \"an important step\" towards the country's first national elections in over a decade – while pressing all sid…",
+      "ts": 1788955200000,
+      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Guterres urges leaders to invest in peace as conflicts deepen",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168301",
+      "summary": "The UN Secretary-General appealed on Wednesday for world leaders to invest in peace as violence, division and conflict exacerbate suffering worldwide.",
+      "ts": 1788955200000,
+      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Record number of attacks on education, global fund warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168300",
+      "summary": "While September traditionally marks the start of the school year across the northern hemisphere, a staggering 93 million children are not in class at all amid an unprecedented number of attacks on learning, education exp…",
+      "ts": 1788955200000,
+      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "Telemedicine company offers GLP-1s for addiction",
       "url": "https://www.statnews.com/2026/09/09/health-news-telemedicine-company-offers-glp-1s-for-addiction/?utm_campaign=rss",
@@ -64,6 +181,15 @@
       "ts": 1788944400000,
       "publishedAt": "2026-09-09T09:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Ukrainian NPP Workers’ Children Meet with DG, Tour IAEA HQ as Part of Summer Camp Programme Hosted by Austria",
+      "url": "http://www.iaea.org/newscenter/news/ukrainian-npp-workers-children-meet-with-dg-tour-iaea-hq-as-part-of-summer-camp-programme-hosted-by-austria",
+      "summary": "",
+      "ts": 1788943690000,
+      "publishedAt": "2026-09-09T08:48:10.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -685,132 +811,6 @@
       "ts": 1788926400000,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Global geometry of the genotype-phenotype map illuminates a trade-off between penetrance and mutational adaptability",
-      "url": "https://arxiv.org/abs/2608.24704",
-      "summary": "arXiv:2608.24704v2 Announce Type: replace Abstract: Evolution in changing environments requires both reliable expression of the currently favored phenotype, as quantified by penetrance, and the capacity to reach alternat…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structurally Constrained Brain Network Dynamics Reveal Reduced Functional Flexibility in Cocaine Use Disorder",
-      "url": "https://arxiv.org/abs/2608.28892",
-      "summary": "arXiv:2608.28892v2 Announce Type: replace Abstract: Cocaine Use Disorder (CUD) is associated with widespread alterations in large-scale functional brain networks, yet the mechanisms contributing to these changes and thei…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On the interpretation of the kinetics of ligand-receptor binding",
-      "url": "https://arxiv.org/abs/2609.01228",
-      "summary": "arXiv:2609.01228v3 Announce Type: replace Abstract: When the rates of ligand binding are measured by methods such as surface plasmon resonance, it is common practice to use the observed rate constants for the onset and o…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamical stability for dense patterns in attractor neural networks",
-      "url": "https://arxiv.org/abs/2507.10383",
-      "summary": "arXiv:2507.10383v5 Announce Type: replace-cross Abstract: Recurrent neural networks are canonical models of biological memory. In these models, memories are represented by distributed patterns of neural activity that are…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fusing Sequence Motifs and Pan-Genomic Features: Antimicrobial Resistance Prediction using an Explainable Lightweight 1D CNN-XGBoost Ensemble",
-      "url": "https://arxiv.org/abs/2509.23552",
-      "summary": "arXiv:2509.23552v2 Announce Type: replace-cross Abstract: Antimicrobial Resistance (AMR) is a rapidly escalating global health crisis. While genomic sequencing enables rapid prediction of resistance phenotypes, current c…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "What Does a System Modify When It Modifies Itself?",
-      "url": "https://arxiv.org/abs/2603.27611",
-      "summary": "arXiv:2603.27611v2 Announce Type: replace-cross Abstract: When a cognitive system modifies its own functioning, what exactly does it modify: a low-level rule, a control rule, or the criterion that evaluates its revisions…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EmoMind: Decoding Affective Captions from Human Brain fMRI",
-      "url": "https://arxiv.org/abs/2605.16739",
-      "summary": "arXiv:2605.16739v3 Announce Type: replace-cross Abstract: Decoding visual experience from brain activity has advanced substantially, but current brain-to-text systems largely recover semantic content while discarding aff…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Coarse composition suffices: tabular in-context learning for multi-activity antimicrobial peptide profiling",
-      "url": "https://arxiv.org/abs/2608.30337",
-      "summary": "arXiv:2608.30337v2 Announce Type: replace-cross Abstract: Antimicrobial peptides (AMPs) often act against multiple pathogen classes, making multi-label activity prediction a more realistic screening target than binary an…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What OpenAI’s latest controversy tells us about the future of math",
-      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in m…",
-      "ts": 1788923408000,
-      "publishedAt": "2026-09-09T03:10:08.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Novartis Shares Slide After Neuromuscular Candidate Acquired with Avidity Fails Phase III Trial",
-      "url": "https://www.genengnews.com/topics/translational-medicine/novartis-shares-slide-after-neuromuscular-candidate-acquired-with-avidity-fails-phase-iii-trial/",
-      "summary": "Del-desiran failed the Phase III HARBOR trial (NCT06411288) by missing the study’s primary endpoint of statistically significant improvement vs. placebo in video Hand Opening Time (vHOT) through week 54. vHOT is a freque…",
-      "ts": 1788915815000,
-      "publishedAt": "2026-09-09T01:03:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "A heat-driven route to elastocaloric cooling",
-      "url": "https://www.nature.com/articles/s41560-026-02128-0",
-      "summary": "",
-      "ts": 1788912000000,
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "NRAS Mutations May Require Mutation-Guided Combination Therapies",
-      "url": "https://www.genengnews.com/topics/cancer/nras-mutations-may-require-mutation-guided-combination-therapies/",
-      "summary": "Mutant NRAS has remained difficult to target in cancer. New findings suggest that its signaling partnership with wild-type HRAS may offer a targetable vulnerability, but effective strategies may need to be tailored to th…",
-      "ts": 1788904192000,
-      "publishedAt": "2026-09-08T21:49:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA names acting heads of drug and vaccine centers to permanent roles",
-      "url": "https://www.statnews.com/2026/09/08/fda-names-leaders-cder-cber-michael-davis-karim-mikhail/?utm_campaign=rss",
-      "summary": "The moves bring stability to an agency that's been rocked by the exits of top leadership.",
-      "ts": 1788902140000,
-      "publishedAt": "2026-09-08T21:15:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "From the Corps to the Cosmos, featuring Jaden Caradine",
-      "url": "https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
-      "summary": "Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there. Before he enrolled at Embry-Riddle Aeronautical University, before he discovered the field that would become h…",
-      "ts": 1788899399000,
-      "publishedAt": "2026-09-08T20:29:59.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
