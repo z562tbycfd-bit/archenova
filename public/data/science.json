@@ -1,7 +1,167 @@
 {
   "ok": true,
-  "updated": "2026-09-09T20:38:56.828Z",
+  "updated": "2026-09-09T23:01:39.370Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "LLM use may threaten freedom of thought and equality across law, journalism and education",
+      "url": "https://phys.org/news/2026-09-llm-threaten-freedom-thought-equality.html",
+      "summary": "The Human Rights Center at UC Berkeley School of Law has released a human rights assessment of the use of large language models (LLMs) in the fields of law, journalism and education.",
+      "ts": 1788994805000,
+      "publishedAt": "2026-09-09T23:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny salt crevices could act as miniature 'Greenhouses' for Martian microbes",
+      "url": "https://phys.org/news/2026-09-tiny-salt-crevices-miniature-greenhouses.html",
+      "summary": "We've been searching for life on Mars for a long time, but so far we've come up empty. The fundamental problem is a Catch-22 involving two of the key ingredients for life. Life as we know it needs liquid water and reason…",
+      "ts": 1788994802000,
+      "publishedAt": "2026-09-09T23:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New insect genus and four species named for Taylor Swift and her albums",
+      "url": "https://phys.org/news/2026-09-insect-genus-species-taylor-swift.html",
+      "summary": "Taylor Swift is now the namesake of a genus of plant-feeding insects from Australia that were previously unknown to science.",
+      "ts": 1788993601000,
+      "publishedAt": "2026-09-09T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "End impunity for targeted attacks on schools and universities, urge experts",
+      "url": "https://phys.org/news/2026-09-impunity-schools-universities-urge-experts.html",
+      "summary": "Scholasticide—deliberate attacks on a society's education system in armed conflict—is a war crime that must be publicly condemned and its perpetrators held to account, insists an editorial published by The BMJ.",
+      "ts": 1788993005000,
+      "publishedAt": "2026-09-09T22:30:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI ethics problem may lie with organizations, not engineers, study finds",
+      "url": "https://phys.org/news/2026-09-ai-ethics-problem.html",
+      "summary": "AI engineers often recognize ethical risks associated with the systems they build, but many lack the authority, incentives and organizational support needed to act on them, according to new research from the University o…",
+      "ts": 1788992405000,
+      "publishedAt": "2026-09-09T22:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Natural clay reveals a new way to control ion transport at the angstrom scale",
+      "url": "https://phys.org/news/2026-09-natural-clay-reveals-ion-angstrom.html",
+      "summary": "Researchers at the National Graphene Institute have shown that naturally occurring channels within a common clay mineral can respond to pressure, voltage and pH, offering possibilities for controlling the movement of ion…",
+      "ts": 1788992401000,
+      "publishedAt": "2026-09-09T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular surface design achieves over 100 million-fold tuning of porous liquid viscosity",
+      "url": "https://phys.org/news/2026-09-molecular-surface-million-tuning-porous.html",
+      "summary": "Porous liquids combine permanent nanoscale cavities with fluidity, making them promising for applications like carbon dioxide capture, gas separation and other chemical processes. Their viscosity must be tailored to the …",
+      "ts": 1788991208000,
+      "publishedAt": "2026-09-09T22:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Africa's rocks hold ancient stories. We need better ways to document and protect them",
+      "url": "https://phys.org/news/2026-09-africa-ancient-stories-ways-document.html",
+      "summary": "From the Vredefort Dome in South Africa (the world's oldest and largest known meteorite impact structure) to the volcanic lakes of the Great Rift Valley in Kenya, Africa's landscapes hold some of Earth's oldest stories. …",
+      "ts": 1788991201000,
+      "publishedAt": "2026-09-09T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How adoption of a new crop reshaped land use in Bronze Age Europe",
+      "url": "https://phys.org/news/2026-09-crop-reshaped-bronze-age-europe.html",
+      "summary": "A new study published in Science Advances reveals how Bronze Age communities in Central Europe adapted to changing environmental and social conditions by adopting broomcorn millet, a fast-growing, climate-resilient crop.",
+      "ts": 1788990601000,
+      "publishedAt": "2026-09-09T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From drought to floods in North Africa: What could the super El Niño do next?",
+      "url": "https://phys.org/news/2026-09-drought-north-africa-super-el.html",
+      "summary": "Morocco spent most of the last decade drying out. Between 2019 and 2024, the country recorded six consecutive years of below-average rainfall, the longest on record. The 2023–24 hydrological year was the driest in more t…",
+      "ts": 1788990005000,
+      "publishedAt": "2026-09-09T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular antennae make light-activated molecular switches more sensitive",
+      "url": "https://phys.org/news/2026-09-molecular-antennae-sensitive.html",
+      "summary": "From targeted cancer treatments to self-healing materials and microscopic robots, many emerging technologies depend on molecules that can be controlled with light. Researchers at Tohoku University have now developed a wa…",
+      "ts": 1788990001000,
+      "publishedAt": "2026-09-09T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beryllium signal identifies stars that have swallowed rocky planets",
+      "url": "https://phys.org/news/2026-09-beryllium-stars-swallowed-rocky-planets.html",
+      "summary": "An international team led by researchers from the University of São Paulo (USP) in Brazil has developed an innovative method to identify stars that have consumed the planets around them. The technique detects variations …",
+      "ts": 1788989401000,
+      "publishedAt": "2026-09-09T21:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chandra uncovers 'hypersoft X-ray sources' that may solve two astrophysical puzzles",
+      "url": "https://phys.org/news/2026-09-chandra-uncovers-hypersoft-ray-sources.html",
+      "summary": "Using NASA's Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before. Astronomers suggest these newly spotted objects in other galaxies may help solve not on…",
+      "ts": 1788988809000,
+      "publishedAt": "2026-09-09T21:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "If alien civilizations use hyper-efficient computers, they will have a distinct energy signal we can detect",
+      "url": "https://phys.org/news/2026-09-alien-civilizations-hyper-efficient-distinct.html",
+      "summary": "Love it or hate it, artificial intelligence is likely here to stay. Its ravenous need for computational power has overwhelmed chip manufacturers and power companies alike. While our current AI obsession is likely a bubbl…",
+      "ts": 1788988804000,
+      "publishedAt": "2026-09-09T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Terbium's elusive plus-4 form emerges under ordinary lab conditions, opening possibilities for rare-earth metals",
+      "url": "https://phys.org/news/2026-09-terbium-elusive-emerges-ordinary-lab.html",
+      "summary": "Chemists in a new study led by the University of Iowa report they have isolated and described in detail an atypical state of the rare-earth metal terbium, an advance that could expand its use in quantum technologies, inc…",
+      "ts": 1788988204000,
+      "publishedAt": "2026-09-09T21:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cacao genetics could help breeders reduce heavy metal levels in cocoa beans",
+      "url": "https://phys.org/news/2026-09-cacao-genetics-breeders-heavy-metal.html",
+      "summary": "Cadmium is a naturally occurring, toxic heavy metal found in many soils across Latin America and the Caribbean, where cacao trees are widely cultivated. It makes its way into cocoa seeds, called beans, that are roasted a…",
+      "ts": 1788987606000,
+      "publishedAt": "2026-09-09T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How seeds decide whether to wake up in salty soil",
+      "url": "https://phys.org/news/2026-09-seeds-salty-soil.html",
+      "summary": "Researchers have discovered a system that helps seeds survive when there is too much salt in the soil. The system helps young germinating embryos keep the right balance of sodium and potassium as they begin to grow. Unde…",
+      "ts": 1788987604000,
+      "publishedAt": "2026-09-09T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "These bacteria can change their diet to survive inside the body",
+      "url": "https://phys.org/news/2026-09-bacteria-diet-survive-body.html",
+      "summary": "The human body fights staph infections by starving it of essential nutrients. Staph, it turns out, is remarkably good at changing what's on the menu. Staphylococcus aureus—the infamous agent behind MRSA and most staph in…",
+      "ts": 1788987001000,
+      "publishedAt": "2026-09-09T20:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers chart new course for AI-powered biomedical discoveries",
+      "url": "https://phys.org/news/2026-09-ai-powered-biomedical-discoveries.html",
+      "summary": "University of Missouri researchers are paving the way as artificial intelligence transforms biomedical research. A team from the College of Engineering and collaborators recently published one of the most comprehensive r…",
+      "ts": 1788986405000,
+      "publishedAt": "2026-09-09T20:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "American women in communities with ample broadband access lose less time waiting for services, reducing time poverty",
+      "url": "https://phys.org/news/2026-09-american-women-communities-ample-broadband.html",
+      "summary": "Drawing on 14 years of data, we examined whether access to broadband internet could improve Americans' use of time and found that a 10% increase in broadband adoption across a community corresponds to a 1.19% reduction i…",
+      "ts": 1788986401000,
+      "publishedAt": "2026-09-09T20:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Europe's forests are still standing, but many are losing the ability to recover",
@@ -603,202 +763,42 @@
       "publishedAt": "2026-09-09T10:45:12.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "What Is the Maximum Density of Microwave Control Lines in a Superconducting Quantum Computer?",
-      "url": "http://link.aps.org/doi/10.1103/m9p9-z6hl",
-      "summary": "Author(s): Nikolas Klemola Tango, Mar Francis De Guzman, Slawomir Simbierowicz, Yuri Henriqson Accordi, Ville Nuutinen, Massimo Borrelli, and Russell E. Lake Scaling up superconducting quantum computers requires denser c…",
+      "source": "APS PRX",
+      "title": "General Quantum Circuit Framework for Extended Wigner’s Friend Scenarios: Logically and Causally Consistent Reasoning without Absolute Measurement Events",
+      "url": "http://link.aps.org/doi/10.1103/nqbv-6qgr",
+      "summary": "Author(s): V. Vilasini and Mischa P. Woods Researchers develop a quantum circuit framework for extended Wigner’s friend scenarios, resolving logical paradoxes by tracking Heisenberg cuts. [Phys. Rev. X 16, 031062] Publis…",
       "ts": 1788948000000,
       "publishedAt": "2026-09-09T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Generating Honeycomb-Structured Entanglement with a Reconfigurable Spatially Structured Pump",
-      "url": "http://link.aps.org/doi/10.1103/pyq1-b4gj",
-      "summary": "Author(s): Yu Guo, Xiaozhou Pan, Shengshuai Liu, Guanjun Zeng, Kai Zhang, and Jietai Jing Multipartite entanglement is a fundamental resource for quantum information processing. Various degrees of freedom of light, such …",
+      "source": "APS PR Applied",
+      "title": "Distributed variational quantum computing with deterministic entanglement tuning",
+      "url": "http://link.aps.org/doi/10.1103/9pj6-prlz",
+      "summary": "Author(s): Ilhwan Kim, Yong-Su Kim, Kwang Jo Lee, Hyukjoon Kwon, Yosep Kim, and Hyang-Tag Lim Distributed quantum computing offers a scalable route to quantum information processing by entangling spatially separated proc…",
       "ts": 1788948000000,
       "publishedAt": "2026-09-09T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Network-Irreducible Multiparty Entanglement in Quantum Matter",
-      "url": "http://link.aps.org/doi/10.1103/jv51-thxz",
-      "summary": "Author(s): Liuke Lyu, Pedro Lauand, and William Witczak-Krempa We show that the standard approach to characterize collective entanglement via genuine multiparty entanglement (GME) leads to an area law in ground and therm…",
+      "source": "APS PR Applied",
+      "title": "Models of liquid-sample confinement for nanoscale NMR",
+      "url": "http://link.aps.org/doi/10.1103/7hbs-1q24",
+      "summary": "Author(s): Santiago Oviedo-Casado, Daniel Cohen, Allan Josué González-Villalobos, and Javier Cerrillo Diffusion is a prominent source of noise affecting nuclear magnetic resonance at the nanometer scale (nano-NMR), preve…",
       "ts": 1788948000000,
       "publishedAt": "2026-09-09T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Local Reversibility and Divergent Markov Length in $1+1$-D Directed Percolation",
-      "url": "http://link.aps.org/doi/10.1103/bwqg-3862",
-      "summary": "Author(s): Yu-Hsueh Chen and Tarun Grover Recent progress in open many-body quantum systems has highlighted the importance of the Markov length, the characteristic scale over which conditional correlations decay. It has …",
+      "source": "APS PR Applied",
+      "title": "Dynamic control of orbital angular momentum of light in strong atmospheric turbulence for free-space optical communication",
+      "url": "http://link.aps.org/doi/10.1103/yfpj-b8q7",
+      "summary": "Author(s): Mulin Yu, Yakun Wang, Yizhou Liu, Lingfei Xu, Yahong Chen, Jiayi Yu, and Fei Wang Free-space optical communication based on photonic orbital angular momentum (OAM), including OAM multiplexing and OAM modulatio…",
       "ts": 1788948000000,
       "publishedAt": "2026-09-09T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Practical Roadmap to Measurement-Altered Criticality in Rydberg Arrays",
-      "url": "http://link.aps.org/doi/10.1103/dzff-3lxm",
-      "summary": "Author(s): Stephen Naus, Yue Liu, Sara Murciano, Pablo Sala, Manuel Endres, and Jason Alicea Weak measurements have been predicted to dramatically alter universal properties of quantum critical wave functions, though exp…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Fundamental Limits on Quantum Bit Error Rate and Distance in Quantum Key Distribution",
-      "url": "http://link.aps.org/doi/10.1103/3bgy-tpy9",
-      "summary": "Author(s): Stefano Pirandola Quantum key distribution (QKD) enables information-theoretic secure communication, yet its ultimate tolerance to noise and achievable transmission distance remain fundamentally constrained. W…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Experimental Demonstration of Asynchronous Measurement-Device-Independent Quantum Cryptographic Conferencing",
-      "url": "http://link.aps.org/doi/10.1103/bqpp-4bpv",
-      "summary": "Author(s): Haotao Zhu, Zhenhua Li, Shuai Zhao, Xiaodan Lyu, Shihao Ru, Yizhi Huang, Zitong Xu, Rui Qu, and Weibo Gao Quantum networks enable a variety of quantum information processing tasks, where multiuser quantum comm…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Updated Constraints on the Injection Energy of Positrons Generating the Galactic 511 keV $γ$-Ray Line",
-      "url": "http://link.aps.org/doi/10.1103/7v14-g7tf",
-      "summary": "Author(s): Souradeep Das, Mark R. Krumholz, Roland M. Crocker, Thomas Siegert, and Laura Eisenberger Even 50 years after the discovery of a positron annihilation line from the inner Galaxy, no class of astrophysical sour…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Not-Quite-Primordial Black Holes",
-      "url": "http://link.aps.org/doi/10.1103/zfjm-8fnt",
-      "summary": "Author(s): Wenzer Qin, Soubhik Kumar, Priyamvada Natarajan, and Neal Weiner We propose a new mechanism for the formation of seeds of supermassive black holes at early cosmic epochs. Our scenario explores density fluctuat…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Six-Loop Gravitational Interactions at the Sixth Post-Newtonian Order",
-      "url": "http://link.aps.org/doi/10.1103/c2r3-cqtf",
-      "summary": "Author(s): Giacomo Brunello, Manoj K. Mandal, Pierpaolo Mastrolia, Raj Patil, Matteo Pegorin, Jonathan Ronca, Sid Smith, Jan Steinhoff, and William J. Torres Bobadilla We compute the gravitational interaction of two coal…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Complete Computation of All Three-Loop Five-Point Massless Planar Integrals",
-      "url": "http://link.aps.org/doi/10.1103/bpn4-m92g",
-      "summary": "Author(s): Dmitry Chicherin, Yu Wu, Zihao Wu, Yongqun Xu, Shun-Qing Zhang, and Yang Zhang We calculate all three-loop, five-point, massless planar Feynman integral families in the dimensional regularization scheme. This …",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Regge Spectral Generator and Form Factors from Hard Exclusive Amplitudes in Holographic QCD",
-      "url": "http://link.aps.org/doi/10.1103/55pw-29c6",
-      "summary": "Author(s): Guy F. de Téramond, Stanley J. Brodsky, and Hans Günter Dosch We show that the infinite tower of hard exclusive amplitudes in holographic light-front QCD leads to a spectral generator $G(α,λ)$ that encodes the…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quark and Gluon Tomography of the Helium-4 Nucleus",
-      "url": "http://link.aps.org/doi/10.1103/634s-zcy6",
-      "summary": "Author(s): V. Martínez-Fernández, B. Pire, P. Sznajder, and J. Wagner QCD collinear factorization allows coherent hard exclusive reactions to reveal the quark-gluon structure of light nuclei, enabling their 3D tomography…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Investigation of Medium Modifications to $^{12}\\mathrm{C}$ Structure Functions in the Resonance Region",
-      "url": "http://link.aps.org/doi/10.1103/ps3y-63xb",
-      "summary": "Author(s): S. Alsalmi et al. (The JUPITER Collaboration: JLab E02-109 E04-001 E06-009) We present results from a high precision experimental study of the nuclear modification of the longitudinal (${F}_{L}$) to transverse…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spatially Resolved Temperature Measurement Using Rydberg Doppler Broadening Thermometry",
-      "url": "http://link.aps.org/doi/10.1103/kbfx-l9zk",
-      "summary": "Author(s): K. N. Trivedi, M. Carminati, Èlia Solé Cardona, T. Bonaccorsi, R. Donofrio, B. Bégoc, and O. Morsch We demonstrate a technique for spatially resolved temperature measurement utilizing Rydberg Doppler broadenin…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Low-Entropy Arrays of Microwave-Shielded Molecules Prepared by Interaction Blockade",
-      "url": "http://link.aps.org/doi/10.1103/vprz-jqz5",
-      "summary": "Author(s): Tijs Karman, Sebastian Will, and Zoe Z. Yan Ultracold molecules are becoming an increasingly important technology for quantum simulation, computation, and sensing, but their state preparation in large, low-ent…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Hybrid Qubit-Oscillator Module from Motional States of Two Interacting Atoms",
-      "url": "http://link.aps.org/doi/10.1103/2c4d-h5rc",
-      "summary": "Author(s): Jaeyong Hwang, Tianrui Xu, Sean R. Muleady, Steven K. Pampel, Gur Lubin, Dawson P. Hewatt, Cindy A. Regal, and Ana Maria Rey We propose a qubit-oscillator platform based on the motional states of two interacti…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Measuring and Correcting Nanosecond Pulse Distortions in Quantum-Dot Spin Qubits",
-      "url": "http://link.aps.org/doi/10.1103/l5k6-csy3",
-      "summary": "Author(s): Jiheng Duan, Fernando Torres-Leal, and John M. Nichol Gate-defined semiconductor quantum dots utilize fast electrical control to manipulate spin and charge states of individual electrons. Electrical pulse dist…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Programmable Branched Flow of Light",
-      "url": "http://link.aps.org/doi/10.1103/2fxf-jr9b",
-      "summary": "Author(s): Shan-shan Chang, Daxing Xiong, Ze-huan Zheng, Li-Wei Wang, Yan-qing Lu, Lu-Jian Chen, Jian-Hua Jiang, and Jin-hui Chen Wave transport in disordered media is obscured by complex multiple scattering, yet prior e…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Hexagonal Close-Packed Water Ice at Conditions in Ice Giant Planetary Interiors",
-      "url": "http://link.aps.org/doi/10.1103/sdrk-3m4t",
-      "summary": "Author(s): Alexis Forestier, Gunnar Weck, Sandra Ninet, Gaston Garbarino, Mohamed Mezouar, Frédéric Datchi, and Paul Loubeyre Researchers crushed and heated ice between diamond anvils to confirm the existence of a phase …",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Waiting Time Distribution and Multifractality Analysis of Solar Flares",
-      "url": "http://link.aps.org/doi/10.1103/b7tv-8mbk",
-      "summary": "Author(s): S. Mestici, M. Berretti, F. Berrilli, and R. Benzi The statistical properties of solar flare occurrence are critical for understanding coronal energy release, yet the nature of their underlying dynamics remain…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Moiré-Modulated $\\mathrm{Γ}$ Valley in Twisted Bilayer and Twisted Double-Bilayer ${\\mathrm{MoTe}}_{2}$",
-      "url": "http://link.aps.org/doi/10.1103/wnyd-m5sr",
-      "summary": "Author(s): Wanying Chen, Hongyun Zhang, Jinxi Lu, Yu Gu, Qiyun Xu, Fei Wang, Xuanxi Cai, Jiansong Li, Jiayong Xiao, Rui Chen, Kenji Watanabe, Takashi Taniguchi, Jose Avila, Pavel Dudin, Matthew D. Watson, Pu Yu, Shengwei…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Engineering Quantum Criticality in the Integer Quantum Hall Regime through a Screening Layer",
-      "url": "http://link.aps.org/doi/10.1103/7vkh-q7rd",
-      "summary": "Author(s): C. T. Tai, P. T. Madathil, A. Gupta, L. N. Pfeiffer, K. W. Baldwin, and M. Shayegan A universal scaling exponent κ≈0.42 corresponds to a dynamic exponent z=1 in the integer quantum Hall regime in a bilayer GaA…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Hyperspin Altermagnets",
-      "url": "http://link.aps.org/doi/10.1103/dnr2-gv31",
-      "summary": "Author(s): Hai-Yang Ma, Yuanchang Li, Hu Xu, Shengbai Zhang, and Jin-Feng Jia The behavior of spin quantum in $\\mathbf{k}$-space is key to identifying altermagnets (AMs) as the third kind of fundamental collinear magneti…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Autferroics-Based True Random Number Generators with Enhanced Performance",
-      "url": "http://link.aps.org/doi/10.1103/8vd7-ffng",
-      "summary": "Author(s): Jun-Jie Zhang, Shuai Dong, and Boris I. Yakobson Physical entropy-driven true random number generators are essential for emerging probabilistic computing paradigms, but conventional implementations based on ma…",
+      "source": "APS PR Applied",
+      "title": "Toward high-resolution low-energy electron spectroscopy with transition-edge sensors",
+      "url": "http://link.aps.org/doi/10.1103/dw1k-tcbp",
+      "summary": "Author(s): R. Ammendola et al. (PTOLEMY Collaboration) Transition-edge sensors (TESs) have already been proven to detect electrons with kinetic energy of about 100 eV, with a Gaussian energy resolution of 1 eV, comparabl…",
       "ts": 1788948000000,
       "publishedAt": "2026-09-09T10:00:00.000Z"
     }

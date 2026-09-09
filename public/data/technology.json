@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-09T20:38:59.442Z",
+  "updated": "2026-09-09T23:01:43.287Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: U.K. unveils recommendations for regulating AI in medicine",
+      "url": "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/?utm_campaign=rss",
+      "summary": "A U.K. commission has unveiled its recommendations for how the country should regulate artificial intelligence in medicine.",
+      "ts": 1788994860000,
+      "publishedAt": "2026-09-09T23:01:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Coroner releases details of infants who died amid growing Pennsylvania measles outbreak",
+      "url": "https://www.statnews.com/2026/09/09/coroner-details-infant-deaths-pennsylvania-measles-outbreak/?utm_campaign=rss",
+      "summary": "The two measles-related deaths in Pennsylvania last month involved infants, and the virus itself caused one of the deaths, a Pennsylvania coroner confirmed Wednesday.",
+      "ts": 1788990247000,
+      "publishedAt": "2026-09-09T21:44:07.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
@@ -217,6 +235,15 @@
       "ts": 1788954816000,
       "publishedAt": "2026-09-09T11:53:36.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "ts": 1788951600000,
+      "publishedAt": "2026-09-09T11:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -781,33 +808,6 @@
       "title": "Mathematical Models of Evolution and Replicator Systems Dynamics",
       "url": "https://arxiv.org/abs/2604.05720",
       "summary": "arXiv:2604.05720v3 Announce Type: replace Abstract: This is an edited English version of the authors' monograph \"Mathematical Models of Evolution and Replicator Systems Dynamics\", posted on arXiv as a single document to …",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying the effect of phenotype on clustering behaviour in melanoma: from monoculture to co-culture",
-      "url": "https://arxiv.org/abs/2604.24673",
-      "summary": "arXiv:2604.24673v2 Announce Type: replace Abstract: Melanoma is an aggressive form of skin cancer. Survival rates are excellent if it is detected early but fall markedly if it metastasises. A key step in early tumour pro…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Inferring Active Neural Circuits Using Diffusion Scores",
-      "url": "https://arxiv.org/abs/2605.02852",
-      "summary": "arXiv:2605.02852v2 Announce Type: replace Abstract: In biological systems, neural circuits compute through directed, short-latency interactions whose effects unfold across multiple time scales and behavioral contexts. We…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Algorithmic bottlenecks in evolution: Genetic code, symbolic language, and the Great Filter hypothesis",
-      "url": "https://arxiv.org/abs/2605.04498",
-      "summary": "arXiv:2605.04498v2 Announce Type: replace Abstract: The Great Filter hypothesis proposes that the emergence of technological societies capable of interstellar travel depends on a small number of exceptionally hard and hi…",
       "ts": 1788926400000,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "categoryId": "bio"
