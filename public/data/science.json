@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-09-08T23:55:01.801Z",
+  "updated": "2026-09-09T03:42:48.924Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Grooming-related messages reach almost two-thirds of children",
+      "url": "https://phys.org/news/2026-09-grooming-messages-thirds-children.html",
+      "summary": "Nearly two-thirds of Australian children surveyed in a recent study received at least one form of grooming-related communication from a stranger online in the past year, while almost one-third reported receiving direct r…",
+      "ts": 1788922801000,
+      "publishedAt": "2026-09-09T03:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chesapeake Bay underwater grasses increase 7%, buoyed by gains in salty waters",
+      "url": "https://phys.org/news/2026-09-chesapeake-bay-underwater-grasses-buoyed.html",
+      "summary": "Submerged aquatic vegetation (SAV), one of the Chesapeake Bay's most important indicators of ecosystem health, increased by 7% in 2025, according to researchers at William & Mary's VIMS & Batten School.",
+      "ts": 1788921601000,
+      "publishedAt": "2026-09-09T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A vicarious calibration model enables quantitative applications of Fengyun-3 satellite ocean color data",
+      "url": "https://phys.org/news/2026-09-vicarious-calibration-enables-quantitative-applications.html",
+      "summary": "Ocean color remote sensing is a vital tool for monitoring global ocean carbon sinks and primary productivity. However, the on-orbit calibration accuracy of satellite sensors is insufficient, and weak marine signals accou…",
+      "ts": 1788920402000,
+      "publishedAt": "2026-09-09T02:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why does Southeast Asia keeps breathing the same haze—and can ASEAN do more to stop it?",
+      "url": "https://phys.org/news/2026-09-southeast-asia-haze-asean.html",
+      "summary": "Southeast Asia has spent decades trying to tackle haze from forest fires. Yet every few years, the region finds itself breathing it again. The transboundary environmental problem has become a recurrent phenomenon in the …",
+      "ts": 1788919202000,
+      "publishedAt": "2026-09-09T02:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New computational method pushes cryo-electron microscopy beyond traditional resolution limits",
+      "url": "https://phys.org/news/2026-09-method-cryo-electron-microscopy-traditional.html",
+      "summary": "Cryo-electron microscopy (cryo-EM) has become a powerful tool for determining the structures of proteins, viruses and molecular complexes at near-atomic resolution. However, achievable resolution is fundamentally limited…",
+      "ts": 1788918003000,
+      "publishedAt": "2026-09-09T01:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny backpacks reveal the secret, sometimes circuitous migrations of small songbirds",
+      "url": "https://phys.org/news/2026-09-tiny-backpacks-reveal-secret-circuitous.html",
+      "summary": "Squinting through my binoculars, I scanned the dense branches of a black spruce, trying my best to catch a glimpse of the thin legs of a small black, white and yellow songbird. I was on the hunt for a yellow-rumped warbl…",
+      "ts": 1788916803000,
+      "publishedAt": "2026-09-09T01:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why a wetter Tibetan Plateau still faces 'hot-dry' extremes: The roles of ENSO and the North Atlantic",
+      "url": "https://phys.org/news/2026-09-wetter-tibetan-plateau-hot-dry.html",
+      "summary": "Since the 1950s, the Tibetan Plateau has experienced pronounced warming and wetting. However, an overall shift toward wetter conditions does not necessarily mean that drought risk has diminished. On the contrary, against…",
+      "ts": 1788915601000,
+      "publishedAt": "2026-09-09T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some black holes grow much faster than their galaxies",
+      "url": "https://phys.org/news/2026-09-black-holes-faster-galaxies.html",
+      "summary": "Nearly every galaxy has a supermassive black hole. The few that don't have had theirs ejected during a galactic collision. That's because galaxies and their black holes have formed hand in hand. There is still some debat…",
+      "ts": 1788914401000,
+      "publishedAt": "2026-09-09T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Searching for unknown fungi in the Norwegian mountains",
+      "url": "https://phys.org/news/2026-09-unknown-fungi-norwegian-mountains.html",
+      "summary": "During some days in August, science takes center stage. The experts are surveying the little-known diversity of fungi found in the alpine Dryas heath. They may even discover species that have never been described scienti…",
+      "ts": 1788913202000,
+      "publishedAt": "2026-09-09T00:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One of the oldest known 3D animal fossils found in Norwegian sheep field",
+      "url": "https://phys.org/news/2026-09-oldest-3d-animal-fossils-norwegian.html",
+      "summary": "One of the oldest known 3D fossils of an animal has been discovered in a sheep field in the Norwegian Arctic, the first new major site of its kind anywhere in Europe in decades.",
+      "ts": 1788912005000,
+      "publishedAt": "2026-09-09T00:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Action on climate and air pollution likely to boost economy, UN says",
+      "url": "https://phys.org/news/2026-09-action-climate-air-pollution-boost.html",
+      "summary": "Every US$1 invested in tackling climate change and air pollution together can generate around US$15 in economic benefits, according to a report published today by the U.N. Environment Programme (UNEP) and the Climate and…",
+      "ts": 1788912001000,
+      "publishedAt": "2026-09-09T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "An elite allele <i>TaNPF7.6-A1</i><sup><i>mod</i></sup> enhances nitrogen use efficiency and grain yield in wheat",
+      "url": "https://www.nature.com/articles/s41467-026-76836-2",
+      "summary": "",
+      "ts": 1788912000000,
+      "publishedAt": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "End processing in NHEJ by Polymerase λ and PNKP is coordinated during short-range synapsis",
+      "url": "https://www.nature.com/articles/s41467-026-77503-2",
+      "summary": "",
+      "ts": 1788912000000,
+      "publishedAt": "2026-09-09T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Germany's 15-year-olds post lowest PISA results since testing began 25 years ago",
@@ -659,38 +763,6 @@
       "publishedAt": "2026-09-08T11:00:01.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Bridging gaps in Rydberg rf receivers using modulation-transfer bandwidth enhancement",
-      "url": "http://link.aps.org/doi/10.1103/y9dt-gs85",
-      "summary": "Author(s): Mickael Branco, K. V. Adwaith, Gabriel Boccara, Duc-Anh Trinh, Sacha Welinski, Perrine Berger, Fabienne Goldfarb, and Fabien Bretenaker We optimize theoretically and experimentally the performances of the rece…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Enhanced sensitivity in whispering-gallery-mode sensors through mode hybridization",
-      "url": "http://link.aps.org/doi/10.1103/ndy6-ny7l",
-      "summary": "Author(s): Vivek Gualani, Sofía Sisteré, Josep Salvans-Tort, Maria Riera, Wenle Weng, Josep Sanjuan, and Miquel Nofrarias Mode interactions in crystalline microresonators play a significant role in determining the behavi…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "RASER-resolved $^{129}\\mathrm{Xe}$ chemical shifts in an inhomogeneous ultralow magnetic field",
-      "url": "http://link.aps.org/doi/10.1103/64np-3ndy",
-      "summary": "Author(s): Sebastian W. Atalla, Andrew K. Maresca, Aaron J. Ferreira, Nikolas M. Jauch, and Rosa T. Branca Low-field nuclear magnetic resonance (NMR) spectroscopy ($<1\\text{ }\\mathrm{T}$) often suffers from reduced sensi…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Programmable dynamic phase control of a quasiperiodic optical lattice",
-      "url": "http://link.aps.org/doi/10.1103/z5xd-vqh9",
-      "summary": "Author(s): Andrew O. Neely, Cedric C. Wilson, Ryan Everly, Yu Yao, Raffaella F. Zanetti, and Charles D. Brown The quantum dynamics of quasiperiodic systems display a rich variety of physical behaviors due to the combinat…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Exponentially Enhanced Two-Mode Multiboson Entanglement via Phase-Modulated Tunneling",
       "url": "http://link.aps.org/doi/10.1103/mxnp-zvth",
@@ -727,78 +799,6 @@
       "title": "Lorentz-Violating Scenarios for the Highest-Energy Photons from GRB 221009A",
       "url": "http://link.aps.org/doi/10.1103/zjh2-mc47",
       "summary": "Author(s): Giorgio Galanti and Marco Roncadelli A photon at $\\mathcal{E}≃251\\text{ }\\text{ }\\mathrm{TeV}$ from GRB 221009A was detected by the Carpet Collaboration in 2022 using a partial dataset. Very recently, Carpet h…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Conformal Defects and Goldstone Bosons in Anti–de Sitter Space",
-      "url": "http://link.aps.org/doi/10.1103/853m-z97v",
-      "summary": "Author(s): Lorenzo Bianchi, Elia de Sabbata, and Marco Meineri We study local quantum field theories in anti–de Sitter (AdS) space, with boundary conditions that break some of the bulk isometries. Specifically, we focus …",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Delayed Charged Lepton Yukawa Equilibration in Minimal Seesaw",
-      "url": "http://link.aps.org/doi/10.1103/nfkx-q6z7",
-      "summary": "Author(s): Rishav Roshan and Sudipta Show While most studies of the minimal type-I seesaw neglect the heaviest decoupled right-handed neutrino, assuming negligible contributions to neutrino masses and leptogenesis, we de…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Isotensor $πππ$ Scattering with a $ρ$-Resonant Subsystem from QCD",
-      "url": "http://link.aps.org/doi/10.1103/yyfr-j1yl",
-      "summary": "Author(s): Raúl A. Briceño, Maxwell T. Hansen, Andrew W. Jackura, Robert G. Edwards, and Christopher E. Thomas (for the Hadron Spectrum Collaboration) This Letter presents a lattice quantum chromodynamics (QCD) determina…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Energy Correlators within Jets in Transversely Polarized Proton-Proton Collisions at $\\sqrt{s}=200\\text{ }\\text{ }\\mathrm{GeV}$",
-      "url": "http://link.aps.org/doi/10.1103/fgsf-gx2q",
-      "summary": "Author(s): B. E. Aboona et al. (STAR Collaboration) We report the first measurement of one- and two-point energy correlators within jets in transversely polarized proton-proton collisions at $\\sqrt{s}=200\\text{ }\\text{ }…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "General Double-Zero-Index Photonic Crystals",
-      "url": "http://link.aps.org/doi/10.1103/xb4y-tl1w",
-      "summary": "Author(s): Zebin Zhu, Dong Zhao, Ziyao Wang, Xucheng Yang, Liyong Jiang, and Zhen Gao Some photonic crystals (PCs) with Dirac-like (or semi-Dirac) conical dispersions exhibit the property of double-zero index (DZI), whic…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Negative Refraction of Terahertz Phonons via Interfacial Momentum Compensation",
-      "url": "http://link.aps.org/doi/10.1103/n9zv-9kc5",
-      "summary": "Author(s): Hao Chen, Zhong-Ke Ding, Yuan Yao, Chang-Hao Ding, Nannan Luo, Jiang Zeng, Li-Ming Tang, and Ke-Qiu Chen Negative refraction provides a route to steer and focus wave energy flow, but it remains difficult to re…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Competing Ordering Modes in the Distorted Quantum Kagome Material Clinoatacamite ${\\mathrm{Cu}}_{2}\\mathrm{Cl}{(\\mathrm{OH})}_{3}$",
-      "url": "http://link.aps.org/doi/10.1103/xmh8-68vk",
-      "summary": "Author(s): L. Stödter, C. Kastner, H. O. Jeschke, M. Reehuis, E. Chan, M.-H. Lemée-Cailleau, K. Beauvois, B. Ouladdiaf, F. Yokaichiya, F. Bert, T. J. Hicken, J. A. Krieger, H. Luetkens, J. L. Allen, R. Feyerherm, M. Tova…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Magnetization Plateaux as a Roadmap to Quantum Spin Liquids",
-      "url": "http://link.aps.org/doi/10.1103/tkpx-sq6n",
-      "summary": "Author(s): Anna Keselman, Xinyuan Xu, Hao Zhang, Cristian D. Batista, and Oleg A. Starykh We investigate the spin-$1/2$ ${J}_{1}–{J}_{2}$ triangular-lattice Heisenberg antiferromagnet in a magnetic field by combining lar…",
-      "ts": 1788861600000,
-      "publishedAt": "2026-09-08T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Approaching Kasteleyn Transition in Frustrated Quantum Heisenberg Antiferromagnets",
-      "url": "http://link.aps.org/doi/10.1103/4cn4-fymq",
-      "summary": "Author(s): Katarína Karl’ová, Afonso Rufino, Taras Verkholyak, Nils Caci, Stefan Wessel, Jozef Strečka, Frédéric Mila, and Andreas Honecker We show that the Kasteleyn transition, the abrupt proliferation of infinite stri…",
       "ts": 1788861600000,
       "publishedAt": "2026-09-08T10:00:00.000Z"
     }

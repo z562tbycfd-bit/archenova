@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-08T23:55:04.937Z",
+  "updated": "2026-09-09T03:42:53.464Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in m…",
+      "ts": 1788923408000,
+      "publishedAt": "2026-09-09T03:10:08.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Novartis Shares Slide After Neuromuscular Candidate Acquired with Avidity Fails Phase III Trial",
+      "url": "https://www.genengnews.com/topics/translational-medicine/novartis-shares-slide-after-neuromuscular-candidate-acquired-with-avidity-fails-phase-iii-trial/",
+      "summary": "Del-desiran failed the Phase III HARBOR trial (NCT06411288) by missing the study’s primary endpoint of statistically significant improvement vs. placebo in video Hand Opening Time (vHOT) through week 54. vHOT is a freque…",
+      "ts": 1788915815000,
+      "publishedAt": "2026-09-09T01:03:35.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "NRAS Mutations May Require Mutation-Guided Combination Therapies",
@@ -790,24 +808,6 @@
       "title": "Quantum Optimisation for Protein-Protein Interaction Network Alignment",
       "url": "https://arxiv.org/abs/2609.05238",
       "summary": "arXiv:2609.05238v1 Announce Type: cross Abstract: Protein-protein interaction (PPI) network alignment combines topological and sequence information to identify conserved modules across species, but global alignment remai…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks",
-      "url": "https://arxiv.org/abs/2609.05400",
-      "summary": "arXiv:2609.05400v1 Announce Type: cross Abstract: When there is not enough labeled data to properly train deep learning models, transfer learning can help. We still do not fully understand how effective it is in neuroima…",
-      "ts": 1788753600000,
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An AI-Enabled Agent-Based Simulation Platform for Studying COVID-19 Pandemic",
-      "url": "https://arxiv.org/abs/2106.11070",
-      "summary": "arXiv:2106.11070v3 Announce Type: replace Abstract: Understanding outbreak dynamics is essential for designing effective control measures. We developed an agent-based model to examine how changes in epidemiological and i…",
       "ts": 1788753600000,
       "publishedAt": "2026-09-07T04:00:00.000Z",
       "categoryId": "bio"
