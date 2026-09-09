@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-09T17:40:32.635Z",
+  "updated": "2026-09-09T20:38:59.442Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
+      "url": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
+      "summary": "A NASA Launch Services (NLS) II contract has been awarded by the agency to Relativity Space Inc., and its Terran R launch service in accordance with the contract’s on-ramp provision. The Terran R launch service will be a…",
+      "ts": 1788984718000,
+      "publishedAt": "2026-09-09T20:11:58.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Emerging Power of Mass Spectrometry in Oncology",
+      "url": "https://www.genengnews.com/topics/omics/the-emerging-power-of-mass-spectrometry-in-oncology/",
+      "summary": "Novel approaches are urgently needed to improve availability of diagnostic assays, and recent efforts have shifted toward uncovering the biological pathways and molecular profiles underlying disease onset, progression, a…",
+      "ts": 1788982808000,
+      "publishedAt": "2026-09-09T19:40:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Chandra Unveils Mysterious X-Ray Objects",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/",
+      "summary": "Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before. Astronomers suggest these newly spotted objects in other galaxies may help solve not on…",
+      "ts": 1788977484000,
+      "publishedAt": "2026-09-09T18:11:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Gene Therapy Extends Lifespan and Reduces Symptoms in Sandhoff Disease Cat Model",
+      "url": "https://www.genengnews.com/topics/translational-medicine/gene-therapy-extends-lifespan-and-reduces-symptoms-in-sandhoff-disease-cat-model/",
+      "summary": "Intravenous gene therapy extended lifespan, reduced neurological symptoms, and improved disease markers in a Sandhoff disease cat model, supporting further investigation of systemic AAV gene therapy for this disorder. Th…",
+      "ts": 1788976837000,
+      "publishedAt": "2026-09-09T18:00:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Monoclonal Antibodies Targeting MMP-9 Alleviate Peripheral Neuropathy in Diabetic Mice",
+      "url": "https://www.genengnews.com/topics/drug-discovery/monoclonal-antibodies-targeting-mmp-9-alleviate-peripheral-neuropathy-in-diabetic-mice/",
+      "summary": "Scientists developed monoclonal antibodies targeting matrix metalloproteinase-9, which in a newly reported preclinical study slowed and even reversed diabetic nerve damage in mouse models of type I and type II diabetes. …",
+      "ts": 1788976815000,
+      "publishedAt": "2026-09-09T18:00:15.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "OpenAI",
       "title": "Paul Christiano joins OpenAI Foundation Board",
@@ -127,6 +172,15 @@
       "ts": 1788955200000,
       "publishedAt": "2026-09-09T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Plight of Afghans going ‘from bad to worse’, but the world is looking away: Türk",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168303",
+      "summary": "Since the Taliban returned to power in 2021, the plight of Afghans has only deteriorated, with millions impoverished while authorities violate basic human rights daily.",
+      "ts": 1788955200000,
+      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -754,60 +808,6 @@
       "title": "Algorithmic bottlenecks in evolution: Genetic code, symbolic language, and the Great Filter hypothesis",
       "url": "https://arxiv.org/abs/2605.04498",
       "summary": "arXiv:2605.04498v2 Announce Type: replace Abstract: The Great Filter hypothesis proposes that the emergence of technological societies capable of interstellar travel depends on a small number of exceptionally hard and hi…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Chapter 2: Geometry of the Fitness Surface and Trajectory Dynamics of Replicator Systems",
-      "url": "https://arxiv.org/abs/2605.05385",
-      "summary": "arXiv:2605.05385v2 Announce Type: replace Abstract: We study the geometry of the mean fitness surface of replicator systems and its relationship to evolutionary trajectory dynamics. Using the symmetric--antisymmetric dec…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Perceived face similarity reflects inverse-generative and naturalistic discriminative objectives",
-      "url": "https://arxiv.org/abs/2605.12619",
-      "summary": "arXiv:2605.12619v2 Announce Type: replace Abstract: The perceptual representations supporting our ability to recognize faces remain a computational mystery. Deep neural networks offer mechanistic hypotheses for human fac…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geometric Reliability of Neural Population Codes: Sampling Calibration and Within-Session Nonstationarity",
-      "url": "https://arxiv.org/abs/2606.29655",
-      "summary": "arXiv:2606.29655v2 Announce Type: replace Abstract: Trial-to-trial variability limits how reliably neural population geometry can be estimated, while comparisons across populations depend on neuron and trial counts, resp…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mathematical Model of Evolution of Non-Degenerate Replicator Systems",
-      "url": "https://arxiv.org/abs/2607.04456",
-      "summary": "arXiv:2607.04456v3 Announce Type: replace Abstract: We propose and analyse a mathematical model of evolutionary adaptation for non-degenerate (permanent) replicator systems, in which the fitness landscape matrix evolves …",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Jointly estimating transmissibility and prior immunity from epidemic time series",
-      "url": "https://arxiv.org/abs/2607.21657",
-      "summary": "arXiv:2607.21657v2 Announce Type: replace Abstract: Infectious disease time series are often used to estimate a pathogen's basic reproduction number, $R_0$. However, fits of epidemic models to time series conflate pathog…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Persistent Random-Walk Model of Molecular Transport in Neuronal Dendritic Trees",
-      "url": "https://arxiv.org/abs/2608.00995",
-      "summary": "arXiv:2608.00995v2 Announce Type: replace Abstract: A two-level analytical framework is presented for modeling random walk transport of messenger ribonucleic acid (mRNA) molecules along neuronal microtubules from soma to…",
       "ts": 1788926400000,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "categoryId": "bio"
