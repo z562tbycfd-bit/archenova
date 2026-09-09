@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-09-09T08:47:25.298Z",
+  "updated": "2026-09-09T13:32:10.735Z",
   "items": [
+    {
+      "source": "Science News",
+      "title": "Winter work shows it really pays to be a smart mountain chickadee",
+      "url": "https://www.sciencenews.org/article/wild-mountain-chickadee-cognition-study",
+      "summary": "By studying chickadee cognition in the wild, researchers learned smarter birds stay smart in old age, produce more young and have better gut bacteria.",
+      "ts": 1788960600000,
+      "publishedAt": "2026-09-09T13:30:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study into career shocks finds what doesn't break expats makes them stronger",
+      "url": "https://phys.org/news/2026-09-career-doesnt-expats-stronger.html",
+      "summary": "New research challenges the idea that career shocks are bad news for expatriate workers, finding that major personal, professional or societal disruptions can instead act as a catalyst for adaptation and resilience.",
+      "ts": 1788960015000,
+      "publishedAt": "2026-09-09T13:20:15.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Biologists find a hidden weak spot in how bacteria build the tails they use to move",
+      "url": "https://phys.org/news/2026-09-biologists-hidden-weak-bacteria-tails.html",
+      "summary": "New research from Indiana University has uncovered a previously unknown vulnerability in how bacteria build the whip-like tails they use to move. The researchers found that building these tails can put stress on the prot…",
+      "ts": 1788960007000,
+      "publishedAt": "2026-09-09T13:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pounding waves open up sinkhole in swanky Malibu",
+      "url": "https://phys.org/news/2026-09-pounding-sinkhole-swanky-malibu.html",
+      "summary": "Pounding surf lashing the swanky California enclave of Malibu on Tuesday opened a giant sinkhole in the driveway of a house reportedly belonging to U.S. actor Nicolas Cage.",
+      "ts": 1788958811000,
+      "publishedAt": "2026-09-09T13:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Local microbes persist in wine despite commercial yeast",
+      "url": "https://phys.org/news/2026-09-local-microbes-persist-wine-commercial.html",
+      "summary": "A new study has demonstrated that regional microbial imprints can remain detectable under commercial winemaking conditions. The research, appearing in Applied and Environmental Microbiology, shows that inoculated ferment…",
+      "ts": 1788958806000,
+      "publishedAt": "2026-09-09T13:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Taxing billionaires and redistributing wealth could save millions of lives amid global aid cuts",
+      "url": "https://phys.org/news/2026-09-taxing-billionaires-redistributing-wealth-millions.html",
+      "summary": "Wealth redistribution policies currently under discussion in international forums could avert between 6.6 million and 29.5 million deaths by 2030, according to a study published in The Lancet and led by ISGlobal in colla…",
+      "ts": 1788957604000,
+      "publishedAt": "2026-09-09T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canada eyes researchers looking to leave 'hostile' US",
+      "url": "https://phys.org/news/2026-09-canada-eyes-hostile.html",
+      "summary": "Fed up with funding restrictions surrounding her research on links between climate change and health, American epidemiologist Sheryl Magzamen has left the United States for Canada.",
+      "ts": 1788957602000,
+      "publishedAt": "2026-09-09T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can a messy person become a tidy person? Or are we doomed?",
+      "url": "https://phys.org/news/2026-09-messy-person-tidy-doomed.html",
+      "summary": "Some people seem naturally tidy. Their keys are always in the same place, clothes make it into the closet, and their kitchen counter remains mysteriously visible.",
+      "ts": 1788956402000,
+      "publishedAt": "2026-09-09T12:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some police officers use the 'bad guys' label to provide moral clarity",
+      "url": "https://phys.org/news/2026-09-police-officers-bad-guys-moral.html",
+      "summary": "A new study shows that some U.S. police officers often use the term \"bad guys\" to describe people who commit crimes, especially when faced with ambiguity in their work. It is a label officers may use to reduce complex an…",
+      "ts": 1788955201000,
+      "publishedAt": "2026-09-09T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How companies quietly undercut dissent",
+      "url": "https://phys.org/news/2026-09-companies-quietly-undercut-dissent.html",
+      "summary": "In 2016, when Amazon workers began organizing at a warehouse in Chester, Virginia, the company tracked where employees gathered, posted anti-union messaging in bathroom stalls and held town halls to discourage them. The …",
+      "ts": 1788954003000,
+      "publishedAt": "2026-09-09T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A wandering black hole caught feeding on the run",
+      "url": "https://phys.org/news/2026-08-black-hole-caught.html",
+      "summary": "Astronomers have found the first direct evidence that a wandering black hole can feed itself by dragging gas along in its wake as it moves through its galaxy. It's the first direct evidence of an accretion channel long p…",
+      "ts": 1788953402000,
+      "publishedAt": "2026-09-09T11:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers discuss how data center construction could influence voters and impact public land",
+      "url": "https://phys.org/news/2026-09-discuss-center-voters-impact.html",
+      "summary": "The construction of new data centers is shaping up to be a defining issue in the 2026 midterm elections. Politicians in both parties have been distancing themselves from data centers in the face of public discontent arou…",
+      "ts": 1788952803000,
+      "publishedAt": "2026-09-09T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: What can rent prices reveal about inflation and the economy?",
+      "url": "https://phys.org/news/2026-09-qa-rent-prices-reveal-inflation.html",
+      "summary": "Tracking rent prices may help businesses and policymakers understand where inflation is headed months in advance of government inflation reports, according to researchers at Penn State's Smeal College of Business who dev…",
+      "ts": 1788951601000,
+      "publishedAt": "2026-09-09T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hurricane Lowell lashes Hawaii's western islands",
+      "url": "https://phys.org/news/2026-09-hurricane-lowell-lashes-hawaii-western.html",
+      "summary": "Hurricane Lowell lashed Hawaii with damaging winds, heavy rainfall and powerful floods, knocking out power for 91% of a western island as it pushed farther into the Pacific on Tuesday.",
+      "ts": 1788950817000,
+      "publishedAt": "2026-09-09T10:46:57.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "OpenAI says 10,000 AI agents cracked one of math's hardest problems in 88 hours",
+      "url": "https://phys.org/news/2026-09-openai-ai-agents-math-hardest.html",
+      "summary": "OpenAI said Tuesday that one of its unreleased artificial intelligence models had solved a mathematical puzzle that has eluded mathematicians for generations, a claim that also drew a fight with rival researchers over cr…",
+      "ts": 1788950712000,
+      "publishedAt": "2026-09-09T10:45:12.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Families' interest in their kids' education is falling around the globe as scores drop, test shows",
@@ -679,126 +799,6 @@
       "title": "Particle pinch in global tokamak edge simulations",
       "url": "https://arxiv.org/abs/2609.06744",
       "summary": "arXiv:2609.06744v1 Announce Type: new Abstract: The inward particle flux, or particle pinch, is routinely observed in magnetically confined fusion experiments, yet its mechanism is not fully understood. We study the part…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of the liquid-gas transition in trapped ions",
-      "url": "https://arxiv.org/abs/2609.06776",
-      "summary": "arXiv:2609.06776v1 Announce Type: new Abstract: Precision metrology, quantum information, and quantum-controlled chemistry studies all have many implementations in trapped ion systems that require a precise understanding…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AETHER-P3 Nowcast v1.0: Model Description, Training-Data Construction, and Validation Technical report prepared in support of CCMC onboarding",
-      "url": "https://arxiv.org/abs/2609.06777",
-      "summary": "arXiv:2609.06777v1 Announce Type: new Abstract: AETHER-P\\textsuperscript{3} Nowcast v1.0 is a machine-learning-based global thermospheric neutral-density model developed for low-Earth-orbit applications and prepared for …",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A scaling theory for the macroturbulence of weakly supercritical planetary atmospheres",
-      "url": "https://arxiv.org/abs/2609.06787",
-      "summary": "arXiv:2609.06787v1 Announce Type: new Abstract: A theory for the general circulation of the atmosphere must be based on a theory of its macroturbulence. A central component is the near-surface eddy heat flux, which is cl…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hourly U.S.-wide flood simulation beyond the limits of traditional and data-driven models",
-      "url": "https://arxiv.org/abs/2609.06794",
-      "summary": "arXiv:2609.06794v1 Announce Type: new Abstract: As increasingly-damaging floods can strike within hours of a storm and in ungauged reaches, hourly network-wide simulation has become critical societal infrastructure. Here…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pulse-by-pulse programmable synthesis of ultrafast optical waveforms",
-      "url": "https://arxiv.org/abs/2609.06894",
-      "summary": "arXiv:2609.06894v1 Announce Type: new Abstract: Programmable control of individual pulses in a high-repetition-rate (typically MHz) ultrafast pulse train is a long-standing goal for optical arbitrary waveform synthesis. …",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The 2016 Mw 7.0 Kumamoto Earthquake Sequence, Japan revisited: Insights from Spatio-Temporal Analysis of Seismicity Parameters",
-      "url": "https://arxiv.org/abs/2609.06911",
-      "summary": "arXiv:2609.06911v1 Announce Type: new Abstract: Understanding how crustal faults accumulate strain, nucleate ruptures, and redistribute post-seismic stress is fundamental to seismic hazard assessment. The 16 April 2016 $…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Core-Level Spectroscopy Decodes Bond-Alternation Dynamics of Cyclo[18]Carbon",
-      "url": "https://arxiv.org/abs/2609.06916",
-      "summary": "arXiv:2609.06916v1 Announce Type: new Abstract: The advent of X-ray free-electron lasers and high-harmonic generation has made time-resolved X-ray spectroscopy a powerful tool for probing local atomic environments, yet w…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A purely mechanical system realizing a Coulomb-like interaction",
-      "url": "https://arxiv.org/abs/2609.06917",
-      "summary": "arXiv:2609.06917v1 Announce Type: new Abstract: We solve in closed form a one-dimensional relativistic system: two masses interacting only through elastic collisions with a massless mediator bouncing between them. Moment…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ANADEF: A Nested-Permutation Alarm for Dual-Parameter Earthquake Forecasting",
-      "url": "https://arxiv.org/abs/2609.06920",
-      "summary": "arXiv:2609.06920v1 Announce Type: new Abstract: Spatially resolved stress proxies and rate-based seismicity models are increasingly combined for regional earthquake forecasting, yet formally testing their non-redundancy …",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-powered InAs nanowire detector arrays for extended-SWIR spectrometry at room temperature",
-      "url": "https://arxiv.org/abs/2609.06952",
-      "summary": "arXiv:2609.06952v1 Announce Type: new Abstract: Spectral sensing in the extended shortwave infrared (e-SWIR) is important for molecular analysis, infrared imaging, and machine vision, motivating the development of compac…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Higher-order space-charge stability in anisotropic beams: Vlasov-Poisson derivation, refined dispersion relations, and stability charts",
-      "url": "https://arxiv.org/abs/2609.06979",
-      "summary": "arXiv:2609.06979v1 Announce Type: new Abstract: The Hofmann stability chart is used to screen working points in space-charge-dominated linacs. We identify two errors in its published higher-order dispersion relations: mi…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Hybrid POD-Autoencoder Framework for Reduced Order Modeling of Turbulent Flow via Strategic Field Decomposition",
-      "url": "https://arxiv.org/abs/2609.06992",
-      "summary": "arXiv:2609.06992v1 Announce Type: new Abstract: This study proposes a hybrid reduced-order modeling (ROM) framework for the simulation of turbulent flow. The central idea is to decompose flow dynamics according to their …",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Formation of grain boundaries in ductile single crystals under plane-strain simple shear: a block-coordinate finite element method",
-      "url": "https://arxiv.org/abs/2609.07016",
-      "summary": "arXiv:2609.07016v1 Announce Type: new Abstract: Large plastic deformation can drive an initially uniform single crystal to spontaneously subdivide into misoriented grains separated by thin dislocation walls -- a pattern-…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase spaces of phase spaces: A method of constructing generalizable and topologically informed bases from time series demonstrated by reconstruction of the geometry of the macroeconomy",
-      "url": "https://arxiv.org/abs/2609.07019",
-      "summary": "arXiv:2609.07019v1 Announce Type: new Abstract: Laws from physics to social science rest on a small, enumerable number of factors explaining variation in the systems they describe. While the orthodoxy of economics, physi…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling of jitter correction methods for asynchronous optical sampling",
-      "url": "https://arxiv.org/abs/2609.07042",
-      "summary": "arXiv:2609.07042v1 Announce Type: new Abstract: Timing jitter management is crucial in asynchronous optical sampling (ASOPS) and dual-comb spectroscopy to maintain spectral bandwidth and fidelity. However, a quantitative…",
       "ts": 1788926400000,
       "publishedAt": "2026-09-09T04:00:00.000Z"
     }

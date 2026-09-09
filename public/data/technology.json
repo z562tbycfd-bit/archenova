@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-09-09T08:47:29.216Z",
+  "updated": "2026-09-09T13:32:12.934Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
+      "url": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
+      "summary": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Housto…",
+      "ts": 1788960277000,
+      "publishedAt": "2026-09-09T13:24:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an AstraZeneca COPD win, the FDA filling key jobs, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/?utm_campaign=rss",
+      "summary": "An AstraZeneca drug reduced the dangerous flare-ups that worsen COPD in a pair of late-stage trials",
+      "ts": 1788959757000,
+      "publishedAt": "2026-09-09T13:15:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its…",
+      "ts": 1788955800000,
+      "publishedAt": "2026-09-09T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "MTM's selfie footage of BepiColombo's eight-year journey",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/MTM_s_selfie_footage_of_BepiColombo_s_eight-year_journey",
+      "summary": "Video: 00:04:20 Witness how over the last eight years, the ESA/JAXA BepiColombo mission has been travelling through the inner Solar System and aligning itself with Mercury's orbit. So far, it has travelled 9.9 billion km…",
+      "ts": 1788955200000,
+      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Telemedicine company offers GLP-1s for addiction",
+      "url": "https://www.statnews.com/2026/09/09/health-news-telemedicine-company-offers-glp-1s-for-addiction/?utm_campaign=rss",
+      "summary": "A CDC Covid restructuring, public trust in Fauci, and more health news from Morning Rounds",
+      "ts": 1788954816000,
+      "publishedAt": "2026-09-09T11:53:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Leukemia drug data suggested a different way to treat diabetes. A new biotech will test that idea",
+      "url": "https://www.statnews.com/2026/09/09/kura-oncology-spins-off-diabetes-focused-caspian-therapeutics/?utm_campaign=rss",
+      "summary": "Caspian Therapeutics, is launching with $50 million in financing to develop menin inhibitors for diabetes and other cardiometabolic diseases.",
+      "ts": 1788951600000,
+      "publishedAt": "2026-09-09T11:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Batteries just broke another record in the US",
+      "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+      "summary": "Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of…",
+      "ts": 1788944400000,
+      "publishedAt": "2026-09-09T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Opinion: Autonomous AI will beat AI-assisted physicians at some medical tasks by 2030",
@@ -37,6 +100,15 @@
       "ts": 1788941893000,
       "publishedAt": "2026-09-09T08:18:13.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "26th INPRO Dialogue Forum Explores Non-Electric Applications of Nuclear Energy",
+      "url": "http://www.iaea.org/newscenter/news/26th-inpro-dialogue-forum-explores-non-electric-applications-of-nuclear-energy",
+      "summary": "",
+      "ts": 1788936044000,
+      "publishedAt": "2026-09-09T06:40:44.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -705,6 +777,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "A heat-driven route to elastocaloric cooling",
+      "url": "https://www.nature.com/articles/s41560-026-02128-0",
+      "summary": "",
+      "ts": 1788912000000,
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "NRAS Mutations May Require Mutation-Guided Combination Therapies",
       "url": "https://www.genengnews.com/topics/cancer/nras-mutations-may-require-mutation-guided-combination-therapies/",
@@ -730,87 +811,6 @@
       "ts": 1788899399000,
       "publishedAt": "2026-09-08T20:29:59.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Calls for Proposals to Accelerate Lunar Surface Technologies ",
-      "url": "https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/",
-      "summary": "NASA is seeking proposals to advance the technology and infrastructure needed to explore the Moon and establish a Moon Base in the lunar South Pole region. Announced on Tuesday, Sept. 8, the solicitation targets capabili…",
-      "ts": 1788898576000,
-      "publishedAt": "2026-09-08T20:16:16.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Multi-Attribute Method (MAM) as a Biologics Lifecycle Backbone",
-      "url": "https://www.genengnews.com/sponsored/the-multi-attribute-method-mam-as-a-biologics-lifecycle-backbone/",
-      "summary": "A more coherent approach: a peptide-mapping LC-HRMS (liquid chromatography-high resolution mass spectrometry) workflow that can identify and monitor multiple product quality attributes, including selected critical qualit…",
-      "ts": 1788897077000,
-      "publishedAt": "2026-09-08T19:51:17.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ADCs, mAbs, CAR Ts: One Bioluminescent Platform Measures Them All",
-      "url": "https://www.genengnews.com/sponsored/adcs-mabs-car-ts-one-bioluminescent-platform-measures-them-all/",
-      "summary": "The HiBiT Target Cell Killing (TCK) platform, with off-the-shelf, mix-and-match components, measures four killing mechanisms for broad immunotherapy modality assessment. The post ADCs, mAbs, CAR Ts: One Bioluminescent Pl…",
-      "ts": 1788895686000,
-      "publishedAt": "2026-09-08T19:28:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Drug Discovery Hits a New Bottleneck: Experimental Validation",
-      "url": "https://www.genengnews.com/sponsored/ai-drug-discovery-hits-a-new-bottleneck-experimental-validation/",
-      "summary": "Sponsored content brought to you by Artificial intelligence is dramatically accelerating early drug discovery. Models can screen chemical space, predict structures, optimize properties, and propose new molecules at speed…",
-      "ts": 1788893781000,
-      "publishedAt": "2026-09-08T18:56:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Targeted Lentiviral Delivery Without Vector Reengineering",
-      "url": "https://www.genengnews.com/sponsored/targeted-lentiviral-delivery-without-vector-reengineering/",
-      "summary": "Rather than requiring genetic modification of the viral glycoprotein, G-Link uses a modular protein adaptor to blind native VSV-G tropism and redirect delivery after vector production. The post Targeted Lentiviral Delive…",
-      "ts": 1788890337000,
-      "publishedAt": "2026-09-08T17:58:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA warns an API supplier about residue on walls, a corroded product line, and open-toed sandals",
-      "url": "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/?utm_campaign=rss",
-      "summary": "The FDA warned a supplier of active pharma ingredients about residue on walls, a corroded product line, and open-toed sandals at its facility. It also included photos.",
-      "ts": 1788889139000,
-      "publishedAt": "2026-09-08T17:38:59.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "ts": 1788886800000,
-      "publishedAt": "2026-09-08T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Superbubble in the Large Magellanic Cloud",
-      "url": "https://www.nasa.gov/image-article/superbubble-in-the-large-magellanic-cloud/",
-      "summary": "NASA’s Hubble Space Telescope captures a photogenic nebula, N44, in the Large Magellanic Cloud in this Sept. 3, 2026, image. N44 is dominated by two features: a vast central void and a shell of dense, dusty gas. The cent…",
-      "ts": 1788886155000,
-      "publishedAt": "2026-09-08T16:49:15.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ProBioGen Grants Transgene Additional License for AGE1.CR.pIX Cell Line",
-      "url": "https://www.genengnews.com/topics/bioprocessing/probiogen-grants-transgene-additional-license-for-age1-cr-pix-cell-line/",
-      "summary": "ProBioGen’s AGE1.CR.pIX is a stable proliferating avian cell line derived from duck embryo primary cells. It was developed as an alternative to the use of chicken eggs for large-scale vaccine production. The post ProBioG…",
-      "ts": 1788884449000,
-      "publishedAt": "2026-09-08T16:20:49.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
