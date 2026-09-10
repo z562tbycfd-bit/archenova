@@ -1,7 +1,135 @@
 {
   "ok": true,
-  "updated": "2026-09-09T23:01:39.370Z",
+  "updated": "2026-09-10T03:40:40.542Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Timing 1080 drops to prevent predators bouncing back",
+      "url": "https://phys.org/news/2026-09-predators.html",
+      "summary": "While aerial 1080 drops sharply reduce numbers of rats and stoats, the predators—especially ship rats—can rebound to higher numbers within a few years. Studying 24 years of small-mammal tracking records across New Zealan…",
+      "ts": 1789011601000,
+      "publishedAt": "2026-09-10T03:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can AI tame torrential rain by 2050? The next frontier of weather control and forecasting",
+      "url": "https://phys.org/news/2026-09-ai-torrential-frontier-weather.html",
+      "summary": "Japan has been experiencing increasingly severe damage from torrential rainfall triggered by typhoons and stationary linear rain bands. In response, an ambitious and unconventional idea is taking shape: artificially indu…",
+      "ts": 1789010401000,
+      "publishedAt": "2026-09-10T03:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI and big data can help logistics companies navigate supply-chain disruptions",
+      "url": "https://phys.org/news/2026-09-ai-big-logistics-companies-chain.html",
+      "summary": "Artificial intelligence and big-data capacity might help logistics companies withstand supply-chain disruptions by making them more agile and resilient, according to research in the International Journal of Business Perf…",
+      "ts": 1789008002000,
+      "publishedAt": "2026-09-10T02:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Four in five researchers report harmful interactions during geoscience fieldwork. A new survey suggests a path forward.",
+      "url": "https://phys.org/news/2026-09-interactions-geoscience-fieldwork-survey-path.html",
+      "summary": "Fieldwork is a vital part of geoscience research, allowing scientists and students to directly observe, interact with and collect data about Earth processes that cannot be replicated in the lab.",
+      "ts": 1789006802000,
+      "publishedAt": "2026-09-10T02:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "X-ray photoelectron spectroscopy reveals the surface chemistry of bio-based hybrid materials",
+      "url": "https://phys.org/news/2026-09-ray-photoelectron-spectroscopy-reveals-surface.html",
+      "summary": "Just a few atomic layers at the surface can strongly influence how effectively a material binds pollutants from water or how efficiently a photocatalyst responds to light. Researchers at the Fraunhofer Institute for Appl…",
+      "ts": 1789005601000,
+      "publishedAt": "2026-09-10T02:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Luck or merit? Not all inequality is equally acceptable",
+      "url": "https://phys.org/news/2026-09-luck-merit-inequality-equally.html",
+      "summary": "Do you think it's fair that some people are better off financially than others? Does it perhaps matter whether those earnings stem from a lottery win or hard work? These are the kinds of questions economist Ingvild Almås…",
+      "ts": 1789004401000,
+      "publishedAt": "2026-09-10T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The trapdoor spiders giving a leg up to science",
+      "url": "https://phys.org/news/2026-09-trapdoor-spiders-leg-science.html",
+      "summary": "WA's trapdoor spiders are endangered. Jackson Rendall is here to help—because he thinks they're \"just really cool.\"",
+      "ts": 1789003203000,
+      "publishedAt": "2026-09-10T01:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "CEO politics may shape how companies compete",
+      "url": "https://phys.org/news/2026-09-ceo-politics-companies.html",
+      "summary": "Decisions such as whether to cut prices, launch a product, open a new facility or make an acquisition are among those companies that consider in pursuit of a competitive edge. New research from Texas A&M University sugge…",
+      "ts": 1789002001000,
+      "publishedAt": "2026-09-10T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Satellite imagery reveals what casualty figures alone do not tell us",
+      "url": "https://phys.org/news/2026-09-qa-satellite-imagery-reveals-casualty.html",
+      "summary": "How do we form a picture of conflicts? A new study published in the journal Nature explores how different types of data can be combined to give a fuller understanding of armed conflicts. Lead author Valerie Sticher uses …",
+      "ts": 1789000801000,
+      "publishedAt": "2026-09-10T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Polarized trust in scientists driven by values, identity and politics",
+      "url": "https://phys.org/news/2026-09-polarized-scientists-driven-values-identity.html",
+      "summary": "Trust in scientists in the UK is strong overall, with 63% indicating they have high trust in scientists in general—but a major new study finds this trust is closely shaped by people's values, identity and politics, showi…",
+      "ts": 1788999604000,
+      "publishedAt": "2026-09-10T00:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Eight PFAS compounds detected at low concentrations in Melbourne rain",
+      "url": "https://phys.org/news/2026-09-pfas-compounds-melbourne.html",
+      "summary": "Researchers from RMIT University and EPA Victoria detected eight PFAS compounds in rainwater samples collected in Melbourne between 2024 and 2025.",
+      "ts": 1788998404000,
+      "publishedAt": "2026-09-10T00:00:04.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Himito: a graph-based toolkit for mitochondrial genome analysis using long reads",
+      "url": "https://www.nature.com/articles/s41467-026-77418-y",
+      "summary": "",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrical fingerprint on tiny cell particles could offer new way to spot pancreatic cancer signals",
+      "url": "https://phys.org/news/2026-09-electrical-fingerprint-tiny-cell-particles.html",
+      "summary": "An electrical fingerprint found on tiny particles in the blood may help detect signs of pancreatic cancer that are often overlooked, according to new research from Rice University. The researchers developed a device that…",
+      "ts": 1788997209000,
+      "publishedAt": "2026-09-09T23:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rising sea levels could cost Australians at least $855 billion by 2100",
+      "url": "https://phys.org/news/2026-09-sea-australians-billion.html",
+      "summary": "Rising sea levels and storm surges could cost $855 billion in economic losses across Australia by the end of the century, according to new research, the first of its kind in Australia.",
+      "ts": 1788997204000,
+      "publishedAt": "2026-09-09T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What really drives tourists to choose a hotel? New global study reveals the answer",
+      "url": "https://phys.org/news/2026-09-tourists-hotel-global-reveals.html",
+      "summary": "Why do travelers choose one hotel over another, and what makes them return?",
+      "ts": 1788996006000,
+      "publishedAt": "2026-09-09T23:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unconventional quantum materials could dramatically boost the search for dark matter",
+      "url": "https://phys.org/news/2026-09-unconventional-quantum-materials-boost-dark.html",
+      "summary": "For decades, physicists have searched for dark matter, the invisible substance thought to make up roughly 85% of all matter in the universe. Although its gravitational influence shapes galaxies and the large-scale struct…",
+      "ts": 1788996004000,
+      "publishedAt": "2026-09-09T23:20:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "LLM use may threaten freedom of thought and equality across law, journalism and education",
@@ -673,134 +801,6 @@
       "summary": "Pounding surf lashing the swanky California enclave of Malibu on Tuesday opened a giant sinkhole in the driveway of a house reportedly belonging to U.S. actor Nicolas Cage.",
       "ts": 1788958811000,
       "publishedAt": "2026-09-09T13:00:11.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Local microbes persist in wine despite commercial yeast",
-      "url": "https://phys.org/news/2026-09-local-microbes-persist-wine-commercial.html",
-      "summary": "A new study has demonstrated that regional microbial imprints can remain detectable under commercial winemaking conditions. The research, appearing in Applied and Environmental Microbiology, shows that inoculated ferment…",
-      "ts": 1788958806000,
-      "publishedAt": "2026-09-09T13:00:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Taxing billionaires and redistributing wealth could save millions of lives amid global aid cuts",
-      "url": "https://phys.org/news/2026-09-taxing-billionaires-redistributing-wealth-millions.html",
-      "summary": "Wealth redistribution policies currently under discussion in international forums could avert between 6.6 million and 29.5 million deaths by 2030, according to a study published in The Lancet and led by ISGlobal in colla…",
-      "ts": 1788957604000,
-      "publishedAt": "2026-09-09T12:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Canada eyes researchers looking to leave 'hostile' US",
-      "url": "https://phys.org/news/2026-09-canada-eyes-hostile.html",
-      "summary": "Fed up with funding restrictions surrounding her research on links between climate change and health, American epidemiologist Sheryl Magzamen has left the United States for Canada.",
-      "ts": 1788957602000,
-      "publishedAt": "2026-09-09T12:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Can a messy person become a tidy person? Or are we doomed?",
-      "url": "https://phys.org/news/2026-09-messy-person-tidy-doomed.html",
-      "summary": "Some people seem naturally tidy. Their keys are always in the same place, clothes make it into the closet, and their kitchen counter remains mysteriously visible.",
-      "ts": 1788956402000,
-      "publishedAt": "2026-09-09T12:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Some police officers use the 'bad guys' label to provide moral clarity",
-      "url": "https://phys.org/news/2026-09-police-officers-bad-guys-moral.html",
-      "summary": "A new study shows that some U.S. police officers often use the term \"bad guys\" to describe people who commit crimes, especially when faced with ambiguity in their work. It is a label officers may use to reduce complex an…",
-      "ts": 1788955201000,
-      "publishedAt": "2026-09-09T12:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How companies quietly undercut dissent",
-      "url": "https://phys.org/news/2026-09-companies-quietly-undercut-dissent.html",
-      "summary": "In 2016, when Amazon workers began organizing at a warehouse in Chester, Virginia, the company tracked where employees gathered, posted anti-union messaging in bathroom stalls and held town halls to discourage them. The …",
-      "ts": 1788954003000,
-      "publishedAt": "2026-09-09T11:40:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A wandering black hole caught feeding on the run",
-      "url": "https://phys.org/news/2026-08-black-hole-caught.html",
-      "summary": "Astronomers have found the first direct evidence that a wandering black hole can feed itself by dragging gas along in its wake as it moves through its galaxy. It's the first direct evidence of an accretion channel long p…",
-      "ts": 1788953402000,
-      "publishedAt": "2026-09-09T11:30:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Researchers discuss how data center construction could influence voters and impact public land",
-      "url": "https://phys.org/news/2026-09-discuss-center-voters-impact.html",
-      "summary": "The construction of new data centers is shaping up to be a defining issue in the 2026 midterm elections. Politicians in both parties have been distancing themselves from data centers in the face of public discontent arou…",
-      "ts": 1788952803000,
-      "publishedAt": "2026-09-09T11:20:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Q&A: What can rent prices reveal about inflation and the economy?",
-      "url": "https://phys.org/news/2026-09-qa-rent-prices-reveal-inflation.html",
-      "summary": "Tracking rent prices may help businesses and policymakers understand where inflation is headed months in advance of government inflation reports, according to researchers at Penn State's Smeal College of Business who dev…",
-      "ts": 1788951601000,
-      "publishedAt": "2026-09-09T11:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hurricane Lowell lashes Hawaii's western islands",
-      "url": "https://phys.org/news/2026-09-hurricane-lowell-lashes-hawaii-western.html",
-      "summary": "Hurricane Lowell lashed Hawaii with damaging winds, heavy rainfall and powerful floods, knocking out power for 91% of a western island as it pushed farther into the Pacific on Tuesday.",
-      "ts": 1788950817000,
-      "publishedAt": "2026-09-09T10:46:57.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "OpenAI says 10,000 AI agents cracked one of math's hardest problems in 88 hours",
-      "url": "https://phys.org/news/2026-09-openai-ai-agents-math-hardest.html",
-      "summary": "OpenAI said Tuesday that one of its unreleased artificial intelligence models had solved a mathematical puzzle that has eluded mathematicians for generations, a claim that also drew a fight with rival researchers over cr…",
-      "ts": 1788950712000,
-      "publishedAt": "2026-09-09T10:45:12.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "General Quantum Circuit Framework for Extended Wigner’s Friend Scenarios: Logically and Causally Consistent Reasoning without Absolute Measurement Events",
-      "url": "http://link.aps.org/doi/10.1103/nqbv-6qgr",
-      "summary": "Author(s): V. Vilasini and Mischa P. Woods Researchers develop a quantum circuit framework for extended Wigner’s friend scenarios, resolving logical paradoxes by tracking Heisenberg cuts. [Phys. Rev. X 16, 031062] Publis…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Distributed variational quantum computing with deterministic entanglement tuning",
-      "url": "http://link.aps.org/doi/10.1103/9pj6-prlz",
-      "summary": "Author(s): Ilhwan Kim, Yong-Su Kim, Kwang Jo Lee, Hyukjoon Kwon, Yosep Kim, and Hyang-Tag Lim Distributed quantum computing offers a scalable route to quantum information processing by entangling spatially separated proc…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Models of liquid-sample confinement for nanoscale NMR",
-      "url": "http://link.aps.org/doi/10.1103/7hbs-1q24",
-      "summary": "Author(s): Santiago Oviedo-Casado, Daniel Cohen, Allan Josué González-Villalobos, and Javier Cerrillo Diffusion is a prominent source of noise affecting nuclear magnetic resonance at the nanometer scale (nano-NMR), preve…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Dynamic control of orbital angular momentum of light in strong atmospheric turbulence for free-space optical communication",
-      "url": "http://link.aps.org/doi/10.1103/yfpj-b8q7",
-      "summary": "Author(s): Mulin Yu, Yakun Wang, Yizhou Liu, Lingfei Xu, Yahong Chen, Jiayi Yu, and Fei Wang Free-space optical communication based on photonic orbital angular momentum (OAM), including OAM multiplexing and OAM modulatio…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Toward high-resolution low-energy electron spectroscopy with transition-edge sensors",
-      "url": "http://link.aps.org/doi/10.1103/dw1k-tcbp",
-      "summary": "Author(s): R. Ammendola et al. (PTOLEMY Collaboration) Transition-edge sensors (TESs) have already been proven to detect electrons with kinetic energy of about 100 eV, with a Gaussian energy resolution of 1 eV, comparabl…",
-      "ts": 1788948000000,
-      "publishedAt": "2026-09-09T10:00:00.000Z"
     }
   ],
   "sources": [

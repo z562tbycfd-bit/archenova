@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-09T23:01:43.287Z",
+  "updated": "2026-09-10T03:40:42.711Z",
   "items": [
     {
       "source": "STAT",
@@ -172,6 +172,15 @@
       "ts": 1788959757000,
       "publishedAt": "2026-09-09T13:15:57.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "ts": 1788958800000,
+      "publishedAt": "2026-09-09T13:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -799,15 +808,6 @@
       "title": "Population-scale Ancestral Recombination Graphs with tskit 1.0",
       "url": "https://arxiv.org/abs/2602.09649",
       "summary": "arXiv:2602.09649v3 Announce Type: replace Abstract: Ancestral recombination graphs (ARGs) are an increasingly important component of population and statistical genetics. The tskit library has become key infrastructure fo…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mathematical Models of Evolution and Replicator Systems Dynamics",
-      "url": "https://arxiv.org/abs/2604.05720",
-      "summary": "arXiv:2604.05720v3 Announce Type: replace Abstract: This is an edited English version of the authors' monograph \"Mathematical Models of Evolution and Replicator Systems Dynamics\", posted on arXiv as a single document to …",
       "ts": 1788926400000,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "categoryId": "bio"
