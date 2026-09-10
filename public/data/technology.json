@@ -1,7 +1,124 @@
 {
   "ok": true,
-  "updated": "2026-09-10T08:45:14.212Z",
+  "updated": "2026-09-10T13:23:14.463Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Novartis investor seeking a shake-up, a Gilead setback, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/?utm_campaign=rss",
+      "summary": "A major Novartis shareholder has called for a shake-up of the drugmaker's board after its shares suffered a record fall following trial setbacks",
+      "ts": 1789045762000,
+      "publishedAt": "2026-09-10T13:09:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cancer medicines remain in short supply across the U.S., survey finds",
+      "url": "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/?utm_campaign=rss",
+      "summary": "An ongoing shortage of cancer medications continues to force leading cancer centers around the U.S. to seek work-around strategies to treat patients and a majority also report that clinical trials…",
+      "ts": 1789045260000,
+      "publishedAt": "2026-09-10T13:01:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+      "summary": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By conn…",
+      "ts": 1789045221000,
+      "publishedAt": "2026-09-10T13:00:21.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs/",
+      "summary": "Gear up: The latest PC games and major updates are ready to play on GeForce NOW this week. WARDOGS drops onto the cloud at early-access launch, alongside the Valheim 1.0 Deep North update and Bus Simulator 27 — part of n…",
+      "ts": 1789045218000,
+      "publishedAt": "2026-09-10T13:00:18.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
+      "url": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. God told them to sell crypto. Their investors lost everything. When Eli Regalado f…",
+      "ts": 1789042200000,
+      "publishedAt": "2026-09-10T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree",
+      "url": "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/?utm_campaign=rss",
+      "summary": "Feds invest in AI for heart failure, vaccines and this year's midterms, and more health news from Morning Rounds",
+      "ts": 1789040099000,
+      "publishedAt": "2026-09-10T11:34:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Powering AI is an architecture problem",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years…",
+      "ts": 1789038000000,
+      "publishedAt": "2026-09-10T11:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This road map could help us decide whether to deploy solar geoengineering",
+      "url": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/",
+      "summary": "A San Francisco nonprofit has published a detailed road map of the experiments, studies, and infrastructure that it says would be needed to make informed decisions about the use of solar geoengineering, MIT Technology Re…",
+      "ts": 1789038000000,
+      "publishedAt": "2026-09-10T11:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What to expect from UniQure’s upcoming Huntington’s gene therapy readout ",
+      "url": "https://www.statnews.com/2026/09/10/uniqure-huntingtons-gene-therapy-trial-readout/?utm_campaign=rss",
+      "summary": "Before the end of September, UniQure is expected to report four-year results from the closely tracked clinical trial of its gene therapy for Huntington’s disease.",
+      "ts": 1789036200000,
+      "publishedAt": "2026-09-10T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Roivant is one of the savviest dealmakers in biotech. It also has a secret weapon",
+      "url": "https://www.statnews.com/2026/09/10/roivant-biotech-dealmaking-mosliciguat-origins/?utm_campaign=rss",
+      "summary": "A Roivant lung disease drug has succeeded in a mid-stage study. But the drug’s origins are another fascinating aspect to the story.",
+      "ts": 1789036200000,
+      "publishedAt": "2026-09-10T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Can the US battery market untangle from China?",
+      "url": "https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/",
+      "summary": "The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from int…",
+      "ts": 1789034400000,
+      "publishedAt": "2026-09-10T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "God told them to sell crypto. Their investors lost everything.",
+      "url": "https://www.technologyreview.com/2026/09/10/1143588/indxcoin-god-regalados-sell-crypto-investors-lost-everything/",
+      "summary": "This article was produced in partnership with Type Investigations and with support from the Fund for Investigative Journalism. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. Now…",
+      "ts": 1789030800000,
+      "publishedAt": "2026-09-10T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Healthcare AI’s next test is integration",
+      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/",
+      "summary": "The entrance of major AI companies into healthcare is a meaningful and welcome development, accelerating the technical foundation available to the industry. Their models are increasingly capable of processing long clinic…",
+      "ts": 1789030681000,
+      "publishedAt": "2026-09-10T08:58:01.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Opinion: John Fetterman’s post-stroke, politically problematic behaviors offer lessons about brain health on Capitol Hill",
@@ -28,6 +145,15 @@
       "ts": 1789029000000,
       "publishedAt": "2026-09-10T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "What You Need to Know about the IAEA General Conference",
+      "url": "http://www.iaea.org/newscenter/news/what-you-need-to-know-about-the-iaea-general-conference",
+      "summary": "",
+      "ts": 1789021805000,
+      "publishedAt": "2026-09-10T06:30:05.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -325,6 +451,60 @@
       "ts": 1789012800000,
       "publishedAt": "2026-09-10T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "A hidden leak in solids",
+      "url": "https://www.nature.com/articles/s41560-026-02133-3",
+      "summary": "",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Halogen-assisted sulfur oxidation",
+      "url": "https://www.nature.com/articles/s41560-026-02086-7",
+      "summary": "",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Ironing out the wrinkles",
+      "url": "https://www.nature.com/articles/s41560-026-02127-1",
+      "summary": "",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Integrated photovoltaics need design innovation and cross-sector collaboration",
+      "url": "https://www.nature.com/articles/s41560-026-02132-4",
+      "summary": "",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Lithium–disulfur dichloride batteries",
+      "url": "https://www.nature.com/articles/s41560-026-02120-8",
+      "summary": "",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Crystallization control of 2.0-eV bandgap perovskites for all-perovskite triple-junction solar cells",
+      "url": "https://www.nature.com/articles/s41560-026-02135-1",
+      "summary": "",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -630,186 +810,6 @@
       "summary": "“Autonomous AI will likely soon exceed both unaided physicians and physicians aided by AI at five core cognitive medical tasks,” write Ezekiel J. Emanuel and Abe Baker-Butler.",
       "ts": 1788942600000,
       "publishedAt": "2026-09-09T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: AMA CEO: AI won’t replace doctors — it will work alongside them",
-      "url": "https://www.statnews.com/2026/09/09/ai-medicine-doctors-replacement-debate-ama-ceo/?utm_campaign=rss",
-      "summary": "“The goal should not be to reproduce today’s health care system with fewer humans,” writes American Medical Association CEO John Whyte.",
-      "ts": 1788942600000,
-      "publishedAt": "2026-09-09T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Can AI fix health care? In the chaos of emergency rooms, the technology comes up short",
-      "url": "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/?utm_campaign=rss",
-      "summary": "CEOs of the biggest AI companies have predicted the technology will “eliminate most cancer” and “improve treatment of most other ailments.” But nowhere better illustrates the challenge facing AI than…",
-      "ts": 1788942600000,
-      "publishedAt": "2026-09-09T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Understanding the thermal ceiling in portable power",
-      "url": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/",
-      "summary": "Plug a phone into a modern charger and the first 10 minutes are impressive. The next 20 are not. This is not a defect. It’s the connected device protecting itself. As temperature rises during charging, a smartphone’s bat…",
-      "ts": 1788941893000,
-      "publishedAt": "2026-09-09T08:18:13.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "26th INPRO Dialogue Forum Explores Non-Electric Applications of Nuclear Energy",
-      "url": "http://www.iaea.org/newscenter/news/26th-inpro-dialogue-forum-explores-non-electric-applications-of-nuclear-energy",
-      "summary": "",
-      "ts": 1788936044000,
-      "publishedAt": "2026-09-09T06:40:44.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4995-5001: 5,000 (Martian) Days on Mars",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/",
-      "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug. 28, 2026 The span of sols spanned by this blog post is noteworthy in several ways. First, Curiosity became …",
-      "ts": 1788934849000,
-      "publishedAt": "2026-09-09T06:20:49.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "MTG-I2 reaches its final orbit",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit",
-      "summary": "Europe’s Meteosat Third Generation Imager 2 (MTG-I2) satellite has reached its designated orbit at 36 000 km from Earth and is ready to begin its commissioning phase, preparing it to provide years of service to improve w…",
-      "ts": 1788934800000,
-      "publishedAt": "2026-09-09T06:20:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Anak Krakatau Rumbles Again",
-      "url": "https://science.nasa.gov/earth/earth-observatory/anak-krakatau-rumbles-again/",
-      "summary": "A powerful eruption from the Indonesian volcano lofted ash into the atmosphere, disrupting thousands of flights and degrading air quality.",
-      "ts": 1788926460000,
-      "publishedAt": "2026-09-09T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Novel hybrid protein scaffold gap filling using weighted machine learning ensemble, beam search, and mass-constrained reranking",
-      "url": "https://arxiv.org/abs/2609.05436",
-      "summary": "arXiv:2609.05436v1 Announce Type: new Abstract: Protein scaffold gap filling is an important computational task in protein sequence reconstruction, where missing amino acid regions must be inferred from incomplete scaffo…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Representation learning of human cortical folding to reveal long lasting neurodevelopmental signatures",
-      "url": "https://arxiv.org/abs/2609.05438",
-      "summary": "arXiv:2609.05438v1 Announce Type: new Abstract: The human brain folds in utero, primarily during late gestation. Shortly after birth, cortical folding patterns are established and remain stable thereafter, making them pr…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Precise Positional Readout of Molecular Barcode Structures using Solid-State Nanopores",
-      "url": "https://arxiv.org/abs/2609.05445",
-      "summary": "arXiv:2609.05445v1 Announce Type: new Abstract: Fast and nonuniform translocation through solid-state nanopores limits both the detection of small molecular labels and their precise localization along molecular carriers.…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SureRoute: Toward a Hallucination-Free Self-Improving Platform for Retrosynthesis",
-      "url": "https://arxiv.org/abs/2609.05450",
-      "summary": "arXiv:2609.05450v1 Announce Type: new Abstract: AI models, including large language models, are increasingly integrated into scientific discovery workflows, yet they remain prone to hallucination. In experimental science…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ZetaDial: dialing net charge of protein binders at inference time for therapeutic developability",
-      "url": "https://arxiv.org/abs/2609.05451",
-      "summary": "arXiv:2609.05451v1 Announce Type: new Abstract: Net charge is a developability-relevant property of therapeutic binders, linked to viscosity, clearance, nonspecific interaction and aggregation, and antibody screens alrea…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Slow fluctuations shape cell signaling near a bifurcation in embryonic stem cells",
-      "url": "https://arxiv.org/abs/2609.05453",
-      "summary": "arXiv:2609.05453v1 Announce Type: new Abstract: Excitable and oscillatory responses are widespread in cell signaling, but how these arise in the same system is unclear. We propose a minimal model of a saddle node bifurca…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Condition aware learning enables robust prediction of oligonucleotide melting behavior across diverse chemistries and assay conditions",
-      "url": "https://arxiv.org/abs/2609.05454",
-      "summary": "arXiv:2609.05454v1 Announce Type: new Abstract: Oligonucleotide melting temperature is a fundamental determinant of nucleic acid hybridization and underpins the design of molecular diagnostics, polymerase chain reaction …",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PSLL: Persistent Sheaf Laplacian Learning for Protein-Ligand Binding Affinity Prediction",
-      "url": "https://arxiv.org/abs/2609.05475",
-      "summary": "arXiv:2609.05475v1 Announce Type: new Abstract: Accurate prediction of protein-ligand binding affinity remains a central challenge in computational drug discovery due to the complex interplay among molecular geometry, ph…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Optimal long-run control of endemic infections: bang-bang threshold policies in a stochastic SIS model",
-      "url": "https://arxiv.org/abs/2609.05495",
-      "summary": "arXiv:2609.05495v1 Announce Type: new Abstract: We study long-run optimal intervention strategies for endemic infections in a stochastic susceptible-infected-susceptible (SIS) model. The proportion of infected individual…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Orchestra: Corroboration-Based Regulatory Candidate Discovery via Composed Bioinformatics MCP Agents",
-      "url": "https://arxiv.org/abs/2609.05496",
-      "summary": "arXiv:2609.05496v1 Announce Type: new Abstract: Orchestra composes two independently built bioinformatics MCP servers -- RegNetAgents, which infers gene regulatory network topology from ARACNe networks, and CASCADE, whic…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Network-Based Biomarker of Morphological Disruption Associated with Breast Cancer Malignancy",
-      "url": "https://arxiv.org/abs/2609.05547",
-      "summary": "arXiv:2609.05547v1 Announce Type: new Abstract: Breast cancer diagnosis commonly considers individual nuclear morphological characteristics, whereas their joint organization is less frequently evaluated. We developed the…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spread of Chronic Wasting Disease under Stochastic Environmental Conditions and its Control using Deep Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2609.05566",
-      "summary": "arXiv:2609.05566v1 Announce Type: new Abstract: Chronic wasting disease (CWD) is a fatal prion disease affecting deer, elk, moose, reindeer, muntjac, and other cervids. Because free-ranging cervid populations face enviro…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling Medea gene-drive population replacement: thresholds and release strategies",
-      "url": "https://arxiv.org/abs/2609.06687",
-      "summary": "arXiv:2609.06687v1 Announce Type: new Abstract: Mosquito-borne diseases such as dengue, Zika, and yellow fever impose a substantial global health burden, motivating genetic control strategies that replace wild mosquito p…",
-      "ts": 1788926400000,
-      "publishedAt": "2026-09-09T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],

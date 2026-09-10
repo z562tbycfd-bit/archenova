@@ -1,7 +1,135 @@
 {
   "ok": true,
-  "updated": "2026-09-10T08:45:09.739Z",
+  "updated": "2026-09-10T13:23:12.742Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI watermarks may turn workplace praise and apologies into trust tests",
+      "url": "https://phys.org/news/2026-09-ai-watermarks-workplace.html",
+      "summary": "Imagine a manager sends a thoughtful message to one of her hard-working employees after a particularly exhausting week in the office. The message communicates personal warmth, but when the recipient discovers it was gene…",
+      "ts": 1789046406000,
+      "publishedAt": "2026-09-10T13:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Fingerprints' inside the sun could reveal if it once swallowed a planet",
+      "url": "https://phys.org/news/2026-09-fingerprints-sun-reveal-swallowed-planet.html",
+      "summary": "It is thought the sun may have engulfed a super-Earth-sized planet early in its history. Now, a new study has gone a step further, suggesting that such an event may have left behind detectable clues inside the sun that c…",
+      "ts": 1789046402000,
+      "publishedAt": "2026-09-10T13:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia's reading and math results are at an 'all‑time low'—but there's more to the story",
+      "url": "https://phys.org/news/2026-09-australia-math-results-alltime-story.html",
+      "summary": "Results from the latest international test of 15-year-olds have prompted another round of headlines suggesting there are serious problems with Australia's academic results.",
+      "ts": 1789045208000,
+      "publishedAt": "2026-09-10T13:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mercury is shrinking more than we thought",
+      "url": "https://phys.org/news/2026-09-mercury-thought.html",
+      "summary": "Mercury's surface is riddled with wrinkles, evidence of a once-larger planet that has shrunk over time. A new study finds that Mercury may have contracted 10% to 30% more than previously thought—a loss of nearly 12 miles…",
+      "ts": 1789045205000,
+      "publishedAt": "2026-09-10T13:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Could a whale swallow a person whole?",
+      "url": "https://www.sciencenews.org/article/whalefall-movie-whale-swallow-person",
+      "summary": "In the movie Whalefall, a sperm whale accidentally swallows a scuba diver. It’s technically possible, but unlikely to play out in real life.",
+      "ts": 1789045200000,
+      "publishedAt": "2026-09-10T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How two satellites are studying hurricanes during El Niño",
+      "url": "https://phys.org/news/2026-09-satellites-hurricanes-el-nio.html",
+      "summary": "In November 2025, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure and benefit commercial industries, including shipping. The satellite is now …",
+      "ts": 1789044008000,
+      "publishedAt": "2026-09-10T12:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Peculiar' new species of Jurassic squid found in Wyoming",
+      "url": "https://phys.org/news/2026-09-peculiar-species-jurassic-squid-wyoming.html",
+      "summary": "A \"peculiar\" new species of Jurassic squid-like animal has been unearthed in Wyoming, U.S., following the discovery of two exceptionally rare fossils dating to around 160 million years ago.",
+      "ts": 1789044001000,
+      "publishedAt": "2026-09-10T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bulimba Creek tops Brisbane waterways for hazardous microplastics, risk analysis finds",
+      "url": "https://phys.org/news/2026-09-bulimba-creek-tops-brisbane-waterways.html",
+      "summary": "A QUT investigation of the composition of microplastic types in three Brisbane creeks found that Bulimba Creek had a high load of hazardous microplastics. The work is published in the journal Marine Pollution Bulletin.",
+      "ts": 1789042801000,
+      "publishedAt": "2026-09-10T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rib contouring highlights social media's role in reshaping body ideals and surgical interest",
+      "url": "https://phys.org/news/2026-09-rib-contouring-highlights-social-media.html",
+      "summary": "Rib contouring—a cosmetic procedure aimed at creating a smaller, more defined waist—is one of the newer appearance trends on social media. Influencers are sharing their experiences online, bringing a procedure many of us…",
+      "ts": 1789041606000,
+      "publishedAt": "2026-09-10T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scavenging linked to virus variety in wild birds",
+      "url": "https://phys.org/news/2026-09-scavenging-linked-virus-variety-wild.html",
+      "summary": "The scavenging behavior of many wild birds plays an important role in the type, number and variety of viruses they have, a new University of Otago–Ōtākou Whakaihu Waka-led study has found.",
+      "ts": 1789041603000,
+      "publishedAt": "2026-09-10T12:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A galaxy with almost no stars? New Cloud-9 observations strengthen the case",
+      "url": "https://phys.org/news/2026-09-galaxy-stars-cloud-case.html",
+      "summary": "Astronomers have taken one of the deepest looks yet at Cloud-9, a candidate \"dark galaxy,\" and found no trace of stars. The paper outlining this discovery was posted to the arXiv preprint server on Aug. 21.",
+      "ts": 1789041601000,
+      "publishedAt": "2026-09-10T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First Nations ranger knowledge reveals the threats facing NT's green turtles",
+      "url": "https://phys.org/news/2026-09-nations-ranger-knowledge-reveals-threats.html",
+      "summary": "First Nations ranger groups working in protected areas such as national or marine parks have identified illegal commercial fishing as a major concern for the Northern Territory's green turtle populations, a study led by …",
+      "ts": 1789040404000,
+      "publishedAt": "2026-09-10T11:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Kids face a cliff edge in independence that can affect mental health",
+      "url": "https://phys.org/news/2026-09-kids-cliff-edge-independence-affect.html",
+      "summary": "As thousands of children start high school, experts have called for children to be given more opportunities for independence before they reach adolescence.",
+      "ts": 1789039203000,
+      "publishedAt": "2026-09-10T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Yosemite's visitor surge revives concerns dating back 170 years",
+      "url": "https://phys.org/news/2026-09-yosemite-visitor-surge-revives-dating.html",
+      "summary": "As the United States celebrates its 250th anniversary this summer, national parks are experiencing record-breaking visitation, with people flocking to enjoy the beauty and tranquility of the great outdoors.",
+      "ts": 1789038004000,
+      "publishedAt": "2026-09-10T11:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI pinpoints when fish reach their thermal limit",
+      "url": "https://phys.org/news/2026-09-ai-fish-thermal-limit.html",
+      "summary": "Researchers have developed an AI-based system that automatically and objectively detects the moment when fish experience loss of equilibrium (LOE) due to temperature stress. The system combines DeepLabCut, a deep-learnin…",
+      "ts": 1789030806000,
+      "publishedAt": "2026-09-10T09:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unaccounted climate feedback loops may amplify warming by 20–30% this century, but cutting emissions will reduce risks",
+      "url": "https://phys.org/news/2026-09-unaccounted-climate-feedback-loops-amplify.html",
+      "summary": "New research shows that warming-induced emissions—greenhouse gas emissions from natural sources driven by rising temperatures—could amplify global warming by approximately 20%–30% and add an estimated 0.2°C–0.4°C of warm…",
+      "ts": 1789030803000,
+      "publishedAt": "2026-09-10T09:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "As oceans warm, Florida scientists hunt for heat-resistant coral",
@@ -671,134 +799,6 @@
       "title": "Assessing flood-conditioned power dependency of urban rail transit and its effects on resilience under climate change",
       "url": "https://arxiv.org/abs/2609.10473",
       "summary": "arXiv:2609.10473v1 Announce Type: new Abstract: Urban rail transit (URT) faces increasing flood risk while relying on traction power systems whose failures can trigger cascading disruption. Existing studies on URT flood …",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamic Reduced-Order Data Assimilation from Sparse Velocity Measurements",
-      "url": "https://arxiv.org/abs/2609.10497",
-      "summary": "arXiv:2609.10497v1 Announce Type: new Abstract: We present a novel reduced-order data assimilation framework, termed Reduced-Order Dynamical Assimilation (RODAS), for reconstructing high-resolution, time-resolved flow fi…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing entanglement scaling across a quantum phase transition on a quantum computer",
-      "url": "https://arxiv.org/abs/2412.18602",
-      "summary": "arXiv:2412.18602v4 Announce Type: cross Abstract: The investigation of strongly-correlated quantum matter is difficult due to the curse of dimensionality and intricate entanglement structures. These challenges are partic…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rare-event sampling for stochastic dynamics in network systems using cluster updates",
-      "url": "https://arxiv.org/abs/2608.16171",
-      "summary": "arXiv:2608.16171v1 Announce Type: cross Abstract: Understanding the stochastic evolution in complex networks is a central challenge across physics, biology, engineering, social science, and finance. The most consequentia…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonperturbative functional renormalization group for Higgs-singlet models with physics-informed neural networks",
-      "url": "https://arxiv.org/abs/2609.08470",
-      "summary": "arXiv:2609.08470v1 Announce Type: cross Abstract: We develop a nonperturbative functional renormalization group framework within the LPA' to solve the Wetterich flow equation for the $Z_2$-symmetric real singlet extensio…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LBFAST: A Lightweight Moment-Represented Lattice Boltzmann Solver for Multi-GPU Architectures",
-      "url": "https://arxiv.org/abs/2609.09160",
-      "summary": "arXiv:2609.09160v1 Announce Type: cross Abstract: We present LBFAST, a GPU-oriented lattice Boltzmann solver based on a lightweight moment-represented formulation, in which post-collision populations are reconstructed on…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-informed neural networks by Gradient-Guided Gaussian Adaptive Sampling (3GAS-PINNs)",
-      "url": "https://arxiv.org/abs/2609.09162",
-      "summary": "arXiv:2609.09162v1 Announce Type: cross Abstract: Physics-informed neural networks (PINNs) provide a mesh-free framework for solving partial differential equations, yet their performance in nonlinear problems is often li…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-      "url": "https://arxiv.org/abs/2609.09226",
-      "summary": "arXiv:2609.09226v1 Announce Type: cross Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavior…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting the Aerts-Broekaert-Smets quantum model of the liar paradox",
-      "url": "https://arxiv.org/abs/2609.09228",
-      "summary": "arXiv:2609.09228v1 Announce Type: cross Abstract: The quantum model of the two-sentence liar paradox proposed by Aerts, Broekaert, and Smets is an early example of the use of quantum formalism to describe cognitive dynam…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The energetics of force errors in machine-learned molecular dynamics",
-      "url": "https://arxiv.org/abs/2609.09251",
-      "summary": "arXiv:2609.09251v1 Announce Type: cross Abstract: The energetic effect of a force error depends on atomic motion. We establish a directional residual-work coefficient combining directional curvature mismatch with the spa…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deus Ex Statistica: A Statistical Solution to the binary-binary Outcome of the Chaotic, Non-Hierarchical Four-Body Problem",
-      "url": "https://arxiv.org/abs/2609.09279",
-      "summary": "arXiv:2609.09279v1 Announce Type: cross Abstract: We present an analytical, statistical solution to the binary-binary (2+2) outcome of the chaotic non-hierarchical four-body problem. The solution is based on the density-…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "JZ-FMM: GPU-native differentiable N-body simulations with the Fast Multipole Method",
-      "url": "https://arxiv.org/abs/2609.09307",
-      "summary": "arXiv:2609.09307v1 Announce Type: cross Abstract: N-body simulations are an essential tool for modelling the evolution of gravitating systems. Differentiable N-body simulations allow solving complicated reconstruction pr…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-Hermitian topology in driven-dissipative systems: correspondence with quantum correlations and a resource for entanglement",
-      "url": "https://arxiv.org/abs/2609.09312",
-      "summary": "arXiv:2609.09312v1 Announce Type: cross Abstract: Directional amplification, in which signals are amplified selectively depending on their propagation direction, is a key resource for quantum information processing and s…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase stability and mechanical response of Ag-interlayered Al/Cu resistance spot-welded joints",
-      "url": "https://arxiv.org/abs/2609.09364",
-      "summary": "arXiv:2609.09364v1 Announce Type: cross Abstract: Dissimilar Al/Cu joints are essential to battery-pack assemblies; however, their mechanical strength is limited by brittle Al-Cu intermetallic compounds (IMCs) such as Al…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A force model for dense granular flows and particle segregation",
-      "url": "https://arxiv.org/abs/2609.09398",
-      "summary": "arXiv:2609.09398v1 Announce Type: cross Abstract: Dense granular flows are a common occurrence throughout nature and industry, but still exhibit phenomena that are not fully understood. One of these phenomena is the segr…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Population Ecology of Tunes",
-      "url": "https://arxiv.org/abs/2609.09501",
-      "summary": "arXiv:2609.09501v1 Announce Type: cross Abstract: How cultural repertoires maintain diversity under selection is a fundamental question in cultural evolution. We address this using thirteen years of weekly popularity dat…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Role of Concentration in Determining NaCl Nucleation Mechanism: A Story of Pathways Coexistence",
-      "url": "https://arxiv.org/abs/2609.09518",
-      "summary": "arXiv:2609.09518v1 Announce Type: cross Abstract: Deciphering the microscopic details of crystal nucleation remains a key open problem in chemical physics. For aqueous sodium chloride (NaCl), the extent to which nucleati…",
       "ts": 1789012800000,
       "publishedAt": "2026-09-10T04:00:00.000Z"
     }
