@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-10T20:33:57.386Z",
+  "updated": "2026-09-10T22:58:52.726Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "PD-L2 Blockade May Reduce Harmful Aging Cell Buildup",
+      "url": "https://www.genengnews.com/topics/translational-medicine/pd-l2-blockade-may-reduce-harmful-aging-cell-buildup/",
+      "summary": "Blocking PD-L2 reduced senescent cell accumulation in aged mice and improved measures tied to metabolic function and physical strength. The post PD-L2 Blockade May Reduce Harmful Aging Cell Buildup appeared first on GEN …",
+      "ts": 1789078253000,
+      "publishedAt": "2026-09-10T22:10:53.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA’s Life-Saving Technology Where Cell Signals Can’t Go",
@@ -274,6 +283,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "Ukraine: Drone attacks on Chornobyl are ‘gambling with the safety of millions of people’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168312",
+      "summary": "A drone strike on the protective structure at the Chornobyl Nuclear Power Plant could have endangered the safety of millions of people, UN Development Programme (UNDP) Administrator Alexander De Croo told reporters via v…",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN climate chief warns political division is undermining fight against ‘economic security emergency’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168311",
+      "summary": "The head of the UN's climate body has warned that treating global warming as a partisan issue is dangerously out of step with reality, as he set out a stark account of the economic toll climate change is already inflicti…",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "‘An assault on humanity itself’: Guterres pays tribute to 9/11 victims, survivors and first responders",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168310",
       "summary": "Twenty-five years ago, the heinous terrorist attacks of 11 September 2001 against the United States claimed thousands of lives and represented “an assault on humanity itself”, the UN chief said on Thursday.",
@@ -450,15 +477,6 @@
       "summary": "APOD Science APOD APOD: 2026 September 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
       "ts": 1789013100000,
       "publishedAt": "2026-09-10T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Dust Storm Sweeps Over Mali",
-      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
-      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -741,19 +759,28 @@
       "categoryId": "bio"
     },
     {
-      "source": "OpenAI",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "ts": 1788998400000,
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "categoryId": "ai-compute"
+      "source": "NASA",
+      "title": "Dust Storm Sweeps Over Mali",
+      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
+      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
+      "ts": 1789012800000,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "OpenAI",
       "title": "Introducing the Agents API",
       "url": "https://openai.com/index/introducing-the-agents-api",
       "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "ts": 1788998400000,
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "categoryId": "ai-compute"
@@ -780,33 +807,6 @@
       "source": "Nature Energy",
       "title": "Ironing out the wrinkles",
       "url": "https://www.nature.com/articles/s41560-026-02127-1",
-      "summary": "",
-      "ts": 1788998400000,
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Integrated photovoltaics need design innovation and cross-sector collaboration",
-      "url": "https://www.nature.com/articles/s41560-026-02132-4",
-      "summary": "",
-      "ts": 1788998400000,
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Lithium–disulfur dichloride batteries",
-      "url": "https://www.nature.com/articles/s41560-026-02120-8",
-      "summary": "",
-      "ts": 1788998400000,
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Crystallization control of 2.0-eV bandgap perovskites for all-perovskite triple-junction solar cells",
-      "url": "https://www.nature.com/articles/s41560-026-02135-1",
       "summary": "",
       "ts": 1788998400000,
       "publishedAt": "2026-09-10T00:00:00.000Z",
