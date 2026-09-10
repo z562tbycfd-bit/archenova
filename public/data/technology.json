@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-09-10T17:32:27.216Z",
+  "updated": "2026-09-10T20:33:57.386Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s Life-Saving Technology Where Cell Signals Can’t Go",
+      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-life-saving-technology-where-cell-signals-cant-go/",
+      "summary": "Search and rescue technology developed in part by NASA saved five lives",
+      "ts": 1789071159000,
+      "publishedAt": "2026-09-10T20:12:39.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Right before midterms, Trump dangles $500 refunds for select ACA enrollees",
+      "url": "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/?utm_campaign=rss",
+      "summary": "The legal basis for the $500 checks, and who would get them, isn't entirely clear.",
+      "ts": 1789070248000,
+      "publishedAt": "2026-09-10T19:57:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "What 25 Years of Research Have Revealed About 9/11’s Long-Term Health Effects",
+      "url": "https://www.genengnews.com/topics/translational-medicine/what-25-years-of-research-have-revealed-about-9-11s-long-term-health-effects/",
+      "summary": "Twenty-five years after 9/11, long-term monitoring of responders and survivors continues to reveal the complex health consequences of exposure to environmental toxins and hazardous materials. The post What 25 Years of Re…",
+      "ts": 1789066484000,
+      "publishedAt": "2026-09-10T18:54:44.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Chronic Interferon Exposure Linked to Immunosuppression in Cancer",
+      "url": "https://www.genengnews.com/topics/cancer/chronic-interferon-exposure-linked-to-immunosuppression-in-cancer/",
+      "summary": "A preclinical study uncovered a novel pathway that links chronic IFN-II exposure to mitochondrial dysfunction and ultimately immunosuppression in cancer, creating foundational insights that may point to future therapies …",
+      "ts": 1789065132000,
+      "publishedAt": "2026-09-10T18:32:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Manus and UT Austin Advance Biomanufacturing Product Recovery Through BioMADE Program",
+      "url": "https://www.genengnews.com/topics/bioprocessing/manus-and-ut-austin-advance-biomanufacturing-product-recovery-through-biomade-program/",
+      "summary": "A new study showed that a prgrammed lysis approach cut mechanical separation energy by over 50 percent at pilot scale, widening the range of bioalternatives that can compete pricewise. The post Manus and UT Austin Advanc…",
+      "ts": 1789064385000,
+      "publishedAt": "2026-09-10T18:19:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Platinum-based chemotherapy in childhood causes mutations that age the liver",
+      "url": "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/?utm_campaign=rss",
+      "summary": "Platinum chemotherapy aged the liver cells of treated children, making them look more like adult liver cells and possibly raising the long-term risk of new tumors",
+      "ts": 1789063200000,
+      "publishedAt": "2026-09-10T18:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Why two promising heart drugs flopped and what’s next",
@@ -9,6 +63,24 @@
       "summary": "This week on \"The Readout LOUD\" podcast: Two experimental drugs were heralded as the next era in heart disease treatment — why did they fail?",
       "ts": 1789061363000,
       "publishedAt": "2026-09-10T17:29:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, NFL Team Up to Showcase Space, Aeronautics Innovation",
+      "url": "https://www.nasa.gov/news-release/nasa-nfl-team-up-to-showcase-space-aeronautics-innovation/",
+      "summary": "Through a new collaboration between NASA and the National Football League (NFL), the agency will soon bring America’s strengths in space exploration and aeronautics innovation to the football field. NASA will conduct fly…",
+      "ts": 1789061293000,
+      "publishedAt": "2026-09-10T17:28:13.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Data Integrity as the Foundation for AI",
+      "url": "https://www.genengnews.com/multimedia/podcasts/gencast/data-integrity-as-the-foundation-for-ai/",
+      "summary": "In this sponsored podcast, LabVantage’s Gary Stimson digs into what it takes to build a data foundation for trustworthy AI. The post Data Integrity as the Foundation for AI appeared first on GEN - Genetic Engineering and…",
+      "ts": 1789061272000,
+      "publishedAt": "2026-09-10T17:27:52.000Z",
       "categoryId": "bio"
     },
     {
@@ -30,6 +102,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "Dust and Water in Sagittarius A*",
+      "url": "https://www.nasa.gov/image-article/dust-and-water-in-sagittarius-a/",
+      "summary": "A brilliant concentration of stars takes center stage in this Aug. 11, 2026, image taken by NASA’s James Webb Space Telescope. Webb observed IRS 3, a star near the end of its life cycle, located within this starfield. We…",
+      "ts": 1789056843000,
+      "publishedAt": "2026-09-10T16:14:03.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "NVIDIA",
       "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
       "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
@@ -46,6 +127,15 @@
       "ts": 1789056000000,
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Atoms4Food Charts Path to Food Security in Liberia",
+      "url": "http://www.iaea.org/newscenter/news/atoms4food-charts-path-to-food-security-in-liberia",
+      "summary": "",
+      "ts": 1789054250000,
+      "publishedAt": "2026-09-10T15:30:50.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -184,6 +274,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "‘An assault on humanity itself’: Guterres pays tribute to 9/11 victims, survivors and first responders",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168310",
+      "summary": "Twenty-five years ago, the heinous terrorist attacks of 11 September 2001 against the United States claimed thousands of lives and represented “an assault on humanity itself”, the UN chief said on Thursday.",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Fresh attacks prompt emergency meeting on Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168309",
+      "summary": "On the heels of reported Houthi attacks on Saudi Arabia on Tuesday and the capture of another key port by the militants on Yemen’s Red Sea coast – including the seizure of eight UN vehicles from a key aid hub there – the…",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Human cost of violence in South Sudan ‘continues to grow’",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168307",
       "summary": "Independent human rights investigators voiced deep concern over growing risks to both civilians and South Sudan’s political transition following their latest fact-finding mission to the world’s youngest nation – their 14…",
@@ -310,6 +418,15 @@
     },
     {
       "source": "OpenAI",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "ts": 1789023600000,
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
       "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
       "url": "https://openai.com/index/expanding-ai-access-us-government",
       "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
@@ -333,6 +450,15 @@
       "summary": "APOD Science APOD APOD: 2026 September 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
       "ts": 1789013100000,
       "publishedAt": "2026-09-10T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Dust Storm Sweeps Over Mali",
+      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
+      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
+      "ts": 1789012800000,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -615,19 +741,19 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Dust Storm Sweeps Over Mali",
-      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
-      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "OpenAI",
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "ts": 1788998400000,
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "categoryId": "ai-compute"
@@ -685,132 +811,6 @@
       "ts": 1788998400000,
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: U.K. unveils recommendations for regulating AI in medicine",
-      "url": "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/?utm_campaign=rss",
-      "summary": "A U.K. commission has unveiled its recommendations for how the country should regulate artificial intelligence in medicine.",
-      "ts": 1788994860000,
-      "publishedAt": "2026-09-09T23:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Coroner releases details of infants who died amid growing Pennsylvania measles outbreak",
-      "url": "https://www.statnews.com/2026/09/09/coroner-details-infant-deaths-pennsylvania-measles-outbreak/?utm_campaign=rss",
-      "summary": "The two measles-related deaths in Pennsylvania last month involved infants, and the virus itself caused one of the deaths, a Pennsylvania coroner confirmed Wednesday.",
-      "ts": 1788990247000,
-      "publishedAt": "2026-09-09T21:44:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
-      "url": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
-      "summary": "A NASA Launch Services (NLS) II contract has been awarded by the agency to Relativity Space Inc., and its Terran R launch service in accordance with the contract’s on-ramp provision. The Terran R launch service will be a…",
-      "ts": 1788984718000,
-      "publishedAt": "2026-09-09T20:11:58.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Emerging Power of Mass Spectrometry in Oncology",
-      "url": "https://www.genengnews.com/topics/omics/the-emerging-power-of-mass-spectrometry-in-oncology/",
-      "summary": "Novel approaches are urgently needed to improve availability of diagnostic assays, and recent efforts have shifted toward uncovering the biological pathways and molecular profiles underlying disease onset, progression, a…",
-      "ts": 1788982808000,
-      "publishedAt": "2026-09-09T19:40:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Chandra Unveils Mysterious X-Ray Objects",
-      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/",
-      "summary": "Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before. Astronomers suggest these newly spotted objects in other galaxies may help solve not on…",
-      "ts": 1788977484000,
-      "publishedAt": "2026-09-09T18:11:24.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Gene Therapy Extends Lifespan and Reduces Symptoms in Sandhoff Disease Cat Model",
-      "url": "https://www.genengnews.com/topics/translational-medicine/gene-therapy-extends-lifespan-and-reduces-symptoms-in-sandhoff-disease-cat-model/",
-      "summary": "Intravenous gene therapy extended lifespan, reduced neurological symptoms, and improved disease markers in a Sandhoff disease cat model, supporting further investigation of systemic AAV gene therapy for this disorder. Th…",
-      "ts": 1788976837000,
-      "publishedAt": "2026-09-09T18:00:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Monoclonal Antibodies Targeting MMP-9 Alleviate Peripheral Neuropathy in Diabetic Mice",
-      "url": "https://www.genengnews.com/topics/drug-discovery/monoclonal-antibodies-targeting-mmp-9-alleviate-peripheral-neuropathy-in-diabetic-mice/",
-      "summary": "Scientists developed monoclonal antibodies targeting matrix metalloproteinase-9, which in a newly reported preclinical study slowed and even reversed diabetic nerve damage in mouse models of type I and type II diabetes. …",
-      "ts": 1788976815000,
-      "publishedAt": "2026-09-09T18:00:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "ts": 1788973200000,
-      "publishedAt": "2026-09-09T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: ARPA-H to invest $62 million to develop FDA-authorized AI to help treat heart failure",
-      "url": "https://www.statnews.com/2026/09/09/arpa-h-advocate-program-autonomous-ai-bots-for-heart-failure/?utm_campaign=rss",
-      "summary": "ARPA-H, the government agency that funds cutting edge health research, plans to commit $62.7 million to develop artificial intelligence bots that direct treatment of heart failure.",
-      "ts": 1788969660000,
-      "publishedAt": "2026-09-09T16:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Increasing CHO Cell Productivity",
-      "url": "https://www.genengnews.com/topics/bioprocessing/increasing-cho-cell-productivity/",
-      "summary": "Overexpressing the gene Pabpc1 in CHO cell cultures increases productivity by 30–50%, offering a broadly applicable strategy to engineer highly productive cell lines for antibody production. The post Increasing CHO Cell …",
-      "ts": 1788969650000,
-      "publishedAt": "2026-09-09T16:00:50.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
-      "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
-      "summary": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations across the media and entertainment industri…",
-      "ts": 1788969642000,
-      "publishedAt": "2026-09-09T16:00:42.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "No One-Size-Fits-All Solution for Autologous Cell Therapy Manufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/no-one-size-fits-all-solution-for-autologous-cell-therapy-manufacturing/",
-      "summary": "The operational challenges of making patient-specific cell therapies require careful consideration. Choosing the manufacturing model that fits the healthcare infrastructure, the logistical requirements, and the market en…",
-      "ts": 1788969638000,
-      "publishedAt": "2026-09-09T16:00:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Microscale Chromatography Moves Toward Manufacturing Readiness",
-      "url": "https://www.genengnews.com/topics/bioprocessing/microscale-chromatography-moves-toward-manufacturing-readiness/",
-      "summary": "AstraZeneca researchers show that automated microscale chromatography can generate process-characterization insights comparable to traditional bench-scale systems, potentially giving bioprocess developers a faster, mater…",
-      "ts": 1788969609000,
-      "publishedAt": "2026-09-09T16:00:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
-      "url": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
-      "summary": "Last November, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure, and benefit commercial industries, including shipping. The satellite now is fl…",
-      "ts": 1788969600000,
-      "publishedAt": "2026-09-09T16:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
