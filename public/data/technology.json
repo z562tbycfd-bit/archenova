@@ -1,7 +1,133 @@
 {
   "ok": true,
-  "updated": "2026-09-10T13:23:14.463Z",
+  "updated": "2026-09-10T17:32:27.216Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Why two promising heart drugs flopped and what’s next",
+      "url": "https://www.statnews.com/2026/09/10/readout-loud-podcast-heart-disease-drugs-failed-trials/?utm_campaign=rss",
+      "summary": "This week on \"The Readout LOUD\" podcast: Two experimental drugs were heralded as the next era in heart disease treatment — why did they fail?",
+      "ts": 1789061363000,
+      "publishedAt": "2026-09-10T17:29:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The gifts from pharma companies that keep on giving",
+      "url": "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/?utm_campaign=rss",
+      "summary": "There has been rancorous debate over doctors accepting free gifts and speaking fees from pharma companies. That doesn't mean doctors have reconsidered.",
+      "ts": 1789058842000,
+      "publishedAt": "2026-09-10T16:47:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foun…",
+      "ts": 1789057835000,
+      "publishedAt": "2026-09-10T16:30:35.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people t…",
+      "ts": 1789056004000,
+      "publishedAt": "2026-09-10T16:00:04.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "ts": 1789056000000,
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Smarter Cell Culture Starts with Better Media",
+      "url": "https://www.genengnews.com/topics/bioprocessing/smarter-cell-culture-starts-with-better-media/",
+      "summary": "Advances in media optimization, cell engineering, and AI are reshaping intensified bioprocessing for higher productivity, better quality, and greater manufacturing efficiency. The post Smarter Cell Culture Starts with Be…",
+      "ts": 1789053392000,
+      "publishedAt": "2026-09-10T15:16:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "CAR T Manufacturing in Japan Gets Boost from Teijin-Shinshu University Research Collaboration",
+      "url": "https://www.genengnews.com/topics/bioprocessing/car-t-manufacturing-in-japan-gets-boost-from-teijin-shinshu-university-research-collaboration/",
+      "summary": "Shinshu University Hospital's expertise in CAR T-cell therapy R&D and clinical application will be combined with Teijin Regenet's manufacturing and quality-management expertise cultivated through its CDMO business for re…",
+      "ts": 1789052997000,
+      "publishedAt": "2026-09-10T15:09:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "ts": 1789052400000,
+      "publishedAt": "2026-09-10T15:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Can AI save rural health care?",
+      "url": "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/?utm_campaign=rss",
+      "summary": "Nominees for top federal health roles to face Congress, and Trump officials are betting on AI to help save rural health care.",
+      "ts": 1789051986000,
+      "publishedAt": "2026-09-10T14:53:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Revvity Signs Agreement to Acquire Human Cell Design",
+      "url": "https://www.genengnews.com/topics/drug-discovery/revvity-signs-agreement-to-acquire-human-cell-design/",
+      "summary": "As wet-lab validation becomes increasingly important to support artificial intelligence-enhanced science, research science points out that human-relevant cell models provide an important foundation for testing and confir…",
+      "ts": 1789051828000,
+      "publishedAt": "2026-09-10T14:50:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Top 10 Contract Development and Manufacturing Organizations 2026",
+      "url": "https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/",
+      "summary": "A majority of biopharmas are expected to increase their reliance on CDMOs in coming years despite rising costs for their services. The post Top 10 Contract Development and Manufacturing Organizations 2026 appeared first …",
+      "ts": 1789050147000,
+      "publishedAt": "2026-09-10T14:22:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "10 CDMO Up & Comers 2026",
+      "url": "https://www.genengnews.com/topics/bioprocessing/10-cdmo-up-comers-2026/",
+      "summary": "As one notable company exits the field, growing CDMOs open facilities and secure major contracts. The companies are listed here for making headlines with facility openings, major contracts, and other significant actions,…",
+      "ts": 1789050057000,
+      "publishedAt": "2026-09-10T14:20:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Name our dino – ESA’s Hera asteroid mission mascot!",
+      "url": "https://www.esa.int/Space_Safety/Hera/Name_our_dino_ESA_s_Hera_asteroid_mission_mascot",
+      "summary": "The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people …",
+      "ts": 1789048800000,
+      "publishedAt": "2026-09-10T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA expands Bayer lung cancer drug approval",
+      "url": "https://www.statnews.com/2026/09/10/biotech-news-fda-expands-bayer-lung-cancer-drug-approval/?utm_campaign=rss",
+      "summary": "UniQure readout tests durability of benefits, an AI effort to manage heart failure, and more biotech news from The Readout",
+      "ts": 1789047416000,
+      "publishedAt": "2026-09-10T13:36:56.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a Novartis investor seeking a shake-up, a Gilead setback, and more",
@@ -39,6 +165,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "IAEA News",
+      "title": "UN Partners, Global Experts and Member States Come Together to Strengthen imPACT Reviews",
+      "url": "http://www.iaea.org/newscenter/news/un-partners-global-experts-and-member-states-come-together-to-strengthen-impact-reviews",
+      "summary": "",
+      "ts": 1789044005000,
+      "publishedAt": "2026-09-10T12:40:05.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
       "url": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
@@ -46,6 +181,15 @@
       "ts": 1789042200000,
       "publishedAt": "2026-09-10T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Human cost of violence in South Sudan ‘continues to grow’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168307",
+      "summary": "Independent human rights investigators voiced deep concern over growing risks to both civilians and South Sudan’s political transition following their latest fact-finding mission to the world’s youngest nation – their 14…",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -73,6 +217,24 @@
       "ts": 1789038000000,
       "publishedAt": "2026-09-10T11:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Third IAEA ISOP Innovation Awards Recognize Excellence in Nuclear Innovation",
+      "url": "http://www.iaea.org/newscenter/news/third-iaea-isop-innovation-awards-recognize-excellence-in-nuclear-innovation",
+      "summary": "",
+      "ts": 1789038000000,
+      "publishedAt": "2026-09-10T11:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Isotope Hydrology Symposium Call for Abstracts",
+      "url": "http://www.iaea.org/newscenter/news/isotope-hydrology-symposium-call-for-abstracts",
+      "summary": "Abstract submissions are now open for the IAEA's 17th International Symposium on Isotope Hydrology, which will take place from 10 to 14 May 2027 at IAEA headquarters in Vienna, Austria.",
+      "ts": 1789036825000,
+      "publishedAt": "2026-09-10T10:40:25.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -132,7 +294,7 @@
       "source": "STAT",
       "title": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it",
       "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/?utm_campaign=rss",
-      "summary": "BANGOR, Maine — Rural health care providers, which have struggled for years, are facing nearly $1 trillion in Medicaid cuts over the coming decade. The Trump administration is pointing to…",
+      "summary": "Rural health care providers have struggled for years. The Trump administration is pointing to a cutting-edge, if unproven way to save them: artificial intelligence.",
       "ts": 1789029000000,
       "publishedAt": "2026-09-10T08:30:00.000Z",
       "categoryId": "bio"
@@ -145,6 +307,15 @@
       "ts": 1789029000000,
       "publishedAt": "2026-09-10T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "ts": 1789023600000,
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "IAEA News",
@@ -162,15 +333,6 @@
       "summary": "APOD Science APOD APOD: 2026 September 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
       "ts": 1789013100000,
       "publishedAt": "2026-09-10T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Dust Storm Sweeps Over Mali",
-      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
-      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -453,6 +615,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Dust Storm Sweeps Over Mali",
+      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
+      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
+      "ts": 1789012800000,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "ts": 1788998400000,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Nature Energy",
       "title": "A hidden leak in solids",
       "url": "https://www.nature.com/articles/s41560-026-02133-3",
@@ -631,186 +811,6 @@
       "ts": 1788969600000,
       "publishedAt": "2026-09-09T16:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Artemis II Crew at NASA Marshall",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-at-nasa-marshall/",
-      "summary": "The crew of NASA’s Artemis II mission – NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman and CSA (Canadian Space Agency) astronaut Jeremy Hansen – visited Huntsville, Alabama, Sept. 1, 2026, where they met…",
-      "ts": 1788967904000,
-      "publishedAt": "2026-09-09T15:31:44.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Can AI fix the emergency room?",
-      "url": "https://www.statnews.com/2026/09/09/scribe-emergency-room-fix-health-care-ai-prognosis/?utm_campaign=rss",
-      "summary": "AI can't change the ER's problems, which exemplify health care's bigger problems, writes Brittany Trang in this week's AI Prognosis.",
-      "ts": 1788965935000,
-      "publishedAt": "2026-09-09T14:58:55.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Orexin discoverers awarded prestigious Lasker award",
-      "url": "https://www.statnews.com/2026/09/09/biotech-news-orexin-discovers-awawrded-prestigious-lasker-award/?utm_campaign=rss",
-      "summary": "A new FDA CBER head, AI company Schrodinger with a new startup, and more biotech news from The Readout",
-      "ts": 1788961100000,
-      "publishedAt": "2026-09-09T13:38:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
-      "url": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
-      "summary": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Housto…",
-      "ts": 1788960277000,
-      "publishedAt": "2026-09-09T13:24:37.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an AstraZeneca COPD win, the FDA filling key jobs, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/?utm_campaign=rss",
-      "summary": "An AstraZeneca drug reduced the dangerous flare-ups that worsen COPD in a pair of late-stage trials",
-      "ts": 1788959757000,
-      "publishedAt": "2026-09-09T13:15:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The AI policy window is open. We need to act.",
-      "url": "https://openai.com/index/ai-policy-window",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "ts": 1788958800000,
-      "publishedAt": "2026-09-09T13:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: OpenAI’s turning point for math and a battery record",
-      "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its…",
-      "ts": 1788955800000,
-      "publishedAt": "2026-09-09T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "MTM's selfie footage of BepiColombo's eight-year journey",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/MTM_s_selfie_footage_of_BepiColombo_s_eight-year_journey",
-      "summary": "Video: 00:04:20 Witness how over the last eight years, the ESA/JAXA BepiColombo mission has been travelling through the inner Solar System and aligning itself with Mercury's orbit. So far, it has travelled 9.9 billion km…",
-      "ts": 1788955200000,
-      "publishedAt": "2026-09-09T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘The water comes up to our knees’: Climate hazards shut millions of children out of school in 2025",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168306",
-      "summary": "When the creek beside Taudibura Garo's school in Papua New Guinea floods, the water doesn't stop at the gate. It rises through the pit toilets – making the school unsafe – sending the 16-year-old and her classmates home …",
-      "ts": 1788955200000,
-      "publishedAt": "2026-09-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Flood-ravaged Nepal calls for climate justice",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168305",
-      "summary": "Nepal’s call for financial compensation following recent deadly floods underlines the need to help countries that contribute the least to climate change – but are increasingly grappling with its most lethal consequences,…",
-      "ts": 1788955200000,
-      "publishedAt": "2026-09-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Plight of Afghans going ‘from bad to worse’, but the world is looking away: Türk",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168303",
-      "summary": "Since the Taliban returned to power in 2021, the plight of Afghans has only deteriorated, with millions impoverished while authorities violate basic human rights daily.",
-      "ts": 1788955200000,
-      "publishedAt": "2026-09-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN hails Libya election deal as Security Council urges Libyans to seize the moment",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168302",
-      "summary": "The UN Security Council has welcomed a breakthrough agreement between Libya's rival political blocs, calling it \"an important step\" towards the country's first national elections in over a decade – while pressing all sid…",
-      "ts": 1788955200000,
-      "publishedAt": "2026-09-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres urges leaders to invest in peace as conflicts deepen",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168301",
-      "summary": "The UN Secretary-General appealed on Wednesday for world leaders to invest in peace as violence, division and conflict exacerbate suffering worldwide.",
-      "ts": 1788955200000,
-      "publishedAt": "2026-09-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Record number of attacks on education, global fund warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168300",
-      "summary": "While September traditionally marks the start of the school year across the northern hemisphere, a staggering 93 million children are not in class at all amid an unprecedented number of attacks on learning, education exp…",
-      "ts": 1788955200000,
-      "publishedAt": "2026-09-09T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Telemedicine company offers GLP-1s for addiction",
-      "url": "https://www.statnews.com/2026/09/09/health-news-telemedicine-company-offers-glp-1s-for-addiction/?utm_campaign=rss",
-      "summary": "A CDC Covid restructuring, public trust in Fauci, and more health news from Morning Rounds",
-      "ts": 1788954816000,
-      "publishedAt": "2026-09-09T11:53:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "ts": 1788951600000,
-      "publishedAt": "2026-09-09T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Leukemia drug data suggested a different way to treat diabetes. A new biotech will test that idea",
-      "url": "https://www.statnews.com/2026/09/09/kura-oncology-spins-off-diabetes-focused-caspian-therapeutics/?utm_campaign=rss",
-      "summary": "Caspian Therapeutics, is launching with $50 million in financing to develop menin inhibitors for diabetes and other cardiometabolic diseases.",
-      "ts": 1788951600000,
-      "publishedAt": "2026-09-09T11:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Batteries just broke another record in the US",
-      "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
-      "summary": "Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of…",
-      "ts": 1788944400000,
-      "publishedAt": "2026-09-09T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Ukrainian NPP Workers’ Children Meet with DG, Tour IAEA HQ as Part of Summer Camp Programme Hosted by Austria",
-      "url": "http://www.iaea.org/newscenter/news/ukrainian-npp-workers-children-meet-with-dg-tour-iaea-hq-as-part-of-summer-camp-programme-hosted-by-austria",
-      "summary": "",
-      "ts": 1788943690000,
-      "publishedAt": "2026-09-09T08:48:10.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Autonomous AI will beat AI-assisted physicians at some medical tasks by 2030",
-      "url": "https://www.statnews.com/2026/09/09/ai-medicine-assisted-physicians-research-autonomy/?utm_campaign=rss",
-      "summary": "“Autonomous AI will likely soon exceed both unaided physicians and physicians aided by AI at five core cognitive medical tasks,” write Ezekiel J. Emanuel and Abe Baker-Butler.",
-      "ts": 1788942600000,
-      "publishedAt": "2026-09-09T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
