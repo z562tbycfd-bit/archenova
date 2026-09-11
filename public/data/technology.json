@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-11T18:14:37.353Z",
+  "updated": "2026-09-11T21:34:34.344Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: Will AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor…",
+      "ts": 1789157106000,
+      "publishedAt": "2026-09-11T20:05:06.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bone Marrow-on-a-Chip Model Offers New Window Into Immune Cell Development and Behavior",
+      "url": "https://www.genengnews.com/topics/translational-medicine/bone-marrow-on-a-chip-model-offers-new-window-into-immune-cell-development-and-behavior/",
+      "summary": "By reproducing elements of human bone marrow on a chip, scientists have created a new tool that will help them gain new insights into how immune cells develop and function. The post Bone Marrow-on-a-Chip Model Offers New…",
+      "ts": 1789153743000,
+      "publishedAt": "2026-09-11T19:09:03.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
@@ -127,6 +145,24 @@
       "ts": 1789128600000,
       "publishedAt": "2026-09-11T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Ambassadors mark 9/11 with counter-terrorism push on AI and drones",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168318",
+      "summary": "The Security Council is meeting to mark 25 years since the 9/11 attacks, with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's …",
+      "ts": 1789128000000,
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "The world just had the hottest August ever",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168317",
+      "summary": "Earth just had the hottest August on record, according to newly released weather data.",
+      "ts": 1789128000000,
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -775,42 +811,6 @@
       "ts": 1789045221000,
       "publishedAt": "2026-09-10T13:00:21.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs/",
-      "summary": "Gear up: The latest PC games and major updates are ready to play on GeForce NOW this week. WARDOGS drops onto the cloud at early-access launch, alongside the Valheim 1.0 Deep North update and Bus Simulator 27 — part of n…",
-      "ts": 1789045218000,
-      "publishedAt": "2026-09-10T13:00:18.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "UN Partners, Global Experts and Member States Come Together to Strengthen imPACT Reviews",
-      "url": "http://www.iaea.org/newscenter/news/un-partners-global-experts-and-member-states-come-together-to-strengthen-impact-reviews",
-      "summary": "",
-      "ts": 1789044005000,
-      "publishedAt": "2026-09-10T12:40:05.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
-      "url": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. God told them to sell crypto. Their investors lost everything. When Eli Regalado f…",
-      "ts": 1789042200000,
-      "publishedAt": "2026-09-10T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ukraine: Drone attacks on Chornobyl are ‘gambling with the safety of millions of people’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168312",
-      "summary": "A drone strike on the protective structure at the Chornobyl Nuclear Power Plant could have endangered the safety of millions of people, UN Development Programme (UNDP) Administrator Alexander De Croo told reporters via v…",
-      "ts": 1789041600000,
-      "publishedAt": "2026-09-10T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
