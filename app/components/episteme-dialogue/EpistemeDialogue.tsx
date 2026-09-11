@@ -29,6 +29,49 @@ type QueryKind =
   | "EVALUATION"
   | "OPEN";
 
+type IntentPrimary =
+  | "EXPLAIN"
+  | "SIGNIFICANCE"
+  | "CAUSAL"
+  | "EVALUATE"
+  | "COMPARE"
+  | "DESIGN"
+  | "FORECAST"
+  | "CHALLENGE"
+  | "DECIDE";
+
+type EpistemicDemand =
+  | "DESCRIPTION"
+  | "EXPLANATION"
+  | "DISCRIMINATION"
+  | "EVALUATION"
+  | "PREDICTION"
+  | "DESIGN";
+
+type RealityContactMode =
+  | "OBSERVATIONAL"
+  | "EXPERIMENTAL"
+  | "INTERVENTIONAL"
+  | "CONSTRUCTIVE"
+  | "INSTITUTIONAL";
+
+type IntentModel = {
+  primaryIntent: IntentPrimary;
+  target: string;
+  requestedOutcome: string;
+  epistemicDemand: EpistemicDemand;
+  mustAnswer: string[];
+  mustNotAssume: string[];
+};
+
+type RealityModel = {
+  domain: string;
+  contactModes: RealityContactMode[];
+  realityQuestion: string;
+  decisiveEvidence: string;
+  inappropriateTest: string | null;
+};
+
 type EvidenceStrength =
   | "STRONG"
   | "MODERATE"
@@ -71,6 +114,8 @@ type IntelligenceObject = {
   queryKind: QueryKind;
   evidenceStrength: EvidenceStrength;
   inquiry: InquiryState;
+  intentModel: IntentModel;
+  realityModel: RealityModel;
 };
 
 type DialogueMessage = {
@@ -463,34 +508,248 @@ function scoreSignal(
    is insufficient.
 ========================================================== */
 
-function classifyQuery(query: string, mode: DialogueMode): QueryKind {
+function buildIntentModel(
+  query: string,
+  mode: DialogueMode,
+): IntentModel {
   const q = query.toLocaleLowerCase();
 
-  if (mode === "compare" || /\b(compare|versus|vs\.?|difference|better)\b|比較|違い|どちら/.test(q)) {
-    return "COMPARATIVE";
+  const significance =
+    /\b(why (?:does|is|this|that).*matter|why .* matters|significance|important|importance|why important|why significant|implication|implications|what changes if true|why should .* care)\b|なぜ.*重要|なぜ.*意味|重要性|意義|本質|何が変わる|どのような意味/.test(q);
+
+  const compare =
+    mode === "compare" ||
+    /\b(compare|versus|vs\.?|difference|better|worse|stronger|weaker)\b|比較|違い|どちら|優れて/.test(q);
+
+  const forecast =
+    mode === "simulate" ||
+    /\b(if|scenario|simulate|counterfactual|what happens if|forecast|predict|prediction|future)\b|もし|仮に|シミュレー|予測|将来/.test(q);
+
+  const design =
+    /\b(design|build|implement|architecture|engineer|deploy|how should|how can .* become|how could .* become)\b|設計|実装|構築|アーキテクチャ|どう作|どう実現/.test(q);
+
+  const causal =
+    /\b(cause|causes|causal|causation|mechanism|because|what causes|why does .* happen|why did .* happen)\b|原因|因果|メカニズム|仕組み|なぜ.*起こ/.test(q);
+
+  const evaluation =
+    /\b(evaluate|assess|valid|credible|reliable|worth|strong evidence|weak evidence)\b|評価|妥当|信頼|検証|有効/.test(q);
+
+  const decision =
+    /\b(should we|which should|recommend|choose|decision|priority)\b|選ぶ|選択|推奨|優先/.test(q);
+
+  const challenge =
+    mode === "challenge" ||
+    /\b(challenge|falsify|falsification|strongest objection|what could be wrong)\b|反証|反対|誤り|弱点/.test(q);
+
+  let primaryIntent: IntentPrimary = "EXPLAIN";
+  let epistemicDemand: EpistemicDemand = "EXPLANATION";
+  let requestedOutcome =
+    "Explain the bounded meaning of the strongest relevant evidence.";
+  let mustAnswer = [
+    "What is directly supported?",
+    "What follows from it?",
+    "What remains outside the evidence boundary?",
+  ];
+  let mustNotAssume = [
+    "Do not convert a reported result into a broader claim without additional evidence.",
+  ];
+
+  // Intent priority is semantic rather than lexical.
+  // In particular, “why this matters” is significance, not causation.
+  if (compare) {
+    primaryIntent = "COMPARE";
+    epistemicDemand = "DISCRIMINATION";
+    requestedOutcome =
+      "Compare alternatives under common criteria and state what evidence would reverse the ranking.";
+    mustAnswer = [
+      "What are the common comparison criteria?",
+      "Where is the evidence asymmetric?",
+      "What would change the ranking?",
+    ];
+  } else if (significance) {
+    primaryIntent = "SIGNIFICANCE";
+    epistemicDemand = "EVALUATION";
+    requestedOutcome =
+      "Explain what is genuinely new, what problem the signal bears on, what changes if it survives testing, and what would make it consequential rather than merely interesting.";
+    mustAnswer = [
+      "What is new relative to the current baseline?",
+      "What problem or constraint does the result bear on?",
+      "What trade-off, contradiction, or boundary limits the claim?",
+      "What would change scientifically, technically, or institutionally if the claim survives?",
+    ];
+    mustNotAssume = [
+      "Do not treat the word ‘why’ as a causal request when the user asks why a signal matters.",
+      "Do not equate novelty with validation or validation with practical importance.",
+    ];
+  } else if (challenge) {
+    primaryIntent = "CHALLENGE";
+    epistemicDemand = "DISCRIMINATION";
+    requestedOutcome =
+      "Find the strongest assumption, competing explanation, and observation capable of overturning the current interpretation.";
+  } else if (design) {
+    primaryIntent = "DESIGN";
+    epistemicDemand = "DESIGN";
+    requestedOutcome =
+      "Translate bounded evidence into a minimum testable design with explicit operating and failure conditions.";
+  } else if (forecast) {
+    primaryIntent = "FORECAST";
+    epistemicDemand = "PREDICTION";
+    requestedOutcome =
+      "Separate the observed state from transition assumptions and state the conditions that would invalidate the forecast.";
+  } else if (causal) {
+    primaryIntent = "CAUSAL";
+    epistemicDemand = "DISCRIMINATION";
+    requestedOutcome =
+      "Distinguish observation, association, mechanism, and causation, then identify evidence that separates competing mechanisms.";
+  } else if (decision) {
+    primaryIntent = "DECIDE";
+    epistemicDemand = "EVALUATION";
+    requestedOutcome =
+      "Make a bounded decision using explicit objectives, constraints, evidence quality, and reversal conditions.";
+  } else if (evaluation) {
+    primaryIntent = "EVALUATE";
+    epistemicDemand = "EVALUATION";
+    requestedOutcome =
+      "Evaluate evidential strength separately from scientific, engineering, or institutional value.";
   }
 
-  if (mode === "simulate" || /\b(if|scenario|simulate|counterfactual|what happens if)\b|もし|仮に|シミュレー/.test(q)) {
-    return "FORECAST";
+  const targetMatch = query.match(/:\s*([\s\S]+)$/);
+  const target = targetMatch?.[1]?.trim() || query.trim();
+
+  return {
+    primaryIntent,
+    target,
+    requestedOutcome,
+    epistemicDemand,
+    mustAnswer,
+    mustNotAssume,
+  };
+}
+
+function queryKindFromIntent(intent: IntentModel): QueryKind {
+  switch (intent.primaryIntent) {
+    case "SIGNIFICANCE":
+    case "EVALUATE":
+    case "DECIDE":
+      return "EVALUATION";
+    case "CAUSAL":
+      return "CAUSAL";
+    case "COMPARE":
+      return "COMPARATIVE";
+    case "DESIGN":
+      return "DESIGN";
+    case "FORECAST":
+      return "FORECAST";
+    case "CHALLENGE":
+      return "EVALUATION";
+    case "EXPLAIN":
+    default:
+      return "FACTUAL";
+  }
+}
+
+function buildRealityModel(
+  query: string,
+  relevant: SignalItem[],
+): RealityModel {
+  const corpus = normalize(
+    [
+      query,
+      ...relevant.slice(0, 3).flatMap((signal) => [
+        signal.title,
+        signal.summary,
+        signal.category,
+      ]),
+    ].join(" "),
+  );
+
+  const has = (pattern: RegExp) => pattern.test(corpus);
+
+  if (has(/cosmolog|astronom|galax|universe|dark energy|dark matter|hubble|cmb|supernova|desi|redshift|teleparallel|gravity|black hole|star|exoplanet|solar/)) {
+    return {
+      domain: "COSMOLOGY / ASTRONOMY",
+      contactModes: ["OBSERVATIONAL"],
+      realityQuestion:
+        "Which independent observation would produce measurably different outcomes under the competing cosmological or astrophysical models?",
+      decisiveEvidence:
+        "Independent observational discrimination across datasets or probes, including out-of-sample predictions and cross-probe consistency, rather than intervention on the underlying cosmic variable.",
+      inappropriateTest:
+        "Direct intervention on the cosmological variable is generally unavailable; requiring experimental manipulation would mis-specify the reality test.",
+    };
   }
 
-  if (/\b(why|cause|causes|causal|mechanism|because)\b|なぜ|原因|因果|仕組み|メカニズム/.test(q)) {
-    return "CAUSAL";
+  if (has(/clinical|patient|disease|tumou?r|cancer|vaccine|therapy|therapeut|medical|medicine|drug|immune|cardiac|brain|glioma|biolog/)) {
+    return {
+      domain: "MEDICINE / BIOLOGY",
+      contactModes: ["EXPERIMENTAL", "INTERVENTIONAL"],
+      realityQuestion:
+        "Does a controlled biological or clinical intervention change the prespecified endpoint while safety, confounding, and replication boundaries are respected?",
+      decisiveEvidence:
+        "Mechanistic evidence plus controlled intervention, clinically meaningful endpoints where applicable, safety evidence, and independent replication or external validation.",
+      inappropriateTest: null,
+    };
   }
 
-  if (/\b(design|build|implement|architecture|engineer|deploy|how should)\b|設計|実装|構築|アーキテクチャ|どう作/.test(q)) {
-    return "DESIGN";
+  if (has(/engineer|device|prototype|system|hardware|software|manufactur|infrastructure|reactor|battery|fiber|memristor|circuit|robot|sensor|material|semiconductor/)) {
+    return {
+      domain: "ENGINEERING / TECHNOLOGY",
+      contactModes: ["CONSTRUCTIVE", "EXPERIMENTAL"],
+      realityQuestion:
+        "Can the minimum architecture reproduce the required function across defined operating conditions, failure modes, and independent verification?",
+      decisiveEvidence:
+        "Prototype or system-level measurements, stress and failure testing, reproducibility, recovery behavior, and performance under explicit operating boundaries.",
+      inappropriateTest: null,
+    };
   }
 
-  if (/\b(evaluate|assess|valid|credible|important|significant|worth)\b|評価|妥当|信頼|重要|価値/.test(q)) {
-    return "EVALUATION";
+  if (has(/policy|law|legal|governance|institution|regulat|market|econom|capital|contract|government|societ|public/)) {
+    return {
+      domain: "INSTITUTIONAL / POLICY",
+      contactModes: ["INSTITUTIONAL", "OBSERVATIONAL", "INTERVENTIONAL"],
+      realityQuestion:
+        "Do actual actors, incentives, and outcomes behave as predicted under a pilot, natural experiment, institutional comparison, or policy change?",
+      decisiveEvidence:
+        "Observed behavioral and institutional outcomes, credible counterfactual comparison, unintended effects, distributional consequences, and evidence that survives context differences.",
+      inappropriateTest: null,
+    };
   }
 
-  if (/\b(what is|who is|when|where|how many|define|explain)\b|とは|何ですか|いつ|どこ|説明/.test(q)) {
-    return "FACTUAL";
+  return {
+    domain: "GENERAL SCIENTIFIC / MIXED",
+    contactModes: ["OBSERVATIONAL", "EXPERIMENTAL"],
+    realityQuestion:
+      "What feasible observation or experiment would most strongly discriminate the preferred interpretation from its strongest credible alternative?",
+    decisiveEvidence:
+      "A discriminating observation or experiment with traceable measurements, explicit failure conditions, and independent confirmation appropriate to the domain.",
+    inappropriateTest: null,
+  };
+}
+
+function buildRealityTest(
+  reality: RealityModel,
+  intent: IntentModel,
+  kind: QueryKind,
+): string {
+  if (intent.primaryIntent === "SIGNIFICANCE") {
+    return `${reality.realityQuestion} For a significance claim, the result matters only if it survives that discrimination and changes the explanatory, predictive, engineering, or institutional baseline rather than merely fitting the original context.`;
   }
 
-  return "OPEN";
+  if (kind === "CAUSAL") {
+    if (reality.contactModes.includes("INTERVENTIONAL")) {
+      return `${reality.realityQuestion} Prefer controlled intervention when feasible, otherwise use the strongest credible natural experiment or discriminating observation.`;
+    }
+    return `${reality.realityQuestion} ${reality.decisiveEvidence}`;
+  }
+
+  if (kind === "DESIGN") {
+    return `${reality.realityQuestion} The design is not validated until the required function, failure boundary, and recovery condition are observed under the stated operating envelope.`;
+  }
+
+  return `${reality.realityQuestion} ${reality.decisiveEvidence}`;
+}
+
+function classifyQuery(query: string, mode: DialogueMode): QueryKind {
+  return queryKindFromIntent(buildIntentModel(query, mode));
 }
 
 function uniqueSignals(items: SignalItem[]) {
@@ -618,6 +877,7 @@ function buildInquiryState({
   reasoning,
   alternative,
   falsification,
+  realityTestSummary,
   nextAction,
 }: {
   query: string;
@@ -628,6 +888,7 @@ function buildInquiryState({
   reasoning: string;
   alternative: string;
   falsification: string;
+  realityTestSummary: string;
   nextAction: string;
 }): InquiryState {
   const hasEvidence = strength !== "INSUFFICIENT" && Boolean(lead);
@@ -676,7 +937,7 @@ function buildInquiryState({
     realityTest: {
       status: hasEvidence ? "ACTIVE" : "PENDING",
       summary: hasEvidence
-        ? falsification
+        ? realityTestSummary
         : "A reality test cannot be specified responsibly until directly relevant evidence or a concrete claim is supplied.",
     },
     correction: {
@@ -700,7 +961,8 @@ function buildIntelligence(
   signals: SignalItem[],
   previousMessages: DialogueMessage[],
 ): IntelligenceObject {
-  const kind = classifyQuery(query, mode);
+  const intentModel = buildIntentModel(query, mode);
+  const kind = queryKindFromIntent(intentModel);
   const relevant = rankRelevantSignals(
     query,
     signals,
@@ -712,6 +974,8 @@ function buildIntelligence(
   );
   const lead = relevant[0] ?? null;
   const second = relevant[1] ?? null;
+  const realityModel = buildRealityModel(query, relevant);
+  const realityTest = buildRealityTest(realityModel, intentModel, kind);
 
   const evidenceBoundary = buildEvidenceBoundary(
     kind,
@@ -783,6 +1047,33 @@ function buildIntelligence(
       "Which assumption carries the most downstream consequence?",
       "What contradictory evidence should be searched for first?",
     ];
+  } else if (intentModel.primaryIntent === "SIGNIFICANCE") {
+    directAnswer =
+      `This signal matters because “${lead.title}” may alter the current explanatory or predictive baseline if its reported result survives independent discrimination. Its importance is not the headline alone, but whether it changes what must be explained, predicted, designed, or measured next.`;
+
+    reasoning =
+      `What is directly reported: ${summarizeSignal(lead)}
+
+Significance layer: distinguish novelty from consequence. Ask what established baseline, unresolved tension, capability limit, or explanatory assumption this result bears on; whether it improves prediction or discrimination; and whether the claimed advantage survives outside the original analysis.`;
+
+    alternative =
+      second
+        ? `A relevant alternative context is “${second.title}”. The signal becomes more consequential if it predicts an observable outcome that this alternative or the current baseline does not reproduce equally well.`
+        : "No comparably strong alternative signal is currently attached, so significance should remain provisional until a credible baseline or competing explanation is evaluated.";
+
+    challenge =
+      "The main reasoning risk is confusing novelty, fit to one dataset, or explanatory elegance with a genuine change in the scientific baseline.";
+
+    falsification = realityTest;
+
+    nextAction =
+      `Identify the current baseline this signal challenges, the measurable advantage it claims over that baseline, and one independent observation that could erase that advantage. Reality contact mode: ${realityModel.contactModes.join(" + ")}.`;
+
+    nextQuestions = [
+      "What established baseline would change if this result survives?",
+      "What trade-off or contradiction limits the claimed significance?",
+      "Which independent observation would distinguish this result from the strongest alternative?",
+    ];
   } else if (kind === "CAUSAL") {
     directAnswer =
       `The strongest indexed evidence connected to this causal question is “${lead.title}”. It can motivate a candidate mechanism, but the causal claim should be narrower than the headline unless intervention, temporal ordering, or independent discrimination supports it.`;
@@ -798,8 +1089,7 @@ function buildIntelligence(
     challenge =
       "The main reasoning risk is treating explanatory coherence as causal proof.";
 
-    falsification =
-      "A strong falsification test changes or isolates the proposed causal variable and checks whether the predicted effect changes while plausible confounders are controlled.";
+    falsification = realityTest;
 
     nextAction =
       "Write one discriminating prediction for the preferred mechanism and one for its strongest alternative, then identify the observation that separates them.";
@@ -807,7 +1097,9 @@ function buildIntelligence(
     nextQuestions = [
       "What result would distinguish causation from correlation?",
       "Which alternative mechanism predicts a different outcome?",
-      "What intervention or natural experiment would be decisive?",
+      realityModel.contactModes.includes("INTERVENTIONAL")
+        ? "What intervention or natural experiment would be decisive?"
+        : "What independent observation would decisively separate the competing explanations?",
     ];
   } else if (kind === "COMPARATIVE") {
     directAnswer =
@@ -958,6 +1250,7 @@ function buildIntelligence(
     reasoning,
     alternative,
     falsification,
+    realityTestSummary: realityTest,
     nextAction,
   });
 
@@ -987,6 +1280,8 @@ function buildIntelligence(
     queryKind: kind,
     evidenceStrength: strength,
     inquiry,
+    intentModel,
+    realityModel,
   };
 }
 

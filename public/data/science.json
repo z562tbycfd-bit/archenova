@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-11T07:41:34.360Z",
+  "updated": "2026-09-11T08:05:16.853Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers eye AI revolution in natural disaster forecasts",
+      "url": "https://phys.org/news/2026-09-eye-ai-revolution-natural-disaster.html",
+      "summary": "A revolution in forecasting natural disasters is underway, say researchers in Switzerland who are training AI models using vast troves of NASA climate data to produce potentially lifesaving data at lightning speed.",
+      "ts": 1789113220000,
+      "publishedAt": "2026-09-11T07:53:40.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "On the Lagrangian and kinetics of a massive and charged spin-one vector boson",
@@ -791,14 +799,6 @@
       "title": "Computational framework for quantum state tomography of spin ensembles",
       "url": "https://arxiv.org/abs/2609.11868",
       "summary": "arXiv:2609.11868v1 Announce Type: cross Abstract: We present Tomography-NMR, an open-source Python package that reconstructs quantum density matrices from spectroscopic measurement data. The package implements a complete…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design and simulation of highly selective graphene-silicon nitride integrated dual-mode electro-absorption modulators",
-      "url": "https://arxiv.org/abs/2401.14812",
-      "summary": "arXiv:2401.14812v4 Announce Type: replace Abstract: We present the design, simulation and optimization of an integrated graphene-silicon nitride dual-mode modulator with high mode selectivity, optimized for a wavelength …",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
