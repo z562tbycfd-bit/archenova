@@ -76,6 +76,7 @@ type ClaimType =
   | "INSTITUTIONAL"
   | "NORMATIVE"
   | "MIXED"
+  | "ANALYTICAL / SYNTHESIS"
   | "INFORMATIONAL / OPERATIONAL"
   | "UNKNOWN";
 
@@ -1444,6 +1445,19 @@ function buildContractDialogueGuidance(
         ],
       };
 
+    case "ANALYTICAL / SYNTHESIS":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a different decomposition of the same historical or structural trend, including omitted drivers, category-definition effects, time-window selection, or a competing causal narrative.",
+        adversarialCheck:
+          "Separate the existence of the trend from the explanation offered for it. Test whether the narrative survives alternative time windows, category definitions, data sources, and plausible omitted drivers.",
+        continueInquiry: [
+          "Which observed trend or historical quantity anchors the synthesis?",
+          "Which omitted driver or alternative decomposition could explain the same pattern?",
+          "Which time window, category definition, or data source would most strongly challenge the narrative?",
+        ],
+      };
+
     case "INFORMATIONAL / OPERATIONAL":
       return {
         alternativeExplanation:
@@ -1829,6 +1843,48 @@ function buildEpistemicContract(
           "State one measurable implication that should reproduce if the empirical claim is correct and one boundary condition under which the effect should weaken or disappear.",
       };
 
+    case "ANALYTICAL / SYNTHESIS":
+      return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
+        claimType: epistemic.claimType,
+        validationModes:
+          epistemic.validationModes.length > 0
+            ? epistemic.validationModes
+            : ["OBSERVATIONAL DISCRIMINATION"],
+        evidenceRequirements: [
+          "traceable trend or historical evidence",
+          "explicit decomposition of the proposed drivers",
+          "credible competing explanation",
+          "scope, time-window, and category boundary conditions",
+        ],
+        disconfirmationConditions: [
+          "the underlying trend is not supported by traceable data",
+          "the narrative depends on a selective or unstable time window",
+          "a major omitted driver explains the pattern equally well or better",
+          "the conclusion changes materially under reasonable category definitions",
+        ],
+        uncertaintyBoundary: [
+          "historical sequence is not unique causation",
+          "narrative coherence is not discriminating evidence",
+          "retrospective synthesis is not prospective forecast accuracy",
+          ...sharedUncertainty,
+        ],
+        realityTest:
+          "Which observed trend anchors the synthesis, which drivers are directly supported, and does the explanation survive alternative time windows, category definitions, data sources, and credible competing decompositions?",
+        correctionRule:
+          "If the trend, decomposition, or scope condition fails, narrow the synthesis to the strongest historical or structural statement that remains traceable across reasonable definitions and time windows.",
+        nextAction:
+          "Identify the quantitative trend, decompose the proposed drivers, test one credible alternative explanation, and vary the most consequential time-window or category boundary.",
+        demonstrationThreshold: [
+          "the underlying trend is traceable",
+          "the proposed drivers are separately evidenced",
+          "credible alternatives are compared",
+          "the synthesis survives reasonable scope and definition changes",
+        ],
+        predictionDesign:
+          "A retrospective synthesis need not manufacture a future forecast. If a prospective implication is claimed, state it separately with a predefined horizon and validation rule.",
+      };
+
     case "INFORMATIONAL / OPERATIONAL":
       return {
         ...buildContractDialogueGuidance(epistemic.claimType),
@@ -2168,6 +2224,8 @@ function requirementPattern(requirement: string, claimType: ClaimType): RegExp {
       return /\b(clinical|patient|trial|endpoint|safety|treatment|comparator)\b/;
     case "CAUSAL / MECHANISTIC":
       return /\b(mechanism|causal|intervention|perturb|pathway|confound)\b/;
+    case "ANALYTICAL / SYNTHESIS":
+      return /\b(trend|historical|time window|category|decomposition|driver|alternative|dataset|survey|consumption|production)\b/;
     case "INSTITUTIONAL":
     case "NORMATIVE":
       return /\b(policy|institution|governance|actor|incentive|counterfactual|outcome)\b/;
@@ -2453,7 +2511,9 @@ function assessEvidenceStrength(
       case "CAUSAL / MECHANISTIC":
         return /\b(intervention|natural experiment|perturb|replicat|independent validation|mechanism-specific)\b/.test(supportingCorpus);
       case "PREDICTIVE":
-        return /\b(prospective|out[- ]?of[- ]?sample|external validation|forecast evaluation)\b/.test(supportingCorpus);
+        return /\b(prospective|out[- ]?of[- ]?sample|external validation|forecast evaluation|forecast skill|calibration)\b/.test(supportingCorpus);
+      case "ANALYTICAL / SYNTHESIS":
+        return /\b(independent dataset|historical series|trend analysis|alternative decomposition|robustness|sensitivity analysis)\b/.test(supportingCorpus);
       case "INSTITUTIONAL":
       case "NORMATIVE":
         return /\b(pilot|natural experiment|counterfactual|comparative evaluation|replicat|external validation)\b/.test(supportingCorpus);
@@ -2568,16 +2628,14 @@ function neutralIntentForSignal(signal: SignalItem): IntentModel {
 function classifySignalGenre(signal: SignalItem): SignalGenre {
   const title = normalize(signal.title);
   const summary = normalize(signal.summary ?? "");
-  const category = normalize(signal.category ?? "");
   const corpus = normalize([signal.title, signal.summary, signal.category].join(" "));
   const guard = analyzeSemanticInput(signal.title, neutralIntentForSignal(signal), signal);
 
-  // Stage 6.4.1:
-  // Predicate-first classification. Determine what happened before asking
-  // what domain the entities belong to.
+  // Stage 6.4.2
+  // Classify the event predicate first, then the epistemic family.
+  // Domain vocabulary is never sufficient on its own.
   //
-  // Entity/domain vocabulary must never by itself upgrade an event into
-  // a scientific or clinical result.
+  // Entity Domain ≠ Event Type ≠ Claim Family ≠ Evidence Contract.
 
   const personnelAction =
     /\b(appoint(?:ed|ment)?|hire(?:d|s)?|new hire|departure|departures|promotion|promotions|transfer|transfers|resign(?:ed|ation)?|steps down|joins|named|comings and goings)\b/.test(title) ||
@@ -2595,11 +2653,18 @@ function classifySignalGenre(signal: SignalItem): SignalGenre {
     return "BUSINESS / COMMERCIAL ACTION";
   }
 
-  const policyAction =
-    /\b(policy|regulation|law|accords?|treaty|framework|memorandum|standards?|governance|compliance|signator(?:y|ies)|data sharing|open science)\b/.test(title) &&
-    /\b(adopt|sign|launch|join|implement|expand|commit|agreement|accords?|policy|framework)\b/.test(corpus);
+  // Institutional/policy predicates must be evaluated before generic causal
+  // language such as "determine", "affect", or "change".
+  const institutionalObject =
+    /\b(medicaid|medicare|agency|government|states?|rule|rules|regulation|regulations|policy|policies|law|laws|eligibility|exemption|exemptions|benefit rules?|standards?|governance|compliance|framework|treaty|accords?|memorandum|guidance)\b/.test(corpus);
 
-  if (policyAction || guard.institutionalContext) {
+  const institutionalAction =
+    /\b(will let|allow|allows|allowed|require|requires|required|adopt|adopts|adopted|implement|implements|implemented|use tiers?|determine eligibility|determine medical frailty|exempt|waive|issue|issues|issued|finalize|finalizes|finalized|expand|restrict|mandate|sign|signed|join|joined)\b/.test(corpus);
+
+  if (
+    (institutionalObject && institutionalAction) ||
+    guard.institutionalContext
+  ) {
     return "POLICY / INSTITUTIONAL ACTION";
   }
 
@@ -2616,6 +2681,32 @@ function classifySignalGenre(signal: SignalItem): SignalGenre {
 
   if (operationalUpdate) {
     return "MISSION / OPERATIONAL UPDATE";
+  }
+
+  // Predictive semantics are not restricted to will/would. Scientific
+  // forecasting commonly uses could/can/may + warning/lead-time language.
+  const forecastObject =
+    /\b(forecast|forecasts|forecasting|prediction|predictive|outlook|warning|lead time|lead-time|seasonal)\b/.test(title) ||
+    /\b(forecast|forecasting|prediction|predictive|outlook|warning|lead time|lead-time)\b/.test(summary);
+
+  const prospectivePredicate =
+    /\b(could|can|may|might|will|would|expected|projected|predicted|anticipat(?:e|es|ed)|give .* warning|months? of warning|weeks? of warning|days? of warning|ahead of)\b/.test(corpus);
+
+  if (forecastObject && prospectivePredicate) {
+    return "FORECAST";
+  }
+
+  // Retrospective explainers/syntheses should not collapse into UNKNOWN or
+  // be mistaken for a forecast because their summaries mention projections.
+  const analyticalTitle =
+    /^(how|why)\b/.test(title) &&
+    /\b(took over|became|changed|reshaped|spread|evolved|grew|transformed|came to|ended up|dominates?|entered|reached)\b/.test(title);
+
+  const analyticalCorpus =
+    /\b(explainer|analysis|commentary|perspective|review|history of|historical analysis|trend analysis|synthesis|roundup)\b/.test(corpus);
+
+  if (analyticalTitle || analyticalCorpus) {
+    return "COMMENTARY / ANALYSIS";
   }
 
   const clinicalResultPredicate =
@@ -2642,14 +2733,6 @@ function classifySignalGenre(signal: SignalItem): SignalGenre {
     return "SCIENTIFIC RESULT";
   }
 
-  const forecastPredicate =
-    /\b(forecast|predict|projection|prospective|scenario)\b/.test(corpus) &&
-    /\b(will|would|expected|projected|predicted|forecast)\b/.test(corpus);
-
-  if (forecastPredicate) {
-    return "FORECAST";
-  }
-
   if (/\b(arxiv|preprint)\b/.test(corpus)) {
     return "RESEARCH PREPRINT";
   }
@@ -2661,11 +2744,7 @@ function classifySignalGenre(signal: SignalItem): SignalGenre {
     return "SCIENTIFIC HYPOTHESIS";
   }
 
-  if (/\b(commentary|perspective|opinion|explainer|roundup)\b/.test(corpus)) {
-    return "COMMENTARY / ANALYSIS";
-  }
-
-  // Domain vocabulary is only a fallback after event predicates fail.
+  // Domain vocabulary is only a fallback after event/claim predicates fail.
   if (
     /\b(research|study|scientists?|researchers?|genetic|genomic|measurement|observed|experiment)\b/.test(corpus)
   ) {
@@ -2732,6 +2811,18 @@ function decomposeSignalRoles(
         "The immediate significance is organizational: it records personnel movement, role changes, or leadership structure rather than a scientific effect.",
       nonImplication:
         "Personnel movement does not by itself establish scientific performance, clinical benefit, technical progress, or organizational success.",
+    };
+  }
+
+  if (genre === "COMMENTARY / ANALYSIS") {
+    return {
+      coreClaim: title,
+      baseline: first || title,
+      reportedResult: title,
+      implication:
+        "The signal is an analytical or synthesis claim: its value depends on whether the underlying trend, historical sequence, and proposed explanation are traceable to evidence and remain stronger than credible alternatives.",
+      nonImplication:
+        "A coherent narrative or retrospective synthesis does not by itself establish a unique causal mechanism, prospective prediction, or intervention effect.",
     };
   }
 
@@ -2807,6 +2898,9 @@ function resolveClaimTypeFromGenre(
         ? "CAUSAL / MECHANISTIC"
         : parsedClaimType;
 
+    case "COMMENTARY / ANALYSIS":
+      return "ANALYTICAL / SYNTHESIS";
+
     default:
       return parsedClaimType;
   }
@@ -2867,6 +2961,8 @@ function buildEpistemicClaimIdentity(
                 ? ["institutional mechanism", "actor/system outcomes", "counterfactual", "distributional effects"]
                 : claimType === "PREDICTIVE"
                   ? ["prospective prediction", "horizon", "calibration", "outcome"]
+                  : claimType === "ANALYTICAL / SYNTHESIS"
+                    ? ["traceable trend evidence", "historical or structural decomposition", "alternative explanation", "scope and boundary conditions"]
                   : claimType === "INFORMATIONAL / OPERATIONAL"
                     ? genre === "BUSINESS / COMMERCIAL ACTION"
                       ? ["traceable company or transaction source", "agreement or commercialization terms", "confirmation of the reported business action"]
@@ -2913,6 +3009,72 @@ function buildParseFromClaimIdentity(
     neutralIntentForSignal(signal),
     signal,
   );
+
+  if (identity.claimType === "PREDICTIVE") {
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: [
+        `predicate-first predictive classification: ${identity.genre}`,
+        "The claim concerns prospective warning, forecast performance, lead time, or a future measurable outcome.",
+      ],
+      validationModes: ["PROSPECTIVE VALIDATION"],
+      disconfirmationMode:
+        "The predictive claim weakens if its prespecified future outcome, lead time, calibration, or declared boundary condition fails prospectively.",
+      evidenceNeeded: [
+        "predefined forecast horizon or lead time",
+        "measurable prospective target",
+        "calibration or forecast skill against an appropriate baseline",
+        "prospective or out-of-sample validation with uncertainty",
+      ],
+      contextPolicy:
+        "Keep the predictive object fixed. Follow-up wording may ask about measurements, assumptions, or failure conditions, but must not convert the forecast into a merely descriptive or causal claim.",
+    };
+  }
+
+  if (identity.claimType === "INSTITUTIONAL") {
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: [
+        `predicate-first institutional classification: ${identity.genre}`,
+        "The operative predicate changes a rule, eligibility criterion, administrative mechanism, governance arrangement, or actor constraint.",
+      ],
+      validationModes: ["INSTITUTIONAL EVALUATION"],
+      disconfirmationMode:
+        "The institutional claim weakens if the rule is mischaracterized, actors respond differently from the assumed mechanism, implementation changes the operative condition, or outcomes diverge from the policy theory.",
+      evidenceNeeded: [
+        "traceable rule, policy, or institutional source",
+        "operative eligibility, classification, incentive, or enforcement mechanism",
+        "observed actor and system responses",
+        "credible counterfactual plus unintended and distributional effects",
+      ],
+      contextPolicy:
+        "Treat institutional verbs such as allow, require, determine eligibility, exempt, or implement as rule-governance predicates unless the signal separately makes a scientific causal claim.",
+    };
+  }
+
+  if (identity.claimType === "ANALYTICAL / SYNTHESIS") {
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: [
+        `analytical/synthesis classification: ${identity.genre}`,
+        "The signal organizes historical, structural, or trend evidence into an explanatory synthesis rather than reporting a single experiment or prospective forecast.",
+      ],
+      validationModes: ["OBSERVATIONAL DISCRIMINATION"],
+      disconfirmationMode:
+        "The synthesis weakens if the underlying trend is not traceable, the historical sequence is inconsistent, a major omitted factor explains the pattern better, or the conclusion depends on selective time windows or categories.",
+      evidenceNeeded: [
+        "traceable trend or historical evidence",
+        "explicit decomposition of the proposed drivers",
+        "credible competing explanation",
+        "scope, time-window, and category boundary conditions",
+      ],
+      contextPolicy:
+        "Keep retrospective synthesis distinct from prospective prediction and unique causal demonstration.",
+    };
+  }
 
   if (identity.claimType === "INFORMATIONAL / OPERATIONAL") {
     return {
@@ -3137,15 +3299,9 @@ function findEvidenceRequirementAudit(
 function classifyFollowUpDemand(query: string): FollowUpDemand {
   const q = normalize(query);
 
-  // Precedence matters. A question such as
-  // "what hidden premise would invalidate the derivation?"
-  // is a falsification demand, not merely an assumption-identification demand.
-  if (/\b(falsif|invalidate|invalidated|counterexample|disconfirm|disprove|break the claim|break it|would force .* rejected|would force .* narrowed)\b/.test(q)) {
-    return "FALSIFICATION";
-  }
-  if (/\b(recover|recovered|recovery|reproduce|reproduced|reproduction|independently derive|independent derivation)\b/.test(q)) {
-    return "RECOVERABILITY";
-  }
+  // Semantic domain-specific demands outrank generic rejection/falsification
+  // language. "Which safety result would force rejection?" is SAFETY, not
+  // generic FALSIFICATION.
   if (/\b(safety|adverse|toxicity|toxic|harm|side effect|side effects|benefit risk|risk benefit)\b/.test(q)) {
     return "SAFETY";
   }
@@ -3157,6 +3313,12 @@ function classifyFollowUpDemand(query: string): FollowUpDemand {
   }
   if (/\b(comparator|counterfactual|placebo|control group|comparison|compared with|relative to|common objective|symmetric criteria)\b/.test(q)) {
     return "COMPARATOR";
+  }
+  if (/\b(falsif|invalidate|invalidated|counterexample|disconfirm|disprove|break the claim|break it|would force .* rejected|would force .* narrowed)\b/.test(q)) {
+    return "FALSIFICATION";
+  }
+  if (/\b(recover|recovered|recovery|reproduce|reproduced|reproduction|independently derive|independent derivation)\b/.test(q)) {
+    return "RECOVERABILITY";
   }
   if (/\b(assumption|assumptions|premise|premises|hidden import|hidden assumption|indispensable)\b/.test(q)) {
     return "ASSUMPTION";
@@ -3293,11 +3455,14 @@ function resolveEpistemicObject(
 
   const activeSignal = getActiveEpistemicSignal(previousMessages, signals);
 
+  // Stage 6.4.2 Hard Follow-Up Object Lock:
+  // Once an Episteme object is active, fuzzy retrieval is forbidden unless
+  // the user explicitly introduces a new object. The operation may change;
+  // the epistemic object may not.
   if (
     activeSignal &&
     hasPriorAssistantTurn(previousMessages) &&
-    !explicitlyRequestsNewObject(query) &&
-    looksLikeContextualFollowUp(query)
+    !explicitlyRequestsNewObject(query)
   ) {
     return {
       primarySignal: activeSignal,
@@ -3368,6 +3533,58 @@ function synthesizeFollowUpAnswer(
     /clinically meaningful/,
     /outcome/,
   ]);
+
+  if (claimIdentity?.claimType === "INSTITUTIONAL") {
+    const q = normalize(query);
+    if (/\b(causal link|mechanism|intervention|clinical|safety|patient|endpoint)\b/.test(q)) {
+      return {
+        demand,
+        directAnswer:
+          "The active object is institutional, so the question must be translated into the policy mechanism rather than treated as a biomedical or scientific intervention. The relevant chain is rule or eligibility criterion → actor classification/behavior → administrative outcome → distributional and second-order effects.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nClaim family: INSTITUTIONAL.\n\nThe follow-up wording does not change the claim family. Test the operative rule, actor response, counterfactual policy, implementation boundary, and unintended effects rather than importing a clinical or mechanistic contract.`,
+      };
+    }
+  }
+
+  if (claimIdentity?.claimType === "PREDICTIVE") {
+    const q = normalize(query);
+    if (/\b(measured quantity|measurement|independent measurement|replication)\b/.test(q)) {
+      return {
+        demand,
+        directAnswer:
+          "For a predictive claim, the decisive quantity is forecast skill on the prespecified future target, evaluated at the claimed lead time against an appropriate baseline. The key evidence is prospective or out-of-sample performance, calibration, uncertainty, and whether the warning horizon remains useful.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nClaim family: PREDICTIVE.\n\nRelevant evidence: ${claimIdentity.evidenceType.join("; ")}.\n\nA forecast is validated prospectively; retrospective fit alone is insufficient.`,
+      };
+    }
+    if (/\b(boundary condition|analysis choice|erase the effect)\b/.test(q)) {
+      return {
+        demand,
+        directAnswer:
+          "The forecast advantage would be erased if skill disappears under an appropriate climatological or persistence baseline, if lead time collapses below the claimed warning horizon, if calibration fails across seasons or regions, or if the apparent skill depends on a narrow training/evaluation window.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nClaim family: PREDICTIVE.\n\nThe relevant failure boundary is prospective forecast skill, calibration, horizon, and robustness—not generic experimental replication.`,
+      };
+    }
+  }
+
+  if (claimIdentity?.claimType === "ANALYTICAL / SYNTHESIS") {
+    const q = normalize(query);
+    if (/\b(measured quantity|measurement|independent measurement|replication)\b/.test(q)) {
+      return {
+        demand,
+        directAnswer:
+          "For an analytical synthesis, the anchor should be the quantitative historical trend that the narrative is trying to explain. The strongest check is whether that trend appears across traceable datasets and remains after reasonable changes to the time window, category definition, and decomposition of drivers.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nClaim family: ANALYTICAL / SYNTHESIS.\n\nRelevant evidence: ${claimIdentity.evidenceType.join("; ")}.`,
+      };
+    }
+    if (/\b(boundary condition|analysis choice|erase the effect)\b/.test(q)) {
+      return {
+        demand,
+        directAnswer:
+          "The synthesis would weaken if the apparent trend depends on a selective time window, a narrow definition of the category being counted, a single data source, or an omitted driver that explains the same historical change equally well or better.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nClaim family: ANALYTICAL / SYNTHESIS.\n\nThe adversarial target is narrative robustness, not laboratory replication.`,
+      };
+    }
+  }
 
   if (claimIdentity?.claimType === "INFORMATIONAL / OPERATIONAL") {
     const q = normalize(query);

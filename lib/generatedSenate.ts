@@ -123,21 +123,6 @@ export const senateAgenda =
   {
     "id": "agenda-9",
     "rank": 9,
-    "title": "A new surface atlas of Phobos will help MMX mission collect its samples",
-    "slug": "space-a-new-surface-atlas-of-phobos-will-help-mmx-mission-collect-its-samples",
-    "category": "Space",
-    "source": "Phys.org",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Orbital Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-10",
-    "rank": 10,
     "title": "The quantum harmonic oscillator from binary sequences",
     "slug": "ai-the-quantum-harmonic-oscillator-from-binary-sequences",
     "category": "AI",
@@ -151,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "Critical emergence of quantum theory, spacetime and gravity from generalised trace dynamics",
     "slug": "ai-critical-emergence-of-quantum-theory-spacetime-and-gravity-from-generalised-trac",
     "category": "AI",
@@ -166,10 +151,25 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-12",
-    "rank": 12,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "NASA Answers President’s Call to Establish United States Space Academy",
     "slug": "space-nasa-answers-president-s-call-to-establish-united-states-space-academy",
+    "category": "Space",
+    "source": "NASA",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "NASA, NFL Team Up to Showcase Space, Aeronautics Innovation",
+    "slug": "space-nasa-nfl-team-up-to-showcase-space-aeronautics-innovation",
     "category": "Space",
     "source": "NASA",
     "score": 9.3,

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-11T16:31:09.096Z",
+  "updated": "2026-09-11T16:58:02.623Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
+      "url": "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/?utm_campaign=rss",
+      "summary": "The largest cyclospora food poisoning outbreak in U.S. history is over, U.S. health officials said, but questions remain over its origin.",
+      "ts": 1789144551000,
+      "publishedAt": "2026-09-11T16:35:51.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "CloudScope Enables Continuous Remote Monitoring of Brain Activity in Freely Moving Mice",
@@ -799,15 +808,6 @@
       "title": "UN climate chief warns political division is undermining fight against ‘economic security emergency’",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168311",
       "summary": "The head of the UN's climate body has warned that treating global warming as a partisan issue is dangerously out of step with reality, as he set out a stark account of the economic toll climate change is already inflicti…",
-      "ts": 1789041600000,
-      "publishedAt": "2026-09-10T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘An assault on humanity itself’: Guterres pays tribute to 9/11 victims, survivors and first responders",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168310",
-      "summary": "Twenty-five years ago, the heinous terrorist attacks of 11 September 2001 against the United States claimed thousands of lives and represented “an assault on humanity itself”, the UN chief said on Thursday.",
       "ts": 1789041600000,
       "publishedAt": "2026-09-10T12:00:00.000Z",
       "categoryId": "global-governance"

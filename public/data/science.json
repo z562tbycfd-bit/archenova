@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-11T16:31:02.690Z",
+  "updated": "2026-09-11T16:57:54.244Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Libraries are a lifeline, new research finds",
+      "url": "https://phys.org/news/2026-09-libraries-lifeline.html",
+      "summary": "New research has highlighted the important role public libraries play in supporting communities, helping people build connections, access support and improve their well-being through everyday interactions.",
+      "ts": 1789144807000,
+      "publishedAt": "2026-09-11T16:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First Antarctic-wide map of grounded icebergs reveals 'picket fence effect' holding sea ice in place",
+      "url": "https://phys.org/news/2026-09-antarctic-wide-grounded-icebergs-reveals.html",
+      "summary": "For the first time, important features of the Antarctic coastal zone have been mapped at high resolution around the continent by training an artificial intelligence tool to accurately recognize grounded icebergs in satel…",
+      "ts": 1789144802000,
+      "publishedAt": "2026-09-11T16:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What's carving active gullies on Mars? It's not water",
@@ -783,22 +799,6 @@
       "title": "Heterogeneously Integrated Efficient and Widely Tunable Lasers at 795 nm for Rubidium-Based Quantum Technologies",
       "url": "https://arxiv.org/abs/2609.11585",
       "summary": "arXiv:2609.11585v1 Announce Type: new Abstract: Scaling quantum processors and optical atomic clocks fundamentally requires orders-of-magnitude reductions in the size, weight, power, and cost of optical control systems. …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Surface gravity wave-mean flow interaction with comparable spatial scales. Part I: reduced wave equations",
-      "url": "https://arxiv.org/abs/2609.11587",
-      "summary": "arXiv:2609.11587v1 Announce Type: new Abstract: We consider deep-water surface gravity waves propagating above a background flow whose spatial scale is comparable to the wavelength, focusing on the regime where the flow …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Breaking Water at Graphene Defects",
-      "url": "https://arxiv.org/abs/2609.11602",
-      "summary": "arXiv:2609.11602v1 Announce Type: new Abstract: Water dissociation at solid surfaces underpins processes ranging from corrosion and catalysis to electrochemistry and photovoltaics. Defects often serve as reactive sites f…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
