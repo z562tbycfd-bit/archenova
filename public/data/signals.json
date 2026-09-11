@@ -1,7 +1,121 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:26:23.706Z",
+  "updated": "2026-09-11T14:41:57.252Z",
   "items": [
+    {
+      "id": "civilization-engineering-release-of-open-ai-model-trained-on-17-years-of-lunar-data-maps-ice-craters-and-",
+      "title": "Release of open AI model trained on 17 years of lunar data maps ice, craters and volcanoes",
+      "source": "Phys.org",
+      "sourceUrl": "https://phys.org/news/2026-09-ai-years-lunar-ice-craters.html",
+      "originalUrl": "https://phys.org/news/2026-09-ai-years-lunar-ice-craters.html",
+      "url": "https://phys.org/news/2026-09-ai-years-lunar-ice-craters.html",
+      "category": "Civilization Engineering",
+      "summary": "NASA is bringing artificial intelligence to the study of the moon, helping researchers transform how they analyze its surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA has lau…",
+      "observation": "NASA is bringing artificial intelligence to the study of the moon, helping researchers transform how they analyze its surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA has lau…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May strengthen orbital sensing, communications, navigation, logistics, or off-Earth operations.",
+        "Could affect space governance, launch infrastructure, strategic coordination, and planetary observation.",
+        "May contribute to civilization becoming less dependent on a single planetary operating environment."
+      ],
+      "commentary": "Release of open AI model trained on 17 years of lunar data maps ice, craters and volcanoes should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+      "confidence": 88,
+      "state": "PROCESSING",
+      "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+      "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "Artificial Intelligence",
+        "Space Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Space",
+        "Science",
+        "Technology",
+        "Law & Governance"
+      ],
+      "currentStage": "Applied Research",
+      "expectedHorizon": "5–20 Years",
+      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 5–20 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-11T14:40:09.000Z",
+      "updatedAt": "2026-09-11T14:41:57.218Z",
+      "ts": 1789137609000
+    },
+    {
+      "id": "adaptive-capacity-scientists-discover-a-new-way-a-disease-linked-protein-comes-apart",
+      "title": "Scientists discover a new way a disease-linked protein comes apart",
+      "source": "Phys.org",
+      "sourceUrl": "https://phys.org/news/2026-09-scientists-disease-linked-protein.html",
+      "originalUrl": "https://phys.org/news/2026-09-scientists-disease-linked-protein.html",
+      "url": "https://phys.org/news/2026-09-scientists-disease-linked-protein.html",
+      "category": "Adaptive Capacity",
+      "summary": "Transthyretin amyloid disease (ATTR) is a progressive, life-threatening condition caused when the protein transthyretin (TTR) breaks apart and aggregates in the heart and other organs. One of the most common treatments, …",
+      "observation": "Transthyretin amyloid disease (ATTR) is a progressive, life-threatening condition caused when the protein transthyretin (TTR) breaks apart and aggregates in the heart and other organs. One of the most common treatments, …",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "implications": [
+        "May influence the transition from adaptive capacity knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Scientists discover a new way a disease-linked protein comes apart should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Adaptive Capacity",
+      "relatedTopics": [
+        "Biotechnology"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 7.2,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-11T14:40:02.000Z",
+      "updatedAt": "2026-09-11T14:41:57.218Z",
+      "ts": 1789137602000
+    },
     {
       "id": "civilization-engineering-more-than-kinship-social-isolation-has-a-greater-effect-on-toad-tadpole-behavior",
       "title": "More than kinship, social isolation has a greater effect on toad tadpole behavior",
@@ -54,7 +168,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T14:20:07.000Z",
-      "updatedAt": "2026-09-11T14:26:23.672Z",
+      "updatedAt": "2026-09-11T14:41:57.219Z",
       "ts": 1789136407000
     },
     {
@@ -112,7 +226,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T14:20:01.000Z",
-      "updatedAt": "2026-09-11T14:26:23.672Z",
+      "updatedAt": "2026-09-11T14:41:57.219Z",
       "ts": 1789136401000
     },
     {
@@ -173,7 +287,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T14:19:45.000Z",
-      "updatedAt": "2026-09-11T14:26:23.672Z",
+      "updatedAt": "2026-09-11T14:41:57.219Z",
       "ts": 1789136385000
     },
     {
@@ -228,7 +342,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T14:14:40.000Z",
-      "updatedAt": "2026-09-11T14:26:23.673Z",
+      "updatedAt": "2026-09-11T14:41:57.220Z",
       "ts": 1789136080000
     },
     {
@@ -284,7 +398,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T14:00:06.000Z",
-      "updatedAt": "2026-09-11T14:26:23.673Z",
+      "updatedAt": "2026-09-11T14:41:57.221Z",
       "ts": 1789135206000
     },
     {
@@ -339,7 +453,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T14:00:01.000Z",
-      "updatedAt": "2026-09-11T14:26:23.674Z",
+      "updatedAt": "2026-09-11T14:41:57.221Z",
       "ts": 1789135201000
     },
     {
@@ -394,7 +508,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:56:13.000Z",
-      "updatedAt": "2026-09-11T14:26:23.674Z",
+      "updatedAt": "2026-09-11T14:41:57.221Z",
       "ts": 1789134973000
     },
     {
@@ -449,7 +563,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T13:40:04.000Z",
-      "updatedAt": "2026-09-11T14:26:23.675Z",
+      "updatedAt": "2026-09-11T14:41:57.222Z",
       "ts": 1789134004000
     },
     {
@@ -504,7 +618,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:40:02.000Z",
-      "updatedAt": "2026-09-11T14:26:23.675Z",
+      "updatedAt": "2026-09-11T14:41:57.222Z",
       "ts": 1789134002000
     },
     {
@@ -560,7 +674,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:39:52.000Z",
-      "updatedAt": "2026-09-11T14:26:23.676Z",
+      "updatedAt": "2026-09-11T14:41:57.223Z",
       "ts": 1789133992000
     },
     {
@@ -615,7 +729,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:20:08.000Z",
-      "updatedAt": "2026-09-11T14:26:23.676Z",
+      "updatedAt": "2026-09-11T14:41:57.223Z",
       "ts": 1789132808000
     },
     {
@@ -673,7 +787,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T13:20:04.000Z",
-      "updatedAt": "2026-09-11T14:26:23.676Z",
+      "updatedAt": "2026-09-11T14:41:57.223Z",
       "ts": 1789132804000
     },
     {
@@ -728,7 +842,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T13:05:45.000Z",
-      "updatedAt": "2026-09-11T14:26:23.677Z",
+      "updatedAt": "2026-09-11T14:41:57.224Z",
       "ts": 1789131945000
     },
     {
@@ -787,7 +901,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T13:00:08.000Z",
-      "updatedAt": "2026-09-11T14:26:23.677Z",
+      "updatedAt": "2026-09-11T14:41:57.224Z",
       "ts": 1789131608000
     },
     {
@@ -842,7 +956,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T13:00:04.000Z",
-      "updatedAt": "2026-09-11T14:26:23.678Z",
+      "updatedAt": "2026-09-11T14:41:57.225Z",
       "ts": 1789131604000
     },
     {
@@ -898,7 +1012,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T13:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.678Z",
+      "updatedAt": "2026-09-11T14:41:57.225Z",
       "ts": 1789131600000
     },
     {
@@ -953,7 +1067,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.678Z",
+      "updatedAt": "2026-09-11T14:41:57.225Z",
       "ts": 1789131600000
     },
     {
@@ -1012,7 +1126,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T12:40:01.000Z",
-      "updatedAt": "2026-09-11T14:26:23.679Z",
+      "updatedAt": "2026-09-11T14:41:57.225Z",
       "ts": 1789130401000
     },
     {
@@ -1073,7 +1187,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T12:20:05.000Z",
-      "updatedAt": "2026-09-11T14:26:23.679Z",
+      "updatedAt": "2026-09-11T14:41:57.226Z",
       "ts": 1789129205000
     },
     {
@@ -1128,7 +1242,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T12:10:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.679Z",
+      "updatedAt": "2026-09-11T14:41:57.226Z",
       "ts": 1789128600000
     },
     {
@@ -1183,7 +1297,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T12:00:09.000Z",
-      "updatedAt": "2026-09-11T14:26:23.680Z",
+      "updatedAt": "2026-09-11T14:41:57.226Z",
       "ts": 1789128009000
     },
     {
@@ -1238,7 +1352,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T12:00:04.000Z",
-      "updatedAt": "2026-09-11T14:26:23.680Z",
+      "updatedAt": "2026-09-11T14:41:57.227Z",
       "ts": 1789128004000
     },
     {
@@ -1296,7 +1410,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T11:43:20.000Z",
-      "updatedAt": "2026-09-11T14:26:23.680Z",
+      "updatedAt": "2026-09-11T14:41:57.227Z",
       "ts": 1789127000000
     },
     {
@@ -1351,7 +1465,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T11:40:04.000Z",
-      "updatedAt": "2026-09-11T14:26:23.681Z",
+      "updatedAt": "2026-09-11T14:41:57.227Z",
       "ts": 1789126804000
     },
     {
@@ -1408,7 +1522,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T11:20:01.000Z",
-      "updatedAt": "2026-09-11T14:26:23.681Z",
+      "updatedAt": "2026-09-11T14:41:57.228Z",
       "ts": 1789125601000
     },
     {
@@ -1463,63 +1577,8 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T11:00:07.000Z",
-      "updatedAt": "2026-09-11T14:26:23.681Z",
+      "updatedAt": "2026-09-11T14:41:57.228Z",
       "ts": 1789124407000
-    },
-    {
-      "id": "civilization-engineering-blue-light-breaks-long-standing-chemistry-rule-unlocking-3d-drug-building-blocks",
-      "title": "Blue light breaks long-standing chemistry rule, unlocking 3D drug building blocks",
-      "source": "Phys.org",
-      "sourceUrl": "https://phys.org/news/2026-09-blue-chemistry-3d-drug-blocks.html",
-      "originalUrl": "https://phys.org/news/2026-09-blue-chemistry-3d-drug-blocks.html",
-      "url": "https://phys.org/news/2026-09-blue-chemistry-3d-drug-blocks.html",
-      "category": "Civilization Engineering",
-      "summary": "For more than a century, pharmaceutical companies have relied on flat structures called aromatic rings, which can help drugs bind to target sites in the body. They include benzene rings and other flat, nitrogen-containin…",
-      "observation": "For more than a century, pharmaceutical companies have relied on flat structures called aromatic rings, which can help drugs bind to target sites in the body. They include benzene rings and other flat, nitrogen-containin…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Blue light breaks long-standing chemistry rule, unlocking 3D drug building blocks should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 81,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "AI"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-09-11T10:40:01.000Z",
-      "updatedAt": "2026-09-11T14:26:23.682Z",
-      "ts": 1789123201000
     },
     {
       "id": "civilization-engineering-meet-the-under-35s-shaping-the-future-of-biotech",
@@ -1573,7 +1632,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T09:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.682Z",
+      "updatedAt": "2026-09-11T14:41:57.228Z",
       "ts": 1789117200000
     },
     {
@@ -1628,7 +1687,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.683Z",
+      "updatedAt": "2026-09-11T14:41:57.229Z",
       "ts": 1789115400000
     },
     {
@@ -1683,7 +1742,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.683Z",
+      "updatedAt": "2026-09-11T14:41:57.229Z",
       "ts": 1789115400000
     },
     {
@@ -1739,7 +1798,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.683Z",
+      "updatedAt": "2026-09-11T14:41:57.229Z",
       "ts": 1789115400000
     },
     {
@@ -1795,63 +1854,8 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.684Z",
+      "updatedAt": "2026-09-11T14:41:57.230Z",
       "ts": 1789115400000
-    },
-    {
-      "id": "civilization-engineering-indonesia-seeks-to-bring-back-baby-orangutans-allegedly-trafficked-to-india",
-      "title": "Indonesia seeks to bring back baby orangutans allegedly trafficked to India",
-      "source": "Phys.org",
-      "sourceUrl": "https://phys.org/news/2026-09-indonesia-baby-orangutans-allegedly-trafficked.html",
-      "originalUrl": "https://phys.org/news/2026-09-indonesia-baby-orangutans-allegedly-trafficked.html",
-      "url": "https://phys.org/news/2026-09-indonesia-baby-orangutans-allegedly-trafficked.html",
-      "category": "Civilization Engineering",
-      "summary": "Indonesian authorities are working to repatriate five baby orangutans allegedly trafficked to India, where they were found motherless in a forest, Jakarta's forestry ministry told AFP on Friday.",
-      "observation": "Indonesian authorities are working to repatriate five baby orangutans allegedly trafficked to India, where they were found motherless in a forest, Jakarta's forestry ministry told AFP on Friday.",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Indonesia seeks to bring back baby orangutans allegedly trafficked to India should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 81,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "General"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-09-11T08:10:01.000Z",
-      "updatedAt": "2026-09-11T14:26:23.684Z",
-      "ts": 1789114201000
     },
     {
       "id": "reality-discovery-a-team-of-teams-like-never-before-rehearsing-a-unique-launch-at-esa-mission-cont",
@@ -1908,7 +1912,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T08:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.684Z",
+      "updatedAt": "2026-09-11T14:41:57.230Z",
       "ts": 1789113600000
     },
     {
@@ -1968,7 +1972,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T07:18:50.000Z",
-      "updatedAt": "2026-09-11T14:26:23.685Z",
+      "updatedAt": "2026-09-11T14:41:57.230Z",
       "ts": 1789111130000
     },
     {
@@ -2026,7 +2030,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T05:32:49.000Z",
-      "updatedAt": "2026-09-11T14:26:23.685Z",
+      "updatedAt": "2026-09-11T14:41:57.230Z",
       "ts": 1789104769000
     },
     {
@@ -2081,7 +2085,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T04:05:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.685Z",
+      "updatedAt": "2026-09-11T14:41:57.231Z",
       "ts": 1789099500000
     },
     {
@@ -2136,7 +2140,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:01:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.685Z",
+      "updatedAt": "2026-09-11T14:41:57.231Z",
       "ts": 1789099260000
     },
     {
@@ -2191,7 +2195,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.686Z",
+      "updatedAt": "2026-09-11T14:41:57.232Z",
       "ts": 1789099200000
     },
     {
@@ -2246,7 +2250,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.686Z",
+      "updatedAt": "2026-09-11T14:41:57.232Z",
       "ts": 1789099200000
     },
     {
@@ -2305,7 +2309,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.687Z",
+      "updatedAt": "2026-09-11T14:41:57.233Z",
       "ts": 1789099200000
     },
     {
@@ -2361,7 +2365,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.687Z",
+      "updatedAt": "2026-09-11T14:41:57.233Z",
       "ts": 1789099200000
     },
     {
@@ -2420,7 +2424,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.687Z",
+      "updatedAt": "2026-09-11T14:41:57.233Z",
       "ts": 1789099200000
     },
     {
@@ -2481,7 +2485,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.688Z",
+      "updatedAt": "2026-09-11T14:41:57.234Z",
       "ts": 1789099200000
     },
     {
@@ -2536,7 +2540,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.688Z",
+      "updatedAt": "2026-09-11T14:41:57.234Z",
       "ts": 1789099200000
     },
     {
@@ -2598,7 +2602,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.688Z",
+      "updatedAt": "2026-09-11T14:41:57.234Z",
       "ts": 1789099200000
     },
     {
@@ -2655,7 +2659,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.689Z",
+      "updatedAt": "2026-09-11T14:41:57.235Z",
       "ts": 1789099200000
     },
     {
@@ -2713,7 +2717,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.689Z",
+      "updatedAt": "2026-09-11T14:41:57.235Z",
       "ts": 1789099200000
     },
     {
@@ -2774,7 +2778,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.689Z",
+      "updatedAt": "2026-09-11T14:41:57.235Z",
       "ts": 1789099200000
     },
     {
@@ -2832,7 +2836,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.690Z",
+      "updatedAt": "2026-09-11T14:41:57.236Z",
       "ts": 1789099200000
     },
     {
@@ -2887,7 +2891,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.690Z",
+      "updatedAt": "2026-09-11T14:41:57.236Z",
       "ts": 1789099200000
     },
     {
@@ -2942,7 +2946,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.691Z",
+      "updatedAt": "2026-09-11T14:41:57.236Z",
       "ts": 1789099200000
     },
     {
@@ -3001,7 +3005,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.691Z",
+      "updatedAt": "2026-09-11T14:41:57.237Z",
       "ts": 1789099200000
     },
     {
@@ -3059,7 +3063,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.691Z",
+      "updatedAt": "2026-09-11T14:41:57.237Z",
       "ts": 1789099200000
     },
     {
@@ -3114,7 +3118,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.692Z",
+      "updatedAt": "2026-09-11T14:41:57.237Z",
       "ts": 1789099200000
     },
     {
@@ -3169,7 +3173,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.692Z",
+      "updatedAt": "2026-09-11T14:41:57.238Z",
       "ts": 1789099200000
     },
     {
@@ -3224,7 +3228,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.693Z",
+      "updatedAt": "2026-09-11T14:41:57.238Z",
       "ts": 1789099200000
     },
     {
@@ -3284,7 +3288,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.693Z",
+      "updatedAt": "2026-09-11T14:41:57.239Z",
       "ts": 1789099200000
     },
     {
@@ -3339,7 +3343,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.693Z",
+      "updatedAt": "2026-09-11T14:41:57.239Z",
       "ts": 1789099200000
     },
     {
@@ -3394,7 +3398,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.694Z",
+      "updatedAt": "2026-09-11T14:41:57.239Z",
       "ts": 1789099200000
     },
     {
@@ -3454,7 +3458,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.694Z",
+      "updatedAt": "2026-09-11T14:41:57.240Z",
       "ts": 1789099200000
     },
     {
@@ -3509,7 +3513,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.695Z",
+      "updatedAt": "2026-09-11T14:41:57.240Z",
       "ts": 1789099200000
     },
     {
@@ -3564,7 +3568,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.695Z",
+      "updatedAt": "2026-09-11T14:41:57.240Z",
       "ts": 1789099200000
     },
     {
@@ -3626,7 +3630,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.695Z",
+      "updatedAt": "2026-09-11T14:41:57.241Z",
       "ts": 1789099200000
     },
     {
@@ -3681,7 +3685,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.696Z",
+      "updatedAt": "2026-09-11T14:41:57.241Z",
       "ts": 1789099200000
     },
     {
@@ -3741,7 +3745,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.696Z",
+      "updatedAt": "2026-09-11T14:41:57.241Z",
       "ts": 1789099200000
     },
     {
@@ -3796,7 +3800,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.696Z",
+      "updatedAt": "2026-09-11T14:41:57.242Z",
       "ts": 1789099200000
     },
     {
@@ -3851,7 +3855,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.697Z",
+      "updatedAt": "2026-09-11T14:41:57.242Z",
       "ts": 1789099200000
     },
     {
@@ -3911,7 +3915,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.697Z",
+      "updatedAt": "2026-09-11T14:41:57.242Z",
       "ts": 1789099200000
     },
     {
@@ -3967,7 +3971,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.697Z",
+      "updatedAt": "2026-09-11T14:41:57.243Z",
       "ts": 1789099200000
     },
     {
@@ -4022,7 +4026,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.698Z",
+      "updatedAt": "2026-09-11T14:41:57.243Z",
       "ts": 1789099200000
     },
     {
@@ -4082,7 +4086,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.698Z",
+      "updatedAt": "2026-09-11T14:41:57.244Z",
       "ts": 1789099200000
     },
     {
@@ -4137,7 +4141,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.698Z",
+      "updatedAt": "2026-09-11T14:41:57.244Z",
       "ts": 1789099200000
     },
     {
@@ -4192,7 +4196,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.699Z",
+      "updatedAt": "2026-09-11T14:41:57.244Z",
       "ts": 1789099200000
     },
     {
@@ -4247,7 +4251,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.699Z",
+      "updatedAt": "2026-09-11T14:41:57.245Z",
       "ts": 1789099200000
     },
     {
@@ -4308,7 +4312,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.699Z",
+      "updatedAt": "2026-09-11T14:41:57.245Z",
       "ts": 1789099200000
     },
     {
@@ -4369,7 +4373,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.700Z",
+      "updatedAt": "2026-09-11T14:41:57.245Z",
       "ts": 1789099200000
     },
     {
@@ -4424,7 +4428,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.700Z",
+      "updatedAt": "2026-09-11T14:41:57.246Z",
       "ts": 1789099200000
     },
     {
@@ -4479,7 +4483,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T22:10:53.000Z",
-      "updatedAt": "2026-09-11T14:26:23.701Z",
+      "updatedAt": "2026-09-11T14:41:57.246Z",
       "ts": 1789078253000
     },
     {
@@ -4537,7 +4541,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T21:11:32.000Z",
-      "updatedAt": "2026-09-11T14:26:23.701Z",
+      "updatedAt": "2026-09-11T14:41:57.247Z",
       "ts": 1789074692000
     },
     {
@@ -4595,7 +4599,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T20:26:52.000Z",
-      "updatedAt": "2026-09-11T14:26:23.701Z",
+      "updatedAt": "2026-09-11T14:41:57.247Z",
       "ts": 1789072012000
     },
     {
@@ -4654,7 +4658,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T20:12:39.000Z",
-      "updatedAt": "2026-09-11T14:26:23.702Z",
+      "updatedAt": "2026-09-11T14:41:57.247Z",
       "ts": 1789071159000
     },
     {
@@ -4709,7 +4713,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T19:57:28.000Z",
-      "updatedAt": "2026-09-11T14:26:23.702Z",
+      "updatedAt": "2026-09-11T14:41:57.247Z",
       "ts": 1789070248000
     },
     {
@@ -4766,7 +4770,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T18:54:44.000Z",
-      "updatedAt": "2026-09-11T14:26:23.702Z",
+      "updatedAt": "2026-09-11T14:41:57.248Z",
       "ts": 1789066484000
     },
     {
@@ -4822,7 +4826,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T18:32:12.000Z",
-      "updatedAt": "2026-09-11T14:26:23.702Z",
+      "updatedAt": "2026-09-11T14:41:57.248Z",
       "ts": 1789065132000
     },
     {
@@ -4883,7 +4887,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-10T18:19:45.000Z",
-      "updatedAt": "2026-09-11T14:26:23.703Z",
+      "updatedAt": "2026-09-11T14:41:57.248Z",
       "ts": 1789064385000
     },
     {
@@ -4941,7 +4945,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T18:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.703Z",
+      "updatedAt": "2026-09-11T14:41:57.249Z",
       "ts": 1789063200000
     },
     {
@@ -4996,7 +5000,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T17:29:23.000Z",
-      "updatedAt": "2026-09-11T14:26:23.703Z",
+      "updatedAt": "2026-09-11T14:41:57.249Z",
       "ts": 1789061363000
     },
     {
@@ -5054,7 +5058,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T17:28:13.000Z",
-      "updatedAt": "2026-09-11T14:26:23.703Z",
+      "updatedAt": "2026-09-11T14:41:57.249Z",
       "ts": 1789061293000
     },
     {
@@ -5115,7 +5119,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T17:27:52.000Z",
-      "updatedAt": "2026-09-11T14:26:23.704Z",
+      "updatedAt": "2026-09-11T14:41:57.249Z",
       "ts": 1789061272000
     },
     {
@@ -5170,7 +5174,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T16:47:22.000Z",
-      "updatedAt": "2026-09-11T14:26:23.704Z",
+      "updatedAt": "2026-09-11T14:41:57.250Z",
       "ts": 1789058842000
     },
     {
@@ -5228,7 +5232,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T16:30:35.000Z",
-      "updatedAt": "2026-09-11T14:26:23.704Z",
+      "updatedAt": "2026-09-11T14:41:57.250Z",
       "ts": 1789057835000
     },
     {
@@ -5287,7 +5291,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T16:14:03.000Z",
-      "updatedAt": "2026-09-11T14:26:23.705Z",
+      "updatedAt": "2026-09-11T14:41:57.250Z",
       "ts": 1789056843000
     },
     {
@@ -5345,7 +5349,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-10T16:00:04.000Z",
-      "updatedAt": "2026-09-11T14:26:23.705Z",
+      "updatedAt": "2026-09-11T14:41:57.251Z",
       "ts": 1789056004000
     },
     {
@@ -5405,7 +5409,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T16:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.705Z",
+      "updatedAt": "2026-09-11T14:41:57.251Z",
       "ts": 1789056000000
     },
     {
@@ -5460,7 +5464,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T15:30:50.000Z",
-      "updatedAt": "2026-09-11T14:26:23.705Z",
+      "updatedAt": "2026-09-11T14:41:57.251Z",
       "ts": 1789054250000
     },
     {
@@ -5519,7 +5523,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T15:16:32.000Z",
-      "updatedAt": "2026-09-11T14:26:23.705Z",
+      "updatedAt": "2026-09-11T14:41:57.251Z",
       "ts": 1789053392000
     },
     {
@@ -5581,7 +5585,7 @@
         "overall": 6.7
       },
       "publishedAt": "2026-09-10T15:09:57.000Z",
-      "updatedAt": "2026-09-11T14:26:23.706Z",
+      "updatedAt": "2026-09-11T14:41:57.251Z",
       "ts": 1789052997000
     },
     {
@@ -5636,7 +5640,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T15:00:00.000Z",
-      "updatedAt": "2026-09-11T14:26:23.706Z",
+      "updatedAt": "2026-09-11T14:41:57.252Z",
       "ts": 1789052400000
     },
     {
@@ -5693,7 +5697,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T14:53:06.000Z",
-      "updatedAt": "2026-09-11T14:26:23.706Z",
+      "updatedAt": "2026-09-11T14:41:57.252Z",
       "ts": 1789051986000
     }
   ]

@@ -182,6 +182,27 @@ type EvidenceAudit = {
   uncertainty: string;
 };
 
+type InterpretationStatus =
+  | "DIRECTLY_REPORTED"
+  | "INFERRED"
+  | "UNKNOWN";
+
+type InterpretedClaim = {
+  text: string;
+  status: InterpretationStatus;
+  support: string;
+};
+
+type SignalInterpretation = {
+  baseline: InterpretedClaim;
+  reportedChange: InterpretedClaim;
+  specificNovelty: InterpretedClaim;
+  evidenceBoundary: InterpretedClaim;
+  consequenceIfValid: InterpretedClaim;
+  nonImplications: InterpretedClaim[];
+  decisiveTest: InterpretedClaim;
+};
+
 type InquiryStageStatus =
   | "ACTIVE"
   | "READY"
@@ -2225,6 +2246,179 @@ function summarizeSignal(signal: SignalItem) {
   return `${signal.title}: ${summary}`;
 }
 
+
+function signalSentences(signal: SignalItem) {
+  const cleaned = signal.summary
+    .replace(/arXiv:\S+\s*/gi, "")
+    .replace(/Announce Type:\s*\w+\s*/gi, "")
+    .replace(/Abstract:\s*/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!cleaned) {
+    return [];
+  }
+
+  return (cleaned.match(/[^.!?]+[.!?]?/g) ?? [cleaned])
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+}
+
+function findSentence(
+  sentences: string[],
+  patterns: RegExp[],
+  exclude: RegExp[] = [],
+) {
+  return (
+    sentences.find(
+      (sentence) =>
+        patterns.some((pattern) => pattern.test(sentence)) &&
+        !exclude.some((pattern) => pattern.test(sentence)),
+    ) ?? null
+  );
+}
+
+function stripTerminalPunctuation(value: string) {
+  return value.trim().replace(/[.!?]+$/, "");
+}
+
+function extractFormalBasis(reportedChange: string) {
+  const fromMatch = reportedChange.match(/\bfrom\s+(.+?)(?:,|;|\.|$)/i);
+  return fromMatch ? stripTerminalPunctuation(fromMatch[1]) : "the stated construction";
+}
+
+function buildSignalInterpretation(
+  signal: SignalItem,
+  parse: EpistemicParse,
+  contract: EpistemicContract,
+  evidenceAudit: EvidenceAudit,
+): SignalInterpretation {
+  const sentences = signalSentences(signal);
+  const first = sentences[0] ?? signal.title;
+
+  const baselineSentence =
+    findSentence(sentences, [
+      /\bnormally\b/i,
+      /\btraditionally\b/i,
+      /\bconventionally\b/i,
+      /\bcurrently\b/i,
+      /\bstandard\b/i,
+      /\bexisting\b/i,
+      /\btypically\b/i,
+      /\bhas been\b/i,
+    ]) ?? first;
+
+  const changeSentence =
+    findSentence(
+      sentences,
+      [
+        /\bhere we\b/i,
+        /\bwe (?:derive|show|demonstrate|report|find|introduce|present|propose|establish|observe|develop)\b/i,
+        /\bthis (?:work|study|paper)\b/i,
+        /\bour (?:results|work|study|analysis|method)\b/i,
+      ],
+      [new RegExp(`^${baselineSentence.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`, "i")],
+    ) ??
+    sentences.find((sentence) => sentence !== baselineSentence) ??
+    first;
+
+  const baseline = stripTerminalPunctuation(baselineSentence);
+  const reportedChange = stripTerminalPunctuation(changeSentence);
+  const formalBasis = extractFormalBasis(reportedChange);
+
+  let noveltyText = `The reported novelty is the change from the established baseline—${baseline}—to the reported result: ${reportedChange}.`;
+  let consequenceText = `If the reported change survives the claim-specific validation burden, it would change which parts of the current baseline must be treated as necessary rather than contingent.`;
+  let nonImplication = `The available signal does not by itself establish conclusions beyond the reported result or satisfy the full ${parse.claimType} validation burden.`;
+
+  if (parse.claimType === "FORMAL / MATHEMATICAL") {
+    noveltyText = `The formal novelty is that ${reportedChange.charAt(0).toLowerCase()}${reportedChange.slice(1)}, rather than simply taking the conventional structure as given.`;
+    consequenceText = `If the derivation is genuinely non-circular, structure ordinarily introduced within the conventional formulation may be recoverable from ${formalBasis}, shifting part of the framework from assumed structure to derived consequence.`;
+    nonImplication = `Formal recovery would not by itself show that the construction is uniquely fundamental, physically superior, or empirically distinct from standard quantum mechanics.`;
+  } else if (parse.claimType === "ENGINEERING / CONSTRUCTIVE") {
+    consequenceText = `If the reported capability is reproduced across its operating envelope, it may move the baseline from scientific possibility toward an engineering capability with measurable performance and failure boundaries.`;
+    nonImplication = `A reported prototype or capability does not by itself establish reliability, manufacturability, safety, or scalable deployment.`;
+  } else if (parse.claimType === "CAUSAL / MECHANISTIC") {
+    consequenceText = `If the proposed mechanism survives intervention or mechanism-specific discrimination, it would change the explanation from association toward a causally sufficient account.`;
+    nonImplication = `The reported association or mechanism is not equivalent to demonstrated causation unless competing pathways and confounders are excluded.`;
+  } else if (parse.claimType === "CLINICAL / INTERVENTIONAL") {
+    consequenceText = `If the reported effect survives comparator, endpoint, safety, and external-validity requirements, it could change the therapeutic baseline for the relevant population.`;
+    nonImplication = `A reported clinical effect does not automatically generalize across populations, endpoints, treatment settings, or longer-term safety horizons.`;
+  } else if (parse.claimType === "PREDICTIVE") {
+    consequenceText = `If the forecast remains calibrated prospectively and outperforms the existing baseline, it would change what can be predicted before the outcome is known.`;
+    nonImplication = `Retrospective fit or one successful forecast does not establish durable predictive power.`;
+  } else if (parse.claimType === "COMPARATIVE") {
+    consequenceText = `If the comparison survives symmetric criteria and comparable evidence maturity, it could change which option is preferred under the stated objective.`;
+    nonImplication = `Superiority under one metric or evidence base does not establish unconditional superiority.`;
+  } else if (parse.claimType === "INSTITUTIONAL" || parse.claimType === "NORMATIVE") {
+    consequenceText = `If the claimed institutional mechanism survives counterfactual and distributional evaluation, it could change which rules or incentives are justified for the stated objective.`;
+    nonImplication = `Observed outcomes under one institutional setting do not by themselves establish universal effectiveness or normative legitimacy.`;
+  } else if (parse.claimType === "DESCRIPTIVE / EMPIRICAL") {
+    consequenceText = `If the reported observation is independently reproduced and robust to measurement and sampling choices, it would change the empirical baseline that subsequent explanations must account for.`;
+    nonImplication = `A reproduced description would still not identify a unique causal mechanism by itself.`;
+  }
+
+  const auditBoundary = evidenceAudit.uncertainty;
+
+  return {
+    baseline: {
+      text: baseline,
+      status: "DIRECTLY_REPORTED",
+      support: baselineSentence,
+    },
+    reportedChange: {
+      text: reportedChange,
+      status: "DIRECTLY_REPORTED",
+      support: changeSentence,
+    },
+    specificNovelty: {
+      text: noveltyText,
+      status: "INFERRED",
+      support: `${baselineSentence} ${changeSentence}`.trim(),
+    },
+    evidenceBoundary: {
+      text: auditBoundary,
+      status: "INFERRED",
+      support: evidenceAudit.summary,
+    },
+    consequenceIfValid: {
+      text: consequenceText,
+      status: "INFERRED",
+      support: contract.evidenceRequirements.join("; "),
+    },
+    nonImplications: [
+      {
+        text: nonImplication,
+        status: "INFERRED",
+        support: contract.uncertaintyBoundary.join(" "),
+      },
+    ],
+    decisiveTest: {
+      text: contract.realityTest,
+      status: "INFERRED",
+      support: contract.validationModes.join(" + "),
+    },
+  };
+}
+
+function synthesizeSignalSpecificAnswer(
+  interpretation: SignalInterpretation,
+  intent: IntentModel,
+) {
+  const boundary = interpretation.evidenceBoundary.text;
+
+  if (intent.primaryIntent === "SIGNIFICANCE") {
+    return {
+      directAnswer: `${interpretation.specificNovelty.text} ${interpretation.consequenceIfValid.text} Evidence boundary: ${boundary}`,
+      reasoning: `Established baseline: ${interpretation.baseline.text}.\n\nReported change: ${interpretation.reportedChange.text}.\n\nWhy that matters: ${interpretation.consequenceIfValid.text}\n\nWhat it does not establish: ${interpretation.nonImplications[0]?.text ?? "No stronger implication is justified by the available signal."}`,
+    };
+  }
+
+  return {
+    directAnswer: `${interpretation.reportedChange.text}. ${interpretation.evidenceBoundary.text}`,
+    reasoning: `Established baseline: ${interpretation.baseline.text}.\n\nSpecific novelty: ${interpretation.specificNovelty.text}\n\nDecisive test: ${interpretation.decisiveTest.text}`,
+  };
+}
+
 function buildEvidenceBoundary(
   strength: EvidenceStrength,
   relevant: SignalItem[],
@@ -2352,6 +2546,14 @@ function buildIntelligence(
 
   const evidenceBoundary = evidenceAudit.uncertainty;
   const evidence = evidenceAudit.summary;
+  const signalInterpretation = lead
+    ? buildSignalInterpretation(
+        lead,
+        epistemicParse,
+        epistemicContract,
+        evidenceAudit,
+      )
+    : null;
 
   let directAnswer = "";
   let reasoning = "";
@@ -2413,13 +2615,17 @@ function buildIntelligence(
       "What contradictory evidence should be searched for first?",
     ];
   } else if (intentModel.primaryIntent === "SIGNIFICANCE") {
-    directAnswer =
-      `This signal matters because “${lead.title}” may alter the current explanatory or predictive baseline if its reported result survives independent discrimination. Its importance is not the headline alone, but whether it changes what must be explained, predicted, designed, or measured next.`;
+    const signalSpecificSynthesis = signalInterpretation
+      ? synthesizeSignalSpecificAnswer(signalInterpretation, intentModel)
+      : null;
 
-    reasoning =
-      `What is directly reported: ${summarizeSignal(lead)}
+    directAnswer = signalSpecificSynthesis
+      ? signalSpecificSynthesis.directAnswer
+      : `This signal matters because “${lead.title}” may alter the current explanatory or predictive baseline if its reported result survives independent discrimination.`;
 
-Significance layer: distinguish novelty from consequence. Ask what established baseline, unresolved tension, capability limit, or explanatory assumption this result bears on; whether it improves prediction or discrimination; and whether the claimed advantage survives outside the original analysis.`;
+    reasoning = signalSpecificSynthesis
+      ? signalSpecificSynthesis.reasoning
+      : `What is directly reported: ${summarizeSignal(lead)}`;
 
     alternative =
       second

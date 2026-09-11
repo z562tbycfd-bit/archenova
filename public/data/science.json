@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:26:17.385Z",
+  "updated": "2026-09-11T14:41:44.751Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Release of open AI model trained on 17 years of lunar data maps ice, craters and volcanoes",
+      "url": "https://phys.org/news/2026-09-ai-years-lunar-ice-craters.html",
+      "summary": "NASA is bringing artificial intelligence to the study of the moon, helping researchers transform how they analyze its surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA has lau…",
+      "ts": 1789137609000,
+      "publishedAt": "2026-09-11T14:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover a new way a disease-linked protein comes apart",
+      "url": "https://phys.org/news/2026-09-scientists-disease-linked-protein.html",
+      "summary": "Transthyretin amyloid disease (ATTR) is a progressive, life-threatening condition caused when the protein transthyretin (TTR) breaks apart and aggregates in the heart and other organs. One of the most common treatments, …",
+      "ts": 1789137602000,
+      "publishedAt": "2026-09-11T14:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "More than kinship, social isolation has a greater effect on toad tadpole behavior",
@@ -783,22 +799,6 @@
       "title": "Physics-Informed Drift Diagnosis for Laser-Plasma Accelerator Operations",
       "url": "https://arxiv.org/abs/2609.11874",
       "summary": "arXiv:2609.11874v1 Announce Type: new Abstract: Laser-plasma accelerators (LPAs) sustain accelerating gradients of order $100\\,\\mathrm{GV/m}$, but routine operation remains difficult: electron beam metrics drift over an …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SI-Traceable Calibration and Performance Benchmarking of a Terahertz Photomixer Transmitter-Receiver System Using a Rydberg Atomic Sensor",
-      "url": "https://arxiv.org/abs/2609.11887",
-      "summary": "arXiv:2609.11887v1 Announce Type: new Abstract: Accurate calibration of electromagnetic field strength in the terahertz (THz) frequency regime remains challenging due to the limited availability of SI-traceable field sen…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On modelling the 2017 galactic cosmic ray depression",
-      "url": "https://arxiv.org/abs/2609.10622",
-      "summary": "arXiv:2609.10622v1 Announce Type: cross Abstract: In the second half of 2017, as Solar Cycle 24 approached its minimum, a pronounced and rigidity-dependent depression in the galactic cosmic ray (GCR) proton flux was obse…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
