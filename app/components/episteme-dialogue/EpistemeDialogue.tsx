@@ -120,6 +120,19 @@ type RealityModel = {
   inappropriateTest: string | null;
 };
 
+type EpistemicContract = {
+  claimType: ClaimType;
+  validationModes: ValidationMode[];
+  evidenceRequirements: string[];
+  disconfirmationConditions: string[];
+  uncertaintyBoundary: string[];
+  realityTest: string;
+  correctionRule: string;
+  nextAction: string;
+  demonstrationThreshold: string[];
+  predictionDesign: string;
+};
+
 type EvidenceStrength =
   | "STRONG"
   | "MODERATE"
@@ -166,6 +179,7 @@ type IntelligenceObject = {
   epistemicParse: EpistemicParse;
   contextAssessment: ContextAssessment[];
   realityModel: RealityModel;
+  epistemicContract: EpistemicContract;
 };
 
 type DialogueMessage = {
@@ -1134,6 +1148,386 @@ function buildRealityTest(
   return `${reality.realityQuestion} ${reality.decisiveEvidence}`;
 }
 
+
+function buildEpistemicContract(
+  epistemic: EpistemicParse,
+  reality: RealityModel,
+  intent: IntentModel,
+  kind: QueryKind,
+): EpistemicContract {
+  const significanceSuffix =
+    intent.primaryIntent === "SIGNIFICANCE"
+      ? " For a significance claim, consequence is earned only when the result survives the relevant validation burden and changes a real explanatory, predictive, technical, clinical, or institutional baseline."
+      : "";
+
+  const sharedUncertainty = [
+    "Do not transfer confidence from a related signal to the primary claim without role-specific evidence.",
+    "Do not treat semantic relevance, source count, or explanatory elegance as independent validation.",
+  ];
+
+  switch (epistemic.claimType) {
+    case "FORMAL / MATHEMATICAL":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "explicit assumptions",
+          "valid derivation without hidden imports",
+          "recovery of the claimed mathematical or formal structure",
+          "independent formal verification or reproduction",
+        ],
+        disconfirmationConditions: [
+          "an invalid inference or internal inconsistency is found",
+          "a hidden assumption is required to recover the result",
+          "the claimed structure is not actually recovered",
+          "a counterexample or independent derivation breaks the claimed equivalence",
+        ],
+        uncertaintyBoundary: [
+          "formal validity does not by itself establish physical truth",
+          "empirical validation is required only when a distinct physical consequence is claimed",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If the derivation fails, a hidden assumption appears, or the claimed structure is not recovered, locate the first invalid step, expose the imported premise, revise the minimum necessary formal construction, and re-derive before extending the claim.",
+        nextAction:
+          "Perform an independent derivation and assumption audit, then test whether the claimed structure is recovered without importing the result through unstated premises.",
+        demonstrationThreshold: [
+          "assumptions are explicit",
+          "the derivation is internally valid",
+          "the claimed structure is recovered",
+          "independent formal verification reproduces the result",
+        ],
+        predictionDesign:
+          "Derive one consequence that must follow from the formal construction and one counterexample or equivalence test that would break it.",
+      };
+
+    case "MIXED":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "internal formal consistency",
+          "traceable measurements or dataset fit",
+          "independent or out-of-sample discrimination",
+          "comparison against credible alternatives",
+        ],
+        disconfirmationConditions: [
+          "the formal model is inconsistent",
+          "the reported fit fails on an independent probe",
+          "the result depends strongly on one dataset or analysis choice",
+          "a simpler credible alternative predicts the observations equally well or better",
+        ],
+        uncertaintyBoundary: [
+          "fit improvement is not the same as explanatory superiority",
+          "parameter or model flexibility must not be confused with independent prediction",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If formal consistency or independent observational discrimination fails, identify whether the failure arises from assumptions, measurement/systematics, parameter dependence, or model structure; revise only that layer and generate a new independent prediction.",
+        nextAction:
+          "Identify the strongest prediction that differs from the baseline model and test it on an independent probe not used to construct or fit the original result.",
+        demonstrationThreshold: [
+          "formal consistency is established",
+          "the reported fit is traceable",
+          "an independent probe discriminates in the predicted direction",
+          "the advantage survives comparison with credible alternatives",
+        ],
+        predictionDesign:
+          "State a prediction on an independent observable that differs between the proposed model and its strongest credible baseline.",
+      };
+
+    case "CAUSAL / MECHANISTIC":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "mechanism-specific prediction",
+          "temporal or structural ordering",
+          "credible alternative explanation",
+          "discriminating intervention, natural experiment, or observation where feasible",
+        ],
+        disconfirmationConditions: [
+          "the proposed mechanism does not alter the predicted outcome",
+          "temporal ordering is incompatible with the claim",
+          "a credible confounder or reverse pathway reproduces the result",
+          "an alternative mechanism predicts the same evidence equally well",
+        ],
+        uncertaintyBoundary: [
+          "association is not causation",
+          "mechanistic plausibility is not demonstrated causal sufficiency",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If the discriminating result fails, locate the specific causal link that broke, distinguish mechanism failure from measurement or confounding failure, revise that link, and derive a new prediction that differs from the strongest alternative.",
+        nextAction:
+          "Test the causal link with the greatest discriminating power using the strongest feasible intervention, natural experiment, or independent observation.",
+        demonstrationThreshold: [
+          "the proposed mechanism makes a distinct prediction",
+          "credible alternatives are controlled or outperformed",
+          "the discriminating test changes as predicted",
+          "the result is independently reproduced where feasible",
+        ],
+        predictionDesign:
+          "State one outcome uniquely expected under the preferred mechanism and one outcome expected under its strongest alternative.",
+      };
+
+    case "ENGINEERING / CONSTRUCTIVE":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "measured functional performance",
+          "defined operating envelope",
+          "stress, failure, and recovery testing",
+          "independent verification or reproducibility",
+        ],
+        disconfirmationConditions: [
+          "the required function cannot be reproduced",
+          "performance collapses outside narrow test conditions",
+          "a critical unsafe failure mode remains uncontrolled",
+          "recovery or containment fails at the stated boundary",
+        ],
+        uncertaintyBoundary: [
+          "scientific plausibility is not engineering readiness",
+          "prototype success is not deployment reliability",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If a requirement, stress test, containment boundary, or recovery condition fails, localize the failure mode, redesign the minimum necessary component or interface, and re-test across the full stated operating envelope.",
+        nextAction:
+          "Run the highest-information verification against the critical requirement, including one stress/failure condition and one recovery condition.",
+        demonstrationThreshold: [
+          "the required function is measured",
+          "performance holds across the stated operating envelope",
+          "critical failure modes are bounded",
+          "recovery and independent verification succeed",
+        ],
+        predictionDesign:
+          "Translate the claim into one measurable requirement, one failure boundary, and one recovery criterion before expanding the architecture.",
+      };
+
+    case "CLINICAL / INTERVENTIONAL":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "prespecified clinically meaningful endpoints",
+          "appropriate comparator or counterfactual",
+          "safety evidence",
+          "external validation or replication",
+        ],
+        disconfirmationConditions: [
+          "the prespecified endpoint does not improve",
+          "the effect disappears under an appropriate comparator",
+          "harms outweigh the clinically meaningful benefit",
+          "the result does not generalize or replicate",
+        ],
+        uncertaintyBoundary: [
+          "biological mechanism is not clinical benefit",
+          "surrogate improvement is not automatically patient value",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If the endpoint, comparator, safety, or external-validity condition fails, identify whether the mechanism, population, intervention, dose, endpoint, or study design caused the failure before revising the clinical claim.",
+        nextAction:
+          "Test the most decision-relevant clinically meaningful endpoint against an appropriate comparator while preserving a prespecified safety boundary.",
+        demonstrationThreshold: [
+          "a meaningful endpoint improves",
+          "the comparator does not erase the effect",
+          "safety remains acceptable",
+          "the result survives adequate validation or replication",
+        ],
+        predictionDesign:
+          "Specify the clinically meaningful endpoint, comparator, safety boundary, and patient population before interpreting mechanism as benefit.",
+      };
+
+    case "INSTITUTIONAL":
+    case "NORMATIVE":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "explicit mechanism or value premises",
+          "credible counterfactual or comparison",
+          "observed actor and system outcomes",
+          "unintended, distributional, and context-sensitive effects",
+        ],
+        disconfirmationConditions: [
+          "real actors respond differently from the assumed mechanism",
+          "benefits disappear under credible comparison",
+          "second-order harms dominate the intended benefit",
+          "a less harmful alternative achieves the same objective",
+        ],
+        uncertaintyBoundary: [
+          "institutional intent is not institutional effect",
+          "normative conclusions depend on explicit value premises and hard constraints",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If observed behavior, incentives, distributional effects, or second-order consequences diverge from the institutional theory, revise the mechanism or rule at the smallest effective level and re-evaluate against the same public objective.",
+        nextAction:
+          "Test the institutional mechanism against a credible counterfactual, including one intended outcome, one unintended effect, and one distributional consequence.",
+        demonstrationThreshold: [
+          "the mechanism operates as specified",
+          "the intended outcome survives credible comparison",
+          "unintended and distributional harms remain within stated constraints",
+          "the result persists across relevant contexts",
+        ],
+        predictionDesign:
+          "State how actors should respond under the proposed rule, what outcome should follow, and what unintended effect would invalidate the design.",
+      };
+
+    case "PREDICTIVE":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "predefined forecast horizon",
+          "measurable prospective prediction",
+          "explicit assumptions and invalidation conditions",
+          "prospective outcome with calibrated uncertainty",
+        ],
+        disconfirmationConditions: [
+          "the prespecified outcome fails",
+          "a declared transition assumption breaks",
+          "a new bottleneck invalidates the projected trajectory",
+          "retrospective reframing is required to preserve the forecast",
+        ],
+        uncertaintyBoundary: [
+          "scenario coherence is not forecast accuracy",
+          "uncertainty must be recorded before the outcome rather than reconstructed after it",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If the prospective outcome diverges from the forecast, identify the first failed assumption or unmodeled constraint, update the model without rewriting the original prediction, and issue a new falsifiable forecast.",
+        nextAction:
+          "Record one measurable prospective prediction, its horizon, uncertainty, and one explicit condition that would invalidate it before observing the outcome.",
+        demonstrationThreshold: [
+          "the prediction is recorded prospectively",
+          "the outcome occurs within the stated uncertainty and horizon",
+          "declared assumptions remain valid",
+          "success repeats across more than one prediction where the claim is general",
+        ],
+        predictionDesign:
+          "Express the forecast as IF → THEN → UNLESS with a measurable trigger, horizon, uncertainty, and disconfirming condition.",
+      };
+
+    case "COMPARATIVE":
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "explicit common objective",
+          "symmetric criteria",
+          "comparable evidence maturity",
+          "predefined ranking-reversal condition",
+        ],
+        disconfirmationConditions: [
+          "the preferred option loses under the same criteria",
+          "evidence asymmetry explains the apparent advantage",
+          "the ranking changes when the objective is held constant and constraints are equalized",
+        ],
+        uncertaintyBoundary: [
+          "more documentation is not necessarily better performance",
+          "rankings are conditional on objectives and constraints",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If the ranking fails under symmetric evidence or common criteria, identify which criterion or evidence asymmetry caused the reversal and recompute the comparison without changing the objective after seeing the result.",
+        nextAction:
+          "Define the common objective, 3–5 symmetric criteria, and the condition that would reverse the ranking before selecting a preferred option.",
+        demonstrationThreshold: [
+          "the objective is explicit",
+          "criteria are applied symmetrically",
+          "evidence maturity is comparable",
+          "the preferred option survives the predefined reversal test",
+        ],
+        predictionDesign:
+          "Predict which option should outperform on the common criteria and specify the observation that would reverse the ranking.",
+      };
+
+    case "DESCRIPTIVE / EMPIRICAL":
+    case "UNKNOWN":
+    default:
+      return {
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: epistemic.evidenceNeeded.length
+          ? epistemic.evidenceNeeded
+          : ["direct evidence", "independent confirmation", "explicit boundary conditions"],
+        disconfirmationConditions: [epistemic.disconfirmationMode],
+        uncertaintyBoundary: [
+          "reported observation is bounded by measurement and sampling conditions",
+          "interpretation must remain distinct from what was directly measured",
+          ...sharedUncertainty,
+        ],
+        realityTest: `${reality.realityQuestion}${significanceSuffix}`,
+        correctionRule:
+          "If independent measurement or replication fails, first localize measurement, sampling, analysis, or boundary-condition error before expanding the explanation; then revise the claim to the strongest form still supported.",
+        nextAction:
+          "Identify the most important measured quantity, its uncertainty, one independent replication or observation, and the boundary condition most likely to erase the effect.",
+        demonstrationThreshold: [
+          "the observation is traceable",
+          "uncertainty and boundary conditions are explicit",
+          "independent measurement or replication reproduces the effect",
+          "credible alternative interpretations are bounded",
+        ],
+        predictionDesign:
+          "Convert the reported observation into one measurable implication that should reproduce under an independent measurement or replication.",
+      };
+  }
+}
+
+function requirementCoverageScore(
+  contract: EpistemicContract,
+  lead: SignalItem | null,
+  relevant: SignalItem[],
+  contextAssessment: ContextAssessment[],
+): number {
+  if (!lead) return 0;
+
+  const corpus = normalize(
+    [lead.title, lead.summary, lead.category, ...relevant.flatMap((signal) => [signal.title, signal.summary, signal.category])].join(" "),
+  );
+  const supportingCount = contextAssessment.filter((item) => item.role === "SUPPORTING").length;
+  const competingCount = contextAssessment.filter((item) => item.role === "COMPETING").length;
+  const independentSources = new Set(relevant.map((signal) => signal.source).filter(Boolean)).size;
+
+  let score = 1; // A primary traceable signal exists.
+
+  const keywordGroups: Partial<Record<ValidationMode, RegExp>> = {
+    "FORMAL VERIFICATION": /\b(proof|derive|derivation|theorem|formal|assumption|equivalence|consistent|reproduce|independent verification|counterexample)\b/,
+    "OBSERVATIONAL DISCRIMINATION": /\b(observ|measur|dataset|survey|independent|replicat|cross[- ]?dataset|out[- ]?of[- ]?sample|uncertaint|systematic)\b/,
+    "EXPERIMENTAL REPLICATION": /\b(experiment|control|replicat|repeat|laboratory|measur|boundary condition)\b/,
+    "INTERVENTIONAL TEST": /\b(intervention|randomi[sz]|perturb|knockout|controlled|natural experiment|dose|treatment)\b/,
+    "ENGINEERING VERIFICATION": /\b(prototype|benchmark|stress|failure|recovery|reliab|operating envelope|performance|verification)\b/,
+    "CLINICAL VALIDATION": /\b(clinical|patient|endpoint|survival|safety|adverse|comparator|trial|external validation)\b/,
+    "INSTITUTIONAL EVALUATION": /\b(policy|pilot|counterfactual|outcome|unintended|distribution|institution|actor|incentive)\b/,
+    "COMPARATIVE BENCHMARK": /\b(compare|benchmark|criteria|ranking|baseline|outperform)\b/,
+    "PROSPECTIVE VALIDATION": /\b(prospective|forecast|predict|horizon|calibrat|outcome)\b/,
+  };
+
+  for (const mode of contract.validationModes) {
+    const pattern = keywordGroups[mode];
+    if (pattern?.test(corpus)) score += 1;
+  }
+
+  if (supportingCount >= 1) score += 1;
+  if (supportingCount >= 2 && independentSources >= 2) score += 1;
+  if (competingCount >= 1) score += 0.5;
+  if (independentSources >= 3) score += 0.5;
+
+  return score;
+}
+
 function classifyQuery(query: string, mode: DialogueMode): QueryKind {
   return queryKindFromIntent(buildIntentModel(query, mode));
 }
@@ -1200,24 +1594,75 @@ function rankRelevantSignals(
 }
 
 function assessEvidenceStrength(
-  query: string,
+  contract: EpistemicContract,
+  lead: SignalItem | null,
   relevant: SignalItem[],
+  contextAssessment: ContextAssessment[],
 ): EvidenceStrength {
-  if (relevant.length === 0) {
+  if (!lead || relevant.length === 0) {
     return "INSUFFICIENT";
   }
 
-  const scores = relevant.map((signal) => scoreSignal(query, signal));
-  const strongest = Math.max(...scores, 0);
-  const sourceCount = new Set(
-    relevant.map((signal) => signal.source).filter(Boolean),
+  const coverage = requirementCoverageScore(
+    contract,
+    lead,
+    relevant,
+    contextAssessment,
+  );
+
+  const roleById = new Map(
+    contextAssessment.map((item) => [item.signalId, item.role]),
+  );
+  const supporting = relevant.filter(
+    (signal) => roleById.get(signal.id) === "SUPPORTING",
+  );
+  const supportingCorpus = normalize(
+    supporting.flatMap((signal) => [signal.title, signal.summary]).join(" "),
+  );
+  const independentSources = new Set(
+    [lead, ...supporting].map((signal) => signal.source).filter(Boolean),
   ).size;
 
-  if (strongest >= 12 && relevant.length >= 3 && sourceCount >= 2) {
+  const independentValidationMarker = (() => {
+    switch (contract.claimType) {
+      case "FORMAL / MATHEMATICAL":
+        return /\b(independent (formal )?(verification|derivation|reproduction)|replicated derivation|counterexample|proof checked)\b/.test(supportingCorpus);
+      case "MIXED":
+        return /\b(independent (probe|dataset|observation|validation)|out[- ]?of[- ]?sample|cross[- ]?dataset|replicat)\b/.test(supportingCorpus);
+      case "ENGINEERING / CONSTRUCTIVE":
+        return /\b(independent verification|replicat|benchmark|stress test|failure test|operational validation)\b/.test(supportingCorpus);
+      case "CLINICAL / INTERVENTIONAL":
+        return /\b(randomi[sz]ed|controlled trial|external validation|replicat|meta-analysis|systematic review)\b/.test(supportingCorpus);
+      case "CAUSAL / MECHANISTIC":
+        return /\b(intervention|natural experiment|perturb|replicat|independent validation|mechanism-specific)\b/.test(supportingCorpus);
+      case "PREDICTIVE":
+        return /\b(prospective|out[- ]?of[- ]?sample|external validation|forecast evaluation)\b/.test(supportingCorpus);
+      case "INSTITUTIONAL":
+      case "NORMATIVE":
+        return /\b(pilot|natural experiment|counterfactual|comparative evaluation|replicat|external validation)\b/.test(supportingCorpus);
+      case "COMPARATIVE":
+        return /\b(independent benchmark|head[- ]?to[- ]?head|comparative evaluation|common benchmark)\b/.test(supportingCorpus);
+      default:
+        return /\b(independent|replicat|external validation|reproduced|confirmed)\b/.test(supportingCorpus);
+    }
+  })();
+
+  // Strong evidence requires positive evidence that the claim-specific
+  // validation burden has been met independently. Related-signal count alone
+  // can never produce STRONG.
+  if (
+    coverage >= 4 &&
+    supporting.length >= 1 &&
+    independentSources >= 2 &&
+    independentValidationMarker
+  ) {
     return "STRONG";
   }
 
-  if (strongest >= 7 && relevant.length >= 2) {
+  // Moderate requires at least one supporting context beyond the primary
+  // claim. Otherwise the state remains limited even if the primary source is
+  // detailed or highly relevant.
+  if (coverage >= 3 && supporting.length >= 1) {
     return "MODERATE";
   }
 
@@ -1235,31 +1680,18 @@ function summarizeSignal(signal: SignalItem) {
 }
 
 function buildEvidenceBoundary(
-  kind: QueryKind,
   strength: EvidenceStrength,
   relevant: SignalItem[],
+  contract: EpistemicContract,
 ) {
   if (strength === "INSUFFICIENT") {
-    return "No sufficiently relevant indexed evidence is available for a specific factual conclusion. Episteme should not substitute unrelated signals for missing evidence.";
+    return "No sufficiently relevant indexed evidence is available for the claim-specific evidence contract. Episteme should not substitute related signals for missing validation.";
   }
 
-  const base =
-    `${relevant.length} relevant indexed intelligence object${relevant.length === 1 ? "" : "s"} support the current analysis.`;
+  const requirements = contract.evidenceRequirements.slice(0, 4).join("; ");
+  const boundary = contract.uncertaintyBoundary.slice(0, 2).join(" ");
 
-  switch (kind) {
-    case "CAUSAL":
-      return `${base} These signals may support association or a candidate mechanism, but correlation, mechanism, and demonstrated causation remain distinct.`;
-    case "FORECAST":
-      return `${base} They describe the observed state; they do not by themselves establish that the projected transition will occur.`;
-    case "DESIGN":
-      return `${base} Evidence that a phenomenon exists does not by itself establish engineering feasibility, reliability, safety, manufacturability, or deployment readiness.`;
-    case "COMPARATIVE":
-      return `${base} A fair comparison requires the alternatives to be judged against equivalent evidence, maturity, constraints, and outcome criteria.`;
-    case "EVALUATION":
-      return `${base} Evidence quality and implementation value are separate judgments and should not be collapsed into one score.`;
-    default:
-      return `${base} Indexed evidence supports a bounded interpretation, not an unrestricted conclusion beyond the observed or reported conditions.`;
-  }
+  return `${strength} claim-specific evidence state. Relevant context: ${relevant.length} indexed intelligence object${relevant.length === 1 ? "" : "s"}. Required evidence includes: ${requirements}. ${boundary}`;
 }
 
 function buildInquiryState({
@@ -1268,44 +1700,19 @@ function buildInquiryState({
   strength,
   lead,
   directAnswer,
-  reasoning,
   alternative,
-  falsification,
-  realityTestSummary,
-  nextAction,
+  contract,
 }: {
   query: string;
   kind: QueryKind;
   strength: EvidenceStrength;
   lead: SignalItem | null;
   directAnswer: string;
-  reasoning: string;
   alternative: string;
-  falsification: string;
-  realityTestSummary: string;
-  nextAction: string;
+  contract: EpistemicContract;
 }): InquiryState {
   const hasEvidence = strength !== "INSUFFICIENT" && Boolean(lead);
   const evidenceReady = strength === "STRONG" || strength === "MODERATE";
-
-  const predictionSummary = (() => {
-    switch (kind) {
-      case "CAUSAL":
-        return "State a prediction that differs between the preferred mechanism and its strongest alternative.";
-      case "COMPARATIVE":
-        return "Define common decision criteria, then predict which option should outperform and under what conditions.";
-      case "DESIGN":
-        return "Translate bounded evidence into a minimum architecture with measurable success and failure conditions.";
-      case "FORECAST":
-        return "Express the scenario as IF → THEN → UNLESS and identify the next binding constraint.";
-      case "EVALUATION":
-        return "Predict what should remain true if the evaluation is robust outside the original reporting context.";
-      case "FACTUAL":
-        return "Convert the factual claim into an observable implication before extending it beyond the source boundary.";
-      default:
-        return "Identify the smallest testable consequence that follows from the present interpretation.";
-    }
-  })();
 
   return {
     problem: {
@@ -1315,36 +1722,36 @@ function buildInquiryState({
     evidence: {
       status: hasEvidence ? (evidenceReady ? "READY" : "ACTIVE") : "BLOCKED",
       summary: hasEvidence
-        ? `${strength} evidence state. Evidence remains bounded to the indexed context.`
-        : "Directly relevant evidence is missing or insufficient.",
+        ? `${strength} evidence state against a ${contract.claimType} evidence contract.`
+        : "Directly relevant evidence is missing or insufficient for the claim-specific evidence contract.",
     },
     reasoning: {
       status: hasEvidence ? "ACTIVE" : "BLOCKED",
       summary: hasEvidence
-        ? `${directAnswer} Reasoning remains distinguishable from observation. ${alternative}`
+        ? `${directAnswer} Reasoning remains distinguishable from observation or formal proof. ${alternative}`
         : "Reasoning is intentionally constrained until evidence becomes discriminating.",
     },
     predictionDesign: {
       status: hasEvidence ? "ACTIVE" : "PENDING",
-      summary: predictionSummary,
+      summary: contract.predictionDesign,
     },
     realityTest: {
       status: hasEvidence ? "ACTIVE" : "PENDING",
       summary: hasEvidence
-        ? realityTestSummary
-        : "A reality test cannot be specified responsibly until directly relevant evidence or a concrete claim is supplied.",
+        ? contract.realityTest
+        : "A reality test cannot be specified responsibly until a concrete primary claim and directly relevant evidence are available.",
     },
     correction: {
       status: "PENDING",
       summary: hasEvidence
-        ? `If observation diverges from prediction, localize the failed assumption before expanding the explanation. ${nextAction}`
-        : "Correction begins by replacing missing evidence, not by adding explanatory complexity.",
+        ? contract.correctionRule
+        : "Correction begins by establishing the missing primary evidence, not by adding explanatory complexity.",
     },
     demonstratedResult: {
       status: "PENDING",
       summary: hasEvidence
-        ? "NOT YET DEMONSTRATED · The dialogue can bound evidence and define a test, but demonstration requires an observed result that survives the stated falsification condition and the relevant replication or verification boundary."
-        : "NOT DEMONSTRATED · No sufficiently relevant evidence is currently attached to support a reality-tested result.",
+        ? `NOT YET DEMONSTRATED · Demonstration for a ${contract.claimType} claim requires: ${contract.demonstrationThreshold.join("; ")}.`
+        : "NOT DEMONSTRATED · No sufficiently relevant evidence is currently attached to satisfy the claim-specific demonstration threshold.",
     },
   };
 }
@@ -1370,25 +1777,33 @@ function buildIntelligence(
     epistemicParse,
     primarySignal,
   );
-  const strength = assessEvidenceStrength(
-    query,
-    relevant,
-  );
   const lead = primarySignal ?? relevant[0] ?? null;
   const second = relevant.find((signal) => signal.id !== lead?.id) ?? null;
   const realityModel = buildRealityModel(epistemicParse);
-  const realityTest = buildRealityTest(realityModel, intentModel, kind);
+  const epistemicContract = buildEpistemicContract(
+    epistemicParse,
+    realityModel,
+    intentModel,
+    kind,
+  );
+  const strength = assessEvidenceStrength(
+    epistemicContract,
+    lead,
+    relevant,
+    contextAssessment,
+  );
+  const realityTest = epistemicContract.realityTest;
 
   const evidenceBoundary = buildEvidenceBoundary(
-    kind,
     strength,
     relevant,
+    epistemicContract,
   );
 
   const evidence =
     strength === "INSUFFICIENT"
-      ? "INSUFFICIENT · No sufficiently relevant indexed evidence is currently attached."
-      : `${strength} · ${relevant.length} relevant intelligence object${relevant.length === 1 ? "" : "s"} attached · ${new Set(relevant.map((item) => item.source)).size} source context${new Set(relevant.map((item) => item.source)).size === 1 ? "" : "s"}.`;
+      ? "INSUFFICIENT · No sufficiently relevant indexed evidence is currently attached to satisfy the claim-specific evidence contract."
+      : `${strength} · ${epistemicContract.claimType} evidence contract · ${relevant.length} relevant intelligence object${relevant.length === 1 ? "" : "s"} attached.`;
 
   let directAnswer = "";
   let reasoning = "";
@@ -1638,6 +2053,14 @@ Significance layer: distinguish novelty from consequence. Ask what established b
     ];
   }
 
+  // Downstream epistemic actions must come from the same claim-specific contract.
+  // Branch-specific prose may frame the answer, but it must not redefine the
+  // validation, correction, next-action, or demonstration burden.
+  if (lead) {
+    falsification = epistemicContract.disconfirmationConditions.join(" ");
+    nextAction = epistemicContract.nextAction;
+  }
+
   const modePrefix =
     mode === "simulate"
       ? "CONDITIONAL SCENARIO — NOT OBSERVATION\n\n"
@@ -1649,11 +2072,8 @@ Significance layer: distinguish novelty from consequence. Ask what established b
     strength,
     lead,
     directAnswer,
-    reasoning,
     alternative,
-    falsification,
-    realityTestSummary: realityTest,
-    nextAction,
+    contract: epistemicContract,
   });
 
   const interpretation = [
@@ -1686,6 +2106,7 @@ Significance layer: distinguish novelty from consequence. Ask what established b
     epistemicParse,
     contextAssessment,
     realityModel,
+    epistemicContract,
   };
 }
 

@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-09-11T10:49:40.729Z",
+  "updated": "2026-09-11T13:44:39.797Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "When a company 'believes' something false that causes harm, who's to blame? Professor offers a new answer",
+      "url": "https://phys.org/news/2026-09-company-believes-false-blame-professor.html",
+      "summary": "When Boeing certified the 737 Max in 2017 as safe to fly, a flight-control system it had approved caused two crashes that killed 346 people. When Takata kept shipping airbag inflators it had cleared for use, the devices …",
+      "ts": 1789134004000,
+      "publishedAt": "2026-09-11T13:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Planes on a snake? Scientists discover various crab species hitching rides on sea snakes",
+      "url": "https://phys.org/news/2026-09-planes-snake-scientists-crab-species.html",
+      "summary": "Like all other snakes, sea snakes shed their skin as they grow. But because they live near the surface of the open ocean, they don't have the benefit of removing their old skin by slithering against a hard surface. Inste…",
+      "ts": 1789134002000,
+      "publishedAt": "2026-09-11T13:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low-cost phone lessons keep children learning during emergency school closures across five countries",
+      "url": "https://phys.org/news/2026-09-lessons-children-emergency-school-closures.html",
+      "summary": "The COVID-19 pandemic lockdowns forced people to find ways to get things done remotely. Companies developed systems that made working from home run smoothly. Educators also had to shift to mobile phones and group video c…",
+      "ts": 1789132808000,
+      "publishedAt": "2026-09-11T13:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new surface atlas of Phobos will help MMX mission collect its samples",
+      "url": "https://phys.org/news/2026-09-surface-atlas-phobos-mmx-mission.html",
+      "summary": "Thanks to JAXA, the Japan Aerospace Exploration Agency, and its sample-return capabilities, we're on the cusp of receiving our first sample from the Martian system—not from Mars itself, but from its largest moon, Phobos.…",
+      "ts": 1789132804000,
+      "publishedAt": "2026-09-11T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ocean acidification may disrupt diatoms' carbon capture and marine food webs",
+      "url": "https://phys.org/news/2026-09-ocean-acidification-disrupt-diatoms-carbon.html",
+      "summary": "Our oceans are in trouble, and new research from Flinders University shows how changes in diatoms (microalgae) could further undermine the foundation of aquatic food webs—as well as vital deep-sea carbon capture or seque…",
+      "ts": 1789131945000,
+      "publishedAt": "2026-09-11T13:05:45.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "eROSITA's second data release catalog delivering most comprehensive high-energy census of the cosmos to date",
+      "url": "https://phys.org/news/2026-09-erosita-comprehensive-high-energy-census.html",
+      "summary": "The eROSITA (extended ROentgen Survey with an Imaging Telescope Array) telescope, the primary instrument aboard the Russian-German Spektr-RG space observatory, was developed by the Max Planck Institute for Extraterrestri…",
+      "ts": 1789131608000,
+      "publishedAt": "2026-09-11T13:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dogs and cats carry antibiotic-resistant bacteria also found in people, study finds",
+      "url": "https://phys.org/news/2026-09-dogs-cats-antibiotic-resistant-bacteria.html",
+      "summary": "Dogs and cats may carry strains of Klebsiella pneumoniae, a potentially serious bacterium that can cause infections and is also found in humans, according to new research from Bournemouth University published in the jour…",
+      "ts": 1789131604000,
+      "publishedAt": "2026-09-11T13:00:04.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "The Sept. 11 disasters still shape people’s health 25 years later",
+      "url": "https://www.sciencenews.org/article/sept-11-attacks-health-25th-anniversary",
+      "summary": "The anniversaries come and go, but the physical and mental health of workers and survivors is still being affected by September 11, 2001.",
+      "ts": 1789131600000,
+      "publishedAt": "2026-09-11T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When AI designs the product, consumers have doubts",
+      "url": "https://phys.org/news/2026-09-ai-product-consumers.html",
+      "summary": "A new study from Georgia State University's J. Mack Robinson College of Business and the University of South Florida delivers a pointed warning to companies betting on AI to power their product design: The technology may…",
+      "ts": 1789130401000,
+      "publishedAt": "2026-09-11T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Ex-Utero' project uses art, science to explore regenerative medicine",
+      "url": "https://phys.org/news/2026-09-utero-art-science-explore-regenerative.html",
+      "summary": "On a sunny spring day at Penn State, Cristin Millett, professor of art in the College of Arts and Architecture's School of Visual Arts, inserted a catheter needle into the umbilical vein of a placenta.",
+      "ts": 1789129205000,
+      "publishedAt": "2026-09-11T12:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What the backlash to the Industrial Revolution can teach us about handcrafts in the age of AI",
+      "url": "https://phys.org/news/2026-09-backlash-industrial-revolution-handcrafts-age.html",
+      "summary": "Artificial intelligence (AI) isn't yet causing widespread job losses in Australia. But with some high-profile business leaders still predicting a looming unemployment \"crisis,\" it's little wonder many people fear AI is c…",
+      "ts": 1789128009000,
+      "publishedAt": "2026-09-11T12:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New analysis reconstructs the dawn of dinosaurs and other reptiles",
+      "url": "https://phys.org/news/2026-09-analysis-reconstructs-dawn-dinosaurs-reptiles.html",
+      "summary": "About 252 million years ago, at the end of the Permian Period, a large proportion of species on Earth rapidly became extinct. After this mass extinction, many groups of organisms began to recover, while reptiles known as…",
+      "ts": 1789128004000,
+      "publishedAt": "2026-09-11T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can people truly walk away from terrorism? Inside the slow work of rehabilitation",
+      "url": "https://phys.org/news/2026-09-people-terrorism.html",
+      "summary": "As we reflect on the 25 years since the 9/11 terrorist attacks that killed almost 3,000 people, terrorism remains an ongoing yet evolving threat that defies easy answers.",
+      "ts": 1789126804000,
+      "publishedAt": "2026-09-11T11:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How western consumption becomes the Global South's environmental nightmare",
+      "url": "https://phys.org/news/2026-09-western-consumption-global-south-environmental.html",
+      "summary": "Industrialized countries send millions of metric tonnes of used clothing, electronic equipment and other products to the Global South, along with the environmental and health costs tied to producing, consuming and dispos…",
+      "ts": 1789125601000,
+      "publishedAt": "2026-09-11T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Maine's sugar kelp reveals four distinct populations vital for restoration",
+      "url": "https://phys.org/news/2026-09-maine-sugar-kelp-reveals-distinct.html",
+      "summary": "Saccharina latissima, or sugar kelp, is one of the dominant species in Maine's kelp forests, providing food, habitat and clean water to support a rich marine ecosystem. It is also the bedrock of the state's burgeoning ke…",
+      "ts": 1789124407000,
+      "publishedAt": "2026-09-11T11:00:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Blue light breaks long-standing chemistry rule, unlocking 3D drug building blocks",
@@ -679,126 +799,6 @@
       "title": "The three-vortex system: Hopf fibration, symplectic reduction, and near-collisions",
       "url": "https://arxiv.org/abs/2609.10847",
       "summary": "arXiv:2609.10847v1 Announce Type: cross Abstract: We study the dynamics of collisions and near-collisions in the system of three point vortices in the plane. The dynamics is known to be completely integrable and can be r…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring chiral phonons",
-      "url": "https://arxiv.org/abs/2609.10973",
-      "summary": "arXiv:2609.10973v1 Announce Type: cross Abstract: Chiral phonons are quantized vibrations where the atomic motion in a solid breaks improper rotation symmetries. In many cases, chiral phonons possess angular momenta and …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On-chip squeezed light in the audio frequency band",
-      "url": "https://arxiv.org/abs/2609.11004",
-      "summary": "arXiv:2609.11004v1 Announce Type: cross Abstract: Squeezed light in the audio-frequency band is a key resource for quantum metrology and quantum sensing. However, realizing stable audio-frequency squeezed light on integr…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kinetics of ferritin crystal formation and melting in acoustically levitated droplets",
-      "url": "https://arxiv.org/abs/2609.11226",
-      "summary": "arXiv:2609.11226v1 Announce Type: cross Abstract: Understanding protein crystallization pathways is essential for controlling crystallization in structural biology, materials science, and pharmaceutical applications. Cla…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interface-Controlled Phase Stability in Polymorphic HfO$_2$ Revealed by Machine-Learning Atomistic Simulations",
-      "url": "https://arxiv.org/abs/2609.11307",
-      "summary": "arXiv:2609.11307v1 Announce Type: cross Abstract: HfO$_2$ exhibits rich polymorphism, and competition among different phases underpins many of its functional properties. Yet bulk free-energy relations alone cannot explai…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Instabilities in self-consistent diagrammatic approaches and how to cure them",
-      "url": "https://arxiv.org/abs/2609.11405",
-      "summary": "arXiv:2609.11405v1 Announce Type: cross Abstract: While self-consistent diagrammatic approaches are widely used to compute the physical properties of correlated quantum materials, their applicability may get severely hin…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Quantum Plumber's Problem",
-      "url": "https://arxiv.org/abs/2609.11416",
-      "summary": "arXiv:2609.11416v1 Announce Type: cross Abstract: Recent work quantified the notion of quantum counterfactual gain for an extended Elitzur-Vaidman bomb test style scenario, through a connection to the negativity of the K…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimizing GEDI Simulator Configuration for European Temperate Forests",
-      "url": "https://arxiv.org/abs/2609.11440",
-      "summary": "arXiv:2609.11440v1 Announce Type: cross Abstract: Accurate estimation of aboveground biomass density is essential for quantifying forest carbon stocks. NASA's GEDI mission provides valuable canopy structure data, but its…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lava Tube Exploration with LunarLeaper",
-      "url": "https://arxiv.org/abs/2609.11453",
-      "summary": "arXiv:2609.11453v1 Announce Type: cross Abstract: Lunar pits, some of which are interpreted as collapse features into underlying lava tubes, expose otherwise inaccessible stratigraphy and may provide entry points to subs…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bottom-up Synthesis of Metastable 2D Hexagonal Copper(I) Iodide on Monolayer and within Bilayer Graphene",
-      "url": "https://arxiv.org/abs/2609.11459",
-      "summary": "arXiv:2609.11459v1 Announce Type: cross Abstract: Copper(I) iodide (CuI) is a wide-bandgap semiconductor crystallizing in the 3D $\\gamma$-phase under ambient conditions; its layered van der Waals bulk phase $\\beta$-CuI i…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Community-Developed Domain Ontology for Magnetic Materials",
-      "url": "https://arxiv.org/abs/2609.11464",
-      "summary": "arXiv:2609.11464v1 Announce Type: cross Abstract: Magnetic materials play a crucial role in energy-related technologies, mobility, and sensing, but their complex multiscale behaviour and the coexistence of multiple unit …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Linear Response Predicts Cusp-Pair Births in Networks with a Localized Cubic",
-      "url": "https://arxiv.org/abs/2609.11574",
-      "summary": "arXiv:2609.11574v1 Announce Type: cross Abstract: Linear response is cheap to measure; the bistability boundaries it organizes are not. For a passive network with one localized cubic, the driving-point receptance $G$ fix…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-Threshold Sampling: Signal Space, Sampling Operators, and Crossing-Time Distributions",
-      "url": "https://arxiv.org/abs/2609.11610",
-      "summary": "arXiv:2609.11610v1 Announce Type: cross Abstract: Multi-threshold (MT) sampling records crossing times at selected thresholds for parameter estimation and waveform reconstruction. For suitable high-speed signals, it can …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian Superiority in On/Off analysis",
-      "url": "https://arxiv.org/abs/2609.11683",
-      "summary": "arXiv:2609.11683v1 Announce Type: cross Abstract: We present a detailed comparison of Bayesian criteria with three non-informative priors - flat, Jeffreys, and scale-invariant - for testing a signal against an unknown ba…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Block entropy area based non-local fermionic mode optimization with gradient disentanglers",
-      "url": "https://arxiv.org/abs/2609.11811",
-      "summary": "arXiv:2609.11811v1 Announce Type: cross Abstract: We introduce a systematic block entropy area based mode optimization algorithm for many-body quantum states of interacting fermions represented by matrix product states. …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-cycle doublon-holon dynamics in one-dimensional Mott insulators revealed by two-color high-harmonic spectroscopy",
-      "url": "https://arxiv.org/abs/2609.11858",
-      "summary": "arXiv:2609.11858v1 Announce Type: cross Abstract: Solid-state high-harmonic spectroscopy is becoming an emerging tool for probing nonequilibrium many-body dynamics. Yet, direct measurements of strongly driven, sub-optica…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

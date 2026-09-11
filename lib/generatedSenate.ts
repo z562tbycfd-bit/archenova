@@ -3,21 +3,6 @@ export const senateAgenda =
   {
     "id": "agenda-1",
     "rank": 1,
-    "title": "Powering AI is an architecture problem",
-    "slug": "ai-powering-ai-is-an-architecture-problem",
-    "category": "AI",
-    "source": "MIT Technology Review",
-    "score": 9.8,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-2",
-    "rank": 2,
     "title": "Constraining $f(R)$ gravity and evolving dark energy via large-scale structure and phase-space trajectories",
     "slug": "ai-constraining-f-r-gravity-and-evolving-dark-energy-via-large-scale-structure-and-",
     "category": "AI",
@@ -31,8 +16,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-3",
-    "rank": 3,
+    "id": "agenda-2",
+    "rank": 2,
     "title": "Manus and UT Austin Advance Biomanufacturing Product Recovery Through BioMADE Program",
     "slug": "energy-manus-and-ut-austin-advance-biomanufacturing-product-recovery-through-biomade-pr",
     "category": "Energy",
@@ -46,38 +31,23 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
-    "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-    "slug": "ai-d-matrix-adopts-nvidia-nvlink-fusion-for-rack-scale-xpu-deployment",
+    "id": "agenda-3",
+    "rank": 3,
+    "title": "When AI designs the product, consumers have doubts",
+    "slug": "ai-when-ai-designs-the-product-consumers-have-doubts",
     "category": "AI",
-    "source": "NVIDIA",
-    "score": 9.7,
+    "source": "Phys.org",
+    "score": 9.5,
     "priority": "Critical",
     "stage": "Open Deliberation",
     "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   },
   {
-    "id": "agenda-5",
-    "rank": 5,
-    "title": "Can the US battery market untangle from China?",
-    "slug": "energy-can-the-us-battery-market-untangle-from-china",
-    "category": "Energy",
-    "source": "MIT Technology Review",
-    "score": 9.6,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-6",
-    "rank": 6,
+    "id": "agenda-4",
+    "rank": 4,
     "title": "Observational constraints on Diffusion Cosmologies in Unimodular Gravity from DESI DR2",
     "slug": "ai-observational-constraints-on-diffusion-cosmologies-in-unimodular-gravity-from-de",
     "category": "AI",
@@ -91,8 +61,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-7",
-    "rank": 7,
+    "id": "agenda-5",
+    "rank": 5,
     "title": "RSD constraints on power-law $f(Q)$ gravity using Barboza-Alcaniz and Jassal-Bagla-Padmanabhan parametrizations",
     "slug": "ai-rsd-constraints-on-power-law-f-q-gravity-using-barboza-alcaniz-and-jassal-bagla-",
     "category": "AI",
@@ -106,8 +76,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-8",
-    "rank": 8,
+    "id": "agenda-6",
+    "rank": 6,
     "title": "CAR T Manufacturing in Japan Gets Boost from Teijin-Shinshu University Research Collaboration",
     "slug": "bio-car-t-manufacturing-in-japan-gets-boost-from-teijin-shinshu-university-research-",
     "category": "Bio",
@@ -121,8 +91,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-7",
+    "rank": 7,
     "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
     "slug": "space-a-team-of-teams-like-never-before-rehearsing-a-unique-launch-at-esa-mission-cont",
     "category": "Space",
@@ -136,8 +106,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-8",
+    "rank": 8,
     "title": "LatConnect 60 Expands India Market Presence for SWIRSAT With NSIL Agreement and GeoSyze Partnership",
     "slug": "space-latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-",
     "category": "Space",
@@ -151,8 +121,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "Discovering Subtypes of Neurodegenerative Progression with a Scalable Connectome-Constrained Dynamic Model",
     "slug": "ai-discovering-subtypes-of-neurodegenerative-progression-with-a-scalable-connectome",
     "category": "AI",
@@ -163,6 +133,36 @@ export const senateAgenda =
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-10",
+    "rank": 10,
+    "title": "A new surface atlas of Phobos will help MMX mission collect its samples",
+    "slug": "space-a-new-surface-atlas-of-phobos-will-help-mmx-mission-collect-its-samples",
+    "category": "Space",
+    "source": "Phys.org",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-11",
+    "rank": 11,
+    "title": "eROSITA's second data release catalog delivering most comprehensive high-energy census of the cosmos to date",
+    "slug": "energy-erosita-s-second-data-release-catalog-delivering-most-comprehensive-high-energy-",
+    "category": "Energy",
+    "source": "Phys.org",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Civilization Energy Architecture",
     "status": "Open"
   },
   {

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-11T10:49:42.632Z",
+  "updated": "2026-09-11T13:44:50.860Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Cancer drug shortages keep disrupting patient care",
+      "url": "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/?utm_campaign=rss",
+      "summary": "Platinum chemotherapy's long-term effects, surprising heart failure drug failures, and more biotech news from The Readout",
+      "ts": 1789133992000,
+      "publishedAt": "2026-09-11T13:39:52.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Week in images: 07-11 Sep 2026",
@@ -10,6 +19,24 @@
       "ts": 1789131600000,
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: biotech’s future and cheaper, cleaner steel",
+      "url": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review…",
+      "ts": 1789128600000,
+      "publishedAt": "2026-09-11T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Boycott launched against American Diabetes Association includes journal ",
+      "url": "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal/?utm_campaign=rss",
+      "summary": "Trump's $500 Obamacare promise, childhood cancer treatment with long-term risks, and more health news",
+      "ts": 1789127000000,
+      "publishedAt": "2026-09-11T11:43:20.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "MIT Technology Review",
@@ -90,6 +117,15 @@
       "summary": "APOD Science APOD APOD: 2026 September 11 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
       "ts": 1789099500000,
       "publishedAt": "2026-09-11T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Monterrey Amid Mountains",
+      "url": "https://science.nasa.gov/earth/earth-observatory/monterrey-amid-mountains/",
+      "summary": "Mexico’s second-largest metropolitan area borders on folded rock layers of the Sierra Madre Oriental.",
+      "ts": 1789099260000,
+      "publishedAt": "2026-09-11T04:01:00.000Z",
       "categoryId": "space"
     },
     {
@@ -411,7 +447,7 @@
       "source": "Genetic Engineering News",
       "title": "Manus and UT Austin Advance Biomanufacturing Product Recovery Through BioMADE Program",
       "url": "https://www.genengnews.com/topics/bioprocessing/manus-and-ut-austin-advance-biomanufacturing-product-recovery-through-biomade-program/",
-      "summary": "A new study showed that a prgrammed lysis approach cut mechanical separation energy by over 50 percent at pilot scale, widening the range of bioalternatives that can compete pricewise. The post Manus and UT Austin Advanc…",
+      "summary": "A new study showed that a programmed lysis approach cut mechanical separation energy by over 50 percent at pilot scale, widening the range of bioalternatives that can compete pricewise. The post Manus and UT Austin Advan…",
       "ts": 1789064385000,
       "publishedAt": "2026-09-10T18:19:45.000Z",
       "categoryId": "bio"
@@ -642,6 +678,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
+      "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/",
+      "summary": "NASA is bringing artificial intelligence to the study of the Moon, helping researchers transform how they analyze the Moon’s surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA …",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "United Nations News",
       "title": "Ukraine: Drone attacks on Chornobyl are ‘gambling with the safety of millions of people’",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168312",
@@ -765,51 +810,6 @@
       "summary": "This article was produced in partnership with Type Investigations and with support from the Fund for Investigative Journalism. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. Now…",
       "ts": 1789030800000,
       "publishedAt": "2026-09-10T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Healthcare AI’s next test is integration",
-      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/",
-      "summary": "The entrance of major AI companies into healthcare is a meaningful and welcome development, accelerating the technical foundation available to the industry. Their models are increasingly capable of processing long clinic…",
-      "ts": 1789030681000,
-      "publishedAt": "2026-09-10T08:58:01.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: John Fetterman’s post-stroke, politically problematic behaviors offer lessons about brain health on Capitol Hill",
-      "url": "https://www.statnews.com/2026/09/10/john-fetterman-post-stroke-behavior-experts-see-neurological-changes/?utm_campaign=rss",
-      "summary": "“Nothing in the recent reporting about John Fetterman is medically surprising,” write Michael P.H. Stanley and Isaiah Kletenik.",
-      "ts": 1789029000000,
-      "publishedAt": "2026-09-10T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it",
-      "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/?utm_campaign=rss",
-      "summary": "Rural health care providers have struggled for years. The Trump administration is pointing to a cutting-edge, if unproven way to save them: artificial intelligence.",
-      "ts": 1789029000000,
-      "publishedAt": "2026-09-10T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Five midterm races to watch that could be crucial for vaccine policy",
-      "url": "https://www.statnews.com/2026/09/10/2026-midterms-health-care-issues-analyzed-vaccine-policy/?utm_campaign=rss",
-      "summary": "GOP candidates in Iowa and Florida are embracing vaccine skepticism, while Democrats in Michigan and South Carolina are ready for a fight.",
-      "ts": 1789029000000,
-      "publishedAt": "2026-09-10T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "ts": 1789023600000,
-      "publishedAt": "2026-09-10T07:00:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
