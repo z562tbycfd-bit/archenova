@@ -35,6 +35,22 @@ type EvidenceStrength =
   | "LIMITED"
   | "INSUFFICIENT";
 
+type InquiryStageStatus =
+  | "ACTIVE"
+  | "READY"
+  | "PENDING"
+  | "BLOCKED";
+
+type InquiryState = {
+  problem: { status: InquiryStageStatus; summary: string };
+  evidence: { status: InquiryStageStatus; summary: string };
+  reasoning: { status: InquiryStageStatus; summary: string };
+  predictionDesign: { status: InquiryStageStatus; summary: string };
+  realityTest: { status: InquiryStageStatus; summary: string };
+  correction: { status: InquiryStageStatus; summary: string };
+  demonstratedResult: { status: InquiryStageStatus; summary: string };
+};
+
 type SignalItem = {
   id: string;
   title: string;
@@ -54,6 +70,7 @@ type IntelligenceObject = {
   signalIds: string[];
   queryKind: QueryKind;
   evidenceStrength: EvidenceStrength;
+  inquiry: InquiryState;
 };
 
 type DialogueMessage = {
@@ -592,6 +609,91 @@ function buildEvidenceBoundary(
   }
 }
 
+function buildInquiryState({
+  query,
+  kind,
+  strength,
+  lead,
+  directAnswer,
+  reasoning,
+  alternative,
+  falsification,
+  nextAction,
+}: {
+  query: string;
+  kind: QueryKind;
+  strength: EvidenceStrength;
+  lead: SignalItem | null;
+  directAnswer: string;
+  reasoning: string;
+  alternative: string;
+  falsification: string;
+  nextAction: string;
+}): InquiryState {
+  const hasEvidence = strength !== "INSUFFICIENT" && Boolean(lead);
+  const evidenceReady = strength === "STRONG" || strength === "MODERATE";
+
+  const predictionSummary = (() => {
+    switch (kind) {
+      case "CAUSAL":
+        return "State a prediction that differs between the preferred mechanism and its strongest alternative.";
+      case "COMPARATIVE":
+        return "Define common decision criteria, then predict which option should outperform and under what conditions.";
+      case "DESIGN":
+        return "Translate bounded evidence into a minimum architecture with measurable success and failure conditions.";
+      case "FORECAST":
+        return "Express the scenario as IF → THEN → UNLESS and identify the next binding constraint.";
+      case "EVALUATION":
+        return "Predict what should remain true if the evaluation is robust outside the original reporting context.";
+      case "FACTUAL":
+        return "Convert the factual claim into an observable implication before extending it beyond the source boundary.";
+      default:
+        return "Identify the smallest testable consequence that follows from the present interpretation.";
+    }
+  })();
+
+  return {
+    problem: {
+      status: "READY",
+      summary: `${kind} inquiry · ${query.trim()}`,
+    },
+    evidence: {
+      status: hasEvidence ? (evidenceReady ? "READY" : "ACTIVE") : "BLOCKED",
+      summary: hasEvidence
+        ? `${strength} evidence state. Evidence remains bounded to the indexed context.`
+        : "Directly relevant evidence is missing or insufficient.",
+    },
+    reasoning: {
+      status: hasEvidence ? "ACTIVE" : "BLOCKED",
+      summary: hasEvidence
+        ? `${directAnswer} Reasoning remains distinguishable from observation. ${alternative}`
+        : "Reasoning is intentionally constrained until evidence becomes discriminating.",
+    },
+    predictionDesign: {
+      status: hasEvidence ? "ACTIVE" : "PENDING",
+      summary: predictionSummary,
+    },
+    realityTest: {
+      status: hasEvidence ? "ACTIVE" : "PENDING",
+      summary: hasEvidence
+        ? falsification
+        : "A reality test cannot be specified responsibly until directly relevant evidence or a concrete claim is supplied.",
+    },
+    correction: {
+      status: "PENDING",
+      summary: hasEvidence
+        ? `If observation diverges from prediction, localize the failed assumption before expanding the explanation. ${nextAction}`
+        : "Correction begins by replacing missing evidence, not by adding explanatory complexity.",
+    },
+    demonstratedResult: {
+      status: "PENDING",
+      summary: hasEvidence
+        ? "NOT YET DEMONSTRATED · The dialogue can bound evidence and define a test, but demonstration requires an observed result that survives the stated falsification condition and the relevant replication or verification boundary."
+        : "NOT DEMONSTRATED · No sufficiently relevant evidence is currently attached to support a reality-tested result.",
+    },
+  };
+}
+
 function buildIntelligence(
   query: string,
   mode: DialogueMode,
@@ -847,12 +949,27 @@ function buildIntelligence(
       ? "CONDITIONAL SCENARIO — NOT OBSERVATION\n\n"
       : "";
 
+  const inquiry = buildInquiryState({
+    query,
+    kind,
+    strength,
+    lead,
+    directAnswer,
+    reasoning,
+    alternative,
+    falsification,
+    nextAction,
+  });
+
   const interpretation = [
     `${modePrefix}${directAnswer}`,
     `WHY THIS FOLLOWS\n${reasoning}`,
     `ALTERNATIVE EXPLANATION\n${alternative}`,
     `ADVERSARIAL CHECK\n${challenge}`,
-    `WHAT WOULD CHANGE THE CONCLUSION\n${falsification}`,
+    `PREDICTION / DESIGN\n${inquiry.predictionDesign.summary}`,
+    `REALITY TEST\n${inquiry.realityTest.summary}`,
+    `CORRECTION RULE\n${inquiry.correction.summary}`,
+    `DEMONSTRATED RESULT\n${inquiry.demonstratedResult.summary}`,
     `NEXT USEFUL ACTION\n${nextAction}`,
   ].join("\n\n");
 
@@ -869,6 +986,7 @@ function buildIntelligence(
     signalIds: relevant.map((signal) => signal.id),
     queryKind: kind,
     evidenceStrength: strength,
+    inquiry,
   };
 }
 
@@ -1635,6 +1753,45 @@ useEffect(() => {
                               }
                             </p>
                           </section>
+                        </div>
+                        <div className="ep-inquiry">
+                          <div className="ep-inquiry__head">
+                            <span className="ep-intelligence__label">
+                              INQUIRY ENGINE
+                            </span>
+                            <small>REALITY-BOUND LOOP</small>
+                          </div>
+                          <div className="ep-inquiry__stages">
+                            {[
+                              ["PROBLEM", message.intelligence.inquiry.problem],
+                              ["EVIDENCE", message.intelligence.inquiry.evidence],
+                              ["REASONING", message.intelligence.inquiry.reasoning],
+                              ["PREDICT / DESIGN", message.intelligence.inquiry.predictionDesign],
+                              ["REALITY TEST", message.intelligence.inquiry.realityTest],
+                              ["CORRECTION", message.intelligence.inquiry.correction],
+                              ["DEMONSTRATED", message.intelligence.inquiry.demonstratedResult],
+                            ].map(([label, stage]) => {
+                              const inquiryStage = stage as InquiryState[keyof InquiryState];
+                              return (
+                                <div
+                                  key={label as string}
+                                  className={`ep-inquiry__stage ep-inquiry__stage--${inquiryStage.status.toLowerCase()}`}
+                                  title={inquiryStage.summary}
+                                >
+                                  <i aria-hidden="true" />
+                                  <span>{label as string}</span>
+                                </div>
+                              );
+                            })}
+                          </div>
+                          <p className="ep-inquiry__checkpoint">
+                            <strong>REALITY TEST</strong>
+                            {message.intelligence.inquiry.realityTest.summary}
+                          </p>
+                          <p className="ep-inquiry__checkpoint">
+                            <strong>DEMONSTRATION STATE</strong>
+                            {message.intelligence.inquiry.demonstratedResult.summary}
+                          </p>
                         </div>
                         {/* =================================
                             SIGNALS
@@ -2875,6 +3032,85 @@ useEffect(() => {
             );
           font-size: 9px;
           line-height: 1.72;
+        }
+        .ep-inquiry {
+          margin-top: 14px;
+          padding: 14px 16px;
+          border: 1px solid rgba(255, 255, 255, 0.052);
+          border-radius: 16px;
+          background: rgba(3, 5, 7, 0.58);
+        }
+        .ep-inquiry__head {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 12px;
+        }
+        .ep-inquiry__head small {
+          color: rgba(255, 255, 255, 0.2);
+          font-size: 6px;
+          letter-spacing: 0.15em;
+        }
+        .ep-inquiry__stages {
+          display: grid;
+          grid-template-columns: repeat(7, minmax(0, 1fr));
+          gap: 6px;
+          margin-top: 12px;
+        }
+        .ep-inquiry__stage {
+          display: flex;
+          min-width: 0;
+          align-items: center;
+          gap: 5px;
+          color: rgba(255, 255, 255, 0.25);
+          font-size: 5px;
+          letter-spacing: 0.08em;
+          white-space: nowrap;
+        }
+        .ep-inquiry__stage i {
+          width: 5px;
+          height: 5px;
+          flex: 0 0 auto;
+          border-radius: 999px;
+          background: rgba(255, 255, 255, 0.14);
+        }
+        .ep-inquiry__stage--ready { color: rgba(220, 235, 240, 0.55); }
+        .ep-inquiry__stage--ready i { background: rgba(210, 230, 235, 0.68); }
+        .ep-inquiry__stage--active { color: rgba(220, 235, 240, 0.44); }
+        .ep-inquiry__stage--active i {
+          background: rgba(210, 230, 235, 0.44);
+          box-shadow: 0 0 0 3px rgba(210, 230, 235, 0.05);
+        }
+        .ep-inquiry__stage--blocked { opacity: 0.52; }
+        .ep-inquiry__checkpoint {
+          display: grid;
+          grid-template-columns: 112px minmax(0, 1fr);
+          gap: 10px;
+          margin: 12px 0 0;
+          color: rgba(220, 230, 235, 0.42);
+          font-size: 9px;
+          line-height: 1.65;
+        }
+        .ep-inquiry__checkpoint + .ep-inquiry__checkpoint {
+          margin-top: 7px;
+          padding-top: 7px;
+          border-top: 1px solid rgba(255, 255, 255, 0.035);
+        }
+        .ep-inquiry__checkpoint strong {
+          color: rgba(255, 255, 255, 0.28);
+          font-size: 6px;
+          font-weight: 650;
+          letter-spacing: 0.12em;
+        }
+        @media (max-width: 760px) {
+          .ep-inquiry__stages {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            row-gap: 8px;
+          }
+          .ep-inquiry__checkpoint {
+            grid-template-columns: 1fr;
+            gap: 4px;
+          }
         }
         /* ==================================================
            RELATED SIGNALS
