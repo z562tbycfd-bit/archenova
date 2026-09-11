@@ -49,6 +49,7 @@ type EpistemicDemand =
   | "DESIGN";
 
 type RealityContactMode =
+  | "FORMAL"
   | "OBSERVATIONAL"
   | "EXPERIMENTAL"
   | "INTERVENTIONAL"
@@ -62,6 +63,53 @@ type IntentModel = {
   epistemicDemand: EpistemicDemand;
   mustAnswer: string[];
   mustNotAssume: string[];
+};
+
+type ClaimType =
+  | "FORMAL / MATHEMATICAL"
+  | "DESCRIPTIVE / EMPIRICAL"
+  | "CAUSAL / MECHANISTIC"
+  | "COMPARATIVE"
+  | "PREDICTIVE"
+  | "ENGINEERING / CONSTRUCTIVE"
+  | "CLINICAL / INTERVENTIONAL"
+  | "INSTITUTIONAL"
+  | "NORMATIVE"
+  | "MIXED"
+  | "UNKNOWN";
+
+type ValidationMode =
+  | "FORMAL VERIFICATION"
+  | "OBSERVATIONAL DISCRIMINATION"
+  | "EXPERIMENTAL REPLICATION"
+  | "INTERVENTIONAL TEST"
+  | "ENGINEERING VERIFICATION"
+  | "CLINICAL VALIDATION"
+  | "INSTITUTIONAL EVALUATION"
+  | "COMPARATIVE BENCHMARK"
+  | "PROSPECTIVE VALIDATION";
+
+type ContextRole =
+  | "PRIMARY"
+  | "SUPPORTING"
+  | "COMPETING"
+  | "BACKGROUND"
+  | "WEAKLY RELATED";
+
+type EpistemicParse = {
+  object: string;
+  claimType: ClaimType;
+  claimBasis: string[];
+  validationModes: ValidationMode[];
+  disconfirmationMode: string;
+  evidenceNeeded: string[];
+  contextPolicy: string;
+};
+
+type ContextAssessment = {
+  signalId: string;
+  role: ContextRole;
+  score: number;
 };
 
 type RealityModel = {
@@ -115,6 +163,8 @@ type IntelligenceObject = {
   evidenceStrength: EvidenceStrength;
   inquiry: InquiryState;
   intentModel: IntentModel;
+  epistemicParse: EpistemicParse;
+  contextAssessment: ContextAssessment[];
   realityModel: RealityModel;
 };
 
@@ -648,80 +698,416 @@ function queryKindFromIntent(intent: IntentModel): QueryKind {
   }
 }
 
-function buildRealityModel(
+function findPrimarySignal(
   query: string,
-  relevant: SignalItem[],
-): RealityModel {
-  const corpus = normalize(
-    [
-      query,
-      ...relevant.slice(0, 3).flatMap((signal) => [
-        signal.title,
-        signal.summary,
-        signal.category,
-      ]),
-    ].join(" "),
+  signals: SignalItem[],
+): SignalItem | null {
+  const intentTarget = normalize(
+    query.includes(":")
+      ? query.slice(query.indexOf(":") + 1)
+      : query,
   );
 
-  const has = (pattern: RegExp) => pattern.test(corpus);
+  const exact = signals.find((signal) => {
+    const title = normalize(signal.title);
+    return Boolean(
+      intentTarget &&
+      title &&
+      (intentTarget.includes(title) || title.includes(intentTarget)),
+    );
+  });
 
-  if (has(/cosmolog|astronom|galax|universe|dark energy|dark matter|hubble|cmb|supernova|desi|redshift|teleparallel|gravity|black hole|star|exoplanet|solar/)) {
+  if (exact) {
+    return exact;
+  }
+
+  const ranked = [...signals]
+    .map((signal) => ({ signal, score: scoreSignal(query, signal) }))
+    .sort((a, b) => b.score - a.score);
+
+  return ranked[0]?.score > 0 ? ranked[0].signal : null;
+}
+
+function parseEpistemicStructure(
+  query: string,
+  intent: IntentModel,
+  primarySignal: SignalItem | null,
+): EpistemicParse {
+  // Parse the current epistemic object BEFORE importing conversation history
+  // or semantically adjacent signals. This prevents context from redefining
+  // what the user is actually asking about.
+  const primaryCorpus = normalize([
+    intent.target,
+    query,
+    primarySignal?.title ?? "",
+    primarySignal?.summary ?? "",
+    primarySignal?.category ?? "",
+  ].join(" "));
+
+  const has = (pattern: RegExp) => pattern.test(primaryCorpus);
+
+  const formal = has(/\b(derive|derived|derivation|proof|prove|theorem|lemma|axiom|formalism|mathematical|equation|counting|binary sequence|hilbert space|operator|born rule|symmetry|topolog|algebra|geometry|combinator|analytic|exact solution)\b/);
+  const empirical = has(/\b(observ|measur|dataset|data|survey|detector|detected|sample|cohort|trial|bao|cmb|supernova|desi|redshift|image|spectr|experimentally observed|reported measurement)\b/);
+  const experimental = has(/\b(experiment|experimental|laboratory|lab |prototype|fabricat|synthesi[sz]|device|bench|controlled test|demonstrat)\b/);
+  const causal = intent.primaryIntent === "CAUSAL" || has(/\b(cause|causal|mechanism|mediates?|drives?|induces?|leads to|pathway|necessary|sufficient)\b/);
+  const engineering = intent.primaryIntent === "DESIGN" || has(/\b(engineer|architecture|device|system|hardware|software|manufactur|infrastructure|reactor|battery|memristor|circuit|robot|sensor|deployment|reliability|fault|failure mode)\b/);
+  const clinical = has(/\b(patient|clinical|disease|tumou?r|cancer|therapy|therapeut|drug|vaccine|treatment|survival|endpoint|adverse event|cardiac|glioma)\b/);
+  const institutional = has(/\b(policy|law|legal|governance|institution|regulat|government|contract|market design|public policy|compliance|legislation)\b/);
+  const predictive = intent.primaryIntent === "FORECAST" || has(/\b(predict|forecast|projection|scenario|future outcome|prospective)\b/);
+  const comparative = intent.primaryIntent === "COMPARE";
+  const normative = has(/\b(ought|ethical|ethics|fair|justice|legitimate|normative|rights|should be allowed|should be prohibited)\b/);
+
+  let claimType: ClaimType = "UNKNOWN";
+  const basis: string[] = [];
+  const modes: ValidationMode[] = [];
+  const needed: string[] = [];
+  let disconfirmationMode =
+    "Identify an observation, derivation failure, benchmark, or outcome that would make the central claim materially weaker.";
+
+  if (formal && !empirical && !experimental && !engineering && !clinical && !institutional) {
+    claimType = "FORMAL / MATHEMATICAL";
+    basis.push("formal structure", "derivation", "assumption set");
+    modes.push("FORMAL VERIFICATION");
+    needed.push(
+      "explicit assumptions",
+      "valid derivation",
+      "recovery of the claimed structure",
+      "independent formal reproduction",
+    );
+    disconfirmationMode =
+      "The claim weakens if the derivation imports hidden assumptions, fails to recover the stated structure, is internally inconsistent, or cannot be independently reproduced.";
+  } else if (clinical) {
+    claimType = causal ? "CLINICAL / INTERVENTIONAL" : "CLINICAL / INTERVENTIONAL";
+    basis.push("clinical evidence");
+    if (causal) basis.push("mechanism");
+    modes.push("CLINICAL VALIDATION");
+    if (causal) modes.push("INTERVENTIONAL TEST");
+    needed.push(
+      "prespecified clinically meaningful endpoints",
+      "safety evidence",
+      "appropriate comparator or counterfactual",
+      "external validation or replication",
+    );
+    disconfirmationMode =
+      "The claim weakens if the effect fails on prespecified endpoints, disappears under an appropriate comparator, or cannot be reproduced without unacceptable safety costs.";
+  } else if (engineering) {
+    claimType = "ENGINEERING / CONSTRUCTIVE";
+    basis.push("constructive capability", "operating constraints");
+    modes.push("ENGINEERING VERIFICATION");
+    if (experimental) modes.push("EXPERIMENTAL REPLICATION");
+    needed.push(
+      "measured functional performance",
+      "defined operating envelope",
+      "failure and recovery tests",
+      "independent verification",
+    );
+    disconfirmationMode =
+      "The claim weakens if the required function cannot be reproduced across the stated operating envelope or if failure containment and recovery do not meet the claimed boundary.";
+  } else if (institutional) {
+    claimType = normative ? "NORMATIVE" : "INSTITUTIONAL";
+    basis.push("institutional behavior", "incentives", "outcomes");
+    modes.push("INSTITUTIONAL EVALUATION");
+    needed.push(
+      "credible counterfactual",
+      "observed actor and system outcomes",
+      "unintended effects",
+      "distributional and context sensitivity",
+    );
+    disconfirmationMode =
+      "The claim weakens if real actors respond differently from the mechanism assumed, benefits disappear under credible comparison, or adverse second-order effects dominate.";
+  } else if (causal) {
+    claimType = "CAUSAL / MECHANISTIC";
+    basis.push("mechanism", "temporal or structural dependence");
+    modes.push(empirical ? "OBSERVATIONAL DISCRIMINATION" : "EXPERIMENTAL REPLICATION");
+    if (experimental) modes.push("INTERVENTIONAL TEST");
+    needed.push(
+      "mechanism-specific prediction",
+      "credible alternative explanation",
+      "discriminating evidence",
+      "temporal or interventional support where feasible",
+    );
+    disconfirmationMode =
+      "The causal claim weakens if a credible alternative explains the same observations, temporal ordering fails, or intervention/discrimination does not change the predicted outcome.";
+  } else if (comparative) {
+    claimType = "COMPARATIVE";
+    basis.push("common decision criteria");
+    modes.push("COMPARATIVE BENCHMARK");
+    needed.push(
+      "equivalent criteria",
+      "comparable evidence maturity",
+      "explicit objective function",
+      "ranking reversal condition",
+    );
+    disconfirmationMode =
+      "The ranking should reverse when a competing option outperforms on the predefined criteria using comparable evidence.";
+  } else if (predictive) {
+    claimType = "PREDICTIVE";
+    basis.push("initial conditions", "transition assumptions");
+    modes.push("PROSPECTIVE VALIDATION");
+    needed.push(
+      "predefined forecast horizon",
+      "measurable prediction",
+      "assumption boundary",
+      "prospective outcome",
+    );
+    disconfirmationMode =
+      "The forecast weakens when the prespecified outcome fails, a transition assumption breaks, or a new bottleneck invalidates the projected trajectory.";
+  } else if (formal && empirical) {
+    claimType = "MIXED";
+    basis.push("formal model", "observational fit");
+    modes.push("FORMAL VERIFICATION", "OBSERVATIONAL DISCRIMINATION");
+    needed.push(
+      "internal model consistency",
+      "traceable measurement fit",
+      "out-of-sample or independent discrimination",
+      "comparison against credible alternatives",
+    );
+    disconfirmationMode =
+      "The claim weakens if the formal model is inconsistent, the fit does not survive independent probes, or a simpler alternative predicts the observations equally well or better.";
+  } else if (experimental) {
+    claimType = "DESCRIPTIVE / EMPIRICAL";
+    basis.push("experimental observation");
+    modes.push("EXPERIMENTAL REPLICATION");
+    needed.push(
+      "traceable measurements",
+      "controls",
+      "replication",
+      "boundary conditions",
+    );
+    disconfirmationMode =
+      "The claim weakens if the effect disappears under controls, replication, or modest changes in the reported boundary conditions.";
+  } else if (empirical) {
+    claimType = "DESCRIPTIVE / EMPIRICAL";
+    basis.push("observation", "measurement");
+    modes.push("OBSERVATIONAL DISCRIMINATION");
+    needed.push(
+      "traceable measurements",
+      "measurement uncertainty",
+      "independent observations",
+      "competing interpretation",
+    );
+    disconfirmationMode =
+      "The claim weakens if independent observations fail to reproduce the effect or measurement/model dependence explains the reported pattern.";
+  } else if (normative) {
+    claimType = "NORMATIVE";
+    basis.push("values", "constraints", "consequences");
+    modes.push("INSTITUTIONAL EVALUATION");
+    needed.push(
+      "explicit value premises",
+      "affected-party consequences",
+      "rights and constraint analysis",
+      "institutional feasibility",
+    );
+    disconfirmationMode =
+      "A normative recommendation should change when its stated premises fail, consequences violate hard constraints, or a less harmful alternative achieves the same objective.";
+  } else {
+    claimType = "UNKNOWN";
+    basis.push("reported claim");
+    modes.push("OBSERVATIONAL DISCRIMINATION");
+    needed.push(
+      "clear claim statement",
+      "direct evidence",
+      "credible alternative",
+      "explicit failure condition",
+    );
+  }
+
+  return {
+    object: primarySignal?.title || intent.target || query.trim(),
+    claimType,
+    claimBasis: basis,
+    validationModes: [...new Set(modes)],
+    disconfirmationMode,
+    evidenceNeeded: needed,
+    contextPolicy:
+      "Parse the current question and primary object independently first. Previous dialogue and adjacent signals may enrich the answer only after relevance is established; they must not redefine the current claim type or validation mode.",
+  };
+}
+
+function buildRealityModel(
+  epistemic: EpistemicParse,
+): RealityModel {
+  const modes: RealityContactMode[] = [];
+  const addMode = (mode: RealityContactMode) => {
+    if (!modes.includes(mode)) modes.push(mode);
+  };
+
+  epistemic.validationModes.forEach((mode) => {
+    if (mode === "FORMAL VERIFICATION") addMode("FORMAL");
+    if (mode === "OBSERVATIONAL DISCRIMINATION") addMode("OBSERVATIONAL");
+    if (mode === "EXPERIMENTAL REPLICATION") addMode("EXPERIMENTAL");
+    if (mode === "INTERVENTIONAL TEST" || mode === "CLINICAL VALIDATION") addMode("INTERVENTIONAL");
+    if (mode === "ENGINEERING VERIFICATION") addMode("CONSTRUCTIVE");
+    if (mode === "INSTITUTIONAL EVALUATION") addMode("INSTITUTIONAL");
+    if (mode === "COMPARATIVE BENCHMARK") addMode("OBSERVATIONAL");
+    if (mode === "PROSPECTIVE VALIDATION") addMode("OBSERVATIONAL");
+  });
+
+  const domain = epistemic.claimType;
+
+  if (epistemic.claimType === "FORMAL / MATHEMATICAL") {
     return {
-      domain: "COSMOLOGY / ASTRONOMY",
-      contactModes: ["OBSERVATIONAL"],
+      domain,
+      contactModes: modes,
       realityQuestion:
-        "Which independent observation would produce measurably different outcomes under the competing cosmological or astrophysical models?",
+        "Does the claimed result follow from explicit assumptions without hidden imports, recover the stated structure, and survive independent formal verification or reproduction?",
       decisiveEvidence:
-        "Independent observational discrimination across datasets or probes, including out-of-sample predictions and cross-probe consistency, rather than intervention on the underlying cosmic variable.",
+        "Assumption audit, derivational validity, consistency, equivalence or non-equivalence analysis, and independent formal reproduction. Physical observation becomes decisive only if the formal result claims a distinct empirical consequence.",
       inappropriateTest:
-        "Direct intervention on the cosmological variable is generally unavailable; requiring experimental manipulation would mis-specify the reality test.",
+        "Do not demand a physical intervention or astronomical observation for a purely formal claim before establishing whether it makes a distinct empirical prediction.",
     };
   }
 
-  if (has(/clinical|patient|disease|tumou?r|cancer|vaccine|therapy|therapeut|medical|medicine|drug|immune|cardiac|brain|glioma|biolog/)) {
+  if (epistemic.claimType === "MIXED") {
     return {
-      domain: "MEDICINE / BIOLOGY",
-      contactModes: ["EXPERIMENTAL", "INTERVENTIONAL"],
+      domain,
+      contactModes: modes,
       realityQuestion:
-        "Does a controlled biological or clinical intervention change the prespecified endpoint while safety, confounding, and replication boundaries are respected?",
+        "Is the formal model internally valid, and does it make discriminating predictions that survive independent observations or measurements beyond the context used to construct or fit it?",
       decisiveEvidence:
-        "Mechanistic evidence plus controlled intervention, clinically meaningful endpoints where applicable, safety evidence, and independent replication or external validation.",
+        "Formal consistency plus independent observational discrimination, cross-context validation, and comparison against credible alternatives.",
       inappropriateTest: null,
     };
   }
 
-  if (has(/engineer|device|prototype|system|hardware|software|manufactur|infrastructure|reactor|battery|fiber|memristor|circuit|robot|sensor|material|semiconductor/)) {
+  if (epistemic.claimType === "ENGINEERING / CONSTRUCTIVE") {
     return {
-      domain: "ENGINEERING / TECHNOLOGY",
-      contactModes: ["CONSTRUCTIVE", "EXPERIMENTAL"],
+      domain,
+      contactModes: modes,
       realityQuestion:
-        "Can the minimum architecture reproduce the required function across defined operating conditions, failure modes, and independent verification?",
+        "Can the minimum architecture reproducibly deliver the claimed function across its stated operating envelope, failure modes, and recovery conditions?",
       decisiveEvidence:
-        "Prototype or system-level measurements, stress and failure testing, reproducibility, recovery behavior, and performance under explicit operating boundaries.",
+        "System-level measurements, boundary and stress tests, failure containment, recovery behavior, reproducibility, and independent verification.",
       inappropriateTest: null,
     };
   }
 
-  if (has(/policy|law|legal|governance|institution|regulat|market|econom|capital|contract|government|societ|public/)) {
+  if (epistemic.claimType === "CLINICAL / INTERVENTIONAL") {
     return {
-      domain: "INSTITUTIONAL / POLICY",
-      contactModes: ["INSTITUTIONAL", "OBSERVATIONAL", "INTERVENTIONAL"],
+      domain,
+      contactModes: modes,
       realityQuestion:
-        "Do actual actors, incentives, and outcomes behave as predicted under a pilot, natural experiment, institutional comparison, or policy change?",
+        "Does the intervention change a prespecified clinically meaningful outcome under an appropriate comparator while safety and external validity remain acceptable?",
       decisiveEvidence:
-        "Observed behavioral and institutional outcomes, credible counterfactual comparison, unintended effects, distributional consequences, and evidence that survives context differences.",
+        "Mechanistic support where relevant, controlled clinical outcomes, safety, appropriate comparison, replication, and external validation.",
+      inappropriateTest: null,
+    };
+  }
+
+  if (epistemic.claimType === "INSTITUTIONAL" || epistemic.claimType === "NORMATIVE") {
+    return {
+      domain,
+      contactModes: modes,
+      realityQuestion:
+        "Do real actors, incentives, constraints, and outcomes behave as assumed, and do the resulting consequences remain acceptable under credible comparison?",
+      decisiveEvidence:
+        "Observed institutional behavior, credible counterfactuals, unintended effects, distributional consequences, and context-sensitive validation.",
+      inappropriateTest: null,
+    };
+  }
+
+  if (epistemic.claimType === "CAUSAL / MECHANISTIC") {
+    return {
+      domain,
+      contactModes: modes,
+      realityQuestion:
+        "Which observation, experiment, intervention, or natural experiment would produce different outcomes under the preferred mechanism and its strongest credible alternative?",
+      decisiveEvidence:
+        "Mechanism-specific predictions, temporal structure, alternative-explanation control, and intervention or discriminating observation where feasible.",
+      inappropriateTest: null,
+    };
+  }
+
+  if (epistemic.claimType === "PREDICTIVE") {
+    return {
+      domain,
+      contactModes: modes,
+      realityQuestion:
+        "Does the prespecified prediction survive prospectively over the stated horizon, including the conditions that were declared capable of invalidating it?",
+      decisiveEvidence:
+        "Prospective outcomes, calibrated uncertainty, explicit transition assumptions, and recorded forecast failures rather than retrospective reframing.",
+      inappropriateTest: null,
+    };
+  }
+
+  if (epistemic.claimType === "COMPARATIVE") {
+    return {
+      domain,
+      contactModes: modes,
+      realityQuestion:
+        "Do the alternatives remain differently ranked when evaluated under the same objective, constraints, evidence maturity, and outcome criteria?",
+      decisiveEvidence:
+        "Symmetric evidence, common benchmarks, explicit objectives, and a defined reversal condition.",
       inappropriateTest: null,
     };
   }
 
   return {
-    domain: "GENERAL SCIENTIFIC / MIXED",
-    contactModes: ["OBSERVATIONAL", "EXPERIMENTAL"],
+    domain,
+    contactModes: modes.length ? modes : ["OBSERVATIONAL"],
     realityQuestion:
-      "What feasible observation or experiment would most strongly discriminate the preferred interpretation from its strongest credible alternative?",
+      "What feasible measurement, replication, or discriminating observation would most strongly separate the current claim from its strongest credible alternative?",
     decisiveEvidence:
-      "A discriminating observation or experiment with traceable measurements, explicit failure conditions, and independent confirmation appropriate to the domain.",
+      "Direct evidence with traceable measurements, explicit uncertainty, a credible alternative, and a result capable of changing the conclusion.",
     inappropriateTest: null,
+  };
+}
+
+function isLikelyFollowUp(query: string): boolean {
+  const q = normalize(query);
+  const tokenCount = words(query).length;
+  return (
+    tokenCount <= 8 &&
+    /\b(this|that|it|they|those|these|above|previous|earlier|same|result|claim|signal|why|how about|what about|then)\b/.test(q)
+  );
+}
+
+function assessContextRole(
+  signal: SignalItem,
+  primary: SignalItem | null,
+  epistemic: EpistemicParse,
+  query: string,
+): ContextAssessment {
+  if (primary && signal.id === primary.id) {
+    return { signalId: signal.id, role: "PRIMARY", score: 100 };
+  }
+
+  const lexical = scoreSignal(query, signal);
+  const primaryWords = new Set(words([
+    epistemic.object,
+    primary?.title ?? "",
+    primary?.summary ?? "",
+  ].join(" ")));
+  const candidateWords = words([
+    signal.title,
+    signal.summary,
+    signal.category,
+  ].join(" "));
+  const shared = candidateWords.filter((word) => primaryWords.has(word)).length;
+
+  const candidateText = normalize(`${signal.title} ${signal.summary}`);
+  const competingMarkers = /\b(alternative|versus|comparison|competing|constraints on|challenge|contradict|different model)\b/.test(candidateText);
+
+  if (lexical >= 12 && shared >= 2) {
+    return {
+      signalId: signal.id,
+      role: competingMarkers ? "COMPETING" : "SUPPORTING",
+      score: lexical + shared * 2,
+    };
+  }
+
+  if (lexical >= 6 && shared >= 1) {
+    return {
+      signalId: signal.id,
+      role: competingMarkers ? "COMPETING" : "BACKGROUND",
+      score: lexical + shared,
+    };
+  }
+
+  return {
+    signalId: signal.id,
+    role: "WEAKLY RELATED",
+    score: lexical,
   };
 }
 
@@ -769,27 +1155,27 @@ function rankRelevantSignals(
   query: string,
   signals: SignalItem[],
   previousMessages: DialogueMessage[],
+  epistemic: EpistemicParse,
+  primarySignal: SignalItem | null,
 ) {
-  const ranked = [...signals]
-    .map((signal) => ({
-      signal,
-      score: scoreSignal(query, signal),
-    }))
-    .sort((a, b) => b.score - a.score);
+  const assessments = signals.map((signal) => ({
+    signal,
+    assessment: assessContextRole(signal, primarySignal, epistemic, query),
+  }));
 
-  let relevant = ranked
-    .filter((item) => item.score > 0)
+  let relevant = assessments
+    .filter(({ assessment }) => assessment.role !== "WEAKLY RELATED")
+    .sort((a, b) => b.assessment.score - a.assessment.score)
     .slice(0, 5)
-    .map((item) => item.signal);
+    .map(({ signal }) => signal);
 
-  /*
-   * Follow-up questions may contain little lexical context.
-   * In that case, reuse only evidence already attached to the
-   * immediately preceding Episteme responses.
-   *
-   * We intentionally DO NOT fall back to arbitrary top signals.
-   */
-  if (relevant.length === 0) {
+  if (primarySignal && !relevant.some((signal) => signal.id === primarySignal.id)) {
+    relevant = [primarySignal, ...relevant].slice(0, 5);
+  }
+
+  // Context inheritance is allowed only for a likely follow-up, and only
+  // AFTER the current question has been parsed independently.
+  if (relevant.length === 0 && isLikelyFollowUp(query)) {
     const previousSignalIds = previousMessages
       .slice(-6)
       .flatMap((message) => message.intelligence?.signalIds ?? [])
@@ -798,11 +1184,19 @@ function rankRelevantSignals(
     relevant = uniqueSignals(
       previousSignalIds
         .map((id) => signals.find((signal) => signal.id === id))
-        .filter((signal): signal is SignalItem => Boolean(signal)),
+        .filter((signal): signal is SignalItem => Boolean(signal))
+        .filter((signal) =>
+          assessContextRole(signal, primarySignal, epistemic, query).role !==
+          "WEAKLY RELATED",
+        ),
     );
   }
 
-  return relevant;
+  const selectedAssessments = relevant.map((signal) =>
+    assessContextRole(signal, primarySignal, epistemic, query),
+  );
+
+  return { relevant, contextAssessment: selectedAssessments };
 }
 
 function assessEvidenceStrength(
@@ -963,18 +1357,26 @@ function buildIntelligence(
 ): IntelligenceObject {
   const intentModel = buildIntentModel(query, mode);
   const kind = queryKindFromIntent(intentModel);
-  const relevant = rankRelevantSignals(
+  const primarySignal = findPrimarySignal(query, signals);
+  const epistemicParse = parseEpistemicStructure(
+    query,
+    intentModel,
+    primarySignal,
+  );
+  const { relevant, contextAssessment } = rankRelevantSignals(
     query,
     signals,
     previousMessages,
+    epistemicParse,
+    primarySignal,
   );
   const strength = assessEvidenceStrength(
     query,
     relevant,
   );
-  const lead = relevant[0] ?? null;
-  const second = relevant[1] ?? null;
-  const realityModel = buildRealityModel(query, relevant);
+  const lead = primarySignal ?? relevant[0] ?? null;
+  const second = relevant.find((signal) => signal.id !== lead?.id) ?? null;
+  const realityModel = buildRealityModel(epistemicParse);
   const realityTest = buildRealityTest(realityModel, intentModel, kind);
 
   const evidenceBoundary = buildEvidenceBoundary(
@@ -1281,6 +1683,8 @@ Significance layer: distinguish novelty from consequence. Ask what established b
     evidenceStrength: strength,
     inquiry,
     intentModel,
+    epistemicParse,
+    contextAssessment,
     realityModel,
   };
 }

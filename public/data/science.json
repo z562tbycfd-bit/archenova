@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-11T08:05:16.853Z",
+  "updated": "2026-09-11T08:36:17.025Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Indonesia seeks to bring back baby orangutans allegedly trafficked to India",
+      "url": "https://phys.org/news/2026-09-indonesia-baby-orangutans-allegedly-trafficked.html",
+      "summary": "Indonesian authorities are working to repatriate five baby orangutans allegedly trafficked to India, where they were found motherless in a forest, Jakarta's forestry ministry told AFP on Friday.",
+      "ts": 1789114201000,
+      "publishedAt": "2026-09-11T08:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Researchers eye AI revolution in natural disaster forecasts",
@@ -791,14 +799,6 @@
       "title": "High-fidelity k$\\cdot$p representations of first-principles electronic band structures through covariant renormalization",
       "url": "https://arxiv.org/abs/2609.11861",
       "summary": "arXiv:2609.11861v1 Announce Type: cross Abstract: The k$\\cdot$p method can be applied directly to first-principles energies and momentum matrix elements, but the resulting models converge slowly with the number of bands …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computational framework for quantum state tomography of spin ensembles",
-      "url": "https://arxiv.org/abs/2609.11868",
-      "summary": "arXiv:2609.11868v1 Announce Type: cross Abstract: We present Tomography-NMR, an open-source Python package that reconstructs quantum density matrices from spectroscopic measurement data. The package implements a complete…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

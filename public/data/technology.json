@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-11T08:05:20.262Z",
+  "updated": "2026-09-11T08:36:29.838Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: An AI tool aims to catch harder-to-detect heart attacks in EKGs",
+      "url": "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/?utm_campaign=rss",
+      "summary": "A newly approved AI tool can scan EKGs for severe heart attacks and, the company says, for rarer patterns indicating blocked arteries.",
+      "ts": 1789115400000,
+      "publishedAt": "2026-09-11T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Novartis, Novo Nordisk drug failures will likely ‘pop a hole in the balloon’ of the field",
+      "url": "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/?utm_campaign=rss",
+      "summary": "The back-to-back failures of cardiovascular drugs from Novartis and Novo Nordisk made headlines. They could also have a chilling effect across the industry.",
+      "ts": 1789115400000,
+      "publishedAt": "2026-09-11T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a public health communications consultant. Pro-vaccine advocacy needs more fun",
+      "url": "https://www.statnews.com/2026/09/11/pro-vaccine-advocacy-celebration-party/?utm_campaign=rss",
+      "summary": "“Somewhere along the way, we forgot how to celebrate vaccines,” writes public health communications consultant Adam Zimmerman.",
+      "ts": 1789115400000,
+      "publishedAt": "2026-09-11T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a thoracic surgeon in New York City. For many of my patients, Sept. 11 is still not over",
+      "url": "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/?utm_campaign=rss",
+      "summary": "“For thousands of families, the Sept. 11 attack did not end when the fires were extinguished. It simply changed form,” writes Raja Flores.",
+      "ts": 1789115400000,
+      "publishedAt": "2026-09-11T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
+      "url": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
+      "summary": "On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s o…",
+      "ts": 1789113600000,
+      "publishedAt": "2026-09-11T08:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "LatConnect 60 Expands India Market Presence for SWIRSAT With NSIL Agreement and GeoSyze Partnership",
@@ -766,51 +811,6 @@
       "ts": 1789013100000,
       "publishedAt": "2026-09-10T04:05:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Dust Storm Sweeps Over Mali",
-      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
-      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Revisiting the Aerts-Broekaert-Smets quantum model of the liar paradox",
-      "url": "https://arxiv.org/abs/2609.09228",
-      "summary": "arXiv:2609.09228v1 Announce Type: new Abstract: The quantum model of the two-sentence liar paradox proposed by Aerts, Broekaert, and Smets is an early example of the use of quantum formalism to describe cognitive dynamic…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Persistence of n-Species Lotka-Volterra Models with Periodic Pulses",
-      "url": "https://arxiv.org/abs/2609.09343",
-      "summary": "arXiv:2609.09343v1 Announce Type: new Abstract: Periodic impulsive interventions arise naturally in the management of biological populations, including chemotherapy, pesticide application, and infectious-disease treatmen…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Population Ecology of Tunes",
-      "url": "https://arxiv.org/abs/2609.09501",
-      "summary": "arXiv:2609.09501v1 Announce Type: new Abstract: How cultural repertoires maintain diversity under selection is a fundamental question in cultural evolution. We address this using thirteen years of weekly popularity data …",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multi-Task Bacterial Colony Detection and Classification Using YOLOv8 with Edge Optimization for Resource-Constrained Deployment",
-      "url": "https://arxiv.org/abs/2609.09818",
-      "summary": "arXiv:2609.09818v1 Announce Type: new Abstract: Manual counting and classification of bacterial colonies are critical yet labor-intensive tasks in microbiology, prone to human error particularly on densely populated plat…",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

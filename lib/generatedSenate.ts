@@ -123,6 +123,21 @@ export const senateAgenda =
   {
     "id": "agenda-9",
     "rank": 9,
+    "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
+    "slug": "space-a-team-of-teams-like-never-before-rehearsing-a-unique-launch-at-esa-mission-cont",
+    "category": "Space",
+    "source": "ESA",
+    "score": 9.4,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-10",
+    "rank": 10,
     "title": "LatConnect 60 Expands India Market Presence for SWIRSAT With NSIL Agreement and GeoSyze Partnership",
     "slug": "space-latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-",
     "category": "Space",
@@ -136,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "Discovering Subtypes of Neurodegenerative Progression with a Scalable Connectome-Constrained Dynamic Model",
     "slug": "ai-discovering-subtypes-of-neurodegenerative-progression-with-a-scalable-connectome",
     "category": "AI",
@@ -151,8 +166,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-12",
+    "rank": 12,
     "title": "The quantum harmonic oscillator from binary sequences",
     "slug": "ai-the-quantum-harmonic-oscillator-from-binary-sequences",
     "category": "AI",
@@ -162,21 +177,6 @@ export const senateAgenda =
     "stage": "Open Deliberation",
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": "Critical emergence of quantum theory, spacetime and gravity from generalised trace dynamics",
-    "slug": "ai-critical-emergence-of-quantum-theory-spacetime-and-gravity-from-generalised-trac",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   }
