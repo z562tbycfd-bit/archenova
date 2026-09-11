@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-11T15:53:35.544Z",
+  "updated": "2026-09-11T16:11:48.346Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How diaspora groups in the US are responding to disasters in Nepal, Colombia, Venezuela and other homelands",
+      "url": "https://phys.org/news/2026-09-diaspora-groups-disasters-nepal-colombia.html",
+      "summary": "A string of major disasters in 2026 have had devastating consequences. Earthquakes in Venezuela and Colombia and floods and mudslides in Nepal have killed tens of thousands of people and injured many more. Countless peop…",
+      "ts": 1789142403000,
+      "publishedAt": "2026-09-11T16:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-generated images may support conservation, but real-world data remain essential",
+      "url": "https://phys.org/news/2026-09-ai-generated-images-real-world.html",
+      "summary": "New research finds there is no substitute for real-world observations, but that—under the right circumstances—AI-generated images can be used to improve the performance of computer models used for species identification …",
+      "ts": 1789142401000,
+      "publishedAt": "2026-09-11T16:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Chihuahua dogs are part coyote—this might help explain their 'small but mighty' reputation",
@@ -783,22 +799,6 @@
       "title": "Surface gravity wave-mean flow interaction with comparable spatial scales. Part II: two-way coupling and wave-wave interactions",
       "url": "https://arxiv.org/abs/2609.11631",
       "summary": "arXiv:2609.11631v1 Announce Type: new Abstract: We consider narrow-band deep-water surface gravity waves propagating above a background flow whose spatial scale is comparable to the wavelength. We focus on the regime whe…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Raman lasers beam profile inhomogeneities on a spaceborne quantum accelerometer",
-      "url": "https://arxiv.org/abs/2609.11634",
-      "summary": "arXiv:2609.11634v1 Announce Type: new Abstract: We report on the study of the impact of laser beam profile inhomogeneities on the acceleration measurements of a quantum accelerometer in space. This sensor uses a low ball…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Questioning your brilliance in physics: Differential shifts in fixed mindsets by grade and gender",
-      "url": "https://arxiv.org/abs/2609.11659",
-      "summary": "arXiv:2609.11659v1 Announce Type: new Abstract: Students' domain-specific mindsets and their beliefs about their capacity to improve through effort play a crucial role in shaping their experiences and decisions to persis…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

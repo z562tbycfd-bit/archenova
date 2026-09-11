@@ -76,6 +76,7 @@ type ClaimType =
   | "INSTITUTIONAL"
   | "NORMATIVE"
   | "MIXED"
+  | "INFORMATIONAL / OPERATIONAL"
   | "UNKNOWN";
 
 type ValidationMode =
@@ -104,6 +105,32 @@ type EpistemicParse = {
   disconfirmationMode: string;
   evidenceNeeded: string[];
   contextPolicy: string;
+};
+
+type SignalGenre =
+  | "SCIENTIFIC RESULT"
+  | "SCIENTIFIC HYPOTHESIS"
+  | "RESEARCH PREPRINT"
+  | "CLINICAL RESULT"
+  | "ENGINEERING DEMONSTRATION"
+  | "POLICY / INSTITUTIONAL ACTION"
+  | "OPERATIONAL ANNOUNCEMENT"
+  | "EVENT ANNOUNCEMENT"
+  | "COMMENTARY / ANALYSIS"
+  | "FORECAST"
+  | "UNKNOWN";
+
+type EpistemicClaimIdentity = {
+  signalId: string;
+  signalTitle: string;
+  genre: SignalGenre;
+  coreClaim: string;
+  claimType: ClaimType;
+  evidenceType: string[];
+  baseline: string;
+  reportedResult: string;
+  implication: string;
+  nonImplication: string;
 };
 
 type ContextAssessment = {
@@ -270,6 +297,7 @@ type IntelligenceObject = {
   realityModel: RealityModel;
   epistemicContract: EpistemicContract;
   evidenceAudit: EvidenceAudit;
+  claimIdentity: EpistemicClaimIdentity | null;
 };
 
 type DialogueMessage = {
@@ -859,7 +887,7 @@ function analyzeSemanticInput(
     /\b(media (?:are|is) invited|news conference|press conference|briefing|to discuss|upcoming return|will discuss|scheduled for|beginning at|coverage begins|invites media|signing ceremony|event notice|livestream|live coverage)\b/.test(corpus);
 
   const empiricalEvidenceContext =
-    /\b(measured|measurement|observed|observation|detected|detector|sampled|sampling|survey|cohort|trial|experiment(?:al)?|spectr|imaging|dataset analysis|analy[sz]ed data|quantified|statistically|confidence interval|error bar|uncertainty|replication|reproduced)\b/.test(corpus);
+    /\b(measured|measuring|measurement|observed|observation|detected|detector|sampled|sampling|survey|cohort|trial|experiment(?:al)?|spectr|imaging|dataset analysis|analy[sz]ed data|quantified|statistically|confidence interval|error bar|uncertainty|replication|reproduced|genetic research|genomic|genome|genetic evidence|dna sequence|sequencing|ancestry analysis)\b/.test(corpus);
 
   return {
     institutionalContext,
@@ -958,17 +986,17 @@ function parseEpistemicStructure(
     !clinical &&
     !predictive
   ) {
-    claimType = "UNKNOWN";
+    claimType = "INFORMATIONAL / OPERATIONAL";
     basis.push("informational or operational announcement");
     modes.push("OBSERVATIONAL DISCRIMINATION");
     needed.push(
-      "clear substantive claim beyond the announcement",
-      "traceable source and event details",
-      "evidence relevant to any broader inference",
-      "explicit boundary between notice and result",
+      "official or otherwise traceable source",
+      "event, mission, or operational details",
+      "confirmation that the announced event or status occurred as stated",
+      "separate evidence for any broader scientific or operational conclusion",
     );
     disconfirmationMode =
-      "Do not infer a scientific or operational result from an announcement alone; revise only when substantive evidence or a completed outcome is available.";
+      "The announcement-level claim weakens if the source is not authentic, the event or status does not occur as stated, or later official information contradicts it.";
   } else if (institutional) {
     claimType = normative ? "NORMATIVE" : "INSTITUTIONAL";
     basis.push("institutional behavior", "incentives", "outcomes");
@@ -1413,6 +1441,19 @@ function buildContractDialogueGuidance(
         ],
       };
 
+    case "INFORMATIONAL / OPERATIONAL":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a changed, cancelled, superseded, or incorrectly reported event or operational status—not as a competing scientific mechanism.",
+        adversarialCheck:
+          "Verify source authenticity, timing, event or mission status, and later official updates. Do not manufacture a measured effect, causal mechanism, or scientific result from a notice.",
+        continueInquiry: [
+          "Which official source confirms the announcement or current mission status?",
+          "Did the announced event or operational status occur as stated?",
+          "Has a separate substantive result been reported that should be evaluated under a scientific evidence contract?",
+        ],
+      };
+
     case "DESCRIPTIVE / EMPIRICAL":
     case "UNKNOWN":
     default:
@@ -1745,6 +1786,45 @@ function buildEpistemicContract(
 
     case "DESCRIPTIVE / EMPIRICAL":
     case "UNKNOWN":
+    case "INFORMATIONAL / OPERATIONAL":
+      return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
+        claimType: epistemic.claimType,
+        validationModes: epistemic.validationModes,
+        evidenceRequirements: [
+          "official or otherwise traceable source",
+          "event, mission, or operational details",
+          "confirmation that the announced event or status occurred as stated",
+          "separate evidence for any broader scientific or operational conclusion",
+        ],
+        disconfirmationConditions: [
+          "the source is not authentic or traceable",
+          "the announced event, mission status, or operational detail does not occur as stated",
+          "later official information materially contradicts the announcement",
+          "a broader scientific conclusion is inferred without separate substantive evidence",
+        ],
+        uncertaintyBoundary: [
+          "an announcement is not a scientific result",
+          "scheduled activity is not completed activity",
+          "mission communication is not evidence of scientific success",
+          ...sharedUncertainty,
+        ],
+        realityTest:
+          "Is the source authentic, are the announced event or operational details confirmed, and is any broader conclusion supported by separate substantive evidence?",
+        correctionRule:
+          "If the event, mission status, timing, or operational detail changes, update the announcement-level claim to the latest verified status. Do not convert the notice into a scientific conclusion unless separate evidence is supplied.",
+        nextAction:
+          "Verify the official source and current event or mission status; if a substantive result is later claimed, evaluate that result under its own claim-specific evidence contract.",
+        demonstrationThreshold: [
+          "the source is traceable",
+          "the announced event or operational status is verified",
+          "material details are consistent with current official information",
+          "broader conclusions remain separated from the notice itself",
+        ],
+        predictionDesign:
+          "No scientific prediction is required for the announcement itself. The relevant check is whether the announced event or operational status occurs as stated; substantive results require a separate claim and validation path.",
+      };
+
     default:
       return {
         ...buildContractDialogueGuidance(epistemic.claimType),
@@ -2353,6 +2433,8 @@ function signalSentences(signal: SignalItem) {
     .replace(/\bi\.e\./gi, `i${DOT}e${DOT}`)
     .replace(/\bet al\./gi, `et al${DOT}`)
     .replace(/\bvs\./gi, `vs${DOT}`)
+    .replace(/\b(Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\./gi, (_match, month: string) => `${month}${DOT}`)
+    .replace(/\b(Dr|Prof|Mr|Mrs|Ms|No|Fig|Eq)\./g, (_match, abbr: string) => `${abbr}${DOT}`)
     .replace(/(\d)\.(\d)/g, `$1${DOT}$2`)
     .replace(/\b([A-Z])\.(?=\s*[A-Z][a-z])/g, `$1${DOT}`)
     .replace(/\b([A-Z])\.([A-Z])\.(?=\s|$)/g, `$1${DOT}$2${DOT}`);
@@ -2385,11 +2467,217 @@ function extractFormalBasis(reportedChange: string) {
   return fromMatch ? stripTerminalPunctuation(fromMatch[1]) : "the stated construction";
 }
 
+
+function neutralIntentForSignal(signal: SignalItem): IntentModel {
+  return {
+    primaryIntent: "EXPLAIN",
+    target: signal.title,
+    requestedOutcome: "Identify the signal's stable claim identity from the signal itself.",
+    epistemicDemand: "DESCRIPTION",
+    mustAnswer: ["What is the signal actually claiming?"],
+    mustNotAssume: [
+      "Do not let a later follow-up question redefine the signal's claim type.",
+      "Do not infer a scientific result from an announcement alone.",
+    ],
+  };
+}
+
+function classifySignalGenre(signal: SignalItem): SignalGenre {
+  const corpus = normalize([signal.title, signal.summary, signal.category].join(" "));
+  const guard = analyzeSemanticInput(signal.title, neutralIntentForSignal(signal), signal);
+
+  if (guard.announcementLike) {
+    if (/\b(media|news conference|press conference|briefing|livestream|coverage|event)\b/.test(corpus)) {
+      return "EVENT ANNOUNCEMENT";
+    }
+    return "OPERATIONAL ANNOUNCEMENT";
+  }
+  if (guard.institutionalContext) return "POLICY / INSTITUTIONAL ACTION";
+  if (/\b(patient|clinical|therapy|treatment|trial|survival|disease|cancer|vaccine|drug)\b/.test(corpus)) return "CLINICAL RESULT";
+  if (/\b(prototype|device|engineer|engineering|demonstrat|fabricat|circuit|hardware|system performance)\b/.test(corpus)) return "ENGINEERING DEMONSTRATION";
+  if (/\b(forecast|predict|projection|prospective|scenario)\b/.test(corpus)) return "FORECAST";
+  if (/\b(arxiv|preprint|we derive|we propose|formalism|theorem|mathematical)\b/.test(corpus)) return "RESEARCH PREPRINT";
+  if (/\b(hypothesis|may explain|might explain|could explain|proposed mechanism)\b/.test(corpus)) return "SCIENTIFIC HYPOTHESIS";
+  if (/\b(research|study|scientists?|researchers?|genetic|genomic|measur|observ|discover|found|analysis|data)\b/.test(corpus)) return "SCIENTIFIC RESULT";
+  if (/\b(commentary|perspective|opinion|explainer)\b/.test(corpus)) return "COMMENTARY / ANALYSIS";
+  return "UNKNOWN";
+}
+
+function chooseRoleSentence(
+  sentences: string[],
+  patterns: RegExp[],
+  excluded: string[] = [],
+): string {
+  for (const sentence of sentences) {
+    if (excluded.includes(sentence)) continue;
+    if (patterns.some((pattern) => pattern.test(sentence))) return sentence;
+  }
+  return "";
+}
+
+function decomposeSignalRoles(
+  signal: SignalItem,
+  genre: SignalGenre,
+): Pick<EpistemicClaimIdentity, "coreClaim" | "baseline" | "reportedResult" | "implication" | "nonImplication"> {
+  const sentences = signalSentences(signal);
+  const first = stripTerminalPunctuation(sentences[0] ?? signal.summary ?? signal.title);
+  const title = stripTerminalPunctuation(signal.title);
+
+  if (genre === "EVENT ANNOUNCEMENT" || genre === "OPERATIONAL ANNOUNCEMENT") {
+    return {
+      coreClaim: title,
+      baseline: first || title,
+      reportedResult: "No substantive scientific result is reported in the announcement itself.",
+      implication:
+        "The immediate significance is operational or informational: it establishes what is scheduled, communicated, or currently stated, not what has scientifically succeeded.",
+      nonImplication:
+        "The announcement does not by itself establish a scientific finding, mission outcome, causal effect, or validated operational result.",
+    };
+  }
+
+  const baseline =
+    chooseRoleSentence(sentences, [
+      /\b(normally|previously|traditionally|existing|current|baseline|known|established|has been|is normally|is typically)\b/i,
+      /\b(is a|are a|occurs|caused by|originated|background|context)\b/i,
+    ]) || first || title;
+
+  const result =
+    chooseRoleSentence(
+      sentences,
+      [
+        /\b(we (?:find|found|show|report|demonstrate|discover|derive|observe)|researchers? (?:found|showed|reported|discovered)|scientists? (?:found|discovered|showed)|results? (?:show|indicate|suggest)|analysis (?:shows|finds)|study (?:finds|shows|reports)|reveals?|identified|detected)\b/i,
+        /\b(genetic|genomic|ancestry|measur|forecast|prediction|reduced|increased|improved|associated|linked)\b/i,
+      ],
+      [baseline],
+    ) ||
+    (title !== baseline ? title : "") ||
+    "The available signal does not clearly separate a reported result from its background context.";
+
+  const implication =
+    chooseRoleSentence(
+      sentences,
+      [/\b(could|may|might|therefore|suggests?|could help|may help|implication)\b/i],
+      [baseline, result],
+    ) ||
+    "If valid, the core claim changes the relevant explanatory, predictive, technical, clinical, institutional, or decision baseline only within the evidence boundary actually supported.";
+
+  return {
+    coreClaim: title,
+    baseline: stripTerminalPunctuation(baseline),
+    reportedResult: stripTerminalPunctuation(result),
+    implication: stripTerminalPunctuation(implication),
+    nonImplication:
+      "The signal does not establish stronger causal, predictive, engineering, clinical, or institutional conclusions than its evidence contract supports.",
+  };
+}
+
+function buildEpistemicClaimIdentity(
+  signal: SignalItem | null,
+): EpistemicClaimIdentity | null {
+  if (!signal) return null;
+
+  const genre = classifySignalGenre(signal);
+  const neutralIntent = neutralIntentForSignal(signal);
+  const signalParse = parseEpistemicStructure(signal.title, neutralIntent, signal);
+  const roles = decomposeSignalRoles(signal, genre);
+
+  const claimType =
+    genre === "EVENT ANNOUNCEMENT" || genre === "OPERATIONAL ANNOUNCEMENT"
+      ? "INFORMATIONAL / OPERATIONAL"
+      : signalParse.claimType;
+
+  const evidenceType =
+    claimType === "FORMAL / MATHEMATICAL"
+      ? ["derivation", "assumptions", "independent formal reproduction"]
+      : claimType === "DESCRIPTIVE / EMPIRICAL"
+        ? ["measurement or observation", "uncertainty", "independent observation"]
+        : claimType === "CAUSAL / MECHANISTIC"
+          ? ["mechanism-specific evidence", "alternative explanation", "discriminating test"]
+          : claimType === "CLINICAL / INTERVENTIONAL"
+            ? ["clinically meaningful endpoint", "comparator", "safety", "external validation"]
+            : claimType === "ENGINEERING / CONSTRUCTIVE"
+              ? ["functional performance", "operating envelope", "failure/recovery", "independent verification"]
+              : claimType === "INSTITUTIONAL" || claimType === "NORMATIVE"
+                ? ["institutional mechanism", "actor/system outcomes", "counterfactual", "distributional effects"]
+                : claimType === "PREDICTIVE"
+                  ? ["prospective prediction", "horizon", "calibration", "outcome"]
+                  : claimType === "INFORMATIONAL / OPERATIONAL"
+                    ? ["official source", "event or mission status", "current operational details"]
+                    : ["direct evidence", "explicit boundary conditions"];
+
+  return {
+    signalId: signal.id,
+    signalTitle: signal.title,
+    genre,
+    coreClaim: roles.coreClaim,
+    claimType,
+    evidenceType,
+    baseline: roles.baseline,
+    reportedResult: roles.reportedResult,
+    implication: roles.implication,
+    nonImplication: roles.nonImplication,
+  };
+}
+
+function getLockedClaimIdentity(
+  previousMessages: DialogueMessage[],
+  signal: SignalItem | null,
+): EpistemicClaimIdentity | null {
+  if (!signal) return null;
+
+  for (let index = previousMessages.length - 1; index >= 0; index -= 1) {
+    const message = previousMessages[index];
+    if (message.role !== "episteme") continue;
+    const identity = message.intelligence?.claimIdentity;
+    if (identity?.signalId === signal.id) return identity;
+  }
+  return null;
+}
+
+function buildParseFromClaimIdentity(
+  identity: EpistemicClaimIdentity,
+  signal: SignalItem,
+): EpistemicParse {
+  const base = parseEpistemicStructure(
+    signal.title,
+    neutralIntentForSignal(signal),
+    signal,
+  );
+
+  if (identity.claimType === "INFORMATIONAL / OPERATIONAL") {
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: ["informational or operational announcement"],
+      validationModes: ["OBSERVATIONAL DISCRIMINATION"],
+      disconfirmationMode:
+        "The announcement-level claim weakens if the source is not authentic, the event or status does not occur as stated, or later official information contradicts it.",
+      evidenceNeeded: [
+        "official or otherwise traceable source",
+        "event, mission, or operational details",
+        "confirmation that the announced event or status occurred as stated",
+        "separate evidence for any broader scientific or operational conclusion",
+      ],
+      contextPolicy:
+        "Treat the announcement as an informational or operational object. Follow-up wording must not convert it into a scientific-result claim.",
+    };
+  }
+
+  return {
+    ...base,
+    object: identity.signalTitle,
+    claimType: identity.claimType,
+    contextPolicy:
+      "Claim identity is locked to the active epistemic object. Follow-up wording may change the requested operation, but must not redefine the object's claim type, evidence basis, or validation mode.",
+  };
+}
+
 function buildSignalInterpretation(
   signal: SignalItem,
   parse: EpistemicParse,
   contract: EpistemicContract,
   evidenceAudit: EvidenceAudit,
+  claimIdentity: EpistemicClaimIdentity | null,
 ): SignalInterpretation {
   const sentences = signalSentences(signal);
   const first = sentences[0] ?? signal.title;
@@ -2432,18 +2720,26 @@ function buildSignalInterpretation(
     sentences.find((sentence) => sentence !== baselineSentence) ??
     first;
 
-  const baseline = stripTerminalPunctuation(baselineSentence);
-  const reportedChange = stripTerminalPunctuation(changeSentence);
+  const baseline = claimIdentity?.baseline || stripTerminalPunctuation(baselineSentence);
+  const reportedChange =
+    claimIdentity?.reportedResult || stripTerminalPunctuation(changeSentence);
   const formalBasis = extractFormalBasis(reportedChange);
 
   let noveltyText = `The reported novelty is the change from the established baseline—${baseline}—to the reported result: ${reportedChange}.`;
   let consequenceText = `If the reported change survives the claim-specific validation burden, it would change which parts of the current baseline must be treated as necessary rather than contingent.`;
   let nonImplication = `The available signal does not by itself establish conclusions beyond the reported result or satisfy the full ${parse.claimType} validation burden.`;
 
-  if (semanticGuard.announcementLike && parse.claimType === "UNKNOWN") {
+  if (
+    semanticGuard.announcementLike &&
+    parse.claimType === "INFORMATIONAL / OPERATIONAL"
+  ) {
     noveltyText = `This signal is primarily an informational or operational announcement, not a demonstrated scientific result. Its immediate content is: ${baseline}.`;
-    consequenceText = `Its significance is limited to the event, mission, communication, or operational context explicitly stated in the source until substantive outcomes or evidence are reported.`;
-    nonImplication = `The announcement alone does not establish a scientific finding, mission outcome, causal effect, or validated operational result.`;
+    consequenceText =
+      claimIdentity?.implication ||
+      `Its significance is limited to the event, mission, communication, or operational context explicitly stated in the source until substantive outcomes or evidence are reported.`;
+    nonImplication =
+      claimIdentity?.nonImplication ||
+      `The announcement alone does not establish a scientific finding, mission outcome, causal effect, or validated operational result.`;
   } else if (parse.claimType === "FORMAL / MATHEMATICAL") {
     noveltyText = `The formal novelty is that ${reportedChange.charAt(0).toLowerCase()}${reportedChange.slice(1)}, rather than simply taking the conventional structure as given.`;
     consequenceText = `If the derivation is genuinely non-circular, structure ordinarily introduced within the conventional formulation may be recoverable from ${formalBasis}, shifting part of the framework from assumed structure to derived consequence.`;
@@ -2736,6 +3032,7 @@ function synthesizeFollowUpAnswer(
   interpretation: SignalInterpretation,
   audit: EvidenceAudit,
   contract: EpistemicContract,
+  claimIdentity: EpistemicClaimIdentity | null,
 ): FollowUpSynthesis {
   const demand = classifyFollowUpDemand(query);
   const recovery = findEvidenceRequirementAudit(audit, [
@@ -2777,6 +3074,35 @@ function synthesizeFollowUpAnswer(
     /clinically meaningful/,
     /outcome/,
   ]);
+
+  if (claimIdentity?.claimType === "INFORMATIONAL / OPERATIONAL") {
+    const q = normalize(query);
+
+    if (/\b(measured quantity|measurement|replication|independent measurement)\b/.test(q)) {
+      return {
+        demand,
+        directAnswer:
+          "No scientific measured quantity or replication is required for the announcement itself. The immediate claim is informational or operational. The relevant evidence is the official source and confirmation of the event or mission status. A scientific measurement becomes relevant only if a separate substantive result is later claimed.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nCore claim: ${claimIdentity.coreClaim}\n\nReported result: ${claimIdentity.reportedResult}\n\nRelevant evidence: ${claimIdentity.evidenceType.join("; ")}.\n\nTherefore the follow-up must not convert an announcement into a scientific-result claim. ${contract.nextAction}`,
+      };
+    }
+
+    if (/\b(boundary condition|analysis choice|erase the effect)\b/.test(q)) {
+      return {
+        demand,
+        directAnswer:
+          "There is no demonstrated scientific effect here for a boundary condition or analysis choice to erase. The announcement-level claim would instead be weakened if the source were not authentic, the event or mission status changed, or the announced activity did not occur as stated.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nThe relevant failure conditions are operational and documentary rather than experimental. Broader scientific conclusions require a separate substantive claim.`,
+      };
+    }
+
+    return {
+      demand,
+      directAnswer:
+        "This follow-up remains attached to an informational or operational announcement. Evaluate source authenticity, event or mission status, and current official details; do not introduce scientific measurement, replication, or causal validation unless a new substantive result is explicitly introduced.",
+      reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nCore claim: ${claimIdentity.coreClaim}\n\nEvidence boundary: ${claimIdentity.nonImplication}`,
+    };
+  }
 
   if (demand === "RECOVERABILITY") {
     const recoveryStatus = recovery?.status ?? "UNKNOWN";
@@ -2968,11 +3294,18 @@ function buildIntelligence(
   );
   const primarySignal = objectResolution.primarySignal;
 
-  const epistemicParse = parseEpistemicStructure(
-    query,
-    intentModel,
-    primarySignal,
-  );
+  // Stage 6.4: claim identity belongs to the object, not to the wording of
+  // the current follow-up.
+  const previousClaimIdentity = objectResolution.isFollowUp
+    ? getLockedClaimIdentity(previousMessages, primarySignal)
+    : null;
+  const claimIdentity =
+    previousClaimIdentity ?? buildEpistemicClaimIdentity(primarySignal);
+
+  const epistemicParse =
+    primarySignal && claimIdentity
+      ? buildParseFromClaimIdentity(claimIdentity, primarySignal)
+      : parseEpistemicStructure(query, intentModel, primarySignal);
   const { relevant: rankedRelevant, contextAssessment } = rankRelevantSignals(
     query,
     signals,
@@ -3015,6 +3348,7 @@ function buildIntelligence(
         epistemicParse,
         epistemicContract,
         evidenceAudit,
+        claimIdentity,
       )
     : null;
   const followUpSynthesis =
@@ -3026,6 +3360,7 @@ function buildIntelligence(
           signalInterpretation,
           evidenceAudit,
           epistemicContract,
+          claimIdentity,
         )
       : null;
 
@@ -3356,6 +3691,7 @@ function buildIntelligence(
     realityModel,
     epistemicContract,
     evidenceAudit,
+    claimIdentity,
   };
 }
 

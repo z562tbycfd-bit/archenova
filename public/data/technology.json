@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-11T15:53:46.739Z",
+  "updated": "2026-09-11T16:11:55.786Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "CloudScope Enables Continuous Remote Monitoring of Brain Activity in Freely Moving Mice",
+      "url": "https://www.genengnews.com/topics/translational-medicine/cloudscope-enables-continuous-remote-monitoring-of-brain-activity-in-freely-moving-mice/",
+      "summary": "Johns Hopkins researchers developed CloudScope, a cloud-based microscope enabling continuous, remote brain imaging in freely moving mice, revealing disease progression, seizures, cellular changes and behavior over extend…",
+      "ts": 1789141715000,
+      "publishedAt": "2026-09-11T15:48:35.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Up and down the ladder: The latest comings and goings",
@@ -799,15 +808,6 @@
       "title": "‘An assault on humanity itself’: Guterres pays tribute to 9/11 victims, survivors and first responders",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168310",
       "summary": "Twenty-five years ago, the heinous terrorist attacks of 11 September 2001 against the United States claimed thousands of lives and represented “an assault on humanity itself”, the UN chief said on Thursday.",
-      "ts": 1789041600000,
-      "publishedAt": "2026-09-10T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Fresh attacks prompt emergency meeting on Yemen",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168309",
-      "summary": "On the heels of reported Houthi attacks on Saudi Arabia on Tuesday and the capture of another key port by the militants on Yemen’s Red Sea coast – including the seizure of eight UN vehicles from a key aid hub there – the…",
       "ts": 1789041600000,
       "publishedAt": "2026-09-10T12:00:00.000Z",
       "categoryId": "global-governance"
