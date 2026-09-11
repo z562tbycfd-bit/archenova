@@ -93,21 +93,6 @@ export const senateAgenda =
   {
     "id": "agenda-7",
     "rank": 7,
-    "title": "CAR T Manufacturing in Japan Gets Boost from Teijin-Shinshu University Research Collaboration",
-    "slug": "bio-car-t-manufacturing-in-japan-gets-boost-from-teijin-shinshu-university-research-",
-    "category": "Bio",
-    "source": "Genetic Engineering News",
-    "score": 9.5,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this strengthen adaptive capacity?",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "architectureHandoff": "Adaptive Capacity Systems",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-8",
-    "rank": 8,
     "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
     "slug": "space-a-team-of-teams-like-never-before-rehearsing-a-unique-launch-at-esa-mission-cont",
     "category": "Space",
@@ -121,8 +106,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-8",
+    "rank": 8,
     "title": "LatConnect 60 Expands India Market Presence for SWIRSAT With NSIL Agreement and GeoSyze Partnership",
     "slug": "space-latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-",
     "category": "Space",
@@ -136,8 +121,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "Discovering Subtypes of Neurodegenerative Progression with a Scalable Connectome-Constrained Dynamic Model",
     "slug": "ai-discovering-subtypes-of-neurodegenerative-progression-with-a-scalable-connectome",
     "category": "AI",
@@ -151,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "A new surface atlas of Phobos will help MMX mission collect its samples",
     "slug": "space-a-new-surface-atlas-of-phobos-will-help-mmx-mission-collect-its-samples",
     "category": "Space",
@@ -166,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-12",
-    "rank": 12,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "eROSITA's second data release catalog delivering most comprehensive high-energy census of the cosmos to date",
     "slug": "energy-erosita-s-second-data-release-catalog-delivering-most-comprehensive-high-energy-",
     "category": "Energy",
@@ -178,6 +163,21 @@ export const senateAgenda =
     "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
     "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
     "architectureHandoff": "Civilization Energy Architecture",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "The quantum harmonic oscillator from binary sequences",
+    "slug": "ai-the-quantum-harmonic-oscillator-from-binary-sequences",
+    "category": "AI",
+    "source": "arXiv Physics",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   }
 ];

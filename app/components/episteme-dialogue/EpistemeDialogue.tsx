@@ -205,12 +205,22 @@ type SignalInterpretation = {
 
 type FollowUpDemand =
   | "RECOVERABILITY"
-  | "ASSUMPTION"
   | "FALSIFICATION"
+  | "ASSUMPTION"
+  | "COMPARATOR"
+  | "POPULATION"
+  | "SAFETY"
+  | "ENDPOINT"
   | "EVIDENCE_STATUS"
   | "VALIDATION"
   | "IMPLICATION"
   | "GENERAL";
+
+type EpistemicObjectResolution = {
+  primarySignal: SignalItem | null;
+  isFollowUp: boolean;
+  anchoredFromConversation: boolean;
+};
 
 type FollowUpSynthesis = {
   demand: FollowUpDemand;
@@ -2448,14 +2458,29 @@ function findEvidenceRequirementAudit(
 function classifyFollowUpDemand(query: string): FollowUpDemand {
   const q = normalize(query);
 
+  // Precedence matters. A question such as
+  // "what hidden premise would invalidate the derivation?"
+  // is a falsification demand, not merely an assumption-identification demand.
+  if (/\b(falsif|invalidate|invalidated|counterexample|disconfirm|disprove|break the claim|break it|would force .* rejected|would force .* narrowed)\b/.test(q)) {
+    return "FALSIFICATION";
+  }
   if (/\b(recover|recovered|recovery|reproduce|reproduced|reproduction|independently derive|independent derivation)\b/.test(q)) {
     return "RECOVERABILITY";
   }
+  if (/\b(safety|adverse|toxicity|toxic|harm|side effect|side effects|benefit risk|risk benefit)\b/.test(q)) {
+    return "SAFETY";
+  }
+  if (/\b(endpoint|outcome|survival|response rate|clinically meaningful)\b/.test(q)) {
+    return "ENDPOINT";
+  }
+  if (/\b(population|subgroup|cohort|generaliz|external validity|patient group)\b/.test(q)) {
+    return "POPULATION";
+  }
+  if (/\b(comparator|counterfactual|placebo|control group|comparison|compared with|relative to|common objective|symmetric criteria)\b/.test(q)) {
+    return "COMPARATOR";
+  }
   if (/\b(assumption|assumptions|premise|premises|hidden import|hidden assumption|indispensable)\b/.test(q)) {
     return "ASSUMPTION";
-  }
-  if (/\b(falsif|invalidate|invalidated|counterexample|disconfirm|disprove|break the claim|break it)\b/.test(q)) {
-    return "FALSIFICATION";
   }
   if (/\b(evidence|supported|verified|verification|proof|proven|established|confidence)\b/.test(q)) {
     return "EVIDENCE_STATUS";
@@ -2473,26 +2498,121 @@ function hasPriorAssistantTurn(previousMessages: DialogueMessage[]): boolean {
   return previousMessages.some((message) => message.role === "episteme");
 }
 
-function isContextualFollowUp(
-  query: string,
+function getActiveEpistemicSignal(
   previousMessages: DialogueMessage[],
-  primarySignal: SignalItem | null,
-): boolean {
-  if (!hasPriorAssistantTurn(previousMessages)) return false;
-  if (isLikelyFollowUp(query)) return true;
+  signals: SignalItem[],
+): SignalItem | null {
+  for (let index = previousMessages.length - 1; index >= 0; index -= 1) {
+    const message = previousMessages[index];
+    if (message.role !== "episteme" || !message.intelligence) continue;
 
+    const primaryAssessment = message.intelligence.contextAssessment.find(
+      (item) => item.role === "PRIMARY",
+    );
+    const primaryId =
+      primaryAssessment?.signalId ??
+      message.intelligence.signalIds[0] ??
+      null;
+
+    if (!primaryId) continue;
+    const signal = signals.find((item) => item.id === primaryId) ?? null;
+    if (signal) return signal;
+  }
+
+  return null;
+}
+
+function findExplicitSignalReference(
+  query: string,
+  signals: SignalItem[],
+): SignalItem | null {
+  const q = normalize(query);
+  const target = normalize(
+    query.includes(":")
+      ? query.slice(query.indexOf(":") + 1)
+      : query,
+  );
+
+  // Explicit title/reference match only. This intentionally avoids fuzzy
+  // retrieval because fuzzy similarity must never silently replace an active
+  // epistemic object during a follow-up.
+  const exact = signals.find((signal) => {
+    const title = normalize(signal.title);
+    if (!title) return false;
+    return (
+      q.includes(title) ||
+      title.includes(target) ||
+      (target.length >= 12 && target.includes(title))
+    );
+  });
+  if (exact) return exact;
+
+  // Allow a strongly title-specific new object even without a colon.
+  const queryWords = new Set(words(query));
+  let best: { signal: SignalItem; overlap: number; ratio: number } | null = null;
+
+  for (const signal of signals) {
+    const titleWords = words(signal.title).filter((word) => word.length > 4);
+    if (titleWords.length < 2) continue;
+    const overlap = titleWords.filter((word) => queryWords.has(word)).length;
+    const ratio = overlap / titleWords.length;
+    if (
+      overlap >= 3 &&
+      ratio >= 0.6 &&
+      (!best || overlap > best.overlap || (overlap === best.overlap && ratio > best.ratio))
+    ) {
+      best = { signal, overlap, ratio };
+    }
+  }
+
+  return best?.signal ?? null;
+}
+
+function looksLikeContextualFollowUp(query: string): boolean {
   const q = normalize(query);
   const demand = classifyFollowUpDemand(query);
   const contextualReference =
-    /\b(claim|claimed|structure|construction|derivation|result|assumption|premise|it|this|that|independently|counterexample)\b/.test(q);
+    /\b(claim|claimed|structure|construction|derivation|result|assumption|premise|it|this|that|independently|counterexample|benefit|intervention|comparator|population|endpoint|safety|effect|finding|mechanism)\b/.test(q);
 
-  // A new explicitly named signal should be interpreted as a new object, not
-  // silently folded into the previous dialogue object.
-  if (primarySignal && words(primarySignal.title).filter((token) => token.length > 4).some((token) => q.includes(token))) {
-    return false;
+  return (
+    isLikelyFollowUp(query) ||
+    (demand !== "GENERAL" && contextualReference) ||
+    /\b(which|what|how|would|could|does|can)\b/.test(q) && demand !== "GENERAL"
+  );
+}
+
+function resolveEpistemicObject(
+  query: string,
+  signals: SignalItem[],
+  previousMessages: DialogueMessage[],
+): EpistemicObjectResolution {
+  const explicitSignal = findExplicitSignalReference(query, signals);
+  if (explicitSignal) {
+    return {
+      primarySignal: explicitSignal,
+      isFollowUp: false,
+      anchoredFromConversation: false,
+    };
   }
 
-  return demand !== "GENERAL" && contextualReference;
+  const activeSignal = getActiveEpistemicSignal(previousMessages, signals);
+  if (
+    activeSignal &&
+    hasPriorAssistantTurn(previousMessages) &&
+    looksLikeContextualFollowUp(query)
+  ) {
+    return {
+      primarySignal: activeSignal,
+      isFollowUp: true,
+      anchoredFromConversation: true,
+    };
+  }
+
+  return {
+    primarySignal: findPrimarySignal(query, signals),
+    isFollowUp: false,
+    anchoredFromConversation: false,
+  };
 }
 
 function evidenceStatusSentence(
@@ -2529,6 +2649,26 @@ function synthesizeFollowUpAnswer(
     /inference/,
     /hidden import/,
   ]);
+  const comparator = findEvidenceRequirementAudit(audit, [
+    /comparator/,
+    /counterfactual/,
+    /control/,
+  ]);
+  const population = findEvidenceRequirementAudit(audit, [
+    /external validation/,
+    /population/,
+    /generaliz/,
+  ]);
+  const safety = findEvidenceRequirementAudit(audit, [
+    /safety/,
+    /adverse/,
+    /toxicity/,
+  ]);
+  const endpoint = findEvidenceRequirementAudit(audit, [
+    /endpoint/,
+    /clinically meaningful/,
+    /outcome/,
+  ]);
 
   if (demand === "RECOVERABILITY") {
     const recoveryStatus = recovery?.status ?? "UNKNOWN";
@@ -2542,6 +2682,38 @@ function synthesizeFollowUpAnswer(
         ? `Yes, within the currently audited evidence boundary. The claimed structure is independently recovered rather than merely reported: ${evidenceStatusSentence(recovery, "structure recovery")}; ${evidenceStatusSentence(independent, "independent verification")}.`
         : `Not yet, based on the currently available evidence. The indexed source reports the construction, but Episteme does not currently have independent evidence establishing that the claimed structure can be recovered without importing equivalent assumptions. ${evidenceStatusSentence(recovery, "structure recovery")}; ${evidenceStatusSentence(independent, "independent verification")}.`,
       reasoning: `What is claimed: ${interpretation.reportedChange.text}\n\nWhat must be shown independently: the stated construction must recover the claimed formal structure from explicit assumptions without importing an equivalent result through hidden premises.\n\nCurrent audit: ${evidenceStatusSentence(assumptions, "explicit assumptions")}; ${evidenceStatusSentence(derivation, "derivation validity")}; ${evidenceStatusSentence(recovery, "structure recovery")}; ${evidenceStatusSentence(independent, "independent verification")}.\n\nTherefore: independent recoverability cannot be affirmed unless recovery and independent verification move beyond claimed, unknown, or missing status.\n\nWhat would resolve it: ${contract.nextAction}`,
+    };
+  }
+
+  if (demand === "COMPARATOR") {
+    return {
+      demand,
+      directAnswer: `A comparator could erase the apparent benefit if the effect disappears against an appropriate control, standard-of-care, placebo, or counterfactual that addresses the same clinical objective. ${evidenceStatusSentence(comparator, "appropriate comparator or counterfactual")}. Episteme should not name a winning comparator unless the indexed evidence actually establishes one.`,
+      reasoning: `Current object: ${interpretation.reportedChange.text}\n\nWhat must be compared: the claimed effect against a comparator that addresses the same endpoint under comparable conditions.\n\nCurrent audit: ${evidenceStatusSentence(comparator, "appropriate comparator or counterfactual")}; ${evidenceStatusSentence(endpoint, "clinically meaningful endpoint")}; ${evidenceStatusSentence(population, "external validity or population boundary")}.\n\nA comparison is decision-relevant only if the endpoint, population, and evidence maturity are sufficiently aligned. What would resolve it: ${contract.nextAction}`,
+    };
+  }
+
+  if (demand === "POPULATION") {
+    return {
+      demand,
+      directAnswer: `A population difference could erase or narrow the apparent benefit if the effect is confined to a selected subgroup and fails to reproduce in the broader target population, or if baseline risk, treatment history, genotype, disease stage, or other effect-modifying characteristics materially change the result. ${evidenceStatusSentence(population, "external validation or population boundary")}.`,
+      reasoning: `Current object: ${interpretation.reportedChange.text}\n\nThe relevant question is external validity: whether the claimed effect survives movement from the studied population to the population for which the conclusion is being extended.\n\nCurrent audit: ${evidenceStatusSentence(population, "external validation or population boundary")}; ${evidenceStatusSentence(comparator, "appropriate comparator or counterfactual")}.\n\nThe claim should be narrowed if the effect disappears, reverses, or becomes clinically negligible outside the supported subgroup.`,
+    };
+  }
+
+  if (demand === "SAFETY") {
+    return {
+      demand,
+      directAnswer: `A safety result should force the intervention claim to be narrowed or rejected if treatment-related harm materially worsens the benefit–risk balance, creates a serious or treatment-limiting adverse effect, or appears consistently in the population for which benefit is claimed. ${evidenceStatusSentence(safety, "safety evidence")}. The current index does not justify inventing a specific toxicity threshold that is not actually reported.`,
+      reasoning: `Current object: ${interpretation.reportedChange.text}\n\nSafety is a separate evidentiary layer from mechanism or efficacy. A biological or clinical effect cannot inherit acceptability if harms offset the benefit.\n\nCurrent audit: ${evidenceStatusSentence(safety, "safety evidence")}; ${evidenceStatusSentence(endpoint, "clinically meaningful endpoint")}; ${evidenceStatusSentence(population, "external validation or population boundary")}.\n\nCorrection rule: ${contract.correctionRule}`,
+    };
+  }
+
+  if (demand === "ENDPOINT") {
+    return {
+      demand,
+      directAnswer: `The decisive endpoint should be the prespecified clinically meaningful outcome that best captures patient benefit rather than a convenient surrogate alone. ${evidenceStatusSentence(endpoint, "clinically meaningful endpoint")}. If the meaningful endpoint does not improve, the intervention claim must be narrowed even if a mechanistic or surrogate signal changes.`,
+      reasoning: `Current object: ${interpretation.reportedChange.text}\n\nThe endpoint must match the clinical claim being made and be evaluated against an appropriate comparator.\n\nCurrent audit: ${evidenceStatusSentence(endpoint, "clinically meaningful endpoint")}; ${evidenceStatusSentence(comparator, "appropriate comparator or counterfactual")}; ${evidenceStatusSentence(safety, "safety evidence")}.\n\nWhat would resolve it: ${contract.nextAction}`,
     };
   }
 
@@ -2677,7 +2849,17 @@ function buildIntelligence(
 ): IntelligenceObject {
   const intentModel = buildIntentModel(query, mode);
   const kind = queryKindFromIntent(intentModel);
-  const primarySignal = findPrimarySignal(query, signals);
+
+  // Stage 6.2: resolve the active epistemic object before fuzzy retrieval.
+  // A contextual follow-up keeps the previous PRIMARY signal anchored unless
+  // the user explicitly names a new signal/object.
+  const objectResolution = resolveEpistemicObject(
+    query,
+    signals,
+    previousMessages,
+  );
+  const primarySignal = objectResolution.primarySignal;
+
   const epistemicParse = parseEpistemicStructure(
     query,
     intentModel,
@@ -2730,7 +2912,7 @@ function buildIntelligence(
   const followUpSynthesis =
     lead &&
     signalInterpretation &&
-    isContextualFollowUp(query, previousMessages, primarySignal)
+    objectResolution.isFollowUp
       ? synthesizeFollowUpAnswer(
           query,
           signalInterpretation,

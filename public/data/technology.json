@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:59:36.065Z",
+  "updated": "2026-09-11T15:16:25.063Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1789139586000,
+      "publishedAt": "2026-09-11T15:13:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Medicaid will let states use ‘tiers’ to determine medical frailty ",
+      "url": "https://www.statnews.com/2026/09/11/medicaid-work-requirements-new-tier-system-define-medical-frailty/?utm_campaign=rss",
+      "summary": "New Medicaid rules use allow use of tiers to determine work exemptions. Advocates fear complex guidelines could cause patients to lose insurance.",
+      "ts": 1789139436000,
+      "publishedAt": "2026-09-11T15:10:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Transcenta Therapeutics and WuXi Biologics Team Up to Accelerate Commercialization of HiCB Technology",
+      "url": "https://www.genengnews.com/topics/bioprocessing/transcenta-therapeutics-and-wuxi-biologics-team-up-to-accelerate-commercialization-of-hicb-technology/",
+      "summary": "Transcenta, headquartered in China and with a pipeline of over ten therapeutic antibody candidates, is a clinical-stage biopharmaceutical company with expertise in biologics discovery, translational research, clinical, a…",
+      "ts": 1789139431000,
+      "publishedAt": "2026-09-11T15:10:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Samsung Biologics Signs $262 Million Manufacturing Agreement with European Pharma Firm",
+      "url": "https://www.genengnews.com/topics/bioprocessing/samsung-biologics-signs-262-million-manufacturing-agreement-with-european-pharma-firm/",
+      "summary": "Alongside decisions involving capacity expansion, officials at Samsung Biologics announced that the company is pursuing opportunities to broaden its portfolio and address an increasingly diverse range of therapeutic moda…",
+      "ts": 1789138785000,
+      "publishedAt": "2026-09-11T14:59:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Cancer Treatment Genetic Effects in Healthy Cells May Reveal Clues to Side Effects and Resistance",
@@ -775,42 +811,6 @@
       "ts": 1789040099000,
       "publishedAt": "2026-09-10T11:34:59.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Powering AI is an architecture problem",
-      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years…",
-      "ts": 1789038000000,
-      "publishedAt": "2026-09-10T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "This road map could help us decide whether to deploy solar geoengineering",
-      "url": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/",
-      "summary": "A San Francisco nonprofit has published a detailed road map of the experiments, studies, and infrastructure that it says would be needed to make informed decisions about the use of solar geoengineering, MIT Technology Re…",
-      "ts": 1789038000000,
-      "publishedAt": "2026-09-10T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Third IAEA ISOP Innovation Awards Recognize Excellence in Nuclear Innovation",
-      "url": "http://www.iaea.org/newscenter/news/third-iaea-isop-innovation-awards-recognize-excellence-in-nuclear-innovation",
-      "summary": "",
-      "ts": 1789038000000,
-      "publishedAt": "2026-09-10T11:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Isotope Hydrology Symposium Call for Abstracts",
-      "url": "http://www.iaea.org/newscenter/news/isotope-hydrology-symposium-call-for-abstracts",
-      "summary": "Abstract submissions are now open for the IAEA's 17th International Symposium on Isotope Hydrology, which will take place from 10 to 14 May 2027 at IAEA headquarters in Vienna, Austria.",
-      "ts": 1789036825000,
-      "publishedAt": "2026-09-10T10:40:25.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [

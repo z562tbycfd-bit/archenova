@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:59:32.713Z",
+  "updated": "2026-09-11T15:16:17.370Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nepal floods: How measuring snow in the Himalayas could help avoid future disasters",
+      "url": "https://phys.org/news/2026-09-nepal-himalayas-future-disasters.html",
+      "summary": "The massive and deadly floods on the Nepal–Tibet border are a stark reminder of why the world needs to constantly update its understanding of the fragile ecosystem in the Himalayas.",
+      "ts": 1789138808000,
+      "publishedAt": "2026-09-11T15:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Breaking down shoe foam by genetically tweaking a microbe found in compost",
+      "url": "https://phys.org/news/2026-09-foam-genetically-tweaking-microbe-compost.html",
+      "summary": "Your favorite pair of tennies, kicks or trainers may soon become a little more sustainable. In a study published Sept. 11 in the journal Chem Catalysis, researchers developed a new kind of enzyme based on a bacterium fou…",
+      "ts": 1789138804000,
+      "publishedAt": "2026-09-11T15:00:04.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Historical art can hide scientific secrets",
+      "url": "https://www.sciencenews.org/article/historical-art-hide-scientific-secrets",
+      "summary": "Scientists are working closely with art historians to uncover scientific documentation in historic paintings.",
+      "ts": 1789138800000,
+      "publishedAt": "2026-09-11T15:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Release of open AI model trained on 17 years of lunar data maps ice, craters and volcanoes",
@@ -775,30 +799,6 @@
       "title": "Nondipole Coulomb effects in strong x-ray field ionization",
       "url": "https://arxiv.org/abs/2609.11791",
       "summary": "arXiv:2609.11791v1 Announce Type: new Abstract: Atomic ionization in superintense x-ray fields is studied through numerical solutions of the time-dependent Schr\\\"odinger equation including nondipole corrections. The role…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Designing metallo-dielectric antennas for cryogenic applications",
-      "url": "https://arxiv.org/abs/2609.11809",
-      "summary": "arXiv:2609.11809v1 Announce Type: new Abstract: We present the design of cryogenic metallo-dielectric antennas tailored to single organic emitters, where the choice of host material imposes specific constraints on the an…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupling periodic-cell and finite-bunch dynamics for structured photocathodes",
-      "url": "https://arxiv.org/abs/2609.11844",
-      "summary": "arXiv:2609.11844v1 Announce Type: new Abstract: Patterning a photocathode with submicrometre features can enhance nonlinear photoemission by concentrating the optical field, but the surface geometry can also increase the…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Drift Diagnosis for Laser-Plasma Accelerator Operations",
-      "url": "https://arxiv.org/abs/2609.11874",
-      "summary": "arXiv:2609.11874v1 Announce Type: new Abstract: Laser-plasma accelerators (LPAs) sustain accelerating gradients of order $100\\,\\mathrm{GV/m}$, but routine operation remains difficult: electron beam metrics drift over an …",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
