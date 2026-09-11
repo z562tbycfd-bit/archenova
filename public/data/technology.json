@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:16:00.178Z",
+  "updated": "2026-09-11T14:26:23.621Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cancer Treatment Genetic Effects in Healthy Cells May Reveal Clues to Side Effects and Resistance",
+      "url": "https://www.genengnews.com/topics/cancer/cancer-treatment-genetic-effects-in-healthy-cells-may-reveal-clues-to-side-effects-and-resistance/",
+      "summary": "Researchers used DNA sequencing to map mutations in normal tissue from cancer patients undergoing different types of treatment. They found significant differences in the genetic mutations in healthy tissue, depending on …",
+      "ts": 1789136385000,
+      "publishedAt": "2026-09-11T14:19:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about anxious Novartis investors, patent expirations for biologics, and more",
@@ -802,15 +811,6 @@
       "ts": 1789036200000,
       "publishedAt": "2026-09-10T10:30:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Can the US battery market untangle from China?",
-      "url": "https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/",
-      "summary": "The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from int…",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

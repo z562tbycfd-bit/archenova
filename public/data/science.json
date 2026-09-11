@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:15:54.920Z",
+  "updated": "2026-09-11T14:26:17.385Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "More than kinship, social isolation has a greater effect on toad tadpole behavior",
+      "url": "https://phys.org/news/2026-09-kinship-social-isolation-greater-effect.html",
+      "summary": "Amphibian larvae—often known as tadpoles—exhibit a behavior known as \"social aggregation,\" in which they gather together to avoid predators. These interactions are evidence of their \"association preferences,\" or their te…",
+      "ts": 1789136407000,
+      "publishedAt": "2026-09-11T14:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tasmanian devils lived with people in outback Western Australia 45,000 years ago, new fossils show",
+      "url": "https://phys.org/news/2026-09-tasmanian-devils-people-outback-western.html",
+      "summary": "Tasmanian devils are among Australia's most distinctive mammals. Stocky, powerful and famously noisy, wild populations are now restricted to Tasmania. But this was not always the case. In fact, thousands of years ago, de…",
+      "ts": 1789136401000,
+      "publishedAt": "2026-09-11T14:20:01.000Z"
+    },
     {
       "source": "Quanta Magazine",
       "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
@@ -783,22 +799,6 @@
       "title": "On modelling the 2017 galactic cosmic ray depression",
       "url": "https://arxiv.org/abs/2609.10622",
       "summary": "arXiv:2609.10622v1 Announce Type: cross Abstract: In the second half of 2017, as Solar Cycle 24 approached its minimum, a pronounced and rigidity-dependent depression in the galactic cosmic ray (GCR) proton flux was obse…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vectorial lattice Boltzmann solver for compressible inviscid flows with generic equation of state",
-      "url": "https://arxiv.org/abs/2609.10639",
-      "summary": "arXiv:2609.10639v1 Announce Type: cross Abstract: We develop a vectorial lattice Boltzmann model with a space-time adaptive relaxation coefficient, combined with adaptive time-stepping for compressible Euler dynamics wit…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Zero-shot rib design: merging training-free generative prior with topology optimization",
-      "url": "https://arxiv.org/abs/2609.10643",
-      "summary": "arXiv:2609.10643v1 Announce Type: cross Abstract: Natural load-bearing patterns such as leaf venation, trabecular bone, and spider webs achieve high stiffness per unit mass, yet classical topology optimizers rarely reach…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

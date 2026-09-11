@@ -1795,6 +1795,62 @@ function evidenceSubjectOverlap(primary: SignalItem | null, candidate: SignalIte
     .filter((word) => primarySet.has(word)).length;
 }
 
+
+function evidenceTitleOverlap(primary: SignalItem | null, candidate: SignalItem) {
+  if (!primary) return 0;
+  const primarySet = new Set(evidenceSubjectWords(primary.title));
+  return evidenceSubjectWords(candidate.title)
+    .filter((word) => primarySet.has(word)).length;
+}
+
+function buildRelatedIntelligenceSignalIds(
+  evidenceAudit: EvidenceAudit,
+  lead: SignalItem | null,
+  candidates: SignalItem[],
+  contextAssessment: ContextAssessment[],
+): string[] {
+  const assessmentById = new Map(
+    contextAssessment.map((item) => [item.signalId, item]),
+  );
+  const signalById = new Map(candidates.map((signal) => [signal.id, signal]));
+  const auditById = new Map(
+    evidenceAudit.signals.map((item) => [item.signalId, item]),
+  );
+
+  return candidates
+    .filter((signal) => {
+      const audit = auditById.get(signal.id);
+      if (!audit) return false;
+
+      // Evidence-bearing items are always eligible for RELATED INTELLIGENCE.
+      if (audit.disposition === "ADMIT") return true;
+      if (audit.disposition !== "CONTEXT_ONLY") return false;
+
+      // CONTEXT_ONLY is intentionally stricter at display time than at audit
+      // time. Semantic similarity alone is not sufficient for display.
+      const assessment = assessmentById.get(signal.id);
+      if (!assessment) return false;
+      if (assessment.role !== "SUPPORTING" && assessment.role !== "COMPETING") {
+        return false;
+      }
+
+      const totalOverlap = evidenceSubjectOverlap(lead, signal);
+      const titleOverlap = evidenceTitleOverlap(lead, signal);
+
+      // A high-confidence context item must share the current epistemic object
+      // at title level and retain substantial subject overlap in the full
+      // signal. This excludes adjacent-domain items that merely share broad
+      // vocabulary while preserving genuinely comparable formalisms,
+      // competing explanations, or closely related validation targets.
+      return (
+        titleOverlap >= 1 &&
+        totalOverlap >= 4 &&
+        assessment.score >= 14
+      );
+    })
+    .map((signal) => signal.id);
+}
+
 function requirementPattern(requirement: string, claimType: ClaimType): RegExp {
   const value = normalize(requirement);
 
@@ -2281,10 +2337,14 @@ function buildIntelligence(
     rankedRelevant,
     contextAssessment,
   );
-  const visibleSignalIds = new Set([
-    ...evidenceAudit.admittedSignalIds,
-    ...evidenceAudit.contextOnlySignalIds,
-  ]);
+  const visibleSignalIds = new Set(
+    buildRelatedIntelligenceSignalIds(
+      evidenceAudit,
+      lead,
+      rankedRelevant,
+      contextAssessment,
+    ),
+  );
   const relevant = rankedRelevant.filter((signal) => visibleSignalIds.has(signal.id));
   const second = relevant.find((signal) => signal.id !== lead?.id) ?? null;
   const strength = evidenceAudit.overallStrength;
