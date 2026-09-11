@@ -138,21 +138,6 @@ export const senateAgenda =
   {
     "id": "agenda-10",
     "rank": 10,
-    "title": "eROSITA's second data release catalog delivering most comprehensive high-energy census of the cosmos to date",
-    "slug": "energy-erosita-s-second-data-release-catalog-delivering-most-comprehensive-high-energy-",
-    "category": "Energy",
-    "source": "Phys.org",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-11",
-    "rank": 11,
     "title": "The quantum harmonic oscillator from binary sequences",
     "slug": "ai-the-quantum-harmonic-oscillator-from-binary-sequences",
     "category": "AI",
@@ -166,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-12",
-    "rank": 12,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "Critical emergence of quantum theory, spacetime and gravity from generalised trace dynamics",
     "slug": "ai-critical-emergence-of-quantum-theory-spacetime-and-gravity-from-generalised-trac",
     "category": "AI",
@@ -178,6 +163,21 @@ export const senateAgenda =
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "NASA Answers President’s Call to Establish United States Space Academy",
+    "slug": "space-nasa-answers-president-s-call-to-establish-united-states-space-academy",
+    "category": "Space",
+    "source": "NASA",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
     "status": "Open"
   }
 ];

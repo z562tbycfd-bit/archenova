@@ -114,6 +114,9 @@ type SignalGenre =
   | "CLINICAL RESULT"
   | "ENGINEERING DEMONSTRATION"
   | "POLICY / INSTITUTIONAL ACTION"
+  | "BUSINESS / COMMERCIAL ACTION"
+  | "ORGANIZATIONAL / PERSONNEL UPDATE"
+  | "MISSION / OPERATIONAL UPDATE"
   | "OPERATIONAL ANNOUNCEMENT"
   | "EVENT ANNOUNCEMENT"
   | "COMMENTARY / ANALYSIS"
@@ -1444,13 +1447,13 @@ function buildContractDialogueGuidance(
     case "INFORMATIONAL / OPERATIONAL":
       return {
         alternativeExplanation:
-          "Treat the strongest alternative as a changed, cancelled, superseded, or incorrectly reported event or operational status—not as a competing scientific mechanism.",
+          "Treat the strongest alternative as a changed, cancelled, superseded, incomplete, or incorrectly reported event, organizational action, commercial arrangement, or operational status—not as a competing scientific mechanism.",
         adversarialCheck:
-          "Verify source authenticity, timing, event or mission status, and later official updates. Do not manufacture a measured effect, causal mechanism, or scientific result from a notice.",
+          "Verify source authenticity, the event predicate itself, material terms or role/status details, and later reliable updates. Do not manufacture a measured effect, clinical benefit, causal mechanism, or scientific result from an informational event.",
         continueInquiry: [
-          "Which official source confirms the announcement or current mission status?",
-          "Did the announced event or operational status occur as stated?",
-          "Has a separate substantive result been reported that should be evaluated under a scientific evidence contract?",
+          "Which traceable source confirms the reported event, action, or current status?",
+          "Did the reported event, organizational change, business action, or operational status occur as stated?",
+          "Has a separate substantive scientific, clinical, technical, or performance result been reported?",
         ],
       };
 
@@ -1785,7 +1788,47 @@ function buildEpistemicContract(
       };
 
     case "DESCRIPTIVE / EMPIRICAL":
-    case "UNKNOWN":
+      return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
+        claimType: epistemic.claimType,
+        validationModes:
+          epistemic.validationModes.length > 0
+            ? epistemic.validationModes
+            : ["OBSERVATIONAL DISCRIMINATION"],
+        evidenceRequirements: [
+          "traceable measurement or observation",
+          "measurement or sampling uncertainty",
+          "independent observation or replication",
+          "credible competing interpretation or boundary condition",
+        ],
+        disconfirmationConditions: [
+          "the reported observation is not traceable to evidence",
+          "the effect disappears under reasonable measurement or sampling uncertainty",
+          "independent observation or replication does not reproduce the effect",
+          "a credible competing interpretation explains the observation equally well or better",
+        ],
+        uncertaintyBoundary: [
+          "observation is not mechanism",
+          "association is not causation",
+          "a model-supported pattern is not automatically a real-world generalization",
+          ...sharedUncertainty,
+        ],
+        realityTest:
+          "Which measured or observed quantity most directly supports the claim, with what uncertainty, and does the effect survive an independent observation or replication and its strongest credible alternative?",
+        correctionRule:
+          "If the observation fails replication, disappears under uncertainty or a reasonable boundary condition, or is better explained by a competing interpretation, narrow the claim to the strongest form still directly supported.",
+        nextAction:
+          "Identify the measured or observed quantity that directly supports the claim, its uncertainty, one independent replication or observation, and the strongest boundary condition or competing interpretation.",
+        demonstrationThreshold: [
+          "the observation is traceable",
+          "measurement and sampling uncertainty are explicit",
+          "independent observation or replication reproduces the effect",
+          "credible competing interpretations are bounded",
+        ],
+        predictionDesign:
+          "State one measurable implication that should reproduce if the empirical claim is correct and one boundary condition under which the effect should weaken or disappear.",
+      };
+
     case "INFORMATIONAL / OPERATIONAL":
       return {
         ...buildContractDialogueGuidance(epistemic.claimType),
@@ -1793,36 +1836,76 @@ function buildEpistemicContract(
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
           "official or otherwise traceable source",
-          "event, mission, or operational details",
-          "confirmation that the announced event or status occurred as stated",
-          "separate evidence for any broader scientific or operational conclusion",
+          "event, mission, organizational, or operational details",
+          "confirmation that the reported event, action, or status occurred as stated",
+          "separate evidence for any broader scientific, clinical, or technical conclusion",
         ],
         disconfirmationConditions: [
           "the source is not authentic or traceable",
-          "the announced event, mission status, or operational detail does not occur as stated",
-          "later official information materially contradicts the announcement",
-          "a broader scientific conclusion is inferred without separate substantive evidence",
+          "the reported event, action, or status did not occur as stated",
+          "later reliable information materially contradicts the report",
+          "a broader scientific, clinical, or technical conclusion is inferred without separate substantive evidence",
         ],
         uncertaintyBoundary: [
-          "an announcement is not a scientific result",
-          "scheduled activity is not completed activity",
-          "mission communication is not evidence of scientific success",
+          "an informational report is not a scientific result",
+          "reported action is not demonstrated downstream outcome",
+          "organizational or commercial activity is not clinical efficacy",
           ...sharedUncertainty,
         ],
         realityTest:
-          "Is the source authentic, are the announced event or operational details confirmed, and is any broader conclusion supported by separate substantive evidence?",
+          "Is the source authentic, did the reported event, action, or status occur as stated, and is any broader conclusion supported by separate substantive evidence?",
         correctionRule:
-          "If the event, mission status, timing, or operational detail changes, update the announcement-level claim to the latest verified status. Do not convert the notice into a scientific conclusion unless separate evidence is supplied.",
+          "If the event, action, status, timing, or organizational detail changes, update the informational claim to the latest verified state. Do not convert the report into a scientific, clinical, or technical conclusion without separate evidence.",
         nextAction:
-          "Verify the official source and current event or mission status; if a substantive result is later claimed, evaluate that result under its own claim-specific evidence contract.",
+          "Verify the source and the reported event, action, or status; if a separate substantive result is later claimed, evaluate that result under its own evidence contract.",
         demonstrationThreshold: [
           "the source is traceable",
-          "the announced event or operational status is verified",
-          "material details are consistent with current official information",
-          "broader conclusions remain separated from the notice itself",
+          "the reported event, action, or status is verified",
+          "material details are consistent with later reliable information",
+          "broader conclusions remain separated from the informational report",
         ],
         predictionDesign:
-          "No scientific prediction is required for the announcement itself. The relevant check is whether the announced event or operational status occurs as stated; substantive results require a separate claim and validation path.",
+          "No scientific prediction is required for the informational report itself. The immediate check is whether the reported event, action, or status occurs or remains true as stated.",
+      };
+
+    case "UNKNOWN":
+      return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
+        claimType: epistemic.claimType,
+        validationModes:
+          epistemic.validationModes.length > 0
+            ? epistemic.validationModes
+            : ["OBSERVATIONAL DISCRIMINATION"],
+        evidenceRequirements: [
+          "clear statement of the substantive claim",
+          "direct evidence relevant to that claim",
+          "explicit uncertainty or boundary conditions",
+          "one credible alternative or failure condition",
+        ],
+        disconfirmationConditions: [
+          "the substantive claim cannot be identified from the available signal",
+          "the available evidence does not bear on the inferred claim",
+          "a credible alternative cannot be distinguished from the preferred interpretation",
+        ],
+        uncertaintyBoundary: [
+          "unknown claim type does not imply informational announcement",
+          "missing classification does not justify importing a domain-specific evidence contract",
+          ...sharedUncertainty,
+        ],
+        realityTest:
+          "What substantive claim is actually being made, what evidence directly bears on it, and what observation would distinguish it from a credible alternative?",
+        correctionRule:
+          "Do not strengthen or domain-specialize the claim until its substantive type is identified. Revise the classification first, then apply the corresponding evidence contract.",
+        nextAction:
+          "Clarify the substantive claim and classify its evidence type before requesting domain-specific validation.",
+        demonstrationThreshold: [
+          "the substantive claim is identifiable",
+          "the evidence type is identifiable",
+          "uncertainty or boundary conditions are explicit",
+          "a claim-specific validation path can be selected",
+        ],
+        predictionDesign:
+          "Do not manufacture a scientific prediction for an unclassified claim. First determine whether the object is empirical, causal, predictive, engineering, clinical, institutional, informational, or another claim type.",
       };
 
     default:
@@ -2483,23 +2566,112 @@ function neutralIntentForSignal(signal: SignalItem): IntentModel {
 }
 
 function classifySignalGenre(signal: SignalItem): SignalGenre {
+  const title = normalize(signal.title);
+  const summary = normalize(signal.summary ?? "");
+  const category = normalize(signal.category ?? "");
   const corpus = normalize([signal.title, signal.summary, signal.category].join(" "));
   const guard = analyzeSemanticInput(signal.title, neutralIntentForSignal(signal), signal);
 
-  if (guard.announcementLike) {
-    if (/\b(media|news conference|press conference|briefing|livestream|coverage|event)\b/.test(corpus)) {
-      return "EVENT ANNOUNCEMENT";
-    }
-    return "OPERATIONAL ANNOUNCEMENT";
+  // Stage 6.4.1:
+  // Predicate-first classification. Determine what happened before asking
+  // what domain the entities belong to.
+  //
+  // Entity/domain vocabulary must never by itself upgrade an event into
+  // a scientific or clinical result.
+
+  const personnelAction =
+    /\b(appoint(?:ed|ment)?|hire(?:d|s)?|new hire|departure|departures|promotion|promotions|transfer|transfers|resign(?:ed|ation)?|steps down|joins|named|comings and goings)\b/.test(title) ||
+    /\b(new hires?|departures?|promotions?|transfers?|personnel changes?|executive changes?)\b/.test(summary);
+
+  if (personnelAction) {
+    return "ORGANIZATIONAL / PERSONNEL UPDATE";
   }
-  if (guard.institutionalContext) return "POLICY / INSTITUTIONAL ACTION";
-  if (/\b(patient|clinical|therapy|treatment|trial|survival|disease|cancer|vaccine|drug)\b/.test(corpus)) return "CLINICAL RESULT";
-  if (/\b(prototype|device|engineer|engineering|demonstrat|fabricat|circuit|hardware|system performance)\b/.test(corpus)) return "ENGINEERING DEMONSTRATION";
-  if (/\b(forecast|predict|projection|prospective|scenario)\b/.test(corpus)) return "FORECAST";
-  if (/\b(arxiv|preprint|we derive|we propose|formalism|theorem|mathematical)\b/.test(corpus)) return "RESEARCH PREPRINT";
-  if (/\b(hypothesis|may explain|might explain|could explain|proposed mechanism)\b/.test(corpus)) return "SCIENTIFIC HYPOTHESIS";
-  if (/\b(research|study|scientists?|researchers?|genetic|genomic|measur|observ|discover|found|analysis|data)\b/.test(corpus)) return "SCIENTIFIC RESULT";
-  if (/\b(commentary|perspective|opinion|explainer)\b/.test(corpus)) return "COMMENTARY / ANALYSIS";
+
+  const commercialAction =
+    /\b(team up|teams up|partner(?:s|ed|ship)?|collaborat(?:e|es|ed|ion)|commerciali[sz](?:e|es|ed|ation)|licen[cs](?:e|es|ed|ing)|agreement|deal|acqui(?:re|res|red|sition)|merger|manufacturing partnership|strategic alliance|distribution agreement|supply agreement)\b/.test(title) ||
+    /\b(entered into|signed|announced)\b.{0,80}\b(agreement|partnership|collaboration|license|commercialization|commercialisation|alliance|deal)\b/.test(summary);
+
+  if (commercialAction) {
+    return "BUSINESS / COMMERCIAL ACTION";
+  }
+
+  const policyAction =
+    /\b(policy|regulation|law|accords?|treaty|framework|memorandum|standards?|governance|compliance|signator(?:y|ies)|data sharing|open science)\b/.test(title) &&
+    /\b(adopt|sign|launch|join|implement|expand|commit|agreement|accords?|policy|framework)\b/.test(corpus);
+
+  if (policyAction || guard.institutionalContext) {
+    return "POLICY / INSTITUTIONAL ACTION";
+  }
+
+  const eventAnnouncement =
+    guard.announcementLike &&
+    /\b(media|news conference|press conference|briefing|livestream|coverage|event|to discuss|scheduled|invited)\b/.test(corpus);
+
+  if (eventAnnouncement) {
+    return "EVENT ANNOUNCEMENT";
+  }
+
+  const operationalUpdate =
+    /\b(mission status|upcoming return|launch window|docking|undocking|crew return|operations update|operational update|station mission)\b/.test(corpus);
+
+  if (operationalUpdate) {
+    return "MISSION / OPERATIONAL UPDATE";
+  }
+
+  const clinicalResultPredicate =
+    /\b(phase [123ivx]+|randomi[sz]ed|trial (?:showed|found|met|missed)|primary endpoint|secondary endpoint|overall survival|progression[- ]free survival|response rate|adverse events?|safety profile|efficacy|clinical benefit|patients? (?:receiving|treated|randomized|randomised))\b/.test(corpus) &&
+    /\b(showed|found|met|missed|improved|reduced|increased|demonstrated|reported|achieved|failed|associated)\b/.test(corpus);
+
+  if (clinicalResultPredicate) {
+    return "CLINICAL RESULT";
+  }
+
+  const engineeringDemoPredicate =
+    /\b(prototype|device|hardware|system|circuit|platform|engineered|fabricated|built)\b/.test(corpus) &&
+    /\b(demonstrated|achieved|operated|performed|fabricated|validated|tested|reached)\b/.test(corpus);
+
+  if (engineeringDemoPredicate) {
+    return "ENGINEERING DEMONSTRATION";
+  }
+
+  const researchResultPredicate =
+    /\b(new research|study|researchers?|scientists?|analysis|genetic research|genomic|experiment)\b/.test(corpus) &&
+    /\b(finds?|found|shows?|showed|reports?|reported|discovers?|discovered|reveals?|revealed|demonstrates?|demonstrated|observes?|observed|measures?|measured|identifies?|identified|indicates?|suggests?)\b/.test(corpus);
+
+  if (researchResultPredicate) {
+    return "SCIENTIFIC RESULT";
+  }
+
+  const forecastPredicate =
+    /\b(forecast|predict|projection|prospective|scenario)\b/.test(corpus) &&
+    /\b(will|would|expected|projected|predicted|forecast)\b/.test(corpus);
+
+  if (forecastPredicate) {
+    return "FORECAST";
+  }
+
+  if (/\b(arxiv|preprint)\b/.test(corpus)) {
+    return "RESEARCH PREPRINT";
+  }
+
+  if (
+    /\b(hypothesis|may explain|might explain|could explain|proposed mechanism)\b/.test(corpus) &&
+    !researchResultPredicate
+  ) {
+    return "SCIENTIFIC HYPOTHESIS";
+  }
+
+  if (/\b(commentary|perspective|opinion|explainer|roundup)\b/.test(corpus)) {
+    return "COMMENTARY / ANALYSIS";
+  }
+
+  // Domain vocabulary is only a fallback after event predicates fail.
+  if (
+    /\b(research|study|scientists?|researchers?|genetic|genomic|measurement|observed|experiment)\b/.test(corpus)
+  ) {
+    return "SCIENTIFIC RESULT";
+  }
+
   return "UNKNOWN";
 }
 
@@ -2523,15 +2695,43 @@ function decomposeSignalRoles(
   const first = stripTerminalPunctuation(sentences[0] ?? signal.summary ?? signal.title);
   const title = stripTerminalPunctuation(signal.title);
 
-  if (genre === "EVENT ANNOUNCEMENT" || genre === "OPERATIONAL ANNOUNCEMENT") {
+  if (
+    genre === "EVENT ANNOUNCEMENT" ||
+    genre === "OPERATIONAL ANNOUNCEMENT" ||
+    genre === "MISSION / OPERATIONAL UPDATE"
+  ) {
     return {
       coreClaim: title,
       baseline: first || title,
-      reportedResult: "No substantive scientific result is reported in the announcement itself.",
+      reportedResult: "No substantive scientific result is reported in the announcement or operational update itself.",
       implication:
         "The immediate significance is operational or informational: it establishes what is scheduled, communicated, or currently stated, not what has scientifically succeeded.",
       nonImplication:
-        "The announcement does not by itself establish a scientific finding, mission outcome, causal effect, or validated operational result.",
+        "The announcement or operational update does not by itself establish a scientific finding, causal effect, or validated mission outcome.",
+    };
+  }
+
+  if (genre === "BUSINESS / COMMERCIAL ACTION") {
+    return {
+      coreClaim: title,
+      baseline: first || title,
+      reportedResult: title,
+      implication:
+        "The immediate significance is commercial or organizational: the reported action may change commercialization capacity, access, manufacturing, distribution, licensing, or strategic execution.",
+      nonImplication:
+        "A partnership, licensing, or commercialization action does not by itself establish clinical efficacy, patient benefit, technical superiority, or successful market adoption.",
+    };
+  }
+
+  if (genre === "ORGANIZATIONAL / PERSONNEL UPDATE") {
+    return {
+      coreClaim: title,
+      baseline: first || title,
+      reportedResult: title,
+      implication:
+        "The immediate significance is organizational: it records personnel movement, role changes, or leadership structure rather than a scientific effect.",
+      nonImplication:
+        "Personnel movement does not by itself establish scientific performance, clinical benefit, technical progress, or organizational success.",
     };
   }
 
@@ -2571,6 +2771,72 @@ function decomposeSignalRoles(
   };
 }
 
+function resolveClaimTypeFromGenre(
+  genre: SignalGenre,
+  parsedClaimType: ClaimType,
+): ClaimType {
+  switch (genre) {
+    case "EVENT ANNOUNCEMENT":
+    case "OPERATIONAL ANNOUNCEMENT":
+    case "MISSION / OPERATIONAL UPDATE":
+    case "BUSINESS / COMMERCIAL ACTION":
+    case "ORGANIZATIONAL / PERSONNEL UPDATE":
+      return "INFORMATIONAL / OPERATIONAL";
+
+    case "POLICY / INSTITUTIONAL ACTION":
+      return "INSTITUTIONAL";
+
+    case "CLINICAL RESULT":
+      return "CLINICAL / INTERVENTIONAL";
+
+    case "ENGINEERING DEMONSTRATION":
+      return "ENGINEERING / CONSTRUCTIVE";
+
+    case "FORECAST":
+      return "PREDICTIVE";
+
+    case "SCIENTIFIC RESULT":
+      // A scientific-result genre must not remain UNKNOWN merely because
+      // the article wording lacks one of the older heuristic markers.
+      return parsedClaimType === "UNKNOWN"
+        ? "DESCRIPTIVE / EMPIRICAL"
+        : parsedClaimType;
+
+    case "SCIENTIFIC HYPOTHESIS":
+      return parsedClaimType === "UNKNOWN"
+        ? "CAUSAL / MECHANISTIC"
+        : parsedClaimType;
+
+    default:
+      return parsedClaimType;
+  }
+}
+
+function claimGenreConsistencyNote(
+  genre: SignalGenre,
+  claimType: ClaimType,
+): string {
+  if (
+    (genre === "BUSINESS / COMMERCIAL ACTION" ||
+      genre === "ORGANIZATIONAL / PERSONNEL UPDATE" ||
+      genre === "EVENT ANNOUNCEMENT" ||
+      genre === "MISSION / OPERATIONAL UPDATE" ||
+      genre === "OPERATIONAL ANNOUNCEMENT") &&
+    claimType !== "INFORMATIONAL / OPERATIONAL"
+  ) {
+    return "Genre/claim mismatch corrected: informational event must not inherit a scientific, clinical, or engineering contract from domain vocabulary.";
+  }
+
+  if (
+    genre === "POLICY / INSTITUTIONAL ACTION" &&
+    claimType !== "INSTITUTIONAL"
+  ) {
+    return "Genre/claim mismatch corrected: institutional action requires an institutional claim contract.";
+  }
+
+  return "";
+}
+
 function buildEpistemicClaimIdentity(
   signal: SignalItem | null,
 ): EpistemicClaimIdentity | null {
@@ -2581,10 +2847,10 @@ function buildEpistemicClaimIdentity(
   const signalParse = parseEpistemicStructure(signal.title, neutralIntent, signal);
   const roles = decomposeSignalRoles(signal, genre);
 
-  const claimType =
-    genre === "EVENT ANNOUNCEMENT" || genre === "OPERATIONAL ANNOUNCEMENT"
-      ? "INFORMATIONAL / OPERATIONAL"
-      : signalParse.claimType;
+  const claimType = resolveClaimTypeFromGenre(
+    genre,
+    signalParse.claimType,
+  );
 
   const evidenceType =
     claimType === "FORMAL / MATHEMATICAL"
@@ -2602,7 +2868,11 @@ function buildEpistemicClaimIdentity(
                 : claimType === "PREDICTIVE"
                   ? ["prospective prediction", "horizon", "calibration", "outcome"]
                   : claimType === "INFORMATIONAL / OPERATIONAL"
-                    ? ["official source", "event or mission status", "current operational details"]
+                    ? genre === "BUSINESS / COMMERCIAL ACTION"
+                      ? ["traceable company or transaction source", "agreement or commercialization terms", "confirmation of the reported business action"]
+                      : genre === "ORGANIZATIONAL / PERSONNEL UPDATE"
+                        ? ["traceable organizational source", "personnel action and role", "confirmation of the reported change"]
+                        : ["official source", "event, mission, or operational status", "current details"]
                     : ["direct evidence", "explicit boundary conditions"];
 
   return {
@@ -2648,18 +2918,36 @@ function buildParseFromClaimIdentity(
     return {
       object: identity.signalTitle,
       claimType: identity.claimType,
-      claimBasis: ["informational or operational announcement"],
+      claimBasis: [
+        `predicate-first informational classification: ${identity.genre}`,
+        claimGenreConsistencyNote(identity.genre, identity.claimType),
+      ].filter(Boolean),
       validationModes: ["OBSERVATIONAL DISCRIMINATION"],
       disconfirmationMode:
-        "The announcement-level claim weakens if the source is not authentic, the event or status does not occur as stated, or later official information contradicts it.",
-      evidenceNeeded: [
-        "official or otherwise traceable source",
-        "event, mission, or operational details",
-        "confirmation that the announced event or status occurred as stated",
-        "separate evidence for any broader scientific or operational conclusion",
-      ],
+        "The informational claim weakens if the source is not authentic, the reported event or action did not occur as stated, or later reliable information materially contradicts it.",
+      evidenceNeeded:
+        identity.genre === "BUSINESS / COMMERCIAL ACTION"
+          ? [
+              "traceable company or transaction source",
+              "agreement, partnership, licensing, or commercialization details",
+              "confirmation that the reported business action occurred",
+              "separate evidence for any clinical, technical, or market-performance conclusion",
+            ]
+          : identity.genre === "ORGANIZATIONAL / PERSONNEL UPDATE"
+            ? [
+                "traceable organizational source",
+                "personnel action and role",
+                "confirmation that the reported change occurred",
+                "separate evidence for any performance or outcome claim",
+              ]
+            : [
+                "official or otherwise traceable source",
+                "event, mission, or operational details",
+                "confirmation that the announced event or status occurred as stated",
+                "separate evidence for any broader scientific or operational conclusion",
+              ],
       contextPolicy:
-        "Treat the announcement as an informational or operational object. Follow-up wording must not convert it into a scientific-result claim.",
+        "Treat informational events, organizational changes, business actions, announcements, and operational updates as distinct from scientific or clinical results. Follow-up wording must not convert them into a result claim.",
     };
   }
 
@@ -2729,17 +3017,23 @@ function buildSignalInterpretation(
   let consequenceText = `If the reported change survives the claim-specific validation burden, it would change which parts of the current baseline must be treated as necessary rather than contingent.`;
   let nonImplication = `The available signal does not by itself establish conclusions beyond the reported result or satisfy the full ${parse.claimType} validation burden.`;
 
-  if (
-    semanticGuard.announcementLike &&
-    parse.claimType === "INFORMATIONAL / OPERATIONAL"
-  ) {
-    noveltyText = `This signal is primarily an informational or operational announcement, not a demonstrated scientific result. Its immediate content is: ${baseline}.`;
+  if (parse.claimType === "INFORMATIONAL / OPERATIONAL") {
+    const informationalLabel =
+      claimIdentity?.genre === "BUSINESS / COMMERCIAL ACTION"
+        ? "business or commercial action"
+        : claimIdentity?.genre === "ORGANIZATIONAL / PERSONNEL UPDATE"
+          ? "organizational or personnel update"
+          : claimIdentity?.genre === "MISSION / OPERATIONAL UPDATE"
+            ? "mission or operational update"
+            : "informational or operational announcement";
+
+    noveltyText = `This signal is primarily a ${informationalLabel}, not a demonstrated scientific result. Its immediate content is: ${baseline}.`;
     consequenceText =
       claimIdentity?.implication ||
-      `Its significance is limited to the event, mission, communication, or operational context explicitly stated in the source until substantive outcomes or evidence are reported.`;
+      `Its significance is limited to the reported event, action, organizational change, mission, communication, or operational context until separate substantive outcomes are evidenced.`;
     nonImplication =
       claimIdentity?.nonImplication ||
-      `The announcement alone does not establish a scientific finding, mission outcome, causal effect, or validated operational result.`;
+      `The informational signal alone does not establish a scientific finding, clinical effect, causal effect, or validated downstream outcome.`;
   } else if (parse.claimType === "FORMAL / MATHEMATICAL") {
     noveltyText = `The formal novelty is that ${reportedChange.charAt(0).toLowerCase()}${reportedChange.slice(1)}, rather than simply taking the conventional structure as given.`;
     consequenceText = `If the derivation is genuinely non-circular, structure ordinarily introduced within the conventional formulation may be recoverable from ${formalBasis}, shifting part of the framework from assumed structure to derived consequence.`;
@@ -3077,29 +3371,42 @@ function synthesizeFollowUpAnswer(
 
   if (claimIdentity?.claimType === "INFORMATIONAL / OPERATIONAL") {
     const q = normalize(query);
+    const genre = claimIdentity.genre;
+
+    const isBusiness = genre === "BUSINESS / COMMERCIAL ACTION";
+    const isPersonnel = genre === "ORGANIZATIONAL / PERSONNEL UPDATE";
 
     if (/\b(measured quantity|measurement|replication|independent measurement)\b/.test(q)) {
       return {
         demand,
-        directAnswer:
-          "No scientific measured quantity or replication is required for the announcement itself. The immediate claim is informational or operational. The relevant evidence is the official source and confirmation of the event or mission status. A scientific measurement becomes relevant only if a separate substantive result is later claimed.",
-        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nCore claim: ${claimIdentity.coreClaim}\n\nReported result: ${claimIdentity.reportedResult}\n\nRelevant evidence: ${claimIdentity.evidenceType.join("; ")}.\n\nTherefore the follow-up must not convert an announcement into a scientific-result claim. ${contract.nextAction}`,
+        directAnswer: isBusiness
+          ? "No scientific measured quantity or replication is required to establish the partnership or commercialization action itself. The relevant evidence is a traceable company or transaction source, the agreement or commercialization terms, and confirmation that the reported business action occurred. Clinical efficacy, technical superiority, or market success would require separate evidence."
+          : isPersonnel
+            ? "No scientific measured quantity or replication is required for a personnel update itself. The relevant evidence is a traceable organizational source, the person's role, and confirmation that the reported appointment, departure, promotion, or transfer occurred. Performance consequences require separate evidence."
+            : "No scientific measured quantity or replication is required for the announcement or operational update itself. The relevant evidence is the official source and confirmation of the reported event, mission status, or activity. A scientific measurement becomes relevant only if a separate substantive result is later claimed.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nCore claim: ${claimIdentity.coreClaim}\n\nReported result: ${claimIdentity.reportedResult}\n\nRelevant evidence: ${claimIdentity.evidenceType.join("; ")}.\n\nThe follow-up must not convert an informational event into a scientific-result claim.`,
       };
     }
 
     if (/\b(boundary condition|analysis choice|erase the effect)\b/.test(q)) {
       return {
         demand,
-        directAnswer:
-          "There is no demonstrated scientific effect here for a boundary condition or analysis choice to erase. The announcement-level claim would instead be weakened if the source were not authentic, the event or mission status changed, or the announced activity did not occur as stated.",
-        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nThe relevant failure conditions are operational and documentary rather than experimental. Broader scientific conclusions require a separate substantive claim.`,
+        directAnswer: isBusiness
+          ? "There is no demonstrated clinical or scientific effect here for an analysis choice to erase. The business claim would instead be weakened if the partnership, licensing, or commercialization arrangement were misreported, materially changed, terminated, or failed to become effective. Whether it produces clinical, technical, or market benefit is a separate downstream claim."
+          : isPersonnel
+            ? "There is no scientific effect here for a boundary condition to erase. The personnel claim would instead be weakened if the appointment, departure, promotion, or transfer were incorrect, reversed, or superseded. Any effect on organizational performance is a separate claim."
+            : "There is no demonstrated scientific effect here for a boundary condition or analysis choice to erase. The informational claim would instead be weakened if the source were not authentic, the event or mission status changed, or the reported activity did not occur as stated.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nThe relevant failure conditions follow the event predicate itself, not the domain vocabulary surrounding the entities.`,
       };
     }
 
     return {
       demand,
-      directAnswer:
-        "This follow-up remains attached to an informational or operational announcement. Evaluate source authenticity, event or mission status, and current official details; do not introduce scientific measurement, replication, or causal validation unless a new substantive result is explicitly introduced.",
+      directAnswer: isBusiness
+        ? "This follow-up remains attached to a business or commercial action. Evaluate whether the reported agreement, partnership, licensing, or commercialization action occurred and what its terms imply operationally; do not convert it into a clinical or technical result without separate evidence."
+        : isPersonnel
+          ? "This follow-up remains attached to an organizational or personnel update. Evaluate whether the reported role change occurred and what organizational consequences are actually evidenced; do not infer scientific or performance effects from the personnel event alone."
+          : "This follow-up remains attached to an informational or operational object. Evaluate source authenticity, event or mission status, and current details; do not introduce scientific measurement, replication, or causal validation unless a new substantive result is explicitly introduced.",
       reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nSignal genre: ${claimIdentity.genre}.\n\nCore claim: ${claimIdentity.coreClaim}\n\nEvidence boundary: ${claimIdentity.nonImplication}`,
     };
   }

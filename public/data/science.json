@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-11T16:11:48.346Z",
+  "updated": "2026-09-11T16:31:02.690Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What's carving active gullies on Mars? It's not water",
+      "url": "https://phys.org/news/2026-09-gullies-mars.html",
+      "summary": "Scientists were shocked when they received the first images of Martian gullies. They were even more shocked as those gullies appeared to change over time. Their similarities to gullies seen on Earth were uncanny, but all…",
+      "ts": 1789143612000,
+      "publishedAt": "2026-09-11T16:20:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seasonal forecasts could give northern India months of warning before severe winter air pollution",
+      "url": "https://phys.org/news/2026-09-seasonal-northern-india-months-severe.html",
+      "summary": "Northern India experiences some of the world's worst winter air pollution, with dangerous episodes often prompting emergency control efforts. In major cities like Delhi, the Air Quality Index has reached levels above 999…",
+      "ts": 1789143604000,
+      "publishedAt": "2026-09-11T16:20:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How diaspora groups in the US are responding to disasters in Nepal, Colombia, Venezuela and other homelands",
@@ -783,22 +799,6 @@
       "title": "Breaking Water at Graphene Defects",
       "url": "https://arxiv.org/abs/2609.11602",
       "summary": "arXiv:2609.11602v1 Announce Type: new Abstract: Water dissociation at solid surfaces underpins processes ranging from corrosion and catalysis to electrochemistry and photovoltaics. Defects often serve as reactive sites f…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Neural Networks to Infer the Perpendicular Energy Conductivity in the Scrape-Off Layer of Stellarator Devices",
-      "url": "https://arxiv.org/abs/2609.11628",
-      "summary": "arXiv:2609.11628v1 Announce Type: new Abstract: In this work, we develop an inverse Physics-Informed Neural Network (PINN) framework to infer the dependence of the scrape-off layer (SOL) perpendicular heat conductivity o…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Surface gravity wave-mean flow interaction with comparable spatial scales. Part II: two-way coupling and wave-wave interactions",
-      "url": "https://arxiv.org/abs/2609.11631",
-      "summary": "arXiv:2609.11631v1 Announce Type: new Abstract: We consider narrow-band deep-water surface gravity waves propagating above a background flow whose spatial scale is comparable to the wavelength. We focus on the regime whe…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
