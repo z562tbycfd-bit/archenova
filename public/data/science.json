@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-11T08:36:17.025Z",
+  "updated": "2026-09-11T10:49:40.729Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Blue light breaks long-standing chemistry rule, unlocking 3D drug building blocks",
+      "url": "https://phys.org/news/2026-09-blue-chemistry-3d-drug-blocks.html",
+      "summary": "For more than a century, pharmaceutical companies have relied on flat structures called aromatic rings, which can help drugs bind to target sites in the body. They include benzene rings and other flat, nitrogen-containin…",
+      "ts": 1789123201000,
+      "publishedAt": "2026-09-11T10:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Indonesia seeks to bring back baby orangutans allegedly trafficked to India",
@@ -791,14 +799,6 @@
       "title": "Sub-cycle doublon-holon dynamics in one-dimensional Mott insulators revealed by two-color high-harmonic spectroscopy",
       "url": "https://arxiv.org/abs/2609.11858",
       "summary": "arXiv:2609.11858v1 Announce Type: cross Abstract: Solid-state high-harmonic spectroscopy is becoming an emerging tool for probing nonequilibrium many-body dynamics. Yet, direct measurements of strongly driven, sub-optica…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-fidelity k$\\cdot$p representations of first-principles electronic band structures through covariant renormalization",
-      "url": "https://arxiv.org/abs/2609.11861",
-      "summary": "arXiv:2609.11861v1 Announce Type: cross Abstract: The k$\\cdot$p method can be applied directly to first-principles energies and momentum matrix elements, but the resulting models converge slowly with the number of bands …",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

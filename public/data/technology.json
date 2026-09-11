@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-11T08:36:29.838Z",
+  "updated": "2026-09-11T10:49:42.632Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Week in images: 07-11 Sep 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_07-11_Sep_2026",
+      "summary": "Week in images: 07-11 Sep 2026 Discover our week through the lens",
+      "ts": 1789131600000,
+      "publishedAt": "2026-09-11T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Meet the under-35s shaping the future of biotech",
+      "url": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
+      "summary": "Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and techn…",
+      "ts": 1789117200000,
+      "publishedAt": "2026-09-11T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: An AI tool aims to catch harder-to-detect heart attacks in EKGs",
@@ -46,6 +64,15 @@
       "ts": 1789113600000,
       "publishedAt": "2026-09-11T08:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 366 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-366-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1789111130000,
+      "publishedAt": "2026-09-11T07:18:50.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "SpaceNews",
@@ -784,33 +811,6 @@
       "ts": 1789023600000,
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "ts": 1789023600000,
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "What You Need to Know about the IAEA General Conference",
-      "url": "http://www.iaea.org/newscenter/news/what-you-need-to-know-about-the-iaea-general-conference",
-      "summary": "",
-      "ts": 1789021805000,
-      "publishedAt": "2026-09-10T06:30:05.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 10 – LDN 1295: The Giraffe Nebula",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-10-ldn-1295-the-giraffe-nebula/",
-      "summary": "APOD Science APOD APOD: 2026 September 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1789013100000,
-      "publishedAt": "2026-09-10T04:05:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
