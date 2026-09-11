@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:41:57.169Z",
+  "updated": "2026-09-11T14:53:44.279Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -46,6 +46,24 @@
       "ts": 1789128600000,
       "publishedAt": "2026-09-11T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Surge in displacement following fighting in southwest Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168314",
+      "summary": "At least 46,000 people have been displaced since renewed fighting last week between Houthi rebels and pro-government forces in southwestern Yemen, the International Organization for Migration (IOM) reported on Friday.",
+      "ts": 1789128000000,
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Terrorist propaganda is outpacing global efforts to stop it, UN report finds",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168313",
+      "summary": "Terrorist groups are recruiting, raising money and even planning operations through propaganda that is now “embedded” in every stage of their work, a new UN report warns – and governments are struggling to keep pace.",
+      "ts": 1789128000000,
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -696,15 +714,6 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "NASA",
-      "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
-      "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/",
-      "summary": "NASA is bringing artificial intelligence to the study of the Moon, helping researchers transform how they analyze the Moon’s surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA …",
-      "ts": 1789041600000,
-      "publishedAt": "2026-09-10T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "United Nations News",
       "title": "Ukraine: Drone attacks on Chornobyl are ‘gambling with the safety of millions of people’",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168312",
@@ -750,6 +759,15 @@
       "categoryId": "global-governance"
     },
     {
+      "source": "NASA",
+      "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
+      "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/",
+      "summary": "NASA is bringing artificial intelligence to the study of the Moon, helping researchers transform how they analyze the Moon’s surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA …",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree",
       "url": "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/?utm_campaign=rss",
@@ -793,24 +811,6 @@
       "ts": 1789036825000,
       "publishedAt": "2026-09-10T10:40:25.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What to expect from UniQure’s upcoming Huntington’s gene therapy readout ",
-      "url": "https://www.statnews.com/2026/09/10/uniqure-huntingtons-gene-therapy-trial-readout/?utm_campaign=rss",
-      "summary": "Before the end of September, UniQure is expected to report four-year results from the closely tracked clinical trial of its gene therapy for Huntington’s disease.",
-      "ts": 1789036200000,
-      "publishedAt": "2026-09-10T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roivant is one of the savviest dealmakers in biotech. It also has a secret weapon",
-      "url": "https://www.statnews.com/2026/09/10/roivant-biotech-dealmaking-mosliciguat-origins/?utm_campaign=rss",
-      "summary": "A Roivant lung disease drug has succeeded in a mid-stage study. But the drug’s origins are another fascinating aspect to the story.",
-      "ts": 1789036200000,
-      "publishedAt": "2026-09-10T10:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
