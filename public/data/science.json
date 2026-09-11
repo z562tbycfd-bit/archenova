@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-09-11T16:57:54.244Z",
+  "updated": "2026-09-11T18:14:35.685Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Giant volcanic blanket reveals hidden 'Pompeii' of Andean landscapes",
+      "url": "https://phys.org/news/2026-09-giant-volcanic-blanket-reveals-hidden.html",
+      "summary": "A vast sheet of volcanic rock in the Andes has preserved clues to a buried landscape that existed 22 million years ago, according to a new study led by UCL (University College London) researchers.",
+      "ts": 1789149612000,
+      "publishedAt": "2026-09-11T18:00:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study offers a detailed look at how wildfire smoke impacts Reno's air quality",
+      "url": "https://phys.org/news/2026-09-wildfire-impacts-reno-air-quality.html",
+      "summary": "With Western wildfires increasing in size, duration and intensity, millions of Americans are now exposed to wildfire smoke each year. In California, 2020 and 2021 were particularly challenging, with a 10-fold increase in…",
+      "ts": 1789149605000,
+      "publishedAt": "2026-09-11T18:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI extracts interpretable constitutive laws directly from solid-mechanics data",
+      "url": "https://phys.org/news/2026-09-ai-constitutive-laws-solid-mechanics.html",
+      "summary": "Researchers at the Eastern Institute of Technology (EIT), Ningbo, have developed a graph-based approach that directly extracts concise, accurate constitutive equations from solid-material experimental data. The study, pu…",
+      "ts": 1789149601000,
+      "publishedAt": "2026-09-11T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Healthy checkout policy shows promise for reducing soda sales and increasing healthy snack purchases",
+      "url": "https://phys.org/news/2026-09-healthy-checkout-policy-soda-sales.html",
+      "summary": "In March 2021, Berkeley, Calif., became the first city in the world to ban the display of sugary beverages and snacks in store checkout lanes, where candy, chocolate and soda are commonly placed to encourage impulse buyi…",
+      "ts": 1789148405000,
+      "publishedAt": "2026-09-11T17:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Project RattleCam reveals baby snakes during birthing season in three US states for the first time",
+      "url": "https://phys.org/news/2026-09-rattlecam-reveals-baby-snakes-birthing.html",
+      "summary": "It's the season for babies in the snake world, and Project RattleCam is capturing magical moments.",
+      "ts": 1789148401000,
+      "publishedAt": "2026-09-11T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brain's ability to hear a musical beat remains distinctly human, study suggests",
+      "url": "https://phys.org/news/2026-09-brain-ability-musical-distinctly-human.html",
+      "summary": "The seemingly trivial ability to hear a regular pulse in music is a remarkable—and perhaps distinctively human—feature of the brain. In a wide-ranging critical review, Gábor Háden of the HUN-REN Research Centre for Natur…",
+      "ts": 1789147204000,
+      "publishedAt": "2026-09-11T17:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Travel bots are making decisions for us—convenient, but should we trust them?",
+      "url": "https://phys.org/news/2026-09-bots-decisions-convenient.html",
+      "summary": "Imagine telling your phone that you want a quiet boutique hotel near a city center, below a certain price, with a decent breakfast and late checkout. A few seconds later, an AI assistant compares the options, explains wh…",
+      "ts": 1789147202000,
+      "publishedAt": "2026-09-11T17:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrical pulses convert PFAS waste into valuable silver fluoride",
+      "url": "https://phys.org/news/2026-09-electrical-pulses-pfas-valuable-silver.html",
+      "summary": "Fluorinated waste, like that found in firefighting aqueous film-forming foam, can act as a significant environmental pollutant. Recently, James Tour's lab at Rice University developed a method to capture fluoride from th…",
+      "ts": 1789146007000,
+      "publishedAt": "2026-09-11T17:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why making friends at university feels harder than it really is",
+      "url": "https://phys.org/news/2026-09-friends-university-harder.html",
+      "summary": "The summer before starting university can bring multiple worries for students: worrying about obtaining a place in a desired program, navigating the clearing process to confirm a place, securing housing, sorting out fina…",
+      "ts": 1789146005000,
+      "publishedAt": "2026-09-11T17:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "How the body adapts to extreme heat",
+      "url": "https://www.sciencenews.org/article/how-nody-adapts-to-heatstroke-climate",
+      "summary": "As heatwaves become more frequent and severe, scientists are studying whether heat acclimation can help protect vulnerable populations.",
+      "ts": 1789146000000,
+      "publishedAt": "2026-09-11T17:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Libraries are a lifeline, new research finds",
@@ -719,86 +799,6 @@
       "title": "Non-stick vacuum wall collisions with a laser-coolable molecule",
       "url": "https://arxiv.org/abs/2609.11406",
       "summary": "arXiv:2609.11406v1 Announce Type: new Abstract: Molecular species that are suitable for direct laser cooling are typically considered lost or destroyed if they collide with an ambient temperature vacuum wall. Here, we st…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DiffSWE2d: a differentiable Shallow Water Equations solver for end-to-end flood and tsunami modelling",
-      "url": "https://arxiv.org/abs/2609.11426",
-      "summary": "arXiv:2609.11426v1 Announce Type: new Abstract: Solving inverse and optimisation problems with traditional shallow water equations (SWE) solvers can be computationally expensive, particularly when gradients with respect …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Combinations of measurements that are simultaneous fits of parameters of interest and systematic uncertainties using the BLUE method",
-      "url": "https://arxiv.org/abs/2609.11461",
-      "summary": "arXiv:2609.11461v1 Announce Type: new Abstract: Combining estimates of the same physics parameter obtained from different measurements improves the precision and robustness of the parameter determination. Modern particle…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiscale retinal flow on a spherical cap of varying aperture",
-      "url": "https://arxiv.org/abs/2609.11492",
-      "summary": "arXiv:2609.11492v1 Announce Type: new Abstract: Modelling retinal haemodynamics is crucial for understanding retinal microcirculation but is computationally demanding because it involves coupling between the vasculature …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Antimony for broadband nanophotonics across the ultraviolet, visible and infrared",
-      "url": "https://arxiv.org/abs/2609.11501",
-      "summary": "arXiv:2609.11501v1 Announce Type: new Abstract: Semimetal elemental antimony (Sb) nanostructures show great potential for applications where nanophotonic properties play a key role, such as phase-change optical memories,…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kinetic modeling of molecular beam formation in a cryogenic buffer-gas cell",
-      "url": "https://arxiv.org/abs/2609.11544",
-      "summary": "arXiv:2609.11544v1 Announce Type: new Abstract: Cryogenic buffer-gas cells are widely used to produce cold molecular beams, but the microscopic dynamics governing beam formation remain challenging to model. Here we prese…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "kobra: a new Vlasov code intended for plasma-wall modeling",
-      "url": "https://arxiv.org/abs/2609.11563",
-      "summary": "arXiv:2609.11563v1 Announce Type: new Abstract: In a fusion device plasma-wall interactions \\edit{on the sheath scale} can be modeled as a collisionless problem. When modeling these regions particle-in-cell codes suffer …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Speed Semi-FE Readout Module for ATLAS MDT at HL-LHC: Design and Production-Level Characterization",
-      "url": "https://arxiv.org/abs/2609.11565",
-      "summary": "arXiv:2609.11565v1 Announce Type: new Abstract: The High-Luminosity upgrade of the Large Hadron Collider (HL-LHC) introduces increased demands on the ATLAS Muon Spectrometer, particularly in terms of data throughput, tim…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporal Localisation of Waves from Imaginary Line-Gap Topology",
-      "url": "https://arxiv.org/abs/2609.11577",
-      "summary": "arXiv:2609.11577v1 Announce Type: new Abstract: For non-Hermitian Hamiltonians, gain, loss, and non-reciprocity produce complex eigenvalues which, in turn, facilitate different kinds of topological phases. One example is…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low inertia limit of elasto-inertial turbulence",
-      "url": "https://arxiv.org/abs/2609.11581",
-      "summary": "arXiv:2609.11581v1 Announce Type: new Abstract: Pipe and channel flows of viscoelastic fluids display chaotic dynamics at unusually low speeds, a phenomenon referred to as elasto-inertial turbulence, EIT. First reported …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Heterogeneously Integrated Efficient and Widely Tunable Lasers at 795 nm for Rubidium-Based Quantum Technologies",
-      "url": "https://arxiv.org/abs/2609.11585",
-      "summary": "arXiv:2609.11585v1 Announce Type: new Abstract: Scaling quantum processors and optical atomic clocks fundamentally requires orders-of-magnitude reductions in the size, weight, power, and cost of optical control systems. …",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
