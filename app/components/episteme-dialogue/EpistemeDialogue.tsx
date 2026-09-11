@@ -203,6 +203,21 @@ type SignalInterpretation = {
   decisiveTest: InterpretedClaim;
 };
 
+type FollowUpDemand =
+  | "RECOVERABILITY"
+  | "ASSUMPTION"
+  | "FALSIFICATION"
+  | "EVIDENCE_STATUS"
+  | "VALIDATION"
+  | "IMPLICATION"
+  | "GENERAL";
+
+type FollowUpSynthesis = {
+  demand: FollowUpDemand;
+  directAnswer: string;
+  reasoning: string;
+};
+
 type InquiryStageStatus =
   | "ACTIVE"
   | "READY"
@@ -2419,6 +2434,164 @@ function synthesizeSignalSpecificAnswer(
   };
 }
 
+function findEvidenceRequirementAudit(
+  audit: EvidenceAudit,
+  patterns: RegExp[],
+): EvidenceRequirementAudit | null {
+  return (
+    audit.requirements.find((item) =>
+      patterns.some((pattern) => pattern.test(normalize(item.requirement))),
+    ) ?? null
+  );
+}
+
+function classifyFollowUpDemand(query: string): FollowUpDemand {
+  const q = normalize(query);
+
+  if (/\b(recover|recovered|recovery|reproduce|reproduced|reproduction|independently derive|independent derivation)\b/.test(q)) {
+    return "RECOVERABILITY";
+  }
+  if (/\b(assumption|assumptions|premise|premises|hidden import|hidden assumption|indispensable)\b/.test(q)) {
+    return "ASSUMPTION";
+  }
+  if (/\b(falsif|invalidate|invalidated|counterexample|disconfirm|disprove|break the claim|break it)\b/.test(q)) {
+    return "FALSIFICATION";
+  }
+  if (/\b(evidence|supported|verified|verification|proof|proven|established|confidence)\b/.test(q)) {
+    return "EVIDENCE_STATUS";
+  }
+  if (/\b(test|validate|validation|replicate|replication|confirm|decisive test)\b/.test(q)) {
+    return "VALIDATION";
+  }
+  if (/\b(imply|implication|mean|consequence|significance|matter|important)\b/.test(q)) {
+    return "IMPLICATION";
+  }
+  return "GENERAL";
+}
+
+function hasPriorAssistantTurn(previousMessages: DialogueMessage[]): boolean {
+  return previousMessages.some((message) => message.role === "episteme");
+}
+
+function isContextualFollowUp(
+  query: string,
+  previousMessages: DialogueMessage[],
+  primarySignal: SignalItem | null,
+): boolean {
+  if (!hasPriorAssistantTurn(previousMessages)) return false;
+  if (isLikelyFollowUp(query)) return true;
+
+  const q = normalize(query);
+  const demand = classifyFollowUpDemand(query);
+  const contextualReference =
+    /\b(claim|claimed|structure|construction|derivation|result|assumption|premise|it|this|that|independently|counterexample)\b/.test(q);
+
+  // A new explicitly named signal should be interpreted as a new object, not
+  // silently folded into the previous dialogue object.
+  if (primarySignal && words(primarySignal.title).filter((token) => token.length > 4).some((token) => q.includes(token))) {
+    return false;
+  }
+
+  return demand !== "GENERAL" && contextualReference;
+}
+
+function evidenceStatusSentence(
+  item: EvidenceRequirementAudit | null,
+  fallbackLabel: string,
+): string {
+  if (!item) return `${fallbackLabel}: UNKNOWN`;
+  return `${item.requirement}: ${item.status}`;
+}
+
+function synthesizeFollowUpAnswer(
+  query: string,
+  interpretation: SignalInterpretation,
+  audit: EvidenceAudit,
+  contract: EpistemicContract,
+): FollowUpSynthesis {
+  const demand = classifyFollowUpDemand(query);
+  const recovery = findEvidenceRequirementAudit(audit, [
+    /recover/,
+    /claimed mathematical/,
+    /formal structure/,
+  ]);
+  const independent = findEvidenceRequirementAudit(audit, [
+    /independent/,
+    /reproduction/,
+    /replication/,
+  ]);
+  const assumptions = findEvidenceRequirementAudit(audit, [
+    /assumption/,
+    /premise/,
+  ]);
+  const derivation = findEvidenceRequirementAudit(audit, [
+    /derivation/,
+    /inference/,
+    /hidden import/,
+  ]);
+
+  if (demand === "RECOVERABILITY") {
+    const recoveryStatus = recovery?.status ?? "UNKNOWN";
+    const independentStatus = independent?.status ?? "MISSING";
+    const canAffirm = ["VERIFIED", "INDEPENDENTLY_VERIFIED"].includes(recoveryStatus) &&
+      independentStatus === "INDEPENDENTLY_VERIFIED";
+
+    return {
+      demand,
+      directAnswer: canAffirm
+        ? `Yes, within the currently audited evidence boundary. The claimed structure is independently recovered rather than merely reported: ${evidenceStatusSentence(recovery, "structure recovery")}; ${evidenceStatusSentence(independent, "independent verification")}.`
+        : `Not yet, based on the currently available evidence. The indexed source reports the construction, but Episteme does not currently have independent evidence establishing that the claimed structure can be recovered without importing equivalent assumptions. ${evidenceStatusSentence(recovery, "structure recovery")}; ${evidenceStatusSentence(independent, "independent verification")}.`,
+      reasoning: `What is claimed: ${interpretation.reportedChange.text}\n\nWhat must be shown independently: the stated construction must recover the claimed formal structure from explicit assumptions without importing an equivalent result through hidden premises.\n\nCurrent audit: ${evidenceStatusSentence(assumptions, "explicit assumptions")}; ${evidenceStatusSentence(derivation, "derivation validity")}; ${evidenceStatusSentence(recovery, "structure recovery")}; ${evidenceStatusSentence(independent, "independent verification")}.\n\nTherefore: independent recoverability cannot be affirmed unless recovery and independent verification move beyond claimed, unknown, or missing status.\n\nWhat would resolve it: ${contract.nextAction}`,
+    };
+  }
+
+  if (demand === "ASSUMPTION") {
+    return {
+      demand,
+      directAnswer: `The indispensable assumption cannot yet be identified from the currently audited evidence. ${evidenceStatusSentence(assumptions, "explicit assumptions")}. Episteme should therefore not invent a hidden premise from the abstract-level signal.`,
+      reasoning: `The relevant object is the reported construction: ${interpretation.reportedChange.text}\n\nCurrent boundary: ${evidenceStatusSentence(assumptions, "explicit assumptions")}; ${evidenceStatusSentence(derivation, "derivation validity")}.\n\nThe correct next step is to expose every premise used in the derivation and test which one cannot be removed without losing the claimed structure. ${contract.nextAction}`,
+    };
+  }
+
+  if (demand === "FALSIFICATION") {
+    return {
+      demand,
+      directAnswer: `The claim would be undermined by the first valid counterexample, failed equivalence, hidden imported premise, or derivation step that prevents recovery of the stated structure. The currently indexed evidence does not establish that such a test has already been passed.`,
+      reasoning: `Claim under test: ${interpretation.reportedChange.text}\n\nDisconfirmation conditions: ${contract.disconfirmationConditions.join(" ")}\n\nDecisive test: ${interpretation.decisiveTest.text}\n\nCurrent evidence boundary: ${audit.uncertainty}`,
+    };
+  }
+
+  if (demand === "EVIDENCE_STATUS") {
+    return {
+      demand,
+      directAnswer: `${audit.summary} The key distinction is that reported or claimed support is not equivalent to independent verification.`,
+      reasoning: `Requirement audit: ${audit.requirements.map((item) => `${item.requirement}: ${item.status}`).join("; ")}.\n\nWhat this permits: ${interpretation.evidenceBoundary.text}\n\nWhat it does not permit: ${interpretation.nonImplications[0]?.text ?? "No stronger conclusion is justified without satisfying the remaining evidence requirements."}`,
+    };
+  }
+
+  if (demand === "VALIDATION") {
+    return {
+      demand,
+      directAnswer: `The relevant validation path is ${contract.validationModes.join(" + ")}. The decisive issue is not whether the construction is elegant, but whether it survives the claim-specific reality test: ${contract.realityTest}`,
+      reasoning: `Current claim: ${interpretation.reportedChange.text}\n\nRequired evidence: ${contract.evidenceRequirements.join("; ")}.\n\nCurrent audit: ${audit.requirements.map((item) => `${item.requirement}: ${item.status}`).join("; ")}.\n\nNext validation action: ${contract.nextAction}`,
+    };
+  }
+
+  if (demand === "IMPLICATION") {
+    return {
+      demand,
+      directAnswer: `${interpretation.consequenceIfValid.text} However, ${interpretation.nonImplications[0]?.text ?? "the stronger implication remains unestablished."}`,
+      reasoning: `Established baseline: ${interpretation.baseline.text}.\n\nReported change: ${interpretation.reportedChange.text}.\n\nEvidence boundary: ${interpretation.evidenceBoundary.text}\n\nDecisive test: ${interpretation.decisiveTest.text}`,
+    };
+  }
+
+  return {
+    demand,
+    directAnswer: `${interpretation.reportedChange.text}. ${interpretation.evidenceBoundary.text}`,
+    reasoning: `Specific novelty: ${interpretation.specificNovelty.text}\n\nCurrent evidence boundary: ${audit.uncertainty}\n\nDecisive test: ${interpretation.decisiveTest.text}`,
+  };
+}
+
 function buildEvidenceBoundary(
   strength: EvidenceStrength,
   relevant: SignalItem[],
@@ -2554,6 +2727,17 @@ function buildIntelligence(
         evidenceAudit,
       )
     : null;
+  const followUpSynthesis =
+    lead &&
+    signalInterpretation &&
+    isContextualFollowUp(query, previousMessages, primarySignal)
+      ? synthesizeFollowUpAnswer(
+          query,
+          signalInterpretation,
+          evidenceAudit,
+          epistemicContract,
+        )
+      : null;
 
   let directAnswer = "";
   let reasoning = "";
@@ -2588,6 +2772,18 @@ function buildIntelligence(
       "What evidence would discriminate between competing answers?",
       "Which source or observation is currently missing?",
     ];
+  } else if (followUpSynthesis) {
+    directAnswer = followUpSynthesis.directAnswer;
+    reasoning = followUpSynthesis.reasoning;
+
+    // Preserve the existing EpistemicContract for the rest of the answer.
+    // Only Direct Answer and WHY THIS FOLLOWS are re-synthesized around the
+    // new epistemic demand, so the Stage 4.1–5.1 discipline remains intact.
+    alternative = epistemicContract.alternativeExplanation;
+    challenge = epistemicContract.adversarialCheck;
+    falsification = epistemicContract.disconfirmationConditions.join(" ");
+    nextAction = epistemicContract.nextAction;
+    nextQuestions = epistemicContract.continueInquiry;
   } else if (mode === "challenge") {
     directAnswer =
       `The strongest current target for challenge is “${lead.title}”. The present interpretation should remain provisional until it survives independent evidence, alternative explanations, and explicit failure conditions.`;

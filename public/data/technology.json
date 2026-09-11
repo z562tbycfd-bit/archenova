@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-11T14:53:44.279Z",
+  "updated": "2026-09-11T14:59:36.065Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -714,6 +714,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
+      "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/",
+      "summary": "NASA is bringing artificial intelligence to the study of the Moon, helping researchers transform how they analyze the Moon’s surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA …",
+      "ts": 1789041600000,
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "United Nations News",
       "title": "Ukraine: Drone attacks on Chornobyl are ‘gambling with the safety of millions of people’",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168312",
@@ -757,15 +766,6 @@
       "ts": 1789041600000,
       "publishedAt": "2026-09-10T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
-      "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/",
-      "summary": "NASA is bringing artificial intelligence to the study of the Moon, helping researchers transform how they analyze the Moon’s surface. In an ongoing collaboration with IBM Research and several academic institutions, NASA …",
-      "ts": 1789041600000,
-      "publishedAt": "2026-09-10T12:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "STAT",
