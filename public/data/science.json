@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-11T13:59:54.264Z",
+  "updated": "2026-09-11T14:15:54.920Z",
   "items": [
+    {
+      "source": "Quanta Magazine",
+      "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+      "url": "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/",
+      "summary": "The mystery of the flipping foraminifera may conceal a rarely observed evolutionary process playing out across the planet. The post Why Do These Fossil Shells Flip Their Spirals Every Few Millennia? first appeared on Qua…",
+      "ts": 1789136080000,
+      "publishedAt": "2026-09-11T14:14:40.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uniting sequence and structure to map the protein universe across billions of years of evolution",
+      "url": "https://phys.org/news/2026-09-sequence-protein-universe-billions-years.html",
+      "summary": "An international team of researchers, including those at the Earth-Life Science Institute (ELSI) at the Institute of Science Tokyo, has developed a protein language model that brings together two fundamental sources of i…",
+      "ts": 1789135206000,
+      "publishedAt": "2026-09-11T14:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research shows agricultural fungicides drive evolution of multidrug resistance in soil microbes",
+      "url": "https://phys.org/news/2026-09-agricultural-fungicides-evolution-multidrug-resistance.html",
+      "summary": "Two newly published studies from Trinity College Dublin scientists raise significant concerns about the use of agricultural fungicides.That is because they show fungicides can rapidly drive soil microbes to evolve multid…",
+      "ts": 1789135201000,
+      "publishedAt": "2026-09-11T14:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "When a company 'believes' something false that causes harm, who's to blame? Professor offers a new answer",
@@ -775,30 +799,6 @@
       "title": "Zero-shot rib design: merging training-free generative prior with topology optimization",
       "url": "https://arxiv.org/abs/2609.10643",
       "summary": "arXiv:2609.10643v1 Announce Type: cross Abstract: Natural load-bearing patterns such as leaf venation, trabecular bone, and spider webs achieve high stiffness per unit mass, yet classical topology optimizers rarely reach…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave optical imaging of an oscillating electric dipole orbiting a black hole",
-      "url": "https://arxiv.org/abs/2609.10689",
-      "summary": "arXiv:2609.10689v1 Announce Type: cross Abstract: We study the electromagnetic radiation and wave-optical imaging of an oscillating electric dipole orbiting a Kerr black hole. We derive the effective 4-current associated…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits",
-      "url": "https://arxiv.org/abs/2609.10834",
-      "summary": "arXiv:2609.10834v1 Announce Type: cross Abstract: This paper presents the design and test results of a CMOS current-based Digital to Analog Converter (DAC) that operates at cryogenic temperatures and that can be used to …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The three-vortex system: Hopf fibration, symplectic reduction, and near-collisions",
-      "url": "https://arxiv.org/abs/2609.10847",
-      "summary": "arXiv:2609.10847v1 Announce Type: cross Abstract: We study the dynamics of collisions and near-collisions in the system of three point vortices in the plane. The dynamics is known to be completely integrable and can be r…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

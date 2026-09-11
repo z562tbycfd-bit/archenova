@@ -142,6 +142,46 @@ type EvidenceStrength =
   | "LIMITED"
   | "INSUFFICIENT";
 
+
+type EvidenceRequirementStatus =
+  | "UNKNOWN"
+  | "CLAIMED"
+  | "PARTIAL"
+  | "SUPPORTED"
+  | "VERIFIED"
+  | "INDEPENDENTLY_VERIFIED"
+  | "CONTRADICTED"
+  | "MISSING";
+
+type EvidenceRequirementAudit = {
+  requirement: string;
+  status: EvidenceRequirementStatus;
+  signalIds: string[];
+  rationale: string;
+  critical: boolean;
+};
+
+type EvidenceSignalDisposition = "ADMIT" | "CONTEXT_ONLY" | "REJECT";
+
+type EvidenceSignalAudit = {
+  signalId: string;
+  disposition: EvidenceSignalDisposition;
+  satisfies: string[];
+  contradicts: string[];
+  rationale: string;
+};
+
+type EvidenceAudit = {
+  requirements: EvidenceRequirementAudit[];
+  signals: EvidenceSignalAudit[];
+  admittedSignalIds: string[];
+  contextOnlySignalIds: string[];
+  rejectedSignalIds: string[];
+  overallStrength: EvidenceStrength;
+  summary: string;
+  uncertainty: string;
+};
+
 type InquiryStageStatus =
   | "ACTIVE"
   | "READY"
@@ -183,6 +223,7 @@ type IntelligenceObject = {
   contextAssessment: ContextAssessment[];
   realityModel: RealityModel;
   epistemicContract: EpistemicContract;
+  evidenceAudit: EvidenceAudit;
 };
 
 type DialogueMessage = {
@@ -1734,6 +1775,314 @@ function rankRelevantSignals(
   return { relevant, contextAssessment: selectedAssessments };
 }
 
+const EVIDENCE_GENERIC_WORDS = new Set([
+  "about", "after", "against", "being", "between", "claim", "claimed",
+  "could", "evidence", "from", "have", "into", "more", "must", "only",
+  "other", "result", "should", "their", "there", "these", "this", "through",
+  "under", "using", "validation", "verification", "where", "which", "with",
+]);
+
+function evidenceSubjectWords(value: string) {
+  return words(value).filter((word) => !EVIDENCE_GENERIC_WORDS.has(word));
+}
+
+function evidenceSubjectOverlap(primary: SignalItem | null, candidate: SignalItem) {
+  if (!primary) return 0;
+  const primarySet = new Set(
+    evidenceSubjectWords(`${primary.title} ${primary.summary} ${primary.category}`),
+  );
+  return evidenceSubjectWords(`${candidate.title} ${candidate.summary} ${candidate.category}`)
+    .filter((word) => primarySet.has(word)).length;
+}
+
+function requirementPattern(requirement: string, claimType: ClaimType): RegExp {
+  const value = normalize(requirement);
+
+  if (/independent|reproduc|replicat|external|out of sample|cross dataset/.test(value)) {
+    return /\b(independent|reproduc|replicat|external validation|out[- ]?of[- ]?sample|cross[- ]?dataset|confirmed by|validated by)\b/;
+  }
+  if (/assumption|premise|axiom/.test(value)) {
+    return /\b(assumption|assume|premise|axiom|starting from|given that|postulate)\b/;
+  }
+  if (/derivation|formal|mathematical|consisten|proof/.test(value)) {
+    return /\b(derive|derivation|proof|theorem|formal|consistent|consistency|equivalence|calculation)\b/;
+  }
+  if (/recover|structure/.test(value)) {
+    return /\b(recover|reproduce|derive|obtains?|yields?|equivalence|structure|spectrum|operator|state|rule)\b/;
+  }
+  if (/measure|observ|dataset|traceable/.test(value)) {
+    return /\b(measur|observ|dataset|survey|sample|uncertaint|systematic|traceable|instrument)\b/;
+  }
+  if (/mechanism|temporal|causal|ordering/.test(value)) {
+    return /\b(mechanism|causal|temporal|pathway|perturb|intervention|upstream|downstream|mediator)\b/;
+  }
+  if (/alternative|comparator|comparison/.test(value)) {
+    return /\b(alternative|compar|versus|baseline|control|comparator|benchmark|competing)\b/;
+  }
+  if (/performance|operating|stress|failure|recovery|reliab/.test(value)) {
+    return /\b(performance|prototype|operating|stress|failure|recovery|reliab|benchmark|throughput|latency|efficien|safety)\b/;
+  }
+  if (/clinical|patient|endpoint|safety|trial/.test(value)) {
+    return /\b(clinical|patient|endpoint|survival|safety|adverse|trial|randomi[sz]|treatment|comparator)\b/;
+  }
+  if (/institution|policy|actor|incentive|counterfactual|distribution/.test(value)) {
+    return /\b(policy|institution|actor|incentive|counterfactual|pilot|distribution|outcome|governance|implementation)\b/;
+  }
+  if (/predict|prospective|forecast/.test(value)) {
+    return /\b(predict|prediction|prospective|forecast|out[- ]?of[- ]?sample|calibrat|horizon)\b/;
+  }
+
+  switch (claimType) {
+    case "FORMAL / MATHEMATICAL":
+      return /\b(derive|derivation|formal|proof|assumption|equivalence|counterexample|theorem)\b/;
+    case "ENGINEERING / CONSTRUCTIVE":
+      return /\b(prototype|performance|benchmark|stress|failure|recovery|verification)\b/;
+    case "CLINICAL / INTERVENTIONAL":
+      return /\b(clinical|patient|trial|endpoint|safety|treatment|comparator)\b/;
+    case "CAUSAL / MECHANISTIC":
+      return /\b(mechanism|causal|intervention|perturb|pathway|confound)\b/;
+    case "INSTITUTIONAL":
+    case "NORMATIVE":
+      return /\b(policy|institution|governance|actor|incentive|counterfactual|outcome)\b/;
+    default:
+      return /\b(observ|measur|experiment|independent|replicat|validation|benchmark|predict)\b/;
+  }
+}
+
+function requirementIsCritical(requirement: string) {
+  const value = normalize(requirement);
+  return /independent|reproduc|replicat|valid|derivation|measured|functional|endpoint|safety|prospective|discriminat/.test(value);
+}
+
+function explicitContradiction(text: string) {
+  return /\b(refut|contradict|fails? to|failed to|no evidence|not reproduc|not replicat|inconsistent with|does not support|cannot reproduce)\b/.test(text);
+}
+
+function independentMarker(text: string) {
+  return /\b(independent|external validation|reproduc|replicat|out[- ]?of[- ]?sample|cross[- ]?dataset|confirmed by|validated by)\b/.test(text);
+}
+
+function verifiedMarker(text: string) {
+  return /\b(verified|validated|demonstrated|measured|tested|benchmark(?:ed)?|reproduced|replicated|confirmed)\b/.test(text);
+}
+
+function auditEvidence(
+  contract: EpistemicContract,
+  lead: SignalItem | null,
+  candidates: SignalItem[],
+  contextAssessment: ContextAssessment[],
+): EvidenceAudit {
+  if (!lead) {
+    const requirements = contract.evidenceRequirements.map((requirement) => ({
+      requirement,
+      status: "MISSING" as EvidenceRequirementStatus,
+      signalIds: [],
+      rationale: "No primary evidence is attached to evaluate this requirement.",
+      critical: requirementIsCritical(requirement),
+    }));
+
+    return {
+      requirements,
+      signals: candidates.map((signal) => ({
+        signalId: signal.id,
+        disposition: "REJECT" as EvidenceSignalDisposition,
+        satisfies: [],
+        contradicts: [],
+        rationale: "No primary epistemic object is available against which this signal can satisfy a claim-specific evidence requirement.",
+      })),
+      admittedSignalIds: [],
+      contextOnlySignalIds: [],
+      rejectedSignalIds: candidates.map((signal) => signal.id),
+      overallStrength: "INSUFFICIENT",
+      summary: "INSUFFICIENT · No primary evidence is available for the claim-specific evidence audit.",
+      uncertainty: "No evidence requirement can be treated as satisfied until a primary, traceable item is attached. Absence from the current index is not evidence that the claim is false.",
+    };
+  }
+
+  const assessmentById = new Map(contextAssessment.map((item) => [item.signalId, item]));
+  const sourceOf = (signal: SignalItem) => normalize(signal.source || "unknown");
+  const primarySource = sourceOf(lead);
+
+  const signalAudits: EvidenceSignalAudit[] = candidates.map((signal) => {
+    const assessment = assessmentById.get(signal.id);
+    const role = assessment?.role ?? (signal.id === lead.id ? "PRIMARY" : "WEAKLY RELATED");
+    const text = normalize(`${signal.title} ${signal.summary} ${signal.category}`);
+    const overlap = signal.id === lead.id ? 100 : evidenceSubjectOverlap(lead, signal);
+    const satisfies = contract.evidenceRequirements.filter((requirement) =>
+      requirementPattern(requirement, contract.claimType).test(text),
+    );
+    const contradicts = explicitContradiction(text)
+      ? contract.evidenceRequirements.filter((requirement) =>
+          requirementPattern(requirement, contract.claimType).test(text),
+        )
+      : [];
+
+    let disposition: EvidenceSignalDisposition = "REJECT";
+    let rationale = "The signal does not satisfy a claim-specific evidence requirement strongly enough to enter the evidence set.";
+
+    if (signal.id === lead.id) {
+      disposition = "ADMIT";
+      rationale = "Primary evidence object for the current claim. Its statements are treated as reported claims unless independently verified elsewhere.";
+    } else if (
+      (role === "SUPPORTING" || role === "COMPETING") &&
+      overlap >= 2 &&
+      (satisfies.length > 0 || contradicts.length > 0)
+    ) {
+      disposition = "ADMIT";
+      rationale = "The signal is both subject-relevant and bears directly on at least one claim-specific evidence requirement.";
+    } else if (
+      (role === "SUPPORTING" || role === "COMPETING" || role === "BACKGROUND") &&
+      overlap >= 3 &&
+      (assessment?.score ?? 0) >= 10
+    ) {
+      disposition = "CONTEXT_ONLY";
+      rationale = "The signal is meaningfully related to the subject but does not directly satisfy a current evidence requirement; it may inform context only.";
+    }
+
+    return { signalId: signal.id, disposition, satisfies, contradicts, rationale };
+  });
+
+  const admittedSignalIds = signalAudits.filter((item) => item.disposition === "ADMIT").map((item) => item.signalId);
+  const contextOnlySignalIds = signalAudits.filter((item) => item.disposition === "CONTEXT_ONLY").map((item) => item.signalId);
+  const rejectedSignalIds = signalAudits.filter((item) => item.disposition === "REJECT").map((item) => item.signalId);
+  const signalById = new Map(candidates.map((signal) => [signal.id, signal]));
+
+  const requirementAudits: EvidenceRequirementAudit[] = contract.evidenceRequirements.map((requirement) => {
+    const matchingAudits = signalAudits.filter(
+      (item) => item.disposition === "ADMIT" && item.satisfies.includes(requirement),
+    );
+    const matchingSignals = matchingAudits
+      .map((item) => signalById.get(item.signalId))
+      .filter((signal): signal is SignalItem => Boolean(signal));
+    const contradictionSignals = signalAudits
+      .filter((item) => item.disposition === "ADMIT" && item.contradicts.includes(requirement))
+      .map((item) => item.signalId);
+    const primaryMatches = matchingSignals.some((signal) => signal.id === lead.id);
+    const supportingSignals = matchingSignals.filter((signal) => signal.id !== lead.id);
+    const independentSupporting = supportingSignals.filter((signal) => sourceOf(signal) !== primarySource);
+    const combinedSupportingText = normalize(
+      independentSupporting.flatMap((signal) => [signal.title, signal.summary]).join(" "),
+    );
+    const leadText = normalize(`${lead.title} ${lead.summary}`);
+    const requiresIndependent = /independent|reproduc|replicat|external|out of sample|cross dataset/.test(normalize(requirement));
+    const validityLike = /valid derivation|without hidden|internal|consisten|assumption|safety|failure|causal sufficiency/.test(normalize(requirement));
+
+    let status: EvidenceRequirementStatus;
+    let rationale: string;
+
+    if (contradictionSignals.length > 0) {
+      status = "CONTRADICTED";
+      rationale = "A subject-relevant admitted signal contains an explicit contradiction or failure marker bearing on this requirement.";
+    } else if (
+      independentSupporting.length > 0 &&
+      independentMarker(combinedSupportingText)
+    ) {
+      status = "INDEPENDENTLY_VERIFIED";
+      rationale = "A distinct-source admitted signal explicitly reports independent validation, reproduction, replication, or external confirmation relevant to this requirement.";
+    } else if (independentSupporting.length > 0 && verifiedMarker(combinedSupportingText)) {
+      status = "VERIFIED";
+      rationale = "A distinct-source admitted signal reports a verification or test relevant to this requirement, but explicit independence is not fully established from the indexed summary.";
+    } else if (supportingSignals.length > 0) {
+      status = "SUPPORTED";
+      rationale = "At least one additional subject-relevant admitted signal supports this requirement, but independent verification is not established from the indexed summary.";
+    } else if (primaryMatches) {
+      if (requiresIndependent) {
+        status = "MISSING";
+        rationale = "The primary item may mention this requirement, but no admitted independent evidence satisfies an explicitly independent validation burden.";
+      } else if (validityLike) {
+        status = "CLAIMED";
+        rationale = "The primary item reports language relevant to this requirement, but the indexed abstract or summary cannot verify the requirement itself.";
+      } else if (verifiedMarker(leadText)) {
+        status = "PARTIAL";
+        rationale = "The primary item reports a test or demonstrated result, but this remains source-reported rather than independently verified in the current evidence set.";
+      } else {
+        status = "CLAIMED";
+        rationale = "The primary item reports the requirement-relevant claim, but the current index does not independently verify it.";
+      }
+    } else if (requiresIndependent) {
+      status = "MISSING";
+      rationale = "No admitted independent validation, reproduction, replication, or external confirmation is present for this requirement.";
+    } else {
+      status = "UNKNOWN";
+      rationale = "The indexed title and summary do not contain enough information to determine whether this requirement is satisfied. UNKNOWN is not FALSE.";
+    }
+
+    return {
+      requirement,
+      status,
+      signalIds: matchingSignals.map((signal) => signal.id),
+      rationale,
+      critical: requirementIsCritical(requirement),
+    };
+  });
+
+  const statuses = requirementAudits.map((item) => item.status);
+  const supportedOrBetter = statuses.filter((status) =>
+    status === "SUPPORTED" || status === "VERIFIED" || status === "INDEPENDENTLY_VERIFIED",
+  ).length;
+  const independentlyVerified = statuses.filter((status) => status === "INDEPENDENTLY_VERIFIED").length;
+  const criticalUnmet = requirementAudits.filter(
+    (item) => item.critical && ["UNKNOWN", "CLAIMED", "PARTIAL", "MISSING", "CONTRADICTED"].includes(item.status),
+  );
+  const contradicted = statuses.filter((status) => status === "CONTRADICTED").length;
+  const hasPrimaryClaim = statuses.some((status) => status === "CLAIMED" || status === "PARTIAL");
+
+  let overallStrength: EvidenceStrength = "LIMITED";
+  if (admittedSignalIds.length === 0) {
+    overallStrength = "INSUFFICIENT";
+  } else if (
+    contradicted === 0 &&
+    criticalUnmet.length === 0 &&
+    supportedOrBetter === requirementAudits.length &&
+    independentlyVerified >= 1
+  ) {
+    overallStrength = "STRONG";
+  } else if (
+    contradicted === 0 &&
+    criticalUnmet.length === 0 &&
+    supportedOrBetter >= Math.ceil(requirementAudits.length / 2)
+  ) {
+    overallStrength = "MODERATE";
+  } else if (!hasPrimaryClaim && supportedOrBetter === 0 && contradicted > 0) {
+    overallStrength = "INSUFFICIENT";
+  }
+
+  const statusCounts = requirementAudits.reduce<Record<EvidenceRequirementStatus, number>>(
+    (acc, item) => {
+      acc[item.status] += 1;
+      return acc;
+    },
+    {
+      UNKNOWN: 0,
+      CLAIMED: 0,
+      PARTIAL: 0,
+      SUPPORTED: 0,
+      VERIFIED: 0,
+      INDEPENDENTLY_VERIFIED: 0,
+      CONTRADICTED: 0,
+      MISSING: 0,
+    },
+  );
+
+  const summary = `${overallStrength} · ${contract.claimType} evidence audit · ${supportedOrBetter}/${requirementAudits.length} requirements supported or verified · ${admittedSignalIds.length} evidence-bearing signal${admittedSignalIds.length === 1 ? "" : "s"} admitted.`;
+  const compactRequirements = requirementAudits
+    .slice(0, 4)
+    .map((item) => `${item.requirement}: ${item.status}`)
+    .join("; ");
+  const uncertainty = `Evidence audit: ${compactRequirements}. CLAIMED ≠ VERIFIED; UNKNOWN ≠ FALSE; MISSING ≠ CONTRADICTED. ${statusCounts.INDEPENDENTLY_VERIFIED > 0 ? `${statusCounts.INDEPENDENTLY_VERIFIED} requirement${statusCounts.INDEPENDENTLY_VERIFIED === 1 ? " is" : "s are"} independently verified in the current indexed evidence.` : "No requirement is independently verified unless the admitted evidence explicitly establishes that boundary."}`;
+
+  return {
+    requirements: requirementAudits,
+    signals: signalAudits,
+    admittedSignalIds,
+    contextOnlySignalIds,
+    rejectedSignalIds,
+    overallStrength,
+    summary,
+    uncertainty,
+  };
+}
+
 function assessEvidenceStrength(
   contract: EpistemicContract,
   lead: SignalItem | null,
@@ -1911,15 +2260,14 @@ function buildIntelligence(
     intentModel,
     primarySignal,
   );
-  const { relevant, contextAssessment } = rankRelevantSignals(
+  const { relevant: rankedRelevant, contextAssessment } = rankRelevantSignals(
     query,
     signals,
     previousMessages,
     epistemicParse,
     primarySignal,
   );
-  const lead = primarySignal ?? relevant[0] ?? null;
-  const second = relevant.find((signal) => signal.id !== lead?.id) ?? null;
+  const lead = primarySignal ?? rankedRelevant[0] ?? null;
   const realityModel = buildRealityModel(epistemicParse);
   const epistemicContract = buildEpistemicContract(
     epistemicParse,
@@ -1927,24 +2275,23 @@ function buildIntelligence(
     intentModel,
     kind,
   );
-  const strength = assessEvidenceStrength(
+  const evidenceAudit = auditEvidence(
     epistemicContract,
     lead,
-    relevant,
+    rankedRelevant,
     contextAssessment,
   );
+  const visibleSignalIds = new Set([
+    ...evidenceAudit.admittedSignalIds,
+    ...evidenceAudit.contextOnlySignalIds,
+  ]);
+  const relevant = rankedRelevant.filter((signal) => visibleSignalIds.has(signal.id));
+  const second = relevant.find((signal) => signal.id !== lead?.id) ?? null;
+  const strength = evidenceAudit.overallStrength;
   const realityTest = epistemicContract.realityTest;
 
-  const evidenceBoundary = buildEvidenceBoundary(
-    strength,
-    relevant,
-    epistemicContract,
-  );
-
-  const evidence =
-    strength === "INSUFFICIENT"
-      ? "INSUFFICIENT · No sufficiently relevant indexed evidence is currently attached to satisfy the claim-specific evidence contract."
-      : `${strength} · ${epistemicContract.claimType} evidence contract · ${relevant.length} relevant intelligence object${relevant.length === 1 ? "" : "s"} attached.`;
+  const evidenceBoundary = evidenceAudit.uncertainty;
+  const evidence = evidenceAudit.summary;
 
   let directAnswer = "";
   let reasoning = "";
@@ -2256,6 +2603,7 @@ Significance layer: distinguish novelty from consequence. Ask what established b
     contextAssessment,
     realityModel,
     epistemicContract,
+    evidenceAudit,
   };
 }
 
