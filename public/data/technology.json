@@ -1,10 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-09-11T21:34:34.344Z",
+  "updated": "2026-09-11T23:57:15.875Z",
   "items": [
     {
+      "source": "STAT",
+      "title": "STAT+: Scholar Rock wins FDA approval for first drug to target SMA muscle loss",
+      "url": "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/?utm_campaign=rss",
+      "summary": "A late-stage clinical trial found that, when combined with an SMN2-targeting drug, Isembyld caused young patients’ motor skills to improve after a year.",
+      "ts": 1789169421000,
+      "publishedAt": "2026-09-11T23:30:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharma wins a battle over the cost of wastewater treatment in Europe",
+      "url": "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/?utm_campaign=rss",
+      "summary": "An E.U. AG recommended annulling part of a directive that requires drugmakers to finance 80% of the costs of wastewater treatment.",
+      "ts": 1789165039000,
+      "publishedAt": "2026-09-11T22:17:19.000Z",
+      "categoryId": "bio"
+    },
+    {
       "source": "MIT Technology Review",
-      "title": "Roundtables: Will AI really kill us all?",
+      "title": "Roundtables: AI’s apocalypse crisis",
       "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
       "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor…",
       "ts": 1789157106000,
@@ -150,7 +168,7 @@
       "source": "United Nations News",
       "title": "Security Council LIVE: Ambassadors mark 9/11 with counter-terrorism push on AI and drones",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168318",
-      "summary": "The Security Council is meeting to mark 25 years since the 9/11 attacks, with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's …",
+      "summary": "The Security Council met to mark 25 years since the 9/11 attacks, with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's counter…",
       "ts": 1789128000000,
       "publishedAt": "2026-09-11T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -793,24 +811,6 @@
       "ts": 1789045762000,
       "publishedAt": "2026-09-10T13:09:22.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cancer medicines remain in short supply across the U.S., survey finds",
-      "url": "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/?utm_campaign=rss",
-      "summary": "An ongoing shortage of cancer medications continues to force leading cancer centers around the U.S. to seek work-around strategies to treat patients and a majority also report that clinical trials…",
-      "ts": 1789045260000,
-      "publishedAt": "2026-09-10T13:01:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "summary": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting …",
-      "ts": 1789045221000,
-      "publishedAt": "2026-09-10T13:00:21.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

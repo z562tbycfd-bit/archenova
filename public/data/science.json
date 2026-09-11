@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-09-11T21:34:32.671Z",
+  "updated": "2026-09-11T23:57:11.309Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How big can the universe's first starbursts get?",
+      "url": "https://phys.org/news/2026-09-big-universe-starbursts.html",
+      "summary": "As our telescopes have improved and we've been able to peer farther back in time, we've begun finding more fascinating features of the universe. But one thing we haven't found for sure is Population III (Pop III) stars. …",
+      "ts": 1789168801000,
+      "publishedAt": "2026-09-11T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Smart, self-healing packaging uses AI to detect food spoilage in real time",
+      "url": "https://phys.org/news/2026-09-smart-packaging-ai-food-spoilage.html",
+      "summary": "Packaging already tells us where food comes from, when it was made, what's in it and how many calories it contains. But researchers see a future where packaging can \"see,\" in real time, what's happening inside and transl…",
+      "ts": 1789165205000,
+      "publishedAt": "2026-09-11T22:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Single nanostructure enables independent control of two light resonance modes",
+      "url": "https://phys.org/news/2026-09-nanostructure-enables-independent-resonance-modes.html",
+      "summary": "Metallic nanostructures are exceptionally effective at concentrating light into tiny volumes, while dielectric nanostructures excel at storing light with minimal energy loss. Combining these complementary properties has …",
+      "ts": 1789165201000,
+      "publishedAt": "2026-09-11T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New genome study rewrites the early history of grasses, the world's most important plant family",
+      "url": "https://phys.org/news/2026-09-genome-rewrites-early-history-grasses.html",
+      "summary": "An international team of scientists, including Donald Danforth Plant Science Center member emerita Elizabeth \"Toby\" Kellogg, Ph.D., has produced a chromosome-level genome assembly that offers a new view of the earliest e…",
+      "ts": 1789164001000,
+      "publishedAt": "2026-09-11T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI helps find hidden human proteins and reveals what they do",
+      "url": "https://phys.org/news/2026-09-ai-hidden-human-proteins-reveals.html",
+      "summary": "New research shows how artificial intelligence, combined with advanced experimental science, can help find \"hidden\" and unexplored proteins in the human body and reveal what they actually do, according to a new study pub…",
+      "ts": 1789162805000,
+      "publishedAt": "2026-09-11T21:40:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Emerging SARS-CoV-2 sublineage RE.2.2 displays distinct structural features",
@@ -759,46 +799,6 @@
       "title": "Exploring the Observational Constraints and Cosmological Dynamics in f(Q,L_m) Gravity",
       "url": "https://arxiv.org/abs/2609.10591",
       "summary": "arXiv:2609.10591v1 Announce Type: new Abstract: We explore two scenarios of $f(Q,\\mathcal{L}_m)$ gravity: linear and non-linear gravity models. The dynamical system analysis identifies two critical points for each of the…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RSD constraints on power-law $f(Q)$ gravity using Barboza-Alcaniz and Jassal-Bagla-Padmanabhan parametrizations",
-      "url": "https://arxiv.org/abs/2609.10597",
-      "summary": "arXiv:2609.10597v1 Announce Type: new Abstract: We investigate the late-time accelerated expansion of the Universe in power-law $f(Q)$ gravity, $f(Q) = Q + 6\\gamma H_0^2 \\left(\\frac{Q}{Q_0}\\right)^n$, combined with two d…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Epistemic Risk of the 31st Spore: If Planets Aren't Fine Tuned, We're Doing Life Detection Wrong",
-      "url": "https://arxiv.org/abs/2609.10604",
-      "summary": "arXiv:2609.10604v1 Announce Type: new Abstract: Exploration of planetary bodies within our solar system will be essential for understanding the origin of life on Earth and the distribution of life in the universe. Planet…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bound states in the continuum of gravitational waves",
-      "url": "https://arxiv.org/abs/2609.10620",
-      "summary": "arXiv:2609.10620v1 Announce Type: new Abstract: Bound states in the continuum (BICs) are ubiquitous wave phenomena, but have not yet been demonstrated for gravitational waves (GWs). Here, in-plane periodic perturbations,…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An exposition on some viscosity dependent issues in refined potential flow theory",
-      "url": "https://arxiv.org/abs/2609.10649",
-      "summary": "arXiv:2609.10649v1 Announce Type: new Abstract: This study evaluates viscosity-dependent limitations in refined potential flow theory (RPT) applied to incompressible flow over an impulsively started circular cylinder. RP…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Crab Nebula progenitor: recovering the 1054 AD supernova event as galactic Gamma-ray burst",
-      "url": "https://arxiv.org/abs/2609.10650",
-      "summary": "arXiv:2609.10650v1 Announce Type: new Abstract: In 1054 AD a daytime star appeared in the constellation of Taurus, for three weeks, and it was reported in various sources from Europe to China/Japan: it was one of the few…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
