@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-11T15:16:25.063Z",
+  "updated": "2026-09-11T15:53:46.739Z",
   "items": [
     {
       "source": "STAT",
@@ -30,6 +30,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
+      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/",
+      "summary": "Media are invited to hear from NASA’s SpaceX Crew-12 astronauts during a news conference beginning at 2:45 p.m. EDT, Wednesday, Sept. 16, from the International Space Station. NASA astronauts Jessica Meir and Jack Hathaw…",
+      "ts": 1789139120000,
+      "publishedAt": "2026-09-11T15:05:20.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Samsung Biologics Signs $262 Million Manufacturing Agreement with European Pharma Firm",
       "url": "https://www.genengnews.com/topics/bioprocessing/samsung-biologics-signs-262-million-manufacturing-agreement-with-european-pharma-firm/",
@@ -37,6 +46,15 @@
       "ts": 1789138785000,
       "publishedAt": "2026-09-11T14:59:45.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
+      "summary": "The science from every Moon rock sample, lunar dataset, and discovery produced through NASA’s Artemis program will be shared by the agency with the global scientific community. That commitment is upheld by all 71 countri…",
+      "ts": 1789138585000,
+      "publishedAt": "2026-09-11T14:56:25.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -793,24 +811,6 @@
       "ts": 1789041600000,
       "publishedAt": "2026-09-10T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Human cost of violence in South Sudan ‘continues to grow’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168307",
-      "summary": "Independent human rights investigators voiced deep concern over growing risks to both civilians and South Sudan’s political transition following their latest fact-finding mission to the world’s youngest nation – their 14…",
-      "ts": 1789041600000,
-      "publishedAt": "2026-09-10T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree",
-      "url": "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/?utm_campaign=rss",
-      "summary": "Feds invest in AI for heart failure, vaccines and this year's midterms, and more health news from Morning Rounds",
-      "ts": 1789040099000,
-      "publishedAt": "2026-09-10T11:34:59.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

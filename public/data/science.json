@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-09-11T15:16:17.370Z",
+  "updated": "2026-09-11T15:53:35.544Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Chihuahua dogs are part coyote—this might help explain their 'small but mighty' reputation",
+      "url": "https://phys.org/news/2026-09-chihuahua-dogs-coyote-small-mighty.html",
+      "summary": "It turns out that one of the smallest dog breeds, the Chihuahua, is part wild coyote, according to recently published genetic research. The Chihuahua breed originated in Mexico but is now a popular canine companion world…",
+      "ts": 1789141210000,
+      "publishedAt": "2026-09-11T15:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Faster wood formation matters more than longer growing seasons in a warming climate",
+      "url": "https://phys.org/news/2026-09-faster-wood-formation-longer-seasons.html",
+      "summary": "In non-tropical forests, cold winters hinder tree growth. There, climate warming prolongs the period during which trees absorb carbon through photosynthesis and store it in wood, known as the growing season. This could p…",
+      "ts": 1789141207000,
+      "publishedAt": "2026-09-11T15:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turkey-monitoring AI forecasts body weight three weeks ahead with 93% accuracy",
+      "url": "https://phys.org/news/2026-09-turkey-ai-body-weight-weeks.html",
+      "summary": "Body weight monitoring is one of the most important tools for poultry farmers. It provides valuable information about growth, uniformity, feed conversion efficiency—how well birds turn feed into meat—and the occurrence o…",
+      "ts": 1789140008000,
+      "publishedAt": "2026-09-11T15:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How soybeans took over the American diet—without anyone noticing",
+      "url": "https://phys.org/news/2026-09-soybeans-american-diet.html",
+      "summary": "U.S. farmers will produce a record-breaking harvest of 4.52 billion bushels of soybeans in 2026, according to projections from the U.S. Department of Agriculture. At 60 pounds (27 kilograms) to the bushel, that is roughl…",
+      "ts": 1789140005000,
+      "publishedAt": "2026-09-11T15:20:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Nepal floods: How measuring snow in the Himalayas could help avoid future disasters",
@@ -767,38 +799,6 @@
       "title": "Questioning your brilliance in physics: Differential shifts in fixed mindsets by grade and gender",
       "url": "https://arxiv.org/abs/2609.11659",
       "summary": "arXiv:2609.11659v1 Announce Type: new Abstract: Students' domain-specific mindsets and their beliefs about their capacity to improve through effort play a crucial role in shaping their experiences and decisions to persis…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stress-Testing Dynamical and Generative Downscaling Using Subseasonal Extreme Precipitation Forecasts",
-      "url": "https://arxiv.org/abs/2609.11696",
-      "summary": "arXiv:2609.11696v1 Announce Type: new Abstract: Coarse spatial resolution limits the ability of subseasonal prediction models to resolve extreme precipitation. Downscaling with either dynamical or deep generative models …",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental Plasma Density Profiles Determined Through Measurements of the Magnetosonic Wave Speed",
-      "url": "https://arxiv.org/abs/2609.11743",
-      "summary": "arXiv:2609.11743v1 Announce Type: new Abstract: Information on plasma density in laboratory plasmas is commonly acquired using either Langmuir probes or optical diagnostics. Here, we present an alternative approach, infe…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Conservative Hybrid Eulerian-Lagrangian Method with Persistent Structure Tracking for Multiscale Cavitation",
-      "url": "https://arxiv.org/abs/2609.11776",
-      "summary": "arXiv:2609.11776v1 Announce Type: new Abstract: Hybrid Eulerian Lagrangian methods for multiscale cavitation represent grid resolved vapor structures in an Eulerian formulation and unresolved bubbles in a Lagrangian desc…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nondipole Coulomb effects in strong x-ray field ionization",
-      "url": "https://arxiv.org/abs/2609.11791",
-      "summary": "arXiv:2609.11791v1 Announce Type: new Abstract: Atomic ionization in superintense x-ray fields is studied through numerical solutions of the time-dependent Schr\\\"odinger equation including nondipole corrections. The role…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

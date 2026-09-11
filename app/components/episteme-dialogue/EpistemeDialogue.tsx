@@ -832,6 +832,42 @@ function findPrimarySignal(
   return ranked[0]?.score > 0 ? ranked[0].signal : null;
 }
 
+
+type SemanticInputGuard = {
+  institutionalContext: boolean;
+  announcementLike: boolean;
+  empiricalEvidenceContext: boolean;
+};
+
+function analyzeSemanticInput(
+  query: string,
+  intent: IntentModel,
+  primarySignal: SignalItem | null,
+): SemanticInputGuard {
+  const corpus = normalize([
+    intent.target,
+    query,
+    primarySignal?.title ?? "",
+    primarySignal?.summary ?? "",
+    primarySignal?.category ?? "",
+  ].join(" "));
+
+  const institutionalContext =
+    /\b(artemis accords?|accords?|open science|data sharing|sharing commitment|commitment|signator|signing ceremony|member countr|participating countr|agency policy|international agreement|framework|governance|policy|regulat|compliance|institution|treaty|memorandum|standards? adoption)\b/.test(corpus);
+
+  const announcementLike =
+    /\b(media (?:are|is) invited|news conference|press conference|briefing|to discuss|upcoming return|will discuss|scheduled for|beginning at|coverage begins|invites media|signing ceremony|event notice|livestream|live coverage)\b/.test(corpus);
+
+  const empiricalEvidenceContext =
+    /\b(measured|measurement|observed|observation|detected|detector|sampled|sampling|survey|cohort|trial|experiment(?:al)?|spectr|imaging|dataset analysis|analy[sz]ed data|quantified|statistically|confidence interval|error bar|uncertainty|replication|reproduced)\b/.test(corpus);
+
+  return {
+    institutionalContext,
+    announcementLike,
+    empiricalEvidenceContext,
+  };
+}
+
 function parseEpistemicStructure(
   query: string,
   intent: IntentModel,
@@ -849,14 +885,19 @@ function parseEpistemicStructure(
   ].join(" "));
 
   const has = (pattern: RegExp) => pattern.test(primaryCorpus);
+  const semanticGuard = analyzeSemanticInput(query, intent, primarySignal);
 
   const formal = has(/\b(derive|derived|derivation|proof|prove|theorem|lemma|axiom|formalism|mathematical|equation|counting|binary sequence|hilbert space|operator|born rule|symmetry|topolog|algebra|geometry|combinator|analytic|exact solution)\b/);
-  const empirical = has(/\b(observ|measur|dataset|data|survey|detector|detected|sample|cohort|trial|bao|cmb|supernova|desi|redshift|image|spectr|experimentally observed|reported measurement)\b/);
+  const empirical =
+    semanticGuard.empiricalEvidenceContext ||
+    has(/\b(bao|cmb|supernova|desi|redshift|experimentally observed|reported measurement)\b/);
   const experimental = has(/\b(experiment|experimental|laboratory|lab |prototype|fabricat|synthesi[sz]|device|bench|controlled test|demonstrat)\b/);
   const causal = intent.primaryIntent === "CAUSAL" || has(/\b(cause|causal|mechanism|mediates?|drives?|induces?|leads to|pathway|necessary|sufficient)\b/);
   const engineering = intent.primaryIntent === "DESIGN" || has(/\b(engineer|architecture|device|system|hardware|software|manufactur|infrastructure|reactor|battery|memristor|circuit|robot|sensor|deployment|reliability|fault|failure mode)\b/);
   const clinical = has(/\b(patient|clinical|disease|tumou?r|cancer|therapy|therapeut|drug|vaccine|treatment|survival|endpoint|adverse event|cardiac|glioma)\b/);
-  const institutional = has(/\b(policy|law|legal|governance|institution|regulat|government|contract|market design|public policy|compliance|legislation)\b/);
+  const institutional =
+    semanticGuard.institutionalContext ||
+    has(/\b(policy|law|legal|governance|institution|regulat|government|contract|market design|public policy|compliance|legislation|international agreement|accord|signator|commitment)\b/);
   const predictive = intent.primaryIntent === "FORECAST" || has(/\b(predict|forecast|projection|scenario|future outcome|prospective)\b/);
   const comparative = intent.primaryIntent === "COMPARE";
   const normative = has(/\b(ought|ethical|ethics|fair|justice|legitimate|normative|rights|should be allowed|should be prohibited)\b/);
@@ -907,6 +948,27 @@ function parseEpistemicStructure(
     );
     disconfirmationMode =
       "The claim weakens if the required function cannot be reproduced across the stated operating envelope or if failure containment and recovery do not meet the claimed boundary.";
+  } else if (
+    semanticGuard.announcementLike &&
+    !institutional &&
+    !formal &&
+    !experimental &&
+    !causal &&
+    !engineering &&
+    !clinical &&
+    !predictive
+  ) {
+    claimType = "UNKNOWN";
+    basis.push("informational or operational announcement");
+    modes.push("OBSERVATIONAL DISCRIMINATION");
+    needed.push(
+      "clear substantive claim beyond the announcement",
+      "traceable source and event details",
+      "evidence relevant to any broader inference",
+      "explicit boundary between notice and result",
+    );
+    disconfirmationMode =
+      "Do not infer a scientific or operational result from an announcement alone; revise only when substantive evidence or a completed outcome is available.";
   } else if (institutional) {
     claimType = normative ? "NORMATIVE" : "INSTITUTIONAL";
     basis.push("institutional behavior", "incentives", "outcomes");
@@ -2284,8 +2346,19 @@ function signalSentences(signal: SignalItem) {
     return [];
   }
 
-  return (cleaned.match(/[^.!?]+[.!?]?/g) ?? [cleaned])
-    .map((sentence) => sentence.trim())
+  const DOT = "\uE000";
+  const protectedText = cleaned
+    .replace(/\b([ap])\.m\./gi, (_match, ap: string) => `${ap}${DOT}m${DOT}`)
+    .replace(/\be\.g\./gi, `e${DOT}g${DOT}`)
+    .replace(/\bi\.e\./gi, `i${DOT}e${DOT}`)
+    .replace(/\bet al\./gi, `et al${DOT}`)
+    .replace(/\bvs\./gi, `vs${DOT}`)
+    .replace(/(\d)\.(\d)/g, `$1${DOT}$2`)
+    .replace(/\b([A-Z])\.(?=\s*[A-Z][a-z])/g, `$1${DOT}`)
+    .replace(/\b([A-Z])\.([A-Z])\.(?=\s|$)/g, `$1${DOT}$2${DOT}`);
+
+  return (protectedText.match(/[^.!?]+(?:[.!?]+|$)/g) ?? [protectedText])
+    .map((sentence) => sentence.replaceAll(DOT, ".").trim())
     .filter(Boolean);
 }
 
@@ -2320,6 +2393,18 @@ function buildSignalInterpretation(
 ): SignalInterpretation {
   const sentences = signalSentences(signal);
   const first = sentences[0] ?? signal.title;
+  const semanticGuard = analyzeSemanticInput(
+    signal.title,
+    {
+      primaryIntent: "EXPLAIN",
+      target: signal.title,
+      requestedOutcome: "Interpret the signal without overstating what the source establishes.",
+      epistemicDemand: "DESCRIPTION",
+      mustAnswer: ["What kind of signal is this, and what does it actually establish?"],
+      mustNotAssume: ["Do not infer a scientific result from an announcement alone."],
+    },
+    signal,
+  );
 
   const baselineSentence =
     findSentence(sentences, [
@@ -2355,7 +2440,11 @@ function buildSignalInterpretation(
   let consequenceText = `If the reported change survives the claim-specific validation burden, it would change which parts of the current baseline must be treated as necessary rather than contingent.`;
   let nonImplication = `The available signal does not by itself establish conclusions beyond the reported result or satisfy the full ${parse.claimType} validation burden.`;
 
-  if (parse.claimType === "FORMAL / MATHEMATICAL") {
+  if (semanticGuard.announcementLike && parse.claimType === "UNKNOWN") {
+    noveltyText = `This signal is primarily an informational or operational announcement, not a demonstrated scientific result. Its immediate content is: ${baseline}.`;
+    consequenceText = `Its significance is limited to the event, mission, communication, or operational context explicitly stated in the source until substantive outcomes or evidence are reported.`;
+    nonImplication = `The announcement alone does not establish a scientific finding, mission outcome, causal effect, or validated operational result.`;
+  } else if (parse.claimType === "FORMAL / MATHEMATICAL") {
     noveltyText = `The formal novelty is that ${reportedChange.charAt(0).toLowerCase()}${reportedChange.slice(1)}, rather than simply taking the conventional structure as given.`;
     consequenceText = `If the derivation is genuinely non-circular, structure ordinarily introduced within the conventional formulation may be recoverable from ${formalBasis}, shifting part of the framework from assumed structure to derived consequence.`;
     nonImplication = `Formal recovery would not by itself show that the construction is uniquely fundamental, physically superior, or empirically distinct from standard quantum mechanics.`;
@@ -2570,14 +2659,31 @@ function findExplicitSignalReference(
 
 function looksLikeContextualFollowUp(query: string): boolean {
   const q = normalize(query);
-  const demand = classifyFollowUpDemand(query);
+  const tokenCount = words(query).length;
+
   const contextualReference =
-    /\b(claim|claimed|structure|construction|derivation|result|assumption|premise|it|this|that|independently|counterexample|benefit|intervention|comparator|population|endpoint|safety|effect|finding|mechanism)\b/.test(q);
+    /\b(claim|claimed|structure|construction|derivation|result|assumption|premise|it|this|that|these|those|independently|counterexample|benefit|intervention|comparator|population|endpoint|safety|effect|finding|mechanism|evidence|measurement|measured quantity|boundary condition|analysis choice|observation|replication|outcome|signal)\b/.test(q);
+
+  const continuationQuestion =
+    /^(which|what|how|why|when|where|does|do|did|can|could|would|should|is|are|was|were)\b/.test(q);
+
+  const explicitContinuation =
+    /\b(the claim|the effect|the result|the derivation|the construction|the intervention|the evidence|the measurement|the signal|this result|this claim|that result|that claim)\b/.test(q);
 
   return (
     isLikelyFollowUp(query) ||
-    (demand !== "GENERAL" && contextualReference) ||
-    /\b(which|what|how|would|could|does|can)\b/.test(q) && demand !== "GENERAL"
+    explicitContinuation ||
+    (contextualReference && continuationQuestion) ||
+    (contextualReference && tokenCount <= 24)
+  );
+}
+
+function explicitlyRequestsNewObject(query: string): boolean {
+  const q = normalize(query);
+
+  return (
+    /\b(explain|analy[sz]e|evaluate|assess|compare|summarize|summarise)\b.*\b(this signal|this paper|this study|this research|this article)\b/.test(q) ||
+    /\b(explain why this signal matters|explain the significance of|what is the significance of)\s*:/.test(q)
   );
 }
 
@@ -2596,9 +2702,11 @@ function resolveEpistemicObject(
   }
 
   const activeSignal = getActiveEpistemicSignal(previousMessages, signals);
+
   if (
     activeSignal &&
     hasPriorAssistantTurn(previousMessages) &&
+    !explicitlyRequestsNewObject(query) &&
     looksLikeContextualFollowUp(query)
   ) {
     return {
@@ -2759,8 +2867,8 @@ function synthesizeFollowUpAnswer(
 
   return {
     demand,
-    directAnswer: `${interpretation.reportedChange.text}. ${interpretation.evidenceBoundary.text}`,
-    reasoning: `Specific novelty: ${interpretation.specificNovelty.text}\n\nCurrent evidence boundary: ${audit.uncertainty}\n\nDecisive test: ${interpretation.decisiveTest.text}`,
+    directAnswer: `The question remains anchored to the current epistemic object. ${interpretation.reportedChange.text}. ${interpretation.evidenceBoundary.text}`,
+    reasoning: `Current object remains fixed for this follow-up.\n\nSpecific novelty: ${interpretation.specificNovelty.text}\n\nCurrent evidence boundary: ${audit.uncertainty}\n\nDecisive test: ${interpretation.decisiveTest.text}`,
   };
 }
 
