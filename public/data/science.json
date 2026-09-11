@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-10T22:58:47.580Z",
+  "updated": "2026-09-11T00:56:33.214Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The hunt for unknown life in New York City",
+      "url": "https://phys.org/news/2026-09-unknown-life-york-city.html",
+      "summary": "The globe is full of unknown species. But is it really possible to find a completely new animal species in the middle of the largest city in the United States?",
+      "ts": 1789087203000,
+      "publishedAt": "2026-09-11T00:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists visualize proteins' hidden water architecture that may help define biological function",
+      "url": "https://phys.org/news/2026-09-scientists-visualize-proteins-hidden-architecture.html",
+      "summary": "For decades, scientists have understood proteins primarily through two defining features: their amino acid sequence and their three-dimensional structure. This framework has driven major advances in biology, biotechnolog…",
+      "ts": 1789084801000,
+      "publishedAt": "2026-09-11T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Proteasome inhibition alleviates proteinuria in <i>Lmx1b</i> knock-in mice with dysfunctional LIM domains",
+      "url": "https://www.nature.com/articles/s41467-026-77485-1",
+      "summary": "",
+      "ts": 1789084800000,
+      "publishedAt": "2026-09-11T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global database reveals why no two cities' food emissions look the same",
+      "url": "https://phys.org/news/2026-09-global-database-reveals-cities-food.html",
+      "summary": "Switching to a more sustainable diet could halve food-related emissions in cities such as Amsterdam, while in cities such as Dhaka and Delhi, the focus should be more on making food production more sustainable as they wi…",
+      "ts": 1789083604000,
+      "publishedAt": "2026-09-10T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rare bird fossils from Bavaria reveal new species, including an eagle",
+      "url": "https://phys.org/news/2026-09-rare-bird-fossils-bavaria-reveal.html",
+      "summary": "The Hammerschmiede clay pit near Pforzen in the eastern Allgäu is famous for its wealth of finds: Besides fossils of two early anthropoid apes, the remains of numerous vertebrate species have been uncovered in 11.6-milli…",
+      "ts": 1789082405000,
+      "publishedAt": "2026-09-10T23:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Has gentle parenting gone too far?",
+      "url": "https://phys.org/news/2026-09-gentle-parenting.html",
+      "summary": "To be or not to be a gentle parent? That is the question. There is so much controversy these days about gentle parenting. What is it, and what is it not?",
+      "ts": 1789082401000,
+      "publishedAt": "2026-09-10T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultra-cold quantum sensors cut X-ray uncertainty, improving nuclear material assessments",
+      "url": "https://phys.org/news/2026-09-ultra-cold-quantum-sensors-ray.html",
+      "summary": "To monitor the amount and type of nuclear material at power plants and weapons facilities, scientists look for a special signal—the unique pattern of gamma rays emitted by specific radioactive elements. However, some of …",
+      "ts": 1789081201000,
+      "publishedAt": "2026-09-10T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Q&A: The overlooked networks of heat resilience within communities",
@@ -683,30 +739,6 @@
       "publishedAt": "2026-09-10T11:00:04.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Passive quantum interconnects: Multiplexed remote entanglement generation with cavity-assisted photon scattering",
-      "url": "http://link.aps.org/doi/10.1103/32yf-3nsm",
-      "summary": "Author(s): Seigo Kikura, Kazufumi Tanji, Akihisa Goban, and Shinichi Sunami We propose a time- and wavelength-multiplexed remote atom-atom entanglement generation protocol based on cavity-assisted photon scattering (CAPS…",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Carbon nanowalls integrated on silicon nitride waveguide for photothermoelectric near-infrared detection",
-      "url": "http://link.aps.org/doi/10.1103/prk9-c4r6",
-      "summary": "Author(s): Alexandr M. Mumlyakov, Nikita Yu. Dmitriev, Maksim V. Shibalov, Ivan A. Filippov, Igor V. Trofimov, Alexandr S. Rykov, Nikolay V. Porokhov, Sergey A. Sokolov, Maksim S. Bitkov, Galina V. Molodtsova, Egor V. Ku…",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Octahedral-field-informed machine learning for accelerated discovery of two-dimensional magnets with perpendicular magnetic anisotropy",
-      "url": "http://link.aps.org/doi/10.1103/tx71-z9x1",
-      "summary": "Author(s): Yanyan Yang, Xinyu Chen, Qian Xia, Qionghua Zhou, Qian Chen, and Jinlan Wang Magnetic anisotropy is a fundamental prerequisite for stabilizing long-range order in two-dimensional (2D) magnets, yet its evaluati…",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Precision Measurement of the Muon Charge Asymmetry from $W$-Boson Decays in $pp$ Collisions at $\\sqrt{s}=13\\text{ }\\text{ }\\mathrm{TeV}$ in the Forward Region",
       "url": "http://link.aps.org/doi/10.1103/vgg4-wnhr",
@@ -767,38 +799,6 @@
       "title": "Observation of Individual Vortex Penetration in a Coplanar Superconducting Resonator",
       "url": "http://link.aps.org/doi/10.1103/4zw3-hm6t",
       "summary": "Author(s): Kirill Shulga, Shunsuke Nishimura, Pavel A. Volkov, Miu Hirano, Toshiaki Inada, Ryota Hasegawa, Takeyuki Tsuji, Takayuki Iwasaki, Mutsuko Hatano, Kento Sasaki, and Kensuke Kobayashi A coplanar superconducting …",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Superconductivity in Noncentrosymmetric Rhombohedral ${\\mathrm{NbSe}}_{2}$",
-      "url": "http://link.aps.org/doi/10.1103/b68j-t167",
-      "summary": "Author(s): Zhengxian Li, Xiaoyu Shen, Shaozheng Wang, Kai Liu, Yating Sha, Tianyang Wang, Feng Liu, Qingchen Duan, Kenji Watanabe, Takashi Taniguchi, Peng Chen, Shiyong Wang, Ruidan Zhong, Dong Qian, Yufan Li, Shengwei J…",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Polaronic Lattice State Hybridization in Reduced Oxide Surface Reconstructions",
-      "url": "http://link.aps.org/doi/10.1103/ppfx-xnzt",
-      "summary": "Author(s): Ning Xu, Sergey V. Levchenko, Yong Wang, and Zhong-Kang Han Reduced oxide surfaces often undergo complex reconstructions in which atomic rearrangements and reduction-induced electronic redistribution are stron…",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Nanomechanical Detection of Vortices in an Electron Fluid",
-      "url": "http://link.aps.org/doi/10.1103/9s99-119b",
-      "summary": "Author(s): Andrey A. Shevyrin, Askhat K. Bakarov, and Arthur G. Pogosov A nanomechanical resonator provides a simple way to directly measure the torque generated by electron vortices. [Phys. Rev. Lett. 137, 116302] Publi…",
-      "ts": 1789034400000,
-      "publishedAt": "2026-09-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Superballistic Transport of Thermal Photons in Confined Many-Body Systems",
-      "url": "http://link.aps.org/doi/10.1103/yxqz-j6dv",
-      "summary": "Author(s): Jian Dong, Junming Zhao, Philippe Ben-Abdallah, and Linhua Liu Ballistic transport is traditionally regarded as a limiting regime for scattering-free energy transfer. Here, we predict a superballistic radiativ…",
       "ts": 1789034400000,
       "publishedAt": "2026-09-10T10:00:00.000Z"
     }

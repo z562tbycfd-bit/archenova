@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-10T22:58:52.726Z",
+  "updated": "2026-09-11T00:56:36.382Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -10,6 +10,24 @@
       "ts": 1789078253000,
       "publishedAt": "2026-09-10T22:10:53.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media to Djibouti Artemis Accords Signing Ceremony",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-djibouti-artemis-accords-signing-ceremony/",
+      "summary": "The Republic of Djibouti will sign the Artemis Accords during a ceremony at 11 a.m. EDT, Monday, Sept. 14, at NASA Headquarters in Washington, becoming the 72nd country signatory. NASA Deputy Administrator Matt Anderson …",
+      "ts": 1789074692000,
+      "publishedAt": "2026-09-10T21:11:32.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Answers President’s Call to Establish United States Space Academy",
+      "url": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
+      "summary": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce …",
+      "ts": 1789072012000,
+      "publishedAt": "2026-09-10T20:26:52.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -249,7 +267,7 @@
       "source": "NVIDIA",
       "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
       "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-      "summary": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By conn…",
+      "summary": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of partners building on the NVIDIA AI…",
       "ts": 1789045221000,
       "publishedAt": "2026-09-10T13:00:21.000Z",
       "categoryId": "ai-compute"
@@ -477,6 +495,15 @@
       "summary": "APOD Science APOD APOD: 2026 September 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
       "ts": 1789013100000,
       "publishedAt": "2026-09-10T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Dust Storm Sweeps Over Mali",
+      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
+      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
+      "ts": 1789012800000,
+      "publishedAt": "2026-09-10T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -759,15 +786,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Dust Storm Sweeps Over Mali",
-      "url": "https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/",
-      "summary": "At a time of year when dust storm activity winds down, a plume of dust blanketed parts of the West African nation and its neighbors.",
-      "ts": 1789012800000,
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "OpenAI",
       "title": "Introducing the Agents API",
       "url": "https://openai.com/index/introducing-the-agents-api",
@@ -789,24 +807,6 @@
       "source": "Nature Energy",
       "title": "A hidden leak in solids",
       "url": "https://www.nature.com/articles/s41560-026-02133-3",
-      "summary": "",
-      "ts": 1788998400000,
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Halogen-assisted sulfur oxidation",
-      "url": "https://www.nature.com/articles/s41560-026-02086-7",
-      "summary": "",
-      "ts": 1788998400000,
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Ironing out the wrinkles",
-      "url": "https://www.nature.com/articles/s41560-026-02127-1",
       "summary": "",
       "ts": 1788998400000,
       "publishedAt": "2026-09-10T00:00:00.000Z",
