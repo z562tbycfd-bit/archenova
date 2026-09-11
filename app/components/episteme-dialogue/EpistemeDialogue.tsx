@@ -131,6 +131,9 @@ type EpistemicContract = {
   nextAction: string;
   demonstrationThreshold: string[];
   predictionDesign: string;
+  alternativeExplanation: string;
+  adversarialCheck: string;
+  continueInquiry: string[];
 };
 
 type EvidenceStrength =
@@ -1149,6 +1152,135 @@ function buildRealityTest(
 }
 
 
+function buildContractDialogueGuidance(
+  claimType: ClaimType,
+): Pick<
+  EpistemicContract,
+  "alternativeExplanation" | "adversarialCheck" | "continueInquiry"
+> {
+  switch (claimType) {
+    case "FORMAL / MATHEMATICAL":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as an alternative derivation, formalism, equivalence class, or counterexample—not as an observational competitor unless the formal claim makes a distinct physical prediction.",
+        adversarialCheck:
+          "Search for the first hidden assumption, circular step, invalid inference, failed equivalence, or counterexample. Formal elegance and recovery of familiar notation do not establish that the construction is independent or physically true.",
+        continueInquiry: [
+          "Which assumption is indispensable to the derivation?",
+          "Can the claimed structure be recovered independently from the stated construction?",
+          "What counterexample, failed equivalence, or hidden premise would invalidate the derivation?",
+        ],
+      };
+
+    case "MIXED":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a model that can match the formal construction or original fit while making a different prediction on an independent observable.",
+        adversarialCheck:
+          "Test both layers separately: internal consistency can survive while empirical discrimination fails, and a better fit can arise from flexibility, systematics, or analysis choices rather than superior explanation.",
+        continueInquiry: [
+          "Which independent observable most sharply separates the proposed model from the baseline?",
+          "Which assumption or analysis choice contributes most to the reported advantage?",
+          "What result would preserve formal consistency but erase the claimed empirical significance?",
+        ],
+      };
+
+    case "CAUSAL / MECHANISTIC":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a competing mechanism, reverse pathway, confounder, or shared upstream cause that could generate the same observation.",
+        adversarialCheck:
+          "Ask whether the proposed mechanism is necessary, sufficient, temporally ordered, and uniquely discriminating. Mechanistic plausibility or association alone is not causal demonstration.",
+        continueInquiry: [
+          "Which causal link carries the most discriminating power?",
+          "What competing mechanism could reproduce the same evidence?",
+          "What intervention, natural experiment, or observation would separate the mechanisms?",
+        ],
+      };
+
+    case "ENGINEERING / CONSTRUCTIVE":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a simpler architecture or implementation that achieves the same required function with fewer failure modes, lower irreversibility, or easier verification.",
+        adversarialCheck:
+          "Attack the design at its operating boundaries: requirement failure, hidden coupling, unsafe failure mode, performance collapse, containment failure, and inability to recover are more informative than nominal-case success.",
+        continueInquiry: [
+          "Which requirement is both critical and easiest to falsify experimentally?",
+          "Which failure mode should be forced before scaling the design?",
+          "What recovery test would prove the system remains controllable after failure?",
+        ],
+      };
+
+    case "CLINICAL / INTERVENTIONAL":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as natural history, placebo or comparator effect, population selection, endpoint choice, confounding, or a competing intervention that could explain the apparent benefit.",
+        adversarialCheck:
+          "Separate biological mechanism, surrogate response, clinically meaningful benefit, and patient safety. Improvement in one layer must not inherit certainty into the next.",
+        continueInquiry: [
+          "Which clinically meaningful endpoint should determine whether the claim survives?",
+          "What comparator or population difference could erase the apparent benefit?",
+          "Which safety result would force the intervention claim to be narrowed or rejected?",
+        ],
+      };
+
+    case "INSTITUTIONAL":
+    case "NORMATIVE":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a different rule, incentive structure, counterfactual institution, or value weighting that could achieve the same objective with different distributional and second-order effects.",
+        adversarialCheck:
+          "Stress-test actor incentives, adaptation, gaming, enforcement, distributional consequences, and second-order effects. Institutional intent and normative attractiveness do not establish real-world effect.",
+        continueInquiry: [
+          "How should real actors respond if the institutional mechanism is correct?",
+          "Which unintended or distributional effect could dominate the intended benefit?",
+          "What credible counterfactual would show that another rule achieves the objective better?",
+        ],
+      };
+
+    case "PREDICTIVE":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a competing trajectory driven by a different transition assumption, bottleneck, or baseline rate rather than as a retrospective story fitted after the outcome.",
+        adversarialCheck:
+          "Freeze the forecast before observing the result, then attack the dominant assumption, horizon, calibration, and bottleneck sequence. Retrospective reframing must count as failure, not adaptation.",
+        continueInquiry: [
+          "Which assumption dominates the forecast uncertainty?",
+          "What measurable outcome and horizon are fixed before observation?",
+          "Which new bottleneck or failed transition would invalidate the trajectory?",
+        ],
+      };
+
+    case "COMPARATIVE":
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as the option that could win under the same objective, symmetric criteria, and comparable evidence—not merely the option with more documentation or a different optimization target.",
+        adversarialCheck:
+          "Look for asymmetric evidence, hidden weighting, incomparable maturity, and post-hoc criteria. A fair comparison must permit the preferred option to lose under predefined conditions.",
+        continueInquiry: [
+          "Which common objective should dominate the comparison?",
+          "Are the alternatives being judged with symmetric evidence and criteria?",
+          "What predefined result would reverse the ranking?",
+        ],
+      };
+
+    case "DESCRIPTIVE / EMPIRICAL":
+    case "UNKNOWN":
+    default:
+      return {
+        alternativeExplanation:
+          "Treat the strongest alternative as a measurement, sampling, analysis, boundary-condition, or interpretive explanation that could reproduce the reported observation without the broader conclusion.",
+        adversarialCheck:
+          "Separate what was measured from what was inferred. Test sensitivity to uncertainty, sampling, analysis choices, boundary conditions, and independent replication before extending the conclusion.",
+        continueInquiry: [
+          "Which measured quantity most directly supports the claim?",
+          "Which boundary condition or analysis choice could erase the effect?",
+          "What independent measurement or replication would change the conclusion?",
+        ],
+      };
+  }
+}
+
 function buildEpistemicContract(
   epistemic: EpistemicParse,
   reality: RealityModel,
@@ -1168,6 +1300,7 @@ function buildEpistemicContract(
   switch (epistemic.claimType) {
     case "FORMAL / MATHEMATICAL":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1204,6 +1337,7 @@ function buildEpistemicContract(
 
     case "MIXED":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1240,6 +1374,7 @@ function buildEpistemicContract(
 
     case "CAUSAL / MECHANISTIC":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1276,6 +1411,7 @@ function buildEpistemicContract(
 
     case "ENGINEERING / CONSTRUCTIVE":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1312,6 +1448,7 @@ function buildEpistemicContract(
 
     case "CLINICAL / INTERVENTIONAL":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1349,6 +1486,7 @@ function buildEpistemicContract(
     case "INSTITUTIONAL":
     case "NORMATIVE":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1385,6 +1523,7 @@ function buildEpistemicContract(
 
     case "PREDICTIVE":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1421,6 +1560,7 @@ function buildEpistemicContract(
 
     case "COMPARATIVE":
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: [
@@ -1458,6 +1598,7 @@ function buildEpistemicContract(
     case "UNKNOWN":
     default:
       return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
         claimType: epistemic.claimType,
         validationModes: epistemic.validationModes,
         evidenceRequirements: epistemic.evidenceNeeded.length
@@ -2053,12 +2194,20 @@ Significance layer: distinguish novelty from consequence. Ask what established b
     ];
   }
 
-  // Downstream epistemic actions must come from the same claim-specific contract.
-  // Branch-specific prose may frame the answer, but it must not redefine the
-  // validation, correction, next-action, or demonstration burden.
+  // Every downstream response section now inherits from the same claim-specific
+  // EpistemicContract. Branch-specific prose may identify the primary and
+  // adjacent signals, but it cannot redefine how alternatives, adversarial
+  // checks, validation, correction, next action, or follow-up inquiry work.
   if (lead) {
+    const alternativeContext = second
+      ? ` Relevant adjacent context: “${second.title}”. It should be admitted only in the role permitted by this contract, not because of semantic similarity alone.`
+      : " No comparably strong adjacent signal is currently attached, so the alternative remains a required test rather than a resolved competitor.";
+
+    alternative = `${epistemicContract.alternativeExplanation}${alternativeContext}`;
+    challenge = epistemicContract.adversarialCheck;
     falsification = epistemicContract.disconfirmationConditions.join(" ");
     nextAction = epistemicContract.nextAction;
+    nextQuestions = epistemicContract.continueInquiry;
   }
 
   const modePrefix =

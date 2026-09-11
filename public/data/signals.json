@@ -1,7 +1,62 @@
 {
   "ok": true,
-  "updated": "2026-09-11T13:44:50.938Z",
+  "updated": "2026-09-11T14:00:05.221Z",
   "items": [
+    {
+      "id": "civilization-engineering-stat-pharmalittle-we-re-reading-about-anxious-novartis-investors-patent-expirati",
+      "title": "STAT+: Pharmalittle: We’re reading about anxious Novartis investors, patent expirations for biologics, and more",
+      "source": "STAT",
+      "sourceUrl": "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss",
+      "originalUrl": "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss",
+      "url": "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss",
+      "category": "Civilization Engineering",
+      "summary": "Novartis investors are stepping up scrutiny of the company's dealmaking after setbacks to drugs it acquired through mergers and acquisitions",
+      "observation": "Novartis investors are stepping up scrutiny of the company's dealmaking after setbacks to drugs it acquired through mergers and acquisitions",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "STAT+: Pharmalittle: We’re reading about anxious Novartis investors, patent expirations for biologics, and more should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "Bio"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-11T13:56:13.000Z",
+      "updatedAt": "2026-09-11T14:00:05.188Z",
+      "ts": 1789134973000
+    },
     {
       "id": "civilization-engineering-when-a-company-believes-something-false-that-causes-harm-who-s-to-blame-professo",
       "title": "When a company 'believes' something false that causes harm, who's to blame? Professor offers a new answer",
@@ -54,7 +109,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T13:40:04.000Z",
-      "updatedAt": "2026-09-11T13:44:50.904Z",
+      "updatedAt": "2026-09-11T14:00:05.189Z",
       "ts": 1789134004000
     },
     {
@@ -109,7 +164,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:40:02.000Z",
-      "updatedAt": "2026-09-11T13:44:50.905Z",
+      "updatedAt": "2026-09-11T14:00:05.189Z",
       "ts": 1789134002000
     },
     {
@@ -165,7 +220,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:39:52.000Z",
-      "updatedAt": "2026-09-11T13:44:50.905Z",
+      "updatedAt": "2026-09-11T14:00:05.190Z",
       "ts": 1789133992000
     },
     {
@@ -220,7 +275,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:20:08.000Z",
-      "updatedAt": "2026-09-11T13:44:50.906Z",
+      "updatedAt": "2026-09-11T14:00:05.190Z",
       "ts": 1789132808000
     },
     {
@@ -278,7 +333,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T13:20:04.000Z",
-      "updatedAt": "2026-09-11T13:44:50.906Z",
+      "updatedAt": "2026-09-11T14:00:05.190Z",
       "ts": 1789132804000
     },
     {
@@ -333,7 +388,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T13:05:45.000Z",
-      "updatedAt": "2026-09-11T13:44:50.906Z",
+      "updatedAt": "2026-09-11T14:00:05.191Z",
       "ts": 1789131945000
     },
     {
@@ -392,7 +447,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T13:00:08.000Z",
-      "updatedAt": "2026-09-11T13:44:50.907Z",
+      "updatedAt": "2026-09-11T14:00:05.191Z",
       "ts": 1789131608000
     },
     {
@@ -447,7 +502,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T13:00:04.000Z",
-      "updatedAt": "2026-09-11T13:44:50.908Z",
+      "updatedAt": "2026-09-11T14:00:05.192Z",
       "ts": 1789131604000
     },
     {
@@ -503,7 +558,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T13:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.908Z",
+      "updatedAt": "2026-09-11T14:00:05.192Z",
       "ts": 1789131600000
     },
     {
@@ -558,7 +613,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T13:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.908Z",
+      "updatedAt": "2026-09-11T14:00:05.192Z",
       "ts": 1789131600000
     },
     {
@@ -617,7 +672,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T12:40:01.000Z",
-      "updatedAt": "2026-09-11T13:44:50.908Z",
+      "updatedAt": "2026-09-11T14:00:05.193Z",
       "ts": 1789130401000
     },
     {
@@ -678,7 +733,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T12:20:05.000Z",
-      "updatedAt": "2026-09-11T13:44:50.909Z",
+      "updatedAt": "2026-09-11T14:00:05.193Z",
       "ts": 1789129205000
     },
     {
@@ -733,7 +788,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T12:10:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.909Z",
+      "updatedAt": "2026-09-11T14:00:05.193Z",
       "ts": 1789128600000
     },
     {
@@ -788,7 +843,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T12:00:09.000Z",
-      "updatedAt": "2026-09-11T13:44:50.909Z",
+      "updatedAt": "2026-09-11T14:00:05.194Z",
       "ts": 1789128009000
     },
     {
@@ -843,7 +898,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T12:00:04.000Z",
-      "updatedAt": "2026-09-11T13:44:50.910Z",
+      "updatedAt": "2026-09-11T14:00:05.194Z",
       "ts": 1789128004000
     },
     {
@@ -901,7 +956,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T11:43:20.000Z",
-      "updatedAt": "2026-09-11T13:44:50.910Z",
+      "updatedAt": "2026-09-11T14:00:05.194Z",
       "ts": 1789127000000
     },
     {
@@ -956,7 +1011,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T11:40:04.000Z",
-      "updatedAt": "2026-09-11T13:44:50.910Z",
+      "updatedAt": "2026-09-11T14:00:05.195Z",
       "ts": 1789126804000
     },
     {
@@ -1013,7 +1068,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T11:20:01.000Z",
-      "updatedAt": "2026-09-11T13:44:50.911Z",
+      "updatedAt": "2026-09-11T14:00:05.195Z",
       "ts": 1789125601000
     },
     {
@@ -1068,7 +1123,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T11:00:07.000Z",
-      "updatedAt": "2026-09-11T13:44:50.911Z",
+      "updatedAt": "2026-09-11T14:00:05.195Z",
       "ts": 1789124407000
     },
     {
@@ -1123,7 +1178,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T10:40:01.000Z",
-      "updatedAt": "2026-09-11T13:44:50.912Z",
+      "updatedAt": "2026-09-11T14:00:05.196Z",
       "ts": 1789123201000
     },
     {
@@ -1178,7 +1233,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T09:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.912Z",
+      "updatedAt": "2026-09-11T14:00:05.196Z",
       "ts": 1789117200000
     },
     {
@@ -1233,7 +1288,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.912Z",
+      "updatedAt": "2026-09-11T14:00:05.197Z",
       "ts": 1789115400000
     },
     {
@@ -1288,7 +1343,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.913Z",
+      "updatedAt": "2026-09-11T14:00:05.197Z",
       "ts": 1789115400000
     },
     {
@@ -1344,7 +1399,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.913Z",
+      "updatedAt": "2026-09-11T14:00:05.197Z",
       "ts": 1789115400000
     },
     {
@@ -1400,7 +1455,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T08:30:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.913Z",
+      "updatedAt": "2026-09-11T14:00:05.198Z",
       "ts": 1789115400000
     },
     {
@@ -1455,7 +1510,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T08:10:01.000Z",
-      "updatedAt": "2026-09-11T13:44:50.914Z",
+      "updatedAt": "2026-09-11T14:00:05.198Z",
       "ts": 1789114201000
     },
     {
@@ -1513,7 +1568,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T08:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.914Z",
+      "updatedAt": "2026-09-11T14:00:05.198Z",
       "ts": 1789113600000
     },
     {
@@ -1573,7 +1628,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T07:53:40.000Z",
-      "updatedAt": "2026-09-11T13:44:50.914Z",
+      "updatedAt": "2026-09-11T14:00:05.198Z",
       "ts": 1789113220000
     },
     {
@@ -1633,7 +1688,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T07:18:50.000Z",
-      "updatedAt": "2026-09-11T13:44:50.914Z",
+      "updatedAt": "2026-09-11T14:00:05.199Z",
       "ts": 1789111130000
     },
     {
@@ -1691,7 +1746,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T05:32:49.000Z",
-      "updatedAt": "2026-09-11T13:44:50.915Z",
+      "updatedAt": "2026-09-11T14:00:05.199Z",
       "ts": 1789104769000
     },
     {
@@ -1746,7 +1801,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T04:05:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.915Z",
+      "updatedAt": "2026-09-11T14:00:05.199Z",
       "ts": 1789099500000
     },
     {
@@ -1801,7 +1856,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:01:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.915Z",
+      "updatedAt": "2026-09-11T14:00:05.200Z",
       "ts": 1789099260000
     },
     {
@@ -1856,7 +1911,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.916Z",
+      "updatedAt": "2026-09-11T14:00:05.200Z",
       "ts": 1789099200000
     },
     {
@@ -1911,7 +1966,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.916Z",
+      "updatedAt": "2026-09-11T14:00:05.200Z",
       "ts": 1789099200000
     },
     {
@@ -1970,7 +2025,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.917Z",
+      "updatedAt": "2026-09-11T14:00:05.201Z",
       "ts": 1789099200000
     },
     {
@@ -2026,7 +2081,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.917Z",
+      "updatedAt": "2026-09-11T14:00:05.201Z",
       "ts": 1789099200000
     },
     {
@@ -2085,7 +2140,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.917Z",
+      "updatedAt": "2026-09-11T14:00:05.202Z",
       "ts": 1789099200000
     },
     {
@@ -2146,7 +2201,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.918Z",
+      "updatedAt": "2026-09-11T14:00:05.202Z",
       "ts": 1789099200000
     },
     {
@@ -2201,7 +2256,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.918Z",
+      "updatedAt": "2026-09-11T14:00:05.202Z",
       "ts": 1789099200000
     },
     {
@@ -2263,7 +2318,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.918Z",
+      "updatedAt": "2026-09-11T14:00:05.202Z",
       "ts": 1789099200000
     },
     {
@@ -2320,7 +2375,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.919Z",
+      "updatedAt": "2026-09-11T14:00:05.203Z",
       "ts": 1789099200000
     },
     {
@@ -2378,7 +2433,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.919Z",
+      "updatedAt": "2026-09-11T14:00:05.203Z",
       "ts": 1789099200000
     },
     {
@@ -2439,7 +2494,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.920Z",
+      "updatedAt": "2026-09-11T14:00:05.203Z",
       "ts": 1789099200000
     },
     {
@@ -2497,7 +2552,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.920Z",
+      "updatedAt": "2026-09-11T14:00:05.204Z",
       "ts": 1789099200000
     },
     {
@@ -2552,7 +2607,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.920Z",
+      "updatedAt": "2026-09-11T14:00:05.204Z",
       "ts": 1789099200000
     },
     {
@@ -2607,7 +2662,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.921Z",
+      "updatedAt": "2026-09-11T14:00:05.205Z",
       "ts": 1789099200000
     },
     {
@@ -2666,7 +2721,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.921Z",
+      "updatedAt": "2026-09-11T14:00:05.205Z",
       "ts": 1789099200000
     },
     {
@@ -2724,7 +2779,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.921Z",
+      "updatedAt": "2026-09-11T14:00:05.205Z",
       "ts": 1789099200000
     },
     {
@@ -2779,7 +2834,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.922Z",
+      "updatedAt": "2026-09-11T14:00:05.206Z",
       "ts": 1789099200000
     },
     {
@@ -2834,7 +2889,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.922Z",
+      "updatedAt": "2026-09-11T14:00:05.206Z",
       "ts": 1789099200000
     },
     {
@@ -2889,7 +2944,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.923Z",
+      "updatedAt": "2026-09-11T14:00:05.207Z",
       "ts": 1789099200000
     },
     {
@@ -2949,7 +3004,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.923Z",
+      "updatedAt": "2026-09-11T14:00:05.207Z",
       "ts": 1789099200000
     },
     {
@@ -3004,7 +3059,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.923Z",
+      "updatedAt": "2026-09-11T14:00:05.207Z",
       "ts": 1789099200000
     },
     {
@@ -3059,7 +3114,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.924Z",
+      "updatedAt": "2026-09-11T14:00:05.208Z",
       "ts": 1789099200000
     },
     {
@@ -3119,7 +3174,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.924Z",
+      "updatedAt": "2026-09-11T14:00:05.208Z",
       "ts": 1789099200000
     },
     {
@@ -3174,7 +3229,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.924Z",
+      "updatedAt": "2026-09-11T14:00:05.209Z",
       "ts": 1789099200000
     },
     {
@@ -3229,7 +3284,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.925Z",
+      "updatedAt": "2026-09-11T14:00:05.209Z",
       "ts": 1789099200000
     },
     {
@@ -3291,7 +3346,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.925Z",
+      "updatedAt": "2026-09-11T14:00:05.209Z",
       "ts": 1789099200000
     },
     {
@@ -3346,7 +3401,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.926Z",
+      "updatedAt": "2026-09-11T14:00:05.210Z",
       "ts": 1789099200000
     },
     {
@@ -3406,7 +3461,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.926Z",
+      "updatedAt": "2026-09-11T14:00:05.210Z",
       "ts": 1789099200000
     },
     {
@@ -3461,7 +3516,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.926Z",
+      "updatedAt": "2026-09-11T14:00:05.210Z",
       "ts": 1789099200000
     },
     {
@@ -3516,7 +3571,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.927Z",
+      "updatedAt": "2026-09-11T14:00:05.211Z",
       "ts": 1789099200000
     },
     {
@@ -3576,7 +3631,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.927Z",
+      "updatedAt": "2026-09-11T14:00:05.211Z",
       "ts": 1789099200000
     },
     {
@@ -3632,7 +3687,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.927Z",
+      "updatedAt": "2026-09-11T14:00:05.211Z",
       "ts": 1789099200000
     },
     {
@@ -3687,7 +3742,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.927Z",
+      "updatedAt": "2026-09-11T14:00:05.212Z",
       "ts": 1789099200000
     },
     {
@@ -3747,7 +3802,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.928Z",
+      "updatedAt": "2026-09-11T14:00:05.212Z",
       "ts": 1789099200000
     },
     {
@@ -3802,7 +3857,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.928Z",
+      "updatedAt": "2026-09-11T14:00:05.212Z",
       "ts": 1789099200000
     },
     {
@@ -3857,7 +3912,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.929Z",
+      "updatedAt": "2026-09-11T14:00:05.213Z",
       "ts": 1789099200000
     },
     {
@@ -3912,7 +3967,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.929Z",
+      "updatedAt": "2026-09-11T14:00:05.213Z",
       "ts": 1789099200000
     },
     {
@@ -3973,7 +4028,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.929Z",
+      "updatedAt": "2026-09-11T14:00:05.213Z",
       "ts": 1789099200000
     },
     {
@@ -4034,7 +4089,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.930Z",
+      "updatedAt": "2026-09-11T14:00:05.214Z",
       "ts": 1789099200000
     },
     {
@@ -4089,7 +4144,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.930Z",
+      "updatedAt": "2026-09-11T14:00:05.214Z",
       "ts": 1789099200000
     },
     {
@@ -4144,7 +4199,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T22:10:53.000Z",
-      "updatedAt": "2026-09-11T13:44:50.931Z",
+      "updatedAt": "2026-09-11T14:00:05.214Z",
       "ts": 1789078253000
     },
     {
@@ -4202,7 +4257,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T21:11:32.000Z",
-      "updatedAt": "2026-09-11T13:44:50.931Z",
+      "updatedAt": "2026-09-11T14:00:05.215Z",
       "ts": 1789074692000
     },
     {
@@ -4260,7 +4315,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T20:26:52.000Z",
-      "updatedAt": "2026-09-11T13:44:50.932Z",
+      "updatedAt": "2026-09-11T14:00:05.215Z",
       "ts": 1789072012000
     },
     {
@@ -4319,7 +4374,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T20:12:39.000Z",
-      "updatedAt": "2026-09-11T13:44:50.932Z",
+      "updatedAt": "2026-09-11T14:00:05.215Z",
       "ts": 1789071159000
     },
     {
@@ -4374,7 +4429,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T19:57:28.000Z",
-      "updatedAt": "2026-09-11T13:44:50.932Z",
+      "updatedAt": "2026-09-11T14:00:05.216Z",
       "ts": 1789070248000
     },
     {
@@ -4431,7 +4486,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T18:54:44.000Z",
-      "updatedAt": "2026-09-11T13:44:50.932Z",
+      "updatedAt": "2026-09-11T14:00:05.216Z",
       "ts": 1789066484000
     },
     {
@@ -4487,7 +4542,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T18:32:12.000Z",
-      "updatedAt": "2026-09-11T13:44:50.933Z",
+      "updatedAt": "2026-09-11T14:00:05.216Z",
       "ts": 1789065132000
     },
     {
@@ -4548,7 +4603,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-10T18:19:45.000Z",
-      "updatedAt": "2026-09-11T13:44:50.933Z",
+      "updatedAt": "2026-09-11T14:00:05.216Z",
       "ts": 1789064385000
     },
     {
@@ -4606,7 +4661,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T18:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.933Z",
+      "updatedAt": "2026-09-11T14:00:05.217Z",
       "ts": 1789063200000
     },
     {
@@ -4661,7 +4716,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T17:29:23.000Z",
-      "updatedAt": "2026-09-11T13:44:50.933Z",
+      "updatedAt": "2026-09-11T14:00:05.217Z",
       "ts": 1789061363000
     },
     {
@@ -4719,7 +4774,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T17:28:13.000Z",
-      "updatedAt": "2026-09-11T13:44:50.934Z",
+      "updatedAt": "2026-09-11T14:00:05.217Z",
       "ts": 1789061293000
     },
     {
@@ -4780,7 +4835,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T17:27:52.000Z",
-      "updatedAt": "2026-09-11T13:44:50.934Z",
+      "updatedAt": "2026-09-11T14:00:05.218Z",
       "ts": 1789061272000
     },
     {
@@ -4835,7 +4890,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T16:47:22.000Z",
-      "updatedAt": "2026-09-11T13:44:50.934Z",
+      "updatedAt": "2026-09-11T14:00:05.218Z",
       "ts": 1789058842000
     },
     {
@@ -4893,7 +4948,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T16:30:35.000Z",
-      "updatedAt": "2026-09-11T13:44:50.934Z",
+      "updatedAt": "2026-09-11T14:00:05.218Z",
       "ts": 1789057835000
     },
     {
@@ -4952,7 +5007,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T16:14:03.000Z",
-      "updatedAt": "2026-09-11T13:44:50.935Z",
+      "updatedAt": "2026-09-11T14:00:05.218Z",
       "ts": 1789056843000
     },
     {
@@ -5010,7 +5065,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-10T16:00:04.000Z",
-      "updatedAt": "2026-09-11T13:44:50.935Z",
+      "updatedAt": "2026-09-11T14:00:05.219Z",
       "ts": 1789056004000
     },
     {
@@ -5070,7 +5125,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T16:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.935Z",
+      "updatedAt": "2026-09-11T14:00:05.219Z",
       "ts": 1789056000000
     },
     {
@@ -5125,7 +5180,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T15:30:50.000Z",
-      "updatedAt": "2026-09-11T13:44:50.935Z",
+      "updatedAt": "2026-09-11T14:00:05.219Z",
       "ts": 1789054250000
     },
     {
@@ -5184,7 +5239,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-10T15:16:32.000Z",
-      "updatedAt": "2026-09-11T13:44:50.936Z",
+      "updatedAt": "2026-09-11T14:00:05.219Z",
       "ts": 1789053392000
     },
     {
@@ -5246,7 +5301,7 @@
         "overall": 6.7
       },
       "publishedAt": "2026-09-10T15:09:57.000Z",
-      "updatedAt": "2026-09-11T13:44:50.936Z",
+      "updatedAt": "2026-09-11T14:00:05.219Z",
       "ts": 1789052997000
     },
     {
@@ -5301,7 +5356,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T15:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.936Z",
+      "updatedAt": "2026-09-11T14:00:05.220Z",
       "ts": 1789052400000
     },
     {
@@ -5358,7 +5413,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T14:53:06.000Z",
-      "updatedAt": "2026-09-11T13:44:50.936Z",
+      "updatedAt": "2026-09-11T14:00:05.220Z",
       "ts": 1789051986000
     },
     {
@@ -5414,7 +5469,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-10T14:50:28.000Z",
-      "updatedAt": "2026-09-11T13:44:50.937Z",
+      "updatedAt": "2026-09-11T14:00:05.220Z",
       "ts": 1789051828000
     },
     {
@@ -5471,7 +5526,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T14:22:27.000Z",
-      "updatedAt": "2026-09-11T13:44:50.937Z",
+      "updatedAt": "2026-09-11T14:00:05.220Z",
       "ts": 1789050147000
     },
     {
@@ -5526,7 +5581,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T14:20:57.000Z",
-      "updatedAt": "2026-09-11T13:44:50.937Z",
+      "updatedAt": "2026-09-11T14:00:05.221Z",
       "ts": 1789050057000
     },
     {
@@ -5584,7 +5639,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-09-10T14:00:00.000Z",
-      "updatedAt": "2026-09-11T13:44:50.937Z",
+      "updatedAt": "2026-09-11T14:00:05.221Z",
       "ts": 1789048800000
     },
     {
@@ -5639,63 +5694,8 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-10T13:36:56.000Z",
-      "updatedAt": "2026-09-11T13:44:50.938Z",
+      "updatedAt": "2026-09-11T14:00:05.221Z",
       "ts": 1789047416000
-    },
-    {
-      "id": "civilization-engineering-stat-pharmalittle-we-re-reading-about-a-novartis-investor-seeking-a-shake-up-a-g",
-      "title": "STAT+: Pharmalittle: We’re reading about a Novartis investor seeking a shake-up, a Gilead setback, and more",
-      "source": "STAT",
-      "sourceUrl": "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/?utm_campaign=rss",
-      "originalUrl": "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/?utm_campaign=rss",
-      "url": "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/?utm_campaign=rss",
-      "category": "Civilization Engineering",
-      "summary": "A major Novartis shareholder has called for a shake-up of the drugmaker's board after its shares suffered a record fall following trial setbacks",
-      "observation": "A major Novartis shareholder has called for a shake-up of the drugmaker's board after its shares suffered a record fall following trial setbacks",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "STAT+: Pharmalittle: We’re reading about a Novartis investor seeking a shake-up, a Gilead setback, and more should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The signal remains dependent on prototype performance, independent validation, scaling economics, regulatory conditions, and repeatability outside controlled environments.",
-      "confidence": 88,
-      "state": "VALIDATING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "General"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Prototype / Pilot",
-      "expectedHorizon": "3–10 Years",
-      "horizonRationale": "This signal is currently assessed as Prototype / Pilot, placing it in the 3–10 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-09-10T13:09:22.000Z",
-      "updatedAt": "2026-09-11T13:44:50.938Z",
-      "ts": 1789045762000
     }
   ]
 }

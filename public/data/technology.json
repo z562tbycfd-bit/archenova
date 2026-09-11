@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-11T13:44:50.860Z",
+  "updated": "2026-09-11T14:00:05.139Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about anxious Novartis investors, patent expirations for biologics, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss",
+      "summary": "Novartis investors are stepping up scrutiny of the company's dealmaking after setbacks to drugs it acquired through mergers and acquisitions",
+      "ts": 1789134973000,
+      "publishedAt": "2026-09-11T13:56:13.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Cancer drug shortages keep disrupting patient care",
@@ -801,15 +810,6 @@
       "summary": "The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from int…",
       "ts": 1789034400000,
       "publishedAt": "2026-09-10T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "God told them to sell crypto. Their investors lost everything.",
-      "url": "https://www.technologyreview.com/2026/09/10/1143588/indxcoin-god-regalados-sell-crypto-investors-lost-everything/",
-      "summary": "This article was produced in partnership with Type Investigations and with support from the Fund for Investigative Journalism. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. Now…",
-      "ts": 1789030800000,
-      "publishedAt": "2026-09-10T09:00:00.000Z",
       "categoryId": "ai-compute"
     }
   ],
