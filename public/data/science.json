@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-12T21:59:44.600Z",
+  "updated": "2026-09-12T23:56:29.556Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Magnetic nanoparticles detect amoxicillin allergy with 98% sensitivity in early tests",
+      "url": "https://phys.org/news/2026-09-magnetic-nanoparticles-amoxicillin-allergy-sensitivity.html",
+      "summary": "A multidisciplinary scientific team at the University of Malaga has developed a new technology based on magnetic nanoparticles that enables precise, rapid and reliable diagnosis of allergy to beta-lactam antibiotics, inc…",
+      "ts": 1789255801000,
+      "publishedAt": "2026-09-12T23:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Six ways people have used magic to protect their homes throughout history—from witch bottles to 'hag stones'",
+      "url": "https://phys.org/news/2026-09-ways-people-magic-homes-history.html",
+      "summary": "Virtually all cultures and eras fizz with magic. You might call it a secret ingredient of human life because magic takes so many forms and serves so many functions.",
+      "ts": 1789252201000,
+      "publishedAt": "2026-09-12T22:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Japan's Hayabusa2 achieves first-ever laser ranging experiment with an asteroid",
@@ -783,22 +799,6 @@
       "title": "CARTS: Contextual Autoregressive Rank Transcoding Steganography for Full-Capacity Keyed Text Encoding",
       "url": "https://arxiv.org/abs/2609.10744",
       "summary": "arXiv:2609.10744v1 Announce Type: cross Abstract: Autoregressive language models can be used to transform a payload text into a stegotext of identical token length by preserving per-position rank information across conte…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Temporal and Multimodal Deep Learning for Cyberattack Detection in LEO Satellite Systems",
-      "url": "https://arxiv.org/abs/2609.10746",
-      "summary": "arXiv:2609.10746v1 Announce Type: cross Abstract: The growing reliance on Low-Earth Orbit (LEO) satellite communication systems has increased the need for intelligent methods capable of detecting cyberattacks across comp…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
-      "url": "https://arxiv.org/abs/2609.10750",
-      "summary": "arXiv:2609.10750v1 Announce Type: cross Abstract: LLM agents increasingly rely on external skills retrieved at runtime, making skill selection from large repositories a critical challenge. We present a production skill r…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
