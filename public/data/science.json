@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-12T09:04:13.003Z",
+  "updated": "2026-09-12T13:24:25.329Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why are the stars around our galaxy's black hole missing their companions?",
+      "url": "https://phys.org/news/2026-09-stars-galaxy-black-hole-companions.html",
+      "summary": "A new study suggests that the young stars orbiting the Milky Way's central black hole may have a surprisingly ordinary origin. But the black hole's influence may be what makes their origin look more exotic than it really…",
+      "ts": 1789216801000,
+      "publishedAt": "2026-09-12T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rubin observatory peers deep into the famous COSMOS field",
+      "url": "https://phys.org/news/2026-09-rubin-observatory-peers-deep-famous.html",
+      "summary": "The COSMOS field, or Cosmic Evolution Survey Deep Field, is one of the most famous patches of the universe observed by astronomers. Located in the constellation Sextans, this region was photographed by the Hubble Space T…",
+      "ts": 1789214408000,
+      "publishedAt": "2026-09-12T12:00:08.000Z"
+    },
     {
       "source": "arXiv AI",
       "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
@@ -783,22 +799,6 @@
       "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
       "url": "https://arxiv.org/abs/2609.10895",
       "summary": "arXiv:2609.10895v1 Announce Type: cross Abstract: Reacting to sudden physical hazards (catching a slipping plate, dodging a falling knife) is both a meaningful test of embodied intelligence and a hard requirement for dep…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AUC Maximization from Biased Positive-unlabeled Data with Confidence",
-      "url": "https://arxiv.org/abs/2609.10928",
-      "summary": "arXiv:2609.10928v1 Announce Type: cross Abstract: Maximizing the area under the receiver operating characteristic curve (AUC) is a standard approach to imbalanced binary classification. Although positive and negative dat…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Evaluating Scaffolding-Oriented Multi-Agent Large Language Model System for Clinical Interview Training",
-      "url": "https://arxiv.org/abs/2609.10939",
-      "summary": "arXiv:2609.10939v1 Announce Type: cross Abstract: Clinical education must prepare medical students to conduct safe and coherent patient interviews under conditions of uncertainty. Traditional standardized patient (SP) tr…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
