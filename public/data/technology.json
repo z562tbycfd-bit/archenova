@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-12T16:49:21.445Z",
+  "updated": "2026-09-12T19:01:02.390Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1789344000000,
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Where do we go?’: How Israel’s ‘yellow line’ is closing in on Palestinians",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168320",
+      "summary": "Ola Ishtiwi sits with her children in front of the remains of her home in the Al-Tuffah neighbourhood in eastern Gaza City, a few metres away from a series of painted cement blocks Israel has placed to mark what has beco…",
+      "ts": 1789214400000,
+      "publishedAt": "2026-09-12T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -40,7 +49,7 @@
     },
     {
       "source": "MIT Technology Review",
-      "title": "Roundtables: Will AI really kill us all?",
+      "title": "Roundtables: Could AI really kill us all?",
       "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
       "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor…",
       "ts": 1789157106000,
@@ -222,7 +231,7 @@
       "source": "United Nations News",
       "title": "Security Council LIVE: Ambassadors mark 9/11 with counter-terrorism push on AI and drones",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168318",
-      "summary": "The Security Council met to mark 25 years since the 9/11 attacks, with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's counter…",
+      "summary": "The Security Council met to mark 25 years since the 9/11 attacks with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's counter-…",
       "ts": 1789128000000,
       "publishedAt": "2026-09-11T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -802,15 +811,6 @@
       "ts": 1789052400000,
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Can AI save rural health care?",
-      "url": "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/?utm_campaign=rss",
-      "summary": "Nominees for top federal health roles to face Congress, and Trump officials are betting on AI to help save rural health care.",
-      "ts": 1789051986000,
-      "publishedAt": "2026-09-10T14:53:06.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

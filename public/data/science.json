@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-12T16:49:18.990Z",
+  "updated": "2026-09-12T19:00:59.029Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Silicon nanosphere coatings deliver glossy, nonfading color on 3D surfaces",
+      "url": "https://phys.org/news/2026-09-silicon-nanosphere-coatings-glossy-nonfading.html",
+      "summary": "\"Color coatings are expected to provide vivid color, brightness, gloss and long-term durability, yet no existing technology satisfies all of these requirements simultaneously,\" says Kobe University materials engineer Hir…",
+      "ts": 1789239601000,
+      "publishedAt": "2026-09-12T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unexpected Amazon hotspot: Central north faces fastest rise in extreme heat and water stress",
+      "url": "https://phys.org/news/2026-09-unexpected-amazon-hotspot-central-north.html",
+      "summary": "The central north Amazon, with extensive areas of high forest cover, natural savannas and vast, important Indigenous territories, was not previously considered the area most affected by climate change.",
+      "ts": 1789236001000,
+      "publishedAt": "2026-09-12T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Southern Ocean may flip from carbon sink to carbon source under mitigation scenarios",
+      "url": "https://phys.org/news/2026-09-southern-ocean-flip-carbon-source.html",
+      "summary": "Plans to limit the global temperature rise to 1.5°C above preindustrial levels depend on reaching net-zero emissions and, in many cases, actively removing carbon dioxide (CO2) from the air. While this helps limit extreme…",
+      "ts": 1789233601000,
+      "publishedAt": "2026-09-12T17:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Why do some salivary glands fail? Researchers point to hidden cell stress",
@@ -775,30 +799,6 @@
       "title": "Beyond Static Guarantees: Measuring the Static-Pass Dynamic-Fail Gap in Security-Sensitive and LLM-Generated Python Code",
       "url": "https://arxiv.org/abs/2609.10762",
       "summary": "arXiv:2609.10762v1 Announce Type: cross Abstract: Advances in large language models (LLMs) fuel the quest for scalable methods to assess the security of generated and security-sensitive software. Static analysis is widel…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Counterfactual Marginalisation: Framework for Evaluating Robustness to Nuisance Variables",
-      "url": "https://arxiv.org/abs/2609.10778",
-      "summary": "arXiv:2609.10778v1 Announce Type: cross Abstract: Machine learning models can achieve strong test performance while relying on demographic or acquisition-related shortcuts. We propose counterfactual (CF) marginalisation …",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Tapes Together Strong: The Co-evolution of Computation and Cooperation",
-      "url": "https://arxiv.org/abs/2609.10817",
-      "summary": "arXiv:2609.10817v1 Announce Type: cross Abstract: How does cooperation evolve in complex agentic systems? Prior work in evolutionary game theory studies why individuals are incentivized to cooperate by isolating social i…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Are We Really Doing Few-Shot Learning? A Critical Examination of Pre-Training Assumptions",
-      "url": "https://arxiv.org/abs/2609.10851",
-      "summary": "arXiv:2609.10851v1 Announce Type: cross Abstract: Few-shot learning is commonly evaluated under protocols that pre-train a model on a large auxiliary set whose classes are disjoint from the target episodes yet drawn from…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
