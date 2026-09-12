@@ -420,6 +420,38 @@ type DialogueMessage = {
   streaming?: boolean;
 };
 
+type SignalSpaceNodeRole =
+  | "SUPPORTING"
+  | "COMPETING"
+  | "BACKGROUND";
+
+type SignalSpaceKnowledgeKind = "SIGNAL" | "REPORT";
+
+type SignalSpaceNode = {
+  id: string;
+  signalId: string;
+  title: string;
+  category: string;
+  source: string;
+  knowledgeKind: SignalSpaceKnowledgeKind;
+  role: SignalSpaceNodeRole;
+  score: number;
+  x: number;
+  y: number;
+};
+
+type SignalSpaceModel = {
+  primary: SignalItem | null;
+  primaryKind: SignalSpaceKnowledgeKind;
+  nodes: SignalSpaceNode[];
+  thesis: string;
+  sourceTruth: string;
+  evidenceBoundary: string;
+  decisiveTest: string;
+  knowledgeStatement: string;
+};
+
+
 type RawRecord = Record<string, unknown>;
 
 /* ==========================================================
@@ -434,31 +466,7 @@ const MODES: readonly {
     id: "ask",
     label: "Ask",
     description:
-      "Answer the question directly, then justify the conclusion and state its evidence boundary.",
-  },
-  {
-    id: "explore",
-    label: "Explore",
-    description:
-      "Expand the inquiry into adjacent mechanisms, implications, unknowns, and research directions.",
-  },
-  {
-    id: "challenge",
-    label: "Challenge",
-    description:
-      "Attack the central claim with alternatives, hidden assumptions, falsification tests, and failure conditions.",
-  },
-  {
-    id: "compare",
-    label: "Compare",
-    description:
-      "Evaluate competing objects under the same criteria and produce a conditional judgment rather than a loose similarity list.",
-  },
-  {
-    id: "simulate",
-    label: "Simulate",
-    description:
-      "Hold assumptions explicit, propagate causal consequences, branch scenarios, and separate counterfactual results from evidence.",
+      "Ask one question, then move through ArcheNova's indexed evidence and Signal Space without switching reasoning modes.",
   },
 ];
 
@@ -506,11 +514,11 @@ const MODE_REASONING_STRATEGIES: Record<DialogueMode, ModeReasoningStrategy> = {
 };
 
 const SUGGESTIONS = [
-  "What changed in civilization today?",
-  "Which scientific signals matter most?",
-  "What bottleneck may be migrating next?",
-  "Challenge the strongest current conclusion.",
-  "What becomes possible if a major constraint disappears?",
+  "Which current ArcheNova signal deserves the deepest attention?",
+  "Explain the deepest defensible significance of a signal.",
+  "Which related ArcheNova signals strengthen or weaken this claim?",
+  "What evidence boundary should prevent overinterpretation?",
+  "Which decisive test would change the conclusion?",
 ];
 
 /* ==========================================================
@@ -2369,6 +2377,16 @@ function buildRelatedIntelligenceSignalIds(
       const titleOverlap = evidenceTitleOverlap(lead, signal);
       const leadProfile = lead ? inferObjectSemanticProfile(lead) : null;
       const candidateProfile = inferObjectSemanticProfile(signal);
+      const leadOntology = lead ? inferSemanticClaimOntology(lead) : null;
+      const candidateOntology = inferSemanticClaimOntology(signal);
+
+      const ontologyCompatible =
+        !!leadOntology &&
+        leadOntology.domain === candidateOntology.domain &&
+        (
+          leadOntology.operation === candidateOntology.operation ||
+          leadOntology.artifact === candidateOntology.artifact
+        );
 
       const sameDomain =
         !!leadProfile &&
@@ -2382,8 +2400,8 @@ function buildRelatedIntelligenceSignalIds(
       // RELATED INTELLIGENCE must share an epistemic object family or a
       // strongly overlapping subject. Broad domain vocabulary alone is not enough.
       return (
-        (titleOverlap >= 1 && totalOverlap >= 4 && assessment.score >= 14) ||
-        (sameDomain && sameOperation && totalOverlap >= 3 && assessment.score >= 16)
+        (titleOverlap >= 1 && totalOverlap >= 4 && assessment.score >= 14 && ontologyCompatible) ||
+        (sameDomain && sameOperation && ontologyCompatible && totalOverlap >= 3 && assessment.score >= 16)
       );
     })
     .map((signal) => signal.id);
@@ -2770,13 +2788,26 @@ function summarizeSignal(signal: SignalItem) {
 }
 
 
-function signalSentences(signal: SignalItem) {
-  const cleaned = signal.summary
-    .replace(/arXiv:\S+\s*/gi, "")
-    .replace(/Announce Type:\s*\w+\s*/gi, "")
-    .replace(/Abstract:\s*/gi, "")
+function sanitizeSignalSummary(raw: string): string {
+  return raw
+    // arXiv / feed metadata may appear at the beginning or be concatenated
+    // directly with the abstract. Metadata is not part of the proposition.
+    .replace(/\barXiv:\s*\d{4}\.\d{4,5}(?:v\d+)?\b/gi, " ")
+    .replace(/\barXiv:\S+\b/gi, " ")
+    .replace(/\bAnnounce\s+Type:\s*[A-Za-z_-]+\b/gi, " ")
+    .replace(/\bAbstract:\s*/gi, " ")
+    .replace(/\bSubmitted:\s*[^.;\n]*(?:[.;]|$)/gi, " ")
+    .replace(/\bAuthors?:\s*[^.;\n]*(?:[.;]|$)/gi, " ")
+    .replace(/\bSubjects?:\s*[^.;\n]*(?:[.;]|$)/gi, " ")
+    .replace(/\bComments?:\s*[^.;\n]*(?:[.;]|$)/gi, " ")
+    .replace(/\bJournal[- ]reference:\s*[^.;\n]*(?:[.;]|$)/gi, " ")
+    .replace(/\bDOI:\s*\S+/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function signalSentences(signal: SignalItem) {
+  const cleaned = sanitizeSignalSummary(signal.summary);
 
   if (!cleaned) {
     return [];
@@ -2797,7 +2828,11 @@ function signalSentences(signal: SignalItem) {
 
   return (protectedText.match(/[^.!?]+(?:[.!?]+|$)/g) ?? [protectedText])
     .map((sentence) => sentence.replaceAll(DOT, ".").trim())
-    .filter(Boolean);
+    .filter(Boolean)
+    .filter(
+      (sentence) =>
+        !/^(arxiv|announce type|abstract|submitted|authors?|subjects?|comments?|doi)\s*:/i.test(sentence),
+    );
 }
 
 function findSentence(
@@ -3118,10 +3153,51 @@ type ArticleEssence = {
 type AskDepth = "DIRECT" | "SCHOLARLY" | "DEEP";
 
 
+type SemanticObjectDomain =
+  | "AI / SOFTWARE"
+  | "PHYSICAL ENGINEERING"
+  | "BIOMEDICAL RESEARCH"
+  | "CLINICAL INTERVENTION"
+  | "INSTITUTIONAL"
+  | "GENERAL SCIENCE";
+
+type SemanticArtifact =
+  | "MODEL / ALGORITHM"
+  | "AGENT / SOFTWARE SYSTEM"
+  | "ENGINEERED PHYSICAL SYSTEM"
+  | "BIOLOGICAL SYSTEM"
+  | "THERAPEUTIC INTERVENTION"
+  | "POLICY / RULE"
+  | "OBSERVATIONAL OBJECT"
+  | "UNKNOWN";
+
+type SemanticOperation =
+  | "PREDICT"
+  | "SOLVE / COMPUTE"
+  | "REASON / INFER"
+  | "CONTROL / CONSTRUCT"
+  | "COMPARE / OPTIMIZE"
+  | "MEASURE / OBSERVE"
+  | "EXPLAIN MECHANISM"
+  | "TREAT / INTERVENE"
+  | "GOVERN / REGULATE"
+  | "UNKNOWN";
+
+type SemanticClaimOntology = {
+  domain: SemanticObjectDomain;
+  artifact: SemanticArtifact;
+  operation: SemanticOperation;
+  interventionClaim: boolean;
+  claimType: ClaimType | null;
+  rationale: string;
+};
+
+
+
 
 
 function inferObjectSemanticProfile(signal: SignalItem): ObjectSemanticProfile {
-  const corpus = normalize(`${signal.title} ${signal.summary}`);
+  const corpus = normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)}`);
 
   if (
     /\b(llm|language model|agent|software|algorithm|search|lora|diffusion model|fine tuning|benchmark|model|inference|tool|code|memory|preprocessing)\b/.test(corpus)
@@ -3326,7 +3402,16 @@ function essenceClause(value: string, fallback: string): string {
   return !c ? fallback : c.length > 520 ? `${c.slice(0,517).trim()}…` : c;
 }
 function essenceDomainPrinciple(signal: SignalItem, p: PropositionSet, profile: ObjectSemanticProfile): string {
-  const c=normalize(`${signal.title} ${signal.summary||""} ${p.result?.text||""} ${p.comparison?.text||""}`);
+  const c=normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)} ${p.result?.text||""} ${p.comparison?.text||""}`);
+  if(/\b(multi stage rule chaining|multi-stage rule-chaining|rule chaining framework|rule-chaining framework)\b/.test(c)) {
+    return "The article-specific shift is from treating abstract reasoning as a single opaque mapping to decomposing it into staged, compositional rule application whose intermediate structure can be inspected. The important question is therefore whether explicit decomposition improves generalization and interpretability without merely encoding task-specific heuristics.";
+  }
+  if(/\b(scdeft|drug effect prediction|drug-effect prediction)\b/.test(c)) {
+    return "The article-specific shift is from describing observed pre/post-treatment cell states to learning a model that can predict treatment-associated state changes and reason about counterfactual responses. The central scientific value is predictive discrimination over cellular response structure, not direct proof of patient-level therapeutic benefit.";
+  }
+  if(/\b(deterministic math solver|math solver|clinical language models)\b/.test(c)) {
+    return "The article-specific shift is from asking a probabilistic language model to perform arithmetic internally to separating numerical computation into a deterministic component. The deeper systems principle is architectural separation of linguistic uncertainty from exact computation: reliability can improve by routing a brittle subproblem to a mechanism with stronger correctness guarantees.";
+  }
   if(/\b(lora|low rank|low-rank|diffusion|fine tuning|fine-tuning|rank)\b/.test(c))
     return "The deeper issue is not whether more adaptation capacity is always better, but whether a minimum sufficient rank exists on a quality–resource frontier. Useful adaptation must be separated from maximum rank, and any optimum remains conditional on model, data, objective, metric, and compute budget.";
   if(/\b(task agnostic|task-agnostic|environment preprocessing|preprocessing|without a syllabus)\b/.test(c))
@@ -3346,6 +3431,17 @@ function essenceDomainPrinciple(signal: SignalItem, p: PropositionSet, profile: 
   return "The deeper principle is to identify the smallest substantive change the source actually supports, then determine which explanatory, predictive, technical, or decision baseline must change if that result survives independent testing.";
 }
 function essenceConsequence(signal: SignalItem,p: PropositionSet,profile: ObjectSemanticProfile): string {
+  const corpus = normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)}`);
+
+  if(/\b(multi stage rule chaining|multi-stage rule-chaining|rule chaining framework|rule-chaining framework)\b/.test(corpus))
+    return "If the framework genuinely improves ARC-style generalization while exposing intermediate rule chains, it would support a design direction in which reasoning systems are evaluated not only by final-answer accuracy but by compositional transfer, recoverable intermediate structure, and whether the same rules survive novel combinations.";
+
+  if(/\b(scdeft|drug effect prediction|drug-effect prediction)\b/.test(corpus))
+    return "If predictive performance survives held-out perturbations, cell types, donors, and treatment contexts, the framework could turn longitudinal single-cell atlases from descriptive records into counterfactual modeling infrastructure. That would support hypothesis generation and response stratification, while remaining distinct from demonstrated clinical treatment efficacy.";
+
+  if(/\b(deterministic math solver|math solver|clinical language models)\b/.test(corpus))
+    return "If deterministic computation reduces arithmetic error without degrading language-model usability, the broader systems consequence is modular reliability: safety-critical numerical operations can be removed from probabilistic generation and delegated to verifiable computation, with the model retaining the linguistic interface.";
+
   if(p.implication?.text) return `The source points toward this implication: ${essenceClause(p.implication.text,"")}. That implication remains conditional until the underlying result survives the relevant validation burden.`;
   if(profile.domain==="AI / SOFTWARE"&&profile.operation==="TRADE-OFF") return "If robust, configuration becomes an optimization problem rather than a monotonic scaling rule: select the minimum or most efficient configuration that preserves required quality under a defined resource budget. The practical object is the decision frontier, not a universal hyperparameter recommendation.";
   if(profile.domain==="AI / SOFTWARE") return "If the result generalizes, evaluation can move from whether the method works once to where it works, its resource cost, intervention burden, failure propagation, and recoverability.";
@@ -3364,7 +3460,16 @@ function essenceBoundary(p: PropositionSet,audit: EvidenceAudit,ct: ClaimType): 
   return `${explicit}${family} Current evidence state: ${audit.summary}`;
 }
 function essenceDecisiveTest(signal: SignalItem,p: PropositionSet,profile: ObjectSemanticProfile,ct: ClaimType): string {
-  const q=normalize(`${signal.title} ${p.result?.text||""} ${p.comparison?.text||""}`);
+  const q=normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)} ${p.result?.text||""} ${p.comparison?.text||""}`);
+
+  if(/\b(multi stage rule chaining|multi-stage rule-chaining|rule chaining framework|rule-chaining framework)\b/.test(q))
+    return "Compare the staged rule-chaining framework with strong end-to-end and program-search baselines on held-out ARC tasks, especially novel rule compositions. Measure accuracy, sample efficiency, rule reuse, intermediate-step faithfulness, and whether perturbing an inferred rule changes the predicted output as the explanation claims.";
+
+  if(/\b(scdeft|drug effect prediction|drug-effect prediction)\b/.test(q))
+    return "Evaluate prospective or strictly held-out prediction of post-treatment cellular states across unseen perturbations, donors, cell types, and treatment contexts; compare against simpler predictive baselines and test whether counterfactual predictions recover known withheld responses without leakage.";
+
+  if(/\b(deterministic math solver|math solver|clinical language models)\b/.test(q))
+    return "Use a prespecified battery of clinical calculations with exact reference answers and adversarial numerical formats. Compare the language model alone with the deterministic-solver architecture on exactness, routing errors, unsupported calculator selection, latency, and end-to-end recommendation correctness. The claim weakens if arithmetic improves but routing or interpretation errors dominate the final output.";
   if(/\b(lora|low rank|low-rank|diffusion|fine tuning|fine-tuning|rank)\b/.test(q))
     return "Measure task-relevant quality and compute or memory cost across a prespecified rank sweep, then repeat the frontier across base models, datasets, seeds, and evaluation metrics. The stronger conclusion survives only if the qualitative quality–cost relation and any claimed optimum remain stable.";
   if(/\b(task agnostic|task-agnostic|environment preprocessing|preprocessing|without a syllabus)\b/.test(q))
@@ -3377,7 +3482,7 @@ function essenceDecisiveTest(signal: SignalItem,p: PropositionSet,profile: Objec
 }
 function buildArticleEssence(signal: SignalItem,ct: ClaimType,audit: EvidenceAudit): ArticleEssence {
   const p=extractPropositionSet(signal), profile=inferObjectSemanticProfile(signal);
-  const sourceTruth=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||extractResultBearingProposition(signal)?.proposition||signal.summary||signal.title,signal.title);
+  const sourceTruth=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||extractResultBearingProposition(signal)?.proposition||sanitizeSignalSummary(signal.summary)||signal.title,signal.title);
   const background=essenceClause(p.background?.text||"","The available source does not cleanly state a distinct prior baseline.");
   const result=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||sourceTruth,sourceTruth);
   return {
@@ -3638,6 +3743,156 @@ type PredicateSemanticProfile = {
   predicate: string;
   rationale: string;
 };
+
+
+function inferSemanticClaimOntology(signal: SignalItem): SemanticClaimOntology {
+  const title = normalize(signal.title);
+  const summary = normalize(sanitizeSignalSummary(signal.summary));
+  const corpus = `${title} ${summary}`.trim();
+
+  const technicalArtifact =
+    /\b(model|language model|llm|algorithm|framework|solver|agent|software|system|architecture|deep learning|neural network|reasoning|rule chaining|rule-chaining|counterfactual reasoning|fine tuning|fine-tuning|search|preprocessing)\b/.test(corpus);
+
+  const therapeuticPredicate =
+    /\b(treats?|treated|treatment effect|therapy|therapeutic intervention|administered|dose|randomi[sz]ed|placebo|patient outcome|clinical endpoint|survival benefit|response rate|adverse event)\b/.test(corpus);
+
+  const predictionPredicate =
+    /\b(predict|prediction|forecast|counterfactual prediction|drug effect prediction|drug-effect prediction|estimate future|prospective)\b/.test(corpus);
+
+  const solverPredicate =
+    /\b(solver|solve|compute|calculation|arithmetic|deterministic math|numerical)\b/.test(corpus);
+
+  const reasoningPredicate =
+    /\b(reasoning|rule chaining|rule-chaining|infer|inference|compositional|cognitive reasoning|interpretable reasoning)\b/.test(corpus);
+
+  const engineeringPredicate =
+    /\b(framework|system|architecture|agent|software|model|algorithm|preprocessing|construct|build|enable|improve|reliable|deterministic|tool)\b/.test(corpus);
+
+  const institutionalPredicate =
+    /\b(policy|regulation|regulatory rule|law|legal rule|eligibility rule|governance|government mandate|treaty|compliance requirement)\b/.test(corpus);
+
+  const institutionalAction =
+    institutionalPredicate &&
+    /\b(adopt|implement|mandate|require|prohibit|allow|regulate|govern|enforce|eligibility|rule change|policy change)\b/.test(corpus);
+
+  // Domain words such as "clinical" or "drug" describe application context.
+  // They do not create a clinical intervention claim without an intervention predicate.
+  if (technicalArtifact) {
+    if (predictionPredicate) {
+      return {
+        domain: "AI / SOFTWARE",
+        artifact: /\b(agent|software system)\b/.test(corpus)
+          ? "AGENT / SOFTWARE SYSTEM"
+          : "MODEL / ALGORITHM",
+        operation: "PREDICT",
+        interventionClaim: false,
+        claimType: "PREDICTIVE",
+        rationale:
+          "The object is a computational model/framework whose operative predicate is prediction or counterfactual prediction. Biomedical vocabulary describes the target domain, not a therapeutic intervention.",
+      };
+    }
+
+    if (solverPredicate) {
+      return {
+        domain: "AI / SOFTWARE",
+        artifact: "MODEL / ALGORITHM",
+        operation: "SOLVE / COMPUTE",
+        interventionClaim: false,
+        claimType: "ENGINEERING / CONSTRUCTIVE",
+        rationale:
+          "The operative object is a deterministic computational solver. Clinical vocabulary specifies the use context but does not convert solver validation into a clinical intervention claim.",
+      };
+    }
+
+    if (reasoningPredicate) {
+      return {
+        domain: "AI / SOFTWARE",
+        artifact: "MODEL / ALGORITHM",
+        operation: "REASON / INFER",
+        interventionClaim: false,
+        claimType: "ENGINEERING / CONSTRUCTIVE",
+        rationale:
+          "The operative object is a reasoning framework or algorithmic architecture. Words such as rule, compositional, or cognitive describe computation rather than institutional governance.",
+      };
+    }
+
+    if (engineeringPredicate) {
+      return {
+        domain: "AI / SOFTWARE",
+        artifact: /\bagent\b/.test(corpus)
+          ? "AGENT / SOFTWARE SYSTEM"
+          : "MODEL / ALGORITHM",
+        operation: "CONTROL / CONSTRUCT",
+        interventionClaim: false,
+        claimType: "ENGINEERING / CONSTRUCTIVE",
+        rationale:
+          "The substantive claim concerns technical capability or system construction. Application-domain vocabulary must not override the technical predicate.",
+      };
+    }
+  }
+
+  if (therapeuticPredicate) {
+    return {
+      domain: "CLINICAL INTERVENTION",
+      artifact: "THERAPEUTIC INTERVENTION",
+      operation: "TREAT / INTERVENE",
+      interventionClaim: true,
+      claimType: "CLINICAL / INTERVENTIONAL",
+      rationale:
+        "A genuine intervention predicate links a treatment or administered exposure to patient-level outcomes, so a clinical evidence contract is appropriate.",
+    };
+  }
+
+  if (institutionalAction) {
+    return {
+      domain: "INSTITUTIONAL",
+      artifact: "POLICY / RULE",
+      operation: "GOVERN / REGULATE",
+      interventionClaim: false,
+      claimType: "INSTITUTIONAL",
+      rationale:
+        "The operative predicate concerns a rule, policy, regulatory action, or institutional mechanism acting on real actors.",
+    };
+  }
+
+  if (/\b(device|circuit|material|nanostructure|optical|hardware|sensor|reactor|battery|fabricat)\b/.test(corpus)) {
+    return {
+      domain: "PHYSICAL ENGINEERING",
+      artifact: "ENGINEERED PHYSICAL SYSTEM",
+      operation: "CONTROL / CONSTRUCT",
+      interventionClaim: false,
+      claimType: "ENGINEERING / CONSTRUCTIVE",
+      rationale:
+        "The object is a physical engineered system whose claim is constructive or capability-oriented.",
+    };
+  }
+
+  if (/\b(cell|protein|rna|dna|gene|tissue|biological|molecular|bacteria|neural)\b/.test(corpus)) {
+    return {
+      domain: "BIOMEDICAL RESEARCH",
+      artifact: "BIOLOGICAL SYSTEM",
+      operation: /\b(cause|mechanism|activate|inhibit|drive|regulate|mediate)\b/.test(corpus)
+        ? "EXPLAIN MECHANISM"
+        : "MEASURE / OBSERVE",
+      interventionClaim: false,
+      claimType: /\b(cause|mechanism|activate|inhibit|drive|regulate|mediate)\b/.test(corpus)
+        ? "CAUSAL / MECHANISTIC"
+        : "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "The object is biological research. A clinical intervention contract is not warranted without a patient-level intervention predicate.",
+    };
+  }
+
+  return {
+    domain: "GENERAL SCIENCE",
+    artifact: "OBSERVATIONAL OBJECT",
+    operation: "UNKNOWN",
+    interventionClaim: false,
+    claimType: null,
+    rationale:
+      "No ontology-level override is justified; claim typing should fall back to predicate semantics and document/event structure.",
+  };
+}
 
 function inferPredicateSemanticProfile(
   signal: SignalItem,
@@ -5329,23 +5584,38 @@ function buildEpistemicClaimIdentity(
     documentEventType,
     genre,
   );
+  const semanticOntology = inferSemanticClaimOntology(signal);
 
   const genreResolvedClaimType = resolveClaimTypeFromGenre(
     genre,
     signalParse.claimType,
   );
 
+  const trueEventLocked =
+    documentEventType === "REGULATORY DECISION" ||
+    documentEventType === "SUPPLY / OPERATIONAL DISRUPTION" ||
+    documentEventType === "POLICY / INSTITUTIONAL ACTION" ||
+    documentEventType === "BUSINESS ACTION" ||
+    documentEventType === "PERSONNEL UPDATE" ||
+    documentEventType === "MISSION / OPERATIONAL UPDATE" ||
+    documentEventType === "EVENT ANNOUNCEMENT" ||
+    documentEventType === "INTERVIEW / Q&A";
+
+  // Stage 6.5.6:
+  // Domain vocabulary ≠ claim type.
+  // Technical artifact + technical predicate outranks application-domain words.
+  // True institutional/business/regulatory events remain event-locked.
   const claimType =
-    predicateProfile.claimType &&
-    ![
-      "INFORMATIONAL / OPERATIONAL",
-      "INSTITUTIONAL",
-      "SYSTEM / OPERATIONAL IMPACT",
-      "CLINICAL / INTERVENTIONAL",
-      "PREDICTIVE",
-    ].includes(genreResolvedClaimType)
-      ? predicateProfile.claimType
-      : genreResolvedClaimType;
+    !trueEventLocked && semanticOntology.claimType
+      ? semanticOntology.claimType
+      : predicateProfile.claimType &&
+          ![
+            "INFORMATIONAL / OPERATIONAL",
+            "INSTITUTIONAL",
+            "SYSTEM / OPERATIONAL IMPACT",
+          ].includes(genreResolvedClaimType)
+        ? predicateProfile.claimType
+        : genreResolvedClaimType;
 
   const evidenceType =
     claimType === "FORMAL / MATHEMATICAL"
@@ -5860,9 +6130,15 @@ function classifyConversationIntent(
   const socialEnglish =
     /^(hi|hello|hey|hiya|yo|good morning|good afternoon|good evening|good night|goodnight|how are you|how are you doing|nice to meet you|nice to me to|nice meeting you|thanks|thank you|thx|bye|goodbye|see you|see ya)$/i;
   const socialJapanese =
-    /^(やっほー|やっほ|こんにちは|こんばんは|おはよう|おはようございます|おやすみ|おやすみなさい|元気|元気ですか|調子どう|ありがとう|ありがとうございます|どうも|またね|じゃあね|ばいばい|おつかれ|お疲れ|お疲れさま|お疲れ様)$/;
+    /^(やっほー|やっほ|こんにちは|こんばんは|おはよう|おはようございます|おやすみ|おやすみなさい|元気|元気ですか|調子どう|ありがとう|ありがとうございます|どうも|またね|じゃあね|ばいばい|おつかれ|お疲れ|お疲れさま|お疲れ様|おめでとう|おめでとうございます|おめでと)$/;
+  const socialChinese =
+    /^(你好|您好|嗨|早上好|下午好|晚上好|晚安|谢谢|謝謝|再见|再見|恭喜|恭喜你)$/;
 
-  if (socialEnglish.test(compactRaw) || socialJapanese.test(compactRaw)) {
+  if (
+    socialEnglish.test(compactRaw) ||
+    socialJapanese.test(compactRaw) ||
+    socialChinese.test(compactRaw)
+  ) {
     return "SOCIAL";
   }
 
@@ -5917,10 +6193,19 @@ function socialReply(query: string): string {
 
   if (/^(おやすみ|おやすみなさい)/.test(raw)) return "おやすみなさい。";
   if (/^(ありがとう|ありがとうございます|どうも)/.test(raw)) return "どういたしまして。";
+  if (/^(おめでとう|おめでとうございます|おめでと)/.test(raw)) {
+    return "ありがとうございます。何を一緒に検討しましょうか？";
+  }
   if (/^(またね|じゃあね|ばいばい)/.test(raw)) return "またね。";
   if (/^(やっほー|やっほ|こんにちは|こんばんは|おはよう)/.test(raw)) {
     return "こんにちは。何を一緒に検討しましょうか？";
   }
+  if (/^(你好|您好|嗨)/.test(raw)) return "你好。想一起讨论什么？";
+  if (/^(早上好|下午好|晚上好)/.test(raw)) return "你好。想一起讨论什么？";
+  if (/^晚安/.test(raw)) return "晚安。";
+  if (/^(谢谢|謝謝)/.test(raw)) return "不客气。";
+  if (/^(再见|再見)/.test(raw)) return "再见。";
+  if (/^(恭喜|恭喜你)/.test(raw)) return "谢谢。想一起讨论什么？";
   if (/^(元気|元気ですか|調子どう)/.test(raw)) {
     return "元気です。今日は何を検討しましょうか？";
   }
@@ -6646,8 +6931,16 @@ function buildAdaptiveScholarlyResponse(args: {
   } = args;
 
   const strategy = MODE_REASONING_STRATEGIES[mode];
-  const articleEssence = mode === "ask" && objectState !== "NONE" && lead
-    ? buildArticleEssence(lead, epistemicParse.claimType, evidenceAudit) : undefined;
+  const isObjectFollowUp =
+    conversationIntent === "FOLLOW_UP";
+
+  const articleEssence =
+    mode === "ask" &&
+    objectState !== "NONE" &&
+    lead &&
+    !isObjectFollowUp
+      ? buildArticleEssence(lead, epistemicParse.claimType, evidenceAudit)
+      : undefined;
   const askSynthesis = articleEssence
     ? composeScholarlyAskAnswer(articleEssence, inferAskDepth(query)) : undefined;
   const claimLabel =
@@ -6722,17 +7015,70 @@ function buildAdaptiveScholarlyResponse(args: {
       ),
     );
   } else if (mode === "ask") {
-    const askAnswer=askSynthesis?.directAnswer||directAnswer;
-    const askReasoning=askSynthesis?.reasoning||reasoning;
-    const boundaryBody=askSynthesis?.boundary||(evidenceAudit.overallStrength==="INSUFFICIENT"?`${evidenceAudit.summary} ${uncertainty}`:uncertainty);
-    const verdictBody=askSynthesis?.conclusion||`${inquiry.demonstratedResult.summary} ${nextAction}`.trim();
-    push(createScholarlySection("THESIS",articleEssence?"Central thesis":"Answer",askAnswer,"PRIMARY"));
-    push(createScholarlySection("ANALYSIS",articleEssence?"Article essence":"Analysis",askReasoning,"PRIMARY"));
-    push(createScholarlySection("BOUNDARY","Evidence boundary",boundaryBody,"CAUTION"));
-    if(alternative&&epistemicParse.claimType!=="UNKNOWN"&&epistemicParse.claimType!=="INFORMATIONAL / OPERATIONAL"&&inferAskDepth(query)==="DEEP")
-      push(createScholarlySection("ALTERNATIVE","Strongest competing interpretation",alternative));
-    if(verdictBody&&cleanScholarlyBody(verdictBody)!==cleanScholarlyBody(boundaryBody))
-      push(createScholarlySection("VERDICT",articleEssence?"Decisive test":"Conclusion",verdictBody,"PRIMARY"));
+    if (isObjectFollowUp) {
+      // Follow-up operation ≠ full article re-analysis.
+      // Preserve the active object and answer the requested operation directly.
+      push(
+        createScholarlySection(
+          "ABSTRACT",
+          "Direct answer",
+          directAnswer,
+          "PRIMARY",
+        ),
+      );
+
+      if (reasoning) {
+        push(
+          createScholarlySection(
+            "ANALYSIS",
+            "Why this follows",
+            reasoning,
+            "PRIMARY",
+          ),
+        );
+      }
+
+      const followUpBoundary =
+        evidenceAudit.overallStrength === "INSUFFICIENT"
+          ? `${evidenceAudit.summary} ${uncertainty}`
+          : uncertainty;
+
+      if (followUpBoundary) {
+        push(
+          createScholarlySection(
+            "BOUNDARY",
+            "Evidence boundary",
+            followUpBoundary,
+            "CAUTION",
+          ),
+        );
+      }
+    } else {
+      const askAnswer=askSynthesis?.directAnswer||directAnswer;
+      const askReasoning=askSynthesis?.reasoning||reasoning;
+      const boundaryBody=askSynthesis?.boundary||(evidenceAudit.overallStrength==="INSUFFICIENT"?`${evidenceAudit.summary} ${uncertainty}`:uncertainty);
+      const verdictBody=askSynthesis?.conclusion||`${inquiry.demonstratedResult.summary} ${nextAction}`.trim();
+
+      push(createScholarlySection("THESIS",articleEssence?"Central thesis":"Answer",askAnswer,"PRIMARY"));
+      push(createScholarlySection("ANALYSIS",articleEssence?"Article essence":"Analysis",askReasoning,"PRIMARY"));
+      push(createScholarlySection("BOUNDARY","Evidence boundary",boundaryBody,"CAUTION"));
+
+      if(
+        alternative &&
+        epistemicParse.claimType!=="UNKNOWN" &&
+        epistemicParse.claimType!=="INFORMATIONAL / OPERATIONAL" &&
+        inferAskDepth(query)==="DEEP"
+      ) {
+        push(createScholarlySection("ALTERNATIVE","Strongest competing interpretation",alternative));
+      }
+
+      if(
+        verdictBody &&
+        cleanScholarlyBody(verdictBody)!==cleanScholarlyBody(boundaryBody)
+      ) {
+        push(createScholarlySection("VERDICT",articleEssence?"Decisive test":"Conclusion",verdictBody,"PRIMARY"));
+      }
+    }
   } else if (mode === "explore") {
     push(
       createScholarlySection(
@@ -6976,7 +7322,15 @@ function buildAdaptiveScholarlyResponse(args: {
     objectState,
     visualGrammar: strategy.visualGrammar,
     disclosureLevel:
-      objectState === "NONE" ? "STANDARD" : mode === "ask" && inferAskDepth(query) === "DEEP" ? "FULL" : mode === "ask" ? "STANDARD" : "FULL",
+      objectState === "NONE"
+        ? "STANDARD"
+        : mode === "ask" && isObjectFollowUp
+          ? "STANDARD"
+          : mode === "ask" && inferAskDepth(query) === "DEEP"
+            ? "FULL"
+            : mode === "ask"
+              ? "STANDARD"
+              : "FULL",
     plainText,
     articleEssence,
   };
@@ -7454,6 +7808,117 @@ function buildIntelligence(
   };
 }
 
+
+function classifySignalSpaceKnowledgeKind(
+  signal: SignalItem | null,
+): SignalSpaceKnowledgeKind {
+  if (!signal) return "SIGNAL";
+  const corpus = normalize(
+    `${signal.category} ${signal.source} ${signal.title}`,
+  );
+  return /\b(report|review|analysis|brief|white paper|whitepaper)\b/.test(corpus)
+    ? "REPORT"
+    : "SIGNAL";
+}
+
+function buildSignalSpaceModel(
+  intelligence: IntelligenceObject,
+  signals: SignalItem[],
+): SignalSpaceModel {
+  const byId = new Map(signals.map((signal) => [signal.id, signal]));
+  const primaryAssessment = intelligence.contextAssessment.find(
+    (item) => item.role === "PRIMARY",
+  );
+  const primaryId =
+    primaryAssessment?.signalId ||
+    intelligence.claimIdentity?.signalId ||
+    intelligence.signalIds[0] ||
+    null;
+  const primary = primaryId ? byId.get(primaryId) ?? null : null;
+
+  const assessments = intelligence.contextAssessment
+    .filter((item) => item.signalId !== primaryId)
+    .filter((item) => item.role !== "WEAKLY RELATED")
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 10);
+
+  const roleRadius: Record<SignalSpaceNodeRole, number> = {
+    SUPPORTING: 29,
+    COMPETING: 39,
+    BACKGROUND: 46,
+  };
+
+  const nodes = assessments
+    .map((assessment, index): SignalSpaceNode | null => {
+      const signal = byId.get(assessment.signalId);
+      if (!signal) return null;
+
+      const role: SignalSpaceNodeRole =
+        assessment.role === "COMPETING"
+          ? "COMPETING"
+          : assessment.role === "BACKGROUND"
+            ? "BACKGROUND"
+            : "SUPPORTING";
+
+      const angle =
+        -Math.PI / 2 +
+        (Math.PI * 2 * index) / Math.max(assessments.length, 1) +
+        (role === "COMPETING" ? 0.22 : role === "BACKGROUND" ? -0.16 : 0);
+
+      const radius = roleRadius[role];
+
+      return {
+        id: `signal-space-${signal.id}`,
+        signalId: signal.id,
+        title: signal.title,
+        category: signal.category,
+        source: signal.source,
+        knowledgeKind: classifySignalSpaceKnowledgeKind(signal),
+        role,
+        score: assessment.score,
+        x: 50 + Math.cos(angle) * radius,
+        y: 49 + Math.sin(angle) * radius * 0.72,
+      };
+    })
+    .filter((node): node is SignalSpaceNode => node !== null);
+
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  const boundarySection = intelligence.adaptiveResponse.sections.find(
+    (section) => section.kind === "BOUNDARY",
+  );
+  const verdictSection = intelligence.adaptiveResponse.sections.find(
+    (section) => section.kind === "VERDICT",
+  );
+
+  return {
+    primary,
+    primaryKind: classifySignalSpaceKnowledgeKind(primary),
+    nodes,
+    thesis:
+      essence?.deeperPrinciple ||
+      intelligence.adaptiveResponse.thesis ||
+      intelligence.interpretation,
+    sourceTruth:
+      essence?.sourceTruth ||
+      intelligence.claimIdentity?.reportedResult ||
+      primary?.summary ||
+      primary?.title ||
+      "No primary source proposition is available.",
+    evidenceBoundary:
+      essence?.evidenceBoundary ||
+      boundarySection?.body ||
+      intelligence.uncertainty,
+    decisiveTest:
+      essence?.decisiveTest ||
+      verdictSection?.body ||
+      intelligence.epistemicContract.realityTest,
+    knowledgeStatement:
+      nodes.length > 0
+        ? `${nodes.length} ArcheNova-indexed knowledge objects remain close enough to the active signal to support deeper exploration without leaving the current evidence space.`
+        : "No adjacent ArcheNova knowledge object passes the current relevance boundary. The space remains centered on the primary signal rather than filling the scene with weak associations.",
+  };
+}
+
 /* ==========================================================
    COMPONENT
 ========================================================== */
@@ -7465,6 +7930,7 @@ export default function EpistemeDialogue() {
   const [messages, setMessages] = useState<DialogueMessage[]>([]);
   const [thinking, setThinking] = useState(false);
   const [signalPanelOpen, setSignalPanelOpen] = useState(false);
+  const [signalSpaceMessageId, setSignalSpaceMessageId] = useState<string | null>(null);
 
   const conversationRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
@@ -7649,6 +8115,29 @@ useEffect(() => {
       [
         messages,
       ],
+    );
+
+  const signalSpaceMessage =
+    useMemo(
+      () =>
+        signalSpaceMessageId
+          ? messages.find(
+              (message) =>
+                message.id === signalSpaceMessageId &&
+                message.role === "episteme" &&
+                message.intelligence,
+            ) ?? null
+          : null,
+      [messages, signalSpaceMessageId],
+    );
+
+  const signalSpaceModel =
+    useMemo(
+      () =>
+        signalSpaceMessage?.intelligence
+          ? buildSignalSpaceModel(signalSpaceMessage.intelligence, signals)
+          : null,
+      [signalSpaceMessage, signals],
     );
 
   /* ========================================================
@@ -7867,6 +8356,7 @@ useEffect(() => {
     setMessages([]);
     setQuery("");
     setMode("ask");
+    setSignalSpaceMessageId(null);
 
     window.setTimeout(() => {
       textareaRef.current?.focus();
@@ -8062,9 +8552,9 @@ useEffect(() => {
                   to understand?
                 </h1>
                 <p>
-                  Question evidence, compare explanations, expose uncertainty,
-                  and turn live scientific and civilization signals into
-                  deeper, revisable understanding.
+                  Ask once, then descend through ArcheNova Signals, report-like
+                  intelligence, evidence boundaries, competing interpretations,
+                  and decisive tests inside a single continuous knowledge space.
                 </p>
                 <div className="ep-dialogue__welcome-state">
                   <span>
@@ -8432,6 +8922,18 @@ useEffect(() => {
                             MESSAGE ACTIONS
                         ================================= */}
                         <div className="ep-message__actions">
+                          {message.intelligence.objectState !== "NONE" &&
+                            message.intelligence.signalIds.length > 0 && (
+                            <button
+                              type="button"
+                              className="ep-message__space"
+                              onClick={() => {
+                                setSignalSpaceMessageId(message.id);
+                              }}
+                            >
+                              Enter Signal Space ↗
+                            </button>
+                          )}
                           <button
                             type="button"
                             onClick={() => {
@@ -8491,40 +8993,12 @@ useEffect(() => {
               COMPOSER
           ================================================= */}
           <div className="ep-dialogue__composer-shell">
-            <div className="ep-dialogue__modes">
-              {MODES.map(
-                (item) => (
-                  <button
-                    key={
-                      item.id
-                    }
-                    type="button"
-                    title={
-                      item.description
-                    }
-                    className={
-                      mode ===
-                      item.id
-                        ? "is-active"
-                        : ""
-                    }
-                    onClick={() => {
-                      setMode(
-                        item.id,
-                      );
-                    }}
-                  >
-                    <strong>{item.label}</strong>
-                    <small>
-                      {
-                        MODE_REASONING_STRATEGIES[
-                          item.id
-                        ].intellectualTask
-                      }
-                    </small>
-                  </button>
-                ),
-              )}
+            <div className="ep-dialogue__modes ep-dialogue__modes--ask-only">
+              <div className="ep-dialogue__ask-mode">
+                <strong>ASK</strong>
+                <small>Ask → Evidence → Signal Space</small>
+              </div>
+              <span>ArcheNova-indexed intelligence first</span>
             </div>
             <form
               className="ep-dialogue__composer"
@@ -8728,6 +9202,110 @@ useEffect(() => {
           </aside>
         )}
       </div>
+
+
+      {signalSpaceModel && signalSpaceMessage && (
+        <section className="ep-signal-space" aria-label="ArcheNova Signal Space">
+          <div className="ep-signal-space__ambient" aria-hidden="true" />
+          <header className="ep-signal-space__header">
+            <div>
+              <span>ARCHENOVA · EPISTEME</span>
+              <strong>SIGNAL SPACE</strong>
+              <small>Internal knowledge deep dive</small>
+            </div>
+            <button
+              type="button"
+              onClick={() => setSignalSpaceMessageId(null)}
+              aria-label="Close Signal Space"
+            >
+              Close ×
+            </button>
+          </header>
+
+          <div className="ep-signal-space__stage">
+            <div className="ep-signal-space__rings" aria-hidden="true">
+              <i />
+              <i />
+              <i />
+            </div>
+
+            {signalSpaceModel.nodes.map((node) => (
+              <button
+                key={node.id}
+                type="button"
+                className={[
+                  "ep-signal-space__node",
+                  `is-${node.role.toLowerCase()}`,
+                ].join(" ")}
+                style={{
+                  left: `${node.x}%`,
+                  top: `${node.y}%`,
+                }}
+                onClick={() => {
+                  setSignalSpaceMessageId(null);
+                  submitQuestion(
+                    `Explain the deepest defensible significance of: ${node.title}`,
+                    "ask",
+                  );
+                }}
+              >
+                <small>
+                  {node.knowledgeKind} · {node.role}
+                </small>
+                <strong>{node.title}</strong>
+                <span>{node.category || node.source}</span>
+              </button>
+            ))}
+
+            <div className="ep-signal-space__core">
+              <small>{signalSpaceModel.primaryKind} · PRIMARY OBJECT</small>
+              <strong>
+                {signalSpaceModel.primary?.title ?? "Active Epistemic Object"}
+              </strong>
+              <span>
+                {signalSpaceMessage.intelligence?.epistemicParse.claimType}
+              </span>
+            </div>
+          </div>
+
+          <aside className="ep-signal-space__inspector">
+            <section>
+              <span>SOURCE TRUTH</span>
+              <p>{signalSpaceModel.sourceTruth}</p>
+            </section>
+            <section>
+              <span>ARTICLE ESSENCE</span>
+              <p>{signalSpaceModel.thesis}</p>
+            </section>
+            <section>
+              <span>EVIDENCE BOUNDARY</span>
+              <p>{signalSpaceModel.evidenceBoundary}</p>
+            </section>
+            <section>
+              <span>DECISIVE TEST</span>
+              <p>{signalSpaceModel.decisiveTest}</p>
+            </section>
+            <footer>
+              <p>{signalSpaceModel.knowledgeStatement}</p>
+              <button
+                type="button"
+                onClick={() => {
+                  const title = signalSpaceModel.primary?.title;
+                  setSignalSpaceMessageId(null);
+                  if (title) {
+                    submitQuestion(
+                      `Deeply analyze the essence, strongest evidence boundary, competing interpretation, and decisive test for: ${title}`,
+                      "ask",
+                    );
+                  }
+                }}
+              >
+                Deepen this signal →
+              </button>
+            </footer>
+          </aside>
+        </section>
+      )}
 
       {/* ==================================================
           CSS
@@ -15100,6 +15678,294 @@ useEffect(() => {
 
           .ep-dialogue__modes button small {
             display: none;
+          }
+        }
+
+        /* ==================================================
+           ASK-ONLY MODE
+        ================================================== */
+        .ep-dialogue__modes--ask-only {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 12px;
+        }
+        .ep-dialogue__ask-mode {
+          display: flex;
+          align-items: baseline;
+          gap: 10px;
+          min-width: 0;
+        }
+        .ep-dialogue__ask-mode strong {
+          font-size: 11px;
+          letter-spacing: .16em;
+        }
+        .ep-dialogue__ask-mode small,
+        .ep-dialogue__modes--ask-only > span {
+          color: rgba(238, 244, 247, .5);
+          font-size: 10px;
+          letter-spacing: .05em;
+        }
+        .ep-message__space {
+          border-color: rgba(175, 220, 244, .32) !important;
+          background: rgba(175, 220, 244, .07) !important;
+          color: rgba(226, 245, 255, .94) !important;
+        }
+
+        /* ==================================================
+           SIGNAL SPACE
+        ================================================== */
+        .ep-signal-space {
+          position: fixed;
+          inset: 0;
+          z-index: 120;
+          overflow: hidden;
+          background:
+            radial-gradient(circle at 50% 42%, rgba(113, 170, 205, .11), transparent 24%),
+            radial-gradient(circle at 22% 18%, rgba(128, 86, 190, .08), transparent 28%),
+            #020304;
+          color: rgba(247, 250, 252, .94);
+        }
+        .ep-signal-space__ambient {
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          opacity: .48;
+          background-image:
+            linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+          background-size: 44px 44px;
+          mask-image: radial-gradient(circle at 50% 46%, #000 0%, transparent 74%);
+        }
+        .ep-signal-space__header {
+          position: absolute;
+          z-index: 5;
+          inset: 22px 26px auto 26px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        .ep-signal-space__header > div {
+          display: grid;
+          gap: 3px;
+        }
+        .ep-signal-space__header span,
+        .ep-signal-space__header small {
+          font-size: 9px;
+          letter-spacing: .16em;
+          color: rgba(224, 237, 244, .45);
+        }
+        .ep-signal-space__header strong {
+          font-size: 19px;
+          letter-spacing: .16em;
+          font-weight: 500;
+        }
+        .ep-signal-space__header button {
+          border: 1px solid rgba(255,255,255,.12);
+          background: rgba(255,255,255,.035);
+          color: rgba(245,248,250,.72);
+          border-radius: 999px;
+          padding: 9px 13px;
+          cursor: pointer;
+        }
+        .ep-signal-space__stage {
+          position: absolute;
+          inset: 72px 340px 28px 18px;
+          min-height: 0;
+        }
+        .ep-signal-space__rings {
+          position: absolute;
+          inset: 8% 7%;
+          pointer-events: none;
+        }
+        .ep-signal-space__rings i {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          border: 1px solid rgba(170, 214, 237, .09);
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .ep-signal-space__rings i:nth-child(1) { width: 34%; height: 34%; }
+        .ep-signal-space__rings i:nth-child(2) { width: 62%; height: 62%; }
+        .ep-signal-space__rings i:nth-child(3) { width: 92%; height: 82%; }
+        .ep-signal-space__core {
+          position: absolute;
+          left: 50%;
+          top: 49%;
+          width: min(310px, 34vw);
+          min-height: 132px;
+          transform: translate(-50%, -50%);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 8px;
+          padding: 20px 22px;
+          border: 1px solid rgba(185, 226, 246, .22);
+          border-radius: 28px;
+          background: rgba(7, 13, 17, .86);
+          box-shadow:
+            0 0 0 1px rgba(255,255,255,.02) inset,
+            0 0 80px rgba(95, 170, 211, .13);
+          backdrop-filter: blur(18px);
+          text-align: center;
+        }
+        .ep-signal-space__core small,
+        .ep-signal-space__node small {
+          font-size: 8px;
+          letter-spacing: .13em;
+          color: rgba(189, 224, 242, .54);
+        }
+        .ep-signal-space__core strong {
+          font-size: 15px;
+          line-height: 1.4;
+          font-weight: 520;
+        }
+        .ep-signal-space__core span {
+          font-size: 9px;
+          color: rgba(235,242,246,.47);
+        }
+        .ep-signal-space__node {
+          position: absolute;
+          width: 190px;
+          transform: translate(-50%, -50%);
+          display: grid;
+          gap: 5px;
+          text-align: left;
+          padding: 12px 13px;
+          border-radius: 16px;
+          border: 1px solid rgba(255,255,255,.1);
+          background: rgba(8, 11, 14, .78);
+          color: rgba(244,248,250,.86);
+          backdrop-filter: blur(14px);
+          cursor: pointer;
+          transition: transform .2s ease, border-color .2s ease, background .2s ease;
+        }
+        .ep-signal-space__node:hover {
+          transform: translate(-50%, -50%) scale(1.035);
+          border-color: rgba(179, 224, 247, .32);
+          background: rgba(15, 23, 28, .92);
+        }
+        .ep-signal-space__node.is-competing {
+          border-style: dashed;
+          border-color: rgba(235, 185, 170, .22);
+        }
+        .ep-signal-space__node.is-background {
+          opacity: .72;
+        }
+        .ep-signal-space__node strong {
+          font-size: 10px;
+          line-height: 1.35;
+          font-weight: 500;
+        }
+        .ep-signal-space__node span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 8px;
+          color: rgba(230,238,242,.4);
+        }
+        .ep-signal-space__inspector {
+          position: absolute;
+          z-index: 4;
+          top: 82px;
+          right: 22px;
+          bottom: 22px;
+          width: 310px;
+          overflow: auto;
+          display: flex;
+          flex-direction: column;
+          gap: 9px;
+          padding-right: 3px;
+        }
+        .ep-signal-space__inspector section,
+        .ep-signal-space__inspector footer {
+          border: 1px solid rgba(255,255,255,.08);
+          background: rgba(7, 10, 13, .76);
+          border-radius: 17px;
+          padding: 14px 15px;
+          backdrop-filter: blur(14px);
+        }
+        .ep-signal-space__inspector section > span {
+          display: block;
+          margin-bottom: 7px;
+          font-size: 8px;
+          letter-spacing: .15em;
+          color: rgba(177, 219, 240, .55);
+        }
+        .ep-signal-space__inspector p {
+          margin: 0;
+          font-size: 10px;
+          line-height: 1.65;
+          color: rgba(236,242,245,.66);
+        }
+        .ep-signal-space__inspector footer {
+          margin-top: auto;
+        }
+        .ep-signal-space__inspector footer p {
+          margin-bottom: 12px;
+        }
+        .ep-signal-space__inspector footer button {
+          width: 100%;
+          border: 1px solid rgba(183,224,244,.18);
+          background: rgba(151,205,232,.06);
+          color: rgba(232,245,251,.82);
+          border-radius: 12px;
+          padding: 11px 12px;
+          cursor: pointer;
+        }
+
+        @media (max-width: 900px) {
+          .ep-signal-space {
+            overflow: auto;
+          }
+          .ep-signal-space__stage {
+            position: relative;
+            inset: auto;
+            margin: 84px 12px 0;
+            height: 560px;
+          }
+          .ep-signal-space__inspector {
+            position: relative;
+            inset: auto;
+            width: auto;
+            margin: 10px 12px 24px;
+            overflow: visible;
+          }
+          .ep-signal-space__node {
+            width: 145px;
+          }
+          .ep-signal-space__core {
+            width: min(280px, 66vw);
+          }
+          .ep-dialogue__modes--ask-only > span {
+            display: none;
+          }
+        }
+
+        @media (max-width: 560px) {
+          .ep-signal-space__header {
+            inset: 16px 14px auto 14px;
+          }
+          .ep-signal-space__stage {
+            height: 650px;
+            margin-top: 76px;
+          }
+          .ep-signal-space__node {
+            width: 128px;
+            padding: 10px;
+          }
+          .ep-signal-space__node strong {
+            font-size: 9px;
+          }
+          .ep-signal-space__core {
+            width: 62vw;
+            min-height: 150px;
+            padding: 18px 16px;
+          }
+          .ep-signal-space__core strong {
+            font-size: 13px;
           }
         }
 
