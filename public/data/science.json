@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-12T02:20:55.681Z",
+  "updated": "2026-09-12T02:53:41.336Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "As antibiotic resistance grows, researchers turn to copper to fight infections",
+      "url": "https://phys.org/news/2026-09-antibiotic-resistance-copper-infections.html",
+      "summary": "When bacteria invade the urinary tract, the body has its own arsenal for fighting back. Among those weapons is an unlikely tool: copper. Researchers at the Texas A&M College of Veterinary Medicine and Biomedical Sciences…",
+      "ts": 1789180802000,
+      "publishedAt": "2026-09-12T02:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Nepal flood disaster exposes cascading threats in Himalayas",
@@ -791,14 +799,6 @@
       "title": "Observational constraints on Diffusion Cosmologies in Unimodular Gravity from DESI DR2",
       "url": "https://arxiv.org/abs/2609.10574",
       "summary": "arXiv:2609.10574v1 Announce Type: new Abstract: Diffusion functions in unimodular gravity induce a dynamical effective cosmological constant, providing an appealing framework in light of recent DESI observations. In this…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cosmological Constraints on Interacting Scalar-Field Dark Matter and Early Dark Energy mediated by a Kinetic Kernel",
-      "url": "https://arxiv.org/abs/2609.10575",
-      "summary": "arXiv:2609.10575v1 Announce Type: new Abstract: In this work, we build a general framework for constraining interacting scalar fields with cosmological observations, applicable to a broad family of scalar--field potentia…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }

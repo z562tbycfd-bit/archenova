@@ -168,16 +168,16 @@ export const senateAgenda =
   {
     "id": "agenda-12",
     "rank": 12,
-    "title": "Cosmological Constraints on Interacting Scalar-Field Dark Matter and Early Dark Energy mediated by a Kinetic Kernel",
-    "slug": "ai-cosmological-constraints-on-interacting-scalar-field-dark-matter-and-early-dark-",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "score": 9.1,
+    "title": "NASA’s Chandra Spots Galactic Gem",
+    "slug": "space-nasa-s-chandra-spots-galactic-gem",
+    "category": "Space",
+    "source": "NASA",
+    "score": 9,
     "priority": "High",
     "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "architectureHandoff": "Intelligence Infrastructure",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
     "status": "Open"
   }
 ];

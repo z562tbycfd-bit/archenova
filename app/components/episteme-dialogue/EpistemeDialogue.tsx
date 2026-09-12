@@ -2834,6 +2834,150 @@ function classifyDocumentEventType(signal: SignalItem): DocumentEventType {
   return "UNKNOWN";
 }
 
+
+type PropositionFrame = {
+  subject: string;
+  predicate: string;
+  object: string;
+  proposition: string;
+  source: "TITLE" | "SUMMARY";
+  function:
+    | "OBSERVATION"
+    | "CAPABILITY"
+    | "MECHANISM"
+    | "COMPARISON"
+    | "PREDICTION"
+    | "EXTREMAL / BOUND"
+    | "EVENT"
+    | "UNKNOWN";
+};
+
+function cleanPropositionPart(value: string) {
+  return stripTerminalPunctuation(
+    value
+      .replace(/^(how|why|what|which|when|where)\s+/i, "")
+      .replace(/\s+/g, " ")
+      .trim(),
+  );
+}
+
+function extractCoreProposition(signal: SignalItem): PropositionFrame {
+  const title = signal.title.trim();
+  const summarySentences = signalSentences(signal);
+  const normalizedTitle = normalize(title);
+
+  // Stage 6.4.6 principle:
+  // Word Presence ≠ Claim Function
+  // Predicate Presence ≠ Predicate Governance
+  // First Sentence ≠ Core Proposition
+  // Claim function follows a governed predicate and its semantic arguments.
+
+  const extremal = title.match(
+    /^how\s+(big|large|small|fast|slow|massive|bright|hot|cold|dense|far|old|young|strong|weak|long|short)\s+can\s+(.+?)\s+(get|be|become)\??$/i,
+  );
+  if (extremal) {
+    return {
+      subject: cleanPropositionPart(extremal[2]),
+      predicate: `maximum ${extremal[1].toLowerCase()}`,
+      object: "empirical or physical upper bound",
+      proposition: `The signal asks for the supported upper bound on how ${extremal[1].toLowerCase()} ${cleanPropositionPart(extremal[2])} can become`,
+      source: "TITLE",
+      function: "EXTREMAL / BOUND",
+    };
+  }
+
+  const capability = title.match(
+    /^(.+?)\s+(enables?|allows?|controls?|achieves?|performs?|improves?|helps?)\s+(.+)$/i,
+  );
+  if (capability) {
+    const subject = cleanPropositionPart(capability[1]);
+    const predicate = capability[2].toLowerCase();
+    const object = cleanPropositionPart(capability[3]);
+    const technicalSubject =
+      /\b(ai|model|software|agent|system|platform|device|nanostructure|structure|circuit|method|tool|robot|material|architecture|de?vin|gpt|astra)\b/i.test(subject + " " + object);
+    const technicalAction =
+      /\b(test|write|code|software|control|resonance|mode|operate|monitor|build|design|measure|route|switch|modulat|steer|compute|verify|review|ship)\b/i.test(object);
+
+    return {
+      subject,
+      predicate,
+      object,
+      proposition: stripTerminalPunctuation(title),
+      source: "TITLE",
+      function: technicalSubject && technicalAction ? "CAPABILITY" : "UNKNOWN",
+    };
+  }
+
+  const observation = title.match(
+    /^(.+?)\s+(spots?|detects?|observes?|measures?|reveals?|identifies?|finds?|discovers?|images?|sees?)\s+(.+)$/i,
+  );
+  if (observation) {
+    return {
+      subject: cleanPropositionPart(observation[1]),
+      predicate: observation[2].toLowerCase(),
+      object: cleanPropositionPart(observation[3]),
+      proposition: stripTerminalPunctuation(title),
+      source: "TITLE",
+      function: "OBSERVATION",
+    };
+  }
+
+  const mechanism = title.match(
+    /^(.+?)\s+(activates?|inhibits?|mediates?|drives?|regulates?|triggers?|induces?|causes?|binds?|converts?|transforms?|produces?)\s+(.+)$/i,
+  );
+  if (mechanism) {
+    return {
+      subject: cleanPropositionPart(mechanism[1]),
+      predicate: mechanism[2].toLowerCase(),
+      object: cleanPropositionPart(mechanism[3]),
+      proposition: stripTerminalPunctuation(title),
+      source: "TITLE",
+      function: "MECHANISM",
+    };
+  }
+
+  const comparison = title.match(
+    /^(.+?)\s+(outperforms?|exceeds?|beats?)\s+(.+)$/i,
+  );
+  if (comparison) {
+    return {
+      subject: cleanPropositionPart(comparison[1]),
+      predicate: comparison[2].toLowerCase(),
+      object: cleanPropositionPart(comparison[3]),
+      proposition: stripTerminalPunctuation(title),
+      source: "TITLE",
+      function: "COMPARISON",
+    };
+  }
+
+  // If the title is interrogative or editorial, do not blindly inherit sentence 1.
+  // Prefer a summary sentence containing an evidentiary/result predicate.
+  if (/^(how|why|what|which)\b/i.test(title)) {
+    const resultSentence = summarySentences.find((sentence) =>
+      /\b(found|finds|showed|shows|measured|measures|observed|observes|detected|detects|estimated|estimates|reached|reaches|maximum|upper limit|limit|rate|mass|luminosity|density|redshift|size)\b/i.test(sentence),
+    );
+    if (resultSentence) {
+      return {
+        subject: cleanPropositionPart(title),
+        predicate: "reports / constrains",
+        object: stripTerminalPunctuation(resultSentence),
+        proposition: stripTerminalPunctuation(resultSentence),
+        source: "SUMMARY",
+        function: "OBSERVATION",
+      };
+    }
+  }
+
+  return {
+    subject: stripTerminalPunctuation(title),
+    predicate: "unresolved",
+    object: "",
+    proposition: stripTerminalPunctuation(title),
+    source: "TITLE",
+    function: normalizedTitle ? "UNKNOWN" : "UNKNOWN",
+  };
+}
+
 type PredicateSemanticProfile = {
   claimType: ClaimType | null;
   predicate: string;
@@ -2846,12 +2990,9 @@ function inferPredicateSemanticProfile(
   genre: SignalGenre | null = null,
 ): PredicateSemanticProfile {
   const title = normalize(signal.title);
-  const summary = normalize(signal.summary ?? "");
-  const corpus = normalize(`${signal.title} ${signal.summary}`);
+  const proposition = extractCoreProposition(signal);
 
-  // Strong event families retain precedence. Predicate semantics refine
-  // substantive scientific/engineering claims; they must not overwrite a
-  // regulatory, institutional, operational, or interview event.
+
   if (
     eventType === "REGULATORY DECISION" ||
     eventType === "SUPPLY / OPERATIONAL DISRUPTION" ||
@@ -2869,46 +3010,47 @@ function inferPredicateSemanticProfile(
     };
   }
 
-  // Engineering-capability predicates: the claim is that an architecture,
-  // device, material, method, or structure can deliver controllable function.
-  if (
-    /\b(enables?|enabled|allows?|allowed|controls?|controlled|independent control|tunable|tunes?|switchable|switches|modulates?|modulated|steers?|steered|routes?|routed|programmable|reconfigurable|achieves?|achieved|performs?|performed)\b/.test(title) &&
-    /\b(control|mode|modes|resonance|resonances|signal|signals|device|nanostructure|structure|circuit|platform|system|light|optical|photon|photonic|frequency|wavelength|beam|current|voltage|state|states|function|performance)\b/.test(corpus)
-  ) {
+  if (proposition.function === "CAPABILITY") {
     return {
       claimType: "ENGINEERING / CONSTRUCTIVE",
-      predicate: "capability / controllability",
+      predicate: `${proposition.subject} → ${proposition.predicate} → ${proposition.object}`,
       rationale:
-        "The operative predicate asserts reproducible control or functional capability. Unknown implementation details do not make the claim function UNKNOWN.",
+        "The governed predicate connects a technical agent, system, device, method, or architecture to a functional action. Engineering classification is based on predicate–argument structure, not isolated engineering vocabulary.",
     };
   }
 
-  // Mechanistic predicates: X activates/drives/mediates/regulates Y, or a
-  // How/Why title whose predicate is a physical/biological mechanism.
-  const mechanisticPredicate =
-    /\b(activates?|activated|inhibits?|inhibited|mediates?|mediated|drives?|driven|regulates?|regulated|triggers?|triggered|induces?|induced|causes?|caused|binds?|binding|converts?|converted|transforms?|transformed|produces?|produced|controls? the activation|switch(?:es)? .* on|switch(?:es)? .* off)\b/.test(title);
+  if (proposition.function === "OBSERVATION") {
+    return {
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      predicate: `${proposition.subject} → ${proposition.predicate} → ${proposition.object}`,
+      rationale:
+        "The governed predicate is observational or measurement-like. Scientific institutions, instruments, or technical nouns do not convert an observation into an engineering capability claim.",
+    };
+  }
 
-  const mechanisticHowWhy =
-    /^(how|why)\b/.test(title) &&
-    mechanisticPredicate &&
-    !/\b(over time|history|historical|trend|decade|century|evolved|changed|reshaped|spread|grew|declined|shifted)\b/.test(title);
+  if (proposition.function === "EXTREMAL / BOUND") {
+    return {
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      predicate: `${proposition.subject} → ${proposition.predicate} → ${proposition.object}`,
+      rationale:
+        "The headline asks for an empirical or physically constrained extremal quantity. The evidence contract should target the bounded quantity and its uncertainty rather than classify the question as UNKNOWN.",
+    };
+  }
 
-  if (mechanisticPredicate || mechanisticHowWhy) {
+  if (proposition.function === "MECHANISM") {
     return {
       claimType: "CAUSAL / MECHANISTIC",
-      predicate: "mechanism / causal action",
+      predicate: `${proposition.subject} → ${proposition.predicate} → ${proposition.object}`,
       rationale:
-        "The operative predicate links a specific cause, molecular/physical action, or mechanism to an outcome; headline form alone must not convert it into retrospective synthesis.",
+        "The governed predicate links a specific subject to a causal or mechanistic object.",
     };
   }
 
-  if (
-    /\b(outperforms?|better than|worse than|compared with|versus|vs\b|higher than|lower than|more accurate than|faster than|slower than)\b/.test(title)
-  ) {
+  if (proposition.function === "COMPARISON") {
     return {
       claimType: "COMPARATIVE",
-      predicate: "comparison",
-      rationale: "The headline asserts a relative ranking or performance difference.",
+      predicate: `${proposition.subject} → ${proposition.predicate} → ${proposition.object}`,
+      rationale: "The governed predicate asserts a relative comparison.",
     };
   }
 
@@ -2921,21 +3063,13 @@ function inferPredicateSemanticProfile(
       rationale: "The headline asserts a future or prospective measurable outcome.",
     };
   }
-
-  if (
-    /\b(detects?|detected|observes?|observed|measures?|measured|reveals?|revealed|identifies?|identified|finds?|found|shows?|showed|discovers?|discovered)\b/.test(title)
-  ) {
-    return {
-      claimType: "DESCRIPTIVE / EMPIRICAL",
-      predicate: "observation / discovery",
-      rationale: "The headline asserts an observed, measured, detected, identified, or discovered state.",
-    };
-  }
+  
 
   return {
     claimType: null,
     predicate: "unresolved",
-    rationale: "No sufficiently discriminating predicate family was identified.",
+    rationale:
+      "No sufficiently discriminating governed predicate and argument structure was identified.",
   };
 }
 
@@ -3021,6 +3155,7 @@ function decomposeSignalRoles(
   const sentences = signalSentences(signal);
   const first = stripTerminalPunctuation(sentences[0] ?? signal.summary ?? signal.title);
   const title = stripTerminalPunctuation(signal.title);
+  const proposition = extractCoreProposition(signal);
 
   if (
     genre === "EVENT ANNOUNCEMENT" ||
@@ -3126,6 +3261,7 @@ function decomposeSignalRoles(
       ],
       [baseline],
     ) ||
+    (proposition.function !== "UNKNOWN" ? proposition.proposition : "") ||
     (title !== baseline ? title : "") ||
     "The available signal does not clearly separate a reported result from its background context.";
 
@@ -3138,9 +3274,11 @@ function decomposeSignalRoles(
     "If valid, the core claim changes the relevant explanatory, predictive, technical, clinical, institutional, or decision baseline only within the evidence boundary actually supported.";
 
   return {
-    coreClaim: title,
+    coreClaim: proposition.function !== "UNKNOWN" ? proposition.proposition : title,
     baseline: stripTerminalPunctuation(baseline),
-    reportedResult: stripTerminalPunctuation(result),
+    reportedResult: stripTerminalPunctuation(
+      proposition.function === "EXTREMAL / BOUND" ? proposition.proposition : result
+    ),
     implication: stripTerminalPunctuation(implication),
     nonImplication:
       "The signal does not establish stronger causal, predictive, engineering, clinical, or institutional conclusions than its evidence contract supports.",
@@ -3361,6 +3499,30 @@ function buildClaimGraph(
 
   // Stage 6.4.4: event-aware claim extraction.
   const documentEventType = classifyDocumentEventType(signal);
+  const proposition = extractCoreProposition(signal);
+
+  // Stage 6.4.6: a governed proposition is a stronger primary object than
+  // incidental background prose. Event families below retain precedence.
+  if (
+    ![
+      "INTERVIEW / Q&A",
+      "REGULATORY DECISION",
+      "SUPPLY / OPERATIONAL DISRUPTION",
+      "POLICY / INSTITUTIONAL ACTION",
+      "BUSINESS ACTION",
+      "PERSONNEL UPDATE",
+      "MISSION / OPERATIONAL UPDATE",
+      "EVENT ANNOUNCEMENT",
+    ].includes(documentEventType) &&
+    proposition.function !== "UNKNOWN"
+  ) {
+    add(
+      proposition.proposition,
+      "PRIMARY",
+      resolvedClaimType,
+      "REPORTED",
+    );
+  }
 
   if (documentEventType === "INTERVIEW / Q&A") {
     const root = add(
@@ -4117,6 +4279,68 @@ function synthesizeClaimGraphFollowUp(
           .join("; ")}.`
       : "";
 
+  // Stage 6.4.6: the same operation word has different epistemic meaning
+  // across claim families. Route operation × claim family before generic handlers.
+  if (
+    /\b(recovery test|recover after failure|controllable after failure|restore after failure|return to (?:a )?safe state|failure recovery)\b/.test(q)
+  ) {
+    if (node.claimType === "ENGINEERING / CONSTRUCTIVE") {
+      return {
+        demand,
+        directAnswer:
+          `For the active engineering subclaim “${node.text}”, the decisive recovery test is to force a representative failure, verify containment, restore the minimum required function, and demonstrate return to a defined safe and controllable state without hidden manual substitution. Measure recovery time, residual performance error, state integrity, and whether the same control authority still works after restoration.${dependency}`,
+        reasoning:
+          `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nEngineering recovery means failure → containment → restoration → safe controllable state. It is not formal derivational recoverability.`,
+      };
+    }
+
+    if (node.claimType === "SYSTEM / OPERATIONAL IMPACT") {
+      return {
+        demand,
+        directAnswer:
+          `For the active system-level subclaim “${node.text}”, recovery should be tested by inducing or observing the relevant disruption, restoring availability or service, and measuring whether throughput, delay, substitution, backlog, and downstream outcomes return toward the pre-disruption baseline without transferring the failure elsewhere.${dependency}`,
+        reasoning:
+          `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nOperational recovery is restoration of service and downstream function, not formal proof recovery.`,
+      };
+    }
+
+    if (node.claimType === "FORMAL / MATHEMATICAL") {
+      return {
+        demand,
+        directAnswer:
+          `For the active formal subclaim “${node.text}”, recoverability means independently deriving or reconstructing the claimed structure from explicit assumptions without importing an equivalent result through hidden premises.${dependency}`,
+        reasoning:
+          `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nFormal recoverability is derivational and must remain distinct from engineering failure recovery.`,
+      };
+    }
+  }
+
+  if (
+    /\b(failure mode|forced failure|force.*failure|fail before scaling|failure.*before scaling)\b/.test(q) &&
+    node.claimType === "ENGINEERING / CONSTRUCTIVE"
+  ) {
+    return {
+      demand,
+      directAnswer:
+        `For the active engineering subclaim “${node.text}”, force the failure mode most likely to break the claimed controllability while remaining safely testable: perturb the control input or operating condition that is supposed to leave the other controlled output invariant, then measure cross-coupling, loss, drift, hysteresis, and whether control can be restored. Scaling should stop if independence collapses or recovery requires replacing the tested architecture.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nThe forced failure must attack the capability predicate itself, not replay a generic engineering checklist.`,
+    };
+  }
+
+  if (
+    /\b(requirement.*critical.*falsif|critical.*easiest.*falsif|easiest to falsify)\b/.test(q) &&
+    node.claimType === "ENGINEERING / CONSTRUCTIVE"
+  ) {
+    return {
+      demand,
+      directAnswer:
+        `For the active engineering subclaim “${node.text}”, the highest-value falsification target is the minimum functional requirement asserted by the predicate: change the commanded variable and test whether the intended output changes while the supposedly independent output remains within a predefined tolerance. A reproducible cross-effect beyond that tolerance directly falsifies independent control.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nThe falsification target is derived from subject → predicate → object, so it tests the claimed capability rather than a generic operating envelope.`,
+    };
+  }
+
   if (/\b(independent measurement|replication|independent observation|what.*change the conclusion)\b/.test(q)) {
     const candidates = objectSpecificIndependentTest(node);
     return {
@@ -4159,11 +4383,17 @@ function synthesizeClaimGraphFollowUp(
   ) {
     const alternatives =
       node.claimType === "CAUSAL / MECHANISTIC"
-        ? [
-            "a competing pathway that produces the same downstream observation",
-            "a shared upstream cause or confounder",
-            "an assay, binding, structural, or measurement effect that mimics the proposed mechanism",
-          ]
+        ? /\b(ai|software|agent|model|code|coding|test|testing|developer|devin|gpt|astra|toolchain)\b/.test(normalize(node.text + " " + claimIdentity.signalTitle))
+          ? [
+              "a stronger baseline test harness or toolchain that produces the same observed improvement",
+              "task-selection, review-intensity, or benchmark-composition effects",
+              "an upstream workflow change unrelated to the named model that explains the same downstream result",
+            ]
+          : [
+              "a competing pathway that produces the same downstream observation",
+              "a shared upstream cause or confounder",
+              "an assay, binding, structural, or measurement effect that mimics the proposed mechanism",
+            ]
         : node.claimType === "ANALYTICAL / SYNTHESIS"
           ? [
               "an omitted driver with comparable explanatory power",
