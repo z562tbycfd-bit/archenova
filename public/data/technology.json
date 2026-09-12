@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-12T07:36:59.210Z",
+  "updated": "2026-09-12T09:04:14.868Z",
   "items": [
     {
       "source": "OpenAI",
@@ -163,6 +163,15 @@
       "ts": 1789138585000,
       "publishedAt": "2026-09-11T14:56:25.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "OLA Supports Regional Dialogue in Asia on the CSC",
+      "url": "http://www.iaea.org/newscenter/news/ola-supports-regional-dialogue-in-asia-on-the-csc",
+      "summary": "",
+      "ts": 1789137492000,
+      "publishedAt": "2026-09-11T14:38:12.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -801,15 +810,6 @@
       "summary": "Nominees for top federal health roles to face Congress, and Trump officials are betting on AI to help save rural health care.",
       "ts": 1789051986000,
       "publishedAt": "2026-09-10T14:53:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Revvity Signs Agreement to Acquire Human Cell Design",
-      "url": "https://www.genengnews.com/topics/drug-discovery/revvity-signs-agreement-to-acquire-human-cell-design/",
-      "summary": "As wet-lab validation becomes increasingly important to support artificial intelligence-enhanced science, research science points out that human-relevant cell models provide an important foundation for testing and confir…",
-      "ts": 1789051828000,
-      "publishedAt": "2026-09-10T14:50:28.000Z",
       "categoryId": "bio"
     }
   ],
