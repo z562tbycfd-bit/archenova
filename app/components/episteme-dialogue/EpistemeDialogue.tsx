@@ -492,6 +492,9 @@ type EpistemeMission = {
   sourcePolicy: string;
   subtasks: MissionSubtask[];
   stopConditions: string[];
+  parentMissionId?: string;
+  inheritedObjective?: string;
+  steeringDirective?: string;
 };
 
 type ReasoningPassKind =
@@ -524,10 +527,97 @@ type SelfCritiqueGate = {
   releaseRule: string;
 };
 
+type AgentWorkStatus =
+  | "COMPLETED"
+  | "COMPLETED_WITH_LIMITS"
+  | "BLOCKED";
+
+type AgentWorkItemStatus =
+  | "DONE"
+  | "LIMITED"
+  | "BLOCKED";
+
+type AgentWorkItem = {
+  id: string;
+  label: string;
+  status: AgentWorkItemStatus;
+  output: string;
+  signalIds: string[];
+};
+
+type MissionSteeringState = {
+  mode: "NEW_MISSION" | "CONTINUE" | "REFOCUS";
+  parentMissionId?: string;
+  directive: string;
+  preservedObjective?: string;
+};
+
+type AgentWorkLedger = {
+  status: AgentWorkStatus;
+  completed: number;
+  total: number;
+  steering: MissionSteeringState;
+  items: AgentWorkItem[];
+  deliverables: string[];
+  unresolved: string[];
+  nextMove: string;
+};
+
+type WorkPlanStepStatus =
+  | "QUEUED"
+  | "ACTIVE"
+  | "DONE"
+  | "LIMITED"
+  | "BLOCKED"
+  | "SKIPPED";
+
+type WorkPlanStep = {
+  id: string;
+  order: number;
+  label: string;
+  purpose: string;
+  status: WorkPlanStepStatus;
+  trigger: string;
+};
+
+type AdaptiveWorkPlan = {
+  version: number;
+  rationale: string;
+  steps: WorkPlanStep[];
+};
+
+type InternalResearchPassKind =
+  | "PRIMARY RECOVERY"
+  | "SUPPORT SEARCH"
+  | "CHALLENGE SEARCH"
+  | "BOUNDARY SEARCH"
+  | "REPLICATION SEARCH";
+
+type InternalResearchPass = {
+  kind: InternalResearchPassKind;
+  objective: string;
+  status: "FOUND" | "LIMITED" | "NONE";
+  signalIds: string[];
+  finding: string;
+};
+
+type MissionReplan = {
+  triggered: boolean;
+  reason: string;
+  fromVersion: number;
+  toVersion: number;
+  revisedPriorities: string[];
+};
+
 type AstraCoreState = {
   mission: EpistemeMission;
+  initialPlan: AdaptiveWorkPlan;
+  researchPasses: InternalResearchPass[];
+  replan: MissionReplan;
+  finalPlan: AdaptiveWorkPlan;
   passes: ReasoningPass[];
   critique: SelfCritiqueGate;
+  workLedger: AgentWorkLedger;
   stopReason: string;
   synthesis: string;
 };
@@ -8191,6 +8281,772 @@ function runSelfCritiqueGate(args: {
   };
 }
 
+
+function latestAstraCore(
+  previousMessages: DialogueMessage[],
+): AstraCoreState | null {
+  for (let index = previousMessages.length - 1; index >= 0; index -= 1) {
+    const message = previousMessages[index];
+    if (
+      message.role === "episteme" &&
+      message.intelligence?.astraCore
+    ) {
+      return message.intelligence.astraCore;
+    }
+  }
+  return null;
+}
+
+function detectMissionSteering(
+  query: string,
+  conversationIntent: ConversationIntent,
+  previousMessages: DialogueMessage[],
+): MissionSteeringState {
+  const prior = latestAstraCore(previousMessages);
+  if (!prior) {
+    return {
+      mode: "NEW_MISSION",
+      directive: "Start a new mission from the current user request.",
+    };
+  }
+
+  const q = normalize(query);
+  const refocus =
+    /\b(focus|instead|prioriti[sz]e|narrow|concentrate|shift|reframe|only examine|zoom in)\b/.test(q) ||
+    /重点|優先|絞|代わりに|切り替|焦点|深掘|深堀/.test(query);
+
+  if (
+    conversationIntent === "FOLLOW_UP" ||
+    conversationIntent === "MODE_OPERATION"
+  ) {
+    return {
+      mode: refocus ? "REFOCUS" : "CONTINUE",
+      parentMissionId: prior.mission.id,
+      directive: refocus
+        ? `Preserve the parent mission while shifting the current operation toward: ${query.trim()}`
+        : `Continue the parent mission with the requested operation: ${query.trim()}`,
+      preservedObjective:
+        prior.mission.inheritedObjective ||
+        prior.mission.objective,
+    };
+  }
+
+  return {
+    mode: "NEW_MISSION",
+    directive:
+      "The current request establishes a new mission; prior mission context may inform interpretation but may not silently replace the new object.",
+  };
+}
+
+
+function buildInitialAdaptiveWorkPlan(args: {
+  mission: EpistemeMission;
+  conversationIntent: ConversationIntent;
+  evidenceAudit: EvidenceAudit;
+  epistemicParse: EpistemicParse;
+}): AdaptiveWorkPlan {
+  const {
+    mission,
+    conversationIntent,
+    evidenceAudit,
+    epistemicParse,
+  } = args;
+
+  const followUp = conversationIntent === "FOLLOW_UP";
+  const lowEvidence =
+    evidenceAudit.overallStrength === "INSUFFICIENT" ||
+    evidenceAudit.overallStrength === "LIMITED";
+
+  const steps: WorkPlanStep[] = [
+    {
+      id: "plan-object",
+      order: 1,
+      label: "Lock the epistemic object",
+      purpose: "Prevent stale-object inheritance and preserve the exact working target.",
+      status: "QUEUED",
+      trigger: followUp
+        ? "Preserve the active object unless the user explicitly changes it."
+        : "Establish a new object before substantive reasoning.",
+    },
+    {
+      id: "plan-source",
+      order: 2,
+      label: "Recover source truth",
+      purpose: "Extract the strongest result-bearing proposition without metadata contamination.",
+      status: "QUEUED",
+      trigger: "Required before interpretation or consequence synthesis.",
+    },
+    {
+      id: "plan-support",
+      order: 3,
+      label: "Search internal support",
+      purpose: "Find ArcheNova-indexed objects that bear on the same claim under a compatible evidence contract.",
+      status: "QUEUED",
+      trigger: lowEvidence
+        ? "Evidence is weak, so support search is high priority."
+        : "Confirm whether the current claim survives adjacent internal evidence.",
+    },
+    {
+      id: "plan-challenge",
+      order: 4,
+      label: "Search internal counterevidence",
+      purpose: "Actively seek competing explanations, contradictions, or failure markers.",
+      status: "QUEUED",
+      trigger: "Counterevidence is mandatory before a strong synthesis is released.",
+    },
+    {
+      id: "plan-boundary",
+      order: 5,
+      label: "Search boundary conditions",
+      purpose: "Find limits, operating envelopes, comparator dependence, and conditions under which the claim stops generalizing.",
+      status: "QUEUED",
+      trigger:
+        epistemicParse.claimType === "UNKNOWN"
+          ? "Claim family is unresolved; boundary search must remain conservative."
+          : `Bound the ${epistemicParse.claimType} claim before transfer or scale.`,
+    },
+    {
+      id: "plan-replication",
+      order: 6,
+      label: "Search replication / independent confirmation",
+      purpose: "Distinguish source-reported evidence from independently supported evidence.",
+      status: "QUEUED",
+      trigger: lowEvidence
+        ? "Independent confirmation is a current bottleneck."
+        : "Check whether apparent support is source-independent.",
+    },
+    {
+      id: "plan-replan",
+      order: 7,
+      label: "Replan from research results",
+      purpose: "Change the remaining order of work if new evidence alters the bottleneck.",
+      status: "QUEUED",
+      trigger: "Replanning occurs only when research changes the evidence state or exposes a stronger gap.",
+    },
+    {
+      id: "plan-test",
+      order: 8,
+      label: "Define decisive reality contact",
+      purpose: "End with the minimum observation or intervention that could change the conclusion.",
+      status: "QUEUED",
+      trigger: "Required before mission completion.",
+    },
+  ];
+
+  return {
+    version: 1,
+    rationale:
+      `Mission “${mission.objective}” begins with object lock and source truth, then deliberately searches support, counterevidence, boundaries, and independent confirmation before the final reality test.`,
+    steps,
+  };
+}
+
+function researchCompatibilityScore(
+  lead: SignalItem,
+  candidate: SignalItem,
+  epistemicParse: EpistemicParse,
+  query: string,
+): number {
+  if (lead.id === candidate.id) return 100;
+
+  const assessment = assessContextRole(
+    candidate,
+    lead,
+    epistemicParse,
+    query,
+  );
+  const overlap = evidenceSubjectOverlap(lead, candidate);
+  const titleOverlap = evidenceTitleOverlap(lead, candidate);
+  const leadOntology = inferSemanticClaimOntology(lead);
+  const candidateOntology = inferSemanticClaimOntology(candidate);
+  const leadProfile = inferObjectSemanticProfile(lead);
+  const candidateProfile = inferObjectSemanticProfile(candidate);
+
+  let score = assessment.score + overlap * 2 + titleOverlap * 3;
+
+  if (leadOntology.domain === candidateOntology.domain) score += 5;
+  if (leadOntology.operation === candidateOntology.operation) score += 4;
+  if (leadOntology.artifact === candidateOntology.artifact) score += 3;
+  if (
+    leadProfile.domain !== "GENERAL" &&
+    leadProfile.domain === candidateProfile.domain
+  ) {
+    score += 3;
+  }
+  if (
+    leadProfile.operation !== "UNKNOWN" &&
+    leadProfile.operation === candidateProfile.operation
+  ) {
+    score += 2;
+  }
+
+  return score;
+}
+
+function conductMultiPassInternalResearch(args: {
+  query: string;
+  lead: SignalItem | null;
+  initialRelevant: SignalItem[];
+  corpusSignals: SignalItem[];
+  epistemicParse: EpistemicParse;
+  epistemicContract: EpistemicContract;
+}): {
+  passes: InternalResearchPass[];
+  expandedSignals: SignalItem[];
+  expandedAssessments: ContextAssessment[];
+  expandedAudit: EvidenceAudit;
+} {
+  const {
+    query,
+    lead,
+    initialRelevant,
+    corpusSignals,
+    epistemicParse,
+    epistemicContract,
+  } = args;
+
+  if (!lead) {
+    return {
+      passes: [
+        {
+          kind: "PRIMARY RECOVERY",
+          objective: "Establish a primary ArcheNova-indexed object before internal research.",
+          status: "NONE",
+          signalIds: [],
+          finding:
+            "No primary object is available, so multi-pass internal research abstains rather than filling the mission with unrelated signals.",
+        },
+      ],
+      expandedSignals: [],
+      expandedAssessments: [],
+      expandedAudit: auditEvidence(
+        epistemicContract,
+        null,
+        [],
+        [],
+      ),
+    };
+  }
+
+  const ranked = corpusSignals
+    .filter((signal) => signal.id !== lead.id)
+    .map((signal) => ({
+      signal,
+      score: researchCompatibilityScore(
+        lead,
+        signal,
+        epistemicParse,
+        query,
+      ),
+      text: normalize(
+        `${signal.title} ${sanitizeSignalSummary(signal.summary)} ${signal.category}`,
+      ),
+    }))
+    .sort((a, b) => b.score - a.score);
+
+  const select = (
+    predicate: (item: (typeof ranked)[number]) => boolean,
+    minScore: number,
+    limit: number,
+  ) =>
+    ranked
+      .filter((item) => item.score >= minScore && predicate(item))
+      .slice(0, limit)
+      .map((item) => item.signal);
+
+  const supportSignals = select(
+    (item) =>
+      !explicitContradiction(item.text) &&
+      epistemicContract.evidenceRequirements.some((requirement) =>
+        requirementPattern(
+          requirement,
+          epistemicContract.claimType,
+        ).test(item.text),
+      ),
+    11,
+    3,
+  );
+
+  const challengeSignals = select(
+    (item) =>
+      explicitContradiction(item.text) ||
+      /\b(alternative|challenge|contradict|versus|competing|fails? to|cannot reproduce|trade[- ]?off)\b/.test(
+        item.text,
+      ),
+    8,
+    3,
+  );
+
+  const boundarySignals = select(
+    (item) =>
+      /\b(limit|limitation|boundary|condition|only when|depends on|failure|fails|constraint|trade[- ]?off|scope|generaliz|robust|operating|sensitivity)\b/.test(
+        item.text,
+      ),
+    8,
+    3,
+  );
+
+  const replicationSignals = select(
+    (item) =>
+      independentMarker(item.text) ||
+      /\b(replication|reproduction|independent|external validation|out[- ]?of[- ]?sample|cross[- ]?dataset|confirmed by|validated by)\b/.test(
+        item.text,
+      ),
+    8,
+    3,
+  );
+
+  const result = extractResultBearingProposition(lead)?.proposition ||
+    recoverResultProposition(lead);
+
+  const passes: InternalResearchPass[] = [
+    {
+      kind: "PRIMARY RECOVERY",
+      objective: "Recover the primary source proposition before broadening the search.",
+      status: result ? "FOUND" : "LIMITED",
+      signalIds: [lead.id],
+      finding: result
+        ? `Primary proposition recovered: ${stripTerminalPunctuation(result)}.`
+        : "The primary signal remains usable, but the indexed summary does not expose a clean standalone result proposition.",
+    },
+    {
+      kind: "SUPPORT SEARCH",
+      objective: "Find subject-compatible internal objects that satisfy the current evidence contract.",
+      status: supportSignals.length > 0 ? "FOUND" : "NONE",
+      signalIds: supportSignals.map((signal) => signal.id),
+      finding: supportSignals.length > 0
+        ? `Found ${supportSignals.length} internal support candidate${supportSignals.length === 1 ? "" : "s"}: ${supportSignals.map((signal) => `“${signal.title}”`).join("; ")}.`
+        : "No additional ArcheNova-indexed object passed the support threshold; semantic proximity alone was rejected.",
+    },
+    {
+      kind: "CHALLENGE SEARCH",
+      objective: "Search for contradictions, competing explanations, or failure-bearing evidence.",
+      status: challengeSignals.length > 0 ? "FOUND" : "LIMITED",
+      signalIds: challengeSignals.map((signal) => signal.id),
+      finding: challengeSignals.length > 0
+        ? `Found ${challengeSignals.length} challenge candidate${challengeSignals.length === 1 ? "" : "s"}: ${challengeSignals.map((signal) => `“${signal.title}”`).join("; ")}.`
+        : "No explicit internal contradiction passed the current threshold; absence of contradiction is not confirmation.",
+    },
+    {
+      kind: "BOUNDARY SEARCH",
+      objective: "Identify conditions that bound transfer, scale, robustness, or interpretation.",
+      status: boundarySignals.length > 0 ? "FOUND" : "LIMITED",
+      signalIds: boundarySignals.map((signal) => signal.id),
+      finding: boundarySignals.length > 0
+        ? `Boundary-bearing internal context found in: ${boundarySignals.map((signal) => `“${signal.title}”`).join("; ")}.`
+        : "No separate boundary-bearing signal passed the threshold; the answer must retain the primary contract's uncertainty boundary.",
+    },
+    {
+      kind: "REPLICATION SEARCH",
+      objective: "Look for independent confirmation rather than repeated source-reported claims.",
+      status: replicationSignals.length > 0 ? "FOUND" : "LIMITED",
+      signalIds: replicationSignals.map((signal) => signal.id),
+      finding: replicationSignals.length > 0
+        ? `Independent/replication-oriented candidates found: ${replicationSignals.map((signal) => `“${signal.title}”`).join("; ")}. Their summaries still require claim-specific auditing before they count as verification.`
+        : "No internal item clearly establishes independent replication or external validation for the active claim.",
+    },
+  ];
+
+  const expandedSignals = uniqueSignals([
+    lead,
+    ...initialRelevant,
+    ...supportSignals,
+    ...challengeSignals,
+    ...boundarySignals,
+    ...replicationSignals,
+  ]).slice(0, 12);
+
+  const expandedAssessments: ContextAssessment[] = expandedSignals.map(
+    (signal) => {
+      if (signal.id === lead.id) {
+        return {
+          signalId: signal.id,
+          role: "PRIMARY",
+          score: 100,
+        };
+      }
+
+      const challenge = challengeSignals.some(
+        (item) => item.id === signal.id,
+      );
+      const support = supportSignals.some(
+        (item) => item.id === signal.id,
+      );
+      const boundary = boundarySignals.some(
+        (item) => item.id === signal.id,
+      );
+
+      return {
+        signalId: signal.id,
+        role: challenge
+          ? "COMPETING"
+          : support
+            ? "SUPPORTING"
+            : boundary
+              ? "BACKGROUND"
+              : assessContextRole(
+                  signal,
+                  lead,
+                  epistemicParse,
+                  query,
+                ).role,
+        score: Math.max(
+          researchCompatibilityScore(
+            lead,
+            signal,
+            epistemicParse,
+            query,
+          ),
+          support ? 18 : challenge ? 17 : boundary ? 13 : 0,
+        ),
+      };
+    },
+  );
+
+  const expandedAudit = auditEvidence(
+    epistemicContract,
+    lead,
+    expandedSignals,
+    expandedAssessments,
+  );
+
+  return {
+    passes,
+    expandedSignals,
+    expandedAssessments,
+    expandedAudit,
+  };
+}
+
+function buildMissionReplan(args: {
+  initialPlan: AdaptiveWorkPlan;
+  researchPasses: InternalResearchPass[];
+  originalAudit: EvidenceAudit;
+  expandedAudit: EvidenceAudit;
+  conversationIntent: ConversationIntent;
+}): {
+  replan: MissionReplan;
+  finalPlan: AdaptiveWorkPlan;
+} {
+  const {
+    initialPlan,
+    researchPasses,
+    originalAudit,
+    expandedAudit,
+    conversationIntent,
+  } = args;
+
+  const sourcePass = researchPasses.find(
+    (pass) => pass.kind === "PRIMARY RECOVERY",
+  );
+  const challengePass = researchPasses.find(
+    (pass) => pass.kind === "CHALLENGE SEARCH",
+  );
+  const replicationPass = researchPasses.find(
+    (pass) => pass.kind === "REPLICATION SEARCH",
+  );
+
+  const evidenceChanged =
+    originalAudit.overallStrength !== expandedAudit.overallStrength;
+  const priorities: string[] = [];
+
+  if (sourcePass?.status !== "FOUND") {
+    priorities.push("Recover a cleaner result proposition before broadening interpretation.");
+  }
+  if (challengePass?.status !== "FOUND") {
+    priorities.push("Keep counterevidence search active; no internal contradiction has yet passed the threshold.");
+  }
+  if (replicationPass?.status !== "FOUND") {
+    priorities.push("Prioritize independent replication or external validation before raising confidence.");
+  }
+  if (
+    expandedAudit.overallStrength === "INSUFFICIENT" ||
+    expandedAudit.overallStrength === "LIMITED"
+  ) {
+    priorities.push("Preserve a narrow conclusion and keep the decisive test visible.");
+  }
+  if (conversationIntent === "FOLLOW_UP") {
+    priorities.unshift("Answer the requested follow-up operation before any broader re-analysis.");
+  }
+  if (evidenceChanged) {
+    priorities.unshift(
+      `Evidence state changed from ${originalAudit.overallStrength} to ${expandedAudit.overallStrength}; downstream work must use the updated audit.`,
+    );
+  }
+
+  const triggered =
+    priorities.length > 0 ||
+    researchPasses.some((pass) => pass.status !== "FOUND");
+
+  const finalSteps = initialPlan.steps.map((step): WorkPlanStep => {
+    if (step.id === "plan-object" || step.id === "plan-source") {
+      return {
+        ...step,
+        status:
+          step.id === "plan-source" && sourcePass?.status !== "FOUND"
+            ? "LIMITED"
+            : "DONE",
+      };
+    }
+
+    if (step.id === "plan-support") {
+      const pass = researchPasses.find((item) => item.kind === "SUPPORT SEARCH");
+      return {
+        ...step,
+        status: pass?.status === "FOUND" ? "DONE" : "LIMITED",
+      };
+    }
+
+    if (step.id === "plan-challenge") {
+      return {
+        ...step,
+        status: challengePass?.status === "FOUND" ? "DONE" : "LIMITED",
+      };
+    }
+
+    if (step.id === "plan-boundary") {
+      const pass = researchPasses.find((item) => item.kind === "BOUNDARY SEARCH");
+      return {
+        ...step,
+        status: pass?.status === "FOUND" ? "DONE" : "LIMITED",
+      };
+    }
+
+    if (step.id === "plan-replication") {
+      return {
+        ...step,
+        status: replicationPass?.status === "FOUND" ? "DONE" : "LIMITED",
+      };
+    }
+
+    if (step.id === "plan-replan") {
+      return {
+        ...step,
+        status: "DONE",
+        trigger: triggered
+          ? "Plan revised from observed internal research gaps."
+          : "No material plan change was required.",
+      };
+    }
+
+    if (step.id === "plan-test") {
+      return {
+        ...step,
+        status: "ACTIVE",
+      };
+    }
+
+    return step;
+  });
+
+  return {
+    replan: {
+      triggered,
+      reason: triggered
+        ? priorities[0] ||
+          "Internal research exposed a gap that changes the remaining work order."
+        : "The initial plan remained adequate after internal research.",
+      fromVersion: initialPlan.version,
+      toVersion: triggered
+        ? initialPlan.version + 1
+        : initialPlan.version,
+      revisedPriorities: priorities,
+    },
+    finalPlan: {
+      version: triggered
+        ? initialPlan.version + 1
+        : initialPlan.version,
+      rationale: triggered
+        ? `The plan was revised after multi-pass internal research. ${priorities.join(" ")}`
+        : "Multi-pass internal research did not expose a material reason to reorder the remaining mission.",
+      steps: finalSteps,
+    },
+  };
+}
+
+function buildAgentWorkLedger(args: {
+  mission: EpistemeMission;
+  finalPlan: AdaptiveWorkPlan;
+  researchPasses: InternalResearchPass[];
+  replan: MissionReplan;
+  passes: ReasoningPass[];
+  critique: SelfCritiqueGate;
+  steering: MissionSteeringState;
+  evidenceAudit: EvidenceAudit;
+  epistemicContract: EpistemicContract;
+}): AgentWorkLedger {
+  const {
+    mission,
+    finalPlan,
+    researchPasses,
+    replan,
+    passes,
+    critique,
+    steering,
+    evidenceAudit,
+    epistemicContract,
+  } = args;
+
+  const mapStatus = (
+    pass: ReasoningPass | undefined,
+  ): AgentWorkItemStatus =>
+    !pass
+      ? "BLOCKED"
+      : pass.status === "PASS"
+        ? "DONE"
+        : pass.status === "LIMITED"
+          ? "LIMITED"
+          : "BLOCKED";
+
+  const pass = (kind: ReasoningPassKind) =>
+    passes.find((item) => item.kind === kind);
+
+  const items: AgentWorkItem[] = [
+    {
+      id: "work-object",
+      label: "Resolve and lock the working object",
+      status: mapStatus(pass("OBJECT LOCK")),
+      output:
+        pass("OBJECT LOCK")?.finding ||
+        "No object-resolution output is available.",
+      signalIds: pass("OBJECT LOCK")?.signalIds ?? [],
+    },
+    {
+      id: "work-source",
+      label: "Recover source truth",
+      status: mapStatus(pass("SOURCE TRUTH")),
+      output:
+        pass("SOURCE TRUTH")?.finding ||
+        "No source-truth output is available.",
+      signalIds: pass("SOURCE TRUTH")?.signalIds ?? [],
+    },
+    {
+      id: "work-claim",
+      label: "Apply the claim-specific evidence contract",
+      status: mapStatus(pass("CLAIM DISCRIMINATION")),
+      output:
+        pass("CLAIM DISCRIMINATION")?.finding ||
+        "No claim-discrimination output is available.",
+      signalIds: pass("CLAIM DISCRIMINATION")?.signalIds ?? [],
+    },
+    {
+      id: "work-counter",
+      label: "Search for counterevidence and competing explanations",
+      status: mapStatus(pass("COUNTEREVIDENCE")),
+      output:
+        pass("COUNTEREVIDENCE")?.finding ||
+        "No counterevidence output is available.",
+      signalIds: pass("COUNTEREVIDENCE")?.signalIds ?? [],
+    },
+    {
+      id: "work-consequence",
+      label: "Synthesize the bounded consequence",
+      status: mapStatus(pass("CONSEQUENCE")),
+      output:
+        pass("CONSEQUENCE")?.finding ||
+        "No consequence synthesis is available.",
+      signalIds: pass("CONSEQUENCE")?.signalIds ?? [],
+    },
+    {
+      id: "work-test",
+      label: "Define the decisive reality-contact test",
+      status: mapStatus(pass("REALITY TEST")),
+      output:
+        pass("REALITY TEST")?.finding ||
+        epistemicContract.realityTest,
+      signalIds: pass("REALITY TEST")?.signalIds ?? [],
+    },
+    {
+      id: "work-research",
+      label: "Run multi-pass internal research",
+      status:
+        researchPasses.some((item) => item.status === "FOUND")
+          ? researchPasses.some((item) => item.status !== "FOUND")
+            ? "LIMITED"
+            : "DONE"
+          : "LIMITED",
+      output:
+        researchPasses.map((item) => `${item.kind}: ${item.finding}`).join(" "),
+      signalIds: Array.from(
+        new Set(
+          researchPasses.flatMap((item) => item.signalIds),
+        ),
+      ),
+    },
+    {
+      id: "work-replan",
+      label: "Replan from observed research results",
+      status: "DONE",
+      output:
+        replan.triggered
+          ? `Mission replanned from v${replan.fromVersion} to v${replan.toVersion}. ${replan.reason}`
+          : `Mission plan remained at v${replan.toVersion}. ${replan.reason}`,
+      signalIds: [],
+    },
+    {
+      id: "work-critique",
+      label: "Run the release self-critique",
+      status:
+        critique.status === "PASS"
+          ? "DONE"
+          : critique.status === "PASS_WITH_LIMITS"
+            ? "LIMITED"
+            : "BLOCKED",
+      output:
+        critique.status === "PASS"
+          ? "The answer passed the release gate without a blocking epistemic defect."
+          : critique.status === "PASS_WITH_LIMITS"
+            ? `The answer is releasable with explicit limits: ${critique.corrections.join(" ") || "evidence remains incomplete."}`
+            : `Release is blocked: ${critique.corrections.join(" ") || "a required epistemic gate failed."}`,
+      signalIds: evidenceAudit.admittedSignalIds,
+    },
+  ];
+
+  const completed = items.filter((item) => item.status === "DONE").length;
+  const limited = items.filter((item) => item.status === "LIMITED").length;
+  const blocked = items.filter((item) => item.status === "BLOCKED").length;
+
+  const unresolved = [
+    ...mission.subtasks
+      .filter((item) => item.status === "ACTIVE" || item.status === "BLOCKED")
+      .map((item) => `${item.label}: ${item.finding}`),
+    ...finalPlan.steps
+      .filter((item) => item.status === "LIMITED" || item.status === "BLOCKED")
+      .map((item) => `${item.label}: ${item.trigger}`),
+    ...replan.revisedPriorities,
+    ...critique.corrections,
+  ].filter((value, index, values) => value && values.indexOf(value) === index);
+
+  const deliverables = [
+    pass("SOURCE TRUTH")?.finding,
+    pass("COUNTEREVIDENCE")?.finding,
+    pass("CONSEQUENCE")?.finding,
+    pass("REALITY TEST")?.finding
+      ? `Decisive test: ${pass("REALITY TEST")?.finding}`
+      : "",
+  ].filter((value): value is string => Boolean(value));
+
+  const status: AgentWorkStatus =
+    blocked > 0 || critique.status === "BLOCKED"
+      ? "BLOCKED"
+      : limited > 0 || critique.status === "PASS_WITH_LIMITS"
+        ? "COMPLETED_WITH_LIMITS"
+        : "COMPLETED";
+
+  return {
+    status,
+    completed,
+    total: items.length,
+    steering,
+    items,
+    deliverables,
+    unresolved,
+    nextMove:
+      epistemicContract.nextAction ||
+      "Continue only if a new observation, stronger internal source, or explicit steering instruction can materially change the conclusion.",
+  };
+}
+
 function buildAstraCoreState(args: {
   query: string;
   intentModel: IntentModel;
@@ -8203,8 +9059,10 @@ function buildAstraCoreState(args: {
   claimIdentity: EpistemicClaimIdentity | null;
   directAnswer: string;
   reasoning: string;
+  previousMessages?: DialogueMessage[];
+  corpusSignals?: SignalItem[];
 }): AstraCoreState {
-  const mission = compileEpistemeMission({
+  const compiledMission = compileEpistemeMission({
     query: args.query,
     intentModel: args.intentModel,
     conversationIntent: args.conversationIntent,
@@ -8216,15 +9074,61 @@ function buildAstraCoreState(args: {
     claimIdentity: args.claimIdentity,
   });
 
+  const steering = detectMissionSteering(
+    args.query,
+    args.conversationIntent,
+    args.previousMessages ?? [],
+  );
+
+  const mission: EpistemeMission =
+    steering.mode === "NEW_MISSION"
+      ? compiledMission
+      : {
+          ...compiledMission,
+          parentMissionId: steering.parentMissionId,
+          inheritedObjective: steering.preservedObjective,
+          steeringDirective: steering.directive,
+        };
+
+  const initialPlan = buildInitialAdaptiveWorkPlan({
+    mission,
+    conversationIntent: args.conversationIntent,
+    evidenceAudit: args.evidenceAudit,
+    epistemicParse: args.epistemicParse,
+  });
+
+  const research = conductMultiPassInternalResearch({
+    query: args.query,
+    lead: args.lead,
+    initialRelevant: args.relevant,
+    corpusSignals: args.corpusSignals ?? args.relevant,
+    epistemicParse: args.epistemicParse,
+    epistemicContract: args.epistemicContract,
+  });
+
+  const { replan, finalPlan } = buildMissionReplan({
+    initialPlan,
+    researchPasses: research.passes,
+    originalAudit: args.evidenceAudit,
+    expandedAudit: research.expandedAudit,
+    conversationIntent: args.conversationIntent,
+  });
+
+  const workingRelevant =
+    research.expandedSignals.length > 0
+      ? research.expandedSignals
+      : args.relevant;
+  const workingAudit = research.expandedAudit;
+
   const passes = runAutonomousReasoningLoop({
     mission,
     query: args.query,
     conversationIntent: args.conversationIntent,
     lead: args.lead,
-    relevant: args.relevant,
+    relevant: workingRelevant,
     epistemicParse: args.epistemicParse,
     epistemicContract: args.epistemicContract,
-    evidenceAudit: args.evidenceAudit,
+    evidenceAudit: workingAudit,
     claimIdentity: args.claimIdentity,
   });
 
@@ -8233,7 +9137,7 @@ function buildAstraCoreState(args: {
     conversationIntent: args.conversationIntent,
     lead: args.lead,
     epistemicParse: args.epistemicParse,
-    evidenceAudit: args.evidenceAudit,
+    evidenceAudit: workingAudit,
     claimIdentity: args.claimIdentity,
     passes,
     directAnswer: args.directAnswer,
@@ -8244,10 +9148,27 @@ function buildAstraCoreState(args: {
   const consequencePass = passes.find((pass) => pass.kind === "CONSEQUENCE");
   const realityPass = passes.find((pass) => pass.kind === "REALITY TEST");
 
-  return {
+  const workLedger = buildAgentWorkLedger({
     mission,
+    finalPlan,
+    researchPasses: research.passes,
+    replan,
     passes,
     critique,
+    steering,
+    evidenceAudit: workingAudit,
+    epistemicContract: args.epistemicContract,
+  });
+
+  return {
+    mission,
+    initialPlan,
+    researchPasses: research.passes,
+    replan,
+    finalPlan,
+    passes,
+    critique,
+    workLedger,
     stopReason:
       stopPass?.finding ||
       "The mission ends when additional internal reasoning no longer changes the bounded conclusion.",
@@ -8451,6 +9372,7 @@ function buildInternalCorpusIntelligence(
     claimIdentity,
     directAnswer: corpus.directAnswer,
     reasoning: corpus.reasoning,
+    corpusSignals: signals,
   });
 
   const released = applySelfCritiqueRelease({
@@ -9082,6 +10004,8 @@ function buildIntelligence(
     claimIdentity,
     directAnswer,
     reasoning,
+    previousMessages,
+    corpusSignals: signals,
   });
 
   const released = applySelfCritiqueRelease({
@@ -9891,9 +10815,9 @@ useEffect(() => {
                   to understand?
                 </h1>
                 <p>
-                  Ask once, then descend through ArcheNova Signals, report-like
-                  intelligence, evidence boundaries, competing interpretations,
-                  and decisive tests inside a single continuous knowledge space.
+                  Ask once. Episteme converts the request into a mission, works through
+                  ArcheNova-indexed intelligence, challenges its own result, and returns a
+                  bounded answer with the work products and next reality-contact action.
                 </p>
                 <div className="ep-dialogue__welcome-state">
                   <span>
@@ -10038,6 +10962,138 @@ useEffect(() => {
                               {message.intelligence.adaptiveResponse.governingQuestion}
                             </p>
                           </div>
+
+                          {message.intelligence.astraCore?.workLedger && (
+                            <div className="ep-agent-work">
+                              <div className="ep-agent-work__head">
+                                <div>
+                                  <span>MISSION WORKER</span>
+                                  <strong>
+                                    {message.intelligence.astraCore.workLedger.status.replaceAll("_", " ")}
+                                  </strong>
+                                </div>
+                                <small>
+                                  {message.intelligence.astraCore.workLedger.completed}
+                                  {" / "}
+                                  {message.intelligence.astraCore.workLedger.total}
+                                  {" complete"}
+                                </small>
+                              </div>
+
+                              <div className="ep-agent-work__mission">
+                                <span>MISSION</span>
+                                <p>{message.intelligence.astraCore.mission.objective}</p>
+                                {message.intelligence.astraCore.mission.inheritedObjective && (
+                                  <small>
+                                    CONTINUITY · {message.intelligence.astraCore.workLedger.steering.mode}
+                                    {" · "}
+                                    {message.intelligence.astraCore.mission.inheritedObjective}
+                                  </small>
+                                )}
+                              </div>
+
+                              <div className="ep-agent-work__planning">
+                                <div className="ep-agent-work__planning-head">
+                                  <span>ADAPTIVE PLAN</span>
+                                  <small>
+                                    v{message.intelligence.astraCore.finalPlan.version}
+                                    {message.intelligence.astraCore.replan.triggered
+                                      ? " · REPLANNED"
+                                      : " · STABLE"}
+                                  </small>
+                                </div>
+                                <div className="ep-agent-work__plan-steps">
+                                  {message.intelligence.astraCore.finalPlan.steps.map((step) => (
+                                    <div
+                                      key={step.id}
+                                      className={`ep-agent-work__plan-step is-${step.status.toLowerCase()}`}
+                                    >
+                                      <b>{step.order}</b>
+                                      <div>
+                                        <strong>{step.label}</strong>
+                                        <p>{step.trigger}</p>
+                                      </div>
+                                      <span>{step.status}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                                {message.intelligence.astraCore.replan.triggered && (
+                                  <p className="ep-agent-work__replan">
+                                    <strong>MISSION REPLAN</strong>
+                                    {message.intelligence.astraCore.replan.reason}
+                                  </p>
+                                )}
+                              </div>
+
+                              <div className="ep-agent-work__research">
+                                <div className="ep-agent-work__planning-head">
+                                  <span>INTERNAL RESEARCH PASSES</span>
+                                  <small>
+                                    {
+                                      message.intelligence.astraCore.researchPasses.filter(
+                                        (pass) => pass.status === "FOUND",
+                                      ).length
+                                    }
+                                    {" / "}
+                                    {message.intelligence.astraCore.researchPasses.length}
+                                    {" found"}
+                                  </small>
+                                </div>
+                                {message.intelligence.astraCore.researchPasses.map((pass) => (
+                                  <div
+                                    key={pass.kind}
+                                    className={`ep-agent-work__research-pass is-${pass.status.toLowerCase()}`}
+                                  >
+                                    <i aria-hidden="true" />
+                                    <div>
+                                      <strong>{pass.kind}</strong>
+                                      <p>{pass.finding}</p>
+                                    </div>
+                                    <span>{pass.status}</span>
+                                  </div>
+                                ))}
+                              </div>
+
+                              <div className="ep-agent-work__items">
+                                {message.intelligence.astraCore.workLedger.items.map((item) => (
+                                  <div
+                                    key={item.id}
+                                    className={`ep-agent-work__item is-${item.status.toLowerCase()}`}
+                                  >
+                                    <i aria-hidden="true" />
+                                    <div>
+                                      <strong>{item.label}</strong>
+                                      <p>{item.output}</p>
+                                    </div>
+                                    <span>{item.status}</span>
+                                  </div>
+                                ))}
+                              </div>
+
+                              <div className="ep-agent-work__result">
+                                <section>
+                                  <span>WORK PRODUCTS</span>
+                                  {message.intelligence.astraCore.workLedger.deliverables
+                                    .slice(0, 4)
+                                    .map((item, index) => (
+                                      <p key={`${message.id}-deliverable-${index}`}>{item}</p>
+                                    ))}
+                                </section>
+                                <section>
+                                  <span>REMAINING GAP</span>
+                                  <p>
+                                    {message.intelligence.astraCore.workLedger.unresolved[0] ||
+                                      "No unresolved internal blocker remains at the current evidence level."}
+                                  </p>
+                                </section>
+                              </div>
+
+                              <p className="ep-agent-work__next">
+                                <strong>NEXT BEST ACTION</strong>
+                                {message.intelligence.astraCore.workLedger.nextMove}
+                              </p>
+                            </div>
+                          )}
 
                           <div className="ep-scholarly__flow" aria-label="Reasoning architecture">
                             {message.intelligence.adaptiveResponse.visualGrammar
@@ -17390,6 +18446,310 @@ useEffect(() => {
           border-radius: 12px;
           padding: 11px 12px;
           cursor: pointer;
+        }
+
+
+        /* ==================================================
+           MISSION WORKER · STAGE 6.8.0
+        ================================================== */
+        .ep-agent-work {
+          margin: 16px 0 18px;
+          border: 1px solid rgba(175,220,244,.14);
+          border-radius: 18px;
+          background:
+            linear-gradient(180deg, rgba(152,205,233,.045), rgba(255,255,255,.012));
+          overflow: hidden;
+        }
+
+        .ep-agent-work__head {
+          display: flex;
+          justify-content: space-between;
+          gap: 14px;
+          align-items: flex-start;
+          padding: 13px 15px;
+          border-bottom: 1px solid rgba(255,255,255,.07);
+        }
+
+        .ep-agent-work__head > div {
+          display: grid;
+          gap: 4px;
+        }
+
+        .ep-agent-work__head span,
+        .ep-agent-work__mission > span,
+        .ep-agent-work__result section > span {
+          font-size: 8px;
+          letter-spacing: .15em;
+          color: rgba(181,219,239,.55);
+        }
+
+        .ep-agent-work__head strong {
+          font-size: 11px;
+          font-weight: 560;
+          letter-spacing: .05em;
+          color: rgba(239,248,252,.9);
+        }
+
+        .ep-agent-work__head small {
+          color: rgba(229,238,243,.43);
+          font-size: 8px;
+          letter-spacing: .08em;
+        }
+
+        .ep-agent-work__mission {
+          padding: 13px 15px;
+          border-bottom: 1px solid rgba(255,255,255,.055);
+        }
+
+        .ep-agent-work__mission p {
+          margin: 7px 0 0;
+          color: rgba(239,245,248,.72);
+          font-size: 10px;
+          line-height: 1.6;
+        }
+
+        .ep-agent-work__mission small {
+          display: block;
+          margin-top: 7px;
+          color: rgba(190,218,232,.45);
+          font-size: 8px;
+          line-height: 1.5;
+        }
+
+        .ep-agent-work__planning,
+        .ep-agent-work__research {
+          border-bottom: 1px solid rgba(255,255,255,.055);
+          background: rgba(3,7,9,.34);
+        }
+
+        .ep-agent-work__planning-head {
+          display: flex;
+          justify-content: space-between;
+          gap: 12px;
+          align-items: center;
+          padding: 10px 15px 8px;
+        }
+
+        .ep-agent-work__planning-head > span {
+          color: rgba(177,219,240,.56);
+          font-size: 8px;
+          letter-spacing: .15em;
+        }
+
+        .ep-agent-work__planning-head > small {
+          color: rgba(228,237,242,.4);
+          font-size: 7px;
+          letter-spacing: .09em;
+        }
+
+        .ep-agent-work__plan-steps {
+          display: grid;
+        }
+
+        .ep-agent-work__plan-step,
+        .ep-agent-work__research-pass {
+          display: grid;
+          grid-template-columns: 22px minmax(0,1fr) auto;
+          gap: 9px;
+          align-items: start;
+          padding: 8px 15px;
+          border-top: 1px solid rgba(255,255,255,.035);
+        }
+
+        .ep-agent-work__plan-step > b {
+          display: grid;
+          place-items: center;
+          width: 18px;
+          height: 18px;
+          border: 1px solid rgba(180,220,240,.14);
+          border-radius: 999px;
+          color: rgba(187,221,238,.55);
+          font-size: 7px;
+          font-weight: 500;
+        }
+
+        .ep-agent-work__plan-step strong,
+        .ep-agent-work__research-pass strong {
+          display: block;
+          color: rgba(237,244,248,.72);
+          font-size: 8.5px;
+          font-weight: 530;
+        }
+
+        .ep-agent-work__plan-step p,
+        .ep-agent-work__research-pass p {
+          margin: 3px 0 0;
+          color: rgba(224,234,239,.45);
+          font-size: 8.5px;
+          line-height: 1.5;
+        }
+
+        .ep-agent-work__plan-step > span,
+        .ep-agent-work__research-pass > span {
+          color: rgba(219,233,240,.38);
+          font-size: 7px;
+          letter-spacing: .07em;
+        }
+
+        .ep-agent-work__plan-step.is-done > b {
+          background: rgba(159,214,239,.08);
+          border-color: rgba(170,220,242,.22);
+        }
+
+        .ep-agent-work__plan-step.is-limited > b,
+        .ep-agent-work__research-pass.is-limited > i {
+          border-color: rgba(231,205,152,.3);
+        }
+
+        .ep-agent-work__plan-step.is-active > b {
+          box-shadow: 0 0 14px rgba(103,181,220,.13);
+          border-color: rgba(176,222,245,.34);
+        }
+
+        .ep-agent-work__replan {
+          margin: 0;
+          padding: 10px 15px 12px;
+          border-top: 1px solid rgba(255,255,255,.035);
+          color: rgba(228,238,243,.54);
+          font-size: 8.5px;
+          line-height: 1.55;
+        }
+
+        .ep-agent-work__replan strong {
+          display: block;
+          margin-bottom: 3px;
+          color: rgba(184,220,238,.58);
+          font-size: 7.5px;
+          letter-spacing: .13em;
+        }
+
+        .ep-agent-work__research-pass {
+          grid-template-columns: 8px minmax(0,1fr) auto;
+        }
+
+        .ep-agent-work__research-pass > i {
+          width: 6px;
+          height: 6px;
+          margin-top: 4px;
+          border: 1px solid rgba(175,220,244,.2);
+          border-radius: 999px;
+          background: rgba(161,215,241,.07);
+        }
+
+        .ep-agent-work__research-pass.is-found > i {
+          background: rgba(167,219,243,.55);
+          box-shadow: 0 0 8px rgba(118,192,228,.14);
+        }
+
+        .ep-agent-work__research-pass.is-none > i {
+          background: rgba(255,255,255,.03);
+          border-style: dashed;
+        }
+
+        .ep-agent-work__items {
+          display: grid;
+          gap: 0;
+        }
+
+        .ep-agent-work__item {
+          display: grid;
+          grid-template-columns: 8px minmax(0, 1fr) auto;
+          gap: 10px;
+          align-items: start;
+          padding: 10px 15px;
+          border-bottom: 1px solid rgba(255,255,255,.045);
+        }
+
+        .ep-agent-work__item > i {
+          width: 6px;
+          height: 6px;
+          margin-top: 5px;
+          border-radius: 999px;
+          background: rgba(178,220,241,.72);
+          box-shadow: 0 0 10px rgba(127,194,229,.18);
+        }
+
+        .ep-agent-work__item.is-limited > i {
+          background: rgba(231,205,152,.72);
+        }
+
+        .ep-agent-work__item.is-blocked > i {
+          background: rgba(226,157,147,.72);
+        }
+
+        .ep-agent-work__item > div {
+          min-width: 0;
+        }
+
+        .ep-agent-work__item strong {
+          display: block;
+          color: rgba(237,244,248,.78);
+          font-size: 9px;
+          font-weight: 540;
+          line-height: 1.4;
+        }
+
+        .ep-agent-work__item p {
+          margin: 4px 0 0;
+          color: rgba(226,235,240,.48);
+          font-size: 9px;
+          line-height: 1.55;
+        }
+
+        .ep-agent-work__item > span {
+          padding-top: 1px;
+          color: rgba(219,233,240,.42);
+          font-size: 7px;
+          letter-spacing: .08em;
+        }
+
+        .ep-agent-work__result {
+          display: grid;
+          grid-template-columns: 1.35fr 1fr;
+          gap: 1px;
+          background: rgba(255,255,255,.045);
+        }
+
+        .ep-agent-work__result section {
+          background: rgba(4,7,9,.72);
+          padding: 12px 15px;
+        }
+
+        .ep-agent-work__result p {
+          margin: 6px 0 0;
+          color: rgba(229,238,243,.56);
+          font-size: 9px;
+          line-height: 1.55;
+        }
+
+        .ep-agent-work__next {
+          margin: 0;
+          padding: 12px 15px 14px;
+          color: rgba(229,239,244,.61);
+          font-size: 9px;
+          line-height: 1.6;
+        }
+
+        .ep-agent-work__next strong {
+          display: block;
+          margin-bottom: 4px;
+          color: rgba(182,220,239,.58);
+          font-size: 8px;
+          letter-spacing: .13em;
+        }
+
+        @media (max-width: 680px) {
+          .ep-agent-work__result {
+            grid-template-columns: 1fr;
+          }
+
+          .ep-agent-work__item {
+            grid-template-columns: 8px minmax(0, 1fr);
+          }
+
+          .ep-agent-work__item > span {
+            grid-column: 2;
+          }
         }
 
         @media (max-width: 900px) {
