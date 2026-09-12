@@ -173,6 +173,7 @@ type EpistemicClaimIdentity = {
   signalTitle: string;
   genre: SignalGenre;
   documentEventType: DocumentEventType;
+  headlineDiscourse: HeadlineDiscourseType;
   coreClaim: string;
   claimType: ClaimType;
   evidenceType: string[];
@@ -301,6 +302,9 @@ type EpistemicObjectResolution = {
   primarySignal: SignalItem | null;
   isFollowUp: boolean;
   anchoredFromConversation: boolean;
+  objectState: EpistemicObjectState;
+  retrievalAccepted: boolean;
+  retrievalRationale: string;
 };
 
 type FollowUpSynthesis = {
@@ -336,6 +340,53 @@ type SignalItem = {
   publishedAt: string | null;
 };
 
+
+type ScholarlySectionKind =
+  | "ABSTRACT"
+  | "THESIS"
+  | "ANALYSIS"
+  | "EVIDENCE"
+  | "BOUNDARY"
+  | "ALTERNATIVE"
+  | "FALSIFICATION"
+  | "COMPARISON"
+  | "SCENARIO"
+  | "IMPLICATION"
+  | "VERDICT"
+  | "NEXT";
+
+type ScholarlySection = {
+  id: string;
+  kind: ScholarlySectionKind;
+  label: string;
+  title?: string;
+  body: string;
+  emphasis?: "PRIMARY" | "SECONDARY" | "CAUTION";
+};
+
+type ModeReasoningStrategy = {
+  mode: DialogueMode;
+  intellectualTask: string;
+  governingQuestion: string;
+  sectionOrder: ScholarlySectionKind[];
+  visualGrammar: string;
+};
+
+type AdaptiveResponse = {
+  mode: DialogueMode;
+  modeLabel: string;
+  intellectualTask: string;
+  governingQuestion: string;
+  thesis: string;
+  abstract: string;
+  sections: ScholarlySection[];
+  claimType: ClaimType;
+  evidenceStrength: EvidenceStrength;
+  objectState: EpistemicObjectState;
+  visualGrammar: string;
+  plainText: string;
+};
+
 type IntelligenceObject = {
   interpretation: string;
   evidence: string;
@@ -352,6 +403,8 @@ type IntelligenceObject = {
   epistemicContract: EpistemicContract;
   evidenceAudit: EvidenceAudit;
   claimIdentity: EpistemicClaimIdentity | null;
+  objectState: EpistemicObjectState;
+  adaptiveResponse: AdaptiveResponse;
 };
 
 type DialogueMessage = {
@@ -378,33 +431,76 @@ const MODES: readonly {
     id: "ask",
     label: "Ask",
     description:
-      "Direct inquiry grounded in current ArcheNova intelligence.",
+      "Answer the question directly, then justify the conclusion and state its evidence boundary.",
   },
   {
     id: "explore",
     label: "Explore",
     description:
-      "Discover adjacent signals, patterns, and emerging connections.",
+      "Expand the inquiry into adjacent mechanisms, implications, unknowns, and research directions.",
   },
   {
     id: "challenge",
     label: "Challenge",
     description:
-      "Search for assumptions, contradictions, and falsification conditions.",
+      "Attack the central claim with alternatives, hidden assumptions, falsification tests, and failure conditions.",
   },
   {
     id: "compare",
     label: "Compare",
     description:
-      "Compare competing explanations, systems, or trajectories.",
+      "Evaluate competing objects under the same criteria and produce a conditional judgment rather than a loose similarity list.",
   },
   {
     id: "simulate",
     label: "Simulate",
     description:
-      "Explore an explicit counterfactual without confusing it with evidence.",
+      "Hold assumptions explicit, propagate causal consequences, branch scenarios, and separate counterfactual results from evidence.",
   },
 ];
+
+const MODE_REASONING_STRATEGIES: Record<DialogueMode, ModeReasoningStrategy> = {
+  ask: {
+    mode: "ask",
+    intellectualTask: "Direct scholarly answer",
+    governingQuestion:
+      "What is the strongest answer justified by the current evidence, and where does that answer stop?",
+    sectionOrder: ["ABSTRACT", "ANALYSIS", "EVIDENCE", "BOUNDARY", "VERDICT", "NEXT"],
+    visualGrammar: "ABSTRACT → ANALYSIS → EVIDENCE BOUNDARY",
+  },
+  explore: {
+    mode: "explore",
+    intellectualTask: "Open-ended scientific exploration",
+    governingQuestion:
+      "What new mechanisms, connections, implications, and research questions become visible without overstating the evidence?",
+    sectionOrder: ["THESIS", "ANALYSIS", "IMPLICATION", "ALTERNATIVE", "BOUNDARY", "NEXT"],
+    visualGrammar: "CORE → CONNECTIONS → HYPOTHESES → OPEN QUESTIONS",
+  },
+  challenge: {
+    mode: "challenge",
+    intellectualTask: "Adversarial falsification",
+    governingQuestion:
+      "What would make the central claim fail, and which alternative explanation survives the same evidence?",
+    sectionOrder: ["THESIS", "ALTERNATIVE", "FALSIFICATION", "EVIDENCE", "BOUNDARY", "VERDICT"],
+    visualGrammar: "CLAIM ⇄ ALTERNATIVE → FALSIFICATION → SURVIVAL",
+  },
+  compare: {
+    mode: "compare",
+    intellectualTask: "Symmetric comparative analysis",
+    governingQuestion:
+      "Under common criteria, where do the compared objects genuinely differ, and under what conditions does one become preferable?",
+    sectionOrder: ["ABSTRACT", "COMPARISON", "ANALYSIS", "BOUNDARY", "VERDICT", "NEXT"],
+    visualGrammar: "COMMON CRITERIA → DIFFERENCES → TRADE-OFFS → CONDITIONAL JUDGMENT",
+  },
+  simulate: {
+    mode: "simulate",
+    intellectualTask: "Explicit counterfactual simulation",
+    governingQuestion:
+      "If the stated assumptions hold, what causal trajectory follows, where can it branch, and which failure points dominate?",
+    sectionOrder: ["SCENARIO", "ANALYSIS", "IMPLICATION", "FALSIFICATION", "BOUNDARY", "VERDICT"],
+    visualGrammar: "ASSUMPTIONS → CAUSAL PATH → BRANCHES → FAILURE → OUTCOME",
+  },
+};
 
 const SUGGESTIONS = [
   "What changed in civilization today?",
@@ -2804,6 +2900,14 @@ function classifyDocumentEventType(signal: SignalItem): DocumentEventType {
     return "FORECAST";
   }
 
+  // Stage 6.4.7: predicate governance outranks domain vocabulary.
+  if (
+    /\b(will likely|likely to|is likely to|are likely to|could|may|might|expected to|projected to)\b/.test(title) &&
+    /\b(field|market|sector|confidence|investors?|momentum|outlook|pipeline|industry|adoption|demand|supply|prices?|policy|system)\b/.test(title)
+  ) {
+    return "FORECAST";
+  }
+
   const clinicalDesign =
     /\b(phase [123ivx]+|randomi[sz]ed|clinical trial|primary endpoint|secondary endpoint|overall survival|progression[- ]free survival|response rate)\b/.test(corpus);
   const clinicalResult =
@@ -2848,8 +2952,31 @@ type PropositionFrame = {
     | "COMPARISON"
     | "PREDICTION"
     | "EXTREMAL / BOUND"
+    | "RESEARCH OPERATION"
+    | "RESEARCH DIRECTION"
+    | "EDITORIAL CONTAINER"
     | "EVENT"
     | "UNKNOWN";
+};
+
+type HeadlineDiscourseType =
+  | "SUBSTANTIVE CLAIM"
+  | "CONTEXT + ACTION + PURPOSE"
+  | "RESEARCH OPERATION / QUESTION"
+  | "EDITORIAL / ROUNDUP CONTAINER"
+  | "INTERVIEW / Q&A CONTAINER"
+  | "PREDICTIVE COMMENTARY"
+  | "EVENT / ANNOUNCEMENT"
+  | "UNKNOWN";
+
+type EpistemicObjectState = "SIGNAL" | "USER_DEFINED_OBJECT" | "NONE";
+
+type RetrievalDecision = {
+  signal: SignalItem | null;
+  accepted: boolean;
+  score: number;
+  overlap: number;
+  rationale: string;
 };
 
 function cleanPropositionPart(value: string) {
@@ -2861,10 +2988,118 @@ function cleanPropositionPart(value: string) {
   );
 }
 
+
+function classifyHeadlineDiscourse(signal: SignalItem): HeadlineDiscourseType {
+  const title = signal.title.trim();
+  const q = normalize(title);
+
+  if (
+    /^(stat\+\s*:\s*)?(pharmalittle|newsletter|roundup|daily briefing|morning briefing)\b/i.test(title) ||
+    /\bwe(?:'|’)re reading about\b/i.test(title)
+  ) return "EDITORIAL / ROUNDUP CONTAINER";
+
+  if (/^(q&a|qa)\s*:/i.test(title) || /\binterview\b/i.test(title)) {
+    return "INTERVIEW / Q&A CONTAINER";
+  }
+
+  if (
+    /^as\s+.+?,\s*.+\b(turns?|turned|turning|look(?:s|ed|ing)? to|use(?:s|d|ing)?|investigat(?:es|ed|ing)|explor(?:es|ed|ing))\b/i.test(title)
+  ) return "CONTEXT + ACTION + PURPOSE";
+
+  if (
+    /^(disentangling|measuring|mapping|probing|testing|characterizing|characterising|investigating|quantifying|determining|tracking|resolving|examining)\b/i.test(title)
+  ) return "RESEARCH OPERATION / QUESTION";
+
+  if (
+    /\b(will likely|likely to|could|may|might|expected to|projected to)\b/i.test(title)
+  ) return "PREDICTIVE COMMENTARY";
+
+  if (
+    /\b(announces?|launches?|scheduled|conference|briefing|appoints?|joins?|acquires?|partners?|approval|approved)\b/i.test(title)
+  ) return "EVENT / ANNOUNCEMENT";
+
+  return q ? "SUBSTANTIVE CLAIM" : "UNKNOWN";
+}
+
+function chooseSubstantiveSummarySentence(signal: SignalItem): string | null {
+  const title = stripTerminalPunctuation(signal.title);
+  const sentences = signalSentences(signal)
+    .map(stripTerminalPunctuation)
+    .filter(Boolean)
+    .filter((sentence) => normalize(sentence) !== normalize(title));
+
+  const scored = sentences
+    .map((sentence, index) => {
+      const s = normalize(sentence);
+      let score = 0;
+      if (/\b(found|finds|showed|shows|reported|reports|revealed|reveals|identified|identifies|measured|observed|demonstrated|improved|reduced|increased|failed|scrutiny|setbacks|disrupt|shortage|effect|associated|activates|inhibits|drives|regulates)\b/.test(s)) score += 5;
+      if (/\b(investors?|researchers?|scientists?|patients?|study|trial|company|companies|drug|protein|water splitting|electric field|copper|bacteria)\b/.test(s)) score += 2;
+      if (/\b(read more|subscribe|newsletter|copyright|advertisement)\b/.test(s)) score -= 8;
+      score -= index * 0.1;
+      return { sentence, score };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  return scored[0] && scored[0].score > 0 ? scored[0].sentence : null;
+}
+
 function extractCoreProposition(signal: SignalItem): PropositionFrame {
   const title = signal.title.trim();
   const summarySentences = signalSentences(signal);
   const normalizedTitle = normalize(title);
+  const discourse = classifyHeadlineDiscourse(signal);
+
+  if (discourse === "EDITORIAL / ROUNDUP CONTAINER") {
+    const substantive = chooseSubstantiveSummarySentence(signal);
+    if (substantive) {
+      return {
+        subject: cleanPropositionPart(substantive),
+        predicate: "reports",
+        object: substantive,
+        proposition: substantive,
+        source: "SUMMARY",
+        function: "EDITORIAL CONTAINER",
+      };
+    }
+  }
+
+  if (discourse === "CONTEXT + ACTION + PURPOSE") {
+    const match = title.match(
+      /^as\s+(.+?),\s*(.+?)\s+(turns?|turned|turning|look(?:s|ed|ing)? to|use(?:s|d|ing)?|investigat(?:es|ed|ing)|explor(?:es|ed|ing))\s+(.+)$/i,
+    );
+    if (match) {
+      return {
+        subject: cleanPropositionPart(match[2]),
+        predicate: match[3].toLowerCase(),
+        object: cleanPropositionPart(match[4]),
+        proposition: stripTerminalPunctuation(title),
+        source: "TITLE",
+        function: "RESEARCH DIRECTION",
+      };
+    }
+  }
+
+  if (discourse === "RESEARCH OPERATION / QUESTION") {
+    return {
+      subject: cleanPropositionPart(title),
+      predicate: "investigates / separates",
+      object: cleanPropositionPart(title.replace(/^(disentangling|measuring|mapping|probing|testing|characterizing|characterising|investigating|quantifying|determining|tracking|resolving|examining)\s+/i, "")),
+      proposition: stripTerminalPunctuation(title),
+      source: "TITLE",
+      function: "RESEARCH OPERATION",
+    };
+  }
+
+  if (discourse === "PREDICTIVE COMMENTARY") {
+    return {
+      subject: cleanPropositionPart(title),
+      predicate: "predicts / anticipates",
+      object: stripTerminalPunctuation(title),
+      proposition: stripTerminalPunctuation(title),
+      source: "TITLE",
+      function: "PREDICTION",
+    };
+  }
 
   // Stage 6.4.6 principle:
   // Word Presence ≠ Claim Function
@@ -2992,7 +3227,6 @@ function inferPredicateSemanticProfile(
   const title = normalize(signal.title);
   const proposition = extractCoreProposition(signal);
 
-
   if (
     eventType === "REGULATORY DECISION" ||
     eventType === "SUPPLY / OPERATIONAL DISRUPTION" ||
@@ -3007,6 +3241,42 @@ function inferPredicateSemanticProfile(
       claimType: null,
       predicate: "event-governed",
       rationale: "Event semantics outrank domain vocabulary and generic scientific predicates.",
+    };
+  }
+
+  if (proposition.function === "RESEARCH DIRECTION") {
+    return {
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      predicate: `${proposition.subject} → ${proposition.predicate} → ${proposition.object}`,
+      rationale:
+        "The headline reports a research direction or response to a changing context. It is not UNKNOWN, but it also does not establish that the investigated intervention is already effective.",
+    };
+  }
+
+  if (proposition.function === "RESEARCH OPERATION") {
+    return {
+      claimType: "CAUSAL / MECHANISTIC",
+      predicate: `${proposition.subject} → ${proposition.predicate} → ${proposition.object}`,
+      rationale:
+        "The headline defines a mechanistic discrimination problem without pretending that a result is already reported.",
+    };
+  }
+
+  if (proposition.function === "EDITORIAL CONTAINER") {
+    return {
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      predicate: proposition.proposition,
+      rationale:
+        "The title is editorial packaging. The substantive proposition is selected from the summary.",
+    };
+  }
+
+  if (proposition.function === "PREDICTION") {
+    return {
+      claimType: "PREDICTIVE",
+      predicate: proposition.proposition,
+      rationale:
+        "The governed predicate is prospective. Domain vocabulary does not override predictive claim function.",
     };
   }
 
@@ -3063,7 +3333,6 @@ function inferPredicateSemanticProfile(
       rationale: "The headline asserts a future or prospective measurable outcome.",
     };
   }
-  
 
   return {
     claimType: null,
@@ -3106,6 +3375,11 @@ function classifySignalGenre(signal: SignalItem): SignalGenre {
     default:
       break;
   }
+
+  const propositionProfile = inferPredicateSemanticProfile(signal, eventType, null);
+  if (propositionProfile.claimType === "PREDICTIVE") return "FORECAST";
+  if (propositionProfile.claimType === "CAUSAL / MECHANISTIC") return "SCIENTIFIC HYPOTHESIS";
+  if (propositionProfile.claimType === "DESCRIPTIVE / EMPIRICAL") return "SCIENTIFIC RESULT";
 
   if (guard.announcementLike) {
     return "OPERATIONAL ANNOUNCEMENT";
@@ -3156,6 +3430,44 @@ function decomposeSignalRoles(
   const first = stripTerminalPunctuation(sentences[0] ?? signal.summary ?? signal.title);
   const title = stripTerminalPunctuation(signal.title);
   const proposition = extractCoreProposition(signal);
+  const headlineDiscourse = classifyHeadlineDiscourse(signal);
+
+  if (headlineDiscourse === "EDITORIAL / ROUNDUP CONTAINER") {
+    return {
+      coreClaim: proposition.proposition,
+      baseline: first || proposition.proposition,
+      reportedResult: proposition.proposition,
+      implication:
+        "The headline is editorial packaging; evaluation attaches to the substantive proposition recovered from the summary.",
+      nonImplication:
+        "The roundup title does not itself constitute an empirical, clinical, or causal claim.",
+    };
+  }
+
+  if (headlineDiscourse === "RESEARCH OPERATION / QUESTION") {
+    return {
+      coreClaim: proposition.proposition,
+      baseline: first || title,
+      reportedResult:
+        "The signal defines a research operation intended to separate the contribution of specified factors; the title alone does not state the numerical or directional result.",
+      implication:
+        "Its significance lies in making previously entangled causal contributions separately testable.",
+      nonImplication:
+        "A research-operation title does not by itself establish which factor dominates, the effect size, or successful mechanistic discrimination.",
+    };
+  }
+
+  if (headlineDiscourse === "CONTEXT + ACTION + PURPOSE") {
+    return {
+      coreClaim: proposition.proposition,
+      baseline: first || title,
+      reportedResult: proposition.proposition,
+      implication:
+        "The signal reports a change in research direction under a changing constraint. The investigated intervention still requires direct efficacy and mechanism evidence.",
+      nonImplication:
+        "Researchers turning to an approach does not by itself establish that the approach is effective, superior, safe, or clinically validated.",
+    };
+  }
 
   if (
     genre === "EVENT ANNOUNCEMENT" ||
@@ -4543,6 +4855,7 @@ function buildEpistemicClaimIdentity(
     signalTitle: signal.title,
     genre,
     documentEventType,
+    headlineDiscourse: classifyHeadlineDiscourse(signal),
     coreClaim: roles.coreClaim,
     claimType,
     evidenceType,
@@ -5006,6 +5319,10 @@ function getActiveEpistemicSignal(
     const message = previousMessages[index];
     if (message.role !== "episteme" || !message.intelligence) continue;
 
+    if (message.intelligence.objectState === "NONE") {
+      return null;
+    }
+
     const primaryAssessment = message.intelligence.contextAssessment.find(
       (item) => item.role === "PRIMARY",
     );
@@ -5138,6 +5455,63 @@ function looksLikeStandaloneObjectIntroduction(
   return entityLike && overlap === 0;
 }
 
+
+function retrieveSignalWithAbstention(
+  query: string,
+  signals: SignalItem[],
+): RetrievalDecision {
+  const explicit = findExplicitSignalReference(query, signals);
+  if (explicit) {
+    return {
+      signal: explicit,
+      accepted: true,
+      score: scoreSignal(query, explicit),
+      overlap: 1,
+      rationale: "Explicit title-level reference accepted.",
+    };
+  }
+
+  const queryTokens = words(query).filter((token) => token.length > 3);
+  if (queryTokens.length === 0) {
+    return { signal: null, accepted: false, score: 0, overlap: 0, rationale: "No discriminating query tokens are available." };
+  }
+
+  const ranked = signals
+    .map((signal) => {
+      const signalTokens = new Set(
+        words(`${signal.title} ${signal.summary} ${signal.category}`).filter((token) => token.length > 3),
+      );
+      const matched = queryTokens.filter((token) => signalTokens.has(token));
+      return {
+        signal,
+        score: scoreSignal(query, signal),
+        overlap: matched.length / queryTokens.length,
+        matched: matched.length,
+      };
+    })
+    .sort((a, b) => b.score - a.score || b.overlap - a.overlap);
+
+  const best = ranked[0];
+  if (!best) {
+    return { signal: null, accepted: false, score: 0, overlap: 0, rationale: "No indexed signal candidate exists." };
+  }
+
+  const shortQuery = queryTokens.length <= 3;
+  const accepted =
+    (shortQuery && best.matched >= 2 && best.overlap >= 0.66 && best.score >= 10) ||
+    (!shortQuery && best.matched >= 2 && best.overlap >= 0.34 && best.score >= 12);
+
+  return {
+    signal: accepted ? best.signal : null,
+    accepted,
+    score: best.score,
+    overlap: best.overlap,
+    rationale: accepted
+      ? `Retrieval accepted: ${best.matched} discriminating query tokens matched with score ${best.score}.`
+      : `Retrieval abstained: the best candidate matched only ${best.matched}/${queryTokens.length} discriminating query tokens with score ${best.score}.`,
+  };
+}
+
 function resolveEpistemicObject(
   query: string,
   signals: SignalItem[],
@@ -5149,18 +5523,15 @@ function resolveEpistemicObject(
       primarySignal: explicitSignal,
       isFollowUp: false,
       anchoredFromConversation: false,
+      objectState: "SIGNAL",
+      retrievalAccepted: true,
+      retrievalRationale: "Explicit signal reference selected.",
     };
   }
 
   const activeSignal = getActiveEpistemicSignal(previousMessages, signals);
+  const semanticReplacement = looksLikeStandaloneObjectIntroduction(query, activeSignal);
 
-  const semanticReplacement =
-    looksLikeStandaloneObjectIntroduction(query, activeSignal);
-
-  // Stage 6.4.5 Controlled Object Switching:
-  // Contextual operations preserve the active object.
-  // Explicit semantic discontinuity releases the lock.
-  // Fuzzy retrieval alone never silently replaces an active object.
   if (
     activeSignal &&
     hasPriorAssistantTurn(previousMessages) &&
@@ -5171,13 +5542,31 @@ function resolveEpistemicObject(
       primarySignal: activeSignal,
       isFollowUp: true,
       anchoredFromConversation: true,
+      objectState: "SIGNAL",
+      retrievalAccepted: true,
+      retrievalRationale: "Contextual follow-up preserved the active epistemic object.",
+    };
+  }
+
+  const retrieval = retrieveSignalWithAbstention(query, signals);
+  if (retrieval.accepted && retrieval.signal) {
+    return {
+      primarySignal: retrieval.signal,
+      isFollowUp: false,
+      anchoredFromConversation: false,
+      objectState: "SIGNAL",
+      retrievalAccepted: true,
+      retrievalRationale: retrieval.rationale,
     };
   }
 
   return {
-    primarySignal: findPrimarySignal(query, signals),
+    primarySignal: null,
     isFollowUp: false,
     anchoredFromConversation: false,
+    objectState: "NONE",
+    retrievalAccepted: false,
+    retrievalRationale: retrieval.rationale,
   };
 }
 
@@ -5510,6 +5899,411 @@ function buildInquiryState({
   };
 }
 
+
+function cleanScholarlyBody(value: string): string {
+  return value
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .trim();
+}
+
+function createScholarlySection(
+  kind: ScholarlySectionKind,
+  label: string,
+  body: string,
+  emphasis: ScholarlySection["emphasis"] = "SECONDARY",
+  title?: string,
+): ScholarlySection | null {
+  const normalized = cleanScholarlyBody(body);
+  if (!normalized) return null;
+  return {
+    id: `${kind.toLowerCase()}-${label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+    kind,
+    label,
+    title,
+    body: normalized,
+    emphasis,
+  };
+}
+
+function buildAdaptiveScholarlyResponse(args: {
+  mode: DialogueMode;
+  directAnswer: string;
+  reasoning: string;
+  alternative: string;
+  challenge: string;
+  falsification: string;
+  nextAction: string;
+  uncertainty: string;
+  evidence: string;
+  inquiry: InquiryState;
+  epistemicParse: EpistemicParse;
+  epistemicContract: EpistemicContract;
+  evidenceAudit: EvidenceAudit;
+  claimIdentity: EpistemicClaimIdentity | null;
+  objectState: EpistemicObjectState;
+  lead: SignalItem | null;
+  second: SignalItem | null;
+}): AdaptiveResponse {
+  const {
+    mode,
+    directAnswer,
+    reasoning,
+    alternative,
+    challenge,
+    falsification,
+    nextAction,
+    uncertainty,
+    evidence,
+    inquiry,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+    objectState,
+    lead,
+    second,
+  } = args;
+
+  const strategy = MODE_REASONING_STRATEGIES[mode];
+  const claimLabel =
+    claimIdentity?.coreClaim ||
+    lead?.title ||
+    epistemicParse.object ||
+    "No active indexed claim";
+
+  const thesis =
+    objectState === "NONE"
+      ? cleanScholarlyBody(directAnswer)
+      : cleanScholarlyBody(
+          directAnswer ||
+            `The central claim is “${claimLabel}”, but its strength remains bounded by the currently available evidence.`,
+        );
+
+  const evidenceBoundary =
+    cleanScholarlyBody(
+      `${evidence} ${uncertainty}`,
+    );
+
+  const sections: ScholarlySection[] = [];
+  const push = (section: ScholarlySection | null) => {
+    if (section) sections.push(section);
+  };
+
+  if (objectState === "NONE") {
+    push(
+      createScholarlySection(
+        "ABSTRACT",
+        "Current state",
+        directAnswer,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "BOUNDARY",
+        "Why Episteme abstains",
+        `${reasoning} ${uncertainty}`,
+        "CAUTION",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "NEXT",
+        "What would make the inquiry answerable",
+        nextAction,
+      ),
+    );
+  } else if (mode === "ask") {
+    push(createScholarlySection("ABSTRACT", "Answer", directAnswer, "PRIMARY"));
+    push(
+      createScholarlySection(
+        "ANALYSIS",
+        "Analysis",
+        reasoning,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "EVIDENCE",
+        "Evidence state",
+        evidenceAudit.summary,
+      ),
+    );
+    push(
+      createScholarlySection(
+        "BOUNDARY",
+        "Evidence boundary",
+        uncertainty,
+        "CAUTION",
+      ),
+    );
+    if (
+      alternative &&
+      epistemicParse.claimType !== "UNKNOWN" &&
+      epistemicParse.claimType !== "INFORMATIONAL / OPERATIONAL"
+    ) {
+      push(
+        createScholarlySection(
+          "ALTERNATIVE",
+          "Competing interpretation",
+          alternative,
+        ),
+      );
+    }
+    push(
+      createScholarlySection(
+        "VERDICT",
+        "Scholarly conclusion",
+        `${inquiry.demonstratedResult.summary} ${nextAction}`,
+        "PRIMARY",
+      ),
+    );
+  } else if (mode === "explore") {
+    push(
+      createScholarlySection(
+        "THESIS",
+        "Starting point",
+        directAnswer,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "ANALYSIS",
+        "What the signal opens",
+        reasoning,
+        "PRIMARY",
+      ),
+    );
+    const implicationText = second
+      ? `The strongest adjacent connection currently available is “${second.title}”. Treat the connection as a hypothesis-generating bridge rather than inherited evidence. ${epistemicContract.predictionDesign}`
+      : epistemicContract.predictionDesign;
+    push(
+      createScholarlySection(
+        "IMPLICATION",
+        "New connections and implications",
+        implicationText,
+      ),
+    );
+    push(
+      createScholarlySection(
+        "ALTERNATIVE",
+        "Competing path",
+        alternative,
+      ),
+    );
+    push(
+      createScholarlySection(
+        "BOUNDARY",
+        "Where exploration must stop",
+        uncertainty,
+        "CAUTION",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "NEXT",
+        "Highest-value next inquiry",
+        nextAction,
+        "PRIMARY",
+      ),
+    );
+  } else if (mode === "challenge") {
+    push(
+      createScholarlySection(
+        "THESIS",
+        "Claim under test",
+        directAnswer,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "ALTERNATIVE",
+        "Strongest alternative",
+        alternative,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "FALSIFICATION",
+        "How to break the claim",
+        falsification || challenge,
+        "CAUTION",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "EVIDENCE",
+        "Evidence that survives attack",
+        evidenceAudit.summary,
+      ),
+    );
+    push(
+      createScholarlySection(
+        "BOUNDARY",
+        "Remaining vulnerability",
+        uncertainty,
+        "CAUTION",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "VERDICT",
+        "Survival judgment",
+        `${inquiry.demonstratedResult.summary} ${nextAction}`,
+        "PRIMARY",
+      ),
+    );
+  } else if (mode === "compare") {
+    const comparatorText = second
+      ? `Primary object: “${lead?.title ?? claimLabel}”. Comparator: “${second.title}”. The comparison must preserve symmetric criteria: evidence quality, causal or functional relevance, boundary conditions, failure modes, and the decision context. ${reasoning}`
+      : `A defensible comparison requires at least two independently defined objects under common criteria. ${reasoning}`;
+
+    push(
+      createScholarlySection(
+        "ABSTRACT",
+        "Comparative answer",
+        directAnswer,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "COMPARISON",
+        "Common comparison frame",
+        comparatorText,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "ANALYSIS",
+        "Discriminating differences",
+        `${alternative} ${challenge}`,
+      ),
+    );
+    push(
+      createScholarlySection(
+        "BOUNDARY",
+        "Comparison boundary",
+        uncertainty,
+        "CAUTION",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "VERDICT",
+        "Conditional judgment",
+        second
+          ? `${nextAction} A ranking is justified only if the same criteria remain decision-relevant for both objects.`
+          : "No comparative ranking should be produced until a second object or comparator is explicitly established.",
+        "PRIMARY",
+      ),
+    );
+  } else {
+    const scenarioAssumption =
+      `Treat the following as a counterfactual, not an observation: ${directAnswer}`;
+
+    push(
+      createScholarlySection(
+        "SCENARIO",
+        "Scenario and assumptions",
+        scenarioAssumption,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "ANALYSIS",
+        "Causal trajectory",
+        reasoning,
+        "PRIMARY",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "IMPLICATION",
+        "Branching consequences",
+        inquiry.predictionDesign.summary,
+      ),
+    );
+    push(
+      createScholarlySection(
+        "FALSIFICATION",
+        "Failure and branch conditions",
+        `${challenge} ${falsification}`,
+        "CAUTION",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "BOUNDARY",
+        "Simulation boundary",
+        uncertainty,
+        "CAUTION",
+      ),
+    );
+    push(
+      createScholarlySection(
+        "VERDICT",
+        "Conditional outcome",
+        `${inquiry.realityTest.summary} ${nextAction}`,
+        "PRIMARY",
+      ),
+    );
+  }
+
+  // Remove redundant duplicate bodies while preserving the mode-specific order.
+  const seenBodies = new Set<string>();
+  const uniqueSections = sections.filter((section) => {
+    const key = normalize(section.body).slice(0, 220);
+    if (!key || seenBodies.has(key)) return false;
+    seenBodies.add(key);
+    return true;
+  });
+
+  const orderedSections = strategy.sectionOrder
+    .flatMap((kind) => uniqueSections.filter((section) => section.kind === kind))
+    .concat(
+      uniqueSections.filter(
+        (section) => !strategy.sectionOrder.includes(section.kind),
+      ),
+    );
+
+  const abstract =
+    orderedSections.find((section) => section.kind === "ABSTRACT")?.body ||
+    thesis;
+
+  const plainText = [
+    `${strategy.intellectualTask.toUpperCase()}`,
+    thesis,
+    ...orderedSections.map(
+      (section) => `${section.label.toUpperCase()}\n${section.body}`,
+    ),
+  ]
+    .filter(Boolean)
+    .join("\n\n");
+
+  return {
+    mode,
+    modeLabel: mode.toUpperCase(),
+    intellectualTask: strategy.intellectualTask,
+    governingQuestion: strategy.governingQuestion,
+    thesis,
+    abstract,
+    sections: orderedSections,
+    claimType: epistemicParse.claimType,
+    evidenceStrength: evidenceAudit.overallStrength,
+    objectState,
+    visualGrammar: strategy.visualGrammar,
+    plainText,
+  };
+}
+
 function buildIntelligence(
   query: string,
   mode: DialogueMode,
@@ -5611,7 +6405,7 @@ function buildIntelligence(
 
   if (!lead) {
     directAnswer =
-      "Episteme does not currently have sufficiently relevant indexed evidence to make a specific factual claim from the available intelligence layer.";
+      "Episteme does not currently have a sufficiently relevant indexed signal for this input. The active epistemic object is therefore NONE rather than a weakly matched or previously active signal.";
 
     reasoning =
       "The correct response is to preserve the question while refusing unsupported specificity. A plausible-sounding answer generated from unrelated signals would reduce epistemic quality rather than improve it.";
@@ -5626,7 +6420,7 @@ function buildIntelligence(
       "The insufficiency judgment changes as soon as directly relevant, traceable evidence is indexed or supplied.";
 
     nextAction =
-      "Refine the question around a specific claim, mechanism, comparison, or observable quantity and attach the evidence needed to discriminate among possible answers.";
+      "Specify a concrete claim, mechanism, comparison, observable quantity, or source. Until then, Episteme should remain in the null-object state rather than resurrecting an earlier signal.";
 
     nextQuestions = [
       "What exact claim should be tested?",
@@ -5895,22 +6689,32 @@ function buildIntelligence(
     contract: epistemicContract,
   });
 
-  const interpretation = [
-    `${modePrefix}${directAnswer}`,
-    `WHY THIS FOLLOWS\n${reasoning}`,
-    `ALTERNATIVE EXPLANATION\n${alternative}`,
-    `ADVERSARIAL CHECK\n${challenge}`,
-    `PREDICTION / DESIGN\n${inquiry.predictionDesign.summary}`,
-    `REALITY TEST\n${inquiry.realityTest.summary}`,
-    `CORRECTION RULE\n${inquiry.correction.summary}`,
-    `DEMONSTRATED RESULT\n${inquiry.demonstratedResult.summary}`,
-    `NEXT USEFUL ACTION\n${nextAction}`,
-  ].join("\n\n");
-
   if (mode === "simulate") {
     uncertainty =
       `${evidenceBoundary} Simulation remains counterfactual reasoning rather than observation, and every conclusion is conditional on the stated assumptions.`;
   }
+
+  const adaptiveResponse = buildAdaptiveScholarlyResponse({
+    mode,
+    directAnswer: `${modePrefix}${directAnswer}`.trim(),
+    reasoning,
+    alternative,
+    challenge,
+    falsification,
+    nextAction,
+    uncertainty,
+    evidence,
+    inquiry,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+    objectState: objectResolution.objectState,
+    lead,
+    second,
+  });
+
+  const interpretation = adaptiveResponse.plainText;
 
   return {
     interpretation,
@@ -5928,6 +6732,8 @@ function buildIntelligence(
     epistemicContract,
     evidenceAudit,
     claimIdentity,
+    objectState: objectResolution.objectState,
+    adaptiveResponse,
   };
 }
 
@@ -6649,17 +7455,83 @@ useEffect(() => {
                       </small>
                     </header>
                     <div className="ep-message__body">
-                      <p>
-                        {
-                          message.text
-                        }
-                        {message.streaming && (
-                          <span
-                            className="ep-message__cursor"
-                            aria-hidden="true"
-                          />
-                        )}
-                      </p>
+                      {message.role === "episteme" &&
+                      message.intelligence?.adaptiveResponse &&
+                      !message.streaming ? (
+                        <div
+                          className={[
+                            "ep-scholarly",
+                            `is-${message.mode}`,
+                          ].join(" ")}
+                        >
+                          <div className="ep-scholarly__meta">
+                            <span className="ep-scholarly__mode">
+                              {message.intelligence.adaptiveResponse.modeLabel}
+                            </span>
+                            <span>
+                              {message.intelligence.adaptiveResponse.claimType}
+                            </span>
+                            <span>
+                              {message.intelligence.adaptiveResponse.evidenceStrength}
+                            </span>
+                          </div>
+
+                          <div className="ep-scholarly__hero">
+                            <small>
+                              {message.intelligence.adaptiveResponse.intellectualTask}
+                            </small>
+                            <h3>
+                              {message.intelligence.adaptiveResponse.thesis}
+                            </h3>
+                            <p>
+                              {message.intelligence.adaptiveResponse.governingQuestion}
+                            </p>
+                          </div>
+
+                          <div className="ep-scholarly__flow" aria-label="Reasoning architecture">
+                            {message.intelligence.adaptiveResponse.visualGrammar
+                              .split("→")
+                              .map((item, index, items) => (
+                                <span key={`${message.id}-flow-${index}`}>
+                                  <b>{item.trim()}</b>
+                                  {index < items.length - 1 && <i>→</i>}
+                                </span>
+                              ))}
+                          </div>
+
+                          <div className="ep-scholarly__sections">
+                            {message.intelligence.adaptiveResponse.sections.map(
+                              (section) => (
+                                <section
+                                  key={section.id}
+                                  className={[
+                                    "ep-scholarly__section",
+                                    `is-${section.kind.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+                                    `is-${(section.emphasis ?? "SECONDARY").toLowerCase()}`,
+                                  ].join(" ")}
+                                >
+                                  <header>
+                                    <span>{section.label}</span>
+                                    <small>{section.kind}</small>
+                                  </header>
+                                  {section.title && <h4>{section.title}</h4>}
+                                  <p>{section.body}</p>
+                                </section>
+                              ),
+                            )}
+                          </div>
+                        </div>
+                      ) : (
+                        <p>
+                          {message.text}
+                          {message.streaming && (
+                            <span
+                              className="ep-message__cursor"
+                              aria-hidden="true"
+                            />
+                          )}
+                        </p>
+                      )}
                     </div>
                     {/* =====================================
                         EPISTEME STRUCTURED INTELLIGENCE
@@ -6914,9 +7786,14 @@ useEffect(() => {
                       );
                     }}
                   >
-                    {
-                      item.label
-                    }
+                    <strong>{item.label}</strong>
+                    <small>
+                      {
+                        MODE_REASONING_STRATEGIES[
+                          item.id
+                        ].intellectualTask
+                      }
+                    </small>
                   </button>
                 ),
               )}
@@ -13263,7 +14140,227 @@ useEffect(() => {
           .ep-publication-registry__actions a { width: 100%; }
         }
 
-      `}</style>
+        /* ====================================================
+           STAGE 6.5 — ADAPTIVE SCHOLARLY RESPONSE
+        ==================================================== */
+        .ep-scholarly {
+          display: grid;
+          gap: 14px;
+          margin-top: 14px;
+        }
+
+        .ep-scholarly__meta {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 7px;
+          align-items: center;
+        }
+
+        .ep-scholarly__meta span {
+          display: inline-flex;
+          align-items: center;
+          min-height: 23px;
+          padding: 0 9px;
+          border: 1px solid rgba(255,255,255,.10);
+          border-radius: 999px;
+          color: rgba(255,255,255,.55);
+          font-size: 7px;
+          letter-spacing: .12em;
+          text-transform: uppercase;
+        }
+
+        .ep-scholarly__meta .ep-scholarly__mode {
+          color: rgba(255,255,255,.92);
+          border-color: rgba(255,255,255,.22);
+          background: rgba(255,255,255,.055);
+        }
+
+        .ep-scholarly__hero {
+          padding: 18px 19px 17px;
+          border: 1px solid rgba(255,255,255,.105);
+          border-radius: 17px;
+          background:
+            linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.018));
+        }
+
+        .ep-scholarly__hero small {
+          display: block;
+          margin-bottom: 9px;
+          color: rgba(255,255,255,.42);
+          font-size: 8px;
+          letter-spacing: .12em;
+          text-transform: uppercase;
+        }
+
+        .ep-scholarly__hero h3 {
+          margin: 0;
+          color: rgba(250,252,253,.94);
+          font-size: 18px;
+          line-height: 1.55;
+          font-weight: 500;
+          letter-spacing: -.015em;
+        }
+
+        .ep-scholarly__hero p {
+          margin: 12px 0 0 !important;
+          color: rgba(255,255,255,.48) !important;
+          font-size: 11px !important;
+          line-height: 1.65 !important;
+        }
+
+        .ep-scholarly__flow {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 6px;
+          padding: 2px 4px;
+          color: rgba(255,255,255,.34);
+        }
+
+        .ep-scholarly__flow span {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+        }
+
+        .ep-scholarly__flow b {
+          font-size: 7px;
+          font-weight: 500;
+          letter-spacing: .09em;
+          text-transform: uppercase;
+        }
+
+        .ep-scholarly__flow i {
+          font-style: normal;
+          opacity: .35;
+        }
+
+        .ep-scholarly__sections {
+          display: grid;
+          gap: 10px;
+        }
+
+        .ep-scholarly__section {
+          position: relative;
+          padding: 15px 17px 16px;
+          border: 1px solid rgba(255,255,255,.075);
+          border-radius: 15px;
+          background: rgba(255,255,255,.018);
+        }
+
+        .ep-scholarly__section.is-primary {
+          border-color: rgba(255,255,255,.14);
+          background: rgba(255,255,255,.03);
+        }
+
+        .ep-scholarly__section.is-caution {
+          border-style: dashed;
+        }
+
+        .ep-scholarly__section > header {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin: 0 0 9px;
+        }
+
+        .ep-scholarly__section > header span {
+          color: rgba(255,255,255,.74);
+          font-size: 8px;
+          font-weight: 600;
+          letter-spacing: .11em;
+          text-transform: uppercase;
+        }
+
+        .ep-scholarly__section > header small {
+          margin-left: auto;
+          color: rgba(255,255,255,.25);
+          font-size: 6px;
+          letter-spacing: .08em;
+        }
+
+        .ep-scholarly__section h4 {
+          margin: 0 0 8px;
+          font-size: 13px;
+          font-weight: 500;
+        }
+
+        .ep-scholarly__section p {
+          margin: 0 !important;
+          color: rgba(239,243,245,.75) !important;
+          font-size: 12.5px !important;
+          line-height: 1.78 !important;
+          white-space: normal !important;
+        }
+
+        .ep-scholarly.is-challenge .ep-scholarly__hero,
+        .ep-scholarly.is-simulate .ep-scholarly__hero {
+          border-style: dashed;
+        }
+
+        .ep-scholarly.is-compare .ep-scholarly__section.is-comparison {
+          background: rgba(255,255,255,.035);
+        }
+
+        .ep-dialogue__modes button {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          gap: 2px;
+        }
+
+        .ep-dialogue__modes button strong {
+          font: inherit;
+          font-weight: 600;
+        }
+
+        .ep-dialogue__modes button small {
+          max-width: 145px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: rgba(255,255,255,.28);
+          font-size: 5.5px;
+          line-height: 1.1;
+        }
+
+        .ep-dialogue__modes button.is-active small {
+          color: rgba(255,255,255,.48);
+        }
+
+        @media (max-width: 768px) {
+          .ep-scholarly__hero {
+            padding: 16px;
+          }
+
+          .ep-scholarly__hero h3 {
+            font-size: 15px;
+            line-height: 1.58;
+          }
+
+          .ep-scholarly__section {
+            padding: 14px 15px;
+          }
+
+          .ep-scholarly__flow {
+            overflow-x: auto;
+            flex-wrap: nowrap;
+            scrollbar-width: none;
+          }
+
+          .ep-scholarly__flow::-webkit-scrollbar {
+            display: none;
+          }
+
+          .ep-dialogue__modes button small {
+            display: none;
+          }
+        }
+
+      `}
+
+      </style>
     </section>
   );
 }
