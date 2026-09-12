@@ -384,6 +384,7 @@ type AdaptiveResponse = {
   evidenceStrength: EvidenceStrength;
   objectState: EpistemicObjectState;
   visualGrammar: string;
+  disclosureLevel: DisclosureLevel;
   plainText: string;
 };
 
@@ -404,6 +405,7 @@ type IntelligenceObject = {
   evidenceAudit: EvidenceAudit;
   claimIdentity: EpistemicClaimIdentity | null;
   objectState: EpistemicObjectState;
+  conversationIntent: ConversationIntent;
   adaptiveResponse: AdaptiveResponse;
 };
 
@@ -2971,6 +2973,18 @@ type HeadlineDiscourseType =
 
 type EpistemicObjectState = "SIGNAL" | "USER_DEFINED_OBJECT" | "NONE";
 
+type ConversationIntent =
+  | "SOCIAL"
+  | "META"
+  | "NEW_INQUIRY"
+  | "SIGNAL_ANALYSIS"
+  | "FOLLOW_UP"
+  | "MODE_OPERATION";
+
+type DisclosureLevel = "COMPACT" | "STANDARD" | "FULL";
+
+
+
 type RetrievalDecision = {
   signal: SignalItem | null;
   accepted: boolean;
@@ -3118,6 +3132,38 @@ function extractCoreProposition(signal: SignalItem): PropositionFrame {
       proposition: `The signal asks for the supported upper bound on how ${extremal[1].toLowerCase()} ${cleanPropositionPart(extremal[2])} can become`,
       source: "TITLE",
       function: "EXTREMAL / BOUND",
+    };
+  }
+
+  const methodColon = title.match(
+    /^([^:]{3,120}):\s*(accelerating|improving|reducing|increasing|optimizing|optimising|advancing|enabling|evaluating)\s+(.+?)(?:\s+via\s+(.+))?$/i,
+  );
+  if (methodColon) {
+    const method = cleanPropositionPart(methodColon[1]);
+    const action = methodColon[2].toLowerCase();
+    const target = cleanPropositionPart(methodColon[3]);
+    const means = cleanPropositionPart(methodColon[4] ?? "");
+    return {
+      subject: method,
+      predicate: action,
+      object: means ? `${target} via ${means}` : target,
+      proposition: `${method} ${action} ${target}${means ? ` via ${means}` : ""}`,
+      source: "TITLE",
+      function: "CAPABILITY",
+    };
+  }
+
+  const constructiveDirection = title.match(
+    /^towards?\s+(?:an?\s+)?(.+?(?:solver|system|method|framework|architecture|tool|model))\s+for\s+(.+)$/i,
+  );
+  if (constructiveDirection) {
+    return {
+      subject: cleanPropositionPart(constructiveDirection[1]),
+      predicate: "is developed / evaluated for",
+      object: cleanPropositionPart(constructiveDirection[2]),
+      proposition: stripTerminalPunctuation(title),
+      source: "TITLE",
+      function: "CAPABILITY",
     };
   }
 
@@ -4647,9 +4693,13 @@ function synthesizeClaimGraphFollowUp(
     return {
       demand,
       directAnswer:
-        `For the active engineering subclaim “${node.text}”, the highest-value falsification target is the minimum functional requirement asserted by the predicate: change the commanded variable and test whether the intended output changes while the supposedly independent output remains within a predefined tolerance. A reproducible cross-effect beyond that tolerance directly falsifies independent control.${dependency}`,
+        /\b(agent|resilience|participation|task|challenge|interaction)\b/i.test(node.text)
+          ? `For the active engineering subclaim “${node.text}”, the critical falsification target is resilience under accumulating challenge. Hold the task family and evaluation criteria fixed, then increase interaction length, dependency depth, perturbation frequency, or conflicting constraints. The claim weakens if task completion remains superficially high while error propagation, inconsiderate actions, unrecovered state, or loss of useful performance rises reproducibly.${dependency}`
+          : /\b(resonance|nanostructure|mode|independent control|coupling)\b/i.test(node.text)
+            ? `For the active engineering subclaim “${node.text}”, test the claimed independence directly: change one commanded variable and measure whether the intended output changes while the supposedly independent output remains within a predefined tolerance. Reproducible cross-coupling beyond that tolerance falsifies independent control.${dependency}`
+            : `For the active engineering subclaim “${node.text}”, falsify the minimum functional predicate under a controlled stressor. Prespecify the required output, operating boundary, failure threshold, and recovery criterion; the claim fails if the function cannot be reproduced or restored without changing the architecture being tested.${dependency}`,
       reasoning:
-        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nThe falsification target is derived from subject → predicate → object, so it tests the claimed capability rather than a generic operating envelope.`,
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nThe falsification target is conditioned on the object semantics as well as the engineering claim family; a template from a different engineering object must not be reused merely because both claims are constructive.`,
     };
   }
 
@@ -5307,6 +5357,63 @@ function classifyFollowUpDemand(query: string): FollowUpDemand {
   return "GENERAL";
 }
 
+
+function classifyConversationIntent(
+  query: string,
+  previousMessages: DialogueMessage[],
+): ConversationIntent {
+  const raw = query.trim();
+  const q = normalize(raw);
+
+  if (
+    /^(hi|hello|hey|good morning|good afternoon|good evening|good night|goodnight|thanks|thank you|bye|goodbye)[.!?]*$/i.test(raw)
+  ) {
+    return "SOCIAL";
+  }
+
+  if (
+    /\b(what can you do|who are you|what are you|how does episteme work|help me use|how should i use)\b/i.test(q)
+  ) {
+    return "META";
+  }
+
+  if (
+    /\b(explain why this signal matters|explain the significance of|what is the significance of|analy[sz]e this signal)\s*:/i.test(q)
+  ) {
+    return "SIGNAL_ANALYSIS";
+  }
+
+  if (looksLikeContextualFollowUp(query)) {
+    return "FOLLOW_UP";
+  }
+
+  if (previousMessages.length > 0 && /^(compare|challenge|simulate|explore)\b/i.test(q)) {
+    return "MODE_OPERATION";
+  }
+
+  return "NEW_INQUIRY";
+}
+
+function latestEpistemicObjectState(
+  previousMessages: DialogueMessage[],
+): EpistemicObjectState | null {
+  for (let index = previousMessages.length - 1; index >= 0; index -= 1) {
+    const message = previousMessages[index];
+    if (message.role === "episteme" && message.intelligence) {
+      return message.intelligence.objectState;
+    }
+  }
+  return null;
+}
+
+function socialReply(query: string): string {
+  const q = normalize(query);
+  if (/^(good night|goodnight)\b/.test(q)) return "Good night.";
+  if (/^(thanks|thank you)\b/.test(q)) return "You're welcome.";
+  if (/^(bye|goodbye)\b/.test(q)) return "Goodbye.";
+  return "Hello. What would you like to examine?";
+}
+
 function hasPriorAssistantTurn(previousMessages: DialogueMessage[]): boolean {
   return previousMessages.some((message) => message.role === "episteme");
 }
@@ -5517,6 +5624,37 @@ function resolveEpistemicObject(
   signals: SignalItem[],
   previousMessages: DialogueMessage[],
 ): EpistemicObjectResolution {
+  const conversationIntent = classifyConversationIntent(query, previousMessages);
+  const latestState = latestEpistemicObjectState(previousMessages);
+
+  if (conversationIntent === "SOCIAL" || conversationIntent === "META") {
+    return {
+      primarySignal: null,
+      isFollowUp: false,
+      anchoredFromConversation: false,
+      objectState: "NONE",
+      retrievalAccepted: false,
+      retrievalRationale: "Conversational input bypasses epistemic retrieval.",
+    };
+  }
+
+  // A null-object boundary is persistent. A generic contextual follow-up may
+  // not scan backward through that boundary and resurrect an older signal.
+  if (
+    latestState === "NONE" &&
+    conversationIntent === "FOLLOW_UP" &&
+    !findExplicitSignalReference(query, signals)
+  ) {
+    return {
+      primarySignal: null,
+      isFollowUp: true,
+      anchoredFromConversation: true,
+      objectState: "NONE",
+      retrievalAccepted: false,
+      retrievalRationale: "Persistent null-object boundary preserved; backward signal resurrection is prohibited.",
+    };
+  }
+
   const explicitSignal = findExplicitSignalReference(query, signals);
   if (explicitSignal) {
     return {
@@ -5942,6 +6080,7 @@ function buildAdaptiveScholarlyResponse(args: {
   evidenceAudit: EvidenceAudit;
   claimIdentity: EpistemicClaimIdentity | null;
   objectState: EpistemicObjectState;
+  conversationIntent: ConversationIntent;
   lead: SignalItem | null;
   second: SignalItem | null;
 }): AdaptiveResponse {
@@ -5961,6 +6100,7 @@ function buildAdaptiveScholarlyResponse(args: {
     evidenceAudit,
     claimIdentity,
     objectState,
+    conversationIntent,
     lead,
     second,
   } = args;
@@ -5989,6 +6129,25 @@ function buildAdaptiveScholarlyResponse(args: {
   const push = (section: ScholarlySection | null) => {
     if (section) sections.push(section);
   };
+
+  if (conversationIntent === "SOCIAL") {
+    const compact = cleanScholarlyBody(directAnswer);
+    return {
+      mode,
+      modeLabel: mode.toUpperCase(),
+      intellectualTask: "Conversation",
+      governingQuestion: "",
+      thesis: compact,
+      abstract: compact,
+      sections: [],
+      claimType: epistemicParse.claimType,
+      evidenceStrength: evidenceAudit.overallStrength,
+      objectState: "NONE",
+      visualGrammar: "",
+      disclosureLevel: "COMPACT",
+      plainText: compact,
+    };
+  }
 
   if (objectState === "NONE") {
     push(
@@ -6300,6 +6459,8 @@ function buildAdaptiveScholarlyResponse(args: {
     evidenceStrength: evidenceAudit.overallStrength,
     objectState,
     visualGrammar: strategy.visualGrammar,
+    disclosureLevel:
+      objectState === "NONE" ? "STANDARD" : mode === "ask" ? "STANDARD" : "FULL",
     plainText,
   };
 }
@@ -6310,6 +6471,7 @@ function buildIntelligence(
   signals: SignalItem[],
   previousMessages: DialogueMessage[],
 ): IntelligenceObject {
+  const conversationIntent = classifyConversationIntent(query, previousMessages);
   const intentModel = buildIntentModel(query, mode);
   const kind = queryKindFromIntent(intentModel);
 
@@ -6404,29 +6566,54 @@ function buildIntelligence(
   let nextQuestions: string[] = [];
 
   if (!lead) {
-    directAnswer =
-      "Episteme does not currently have a sufficiently relevant indexed signal for this input. The active epistemic object is therefore NONE rather than a weakly matched or previously active signal.";
-
-    reasoning =
-      "The correct response is to preserve the question while refusing unsupported specificity. A plausible-sounding answer generated from unrelated signals would reduce epistemic quality rather than improve it.";
-
-    alternative =
-      "The missing result may mean the subject is absent from the current index, expressed with different terminology, or requires evidence outside the present ArcheNova signal set.";
-
-    challenge =
-      "Do not interpret absence from this index as evidence that the claim is false.";
-
-    falsification =
-      "The insufficiency judgment changes as soon as directly relevant, traceable evidence is indexed or supplied.";
-
-    nextAction =
-      "Specify a concrete claim, mechanism, comparison, observable quantity, or source. Until then, Episteme should remain in the null-object state rather than resurrecting an earlier signal.";
-
-    nextQuestions = [
-      "What exact claim should be tested?",
-      "What evidence would discriminate between competing answers?",
-      "Which source or observation is currently missing?",
-    ];
+    if (conversationIntent === "SOCIAL") {
+      directAnswer = socialReply(query);
+      reasoning = "";
+      alternative = "";
+      challenge = "";
+      falsification = "";
+      nextAction = "";
+      uncertainty = "";
+      nextQuestions = [];
+    } else if (
+      conversationIntent === "FOLLOW_UP" &&
+      latestEpistemicObjectState(previousMessages) === "NONE"
+    ) {
+      directAnswer =
+        "There is no active claim in the current conversation. Give me a specific claim, paper, signal, mechanism, or proposition and I can identify the most decisive test.";
+      reasoning =
+        "The previous turn established a null-object boundary. Episteme will not scan backward through that boundary and attach this follow-up to an older, unrelated signal.";
+      alternative = "";
+      challenge = "";
+      falsification = "";
+      nextAction =
+        "Introduce a concrete object before asking a claim-specific follow-up.";
+      uncertainty =
+        "No active epistemic object is available, so no claim-specific evidence judgment is warranted.";
+      nextQuestions = [
+        "Analyze a specific scientific result",
+        "Examine a technology or mechanism",
+        "Compare two explicitly named systems",
+      ];
+    } else {
+      directAnswer =
+        "I do not have a sufficiently relevant indexed signal for that inquiry, so I will not substitute a weak match.";
+      reasoning =
+        "A relevant answer requires a concrete object or sufficiently strong retrieval evidence. Weak lexical overlap is not enough to establish epistemic relevance.";
+      alternative =
+        "The subject may be absent from the current index, expressed with different terminology, or require a source that is not presently attached.";
+      challenge =
+        "Absence from the current index is not evidence that the claim is false.";
+      falsification =
+        "This abstention changes when a directly relevant signal or explicit source is supplied.";
+      nextAction =
+        "Specify a concrete claim, paper, mechanism, comparison, observable quantity, or source.";
+      nextQuestions = [
+        "Analyze a specific scientific result",
+        "Examine a technology or mechanism",
+        "Compare two explicitly named systems",
+      ];
+    }
   } else if (followUpSynthesis) {
     directAnswer = followUpSynthesis.directAnswer;
     reasoning = followUpSynthesis.reasoning;
@@ -6710,6 +6897,7 @@ function buildIntelligence(
     evidenceAudit,
     claimIdentity,
     objectState: objectResolution.objectState,
+    conversationIntent,
     lead,
     second,
   });
@@ -6733,6 +6921,7 @@ function buildIntelligence(
     evidenceAudit,
     claimIdentity,
     objectState: objectResolution.objectState,
+    conversationIntent,
     adaptiveResponse,
   };
 }
@@ -7458,6 +7647,11 @@ useEffect(() => {
                       {message.role === "episteme" &&
                       message.intelligence?.adaptiveResponse &&
                       !message.streaming ? (
+                        message.intelligence.adaptiveResponse.disclosureLevel === "COMPACT" ? (
+                          <p className="ep-scholarly__compact">
+                            {message.intelligence.adaptiveResponse.plainText}
+                          </p>
+                        ) : (
                         <div
                           className={[
                             "ep-scholarly",
@@ -7521,6 +7715,7 @@ useEffect(() => {
                             )}
                           </div>
                         </div>
+                        )
                       ) : (
                         <p>
                           {message.text}
@@ -7540,7 +7735,12 @@ useEffect(() => {
                       "episteme" &&
                       message.intelligence &&
                       !message.streaming && (
-                      <div className="ep-intelligence">
+                      <div
+                        className={[
+                          "ep-intelligence",
+                          `is-disclosure-${message.intelligence.adaptiveResponse.disclosureLevel.toLowerCase()}`,
+                        ].join(" ")}
+                      >
                         <div className="ep-intelligence__grid">
                           <section>
                             <span>
@@ -14143,6 +14343,23 @@ useEffect(() => {
         /* ====================================================
            STAGE 6.5 — ADAPTIVE SCHOLARLY RESPONSE
         ==================================================== */
+        .ep-scholarly__compact {
+          margin: 0 !important;
+          color: rgba(244,247,249,.88) !important;
+          font-size: 13px !important;
+          line-height: 1.7 !important;
+          white-space: normal !important;
+        }
+
+        .ep-intelligence.is-disclosure-compact {
+          display: none;
+        }
+
+        .ep-intelligence.is-disclosure-standard > .ep-intelligence__grid,
+        .ep-intelligence.is-disclosure-standard > .ep-inquiry {
+          display: none;
+        }
+
         .ep-scholarly {
           display: grid;
           gap: 14px;
