@@ -8994,11 +8994,50 @@ useEffect(() => {
           ================================================= */}
           <div className="ep-dialogue__composer-shell">
             <div className="ep-dialogue__modes ep-dialogue__modes--ask-only">
-              <div className="ep-dialogue__ask-mode">
+              <button
+                type="button"
+                className="ep-dialogue__ask-button is-active"
+                title="Ask Episteme"
+                onClick={() => {
+                  setMode("ask");
+                  textareaRef.current?.focus();
+                }}
+              >
                 <strong>ASK</strong>
-                <small>Ask → Evidence → Signal Space</small>
-              </div>
-              <span>ArcheNova-indexed intelligence first</span>
+                <small>Evidence → Signal Space</small>
+              </button>
+
+              <button
+                type="button"
+                className="ep-dialogue__signal-space-button"
+                disabled={!messages.some(
+                  (message) =>
+                    message.role === "episteme" &&
+                    message.intelligence &&
+                    message.intelligence.objectState !== "NONE",
+                )}
+                onClick={() => {
+                  const latest = [...messages]
+                    .reverse()
+                    .find(
+                      (message) =>
+                        message.role === "episteme" &&
+                        message.intelligence &&
+                        message.intelligence.objectState !== "NONE",
+                    );
+
+                  if (latest) {
+                    setSignalSpaceMessageId(latest.id);
+                  }
+                }}
+              >
+                <strong>SIGNAL SPACE</strong>
+                <small>Explore ArcheNova intelligence</small>
+              </button>
+
+              <span className="ep-dialogue__knowledge-first">
+                ArcheNova-indexed intelligence first
+              </span>
             </div>
             <form
               className="ep-dialogue__composer"
@@ -9066,6 +9105,7 @@ useEffect(() => {
                 </span>
                 <button
                   type="button"
+                  className="ep-dialogue__signals-toggle"
                   onClick={() => {
                     setSignalPanelOpen(
                       (current) =>
@@ -15686,25 +15726,116 @@ useEffect(() => {
         ================================================== */
         .ep-dialogue__modes--ask-only {
           display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 12px;
+          align-items: stretch;
+          justify-content: flex-start;
+          gap: 8px;
         }
-        .ep-dialogue__ask-mode {
-          display: flex;
-          align-items: baseline;
-          gap: 10px;
+
+        .ep-dialogue__ask-button,
+        .ep-dialogue__signal-space-button {
+          appearance: none;
           min-width: 0;
+          min-height: 42px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          gap: 3px;
+          padding: 8px 13px;
+          border: 1px solid rgba(255,255,255,.11);
+          border-radius: 12px;
+          background: rgba(255,255,255,.025);
+          color: rgba(244,248,250,.68);
+          cursor: pointer;
+          transition:
+            background .18s ease,
+            border-color .18s ease,
+            color .18s ease,
+            transform .18s ease;
         }
-        .ep-dialogue__ask-mode strong {
-          font-size: 11px;
-          letter-spacing: .16em;
+
+        .ep-dialogue__ask-button {
+          min-width: 138px;
         }
-        .ep-dialogue__ask-mode small,
-        .ep-dialogue__modes--ask-only > span {
-          color: rgba(238, 244, 247, .5);
+
+        .ep-dialogue__signal-space-button {
+          min-width: 180px;
+        }
+
+        .ep-dialogue__ask-button:hover,
+        .ep-dialogue__signal-space-button:not(:disabled):hover {
+          border-color: rgba(177,219,241,.28);
+          background: rgba(175,220,244,.055);
+          color: rgba(240,249,253,.92);
+          transform: translateY(-1px);
+        }
+
+        .ep-dialogue__ask-button.is-active {
+          border-color: rgba(183,225,246,.30);
+          background:
+            linear-gradient(
+              180deg,
+              rgba(175,220,244,.095),
+              rgba(175,220,244,.035)
+            );
+          box-shadow:
+            inset 0 0 0 1px rgba(255,255,255,.018),
+            0 0 24px rgba(92,164,203,.055);
+          color: rgba(241,249,253,.96);
+        }
+
+        .ep-dialogue__signal-space-button:disabled {
+          opacity: .34;
+          cursor: default;
+          transform: none;
+        }
+
+        .ep-dialogue__ask-button strong,
+        .ep-dialogue__signal-space-button strong {
           font-size: 10px;
+          font-weight: 600;
+          letter-spacing: .16em;
+          line-height: 1;
+        }
+
+        .ep-dialogue__ask-button small,
+        .ep-dialogue__signal-space-button small {
+          display: block !important;
+          max-width: none !important;
+          color: rgba(226,238,244,.42) !important;
+          font-size: 7px !important;
+          letter-spacing: .04em;
+          line-height: 1.2 !important;
+          white-space: nowrap;
+        }
+
+        .ep-dialogue__knowledge-first {
+          margin-left: auto;
+          align-self: center;
+          padding-right: 2px;
+          color: rgba(238,244,247,.42);
+          font-size: 9px;
           letter-spacing: .05em;
+          white-space: nowrap;
+        }
+
+        .ep-dialogue__signals-toggle {
+          appearance: none;
+          border: 1px solid rgba(255,255,255,.1) !important;
+          border-radius: 999px !important;
+          background: rgba(255,255,255,.025) !important;
+          color: rgba(236,242,245,.58) !important;
+          padding: 6px 9px !important;
+          font-size: 8px !important;
+          letter-spacing: .04em;
+          cursor: pointer;
+          transition: border-color .18s ease, background .18s ease, color .18s ease;
+        }
+
+        .ep-dialogue__signals-toggle:hover {
+          border-color: rgba(177,219,241,.24) !important;
+          background: rgba(175,220,244,.05) !important;
+          color: rgba(241,248,252,.86) !important;
         }
         .ep-message__space {
           border-color: rgba(175, 220, 244, .32) !important;
@@ -15966,6 +16097,44 @@ useEffect(() => {
           }
           .ep-signal-space__core strong {
             font-size: 13px;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .ep-dialogue__modes--ask-only {
+            gap: 6px;
+          }
+
+          .ep-dialogue__ask-button,
+          .ep-dialogue__signal-space-button {
+            flex: 1 1 0;
+            min-width: 0;
+            min-height: 40px;
+            padding: 8px 10px;
+          }
+
+          .ep-dialogue__ask-button small,
+          .ep-dialogue__signal-space-button small {
+            display: block !important;
+            max-width: 100% !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .ep-dialogue__knowledge-first {
+            display: none;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .ep-dialogue__ask-button strong,
+          .ep-dialogue__signal-space-button strong {
+            font-size: 9px;
+          }
+
+          .ep-dialogue__ask-button small,
+          .ep-dialogue__signal-space-button small {
+            font-size: 6.5px !important;
           }
         }
 
