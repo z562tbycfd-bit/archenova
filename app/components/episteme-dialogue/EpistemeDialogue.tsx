@@ -77,6 +77,7 @@ type ClaimType =
   | "NORMATIVE"
   | "MIXED"
   | "ANALYTICAL / SYNTHESIS"
+  | "SYSTEM / OPERATIONAL IMPACT"
   | "INFORMATIONAL / OPERATIONAL"
   | "UNKNOWN";
 
@@ -120,8 +121,26 @@ type SignalGenre =
   | "MISSION / OPERATIONAL UPDATE"
   | "OPERATIONAL ANNOUNCEMENT"
   | "EVENT ANNOUNCEMENT"
+  | "INTERVIEW / Q&A"
+  | "REGULATORY ACTION"
+  | "HEALTH SYSTEM / SUPPLY DISRUPTION"
   | "COMMENTARY / ANALYSIS"
   | "FORECAST"
+  | "UNKNOWN";
+
+type DocumentEventType =
+  | "RESEARCH RESULT"
+  | "CLINICAL TRIAL RESULT"
+  | "REGULATORY DECISION"
+  | "SUPPLY / OPERATIONAL DISRUPTION"
+  | "INTERVIEW / Q&A"
+  | "POLICY / INSTITUTIONAL ACTION"
+  | "BUSINESS ACTION"
+  | "PERSONNEL UPDATE"
+  | "MISSION / OPERATIONAL UPDATE"
+  | "EVENT ANNOUNCEMENT"
+  | "FORECAST"
+  | "ANALYSIS / EXPLAINER"
   | "UNKNOWN";
 
 type ClaimRelation =
@@ -153,6 +172,7 @@ type EpistemicClaimIdentity = {
   signalId: string;
   signalTitle: string;
   genre: SignalGenre;
+  documentEventType: DocumentEventType;
   coreClaim: string;
   claimType: ClaimType;
   evidenceType: string[];
@@ -1484,6 +1504,19 @@ function buildContractDialogueGuidance(
         ],
       };
 
+    case "SYSTEM / OPERATIONAL IMPACT":
+      return {
+        alternativeExplanation:
+          "Test whether the apparent disruption is explained by reporting thresholds, demand shifts, substitution, local implementation, or another supply-chain factor rather than the broader system claim.",
+        adversarialCheck:
+          "Separate shortage existence, availability loss, care-delivery change, and patient consequence. Evidence for one layer must not automatically establish the next.",
+        continueInquiry: [
+          "Which availability or care-delivery quantity most directly measures the disruption?",
+          "Which time window, shortage definition, or mitigation strategy could shrink the effect?",
+          "What independent hospital, region, or reporting source would change the conclusion?",
+        ],
+      };
+
     case "INFORMATIONAL / OPERATIONAL":
       return {
         alternativeExplanation:
@@ -1911,6 +1944,48 @@ function buildEpistemicContract(
           "A retrospective synthesis need not manufacture a future forecast. If a prospective implication is claimed, state it separately with a predefined horizon and validation rule.",
       };
 
+    case "SYSTEM / OPERATIONAL IMPACT":
+      return {
+        ...buildContractDialogueGuidance(epistemic.claimType),
+        claimType: epistemic.claimType,
+        validationModes:
+          epistemic.validationModes.length > 0
+            ? epistemic.validationModes
+            : ["OBSERVATIONAL DISCRIMINATION"],
+        evidenceRequirements: [
+          "direct measure of availability, interruption, delay, or system disruption",
+          "duration, scope, and affected population or service",
+          "downstream care or operational consequences",
+          "credible normal-availability baseline or counterfactual",
+        ],
+        disconfirmationConditions: [
+          "the reported disruption is not independently observed",
+          "availability loss does not materially alter care or operations",
+          "the apparent effect disappears under a reasonable disruption definition or baseline",
+          "mitigation or substitution preserves the claimed outcome",
+        ],
+        uncertaintyBoundary: [
+          "medical subject matter is not itself a clinical intervention",
+          "shortage existence is not identical to patient harm",
+          "care disruption is not identical to treatment efficacy",
+          ...sharedUncertainty,
+        ],
+        realityTest:
+          "How large, long, and widespread is the availability disruption; what care or operational consequence follows; and does that consequence persist against a credible normal-availability baseline and mitigation alternative?",
+        correctionRule:
+          "If disruption magnitude, care consequence, or baseline comparison fails, narrow the claim to the strongest directly observed availability or operational effect.",
+        nextAction:
+          "Measure disruption scope and duration, quantify care-delivery consequences, and compare them with a normal-availability or otherwise credible counterfactual period.",
+        demonstrationThreshold: [
+          "the disruption is independently traceable",
+          "scope and duration are quantified",
+          "care or system consequences are directly observed",
+          "a credible baseline or mitigation alternative does not erase the effect",
+        ],
+        predictionDesign:
+          "State what operational or care-delivery quantity should worsen during the disruption and recover when availability normalizes.",
+      };
+
     case "INFORMATIONAL / OPERATIONAL":
       return {
         ...buildContractDialogueGuidance(epistemic.claimType),
@@ -2252,6 +2327,8 @@ function requirementPattern(requirement: string, claimType: ClaimType): RegExp {
       return /\b(mechanism|causal|intervention|perturb|pathway|confound)\b/;
     case "ANALYTICAL / SYNTHESIS":
       return /\b(trend|historical|time window|category|decomposition|driver|alternative|dataset|survey|consumption|production)\b/;
+    case "SYSTEM / OPERATIONAL IMPACT":
+      return /\b(shortage|availability|delay|interruption|substitution|disruption|duration|scope|care delivery|baseline|counterfactual)\b/;
     case "INSTITUTIONAL":
     case "NORMATIVE":
       return /\b(policy|institution|governance|actor|incentive|counterfactual|outcome)\b/;
@@ -2651,128 +2728,160 @@ function neutralIntentForSignal(signal: SignalItem): IntentModel {
   };
 }
 
-function classifySignalGenre(signal: SignalItem): SignalGenre {
+function classifyDocumentEventType(signal: SignalItem): DocumentEventType {
   const title = normalize(signal.title);
   const summary = normalize(signal.summary ?? "");
   const corpus = normalize([signal.title, signal.summary, signal.category].join(" "));
-  const guard = analyzeSemanticInput(signal.title, neutralIntentForSignal(signal), signal);
 
-  // Stage 6.4.2
-  // Classify the event predicate first, then the epistemic family.
-  // Domain vocabulary is never sufficient on its own.
-  //
-  // Entity Domain ≠ Event Type ≠ Claim Family ≠ Evidence Contract.
-
-  const personnelAction =
-    /\b(appoint(?:ed|ment)?|hire(?:d|s)?|new hire|departure|departures|promotion|promotions|transfer|transfers|resign(?:ed|ation)?|steps down|joins|named|comings and goings)\b/.test(title) ||
-    /\b(new hires?|departures?|promotions?|transfers?|personnel changes?|executive changes?)\b/.test(summary);
-
-  if (personnelAction) {
-    return "ORGANIZATIONAL / PERSONNEL UPDATE";
-  }
-
-  const commercialAction =
-    /\b(team up|teams up|partner(?:s|ed|ship)?|collaborat(?:e|es|ed|ion)|commerciali[sz](?:e|es|ed|ation)|licen[cs](?:e|es|ed|ing)|agreement|deal|acqui(?:re|res|red|sition)|merger|manufacturing partnership|strategic alliance|distribution agreement|supply agreement)\b/.test(title) ||
-    /\b(entered into|signed|announced)\b.{0,80}\b(agreement|partnership|collaboration|license|commercialization|commercialisation|alliance|deal)\b/.test(summary);
-
-  if (commercialAction) {
-    return "BUSINESS / COMMERCIAL ACTION";
-  }
-
-  // Institutional/policy predicates must be evaluated before generic causal
-  // language such as "determine", "affect", or "change".
-  const institutionalObject =
-    /\b(medicaid|medicare|agency|government|states?|rule|rules|regulation|regulations|policy|policies|law|laws|eligibility|exemption|exemptions|benefit rules?|standards?|governance|compliance|framework|treaty|accords?|memorandum|guidance)\b/.test(corpus);
-
-  const institutionalAction =
-    /\b(will let|allow|allows|allowed|require|requires|required|adopt|adopts|adopted|implement|implements|implemented|use tiers?|determine eligibility|determine medical frailty|exempt|waive|issue|issues|issued|finalize|finalizes|finalized|expand|restrict|mandate|sign|signed|join|joined)\b/.test(corpus);
+  // Stage 6.4.4 semantic separation:
+  // Medical Topic ≠ Clinical Intervention
+  // Scientific Institution ≠ Scientific Result
+  // Headline Form ≠ Claim Type
+  // Domain ≠ Event Type ≠ Claim Function ≠ Evidence Contract
 
   if (
-    (institutionalObject && institutionalAction) ||
-    guard.institutionalContext
+    /^(q&a|qa)\s*:/.test(title) ||
+    /\b(interview|q&a with|questions? and answers?)\b/.test(title)
+  ) {
+    return "INTERVIEW / Q&A";
+  }
+
+  if (
+    /\b(fda|ema|mhra|regulator|regulatory)\b/.test(corpus) &&
+    /\b(approv(?:e|es|ed|al)|authori[sz](?:e|es|ed|ation)|clear(?:s|ed|ance)|reject(?:s|ed|ion)|label expansion|grants? approval)\b/.test(corpus)
+  ) {
+    return "REGULATORY DECISION";
+  }
+
+  const shortage =
+    /\b(shortage|shortages|supply disruption|stockout|stockouts|unavailable|availability crisis|supply constraint)\b/.test(corpus);
+  const deliveryImpact =
+    /\b(patient care|treatment|therapy|chemotherapy|drug|medicine|hospital|clinic|care delivery|delay|delays|substitution|interrupt|interruption|disrupt|disruption)\b/.test(corpus);
+
+  if (shortage && deliveryImpact) {
+    return "SUPPLY / OPERATIONAL DISRUPTION";
+  }
+
+  if (
+    /\b(medicaid|medicare|agency|government|rule|rules|regulation|policy|eligibility|exemption|governance|compliance|treaty|accords?)\b/.test(corpus) &&
+    /\b(allow|allows|require|requires|adopt|implement|determine|exempt|issue|finalize|restrict|mandate|sign|join)\b/.test(corpus)
   ) {
     return "POLICY / INSTITUTIONAL ACTION";
   }
 
-  const eventAnnouncement =
-    guard.announcementLike &&
-    /\b(media|news conference|press conference|briefing|livestream|coverage|event|to discuss|scheduled|invited)\b/.test(corpus);
-
-  if (eventAnnouncement) {
-    return "EVENT ANNOUNCEMENT";
+  if (
+    /\b(appoint|appointed|hire|hired|departure|promotion|transfer|resign|steps down|joins|named)\b/.test(title)
+  ) {
+    return "PERSONNEL UPDATE";
   }
 
-  const operationalUpdate =
-    /\b(mission status|upcoming return|launch window|docking|undocking|crew return|operations update|operational update|station mission)\b/.test(corpus);
+  if (
+    /\b(partner|partnership|commerciali[sz]|license|agreement|deal|acquisition|merger|alliance)\b/.test(title)
+  ) {
+    return "BUSINESS ACTION";
+  }
 
-  if (operationalUpdate) {
+  if (
+    /\b(mission status|launch window|docking|undocking|crew return|operations update|operational update)\b/.test(corpus)
+  ) {
     return "MISSION / OPERATIONAL UPDATE";
   }
 
-  // Predictive semantics are not restricted to will/would. Scientific
-  // forecasting commonly uses could/can/may + warning/lead-time language.
-  const forecastObject =
-    /\b(forecast|forecasts|forecasting|prediction|predictive|outlook|warning|lead time|lead-time|seasonal)\b/.test(title) ||
-    /\b(forecast|forecasting|prediction|predictive|outlook|warning|lead time|lead-time)\b/.test(summary);
+  if (
+    /\b(media invited|news conference|press conference|briefing|livestream|scheduled event|to discuss)\b/.test(corpus)
+  ) {
+    return "EVENT ANNOUNCEMENT";
+  }
 
-  const prospectivePredicate =
-    /\b(could|can|may|might|will|would|expected|projected|predicted|anticipat(?:e|es|ed)|give .* warning|months? of warning|weeks? of warning|days? of warning|ahead of)\b/.test(corpus);
-
-  if (forecastObject && prospectivePredicate) {
+  if (
+    /\b(forecast|forecasting|prediction|predictive|outlook|warning|lead time|seasonal)\b/.test(corpus) &&
+    /\b(could|can|may|might|will|would|expected|projected|predicted|ahead of|warning)\b/.test(corpus)
+  ) {
     return "FORECAST";
   }
 
-  // Retrospective explainers/syntheses should not collapse into UNKNOWN or
-  // be mistaken for a forecast because their summaries mention projections.
-  const analyticalTitle =
-    /^(how|why)\b/.test(title) &&
-    /\b(took over|became|changed|reshaped|spread|evolved|grew|transformed|came to|ended up|dominates?|entered|reached)\b/.test(title);
+  const clinicalDesign =
+    /\b(phase [123ivx]+|randomi[sz]ed|clinical trial|primary endpoint|secondary endpoint|overall survival|progression[- ]free survival|response rate)\b/.test(corpus);
+  const clinicalResult =
+    /\b(showed|found|met|missed|improved|reduced|increased|reported|achieved|failed|associated)\b/.test(corpus);
 
-  const analyticalCorpus =
-    /\b(explainer|analysis|commentary|perspective|review|history of|historical analysis|trend analysis|synthesis|roundup)\b/.test(corpus);
-
-  if (analyticalTitle || analyticalCorpus) {
-    return "COMMENTARY / ANALYSIS";
+  if (clinicalDesign && clinicalResult) {
+    return "CLINICAL TRIAL RESULT";
   }
 
-  const clinicalResultPredicate =
-    /\b(phase [123ivx]+|randomi[sz]ed|trial (?:showed|found|met|missed)|primary endpoint|secondary endpoint|overall survival|progression[- ]free survival|response rate|adverse events?|safety profile|efficacy|clinical benefit|patients? (?:receiving|treated|randomized|randomised))\b/.test(corpus) &&
-    /\b(showed|found|met|missed|improved|reduced|increased|demonstrated|reported|achieved|failed|associated)\b/.test(corpus);
-
-  if (clinicalResultPredicate) {
-    return "CLINICAL RESULT";
+  if (
+    /^(how|why)\b/.test(title) ||
+    /\b(explainer|analysis|commentary|perspective|review|history of|trend analysis|synthesis)\b/.test(corpus)
+  ) {
+    return "ANALYSIS / EXPLAINER";
   }
 
-  const engineeringDemoPredicate =
+  if (
+    /\b(new research|study|researchers?|scientists?|experiment|genomic|genetic research)\b/.test(corpus) &&
+    /\b(finds?|found|shows?|showed|reports?|reported|discovers?|discovered|reveals?|revealed|demonstrates?|demonstrated|identifies?|identified)\b/.test(corpus)
+  ) {
+    return "RESEARCH RESULT";
+  }
+
+  return "UNKNOWN";
+}
+
+function classifySignalGenre(signal: SignalItem): SignalGenre {
+  const corpus = normalize([signal.title, signal.summary, signal.category].join(" "));
+  const guard = analyzeSemanticInput(signal.title, neutralIntentForSignal(signal), signal);
+  const eventType = classifyDocumentEventType(signal);
+
+  switch (eventType) {
+    case "INTERVIEW / Q&A":
+      return "INTERVIEW / Q&A";
+    case "REGULATORY DECISION":
+      return "REGULATORY ACTION";
+    case "SUPPLY / OPERATIONAL DISRUPTION":
+      return "HEALTH SYSTEM / SUPPLY DISRUPTION";
+    case "POLICY / INSTITUTIONAL ACTION":
+      return "POLICY / INSTITUTIONAL ACTION";
+    case "BUSINESS ACTION":
+      return "BUSINESS / COMMERCIAL ACTION";
+    case "PERSONNEL UPDATE":
+      return "ORGANIZATIONAL / PERSONNEL UPDATE";
+    case "MISSION / OPERATIONAL UPDATE":
+      return "MISSION / OPERATIONAL UPDATE";
+    case "EVENT ANNOUNCEMENT":
+      return "EVENT ANNOUNCEMENT";
+    case "FORECAST":
+      return "FORECAST";
+    case "CLINICAL TRIAL RESULT":
+      return "CLINICAL RESULT";
+    case "ANALYSIS / EXPLAINER":
+      return "COMMENTARY / ANALYSIS";
+    case "RESEARCH RESULT":
+      return "SCIENTIFIC RESULT";
+    default:
+      break;
+  }
+
+  if (guard.announcementLike) {
+    return "OPERATIONAL ANNOUNCEMENT";
+  }
+
+  if (
     /\b(prototype|device|hardware|system|circuit|platform|engineered|fabricated|built)\b/.test(corpus) &&
-    /\b(demonstrated|achieved|operated|performed|fabricated|validated|tested|reached)\b/.test(corpus);
-
-  if (engineeringDemoPredicate) {
+    /\b(demonstrated|achieved|operated|performed|fabricated|validated|tested|reached)\b/.test(corpus)
+  ) {
     return "ENGINEERING DEMONSTRATION";
-  }
-
-  const researchResultPredicate =
-    /\b(new research|study|researchers?|scientists?|analysis|genetic research|genomic|experiment)\b/.test(corpus) &&
-    /\b(finds?|found|shows?|showed|reports?|reported|discovers?|discovered|reveals?|revealed|demonstrates?|demonstrated|observes?|observed|measures?|measured|identifies?|identified|indicates?|suggests?)\b/.test(corpus);
-
-  if (researchResultPredicate) {
-    return "SCIENTIFIC RESULT";
   }
 
   if (/\b(arxiv|preprint)\b/.test(corpus)) {
     return "RESEARCH PREPRINT";
   }
 
-  if (
-    /\b(hypothesis|may explain|might explain|could explain|proposed mechanism)\b/.test(corpus) &&
-    !researchResultPredicate
-  ) {
+  if (/\b(hypothesis|may explain|might explain|could explain|proposed mechanism)\b/.test(corpus)) {
     return "SCIENTIFIC HYPOTHESIS";
   }
 
-  // Domain vocabulary is only a fallback after event/claim predicates fail.
   if (
-    /\b(research|study|scientists?|researchers?|genetic|genomic|measurement|observed|experiment)\b/.test(corpus)
+    /\b(research|study|scientists?|researchers?|experiment)\b/.test(corpus) &&
+    /\b(found|finds|shows|reports|discovers|reveals|demonstrates|identifies|measures|observes)\b/.test(corpus)
   ) {
     return "SCIENTIFIC RESULT";
   }
@@ -2840,6 +2949,43 @@ function decomposeSignalRoles(
     };
   }
 
+  if (genre === "INTERVIEW / Q&A") {
+    return {
+      coreClaim: title,
+      baseline: first || title,
+      reportedResult:
+        "The signal is an interview/Q&A describing an origin story, rationale, experience, or claimed outcome rather than a standalone empirical study result.",
+      implication:
+        "Its significance is explanatory and communicative. Any claim of success, reach, or impact requires its own engagement or outcome evidence.",
+      nonImplication:
+        "An interview narrative does not by itself establish measured causal effectiveness, reproducibility, or a scientific result.",
+    };
+  }
+
+  if (genre === "REGULATORY ACTION") {
+    return {
+      coreClaim: title,
+      baseline: first || title,
+      reportedResult: title,
+      implication:
+        "The primary event is regulatory: an authority changed the legal or market status of a product. Clinical efficacy and safety evidence may support that decision but remain distinct claims.",
+      nonImplication:
+        "Regulatory approval does not make every efficacy, comparative-benefit, long-term-safety, or population-generalization claim independently demonstrated.",
+    };
+  }
+
+  if (genre === "HEALTH SYSTEM / SUPPLY DISRUPTION") {
+    return {
+      coreClaim: title,
+      baseline: first || title,
+      reportedResult: title,
+      implication:
+        "The signal concerns system availability and care-delivery disruption. The decisive evidence is shortage magnitude, duration, affected treatments, substitutions or delays, and downstream care consequences.",
+      nonImplication:
+        "A drug shortage is not itself a clinical intervention and should not inherit trial endpoint, placebo, dose, or toxicity contracts unless a separate treatment-effect claim is made.",
+    };
+  }
+
   if (genre === "COMMENTARY / ANALYSIS") {
     return {
       coreClaim: title,
@@ -2901,7 +3047,14 @@ function resolveClaimTypeFromGenre(
       return "INFORMATIONAL / OPERATIONAL";
 
     case "POLICY / INSTITUTIONAL ACTION":
+    case "REGULATORY ACTION":
       return "INSTITUTIONAL";
+
+    case "HEALTH SYSTEM / SUPPLY DISRUPTION":
+      return "SYSTEM / OPERATIONAL IMPACT";
+
+    case "INTERVIEW / Q&A":
+      return "ANALYTICAL / SYNTHESIS";
 
     case "CLINICAL RESULT":
       return "CLINICAL / INTERVENTIONAL";
@@ -3008,6 +3161,13 @@ function evidenceNeedsForClaimType(claimType: ClaimType): string[] {
         "operating envelope",
         "failure/recovery and independent verification",
       ];
+    case "SYSTEM / OPERATIONAL IMPACT":
+      return [
+        "direct measure of availability, interruption, delay, or system disruption",
+        "duration, scope, and affected population/service",
+        "downstream care or operational consequences",
+        "credible baseline or counterfactual",
+      ];
     case "INFORMATIONAL / OPERATIONAL":
       return [
         "traceable source",
@@ -3077,6 +3237,98 @@ function buildClaimGraph(
     nodes.push(makeClaimNode(id, cleaned, relation, claimType, status, dependsOn));
     return id;
   };
+
+  // Stage 6.4.4: event-aware claim extraction.
+  const documentEventType = classifyDocumentEventType(signal);
+
+  if (documentEventType === "INTERVIEW / Q&A") {
+    const root = add(
+      roles.reportedResult || title,
+      "PRIMARY",
+      "ANALYTICAL / SYNTHESIS",
+      "REPORTED",
+    );
+
+    if (/\b(origin|started|decision|decided|created|launched|share videos?|field study)\b/.test(normalizedTitle + " " + normalizedSummary)) {
+      add(
+        "The interview describes how or why the initiative originated",
+        "SUPPORTING",
+        "INFORMATIONAL / OPERATIONAL",
+        "REPORTED",
+        root ? [root] : [],
+      );
+    }
+
+    if (/\b(success|successful|attention|audience|reach|engagement|captured attention|around the world)\b/.test(normalizedTitle + " " + normalizedSummary)) {
+      add(
+        "The initiative is described as successful or widely engaging",
+        "DERIVED",
+        "DESCRIPTIVE / EMPIRICAL",
+        "REPORTED",
+        root ? [root] : [],
+      );
+    }
+  }
+
+  if (documentEventType === "REGULATORY DECISION") {
+    const regulatoryId = add(
+      title,
+      "PRIMARY",
+      "INSTITUTIONAL",
+      "REPORTED",
+    );
+
+    const clinicalSentence = signalSentences(signal).find((sentence) =>
+      /\b(trial|patients?|motor skills?|endpoint|efficacy|safety|improved|reduced|survival|response)\b/i.test(sentence),
+    );
+
+    if (clinicalSentence) {
+      add(
+        clinicalSentence,
+        "SUPPORTING",
+        "CLINICAL / INTERVENTIONAL",
+        "REPORTED",
+        regulatoryId ? [regulatoryId] : [],
+      );
+    }
+  }
+
+  if (documentEventType === "SUPPLY / OPERATIONAL DISRUPTION") {
+    const disruptionId = add(
+      title,
+      "PRIMARY",
+      "SYSTEM / OPERATIONAL IMPACT",
+      "REPORTED",
+    );
+    add(
+      "Availability constraints can delay, interrupt, substitute, or otherwise disrupt care delivery",
+      "DERIVED",
+      "SYSTEM / OPERATIONAL IMPACT",
+      "INFERRED",
+      disruptionId ? [disruptionId] : [],
+    );
+  }
+
+  // Generic two-stage capability pattern:
+  // discovery/identification and functional characterization are separate claims.
+  const discoveryFunctionMatch = title.match(
+    /(.+?)\b(?:helps?|can)\s+(?:find|identify|discover)\s+(.+?)\s+and\s+(?:reveals?|shows?|determines?)\s+what\s+(?:they|it)\s+do(?:es)?/i,
+  );
+  if (discoveryFunctionMatch) {
+    const discoveryId = add(
+      `${discoveryFunctionMatch[1].trim()} can identify ${discoveryFunctionMatch[2].trim()}`,
+      "PRIMARY",
+      "DESCRIPTIVE / EMPIRICAL",
+      "REPORTED",
+    );
+    add(
+      `The identified ${discoveryFunctionMatch[2].trim()} can be functionally characterized`,
+      "DERIVED",
+      "DESCRIPTIVE / EMPIRICAL",
+      "REPORTED",
+      discoveryId ? [discoveryId] : [],
+    );
+  }
 
   // 1. Explicit compound titles: "X — this might help explain Y".
   const explanatoryMatch = title.match(
@@ -3319,6 +3571,32 @@ function selectClaimNodeForFollowUp(
 function objectSpecificMeasurementCandidates(node: ClaimNode): string[] {
   const t = normalize(node.text);
 
+  if (/\b(shortage|shortages|supply|availability|care delivery|disrupt)\b/.test(t)) {
+    return [
+      "number or share of affected drugs, sites, treatments, or patients",
+      "duration and geographic/institutional scope of the shortage",
+      "treatment delays, substitutions, interruptions, or cancellations",
+      "patient-care consequences relative to a normal-availability baseline",
+    ];
+  }
+
+  if (/\b(q&a|interview|origin|initiative|successful|engagement|attention|audience|reach)\b/.test(t)) {
+    return [
+      "direct audience or engagement metrics if the source actually reports them",
+      "time-bounded reach or participation rather than the adjective 'successful' alone",
+      "a clearly defined outcome linked to the initiative's stated purpose",
+    ];
+  }
+
+  if (/\b(protein|proteins|identify|hidden|functionally characterized|functional)\b/.test(t)) {
+    return [
+      "number or fraction of previously unexplored proteins identified under predefined criteria",
+      "precision or validation rate of AI-prioritized candidates",
+      "experimental functional readout for each claimed protein function",
+      "performance against a non-AI or baseline discovery strategy where available",
+    ];
+  }
+
   if (/\bgenetic|genomic|ancestry|coyote|admixture|dna\b/.test(t)) {
     return [
       "estimated ancestry/admixture proportion",
@@ -3389,6 +3667,33 @@ function objectSpecificMeasurementCandidates(node: ClaimNode): string[] {
 function objectSpecificBoundaryCandidates(node: ClaimNode): string[] {
   const t = normalize(node.text);
 
+  if (/\b(shortage|shortages|supply|availability|care delivery|disrupt)\b/.test(t)) {
+    return [
+      "shortage definition and reporting threshold",
+      "time window and geographic/institutional coverage",
+      "whether substitutions or mitigation strategies preserved care",
+      "baseline demand and concurrent supply-chain changes",
+    ];
+  }
+
+  if (/\b(q&a|interview|origin|initiative|successful|engagement|attention|audience|reach)\b/.test(t)) {
+    return [
+      "how 'success' is defined",
+      "whether attention is temporary or sustained",
+      "platform-specific amplification or novelty effects",
+      "whether reach translated into the initiative's intended scientific or public value",
+    ];
+  }
+
+  if (/\b(protein|proteins|identify|hidden|functionally characterized|functional)\b/.test(t)) {
+    return [
+      "candidate-selection threshold",
+      "training-data or annotation bias",
+      "experimental assay choice",
+      "whether functional assignments replicate across independent assays or biological contexts",
+    ];
+  }
+
   if (/\bgenetic|genomic|ancestry|coyote|admixture|dna\b/.test(t)) {
     return [
       "reference-population choice",
@@ -3454,6 +3759,30 @@ function objectSpecificBoundaryCandidates(node: ClaimNode): string[] {
 
 function objectSpecificIndependentTest(node: ClaimNode): string[] {
   const t = normalize(node.text);
+
+  if (/\b(shortage|shortages|supply|availability|care delivery|disrupt)\b/.test(t)) {
+    return [
+      "independent shortage data from another hospital system, region, or reporting source",
+      "replication of delay, substitution, or interruption rates during the same shortage period",
+      "comparison with a normal-availability period or unaffected treatment pathway",
+    ];
+  }
+
+  if (/\b(q&a|interview|origin|initiative|successful|engagement|attention|audience|reach)\b/.test(t)) {
+    return [
+      "independent platform analytics or audience data that reproduce the claimed reach",
+      "a second time window showing whether engagement was sustained",
+      "evidence that the reported attention translated into the stated outreach or scientific objective",
+    ];
+  }
+
+  if (/\b(protein|proteins|identify|hidden|functionally characterized|functional)\b/.test(t)) {
+    return [
+      "an independent candidate set evaluated without reusing the discovery data",
+      "orthogonal experimental assays confirming the proposed protein function",
+      "replication in an independent laboratory or biological context",
+    ];
+  }
 
   if (/\bgenetic|genomic|ancestry|coyote|admixture|dna\b/.test(t)) {
     return [
@@ -3532,16 +3861,17 @@ function synthesizeClaimGraphFollowUp(
           .join("; ")}.`
       : "";
 
-  if (/\b(measured quantity|measurement|what.*measure|which.*quantity)\b/.test(q)) {
-    const candidates = objectSpecificMeasurementCandidates(node);
+  if (/\b(independent measurement|replication|independent observation|what.*change the conclusion)\b/.test(q)) {
+    const candidates = objectSpecificIndependentTest(node);
     return {
       demand,
       directAnswer:
-        `The active subclaim is “${node.text}” (${nodeLabel}). The most direct evidence should therefore be claim-specific rather than inherited from the whole headline: ${candidates.join("; ")}.${dependency}`,
+        `For the active subclaim “${node.text}”, the most informative independent test would be: ${candidates.join("; ")}. A successful replication should reproduce the claim-specific quantity or discrimination, not merely repeat the article's broader narrative.${dependency}`,
       reasoning:
-        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\nEvidence needed: ${node.evidenceNeeded.join("; ")}\n\nCurrent source boundary: ${audit.summary}`,
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nIndependent evidence should attach to this node. Support for one node must not be inherited by a stronger causal, predictive, or derived node without its own evidence.`,
     };
   }
+
 
   if (/\b(boundary condition|analysis choice|erase the effect|weaken the claim)\b/.test(q)) {
     const candidates = objectSpecificBoundaryCandidates(node);
@@ -3554,16 +3884,18 @@ function synthesizeClaimGraphFollowUp(
     };
   }
 
-  if (/\b(independent measurement|replication|independent observation|what.*change the conclusion)\b/.test(q)) {
-    const candidates = objectSpecificIndependentTest(node);
+
+  if (/\b(measured quantity|measurement|what.*measure|which.*quantity)\b/.test(q)) {
+    const candidates = objectSpecificMeasurementCandidates(node);
     return {
       demand,
       directAnswer:
-        `For the active subclaim “${node.text}”, the most informative independent test would be: ${candidates.join("; ")}. A successful replication should reproduce the claim-specific quantity or discrimination, not merely repeat the article's broader narrative.${dependency}`,
+        `The active subclaim is “${node.text}” (${nodeLabel}). The most direct evidence should therefore be claim-specific rather than inherited from the whole headline: ${candidates.join("; ")}.${dependency}`,
       reasoning:
-        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nIndependent evidence should attach to this node. Support for one node must not be inherited by a stronger causal, predictive, or derived node without its own evidence.`,
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\nEvidence needed: ${node.evidenceNeeded.join("; ")}\n\nCurrent source boundary: ${audit.summary}`,
     };
   }
+
 
   return null;
 }
@@ -3573,6 +3905,7 @@ function buildEpistemicClaimIdentity(
 ): EpistemicClaimIdentity | null {
   if (!signal) return null;
 
+  const documentEventType = classifyDocumentEventType(signal);
   const genre = classifySignalGenre(signal);
   const neutralIntent = neutralIntentForSignal(signal);
   const signalParse = parseEpistemicStructure(signal.title, neutralIntent, signal);
@@ -3600,6 +3933,8 @@ function buildEpistemicClaimIdentity(
                   ? ["prospective prediction", "horizon", "calibration", "outcome"]
                   : claimType === "ANALYTICAL / SYNTHESIS"
                     ? ["traceable trend evidence", "historical or structural decomposition", "alternative explanation", "scope and boundary conditions"]
+                  : claimType === "SYSTEM / OPERATIONAL IMPACT"
+                    ? ["availability/disruption measure", "duration and scope", "care or system consequences", "baseline/counterfactual"]
                   : claimType === "INFORMATIONAL / OPERATIONAL"
                     ? genre === "BUSINESS / COMMERCIAL ACTION"
                       ? ["traceable company or transaction source", "agreement or commercialization terms", "confirmation of the reported business action"]
@@ -3619,6 +3954,7 @@ function buildEpistemicClaimIdentity(
     signalId: signal.id,
     signalTitle: signal.title,
     genre,
+    documentEventType,
     coreClaim: roles.coreClaim,
     claimType,
     evidenceType,
@@ -3718,6 +4054,28 @@ function buildParseFromClaimIdentity(
       ],
       contextPolicy:
         "Keep retrospective synthesis distinct from prospective prediction and unique causal demonstration.",
+    };
+  }
+
+  if (identity.claimType === "SYSTEM / OPERATIONAL IMPACT") {
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: [
+        `event-first system classification: ${identity.documentEventType}`,
+        "The claim concerns availability, interruption, service delivery, or operational consequences rather than efficacy of a therapeutic intervention.",
+      ],
+      validationModes: ["OBSERVATIONAL DISCRIMINATION"],
+      disconfirmationMode:
+        "The system-impact claim weakens if the reported disruption is not independently observed, does not materially alter delivery or availability, or disappears under a credible normal-availability baseline.",
+      evidenceNeeded: [
+        "direct measure of availability, interruption, delay, or disruption",
+        "duration, scope, and affected population/service",
+        "downstream care or operational consequences",
+        "credible baseline or counterfactual",
+      ],
+      contextPolicy:
+        "Medical subject matter must not import a clinical-trial contract unless the signal separately makes a treatment-effect claim.",
     };
   }
 
