@@ -408,6 +408,7 @@ type IntelligenceObject = {
   objectState: EpistemicObjectState;
   conversationIntent: ConversationIntent;
   adaptiveResponse: AdaptiveResponse;
+  astraCore?: AstraCoreState;
 };
 
 type DialogueMessage = {
@@ -449,6 +450,86 @@ type SignalSpaceModel = {
   evidenceBoundary: string;
   decisiveTest: string;
   knowledgeStatement: string;
+  missionStatus?: string;
+};
+
+
+
+
+type ObjectResolutionDecision =
+  | "SAME_OBJECT"
+  | "NEW_OBJECT"
+  | "NO_OBJECT"
+  | "INTERNAL_CORPUS";
+
+type CorpusAttentionScore = {
+  signalId: string;
+  novelty: number;
+  evidenceDensity: number;
+  consequence: number;
+  transferability: number;
+  falsifiability: number;
+  archeNovaRelevance: number;
+  total: number;
+};
+
+type MissionSubtaskStatus = "PENDING" | "ACTIVE" | "SATISFIED" | "BLOCKED";
+
+type MissionSubtask = {
+  id: string;
+  label: string;
+  governingQuestion: string;
+  status: MissionSubtaskStatus;
+  signalIds: string[];
+  finding: string;
+};
+
+type EpistemeMission = {
+  id: string;
+  objective: string;
+  target: string;
+  claimType: ClaimType;
+  sourcePolicy: string;
+  subtasks: MissionSubtask[];
+  stopConditions: string[];
+};
+
+type ReasoningPassKind =
+  | "OBJECT LOCK"
+  | "SOURCE TRUTH"
+  | "CLAIM DISCRIMINATION"
+  | "COUNTEREVIDENCE"
+  | "CONSEQUENCE"
+  | "REALITY TEST"
+  | "STOP CHECK";
+
+type ReasoningPass = {
+  kind: ReasoningPassKind;
+  status: "PASS" | "LIMITED" | "BLOCKED";
+  finding: string;
+  signalIds: string[];
+};
+
+type SelfCritiqueCheck = {
+  id: string;
+  label: string;
+  passed: boolean;
+  note: string;
+};
+
+type SelfCritiqueGate = {
+  status: "PASS" | "PASS_WITH_LIMITS" | "BLOCKED";
+  checks: SelfCritiqueCheck[];
+  corrections: string[];
+  releaseRule: string;
+};
+
+type AstraCoreState = {
+  mission: EpistemeMission;
+  passes: ReasoningPass[];
+  critique: SelfCritiqueGate;
+  stopReason: string;
+  synthesis: string;
 };
 
 
@@ -788,6 +869,91 @@ function createThreadTitle(
 /* ==========================================================
    RELEVANCE
 ========================================================== */
+
+function clampScore(value: number): number {
+  return Math.max(0, Math.min(1, value));
+}
+
+function scoreSignalForAttention(signal: SignalItem): CorpusAttentionScore {
+  const clean = sanitizeSignalSummary(signal.summary);
+  const corpus = normalize(`${signal.title} ${clean} ${signal.category}`);
+  const sentenceCount = signalSentences(signal).length;
+  const numericDensity = (clean.match(/\b\d+(?:\.\d+)?%?\b/g) || []).length;
+
+  const novelty =
+    clampScore(
+      (
+        (/\b(new|novel|first|demonstrat|discover|introduc|framework|architecture|mechanism|counterfactual|generalization)\b/.test(corpus) ? 0.45 : 0.2) +
+        (/\b(outperform|improv|reduce|increase|achiev|reach|gold|state of the art|sota)\b/.test(corpus) ? 0.35 : 0.1) +
+        Math.min(numericDensity / 8, 0.2)
+      ),
+    );
+
+  const evidenceDensity =
+    clampScore(
+      Math.min(sentenceCount / 8, 0.55) +
+      Math.min(numericDensity / 10, 0.25) +
+      (/\b(result|results|we find|we show|we demonstrate|evaluation|benchmark|experiment)\b/.test(corpus) ? 0.2 : 0.05),
+    );
+
+  const consequence =
+    clampScore(
+      (/\b(enable|could enable|deployment|engineering|infrastructure|clinical|scientific|generalization|reasoning|agent|energy|governance|control)\b/.test(corpus) ? 0.55 : 0.25) +
+      (/\b(scal|transfer|across|multiple|general|reusable|robust)\b/.test(corpus) ? 0.25 : 0.1) +
+      (/\b(limit|boundary|failure|safety|cost|latency|efficiency)\b/.test(corpus) ? 0.2 : 0.05),
+    );
+
+  const transferability =
+    clampScore(
+      (/\b(across|general|transfer|multiple|cross|reusable|task-agnostic|domain)\b/.test(corpus) ? 0.65 : 0.3) +
+      (/\b(framework|architecture|mechanism|principle|method)\b/.test(corpus) ? 0.25 : 0.1),
+    );
+
+  const falsifiability =
+    clampScore(
+      (/\b(measure|benchmark|test|experiment|accuracy|latency|cost|score|rate|error|performance|predict)\b/.test(corpus) ? 0.7 : 0.3) +
+      (numericDensity > 0 ? 0.2 : 0.05),
+    );
+
+  const archeNovaRelevance =
+    clampScore(
+      (/\b(physics|quantum|gravity|engineering|energy|infrastructure|governance|agent|ai|reasoning|system|biological|clinical|materials|space)\b/.test(corpus) ? 0.65 : 0.35) +
+      (/\b(reproduc|correct|recover|boundary|scale|control|mechanism|evidence)\b/.test(corpus) ? 0.25 : 0.1),
+    );
+
+  const total =
+    0.20 * novelty +
+    0.20 * evidenceDensity +
+    0.20 * consequence +
+    0.15 * transferability +
+    0.15 * falsifiability +
+    0.10 * archeNovaRelevance;
+
+  return {
+    signalId: signal.id,
+    novelty,
+    evidenceDensity,
+    consequence,
+    transferability,
+    falsifiability,
+    archeNovaRelevance,
+    total,
+  };
+}
+
+function rankInternalCorpus(
+  signals: SignalItem[],
+  limit: number = 5,
+): Array<{ signal: SignalItem; score: CorpusAttentionScore }> {
+  return signals
+    .map((signal) => ({
+      signal,
+      score: scoreSignalForAttention(signal),
+    }))
+    .sort((a, b) => b.score.total - a.score.total)
+    .slice(0, limit);
+}
+
 function scoreSignal(
   query: string,
   signal: SignalItem,
@@ -3016,14 +3182,15 @@ type HeadlineDiscourseType =
 
 type EpistemicObjectState = "SIGNAL" | "USER_DEFINED_OBJECT" | "NONE";
 
-type ConversationIntent =
-  | "SOCIAL"
+type ConversationIntent = | "SOCIAL"
   | "META"
   | "ACTION_REQUEST"
   | "NEW_INQUIRY"
   | "SIGNAL_ANALYSIS"
   | "FOLLOW_UP"
-  | "MODE_OPERATION";
+  | "MODE_OPERATION"
+  | "CAPABILITY_REQUEST"
+  | "INTERNAL_CORPUS_QUERY";
 
 type DisclosureLevel = "COMPACT" | "STANDARD" | "FULL";
 
@@ -3352,6 +3519,46 @@ function propositionRoleScore(
   return score;
 }
 
+
+function resultBearingLanguageScore(sentence: string): number {
+  const s = normalize(sentence);
+  let score = 0;
+
+  if (
+    /\b(we find|we found|we show|we demonstrate|results? show|our results|we achieve|achieves?|reaches?|outperforms?|improves?|reduces?|increases?|yields?|enables?|successfully|obtains?|attains?)\b/.test(s)
+  ) score += 5;
+
+  if (
+    /\b(compared with|compared to|versus|relative to|from .* to|by \d|%\b|accuracy|score|latency|throughput|error|success rate|pass rate|benchmark|performance)\b/.test(s)
+  ) score += 3;
+
+  if (/\b(we study|we investigate|we present|we propose|we introduce)\b/.test(s)) {
+    score -= 1;
+  }
+
+  if (/\b(future work|we plan|we aim|we hope|may enable|could enable)\b/.test(s)) {
+    score -= 2;
+  }
+
+  return score;
+}
+
+function recoverResultProposition(
+  signal: SignalItem,
+): string | null {
+  const sentences = signalSentences(signal);
+
+  const ranked = sentences
+    .map((sentence) => ({
+      sentence,
+      score: resultBearingLanguageScore(sentence),
+    }))
+    .filter((item) => item.score >= 3)
+    .sort((a, b) => b.score - a.score);
+
+  return ranked[0]?.sentence ?? null;
+}
+
 function extractPropositionSet(signal: SignalItem): PropositionSet {
   const sentences = signalSentences(signal);
   const profile = inferObjectSemanticProfile(signal);
@@ -3482,7 +3689,16 @@ function essenceDecisiveTest(signal: SignalItem,p: PropositionSet,profile: Objec
 }
 function buildArticleEssence(signal: SignalItem,ct: ClaimType,audit: EvidenceAudit): ArticleEssence {
   const p=extractPropositionSet(signal), profile=inferObjectSemanticProfile(signal);
-  const sourceTruth=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||extractResultBearingProposition(signal)?.proposition||sanitizeSignalSummary(signal.summary)||signal.title,signal.title);
+  const sourceTruth=essenceClause(
+    p.result?.text ||
+    p.comparison?.text ||
+    p.mechanism?.text ||
+    extractResultBearingProposition(signal)?.proposition ||
+    recoverResultProposition(signal) ||
+    sanitizeSignalSummary(signal.summary) ||
+    signal.title,
+    signal.title,
+  );
   const background=essenceClause(p.background?.text||"","The available source does not cleanly state a distinct prior baseline.");
   const result=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||sourceTruth,sourceTruth);
   return {
@@ -3510,7 +3726,28 @@ function extractResultBearingProposition(
     propositions.comparison ||
     propositions.mechanism;
 
-  if (!selected || selected.score < 3) return null;
+  if (!selected || selected.score < 3) {
+    const recovered = recoverResultProposition(signal);
+    if (!recovered) return null;
+
+    const recoveredFunction: PropositionFrame["function"] =
+      /\b(outperform|compared with|compared to|versus|trade-off|tradeoff)\b/i.test(recovered)
+        ? "COMPARISON"
+        : /\b(predict|forecast)\b/i.test(recovered)
+          ? "PREDICTION"
+          : /\b(enable|achiev|demonstrat|improv|reduce|increase|reach|yield)\b/i.test(recovered)
+            ? "CAPABILITY"
+            : "OBSERVATION";
+
+    return {
+      subject: recovered,
+      predicate: "reports a result-bearing proposition",
+      object: recovered,
+      proposition: recovered,
+      source: "SUMMARY",
+      function: recoveredFunction,
+    };
+  }
 
   return {
     subject: selected.text,
@@ -6149,8 +6386,24 @@ function classifyConversationIntent(
     return "META";
   }
 
-  // These are operations without an epistemic object. They must not be
-  // reinterpreted as retrieval queries.
+  // Capability requests must never be converted into an unrelated signal query.
+  if (
+    /\b(create|generate|make|draw|render|produce)\b.*\b(image|picture|illustration|diagram|visual)\b/i.test(raw) ||
+    /(画像|イメージ|図|イラスト).*(作成|生成|描いて|作って)/.test(raw) ||
+    /(作成|生成|描いて|作って).*(画像|イメージ|図|イラスト)/.test(raw)
+  ) {
+    return "CAPABILITY_REQUEST";
+  }
+
+  // ArcheNova-internal corpus questions: rank/summarize/select from indexed knowledge.
+  if (
+    /\b(current archeNova signal|current signal|latest research findings|latest findings|latest research|most important signal|deepest attention|which signal deserves|what changed in civilization today|which scientific signals matter most)\b/i.test(raw) ||
+    /(最新.*研究|最新.*シグナル|重要.*シグナル|どの.*シグナル|ArcheNova.*シグナル|現在.*ArcheNova)/i.test(raw)
+  ) {
+    return "INTERNAL_CORPUS_QUERY";
+  }
+
+  // These are operations without an epistemic object.
   if (
     /^(analy[sz]e a specific scientific result|examine a technology or mechanism|compare two explicitly named systems|analy[sz]e a paper|analy[sz]e a signal|examine a mechanism)$/i.test(compactRaw) ||
     /^(科学的結果を分析|技術やメカニズムを検討|二つのシステムを比較|論文を分析|シグナルを分析)$/.test(compactRaw)
@@ -6159,12 +6412,12 @@ function classifyConversationIntent(
   }
 
   if (
-    /\b(explain why this signal matters|explain the significance of|what is the significance of|analy[sz]e this signal)\s*:/i.test(q)
+    /\b(explain why this signal matters|explain the significance of|what is the significance of|analy[sz]e this signal|deeply analyze.*for)\s*:/i.test(q)
   ) {
     return "SIGNAL_ANALYSIS";
   }
 
-  if (looksLikeContextualFollowUp(query)) {
+  if (looksLikeContextualFollowUp(query) || explicitFollowUpOperation(query)) {
     return "FOLLOW_UP";
   }
 
@@ -6222,6 +6475,18 @@ function socialReply(query: string): string {
   return "Hello. What would you like to examine?";
 }
 
+
+function capabilityRequestReply(query: string): string {
+  const raw = query.trim();
+  if (
+    /\b(image|picture|illustration|diagram|visual)\b/i.test(raw) ||
+    /(画像|イメージ|図|イラスト)/.test(raw)
+  ) {
+    return "This Episteme interface is currently an analysis and knowledge-navigation system, not an image-generation surface. I will not substitute an unrelated ArcheNova signal. You can ask me to analyze the scientific or technical content behind the image you want, or use a dedicated image-generation capability outside this Episteme interface.";
+  }
+  return "That request requires a capability outside the current Episteme analysis surface. I will not replace it with an unrelated signal.";
+}
+
 function actionRequestReply(query: string): string {
   const raw = query.trim();
   if (/compare|比較/i.test(raw)) {
@@ -6263,6 +6528,108 @@ function getActiveEpistemicSignal(
   }
 
   return null;
+}
+
+
+function explicitFollowUpOperation(query: string): boolean {
+  const q = normalize(query);
+
+  return (
+    /\b(which requirement|failure mode|recovery test|boundary condition|measured quantity|independent measurement|replication|what comparator|which endpoint|what evidence|which evidence|what would falsify|what would change the conclusion|what assumption|what alternative|why does this matter|why this matters)\b/.test(q) ||
+    /(どの.*要件|失敗モード|回復.*テスト|境界条件|測定量|独立.*再現|再現実験|どの.*エンドポイント|どの.*証拠|何が.*反証|どの.*仮定|代替説明)/.test(query)
+  );
+}
+
+function semanticContinuityScore(
+  query: string,
+  signal: SignalItem | null,
+): number {
+  if (!signal) return 0;
+
+  const qWords = words(query);
+  if (qWords.length === 0) return 0;
+
+  const corpus = new Set(
+    words(
+      `${signal.title} ${sanitizeSignalSummary(signal.summary)} ${signal.category}`,
+    ),
+  );
+
+  const shared = qWords.filter((word) => corpus.has(word)).length;
+  const titleWords = new Set(words(signal.title));
+  const sharedTitle = qWords.filter((word) => titleWords.has(word)).length;
+
+  return sharedTitle * 4 + shared * 2;
+}
+
+function resolveObjectFirewall(
+  query: string,
+  conversationIntent: ConversationIntent,
+  previousMessages: DialogueMessage[],
+  signals: SignalItem[],
+): {
+  decision: ObjectResolutionDecision;
+  activeSignal: SignalItem | null;
+  explicitSignal: SignalItem | null;
+} {
+  const explicitSignal = findExplicitSignalReference(query, signals);
+  const activeSignal = getActiveEpistemicSignal(previousMessages, signals);
+
+  if (conversationIntent === "INTERNAL_CORPUS_QUERY") {
+    return {
+      decision: "INTERNAL_CORPUS",
+      activeSignal: null,
+      explicitSignal: null,
+    };
+  }
+
+  if (
+    conversationIntent === "SOCIAL" ||
+    conversationIntent === "META" ||
+    conversationIntent === "ACTION_REQUEST" ||
+    conversationIntent === "CAPABILITY_REQUEST"
+  ) {
+    return {
+      decision: "NO_OBJECT",
+      activeSignal: null,
+      explicitSignal: null,
+    };
+  }
+
+  if (explicitSignal) {
+    return {
+      decision: "NEW_OBJECT",
+      activeSignal,
+      explicitSignal,
+    };
+  }
+
+  if (conversationIntent === "FOLLOW_UP" && activeSignal) {
+    if (explicitFollowUpOperation(query)) {
+      return {
+        decision: "SAME_OBJECT",
+        activeSignal,
+        explicitSignal: null,
+      };
+    }
+
+    const continuity = semanticContinuityScore(query, activeSignal);
+    if (continuity >= 4 || looksLikeContextualFollowUp(query)) {
+      return {
+        decision: "SAME_OBJECT",
+        activeSignal,
+        explicitSignal: null,
+      };
+    }
+  }
+
+  // Short/new standalone queries do not inherit an old object merely because
+  // retrieval is weak. This is the central Stage 6.6.2 firewall.
+  return {
+    decision: "NO_OBJECT",
+    activeSignal: null,
+    explicitSignal: null,
+  };
 }
 
 function findExplicitSignalReference(
@@ -7336,6 +7703,818 @@ function buildAdaptiveScholarlyResponse(args: {
   };
 }
 
+
+function buildInternalCorpusAnswer(
+  query: string,
+  signals: SignalItem[],
+): {
+  directAnswer: string;
+  reasoning: string;
+  selectedSignals: SignalItem[];
+} {
+  const ranked = rankInternalCorpus(signals, 5);
+
+  if (ranked.length === 0) {
+    return {
+      directAnswer:
+        "ArcheNova's current internal index does not contain enough usable signals to produce a ranked research brief.",
+      reasoning:
+        "No internal object should be invented or replaced with external web information when the request is explicitly about ArcheNova's indexed corpus.",
+      selectedSignals: [],
+    };
+  }
+
+  const top = ranked[0];
+  const list = ranked
+    .map(
+      ({ signal, score }, index) =>
+        `${index + 1}. ${signal.title} — attention ${(score.total * 100).toFixed(0)}/100`,
+    )
+    .join("\n");
+
+  const directAnswer =
+    `The ArcheNova signal that currently deserves the deepest attention is “${top.signal.title}”. ` +
+    `It ranks highest in the internal index on a combined attention score that balances novelty, evidence density, consequence, transferability, falsifiability, and ArcheNova relevance.`;
+
+  const reasoning =
+    `${list}\n\n` +
+    `Deepest attention is not equivalent to newest publication. The ranking favors signals that can change a scientific or technical baseline while remaining testable and correctable.`;
+
+  return {
+    directAnswer,
+    reasoning,
+    selectedSignals: ranked.map((item) => item.signal),
+  };
+}
+
+
+function missionObjectiveForIntent(
+  query: string,
+  intent: IntentModel,
+  conversationIntent: ConversationIntent,
+): string {
+  if (conversationIntent === "INTERNAL_CORPUS_QUERY") {
+    return "Rank the strongest ArcheNova-indexed knowledge objects, identify the highest-value target, and justify the ranking without substituting external web coverage.";
+  }
+
+  if (conversationIntent === "FOLLOW_UP") {
+    return "Answer the requested operation on the locked epistemic object without replaying the entire article analysis or changing the claim family.";
+  }
+
+  if (intent.primaryIntent === "SIGNIFICANCE") {
+    return "Establish what the source actually reports, identify the deepest defensible significance, test the strongest competing interpretation, and state the decisive reality-contact test.";
+  }
+
+  if (intent.primaryIntent === "CAUSAL") {
+    return "Separate observation from mechanism, identify credible alternatives, and find the minimum discriminating evidence capable of changing the causal conclusion.";
+  }
+
+  if (intent.primaryIntent === "COMPARE") {
+    return "Compare the named objects under symmetric criteria and identify the condition that would reverse the ranking.";
+  }
+
+  if (intent.primaryIntent === "DESIGN") {
+    return "Translate only validated structure into a minimum testable architecture with explicit operating, failure, and recovery conditions.";
+  }
+
+  if (intent.primaryIntent === "FORECAST") {
+    return "Separate observed state from transition assumptions and identify the trigger, bottleneck, and disconfirming observation that govern the forecast.";
+  }
+
+  return `Resolve the user's question while preserving object identity, source truth, evidence boundaries, and a concrete correction path: ${query.trim()}`;
+}
+
+function compileEpistemeMission(args: {
+  query: string;
+  intentModel: IntentModel;
+  conversationIntent: ConversationIntent;
+  lead: SignalItem | null;
+  relevant: SignalItem[];
+  epistemicParse: EpistemicParse;
+  epistemicContract: EpistemicContract;
+  evidenceAudit: EvidenceAudit;
+  claimIdentity: EpistemicClaimIdentity | null;
+}): EpistemeMission {
+  const {
+    query,
+    intentModel,
+    conversationIntent,
+    lead,
+    relevant,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+  } = args;
+
+  const target =
+    claimIdentity?.coreClaim ||
+    lead?.title ||
+    epistemicParse.object ||
+    query.trim();
+
+  const result = lead ? recoverResultProposition(lead) : null;
+  const sourceTruth = lead
+    ? extractResultBearingProposition(lead)?.proposition ||
+      result ||
+      sanitizeSignalSummary(lead.summary) ||
+      lead.title
+    : "";
+
+  const admittedIds = evidenceAudit.admittedSignalIds;
+  const competing = relevant.find((signal) => signal.id !== lead?.id) ?? null;
+
+  const subtasks: MissionSubtask[] = [
+    {
+      id: "object",
+      label: "Object lock",
+      governingQuestion: "What exact epistemic object is being evaluated?",
+      status: lead ? "SATISFIED" : "BLOCKED",
+      signalIds: lead ? [lead.id] : [],
+      finding: lead
+        ? `Locked to “${lead.title}”.`
+        : "No primary ArcheNova-indexed object is currently established.",
+    },
+    {
+      id: "source-truth",
+      label: "Source truth",
+      governingQuestion: "What result-bearing proposition does the source actually support?",
+      status: sourceTruth ? "SATISFIED" : "BLOCKED",
+      signalIds: lead ? [lead.id] : [],
+      finding: sourceTruth || "No result-bearing proposition has been recovered.",
+    },
+    {
+      id: "claim",
+      label: "Claim discrimination",
+      governingQuestion: "What claim family and evidence contract govern this proposition?",
+      status:
+        epistemicParse.claimType === "UNKNOWN" ? "ACTIVE" : "SATISFIED",
+      signalIds: lead ? [lead.id] : [],
+      finding:
+        epistemicParse.claimType === "UNKNOWN"
+          ? "Claim family remains unresolved; downstream conclusions must remain narrow."
+          : `${epistemicParse.claimType} · ${epistemicContract.validationModes.join(" + ") || "claim-specific validation"}.`,
+    },
+    {
+      id: "counterevidence",
+      label: "Counterevidence",
+      governingQuestion: "What evidence or alternative could overturn the current interpretation?",
+      status: competing ? "SATISFIED" : "ACTIVE",
+      signalIds: competing ? [competing.id] : [],
+      finding: competing
+        ? `Strongest admitted adjacent object: “${competing.title}”.`
+        : epistemicContract.alternativeExplanation,
+    },
+    {
+      id: "evidence",
+      label: "Evidence burden",
+      governingQuestion: "Which requirements are satisfied, missing, or still only source-reported?",
+      status:
+        evidenceAudit.overallStrength === "STRONG" ||
+        evidenceAudit.overallStrength === "MODERATE"
+          ? "SATISFIED"
+          : evidenceAudit.overallStrength === "INSUFFICIENT"
+            ? "BLOCKED"
+            : "ACTIVE",
+      signalIds: admittedIds,
+      finding: evidenceAudit.summary,
+    },
+    {
+      id: "reality",
+      label: "Reality contact",
+      governingQuestion: "Which decisive test would most efficiently change the conclusion?",
+      status: epistemicContract.realityTest ? "SATISFIED" : "ACTIVE",
+      signalIds: admittedIds,
+      finding: epistemicContract.realityTest,
+    },
+  ];
+
+  return {
+    id: `mission-${lead?.id || "null"}-${normalize(query).slice(0, 28).replace(/\s+/g, "-")}`,
+    objective: missionObjectiveForIntent(query, intentModel, conversationIntent),
+    target,
+    claimType: epistemicParse.claimType,
+    sourcePolicy:
+      "ArcheNova-indexed Signals and report-like internal intelligence first. Semantic similarity alone cannot promote an object into evidence. External web information is not silently substituted.",
+    subtasks,
+    stopConditions: [
+      "the epistemic object is stable",
+      "a source-supported proposition is explicit or its absence is stated",
+      "the governing claim family is explicit or intentionally unresolved",
+      "the strongest credible alternative or evidence gap is named",
+      "the evidence boundary is explicit",
+      "a decisive reality-contact or correction test is identified",
+      "additional internal retrieval would not materially change the bounded conclusion",
+    ],
+  };
+}
+
+function runAutonomousReasoningLoop(args: {
+  mission: EpistemeMission;
+  query: string;
+  conversationIntent: ConversationIntent;
+  lead: SignalItem | null;
+  relevant: SignalItem[];
+  epistemicParse: EpistemicParse;
+  epistemicContract: EpistemicContract;
+  evidenceAudit: EvidenceAudit;
+  claimIdentity: EpistemicClaimIdentity | null;
+}): ReasoningPass[] {
+  const {
+    mission,
+    query,
+    conversationIntent,
+    lead,
+    relevant,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+  } = args;
+
+  const passes: ReasoningPass[] = [];
+  const result = lead ? recoverResultProposition(lead) : null;
+  const explicitProposition = lead
+    ? extractResultBearingProposition(lead)?.proposition || result
+    : null;
+
+  passes.push({
+    kind: "OBJECT LOCK",
+    status: lead ? "PASS" : "BLOCKED",
+    finding: lead
+      ? `The mission remains anchored to “${lead.title}”; later wording may change the requested operation but not silently replace the object.`
+      : "No primary object is established; substantive article-level reasoning must abstain.",
+    signalIds: lead ? [lead.id] : [],
+  });
+
+  passes.push({
+    kind: "SOURCE TRUTH",
+    status: explicitProposition ? "PASS" : lead ? "LIMITED" : "BLOCKED",
+    finding: explicitProposition
+      ? `Recovered source proposition: ${stripTerminalPunctuation(explicitProposition)}.`
+      : lead
+        ? "The indexed summary does not expose a sufficiently distinct result-bearing proposition; interpretation must not outrun the source."
+        : "No source proposition can be evaluated without a primary object.",
+    signalIds: lead ? [lead.id] : [],
+  });
+
+  passes.push({
+    kind: "CLAIM DISCRIMINATION",
+    status: epistemicParse.claimType === "UNKNOWN" ? "LIMITED" : "PASS",
+    finding:
+      epistemicParse.claimType === "UNKNOWN"
+        ? "Claim type remains UNKNOWN. The mission may describe the source but must not inherit a stronger scientific, engineering, clinical, or institutional contract."
+        : `Claim family locked as ${epistemicParse.claimType}; evidence must satisfy that family rather than domain vocabulary.`,
+    signalIds: lead ? [lead.id] : [],
+  });
+
+  const admittedRelated = relevant.filter(
+    (signal) =>
+      signal.id !== lead?.id &&
+      evidenceAudit.admittedSignalIds.includes(signal.id),
+  );
+
+  passes.push({
+    kind: "COUNTEREVIDENCE",
+    status: admittedRelated.length > 0 ? "PASS" : "LIMITED",
+    finding:
+      admittedRelated.length > 0
+        ? `Admitted adjacent evidence includes ${admittedRelated
+            .slice(0, 2)
+            .map((signal) => `“${signal.title}”`)
+            .join(" and ")}.`
+        : `No independent adjacent signal currently resolves the strongest alternative. Required challenge: ${epistemicContract.alternativeExplanation}`,
+    signalIds: admittedRelated.map((signal) => signal.id),
+  });
+
+  const essence =
+    lead
+      ? buildArticleEssence(lead, epistemicParse.claimType, evidenceAudit)
+      : null;
+
+  passes.push({
+    kind: "CONSEQUENCE",
+    status: essence ? "PASS" : "BLOCKED",
+    finding: essence
+      ? `${essence.deeperPrinciple} ${essence.consequence}`
+      : "No consequence synthesis is released without a primary object.",
+    signalIds: lead ? [lead.id] : [],
+  });
+
+  passes.push({
+    kind: "REALITY TEST",
+    status: epistemicContract.realityTest ? "PASS" : "LIMITED",
+    finding:
+      essence?.decisiveTest ||
+      epistemicContract.realityTest ||
+      "A decisive test has not yet been specified.",
+    signalIds: evidenceAudit.admittedSignalIds,
+  });
+
+  const blockingPasses = passes.filter((pass) => pass.status === "BLOCKED");
+  const limitedPasses = passes.filter((pass) => pass.status === "LIMITED");
+
+  passes.push({
+    kind: "STOP CHECK",
+    status: blockingPasses.length > 0 ? "BLOCKED" : "PASS",
+    finding:
+      blockingPasses.length > 0
+        ? `Mission cannot claim full resolution because ${blockingPasses.length} required pass${blockingPasses.length === 1 ? " is" : "es are"} blocked.`
+        : limitedPasses.length > 0
+          ? `Mission has enough structure to answer, but ${limitedPasses.length} pass${limitedPasses.length === 1 ? " remains" : "es remain"} evidence-limited.`
+          : "Mission stop conditions are satisfied for the current internal evidence state; more prose would not increase evidential strength.",
+    signalIds: evidenceAudit.admittedSignalIds,
+  });
+
+  return passes;
+}
+
+function runSelfCritiqueGate(args: {
+  query: string;
+  conversationIntent: ConversationIntent;
+  lead: SignalItem | null;
+  epistemicParse: EpistemicParse;
+  evidenceAudit: EvidenceAudit;
+  claimIdentity: EpistemicClaimIdentity | null;
+  passes: ReasoningPass[];
+  directAnswer: string;
+  reasoning: string;
+}): SelfCritiqueGate {
+  const {
+    query,
+    conversationIntent,
+    lead,
+    epistemicParse,
+    evidenceAudit,
+    claimIdentity,
+    passes,
+    directAnswer,
+    reasoning,
+  } = args;
+
+  const responseText = normalize(`${directAnswer} ${reasoning}`);
+  const sourceText = lead ? sanitizeSignalSummary(lead.summary) : "";
+  const metadataLeak =
+    /\barxiv:\s*\d|announce type:|abstract:\s*/i.test(
+      `${directAnswer} ${reasoning}`,
+    );
+
+  const checks: SelfCritiqueCheck[] = [
+    {
+      id: "object",
+      label: "Correct object",
+      passed:
+        conversationIntent === "SOCIAL" ||
+        conversationIntent === "CAPABILITY_REQUEST" ||
+        Boolean(lead),
+      note: lead
+        ? `Active object: “${lead.title}”.`
+        : "No article-level object is released.",
+    },
+    {
+      id: "metadata",
+      label: "Metadata is not evidence",
+      passed: !metadataLeak,
+      note: metadataLeak
+        ? "Raw feed metadata leaked into the response path."
+        : "No arXiv/feed metadata is treated as a scientific proposition in the answer.",
+    },
+    {
+      id: "claim-family",
+      label: "Domain is not claim type",
+      passed:
+        epistemicParse.claimType !== "UNKNOWN" ||
+        evidenceAudit.overallStrength === "INSUFFICIENT" ||
+        evidenceAudit.overallStrength === "LIMITED",
+      note:
+        epistemicParse.claimType === "UNKNOWN"
+          ? "Claim family remains unresolved and must stay explicitly bounded."
+          : `Claim family: ${epistemicParse.claimType}.`,
+    },
+    {
+      id: "source-truth",
+      label: "Source truth separated from interpretation",
+      passed:
+        !lead ||
+        Boolean(
+          extractResultBearingProposition(lead)?.proposition ||
+          recoverResultProposition(lead) ||
+          sourceText,
+        ),
+      note:
+        lead
+          ? "A traceable source proposition or explicit source-boundary is available."
+          : "No primary source is attached.",
+    },
+    {
+      id: "follow-up",
+      label: "Follow-up answers the requested operation",
+      passed:
+        conversationIntent !== "FOLLOW_UP" ||
+        explicitFollowUpOperation(query) ||
+        !/\bcentral thesis|article essence\b/.test(responseText),
+      note:
+        conversationIntent === "FOLLOW_UP"
+          ? "Follow-up must operate on the locked claim rather than restart article-wide analysis."
+          : "Not a follow-up operation.",
+    },
+    {
+      id: "evidence",
+      label: "Claim strength does not exceed evidence",
+      passed:
+        evidenceAudit.overallStrength !== "INSUFFICIENT" ||
+        /\b(insufficient|unknown|not|cannot|do not|does not)\b/.test(responseText),
+      note: `Evidence state: ${evidenceAudit.overallStrength}.`,
+    },
+    {
+      id: "stop",
+      label: "Reasoning loop has an explicit stop condition",
+      passed:
+        passes.some(
+          (pass) =>
+            pass.kind === "STOP CHECK" &&
+            pass.status !== "BLOCKED",
+        ),
+      note:
+        passes.find((pass) => pass.kind === "STOP CHECK")?.finding ||
+        "No stop check was produced.",
+    },
+  ];
+
+  const failed = checks.filter((check) => !check.passed);
+  const corrections: string[] = [];
+
+  if (metadataLeak) {
+    corrections.push(
+      "Strip raw source metadata before rendering source truth or evidence boundaries.",
+    );
+  }
+
+  if (epistemicParse.claimType === "UNKNOWN") {
+    corrections.push(
+      "Keep the conclusion descriptive until the claim family can be recovered from the source predicate and result proposition.",
+    );
+  }
+
+  if (
+    evidenceAudit.overallStrength === "INSUFFICIENT" ||
+    evidenceAudit.overallStrength === "LIMITED"
+  ) {
+    corrections.push(
+      "Do not convert source-reported novelty into demonstrated general capability; keep the decisive test visible.",
+    );
+  }
+
+  if (conversationIntent === "FOLLOW_UP") {
+    corrections.push(
+      "Return the requested claim-specific operation directly; do not replay the full article template.",
+    );
+  }
+
+  const hardFailure = failed.some(
+    (check) =>
+      check.id === "object" ||
+      check.id === "metadata" ||
+      check.id === "stop",
+  );
+
+  return {
+    status: hardFailure
+      ? "BLOCKED"
+      : failed.length > 0 || corrections.length > 0
+        ? "PASS_WITH_LIMITS"
+        : "PASS",
+    checks,
+    corrections: Array.from(new Set(corrections)),
+    releaseRule:
+      "Release the answer only at the strongest level that survives object identity, source-truth separation, claim-family consistency, evidence bounds, follow-up directness, and an explicit stop check.",
+  };
+}
+
+function buildAstraCoreState(args: {
+  query: string;
+  intentModel: IntentModel;
+  conversationIntent: ConversationIntent;
+  lead: SignalItem | null;
+  relevant: SignalItem[];
+  epistemicParse: EpistemicParse;
+  epistemicContract: EpistemicContract;
+  evidenceAudit: EvidenceAudit;
+  claimIdentity: EpistemicClaimIdentity | null;
+  directAnswer: string;
+  reasoning: string;
+}): AstraCoreState {
+  const mission = compileEpistemeMission({
+    query: args.query,
+    intentModel: args.intentModel,
+    conversationIntent: args.conversationIntent,
+    lead: args.lead,
+    relevant: args.relevant,
+    epistemicParse: args.epistemicParse,
+    epistemicContract: args.epistemicContract,
+    evidenceAudit: args.evidenceAudit,
+    claimIdentity: args.claimIdentity,
+  });
+
+  const passes = runAutonomousReasoningLoop({
+    mission,
+    query: args.query,
+    conversationIntent: args.conversationIntent,
+    lead: args.lead,
+    relevant: args.relevant,
+    epistemicParse: args.epistemicParse,
+    epistemicContract: args.epistemicContract,
+    evidenceAudit: args.evidenceAudit,
+    claimIdentity: args.claimIdentity,
+  });
+
+  const critique = runSelfCritiqueGate({
+    query: args.query,
+    conversationIntent: args.conversationIntent,
+    lead: args.lead,
+    epistemicParse: args.epistemicParse,
+    evidenceAudit: args.evidenceAudit,
+    claimIdentity: args.claimIdentity,
+    passes,
+    directAnswer: args.directAnswer,
+    reasoning: args.reasoning,
+  });
+
+  const stopPass = passes.find((pass) => pass.kind === "STOP CHECK");
+  const consequencePass = passes.find((pass) => pass.kind === "CONSEQUENCE");
+  const realityPass = passes.find((pass) => pass.kind === "REALITY TEST");
+
+  return {
+    mission,
+    passes,
+    critique,
+    stopReason:
+      stopPass?.finding ||
+      "The mission ends when additional internal reasoning no longer changes the bounded conclusion.",
+    synthesis:
+      [
+        consequencePass?.finding,
+        realityPass?.finding
+          ? `Decisive reality contact: ${realityPass.finding}`
+          : "",
+      ]
+        .filter(Boolean)
+        .join(" "),
+  };
+}
+
+function applySelfCritiqueRelease(args: {
+  astraCore: AstraCoreState;
+  directAnswer: string;
+  reasoning: string;
+  uncertainty: string;
+  nextAction: string;
+}): {
+  directAnswer: string;
+  reasoning: string;
+  uncertainty: string;
+  nextAction: string;
+} {
+  const { astraCore } = args;
+
+  if (astraCore.critique.status === "BLOCKED") {
+    return {
+      directAnswer:
+        "Episteme cannot release a stronger substantive conclusion because the mission failed a required self-critique gate.",
+      reasoning:
+        `${args.reasoning} ${astraCore.critique.corrections.join(" ")}`.trim(),
+      uncertainty:
+        `${args.uncertainty} The current mission remains blocked by an object, source-truth, metadata, or stopping-condition failure.`.trim(),
+      nextAction:
+        astraCore.critique.corrections[0] ||
+        args.nextAction ||
+        "Repair the failed epistemic gate before extending the claim.",
+    };
+  }
+
+  if (astraCore.critique.status === "PASS_WITH_LIMITS") {
+    return {
+      directAnswer: args.directAnswer,
+      reasoning: args.reasoning,
+      uncertainty:
+        `${args.uncertainty} Self-critique status: PASS WITH LIMITS. ${astraCore.critique.corrections.join(" ")}`.trim(),
+      nextAction: args.nextAction,
+    };
+  }
+
+  return {
+    directAnswer: args.directAnswer,
+    reasoning: args.reasoning,
+    uncertainty: args.uncertainty,
+    nextAction: args.nextAction,
+  };
+}
+
+
+function buildCapabilityRequestIntelligence(
+  query: string,
+  signals: SignalItem[],
+  conversationIntent: ConversationIntent,
+): IntelligenceObject {
+  const directAnswer = capabilityRequestReply(query);
+  const intentModel = buildIntentModel(query, "ask");
+  const epistemicParse = parseEpistemicStructure(query, intentModel, null);
+  const realityModel = buildRealityModel(epistemicParse);
+  const kind = queryKindFromIntent(intentModel);
+  const epistemicContract = buildEpistemicContract(
+    epistemicParse,
+    realityModel,
+    intentModel,
+    kind,
+  );
+  const evidenceAudit = auditEvidence(
+    epistemicContract,
+    null,
+    [],
+    [],
+  );
+  const inquiry = buildInquiryState({
+    query,
+    kind,
+    strength: "INSUFFICIENT",
+    lead: null,
+    directAnswer,
+    alternative: "",
+    contract: epistemicContract,
+  });
+
+  const adaptiveResponse = buildAdaptiveScholarlyResponse({
+    mode: "ask",
+    query,
+    directAnswer,
+    reasoning:
+      "Capability routing is separated from epistemic retrieval. An unsupported tool request must not inherit the previous scientific object.",
+    alternative: "",
+    challenge: "",
+    falsification: "",
+    nextAction: "",
+    uncertainty: "",
+    evidence: "",
+    inquiry,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity: null,
+    objectState: "NONE",
+    conversationIntent,
+    lead: null,
+    second: null,
+  });
+
+  return {
+    interpretation: adaptiveResponse.plainText,
+    evidence: "",
+    uncertainty: "",
+    nextQuestions: [],
+    signalIds: [],
+    queryKind: kind,
+    evidenceStrength: "INSUFFICIENT",
+    inquiry,
+    intentModel,
+    epistemicParse,
+    contextAssessment: [],
+    realityModel,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity: null,
+    objectState: "NONE",
+    conversationIntent,
+    adaptiveResponse,
+  };
+}
+
+function buildInternalCorpusIntelligence(
+  query: string,
+  signals: SignalItem[],
+  conversationIntent: ConversationIntent,
+): IntelligenceObject {
+  const corpus = buildInternalCorpusAnswer(query, signals);
+  const lead = corpus.selectedSignals[0] ?? null;
+  const second = corpus.selectedSignals[1] ?? null;
+  const intentModel = buildIntentModel(query, "ask");
+  const kind = queryKindFromIntent(intentModel);
+
+  const claimIdentity = lead ? buildEpistemicClaimIdentity(lead) : null;
+  const epistemicParse =
+    lead && claimIdentity
+      ? buildParseFromClaimIdentity(claimIdentity, lead)
+      : parseEpistemicStructure(query, intentModel, null);
+
+  const realityModel = buildRealityModel(epistemicParse);
+  const epistemicContract = buildEpistemicContract(
+    epistemicParse,
+    realityModel,
+    intentModel,
+    kind,
+  );
+
+  const contextAssessment: ContextAssessment[] = corpus.selectedSignals.map(
+    (signal, index) => ({
+      signalId: signal.id,
+      role: index === 0 ? "PRIMARY" : "SUPPORTING",
+      score: 100 - index * 8,
+    }),
+  );
+
+  const evidenceAudit = auditEvidence(
+    epistemicContract,
+    lead,
+    corpus.selectedSignals,
+    contextAssessment,
+  );
+
+  const inquiry = buildInquiryState({
+    query,
+    kind,
+    strength: evidenceAudit.overallStrength,
+    lead,
+    directAnswer: corpus.directAnswer,
+    alternative:
+      "The ranking may change when a lower-ranked signal has stronger independent replication, a larger real-world consequence, or a more discriminating result than the current internal summary exposes.",
+    contract: epistemicContract,
+  });
+
+  const astraCore = buildAstraCoreState({
+    query,
+    intentModel,
+    conversationIntent,
+    lead,
+    relevant: corpus.selectedSignals,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+    directAnswer: corpus.directAnswer,
+    reasoning: corpus.reasoning,
+  });
+
+  const released = applySelfCritiqueRelease({
+    astraCore,
+    directAnswer: corpus.directAnswer,
+    reasoning: corpus.reasoning,
+    uncertainty:
+      "This is an ArcheNova-internal prioritization, not a claim that the selected item is objectively the world's most important research result.",
+    nextAction: lead
+      ? `Deepen “${lead.title}” or enter Signal Space to inspect its internal knowledge neighborhood.`
+      : "",
+  });
+
+  const adaptiveResponse = buildAdaptiveScholarlyResponse({
+    mode: "ask",
+    query,
+    directAnswer: released.directAnswer,
+    reasoning: released.reasoning,
+    alternative: "",
+    challenge: "",
+    falsification: "",
+    nextAction: released.nextAction,
+    uncertainty: released.uncertainty,
+    evidence: evidenceAudit.summary,
+    inquiry,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+    objectState: lead ? "SIGNAL" : "NONE",
+    conversationIntent,
+    lead,
+    second,
+  });
+
+  return {
+    interpretation: adaptiveResponse.plainText,
+    evidence: evidenceAudit.summary,
+    uncertainty: released.uncertainty,
+    nextQuestions: lead
+      ? [
+          `Explain the deepest defensible significance of: ${lead.title}`,
+          "Which indexed signal most strongly challenges this ranking?",
+          "Which decisive test would most change the current conclusion?",
+        ]
+      : [],
+    signalIds: corpus.selectedSignals.map((signal) => signal.id),
+    queryKind: kind,
+    evidenceStrength: evidenceAudit.overallStrength,
+    inquiry,
+    intentModel,
+    epistemicParse,
+    contextAssessment,
+    realityModel,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+    objectState: lead ? "SIGNAL" : "NONE",
+    conversationIntent,
+    adaptiveResponse,
+    astraCore,
+  };
+}
+
 function buildIntelligence(
   query: string,
   mode: DialogueMode,
@@ -7343,18 +8522,146 @@ function buildIntelligence(
   previousMessages: DialogueMessage[],
 ): IntelligenceObject {
   const conversationIntent = classifyConversationIntent(query, previousMessages);
+  const objectFirewall = resolveObjectFirewall(
+    query,
+    conversationIntent,
+    previousMessages,
+    signals,
+  );
   const intentModel = buildIntentModel(query, mode);
   const kind = queryKindFromIntent(intentModel);
+
+  if (conversationIntent === "CAPABILITY_REQUEST") {
+    return buildCapabilityRequestIntelligence(
+      query,
+      signals,
+      conversationIntent,
+    );
+  }
+
+  if (conversationIntent === "INTERNAL_CORPUS_QUERY") {
+    return buildInternalCorpusIntelligence(
+      query,
+      signals,
+      conversationIntent,
+    );
+  }
 
   // Stage 6.4.5: resolve object continuity before retrieval.
   // Contextual follow-ups keep the previous PRIMARY signal anchored.
   // Explicit semantic discontinuity releases the lock.
   // Fuzzy similarity alone never silently replaces an active object.
-  const objectResolution = resolveEpistemicObject(
+  const baseObjectResolution = resolveEpistemicObject(
     query,
     signals,
     previousMessages,
   );
+
+  const objectResolution: EpistemicObjectResolution =
+    objectFirewall.decision === "SAME_OBJECT" && objectFirewall.activeSignal
+      ? {
+          primarySignal: objectFirewall.activeSignal,
+          isFollowUp: true,
+          anchoredFromConversation: true,
+          objectState: "SIGNAL",
+          retrievalAccepted: true,
+          retrievalRationale:
+            "Object Resolution Firewall preserved the active object for an explicit follow-up operation.",
+        }
+      : objectFirewall.decision === "NEW_OBJECT" && objectFirewall.explicitSignal
+        ? {
+            primarySignal: objectFirewall.explicitSignal,
+            isFollowUp: false,
+            anchoredFromConversation: false,
+            objectState: "SIGNAL",
+            retrievalAccepted: true,
+            retrievalRationale:
+              "Object Resolution Firewall selected the explicitly referenced signal.",
+          }
+        : baseObjectResolution;
+
+  if (
+    objectFirewall.decision === "NO_OBJECT" &&
+    conversationIntent === "NEW_INQUIRY"
+  ) {
+    const intentModel = buildIntentModel(query, "ask");
+    const epistemicParse = parseEpistemicStructure(query, intentModel, null);
+    const realityModel = buildRealityModel(epistemicParse);
+    const nullObjectKind = queryKindFromIntent(intentModel);
+    const epistemicContract = buildEpistemicContract(
+      epistemicParse,
+      realityModel,
+      intentModel,
+      nullObjectKind,
+    );
+    const evidenceAudit = auditEvidence(
+      epistemicContract,
+      null,
+      [],
+      [],
+    );
+    const inquiry = buildInquiryState({
+      query,
+      kind: nullObjectKind,
+      strength: evidenceAudit.overallStrength,
+      lead: null,
+      directAnswer:
+        `I do not have a sufficiently relevant ArcheNova-indexed object for “${query.trim()}”, and I will not inherit or substitute the previous signal.`,
+      alternative: "",
+      contract: epistemicContract,
+    });
+
+    const directAnswer =
+      `I do not have a sufficiently relevant ArcheNova-indexed object for “${query.trim()}”, and I will not inherit or substitute the previous signal.`;
+
+    const adaptiveResponse = buildAdaptiveScholarlyResponse({
+      mode: "ask",
+      query,
+      directAnswer,
+      reasoning:
+        "A new standalone query must establish its own epistemic object. Weak retrieval similarity is not enough to reuse the previous article.",
+      alternative: "",
+      challenge: "",
+      falsification: "",
+      nextAction:
+        "Name a specific ArcheNova signal, paper, mechanism, technology, or claim if you want a deep analysis.",
+      uncertainty:
+        "Absence from the current ArcheNova index does not imply the topic is false or unimportant.",
+      evidence: "",
+      inquiry,
+      epistemicParse,
+      epistemicContract,
+      evidenceAudit,
+      claimIdentity: null,
+      objectState: "NONE",
+      conversationIntent,
+      lead: null,
+      second: null,
+    });
+
+    return {
+      interpretation: adaptiveResponse.plainText,
+      evidence: "",
+      uncertainty:
+        "No sufficiently relevant internal object was established.",
+      nextQuestions: [],
+      signalIds: [],
+      queryKind: nullObjectKind,
+      evidenceStrength: "INSUFFICIENT",
+      inquiry,
+      intentModel,
+      epistemicParse,
+      contextAssessment: [],
+      realityModel,
+      epistemicContract,
+      evidenceAudit,
+      claimIdentity: null,
+      objectState: "NONE",
+      conversationIntent,
+      adaptiveResponse,
+    };
+  }
+
   const primarySignal = objectResolution.primarySignal;
 
   // Stage 6.4: claim identity belongs to the object, not to the wording of
@@ -7437,7 +8744,8 @@ function buildIntelligence(
   let nextQuestions: string[] = [];
 
   if (!lead) {
-    if (conversationIntent === "SOCIAL") {
+    
+  if (conversationIntent === "SOCIAL") {
       directAnswer = socialReply(query);
       reasoning = "";
       alternative = "";
@@ -7762,6 +9070,33 @@ function buildIntelligence(
       `${evidenceBoundary} Simulation remains counterfactual reasoning rather than observation, and every conclusion is conditional on the stated assumptions.`;
   }
 
+  const astraCore = buildAstraCoreState({
+    query,
+    intentModel,
+    conversationIntent,
+    lead,
+    relevant,
+    epistemicParse,
+    epistemicContract,
+    evidenceAudit,
+    claimIdentity,
+    directAnswer,
+    reasoning,
+  });
+
+  const released = applySelfCritiqueRelease({
+    astraCore,
+    directAnswer,
+    reasoning,
+    uncertainty,
+    nextAction,
+  });
+
+  directAnswer = released.directAnswer;
+  reasoning = released.reasoning;
+  uncertainty = released.uncertainty;
+  nextAction = released.nextAction;
+
   const adaptiveResponse = buildAdaptiveScholarlyResponse({
     mode,
     query,
@@ -7805,6 +9140,7 @@ function buildIntelligence(
     objectState: objectResolution.objectState,
     conversationIntent,
     adaptiveResponse,
+    astraCore,
   };
 }
 
@@ -7901,7 +9237,7 @@ function buildSignalSpaceModel(
     sourceTruth:
       essence?.sourceTruth ||
       intelligence.claimIdentity?.reportedResult ||
-      primary?.summary ||
+      (primary ? sanitizeSignalSummary(primary.summary) : "") ||
       primary?.title ||
       "No primary source proposition is available.",
     evidenceBoundary:
@@ -7916,6 +9252,9 @@ function buildSignalSpaceModel(
       nodes.length > 0
         ? `${nodes.length} ArcheNova-indexed knowledge objects remain close enough to the active signal to support deeper exploration without leaving the current evidence space.`
         : "No adjacent ArcheNova knowledge object passes the current relevance boundary. The space remains centered on the primary signal rather than filling the scene with weak associations.",
+    missionStatus: intelligence.astraCore
+      ? `${intelligence.astraCore.critique.status} · ${intelligence.astraCore.stopReason}`
+      : undefined,
   };
 }
 
@@ -9325,6 +10664,12 @@ useEffect(() => {
               <span>DECISIVE TEST</span>
               <p>{signalSpaceModel.decisiveTest}</p>
             </section>
+            {signalSpaceModel.missionStatus && (
+              <section>
+                <span>MISSION GATE</span>
+                <p>{signalSpaceModel.missionStatus}</p>
+              </section>
+            )}
             <footer>
               <p>{signalSpaceModel.knowledgeStatement}</p>
               <button

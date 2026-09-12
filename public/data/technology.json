@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-12T05:26:40.090Z",
+  "updated": "2026-09-12T06:09:39.931Z",
   "items": [
     {
       "source": "OpenAI",
@@ -199,6 +199,24 @@
       "ts": 1789128600000,
       "publishedAt": "2026-09-11T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Ambassadors mark 9/11 with counter-terrorism push on AI and drones",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168318",
+      "summary": "The Security Council met to mark 25 years since the 9/11 attacks, with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's counter…",
+      "ts": 1789128000000,
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "The world just had the hottest August ever",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168317",
+      "summary": "Earth just had the hottest August on record, according to newly released weather data.",
+      "ts": 1789128000000,
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1789050147000,
       "publishedAt": "2026-09-10T14:22:27.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "10 CDMO Up & Comers 2026",
-      "url": "https://www.genengnews.com/topics/bioprocessing/10-cdmo-up-comers-2026/",
-      "summary": "As one notable company exits the field, growing CDMOs open facilities and secure major contracts. The companies are listed here for making headlines with facility openings, major contracts, and other significant actions,…",
-      "ts": 1789050057000,
-      "publishedAt": "2026-09-10T14:20:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Name our dino – ESA’s Hera asteroid mission mascot!",
-      "url": "https://www.esa.int/Space_Safety/Hera/Name_our_dino_ESA_s_Hera_asteroid_mission_mascot",
-      "summary": "The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people …",
-      "ts": 1789048800000,
-      "publishedAt": "2026-09-10T14:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
