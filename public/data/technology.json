@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-12T06:53:51.276Z",
+  "updated": "2026-09-12T07:20:32.804Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1789344000000,
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Breast cancer pill from AstraZeneca misses mark in pivotal trial",
+      "url": "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/?utm_campaign=rss",
+      "summary": "A pill from AstraZeneca failed to improve outcomes in closely watched breast cancer study, a result that could limit the use of the medicine.",
+      "ts": 1789196968000,
+      "publishedAt": "2026-09-12T07:09:28.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
@@ -801,15 +810,6 @@
       "summary": "As wet-lab validation becomes increasingly important to support artificial intelligence-enhanced science, research science points out that human-relevant cell models provide an important foundation for testing and confir…",
       "ts": 1789051828000,
       "publishedAt": "2026-09-10T14:50:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Top 10 Contract Development and Manufacturing Organizations 2026",
-      "url": "https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/",
-      "summary": "A majority of biopharmas are expected to increase their reliance on CDMOs in coming years despite rising costs for their services. The post Top 10 Contract Development and Manufacturing Organizations 2026 appeared first …",
-      "ts": 1789050147000,
-      "publishedAt": "2026-09-10T14:22:27.000Z",
       "categoryId": "bio"
     }
   ],

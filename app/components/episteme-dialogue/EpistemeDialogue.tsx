@@ -777,6 +777,24 @@ type CaseClosureProtocol = {
   reopenCondition: string;
 };
 
+type UnifiedCaseState =
+  | "WORKING"
+  | "READY"
+  | "BOUNDED"
+  | "CLOSED"
+  | "BLOCKED";
+
+type UnifiedCaseStateMachine = {
+  state: UnifiedCaseState;
+  previousState: UnifiedCaseState | null;
+  transition: string;
+  rationale: string;
+  goalProgress: number;
+  evidenceStrength: EvidenceStrength;
+  unresolvedGoals: number;
+};
+
+
 
 
 type AstraCoreState = {
@@ -785,8 +803,10 @@ type AstraCoreState = {
   autonomousSubtasks: AutonomousSubtask[];
   iterativeWorkCycles: IterativeWorkCycle[];
   escalation: SubtaskEscalation;
+  initialCompletionGate: CaseCompletionGate;
   completionGate: CaseCompletionGate;
   closureProtocol: CaseClosureProtocol;
+  caseState: UnifiedCaseStateMachine;
   initialPlan: AdaptiveWorkPlan;
   researchPasses: InternalResearchPass[];
   relationGates: EvidenceRelationGate[];
@@ -9469,6 +9489,7 @@ function buildCaseGoalTree(args: {
   mission: EpistemeMission;
   passes: ReasoningPass[];
   researchPasses: InternalResearchPass[];
+  relationGates: EvidenceRelationGate[];
   evidenceAudit: EvidenceAudit;
   epistemicContract: EpistemicContract;
   critique: SelfCritiqueGate;
@@ -9480,6 +9501,7 @@ function buildCaseGoalTree(args: {
     mission,
     passes,
     researchPasses,
+    relationGates,
     evidenceAudit,
     epistemicContract,
     critique,
@@ -9512,30 +9534,66 @@ function buildCaseGoalTree(args: {
   const research = (kind: InternalResearchPassKind) =>
     researchPasses.find((item) => item.kind === kind);
 
+  const relationForSignal = (signalId: string) =>
+    relationGates.find((gate) => gate.signalId === signalId);
+
+  const evidenceQualifiedSignalIds = new Set([
+    ...evidenceAudit.admittedSignalIds,
+    ...relationGates
+      .filter((gate) => gate.decision === "EVIDENCE")
+      .map((gate) => gate.signalId),
+  ]);
+
+  const evidenceProtectedResearchStatus = (
+    kind: InternalResearchPassKind,
+  ): CaseGoalStatus => {
+    const result = research(kind);
+    if (!result) return "PENDING";
+    if (result.status === "NONE") return "PENDING";
+
+    const qualifyingIds = result.signalIds.filter(
+      (signalId) =>
+        evidenceQualifiedSignalIds.has(signalId) ||
+        relationForSignal(signalId)?.decision === "EVIDENCE",
+    );
+
+    if (
+      result.status === "FOUND" &&
+      qualifyingIds.length > 0
+    ) {
+      return "SATISFIED";
+    }
+
+    // A CONTEXT_ONLY candidate may inform interpretation, but it cannot
+    // satisfy a Case Goal or advance the Completion Gate.
+    return "LIMITED";
+  };
+
   const sourceStatus = goalStatusFromPass(
     pass("SOURCE TRUTH"),
   );
+
+  const supportedRequirements = evidenceAudit.requirements.filter(
+    (requirement) =>
+      requirement.status === "SUPPORTED" ||
+      requirement.status === "VERIFIED" ||
+      requirement.status === "INDEPENDENTLY_VERIFIED",
+  ).length;
+
   const evidenceStatus: CaseGoalStatus =
     evidenceAudit.overallStrength === "STRONG" ||
     evidenceAudit.overallStrength === "MODERATE"
       ? "SATISFIED"
-      : evidenceAudit.overallStrength === "LIMITED"
+      : evidenceAudit.overallStrength === "LIMITED" ||
+          supportedRequirements > 0
         ? "LIMITED"
         : "BLOCKED";
 
-  const counterStatus: CaseGoalStatus =
-    research("CHALLENGE SEARCH")?.status === "FOUND"
-      ? "SATISFIED"
-      : research("CHALLENGE SEARCH")?.status === "LIMITED"
-        ? "LIMITED"
-        : goalStatusFromPass(pass("COUNTEREVIDENCE"));
+  const counterStatus =
+    evidenceProtectedResearchStatus("CHALLENGE SEARCH");
 
-  const boundaryStatus: CaseGoalStatus =
-    research("BOUNDARY SEARCH")?.status === "FOUND"
-      ? "SATISFIED"
-      : research("BOUNDARY SEARCH")?.status === "LIMITED"
-        ? "LIMITED"
-        : "PENDING";
+  const boundaryStatus =
+    evidenceProtectedResearchStatus("BOUNDARY SEARCH");
 
   const synthesisStatus: CaseGoalStatus =
     critique.status === "BLOCKED"
@@ -9603,7 +9661,7 @@ function buildCaseGoalTree(args: {
       status: evidenceStatus,
       finding: evidenceAudit.summary,
       completionRule:
-        "The unified final Evidence State is explicit and no unrelated Signal is allowed to strengthen it.",
+        "The unified final Evidence State is explicit and no unrelated or context-only Signal is allowed to strengthen it.",
       signalIds: evidenceAudit.admittedSignalIds,
     },
     {
@@ -9619,7 +9677,7 @@ function buildCaseGoalTree(args: {
         pass("COUNTEREVIDENCE")?.finding ||
         "No counterevidence search result is available.",
       completionRule:
-        "At least one credible alternative, contradiction, or explicit internal absence-of-counterevidence statement is recorded.",
+        "Only evidence-qualified contradiction or challenge signals may satisfy this Goal; context-only signals may inform but cannot complete it.",
       signalIds:
         research("CHALLENGE SEARCH")?.signalIds ??
         pass("COUNTEREVIDENCE")?.signalIds ??
@@ -9637,7 +9695,7 @@ function buildCaseGoalTree(args: {
         research("BOUNDARY SEARCH")?.finding ||
         evidenceAudit.uncertainty,
       completionRule:
-        "The operating, scope, transfer, or uncertainty boundary is explicit.",
+        "Only evidence-qualified boundary material may satisfy this Goal; context-only material may shape interpretation but cannot advance completion.",
       signalIds:
         research("BOUNDARY SEARCH")?.signalIds ?? [],
     },
@@ -9867,6 +9925,7 @@ function buildCaseCompletionGate(args: {
   evidenceAudit: EvidenceAudit;
   epistemicContract: EpistemicContract;
   autonomousSubtasks: AutonomousSubtask[];
+  allowBoundedRelease?: boolean;
 }): CaseCompletionGate {
   const {
     goalTree,
@@ -9874,10 +9933,18 @@ function buildCaseCompletionGate(args: {
     evidenceAudit,
     epistemicContract,
     autonomousSubtasks,
+    allowBoundedRelease = false,
   } = args;
 
   const goal = (kind: CaseGoalKind) =>
     goalTree.nodes.find((node) => node.kind === kind);
+
+  const supportedRequirements = evidenceAudit.requirements.filter(
+    (requirement) =>
+      requirement.status === "SUPPORTED" ||
+      requirement.status === "VERIFIED" ||
+      requirement.status === "INDEPENDENTLY_VERIFIED",
+  ).length;
 
   const checks: CompletionGateCheck[] = [
     {
@@ -9913,7 +9980,9 @@ function buildCaseCompletionGate(args: {
       passed:
         evidenceAudit.overallStrength === "STRONG" ||
         evidenceAudit.overallStrength === "MODERATE",
-      limited: evidenceAudit.overallStrength === "LIMITED",
+      limited:
+        evidenceAudit.overallStrength === "LIMITED" &&
+        supportedRequirements > 0,
       note: evidenceAudit.summary,
     },
     {
@@ -9968,10 +10037,6 @@ function buildCaseCompletionGate(args: {
       ),
   );
 
-  const limitedChecks = checks.filter(
-    (check) => check.limited,
-  );
-
   const passedCount = checks.filter(
     (check) => check.passed,
   ).length;
@@ -9986,8 +10051,7 @@ function buildCaseCompletionGate(args: {
 
   const remainingWork = autonomousSubtasks
     .filter(
-      (task) =>
-        task.status !== "DONE",
+      (task) => task.status !== "DONE",
     )
     .sort((a, b) => a.priority - b.priority)
     .map(
@@ -9995,23 +10059,39 @@ function buildCaseCompletionGate(args: {
     )
     .slice(0, 4);
 
+  const allCoreGoalsSatisfied = [
+    "OBJECT",
+    "CLAIM_CONTRACT",
+    "REALITY_TEST",
+  ].every(
+    (kind) =>
+      goal(kind as CaseGoalKind)?.status === "SATISFIED",
+  );
+
+  const allChecksPass = checks.every(
+    (check) => check.passed,
+  );
+
+  const allChecksBounded = checks.every(
+    (check) => check.passed || check.limited,
+  );
+
+  const hasRealEvidenceSupport =
+    supportedRequirements > 0 ||
+    evidenceAudit.overallStrength === "MODERATE" ||
+    evidenceAudit.overallStrength === "STRONG";
+
   let status: CaseCompletionGateStatus = "NOT_READY";
 
   if (critique.status === "BLOCKED" || hardBlockers.length > 0) {
     status = "BLOCKED";
-  } else if (
-    checks.every(
-      (check) => check.passed,
-    )
-  ) {
+  } else if (allChecksPass) {
     status = "READY";
   } else if (
-    checks.every(
-      (check) => check.passed || check.limited,
-    ) &&
-    goal("OBJECT")?.status === "SATISFIED" &&
-    goal("CLAIM_CONTRACT")?.status === "SATISFIED" &&
-    goal("REALITY_TEST")?.status === "SATISFIED"
+    allowBoundedRelease &&
+    allCoreGoalsSatisfied &&
+    allChecksBounded &&
+    hasRealEvidenceSupport
   ) {
     status = "READY_WITH_LIMITS";
   }
@@ -10024,19 +10104,18 @@ function buildCaseCompletionGate(args: {
     remainingWork,
     releaseDecision:
       status === "READY"
-        ? "The Case may be considered epistemically complete for the current internal evidence state."
+        ? "The Case may be considered epistemically complete for the current qualified evidence state."
         : status === "READY_WITH_LIMITS"
-          ? "The Case may release a bounded conclusion, but the unresolved limits must remain visible and must not be upgraded into verified claims."
+          ? "The Case may release a bounded conclusion only after useful internal work has been exhausted and at least one claim-specific evidence requirement has genuine support."
           : status === "BLOCKED"
             ? "The Case must not claim completion because at least one required epistemic gate is blocked."
-            : "The Case remains open. Continue the highest-priority unresolved subtask before treating the root question as complete.",
+            : "The Case remains open. Completion is not granted merely because every unresolved check is labelled LIMITED; useful internal work must run first.",
     nextRequiredAction:
       remainingWork[0] ||
       epistemicContract.nextAction ||
       "No further internal action is required unless new evidence can materially change the conclusion.",
   };
 }
-
 
 const MAX_CASE_WORK_ITERATIONS = 4;
 
@@ -10111,8 +10190,7 @@ function runGoalDirectedIterativeWorkLoop(args: {
     iteration += 1
   ) {
     if (
-      completionGate.status === "READY" ||
-      completionGate.status === "READY_WITH_LIMITS"
+      completionGate.status === "READY"
     ) {
       cycles.push({
         iteration,
@@ -10125,9 +10203,9 @@ function runGoalDirectedIterativeWorkLoop(args: {
         progressBefore: workingProgress,
         progressAfter: workingProgress,
         finding:
-          "The Completion Gate is already releasable for the current internal evidence state.",
+          "The Completion Gate is fully READY for the current qualified evidence state.",
         stopReason:
-          "Case work stops because the Completion Gate permits release.",
+          "Case work stops because all required Completion Gate checks passed.",
       });
       break;
     }
@@ -10445,6 +10523,66 @@ function buildCaseClosureProtocol(args: {
   };
 }
 
+
+function buildUnifiedCaseStateMachine(args: {
+  previousCore: AstraCoreState | null;
+  goalTree: CaseGoalTree;
+  completionGate: CaseCompletionGate;
+  closureProtocol: CaseClosureProtocol;
+  evidenceAudit: EvidenceAudit;
+}): UnifiedCaseStateMachine {
+  const {
+    previousCore,
+    goalTree,
+    completionGate,
+    closureProtocol,
+    evidenceAudit,
+  } = args;
+
+  const previousState =
+    previousCore?.caseState.state ?? null;
+
+  let state: UnifiedCaseState = "WORKING";
+
+  if (closureProtocol.status === "BLOCKED") {
+    state = "BLOCKED";
+  } else if (closureProtocol.status === "CLOSED") {
+    state = "CLOSED";
+  } else if (closureProtocol.status === "BOUNDED") {
+    state = "BOUNDED";
+  } else if (completionGate.status === "READY") {
+    state = "READY";
+  }
+
+  const unresolvedGoals = goalTree.nodes.filter(
+    (goal) => goal.status !== "SATISFIED",
+  ).length;
+
+  return {
+    state,
+    previousState,
+    transition:
+      previousState && previousState !== state
+        ? `${previousState} → ${state}`
+        : previousState === state
+          ? `${state} → ${state}`
+          : `NEW → ${state}`,
+    rationale:
+      state === "BLOCKED"
+        ? closureProtocol.reason
+        : state === "CLOSED"
+          ? "All required gates passed and the Case Closure Protocol closed the current evidence state."
+          : state === "BOUNDED"
+            ? "Useful internal work reached an evidence boundary; the Case is bounded without pretending unresolved goals are satisfied."
+            : state === "READY"
+              ? "The final Completion Gate passed after the work loop."
+              : "The Case remains active because useful unresolved work or insufficient evidence still exists.",
+    goalProgress: goalTree.progress,
+    evidenceStrength: evidenceAudit.overallStrength,
+    unresolvedGoals,
+  };
+}
+
 function buildAstraCoreState(args: {
   query: string;
   intentModel: IntentModel;
@@ -10567,6 +10705,7 @@ function buildAstraCoreState(args: {
     mission,
     passes,
     researchPasses: research.passes,
+    relationGates: research.relationGates,
     evidenceAudit: workingAudit,
     epistemicContract: args.epistemicContract,
     critique,
@@ -10581,12 +10720,13 @@ function buildAstraCoreState(args: {
     epistemicContract: args.epistemicContract,
   });
 
-  const completionGate = buildCaseCompletionGate({
+  const initialCompletionGate = buildCaseCompletionGate({
     goalTree,
     critique,
     evidenceAudit: workingAudit,
     epistemicContract: args.epistemicContract,
     autonomousSubtasks,
+    allowBoundedRelease: false,
   });
 
   const iterativeWork = runGoalDirectedIterativeWorkLoop({
@@ -10595,7 +10735,23 @@ function buildAstraCoreState(args: {
     evidenceAudit: workingAudit,
     researchPasses: research.passes,
     epistemicContract: args.epistemicContract,
-    completionGate,
+    completionGate: initialCompletionGate,
+  });
+
+  const usefulWorkExhausted =
+    iterativeWork.escalation.level === "EXTERNAL_BOUNDARY" ||
+    iterativeWork.cycles.some(
+      (cycle) =>
+        cycle.stopReason?.includes("no epistemic gain"),
+    );
+
+  const completionGate = buildCaseCompletionGate({
+    goalTree,
+    critique,
+    evidenceAudit: workingAudit,
+    epistemicContract: args.epistemicContract,
+    autonomousSubtasks,
+    allowBoundedRelease: usefulWorkExhausted,
   });
 
   const closureProtocol = buildCaseClosureProtocol({
@@ -10607,14 +10763,24 @@ function buildAstraCoreState(args: {
     escalation: iterativeWork.escalation,
   });
 
+  const caseState = buildUnifiedCaseStateMachine({
+    previousCore,
+    goalTree,
+    completionGate,
+    closureProtocol,
+    evidenceAudit: workingAudit,
+  });
+
   return {
     mission,
     goalTree,
     autonomousSubtasks,
     iterativeWorkCycles: iterativeWork.cycles,
     escalation: iterativeWork.escalation,
+    initialCompletionGate,
     completionGate,
     closureProtocol,
+    caseState,
     initialPlan,
     researchPasses: research.passes,
     relationGates: research.relationGates,
@@ -11756,16 +11922,16 @@ function latestCaseSignalId(
 function caseStatusFromIntelligence(
   intelligence: IntelligenceObject,
 ): EpistemeCaseStatus {
-  const closure =
-    intelligence.astraCore?.closureProtocol.status;
+  const state =
+    intelligence.astraCore?.caseState.state;
 
-  if (closure === "CLOSED") {
+  if (state === "CLOSED") {
     return "COMPLETE";
   }
-  if (closure === "BOUNDED") {
+  if (state === "BOUNDED") {
     return "COMPLETE_WITH_LIMITS";
   }
-  if (closure === "BLOCKED") {
+  if (state === "BLOCKED") {
     return "BLOCKED";
   }
 
@@ -12869,6 +13035,22 @@ useEffect(() => {
                                 )}
                               </div>
 
+                              <div className="ep-case-state-machine">
+                                <div>
+                                  <span>UNIFIED CASE STATE</span>
+                                  <strong>{message.intelligence.astraCore.caseState.state}</strong>
+                                </div>
+                                <div className="ep-case-state-machine__flow">
+                                  <b>{message.intelligence.astraCore.caseState.transition}</b>
+                                  <small>
+                                    {message.intelligence.astraCore.caseState.goalProgress}% goals ·
+                                    {" "}{message.intelligence.astraCore.caseState.evidenceStrength} evidence ·
+                                    {" "}{message.intelligence.astraCore.caseState.unresolvedGoals} unresolved
+                                  </small>
+                                </div>
+                                <p>{message.intelligence.astraCore.caseState.rationale}</p>
+                              </div>
+
                               <div className="ep-case-goal-tree">
                                 <div className="ep-agent-work__planning-head">
                                   <span>CASE GOAL TREE</span>
@@ -13097,7 +13279,7 @@ useEffect(() => {
                               <div className="ep-case-completion">
                                 <div className="ep-case-completion__head">
                                   <div>
-                                    <span>CASE COMPLETION GATE</span>
+                                    <span>CASE COMPLETION GATE · FINAL</span>
                                     <strong>
                                       {message.intelligence.astraCore.completionGate.status.replaceAll("_", " ")}
                                     </strong>
@@ -13131,6 +13313,11 @@ useEffect(() => {
                                 </div>
 
                                 <div className="ep-case-completion__decision">
+                                  <span>
+                                    INITIAL {message.intelligence.astraCore.initialCompletionGate.status.replaceAll("_", " ")}
+                                    {" → FINAL "}
+                                    {message.intelligence.astraCore.completionGate.status.replaceAll("_", " ")}
+                                  </span>
                                   <span>RELEASE DECISION</span>
                                   <p>
                                     {message.intelligence.astraCore.completionGate.releaseDecision}
@@ -20717,6 +20904,73 @@ useEffect(() => {
 
           .ep-case-header h2 {
             font-size: 13px;
+          }
+        }
+
+        /* ==================================================
+           UNIFIED CASE STATE · STAGE 6.9.3
+        ================================================== */
+        .ep-case-state-machine {
+          display: grid;
+          grid-template-columns: 155px minmax(0,1fr);
+          gap: 10px 16px;
+          padding: 12px 15px;
+          border-bottom: 1px solid rgba(255,255,255,.055);
+          background:
+            linear-gradient(90deg, rgba(112,190,229,.045), transparent 42%),
+            rgba(3,7,9,.42);
+        }
+
+        .ep-case-state-machine > div:first-child {
+          display: grid;
+          gap: 4px;
+          align-content: start;
+        }
+
+        .ep-case-state-machine span {
+          color: rgba(177,219,240,.55);
+          font-size: 7px;
+          letter-spacing: .14em;
+        }
+
+        .ep-case-state-machine strong {
+          color: rgba(241,247,250,.86);
+          font-size: 11px;
+          font-weight: 560;
+        }
+
+        .ep-case-state-machine__flow {
+          display: grid;
+          gap: 4px;
+          align-content: start;
+        }
+
+        .ep-case-state-machine__flow b {
+          color: rgba(197,225,239,.67);
+          font-size: 8px;
+          font-weight: 520;
+        }
+
+        .ep-case-state-machine__flow small {
+          color: rgba(221,233,239,.37);
+          font-size: 7px;
+        }
+
+        .ep-case-state-machine p {
+          grid-column: 1 / -1;
+          margin: 0;
+          color: rgba(227,237,242,.46);
+          font-size: 8px;
+          line-height: 1.55;
+        }
+
+        @media (max-width: 680px) {
+          .ep-case-state-machine {
+            grid-template-columns: 1fr;
+          }
+
+          .ep-case-state-machine p {
+            grid-column: auto;
           }
         }
 
