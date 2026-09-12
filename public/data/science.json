@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-12T20:38:54.856Z",
+  "updated": "2026-09-12T21:59:44.600Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Japan's Hayabusa2 achieves first-ever laser ranging experiment with an asteroid",
+      "url": "https://phys.org/news/2026-09-japan-hayabusa2-laser-ranging-asteroid.html",
+      "summary": "The Japan Aerospace Exploration Agency's (JAXA) Hayabusa2 spacecraft reached another milestone this summer, a first for space agencies. On Sunday, July 5, the probe conducted the first successful laser-ranging experiment…",
+      "ts": 1789246802000,
+      "publishedAt": "2026-09-12T21:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A brief history of the hangover and its remedies—from cabbages to cloves and the lungs of a goat",
@@ -791,14 +799,6 @@
       "title": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
       "url": "https://arxiv.org/abs/2609.10750",
       "summary": "arXiv:2609.10750v1 Announce Type: cross Abstract: LLM agents increasingly rely on external skills retrieved at runtime, making skill selection from large repositories a critical challenge. We present a production skill r…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Adaptive Margin Ordinal Loss: Penalizing Center-Class Hedging in Ordinal Classification",
-      "url": "https://arxiv.org/abs/2609.10752",
-      "summary": "arXiv:2609.10752v1 Announce Type: cross Abstract: Standard cross-entropy loss causes neural networks trained on ordinal classification tasks to hedge predictions toward center classes, a failure mode we term \\emph{center…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
