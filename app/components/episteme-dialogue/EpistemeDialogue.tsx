@@ -674,6 +674,36 @@ type CaseGoalNode = {
   finding: string;
   completionRule: string;
   signalIds: string[];
+  dependencyIds: string[];
+  blockedByIds: string[];
+};
+
+type EpistemicWorkNodeState =
+  | "SATISFIED"
+  | "READY"
+  | "LIMITED"
+  | "BLOCKED_BY_DEPENDENCY"
+  | "BLOCKED";
+
+type EpistemicWorkNode = {
+  goalId: string;
+  kind: CaseGoalKind;
+  state: EpistemicWorkNodeState;
+  dependencyIds: string[];
+  blockedByIds: string[];
+  evidenceDecision: EvidenceRelationDecision | "PRIMARY" | "NONE";
+  rationale: string;
+};
+
+type UnifiedEpistemicWorkState = {
+  nodes: EpistemicWorkNode[];
+  activeGoalId: string | null;
+  activeGoalKind: CaseGoalKind | null;
+  satisfied: number;
+  total: number;
+  progress: number;
+  evidenceStrength: EvidenceStrength;
+  principle: string;
 };
 
 type CaseGoalTree = {
@@ -807,6 +837,7 @@ type AstraCoreState = {
   completionGate: CaseCompletionGate;
   closureProtocol: CaseClosureProtocol;
   caseState: UnifiedCaseStateMachine;
+  unifiedWorkState: UnifiedEpistemicWorkState;
   initialPlan: AdaptiveWorkPlan;
   researchPasses: InternalResearchPass[];
   relationGates: EvidenceRelationGate[];
@@ -4951,9 +4982,10 @@ function evidenceNeedsForClaimType(claimType: ClaimType): string[] {
       ];
     case "CLINICAL / INTERVENTIONAL":
       return [
-        "clinically meaningful endpoint",
-        "appropriate comparator",
-        "safety and external validity",
+        "prespecified clinically meaningful endpoint and effect estimate",
+        "appropriate comparator and randomized trial design where applicable",
+        "uncertainty, confidence interval, and analysis population",
+        "safety, population applicability, and independent confirmation",
       ];
     case "ENGINEERING / CONSTRUCTIVE":
       return [
@@ -6095,6 +6127,38 @@ function synthesizeClaimGraphFollowUp(
   return null;
 }
 
+function correctClaimTypeForCaseContract(
+  signal: SignalItem,
+  candidate: ClaimType,
+): ClaimType {
+  const corpus = normalize(
+    [signal.title, signal.summary, signal.category].join(" "),
+  );
+
+  const technicalArtifact =
+    /\b(model|language model|llm|algorithm|framework|solver|agent|software|architecture|neural network|reasoning system)\b/.test(corpus);
+
+  const clinicalTrial =
+    /\b(pivotal trial|phase\s*(?:1|2|3|i|ii|iii)\b|randomi[sz]ed|placebo|comparator|primary endpoint|secondary endpoint|clinical trial|study arm|trial arm)\b/.test(corpus);
+
+  const therapeuticObject =
+    /\b(pill|drug|medicine|therapy|therapeutic|treatment|vaccine|dose|regimen)\b/.test(corpus);
+
+  const patientOutcomePredicate =
+    /\b(failed to improve|improved? outcomes?|did not improve|overall survival|progression[- ]free survival|response rate|clinical benefit|patient outcomes?|adverse events?|toxicity|safety endpoint|met(?: its| the)? primary endpoint|missed(?: its| the)? primary endpoint)\b/.test(corpus);
+
+  if (
+    !technicalArtifact &&
+    clinicalTrial &&
+    therapeuticObject &&
+    patientOutcomePredicate
+  ) {
+    return "CLINICAL / INTERVENTIONAL";
+  }
+
+  return candidate;
+}
+
 function buildEpistemicClaimIdentity(
   signal: SignalItem | null,
 ): EpistemicClaimIdentity | null {
@@ -6132,7 +6196,7 @@ function buildEpistemicClaimIdentity(
   // Domain vocabulary ≠ claim type.
   // Technical artifact + technical predicate outranks application-domain words.
   // True institutional/business/regulatory events remain event-locked.
-  const claimType =
+  const preliminaryClaimType =
     !trueEventLocked && semanticOntology.claimType
       ? semanticOntology.claimType
       : predicateProfile.claimType &&
@@ -6143,6 +6207,11 @@ function buildEpistemicClaimIdentity(
           ].includes(genreResolvedClaimType)
         ? predicateProfile.claimType
         : genreResolvedClaimType;
+
+  const claimType = correctClaimTypeForCaseContract(
+    signal,
+    preliminaryClaimType,
+  );
 
   const evidenceType =
     claimType === "FORMAL / MATHEMATICAL"
@@ -9617,6 +9686,8 @@ function buildCaseGoalTree(args: {
       completionRule:
         "A single primary object is explicit and cannot be replaced by weak retrieval or unrelated conversation.",
       signalIds: pass("OBJECT LOCK")?.signalIds ?? [],
+      dependencyIds: [],
+      blockedByIds: [],
     },
     {
       id: `${rootId}-source`,
@@ -9632,6 +9703,8 @@ function buildCaseGoalTree(args: {
       completionRule:
         "A source-supported proposition is explicit, or the absence of one is explicitly bounded.",
       signalIds: pass("SOURCE TRUTH")?.signalIds ?? [],
+      dependencyIds: [],
+      blockedByIds: [],
     },
     {
       id: `${rootId}-contract`,
@@ -9650,6 +9723,8 @@ function buildCaseGoalTree(args: {
         "Domain, artifact, operation, and claim type are separated and the correct evidence burden is active.",
       signalIds:
         pass("CLAIM DISCRIMINATION")?.signalIds ?? [],
+      dependencyIds: [],
+      blockedByIds: [],
     },
     {
       id: `${rootId}-evidence`,
@@ -9663,6 +9738,8 @@ function buildCaseGoalTree(args: {
       completionRule:
         "The unified final Evidence State is explicit and no unrelated or context-only Signal is allowed to strengthen it.",
       signalIds: evidenceAudit.admittedSignalIds,
+      dependencyIds: [],
+      blockedByIds: [],
     },
     {
       id: `${rootId}-counter`,
@@ -9682,6 +9759,8 @@ function buildCaseGoalTree(args: {
         research("CHALLENGE SEARCH")?.signalIds ??
         pass("COUNTEREVIDENCE")?.signalIds ??
         [],
+      dependencyIds: [],
+      blockedByIds: [],
     },
     {
       id: `${rootId}-boundary`,
@@ -9698,6 +9777,8 @@ function buildCaseGoalTree(args: {
         "Only evidence-qualified boundary material may satisfy this Goal; context-only material may shape interpretation but cannot advance completion.",
       signalIds:
         research("BOUNDARY SEARCH")?.signalIds ?? [],
+      dependencyIds: [],
+      blockedByIds: [],
     },
     {
       id: `${rootId}-test`,
@@ -9716,6 +9797,8 @@ function buildCaseGoalTree(args: {
         "A concrete discriminating test is explicit and tied to the active claim.",
       signalIds:
         pass("REALITY TEST")?.signalIds ?? [],
+      dependencyIds: [],
+      blockedByIds: [],
     },
     {
       id: `${rootId}-synthesis`,
@@ -9734,8 +9817,44 @@ function buildCaseGoalTree(args: {
       completionRule:
         "The answer is no stronger than the unified evidence state and survives the Self-Critique Gate.",
       signalIds: evidenceAudit.admittedSignalIds,
+      dependencyIds: [],
+      blockedByIds: [],
     },
   ];
+
+  const dependencyKinds: Record<CaseGoalKind, CaseGoalKind[]> = {
+    OBJECT: [],
+    SOURCE_TRUTH: ["OBJECT"],
+    CLAIM_CONTRACT: ["OBJECT", "SOURCE_TRUTH"],
+    EVIDENCE: ["OBJECT", "SOURCE_TRUTH", "CLAIM_CONTRACT"],
+    COUNTEREVIDENCE: ["OBJECT", "SOURCE_TRUTH", "CLAIM_CONTRACT"],
+    BOUNDARY: ["OBJECT", "SOURCE_TRUTH", "CLAIM_CONTRACT"],
+    REALITY_TEST: ["OBJECT", "CLAIM_CONTRACT"],
+    SYNTHESIS: [
+      "OBJECT",
+      "SOURCE_TRUTH",
+      "CLAIM_CONTRACT",
+      "EVIDENCE",
+      "COUNTEREVIDENCE",
+      "BOUNDARY",
+      "REALITY_TEST",
+    ],
+  };
+
+  const goalByKind = new Map(
+    nodes.map((node) => [node.kind, node]),
+  );
+
+  for (const node of nodes) {
+    node.dependencyIds = dependencyKinds[node.kind]
+      .map((kind) => goalByKind.get(kind)?.id)
+      .filter((id): id is string => Boolean(id));
+
+    node.blockedByIds = node.dependencyIds.filter((dependencyId) => {
+      const dependency = nodes.find((candidate) => candidate.id === dependencyId);
+      return dependency?.status !== "SATISFIED";
+    });
+  }
 
   const satisfied = nodes.filter(
     (node) => node.status === "SATISFIED",
@@ -9746,26 +9865,27 @@ function buildCaseGoalTree(args: {
     (satisfied / Math.max(total, 1)) * 100,
   );
 
-  const nextGoalIds = nodes
-    .filter(
-      (node) =>
-        node.status === "PENDING" ||
-        node.status === "LIMITED" ||
-        node.status === "BLOCKED",
-    )
-    .sort((a, b) => {
-      const priority: Record<CaseGoalKind, number> = {
-        OBJECT: 0,
-        SOURCE_TRUTH: 1,
-        CLAIM_CONTRACT: 2,
-        EVIDENCE: 3,
-        COUNTEREVIDENCE: 4,
-        BOUNDARY: 5,
-        REALITY_TEST: 6,
-        SYNTHESIS: 7,
-      };
-      return priority[a.kind] - priority[b.kind];
-    })
+  const priority: Record<CaseGoalKind, number> = {
+    OBJECT: 0,
+    SOURCE_TRUTH: 1,
+    CLAIM_CONTRACT: 2,
+    EVIDENCE: 3,
+    COUNTEREVIDENCE: 4,
+    BOUNDARY: 5,
+    REALITY_TEST: 6,
+    SYNTHESIS: 7,
+  };
+
+  const unresolvedNodes = nodes.filter(
+    (node) => node.status !== "SATISFIED",
+  );
+
+  const eligibleNodes = unresolvedNodes.filter(
+    (node) => node.blockedByIds.length === 0,
+  );
+
+  const nextGoalIds = (eligibleNodes.length > 0 ? eligibleNodes : unresolvedNodes)
+    .sort((a, b) => priority[a.kind] - priority[b.kind])
     .slice(0, 3)
     .map((node) => node.id);
 
@@ -9781,141 +9901,310 @@ function buildCaseGoalTree(args: {
   };
 }
 
+function buildUnifiedEpistemicWorkState(args: {
+  goalTree: CaseGoalTree;
+  relationGates: EvidenceRelationGate[];
+  evidenceAudit: EvidenceAudit;
+}): UnifiedEpistemicWorkState {
+  const { goalTree, relationGates, evidenceAudit } = args;
+
+  const relationForGoal = (
+    goal: CaseGoalNode,
+  ): EvidenceRelationDecision | "PRIMARY" | "NONE" => {
+    if (
+      goal.kind === "OBJECT" ||
+      goal.kind === "SOURCE_TRUTH" ||
+      goal.kind === "CLAIM_CONTRACT" ||
+      goal.kind === "REALITY_TEST" ||
+      goal.kind === "SYNTHESIS"
+    ) {
+      return "PRIMARY";
+    }
+
+    const decisions = goal.signalIds
+      .map((signalId) =>
+        relationGates.find((gate) => gate.signalId === signalId)?.decision,
+      )
+      .filter(
+        (decision): decision is EvidenceRelationDecision =>
+          Boolean(decision),
+      );
+
+    if (decisions.includes("EVIDENCE")) return "EVIDENCE";
+    if (decisions.includes("CONTEXT_ONLY")) return "CONTEXT_ONLY";
+    if (decisions.includes("REJECT")) return "REJECT";
+    return "NONE";
+  };
+
+  const nodes: EpistemicWorkNode[] = goalTree.nodes.map((goal) => {
+    const evidenceDecision = relationForGoal(goal);
+
+    const state: EpistemicWorkNodeState =
+      goal.status === "SATISFIED"
+        ? "SATISFIED"
+        : goal.status === "BLOCKED"
+          ? "BLOCKED"
+          : goal.blockedByIds.length > 0
+            ? "BLOCKED_BY_DEPENDENCY"
+            : goal.status === "LIMITED"
+              ? "LIMITED"
+              : "READY";
+
+    return {
+      goalId: goal.id,
+      kind: goal.kind,
+      state,
+      dependencyIds: goal.dependencyIds,
+      blockedByIds: goal.blockedByIds,
+      evidenceDecision,
+      rationale:
+        state === "BLOCKED_BY_DEPENDENCY"
+          ? `Waiting on prerequisite Goal(s): ${goal.blockedByIds
+              .map((id) => goalTree.nodes.find((node) => node.id === id)?.label || id)
+              .join("; ")}.`
+          : evidenceDecision === "CONTEXT_ONLY"
+            ? "Context was found, but context-only material cannot complete epistemic work."
+            : goal.finding,
+    };
+  });
+
+  const priority: Record<CaseGoalKind, number> = {
+    OBJECT: 0,
+    SOURCE_TRUTH: 1,
+    CLAIM_CONTRACT: 2,
+    EVIDENCE: 3,
+    COUNTEREVIDENCE: 4,
+    BOUNDARY: 5,
+    REALITY_TEST: 6,
+    SYNTHESIS: 7,
+  };
+
+  const active =
+    nodes
+      .filter(
+        (node) =>
+          node.state === "READY" ||
+          node.state === "LIMITED" ||
+          node.state === "BLOCKED",
+      )
+      .sort((a, b) => priority[a.kind] - priority[b.kind])[0] ?? null;
+
+  const satisfied = nodes.filter((node) => node.state === "SATISFIED").length;
+
+  return {
+    nodes,
+    activeGoalId: active?.goalId ?? null,
+    activeGoalKind: active?.kind ?? null,
+    satisfied,
+    total: nodes.length,
+    progress: Math.round((satisfied / Math.max(nodes.length, 1)) * 100),
+    evidenceStrength: evidenceAudit.overallStrength,
+    principle:
+      "One authoritative epistemic work state governs Goal, Subtask, Plan, Ledger, Completion, and Closure. Retrieval success alone cannot mark work complete.",
+  };
+}
+
+function workNodeForGoal(
+  workState: UnifiedEpistemicWorkState,
+  goalId: string,
+): EpistemicWorkNode | null {
+  return workState.nodes.find((node) => node.goalId === goalId) ?? null;
+}
+
+function inferGoalKindFromWorkLabel(label: string): CaseGoalKind | null {
+  const normalized = normalize(label);
+  if (/\bobject\b/.test(normalized)) return "OBJECT";
+  if (/\bsource truth|source\b/.test(normalized)) return "SOURCE_TRUTH";
+  if (/\bclaim|contract\b/.test(normalized)) return "CLAIM_CONTRACT";
+  if (/\bcounterevidence|challenge\b/.test(normalized)) return "COUNTEREVIDENCE";
+  if (/\bboundary\b/.test(normalized)) return "BOUNDARY";
+  if (/\breality|decisive\b/.test(normalized)) return "REALITY_TEST";
+  if (/\bsynthesis|consequence\b/.test(normalized)) return "SYNTHESIS";
+  if (/\bevidence|support|replication|research\b/.test(normalized)) return "EVIDENCE";
+  return null;
+}
+
+function synchronizeAdaptiveWorkPlan(
+  plan: AdaptiveWorkPlan,
+  goalTree: CaseGoalTree,
+  workState: UnifiedEpistemicWorkState,
+): AdaptiveWorkPlan {
+  const goalByKind = new Map(goalTree.nodes.map((goal) => [goal.kind, goal]));
+
+  return {
+    ...plan,
+    steps: plan.steps.map((step) => {
+      const kind = inferGoalKindFromWorkLabel(`${step.label} ${step.purpose}`);
+      if (!kind) return step;
+      const goal = goalByKind.get(kind);
+      if (!goal) return step;
+      const node = workNodeForGoal(workState, goal.id);
+      if (!node) return step;
+
+      const status: WorkPlanStepStatus =
+        node.state === "SATISFIED"
+          ? "DONE"
+          : node.state === "BLOCKED"
+            ? "BLOCKED"
+            : node.state === "BLOCKED_BY_DEPENDENCY"
+              ? "QUEUED"
+              : node.state === "READY"
+                ? "ACTIVE"
+                : "LIMITED";
+
+      return {
+        ...step,
+        status,
+        trigger:
+          node.state === "BLOCKED_BY_DEPENDENCY"
+            ? node.rationale
+            : step.trigger,
+      };
+    }),
+  };
+}
+
+function synchronizeWorkLedger(
+  ledger: AgentWorkLedger,
+  goalTree: CaseGoalTree,
+  workState: UnifiedEpistemicWorkState,
+): AgentWorkLedger {
+  const goalByKind = new Map(goalTree.nodes.map((goal) => [goal.kind, goal]));
+
+  const items = ledger.items.map((item) => {
+    const kind = inferGoalKindFromWorkLabel(`${item.label} ${item.output}`);
+    if (!kind) return item;
+    const goal = goalByKind.get(kind);
+    if (!goal) return item;
+    const node = workNodeForGoal(workState, goal.id);
+    if (!node) return item;
+
+    const status: AgentWorkItemStatus =
+      node.state === "SATISFIED"
+        ? "DONE"
+        : node.state === "BLOCKED"
+          ? "BLOCKED"
+          : "LIMITED";
+
+    return {
+      ...item,
+      status,
+      output:
+        node.state === "BLOCKED_BY_DEPENDENCY"
+          ? node.rationale
+          : item.output,
+    };
+  });
+
+  const completed = items.filter((item) => item.status === "DONE").length;
+  const blocked = items.some((item) => item.status === "BLOCKED");
+  const limited = items.some((item) => item.status === "LIMITED");
+
+  return {
+    ...ledger,
+    items,
+    completed,
+    total: items.length,
+    status: blocked
+      ? "BLOCKED"
+      : limited
+        ? "COMPLETED_WITH_LIMITS"
+        : "COMPLETED",
+  };
+}
+
 function generateAutonomousSubtasks(args: {
   goalTree: CaseGoalTree;
   researchPasses: InternalResearchPass[];
   evidenceAudit: EvidenceAudit;
   epistemicContract: EpistemicContract;
+  workState: UnifiedEpistemicWorkState;
 }): AutonomousSubtask[] {
   const {
     goalTree,
     researchPasses,
     evidenceAudit,
     epistemicContract,
+    workState,
   } = args;
 
   const research = (kind: InternalResearchPassKind) =>
     researchPasses.find((item) => item.kind === kind);
 
-  const outputForGoal = (
-    goal: CaseGoalNode,
-  ): {
-    status: AutonomousSubtaskStatus;
-    output: string;
-    signalIds: string[];
-  } => {
-    if (goal.status === "SATISFIED") {
-      return {
-        status: "DONE",
-        output: goal.finding,
-        signalIds: goal.signalIds,
-      };
-    }
+  const operationByKind: Record<CaseGoalKind, string> = {
+    OBJECT: "Re-establish the exact Case object before further work.",
+    SOURCE_TRUTH: "Recover the strongest result-bearing proposition from the indexed source.",
+    CLAIM_CONTRACT: "Reclassify the operative predicate and rebuild the claim-specific evidence contract.",
+    EVIDENCE: "Search only evidence-relation-qualified internal objects for the missing requirement.",
+    COUNTEREVIDENCE: "Actively search for the strongest competing explanation or contradiction.",
+    BOUNDARY: "Find the condition under which transfer, scale, or interpretation fails.",
+    REALITY_TEST: "Specify the minimum discriminating observation or intervention.",
+    SYNTHESIS: "Re-run synthesis only after upstream epistemic goals are bounded.",
+  };
 
+  const priority: Record<CaseGoalKind, number> = {
+    OBJECT: 0,
+    SOURCE_TRUTH: 10,
+    CLAIM_CONTRACT: 20,
+    EVIDENCE: 30,
+    COUNTEREVIDENCE: 40,
+    BOUNDARY: 50,
+    REALITY_TEST: 60,
+    SYNTHESIS: 70,
+  };
+
+  const outputForGoal = (goal: CaseGoalNode): string => {
     if (goal.kind === "SOURCE_TRUTH") {
-      return {
-        status:
-          research("PRIMARY RECOVERY")?.status === "FOUND"
-            ? "DONE"
-            : "LIMITED",
-        output:
-          research("PRIMARY RECOVERY")?.finding ||
-          "A cleaner result-bearing proposition remains required.",
-        signalIds:
-          research("PRIMARY RECOVERY")?.signalIds ?? [],
-      };
+      return research("PRIMARY RECOVERY")?.finding || goal.finding;
     }
-
     if (goal.kind === "EVIDENCE") {
-      return {
-        status:
-          evidenceAudit.overallStrength === "INSUFFICIENT"
-            ? "BLOCKED"
-            : "LIMITED",
-        output:
-          `Unified evidence state: ${evidenceAudit.summary}`,
-        signalIds: evidenceAudit.admittedSignalIds,
-      };
+      return `Unified evidence state: ${evidenceAudit.summary}`;
     }
-
     if (goal.kind === "COUNTEREVIDENCE") {
-      return {
-        status:
-          research("CHALLENGE SEARCH")?.status === "FOUND"
-            ? "DONE"
-            : "LIMITED",
-        output:
-          research("CHALLENGE SEARCH")?.finding ||
-          epistemicContract.alternativeExplanation,
-        signalIds:
-          research("CHALLENGE SEARCH")?.signalIds ?? [],
-      };
+      return research("CHALLENGE SEARCH")?.finding ||
+        epistemicContract.alternativeExplanation;
     }
-
     if (goal.kind === "BOUNDARY") {
-      return {
-        status:
-          research("BOUNDARY SEARCH")?.status === "FOUND"
-            ? "DONE"
-            : "LIMITED",
-        output:
-          research("BOUNDARY SEARCH")?.finding ||
-          evidenceAudit.uncertainty,
-        signalIds:
-          research("BOUNDARY SEARCH")?.signalIds ?? [],
-      };
+      return research("BOUNDARY SEARCH")?.finding ||
+        evidenceAudit.uncertainty;
     }
-
     if (goal.kind === "REALITY_TEST") {
-      return {
-        status: goal.status === "BLOCKED"
-          ? "BLOCKED"
-          : "LIMITED",
-        output: epistemicContract.realityTest,
-        signalIds: goal.signalIds,
-      };
+      return epistemicContract.realityTest;
     }
-
-    return {
-      status:
-        goal.status === "BLOCKED"
-          ? "BLOCKED"
-          : "LIMITED",
-      output: goal.finding,
-      signalIds: goal.signalIds,
-    };
+    return goal.finding;
   };
 
   return goalTree.nodes
-    .filter(
-      (goal) =>
-        goal.status !== "SATISFIED",
-    )
-    .map((goal, index) => {
-      const result = outputForGoal(goal);
+    .filter((goal) => goal.status !== "SATISFIED")
+    .map((goal) => {
+      const workNode = workNodeForGoal(workState, goal.id);
 
-      const operationByKind: Record<CaseGoalKind, string> = {
-        OBJECT: "Re-establish the exact Case object before further work.",
-        SOURCE_TRUTH: "Recover the strongest result-bearing proposition from the indexed source.",
-        CLAIM_CONTRACT: "Reclassify the operative predicate and rebuild the claim-specific evidence contract.",
-        EVIDENCE: "Search only evidence-relation-qualified internal objects for the missing requirement.",
-        COUNTEREVIDENCE: "Actively search for the strongest competing explanation or contradiction.",
-        BOUNDARY: "Find the condition under which transfer, scale, or interpretation fails.",
-        REALITY_TEST: "Specify the minimum discriminating observation or intervention.",
-        SYNTHESIS: "Re-run synthesis only after upstream epistemic goals are bounded.",
-      };
+      const status: AutonomousSubtaskStatus =
+        workNode?.state === "SATISFIED"
+          ? "DONE"
+          : workNode?.state === "BLOCKED"
+            ? "BLOCKED"
+            : workNode?.state === "BLOCKED_BY_DEPENDENCY"
+              ? "QUEUED"
+              : "LIMITED";
 
       return {
         id: `subtask-${goal.id}`,
         goalId: goal.id,
-        priority: index + 1,
+        priority:
+          priority[goal.kind] +
+          (workNode?.state === "BLOCKED_BY_DEPENDENCY" ? 100 : 0),
         operation: operationByKind[goal.kind],
-        reason: goal.completionRule,
-        status: result.status,
-        output: result.output,
-        signalIds: result.signalIds,
+        reason:
+          workNode?.state === "BLOCKED_BY_DEPENDENCY"
+            ? workNode.rationale
+            : goal.completionRule,
+        status,
+        output: outputForGoal(goal),
+        signalIds: goal.signalIds,
       };
     })
+    .sort((a, b) => a.priority - b.priority)
     .slice(0, 6);
 }
 
@@ -10170,7 +10459,6 @@ function runGoalDirectedIterativeWorkLoop(args: {
     goalTree,
     autonomousSubtasks,
     evidenceAudit,
-    researchPasses,
     epistemicContract,
     completionGate,
   } = args;
@@ -10237,30 +10525,6 @@ function runGoalDirectedIterativeWorkLoop(args: {
       (goal) => goal.id === next.goalId,
     );
 
-    const relatedResearch = researchPasses.find((pass) => {
-      if (!linkedGoal) return false;
-      if (linkedGoal.kind === "SOURCE_TRUTH") {
-        return pass.kind === "PRIMARY RECOVERY";
-      }
-      if (linkedGoal.kind === "COUNTEREVIDENCE") {
-        return pass.kind === "CHALLENGE SEARCH";
-      }
-      if (linkedGoal.kind === "BOUNDARY") {
-        return pass.kind === "BOUNDARY SEARCH";
-      }
-      if (linkedGoal.kind === "EVIDENCE") {
-        return (
-          pass.kind === "SUPPORT SEARCH" ||
-          pass.kind === "REPLICATION SEARCH"
-        );
-      }
-      return false;
-    });
-
-    const canAdvanceFromExistingWork =
-      next.status === "LIMITED" &&
-      relatedResearch?.status === "FOUND";
-
     const becomesBlockedByMissingEvidence =
       next.status === "BLOCKED" ||
       (
@@ -10268,23 +10532,9 @@ function runGoalDirectedIterativeWorkLoop(args: {
         evidenceAudit.overallStrength === "INSUFFICIENT"
       );
 
-    if (canAdvanceFromExistingWork) {
-      workingProgress = Math.min(
-        100,
-        workingProgress + 6,
-      );
-    }
-
-    if (
-      linkedGoal?.kind === "EVIDENCE" &&
-      relatedResearch?.status === "FOUND" &&
-      evidenceStrengthRank(workingEvidence) < evidenceStrengthRank("MODERATE")
-    ) {
-      // Do not fabricate a stronger evidence grade. The loop records that
-      // evidence-directed work found relevant material, while the authoritative
-      // unified Evidence Audit remains the source of truth.
-      workingEvidence = evidenceAudit.overallStrength;
-    }
+    // Progress is a derived state, never a synthetic increment.
+    workingProgress = goalTree.progress;
+    workingEvidence = evidenceAudit.overallStrength;
 
     const gained =
       workingProgress > progressBefore ||
@@ -10646,7 +10896,7 @@ function buildAstraCoreState(args: {
     epistemicContract: args.epistemicContract,
   });
 
-  const { replan, finalPlan } = buildMissionReplan({
+  const { replan, finalPlan: replannedFinalPlan } = buildMissionReplan({
     initialPlan,
     researchPasses: research.passes,
     originalAudit: args.evidenceAudit,
@@ -10688,9 +10938,9 @@ function buildAstraCoreState(args: {
   const consequencePass = passes.find((pass) => pass.kind === "CONSEQUENCE");
   const realityPass = passes.find((pass) => pass.kind === "REALITY TEST");
 
-  const workLedger = buildAgentWorkLedger({
+  const initialWorkLedger = buildAgentWorkLedger({
     mission,
-    finalPlan,
+    finalPlan: replannedFinalPlan,
     researchPasses: research.passes,
     replan,
     passes,
@@ -10713,12 +10963,31 @@ function buildAstraCoreState(args: {
     steering,
   });
 
+  const unifiedWorkState = buildUnifiedEpistemicWorkState({
+    goalTree,
+    relationGates: research.relationGates,
+    evidenceAudit: workingAudit,
+  });
+
   const autonomousSubtasks = generateAutonomousSubtasks({
     goalTree,
     researchPasses: research.passes,
     evidenceAudit: workingAudit,
     epistemicContract: args.epistemicContract,
+    workState: unifiedWorkState,
   });
+
+  const finalPlan = synchronizeAdaptiveWorkPlan(
+    replannedFinalPlan,
+    goalTree,
+    unifiedWorkState,
+  );
+
+  const workLedger = synchronizeWorkLedger(
+    initialWorkLedger,
+    goalTree,
+    unifiedWorkState,
+  );
 
   const initialCompletionGate = buildCaseCompletionGate({
     goalTree,
@@ -10781,6 +11050,7 @@ function buildAstraCoreState(args: {
     completionGate,
     closureProtocol,
     caseState,
+    unifiedWorkState,
     initialPlan,
     researchPasses: research.passes,
     relationGates: research.relationGates,
@@ -13049,6 +13319,41 @@ useEffect(() => {
                                   </small>
                                 </div>
                                 <p>{message.intelligence.astraCore.caseState.rationale}</p>
+                              </div>
+
+                              <div className="ep-unified-work-state">
+                                <div className="ep-unified-work-state__head">
+                                  <div>
+                                    <span>UNIFIED EPISTEMIC WORK STATE</span>
+                                    <strong>
+                                      {message.intelligence.astraCore.unifiedWorkState.activeGoalKind
+                                        ? `ACTIVE · ${message.intelligence.astraCore.unifiedWorkState.activeGoalKind.replaceAll("_", " ")}`
+                                        : "NO ACTIVE GOAL"}
+                                    </strong>
+                                  </div>
+                                  <small>
+                                    {message.intelligence.astraCore.unifiedWorkState.satisfied}
+                                    {" / "}
+                                    {message.intelligence.astraCore.unifiedWorkState.total}
+                                    {" epistemically satisfied"}
+                                  </small>
+                                </div>
+                                <div className="ep-unified-work-state__nodes">
+                                  {message.intelligence.astraCore.unifiedWorkState.nodes.map((node) => (
+                                    <div
+                                      key={node.goalId}
+                                      className={[
+                                        "ep-unified-work-state__node",
+                                        `is-${node.state.toLowerCase().replaceAll("_", "-")}`,
+                                      ].join(" ")}
+                                    >
+                                      <span>{node.kind.replaceAll("_", " ")}</span>
+                                      <strong>{node.state.replaceAll("_", " ")}</strong>
+                                      <small>{node.evidenceDecision.replaceAll("_", " ")}</small>
+                                    </div>
+                                  ))}
+                                </div>
+                                <p>{message.intelligence.astraCore.unifiedWorkState.principle}</p>
                               </div>
 
                               <div className="ep-case-goal-tree">
@@ -21850,9 +22155,213 @@ useEffect(() => {
           }
         }
 
+
+        /* ==================================================
+           CASE GLASS SYSTEM · STAGE 6.9.4
+        ================================================== */
+        .ep-case-rail {
+          border-bottom: 1px solid rgba(255,255,255,.065);
+          background:
+            linear-gradient(180deg, rgba(10,10,11,.88), rgba(2,2,3,.82));
+          box-shadow:
+            inset 0 1px rgba(255,255,255,.025),
+            0 18px 48px rgba(0,0,0,.18);
+          backdrop-filter: blur(26px) saturate(118%);
+          -webkit-backdrop-filter: blur(26px) saturate(118%);
+        }
+
+        .ep-case-rail__case,
+        .ep-case-header,
+        .ep-case-state-machine,
+        .ep-unified-work-state,
+        .ep-case-goal-tree,
+        .ep-case-subtasks,
+        .ep-case-completion,
+        .ep-case-loop,
+        .ep-case-closure {
+          position: relative;
+          overflow: hidden;
+          border: 1px solid rgba(255,255,255,.075);
+          background:
+            radial-gradient(circle at 12% 0%, rgba(255,255,255,.035), transparent 34%),
+            linear-gradient(155deg, rgba(15,15,16,.82), rgba(3,3,4,.74));
+          box-shadow:
+            inset 0 1px rgba(255,255,255,.035),
+            inset 0 -1px rgba(255,255,255,.012),
+            0 18px 55px rgba(0,0,0,.16);
+          backdrop-filter: blur(24px) saturate(112%);
+          -webkit-backdrop-filter: blur(24px) saturate(112%);
+        }
+
+        .ep-case-rail__case::before,
+        .ep-case-header::before,
+        .ep-case-state-machine::before,
+        .ep-unified-work-state::before,
+        .ep-case-goal-tree::before,
+        .ep-case-subtasks::before,
+        .ep-case-completion::before,
+        .ep-case-loop::before,
+        .ep-case-closure::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          background:
+            linear-gradient(118deg, rgba(255,255,255,.026), transparent 22%, transparent 78%, rgba(255,255,255,.012));
+          opacity: .8;
+        }
+
+        .ep-case-header {
+          border-radius: 20px;
+          padding: 17px 18px 18px;
+        }
+
+        .ep-case-header > *,
+        .ep-case-state-machine > *,
+        .ep-unified-work-state > *,
+        .ep-case-goal-tree > *,
+        .ep-case-subtasks > *,
+        .ep-case-completion > *,
+        .ep-case-loop > *,
+        .ep-case-closure > * {
+          position: relative;
+          z-index: 1;
+        }
+
+        .ep-case-rail__case.is-active {
+          border-color: rgba(255,255,255,.15);
+          background:
+            radial-gradient(circle at 18% 0%, rgba(255,255,255,.055), transparent 38%),
+            linear-gradient(155deg, rgba(19,19,20,.92), rgba(4,4,5,.82));
+          box-shadow:
+            inset 0 1px rgba(255,255,255,.055),
+            0 14px 36px rgba(0,0,0,.24);
+        }
+
+        .ep-case-state-machine {
+          margin-top: 10px;
+          border-radius: 15px;
+          border-bottom: 1px solid rgba(255,255,255,.075);
+          background:
+            radial-gradient(circle at 10% 0%, rgba(255,255,255,.032), transparent 36%),
+            linear-gradient(155deg, rgba(13,13,14,.82), rgba(3,3,4,.72));
+        }
+
+        .ep-unified-work-state {
+          margin-top: 10px;
+          padding: 14px 15px 15px;
+          border-radius: 15px;
+        }
+
+        .ep-unified-work-state__head {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 14px;
+          padding-bottom: 12px;
+          border-bottom: 1px solid rgba(255,255,255,.055);
+        }
+
+        .ep-unified-work-state__head > div {
+          display: grid;
+          gap: 5px;
+        }
+
+        .ep-unified-work-state__head span {
+          color: rgba(255,255,255,.34);
+          font-size: 7px;
+          letter-spacing: .16em;
+        }
+
+        .ep-unified-work-state__head strong {
+          color: rgba(255,255,255,.82);
+          font-size: 10px;
+          font-weight: 500;
+          letter-spacing: .05em;
+        }
+
+        .ep-unified-work-state__head small {
+          color: rgba(255,255,255,.28);
+          font-size: 7px;
+          letter-spacing: .08em;
+        }
+
+        .ep-unified-work-state__nodes {
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0,1fr));
+          gap: 7px;
+          margin-top: 11px;
+        }
+
+        .ep-unified-work-state__node {
+          min-width: 0;
+          display: grid;
+          gap: 5px;
+          padding: 9px 10px;
+          border: 1px solid rgba(255,255,255,.055);
+          border-radius: 10px;
+          background: rgba(255,255,255,.012);
+        }
+
+        .ep-unified-work-state__node span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: rgba(255,255,255,.29);
+          font-size: 6px;
+          letter-spacing: .11em;
+        }
+
+        .ep-unified-work-state__node strong {
+          color: rgba(255,255,255,.63);
+          font-size: 7px;
+          font-weight: 500;
+          letter-spacing: .07em;
+        }
+
+        .ep-unified-work-state__node small {
+          color: rgba(255,255,255,.22);
+          font-size: 6px;
+          letter-spacing: .06em;
+        }
+
+        .ep-unified-work-state__node.is-satisfied {
+          border-color: rgba(255,255,255,.105);
+          background: rgba(255,255,255,.026);
+        }
+
+        .ep-unified-work-state__node.is-ready {
+          border-color: rgba(255,255,255,.14);
+          background: rgba(255,255,255,.032);
+        }
+
+        .ep-unified-work-state__node.is-blocked,
+        .ep-unified-work-state__node.is-blocked-by-dependency {
+          opacity: .58;
+        }
+
+        .ep-unified-work-state > p {
+          margin: 11px 0 0;
+          color: rgba(255,255,255,.31);
+          font-size: 8px;
+          line-height: 1.6;
+        }
+
+        @media (max-width: 760px) {
+          .ep-unified-work-state__nodes {
+            grid-template-columns: repeat(2, minmax(0,1fr));
+          }
+
+          .ep-unified-work-state__head {
+            flex-direction: column;
+            gap: 7px;
+          }
+        }
+
       `}
 
-      </style>
+      
+</style>
     </section>
   );
 }
