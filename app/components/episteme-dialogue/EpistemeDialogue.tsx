@@ -291,6 +291,10 @@ type FollowUpDemand =
   | "EVIDENCE_STATUS"
   | "VALIDATION"
   | "IMPLICATION"
+  | "MEASUREMENT"
+  | "BOUNDARY"
+  | "ALTERNATIVE"
+  | "SCOPE_CHALLENGE"
   | "GENERAL";
 
 type EpistemicObjectResolution = {
@@ -2809,8 +2813,12 @@ function classifyDocumentEventType(signal: SignalItem): DocumentEventType {
     return "CLINICAL TRIAL RESULT";
   }
 
+  const historicalExplainer =
+    /^(how|why)\b/.test(title) &&
+    /\b(over time|over the past|history|historical|trend|trends|decade|decades|century|centuries|evolved|evolution|changed|change over|reshaped|spread|grew|growth|declined|decline|rose|rise|fell|shifted|transitioned|became|took over|structural change|long-term)\b/.test(corpus);
+
   if (
-    /^(how|why)\b/.test(title) ||
+    historicalExplainer ||
     /\b(explainer|analysis|commentary|perspective|review|history of|trend analysis|synthesis)\b/.test(corpus)
   ) {
     return "ANALYSIS / EXPLAINER";
@@ -2824,6 +2832,111 @@ function classifyDocumentEventType(signal: SignalItem): DocumentEventType {
   }
 
   return "UNKNOWN";
+}
+
+type PredicateSemanticProfile = {
+  claimType: ClaimType | null;
+  predicate: string;
+  rationale: string;
+};
+
+function inferPredicateSemanticProfile(
+  signal: SignalItem,
+  eventType: DocumentEventType,
+  genre: SignalGenre | null = null,
+): PredicateSemanticProfile {
+  const title = normalize(signal.title);
+  const summary = normalize(signal.summary ?? "");
+  const corpus = normalize(`${signal.title} ${signal.summary}`);
+
+  // Strong event families retain precedence. Predicate semantics refine
+  // substantive scientific/engineering claims; they must not overwrite a
+  // regulatory, institutional, operational, or interview event.
+  if (
+    eventType === "REGULATORY DECISION" ||
+    eventType === "SUPPLY / OPERATIONAL DISRUPTION" ||
+    eventType === "POLICY / INSTITUTIONAL ACTION" ||
+    eventType === "BUSINESS ACTION" ||
+    eventType === "PERSONNEL UPDATE" ||
+    eventType === "MISSION / OPERATIONAL UPDATE" ||
+    eventType === "EVENT ANNOUNCEMENT" ||
+    eventType === "INTERVIEW / Q&A"
+  ) {
+    return {
+      claimType: null,
+      predicate: "event-governed",
+      rationale: "Event semantics outrank domain vocabulary and generic scientific predicates.",
+    };
+  }
+
+  // Engineering-capability predicates: the claim is that an architecture,
+  // device, material, method, or structure can deliver controllable function.
+  if (
+    /\b(enables?|enabled|allows?|allowed|controls?|controlled|independent control|tunable|tunes?|switchable|switches|modulates?|modulated|steers?|steered|routes?|routed|programmable|reconfigurable|achieves?|achieved|performs?|performed)\b/.test(title) &&
+    /\b(control|mode|modes|resonance|resonances|signal|signals|device|nanostructure|structure|circuit|platform|system|light|optical|photon|photonic|frequency|wavelength|beam|current|voltage|state|states|function|performance)\b/.test(corpus)
+  ) {
+    return {
+      claimType: "ENGINEERING / CONSTRUCTIVE",
+      predicate: "capability / controllability",
+      rationale:
+        "The operative predicate asserts reproducible control or functional capability. Unknown implementation details do not make the claim function UNKNOWN.",
+    };
+  }
+
+  // Mechanistic predicates: X activates/drives/mediates/regulates Y, or a
+  // How/Why title whose predicate is a physical/biological mechanism.
+  const mechanisticPredicate =
+    /\b(activates?|activated|inhibits?|inhibited|mediates?|mediated|drives?|driven|regulates?|regulated|triggers?|triggered|induces?|induced|causes?|caused|binds?|binding|converts?|converted|transforms?|transformed|produces?|produced|controls? the activation|switch(?:es)? .* on|switch(?:es)? .* off)\b/.test(title);
+
+  const mechanisticHowWhy =
+    /^(how|why)\b/.test(title) &&
+    mechanisticPredicate &&
+    !/\b(over time|history|historical|trend|decade|century|evolved|changed|reshaped|spread|grew|declined|shifted)\b/.test(title);
+
+  if (mechanisticPredicate || mechanisticHowWhy) {
+    return {
+      claimType: "CAUSAL / MECHANISTIC",
+      predicate: "mechanism / causal action",
+      rationale:
+        "The operative predicate links a specific cause, molecular/physical action, or mechanism to an outcome; headline form alone must not convert it into retrospective synthesis.",
+    };
+  }
+
+  if (
+    /\b(outperforms?|better than|worse than|compared with|versus|vs\b|higher than|lower than|more accurate than|faster than|slower than)\b/.test(title)
+  ) {
+    return {
+      claimType: "COMPARATIVE",
+      predicate: "comparison",
+      rationale: "The headline asserts a relative ranking or performance difference.",
+    };
+  }
+
+  if (
+    /\b(predicts?|predicted|forecasts?|forecasted|warns?|warning|lead time|anticipates?|projected)\b/.test(title)
+  ) {
+    return {
+      claimType: "PREDICTIVE",
+      predicate: "prospective prediction",
+      rationale: "The headline asserts a future or prospective measurable outcome.",
+    };
+  }
+
+  if (
+    /\b(detects?|detected|observes?|observed|measures?|measured|reveals?|revealed|identifies?|identified|finds?|found|shows?|showed|discovers?|discovered)\b/.test(title)
+  ) {
+    return {
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      predicate: "observation / discovery",
+      rationale: "The headline asserts an observed, measured, detected, identified, or discovered state.",
+    };
+  }
+
+  return {
+    claimType: null,
+    predicate: "unresolved",
+    rationale: "No sufficiently discriminating predicate family was identified.",
+  };
 }
 
 function classifySignalGenre(signal: SignalItem): SignalGenre {
@@ -3105,6 +3218,14 @@ function claimGenreConsistencyNote(
     claimType !== "INSTITUTIONAL"
   ) {
     return "Genre/claim mismatch corrected: institutional action requires an institutional claim contract.";
+  }
+
+  if (
+    genre === "UNKNOWN" &&
+    (claimType === "ENGINEERING / CONSTRUCTIVE" ||
+      claimType === "CAUSAL / MECHANISTIC")
+  ) {
+    return "Predicate-semantic classification recovered the substantive claim function even though the document/event genre remained UNKNOWN.";
   }
 
   return "";
@@ -3481,6 +3602,71 @@ function buildClaimGraph(
     );
   }
 
+  // Stage 6.4.5 predicate-semantic claim graph completion.
+  const predicateProfile = inferPredicateSemanticProfile(
+    signal,
+    documentEventType,
+    genre,
+  );
+
+  if (
+    nodes.length === 0 &&
+    predicateProfile.claimType === "ENGINEERING / CONSTRUCTIVE"
+  ) {
+    const root = add(
+      roles.reportedResult || roles.coreClaim || title,
+      "PRIMARY",
+      "ENGINEERING / CONSTRUCTIVE",
+      "REPORTED",
+    );
+
+    if (/\bindependent control\b|\bindependently control\b/.test(normalizedTitle)) {
+      add(
+        "The controlled outputs or resonance modes can be tuned independently with acceptably low cross-coupling",
+        "SUPPORTING",
+        "ENGINEERING / CONSTRUCTIVE",
+        "INFERRED",
+        root ? [root] : [],
+      );
+    }
+
+    add(
+      "The reported capability holds only within the measured operating, geometry, material, excitation, and fabrication boundaries",
+      "NON_IMPLICATION",
+      "ENGINEERING / CONSTRUCTIVE",
+      "BOUNDARY",
+      root ? [root] : [],
+    );
+  }
+
+  if (
+    nodes.length === 0 &&
+    predicateProfile.claimType === "CAUSAL / MECHANISTIC"
+  ) {
+    const root = add(
+      roles.reportedResult || roles.coreClaim || title,
+      "PRIMARY",
+      "CAUSAL / MECHANISTIC",
+      "REPORTED",
+    );
+
+    add(
+      "The proposed causal or mechanistic link should produce a distinct intermediate or perturbation response",
+      "CAUSAL",
+      "CAUSAL / MECHANISTIC",
+      "INFERRED",
+      root ? [root] : [],
+    );
+
+    add(
+      "A competing pathway capable of producing the same observed output remains a separate explanation until discriminated",
+      "NON_IMPLICATION",
+      "CAUSAL / MECHANISTIC",
+      "BOUNDARY",
+      root ? [root] : [],
+    );
+  }
+
   // 7. General fallback. Keep at least one primary node.
   if (nodes.length === 0) {
     add(
@@ -3570,6 +3756,30 @@ function selectClaimNodeForFollowUp(
 
 function objectSpecificMeasurementCandidates(node: ClaimNode): string[] {
   const t = normalize(node.text);
+
+  if (
+    node.claimType === "ENGINEERING / CONSTRUCTIVE" &&
+    /\b(resonance|resonances|mode|modes|light|optical|photon|photonic|nanostructure|independent control|tunable|control)\b/.test(t)
+  ) {
+    return [
+      "the shift or tuning range of each resonance mode under its intended control parameter",
+      "cross-sensitivity: how much mode 2 moves when only mode 1 is tuned, and vice versa",
+      "linewidth, Q factor, intensity, or coupling efficiency while tuning",
+      "device-to-device and repeated-measurement variation across the stated operating envelope",
+    ];
+  }
+
+  if (
+    node.claimType === "CAUSAL / MECHANISTIC" &&
+    /\b(rna|nucleotide|dye|fluorescent|activation|activates|switch)\b/.test(t)
+  ) {
+    return [
+      "fluorescence intensity or quantum-yield change associated with the nucleotide state",
+      "binding affinity or occupancy of the dye/RNA complex",
+      "structural or conformational state that changes at the proposed switch",
+      "the downstream fluorescence response after targeted mutation or perturbation of the nucleotide",
+    ];
+  }
 
   if (/\b(shortage|shortages|supply|availability|care delivery|disrupt)\b/.test(t)) {
     return [
@@ -3667,6 +3877,30 @@ function objectSpecificMeasurementCandidates(node: ClaimNode): string[] {
 function objectSpecificBoundaryCandidates(node: ClaimNode): string[] {
   const t = normalize(node.text);
 
+  if (
+    node.claimType === "ENGINEERING / CONSTRUCTIVE" &&
+    /\b(resonance|resonances|mode|modes|light|optical|photon|photonic|nanostructure|independent control|tunable|control)\b/.test(t)
+  ) {
+    return [
+      "cross-coupling between the supposedly independent resonance modes",
+      "fabrication tolerance and geometry variation",
+      "material loss, linewidth, or Q-factor degradation during tuning",
+      "polarization, incidence angle, temperature, excitation power, and surrounding refractive-index dependence",
+    ];
+  }
+
+  if (
+    node.claimType === "CAUSAL / MECHANISTIC" &&
+    /\b(rna|nucleotide|dye|fluorescent|activation|activates|switch)\b/.test(t)
+  ) {
+    return [
+      "whether the effect survives mutation of adjacent nucleotides",
+      "dye concentration, ionic strength, temperature, and RNA folding conditions",
+      "whether the observed fluorescence change can arise from binding affinity alone rather than the proposed switching mechanism",
+      "whether the mechanism persists across orthogonal structural or spectroscopic assays",
+    ];
+  }
+
   if (/\b(shortage|shortages|supply|availability|care delivery|disrupt)\b/.test(t)) {
     return [
       "shortage definition and reporting threshold",
@@ -3759,6 +3993,28 @@ function objectSpecificBoundaryCandidates(node: ClaimNode): string[] {
 
 function objectSpecificIndependentTest(node: ClaimNode): string[] {
   const t = normalize(node.text);
+
+  if (
+    node.claimType === "ENGINEERING / CONSTRUCTIVE" &&
+    /\b(resonance|resonances|mode|modes|light|optical|photon|photonic|nanostructure|independent control|tunable|control)\b/.test(t)
+  ) {
+    return [
+      "repeat fabrication of nominally identical structures followed by independent control sweeps of both resonance modes",
+      "an orthogonal optical measurement that reproduces the two independent tuning responses",
+      "replication by another device batch or laboratory showing comparable tuning range and low cross-coupling",
+    ];
+  }
+
+  if (
+    node.claimType === "CAUSAL / MECHANISTIC" &&
+    /\b(rna|nucleotide|dye|fluorescent|activation|activates|switch)\b/.test(t)
+  ) {
+    return [
+      "targeted mutation of the proposed nucleotide followed by rescue or reversal where feasible",
+      "an orthogonal structural or spectroscopic assay that observes the proposed switching state",
+      "independent replication showing the same perturbation-to-fluorescence causal sequence",
+    ];
+  }
 
   if (/\b(shortage|shortages|supply|availability|care delivery|disrupt)\b/.test(t)) {
     return [
@@ -3897,6 +4153,90 @@ function synthesizeClaimGraphFollowUp(
   }
 
 
+
+  if (
+    /\b(omitted driver|alternative decomposition|alternative explanation|competing mechanism|competing explanation|same pattern)\b/.test(q)
+  ) {
+    const alternatives =
+      node.claimType === "CAUSAL / MECHANISTIC"
+        ? [
+            "a competing pathway that produces the same downstream observation",
+            "a shared upstream cause or confounder",
+            "an assay, binding, structural, or measurement effect that mimics the proposed mechanism",
+          ]
+        : node.claimType === "ANALYTICAL / SYNTHESIS"
+          ? [
+              "an omitted driver with comparable explanatory power",
+              "a different decomposition of the same trend",
+              "a definition or source change that generates the apparent pattern",
+            ]
+          : [
+              "a credible competing explanation tied to the same observed quantity",
+              "measurement or model dependence",
+              "a boundary condition under which the broader interpretation is unnecessary",
+            ];
+
+    return {
+      demand,
+      directAnswer:
+        `For the active subclaim “${node.text}”, the strongest alternative should reproduce the same observation while changing the explanation. Test: ${alternatives.join("; ")}.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nAlternative-explanation testing is an operation on this claim node; it should not fall back to a generic object-lock response.`,
+    };
+  }
+
+  if (
+    /\b(time window|category definition|data source|scope|definition|most strongly challenge the narrative)\b/.test(q)
+  ) {
+    const challenges =
+      node.claimType === "ANALYTICAL / SYNTHESIS"
+        ? [
+            "change the start/end time window",
+            "use a materially different but defensible category definition",
+            "repeat the trend/decomposition with an independent data source",
+            "test whether the preferred driver remains dominant under those changes",
+          ]
+        : objectSpecificBoundaryCandidates(node);
+
+    return {
+      demand,
+      directAnswer:
+        `For the active subclaim “${node.text}”, the strongest scope challenge is: ${challenges.join("; ")}. The conclusion should be narrowed if a reasonable scope or source change removes the claimed pattern.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nScope challenge is evaluated against the active node rather than replaying the signal-wide contract.`,
+    };
+  }
+
+  if (/\b(falsif|invalidate|counterexample|disconfirm|disprove|break the claim)\b/.test(q)) {
+    return {
+      demand,
+      directAnswer:
+        `The active subclaim “${node.text}” should be rejected or narrowed if its claim-specific discriminating condition fails. The relevant failure test is: ${node.evidenceNeeded.join("; ")}. A falsification must attack this node directly rather than a weaker neighboring claim.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nFalsification is node-specific: failure of a supporting node does not automatically falsify every claim, and support for a weaker node does not rescue a stronger one.`,
+    };
+  }
+
+  if (/\b(assumption|premise|hidden assumption|indispensable)\b/.test(q)) {
+    return {
+      demand,
+      directAnswer:
+        `For the active subclaim “${node.text}”, expose the minimum assumptions required for the claim to hold, then perturb the most consequential one. The assumption is epistemically important only if changing it changes the predicted measurement, mechanism, ranking, or capability.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nAssumption testing must connect the premise to an observable consequence rather than remain a verbal checklist.`,
+    };
+  }
+
+  if (/\b(imply|implication|mean|consequence|significance|matter|important)\b/.test(q)) {
+    return {
+      demand,
+      directAnswer:
+        `If the active subclaim “${node.text}” survives its own evidence burden, its significance is bounded by that node's claim type (${node.claimType}). It may justify the next stronger capability or explanation only when the additional claim has separate evidence; significance must not be inherited automatically across the graph.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nImplication is downstream reasoning, not additional evidence.`,
+    };
+  }
+
   return null;
 }
 
@@ -3911,10 +4251,28 @@ function buildEpistemicClaimIdentity(
   const signalParse = parseEpistemicStructure(signal.title, neutralIntent, signal);
   const roles = decomposeSignalRoles(signal, genre);
 
-  const claimType = resolveClaimTypeFromGenre(
+  const predicateProfile = inferPredicateSemanticProfile(
+    signal,
+    documentEventType,
+    genre,
+  );
+
+  const genreResolvedClaimType = resolveClaimTypeFromGenre(
     genre,
     signalParse.claimType,
   );
+
+  const claimType =
+    predicateProfile.claimType &&
+    ![
+      "INFORMATIONAL / OPERATIONAL",
+      "INSTITUTIONAL",
+      "SYSTEM / OPERATIONAL IMPACT",
+      "CLINICAL / INTERVENTIONAL",
+      "PREDICTIVE",
+    ].includes(genreResolvedClaimType)
+      ? predicateProfile.claimType
+      : genreResolvedClaimType;
 
   const evidenceType =
     claimType === "FORMAL / MATHEMATICAL"
@@ -3990,6 +4348,50 @@ function buildParseFromClaimIdentity(
     neutralIntentForSignal(signal),
     signal,
   );
+
+  if (identity.claimType === "ENGINEERING / CONSTRUCTIVE") {
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: [
+        `predicate-semantic engineering classification: ${identity.genre}`,
+        "The operative predicate asserts controllable function, independent control, tunability, switching, routing, modulation, or another constructive capability.",
+      ],
+      validationModes: ["ENGINEERING VERIFICATION", "EXPERIMENTAL REPLICATION"],
+      disconfirmationMode:
+        "The capability claim weakens if the controlled outputs are not independently addressable, cross-coupling is too large, performance collapses outside narrow conditions, or the claimed function cannot be reproduced across devices or repeated measurements.",
+      evidenceNeeded: [
+        "direct functional performance metric tied to the claimed control",
+        "cross-coupling or selectivity between controlled outputs",
+        "defined operating envelope and sensitivity to fabrication/measurement conditions",
+        "independent device, measurement, or laboratory verification",
+      ],
+      contextPolicy:
+        "Unknown implementation detail does not imply unknown claim function. A predicate such as enables independent control is an engineering-capability claim and must be tested as such.",
+    };
+  }
+
+  if (identity.claimType === "CAUSAL / MECHANISTIC") {
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: [
+        `predicate-semantic mechanistic classification: ${identity.genre}`,
+        "The operative predicate asserts that a specific molecular, physical, biological, or system action produces or regulates an outcome.",
+      ],
+      validationModes: ["EXPERIMENTAL REPLICATION", "INTERVENTIONAL TEST"],
+      disconfirmationMode:
+        "The mechanism weakens if perturbing the proposed causal link does not change the predicted downstream response, if temporal/structural ordering fails, or if a competing mechanism reproduces the same observation.",
+      evidenceNeeded: [
+        "mechanism-specific intermediate quantity or state",
+        "perturbation or intervention of the proposed causal link",
+        "credible competing mechanism",
+        "orthogonal or independent discrimination between mechanisms",
+      ],
+      contextPolicy:
+        "How/Why is not itself an analytical-synthesis marker. When the predicate is activates, inhibits, mediates, drives, regulates, triggers, or another mechanism verb, preserve a mechanistic evidence contract.",
+    };
+  }
 
   if (identity.claimType === "PREDICTIVE") {
     return {
@@ -4302,9 +4704,33 @@ function findEvidenceRequirementAudit(
 function classifyFollowUpDemand(query: string): FollowUpDemand {
   const q = normalize(query);
 
-  // Semantic domain-specific demands outrank generic rejection/falsification
-  // language. "Which safety result would force rejection?" is SAFETY, not
-  // generic FALSIFICATION.
+  // Most specific epistemic operation first.
+  if (
+    /\b(independent measurement|independent observation|replication|replicate|reproduce|reproduction|independent test)\b/.test(q)
+  ) {
+    return "VALIDATION";
+  }
+  if (
+    /\b(measured quantity|measurement|which .* quantity|what .* measure|directly measured|observable)\b/.test(q)
+  ) {
+    return "MEASUREMENT";
+  }
+  if (
+    /\b(boundary condition|analysis choice|erase the effect|weaken the claim|operating boundary|scope condition)\b/.test(q)
+  ) {
+    return "BOUNDARY";
+  }
+  if (
+    /\b(omitted driver|alternative decomposition|alternative explanation|competing mechanism|competing explanation|same pattern)\b/.test(q)
+  ) {
+    return "ALTERNATIVE";
+  }
+  if (
+    /\b(time window|category definition|data source|scope|definition|most strongly challenge the narrative)\b/.test(q)
+  ) {
+    return "SCOPE_CHALLENGE";
+  }
+
   if (/\b(safety|adverse|toxicity|toxic|harm|side effect|side effects|benefit risk|risk benefit)\b/.test(q)) {
     return "SAFETY";
   }
@@ -4320,7 +4746,7 @@ function classifyFollowUpDemand(query: string): FollowUpDemand {
   if (/\b(falsif|invalidate|invalidated|counterexample|disconfirm|disprove|break the claim|break it|would force .* rejected|would force .* narrowed)\b/.test(q)) {
     return "FALSIFICATION";
   }
-  if (/\b(recover|recovered|recovery|reproduce|reproduced|reproduction|independently derive|independent derivation)\b/.test(q)) {
+  if (/\b(recover|recovered|recovery|independently derive|independent derivation)\b/.test(q)) {
     return "RECOVERABILITY";
   }
   if (/\b(assumption|assumptions|premise|premises|hidden import|hidden assumption|indispensable)\b/.test(q)) {
@@ -4329,7 +4755,7 @@ function classifyFollowUpDemand(query: string): FollowUpDemand {
   if (/\b(evidence|supported|verified|verification|proof|proven|established|confidence)\b/.test(q)) {
     return "EVIDENCE_STATUS";
   }
-  if (/\b(test|validate|validation|replicate|replication|confirm|decisive test)\b/.test(q)) {
+  if (/\b(test|validate|validation|confirm|decisive test)\b/.test(q)) {
     return "VALIDATION";
   }
   if (/\b(imply|implication|mean|consequence|significance|matter|important)\b/.test(q)) {
@@ -4442,6 +4868,46 @@ function explicitlyRequestsNewObject(query: string): boolean {
   );
 }
 
+function lexicalObjectOverlap(query: string, activeSignal: SignalItem): number {
+  const q = new Set(words(query));
+  const active = words(`${activeSignal.title} ${activeSignal.summary}`);
+  if (active.length === 0) return 0;
+  return active.filter((token) => q.has(token)).length / active.length;
+}
+
+function looksLikeStandaloneObjectIntroduction(
+  query: string,
+  activeSignal: SignalItem | null,
+): boolean {
+  if (!activeSignal) return false;
+
+  const raw = query.trim();
+  const q = normalize(raw);
+  const tokens = q.split(/\s+/).filter(Boolean);
+
+  if (!q || tokens.length === 0 || tokens.length > 5) return false;
+  if (/[?]/.test(raw)) return false;
+  if (looksLikeContextualFollowUp(query)) return false;
+
+  // Follow-up operation vocabulary must keep the active object even when the
+  // query is short.
+  if (
+    /\b(measurement|measured|quantity|boundary|condition|replication|independent|evidence|assumption|mechanism|alternative|comparator|population|endpoint|safety|validation|falsif|implication|significance|result|claim|signal|effect|outcome)\b/.test(q)
+  ) {
+    return false;
+  }
+
+  // A very short, semantically discontinuous noun/entity phrase such as
+  // "OpenAI", "Titan", or "quantum gravity" is treated as an explicit new
+  // object rather than an implicit follow-up.
+  const overlap = lexicalObjectOverlap(query, activeSignal);
+  const entityLike =
+    /^[A-Za-z0-9][A-Za-z0-9 ._+\-/'’]{0,80}$/.test(raw) &&
+    !/^(yes|no|maybe|continue|more|why|how|what|which|same|again)$/i.test(raw);
+
+  return entityLike && overlap === 0;
+}
+
 function resolveEpistemicObject(
   query: string,
   signals: SignalItem[],
@@ -4458,14 +4924,18 @@ function resolveEpistemicObject(
 
   const activeSignal = getActiveEpistemicSignal(previousMessages, signals);
 
-  // Stage 6.4.2 Hard Follow-Up Object Lock:
-  // Once an Episteme object is active, fuzzy retrieval is forbidden unless
-  // the user explicitly introduces a new object. The operation may change;
-  // the epistemic object may not.
+  const semanticReplacement =
+    looksLikeStandaloneObjectIntroduction(query, activeSignal);
+
+  // Stage 6.4.5 Controlled Object Switching:
+  // Contextual operations preserve the active object.
+  // Explicit semantic discontinuity releases the lock.
+  // Fuzzy retrieval alone never silently replaces an active object.
   if (
     activeSignal &&
     hasPriorAssistantTurn(previousMessages) &&
-    !explicitlyRequestsNewObject(query)
+    !explicitlyRequestsNewObject(query) &&
+    !semanticReplacement
   ) {
     return {
       primarySignal: activeSignal,
@@ -4819,9 +5289,10 @@ function buildIntelligence(
   const intentModel = buildIntentModel(query, mode);
   const kind = queryKindFromIntent(intentModel);
 
-  // Stage 6.2: resolve the active epistemic object before fuzzy retrieval.
-  // A contextual follow-up keeps the previous PRIMARY signal anchored unless
-  // the user explicitly names a new signal/object.
+  // Stage 6.4.5: resolve object continuity before retrieval.
+  // Contextual follow-ups keep the previous PRIMARY signal anchored.
+  // Explicit semantic discontinuity releases the lock.
+  // Fuzzy similarity alone never silently replaces an active object.
   const objectResolution = resolveEpistemicObject(
     query,
     signals,

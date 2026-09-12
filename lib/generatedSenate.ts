@@ -153,21 +153,6 @@ export const senateAgenda =
   {
     "id": "agenda-11",
     "rank": 11,
-    "title": "Einstein and the Solar Eclipses - Why Albert Einstein joined the Astronomische Gesellschaft in Potsdam 1921",
-    "slug": "general-einstein-and-the-solar-eclipses-why-albert-einstein-joined-the-astronomische-ges",
-    "category": "General",
-    "source": "arXiv Physics",
-    "score": 9.2,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this signal influence civilization?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
     "title": "Bone Marrow-on-a-Chip Model Offers New Window Into Immune Cell Development and Behavior",
     "slug": "ai-bone-marrow-on-a-chip-model-offers-new-window-into-immune-cell-development-and-b",
     "category": "AI",
@@ -177,6 +162,21 @@ export const senateAgenda =
     "stage": "Open Deliberation",
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "Cosmological Constraints on Interacting Scalar-Field Dark Matter and Early Dark Energy mediated by a Kinetic Kernel",
+    "slug": "ai-cosmological-constraints-on-interacting-scalar-field-dark-matter-and-early-dark-",
+    "category": "AI",
+    "source": "arXiv Physics",
+    "score": 9.1,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   }

@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-12T01:47:52.012Z",
+  "updated": "2026-09-12T02:20:55.681Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nepal flood disaster exposes cascading threats in Himalayas",
+      "url": "https://phys.org/news/2026-09-nepal-disaster-exposes-cascading-threats.html",
+      "summary": "A catastrophic flood in Nepal that left thousands missing began with a collapse of ice and rock high in the mountains—a warning that disaster planning must prepare for chains of hazards, not isolated events, experts say.",
+      "ts": 1789178405000,
+      "publishedAt": "2026-09-12T02:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Q&A: The origin of 'OnlyMarms' and what made it a roaring success",
@@ -791,14 +799,6 @@
       "title": "Cosmological Constraints on Interacting Scalar-Field Dark Matter and Early Dark Energy mediated by a Kinetic Kernel",
       "url": "https://arxiv.org/abs/2609.10575",
       "summary": "arXiv:2609.10575v1 Announce Type: new Abstract: In this work, we build a general framework for constraining interacting scalar fields with cosmological observations, applicable to a broad family of scalar--field potentia…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Einstein and the Solar Eclipses - Why Albert Einstein joined the Astronomische Gesellschaft in Potsdam 1921",
-      "url": "https://arxiv.org/abs/2609.10577",
-      "summary": "arXiv:2609.10577v1 Announce Type: new Abstract: In 1911 Einstein suggested that photons which pass close to the Sun are deflected by its effective mass which would apparently shift the positions of stars by up to one arc…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
