@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-11T03:33:29.660Z",
+  "generatedAt": "2026-09-12T01:29:49.476Z",
   "current": {
-    "date": "2026-09-11",
-    "id": "nasa-answers-president-s-call-to-establish-united-states-space-academy",
+    "date": "2026-09-12",
+    "id": "help-refine-data-from-space-telescopes-with-artifact-inspector",
     "experienceVersion": "4D-1",
-    "title": "NASA Answers President’s Call to Establish United States Space Academy",
-    "experienceTitle": "NASA Answers President’s Call to Establish United States Space Academy",
+    "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "experienceTitle": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
     "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
     "source": {
-      "title": "NASA Answers President’s Call to Establish United States Space Academy",
+      "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
       "organization": "NASA",
-      "url": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
-      "publishedAt": "2026-09-10T20:26:52.000Z",
-      "updatedAt": "2026-09-11T03:33:29.651Z"
+      "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+      "publishedAt": "2026-09-11T19:48:09.000Z",
+      "updatedAt": "2026-09-12T01:29:49.468Z"
     },
     "classification": {
       "category": "ENGINEERING",
@@ -21,7 +21,7 @@
       "expectedHorizon": "5–20 Years"
     },
     "reality": {
-      "statement": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce …"
+      "statement": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, t…"
     },
     "theory": {
       "statement": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
@@ -74,9 +74,9 @@
       "statement": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration."
     },
     "evidence": {
-      "statement": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce …",
+      "statement": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, t…",
       "strength": "Strong",
-      "confidence": 80
+      "confidence": 88
     },
     "falsification": {
       "statement": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
@@ -95,19 +95,19 @@
     "civilizationMeaning": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
     "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
     "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-09-11.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-09-12.",
     "selection": {
-      "finalScore": 51.5,
+      "finalScore": 52.3,
       "repetitionPenalty": 25,
       "criteria": {
-        "scientificSignificance": 72.5,
-        "empiricalStrength": 81.5,
-        "falsifiability": 76.7,
+        "scientificSignificance": 77.5,
+        "empiricalStrength": 89.5,
+        "falsifiability": 79.3,
         "engineeringReach": 55,
         "civilizationImpact": 66,
         "explanatoryValue": 80,
         "theoryEvidenceCoupling": 80,
-        "fundamentalPrincipleValue": 95,
+        "fundamentalPrincipleValue": 80,
         "crossDomainReach": 77,
         "experienceSuitability": 95
       }
@@ -239,6 +239,20 @@
       "date": "2026-09-09",
       "id": "curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
       "title": "Curiosity Blog, Sols 4995-5001: 5,000 (Martian) Days on Mars",
+      "topicFingerprint": [
+        "engineering",
+        "reality discovery",
+        "space systems",
+        "space",
+        "science",
+        "technology",
+        "law & governance"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "id": "nasa-answers-president-s-call-to-establish-united-states-space-academy",
+      "title": "NASA Answers President’s Call to Establish United States Space Academy",
       "topicFingerprint": [
         "engineering",
         "reality discovery",

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-11T23:57:15.875Z",
+  "updated": "2026-09-12T01:29:49.376Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "ts": 1789344000000,
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Scholar Rock wins FDA approval for first drug to target SMA muscle loss",
@@ -30,6 +39,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+      "summary": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, t…",
+      "ts": 1789156089000,
+      "publishedAt": "2026-09-11T19:48:09.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Bone Marrow-on-a-Chip Model Offers New Window Into Immune Cell Development and Behavior",
       "url": "https://www.genengnews.com/topics/translational-medicine/bone-marrow-on-a-chip-model-offers-new-window-into-immune-cell-development-and-behavior/",
@@ -39,6 +57,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s Chandra Spots Galactic Gem",
+      "url": "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/",
+      "summary": "Two galaxies merge at a furious rate in this Aug. 25, 2026, image of the II Zw 096 system. This and several other images of both visually and scientifically interesting galaxies were released by NASA’s Chandra X-ray Obse…",
+      "ts": 1789147187000,
+      "publishedAt": "2026-09-11T17:19:47.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
       "url": "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/?utm_campaign=rss",
@@ -46,6 +73,15 @@
       "ts": 1789144551000,
       "publishedAt": "2026-09-11T16:35:51.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "ts": 1789142400000,
+      "publishedAt": "2026-09-11T16:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "IAEA News",
@@ -163,24 +199,6 @@
       "ts": 1789128600000,
       "publishedAt": "2026-09-11T12:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Ambassadors mark 9/11 with counter-terrorism push on AI and drones",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168318",
-      "summary": "The Security Council met to mark 25 years since the 9/11 attacks, with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's counter…",
-      "ts": 1789128000000,
-      "publishedAt": "2026-09-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "The world just had the hottest August ever",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168317",
-      "summary": "Earth just had the hottest August on record, according to newly released weather data.",
-      "ts": 1789128000000,
-      "publishedAt": "2026-09-11T12:00:00.000Z",
-      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1789048800000,
       "publishedAt": "2026-09-10T14:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA expands Bayer lung cancer drug approval",
-      "url": "https://www.statnews.com/2026/09/10/biotech-news-fda-expands-bayer-lung-cancer-drug-approval/?utm_campaign=rss",
-      "summary": "UniQure readout tests durability of benefits, an AI effort to manage heart failure, and more biotech news from The Readout",
-      "ts": 1789047416000,
-      "publishedAt": "2026-09-10T13:36:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Novartis investor seeking a shake-up, a Gilead setback, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/?utm_campaign=rss",
-      "summary": "A major Novartis shareholder has called for a shake-up of the drugmaker's board after its shares suffered a record fall following trial setbacks",
-      "ts": 1789045762000,
-      "publishedAt": "2026-09-10T13:09:22.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

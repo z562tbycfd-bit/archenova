@@ -124,6 +124,31 @@ type SignalGenre =
   | "FORECAST"
   | "UNKNOWN";
 
+type ClaimRelation =
+  | "PRIMARY"
+  | "SUPPORTING"
+  | "DERIVED"
+  | "CAUSAL"
+  | "PREDICTIVE"
+  | "EXCLUSION"
+  | "NON_IMPLICATION";
+
+type ClaimNode = {
+  id: string;
+  text: string;
+  relation: ClaimRelation;
+  claimType: ClaimType;
+  status: "REPORTED" | "INFERRED" | "BOUNDARY";
+  evidenceNeeded: string[];
+  dependsOn: string[];
+};
+
+type ClaimGraph = {
+  nodes: ClaimNode[];
+  primaryClaimId: string | null;
+  summary: string;
+};
+
 type EpistemicClaimIdentity = {
   signalId: string;
   signalTitle: string;
@@ -135,6 +160,7 @@ type EpistemicClaimIdentity = {
   reportedResult: string;
   implication: string;
   nonImplication: string;
+  claimGraph: ClaimGraph;
 };
 
 type ContextAssessment = {
@@ -2931,6 +2957,617 @@ function claimGenreConsistencyNote(
   return "";
 }
 
+
+function evidenceNeedsForClaimType(claimType: ClaimType): string[] {
+  switch (claimType) {
+    case "DESCRIPTIVE / EMPIRICAL":
+      return [
+        "directly measured or observed quantity",
+        "measurement and sampling uncertainty",
+        "independent observation or replication",
+      ];
+    case "CAUSAL / MECHANISTIC":
+      return [
+        "mechanism-specific evidence",
+        "credible alternative mechanism",
+        "discriminating intervention or observation",
+      ];
+    case "COMPARATIVE":
+      return [
+        "common comparison objective",
+        "symmetric measurement criteria",
+        "evidence that discriminates the alternatives",
+      ];
+    case "PREDICTIVE":
+      return [
+        "prespecified target and horizon",
+        "forecast skill or calibration",
+        "prospective or out-of-sample validation",
+      ];
+    case "ANALYTICAL / SYNTHESIS":
+      return [
+        "traceable trend or historical evidence",
+        "driver decomposition",
+        "alternative explanation and scope sensitivity",
+      ];
+    case "INSTITUTIONAL":
+      return [
+        "traceable rule or policy source",
+        "operative institutional mechanism",
+        "actor/system outcomes and counterfactual",
+      ];
+    case "CLINICAL / INTERVENTIONAL":
+      return [
+        "clinically meaningful endpoint",
+        "appropriate comparator",
+        "safety and external validity",
+      ];
+    case "ENGINEERING / CONSTRUCTIVE":
+      return [
+        "functional performance metric",
+        "operating envelope",
+        "failure/recovery and independent verification",
+      ];
+    case "INFORMATIONAL / OPERATIONAL":
+      return [
+        "traceable source",
+        "confirmation of the reported event/action/status",
+      ];
+    default:
+      return ["direct evidence", "explicit boundary conditions"];
+  }
+}
+
+function makeClaimNode(
+  id: string,
+  text: string,
+  relation: ClaimRelation,
+  claimType: ClaimType,
+  status: "REPORTED" | "INFERRED" | "BOUNDARY",
+  dependsOn: string[] = [],
+): ClaimNode {
+  return {
+    id,
+    text: stripTerminalPunctuation(text.trim()),
+    relation,
+    claimType,
+    status,
+    evidenceNeeded: evidenceNeedsForClaimType(claimType),
+    dependsOn,
+  };
+}
+
+function splitTitleClaimClauses(title: string): string[] {
+  return title
+    .split(/\s+[—–-]\s+|:\s+/)
+    .map((part) => part.trim())
+    .filter((part) => part.length >= 8);
+}
+
+function buildClaimGraph(
+  signal: SignalItem,
+  genre: SignalGenre,
+  roles: {
+    coreClaim: string;
+    baseline: string;
+    reportedResult: string;
+    implication: string;
+    nonImplication: string;
+  },
+  resolvedClaimType: ClaimType,
+): ClaimGraph {
+  const nodes: ClaimNode[] = [];
+  const title = signal.title.trim();
+  const summary = (signal.summary ?? "").trim();
+  const normalizedTitle = normalize(title);
+  const normalizedSummary = normalize(summary);
+
+  const add = (
+    text: string,
+    relation: ClaimRelation,
+    claimType: ClaimType,
+    status: "REPORTED" | "INFERRED" | "BOUNDARY",
+    dependsOn: string[] = [],
+  ) => {
+    const cleaned = stripTerminalPunctuation(text.trim());
+    if (!cleaned) return null;
+    const duplicate = nodes.find((node) => normalize(node.text) === normalize(cleaned));
+    if (duplicate) return duplicate.id;
+    const id = `claim-${nodes.length + 1}`;
+    nodes.push(makeClaimNode(id, cleaned, relation, claimType, status, dependsOn));
+    return id;
+  };
+
+  // 1. Explicit compound titles: "X — this might help explain Y".
+  const explanatoryMatch = title.match(
+    /^(.+?)[—–-]\s*(?:this|which|that)?\s*(?:might|may|could|can)?\s*help explain\s+(.+)$/i,
+  );
+  if (explanatoryMatch) {
+    const primaryId = add(
+      explanatoryMatch[1],
+      "PRIMARY",
+      "DESCRIPTIVE / EMPIRICAL",
+      "REPORTED",
+    );
+    add(
+      `${explanatoryMatch[1]} may help explain ${explanatoryMatch[2]}`,
+      "CAUSAL",
+      "CAUSAL / MECHANISTIC",
+      "INFERRED",
+      primaryId ? [primaryId] : [],
+    );
+  }
+
+  // 2. Exclusion/mechanism titles: "What's carving X? It's not Y".
+  const exclusionMatch = title.match(
+    /^what(?:'s| is)\s+(.+?)\?\s*(?:it(?:'s| is)\s+)?not\s+(.+)$/i,
+  );
+  if (exclusionMatch) {
+    const observationId = add(
+      `Active process or change is occurring in ${exclusionMatch[1]}`,
+      "SUPPORTING",
+      "DESCRIPTIVE / EMPIRICAL",
+      "INFERRED",
+    );
+    const exclusionId = add(
+      `${exclusionMatch[2]} is not the active explanation for ${exclusionMatch[1]}`,
+      "EXCLUSION",
+      "COMPARATIVE",
+      "REPORTED",
+      observationId ? [observationId] : [],
+    );
+    add(
+      `A mechanism other than ${exclusionMatch[2]} is responsible for ${exclusionMatch[1]}`,
+      "CAUSAL",
+      "CAUSAL / MECHANISTIC",
+      "INFERRED",
+      [observationId, exclusionId].filter(Boolean) as string[],
+    );
+  }
+
+  // 3. Research summaries frequently contain several distinct outcome claims.
+  if (/\blibrar(?:y|ies)\b/.test(normalizedTitle + " " + normalizedSummary)) {
+    const root = add(
+      "Public libraries support communities through everyday interactions",
+      "PRIMARY",
+      "DESCRIPTIVE / EMPIRICAL",
+      "REPORTED",
+    );
+    if (/\bconnections?\b/.test(normalizedSummary)) {
+      add(
+        "Public libraries help people build social connections",
+        "SUPPORTING",
+        "DESCRIPTIVE / EMPIRICAL",
+        "REPORTED",
+        root ? [root] : [],
+      );
+    }
+    if (/\baccess support\b|\baccess services?\b|\bsupport access\b/.test(normalizedSummary)) {
+      add(
+        "Public libraries improve access to support or services",
+        "SUPPORTING",
+        "DESCRIPTIVE / EMPIRICAL",
+        "REPORTED",
+        root ? [root] : [],
+      );
+    }
+    if (/\bwell-being\b|\bwellbeing\b/.test(normalizedSummary)) {
+      add(
+        "Public library interactions are associated with improved well-being",
+        "DERIVED",
+        "CAUSAL / MECHANISTIC",
+        "INFERRED",
+        root ? [root] : [],
+      );
+    }
+  }
+
+  // 4. Forecast objects should separate the forecast itself from its usefulness claim.
+  if (resolvedClaimType === "PREDICTIVE") {
+    const root = add(
+      roles.reportedResult || roles.coreClaim || title,
+      "PRIMARY",
+      "PREDICTIVE",
+      "REPORTED",
+    );
+    if (/\bwarning\b|\blead time\b|\bmonths? ahead\b|\bahead of\b/.test(normalizedTitle + " " + normalizedSummary)) {
+      add(
+        "The forecast provides decision-relevant advance warning at the claimed lead time",
+        "DERIVED",
+        "PREDICTIVE",
+        "INFERRED",
+        root ? [root] : [],
+      );
+    }
+  }
+
+  // 5. Analytical/synthesis signals: trend and explanatory decomposition are distinct.
+  if (resolvedClaimType === "ANALYTICAL / SYNTHESIS") {
+    const root = add(
+      roles.coreClaim || title,
+      "PRIMARY",
+      "ANALYTICAL / SYNTHESIS",
+      "REPORTED",
+    );
+    add(
+      "The reported historical or structural trend is real across the stated scope",
+      "SUPPORTING",
+      "DESCRIPTIVE / EMPIRICAL",
+      "INFERRED",
+      root ? [root] : [],
+    );
+    add(
+      "The proposed drivers explain the trend better than credible alternatives",
+      "DERIVED",
+      "CAUSAL / MECHANISTIC",
+      "INFERRED",
+      root ? [root] : [],
+    );
+  }
+
+  // 6. Institutional signals: separate rule change from downstream consequences.
+  if (resolvedClaimType === "INSTITUTIONAL") {
+    const root = add(
+      roles.reportedResult || roles.coreClaim || title,
+      "PRIMARY",
+      "INSTITUTIONAL",
+      "REPORTED",
+    );
+    add(
+      "The institutional rule changes how actors are classified, constrained, or incentivized",
+      "SUPPORTING",
+      "INSTITUTIONAL",
+      "INFERRED",
+      root ? [root] : [],
+    );
+    add(
+      "Any downstream effect on people or system outcomes requires separate evidence",
+      "NON_IMPLICATION",
+      "INSTITUTIONAL",
+      "BOUNDARY",
+      root ? [root] : [],
+    );
+  }
+
+  // 7. General fallback. Keep at least one primary node.
+  if (nodes.length === 0) {
+    add(
+      roles.reportedResult || roles.coreClaim || title,
+      "PRIMARY",
+      resolvedClaimType,
+      "REPORTED",
+    );
+
+    const clauses = splitTitleClaimClauses(title);
+    for (const clause of clauses.slice(1, 4)) {
+      add(
+        clause,
+        "SUPPORTING",
+        resolvedClaimType,
+        "REPORTED",
+        nodes[0] ? [nodes[0].id] : [],
+      );
+    }
+  }
+
+  // 8. Boundary node is explicit and separate from substantive claims.
+  if (roles.nonImplication) {
+    add(
+      roles.nonImplication,
+      "NON_IMPLICATION",
+      resolvedClaimType,
+      "BOUNDARY",
+      nodes[0] ? [nodes[0].id] : [],
+    );
+  }
+
+  const primary =
+    nodes.find((node) => node.relation === "PRIMARY") ??
+    nodes.find((node) => node.status === "REPORTED") ??
+    nodes[0] ??
+    null;
+
+  return {
+    nodes,
+    primaryClaimId: primary?.id ?? null,
+    summary:
+      nodes.length <= 1
+        ? "Single substantive claim identified."
+        : `${nodes.length} claim nodes identified; evidence must be evaluated claim-by-claim rather than inherited across the signal.`,
+  };
+}
+
+function claimNodeTokenScore(query: string, node: ClaimNode): number {
+  const stop = new Set([
+    "which", "what", "would", "could", "should", "most", "directly", "support",
+    "claim", "effect", "result", "measurement", "measured", "quantity",
+    "independent", "replication", "boundary", "condition", "analysis", "choice",
+    "change", "conclusion", "explain", "significance",
+  ]);
+  const qTokens = normalize(query).split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !stop.has(x));
+  const text = normalize(node.text);
+  return qTokens.reduce((score, token) => score + (text.includes(token) ? 2 : 0), 0);
+}
+
+function selectClaimNodeForFollowUp(
+  query: string,
+  graph: ClaimGraph,
+): ClaimNode | null {
+  if (graph.nodes.length === 0) return null;
+  const q = normalize(query);
+
+  const relationPreference: ClaimRelation[] =
+    /\b(explain|mechanism|causal|why)\b/.test(q)
+      ? ["CAUSAL", "DERIVED", "PRIMARY", "SUPPORTING", "EXCLUSION", "PREDICTIVE", "NON_IMPLICATION"]
+      : /\b(not|exclude|alternative|competing)\b/.test(q)
+        ? ["EXCLUSION", "CAUSAL", "PRIMARY", "SUPPORTING", "DERIVED", "PREDICTIVE", "NON_IMPLICATION"]
+        : ["PRIMARY", "SUPPORTING", "DERIVED", "CAUSAL", "EXCLUSION", "PREDICTIVE", "NON_IMPLICATION"];
+
+  const ranked = graph.nodes
+    .filter((node) => node.relation !== "NON_IMPLICATION")
+    .map((node) => ({
+      node,
+      score:
+        claimNodeTokenScore(query, node) +
+        Math.max(0, 6 - relationPreference.indexOf(node.relation)),
+    }))
+    .sort((a, b) => b.score - a.score);
+
+  return ranked[0]?.node ?? graph.nodes[0] ?? null;
+}
+
+function objectSpecificMeasurementCandidates(node: ClaimNode): string[] {
+  const t = normalize(node.text);
+
+  if (/\bgenetic|genomic|ancestry|coyote|admixture|dna\b/.test(t)) {
+    return [
+      "estimated ancestry/admixture proportion",
+      "genomic segments or allele patterns assigned to the proposed ancestry source",
+      "uncertainty across reference populations and sampling choices",
+    ];
+  }
+
+  if (/\bgull(?:y|ies)|mars|water|carving|surface process\b/.test(t)) {
+    return [
+      "repeat-imaging change in gully morphology or displaced material",
+      "seasonality and timing of activity",
+      "temperature/frost conditions correlated with activity",
+      "spectral or in-situ evidence that discriminates liquid water from alternative surface processes",
+    ];
+  }
+
+  if (/\blibrar(?:y|ies)|social connection|well-being|wellbeing|access to support|services\b/.test(t)) {
+    return [
+      "frequency and type of library-mediated support interactions",
+      "validated social-connection or isolation measures",
+      "successful service/referral access",
+      "validated well-being outcomes, with a comparison or baseline where causal language is used",
+    ];
+  }
+
+  if (node.claimType === "PREDICTIVE") {
+    return [
+      "forecast skill on the prespecified future target",
+      "calibration",
+      "lead time at useful skill",
+      "performance against climatology, persistence, or another declared baseline",
+    ];
+  }
+
+  if (node.claimType === "ANALYTICAL / SYNTHESIS") {
+    return [
+      "the quantitative historical trend being explained",
+      "driver-specific contribution estimates",
+      "sensitivity to time window and category definition",
+    ];
+  }
+
+  if (node.claimType === "INSTITUTIONAL") {
+    return [
+      "the operative classification/eligibility rule",
+      "number or share of actors affected by the rule",
+      "administrative outcomes before and after implementation",
+      "distributional effects across relevant groups",
+    ];
+  }
+
+  if (node.claimType === "CAUSAL / MECHANISTIC") {
+    return [
+      "a mechanism-specific intermediate quantity",
+      "an outcome that differs under the strongest competing mechanism",
+      "a perturbation/intervention response where feasible",
+    ];
+  }
+
+  return [
+    "the directly observed or measured quantity stated by the source",
+    "its uncertainty or sampling error",
+    "the corresponding quantity under an independent observation or replication",
+  ];
+}
+
+function objectSpecificBoundaryCandidates(node: ClaimNode): string[] {
+  const t = normalize(node.text);
+
+  if (/\bgenetic|genomic|ancestry|coyote|admixture|dna\b/.test(t)) {
+    return [
+      "reference-population choice",
+      "sample composition or breed representation",
+      "admixture-model assumptions",
+      "whether the genomic signal is robust across independent datasets",
+    ];
+  }
+
+  if (/\bgull(?:y|ies)|mars|water|carving|surface process\b/.test(t)) {
+    return [
+      "season or temperature range in which activity occurs",
+      "image-registration or morphology-change threshold",
+      "whether activity coincides with CO₂ frost or another competing process",
+      "whether water exclusion holds across sites rather than a selected subset",
+    ];
+  }
+
+  if (/\blibrar(?:y|ies)|social connection|well-being|wellbeing|access to support|services\b/.test(t)) {
+    return [
+      "self-selection into library use",
+      "baseline socioeconomic or health differences",
+      "how connection, service access, or well-being is defined",
+      "whether the association survives comparison with similar non-users or communities",
+    ];
+  }
+
+  if (node.claimType === "PREDICTIVE") {
+    return [
+      "forecast horizon",
+      "region/season transfer",
+      "baseline model choice",
+      "training/evaluation window",
+      "calibration under distribution shift",
+    ];
+  }
+
+  if (node.claimType === "ANALYTICAL / SYNTHESIS") {
+    return [
+      "time-window selection",
+      "category definition",
+      "single-source dependence",
+      "an omitted driver that explains the trend equally well or better",
+    ];
+  }
+
+  if (node.claimType === "INSTITUTIONAL") {
+    return [
+      "implementation differences across jurisdictions",
+      "eligibility/classification definitions",
+      "actor adaptation or strategic response",
+      "changes in enforcement or administrative discretion",
+    ];
+  }
+
+  return [
+    "sampling or population definition",
+    "measurement threshold",
+    "analysis/model specification",
+    "the strongest credible alternative interpretation",
+  ];
+}
+
+function objectSpecificIndependentTest(node: ClaimNode): string[] {
+  const t = normalize(node.text);
+
+  if (/\bgenetic|genomic|ancestry|coyote|admixture|dna\b/.test(t)) {
+    return [
+      "an independent genomic dataset using different sampled animals",
+      "a second ancestry/admixture method with independently chosen reference populations",
+      "replication of the same ancestry signal and approximate magnitude",
+    ];
+  }
+
+  if (/\bgull(?:y|ies)|mars|water|carving|surface process\b/.test(t)) {
+    return [
+      "independent repeat imaging of active gullies at additional sites",
+      "independent correlation of activity with seasonal thermal/frost conditions",
+      "a discriminating observation predicted differently by water-driven and non-water mechanisms",
+    ];
+  }
+
+  if (/\blibrar(?:y|ies)|social connection|well-being|wellbeing|access to support|services\b/.test(t)) {
+    return [
+      "an independent community or library sample using the same outcome definitions",
+      "a longitudinal or quasi-experimental design that reduces self-selection",
+      "replication of the effect on connection, service access, or well-being with explicit uncertainty",
+    ];
+  }
+
+  if (node.claimType === "PREDICTIVE") {
+    return [
+      "prospective evaluation on future seasons/events not used in model development",
+      "comparison with a declared baseline forecast",
+      "replication of useful skill and calibration at the claimed lead time",
+    ];
+  }
+
+  if (node.claimType === "ANALYTICAL / SYNTHESIS") {
+    return [
+      "an independent dataset covering the same historical trend",
+      "a second decomposition using different plausible categories or time windows",
+      "evidence that the preferred explanation outperforms a credible alternative",
+    ];
+  }
+
+  if (node.claimType === "INSTITUTIONAL") {
+    return [
+      "independent implementation evidence from another jurisdiction or period",
+      "a credible counterfactual or natural experiment",
+      "replication of actor/system responses and distributional effects",
+    ];
+  }
+
+  return [
+    "an independent dataset or observation of the same quantity",
+    "a preregistered or otherwise prospectively specified replication where feasible",
+    "a test that distinguishes the claim from its strongest alternative",
+  ];
+}
+
+function synthesizeClaimGraphFollowUp(
+  query: string,
+  claimIdentity: EpistemicClaimIdentity,
+  audit: EvidenceAudit,
+): FollowUpSynthesis | null {
+  const graph = claimIdentity.claimGraph;
+  if (!graph || graph.nodes.length === 0) return null;
+
+  const demand = classifyFollowUpDemand(query);
+  const node = selectClaimNodeForFollowUp(query, graph);
+  if (!node) return null;
+
+  const q = normalize(query);
+  const nodeLabel = `${node.relation} · ${node.claimType}`;
+  const dependency =
+    node.dependsOn.length > 0
+      ? ` It depends on: ${node.dependsOn
+          .map((id) => graph.nodes.find((candidate) => candidate.id === id)?.text)
+          .filter(Boolean)
+          .join("; ")}.`
+      : "";
+
+  if (/\b(measured quantity|measurement|what.*measure|which.*quantity)\b/.test(q)) {
+    const candidates = objectSpecificMeasurementCandidates(node);
+    return {
+      demand,
+      directAnswer:
+        `The active subclaim is “${node.text}” (${nodeLabel}). The most direct evidence should therefore be claim-specific rather than inherited from the whole headline: ${candidates.join("; ")}.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\nEvidence needed: ${node.evidenceNeeded.join("; ")}\n\nCurrent source boundary: ${audit.summary}`,
+    };
+  }
+
+  if (/\b(boundary condition|analysis choice|erase the effect|weaken the claim)\b/.test(q)) {
+    const candidates = objectSpecificBoundaryCandidates(node);
+    return {
+      demand,
+      directAnswer:
+        `For the active subclaim “${node.text}”, the strongest boundary checks are: ${candidates.join("; ")}. If the conclusion changes materially under one of these reasonable conditions, the claim should be narrowed to the strongest form that remains stable.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nA boundary condition must attack this subclaim directly; uncertainty in one claim node must not automatically invalidate or validate the others.`,
+    };
+  }
+
+  if (/\b(independent measurement|replication|independent observation|what.*change the conclusion)\b/.test(q)) {
+    const candidates = objectSpecificIndependentTest(node);
+    return {
+      demand,
+      directAnswer:
+        `For the active subclaim “${node.text}”, the most informative independent test would be: ${candidates.join("; ")}. A successful replication should reproduce the claim-specific quantity or discrimination, not merely repeat the article's broader narrative.${dependency}`,
+      reasoning:
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\n\nIndependent evidence should attach to this node. Support for one node must not be inherited by a stronger causal, predictive, or derived node without its own evidence.`,
+    };
+  }
+
+  return null;
+}
+
 function buildEpistemicClaimIdentity(
   signal: SignalItem | null,
 ): EpistemicClaimIdentity | null {
@@ -2971,6 +3608,13 @@ function buildEpistemicClaimIdentity(
                         : ["official source", "event, mission, or operational status", "current details"]
                     : ["direct evidence", "explicit boundary conditions"];
 
+  const claimGraph = buildClaimGraph(
+    signal,
+    genre,
+    roles,
+    claimType,
+  );
+
   return {
     signalId: signal.id,
     signalTitle: signal.title,
@@ -2982,6 +3626,7 @@ function buildEpistemicClaimIdentity(
     reportedResult: roles.reportedResult,
     implication: roles.implication,
     nonImplication: roles.nonImplication,
+    claimGraph,
   };
 }
 
@@ -3533,6 +4178,14 @@ function synthesizeFollowUpAnswer(
     /clinically meaningful/,
     /outcome/,
   ]);
+
+  const claimGraphSynthesis = claimIdentity
+    ? synthesizeClaimGraphFollowUp(query, claimIdentity, audit)
+    : null;
+
+  if (claimGraphSynthesis) {
+    return claimGraphSynthesis;
+  }
 
   if (claimIdentity?.claimType === "INSTITUTIONAL") {
     const q = normalize(query);

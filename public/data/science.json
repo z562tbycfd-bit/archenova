@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-11T23:57:11.309Z",
+  "updated": "2026-09-12T01:29:41.898Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Q&A: The origin of 'OnlyMarms' and what made it a roaring success",
+      "url": "https://phys.org/news/2026-09-qa-onlymarms-roaring-success.html",
+      "summary": "The story of Dan Blumstein's decision to share videos of marmots from the Rocky Mountain Biological Laboratory field study on an OnlyFans account called OnlyMarms has captured attention around the world over the past few…",
+      "ts": 1789174802000,
+      "publishedAt": "2026-09-12T01:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bridging interfacial water structure and reactivity in photocatalytic hydrogen evolution at TiO₂ interfaces",
+      "url": "https://phys.org/news/2026-09-bridging-interfacial-reactivity-photocatalytic-hydrogen.html",
+      "summary": "Hydrogen (H2) evolution via photocatalytic water splitting is an environmentally friendly and sustainable technology for solar-to-chemical energy conversion. Although interfacial interactions are recognized as key determ…",
+      "ts": 1789172401000,
+      "publishedAt": "2026-09-12T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How one RNA nucleotide switch activates fluorescent dyes",
+      "url": "https://phys.org/news/2026-09-rna-nucleotide-fluorescent-dyes.html",
+      "summary": "RhoBAST is a tiny RNA molecule that activates fluorescent dyes, enabling researchers to track RNA molecules in living cells with super-resolution. An international collaboration, which includes Ronald Micura and his team…",
+      "ts": 1789171204000,
+      "publishedAt": "2026-09-12T00:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How big can the universe's first starbursts get?",
@@ -651,26 +675,18 @@
       "publishedAt": "2026-09-11T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Designing Willis metamaterials with desired deformation pathways via incremental contrastive learning",
-      "url": "http://link.aps.org/doi/10.1103/q1w2-xggg",
-      "summary": "Author(s): Li Huang, Yuxuan Tang, and Yangyang Chen Precise control over deformation behaviors is essential for shape-morphing devices, adaptive actuators, and soft robotics. However, designing materials to achieve the w…",
+      "source": "APS PRX",
+      "title": "Geometrically Frustrated Quadrupoles on the Pyrochlore Lattice and Generalized Spin Liquids",
+      "url": "http://link.aps.org/doi/10.1103/vl1q-p27w",
+      "summary": "Author(s): Kristian Tyn Kai Chung, Sylvain Petit, Julien Robert, and Paul McClarty A semiclassical framework models quantum quadrupoles as biaxial tensors, showing how angular-momentum-dependent geometries dictate genera…",
       "ts": 1789120800000,
       "publishedAt": "2026-09-11T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Analytical modeling of atomic free-induction-decay dynamics for near-zero-field vector magnetometry",
-      "url": "http://link.aps.org/doi/10.1103/86l8-qvdm",
-      "summary": "Author(s): Yaoguo Wang, Di Zhan, Jixi Lu, Ping Xu, Zhuo Wang, Yanan Gao, Bowen Sun, Danyue Ma, Xiujie Fang, and Jiancheng Fang Near-zero-field magnetometers, particularly the spin-exchange relaxation-free (SERF) magnetom…",
-      "ts": 1789120800000,
-      "publishedAt": "2026-09-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Engineered broadband Purcell protection using a shared $\\mathrm{Π}$ filter for multiplexed superconducting qubits",
-      "url": "http://link.aps.org/doi/10.1103/nf7j-841f",
-      "summary": "Author(s): Samuel D. Escribano, Yael Kriheli, Samuel Goldstein, Daniel Dahan, and Nadav Katz We propose a broadband Purcell-protection scheme based on a single shared filter integrated directly into the feedline, enablin…",
+      "source": "APS PRX",
+      "title": "Emergent Altermagnetism at Surfaces of Antiferromagnets: Full Symmetry Classification and Material Identification",
+      "url": "http://link.aps.org/doi/10.1103/6j6l-kb6x",
+      "summary": "Author(s): Colin Lange, Rodrigo Jaeschke-Ubiergo, Atasi Chakraborty, Xanthe H. Verbeek, Libor Šmejkal, Jairo Sinova, and Alexander Mook A theoretical surface spin-group framework demonstrates that surface symmetry breaki…",
       "ts": 1789120800000,
       "publishedAt": "2026-09-11T10:00:00.000Z"
     },
@@ -783,22 +799,6 @@
       "title": "Einstein and the Solar Eclipses - Why Albert Einstein joined the Astronomische Gesellschaft in Potsdam 1921",
       "url": "https://arxiv.org/abs/2609.10577",
       "summary": "arXiv:2609.10577v1 Announce Type: new Abstract: In 1911 Einstein suggested that photons which pass close to the Sun are deflected by its effective mass which would apparently shift the positions of stars by up to one arc…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Supernova Time Dilation in Hybrid Expansion-Tired-Light Cosmologies",
-      "url": "https://arxiv.org/abs/2609.10582",
-      "summary": "arXiv:2609.10582v1 Announce Type: new Abstract: Dark Energy Survey has shown that the emission light curve widths $\\Delta t_{\\rm em}$ of supernovae increase to $\\Delta t_{\\rm obs}$, obeying $\\Delta t_{\\rm obs}/\\Delta t_{…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring the Observational Constraints and Cosmological Dynamics in f(Q,L_m) Gravity",
-      "url": "https://arxiv.org/abs/2609.10591",
-      "summary": "arXiv:2609.10591v1 Announce Type: new Abstract: We explore two scenarios of $f(Q,\\mathcal{L}_m)$ gravity: linear and non-linear gravity models. The dynamical system analysis identifies two critical points for each of the…",
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z"
     }
