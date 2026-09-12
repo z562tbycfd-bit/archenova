@@ -421,6 +421,31 @@ type DialogueMessage = {
   streaming?: boolean;
 };
 
+type EpistemeCaseStatus =
+  | "DRAFT"
+  | "WORKING"
+  | "COMPLETE"
+  | "COMPLETE_WITH_LIMITS"
+  | "BLOCKED";
+
+type EpistemeCaseSession = {
+  id: string;
+  rootQuestion: string;
+  title: string;
+  createdAt: number;
+  updatedAt: number;
+  messages: DialogueMessage[];
+  lockedSignalId: string | null;
+  status: EpistemeCaseStatus;
+};
+
+type CaseRoutingDecision =
+  | "NEW_CASE"
+  | "SAME_CASE"
+  | "CASE_NEUTRAL";
+
+
+
 type SignalSpaceNodeRole =
   | "SUPPORTING"
   | "COMPETING"
@@ -586,6 +611,19 @@ type AdaptiveWorkPlan = {
   steps: WorkPlanStep[];
 };
 
+type EvidenceRelationDecision =
+  | "EVIDENCE"
+  | "CONTEXT_ONLY"
+  | "REJECT";
+
+type EvidenceRelationGate = {
+  signalId: string;
+  decision: EvidenceRelationDecision;
+  relationScore: number;
+  matchedDimensions: string[];
+  rationale: string;
+};
+
 type InternalResearchPassKind =
   | "PRIMARY RECOVERY"
   | "SUPPORT SEARCH"
@@ -609,12 +647,154 @@ type MissionReplan = {
   revisedPriorities: string[];
 };
 
+type CaseGoalStatus =
+  | "PENDING"
+  | "ACTIVE"
+  | "SATISFIED"
+  | "LIMITED"
+  | "BLOCKED";
+
+type CaseGoalKind =
+  | "OBJECT"
+  | "SOURCE_TRUTH"
+  | "CLAIM_CONTRACT"
+  | "EVIDENCE"
+  | "COUNTEREVIDENCE"
+  | "BOUNDARY"
+  | "REALITY_TEST"
+  | "SYNTHESIS";
+
+type CaseGoalNode = {
+  id: string;
+  parentId: string | null;
+  kind: CaseGoalKind;
+  label: string;
+  governingQuestion: string;
+  status: CaseGoalStatus;
+  finding: string;
+  completionRule: string;
+  signalIds: string[];
+};
+
+type CaseGoalTree = {
+  rootId: string;
+  rootQuestion: string;
+  rootObjective: string;
+  nodes: CaseGoalNode[];
+  satisfied: number;
+  total: number;
+  progress: number;
+  nextGoalIds: string[];
+};
+
+type AutonomousSubtaskStatus =
+  | "QUEUED"
+  | "DONE"
+  | "LIMITED"
+  | "BLOCKED";
+
+type AutonomousSubtask = {
+  id: string;
+  goalId: string;
+  priority: number;
+  operation: string;
+  reason: string;
+  status: AutonomousSubtaskStatus;
+  output: string;
+  signalIds: string[];
+};
+
+type CompletionGateCheck = {
+  id: string;
+  label: string;
+  passed: boolean;
+  limited: boolean;
+  note: string;
+};
+
+type CaseCompletionGateStatus =
+  | "READY"
+  | "READY_WITH_LIMITS"
+  | "NOT_READY"
+  | "BLOCKED";
+
+type CaseCompletionGate = {
+  status: CaseCompletionGateStatus;
+  score: number;
+  checks: CompletionGateCheck[];
+  blockers: string[];
+  remainingWork: string[];
+  releaseDecision: string;
+  nextRequiredAction: string;
+};
+
+type IterativeWorkCycleStatus =
+  | "ADVANCED"
+  | "NO_GAIN"
+  | "ESCALATED"
+  | "STOPPED";
+
+type IterativeWorkCycle = {
+  iteration: number;
+  selectedSubtaskId: string | null;
+  selectedGoalId: string | null;
+  operation: string;
+  status: IterativeWorkCycleStatus;
+  evidenceBefore: EvidenceStrength;
+  evidenceAfter: EvidenceStrength;
+  progressBefore: number;
+  progressAfter: number;
+  finding: string;
+  stopReason: string | null;
+};
+
+type SubtaskEscalationLevel =
+  | "NONE"
+  | "PRIORITY"
+  | "EVIDENCE_GAP"
+  | "EXTERNAL_BOUNDARY";
+
+type SubtaskEscalation = {
+  level: SubtaskEscalationLevel;
+  subtaskId: string | null;
+  goalId: string | null;
+  reason: string;
+  action: string;
+};
+
+type CaseClosureStatus =
+  | "OPEN"
+  | "BOUNDED"
+  | "CLOSED"
+  | "BLOCKED";
+
+type CaseClosureProtocol = {
+  status: CaseClosureStatus;
+  reason: string;
+  closureConditions: string[];
+  unresolvedConditions: string[];
+  finalBoundary: string;
+  reopenCondition: string;
+};
+
+
+
 type AstraCoreState = {
   mission: EpistemeMission;
+  goalTree: CaseGoalTree;
+  autonomousSubtasks: AutonomousSubtask[];
+  iterativeWorkCycles: IterativeWorkCycle[];
+  escalation: SubtaskEscalation;
+  completionGate: CaseCompletionGate;
+  closureProtocol: CaseClosureProtocol;
   initialPlan: AdaptiveWorkPlan;
   researchPasses: InternalResearchPass[];
+  relationGates: EvidenceRelationGate[];
   replan: MissionReplan;
   finalPlan: AdaptiveWorkPlan;
+  unifiedEvidenceAudit: EvidenceAudit;
+  unifiedContextAssessment: ContextAssessment[];
+  unifiedSignalIds: string[];
   passes: ReasoningPass[];
   critique: SelfCritiqueGate;
   workLedger: AgentWorkLedger;
@@ -941,7 +1121,7 @@ function createThreadTitle(
   if (
     !firstUser
   ) {
-    return "New Inquiry";
+    return "New Case";
   }
   const text =
     firstUser.text.trim();
@@ -6444,9 +6624,46 @@ function classifyFollowUpDemand(query: string): FollowUpDemand {
 }
 
 
+
+function isBoundGeneratedFollowUp(
+  query: string,
+  previousMessages: DialogueMessage[],
+): boolean {
+  const target = normalize(query).replace(/[?.!。！？]+$/g, "").trim();
+  if (!target) return false;
+
+  for (let index = previousMessages.length - 1; index >= 0; index -= 1) {
+    const message = previousMessages[index];
+    if (
+      message.role !== "episteme" ||
+      !message.intelligence ||
+      message.intelligence.objectState === "NONE"
+    ) {
+      continue;
+    }
+
+    const suggestions = message.intelligence.nextQuestions ?? [];
+    if (
+      suggestions.some(
+        (suggestion) =>
+          normalize(suggestion).replace(/[?.!。！？]+$/g, "").trim() === target,
+      )
+    ) {
+      return true;
+    }
+
+    // Stop at the latest epistemic assistant turn. A suggestion from an older
+    // object must not punch through a newer object or null-object boundary.
+    return false;
+  }
+
+  return false;
+}
+
 function classifyConversationIntent(
   query: string,
   previousMessages: DialogueMessage[],
+  signals: SignalItem[] = [],
 ): ConversationIntent {
   const raw = query.trim();
   const q = normalize(raw);
@@ -6457,7 +6674,7 @@ function classifyConversationIntent(
   const socialEnglish =
     /^(hi|hello|hey|hiya|yo|good morning|good afternoon|good evening|good night|goodnight|how are you|how are you doing|nice to meet you|nice to me to|nice meeting you|thanks|thank you|thx|bye|goodbye|see you|see ya)$/i;
   const socialJapanese =
-    /^(やっほー|やっほ|こんにちは|こんばんは|おはよう|おはようございます|おやすみ|おやすみなさい|元気|元気ですか|調子どう|ありがとう|ありがとうございます|どうも|またね|じゃあね|ばいばい|おつかれ|お疲れ|お疲れさま|お疲れ様|おめでとう|おめでとうございます|おめでと)$/;
+    /^(やっほー|やっほ|こんにちは|こんばんは|おはよう|おはようございます|おやすみ|おやすみなさい|元気|元気ですか|調子どう|ありがとう|ありがとうございます|どうも|またね|じゃあね|ばいばい|おつかれ|お疲れ|お疲れさま|お疲れ様|おめでとう|おめでとうございます|おめでと|あはは|ははは|ふふ|ふふふ|笑|笑笑)$/;
   const socialChinese =
     /^(你好|您好|嗨|早上好|下午好|晚上好|晚安|谢谢|謝謝|再见|再見|恭喜|恭喜你)$/;
 
@@ -6507,6 +6724,18 @@ function classifyConversationIntent(
     return "SIGNAL_ANALYSIS";
   }
 
+  // An explicitly named indexed object always starts/re-anchors a mission.
+  // Explicit object identity outranks conversational continuity.
+  if (signals.length > 0 && findExplicitSignalReference(query, signals)) {
+    return "SIGNAL_ANALYSIS";
+  }
+
+  // Suggestions generated by Episteme are bound follow-ups to the latest
+  // epistemic object rather than free text that must rediscover its object.
+  if (isBoundGeneratedFollowUp(query, previousMessages)) {
+    return "FOLLOW_UP";
+  }
+
   if (looksLikeContextualFollowUp(query) || explicitFollowUpOperation(query)) {
     return "FOLLOW_UP";
   }
@@ -6538,6 +6767,9 @@ function socialReply(query: string): string {
   if (/^(ありがとう|ありがとうございます|どうも)/.test(raw)) return "どういたしまして。";
   if (/^(おめでとう|おめでとうございます|おめでと)/.test(raw)) {
     return "ありがとうございます。何を一緒に検討しましょうか？";
+  }
+  if (/^(あはは|ははは|ふふ|ふふふ|笑|笑笑)$/.test(raw)) {
+    return "ふふ。次は何を見てみましょうか？";
   }
   if (/^(またね|じゃあね|ばいばい)/.test(raw)) return "またね。";
   if (/^(やっほー|やっほ|こんにちは|こんばんは|おはよう)/.test(raw)) {
@@ -6625,7 +6857,7 @@ function explicitFollowUpOperation(query: string): boolean {
   const q = normalize(query);
 
   return (
-    /\b(which requirement|failure mode|recovery test|boundary condition|measured quantity|independent measurement|replication|what comparator|which endpoint|what evidence|which evidence|what would falsify|what would change the conclusion|what assumption|what alternative|why does this matter|why this matters)\b/.test(q) ||
+    /\b(which requirement|failure mode|recovery test|boundary condition|measured quantity|independent measurement|replication|what comparator|which endpoint|what evidence|which evidence|what would falsify|what would change the conclusion|what assumption|what alternative|why does this matter|why this matters|which new bottleneck|failed transition|forecast uncertainty|measurable outcome|what measurable outcome|horizon are fixed|prediction horizon)\b/.test(q) ||
     /(どの.*要件|失敗モード|回復.*テスト|境界条件|測定量|独立.*再現|再現実験|どの.*エンドポイント|どの.*証拠|何が.*反証|どの.*仮定|代替説明)/.test(query)
   );
 }
@@ -6900,7 +7132,7 @@ function resolveEpistemicObject(
   signals: SignalItem[],
   previousMessages: DialogueMessage[],
 ): EpistemicObjectResolution {
-  const conversationIntent = classifyConversationIntent(query, previousMessages);
+  const conversationIntent = classifyConversationIntent(query, previousMessages, signals);
   const latestState = latestEpistemicObjectState(previousMessages);
 
   if (
@@ -7066,6 +7298,47 @@ function synthesizeFollowUpAnswer(
 
   if (claimIdentity?.claimType === "PREDICTIVE") {
     const q = normalize(query);
+
+    if (
+      /\b(measurable outcome|outcome and horizon|horizon are fixed|prediction horizon|forecast horizon)\b/.test(q)
+    ) {
+      const ontology = inferSemanticClaimOntology({
+        id: claimIdentity.signalId,
+        title: claimIdentity.signalTitle,
+        summary: claimIdentity.coreClaim,
+        category: "",
+        source: "",
+        url: null,
+        level: "",
+        publishedAt: null,
+      });
+
+      const isComputationalPrediction =
+        ontology.domain === "AI / SOFTWARE" ||
+        /cell|single cell|counterfactual|drug effect|post treatment|state/i.test(
+          `${claimIdentity.signalTitle} ${claimIdentity.coreClaim}`,
+        );
+
+      return {
+        demand,
+        directAnswer: isComputationalPrediction
+          ? "The measurable outcome should be prespecified predictive performance on the held-out target the model claims to forecast—for this object, error or accuracy on post-treatment cellular states / withheld responses rather than patient benefit. The horizon is the prespecified post-treatment observation point or perturbation interval defined before evaluation. If the indexed source does not state that interval, Episteme should mark the horizon UNKNOWN rather than invent one."
+          : "The measurable outcome is forecast skill on the prespecified target, and the horizon is the lead time fixed before the outcome is observed. If either is absent from the indexed source, it remains UNKNOWN rather than being inferred from domain vocabulary.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nClaim family: PREDICTIVE.\n\nOutcome and horizon must follow the actual prediction target. A predictive software claim must not be converted into a clinical endpoint merely because biomedical vocabulary appears in the application domain.`,
+      };
+    }
+
+    if (
+      /\b(new bottleneck|failed transition|invalidate the trajectory|trajectory)\b/.test(q)
+    ) {
+      return {
+        demand,
+        directAnswer:
+          "The trajectory fails if the model's apparent predictive advantage does not survive the next transfer step: unseen perturbations, donors, cell types, treatment contexts, or a truly prospective holdout. The new bottleneck is therefore generalization under distribution shift and leakage-free counterfactual validation—not generic deployment scale. If performance collapses at that transition, the claim must be narrowed to retrospective or in-distribution prediction.",
+        reasoning: `Locked object: ${claimIdentity.signalTitle}\n\nClaim family: PREDICTIVE.\n\nA bottleneck is relevant only when it is the next causal transition required by the active claim. It must not be imported from a generic engineering template.`,
+      };
+    }
+
     if (/\b(measured quantity|measurement|independent measurement|replication)\b/.test(q)) {
       return {
         demand,
@@ -8483,6 +8756,106 @@ function researchCompatibilityScore(
   return score;
 }
 
+
+function evaluateEvidenceRelationGate(args: {
+  lead: SignalItem;
+  candidate: SignalItem;
+  epistemicContract: EpistemicContract;
+}): EvidenceRelationGate {
+  const { lead, candidate, epistemicContract } = args;
+
+  if (lead.id === candidate.id) {
+    return {
+      signalId: candidate.id,
+      decision: "EVIDENCE",
+      relationScore: 100,
+      matchedDimensions: ["PRIMARY"],
+      rationale: "Primary object.",
+    };
+  }
+
+  const leadOntology = inferSemanticClaimOntology(lead);
+  const candidateOntology = inferSemanticClaimOntology(candidate);
+  const leadProfile = inferObjectSemanticProfile(lead);
+  const candidateProfile = inferObjectSemanticProfile(candidate);
+
+  const subjectOverlap = evidenceSubjectOverlap(lead, candidate);
+  const titleOverlap = evidenceTitleOverlap(lead, candidate);
+  const candidateText = normalize(
+    `${candidate.title} ${sanitizeSignalSummary(candidate.summary)} ${candidate.category}`,
+  );
+
+  const dimensions: string[] = [];
+
+  const sameDomain =
+    leadOntology.domain === candidateOntology.domain;
+  if (sameDomain) dimensions.push("DOMAIN");
+
+  const sameArtifact =
+    leadOntology.artifact === candidateOntology.artifact;
+  if (sameArtifact) dimensions.push("ARTIFACT");
+
+  const sameOperation =
+    leadOntology.operation === candidateOntology.operation;
+  if (sameOperation) dimensions.push("OPERATION");
+
+  const sameClaimFamily =
+    leadOntology.claimType !== null &&
+    leadOntology.claimType === candidateOntology.claimType;
+  if (sameClaimFamily) dimensions.push("CLAIM_FAMILY");
+
+  const subjectBound =
+    titleOverlap >= 1 || subjectOverlap >= 3;
+  if (subjectBound) dimensions.push("SUBJECT");
+
+  const requirementMatch =
+    epistemicContract.evidenceRequirements.some((requirement) =>
+      requirementPattern(
+        requirement,
+        epistemicContract.claimType,
+      ).test(candidateText),
+    );
+  if (requirementMatch) dimensions.push("EVIDENCE_REQUIREMENT");
+
+  // Broad AI/software similarity is never enough. An evidence candidate must
+  // remain tied to the same object family and operation/claim burden.
+  const evidenceEligible =
+    sameDomain &&
+    sameArtifact &&
+    subjectBound &&
+    requirementMatch &&
+    (sameOperation || sameClaimFamily) &&
+    dimensions.length >= 5;
+
+  const contextEligible =
+    sameDomain &&
+    subjectBound &&
+    (sameArtifact || sameOperation || sameClaimFamily) &&
+    dimensions.length >= 3;
+
+  return {
+    signalId: candidate.id,
+    decision: evidenceEligible
+      ? "EVIDENCE"
+      : contextEligible
+        ? "CONTEXT_ONLY"
+        : "REJECT",
+    relationScore:
+      (sameDomain ? 3 : 0) +
+      (sameArtifact ? 2 : 0) +
+      (sameOperation ? 2 : 0) +
+      (sameClaimFamily ? 2 : 0) +
+      (subjectBound ? 3 : 0) +
+      (requirementMatch ? 2 : 0),
+    matchedDimensions: dimensions,
+    rationale: evidenceEligible
+      ? "Candidate passes the Evidence Relation Gate: object family, subject, and claim-specific evidence burden are compatible."
+      : contextEligible
+        ? "Candidate is useful only as context. It is related but does not satisfy the full evidence-relation burden."
+        : "Candidate is rejected as evidence because broad semantic/domain similarity is insufficient.",
+  };
+}
+
 function conductMultiPassInternalResearch(args: {
   query: string;
   lead: SignalItem | null;
@@ -8492,6 +8865,7 @@ function conductMultiPassInternalResearch(args: {
   epistemicContract: EpistemicContract;
 }): {
   passes: InternalResearchPass[];
+  relationGates: EvidenceRelationGate[];
   expandedSignals: SignalItem[];
   expandedAssessments: ContextAssessment[];
   expandedAudit: EvidenceAudit;
@@ -8517,6 +8891,7 @@ function conductMultiPassInternalResearch(args: {
             "No primary object is available, so multi-pass internal research abstains rather than filling the mission with unrelated signals.",
         },
       ],
+      relationGates: [],
       expandedSignals: [],
       expandedAssessments: [],
       expandedAudit: auditEvidence(
@@ -8544,13 +8919,32 @@ function conductMultiPassInternalResearch(args: {
     }))
     .sort((a, b) => b.score - a.score);
 
+  const relationGates = ranked.map((item) =>
+    evaluateEvidenceRelationGate({
+      lead,
+      candidate: item.signal,
+      epistemicContract,
+    }),
+  );
+  const relationById = new Map(
+    relationGates.map((gate) => [gate.signalId, gate]),
+  );
+
   const select = (
     predicate: (item: (typeof ranked)[number]) => boolean,
     minScore: number,
     limit: number,
+    evidenceRequired = false,
   ) =>
     ranked
       .filter((item) => item.score >= minScore && predicate(item))
+      .filter((item) => {
+        const gate = relationById.get(item.signal.id);
+        if (!gate) return false;
+        return evidenceRequired
+          ? gate.decision === "EVIDENCE"
+          : gate.decision !== "REJECT";
+      })
       .slice(0, limit)
       .map((item) => item.signal);
 
@@ -8565,6 +8959,7 @@ function conductMultiPassInternalResearch(args: {
       ),
     11,
     3,
+    true,
   );
 
   const challengeSignals = select(
@@ -8575,6 +8970,7 @@ function conductMultiPassInternalResearch(args: {
       ),
     8,
     3,
+    true,
   );
 
   const boundarySignals = select(
@@ -8594,6 +8990,7 @@ function conductMultiPassInternalResearch(args: {
       ),
     8,
     3,
+    true,
   );
 
   const result = extractResultBearingProposition(lead)?.proposition ||
@@ -8647,14 +9044,23 @@ function conductMultiPassInternalResearch(args: {
     },
   ];
 
+  const evidenceInitial = initialRelevant.filter((signal) => {
+    if (signal.id === lead.id) return true;
+    return relationById.get(signal.id)?.decision === "EVIDENCE";
+  });
+
   const expandedSignals = uniqueSignals([
     lead,
-    ...initialRelevant,
+    ...evidenceInitial,
     ...supportSignals,
     ...challengeSignals,
-    ...boundarySignals,
     ...replicationSignals,
-  ]).slice(0, 12);
+  ]).slice(0, 10);
+
+  const contextualSignals = boundarySignals.filter(
+    (signal) =>
+      !expandedSignals.some((item) => item.id === signal.id),
+  );
 
   const expandedAssessments: ContextAssessment[] = expandedSignals.map(
     (signal) => {
@@ -8712,6 +9118,7 @@ function conductMultiPassInternalResearch(args: {
 
   return {
     passes,
+    relationGates,
     expandedSignals,
     expandedAssessments,
     expandedAudit,
@@ -9047,6 +9454,997 @@ function buildAgentWorkLedger(args: {
   };
 }
 
+
+function goalStatusFromPass(
+  pass: ReasoningPass | undefined,
+): CaseGoalStatus {
+  if (!pass) return "PENDING";
+  if (pass.status === "PASS") return "SATISFIED";
+  if (pass.status === "LIMITED") return "LIMITED";
+  return "BLOCKED";
+}
+
+function buildCaseGoalTree(args: {
+  query: string;
+  mission: EpistemeMission;
+  passes: ReasoningPass[];
+  researchPasses: InternalResearchPass[];
+  evidenceAudit: EvidenceAudit;
+  epistemicContract: EpistemicContract;
+  critique: SelfCritiqueGate;
+  previousCore: AstraCoreState | null;
+  steering: MissionSteeringState;
+}): CaseGoalTree {
+  const {
+    query,
+    mission,
+    passes,
+    researchPasses,
+    evidenceAudit,
+    epistemicContract,
+    critique,
+    previousCore,
+    steering,
+  } = args;
+
+  const priorTree =
+    steering.mode !== "NEW_MISSION"
+      ? previousCore?.goalTree ?? null
+      : null;
+
+  const rootId =
+    priorTree?.rootId ??
+    `goal-root-${mission.id}`;
+
+  const rootQuestion =
+    priorTree?.rootQuestion ??
+    mission.inheritedObjective ??
+    query.trim();
+
+  const rootObjective =
+    priorTree?.rootObjective ??
+    mission.inheritedObjective ??
+    mission.objective;
+
+  const pass = (kind: ReasoningPassKind) =>
+    passes.find((item) => item.kind === kind);
+
+  const research = (kind: InternalResearchPassKind) =>
+    researchPasses.find((item) => item.kind === kind);
+
+  const sourceStatus = goalStatusFromPass(
+    pass("SOURCE TRUTH"),
+  );
+  const evidenceStatus: CaseGoalStatus =
+    evidenceAudit.overallStrength === "STRONG" ||
+    evidenceAudit.overallStrength === "MODERATE"
+      ? "SATISFIED"
+      : evidenceAudit.overallStrength === "LIMITED"
+        ? "LIMITED"
+        : "BLOCKED";
+
+  const counterStatus: CaseGoalStatus =
+    research("CHALLENGE SEARCH")?.status === "FOUND"
+      ? "SATISFIED"
+      : research("CHALLENGE SEARCH")?.status === "LIMITED"
+        ? "LIMITED"
+        : goalStatusFromPass(pass("COUNTEREVIDENCE"));
+
+  const boundaryStatus: CaseGoalStatus =
+    research("BOUNDARY SEARCH")?.status === "FOUND"
+      ? "SATISFIED"
+      : research("BOUNDARY SEARCH")?.status === "LIMITED"
+        ? "LIMITED"
+        : "PENDING";
+
+  const synthesisStatus: CaseGoalStatus =
+    critique.status === "BLOCKED"
+      ? "BLOCKED"
+      : critique.status === "PASS_WITH_LIMITS"
+        ? "LIMITED"
+        : "SATISFIED";
+
+  const nodes: CaseGoalNode[] = [
+    {
+      id: `${rootId}-object`,
+      parentId: rootId,
+      kind: "OBJECT",
+      label: "Lock the epistemic object",
+      governingQuestion:
+        "What exact object must remain invariant throughout this Case?",
+      status: goalStatusFromPass(pass("OBJECT LOCK")),
+      finding:
+        pass("OBJECT LOCK")?.finding ||
+        "Object lock has not yet been established.",
+      completionRule:
+        "A single primary object is explicit and cannot be replaced by weak retrieval or unrelated conversation.",
+      signalIds: pass("OBJECT LOCK")?.signalIds ?? [],
+    },
+    {
+      id: `${rootId}-source`,
+      parentId: rootId,
+      kind: "SOURCE_TRUTH",
+      label: "Recover source truth",
+      governingQuestion:
+        "What result-bearing proposition is actually supported by the indexed source?",
+      status: sourceStatus,
+      finding:
+        pass("SOURCE TRUTH")?.finding ||
+        "Source truth remains unresolved.",
+      completionRule:
+        "A source-supported proposition is explicit, or the absence of one is explicitly bounded.",
+      signalIds: pass("SOURCE TRUTH")?.signalIds ?? [],
+    },
+    {
+      id: `${rootId}-contract`,
+      parentId: rootId,
+      kind: "CLAIM_CONTRACT",
+      label: "Lock the claim-specific evidence contract",
+      governingQuestion:
+        "What type of claim is being made, and what evidence would actually validate it?",
+      status: goalStatusFromPass(
+        pass("CLAIM DISCRIMINATION"),
+      ),
+      finding:
+        pass("CLAIM DISCRIMINATION")?.finding ||
+        "Claim contract remains unresolved.",
+      completionRule:
+        "Domain, artifact, operation, and claim type are separated and the correct evidence burden is active.",
+      signalIds:
+        pass("CLAIM DISCRIMINATION")?.signalIds ?? [],
+    },
+    {
+      id: `${rootId}-evidence`,
+      parentId: rootId,
+      kind: "EVIDENCE",
+      label: "Establish the evidence state",
+      governingQuestion:
+        "Which requirements are supported, missing, contradicted, or independently verified?",
+      status: evidenceStatus,
+      finding: evidenceAudit.summary,
+      completionRule:
+        "The unified final Evidence State is explicit and no unrelated Signal is allowed to strengthen it.",
+      signalIds: evidenceAudit.admittedSignalIds,
+    },
+    {
+      id: `${rootId}-counter`,
+      parentId: rootId,
+      kind: "COUNTEREVIDENCE",
+      label: "Find the strongest counterevidence",
+      governingQuestion:
+        "What competing interpretation or failure evidence most threatens the current conclusion?",
+      status: counterStatus,
+      finding:
+        research("CHALLENGE SEARCH")?.finding ||
+        pass("COUNTEREVIDENCE")?.finding ||
+        "No counterevidence search result is available.",
+      completionRule:
+        "At least one credible alternative, contradiction, or explicit internal absence-of-counterevidence statement is recorded.",
+      signalIds:
+        research("CHALLENGE SEARCH")?.signalIds ??
+        pass("COUNTEREVIDENCE")?.signalIds ??
+        [],
+    },
+    {
+      id: `${rootId}-boundary`,
+      parentId: rootId,
+      kind: "BOUNDARY",
+      label: "Bound the claim",
+      governingQuestion:
+        "Under what conditions does the result stop generalizing or become unsafe to transfer?",
+      status: boundaryStatus,
+      finding:
+        research("BOUNDARY SEARCH")?.finding ||
+        evidenceAudit.uncertainty,
+      completionRule:
+        "The operating, scope, transfer, or uncertainty boundary is explicit.",
+      signalIds:
+        research("BOUNDARY SEARCH")?.signalIds ?? [],
+    },
+    {
+      id: `${rootId}-test`,
+      parentId: rootId,
+      kind: "REALITY_TEST",
+      label: "Define decisive reality contact",
+      governingQuestion:
+        "What minimum observation, comparison, or intervention would most efficiently change the conclusion?",
+      status: goalStatusFromPass(
+        pass("REALITY TEST"),
+      ),
+      finding:
+        pass("REALITY TEST")?.finding ||
+        epistemicContract.realityTest,
+      completionRule:
+        "A concrete discriminating test is explicit and tied to the active claim.",
+      signalIds:
+        pass("REALITY TEST")?.signalIds ?? [],
+    },
+    {
+      id: `${rootId}-synthesis`,
+      parentId: rootId,
+      kind: "SYNTHESIS",
+      label: "Produce bounded synthesis",
+      governingQuestion:
+        "What conclusion survives object integrity, evidence limits, counterevidence, and the decisive test?",
+      status: synthesisStatus,
+      finding:
+        critique.status === "PASS"
+          ? "Synthesis passed the self-critique release gate."
+          : critique.status === "PASS_WITH_LIMITS"
+            ? `Synthesis is releasable with explicit limits: ${critique.corrections.join(" ") || "remaining uncertainty is explicit."}`
+            : `Synthesis is blocked: ${critique.corrections.join(" ") || "a required epistemic gate failed."}`,
+      completionRule:
+        "The answer is no stronger than the unified evidence state and survives the Self-Critique Gate.",
+      signalIds: evidenceAudit.admittedSignalIds,
+    },
+  ];
+
+  const satisfied = nodes.filter(
+    (node) => node.status === "SATISFIED",
+  ).length;
+
+  const total = nodes.length;
+  const progress = Math.round(
+    (satisfied / Math.max(total, 1)) * 100,
+  );
+
+  const nextGoalIds = nodes
+    .filter(
+      (node) =>
+        node.status === "PENDING" ||
+        node.status === "LIMITED" ||
+        node.status === "BLOCKED",
+    )
+    .sort((a, b) => {
+      const priority: Record<CaseGoalKind, number> = {
+        OBJECT: 0,
+        SOURCE_TRUTH: 1,
+        CLAIM_CONTRACT: 2,
+        EVIDENCE: 3,
+        COUNTEREVIDENCE: 4,
+        BOUNDARY: 5,
+        REALITY_TEST: 6,
+        SYNTHESIS: 7,
+      };
+      return priority[a.kind] - priority[b.kind];
+    })
+    .slice(0, 3)
+    .map((node) => node.id);
+
+  return {
+    rootId,
+    rootQuestion,
+    rootObjective,
+    nodes,
+    satisfied,
+    total,
+    progress,
+    nextGoalIds,
+  };
+}
+
+function generateAutonomousSubtasks(args: {
+  goalTree: CaseGoalTree;
+  researchPasses: InternalResearchPass[];
+  evidenceAudit: EvidenceAudit;
+  epistemicContract: EpistemicContract;
+}): AutonomousSubtask[] {
+  const {
+    goalTree,
+    researchPasses,
+    evidenceAudit,
+    epistemicContract,
+  } = args;
+
+  const research = (kind: InternalResearchPassKind) =>
+    researchPasses.find((item) => item.kind === kind);
+
+  const outputForGoal = (
+    goal: CaseGoalNode,
+  ): {
+    status: AutonomousSubtaskStatus;
+    output: string;
+    signalIds: string[];
+  } => {
+    if (goal.status === "SATISFIED") {
+      return {
+        status: "DONE",
+        output: goal.finding,
+        signalIds: goal.signalIds,
+      };
+    }
+
+    if (goal.kind === "SOURCE_TRUTH") {
+      return {
+        status:
+          research("PRIMARY RECOVERY")?.status === "FOUND"
+            ? "DONE"
+            : "LIMITED",
+        output:
+          research("PRIMARY RECOVERY")?.finding ||
+          "A cleaner result-bearing proposition remains required.",
+        signalIds:
+          research("PRIMARY RECOVERY")?.signalIds ?? [],
+      };
+    }
+
+    if (goal.kind === "EVIDENCE") {
+      return {
+        status:
+          evidenceAudit.overallStrength === "INSUFFICIENT"
+            ? "BLOCKED"
+            : "LIMITED",
+        output:
+          `Unified evidence state: ${evidenceAudit.summary}`,
+        signalIds: evidenceAudit.admittedSignalIds,
+      };
+    }
+
+    if (goal.kind === "COUNTEREVIDENCE") {
+      return {
+        status:
+          research("CHALLENGE SEARCH")?.status === "FOUND"
+            ? "DONE"
+            : "LIMITED",
+        output:
+          research("CHALLENGE SEARCH")?.finding ||
+          epistemicContract.alternativeExplanation,
+        signalIds:
+          research("CHALLENGE SEARCH")?.signalIds ?? [],
+      };
+    }
+
+    if (goal.kind === "BOUNDARY") {
+      return {
+        status:
+          research("BOUNDARY SEARCH")?.status === "FOUND"
+            ? "DONE"
+            : "LIMITED",
+        output:
+          research("BOUNDARY SEARCH")?.finding ||
+          evidenceAudit.uncertainty,
+        signalIds:
+          research("BOUNDARY SEARCH")?.signalIds ?? [],
+      };
+    }
+
+    if (goal.kind === "REALITY_TEST") {
+      return {
+        status: goal.status === "BLOCKED"
+          ? "BLOCKED"
+          : "LIMITED",
+        output: epistemicContract.realityTest,
+        signalIds: goal.signalIds,
+      };
+    }
+
+    return {
+      status:
+        goal.status === "BLOCKED"
+          ? "BLOCKED"
+          : "LIMITED",
+      output: goal.finding,
+      signalIds: goal.signalIds,
+    };
+  };
+
+  return goalTree.nodes
+    .filter(
+      (goal) =>
+        goal.status !== "SATISFIED",
+    )
+    .map((goal, index) => {
+      const result = outputForGoal(goal);
+
+      const operationByKind: Record<CaseGoalKind, string> = {
+        OBJECT: "Re-establish the exact Case object before further work.",
+        SOURCE_TRUTH: "Recover the strongest result-bearing proposition from the indexed source.",
+        CLAIM_CONTRACT: "Reclassify the operative predicate and rebuild the claim-specific evidence contract.",
+        EVIDENCE: "Search only evidence-relation-qualified internal objects for the missing requirement.",
+        COUNTEREVIDENCE: "Actively search for the strongest competing explanation or contradiction.",
+        BOUNDARY: "Find the condition under which transfer, scale, or interpretation fails.",
+        REALITY_TEST: "Specify the minimum discriminating observation or intervention.",
+        SYNTHESIS: "Re-run synthesis only after upstream epistemic goals are bounded.",
+      };
+
+      return {
+        id: `subtask-${goal.id}`,
+        goalId: goal.id,
+        priority: index + 1,
+        operation: operationByKind[goal.kind],
+        reason: goal.completionRule,
+        status: result.status,
+        output: result.output,
+        signalIds: result.signalIds,
+      };
+    })
+    .slice(0, 6);
+}
+
+function buildCaseCompletionGate(args: {
+  goalTree: CaseGoalTree;
+  critique: SelfCritiqueGate;
+  evidenceAudit: EvidenceAudit;
+  epistemicContract: EpistemicContract;
+  autonomousSubtasks: AutonomousSubtask[];
+}): CaseCompletionGate {
+  const {
+    goalTree,
+    critique,
+    evidenceAudit,
+    epistemicContract,
+    autonomousSubtasks,
+  } = args;
+
+  const goal = (kind: CaseGoalKind) =>
+    goalTree.nodes.find((node) => node.kind === kind);
+
+  const checks: CompletionGateCheck[] = [
+    {
+      id: "completion-object",
+      label: "Object integrity",
+      passed: goal("OBJECT")?.status === "SATISFIED",
+      limited: false,
+      note:
+        goal("OBJECT")?.finding ||
+        "No object-integrity finding is available.",
+    },
+    {
+      id: "completion-source",
+      label: "Source truth",
+      passed: goal("SOURCE_TRUTH")?.status === "SATISFIED",
+      limited: goal("SOURCE_TRUTH")?.status === "LIMITED",
+      note:
+        goal("SOURCE_TRUTH")?.finding ||
+        "Source truth is unresolved.",
+    },
+    {
+      id: "completion-contract",
+      label: "Claim contract",
+      passed: goal("CLAIM_CONTRACT")?.status === "SATISFIED",
+      limited: goal("CLAIM_CONTRACT")?.status === "LIMITED",
+      note:
+        goal("CLAIM_CONTRACT")?.finding ||
+        "Claim contract is unresolved.",
+    },
+    {
+      id: "completion-evidence",
+      label: "Unified evidence state",
+      passed:
+        evidenceAudit.overallStrength === "STRONG" ||
+        evidenceAudit.overallStrength === "MODERATE",
+      limited: evidenceAudit.overallStrength === "LIMITED",
+      note: evidenceAudit.summary,
+    },
+    {
+      id: "completion-counter",
+      label: "Counterevidence",
+      passed: goal("COUNTEREVIDENCE")?.status === "SATISFIED",
+      limited: goal("COUNTEREVIDENCE")?.status === "LIMITED",
+      note:
+        goal("COUNTEREVIDENCE")?.finding ||
+        "Counterevidence remains unresolved.",
+    },
+    {
+      id: "completion-boundary",
+      label: "Evidence boundary",
+      passed: goal("BOUNDARY")?.status === "SATISFIED",
+      limited: goal("BOUNDARY")?.status === "LIMITED",
+      note:
+        goal("BOUNDARY")?.finding ||
+        evidenceAudit.uncertainty,
+    },
+    {
+      id: "completion-test",
+      label: "Decisive reality test",
+      passed: goal("REALITY_TEST")?.status === "SATISFIED",
+      limited: goal("REALITY_TEST")?.status === "LIMITED",
+      note:
+        goal("REALITY_TEST")?.finding ||
+        epistemicContract.realityTest,
+    },
+    {
+      id: "completion-critique",
+      label: "Self-critique release",
+      passed: critique.status === "PASS",
+      limited: critique.status === "PASS_WITH_LIMITS",
+      note:
+        critique.status === "PASS"
+          ? "Self-critique passed."
+          : critique.corrections.join(" ") ||
+            "Self-critique retains unresolved limits.",
+    },
+  ];
+
+  const hardBlockers = checks.filter(
+    (check) =>
+      !check.passed &&
+      !check.limited &&
+      (
+        check.id === "completion-object" ||
+        check.id === "completion-contract" ||
+        check.id === "completion-test" ||
+        check.id === "completion-critique"
+      ),
+  );
+
+  const limitedChecks = checks.filter(
+    (check) => check.limited,
+  );
+
+  const passedCount = checks.filter(
+    (check) => check.passed,
+  ).length;
+
+  const score = Math.round(
+    (passedCount / Math.max(checks.length, 1)) * 100,
+  );
+
+  const blockers = hardBlockers.map(
+    (check) => `${check.label}: ${check.note}`,
+  );
+
+  const remainingWork = autonomousSubtasks
+    .filter(
+      (task) =>
+        task.status !== "DONE",
+    )
+    .sort((a, b) => a.priority - b.priority)
+    .map(
+      (task) => `${task.operation} ${task.output}`,
+    )
+    .slice(0, 4);
+
+  let status: CaseCompletionGateStatus = "NOT_READY";
+
+  if (critique.status === "BLOCKED" || hardBlockers.length > 0) {
+    status = "BLOCKED";
+  } else if (
+    checks.every(
+      (check) => check.passed,
+    )
+  ) {
+    status = "READY";
+  } else if (
+    checks.every(
+      (check) => check.passed || check.limited,
+    ) &&
+    goal("OBJECT")?.status === "SATISFIED" &&
+    goal("CLAIM_CONTRACT")?.status === "SATISFIED" &&
+    goal("REALITY_TEST")?.status === "SATISFIED"
+  ) {
+    status = "READY_WITH_LIMITS";
+  }
+
+  return {
+    status,
+    score,
+    checks,
+    blockers,
+    remainingWork,
+    releaseDecision:
+      status === "READY"
+        ? "The Case may be considered epistemically complete for the current internal evidence state."
+        : status === "READY_WITH_LIMITS"
+          ? "The Case may release a bounded conclusion, but the unresolved limits must remain visible and must not be upgraded into verified claims."
+          : status === "BLOCKED"
+            ? "The Case must not claim completion because at least one required epistemic gate is blocked."
+            : "The Case remains open. Continue the highest-priority unresolved subtask before treating the root question as complete.",
+    nextRequiredAction:
+      remainingWork[0] ||
+      epistemicContract.nextAction ||
+      "No further internal action is required unless new evidence can materially change the conclusion.",
+  };
+}
+
+
+const MAX_CASE_WORK_ITERATIONS = 4;
+
+function evidenceStrengthRank(
+  strength: EvidenceStrength,
+): number {
+  const rank: Partial<Record<EvidenceStrength, number>> = {
+    INSUFFICIENT: 0,
+    LIMITED: 1,
+    MODERATE: 2,
+    STRONG: 3,
+  };
+  return rank[strength] ?? 0;
+}
+
+function selectNextAutonomousSubtask(
+  subtasks: AutonomousSubtask[],
+): AutonomousSubtask | null {
+  return (
+    subtasks
+      .filter(
+        (task) =>
+          task.status !== "DONE",
+      )
+      .sort((a, b) => {
+        const statusPriority: Record<AutonomousSubtaskStatus, number> = {
+          BLOCKED: 0,
+          LIMITED: 1,
+          QUEUED: 2,
+          DONE: 3,
+        };
+        return (
+          statusPriority[a.status] - statusPriority[b.status] ||
+          a.priority - b.priority
+        );
+      })[0] ?? null
+  );
+}
+
+function runGoalDirectedIterativeWorkLoop(args: {
+  goalTree: CaseGoalTree;
+  autonomousSubtasks: AutonomousSubtask[];
+  evidenceAudit: EvidenceAudit;
+  researchPasses: InternalResearchPass[];
+  epistemicContract: EpistemicContract;
+  completionGate: CaseCompletionGate;
+}): {
+  cycles: IterativeWorkCycle[];
+  escalation: SubtaskEscalation;
+} {
+  const {
+    goalTree,
+    autonomousSubtasks,
+    evidenceAudit,
+    researchPasses,
+    epistemicContract,
+    completionGate,
+  } = args;
+
+  const cycles: IterativeWorkCycle[] = [];
+  let workingProgress = goalTree.progress;
+  let workingEvidence = evidenceAudit.overallStrength;
+  let noGainCount = 0;
+
+  const unresolved = autonomousSubtasks
+    .filter((task) => task.status !== "DONE")
+    .map((task) => ({ ...task }));
+
+  for (
+    let iteration = 1;
+    iteration <= MAX_CASE_WORK_ITERATIONS;
+    iteration += 1
+  ) {
+    if (
+      completionGate.status === "READY" ||
+      completionGate.status === "READY_WITH_LIMITS"
+    ) {
+      cycles.push({
+        iteration,
+        selectedSubtaskId: null,
+        selectedGoalId: null,
+        operation: "Completion check",
+        status: "STOPPED",
+        evidenceBefore: workingEvidence,
+        evidenceAfter: workingEvidence,
+        progressBefore: workingProgress,
+        progressAfter: workingProgress,
+        finding:
+          "The Completion Gate is already releasable for the current internal evidence state.",
+        stopReason:
+          "Case work stops because the Completion Gate permits release.",
+      });
+      break;
+    }
+
+    const next = selectNextAutonomousSubtask(unresolved);
+    if (!next) {
+      cycles.push({
+        iteration,
+        selectedSubtaskId: null,
+        selectedGoalId: null,
+        operation: "No unresolved subtask",
+        status: "STOPPED",
+        evidenceBefore: workingEvidence,
+        evidenceAfter: workingEvidence,
+        progressBefore: workingProgress,
+        progressAfter: workingProgress,
+        finding:
+          "No unresolved autonomous subtask remains.",
+        stopReason:
+          "No additional internal work item is available.",
+      });
+      break;
+    }
+
+    const evidenceBefore = workingEvidence;
+    const progressBefore = workingProgress;
+
+    const linkedGoal = goalTree.nodes.find(
+      (goal) => goal.id === next.goalId,
+    );
+
+    const relatedResearch = researchPasses.find((pass) => {
+      if (!linkedGoal) return false;
+      if (linkedGoal.kind === "SOURCE_TRUTH") {
+        return pass.kind === "PRIMARY RECOVERY";
+      }
+      if (linkedGoal.kind === "COUNTEREVIDENCE") {
+        return pass.kind === "CHALLENGE SEARCH";
+      }
+      if (linkedGoal.kind === "BOUNDARY") {
+        return pass.kind === "BOUNDARY SEARCH";
+      }
+      if (linkedGoal.kind === "EVIDENCE") {
+        return (
+          pass.kind === "SUPPORT SEARCH" ||
+          pass.kind === "REPLICATION SEARCH"
+        );
+      }
+      return false;
+    });
+
+    const canAdvanceFromExistingWork =
+      next.status === "LIMITED" &&
+      relatedResearch?.status === "FOUND";
+
+    const becomesBlockedByMissingEvidence =
+      next.status === "BLOCKED" ||
+      (
+        linkedGoal?.kind === "EVIDENCE" &&
+        evidenceAudit.overallStrength === "INSUFFICIENT"
+      );
+
+    if (canAdvanceFromExistingWork) {
+      workingProgress = Math.min(
+        100,
+        workingProgress + 6,
+      );
+    }
+
+    if (
+      linkedGoal?.kind === "EVIDENCE" &&
+      relatedResearch?.status === "FOUND" &&
+      evidenceStrengthRank(workingEvidence) < evidenceStrengthRank("MODERATE")
+    ) {
+      // Do not fabricate a stronger evidence grade. The loop records that
+      // evidence-directed work found relevant material, while the authoritative
+      // unified Evidence Audit remains the source of truth.
+      workingEvidence = evidenceAudit.overallStrength;
+    }
+
+    const gained =
+      workingProgress > progressBefore ||
+      evidenceStrengthRank(workingEvidence) >
+        evidenceStrengthRank(evidenceBefore);
+
+    if (gained) {
+      noGainCount = 0;
+    } else {
+      noGainCount += 1;
+    }
+
+    const status: IterativeWorkCycleStatus =
+      becomesBlockedByMissingEvidence
+        ? "ESCALATED"
+        : gained
+          ? "ADVANCED"
+          : "NO_GAIN";
+
+    const stopReason =
+      noGainCount >= 2
+        ? "Two consecutive internal work cycles produced no epistemic gain."
+        : becomesBlockedByMissingEvidence
+          ? "The selected subtask requires evidence not available inside the current ArcheNova-indexed evidence set."
+          : null;
+
+    cycles.push({
+      iteration,
+      selectedSubtaskId: next.id,
+      selectedGoalId: next.goalId,
+      operation: next.operation,
+      status,
+      evidenceBefore,
+      evidenceAfter: workingEvidence,
+      progressBefore,
+      progressAfter: workingProgress,
+      finding:
+        status === "ADVANCED"
+          ? `Existing internal research advances the unresolved goal without changing the authoritative evidence grade. ${next.output}`
+          : status === "ESCALATED"
+            ? `The subtask cannot be completed from the current internal evidence state. ${next.output}`
+            : `The subtask was re-evaluated, but no new qualified evidence or completed goal was produced. ${next.output}`,
+      stopReason,
+    });
+
+    const unresolvedIndex = unresolved.findIndex(
+      (task) => task.id === next.id,
+    );
+
+    if (unresolvedIndex >= 0 && gained) {
+      unresolved[unresolvedIndex] = {
+        ...unresolved[unresolvedIndex],
+        status: "DONE",
+      };
+    } else if (unresolvedIndex >= 0) {
+      unresolved[unresolvedIndex] = {
+        ...unresolved[unresolvedIndex],
+        priority:
+          unresolved[unresolvedIndex].priority + 10,
+      };
+    }
+
+    if (stopReason) {
+      break;
+    }
+  }
+
+  const lastCycle = cycles[cycles.length - 1] ?? null;
+  const unresolvedTask =
+    selectNextAutonomousSubtask(unresolved);
+
+  let escalation: SubtaskEscalation = {
+    level: "NONE",
+    subtaskId: null,
+    goalId: null,
+    reason:
+      "No escalation is required because the current Case has a releasable completion state.",
+    action:
+      "Release the bounded Case result and reopen only if new evidence can materially change it.",
+  };
+
+  if (
+    completionGate.status === "BLOCKED" &&
+    unresolvedTask
+  ) {
+    escalation = {
+      level: "EVIDENCE_GAP",
+      subtaskId: unresolvedTask.id,
+      goalId: unresolvedTask.goalId,
+      reason:
+        "A required epistemic goal remains blocked by the current evidence state.",
+      action:
+        unresolvedTask.operation,
+    };
+  } else if (
+    lastCycle?.stopReason?.includes("no epistemic gain") &&
+    unresolvedTask
+  ) {
+    escalation = {
+      level: "EXTERNAL_BOUNDARY",
+      subtaskId: unresolvedTask.id,
+      goalId: unresolvedTask.goalId,
+      reason:
+        "Repeated internal work produced no epistemic gain. More looping would only repeat the same evidence state.",
+      action:
+        `Stop internal repetition. Reopen this subtask only when a new qualified source, measurement, experiment, or explicit user-supplied evidence becomes available. Current target: ${unresolvedTask.operation}`,
+    };
+  } else if (
+    completionGate.status === "NOT_READY" &&
+    unresolvedTask
+  ) {
+    escalation = {
+      level: "PRIORITY",
+      subtaskId: unresolvedTask.id,
+      goalId: unresolvedTask.goalId,
+      reason:
+        "The Case remains open and one unresolved goal dominates the next useful work.",
+      action: unresolvedTask.operation,
+    };
+  }
+
+  return {
+    cycles,
+    escalation,
+  };
+}
+
+function buildCaseClosureProtocol(args: {
+  completionGate: CaseCompletionGate;
+  goalTree: CaseGoalTree;
+  evidenceAudit: EvidenceAudit;
+  critique: SelfCritiqueGate;
+  cycles: IterativeWorkCycle[];
+  escalation: SubtaskEscalation;
+}): CaseClosureProtocol {
+  const {
+    completionGate,
+    goalTree,
+    evidenceAudit,
+    critique,
+    cycles,
+    escalation,
+  } = args;
+
+  const lastCycle = cycles[cycles.length - 1] ?? null;
+  const unresolvedGoals = goalTree.nodes
+    .filter(
+      (goal) => goal.status !== "SATISFIED",
+    )
+    .map(
+      (goal) => `${goal.label}: ${goal.finding}`,
+    );
+
+  const closureConditions = [
+    "the Case object is locked",
+    "the source-truth boundary is explicit",
+    "the claim-specific evidence contract is fixed",
+    "counterevidence and uncertainty are visible",
+    "the decisive reality-contact test is explicit",
+    "the released conclusion does not exceed the unified Evidence State",
+  ];
+
+  if (completionGate.status === "READY") {
+    return {
+      status: "CLOSED",
+      reason:
+        "All required Completion Gate checks passed for the current internal evidence state.",
+      closureConditions,
+      unresolvedConditions: [],
+      finalBoundary: evidenceAudit.uncertainty,
+      reopenCondition:
+        "Reopen only if new qualified evidence, a changed object, or a result that fails the decisive test can materially alter the conclusion.",
+    };
+  }
+
+  if (completionGate.status === "READY_WITH_LIMITS") {
+    return {
+      status: "BOUNDED",
+      reason:
+        "The Case supports a bounded conclusion, but one or more evidence conditions remain limited rather than verified.",
+      closureConditions,
+      unresolvedConditions: unresolvedGoals,
+      finalBoundary: evidenceAudit.uncertainty,
+      reopenCondition:
+        escalation.level === "EXTERNAL_BOUNDARY"
+          ? escalation.action
+          : "Reopen when the missing evidence requirement is independently satisfied or contradicted.",
+    };
+  }
+
+  if (
+    completionGate.status === "BLOCKED" ||
+    critique.status === "BLOCKED"
+  ) {
+    return {
+      status: "BLOCKED",
+      reason:
+        "At least one hard epistemic requirement prevents a defensible Case conclusion.",
+      closureConditions,
+      unresolvedConditions:
+        completionGate.blockers.length > 0
+          ? completionGate.blockers
+          : unresolvedGoals,
+      finalBoundary: evidenceAudit.uncertainty,
+      reopenCondition:
+        escalation.action ||
+        "Repair the blocked epistemic requirement before continuing.",
+    };
+  }
+
+  if (
+    escalation.level === "EXTERNAL_BOUNDARY" ||
+    lastCycle?.stopReason?.includes("no epistemic gain")
+  ) {
+    return {
+      status: "BOUNDED",
+      reason:
+        "Internal work reached diminishing epistemic returns. The Case is bounded rather than falsely kept open.",
+      closureConditions,
+      unresolvedConditions: unresolvedGoals,
+      finalBoundary:
+        `${evidenceAudit.uncertainty} Further progress requires evidence outside the currently qualified internal set.`,
+      reopenCondition: escalation.action,
+    };
+  }
+
+  return {
+    status: "OPEN",
+    reason:
+      "The Completion Gate is not yet releasable and a useful internal subtask remains.",
+    closureConditions,
+    unresolvedConditions: unresolvedGoals,
+    finalBoundary: evidenceAudit.uncertainty,
+    reopenCondition:
+      completionGate.nextRequiredAction,
+  };
+}
+
 function buildAstraCoreState(args: {
   query: string;
   intentModel: IntentModel;
@@ -9073,6 +10471,10 @@ function buildAstraCoreState(args: {
     evidenceAudit: args.evidenceAudit,
     claimIdentity: args.claimIdentity,
   });
+
+  const previousCore = latestAstraCore(
+    args.previousMessages ?? [],
+  );
 
   const steering = detectMissionSteering(
     args.query,
@@ -9160,12 +10562,67 @@ function buildAstraCoreState(args: {
     epistemicContract: args.epistemicContract,
   });
 
+  const goalTree = buildCaseGoalTree({
+    query: args.query,
+    mission,
+    passes,
+    researchPasses: research.passes,
+    evidenceAudit: workingAudit,
+    epistemicContract: args.epistemicContract,
+    critique,
+    previousCore,
+    steering,
+  });
+
+  const autonomousSubtasks = generateAutonomousSubtasks({
+    goalTree,
+    researchPasses: research.passes,
+    evidenceAudit: workingAudit,
+    epistemicContract: args.epistemicContract,
+  });
+
+  const completionGate = buildCaseCompletionGate({
+    goalTree,
+    critique,
+    evidenceAudit: workingAudit,
+    epistemicContract: args.epistemicContract,
+    autonomousSubtasks,
+  });
+
+  const iterativeWork = runGoalDirectedIterativeWorkLoop({
+    goalTree,
+    autonomousSubtasks,
+    evidenceAudit: workingAudit,
+    researchPasses: research.passes,
+    epistemicContract: args.epistemicContract,
+    completionGate,
+  });
+
+  const closureProtocol = buildCaseClosureProtocol({
+    completionGate,
+    goalTree,
+    evidenceAudit: workingAudit,
+    critique,
+    cycles: iterativeWork.cycles,
+    escalation: iterativeWork.escalation,
+  });
+
   return {
     mission,
+    goalTree,
+    autonomousSubtasks,
+    iterativeWorkCycles: iterativeWork.cycles,
+    escalation: iterativeWork.escalation,
+    completionGate,
+    closureProtocol,
     initialPlan,
     researchPasses: research.passes,
+    relationGates: research.relationGates,
     replan,
     finalPlan,
+    unifiedEvidenceAudit: workingAudit,
+    unifiedContextAssessment: research.expandedAssessments,
+    unifiedSignalIds: workingRelevant.map((signal) => signal.id),
     passes,
     critique,
     workLedger,
@@ -9375,12 +10832,23 @@ function buildInternalCorpusIntelligence(
     corpusSignals: signals,
   });
 
+  const unifiedInquiry = buildInquiryState({
+    query,
+    kind,
+    strength: astraCore.unifiedEvidenceAudit.overallStrength,
+    lead,
+    directAnswer: corpus.directAnswer,
+    alternative:
+      "The ranking may change when a lower-ranked signal has stronger independent replication, a larger real-world consequence, or a more discriminating result than the current internal summary exposes.",
+    contract: epistemicContract,
+  });
+
   const released = applySelfCritiqueRelease({
     astraCore,
     directAnswer: corpus.directAnswer,
     reasoning: corpus.reasoning,
     uncertainty:
-      "This is an ArcheNova-internal prioritization, not a claim that the selected item is objectively the world's most important research result.",
+      astraCore.unifiedEvidenceAudit.uncertainty,
     nextAction: lead
       ? `Deepen “${lead.title}” or enter Signal Space to inspect its internal knowledge neighborhood.`
       : "",
@@ -9396,11 +10864,11 @@ function buildInternalCorpusIntelligence(
     falsification: "",
     nextAction: released.nextAction,
     uncertainty: released.uncertainty,
-    evidence: evidenceAudit.summary,
-    inquiry,
+    evidence: astraCore.unifiedEvidenceAudit.summary,
+    inquiry: unifiedInquiry,
     epistemicParse,
     epistemicContract,
-    evidenceAudit,
+    evidenceAudit: astraCore.unifiedEvidenceAudit,
     claimIdentity,
     objectState: lead ? "SIGNAL" : "NONE",
     conversationIntent,
@@ -9410,7 +10878,7 @@ function buildInternalCorpusIntelligence(
 
   return {
     interpretation: adaptiveResponse.plainText,
-    evidence: evidenceAudit.summary,
+    evidence: astraCore.unifiedEvidenceAudit.summary,
     uncertainty: released.uncertainty,
     nextQuestions: lead
       ? [
@@ -9419,16 +10887,16 @@ function buildInternalCorpusIntelligence(
           "Which decisive test would most change the current conclusion?",
         ]
       : [],
-    signalIds: corpus.selectedSignals.map((signal) => signal.id),
+    signalIds: astraCore.unifiedSignalIds,
     queryKind: kind,
-    evidenceStrength: evidenceAudit.overallStrength,
-    inquiry,
+    evidenceStrength: astraCore.unifiedEvidenceAudit.overallStrength,
+    inquiry: unifiedInquiry,
     intentModel,
     epistemicParse,
-    contextAssessment,
+    contextAssessment: astraCore.unifiedContextAssessment,
     realityModel,
     epistemicContract,
-    evidenceAudit,
+    evidenceAudit: astraCore.unifiedEvidenceAudit,
     claimIdentity,
     objectState: lead ? "SIGNAL" : "NONE",
     conversationIntent,
@@ -9443,7 +10911,7 @@ function buildIntelligence(
   signals: SignalItem[],
   previousMessages: DialogueMessage[],
 ): IntelligenceObject {
-  const conversationIntent = classifyConversationIntent(query, previousMessages);
+  const conversationIntent = classifyConversationIntent(query, previousMessages, signals);
   const objectFirewall = resolveObjectFirewall(
     query,
     conversationIntent,
@@ -9488,7 +10956,7 @@ function buildIntelligence(
           objectState: "SIGNAL",
           retrievalAccepted: true,
           retrievalRationale:
-            "Object Resolution Firewall preserved the active object for an explicit follow-up operation.",
+            "Object Integrity Firewall preserved the active object for a bound follow-up operation.",
         }
       : objectFirewall.decision === "NEW_OBJECT" && objectFirewall.explicitSignal
         ? {
@@ -9498,9 +10966,19 @@ function buildIntelligence(
             objectState: "SIGNAL",
             retrievalAccepted: true,
             retrievalRationale:
-              "Object Resolution Firewall selected the explicitly referenced signal.",
+              "Object Integrity Firewall selected the explicitly referenced new object and terminated prior mission inheritance.",
           }
-        : baseObjectResolution;
+        : objectFirewall.decision === "NO_OBJECT"
+          ? {
+              primarySignal: null,
+              isFollowUp: false,
+              anchoredFromConversation: false,
+              objectState: "NONE",
+              retrievalAccepted: false,
+              retrievalRationale:
+                "Object Integrity Firewall rejected prior-object inheritance for this input.",
+            }
+          : baseObjectResolution;
 
   if (
     objectFirewall.decision === "NO_OBJECT" &&
@@ -9629,11 +11107,11 @@ function buildIntelligence(
   );
   const relevant = rankedRelevant.filter((signal) => visibleSignalIds.has(signal.id));
   const second = relevant.find((signal) => signal.id !== lead?.id) ?? null;
-  const strength = evidenceAudit.overallStrength;
+  let strength = evidenceAudit.overallStrength;
   const realityTest = epistemicContract.realityTest;
 
-  const evidenceBoundary = evidenceAudit.uncertainty;
-  const evidence = evidenceAudit.summary;
+  let evidenceBoundary = evidenceAudit.uncertainty;
+  let evidence = evidenceAudit.summary;
   const signalInterpretation = lead
     ? buildSignalInterpretation(
         lead,
@@ -9977,7 +11455,7 @@ function buildIntelligence(
       ? "CONDITIONAL SCENARIO — NOT OBSERVATION\n\n"
       : "";
 
-  const inquiry = buildInquiryState({
+  let inquiry = buildInquiryState({
     query,
     kind,
     strength,
@@ -10008,6 +11486,52 @@ function buildIntelligence(
     corpusSignals: signals,
   });
 
+  const unifiedEvidenceAudit = astraCore.unifiedEvidenceAudit;
+  const unifiedRelevant = astraCore.unifiedSignalIds
+    .map((id) => signals.find((signal) => signal.id === id))
+    .filter((signal): signal is SignalItem => Boolean(signal));
+
+  strength = unifiedEvidenceAudit.overallStrength;
+  evidenceBoundary = unifiedEvidenceAudit.uncertainty;
+  evidence = unifiedEvidenceAudit.summary;
+  uncertainty = evidenceBoundary;
+
+  inquiry = buildInquiryState({
+    query,
+    kind,
+    strength,
+    lead,
+    directAnswer,
+    alternative,
+    contract: epistemicContract,
+  });
+
+  // Re-synthesize bound follow-ups against the unified final evidence state.
+  if (
+    objectResolution.isFollowUp &&
+    lead &&
+    claimIdentity
+  ) {
+    const unifiedInterpretation = buildSignalInterpretation(
+      lead,
+      epistemicParse,
+      epistemicContract,
+      unifiedEvidenceAudit,
+      claimIdentity,
+    );
+    const unifiedFollowUp = synthesizeFollowUpAnswer(
+      query,
+      unifiedInterpretation,
+      unifiedEvidenceAudit,
+      epistemicContract,
+      claimIdentity,
+    );
+    if (unifiedFollowUp) {
+      directAnswer = unifiedFollowUp.directAnswer;
+      reasoning = unifiedFollowUp.reasoning;
+    }
+  }
+
   const released = applySelfCritiqueRelease({
     astraCore,
     directAnswer,
@@ -10035,7 +11559,7 @@ function buildIntelligence(
     inquiry,
     epistemicParse,
     epistemicContract,
-    evidenceAudit,
+    evidenceAudit: unifiedEvidenceAudit,
     claimIdentity,
     objectState: objectResolution.objectState,
     conversationIntent,
@@ -10050,16 +11574,16 @@ function buildIntelligence(
     evidence,
     uncertainty,
     nextQuestions,
-    signalIds: relevant.map((signal) => signal.id),
+    signalIds: unifiedRelevant.map((signal) => signal.id),
     queryKind: kind,
     evidenceStrength: strength,
     inquiry,
     intentModel,
     epistemicParse,
-    contextAssessment,
+    contextAssessment: astraCore.unifiedContextAssessment,
     realityModel,
     epistemicContract,
-    evidenceAudit,
+    evidenceAudit: unifiedEvidenceAudit,
     claimIdentity,
     objectState: objectResolution.objectState,
     conversationIntent,
@@ -10182,6 +11706,134 @@ function buildSignalSpaceModel(
   };
 }
 
+
+function createEpistemeCaseTitle(question: string): string {
+  const compact = question.replace(/\s+/g, " ").trim();
+  if (!compact) return "Untitled case";
+  return compact.length > 78
+    ? `${compact.slice(0, 75)}…`
+    : compact;
+}
+
+function primarySignalIdFromIntelligence(
+  intelligence: IntelligenceObject | undefined,
+): string | null {
+  if (!intelligence || intelligence.objectState === "NONE") {
+    return null;
+  }
+
+  return (
+    intelligence.contextAssessment.find(
+      (item) => item.role === "PRIMARY",
+    )?.signalId ??
+    intelligence.claimIdentity?.signalId ??
+    intelligence.signalIds[0] ??
+    null
+  );
+}
+
+function latestCaseSignalId(
+  messages: DialogueMessage[],
+): string | null {
+  for (let index = messages.length - 1; index >= 0; index -= 1) {
+    const message = messages[index];
+    if (
+      message.role === "episteme" &&
+      message.intelligence
+    ) {
+      const id = primarySignalIdFromIntelligence(
+        message.intelligence,
+      );
+      if (id) return id;
+      if (message.intelligence.objectState === "NONE") {
+        return null;
+      }
+    }
+  }
+  return null;
+}
+
+function caseStatusFromIntelligence(
+  intelligence: IntelligenceObject,
+): EpistemeCaseStatus {
+  const closure =
+    intelligence.astraCore?.closureProtocol.status;
+
+  if (closure === "CLOSED") {
+    return "COMPLETE";
+  }
+  if (closure === "BOUNDED") {
+    return "COMPLETE_WITH_LIMITS";
+  }
+  if (closure === "BLOCKED") {
+    return "BLOCKED";
+  }
+
+  if (intelligence.objectState === "NONE") {
+    return "BLOCKED";
+  }
+
+  return "WORKING";
+}
+
+function decideCaseRouting(args: {
+  query: string;
+  activeCase: EpistemeCaseSession | null;
+  messages: DialogueMessage[];
+  signals: SignalItem[];
+}): CaseRoutingDecision {
+  const {
+    query,
+    activeCase,
+    messages,
+    signals,
+  } = args;
+
+  const intent = classifyConversationIntent(
+    query,
+    messages,
+    signals,
+  );
+
+  if (
+    intent === "SOCIAL" ||
+    intent === "META"
+  ) {
+    return "CASE_NEUTRAL";
+  }
+
+  if (!activeCase) {
+    return "NEW_CASE";
+  }
+
+  const explicitSignal = findExplicitSignalReference(
+    query,
+    signals,
+  );
+  const activeSignalId =
+    latestCaseSignalId(messages) ??
+    activeCase.lockedSignalId;
+
+  if (explicitSignal) {
+    return explicitSignal.id === activeSignalId
+      ? "SAME_CASE"
+      : "NEW_CASE";
+  }
+
+  if (
+    isBoundGeneratedFollowUp(query, messages) ||
+    intent === "FOLLOW_UP" ||
+    intent === "MODE_OPERATION"
+  ) {
+    return "SAME_CASE";
+  }
+
+  // Capability/action requests and genuinely new inquiries are independent
+  // work objects. They receive a fresh Case Workspace rather than sharing
+  // the current mission surface.
+  return "NEW_CASE";
+}
+
 /* ==========================================================
    COMPONENT
 ========================================================== */
@@ -10191,6 +11843,8 @@ export default function EpistemeDialogue() {
   const [signals, setSignals] = useState<SignalItem[]>([]);
   const [loadingSignals, setLoadingSignals] = useState(true);
   const [messages, setMessages] = useState<DialogueMessage[]>([]);
+  const [caseSessions, setCaseSessions] = useState<EpistemeCaseSession[]>([]);
+  const [activeCaseId, setActiveCaseId] = useState<string | null>(null);
   const [thinking, setThinking] = useState(false);
   const [signalPanelOpen, setSignalPanelOpen] = useState(false);
   const [signalSpaceMessageId, setSignalSpaceMessageId] = useState<string | null>(null);
@@ -10198,6 +11852,7 @@ export default function EpistemeDialogue() {
   const conversationRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
   const streamTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const activeCaseIdRef = useRef<string | null>(null);
 
     /* ========================================================
    RESPONSIVE SIGNAL PANEL DEFAULT
@@ -10207,6 +11862,10 @@ export default function EpistemeDialogue() {
    Conversation is primary.
    Live Signals remain available on demand.
 ======================================================== */
+useEffect(() => {
+  activeCaseIdRef.current = activeCaseId;
+}, [activeCaseId]);
+
 useEffect(() => {
   const media =
     window.matchMedia(
@@ -10369,13 +12028,26 @@ useEffect(() => {
         signals,
       ],
     );
+  const activeCase =
+    useMemo(
+      () =>
+        activeCaseId
+          ? caseSessions.find(
+              (session) => session.id === activeCaseId,
+            ) ?? null
+          : null,
+      [activeCaseId, caseSessions],
+    );
+
   const threadTitle =
     useMemo(
       () =>
+        activeCase?.title ??
         createThreadTitle(
           messages,
         ),
       [
+        activeCase,
         messages,
       ],
     );
@@ -10401,6 +12073,93 @@ useEffect(() => {
           ? buildSignalSpaceModel(signalSpaceMessage.intelligence, signals)
           : null,
       [signalSpaceMessage, signals],
+    );
+
+  /* ========================================================
+     CASE WORKSPACE
+     Ephemeral in-memory isolation only. No persistence, publication,
+     administrator credential, or durable registry is introduced.
+  ======================================================== */
+  const saveActiveCaseSnapshot =
+    useCallback(
+      (
+        snapshotMessages: DialogueMessage[] = messages,
+      ) => {
+        if (!activeCaseId) return;
+
+        const lockedSignalId =
+          latestCaseSignalId(snapshotMessages);
+
+        setCaseSessions((previous) =>
+          previous.map((session) =>
+            session.id === activeCaseId
+              ? {
+                  ...session,
+                  messages: snapshotMessages,
+                  lockedSignalId:
+                    lockedSignalId ??
+                    session.lockedSignalId,
+                  updatedAt: Date.now(),
+                }
+              : session,
+          ),
+        );
+      },
+      [activeCaseId, messages],
+    );
+
+  const openCase =
+    useCallback(
+      (caseId: string) => {
+        if (thinking || caseId === activeCaseId) {
+          return;
+        }
+
+        saveActiveCaseSnapshot(messages);
+
+        const target = caseSessions.find(
+          (session) => session.id === caseId,
+        );
+        if (!target) return;
+
+        setActiveCaseId(caseId);
+        setMessages(target.messages);
+        setQuery("");
+        setMode("ask");
+        setSignalSpaceMessageId(null);
+
+        window.setTimeout(() => {
+          textareaRef.current?.focus();
+        }, 40);
+      },
+      [
+        activeCaseId,
+        caseSessions,
+        messages,
+        saveActiveCaseSnapshot,
+        thinking,
+      ],
+    );
+
+  const createCaseShell =
+    useCallback(
+      (
+        rootQuestion: string,
+        firstMessage: DialogueMessage,
+      ): EpistemeCaseSession => {
+        const now = Date.now();
+        return {
+          id: `case-${now}-${Math.random().toString(36).slice(2, 7)}`,
+          rootQuestion,
+          title: createEpistemeCaseTitle(rootQuestion),
+          createdAt: now,
+          updatedAt: now,
+          messages: [firstMessage],
+          lockedSignalId: null,
+          status: "WORKING",
+        };
+      },
+      [],
     );
 
   /* ========================================================
@@ -10476,6 +12235,30 @@ useEffect(() => {
             message,
           ],
         );
+
+        const caseId = activeCaseIdRef.current;
+        if (caseId) {
+          const lockedSignalId =
+            primarySignalIdFromIntelligence(intelligence);
+          setCaseSessions((previous) =>
+            previous.map((session) =>
+              session.id === caseId
+                ? {
+                    ...session,
+                    lockedSignalId:
+                      lockedSignalId ??
+                      session.lockedSignalId,
+                    status:
+                      caseStatusFromIntelligence(
+                        intelligence,
+                      ),
+                    updatedAt: Date.now(),
+                  }
+                : session,
+            ),
+          );
+        }
+
         let position =
           0;
         streamTimerRef.current =
@@ -10545,7 +12328,13 @@ useEffect(() => {
 
         const activeResponseMode =
           forcedMode ?? mode;
-        const contextBefore = messages;
+
+        const routing = decideCaseRouting({
+          query: finalQuery,
+          activeCase,
+          messages,
+          signals,
+        });
 
         const userMessage: DialogueMessage = {
           id: `user-${Date.now()}`,
@@ -10555,10 +12344,34 @@ useEffect(() => {
           createdAt: Date.now(),
         };
 
-        setMessages((previous) => [
-          ...previous,
-          userMessage,
-        ]);
+        let contextBefore = messages;
+
+        if (routing === "NEW_CASE") {
+          if (activeCaseId) {
+            saveActiveCaseSnapshot(messages);
+          }
+
+          const nextCase = createCaseShell(
+            finalQuery,
+            userMessage,
+          );
+
+          setCaseSessions((previous) => [
+            nextCase,
+            ...previous,
+          ]);
+          setActiveCaseId(nextCase.id);
+          activeCaseIdRef.current = nextCase.id;
+          setMessages([userMessage]);
+          contextBefore = [];
+          setSignalSpaceMessageId(null);
+        } else {
+          setMessages((previous) => [
+            ...previous,
+            userMessage,
+          ]);
+        }
+
         setQuery("");
         setThinking(true);
 
@@ -10568,7 +12381,9 @@ useEffect(() => {
               finalQuery,
               activeResponseMode,
               signals,
-              contextBefore,
+              routing === "NEW_CASE"
+                ? []
+                : contextBefore,
             );
 
           streamResponse(
@@ -10581,8 +12396,12 @@ useEffect(() => {
         query,
         thinking,
         mode,
+        activeCase,
+        activeCaseId,
         messages,
         signals,
+        saveActiveCaseSnapshot,
+        createCaseShell,
         streamResponse,
       ],
     );
@@ -10616,6 +12435,9 @@ useEffect(() => {
   ======================================================== */
   function newThread() {
     stopGeneration();
+    saveActiveCaseSnapshot(messages);
+    setActiveCaseId(null);
+    activeCaseIdRef.current = null;
     setMessages([]);
     setQuery("");
     setMode("ask");
@@ -10779,6 +12601,42 @@ useEffect(() => {
           </button>
         </div>
       </header>
+
+      {caseSessions.length > 0 && (
+        <nav
+          className="ep-case-rail"
+          aria-label="Episteme case workspaces"
+        >
+          <div className="ep-case-rail__label">
+            <span>CASE WORKSPACES</span>
+            <small>ONE ROOT QUESTION · ISOLATED CONTEXT</small>
+          </div>
+
+          <div className="ep-case-rail__items">
+            {caseSessions.slice(0, 8).map((session, index) => (
+              <button
+                key={session.id}
+                type="button"
+                className={[
+                  "ep-case-rail__case",
+                  session.id === activeCaseId
+                    ? "is-active"
+                    : "",
+                ].join(" ")}
+                onClick={() => openCase(session.id)}
+                disabled={thinking && session.id !== activeCaseId}
+              >
+                <span>
+                  CASE {String(caseSessions.length - index).padStart(2, "0")}
+                </span>
+                <strong>{session.title}</strong>
+                <small>{session.status.replaceAll("_", " ")}</small>
+              </button>
+            ))}
+          </div>
+        </nav>
+      )}
+
       {/* ==================================================
           WORKSPACE
       ================================================== */}
@@ -10800,6 +12658,24 @@ useEffect(() => {
             }
             className="ep-dialogue__thread"
           >
+            {activeCase && (
+              <section className="ep-case-header">
+                <div>
+                  <span>ACTIVE EPISTEMIC CASE</span>
+                  <small>
+                    {activeCase.status.replaceAll("_", " ")}
+                  </small>
+                </div>
+                <h2>{activeCase.rootQuestion}</h2>
+                <p>
+                  This workspace is isolated to one root question. Episteme decomposes
+                  it into a Goal Tree, selects the next unresolved subtask, iterates only
+                  while epistemic progress is possible, escalates blocked work, and closes
+                  the Case only through an explicit Closure Protocol.
+                </p>
+              </section>
+            )}
+
             {/* =============================================
                 WELCOME
             ============================================= */}
@@ -10815,9 +12691,10 @@ useEffect(() => {
                   to understand?
                 </h1>
                 <p>
-                  Ask once. Episteme converts the request into a mission, works through
-                  ArcheNova-indexed intelligence, challenges its own result, and returns a
-                  bounded answer with the work products and next reality-contact action.
+                  One root question becomes one isolated Epistemic Case. Episteme
+                  plans the mission, researches ArcheNova-indexed intelligence, replans from
+                  evidence, challenges its own result, and keeps every follow-up inside that
+                  case until you introduce a genuinely new object.
                 </p>
                 <div className="ep-dialogue__welcome-state">
                   <span>
@@ -10992,6 +12869,82 @@ useEffect(() => {
                                 )}
                               </div>
 
+                              <div className="ep-case-goal-tree">
+                                <div className="ep-agent-work__planning-head">
+                                  <span>CASE GOAL TREE</span>
+                                  <small>
+                                    {message.intelligence.astraCore.goalTree.satisfied}
+                                    {" / "}
+                                    {message.intelligence.astraCore.goalTree.total}
+                                    {" goals · "}
+                                    {message.intelligence.astraCore.goalTree.progress}
+                                    {"%"}
+                                  </small>
+                                </div>
+
+                                <div className="ep-case-goal-tree__root">
+                                  <i aria-hidden="true" />
+                                  <div>
+                                    <span>ROOT QUESTION</span>
+                                    <strong>
+                                      {message.intelligence.astraCore.goalTree.rootQuestion}
+                                    </strong>
+                                    <p>
+                                      {message.intelligence.astraCore.goalTree.rootObjective}
+                                    </p>
+                                  </div>
+                                </div>
+
+                                <div className="ep-case-goal-tree__nodes">
+                                  {message.intelligence.astraCore.goalTree.nodes.map((goal) => (
+                                    <div
+                                      key={goal.id}
+                                      className={`ep-case-goal-tree__node is-${goal.status.toLowerCase()}`}
+                                    >
+                                      <i aria-hidden="true" />
+                                      <div>
+                                        <span>{goal.kind.replaceAll("_", " ")}</span>
+                                        <strong>{goal.label}</strong>
+                                        <p>{goal.finding}</p>
+                                      </div>
+                                      <small>{goal.status}</small>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+
+                              {message.intelligence.astraCore.autonomousSubtasks.length > 0 && (
+                                <div className="ep-case-subtasks">
+                                  <div className="ep-agent-work__planning-head">
+                                    <span>AUTONOMOUS SUBTASKS</span>
+                                    <small>
+                                      {
+                                        message.intelligence.astraCore.autonomousSubtasks.filter(
+                                          (task) => task.status === "DONE",
+                                        ).length
+                                      }
+                                      {" / "}
+                                      {message.intelligence.astraCore.autonomousSubtasks.length}
+                                      {" resolved"}
+                                    </small>
+                                  </div>
+
+                                  {message.intelligence.astraCore.autonomousSubtasks.map((task) => (
+                                    <div
+                                      key={task.id}
+                                      className={`ep-case-subtasks__item is-${task.status.toLowerCase()}`}
+                                    >
+                                      <b>{task.priority}</b>
+                                      <div>
+                                        <strong>{task.operation}</strong>
+                                        <p>{task.output}</p>
+                                      </div>
+                                      <span>{task.status}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+
                               <div className="ep-agent-work__planning">
                                 <div className="ep-agent-work__planning-head">
                                   <span>ADAPTIVE PLAN</span>
@@ -11024,6 +12977,33 @@ useEffect(() => {
                                   </p>
                                 )}
                               </div>
+
+                              {message.intelligence.astraCore.relationGates.length > 0 && (
+                                <div className="ep-agent-work__relation-gate">
+                                  <div className="ep-agent-work__planning-head">
+                                    <span>EVIDENCE RELATION GATE</span>
+                                    <small>
+                                      {
+                                        message.intelligence.astraCore.relationGates.filter(
+                                          (gate) => gate.decision === "EVIDENCE",
+                                        ).length
+                                      }
+                                      {" evidence · "}
+                                      {
+                                        message.intelligence.astraCore.relationGates.filter(
+                                          (gate) => gate.decision === "CONTEXT_ONLY",
+                                        ).length
+                                      }
+                                      {" context"}
+                                    </small>
+                                  </div>
+                                  <p>
+                                    Related does not mean evidential. Only candidates preserving
+                                    object family, subject relation, and the claim-specific evidence
+                                    burden may change the final Evidence State.
+                                  </p>
+                                </div>
+                              )}
 
                               <div className="ep-agent-work__research">
                                 <div className="ep-agent-work__planning-head">
@@ -11068,6 +13048,129 @@ useEffect(() => {
                                     <span>{item.status}</span>
                                   </div>
                                 ))}
+                              </div>
+
+                              {message.intelligence.astraCore.iterativeWorkCycles.length > 0 && (
+                                <div className="ep-case-loop">
+                                  <div className="ep-agent-work__planning-head">
+                                    <span>GOAL-DIRECTED WORK LOOP</span>
+                                    <small>
+                                      {message.intelligence.astraCore.iterativeWorkCycles.length}
+                                      {" / "}
+                                      {MAX_CASE_WORK_ITERATIONS}
+                                      {" cycles"}
+                                    </small>
+                                  </div>
+
+                                  <div className="ep-case-loop__cycles">
+                                    {message.intelligence.astraCore.iterativeWorkCycles.map((cycle) => (
+                                      <div
+                                        key={`cycle-${cycle.iteration}-${cycle.selectedSubtaskId ?? "stop"}`}
+                                        className={`ep-case-loop__cycle is-${cycle.status.toLowerCase()}`}
+                                      >
+                                        <b>{cycle.iteration}</b>
+                                        <div>
+                                          <strong>{cycle.operation}</strong>
+                                          <p>{cycle.finding}</p>
+                                          <small>
+                                            GOAL {cycle.progressBefore}% → {cycle.progressAfter}% ·
+                                            {" "}EVIDENCE {cycle.evidenceBefore} → {cycle.evidenceAfter}
+                                          </small>
+                                        </div>
+                                        <span>{cycle.status.replaceAll("_", " ")}</span>
+                                      </div>
+                                    ))}
+                                  </div>
+
+                                  {message.intelligence.astraCore.escalation.level !== "NONE" && (
+                                    <div className="ep-case-loop__escalation">
+                                      <span>
+                                        SUBTASK ESCALATION · {message.intelligence.astraCore.escalation.level.replaceAll("_", " ")}
+                                      </span>
+                                      <p>{message.intelligence.astraCore.escalation.reason}</p>
+                                      <strong>{message.intelligence.astraCore.escalation.action}</strong>
+                                    </div>
+                                  )}
+                                </div>
+                              )}
+
+                              <div className="ep-case-completion">
+                                <div className="ep-case-completion__head">
+                                  <div>
+                                    <span>CASE COMPLETION GATE</span>
+                                    <strong>
+                                      {message.intelligence.astraCore.completionGate.status.replaceAll("_", " ")}
+                                    </strong>
+                                  </div>
+                                  <b>
+                                    {message.intelligence.astraCore.completionGate.score}
+                                    {"%"}
+                                  </b>
+                                </div>
+
+                                <div className="ep-case-completion__checks">
+                                  {message.intelligence.astraCore.completionGate.checks.map((check) => (
+                                    <div
+                                      key={check.id}
+                                      className={[
+                                        "ep-case-completion__check",
+                                        check.passed
+                                          ? "is-pass"
+                                          : check.limited
+                                            ? "is-limited"
+                                            : "is-blocked",
+                                      ].join(" ")}
+                                    >
+                                      <i aria-hidden="true" />
+                                      <div>
+                                        <strong>{check.label}</strong>
+                                        <p>{check.note}</p>
+                                      </div>
+                                    </div>
+                                  ))}
+                                </div>
+
+                                <div className="ep-case-completion__decision">
+                                  <span>RELEASE DECISION</span>
+                                  <p>
+                                    {message.intelligence.astraCore.completionGate.releaseDecision}
+                                  </p>
+                                  <small>
+                                    NEXT · {message.intelligence.astraCore.completionGate.nextRequiredAction}
+                                  </small>
+                                </div>
+                              </div>
+
+                              <div
+                                className={`ep-case-closure is-${message.intelligence.astraCore.closureProtocol.status.toLowerCase()}`}
+                              >
+                                <div className="ep-case-closure__head">
+                                  <div>
+                                    <span>CASE CLOSURE PROTOCOL</span>
+                                    <strong>
+                                      {message.intelligence.astraCore.closureProtocol.status}
+                                    </strong>
+                                  </div>
+                                  <small>
+                                    {message.intelligence.astraCore.closureProtocol.unresolvedConditions.length}
+                                    {" unresolved"}
+                                  </small>
+                                </div>
+
+                                <p className="ep-case-closure__reason">
+                                  {message.intelligence.astraCore.closureProtocol.reason}
+                                </p>
+
+                                <div className="ep-case-closure__grid">
+                                  <section>
+                                    <span>FINAL BOUNDARY</span>
+                                    <p>{message.intelligence.astraCore.closureProtocol.finalBoundary}</p>
+                                  </section>
+                                  <section>
+                                    <span>REOPEN CONDITION</span>
+                                    <p>{message.intelligence.astraCore.closureProtocol.reopenCondition}</p>
+                                  </section>
+                                </div>
                               </div>
 
                               <div className="ep-agent-work__result">
@@ -18450,6 +20553,643 @@ useEffect(() => {
 
 
         /* ==================================================
+           CASE-ISOLATED ASTRA WORKSPACE · STAGE 6.9.0
+        ================================================== */
+        .ep-case-rail {
+          position: relative;
+          z-index: 9;
+          display: grid;
+          grid-template-columns: 180px minmax(0, 1fr);
+          gap: 10px;
+          align-items: stretch;
+          padding: 8px 18px 9px;
+          border-bottom: 1px solid rgba(255,255,255,.055);
+          background: rgba(2,4,6,.74);
+          backdrop-filter: blur(16px);
+        }
+
+        .ep-case-rail__label {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 4px;
+          min-width: 0;
+        }
+
+        .ep-case-rail__label span {
+          color: rgba(184,221,240,.58);
+          font-size: 8px;
+          letter-spacing: .15em;
+        }
+
+        .ep-case-rail__label small {
+          color: rgba(225,235,240,.32);
+          font-size: 6.5px;
+          letter-spacing: .07em;
+        }
+
+        .ep-case-rail__items {
+          display: flex;
+          gap: 7px;
+          overflow-x: auto;
+          scrollbar-width: thin;
+          padding-bottom: 1px;
+        }
+
+        .ep-case-rail__case {
+          flex: 0 0 220px;
+          min-width: 0;
+          display: grid;
+          gap: 4px;
+          text-align: left;
+          padding: 9px 11px;
+          border: 1px solid rgba(255,255,255,.07);
+          border-radius: 12px;
+          background: rgba(255,255,255,.018);
+          color: rgba(236,244,248,.65);
+          cursor: pointer;
+          transition:
+            border-color .18s ease,
+            background .18s ease,
+            transform .18s ease;
+        }
+
+        .ep-case-rail__case:hover:not(:disabled) {
+          border-color: rgba(177,220,242,.22);
+          background: rgba(167,217,242,.045);
+          transform: translateY(-1px);
+        }
+
+        .ep-case-rail__case.is-active {
+          border-color: rgba(181,224,245,.28);
+          background:
+            linear-gradient(
+              180deg,
+              rgba(157,211,239,.07),
+              rgba(157,211,239,.025)
+            );
+          box-shadow: inset 0 0 0 1px rgba(255,255,255,.012);
+        }
+
+        .ep-case-rail__case:disabled {
+          opacity: .4;
+          cursor: default;
+        }
+
+        .ep-case-rail__case > span {
+          color: rgba(174,216,237,.55);
+          font-size: 7px;
+          letter-spacing: .13em;
+        }
+
+        .ep-case-rail__case > strong {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: rgba(239,246,249,.8);
+          font-size: 9px;
+          font-weight: 530;
+        }
+
+        .ep-case-rail__case > small {
+          color: rgba(226,236,241,.34);
+          font-size: 6.5px;
+          letter-spacing: .07em;
+        }
+
+        .ep-case-header {
+          margin: 0 0 18px;
+          padding: 15px 17px 16px;
+          border: 1px solid rgba(179,221,242,.13);
+          border-radius: 18px;
+          background:
+            radial-gradient(circle at 0% 0%, rgba(119,191,229,.055), transparent 45%),
+            rgba(255,255,255,.012);
+        }
+
+        .ep-case-header > div {
+          display: flex;
+          justify-content: space-between;
+          gap: 12px;
+          align-items: center;
+        }
+
+        .ep-case-header > div span,
+        .ep-case-header > div small {
+          color: rgba(179,219,239,.5);
+          font-size: 7.5px;
+          letter-spacing: .14em;
+        }
+
+        .ep-case-header h2 {
+          margin: 9px 0 7px;
+          color: rgba(242,248,251,.91);
+          font-size: 15px;
+          line-height: 1.42;
+          font-weight: 520;
+        }
+
+        .ep-case-header p {
+          margin: 0;
+          color: rgba(226,236,241,.45);
+          font-size: 9px;
+          line-height: 1.62;
+        }
+
+        @media (max-width: 768px) {
+          .ep-case-rail {
+            grid-template-columns: 1fr;
+            padding: 7px 10px 8px;
+          }
+
+          .ep-case-rail__label {
+            display: none;
+          }
+
+          .ep-case-rail__case {
+            flex-basis: 190px;
+          }
+
+          .ep-case-header {
+            margin-bottom: 13px;
+            padding: 13px 14px;
+          }
+
+          .ep-case-header h2 {
+            font-size: 13px;
+          }
+        }
+
+        /* ==================================================
+           CASE GOAL TREE + COMPLETION GATE · STAGE 6.9.1
+        ================================================== */
+        .ep-case-goal-tree,
+        .ep-case-subtasks,
+        .ep-case-completion {
+          border-bottom: 1px solid rgba(255,255,255,.055);
+          background: rgba(3,7,9,.38);
+        }
+
+        .ep-case-goal-tree__root {
+          display: grid;
+          grid-template-columns: 10px minmax(0,1fr);
+          gap: 10px;
+          padding: 11px 15px 12px;
+          border-top: 1px solid rgba(255,255,255,.035);
+          border-bottom: 1px solid rgba(255,255,255,.045);
+        }
+
+        .ep-case-goal-tree__root > i {
+          width: 8px;
+          height: 8px;
+          margin-top: 5px;
+          border: 1px solid rgba(181,224,245,.34);
+          border-radius: 999px;
+          background: rgba(157,211,239,.12);
+          box-shadow: 0 0 18px rgba(98,178,217,.13);
+        }
+
+        .ep-case-goal-tree__root span,
+        .ep-case-completion__decision > span {
+          color: rgba(177,219,240,.55);
+          font-size: 7.5px;
+          letter-spacing: .14em;
+        }
+
+        .ep-case-goal-tree__root strong {
+          display: block;
+          margin-top: 4px;
+          color: rgba(242,248,251,.86);
+          font-size: 10px;
+          font-weight: 540;
+          line-height: 1.45;
+        }
+
+        .ep-case-goal-tree__root p {
+          margin: 4px 0 0;
+          color: rgba(224,234,239,.42);
+          font-size: 8.5px;
+          line-height: 1.55;
+        }
+
+        .ep-case-goal-tree__nodes {
+          position: relative;
+          display: grid;
+        }
+
+        .ep-case-goal-tree__nodes::before {
+          content: "";
+          position: absolute;
+          left: 18px;
+          top: 0;
+          bottom: 0;
+          width: 1px;
+          background: rgba(180,220,240,.08);
+        }
+
+        .ep-case-goal-tree__node {
+          position: relative;
+          z-index: 1;
+          display: grid;
+          grid-template-columns: 8px minmax(0,1fr) auto;
+          gap: 10px;
+          align-items: start;
+          padding: 9px 15px;
+          border-bottom: 1px solid rgba(255,255,255,.032);
+        }
+
+        .ep-case-goal-tree__node > i {
+          width: 7px;
+          height: 7px;
+          margin-top: 4px;
+          border: 1px solid rgba(183,222,242,.22);
+          border-radius: 999px;
+          background: #070b0e;
+        }
+
+        .ep-case-goal-tree__node.is-satisfied > i {
+          background: rgba(160,216,242,.6);
+          box-shadow: 0 0 8px rgba(104,187,226,.14);
+        }
+
+        .ep-case-goal-tree__node.is-limited > i {
+          background: rgba(224,199,145,.34);
+          border-color: rgba(231,205,152,.32);
+        }
+
+        .ep-case-goal-tree__node.is-blocked > i {
+          background: rgba(224,147,139,.28);
+          border-color: rgba(226,157,147,.32);
+        }
+
+        .ep-case-goal-tree__node span {
+          color: rgba(177,219,240,.43);
+          font-size: 6.5px;
+          letter-spacing: .12em;
+        }
+
+        .ep-case-goal-tree__node strong {
+          display: block;
+          margin-top: 2px;
+          color: rgba(237,244,248,.72);
+          font-size: 8.5px;
+          font-weight: 530;
+        }
+
+        .ep-case-goal-tree__node p {
+          margin: 3px 0 0;
+          color: rgba(224,234,239,.4);
+          font-size: 8px;
+          line-height: 1.5;
+        }
+
+        .ep-case-goal-tree__node > small {
+          color: rgba(221,233,239,.35);
+          font-size: 6.5px;
+          letter-spacing: .06em;
+        }
+
+        .ep-case-subtasks__item {
+          display: grid;
+          grid-template-columns: 22px minmax(0,1fr) auto;
+          gap: 9px;
+          align-items: start;
+          padding: 9px 15px;
+          border-top: 1px solid rgba(255,255,255,.035);
+        }
+
+        .ep-case-subtasks__item > b {
+          display: grid;
+          place-items: center;
+          width: 18px;
+          height: 18px;
+          border: 1px solid rgba(178,218,239,.14);
+          border-radius: 6px;
+          color: rgba(181,219,238,.54);
+          font-size: 7px;
+          font-weight: 500;
+        }
+
+        .ep-case-subtasks__item strong {
+          display: block;
+          color: rgba(237,244,248,.7);
+          font-size: 8.5px;
+          font-weight: 530;
+          line-height: 1.45;
+        }
+
+        .ep-case-subtasks__item p {
+          margin: 3px 0 0;
+          color: rgba(224,234,239,.42);
+          font-size: 8px;
+          line-height: 1.5;
+        }
+
+        .ep-case-subtasks__item > span {
+          color: rgba(221,233,239,.34);
+          font-size: 6.5px;
+          letter-spacing: .07em;
+        }
+
+        .ep-case-completion {
+          padding-bottom: 0;
+        }
+
+        .ep-case-completion__head {
+          display: flex;
+          justify-content: space-between;
+          gap: 14px;
+          align-items: center;
+          padding: 12px 15px;
+          border-bottom: 1px solid rgba(255,255,255,.045);
+        }
+
+        .ep-case-completion__head > div {
+          display: grid;
+          gap: 4px;
+        }
+
+        .ep-case-completion__head span {
+          color: rgba(177,219,240,.55);
+          font-size: 7.5px;
+          letter-spacing: .14em;
+        }
+
+        .ep-case-completion__head strong {
+          color: rgba(240,247,250,.84);
+          font-size: 10px;
+          font-weight: 560;
+        }
+
+        .ep-case-completion__head > b {
+          color: rgba(187,223,241,.68);
+          font-size: 16px;
+          font-weight: 500;
+        }
+
+        .ep-case-completion__checks {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0,1fr));
+          gap: 1px;
+          background: rgba(255,255,255,.035);
+        }
+
+        .ep-case-completion__check {
+          display: grid;
+          grid-template-columns: 7px minmax(0,1fr);
+          gap: 8px;
+          padding: 9px 11px;
+          background: rgba(3,7,9,.78);
+        }
+
+        .ep-case-completion__check > i {
+          width: 6px;
+          height: 6px;
+          margin-top: 4px;
+          border: 1px solid rgba(180,220,240,.2);
+          border-radius: 999px;
+        }
+
+        .ep-case-completion__check.is-pass > i {
+          background: rgba(164,216,241,.58);
+        }
+
+        .ep-case-completion__check.is-limited > i {
+          background: rgba(226,199,144,.34);
+          border-color: rgba(231,205,152,.3);
+        }
+
+        .ep-case-completion__check.is-blocked > i {
+          background: rgba(225,151,142,.28);
+          border-color: rgba(226,157,147,.3);
+        }
+
+        .ep-case-completion__check strong {
+          display: block;
+          color: rgba(235,243,247,.67);
+          font-size: 8px;
+          font-weight: 520;
+        }
+
+        .ep-case-completion__check p {
+          margin: 3px 0 0;
+          color: rgba(222,233,238,.4);
+          font-size: 7.5px;
+          line-height: 1.48;
+        }
+
+        .ep-case-completion__decision {
+          padding: 11px 15px 13px;
+          border-top: 1px solid rgba(255,255,255,.035);
+        }
+
+        .ep-case-completion__decision p {
+          margin: 5px 0 7px;
+          color: rgba(230,239,244,.56);
+          font-size: 8.5px;
+          line-height: 1.55;
+        }
+
+        .ep-case-completion__decision small {
+          color: rgba(181,219,238,.46);
+          font-size: 7.5px;
+          line-height: 1.45;
+        }
+
+        @media (max-width: 680px) {
+          .ep-case-completion__checks {
+            grid-template-columns: 1fr;
+          }
+        }
+
+        /* ==================================================
+           ITERATIVE WORK LOOP + CLOSURE · STAGE 6.9.2
+        ================================================== */
+        .ep-case-loop,
+        .ep-case-closure {
+          border-bottom: 1px solid rgba(255,255,255,.055);
+          background: rgba(3,7,9,.4);
+        }
+
+        .ep-case-loop__cycles {
+          display: grid;
+        }
+
+        .ep-case-loop__cycle {
+          display: grid;
+          grid-template-columns: 23px minmax(0,1fr) auto;
+          gap: 9px;
+          align-items: start;
+          padding: 9px 15px;
+          border-top: 1px solid rgba(255,255,255,.035);
+        }
+
+        .ep-case-loop__cycle > b {
+          display: grid;
+          place-items: center;
+          width: 19px;
+          height: 19px;
+          border: 1px solid rgba(179,220,241,.14);
+          border-radius: 999px;
+          color: rgba(181,220,240,.56);
+          font-size: 7px;
+          font-weight: 500;
+        }
+
+        .ep-case-loop__cycle.is-advanced > b {
+          background: rgba(159,214,240,.09);
+          border-color: rgba(174,220,242,.24);
+        }
+
+        .ep-case-loop__cycle.is-escalated > b {
+          background: rgba(227,177,136,.08);
+          border-color: rgba(231,188,150,.26);
+        }
+
+        .ep-case-loop__cycle.is-stopped > b {
+          border-style: dashed;
+          opacity: .65;
+        }
+
+        .ep-case-loop__cycle strong {
+          display: block;
+          color: rgba(237,244,248,.72);
+          font-size: 8.5px;
+          font-weight: 530;
+          line-height: 1.45;
+        }
+
+        .ep-case-loop__cycle p {
+          margin: 3px 0;
+          color: rgba(224,234,239,.42);
+          font-size: 8px;
+          line-height: 1.5;
+        }
+
+        .ep-case-loop__cycle small {
+          color: rgba(180,218,237,.38);
+          font-size: 6.7px;
+          letter-spacing: .04em;
+        }
+
+        .ep-case-loop__cycle > span {
+          color: rgba(221,233,239,.35);
+          font-size: 6.5px;
+          letter-spacing: .07em;
+        }
+
+        .ep-case-loop__escalation {
+          padding: 11px 15px 13px;
+          border-top: 1px solid rgba(255,255,255,.04);
+          background: rgba(205,155,113,.025);
+        }
+
+        .ep-case-loop__escalation > span {
+          color: rgba(229,192,159,.58);
+          font-size: 7px;
+          letter-spacing: .13em;
+        }
+
+        .ep-case-loop__escalation p {
+          margin: 5px 0;
+          color: rgba(230,237,241,.48);
+          font-size: 8px;
+          line-height: 1.5;
+        }
+
+        .ep-case-loop__escalation strong {
+          display: block;
+          color: rgba(239,243,245,.68);
+          font-size: 8px;
+          font-weight: 520;
+          line-height: 1.5;
+        }
+
+        .ep-case-closure__head {
+          display: flex;
+          justify-content: space-between;
+          gap: 12px;
+          align-items: center;
+          padding: 12px 15px 9px;
+        }
+
+        .ep-case-closure__head > div {
+          display: grid;
+          gap: 3px;
+        }
+
+        .ep-case-closure__head span,
+        .ep-case-closure__grid section > span {
+          color: rgba(177,219,240,.55);
+          font-size: 7px;
+          letter-spacing: .14em;
+        }
+
+        .ep-case-closure__head strong {
+          color: rgba(240,247,250,.84);
+          font-size: 10px;
+          font-weight: 560;
+        }
+
+        .ep-case-closure__head small {
+          color: rgba(222,233,239,.35);
+          font-size: 7px;
+        }
+
+        .ep-case-closure.is-closed .ep-case-closure__head strong {
+          color: rgba(190,229,246,.88);
+        }
+
+        .ep-case-closure.is-bounded .ep-case-closure__head strong {
+          color: rgba(231,204,155,.82);
+        }
+
+        .ep-case-closure.is-blocked .ep-case-closure__head strong {
+          color: rgba(231,169,161,.82);
+        }
+
+        .ep-case-closure__reason {
+          margin: 0;
+          padding: 0 15px 11px;
+          color: rgba(229,238,243,.5);
+          font-size: 8.5px;
+          line-height: 1.55;
+        }
+
+        .ep-case-closure__grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0,1fr));
+          gap: 1px;
+          background: rgba(255,255,255,.035);
+        }
+
+        .ep-case-closure__grid section {
+          padding: 10px 12px;
+          background: rgba(3,7,9,.78);
+        }
+
+        .ep-case-closure__grid p {
+          margin: 5px 0 0;
+          color: rgba(223,233,238,.45);
+          font-size: 8px;
+          line-height: 1.5;
+        }
+
+        @media (max-width: 680px) {
+          .ep-case-closure__grid {
+            grid-template-columns: 1fr;
+          }
+
+          .ep-case-loop__cycle {
+            grid-template-columns: 23px minmax(0,1fr);
+          }
+
+          .ep-case-loop__cycle > span {
+            grid-column: 2;
+          }
+        }
+
+        /* ==================================================
            MISSION WORKER · STAGE 6.8.0
         ================================================== */
         .ep-agent-work {
@@ -18514,6 +21254,19 @@ useEffect(() => {
           color: rgba(190,218,232,.45);
           font-size: 8px;
           line-height: 1.5;
+        }
+
+        .ep-agent-work__relation-gate {
+          border-bottom: 1px solid rgba(255,255,255,.055);
+          background: rgba(3,7,9,.38);
+        }
+
+        .ep-agent-work__relation-gate > p {
+          margin: 0;
+          padding: 0 15px 11px;
+          color: rgba(225,235,240,.45);
+          font-size: 8.5px;
+          line-height: 1.55;
         }
 
         .ep-agent-work__planning,
