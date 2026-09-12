@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-09-12T13:24:25.329Z",
+  "updated": "2026-09-12T16:49:18.990Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why do some salivary glands fail? Researchers point to hidden cell stress",
+      "url": "https://phys.org/news/2026-09-salivary-glands-hidden-cell-stress.html",
+      "summary": "For cancer patients undergoing head and neck radiation therapy, people living with Sjögren's syndrome, people with diabetes or older people, reduced saliva production and the resulting dry mouth are far more than uncomfo…",
+      "ts": 1789230601000,
+      "publishedAt": "2026-09-12T16:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human embryo base editing can reach all cells but causes unpredictable genetic changes",
+      "url": "https://phys.org/news/2026-09-human-embryo-base-cells-unpredictable.html",
+      "summary": "A study by researchers at Columbia University Vagelos College of Physicians and Surgeons has found that new cutting-edge techniques can accurately edit genes in human embryos—giving scientists indispensable tools for und…",
+      "ts": 1789228801000,
+      "publishedAt": "2026-09-12T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sea-level rise could squeeze shorebirds out of critical coastal habitat, researchers find",
+      "url": "https://phys.org/news/2026-09-sea-shorebirds-critical-coastal-habitat.html",
+      "summary": "As sea levels rise, coastal wetlands around the world are expected to shrink—and researchers at the University of British Columbia have found this could put the world's shorebirds and their critical habitat at risk.",
+      "ts": 1789225202000,
+      "publishedAt": "2026-09-12T15:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists turn classical light into a quantum machine for information processing",
+      "url": "https://phys.org/news/2026-09-physicists-classical-quantum-machine.html",
+      "summary": "Quantum computers promise to tackle problems that are extraordinarily difficult for today's computers. But there is a major obstacle: quantum systems are notoriously fragile. Noise, loss and even tiny disturbances can de…",
+      "ts": 1789221601000,
+      "publishedAt": "2026-09-12T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny cyanobacteria may be the secret heroes of ocean carbon sequestration",
+      "url": "https://phys.org/news/2026-09-tiny-cyanobacteria-secret-heroes-ocean.html",
+      "summary": "A process known as the biological carbon pump (BCP) moves organic carbon from near the ocean's surface to the ocean floor. That carbon often stays there for hundreds or thousands of years, making the BCP a primary source…",
+      "ts": 1789219801000,
+      "publishedAt": "2026-09-12T13:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Why are the stars around our galaxy's black hole missing their companions?",
@@ -759,46 +799,6 @@
       "title": "Are We Really Doing Few-Shot Learning? A Critical Examination of Pre-Training Assumptions",
       "url": "https://arxiv.org/abs/2609.10851",
       "summary": "arXiv:2609.10851v1 Announce Type: cross Abstract: Few-shot learning is commonly evaluated under protocols that pre-train a model on a large auxiliary set whose classes are disjoint from the target episodes yet drawn from…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-      "url": "https://arxiv.org/abs/2609.10854",
-      "summary": "arXiv:2609.10854v1 Announce Type: cross Abstract: Conventional vulnerability analysis relies on either system access or dynamic interaction, all of which may be unavailable to third-party analysts auditing closed-source,…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Story Imprinting: AI Assistants Absorb Traits from Human Characters They Resemble",
-      "url": "https://arxiv.org/abs/2609.10883",
-      "summary": "arXiv:2609.10883v1 Announce Type: cross Abstract: Language models are trained to implement a helpful AI Assistant character (e.g., Claude). We explore how finetuning on synthetic stories affects this character. Does it c…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DriftNet: A Dual-Head Trajectory Transformer for Detecting and Localizing Prompt Injection in LLM Agents",
-      "url": "https://arxiv.org/abs/2609.10892",
-      "summary": "arXiv:2609.10892v1 Announce Type: cross Abstract: When an indirect prompt injection succeeds against an LLM agent, the compromise is visible in the agent's own behavior: a benign prefix of tool calls, a poisoned observat…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Does Linguistic Structure Enrichment Enhance Coherence Assessment? Not With Current Architectures",
-      "url": "https://arxiv.org/abs/2609.10893",
-      "summary": "arXiv:2609.10893v1 Announce Type: cross Abstract: Recent advances in large language models have transformed human-computer interaction. Despite their fluency, these models often produce texts that are grammatically corre…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
-      "url": "https://arxiv.org/abs/2609.10895",
-      "summary": "arXiv:2609.10895v1 Announce Type: cross Abstract: Reacting to sudden physical hazards (catching a slipping plate, dodging a falling knife) is both a meaningful test of embodied intelligence and a hard requirement for dep…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
