@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-12T19:00:59.029Z",
+  "updated": "2026-09-12T20:38:54.856Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A brief history of the hangover and its remedies—from cabbages to cloves and the lungs of a goat",
+      "url": "https://phys.org/news/2026-09-history-hangover-remedies-cabbages-cloves.html",
+      "summary": "Anyone who has ever woken up with a hangover will recognize its physical and psychological effects: headache, nausea, self-loathing, regret and perhaps even some shame at the uninhibited behavior that accompanied the int…",
+      "ts": 1789243201000,
+      "publishedAt": "2026-09-12T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unified framework shows thermoelectric performance depends on more than the material itself",
+      "url": "https://phys.org/news/2026-09-framework-thermoelectric-material.html",
+      "summary": "Thermoelectric materials can directly convert heat into electricity, making them promising for recovering waste heat from factories, vehicles and other sources. They can also transport heat when an electric current is ap…",
+      "ts": 1789241402000,
+      "publishedAt": "2026-09-12T19:30:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Silicon nanosphere coatings deliver glossy, nonfading color on 3D surfaces",
@@ -783,22 +799,6 @@
       "title": "Adaptive Margin Ordinal Loss: Penalizing Center-Class Hedging in Ordinal Classification",
       "url": "https://arxiv.org/abs/2609.10752",
       "summary": "arXiv:2609.10752v1 Announce Type: cross Abstract: Standard cross-entropy loss causes neural networks trained on ordinal classification tasks to hedge predictions toward center classes, a failure mode we term \\emph{center…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu",
-      "url": "https://arxiv.org/abs/2609.10758",
-      "summary": "arXiv:2609.10758v1 Announce Type: cross Abstract: Multilingual large language models (LLMs) are increasingly used for open-ended text generation, yet their behaviour in low-resource languages remains poorly understood. I…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Beyond Static Guarantees: Measuring the Static-Pass Dynamic-Fail Gap in Security-Sensitive and LLM-Generated Python Code",
-      "url": "https://arxiv.org/abs/2609.10762",
-      "summary": "arXiv:2609.10762v1 Announce Type: cross Abstract: Advances in large language models (LLMs) fuel the quest for scalable methods to assess the security of generated and security-sensitive software. Static analysis is widel…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }

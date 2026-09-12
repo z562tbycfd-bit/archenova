@@ -616,9 +616,16 @@ type EvidenceRelationDecision =
   | "CONTEXT_ONLY"
   | "REJECT";
 
+type EvidenceContextUse =
+  | "EVIDENCE"
+  | "BOUNDARY_CONTEXT"
+  | "BACKGROUND_CONTEXT"
+  | "REJECT";
+
 type EvidenceRelationGate = {
   signalId: string;
   decision: EvidenceRelationDecision;
+  contextUse: EvidenceContextUse;
   relationScore: number;
   matchedDimensions: string[];
   rationale: string;
@@ -676,6 +683,7 @@ type CaseGoalNode = {
   signalIds: string[];
   dependencyIds: string[];
   blockedByIds: string[];
+  limitedDependencyIds: string[];
 };
 
 type EpistemicWorkNodeState =
@@ -691,7 +699,9 @@ type EpistemicWorkNode = {
   state: EpistemicWorkNodeState;
   dependencyIds: string[];
   blockedByIds: string[];
+  limitedDependencyIds: string[];
   evidenceDecision: EvidenceRelationDecision | "PRIMARY" | "NONE";
+  contextUse: EvidenceContextUse | "PRIMARY" | "NONE";
   rationale: string;
 };
 
@@ -3862,6 +3872,142 @@ function resultBearingLanguageScore(sentence: string): number {
   }
 
   return score;
+}
+
+type SourceTruthStatus =
+  | "FOUND"
+  | "LIMITED"
+  | "NONE";
+
+type SourceTruthRecovery = {
+  status: SourceTruthStatus;
+  proposition: string | null;
+  artifact: string;
+  rationale: string;
+};
+
+function recoverArtifactSpecificSourceTruth(
+  signal: SignalItem,
+): SourceTruthRecovery {
+  const genre = classifySignalGenre(signal);
+  const classic =
+    extractResultBearingProposition(signal)?.proposition ||
+    recoverResultProposition(signal);
+
+  if (classic) {
+    return {
+      status: "FOUND",
+      proposition: stripTerminalPunctuation(classic),
+      artifact: genre,
+      rationale:
+        "A result-bearing proposition was recovered directly from the indexed source representation.",
+    };
+  }
+
+  const roles = decomposeSignalRoles(signal, genre);
+  const sentences = signalSentences(signal);
+  const operationalSentence =
+    sentences.find((sentence) =>
+      /\b(uses?|using|deploys?|deployed|operates?|runs?|writes?|changes?|monitors?|checks?|adopts?|launches?|ships?|integrates?|relies on|trusted?|assigned|handles?)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const clinicalSentence =
+    sentences.find((sentence) =>
+      /\b(failed to improve|improved?|primary endpoint|overall survival|progression[- ]free survival|response rate|clinical benefit|trial)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  if (
+    genre === "CLINICAL RESULT" &&
+    (clinicalSentence || roles.reportedResult)
+  ) {
+    const proposition = stripTerminalPunctuation(
+      clinicalSentence || roles.reportedResult,
+    );
+    return {
+      status: "FOUND",
+      proposition,
+      artifact: genre,
+      rationale:
+        "Clinical source truth is represented by the reported trial outcome or endpoint proposition; independent verification remains a separate evidence question.",
+    };
+  }
+
+  if (
+    [
+      "ENGINEERING DEMONSTRATION",
+      "BUSINESS / COMMERCIAL ACTION",
+      "MISSION / OPERATIONAL UPDATE",
+      "OPERATIONAL ANNOUNCEMENT",
+      "POLICY / INSTITUTIONAL ACTION",
+      "REGULATORY ACTION",
+      "ORGANIZATIONAL / PERSONNEL UPDATE",
+    ].includes(genre)
+  ) {
+    const proposition = stripTerminalPunctuation(
+      operationalSentence ||
+        roles.reportedResult ||
+        roles.coreClaim ||
+        signal.title,
+    );
+    return {
+      status: proposition ? "FOUND" : "LIMITED",
+      proposition: proposition || null,
+      artifact: genre,
+      rationale:
+        "This artifact is evaluated through its reported operational/action proposition rather than requiring a scientific-paper-style result sentence.",
+    };
+  }
+
+  if (
+    genre === "COMMENTARY / ANALYSIS" ||
+    genre === "INTERVIEW / Q&A"
+  ) {
+    const proposition = stripTerminalPunctuation(
+      operationalSentence ||
+        roles.coreClaim ||
+        signalSentences(signal)[0] ||
+        signal.title,
+    );
+
+    return {
+      status: proposition ? "FOUND" : "LIMITED",
+      proposition: proposition || null,
+      artifact: genre,
+      rationale:
+        "The source can establish what is reported or claimed in the analysis/interview, while causal superiority, robustness, and generality remain outside Source Truth unless separately evidenced.",
+    };
+  }
+
+  if (operationalSentence) {
+    return {
+      status: "FOUND",
+      proposition: stripTerminalPunctuation(operationalSentence),
+      artifact: genre === "UNKNOWN" ? "REPORTED OPERATIONAL PROPOSITION" : genre,
+      rationale:
+        "A source-bound operational proposition was recovered from the indexed summary. This establishes what the source reports, not robustness, superiority, generality, or independent verification.",
+    };
+  }
+
+  const fallback = stripTerminalPunctuation(
+    roles.reportedResult ||
+      roles.coreClaim ||
+      signalSentences(signal)[0] ||
+      "",
+  );
+
+  return {
+    status: fallback ? "LIMITED" : "NONE",
+    proposition: fallback || null,
+    artifact: genre,
+    rationale:
+      fallback
+        ? "A source-bound proposition is available, but its artifact form does not justify treating it as a fully recovered result proposition."
+        : "No sufficiently source-bound proposition could be recovered.",
+  };
 }
 
 function recoverResultProposition(
@@ -8385,10 +8531,11 @@ function runAutonomousReasoningLoop(args: {
   } = args;
 
   const passes: ReasoningPass[] = [];
-  const result = lead ? recoverResultProposition(lead) : null;
-  const explicitProposition = lead
-    ? extractResultBearingProposition(lead)?.proposition || result
+  const sourceTruth = lead
+    ? recoverArtifactSpecificSourceTruth(lead)
     : null;
+  const explicitProposition =
+    sourceTruth?.proposition ?? null;
 
   passes.push({
     kind: "OBJECT LOCK",
@@ -8401,11 +8548,16 @@ function runAutonomousReasoningLoop(args: {
 
   passes.push({
     kind: "SOURCE TRUTH",
-    status: explicitProposition ? "PASS" : lead ? "LIMITED" : "BLOCKED",
+    status:
+      explicitProposition && sourceTruth?.status === "FOUND"
+        ? "PASS"
+        : lead
+          ? "LIMITED"
+          : "BLOCKED",
     finding: explicitProposition
-      ? `Recovered source proposition: ${stripTerminalPunctuation(explicitProposition)}.`
+      ? `Recovered ${sourceTruth?.artifact || "source"} proposition: ${stripTerminalPunctuation(explicitProposition)}. ${sourceTruth?.rationale || ""}`.trim()
       : lead
-        ? "The indexed summary does not expose a sufficiently distinct result-bearing proposition; interpretation must not outrun the source."
+        ? "The indexed representation does not expose a sufficiently source-bound proposition; interpretation must not outrun the source."
         : "No source proposition can be evaluated without a primary object.",
     signalIds: lead ? [lead.id] : [],
   });
@@ -8549,8 +8701,7 @@ function runSelfCritiqueGate(args: {
       passed:
         !lead ||
         Boolean(
-          extractResultBearingProposition(lead)?.proposition ||
-          recoverResultProposition(lead) ||
+          recoverArtifactSpecificSourceTruth(lead).proposition ||
           sourceText,
         ),
       note:
@@ -8857,6 +9008,7 @@ function evaluateEvidenceRelationGate(args: {
     return {
       signalId: candidate.id,
       decision: "EVIDENCE",
+      contextUse: "EVIDENCE",
       relationScore: 100,
       matchedDimensions: ["PRIMARY"],
       rationale: "Primary object.",
@@ -8865,8 +9017,6 @@ function evaluateEvidenceRelationGate(args: {
 
   const leadOntology = inferSemanticClaimOntology(lead);
   const candidateOntology = inferSemanticClaimOntology(candidate);
-  const leadProfile = inferObjectSemanticProfile(lead);
-  const candidateProfile = inferObjectSemanticProfile(candidate);
 
   const subjectOverlap = evidenceSubjectOverlap(lead, candidate);
   const titleOverlap = evidenceTitleOverlap(lead, candidate);
@@ -8897,6 +9047,10 @@ function evaluateEvidenceRelationGate(args: {
     titleOverlap >= 1 || subjectOverlap >= 3;
   if (subjectBound) dimensions.push("SUBJECT");
 
+  const strongSubjectBound =
+    titleOverlap >= 2 || subjectOverlap >= 5;
+  if (strongSubjectBound) dimensions.push("STRONG_SUBJECT");
+
   const requirementMatch =
     epistemicContract.evidenceRequirements.some((requirement) =>
       requirementPattern(
@@ -8906,8 +9060,12 @@ function evaluateEvidenceRelationGate(args: {
     );
   if (requirementMatch) dimensions.push("EVIDENCE_REQUIREMENT");
 
-  // Broad AI/software similarity is never enough. An evidence candidate must
-  // remain tied to the same object family and operation/claim burden.
+  const boundaryLanguage =
+    /\b(limit|limitation|boundary|condition|only when|depends on|failure|fails|constraint|trade[- ]?off|scope|generaliz|robust|operating envelope|sensitivity|recovery|intervention)\b/.test(
+      candidateText,
+    );
+  if (boundaryLanguage) dimensions.push("BOUNDARY_LANGUAGE");
+
   const evidenceEligible =
     sameDomain &&
     sameArtifact &&
@@ -8916,32 +9074,60 @@ function evaluateEvidenceRelationGate(args: {
     (sameOperation || sameClaimFamily) &&
     dimensions.length >= 5;
 
-  const contextEligible =
+  const boundaryContextEligible =
+    !evidenceEligible &&
+    sameDomain &&
+    sameArtifact &&
+    strongSubjectBound &&
+    boundaryLanguage &&
+    (sameOperation || sameClaimFamily);
+
+  const backgroundContextEligible =
+    !evidenceEligible &&
+    !boundaryContextEligible &&
     sameDomain &&
     subjectBound &&
     (sameArtifact || sameOperation || sameClaimFamily) &&
     dimensions.length >= 3;
 
+  const contextUse: EvidenceContextUse =
+    evidenceEligible
+      ? "EVIDENCE"
+      : boundaryContextEligible
+        ? "BOUNDARY_CONTEXT"
+        : backgroundContextEligible
+          ? "BACKGROUND_CONTEXT"
+          : "REJECT";
+
+  const decision: EvidenceRelationDecision =
+    contextUse === "EVIDENCE"
+      ? "EVIDENCE"
+      : contextUse === "REJECT"
+        ? "REJECT"
+        : "CONTEXT_ONLY";
+
   return {
     signalId: candidate.id,
-    decision: evidenceEligible
-      ? "EVIDENCE"
-      : contextEligible
-        ? "CONTEXT_ONLY"
-        : "REJECT",
+    decision,
+    contextUse,
     relationScore:
       (sameDomain ? 3 : 0) +
       (sameArtifact ? 2 : 0) +
       (sameOperation ? 2 : 0) +
       (sameClaimFamily ? 2 : 0) +
       (subjectBound ? 3 : 0) +
-      (requirementMatch ? 2 : 0),
+      (strongSubjectBound ? 2 : 0) +
+      (requirementMatch ? 2 : 0) +
+      (boundaryLanguage ? 1 : 0),
     matchedDimensions: dimensions,
-    rationale: evidenceEligible
-      ? "Candidate passes the Evidence Relation Gate: object family, subject, and claim-specific evidence burden are compatible."
-      : contextEligible
-        ? "Candidate is useful only as context. It is related but does not satisfy the full evidence-relation burden."
-        : "Candidate is rejected as evidence because broad semantic/domain similarity is insufficient.",
+    rationale:
+      contextUse === "EVIDENCE"
+        ? "Candidate passes the Evidence Relation Gate and may affect the claim-specific Evidence State."
+        : contextUse === "BOUNDARY_CONTEXT"
+          ? "Candidate is sufficiently object-, artifact-, and claim-bound to constrain the operating or interpretation boundary, but it does not satisfy the full evidence burden."
+          : contextUse === "BACKGROUND_CONTEXT"
+            ? "Candidate is explanatory background only. It may not satisfy a Goal, strengthen Evidence State, or appear as the Case boundary finding."
+            : "Candidate is rejected because broad semantic/domain similarity is insufficient for Case reasoning.",
   };
 }
 
@@ -9032,7 +9218,8 @@ function conductMultiPassInternalResearch(args: {
         if (!gate) return false;
         return evidenceRequired
           ? gate.decision === "EVIDENCE"
-          : gate.decision !== "REJECT";
+          : gate.contextUse === "EVIDENCE" ||
+              gate.contextUse === "BOUNDARY_CONTEXT";
       })
       .slice(0, limit)
       .map((item) => item.signal);
@@ -9082,8 +9269,8 @@ function conductMultiPassInternalResearch(args: {
     true,
   );
 
-  const result = extractResultBearingProposition(lead)?.proposition ||
-    recoverResultProposition(lead);
+  const sourceTruth = recoverArtifactSpecificSourceTruth(lead);
+  const result = sourceTruth.proposition;
 
   const passes: InternalResearchPass[] = [
     {
@@ -9092,8 +9279,8 @@ function conductMultiPassInternalResearch(args: {
       status: result ? "FOUND" : "LIMITED",
       signalIds: [lead.id],
       finding: result
-        ? `Primary proposition recovered: ${stripTerminalPunctuation(result)}.`
-        : "The primary signal remains usable, but the indexed summary does not expose a clean standalone result proposition.",
+        ? `Artifact-specific source proposition recovered (${sourceTruth.artifact}): ${stripTerminalPunctuation(result)}. ${sourceTruth.rationale}`
+        : "The primary signal remains usable, but the indexed representation does not expose a sufficiently source-bound proposition.",
     },
     {
       kind: "SUPPORT SEARCH",
@@ -9119,7 +9306,7 @@ function conductMultiPassInternalResearch(args: {
       status: boundarySignals.length > 0 ? "FOUND" : "LIMITED",
       signalIds: boundarySignals.map((signal) => signal.id),
       finding: boundarySignals.length > 0
-        ? `Boundary-bearing internal context found in: ${boundarySignals.map((signal) => `“${signal.title}”`).join("; ")}.`
+        ? `Qualified boundary context found in: ${boundarySignals.map((signal) => `“${signal.title}”`).join("; ")}.`
         : "No separate boundary-bearing signal passed the threshold; the answer must retain the primary contract's uncertainty boundary.",
     },
     {
@@ -9633,8 +9820,16 @@ function buildCaseGoalTree(args: {
       return "SATISFIED";
     }
 
-    // A CONTEXT_ONLY candidate may inform interpretation, but it cannot
-    // satisfy a Case Goal or advance the Completion Gate.
+    if (
+      kind === "BOUNDARY SEARCH" &&
+      result.signalIds.some(
+        (signalId) =>
+          relationForSignal(signalId)?.contextUse === "BOUNDARY_CONTEXT",
+      )
+    ) {
+      return "LIMITED";
+    }
+
     return "LIMITED";
   };
 
@@ -9688,6 +9883,7 @@ function buildCaseGoalTree(args: {
       signalIds: pass("OBJECT LOCK")?.signalIds ?? [],
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
     {
       id: `${rootId}-source`,
@@ -9705,6 +9901,7 @@ function buildCaseGoalTree(args: {
       signalIds: pass("SOURCE TRUTH")?.signalIds ?? [],
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
     {
       id: `${rootId}-contract`,
@@ -9725,6 +9922,7 @@ function buildCaseGoalTree(args: {
         pass("CLAIM DISCRIMINATION")?.signalIds ?? [],
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
     {
       id: `${rootId}-evidence`,
@@ -9740,6 +9938,7 @@ function buildCaseGoalTree(args: {
       signalIds: evidenceAudit.admittedSignalIds,
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
     {
       id: `${rootId}-counter`,
@@ -9761,6 +9960,7 @@ function buildCaseGoalTree(args: {
         [],
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
     {
       id: `${rootId}-boundary`,
@@ -9771,14 +9971,21 @@ function buildCaseGoalTree(args: {
         "Under what conditions does the result stop generalizing or become unsafe to transfer?",
       status: boundaryStatus,
       finding:
-        research("BOUNDARY SEARCH")?.finding ||
-        evidenceAudit.uncertainty,
+        research("BOUNDARY SEARCH")?.signalIds.some(
+          (signalId) =>
+            relationForSignal(signalId)?.contextUse === "BOUNDARY_CONTEXT" ||
+            relationForSignal(signalId)?.decision === "EVIDENCE",
+        )
+          ? research("BOUNDARY SEARCH")?.finding ||
+            evidenceAudit.uncertainty
+          : evidenceAudit.uncertainty,
       completionRule:
         "Only evidence-qualified boundary material may satisfy this Goal; context-only material may shape interpretation but cannot advance completion.",
       signalIds:
         research("BOUNDARY SEARCH")?.signalIds ?? [],
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
     {
       id: `${rootId}-test`,
@@ -9799,6 +10006,7 @@ function buildCaseGoalTree(args: {
         pass("REALITY TEST")?.signalIds ?? [],
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
     {
       id: `${rootId}-synthesis`,
@@ -9819,6 +10027,7 @@ function buildCaseGoalTree(args: {
       signalIds: evidenceAudit.admittedSignalIds,
       dependencyIds: [],
       blockedByIds: [],
+      limitedDependencyIds: [],
     },
   ];
 
@@ -9852,7 +10061,15 @@ function buildCaseGoalTree(args: {
 
     node.blockedByIds = node.dependencyIds.filter((dependencyId) => {
       const dependency = nodes.find((candidate) => candidate.id === dependencyId);
-      return dependency?.status !== "SATISFIED";
+      return (
+        dependency?.status === "BLOCKED" ||
+        dependency?.status === "PENDING"
+      );
+    });
+
+    node.limitedDependencyIds = node.dependencyIds.filter((dependencyId) => {
+      const dependency = nodes.find((candidate) => candidate.id === dependencyId);
+      return dependency?.status === "LIMITED";
     });
   }
 
@@ -9939,6 +10156,25 @@ function buildUnifiedEpistemicWorkState(args: {
   const nodes: EpistemicWorkNode[] = goalTree.nodes.map((goal) => {
     const evidenceDecision = relationForGoal(goal);
 
+    const contextUses = goal.signalIds
+      .map((signalId) =>
+        relationGates.find((gate) => gate.signalId === signalId)?.contextUse,
+      )
+      .filter((use): use is EvidenceContextUse => Boolean(use));
+
+    const contextUse: EvidenceContextUse | "PRIMARY" | "NONE" =
+      evidenceDecision === "PRIMARY"
+        ? "PRIMARY"
+        : contextUses.includes("EVIDENCE")
+          ? "EVIDENCE"
+          : contextUses.includes("BOUNDARY_CONTEXT")
+            ? "BOUNDARY_CONTEXT"
+            : contextUses.includes("BACKGROUND_CONTEXT")
+              ? "BACKGROUND_CONTEXT"
+              : contextUses.includes("REJECT")
+                ? "REJECT"
+                : "NONE";
+
     const state: EpistemicWorkNodeState =
       goal.status === "SATISFIED"
         ? "SATISFIED"
@@ -9956,15 +10192,23 @@ function buildUnifiedEpistemicWorkState(args: {
       state,
       dependencyIds: goal.dependencyIds,
       blockedByIds: goal.blockedByIds,
+      limitedDependencyIds: goal.limitedDependencyIds,
       evidenceDecision,
+      contextUse,
       rationale:
         state === "BLOCKED_BY_DEPENDENCY"
-          ? `Waiting on prerequisite Goal(s): ${goal.blockedByIds
+          ? `Waiting on blocked prerequisite Goal(s): ${goal.blockedByIds
               .map((id) => goalTree.nodes.find((node) => node.id === id)?.label || id)
               .join("; ")}.`
-          : evidenceDecision === "CONTEXT_ONLY"
-            ? "Context was found, but context-only material cannot complete epistemic work."
-            : goal.finding,
+          : goal.limitedDependencyIds.length > 0
+            ? `Work may continue under inherited uncertainty from: ${goal.limitedDependencyIds
+                .map((id) => goalTree.nodes.find((node) => node.id === id)?.label || id)
+                .join("; ")}. ${goal.finding}`
+            : contextUse === "BACKGROUND_CONTEXT"
+              ? "Background context was found, but it cannot complete or define the Case boundary."
+              : contextUse === "BOUNDARY_CONTEXT"
+                ? "Qualified boundary context may constrain interpretation but cannot strengthen the core Evidence State."
+                : goal.finding,
     };
   });
 
@@ -10556,7 +10800,7 @@ function runGoalDirectedIterativeWorkLoop(args: {
 
     const stopReason =
       noGainCount >= 2
-        ? "Two consecutive internal work cycles produced no epistemic gain."
+        ? "Two consecutive eligible work cycles produced no epistemic gain after subtask rotation."
         : becomesBlockedByMissingEvidence
           ? "The selected subtask requires evidence not available inside the current ArcheNova-indexed evidence set."
           : null;
@@ -10593,7 +10837,7 @@ function runGoalDirectedIterativeWorkLoop(args: {
       unresolved[unresolvedIndex] = {
         ...unresolved[unresolvedIndex],
         priority:
-          unresolved[unresolvedIndex].priority + 10,
+          unresolved[unresolvedIndex].priority + 100,
       };
     }
 
@@ -13349,7 +13593,11 @@ useEffect(() => {
                                     >
                                       <span>{node.kind.replaceAll("_", " ")}</span>
                                       <strong>{node.state.replaceAll("_", " ")}</strong>
-                                      <small>{node.evidenceDecision.replaceAll("_", " ")}</small>
+                                      <small>
+                                        {node.contextUse === "PRIMARY"
+                                          ? "PRIMARY"
+                                          : node.contextUse.replaceAll("_", " ")}
+                                      </small>
                                     </div>
                                   ))}
                                 </div>
@@ -13478,16 +13726,22 @@ useEffect(() => {
                                       {" evidence · "}
                                       {
                                         message.intelligence.astraCore.relationGates.filter(
-                                          (gate) => gate.decision === "CONTEXT_ONLY",
+                                          (gate) => gate.contextUse === "BOUNDARY_CONTEXT",
                                         ).length
                                       }
-                                      {" context"}
+                                      {" boundary · "}
+                                      {
+                                        message.intelligence.astraCore.relationGates.filter(
+                                          (gate) => gate.contextUse === "BACKGROUND_CONTEXT",
+                                        ).length
+                                      }
+                                      {" background"}
                                     </small>
                                   </div>
                                   <p>
-                                    Related does not mean evidential. Only candidates preserving
-                                    object family, subject relation, and the claim-specific evidence
-                                    burden may change the final Evidence State.
+                                    Related does not mean evidential. Evidence may change the
+                                    Evidence State; qualified boundary context may only constrain
+                                    interpretation; background context cannot satisfy a Goal.
                                   </p>
                                 </div>
                               )}
@@ -22356,6 +22610,16 @@ useEffect(() => {
             flex-direction: column;
             gap: 7px;
           }
+        }
+
+
+        /* Stage 6.9.5 · qualified context states */
+        .ep-unified-work-state__node small {
+          text-transform: uppercase;
+        }
+
+        .ep-unified-work-state__node.is-blocked-by-dependency {
+          border-style: dashed;
         }
 
       `}
