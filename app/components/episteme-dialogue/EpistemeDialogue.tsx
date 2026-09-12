@@ -386,6 +386,7 @@ type AdaptiveResponse = {
   visualGrammar: string;
   disclosureLevel: DisclosureLevel;
   plainText: string;
+  articleEssence?: ArticleEssence;
 };
 
 type IntelligenceObject = {
@@ -464,11 +465,11 @@ const MODES: readonly {
 const MODE_REASONING_STRATEGIES: Record<DialogueMode, ModeReasoningStrategy> = {
   ask: {
     mode: "ask",
-    intellectualTask: "Direct scholarly answer",
+    intellectualTask: "Article essence and scholarly synthesis",
     governingQuestion:
-      "What is the strongest answer justified by the current evidence, and where does that answer stop?",
-    sectionOrder: ["ABSTRACT", "ANALYSIS", "EVIDENCE", "BOUNDARY", "VERDICT", "NEXT"],
-    visualGrammar: "ABSTRACT → ANALYSIS → EVIDENCE BOUNDARY",
+      "What is the article actually saying, what is its deepest defensible significance, and which test separates that significance from overinterpretation?",
+    sectionOrder: ["THESIS", "ABSTRACT", "ANALYSIS", "IMPLICATION", "EVIDENCE", "BOUNDARY", "ALTERNATIVE", "VERDICT", "NEXT"],
+    visualGrammar: "SOURCE TRUTH → ESSENCE → CONSEQUENCE → EVIDENCE BOUNDARY → DECISIVE TEST",
   },
   explore: {
     mode: "explore",
@@ -2366,16 +2367,23 @@ function buildRelatedIntelligenceSignalIds(
 
       const totalOverlap = evidenceSubjectOverlap(lead, signal);
       const titleOverlap = evidenceTitleOverlap(lead, signal);
+      const leadProfile = lead ? inferObjectSemanticProfile(lead) : null;
+      const candidateProfile = inferObjectSemanticProfile(signal);
 
-      // A high-confidence context item must share the current epistemic object
-      // at title level and retain substantial subject overlap in the full
-      // signal. This excludes adjacent-domain items that merely share broad
-      // vocabulary while preserving genuinely comparable formalisms,
-      // competing explanations, or closely related validation targets.
+      const sameDomain =
+        !!leadProfile &&
+        leadProfile.domain !== "GENERAL" &&
+        leadProfile.domain === candidateProfile.domain;
+      const sameOperation =
+        !!leadProfile &&
+        leadProfile.operation !== "UNKNOWN" &&
+        leadProfile.operation === candidateProfile.operation;
+
+      // RELATED INTELLIGENCE must share an epistemic object family or a
+      // strongly overlapping subject. Broad domain vocabulary alone is not enough.
       return (
-        titleOverlap >= 1 &&
-        totalOverlap >= 4 &&
-        assessment.score >= 14
+        (titleOverlap >= 1 && totalOverlap >= 4 && assessment.score >= 14) ||
+        (sameDomain && sameOperation && totalOverlap >= 3 && assessment.score >= 16)
       );
     })
     .map((signal) => signal.id);
@@ -2976,6 +2984,7 @@ type EpistemicObjectState = "SIGNAL" | "USER_DEFINED_OBJECT" | "NONE";
 type ConversationIntent =
   | "SOCIAL"
   | "META"
+  | "ACTION_REQUEST"
   | "NEW_INQUIRY"
   | "SIGNAL_ANALYSIS"
   | "FOLLOW_UP"
@@ -3055,6 +3064,366 @@ function chooseSubstantiveSummarySentence(signal: SignalItem): string | null {
     .sort((a, b) => b.score - a.score);
 
   return scored[0] && scored[0].score > 0 ? scored[0].sentence : null;
+}
+
+
+type ObjectSemanticProfile = {
+  domain:
+    | "AI / SOFTWARE"
+    | "PHYSICAL / ENGINEERING"
+    | "BIOMEDICAL"
+    | "INSTITUTIONAL"
+    | "GENERAL";
+  operation:
+    | "CAPABILITY"
+    | "TRADE-OFF"
+    | "MECHANISM"
+    | "MEASUREMENT"
+    | "PREDICTION"
+    | "SYSTEM EFFECT"
+    | "UNKNOWN";
+  rationale: string;
+};
+
+type PropositionRole =
+  | "BACKGROUND"
+  | "RESULT"
+  | "MECHANISM"
+  | "COMPARISON"
+  | "LIMITATION"
+  | "IMPLICATION";
+
+type SemanticProposition = {
+  role: PropositionRole;
+  text: string;
+  function: PropositionFrame["function"];
+  score: number;
+  source: "SUMMARY";
+};
+
+type PropositionSet = {
+  background: SemanticProposition | null;
+  result: SemanticProposition | null;
+  mechanism: SemanticProposition | null;
+  comparison: SemanticProposition | null;
+  limitation: SemanticProposition | null;
+  implication: SemanticProposition | null;
+};
+type EssenceConfidence = "DIRECT" | "SUPPORTED INFERENCE" | "OPEN INTERPRETATION";
+type ArticleEssence = {
+  sourceTruth: string; centralThesis: string; whatChanged: string;
+  deeperPrinciple: string; consequence: string; evidenceBoundary: string;
+  decisiveTest: string; confidence: EssenceConfidence;
+};
+type AskDepth = "DIRECT" | "SCHOLARLY" | "DEEP";
+
+
+
+
+function inferObjectSemanticProfile(signal: SignalItem): ObjectSemanticProfile {
+  const corpus = normalize(`${signal.title} ${signal.summary}`);
+
+  if (
+    /\b(llm|language model|agent|software|algorithm|search|lora|diffusion model|fine tuning|benchmark|model|inference|tool|code|memory|preprocessing)\b/.test(corpus)
+  ) {
+    const operation =
+      /\b(trade off|trade offs|tradeoff|rank|quality|compute|cost|balance|accuracy.*cost|quality.*efficien)\b/.test(corpus)
+        ? "TRADE-OFF"
+        : /\b(enable|allows?|can |capability|perform|construct|build|preprocess|solve|accelerat|improv|reduce|reliab|resilien|adapt|self evolving|self-evolving|fine tun|optimi[sz]|curat|ground)\b/.test(corpus)
+          ? "CAPABILITY"
+          : /\b(measure|evaluate|benchmark|study|understand|characteri[sz])\b/.test(corpus)
+            ? "MEASUREMENT"
+            : "UNKNOWN";
+    return {
+      domain: "AI / SOFTWARE",
+      operation,
+      rationale:
+        "The object is an algorithmic, model, agent, or software system; engineering and evaluation semantics outrank incidental application-domain words.",
+    };
+  }
+
+  if (
+    /\b(device|nanostructure|resonance|circuit|material|fiber|optical|battery|reactor|hardware|sensor|fabricat)\b/.test(corpus)
+  ) {
+    return {
+      domain: "PHYSICAL / ENGINEERING",
+      operation: /\b(enable|control|achiev|perform|build|fabricat|operate)\b/.test(corpus)
+        ? "CAPABILITY"
+        : "MEASUREMENT",
+      rationale:
+        "The object is a physical or engineered system whose claim should be tied to measurable function and operating conditions.",
+    };
+  }
+
+  if (
+    /\b(patient|therapy|treatment|clinical trial|dose|drug efficacy|adverse event|survival|disease)\b/.test(corpus)
+  ) {
+    return {
+      domain: "BIOMEDICAL",
+      operation: /\b(treat|therapy|intervention|dose|endpoint)\b/.test(corpus)
+        ? "SYSTEM EFFECT"
+        : "MEASUREMENT",
+      rationale:
+        "The object is biomedical; clinical-intervention semantics require an actual intervention predicate, not merely clinical application vocabulary.",
+    };
+  }
+
+  if (
+    /\b(policy|law|regulation|governance|institution|agency|treaty|eligibility)\b/.test(corpus)
+  ) {
+    return {
+      domain: "INSTITUTIONAL",
+      operation: "SYSTEM EFFECT",
+      rationale:
+        "The object is institutional and should be evaluated through rules, actors, implementation, and outcomes.",
+    };
+  }
+
+  return {
+    domain: "GENERAL",
+    operation: "UNKNOWN",
+    rationale: "No stronger object-semantic family is supported by the available title and summary.",
+  };
+}
+
+function propositionFunctionFromSentence(
+  sentence: string,
+  objectProfile: ObjectSemanticProfile,
+): PropositionFrame["function"] {
+  const s = normalize(sentence);
+
+  if (
+    /\b(outperform|beats?|better than|worse than|trade off|trade offs|tradeoff|balance|relative to|compared with|versus)\b/.test(s)
+  ) {
+    return "COMPARISON";
+  }
+  if (
+    /\b(cause|causes|caused|drives?|activates?|inhibits?|mediates?|regulates?|triggers?|induces?|leads to)\b/.test(s)
+  ) {
+    return "MECHANISM";
+  }
+  if (
+    /\b(predict|forecast|expected|projected|will likely|likely to)\b/.test(s)
+  ) {
+    return "PREDICTION";
+  }
+  if (
+    /\b(enable|enables|allow|allows|can |achiev|perform|construct|build|solve|accelerat|improv|reduce|increase|preprocess|adapt|revise|recover|resilien)\b/.test(s) &&
+    (objectProfile.domain === "AI / SOFTWARE" ||
+      objectProfile.domain === "PHYSICAL / ENGINEERING")
+  ) {
+    return "CAPABILITY";
+  }
+  if (
+    /\b(found|finds|show|shows|showed|demonstrat|observed|measured|identified|revealed|reports?|results indicate|results show)\b/.test(s)
+  ) {
+    return "OBSERVATION";
+  }
+  return "UNKNOWN";
+}
+
+
+function propositionRoleFromSentence(
+  sentence: string,
+  objectProfile: ObjectSemanticProfile,
+): PropositionRole {
+  const s = normalize(sentence);
+
+  if (
+    /\b(limit(?:ation|ed)?|however|but |although|does not|do not|not establish|uncertain|remain(?:s)? unknown|future work|not yet|cannot|fails? to)\b/.test(s)
+  ) return "LIMITATION";
+
+  if (
+    /\b(therefore|thus|consequently|this suggests|this implies|could enable|may enable|opens?|points to|importance|significance)\b/.test(s)
+  ) return "IMPLICATION";
+
+  const fn = propositionFunctionFromSentence(sentence, objectProfile);
+  if (fn === "MECHANISM") return "MECHANISM";
+  if (fn === "COMPARISON") return "COMPARISON";
+  if (fn === "CAPABILITY" || fn === "OBSERVATION" || fn === "PREDICTION") return "RESULT";
+
+  if (
+    /\b(challenge|problem|background|traditionally|typically|currently|existing|before|requires?|baseline|known|motivated by)\b/.test(s)
+  ) return "BACKGROUND";
+
+  return "BACKGROUND";
+}
+
+function propositionRoleScore(
+  sentence: string,
+  role: PropositionRole,
+  index: number,
+): number {
+  const s = normalize(sentence);
+  let score = 0;
+
+  if (role === "RESULT") {
+    if (/\b(we |our |this work|this study|this paper|results?|evaluation|benchmark)\b/.test(s)) score += 4;
+    if (/\b(found|show|demonstrat|achiev|improv|reduce|outperform|enable|construct|accelerat|can )\b/.test(s)) score += 5;
+  } else if (role === "MECHANISM") {
+    if (/\b(because|via|through|mechanism|causes?|drives?|mediates?|activates?|inhibits?)\b/.test(s)) score += 5;
+  } else if (role === "COMPARISON") {
+    if (/\b(compared|versus|relative to|trade off|tradeoff|better|worse|higher|lower|outperform)\b/.test(s)) score += 5;
+  } else if (role === "LIMITATION") {
+    if (/\b(however|limitation|not yet|does not|cannot|uncertain|future work|remains?)\b/.test(s)) score += 5;
+  } else if (role === "IMPLICATION") {
+    if (/\b(therefore|thus|suggests?|implies?|could enable|may enable|opens?)\b/.test(s)) score += 5;
+  } else if (role === "BACKGROUND") {
+    if (/\b(challenge|problem|background|traditionally|typically|currently|existing|before|requires?|known)\b/.test(s)) score += 4;
+  }
+
+  score += Math.max(0, 2 - index * 0.15);
+  return score;
+}
+
+function extractPropositionSet(signal: SignalItem): PropositionSet {
+  const sentences = signalSentences(signal);
+  const profile = inferObjectSemanticProfile(signal);
+
+  const candidates: SemanticProposition[] = sentences.map((sentence, index) => {
+    const role = propositionRoleFromSentence(sentence, profile);
+    const fn = propositionFunctionFromSentence(sentence, profile);
+    return {
+      role,
+      text: stripTerminalPunctuation(sentence),
+      function: fn,
+      score: propositionRoleScore(sentence, role, index),
+      source: "SUMMARY",
+    };
+  });
+
+  const pick = (role: PropositionRole): SemanticProposition | null =>
+    candidates
+      .filter((item) => item.role === role)
+      .sort((a, b) => b.score - a.score)[0] ?? null;
+
+  let result = pick("RESULT");
+  const comparison = pick("COMPARISON");
+  const mechanism = pick("MECHANISM");
+
+  if (!result && comparison) result = comparison;
+  if (!result && mechanism) result = mechanism;
+
+  return {
+    background: pick("BACKGROUND"),
+    result,
+    mechanism,
+    comparison,
+    limitation: pick("LIMITATION"),
+    implication: pick("IMPLICATION"),
+  };
+}
+
+
+function inferAskDepth(query: string): AskDepth {
+  const q = normalize(query);
+  if (/\b(deep|in depth|in-depth|paper level|paper-level|scholarly|rigorous|comprehensive|本質|論文|詳しく|深く|徹底)\b/.test(q)) return "DEEP";
+  if (/\b(significance|why .* matters?|why this signal matters|explain|analy[sz]e|evaluate|意味|重要|意義|説明|分析)\b/.test(q)) return "SCHOLARLY";
+  return "DIRECT";
+}
+function essenceClause(value: string, fallback: string): string {
+  const c = stripTerminalPunctuation(value || "").trim();
+  return !c ? fallback : c.length > 520 ? `${c.slice(0,517).trim()}…` : c;
+}
+function essenceDomainPrinciple(signal: SignalItem, p: PropositionSet, profile: ObjectSemanticProfile): string {
+  const c=normalize(`${signal.title} ${signal.summary||""} ${p.result?.text||""} ${p.comparison?.text||""}`);
+  if(/\b(lora|low rank|low-rank|diffusion|fine tuning|fine-tuning|rank)\b/.test(c))
+    return "The deeper issue is not whether more adaptation capacity is always better, but whether a minimum sufficient rank exists on a quality–resource frontier. Useful adaptation must be separated from maximum rank, and any optimum remains conditional on model, data, objective, metric, and compute budget.";
+  if(/\b(task agnostic|task-agnostic|environment preprocessing|preprocessing|without a syllabus)\b/.test(c))
+    return "The deeper architectural shift is from task-conditioned preparation to environment-conditioned preparedness: reusable structure is built before the exact downstream task is known. If robust, repeated reactive search can partly be converted into reusable environmental structure.";
+  if(/\b(agent|agents|llm|language model|software|astra|devin|tool|toolchain|memory)\b/.test(c))
+    return profile.operation==="TRADE-OFF"
+      ? "The deeper principle is that agent capability belongs on a frontier rather than a single score: performance, cost, autonomy, intervention burden, failure propagation, and recoverability can move in different directions."
+      : "The deeper principle is that task completion and dependable system capability are different claims. Engineering significance begins when useful function remains reproducible across workload variation, dependency failure, intervention boundaries, and recovery.";
+  if(profile.domain==="PHYSICAL / ENGINEERING")
+    return "The deeper principle is to separate a demonstrated physical effect from a deployable engineering capability. Technological significance requires the governing effect to remain controllable across tolerances, perturbations, failure modes, and recovery.";
+  if(profile.domain==="BIOMEDICAL")
+    return "The deeper principle is to separate observation, mechanism, intervention, and outcome. Certainty cannot be inherited from one layer to the next without its own evidence.";
+  if(profile.domain==="INSTITUTIONAL")
+    return "The deeper principle is to distinguish an institutional action from its causal and system-level consequences. Significance depends on implementation, incentives, adaptation, and measurable downstream effects rather than announcement alone.";
+  if(p.comparison) return "The deeper principle is comparative rather than absolute: the important object is the trade-off surface and the conditions under which one configuration dominates another, not a context-free ranking.";
+  if(p.mechanism) return "The deeper principle is causal discrimination: the important advance is whether the proposed pathway uniquely explains the transition and survives a test against credible alternatives.";
+  return "The deeper principle is to identify the smallest substantive change the source actually supports, then determine which explanatory, predictive, technical, or decision baseline must change if that result survives independent testing.";
+}
+function essenceConsequence(signal: SignalItem,p: PropositionSet,profile: ObjectSemanticProfile): string {
+  if(p.implication?.text) return `The source points toward this implication: ${essenceClause(p.implication.text,"")}. That implication remains conditional until the underlying result survives the relevant validation burden.`;
+  if(profile.domain==="AI / SOFTWARE"&&profile.operation==="TRADE-OFF") return "If robust, configuration becomes an optimization problem rather than a monotonic scaling rule: select the minimum or most efficient configuration that preserves required quality under a defined resource budget. The practical object is the decision frontier, not a universal hyperparameter recommendation.";
+  if(profile.domain==="AI / SOFTWARE") return "If the result generalizes, evaluation can move from whether the method works once to where it works, its resource cost, intervention burden, failure propagation, and recoverability.";
+  if(profile.domain==="PHYSICAL / ENGINEERING") return "If reproducible, the next scientific question is whether the effect exposes a transferable control principle; the next engineering question is whether it survives tolerance, operating variation, scaling, and recovery.";
+  if(profile.domain==="BIOMEDICAL") return "If the result survives replication and alternatives, it can justify mechanism-specific validation or intervention testing; it does not by itself establish therapeutic benefit or safety.";
+  return "If the substantive result survives independent testing, its importance lies in changing the baseline used for the next explanation, prediction, design, or decision. Consequence should extend only as far as the source-supported proposition permits.";
+}
+function essenceBoundary(p: PropositionSet,audit: EvidenceAudit,ct: ClaimType): string {
+  const explicit=p.limitation?.text?`Source-stated limitation: ${essenceClause(p.limitation.text,"")}. `:"";
+  const family=ct==="ENGINEERING / CONSTRUCTIVE"?"A reported capability does not establish robustness across the operating envelope, failure containment, recovery, or independent reproducibility."
+    :ct==="CAUSAL / MECHANISTIC"?"A mechanistic interpretation requires discrimination against credible alternative pathways; association alone is insufficient."
+    :ct==="COMPARATIVE"?"A comparative advantage is conditional on common metrics, equalized resources, representative workloads, and the tested range; it is not a universal ranking."
+    :ct==="PREDICTIVE"?"A predictive relation remains conditional on prospective performance, calibration, distribution shift, and credible baselines."
+    :ct==="DESCRIPTIVE / EMPIRICAL"?"A reported observation does not by itself identify a unique mechanism or guarantee transfer across datasets, populations, instruments, or operating conditions."
+    :"The source supports only the proposition traceable to its evidence; stronger conclusions require separate validation.";
+  return `${explicit}${family} Current evidence state: ${audit.summary}`;
+}
+function essenceDecisiveTest(signal: SignalItem,p: PropositionSet,profile: ObjectSemanticProfile,ct: ClaimType): string {
+  const q=normalize(`${signal.title} ${p.result?.text||""} ${p.comparison?.text||""}`);
+  if(/\b(lora|low rank|low-rank|diffusion|fine tuning|fine-tuning|rank)\b/.test(q))
+    return "Measure task-relevant quality and compute or memory cost across a prespecified rank sweep, then repeat the frontier across base models, datasets, seeds, and evaluation metrics. The stronger conclusion survives only if the qualitative quality–cost relation and any claimed optimum remain stable.";
+  if(/\b(task agnostic|task-agnostic|environment preprocessing|preprocessing|without a syllabus)\b/.test(q))
+    return "Compare agents with and without task-agnostic preprocessing on unseen downstream tasks while equalizing total information access and compute. Measure success, cost, reuse, transfer, and failure under environment shift. The advantage should disappear if preprocessing merely moves cost earlier without creating reusable structure.";
+  if(profile.domain==="AI / SOFTWARE") return "Test the capability against a strong baseline under equal information and compute, then vary workload difficulty and dependency availability. Measure success, cost, intervention rate, error propagation, and recovery; narrow the claim if the gain disappears after equalization.";
+  if(ct==="CAUSAL / MECHANISTIC") return "Intervene on the proposed causal variable while controlling the strongest credible alternative, then test whether the predicted downstream change occurs.";
+  if(ct==="COMPARATIVE") return "Repeat the comparison under symmetric metrics, resource budgets, operating conditions, and representative cases; retain the conclusion only where the ordering remains stable.";
+  if(ct==="ENGINEERING / CONSTRUCTIVE") return "Prespecify the minimum required function, operating envelope, failure threshold, and recovery criterion; reproduce the function under stress and after forced failure without changing the tested architecture.";
+  return "Identify the directly measured quantity, reproduce it independently under a prespecified protocol, and include the strongest credible boundary condition or alternative interpretation.";
+}
+function buildArticleEssence(signal: SignalItem,ct: ClaimType,audit: EvidenceAudit): ArticleEssence {
+  const p=extractPropositionSet(signal), profile=inferObjectSemanticProfile(signal);
+  const sourceTruth=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||extractResultBearingProposition(signal)?.proposition||signal.summary||signal.title,signal.title);
+  const background=essenceClause(p.background?.text||"","The available source does not cleanly state a distinct prior baseline.");
+  const result=essenceClause(p.result?.text||p.comparison?.text||p.mechanism?.text||sourceTruth,sourceTruth);
+  return {
+    sourceTruth,
+    centralThesis: result===background?`The article matters because it makes this substantive proposition testable: ${result}.`:`The article's substantive contribution is the shift from this baseline — ${background} — to this reported proposition: ${result}.`,
+    whatChanged: result===background?"The available summary does not cleanly separate a prior baseline, so Episteme should not invent a before/after contrast.":`Before: ${background}. Reported change: ${result}. The significance depends on whether that change survives the claim-specific evidence contract.`,
+    deeperPrinciple:essenceDomainPrinciple(signal,p,profile),
+    consequence:essenceConsequence(signal,p,profile),
+    evidenceBoundary:essenceBoundary(p,audit,ct),
+    decisiveTest:essenceDecisiveTest(signal,p,profile,ct),
+    confidence:p.result||p.comparison||p.mechanism?"DIRECT":signal.summary?"SUPPORTED INFERENCE":"OPEN INTERPRETATION",
+  };
+}
+function composeScholarlyAskAnswer(e: ArticleEssence,d: AskDepth) {
+  if(d==="DEEP") return {directAnswer:`${e.centralThesis}\n\n${e.deeperPrinciple}`,reasoning:`WHAT CHANGED\n${e.whatChanged}\n\nWHY IT MATTERS\n${e.consequence}\n\nSOURCE / INTERPRETATION SEPARATION\nSource-supported proposition: ${e.sourceTruth}\nEpisteme interpretation: ${e.deeperPrinciple}\nInterpretive confidence: ${e.confidence}.`,boundary:e.evidenceBoundary,conclusion:`The unresolved point should be decided by a discriminating test rather than stronger prose: ${e.decisiveTest}`};
+  if(d==="SCHOLARLY") return {directAnswer:`${e.centralThesis}\n\n${e.deeperPrinciple}`,reasoning:`${e.whatChanged}\n\nWhy this matters: ${e.consequence}`,boundary:e.evidenceBoundary,conclusion:`Decisive test: ${e.decisiveTest}`};
+  return {directAnswer:`${e.centralThesis} ${e.deeperPrinciple}`,reasoning:`${e.whatChanged} ${e.consequence}`,boundary:e.evidenceBoundary,conclusion:`Decisive test: ${e.decisiveTest}`};
+}
+function extractResultBearingProposition(
+  signal: SignalItem,
+): PropositionFrame | null {
+  const propositions = extractPropositionSet(signal);
+  const selected =
+    propositions.result ||
+    propositions.comparison ||
+    propositions.mechanism;
+
+  if (!selected || selected.score < 3) return null;
+
+  return {
+    subject: selected.text,
+    predicate:
+      selected.function === "CAPABILITY"
+        ? "reports a functional capability"
+        : selected.function === "COMPARISON"
+          ? "reports a comparative or trade-off relation"
+          : selected.function === "MECHANISM"
+            ? "reports a mechanistic relation"
+            : selected.function === "PREDICTION"
+              ? "reports a predictive relation"
+              : "reports an observation",
+    object: selected.text,
+    proposition: selected.text,
+    source: "SUMMARY",
+    function: selected.function === "UNKNOWN" ? "OBSERVATION" : selected.function,
+  };
 }
 
 function extractCoreProposition(signal: SignalItem): PropositionFrame {
@@ -3249,6 +3618,11 @@ function extractCoreProposition(signal: SignalItem): PropositionFrame {
     }
   }
 
+  const summaryProposition = extractResultBearingProposition(signal);
+  if (summaryProposition) {
+    return summaryProposition;
+  }
+
   return {
     subject: stripTerminalPunctuation(title),
     predicate: "unresolved",
@@ -3272,6 +3646,7 @@ function inferPredicateSemanticProfile(
 ): PredicateSemanticProfile {
   const title = normalize(signal.title);
   const proposition = extractCoreProposition(signal);
+  const objectProfile = inferObjectSemanticProfile(signal);
 
   if (
     eventType === "REGULATORY DECISION" ||
@@ -3323,6 +3698,18 @@ function inferPredicateSemanticProfile(
       predicate: proposition.proposition,
       rationale:
         "The governed predicate is prospective. Domain vocabulary does not override predictive claim function.",
+    };
+  }
+
+  if (
+    proposition.function === "COMPARISON" &&
+    objectProfile.domain === "AI / SOFTWARE"
+  ) {
+    return {
+      claimType: "COMPARATIVE",
+      predicate: proposition.proposition,
+      rationale:
+        "The substantive proposition expresses an algorithmic or model trade-off/comparison. The claim is comparative even when the title is framed as 'Understanding' rather than as an explicit result sentence.",
     };
   }
 
@@ -3476,6 +3863,8 @@ function decomposeSignalRoles(
   const first = stripTerminalPunctuation(sentences[0] ?? signal.summary ?? signal.title);
   const title = stripTerminalPunctuation(signal.title);
   const proposition = extractCoreProposition(signal);
+  const propositionSet = extractPropositionSet(signal);
+  const resultBearingProposition = extractResultBearingProposition(signal);
   const headlineDiscourse = classifyHeadlineDiscourse(signal);
 
   if (headlineDiscourse === "EDITORIAL / ROUNDUP CONTAINER") {
@@ -3604,26 +3993,32 @@ function decomposeSignalRoles(
     };
   }
 
-  const baseline =
-    chooseRoleSentence(sentences, [
-      /\b(normally|previously|traditionally|existing|current|baseline|known|established|has been|is normally|is typically)\b/i,
-      /\b(is a|are a|occurs|caused by|originated|background|context)\b/i,
-    ]) || first || title;
+  const preferredResult =
+    propositionSet.result?.text ||
+    resultBearingProposition?.proposition ||
+    (proposition.source === "SUMMARY" && proposition.function !== "UNKNOWN"
+      ? proposition.proposition
+      : "");
 
-  const result =
+  const baseline =
+    propositionSet.background?.text ||
     chooseRoleSentence(
       sentences,
       [
-        /\b(we (?:find|found|show|report|demonstrate|discover|derive|observe)|researchers? (?:found|showed|reported|discovered)|scientists? (?:found|discovered|showed)|results? (?:show|indicate|suggest)|analysis (?:shows|finds)|study (?:finds|shows|reports)|reveals?|identified|detected)\b/i,
-        /\b(genetic|genomic|ancestry|measur|forecast|prediction|reduced|increased|improved|associated|linked)\b/i,
+        /\b(normally|previously|traditionally|existing|current|baseline|known|established|has been|is normally|is typically)\b/i,
+        /\b(challenge|problem|motivation|background|context|requires|before)\b/i,
       ],
-      [baseline],
+      preferredResult ? [preferredResult] : [],
     ) ||
+    "The available summary does not state a distinct established baseline.";
+
+  const result =
+    preferredResult ||
     (proposition.function !== "UNKNOWN" ? proposition.proposition : "") ||
-    (title !== baseline ? title : "") ||
-    "The available signal does not clearly separate a reported result from its background context.";
+    "The available signal defines a research object or method but does not state a distinct result-bearing proposition.";
 
   const implication =
+    propositionSet.implication?.text ||
     chooseRoleSentence(
       sentences,
       [/\b(could|may|might|therefore|suggests?|could help|may help|implication)\b/i],
@@ -3631,15 +4026,21 @@ function decomposeSignalRoles(
     ) ||
     "If valid, the core claim changes the relevant explanatory, predictive, technical, clinical, institutional, or decision baseline only within the evidence boundary actually supported.";
 
+  const nonImplication =
+    propositionSet.limitation?.text ||
+    "The signal does not establish stronger causal, predictive, engineering, clinical, or institutional conclusions than its evidence contract supports.";
+
   return {
-    coreClaim: proposition.function !== "UNKNOWN" ? proposition.proposition : title,
+    coreClaim:
+      propositionSet.result?.text ||
+      resultBearingProposition?.proposition ||
+      (proposition.function !== "UNKNOWN" ? proposition.proposition : title),
     baseline: stripTerminalPunctuation(baseline),
     reportedResult: stripTerminalPunctuation(
       proposition.function === "EXTREMAL / BOUND" ? proposition.proposition : result
     ),
     implication: stripTerminalPunctuation(implication),
-    nonImplication:
-      "The signal does not establish stronger causal, predictive, engineering, clinical, or institutional conclusions than its evidence contract supports.",
+    nonImplication: stripTerminalPunctuation(nonImplication),
   };
 }
 
@@ -4615,6 +5016,77 @@ function objectSpecificIndependentTest(node: ClaimNode): string[] {
   ];
 }
 
+
+function objectFamilyMeasurementCandidates(
+  nodeText: string,
+  claimType: ClaimType,
+): string[] {
+  const q = normalize(nodeText);
+
+  if (/\b(lora|diffusion|fine tuning|fine-tuning|rank)\b/.test(q)) {
+    return [
+      "task-relevant quality at fixed LoRA rank",
+      "training/inference compute or memory cost",
+      "the quality–cost frontier across ranks",
+      "robustness of that frontier across datasets, seeds, and base models",
+    ];
+  }
+
+  if (/\b(agent|llm|software|astra|devin|preprocessing|memory|search|algorithm)\b/.test(q)) {
+    return [
+      "task success under a prespecified workload",
+      "latency, compute cost, or tool-use overhead",
+      "error propagation and human-intervention rate",
+      "recovery or rollback success under controlled failure",
+    ];
+  }
+
+  if (claimType === "ENGINEERING / CONSTRUCTIVE") {
+    return [
+      "functional performance tied directly to the claimed capability",
+      "performance across the stated operating envelope",
+      "failure threshold and recovery performance",
+    ];
+  }
+
+  return [
+    "the directly measured outcome named by the substantive proposition",
+    "its uncertainty or variability",
+    "the same quantity under an independent observation or replication",
+  ];
+}
+
+function objectFamilyBoundaryCandidates(nodeText: string): string[] {
+  const q = normalize(nodeText);
+
+  if (/\b(lora|diffusion|fine tuning|fine-tuning|rank)\b/.test(q)) {
+    return [
+      "base-model choice",
+      "dataset or domain shift",
+      "evaluation metric",
+      "random seed and training budget",
+      "whether the apparent optimum moves when quality and compute are normalized symmetrically",
+    ];
+  }
+
+  if (/\b(agent|llm|software|astra|devin|preprocessing|memory|search|algorithm)\b/.test(q)) {
+    return [
+      "task distribution and difficulty",
+      "tool availability and dependency failures",
+      "context length or state corruption",
+      "human-intervention policy",
+      "whether gains persist under equal compute and equal information access",
+    ];
+  }
+
+  return [
+    "sampling or population definition",
+    "measurement threshold",
+    "analysis/model specification",
+    "the strongest credible alternative interpretation",
+  ];
+}
+
 function synthesizeClaimGraphFollowUp(
   query: string,
   claimIdentity: EpistemicClaimIdentity,
@@ -4677,12 +5149,21 @@ function synthesizeClaimGraphFollowUp(
     /\b(failure mode|forced failure|force.*failure|fail before scaling|failure.*before scaling)\b/.test(q) &&
     node.claimType === "ENGINEERING / CONSTRUCTIVE"
   ) {
+    const isSoftwareAgent =
+      /\b(ai|agent|llm|language model|software|algorithm|gpt|astra|devin|model|tool|code|memory|search|preprocessing)\b/i.test(node.text);
+    const isIndependentPhysicalControl =
+      /\b(resonance|nanostructure|mode|cross coupling|independent control|optical|circuit|device)\b/i.test(node.text);
+
     return {
       demand,
       directAnswer:
-        `For the active engineering subclaim “${node.text}”, force the failure mode most likely to break the claimed controllability while remaining safely testable: perturb the control input or operating condition that is supposed to leave the other controlled output invariant, then measure cross-coupling, loss, drift, hysteresis, and whether control can be restored. Scaling should stop if independence collapses or recovery requires replacing the tested architecture.${dependency}`,
+        isSoftwareAgent
+          ? `For the active engineering subclaim “${node.text}”, force a software/agent failure that attacks end-to-end reliability rather than a physical-control surrogate: inject a tool or dependency outage, stale or contradictory context, partial state corruption, ambiguous instruction, permission failure, or rollback requirement. Measure unsafe-action rate, error propagation, task-state integrity, human intervention, rollback success, and recovery latency. Scaling should stop if the agent cannot contain the failure and return to a known valid state without hidden manual substitution.${dependency}`
+          : isIndependentPhysicalControl
+            ? `For the active engineering subclaim “${node.text}”, perturb one controlled input and measure cross-coupling, drift, loss, hysteresis, and recoverability of the supposedly independent output. Scaling should stop if independence collapses or recovery requires changing the tested architecture.${dependency}`
+            : `For the active engineering subclaim “${node.text}”, force the most credible object-specific stressor at the boundary of the claimed operating envelope. Measure functional loss, failure propagation, containment, recovery, and residual error. Scaling should stop if the required function cannot be restored within the prespecified boundary.${dependency}`,
       reasoning:
-        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nThe forced failure must attack the capability predicate itself, not replay a generic engineering checklist.`,
+        `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nClaim type: ${node.claimType}\n\nFailure semantics are selected from the object family. Software/agent systems must not inherit cross-coupling or hysteresis templates from physical-control systems.`,
     };
   }
 
@@ -4716,7 +5197,7 @@ function synthesizeClaimGraphFollowUp(
 
 
   if (/\b(boundary condition|analysis choice|erase the effect|weaken the claim)\b/.test(q)) {
-    const candidates = objectSpecificBoundaryCandidates(node);
+    const candidates = objectFamilyBoundaryCandidates(node.text);
     return {
       demand,
       directAnswer:
@@ -4728,11 +5209,11 @@ function synthesizeClaimGraphFollowUp(
 
 
   if (/\b(measured quantity|measurement|what.*measure|which.*quantity)\b/.test(q)) {
-    const candidates = objectSpecificMeasurementCandidates(node);
+    const candidates = objectFamilyMeasurementCandidates(node.text, node.claimType);
     return {
       demand,
       directAnswer:
-        `The active subclaim is “${node.text}” (${nodeLabel}). The most direct evidence should therefore be claim-specific rather than inherited from the whole headline: ${candidates.join("; ")}.${dependency}`,
+        `For the active subclaim “${node.text}”, the most informative measurements are: ${candidates.join("; ")}. The measurement should attach to the substantive predicate, not merely to the article title or broader topic.${dependency}`,
       reasoning:
         `Claim graph: ${graph.summary}\n\nSelected subclaim: ${node.text}\nRelation: ${node.relation}\nClaim type: ${node.claimType}\nEvidence needed: ${node.evidenceNeeded.join("; ")}\n\nCurrent source boundary: ${audit.summary}`,
     };
@@ -5168,9 +5649,17 @@ function buildSignalInterpretation(
     sentences.find((sentence) => sentence !== baselineSentence) ??
     first;
 
-  const baseline = claimIdentity?.baseline || stripTerminalPunctuation(baselineSentence);
+  let baseline = claimIdentity?.baseline || stripTerminalPunctuation(baselineSentence);
   const reportedChange =
     claimIdentity?.reportedResult || stripTerminalPunctuation(changeSentence);
+
+  if (normalize(baseline) === normalize(reportedChange)) {
+    baseline =
+      sentences
+        .map(stripTerminalPunctuation)
+        .find((sentence) => normalize(sentence) !== normalize(reportedChange)) ||
+      "The available summary does not state a distinct established baseline.";
+  }
   const formalBasis = extractFormalBasis(reportedChange);
 
   let noveltyText = `The reported novelty is the change from the established baseline—${baseline}—to the reported result: ${reportedChange}.`;
@@ -5364,17 +5853,33 @@ function classifyConversationIntent(
 ): ConversationIntent {
   const raw = query.trim();
   const q = normalize(raw);
+  const compactRaw = raw
+    .replace(/[！!。．.?？…〜~]+$/g, "")
+    .trim();
 
-  if (
-    /^(hi|hello|hey|good morning|good afternoon|good evening|good night|goodnight|thanks|thank you|bye|goodbye)[.!?]*$/i.test(raw)
-  ) {
+  const socialEnglish =
+    /^(hi|hello|hey|hiya|yo|good morning|good afternoon|good evening|good night|goodnight|how are you|how are you doing|nice to meet you|nice to me to|nice meeting you|thanks|thank you|thx|bye|goodbye|see you|see ya)$/i;
+  const socialJapanese =
+    /^(やっほー|やっほ|こんにちは|こんばんは|おはよう|おはようございます|おやすみ|おやすみなさい|元気|元気ですか|調子どう|ありがとう|ありがとうございます|どうも|またね|じゃあね|ばいばい|おつかれ|お疲れ|お疲れさま|お疲れ様)$/;
+
+  if (socialEnglish.test(compactRaw) || socialJapanese.test(compactRaw)) {
     return "SOCIAL";
   }
 
   if (
-    /\b(what can you do|who are you|what are you|how does episteme work|help me use|how should i use)\b/i.test(q)
+    /\b(what can you do|who are you|what are you|how does episteme work|help me use|how should i use)\b/i.test(q) ||
+    /^(何ができる|何者|使い方|どう使う|epistemeとは)/.test(compactRaw.toLowerCase())
   ) {
     return "META";
+  }
+
+  // These are operations without an epistemic object. They must not be
+  // reinterpreted as retrieval queries.
+  if (
+    /^(analy[sz]e a specific scientific result|examine a technology or mechanism|compare two explicitly named systems|analy[sz]e a paper|analy[sz]e a signal|examine a mechanism)$/i.test(compactRaw) ||
+    /^(科学的結果を分析|技術やメカニズムを検討|二つのシステムを比較|論文を分析|シグナルを分析)$/.test(compactRaw)
+  ) {
+    return "ACTION_REQUEST";
   }
 
   if (
@@ -5407,11 +5912,40 @@ function latestEpistemicObjectState(
 }
 
 function socialReply(query: string): string {
-  const q = normalize(query);
+  const raw = query.trim();
+  const q = normalize(raw);
+
+  if (/^(おやすみ|おやすみなさい)/.test(raw)) return "おやすみなさい。";
+  if (/^(ありがとう|ありがとうございます|どうも)/.test(raw)) return "どういたしまして。";
+  if (/^(またね|じゃあね|ばいばい)/.test(raw)) return "またね。";
+  if (/^(やっほー|やっほ|こんにちは|こんばんは|おはよう)/.test(raw)) {
+    return "こんにちは。何を一緒に検討しましょうか？";
+  }
+  if (/^(元気|元気ですか|調子どう)/.test(raw)) {
+    return "元気です。今日は何を検討しましょうか？";
+  }
+
   if (/^(good night|goodnight)\b/.test(q)) return "Good night.";
-  if (/^(thanks|thank you)\b/.test(q)) return "You're welcome.";
-  if (/^(bye|goodbye)\b/.test(q)) return "Goodbye.";
+  if (/^(thanks|thank you|thx)\b/.test(q)) return "You're welcome.";
+  if (/^(bye|goodbye|see you|see ya)\b/.test(q)) return "Goodbye.";
+  if (/^(how are you|how are you doing)\b/.test(q)) {
+    return "I'm doing well. What would you like to examine?";
+  }
+  if (/^(nice to meet you|nice to me to|nice meeting you)\b/.test(q)) {
+    return "Nice to meet you too. What would you like to examine?";
+  }
   return "Hello. What would you like to examine?";
+}
+
+function actionRequestReply(query: string): string {
+  const raw = query.trim();
+  if (/compare|比較/i.test(raw)) {
+    return "Name the two systems, methods, claims, or signals you want compared. I will hold them to the same criteria rather than selecting a comparator arbitrarily.";
+  }
+  if (/technology|mechanism|技術|メカニズム/i.test(raw)) {
+    return "Name the technology or mechanism you want to examine, or paste a signal or source. I will not choose an unrelated indexed object on your behalf.";
+  }
+  return "Name or paste the specific scientific result, paper, signal, or claim you want analyzed. I will keep the object explicit rather than retrieving an arbitrary substitute.";
 }
 
 function hasPriorAssistantTurn(previousMessages: DialogueMessage[]): boolean {
@@ -5627,14 +6161,18 @@ function resolveEpistemicObject(
   const conversationIntent = classifyConversationIntent(query, previousMessages);
   const latestState = latestEpistemicObjectState(previousMessages);
 
-  if (conversationIntent === "SOCIAL" || conversationIntent === "META") {
+  if (
+    conversationIntent === "SOCIAL" ||
+    conversationIntent === "META" ||
+    conversationIntent === "ACTION_REQUEST"
+  ) {
     return {
       primarySignal: null,
       isFollowUp: false,
       anchoredFromConversation: false,
       objectState: "NONE",
       retrievalAccepted: false,
-      retrievalRationale: "Conversational input bypasses epistemic retrieval.",
+      retrievalRationale: "Conversational or object-free action input bypasses epistemic retrieval.",
     };
   }
 
@@ -6066,6 +6604,7 @@ function createScholarlySection(
 
 function buildAdaptiveScholarlyResponse(args: {
   mode: DialogueMode;
+  query: string;
   directAnswer: string;
   reasoning: string;
   alternative: string;
@@ -6086,6 +6625,7 @@ function buildAdaptiveScholarlyResponse(args: {
 }): AdaptiveResponse {
   const {
     mode,
+    query,
     directAnswer,
     reasoning,
     alternative,
@@ -6106,6 +6646,10 @@ function buildAdaptiveScholarlyResponse(args: {
   } = args;
 
   const strategy = MODE_REASONING_STRATEGIES[mode];
+  const articleEssence = mode === "ask" && objectState !== "NONE" && lead
+    ? buildArticleEssence(lead, epistemicParse.claimType, evidenceAudit) : undefined;
+  const askSynthesis = articleEssence
+    ? composeScholarlyAskAnswer(articleEssence, inferAskDepth(query)) : undefined;
   const claimLabel =
     claimIdentity?.coreClaim ||
     lead?.title ||
@@ -6130,12 +6674,16 @@ function buildAdaptiveScholarlyResponse(args: {
     if (section) sections.push(section);
   };
 
-  if (conversationIntent === "SOCIAL") {
+  if (
+    conversationIntent === "SOCIAL" ||
+    conversationIntent === "ACTION_REQUEST"
+  ) {
     const compact = cleanScholarlyBody(directAnswer);
     return {
       mode,
       modeLabel: mode.toUpperCase(),
-      intellectualTask: "Conversation",
+      intellectualTask:
+        conversationIntent === "ACTION_REQUEST" ? "Object selection" : "Conversation",
       governingQuestion: "",
       thesis: compact,
       abstract: compact,
@@ -6174,51 +6722,17 @@ function buildAdaptiveScholarlyResponse(args: {
       ),
     );
   } else if (mode === "ask") {
-    push(createScholarlySection("ABSTRACT", "Answer", directAnswer, "PRIMARY"));
-    push(
-      createScholarlySection(
-        "ANALYSIS",
-        "Analysis",
-        reasoning,
-        "PRIMARY",
-      ),
-    );
-    push(
-      createScholarlySection(
-        "EVIDENCE",
-        "Evidence state",
-        evidenceAudit.summary,
-      ),
-    );
-    push(
-      createScholarlySection(
-        "BOUNDARY",
-        "Evidence boundary",
-        uncertainty,
-        "CAUTION",
-      ),
-    );
-    if (
-      alternative &&
-      epistemicParse.claimType !== "UNKNOWN" &&
-      epistemicParse.claimType !== "INFORMATIONAL / OPERATIONAL"
-    ) {
-      push(
-        createScholarlySection(
-          "ALTERNATIVE",
-          "Competing interpretation",
-          alternative,
-        ),
-      );
-    }
-    push(
-      createScholarlySection(
-        "VERDICT",
-        "Scholarly conclusion",
-        `${inquiry.demonstratedResult.summary} ${nextAction}`,
-        "PRIMARY",
-      ),
-    );
+    const askAnswer=askSynthesis?.directAnswer||directAnswer;
+    const askReasoning=askSynthesis?.reasoning||reasoning;
+    const boundaryBody=askSynthesis?.boundary||(evidenceAudit.overallStrength==="INSUFFICIENT"?`${evidenceAudit.summary} ${uncertainty}`:uncertainty);
+    const verdictBody=askSynthesis?.conclusion||`${inquiry.demonstratedResult.summary} ${nextAction}`.trim();
+    push(createScholarlySection("THESIS",articleEssence?"Central thesis":"Answer",askAnswer,"PRIMARY"));
+    push(createScholarlySection("ANALYSIS",articleEssence?"Article essence":"Analysis",askReasoning,"PRIMARY"));
+    push(createScholarlySection("BOUNDARY","Evidence boundary",boundaryBody,"CAUTION"));
+    if(alternative&&epistemicParse.claimType!=="UNKNOWN"&&epistemicParse.claimType!=="INFORMATIONAL / OPERATIONAL"&&inferAskDepth(query)==="DEEP")
+      push(createScholarlySection("ALTERNATIVE","Strongest competing interpretation",alternative));
+    if(verdictBody&&cleanScholarlyBody(verdictBody)!==cleanScholarlyBody(boundaryBody))
+      push(createScholarlySection("VERDICT",articleEssence?"Decisive test":"Conclusion",verdictBody,"PRIMARY"));
   } else if (mode === "explore") {
     push(
       createScholarlySection(
@@ -6434,7 +6948,9 @@ function buildAdaptiveScholarlyResponse(args: {
     );
 
   const abstract =
+    articleEssence?.sourceTruth ||
     orderedSections.find((section) => section.kind === "ABSTRACT")?.body ||
+    askSynthesis?.directAnswer ||
     thesis;
 
   const plainText = [
@@ -6452,7 +6968,7 @@ function buildAdaptiveScholarlyResponse(args: {
     modeLabel: mode.toUpperCase(),
     intellectualTask: strategy.intellectualTask,
     governingQuestion: strategy.governingQuestion,
-    thesis,
+    thesis: askSynthesis?.directAnswer || thesis,
     abstract,
     sections: orderedSections,
     claimType: epistemicParse.claimType,
@@ -6460,8 +6976,9 @@ function buildAdaptiveScholarlyResponse(args: {
     objectState,
     visualGrammar: strategy.visualGrammar,
     disclosureLevel:
-      objectState === "NONE" ? "STANDARD" : mode === "ask" ? "STANDARD" : "FULL",
+      objectState === "NONE" ? "STANDARD" : mode === "ask" && inferAskDepth(query) === "DEEP" ? "FULL" : mode === "ask" ? "STANDARD" : "FULL",
     plainText,
+    articleEssence,
   };
 }
 
@@ -6573,6 +7090,16 @@ function buildIntelligence(
       challenge = "";
       falsification = "";
       nextAction = "";
+      uncertainty = "";
+      nextQuestions = [];
+    } else if (conversationIntent === "ACTION_REQUEST") {
+      directAnswer = actionRequestReply(query);
+      reasoning =
+        "The requested operation is clear, but the epistemic object is not. Selecting an arbitrary indexed signal would convert an action request into an unsupported object choice.";
+      alternative = "";
+      challenge = "";
+      falsification = "";
+      nextAction = "Name or paste the object to continue.";
       uncertainty = "";
       nextQuestions = [];
     } else if (
@@ -6883,6 +7410,7 @@ function buildIntelligence(
 
   const adaptiveResponse = buildAdaptiveScholarlyResponse({
     mode,
+    query,
     directAnswer: `${modePrefix}${directAnswer}`.trim(),
     reasoning,
     alternative,
