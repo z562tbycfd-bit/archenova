@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-13T04:10:16.747Z",
+  "updated": "2026-09-13T10:02:45.665Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ancient armored fish evolved two distinct ways to crush prey 385 million years ago",
+      "url": "https://phys.org/news/2026-09-ancient-armored-fish-evolved-distinct.html",
+      "summary": "Long before dinosaurs appeared on Earth, fierce predatory fish developed crushing jaws and sharp teeth to survive and diversify in ancient oceans.",
+      "ts": 1789287224000,
+      "publishedAt": "2026-09-13T08:13:44.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI could make holiday planning easier for overwhelmed travelers",
@@ -791,14 +799,6 @@
       "title": "AcFlow: Controlling Text-to-Image Diffusion Transformers via Learned Conditional Activation Flow",
       "url": "https://arxiv.org/abs/2609.10723",
       "summary": "arXiv:2609.10723v1 Announce Type: cross Abstract: Text-to-image diffusion transformers (DiTs) are powerful generators, yet direct prompting provides limited control interface for style intensity and can fail to suppress …",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The Truth Was Never Gone: Perfect Aliasing in Compliant-Context Truth Probes",
-      "url": "https://arxiv.org/abs/2609.10739",
-      "summary": "arXiv:2609.10739v1 Announce Type: cross Abstract: A truth probe fitted where truthful reporting and a task's prescribed action coincide cannot distinguish those targets from its fitting labels alone. We call this failure…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
