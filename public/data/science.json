@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-13T14:50:08.296Z",
+  "updated": "2026-09-13T17:58:47.070Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Luminescence dating pushes age of South Dakota's Mammoth Site back by more than 100,000 years",
+      "url": "https://phys.org/news/2026-09-luminescence-dating-age-south-dakota.html",
+      "summary": "Deep within an ancient sinkhole lie the remains of dozens of mammoths, prehistoric wanderers who waded into the warm springs to their deaths. These deaths had long been accepted as having occurred roughly 26,000 years ag…",
+      "ts": 1789317602000,
+      "publishedAt": "2026-09-13T16:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The tourism industry is slowly waking up to solo travelers' needs",
+      "url": "https://phys.org/news/2026-09-tourism-industry-slowly-solo.html",
+      "summary": "Solo travel is surging—and an industry still largely built for two is taking note. Google reported in April 2026 that online searches involving \"solo travel\" hit an all-time high this year, with queries for \"women solo t…",
+      "ts": 1789315201000,
+      "publishedAt": "2026-09-13T16:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Gravitational-wave analysis narrows the search for black hole impostors",
@@ -783,22 +799,6 @@
       "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
       "url": "https://arxiv.org/abs/2609.11900",
       "summary": "arXiv:2609.11900v1 Announce Type: new Abstract: Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deforma…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-      "url": "https://arxiv.org/abs/2609.11911",
-      "summary": "arXiv:2609.11911v1 Announce Type: new Abstract: Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a c…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
-      "url": "https://arxiv.org/abs/2609.11916",
-      "summary": "arXiv:2609.11916v1 Announce Type: new Abstract: Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale o…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
