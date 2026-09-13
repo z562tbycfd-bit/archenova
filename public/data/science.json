@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-09-13T10:02:45.665Z",
+  "updated": "2026-09-13T14:50:08.296Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Gravitational-wave analysis narrows the search for black hole impostors",
+      "url": "https://phys.org/news/2026-09-gravitational-analysis-narrows-black-hole.html",
+      "summary": "Black holes are regions of spacetime where gravity is so strong that nothing, not even light, can escape. When two black holes orbit each other and merge, they produce gravitational waves (i.e., ripples in spacetime) tha…",
+      "ts": 1789310401000,
+      "publishedAt": "2026-09-13T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fish may be highly sensitive to antidepressants found in water",
+      "url": "https://phys.org/news/2026-09-fish-highly-sensitive-antidepressants.html",
+      "summary": "Many of the drugs that target human brain chemistry, such as antidepressants, are still biologically active when they leave the body. These substances and their metabolites can persist in wastewater and eventually end up…",
+      "ts": 1789309802000,
+      "publishedAt": "2026-09-13T14:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cataract surgery will be needed in space, surgeon predicts",
+      "url": "https://phys.org/news/2026-09-cataract-surgery-space-surgeon.html",
+      "summary": "An eye surgeon with a passion for space since childhood predicts that as astronauts start to make journeys to the moon and Mars in the near future, eye surgery in space will eventually become a necessity.",
+      "ts": 1789305601000,
+      "publishedAt": "2026-09-13T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 1,000-fold longer charge lifetime helps organic catalyst produce solar hydrogen faster",
+      "url": "https://phys.org/news/2026-09-longer-lifetime-catalyst-solar-hydrogen.html",
+      "summary": "Researchers from the Ningbo Institute of Materials Technology and Engineering (NIMTE) of the Chinese Academy of Sciences (CAS), in collaboration with researchers from the Technical Institute of Physics and Chemistry of C…",
+      "ts": 1789304408000,
+      "publishedAt": "2026-09-13T13:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's next great observatory could spot oceans on distant worlds",
+      "url": "https://phys.org/news/2026-09-nasa-great-observatory-oceans-distant.html",
+      "summary": "We've found more than 5,500 exoplanets so far. Dozens of them are in the habitable zones of their parent stars, where, at least in theory, they could host an ocean. But we've never definitively found a liquid ocean on an…",
+      "ts": 1789304404000,
+      "publishedAt": "2026-09-13T13:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers pinpoint key early-universe measurement with record precision",
+      "url": "https://phys.org/news/2026-09-key-early-universe-precision.html",
+      "summary": "An international team, including researchers from the University of Minnesota Twin Cities, has reached a major milestone in \"precision cosmology\" by measuring the amount of helium created in the universe's first five min…",
+      "ts": 1789300801000,
+      "publishedAt": "2026-09-13T12:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ancient armored fish evolved two distinct ways to crush prey 385 million years ago",
@@ -751,54 +799,6 @@
       "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
       "url": "https://arxiv.org/abs/2609.11916",
       "summary": "arXiv:2609.11916v1 Announce Type: new Abstract: Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale o…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Role differentiation as ignition of a collective information engine: Structuration in Agent Populations",
-      "url": "https://arxiv.org/abs/2609.05442",
-      "summary": "arXiv:2609.05442v2 Announce Type: cross Abstract: Informational active matter shows how measurement-informed decisions produce collective order, so far in systems that reach consensus. We design collective information en…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Beyond Verified Answers: Solver-Informed Self-Distillation for Bootstrapping Operations Research Language Models",
-      "url": "https://arxiv.org/abs/2609.09957",
-      "summary": "arXiv:2609.09957v1 Announce Type: cross Abstract: Modern large language models (LLMs) can translate natural-language descriptions into operations research (OR) formulations. Post-training techniques including reinforceme…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A machine-checked proof of the Dong-Yang classification of optimal (n,4) binary codes for BSCs",
-      "url": "https://arxiv.org/abs/2609.10579",
-      "summary": "arXiv:2609.10579v1 Announce Type: cross Abstract: We present a machine-checked Lean~4 formalization of Dong and Yang's classification of optimal finite-length $(n,4)$ binary block codes for binary symmetric channels. The…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
-      "url": "https://arxiv.org/abs/2609.10702",
-      "summary": "arXiv:2609.10702v1 Announce Type: cross Abstract: Learning from limited text requires models to use context, generalize to new inputs, and retain useful capabilities. Qiushi Engine conducted a long-horizon, end-to-end au…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Architecting the Secure AI-SOC: A Neurosymbolic Framework for Pipeline Integrity and Threat Mitigation",
-      "url": "https://arxiv.org/abs/2609.10707",
-      "summary": "arXiv:2609.10707v1 Announce Type: cross Abstract: The integration of Large Language Models (LLMs) into Security Operations Centers (SOCs) streamlines threat intelligence but introduces critical vulnerabilities, notably i…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AcFlow: Controlling Text-to-Image Diffusion Transformers via Learned Conditional Activation Flow",
-      "url": "https://arxiv.org/abs/2609.10723",
-      "summary": "arXiv:2609.10723v1 Announce Type: cross Abstract: Text-to-image diffusion transformers (DiTs) are powerful generators, yet direct prompting provides limited control interface for style intensity and can fail to suppress …",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }

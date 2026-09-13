@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-13T10:02:48.459Z",
+  "updated": "2026-09-13T14:50:11.136Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1789344000000,
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+      "summary": "APOD Science APOD APOD: 2026 September 13 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1789272300000,
+      "publishedAt": "2026-09-13T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "United Nations News",
@@ -802,15 +811,6 @@
       "ts": 1789052997000,
       "publishedAt": "2026-09-10T15:09:57.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "ts": 1789052400000,
-      "publishedAt": "2026-09-10T15:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
