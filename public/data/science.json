@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-09-13T17:58:47.070Z",
+  "updated": "2026-09-13T20:41:17.680Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI helps microscopes find the most informative nanoscale features in a sample",
+      "url": "https://phys.org/news/2026-09-ai-microscopes-nanoscale-features-sample.html",
+      "summary": "Researchers at the Department of Energy's Oak Ridge National Laboratory (ORNL) have developed an artificial intelligence framework that helps researchers use atomic force microscopes to identify important nanoscale featu…",
+      "ts": 1789329601000,
+      "publishedAt": "2026-09-13T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Masked tectonic structures suggest Mercury contracted 40% more than its visible scars alone indicate",
+      "url": "https://phys.org/news/2026-09-masked-tectonic-mercury-visible-scars.html",
+      "summary": "The surface of Mercury is filled with craters, ridges and steep cliffs. Over billions of years, as the planet's interior cooled, the planet also shrank. Just as the skin of a drying fruit wrinkles when what is inside it …",
+      "ts": 1789327801000,
+      "publishedAt": "2026-09-13T19:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI automates 3D membrane mapping, matching manual results in a fraction of time",
+      "url": "https://phys.org/news/2026-09-ai-automates-3d-membrane-manual.html",
+      "summary": "Cell membranes and the proteins within them control many vital processes and play a key role in health and disease. But studying them in 3D images of cells has so far meant slow, manual work. A team from Helmholtz Munich…",
+      "ts": 1789322406000,
+      "publishedAt": "2026-09-13T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Saltwater flooding could radically change which crops are worth growing",
+      "url": "https://phys.org/news/2026-09-saltwater-radically-crops-worth.html",
+      "summary": "Saltwater isn't something most people associate with English farmland. But in parts of eastern England, it's becoming a growing problem, not just for crops but for farm incomes too.",
+      "ts": 1789322401000,
+      "publishedAt": "2026-09-13T18:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Luminescence dating pushes age of South Dakota's Mammoth Site back by more than 100,000 years",
@@ -767,38 +799,6 @@
       "title": "A Unified Per-Token Gating Family for On-Policy Distillation: FKL/RKL Mixing with Multi-Channel and Bias Coefficients",
       "url": "https://arxiv.org/abs/2609.11768",
       "summary": "arXiv:2609.11768v1 Announce Type: new Abstract: Per-token gating of forward/reverse KL losses has become a standard technique for on-policy knowledge distillation (OPD), but existing methods such as EOPD (Jin et al., 202…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "From Parameters to Answers: How LLMs Retrieve and Use Their Internal Knowledge",
-      "url": "https://arxiv.org/abs/2609.11859",
-      "summary": "arXiv:2609.11859v1 Announce Type: new Abstract: How does a language model's dependence on query-routing information and target knowledge change as it answers a question? We study this question through layerwise intervent…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
-      "url": "https://arxiv.org/abs/2609.11860",
-      "summary": "arXiv:2609.11860v1 Announce Type: new Abstract: Energy consumption forecasting relies on increasingly complex machine learning (ML) models, such as Genetic Programming-based symbolic regressors, whose predictions can be …",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "On the Regularization Landscape for the Linear Recommendation Models",
-      "url": "https://arxiv.org/abs/2609.11876",
-      "summary": "arXiv:2609.11876v1 Announce Type: new Abstract: Recently, a wide range of recommendation algorithms inspired by deep learning techniques have emerged as the performance leaders on several standard recommendation benchmar…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
-      "url": "https://arxiv.org/abs/2609.11900",
-      "summary": "arXiv:2609.11900v1 Announce Type: new Abstract: Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deforma…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-13T17:58:49.256Z",
+  "updated": "2026-09-13T20:41:19.789Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1789344000000,
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Novartis Loses More than Market Value After Phase III Failure",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-novartis-loses-more-than-market-value-after-phase-iii-failure/",
+      "summary": "Del-desiran was one of three clinical setbacks for Novartis within a week. On September 4, the company and partner Ionis Pharmaceuticals (Nasdaq: IONS) acknowledged that their co-developed pelacarsen failed the Phase III…",
+      "ts": 1789330785000,
+      "publishedAt": "2026-09-13T20:19:45.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "NASA",
@@ -801,15 +810,6 @@
       "summary": "Advances in media optimization, cell engineering, and AI are reshaping intensified bioprocessing for higher productivity, better quality, and greater manufacturing efficiency. The post Smarter Cell Culture Starts with Be…",
       "ts": 1789053392000,
       "publishedAt": "2026-09-10T15:16:32.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "CAR T Manufacturing in Japan Gets Boost from Teijin-Shinshu University Research Collaboration",
-      "url": "https://www.genengnews.com/topics/bioprocessing/car-t-manufacturing-in-japan-gets-boost-from-teijin-shinshu-university-research-collaboration/",
-      "summary": "Shinshu University Hospital's expertise in CAR T-cell therapy R&D and clinical application will be combined with Teijin Regenet's manufacturing and quality-management expertise cultivated through its CDMO business for re…",
-      "ts": 1789052997000,
-      "publishedAt": "2026-09-10T15:09:57.000Z",
       "categoryId": "bio"
     }
   ],
