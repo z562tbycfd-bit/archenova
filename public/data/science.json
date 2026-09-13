@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-12T23:56:29.556Z",
+  "updated": "2026-09-13T04:10:16.747Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI could make holiday planning easier for overwhelmed travelers",
+      "url": "https://phys.org/news/2026-09-ai-holiday-easier-overwhelmed.html",
+      "summary": "Generative AI could help overwhelmed travelers organize their thoughts, compare options and complete vacation plans they might otherwise abandon, according to new research from the University of Surrey.",
+      "ts": 1789259401000,
+      "publishedAt": "2026-09-13T00:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Magnetic nanoparticles detect amoxicillin allergy with 98% sensitivity in early tests",
@@ -791,14 +799,6 @@
       "title": "The Truth Was Never Gone: Perfect Aliasing in Compliant-Context Truth Probes",
       "url": "https://arxiv.org/abs/2609.10739",
       "summary": "arXiv:2609.10739v1 Announce Type: cross Abstract: A truth probe fitted where truthful reporting and a task's prescribed action coincide cannot distinguish those targets from its fitting labels alone. We call this failure…",
-      "ts": 1789185600000,
-      "publishedAt": "2026-09-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CARTS: Contextual Autoregressive Rank Transcoding Steganography for Full-Capacity Keyed Text Encoding",
-      "url": "https://arxiv.org/abs/2609.10744",
-      "summary": "arXiv:2609.10744v1 Announce Type: cross Abstract: Autoregressive language models can be used to transform a payload text into a stegotext of identical token length by preserving per-position rank information across conte…",
       "ts": 1789185600000,
       "publishedAt": "2026-09-12T04:00:00.000Z"
     }
