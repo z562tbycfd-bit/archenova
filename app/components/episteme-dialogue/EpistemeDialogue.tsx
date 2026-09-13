@@ -596,6 +596,21 @@ type WorkPlanStepStatus =
   | "BLOCKED"
   | "SKIPPED";
 
+type WorkExecutionState =
+  | "QUEUED"
+  | "EXECUTING"
+  | "EXECUTED";
+
+type WorkEpistemicState =
+  | "SATISFIED"
+  | "LIMITED"
+  | "BLOCKED";
+
+type WorkPlanStepAssessment = {
+  executionState: WorkExecutionState;
+  epistemicState: WorkEpistemicState;
+};
+
 type WorkPlanStep = {
   id: string;
   order: number;
@@ -603,6 +618,7 @@ type WorkPlanStep = {
   purpose: string;
   status: WorkPlanStepStatus;
   trigger: string;
+  assessment?: WorkPlanStepAssessment;
 };
 
 type AdaptiveWorkPlan = {
@@ -8555,7 +8571,7 @@ function runAutonomousReasoningLoop(args: {
           ? "LIMITED"
           : "BLOCKED",
     finding: explicitProposition
-      ? `Recovered ${sourceTruth?.artifact || "source"} proposition: ${stripTerminalPunctuation(explicitProposition)}. ${sourceTruth?.rationale || ""}`.trim()
+      ? `Recovered source proposition: ${stripTerminalPunctuation(explicitProposition)}. Artifact: ${sourceTruth?.artifact || "SOURCE"}. ${sourceTruth?.rationale || ""}`.trim()
       : lead
         ? "The indexed representation does not expose a sufficiently source-bound proposition; interpretation must not outrun the source."
         : "No source proposition can be evaluated without a primary object.",
@@ -9279,7 +9295,7 @@ function conductMultiPassInternalResearch(args: {
       status: result ? "FOUND" : "LIMITED",
       signalIds: [lead.id],
       finding: result
-        ? `Artifact-specific source proposition recovered (${sourceTruth.artifact}): ${stripTerminalPunctuation(result)}. ${sourceTruth.rationale}`
+        ? `Source proposition recovered: ${stripTerminalPunctuation(result)}. Artifact: ${sourceTruth.artifact}. ${sourceTruth.rationale}`
         : "The primary signal remains usable, but the indexed representation does not expose a sufficiently source-bound proposition.",
     },
     {
@@ -10279,26 +10295,58 @@ function synchronizeAdaptiveWorkPlan(
     ...plan,
     steps: plan.steps.map((step) => {
       const kind = inferGoalKindFromWorkLabel(`${step.label} ${step.purpose}`);
-      if (!kind) return step;
+      if (!kind) {
+        return {
+          ...step,
+          assessment: {
+            executionState:
+              step.status === "DONE"
+                ? "EXECUTED"
+                : step.status === "ACTIVE"
+                  ? "EXECUTING"
+                  : "QUEUED",
+            epistemicState:
+              step.status === "BLOCKED"
+                ? "BLOCKED"
+                : step.status === "LIMITED"
+                  ? "LIMITED"
+                  : "SATISFIED",
+          },
+        };
+      }
+
       const goal = goalByKind.get(kind);
       if (!goal) return step;
+
       const node = workNodeForGoal(workState, goal.id);
       if (!node) return step;
 
-      const status: WorkPlanStepStatus =
+      const epistemicState: WorkEpistemicState =
         node.state === "SATISFIED"
-          ? "DONE"
+          ? "SATISFIED"
           : node.state === "BLOCKED"
             ? "BLOCKED"
-            : node.state === "BLOCKED_BY_DEPENDENCY"
-              ? "QUEUED"
-              : node.state === "READY"
-                ? "ACTIVE"
-                : "LIMITED";
+            : "LIMITED";
+
+      const executionState: WorkExecutionState =
+        node.state === "BLOCKED_BY_DEPENDENCY"
+          ? "QUEUED"
+          : "EXECUTED";
+
+      const status: WorkPlanStepStatus =
+        epistemicState === "SATISFIED"
+          ? "DONE"
+          : epistemicState === "BLOCKED"
+            ? "BLOCKED"
+            : "LIMITED";
 
       return {
         ...step,
         status,
+        assessment: {
+          executionState,
+          epistemicState,
+        },
         trigger:
           node.state === "BLOCKED_BY_DEPENDENCY"
             ? node.rationale
@@ -10642,7 +10690,7 @@ function buildCaseCompletionGate(args: {
           ? "The Case may release a bounded conclusion only after useful internal work has been exhausted and at least one claim-specific evidence requirement has genuine support."
           : status === "BLOCKED"
             ? "The Case must not claim completion because at least one required epistemic gate is blocked."
-            : "The Case remains open. Completion is not granted merely because every unresolved check is labelled LIMITED; useful internal work must run first.",
+            : "COMPLETION STATE · NOT COMPLETE. Completion is not granted merely because unresolved checks are LIMITED. The Case may nevertheless close as BOUNDED after all eligible internal work is exhausted.",
     nextRequiredAction:
       remainingWork[0] ||
       epistemicContract.nextAction ||
@@ -10703,27 +10751,25 @@ function runGoalDirectedIterativeWorkLoop(args: {
     goalTree,
     autonomousSubtasks,
     evidenceAudit,
-    epistemicContract,
     completionGate,
   } = args;
 
   const cycles: IterativeWorkCycle[] = [];
   let workingProgress = goalTree.progress;
   let workingEvidence = evidenceAudit.overallStrength;
-  let noGainCount = 0;
 
   const unresolved = autonomousSubtasks
     .filter((task) => task.status !== "DONE")
     .map((task) => ({ ...task }));
+
+  const attemptedGoalIds = new Set<string>();
 
   for (
     let iteration = 1;
     iteration <= MAX_CASE_WORK_ITERATIONS;
     iteration += 1
   ) {
-    if (
-      completionGate.status === "READY"
-    ) {
+    if (completionGate.status === "READY") {
       cycles.push({
         iteration,
         selectedSubtaskId: null,
@@ -10735,32 +10781,48 @@ function runGoalDirectedIterativeWorkLoop(args: {
         progressBefore: workingProgress,
         progressAfter: workingProgress,
         finding:
-          "The Completion Gate is fully READY for the current qualified evidence state.",
+          "The Completion State is complete for the current qualified evidence state.",
         stopReason:
-          "Case work stops because all required Completion Gate checks passed.",
+          "All required epistemic completion checks passed.",
       });
       break;
     }
 
-    const next = selectNextAutonomousSubtask(unresolved);
+    const eligible = unresolved
+      .filter(
+        (task) =>
+          task.status !== "DONE" &&
+          task.status !== "BLOCKED",
+      )
+      .sort((a, b) => {
+        const aSeen = attemptedGoalIds.has(a.goalId) ? 1 : 0;
+        const bSeen = attemptedGoalIds.has(b.goalId) ? 1 : 0;
+        if (aSeen !== bSeen) return aSeen - bSeen;
+        return a.priority - b.priority;
+      });
+
+    const next = eligible[0] ?? null;
+
     if (!next) {
       cycles.push({
         iteration,
         selectedSubtaskId: null,
         selectedGoalId: null,
-        operation: "No unresolved subtask",
+        operation: "No eligible unresolved work",
         status: "STOPPED",
         evidenceBefore: workingEvidence,
         evidenceAfter: workingEvidence,
         progressBefore: workingProgress,
         progressAfter: workingProgress,
         finding:
-          "No unresolved autonomous subtask remains.",
+          "No eligible unresolved internal work class remains.",
         stopReason:
-          "No additional internal work item is available.",
+          "All remaining unresolved work is either completed, blocked, or externally dependent.",
       });
       break;
     }
+
+    attemptedGoalIds.add(next.goalId);
 
     const evidenceBefore = workingEvidence;
     const progressBefore = workingProgress;
@@ -10776,7 +10838,6 @@ function runGoalDirectedIterativeWorkLoop(args: {
         evidenceAudit.overallStrength === "INSUFFICIENT"
       );
 
-    // Progress is a derived state, never a synthetic increment.
     workingProgress = goalTree.progress;
     workingEvidence = evidenceAudit.overallStrength;
 
@@ -10785,12 +10846,6 @@ function runGoalDirectedIterativeWorkLoop(args: {
       evidenceStrengthRank(workingEvidence) >
         evidenceStrengthRank(evidenceBefore);
 
-    if (gained) {
-      noGainCount = 0;
-    } else {
-      noGainCount += 1;
-    }
-
     const status: IterativeWorkCycleStatus =
       becomesBlockedByMissingEvidence
         ? "ESCALATED"
@@ -10798,11 +10853,29 @@ function runGoalDirectedIterativeWorkLoop(args: {
           ? "ADVANCED"
           : "NO_GAIN";
 
+    const unresolvedIndex = unresolved.findIndex(
+      (task) => task.id === next.id,
+    );
+
+    if (unresolvedIndex >= 0 && gained) {
+      unresolved[unresolvedIndex] = {
+        ...unresolved[unresolvedIndex],
+        status: "DONE",
+      };
+    }
+
+    const unattemptedEligibleRemain = unresolved.some(
+      (task) =>
+        task.status !== "DONE" &&
+        task.status !== "BLOCKED" &&
+        !attemptedGoalIds.has(task.goalId),
+    );
+
     const stopReason =
-      noGainCount >= 2
-        ? "Two consecutive eligible work cycles produced no epistemic gain after subtask rotation."
-        : becomesBlockedByMissingEvidence
-          ? "The selected subtask requires evidence not available inside the current ArcheNova-indexed evidence set."
+      becomesBlockedByMissingEvidence
+        ? "The selected work class requires evidence not available inside the current qualified ArcheNova set."
+        : !unattemptedEligibleRemain
+          ? "All distinct eligible unresolved epistemic work classes have been attempted for the current internal evidence state."
           : null;
 
     cycles.push({
@@ -10817,47 +10890,32 @@ function runGoalDirectedIterativeWorkLoop(args: {
       progressAfter: workingProgress,
       finding:
         status === "ADVANCED"
-          ? `Existing internal research advances the unresolved goal without changing the authoritative evidence grade. ${next.output}`
+          ? `Qualified work advanced the authoritative epistemic state. ${next.output}`
           : status === "ESCALATED"
-            ? `The subtask cannot be completed from the current internal evidence state. ${next.output}`
-            : `The subtask was re-evaluated, but no new qualified evidence or completed goal was produced. ${next.output}`,
+            ? `The selected work class cannot be completed from the current internal evidence state. ${next.output}`
+            : `The selected work class was attempted, but produced no new qualified evidence or completed Goal. ${next.output}`,
       stopReason,
     });
 
-    const unresolvedIndex = unresolved.findIndex(
-      (task) => task.id === next.id,
-    );
-
-    if (unresolvedIndex >= 0 && gained) {
-      unresolved[unresolvedIndex] = {
-        ...unresolved[unresolvedIndex],
-        status: "DONE",
-      };
-    } else if (unresolvedIndex >= 0) {
-      unresolved[unresolvedIndex] = {
-        ...unresolved[unresolvedIndex],
-        priority:
-          unresolved[unresolvedIndex].priority + 100,
-      };
-    }
-
-    if (stopReason) {
-      break;
-    }
+    if (stopReason) break;
   }
 
   const lastCycle = cycles[cycles.length - 1] ?? null;
   const unresolvedTask =
-    selectNextAutonomousSubtask(unresolved);
+    unresolved.find(
+      (task) =>
+        task.status !== "DONE" &&
+        task.status !== "BLOCKED",
+    ) ?? null;
 
   let escalation: SubtaskEscalation = {
     level: "NONE",
     subtaskId: null,
     goalId: null,
     reason:
-      "No escalation is required because the current Case has a releasable completion state.",
+      "No escalation is required for the current Case state.",
     action:
-      "Release the bounded Case result and reopen only if new evidence can materially change it.",
+      "Release the current bounded state and reopen only if new qualified evidence can materially change it.",
   };
 
   if (
@@ -10869,22 +10927,24 @@ function runGoalDirectedIterativeWorkLoop(args: {
       subtaskId: unresolvedTask.id,
       goalId: unresolvedTask.goalId,
       reason:
-        "A required epistemic goal remains blocked by the current evidence state.",
-      action:
-        unresolvedTask.operation,
+        "A required epistemic Goal is blocked by the current evidence state.",
+      action: unresolvedTask.operation,
     };
   } else if (
-    lastCycle?.stopReason?.includes("no epistemic gain") &&
-    unresolvedTask
+    lastCycle?.stopReason?.includes(
+      "All distinct eligible unresolved epistemic work classes",
+    )
   ) {
     escalation = {
       level: "EXTERNAL_BOUNDARY",
-      subtaskId: unresolvedTask.id,
-      goalId: unresolvedTask.goalId,
+      subtaskId: unresolvedTask?.id ?? null,
+      goalId: unresolvedTask?.goalId ?? null,
       reason:
-        "Repeated internal work produced no epistemic gain. More looping would only repeat the same evidence state.",
+        "All eligible internal work classes have been attempted without sufficient epistemic gain. Further internal repetition would not change the authoritative Work State.",
       action:
-        `Stop internal repetition. Reopen this subtask only when a new qualified source, measurement, experiment, or explicit user-supplied evidence becomes available. Current target: ${unresolvedTask.operation}`,
+        unresolvedTask
+          ? `Stop internal repetition. Reopen when a new qualified source, measurement, experiment, or explicit user-supplied evidence becomes available. Current unresolved target: ${unresolvedTask.operation}`
+          : "Stop internal repetition. Reopen only when new qualified evidence can change the authoritative Work State.",
     };
   } else if (
     completionGate.status === "NOT_READY" &&
@@ -10895,7 +10955,7 @@ function runGoalDirectedIterativeWorkLoop(args: {
       subtaskId: unresolvedTask.id,
       goalId: unresolvedTask.goalId,
       reason:
-        "The Case remains open and one unresolved goal dominates the next useful work.",
+        "The Case is not epistemically complete and one unresolved eligible Goal remains the next useful work.",
       action: unresolvedTask.operation,
     };
   }
@@ -10996,7 +11056,7 @@ function buildCaseClosureProtocol(args: {
     return {
       status: "BOUNDED",
       reason:
-        "Internal work reached diminishing epistemic returns. The Case is bounded rather than falsely kept open.",
+        "CLOSURE STATE · BOUNDED. The Case is not epistemically complete, but all eligible internal work has been exhausted without enough gain to justify further internal repetition.",
       closureConditions,
       unresolvedConditions: unresolvedGoals,
       finalBoundary:
@@ -13429,10 +13489,17 @@ useEffect(() => {
                 message,
                 messageIndex,
               ) => {
+                const primarySignalId =
+                  message.intelligence?.claimIdentity?.signalId ?? null;
+
                 const attachedSignals =
                   message
                     .intelligence
                     ?.signalIds
+                    .filter(
+                      (id) =>
+                        id !== primarySignalId,
+                    )
                     .map(
                       (id) =>
                         signalMap.get(
@@ -13530,10 +13597,18 @@ useEffect(() => {
                                   </strong>
                                 </div>
                                 <small>
-                                  {message.intelligence.astraCore.workLedger.completed}
+                                  {message.intelligence.astraCore.workLedger.items.filter(
+                                    (item) =>
+                                      item.status === "DONE" ||
+                                      item.status === "LIMITED",
+                                  ).length}
                                   {" / "}
                                   {message.intelligence.astraCore.workLedger.total}
-                                  {" complete"}
+                                  {" operations executed · "}
+                                  {message.intelligence.astraCore.unifiedWorkState.satisfied}
+                                  {" / "}
+                                  {message.intelligence.astraCore.unifiedWorkState.total}
+                                  {" epistemic goals satisfied"}
                                 </small>
                               </div>
 
@@ -13838,7 +13913,7 @@ useEffect(() => {
                               <div className="ep-case-completion">
                                 <div className="ep-case-completion__head">
                                   <div>
-                                    <span>CASE COMPLETION GATE · FINAL</span>
+                                    <span>COMPLETION STATE · FINAL</span>
                                     <strong>
                                       {message.intelligence.astraCore.completionGate.status.replaceAll("_", " ")}
                                     </strong>
@@ -13892,7 +13967,7 @@ useEffect(() => {
                               >
                                 <div className="ep-case-closure__head">
                                   <div>
-                                    <span>CASE CLOSURE PROTOCOL</span>
+                                    <span>CLOSURE STATE</span>
                                     <strong>
                                       {message.intelligence.astraCore.closureProtocol.status}
                                     </strong>
@@ -14071,29 +14146,30 @@ useEffect(() => {
                         {/* =================================
                             SIGNALS
                         ================================= */}
-                        {attachedSignals.length >
-                          0 && (
-                          <div className="ep-intelligence__signals">
-                            <div className="ep-intelligence__signal-head">
-                              <span className="ep-intelligence__label">
-                                RELATED INTELLIGENCE
-                              </span>
-                              <small>
-                                {
-                                  attachedSignals.length
-                                }{" "}
-                                SIGNALS
-                              </small>
-                            </div>
-                            {attachedSignals
-                              .slice(
-                                0,
-                                3,
-                              )
-                              .map(
-                                (
-                                  signal,
-                                ) => (
+                        <div className="ep-intelligence__signals">
+                          <div className="ep-intelligence__signal-head">
+                            <span className="ep-intelligence__label">
+                              RELATED INTELLIGENCE
+                            </span>
+                            <small>
+                              {attachedSignals.length} SIGNALS
+                            </small>
+                          </div>
+                          {attachedSignals.length === 0 ? (
+                            <p className="ep-intelligence__signals-empty">
+                              No qualified related intelligence found.
+                            </p>
+                          ) : (
+                            <>
+                              {attachedSignals
+                                .slice(
+                                  0,
+                                  3,
+                                )
+                                .map(
+                                  (
+                                    signal,
+                                  ) => (
                                   <button
                                     key={
                                       signal.id
@@ -14125,8 +14201,9 @@ useEffect(() => {
                                   </button>
                                 ),
                               )}
-                          </div>
-                        )}
+                            </>
+                          )}
+                        </div>
                         {/* =================================
                             FOLLOW UPS
                         ================================= */}
@@ -22620,6 +22697,67 @@ useEffect(() => {
 
         .ep-unified-work-state__node.is-blocked-by-dependency {
           border-style: dashed;
+        }
+
+
+        /* ==================================================
+           DESKTOP CASE LEGIBILITY · STAGE 6.9.6
+        ================================================== */
+        @media (min-width: 900px) {
+          .ep-agent-work__head,
+          .ep-agent-work__planning-head,
+          .ep-case-completion__head,
+          .ep-case-closure__head,
+          .ep-unified-work-state__head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            column-gap: 16px;
+            row-gap: 8px;
+          }
+
+          .ep-agent-work__head > div,
+          .ep-case-completion__head > div,
+          .ep-case-closure__head > div,
+          .ep-unified-work-state__head > div {
+            min-width: 0;
+          }
+
+          .ep-agent-work__head span,
+          .ep-agent-work__head strong,
+          .ep-agent-work__planning-head span,
+          .ep-agent-work__planning-head small,
+          .ep-case-completion__head span,
+          .ep-case-completion__head strong,
+          .ep-case-closure__head span,
+          .ep-case-closure__head strong,
+          .ep-unified-work-state__head span,
+          .ep-unified-work-state__head strong {
+            display: block;
+            line-height: 1.45;
+          }
+
+          .ep-case-state-machine,
+          .ep-unified-work-state,
+          .ep-case-goal-tree,
+          .ep-case-subtasks,
+          .ep-case-loop,
+          .ep-case-completion,
+          .ep-case-closure {
+            margin-top: 12px;
+          }
+        }
+
+        .ep-intelligence__signals-empty {
+          margin: 0;
+          padding: 12px 14px;
+          border: 1px solid rgba(255,255,255,.055);
+          border-radius: 12px;
+          background: rgba(255,255,255,.012);
+          color: rgba(255,255,255,.34);
+          font-size: 8px;
+          line-height: 1.6;
         }
 
       `}

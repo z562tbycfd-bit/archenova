@@ -3,21 +3,6 @@ export const senateAgenda =
   {
     "id": "agenda-1",
     "rank": 1,
-    "title": "Manus and UT Austin Advance Biomanufacturing Product Recovery Through BioMADE Program",
-    "slug": "energy-manus-and-ut-austin-advance-biomanufacturing-product-recovery-through-biomade-pr",
-    "category": "Energy",
-    "source": "Genetic Engineering News",
-    "score": 9.7,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-2",
-    "rank": 2,
     "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
     "slug": "energy-understanding-lora-rank-trade-offs-in-diffusion-model-fine-tuning",
     "category": "Energy",
@@ -31,8 +16,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-3",
-    "rank": 3,
+    "id": "agenda-2",
+    "rank": 2,
     "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
     "slug": "space-a-team-of-teams-like-never-before-rehearsing-a-unique-launch-at-esa-mission-cont",
     "category": "Space",
@@ -46,8 +31,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
+    "id": "agenda-3",
+    "rank": 3,
     "title": "LatConnect 60 Expands India Market Presence for SWIRSAT With NSIL Agreement and GeoSyze Partnership",
     "slug": "space-latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-",
     "category": "Space",
@@ -61,8 +46,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-5",
-    "rank": 5,
+    "id": "agenda-4",
+    "rank": 4,
     "title": "Discovering Subtypes of Neurodegenerative Progression with a Scalable Connectome-Constrained Dynamic Model",
     "slug": "ai-discovering-subtypes-of-neurodegenerative-progression-with-a-scalable-connectome",
     "category": "AI",
@@ -76,8 +61,38 @@ export const senateAgenda =
     "status": "Open"
   },
   {
+    "id": "agenda-5",
+    "rank": 5,
+    "title": "Guterres: Old global order must change as power shifts to emerging economies",
+    "slug": "energy-guterres-old-global-order-must-change-as-power-shifts-to-emerging-economies",
+    "category": "Energy",
+    "source": "United Nations News",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "architectureHandoff": "Civilization Energy Architecture",
+    "status": "Open"
+  },
+  {
     "id": "agenda-6",
     "rank": 6,
+    "title": "Japan's Hayabusa2 achieves first-ever laser ranging experiment with an asteroid",
+    "slug": "space-japan-s-hayabusa2-achieves-first-ever-laser-ranging-experiment-with-an-asteroid",
+    "category": "Space",
+    "source": "Phys.org",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-7",
+    "rank": 7,
     "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
     "slug": "space-help-refine-data-from-space-telescopes-with-artifact-inspector",
     "category": "Space",
@@ -91,23 +106,23 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-7",
-    "rank": 7,
-    "title": "NASA Answers President’s Call to Establish United States Space Academy",
-    "slug": "space-nasa-answers-president-s-call-to-establish-united-states-space-academy",
-    "category": "Space",
-    "source": "NASA",
-    "score": 9.3,
+    "id": "agenda-8",
+    "rank": 8,
+    "title": "A 1,000-fold longer charge lifetime helps organic catalyst produce solar hydrogen faster",
+    "slug": "energy-a-1-000-fold-longer-charge-lifetime-helps-organic-catalyst-produce-solar-hydroge",
+    "category": "Energy",
+    "source": "Phys.org",
+    "score": 9.2,
     "priority": "High",
     "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Orbital Infrastructure",
+    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Civilization Energy Architecture",
     "status": "Open"
   },
   {
-    "id": "agenda-8",
-    "rank": 8,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
     "slug": "ai-finishing-the-task-is-not-enough-evaluating-agent-resilience-and-considerate-par",
     "category": "AI",
@@ -121,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "IAEA-Led Mission Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
     "slug": "ai-iaea-led-mission-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-s",
     "category": "AI",
@@ -136,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
     "slug": "general-grounding-agent-memory-environment-probing-curation-for-enterprise-agents",
     "category": "General",
@@ -151,8 +166,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-12",
+    "rank": 12,
     "title": "Bone Marrow-on-a-Chip Model Offers New Window Into Immune Cell Development and Behavior",
     "slug": "ai-bone-marrow-on-a-chip-model-offers-new-window-into-immune-cell-development-and-b",
     "category": "AI",
@@ -163,21 +178,6 @@ export const senateAgenda =
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
     "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": "SpCAST enables scalable and interpretable integration of single-cell RNA sequencing and single-cell-resolved spatial transcriptomics",
-    "slug": "bio-spcast-enables-scalable-and-interpretable-integration-of-single-cell-rna-sequenc",
-    "category": "Bio",
-    "source": "arXiv q-bio",
-    "score": 9.1,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this strengthen adaptive capacity?",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "architectureHandoff": "Adaptive Capacity Systems",
     "status": "Open"
   }
 ];
