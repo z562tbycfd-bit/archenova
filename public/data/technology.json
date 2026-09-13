@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-13T20:41:19.789Z",
+  "updated": "2026-09-13T22:58:55.332Z",
   "items": [
     {
       "source": "OpenAI",
@@ -12,6 +12,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "STAT",
+      "title": "STAT+: Trump’s secretive pharma deals may undermine ‘most-favored nation’ pricing, an analysis suggests",
+      "url": "https://www.statnews.com/pharmalot/2026/09/13/trump-secretive-pharma-deals-undermine-most-favored-nation-pricing/?utm_campaign=rss",
+      "summary": "The projected savings from Trump's \"most-favored nation\" pricing policy might be drastically reduced by secretive deals with pharma companies, a new analysis finds.",
+      "ts": 1789338600000,
+      "publishedAt": "2026-09-13T22:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "StockWatch: Novartis Loses More than Market Value After Phase III Failure",
       "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-novartis-loses-more-than-market-value-after-phase-iii-failure/",
@@ -19,6 +28,24 @@
       "ts": 1789330785000,
       "publishedAt": "2026-09-13T20:19:45.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Guterres: Old global order must change as power shifts to emerging economies",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168323",
+      "summary": "UN Secretary-General António Guterres told leaders of a bloc of major emerging economies in New Delhi on Sunday that a more balanced global order requires an overhaul of the institutions built after the Second World War,…",
+      "ts": 1789300800000,
+      "publishedAt": "2026-09-13T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Married at 13, pregnant and starving: Child brides of Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168322",
+      "summary": "Fatimah* was 13 when she was married off to an older man. Two years later, she gave birth to twin daughters.",
+      "ts": 1789300800000,
+      "publishedAt": "2026-09-13T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "NASA",
@@ -784,33 +811,6 @@
       "ts": 1789056004000,
       "publishedAt": "2026-09-10T16:00:04.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "ts": 1789056000000,
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Atoms4Food Charts Path to Food Security in Liberia",
-      "url": "http://www.iaea.org/newscenter/news/atoms4food-charts-path-to-food-security-in-liberia",
-      "summary": "",
-      "ts": 1789054250000,
-      "publishedAt": "2026-09-10T15:30:50.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Smarter Cell Culture Starts with Better Media",
-      "url": "https://www.genengnews.com/topics/bioprocessing/smarter-cell-culture-starts-with-better-media/",
-      "summary": "Advances in media optimization, cell engineering, and AI are reshaping intensified bioprocessing for higher productivity, better quality, and greater manufacturing efficiency. The post Smarter Cell Culture Starts with Be…",
-      "ts": 1789053392000,
-      "publishedAt": "2026-09-10T15:16:32.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
