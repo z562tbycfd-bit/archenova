@@ -1,7 +1,160 @@
 {
   "ok": true,
-  "updated": "2026-09-14T12:24:22.779Z",
+  "updated": "2026-09-14T18:25:18.605Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Pneumococcal Subtypes Influence the Impact of Air Pollution on Disease Risk",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/pneumococcal-subtypes-influence-the-impact-of-air-pollution-on-disease-risk/",
+      "summary": "Pneumococcal bacterial subtypes influence how air pollution affects invasive disease risk, with certain strains linked to greater or faster risks of pneumonia, sepsis, and meningitis. The post Pneumococcal Subtypes Influ…",
+      "ts": 1789409129000,
+      "publishedAt": "2026-09-14T18:05:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace…",
+      "ts": 1789408462000,
+      "publishedAt": "2026-09-14T17:54:22.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Kennedy to deliver keynote for anti-vaccine group he once led",
+      "url": "https://www.statnews.com/2026/09/14/rfk-speech-childrens-health-defense-conference-washington/?utm_campaign=rss",
+      "summary": "RFK Jr. worked to distance himself from Children's Health Defense, the anti-vaccine group he once led. Now, he's delivering a keynote at CHD's conference.",
+      "ts": 1789407454000,
+      "publishedAt": "2026-09-14T17:37:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Sept. 21: What Comes Next for On-Orbit Servicing?",
+      "url": "https://spacenews.com/what-comes-next-for-on-orbit-servicing-event/",
+      "summary": "Join us for conversations about the tech, policies and business models required to build a functioning in-orbit logistics ecosystem The post Sept. 21: What Comes Next for On-Orbit Servicing? appeared first on SpaceNews.",
+      "ts": 1789405761000,
+      "publishedAt": "2026-09-14T17:09:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Why Does a Particular Genetic Variant Lead to Accelerated Huntington Disease Development?",
+      "url": "https://www.genengnews.com/topics/translational-medicine/why-does-a-particular-genetic-variant-lead-to-accelerated-huntington-disease-development/",
+      "summary": "Study results suggest how a particular genetic variant can speed onset of Huntington disease motor symptoms by up to 12.5 years and accelerate clinical measures of disease progression, by driving runaway DNA changes insi…",
+      "ts": 1789405219000,
+      "publishedAt": "2026-09-14T17:00:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory  ",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
+      "summary": "The Republic of Djibouti became the 72nd nation and eighth African country to sign the Artemis Accords during a ceremony Monday at NASA Headquarters in Washington. The Artemis Accords are the first set of practical princ…",
+      "ts": 1789404367000,
+      "publishedAt": "2026-09-14T16:46:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Donated livers can be made biologically younger",
+      "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
+      "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matt…",
+      "ts": 1789402302000,
+      "publishedAt": "2026-09-14T16:11:42.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How $500 explains Republican health policy, and the GLP-1 Rx wave",
+      "url": "https://www.statnews.com/2026/09/14/trump-cash-obamacare-plans-rural-hospitals-artificial-intelligence/?utm_campaign=rss",
+      "summary": "The one health care policy Republicans agree on, and a look at how rural providers are approaching AI.",
+      "ts": 1789401775000,
+      "publishedAt": "2026-09-14T16:02:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Kicks Off Inspiration Tour with Steelers vs. Falcons Game",
+      "url": "https://www.nasa.gov/image-article/nasa-kicks-off-inspiration-tour-with-steelers-vs-falcons-game/",
+      "summary": "Fans pose for a photo with an astronaut in the NASA Experience Zone at an NFL game between the Pittsburgh Steelers and the Atlanta Falcons at Acrisure Stadium, Sunday, Sept. 13, 2026, in Pittsburgh, Pennsylvania. NASA’s …",
+      "ts": 1789401611000,
+      "publishedAt": "2026-09-14T16:00:11.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Go…",
+      "ts": 1789401600000,
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space’s growing billion-dollar club",
+      "url": "https://spacenews.com/spaces-growing-billion-dollar-club-spacenews-intelligence/",
+      "summary": "Download our new mapping of every private space company valued at $1 billion or more. The post Space’s growing billion-dollar club appeared first on SpaceNews.",
+      "ts": 1789400110000,
+      "publishedAt": "2026-09-14T15:35:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and…",
+      "ts": 1789398052000,
+      "publishedAt": "2026-09-14T15:00:52.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
+      "summary": "Did you spend part of your summer camping, hiking, at the pool, or in an aircraft? So did NASA’s 2025 Astronaut Candidate Class. The 10 candidates have been working their way through a comprehensive and rigorous training…",
+      "ts": 1789398000000,
+      "publishedAt": "2026-09-14T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Pennsylvania officials report state’s third death involving measles",
+      "url": "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/?utm_campaign=rss",
+      "summary": "A Pennsylvania woman has died from complications associated with measles, the third death in the state this year involving the virus.",
+      "ts": 1789396460000,
+      "publishedAt": "2026-09-14T14:34:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Questions? Ask our Hera Space Companion!",
+      "url": "https://www.esa.int/Space_Safety/Hera/Questions_Ask_our_Hera_Space_Companion",
+      "summary": "Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defe…",
+      "ts": 1789394400000,
+      "publishedAt": "2026-09-14T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: GSK touts lung cancer data from two drugs",
+      "url": "https://www.statnews.com/2026/09/14/biotech-news-gsk-touts-lung-cancer-data-from-two-drugs/?utm_campaign=rss",
+      "summary": "Late-stage results for Definium's LSD treatment, AstraZeneca breast cancer drug fails key trial, and more biotech news from The Readout",
+      "ts": 1789392877000,
+      "publishedAt": "2026-09-14T13:34:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about another AstraZeneca trial failure, a Novo name change, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/14/another-astrazeneca-trial-failure-novo-name-change/?utm_campaign=rss",
+      "summary": "AstraZeneca disclosed that a breast cancer pill failed in a pivotal trial testing it as a first-line therapy in advanced tumors",
+      "ts": 1789391271000,
+      "publishedAt": "2026-09-14T13:07:51.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
@@ -9,6 +162,15 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world’s leading AI labs…",
       "ts": 1789387800000,
       "publishedAt": "2026-09-14T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -30,6 +192,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
+      "url": "http://www.iaea.org/newscenter/news/mexico-signs-a-country-programme-framework-cpf-for-2026-2031",
+      "summary": "Dr Laila Porras Musalem, Director General of International Affairs, Secretariat of Energy, Mexico, and Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, signed Mexico’s Country…",
+      "ts": 1789380313000,
+      "publishedAt": "2026-09-14T10:05:13.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: What’s in a name? Novo looks to a rebrand",
       "url": "https://www.statnews.com/2026/09/14/novo-nordisk-company-rebrand-obesity-diabetes/?utm_campaign=rss",
@@ -46,6 +217,15 @@
       "ts": 1789375920000,
       "publishedAt": "2026-09-14T08:52:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+      "url": "http://www.iaea.org/newscenter/news/the-week-ahead-iaea-hosts-70th-general-conference",
+      "summary": "",
+      "ts": 1789374987000,
+      "publishedAt": "2026-09-14T08:36:27.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -132,7 +312,7 @@
       "source": "NASA",
       "title": "APOD: 2026 September 14 – Where Your Elements Came From",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/",
-      "summary": "APOD Science APOD APOD: 2026 September 14 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "summary": "APODScienceAPODAPOD: 2026 September 14 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
       "ts": 1789358700000,
       "publishedAt": "2026-09-14T04:05:00.000Z",
       "categoryId": "space"
@@ -357,7 +537,7 @@
       "source": "Genetic Engineering News",
       "title": "StockWatch: Novartis Loses More than Market Value After Phase III Failure",
       "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-novartis-loses-more-than-market-value-after-phase-iii-failure/",
-      "summary": "The party’s over,’ top shareholder declares, demanding pharma giant’s board keep closer eye on acquisitions; Analysts pinpoint competitors likely to benefit, while some market watchers cut back peak sales forecasts for D…",
+      "summary": "\"The party’s over,\" top shareholder declares, demanding pharma giant’s board keep closer eye on acquisitions; Analysts pinpoint competitors likely to benefit, while some market watchers cut back peak sales forecasts for …",
       "ts": 1789330785000,
       "publishedAt": "2026-09-13T20:19:45.000Z",
       "categoryId": "bio"
@@ -384,7 +564,7 @@
       "source": "NASA",
       "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
-      "summary": "APOD Science APOD APOD: 2026 September 13 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "summary": "APODScienceAPODAPOD: 2026 September 13 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
       "ts": 1789272300000,
       "publishedAt": "2026-09-13T04:05:00.000Z",
       "categoryId": "space"
@@ -631,186 +811,6 @@
       "ts": 1789128000000,
       "publishedAt": "2026-09-11T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Terrorist propaganda is outpacing global efforts to stop it, UN report finds",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168313",
-      "summary": "Terrorist groups are recruiting, raising money and even planning operations through propaganda that is now “embedded” in every stage of their work, a new UN report warns – and governments are struggling to keep pace.",
-      "ts": 1789128000000,
-      "publishedAt": "2026-09-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Boycott launched against American Diabetes Association includes journal ",
-      "url": "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal/?utm_campaign=rss",
-      "summary": "Trump's $500 Obamacare promise, childhood cancer treatment with long-term risks, and more health news",
-      "ts": 1789127000000,
-      "publishedAt": "2026-09-11T11:43:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "ts": 1789120800000,
-      "publishedAt": "2026-09-11T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Meet the under-35s shaping the future of biotech",
-      "url": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
-      "summary": "Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and techn…",
-      "ts": 1789117200000,
-      "publishedAt": "2026-09-11T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: An AI tool aims to catch harder-to-detect heart attacks in EKGs",
-      "url": "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/?utm_campaign=rss",
-      "summary": "A newly approved AI tool can scan EKGs for severe heart attacks and, the company says, for rarer patterns indicating blocked arteries.",
-      "ts": 1789115400000,
-      "publishedAt": "2026-09-11T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Novartis, Novo Nordisk drug failures will likely ‘pop a hole in the balloon’ of the field",
-      "url": "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/?utm_campaign=rss",
-      "summary": "The back-to-back failures of cardiovascular drugs from Novartis and Novo Nordisk made headlines. They could also have a chilling effect across the industry.",
-      "ts": 1789115400000,
-      "publishedAt": "2026-09-11T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m a public health communications consultant. Pro-vaccine advocacy needs more fun",
-      "url": "https://www.statnews.com/2026/09/11/pro-vaccine-advocacy-celebration-party/?utm_campaign=rss",
-      "summary": "“Somewhere along the way, we forgot how to celebrate vaccines,” writes public health communications consultant Adam Zimmerman.",
-      "ts": 1789115400000,
-      "publishedAt": "2026-09-11T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m a thoracic surgeon in New York City. For many of my patients, Sept. 11 is still not over",
-      "url": "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/?utm_campaign=rss",
-      "summary": "“For thousands of families, the Sept. 11 attack did not end when the fires were extinguished. It simply changed form,” writes Raja Flores.",
-      "ts": 1789115400000,
-      "publishedAt": "2026-09-11T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
-      "url": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
-      "summary": "On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s o…",
-      "ts": 1789113600000,
-      "publishedAt": "2026-09-11T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 366 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-366-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1789111130000,
-      "publishedAt": "2026-09-11T07:18:50.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "LatConnect 60 Expands India Market Presence for SWIRSAT With NSIL Agreement and GeoSyze Partnership",
-      "url": "https://spacenews.com/latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-geosyze-partnership/",
-      "summary": "Australian Earth observation satellite company LatConnect 60 (LC60) has strengthened its position in India with two strategic agreements announced at the Bengaluru Space Expo 2026 on September 7th, spanning satellite […]…",
-      "ts": 1789104769000,
-      "publishedAt": "2026-09-11T05:32:49.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 11 – M83: The Southern Pinwheel",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-11-m83-the-southern-pinwheel/",
-      "summary": "APOD Science APOD APOD: 2026 September 11 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1789099500000,
-      "publishedAt": "2026-09-11T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Monterrey Amid Mountains",
-      "url": "https://science.nasa.gov/earth/earth-observatory/monterrey-amid-mountains/",
-      "summary": "Mexico’s second-largest metropolitan area borders on folded rock layers of the Sierra Madre Oriental.",
-      "ts": 1789099260000,
-      "publishedAt": "2026-09-11T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pulling Illusion in Individuals with Neurological Disorders",
-      "url": "https://arxiv.org/abs/2609.10566",
-      "summary": "arXiv:2609.10566v1 Announce Type: new Abstract: The pulling illusion induced by asymmetric vibration stimuli has attracted attention for its potential applications in rehabilitation and sensory assessment. However, the u…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On the formulation and analysis of a stage-structured eco-evolutionary model with pulsed disturbances",
-      "url": "https://arxiv.org/abs/2609.10581",
-      "summary": "arXiv:2609.10581v1 Announce Type: new Abstract: Motivated by the pulsed control and resulting evolution of harmful biological populations, we develop and analyze an ordinary differential equation model of an n-dimensiona…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sequence-Informed Geometric Evaluation of RNA 3D Structures",
-      "url": "https://arxiv.org/abs/2609.10644",
-      "summary": "arXiv:2609.10644v1 Announce Type: new Abstract: Computational RNA structure pipelines generate many candidate conformations for the same sequence. Reliable evaluation therefore requires more than recognising plausible ge…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "scDEFT: A deep learning framework for drug-effect prediction and counterfactual reasoning",
-      "url": "https://arxiv.org/abs/2609.10831",
-      "summary": "arXiv:2609.10831v1 Announce Type: new Abstract: Longitudinal single cell atlases now capture matched pre treatment and post treatment states from responders and non responders, presenting an opportunity to mechanisticall…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cortical information transfer reveals conserved hemispherical network dynamics across human handedness",
-      "url": "https://arxiv.org/abs/2609.10870",
-      "summary": "arXiv:2609.10870v1 Announce Type: new Abstract: Whether human motor and brain lateralization arises from fundamentally distinct neural architectures or emerges from conserved network dynamics remains a central question a…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Discovering Subtypes of Neurodegenerative Progression with a Scalable Connectome-Constrained Dynamic Model",
-      "url": "https://arxiv.org/abs/2609.10890",
-      "summary": "arXiv:2609.10890v1 Announce Type: new Abstract: Parkinson's disease is clinically and biologically heterogeneous, yet its spatiotemporal progression remains poorly characterized. We present a connectome-constrained disea…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Platonic brain bridge hypothesis: human brain networks as an architectural prior for omni models",
-      "url": "https://arxiv.org/abs/2609.10947",
-      "summary": "arXiv:2609.10947v1 Announce Type: new Abstract: We propose the Platonic brain bridge hypothesis: omni models, which process video, audio and text jointly like the brain, converge on brain-like representations, and the co…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
