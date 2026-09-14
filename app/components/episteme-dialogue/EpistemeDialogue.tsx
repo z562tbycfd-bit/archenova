@@ -389,6 +389,23 @@ type AdaptiveResponse = {
   articleEssence?: ArticleEssence;
 };
 
+type ContinueInquiryItem = {
+  question: string;
+  purpose: string;
+  target: CaseGoalKind | "CASE" | "EVIDENCE";
+  priority: number;
+};
+
+type RelatedSignalReport = {
+  signal: SignalItem;
+  role: EvidenceContextUse;
+  relationScore: number;
+  matchedDimensions: string[];
+  whyRelevant: string;
+  evidenceUse: string;
+  reportSummary: string;
+};
+
 type IntelligenceObject = {
   interpretation: string;
   evidence: string;
@@ -853,7 +870,19 @@ type UnifiedCaseStateMachine = {
 
 
 
+type CaseReuseMode =
+  | "FRESH_CASE"
+  | "REUSED_OPERATION";
+
+type CaseReuseState = {
+  mode: CaseReuseMode;
+  operation: string | null;
+  canonicalClaim: string | null;
+  rationale: string;
+};
+
 type AstraCoreState = {
+  caseReuse: CaseReuseState;
   mission: EpistemeMission;
   goalTree: CaseGoalTree;
   autonomousSubtasks: AutonomousSubtask[];
@@ -6068,11 +6097,31 @@ function synthesizeClaimGraphFollowUp(
   claimIdentity: EpistemicClaimIdentity,
   audit: EvidenceAudit,
 ): FollowUpSynthesis | null {
-  const graph = claimIdentity.claimGraph;
+  const canonicalGraph: ClaimGraph = {
+    ...claimIdentity.claimGraph,
+    nodes: claimIdentity.claimGraph.nodes.filter(
+      (node) => !isLegacyFallbackClaim(node.text),
+    ),
+  };
+  const graph = canonicalGraph;
   if (!graph || graph.nodes.length === 0) return null;
 
   const demand = classifyFollowUpDemand(query);
-  const node = selectClaimNodeForFollowUp(query, graph);
+  const canonicalPrimary =
+    graph.nodes.find((node) => node.id === graph.primaryClaimId) ??
+    graph.nodes.find((node) => node.relation === "PRIMARY") ??
+    null;
+  const selected = selectClaimNodeForFollowUp(query, graph);
+  const operationSpecific =
+    /(recovery test|recover|recovery|failure mode|forced failure|falsif|critical requirement|boundary|measurement|replication)/.test(
+      normalize(query),
+    );
+  const node =
+    operationSpecific && canonicalPrimary
+      ? canonicalPrimary
+      : selected && !isLegacyFallbackClaim(selected.text)
+        ? selected
+        : canonicalPrimary;
   if (!node) return null;
 
   const q = normalize(query);
@@ -6426,6 +6475,111 @@ function buildEpistemicClaimIdentity(
   };
 }
 
+
+function isLegacyFallbackClaim(text: string): boolean {
+  const q = normalize(text);
+  return (
+    q.includes("available signal defines a research object or method but does not state a distinct result-bearing proposition") ||
+    q.includes("does not state a distinct result-bearing proposition")
+  );
+}
+
+function canonicalizeClaimIdentity(
+  signal: SignalItem,
+  identity: EpistemicClaimIdentity,
+): EpistemicClaimIdentity {
+  const sourceTruth = recoverArtifactSpecificSourceTruth(signal);
+  const canonical = sourceTruth.proposition
+    ? stripTerminalPunctuation(sourceTruth.proposition)
+    : stripTerminalPunctuation(identity.coreClaim);
+
+  if (!canonical) return identity;
+
+  const survivingNodes = identity.claimGraph.nodes
+    .filter((node) => !isLegacyFallbackClaim(node.text))
+    .map((node) =>
+      node.id === identity.claimGraph.primaryClaimId ||
+      node.relation === "PRIMARY"
+        ? {
+            ...node,
+            text: canonical,
+            claimType: identity.claimType,
+            status: "REPORTED" as const,
+          }
+        : node,
+    );
+
+  const primary =
+    survivingNodes.find((node) => node.relation === "PRIMARY") ??
+    null;
+
+  const nodes =
+    primary
+      ? survivingNodes
+      : [
+          makeClaimNode(
+            "claim-canonical-1",
+            canonical,
+            "PRIMARY",
+            identity.claimType,
+            "REPORTED",
+            [],
+          ),
+          ...survivingNodes,
+        ];
+
+  const primaryClaimId =
+    nodes.find((node) => node.relation === "PRIMARY")?.id ?? null;
+
+  return {
+    ...identity,
+    coreClaim: canonical,
+    reportedResult: canonical,
+    claimGraph: {
+      nodes,
+      primaryClaimId,
+      summary:
+        `${nodes.length} claim node${nodes.length === 1 ? "" : "s"} identified; ` +
+        "the current source-truth proposition is the canonical primary claim.",
+    },
+  };
+}
+
+function canonicalClaimForCase(
+  identity: EpistemicClaimIdentity | null,
+): string | null {
+  if (!identity) return null;
+  const primary =
+    identity.claimGraph.nodes.find(
+      (node) => node.id === identity.claimGraph.primaryClaimId,
+    ) ??
+    identity.claimGraph.nodes.find((node) => node.relation === "PRIMARY");
+
+  return primary?.text || identity.coreClaim || identity.reportedResult || null;
+}
+
+function followUpRequiresCaseReopen(query: string): boolean {
+  const q = normalize(query);
+
+  return (
+    /\b(new evidence|new source|latest evidence|latest source|search again|search for|find evidence|look for evidence|verify with|recheck|re-check|update evidence|has anything changed|what changed|compare with|compare to|new signal|new paper|new study|new article)\b/.test(q) ||
+    /\b(reopen|rebuild|rerun|re-run)\b.*\b(case|research|evidence)\b/.test(q)
+  );
+}
+
+function followUpOperationLabel(query: string): string {
+  const q = normalize(query);
+
+  if (/\b(recovery test|recover|recovery)\b/.test(q)) return "RECOVERY TEST";
+  if (/\b(failure mode|forced failure|force.*failure)\b/.test(q)) return "FAILURE MODE";
+  if (/\b(falsif|easiest to falsify|critical requirement)\b/.test(q)) return "FALSIFICATION TARGET";
+  if (/\b(boundary|operating envelope|limit)\b/.test(q)) return "BOUNDARY TEST";
+  if (/\b(counterevidence|alternative|competing explanation)\b/.test(q)) return "COUNTEREVIDENCE";
+  if (/\b(replication|independent verification)\b/.test(q)) return "REPLICATION";
+  if (/\b(measurement|measured quantity)\b/.test(q)) return "MEASUREMENT";
+  return "FOLLOW-UP OPERATION";
+}
+
 function getLockedClaimIdentity(
   previousMessages: DialogueMessage[],
   signal: SignalItem | null,
@@ -6436,7 +6590,9 @@ function getLockedClaimIdentity(
     const message = previousMessages[index];
     if (message.role !== "episteme") continue;
     const identity = message.intelligence?.claimIdentity;
-    if (identity?.signalId === signal.id) return identity;
+    if (identity?.signalId === signal.id) {
+      return canonicalizeClaimIdentity(signal, identity);
+    }
   }
   return null;
 }
@@ -7914,6 +8070,14 @@ function buildAdaptiveScholarlyResponse(args: {
   const strategy = MODE_REASONING_STRATEGIES[mode];
   const isObjectFollowUp =
     conversationIntent === "FOLLOW_UP";
+  const followUpTask =
+    isObjectFollowUp
+      ? `Case continuation · ${followUpOperationLabel(query)}`
+      : strategy.intellectualTask;
+  const followUpQuestion =
+    isObjectFollowUp
+      ? ""
+      : strategy.governingQuestion;
 
   const articleEssence =
     mode === "ask" &&
@@ -8281,7 +8445,7 @@ function buildAdaptiveScholarlyResponse(args: {
     thesis;
 
   const plainText = [
-    `${strategy.intellectualTask.toUpperCase()}`,
+    `${followUpTask.toUpperCase()}`,
     thesis,
     ...orderedSections.map(
       (section) => `${section.label.toUpperCase()}\n${section.body}`,
@@ -8293,8 +8457,8 @@ function buildAdaptiveScholarlyResponse(args: {
   return {
     mode,
     modeLabel: mode.toUpperCase(),
-    intellectualTask: strategy.intellectualTask,
-    governingQuestion: strategy.governingQuestion,
+    intellectualTask: followUpTask,
+    governingQuestion: followUpQuestion,
     thesis: askSynthesis?.directAnswer || thesis,
     abstract,
     sections: orderedSections,
@@ -11184,6 +11348,53 @@ function buildAstraCoreState(args: {
           steeringDirective: steering.directive,
         };
 
+  const reusablePriorCase =
+    args.conversationIntent === "FOLLOW_UP" &&
+    Boolean(previousCore) &&
+    (
+      previousCore?.closureProtocol.status === "BOUNDED" ||
+      previousCore?.closureProtocol.status === "CLOSED"
+    ) &&
+    !followUpRequiresCaseReopen(args.query);
+
+  if (reusablePriorCase && previousCore) {
+    const operation = followUpOperationLabel(args.query);
+
+    return {
+      ...previousCore,
+      caseReuse: {
+        mode: "REUSED_OPERATION",
+        operation,
+        canonicalClaim: canonicalClaimForCase(args.claimIdentity),
+        rationale:
+          "The active Case is already bounded or closed, the epistemic object is unchanged, and this follow-up introduces no new evidence. Episteme reuses the established Case State and executes only the requested operation.",
+      },
+      mission: {
+        ...mission,
+        objective:
+          `Execute ${operation.toLowerCase()} on the canonical claim without replaying Case research, Goal work, Completion, or Closure.`,
+      },
+      iterativeWorkCycles: [],
+      escalation: {
+        level: "NONE",
+        subtaskId: null,
+        goalId: null,
+        reason:
+          "No escalation is required because this follow-up reuses the existing bounded Case State.",
+        action:
+          "Execute only the requested follow-up operation. Reopen the Case only if new qualified evidence or a new object is introduced.",
+      },
+      caseState: {
+        ...previousCore.caseState,
+        previousState: previousCore.caseState.state,
+        transition:
+          `${previousCore.caseState.state} → ${previousCore.caseState.state}`,
+        rationale:
+          "Bounded Case State reused for an operation-specific follow-up; no epistemic state mutation occurred.",
+      },
+    };
+  }
+
   const initialPlan = buildInitialAdaptiveWorkPlan({
     mission,
     conversationIntent: args.conversationIntent,
@@ -11345,6 +11556,13 @@ function buildAstraCoreState(args: {
   });
 
   return {
+    caseReuse: {
+      mode: "FRESH_CASE",
+      operation: null,
+      canonicalClaim: canonicalClaimForCase(args.claimIdentity),
+      rationale:
+        "A fresh Case execution established or re-evaluated the current epistemic state.",
+    },
     mission,
     goalTree,
     autonomousSubtasks,
@@ -11809,8 +12027,12 @@ function buildIntelligence(
   const previousClaimIdentity = objectResolution.isFollowUp
     ? getLockedClaimIdentity(previousMessages, primarySignal)
     : null;
-  const claimIdentity =
+  const baseClaimIdentity =
     previousClaimIdentity ?? buildEpistemicClaimIdentity(primarySignal);
+  const claimIdentity =
+    primarySignal && baseClaimIdentity
+      ? canonicalizeClaimIdentity(primarySignal, baseClaimIdentity)
+      : baseClaimIdentity;
 
   const epistemicParse =
     primarySignal && claimIdentity
@@ -12309,6 +12531,18 @@ function buildIntelligence(
 
   const interpretation = adaptiveResponse.plainText;
 
+  const continueInquiryItems = buildCaseAwareContinueInquiry({
+    astraCore,
+    claimIdentity,
+    contract: epistemicContract,
+    audit: unifiedEvidenceAudit,
+    fallback: nextQuestions,
+  });
+
+  nextQuestions = continueInquiryItems.map(
+    (item) => item.question,
+  );
+
   return {
     interpretation,
     evidence,
@@ -12332,6 +12566,250 @@ function buildIntelligence(
   };
 }
 
+
+
+function buildCaseAwareContinueInquiry(args: {
+  astraCore: AstraCoreState | undefined;
+  claimIdentity: EpistemicClaimIdentity | null;
+  contract: EpistemicContract;
+  audit: EvidenceAudit;
+  fallback: string[];
+}): ContinueInquiryItem[] {
+  const {
+    astraCore,
+    claimIdentity,
+    contract,
+    audit,
+    fallback,
+  } = args;
+
+  const items: ContinueInquiryItem[] = [];
+  const canonicalClaim =
+    astraCore?.caseReuse.canonicalClaim ||
+    canonicalClaimForCase(claimIdentity) ||
+    claimIdentity?.coreClaim ||
+    null;
+
+  const workNodes = astraCore?.unifiedWorkState.nodes ?? [];
+  const unresolved = workNodes.filter(
+    (node) => node.state !== "SATISFIED",
+  );
+
+  const hasGoal = (kind: CaseGoalKind) =>
+    unresolved.some((node) => node.kind === kind);
+
+  const criticalMissing = audit.requirements.filter(
+    (requirement) =>
+      requirement.critical &&
+      ![
+        "SUPPORTED",
+        "VERIFIED",
+        "INDEPENDENTLY_VERIFIED",
+      ].includes(requirement.status),
+  );
+
+  if (hasGoal("EVIDENCE") || criticalMissing.length > 0) {
+    const first = criticalMissing[0]?.requirement;
+    items.push({
+      question: first
+        ? `What is the highest-information test for the missing requirement: ${first}?`
+        : "Which missing evidence requirement would most change the current conclusion?",
+      purpose:
+        "Targets the highest-value unresolved evidence burden instead of asking another broad explanatory question.",
+      target: "EVIDENCE",
+      priority: 10,
+    });
+  }
+
+  if (hasGoal("COUNTEREVIDENCE")) {
+    items.push({
+      question:
+        "What is the strongest competing explanation that could reproduce the same reported result?",
+      purpose:
+        "Attempts to break the current interpretation with a genuinely competing mechanism or implementation.",
+      target: "COUNTEREVIDENCE",
+      priority: 20,
+    });
+  }
+
+  if (hasGoal("BOUNDARY")) {
+    items.push({
+      question:
+        "Which operating condition would most likely make this claim stop generalizing?",
+      purpose:
+        "Searches for the narrowest defensible boundary before transfer or scale.",
+      target: "BOUNDARY",
+      priority: 30,
+    });
+  }
+
+  if (claimIdentity?.claimType === "ENGINEERING / CONSTRUCTIVE") {
+    items.push({
+      question:
+        "Which failure mode should be forced first, and what recovery criterion would make scaling permissible?",
+      purpose:
+        "Combines stress, containment, recovery, and scaling into one object-specific engineering decision.",
+      target: "REALITY_TEST",
+      priority: 35,
+    });
+  }
+
+  if (hasGoal("SYNTHESIS")) {
+    items.push({
+      question:
+        "What is the strongest conclusion that survives the current evidence boundary without adding assumptions?",
+      purpose:
+        "Produces the narrowest defensible synthesis rather than repeating the article summary.",
+      target: "SYNTHESIS",
+      priority: 40,
+    });
+  }
+
+  if (
+    astraCore?.closureProtocol.status === "BOUNDED" ||
+    astraCore?.closureProtocol.status === "CLOSED"
+  ) {
+    items.push({
+      question:
+        "What new evidence would be sufficient to reopen this bounded Case and materially change its state?",
+      purpose:
+        "Makes the Case reopen condition operational and evidence-specific.",
+      target: "CASE",
+      priority: 50,
+    });
+  }
+
+  if (canonicalClaim) {
+    items.push({
+      question:
+        `What would falsify the canonical claim without changing the object being tested?`,
+      purpose:
+        `Keeps the next inquiry bound to the current canonical claim: ${canonicalClaim}`,
+      target: "CLAIM_CONTRACT",
+      priority: 60,
+    });
+  }
+
+  for (const question of fallback) {
+    items.push({
+      question,
+      purpose:
+        "Contract-derived continuation retained as a lower-priority fallback.",
+      target: "CASE",
+      priority: 90,
+    });
+  }
+
+  const seen = new Set<string>();
+  return items
+    .sort((a, b) => a.priority - b.priority)
+    .filter((item) => {
+      const key = normalize(item.question);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .slice(0, 4);
+}
+
+function buildRelatedSignalReports(args: {
+  intelligence: IntelligenceObject;
+  signalMap: Map<string, SignalItem>;
+}): RelatedSignalReport[] {
+  const { intelligence, signalMap } = args;
+  const primaryId =
+    intelligence.claimIdentity?.signalId ??
+    intelligence.contextAssessment.find(
+      (item) => item.role === "PRIMARY",
+    )?.signalId ??
+    null;
+
+  const gates =
+    intelligence.astraCore?.relationGates ?? [];
+
+  const gateById = new Map(
+    gates.map((gate) => [gate.signalId, gate]),
+  );
+
+  const candidateIds = Array.from(
+    new Set([
+      ...gates
+        .filter((gate) => gate.contextUse !== "REJECT")
+        .map((gate) => gate.signalId),
+      ...intelligence.contextAssessment
+        .filter(
+          (item) =>
+            item.role !== "PRIMARY" &&
+            item.role !== "WEAKLY RELATED",
+        )
+        .map((item) => item.signalId),
+    ]),
+  ).filter((id) => id !== primaryId);
+
+  return candidateIds
+    .map((id): RelatedSignalReport | null => {
+      const signal = signalMap.get(id);
+      if (!signal) return null;
+
+      const gate = gateById.get(id);
+      const assessment = intelligence.contextAssessment.find(
+        (item) => item.signalId === id,
+      );
+
+      const role: EvidenceContextUse =
+        gate?.contextUse ??
+        (assessment?.role === "COMPETING"
+          ? "BOUNDARY_CONTEXT"
+          : "BACKGROUND_CONTEXT");
+
+      const evidenceUse =
+        role === "EVIDENCE"
+          ? "May update the Evidence State if the claim-specific requirement is satisfied."
+          : role === "BOUNDARY_CONTEXT"
+            ? "May constrain transfer, scale, or interpretation; cannot strengthen the core Evidence State."
+            : "Reference context only; cannot satisfy a Goal or strengthen the Evidence State.";
+
+      const whyRelevant =
+        gate?.rationale ||
+        (
+          assessment
+            ? `Context assessment classified this Signal as ${assessment.role.replaceAll("_", " ")} with relation score ${assessment.score}. This is a contextual relation only unless the Evidence Relation Gate explicitly upgrades its epistemic role.`
+            : "Related by the current Case context, but not promoted beyond its qualified epistemic role."
+        );
+
+      const reportSummary =
+        sanitizeSignalSummary(signal.summary) ||
+        stripTerminalPunctuation(signal.title);
+
+      return {
+        signal,
+        role,
+        relationScore:
+          gate?.relationScore ??
+          assessment?.score ??
+          0,
+        matchedDimensions:
+          gate?.matchedDimensions ?? [],
+        whyRelevant,
+        evidenceUse,
+        reportSummary,
+      };
+    })
+    .filter((item): item is RelatedSignalReport => item !== null)
+    .sort((a, b) => {
+      const rank: Record<EvidenceContextUse, number> = {
+        EVIDENCE: 0,
+        BOUNDARY_CONTEXT: 1,
+        BACKGROUND_CONTEXT: 2,
+        REJECT: 3,
+      };
+      return (
+        rank[a.role] - rank[b.role] ||
+        b.relationScore - a.relationScore
+      );
+    })
+    .slice(0, 5);
+}
 
 function classifySignalSpaceKnowledgeKind(
   signal: SignalItem | null,
@@ -13492,6 +13970,14 @@ useEffect(() => {
                 const primarySignalId =
                   message.intelligence?.claimIdentity?.signalId ?? null;
 
+                const relatedSignalReports =
+                  message.intelligence
+                    ? buildRelatedSignalReports({
+                        intelligence: message.intelligence,
+                        signalMap,
+                      })
+                    : [];
+
                 const attachedSignals =
                   message
                     .intelligence
@@ -13587,7 +14073,33 @@ useEffect(() => {
                             </p>
                           </div>
 
-                          {message.intelligence.astraCore?.workLedger && (
+                          {message.intelligence.astraCore?.caseReuse.mode === "REUSED_OPERATION" && (
+                            <div className="ep-case-reuse">
+                              <div className="ep-case-reuse__head">
+                                <div>
+                                  <span>CASE CONTINUATION</span>
+                                  <strong>BOUNDED CASE REUSED</strong>
+                                </div>
+                                <small>
+                                  {message.intelligence.astraCore.caseReuse.operation}
+                                </small>
+                              </div>
+                              <div className="ep-case-reuse__claim">
+                                <span>CANONICAL CLAIM</span>
+                                <p>
+                                  {message.intelligence.astraCore.caseReuse.canonicalClaim ||
+                                    message.intelligence.claimIdentity?.coreClaim ||
+                                    "Canonical claim unavailable."}
+                                </p>
+                              </div>
+                              <p className="ep-case-reuse__note">
+                                {message.intelligence.astraCore.caseReuse.rationale}
+                              </p>
+                            </div>
+                          )}
+
+                          {message.intelligence.astraCore?.workLedger &&
+                           message.intelligence.astraCore.caseReuse.mode !== "REUSED_OPERATION" && (
                             <div className="ep-agent-work">
                               <div className="ep-agent-work__head">
                                 <div>
@@ -13776,7 +14288,11 @@ useEffect(() => {
                                         <strong>{step.label}</strong>
                                         <p>{step.trigger}</p>
                                       </div>
-                                      <span>{step.status}</span>
+                                      <span>
+                                        {step.assessment
+                                          ? `${step.assessment.executionState} · ${step.assessment.epistemicState}`
+                                          : step.status}
+                                      </span>
                                     </div>
                                   ))}
                                 </div>
@@ -14146,98 +14662,150 @@ useEffect(() => {
                         {/* =================================
                             SIGNALS
                         ================================= */}
-                        <div className="ep-intelligence__signals">
+                        <div className="ep-intelligence__signals ep-related-reports">
                           <div className="ep-intelligence__signal-head">
-                            <span className="ep-intelligence__label">
-                              RELATED INTELLIGENCE
-                            </span>
+                            <div>
+                              <span className="ep-intelligence__label">
+                                RELATED SIGNAL REPORTS
+                              </span>
+                              <small>
+                                Qualified references · Evidence role preserved
+                              </small>
+                            </div>
                             <small>
-                              {attachedSignals.length} SIGNALS
+                              {relatedSignalReports.length} REPORTS
                             </small>
                           </div>
-                          {attachedSignals.length === 0 ? (
+
+                          {relatedSignalReports.length === 0 ? (
                             <p className="ep-intelligence__signals-empty">
-                              No qualified related intelligence found.
+                              No qualified related Signal currently passes the Case reference boundary.
                             </p>
                           ) : (
-                            <>
-                              {attachedSignals
-                                .slice(
-                                  0,
-                                  3,
-                                )
-                                .map(
-                                  (
-                                    signal,
-                                  ) => (
-                                  <button
-                                    key={
-                                      signal.id
-                                    }
-                                    type="button"
-                                    onClick={() => {
-                                      setMode(
-                                        "ask",
-                                      );
-                                      submitQuestion(
-                                        `Explain the significance of: ${signal.title}`,
-                                        "ask",
-                                      );
-                                    }}
-                                  >
-                                    <small>
-                                      {
-                                        signal.category
-                                      }
-                                    </small>
-                                    <strong>
-                                      {
-                                        signal.title
-                                      }
-                                    </strong>
+                            <div className="ep-related-reports__grid">
+                              {relatedSignalReports.map((report, reportIndex) => (
+                                <article
+                                  key={report.signal.id}
+                                  className={[
+                                    "ep-related-report",
+                                    `is-${report.role.toLowerCase().replaceAll("_", "-")}`,
+                                  ].join(" ")}
+                                >
+                                  <header className="ep-related-report__head">
+                                    <div>
+                                      <small>REFERENCE REPORT {String(reportIndex + 1).padStart(2, "0")}</small>
+                                      <strong>{report.role.replaceAll("_", " ")}</strong>
+                                    </div>
                                     <span>
-                                      ASK →
+                                      RELATION {report.relationScore}
                                     </span>
-                                  </button>
-                                ),
-                              )}
-                            </>
+                                  </header>
+
+                                  <div className="ep-related-report__source">
+                                    <small>
+                                      {report.signal.category}
+                                      {report.signal.source ? ` · ${report.signal.source}` : ""}
+                                    </small>
+                                    <h4>{report.signal.title}</h4>
+                                  </div>
+
+                                  <div className="ep-related-report__section">
+                                    <span>SIGNAL ABSTRACT</span>
+                                    <p>{report.reportSummary}</p>
+                                  </div>
+
+                                  <div className="ep-related-report__section">
+                                    <span>WHY IT IS RELATED</span>
+                                    <p>{report.whyRelevant}</p>
+                                  </div>
+
+                                  <div className="ep-related-report__section">
+                                    <span>EPISTEMIC USE</span>
+                                    <p>{report.evidenceUse}</p>
+                                  </div>
+
+                                  {report.matchedDimensions.length > 0 && (
+                                    <div className="ep-related-report__dimensions">
+                                      {report.matchedDimensions.map((dimension) => (
+                                        <small key={dimension}>
+                                          {dimension.replaceAll("_", " ")}
+                                        </small>
+                                      ))}
+                                    </div>
+                                  )}
+
+                                  <div className="ep-related-report__actions">
+                                    <button
+                                      type="button"
+                                      onClick={() => {
+                                        setMode("ask");
+                                        submitQuestion(
+                                          `Explain why this related signal matters to the current Case: ${report.signal.title}`,
+                                          "ask",
+                                        );
+                                      }}
+                                    >
+                                      ANALYZE IN CASE →
+                                    </button>
+                                    {report.signal.url && (
+                                      <a
+                                        href={report.signal.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                      >
+                                        SOURCE ↗
+                                      </a>
+                                    )}
+                                  </div>
+                                </article>
+                              ))}
+                            </div>
                           )}
                         </div>
                         {/* =================================
                             FOLLOW UPS
                         ================================= */}
-                        <div className="ep-intelligence__followups">
-                          <span className="ep-intelligence__label">
-                            CONTINUE INQUIRY
-                          </span>
-                          {message
-                            .intelligence
-                            .nextQuestions
-                            .map(
-                              (
-                                question,
-                              ) => (
-                                <button
-                                  key={
-                                    question
-                                  }
-                                  type="button"
-                                  onClick={() => {
-                                    submitQuestion(
-                                      question,
-                                    );
-                                  }}
-                                >
-                                  {
-                                    question
-                                  }
-                                  <span>
-                                    →
-                                  </span>
-                                </button>
-                              ),
-                            )}
+                        <div className="ep-intelligence__followups ep-continue-inquiry">
+                          <div className="ep-continue-inquiry__head">
+                            <div>
+                              <span className="ep-intelligence__label">
+                                CONTINUE INQUIRY
+                              </span>
+                              <strong>HIGHEST-INFORMATION NEXT MOVES</strong>
+                            </div>
+                            <small>
+                              Case-aware · claim-bound · evidence-sensitive
+                            </small>
+                          </div>
+
+                          <div className="ep-continue-inquiry__grid">
+                            {buildCaseAwareContinueInquiry({
+                              astraCore: message.intelligence.astraCore,
+                              claimIdentity: message.intelligence.claimIdentity,
+                              contract: message.intelligence.epistemicContract,
+                              audit: message.intelligence.evidenceAudit,
+                              fallback: message.intelligence.nextQuestions,
+                            }).map((item, index) => (
+                              <button
+                                key={item.question}
+                                type="button"
+                                className="ep-continue-inquiry__card"
+                                onClick={() => {
+                                  submitQuestion(item.question);
+                                }}
+                              >
+                                <div className="ep-continue-inquiry__meta">
+                                  <small>
+                                    NEXT {String(index + 1).padStart(2, "0")}
+                                  </small>
+                                  <span>{item.target.replaceAll("_", " ")}</span>
+                                </div>
+                                <strong>{item.question}</strong>
+                                <p>{item.purpose}</p>
+                                <i>CONTINUE →</i>
+                              </button>
+                            ))}
+                          </div>
                         </div>
                         {/* =================================
                             MESSAGE ACTIONS
@@ -22758,6 +23326,447 @@ useEffect(() => {
           color: rgba(255,255,255,.34);
           font-size: 8px;
           line-height: 1.6;
+        }
+
+
+        /* ==================================================
+           BOUNDED CASE REUSE · STAGE 6.9.7
+        ================================================== */
+        .ep-case-reuse {
+          position: relative;
+          overflow: hidden;
+          margin-top: 12px;
+          padding: 15px;
+          border: 1px solid rgba(255,255,255,.075);
+          border-radius: 16px;
+          background:
+            radial-gradient(circle at 16% 0%, rgba(255,255,255,.04), transparent 34%),
+            rgba(5,5,5,.78);
+          box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.04),
+            0 18px 50px rgba(0,0,0,.18);
+          backdrop-filter: blur(18px) saturate(112%);
+        }
+
+        .ep-case-reuse__head {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 10px 16px;
+        }
+
+        .ep-case-reuse__head > div {
+          min-width: 0;
+        }
+
+        .ep-case-reuse__head span,
+        .ep-case-reuse__claim span {
+          display: block;
+          color: rgba(255,255,255,.38);
+          font-size: 7px;
+          letter-spacing: .18em;
+          text-transform: uppercase;
+        }
+
+        .ep-case-reuse__head strong {
+          display: block;
+          margin-top: 4px;
+          color: rgba(255,255,255,.9);
+          font-size: 10px;
+          font-weight: 500;
+          letter-spacing: .08em;
+        }
+
+        .ep-case-reuse__head small {
+          color: rgba(255,255,255,.48);
+          font-size: 8px;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+        }
+
+        .ep-case-reuse__claim {
+          margin-top: 13px;
+          padding-top: 12px;
+          border-top: 1px solid rgba(255,255,255,.05);
+        }
+
+        .ep-case-reuse__claim p,
+        .ep-case-reuse__note {
+          margin: 6px 0 0;
+          color: rgba(255,255,255,.68);
+          font-size: 9px;
+          line-height: 1.7;
+        }
+
+        .ep-case-reuse__note {
+          color: rgba(255,255,255,.38);
+        }
+
+
+        /* ==================================================
+           STAGE 6.9.8 · DESKTOP BLACK GLASS SYSTEM
+           PC adopts the mobile-style near-black translucent
+           glass language across Case + response surfaces.
+        ================================================== */
+        @media (min-width: 900px) {
+          .ep-message--episteme {
+            max-width: min(1180px, calc(100vw - 390px));
+          }
+
+          .ep-message--episteme > header {
+            margin-bottom: 8px;
+            padding: 0 4px;
+          }
+
+          .ep-message--episteme .ep-message__body {
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,.075);
+            border-radius: 22px;
+            background:
+              radial-gradient(circle at 12% -8%, rgba(255,255,255,.055), transparent 30%),
+              linear-gradient(145deg, rgba(14,14,14,.82), rgba(3,3,3,.72));
+            box-shadow:
+              inset 0 1px 0 rgba(255,255,255,.05),
+              inset 0 -1px 0 rgba(255,255,255,.015),
+              0 30px 90px rgba(0,0,0,.24);
+            backdrop-filter: blur(24px) saturate(118%);
+            -webkit-backdrop-filter: blur(24px) saturate(118%);
+          }
+
+          .ep-message--episteme .ep-message__body::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background:
+              linear-gradient(115deg, rgba(255,255,255,.028), transparent 22%, transparent 76%, rgba(255,255,255,.012));
+          }
+
+          .ep-scholarly {
+            position: relative;
+            z-index: 1;
+            padding: 18px;
+          }
+
+          .ep-scholarly__meta,
+          .ep-scholarly__hero,
+          .ep-agent-work,
+          .ep-case-reuse,
+          .ep-inquiry,
+          .ep-intelligence__signals,
+          .ep-intelligence__followups {
+            border-color: rgba(255,255,255,.07) !important;
+            background:
+              radial-gradient(circle at 14% 0%, rgba(255,255,255,.035), transparent 30%),
+              rgba(6,6,6,.54) !important;
+            box-shadow:
+              inset 0 1px 0 rgba(255,255,255,.035),
+              0 16px 45px rgba(0,0,0,.12);
+            backdrop-filter: blur(18px) saturate(112%);
+            -webkit-backdrop-filter: blur(18px) saturate(112%);
+          }
+
+          .ep-scholarly__hero {
+            margin-top: 10px;
+            padding: 18px;
+            border: 1px solid rgba(255,255,255,.07);
+            border-radius: 16px;
+          }
+
+          .ep-scholarly__section,
+          .ep-evidence-state,
+          .ep-inquiry__stage,
+          .ep-demonstration-state {
+            border-color: rgba(255,255,255,.055) !important;
+            background: rgba(255,255,255,.018) !important;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.025);
+          }
+
+          .ep-case-state-machine,
+          .ep-unified-work-state,
+          .ep-case-goal-tree,
+          .ep-case-subtasks,
+          .ep-case-loop,
+          .ep-case-completion,
+          .ep-case-closure,
+          .ep-agent-work__mission,
+          .ep-agent-work__plan,
+          .ep-agent-work__research,
+          .ep-agent-work__ledger {
+            border: 1px solid rgba(255,255,255,.055) !important;
+            border-radius: 15px;
+            background:
+              linear-gradient(150deg, rgba(255,255,255,.018), rgba(255,255,255,.006)) !important;
+            box-shadow:
+              inset 0 1px 0 rgba(255,255,255,.025),
+              0 12px 34px rgba(0,0,0,.08);
+          }
+
+          .ep-message__actions {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,.05);
+          }
+
+          .ep-message__actions button {
+            border: 1px solid rgba(255,255,255,.06);
+            background: rgba(255,255,255,.018);
+            border-radius: 10px;
+          }
+
+          .ep-message__actions button:hover {
+            background: rgba(255,255,255,.045);
+            border-color: rgba(255,255,255,.12);
+          }
+        }
+
+        /* ==================================================
+           RELATED SIGNAL · MINI INTELLIGENCE REPORTS
+        ================================================== */
+        .ep-related-reports {
+          margin-top: 12px;
+          padding: 14px;
+          border: 1px solid rgba(255,255,255,.06);
+          border-radius: 16px;
+        }
+
+        .ep-related-reports .ep-intelligence__signal-head {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 10px 16px;
+          flex-wrap: wrap;
+          margin-bottom: 12px;
+        }
+
+        .ep-related-reports .ep-intelligence__signal-head > div small {
+          display: block;
+          margin-top: 4px;
+          color: rgba(255,255,255,.32);
+          font-size: 7px;
+          letter-spacing: .08em;
+        }
+
+        .ep-related-reports__grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 10px;
+        }
+
+        .ep-related-report {
+          min-width: 0;
+          padding: 14px;
+          border: 1px solid rgba(255,255,255,.055);
+          border-radius: 14px;
+          background:
+            radial-gradient(circle at 8% 0%, rgba(255,255,255,.03), transparent 30%),
+            rgba(3,3,3,.54);
+          box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.025),
+            0 12px 34px rgba(0,0,0,.1);
+        }
+
+        .ep-related-report__head {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 12px;
+        }
+
+        .ep-related-report__head small,
+        .ep-related-report__head span,
+        .ep-related-report__section > span {
+          color: rgba(255,255,255,.34);
+          font-size: 7px;
+          letter-spacing: .13em;
+          text-transform: uppercase;
+        }
+
+        .ep-related-report__head strong {
+          display: block;
+          margin-top: 4px;
+          color: rgba(255,255,255,.76);
+          font-size: 8px;
+          letter-spacing: .08em;
+        }
+
+        .ep-related-report__source {
+          margin-top: 12px;
+          padding-top: 11px;
+          border-top: 1px solid rgba(255,255,255,.045);
+        }
+
+        .ep-related-report__source small {
+          color: rgba(255,255,255,.32);
+          font-size: 7px;
+        }
+
+        .ep-related-report__source h4 {
+          margin: 5px 0 0;
+          color: rgba(255,255,255,.9);
+          font-size: 11px;
+          line-height: 1.45;
+          font-weight: 500;
+        }
+
+        .ep-related-report__section {
+          margin-top: 11px;
+        }
+
+        .ep-related-report__section p {
+          margin: 4px 0 0;
+          color: rgba(255,255,255,.54);
+          font-size: 8px;
+          line-height: 1.65;
+        }
+
+        .ep-related-report__dimensions {
+          display: flex;
+          gap: 5px;
+          flex-wrap: wrap;
+          margin-top: 11px;
+        }
+
+        .ep-related-report__dimensions small {
+          padding: 4px 6px;
+          border: 1px solid rgba(255,255,255,.055);
+          border-radius: 999px;
+          color: rgba(255,255,255,.35);
+          font-size: 6px;
+          letter-spacing: .08em;
+        }
+
+        .ep-related-report__actions {
+          display: flex;
+          gap: 7px;
+          align-items: center;
+          margin-top: 12px;
+        }
+
+        .ep-related-report__actions button,
+        .ep-related-report__actions a {
+          padding: 7px 9px;
+          border: 1px solid rgba(255,255,255,.07);
+          border-radius: 9px;
+          background: rgba(255,255,255,.018);
+          color: rgba(255,255,255,.62);
+          font-size: 7px;
+          letter-spacing: .06em;
+          text-decoration: none;
+        }
+
+        .ep-related-report__actions button:hover,
+        .ep-related-report__actions a:hover {
+          border-color: rgba(255,255,255,.13);
+          background: rgba(255,255,255,.04);
+          color: rgba(255,255,255,.85);
+        }
+
+        /* ==================================================
+           CONTINUE INQUIRY · HIGHEST INFORMATION NEXT MOVES
+        ================================================== */
+        .ep-continue-inquiry {
+          margin-top: 12px;
+          padding: 14px;
+          border: 1px solid rgba(255,255,255,.06);
+          border-radius: 16px;
+        }
+
+        .ep-continue-inquiry__head {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 10px 16px;
+          flex-wrap: wrap;
+          margin-bottom: 11px;
+        }
+
+        .ep-continue-inquiry__head strong {
+          display: block;
+          margin-top: 4px;
+          color: rgba(255,255,255,.7);
+          font-size: 8px;
+          letter-spacing: .12em;
+        }
+
+        .ep-continue-inquiry__head > small {
+          color: rgba(255,255,255,.3);
+          font-size: 7px;
+        }
+
+        .ep-continue-inquiry__grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+        }
+
+        .ep-continue-inquiry__card {
+          display: block !important;
+          width: 100%;
+          min-width: 0;
+          padding: 13px !important;
+          text-align: left !important;
+          border: 1px solid rgba(255,255,255,.055) !important;
+          border-radius: 13px !important;
+          background:
+            radial-gradient(circle at 5% 0%, rgba(255,255,255,.028), transparent 28%),
+            rgba(4,4,4,.5) !important;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.02);
+        }
+
+        .ep-continue-inquiry__card:hover {
+          border-color: rgba(255,255,255,.12) !important;
+          background: rgba(255,255,255,.03) !important;
+          transform: translateY(-1px);
+        }
+
+        .ep-continue-inquiry__meta {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 8px;
+        }
+
+        .ep-continue-inquiry__meta small,
+        .ep-continue-inquiry__meta span {
+          color: rgba(255,255,255,.3);
+          font-size: 6px;
+          letter-spacing: .12em;
+          text-transform: uppercase;
+        }
+
+        .ep-continue-inquiry__card > strong {
+          display: block;
+          margin-top: 8px;
+          color: rgba(255,255,255,.84);
+          font-size: 9px;
+          line-height: 1.55;
+          font-weight: 500;
+        }
+
+        .ep-continue-inquiry__card > p {
+          margin: 7px 0 0;
+          color: rgba(255,255,255,.4);
+          font-size: 7px;
+          line-height: 1.6;
+        }
+
+        .ep-continue-inquiry__card > i {
+          display: block;
+          margin-top: 9px;
+          color: rgba(255,255,255,.48);
+          font-size: 6px;
+          letter-spacing: .12em;
+          font-style: normal;
+        }
+
+        @media (max-width: 899px) {
+          .ep-related-reports__grid,
+          .ep-continue-inquiry__grid {
+            grid-template-columns: 1fr;
+          }
         }
 
       `}
