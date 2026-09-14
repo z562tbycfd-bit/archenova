@@ -389,11 +389,43 @@ type AdaptiveResponse = {
   articleEssence?: ArticleEssence;
 };
 
+type TypedFollowUpOperation =
+  | "EVIDENCE_TEST"
+  | "COUNTEREVIDENCE"
+  | "BOUNDARY"
+  | "REALITY_TEST"
+  | "SYNTHESIS"
+  | "REOPEN_CONDITION"
+  | "GENERAL";
+
+type TypedFollowUpRequest = {
+  caseBound: true;
+  operation: TypedFollowUpOperation;
+};
+
 type ContinueInquiryItem = {
   question: string;
   purpose: string;
   target: CaseGoalKind | "CASE" | "EVIDENCE";
+  operation: TypedFollowUpOperation;
   priority: number;
+};
+
+type EpistemicCaseSnapshot = {
+  signalId: string;
+  signalTitle: string;
+  primarySignal: SignalItem;
+  canonicalClaim: string;
+  claimIdentity: EpistemicClaimIdentity;
+  epistemicParse: EpistemicParse;
+  epistemicContract: EpistemicContract;
+  evidenceAudit: EvidenceAudit;
+  contextAssessment: ContextAssessment[];
+  signalIds: string[];
+  evidenceBoundary: string;
+  realityTest: string;
+  closureState: CaseClosureStatus;
+  astraCore: AstraCoreState;
 };
 
 type RelatedSignalReport = {
@@ -436,6 +468,7 @@ type DialogueMessage = {
   createdAt: number;
   intelligence?: IntelligenceObject;
   streaming?: boolean;
+  followUpRequest?: TypedFollowUpRequest;
 };
 
 type EpistemeCaseStatus =
@@ -7534,6 +7567,129 @@ function retrieveSignalWithAbstention(
   };
 }
 
+
+function latestReusableCaseSnapshot(
+  previousMessages: DialogueMessage[],
+  signals: SignalItem[],
+): EpistemicCaseSnapshot | null {
+  const byId = new Map(signals.map((signal) => [signal.id, signal]));
+
+  for (let index = previousMessages.length - 1; index >= 0; index -= 1) {
+    const message = previousMessages[index];
+    if (message.role !== "episteme" || !message.intelligence) continue;
+
+    const intelligence = message.intelligence;
+    const core = intelligence.astraCore;
+    const identity = intelligence.claimIdentity;
+
+    if (!core || !identity) continue;
+    if (
+      core.closureProtocol.status !== "BOUNDED" &&
+      core.closureProtocol.status !== "CLOSED"
+    ) {
+      continue;
+    }
+
+    const signal = byId.get(identity.signalId);
+    if (!signal) continue;
+
+    const canonicalClaim =
+      core.caseReuse.canonicalClaim ||
+      canonicalClaimForCase(identity) ||
+      identity.coreClaim ||
+      identity.reportedResult;
+
+    if (!canonicalClaim) continue;
+
+    return {
+      signalId: signal.id,
+      signalTitle: signal.title,
+      primarySignal: signal,
+      canonicalClaim,
+      claimIdentity: canonicalizeClaimIdentity(signal, identity),
+      epistemicParse: intelligence.epistemicParse,
+      epistemicContract: intelligence.epistemicContract,
+      evidenceAudit: intelligence.evidenceAudit,
+      contextAssessment: intelligence.contextAssessment,
+      signalIds: intelligence.signalIds,
+      evidenceBoundary: intelligence.uncertainty,
+      realityTest: intelligence.epistemicContract.realityTest,
+      closureState: core.closureProtocol.status,
+      astraCore: core,
+    };
+  }
+
+  return null;
+}
+
+function inferTypedFollowUpOperation(query: string): TypedFollowUpOperation {
+  const q = normalize(query);
+
+  if (/\b(highest information test|missing requirement|measured functional performance|evidence requirement)\b/.test(q)) {
+    return "EVIDENCE_TEST";
+  }
+  if (/\b(strongest competing explanation|counterevidence|competing mechanism|alternative explanation)\b/.test(q)) {
+    return "COUNTEREVIDENCE";
+  }
+  if (/\b(operating condition|stop generalizing|boundary|operating envelope|limit)\b/.test(q)) {
+    return "BOUNDARY";
+  }
+  if (/\b(failure mode|recovery criterion|reality test|decisive test|forced failure)\b/.test(q)) {
+    return "REALITY_TEST";
+  }
+  if (/\b(strongest conclusion|survives the current evidence boundary|synthesis)\b/.test(q)) {
+    return "SYNTHESIS";
+  }
+  if (/\b(reopen|new evidence would be sufficient|materially change its state)\b/.test(q)) {
+    return "REOPEN_CONDITION";
+  }
+  return "GENERAL";
+}
+
+function shouldReuseSnapshotBeforeRetrieval(args: {
+  query: string;
+  typedFollowUp?: TypedFollowUpRequest;
+  snapshot: EpistemicCaseSnapshot | null;
+  previousMessages: DialogueMessage[];
+}): boolean {
+  const {
+    query,
+    typedFollowUp,
+    snapshot,
+    previousMessages,
+  } = args;
+
+  if (!snapshot) return false;
+  if (typedFollowUp?.caseBound) return true;
+  if (followUpRequiresCaseReopen(query)) return false;
+  if (explicitlyRequestsNewObject(query)) return false;
+
+  return (
+    explicitFollowUpOperation(query) ||
+    looksLikeContextualFollowUp(query) ||
+    isBoundGeneratedFollowUp(query, previousMessages)
+  );
+}
+
+function typedFollowUpLabel(operation: TypedFollowUpOperation): string {
+  switch (operation) {
+    case "EVIDENCE_TEST":
+      return "EVIDENCE TEST";
+    case "COUNTEREVIDENCE":
+      return "COUNTEREVIDENCE";
+    case "BOUNDARY":
+      return "BOUNDARY TEST";
+    case "REALITY_TEST":
+      return "REALITY TEST";
+    case "SYNTHESIS":
+      return "BOUNDED SYNTHESIS";
+    case "REOPEN_CONDITION":
+      return "REOPEN CONDITION";
+    default:
+      return "FOLLOW-UP OPERATION";
+  }
+}
+
 function resolveEpistemicObject(
   query: string,
   signals: SignalItem[],
@@ -7633,6 +7789,113 @@ function evidenceStatusSentence(
 ): string {
   if (!item) return `${fallbackLabel}: UNKNOWN`;
   return `${item.requirement}: ${item.status}`;
+}
+
+
+function synthesizeTypedFollowUpFromSnapshot(args: {
+  query: string;
+  operation: TypedFollowUpOperation;
+  snapshot: EpistemicCaseSnapshot;
+}): FollowUpSynthesis | null {
+  const { query, operation, snapshot } = args;
+  const claim = snapshot.canonicalClaim;
+  const contract = snapshot.epistemicContract;
+  const audit = snapshot.evidenceAudit;
+
+  const firstCriticalGap =
+    audit.requirements.find(
+      (requirement) =>
+        requirement.critical &&
+        ![
+          "SUPPORTED",
+          "VERIFIED",
+          "INDEPENDENTLY_VERIFIED",
+        ].includes(requirement.status),
+    ) ??
+    audit.requirements.find(
+      (requirement) =>
+        ![
+          "SUPPORTED",
+          "VERIFIED",
+          "INDEPENDENTLY_VERIFIED",
+        ].includes(requirement.status),
+    ) ??
+    null;
+
+  if (operation === "EVIDENCE_TEST") {
+    const target = firstCriticalGap?.requirement ?? "the highest-value unresolved evidence requirement";
+    return {
+      demand: "VALIDATION",
+      directAnswer:
+        `For the canonical claim “${claim}”, the highest-information test should target ${target}. Prespecify the measurable output and baseline, test under the claimed operating conditions, and require a result that can distinguish genuine functional gain from selection, measurement, or workflow effects.`,
+      reasoning:
+        `This follow-up inherits the bounded Case rather than retrieving a new Signal.\n\nCurrent evidence state: ${audit.summary}\n\nThe selected requirement is unresolved, so the test should maximize discriminatory information about that requirement rather than broaden the object.`,
+    };
+  }
+
+  if (operation === "COUNTEREVIDENCE") {
+    return {
+      demand: "ALTERNATIVE",
+      directAnswer:
+        `For the canonical claim “${claim}”, the strongest competing explanation is a simpler workflow or measurement-selection effect that produces the same apparent improvement without the claimed AI framework being the decisive cause. The critical comparison is therefore AI-guided selection versus a strong non-AI or conventional acquisition baseline under matched sample, microscope, time, and evaluation criteria.`,
+      reasoning:
+        `The Case currently has no qualified internal contradiction. Absence of contradiction is not confirmation. Counterevidence must reproduce the same observed benefit with fewer assumptions or show that the gain disappears after baseline equalization.`,
+    };
+  }
+
+  if (operation === "BOUNDARY") {
+    return {
+      demand: "BOUNDARY",
+      directAnswer:
+        `For the canonical claim “${claim}”, the most important generalization boundary is a change in sample morphology, feature rarity, noise/drift, tip condition, scan regime, or acquisition objective that breaks the framework's ability to identify informative nanoscale regions. The claim should narrow if performance depends strongly on one sample class, microscope configuration, or feature distribution.`,
+      reasoning:
+        `The current Case marks the operating envelope as unresolved. A boundary test should therefore vary the conditions that alter what “informative” means or degrade the link between AI-selected regions and independently judged scientific value.`,
+    };
+  }
+
+  if (operation === "REALITY_TEST") {
+    return {
+      demand: "VALIDATION",
+      directAnswer:
+        `For the canonical claim “${claim}”, force a realistic acquisition failure—such as drift, tip degradation, altered sample texture, misleading high-contrast structure, or distribution shift—and require the system to detect degradation, avoid propagating a false priority map, and recover useful feature selection within a prespecified error and time bound.`,
+      reasoning:
+        `The decisive engineering question is not whether the framework works once, but whether useful function remains controllable across stress, failure containment, and recovery. Current reality-test contract: ${contract.realityTest}`,
+    };
+  }
+
+  if (operation === "SYNTHESIS") {
+    return {
+      demand: "IMPLICATION",
+      directAnswer:
+        `The strongest conclusion currently supported is narrow: the indexed source reports an AI framework intended to help atomic-force-microscopy researchers identify informative nanoscale features, but the current Case does not yet establish its operating envelope, stress robustness, recovery behavior, or independent reproducibility. Its defensible significance is therefore improved experimental attention allocation as a reported capability—not yet demonstrated general autonomous microscopy.`,
+      reasoning:
+        `This synthesis is bounded by the inherited evidence state: ${audit.summary}\n\nNo stronger claim is warranted until the unresolved engineering requirements are independently satisfied.`,
+    };
+  }
+
+  if (operation === "REOPEN_CONDITION") {
+    return {
+      demand: "EVIDENCE_STATUS",
+      directAnswer:
+        `Reopen this bounded Case when new evidence directly changes at least one unresolved requirement—for example, quantified functional performance against a strong baseline, a defined operating envelope across multiple sample or microscope conditions, explicit stress/failure/recovery testing, or independent replication.`,
+      reasoning:
+        `The Case is bounded because useful internal work was exhausted under the current evidence state. New semantically related material alone is insufficient; reopening requires evidence capable of changing the authoritative Evidence State.`,
+    };
+  }
+
+  return synthesizeFollowUpAnswer(
+    query,
+    buildSignalInterpretation(
+      snapshot.primarySignal,
+      snapshot.epistemicParse,
+      snapshot.epistemicContract,
+      snapshot.evidenceAudit,
+      snapshot.claimIdentity,
+    ),
+    snapshot.evidenceAudit,
+    snapshot.epistemicContract,
+    snapshot.claimIdentity,
+  );
 }
 
 function synthesizeFollowUpAnswer(
@@ -11868,8 +12131,23 @@ function buildIntelligence(
   mode: DialogueMode,
   signals: SignalItem[],
   previousMessages: DialogueMessage[],
+  typedFollowUp?: TypedFollowUpRequest,
 ): IntelligenceObject {
-  const conversationIntent = classifyConversationIntent(query, previousMessages, signals);
+  const reusableSnapshot =
+    latestReusableCaseSnapshot(previousMessages, signals);
+  const snapshotReuse =
+    shouldReuseSnapshotBeforeRetrieval({
+      query,
+      typedFollowUp,
+      snapshot: reusableSnapshot,
+      previousMessages,
+    });
+
+  const conversationIntent: ConversationIntent =
+    snapshotReuse
+      ? "FOLLOW_UP"
+      : classifyConversationIntent(query, previousMessages, signals);
+
   const objectFirewall = resolveObjectFirewall(
     query,
     conversationIntent,
@@ -11899,14 +12177,26 @@ function buildIntelligence(
   // Contextual follow-ups keep the previous PRIMARY signal anchored.
   // Explicit semantic discontinuity releases the lock.
   // Fuzzy similarity alone never silently replaces an active object.
-  const baseObjectResolution = resolveEpistemicObject(
-    query,
-    signals,
-    previousMessages,
-  );
+  const baseObjectResolution = snapshotReuse && reusableSnapshot
+    ? {
+        primarySignal: reusableSnapshot.primarySignal,
+        isFollowUp: true,
+        anchoredFromConversation: true,
+        objectState: "SIGNAL" as EpistemicObjectState,
+        retrievalAccepted: true,
+        retrievalRationale:
+          "PRE-RETRIEVAL CASE CONTINUITY · canonical Case Snapshot inherited; fresh retrieval bypassed.",
+      }
+    : resolveEpistemicObject(
+        query,
+        signals,
+        previousMessages,
+      );
 
   const objectResolution: EpistemicObjectResolution =
-    objectFirewall.decision === "SAME_OBJECT" && objectFirewall.activeSignal
+    snapshotReuse && reusableSnapshot
+      ? baseObjectResolution
+      : objectFirewall.decision === "SAME_OBJECT" && objectFirewall.activeSignal
       ? {
           primarySignal: objectFirewall.activeSignal,
           isFollowUp: true,
@@ -12024,9 +12314,11 @@ function buildIntelligence(
 
   // Stage 6.4: claim identity belongs to the object, not to the wording of
   // the current follow-up.
-  const previousClaimIdentity = objectResolution.isFollowUp
-    ? getLockedClaimIdentity(previousMessages, primarySignal)
-    : null;
+  const previousClaimIdentity = snapshotReuse && reusableSnapshot
+    ? reusableSnapshot.claimIdentity
+    : objectResolution.isFollowUp
+      ? getLockedClaimIdentity(previousMessages, primarySignal)
+      : null;
   const baseClaimIdentity =
     previousClaimIdentity ?? buildEpistemicClaimIdentity(primarySignal);
   const claimIdentity =
@@ -12035,30 +12327,56 @@ function buildIntelligence(
       : baseClaimIdentity;
 
   const epistemicParse =
-    primarySignal && claimIdentity
-      ? buildParseFromClaimIdentity(claimIdentity, primarySignal)
-      : parseEpistemicStructure(query, intentModel, primarySignal);
-  const { relevant: rankedRelevant, contextAssessment } = rankRelevantSignals(
-    query,
-    signals,
-    previousMessages,
-    epistemicParse,
-    primarySignal,
-  );
-  const lead = primarySignal ?? rankedRelevant[0] ?? null;
+    snapshotReuse && reusableSnapshot
+      ? reusableSnapshot.epistemicParse
+      : primarySignal && claimIdentity
+        ? buildParseFromClaimIdentity(claimIdentity, primarySignal)
+        : parseEpistemicStructure(query, intentModel, primarySignal);
+
+  const snapshotRelevant =
+    snapshotReuse && reusableSnapshot
+      ? reusableSnapshot.signalIds
+          .map((id) => signals.find((signal) => signal.id === id))
+          .filter((signal): signal is SignalItem => Boolean(signal))
+      : null;
+
+  const ranked = snapshotReuse && reusableSnapshot
+    ? {
+        relevant: snapshotRelevant ?? [reusableSnapshot.primarySignal],
+        contextAssessment: reusableSnapshot.contextAssessment,
+      }
+    : rankRelevantSignals(
+        query,
+        signals,
+        previousMessages,
+        epistemicParse,
+        primarySignal,
+      );
+
+  const rankedRelevant = ranked.relevant;
+  const contextAssessment = ranked.contextAssessment;
+  const lead = snapshotReuse && reusableSnapshot
+    ? reusableSnapshot.primarySignal
+    : primarySignal ?? rankedRelevant[0] ?? null;
   const realityModel = buildRealityModel(epistemicParse);
-  const epistemicContract = buildEpistemicContract(
-    epistemicParse,
-    realityModel,
-    intentModel,
-    kind,
-  );
-  const evidenceAudit = auditEvidence(
-    epistemicContract,
-    lead,
-    rankedRelevant,
-    contextAssessment,
-  );
+  const epistemicContract =
+    snapshotReuse && reusableSnapshot
+      ? reusableSnapshot.epistemicContract
+      : buildEpistemicContract(
+          epistemicParse,
+          realityModel,
+          intentModel,
+          kind,
+        );
+  const evidenceAudit =
+    snapshotReuse && reusableSnapshot
+      ? reusableSnapshot.evidenceAudit
+      : auditEvidence(
+          epistemicContract,
+          lead,
+          rankedRelevant,
+          contextAssessment,
+        );
   const visibleSignalIds = new Set(
     buildRelatedIntelligenceSignalIds(
       evidenceAudit,
@@ -12083,18 +12401,28 @@ function buildIntelligence(
         claimIdentity,
       )
     : null;
+  const typedOperation =
+    typedFollowUp?.operation ??
+    (snapshotReuse ? inferTypedFollowUpOperation(query) : "GENERAL");
+
   const followUpSynthesis =
-    lead &&
-    signalInterpretation &&
-    objectResolution.isFollowUp
-      ? synthesizeFollowUpAnswer(
+    snapshotReuse && reusableSnapshot
+      ? synthesizeTypedFollowUpFromSnapshot({
           query,
-          signalInterpretation,
-          evidenceAudit,
-          epistemicContract,
-          claimIdentity,
-        )
-      : null;
+          operation: typedOperation,
+          snapshot: reusableSnapshot,
+        })
+      : lead &&
+          signalInterpretation &&
+          objectResolution.isFollowUp
+        ? synthesizeFollowUpAnswer(
+            query,
+            signalInterpretation,
+            evidenceAudit,
+            epistemicContract,
+            claimIdentity,
+          )
+        : null;
 
   let directAnswer = "";
   let reasoning = "";
@@ -12432,7 +12760,7 @@ function buildIntelligence(
       `${evidenceBoundary} Simulation remains counterfactual reasoning rather than observation, and every conclusion is conditional on the stated assumptions.`;
   }
 
-  const astraCore = buildAstraCoreState({
+  const builtAstraCore = buildAstraCoreState({
     query,
     intentModel,
     conversationIntent,
@@ -12447,6 +12775,46 @@ function buildIntelligence(
     previousMessages,
     corpusSignals: signals,
   });
+
+  const activeTypedOperation =
+    typedFollowUp?.operation ??
+    (snapshotReuse ? inferTypedFollowUpOperation(query) : "GENERAL");
+
+  const astraCore: AstraCoreState =
+    snapshotReuse && reusableSnapshot
+      ? {
+          ...builtAstraCore,
+          caseReuse: {
+            mode: "REUSED_OPERATION",
+            operation: typedFollowUpLabel(activeTypedOperation),
+            canonicalClaim: reusableSnapshot.canonicalClaim,
+            rationale:
+              "PRE-RETRIEVAL CASE CONTINUITY · Canonical Snapshot inherited before retrieval. Object, claim, contract, evidence state, and closure boundary were reused without fresh Signal selection.",
+          },
+          closureProtocol: reusableSnapshot.astraCore.closureProtocol,
+          caseState: {
+            ...reusableSnapshot.astraCore.caseState,
+            previousState: reusableSnapshot.astraCore.caseState.state,
+            transition:
+              `${reusableSnapshot.astraCore.caseState.state} → ${reusableSnapshot.astraCore.caseState.state}`,
+            rationale:
+              "Typed follow-up executed against the inherited Case Snapshot; no object or evidence-state mutation occurred.",
+          },
+          unifiedEvidenceAudit: reusableSnapshot.evidenceAudit,
+          unifiedContextAssessment: reusableSnapshot.contextAssessment,
+          unifiedSignalIds: reusableSnapshot.signalIds,
+          iterativeWorkCycles: [],
+          escalation: {
+            level: "NONE",
+            subtaskId: null,
+            goalId: null,
+            reason:
+              "Case Snapshot reuse bypasses fresh Goal-loop work for a non-evidence-mutating follow-up.",
+            action:
+              "Execute only the typed follow-up operation. Reopen research only when new evidence or a new object is explicitly introduced.",
+          },
+        }
+      : builtAstraCore;
 
   const unifiedEvidenceAudit = astraCore.unifiedEvidenceAudit;
   const unifiedRelevant = astraCore.unifiedSignalIds
@@ -12472,7 +12840,8 @@ function buildIntelligence(
   if (
     objectResolution.isFollowUp &&
     lead &&
-    claimIdentity
+    claimIdentity &&
+    !snapshotReuse
   ) {
     const unifiedInterpretation = buildSignalInterpretation(
       lead,
@@ -12617,6 +12986,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         "Targets the highest-value unresolved evidence burden instead of asking another broad explanatory question.",
       target: "EVIDENCE",
+      operation: "EVIDENCE_TEST",
       priority: 10,
     });
   }
@@ -12628,6 +12998,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         "Attempts to break the current interpretation with a genuinely competing mechanism or implementation.",
       target: "COUNTEREVIDENCE",
+      operation: "COUNTEREVIDENCE",
       priority: 20,
     });
   }
@@ -12639,6 +13010,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         "Searches for the narrowest defensible boundary before transfer or scale.",
       target: "BOUNDARY",
+      operation: "BOUNDARY",
       priority: 30,
     });
   }
@@ -12650,6 +13022,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         "Combines stress, containment, recovery, and scaling into one object-specific engineering decision.",
       target: "REALITY_TEST",
+      operation: "REALITY_TEST",
       priority: 35,
     });
   }
@@ -12661,6 +13034,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         "Produces the narrowest defensible synthesis rather than repeating the article summary.",
       target: "SYNTHESIS",
+      operation: "SYNTHESIS",
       priority: 40,
     });
   }
@@ -12675,6 +13049,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         "Makes the Case reopen condition operational and evidence-specific.",
       target: "CASE",
+      operation: "REOPEN_CONDITION",
       priority: 50,
     });
   }
@@ -12686,6 +13061,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         `Keeps the next inquiry bound to the current canonical claim: ${canonicalClaim}`,
       target: "CLAIM_CONTRACT",
+      operation: "GENERAL",
       priority: 60,
     });
   }
@@ -12696,6 +13072,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         "Contract-derived continuation retained as a lower-priority fallback.",
       target: "CASE",
+      operation: "GENERAL",
       priority: 90,
     });
   }
@@ -12710,6 +13087,53 @@ function buildCaseAwareContinueInquiry(args: {
       return true;
     })
     .slice(0, 4);
+}
+
+
+function passesRelatedReportDisplayGate(
+  gate: EvidenceRelationGate | undefined,
+  assessment: ContextAssessment | undefined,
+): boolean {
+  if (!gate) {
+    return Boolean(
+      assessment &&
+      assessment.role !== "WEAKLY RELATED" &&
+      assessment.score >= 14,
+    );
+  }
+
+  if (gate.contextUse === "EVIDENCE") return true;
+
+  const dims = new Set(gate.matchedDimensions);
+  const strongSubject = dims.has("STRONG_SUBJECT");
+  const sameArtifact = dims.has("ARTIFACT");
+  const sameOperation = dims.has("OPERATION");
+  const sameClaimFamily = dims.has("CLAIM_FAMILY");
+  const requirementBound = dims.has("EVIDENCE_REQUIREMENT");
+  const boundaryLanguage = dims.has("BOUNDARY_LANGUAGE");
+
+  if (gate.contextUse === "BOUNDARY_CONTEXT") {
+    return (
+      gate.relationScore >= 13 &&
+      strongSubject &&
+      sameArtifact &&
+      (sameOperation || sameClaimFamily) &&
+      boundaryLanguage
+    );
+  }
+
+  if (gate.contextUse === "BACKGROUND_CONTEXT") {
+    return (
+      gate.relationScore >= 15 &&
+      strongSubject &&
+      sameArtifact &&
+      sameOperation &&
+      sameClaimFamily &&
+      requirementBound
+    );
+  }
+
+  return false;
 }
 
 function buildRelatedSignalReports(args: {
@@ -12755,6 +13179,10 @@ function buildRelatedSignalReports(args: {
       const assessment = intelligence.contextAssessment.find(
         (item) => item.signalId === id,
       );
+
+      if (!passesRelatedReportDisplayGate(gate, assessment)) {
+        return null;
+      }
 
       const role: EvidenceContextUse =
         gate?.contextUse ??
@@ -13537,6 +13965,7 @@ useEffect(() => {
       (
         value?: string,
         forcedMode?: DialogueMode,
+        followUpRequest?: TypedFollowUpRequest,
       ) => {
         const finalQuery = (value ?? query).trim();
 
@@ -13560,6 +13989,7 @@ useEffect(() => {
           mode: activeResponseMode,
           text: finalQuery,
           createdAt: Date.now(),
+          followUpRequest,
         };
 
         let contextBefore = messages;
@@ -13602,6 +14032,7 @@ useEffect(() => {
               routing === "NEW_CASE"
                 ? []
                 : contextBefore,
+              followUpRequest,
             );
 
           streamResponse(
@@ -13763,6 +14194,7 @@ useEffect(() => {
           userMessage!.mode,
           signals,
           preserved,
+          userMessage!.followUpRequest,
         );
 
       streamResponse(
@@ -14095,6 +14527,10 @@ useEffect(() => {
                               <p className="ep-case-reuse__note">
                                 {message.intelligence.astraCore.caseReuse.rationale}
                               </p>
+                              <div className="ep-case-reuse__lock">
+                                <span>OBJECT LOCK</span>
+                                <strong>SNAPSHOT INHERITED · RETRIEVAL BYPASSED</strong>
+                              </div>
                             </div>
                           )}
 
@@ -14791,7 +15227,14 @@ useEffect(() => {
                                 type="button"
                                 className="ep-continue-inquiry__card"
                                 onClick={() => {
-                                  submitQuestion(item.question);
+                                  submitQuestion(
+                                    item.question,
+                                    "ask",
+                                    {
+                                      caseBound: true,
+                                      operation: item.operation,
+                                    },
+                                  );
                                 }}
                               >
                                 <div className="ep-continue-inquiry__meta">
@@ -23769,6 +24212,33 @@ useEffect(() => {
           }
         }
 
+
+        /* ==================================================
+           STAGE 6.9.9 · PRE-RETRIEVAL CASE CONTINUITY
+        ================================================== */
+        .ep-case-reuse__lock {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 6px 12px;
+          margin-top: 11px;
+          padding-top: 10px;
+          border-top: 1px solid rgba(255,255,255,.045);
+        }
+
+        .ep-case-reuse__lock span {
+          color: rgba(255,255,255,.3);
+          font-size: 6px;
+          letter-spacing: .14em;
+        }
+
+        .ep-case-reuse__lock strong {
+          color: rgba(255,255,255,.58);
+          font-size: 7px;
+          letter-spacing: .08em;
+          font-weight: 500;
+        }
       `}
 
       
