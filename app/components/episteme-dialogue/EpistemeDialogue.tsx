@@ -9,6 +9,62 @@ import {
   type KeyboardEvent,
 } from "react";
 
+import {
+  UNIVERSAL_MODE_OPTIONS,
+  getUniversalModeMeta,
+  type UniversalMode,
+  type UniversalRouteDecision,
+} from "./universal-nexus/mode";
+import { routeUniversalInquiry } from "./universal-nexus/universalRouter";
+import {
+  selectAstraKernelPolicy,
+  type AstraKernelPolicy,
+} from "./universal-nexus/astraKernel";
+import {
+  buildRealityGraph,
+  type RealityGraphModel,
+} from "./universal-nexus/realityGraph";
+import {
+  buildUniversalAnswerCanvas,
+  type UniversalAnswerCanvas,
+} from "./universal-nexus/answerCanvas";
+import {
+  buildMonochromeRealityIntelligence,
+  type MonochromeRealityIntelligence,
+} from "./universal-nexus/realityIntelligence";
+import {
+  buildRealityTwinIntelligence,
+  type RealityTwinIntelligence,
+} from "./universal-nexus/realityTwin";
+import {
+  buildAutonomousRealityInquiry,
+  type AutonomousRealityInquiry,
+} from "./universal-nexus/autonomousRealityInquiry";
+import {
+  buildMultiHypothesisRealityGovernance,
+  type MultiHypothesisRealityGovernance,
+} from "./universal-nexus/multiHypothesisRealityGovernance";
+import {
+  buildEpistemeCognitiveOrchestration,
+  type EpistemeCognitiveOrchestration,
+} from "./universal-nexus/cognitiveOrchestration";
+import {
+  buildEpistemeRealityOperatingSystem,
+  type EpistemeRealityOperatingSystem,
+} from "./universal-nexus/realityOperatingSystem";
+import {
+  buildEpistemeOpenInquiryScholarlyIntelligence,
+  type EpistemeOpenInquiryScholarlyIntelligence,
+} from "./universal-nexus/openInquiryScholarlyIntelligence";
+import {
+  composeEpistemeCognitiveResponse,
+  type CognitiveResponseComposition,
+} from "./universal-nexus/cognitiveResponseComposer";
+import {
+  buildAdaptiveConversationalContinuity,
+  type AdaptiveConversationalContinuity,
+} from "./universal-nexus/adaptiveConversationalContinuity";
+
 
 /* ==========================================================
    TYPES
@@ -394,6 +450,7 @@ type TypedFollowUpOperation =
   | "COUNTEREVIDENCE"
   | "BOUNDARY"
   | "REALITY_TEST"
+  | "FALSIFICATION"
   | "SYNTHESIS"
   | "REOPEN_CONDITION"
   | "GENERAL";
@@ -469,6 +526,19 @@ type DialogueMessage = {
   intelligence?: IntelligenceObject;
   streaming?: boolean;
   followUpRequest?: TypedFollowUpRequest;
+  universalRoute?: UniversalRouteDecision;
+  astraKernelPolicy?: AstraKernelPolicy;
+  realityGraph?: RealityGraphModel;
+  answerCanvas?: UniversalAnswerCanvas;
+  monochromeReality?: MonochromeRealityIntelligence;
+  realityTwin?: RealityTwinIntelligence;
+  autonomousRealityInquiry?: AutonomousRealityInquiry;
+  multiHypothesisGovernance?: MultiHypothesisRealityGovernance;
+  cognitiveOrchestration?: EpistemeCognitiveOrchestration;
+  realityOperatingSystem?: EpistemeRealityOperatingSystem;
+  openInquiryScholarlyIntelligence?: EpistemeOpenInquiryScholarlyIntelligence;
+  cognitiveResponseComposition?: CognitiveResponseComposition;
+  conversationalContinuity?: AdaptiveConversationalContinuity;
 };
 
 type EpistemeCaseStatus =
@@ -947,19 +1017,6 @@ type RawRecord = Record<string, unknown>;
 /* ==========================================================
    CONSTANTS
 ========================================================== */
-const MODES: readonly {
-  id: DialogueMode;
-  label: string;
-  description: string;
-}[] = [
-  {
-    id: "ask",
-    label: "Ask",
-    description:
-      "Ask one question, then move through ArcheNova's indexed evidence and Signal Space without switching reasoning modes.",
-  },
-];
-
 const MODE_REASONING_STRATEGIES: Record<DialogueMode, ModeReasoningStrategy> = {
   ask: {
     mode: "ask",
@@ -4532,6 +4589,51 @@ function recoverResultDelta(signal: SignalItem): ResultDeltaRecovery {
 }
 
 
+type CanonicalPropositionIntegrity = {
+  proposition: string;
+  completeness: "COMPLETE" | "TITLE_RECOVERED" | "TRUNCATED";
+  rationale: string;
+};
+
+function ensureCanonicalPropositionIntegrity(
+  signal: SignalItem,
+  proposition: string,
+): CanonicalPropositionIntegrity {
+  const cleaned = stripTerminalPunctuation(proposition).trim();
+  const truncated =
+    /(?:…|\.\.\.)\s*$/.test(proposition.trim()) ||
+    /(?:…|\.\.\.)/.test(cleaned) ||
+    /\b(?:ou|res|concl|observ|measur|demonstr|indicat|suggest)\s*…?$/i.test(cleaned);
+
+  if (!truncated) {
+    return {
+      proposition: cleaned,
+      completeness: "COMPLETE",
+      rationale: "Canonical proposition passed the completeness gate.",
+    };
+  }
+
+  const title = stripTerminalPunctuation(signal.title).trim();
+  const titleWords = words(title).filter((word) => !EVIDENCE_GENERIC_WORDS.has(word));
+
+  if (titleWords.length >= 3 && !/(?:…|\.\.\.)/.test(title)) {
+    return {
+      proposition: `The indexed source reports: ${title}`,
+      completeness: "TITLE_RECOVERED",
+      rationale:
+        "The result-bearing snippet was truncated, so the complete source title was retained as the conservative canonical proposition. No missing mechanism or effect was invented.",
+    };
+  }
+
+  return {
+    proposition: cleaned,
+    completeness: "TRUNCATED",
+    rationale:
+      "The indexed representation is truncated and no complete proposition can be recovered without adding unsupported content.",
+  };
+}
+
+
 function recoverArtifactSpecificSourceTruth(
   signal: SignalItem,
 ): SourceTruthRecovery {
@@ -4550,15 +4652,20 @@ function recoverArtifactSpecificSourceTruth(
         ? ` Delta: ${resultStructure.delta}.`
         : "";
 
+    const integrity = ensureCanonicalPropositionIntegrity(
+      signal,
+      resultStructure.result,
+    );
+
     return {
       status:
-        resultStructure.status === "FOUND"
+        integrity.completeness === "COMPLETE" && resultStructure.status === "FOUND"
           ? "FOUND"
           : "LIMITED",
-      proposition: stripTerminalPunctuation(resultStructure.result),
+      proposition: integrity.proposition,
       artifact: resultStructure.artifact,
       rationale:
-        `${resultStructure.rationale}${conditionNote}${deltaNote} Source Truth preserves the result/research structure without manufacturing a stronger effect than the indexed source supports.`,
+        `${resultStructure.rationale}${conditionNote}${deltaNote} ${integrity.rationale} Source Truth preserves the result/research structure without manufacturing a stronger effect than the indexed source supports.`,
     };
   }
 
@@ -4568,12 +4675,13 @@ function recoverArtifactSpecificSourceTruth(
     const deltaNote = resultDelta.delta
       ? ` Delta: ${resultDelta.delta}.`
       : "";
+    const integrity = ensureCanonicalPropositionIntegrity(signal, resultDelta.result);
     return {
-      status: "FOUND",
-      proposition: stripTerminalPunctuation(resultDelta.result),
+      status: integrity.completeness === "COMPLETE" ? "FOUND" : "LIMITED",
+      proposition: integrity.proposition,
       artifact: resultDelta.artifact,
       rationale:
-        `${resultDelta.rationale}${deltaNote} Source Truth records the new measured/result-bearing proposition; interpretation remains separate.`,
+        `${resultDelta.rationale}${deltaNote} ${integrity.rationale} Source Truth records the new measured/result-bearing proposition; interpretation remains separate.`,
     };
   }
 
@@ -4583,12 +4691,13 @@ function recoverArtifactSpecificSourceTruth(
     recoverResultProposition(signal);
 
   if (classic) {
+    const integrity = ensureCanonicalPropositionIntegrity(signal, classic);
     return {
-      status: "FOUND",
-      proposition: stripTerminalPunctuation(classic),
+      status: integrity.completeness === "COMPLETE" ? "FOUND" : "LIMITED",
+      proposition: integrity.proposition,
       artifact: genre,
       rationale:
-        "A result-bearing proposition was recovered directly from the indexed source representation.",
+        `A result-bearing proposition was recovered directly from the indexed source representation. ${integrity.rationale}`,
     };
   }
 
@@ -8414,6 +8523,9 @@ function inferTypedFollowUpOperation(query: string): TypedFollowUpOperation {
   if (/\b(failure mode|recovery criterion|reality test|decisive test|forced failure)\b/.test(q)) {
     return "REALITY_TEST";
   }
+  if (/\b(falsif|disconfirm|what would change (?:the|this) claim|change its mind)\b/.test(q)) {
+    return "FALSIFICATION";
+  }
   if (/\b(strongest conclusion|survives the current evidence boundary|synthesis)\b/.test(q)) {
     return "SYNTHESIS";
   }
@@ -8458,6 +8570,8 @@ function typedFollowUpLabel(operation: TypedFollowUpOperation): string {
       return "BOUNDARY TEST";
     case "REALITY_TEST":
       return "REALITY TEST";
+    case "FALSIFICATION":
+      return "FALSIFICATION";
     case "SYNTHESIS":
       return "BOUNDED SYNTHESIS";
     case "REOPEN_CONDITION":
@@ -8764,6 +8878,17 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
         `The strongest conclusion currently supported is: ${claim}. This conclusion may be stated only at the level directly supported by the inherited Evidence State; stronger causal, predictive, engineering, clinical, or institutional consequences require their own claim-specific evidence.`,
       reasoning:
         `Typed operation authority: SYNTHESIS. Current evidence state: ${audit.summary}`,
+    };
+  }
+
+  if (operation === "FALSIFICATION") {
+    const conditions = contract.disconfirmationConditions.slice(0, 3);
+    return {
+      demand: "FALSIFICATION",
+      directAnswer:
+        `For the canonical claim “${claim}”, falsification must attack the claim without replacing its object. The strongest current disconfirmers are: ${conditions.join("; ") || "a direct observation that contradicts the reported proposition under the same object and measurement conditions"}.`,
+      reasoning:
+        `Typed operation authority: FALSIFICATION. Correction rule: ${contract.correctionRule}`,
     };
   }
 
@@ -10340,6 +10465,66 @@ function researchCompatibilityScore(
 }
 
 
+type EvidenceIdentityProfile = {
+  objectAnchors: string[];
+  sharedAnchors: string[];
+  sameObject: boolean;
+  samePhenomenon: boolean;
+  directReplicationLanguage: boolean;
+  directContradictionLanguage: boolean;
+};
+
+const EVIDENCE_IDENTITY_GENERIC_WORDS = new Set([
+  ...EVIDENCE_GENERIC_WORDS,
+  "science", "scientific", "research", "study", "paper", "new", "data",
+  "open", "system", "systems", "model", "models", "analysis", "independent",
+  "community", "result", "results", "effect", "effects", "method", "methods",
+  "technology", "engineering", "civilization", "report", "reports",
+]);
+
+function evidenceIdentityWords(value: string): string[] {
+  return evidenceSubjectWords(value).filter(
+    (word) => word.length >= 4 && !EVIDENCE_IDENTITY_GENERIC_WORDS.has(word),
+  );
+}
+
+function buildEvidenceIdentityProfile(
+  lead: SignalItem,
+  candidate: SignalItem,
+): EvidenceIdentityProfile {
+  const leadTitle = new Set(evidenceIdentityWords(lead.title));
+  const candidateTitle = evidenceIdentityWords(candidate.title);
+  const leadCorpus = new Set(
+    evidenceIdentityWords(`${lead.title} ${sanitizeSignalSummary(lead.summary)}`),
+  );
+  const candidateCorpus = evidenceIdentityWords(
+    `${candidate.title} ${sanitizeSignalSummary(candidate.summary)}`,
+  );
+  const sharedTitle = candidateTitle.filter((word) => leadTitle.has(word));
+  const sharedCorpus = candidateCorpus.filter((word) => leadCorpus.has(word));
+  const sharedAnchors = Array.from(new Set([...sharedTitle, ...sharedCorpus]));
+  const candidateText = normalize(`${candidate.title} ${candidate.summary}`);
+
+  const sameObject = sharedTitle.length >= 1 || sharedCorpus.length >= 3;
+  const samePhenomenon = sharedCorpus.length >= 2;
+  const directReplicationLanguage =
+    /\b(replication|replicated|reproduced|reproduction|independent observation|independently observed|confirmed the same|same object|same source|follow-up observation)\b/.test(candidateText) &&
+    (sameObject || samePhenomenon);
+  const directContradictionLanguage =
+    /\b(contradict|contrary|instead|alternative explanation|rules out|ruled out|fails to reproduce|did not reproduce|disagrees with)\b/.test(candidateText) &&
+    (sameObject || samePhenomenon);
+
+  return {
+    objectAnchors: Array.from(leadTitle),
+    sharedAnchors,
+    sameObject,
+    samePhenomenon,
+    directReplicationLanguage,
+    directContradictionLanguage,
+  };
+}
+
+
 function evaluateEvidenceRelationGate(args: {
   lead: SignalItem;
   candidate: SignalItem;
@@ -10366,8 +10551,13 @@ function evaluateEvidenceRelationGate(args: {
   const candidateText = normalize(
     `${candidate.title} ${sanitizeSignalSummary(candidate.summary)} ${candidate.category}`,
   );
+  const identityProfile = buildEvidenceIdentityProfile(lead, candidate);
 
   const dimensions: string[] = [];
+  if (identityProfile.sameObject) dimensions.push("OBJECT_IDENTITY");
+  if (identityProfile.samePhenomenon) dimensions.push("PHENOMENON_IDENTITY");
+  if (identityProfile.directReplicationLanguage) dimensions.push("DIRECT_REPLICATION");
+  if (identityProfile.directContradictionLanguage) dimensions.push("DIRECT_CONTRADICTION");
 
   const sameDomain =
     leadOntology.domain === candidateOntology.domain;
@@ -10409,29 +10599,37 @@ function evaluateEvidenceRelationGate(args: {
     );
   if (boundaryLanguage) dimensions.push("BOUNDARY_LANGUAGE");
 
+  // Claim-specific Evidence Identity Firewall. Shared epistemic vocabulary,
+  // broad domain similarity, or generic "independent validation" language
+  // cannot establish evidence for a different object.
+  const objectBound =
+    identityProfile.sameObject ||
+    identityProfile.samePhenomenon ||
+    identityProfile.directReplicationLanguage ||
+    identityProfile.directContradictionLanguage;
+
   const evidenceEligible =
+    objectBound &&
     sameDomain &&
     sameArtifact &&
-    subjectBound &&
     requirementMatch &&
     (sameOperation || sameClaimFamily) &&
-    dimensions.length >= 5;
+    (identityProfile.sameObject || identityProfile.directReplicationLanguage);
 
   const boundaryContextEligible =
     !evidenceEligible &&
+    objectBound &&
     sameDomain &&
     sameArtifact &&
-    strongSubjectBound &&
     boundaryLanguage &&
     (sameOperation || sameClaimFamily);
 
   const backgroundContextEligible =
     !evidenceEligible &&
     !boundaryContextEligible &&
+    identityProfile.samePhenomenon &&
     sameDomain &&
-    subjectBound &&
-    (sameArtifact || sameOperation || sameClaimFamily) &&
-    dimensions.length >= 3;
+    (sameArtifact || sameOperation || sameClaimFamily);
 
   const contextUse: EvidenceContextUse =
     evidenceEligible
@@ -10461,7 +10659,11 @@ function evaluateEvidenceRelationGate(args: {
       (subjectBound ? 3 : 0) +
       (strongSubjectBound ? 2 : 0) +
       (requirementMatch ? 2 : 0) +
-      (boundaryLanguage ? 1 : 0),
+      (boundaryLanguage ? 1 : 0) +
+      (identityProfile.sameObject ? 6 : 0) +
+      (identityProfile.samePhenomenon ? 3 : 0) +
+      (identityProfile.directReplicationLanguage ? 5 : 0) +
+      (identityProfile.directContradictionLanguage ? 5 : 0),
     matchedDimensions: dimensions,
     rationale:
       contextUse === "EVIDENCE"
@@ -10470,7 +10672,7 @@ function evaluateEvidenceRelationGate(args: {
           ? "Candidate is sufficiently object-, artifact-, and claim-bound to constrain the operating or interpretation boundary, but it does not satisfy the full evidence burden."
           : contextUse === "BACKGROUND_CONTEXT"
             ? "Candidate is explanatory background only. It may not satisfy a Goal, strengthen Evidence State, or appear as the Case boundary finding."
-            : "Candidate is rejected because broad semantic/domain similarity is insufficient for Case reasoning.",
+            : "Candidate is rejected by the Claim-Specific Evidence Identity Firewall: shared vocabulary, broad domain similarity, or generic validation language does not establish the same object, phenomenon, replication, contradiction, or transferable evidence relation.",
   };
 }
 
@@ -13906,7 +14108,11 @@ function buildCaseAwareContinueInquiry(args: {
   if (hasGoal("COUNTEREVIDENCE")) {
     items.push({
       question:
-        "What is the strongest competing explanation that could reproduce the same reported result?",
+        contract.claimType === "ENGINEERING / CONSTRUCTIVE"
+          ? "What alternative architecture could reproduce the same reported function with fewer assumptions or failure modes?"
+          : contract.claimType === "INSTITUTIONAL"
+            ? "What alternative incentive, rule, or actor response could produce the same observed institutional outcome?"
+            : "What is the strongest competing explanation that could reproduce the same reported result?",
       purpose:
         "Attempts to break the current interpretation with a genuinely competing mechanism or implementation.",
       target: "COUNTEREVIDENCE",
@@ -13918,7 +14124,13 @@ function buildCaseAwareContinueInquiry(args: {
   if (hasGoal("BOUNDARY")) {
     items.push({
       question:
-        "Which operating condition would most likely make this claim stop generalizing?",
+        contract.claimType === "ENGINEERING / CONSTRUCTIVE"
+          ? "Which operating condition would most likely make this claim stop generalizing?"
+          : contract.claimType === "CLINICAL / INTERVENTIONAL"
+            ? "Which population, endpoint, dose, or follow-up condition most limits this clinical claim?"
+            : contract.claimType === "INSTITUTIONAL"
+              ? "Which jurisdiction, incentive, actor, or implementation condition most limits this institutional claim?"
+              : "Which observational regime, sample, instrument, or model assumption most limits this claim?",
       purpose:
         "Searches for the narrowest defensible boundary before transfer or scale.",
       target: "BOUNDARY",
@@ -13973,7 +14185,7 @@ function buildCaseAwareContinueInquiry(args: {
       purpose:
         `Keeps the next inquiry bound to the current canonical claim: ${canonicalClaim}`,
       target: "CLAIM_CONTRACT",
-      operation: "GENERAL",
+      operation: "FALSIFICATION",
       priority: 60,
     });
   }
@@ -14416,6 +14628,32 @@ function compactExperienceText(value: string | null | undefined, fallback: strin
   return cleaned || fallback;
 }
 
+
+function deriveCaseLevelSignificance(intelligence: IntelligenceObject): string {
+  const claimType = intelligence.epistemicParse.claimType;
+  const claim =
+    intelligence.claimIdentity?.reportedResult ||
+    intelligence.claimIdentity?.coreClaim ||
+    intelligence.epistemicParse.object;
+
+  if (claimType === "CAUSAL / MECHANISTIC") {
+    return `If the reported mechanism survives discrimination against credible alternatives, it changes the causal model used to explain and predict the active object. Active claim: ${claim}`;
+  }
+  if (claimType === "PREDICTIVE") {
+    return `If the prediction survives prospective out-of-sample testing, it changes which future states can be anticipated reliably enough to support decisions. Active claim: ${claim}`;
+  }
+  if (claimType === "ENGINEERING / CONSTRUCTIVE") {
+    return `If the claimed function survives measurement, operating-envelope, failure, recovery, and independent verification tests, it becomes a candidate capability rather than a reported construction. Active claim: ${claim}`;
+  }
+  if (claimType === "CLINICAL / INTERVENTIONAL") {
+    return `If the reported clinical effect survives comparator, endpoint, safety, population, and replication boundaries, it may change the treatment baseline for the defined population. Active claim: ${claim}`;
+  }
+  if (claimType === "INSTITUTIONAL") {
+    return `If the reported institutional effect survives jurisdiction, incentive, actor-response, and implementation tests, it may change the rule or governance baseline used for decisions. Active claim: ${claim}`;
+  }
+  return `If the reported observation survives uncertainty, replication, and competing-interpretation tests, it changes the empirical baseline from which the active object should be explained or investigated. Active claim: ${claim}`;
+}
+
 function buildEpistemeExperienceModules(
   intelligence: IntelligenceObject,
 ): EpistemeExperienceModule[] {
@@ -14425,10 +14663,10 @@ function buildEpistemeExperienceModules(
     intelligence.claimIdentity?.reportedResult ||
     essence?.sourceTruth ||
     intelligence.adaptiveResponse.thesis;
-  const consequence =
-    essence?.consequence ||
-    intelligence.adaptiveResponse.sections.find((section) => section.kind === "IMPLICATION")?.body ||
-    intelligence.adaptiveResponse.thesis;
+  // Knowledge Constellation is Case-level state, not the current follow-up operation.
+  // Follow-up answers may change the operation surface but must not overwrite
+  // the Case's durable significance map.
+  const consequence = deriveCaseLevelSignificance(intelligence);
   const boundary =
     essence?.evidenceBoundary ||
     intelligence.evidenceAudit.uncertainty ||
@@ -14590,8 +14828,196 @@ function buildEpistemeImplicationLayers(
 }
 
 
+function buildUniversalRealityGraphFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+): RealityGraphModel {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildRealityGraph({
+    object:
+      intelligence.epistemicParse.object ||
+      intelligence.claimIdentity?.signalTitle ||
+      "Active epistemic object",
+    claim:
+      intelligence.claimIdentity?.coreClaim ||
+      essence?.sourceTruth ||
+      intelligence.adaptiveResponse.thesis,
+    claimType: intelligence.epistemicParse.claimType,
+    evidenceStrength: intelligence.evidenceStrength,
+    evidenceSummary: intelligence.evidenceAudit.summary,
+    uncertainty:
+      intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    realityTest:
+      essence?.decisiveTest ||
+      intelligence.epistemicContract.realityTest ||
+      intelligence.inquiry.realityTest.summary,
+    correctionRule: intelligence.epistemicContract.correctionRule,
+    consequence:
+      essence?.consequence || intelligence.adaptiveResponse.thesis,
+    route,
+  });
+}
+
+function buildMonochromeRealityFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+  graph: RealityGraphModel,
+): MonochromeRealityIntelligence {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildMonochromeRealityIntelligence({
+    route,
+    graph,
+    evidenceStrength: intelligence.evidenceStrength,
+    uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    decisiveTest:
+      essence?.decisiveTest ||
+      intelligence.epistemicContract.realityTest ||
+      intelligence.inquiry.realityTest.summary,
+    correctionRule: intelligence.epistemicContract.correctionRule,
+    claimType: intelligence.epistemicParse.claimType,
+    canonicalClaim:
+      intelligence.claimIdentity?.coreClaim ||
+      essence?.sourceTruth ||
+      intelligence.adaptiveResponse.thesis,
+  });
+}
+
+function buildRealityTwinFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+  graph: RealityGraphModel,
+  monochrome: MonochromeRealityIntelligence,
+): RealityTwinIntelligence {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildRealityTwinIntelligence({
+    route,
+    graph,
+    monochrome,
+    claim:
+      intelligence.claimIdentity?.coreClaim ||
+      essence?.sourceTruth ||
+      intelligence.adaptiveResponse.thesis,
+    evidenceStrength: intelligence.evidenceStrength,
+    uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    decisiveTest:
+      essence?.decisiveTest ||
+      intelligence.epistemicContract.realityTest ||
+      intelligence.inquiry.realityTest.summary,
+    correctionRule: intelligence.epistemicContract.correctionRule,
+    consequence: essence?.consequence || intelligence.adaptiveResponse.thesis,
+  });
+}
+
+function buildAutonomousRealityInquiryFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+  twin: RealityTwinIntelligence,
+): AutonomousRealityInquiry {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildAutonomousRealityInquiry({
+    route,
+    twin,
+    claim:
+      intelligence.claimIdentity?.coreClaim ||
+      essence?.sourceTruth ||
+      intelligence.adaptiveResponse.thesis,
+    evidenceStrength: intelligence.evidenceStrength,
+    uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    correctionRule: intelligence.epistemicContract.correctionRule,
+  });
+}
+
+function buildMultiHypothesisGovernanceFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+  twin: RealityTwinIntelligence,
+  inquiry: AutonomousRealityInquiry,
+): MultiHypothesisRealityGovernance {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildMultiHypothesisRealityGovernance({
+    route,
+    twin,
+    inquiry,
+    claim:
+      intelligence.claimIdentity?.coreClaim ||
+      essence?.sourceTruth ||
+      intelligence.adaptiveResponse.thesis,
+    evidenceStrength: intelligence.evidenceStrength,
+    uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    correctionRule: intelligence.epistemicContract.correctionRule,
+  });
+}
+
+function buildCognitiveOrchestrationFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+  twin: RealityTwinIntelligence,
+  governance: MultiHypothesisRealityGovernance,
+): EpistemeCognitiveOrchestration {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildEpistemeCognitiveOrchestration({
+    route,
+    twin,
+    governance,
+    thesis: intelligence.adaptiveResponse.thesis,
+    sourceTruth: essence?.sourceTruth || intelligence.claimIdentity?.coreClaim || intelligence.adaptiveResponse.thesis,
+    evidenceStrength: intelligence.evidenceStrength,
+    uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    correctionRule: intelligence.epistemicContract.correctionRule,
+    consequence: essence?.consequence || intelligence.adaptiveResponse.thesis,
+  });
+}
+
+function buildRealityOperatingSystemFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+  twin: RealityTwinIntelligence,
+  governance: MultiHypothesisRealityGovernance,
+  cognition: EpistemeCognitiveOrchestration,
+): EpistemeRealityOperatingSystem {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildEpistemeRealityOperatingSystem({
+    route,
+    cognition,
+    twin,
+    governance,
+    thesis: intelligence.adaptiveResponse.thesis,
+    sourceTruth: essence?.sourceTruth || intelligence.claimIdentity?.coreClaim || intelligence.adaptiveResponse.thesis,
+    evidenceStrength: intelligence.evidenceStrength,
+    uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    consequence: essence?.consequence || intelligence.adaptiveResponse.thesis,
+    correctionRule: intelligence.epistemicContract.correctionRule,
+  });
+}
+
+function buildOpenInquiryScholarlyIntelligenceFromIntelligence(
+  intelligence: IntelligenceObject,
+  route: UniversalRouteDecision,
+  realityOperatingSystem: EpistemeRealityOperatingSystem,
+  governance: MultiHypothesisRealityGovernance,
+  sourceSignals: SignalItem[],
+): EpistemeOpenInquiryScholarlyIntelligence {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  return buildEpistemeOpenInquiryScholarlyIntelligence({
+    route,
+    realityOS: realityOperatingSystem,
+    governance,
+    query: intelligence.adaptiveResponse.governingQuestion,
+    thesis: intelligence.adaptiveResponse.thesis,
+    sourceTruth: essence?.sourceTruth || intelligence.claimIdentity?.coreClaim || intelligence.adaptiveResponse.thesis,
+    evidenceStrength: intelligence.evidenceStrength,
+    uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+    decisiveTest: essence?.decisiveTest || intelligence.epistemicContract.correctionRule,
+    sources: sourceSignals.map((signal) => ({
+      id: signal.id, title: signal.title, source: signal.source, url: signal.url,
+      publishedAt: signal.publishedAt, summary: signal.summary, category: signal.category,
+    })),
+  });
+}
+
 export default function EpistemeDialogue() {
   const [mode, setMode] = useState<DialogueMode>("ask");
+  const [universalMode, setUniversalMode] = useState<UniversalMode>("AUTO");
   const [query, setQuery] = useState("");
   const [signals, setSignals] = useState<SignalItem[]>([]);
   const [loadingSignals, setLoadingSignals] = useState(true);
@@ -14753,19 +15179,12 @@ useEffect(() => {
   /* ========================================================
      DERIVED
   ======================================================== */
-  const activeMode =
+  const activeUniversalMode =
     useMemo(
-      () =>
-        MODES.find(
-          (item) =>
-            item.id ===
-            mode,
-        ) ??
-        MODES[0],
-      [
-        mode,
-      ],
+      () => getUniversalModeMeta(universalMode),
+      [universalMode],
     );
+
   const signalMap =
     useMemo(
       () =>
@@ -14879,6 +15298,7 @@ useEffect(() => {
         setMessages(target.messages);
         setQuery("");
         setMode("ask");
+        setUniversalMode("AUTO");
         setSignalSpaceMessageId(null);
 
         window.setTimeout(() => {
@@ -14954,6 +15374,8 @@ useEffect(() => {
           IntelligenceObject,
         responseMode:
           DialogueMode,
+        universalRoute: UniversalRouteDecision,
+        conversationalContinuity: AdaptiveConversationalContinuity,
       ) => {
         if (
           streamTimerRef.current
@@ -14962,11 +15384,72 @@ useEffect(() => {
             streamTimerRef.current,
           );
         }
-        const fullText =
-          intelligence
-            .interpretation;
         const id =
           `episteme-${Date.now()}`;
+        const realityGraph = buildUniversalRealityGraphFromIntelligence(
+          intelligence,
+          universalRoute,
+        );
+        const monochromeReality = buildMonochromeRealityFromIntelligence(
+          intelligence,
+          universalRoute,
+          realityGraph,
+        );
+        const realityTwin = buildRealityTwinFromIntelligence(
+          intelligence,
+          universalRoute,
+          realityGraph,
+          monochromeReality,
+        );
+        const autonomousRealityInquiry = buildAutonomousRealityInquiryFromIntelligence(
+          intelligence,
+          universalRoute,
+          realityTwin,
+        );
+        const multiHypothesisGovernance = buildMultiHypothesisGovernanceFromIntelligence(
+          intelligence,
+          universalRoute,
+          realityTwin,
+          autonomousRealityInquiry,
+        );
+        const cognitiveOrchestration = buildCognitiveOrchestrationFromIntelligence(
+          intelligence,
+          universalRoute,
+          realityTwin,
+          multiHypothesisGovernance,
+        );
+        const realityOperatingSystem = buildRealityOperatingSystemFromIntelligence(
+          intelligence,
+          universalRoute,
+          realityTwin,
+          multiHypothesisGovernance,
+          cognitiveOrchestration,
+        );
+        const scholarlySignals = signals.filter((signal) => intelligence.signalIds.includes(signal.id));
+        const openInquiryScholarlyIntelligence = buildOpenInquiryScholarlyIntelligenceFromIntelligence(
+          intelligence,
+          universalRoute,
+          realityOperatingSystem,
+          multiHypothesisGovernance,
+          scholarlySignals,
+        );
+        const cognitiveResponseComposition = composeEpistemeCognitiveResponse({
+          route: universalRoute,
+          conversationIntent: intelligence.conversationIntent,
+          objectState: intelligence.objectState,
+          thesis: intelligence.adaptiveResponse.thesis,
+          abstract: intelligence.adaptiveResponse.abstract,
+          sections: intelligence.adaptiveResponse.sections,
+          evidenceStrength: intelligence.evidenceStrength,
+          uncertainty: intelligence.evidenceAudit.uncertainty || intelligence.uncertainty,
+          nextQuestions: intelligence.nextQuestions,
+          cognition: cognitiveOrchestration,
+          realityOS: realityOperatingSystem,
+          scholarly: openInquiryScholarlyIntelligence,
+          continuity: conversationalContinuity,
+        });
+        const fullText =
+          cognitiveResponseComposition.text || intelligence.interpretation;
         const message:
           DialogueMessage = {
           id,
@@ -14981,6 +15464,22 @@ useEffect(() => {
             Date.now(),
           streaming:
             true,
+          universalRoute,
+          astraKernelPolicy: selectAstraKernelPolicy(universalRoute),
+          realityGraph,
+          answerCanvas: buildUniversalAnswerCanvas({
+            route: universalRoute,
+            graph: realityGraph,
+          }),
+          monochromeReality,
+          realityTwin,
+          autonomousRealityInquiry,
+          multiHypothesisGovernance,
+          cognitiveOrchestration,
+          realityOperatingSystem,
+          openInquiryScholarlyIntelligence,
+          cognitiveResponseComposition,
+          conversationalContinuity,
         };
         setMessages(
           (previous) => [
@@ -15061,7 +15560,7 @@ useEffect(() => {
             18,
           );
       },
-      [],
+      [signals],
     );
 
   /* ========================================================
@@ -15080,15 +15579,32 @@ useEffect(() => {
           return;
         }
 
-        const activeResponseMode =
-          forcedMode ?? mode;
-
         const routing = decideCaseRouting({
           query: finalQuery,
           activeCase,
           messages,
           signals,
         });
+
+        const conversationalContinuity = buildAdaptiveConversationalContinuity({
+          query: finalQuery,
+          messages: routing === "NEW_CASE" ? [] : messages,
+          requestedMode: universalMode,
+          hasActiveCase: routing !== "NEW_CASE" && Boolean(activeCase),
+        });
+
+        const universalRoute = routeUniversalInquiry({
+          query: finalQuery,
+          requestedMode: universalMode,
+          hasActiveCase: routing !== "NEW_CASE" && Boolean(activeCase),
+          isTypedFollowUp: Boolean(followUpRequest),
+          continuity: conversationalContinuity,
+        });
+
+        const activeResponseMode =
+          forcedMode ?? universalRoute.legacyMode;
+
+        setMode(activeResponseMode);
 
         const userMessage: DialogueMessage = {
           id: `user-${Date.now()}`,
@@ -15097,6 +15613,9 @@ useEffect(() => {
           text: finalQuery,
           createdAt: Date.now(),
           followUpRequest,
+          universalRoute,
+          astraKernelPolicy: selectAstraKernelPolicy(universalRoute),
+          conversationalContinuity,
         };
 
         let contextBefore = messages;
@@ -15145,6 +15664,8 @@ useEffect(() => {
           streamResponse(
             intelligence,
             activeResponseMode,
+            universalRoute,
+            conversationalContinuity,
           );
         }, 260);
       },
@@ -15152,6 +15673,7 @@ useEffect(() => {
         query,
         thinking,
         mode,
+        universalMode,
         activeCase,
         activeCaseId,
         messages,
@@ -15197,6 +15719,7 @@ useEffect(() => {
     setMessages([]);
     setQuery("");
     setMode("ask");
+    setUniversalMode("AUTO");
     setSignalSpaceMessageId(null);
 
     window.setTimeout(() => {
@@ -15304,9 +15827,33 @@ useEffect(() => {
           userMessage!.followUpRequest,
         );
 
+      const regenerationContext = preserved.filter(
+        (message) => message.id !== userMessage!.id,
+      );
+      const conversationalContinuity =
+        userMessage!.conversationalContinuity ??
+        buildAdaptiveConversationalContinuity({
+          query: userMessage!.text,
+          messages: regenerationContext,
+          requestedMode: universalMode,
+          hasActiveCase: Boolean(activeCase),
+        });
+
+      const regeneratedUniversalRoute =
+        userMessage!.universalRoute ??
+        routeUniversalInquiry({
+          query: userMessage!.text,
+          requestedMode: universalMode,
+          hasActiveCase: Boolean(activeCase),
+          isTypedFollowUp: Boolean(userMessage!.followUpRequest),
+          continuity: conversationalContinuity,
+        });
+
       streamResponse(
         intelligence,
         userMessage!.mode,
+        regeneratedUniversalRoute,
+        conversationalContinuity,
       );
     }, 220);
   }
@@ -15315,7 +15862,7 @@ useEffect(() => {
      UI
   ======================================================== */
   return (
-    <section className="ep-dialogue">
+    <section className="ep-dialogue ep-black-glass-interface ep-monochrome-interface">
       <div
         className="ep-dialogue__ambient"
         aria-hidden="true"
@@ -15588,6 +16135,91 @@ useEffect(() => {
                             `is-${message.mode}`,
                           ].join(" ")}
                         >
+                          {message.universalRoute && message.astraKernelPolicy && (
+                            <section className="ep-universal-nexus">
+                              <div className="ep-universal-nexus__identity">
+                                <span>ARCHENOVA · EPISTEME</span>
+                                <strong>UNIVERSAL REALITY NEXUS</strong>
+                                <small>Cognitive Orchestration · Simple conversation, composable deep intelligence</small>
+                              </div>
+                              <div className="ep-universal-nexus__route">
+                                <span>MODE <b>{message.universalRoute.resolvedMode}</b></span>
+                                <span>DEPTH <b>{message.universalRoute.depth}</b></span>
+                                <span>KERNEL <b>{message.astraKernelPolicy.path}</b></span>
+                              </div>
+                              <p>{message.universalRoute.rationale}</p>
+                            </section>
+                          )}
+
+
+                          {message.cognitiveOrchestration && (
+                            <section className="ep-cognitive-orchestration">
+                              <header className="ep-cognitive-orchestration__head">
+                                <div><small>STAGE 6.15.0 · COGNITIVE ORCHESTRATION</small><strong>{message.cognitiveOrchestration.identity}</strong></div>
+                                <span>{message.cognitiveOrchestration.visibleComplexityRule}</span>
+                              </header>
+                              <section className="ep-answer-first">
+                                <article><small>ANSWER</small><strong>{message.cognitiveOrchestration.answerFirst.answer}</strong></article>
+                                <article><small>WHY</small><p>{message.cognitiveOrchestration.answerFirst.why}</p></article>
+                                <article><small>UNCERTAINTY</small><p>{message.cognitiveOrchestration.answerFirst.uncertainty}</p></article>
+                                <article><small>NEXT</small><p>{message.cognitiveOrchestration.answerFirst.next}</p></article>
+                              </section>
+                              <div className="ep-cognitive-capabilities">
+                                {message.cognitiveOrchestration.capabilities.map((item) => (
+                                  <span key={`${message.id}-cog-${item.capability}`} className={`is-${item.state.toLowerCase()}`}>{item.capability}<b>{item.state}</b></span>
+                                ))}
+                              </div>
+                              <div className="ep-cognitive-grid">
+                                <section><header><small>CONVERSATION WORKING MEMORY</small><strong>TURN-BOUND · NON-PERSISTENT</strong></header>{message.cognitiveOrchestration.workingMemory.map((item)=><article key={`${message.id}-wm-${item.id}`}><span>{item.kind}</span><p>{item.statement}</p></article>)}</section>
+                                <section><header><small>CLAIM-LEVEL PROVENANCE</small><strong>SOURCE ≠ INFERENCE ≠ PROPOSAL</strong></header>{message.cognitiveOrchestration.provenance.map((item,index)=><article key={`${message.id}-prov-${index}`}><span>{item.kind}</span><p>{item.claim}</p><small>{item.authority}</small></article>)}</section>
+                              </div>
+                              <div className="ep-cognitive-grid">
+                                <section><header><small>CONTRADICTION MEMORY</small><strong>{message.cognitiveOrchestration.contradiction.status} · {message.cognitiveOrchestration.contradiction.response}</strong></header><p>{message.cognitiveOrchestration.contradiction.tension}</p><small>{message.cognitiveOrchestration.contradiction.rule}</small></section>
+                                <section><header><small>DECISION INTELLIGENCE</small><strong>{message.cognitiveOrchestration.decision.readiness}</strong></header><p><b>TRUTH</b>{message.cognitiveOrchestration.decision.truth}</p><p><b>POSSIBILITY</b>{message.cognitiveOrchestration.decision.possibility}</p><p><b>NEXT ACTION</b>{message.cognitiveOrchestration.decision.nextAction}</p></section>
+                              </div>
+                              <footer>{message.cognitiveOrchestration.orchestrationRule}<br />{message.cognitiveOrchestration.principle}</footer>
+                            </section>
+                          )}
+
+                          {message.realityOperatingSystem && (
+                            <section className="ep-reality-os">
+                              <header className="ep-reality-os__head"><div><small>STAGE 6.16.0 · REALITY OPERATING SYSTEM</small><strong>{message.realityOperatingSystem.identity}</strong></div><span>REALITY RETAINS VETO</span></header>
+                              <div className="ep-reality-os__capabilities">{message.realityOperatingSystem.capabilityArbitration.map((item)=><span key={`${message.id}-ros-${item.capability}`} className={`is-${item.need.toLowerCase().replace("_","-")}`}>{item.capability}<b>{item.need}</b></span>)}</div>
+                              <div className="ep-reality-os__grid">
+                                <section><header><small>KNOWLEDGE AUTHORITY ROUTER</small><strong>AUTHORITY ≠ AVAILABILITY</strong></header>{message.realityOperatingSystem.knowledgeAuthority.map((item)=><article key={`${message.id}-auth-${item.authority}`}><span>{item.authority}</span><p>{item.role}</p><small>{item.evidenceAuthority}</small></article>)}</section>
+                                <section><header><small>ADAPTIVE VERIFICATION BUDGET</small><strong>{message.realityOperatingSystem.verification.budget}</strong></header><p>{message.realityOperatingSystem.verification.rule}</p><article><span>UNCERTAINTY</span><p>{message.realityOperatingSystem.verification.uncertainty}</p></article><article><span>DEPENDENCY</span><p>{message.realityOperatingSystem.verification.dependency}</p></article></section>
+                              </div>
+                              <section className="ep-reality-os__compiler"><header><small>EVIDENCE-TO-ANSWER COMPILER</small><strong>FACT ≠ INFERENCE ≠ PROPOSAL</strong></header>{message.realityOperatingSystem.answerCompiler.map((item,index)=><article key={`${message.id}-compiler-${index}`}><span>{item.kind}</span><p>{item.statement}</p><small>{item.releaseRule}</small></article>)}</section>
+                              <div className="ep-reality-os__grid">
+                                <section><header><small>REALITY TRANSACTION</small><strong>{message.realityOperatingSystem.transaction.decision}</strong></header><p><b>PROPOSED UPDATE</b>{message.realityOperatingSystem.transaction.proposedUpdate}</p><p><b>CONTRADICTION</b>{message.realityOperatingSystem.transaction.contradictionCheck}</p><small>{message.realityOperatingSystem.transaction.rule}</small></section>
+                                <section><header><small>UNKNOWN RESOLUTION ENGINE</small><strong>{message.realityOperatingSystem.unknownResolution.state}</strong></header><p>{message.realityOperatingSystem.unknownResolution.unknown}</p><p><b>DISCRIMINATOR</b>{message.realityOperatingSystem.unknownResolution.discriminator}</p></section>
+                              </div>
+                              <div className="ep-reality-os__grid">
+                                <section><header><small>TOOL RESULT QUALIFICATION</small><strong>{message.realityOperatingSystem.toolQualification.status}</strong></header><p>{message.realityOperatingSystem.toolQualification.rule}</p><small>{message.realityOperatingSystem.toolQualification.warning}</small></section>
+                                <section><header><small>REALITY SYNCHRONIZATION</small><strong>{message.realityOperatingSystem.synchronization.modelState}</strong></header><p>{message.realityOperatingSystem.synchronization.divergence}</p><p><b>NEXT SYNC</b>{message.realityOperatingSystem.synchronization.nextSync}</p></section>
+                              </div>
+                              <footer>{message.realityOperatingSystem.operatingRule}<br />{message.realityOperatingSystem.principle}</footer>
+                            </section>
+                          )}
+
+                          {message.openInquiryScholarlyIntelligence && (
+                            <section className="ep-open-scholarly">
+                              <header className="ep-open-scholarly__head"><div><small>STAGE 6.17.0 · OPEN INQUIRY & SCHOLARLY INTELLIGENCE</small><strong>{message.openInquiryScholarlyIntelligence.identity}</strong></div><span>OPEN THINKING · SCHOLARLY GROUNDING</span></header>
+                              <div className="ep-open-scholarly__frames">{message.openInquiryScholarlyIntelligence.openInquiry.frames.filter((item)=>item.activation!=="DORMANT").map((item)=><span key={`${message.id}-frame-${item.frame}`} className={`is-${item.activation.toLowerCase()}`}>{item.frame.replaceAll("_"," ")}<b>{item.activation}</b></span>)}</div>
+                              <div className="ep-open-scholarly__grid">
+                                <section><header><small>SCHOLARLY RETRIEVAL PLANNER</small><strong>{message.openInquiryScholarlyIntelligence.scholarlyPlanner.retrievalNeed}</strong></header><p>{message.openInquiryScholarlyIntelligence.scholarlyPlanner.objective}</p><small>{message.openInquiryScholarlyIntelligence.scholarlyPlanner.rule}</small></section>
+                                <section><header><small>LITERATURE CONFLICT ENGINE</small><strong>{message.openInquiryScholarlyIntelligence.literatureConflict.status}</strong></header><p>{message.openInquiryScholarlyIntelligence.literatureConflict.question}</p><small>{message.openInquiryScholarlyIntelligence.literatureConflict.rule}</small></section>
+                              </div>
+                              <section className="ep-open-scholarly__papers"><header><small>PAPER EVIDENCE CONTRACT</small><strong>PAPER EXISTS ≠ PAPER SUPPORTS CLAIM</strong></header>{message.openInquiryScholarlyIntelligence.papers.length ? message.openInquiryScholarlyIntelligence.papers.map((paper)=><article key={`${message.id}-paper-${paper.id}`}><div><span>{paper.role}</span><b>{paper.authority}</b></div><strong>{paper.url ? <a href={paper.url} target="_blank" rel="noreferrer">{paper.title}</a> : paper.title}</strong><p>{paper.source}{paper.publishedAt ? ` · ${paper.publishedAt}` : ""}</p><small>{paper.relation} · {paper.doesNotEstablish}</small></article>) : <p className="ep-open-scholarly__empty">No scholarly source candidate is attached to this turn. Episteme will not fabricate references.</p>}</section>
+                              <div className="ep-open-scholarly__grid">
+                                <section><header><small>CITATION-AWARE ANSWER COMPOSER</small><strong>CLAIM → EVIDENCE → SENTENCE</strong></header>{message.openInquiryScholarlyIntelligence.citationComposer.map((claim,index)=><article key={`${message.id}-citation-${index}`}><span>{claim.strength}</span><p>{claim.statement}</p><small>{claim.releaseRule}</small></article>)}</section>
+                                <section><header><small>KNOWLEDGE EVOLUTION</small><strong>FOUNDATION → FRONTIER → TEST</strong></header>{message.openInquiryScholarlyIntelligence.knowledgeEvolution.map((node)=><article key={`${message.id}-evolution-${node.horizon}`}><span>{node.horizon}</span><p>{node.statement}</p><small>{node.evidenceState}</small></article>)}</section>
+                              </div>
+                              <section className="ep-open-scholarly__explore"><header><small>DYNAMIC EXPLORATION FRONTIER</small><strong>CONTEXT-SPECIFIC · NOT FIXED MODES</strong></header><div>{message.openInquiryScholarlyIntelligence.explorationFrontier.map((branch)=><article key={`${message.id}-explore-${branch.label}`}><span>{branch.label}</span><p>{branch.question}</p><small>{branch.reason}</small></article>)}</div></section>
+                              <footer>{message.openInquiryScholarlyIntelligence.scholarlyBoundary}<br />{message.openInquiryScholarlyIntelligence.principle}</footer>
+                            </section>
+                          )}
+
                           <div className="ep-scholarly__meta">
                             <span className="ep-scholarly__mode">
                               {message.intelligence.adaptiveResponse.modeLabel}
@@ -16121,7 +16753,7 @@ useEffect(() => {
                             <header className="ep-cosmic-answer__head">
                               <div>
                                 <small>ARCHENOVA · EPISTEME</small>
-                                <strong>KNOWLEDGE CONSTELLATION</strong>
+                                <strong>ASTRA NEXUS · KNOWLEDGE CONSTELLATION</strong>
                               </div>
                               <span>
                                 {message.intelligence.evidenceStrength} EVIDENCE
@@ -16132,6 +16764,445 @@ useEffect(() => {
                               A layered view of what is reported, why it matters, what could overturn it,
                               and how far the consequence can responsibly travel.
                             </p>
+
+                            {message.answerCanvas && message.realityGraph && (
+                              <section className="ep-adaptive-canvas">
+                                <header>
+                                  <div>
+                                    <small>{message.answerCanvas.subtitle}</small>
+                                    <strong>{message.answerCanvas.title}</strong>
+                                  </div>
+                                  <span>{message.answerCanvas.mode} · DEPTH {message.answerCanvas.depth}</span>
+                                </header>
+                                <div className="ep-adaptive-canvas__modules">
+                                  {message.answerCanvas.modules.map((module, index) => (
+                                    <article key={`${message.id}-canvas-${module.id}`}>
+                                      <b>{String(index + 1).padStart(2, "0")}</b>
+                                      <div>
+                                        <span>{module.label}</span>
+                                        <p>{module.question}</p>
+                                      </div>
+                                      <small>{module.source}</small>
+                                    </article>
+                                  ))}
+                                </div>
+                                <footer>
+                                  <span>REALITY GRAPH</span>
+                                  <p>{message.realityGraph.principle}</p>
+                                  <small>{message.realityGraph.nodes.length} states · {message.realityGraph.edges.length} relations</small>
+                                </footer>
+                              </section>
+                            )}
+
+                            {message.monochromeReality && (
+                              <section
+                                className={`ep-monochrome-reality is-${message.monochromeReality.materialState.toLowerCase()}`}
+                              >
+                                <header className="ep-monochrome-reality__head">
+                                  <div>
+                                    <small>MONOCHROME REALITY INTELLIGENCE</small>
+                                    <strong>REALITY → IMPLEMENTATION → DEPENDENCY → CORRECTION</strong>
+                                  </div>
+                                  <span>{message.monochromeReality.materialState} GLASS</span>
+                                </header>
+
+                                <div className="ep-reality-state-strip">
+                                  {message.monochromeReality.realityStateSummary.map((item) => (
+                                    <div
+                                      key={`${message.id}-reality-state-${item.state}`}
+                                      className={`is-${item.status.toLowerCase()}`}
+                                    >
+                                      <span>{item.state}</span>
+                                      <strong>{item.status}</strong>
+                                    </div>
+                                  ))}
+                                </div>
+
+                                <section className="ep-deployment-chain">
+                                  <header>
+                                    <small>REALITY DEPLOYMENT CHAIN</small>
+                                    <strong>SCIENTIFIC KNOWLEDGE MUST EARN EACH REAL-WORLD TRANSFORMATION</strong>
+                                  </header>
+                                  <div className="ep-deployment-chain__rail">
+                                    {message.monochromeReality.deploymentChain.map((step, index) => (
+                                      <article
+                                        key={`${message.id}-deployment-${step.id}`}
+                                        className={`is-${step.state.toLowerCase()}`}
+                                      >
+                                        <div className="ep-deployment-chain__index">
+                                          <i aria-hidden="true" />
+                                          <b>{String(index + 1).padStart(2, "0")}</b>
+                                        </div>
+                                        <div>
+                                          <header>
+                                            <strong>{step.label}</strong>
+                                            <span>{step.state}</span>
+                                          </header>
+                                          <p>{step.detail}</p>
+                                        </div>
+                                      </article>
+                                    ))}
+                                  </div>
+                                </section>
+
+                                <div className="ep-reality-control-grid">
+                                  <section>
+                                    <header>
+                                      <small>CIVILIZATION DEPENDENCY TEST</small>
+                                      <strong>{message.monochromeReality.dependency.status}</strong>
+                                    </header>
+                                    {message.monochromeReality.dependency.questions.map((question, index) => (
+                                      <p key={`${message.id}-dependency-${index}`}>
+                                        <b>{String(index + 1).padStart(2, "0")}</b>
+                                        {question}
+                                      </p>
+                                    ))}
+                                    <footer>{message.monochromeReality.dependency.principle}</footer>
+                                  </section>
+
+                                  <section>
+                                    <header>
+                                      <small>REVERSIBILITY</small>
+                                      <strong>{message.monochromeReality.reversibility.status}</strong>
+                                    </header>
+                                    {message.monochromeReality.reversibility.checks.map((check, index) => (
+                                      <p key={`${message.id}-reversibility-${index}`}>
+                                        <b>{String(index + 1).padStart(2, "0")}</b>
+                                        {check}
+                                      </p>
+                                    ))}
+                                    <footer>{message.monochromeReality.reversibility.rule}</footer>
+                                  </section>
+                                </div>
+
+                                <section className="ep-unknown-state">
+                                  <header>
+                                    <div>
+                                      <small>UNKNOWN-STATE REASONING</small>
+                                      <strong>{message.monochromeReality.unknownState.status}</strong>
+                                    </div>
+                                    <span>UNKNOWN ≠ ERROR</span>
+                                  </header>
+                                  <div>
+                                    <article>
+                                      <span>WHAT IS UNKNOWN</span>
+                                      <p>{message.monochromeReality.unknownState.unknown}</p>
+                                    </article>
+                                    <article>
+                                      <span>WHY IT REMAINS UNKNOWN</span>
+                                      <p>{message.monochromeReality.unknownState.whyUnknown}</p>
+                                    </article>
+                                    <article>
+                                      <span>WHAT WOULD DISCRIMINATE</span>
+                                      <p>{message.monochromeReality.unknownState.discriminator}</p>
+                                    </article>
+                                    <article>
+                                      <span>ACTIONABILITY</span>
+                                      <p>{message.monochromeReality.unknownState.actionability}</p>
+                                    </article>
+                                  </div>
+                                </section>
+
+                                <section className="ep-next-best-inquiry">
+                                  <small>NEXT BEST INQUIRY · {message.monochromeReality.nextBestInquiry.label}</small>
+                                  <strong>{message.monochromeReality.nextBestInquiry.question}</strong>
+                                  <p>{message.monochromeReality.nextBestInquiry.rationale}</p>
+                                </section>
+
+                                <footer className="ep-monochrome-reality__principle">
+                                  {message.monochromeReality.principle}
+                                </footer>
+                              </section>
+                            )}
+
+                            {message.realityTwin && (
+                              <section className="ep-reality-twin">
+                                <header className="ep-reality-twin__head">
+                                  <div>
+                                    <small>STAGE 6.12.0 · REALITY TWIN</small>
+                                    <strong>{message.realityTwin.identity}</strong>
+                                  </div>
+                                  <span>MODEL ≠ REALITY</span>
+                                </header>
+
+                                <div className="ep-reality-twin__grid">
+                                  <section className="ep-twin-causal">
+                                    <header>
+                                      <small>CAUSAL REALITY MODEL</small>
+                                      <strong>{message.realityTwin.causalModel.nodes.length} NODES · {message.realityTwin.causalModel.links.length} LINKS</strong>
+                                    </header>
+                                    <div className="ep-twin-causal__nodes">
+                                      {message.realityTwin.causalModel.nodes.map((node) => (
+                                        <article key={`${message.id}-twin-node-${node.id}`} className={`is-${node.state.toLowerCase()}`}>
+                                          <span>{node.state}</span>
+                                          <strong>{node.label}</strong>
+                                          <p>{node.statement}</p>
+                                        </article>
+                                      ))}
+                                    </div>
+                                    <footer>NEXT DISCRIMINATOR · {message.realityTwin.causalModel.frontier}</footer>
+                                  </section>
+
+                                  <section className="ep-twin-constraints">
+                                    <header>
+                                      <small>CONSTRAINT INTELLIGENCE</small>
+                                      <strong>DOMINANT · {message.realityTwin.constraints.dominant}</strong>
+                                    </header>
+                                    <div>
+                                      {message.realityTwin.constraints.assessments.map((constraint) => (
+                                        <article key={`${message.id}-constraint-${constraint.kind}`} className={`is-${constraint.state.toLowerCase()}`}>
+                                          <span>{constraint.kind}</span>
+                                          <b>{constraint.state}</b>
+                                          <p>{constraint.rationale}</p>
+                                        </article>
+                                      ))}
+                                    </div>
+                                    <footer>{message.realityTwin.constraints.principle}</footer>
+                                  </section>
+                                </div>
+
+                                <section className="ep-twin-counterfactual">
+                                  <header>
+                                    <small>COUNTERFACTUAL ENGINE</small>
+                                    <strong>ACTUAL ≠ COUNTERFACTUAL ≠ PREDICTION</strong>
+                                  </header>
+                                  <div>
+                                    {message.realityTwin.counterfactuals.map((branch, index) => (
+                                      <article key={`${message.id}-counterfactual-${branch.id}`}>
+                                        <b>{String(index + 1).padStart(2, "0")}</b>
+                                        <span>{branch.evidenceState}</span>
+                                        <strong>{branch.label}</strong>
+                                        <p>{branch.premise}</p>
+                                        <small>{branch.implication}</small>
+                                      </article>
+                                    ))}
+                                  </div>
+                                </section>
+
+                                <section className="ep-twin-intervention">
+                                  <header>
+                                    <div>
+                                      <small>INTERVENTION PLANNER</small>
+                                      <strong>MINIMUM SUFFICIENT INTERVENTION</strong>
+                                    </div>
+                                    <span>{message.realityTwin.constraints.dominant}</span>
+                                  </header>
+                                  <div className="ep-twin-intervention__target">
+                                    <span>TARGET REALITY</span>
+                                    <p>{message.realityTwin.intervention.targetReality}</p>
+                                    <span>MINIMUM INTERVENTION</span>
+                                    <p>{message.realityTwin.intervention.minimumSufficientIntervention}</p>
+                                  </div>
+                                  <div className="ep-twin-intervention__steps">
+                                    {message.realityTwin.intervention.steps.map((step, index) => (
+                                      <article key={`${message.id}-intervention-${step.id}`} className={`is-${step.state.toLowerCase()}`}>
+                                        <b>{String(index + 1).padStart(2, "0")}</b>
+                                        <div>
+                                          <header><strong>{step.label}</strong><span>{step.state}</span></header>
+                                          <p>{step.action}</p>
+                                        </div>
+                                      </article>
+                                    ))}
+                                  </div>
+                                  <footer>{message.realityTwin.intervention.rule}</footer>
+                                </section>
+
+                                <div className="ep-twin-control-grid">
+                                  <section>
+                                    <header><small>REALITY DIVERGENCE</small><strong>{message.realityTwin.divergence.status}</strong></header>
+                                    <p><b>EXPECTED</b>{message.realityTwin.divergence.expected}</p>
+                                    <p><b>OBSERVED</b>{message.realityTwin.divergence.observed}</p>
+                                    <div>{message.realityTwin.divergence.diagnostic.map((item, index) => <span key={`${message.id}-divergence-${index}`}>{item}</span>)}</div>
+                                    <footer>{message.realityTwin.divergence.rule}</footer>
+                                  </section>
+
+                                  <section>
+                                    <header><small>EPISTEMIC DEBT</small><strong>{message.realityTwin.epistemicDebt.status}</strong></header>
+                                    {message.realityTwin.epistemicDebt.drivers.map((driver, index) => <p key={`${message.id}-debt-${index}`}><b>{String(index + 1).padStart(2, "0")}</b>{driver}</p>)}
+                                    <footer>REPAYMENT · {message.realityTwin.epistemicDebt.repayment}</footer>
+                                  </section>
+                                </div>
+
+                                <section className="ep-twin-dependency">
+                                  <header><small>DEPENDENCY ACCUMULATION</small><strong>{message.realityTwin.dependencyAccumulation.stage.replaceAll("_", " ")}</strong></header>
+                                  <div>
+                                    {message.realityTwin.dependencyAccumulation.path.map((item) => (
+                                      <article key={`${message.id}-dependency-stage-${item.label}`} className={`is-${item.state.toLowerCase()}`}>
+                                        <i aria-hidden="true" />
+                                        <span>{item.label}</span>
+                                        <small>{item.state}</small>
+                                      </article>
+                                    ))}
+                                  </div>
+                                  <p>{message.realityTwin.dependencyAccumulation.warning}</p>
+                                </section>
+
+                                <section className="ep-twin-next-test">
+                                  <small>NEXT REALITY TEST</small>
+                                  <strong>{message.realityTwin.nextRealityTest.question}</strong>
+                                  <p>{message.realityTwin.nextRealityTest.reason}</p>
+                                </section>
+
+                                <footer className="ep-reality-twin__principle">{message.realityTwin.principle}</footer>
+                              </section>
+                            )}
+
+                            {message.autonomousRealityInquiry && (
+                              <section className="ep-autonomous-reality">
+                                <header className="ep-autonomous-reality__head">
+                                  <div>
+                                    <small>STAGE 6.13.0 · AUTONOMOUS REALITY INQUIRY</small>
+                                    <strong>{message.autonomousRealityInquiry.identity}</strong>
+                                  </div>
+                                  <span>AUTONOMY ≠ AUTHORITY</span>
+                                </header>
+
+                                <section className="ep-autonomous-model">
+                                  <small>{message.autonomousRealityInquiry.modelVersion}</small>
+                                  <p>{message.autonomousRealityInquiry.currentModel}</p>
+                                </section>
+
+                                <div className="ep-autonomous-grid">
+                                  <section>
+                                    <header><small>UNRESOLVED GAPS</small><strong>{message.autonomousRealityInquiry.gaps.length}</strong></header>
+                                    <div className="ep-autonomous-gaps">
+                                      {message.autonomousRealityInquiry.gaps.map((gap) => (
+                                        <article key={`${message.id}-gap-${gap.id}`} className={`is-${gap.priority.toLowerCase()}`}>
+                                          <span>{gap.kind} · {gap.priority}</span>
+                                          <strong>{gap.question}</strong>
+                                          <p>{gap.reason}</p>
+                                        </article>
+                                      ))}
+                                    </div>
+                                  </section>
+                                  <section>
+                                    <header><small>ACTIVE INQUIRY</small><strong>{message.autonomousRealityInquiry.cycle.state}</strong></header>
+                                    <p className="ep-autonomous-focus">{message.autonomousRealityInquiry.activeInquiry?.question ?? "NO HIGH-VALUE OPEN INQUIRY"}</p>
+                                    <footer>{message.autonomousRealityInquiry.cycle.epistemicGain}</footer>
+                                  </section>
+                                </div>
+
+                                <div className="ep-autonomous-control-grid">
+                                  <section>
+                                    <header><small>EVIDENCE IDENTITY FIREWALL</small><strong>{message.autonomousRealityInquiry.evidenceFirewall.status}</strong></header>
+                                    <p>{message.autonomousRealityInquiry.evidenceFirewall.admissionRule}</p>
+                                    <footer>{message.autonomousRealityInquiry.evidenceFirewall.rejectionRule}</footer>
+                                  </section>
+                                  <section>
+                                    <header><small>CONTRADICTION GATE</small><strong>{message.autonomousRealityInquiry.contradictionGate.state}</strong></header>
+                                    {message.autonomousRealityInquiry.contradictionGate.tests.map((test, index) => <p key={`${message.id}-contradiction-${index}`}><b>{String(index + 1).padStart(2,"0")}</b>{test}</p>)}
+                                    <footer>{message.autonomousRealityInquiry.contradictionGate.rule}</footer>
+                                  </section>
+                                </div>
+
+                                <section className="ep-autonomous-revision">
+                                  <header><small>MODEL REVISION PROPOSAL</small><strong>{message.autonomousRealityInquiry.revision.action} · {message.autonomousRealityInquiry.revision.authority}</strong></header>
+                                  <div><span>CURRENT</span><p>{message.autonomousRealityInquiry.revision.currentModel}</p><span>PROPOSED</span><p>{message.autonomousRealityInquiry.revision.proposedModel}</p></div>
+                                  <footer>REVISION EVIDENCE REQUIREMENT · {message.autonomousRealityInquiry.revision.evidenceRequirement}</footer>
+                                </section>
+
+                                <section className="ep-autonomous-impact">
+                                  <header><small>REVISION IMPACT PROPAGATION</small><strong>MODEL → DOWNSTREAM</strong></header>
+                                  <div>{message.autonomousRealityInquiry.impact.map((item) => <article key={`${message.id}-impact-${item.layer}`} className={`is-${item.state.toLowerCase()}`}><span>{item.state}</span><strong>{item.layer}</strong><p>{item.reason}</p></article>)}</div>
+                                </section>
+
+                                <section className="ep-autonomous-next">
+                                  <small>NEXT REALITY TEST</small>
+                                  <strong>{message.autonomousRealityInquiry.nextRealityTest}</strong>
+                                  <p>{message.autonomousRealityInquiry.cycle.stopCondition}</p>
+                                </section>
+                                <footer className="ep-autonomous-reality__principle">{message.autonomousRealityInquiry.principle}</footer>
+                              </section>
+                            )}
+
+                            {message.multiHypothesisGovernance && (
+                              <section className="ep-reality-governance">
+                                <header className="ep-reality-governance__head">
+                                  <div>
+                                    <small>STAGE 6.14.0 · MULTI-HYPOTHESIS REALITY GOVERNANCE</small>
+                                    <strong>{message.multiHypothesisGovernance.identity}</strong>
+                                  </div>
+                                  <span>BEST CURRENT HYPOTHESIS ≠ TRUE HYPOTHESIS</span>
+                                </header>
+
+                                <section className="ep-hypothesis-field">
+                                  <header><small>HYPOTHESIS COMPETITION ENGINE</small><strong>{message.multiHypothesisGovernance.hypotheses.length} ACTIVE MODELS</strong></header>
+                                  <div>
+                                    {message.multiHypothesisGovernance.hypotheses.map((hypothesis) => (
+                                      <article key={`${message.id}-hypothesis-${hypothesis.id}`} className={`is-${hypothesis.state.toLowerCase()}`}>
+                                        <div><b>{hypothesis.id}</b><span>{hypothesis.state} · {hypothesis.evidenceState}</span></div>
+                                        <strong>{hypothesis.label}</strong>
+                                        <p>{hypothesis.proposition}</p>
+                                        <small>DISCRIMINATOR · {hypothesis.discriminatingObservation}</small>
+                                        <footer>{hypothesis.rule}</footer>
+                                      </article>
+                                    ))}
+                                  </div>
+                                </section>
+
+                                <div className="ep-governance-grid">
+                                  <section className="ep-discriminating-tests">
+                                    <header><small>DISCRIMINATING EXPERIMENT PLANNER</small><strong>INFORMATION GAIN &gt; INFORMATION VOLUME</strong></header>
+                                    <div>
+                                      {message.multiHypothesisGovernance.discriminatingTests.map((test, index) => (
+                                        <article key={`${message.id}-discriminator-${test.id}`} className={message.multiHypothesisGovernance.preferredTest?.id === test.id ? "is-preferred" : ""}>
+                                          <b>{String(index + 1).padStart(2,"0")}</b>
+                                          <div><span>{test.expectedInformationGain} GAIN · {test.feasibility.replaceAll("_"," ")}</span><strong>{test.question}</strong><p>{test.reason}</p><small>DISTINGUISHES · {test.distinguishes.join(" / ")}</small></div>
+                                        </article>
+                                      ))}
+                                    </div>
+                                  </section>
+
+                                  <section className="ep-confidence-architecture">
+                                    <header><small>REALITY CONFIDENCE ARCHITECTURE</small><strong>NO SINGLE SCORE</strong></header>
+                                    <div>
+                                      {Object.entries(message.multiHypothesisGovernance.confidence).filter(([key]) => key !== "rule").map(([key,value]) => (
+                                        <article key={`${message.id}-confidence-${key}`}><span>{key.replaceAll("_"," ").toUpperCase()}</span><strong>{String(value).replaceAll("_"," ")}</strong></article>
+                                      ))}
+                                    </div>
+                                    <footer>{message.multiHypothesisGovernance.confidence.rule}</footer>
+                                  </section>
+                                </div>
+
+                                <section className="ep-temporal-reality">
+                                  <header><small>TEMPORAL REALITY MODEL</small><strong>PAST ≠ CURRENT ≠ FORECAST ≠ SCENARIO ≠ TARGET</strong></header>
+                                  <div>{message.multiHypothesisGovernance.temporalModel.map((layer,index)=><article key={`${message.id}-temporal-${layer.horizon}`}><b>{String(index+1).padStart(2,"0")}</b><span>{layer.horizon} · {layer.state.replaceAll("_"," ")}</span><p>{layer.statement}</p><small>{layer.authority}</small></article>)}</div>
+                                </section>
+
+                                <div className="ep-governance-grid">
+                                  <section className="ep-actor-model">
+                                    <header><small>MULTI-ACTOR REALITY MODEL</small><strong>{message.multiHypothesisGovernance.actors.length} ACTOR CLASSES</strong></header>
+                                    <div>{message.multiHypothesisGovernance.actors.map((actor)=><article key={`${message.id}-actor-${actor.actor}`}><strong>{actor.actor}</strong><p><b>OBJECTIVE</b>{actor.objective}</p><p><b>CONSTRAINT</b>{actor.constraint}</p><p><b>AUTHORITY</b>{actor.authority}</p><p><b>RISK</b>{actor.risk}</p><small>EXIT · {actor.exitOption}</small></article>)}</div>
+                                  </section>
+                                  <section className="ep-intervention-governance">
+                                    <header><small>GOVERNANCE OF INTERVENTION</small><strong>AUTHORITY · RISK · EXIT</strong></header>
+                                    <div>{message.multiHypothesisGovernance.governance.map((item)=><article key={`${message.id}-gov-${item.dimension}`} className={`is-${item.status.toLowerCase()}`}><span>{item.dimension} · {item.status}</span><strong>{item.question}</strong><p>{item.reason}</p></article>)}</div>
+                                  </section>
+                                </div>
+
+                                <section className="ep-assumption-ledger">
+                                  <header><small>ASSUMPTION LEDGER</small><strong>MAKE HIDDEN DEPENDENCIES EXPLICIT</strong></header>
+                                  <div>{message.multiHypothesisGovernance.assumptions.map((item,index)=><article key={`${message.id}-assumption-${item.id}`}><b>{String(index+1).padStart(2,"0")}</b><div><span>{item.status} · {item.testability.replaceAll("_"," ")}</span><strong>{item.assumption}</strong><p><em>DEPENDENCY</em>{item.dependency}</p><p><em>IF FALSE</em>{item.failureEffect}</p><small>TEST · {item.test}</small></div></article>)}</div>
+                                </section>
+
+                                <div className="ep-governance-grid">
+                                  <section className="ep-failure-propagation">
+                                    <header><small>FAILURE PROPAGATION GRAPH</small><strong>LOCAL → SOCIETY</strong></header>
+                                    <div>{message.multiHypothesisGovernance.failurePropagation.map((node,index)=><article key={`${message.id}-failure-${node.stage}`} className={`is-${node.state.toLowerCase()}`}><b>{String(index+1).padStart(2,"0")}</b><span>{node.stage} · {node.state}</span><p>{node.condition}</p><small>CORRECTION · {node.correction}</small></article>)}</div>
+                                  </section>
+                                  <section className="ep-reversibility-window">
+                                    <header><small>DECISION REVERSIBILITY WINDOW</small><strong>WHEN CAN WE STILL TURN BACK?</strong></header>
+                                    <div>{message.multiHypothesisGovernance.reversibilityWindow.map((window,index)=><article key={`${message.id}-reverse-${window.phase}`} className={`is-${window.state.toLowerCase().replaceAll("_","-")}`}><b>{String(index+1).padStart(2,"0")}</b><span>{window.phase} · {window.state.replaceAll("_"," ")}</span><p>{window.exitCondition}</p><small>{window.warning}</small></article>)}</div>
+                                  </section>
+                                </div>
+
+                                <section className="ep-governance-next">
+                                  <small>NEXT DISCRIMINATING REALITY TEST</small>
+                                  <strong>{message.multiHypothesisGovernance.nextGovernanceQuestion}</strong>
+                                  <p>{message.multiHypothesisGovernance.principle}</p>
+                                </section>
+                              </section>
+                            )}
 
                             <div className="ep-cosmic-answer__grid">
                               {buildEpistemeExperienceModules(message.intelligence).map(
@@ -16574,23 +17645,28 @@ useEffect(() => {
               COMPOSER
           ================================================= */}
           <div className="ep-dialogue__composer-shell">
-            <div className="ep-dialogue__modes ep-dialogue__modes--ask-only">
-              <button
-                type="button"
-                className="ep-dialogue__ask-button is-active"
-                title="Ask Episteme"
-                onClick={() => {
-                  setMode("ask");
-                  textareaRef.current?.focus();
-                }}
-              >
-                <strong>ASK</strong>
-                <small>Evidence → Signal Space</small>
-              </button>
+            <div className="ep-universal-modebar">
+              <div className="ep-universal-modebar__modes" role="group" aria-label="Episteme mode">
+                {UNIVERSAL_MODE_OPTIONS.map((item) => (
+                  <button
+                    key={item.id}
+                    type="button"
+                    className={universalMode === item.id ? "is-active" : ""}
+                    title={item.description}
+                    onClick={() => {
+                      setUniversalMode(item.id);
+                      textareaRef.current?.focus();
+                    }}
+                  >
+                    <strong>{item.shortLabel}</strong>
+                    <small>{item.id === "AUTO" ? "Adaptive" : item.label}</small>
+                  </button>
+                ))}
+              </div>
 
               <button
                 type="button"
-                className="ep-dialogue__signal-space-button"
+                className="ep-dialogue__signal-space-button ep-universal-modebar__signal"
                 disabled={!messages.some(
                   (message) =>
                     message.role === "episteme" &&
@@ -16613,12 +17689,8 @@ useEffect(() => {
                 }}
               >
                 <strong>SIGNAL SPACE</strong>
-                <small>Explore ArcheNova intelligence</small>
+                <small>Knowledge graph</small>
               </button>
-
-              <span className="ep-dialogue__knowledge-first">
-                ArcheNova-indexed intelligence first
-              </span>
             </div>
             <form
               className="ep-dialogue__composer"
@@ -16634,9 +17706,7 @@ useEffect(() => {
                   query
                 }
                 rows={1}
-                placeholder={`${
-                  activeMode.label
-                } Episteme...`}
+                placeholder={`${activeUniversalMode.label} Episteme...`}
                 onChange={(
                   event,
                 ) => {
@@ -16676,9 +17746,7 @@ useEffect(() => {
             </form>
             <div className="ep-dialogue__composer-meta">
               <span>
-                {
-                  activeMode.description
-                }
+                {activeUniversalMode.description}
               </span>
               <div>
                 <span>
@@ -16938,6 +18006,90 @@ useEffect(() => {
           CSS
       ================================================== */}
       <style jsx global>{`
+        /* ==================================================
+           STAGE 6.11.1 · UNIVERSAL BLACK GLASS INTELLIGENCE INTERFACE
+        ================================================== */
+        .ep-universal-nexus {
+          position: relative;
+          overflow: hidden;
+          display: grid;
+          grid-template-columns: minmax(0,1fr) auto;
+          gap: 8px 18px;
+          margin-bottom: 10px;
+          padding: 14px 15px;
+          border: 1px solid rgba(144,197,255,.09);
+          border-radius: 16px;
+          background:
+            radial-gradient(circle at 0 0, rgba(76,145,255,.08), transparent 38%),
+            radial-gradient(circle at 100% 100%, rgba(118,91,255,.055), transparent 32%),
+            rgba(4,6,10,.70);
+          box-shadow: inset 0 1px rgba(255,255,255,.035), 0 18px 48px rgba(0,0,0,.18);
+          backdrop-filter: blur(22px) saturate(118%);
+          -webkit-backdrop-filter: blur(22px) saturate(118%);
+        }
+        .ep-universal-nexus::after {
+          content: "";
+          position: absolute; inset: 0; pointer-events: none; opacity: .16;
+          background-image: radial-gradient(circle, rgba(212,234,255,.8) 0 .55px, transparent .8px);
+          background-size: 43px 43px;
+        }
+        .ep-universal-nexus > * { position: relative; z-index: 1; }
+        .ep-universal-nexus__identity { display: grid; gap: 3px; }
+        .ep-universal-nexus__identity span { color: rgba(151,201,244,.43); font-size: 6px; letter-spacing: .2em; }
+        .ep-universal-nexus__identity strong { color: rgba(246,250,255,.9); font-size: 10px; font-weight: 520; letter-spacing: .09em; }
+        .ep-universal-nexus__identity small { color: rgba(222,232,242,.33); font-size: 6.5px; letter-spacing: .08em; }
+        .ep-universal-nexus__route { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; justify-content: flex-end; }
+        .ep-universal-nexus__route span { padding: 5px 7px; border: 1px solid rgba(151,204,255,.07); border-radius: 999px; color: rgba(205,224,240,.34); font-size: 5.8px; letter-spacing: .11em; }
+        .ep-universal-nexus__route b { color: rgba(226,240,252,.62); font-weight: 600; }
+        .ep-universal-nexus > p { grid-column: 1 / -1; margin: 2px 0 0; color: rgba(220,230,239,.38); font-size: 7.5px; line-height: 1.6; }
+
+        .ep-universal-modebar {
+          display: flex; align-items: stretch; gap: 8px; width: 100%; margin-bottom: 8px;
+        }
+        .ep-universal-modebar__modes {
+          min-width: 0; flex: 1 1 auto; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+        }
+        .ep-universal-modebar__modes::-webkit-scrollbar { display: none; }
+        .ep-universal-modebar__modes button,
+        .ep-universal-modebar__signal {
+          flex: 0 0 auto; min-height: 42px; padding: 8px 11px; border: 1px solid rgba(255,255,255,.055); border-radius: 12px; background: rgba(255,255,255,.012); color: rgba(231,239,246,.42); cursor: pointer; transition: .22s ease;
+        }
+        .ep-universal-modebar__modes button { display: grid; gap: 3px; min-width: 74px; text-align: left; }
+        .ep-universal-modebar__modes button strong, .ep-universal-modebar__signal strong { font-size: 7px; letter-spacing: .11em; font-weight: 600; }
+        .ep-universal-modebar__modes button small, .ep-universal-modebar__signal small { font-size: 5.8px; color: rgba(255,255,255,.22); letter-spacing: .07em; }
+        .ep-universal-modebar__modes button:hover, .ep-universal-modebar__modes button.is-active { border-color: rgba(135,195,255,.16); background: radial-gradient(circle at 50% 0, rgba(99,166,255,.08), transparent 70%), rgba(255,255,255,.02); color: rgba(245,250,255,.86); }
+        .ep-universal-modebar__modes button.is-active { box-shadow: inset 0 1px rgba(255,255,255,.04), 0 0 20px rgba(75,143,255,.035); }
+        .ep-universal-modebar__signal { min-width: 106px; display: grid; align-content: center; gap: 3px; text-align: left; }
+
+        .ep-adaptive-canvas {
+          margin-top: 13px; padding: 15px; border: 1px solid rgba(146,200,255,.075); border-radius: 17px; background: linear-gradient(150deg, rgba(9,13,19,.72), rgba(3,4,7,.74)); box-shadow: inset 0 1px rgba(255,255,255,.03);
+        }
+        .ep-adaptive-canvas > header { display: flex; align-items: flex-end; justify-content: space-between; gap: 10px 18px; flex-wrap: wrap; }
+        .ep-adaptive-canvas > header > div { display: grid; gap: 4px; }
+        .ep-adaptive-canvas > header small { color: rgba(157,201,239,.38); font-size: 6px; letter-spacing: .15em; }
+        .ep-adaptive-canvas > header strong { color: rgba(244,248,252,.78); font-size: 9px; font-weight: 540; letter-spacing: .1em; }
+        .ep-adaptive-canvas > header > span { color: rgba(192,218,238,.34); font-size: 6px; letter-spacing: .1em; }
+        .ep-adaptive-canvas__modules { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 7px; margin-top: 12px; }
+        .ep-adaptive-canvas__modules article { display: grid; grid-template-columns: 26px minmax(0,1fr) auto; gap: 8px; padding: 10px; border: 1px solid rgba(255,255,255,.045); border-radius: 11px; background: rgba(255,255,255,.012); }
+        .ep-adaptive-canvas__modules article > b { color: rgba(135,190,240,.3); font-size: 6px; font-weight: 500; }
+        .ep-adaptive-canvas__modules article > div { min-width: 0; }
+        .ep-adaptive-canvas__modules article span { color: rgba(232,240,247,.62); font-size: 7px; font-weight: 560; letter-spacing: .07em; }
+        .ep-adaptive-canvas__modules article p { margin: 5px 0 0; color: rgba(219,229,237,.36); font-size: 7.2px; line-height: 1.55; }
+        .ep-adaptive-canvas__modules article > small { color: rgba(255,255,255,.18); font-size: 5.5px; letter-spacing: .08em; }
+        .ep-adaptive-canvas footer { display: grid; grid-template-columns: auto minmax(0,1fr) auto; gap: 10px; align-items: start; margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,.045); }
+        .ep-adaptive-canvas footer span { color: rgba(146,198,243,.36); font-size: 6px; letter-spacing: .13em; }
+        .ep-adaptive-canvas footer p { margin: 0; color: rgba(219,229,237,.32); font-size: 7px; line-height: 1.55; }
+        .ep-adaptive-canvas footer small { color: rgba(255,255,255,.18); font-size: 5.8px; white-space: nowrap; }
+
+        @media (max-width: 760px) {
+          .ep-universal-nexus { grid-template-columns: 1fr; }
+          .ep-universal-nexus__route { justify-content: flex-start; }
+          .ep-universal-modebar { align-items: stretch; }
+          .ep-universal-modebar__signal { min-width: 92px; }
+          .ep-adaptive-canvas__modules { grid-template-columns: 1fr; }
+          .ep-adaptive-canvas footer { grid-template-columns: 1fr; gap: 5px; }
+        }
+
         /* ==================================================
            PAGE
         ================================================== */
@@ -26052,6 +27204,730 @@ useEffect(() => {
         }
 
 
+
+        /* ==================================================
+           STAGE 6.11.1 · UNIVERSAL BLACK GLASS INTELLIGENCE INTERFACE
+           One visual grammar across desktop + mobile.
+           Black is the environment; glass is the information surface;
+           light is reserved for epistemic state and interaction.
+        ================================================== */
+        .ep-black-glass-interface {
+          --ep-bg: #000;
+          --ep-glass-0: rgba(255,255,255,.012);
+          --ep-glass-1: rgba(10,12,16,.66);
+          --ep-glass-2: rgba(8,10,14,.82);
+          --ep-line: rgba(226,239,250,.075);
+          --ep-line-strong: rgba(204,228,248,.13);
+          --ep-text: rgba(247,250,252,.92);
+          --ep-text-2: rgba(222,232,240,.58);
+          --ep-text-3: rgba(211,224,235,.34);
+          --ep-ice: rgba(155,207,250,.72);
+          --ep-violet: rgba(154,132,255,.34);
+          --ep-green: rgba(139,237,193,.72);
+          --ep-blur: blur(26px) saturate(118%);
+          background: #000;
+        }
+
+        .ep-black-glass-interface .ep-dialogue__ambient {
+          background:
+            radial-gradient(ellipse at 50% -16%, rgba(113,174,224,.105), transparent 37%),
+            radial-gradient(circle at 86% 34%, rgba(122,101,230,.055), transparent 24%),
+            radial-gradient(circle at 10% 74%, rgba(69,131,178,.035), transparent 27%),
+            #000;
+        }
+        .ep-black-glass-interface .ep-dialogue__ambient::before,
+        .ep-black-glass-interface .ep-dialogue__ambient::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+        }
+        .ep-black-glass-interface .ep-dialogue__ambient::before {
+          opacity: .18;
+          background-image:
+            radial-gradient(circle, rgba(232,244,255,.85) 0 .55px, transparent .8px),
+            radial-gradient(circle, rgba(151,197,235,.6) 0 .45px, transparent .72px);
+          background-size: 67px 67px, 109px 109px;
+          background-position: 8px 13px, 37px 51px;
+          mask-image: linear-gradient(to bottom, #000 0%, rgba(0,0,0,.72) 55%, transparent 100%);
+          -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0,0,0,.72) 55%, transparent 100%);
+        }
+        .ep-black-glass-interface .ep-dialogue__ambient::after {
+          inset: -18% 28% auto;
+          height: 58%;
+          border: 1px solid rgba(174,213,246,.045);
+          border-radius: 50%;
+          transform: rotate(-9deg);
+          box-shadow: 0 0 90px rgba(89,154,211,.025);
+        }
+
+        .ep-black-glass-interface .ep-dialogue__top,
+        .ep-black-glass-interface .ep-dialogue__signals,
+        .ep-black-glass-interface .ep-dialogue__composer,
+        .ep-black-glass-interface .ep-signal-space,
+        .ep-black-glass-interface .ep-universal-nexus,
+        .ep-black-glass-interface .ep-adaptive-canvas,
+        .ep-black-glass-interface .ep-message--episteme .ep-message__body,
+        .ep-black-glass-interface .ep-related-reports,
+        .ep-black-glass-interface .ep-continue-inquiry {
+          border-color: var(--ep-line) !important;
+          background:
+            linear-gradient(145deg, rgba(255,255,255,.022), transparent 28%),
+            radial-gradient(circle at 12% -12%, rgba(122,183,235,.055), transparent 34%),
+            rgba(3,5,8,.72) !important;
+          box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.04),
+            0 24px 70px rgba(0,0,0,.22) !important;
+          backdrop-filter: var(--ep-blur) !important;
+          -webkit-backdrop-filter: var(--ep-blur) !important;
+        }
+
+        .ep-black-glass-interface .ep-universal-nexus {
+          border-radius: 20px;
+          padding: 17px 18px;
+          isolation: isolate;
+        }
+        .ep-black-glass-interface .ep-universal-nexus::before {
+          content: "";
+          position: absolute;
+          width: 210px;
+          height: 210px;
+          right: -112px;
+          top: -128px;
+          border: 1px solid rgba(173,216,252,.07);
+          border-radius: 50%;
+          box-shadow: 0 0 0 34px rgba(152,202,246,.018), 0 0 0 72px rgba(143,121,255,.012);
+          pointer-events: none;
+        }
+        .ep-black-glass-interface .ep-universal-nexus__identity strong {
+          font-size: 11px;
+          letter-spacing: .12em;
+          text-shadow: 0 0 24px rgba(142,201,249,.12);
+        }
+        .ep-black-glass-interface .ep-universal-nexus__identity span,
+        .ep-black-glass-interface .ep-adaptive-canvas > header small {
+          color: rgba(157,207,250,.58);
+        }
+        .ep-black-glass-interface .ep-universal-nexus__route span {
+          border-color: rgba(167,211,247,.09);
+          background: rgba(255,255,255,.018);
+        }
+
+        .ep-black-glass-interface .ep-universal-modebar {
+          gap: 7px;
+          padding: 6px;
+          border: 1px solid var(--ep-line);
+          border-radius: 16px;
+          background: rgba(4,6,9,.62);
+          box-shadow: inset 0 1px rgba(255,255,255,.03);
+          backdrop-filter: blur(20px) saturate(116%);
+          -webkit-backdrop-filter: blur(20px) saturate(116%);
+        }
+        .ep-black-glass-interface .ep-universal-modebar__modes button,
+        .ep-black-glass-interface .ep-universal-modebar__signal {
+          border-color: transparent;
+          border-radius: 11px;
+          background: transparent;
+        }
+        .ep-black-glass-interface .ep-universal-modebar__modes button:hover,
+        .ep-black-glass-interface .ep-universal-modebar__modes button.is-active,
+        .ep-black-glass-interface .ep-universal-modebar__signal:hover {
+          border-color: rgba(162,210,250,.12);
+          background:
+            radial-gradient(circle at 50% -20%, rgba(104,178,241,.12), transparent 70%),
+            rgba(255,255,255,.025);
+          box-shadow: inset 0 1px rgba(255,255,255,.04), 0 0 28px rgba(79,151,220,.04);
+        }
+
+        .ep-black-glass-interface .ep-scholarly__hero,
+        .ep-black-glass-interface .ep-scholarly__section,
+        .ep-black-glass-interface .ep-agent-work,
+        .ep-black-glass-interface .ep-case-reuse,
+        .ep-black-glass-interface .ep-case-state-machine,
+        .ep-black-glass-interface .ep-unified-work-state,
+        .ep-black-glass-interface .ep-case-goal-tree,
+        .ep-black-glass-interface .ep-case-subtasks,
+        .ep-black-glass-interface .ep-case-loop,
+        .ep-black-glass-interface .ep-case-completion,
+        .ep-black-glass-interface .ep-case-closure,
+        .ep-black-glass-interface .ep-inquiry,
+        .ep-black-glass-interface .ep-evidence-state,
+        .ep-black-glass-interface .ep-demonstration-state,
+        .ep-black-glass-interface .ep-knowledge-constellation,
+        .ep-black-glass-interface .ep-implication-trajectory,
+        .ep-black-glass-interface .ep-evidence-spectrum,
+        .ep-black-glass-interface .ep-falsification-window {
+          border-color: rgba(225,238,249,.065) !important;
+          background:
+            linear-gradient(150deg, rgba(255,255,255,.018), rgba(255,255,255,.005)),
+            rgba(2,3,5,.50) !important;
+          box-shadow: inset 0 1px rgba(255,255,255,.028), 0 15px 42px rgba(0,0,0,.10) !important;
+          backdrop-filter: blur(18px) saturate(110%);
+          -webkit-backdrop-filter: blur(18px) saturate(110%);
+        }
+
+        .ep-black-glass-interface .ep-scholarly__hero h3,
+        .ep-black-glass-interface .ep-scholarly__section h4,
+        .ep-black-glass-interface .ep-adaptive-canvas__modules article span,
+        .ep-black-glass-interface .ep-related-report strong,
+        .ep-black-glass-interface .ep-continue-inquiry__card > strong {
+          color: var(--ep-text);
+        }
+        .ep-black-glass-interface .ep-scholarly__hero p,
+        .ep-black-glass-interface .ep-scholarly__section p,
+        .ep-black-glass-interface .ep-adaptive-canvas__modules article p,
+        .ep-black-glass-interface .ep-related-report p,
+        .ep-black-glass-interface .ep-continue-inquiry__card > p {
+          color: var(--ep-text-2);
+        }
+
+        .ep-black-glass-interface .ep-adaptive-canvas {
+          position: relative;
+          overflow: hidden;
+          border-radius: 20px;
+          padding: 17px;
+        }
+        .ep-black-glass-interface .ep-adaptive-canvas::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          opacity: .11;
+          background-image: radial-gradient(circle, rgba(211,235,255,.9) 0 .5px, transparent .75px);
+          background-size: 52px 52px;
+        }
+        .ep-black-glass-interface .ep-adaptive-canvas > * { position: relative; z-index: 1; }
+        .ep-black-glass-interface .ep-adaptive-canvas__modules article {
+          min-height: 92px;
+          border-color: rgba(215,234,249,.06);
+          border-radius: 14px;
+          background:
+            radial-gradient(circle at 0 0, rgba(108,178,235,.045), transparent 50%),
+            rgba(255,255,255,.012);
+          transition: transform .22s ease, border-color .22s ease, background .22s ease;
+        }
+        .ep-black-glass-interface .ep-adaptive-canvas__modules article:hover {
+          transform: translateY(-1px);
+          border-color: rgba(159,207,247,.12);
+          background: rgba(255,255,255,.022);
+        }
+
+        .ep-black-glass-interface .ep-message--user .ep-message__body {
+          border: 1px solid rgba(255,255,255,.055);
+          background: rgba(255,255,255,.018);
+          box-shadow: inset 0 1px rgba(255,255,255,.025);
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+        }
+
+        .ep-black-glass-interface button,
+        .ep-black-glass-interface a {
+          -webkit-tap-highlight-color: transparent;
+        }
+        .ep-black-glass-interface button:focus-visible,
+        .ep-black-glass-interface a:focus-visible,
+        .ep-black-glass-interface textarea:focus-visible {
+          outline: 1px solid rgba(163,213,255,.42);
+          outline-offset: 2px;
+        }
+
+        @media (min-width: 900px) {
+          .ep-black-glass-interface .ep-scholarly {
+            padding: 20px;
+          }
+          .ep-black-glass-interface .ep-adaptive-canvas__modules {
+            grid-template-columns: repeat(2, minmax(0,1fr));
+          }
+          .ep-black-glass-interface .ep-related-reports__grid,
+          .ep-black-glass-interface .ep-continue-inquiry__grid {
+            gap: 12px;
+          }
+        }
+
+        @media (max-width: 899px) {
+          .ep-black-glass-interface .ep-dialogue__ambient::after { display: none; }
+          .ep-black-glass-interface .ep-universal-nexus {
+            padding: 14px;
+            border-radius: 17px;
+          }
+          .ep-black-glass-interface .ep-universal-nexus__route {
+            justify-content: flex-start;
+          }
+          .ep-black-glass-interface .ep-universal-modebar {
+            margin-inline: -2px;
+            border-radius: 14px;
+          }
+          .ep-black-glass-interface .ep-universal-modebar__modes {
+            scroll-snap-type: x proximity;
+          }
+          .ep-black-glass-interface .ep-universal-modebar__modes button {
+            scroll-snap-align: start;
+          }
+          .ep-black-glass-interface .ep-adaptive-canvas {
+            padding: 14px;
+            border-radius: 17px;
+          }
+          .ep-black-glass-interface .ep-adaptive-canvas__modules {
+            grid-template-columns: 1fr;
+          }
+          .ep-black-glass-interface .ep-adaptive-canvas__modules article {
+            min-height: 0;
+          }
+          .ep-black-glass-interface .ep-scholarly__hero,
+          .ep-black-glass-interface .ep-scholarly__section,
+          .ep-black-glass-interface .ep-agent-work,
+          .ep-black-glass-interface .ep-case-reuse,
+          .ep-black-glass-interface .ep-related-reports,
+          .ep-black-glass-interface .ep-continue-inquiry {
+            border-radius: 14px !important;
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .ep-black-glass-interface *,
+          .ep-black-glass-interface *::before,
+          .ep-black-glass-interface *::after {
+            scroll-behavior: auto !important;
+            transition-duration: .01ms !important;
+            animation-duration: .01ms !important;
+            animation-iteration-count: 1 !important;
+          }
+        }
+
+        /* ==================================================
+           STAGE 6.11.2 · MONOCHROME REALITY INTELLIGENCE SYSTEM
+           No chromatic accents. Meaning is encoded through
+           opacity, blur, border definition, reflection and depth.
+        ================================================== */
+        .ep-monochrome-interface {
+          --ep-mono-0: #000;
+          --ep-mono-1: rgba(0,0,0,.94);
+          --ep-mono-2: rgba(0,0,0,.78);
+          --ep-mono-3: rgba(0,0,0,.58);
+          --ep-mono-glass: rgba(0,0,0,.46);
+          --ep-mono-line: rgba(255,255,255,.075);
+          --ep-mono-line-soft: rgba(255,255,255,.04);
+          --ep-mono-text: rgba(255,255,255,.88);
+          --ep-mono-text-2: rgba(255,255,255,.57);
+          --ep-mono-text-3: rgba(255,255,255,.32);
+          --ep-mono-text-4: rgba(255,255,255,.18);
+          color-scheme: dark;
+          background: #000 !important;
+          filter: grayscale(1);
+        }
+
+        .ep-monochrome-interface .ep-dialogue__ambient {
+          background:
+            radial-gradient(circle at 18% 8%, rgba(255,255,255,.035), transparent 24%),
+            radial-gradient(circle at 82% 32%, rgba(255,255,255,.022), transparent 22%),
+            #000 !important;
+        }
+        .ep-monochrome-interface .ep-dialogue__ambient::before {
+          opacity: .13 !important;
+          background-image: radial-gradient(circle, rgba(255,255,255,.72) 0 .45px, transparent .7px) !important;
+          background-size: 62px 62px !important;
+        }
+        .ep-monochrome-interface .ep-dialogue__ambient::after {
+          border-color: rgba(255,255,255,.035) !important;
+          box-shadow: 0 0 0 46px rgba(255,255,255,.009), 0 0 0 94px rgba(255,255,255,.006) !important;
+        }
+
+        .ep-monochrome-interface .ep-universal-nexus,
+        .ep-monochrome-interface .ep-adaptive-canvas,
+        .ep-monochrome-interface .ep-scholarly__hero,
+        .ep-monochrome-interface .ep-scholarly__section,
+        .ep-monochrome-interface .ep-agent-work,
+        .ep-monochrome-interface .ep-case-reuse,
+        .ep-monochrome-interface .ep-case-state-machine,
+        .ep-monochrome-interface .ep-unified-work-state,
+        .ep-monochrome-interface .ep-case-goal-tree,
+        .ep-monochrome-interface .ep-case-subtasks,
+        .ep-monochrome-interface .ep-case-loop,
+        .ep-monochrome-interface .ep-case-completion,
+        .ep-monochrome-interface .ep-case-closure,
+        .ep-monochrome-interface .ep-inquiry,
+        .ep-monochrome-interface .ep-evidence-state,
+        .ep-monochrome-interface .ep-demonstration-state,
+        .ep-monochrome-interface .ep-knowledge-constellation,
+        .ep-monochrome-interface .ep-implication-trajectory,
+        .ep-monochrome-interface .ep-evidence-spectrum,
+        .ep-monochrome-interface .ep-falsification-window,
+        .ep-monochrome-interface .ep-related-reports,
+        .ep-monochrome-interface .ep-continue-inquiry,
+        .ep-monochrome-interface .ep-message--episteme .ep-message__body {
+          border-color: var(--ep-mono-line) !important;
+          background:
+            linear-gradient(145deg, rgba(255,255,255,.026), transparent 26%),
+            rgba(0,0,0,.58) !important;
+          box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.035),
+            inset 0 -1px 0 rgba(255,255,255,.012),
+            0 28px 84px rgba(0,0,0,.48) !important;
+          backdrop-filter: blur(28px) saturate(0%) !important;
+          -webkit-backdrop-filter: blur(28px) saturate(0%) !important;
+        }
+
+        .ep-monochrome-interface .ep-universal-nexus::before {
+          border-color: rgba(255,255,255,.045) !important;
+          box-shadow: 0 0 0 34px rgba(255,255,255,.008), 0 0 0 72px rgba(255,255,255,.004) !important;
+        }
+        .ep-monochrome-interface .ep-universal-nexus__identity span,
+        .ep-monochrome-interface .ep-adaptive-canvas > header small,
+        .ep-monochrome-interface .ep-adaptive-canvas footer span,
+        .ep-monochrome-interface .ep-cosmic-answer__head small {
+          color: var(--ep-mono-text-3) !important;
+        }
+        .ep-monochrome-interface .ep-universal-nexus__identity strong,
+        .ep-monochrome-interface .ep-adaptive-canvas > header strong,
+        .ep-monochrome-interface .ep-cosmic-answer__head strong {
+          color: var(--ep-mono-text) !important;
+          text-shadow: none !important;
+        }
+        .ep-monochrome-interface .ep-universal-nexus__route span,
+        .ep-monochrome-interface .ep-universal-modebar__modes button,
+        .ep-monochrome-interface .ep-universal-modebar__signal {
+          border-color: var(--ep-mono-line-soft) !important;
+          background: rgba(0,0,0,.34) !important;
+          color: var(--ep-mono-text-3) !important;
+          box-shadow: inset 0 1px rgba(255,255,255,.018) !important;
+        }
+        .ep-monochrome-interface .ep-universal-modebar__modes button:hover,
+        .ep-monochrome-interface .ep-universal-modebar__modes button.is-active,
+        .ep-monochrome-interface .ep-universal-modebar__signal:hover {
+          border-color: rgba(255,255,255,.13) !important;
+          background: rgba(255,255,255,.035) !important;
+          color: var(--ep-mono-text) !important;
+          box-shadow: inset 0 1px rgba(255,255,255,.04), 0 16px 42px rgba(0,0,0,.32) !important;
+        }
+
+        .ep-monochrome-interface .ep-adaptive-canvas::before {
+          opacity: .07 !important;
+          background-image: radial-gradient(circle, rgba(255,255,255,.82) 0 .45px, transparent .7px) !important;
+        }
+        .ep-monochrome-interface .ep-adaptive-canvas__modules article {
+          border-color: var(--ep-mono-line-soft) !important;
+          background: rgba(255,255,255,.012) !important;
+        }
+        .ep-monochrome-interface .ep-adaptive-canvas__modules article:hover {
+          border-color: rgba(255,255,255,.1) !important;
+          background: rgba(255,255,255,.026) !important;
+        }
+        .ep-monochrome-interface .ep-adaptive-canvas__modules article > b,
+        .ep-monochrome-interface .ep-adaptive-canvas__modules article > small { color: var(--ep-mono-text-4) !important; }
+        .ep-monochrome-interface .ep-adaptive-canvas__modules article span { color: var(--ep-mono-text-2) !important; }
+        .ep-monochrome-interface .ep-adaptive-canvas__modules article p { color: var(--ep-mono-text-3) !important; }
+
+        .ep-monochrome-reality {
+          position: relative;
+          display: grid;
+          gap: 14px;
+          margin-top: 14px;
+          padding: 18px;
+          overflow: hidden;
+          border: 1px solid var(--ep-mono-line);
+          border-radius: 20px;
+          background:
+            linear-gradient(145deg, rgba(255,255,255,.028), transparent 28%),
+            rgba(0,0,0,.62);
+          box-shadow: inset 0 1px rgba(255,255,255,.035), 0 28px 90px rgba(0,0,0,.45);
+          backdrop-filter: blur(30px) saturate(0%);
+          -webkit-backdrop-filter: blur(30px) saturate(0%);
+        }
+        .ep-monochrome-reality::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          background: linear-gradient(110deg, transparent 0 43%, rgba(255,255,255,.018) 48%, transparent 54%);
+          transform: translateX(-35%);
+          opacity: .7;
+        }
+        .ep-monochrome-reality.is-clear { border-color: rgba(255,255,255,.12); }
+        .ep-monochrome-reality.is-translucent { border-color: rgba(255,255,255,.085); }
+        .ep-monochrome-reality.is-layered { box-shadow: inset 0 1px rgba(255,255,255,.025), inset 0 0 0 5px rgba(255,255,255,.008), 0 28px 90px rgba(0,0,0,.5); }
+        .ep-monochrome-reality.is-recessed { opacity: .88; box-shadow: inset 0 12px 36px rgba(0,0,0,.52), 0 24px 72px rgba(0,0,0,.38); }
+        .ep-monochrome-reality.is-outline { background: rgba(0,0,0,.42); }
+        .ep-monochrome-reality > * { position: relative; z-index: 1; }
+
+        .ep-monochrome-reality__head,
+        .ep-deployment-chain > header,
+        .ep-unknown-state > header {
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between;
+          gap: 10px 18px;
+          flex-wrap: wrap;
+        }
+        .ep-monochrome-reality__head > div,
+        .ep-deployment-chain > header { display: grid; gap: 4px; }
+        .ep-monochrome-reality small,
+        .ep-deployment-chain small,
+        .ep-unknown-state small {
+          color: var(--ep-mono-text-3);
+          font-size: 6px;
+          letter-spacing: .15em;
+        }
+        .ep-monochrome-reality__head strong,
+        .ep-deployment-chain > header strong,
+        .ep-unknown-state > header strong {
+          color: var(--ep-mono-text);
+          font-size: 9px;
+          font-weight: 560;
+          letter-spacing: .09em;
+        }
+        .ep-monochrome-reality__head > span,
+        .ep-unknown-state > header > span {
+          color: var(--ep-mono-text-3);
+          font-size: 5.8px;
+          letter-spacing: .11em;
+        }
+
+        .ep-reality-state-strip {
+          display: grid;
+          grid-template-columns: repeat(9, minmax(0,1fr));
+          gap: 5px;
+        }
+        .ep-reality-state-strip > div {
+          min-width: 0;
+          display: grid;
+          gap: 5px;
+          padding: 8px 7px;
+          border: 1px solid var(--ep-mono-line-soft);
+          border-radius: 9px;
+          background: rgba(0,0,0,.38);
+        }
+        .ep-reality-state-strip span { color: var(--ep-mono-text-4); font-size: 5.3px; letter-spacing: .07em; overflow: hidden; text-overflow: ellipsis; }
+        .ep-reality-state-strip strong { color: var(--ep-mono-text-3); font-size: 5.4px; font-weight: 540; letter-spacing: .08em; }
+        .ep-reality-state-strip .is-present { background: rgba(255,255,255,.036); border-color: rgba(255,255,255,.12); }
+        .ep-reality-state-strip .is-present strong { color: var(--ep-mono-text); }
+        .ep-reality-state-strip .is-partial { background: rgba(255,255,255,.018); }
+        .ep-reality-state-strip .is-open { box-shadow: inset 0 0 18px rgba(255,255,255,.012); }
+        .ep-reality-state-strip .is-none { opacity: .38; }
+
+        .ep-deployment-chain {
+          padding-top: 13px;
+          border-top: 1px solid var(--ep-mono-line-soft);
+        }
+        .ep-deployment-chain__rail { display: grid; gap: 0; margin-top: 12px; }
+        .ep-deployment-chain__rail article {
+          display: grid;
+          grid-template-columns: 34px minmax(0,1fr);
+          gap: 10px;
+          min-height: 72px;
+        }
+        .ep-deployment-chain__index { position: relative; display: flex; justify-content: center; }
+        .ep-deployment-chain__index::after {
+          content: "";
+          position: absolute;
+          top: 18px; bottom: -6px; left: 50%;
+          width: 1px;
+          background: rgba(255,255,255,.04);
+        }
+        .ep-deployment-chain__rail article:last-child .ep-deployment-chain__index::after { display: none; }
+        .ep-deployment-chain__index i {
+          position: absolute; top: 6px; width: 7px; height: 7px;
+          border: 1px solid rgba(255,255,255,.11); border-radius: 50%;
+          background: #000;
+        }
+        .ep-deployment-chain__index b { margin-top: 24px; color: var(--ep-mono-text-4); font-size: 5.4px; font-weight: 500; }
+        .ep-deployment-chain__rail article.is-present .ep-deployment-chain__index i { background: rgba(255,255,255,.56); }
+        .ep-deployment-chain__rail article.is-conditional .ep-deployment-chain__index i { background: rgba(255,255,255,.16); }
+        .ep-deployment-chain__rail article > div:last-child { padding: 0 0 15px; }
+        .ep-deployment-chain__rail header { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+        .ep-deployment-chain__rail header strong { color: var(--ep-mono-text-2); font-size: 7px; letter-spacing: .07em; }
+        .ep-deployment-chain__rail header span { color: var(--ep-mono-text-4); font-size: 5.4px; letter-spacing: .08em; }
+        .ep-deployment-chain__rail p { margin: 6px 0 0; color: var(--ep-mono-text-3); font-size: 7px; line-height: 1.58; }
+
+        .ep-reality-control-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 9px; }
+        .ep-reality-control-grid > section,
+        .ep-unknown-state {
+          border: 1px solid var(--ep-mono-line-soft);
+          border-radius: 14px;
+          background: rgba(0,0,0,.34);
+          padding: 13px;
+        }
+        .ep-reality-control-grid header { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; margin-bottom: 10px; }
+        .ep-reality-control-grid header small { color: var(--ep-mono-text-3); font-size: 5.8px; letter-spacing: .12em; }
+        .ep-reality-control-grid header strong { color: var(--ep-mono-text-2); font-size: 6px; letter-spacing: .08em; }
+        .ep-reality-control-grid p { display: grid; grid-template-columns: 22px 1fr; gap: 6px; margin: 6px 0; color: var(--ep-mono-text-3); font-size: 6.8px; line-height: 1.5; }
+        .ep-reality-control-grid p b { color: var(--ep-mono-text-4); font-size: 5.4px; font-weight: 500; }
+        .ep-reality-control-grid footer { margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--ep-mono-line-soft); color: var(--ep-mono-text-4); font-size: 6.2px; line-height: 1.5; }
+
+        .ep-unknown-state > div { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 7px; margin-top: 11px; }
+        .ep-unknown-state article { padding: 10px; border: 1px solid rgba(255,255,255,.032); border-radius: 10px; background: rgba(255,255,255,.009); }
+        .ep-unknown-state article span { color: var(--ep-mono-text-4); font-size: 5.4px; letter-spacing: .09em; }
+        .ep-unknown-state article p { margin: 6px 0 0; color: var(--ep-mono-text-3); font-size: 6.8px; line-height: 1.55; }
+
+        .ep-next-best-inquiry {
+          display: grid; gap: 7px;
+          padding: 14px 15px;
+          border: 1px solid rgba(255,255,255,.095);
+          border-radius: 14px;
+          background: linear-gradient(135deg, rgba(255,255,255,.026), rgba(0,0,0,.54));
+          box-shadow: inset 0 1px rgba(255,255,255,.035);
+        }
+        .ep-next-best-inquiry small { color: var(--ep-mono-text-3); }
+        .ep-next-best-inquiry strong { color: var(--ep-mono-text); font-size: 9px; font-weight: 530; line-height: 1.5; }
+        .ep-next-best-inquiry p { margin: 0; color: var(--ep-mono-text-3); font-size: 6.8px; line-height: 1.55; }
+        .ep-monochrome-reality__principle {
+          padding-top: 11px; border-top: 1px solid var(--ep-mono-line-soft);
+          color: var(--ep-mono-text-4); font-size: 6.2px; line-height: 1.55; letter-spacing: .02em;
+        }
+
+        /* ==================================================
+           STAGE 6.12.0 · REALITY TWIN INTELLIGENCE ARCHITECTURE
+           Monochrome glass only: state is expressed by material depth.
+        ================================================== */
+        .ep-reality-twin {
+          position: relative;
+          display: grid;
+          gap: 12px;
+          margin-top: 14px;
+          padding: 18px;
+          overflow: hidden;
+          border: 1px solid rgba(255,255,255,.075);
+          border-radius: 20px;
+          background: linear-gradient(145deg, rgba(255,255,255,.02), transparent 32%), rgba(0,0,0,.72);
+          box-shadow: inset 0 1px rgba(255,255,255,.028), inset 0 -32px 90px rgba(0,0,0,.32), 0 34px 110px rgba(0,0,0,.48);
+          backdrop-filter: blur(34px) saturate(0%);
+          -webkit-backdrop-filter: blur(34px) saturate(0%);
+        }
+        .ep-reality-twin::before {
+          content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .42;
+          background: radial-gradient(circle at 15% 0%, rgba(255,255,255,.028), transparent 25%), linear-gradient(115deg, transparent 0 47%, rgba(255,255,255,.012) 50%, transparent 54%);
+        }
+        .ep-reality-twin > * { position: relative; z-index: 1; }
+        .ep-reality-twin__head, .ep-twin-causal header, .ep-twin-constraints header, .ep-twin-counterfactual > header, .ep-twin-intervention > header, .ep-twin-control-grid header, .ep-twin-dependency > header { display:flex; justify-content:space-between; align-items:flex-end; gap:10px 18px; flex-wrap:wrap; }
+        .ep-reality-twin__head > div, .ep-twin-intervention > header > div { display:grid; gap:4px; }
+        .ep-reality-twin small, .ep-reality-twin__head span { color:rgba(255,255,255,.36); font-size:5.8px; letter-spacing:.13em; }
+        .ep-reality-twin__head strong { color:rgba(255,255,255,.9); font-size:9px; font-weight:560; letter-spacing:.09em; }
+        .ep-reality-twin__grid, .ep-twin-control-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+        .ep-twin-causal, .ep-twin-constraints, .ep-twin-counterfactual, .ep-twin-intervention, .ep-twin-control-grid > section, .ep-twin-dependency { border:1px solid rgba(255,255,255,.045); border-radius:15px; background:rgba(0,0,0,.38); padding:13px; }
+        .ep-twin-causal header strong, .ep-twin-constraints header strong, .ep-twin-counterfactual > header strong, .ep-twin-control-grid header strong, .ep-twin-dependency > header strong { color:rgba(255,255,255,.68); font-size:6px; letter-spacing:.08em; }
+        .ep-twin-causal__nodes, .ep-twin-constraints > div { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px; margin-top:10px; }
+        .ep-twin-causal__nodes article, .ep-twin-constraints article { display:grid; gap:5px; padding:10px; border:1px solid rgba(255,255,255,.035); border-radius:10px; background:rgba(255,255,255,.008); }
+        .ep-twin-causal__nodes article.is-observed, .ep-twin-causal__nodes article.is-supported, .ep-twin-constraints article.is-dominant { border-color:rgba(255,255,255,.12); background:rgba(255,255,255,.028); box-shadow:inset 0 1px rgba(255,255,255,.025); }
+        .ep-twin-causal__nodes article.is-hypothetical, .ep-twin-causal__nodes article.is-unknown { opacity:.58; background:transparent; }
+        .ep-twin-causal__nodes span, .ep-twin-constraints span, .ep-twin-constraints b { color:rgba(255,255,255,.3); font-size:5.2px; letter-spacing:.08em; }
+        .ep-twin-causal__nodes strong { color:rgba(255,255,255,.7); font-size:6.8px; font-weight:540; }
+        .ep-twin-causal__nodes p, .ep-twin-constraints p { margin:0; color:rgba(255,255,255,.45); font-size:6.5px; line-height:1.55; }
+        .ep-twin-causal footer, .ep-twin-constraints footer, .ep-twin-intervention footer, .ep-twin-control-grid footer { margin-top:10px; padding-top:9px; border-top:1px solid rgba(255,255,255,.035); color:rgba(255,255,255,.31); font-size:6px; line-height:1.5; }
+        .ep-twin-counterfactual > div { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; margin-top:10px; }
+        .ep-twin-counterfactual article { display:grid; align-content:start; gap:6px; min-height:135px; padding:11px; border:1px solid rgba(255,255,255,.04); border-radius:11px; background:rgba(255,255,255,.008); }
+        .ep-twin-counterfactual article > b { color:rgba(255,255,255,.24); font-size:5.2px; font-weight:500; }
+        .ep-twin-counterfactual article > span { color:rgba(255,255,255,.31); font-size:5.2px; letter-spacing:.08em; }
+        .ep-twin-counterfactual article > strong { color:rgba(255,255,255,.72); font-size:6.8px; font-weight:540; }
+        .ep-twin-counterfactual article > p { margin:0; color:rgba(255,255,255,.48); font-size:6.5px; line-height:1.5; }
+        .ep-twin-counterfactual article > small { margin-top:auto; color:rgba(255,255,255,.3); font-size:5.8px; line-height:1.5; letter-spacing:0; }
+        .ep-twin-intervention__target { display:grid; grid-template-columns:120px 1fr; gap:8px 12px; margin-top:11px; padding:11px; border:1px solid rgba(255,255,255,.04); border-radius:10px; background:rgba(255,255,255,.007); }
+        .ep-twin-intervention__target span { color:rgba(255,255,255,.3); font-size:5.5px; letter-spacing:.09em; }
+        .ep-twin-intervention__target p { margin:0; color:rgba(255,255,255,.5); font-size:6.7px; line-height:1.55; }
+        .ep-twin-intervention__steps { display:grid; gap:0; margin-top:10px; }
+        .ep-twin-intervention__steps article { display:grid; grid-template-columns:28px minmax(0,1fr); gap:8px; padding:9px 0; border-top:1px solid rgba(255,255,255,.025); }
+        .ep-twin-intervention__steps article > b { color:rgba(255,255,255,.25); font-size:5.2px; font-weight:500; }
+        .ep-twin-intervention__steps header { display:flex; justify-content:space-between; gap:10px; }
+        .ep-twin-intervention__steps strong { color:rgba(255,255,255,.62); font-size:6.2px; font-weight:540; }
+        .ep-twin-intervention__steps span { color:rgba(255,255,255,.28); font-size:5.2px; }
+        .ep-twin-intervention__steps p { margin:5px 0 0; color:rgba(255,255,255,.43); font-size:6.5px; line-height:1.5; }
+        .ep-twin-intervention__steps .is-ready { box-shadow:inset 2px 0 rgba(255,255,255,.09); padding-left:8px; }
+        .ep-twin-intervention__steps .is-open { opacity:.55; }
+        .ep-twin-control-grid > section > p { display:grid; grid-template-columns:58px 1fr; gap:7px; margin:8px 0; color:rgba(255,255,255,.45); font-size:6.5px; line-height:1.5; }
+        .ep-twin-control-grid > section > p b { color:rgba(255,255,255,.29); font-size:5.5px; font-weight:500; letter-spacing:.06em; }
+        .ep-twin-control-grid > section > div { display:grid; gap:4px; margin-top:8px; }
+        .ep-twin-control-grid > section > div span { padding:6px 8px; border:1px solid rgba(255,255,255,.025); border-radius:7px; color:rgba(255,255,255,.33); font-size:5.8px; line-height:1.45; }
+        .ep-twin-dependency > div { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:5px; margin-top:10px; }
+        .ep-twin-dependency article { display:grid; gap:6px; min-height:70px; padding:8px; border:1px solid rgba(255,255,255,.032); border-radius:9px; background:rgba(255,255,255,.006); }
+        .ep-twin-dependency article i { width:6px; height:6px; border:1px solid rgba(255,255,255,.1); border-radius:50%; background:#000; }
+        .ep-twin-dependency article.is-present { border-color:rgba(255,255,255,.105); background:rgba(255,255,255,.022); }
+        .ep-twin-dependency article.is-present i { background:rgba(255,255,255,.54); }
+        .ep-twin-dependency article.is-open { opacity:.44; }
+        .ep-twin-dependency article span { color:rgba(255,255,255,.45); font-size:5.5px; line-height:1.35; }
+        .ep-twin-dependency article small { margin-top:auto; font-size:4.9px; }
+        .ep-twin-dependency > p { margin:10px 0 0; color:rgba(255,255,255,.34); font-size:6.2px; line-height:1.5; }
+        .ep-twin-next-test { display:grid; gap:7px; padding:14px 15px; border:1px solid rgba(255,255,255,.11); border-radius:14px; background:linear-gradient(135deg, rgba(255,255,255,.024), rgba(0,0,0,.6)); box-shadow:inset 0 1px rgba(255,255,255,.028); }
+        .ep-twin-next-test strong { color:rgba(255,255,255,.85); font-size:9px; font-weight:530; line-height:1.5; }
+        .ep-twin-next-test p { margin:0; color:rgba(255,255,255,.42); font-size:6.7px; line-height:1.55; }
+        .ep-reality-twin__principle { padding-top:10px; border-top:1px solid rgba(255,255,255,.04); color:rgba(255,255,255,.3); font-size:6.1px; line-height:1.55; }
+        @media (max-width:899px) {
+          .ep-reality-twin { padding:14px; border-radius:17px; }
+          .ep-reality-twin__grid, .ep-twin-control-grid, .ep-twin-causal__nodes, .ep-twin-constraints > div { grid-template-columns:1fr; }
+          .ep-twin-counterfactual > div { grid-template-columns:1fr; }
+          .ep-twin-counterfactual article { min-height:0; }
+          .ep-twin-intervention__target { grid-template-columns:1fr; }
+          .ep-twin-dependency > div { grid-template-columns:repeat(2,minmax(0,1fr)); }
+        }
+
+        /* ==================================================
+           STAGE 6.13.0 · AUTONOMOUS REALITY INQUIRY
+           Monochrome black-glass only.
+        ================================================== */
+        .ep-autonomous-reality { position:relative; display:grid; gap:12px; margin-top:14px; padding:18px; overflow:hidden; border:1px solid rgba(255,255,255,.07); border-radius:20px; background:linear-gradient(150deg,rgba(255,255,255,.018),transparent 30%),rgba(0,0,0,.78); box-shadow:inset 0 1px rgba(255,255,255,.026),0 38px 120px rgba(0,0,0,.52); backdrop-filter:blur(36px) saturate(0%); -webkit-backdrop-filter:blur(36px) saturate(0%); }
+        .ep-autonomous-reality::before { content:""; position:absolute; inset:0; pointer-events:none; background:linear-gradient(115deg,transparent 0 48%,rgba(255,255,255,.01) 50%,transparent 53%); }
+        .ep-autonomous-reality>* { position:relative; z-index:1; }
+        .ep-autonomous-reality__head,.ep-autonomous-grid header,.ep-autonomous-control-grid header,.ep-autonomous-revision header,.ep-autonomous-impact header { display:flex; justify-content:space-between; align-items:flex-end; gap:10px 18px; flex-wrap:wrap; }
+        .ep-autonomous-reality__head>div { display:grid; gap:4px; }
+        .ep-autonomous-reality small,.ep-autonomous-reality__head span { color:rgba(255,255,255,.34); font-size:5.8px; letter-spacing:.13em; }
+        .ep-autonomous-reality__head strong { color:rgba(255,255,255,.9); font-size:9px; font-weight:560; letter-spacing:.08em; }
+        .ep-autonomous-model,.ep-autonomous-grid>section,.ep-autonomous-control-grid>section,.ep-autonomous-revision,.ep-autonomous-impact { border:1px solid rgba(255,255,255,.04); border-radius:14px; background:rgba(0,0,0,.4); padding:13px; }
+        .ep-autonomous-model p,.ep-autonomous-focus { margin:7px 0 0; color:rgba(255,255,255,.67); font-size:7.4px; line-height:1.6; }
+        .ep-autonomous-grid,.ep-autonomous-control-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+        .ep-autonomous-grid header strong,.ep-autonomous-control-grid header strong,.ep-autonomous-revision header strong,.ep-autonomous-impact header strong { color:rgba(255,255,255,.62); font-size:5.8px; letter-spacing:.08em; }
+        .ep-autonomous-gaps { display:grid; gap:6px; margin-top:10px; }
+        .ep-autonomous-gaps article { display:grid; gap:5px; padding:10px; border:1px solid rgba(255,255,255,.03); border-radius:9px; background:rgba(255,255,255,.006); }
+        .ep-autonomous-gaps article.is-critical { border-color:rgba(255,255,255,.13); background:rgba(255,255,255,.025); box-shadow:inset 0 1px rgba(255,255,255,.025); }
+        .ep-autonomous-gaps article.is-high { border-color:rgba(255,255,255,.075); }
+        .ep-autonomous-gaps span { color:rgba(255,255,255,.28); font-size:5.2px; letter-spacing:.08em; }
+        .ep-autonomous-gaps strong { color:rgba(255,255,255,.7); font-size:6.7px; font-weight:540; line-height:1.45; }
+        .ep-autonomous-gaps p,.ep-autonomous-control-grid p,.ep-autonomous-impact p { margin:0; color:rgba(255,255,255,.42); font-size:6.3px; line-height:1.5; }
+        .ep-autonomous-grid footer,.ep-autonomous-control-grid footer,.ep-autonomous-revision footer { margin-top:10px; padding-top:9px; border-top:1px solid rgba(255,255,255,.03); color:rgba(255,255,255,.29); font-size:5.8px; line-height:1.5; }
+        .ep-autonomous-control-grid>section>p { margin-top:9px; }
+        .ep-autonomous-control-grid>section>p b { display:inline-block; width:22px; color:rgba(255,255,255,.24); font-weight:500; }
+        .ep-autonomous-revision>div { display:grid; grid-template-columns:70px 1fr; gap:8px 12px; margin-top:11px; }
+        .ep-autonomous-revision>div span { color:rgba(255,255,255,.28); font-size:5.4px; letter-spacing:.08em; }
+        .ep-autonomous-revision>div p { margin:0; color:rgba(255,255,255,.5); font-size:6.6px; line-height:1.55; }
+        .ep-autonomous-impact>div { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; margin-top:10px; }
+        .ep-autonomous-impact article { display:grid; gap:5px; padding:10px; border:1px solid rgba(255,255,255,.03); border-radius:9px; background:rgba(255,255,255,.006); }
+        .ep-autonomous-impact article.is-block { opacity:.5; box-shadow:inset 0 12px 28px rgba(0,0,0,.5); }
+        .ep-autonomous-impact article.is-recheck { border-color:rgba(255,255,255,.07); }
+        .ep-autonomous-impact span { color:rgba(255,255,255,.27); font-size:5.1px; }
+        .ep-autonomous-impact strong { color:rgba(255,255,255,.62); font-size:6.2px; font-weight:540; }
+        .ep-autonomous-next { display:grid; gap:7px; padding:14px 15px; border:1px solid rgba(255,255,255,.105); border-radius:14px; background:linear-gradient(135deg,rgba(255,255,255,.02),rgba(0,0,0,.68)); box-shadow:inset 0 1px rgba(255,255,255,.025); }
+        .ep-autonomous-next strong { color:rgba(255,255,255,.84); font-size:9px; font-weight:530; line-height:1.5; }
+        .ep-autonomous-next p { margin:0; color:rgba(255,255,255,.36); font-size:6.2px; line-height:1.55; }
+        .ep-autonomous-reality__principle { padding-top:10px; border-top:1px solid rgba(255,255,255,.035); color:rgba(255,255,255,.29); font-size:6px; line-height:1.55; }
+        @media (max-width:899px) { .ep-autonomous-reality{padding:14px;border-radius:17px}.ep-autonomous-grid,.ep-autonomous-control-grid,.ep-autonomous-impact>div{grid-template-columns:1fr}.ep-autonomous-revision>div{grid-template-columns:1fr} }
+
+        /* ==================================================
+           STAGE 6.14.0 · MULTI-HYPOTHESIS REALITY GOVERNANCE
+           Monochrome black-glass only · epistemic state = material state.
+        ================================================== */
+        .ep-reality-governance { position:relative; display:grid; gap:12px; margin-top:14px; padding:18px; overflow:hidden; border:1px solid rgba(255,255,255,.065); border-radius:20px; background:linear-gradient(146deg,rgba(255,255,255,.016),transparent 28%),rgba(0,0,0,.82); box-shadow:inset 0 1px rgba(255,255,255,.024),inset 0 -42px 110px rgba(0,0,0,.35),0 42px 130px rgba(0,0,0,.56); backdrop-filter:blur(38px) saturate(0%); -webkit-backdrop-filter:blur(38px) saturate(0%); }
+        .ep-reality-governance::before { content:""; position:absolute; inset:0; pointer-events:none; opacity:.5; background:radial-gradient(circle at 12% 0%,rgba(255,255,255,.022),transparent 23%),linear-gradient(112deg,transparent 0 48%,rgba(255,255,255,.009) 50%,transparent 53%); }
+        .ep-reality-governance>*{position:relative;z-index:1}.ep-reality-governance__head,.ep-reality-governance section>header{display:flex;justify-content:space-between;align-items:flex-end;gap:10px 18px;flex-wrap:wrap}.ep-reality-governance__head>div{display:grid;gap:4px}.ep-reality-governance small,.ep-reality-governance__head span{color:rgba(255,255,255,.32);font-size:5.7px;letter-spacing:.12em}.ep-reality-governance__head strong{color:rgba(255,255,255,.91);font-size:9px;font-weight:560;letter-spacing:.08em}
+        .ep-hypothesis-field,.ep-discriminating-tests,.ep-confidence-architecture,.ep-temporal-reality,.ep-actor-model,.ep-intervention-governance,.ep-assumption-ledger,.ep-failure-propagation,.ep-reversibility-window{border:1px solid rgba(255,255,255,.04);border-radius:14px;background:rgba(0,0,0,.42);padding:13px}.ep-reality-governance section>header strong{color:rgba(255,255,255,.6);font-size:5.8px;letter-spacing:.08em}.ep-governance-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+        .ep-hypothesis-field>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:10px}.ep-hypothesis-field article{display:grid;align-content:start;gap:6px;min-height:190px;padding:12px;border:1px solid rgba(255,255,255,.032);border-radius:11px;background:rgba(255,255,255,.006)}.ep-hypothesis-field article.is-leading{border-color:rgba(255,255,255,.14);background:rgba(255,255,255,.025);box-shadow:inset 0 1px rgba(255,255,255,.028)}.ep-hypothesis-field article.is-viable{border-color:rgba(255,255,255,.07)}.ep-hypothesis-field article.is-unresolved{opacity:.67}.ep-hypothesis-field article.is-suspended{opacity:.43;box-shadow:inset 0 20px 50px rgba(0,0,0,.7)}.ep-hypothesis-field article>div{display:flex;justify-content:space-between;gap:8px}.ep-hypothesis-field b,.ep-hypothesis-field span{color:rgba(255,255,255,.28);font-size:5.2px;letter-spacing:.08em}.ep-hypothesis-field article>strong{color:rgba(255,255,255,.72);font-size:6.8px;font-weight:540}.ep-hypothesis-field p{margin:0;color:rgba(255,255,255,.47);font-size:6.5px;line-height:1.55}.ep-hypothesis-field article>small{margin-top:auto;letter-spacing:0;line-height:1.5}.ep-hypothesis-field footer{padding-top:8px;border-top:1px solid rgba(255,255,255,.025);color:rgba(255,255,255,.28);font-size:5.7px;line-height:1.5}
+        .ep-discriminating-tests>div,.ep-actor-model>div,.ep-intervention-governance>div,.ep-failure-propagation>div,.ep-reversibility-window>div{display:grid;gap:6px;margin-top:10px}.ep-discriminating-tests article,.ep-assumption-ledger article{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px;padding:10px;border:1px solid rgba(255,255,255,.028);border-radius:9px;background:rgba(255,255,255,.005)}.ep-discriminating-tests article.is-preferred{border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.022)}.ep-discriminating-tests article>b,.ep-assumption-ledger article>b{color:rgba(255,255,255,.22);font-size:5.1px;font-weight:500}.ep-discriminating-tests article>div,.ep-assumption-ledger article>div{display:grid;gap:5px}.ep-discriminating-tests span,.ep-assumption-ledger span{color:rgba(255,255,255,.28);font-size:5.1px;letter-spacing:.07em}.ep-discriminating-tests strong,.ep-assumption-ledger strong{color:rgba(255,255,255,.69);font-size:6.5px;font-weight:540;line-height:1.45}.ep-discriminating-tests p,.ep-assumption-ledger p{margin:0;color:rgba(255,255,255,.41);font-size:6.2px;line-height:1.5}.ep-discriminating-tests article small,.ep-assumption-ledger article small{letter-spacing:0;line-height:1.45}
+        .ep-confidence-architecture>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin-top:10px}.ep-confidence-architecture article{display:flex;justify-content:space-between;gap:8px;padding:8px;border:1px solid rgba(255,255,255,.025);border-radius:8px;background:rgba(255,255,255,.004)}.ep-confidence-architecture article span{color:rgba(255,255,255,.27);font-size:5.2px}.ep-confidence-architecture article strong{color:rgba(255,255,255,.58);font-size:5.5px;font-weight:540}.ep-confidence-architecture footer{margin-top:10px;padding-top:9px;border-top:1px solid rgba(255,255,255,.03);color:rgba(255,255,255,.29);font-size:5.8px;line-height:1.5}
+        .ep-temporal-reality>div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-top:10px}.ep-temporal-reality article{display:grid;align-content:start;gap:6px;min-height:125px;padding:10px;border:1px solid rgba(255,255,255,.028);border-radius:9px;background:rgba(255,255,255,.005)}.ep-temporal-reality article>b{color:rgba(255,255,255,.2);font-size:5px;font-weight:500}.ep-temporal-reality article>span{color:rgba(255,255,255,.32);font-size:5.2px;letter-spacing:.07em}.ep-temporal-reality article>p{margin:0;color:rgba(255,255,255,.45);font-size:6.3px;line-height:1.5}.ep-temporal-reality article>small{margin-top:auto;letter-spacing:0}
+        .ep-actor-model article,.ep-intervention-governance article,.ep-failure-propagation article,.ep-reversibility-window article{display:grid;gap:5px;padding:10px;border:1px solid rgba(255,255,255,.027);border-radius:9px;background:rgba(255,255,255,.005)}.ep-actor-model article>strong,.ep-intervention-governance article>strong{color:rgba(255,255,255,.67);font-size:6.4px;font-weight:540}.ep-actor-model article p{display:grid;grid-template-columns:62px 1fr;gap:6px;margin:0;color:rgba(255,255,255,.4);font-size:6px;line-height:1.45}.ep-actor-model article p b{color:rgba(255,255,255,.24);font-size:5px;font-weight:500}.ep-actor-model article small{letter-spacing:0;line-height:1.45}.ep-intervention-governance article.is-open{border-color:rgba(255,255,255,.07)}.ep-intervention-governance article.is-contested{border-style:double}.ep-intervention-governance span{color:rgba(255,255,255,.27);font-size:5.1px;letter-spacing:.07em}.ep-intervention-governance p{margin:0;color:rgba(255,255,255,.4);font-size:6.2px;line-height:1.5}
+        .ep-assumption-ledger>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin-top:10px}.ep-assumption-ledger p{display:grid;grid-template-columns:62px 1fr}.ep-assumption-ledger p em{color:rgba(255,255,255,.23);font-size:5px;font-style:normal;letter-spacing:.05em}
+        .ep-failure-propagation article,.ep-reversibility-window article{grid-template-columns:22px 1fr;align-items:start}.ep-failure-propagation article>b,.ep-reversibility-window article>b{color:rgba(255,255,255,.2);font-size:5px;font-weight:500}.ep-failure-propagation article>span,.ep-reversibility-window article>span{color:rgba(255,255,255,.34);font-size:5.3px;letter-spacing:.07em}.ep-failure-propagation article>p,.ep-reversibility-window article>p{grid-column:2;margin:0;color:rgba(255,255,255,.43);font-size:6.2px;line-height:1.5}.ep-failure-propagation article>small,.ep-reversibility-window article>small{grid-column:2;letter-spacing:0;line-height:1.45}.ep-failure-propagation article.is-systemic,.ep-reversibility-window article.is-structural-lock-in{border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.018);box-shadow:inset 0 -18px 40px rgba(0,0,0,.5)}.ep-failure-propagation article.is-unresolved,.ep-reversibility-window article.is-low{opacity:.65}
+        .ep-governance-next{display:grid;gap:7px;padding:14px 15px;border:1px solid rgba(255,255,255,.11);border-radius:14px;background:linear-gradient(135deg,rgba(255,255,255,.018),rgba(0,0,0,.72));box-shadow:inset 0 1px rgba(255,255,255,.024)}.ep-governance-next strong{color:rgba(255,255,255,.86);font-size:9px;font-weight:530;line-height:1.5}.ep-governance-next p{margin:0;color:rgba(255,255,255,.32);font-size:6.2px;line-height:1.55}
+        @media(max-width:899px){.ep-reality-governance{padding:14px;border-radius:17px}.ep-governance-grid,.ep-hypothesis-field>div,.ep-assumption-ledger>div,.ep-confidence-architecture>div{grid-template-columns:1fr}.ep-temporal-reality>div{grid-template-columns:1fr}.ep-hypothesis-field article{min-height:0}}
+
+        .ep-monochrome-interface button:focus-visible,
+        .ep-monochrome-interface a:focus-visible,
+        .ep-monochrome-interface textarea:focus-visible {
+          outline-color: rgba(255,255,255,.42) !important;
+        }
+
+        @media (max-width: 899px) {
+          .ep-monochrome-reality { padding: 14px; border-radius: 17px; }
+          .ep-reality-state-strip { grid-template-columns: repeat(3,minmax(0,1fr)); }
+          .ep-reality-control-grid,
+          .ep-unknown-state > div { grid-template-columns: 1fr; }
+        }
+
         /* ==================================================
            STAGE 6.9.9 · PRE-RETRIEVAL CASE CONTINUITY
         ================================================== */
@@ -26078,9 +27954,31 @@ useEffect(() => {
           letter-spacing: .08em;
           font-weight: 500;
         }
+
+        .ep-cognitive-orchestration{margin:18px 0 22px;padding:18px;border:1px solid rgba(255,255,255,.16);border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.018));box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 22px 60px rgba(0,0,0,.28);backdrop-filter:blur(22px) saturate(0%)}
+        .ep-cognitive-orchestration__head,.ep-cognitive-orchestration section>header{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.ep-cognitive-orchestration__head div{display:grid;gap:4px}.ep-cognitive-orchestration__head small,.ep-cognitive-orchestration section header small{font-size:10px;letter-spacing:.14em;color:rgba(255,255,255,.5)}.ep-cognitive-orchestration__head strong{font-size:15px;letter-spacing:.06em}.ep-cognitive-orchestration__head>span{font-size:10px;color:rgba(255,255,255,.54)}
+        .ep-answer-first{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:8px;margin-top:14px}.ep-answer-first article,.ep-cognitive-grid>section{border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(0,0,0,.32);padding:13px}.ep-answer-first article:first-child{background:rgba(255,255,255,.055);border-color:rgba(255,255,255,.2)}.ep-answer-first small{display:block;font-size:9px;letter-spacing:.15em;color:rgba(255,255,255,.45);margin-bottom:7px}.ep-answer-first strong{font-size:14px;line-height:1.55}.ep-answer-first p{margin:0;font-size:12px;line-height:1.55;color:rgba(255,255,255,.72)}
+        .ep-cognitive-capabilities{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.ep-cognitive-capabilities span{display:flex;gap:7px;align-items:center;padding:6px 8px;border:1px solid rgba(255,255,255,.08);border-radius:999px;font-size:9px;color:rgba(255,255,255,.45);background:rgba(0,0,0,.28)}.ep-cognitive-capabilities span.is-primary{border-color:rgba(255,255,255,.24);color:rgba(255,255,255,.92);background:rgba(255,255,255,.06)}.ep-cognitive-capabilities span.is-supporting{color:rgba(255,255,255,.68)}.ep-cognitive-capabilities b{font-size:8px;font-weight:500;opacity:.6}
+        .ep-cognitive-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}.ep-cognitive-grid section>header{margin-bottom:9px}.ep-cognitive-grid section>header strong{font-size:10px;letter-spacing:.08em;color:rgba(255,255,255,.72)}.ep-cognitive-grid article{border-top:1px solid rgba(255,255,255,.07);padding:8px 0}.ep-cognitive-grid article span{font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.42)}.ep-cognitive-grid article p,.ep-cognitive-grid section>p{margin:4px 0;font-size:11px;line-height:1.55;color:rgba(255,255,255,.7)}.ep-cognitive-grid article small,.ep-cognitive-grid section>small{font-size:9px;color:rgba(255,255,255,.4)}.ep-cognitive-grid section>p b{display:block;font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.42);margin-bottom:2px}.ep-cognitive-orchestration>footer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08);font-size:10px;line-height:1.6;color:rgba(255,255,255,.45)}
+
+        .ep-reality-os{margin:18px 0 22px;padding:18px;border:1px solid rgba(255,255,255,.18);border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(0,0,0,.42));box-shadow:inset 0 1px 0 rgba(255,255,255,.09),0 24px 64px rgba(0,0,0,.32);backdrop-filter:blur(24px) saturate(0%)}
+        .ep-reality-os__head,.ep-reality-os section>header{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.ep-reality-os__head div{display:grid;gap:4px}.ep-reality-os__head small,.ep-reality-os section header small{font-size:10px;letter-spacing:.14em;color:rgba(255,255,255,.48)}.ep-reality-os__head strong{font-size:15px;letter-spacing:.06em}.ep-reality-os__head>span{font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.52)}
+        .ep-reality-os__capabilities{display:flex;flex-wrap:wrap;gap:6px;margin:13px 0}.ep-reality-os__capabilities span{display:flex;gap:7px;align-items:center;padding:6px 8px;border:1px solid rgba(255,255,255,.08);border-radius:999px;background:rgba(0,0,0,.32);font-size:9px;color:rgba(255,255,255,.48)}.ep-reality-os__capabilities span.is-required{border-color:rgba(255,255,255,.25);background:rgba(255,255,255,.065);color:rgba(255,255,255,.92)}.ep-reality-os__capabilities span.is-useful{color:rgba(255,255,255,.7)}.ep-reality-os__capabilities b{font-size:8px;font-weight:500;opacity:.6}
+        .ep-reality-os__grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}.ep-reality-os__grid>section,.ep-reality-os__compiler{border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(0,0,0,.34);padding:13px}.ep-reality-os__compiler{margin-top:8px}.ep-reality-os article{border-top:1px solid rgba(255,255,255,.07);padding:8px 0}.ep-reality-os article span{font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.43)}.ep-reality-os article p,.ep-reality-os section>p{margin:4px 0;font-size:11px;line-height:1.55;color:rgba(255,255,255,.7)}.ep-reality-os article small,.ep-reality-os section>small{font-size:9px;line-height:1.45;color:rgba(255,255,255,.4)}.ep-reality-os section>p b{display:block;font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.42);margin-bottom:2px}.ep-reality-os>footer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08);font-size:10px;line-height:1.6;color:rgba(255,255,255,.45)}
+        @media(max-width:900px){.ep-reality-os__grid{grid-template-columns:1fr}}@media(max-width:560px){.ep-reality-os{padding:14px;border-radius:18px}.ep-reality-os__head{flex-direction:column}.ep-reality-os__capabilities{gap:5px}}
+        @media(max-width:900px){.ep-answer-first{grid-template-columns:1fr 1fr}.ep-cognitive-grid{grid-template-columns:1fr}}@media(max-width:560px){.ep-answer-first{grid-template-columns:1fr}.ep-cognitive-orchestration{padding:14px;border-radius:18px}.ep-cognitive-orchestration__head{flex-direction:column}.ep-cognitive-capabilities{gap:5px}}
+
+        .ep-open-scholarly{margin:18px 0 22px;padding:18px;border:1px solid rgba(255,255,255,.18);border-radius:22px;background:linear-gradient(160deg,rgba(255,255,255,.055),rgba(0,0,0,.52) 45%,rgba(255,255,255,.018));box-shadow:inset 0 1px rgba(255,255,255,.08),0 26px 70px rgba(0,0,0,.34);backdrop-filter:blur(26px) saturate(0%)}
+        .ep-open-scholarly__head,.ep-open-scholarly section>header{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}.ep-open-scholarly__head div{display:grid;gap:4px}.ep-open-scholarly__head small,.ep-open-scholarly section header small{font-size:10px;letter-spacing:.14em;color:rgba(255,255,255,.48)}.ep-open-scholarly__head strong{font-size:15px;letter-spacing:.055em}.ep-open-scholarly__head>span{font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.5)}
+        .ep-open-scholarly__frames{display:flex;flex-wrap:wrap;gap:6px;margin:13px 0}.ep-open-scholarly__frames span{display:flex;gap:7px;padding:6px 8px;border:1px solid rgba(255,255,255,.08);border-radius:999px;background:rgba(0,0,0,.3);font-size:9px;color:rgba(255,255,255,.5)}.ep-open-scholarly__frames span.is-primary{border-color:rgba(255,255,255,.24);background:rgba(255,255,255,.06);color:rgba(255,255,255,.92)}.ep-open-scholarly__frames b{font-size:8px;font-weight:500;opacity:.55}
+        .ep-open-scholarly__grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}.ep-open-scholarly__grid>section,.ep-open-scholarly__papers,.ep-open-scholarly__explore{border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(0,0,0,.34);padding:13px}.ep-open-scholarly__papers,.ep-open-scholarly__explore{margin-top:8px}.ep-open-scholarly article{border-top:1px solid rgba(255,255,255,.07);padding:9px 0}.ep-open-scholarly article span{font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.45)}.ep-open-scholarly article p,.ep-open-scholarly section>p{margin:4px 0;font-size:11px;line-height:1.55;color:rgba(255,255,255,.7)}.ep-open-scholarly article small,.ep-open-scholarly section>small{font-size:9px;line-height:1.45;color:rgba(255,255,255,.4)}
+        .ep-open-scholarly__papers article>div{display:flex;justify-content:space-between;gap:8px;margin-bottom:5px}.ep-open-scholarly__papers article>div b{font-size:8px;font-weight:500;color:rgba(255,255,255,.38)}.ep-open-scholarly__papers article>strong{display:block;font-size:12px;line-height:1.45;font-weight:560}.ep-open-scholarly__papers a{color:inherit;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.16)}.ep-open-scholarly__papers a:hover{border-bottom-color:rgba(255,255,255,.5)}.ep-open-scholarly__empty{color:rgba(255,255,255,.45)!important}
+        .ep-open-scholarly__explore>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:9px}.ep-open-scholarly__explore article{padding:10px;border:1px solid rgba(255,255,255,.07);border-radius:12px;background:rgba(255,255,255,.012)}.ep-open-scholarly>footer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08);font-size:10px;line-height:1.6;color:rgba(255,255,255,.45)}
+        @media(max-width:900px){.ep-open-scholarly__grid{grid-template-columns:1fr}.ep-open-scholarly__explore>div{grid-template-columns:1fr 1fr}}@media(max-width:560px){.ep-open-scholarly{padding:14px;border-radius:18px}.ep-open-scholarly__head{flex-direction:column}.ep-open-scholarly__explore>div{grid-template-columns:1fr}}
       `}
 
       
+
 </style>
     </section>
   );

@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-14T22:20:20.271Z",
+  "updated": "2026-09-14T23:47:16.062Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New light-emitting nanoparticles can detect subtle chemical differences",
+      "url": "https://phys.org/news/2026-09-emitting-nanoparticles-subtle-chemical-differences.html",
+      "summary": "A team of researchers from University of Toronto Engineering has created a new type of dye-sensitized nanoparticle that can detect target chemicals at very low concentrations while also distinguishing between molecules w…",
+      "ts": 1789429201000,
+      "publishedAt": "2026-09-14T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers propose quantum Earth observation for photon-limited environments",
+      "url": "https://phys.org/news/2026-09-quantum-earth-photon-limited-environments.html",
+      "summary": "Have you ever wondered what Earth observation satellites see when they look down at the deep ocean or a dense tropical forest during the dead of night? The answer, for the most part, is nothing. Standard optical sensors …",
+      "ts": 1789428003000,
+      "publishedAt": "2026-09-14T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Room-temperature skyrmion-based synapses could pave the way for energy-efficient AI",
+      "url": "https://phys.org/news/2026-09-room-temperature-skyrmion-based-synapses.html",
+      "summary": "Artificial intelligence is transforming how information is generated, processed and stored, but its rapid expansion is also driving unprecedented demand for computing power and electricity. Developing hardware that can p…",
+      "ts": 1789428001000,
+      "publishedAt": "2026-09-14T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fictional framing blends reality with fantasy to help investors see possibilities—and buy into them",
+      "url": "https://phys.org/news/2026-09-fictional-blends-reality-fantasy-investors.html",
+      "summary": "Picture yourself in a manufactured colony that orbits between Earth and the moon. It might sound like science fiction, but it's part of a 2019 presentation made by Jeff Bezos, founder of the space technology company Blue…",
+      "ts": 1789426805000,
+      "publishedAt": "2026-09-14T23:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parakeets, male or female, love a good fight",
+      "url": "https://phys.org/news/2026-09-parakeets-male-female-good.html",
+      "summary": "In a study of monk parakeets, researchers at the University of Cincinnati and Duke University found that sex has little to no impact on who initiates fights, who is targeted or who rises in the dominance hierarchy.",
+      "ts": 1789426802000,
+      "publishedAt": "2026-09-14T23:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Is decentralized finance truly independent from traditional markets?",
+      "url": "https://phys.org/news/2026-09-qa-decentralized-independent-traditional.html",
+      "summary": "With the rise in popularity of the digital assets known as cryptocurrencies over the last decade, the idea of a decentralized financial system that operates outside traditional markets is gaining mainstream appeal. A new…",
+      "ts": 1789425604000,
+      "publishedAt": "2026-09-14T22:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Anger, hope and compassion do little to spur more climate donations",
+      "url": "https://phys.org/news/2026-09-anger-compassion-spur-climate-donations.html",
+      "summary": "Emotional mechanisms are frequently used to inspire good environmental behavior. But how effective are they at inspiring actual sustainable change? Perhaps not as much as previously believed, according to a new study tha…",
+      "ts": 1789425601000,
+      "publishedAt": "2026-09-14T22:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Singles in America survey reveals how relationships, marriage, money and family are changing",
@@ -499,60 +555,76 @@
       "publishedAt": "2026-09-14T14:12:41.000Z"
     },
     {
+      "source": "Phys.org",
+      "title": "Snail shells are surprise weather time capsules",
+      "url": "https://phys.org/news/2026-09-snail-shells-weather-capsules.html",
+      "summary": "Snails carry weather records on their backs that could be used to map prehistoric cyclones, a University of Queensland study has shown. The project led by School of the Environment researchers examined the rings on the s…",
+      "ts": 1789394404000,
+      "publishedAt": "2026-09-14T14:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "PISA 2025 and school rankings: Are we asking the right questions about schooling?",
+      "url": "https://phys.org/news/2026-09-pisa-school-schooling.html",
+      "summary": "The publication of the latest results from the Programme for International Student Assessment (PISA 2025) on Sept. 8 prompted the usual flurry of commentary, comparisons and rankings. France has slipped, some countries h…",
+      "ts": 1789394401000,
+      "publishedAt": "2026-09-14T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pollinators keep a later calendar in human-modified landscapes, study finds",
+      "url": "https://phys.org/news/2026-09-pollinators-calendar-human-landscapes.html",
+      "summary": "Human development may be changing more than where pollinators live—it may also be changing when they are active. University of Florida researchers at the Institute of Food and Agricultural Sciences (UF/IFAS) have found t…",
+      "ts": 1789393210000,
+      "publishedAt": "2026-09-14T13:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Africa's climate services need local detail and knowledge, say people who use the information",
+      "url": "https://phys.org/news/2026-09-africa-climate-local-knowledge-people.html",
+      "summary": "Across Africa, people are restoring and managing mangroves, grazing lands and urban green areas in the face of increasing threats from climate change. Increasingly, they make decisions based on climate-related informatio…",
+      "ts": 1789393208000,
+      "publishedAt": "2026-09-14T13:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Employers look for resilient staff—then leave them to burn out",
+      "url": "https://phys.org/news/2026-09-employers-resilient-staff.html",
+      "summary": "\"Resilience\" is in danger of becoming a casualty of business buzzword bingo, but we know it matters. The World Economic Forum lists it as one of the most important skills for the future of work, and I've found it turns u…",
+      "ts": 1789392006000,
+      "publishedAt": "2026-09-14T13:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny 'whirlpools' discovered in atom-thin semiconductor",
+      "url": "https://phys.org/news/2026-09-tiny-whirlpools-atom-thin-semiconductor.html",
+      "summary": "Monash University-led researchers have directly imaged tiny swirling structures inside an atomically thin semiconductor, opening new possibilities for future low-energy electronic technologies. Published in Science Advan…",
+      "ts": 1789392004000,
+      "publishedAt": "2026-09-14T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study reveals peatlands may have less capacity to store carbon than predicted",
+      "url": "https://phys.org/news/2026-09-reveals-peatlands-capacity-carbon.html",
+      "summary": "A new study has revealed that peatlands may break under their own weight before they reach their carbon storage potential.",
+      "ts": 1789390808000,
+      "publishedAt": "2026-09-14T13:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "RNA 'delivery tags' guide key messages to distant neuron branches",
+      "url": "https://phys.org/news/2026-09-rna-delivery-tags-key-messages.html",
+      "summary": "Much like a courier reading an address on a package, neurons must deliver RNA to the precise locations where it is needed. A KAIST research team has discovered how a small chemical modification on RNA acts as a \"delivery…",
+      "ts": 1789390801000,
+      "publishedAt": "2026-09-14T13:00:01.000Z"
+    },
+    {
       "source": "Science News",
       "title": "These neutrinos from the sun have the lowest energies ever seen",
       "url": "https://www.sciencenews.org/article/neutrinos-sun-lowest-energies-xenonnt",
       "summary": "The XENONnT detector glimpsed the ethereal subatomic particles that are born from the main type of fusion reaction that powers the sun.",
       "ts": 1789390800000,
       "publishedAt": "2026-09-14T13:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Algorithm opt-outs may curb manosphere reach, but not misogyny driving it",
-      "url": "https://phys.org/news/2026-09-algorithm-opt-outs-curb-manosphere.html",
-      "summary": "The federal government recently announced a suite of new laws designed to address harmful content on digital platforms.",
-      "ts": 1789388401000,
-      "publishedAt": "2026-09-14T12:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bizarre galactic radio source remains active for two decades with no detectable X-rays",
-      "url": "https://phys.org/news/2026-09-bizarre-galactic-radio-source-decades.html",
-      "summary": "Astronomers have identified a peculiar radio transient in the Milky Way that has remained active for more than two decades, defying the behavior expected of known classes of galactic radio sources. The paper posted to th…",
-      "ts": 1789387205000,
-      "publishedAt": "2026-09-14T12:00:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Primary school reading problems predict later reading anxiety, long-term study suggests",
-      "url": "https://phys.org/news/2026-09-primary-school-problems-anxiety-term.html",
-      "summary": "Western Australian author Hamish Kelly has struggled with reading for almost two decades. In his first of two books, he describes his experience of learning to read:",
-      "ts": 1789387201000,
-      "publishedAt": "2026-09-14T12:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Inspiration alone won't solve Australia's teacher shortage, study reveals",
-      "url": "https://phys.org/news/2026-09-wont-australia-teacher-shortage-reveals.html",
-      "summary": "A $10 million Australian government campaign celebrating inspirational teachers risked overlooking the workplace conditions driving educators from the profession, according to new research led by Curtin University publis…",
-      "ts": 1789386003000,
-      "publishedAt": "2026-09-14T11:40:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Starfish program creates new jobs",
-      "url": "https://phys.org/news/2026-09-starfish-jobs.html",
-      "summary": "In a win for people and the environment, new economic modeling from James Cook University researchers reveals that a $5 million investment to control crown-of-thorns (CoTS) starfish numbers in the Cairns region created 6…",
-      "ts": 1789384801000,
-      "publishedAt": "2026-09-14T11:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Micro-dramas and the battle for attention",
-      "url": "https://phys.org/news/2026-09-micro-dramas-attention.html",
-      "summary": "As tech companies like Meta, Google and TikTok face ongoing scrutiny over addictive platform design, the rapid rise of micro-dramas offers a glimpse into how AI, algorithms and commercial incentives could make digital en…",
-      "ts": 1789383603000,
-      "publishedAt": "2026-09-14T11:00:03.000Z"
     },
     {
       "source": "APS Physical Review Letters",
@@ -715,38 +787,6 @@
       "publishedAt": "2026-09-14T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Erratum: <i>In situ</i> quantum verification of polarization-stabilized optical channels [Phys. Rev. Applied <b>25</b>, 034090 (2026)]",
-      "url": "http://link.aps.org/doi/10.1103/pgzp-dhrs",
-      "summary": "Author(s): Matthew L. Stevens, Noah I. Wasserbeck, Zachary Goisman, Arefur Rahman, John Michael Record, Taman Truong, Ariq Haqq, Muneer Alshowkan, Brian T. Kirby, Nils T. Otterstrom, and Joseph M. Lukens [Phys. Rev. Appl…",
-      "ts": 1789380000000,
-      "publishedAt": "2026-09-14T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Improved climate forecasts alone won't protect Africa's poorest farmers",
-      "url": "https://phys.org/news/2026-09-climate-wont-africa-poorest-farmers.html",
-      "summary": "As Africa prepares for the arrival of a powerful El Niño weather event, an international team of researchers led by the University of Sydney and Imperial College London has found that access to improved forecasts alone w…",
-      "ts": 1789376401000,
-      "publishedAt": "2026-09-14T09:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Japan's biomass energy boom threatens further deforestation in Indonesia",
-      "url": "https://phys.org/news/2026-09-japan-biomass-energy-boom-threatens.html",
-      "summary": "A surge in Indonesia's wood pellet and chip production is driving a new wave of deforestation, threatening the vast archipelago's remaining tropical forests, vital biodiversity hot spots and the land of Indigenous people…",
-      "ts": 1789372413000,
-      "publishedAt": "2026-09-14T07:53:33.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "No cities on the moon—there isn't enough water, scientists say",
-      "url": "https://phys.org/news/2026-09-cities-moon-isnt-scientists.html",
-      "summary": "The discovery of water in dark craters at the moon's poles has sparked a \"moon rush\" to establish bases there, followed by villages, cities and heavy industry. How sustainable is this rush?",
-      "ts": 1789358402000,
-      "publishedAt": "2026-09-14T04:00:02.000Z"
-    },
-    {
       "source": "arXiv Physics",
       "title": "12 nm FinFETs from 292 K to 10 mK: Characterization and a Temperature-Continuous Compact Model for Qubit Control",
       "url": "https://arxiv.org/abs/2609.11963",
@@ -759,46 +799,6 @@
       "title": "Field-Deployable Pressure Standard Based on a Compact Dual-Cavity Refractometer",
       "url": "https://arxiv.org/abs/2609.11964",
       "summary": "arXiv:2609.11964v1 Announce Type: new Abstract: The next-generation pressure standard is moving toward optical-based, field-deployable systems. However, most existing optical refractometry pressure standards rely on bulk…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topogram-Gated Multi-Modal Pseudo-CT Synthesis for PET/MR Attenuation Correction",
-      "url": "https://arxiv.org/abs/2609.11966",
-      "summary": "arXiv:2609.11966v1 Announce Type: new Abstract: As part of the Big Cross-Modal Attenuation Correction Challenge (BIC-MAC), we aimed to synthesise pseudo-CT images for PET/MR attenuation correction from whole-body non-att…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Green's function of non-Hermitian systems at exceptional deficiency",
-      "url": "https://arxiv.org/abs/2609.11968",
-      "summary": "arXiv:2609.11968v1 Announce Type: new Abstract: Exceptional deficiency is a newly discovered broadband non-Hermitian condition, at which the system's spectrum is entirely composed of exceptional points and all eigenvecto…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Multiple Non-Invasive Biosignals on Cardiovascular Biomarker Estimation via Simulation-Based Inference",
-      "url": "https://arxiv.org/abs/2609.11969",
-      "summary": "arXiv:2609.11969v1 Announce Type: new Abstract: As the population ages, the number of patients with cardiovascular diseases continues to increase, highlighting the need for early detection before progression to severe an…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comment on a proposal for non-relativistic transverse electromagnetic Hamiltonian",
-      "url": "https://arxiv.org/abs/2609.11973",
-      "summary": "arXiv:2609.11973v1 Announce Type: new Abstract: We comment on the recent proposal (arXiv:2608.21211v1 (2026)) of a new transverse Hamiltonian for electromagnetic interacting charged particles that ignores both the classi…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Do Quantum Measurement Advantages Survive to Astrophysical Inference? Seven Benchmarks in Optical Interferometry and Imaging",
-      "url": "https://arxiv.org/abs/2609.11974",
-      "summary": "arXiv:2609.11974v1 Announce Type: new Abstract: Quantum techniques matter to optical astronomy when they preserve information in the parameter-bearing measurement channel after realistic loss, calibration, covariance, an…",
       "ts": 1789358400000,
       "publishedAt": "2026-09-14T04:00:00.000Z"
     }

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-14T22:20:22.580Z",
+  "updated": "2026-09-14T23:47:24.342Z",
   "items": [
     {
       "source": "STAT",
@@ -12,6 +12,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Webinar 9/23: NASA CSDA Program Update 2026",
+      "url": "https://science.nasa.gov/science-research/earth-science/webinar-9-23-nasa-csda-program-update-2026/",
+      "summary": "This webinar will provide an overview of the CSDA program’s goals and activities, including the new Cal/Val initiative, and more.",
+      "ts": 1789419844000,
+      "publishedAt": "2026-09-14T21:04:04.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "Abbott agrees to settlement over closure of largest baby formula plant in the U.S.",
       "url": "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/?utm_campaign=rss",
@@ -19,6 +28,15 @@
       "ts": 1789413517000,
       "publishedAt": "2026-09-14T19:18:37.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "New Crops, Health Research Proposals to Help NASA Advance Exploration",
+      "url": "https://science.nasa.gov/science-research/biological-physical-sciences/new-crops-health-research-proposals-to-help-nasa-advance-exploration/",
+      "summary": "NASA has selected 12 new investigations to help support human explorers in space. Six will help advance the ability to produce food off-planet, while another six advance the understanding of how unique conditions associa…",
+      "ts": 1789412400000,
+      "publishedAt": "2026-09-14T19:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -381,6 +399,15 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "An Early Look at Fall Color in Canada",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/",
+      "summary": "Reds, yellows, and oranges are already sweeping across tundra landscapes in Nunavut.",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "The Computational Primitives of Adaptation",
       "url": "https://arxiv.org/abs/2609.11989",
@@ -568,15 +595,6 @@
       "ts": 1789358400000,
       "publishedAt": "2026-09-14T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "An Early Look at Fall Color in Canada",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/",
-      "summary": "Reds, yellows, and oranges are already sweeping across tundra landscapes in Nunavut.",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -793,24 +811,6 @@
       "ts": 1789138585000,
       "publishedAt": "2026-09-11T14:56:25.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "OLA Supports Regional Dialogue in Asia on the CSC",
-      "url": "http://www.iaea.org/newscenter/news/ola-supports-regional-dialogue-in-asia-on-the-csc",
-      "summary": "",
-      "ts": 1789137492000,
-      "publishedAt": "2026-09-11T14:38:12.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cancer Treatment Genetic Effects in Healthy Cells May Reveal Clues to Side Effects and Resistance",
-      "url": "https://www.genengnews.com/topics/cancer/cancer-treatment-genetic-effects-in-healthy-cells-may-reveal-clues-to-side-effects-and-resistance/",
-      "summary": "Researchers used DNA sequencing to map mutations in normal tissue from cancer patients undergoing different types of treatment. They found significant differences in the genetic mutations in healthy tissue, depending on …",
-      "ts": 1789136385000,
-      "publishedAt": "2026-09-11T14:19:45.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
