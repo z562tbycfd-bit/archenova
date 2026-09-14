@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-14T18:25:18.605Z",
+  "updated": "2026-09-14T22:20:22.580Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Judge blocks Trump administration plans to limit visa length for grad students, postdocs",
+      "url": "https://www.statnews.com/2026/09/14/court-halts-dhs-visa-limits-foreign-scholars/?utm_campaign=rss",
+      "summary": "A federal judge halted a Trump administration plan to place a four-year cap on the kinds of visas used by graduate students and postdocs",
+      "ts": 1789420848000,
+      "publishedAt": "2026-09-14T21:20:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Abbott agrees to settlement over closure of largest baby formula plant in the U.S.",
+      "url": "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/?utm_campaign=rss",
+      "summary": "Abbott has agreed to a $385 million settlement over the closure of the largest baby formula plant in the U.S., which led to the supply shortages in 2022.",
+      "ts": 1789413517000,
+      "publishedAt": "2026-09-14T19:18:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Evonik Expands in Slovakia",
+      "url": "https://www.genengnews.com/topics/bioprocessing/evonik-expands-in-slovakia/",
+      "summary": "Compared with the conventional synthesis of chemicals, fermentation-based processes can offer a more sustainable route to selected intermediates by reducing the need for organic solvents and minimizing process-related wa…",
+      "ts": 1789411637000,
+      "publishedAt": "2026-09-14T18:47:17.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Pneumococcal Subtypes Influence the Impact of Air Pollution on Disease Risk",
@@ -174,6 +201,42 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "United Nations News",
+      "title": "Civilians bear the brunt, with deadly US strikes in Iran and thousands displaced in Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168328",
+      "summary": "Independent UN human rights investigators called for an immediate cessation of hostilities on Monday following a series of United States airstrikes on Iran in recent weeks that have killed civilians as tensions ripple th…",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Countries must increase AI regulation to avoid ‘existential risks’: Türk",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168326",
+      "summary": "Voluntary self-regulation by companies developing frontier artificial intelligence (AI) is “nowhere near sufficient” to address existing harms and prevent advanced autonomous AI models from circumventing human safeguards…",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "IAEA chief underscores commitment to nuclear safety and verification",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168325",
+      "summary": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnes…",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "South Sudan: UNICEF reaches communities cut off by conflict in Jonglei state",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168324",
+      "summary": "The UN Children’s Fund (UNICEF) and partners have delivered lifesaving assistance to families in conflict-affected communities in South Sudan’s Jonglei state, many of whom had gone months without humanitarian support.",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "Pennsylvania records third measles-related death amid outbreak",
       "url": "https://www.statnews.com/2026/09/14/health-enws-pennsylvania-records-third-measles-related-death-amid-outbreak/?utm_campaign=rss",
@@ -315,15 +378,6 @@
       "summary": "APODScienceAPODAPOD: 2026 September 14 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
       "ts": 1789358700000,
       "publishedAt": "2026-09-14T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "An Early Look at Fall Color in Canada",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/",
-      "summary": "Reds, yellows, and oranges are already sweeping across tundra landscapes in Nunavut.",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -514,6 +568,15 @@
       "ts": 1789358400000,
       "publishedAt": "2026-09-14T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "An Early Look at Fall Color in Canada",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/",
+      "summary": "Reds, yellows, and oranges are already sweeping across tundra landscapes in Nunavut.",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -748,69 +811,6 @@
       "ts": 1789136385000,
       "publishedAt": "2026-09-11T14:19:45.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about anxious Novartis investors, patent expirations for biologics, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss",
-      "summary": "Novartis investors are stepping up scrutiny of the company's dealmaking after setbacks to drugs it acquired through mergers and acquisitions",
-      "ts": 1789134973000,
-      "publishedAt": "2026-09-11T13:56:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cancer drug shortages keep disrupting patient care",
-      "url": "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/?utm_campaign=rss",
-      "summary": "Platinum chemotherapy's long-term effects, surprising heart failure drug failures, and more biotech news from The Readout",
-      "ts": 1789133992000,
-      "publishedAt": "2026-09-11T13:39:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 07-11 Sep 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_07-11_Sep_2026",
-      "summary": "Week in images: 07-11 Sep 2026 Discover our week through the lens",
-      "ts": 1789131600000,
-      "publishedAt": "2026-09-11T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: biotech’s future and cheaper, cleaner steel",
-      "url": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review…",
-      "ts": 1789128600000,
-      "publishedAt": "2026-09-11T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Ambassadors mark 9/11 with counter-terrorism push on AI and drones",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168318",
-      "summary": "The Security Council met to mark 25 years since the 9/11 attacks with a briefing on counter-terrorism as ambassadors take stock of a threat that has morphed dramatically since resolution 1373 built the council's counter-…",
-      "ts": 1789128000000,
-      "publishedAt": "2026-09-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "The world just had the hottest August ever",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168317",
-      "summary": "Earth just had the hottest August on record, according to newly released weather data.",
-      "ts": 1789128000000,
-      "publishedAt": "2026-09-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Surge in displacement following fighting in southwest Yemen",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168314",
-      "summary": "At least 46,000 people have been displaced since renewed fighting last week between Houthi rebels and pro-government forces in southwestern Yemen, the International Organization for Migration (IOM) reported on Friday.",
-      "ts": 1789128000000,
-      "publishedAt": "2026-09-11T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
