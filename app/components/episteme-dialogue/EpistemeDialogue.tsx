@@ -2249,6 +2249,60 @@ function buildEpistemicContract(
     "Do not treat semantic relevance, source count, or explanatory elegance as independent validation.",
   ];
 
+  const resultStructureMarker =
+    epistemic.claimBasis.find((basis) =>
+      basis.startsWith("result-structure:"),
+    ) ?? "";
+  const resultStructureKind =
+    resultStructureMarker.replace("result-structure:", "").trim();
+
+  if (
+    epistemic.claimType === "DESCRIPTIVE / EMPIRICAL" &&
+    (resultStructureKind === "CONDITIONAL_EFFECT" ||
+      resultStructureKind === "RESEARCH_QUESTION")
+  ) {
+    return {
+      ...buildContractDialogueGuidance(epistemic.claimType),
+      claimType: epistemic.claimType,
+      validationModes:
+        epistemic.validationModes.length > 0
+          ? epistemic.validationModes
+          : ["OBSERVATIONAL DISCRIMINATION", "EXPERIMENTAL REPLICATION"],
+      evidenceRequirements: [
+        "prespecified behavioral or actor-level outcome",
+        "explicit condition and comparator",
+        "sample, design, effect estimate, and uncertainty",
+        "replication or external-validity test plus a credible competing explanation",
+      ],
+      disconfirmationConditions: [
+        "the behavioral outcome does not differ across the prespecified conditions",
+        "the effect disappears under reasonable sampling, framing, or baseline controls",
+        "a credible prior-attitude, selection, framing, or expectation explanation reproduces the result",
+        "the effect fails replication or materially reverses across relevant populations or contexts",
+      ],
+      uncertaintyBoundary: [
+        "stated preference is not observed behavior unless the study measures behavior directly",
+        "association is not causation unless assignment or identification supports a causal interpretation",
+        "a conditional effect does not generalize beyond the tested disclosure, population, and decision context",
+        ...sharedUncertainty,
+      ],
+      realityTest:
+        "Hold the object and information constant while varying the transparency/disclosure condition; prespecify the consumer or actor outcome, compare favorable and unfavorable disclosure conditions where relevant, quantify effect size and uncertainty, and test whether the effect survives replication and a credible alternative explanation.",
+      correctionRule:
+        "If the effect disappears, reverses, or is explained by framing, selection, prior trust, expectations, or sample composition, narrow the claim to the conditions and outcome measure that remain directly supported.",
+      nextAction:
+        "Recover the study's actual behavioral outcome, condition/comparator, effect estimate, and design; then test one alternative explanation and one external-validity boundary.",
+      demonstrationThreshold: [
+        "the outcome is explicitly measured",
+        "the condition and comparator are explicit",
+        "effect size and uncertainty are reported",
+        "the effect survives a relevant replication or robustness test",
+      ],
+      predictionDesign:
+        "Prespecify how the measured consumer or actor outcome should differ across the transparency/disclosure conditions and state the observation that would erase or reverse the claimed conditional effect.",
+    };
+  }
+
   switch (epistemic.claimType) {
     case "FORMAL / MATHEMATICAL":
       return {
@@ -3879,6 +3933,12 @@ function propositionRoleFromSentence(
   sentence: string,
   objectProfile: ObjectSemanticProfile,
 ): PropositionRole {
+  if (
+    /\b(but what if|what if|when .* negative|if .* negative|unfavo[u]?rable|negative outcome)\b/i.test(sentence)
+  ) {
+    return "BACKGROUND";
+  }
+
   const s = normalize(sentence);
 
   if (
@@ -3975,6 +4035,366 @@ type ResultDeltaRecovery = {
   claimType: ClaimType | null;
   rationale: string;
 };
+
+
+type ResultStructureKind =
+  | "NUMERIC_REVISION"
+  | "COMPARISON"
+  | "CONDITIONAL_EFFECT"
+  | "INTERVENTION_EFFECT"
+  | "ASSOCIATION"
+  | "MECHANISM"
+  | "NULL_RESULT"
+  | "TRADE_OFF"
+  | "EVENT"
+  | "RESEARCH_QUESTION"
+  | "UNKNOWN";
+
+type ResultStructureRecovery = {
+  status: "FOUND" | "LIMITED" | "NONE";
+  kind: ResultStructureKind;
+  background: string | null;
+  priorBaseline: string | null;
+  subject: string | null;
+  operation: string | null;
+  outcome: string | null;
+  condition: string | null;
+  comparator: string | null;
+  result: string | null;
+  delta: string | null;
+  artifact: string;
+  claimType: ClaimType | null;
+  rationale: string;
+};
+
+function sentenceHasOutcomeLanguage(sentence: string): boolean {
+  return /\b(trust|purchase intention|willingness to pay|willingness to buy|consumer response|reward(?:ed|s|ing)?|preference|choice|behavior|behaviour|attitude|evaluation|performance|accuracy|latency|survival|response rate|risk|rate|effect|outcome|improves?|reduces?|increases?|decreases?|boosts?|weakens?|strengthens?|associated with|correlat(?:es|ed|ion)|linked to)\b/i.test(sentence);
+}
+
+function recoverResultStructure(signal: SignalItem): ResultStructureRecovery {
+  const title = stripTerminalPunctuation(signal.title);
+  const summary = sanitizeSignalSummary(signal.summary);
+  const sentences = signalSentences(signal);
+  const corpus = `${title} ${summary}`.trim();
+  const normalized = normalize(corpus);
+
+  const numeric = recoverResultDelta(signal);
+  if (numeric.status === "FOUND" && numeric.result) {
+    return {
+      status: "FOUND",
+      kind: "NUMERIC_REVISION",
+      background: numeric.background,
+      priorBaseline: numeric.priorBaseline,
+      subject: title,
+      operation: "MEASURE / REVISE",
+      outcome: numeric.result,
+      condition: null,
+      comparator: numeric.priorBaseline,
+      result: numeric.result,
+      delta: numeric.delta,
+      artifact: numeric.artifact,
+      claimType: numeric.claimType,
+      rationale: numeric.rationale,
+    };
+  }
+
+  const behavioralLike =
+    /\b(consumer|customer|buyer|purchase|brand|trust|transparency|disclosure|supply chain|willingness to pay|willingness to buy|preference|choice|survey|experiment|participants?)\b/.test(
+      normalized,
+    );
+
+  const baseline =
+    sentences.find((sentence) =>
+      /\b(previously|traditionally|typically|normally|accepted|known|baseline|boosts?|increases?|decreases?|associated with|if .* positive|when .* positive)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const contrastQuestion =
+    sentences.find((sentence) =>
+      /\b(what if|but what if|however|when .* negative|if .* negative|unfavo[u]?rable|adverse|bad news|negative results?|negative outcomes?)\b/i.test(
+        sentence,
+      ),
+    ) ??
+    (/\bbut\s+(?:what|when|if)\b/i.test(title) ? title : null);
+
+  const explicitResult =
+    sentences.find((sentence) =>
+      /\b(found|finds|showed|shows|demonstrated|demonstrates|revealed|reveals|increased|decreased|boosted|reduced|improved|weakened|strengthened|was associated with|were associated with|led to|caused|did not|failed to|no significant|more likely|less likely|rewarded|penalized)\b/i.test(sentence),
+    ) ?? null;
+
+  const interventionSentence =
+    sentences.find((sentence) =>
+      /\b(randomi[sz]ed|assigned|manipulat(?:ed|ion)|intervention|treatment group|control group|experimentally varied|exposed participants|participants were shown)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const comparisonSentence =
+    sentences.find((sentence) =>
+      /\b(compared with|compared to|versus|vs\.?|more than|less than|higher than|lower than|outperformed|underperformed)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const mechanismSentence =
+    sentences.find((sentence) =>
+      /\b(because|through|via|mediates?|mediated|mechanism|drives?|causes?|leads? to|explains?)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const nullSentence =
+    sentences.find((sentence) =>
+      /\b(no significant|did not|does not|failed to|no evidence|unchanged|not associated)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const tradeoffSentence =
+    sentences.find((sentence) =>
+      /\b(but|while|whereas|trade[- ]?off|at the cost of|despite|although)\b/i.test(
+        sentence,
+      ),
+    ) && sentences.find((sentence) => sentenceHasOutcomeLanguage(sentence)) || null;
+
+  const associationSentence =
+    sentences.find((sentence) =>
+      /\b(associated with|correlat(?:es|ed|ion)|linked to|relationship between|relation between)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  if (nullSentence) {
+    return {
+      status: "FOUND",
+      kind: "NULL_RESULT",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "TEST / COMPARE",
+      outcome: stripTerminalPunctuation(nullSentence),
+      condition: contrastQuestion ? stripTerminalPunctuation(contrastQuestion) : null,
+      comparator: comparisonSentence ? stripTerminalPunctuation(comparisonSentence) : null,
+      result: stripTerminalPunctuation(nullSentence),
+      delta: null,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "A null or negative result was recovered. Absence of an effect is treated as a result structure rather than as missing evidence.",
+    };
+  }
+
+  if (interventionSentence && explicitResult) {
+    return {
+      status: "FOUND",
+      kind: "INTERVENTION_EFFECT",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "INTERVENE / COMPARE",
+      outcome: stripTerminalPunctuation(explicitResult),
+      condition: contrastQuestion ? stripTerminalPunctuation(contrastQuestion) : null,
+      comparator: comparisonSentence ? stripTerminalPunctuation(comparisonSentence) : null,
+      result: stripTerminalPunctuation(explicitResult),
+      delta: null,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "CAUSAL / MECHANISTIC",
+      rationale:
+        "The indexed source contains both an intervention/manipulation predicate and a reported outcome, so the claim family is routed by the study operation rather than topic vocabulary.",
+    };
+  }
+
+  if (behavioralLike && contrastQuestion) {
+    const reported = explicitResult ? stripTerminalPunctuation(explicitResult) : null;
+    const condition = stripTerminalPunctuation(contrastQuestion);
+    const baselineText = baseline ? stripTerminalPunctuation(baseline) : null;
+
+    return {
+      status: reported ? "FOUND" : "LIMITED",
+      kind: "CONDITIONAL_EFFECT",
+      background: sentences[0] ? stripTerminalPunctuation(sentences[0]) : null,
+      priorBaseline: baselineText,
+      subject: "consumer response to transparency / disclosure",
+      operation: "MEASURE CONDITIONAL EFFECT",
+      outcome: reported,
+      condition,
+      comparator: baselineText,
+      result:
+        reported ||
+        `The study tests whether consumer responses to transparency remain favorable when disclosure reveals unfavorable or negative outcomes`,
+      delta: null,
+      artifact: "BEHAVIORAL / SOCIAL-SCIENCE RESEARCH",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        reported
+          ? "A conditional behavioral effect was recovered: the outcome is evaluated under a changed disclosure condition."
+          : "The indexed source clearly establishes a conditional behavioral research question and prior baseline, but the available signal does not expose a source-bound effect direction or magnitude. The Case remains descriptive rather than inventing the missing result.",
+    };
+  }
+
+  if (tradeoffSentence) {
+    return {
+      status: explicitResult ? "FOUND" : "LIMITED",
+      kind: "TRADE_OFF",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "COMPARE TRADE-OFF",
+      outcome: explicitResult ? stripTerminalPunctuation(explicitResult) : stripTerminalPunctuation(tradeoffSentence),
+      condition: null,
+      comparator: comparisonSentence ? stripTerminalPunctuation(comparisonSentence) : null,
+      result: explicitResult ? stripTerminalPunctuation(explicitResult) : stripTerminalPunctuation(tradeoffSentence),
+      delta: null,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "COMPARATIVE",
+      rationale:
+        "The source expresses opposing outcome directions or a benefit-cost trade-off, so comparison semantics outrank generic capability language.",
+    };
+  }
+
+  if (comparisonSentence && sentenceHasOutcomeLanguage(comparisonSentence)) {
+    return {
+      status: "FOUND",
+      kind: "COMPARISON",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "COMPARE",
+      outcome: stripTerminalPunctuation(comparisonSentence),
+      condition: null,
+      comparator: stripTerminalPunctuation(comparisonSentence),
+      result: stripTerminalPunctuation(comparisonSentence),
+      delta: null,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "COMPARATIVE",
+      rationale:
+        "A comparison result was recovered from the governed predicate and outcome, independent of subject-domain vocabulary.",
+    };
+  }
+
+  if (mechanismSentence && explicitResult) {
+    return {
+      status: "FOUND",
+      kind: "MECHANISM",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "EXPLAIN MECHANISM",
+      outcome: stripTerminalPunctuation(explicitResult),
+      condition: null,
+      comparator: null,
+      result: stripTerminalPunctuation(explicitResult),
+      delta: null,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "CAUSAL / MECHANISTIC",
+      rationale:
+        "A mechanism-bearing result was recovered; mechanistic predicate structure outranks generic engineering or domain vocabulary.",
+    };
+  }
+
+  if (associationSentence) {
+    return {
+      status: "FOUND",
+      kind: "ASSOCIATION",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "OBSERVE ASSOCIATION",
+      outcome: stripTerminalPunctuation(associationSentence),
+      condition: null,
+      comparator: null,
+      result: stripTerminalPunctuation(associationSentence),
+      delta: null,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "An association was recovered. The claim remains empirical and must not inherit causal or engineering evidence requirements.",
+    };
+  }
+
+  if (explicitResult) {
+    return {
+      status: "FOUND",
+      kind: "ASSOCIATION",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "MEASURE / OBSERVE",
+      outcome: stripTerminalPunctuation(explicitResult),
+      condition: contrastQuestion ? stripTerminalPunctuation(contrastQuestion) : null,
+      comparator: comparisonSentence ? stripTerminalPunctuation(comparisonSentence) : null,
+      result: stripTerminalPunctuation(explicitResult),
+      delta: null,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "A result-bearing empirical outcome was recovered from the governed outcome predicate.",
+    };
+  }
+
+  if (behavioralLike && /\b(is it|does|do |can |what if|whether)\b/i.test(title)) {
+    return {
+      status: "LIMITED",
+      kind: "RESEARCH_QUESTION",
+      background: baseline ? stripTerminalPunctuation(baseline) : null,
+      priorBaseline: baseline ? stripTerminalPunctuation(baseline) : null,
+      subject: title,
+      operation: "TEST BEHAVIORAL RELATION",
+      outcome: null,
+      condition: contrastQuestion ? stripTerminalPunctuation(contrastQuestion) : null,
+      comparator: baseline ? stripTerminalPunctuation(baseline) : null,
+      result: `The study investigates ${stripTerminalPunctuation(title)}`,
+      delta: null,
+      artifact: "BEHAVIORAL / SOCIAL-SCIENCE RESEARCH",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "The signal defines a social-science research question with measurable behavioral outcomes. The claim family is empirical even when the indexed snippet does not expose the final effect estimate.",
+    };
+  }
+
+  return {
+    status: "NONE",
+    kind: "UNKNOWN",
+    background: null,
+    priorBaseline: null,
+    subject: null,
+    operation: null,
+    outcome: null,
+    condition: null,
+    comparator: null,
+    result: null,
+    delta: null,
+    artifact: "UNKNOWN",
+    claimType: null,
+    rationale:
+      "No generalized result structure could be recovered without importing unsupported content.",
+  };
+}
+
+function claimTypeFromResultStructure(
+  structure: ResultStructureRecovery,
+): ClaimType | null {
+  if (structure.claimType) return structure.claimType;
+
+  switch (structure.kind) {
+    case "COMPARISON":
+    case "TRADE_OFF":
+      return "COMPARATIVE";
+    case "INTERVENTION_EFFECT":
+    case "MECHANISM":
+      return "CAUSAL / MECHANISTIC";
+    case "NUMERIC_REVISION":
+    case "CONDITIONAL_EFFECT":
+    case "ASSOCIATION":
+    case "NULL_RESULT":
+    case "RESEARCH_QUESTION":
+      return "DESCRIPTIVE / EMPIRICAL";
+    default:
+      return null;
+  }
+}
+
 
 function extractNumericDelta(text: string): string | null {
   const patterns = [
@@ -4115,6 +4535,33 @@ function recoverResultDelta(signal: SignalItem): ResultDeltaRecovery {
 function recoverArtifactSpecificSourceTruth(
   signal: SignalItem,
 ): SourceTruthRecovery {
+  const resultStructure = recoverResultStructure(signal);
+
+  if (
+    resultStructure.status !== "NONE" &&
+    resultStructure.result
+  ) {
+    const conditionNote =
+      resultStructure.condition
+        ? ` Condition: ${resultStructure.condition}.`
+        : "";
+    const deltaNote =
+      resultStructure.delta
+        ? ` Delta: ${resultStructure.delta}.`
+        : "";
+
+    return {
+      status:
+        resultStructure.status === "FOUND"
+          ? "FOUND"
+          : "LIMITED",
+      proposition: stripTerminalPunctuation(resultStructure.result),
+      artifact: resultStructure.artifact,
+      rationale:
+        `${resultStructure.rationale}${conditionNote}${deltaNote} Source Truth preserves the result/research structure without manufacturing a stronger effect than the indexed source supports.`,
+    };
+  }
+
   const resultDelta = recoverResultDelta(signal);
 
   if (resultDelta.status === "FOUND" && resultDelta.result) {
@@ -4318,6 +4765,13 @@ function essenceClause(value: string, fallback: string): string {
 }
 function essenceDomainPrinciple(signal: SignalItem, p: PropositionSet, profile: ObjectSemanticProfile): string {
   const c=normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)} ${p.result?.text||""} ${p.comparison?.text||""}`);
+  const resultStructure = recoverResultStructure(signal);
+  if (
+    resultStructure.kind === "CONDITIONAL_EFFECT" ||
+    resultStructure.kind === "RESEARCH_QUESTION"
+  ) {
+    return "The deeper question is conditional rather than technological: whether transparency remains valuable when the information revealed is unfavorable. The scientific object is the change in consumer or actor response across disclosure conditions, not the construction of a technical capability.";
+  }
   if(/\b(multi stage rule chaining|multi-stage rule-chaining|rule chaining framework|rule-chaining framework)\b/.test(c)) {
     return "The article-specific shift is from treating abstract reasoning as a single opaque mapping to decomposing it into staged, compositional rule application whose intermediate structure can be inspected. The important question is therefore whether explicit decomposition improves generalization and interpretability without merely encoding task-specific heuristics.";
   }
@@ -4347,6 +4801,13 @@ function essenceDomainPrinciple(signal: SignalItem, p: PropositionSet, profile: 
 }
 function essenceConsequence(signal: SignalItem,p: PropositionSet,profile: ObjectSemanticProfile): string {
   const corpus = normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)}`);
+  const resultStructure = recoverResultStructure(signal);
+  if (
+    resultStructure.kind === "CONDITIONAL_EFFECT" ||
+    resultStructure.kind === "RESEARCH_QUESTION"
+  ) {
+    return "If the effect is supported, transparency should be treated as a conditional behavioral mechanism rather than a universally rewarded practice: its value depends on what is disclosed, how consumers interpret the information, and which behavioral outcome is measured. If the indexed source does not expose the effect direction, Episteme should preserve that uncertainty instead of inventing it.";
+  }
 
   if(/\b(multi stage rule chaining|multi-stage rule-chaining|rule chaining framework|rule-chaining framework)\b/.test(corpus))
     return "If the framework genuinely improves ARC-style generalization while exposing intermediate rule chains, it would support a design direction in which reasoning systems are evaluated not only by final-answer accuracy but by compositional transfer, recoverable intermediate structure, and whether the same rules survive novel combinations.";
@@ -4376,6 +4837,13 @@ function essenceBoundary(p: PropositionSet,audit: EvidenceAudit,ct: ClaimType): 
 }
 function essenceDecisiveTest(signal: SignalItem,p: PropositionSet,profile: ObjectSemanticProfile,ct: ClaimType): string {
   const q=normalize(`${signal.title} ${sanitizeSignalSummary(signal.summary)} ${p.result?.text||""} ${p.comparison?.text||""}`);
+  const resultStructure = recoverResultStructure(signal);
+  if (
+    resultStructure.kind === "CONDITIONAL_EFFECT" ||
+    resultStructure.kind === "RESEARCH_QUESTION"
+  ) {
+    return "Prespecify the consumer outcome, hold product/company information constant, vary the transparency/disclosure condition, compare favorable versus unfavorable disclosed outcomes where relevant, quantify effect size and uncertainty, and test whether prior trust, framing, expectations, or sample composition can reproduce the observed response.";
+  }
 
   if(/\b(multi stage rule chaining|multi-stage rule-chaining|rule chaining framework|rule-chaining framework)\b/.test(q))
     return "Compare the staged rule-chaining framework with strong end-to-end and program-search baselines on held-out ARC tasks, especially novel rule compositions. Measure accuracy, sample efficiency, rule reuse, intermediate-step faithfulness, and whether perturbing an inferred rule changes the predicted output as the explanation claims.";
@@ -5082,6 +5550,41 @@ function decomposeSignalRoles(
   signal: SignalItem,
   genre: SignalGenre,
 ): Pick<EpistemicClaimIdentity, "coreClaim" | "baseline" | "reportedResult" | "implication" | "nonImplication"> {
+  const resultStructure = recoverResultStructure(signal);
+
+  if (
+    resultStructure.status !== "NONE" &&
+    resultStructure.result
+  ) {
+    const baseline =
+      resultStructure.priorBaseline ||
+      resultStructure.background ||
+      "The indexed source does not state a distinct prior baseline.";
+
+    const condition =
+      resultStructure.condition
+        ? ` Condition: ${resultStructure.condition}.`
+        : "";
+
+    const comparator =
+      resultStructure.comparator
+        ? ` Comparator/baseline: ${resultStructure.comparator}.`
+        : "";
+
+    return {
+      coreClaim: resultStructure.result,
+      baseline,
+      reportedResult: resultStructure.result,
+      implication:
+        `Result structure: ${resultStructure.kind}.${condition}${comparator} The significance should be derived from the measured or tested relation, not from subject-domain vocabulary.`,
+      nonImplication:
+        resultStructure.kind === "RESEARCH_QUESTION" ||
+        resultStructure.status === "LIMITED"
+          ? "The indexed signal does not expose a source-bound effect direction or magnitude, so Episteme must not invent one."
+          : "The recovered result does not establish stronger causal, generalization, engineering, clinical, or institutional consequences than its claim-specific evidence contract supports.",
+    };
+  }
+
   const resultDelta = recoverResultDelta(signal);
 
   if (resultDelta.status === "FOUND" && resultDelta.result) {
@@ -6652,17 +7155,23 @@ function buildEpistemicClaimIdentity(
   // Domain vocabulary ≠ claim type.
   // Technical artifact + technical predicate outranks application-domain words.
   // True institutional/business/regulatory events remain event-locked.
+  const resultStructure = recoverResultStructure(signal);
+  const resultStructureClaimType =
+    !trueEventLocked
+      ? claimTypeFromResultStructure(resultStructure)
+      : null;
+
+  // Stage 6.9.11 authority order:
+  // governed result structure > governed predicate > semantic object/domain vocabulary.
+  // A social-science or empirical result must not become engineering merely because
+  // the source contains terms such as supply chain, system, model, or framework.
   const preliminaryClaimType =
-    !trueEventLocked && semanticOntology.claimType
-      ? semanticOntology.claimType
-      : predicateProfile.claimType &&
-          ![
-            "INFORMATIONAL / OPERATIONAL",
-            "INSTITUTIONAL",
-            "SYSTEM / OPERATIONAL IMPACT",
-          ].includes(genreResolvedClaimType)
-        ? predicateProfile.claimType
-        : genreResolvedClaimType;
+    resultStructureClaimType ??
+    (!trueEventLocked && predicateProfile.claimType
+      ? predicateProfile.claimType
+      : !trueEventLocked && semanticOntology.claimType
+        ? semanticOntology.claimType
+        : genreResolvedClaimType);
 
   const claimType = correctClaimTypeForCaseContract(
     signal,
@@ -6853,6 +7362,52 @@ function buildParseFromClaimIdentity(
     neutralIntentForSignal(signal),
     signal,
   );
+
+  const resultStructure = recoverResultStructure(signal);
+
+  if (
+    identity.claimType === "DESCRIPTIVE / EMPIRICAL" &&
+    resultStructure.status !== "NONE"
+  ) {
+    const behavioral =
+      resultStructure.artifact === "BEHAVIORAL / SOCIAL-SCIENCE RESEARCH";
+    const conditional =
+      resultStructure.kind === "CONDITIONAL_EFFECT" ||
+      resultStructure.kind === "RESEARCH_QUESTION";
+
+    return {
+      object: identity.signalTitle,
+      claimType: identity.claimType,
+      claimBasis: [
+        `result-structure: ${resultStructure.kind}`,
+        `predicate-governed empirical classification: ${identity.genre}`,
+        resultStructure.rationale,
+      ],
+      validationModes: ["OBSERVATIONAL DISCRIMINATION", "EXPERIMENTAL REPLICATION"],
+      disconfirmationMode:
+        behavioral || conditional
+          ? "The empirical claim weakens if the measured consumer or actor outcome does not differ across the prespecified transparency/disclosure conditions, if the effect disappears under reasonable sampling or framing controls, or if an alternative explanation reproduces the same response."
+          : "The empirical claim weakens if the directly measured quantity is not traceable, the effect disappears under reasonable measurement or sampling uncertainty, or independent observation fails to reproduce it.",
+      evidenceNeeded:
+        behavioral || conditional
+          ? [
+              "prespecified behavioral outcome such as trust, choice, purchase intention, willingness to pay, or reward/penalty behavior",
+              "explicit transparency/disclosure condition and comparison condition",
+              "study design, sample definition, effect estimate, and uncertainty",
+              "replication or external-validity test plus one credible alternative explanation",
+            ]
+          : [
+              "directly measured or observed quantity",
+              "measurement and sampling uncertainty",
+              "independent observation or replication",
+              "credible competing interpretation or boundary condition",
+            ],
+      contextPolicy:
+        behavioral || conditional
+          ? "Consumer, behavioral, organizational, and social-science outcomes are empirical objects. Supply-chain or system vocabulary must not route them into an engineering capability contract unless the governed predicate actually concerns a constructed technical function."
+          : "Result structure and governed outcome predicates determine the empirical contract; subject-domain vocabulary does not override the claim family.",
+    };
+  }
 
   if (identity.claimType === "ENGINEERING / CONSTRUCTIVE") {
     return {
@@ -8031,6 +8586,10 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
     /\b(luminescence|dating|dated|chronology|age|older|younger|years)\b/.test(
       normalize(`${signal.title} ${signal.summary}`),
     );
+  const resultStructure = recoverResultStructure(signal);
+  const behavioralConditional =
+    resultStructure.kind === "CONDITIONAL_EFFECT" ||
+    resultStructure.kind === "RESEARCH_QUESTION";
 
   const firstCriticalGap =
     audit.requirements.find(
@@ -8053,6 +8612,15 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
     null;
 
   if (operation === "EVIDENCE_TEST") {
+    if (behavioralConditional) {
+      return {
+        demand: "VALIDATION",
+        directAnswer:
+          `For the canonical claim “${claim}”, the highest-information test is to recover the study's actual consumer outcome and compare it across the relevant transparency/disclosure conditions. Prespecify trust, purchase intention, willingness to pay, choice, or another reported outcome; hold the underlying product/company information constant; quantify effect size and uncertainty; and test whether the result survives a strong baseline plus prior-trust or framing controls.`,
+        reasoning:
+          "Typed operation authority: EVIDENCE_TEST. The target is a conditional behavioral relation, so the evidence burden is outcome + condition/comparator + uncertainty + robustness, not engineering performance or failure recovery.",
+      };
+    }
     if (chronologyLike) {
       return {
         demand: "VALIDATION",
@@ -8076,6 +8644,15 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
   }
 
   if (operation === "COUNTEREVIDENCE") {
+    if (behavioralConditional) {
+      return {
+        demand: "ALTERNATIVE",
+        directAnswer:
+          `For the canonical claim “${claim}”, the strongest competing explanations are that the apparent transparency effect is driven by prior brand trust, severity or framing of the disclosed information, selection into the sample, consumer expectations, social-desirability response, or differences in what participants infer from the disclosure rather than transparency itself. The decisive comparison holds the disclosed facts constant while varying transparency and measuring the same behavioral outcome.`,
+        reasoning:
+          "Typed operation authority: COUNTEREVIDENCE. The alternative must reproduce the same consumer response without attributing it to transparency itself.",
+      };
+    }
     if (chronologyLike) {
       return {
         demand: "ALTERNATIVE",
@@ -8096,6 +8673,15 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
   }
 
   if (operation === "BOUNDARY") {
+    if (behavioralConditional) {
+      return {
+        demand: "BOUNDARY",
+        directAnswer:
+          `For the canonical claim “${claim}”, the most important boundaries are the type and severity of disclosed outcome, consumers' prior trust and familiarity, whether the outcome is attitudinal or actual purchasing behavior, the product/category context, and the sampled population. The result should not generalize beyond the disclosure and decision conditions under which the consumer response was actually measured.`,
+        reasoning:
+          "Typed operation authority: BOUNDARY. This is a behavioral external-validity boundary, not an engineering operating envelope.",
+      };
+    }
     if (chronologyLike) {
       return {
         demand: "BOUNDARY",
@@ -8116,6 +8702,15 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
   }
 
   if (operation === "REALITY_TEST") {
+    if (behavioralConditional) {
+      return {
+        demand: "VALIDATION",
+        directAnswer:
+          `For the canonical claim “${claim}”, the decisive reality test is a prespecified replication that varies the transparency/disclosure condition while holding the underlying facts constant, measures the same consumer outcome, reports effect size and uncertainty, and includes controls for prior trust, framing, expectations, and sample composition. Scaling the conclusion is permissible only if the direction and magnitude remain stable across relevant populations or decision contexts.`,
+        reasoning:
+          "Typed operation authority: REALITY_TEST. Reality contact is consumer behavior under controlled disclosure conditions, not forced technical failure and recovery.",
+      };
+    }
     if (chronologyLike) {
       return {
         demand: "VALIDATION",
@@ -8136,6 +8731,17 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
   }
 
   if (operation === "SYNTHESIS") {
+    if (behavioralConditional) {
+      return {
+        demand: "IMPLICATION",
+        directAnswer:
+          resultStructure.status === "FOUND"
+            ? `The strongest conclusion is that the indexed source reports a conditional consumer-response result concerning transparency/disclosure: ${resultStructure.result}. Its significance is behavioral and context-dependent; it does not justify a universal claim that transparency is always rewarded.`
+            : `The strongest conclusion is that the indexed source establishes a meaningful conditional research question: whether transparency is still rewarded when disclosure reveals unfavorable outcomes. The available signal does not expose a source-bound effect direction or magnitude, so the Case should not invent whether consumers ultimately reward or penalize that transparency.`,
+        reasoning:
+          "Typed operation authority: SYNTHESIS. The synthesis preserves the distinction between prior baseline, changed disclosure condition, measured behavioral outcome, and any result that is actually source-bound.",
+      };
+    }
     if (chronologyLike) {
       const baseline = resultDelta.priorBaseline
         ? ` The prior baseline was: ${resultDelta.priorBaseline}.`
@@ -13789,6 +14395,201 @@ function decideCaseRouting(args: {
 /* ==========================================================
    COMPONENT
 ========================================================== */
+
+type EpistemeExperienceModule = {
+  id: string;
+  eyebrow: string;
+  title: string;
+  body: string;
+  tone: "PRIMARY" | "EVIDENCE" | "BOUNDARY" | "FRONTIER";
+  metric?: string;
+};
+
+type EpistemeImplicationLayer = {
+  layer: string;
+  statement: string;
+  state: "DIRECT" | "CONDITIONAL" | "OPEN";
+};
+
+function compactExperienceText(value: string | null | undefined, fallback: string): string {
+  const cleaned = (value ?? "").replace(/\s+/g, " ").trim();
+  return cleaned || fallback;
+}
+
+function buildEpistemeExperienceModules(
+  intelligence: IntelligenceObject,
+): EpistemeExperienceModule[] {
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  const claim = intelligence.claimIdentity?.coreClaim || intelligence.epistemicParse.object;
+  const reported =
+    intelligence.claimIdentity?.reportedResult ||
+    essence?.sourceTruth ||
+    intelligence.adaptiveResponse.thesis;
+  const consequence =
+    essence?.consequence ||
+    intelligence.adaptiveResponse.sections.find((section) => section.kind === "IMPLICATION")?.body ||
+    intelligence.adaptiveResponse.thesis;
+  const boundary =
+    essence?.evidenceBoundary ||
+    intelligence.evidenceAudit.uncertainty ||
+    intelligence.uncertainty;
+  const alternative =
+    intelligence.epistemicContract.alternativeExplanation ||
+    intelligence.adaptiveResponse.sections.find((section) => section.kind === "ALTERNATIVE")?.body ||
+    "No stronger competing interpretation is currently established by the admitted evidence.";
+  const decisive =
+    essence?.decisiveTest ||
+    intelligence.epistemicContract.realityTest ||
+    intelligence.inquiry.realityTest.summary;
+
+  const supported = intelligence.evidenceAudit.requirements.filter(
+    (requirement) =>
+      requirement.status === "SUPPORTED" ||
+      requirement.status === "VERIFIED" ||
+      requirement.status === "INDEPENDENTLY_VERIFIED",
+  ).length;
+  const total = intelligence.evidenceAudit.requirements.length;
+
+  return [
+    {
+      id: "signal-core",
+      eyebrow: "01 · SIGNAL CORE",
+      title: "What reality-facing claim is actually on the table?",
+      body: compactExperienceText(
+        reported,
+        `The active Case is anchored to ${claim}.`,
+      ),
+      tone: "PRIMARY",
+      metric: intelligence.epistemicParse.claimType,
+    },
+    {
+      id: "meaning",
+      eyebrow: "02 · WHY IT MATTERS",
+      title: "What changes if the result survives?",
+      body: compactExperienceText(
+        consequence,
+        "The significance remains conditional on the claim-specific validation burden.",
+      ),
+      tone: "PRIMARY",
+      metric: "CONSEQUENCE",
+    },
+    {
+      id: "evidence",
+      eyebrow: "03 · EVIDENCE CONSTELLATION",
+      title: "How much of the required evidence is actually in view?",
+      body: compactExperienceText(
+        intelligence.evidenceAudit.summary,
+        intelligence.evidence,
+      ),
+      tone: "EVIDENCE",
+      metric: `${supported}/${total || 0} REQUIREMENTS`,
+    },
+    {
+      id: "alternative",
+      eyebrow: "04 · COMPETING UNIVERSE",
+      title: "What else could produce the same observation?",
+      body: compactExperienceText(
+        alternative,
+        "A competing explanation remains an open requirement.",
+      ),
+      tone: "BOUNDARY",
+      metric: "ADVERSARIAL",
+    },
+    {
+      id: "boundary",
+      eyebrow: "05 · KNOWLEDGE HORIZON",
+      title: "Where does justified inference stop?",
+      body: compactExperienceText(
+        boundary,
+        "The Case boundary remains open until the missing evidence burden is resolved.",
+      ),
+      tone: "BOUNDARY",
+      metric: intelligence.evidenceStrength,
+    },
+    {
+      id: "frontier",
+      eyebrow: "06 · REALITY FRONTIER",
+      title: "What observation would move the Case next?",
+      body: compactExperienceText(
+        decisive,
+        intelligence.epistemicContract.nextAction,
+      ),
+      tone: "FRONTIER",
+      metric: "DECISIVE TEST",
+    },
+  ];
+}
+
+function buildEpistemeImplicationLayers(
+  intelligence: IntelligenceObject,
+): EpistemeImplicationLayer[] {
+  const claimType = intelligence.epistemicParse.claimType;
+  const essence = intelligence.adaptiveResponse.articleEssence;
+  const result =
+    intelligence.claimIdentity?.reportedResult ||
+    essence?.sourceTruth ||
+    intelligence.adaptiveResponse.thesis;
+  const boundary =
+    essence?.evidenceBoundary ||
+    intelligence.evidenceAudit.uncertainty ||
+    intelligence.uncertainty;
+
+  const scientific =
+    claimType === "ENGINEERING / CONSTRUCTIVE"
+      ? "The claim concerns whether a constructed capability performs as stated under its evidence contract."
+      : claimType === "CAUSAL / MECHANISTIC"
+        ? "The claim concerns whether the proposed mechanism uniquely explains the observed outcome."
+        : claimType === "PREDICTIVE"
+          ? "The claim concerns whether a prospective prediction survives out-of-sample reality contact."
+          : claimType === "INSTITUTIONAL"
+            ? "The claim concerns a rule or institutional mechanism and the actor responses it produces."
+            : "The claim concerns an empirical pattern, comparison, observation, or result that must remain traceable to measurement.";
+
+  const engineering =
+    claimType === "ENGINEERING / CONSTRUCTIVE"
+      ? "If verified, the next question is whether the capability remains reliable across operating conditions, failure modes, and independent reproduction."
+      : "Engineering consequence is conditional: no technical architecture should be inferred unless the validated result creates a concrete capability, constraint, or design requirement.";
+
+  const system =
+    compactExperienceText(
+      essence?.consequence,
+      `If the reported result survives validation, the next-order question is which explanatory, technical, behavioral, operational, or institutional baseline must change. Active result: ${result}`,
+    );
+
+  return [
+    {
+      layer: "SCIENCE / KNOWLEDGE",
+      statement: scientific,
+      state: "DIRECT",
+    },
+    {
+      layer: "ENGINEERING / CAPABILITY",
+      statement: engineering,
+      state: claimType === "ENGINEERING / CONSTRUCTIVE" ? "DIRECT" : "CONDITIONAL",
+    },
+    {
+      layer: "SYSTEM / DECISION",
+      statement: system,
+      state: "CONDITIONAL",
+    },
+    {
+      layer: "CIVILIZATION / GOVERNANCE",
+      statement:
+        "Broader institutional or civilization significance is earned only when the result changes a durable dependency, allocation rule, infrastructure constraint, governance mechanism, or human decision baseline. Until then, this layer remains an open frontier rather than a demonstrated consequence.",
+      state: "OPEN",
+    },
+    {
+      layer: "EPISTEMIC LIMIT",
+      statement: compactExperienceText(
+        boundary,
+        "No broader layer may inherit more confidence than the evidence supporting the active claim.",
+      ),
+      state: "OPEN",
+    },
+  ];
+}
+
+
 export default function EpistemeDialogue() {
   const [mode, setMode] = useState<DialogueMode>("ask");
   const [query, setQuery] = useState("");
@@ -15308,6 +16109,148 @@ useEffect(() => {
                                 </section>
                               ),
                             )}
+                          </div>
+
+                          <div className="ep-cosmic-answer">
+                            <div className="ep-cosmic-answer__divider" aria-hidden="true">
+                              <i />
+                              <span>✦</span>
+                              <i />
+                            </div>
+
+                            <header className="ep-cosmic-answer__head">
+                              <div>
+                                <small>ARCHENOVA · EPISTEME</small>
+                                <strong>KNOWLEDGE CONSTELLATION</strong>
+                              </div>
+                              <span>
+                                {message.intelligence.evidenceStrength} EVIDENCE
+                              </span>
+                            </header>
+
+                            <p className="ep-cosmic-answer__intro">
+                              A layered view of what is reported, why it matters, what could overturn it,
+                              and how far the consequence can responsibly travel.
+                            </p>
+
+                            <div className="ep-cosmic-answer__grid">
+                              {buildEpistemeExperienceModules(message.intelligence).map(
+                                (module) => (
+                                  <section
+                                    key={`${message.id}-${module.id}`}
+                                    className={[
+                                      "ep-cosmic-card",
+                                      `is-${module.tone.toLowerCase()}`,
+                                    ].join(" ")}
+                                  >
+                                    <div className="ep-cosmic-card__orbit" aria-hidden="true">
+                                      <i />
+                                    </div>
+                                    <header>
+                                      <span>{module.eyebrow}</span>
+                                      {module.metric && <small>{module.metric}</small>}
+                                    </header>
+                                    <h4>{module.title}</h4>
+                                    <p>{module.body}</p>
+                                  </section>
+                                ),
+                              )}
+                            </div>
+
+                            <section className="ep-trajectory">
+                              <header>
+                                <div>
+                                  <small>IMPLICATION TRAJECTORY</small>
+                                  <strong>FROM RESULT TO CIVILIZATION</strong>
+                                </div>
+                                <span>CONFIDENCE MUST NOT LEAP LAYERS</span>
+                              </header>
+
+                              <div className="ep-trajectory__rail" aria-hidden="true" />
+
+                              <div className="ep-trajectory__layers">
+                                {buildEpistemeImplicationLayers(message.intelligence).map(
+                                  (item, index) => (
+                                    <article
+                                      key={`${message.id}-trajectory-${item.layer}`}
+                                      className={`is-${item.state.toLowerCase()}`}
+                                    >
+                                      <div className="ep-trajectory__index">
+                                        <i aria-hidden="true" />
+                                        <b>{String(index + 1).padStart(2, "0")}</b>
+                                      </div>
+                                      <div>
+                                        <header>
+                                          <strong>{item.layer}</strong>
+                                          <span>{item.state}</span>
+                                        </header>
+                                        <p>{item.statement}</p>
+                                      </div>
+                                    </article>
+                                  ),
+                                )}
+                              </div>
+                            </section>
+
+                            <section className="ep-evidence-spectrum">
+                              <header>
+                                <div>
+                                  <small>EVIDENCE SPECTRUM</small>
+                                  <strong>WHAT IS KNOWN · WHAT IS STILL DARK</strong>
+                                </div>
+                                <span>
+                                  {message.intelligence.evidenceAudit.requirements.filter(
+                                    (requirement) =>
+                                      requirement.status === "SUPPORTED" ||
+                                      requirement.status === "VERIFIED" ||
+                                      requirement.status === "INDEPENDENTLY_VERIFIED",
+                                  ).length}
+                                  /
+                                  {message.intelligence.evidenceAudit.requirements.length}
+                                  {" SUPPORTED"}
+                                </span>
+                              </header>
+
+                              <div className="ep-evidence-spectrum__grid">
+                                {message.intelligence.evidenceAudit.requirements
+                                  .slice(0, 6)
+                                  .map((requirement, index) => (
+                                    <article
+                                      key={`${message.id}-evidence-spectrum-${index}`}
+                                      className={`is-${requirement.status.toLowerCase().replaceAll("_", "-")}`}
+                                    >
+                                      <div>
+                                        <span>{String(index + 1).padStart(2, "0")}</span>
+                                        <strong>{requirement.status.replaceAll("_", " ")}</strong>
+                                      </div>
+                                      <p>{requirement.requirement}</p>
+                                      <small>{requirement.rationale}</small>
+                                    </article>
+                                  ))}
+                              </div>
+                            </section>
+
+                            <section className="ep-falsification-window">
+                              <div className="ep-falsification-window__glow" aria-hidden="true" />
+                              <header>
+                                <small>FALSIFICATION WINDOW</small>
+                                <strong>WHAT WOULD FORCE EPISTEME TO CHANGE ITS MIND?</strong>
+                              </header>
+                              <div className="ep-falsification-window__grid">
+                                {message.intelligence.epistemicContract.disconfirmationConditions
+                                  .slice(0, 4)
+                                  .map((condition, index) => (
+                                    <article key={`${message.id}-falsification-${index}`}>
+                                      <span>{String(index + 1).padStart(2, "0")}</span>
+                                      <p>{condition}</p>
+                                    </article>
+                                  ))}
+                              </div>
+                              <footer>
+                                <span>CORRECTION RULE</span>
+                                <p>{message.intelligence.epistemicContract.correctionRule}</p>
+                              </footer>
+                            </section>
                           </div>
                         </div>
                         )
@@ -22485,6 +23428,596 @@ useEffect(() => {
           border-color: rgba(175, 220, 244, .32) !important;
           background: rgba(175, 220, 244, .07) !important;
           color: rgba(226, 245, 255, .94) !important;
+        }
+
+
+        /* ==================================================
+           STAGE 6.9.12 · COSMIC GLASS ANSWER EXPERIENCE
+           Shared desktop + mobile language.
+        ================================================== */
+        .ep-cosmic-answer {
+          position: relative;
+          isolation: isolate;
+          margin-top: 18px;
+          padding-top: 2px;
+        }
+
+        .ep-cosmic-answer::before {
+          content: "";
+          position: absolute;
+          z-index: -2;
+          inset: 20px -18px -18px;
+          pointer-events: none;
+          opacity: .72;
+          background:
+            radial-gradient(circle at 12% 12%, rgba(92, 169, 255, .10), transparent 23%),
+            radial-gradient(circle at 88% 34%, rgba(132, 103, 255, .075), transparent 24%),
+            radial-gradient(circle at 48% 86%, rgba(65, 214, 226, .045), transparent 27%);
+          filter: blur(18px);
+        }
+
+        .ep-cosmic-answer::after {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          inset: 0;
+          pointer-events: none;
+          opacity: .22;
+          background-image:
+            radial-gradient(circle, rgba(255,255,255,.78) 0 0.6px, transparent .8px),
+            radial-gradient(circle, rgba(151,203,255,.55) 0 0.55px, transparent .8px);
+          background-position: 0 0, 23px 31px;
+          background-size: 47px 47px, 71px 71px;
+          mask-image: linear-gradient(to bottom, transparent, black 10%, black 92%, transparent);
+          -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 92%, transparent);
+        }
+
+        .ep-cosmic-answer__divider {
+          display: grid;
+          grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+          align-items: center;
+          gap: 12px;
+          margin: 3px 0 18px;
+        }
+
+        .ep-cosmic-answer__divider i {
+          height: 1px;
+          background: linear-gradient(90deg, transparent, rgba(153,205,255,.18));
+        }
+
+        .ep-cosmic-answer__divider i:last-child {
+          background: linear-gradient(90deg, rgba(153,205,255,.18), transparent);
+        }
+
+        .ep-cosmic-answer__divider span {
+          color: rgba(184,221,255,.62);
+          font-size: 10px;
+          text-shadow: 0 0 16px rgba(112,184,255,.55);
+        }
+
+        .ep-cosmic-answer__head,
+        .ep-trajectory > header,
+        .ep-evidence-spectrum > header {
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between;
+          gap: 12px 20px;
+          flex-wrap: wrap;
+        }
+
+        .ep-cosmic-answer__head > div,
+        .ep-trajectory > header > div,
+        .ep-evidence-spectrum > header > div {
+          display: grid;
+          gap: 5px;
+        }
+
+        .ep-cosmic-answer__head small,
+        .ep-trajectory > header small,
+        .ep-evidence-spectrum > header small,
+        .ep-falsification-window > header small {
+          color: rgba(159,205,244,.46);
+          font-size: 7px;
+          font-weight: 650;
+          letter-spacing: .22em;
+        }
+
+        .ep-cosmic-answer__head strong,
+        .ep-trajectory > header strong,
+        .ep-evidence-spectrum > header strong,
+        .ep-falsification-window > header strong {
+          color: rgba(247,250,255,.91);
+          font-size: 12px;
+          font-weight: 480;
+          letter-spacing: .08em;
+        }
+
+        .ep-cosmic-answer__head > span,
+        .ep-trajectory > header > span,
+        .ep-evidence-spectrum > header > span {
+          padding: 6px 9px;
+          border: 1px solid rgba(151,205,255,.10);
+          border-radius: 999px;
+          background: rgba(126,183,255,.035);
+          color: rgba(187,219,247,.48);
+          font-size: 6.5px;
+          letter-spacing: .13em;
+        }
+
+        .ep-cosmic-answer__intro {
+          max-width: 760px;
+          margin: 11px 0 0;
+          color: rgba(222,232,241,.44);
+          font-size: 9px;
+          line-height: 1.75;
+        }
+
+        .ep-cosmic-answer__grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 10px;
+          margin-top: 15px;
+        }
+
+        .ep-cosmic-card,
+        .ep-trajectory,
+        .ep-evidence-spectrum,
+        .ep-falsification-window {
+          position: relative;
+          overflow: hidden;
+          border: 1px solid rgba(255,255,255,.072);
+          background:
+            linear-gradient(145deg, rgba(16,19,24,.74), rgba(3,4,7,.70));
+          box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.04),
+            inset 0 -1px 0 rgba(255,255,255,.012),
+            0 22px 60px rgba(0,0,0,.20);
+          backdrop-filter: blur(24px) saturate(118%);
+          -webkit-backdrop-filter: blur(24px) saturate(118%);
+        }
+
+        .ep-cosmic-card {
+          min-height: 178px;
+          padding: 16px 17px 17px;
+          border-radius: 18px;
+        }
+
+        .ep-cosmic-card::before,
+        .ep-trajectory::before,
+        .ep-evidence-spectrum::before,
+        .ep-falsification-window::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          background:
+            linear-gradient(120deg, rgba(255,255,255,.032), transparent 22%, transparent 78%, rgba(118,183,255,.018));
+        }
+
+        .ep-cosmic-card.is-primary {
+          background:
+            radial-gradient(circle at 0 0, rgba(91,162,255,.085), transparent 36%),
+            linear-gradient(145deg, rgba(15,18,24,.80), rgba(3,4,7,.72));
+        }
+
+        .ep-cosmic-card.is-evidence {
+          background:
+            radial-gradient(circle at 100% 0, rgba(68,214,207,.055), transparent 34%),
+            linear-gradient(145deg, rgba(13,18,21,.78), rgba(3,4,6,.72));
+        }
+
+        .ep-cosmic-card.is-boundary {
+          background:
+            radial-gradient(circle at 100% 0, rgba(145,111,255,.065), transparent 34%),
+            linear-gradient(145deg, rgba(16,14,22,.78), rgba(3,3,6,.72));
+        }
+
+        .ep-cosmic-card.is-frontier {
+          grid-column: 1 / -1;
+          min-height: 150px;
+          background:
+            radial-gradient(circle at 50% 120%, rgba(73,156,255,.12), transparent 44%),
+            linear-gradient(145deg, rgba(13,17,23,.82), rgba(2,3,6,.74));
+        }
+
+        .ep-cosmic-card__orbit {
+          position: absolute;
+          width: 94px;
+          height: 94px;
+          top: -47px;
+          right: -27px;
+          border: 1px solid rgba(154,207,255,.07);
+          border-radius: 50%;
+          pointer-events: none;
+        }
+
+        .ep-cosmic-card__orbit::before,
+        .ep-cosmic-card__orbit::after {
+          content: "";
+          position: absolute;
+          border: 1px solid rgba(154,207,255,.045);
+          border-radius: 50%;
+        }
+
+        .ep-cosmic-card__orbit::before {
+          inset: 13px;
+        }
+
+        .ep-cosmic-card__orbit::after {
+          inset: 29px;
+        }
+
+        .ep-cosmic-card__orbit i {
+          position: absolute;
+          left: 10px;
+          bottom: 13px;
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background: rgba(181,220,255,.72);
+          box-shadow: 0 0 13px rgba(100,176,255,.72);
+        }
+
+        .ep-cosmic-card > header {
+          position: relative;
+          z-index: 1;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 10px;
+        }
+
+        .ep-cosmic-card > header span {
+          color: rgba(158,204,244,.46);
+          font-size: 6.5px;
+          font-weight: 650;
+          letter-spacing: .18em;
+        }
+
+        .ep-cosmic-card > header small {
+          max-width: 48%;
+          overflow: hidden;
+          color: rgba(255,255,255,.28);
+          font-size: 6px;
+          letter-spacing: .09em;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .ep-cosmic-card h4 {
+          position: relative;
+          z-index: 1;
+          margin: 21px 0 0;
+          max-width: 500px;
+          color: rgba(248,251,255,.88);
+          font-size: 13px;
+          font-weight: 430;
+          line-height: 1.38;
+          letter-spacing: -.01em;
+        }
+
+        .ep-cosmic-card p {
+          position: relative;
+          z-index: 1;
+          margin: 10px 0 0;
+          color: rgba(222,231,240,.58);
+          font-size: 9px;
+          line-height: 1.78;
+        }
+
+        .ep-trajectory,
+        .ep-evidence-spectrum,
+        .ep-falsification-window {
+          margin-top: 12px;
+          padding: 17px;
+          border-radius: 19px;
+        }
+
+        .ep-trajectory__rail {
+          height: 1px;
+          margin: 16px 0 0;
+          background:
+            linear-gradient(90deg, rgba(99,176,255,.12), rgba(183,210,255,.20), rgba(125,99,255,.10), transparent);
+        }
+
+        .ep-trajectory__layers {
+          display: grid;
+          gap: 0;
+          margin-top: 2px;
+        }
+
+        .ep-trajectory__layers article {
+          position: relative;
+          display: grid;
+          grid-template-columns: 42px minmax(0,1fr);
+          gap: 10px;
+          padding: 14px 0;
+          border-bottom: 1px solid rgba(255,255,255,.045);
+        }
+
+        .ep-trajectory__layers article:last-child {
+          border-bottom: 0;
+          padding-bottom: 2px;
+        }
+
+        .ep-trajectory__index {
+          position: relative;
+          display: flex;
+          align-items: flex-start;
+          gap: 8px;
+          padding-top: 2px;
+        }
+
+        .ep-trajectory__index i {
+          width: 5px;
+          height: 5px;
+          margin-top: 4px;
+          border: 1px solid rgba(159,209,255,.36);
+          border-radius: 50%;
+          background: rgba(118,185,255,.08);
+          box-shadow: 0 0 12px rgba(91,163,255,.18);
+        }
+
+        .ep-trajectory__index b {
+          color: rgba(255,255,255,.20);
+          font-size: 7px;
+          font-weight: 500;
+          letter-spacing: .1em;
+        }
+
+        .ep-trajectory__layers article > div:last-child > header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+        }
+
+        .ep-trajectory__layers article strong {
+          color: rgba(241,247,252,.72);
+          font-size: 8px;
+          font-weight: 570;
+          letter-spacing: .12em;
+        }
+
+        .ep-trajectory__layers article span {
+          color: rgba(172,205,231,.34);
+          font-size: 6px;
+          letter-spacing: .12em;
+        }
+
+        .ep-trajectory__layers article p {
+          margin: 7px 0 0;
+          color: rgba(220,230,238,.48);
+          font-size: 8.5px;
+          line-height: 1.72;
+        }
+
+        .ep-trajectory__layers article.is-direct .ep-trajectory__index i {
+          background: rgba(128,214,200,.30);
+          border-color: rgba(144,231,216,.52);
+          box-shadow: 0 0 14px rgba(95,218,198,.24);
+        }
+
+        .ep-trajectory__layers article.is-conditional .ep-trajectory__index i {
+          background: rgba(116,174,255,.22);
+          border-color: rgba(146,197,255,.42);
+        }
+
+        .ep-trajectory__layers article.is-open {
+          opacity: .72;
+        }
+
+        .ep-evidence-spectrum__grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0,1fr));
+          gap: 8px;
+          margin-top: 15px;
+        }
+
+        .ep-evidence-spectrum__grid article {
+          min-width: 0;
+          padding: 12px;
+          border: 1px solid rgba(255,255,255,.05);
+          border-radius: 13px;
+          background: rgba(255,255,255,.014);
+        }
+
+        .ep-evidence-spectrum__grid article > div {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+        }
+
+        .ep-evidence-spectrum__grid article span {
+          color: rgba(255,255,255,.20);
+          font-size: 6px;
+          letter-spacing: .12em;
+        }
+
+        .ep-evidence-spectrum__grid article strong {
+          color: rgba(180,210,235,.42);
+          font-size: 6px;
+          font-weight: 600;
+          letter-spacing: .1em;
+        }
+
+        .ep-evidence-spectrum__grid article p {
+          margin: 8px 0 0;
+          color: rgba(239,245,249,.63);
+          font-size: 8px;
+          line-height: 1.55;
+        }
+
+        .ep-evidence-spectrum__grid article small {
+          display: block;
+          margin-top: 7px;
+          color: rgba(220,229,236,.31);
+          font-size: 7px;
+          line-height: 1.55;
+        }
+
+        .ep-evidence-spectrum__grid article.is-supported,
+        .ep-evidence-spectrum__grid article.is-verified,
+        .ep-evidence-spectrum__grid article.is-independently-verified {
+          border-color: rgba(107,219,192,.11);
+          background: rgba(76,198,170,.022);
+        }
+
+        .ep-evidence-spectrum__grid article.is-missing,
+        .ep-evidence-spectrum__grid article.is-unknown {
+          border-style: dashed;
+        }
+
+        .ep-falsification-window {
+          background:
+            radial-gradient(circle at 100% 100%, rgba(128,88,255,.08), transparent 35%),
+            linear-gradient(145deg, rgba(15,13,21,.80), rgba(3,3,6,.74));
+        }
+
+        .ep-falsification-window__glow {
+          position: absolute;
+          width: 180px;
+          height: 180px;
+          right: -100px;
+          bottom: -100px;
+          border: 1px solid rgba(151,119,255,.09);
+          border-radius: 50%;
+          box-shadow:
+            0 0 60px rgba(117,85,255,.05),
+            inset 0 0 60px rgba(117,85,255,.025);
+          pointer-events: none;
+        }
+
+        .ep-falsification-window > header {
+          display: grid;
+          gap: 5px;
+        }
+
+        .ep-falsification-window__grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0,1fr));
+          gap: 8px;
+          margin-top: 15px;
+        }
+
+        .ep-falsification-window__grid article {
+          display: grid;
+          grid-template-columns: 24px minmax(0,1fr);
+          gap: 8px;
+          padding: 11px;
+          border: 1px solid rgba(255,255,255,.05);
+          border-radius: 12px;
+          background: rgba(255,255,255,.012);
+        }
+
+        .ep-falsification-window__grid span {
+          color: rgba(177,154,255,.44);
+          font-size: 6px;
+          letter-spacing: .1em;
+        }
+
+        .ep-falsification-window__grid p {
+          margin: 0;
+          color: rgba(229,228,241,.53);
+          font-size: 8px;
+          line-height: 1.65;
+        }
+
+        .ep-falsification-window footer {
+          margin-top: 13px;
+          padding-top: 12px;
+          border-top: 1px solid rgba(255,255,255,.05);
+        }
+
+        .ep-falsification-window footer span {
+          color: rgba(176,158,255,.44);
+          font-size: 6.5px;
+          font-weight: 650;
+          letter-spacing: .16em;
+        }
+
+        .ep-falsification-window footer p {
+          margin: 7px 0 0;
+          color: rgba(229,229,239,.46);
+          font-size: 8px;
+          line-height: 1.7;
+        }
+
+        @media (max-width: 760px) {
+          .ep-cosmic-answer {
+            margin-top: 14px;
+          }
+
+          .ep-cosmic-answer__grid,
+          .ep-evidence-spectrum__grid,
+          .ep-falsification-window__grid {
+            grid-template-columns: 1fr;
+          }
+
+          .ep-cosmic-card.is-frontier {
+            grid-column: auto;
+          }
+
+          .ep-cosmic-card {
+            min-height: 0;
+            padding: 15px;
+            border-radius: 16px;
+          }
+
+          .ep-cosmic-card h4 {
+            margin-top: 17px;
+            font-size: 12px;
+          }
+
+          .ep-cosmic-card p {
+            font-size: 8.5px;
+            line-height: 1.72;
+          }
+
+          .ep-trajectory,
+          .ep-evidence-spectrum,
+          .ep-falsification-window {
+            padding: 14px;
+            border-radius: 16px;
+          }
+
+          .ep-trajectory__layers article {
+            grid-template-columns: 35px minmax(0,1fr);
+          }
+
+          .ep-cosmic-answer__head,
+          .ep-trajectory > header,
+          .ep-evidence-spectrum > header {
+            align-items: flex-start;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .ep-cosmic-answer__head strong,
+          .ep-trajectory > header strong,
+          .ep-evidence-spectrum > header strong,
+          .ep-falsification-window > header strong {
+            font-size: 10px;
+          }
+
+          .ep-cosmic-answer__intro {
+            font-size: 8px;
+          }
+
+          .ep-cosmic-card > header {
+            align-items: flex-start;
+          }
+
+          .ep-cosmic-card > header small {
+            max-width: 42%;
+          }
+
+          .ep-trajectory__layers article p,
+          .ep-evidence-spectrum__grid article p,
+          .ep-falsification-window__grid p {
+            font-size: 7.8px;
+          }
         }
 
         /* ==================================================
