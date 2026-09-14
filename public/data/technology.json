@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-09-14T01:16:02.108Z",
+  "updated": "2026-09-14T05:56:50.355Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 14 – Where Your Elements Came From",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/",
+      "summary": "APOD Science APOD APOD: 2026 September 14 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1789358700000,
+      "publishedAt": "2026-09-14T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "An Early Look at Fall Color in Canada",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/",
+      "summary": "Reds, yellows, and oranges are already sweeping across tundra landscapes in Nunavut.",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Computational Primitives of Adaptation",
+      "url": "https://arxiv.org/abs/2609.11989",
+      "summary": "arXiv:2609.11989v1 Announce Type: new Abstract: Research on adaptive systems has traditionally focused on behavior (what organisms do) and mechanism (how their machinery works). This paper focuses on a third level, compu…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "PyFLI: A unified Python framework for fluorescence lifetime imaging data generation, parameter estimation, and benchmarking",
+      "url": "https://arxiv.org/abs/2609.11994",
+      "summary": "arXiv:2609.11994v1 Announce Type: new Abstract: Fluorescence lifetime imaging (FLI) measures the temporal decay of fluorescence after excitation and provides quantitative information about a fluorophore's local environme…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Robust POMDP Framework for Lung Cancer Screening Problems",
+      "url": "https://arxiv.org/abs/2609.12007",
+      "summary": "arXiv:2609.12007v1 Announce Type: new Abstract: Lung cancer remains a leading cause of cancer mortality because many cases are diagnosed at advanced stages. Low-dose computed tomography (LDCT) screening can reduce mortal…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Insights into human evolution from large genetic biobanks",
+      "url": "https://arxiv.org/abs/2609.12297",
+      "summary": "arXiv:2609.12297v1 Announce Type: new Abstract: The development of large genetic biobanks with deep phenotyping and whole-exome or whole-genome sequencing is enabling an ever-deeper understanding of human evolution. Here…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Identifiability of a Simple Model of Lateral Gene Transfer",
+      "url": "https://arxiv.org/abs/2609.12312",
+      "summary": "arXiv:2609.12312v1 Announce Type: new Abstract: In evolutionary biology, factors like lateral gene transfer complicate the tree of life, making inference of a species tree more difficult. The phenomenon of lateral gene t…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Audiovisual diarization of overlapping click trains in sperm whale (Physeter macrocephalus) vocal sparring using a three-hydrophone array",
+      "url": "https://arxiv.org/abs/2609.12593",
+      "summary": "arXiv:2609.12593v1 Announce Type: new Abstract: The individual attribution of sperm whale (Physeter macrocephalus) vocalizations during surface interactions constitutes a methodological challenge due to acoustic overlaps…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Perturbational Validity for Foundation Models of Brain Dynamics: A Controlled Proof-of-Principle Simulation",
+      "url": "https://arxiv.org/abs/2609.12710",
+      "summary": "arXiv:2609.12710v1 Announce Type: new Abstract: Foundation models for human brain recordings are usually evaluated by signal reconstruction, future-state prediction, and transfer to downstream tasks. However, these bench…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Making Models That Matter: How to Build Trustworthy and Useful Systems Biology Models",
+      "url": "https://arxiv.org/abs/2609.13127",
+      "summary": "arXiv:2609.13127v1 Announce Type: new Abstract: Computational models supporting mechanistic understanding of (complex) biological systems, systems behaviour prediction, and experimental design are becoming more and more …",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Unlabeled Echoes: Pseudo-Labels and Genus-Aware Smoothing for Bat Call Recognition",
+      "url": "https://arxiv.org/abs/2609.11986",
+      "summary": "arXiv:2609.11986v1 Announce Type: cross Abstract: Passive acoustic monitoring produces far more bat recordings than experts can label. We show that simple model-generated pseudo-labels turn this surplus into effective su…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Framework for Evaluating Forward Contamination Risk for Bio-ISRU Microorganisms",
+      "url": "https://arxiv.org/abs/2609.12015",
+      "summary": "arXiv:2609.12015v1 Announce Type: cross Abstract: NASA planetary protection policy seeks to avoid inadvertent forward contamination of celestial bodies and backward contamination of Earth during space exploration. For Ma…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Predicting Collision Cross Sections with GRACE: Geometric Residual Adduct Conditioning via Early-fusion",
+      "url": "https://arxiv.org/abs/2609.12223",
+      "summary": "arXiv:2609.12223v1 Announce Type: cross Abstract: Collision cross section (CCS), derived from ion mobility mass spectrometry, is a common descriptor for molecular annotation. Prediction is challenging for machine learnin…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "HypoKG: Evidence-Disciplined Biomedical Hypothesis Generation Beyond Endpoint Knowledge",
+      "url": "https://arxiv.org/abs/2609.12260",
+      "summary": "arXiv:2609.12260v1 Announce Type: cross Abstract: Large language models (LLMs) can generate biomedical hypotheses, but it remains unclear whether they truly reason from scientific evidence or simply produce convincing-so…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Same Encoder, Different Winner: A Paired-View Framework for Cell Painting Encoder Evaluation",
+      "url": "https://arxiv.org/abs/2609.12761",
+      "summary": "arXiv:2609.12761v1 Announce Type: cross Abstract: Vision encoders for Cell Painting are typically ranked by a single evaluation, commonly replicate mean average precision (mAP). We introduce CP-BG-Bench, a paired-view ev…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Stability and Wandering of Bumps in Neural Fields with Interneuron Subtypes",
+      "url": "https://arxiv.org/abs/2609.13074",
+      "summary": "arXiv:2609.13074v1 Announce Type: cross Abstract: The maintenance of continuous variable information in working memory is thought to rely on persistent patterns of cortical activity. In delayed-estimation tasks, neural a…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cross-Domain Transfer of Depression Voice Biomarkers Depends on the Outcome Instrument: Leakage-Controlled Cross-Sectional Evaluation Study",
+      "url": "https://arxiv.org/abs/2505.06412",
+      "summary": "arXiv:2505.06412v3 Announce Type: replace Abstract: Whether voice biomarkers of depression generalize across clinical settings is largely untested. Generalization is usually framed as a question about populations. It is …",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Direction and speed selectivity properties for spatio-temporal receptive fields according to the generalized Gaussian derivative model for visual receptive fields",
+      "url": "https://arxiv.org/abs/2511.08101",
+      "summary": "arXiv:2511.08101v4 Announce Type: replace Abstract: This paper gives an in-depth theoretical analysis of the direction and speed selectivity properties of idealized models of the spatio-temporal receptive fields of simpl…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cardiovascular-Kidney-Metabolic Health Age Using Wearables and Blood Biomarkers",
+      "url": "https://arxiv.org/abs/2603.27787",
+      "summary": "arXiv:2603.27787v4 Announce Type: replace Abstract: Cardiovascular-Kidney-Metabolic (CKM) syndrome represents a growing public health crisis, yet its subclinical heterogeneity remains underexplored. Early detection of ph…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Diffusion learning reveals viable parameter manifolds and compensation geometry in biological dynamical systems",
+      "url": "https://arxiv.org/abs/2607.03671",
+      "summary": "arXiv:2607.03671v2 Announce Type: replace Abstract: Models of complex systems often have many parameters, yet are constrained by far fewer experimentally accessible observables; consequently, similar activity can emerge …",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Gravity-Driven Eco-Epidemiological Dynamics in Tri-Trophic Food Chains",
+      "url": "https://arxiv.org/abs/2607.18434",
+      "summary": "arXiv:2607.18434v3 Announce Type: replace Abstract: Ecological communities are shaped by the interplay between trophic interactions and infectious disease, yet how spatially mediated interactions influence disease-driven…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Statistical Mechanics of Semantic Compression",
+      "url": "https://arxiv.org/abs/2503.00612",
+      "summary": "arXiv:2503.00612v2 Announce Type: replace-cross Abstract: The basic problem of semantic compression is to minimize the length of a message while preserving its meaning. This differs from classical notions of compression …",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "State-specific respiratory signatures for affective and stress recognition: Interpretable respiratory markers, autocorrelation lags, and compact CNN models",
+      "url": "https://arxiv.org/abs/2606.26723",
+      "summary": "arXiv:2606.26723v2 Announce Type: replace-cross Abstract: Respiratory activity is a direct and interpretable physiological channel for wearable stress and affective-state recognition, yet many studies emphasize classific…",
+      "ts": 1789358400000,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "OpenAI",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -604,213 +811,6 @@
       "ts": 1789099200000,
       "publishedAt": "2026-09-11T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fluctuation-dissipation of the Kuramoto model on fruit-fly connectomes",
-      "url": "https://arxiv.org/abs/2503.20708",
-      "summary": "arXiv:2503.20708v2 Announce Type: replace-cross Abstract: We investigate the distance from equilibrium using the Kuramoto model via the degree of fluctuation-dissipation violation as the consequence of different levels o…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Parameter Identification in Reaction-Diffusion-Chemotaxis Systems from Single Turing Pattern Amplitudes",
-      "url": "https://arxiv.org/abs/2509.07458",
-      "summary": "arXiv:2509.07458v2 Announce Type: replace-cross Abstract: Turing patterns encode key information about biological mechanisms, yet traditional inverse problems rely on non-biological data like boundary measurements, negle…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "When do cheap embeddings beat protein language models? A theoretically-grounded hashing sketch for biological sequence classification",
-      "url": "https://arxiv.org/abs/2512.10147",
-      "summary": "arXiv:2512.10147v2 Announce Type: replace-cross Abstract: \\textbf{Motivation:} Pre-trained protein language models (PLMs) such as ESM-2 have become the default representation for biological sequence tasks, but they are c…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hierarchical Expansion of Finite Discrete Dynamical Systems: A Non-Archimedean Variational Theory over Coordinate Orderings",
-      "url": "https://arxiv.org/abs/2603.14097",
-      "summary": "arXiv:2603.14097v3 Announce Type: replace-cross Abstract: A finite dynamical system on $\\mathbb{F}_p^N$ has a functional graph and combinatorial basins, but nothing on which to run the local analysis a multiplier makes p…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "What good is modeling? Introducing ecology and evolution students to theory",
-      "url": "https://arxiv.org/abs/2604.13344",
-      "summary": "arXiv:2604.13344v2 Announce Type: replace-cross Abstract: Theory and empirical science should be in constant dialogue, but often find it hard to understand one another. Here we describe a graduate-level university course…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Gradient-based yet Spike-Timing-Dependent Solution to the Feedback Learning Problem in Neural Microcircuits",
-      "url": "https://arxiv.org/abs/2609.08070",
-      "summary": "arXiv:2609.08070v2 Announce Type: replace-cross Abstract: The brain uses discrete spikes for dynamic computation, yet, how neural microcircuits (NMCs) solve temporal credit assignment using local spike timing remains a f…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fixed-Dimensional Latent Flow for Generating Variable-Size 3D Molecules",
-      "url": "https://arxiv.org/abs/2609.08333",
-      "summary": "arXiv:2609.08333v2 Announce Type: replace-cross Abstract: In molecular discovery, molecule size is coupled to composition, structure, and other target properties. Yet most 3D generators require molecule size to be specif…",
-      "ts": 1789099200000,
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "PD-L2 Blockade May Reduce Harmful Aging Cell Buildup",
-      "url": "https://www.genengnews.com/topics/translational-medicine/pd-l2-blockade-may-reduce-harmful-aging-cell-buildup/",
-      "summary": "Blocking PD-L2 reduced senescent cell accumulation in aged mice and improved measures tied to metabolic function and physical strength. The post PD-L2 Blockade May Reduce Harmful Aging Cell Buildup appeared first on GEN …",
-      "ts": 1789078253000,
-      "publishedAt": "2026-09-10T22:10:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media to Djibouti Artemis Accords Signing Ceremony",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-djibouti-artemis-accords-signing-ceremony/",
-      "summary": "The Republic of Djibouti will sign the Artemis Accords during a ceremony at 11 a.m. EDT, Monday, Sept. 14, at NASA Headquarters in Washington, becoming the 72nd country signatory. NASA Deputy Administrator Matt Anderson …",
-      "ts": 1789074692000,
-      "publishedAt": "2026-09-10T21:11:32.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Answers President’s Call to Establish United States Space Academy",
-      "url": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
-      "summary": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce …",
-      "ts": 1789072012000,
-      "publishedAt": "2026-09-10T20:26:52.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Life-Saving Technology Where Cell Signals Can’t Go",
-      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-life-saving-technology-where-cell-signals-cant-go/",
-      "summary": "Search and rescue technology developed in part by NASA saved five lives",
-      "ts": 1789071159000,
-      "publishedAt": "2026-09-10T20:12:39.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Right before midterms, Trump dangles $500 refunds for select ACA enrollees",
-      "url": "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/?utm_campaign=rss",
-      "summary": "The legal basis for the $500 checks, and who would get them, isn't entirely clear.",
-      "ts": 1789070248000,
-      "publishedAt": "2026-09-10T19:57:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "What 25 Years of Research Have Revealed About 9/11’s Long-Term Health Effects",
-      "url": "https://www.genengnews.com/topics/translational-medicine/what-25-years-of-research-have-revealed-about-9-11s-long-term-health-effects/",
-      "summary": "Twenty-five years after 9/11, long-term monitoring of responders and survivors continues to reveal the complex health consequences of exposure to environmental toxins and hazardous materials. The post What 25 Years of Re…",
-      "ts": 1789066484000,
-      "publishedAt": "2026-09-10T18:54:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Chronic Interferon Exposure Linked to Immunosuppression in Cancer",
-      "url": "https://www.genengnews.com/topics/cancer/chronic-interferon-exposure-linked-to-immunosuppression-in-cancer/",
-      "summary": "A preclinical study uncovered a novel pathway that links chronic IFN-II exposure to mitochondrial dysfunction and ultimately immunosuppression in cancer, creating foundational insights that may point to future therapies …",
-      "ts": 1789065132000,
-      "publishedAt": "2026-09-10T18:32:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Manus and UT Austin Advance Biomanufacturing Product Recovery Through BioMADE Program",
-      "url": "https://www.genengnews.com/topics/bioprocessing/manus-and-ut-austin-advance-biomanufacturing-product-recovery-through-biomade-program/",
-      "summary": "A new study showed that a programmed lysis approach cut mechanical separation energy by over 50 percent at pilot scale, widening the range of bioalternatives that can compete pricewise. The post Manus and UT Austin Advan…",
-      "ts": 1789064385000,
-      "publishedAt": "2026-09-10T18:19:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Platinum-based chemotherapy in childhood causes mutations that age the liver",
-      "url": "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/?utm_campaign=rss",
-      "summary": "Platinum chemotherapy aged the liver cells of treated children, making them look more like adult liver cells and possibly raising the long-term risk of new tumors",
-      "ts": 1789063200000,
-      "publishedAt": "2026-09-10T18:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Why two promising heart drugs flopped and what’s next",
-      "url": "https://www.statnews.com/2026/09/10/readout-loud-podcast-heart-disease-drugs-failed-trials/?utm_campaign=rss",
-      "summary": "This week on \"The Readout LOUD\" podcast: Two experimental drugs were heralded as the next era in heart disease treatment — why did they fail?",
-      "ts": 1789061363000,
-      "publishedAt": "2026-09-10T17:29:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA, NFL Team Up to Showcase Space, Aeronautics Innovation",
-      "url": "https://www.nasa.gov/news-release/nasa-nfl-team-up-to-showcase-space-aeronautics-innovation/",
-      "summary": "Through a new collaboration between NASA and the National Football League (NFL), the agency will soon bring America’s strengths in space exploration and aeronautics innovation to the football field. NASA will conduct fly…",
-      "ts": 1789061293000,
-      "publishedAt": "2026-09-10T17:28:13.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Data Integrity as the Foundation for AI",
-      "url": "https://www.genengnews.com/multimedia/podcasts/gencast/data-integrity-as-the-foundation-for-ai/",
-      "summary": "In this sponsored podcast, LabVantage’s Gary Stimson digs into what it takes to build a data foundation for trustworthy AI. The post Data Integrity as the Foundation for AI appeared first on GEN - Genetic Engineering and…",
-      "ts": 1789061272000,
-      "publishedAt": "2026-09-10T17:27:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The gifts from pharma companies that keep on giving",
-      "url": "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/?utm_campaign=rss",
-      "summary": "There has been rancorous debate over doctors accepting free gifts and speaking fees from pharma companies. That doesn't mean doctors have reconsidered.",
-      "ts": 1789058842000,
-      "publishedAt": "2026-09-10T16:47:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foun…",
-      "ts": 1789057835000,
-      "publishedAt": "2026-09-10T16:30:35.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Dust and Water in Sagittarius A*",
-      "url": "https://www.nasa.gov/image-article/dust-and-water-in-sagittarius-a/",
-      "summary": "A brilliant concentration of stars takes center stage in this Aug. 11, 2026, image taken by NASA’s James Webb Space Telescope. Webb observed IRS 3, a star near the end of its life cycle, located within this starfield. We…",
-      "ts": 1789056843000,
-      "publishedAt": "2026-09-10T16:14:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people t…",
-      "ts": 1789056004000,
-      "publishedAt": "2026-09-10T16:00:04.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
