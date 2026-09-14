@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-09-14T05:56:47.710Z",
+  "updated": "2026-09-14T12:24:20.396Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Algorithm opt-outs may curb manosphere reach, but not misogyny driving it",
+      "url": "https://phys.org/news/2026-09-algorithm-opt-outs-curb-manosphere.html",
+      "summary": "The federal government recently announced a suite of new laws designed to address harmful content on digital platforms.",
+      "ts": 1789388401000,
+      "publishedAt": "2026-09-14T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bizarre galactic radio source remains active for two decades with no detectable X-rays",
+      "url": "https://phys.org/news/2026-09-bizarre-galactic-radio-source-decades.html",
+      "summary": "Astronomers have identified a peculiar radio transient in the Milky Way that has remained active for more than two decades, defying the behavior expected of known classes of galactic radio sources. The paper posted to th…",
+      "ts": 1789387205000,
+      "publishedAt": "2026-09-14T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Primary school reading problems predict later reading anxiety, long-term study suggests",
+      "url": "https://phys.org/news/2026-09-primary-school-problems-anxiety-term.html",
+      "summary": "Western Australian author Hamish Kelly has struggled with reading for almost two decades. In his first of two books, he describes his experience of learning to read:",
+      "ts": 1789387201000,
+      "publishedAt": "2026-09-14T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Inspiration alone won't solve Australia's teacher shortage, study reveals",
+      "url": "https://phys.org/news/2026-09-wont-australia-teacher-shortage-reveals.html",
+      "summary": "A $10 million Australian government campaign celebrating inspirational teachers risked overlooking the workplace conditions driving educators from the profession, according to new research led by Curtin University publis…",
+      "ts": 1789386003000,
+      "publishedAt": "2026-09-14T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Starfish program creates new jobs",
+      "url": "https://phys.org/news/2026-09-starfish-jobs.html",
+      "summary": "In a win for people and the environment, new economic modeling from James Cook University researchers reveals that a $5 million investment to control crown-of-thorns (CoTS) starfish numbers in the Cairns region created 6…",
+      "ts": 1789384801000,
+      "publishedAt": "2026-09-14T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Micro-dramas and the battle for attention",
+      "url": "https://phys.org/news/2026-09-micro-dramas-attention.html",
+      "summary": "As tech companies like Meta, Google and TikTok face ongoing scrutiny over addictive platform design, the rapid rise of micro-dramas offers a glimpse into how AI, algorithms and commercial incentives could make digital en…",
+      "ts": 1789383603000,
+      "publishedAt": "2026-09-14T11:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Improved climate forecasts alone won't protect Africa's poorest farmers",
+      "url": "https://phys.org/news/2026-09-climate-wont-africa-poorest-farmers.html",
+      "summary": "As Africa prepares for the arrival of a powerful El Niño weather event, an international team of researchers led by the University of Sydney and Imperial College London has found that access to improved forecasts alone w…",
+      "ts": 1789376401000,
+      "publishedAt": "2026-09-14T09:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan's biomass energy boom threatens further deforestation in Indonesia",
+      "url": "https://phys.org/news/2026-09-japan-biomass-energy-boom-threatens.html",
+      "summary": "A surge in Indonesia's wood pellet and chip production is driving a new wave of deforestation, threatening the vast archipelago's remaining tropical forests, vital biodiversity hot spots and the land of Indigenous people…",
+      "ts": 1789372413000,
+      "publishedAt": "2026-09-14T07:53:33.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "No cities on the moon—there isn't enough water, scientists say",
@@ -735,70 +799,6 @@
       "title": "Geometric theory of elastic curves constrained on rigid curved surfaces",
       "url": "https://arxiv.org/abs/2609.12952",
       "summary": "arXiv:2609.12952v1 Announce Type: cross Abstract: Slender elastic objects constrained to curved surfaces are ubiquitous in soft systems, with examples ranging from DNA wrapping around histones to actin filaments forming …",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SV-Cine: Diagnosis-Conditioned Segmentation of Single Ventricle Physiology via Generative Data Augmentation",
-      "url": "https://arxiv.org/abs/2609.12997",
-      "summary": "arXiv:2609.12997v1 Announce Type: cross Abstract: Single Ventricle Physiology (SVP) is a rare subtype of congenital heart disease characterized by the presence of a single functional cardiac ventricle with atypical anato…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme-Scale Linear-Scaling Kohn-Sham DFT at 100 Million Atoms: Bridging Quantum Simulations and Experiments",
-      "url": "https://arxiv.org/abs/2609.13115",
-      "summary": "arXiv:2609.13115v1 Announce Type: cross Abstract: Kohn-Sham density functional theory (DFT) remains the workhorse of ab initio materials simulation, yet cubic computational and quadratic memory scaling have confined calc…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RS-CIDER: A non-local machine learning model for approximating screened hybrid functionals",
-      "url": "https://arxiv.org/abs/2609.13139",
-      "summary": "arXiv:2609.13139v1 Announce Type: cross Abstract: Screened hybrid functionals such as HSE06 improve the description of band gaps, charge localization, and redox energetics relative to semilocal approximations, but their …",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective Quantization of Lossy Nonlinear Epsilon-Near-Zero Media",
-      "url": "https://arxiv.org/abs/2609.13143",
-      "summary": "arXiv:2609.13143v1 Announce Type: cross Abstract: In epsilon-near-zero (ENZ) materials, the vanishing real linear permittivity results in the leading-order contribution to the displacement field being nonlinear in the el…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Understanding Quaternions and the Dirac Belt Trick",
-      "url": "https://arxiv.org/abs/1001.1778",
-      "summary": "arXiv:1001.1778v3 Announce Type: replace Abstract: The Dirac belt trick is often employed in physics classrooms to show that a $2\\pi$ rotation is not topologically equivalent to the absence of rotation whereas a $4\\pi$ r…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structured flows regulate droplet dynamics in phase-separating fluids",
-      "url": "https://arxiv.org/abs/2407.02792",
-      "summary": "arXiv:2407.02792v2 Announce Type: replace Abstract: Liquid-liquid phase separation is a fundamental route by which homogeneous fluids self-organize into mesoscale droplets and domains. In passive mixtures, the fate of th…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pinched Multi Affine Geometry and Confinement: Describing the Yang-Mills Mass Gap",
-      "url": "https://arxiv.org/abs/2503.15539",
-      "summary": "arXiv:2503.15539v2 Announce Type: replace Abstract: We give physical gap certificates for regulated Yang-Mills Hamiltonians and conditional continuum-transfer criteria. At fixed spatial cutoff, the physical $SU(3)$ Hamil…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An ab initio foundation model of wavefunctions that accurately describes chemical bond breaking",
-      "url": "https://arxiv.org/abs/2506.19960",
-      "summary": "arXiv:2506.19960v2 Announce Type: replace Abstract: Reliable description of bond breaking remains a major challenge for quantum chemistry due to the multireference character of the electronic structure in dissociating sp…",
       "ts": 1789358400000,
       "publishedAt": "2026-09-14T04:00:00.000Z"
     }
