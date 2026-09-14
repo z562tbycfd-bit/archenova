@@ -3964,9 +3964,172 @@ type SourceTruthRecovery = {
   rationale: string;
 };
 
+type ResultDeltaRecovery = {
+  status: "FOUND" | "LIMITED" | "NONE";
+  background: string | null;
+  priorBaseline: string | null;
+  method: string | null;
+  result: string | null;
+  delta: string | null;
+  artifact: string;
+  claimType: ClaimType | null;
+  rationale: string;
+};
+
+function extractNumericDelta(text: string): string | null {
+  const patterns = [
+    /\bmore than\s+[\d,.]+\s+(?:years?|days?|months?|percent|%)\b/i,
+    /\bover\s+[\d,.]+\s+(?:years?|days?|months?|percent|%)\b/i,
+    /\bby\s+[\d,.]+(?:\.\d+)?\s*%\b/i,
+    /\bfrom\s+[^.;]{1,60}\s+to\s+[^.;]{1,60}/i,
+  ];
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    if (match) return stripTerminalPunctuation(match[0]);
+  }
+  return null;
+}
+
+function recoverResultDelta(signal: SignalItem): ResultDeltaRecovery {
+  const title = stripTerminalPunctuation(signal.title);
+  const summary = sanitizeSignalSummary(signal.summary);
+  const sentences = signalSentences(signal);
+  const corpus = `${title} ${summary}`.trim();
+  const normalized = normalize(corpus);
+
+  const chronologyLike =
+    /\b(luminescence|optically stimulated luminescence|osl|radiocarbon|dating|dated|chronology|age estimate|age of|years old|older|younger)\b/.test(
+      normalized,
+    );
+
+  const baselineSentence =
+    sentences.find((sentence) =>
+      /\b(previously|formerly|traditionally|long been accepted|accepted as|thought to be|estimated at|roughly|about|baseline|prior)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const methodSentence =
+    sentences.find((sentence) =>
+      /\b(luminescence dating|optically stimulated luminescence|radiocarbon dating|dated using|dating method|measured using|using .*dating|analysis of|measurement)\b/i.test(
+        sentence,
+      ),
+    ) ?? (chronologyLike ? title : null);
+
+  const titleResultLike =
+    /\b(push(?:es|ed|ing)?\s+(?:the\s+)?age|older than|younger than|revis(?:es|ed|ing)?\s+(?:the\s+)?age|dates?\s+.+\s+to|places?\s+.+\s+at|finds?\s+.+\s+older|measures?\s+.+)\b/i.test(
+      title,
+    );
+
+  const resultSentence =
+    sentences.find((sentence) =>
+      /\b(found|finds|showed|shows|indicates|suggests|dated|dates|places|estimated|revised|older than|younger than|more than .* years|age .* years)\b/i.test(
+        sentence,
+      ),
+    ) ?? null;
+
+  const result =
+    titleResultLike
+      ? title
+      : resultSentence
+        ? stripTerminalPunctuation(resultSentence)
+        : null;
+
+  const delta =
+    extractNumericDelta(title) ||
+    extractNumericDelta(summary) ||
+    (
+      chronologyLike &&
+      /\bolder\b/.test(normalized)
+        ? "chronology shifted older than the previously accepted baseline"
+        : chronologyLike && /\byounger\b/.test(normalized)
+          ? "chronology shifted younger than the previously accepted baseline"
+          : null
+    );
+
+  const background =
+    sentences.find(
+      (sentence) =>
+        sentence !== baselineSentence &&
+        sentence !== resultSentence &&
+        !/\b(luminescence dating|radiocarbon dating|dating method)\b/i.test(sentence),
+    ) ?? null;
+
+  if (chronologyLike && result) {
+    return {
+      status: "FOUND",
+      background: background ? stripTerminalPunctuation(background) : null,
+      priorBaseline: baselineSentence
+        ? stripTerminalPunctuation(baselineSentence)
+        : null,
+      method: methodSentence ? stripTerminalPunctuation(methodSentence) : "dating / chronological measurement",
+      result,
+      delta,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "A measurement-driven chronology result was recovered by separating background, prior accepted baseline, measurement method, new result, and quantitative or directional delta.",
+    };
+  }
+
+  const genericResult =
+    resultSentence &&
+    !/\b(we study|we investigate|we propose|we introduce|future work|aim to)\b/i.test(
+      resultSentence,
+    )
+      ? stripTerminalPunctuation(resultSentence)
+      : null;
+
+  if (genericResult) {
+    return {
+      status: "FOUND",
+      background: background ? stripTerminalPunctuation(background) : null,
+      priorBaseline: baselineSentence
+        ? stripTerminalPunctuation(baselineSentence)
+        : null,
+      method: methodSentence ? stripTerminalPunctuation(methodSentence) : null,
+      result: genericResult,
+      delta,
+      artifact: "SCIENTIFIC RESULT",
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "A result-bearing scientific proposition was recovered separately from background and baseline context.",
+    };
+  }
+
+  return {
+    status: "NONE",
+    background: null,
+    priorBaseline: null,
+    method: null,
+    result: null,
+    delta: null,
+    artifact: "UNKNOWN",
+    claimType: null,
+    rationale:
+      "No sufficiently discriminating result-delta structure was recovered.",
+  };
+}
+
+
 function recoverArtifactSpecificSourceTruth(
   signal: SignalItem,
 ): SourceTruthRecovery {
+  const resultDelta = recoverResultDelta(signal);
+
+  if (resultDelta.status === "FOUND" && resultDelta.result) {
+    const deltaNote = resultDelta.delta
+      ? ` Delta: ${resultDelta.delta}.`
+      : "";
+    return {
+      status: "FOUND",
+      proposition: stripTerminalPunctuation(resultDelta.result),
+      artifact: resultDelta.artifact,
+      rationale:
+        `${resultDelta.rationale}${deltaNote} Source Truth records the new measured/result-bearing proposition; interpretation remains separate.`,
+    };
+  }
+
   const genre = classifySignalGenre(signal);
   const classic =
     extractResultBearingProposition(signal)?.proposition ||
@@ -4649,6 +4812,21 @@ function inferSemanticClaimOntology(signal: SignalItem): SemanticClaimOntology {
     };
   }
 
+  if (
+    /\b(luminescence|optically stimulated luminescence|radiocarbon|dating|dated|chronology|age estimate|geochronology|stratigraphy)\b/.test(corpus) &&
+    /\b(age|older|younger|years|chronology|dated|dating|estimate|revision|revis)\b/.test(corpus)
+  ) {
+    return {
+      domain: "GENERAL SCIENCE",
+      artifact: "OBSERVATIONAL OBJECT",
+      operation: "MEASURE / OBSERVE",
+      interventionClaim: false,
+      claimType: "DESCRIPTIVE / EMPIRICAL",
+      rationale:
+        "The operative predicate is a measurement-driven revision of an empirical chronology or age estimate. This is a scientific result, not an UNKNOWN research object.",
+    };
+  }
+
   if (/\b(cell|protein|rna|dna|gene|tissue|biological|molecular|bacteria|neural)\b/.test(corpus)) {
     return {
       domain: "BIOMEDICAL RESEARCH",
@@ -4877,6 +5055,14 @@ function classifySignalGenre(signal: SignalItem): SignalGenre {
     return "SCIENTIFIC RESULT";
   }
 
+  const resultDelta = recoverResultDelta(signal);
+  if (
+    resultDelta.status === "FOUND" &&
+    resultDelta.claimType === "DESCRIPTIVE / EMPIRICAL"
+  ) {
+    return "SCIENTIFIC RESULT";
+  }
+
   return "UNKNOWN";
 }
 
@@ -4896,6 +5082,32 @@ function decomposeSignalRoles(
   signal: SignalItem,
   genre: SignalGenre,
 ): Pick<EpistemicClaimIdentity, "coreClaim" | "baseline" | "reportedResult" | "implication" | "nonImplication"> {
+  const resultDelta = recoverResultDelta(signal);
+
+  if (resultDelta.status === "FOUND" && resultDelta.result) {
+    const baseline =
+      resultDelta.priorBaseline ||
+      "The indexed source does not state a distinct numerical prior baseline.";
+    const delta =
+      resultDelta.delta
+        ? ` Reported delta: ${resultDelta.delta}.`
+        : "";
+    const method =
+      resultDelta.method
+        ? ` Method: ${resultDelta.method}.`
+        : "";
+
+    return {
+      coreClaim: resultDelta.result,
+      baseline,
+      reportedResult: resultDelta.result,
+      implication:
+        `The source reports a measurement-driven revision relative to the prior baseline.${method}${delta} Its broader significance depends on whether the revised measurement survives uncertainty analysis and independent chronological or observational controls.`,
+      nonImplication:
+        "A revised measurement or chronology does not by itself establish every downstream causal, ecological, archaeological, or historical interpretation.",
+    };
+  }
+
   const sentences = signalSentences(signal);
   const first = stripTerminalPunctuation(sentences[0] ?? signal.summary ?? signal.title);
   const title = stripTerminalPunctuation(signal.title);
@@ -6606,7 +6818,9 @@ function followUpOperationLabel(query: string): string {
   if (/\b(recovery test|recover|recovery)\b/.test(q)) return "RECOVERY TEST";
   if (/\b(failure mode|forced failure|force.*failure)\b/.test(q)) return "FAILURE MODE";
   if (/\b(falsif|easiest to falsify|critical requirement)\b/.test(q)) return "FALSIFICATION TARGET";
-  if (/\b(boundary|operating envelope|limit)\b/.test(q)) return "BOUNDARY TEST";
+  if (/\b(strongest conclusion|survives the current evidence boundary|bounded synthesis|synthesis)\b/.test(q)) return "BOUNDED SYNTHESIS";
+  if (/\b(highest information test|missing evidence requirement|evidence requirement)\b/.test(q)) return "EVIDENCE TEST";
+  if (/\b(boundary|operating envelope|operating condition|stop generalizing|limit)\b/.test(q)) return "BOUNDARY TEST";
   if (/\b(counterevidence|alternative|competing explanation)\b/.test(q)) return "COUNTEREVIDENCE";
   if (/\b(replication|independent verification)\b/.test(q)) return "REPLICATION";
   if (/\b(measurement|measured quantity)\b/.test(q)) return "MEASUREMENT";
@@ -7583,10 +7797,18 @@ function latestReusableCaseSnapshot(
     const identity = intelligence.claimIdentity;
 
     if (!core || !identity) continue;
-    if (
-      core.closureProtocol.status !== "BOUNDED" &&
-      core.closureProtocol.status !== "CLOSED"
-    ) {
+    const reusableCaseState =
+      core.caseState.state === "WORKING" ||
+      core.caseState.state === "READY" ||
+      core.caseState.state === "BOUNDED" ||
+      core.caseState.state === "CLOSED";
+
+    const reusableClosureState =
+      core.closureProtocol.status === "OPEN" ||
+      core.closureProtocol.status === "BOUNDED" ||
+      core.closureProtocol.status === "CLOSED";
+
+    if (!reusableCaseState || !reusableClosureState) {
       continue;
     }
 
@@ -7801,6 +8023,14 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
   const claim = snapshot.canonicalClaim;
   const contract = snapshot.epistemicContract;
   const audit = snapshot.evidenceAudit;
+  const signal = snapshot.primarySignal;
+  const resultDelta = recoverResultDelta(signal);
+  const chronologyLike =
+    resultDelta.status === "FOUND" &&
+    resultDelta.claimType === "DESCRIPTIVE / EMPIRICAL" &&
+    /\b(luminescence|dating|dated|chronology|age|older|younger|years)\b/.test(
+      normalize(`${signal.title} ${signal.summary}`),
+    );
 
   const firstCriticalGap =
     audit.requirements.find(
@@ -7823,53 +8053,111 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
     null;
 
   if (operation === "EVIDENCE_TEST") {
-    const target = firstCriticalGap?.requirement ?? "the highest-value unresolved evidence requirement";
+    if (chronologyLike) {
+      return {
+        demand: "VALIDATION",
+        directAnswer:
+          `For the canonical claim “${claim}”, the highest-information test is an independent chronology check: repeat the luminescence measurements across multiple stratigraphically controlled samples, quantify dose-rate and bleaching uncertainty, and compare the resulting age distribution with an independent chronological constraint where one is available. The conclusion changes most if those controls collapse the reported age shift toward the prior chronology.`,
+        reasoning:
+          `Typed operation authority: EVIDENCE_TEST. The Case Snapshot is inherited before retrieval. Prior baseline: ${resultDelta.priorBaseline ?? "not separately stated"}. Method: ${resultDelta.method ?? "luminescence dating"}. Reported delta: ${resultDelta.delta ?? "older chronology relative to the accepted baseline"}.`,
+      };
+    }
+
+    const target =
+      firstCriticalGap?.requirement ??
+      "the highest-value unresolved evidence requirement";
     return {
       demand: "VALIDATION",
       directAnswer:
-        `For the canonical claim “${claim}”, the highest-information test should target ${target}. Prespecify the measurable output and baseline, test under the claimed operating conditions, and require a result that can distinguish genuine functional gain from selection, measurement, or workflow effects.`,
+        `For the canonical claim “${claim}”, the highest-information test should target ${target}. Prespecify the measured quantity and baseline, reproduce the result under the claim's stated conditions, quantify uncertainty, and use a discriminator capable of changing the current Evidence State rather than merely adding semantically related context.`,
       reasoning:
-        `This follow-up inherits the bounded Case rather than retrieving a new Signal.\n\nCurrent evidence state: ${audit.summary}\n\nThe selected requirement is unresolved, so the test should maximize discriminatory information about that requirement rather than broaden the object.`,
+        `Typed operation authority: EVIDENCE_TEST. Current evidence state: ${audit.summary}`,
     };
   }
 
   if (operation === "COUNTEREVIDENCE") {
+    if (chronologyLike) {
+      return {
+        demand: "ALTERNATIVE",
+        directAnswer:
+          `For the canonical claim “${claim}”, the strongest competing explanations are dating-system effects that can make sediments appear older without the site chronology truly shifting by the same amount: incomplete or heterogeneous bleaching before burial, incorrect environmental dose-rate reconstruction, post-depositional sediment mixing or reworking, sample-context mismatch, signal saturation, or model/calibration choices. The strongest counterevidence would show that one of these alternatives reproduces the old-age estimate while independent chronological controls do not.`,
+        reasoning:
+          `Typed operation authority: COUNTEREVIDENCE. The target is the object-level chronology claim, not Episteme's own caution rule. Counterevidence must attack the measured age revision directly.`,
+      };
+    }
+
     return {
       demand: "ALTERNATIVE",
       directAnswer:
-        `For the canonical claim “${claim}”, the strongest competing explanation is a simpler workflow or measurement-selection effect that produces the same apparent improvement without the claimed AI framework being the decisive cause. The critical comparison is therefore AI-guided selection versus a strong non-AI or conventional acquisition baseline under matched sample, microscope, time, and evaluation criteria.`,
+        `For the canonical claim “${claim}”, the strongest competing explanation is the simplest alternative process, measurement effect, sampling effect, or model dependence that can reproduce the same reported observation without the broader interpretation. The decisive comparison should hold the observed quantity fixed and vary only the explanation.`,
       reasoning:
-        `The Case currently has no qualified internal contradiction. Absence of contradiction is not confirmation. Counterevidence must reproduce the same observed benefit with fewer assumptions or show that the gain disappears after baseline equalization.`,
+        `Typed operation authority: COUNTEREVIDENCE. Meta-epistemic caution is not the object-level claim and is excluded as a substitute target.`,
     };
   }
 
   if (operation === "BOUNDARY") {
+    if (chronologyLike) {
+      return {
+        demand: "BOUNDARY",
+        directAnswer:
+          `For the canonical claim “${claim}”, the principal reliability boundary is the set of depositional and dosimetric conditions required for luminescence dating to preserve a trustworthy burial-age signal. The conclusion should narrow if sediments were incompletely bleached before burial, later mixed or reworked, exposed to strongly heterogeneous dose rates, affected by signal saturation, or sampled from a context that is not securely tied to the mammoth-bearing deposit.`,
+        reasoning:
+          `Typed operation authority: BOUNDARY. The boundary is attached to the measurement process and stratigraphic context that generate the chronology, not to a generic transfer/scaling template.`,
+      };
+    }
+
     return {
       demand: "BOUNDARY",
       directAnswer:
-        `For the canonical claim “${claim}”, the most important generalization boundary is a change in sample morphology, feature rarity, noise/drift, tip condition, scan regime, or acquisition objective that breaks the framework's ability to identify informative nanoscale regions. The claim should narrow if performance depends strongly on one sample class, microscope configuration, or feature distribution.`,
+        `For the canonical claim “${claim}”, the most important boundary is the condition under which the measured or observed relation ceases to remain stable—such as a change in sampling regime, instrument conditions, population, environment, model assumptions, or measurement uncertainty. The claim should be narrowed to the strongest domain in which the result remains reproducible.`,
       reasoning:
-        `The current Case marks the operating envelope as unresolved. A boundary test should therefore vary the conditions that alter what “informative” means or degrade the link between AI-selected regions and independently judged scientific value.`,
+        `Typed operation authority: BOUNDARY. The inherited Case object and claim family remain fixed.`,
     };
   }
 
   if (operation === "REALITY_TEST") {
+    if (chronologyLike) {
+      return {
+        demand: "VALIDATION",
+        directAnswer:
+          `For the canonical claim “${claim}”, the decisive reality test is convergent chronology: independently remeasure luminescence ages from multiple stratigraphically controlled samples, explicitly model bleaching and dose-rate uncertainty, test for sediment disturbance or reworking, and compare the chronology with an independent dating or stratigraphic constraint where possible. The revision is strengthened only if the older age survives those independent failure checks.`,
+        reasoning:
+          `Typed operation authority: REALITY_TEST. Reality contact targets the measured chronology itself. Current contract: ${contract.realityTest}`,
+      };
+    }
+
     return {
       demand: "VALIDATION",
       directAnswer:
-        `For the canonical claim “${claim}”, force a realistic acquisition failure—such as drift, tip degradation, altered sample texture, misleading high-contrast structure, or distribution shift—and require the system to detect degradation, avoid propagating a false priority map, and recover useful feature selection within a prespecified error and time bound.`,
+        `For the canonical claim “${claim}”, the decisive reality test is the minimum independent observation or experiment that directly measures the governing quantity, reproduces it under a prespecified protocol, and forces the strongest credible failure condition. The claim should narrow if the result disappears under that discriminator.`,
       reasoning:
-        `The decisive engineering question is not whether the framework works once, but whether useful function remains controllable across stress, failure containment, and recovery. Current reality-test contract: ${contract.realityTest}`,
+        `Typed operation authority: REALITY_TEST. Current contract: ${contract.realityTest}`,
     };
   }
 
   if (operation === "SYNTHESIS") {
+    if (chronologyLike) {
+      const baseline = resultDelta.priorBaseline
+        ? ` The prior baseline was: ${resultDelta.priorBaseline}.`
+        : "";
+      const delta = resultDelta.delta
+        ? ` The reported shift is ${resultDelta.delta}.`
+        : "";
+      return {
+        demand: "IMPLICATION",
+        directAnswer:
+          `The strongest conclusion that survives the current evidence boundary is that the indexed source reports a luminescence-based revision of the Mammoth Site chronology toward a substantially older age than the previously accepted chronology.${baseline}${delta} This is sufficient to make the established age baseline scientifically contestable, but it does not by itself prove every downstream archaeological interpretation, the exact timing of each mammoth death, or independent chronological confirmation.`,
+        reasoning:
+          `Typed operation authority: SYNTHESIS. The synthesis is constrained to Source Truth → measured chronology revision → bounded implication. It does not replace the object-level result with a generic uncertainty statement.`,
+      };
+    }
+
     return {
       demand: "IMPLICATION",
       directAnswer:
-        `The strongest conclusion currently supported is narrow: the indexed source reports an AI framework intended to help atomic-force-microscopy researchers identify informative nanoscale features, but the current Case does not yet establish its operating envelope, stress robustness, recovery behavior, or independent reproducibility. Its defensible significance is therefore improved experimental attention allocation as a reported capability—not yet demonstrated general autonomous microscopy.`,
+        `The strongest conclusion currently supported is: ${claim}. This conclusion may be stated only at the level directly supported by the inherited Evidence State; stronger causal, predictive, engineering, clinical, or institutional consequences require their own claim-specific evidence.`,
       reasoning:
-        `This synthesis is bounded by the inherited evidence state: ${audit.summary}\n\nNo stronger claim is warranted until the unresolved engineering requirements are independently satisfied.`,
+        `Typed operation authority: SYNTHESIS. Current evidence state: ${audit.summary}`,
     };
   }
 
@@ -7877,9 +8165,9 @@ function synthesizeTypedFollowUpFromSnapshot(args: {
     return {
       demand: "EVIDENCE_STATUS",
       directAnswer:
-        `Reopen this bounded Case when new evidence directly changes at least one unresolved requirement—for example, quantified functional performance against a strong baseline, a defined operating envelope across multiple sample or microscope conditions, explicit stress/failure/recovery testing, or independent replication.`,
+        `Reopen this Case when new evidence directly changes an unresolved requirement—for example an independent measurement, replication, better uncertainty analysis, stronger boundary test, or evidence that discriminates the canonical claim from its strongest alternative. Semantic proximity alone is insufficient.`,
       reasoning:
-        `The Case is bounded because useful internal work was exhausted under the current evidence state. New semantically related material alone is insufficient; reopening requires evidence capable of changing the authoritative Evidence State.`,
+        `Typed operation authority: REOPEN_CONDITION. The inherited Case remains authoritative until evidence capable of changing the Evidence State is introduced.`,
     };
   }
 
@@ -8307,6 +8595,7 @@ function buildAdaptiveScholarlyResponse(args: {
   conversationIntent: ConversationIntent;
   lead: SignalItem | null;
   second: SignalItem | null;
+  followUpOperation?: TypedFollowUpOperation;
 }): AdaptiveResponse {
   const {
     mode,
@@ -8328,6 +8617,7 @@ function buildAdaptiveScholarlyResponse(args: {
     conversationIntent,
     lead,
     second,
+    followUpOperation,
   } = args;
 
   const strategy = MODE_REASONING_STRATEGIES[mode];
@@ -8335,7 +8625,11 @@ function buildAdaptiveScholarlyResponse(args: {
     conversationIntent === "FOLLOW_UP";
   const followUpTask =
     isObjectFollowUp
-      ? `Case continuation · ${followUpOperationLabel(query)}`
+      ? `Case continuation · ${
+          followUpOperation
+            ? typedFollowUpLabel(followUpOperation)
+            : followUpOperationLabel(query)
+        }`
       : strategy.intellectualTask;
   const followUpQuestion =
     isObjectFollowUp
@@ -11630,7 +11924,7 @@ function buildAstraCoreState(args: {
         operation,
         canonicalClaim: canonicalClaimForCase(args.claimIdentity),
         rationale:
-          "The active Case is already bounded or closed, the epistemic object is unchanged, and this follow-up introduces no new evidence. Episteme reuses the established Case State and executes only the requested operation.",
+          "The active Case Snapshot is authoritative regardless of whether the Case is WORKING, BOUNDED, or CLOSED. The epistemic object is unchanged and this follow-up introduces no new evidence, so Episteme executes only the requested operation.",
       },
       mission: {
         ...mission,
@@ -12760,21 +13054,24 @@ function buildIntelligence(
       `${evidenceBoundary} Simulation remains counterfactual reasoning rather than observation, and every conclusion is conditional on the stated assumptions.`;
   }
 
-  const builtAstraCore = buildAstraCoreState({
-    query,
-    intentModel,
-    conversationIntent,
-    lead,
-    relevant,
-    epistemicParse,
-    epistemicContract,
-    evidenceAudit,
-    claimIdentity,
-    directAnswer,
-    reasoning,
-    previousMessages,
-    corpusSignals: signals,
-  });
+  const builtAstraCore =
+    snapshotReuse && reusableSnapshot
+      ? reusableSnapshot.astraCore
+      : buildAstraCoreState({
+          query,
+          intentModel,
+          conversationIntent,
+          lead,
+          relevant,
+          epistemicParse,
+          epistemicContract,
+          evidenceAudit,
+          claimIdentity,
+          directAnswer,
+          reasoning,
+          previousMessages,
+          corpusSignals: signals,
+        });
 
   const activeTypedOperation =
     typedFollowUp?.operation ??
@@ -12790,6 +13087,11 @@ function buildIntelligence(
             canonicalClaim: reusableSnapshot.canonicalClaim,
             rationale:
               "PRE-RETRIEVAL CASE CONTINUITY · Canonical Snapshot inherited before retrieval. Object, claim, contract, evidence state, and closure boundary were reused without fresh Signal selection.",
+          },
+          mission: {
+            ...reusableSnapshot.astraCore.mission,
+            objective:
+              `Execute ${typedFollowUpLabel(activeTypedOperation).toLowerCase()} on the inherited canonical claim without re-running retrieval, research, Goal work, Completion, or Closure.`,
           },
           closureProtocol: reusableSnapshot.astraCore.closureProtocol,
           caseState: {
@@ -12896,6 +13198,10 @@ function buildIntelligence(
     conversationIntent,
     lead,
     second,
+    followUpOperation:
+      snapshotReuse
+        ? typedOperation
+        : typedFollowUp?.operation,
   });
 
   const interpretation = adaptiveResponse.plainText;
@@ -14510,7 +14816,7 @@ useEffect(() => {
                               <div className="ep-case-reuse__head">
                                 <div>
                                   <span>CASE CONTINUATION</span>
-                                  <strong>BOUNDED CASE REUSED</strong>
+                                  <strong>ACTIVE CASE SNAPSHOT REUSED</strong>
                                 </div>
                                 <small>
                                   {message.intelligence.astraCore.caseReuse.operation}
@@ -14529,7 +14835,7 @@ useEffect(() => {
                               </p>
                               <div className="ep-case-reuse__lock">
                                 <span>OBJECT LOCK</span>
-                                <strong>SNAPSHOT INHERITED · RETRIEVAL BYPASSED</strong>
+                                <strong>SNAPSHOT AUTHORITY · RETRIEVAL BYPASSED</strong>
                               </div>
                             </div>
                           )}
