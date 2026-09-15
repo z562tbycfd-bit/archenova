@@ -10,291 +10,174 @@ import TodaysInquiryResearch
 /* ==========================================================
    TODAY'S INQUIRY PORTAL
 
-   HOME OBSIDIAN SCIENTIFIC OBSERVATORY
-
-   Reality
-   → Observation
-   → Question
-   → Evidence
-   → Revision
-
-   Design principle:
+   Original scientific editorial structure
+   ×
+   ArcheNova unified Obsidian Black Glass
 
    One Portal = One Black Glass Surface.
 
-   HOME should not behave like a research dashboard.
-   It should reveal one question as the primary object
-   of attention and place evidence beneath it.
+   Content hierarchy and child components are preserved.
 
-   Episteme = Cognition.
-   Inquiry  = Reality Contact.
-   Valley   = Realization.
-
-   Reality retains veto.
+   Reality
+   → Observation
+   → Evidence
+   → Revision
 ========================================================== */
 
 export default function TodaysInquiryPortal() {
   return (
-    <section
-      className="ti-home"
-      aria-labelledby="ti-home-title"
-    >
+    <div className="ti-home">
 
       {/* ==================================================
-          ONE OBSIDIAN GLASS SURFACE
+          PRIMARY OBSIDIAN SCIENTIFIC GLASS
       ================================================== */}
 
       <article className="ti-home__glass">
 
-        {/* ==================================================
-            AMBIENT OBSERVATORY FIELD
-        ================================================== */}
+        {/* subtle optical layers */}
 
         <div
-          className="ti-home__ambient"
+          className="ti-home__glass-light"
           aria-hidden="true"
         />
 
         <div
-          className="ti-home__stars"
+          className="ti-home__glass-noise"
           aria-hidden="true"
         />
 
-        <div
-          className="ti-home__horizon"
-          aria-hidden="true"
-        />
+        <div className="ti-home__glass-inner">
 
+          {/* ================================================
+              SCIENTIFIC EDITORIAL HEADER
+          ================================================= */}
 
-        <div className="ti-home__inner">
+          <header className="ti-home__header">
 
-          {/* ==================================================
-              TOP IDENTITY
-          ================================================== */}
+            <div className="ti-home__meta">
 
-          <header className="ti-home__top">
+              <span className="ti-home__meta-line" />
 
-            <div className="ti-home__identity">
-
-              <span>
-                ARCHENOVA · DAILY INQUIRY
+              <span className="ti-home__eyebrow">
+                ARCHENOVA · DAILY SCIENTIFIC INQUIRY
               </span>
 
-              <small>
-                REALITY CONTACT
-              </small>
+              <span className="ti-home__meta-line" />
 
             </div>
 
 
+            <h2>
+              Today&apos;s Inquiry
+            </h2>
+
+
+            <p className="ti-home__statement">
+
+              One question selected each day
+
+              <span>
+                for deeper contact with reality.
+              </span>
+
+            </p>
+
+
+            {/* ==============================================
+                SCIENTIFIC STATUS
+            ============================================== */}
+
             <div
-              className="ti-home__live"
-              aria-label="Daily inquiry active"
+              className="ti-home__status"
+              aria-label="Daily inquiry status"
             >
+
+              <span
+                className="ti-home__status-dot"
+                aria-hidden="true"
+              />
+
+              <span>
+                DAILY OBSERVATION
+              </span>
+
               <i aria-hidden="true" />
 
               <span>
-                ACTIVE
+                EVIDENCE-LED
               </span>
+
+              <i aria-hidden="true" />
+
+              <span>
+                OPEN TO REVISION
+              </span>
+
             </div>
 
           </header>
 
 
-          {/* ==================================================
-              OBSERVATORY HERO
-          ================================================== */}
+          {/* ================================================
+              TRANSITION
+          ================================================= */}
 
-          <div className="ti-home__hero">
+          <div
+            className="ti-home__transition"
+            aria-hidden="true"
+          >
 
-            {/* ================================================
-                CHAPTER
-            ================================================= */}
+            <span />
 
-            <div className="ti-home__chapter">
+            <b />
 
-              <span className="ti-home__eyebrow">
-                TODAY&apos;S INQUIRY
-              </span>
-
-
-              <h2 id="ti-home-title">
-                One question.
-                <br />
-                <span>
-                  Deeper contact with reality.
-                </span>
-              </h2>
-
-
-              <p>
-                A daily inquiry selected to test assumptions,
-                examine evidence, and remain open to revision.
-              </p>
-
-            </div>
-
-
-            {/* ================================================
-                REALITY CONTACT AXIS
-            ================================================= */}
-
-            <div
-              className="ti-home__reality-axis"
-              aria-hidden="true"
-            >
-
-              <span className="ti-home__axis-label ti-home__axis-label--reality">
-                REALITY
-              </span>
-
-
-              <span className="ti-home__axis-line ti-home__axis-line--upper" />
-
-
-              <span className="ti-home__observation">
-
-                <span className="ti-home__observation-field" />
-
-                <span className="ti-home__observation-ring ti-home__observation-ring--outer" />
-
-                <span className="ti-home__observation-ring ti-home__observation-ring--inner" />
-
-                <span className="ti-home__observation-core" />
-
-              </span>
-
-
-              <span className="ti-home__axis-stage">
-                OBSERVATION
-              </span>
-
-
-              <span className="ti-home__axis-line ti-home__axis-line--lower" />
-
-
-              <span className="ti-home__axis-flow">
-
-                <span>
-                  QUESTION
-                </span>
-
-                <i />
-
-                <span>
-                  EVIDENCE
-                </span>
-
-                <i />
-
-                <span>
-                  REVISION
-                </span>
-
-              </span>
-
-            </div>
+            <span />
 
           </div>
 
 
-          {/* ==================================================
-              PRIMARY QUESTION FIELD
-          ================================================== */}
+          {/* ================================================
+              DAILY EXPERIENCE
+          ================================================= */}
 
           <section
             className="ti-home__experience"
             aria-label="Today's scientific inquiry"
           >
-
-            <div
-              className="ti-home__question-marker"
-              aria-hidden="true"
-            >
-              <span />
-
-              <small>
-                TODAY
-              </small>
-
-              <span />
-            </div>
-
-
-            <div className="ti-home__experience-content">
-              <CivilizationDailyExperience />
-            </div>
-
+            <CivilizationDailyExperience />
           </section>
 
 
-          {/* ==================================================
-              EVIDENCE BOUNDARY
-          ================================================== */}
+          {/* ================================================
+              RESEARCH TRANSITION
+          ================================================= */}
 
           <div
-            className="ti-home__evidence-boundary"
+            className="ti-home__research-divider"
             aria-hidden="true"
           >
 
-            <span className="ti-home__evidence-line" />
+            <span />
 
-
-            <div className="ti-home__evidence-center">
-
-              <i />
-
-              <span>
-                RELATED EVIDENCE
-              </span>
-
-              <small>
-                OBSERVE · COMPARE · REVISE
-              </small>
-
+            <div>
+              RELATED EVIDENCE
             </div>
 
-
-            <span className="ti-home__evidence-line ti-home__evidence-line--reverse" />
+            <span />
 
           </div>
 
 
-          {/* ==================================================
+          {/* ================================================
               RELATED RESEARCH
-          ================================================== */}
+          ================================================= */}
 
           <section
             className="ti-home__research"
-            aria-label="Related evidence"
+            aria-label="Related research"
           >
             <TodaysInquiryResearch />
           </section>
-
-
-          {/* ==================================================
-              TERMINUS
-          ================================================== */}
-
-          <footer className="ti-home__footer">
-
-            <span>
-              REALITY RETAINS VETO
-            </span>
-
-
-            <div aria-hidden="true">
-              <i />
-              <i />
-              <i />
-            </div>
-
-
-            <small>
-              OBSERVATION · EVIDENCE · REVISION
-            </small>
-
-          </footer>
 
         </div>
 
@@ -304,35 +187,34 @@ export default function TodaysInquiryPortal() {
       <style jsx global>{`
 
         /* ==================================================
-           ROOT
+           TODAY'S INQUIRY
+
+           ORIGINAL SCIENTIFIC EDITORIAL STRUCTURE
+           ×
+           ARCHENOVA OBSIDIAN BLACK GLASS
         ================================================== */
 
-        .ti-home,
-        .ti-home *,
-        .ti-home *::before,
-        .ti-home *::after {
-          box-sizing: border-box;
-        }
-
-
         .ti-home {
-          --ti-primary:
+          --ti-white:
             rgba(255, 255, 255, 0.92);
 
-          --ti-secondary:
+          --ti-text:
             rgba(255, 255, 255, 0.48);
 
-          --ti-tertiary:
+          --ti-muted:
             rgba(255, 255, 255, 0.3);
 
-          --ti-meta:
-            rgba(255, 255, 255, 0.2);
-
           --ti-faint:
-            rgba(255, 255, 255, 0.1);
+            rgba(255, 255, 255, 0.2);
 
           --ti-border:
             rgba(255, 255, 255, 0.055);
+
+          --ti-border-soft:
+            rgba(255, 255, 255, 0.035);
+
+          --ti-silver:
+            rgba(245, 248, 250, 0.7);
 
           position: relative;
 
@@ -340,31 +222,33 @@ export default function TodaysInquiryPortal() {
           max-width: 100%;
           min-width: 0;
 
-          margin: 0;
+          margin:
+            0 auto;
 
           padding:
             clamp(
               18px,
-              3vw,
-              34px
+              2.5vw,
+              32px
             )
             0;
 
           isolation: isolate;
-
-          color:
-            var(--ti-primary);
         }
 
 
         /* ==================================================
-           ONE BLACK GLASS SURFACE
+           PRIMARY BLACK GLASS
+
+           Same material language as Episteme / Valley.
+
+           No external drop shadow.
+           No milky-white glass.
+           No blue / cyan tint.
         ================================================== */
 
         .ti-home__glass {
           position: relative;
-
-          isolation: isolate;
 
           width: 100%;
           max-width: 100%;
@@ -384,7 +268,7 @@ export default function TodaysInquiryPortal() {
           border-radius:
             clamp(
               24px,
-              2.8vw,
+              2.5vw,
               34px
             );
 
@@ -436,9 +320,14 @@ export default function TodaysInquiryPortal() {
               0.01
             );
 
-          transform: none !important;
+          transform:
+            none !important;
         }
 
+
+        /* ==================================================
+           SUBTLE EDGE REFLECTION
+        ================================================== */
 
         .ti-home__glass::after {
           content: "";
@@ -447,7 +336,7 @@ export default function TodaysInquiryPortal() {
 
           inset: 0;
 
-          z-index: -1;
+          z-index: 0;
 
           pointer-events: none;
 
@@ -460,32 +349,34 @@ export default function TodaysInquiryPortal() {
                 255,
                 255,
                 255,
-                0.022
+                0.018
               ),
               transparent
-              18%,
+              19%,
               transparent
               78%,
               rgba(
                 255,
                 255,
                 255,
-                0.008
+                0.006
               )
             );
         }
 
 
         /* ==================================================
-           AMBIENT FIELD
+           OPTICAL TOP LIGHT
+
+           Neutral silver-white only.
         ================================================== */
 
-        .ti-home__ambient {
+        .ti-home__glass-light {
           position: absolute;
 
           inset: 0;
 
-          z-index: -5;
+          z-index: 0;
 
           pointer-events: none;
 
@@ -494,7 +385,7 @@ export default function TodaysInquiryPortal() {
               ellipse
               at
               50%
-              20%,
+              -5%,
               rgba(
                 255,
                 255,
@@ -502,29 +393,14 @@ export default function TodaysInquiryPortal() {
                 0.026
               ),
               transparent
-              27%
-            ),
-
-            radial-gradient(
-              ellipse
-              at
-              50%
-              46%,
-              rgba(
-                255,
-                255,
-                255,
-                0.014
-              ),
-              transparent
-              38%
+              34%
             ),
 
             radial-gradient(
               circle
               at
               12%
-              74%,
+              19%,
               rgba(
                 255,
                 255,
@@ -532,14 +408,14 @@ export default function TodaysInquiryPortal() {
                 0.012
               ),
               transparent
-              28%
+              27%
             ),
 
             radial-gradient(
               circle
               at
               88%
-              70%,
+              34%,
               rgba(
                 255,
                 255,
@@ -547,208 +423,167 @@ export default function TodaysInquiryPortal() {
                 0.01
               ),
               transparent
-              30%
+              29%
             );
+
+          opacity: 1;
         }
 
 
         /* ==================================================
-           OBSERVATORY STARS
+           MICRO TEXTURE
+
+           Retained from the original version,
+           but substantially reduced.
+
+           It should read as material depth,
+           not visible grain.
         ================================================== */
 
-        .ti-home__stars {
+        .ti-home__glass-noise {
           position: absolute;
 
           inset: 0;
 
-          z-index: -4;
+          z-index: 0;
 
           pointer-events: none;
 
-          opacity: 0.34;
+          opacity: 0.055;
 
           background-image:
             radial-gradient(
-              circle
-              at
-              8%
-              12%,
               rgba(
                 255,
                 255,
                 255,
-                0.28
+                0.11
               )
-              0 0.45px,
+              0.4px,
               transparent
-              0.7px
-            ),
-
-            radial-gradient(
-              circle
-              at
-              19%
-              32%,
-              rgba(
-                255,
-                255,
-                255,
-                0.16
-              )
-              0 0.45px,
-              transparent
-              0.7px
-            ),
-
-            radial-gradient(
-              circle
-              at
-              29%
-              8%,
-              rgba(
-                255,
-                255,
-                255,
-                0.22
-              )
-              0 0.4px,
-              transparent
-              0.7px
-            ),
-
-            radial-gradient(
-              circle
-              at
-              73%
-              14%,
-              rgba(
-                255,
-                255,
-                255,
-                0.18
-              )
-              0 0.45px,
-              transparent
-              0.7px
-            ),
-
-            radial-gradient(
-              circle
-              at
-              88%
-              28%,
-              rgba(
-                255,
-                255,
-                255,
-                0.25
-              )
-              0 0.4px,
-              transparent
-              0.7px
-            ),
-
-            radial-gradient(
-              circle
-              at
-              94%
-              54%,
-              rgba(
-                255,
-                255,
-                255,
-                0.15
-              )
-              0 0.4px,
-              transparent
-              0.7px
-            ),
-
-            radial-gradient(
-              circle
-              at
-              12%
-              58%,
-              rgba(
-                255,
-                255,
-                255,
-                0.18
-              )
-              0 0.45px,
-              transparent
-              0.7px
-            ),
-
-            radial-gradient(
-              circle
-              at
-              82%
-              82%,
-              rgba(
-                255,
-                255,
-                255,
-                0.13
-              )
-              0 0.4px,
-              transparent
-              0.7px
+              0.55px
             );
+
+          background-size:
+            8px
+            8px;
 
           -webkit-mask-image:
             linear-gradient(
               to bottom,
-              black,
               rgba(
                 0,
                 0,
                 0,
-                0.42
-              )
-              62%,
+                0.48
+              ),
               transparent
+              34%
             );
 
           mask-image:
             linear-gradient(
               to bottom,
-              black,
               rgba(
                 0,
                 0,
                 0,
-                0.42
-              )
-              62%,
+                0.48
+              ),
               transparent
+              34%
             );
         }
 
 
+        .ti-home__glass-inner {
+          position: relative;
+
+          z-index: 1;
+
+          width: 100%;
+          max-width: 100%;
+          min-width: 0;
+        }
+
+
         /* ==================================================
-           DISTANT HORIZON
+           EDITORIAL HEADER
         ================================================== */
 
-        .ti-home__horizon {
-          position: absolute;
+        .ti-home__header {
+          position: relative;
 
-          z-index: -3;
+          width: 100%;
+          max-width: 820px;
+          min-width: 0;
 
-          top: 29%;
-          left: 50%;
+          margin:
+            0 auto;
 
-          width: 78%;
-          height: 1px;
-
-          transform:
-            translateX(
-              -50%
+          padding:
+            clamp(
+              52px,
+              7vw,
+              88px
+            )
+            clamp(
+              26px,
+              5vw,
+              56px
+            )
+            clamp(
+              42px,
+              5.5vw,
+              64px
             );
 
-          pointer-events: none;
+          text-align: center;
+        }
 
-          opacity: 0.28;
+
+        /* ==================================================
+           JOURNAL-LIKE META LINE
+        ================================================== */
+
+        .ti-home__meta {
+          display: grid;
+
+          grid-template-columns:
+            minmax(
+              20px,
+              68px
+            )
+            auto
+            minmax(
+              20px,
+              68px
+            );
+
+          align-items: center;
+
+          justify-content: center;
+
+          gap:
+            clamp(
+              12px,
+              2vw,
+              20px
+            );
+
+          width: fit-content;
+          max-width: 100%;
+
+          margin:
+            0 auto;
+        }
+
+
+        .ti-home__meta-line {
+          display: block;
+
+          width: 100%;
+          height: 1px;
 
           background:
             linear-gradient(
@@ -758,243 +593,24 @@ export default function TodaysInquiryPortal() {
                 255,
                 255,
                 255,
-                0.025
-              ),
+                0.105
+              )
+            );
+        }
+
+
+        .ti-home__meta-line:last-child {
+          background:
+            linear-gradient(
+              90deg,
               rgba(
                 255,
                 255,
                 255,
-                0.08
-              ),
-              rgba(
-                255,
-                255,
-                255,
-                0.025
+                0.105
               ),
               transparent
             );
-
-          box-shadow:
-            0
-            0
-            24px
-            rgba(
-              255,
-              255,
-              255,
-              0.018
-            );
-        }
-
-
-        .ti-home__inner {
-          position: relative;
-
-          z-index: 2;
-
-          width: 100%;
-          min-width: 0;
-        }
-
-
-        /* ==================================================
-           TOP IDENTITY
-        ================================================== */
-
-        .ti-home__top {
-          position: relative;
-
-          z-index: 10;
-
-          display: flex;
-
-          align-items: flex-start;
-
-          justify-content:
-            space-between;
-
-          gap: 24px;
-
-          width: 100%;
-
-          padding:
-            clamp(
-              26px,
-              4vw,
-              52px
-            )
-            clamp(
-              26px,
-              4vw,
-              52px
-            )
-            0;
-        }
-
-
-        .ti-home__identity {
-          display: flex;
-
-          flex-direction: column;
-
-          gap: 7px;
-        }
-
-
-        .ti-home__identity
-        > span {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.48
-            );
-
-          font-size: 9px;
-
-          font-weight: 650;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.24em;
-        }
-
-
-        .ti-home__identity
-        > small {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.2
-            );
-
-          font-size: 6px;
-
-          font-weight: 500;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.15em;
-        }
-
-
-        .ti-home__live {
-          display: inline-flex;
-
-          align-items: center;
-
-          gap: 8px;
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.24
-            );
-
-          font-size: 6px;
-
-          font-weight: 600;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.17em;
-        }
-
-
-        .ti-home__live i {
-          display: block;
-
-          width: 5px;
-          height: 5px;
-
-          flex: 0 0 5px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.68
-            );
-
-          box-shadow:
-            0
-            0
-            10px
-            rgba(
-              255,
-              255,
-              255,
-              0.12
-            );
-
-          animation:
-            ti-observation-live
-            8s
-            ease-in-out
-            infinite;
-        }
-
-
-        /* ==================================================
-           HERO
-        ================================================== */
-
-        .ti-home__hero {
-          position: relative;
-
-          z-index: 5;
-
-          width: 100%;
-
-          display: flex;
-
-          flex-direction: column;
-
-          align-items: center;
-
-          padding:
-            clamp(
-              50px,
-              6vw,
-              76px
-            )
-            clamp(
-              24px,
-              5vw,
-              58px
-            )
-            clamp(
-              34px,
-              4vw,
-              50px
-            );
-        }
-
-
-        /* ==================================================
-           CHAPTER
-        ================================================== */
-
-        .ti-home__chapter {
-          width: 100%;
-
-          max-width: 800px;
-
-          margin: 0 auto;
-
-          text-align: center;
         }
 
 
@@ -1006,26 +622,37 @@ export default function TodaysInquiryPortal() {
               255,
               255,
               255,
-              0.22
+              0.4
             );
 
-          font-size: 7px;
+          font-size:
+            clamp(
+              7px,
+              0.72vw,
+              9px
+            );
 
-          font-weight: 620;
+          font-weight: 600;
 
           line-height: 1;
 
           letter-spacing:
-            0.25em;
+            0.3em;
+
+          white-space: nowrap;
         }
 
 
-        .ti-home__chapter h2 {
+        /* ==================================================
+           TITLE
+        ================================================== */
+
+        .ti-home__header h2 {
           margin:
             clamp(
-              19px,
-              2.5vw,
-              27px
+              22px,
+              3vw,
+              32px
             )
             0
             0;
@@ -1035,58 +662,50 @@ export default function TodaysInquiryPortal() {
               255,
               255,
               255,
-              0.94
+              0.92
             );
 
           font-size:
             clamp(
-              40px,
-              5.3vw,
-              68px
+              50px,
+              6.4vw,
+              84px
             );
 
-          font-weight: 235;
+          font-weight: 260;
 
-          line-height: 0.98;
+          line-height: 0.94;
 
           letter-spacing:
-            -0.055em;
+            -0.058em;
 
           text-wrap: balance;
 
           text-shadow:
             0
             1px
-            0
+            18px
             rgba(
               255,
               255,
               255,
-              0.02
+              0.018
             );
         }
 
 
-        .ti-home__chapter h2
-        > span {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.66
-            );
-        }
+        /* ==================================================
+           STATEMENT
+        ================================================== */
 
-
-        .ti-home__chapter p {
-          max-width: 520px;
+        .ti-home__statement {
+          max-width: 580px;
 
           margin:
             clamp(
-              20px,
-              2.5vw,
-              27px
+              24px,
+              3vw,
+              32px
             )
             auto
             0 !important;
@@ -1096,199 +715,106 @@ export default function TodaysInquiryPortal() {
               255,
               255,
               255,
-              0.38
+              0.48
             ) !important;
 
           font-size:
             clamp(
-              10px,
-              1vw,
-              12px
+              11px,
+              1.15vw,
+              14px
             ) !important;
 
           font-weight: 390;
 
           line-height:
-            1.75 !important;
+            1.78 !important;
 
           letter-spacing:
-            0.005em;
+            -0.005em;
         }
 
 
-        /* ==================================================
-           REALITY CONTACT AXIS
-        ================================================== */
+        .ti-home__statement span {
+          display: block;
 
-        .ti-home__reality-axis {
-          position: relative;
-
-          width:
-            min(
-              100%,
-              460px
-            );
-
-          min-width: 0;
-
-          display: flex;
-
-          flex-direction: column;
-
-          align-items: center;
-
-          margin-top:
-            clamp(
-              34px,
-              4vw,
-              48px
-            );
-        }
-
-
-        .ti-home__axis-label {
           color:
             rgba(
               255,
               255,
               255,
-              0.18
+              0.36
             );
-
-          font-size: 5px;
-
-          font-weight: 620;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.22em;
-        }
-
-
-        .ti-home__axis-line {
-          display: block;
-
-          width: 1px;
-
-          background:
-            linear-gradient(
-              to bottom,
-              rgba(
-                255,
-                255,
-                255,
-                0.02
-              ),
-              rgba(
-                255,
-                255,
-                255,
-                0.16
-              )
-            );
-        }
-
-
-        .ti-home__axis-line--upper {
-          height: 27px;
-
-          margin-top: 10px;
         }
 
 
         /* ==================================================
-           OBSERVATION POINT
+           SCIENTIFIC STATUS STRIP
+
+           Silver-white rather than blue.
         ================================================== */
 
-        .ti-home__observation {
-          position: relative;
+        .ti-home__status {
+          display: flex;
 
-          width: 68px;
-          height: 68px;
+          align-items: center;
 
-          display: grid;
+          justify-content: center;
 
-          place-items: center;
+          flex-wrap: wrap;
 
-          flex: 0 0 auto;
-        }
+          gap: 10px;
 
+          margin:
+            clamp(
+              28px,
+              4vw,
+              42px
+            )
+            auto
+            0;
 
-        .ti-home__observation-field {
-          position: absolute;
-
-          width: 100%;
-          height: 100%;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(
-                255,
-                255,
-                255,
-                0.045
-              ),
-              rgba(
-                255,
-                255,
-                255,
-                0.01
-              )
-              35%,
-              transparent
-              70%
-            );
-
-          filter:
-            blur(
-              4px
-            );
-
-          animation:
-            ti-observation-field
-            8s
-            ease-in-out
-            infinite;
-        }
-
-
-        .ti-home__observation-ring {
-          position: absolute;
-
-          border:
-            1px solid
+          color:
             rgba(
               255,
               255,
               255,
-              0.08
+              0.25
             );
 
+          font-size: 7px;
+
+          font-weight: 600;
+
+          line-height: 1;
+
+          letter-spacing:
+            0.2em;
+        }
+
+
+        .ti-home__status-dot {
+          width: 4px;
+          height: 4px;
+
+          flex:
+            0 0
+            4px;
+
           border-radius: 50%;
-        }
 
+          background:
+            rgba(
+              248,
+              250,
+              251,
+              0.7
+            );
 
-        .ti-home__observation-ring--outer {
-          width: 42px;
-          height: 42px;
-
-          animation:
-            ti-observation-ring
-            8s
-            ease-in-out
-            infinite;
-        }
-
-
-        .ti-home__observation-ring--inner {
-          width: 22px;
-          height: 22px;
-
-          border-color:
+          box-shadow:
+            0
+            0
+            9px
             rgba(
               255,
               255,
@@ -1298,216 +824,60 @@ export default function TodaysInquiryPortal() {
         }
 
 
-        .ti-home__observation-core {
-          position: relative;
-
-          z-index: 3;
-
-          width: 5px;
-          height: 5px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.82
-            );
-
-          box-shadow:
-            0
-            0
-            8px
-            rgba(
-              255,
-              255,
-              255,
-              0.22
-            ),
-
-            0
-            0
-            20px
-            rgba(
-              255,
-              255,
-              255,
-              0.07
-            );
-
-          animation:
-            ti-observation-core
-            8s
-            ease-in-out
-            infinite;
-        }
-
-
-        .ti-home__axis-stage {
-          margin-top: 4px;
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.3
-            );
-
-          font-size: 5px;
-
-          font-weight: 620;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.22em;
-        }
-
-
-        .ti-home__axis-line--lower {
-          height: 30px;
-
-          margin-top: 11px;
-
-          background:
-            linear-gradient(
-              to bottom,
-              rgba(
-                255,
-                255,
-                255,
-                0.15
-              ),
-              rgba(
-                255,
-                255,
-                255,
-                0.02
-              )
-            );
-        }
-
-
-        .ti-home__axis-flow {
-          display: flex;
-
-          align-items: center;
-
-          justify-content: center;
-
-          flex-wrap: wrap;
-
-          gap: 9px;
-
-          margin-top: 9px;
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.18
-            );
-
-          font-size: 5px;
-
-          font-weight: 600;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.17em;
-        }
-
-
-        .ti-home__axis-flow i {
+        .ti-home__status i {
           display: block;
 
-          width: 2px;
-          height: 2px;
+          width: 1px;
+          height: 9px;
 
-          border-radius: 50%;
+          margin:
+            0
+            2px;
 
           background:
             rgba(
               255,
               255,
               255,
-              0.2
+              0.075
             );
         }
 
 
         /* ==================================================
-           PRIMARY QUESTION FIELD
+           PRIMARY TRANSITION
         ================================================== */
 
-        .ti-home__experience {
-          position: relative;
-
-          z-index: 5;
-
-          width: 100%;
-          min-width: 0;
-
-          padding:
-            0
-            0
-            clamp(
-              34px,
-              4vw,
-              50px
-            );
-        }
-
-
-        .ti-home__question-marker {
+        .ti-home__transition {
           display: grid;
 
           grid-template-columns:
-            minmax(
-              20px,
-              100px
-            )
+            1fr
             auto
-            minmax(
-              20px,
-              100px
-            );
+            1fr;
 
           align-items: center;
 
-          justify-content: center;
+          gap: 14px;
 
-          gap: 13px;
-
-          width: fit-content;
-
-          max-width:
+          width:
             calc(
               100% -
-              40px
+              clamp(
+                48px,
+                8vw,
+                96px
+              )
             );
 
           margin:
-            0
-            auto
-            clamp(
-              14px,
-              2vw,
-              22px
-            );
+            0 auto;
         }
 
 
-        .ti-home__question-marker
-        > span {
+        .ti-home__transition span {
           display: block;
 
-          width: 100%;
           height: 1px;
 
           background:
@@ -1518,14 +888,14 @@ export default function TodaysInquiryPortal() {
                 255,
                 255,
                 255,
-                0.075
+                0.065
               )
             );
         }
 
 
-        .ti-home__question-marker
-        > span:last-child {
+        .ti-home__transition
+        span:last-child {
           background:
             linear-gradient(
               90deg,
@@ -1533,54 +903,78 @@ export default function TodaysInquiryPortal() {
                 255,
                 255,
                 255,
-                0.075
+                0.065
               ),
               transparent
             );
         }
 
 
-        .ti-home__question-marker
-        > small {
-          color:
+        .ti-home__transition b {
+          display: block;
+
+          width: 5px;
+          height: 5px;
+
+          border:
+            1px solid
             rgba(
               255,
               255,
               255,
-              0.22
+              0.2
             );
 
-          font-size: 5px;
+          border-radius: 50%;
 
-          font-weight: 620;
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
 
-          line-height: 1;
-
-          letter-spacing:
-            0.24em;
+          box-shadow:
+            0
+            0
+            10px
+            rgba(
+              255,
+              255,
+              255,
+              0.045
+            );
         }
 
 
-        .ti-home__experience-content {
+        /* ==================================================
+           DAILY EXPERIENCE
+        ================================================== */
+
+        .ti-home__experience {
           position: relative;
 
           width: 100%;
           max-width: 100%;
           min-width: 0;
 
-          overflow: hidden;
+          padding:
+            clamp(
+              10px,
+              1.5vw,
+              20px
+            )
+            0
+            clamp(
+              28px,
+              4vw,
+              48px
+            );
         }
 
 
-        /* ==================================================
-           REMOVE SECONDARY OUTER-SURFACE EFFECT
-
-           Child content remains functional.
-           Common direct wrappers are neutralized so
-           the HOME portal reads as one glass surface.
-        ================================================== */
-
-        .ti-home__experience-content
+        .ti-home__experience
         > * {
           max-width: 100%;
           min-width: 0;
@@ -1588,14 +982,10 @@ export default function TodaysInquiryPortal() {
 
 
         /* ==================================================
-           EVIDENCE BOUNDARY
+           RELATED EVIDENCE DIVIDER
         ================================================== */
 
-        .ti-home__evidence-boundary {
-          position: relative;
-
-          z-index: 6;
-
+        .ti-home__research-divider {
           display: grid;
 
           grid-template-columns:
@@ -1615,7 +1005,7 @@ export default function TodaysInquiryPortal() {
             clamp(
               14px,
               2vw,
-              24px
+              22px
             );
 
           width:
@@ -1624,15 +1014,34 @@ export default function TodaysInquiryPortal() {
               clamp(
                 48px,
                 8vw,
-                104px
+                96px
               )
             );
 
-          margin: 0 auto;
+          margin:
+            0 auto;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.23
+            );
+
+          font-size: 7px;
+
+          font-weight: 600;
+
+          line-height: 1;
+
+          letter-spacing:
+            0.24em;
         }
 
 
-        .ti-home__evidence-line {
+        .ti-home__research-divider
+        span {
           display: block;
 
           height: 1px;
@@ -1645,13 +1054,14 @@ export default function TodaysInquiryPortal() {
                 255,
                 255,
                 255,
-                0.06
+                0.055
               )
             );
         }
 
 
-        .ti-home__evidence-line--reverse {
+        .ti-home__research-divider
+        span:last-child {
           background:
             linear-gradient(
               90deg,
@@ -1659,116 +1069,19 @@ export default function TodaysInquiryPortal() {
                 255,
                 255,
                 255,
-                0.06
+                0.055
               ),
               transparent
             );
         }
 
 
-        .ti-home__evidence-center {
-          display: flex;
-
-          flex-direction: column;
-
-          align-items: center;
-
-          gap: 7px;
-
-          text-align: center;
-        }
-
-
-        .ti-home__evidence-center i {
-          display: block;
-
-          width: 4px;
-          height: 4px;
-
-          margin-bottom: 2px;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.24
-            );
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.04
-            );
-
-          box-shadow:
-            0
-            0
-            9px
-            rgba(
-              255,
-              255,
-              255,
-              0.05
-            );
-        }
-
-
-        .ti-home__evidence-center
-        > span {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.28
-            );
-
-          font-size: 6px;
-
-          font-weight: 620;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.23em;
-        }
-
-
-        .ti-home__evidence-center
-        > small {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.14
-            );
-
-          font-size: 4px;
-
-          font-weight: 500;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.16em;
-        }
-
-
         /* ==================================================
-           RELATED RESEARCH
+           RESEARCH
         ================================================== */
 
         .ti-home__research {
           position: relative;
-
-          z-index: 5;
 
           width: 100%;
           max-width: 100%;
@@ -1776,12 +1089,10 @@ export default function TodaysInquiryPortal() {
 
           padding-top:
             clamp(
-              18px,
-              2.5vw,
-              30px
+              16px,
+              2vw,
+              28px
             );
-
-          overflow: hidden;
         }
 
 
@@ -1793,239 +1104,97 @@ export default function TodaysInquiryPortal() {
 
 
         /* ==================================================
-           FOOTER
+           INTERACTION
+
+           No movement.
+           No external shadow.
+           Only the glass edge responds.
         ================================================== */
 
-        .ti-home__footer {
-          position: relative;
+        @media (
+          hover: hover
+        ) and (
+          pointer: fine
+        ) {
 
-          z-index: 6;
+          .ti-home__glass {
+            transition:
+              border-color
+              500ms
+              cubic-bezier(
+                0.16,
+                1,
+                0.3,
+                1
+              ),
 
-          display: flex;
+              background
+              500ms
+              cubic-bezier(
+                0.16,
+                1,
+                0.3,
+                1
+              ),
 
-          align-items: center;
-
-          justify-content:
-            space-between;
-
-          gap: 24px;
-
-          margin:
-            clamp(
-              28px,
-              4vw,
-              46px
-            )
-            clamp(
-              26px,
-              4vw,
-              52px
-            )
-            0;
-
-          padding:
-            18px
-            0
-            clamp(
-              24px,
-              3vw,
-              34px
-            );
-
-          border-top:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.04
-            );
-        }
-
-
-        .ti-home__footer
-        > span {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.28
-            );
-
-          font-size: 6px;
-
-          font-weight: 620;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.19em;
-        }
-
-
-        .ti-home__footer
-        > small {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.14
-            );
-
-          font-size: 5px;
-
-          font-weight: 500;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.13em;
-        }
-
-
-        .ti-home__footer
-        > div {
-          display: flex;
-
-          align-items: center;
-
-          gap: 5px;
-        }
-
-
-        .ti-home__footer
-        > div
-        > i {
-          display: block;
-
-          width: 2px;
-          height: 2px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.18
-            );
-        }
-
-
-        .ti-home__footer
-        > div
-        > i:nth-child(2) {
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.36
-            );
-        }
-
-
-        /* ==================================================
-           ANIMATIONS
-        ================================================== */
-
-        @keyframes ti-observation-live {
-
-          0%,
-          100% {
-            opacity: 0.36;
-
-            transform:
-              scale(
-                0.82
+              box-shadow
+              500ms
+              cubic-bezier(
+                0.16,
+                1,
+                0.3,
+                1
               );
           }
 
 
-          50% {
-            opacity: 0.9;
-
-            transform:
-              scale(
-                1.06
+          .ti-home__glass:hover {
+            border-color:
+              rgba(
+                255,
+                255,
+                255,
+                0.075
               );
-          }
 
-        }
-
-
-        @keyframes ti-observation-field {
-
-          0%,
-          100% {
-            opacity: 0.38;
-
-            transform:
-              scale(
-                0.88
+            background:
+              linear-gradient(
+                145deg,
+                rgba(
+                  15,
+                  16,
+                  18,
+                  0.37
+                ),
+                rgba(
+                  0,
+                  0,
+                  0,
+                  0.5
+                )
               );
-          }
 
+            box-shadow:
+              inset
+              0
+              1px
+              0
+              rgba(
+                255,
+                255,
+                255,
+                0.045
+              ),
 
-          50% {
-            opacity: 0.78;
-
-            transform:
-              scale(
-                1.06
-              );
-          }
-
-        }
-
-
-        @keyframes ti-observation-ring {
-
-          0%,
-          100% {
-            opacity: 0.3;
-
-            transform:
-              scale(
-                0.9
-              );
-          }
-
-
-          50% {
-            opacity: 0.72;
-
-            transform:
-              scale(
-                1.06
-              );
-          }
-
-        }
-
-
-        @keyframes ti-observation-core {
-
-          0%,
-          100% {
-            opacity: 0.58;
-
-            transform:
-              scale(
-                0.86
-              );
-          }
-
-
-          50% {
-            opacity: 1;
-
-            transform:
-              scale(
-                1.08
+              inset
+              0
+              -1px
+              0
+              rgba(
+                255,
+                255,
+                255,
+                0.012
               );
           }
 
@@ -2040,23 +1209,14 @@ export default function TodaysInquiryPortal() {
           max-width: 900px
         ) {
 
+          .ti-home {
+            width: 100%;
+            max-width: 100%;
+          }
+
+
           .ti-home__glass {
             border-radius: 26px;
-          }
-
-
-          .ti-home__hero {
-            padding-top: 48px;
-          }
-
-
-          .ti-home__chapter h2 {
-            font-size:
-              clamp(
-                40px,
-                7vw,
-                58px
-              );
           }
 
         }
@@ -2064,6 +1224,9 @@ export default function TodaysInquiryPortal() {
 
         /* ==================================================
            MOBILE
+
+           Card-relative sizing only.
+           HOME page.tsx controls the outer viewport margin.
         ================================================== */
 
         @media (
@@ -2076,7 +1239,7 @@ export default function TodaysInquiryPortal() {
             min-width: 0;
 
             padding:
-              14px
+              12px
               0;
           }
 
@@ -2086,7 +1249,7 @@ export default function TodaysInquiryPortal() {
             max-width: 100%;
             min-width: 0;
 
-            border-radius: 23px;
+            border-radius: 22px;
 
             background:
               linear-gradient(
@@ -2112,209 +1275,135 @@ export default function TodaysInquiryPortal() {
             backdrop-filter:
               blur(20px)
               saturate(106%);
+
+            box-shadow:
+              inset
+              0
+              1px
+              0
+              rgba(
+                255,
+                255,
+                255,
+                0.035
+              ),
+
+              inset
+              0
+              -1px
+              0
+              rgba(
+                255,
+                255,
+                255,
+                0.01
+              );
           }
 
 
-          .ti-home__top {
-            gap: 16px;
-
+          .ti-home__header {
             padding:
-              23px
-              21px
-              0;
+              38px
+              20px
+              34px;
           }
 
 
-          .ti-home__identity
-          > span {
-            font-size: 7px;
+          .ti-home__meta {
+            grid-template-columns:
+              22px
+              auto
+              22px;
+
+            gap: 9px;
+          }
+
+
+          .ti-home__eyebrow {
+            font-size: 6.5px;
 
             letter-spacing:
               0.2em;
           }
 
 
-          .ti-home__identity
-          > small {
-            font-size: 5px;
-          }
-
-
-          .ti-home__live {
-            font-size: 5px;
-          }
-
-
-          .ti-home__live i {
-            width: 4px;
-            height: 4px;
-
-            flex-basis: 4px;
-          }
-
-
-          .ti-home__hero {
-            padding:
-              43px
-              20px
-              32px;
-          }
-
-
-          .ti-home__eyebrow {
-            font-size: 6px;
-          }
-
-
-          .ti-home__chapter h2 {
-            margin-top: 18px;
+          .ti-home__header h2 {
+            margin-top: 19px;
 
             font-size:
               clamp(
-                37px,
-                10.8vw,
-                51px
+                41px,
+                12.5vw,
+                57px
               );
 
-            line-height: 0.99;
+            line-height: 0.96;
 
             letter-spacing:
-              -0.05em;
+              -0.052em;
           }
 
 
-          .ti-home__chapter p {
-            max-width: 310px;
+          .ti-home__statement {
+            max-width: 300px;
 
             margin-top:
-              19px !important;
+              20px !important;
 
             font-size:
-              9.5px !important;
+              10px !important;
 
             line-height:
-              1.7 !important;
+              1.72 !important;
           }
 
 
-          .ti-home__reality-axis {
-            width:
-              min(
-                100%,
-                330px
-              );
+          .ti-home__status {
+            max-width: 290px;
 
-            margin-top: 31px;
+            margin-top: 27px;
+
+            gap: 8px;
+
+            font-size: 6px;
+
+            letter-spacing:
+              0.16em;
           }
 
 
-          .ti-home__observation {
-            width: 60px;
-            height: 60px;
+          .ti-home__status i {
+            height: 7px;
           }
 
 
-          .ti-home__observation-ring--outer {
-            width: 38px;
-            height: 38px;
-          }
-
-
-          .ti-home__observation-ring--inner {
-            width: 20px;
-            height: 20px;
-          }
-
-
-          .ti-home__axis-flow {
-            gap: 7px;
-
-            font-size: 4.5px;
-          }
-
-
-          .ti-home__experience {
-            padding-bottom: 32px;
-          }
-
-
-          .ti-home__question-marker {
-            grid-template-columns:
-              minmax(
-                16px,
-                56px
-              )
-              auto
-              minmax(
-                16px,
-                56px
-              );
-
-            gap: 10px;
-
-            max-width:
-              calc(
-                100% -
-                32px
-              );
-          }
-
-
-          .ti-home__evidence-boundary {
+          .ti-home__transition,
+          .ti-home__research-divider {
             width:
               calc(
                 100% -
                 40px
               );
-
-            gap: 10px;
           }
 
 
-          .ti-home__evidence-center
-          > span {
-            font-size: 5.5px;
+          .ti-home__research-divider {
+            gap: 10px;
+
+            font-size: 6px;
 
             letter-spacing:
               0.18em;
           }
 
 
-          .ti-home__evidence-center
-          > small {
-            font-size: 3.8px;
+          .ti-home__experience {
+            padding-bottom: 30px;
           }
 
 
           .ti-home__research {
-            padding-top: 15px;
-          }
-
-
-          .ti-home__footer {
-            gap: 12px;
-
-            margin:
-              28px
-              21px
-              0;
-
-            padding:
-              16px
-              0
-              22px;
-          }
-
-
-          .ti-home__footer
-          > span {
-            font-size: 5px;
-          }
-
-
-          .ti-home__footer
-          > small {
-            font-size: 4px;
+            padding-top: 14px;
           }
 
         }
@@ -2329,99 +1418,60 @@ export default function TodaysInquiryPortal() {
         ) {
 
           .ti-home__glass {
-            border-radius: 21px;
+            border-radius: 20px;
           }
 
 
-          .ti-home__top {
+          .ti-home__header {
             padding:
-              21px
-              18px
-              0;
-          }
-
-
-          .ti-home__identity
-          > span {
-            max-width: 190px;
-
-            font-size: 6.5px;
-          }
-
-
-          .ti-home__identity
-          > small {
-            font-size: 4.5px;
-          }
-
-
-          .ti-home__hero {
-            padding:
-              39px
+              34px
               17px
-              29px;
+              30px;
           }
 
 
-          .ti-home__chapter h2 {
+          .ti-home__meta {
+            grid-template-columns:
+              14px
+              auto
+              14px;
+
+            gap: 7px;
+          }
+
+
+          .ti-home__eyebrow {
+            font-size: 6px;
+
+            letter-spacing:
+              0.16em;
+          }
+
+
+          .ti-home__header h2 {
             font-size:
               clamp(
-                35px,
-                10.9vw,
-                47px
+                39px,
+                12.7vw,
+                52px
               );
           }
 
 
-          .ti-home__chapter p {
-            max-width: 280px;
+          .ti-home__status {
+            gap: 6px;
 
-            font-size:
-              9px !important;
+            font-size: 5.7px;
           }
 
 
-          .ti-home__reality-axis {
-            width:
-              min(
-                100%,
-                292px
-              );
-          }
-
-
-          .ti-home__axis-flow {
-            letter-spacing:
-              0.13em;
-          }
-
-
-          .ti-home__evidence-boundary {
+          .ti-home__transition,
+          .ti-home__research-divider {
             width:
               calc(
                 100% -
                 32px
               );
-          }
-
-
-          .ti-home__evidence-center
-          > small {
-            display: none;
-          }
-
-
-          .ti-home__footer {
-            margin:
-              26px
-              18px
-              0;
-          }
-
-
-          .ti-home__footer
-          > small {
-            display: none;
           }
 
         }
@@ -2435,52 +1485,45 @@ export default function TodaysInquiryPortal() {
           max-width: 360px
         ) {
 
-          .ti-home__top {
-            padding-left: 16px;
-            padding-right: 16px;
+          .ti-home__header {
+            padding-left: 15px;
+            padding-right: 15px;
           }
 
 
-          .ti-home__identity
-          > span {
-            max-width: 165px;
+          .ti-home__meta {
+            grid-template-columns:
+              10px
+              auto
+              10px;
 
-            font-size: 6px;
+            gap: 6px;
+          }
+
+
+          .ti-home__eyebrow {
+            font-size: 5.6px;
 
             letter-spacing:
-              0.17em;
+              0.13em;
           }
 
 
-          .ti-home__chapter h2 {
+          .ti-home__header h2 {
             font-size:
               clamp(
-                32px,
-                10.8vw,
-                40px
+                36px,
+                12.5vw,
+                45px
               );
           }
 
 
-          .ti-home__reality-axis {
-            width:
-              min(
-                100%,
-                270px
-              );
-          }
+          .ti-home__status {
+            font-size: 5.2px;
 
-
-          .ti-home__axis-flow {
-            gap: 5px;
-
-            font-size: 4px;
-          }
-
-
-          .ti-home__footer {
-            margin-left: 16px;
-            margin-right: 16px;
+            letter-spacing:
+              0.12em;
           }
 
         }
@@ -2495,17 +1538,15 @@ export default function TodaysInquiryPortal() {
           reduce
         ) {
 
-          .ti-home__live i,
-          .ti-home__observation-field,
-          .ti-home__observation-ring,
-          .ti-home__observation-core {
-            animation:
+          .ti-home__glass {
+            transition:
               none !important;
           }
 
         }
 
       `}</style>
-    </section>
+
+    </div>
   );
 }
