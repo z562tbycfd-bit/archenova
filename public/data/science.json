@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-09-15T07:23:54.396Z",
+  "updated": "2026-09-15T13:15:58.106Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Small farming management changes could help protect birds under threat",
+      "url": "https://phys.org/news/2026-09-small-farming-birds-threat.html",
+      "summary": "New research from the University of Aberdeen and Edinburgh Napier University has found that simple changes to the timing of conservation measures on farmland could significantly improve protection for some of the U.K.'s …",
+      "ts": 1789477204000,
+      "publishedAt": "2026-09-15T13:00:04.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "‘Bogland’ explores beautifully strange ecosystems",
+      "url": "https://www.sciencenews.org/article/book-review-bogland-strange-ecosystems",
+      "summary": "Ecologist Merritt Turetsky’s devotion to bogs, fens and other fascinating water-logged spaces saturates her new book.",
+      "ts": 1789477200000,
+      "publishedAt": "2026-09-15T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One in three uni students experience serious financial hardship. Could concession cards for all help?",
+      "url": "https://phys.org/news/2026-09-uni-students-financial-hardship-concession.html",
+      "summary": "Last week, the peak body for Australian universities called on the federal government to introduce concession cards and further discounts for all domestic university students.",
+      "ts": 1789476002000,
+      "publishedAt": "2026-09-15T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "For many group-living females, breeding and raising young are shared endeavors",
+      "url": "https://phys.org/news/2026-09-group-females-young-endeavors.html",
+      "summary": "Some female animals living in groups raise offspring that are not their own, sometimes without reproducing themselves. While the behavior of cooperatively breeding species is well documented, some aspects remain poorly u…",
+      "ts": 1789474805000,
+      "publishedAt": "2026-09-15T12:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Poorly fitting sports bras are forcing some women and girls away from sport",
+      "url": "https://phys.org/news/2026-09-poorly-sports-bras-women-girls.html",
+      "summary": "Australian sport has a participation problem, especially when it comes to girls and women.",
+      "ts": 1789474801000,
+      "publishedAt": "2026-09-15T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Frontline trauma: Alarming PTSD rates in WA police revealed",
+      "url": "https://phys.org/news/2026-09-frontline-trauma-alarming-ptsd-wa.html",
+      "summary": "More than one-third of Western Australia's police officers report symptoms of post-traumatic stress disorder (PTSD), new research led by Edith Cowan University (ECU) and published in the journal Australian Psychologist h…",
+      "ts": 1789473601000,
+      "publishedAt": "2026-09-15T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rust prevention coating uses nanotech to self-repair and conquer corrosion",
+      "url": "https://phys.org/news/2026-09-rust-coating-nanotech-conquer-corrosion.html",
+      "summary": "A single application of a \"smart\" self-repairing coating is being developed to dramatically extend rust protection for buildings, bridges, cars and other steel components.",
+      "ts": 1789472401000,
+      "publishedAt": "2026-09-15T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new approach to forecasting toxic metals in wildfire smoke",
+      "url": "https://phys.org/news/2026-09-approach-toxic-metals-wildfire.html",
+      "summary": "In early July 2026, Stanford postdoctoral researcher Alex Honeyman and graduate student Mark Leone attached a box the size of a briefcase to a fire truck in Colorado that was about to be dispatched to a wildfire 300 mile…",
+      "ts": 1789471209000,
+      "publishedAt": "2026-09-15T11:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A famous galaxy's black hole has been hiding its most violent behavior",
+      "url": "https://phys.org/news/2026-09-famous-galaxy-black-hole-violent.html",
+      "summary": "Astronomers have found that a nearby galaxy's black hole is blasting out a far more powerful and hidden gas outflow than previously realized. Studying NGC 1068, a well-known galaxy with an actively feeding black hole at …",
+      "ts": 1789471201000,
+      "publishedAt": "2026-09-15T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global commission launches to rebuild trust in science and protect academic freedom",
+      "url": "https://phys.org/news/2026-09-global-commission-rebuild-science-academic.html",
+      "summary": "In an era marked by social, economic, environmental, technological and political tensions, academic institutions can help societies navigate complex health challenges and generate sound, evidence-based solutions. But the…",
+      "ts": 1789470004000,
+      "publishedAt": "2026-09-15T11:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Could the clues to ancient alien civilizations be hiding in moon dust?",
+      "url": "https://phys.org/news/2026-09-clues-ancient-alien-civilizations-moon.html",
+      "summary": "Most of our experience with the Search for Extraterrestrial Intelligence (SETI) has focused on capturing radio signals that alien species have sent out, whether intentionally or unintentionally. That creates a huge \"sync…",
+      "ts": 1789467601000,
+      "publishedAt": "2026-09-15T10:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Just add fish: Scientists pursue more rice, less disease in Senegal paddies",
+      "url": "https://phys.org/news/2026-09-fish-scientists-pursue-rice-disease.html",
+      "summary": "Half smiling through crinkled eyes, Moussa Ndiaye, in his long tunic and skullcap, watched a combine harvest his northern Senegal rice paddy, where he expects a good haul—not just of grain.",
+      "ts": 1789464001000,
+      "publishedAt": "2026-09-15T09:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Responsibilities in close social relationships explain Eastern–Western cultural differences",
+      "url": "https://phys.org/news/2026-09-responsibilities-social-relationships-easternwestern-cultural.html",
+      "summary": "Do you think that a person who reorganizes their life so that their aging parents can live with them would be likely to push another out of the way on the subway? What about greeting strangers with a smile? The answers t…",
+      "ts": 1789462815000,
+      "publishedAt": "2026-09-15T09:00:15.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indigenous Australian population was much larger than previously thought and decimated after First Fleet's arrival",
+      "url": "https://phys.org/news/2026-09-indigenous-australian-population-larger-previously.html",
+      "summary": "Australia had a much larger Indigenous population before the arrival of Europeans than previously thought, according to new research. The research also demonstrates much larger population losses resulting from colonizati…",
+      "ts": 1789462802000,
+      "publishedAt": "2026-09-15T09:00:02.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Evaluating E-OBS, AgERA5, MARS-STAT, ERA5, and ERA5-Land for Daily Minimum and Maximum Temperature Across Four Mediterranean European Countries",
@@ -687,118 +799,6 @@
       "title": "A Latent Oscillator Measurement Model to Simulate Emotional-Expression Score Dynamics in Video",
       "url": "https://arxiv.org/abs/2609.15273",
       "summary": "arXiv:2609.15273v1 Announce Type: new Abstract: Facial-expression classifiers convert video into multivariate time series of scores with measurement error from classifiers, videos, and recording conditions. Empirical sco…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-efficiency integrated laser on erbium-doped lithium niobate-on-insulator",
-      "url": "https://arxiv.org/abs/2609.15304",
-      "summary": "arXiv:2609.15304v1 Announce Type: new Abstract: Lithium niobate on insulator (LNOI) combines the outstanding optical properties of lithium niobate (LN) with strong optical confinement, scalable fabrication and high-densi…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diagonal Born--Oppenheimer correction in strong magnetic fields: finite-difference approach for light diatomic molecules",
-      "url": "https://arxiv.org/abs/2609.15327",
-      "summary": "arXiv:2609.15327v1 Announce Type: new Abstract: The influence of the diagonal Born--Oppenheimer correction (DBOC) on the electronic structure of light diatomic molecules subjected to strong magnetic fields is investigate…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Forced Coincidence and Its Boundary in Finite Condition Structures",
-      "url": "https://arxiv.org/abs/2609.15349",
-      "summary": "arXiv:2609.15349v1 Announce Type: new Abstract: Accounts of organizational dissolution explain survivor homogenization, temporally concentrated exit, and fragmentation into cohesive subgroups in different vocabularies. T…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "State-Dependent Diffusion and Spectra of Strongly Driven Thermal Atoms",
-      "url": "https://arxiv.org/abs/2609.15351",
-      "summary": "arXiv:2609.15351v1 Announce Type: new Abstract: We propose a state-dependent diffusion model for strongly driven thermal-atom spectra. Starting from the trajectory-dependent internal-state evolution of individual atoms, …",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Micro-transfer Printed Blue InGaN Lasers on Silicon Nitride Photonic Integrated Circuits",
-      "url": "https://arxiv.org/abs/2609.15390",
-      "summary": "arXiv:2609.15390v1 Announce Type: new Abstract: Expanding integrated photonics into the blue spectral range requires high-performance light sources, making the gallium nitride (GaN) material family indispensable. While s…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contact mechanics and friction of soft materials: an apparatus combining multi-axes dynamical actuation/measurement and in situ/in operando visualisation",
-      "url": "https://arxiv.org/abs/2609.15395",
-      "summary": "arXiv:2609.15395v1 Announce Type: new Abstract: The mechanics and friction of contact interfaces involving soft materials like gel, rubber or human skin are of both fundamental and applied interest. Recent insights have …",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Symmetry-Constrained Fourier--Morse Framework for Compact Anisotropic Interaction Potentials",
-      "url": "https://arxiv.org/abs/2609.15405",
-      "summary": "arXiv:2609.15405v1 Announce Type: new Abstract: Large-scale coarse-grained simulations of anisotropic particles require compact interaction models that retain orientation-dependent energetics. We present a symmetry-const…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A nonlinear hydrodynamic theory of ultrafast laser self-organization",
-      "url": "https://arxiv.org/abs/2609.15421",
-      "summary": "arXiv:2609.15421v1 Announce Type: new Abstract: Ultrashort laser pulses can induce order out of chaos. A femtosecond pulse melts a metal surface for about a hundred picoseconds; under photoexcitation with no net polariza…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Second-order Rayleigh-Schr\\\"odinger Perturbation Theory for the {\\sc Grasp}2018 Package: Core-valence Correlations",
-      "url": "https://arxiv.org/abs/2609.15430",
-      "summary": "arXiv:2609.15430v1 Announce Type: new Abstract: The General Relativistic Atomic Structure package [{\\sc Grasp}2018, C. Froese Fischer, G. Gaigalas, P. J\\\"onsson, J. Biero\\'n, Comput. Phys. Commun. (2019), DOI: 10.1016/j.…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Online local learning for generative thermodynamic computing",
-      "url": "https://arxiv.org/abs/2609.15439",
-      "summary": "arXiv:2609.15439v1 Announce Type: new Abstract: Generative thermodynamic computers turn thermal noise into structured data through Langevin dynamics. We train these systems with a local update at each integration step. T…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automatic control of gold nanoparticle clustering in plasmonic nanopores based on Raman spectroscopic feedback",
-      "url": "https://arxiv.org/abs/2609.15469",
-      "summary": "arXiv:2609.15469v1 Announce Type: new Abstract: Plasmonic nanopores have been used to trap single nanoparticles using electric bias for single-molecule surface enhanced Raman spectroscopic (SM-SERS) detection and sequenc…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The life and death of football team runs: survival of collective modes shapes L\\'evy-like transport",
-      "url": "https://arxiv.org/abs/2609.15541",
-      "summary": "arXiv:2609.15541v1 Announce Type: new Abstract: Broad run-length distributions and short-lag superdiffusion have recently been reported in football players and team centroids, prompting a collective-foraging interpretati…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sliding contact fraction in gravity-driven dense cohesionless granular flows",
-      "url": "https://arxiv.org/abs/2609.15546",
-      "summary": "arXiv:2609.15546v1 Announce Type: new Abstract: Using large-scale, three-dimensional discrete element simulations, we investigate the kinematic properties of granular chute flows of cohesionless grains, together with the…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Increase of the electromechanical coupling of piezoelectric vibration harvesters through lateral bars",
-      "url": "https://arxiv.org/abs/2609.15557",
-      "summary": "arXiv:2609.15557v1 Announce Type: new Abstract: To enhance the performance of vibration energy harvesters, it is essential to maximise the electromechanical coupling coefficient k${}^2$ of piezoelectric devices. This ena…",
       "ts": 1789444800000,
       "publishedAt": "2026-09-15T04:00:00.000Z"
     }

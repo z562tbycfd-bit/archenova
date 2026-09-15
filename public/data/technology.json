@@ -1,7 +1,142 @@
 {
   "ok": true,
-  "updated": "2026-09-15T07:23:57.186Z",
+  "updated": "2026-09-15T13:16:00.170Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: New documents reveal problems with Medicare’s prior-authorization pilot",
+      "url": "https://www.statnews.com/2026/09/15/medicare-ai-prior-authorization-pilot-problems-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: The rushed launch of Medicare's AI prior-authorization pilot, policy hints from FDA, ONC officials, and more.",
+      "ts": 1789477581000,
+      "publishedAt": "2026-09-15T13:06:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
+      "url": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI chiefs Dario Amodei, Sam Alt…",
+      "ts": 1789474200000,
+      "publishedAt": "2026-09-15T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Businesses can now apply for NIH funding",
+      "url": "https://www.statnews.com/2026/09/15/health-news-businesses-can-now-apply-for-nih-funding/?utm_campaign=rss",
+      "summary": "RFK Jr. to speak at Children's Health Defense conference, how to protect your heart in outer space, and more health news",
+      "ts": 1789473813000,
+      "publishedAt": "2026-09-15T12:03:33.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI models need more data about biology, and OpenAI is paying to create it",
+      "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
+      "summary": "Last year, the clinical trial policy analyst Ruxandra Teslo posted an idea for super-charging medical AI systems: use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might…",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza remains recovery points to possible war crimes, says UN rights chief",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168335",
+      "summary": "Bodies are still being pulled from the rubble of Gaza, three years after Israeli bombardment flattened entire neighbourhoods – most of them women and children.",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Super El Niño’ deepens hunger crisis in South Sudan – WFP",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168334",
+      "summary": "The already dire hunger crisis in South Sudan is becoming increasingly critical as violence, extreme weather and dwindling aid leave millions without enough food, the UN World Food Programme (WFP) warned on Tuesday.",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Vera kidney drug Trutakna shows strong final results in Phase 3 trial",
+      "url": "https://www.statnews.com/2026/09/15/vera-kidney-drug-trutakna-shows-strong-phase-3-results-igan/?utm_campaign=rss",
+      "summary": "The drug stabilized kidney function and reduced the risk of death and other complications in IgAN patients",
+      "ts": 1789468200000,
+      "publishedAt": "2026-09-15T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "What’s at stake in AI’s trillion-dollar gamble",
+      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertain…",
+      "ts": 1789466400000,
+      "publishedAt": "2026-09-15T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+      "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+      "summary": "",
+      "ts": 1789462842000,
+      "publishedAt": "2026-09-15T09:00:42.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Exercise — and echocardiograms — in space protected astronauts’ hearts in study",
+      "url": "https://www.statnews.com/2026/09/15/heart-research-in-space-cardiovascular-health-nasa-astronauts-mars-mission/?utm_campaign=rss",
+      "summary": "If humans journey to Mars in 2035, exercise will be critical to keeping their hearts strong in microgravity.",
+      "ts": 1789462800000,
+      "publishedAt": "2026-09-15T09:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare’s AI prior authorization pilot was rushed and full of problems, new documents reveal",
+      "url": "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/?utm_campaign=rss",
+      "summary": "The rushed launch of a Medicare pilot to use AI for prior authorization led to delayed care in some instances, new documents reveal.",
+      "ts": 1789461000000,
+      "publishedAt": "2026-09-15T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: 3 lessons from the tobacco settlement on how states should use money from Meta",
+      "url": "https://www.statnews.com/2026/09/15/meta-facebook-social-media-addiction-lessons-learned-tobacco-master-settlement/?utm_campaign=rss",
+      "summary": "“Whether it’s nicotine or algorithms, the result is the same: reinforcing a behavior that is harmful to users,” writes Susan Morrisey.",
+      "ts": 1789461000000,
+      "publishedAt": "2026-09-15T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Scientific Forum Opening 2026: Delivering on the Promise of Cancer Care",
+      "url": "http://www.iaea.org/newscenter/multimedia/videos/scientific-forum-opening-2026-delivering-on-the-promise-of-cancer-care",
+      "summary": "",
+      "ts": 1789459140000,
+      "publishedAt": "2026-09-15T07:59:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "ESA",
+      "title": "FLEX and Sentinel-3C launch highlights ",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights",
+      "summary": "Video: 00:03:22 ESA’s state-of-the-art FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new mil…",
+      "ts": 1789455600000,
+      "publishedAt": "2026-09-15T07:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
+      "url": "http://www.iaea.org/newscenter/news/the-commonwealth-of-the-bahamas-signs-its-first-country-programme-framework-cpf-for-2026-2031",
+      "summary": "H.E. Ron O.",
+      "ts": 1789452577000,
+      "publishedAt": "2026-09-15T06:09:37.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "SpaceNews",
       "title": "Iceye’s global presence expands to address sovereign demand",
@@ -624,6 +759,42 @@
       "categoryId": "energy-climate"
     },
     {
+      "source": "Nature Energy",
+      "title": "Smart energy must address enshittification risks",
+      "url": "https://www.nature.com/articles/s41560-026-02138-y",
+      "summary": "",
+      "ts": 1789430400000,
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "A unified distillation and electrolysis system",
+      "url": "https://www.nature.com/articles/s41560-026-02136-0",
+      "summary": "",
+      "ts": 1789430400000,
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "A 250-kilowatt system for co-production of hydrogen and fresh water from seawater",
+      "url": "https://www.nature.com/articles/s41560-026-02130-6",
+      "summary": "",
+      "ts": 1789430400000,
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Exploring hydrogen pipeline costs by considering regional geographical and political characteristics",
+      "url": "https://www.nature.com/articles/s41560-026-02141-3",
+      "summary": "",
+      "ts": 1789430400000,
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "Judge blocks Trump administration plans to limit visa length for grad students, postdocs",
       "url": "https://www.statnews.com/2026/09/14/court-halts-dhs-visa-limits-foreign-scholars/?utm_campaign=rss",
@@ -640,177 +811,6 @@
       "ts": 1789419844000,
       "publishedAt": "2026-09-14T21:04:04.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Abbott agrees to settlement over closure of largest baby formula plant in the U.S.",
-      "url": "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/?utm_campaign=rss",
-      "summary": "Abbott has agreed to a $385 million settlement over the closure of the largest baby formula plant in the U.S., which led to the supply shortages in 2022.",
-      "ts": 1789413517000,
-      "publishedAt": "2026-09-14T19:18:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "New Crops, Health Research Proposals to Help NASA Advance Exploration",
-      "url": "https://science.nasa.gov/science-research/biological-physical-sciences/new-crops-health-research-proposals-to-help-nasa-advance-exploration/",
-      "summary": "NASA has selected 12 new investigations to help support human explorers in space. Six will help advance the ability to produce food off-planet, while another six advance the understanding of how unique conditions associa…",
-      "ts": 1789412400000,
-      "publishedAt": "2026-09-14T19:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Evonik Expands in Slovakia",
-      "url": "https://www.genengnews.com/topics/bioprocessing/evonik-expands-in-slovakia/",
-      "summary": "Compared with the conventional synthesis of chemicals, fermentation-based processes can offer a more sustainable route to selected intermediates by reducing the need for organic solvents and minimizing process-related wa…",
-      "ts": 1789411637000,
-      "publishedAt": "2026-09-14T18:47:17.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Pneumococcal Subtypes Influence the Impact of Air Pollution on Disease Risk",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/pneumococcal-subtypes-influence-the-impact-of-air-pollution-on-disease-risk/",
-      "summary": "Pneumococcal bacterial subtypes influence how air pollution affects invasive disease risk, with certain strains linked to greater or faster risks of pneumonia, sepsis, and meningitis. The post Pneumococcal Subtypes Influ…",
-      "ts": 1789409129000,
-      "publishedAt": "2026-09-14T18:05:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The AI industry has taken a doomer turn. What now?",
-      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace…",
-      "ts": 1789408462000,
-      "publishedAt": "2026-09-14T17:54:22.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Kennedy to deliver keynote for anti-vaccine group he once led",
-      "url": "https://www.statnews.com/2026/09/14/rfk-speech-childrens-health-defense-conference-washington/?utm_campaign=rss",
-      "summary": "RFK Jr. worked to distance himself from Children's Health Defense, the anti-vaccine group he once led. Now, he's delivering a keynote at CHD's conference.",
-      "ts": 1789407454000,
-      "publishedAt": "2026-09-14T17:37:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Sept. 21: What Comes Next for On-Orbit Servicing?",
-      "url": "https://spacenews.com/what-comes-next-for-on-orbit-servicing-event/",
-      "summary": "Join us for conversations about the tech, policies and business models required to build a functioning in-orbit logistics ecosystem The post Sept. 21: What Comes Next for On-Orbit Servicing? appeared first on SpaceNews.",
-      "ts": 1789405761000,
-      "publishedAt": "2026-09-14T17:09:21.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Why Does a Particular Genetic Variant Lead to Accelerated Huntington Disease Development?",
-      "url": "https://www.genengnews.com/topics/translational-medicine/why-does-a-particular-genetic-variant-lead-to-accelerated-huntington-disease-development/",
-      "summary": "Study results suggest how a particular genetic variant can speed onset of Huntington disease motor symptoms by up to 12.5 years and accelerate clinical measures of disease progression, by driving runaway DNA changes insi…",
-      "ts": 1789405219000,
-      "publishedAt": "2026-09-14T17:00:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory  ",
-      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
-      "summary": "The Republic of Djibouti became the 72nd nation and eighth African country to sign the Artemis Accords during a ceremony Monday at NASA Headquarters in Washington. The Artemis Accords are the first set of practical princ…",
-      "ts": 1789404367000,
-      "publishedAt": "2026-09-14T16:46:07.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Donated livers can be made biologically younger",
-      "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
-      "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matt…",
-      "ts": 1789402302000,
-      "publishedAt": "2026-09-14T16:11:42.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: How $500 explains Republican health policy, and the GLP-1 Rx wave",
-      "url": "https://www.statnews.com/2026/09/14/trump-cash-obamacare-plans-rural-hospitals-artificial-intelligence/?utm_campaign=rss",
-      "summary": "The one health care policy Republicans agree on, and a look at how rural providers are approaching AI.",
-      "ts": 1789401775000,
-      "publishedAt": "2026-09-14T16:02:55.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Kicks Off Inspiration Tour with Steelers vs. Falcons Game",
-      "url": "https://www.nasa.gov/image-article/nasa-kicks-off-inspiration-tour-with-steelers-vs-falcons-game/",
-      "summary": "Fans pose for a photo with an astronaut in the NASA Experience Zone at an NFL game between the Pittsburgh Steelers and the Atlanta Falcons at Acrisure Stadium, Sunday, Sept. 13, 2026, in Pittsburgh, Pennsylvania. NASA’s …",
-      "ts": 1789401611000,
-      "publishedAt": "2026-09-14T16:00:11.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI agents blew the whistle on their cheating colleagues",
-      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Go…",
-      "ts": 1789401600000,
-      "publishedAt": "2026-09-14T16:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space’s growing billion-dollar club",
-      "url": "https://spacenews.com/spaces-growing-billion-dollar-club-spacenews-intelligence/",
-      "summary": "Download our new mapping of every private space company valued at $1 billion or more. The post Space’s growing billion-dollar club appeared first on SpaceNews.",
-      "ts": 1789400110000,
-      "publishedAt": "2026-09-14T15:35:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and…",
-      "ts": 1789398052000,
-      "publishedAt": "2026-09-14T15:00:52.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
-      "summary": "Did you spend part of your summer camping, hiking, at the pool, or in an aircraft? So did NASA’s 2025 Astronaut Candidate Class. The 10 candidates have been working their way through a comprehensive and rigorous training…",
-      "ts": 1789398000000,
-      "publishedAt": "2026-09-14T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Pennsylvania officials report state’s third death involving measles",
-      "url": "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/?utm_campaign=rss",
-      "summary": "A Pennsylvania woman has died from complications associated with measles, the third death in the state this year involving the virus.",
-      "ts": 1789396460000,
-      "publishedAt": "2026-09-14T14:34:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Questions? Ask our Hera Space Companion!",
-      "url": "https://www.esa.int/Space_Safety/Hera/Questions_Ask_our_Hera_Space_Companion",
-      "summary": "Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defe…",
-      "ts": 1789394400000,
-      "publishedAt": "2026-09-14T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: GSK touts lung cancer data from two drugs",
-      "url": "https://www.statnews.com/2026/09/14/biotech-news-gsk-touts-lung-cancer-data-from-two-drugs/?utm_campaign=rss",
-      "summary": "Late-stage results for Definium's LSD treatment, AstraZeneca breast cancer drug fails key trial, and more biotech news from The Readout",
-      "ts": 1789392877000,
-      "publishedAt": "2026-09-14T13:34:37.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
