@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-15T18:00:58.298Z",
+  "updated": "2026-09-15T21:57:21.984Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Exosomes Linked to Nerve Irritation, Dysfunction, and Lingering Pain After Shingles",
+      "url": "https://www.genengnews.com/topics/translational-medicine/exosomes-linked-to-nerve-irritation-dysfunction-and-lingering-pain-after-shingles/",
+      "summary": "The study suggests that exosomes in the blood may promote the continued nerve irritation and dysfunction that underly why some people with shingles experience lingering pain long after the varicella zoster virus has clea…",
+      "ts": 1789500534000,
+      "publishedAt": "2026-09-15T19:28:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "A fourth measles death is reported in Pennsylvania",
+      "url": "https://www.statnews.com/2026/09/15/fourth-measles-death-pennsylvania-acute-disseminated-encephalomyelitis/?utm_campaign=rss",
+      "summary": "Pennsylvania officials have reported a fourth measles-associated death within the past month, the latest in an unvaccinated 18-year-old.",
+      "ts": 1789497839000,
+      "publishedAt": "2026-09-15T18:43:59.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Roundtables: Could AI really kill us all?",
@@ -87,19 +105,10 @@
       "source": "STAT",
       "title": "STAT+: Medicare to expand its pilot that pays for technology to manage chronic diseases",
       "url": "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/?utm_campaign=rss",
-      "summary": "A recently-launched Medicare experiment that pays for technology to help people manage chronic conditions is expanding.",
+      "summary": "A recently launched Medicare experiment that pays for technology to help people manage chronic conditions is expanding.",
       "ts": 1789482524000,
       "publishedAt": "2026-09-15T14:28:44.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Reveals Dynamic Panorama of Star Formation",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
-      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images released to date from NASA’s James Webb Space Telescope. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less mas…",
-      "ts": 1789480800000,
-      "publishedAt": "2026-09-15T14:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "ESA",
@@ -118,6 +127,15 @@
       "ts": 1789480800000,
       "publishedAt": "2026-09-15T14:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Reveals Dynamic Panorama of Star Formation",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images released to date from NASA’s James Webb Space Telescope. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less mas…",
+      "ts": 1789480800000,
+      "publishedAt": "2026-09-15T14:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -790,24 +808,6 @@
       "title": "A senescent-immune reserve niche hypothesis for incomplete lobular involution in the aging breast",
       "url": "https://arxiv.org/abs/2605.13902",
       "summary": "arXiv:2605.13902v2 Announce Type: replace Abstract: Breast cancer incidence rises with age and peaks across the menopausal transition, yet why some postmenopausal lobules persist, and why that persistence predicts cancer…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EPI-KAN: A Method For Estimating and Forecasting Time-Dependent COVID-19 Parameters",
-      "url": "https://arxiv.org/abs/2607.15302",
-      "summary": "arXiv:2607.15302v3 Announce Type: replace Abstract: We introduce EPI-KAN, a novel method for estimating COVID-19 time-varying parameters. EPI-KAN uses historical epidemiological data, Physics-Informed Neural Network (PIN…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The role of nestedness and saturating feedback in bipartite ecological systems",
-      "url": "https://arxiv.org/abs/2607.24328",
-      "summary": "arXiv:2607.24328v2 Announce Type: replace Abstract: Large ecosystems balance competition and cooperation, yet standard generalized Lotka--Volterra models make mutualism destabilizing by amplifying disorder and driving un…",
       "ts": 1789444800000,
       "publishedAt": "2026-09-15T04:00:00.000Z",
       "categoryId": "bio"
