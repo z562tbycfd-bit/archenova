@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-15T13:16:00.170Z",
+  "updated": "2026-09-15T18:00:58.298Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+      "summary": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch …",
+      "ts": 1789494471000,
+      "publishedAt": "2026-09-15T17:47:51.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+      "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Z…",
+      "ts": 1789491359000,
+      "publishedAt": "2026-09-15T16:55:59.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+      "summary": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of…",
+      "ts": 1789491340000,
+      "publishedAt": "2026-09-15T16:55:40.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Right Resin, Right Order: A Two-Step Polishing Strategy for Bispecific Antibodies",
+      "url": "https://www.genengnews.com/multimedia/webinars/right-resin-right-order-a-two-step-polishing-strategy-for-bispecific-antibodies/",
+      "summary": "In this GEN webinar, our expert speaker, Emily Gaither, will present a systematic path from high-throughput resin screening to the selection and sequencing of two polishing steps, using emicizumab, an asymmetric IgG4 bsA…",
+      "ts": 1789490969000,
+      "publishedAt": "2026-09-15T16:49:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Celebrate International Observe the Moon Night with NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/",
+      "summary": "In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. On Saturday, Sept. 19, the public is invited to look up again with NASA events across the co…",
+      "ts": 1789488912000,
+      "publishedAt": "2026-09-15T16:15:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
+      "summary": "NASA astronaut Randy Bresnik (left) and ESA (European Space Agency) astronaut Luca Parmitano view progress on the solid rocket booster integration in High Bay 3 inside the Vehicle Assembly Building at NASA’s Kennedy Spac…",
+      "ts": 1789488864000,
+      "publishedAt": "2026-09-15T16:14:24.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "More satellites watch the battlefield, putting a premium on making sense of the data",
+      "url": "https://spacenews.com/more-satellites-watch-the-battlefield-putting-a-premium-on-making-sense-of-the-data/",
+      "summary": "Space Force programs are tapping satellite data and AI to get intelligence to military commanders faster The post More satellites watch the battlefield, putting a premium on making sense of the data appeared first on Spa…",
+      "ts": 1789487371000,
+      "publishedAt": "2026-09-15T15:49:31.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: RFK Jr. returns to his roots",
+      "url": "https://www.statnews.com/2026/09/15/rfk-childrens-health-defense-chris-klomp-hearings-dc-diagnosis/?utm_campaign=rss",
+      "summary": "Kennedy will keynote a Children's Health Defense event, and hospitals are disappointed by GOP's rural health fund.",
+      "ts": 1789484120000,
+      "publishedAt": "2026-09-15T14:55:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Consolidating Antibody Discovery Data with an AI Platform",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/consolidating-antibody-discovery-data-with-an-ai-platform/",
+      "summary": "The Sapio Scientific AI platform gives scientists a single, structured environment where experimental records connect directly to client deliverables and where time spent on data consolidation becomes time spent on scien…",
+      "ts": 1789482653000,
+      "publishedAt": "2026-09-15T14:30:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare to expand its pilot that pays for technology to manage chronic diseases",
+      "url": "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/?utm_campaign=rss",
+      "summary": "A recently-launched Medicare experiment that pays for technology to help people manage chronic conditions is expanding.",
+      "ts": 1789482524000,
+      "publishedAt": "2026-09-15T14:28:44.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Reveals Dynamic Panorama of Star Formation",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images released to date from NASA’s James Webb Space Telescope. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less mas…",
+      "ts": 1789480800000,
+      "publishedAt": "2026-09-15T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb reveals stunning panorama of star formation",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation",
+      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images from the NASA/ESA/CSA James Webb Space Telescope released to the public so far. Using Webb, astronomers searched IC 348 for brown dwa…",
+      "ts": 1789480800000,
+      "publishedAt": "2026-09-15T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA takes applications for new program to shorten drug approval times",
+      "url": "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/?utm_campaign=rss",
+      "summary": "The FDA is opening applications for a pilot program designed to shorten drug approval timelines and help the U.S. compete with countries like China and Australia.",
+      "ts": 1789480800000,
+      "publishedAt": "2026-09-15T14:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Obesity drugmakers are testing in kids as young as 6",
+      "url": "https://www.statnews.com/2026/09/15/biotech-news-obesity-drugmakers-are-testing-in-kids-as-young-as-si/?utm_campaign=rss",
+      "summary": "Vera seeks kidney drug approval, early data from Syntis Bio, and other biotech news from The Readout",
+      "ts": 1789480215000,
+      "publishedAt": "2026-09-15T13:50:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Travel",
+      "url": "https://www.nasa.gov/centers-and-facilities/nssc/travel/",
+      "summary": "The NSSC provides travel reimbursement services for all authorized Agency travel including: domestic, foreign, local, ETDY, and Change of Station (COS). References Federal Travel Regulations (FTR) Traveler Extended TDY a…",
+      "ts": 1789479536000,
+      "publishedAt": "2026-09-15T13:38:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a GSK deal for a drug from China, job losses in the U.S., and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/15/gsk-china-drug-licensing-deal-job-losses/?utm_campaign=rss",
+      "summary": "GSK has continued its drive to bulk up its pipeline, taking global rights to a multiple myeloma treatment developed in China",
+      "ts": 1789478987000,
+      "publishedAt": "2026-09-15T13:29:47.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: New documents reveal problems with Medicare’s prior-authorization pilot",
@@ -33,10 +177,64 @@
       "source": "MIT Technology Review",
       "title": "AI models need more data about biology, and OpenAI is paying to create it",
       "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
-      "summary": "Last year, the clinical trial policy analyst Ruxandra Teslo posted an idea for super-charging medical AI systems: use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might…",
+      "summary": "Last year Ruxandra Teslo, a policy analyst who focuses on clinical trials, posted an idea for supercharging medical AI systems: Use data from failed biotech companies. By bidding at their bankruptcy proceedings, she prop…",
       "ts": 1789473600000,
       "publishedAt": "2026-09-15T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UNICEF says thousands of children require mental health support after Nepal floods",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168340",
+      "summary": "Three weeks after the devastating flash floods in Nepal, about 17,000 children require urgent mental health and psychosocial support in the country, the UN Children’s Fund (UNICEF) said on Tuesday.",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Escalating conflict drives new displacement in Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168339",
+      "summary": "The escalating conflict in Yemen is choking off aid shipments and driving fresh displacement, including to nearby Djibouti, with UN agencies reporting on Tuesday that nearly 100,000 people have been displaced since fight…",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola responders grapple with widening outbreak in DR Congo",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168338",
+      "summary": "The deadly Ebola virus outbreak in DR Congo continues to spread across the vast country despite some success in containing it, aid officials said on Tuesday, in a renewed call for international support to help responders…",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Back to school in Haiti: ‘Madame, can you stop what the gangs are doing to us?’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168337",
+      "summary": "When UNICEF’s Representative in Haiti Geetanjali Narayan stepped into a classroom in Port-au-Prince at the start of the new school year, she asked the children a simple question: What did they most need from the UN child…",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Attacks on education threaten an entire generation, UNICEF warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168336",
+      "summary": "In an underground classroom in Sumy, Ukraine, children sit quietly at their desks, busy with the day’s lessons. For the moment they are shielded from the horrors of nearly five years of war, but just barely.",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World fears major war more than any other global risk, UN survey finds",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168332",
+      "summary": "Two years ago, the idea of a large-scale war breaking out felt like a distant hypothetical to the experts who help chart the world’s dangers. Today it tops their list of fears, according to a new UN Global Risk Report.",
+      "ts": 1789473600000,
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -613,204 +811,6 @@
       "ts": 1789444800000,
       "publishedAt": "2026-09-15T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Comparison of Whole Slide Image Analysis and Diagnostic Field Selection in Pathology AI under Finite Resources",
-      "url": "https://arxiv.org/abs/2608.10846",
-      "summary": "arXiv:2608.10846v3 Announce Type: replace Abstract: An important question in pathology AI is how to allocate limited analytical resources between broad coverage of a whole slide image (WSI) and detailed analysis of selec…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The rise and evolution of a referential code in populations of bee-like agents",
-      "url": "https://arxiv.org/abs/2608.25779",
-      "summary": "arXiv:2608.25779v3 Announce Type: replace Abstract: Communication typically relies on a shared code, and any change to it must be coordinated between senders and receivers to avoid a breakdown of communication. The honey…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Platonic brain bridge hypothesis: human brain networks as an architectural prior for multimodal large language models",
-      "url": "https://arxiv.org/abs/2609.10947",
-      "summary": "arXiv:2609.10947v2 Announce Type: replace Abstract: Multimodal large language models predict brain activity, but brain alignment has been a measurement, not a design tool. We propose the Platonic brain bridge hypothesis:…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Universal Topological Regularity of Syntactic Structures",
-      "url": "https://arxiv.org/abs/2302.00129",
-      "summary": "arXiv:2302.00129v2 Announce Type: replace-cross Abstract: Despite their widespread use, the principles governing the organisation of syntactic dependency trees remain poorly understood. I analyse dependency trees from 12…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2506.07459",
-      "summary": "arXiv:2506.07459v5 Announce Type: replace-cross Abstract: Protein generative models have shown remarkable promise in protein design, yet their success rates remain constrained by reliance on curated sequence-structure da…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebycheff Scalarization",
-      "url": "https://arxiv.org/abs/2604.13175",
-      "summary": "arXiv:2604.13175v2 Announce Type: replace-cross Abstract: Large language models can be aligned with human preferences through offline reinforcement learning (RL) on small labeled datasets. While single-objective alignmen…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Generative diffusion models for spatiotemporal influenza forecasting",
-      "url": "https://arxiv.org/abs/2604.24913",
-      "summary": "arXiv:2604.24913v2 Announce Type: replace-cross Abstract: Forecasting infectious disease incidence can provide important information to guide public health planning, yet it is difficult because epidemic dynamics are comp…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Freezing the Physiological Encoder: Explanation Stability Under Bounded Updates of an ICU Model",
-      "url": "https://arxiv.org/abs/2607.19020",
-      "summary": "arXiv:2607.19020v4 Announce Type: replace-cross Abstract: Clinical prediction models deployed in intensive care units may require model updating when data distributions shift, yet unconstrained adaptation can alter model…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling",
-      "url": "https://arxiv.org/abs/2607.23518",
-      "summary": "arXiv:2607.23518v2 Announce Type: replace-cross Abstract: The rapid evolution of generative models has unlocked new potentials in protein binder design, a pivotal task in structural biology, by facilitating end-to-end ge…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Navigation driven by bidirectional information transmission between sensing and actuation",
-      "url": "https://arxiv.org/abs/2607.26798",
-      "summary": "arXiv:2607.26798v3 Announce Type: replace-cross Abstract: A wide variety of biological functions are driven by feedback between sensing and actuation. A paradigmatic example is cellular navigation. During navigation, the…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Uncertainty-Aware Missing-Data Multimodal Latent for Fetal-Growth Analysis",
-      "url": "https://arxiv.org/abs/2608.07590",
-      "summary": "arXiv:2608.07590v2 Announce Type: replace-cross Abstract: Objective: Routine third-trimester examination yields fetal biometry, maternal, Doppler and fetal-cardiac measurements, acquired at clinical discretion and theref…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sequential and distributive dual futile cycle: Hopf bifurcation can occur under parameter-rich kinetics but cannot occur under mass action kinetics",
-      "url": "https://arxiv.org/abs/2608.27081",
-      "summary": "arXiv:2608.27081v2 Announce Type: replace-cross Abstract: This paper establishes that the system of ordinary differential equations arising from the sequential and distributive dual futile cycle has the structural capaci…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Speed and stability of segregated waves in a pressure-based model of heterogeneous cell populations",
-      "url": "https://arxiv.org/abs/2609.09043",
-      "summary": "arXiv:2609.09043v2 Announce Type: replace-cross Abstract: We consider a minimal pressure-based model of heterogeneous cell populations consisting of proliferative and non-proliferative cells with different mobilities. Th…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Protected domains and the cost of cooperation on weighted networks",
-      "url": "https://arxiv.org/abs/2609.10463",
-      "summary": "arXiv:2609.10463v2 Announce Type: replace-cross Abstract: Contacts that protect a cooperative group can also make its founding sites difficult for newborn mutants to reach. We study this tension in a donation game with b…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "FLEX and Sentinel-3C launched",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
-      "summary": "The European Space Agency’s FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new milestone in E…",
-      "ts": 1789442700000,
-      "publishedAt": "2026-09-15T03:25:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Bridging the Global Gap in Cancer Care",
-      "url": "http://www.iaea.org/newscenter/news/bridging-the-global-gap-in-cancer-care",
-      "summary": "",
-      "ts": 1789439402000,
-      "publishedAt": "2026-09-15T02:30:02.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Smart energy must address enshittification risks",
-      "url": "https://www.nature.com/articles/s41560-026-02138-y",
-      "summary": "",
-      "ts": 1789430400000,
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "A unified distillation and electrolysis system",
-      "url": "https://www.nature.com/articles/s41560-026-02136-0",
-      "summary": "",
-      "ts": 1789430400000,
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "A 250-kilowatt system for co-production of hydrogen and fresh water from seawater",
-      "url": "https://www.nature.com/articles/s41560-026-02130-6",
-      "summary": "",
-      "ts": 1789430400000,
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Exploring hydrogen pipeline costs by considering regional geographical and political characteristics",
-      "url": "https://www.nature.com/articles/s41560-026-02141-3",
-      "summary": "",
-      "ts": 1789430400000,
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Judge blocks Trump administration plans to limit visa length for grad students, postdocs",
-      "url": "https://www.statnews.com/2026/09/14/court-halts-dhs-visa-limits-foreign-scholars/?utm_campaign=rss",
-      "summary": "A federal judge halted a Trump administration plan to place a four-year cap on the kinds of visas used by graduate students and postdocs",
-      "ts": 1789420848000,
-      "publishedAt": "2026-09-14T21:20:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Webinar 9/23: NASA CSDA Program Update 2026",
-      "url": "https://science.nasa.gov/science-research/earth-science/webinar-9-23-nasa-csda-program-update-2026/",
-      "summary": "This webinar will provide an overview of the CSDA program’s goals and activities, including the new Cal/Val initiative, and more.",
-      "ts": 1789419844000,
-      "publishedAt": "2026-09-14T21:04:04.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
