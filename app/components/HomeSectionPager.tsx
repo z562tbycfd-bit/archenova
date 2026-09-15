@@ -26,20 +26,41 @@ type ChapterTarget = {
 /* ==========================================================
    CHAPTERS
 
-   Fixed HOME architecture:
+   New HOME architecture:
 
-   01 Search
+   01 ArcheNova Map
+      Explore the ArcheNova system.
+
    02 Episteme
-   03 Inquiry
-   04 Knowledge
-   05 Intelligence
-   06 Realization
-   07 Governance
-   08 Experience
+      Dialogue, reasoning, and cognition.
 
-   Cards added inside Knowledge / Intelligence /
-   Realization / Governance / Experience do not become
-   new HomeSectionPager pages.
+   03 Today's Inquiry
+      Focus attention on a living question.
+
+   04 ArcheNova Valley
+      Where knowledge becomes reality.
+
+   Knowledge / Intelligence / Implementation /
+   Governance / Experience now live inside:
+
+   /archenova-valley
+
+   They are no longer independent HOME pages.
+
+   HOME:
+   Map
+   → Episteme
+   → Inquiry
+   → Valley
+
+   VALLEY:
+   Reality
+   → Knowledge
+   → Intelligence
+   → Implementation
+   → Governance
+   → Experience
+   → Civilization
 ========================================================== */
 
 const CHAPTER_TARGETS:
@@ -53,7 +74,7 @@ const CHAPTER_TARGETS:
       "⌭",
 
     title:
-      "SEARCH",
+      "MAP",
 
     subtitle:
       "Explore ArcheNova",
@@ -89,68 +110,16 @@ const CHAPTER_TARGETS:
 
   {
     id:
-      "civilization-library",
+      "archenova-valley",
 
     mark:
-      "⎅",
+      "☀︎",
 
     title:
-      "KNOWLEDGE",
+      "VALLEY",
 
     subtitle:
-      "What is known?",
-  },
-
-  {
-    id:
-      "civilization-intelligence",
-
-    mark:
-      "⚛︎",
-
-    title:
-      "INTELLIGENCE",
-
-    subtitle:
-      "What does it mean?",
-  },
-
-  {
-  id: "civilization-realization",
-
-  mark: "♅",
-
-  title: "IMPLEMENTATION",
-
-  subtitle: "How does it become real?",
-},
-
-  {
-    id:
-      "civilization-governance",
-
-    mark:
-      "♆",
-
-    title:
-      "GOVERNANCE",
-
-    subtitle:
-      "How may it scale?",
-  },
-
-  {
-    id:
-      "civilization-experience",
-
-    mark:
-      "❅",
-
-    title:
-      "EXPERIENCE",
-
-    subtitle:
-      "How is it experienced?",
+      "Knowledge → Reality",
   },
 ];
 
@@ -162,13 +131,16 @@ const CHAPTER_TARGETS:
 function scrollToChapter(
   id: string,
 ) {
+
   const element =
     document.getElementById(
       id,
     );
 
 
-  if (!element) {
+  if (
+    !element
+  ) {
     return;
   }
 
@@ -199,9 +171,9 @@ export default function HomeSectionPager() {
 
 
   /*
-   * Keep current active section available to
+   * Keep the current active section available to
    * IntersectionObserver without rebuilding the observer
-   * every time the active section changes.
+   * whenever the active HOME environment changes.
    */
   const activeIdRef =
     useRef<string>(
@@ -219,8 +191,10 @@ export default function HomeSectionPager() {
 
   useEffect(
     () => {
+
       activeIdRef.current =
         activeId;
+
     },
     [
       activeId,
@@ -230,6 +204,13 @@ export default function HomeSectionPager() {
 
   /* ========================================================
      ACTIVE SECTION DETECTION
+
+     The HOME now contains four large environments.
+
+     We continue to compare intersection ratios rather than
+     activating a section simply because it has entered the
+     viewport. This preserves the visual behavior of the
+     previous eight-section navigator.
   ======================================================== */
 
   useEffect(
@@ -264,10 +245,8 @@ export default function HomeSectionPager() {
 
 
       /*
-       * Store the most recent ratio for every HOME section.
-       *
-       * This is more stable than judging only the entries
-       * supplied by the current IntersectionObserver callback.
+       * Store the latest observed intersection ratio
+       * for every HOME environment.
        */
       const ratios =
         new Map<
@@ -280,10 +259,12 @@ export default function HomeSectionPager() {
         (
           element,
         ) => {
+
           ratios.set(
             element.id,
             0,
           );
+
         },
       );
 
@@ -301,10 +282,12 @@ export default function HomeSectionPager() {
 
                 ratios.set(
                   entry.target.id,
+
                   entry.isIntersecting
                     ? entry.intersectionRatio
                     : 0,
                 );
+
               },
             );
 
@@ -333,20 +316,23 @@ export default function HomeSectionPager() {
                   ratio >
                   strongestRatio
                 ) {
+
                   strongestRatio =
                     ratio;
 
                   strongestId =
                     target.id;
+
                 }
+
               },
             );
 
 
             /*
-             * Do not replace the active page when
-             * every tracked section is effectively outside
-             * the observation area.
+             * Preserve the current HOME environment
+             * when every tracked section is outside
+             * the effective observation area.
              */
             if (
               strongestRatio <=
@@ -360,20 +346,25 @@ export default function HomeSectionPager() {
               strongestId !==
               activeIdRef.current
             ) {
+
               activeIdRef.current =
                 strongestId;
+
 
               setActiveId(
                 strongestId,
               );
+
             }
 
           },
           {
             /*
-             * Multiple thresholds make detection stable
-             * for large full-page HOME sections as well as
-             * slightly shorter responsive sections.
+             * Keep the existing multi-threshold behavior.
+             *
+             * It remains useful because Map, Episteme,
+             * Inquiry, and Valley can have slightly
+             * different responsive heights.
              */
             threshold: [
               0.05,
@@ -386,8 +377,9 @@ export default function HomeSectionPager() {
             ],
 
             /*
-             * Slightly reduce the effective viewport so
-             * the next chapter is not activated too early.
+             * Slightly reduce the effective viewport
+             * so the next environment is not selected
+             * prematurely during smooth scrolling.
              */
             rootMargin:
               "-5% 0px -5% 0px",
@@ -399,15 +391,19 @@ export default function HomeSectionPager() {
         (
           element,
         ) => {
+
           observer.observe(
             element,
           );
+
         },
       );
 
 
       return () => {
+
         observer.disconnect();
+
       };
 
     },
@@ -493,8 +489,12 @@ export default function HomeSectionPager() {
             ? "is-edge"
             : "",
         ]
-          .filter(Boolean)
-          .join(" ")}
+          .filter(
+            Boolean,
+          )
+          .join(
+            " ",
+          )}
         onClick={() => {
 
           if (
@@ -507,11 +507,12 @@ export default function HomeSectionPager() {
           scrollToChapter(
             previousTarget.id,
           );
+
         }}
         aria-label={
           isFirst
-            ? "First HOME section"
-            : `Previous section: ${previousTarget.title}`
+            ? "First HOME environment"
+            : `Previous environment: ${previousTarget.title}`
         }
         disabled={
           isFirst
@@ -522,7 +523,7 @@ export default function HomeSectionPager() {
 
 
       {/* ===============================================
-          SECTION LIST
+          ENVIRONMENT LIST
       =============================================== */}
 
       <div className="chapter-nav-list">
@@ -557,9 +558,11 @@ export default function HomeSectionPager() {
                     " ",
                   )}
                 onClick={() => {
+
                   scrollToChapter(
                     target.id,
                   );
+
                 }}
                 aria-label={
                   `Go to ${target.title}`
@@ -574,6 +577,10 @@ export default function HomeSectionPager() {
                 }
               >
 
+                {/* =========================================
+                    SYMBOL
+                ========================================= */}
+
                 <span
                   className="chapter-nav-mark"
                   aria-hidden="true"
@@ -583,6 +590,10 @@ export default function HomeSectionPager() {
                   }
                 </span>
 
+
+                {/* =========================================
+                    COPY
+                ========================================= */}
 
                 <span className="chapter-nav-copy">
 
@@ -621,8 +632,12 @@ export default function HomeSectionPager() {
             ? "is-edge"
             : "",
         ]
-          .filter(Boolean)
-          .join(" ")}
+          .filter(
+            Boolean,
+          )
+          .join(
+            " ",
+          )}
         onClick={() => {
 
           if (
@@ -635,11 +650,12 @@ export default function HomeSectionPager() {
           scrollToChapter(
             nextTarget.id,
           );
+
         }}
         aria-label={
           isLast
-            ? "Last HOME section"
-            : `Next section: ${nextTarget.title}`
+            ? "Last HOME environment"
+            : `Next environment: ${nextTarget.title}`
         }
         disabled={
           isLast
