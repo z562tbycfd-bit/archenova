@@ -113,7 +113,7 @@ const CHAPTER_TARGETS:
       "archenova-valley",
 
     mark:
-      "☀︎",
+      "⏥",
 
     title:
       "VALLEY",
