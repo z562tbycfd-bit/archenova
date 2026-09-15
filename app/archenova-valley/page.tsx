@@ -1,508 +1,908 @@
 "use client";
 
-import type { ReactNode } from "react";
-import { useRef } from "react";
-import Link from "next/link";
+import type {
+  ReactNode,
+} from "react";
 
-import CivilizationLibrary from "../components/CivilizationLibrary";
-import CivilizationIntelligencePortal from "../components/CivilizationIntelligencePortal";
-import CivilizationExperiencePortal from "../components/CivilizationExperiencePortal";
-import CivilizationRealizationPortal from "../components/CivilizationRealizationPortal";
+import {
+  useRef,
+} from "react";
+
+import Link
+  from "next/link";
+
+import CivilizationLibrary
+  from "../components/CivilizationLibrary";
+
+import CivilizationIntelligencePortal
+  from "../components/CivilizationIntelligencePortal";
+
+import CivilizationExperiencePortal
+  from "../components/CivilizationExperiencePortal";
+
+import CivilizationRealizationPortal
+  from "../components/CivilizationRealizationPortal";
 
 
 /* ==========================================================
    TYPES
 ========================================================== */
 
-type ValleyDistrictProps = {
-  id: string;
+type ValleyCategoryProps = {
   code: string;
-  label: string;
+
+  category: string;
+
   question: string;
+
   description: string;
+
   children: ReactNode;
 };
 
-type ValleyRailProps = {
+
+type ValleyCategoryItemProps = {
   children: ReactNode;
+
+  className?: string;
 };
 
 
 /* ==========================================================
-   FUTURE DISTRICT CARD
+   VALLEY CATEGORY
 ========================================================== */
 
-function FutureDistrict({
+function ValleyCategory({
   code,
-  eyebrow,
-  title,
-  description,
-}: {
-  code: string;
-  eyebrow: string;
-  title: string;
-  description: string;
-}) {
-  return (
-    <article className="valley-future">
-      <div className="valley-future__top">
-        <span className="valley-future__code">{code}</span>
-
-        <span className="valley-future__status">
-          <i />
-          RESERVED
-        </span>
-      </div>
-
-      <div className="valley-future__body">
-        <span className="valley-future__eyebrow">{eyebrow}</span>
-
-        <h3>{title}</h3>
-
-        <p>{description}</p>
-      </div>
-
-      <div className="valley-future__line" aria-hidden="true" />
-    </article>
-  );
-}
-
-
-/* ==========================================================
-   HORIZONTAL RAIL
-========================================================== */
-
-function ValleyRail({
-  children,
-}: ValleyRailProps) {
-  const railRef =
-    useRef<HTMLDivElement | null>(null);
-
-  function move(
-    direction: "left" | "right",
-  ) {
-    const rail =
-      railRef.current;
-
-    if (!rail) {
-      return;
-    }
-
-    const amount =
-      Math.min(
-        rail.clientWidth * 0.78,
-        720,
-      );
-
-    rail.scrollBy({
-      left:
-        direction === "right"
-          ? amount
-          : -amount,
-
-      behavior: "smooth",
-    });
-  }
-
-  return (
-    <div className="valley-rail-shell">
-      <div className="valley-rail-shell__top">
-        <span>FUTURE DISTRICTS</span>
-
-        <div className="valley-rail-shell__controls">
-          <button
-            type="button"
-            onClick={() => move("left")}
-            aria-label="Previous future districts"
-          >
-            ←
-          </button>
-
-          <button
-            type="button"
-            onClick={() => move("right")}
-            aria-label="Next future districts"
-          >
-            →
-          </button>
-        </div>
-      </div>
-
-      <div
-        ref={railRef}
-        className="valley-rail"
-      >
-        {children}
-      </div>
-    </div>
-  );
-}
-
-
-/* ==========================================================
-   DISTRICT
-========================================================== */
-
-function ValleyDistrict({
-  id,
-  code,
-  label,
+  category,
   question,
   description,
   children,
-}: ValleyDistrictProps) {
+}: ValleyCategoryProps) {
+
+  const railRef =
+    useRef<HTMLDivElement | null>(
+      null,
+    );
+
+
+  function scrollRail(
+    direction:
+      | "left"
+      | "right",
+  ) {
+
+    const rail =
+      railRef.current;
+
+
+    if (
+      !rail
+    ) {
+      return;
+    }
+
+
+    const items =
+      Array.from(
+        rail.querySelectorAll<HTMLElement>(
+          ".an-valley-category__item",
+        ),
+      );
+
+
+    if (
+      items.length <=
+      1
+    ) {
+      return;
+    }
+
+
+    const railRect =
+      rail.getBoundingClientRect();
+
+
+    const currentIndex =
+      items.reduce(
+        (
+          closestIndex,
+          item,
+          index,
+        ) => {
+
+          const itemRect =
+            item.getBoundingClientRect();
+
+
+          const currentDistance =
+            Math.abs(
+              itemRect.left -
+              railRect.left,
+            );
+
+
+          const closestRect =
+            items[
+              closestIndex
+            ]
+              .getBoundingClientRect();
+
+
+          const closestDistance =
+            Math.abs(
+              closestRect.left -
+              railRect.left,
+            );
+
+
+          return currentDistance <
+            closestDistance
+            ? index
+            : closestIndex;
+
+        },
+        0,
+      );
+
+
+    const targetIndex =
+      direction ===
+      "right"
+        ? Math.min(
+            items.length -
+              1,
+            currentIndex +
+              1,
+          )
+        : Math.max(
+            0,
+            currentIndex -
+              1,
+          );
+
+
+    const target =
+      items[
+        targetIndex
+      ];
+
+
+    rail.scrollTo({
+      left:
+        target.offsetLeft,
+
+      behavior:
+        "smooth",
+    });
+  }
+
+
   return (
-    <section
-      id={id}
-      className="valley-district"
-    >
-      <div className="valley-district__layout">
+    <section className="an-valley-category">
 
-        {/* LEFT / IDENTITY */}
+      {/* ==================================================
+          CATEGORY HEADER
+      ================================================== */}
 
-        <header className="valley-district__header">
-          <div className="valley-district__number">
+      <header className="an-valley-category__header">
+
+        <div className="an-valley-category__identity">
+
+          <span>
             {code}
-          </div>
+          </span>
 
-          <div className="valley-district__label">
-            {label}
-          </div>
+          <strong>
+            {category}
+          </strong>
 
-          <h2>{question}</h2>
-
-          <p>{description}</p>
-
-          <div
-            className="valley-district__axis"
-            aria-hidden="true"
-          >
-            <span>REALITY</span>
-            <i />
-            <span>{label}</span>
-          </div>
-        </header>
-
-
-        {/* RIGHT / SYSTEM */}
-
-        <div className="valley-district__content">
-          {children}
         </div>
 
+
+        <div className="an-valley-category__purpose">
+
+          <h2>
+            {question}
+          </h2>
+
+          <p>
+            {description}
+          </p>
+
+        </div>
+
+
+        <div
+          className="an-valley-category__navigation"
+          aria-label={`${category} card navigation`}
+        >
+
+          <button
+            type="button"
+            className="
+              an-valley-category__nav
+              an-valley-category__nav--prev
+            "
+            onClick={() => {
+              scrollRail(
+                "left",
+              );
+            }}
+            aria-label={`Previous ${category} card`}
+          >
+            <span aria-hidden="true" />
+          </button>
+
+
+          <button
+            type="button"
+            className="
+              an-valley-category__nav
+              an-valley-category__nav--next
+            "
+            onClick={() => {
+              scrollRail(
+                "right",
+              );
+            }}
+            aria-label={`Next ${category} card`}
+          >
+            <span aria-hidden="true" />
+          </button>
+
+        </div>
+
+      </header>
+
+
+      {/* ==================================================
+          CATEGORY RAIL
+      ================================================== */}
+
+      <div
+        ref={
+          railRef
+        }
+        className="an-valley-category__rail"
+      >
+        {children}
       </div>
+
+
+      {/* ==================================================
+          CATEGORY FOOTER
+      ================================================== */}
+
+      <footer
+        className="an-valley-category__footer"
+        aria-hidden="true"
+      >
+
+        <span>
+          REALITY
+        </span>
+
+        <i />
+
+        <span>
+          {category}
+        </span>
+
+        <i />
+
+        <span>
+          ARCHENOVA VALLEY
+        </span>
+
+      </footer>
+
     </section>
   );
 }
 
 
 /* ==========================================================
-   PAGE
+   VALLEY CATEGORY ITEM
+========================================================== */
+
+function ValleyCategoryItem({
+  children,
+  className = "",
+}: ValleyCategoryItemProps) {
+
+  return (
+    <div
+      className={[
+        "an-valley-category__item",
+        className,
+      ]
+        .filter(Boolean)
+        .join(" ")}
+    >
+      {children}
+    </div>
+  );
+}
+
+
+/* ==========================================================
+   FUTURE SYSTEM
+
+   Reserved space for future dedicated components.
+========================================================== */
+
+function ValleyFutureSystem({
+  eyebrow,
+  title,
+  description,
+}: {
+  eyebrow: string;
+
+  title: string;
+
+  description: string;
+}) {
+
+  return (
+    <div className="an-valley-future-system">
+
+      <span className="an-valley-future-system__eyebrow">
+        {eyebrow}
+      </span>
+
+
+      <h3>
+        {title}
+      </h3>
+
+
+      <p>
+        {description}
+      </p>
+
+
+      <div className="an-valley-future-system__status">
+
+        <i />
+
+        <span>
+          DISTRICT RESERVED
+        </span>
+
+      </div>
+
+    </div>
+  );
+}
+
+
+/* ==========================================================
+   ARCHENOVA VALLEY
 ========================================================== */
 
 export default function ArcheNovaValleyPage() {
+
   return (
-    <main className="valley-page">
+    <main className="an-valley">
 
       {/* ==================================================
-          HERO
+          VALLEY HERO
       ================================================== */}
 
-      <section className="valley-hero">
+      <section
+        className="an-valley__hero"
+        aria-labelledby="an-valley-page-title"
+      >
+
+        {/* AMBIENT */}
 
         <div
-          className="valley-hero__glow"
+          className="an-valley__hero-ambient"
           aria-hidden="true"
         />
 
         <div
-          className="valley-hero__grid"
+          className="an-valley__hero-grid"
           aria-hidden="true"
         />
 
-        <header className="valley-hero__nav">
+
+        {/* TOP */}
+
+        <header className="an-valley__top">
+
           <Link
             href="/home"
-            className="valley-back"
+            className="an-valley__back"
           >
-            <span aria-hidden="true">←</span>
-            ARCHENOVA
+            <span
+              aria-hidden="true"
+              className="an-valley__back-arrow"
+            />
+
+            <span>
+              ARCHENOVA
+            </span>
           </Link>
 
-          <div className="valley-status">
+
+          <div className="an-valley__status">
+
             <i />
-            VALLEY ACTIVE
+
+            <span>
+              VALLEY ACTIVE
+            </span>
+
           </div>
+
         </header>
 
 
-        <div className="valley-hero__center">
+        {/* HERO CONTENT */}
 
-          <span className="valley-hero__eyebrow">
+        <div className="an-valley__hero-content">
+
+          <span className="an-valley__hero-eyebrow">
             REALITY → CIVILIZATION
           </span>
 
-          <h1>
-            ArcheNova Valley
+
+          <h1 id="an-valley-page-title">
+            ArcheNova
+            <br />
+            Valley
           </h1>
 
-          <p className="valley-hero__lead">
+
+          <p className="an-valley__hero-statement">
             Where knowledge becomes reality.
           </p>
 
-          <p className="valley-hero__description">
-            A civilization implementation ecosystem connecting
-            knowledge, intelligence, engineering, projects,
-            capital, governance, deployment, and human experience.
+
+          <p className="an-valley__hero-description">
+            A civilization implementation ecosystem
+            connecting knowledge, intelligence,
+            engineering, projects, capital,
+            governance, deployment, and human
+            experience.
           </p>
 
         </div>
 
 
-        {/* DISTRICT NAV */}
+        {/* ==================================================
+            VALLEY FLOW
+        ================================================== */}
 
-        <nav
-          className="valley-map"
-          aria-label="ArcheNova Valley districts"
+        <div
+          className="an-valley__flow"
+          aria-label="ArcheNova Valley civilization flow"
         >
-          <div
-            className="valley-map__line"
-            aria-hidden="true"
-          />
 
-          <a href="#knowledge">
+          <div className="an-valley__flow-line" />
+
+
+          <a
+            href="#knowledge"
+            className="
+              an-valley__flow-node
+              an-valley__flow-node--knowledge
+            "
+          >
             <i />
-            <span>01</span>
-            <strong>KNOWLEDGE</strong>
+
+            <span>
+              01
+            </span>
+
+            <strong>
+              KNOWLEDGE
+            </strong>
           </a>
 
-          <a href="#intelligence">
+
+          <a
+            href="#intelligence"
+            className="
+              an-valley__flow-node
+              an-valley__flow-node--intelligence
+            "
+          >
             <i />
-            <span>02</span>
-            <strong>INTELLIGENCE</strong>
+
+            <span>
+              02
+            </span>
+
+            <strong>
+              INTELLIGENCE
+            </strong>
           </a>
 
-          <a href="#implementation">
+
+          <a
+            href="#implementation"
+            className="
+              an-valley__flow-node
+              an-valley__flow-node--implementation
+            "
+          >
             <i />
-            <span>03</span>
-            <strong>IMPLEMENTATION</strong>
+
+            <span>
+              03
+            </span>
+
+            <strong>
+              IMPLEMENTATION
+            </strong>
           </a>
 
-          <a href="#governance">
+
+          <a
+            href="#governance"
+            className="
+              an-valley__flow-node
+              an-valley__flow-node--governance
+            "
+          >
             <i />
-            <span>04</span>
-            <strong>GOVERNANCE</strong>
+
+            <span>
+              04
+            </span>
+
+            <strong>
+              GOVERNANCE
+            </strong>
           </a>
 
-          <a href="#experience">
+
+          <a
+            href="#experience"
+            className="
+              an-valley__flow-node
+              an-valley__flow-node--experience
+            "
+          >
             <i />
-            <span>05</span>
-            <strong>EXPERIENCE</strong>
+
+            <span>
+              05
+            </span>
+
+            <strong>
+              EXPERIENCE
+            </strong>
           </a>
-        </nav>
+
+        </div>
+
+
+        <div className="an-valley__hero-footer">
+
+          <span>
+            REALITY
+          </span>
+
+          <i />
+
+          <span>
+            KNOWLEDGE
+          </span>
+
+          <i />
+
+          <span>
+            CAPABILITY
+          </span>
+
+          <i />
+
+          <span>
+            CIVILIZATION
+          </span>
+
+        </div>
 
       </section>
 
 
       {/* ==================================================
-          VALLEY BODY
+          01
+          KNOWLEDGE
       ================================================== */}
 
-      <div className="valley-body">
+      <section
+        id="knowledge"
+        className="
+          an-valley__district
+          an-valley__district--knowledge
+        "
+      >
 
-        {/* ==================================================
-            01 KNOWLEDGE
-        ================================================== */}
-
-        <ValleyDistrict
-          id="knowledge"
+        <ValleyCategory
           code="01"
-          label="KNOWLEDGE"
+          category="KNOWLEDGE"
           question="What has been established?"
           description="Preserve reproducible evidence, research, records, and validated knowledge that can remain independently accessible and reconstructable."
         >
-          <div className="valley-system-frame">
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--library
+            "
+          >
             <CivilizationLibrary />
-          </div>
-        </ValleyDistrict>
+          </ValleyCategoryItem>
+
+        </ValleyCategory>
+
+      </section>
 
 
-        {/* ==================================================
-            02 INTELLIGENCE
-        ================================================== */}
+      {/* ==================================================
+          02
+          INTELLIGENCE
+      ================================================== */}
 
-        <ValleyDistrict
-          id="intelligence"
+      <section
+        id="intelligence"
+        className="
+          an-valley__district
+          an-valley__district--intelligence
+        "
+      >
+
+        <ValleyCategory
           code="02"
-          label="INTELLIGENCE"
+          category="INTELLIGENCE"
           question="What does it mean?"
           description="Transform evidence and changing signals into structured understanding of capability, risk, infrastructure, coordination, and future trajectories."
         >
-          <div className="valley-system-frame">
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--intelligence
+            "
+          >
             <CivilizationIntelligencePortal />
-          </div>
-        </ValleyDistrict>
+          </ValleyCategoryItem>
+
+        </ValleyCategory>
+
+      </section>
 
 
-        {/* ==================================================
-            03 IMPLEMENTATION
-        ================================================== */}
+      {/* ==================================================
+          03
+          IMPLEMENTATION
 
-        <ValleyDistrict
-          id="implementation"
+          Realization
+          → Projects
+          → Commercialization
+          → Capital
+          → Governance
+          → Deployment
+      ================================================== */}
+
+      <section
+        id="implementation"
+        className="
+          an-valley__district
+          an-valley__district--implementation
+        "
+      >
+
+        <ValleyCategory
           code="03"
-          label="IMPLEMENTATION"
+          category="IMPLEMENTATION"
           question="How does knowledge become reality?"
           description="Move validated knowledge through realization, projects, commercialization, capital, governance, and deployment until capability can survive real-world use without losing responsibility or correctability."
         >
 
-          {/* REALIZATION = PRIMARY */}
+          {/* =============================================
+              01 / REALIZATION
+          ============================================= */}
 
-          <div className="valley-primary-system">
-
-            <div className="valley-primary-system__heading">
-              <span>
-                ACTIVE SYSTEM
-              </span>
-
-              <strong>
-                REALIZATION
-              </strong>
-            </div>
-
-            <div className="valley-system-frame">
-              <CivilizationRealizationPortal />
-            </div>
-
-          </div>
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--implementation
+              an-valley-category__item--realization
+            "
+          >
+            <CivilizationRealizationPortal />
+          </ValleyCategoryItem>
 
 
-          {/* FUTURE IMPLEMENTATION DISTRICTS */}
+          {/* =============================================
+              02 / PROJECTS
+          ============================================= */}
 
-          <ValleyRail>
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--implementation
+              an-valley-category__item--projects
+            "
+          >
 
-            <FutureDistrict
-              code="02"
-              eyebrow="PROJECT FORMATION"
+            <ValleyFutureSystem
+              eyebrow="02 · PROJECT FORMATION"
               title="Projects"
-              description="Convert realizable capability into concrete projects with defined objectives, stakeholders, resources, milestones, and measurable success conditions."
+              description="Convert realizable capability into concrete projects with defined objectives, sites, stakeholders, resources, timelines, technical milestones, and measurable success conditions."
             />
 
-            <FutureDistrict
-              code="03"
-              eyebrow="VALUE FORMATION"
+          </ValleyCategoryItem>
+
+
+          {/* =============================================
+              03 / COMMERCIALIZATION
+          ============================================= */}
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--implementation
+              an-valley-category__item--commercialization
+            "
+          >
+
+            <ValleyFutureSystem
+              eyebrow="03 · VALUE FORMATION"
               title="Commercialization"
-              description="Determine whether validated capability can become an adoptable product, service, platform, or infrastructure with real demand and sustainable operation."
+              description="Determine whether a validated capability can become an adoptable product, service, platform, or infrastructure with real demand, viable economics, manufacturing, and sustainable operation."
             />
 
-            <FutureDistrict
-              code="04"
-              eyebrow="CAPITAL ARCHITECTURE"
+          </ValleyCategoryItem>
+
+
+          {/* =============================================
+              04 / CAPITAL
+          ============================================= */}
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--implementation
+              an-valley-category__item--capital
+            "
+          >
+
+            <ValleyFutureSystem
+              eyebrow="04 · CAPITAL ARCHITECTURE"
               title="Capital"
-              description="Structure resources for implementation while defining who bears risk, absorbs failure, and remains accountable for continued investment."
+              description="Structure the resources required for implementation while defining who bears risk, who absorbs failure, how capital remains accountable, and what conditions justify continued investment."
             />
 
-            <FutureDistrict
-              code="05"
-              eyebrow="RESPONSIBILITY GATE"
+          </ValleyCategoryItem>
+
+
+          {/* =============================================
+              05 / GOVERNANCE
+          ============================================= */}
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--implementation
+              an-valley-category__item--implementation-governance
+            "
+          >
+
+            <ValleyFutureSystem
+              eyebrow="05 · RESPONSIBILITY GATE"
               title="Governance"
-              description="Define authority, accountability, constraints, correction capacity, recovery pathways, and responsibility before implementation expands."
+              description="Define the authority, accountability, constraints, correction capacity, recovery pathways, and responsibility required before implementation may expand in scale."
             />
 
-            <FutureDistrict
-              code="06"
-              eyebrow="REAL-WORLD OPERATION"
+          </ValleyCategoryItem>
+
+
+          {/* =============================================
+              06 / DEPLOYMENT
+          ============================================= */}
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--implementation
+              an-valley-category__item--deployment
+            "
+          >
+
+            <ValleyFutureSystem
+              eyebrow="06 · REAL-WORLD OPERATION"
               title="Deployment"
-              description="Determine whether implemented systems remain reliable, useful, correctable, maintainable, and valuable under real operating conditions."
+              description="Test whether the implemented system remains reliable, useful, correctable, maintainable, and valuable under real operating conditions before it becomes durable infrastructure."
             />
 
-          </ValleyRail>
+          </ValleyCategoryItem>
 
-        </ValleyDistrict>
+        </ValleyCategory>
 
-
-        {/* ==================================================
-            04 GOVERNANCE
-        ================================================== */}
-
-        <ValleyDistrict
-          id="governance"
-          code="04"
-          label="GOVERNANCE"
-          question="Under what responsibility may it scale?"
-          description="Define authority, accountability, institutional constraints, correction capacity, recovery pathways, and the conditions under which civilization-scale capability may legitimately persist and expand."
-        >
-          <div className="valley-governance-placeholder">
-
-            <div className="valley-governance-placeholder__top">
-              <span>
-                RESPONSIBILITY ARCHITECTURE
-              </span>
-
-              <span className="valley-governance-placeholder__status">
-                <i />
-                RESERVED
-              </span>
-            </div>
-
-            <div className="valley-governance-placeholder__body">
-              <span>04 / GOVERNANCE</span>
-
-              <h3>
-                Civilization
-                <br />
-                Governance
-              </h3>
-
-              <p>
-                Define responsibility, authority, institutional
-                constraints, correction, recovery, and the
-                conditions under which civilization-scale
-                capability may legitimately acquire durable power.
-              </p>
-            </div>
-
-            <div
-              className="valley-governance-placeholder__orbit"
-              aria-hidden="true"
-            >
-              <i />
-              <i />
-              <i />
-            </div>
-
-          </div>
-        </ValleyDistrict>
-
-
-        {/* ==================================================
-            05 EXPERIENCE
-        ================================================== */}
-
-        <ValleyDistrict
-          id="experience"
-          code="05"
-          label="EXPERIENCE"
-          question="How can humans encounter it?"
-          description="Transform validated capability into accessible interaction, exploration, participation, and direct human experience."
-        >
-          <div className="valley-system-frame">
-            <CivilizationExperiencePortal />
-          </div>
-        </ValleyDistrict>
-
-      </div>
+      </section>
 
 
       {/* ==================================================
-          TERMINUS
+          04
+          GOVERNANCE
       ================================================== */}
 
-      <section className="valley-terminus">
+      <section
+        id="governance"
+        className="
+          an-valley__district
+          an-valley__district--governance
+        "
+      >
 
-        <span className="valley-terminus__eyebrow">
+        <ValleyCategory
+          code="04"
+          category="GOVERNANCE"
+          question="Under what responsibility may it scale?"
+          description="Define the authority, accountability, institutional constraints, correction capacity, recovery pathways, and conditions under which civilization-scale capability may legitimately persist and expand."
+        >
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--governance
+            "
+          >
+
+            <ValleyFutureSystem
+              eyebrow="RESPONSIBILITY ARCHITECTURE"
+              title="Civilization Governance"
+              description="Define responsibility, authority, institutional constraints, correction, recovery, and the conditions under which civilization-scale capability may legitimately acquire durable power."
+            />
+
+          </ValleyCategoryItem>
+
+        </ValleyCategory>
+
+      </section>
+
+
+      {/* ==================================================
+          05
+          EXPERIENCE
+      ================================================== */}
+
+      <section
+        id="experience"
+        className="
+          an-valley__district
+          an-valley__district--experience
+        "
+      >
+
+        <ValleyCategory
+          code="05"
+          category="EXPERIENCE"
+          question="How can humans encounter it?"
+          description="Transform validated capability into accessible interaction, exploration, participation, and direct human experience."
+        >
+
+          <ValleyCategoryItem
+            className="
+              an-valley-category__item--experience
+            "
+          >
+            <CivilizationExperiencePortal />
+          </ValleyCategoryItem>
+
+        </ValleyCategory>
+
+      </section>
+
+
+      {/* ==================================================
+          CIVILIZATION TERMINUS
+      ================================================== */}
+
+      <section className="an-valley__terminus">
+
+        <span className="an-valley__terminus-eyebrow">
           REALITY → CIVILIZATION
         </span>
+
 
         <h2>
           Build what can
@@ -510,25 +910,32 @@ export default function ArcheNovaValleyPage() {
           survive reality.
         </h2>
 
+
         <p>
-          Knowledge becomes consequential only when it can be
-          transformed into capability, governed under responsibility,
-          corrected under failure, and preserved as durable human value.
+          Knowledge becomes consequential only when
+          it can be transformed into capability,
+          governed under responsibility, corrected
+          under failure, and preserved as durable
+          human value.
         </p>
+
 
         <Link
           href="/home"
-          className="valley-terminus__return"
+          className="an-valley__return"
         >
-          Return to ArcheNova
-          <span aria-hidden="true">→</span>
+          <span>
+            Return to ArcheNova
+          </span>
+
+          <i aria-hidden="true" />
         </Link>
 
       </section>
 
 
       {/* ==================================================
-          STYLES
+          GLOBAL PAGE STYLES
       ================================================== */}
 
       <style jsx global>{`
@@ -536,6 +943,7 @@ export default function ArcheNovaValleyPage() {
         html {
           scroll-behavior: smooth;
         }
+
 
         body {
           background: #000;
@@ -546,11 +954,14 @@ export default function ArcheNovaValleyPage() {
            PAGE
         ================================================== */
 
-        .valley-page {
+        .an-valley {
+          position: relative;
+
           width: 100%;
+
           min-height: 100vh;
 
-          overflow-x: hidden;
+          overflow: hidden;
 
           background:
             #000;
@@ -564,127 +975,192 @@ export default function ArcheNovaValleyPage() {
            HERO
         ================================================== */
 
-        .valley-hero {
+        .an-valley__hero {
           position: relative;
+
           isolation: isolate;
 
-          min-height: 760px;
-          height: min(92svh, 920px);
+          min-height: 100svh;
 
           display: grid;
 
           grid-template-rows:
             auto
             1fr
+            auto
             auto;
-
-          padding:
-            34px
-            clamp(36px, 5vw, 86px)
-            52px;
 
           overflow: hidden;
 
+          padding:
+            clamp(
+              24px,
+              4vw,
+              54px
+            )
+            clamp(
+              20px,
+              6vw,
+              90px
+            )
+            clamp(
+              24px,
+              4vw,
+              48px
+            );
+
           background:
             radial-gradient(
-              ellipse at 50% 55%,
-              rgba(190, 205, 212, 0.05),
-              transparent 26%
+              ellipse
+              at
+              50%
+              58%,
+              rgba(
+                193,
+                208,
+                215,
+                0.055
+              ),
+              transparent
+              25%
             ),
+
+            radial-gradient(
+              ellipse
+              at
+              50%
+              100%,
+              rgba(
+                73,
+                86,
+                93,
+                0.07
+              ),
+              transparent
+              48%
+            ),
+
             linear-gradient(
               180deg,
-              #08090a,
-              #020303 54%,
+              #070809,
+              #020303
+              46%,
               #000
             );
         }
 
 
-        .valley-hero__glow {
+        .an-valley__hero-ambient {
           position: absolute;
 
-          z-index: -3;
-
-          top: 30%;
-          left: 50%;
-
-          width: min(70vw, 1000px);
-          height: 42%;
-
-          transform:
-            translateX(-50%);
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              ellipse,
-              rgba(219, 228, 232, 0.045),
-              transparent 67%
-            );
-
-          filter:
-            blur(24px);
-        }
-
-
-        .valley-hero__grid {
-          position: absolute;
           inset: 0;
 
           z-index: -4;
 
-          opacity: 0.045;
+          pointer-events: none;
+
+          background:
+            radial-gradient(
+              circle
+              at
+              50%
+              49%,
+              rgba(
+                231,
+                237,
+                239,
+                0.035
+              ),
+              transparent
+              17%
+            );
+        }
+
+
+        .an-valley__hero-grid {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: -3;
+
+          opacity: 0.06;
+
+          pointer-events: none;
 
           background-image:
             linear-gradient(
-              rgba(255,255,255,0.025) 1px,
-              transparent 1px
+              rgba(
+                255,
+                255,
+                255,
+                0.024
+              )
+              1px,
+              transparent
+              1px
             ),
+
             linear-gradient(
               90deg,
-              rgba(255,255,255,0.025) 1px,
-              transparent 1px
+              rgba(
+                255,
+                255,
+                255,
+                0.024
+              )
+              1px,
+              transparent
+              1px
             );
 
           background-size:
-            80px
-            80px;
+            72px
+            72px;
 
           -webkit-mask-image:
             radial-gradient(
-              ellipse,
+              ellipse
+              at
+              center,
               black,
-              transparent 72%
+              transparent
+              76%
             );
 
           mask-image:
             radial-gradient(
-              ellipse,
+              ellipse
+              at
+              center,
               black,
-              transparent 72%
+              transparent
+              76%
             );
         }
 
 
         /* ==================================================
-           HERO NAV
+           HERO TOP
         ================================================== */
 
-        .valley-hero__nav {
+        .an-valley__top {
+          position: relative;
+
+          z-index: 10;
+
           display: flex;
 
           align-items: center;
-          justify-content: space-between;
+
+          justify-content:
+            space-between;
 
           gap: 24px;
-
-          position: relative;
-          z-index: 5;
         }
 
 
-        .valley-back {
+        .an-valley__back {
           display: inline-flex;
 
           align-items: center;
@@ -692,159 +1168,300 @@ export default function ArcheNovaValleyPage() {
           gap: 12px;
 
           color:
-            rgba(238, 243, 245, 0.42);
+            rgba(
+              239,
+              244,
+              246,
+              0.45
+            );
 
           text-decoration: none;
 
-          font-size: 8px;
-          font-weight: 600;
+          font-size: 7px;
 
-          letter-spacing: 0.18em;
+          font-weight: 620;
+
+          letter-spacing:
+            0.19em;
 
           transition:
-            color 0.25s ease;
+            color
+            0.3s ease;
         }
 
 
-        .valley-back:hover {
+        .an-valley__back:hover {
           color:
-            rgba(248, 250, 251, 0.82);
+            rgba(
+              245,
+              248,
+              249,
+              0.82
+            );
         }
 
 
-        .valley-status {
-          display: flex;
+        .an-valley__back-arrow {
+          width: 8px;
+          height: 8px;
+
+          border-left:
+            1px solid
+            currentColor;
+
+          border-bottom:
+            1px solid
+            currentColor;
+
+          transform:
+            rotate(
+              45deg
+            );
+        }
+
+
+        .an-valley__status {
+          display: inline-flex;
 
           align-items: center;
 
           gap: 8px;
 
           color:
-            rgba(214, 225, 230, 0.25);
+            rgba(
+              216,
+              226,
+              230,
+              0.28
+            );
 
           font-size: 6px;
+
           font-weight: 600;
 
-          letter-spacing: 0.16em;
+          letter-spacing:
+            0.16em;
         }
 
 
-        .valley-status i {
+        .an-valley__status i {
           width: 5px;
           height: 5px;
 
           border-radius: 50%;
 
           background:
-            rgba(189, 211, 201, 0.72);
+            rgba(
+              182,
+              211,
+              198,
+              0.78
+            );
 
           box-shadow:
-            0 0 12px
-            rgba(189, 211, 201, 0.14);
+            0
+            0
+            12px
+            rgba(
+              182,
+              211,
+              198,
+              0.18
+            );
+
+          animation:
+            an-valley-page-status
+            9s
+            ease-in-out
+            infinite;
         }
 
 
         /* ==================================================
-           HERO CENTER
+           HERO CONTENT
         ================================================== */
 
-        .valley-hero__center {
+        .an-valley__hero-content {
+          position: relative;
+
+          z-index: 5;
+
           align-self: center;
 
-          width: min(100%, 1000px);
+          width:
+            min(
+              100%,
+              920px
+            );
 
-          margin: 0 auto;
+          margin:
+            clamp(
+              50px,
+              8vh,
+              100px
+            )
+            auto
+            clamp(
+              44px,
+              7vh,
+              82px
+            );
 
           text-align: center;
         }
 
 
-        .valley-hero__eyebrow {
+        .an-valley__hero-eyebrow {
+          display: block;
+
           color:
-            rgba(207, 218, 223, 0.22);
+            rgba(
+              205,
+              217,
+              222,
+              0.23
+            );
 
           font-size: 7px;
-          font-weight: 600;
 
-          letter-spacing: 0.22em;
+          font-weight: 620;
+
+          letter-spacing:
+            0.22em;
         }
 
 
-        .valley-hero h1 {
+        .an-valley__hero-content h1 {
           margin:
-            25px
+            20px
             0
             0;
 
           color:
-            rgba(250, 251, 252, 0.97);
+            rgba(
+              250,
+              251,
+              252,
+              0.98
+            );
 
           font-size:
-            clamp(72px, 9vw, 138px);
+            clamp(
+              72px,
+              12vw,
+              176px
+            );
 
           font-weight: 210;
 
-          line-height: 0.9;
+          line-height: 0.78;
 
-          letter-spacing: -0.073em;
+          letter-spacing:
+            -0.078em;
+
+          text-wrap: balance;
         }
 
 
-        .valley-hero__lead {
+        .an-valley__hero-statement {
           margin:
-            35px
+            clamp(
+              34px,
+              5vw,
+              58px
+            )
             0
             0;
 
           color:
-            rgba(241, 245, 247, 0.7);
+            rgba(
+              241,
+              245,
+              247,
+              0.72
+            );
 
           font-size:
-            clamp(20px, 2vw, 28px);
+            clamp(
+              19px,
+              2.2vw,
+              29px
+            );
 
           font-weight: 280;
 
-          letter-spacing: -0.025em;
+          letter-spacing:
+            -0.026em;
         }
 
 
-        .valley-hero__description {
-          max-width: 620px;
+        .an-valley__hero-description {
+          max-width: 660px;
 
           margin:
-            17px
+            18px
             auto
             0;
 
           color:
-            rgba(210, 221, 225, 0.29);
+            rgba(
+              210,
+              220,
+              225,
+              0.32
+            );
 
-          font-size: 11px;
+          font-size:
+            clamp(
+              10px,
+              1vw,
+              13px
+            );
 
-          line-height: 1.75;
+          line-height: 1.8;
+
+          letter-spacing:
+            0.015em;
         }
 
 
         /* ==================================================
-           MAP
+           FLOW
         ================================================== */
 
-        .valley-map {
+        .an-valley__flow {
           position: relative;
 
+          z-index: 7;
+
           width:
-            min(100%, 1020px);
+            min(
+              100%,
+              1080px
+            );
 
           display: grid;
 
           grid-template-columns:
-            repeat(5, 1fr);
+            repeat(
+              5,
+              1fr
+            );
 
-          margin: 0 auto;
+          gap: 10px;
+
+          margin:
+            0
+            auto
+            clamp(
+              35px,
+              5vh,
+              60px
+            );
         }
 
 
-        .valley-map__line {
+        .an-valley__flow-line {
           position: absolute;
 
           top: 7px;
@@ -857,16 +1474,35 @@ export default function ArcheNovaValleyPage() {
             linear-gradient(
               90deg,
               transparent,
-              rgba(225, 233, 236, 0.1),
-              rgba(225, 233, 236, 0.18),
-              rgba(225, 233, 236, 0.1),
+              rgba(
+                222,
+                231,
+                235,
+                0.09
+              )
+              8%,
+              rgba(
+                222,
+                231,
+                235,
+                0.17
+              )
+              50%,
+              rgba(
+                222,
+                231,
+                235,
+                0.09
+              )
+              92%,
               transparent
             );
         }
 
 
-        .valley-map a {
+        .an-valley__flow-node {
           position: relative;
+
           z-index: 2;
 
           display: flex;
@@ -875,98 +1511,181 @@ export default function ArcheNovaValleyPage() {
 
           align-items: center;
 
-          gap: 6px;
+          gap: 7px;
 
           color:
-            rgba(213, 224, 228, 0.24);
+            rgba(
+              213,
+              224,
+              229,
+              0.25
+            );
 
           text-decoration: none;
 
           transition:
-            color 0.3s ease,
-            transform 0.3s ease;
+            color
+            0.35s ease,
+            transform
+            0.35s ease;
         }
 
 
-        .valley-map a:hover {
+        .an-valley__flow-node:hover {
           color:
-            rgba(241, 245, 247, 0.67);
+            rgba(
+              235,
+              240,
+              242,
+              0.7
+            );
 
           transform:
-            translateY(-2px);
+            translateY(
+              -2px
+            );
         }
 
 
-        .valley-map a i {
+        .an-valley__flow-node i {
           width: 14px;
           height: 14px;
 
           border:
             1px solid
-            rgba(232, 238, 240, 0.18);
+            rgba(
+              227,
+              234,
+              237,
+              0.16
+            );
 
           border-radius: 50%;
 
           background:
-            #070809;
+            rgba(
+              222,
+              231,
+              235,
+              0.045
+            );
+
+          box-shadow:
+            0
+            0
+            16px
+            rgba(
+              220,
+              231,
+              235,
+              0.035
+            );
         }
 
 
-        .valley-map a span {
-          margin-top: 5px;
+        .an-valley__flow-node span {
+          margin-top: 4px;
 
           font-size: 5px;
-          letter-spacing: 0.14em;
-        }
 
-
-        .valley-map a strong {
-          font-size: 6px;
           font-weight: 600;
 
-          letter-spacing: 0.14em;
+          letter-spacing:
+            0.15em;
+
+          opacity: 0.52;
+        }
+
+
+        .an-valley__flow-node strong {
+          font-size: 6px;
+
+          font-weight: 620;
+
+          letter-spacing:
+            0.15em;
         }
 
 
         /* ==================================================
-           BODY
+           HERO FOOTER
         ================================================== */
 
-        .valley-body {
-          position: relative;
+        .an-valley__hero-footer {
+          display: flex;
 
-          width: 100%;
+          align-items: center;
+
+          justify-content: center;
+
+          gap:
+            clamp(
+              8px,
+              1.5vw,
+              18px
+            );
+
+          color:
+            rgba(
+              211,
+              222,
+              227,
+              0.14
+            );
+
+          font-size: 5px;
+
+          font-weight: 600;
+
+          letter-spacing:
+            0.16em;
+        }
+
+
+        .an-valley__hero-footer i {
+          width: 22px;
+          height: 1px;
 
           background:
-            #000;
+            rgba(
+              255,
+              255,
+              255,
+              0.075
+            );
         }
 
 
         /* ==================================================
-           DISTRICT
-
-           PC:
-           Left  = conceptual identity
-           Right = actual system
-
-           This is the key readability change.
+           DISTRICTS
         ================================================== */
 
-        .valley-district {
+        .an-valley__district {
           position: relative;
 
           width: 100%;
 
           padding:
-            clamp(110px, 10vw, 160px)
-            clamp(38px, 5vw, 86px);
+            clamp(
+              90px,
+              11vw,
+              160px
+            )
+            clamp(
+              18px,
+              5vw,
+              76px
+            );
+
+          background:
+            #000;
 
           scroll-margin-top:
-            20px;
+            24px;
         }
 
 
-        .valley-district::before {
+        .an-valley__district::before {
           content: "";
 
           position: absolute;
@@ -975,307 +1694,333 @@ export default function ArcheNovaValleyPage() {
           left: 50%;
 
           width:
-            min(92%, 1500px);
+            min(
+              88%,
+              1320px
+            );
 
           height: 1px;
 
           transform:
-            translateX(-50%);
+            translateX(
+              -50%
+            );
 
           background:
             linear-gradient(
               90deg,
               transparent,
-              rgba(255,255,255,0.055),
+              rgba(
+                255,
+                255,
+                255,
+                0.055
+              ),
               transparent
             );
         }
 
 
-        .valley-district__layout {
+        /* ==================================================
+           CATEGORY
+        ================================================== */
+
+        .an-valley-category {
           width:
-            min(100%, 1500px);
-
-          display: grid;
-
-          grid-template-columns:
-            minmax(250px, 0.32fr)
-            minmax(0, 1fr);
-
-          align-items: start;
-
-          gap:
-            clamp(58px, 7vw, 120px);
+            min(
+              100%,
+              1440px
+            );
 
           margin: 0 auto;
         }
 
 
-        /* ==================================================
-           DISTRICT LEFT
-        ================================================== */
+        .an-valley-category__header {
+          display: grid;
 
-        .valley-district__header {
-          position: sticky;
+          grid-template-columns:
+            minmax(
+              180px,
+              0.52fr
+            )
+            minmax(
+              340px,
+              1.48fr
+            )
+            auto;
 
-          top: 70px;
+          align-items: end;
 
-          min-width: 0;
+          gap:
+            clamp(
+              24px,
+              5vw,
+              74px
+            );
 
-          padding-top: 4px;
+          margin-bottom:
+            clamp(
+              38px,
+              5vw,
+              66px
+            );
         }
 
 
-        .valley-district__number {
-          color:
-            rgba(205, 217, 222, 0.16);
+        .an-valley-category__identity {
+          display: flex;
 
-          font-size: 9px;
-          font-weight: 600;
+          flex-direction: column;
 
-          letter-spacing: 0.2em;
+          gap: 10px;
         }
 
 
-        .valley-district__label {
-          margin-top: 11px;
-
+        .an-valley-category__identity
+        > span {
           color:
-            rgba(240, 244, 246, 0.55);
+            rgba(
+              206,
+              218,
+              223,
+              0.18
+            );
 
-          font-size: 9px;
-          font-weight: 600;
+          font-size: 8px;
 
-          letter-spacing: 0.18em;
+          font-weight: 620;
+
+          letter-spacing:
+            0.19em;
         }
 
 
-        .valley-district__header h2 {
-          max-width: 360px;
-
-          margin:
-            31px
-            0
-            0;
-
+        .an-valley-category__identity
+        > strong {
           color:
-            rgba(248, 250, 251, 0.93);
-
-          font-size:
-            clamp(38px, 3.2vw, 56px);
-
-          font-weight: 235;
-
-          line-height: 0.98;
-
-          letter-spacing: -0.05em;
-        }
-
-
-        .valley-district__header p {
-          max-width: 340px;
-
-          margin:
-            22px
-            0
-            0;
-
-          color:
-            rgba(207, 219, 224, 0.3);
+            rgba(
+              244,
+              247,
+              248,
+              0.73
+            );
 
           font-size: 10px;
 
-          line-height: 1.8;
+          font-weight: 620;
+
+          letter-spacing:
+            0.18em;
         }
 
 
-        .valley-district__axis {
-          display: flex;
-
-          align-items: center;
-
-          gap: 9px;
-
-          margin-top: 34px;
+        .an-valley-category__purpose h2 {
+          margin: 0;
 
           color:
-            rgba(207, 218, 223, 0.13);
+            rgba(
+              249,
+              250,
+              251,
+              0.94
+            );
 
-          font-size: 5px;
-          font-weight: 600;
+          font-size:
+            clamp(
+              34px,
+              4vw,
+              60px
+            );
 
-          letter-spacing: 0.13em;
+          font-weight: 240;
+
+          line-height: 1;
+
+          letter-spacing:
+            -0.048em;
         }
 
 
-        .valley-district__axis i {
-          width: 24px;
-          height: 1px;
+        .an-valley-category__purpose p {
+          max-width: 780px;
 
-          background:
-            rgba(255,255,255,0.06);
-        }
-
-
-        /* ==================================================
-           DISTRICT RIGHT
-        ================================================== */
-
-        .valley-district__content {
-          min-width: 0;
-
-          display: flex;
-
-          flex-direction: column;
-
-          gap: 38px;
-        }
-
-
-        .valley-system-frame {
-          min-width: 0;
-
-          overflow: hidden;
-
-          border-radius: 30px;
-
-          box-shadow:
-            0 40px 100px
-            rgba(0,0,0,0.26);
-        }
-
-
-        /* ==================================================
-           PRIMARY IMPLEMENTATION
-        ================================================== */
-
-        .valley-primary-system {
-          display: flex;
-
-          flex-direction: column;
-
-          gap: 16px;
-        }
-
-
-        .valley-primary-system__heading {
-          display: flex;
-
-          align-items: center;
-          justify-content: space-between;
-
-          padding:
+          margin:
+            17px
             0
-            4px;
+            0;
 
           color:
-            rgba(208, 220, 225, 0.2);
+            rgba(
+              207,
+              218,
+              223,
+              0.29
+            );
 
-          font-size: 6px;
+          font-size:
+            clamp(
+              9px,
+              0.95vw,
+              12px
+            );
 
-          letter-spacing: 0.15em;
-        }
-
-
-        .valley-primary-system__heading strong {
-          color:
-            rgba(231, 237, 239, 0.42);
-
-          font-size: 7px;
-          font-weight: 600;
-
-          letter-spacing: 0.17em;
+          line-height: 1.75;
         }
 
 
         /* ==================================================
-           FUTURE RAIL
+           CATEGORY NAVIGATION
         ================================================== */
 
-        .valley-rail-shell {
-          margin-top: 8px;
-
-          padding-top: 30px;
-
-          border-top:
-            1px solid
-            rgba(255,255,255,0.045);
-        }
-
-
-        .valley-rail-shell__top {
+        .an-valley-category__navigation {
           display: flex;
 
           align-items: center;
-          justify-content: space-between;
 
-          margin-bottom: 17px;
-
-          color:
-            rgba(210, 221, 226, 0.18);
-
-          font-size: 6px;
-          font-weight: 600;
-
-          letter-spacing: 0.16em;
+          gap: 8px;
         }
 
 
-        .valley-rail-shell__controls {
-          display: flex;
+        .an-valley-category__nav {
+          width: 38px;
+          height: 38px;
 
-          gap: 7px;
-        }
+          display: grid;
 
-
-        .valley-rail-shell__controls button {
-          width: 32px;
-          height: 32px;
+          place-items: center;
 
           padding: 0;
 
           border:
             1px solid
-            rgba(255,255,255,0.06);
+            rgba(
+              255,
+              255,
+              255,
+              0.065
+            );
 
           border-radius: 50%;
 
           background:
-            rgba(255,255,255,0.018);
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
 
           color:
-            rgba(231,237,239,0.35);
+            rgba(
+              229,
+              235,
+              238,
+              0.35
+            );
 
           cursor: pointer;
 
           transition:
-            background 0.25s ease,
-            border-color 0.25s ease,
-            color 0.25s ease;
+            border-color
+            0.3s ease,
+            background
+            0.3s ease,
+            color
+            0.3s ease,
+            transform
+            0.3s ease;
         }
 
 
-        .valley-rail-shell__controls button:hover {
-          background:
-            rgba(255,255,255,0.035);
-
+        .an-valley-category__nav:hover {
           border-color:
-            rgba(255,255,255,0.11);
+            rgba(
+              255,
+              255,
+              255,
+              0.13
+            );
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
 
           color:
-            rgba(244,247,248,0.7);
+            rgba(
+              244,
+              247,
+              248,
+              0.7
+            );
         }
 
 
-        .valley-rail {
+        .an-valley-category__nav span {
+          width: 8px;
+          height: 8px;
+
+          border-top:
+            1px solid
+            currentColor;
+
+          border-right:
+            1px solid
+            currentColor;
+        }
+
+
+        .an-valley-category__nav--prev span {
+          transform:
+            rotate(
+              -135deg
+            )
+            translate(
+              -1px,
+              1px
+            );
+        }
+
+
+        .an-valley-category__nav--next span {
+          transform:
+            rotate(
+              45deg
+            )
+            translate(
+              -1px,
+              1px
+            );
+        }
+
+
+        /* ==================================================
+           CATEGORY RAIL
+        ================================================== */
+
+        .an-valley-category__rail {
+          position: relative;
+
           display: flex;
 
-          gap: 14px;
+          align-items: stretch;
+
+          gap:
+            clamp(
+              18px,
+              2.5vw,
+              34px
+            );
+
+          width: 100%;
 
           overflow-x: auto;
-          overflow-y: hidden;
 
-          padding-bottom: 4px;
+          overflow-y: hidden;
 
           scroll-snap-type:
             x mandatory;
@@ -1287,378 +2032,346 @@ export default function ArcheNovaValleyPage() {
         }
 
 
-        .valley-rail::-webkit-scrollbar {
+        .an-valley-category__rail::-webkit-scrollbar {
           display: none;
         }
 
 
-        /* ==================================================
-           FUTURE CARDS
-
-           Intentionally compact on PC.
-        ================================================== */
-
-        .valley-future {
-          position: relative;
-
+        .an-valley-category__item {
           flex:
-            0 0
-            clamp(260px, 29vw, 340px);
+            0
+            0
+            100%;
 
-          min-height: 270px;
-
-          display: flex;
-
-          flex-direction: column;
-
-          justify-content: space-between;
-
-          padding: 23px;
-
-          overflow: hidden;
+          min-width: 0;
 
           scroll-snap-align: start;
+        }
 
-          border:
-            1px solid
-            rgba(255,255,255,0.055);
 
-          border-radius: 20px;
+        /* ==================================================
+           CATEGORY FOOTER
+        ================================================== */
 
-          background:
-            linear-gradient(
-              145deg,
-              rgba(16,18,20,0.68),
-              rgba(4,5,6,0.94)
+        .an-valley-category__footer {
+          display: flex;
+
+          align-items: center;
+
+          justify-content: center;
+
+          gap:
+            clamp(
+              8px,
+              1.4vw,
+              16px
             );
 
-          box-shadow:
-            inset 0 1px 0
-            rgba(255,255,255,0.025);
-        }
-
-
-        .valley-future__top {
-          display: flex;
-
-          align-items: center;
-          justify-content: space-between;
-        }
-
-
-        .valley-future__code {
-          color:
-            rgba(213,224,228,0.18);
-
-          font-size: 7px;
-          letter-spacing: 0.15em;
-        }
-
-
-        .valley-future__status {
-          display: flex;
-
-          align-items: center;
-
-          gap: 6px;
+          margin-top:
+            clamp(
+              28px,
+              4vw,
+              48px
+            );
 
           color:
-            rgba(211,222,226,0.15);
+            rgba(
+              209,
+              220,
+              225,
+              0.13
+            );
 
           font-size: 5px;
+
           font-weight: 600;
 
-          letter-spacing: 0.13em;
+          letter-spacing:
+            0.14em;
         }
 
 
-        .valley-future__status i {
-          width: 4px;
-          height: 4px;
-
-          border:
-            1px solid
-            rgba(225,233,236,0.2);
-
-          border-radius: 50%;
-        }
-
-
-        .valley-future__body {
-          margin-top: auto;
-
-          padding-top: 54px;
-        }
-
-
-        .valley-future__eyebrow {
-          color:
-            rgba(205,217,222,0.18);
-
-          font-size: 5px;
-          font-weight: 600;
-
-          letter-spacing: 0.14em;
-        }
-
-
-        .valley-future h3 {
-          margin:
-            12px
-            0
-            0;
-
-          color:
-            rgba(247,249,250,0.86);
-
-          font-size:
-            clamp(28px, 2.4vw, 38px);
-
-          font-weight: 240;
-
-          line-height: 1;
-
-          letter-spacing: -0.045em;
-        }
-
-
-        .valley-future p {
-          margin:
-            15px
-            0
-            0;
-
-          color:
-            rgba(207,219,224,0.26);
-
-          font-size: 8px;
-
-          line-height: 1.7;
-        }
-
-
-        .valley-future__line {
-          width: 100%;
+        .an-valley-category__footer i {
+          width: 18px;
           height: 1px;
 
-          margin-top: 22px;
-
           background:
-            linear-gradient(
-              90deg,
-              rgba(224,232,235,0.1),
-              transparent
+            rgba(
+              255,
+              255,
+              255,
+              0.055
             );
         }
 
 
         /* ==================================================
-           GOVERNANCE
+           FUTURE SYSTEM
         ================================================== */
 
-        .valley-governance-placeholder {
+        .an-valley-future-system {
           position: relative;
 
-          min-height: 520px;
+          min-height:
+            clamp(
+              470px,
+              53vw,
+              650px
+            );
 
           display: flex;
 
           flex-direction: column;
 
-          justify-content: space-between;
+          align-items: flex-start;
+
+          justify-content: flex-end;
 
           overflow: hidden;
 
           padding:
-            clamp(30px, 4vw, 54px);
+            clamp(
+              28px,
+              5vw,
+              68px
+            );
 
           border:
             1px solid
-            rgba(255,255,255,0.06);
+            rgba(
+              255,
+              255,
+              255,
+              0.065
+            );
 
-          border-radius: 30px;
+          border-radius:
+            clamp(
+              22px,
+              3vw,
+              34px
+            );
 
           background:
             radial-gradient(
-              circle at 76% 44%,
-              rgba(211,222,226,0.035),
-              transparent 24%
+              ellipse
+              at
+              72%
+              25%,
+              rgba(
+                196,
+                211,
+                218,
+                0.04
+              ),
+              transparent
+              28%
             ),
+
             linear-gradient(
               145deg,
-              rgba(15,17,19,0.74),
-              rgba(3,4,5,0.96)
+              rgba(
+                17,
+                19,
+                21,
+                0.74
+              ),
+              rgba(
+                5,
+                6,
+                7,
+                0.94
+              )
+              54%,
+              #010101
+            );
+
+          box-shadow:
+            inset
+            0
+            1px
+            0
+            rgba(
+              255,
+              255,
+              255,
+              0.035
             );
         }
 
 
-        .valley-governance-placeholder__top {
-          display: flex;
-
-          align-items: center;
-          justify-content: space-between;
-
-          position: relative;
-          z-index: 2;
-
-          color:
-            rgba(210,221,225,0.2);
-
-          font-size: 6px;
-          font-weight: 600;
-
-          letter-spacing: 0.16em;
-        }
-
-
-        .valley-governance-placeholder__status {
-          display: flex;
-
-          align-items: center;
-
-          gap: 7px;
-        }
-
-
-        .valley-governance-placeholder__status i {
-          width: 5px;
-          height: 5px;
-
-          border:
-            1px solid
-            rgba(229,235,238,0.22);
-
-          border-radius: 50%;
-        }
-
-
-        .valley-governance-placeholder__body {
-          position: relative;
-          z-index: 2;
-
-          max-width: 600px;
-        }
-
-
-        .valley-governance-placeholder__body > span {
-          color:
-            rgba(206,218,223,0.17);
-
-          font-size: 6px;
-          letter-spacing: 0.15em;
-        }
-
-
-        .valley-governance-placeholder h3 {
-          margin:
-            18px
-            0
-            0;
-
-          color:
-            rgba(248,250,251,0.93);
-
-          font-size:
-            clamp(48px, 5vw, 76px);
-
-          font-weight: 225;
-
-          line-height: 0.91;
-
-          letter-spacing: -0.06em;
-        }
-
-
-        .valley-governance-placeholder p {
-          max-width: 540px;
-
-          margin:
-            25px
-            0
-            0;
-
-          color:
-            rgba(207,219,224,0.28);
-
-          font-size: 10px;
-
-          line-height: 1.8;
-        }
-
-
-        .valley-governance-placeholder__orbit {
-          position: absolute;
-
-          top: 50%;
-          right: 8%;
-
-          width: min(34vw, 430px);
-
-          aspect-ratio: 1;
-
-          transform:
-            translateY(-50%);
-
-          border:
-            1px solid
-            rgba(225,233,236,0.035);
-
-          border-radius: 50%;
-        }
-
-
-        .valley-governance-placeholder__orbit::before,
-        .valley-governance-placeholder__orbit::after {
+        .an-valley-future-system::before {
           content: "";
 
           position: absolute;
 
+          top: 10%;
+          right: 8%;
+
+          width:
+            min(
+              42vw,
+              480px
+            );
+
+          aspect-ratio: 1;
+
           border:
             1px solid
-            rgba(225,233,236,0.025);
+            rgba(
+              225,
+              234,
+              237,
+              0.035
+            );
 
           border-radius: 50%;
+
+          box-shadow:
+            inset
+            0
+            0
+            70px
+            rgba(
+              218,
+              229,
+              234,
+              0.012
+            );
         }
 
 
-        .valley-governance-placeholder__orbit::before {
-          inset: 17%;
+        .an-valley-future-system__eyebrow {
+          position: relative;
+
+          z-index: 2;
+
+          color:
+            rgba(
+              205,
+              217,
+              222,
+              0.22
+            );
+
+          font-size: 7px;
+
+          font-weight: 620;
+
+          letter-spacing:
+            0.18em;
         }
 
 
-        .valley-governance-placeholder__orbit::after {
-          inset: 34%;
+        .an-valley-future-system h3 {
+          position: relative;
+
+          z-index: 2;
+
+          margin:
+            17px
+            0
+            0;
+
+          color:
+            rgba(
+              249,
+              250,
+              251,
+              0.94
+            );
+
+          font-size:
+            clamp(
+              43px,
+              6vw,
+              84px
+            );
+
+          font-weight: 230;
+
+          line-height: 0.95;
+
+          letter-spacing:
+            -0.055em;
         }
 
 
-        .valley-governance-placeholder__orbit i {
-          position: absolute;
+        .an-valley-future-system p {
+          position: relative;
 
+          z-index: 2;
+
+          max-width: 680px;
+
+          margin:
+            22px
+            0
+            0;
+
+          color:
+            rgba(
+              208,
+              219,
+              224,
+              0.3
+            );
+
+          font-size:
+            clamp(
+              9px,
+              1vw,
+              12px
+            );
+
+          line-height: 1.75;
+        }
+
+
+        .an-valley-future-system__status {
+          position: relative;
+
+          z-index: 2;
+
+          display: inline-flex;
+
+          align-items: center;
+
+          gap: 8px;
+
+          margin-top: 28px;
+
+          color:
+            rgba(
+              210,
+              221,
+              226,
+              0.18
+            );
+
+          font-size: 6px;
+
+          font-weight: 600;
+
+          letter-spacing:
+            0.15em;
+        }
+
+
+        .an-valley-future-system__status i {
           width: 5px;
           height: 5px;
 
+          border:
+            1px solid
+            rgba(
+              224,
+              232,
+              235,
+              0.22
+            );
+
           border-radius: 50%;
-
-          background:
-            rgba(228,235,238,0.18);
-        }
-
-
-        .valley-governance-placeholder__orbit i:nth-child(1) {
-          top: 17%;
-          left: 50%;
-        }
-
-
-        .valley-governance-placeholder__orbit i:nth-child(2) {
-          top: 56%;
-          right: 8%;
-        }
-
-
-        .valley-governance-placeholder__orbit i:nth-child(3) {
-          bottom: 12%;
-          left: 27%;
         }
 
 
@@ -1666,35 +2379,50 @@ export default function ArcheNovaValleyPage() {
            TERMINUS
         ================================================== */
 
-        .valley-terminus {
+        .an-valley__terminus {
           position: relative;
 
-          min-height: 760px;
+          min-height:
+            min(
+              92svh,
+              900px
+            );
 
           display: flex;
 
           flex-direction: column;
 
           align-items: center;
+
           justify-content: center;
 
           padding:
-            120px
+            100px
             24px;
 
           text-align: center;
 
           background:
             radial-gradient(
-              ellipse at center,
-              rgba(207,219,224,0.035),
-              transparent 28%
+              ellipse
+              at
+              50%
+              54%,
+              rgba(
+                203,
+                216,
+                222,
+                0.04
+              ),
+              transparent
+              26%
             ),
+
             #000;
         }
 
 
-        .valley-terminus::before {
+        .an-valley__terminus::before {
           content: "";
 
           position: absolute;
@@ -1702,121 +2430,202 @@ export default function ArcheNovaValleyPage() {
           top: 0;
           left: 50%;
 
-          width: min(92%, 1500px);
+          width:
+            min(
+              88%,
+              1320px
+            );
+
           height: 1px;
 
           transform:
-            translateX(-50%);
+            translateX(
+              -50%
+            );
 
           background:
             linear-gradient(
               90deg,
               transparent,
-              rgba(255,255,255,0.055),
+              rgba(
+                255,
+                255,
+                255,
+                0.055
+              ),
               transparent
             );
         }
 
 
-        .valley-terminus__eyebrow {
+        .an-valley__terminus-eyebrow {
           color:
-            rgba(207,219,224,0.18);
+            rgba(
+              207,
+              219,
+              224,
+              0.2
+            );
 
           font-size: 7px;
-          font-weight: 600;
 
-          letter-spacing: 0.21em;
+          font-weight: 620;
+
+          letter-spacing:
+            0.22em;
         }
 
 
-        .valley-terminus h2 {
+        .an-valley__terminus h2 {
           margin:
-            25px
+            24px
             0
             0;
 
           color:
-            rgba(250,251,252,0.96);
+            rgba(
+              250,
+              251,
+              252,
+              0.96
+            );
 
           font-size:
-            clamp(58px, 7vw, 108px);
+            clamp(
+              53px,
+              8vw,
+              116px
+            );
 
           font-weight: 215;
 
           line-height: 0.88;
 
-          letter-spacing: -0.068em;
+          letter-spacing:
+            -0.068em;
         }
 
 
-        .valley-terminus p {
-          max-width: 650px;
+        .an-valley__terminus p {
+          max-width: 680px;
 
           margin:
-            28px
+            30px
             auto
             0;
 
           color:
-            rgba(207,219,224,0.28);
+            rgba(
+              207,
+              219,
+              224,
+              0.3
+            );
 
-          font-size: 10px;
+          font-size:
+            clamp(
+              10px,
+              1vw,
+              13px
+            );
 
           line-height: 1.8;
         }
 
 
-        .valley-terminus__return {
+        .an-valley__return {
           display: inline-flex;
 
           align-items: center;
 
           gap: 12px;
 
-          margin-top: 40px;
+          margin-top: 44px;
 
           color:
-            rgba(232,238,240,0.4);
+            rgba(
+              230,
+              236,
+              239,
+              0.4
+            );
 
           text-decoration: none;
 
           font-size: 7px;
+
           font-weight: 600;
 
-          letter-spacing: 0.12em;
+          letter-spacing:
+            0.12em;
 
           transition:
-            color 0.25s ease,
-            transform 0.25s ease;
+            color
+            0.3s ease,
+            transform
+            0.3s ease;
         }
 
 
-        .valley-terminus__return:hover {
+        .an-valley__return:hover {
           color:
-            rgba(247,249,250,0.8);
+            rgba(
+              245,
+              248,
+              249,
+              0.82
+            );
 
           transform:
-            translateY(-2px);
+            translateY(
+              -2px
+            );
+        }
+
+
+        .an-valley__return i {
+          width: 8px;
+          height: 8px;
+
+          border-top:
+            1px solid
+            currentColor;
+
+          border-right:
+            1px solid
+            currentColor;
+
+          transform:
+            rotate(
+              45deg
+            );
         }
 
 
         /* ==================================================
-           TABLET
+           ANIMATION
         ================================================== */
 
-        @media (max-width: 1050px) {
+        @keyframes an-valley-page-status {
 
-          .valley-district__layout {
-            grid-template-columns:
-              230px
-              minmax(0, 1fr);
+          0%,
+          100% {
+            opacity: 0.38;
 
-            gap: 46px;
+            transform:
+              scale(
+                0.78
+              );
           }
 
 
-          .valley-district__header h2 {
-            font-size: 39px;
+          50% {
+            opacity: 0.95;
+
+            transform:
+              scale(
+                1.08
+              );
           }
 
         }
@@ -1824,62 +2633,78 @@ export default function ArcheNovaValleyPage() {
 
         /* ==================================================
            MOBILE
-
-           On mobile the left/right district layout returns
-           to a natural vertical hierarchy.
         ================================================== */
 
-        @media (max-width: 760px) {
+        @media (
+          max-width: 760px
+        ) {
 
-          .valley-hero {
+          .an-valley__hero {
             min-height: 100svh;
-            height: auto;
 
             padding:
               22px
               18px
-              34px;
+              28px;
           }
 
 
-          .valley-hero__center {
-            padding:
-              80px
-              0
-              70px;
+          .an-valley__hero-content {
+            margin:
+              60px
+              auto
+              54px;
           }
 
 
-          .valley-hero h1 {
+          .an-valley__hero-content h1 {
             font-size:
-              clamp(64px, 20vw, 94px);
+              clamp(
+                66px,
+                22vw,
+                102px
+              );
 
             line-height: 0.82;
           }
 
 
-          .valley-hero__lead {
-            font-size: 19px;
+          .an-valley__hero-statement {
+            margin-top: 34px;
+
+            font-size:
+              clamp(
+                17px,
+                5vw,
+                22px
+              );
           }
 
 
-          .valley-hero__description {
-            max-width: 470px;
+          .an-valley__hero-description {
+            max-width: 500px;
 
             font-size: 9px;
           }
 
 
-          .valley-map {
-            width: min(100%, 330px);
-
-            grid-template-columns: 1fr;
+          .an-valley__flow {
+            grid-template-columns:
+              1fr;
 
             gap: 0;
+
+            width:
+              min(
+                100%,
+                330px
+              );
+
+            margin-bottom: 38px;
           }
 
 
-          .valley-map__line {
+          .an-valley__flow-line {
             top: 7px;
             bottom: 7px;
             left: 7px;
@@ -1891,13 +2716,26 @@ export default function ArcheNovaValleyPage() {
               linear-gradient(
                 to bottom,
                 transparent,
-                rgba(225,233,236,0.14),
+                rgba(
+                  222,
+                  231,
+                  235,
+                  0.16
+                )
+                10%,
+                rgba(
+                  222,
+                  231,
+                  235,
+                  0.16
+                )
+                90%,
                 transparent
               );
           }
 
 
-          .valley-map a {
+          .an-valley__flow-node {
             min-height: 50px;
 
             display: grid;
@@ -1910,96 +2748,114 @@ export default function ArcheNovaValleyPage() {
             align-items: center;
 
             gap: 10px;
+
+            text-align: left;
           }
 
 
-          .valley-map a span {
+          .an-valley__flow-node span {
             margin: 0;
           }
 
 
-          .valley-map a strong {
+          .an-valley__flow-node strong {
             justify-self: start;
           }
 
 
-          .valley-district {
+          .an-valley__hero-footer {
+            flex-wrap: wrap;
+
+            font-size: 4px;
+          }
+
+
+          .an-valley__district {
             padding:
-              86px
+              82px
               17px;
           }
 
 
-          .valley-district__layout {
-            display: block;
+          .an-valley-category__header {
+            grid-template-columns:
+              1fr
+              auto;
+
+            align-items: end;
+
+            gap:
+              24px
+              12px;
           }
 
 
-          .valley-district__header {
-            position: relative;
-
-            top: auto;
-
-            margin-bottom: 38px;
+          .an-valley-category__identity {
+            grid-column:
+              1 /
+              -1;
           }
 
 
-          .valley-district__header h2 {
-            max-width: 520px;
-
-            margin-top: 24px;
-
+          .an-valley-category__purpose h2 {
             font-size:
-              clamp(38px, 10vw, 48px);
+              clamp(
+                35px,
+                10vw,
+                48px
+              );
           }
 
 
-          .valley-district__header p {
-            max-width: 560px;
-
+          .an-valley-category__purpose p {
             font-size: 9px;
           }
 
 
-          .valley-system-frame {
-            border-radius: 22px;
+          .an-valley-category__navigation {
+            align-self: end;
           }
 
 
-          .valley-future {
-            flex-basis:
-              min(82vw, 310px);
-
-            min-height: 270px;
+          .an-valley-category__nav {
+            width: 34px;
+            height: 34px;
           }
 
 
-          .valley-governance-placeholder {
+          .an-valley-category__rail {
+            gap: 14px;
+          }
+
+
+          .an-valley-category__item {
+            flex-basis: 100%;
+          }
+
+
+          .an-valley-future-system {
             min-height: 500px;
 
             padding:
               28px
-              23px;
+              24px;
 
             border-radius: 23px;
           }
 
 
-          .valley-governance-placeholder h3 {
+          .an-valley-future-system h3 {
             font-size:
-              clamp(48px, 14vw, 66px);
+              clamp(
+                45px,
+                14vw,
+                64px
+              );
           }
 
 
-          .valley-governance-placeholder__orbit {
-            width: 75vw;
-
-            right: -28%;
-          }
-
-
-          .valley-terminus {
-            min-height: 78svh;
+          .an-valley__terminus {
+            min-height: 82svh;
 
             padding:
               90px
@@ -2007,9 +2863,68 @@ export default function ArcheNovaValleyPage() {
           }
 
 
-          .valley-terminus h2 {
+          .an-valley__terminus h2 {
             font-size:
-              clamp(52px, 16vw, 78px);
+              clamp(
+                52px,
+                16vw,
+                78px
+              );
+          }
+
+        }
+
+
+        /* ==================================================
+           SMALL MOBILE
+        ================================================== */
+
+        @media (
+          max-width: 430px
+        ) {
+
+          .an-valley__back {
+            font-size: 6px;
+          }
+
+
+          .an-valley__status {
+            font-size: 5px;
+          }
+
+
+          .an-valley__hero-content h1 {
+            font-size:
+              clamp(
+                64px,
+                21vw,
+                90px
+              );
+          }
+
+
+          .an-valley-category__header {
+            grid-template-columns: 1fr;
+          }
+
+
+          .an-valley-category__navigation {
+            justify-self: start;
+          }
+
+
+          .an-valley-category__purpose h2 {
+            font-size:
+              clamp(
+                34px,
+                10.5vw,
+                44px
+              );
+          }
+
+
+          .an-valley-category__footer {
+            font-size: 4px;
           }
 
         }
@@ -2019,10 +2934,19 @@ export default function ArcheNovaValleyPage() {
            REDUCED MOTION
         ================================================== */
 
-        @media (prefers-reduced-motion: reduce) {
+        @media (
+          prefers-reduced-motion:
+          reduce
+        ) {
 
           html {
             scroll-behavior: auto;
+          }
+
+
+          .an-valley__status i {
+            animation:
+              none !important;
           }
 
         }
