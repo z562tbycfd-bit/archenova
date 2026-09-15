@@ -16,6 +16,7 @@ import {
    ARCHENOVA VALLEY PORTAL
 
    HOME ENTRY
+
    Reality
    → Knowledge
    → Intelligence
@@ -24,11 +25,16 @@ import {
    → Experience
    → Civilization
 
-   Future position:
-   ArcheNova's implementation ecosystem
-   connecting knowledge, engineering,
-   projects, capital, governance,
-   deployment, and human experience.
+   Design principle:
+
+   HOME does not expose the entire Valley.
+   HOME presents one symbolic entrance.
+
+   The Valley icon contains the complete
+   Knowledge → Experience structure internally.
+
+   Episteme = entrance to cognition.
+   Valley   = entrance to realization.
 ========================================================== */
 
 export default function ArcheNovaValleyPortal() {
@@ -72,7 +78,7 @@ export default function ArcheNovaValleyPortal() {
               "/archenova-valley",
             );
           },
-          1100,
+          1250,
         );
 
     }, [
@@ -162,7 +168,7 @@ export default function ArcheNovaValleyPortal() {
             <i />
 
             <span>
-              ACTIVE
+              FOUNDATION
             </span>
 
           </div>
@@ -171,10 +177,10 @@ export default function ArcheNovaValleyPortal() {
 
 
         {/* ==================================================
-            MAIN
+            EXPERIENCE
         ================================================== */}
 
-        <div className="an-valley-portal__main">
+        <div className="an-valley-portal__experience">
 
           {/* ================================================
               STATEMENT
@@ -199,7 +205,7 @@ export default function ArcheNovaValleyPortal() {
 
 
           {/* ================================================
-              VALLEY
+              CENTRAL VALLEY ENTRANCE
           ================================================= */}
 
           <button
@@ -214,145 +220,160 @@ export default function ArcheNovaValleyPortal() {
             aria-label="Enter ArcheNova Valley"
           >
 
-            <span className="an-valley-portal__landscape">
+            <span className="an-valley-portal__valley">
 
               {/* ============================================
-                  DEEP ENVIRONMENT
+                  ATMOSPHERE
               ============================================= */}
 
-              <span className="an-valley-portal__landscape-halo" />
+              <span className="an-valley-portal__valley-atmosphere" />
 
-              <span className="an-valley-portal__landscape-depth" />
-
-
-              {/* ============================================
-                  HORIZON
-              ============================================= */}
-
-              <span className="an-valley-portal__horizon" />
-
-              <span className="an-valley-portal__horizon-glow" />
+              <span className="an-valley-portal__valley-halo" />
 
 
               {/* ============================================
-                  BLACK GLASS TERRAIN
+                  OUTER GLASS DOMAIN
               ============================================= */}
 
-              <span className="an-valley-portal__terrain">
+              <span className="an-valley-portal__domain">
 
-                <span className="an-valley-portal__terrain-plane an-valley-portal__terrain-plane--1" />
+                <span className="an-valley-portal__domain-ring an-valley-portal__domain-ring--1" />
 
-                <span className="an-valley-portal__terrain-plane an-valley-portal__terrain-plane--2" />
+                <span className="an-valley-portal__domain-ring an-valley-portal__domain-ring--2" />
 
-                <span className="an-valley-portal__terrain-plane an-valley-portal__terrain-plane--3" />
-
-                <span className="an-valley-portal__terrain-plane an-valley-portal__terrain-plane--4" />
+                <span className="an-valley-portal__domain-ring an-valley-portal__domain-ring--3" />
 
               </span>
 
 
               {/* ============================================
-                  CIVILIZATION PATH
+                  VALLEY ICON
               ============================================= */}
 
-              <span className="an-valley-portal__path">
+              <span className="an-valley-portal__icon">
 
-                <span className="an-valley-portal__path-line" />
+                {/* SKY / HORIZON */}
 
-                <span className="an-valley-portal__path-light an-valley-portal__path-light--1" />
+                <span className="an-valley-portal__icon-sky" />
 
-                <span className="an-valley-portal__path-light an-valley-portal__path-light--2" />
-
-              </span>
+                <span className="an-valley-portal__icon-horizon" />
 
 
-              {/* ============================================
-                  KNOWLEDGE
-              ============================================= */}
+                {/* MOUNTAIN / VALLEY STRUCTURE */}
 
-              <span className="an-valley-portal__district an-valley-portal__district--knowledge">
+                <span className="an-valley-portal__mountain an-valley-portal__mountain--left" />
 
-                <i />
+                <span className="an-valley-portal__mountain an-valley-portal__mountain--right" />
 
-                <span>
-                  KNOWLEDGE
+
+                {/* CENTRAL CIVILIZATION AXIS */}
+
+                <span className="an-valley-portal__axis">
+
+                  <span className="an-valley-portal__axis-line" />
+
+                  <span className="an-valley-portal__axis-signal an-valley-portal__axis-signal--1" />
+
+                  <span className="an-valley-portal__axis-signal an-valley-portal__axis-signal--2" />
+
+                </span>
+
+
+                {/* ==========================================
+                    KNOWLEDGE
+                =========================================== */}
+
+                <span className="an-valley-portal__district an-valley-portal__district--knowledge">
+
+                  <i />
+
+                  <span>
+                    KNOWLEDGE
+                  </span>
+
+                </span>
+
+
+                {/* ==========================================
+                    INTELLIGENCE
+                =========================================== */}
+
+                <span className="an-valley-portal__district an-valley-portal__district--intelligence">
+
+                  <i />
+
+                  <span>
+                    INTELLIGENCE
+                  </span>
+
+                </span>
+
+
+                {/* ==========================================
+                    IMPLEMENTATION
+                =========================================== */}
+
+                <span className="an-valley-portal__district an-valley-portal__district--implementation">
+
+                  <i />
+
+                  <span>
+                    IMPLEMENTATION
+                  </span>
+
+                </span>
+
+
+                {/* ==========================================
+                    GOVERNANCE
+                =========================================== */}
+
+                <span className="an-valley-portal__district an-valley-portal__district--governance">
+
+                  <i />
+
+                  <span>
+                    GOVERNANCE
+                  </span>
+
+                </span>
+
+
+                {/* ==========================================
+                    EXPERIENCE
+                =========================================== */}
+
+                <span className="an-valley-portal__district an-valley-portal__district--experience">
+
+                  <i />
+
+                  <span>
+                    EXPERIENCE
+                  </span>
+
+                </span>
+
+
+                {/* ==========================================
+                    BOUNDARIES
+                =========================================== */}
+
+                <span className="an-valley-portal__boundary an-valley-portal__boundary--reality">
+                  REALITY
+                </span>
+
+                <span className="an-valley-portal__boundary an-valley-portal__boundary--civilization">
+                  CIVILIZATION
                 </span>
 
               </span>
 
 
               {/* ============================================
-                  INTELLIGENCE
+                  FLOOR REFLECTION
               ============================================= */}
 
-              <span className="an-valley-portal__district an-valley-portal__district--intelligence">
-
-                <i />
-
-                <span>
-                  INTELLIGENCE
-                </span>
-
-              </span>
-
-
-              {/* ============================================
-                  IMPLEMENTATION
-              ============================================= */}
-
-              <span className="an-valley-portal__district an-valley-portal__district--implementation">
-
-                <i />
-
-                <span>
-                  IMPLEMENTATION
-                </span>
-
-              </span>
-
-
-              {/* ============================================
-                  GOVERNANCE
-              ============================================= */}
-
-              <span className="an-valley-portal__district an-valley-portal__district--governance">
-
-                <i />
-
-                <span>
-                  GOVERNANCE
-                </span>
-
-              </span>
-
-
-              {/* ============================================
-                  EXPERIENCE
-              ============================================= */}
-
-              <span className="an-valley-portal__district an-valley-portal__district--experience">
-
-                <i />
-
-                <span>
-                  EXPERIENCE
-                </span>
-
-              </span>
-
-
-              {/* ============================================
-                  REALITY / CIVILIZATION
-              ============================================= */}
-
-              <span className="an-valley-portal__boundary an-valley-portal__boundary--reality">
-                REALITY
-              </span>
-
-
-              <span className="an-valley-portal__boundary an-valley-portal__boundary--civilization">
-                CIVILIZATION
-              </span>
+              <span className="an-valley-portal__floor" />
 
 
               {/* ============================================
@@ -360,7 +381,7 @@ export default function ArcheNovaValleyPortal() {
               ============================================= */}
 
               <span className="an-valley-portal__tap">
-                Tap to enter the Valley
+                Tap ArcheNova Valley to enter
               </span>
 
             </span>
@@ -377,32 +398,12 @@ export default function ArcheNovaValleyPortal() {
         <footer className="an-valley-portal__footer">
 
           <span>
-            KNOWLEDGE
+            ARCHENOVA VALLEY
           </span>
 
-          <i />
-
-          <span>
-            INTELLIGENCE
-          </span>
-
-          <i />
-
-          <span>
-            IMPLEMENTATION
-          </span>
-
-          <i />
-
-          <span>
-            GOVERNANCE
-          </span>
-
-          <i />
-
-          <span>
-            EXPERIENCE
-          </span>
+          <small>
+            KNOWLEDGE · INTELLIGENCE · IMPLEMENTATION · GOVERNANCE · EXPERIENCE
+          </small>
 
         </footer>
 
@@ -410,7 +411,7 @@ export default function ArcheNovaValleyPortal() {
 
 
       {/* ==================================================
-          ENTER TRANSITION
+          FULLSCREEN ENTER TRANSITION
       ================================================== */}
 
       <div
@@ -423,11 +424,16 @@ export default function ArcheNovaValleyPortal() {
         <div className="an-valley-portal__transition-field" />
 
 
-        <div className="an-valley-portal__transition-landscape">
+        <div className="an-valley-portal__transition-domain">
 
           <span className="an-valley-portal__transition-horizon" />
 
-          <span className="an-valley-portal__transition-path" />
+          <span className="an-valley-portal__transition-mountain an-valley-portal__transition-mountain--left" />
+
+          <span className="an-valley-portal__transition-mountain an-valley-portal__transition-mountain--right" />
+
+          <span className="an-valley-portal__transition-axis" />
+
 
           <span className="an-valley-portal__transition-node an-valley-portal__transition-node--1" />
 
@@ -496,9 +502,9 @@ export default function ArcheNovaValleyPortal() {
 
           min-height:
             clamp(
-              590px,
-              61vw,
-              740px
+              560px,
+              58vw,
+              700px
             );
 
           display: grid;
@@ -530,7 +536,7 @@ export default function ArcheNovaValleyPortal() {
             clamp(
               24px,
               2.8vw,
-              36px
+              34px
             );
 
           background:
@@ -539,30 +545,30 @@ export default function ArcheNovaValleyPortal() {
               rgba(
                 15,
                 17,
-                19,
-                0.7
+                20,
+                0.68
               ),
               rgba(
                 6,
                 7,
-                8,
-                0.9
+                9,
+                0.86
               )
               48%,
               rgba(
                 0,
                 0,
                 0,
-                0.975
+                0.96
               )
             );
 
           -webkit-backdrop-filter:
-            blur(34px)
+            blur(32px)
             saturate(110%);
 
           backdrop-filter:
-            blur(34px)
+            blur(32px)
             saturate(110%);
 
           box-shadow:
@@ -577,25 +583,14 @@ export default function ArcheNovaValleyPortal() {
               0.045
             ),
 
-            inset
             0
-            -1px
-            0
-            rgba(
-              255,
-              255,
-              255,
-              0.012
-            ),
-
-            0
-            38px
-            120px
+            34px
+            110px
             rgba(
               0,
               0,
               0,
-              0.36
+              0.34
             );
 
           color: white;
@@ -639,13 +634,13 @@ export default function ArcheNovaValleyPortal() {
                 0.035
               ),
               transparent
-              22%,
+              21%,
               transparent
-              75%,
+              76%,
               rgba(
-                198,
-                212,
-                219,
+                200,
+                214,
+                220,
                 0.018
               )
             );
@@ -667,45 +662,45 @@ export default function ArcheNovaValleyPortal() {
 
           background:
             radial-gradient(
-              ellipse
+              circle
               at
               50%
-              57%,
+              52%,
               rgba(
-                199,
-                213,
-                220,
-                0.052
+                205,
+                217,
+                223,
+                0.05
               ),
               transparent
-              18%
+              19%
             ),
 
             radial-gradient(
               ellipse
               at
               50%
-              65%,
+              58%,
               rgba(
-                94,
-                109,
-                116,
+                91,
+                104,
+                111,
                 0.04
               ),
               transparent
-              42%
+              44%
             ),
 
             radial-gradient(
               ellipse
               at
-              8%
+              15%
               105%,
               rgba(
-                113,
-                132,
-                141,
-                0.026
+                119,
+                138,
+                147,
+                0.025
               ),
               transparent
               42%
@@ -722,7 +717,7 @@ export default function ArcheNovaValleyPortal() {
 
           pointer-events: none;
 
-          opacity: 0.075;
+          opacity: 0.08;
 
           background:
             radial-gradient(
@@ -746,7 +741,7 @@ export default function ArcheNovaValleyPortal() {
               to bottom,
               black,
               transparent
-              82%
+              78%
             );
 
           mask-image:
@@ -754,7 +749,7 @@ export default function ArcheNovaValleyPortal() {
               to bottom,
               black,
               transparent
-              82%
+              78%
             );
         }
 
@@ -768,7 +763,7 @@ export default function ArcheNovaValleyPortal() {
 
           pointer-events: none;
 
-          opacity: 0.055;
+          opacity: 0.05;
 
           background-image:
             linear-gradient(
@@ -776,7 +771,7 @@ export default function ArcheNovaValleyPortal() {
                 255,
                 255,
                 255,
-                0.021
+                0.022
               )
               1px,
               transparent
@@ -789,7 +784,7 @@ export default function ArcheNovaValleyPortal() {
                 255,
                 255,
                 255,
-                0.021
+                0.022
               )
               1px,
               transparent
@@ -797,15 +792,14 @@ export default function ArcheNovaValleyPortal() {
             );
 
           background-size:
-            68px
-            68px;
+            64px
+            64px;
 
           -webkit-mask-image:
             radial-gradient(
-              ellipse
+              circle
               at
-              50%
-              58%,
+              center,
               black,
               transparent
               72%
@@ -813,10 +807,9 @@ export default function ArcheNovaValleyPortal() {
 
           mask-image:
             radial-gradient(
-              ellipse
+              circle
               at
-              50%
-              58%,
+              center,
               black,
               transparent
               72%
@@ -860,7 +853,7 @@ export default function ArcheNovaValleyPortal() {
               247,
               249,
               250,
-              0.7
+              0.68
             );
 
           font-size: 9px;
@@ -868,7 +861,7 @@ export default function ArcheNovaValleyPortal() {
           font-weight: 650;
 
           letter-spacing:
-            0.23em;
+            0.24em;
         }
 
 
@@ -876,8 +869,8 @@ export default function ArcheNovaValleyPortal() {
         > small {
           color:
             rgba(
-              214,
-              224,
+              216,
+              225,
               229,
               0.21
             );
@@ -898,10 +891,10 @@ export default function ArcheNovaValleyPortal() {
 
           color:
             rgba(
-              218,
-              227,
-              231,
-              0.29
+              220,
+              228,
+              232,
+              0.3
             );
 
           font-size: 6px;
@@ -940,55 +933,44 @@ export default function ArcheNovaValleyPortal() {
 
           animation:
             an-valley-status
-            8.8s
+            9.6s
             ease-in-out
             infinite;
         }
 
 
         /* ==================================================
-           MAIN
+           EXPERIENCE
         ================================================== */
 
-        .an-valley-portal__main {
+        .an-valley-portal__experience {
           position: relative;
 
           z-index: 5;
 
           align-self: center;
 
-          display: grid;
+          width: 100%;
 
-          grid-template-columns:
-            minmax(
-              300px,
-              0.82fr
-            )
-            minmax(
-              420px,
-              1.18fr
-            );
+          display: flex;
+
+          flex-direction: column;
 
           align-items: center;
 
-          gap:
-            clamp(
-              28px,
-              5vw,
-              76px
-            );
+          justify-content: center;
 
           padding:
             clamp(
-              44px,
-              6vw,
-              76px
+              34px,
+              4vw,
+              48px
             )
             0
             clamp(
-              38px,
-              5vw,
-              62px
+              22px,
+              3vw,
+              34px
             );
         }
 
@@ -1000,7 +982,19 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__statement {
           position: relative;
 
-          z-index: 6;
+          z-index: 5;
+
+          width: 100%;
+
+          display: flex;
+
+          flex-direction: column;
+
+          align-items: center;
+
+          gap: 13px;
+
+          text-align: center;
 
           transition:
             opacity
@@ -1011,54 +1005,47 @@ export default function ArcheNovaValleyPortal() {
 
 
         .an-valley-portal__eyebrow {
-          display: block;
-
           color:
             rgba(
-              200,
-              213,
-              219,
-              0.27
+              204,
+              215,
+              220,
+              0.22
             );
 
-          font-size: 7px;
+          font-size: 6px;
 
-          font-weight: 620;
+          font-weight: 600;
 
           letter-spacing:
-            0.2em;
+            0.21em;
         }
 
 
         .an-valley-portal__statement h2 {
-          max-width: 560px;
-
-          margin:
-            19px
-            0
-            0;
+          margin: 0;
 
           color:
             rgba(
               250,
               251,
               252,
-              0.97
+              0.965
             );
 
           font-size:
             clamp(
-              47px,
-              5.7vw,
-              80px
+              39px,
+              5.1vw,
+              70px
             );
 
           font-weight: 235;
 
-          line-height: 0.94;
+          line-height: 0.95;
 
           letter-spacing:
-            -0.061em;
+            -0.058em;
 
           text-wrap: balance;
 
@@ -1082,9 +1069,22 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__valley-button {
           position: relative;
 
-          width: 100%;
+          z-index: 5;
+
+          width:
+            min(
+              100%,
+              560px
+            );
 
           display: block;
+
+          margin-top:
+            clamp(
+              18px,
+              2.3vw,
+              28px
+            );
 
           padding: 0;
 
@@ -1111,118 +1111,26 @@ export default function ArcheNovaValleyPortal() {
 
 
         /* ==================================================
-           LANDSCAPE
+           VALLEY DOMAIN
         ================================================== */
 
-        .an-valley-portal__landscape {
+        .an-valley-portal__valley {
           position: relative;
 
           width:
             min(
               100%,
-              620px
+              455px
             );
 
           aspect-ratio:
-            1.45;
+            1.15;
 
-          display: block;
+          display: grid;
+
+          place-items: center;
 
           margin: 0 auto;
-
-          overflow: hidden;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.055
-            );
-
-          border-radius:
-            50%
-            50%
-            15%
-            15%
-            /
-            25%
-            25%
-            12%
-            12%;
-
-          background:
-            radial-gradient(
-              ellipse
-              at
-              50%
-              41%,
-              rgba(
-                193,
-                210,
-                218,
-                0.05
-              ),
-              transparent
-              27%
-            ),
-
-            linear-gradient(
-              to bottom,
-              rgba(
-                18,
-                20,
-                22,
-                0.32
-              ),
-              rgba(
-                4,
-                5,
-                6,
-                0.8
-              )
-              48%,
-              rgba(
-                0,
-                0,
-                0,
-                0.98
-              )
-            );
-
-          box-shadow:
-            inset
-            0
-            1px
-            0
-            rgba(
-              255,
-              255,
-              255,
-              0.03
-            ),
-
-            inset
-            0
-            -40px
-            70px
-            rgba(
-              0,
-              0,
-              0,
-              0.62
-            ),
-
-            0
-            30px
-            70px
-            rgba(
-              0,
-              0,
-              0,
-              0.38
-            );
 
           transform:
             translateZ(
@@ -1237,20 +1145,341 @@ export default function ArcheNovaValleyPortal() {
               0.8,
               0.2,
               1
-            ),
-            border-color
-            0.5s ease,
-            box-shadow
-            0.5s ease;
+            );
         }
 
 
-        .an-valley-portal__landscape::after {
+        /* ==================================================
+           ATMOSPHERE
+        ================================================== */
+
+        .an-valley-portal__valley-atmosphere {
+          position: absolute;
+
+          width: 94%;
+
+          aspect-ratio: 1;
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle,
+              rgba(
+                226,
+                233,
+                236,
+                0.03
+              ),
+              rgba(
+                83,
+                95,
+                102,
+                0.018
+              )
+              40%,
+              transparent
+              69%
+            );
+
+          filter:
+            blur(
+              4px
+            );
+
+          animation:
+            an-valley-atmosphere
+            10.4s
+            ease-in-out
+            infinite;
+        }
+
+
+        .an-valley-portal__valley-halo {
+          position: absolute;
+
+          width: 72%;
+
+          aspect-ratio: 1;
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle,
+              rgba(
+                226,
+                233,
+                236,
+                0.06
+              ),
+              rgba(
+                115,
+                128,
+                135,
+                0.018
+              )
+              46%,
+              transparent
+              70%
+            );
+
+          filter:
+            blur(
+              12px
+            );
+
+          animation:
+            an-valley-halo
+            10.4s
+            ease-in-out
+            infinite;
+        }
+
+
+        /* ==================================================
+           OUTER DOMAIN
+        ================================================== */
+
+        .an-valley-portal__domain {
+          position: absolute;
+
+          width: 78%;
+
+          aspect-ratio: 1;
+
+          display: grid;
+
+          place-items: center;
+
+          border:
+            1px solid
+            rgba(
+              225,
+              233,
+              236,
+              0.055
+            );
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle
+              at
+              40%
+              30%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              ),
+              transparent
+              38%
+            );
+
+          box-shadow:
+            inset
+            0
+            1px
+            0
+            rgba(
+              255,
+              255,
+              255,
+              0.028
+            ),
+
+            0
+            0
+            50px
+            rgba(
+              215,
+              228,
+              233,
+              0.018
+            );
+
+          animation:
+            an-valley-domain-breathe
+            10.4s
+            ease-in-out
+            infinite;
+        }
+
+
+        .an-valley-portal__domain-ring {
+          position: absolute;
+
+          border:
+            1px solid
+            rgba(
+              221,
+              230,
+              234,
+              0.035
+            );
+
+          border-radius: 50%;
+        }
+
+
+        .an-valley-portal__domain-ring--1 {
+          width: 88%;
+          height: 88%;
+        }
+
+
+        .an-valley-portal__domain-ring--2 {
+          width: 68%;
+          height: 68%;
+        }
+
+
+        .an-valley-portal__domain-ring--3 {
+          width: 48%;
+          height: 48%;
+        }
+
+
+        /* ==================================================
+           CENTRAL ICON
+        ================================================== */
+
+        .an-valley-portal__icon {
+          position: relative;
+
+          z-index: 5;
+
+          width: 64%;
+          height: 50%;
+
+          display: block;
+
+          overflow: hidden;
+
+          border:
+            1px solid
+            rgba(
+              232,
+              237,
+              239,
+              0.1
+            );
+
+          border-radius:
+            48%
+            48%
+            32%
+            32%
+            /
+            42%
+            42%
+            24%
+            24%;
+
+          background:
+            radial-gradient(
+              ellipse
+              at
+              50%
+              32%,
+              rgba(
+                255,
+                255,
+                255,
+                0.055
+              ),
+              transparent
+              31%
+            ),
+
+            linear-gradient(
+              180deg,
+              rgba(
+                34,
+                37,
+                40,
+                0.74
+              ),
+              rgba(
+                10,
+                11,
+                13,
+                0.94
+              )
+              48%,
+              rgba(
+                0,
+                0,
+                0,
+                0.995
+              )
+            );
+
+          box-shadow:
+            inset
+            0
+            1px
+            0
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            ),
+
+            inset
+            0
+            -30px
+            45px
+            rgba(
+              0,
+              0,
+              0,
+              0.55
+            ),
+
+            0
+            22px
+            40px
+            rgba(
+              0,
+              0,
+              0,
+              0.58
+            );
+
+          animation:
+            an-valley-icon-breathe
+            10.4s
+            cubic-bezier(
+              0.45,
+              0,
+              0.55,
+              1
+            )
+            infinite;
+
+          transition:
+            filter
+            0.55s ease,
+            transform
+            0.55s ease,
+            border-color
+            0.45s ease;
+        }
+
+
+        .an-valley-portal__icon::after {
           content: "";
 
           position: absolute;
 
           inset: 0;
+
+          z-index: 20;
 
           pointer-events: none;
 
@@ -1266,11 +1495,11 @@ export default function ArcheNovaValleyPortal() {
               transparent
               25%,
               transparent
-              72%,
+              74%,
               rgba(
-                210,
-                224,
-                230,
+                212,
+                225,
+                231,
                 0.018
               )
             );
@@ -1278,115 +1507,41 @@ export default function ArcheNovaValleyPortal() {
 
 
         /* ==================================================
-           LANDSCAPE ATMOSPHERE
+           SKY / HORIZON
         ================================================== */
 
-        .an-valley-portal__landscape-halo {
+        .an-valley-portal__icon-sky {
           position: absolute;
 
-          z-index: 1;
-
-          top: 14%;
-          left: 50%;
-
-          width: 68%;
-          height: 48%;
-
-          transform:
-            translateX(
-              -50%
-            );
-
-          border-radius: 50%;
+          inset:
+            0
+            0
+            46%;
 
           background:
             radial-gradient(
-              ellipse,
+              ellipse
+              at
+              50%
+              90%,
               rgba(
                 219,
                 229,
                 233,
-                0.07
+                0.065
               ),
-              rgba(
-                114,
-                130,
-                138,
-                0.022
-              )
-              45%,
               transparent
-              72%
-            );
-
-          filter:
-            blur(
-              12px
-            );
-
-          animation:
-            an-valley-breathe
-            10.5s
-            ease-in-out
-            infinite;
-        }
-
-
-        .an-valley-portal__landscape-depth {
-          position: absolute;
-
-          z-index: 1;
-
-          inset:
-            18%
-            9%
-            8%;
-
-          border-radius:
-            50%
-            50%
-            10%
-            10%;
-
-          background:
-            linear-gradient(
-              180deg,
-              transparent,
-              rgba(
-                205,
-                218,
-                224,
-                0.018
-              )
-              42%,
-              rgba(
-                0,
-                0,
-                0,
-                0.38
-              )
-            );
-
-          transform:
-            perspective(
-              600px
-            )
-            rotateX(
-              58deg
+              60%
             );
         }
 
 
-        /* ==================================================
-           HORIZON
-        ================================================== */
-
-        .an-valley-portal__horizon {
+        .an-valley-portal__icon-horizon {
           position: absolute;
 
           z-index: 3;
 
-          top: 40%;
+          top: 43%;
           left: 9%;
 
           width: 82%;
@@ -1397,128 +1552,79 @@ export default function ArcheNovaValleyPortal() {
               90deg,
               transparent,
               rgba(
-                220,
-                230,
-                234,
-                0.04
+                223,
+                232,
+                236,
+                0.05
               ),
               rgba(
-                220,
                 230,
-                234,
-                0.16
+                236,
+                239,
+                0.22
               ),
               rgba(
-                220,
-                230,
-                234,
-                0.04
+                223,
+                232,
+                236,
+                0.05
               ),
               transparent
             );
-        }
 
-
-        .an-valley-portal__horizon-glow {
-          position: absolute;
-
-          z-index: 2;
-
-          top: 38%;
-          left: 22%;
-
-          width: 56%;
-          height: 7%;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              ellipse,
-              rgba(
-                221,
-                230,
-                234,
-                0.055
-              ),
-              transparent
-              72%
+          box-shadow:
+            0
+            0
+            14px
+            rgba(
+              224,
+              233,
+              237,
+              0.055
             );
-
-          filter:
-            blur(
-              7px
-            );
-
-          animation:
-            an-valley-horizon
-            10.5s
-            ease-in-out
-            infinite;
         }
 
 
         /* ==================================================
-           TERRAIN
+           MOUNTAINS
         ================================================== */
 
-        .an-valley-portal__terrain {
+        .an-valley-portal__mountain {
           position: absolute;
 
           z-index: 4;
 
-          inset:
-            39%
-            4%
-            8%;
+          bottom: -4%;
 
-          transform:
-            perspective(
-              620px
-            )
-            rotateX(
-              61deg
-            );
-
-          transform-origin:
-            center top;
-        }
-
-
-        .an-valley-portal__terrain-plane {
-          position: absolute;
+          width: 62%;
+          height: 67%;
 
           border:
             1px solid
             rgba(
-              216,
-              227,
-              232,
-              0.035
+              221,
+              230,
+              234,
+              0.05
             );
 
           background:
             linear-gradient(
               145deg,
               rgba(
-                255,
-                255,
-                255,
-                0.025
+                57,
+                61,
+                64,
+                0.48
               ),
               rgba(
-                255,
-                255,
-                255,
-                0.004
+                13,
+                14,
+                16,
+                0.94
               )
               55%,
-              rgba(
-                0,
-                0,
-                0,
-                0.4
-              )
+              #000
             );
 
           box-shadow:
@@ -1530,115 +1636,65 @@ export default function ArcheNovaValleyPortal() {
               255,
               255,
               255,
-              0.018
+              0.03
             );
         }
 
 
-        .an-valley-portal__terrain-plane--1 {
-          top: 6%;
-          left: 4%;
+        .an-valley-portal__mountain--left {
+          left: -17%;
 
-          width: 42%;
-          height: 55%;
-
-          transform:
-            skewX(
-              -14deg
+          clip-path:
+            polygon(
+              0 100%,
+              0 53%,
+              26% 35%,
+              43% 4%,
+              64% 39%,
+              100% 100%
             );
-
-          border-radius:
-            50%
-            18%
-            38%
-            18%;
         }
 
 
-        .an-valley-portal__terrain-plane--2 {
-          top: 2%;
-          right: 5%;
+        .an-valley-portal__mountain--right {
+          right: -17%;
 
-          width: 43%;
-          height: 58%;
-
-          transform:
-            skewX(
-              14deg
+          clip-path:
+            polygon(
+              0 100%,
+              36% 39%,
+              57% 4%,
+              74% 35%,
+              100% 53%,
+              100% 100%
             );
-
-          border-radius:
-            18%
-            50%
-            18%
-            38%;
-        }
-
-
-        .an-valley-portal__terrain-plane--3 {
-          bottom: 1%;
-          left: 10%;
-
-          width: 36%;
-          height: 44%;
-
-          transform:
-            skewX(
-              -8deg
-            );
-
-          border-radius:
-            42%
-            16%
-            30%
-            20%;
-        }
-
-
-        .an-valley-portal__terrain-plane--4 {
-          right: 11%;
-          bottom: 1%;
-
-          width: 37%;
-          height: 45%;
-
-          transform:
-            skewX(
-              8deg
-            );
-
-          border-radius:
-            16%
-            42%
-            20%
-            30%;
         }
 
 
         /* ==================================================
-           CIVILIZATION PATH
+           CENTRAL AXIS
         ================================================== */
 
-        .an-valley-portal__path {
+        .an-valley-portal__axis {
           position: absolute;
 
-          z-index: 6;
+          z-index: 8;
 
-          top: 32%;
+          top: 39%;
+          bottom: 8%;
           left: 50%;
 
           width: 22%;
-          height: 57%;
 
           transform:
             translateX(
               -50%
             )
             perspective(
-              480px
+              420px
             )
             rotateX(
-              58deg
+              57deg
             );
 
           transform-origin:
@@ -1646,7 +1702,7 @@ export default function ArcheNovaValleyPortal() {
         }
 
 
-        .an-valley-portal__path-line {
+        .an-valley-portal__axis-line {
           position: absolute;
 
           top: 0;
@@ -1664,42 +1720,35 @@ export default function ArcheNovaValleyPortal() {
             linear-gradient(
               to bottom,
               rgba(
-                230,
-                236,
-                239,
-                0.04
+                238,
+                242,
+                244,
+                0.16
               ),
               rgba(
-                230,
-                236,
-                239,
-                0.2
+                225,
+                234,
+                238,
+                0.23
               )
-              45%,
-              rgba(
-                230,
-                236,
-                239,
-                0.07
-              )
-              78%,
+              48%,
               transparent
             );
 
           box-shadow:
             0
             0
-            9px
+            10px
             rgba(
-              224,
-              233,
-              237,
-              0.06
+              226,
+              235,
+              239,
+              0.08
             );
         }
 
 
-        .an-valley-portal__path-light {
+        .an-valley-portal__axis-signal {
           position: absolute;
 
           left: 50%;
@@ -1707,12 +1756,12 @@ export default function ArcheNovaValleyPortal() {
           width: 4px;
           height: 4px;
 
-          border-radius: 50%;
-
           transform:
             translateX(
               -50%
             );
+
+          border-radius: 50%;
 
           opacity: 0;
 
@@ -1721,40 +1770,40 @@ export default function ArcheNovaValleyPortal() {
               239,
               243,
               245,
-              0.76
+              0.78
             );
 
           box-shadow:
             0
             0
-            13px
+            12px
             rgba(
               224,
               234,
               238,
-              0.25
+              0.24
             );
         }
 
 
-        .an-valley-portal__path-light--1 {
+        .an-valley-portal__axis-signal--1 {
           animation:
-            an-valley-path-light
-            7.8s
+            an-valley-axis-signal
+            8.4s
             ease-in-out
             infinite;
         }
 
 
-        .an-valley-portal__path-light--2 {
+        .an-valley-portal__axis-signal--2 {
           animation:
-            an-valley-path-light
-            7.8s
+            an-valley-axis-signal
+            8.4s
             ease-in-out
             infinite;
 
           animation-delay:
-            -3.9s;
+            -4.2s;
         }
 
 
@@ -1765,97 +1814,91 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__district {
           position: absolute;
 
-          z-index: 10;
+          z-index: 12;
 
           display: flex;
 
           align-items: center;
 
-          gap: 7px;
+          gap: 5px;
 
           color:
             rgba(
-              219,
-              228,
-              232,
-              0.27
+              220,
+              229,
+              233,
+              0.34
             );
 
-          font-size: 5px;
+          font-size: 4px;
 
-          font-weight: 600;
+          font-weight: 620;
 
           letter-spacing:
-            0.13em;
+            0.11em;
 
           white-space: nowrap;
-
-          transition:
-            color
-            0.4s ease,
-            transform
-            0.4s ease;
         }
 
 
         .an-valley-portal__district i {
-          width: 5px;
-          height: 5px;
+          width: 4px;
+          height: 4px;
 
           flex: 0 0 auto;
 
           border:
             1px solid
             rgba(
-              229,
-              235,
+              233,
               238,
-              0.32
+              240,
+              0.36
             );
 
           border-radius: 50%;
 
           background:
             rgba(
-              226,
-              233,
-              236,
-              0.09
+              227,
+              234,
+              237,
+              0.11
             );
 
           box-shadow:
             0
             0
-            10px
+            9px
             rgba(
-              218,
+              219,
               230,
               235,
-              0.08
+              0.1
             );
 
           animation:
             an-valley-node
-            9.5s
+            10.4s
             ease-in-out
             infinite;
         }
 
 
         .an-valley-portal__district--knowledge {
-          top: 32%;
-          left: 17%;
+          top: 29%;
+          left: 10%;
         }
 
 
         .an-valley-portal__district--intelligence {
-          top: 48%;
-          left: 24%;
+          top: 47%;
+          left: 17%;
         }
 
 
         .an-valley-portal__district--implementation {
-          top: 59%;
+          top: 62%;
           left: 50%;
 
           transform:
@@ -1866,42 +1909,42 @@ export default function ArcheNovaValleyPortal() {
 
 
         .an-valley-portal__district--governance {
-          top: 48%;
-          right: 23%;
+          top: 47%;
+          right: 16%;
         }
 
 
         .an-valley-portal__district--experience {
-          top: 32%;
-          right: 16%;
+          top: 29%;
+          right: 9%;
         }
 
 
         .an-valley-portal__district--intelligence
         i {
           animation-delay:
-            -1.9s;
+            -2.08s;
         }
 
 
         .an-valley-portal__district--implementation
         i {
           animation-delay:
-            -3.8s;
+            -4.16s;
         }
 
 
         .an-valley-portal__district--governance
         i {
           animation-delay:
-            -5.7s;
+            -6.24s;
         }
 
 
         .an-valley-portal__district--experience
         i {
           animation-delay:
-            -7.6s;
+            -8.32s;
         }
 
 
@@ -1912,34 +1955,92 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__boundary {
           position: absolute;
 
-          z-index: 8;
+          z-index: 12;
+
+          bottom: 8%;
 
           color:
             rgba(
-              211,
-              221,
-              226,
-              0.13
+              213,
+              223,
+              227,
+              0.16
             );
 
-          font-size: 5px;
+          font-size: 4px;
 
           font-weight: 600;
 
           letter-spacing:
-            0.18em;
+            0.15em;
         }
 
 
         .an-valley-portal__boundary--reality {
-          bottom: 10%;
-          left: 7%;
+          left: 8%;
         }
 
 
         .an-valley-portal__boundary--civilization {
-          bottom: 10%;
-          right: 7%;
+          right: 8%;
+        }
+
+
+        /* ==================================================
+           FLOOR
+        ================================================== */
+
+        .an-valley-portal__floor {
+          position: absolute;
+
+          z-index: 2;
+
+          bottom: 17%;
+
+          left: 50%;
+
+          width: 52%;
+          height: 7%;
+
+          transform:
+            translateX(
+              -50%
+            );
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              ellipse,
+              rgba(
+                220,
+                229,
+                233,
+                0.075
+              ),
+              rgba(
+                130,
+                144,
+                151,
+                0.018
+              )
+              45%,
+              transparent
+              72%
+            );
+
+          filter:
+            blur(
+              7px
+            );
+
+          opacity: 0.6;
+
+          animation:
+            an-valley-floor
+            10.4s
+            ease-in-out
+            infinite;
         }
 
 
@@ -1950,9 +2051,10 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__tap {
           position: absolute;
 
-          z-index: 12;
+          z-index: 20;
 
-          bottom: 8%;
+          bottom: 2%;
+
           left: 50%;
 
           transform:
@@ -1962,13 +2064,13 @@ export default function ArcheNovaValleyPortal() {
 
           color:
             rgba(
-              217,
-              226,
-              230,
-              0.23
+              215,
+              224,
+              228,
+              0.24
             );
 
-          font-size: 6px;
+          font-size: 7px;
 
           font-weight: 500;
 
@@ -1992,24 +2094,18 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__footer {
           position: relative;
 
-          z-index: 8;
+          z-index: 6;
 
           display: flex;
 
           align-items: center;
 
-          justify-content: center;
+          justify-content:
+            space-between;
 
-          flex-wrap: wrap;
+          gap: 24px;
 
-          gap:
-            clamp(
-              8px,
-              1.4vw,
-              16px
-            );
-
-          padding-top: 19px;
+          padding-top: 18px;
 
           border-top:
             1px solid
@@ -2020,40 +2116,45 @@ export default function ArcheNovaValleyPortal() {
               0.045
             );
 
-          color:
-            rgba(
-              211,
-              222,
-              227,
-              0.18
-            );
-
-          font-size: 5px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.13em;
-
           transition:
             opacity
             0.5s ease;
         }
 
 
-        .an-valley-portal__footer i {
-          width: 3px;
-          height: 3px;
-
-          border-radius: 50%;
-
-          background:
+        .an-valley-portal__footer
+        > span {
+          color:
             rgba(
-              255,
-              255,
-              255,
-              0.13
+              241,
+              245,
+              247,
+              0.36
             );
+
+          font-size: 6px;
+
+          font-weight: 620;
+
+          letter-spacing:
+            0.18em;
+        }
+
+
+        .an-valley-portal__footer
+        > small {
+          color:
+            rgba(
+              207,
+              219,
+              224,
+              0.16
+            );
+
+          font-size: 5px;
+
+          letter-spacing:
+            0.11em;
         }
 
 
@@ -2093,7 +2194,7 @@ export default function ArcheNovaValleyPortal() {
             0.18s ease,
             visibility
             0s linear
-            1.2s,
+            1.3s,
             background
             0.8s ease;
         }
@@ -2138,7 +2239,7 @@ export default function ArcheNovaValleyPortal() {
             opacity
             0.6s ease,
             transform
-            1s
+            1.1s
             cubic-bezier(
               0.16,
               0.78,
@@ -2149,50 +2250,97 @@ export default function ArcheNovaValleyPortal() {
 
 
         /* ==================================================
-           TRANSITION LANDSCAPE
+           TRANSITION DOMAIN
         ================================================== */
 
-        .an-valley-portal__transition-landscape {
+        .an-valley-portal__transition-domain {
           position: relative;
 
           z-index: 3;
 
           width:
             min(
-              72vw,
-              780px
+              78vw,
+              820px
             );
 
           height:
             min(
-              46vw,
-              470px
+              52vw,
+              520px
             );
+
+          overflow: hidden;
 
           opacity: 0;
 
-          transform:
-            perspective(
-              700px
-            )
-            rotateX(
-              62deg
-            )
-            scale(
-              0.48
-            )
-            translateY(
-              50px
+          border:
+            1px solid
+            rgba(
+              232,
+              237,
+              239,
+              0.07
             );
 
-          transform-origin:
-            center center;
+          border-radius:
+            48%
+            48%
+            28%
+            28%
+            /
+            44%
+            44%
+            20%
+            20%;
+
+          background:
+            radial-gradient(
+              ellipse
+              at
+              50%
+              31%,
+              rgba(
+                226,
+                234,
+                237,
+                0.055
+              ),
+              transparent
+              35%
+            ),
+
+            linear-gradient(
+              180deg,
+              rgba(
+                27,
+                30,
+                32,
+                0.66
+              ),
+              rgba(
+                5,
+                6,
+                7,
+                0.95
+              )
+              52%,
+              #000
+            );
+
+          transform:
+            scale(
+              0.36
+            )
+            translateY(
+              40px
+            );
 
           transition:
             opacity
             0.35s ease,
             transform
-            1.05s
+            1.12s
             cubic-bezier(
               0.16,
               0.78,
@@ -2205,10 +2353,12 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__transition-horizon {
           position: absolute;
 
-          top: 13%;
-          left: 10%;
+          z-index: 3;
 
-          width: 80%;
+          top: 42%;
+          left: 9%;
+
+          width: 82%;
           height: 1px;
 
           background:
@@ -2249,10 +2399,82 @@ export default function ArcheNovaValleyPortal() {
         }
 
 
-        .an-valley-portal__transition-path {
+        .an-valley-portal__transition-mountain {
           position: absolute;
 
-          top: 13%;
+          z-index: 4;
+
+          bottom: -5%;
+
+          width: 61%;
+          height: 68%;
+
+          border:
+            1px solid
+            rgba(
+              222,
+              231,
+              235,
+              0.045
+            );
+
+          background:
+            linear-gradient(
+              145deg,
+              rgba(
+                56,
+                61,
+                64,
+                0.46
+              ),
+              rgba(
+                11,
+                12,
+                14,
+                0.95
+              )
+              56%,
+              #000
+            );
+        }
+
+
+        .an-valley-portal__transition-mountain--left {
+          left: -15%;
+
+          clip-path:
+            polygon(
+              0 100%,
+              0 54%,
+              26% 36%,
+              44% 3%,
+              64% 40%,
+              100% 100%
+            );
+        }
+
+
+        .an-valley-portal__transition-mountain--right {
+          right: -15%;
+
+          clip-path:
+            polygon(
+              0 100%,
+              36% 40%,
+              56% 3%,
+              74% 36%,
+              100% 54%,
+              100% 100%
+            );
+        }
+
+
+        .an-valley-portal__transition-axis {
+          position: absolute;
+
+          z-index: 7;
+
+          top: 39%;
           bottom: 0;
           left: 50%;
 
@@ -2267,16 +2489,16 @@ export default function ArcheNovaValleyPortal() {
             linear-gradient(
               to bottom,
               rgba(
-                238,
-                242,
-                244,
-                0.28
+                239,
+                243,
+                245,
+                0.3
               ),
               rgba(
-                225,
-                234,
-                238,
-                0.09
+                226,
+                235,
+                239,
+                0.11
               )
               58%,
               transparent
@@ -2285,7 +2507,7 @@ export default function ArcheNovaValleyPortal() {
           box-shadow:
             0
             0
-            14px
+            15px
             rgba(
               226,
               235,
@@ -2297,6 +2519,8 @@ export default function ArcheNovaValleyPortal() {
 
         .an-valley-portal__transition-node {
           position: absolute;
+
+          z-index: 9;
 
           width: 7px;
           height: 7px;
@@ -2334,32 +2558,37 @@ export default function ArcheNovaValleyPortal() {
 
 
         .an-valley-portal__transition-node--1 {
-          top: 25%;
-          left: 22%;
+          top: 29%;
+          left: 20%;
         }
 
 
         .an-valley-portal__transition-node--2 {
-          top: 45%;
-          left: 34%;
+          top: 48%;
+          left: 31%;
         }
 
 
         .an-valley-portal__transition-node--3 {
-          top: 61%;
+          top: 62%;
           left: 50%;
+
+          transform:
+            translateX(
+              -50%
+            );
         }
 
 
         .an-valley-portal__transition-node--4 {
-          top: 45%;
-          right: 34%;
+          top: 48%;
+          right: 31%;
         }
 
 
         .an-valley-portal__transition-node--5 {
-          top: 25%;
-          right: 22%;
+          top: 29%;
+          right: 20%;
         }
 
 
@@ -2370,7 +2599,7 @@ export default function ArcheNovaValleyPortal() {
         .an-valley-portal__transition-copy {
           position: absolute;
 
-          z-index: 8;
+          z-index: 20;
 
           bottom:
             clamp(
@@ -2446,7 +2675,7 @@ export default function ArcheNovaValleyPortal() {
 
 
         /* ==================================================
-           ENTERING STATE
+           ENTERING
         ================================================== */
 
         .an-valley-portal--entering
@@ -2454,26 +2683,41 @@ export default function ArcheNovaValleyPortal() {
           opacity: 0;
 
           transform:
-            translateX(
-              -12px
+            translateY(
+              -8px
             );
         }
 
 
         .an-valley-portal--entering
-        .an-valley-portal__landscape {
+        .an-valley-portal__icon {
+          animation: none;
+
           transform:
             scale(
-              0.92
+              0.72
             );
 
-          border-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.025
+          filter:
+            brightness(
+              0.45
+            )
+            blur(
+              1px
             );
+        }
+
+
+        .an-valley-portal--entering
+        .an-valley-portal__domain {
+          animation: none;
+
+          transform:
+            scale(
+              0.82
+            );
+
+          opacity: 0.15;
         }
 
 
@@ -2489,21 +2733,21 @@ export default function ArcheNovaValleyPortal() {
 
           transform:
             scale(
-              0.98
+              0.975
             );
 
           filter:
             blur(
-              7px
+              8px
             );
         }
 
 
         .an-valley-portal--entering
         .an-valley-portal__transition {
-          opacity: 1;
-
           visibility: visible;
+
+          opacity: 1;
 
           background: #000;
 
@@ -2527,18 +2771,12 @@ export default function ArcheNovaValleyPortal() {
 
 
         .an-valley-portal--entering
-        .an-valley-portal__transition-landscape {
+        .an-valley-portal__transition-domain {
           opacity: 1;
 
           transform:
-            perspective(
-              700px
-            )
-            rotateX(
-              62deg
-            )
             scale(
-              1.15
+              1.16
             )
             translateY(
               0
@@ -2587,18 +2825,40 @@ export default function ArcheNovaValleyPortal() {
         }
 
 
-        @keyframes an-valley-breathe {
+        @keyframes an-valley-atmosphere {
 
           0%,
           100% {
-            opacity: 0.38;
+            opacity: 0.36;
 
             transform:
-              translateX(
-                -50%
-              )
               scale(
-                0.94
+                0.95
+              );
+          }
+
+
+          50% {
+            opacity: 0.7;
+
+            transform:
+              scale(
+                1.03
+              );
+          }
+
+        }
+
+
+        @keyframes an-valley-halo {
+
+          0%,
+          100% {
+            opacity: 0.35;
+
+            transform:
+              scale(
+                0.91
               );
           }
 
@@ -2607,36 +2867,95 @@ export default function ArcheNovaValleyPortal() {
             opacity: 0.78;
 
             transform:
-              translateX(
-                -50%
-              )
               scale(
-                1.06
+                1.07
               );
           }
 
         }
 
 
-        @keyframes an-valley-horizon {
+        @keyframes an-valley-domain-breathe {
+
+          0%,
+          100% {
+            opacity: 0.46;
+
+            transform:
+              scale(
+                0.975
+              );
+          }
+
+
+          50% {
+            opacity: 0.78;
+
+            transform:
+              scale(
+                1.02
+              );
+          }
+
+        }
+
+
+        @keyframes an-valley-icon-breathe {
+
+          0%,
+          100% {
+            transform:
+              scale(
+                0.97
+              );
+
+            filter:
+              brightness(
+                0.94
+              );
+          }
+
+
+          50% {
+            transform:
+              scale(
+                1.025
+              );
+
+            filter:
+              brightness(
+                1.07
+              );
+          }
+
+        }
+
+
+        @keyframes an-valley-floor {
 
           0%,
           100% {
             opacity: 0.35;
 
             transform:
+              translateX(
+                -50%
+              )
               scaleX(
-                0.9
+                0.88
               );
           }
 
 
           50% {
-            opacity: 0.75;
+            opacity: 0.68;
 
             transform:
+              translateX(
+                -50%
+              )
               scaleX(
-                1.06
+                1.08
               );
           }
 
@@ -2647,11 +2966,11 @@ export default function ArcheNovaValleyPortal() {
 
           0%,
           100% {
-            opacity: 0.32;
+            opacity: 0.2;
 
             transform:
               scale(
-                0.82
+                0.76
               );
           }
 
@@ -2661,29 +2980,29 @@ export default function ArcheNovaValleyPortal() {
 
             transform:
               scale(
-                1.08
+                1.1
               );
           }
 
         }
 
 
-        @keyframes an-valley-path-light {
+        @keyframes an-valley-axis-signal {
 
           0% {
-            top: 4%;
+            top: 3%;
 
             opacity: 0;
           }
 
 
-          12% {
-            opacity: 0.72;
+          13% {
+            opacity: 0.78;
           }
 
 
-          74% {
-            opacity: 0.52;
+          72% {
+            opacity: 0.5;
           }
 
 
@@ -2707,54 +3026,27 @@ export default function ArcheNovaValleyPortal() {
         ) {
 
           .an-valley-portal__valley-button:hover
-          .an-valley-portal__landscape {
+          .an-valley-portal__valley {
             transform:
-              translateY(
-                -3px
-              )
               scale(
-                1.015
+                1.018
               );
+          }
 
+
+          .an-valley-portal__valley-button:hover
+          .an-valley-portal__icon {
             border-color:
               rgba(
-                222,
-                231,
-                235,
-                0.09
+                232,
+                237,
+                239,
+                0.16
               );
 
-            box-shadow:
-              inset
-              0
-              1px
-              0
-              rgba(
-                255,
-                255,
-                255,
-                0.04
-              ),
-
-              inset
-              0
-              -40px
-              70px
-              rgba(
-                0,
-                0,
-                0,
-                0.62
-              ),
-
-              0
-              35px
-              80px
-              rgba(
-                0,
-                0,
-                0,
-                0.46
+            filter:
+              brightness(
+                1.1
               );
           }
 
@@ -2778,53 +3070,6 @@ export default function ArcheNovaValleyPortal() {
               );
           }
 
-
-          .an-valley-portal__valley-button:hover
-          .an-valley-portal__district {
-            color:
-              rgba(
-                226,
-                233,
-                236,
-                0.42
-              );
-          }
-
-        }
-
-
-        /* ==================================================
-           TABLET
-        ================================================== */
-
-        @media (
-          max-width: 920px
-        ) {
-
-          .an-valley-portal__main {
-            grid-template-columns:
-              minmax(
-                240px,
-                0.72fr
-              )
-              minmax(
-                390px,
-                1.28fr
-              );
-
-            gap: 24px;
-          }
-
-
-          .an-valley-portal__statement h2 {
-            font-size:
-              clamp(
-                43px,
-                6vw,
-                62px
-              );
-          }
-
         }
 
 
@@ -2844,7 +3089,7 @@ export default function ArcheNovaValleyPortal() {
 
 
           .an-valley-portal__card {
-            min-height: 660px;
+            min-height: 590px;
 
             padding:
               23px
@@ -2854,11 +3099,11 @@ export default function ArcheNovaValleyPortal() {
             border-radius: 23px;
 
             -webkit-backdrop-filter:
-              blur(23px)
+              blur(22px)
               saturate(108%);
 
             backdrop-filter:
-              blur(23px)
+              blur(22px)
               saturate(108%);
           }
 
@@ -2875,59 +3120,58 @@ export default function ArcheNovaValleyPortal() {
           }
 
 
-          .an-valley-portal__main {
-            grid-template-columns:
-              1fr;
+          .an-valley-portal__status {
+            font-size: 5px;
+          }
 
-            gap: 30px;
 
+          .an-valley-portal__experience {
             padding:
-              40px
+              36px
               0
-              28px;
-          }
-
-
-          .an-valley-portal__statement {
-            text-align: center;
-          }
-
-
-          .an-valley-portal__eyebrow {
-            font-size: 6px;
+              23px;
           }
 
 
           .an-valley-portal__statement h2 {
-            margin-top: 15px;
-
             font-size:
               clamp(
-                42px,
-                12vw,
-                59px
+                38px,
+                11vw,
+                54px
               );
-
-            line-height: 0.95;
           }
 
 
-          .an-valley-portal__landscape {
+          .an-valley-portal__valley-button {
+            margin-top: 17px;
+          }
+
+
+          .an-valley-portal__valley {
             width:
               min(
-                94vw,
-                520px
+                92vw,
+                350px
               );
+          }
 
-            aspect-ratio:
-              1.3;
+
+          .an-valley-portal__domain {
+            width: 81%;
+          }
+
+
+          .an-valley-portal__icon {
+            width: 67%;
+            height: 51%;
           }
 
 
           .an-valley-portal__district {
-            font-size: 4px;
+            font-size: 3.5px;
 
-            gap: 5px;
+            gap: 4px;
           }
 
 
@@ -2937,56 +3181,23 @@ export default function ArcheNovaValleyPortal() {
           }
 
 
-          .an-valley-portal__district--knowledge {
-            top: 31%;
-            left: 12%;
-          }
-
-
-          .an-valley-portal__district--intelligence {
-            top: 48%;
-            left: 17%;
-          }
-
-
-          .an-valley-portal__district--implementation {
-            top: 59%;
-          }
-
-
-          .an-valley-portal__district--governance {
-            top: 48%;
-            right: 16%;
-          }
-
-
-          .an-valley-portal__district--experience {
-            top: 31%;
-            right: 11%;
-          }
-
-
-          .an-valley-portal__boundary {
-            font-size: 4px;
-          }
-
-
           .an-valley-portal__tap {
-            font-size: 5px;
+            bottom: 0;
+
+            font-size: 6px;
           }
 
 
-          .an-valley-portal__footer {
-            gap: 7px;
-
-            font-size: 4px;
+          .an-valley-portal__footer
+          > small {
+            display: none;
           }
 
 
-          .an-valley-portal__transition-landscape {
+          .an-valley-portal__transition-domain {
             width: 92vw;
 
-            height: 58vw;
+            height: 64vw;
           }
 
         }
@@ -3001,7 +3212,7 @@ export default function ArcheNovaValleyPortal() {
         ) {
 
           .an-valley-portal__card {
-            min-height: 620px;
+            min-height: 555px;
 
             padding:
               21px
@@ -3015,18 +3226,23 @@ export default function ArcheNovaValleyPortal() {
           .an-valley-portal__statement h2 {
             font-size:
               clamp(
-                39px,
-                11.8vw,
-                50px
+                36px,
+                10.8vw,
+                48px
               );
           }
 
 
-          .an-valley-portal__landscape {
+          .an-valley-portal__eyebrow {
+            font-size: 5px;
+          }
+
+
+          .an-valley-portal__valley {
             width:
               min(
-                94vw,
-                390px
+                90vw,
+                315px
               );
           }
 
@@ -3043,11 +3259,8 @@ export default function ArcheNovaValleyPortal() {
           }
 
 
-          .an-valley-portal__footer
-          span:nth-of-type(2),
-          .an-valley-portal__footer
-          span:nth-of-type(4) {
-            display: none;
+          .an-valley-portal__boundary {
+            font-size: 3px;
           }
 
         }
@@ -3063,19 +3276,22 @@ export default function ArcheNovaValleyPortal() {
         ) {
 
           .an-valley-portal__status i,
-          .an-valley-portal__landscape-halo,
-          .an-valley-portal__horizon-glow,
+          .an-valley-portal__valley-atmosphere,
+          .an-valley-portal__valley-halo,
+          .an-valley-portal__domain,
+          .an-valley-portal__icon,
+          .an-valley-portal__floor,
           .an-valley-portal__district i,
-          .an-valley-portal__path-light {
+          .an-valley-portal__axis-signal {
             animation:
               none !important;
           }
 
 
-          .an-valley-portal__landscape,
+          .an-valley-portal__valley,
           .an-valley-portal__card,
           .an-valley-portal__transition-field,
-          .an-valley-portal__transition-landscape {
+          .an-valley-portal__transition-domain {
             transition-duration:
               0.25s !important;
           }
