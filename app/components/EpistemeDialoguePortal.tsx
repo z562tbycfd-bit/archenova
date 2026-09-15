@@ -10,6 +10,26 @@ import {
 import { useRouter } from "next/navigation";
 
 
+/* ==========================================================
+   EPISTEME DIALOGUE PORTAL
+
+   HOME ENTRY
+
+   Design principle:
+   One Portal = One Glass Surface
+
+   The outer Black Glass Card is the only card surface.
+   Episteme itself is a floating black-glass cognitive object.
+
+   No nested glass card.
+   No inner panel.
+   No secondary container.
+
+   Internal Complexity ↑
+   Visible Complexity ↓
+   Reality retains veto.
+========================================================== */
+
 export default function EpistemeDialoguePortal() {
   const router = useRouter();
 
@@ -37,12 +57,18 @@ export default function EpistemeDialoguePortal() {
           router.push(
             "/episteme-dialogue",
           );
-        }, 1450);
-    }, [
-      entering,
-      router,
-    ]);
+        }, 1250);
+      },
+      [
+        entering,
+        router,
+      ],
+    );
 
+
+  /* ========================================================
+     CLEANUP
+  ======================================================== */
 
   useEffect(() => {
     return () => {
@@ -60,22 +86,25 @@ export default function EpistemeDialoguePortal() {
 
   return (
     <section
-      className={`ep-dialogue-portal ${
+      className={[
+        "ep-dialogue-portal",
         entering
           ? "ep-dialogue-portal--entering"
-          : ""
-      }`}
+          : "",
+      ]
+        .filter(Boolean)
+        .join(" ")}
       aria-labelledby="ep-dialogue-portal-title"
     >
 
       {/* ==================================================
-          GLASS CARD
+          SINGLE BLACK GLASS CARD
       ================================================== */}
 
       <div className="ep-dialogue-portal__card">
 
         {/* ==================================================
-            AMBIENT
+            CARD ATMOSPHERE
         ================================================== */}
 
         <div
@@ -93,6 +122,11 @@ export default function EpistemeDialoguePortal() {
           aria-hidden="true"
         />
 
+        <div
+          className="ep-dialogue-portal__reflection"
+          aria-hidden="true"
+        />
+
 
         {/* ==================================================
             TOP
@@ -101,6 +135,7 @@ export default function EpistemeDialoguePortal() {
         <header className="ep-dialogue-portal__top">
 
           <div className="ep-dialogue-portal__identity">
+
             <span>
               EPISTEME
             </span>
@@ -108,25 +143,32 @@ export default function EpistemeDialoguePortal() {
             <small>
               CONVERSATIONAL INTELLIGENCE
             </small>
+
           </div>
 
 
           <div className="ep-dialogue-portal__live">
+
             <i />
 
             <span>
               LIVE
             </span>
+
           </div>
 
         </header>
 
 
         {/* ==================================================
-            EXPERIENCE
+            CENTRAL EXPERIENCE
         ================================================== */}
 
         <div className="ep-dialogue-portal__experience">
+
+          {/* ================================================
+              TITLE
+          ================================================= */}
 
           <div className="ep-dialogue-portal__statement">
 
@@ -145,7 +187,7 @@ export default function EpistemeDialoguePortal() {
 
 
           {/* ================================================
-              EPISTEME
+              EPISTEME OBJECT
           ================================================= */}
 
           <button
@@ -158,52 +200,64 @@ export default function EpistemeDialoguePortal() {
 
             <span className="ep-dialogue-portal__brain">
 
-              <span className="ep-dialogue-portal__brain-atmosphere" />
+              {/* ============================================
+                  OPEN ATMOSPHERE
+                  Not a card / not a shell
+              ============================================= */}
 
-              <span className="ep-dialogue-portal__brain-halo" />
+              <span className="ep-dialogue-portal__brain-aura" />
+
+              <span className="ep-dialogue-portal__brain-orbit ep-dialogue-portal__brain-orbit--outer" />
+
+              <span className="ep-dialogue-portal__brain-orbit ep-dialogue-portal__brain-orbit--inner" />
 
 
-              <span className="ep-dialogue-portal__brain-shell">
-
-                <span className="ep-dialogue-portal__shell-ring ep-dialogue-portal__shell-ring--1" />
-
-                <span className="ep-dialogue-portal__shell-ring ep-dialogue-portal__shell-ring--2" />
-
-                <span className="ep-dialogue-portal__shell-ring ep-dialogue-portal__shell-ring--3" />
-
-              </span>
-
+              {/* ============================================
+                  BLACK GLASS BRAIN
+              ============================================= */}
 
               <span className="ep-dialogue-portal__organ">
 
-                {/* LEFT */}
+                {/* LEFT HEMISPHERE */}
 
                 <span className="ep-dialogue-portal__hemisphere ep-dialogue-portal__hemisphere--left">
 
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--l1" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--l2" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--l3" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--l4" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--l5" />
 
                 </span>
 
 
-                {/* RIGHT */}
+                {/* RIGHT HEMISPHERE */}
 
                 <span className="ep-dialogue-portal__hemisphere ep-dialogue-portal__hemisphere--right">
 
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--r1" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--r2" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--r3" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--r4" />
+
                   <span className="ep-dialogue-portal__fold ep-dialogue-portal__fold--r5" />
 
                 </span>
 
 
+                {/* CENTRAL SEAM */}
+
                 <span className="ep-dialogue-portal__brain-seam" />
 
+
+                {/* INTERNAL CONNECTIONS */}
 
                 <span className="ep-dialogue-portal__connection ep-dialogue-portal__connection--1" />
 
@@ -213,6 +267,8 @@ export default function EpistemeDialoguePortal() {
 
                 <span className="ep-dialogue-portal__connection ep-dialogue-portal__connection--4" />
 
+
+                {/* NODES */}
 
                 <span className="ep-dialogue-portal__node ep-dialogue-portal__node--1" />
 
@@ -227,6 +283,8 @@ export default function EpistemeDialoguePortal() {
                 <span className="ep-dialogue-portal__node ep-dialogue-portal__node--6" />
 
 
+                {/* SPARSE SIGNALS */}
+
                 <span className="ep-dialogue-portal__signal ep-dialogue-portal__signal--1" />
 
                 <span className="ep-dialogue-portal__signal ep-dialogue-portal__signal--2" />
@@ -234,8 +292,16 @@ export default function EpistemeDialoguePortal() {
               </span>
 
 
+              {/* ============================================
+                  FLOATING REFLECTION
+              ============================================= */}
+
               <span className="ep-dialogue-portal__brain-floor" />
 
+
+              {/* ============================================
+                  TAP HINT
+              ============================================= */}
 
               <span className="ep-dialogue-portal__tap-hint">
                 Tap Episteme to enter
@@ -258,9 +324,11 @@ export default function EpistemeDialoguePortal() {
             EPISTEME
           </span>
 
-          <small>
+          <i />
+
+          <span>
             REALITY RETAINS VETO
-          </small>
+          </span>
 
         </footer>
 
@@ -321,25 +389,14 @@ export default function EpistemeDialoguePortal() {
           position: relative;
 
           width: 100%;
-          max-width: 100%;
-
-          min-width: 0;
-
-          box-sizing: border-box;
 
           padding:
             clamp(
-              18px,
-              3vw,
-              34px
+              14px,
+              2.5vw,
+              30px
             )
             0;
-        }
-
-
-        .ep-dialogue-portal,
-        .ep-dialogue-portal * {
-          box-sizing: border-box;
         }
 
 
@@ -349,7 +406,7 @@ export default function EpistemeDialoguePortal() {
 
 
         /* ==================================================
-           CARD
+           SINGLE GLASS SURFACE
         ================================================== */
 
         .ep-dialogue-portal__card {
@@ -358,31 +415,31 @@ export default function EpistemeDialoguePortal() {
           isolation: isolate;
 
           width: 100%;
-          max-width: 100%;
-
-          min-width: 0;
 
           min-height:
             clamp(
-              520px,
-              55vw,
-              680px
+              560px,
+              58vw,
+              690px
             );
 
           display: grid;
 
           grid-template-rows:
             auto
-            1fr
+            minmax(
+              0,
+              1fr
+            )
             auto;
 
           overflow: hidden;
 
           padding:
             clamp(
-              26px,
+              25px,
               4vw,
-              52px
+              50px
             );
 
           border:
@@ -405,33 +462,42 @@ export default function EpistemeDialoguePortal() {
             linear-gradient(
               145deg,
               rgba(
-                15,
-                17,
+                18,
                 20,
-                0.68
+                23,
+                0.55
               ),
               rgba(
-                6,
                 7,
-                9,
+                8,
+                10,
+                0.72
+              )
+              44%,
+              rgba(
+                1,
+                2,
+                3,
                 0.86
               )
-              48%,
-              rgba(
-                0,
-                0,
-                0,
-                0.96
-              )
+              100%
             );
 
           -webkit-backdrop-filter:
-            blur(32px)
-            saturate(110%);
+            blur(
+              32px
+            )
+            saturate(
+              108%
+            );
 
           backdrop-filter:
-            blur(32px)
-            saturate(110%);
+            blur(
+              32px
+            )
+            saturate(
+              108%
+            );
 
           box-shadow:
             inset
@@ -443,6 +509,17 @@ export default function EpistemeDialoguePortal() {
               255,
               255,
               0.045
+            ),
+
+            inset
+            0
+            -1px
+            0
+            rgba(
+              255,
+              255,
+              255,
+              0.012
             ),
 
             0
@@ -459,7 +536,7 @@ export default function EpistemeDialoguePortal() {
 
           transition:
             opacity
-            0.7s ease,
+            0.65s ease,
             transform
             0.8s
             cubic-bezier(
@@ -469,18 +546,18 @@ export default function EpistemeDialoguePortal() {
               1
             ),
             filter
-            0.7s ease;
+            0.65s ease;
         }
 
 
-        .ep-dialogue-portal__card::after {
+        .ep-dialogue-portal__card::before {
           content: "";
 
           position: absolute;
 
           inset: 0;
 
-          z-index: -1;
+          z-index: -2;
 
           pointer-events: none;
 
@@ -493,24 +570,24 @@ export default function EpistemeDialoguePortal() {
                 255,
                 255,
                 255,
-                0.035
+                0.038
               ),
               transparent
-              21%,
+              22%,
               transparent
-              76%,
+              72%,
               rgba(
-                200,
-                214,
+                198,
+                213,
                 220,
-                0.018
+                0.016
               )
             );
         }
 
 
         /* ==================================================
-           AMBIENT
+           CARD ATMOSPHERE
         ================================================== */
 
         .ep-dialogue-portal__ambient {
@@ -518,7 +595,7 @@ export default function EpistemeDialoguePortal() {
 
           inset: 0;
 
-          z-index: -5;
+          z-index: -6;
 
           pointer-events: none;
 
@@ -527,45 +604,45 @@ export default function EpistemeDialoguePortal() {
               circle
               at
               50%
-              49%,
+              55%,
               rgba(
-                205,
-                217,
-                223,
-                0.045
+                215,
+                226,
+                231,
+                0.055
               ),
               transparent
-              18%
+              17%
             ),
 
             radial-gradient(
               ellipse
               at
               50%
-              52%,
+              58%,
               rgba(
-                91,
-                104,
-                111,
+                100,
+                115,
+                123,
                 0.04
               ),
               transparent
-              43%
+              40%
             ),
 
             radial-gradient(
               ellipse
               at
-              15%
+              13%
               105%,
               rgba(
-                119,
-                138,
-                147,
-                0.025
+                116,
+                135,
+                144,
+                0.026
               ),
               transparent
-              42%
+              43%
             );
         }
 
@@ -575,11 +652,11 @@ export default function EpistemeDialoguePortal() {
 
           inset: 0;
 
-          z-index: -4;
+          z-index: -5;
 
           pointer-events: none;
 
-          opacity: 0.08;
+          opacity: 0.07;
 
           background:
             radial-gradient(
@@ -603,7 +680,7 @@ export default function EpistemeDialoguePortal() {
               to bottom,
               black,
               transparent
-              78%
+              84%
             );
 
           mask-image:
@@ -611,7 +688,7 @@ export default function EpistemeDialoguePortal() {
               to bottom,
               black,
               transparent
-              78%
+              84%
             );
         }
 
@@ -621,11 +698,11 @@ export default function EpistemeDialoguePortal() {
 
           inset: 0;
 
-          z-index: -3;
+          z-index: -4;
 
           pointer-events: none;
 
-          opacity: 0.055;
+          opacity: 0.045;
 
           background-image:
             linear-gradient(
@@ -633,7 +710,7 @@ export default function EpistemeDialoguePortal() {
                 255,
                 255,
                 255,
-                0.022
+                0.02
               )
               1px,
               transparent
@@ -646,7 +723,7 @@ export default function EpistemeDialoguePortal() {
                 255,
                 255,
                 255,
-                0.022
+                0.02
               )
               1px,
               transparent
@@ -654,27 +731,67 @@ export default function EpistemeDialoguePortal() {
             );
 
           background-size:
-            64px
-            64px;
+            66px
+            66px;
 
           -webkit-mask-image:
             radial-gradient(
-              circle
+              ellipse
               at
-              center,
+              50%
+              53%,
               black,
               transparent
-              72%
+              73%
             );
 
           mask-image:
             radial-gradient(
-              circle
+              ellipse
               at
-              center,
+              50%
+              53%,
               black,
               transparent
-              72%
+              73%
+            );
+        }
+
+
+        .ep-dialogue-portal__reflection {
+          position: absolute;
+
+          z-index: -3;
+
+          pointer-events: none;
+
+          top: -24%;
+          left: -5%;
+
+          width: 62%;
+          height: 62%;
+
+          transform:
+            rotate(
+              -17deg
+            );
+
+          background:
+            linear-gradient(
+              110deg,
+              transparent,
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              ),
+              transparent
+            );
+
+          filter:
+            blur(
+              24px
             );
         }
 
@@ -688,27 +805,33 @@ export default function EpistemeDialoguePortal() {
 
           z-index: 10;
 
-          display: flex;
+          display: grid;
 
-          align-items: flex-start;
+          grid-template-columns:
+            1fr
+            auto
+            1fr;
 
-          justify-content:
-            space-between;
+          align-items: start;
 
-          gap: 24px;
-
-          min-width: 0;
+          width: 100%;
         }
 
 
         .ep-dialogue-portal__identity {
+          grid-column: 2;
+
           display: flex;
 
           flex-direction: column;
 
+          align-items: center;
+
           gap: 7px;
 
           min-width: 0;
+
+          text-align: center;
         }
 
 
@@ -719,7 +842,7 @@ export default function EpistemeDialoguePortal() {
               247,
               249,
               250,
-              0.68
+              0.69
             );
 
           font-size: 9px;
@@ -728,6 +851,8 @@ export default function EpistemeDialoguePortal() {
 
           letter-spacing:
             0.24em;
+
+          white-space: nowrap;
         }
 
 
@@ -745,15 +870,19 @@ export default function EpistemeDialoguePortal() {
 
           letter-spacing:
             0.14em;
+
+          white-space: nowrap;
         }
 
 
         .ep-dialogue-portal__live {
+          grid-column: 3;
+
+          justify-self: end;
+
           display: inline-flex;
 
           align-items: center;
-
-          flex: 0 0 auto;
 
           gap: 8px;
 
@@ -778,6 +907,8 @@ export default function EpistemeDialoguePortal() {
           width: 5px;
           height: 5px;
 
+          flex: 0 0 auto;
+
           border-radius: 50%;
 
           background:
@@ -785,7 +916,7 @@ export default function EpistemeDialoguePortal() {
               176,
               213,
               196,
-              0.78
+              0.76
             );
 
           box-shadow:
@@ -796,7 +927,7 @@ export default function EpistemeDialoguePortal() {
               176,
               213,
               196,
-              0.2
+              0.18
             );
 
           animation:
@@ -808,7 +939,7 @@ export default function EpistemeDialoguePortal() {
 
 
         /* ==================================================
-           EXPERIENCE
+           CENTRAL EXPERIENCE
         ================================================== */
 
         .ep-dialogue-portal__experience {
@@ -819,7 +950,6 @@ export default function EpistemeDialoguePortal() {
           align-self: center;
 
           width: 100%;
-          max-width: 100%;
 
           min-width: 0;
 
@@ -833,15 +963,15 @@ export default function EpistemeDialoguePortal() {
 
           padding:
             clamp(
-              36px,
+              30px,
               4vw,
-              52px
+              48px
             )
             0
             clamp(
-              24px,
+              22px,
               3vw,
-              38px
+              34px
             );
         }
 
@@ -853,7 +983,9 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__statement {
           position: relative;
 
-          z-index: 4;
+          z-index: 5;
+
+          width: 100%;
 
           display: flex;
 
@@ -861,12 +993,7 @@ export default function EpistemeDialoguePortal() {
 
           align-items: center;
 
-          gap: 14px;
-
-          width: 100%;
-          max-width: 100%;
-
-          min-width: 0;
+          gap: 13px;
 
           text-align: center;
 
@@ -884,7 +1011,7 @@ export default function EpistemeDialoguePortal() {
               204,
               215,
               220,
-              0.21
+              0.22
             );
 
           font-size: 6px;
@@ -900,7 +1027,8 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal__statement h2 {
           width: 100%;
-          max-width: 100%;
+
+          max-width: 820px;
 
           margin: 0;
 
@@ -909,14 +1037,14 @@ export default function EpistemeDialoguePortal() {
               250,
               251,
               252,
-              0.965
+              0.97
             );
 
           font-size:
             clamp(
               40px,
-              5.4vw,
-              74px
+              5.2vw,
+              72px
             );
 
           font-weight: 235;
@@ -924,13 +1052,11 @@ export default function EpistemeDialoguePortal() {
           line-height: 0.98;
 
           letter-spacing:
-            -0.058em;
+            -0.057em;
 
           text-align: center;
 
           text-wrap: balance;
-
-          overflow-wrap: break-word;
 
           text-shadow:
             0
@@ -947,34 +1073,30 @@ export default function EpistemeDialoguePortal() {
 
         /* ==================================================
            BRAIN BUTTON
+
+           Transparent.
+           This is NOT a second card.
         ================================================== */
 
         .ep-dialogue-portal__brain-button {
           position: relative;
 
-          z-index: 5;
+          z-index: 6;
 
           width:
             min(
               100%,
-              540px
+              500px
             );
-
-          max-width: 100%;
-
-          min-width: 0;
 
           display: block;
 
           margin-top:
             clamp(
-              20px,
-              2.6vw,
-              32px
+              15px,
+              2vw,
+              24px
             );
-
-          margin-left: auto;
-          margin-right: auto;
 
           padding: 0;
 
@@ -984,11 +1106,15 @@ export default function EpistemeDialoguePortal() {
 
           background: transparent;
 
+          box-shadow: none;
+
           color: inherit;
 
           cursor: pointer;
 
           appearance: none;
+
+          -webkit-appearance: none;
 
           -webkit-tap-highlight-color:
             transparent;
@@ -1000,25 +1126,54 @@ export default function EpistemeDialoguePortal() {
         }
 
 
+        .ep-dialogue-portal__brain-button:focus-visible {
+          outline:
+            1px solid
+            rgba(
+              225,
+              233,
+              236,
+              0.26
+            );
+
+          outline-offset: 8px;
+
+          border-radius: 50%;
+        }
+
+
+        /* ==================================================
+           BRAIN SPACE
+
+           No background.
+           No border.
+           No card.
+        ================================================== */
+
         .ep-dialogue-portal__brain {
           position: relative;
 
           width:
             min(
               100%,
-              460px
+              430px
             );
 
-          max-width: 100%;
-
-          aspect-ratio:
-            1.15;
+          aspect-ratio: 1.2;
 
           display: grid;
 
           place-items: center;
 
           margin: 0 auto;
+
+          overflow: visible;
+
+          background: transparent;
+
+          border: 0;
+
+          box-shadow: none;
 
           transform:
             translateZ(
@@ -1038,13 +1193,16 @@ export default function EpistemeDialoguePortal() {
 
 
         /* ==================================================
-           BRAIN ATMOSPHERE
+           OPEN AURA
         ================================================== */
 
-        .ep-dialogue-portal__brain-atmosphere {
+        .ep-dialogue-portal__brain-aura {
           position: absolute;
 
-          width: 92%;
+          z-index: 1;
+
+          width: 82%;
+
           aspect-ratio: 1;
 
           border-radius: 50%;
@@ -1053,70 +1211,31 @@ export default function EpistemeDialoguePortal() {
             radial-gradient(
               circle,
               rgba(
-                226,
+                225,
                 233,
                 236,
-                0.028
+                0.06
               ),
               rgba(
-                83,
-                95,
-                102,
-                0.018
+                116,
+                130,
+                137,
+                0.023
               )
-              40%,
-              transparent
-              69%
-            );
-
-          filter:
-            blur(
-              4px
-            );
-
-          animation:
-            ep-atmosphere
-            9.8s
-            ease-in-out
-            infinite;
-        }
-
-
-        .ep-dialogue-portal__brain-halo {
-          position: absolute;
-
-          width: 68%;
-          aspect-ratio: 1;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(
-                226,
-                233,
-                236,
-                0.055
-              ),
-              rgba(
-                115,
-                128,
-                135,
-                0.018
-              )
-              46%,
+              38%,
               transparent
               70%
             );
 
           filter:
             blur(
-              12px
+              13px
             );
 
+          pointer-events: none;
+
           animation:
-            ep-halo
+            ep-aura-breathe
             9.8s
             ease-in-out
             infinite;
@@ -1124,107 +1243,108 @@ export default function EpistemeDialoguePortal() {
 
 
         /* ==================================================
-           GLASS SHELL
+           OPEN ORBITS
+
+           Thin lines only.
+           They do not form a container.
         ================================================== */
 
-        .ep-dialogue-portal__brain-shell {
+        .ep-dialogue-portal__brain-orbit {
           position: absolute;
 
-          width: 77%;
-          aspect-ratio: 1;
+          z-index: 2;
 
-          display: grid;
-
-          place-items: center;
+          left: 50%;
+          top: 50%;
 
           border:
             1px solid
             rgba(
-              225,
-              233,
-              236,
-              0.055
+              224,
+              232,
+              235,
+              0.04
             );
 
           border-radius: 50%;
 
-          background:
-            radial-gradient(
-              circle
-              at
-              40%
-              30%,
-              rgba(
-                255,
-                255,
-                255,
-                0.018
-              ),
+          pointer-events: none;
+        }
+
+
+        .ep-dialogue-portal__brain-orbit--outer {
+          width: 72%;
+          height: 38%;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(
+              -8deg
+            );
+
+          -webkit-mask-image:
+            linear-gradient(
+              90deg,
+              transparent,
+              black
+              24%,
+              black
+              76%,
               transparent
-              38%
             );
 
-          box-shadow:
-            inset
-            0
-            1px
-            0
-            rgba(
-              255,
-              255,
-              255,
-              0.028
-            ),
+          mask-image:
+            linear-gradient(
+              90deg,
+              transparent,
+              black
+              24%,
+              black
+              76%,
+              transparent
+            );
+        }
 
-            0
-            0
-            50px
-            rgba(
-              215,
-              228,
-              233,
-              0.018
+
+        .ep-dialogue-portal__brain-orbit--inner {
+          width: 56%;
+          height: 29%;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(
+              17deg
             );
 
-          animation:
-            ep-shell-breathe
-            9.8s
-            ease-in-out
-            infinite;
-        }
+          opacity: 0.68;
 
-
-        .ep-dialogue-portal__shell-ring {
-          position: absolute;
-
-          border:
-            1px solid
-            rgba(
-              221,
-              230,
-              234,
-              0.035
+          -webkit-mask-image:
+            linear-gradient(
+              90deg,
+              transparent,
+              black
+              30%,
+              black
+              70%,
+              transparent
             );
 
-          border-radius: 50%;
-        }
-
-
-        .ep-dialogue-portal__shell-ring--1 {
-          width: 88%;
-          height: 88%;
-        }
-
-
-        .ep-dialogue-portal__shell-ring--2 {
-          width: 68%;
-          height: 68%;
-        }
-
-
-        .ep-dialogue-portal__shell-ring--3 {
-          width: 48%;
-          height: 48%;
+          mask-image:
+            linear-gradient(
+              90deg,
+              transparent,
+              black
+              30%,
+              black
+              70%,
+              transparent
+            );
         }
 
 
@@ -1235,23 +1355,23 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__organ {
           position: relative;
 
-          z-index: 4;
+          z-index: 5;
 
-          width: 58%;
-          height: 45%;
+          width: 59%;
+          height: 47%;
 
           display: block;
 
           filter:
             drop-shadow(
               0
-              22px
+              24px
               35px
               rgba(
                 0,
                 0,
                 0,
-                0.64
+                0.68
               )
             );
 
@@ -1270,6 +1390,8 @@ export default function EpistemeDialoguePortal() {
             filter
             0.55s ease,
             transform
+            0.55s ease,
+            opacity
             0.55s ease;
         }
 
@@ -1294,7 +1416,7 @@ export default function EpistemeDialoguePortal() {
               232,
               237,
               239,
-              0.12
+              0.115
             );
 
           background:
@@ -1307,7 +1429,7 @@ export default function EpistemeDialoguePortal() {
                 255,
                 255,
                 255,
-                0.075
+                0.078
               ),
               transparent
               23%
@@ -1331,31 +1453,35 @@ export default function EpistemeDialoguePortal() {
             linear-gradient(
               145deg,
               rgba(
-                41,
+                40,
                 43,
                 46,
-                0.88
+                0.76
               ),
               rgba(
                 13,
                 14,
                 16,
-                0.97
+                0.91
               )
-              51%,
+              50%,
               rgba(
                 1,
                 1,
                 2,
-                0.995
+                0.985
               )
             );
 
           -webkit-backdrop-filter:
-            blur(22px);
+            blur(
+              18px
+            );
 
           backdrop-filter:
-            blur(22px);
+            blur(
+              18px
+            );
 
           box-shadow:
             inset
@@ -1366,7 +1492,7 @@ export default function EpistemeDialoguePortal() {
               255,
               255,
               255,
-              0.065
+              0.07
             ),
 
             inset
@@ -1425,7 +1551,7 @@ export default function EpistemeDialoguePortal() {
 
 
         /* ==================================================
-           BRAIN FOLDS
+           FOLDS
         ================================================== */
 
         .ep-dialogue-portal__fold {
@@ -1454,90 +1580,140 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__fold--l1 {
           width: 67%;
           height: 38%;
+
           top: 17%;
           left: 15%;
-          transform: rotate(-17deg);
+
+          transform:
+            rotate(
+              -17deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--l2 {
           width: 53%;
           height: 46%;
+
           top: 38%;
           left: 7%;
-          transform: rotate(25deg);
+
+          transform:
+            rotate(
+              25deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--l3 {
           width: 47%;
           height: 36%;
+
           top: 8%;
           right: 3%;
-          transform: rotate(52deg);
+
+          transform:
+            rotate(
+              52deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--l4 {
           width: 54%;
           height: 31%;
+
           bottom: 4%;
           right: 5%;
-          transform: rotate(-28deg);
+
+          transform:
+            rotate(
+              -28deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--l5 {
           width: 35%;
           height: 28%;
+
           top: 39%;
           right: 18%;
-          transform: rotate(9deg);
+
+          transform:
+            rotate(
+              9deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--r1 {
           width: 67%;
           height: 38%;
+
           top: 17%;
           right: 15%;
-          transform: rotate(17deg);
+
+          transform:
+            rotate(
+              17deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--r2 {
           width: 53%;
           height: 46%;
+
           top: 38%;
           right: 7%;
-          transform: rotate(-25deg);
+
+          transform:
+            rotate(
+              -25deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--r3 {
           width: 47%;
           height: 36%;
+
           top: 8%;
           left: 3%;
-          transform: rotate(-52deg);
+
+          transform:
+            rotate(
+              -52deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--r4 {
           width: 54%;
           height: 31%;
+
           bottom: 4%;
           left: 5%;
-          transform: rotate(28deg);
+
+          transform:
+            rotate(
+              28deg
+            );
         }
 
 
         .ep-dialogue-portal__fold--r5 {
           width: 35%;
           height: 28%;
+
           top: 39%;
           left: 18%;
-          transform: rotate(-9deg);
+
+          transform:
+            rotate(
+              -9deg
+            );
         }
 
 
@@ -1547,6 +1723,8 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal__brain-seam {
           position: absolute;
+
+          z-index: 6;
 
           top: 9%;
           bottom: 11%;
@@ -1596,7 +1774,7 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__connection {
           position: absolute;
 
-          z-index: 6;
+          z-index: 7;
 
           height: 1px;
 
@@ -1620,33 +1798,53 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal__connection--1 {
           width: 29%;
+
           top: 31%;
           left: 20%;
-          transform: rotate(22deg);
+
+          transform:
+            rotate(
+              22deg
+            );
         }
 
 
         .ep-dialogue-portal__connection--2 {
           width: 28%;
+
           top: 55%;
           left: 19%;
-          transform: rotate(-18deg);
+
+          transform:
+            rotate(
+              -18deg
+            );
         }
 
 
         .ep-dialogue-portal__connection--3 {
           width: 29%;
+
           top: 31%;
           right: 18%;
-          transform: rotate(-22deg);
+
+          transform:
+            rotate(
+              -22deg
+            );
         }
 
 
         .ep-dialogue-portal__connection--4 {
           width: 28%;
+
           top: 55%;
           right: 18%;
-          transform: rotate(18deg);
+
+          transform:
+            rotate(
+              18deg
+            );
         }
 
 
@@ -1657,7 +1855,7 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__node {
           position: absolute;
 
-          z-index: 7;
+          z-index: 8;
 
           width: 4px;
           height: 4px;
@@ -1700,46 +1898,56 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__node--2 {
           top: 51%;
           left: 19%;
-          animation-delay: -2.4s;
+
+          animation-delay:
+            -2.4s;
         }
 
 
         .ep-dialogue-portal__node--3 {
           bottom: 20%;
           left: 37%;
-          animation-delay: -5.1s;
+
+          animation-delay:
+            -5.1s;
         }
 
 
         .ep-dialogue-portal__node--4 {
           top: 24%;
           right: 27%;
-          animation-delay: -6.8s;
+
+          animation-delay:
+            -6.8s;
         }
 
 
         .ep-dialogue-portal__node--5 {
           top: 53%;
           right: 19%;
-          animation-delay: -3.7s;
+
+          animation-delay:
+            -3.7s;
         }
 
 
         .ep-dialogue-portal__node--6 {
           bottom: 20%;
           right: 36%;
-          animation-delay: -8.1s;
+
+          animation-delay:
+            -8.1s;
         }
 
 
         /* ==================================================
-           SPARSE SIGNALS
+           SIGNALS
         ================================================== */
 
         .ep-dialogue-portal__signal {
           position: absolute;
 
-          z-index: 8;
+          z-index: 9;
 
           width: 5px;
           height: 5px;
@@ -1797,20 +2005,20 @@ export default function EpistemeDialoguePortal() {
 
 
         /* ==================================================
-           FLOOR
+           FLOOR REFLECTION
         ================================================== */
 
         .ep-dialogue-portal__brain-floor {
           position: absolute;
 
-          z-index: 2;
+          z-index: 3;
 
           bottom: 17%;
 
           left: 50%;
 
-          width: 49%;
-          height: 7%;
+          width: 47%;
+          height: 6%;
 
           transform:
             translateX(
@@ -1826,13 +2034,13 @@ export default function EpistemeDialoguePortal() {
                 220,
                 229,
                 233,
-                0.075
+                0.07
               ),
               rgba(
                 130,
                 144,
                 151,
-                0.018
+                0.015
               )
               45%,
               transparent
@@ -1841,10 +2049,10 @@ export default function EpistemeDialoguePortal() {
 
           filter:
             blur(
-              7px
+              8px
             );
 
-          opacity: 0.6;
+          opacity: 0.55;
 
           animation:
             ep-floor-breathe
@@ -1861,13 +2069,11 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__tap-hint {
           position: absolute;
 
-          z-index: 8;
+          z-index: 10;
 
-          bottom: 3%;
+          bottom: 2.5%;
 
           left: 50%;
-
-          max-width: calc(100% - 24px);
 
           transform:
             translateX(
@@ -1889,8 +2095,6 @@ export default function EpistemeDialoguePortal() {
           letter-spacing:
             0.12em;
 
-          text-align: center;
-
           white-space: nowrap;
 
           transition:
@@ -1908,18 +2112,22 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__footer {
           position: relative;
 
-          z-index: 6;
+          z-index: 8;
 
           display: flex;
 
           align-items: center;
 
-          justify-content:
-            space-between;
+          justify-content: center;
 
-          gap: 24px;
+          gap:
+            clamp(
+              9px,
+              1.4vw,
+              16px
+            );
 
-          min-width: 0;
+          width: 100%;
 
           padding-top: 18px;
 
@@ -1932,6 +2140,16 @@ export default function EpistemeDialoguePortal() {
               0.045
             );
 
+          color:
+            rgba(
+              211,
+              222,
+              227,
+              0.2
+            );
+
+          text-align: center;
+
           transition:
             opacity
             0.5s ease;
@@ -1940,37 +2158,31 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal__footer
         > span {
-          color:
-            rgba(
-              241,
-              245,
-              247,
-              0.36
-            );
+          font-size: 5px;
 
-          font-size: 6px;
-
-          font-weight: 620;
+          font-weight: 610;
 
           letter-spacing:
-            0.18em;
+            0.15em;
         }
 
 
         .ep-dialogue-portal__footer
-        > small {
-          color:
+        > i {
+          width: 3px;
+          height: 3px;
+
+          flex: 0 0 auto;
+
+          border-radius: 50%;
+
+          background:
             rgba(
-              207,
-              219,
-              224,
-              0.16
+              255,
+              255,
+              255,
+              0.14
             );
-
-          font-size: 5px;
-
-          letter-spacing:
-            0.13em;
         }
 
 
@@ -2010,7 +2222,7 @@ export default function EpistemeDialoguePortal() {
             0.18s ease,
             visibility
             0s linear
-            1.5s,
+            1.3s,
             background
             0.8s ease;
         }
@@ -2089,7 +2301,7 @@ export default function EpistemeDialoguePortal() {
             opacity
             0.3s ease,
             transform
-            1.15s
+            1.05s
             cubic-bezier(
               0.16,
               0.78,
@@ -2478,10 +2690,10 @@ export default function EpistemeDialoguePortal() {
           transition:
             opacity
             0.4s ease
-            0.48s,
+            0.42s,
             transform
             0.55s ease
-            0.48s;
+            0.42s;
         }
 
 
@@ -2522,7 +2734,7 @@ export default function EpistemeDialoguePortal() {
 
 
         /* ==================================================
-           ENTERING
+           ENTERING STATE
         ================================================== */
 
         .ep-dialogue-portal--entering
@@ -2531,7 +2743,7 @@ export default function EpistemeDialoguePortal() {
 
           transform:
             translateY(
-              -8px
+              -7px
             );
         }
 
@@ -2542,12 +2754,14 @@ export default function EpistemeDialoguePortal() {
 
           transform:
             scale(
-              0.72
+              0.68
             );
+
+          opacity: 0.28;
 
           filter:
             brightness(
-              0.45
+              0.4
             )
             blur(
               1px
@@ -2556,21 +2770,36 @@ export default function EpistemeDialoguePortal() {
 
 
         .ep-dialogue-portal--entering
-        .ep-dialogue-portal__brain-shell {
-          animation: none;
-
-          transform:
-            scale(
-              0.82
-            );
-
-          opacity: 0.15;
+        .ep-dialogue-portal__brain-aura,
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__brain-orbit,
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__brain-floor,
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__tap-hint {
+          opacity: 0;
         }
 
 
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__footer {
           opacity: 0;
+        }
+
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__card {
+          opacity: 0;
+
+          transform:
+            scale(
+              0.975
+            );
+
+          filter:
+            blur(
+              8px
+            );
         }
 
 
@@ -2602,7 +2831,7 @@ export default function EpistemeDialoguePortal() {
 
           transform:
             scale(
-              1.2
+              1.18
             );
 
           filter:
@@ -2624,24 +2853,8 @@ export default function EpistemeDialoguePortal() {
         }
 
 
-        .ep-dialogue-portal--entering
-        .ep-dialogue-portal__card {
-          opacity: 0;
-
-          transform:
-            scale(
-              0.975
-            );
-
-          filter:
-            blur(
-              8px
-            );
-        }
-
-
         /* ==================================================
-           ANIMATION
+           ANIMATIONS
         ================================================== */
 
         @keyframes ep-brain-breathe {
@@ -2650,7 +2863,7 @@ export default function EpistemeDialoguePortal() {
           100% {
             transform:
               scale(
-                0.965
+                0.97
               );
 
             filter:
@@ -2662,7 +2875,7 @@ export default function EpistemeDialoguePortal() {
                   0,
                   0,
                   0,
-                  0.6
+                  0.62
                 )
               )
               brightness(
@@ -2680,13 +2893,13 @@ export default function EpistemeDialoguePortal() {
             filter:
               drop-shadow(
                 0
-                24px
+                25px
                 42px
                 rgba(
                   0,
                   0,
                   0,
-                  0.7
+                  0.72
                 )
               )
               brightness(
@@ -2697,75 +2910,25 @@ export default function EpistemeDialoguePortal() {
         }
 
 
-        @keyframes ep-atmosphere {
+        @keyframes ep-aura-breathe {
 
           0%,
           100% {
-            opacity: 0.36;
+            opacity: 0.34;
 
             transform:
               scale(
-                0.95
+                0.92
               );
           }
 
 
           50% {
-            opacity: 0.7;
+            opacity: 0.76;
 
             transform:
               scale(
-                1.03
-              );
-          }
-
-        }
-
-
-        @keyframes ep-halo {
-
-          0%,
-          100% {
-            opacity: 0.35;
-
-            transform:
-              scale(
-                0.91
-              );
-          }
-
-
-          50% {
-            opacity: 0.78;
-
-            transform:
-              scale(
-                1.07
-              );
-          }
-
-        }
-
-
-        @keyframes ep-shell-breathe {
-
-          0%,
-          100% {
-            opacity: 0.46;
-
-            transform:
-              scale(
-                0.975
-              );
-          }
-
-
-          50% {
-            opacity: 0.78;
-
-            transform:
-              scale(
-                1.02
+                1.06
               );
           }
 
@@ -2776,7 +2939,7 @@ export default function EpistemeDialoguePortal() {
 
           0%,
           100% {
-            opacity: 0.35;
+            opacity: 0.3;
 
             transform:
               translateX(
@@ -2789,7 +2952,7 @@ export default function EpistemeDialoguePortal() {
 
 
           50% {
-            opacity: 0.68;
+            opacity: 0.62;
 
             transform:
               translateX(
@@ -3086,17 +3249,17 @@ export default function EpistemeDialoguePortal() {
             filter:
               drop-shadow(
                 0
-                25px
-                44px
+                26px
+                46px
                 rgba(
                   0,
                   0,
                   0,
-                  0.72
+                  0.74
                 )
               )
               brightness(
-                1.1
+                1.11
               );
           }
 
@@ -3108,7 +3271,7 @@ export default function EpistemeDialoguePortal() {
                 228,
                 234,
                 237,
-                0.48
+                0.5
               );
 
             transform:
@@ -3117,6 +3280,18 @@ export default function EpistemeDialoguePortal() {
               )
               translateY(
                 -2px
+              );
+          }
+
+
+          .ep-dialogue-portal__brain-button:hover
+          .ep-dialogue-portal__brain-orbit {
+            border-color:
+              rgba(
+                225,
+                233,
+                236,
+                0.07
               );
           }
 
@@ -3133,150 +3308,131 @@ export default function EpistemeDialoguePortal() {
 
           .ep-dialogue-portal {
             width: 100%;
-            max-width: 100%;
 
             padding:
               10px
               0;
-
-            overflow: hidden;
           }
 
 
           .ep-dialogue-portal__card {
             width: 100%;
-            max-width: 100%;
-
-            min-width: 0;
 
             min-height: 0;
 
-            padding:
-              22px
-              16px
-              18px;
+            height:
+              min(
+                690px,
+                calc(
+                  100svh -
+                  42px
+                )
+              );
 
-            border-radius: 23px;
+            max-height: 690px;
+
+            padding:
+              20px
+              18px
+              17px;
+
+            border-radius: 22px;
 
             -webkit-backdrop-filter:
-              blur(22px)
-              saturate(108%);
+              blur(
+                23px
+              )
+              saturate(
+                106%
+              );
 
             backdrop-filter:
-              blur(22px)
-              saturate(108%);
+              blur(
+                23px
+              )
+              saturate(
+                106%
+              );
           }
 
-
-          /* ================================================
-             MOBILE TOP = CENTERED
-          ================================================= */
 
           .ep-dialogue-portal__top {
-            display: grid;
+            grid-template-columns:
+              1fr
+              auto
+              1fr;
 
-            grid-template-columns: 1fr;
-
-            justify-items: center;
-
-            align-items: center;
-
-            gap: 11px;
-
-            width: 100%;
-
-            text-align: center;
-          }
-
-
-          .ep-dialogue-portal__identity {
-            width: 100%;
-
-            align-items: center;
-
-            text-align: center;
-
-            gap: 6px;
+            align-items: start;
           }
 
 
           .ep-dialogue-portal__identity
           > span {
-            font-size: 8px;
+            font-size: 7px;
 
-            text-align: center;
+            letter-spacing:
+              0.2em;
           }
 
 
           .ep-dialogue-portal__identity
           > small {
-            max-width: 100%;
+            margin-top: -1px;
 
-            font-size: 5px;
+            font-size: 4.5px;
 
-            text-align: center;
-
-            white-space: normal;
+            letter-spacing:
+              0.1em;
           }
 
 
           .ep-dialogue-portal__live {
-            justify-content: center;
+            gap: 5px;
 
             font-size: 5px;
           }
 
 
-          /* ================================================
-             MOBILE EXPERIENCE
-          ================================================= */
+          .ep-dialogue-portal__live i {
+            width: 4px;
+            height: 4px;
+          }
+
 
           .ep-dialogue-portal__experience {
-            width: 100%;
-            max-width: 100%;
-
-            min-width: 0;
+            min-height: 0;
 
             padding:
-              30px
+              18px
               0
-              18px;
-
-            overflow: hidden;
+              12px;
           }
 
 
           .ep-dialogue-portal__statement {
-            width: 100%;
-            max-width: 100%;
-
-            padding:
-              0
-              2px;
-
-            text-align: center;
+            gap: 9px;
           }
 
 
           .ep-dialogue-portal__eyebrow {
-            width: 100%;
-
             font-size: 5px;
 
-            text-align: center;
-
-            letter-spacing: 0.17em;
+            letter-spacing:
+              0.18em;
           }
 
 
           .ep-dialogue-portal__statement h2 {
-            width: 100%;
             max-width: 100%;
+
+            padding:
+              0
+              4px;
 
             font-size:
               clamp(
-                32px,
-                9.5vw,
+                34px,
+                10.3vw,
                 48px
               );
 
@@ -3284,115 +3440,153 @@ export default function EpistemeDialoguePortal() {
 
             letter-spacing:
               -0.052em;
-
-            text-align: center;
           }
 
 
-          /* ================================================
-             CRITICAL:
-             BRAIN NOW USES CARD WIDTH, NOT VIEWPORT WIDTH
-          ================================================= */
-
           .ep-dialogue-portal__brain-button {
             width: 100%;
-            max-width: 100%;
 
-            min-width: 0;
+            max-width: 370px;
 
-            margin-top: 15px;
-
-            overflow: hidden;
+            margin-top: 7px;
           }
 
 
           .ep-dialogue-portal__brain {
             width:
               min(
-                100%,
-                330px
+                78vw,
+                320px
               );
 
             max-width: 100%;
 
-            margin:
-              0
-              auto;
-          }
-
-
-          .ep-dialogue-portal__brain-atmosphere {
-            width: 88%;
-          }
-
-
-          .ep-dialogue-portal__brain-shell {
-            width: 78%;
+            aspect-ratio: 1.16;
           }
 
 
           .ep-dialogue-portal__organ {
-            width: 59%;
-            height: 45%;
+            width: 61%;
+
+            height: 46%;
+          }
+
+
+          .ep-dialogue-portal__brain-aura {
+            width: 78%;
+          }
+
+
+          .ep-dialogue-portal__brain-orbit--outer {
+            width: 69%;
+          }
+
+
+          .ep-dialogue-portal__brain-orbit--inner {
+            width: 53%;
           }
 
 
           .ep-dialogue-portal__tap-hint {
-            bottom: 2%;
+            bottom: 1%;
 
-            max-width: 92%;
-
-            font-size: 6px;
+            font-size: 5.5px;
 
             letter-spacing:
-              0.09em;
+              0.1em;
           }
 
 
-          /* ================================================
-             MOBILE FOOTER = CENTERED
-          ================================================= */
-
           .ep-dialogue-portal__footer {
-            width: 100%;
+            gap: 8px;
 
-            flex-direction: column;
-
-            align-items: center;
-
-            justify-content: center;
-
-            gap: 6px;
-
-            padding-top: 15px;
-
-            text-align: center;
+            padding-top: 13px;
           }
 
 
           .ep-dialogue-portal__footer
           > span {
-            text-align: center;
+            font-size: 4.5px;
+
+            letter-spacing:
+              0.12em;
           }
 
-
-          .ep-dialogue-portal__footer
-          > small {
-            display: block;
-
-            text-align: center;
-          }
-
-
-          /* Black-hole transition is fullscreen,
-             therefore viewport-relative sizing remains valid. */
 
           .ep-dialogue-portal__black-hole {
             width:
               min(
-                88vw,
+                90vw,
                 500px
               );
+          }
+
+        }
+
+
+        /* ==================================================
+           SHORT MOBILE
+        ================================================== */
+
+        @media (
+          max-width: 700px
+        ) and (
+          max-height: 720px
+        ) {
+
+          .ep-dialogue-portal__card {
+            height:
+              calc(
+                100svh -
+                30px
+              );
+
+            padding:
+              17px
+              17px
+              14px;
+          }
+
+
+          .ep-dialogue-portal__experience {
+            padding:
+              11px
+              0
+              8px;
+          }
+
+
+          .ep-dialogue-portal__statement {
+            gap: 6px;
+          }
+
+
+          .ep-dialogue-portal__statement h2 {
+            font-size:
+              clamp(
+                31px,
+                9.3vw,
+                42px
+              );
+          }
+
+
+          .ep-dialogue-portal__brain-button {
+            margin-top: 2px;
+          }
+
+
+          .ep-dialogue-portal__brain {
+            width:
+              min(
+                68vw,
+                275px
+              );
+          }
+
+
+          .ep-dialogue-portal__footer {
+            padding-top: 10px;
           }
 
         }
@@ -3414,116 +3608,54 @@ export default function EpistemeDialoguePortal() {
 
 
           .ep-dialogue-portal__card {
-            width: 100%;
-
-            min-height: 0;
-
             padding:
-              20px
-              14px
-              16px;
+              18px
+              15px
+              15px;
 
-            border-radius: 21px;
-          }
-
-
-          .ep-dialogue-portal__top {
-            gap: 9px;
+            border-radius: 20px;
           }
 
 
           .ep-dialogue-portal__identity
           > span {
-            font-size: 7px;
+            font-size: 6.5px;
           }
 
 
           .ep-dialogue-portal__identity
           > small {
-            font-size: 4.5px;
-
-            letter-spacing:
-              0.11em;
-          }
-
-
-          .ep-dialogue-portal__experience {
-            padding:
-              26px
-              0
-              15px;
-          }
-
-
-          .ep-dialogue-portal__statement {
-            gap: 11px;
+            font-size: 4px;
           }
 
 
           .ep-dialogue-portal__statement h2 {
             font-size:
               clamp(
-                30px,
-                9.3vw,
-                42px
+                32px,
+                10.1vw,
+                43px
               );
-
-            line-height: 0.98;
-          }
-
-
-          .ep-dialogue-portal__eyebrow {
-            font-size: 4.5px;
-
-            letter-spacing:
-              0.15em;
-          }
-
-
-          .ep-dialogue-portal__brain-button {
-            margin-top: 11px;
           }
 
 
           .ep-dialogue-portal__brain {
             width:
               min(
-                100%,
+                75vw,
                 292px
               );
           }
 
 
-          .ep-dialogue-portal__brain-atmosphere {
-            width: 86%;
-          }
-
-
-          .ep-dialogue-portal__brain-shell {
-            width: 76%;
-          }
-
-
-          .ep-dialogue-portal__organ {
-            width: 58%;
-          }
-
-
           .ep-dialogue-portal__tap-hint {
-            max-width: 90%;
-
-            font-size: 5.5px;
-          }
-
-
-          .ep-dialogue-portal__footer {
-            padding-top: 13px;
+            font-size: 5px;
           }
 
 
           .ep-dialogue-portal__footer
-          > small {
-            font-size: 4.5px;
+          > span {
+            font-size: 4px;
           }
 
         }
@@ -3539,31 +3671,46 @@ export default function EpistemeDialoguePortal() {
 
           .ep-dialogue-portal__card {
             padding:
-              18px
-              12px
-              15px;
+              16px
+              13px
+              14px;
+          }
+
+
+          .ep-dialogue-portal__identity
+          > small {
+            display: none;
           }
 
 
           .ep-dialogue-portal__statement h2 {
-            font-size: 29px;
+            font-size:
+              clamp(
+                30px,
+                9.7vw,
+                38px
+              );
           }
 
 
           .ep-dialogue-portal__brain {
             width:
               min(
-                100%,
-                270px
+                72vw,
+                260px
               );
           }
 
 
-          .ep-dialogue-portal__tap-hint {
-            font-size: 5px;
+          .ep-dialogue-portal__footer
+          > span:last-child {
+            display: none;
+          }
 
-            letter-spacing:
-              0.07em;
+
+          .ep-dialogue-portal__footer
+          > i {
+            display: none;
           }
 
         }
@@ -3578,9 +3725,7 @@ export default function EpistemeDialoguePortal() {
           reduce
         ) {
 
-          .ep-dialogue-portal__brain-atmosphere,
-          .ep-dialogue-portal__brain-halo,
-          .ep-dialogue-portal__brain-shell,
+          .ep-dialogue-portal__brain-aura,
           .ep-dialogue-portal__organ,
           .ep-dialogue-portal__brain-floor,
           .ep-dialogue-portal__live i,
@@ -3594,14 +3739,18 @@ export default function EpistemeDialoguePortal() {
           }
 
 
+          .ep-dialogue-portal__brain,
+          .ep-dialogue-portal__organ,
+          .ep-dialogue-portal__card,
           .ep-dialogue-portal__black-hole {
             transition-duration:
-              0.3s;
+              0.25s !important;
           }
 
         }
 
       `}</style>
+
     </section>
   );
 }
