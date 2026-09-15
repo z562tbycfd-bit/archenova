@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-14T23:47:24.342Z",
+  "updated": "2026-09-15T00:57:29.878Z",
   "items": [
     {
       "source": "STAT",
@@ -217,6 +217,42 @@
       "ts": 1789387200000,
       "publishedAt": "2026-09-14T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Six UN staff killed in Gaza school strike; Lebanon violations mount",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168333",
+      "summary": "Israeli strikes killed six UN workers and civilians at a school sheltering displaced families in Gaza as needs grow, according to the UN agency for Palestine refugees, UNRWA.",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN agencies warn humanitarian system in Sudan ‘could collapse’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168331",
+      "summary": "UN aid agencies on Monday said they may be forced to scale back humanitarian aid in Sudan – home of the world’s worst hunger and displacement crisis – due to funding shortfalls.",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Money sent home by migrants nearly doubles in a decade",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168330",
+      "summary": "Migrants sent $728.6 billion home to families in low and middle-income countries in 2025, nearly double the amount recorded a decade earlier, according to a new report from the UN’s International Fund for Agricultural De…",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Highly persistent toxic waste threatens ‘many, if not all, human rights’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168329",
+      "summary": "Poor management of toxic chemicals and hazardous waste threatens “many, if not all, human rights,” the newly appointed independent human rights independent expert on the rising threat told the Human Rights Council on Mon…",
+      "ts": 1789387200000,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -775,42 +811,6 @@
       "ts": 1789139436000,
       "publishedAt": "2026-09-11T15:10:36.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Transcenta Therapeutics and WuXi Biologics Team Up to Accelerate Commercialization of HiCB Technology",
-      "url": "https://www.genengnews.com/topics/bioprocessing/transcenta-therapeutics-and-wuxi-biologics-team-up-to-accelerate-commercialization-of-hicb-technology/",
-      "summary": "Transcenta, headquartered in China and with a pipeline of over ten therapeutic antibody candidates, is a clinical-stage biopharmaceutical company with expertise in biologics discovery, translational research, clinical, a…",
-      "ts": 1789139431000,
-      "publishedAt": "2026-09-11T15:10:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
-      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/",
-      "summary": "Media are invited to hear from NASA’s SpaceX Crew-12 astronauts during a news conference beginning at 2:45 p.m. EDT, Wednesday, Sept. 16, from the International Space Station. NASA astronauts Jessica Meir and Jack Hathaw…",
-      "ts": 1789139120000,
-      "publishedAt": "2026-09-11T15:05:20.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Samsung Biologics Signs $262 Million Manufacturing Agreement with European Pharma Firm",
-      "url": "https://www.genengnews.com/topics/bioprocessing/samsung-biologics-signs-262-million-manufacturing-agreement-with-european-pharma-firm/",
-      "summary": "Alongside decisions involving capacity expansion, officials at Samsung Biologics announced that the company is pursuing opportunities to broaden its portfolio and address an increasingly diverse range of therapeutic moda…",
-      "ts": 1789138785000,
-      "publishedAt": "2026-09-11T14:59:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
-      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
-      "summary": "The science from every Moon rock sample, lunar dataset, and discovery produced through NASA’s Artemis program will be shared by the agency with the global scientific community. That commitment is upheld by all 71 countri…",
-      "ts": 1789138585000,
-      "publishedAt": "2026-09-11T14:56:25.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-14T23:47:16.062Z",
+  "updated": "2026-09-15T00:57:23.670Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A new design for a plasma engine fuels on only thin air",
+      "url": "https://phys.org/news/2026-09-plasma-fuels-thin-air.html",
+      "summary": "Choosing an orbit for a satellite always comes with trade-offs. Very low Earth orbit (VLEO), between 100–450 km (62–280 miles), has distinct advantages. Remote-sensing cameras can take better pictures, communications and…",
+      "ts": 1789432801000,
+      "publishedAt": "2026-09-15T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers invent novel eDNA membrane to advance understanding of inshore fish diversity",
+      "url": "https://phys.org/news/2026-09-edna-membrane-advance-inshore-fish.html",
+      "summary": "Monitoring marine life helps scientists track ecosystem health, improve conservation and manage fisheries. A promising approach is environmental DNA (eDNA), which refers to trace genetic material naturally released into …",
+      "ts": 1789430406000,
+      "publishedAt": "2026-09-15T00:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tough vehicle and construction plastics dissolve into reusable material with low-waste method",
+      "url": "https://phys.org/news/2026-09-tough-vehicle-plastics-dissolve-reusable.html",
+      "summary": "A new recycling technique could help tackle a major challenge: breaking down some of the toughest plastics without generating large amounts of waste.",
+      "ts": 1789430401000,
+      "publishedAt": "2026-09-15T00:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New light-emitting nanoparticles can detect subtle chemical differences",
@@ -777,30 +801,6 @@
       "summary": "Author(s): Francesco Bonacci, Brato Chakrabarti, Olivia du Roure, Anke Lindner, and David Saintillan Combining experiments on actin filaments with numerical simulations, a previously unknown transition from reversible mo…",
       "ts": 1789380000000,
       "publishedAt": "2026-09-14T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Overcoming Intrinsic Material Limitations through Cavity Feedback",
-      "url": "http://link.aps.org/doi/10.1103/pbbp-bz28",
-      "summary": "Author(s): M. Ebrahimi, Y. Huang, V. A. S. V. Bittencourt, A. Rashedi, A. Metelmann, and J. P. Davis Active dissipation control via a feedback loop overcomes intrinsic magnetic losses, achieving strong coupling among pho…",
-      "ts": 1789380000000,
-      "publishedAt": "2026-09-14T10:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "12 nm FinFETs from 292 K to 10 mK: Characterization and a Temperature-Continuous Compact Model for Qubit Control",
-      "url": "https://arxiv.org/abs/2609.11963",
-      "summary": "arXiv:2609.11963v1 Announce Type: new Abstract: We report cryogenic characterization and compact modeling of GlobalFoundries (GF) 12LP regular-voltage-threshold (RVT) n- and p-FinFETs, measured from 292 K to 10 mK. Both …",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Field-Deployable Pressure Standard Based on a Compact Dual-Cavity Refractometer",
-      "url": "https://arxiv.org/abs/2609.11964",
-      "summary": "arXiv:2609.11964v1 Announce Type: new Abstract: The next-generation pressure standard is moving toward optical-based, field-deployable systems. However, most existing optical refractometry pressure standards rely on bulk…",
-      "ts": 1789358400000,
-      "publishedAt": "2026-09-14T04:00:00.000Z"
     }
   ],
   "sources": [

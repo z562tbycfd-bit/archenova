@@ -3,6 +3,21 @@ export const senateAgenda =
   {
     "id": "agenda-1",
     "rank": 1,
+    "title": "A new design for a plasma engine fuels on only thin air",
+    "slug": "ai-a-new-design-for-a-plasma-engine-fuels-on-only-thin-air",
+    "category": "AI",
+    "source": "Phys.org",
+    "score": 9.6,
+    "priority": "Critical",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-2",
+    "rank": 2,
     "title": "Questions? Ask our Hera Space Companion!",
     "slug": "ai-questions-ask-our-hera-space-companion",
     "category": "AI",
@@ -16,8 +31,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-2",
-    "rank": 2,
+    "id": "agenda-3",
+    "rank": 3,
     "title": "Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’",
     "slug": "space-black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescope-s-little-re",
     "category": "Space",
@@ -31,8 +46,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-3",
-    "rank": 3,
+    "id": "agenda-4",
+    "rank": 4,
     "title": "Essay: Semiconductor Sources of Large-Scale Photonic Entanglement for Science and Technology",
     "slug": "bio-essay-semiconductor-sources-of-large-scale-photonic-entanglement-for-science-and",
     "category": "Bio",
@@ -46,8 +61,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
+    "id": "agenda-5",
+    "rank": 5,
     "title": "FLEX and Sentinel-3C ready for liftoff on Vega-C",
     "slug": "ai-flex-and-sentinel-3c-ready-for-liftoff-on-vega-c",
     "category": "AI",
@@ -61,8 +76,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-5",
-    "rank": 5,
+    "id": "agenda-6",
+    "rank": 6,
     "title": "Webinar 9/23: NASA CSDA Program Update 2026",
     "slug": "space-webinar-9-23-nasa-csda-program-update-2026",
     "category": "Space",
@@ -76,8 +91,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-6",
-    "rank": 6,
+    "id": "agenda-7",
+    "rank": 7,
     "title": "New Crops, Health Research Proposals to Help NASA Advance Exploration",
     "slug": "space-new-crops-health-research-proposals-to-help-nasa-advance-exploration",
     "category": "Space",
@@ -91,8 +106,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-7",
-    "rank": 7,
+    "id": "agenda-8",
+    "rank": 8,
     "title": "Sept. 21: What Comes Next for On-Orbit Servicing?",
     "slug": "space-sept-21-what-comes-next-for-on-orbit-servicing",
     "category": "Space",
@@ -106,8 +121,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-8",
-    "rank": 8,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory  ",
     "slug": "space-nasa-welcomes-djibouti-as-newest-artemis-accords-signatory",
     "category": "Space",
@@ -121,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "Space’s growing billion-dollar club",
     "slug": "space-space-s-growing-billion-dollar-club",
     "category": "Space",
@@ -136,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
     "slug": "ai-perplexity-portable-computer-is-now-available-on-windows-powered-by-nvidia-rtx",
     "category": "AI",
@@ -151,8 +166,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-12",
+    "rank": 12,
     "title": "These neutrinos from the sun have the lowest energies ever seen",
     "slug": "ai-these-neutrinos-from-the-sun-have-the-lowest-energies-ever-seen",
     "category": "AI",
@@ -163,21 +178,6 @@ export const senateAgenda =
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": "IAEA Projects Global Nuclear Power Capacity Could Triple by 2060, Continuing Rising Trend",
-    "slug": "energy-iaea-projects-global-nuclear-power-capacity-could-triple-by-2060-continuing-risi",
-    "category": "Energy",
-    "source": "IAEA News",
-    "score": 9.2,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
     "status": "Open"
   }
 ];

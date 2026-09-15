@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-09-14T00:10:08.703Z",
+  "generatedAt": "2026-09-15T00:57:29.982Z",
   "current": {
-    "date": "2026-09-14",
-    "id": "help-refine-data-from-space-telescopes-with-artifact-inspector",
+    "date": "2026-09-15",
+    "id": "researchers-propose-quantum-earth-observation-for-photon-limited-environments",
     "experienceVersion": "4D-1",
-    "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
-    "experienceTitle": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "title": "Researchers propose quantum Earth observation for photon-limited environments",
+    "experienceTitle": "Researchers propose quantum Earth observation for photon-limited environments",
     "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
     "source": {
-      "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
-      "organization": "NASA",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
-      "publishedAt": "2026-09-11T19:48:09.000Z",
-      "updatedAt": "2026-09-14T00:10:08.696Z"
+      "title": "Researchers propose quantum Earth observation for photon-limited environments",
+      "organization": "Phys.org",
+      "url": "https://phys.org/news/2026-09-quantum-earth-photon-limited-environments.html",
+      "publishedAt": "2026-09-14T23:20:03.000Z",
+      "updatedAt": "2026-09-15T00:57:29.965Z"
     },
     "classification": {
-      "category": "ENGINEERING",
+      "category": "SCIENCE",
       "signalCategory": "Reality Discovery",
       "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–20 Years"
+      "expectedHorizon": "10–30 Years"
     },
     "reality": {
-      "statement": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, t…"
+      "statement": "Have you ever wondered what Earth observation satellites see when they look down at the deep ocean or a dense tropical forest during the dead of night? The answer, for the most part, is nothing. Standard optical sensors …"
     },
     "theory": {
-      "statement": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+      "statement": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
       "mechanism": [
         "Reality Discovery",
+        "Quantum Systems",
         "Space Systems",
-        "observation",
-        "understanding",
-        "design"
+        "Climate and Environment",
+        "observation"
       ]
     },
     "hypothesisSpace": [
@@ -38,7 +38,7 @@
         "id": "primary",
         "label": "PRIMARY EXPLANATION",
         "title": "Current Causal Interpretation",
-        "statement": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways."
+        "statement": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity."
       },
       {
         "id": "alternative",
@@ -57,7 +57,7 @@
       {
         "id": "expected",
         "label": "EXPECTED EFFECT",
-        "statement": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration."
+        "statement": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment."
       },
       {
         "id": "null",
@@ -71,53 +71,53 @@
       }
     ],
     "prediction": {
-      "statement": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration."
+      "statement": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment."
     },
     "evidence": {
-      "statement": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, t…",
+      "statement": "Have you ever wondered what Earth observation satellites see when they look down at the deep ocean or a dense tropical forest during the dead of night? The answer, for the most part, is nothing. Standard optical sensors …",
       "strength": "Strong",
-      "confidence": 88
+      "confidence": 89
     },
     "falsification": {
       "statement": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "failureCondition": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration."
+      "failureCondition": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment."
     },
     "engineeringReach": {
       "validated": [
-        "May strengthen orbital sensing, communications, navigation, logistics, or off-Earth operations."
+        "May improve environmental sensing, climate adaptation, resource management, or disaster resilience."
       ],
       "plausible": [
-        "Could affect space governance, launch infrastructure, strategic coordination, and planetary observation.",
-        "May contribute to civilization becoming less dependent on a single planetary operating environment."
+        "Could affect urban systems, water, food, public health, infrastructure, and regional stability.",
+        "May strengthen civilization's ability to operate under planetary uncertainty."
       ],
       "speculative": []
     },
-    "civilizationMeaning": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "civilizationMeaning": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
     "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-09-14.",
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-09-15.",
     "selection": {
-      "finalScore": 52.3,
+      "finalScore": 53.2,
       "repetitionPenalty": 25,
       "criteria": {
         "scientificSignificance": 77.5,
-        "empiricalStrength": 89.5,
-        "falsifiability": 79.3,
-        "engineeringReach": 55,
-        "civilizationImpact": 66,
+        "empiricalStrength": 88,
+        "falsifiability": 79.7,
+        "engineeringReach": 59,
+        "civilizationImpact": 67,
         "explanatoryValue": 80,
         "theoryEvidenceCoupling": 80,
         "fundamentalPrincipleValue": 80,
-        "crossDomainReach": 77,
+        "crossDomainReach": 84,
         "experienceSuitability": 95
       }
     },
     "topicFingerprint": [
-      "engineering",
-      "reality discovery",
-      "space systems",
-      "space",
       "science",
+      "reality discovery",
+      "quantum systems",
+      "space systems",
+      "climate and environment",
       "technology",
       "law & governance"
     ]
@@ -279,6 +279,20 @@
     },
     {
       "date": "2026-09-13",
+      "id": "help-refine-data-from-space-telescopes-with-artifact-inspector",
+      "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+      "topicFingerprint": [
+        "engineering",
+        "reality discovery",
+        "space systems",
+        "space",
+        "science",
+        "technology",
+        "law & governance"
+      ]
+    },
+    {
+      "date": "2026-09-14",
       "id": "help-refine-data-from-space-telescopes-with-artifact-inspector",
       "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
       "topicFingerprint": [
