@@ -28778,204 +28778,68 @@ line-height:1.75;
 
 
 /* ==========================================================
-   HOME — SINGLE PORTAL SURFACE
+   HOME — Remove Double Outer Frames
    PC / Mobile Common
-
-   Rule:
-   HOME section = transparent positioning environment
-   Portal        = the only visible Black Glass Surface
-
-   Removes the legacy .home-page::before glass film.
 ========================================================== */
 
-/* ----------------------------------------------------------
-   REMOVE LEGACY HOME SECTION GLASS
-
-   Legacy rule:
-   .home-snap .home-page::before
-
-   previously created:
-   - dark background
-   - backdrop blur
-   - border
-   - shadow
-
-   That produced a second visible surface behind each portal.
----------------------------------------------------------- */
-
-.archenova-twin-home.home-snap .home-page::before,
-.archenova-twin-home.home-snap .home-page::after,
-.archenova-twin-home .home-page::before,
-.archenova-twin-home .home-page::after,
-.archenova-twin-home .twin-page::before,
-.archenova-twin-home .twin-page::after,
-.archenova-twin-home [data-home-section]::before,
-.archenova-twin-home [data-home-section]::after {
-  content: none !important;
-  display: none !important;
-
-  position: static !important;
-
-  inset: auto !important;
-
-  width: 0 !important;
-  height: 0 !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  border: 0 !important;
-  border-radius: 0 !important;
-
-  outline: 0 !important;
-
-  background: none !important;
-
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-
-  filter: none !important;
-
-  box-shadow: none !important;
-
-  opacity: 0 !important;
-
-  transform: none !important;
-
-  pointer-events: none !important;
-}
-
-
-/* ----------------------------------------------------------
-   HOME SECTION ITSELF MUST REMAIN FRAMELESS
----------------------------------------------------------- */
-
-.archenova-twin-home .home-page,
-.archenova-twin-home .twin-page,
-.archenova-twin-home [data-home-section] {
-  border: 0 !important;
-
-  outline: 0 !important;
-
-  background: transparent !important;
-
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-
+/* 外側に重なって見える不要な疑似枠を停止 */
+.home-page::before,
+.home-page::after,
+.twin-page::before,
+.twin-page::after,
+[data-home-section]::before,
+[data-home-section]::after {
+  border: none !important;
   box-shadow: none !important;
 }
 
-
-/* ----------------------------------------------------------
-   KEEP SECTION CONTENT ABOVE THE COSMIC BACKGROUND
-
-   Preserve the existing HOME stacking architecture without
-   generating another visual surface.
----------------------------------------------------------- */
-
-.archenova-twin-home.home-snap .home-page > *,
-.archenova-twin-home .home-page > *,
-.archenova-twin-home .twin-page > *,
-.archenova-twin-home [data-home-section] > * {
-  position: relative;
-
-  z-index: 1;
+/* HOME各セクションの外側フレーム感を消す */
+.home-page,
+.twin-page,
+[data-home-section] {
+  outline: none !important;
 }
 
-
-/* ----------------------------------------------------------
-   PORTAL SURFACES
-
-   These remain untouched visually.
-   Each component owns its own Black Glass Surface.
-
-   Episteme:
-   .ep-dialogue-portal__card
-
-   Today's Inquiry:
-   .ti-home__glass
-
-   ArcheNova Valley:
-   component-owned portal surface
----------------------------------------------------------- */
-
-.archenova-twin-home
-.ep-dialogue-portal__card,
-
-.archenova-twin-home
-.ti-home__glass {
+/* 本体側の1枚枠だけを残す */
+.an-glass,
+.an-card,
+.an-frame,
+.civ-intel-portal,
+.civ-library-shell,
+.an-galaxy-stage,
+.an-galaxy-map,
+#home-hero .an-container,
+#origin-gate .an-container {
   position: relative;
 }
 
-
-/* ----------------------------------------------------------
-   EXISTING ARCHE​NOVA SURFACE ELEMENTS
-
-   Preserve their component-owned material.
----------------------------------------------------------- */
-
+/* ArcheNova HOME内の本体枠 */
 .archenova-twin-home .an-glass,
 .archenova-twin-home .an-card,
 .archenova-twin-home .an-frame,
 .archenova-twin-home .civ-intel-portal,
 .archenova-twin-home .civ-library-shell,
-.archenova-twin-home .an-galaxy-stage,
-.archenova-twin-home .an-galaxy-map {
-  position: relative;
+.archenova-twin-home .an-galaxy-stage {
+  border-color: rgba(255,255,255,0.08) !important;
 }
 
-
-/* ----------------------------------------------------------
-   MOBILE
-
-   Do not recreate any HOME-level glass surface.
----------------------------------------------------------- */
-
+/* モバイルでも同様に二重枠を撤去 */
 @media (max-width: 768px) {
-
-  .archenova-twin-home.home-snap .home-page::before,
-  .archenova-twin-home.home-snap .home-page::after,
-  .archenova-twin-home .home-page::before,
-  .archenova-twin-home .home-page::after,
-  .archenova-twin-home .twin-page::before,
-  .archenova-twin-home .twin-page::after,
-  .archenova-twin-home [data-home-section]::before,
-  .archenova-twin-home [data-home-section]::after {
-    content: none !important;
-    display: none !important;
-
-    background: none !important;
-
-    -webkit-backdrop-filter: none !important;
-    backdrop-filter: none !important;
-
-    border: 0 !important;
-
-    box-shadow: none !important;
-
-    opacity: 0 !important;
-  }
-
-
-  .archenova-twin-home .home-page,
-  .archenova-twin-home .twin-page,
-  .archenova-twin-home [data-home-section] {
-    border: 0 !important;
-
-    outline: 0 !important;
-
-    background: transparent !important;
-
-    -webkit-backdrop-filter: none !important;
-    backdrop-filter: none !important;
-
+  .home-page::before,
+  .home-page::after,
+  .twin-page::before,
+  .twin-page::after,
+  [data-home-section]::before,
+  [data-home-section]::after {
+    border: none !important;
     box-shadow: none !important;
   }
 
+  .archenova-twin-home .home-page {
+    border: none !important;
+    box-shadow: none !important;
+  }
 }
-
-
-
 
 
 
