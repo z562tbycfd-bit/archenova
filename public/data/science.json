@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-09-16T05:44:03.441Z",
+  "updated": "2026-09-16T11:03:24.789Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nine in 10 UK gambling websites breach data privacy law, study finds",
+      "url": "https://phys.org/news/2026-09-uk-gambling-websites-breach-privacy.html",
+      "summary": "Nearly nine in 10 (86%) UK-licensed online gambling websites are operating in breach of the General Data Protection Regulation, according to new research from the Gambling Research, Education and Treatment (GREAT) Center…",
+      "ts": 1789556401000,
+      "publishedAt": "2026-09-16T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First-of-its-kind preventive phage therapy provides promising results against Salmonella",
+      "url": "https://phys.org/news/2026-09-kind-phage-therapy-results-salmonella.html",
+      "summary": "The mammalian gut microbiome teems with a delicate balance of bacteria and the viruses that keep them in check, called bacteriophages, or phages. Each bacterial species usually has its own set of phage partners.",
+      "ts": 1789549213000,
+      "publishedAt": "2026-09-16T09:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New simulations link unusual particle diffusion to yielding in soft jammed matter",
+      "url": "https://phys.org/news/2026-09-simulations-link-unusual-particle-diffusion.html",
+      "summary": "Soft materials such as colloidal suspensions, emulsions, foams and gels often display complex and unusual behaviors compared with ordinary solids or liquids. From a mechanical point of view, for instance, they can resist…",
+      "ts": 1789549211000,
+      "publishedAt": "2026-09-16T09:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Born-again' star offers rare chance to watch stellar evolution in real time",
+      "url": "https://phys.org/news/2026-09-born-star-rare-chance-stellar.html",
+      "summary": "Astronomers have confirmed that one of the fastest-changing stars ever observed has entered a new stage of its evolution, offering a rare opportunity to watch a star's life unfold on human timescales.",
+      "ts": 1789549209000,
+      "publishedAt": "2026-09-16T09:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Speeding glaciers drive half a century of polar ice loss",
+      "url": "https://phys.org/news/2026-09-glaciers-century-polar-ice-loss.html",
+      "summary": "The longest satellite record ever assembled shows that Greenland and Antarctica have lost 11.3 trillion metric tons of ice since the 1970s, raising global sea level by more than 3 centimeters (1.2 inches)—and that most o…",
+      "ts": 1789549202000,
+      "publishedAt": "2026-09-16T09:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The local costs of remote sensing: Examining the ethics of laser scanning in tropical forests",
+      "url": "https://phys.org/news/2026-09-local-remote-ethics-laser-scanning.html",
+      "summary": "Laser scanning, often referred to as lidar, has rapidly transformed how tropical forest regions are studied, monitored and understood across academic disciplines. The technology enables researchers to peer through dense …",
+      "ts": 1789549201000,
+      "publishedAt": "2026-09-16T09:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfires push endangered Sumatran elephants to brink: Indonesian NGO",
+      "url": "https://phys.org/news/2026-09-wildfires-endangered-sumatran-elephants-brink.html",
+      "summary": "Critically endangered Sumatran elephants are being pushed closer to the brink as wildfires raze vast swaths of their habitat on the western island of Sumatra, Indonesian conservation group Geopix told AFP on Wednesday.",
+      "ts": 1789547402000,
+      "publishedAt": "2026-09-16T08:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX prepares for first orbital flight of Starship rocket",
+      "url": "https://phys.org/news/2026-09-spacex-orbital-flight-starship-rocket.html",
+      "summary": "SpaceX announced Tuesday that it was planning to send its flagship rocket, Starship, into orbit, a key step in its project to one day reach the moon or Mars.",
+      "ts": 1789546672000,
+      "publishedAt": "2026-09-16T08:17:52.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "US acknowledges for the first time that it has deployed weapons in space",
+      "url": "https://phys.org/news/2026-09-acknowledges-deployed-weapons-space.html",
+      "summary": "The United States has confirmed for the first time that it has deployed weapons in space, a remarkable revelation after previous warnings about countries such as Russia possibly weaponizing a global frontier long agreed …",
+      "ts": 1789546100000,
+      "publishedAt": "2026-09-16T08:08:20.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Well-preserved tooth from Pacific mastodon found in a creek in San Francisco Bay Area",
+      "url": "https://phys.org/news/2026-09-tooth-pacific-mastodon-creek-san.html",
+      "summary": "Brigid Lynch was working along a wooded creek in a mountainous part of the San Francisco Bay Area when something that didn't look like the rocks she'd been studying caught her eye. It turned out to be the fossilized toot…",
+      "ts": 1789546033000,
+      "publishedAt": "2026-09-16T08:07:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A world 20 light-years away reveals surprisingly organized, Jupiter-like weather",
+      "url": "https://phys.org/news/2026-09-world-years-reveals-jupiter-weather.html",
+      "summary": "Scientists from Trinity College Dublin have developed a way to unravel changing weather patterns on distant worlds. Using this approach, they discovered that the weather on a well-studied brown dwarf, SIMP 0136, previous…",
+      "ts": 1789542001000,
+      "publishedAt": "2026-09-16T07:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Study finds violence affects millions across US with links to health, economic hardship",
@@ -711,94 +799,6 @@
       "title": "Bridging high-Q and Kerr-nonlinear photonics using modal phase matching",
       "url": "https://arxiv.org/abs/2609.17444",
       "summary": "arXiv:2609.17444v1 Announce Type: new Abstract: Integrated Kerr microresonators provide on-chip optical nonlinearity for wavelength conversion, optical frequency combs, and quantum light sources. Traditionally, their dis…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast, optimal readout of a tethered optomechanical pressure sensor",
-      "url": "https://arxiv.org/abs/2609.17452",
-      "summary": "arXiv:2609.17452v1 Announce Type: new Abstract: We demonstrate a fast readout method for tethered optomechanical pressure sensors. The fast readout method allows mechanical ring-down measurement rates that exceed the tot…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improved calculation of the hyperfine structure of muonic helium",
-      "url": "https://arxiv.org/abs/2609.17454",
-      "summary": "arXiv:2609.17454v1 Announce Type: new Abstract: Using perturbation theory for the fine-structure constant $\\alpha$ and the electron-to-muon mass ratio, we calculated new contributions to the hyperfine structure of the gr…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Angle-of-Arrival Determination of Radio-Frequency Fields Using Stark-Shifted Rydberg-EIT Spectra",
-      "url": "https://arxiv.org/abs/2609.17459",
-      "summary": "arXiv:2609.17459v1 Announce Type: new Abstract: We demonstrate a method for determining the magnitude of the angle of arrival (AoA) of a linearly polarized radio-frequency (RF) field using the angle-dependent spectral am…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stitch-Free, Diamond-Scribed Silicon Nitride Photonic Integrated Circuits for the Visible Band",
-      "url": "https://arxiv.org/abs/2609.17480",
-      "summary": "arXiv:2609.17480v1 Announce Type: new Abstract: Silicon nitride photonic integrated circuits for the visible band are conventionally built with a buried oxide overcladding and singulated with wafer-scale tooling, constra…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hysteresis and trap emission in dc-biased integrated lithium niobate electro-optic modulators",
-      "url": "https://arxiv.org/abs/2609.17489",
-      "summary": "arXiv:2609.17489v1 Announce Type: new Abstract: The electro-optic effect is crucially important for low power and efficient tuning of integrated photonic circuits. However, in electro-optic materials such as lithium niob…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-contrast absorption magnetometry in the visible to near-infrared range with nitrogen-vacancy ensembles",
-      "url": "https://arxiv.org/abs/2412.07798",
-      "summary": "arXiv:2412.07798v1 Announce Type: cross Abstract: Magnetometry with nitrogen-vacancy (NV) centers has so far been measured via emission of light from NV centers or via absorption at the singlet transition at 1042 nm. Her…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chirality enhances diffusion in disordered environments",
-      "url": "https://arxiv.org/abs/2609.12680",
-      "summary": "arXiv:2609.12680v1 Announce Type: cross Abstract: Chirality, a systematic rotational bias in the motion of a particle, arises in a wide range of physical and biological systems, from charged colloids in magnetic fields t…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-reported archetypes and behavioral failures in Large Language Models",
-      "url": "https://arxiv.org/abs/2609.15998",
-      "summary": "arXiv:2609.15998v1 Announce Type: cross Abstract: Every large language model (LLM) has behavioral traits and moral preferences that comprise its character. Whether by design or as an emergent property of training, these …",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A panoramic aerodynamic performance prediction method for turbomachinery cascades using transformer-enhanced neural operator",
-      "url": "https://arxiv.org/abs/2609.16066",
-      "summary": "arXiv:2609.16066v1 Announce Type: cross Abstract: To enable flexible and rapid aerodynamic performance evaluation in turbomachinery design, this paper proposes a panoramic performance prediction framework. Unlike most pr…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multisource Remote Sensing and Geospatial Analysis of Vineyard Wildfire Impacts and Resilience: The 2019 Kincade Fire",
-      "url": "https://arxiv.org/abs/2609.16168",
-      "summary": "arXiv:2609.16168v1 Announce Type: cross Abstract: Working agricultural landscapes are often treated as background to wildfire disasters, even though they are managed fuel mosaics, productive assets, and parts of regional…",
-      "ts": 1789531200000,
-      "publishedAt": "2026-09-16T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-Dimensional Materials toward CMOS-Compatible Scalable Quantum Hardware",
-      "url": "https://arxiv.org/abs/2609.16172",
-      "summary": "arXiv:2609.16172v1 Announce Type: cross Abstract: Manufacturability is one of several constraints on developing solid-state quantum processors, along with qubit performance, control, connectivity, cryogenic operation, an…",
       "ts": 1789531200000,
       "publishedAt": "2026-09-16T04:00:00.000Z"
     }

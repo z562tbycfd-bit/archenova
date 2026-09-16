@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-16T05:44:06.037Z",
+  "updated": "2026-09-16T11:03:27.257Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Purple swirls on the Red Planet",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Purple_swirls_on_the_Red_Planet",
+      "summary": "This image shows a prominent ice cliff near Mars’s south pole. With striking swirls of purple, pink and red, it’s a far cry from the colour palette we usually associate with the Red Planet.",
+      "ts": 1789549200000,
+      "publishedAt": "2026-09-16T09:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: House Democrats may use oversight powers to plan for health care overhaul",
+      "url": "https://www.statnews.com/2026/09/16/healthcare-reform-house-democrats-oversight-targets-after-midterms/?utm_campaign=rss",
+      "summary": "Democrats are mapping out their post-election strategy, and see health care probes as a winning issue.",
+      "ts": 1789547400000,
+      "publishedAt": "2026-09-16T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How my cancer diagnosis changed the way I train physicians",
+      "url": "https://www.statnews.com/2026/09/16/medical-school-cancer-structure-pathology-professor-personal-experience/?utm_campaign=rss",
+      "summary": "“The tumors, test results, and treatments I present to future physicians? Mine,” writes David Elkowitz, a professor of pathology and laboratory medicine and science education.",
+      "ts": 1789547400000,
+      "publishedAt": "2026-09-16T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: Dementia should be a campaign issue — not an insult",
+      "url": "https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy/?utm_campaign=rss",
+      "summary": "STAT’s Neurotransmissions columnist Jason Karlawish asks: What are the harms of the way politicians talk about dementia? What should they say instead?",
+      "ts": 1789547400000,
+      "publishedAt": "2026-09-16T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "The Syrian Arab Republic Signs a Country Programme Framework (CPF) for 2026–2031",
+      "url": "http://www.iaea.org/newscenter/news/the-syrian-arab-republic-signs-a-country-programme-framework-cpf-for-2026-2031",
+      "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and Dr Mudar Al Okla, Director General of the Atomic Energy Commission of Syria, signed the Syrian Arab Republic’s Country Pro…",
+      "ts": 1789542403000,
+      "publishedAt": "2026-09-16T07:06:43.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "NVIDIA",
       "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
@@ -10,6 +55,15 @@
       "ts": 1789534842000,
       "publishedAt": "2026-09-16T05:00:42.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 16 – Webb’s View of M64",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-16-webbs-view-of-m64/",
+      "summary": "APOD Science APOD APOD: 2026 September 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1789531500000,
+      "publishedAt": "2026-09-16T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -253,6 +307,15 @@
       "ts": 1789522574000,
       "publishedAt": "2026-09-16T01:36:14.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Ames Stars of the Month: September 2026",
+      "url": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-september-2026/",
+      "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Steve Ormsby, Aphrodite Kostakis, Alejando Borlaff, Sarah Nickerson, Martina Caussi, Keiko Nomura, and Stephen Brocca…",
+      "ts": 1789515971000,
+      "publishedAt": "2026-09-15T23:46:11.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NVIDIA",
@@ -745,69 +808,6 @@
       "title": "Structures of the Basic Reproduction Number $R_0$ Across Compartmental Disease Models",
       "url": "https://arxiv.org/abs/2609.13668",
       "summary": "arXiv:2609.13668v1 Announce Type: new Abstract: The basic reproduction number $R_0$ is the central dimensionless quantity in mathematical epidemiology, characterizing the threshold for disease outbreak and the early grow…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hierarchical emergence of network bursting in a four-cell central pattern generator model",
-      "url": "https://arxiv.org/abs/2609.13858",
-      "summary": "arXiv:2609.13858v1 Announce Type: new Abstract: How can a neural circuit rhythmically burst when none of its constituent neurons can endogenously do so? We address this question through a bottom-up reconstruction of a 4-…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "URCHIN: A Horizontal Spiking Language Model for Data-Constrained Pretraining",
-      "url": "https://arxiv.org/abs/2609.13899",
-      "summary": "arXiv:2609.13899v1 Announce Type: new Abstract: The BabyLM challenge measures how much language a model can learn from developmentally-plausible, child-scale data rather than internet-scale corpora, yet prior language mo…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fragmented uptake drives lipid accumulation in macrophage cannibalistic efferocytosis",
-      "url": "https://arxiv.org/abs/2609.13974",
-      "summary": "arXiv:2609.13974v1 Announce Type: new Abstract: Efferocytosis, the clearance of dying cells typically by macrophages, is essential for tissue homeostasis and the resolution of inflammation. Previous experiments by Ford e…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "RAGCell: Retrieval-Augmented Generation as Supervision for Versatile Single-cell Analysis",
-      "url": "https://arxiv.org/abs/2609.14147",
-      "summary": "arXiv:2609.14147v1 Announce Type: new Abstract: Single-cell foundation models (scFMs) are transforming computational biology by enabling generalizable, task-agnostic representations for versatile single-cell analysis. De…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Nonlinear dynamics of random neural networks with second-order synaptic motifs",
-      "url": "https://arxiv.org/abs/2609.14251",
-      "summary": "arXiv:2609.14251v1 Announce Type: new Abstract: Classical theories of random neural networks typically assume independent connectivity, overlooking the local motif structures prevalent in biological circuits. Here, we in…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MIRAGE: Measuring Interpolation and Redundancy in Affinity GEneralization",
-      "url": "https://arxiv.org/abs/2609.14491",
-      "summary": "arXiv:2609.14491v1 Announce Type: new Abstract: Deep learning now underpins structure-based drug design, from complex and affinity prediction to ligand ranking and pose generation. Recent co-folding models reportedly app…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How deterministic trajectories and their fluctuations underlie allele-frequency statistics in the strong-selection regime",
-      "url": "https://arxiv.org/abs/2609.14549",
-      "summary": "arXiv:2609.14549v1 Announce Type: new Abstract: In many biological contexts selection is strong relative to genetic drift. Working under the diffusion approximation, we define $R = 2N_{e}|s|$, where $N_{e}$ is the effect…",
       "ts": 1789444800000,
       "publishedAt": "2026-09-15T04:00:00.000Z",
       "categoryId": "bio"
