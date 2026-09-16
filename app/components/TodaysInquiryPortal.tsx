@@ -9,9 +9,17 @@ import TodaysInquiryResearch
 
 /* ==========================================================
    TODAY'S INQUIRY PORTAL
-   ARCHE​NOVA · OBSIDIAN SCIENTIFIC OBSERVATORY
+   ARCHENOVA · OBSIDIAN SCIENTIFIC OBSERVATORY
 
    One Portal = One Black Glass Surface
+
+   Desktop / Tablet:
+   Fixed Observatory
+   → Internal Scientific Scroll
+
+   Mobile:
+   Natural Document
+   → HOME Owns Vertical Scroll
 
    HOME chapter
       ↓
@@ -64,7 +72,13 @@ export default function TodaysInquiryPortal() {
 
 
         {/* ==================================================
-            INTERNAL SCIENTIFIC DOCUMENT
+            SCIENTIFIC DOCUMENT
+
+            Desktop / Tablet:
+            internal scroll owner
+
+            Mobile:
+            natural document flow
         ================================================== */}
 
         <div className="ti-home__scroll">
@@ -124,10 +138,6 @@ export default function TodaysInquiryPortal() {
                 </span>
               </p>
 
-
-              {/* ============================================
-                  SCIENTIFIC METHOD
-              ============================================ */}
 
               <div className="ti-home__method">
 
@@ -296,7 +306,7 @@ export default function TodaysInquiryPortal() {
 
 
         {/* ==================================================
-            FIXED TOP / BOTTOM DEPTH MASKS
+            DESKTOP / TABLET DEPTH MASKS
         ================================================== */}
 
         <div
@@ -311,7 +321,7 @@ export default function TodaysInquiryPortal() {
 
 
         {/* ==================================================
-            SCROLL DEPTH INDICATOR
+            DESKTOP / TABLET SCROLL INDICATOR
         ================================================== */}
 
         <div
@@ -672,7 +682,7 @@ export default function TodaysInquiryPortal() {
 
 
         /* ==================================================
-           SINGLE INTERNAL SCROLL OWNER
+           DESKTOP / TABLET INTERNAL SCROLL OWNER
         ================================================== */
 
         .ti-home__scroll {
@@ -1425,9 +1435,6 @@ export default function TodaysInquiryPortal() {
 
         /* ==================================================
            DEPTH MASKS
-
-           They communicate that the document continues
-           beyond the visible glass boundary.
         ================================================== */
 
         .ti-home__mask {
@@ -1611,6 +1618,14 @@ export default function TodaysInquiryPortal() {
 
         /* ==================================================
            MOBILE
+
+           IMPORTANT:
+           HOME owns vertical scrolling.
+
+           No nested vertical scroll.
+           No fixed-height mobile document.
+           No mobile depth masks.
+           No mobile scroll indicator.
         ================================================== */
 
         @media (max-width: 700px) {
@@ -1620,31 +1635,28 @@ export default function TodaysInquiryPortal() {
             max-width: 100%;
             min-width: 0;
 
+            margin: 0;
+
             padding: 8px 0;
+
+            overflow: visible;
           }
 
 
           .ti-home__glass {
+            position: relative;
+
             width: 100%;
             max-width: 100%;
             min-width: 0;
 
-            height:
-              min(
-                690px,
-                calc(100svh - 42px)
-              );
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: none !important;
 
-            min-height:
-              min(
-                520px,
-                calc(100svh - 42px)
-              );
+            overflow: hidden;
 
-            max-height:
-              calc(100svh - 42px);
-
-            border-radius: 22px;
+            border-radius: 20px;
 
             background:
               linear-gradient(
@@ -1663,17 +1675,69 @@ export default function TodaysInquiryPortal() {
           }
 
 
+          /*
+           * Critical mobile correction.
+           *
+           * Desktop:
+           *   glass → absolute scroll document
+           *
+           * Mobile:
+           *   glass → normal document flow
+           *
+           * This removes the second vertical scroll context.
+           */
+
           .ti-home__scroll {
-            overflow-y:
+            position: relative !important;
+
+            inset: auto !important;
+
+            z-index: 3;
+
+            width: 100% !important;
+            height: auto !important;
+
+            min-width: 0 !important;
+            min-height: 0 !important;
+
+            max-height: none !important;
+
+            overflow-x: hidden !important;
+            overflow-y: visible !important;
+
+            overscroll-behavior:
               auto !important;
 
-            scrollbar-gutter:
+            -webkit-overflow-scrolling:
               auto;
+
+            scrollbar-width:
+              none !important;
+
+            scrollbar-gutter:
+              auto !important;
           }
 
 
           .ti-home__scroll::-webkit-scrollbar {
-            width: 3px;
+            display: none !important;
+
+            width: 0 !important;
+            height: 0 !important;
+          }
+
+
+          .ti-home__document {
+            position: relative;
+
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
+
+            height: auto;
+            min-height: 0;
+
+            overflow: visible;
           }
 
 
@@ -1687,7 +1751,12 @@ export default function TodaysInquiryPortal() {
 
 
           .ti-home__axis {
-            opacity: .12;
+            top: 18px;
+            bottom: 18px;
+
+            height: auto;
+
+            opacity: .10;
           }
 
 
@@ -1696,9 +1765,31 @@ export default function TodaysInquiryPortal() {
           }
 
 
+          /*
+           * Masks only make sense when content disappears
+           * behind a fixed scroll viewport.
+           */
+
+          .ti-home__mask {
+            display: none !important;
+          }
+
+
+          /*
+           * Internal scroll no longer exists on mobile.
+           */
+
+          .ti-home__scroll-indicator {
+            display: none !important;
+          }
+
+
           .ti-home__header {
             width:
               calc(100% - 36px);
+
+            max-width: 100%;
+            min-width: 0;
 
             padding:
               32px
@@ -1800,12 +1891,29 @@ export default function TodaysInquiryPortal() {
           .ti-home__boundary {
             width:
               calc(100% - 38px);
+
+            max-width: 100%;
+            min-width: 0;
           }
 
 
           .ti-home__experience {
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
+
             padding-top: 23px;
             padding-bottom: 38px;
+
+            overflow: visible;
+          }
+
+
+          .ti-home__experience-content,
+          .ti-home__experience-content > * {
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
           }
 
 
@@ -1823,12 +1931,17 @@ export default function TodaysInquiryPortal() {
             width:
               calc(100% - 38px);
 
+            max-width: 100%;
+            min-width: 0;
+
             gap: 9px;
           }
 
 
           .ti-home__evidence-copy {
             display: block;
+
+            min-width: 0;
           }
 
 
@@ -1850,9 +1963,22 @@ export default function TodaysInquiryPortal() {
           }
 
 
+          .ti-home__research,
+          .ti-home__research > * {
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
+
+            overflow: visible;
+          }
+
+
           .ti-home__terminus {
             width:
               calc(100% - 38px);
+
+            max-width: 100%;
+            min-width: 0;
 
             margin-top: 38px;
 
@@ -1873,17 +1999,6 @@ export default function TodaysInquiryPortal() {
             letter-spacing: .11em;
           }
 
-
-          .ti-home__mask--bottom {
-            height: 40px;
-          }
-
-
-          .ti-home__scroll-indicator {
-            right: 6px;
-            bottom: 11px;
-          }
-
         }
 
 
@@ -1893,8 +2008,31 @@ export default function TodaysInquiryPortal() {
 
         @media (max-width: 430px) {
 
+          .ti-home {
+            padding:
+              7px
+              0;
+          }
+
+
           .ti-home__glass {
-            border-radius: 20px;
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: none !important;
+
+            border-radius: 18px;
+          }
+
+
+          .ti-home__scroll {
+            position: relative !important;
+
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: none !important;
+
+            overflow-y:
+              visible !important;
           }
 
 
@@ -1937,7 +2075,54 @@ export default function TodaysInquiryPortal() {
 
 
         /* ==================================================
-           SHORT VIEWPORT
+           VERY SMALL MOBILE
+        ================================================== */
+
+        @media (max-width: 360px) {
+
+          .ti-home__header {
+            width:
+              calc(100% - 24px);
+          }
+
+
+          .ti-home__system-mode {
+            display: none;
+          }
+
+
+          .ti-home__method {
+            gap: 4px;
+          }
+
+
+          .ti-home__method span {
+            font-size: 4.5px;
+
+            letter-spacing: .09em;
+          }
+
+
+          .ti-home__method > i {
+            width: 4px;
+          }
+
+
+          .ti-home__boundary,
+          .ti-home__evidence-header,
+          .ti-home__terminus {
+            width:
+              calc(100% - 24px);
+          }
+
+        }
+
+
+        /* ==================================================
+           SHORT MOBILE
+
+           Deliberately DO NOT restore fixed height.
+           Natural document flow remains authoritative.
         ================================================== */
 
         @media
@@ -1946,13 +2131,21 @@ export default function TodaysInquiryPortal() {
           (max-height: 720px) {
 
           .ti-home__glass {
-            height:
-              calc(100svh - 30px);
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: none !important;
+          }
 
-            min-height: 0;
 
-            max-height:
-              calc(100svh - 30px);
+          .ti-home__scroll {
+            position: relative !important;
+
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: none !important;
+
+            overflow-y:
+              visible !important;
           }
 
         }
