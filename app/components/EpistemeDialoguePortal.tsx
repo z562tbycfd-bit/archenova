@@ -4601,78 +4601,150 @@ export default function EpistemeDialoguePortal() {
         }
 
 
-        /* ==================================================
+         /* ==================================================
            MOBILE
+           HOME already owns the visible card surface.
+
+           IMPORTANT:
+           On mobile, EpistemeDialoguePortal must NOT create
+           a second Black Glass Surface.
+
+           The desktop card design remains unchanged.
+
+           HOME Card
+           └─ Episteme content
+
+           NOT:
+
+           HOME Card
+           └─ Episteme Card
+              └─ Episteme content
         ================================================== */
 
         @media (
           max-width: 700px
         ) {
 
+          /* ================================================
+             PORTAL
+             Transparent layout layer only.
+          ================================================ */
+
           .ep-dialogue-portal {
+            position: relative;
+
             width: 100%;
             max-width: 100%;
             min-width: 0;
 
-            padding:
-              8px
-              0;
+            margin: 0;
 
-            overflow: hidden;
+            padding: 0;
+
+            overflow: visible;
+
+            background: transparent;
+
+            border: 0;
+
+            border-radius: 0;
+
+            box-shadow: none;
+
+            -webkit-backdrop-filter: none;
+
+            backdrop-filter: none;
           }
 
+          /* ================================================
+             CARD
+             MOBILE ONLY:
+             This is no longer a visual card.
+
+             It remains as the internal layout container.
+             The HOME card is the only visible surface.
+          ================================================ */
 
           .ep-dialogue-portal__card {
+            position: relative;
+
+            isolation: isolate;
+
             width: 100%;
             max-width: 100%;
             min-width: 0;
 
+            height: auto;
             min-height: 0;
+            max-height: none;
 
-            height:
-              min(
-                690px,
-                calc(
-                  100svh -
-                  42px
-                )
-              );
+            margin: 0;
 
-            max-height: 690px;
+            display: grid;
+
+            grid-template-rows:
+              auto
+              minmax(0, 1fr)
+              auto;
 
             padding:
               20px
               18px
               17px;
 
-            border-radius: 20px;
+            overflow: visible;
 
-            background:
-              linear-gradient(
-                145deg,
-                rgba(
-                  13,
-                  14,
-                  16,
-                  0.3
-                ),
-                rgba(
-                  0,
-                  0,
-                  0,
-                  0.44
-                )
-              );
+            /*
+             * CRITICAL FIX
+             *
+             * Do not render another card on mobile.
+             */
+            border: 0;
 
-            -webkit-backdrop-filter:
-              blur(20px)
-              saturate(106%);
+            border-radius: 0;
 
-            backdrop-filter:
-              blur(20px)
-              saturate(106%);
+            outline: 0;
+
+            background: transparent;
+
+            -webkit-backdrop-filter: none;
+
+            backdrop-filter: none;
+
+            box-shadow: none;
           }
 
+          /*
+           * Desktop reflection belongs to the desktop card.
+           * It must not create another visible surface
+           * inside the HOME mobile card.
+           */
+
+          .ep-dialogue-portal__card::before {
+            content: none;
+
+            display: none;
+
+            background: none;
+          }
+
+          /* ================================================
+             ATMOSPHERE
+             Keep the Episteme atmosphere, but it remains
+             inside the existing HOME surface.
+          ================================================ */
+
+          .ep-dialogue-portal__ambient {
+            border-radius: 0;
+          }
+
+          .ep-dialogue-portal__reflection {
+            opacity: 0.55;
+          }
+
+          /* ================================================
+             TOP
+          ================================================ */
 
           .ep-dialogue-portal__top {
             width: 100%;
@@ -4687,7 +4759,6 @@ export default function EpistemeDialoguePortal() {
             align-items: start;
           }
 
-
           .ep-dialogue-portal__identity
           > span {
             font-size: 7px;
@@ -4695,7 +4766,6 @@ export default function EpistemeDialoguePortal() {
             letter-spacing:
               0.2em;
           }
-
 
           .ep-dialogue-portal__identity
           > small {
@@ -4707,35 +4777,49 @@ export default function EpistemeDialoguePortal() {
               0.1em;
           }
 
-
           .ep-dialogue-portal__live {
             gap: 5px;
 
             font-size: 5px;
           }
 
-
           .ep-dialogue-portal__live i {
             width: 4px;
             height: 4px;
           }
 
+          /* ================================================
+             CENTRAL EXPERIENCE
+          ================================================ */
 
           .ep-dialogue-portal__experience {
+            position: relative;
+
             width: 100%;
             max-width: 100%;
             min-width: 0;
 
             min-height: 0;
 
-            padding:
-              18px
-              0
-              12px;
+            display: flex;
 
-            overflow: hidden;
+            flex-direction: column;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding:
+              24px
+              0
+              14px;
+
+            overflow: visible;
           }
 
+          /* ================================================
+             STATEMENT
+          ================================================ */
 
           .ep-dialogue-portal__statement {
             width: 100%;
@@ -4745,7 +4829,6 @@ export default function EpistemeDialoguePortal() {
             gap: 9px;
           }
 
-
           .ep-dialogue-portal__eyebrow {
             font-size: 5px;
 
@@ -4753,10 +4836,11 @@ export default function EpistemeDialoguePortal() {
               0.18em;
           }
 
-
           .ep-dialogue-portal__statement h2 {
             width: 100%;
             max-width: 100%;
+
+            margin: 0;
 
             padding:
               0
@@ -4764,79 +4848,96 @@ export default function EpistemeDialoguePortal() {
 
             font-size:
               clamp(
-                34px,
-                10.3vw,
-                48px
+                32px,
+                9.4vw,
+                46px
               );
 
-            line-height: 0.98;
+            line-height: 1;
 
             letter-spacing:
               -0.052em;
 
             text-align: center;
+
+            overflow-wrap: normal;
+
+            word-break: normal;
           }
 
+          /* ================================================
+             BRAIN BUTTON
+             Card-relative sizing only.
+          ================================================ */
 
           .ep-dialogue-portal__brain-button {
             width:
               min(
                 100%,
-                370px
+                350px
               );
 
             max-width: 100%;
             min-width: 0;
 
-            margin-top: 5px;
+            margin:
+              8px
+              auto
+              0;
           }
 
+          /* ================================================
+             BRAIN
+          ================================================ */
 
           .ep-dialogue-portal__brain {
             width:
               min(
                 100%,
-                325px
+                305px
               );
 
             max-width: 100%;
             min-width: 0;
 
             aspect-ratio: 1.17;
-          }
 
+            margin:
+              0
+              auto;
+          }
 
           .ep-dialogue-portal__organ {
             width: 62%;
+
             height: 47%;
           }
-
 
           .ep-dialogue-portal__gravity-field {
             width: 82%;
           }
 
-
           .ep-dialogue-portal__brain-aura {
             width: 75%;
           }
-
 
           .ep-dialogue-portal__brain-orbit--outer {
             width: 70%;
           }
 
-
           .ep-dialogue-portal__brain-orbit--inner {
             width: 53%;
           }
 
-
           .ep-dialogue-portal__brain-orbit--vertical {
             width: 26%;
+
             height: 57%;
           }
 
+          /* ================================================
+             TAP HINT
+          ================================================ */
 
           .ep-dialogue-portal__tap-hint {
             bottom: 0.5%;
@@ -4858,6 +4959,9 @@ export default function EpistemeDialoguePortal() {
               ellipsis;
           }
 
+          /* ================================================
+             FOOTER
+          ================================================ */
 
           .ep-dialogue-portal__footer {
             width: 100%;
@@ -4871,7 +4975,6 @@ export default function EpistemeDialoguePortal() {
             overflow: hidden;
           }
 
-
           .ep-dialogue-portal__footer
           > span {
             min-width: 0;
@@ -4884,6 +4987,12 @@ export default function EpistemeDialoguePortal() {
             white-space: nowrap;
           }
 
+          /* ================================================
+             TRANSITION
+             Transition remains viewport based because this
+             is a full-screen navigation transition, not a
+             HOME card.
+          ================================================ */
 
           .ep-dialogue-portal__black-hole {
             width:
@@ -4892,7 +5001,6 @@ export default function EpistemeDialoguePortal() {
                 520px
               );
           }
-
 
           .ep-dialogue-portal__lensing-field {
             width:
@@ -4904,9 +5012,10 @@ export default function EpistemeDialoguePortal() {
 
         }
 
-
         /* ==================================================
            SHORT MOBILE
+
+           Do NOT reintroduce viewport-height card sizing.
         ================================================== */
 
         @media (
@@ -4916,62 +5025,67 @@ export default function EpistemeDialoguePortal() {
         ) {
 
           .ep-dialogue-portal__card {
-            height:
-              calc(
-                100svh -
-                30px
-              );
+            height: auto;
+
+            min-height: 0;
+
+            max-height: none;
 
             padding:
+              16px
               17px
-              17px
-              14px;
-          }
+              13px;
 
+            border: 0;
+
+            border-radius: 0;
+
+            background: transparent;
+
+            -webkit-backdrop-filter: none;
+
+            backdrop-filter: none;
+
+            box-shadow: none;
+          }
 
           .ep-dialogue-portal__experience {
             padding:
-              11px
+              13px
               0
               8px;
           }
-
 
           .ep-dialogue-portal__statement {
             gap: 6px;
           }
 
-
           .ep-dialogue-portal__statement h2 {
             font-size:
               clamp(
-                31px,
-                9.3vw,
-                42px
+                30px,
+                8.9vw,
+                40px
               );
           }
-
 
           .ep-dialogue-portal__brain-button {
             margin-top: 1px;
           }
 
-
           .ep-dialogue-portal__brain {
             width:
               min(
                 100%,
-                278px
+                265px
               );
           }
-
 
           .ep-dialogue-portal__footer {
             padding-top: 10px;
           }
 
         }
-
 
         /* ==================================================
            SMALL MOBILE
@@ -4982,63 +5096,69 @@ export default function EpistemeDialoguePortal() {
         ) {
 
           .ep-dialogue-portal {
-            padding:
-              7px
-              0;
+            padding: 0;
           }
 
-
           .ep-dialogue-portal__card {
+            height: auto;
+
+            min-height: 0;
+
+            max-height: none;
+
             padding:
               18px
               15px
               15px;
 
-            border-radius: 18px;
-          }
+            border: 0;
 
+            border-radius: 0;
+
+            background: transparent;
+
+            -webkit-backdrop-filter: none;
+
+            backdrop-filter: none;
+
+            box-shadow: none;
+          }
 
           .ep-dialogue-portal__identity
           > span {
             font-size: 6.5px;
           }
 
-
           .ep-dialogue-portal__identity
           > small {
             font-size: 4px;
           }
 
-
           .ep-dialogue-portal__statement h2 {
             font-size:
               clamp(
-                32px,
-                10.1vw,
-                43px
+                31px,
+                9.7vw,
+                41px
               );
           }
-
 
           .ep-dialogue-portal__brain {
             width:
               min(
                 100%,
-                295px
+                285px
               );
           }
-
 
           .ep-dialogue-portal__tap-hint {
             font-size: 5px;
           }
 
-
           .ep-dialogue-portal__footer
           > span {
             font-size: 4px;
           }
-
 
           .ep-dialogue-portal__black-hole {
             width:
@@ -5050,7 +5170,6 @@ export default function EpistemeDialoguePortal() {
 
         }
 
-
         /* ==================================================
            VERY SMALL MOBILE
         ================================================== */
@@ -5060,43 +5179,56 @@ export default function EpistemeDialoguePortal() {
         ) {
 
           .ep-dialogue-portal__card {
+            height: auto;
+
+            min-height: 0;
+
+            max-height: none;
+
             padding:
               16px
               13px
               14px;
-          }
 
+            border: 0;
+
+            border-radius: 0;
+
+            background: transparent;
+
+            -webkit-backdrop-filter: none;
+
+            backdrop-filter: none;
+
+            box-shadow: none;
+          }
 
           .ep-dialogue-portal__identity
           > small {
             display: none;
           }
 
-
           .ep-dialogue-portal__statement h2 {
             font-size:
               clamp(
-                30px,
-                9.7vw,
-                38px
+                29px,
+                9.4vw,
+                37px
               );
           }
-
 
           .ep-dialogue-portal__brain {
             width:
               min(
                 100%,
-                260px
+                255px
               );
           }
-
 
           .ep-dialogue-portal__footer
           > span:last-child {
             display: none;
           }
-
 
           .ep-dialogue-portal__footer
           > i {
@@ -5104,7 +5236,6 @@ export default function EpistemeDialoguePortal() {
           }
 
         }
-
 
         /* ==================================================
            REDUCED MOTION
@@ -5133,7 +5264,6 @@ export default function EpistemeDialoguePortal() {
               none !important;
           }
 
-
           .ep-dialogue-portal__brain,
           .ep-dialogue-portal__organ,
           .ep-dialogue-portal__card,
@@ -5141,7 +5271,6 @@ export default function EpistemeDialoguePortal() {
             transition-duration:
               0.25s !important;
           }
-
 
           .ep-dialogue-portal--entering
           .ep-dialogue-portal__transition-stars,
@@ -5157,12 +5286,10 @@ export default function EpistemeDialoguePortal() {
               none !important;
           }
 
-
           .ep-dialogue-portal--entering
           .ep-dialogue-portal__space {
             opacity: 1;
           }
-
 
           .ep-dialogue-portal--entering
           .ep-dialogue-portal__lensing-field {
@@ -5177,7 +5304,6 @@ export default function EpistemeDialoguePortal() {
           }
 
         }
-
       `}</style>
 
     </section>
