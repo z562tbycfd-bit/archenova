@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-16T19:52:30.620Z",
+  "updated": "2026-09-16T22:43:16.177Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Passion Meets Precision at NASA’s Flight Research Lab",
+      "url": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
+      "summary": "Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their cr…",
+      "ts": 1789592768000,
+      "publishedAt": "2026-09-16T21:06:08.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: GOP aims to change Medicare adviser’s math so it’s more favorable to health insurers",
+      "url": "https://www.statnews.com/2026/09/16/medicare-advantage-overpayments-analysis-medpac-change-apples-to-apples-act/?utm_campaign=rss",
+      "summary": "The GOP bill directs MedPAC to study the topic of overpayments to Medicare Advantage plans in a manner that’s more favorable to insurers.",
+      "ts": 1789590015000,
+      "publishedAt": "2026-09-16T20:20:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Brain Protein in Mice Offers Insights Into Brain Development and ADHD",
+      "url": "https://www.genengnews.com/topics/translational-medicine/brain-protein-in-mice-offers-insights-into-brain-development-and-adhd/",
+      "summary": "Researchers identified a brain protein, NSF, that is important for maintaining dopamine-related cells and normal development, providing new insights into ADHD and potential therapeutic strategies. The post Brain Protein …",
+      "ts": 1789588474000,
+      "publishedAt": "2026-09-16T19:54:34.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Senators highlight the power Chris Klomp wields at confirmation hearings",
@@ -46,6 +73,15 @@
       "ts": 1789580964000,
       "publishedAt": "2026-09-16T17:49:24.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "ts": 1789578000000,
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -774,42 +810,6 @@
       "summary": "A recently launched Medicare experiment that pays for technology to help people manage chronic conditions is expanding.",
       "ts": 1789482524000,
       "publishedAt": "2026-09-15T14:28:44.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Webb reveals stunning panorama of star formation",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation",
-      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images from the NASA/ESA/CSA James Webb Space Telescope released to the public so far. Using Webb, astronomers searched IC 348 for brown dwa…",
-      "ts": 1789480800000,
-      "publishedAt": "2026-09-15T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA takes applications for new program to shorten drug approval times",
-      "url": "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/?utm_campaign=rss",
-      "summary": "The FDA is opening applications for a pilot program designed to shorten drug approval timelines and help the U.S. compete with countries like China and Australia.",
-      "ts": 1789480800000,
-      "publishedAt": "2026-09-15T14:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Reveals Dynamic Panorama of Star Formation",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
-      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images released to date from NASA’s James Webb Space Telescope. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less mas…",
-      "ts": 1789480800000,
-      "publishedAt": "2026-09-15T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Obesity drugmakers are testing in kids as young as 6",
-      "url": "https://www.statnews.com/2026/09/15/biotech-news-obesity-drugmakers-are-testing-in-kids-as-young-as-si/?utm_campaign=rss",
-      "summary": "Vera seeks kidney drug approval, early data from Syntis Bio, and other biotech news from The Readout",
-      "ts": 1789480215000,
-      "publishedAt": "2026-09-15T13:50:15.000Z",
       "categoryId": "bio"
     }
   ],
