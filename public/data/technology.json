@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-16T11:03:27.257Z",
+  "updated": "2026-09-16T16:23:25.413Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Red Light Supercharges Anti-Obesity Drug Precursor",
+      "url": "https://www.genengnews.com/topics/bioprocessing/red-light-supercharges-anti-obesity-drug-precursor/",
+      "summary": "Scientists in New Delhi found that red light dramatically boosted lipstatin production in Streptomyces, while reshaping its growth. The work points to illumination as a simple, non-invasive lever for improving yields in …",
+      "ts": 1789574457000,
+      "publishedAt": "2026-09-16T16:00:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Choice of Excipients Dramatically Affects Antibody Solubility",
+      "url": "https://www.genengnews.com/topics/bioprocessing/choice-of-excipients-dramatically-affects-antibody-solubility/",
+      "summary": "More predictive, rational therapeutic antibody formulation designs can be grounded in interactions between antibodies and common excipients that biomanufacturers often consider generic. The post Choice of Excipients Dram…",
+      "ts": 1789574453000,
+      "publishedAt": "2026-09-16T16:00:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Lifecycle Approach Could Solve CGT Scale-Up Challenges",
+      "url": "https://www.genengnews.com/topics/bioprocessing/a-lifecycle-approach-could-solve-cgt-scale-up-challenges/",
+      "summary": "Cell and gene therapy developers often struggle to scale manufacturing, according to the authors of a new review, who suggest that part of the problem is the practice of developing unit operations in isolation. The post …",
+      "ts": 1789574414000,
+      "publishedAt": "2026-09-16T16:00:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "ts": 1789574400000,
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher r…",
+      "ts": 1789570848000,
+      "publishedAt": "2026-09-16T15:00:48.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Meet a mouse whose brain cortex is made up of human cells",
+      "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
+      "summary": "Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed, leaving Pong-like traces on a monitor. The reason to watch this rodent so carefully? Nearly half its brain …",
+      "ts": 1789570800000,
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Scientists made mice with half a brain. Then they filled them with human organoids",
+      "url": "https://www.statnews.com/2026/09/16/human-brain-organoids-neuro-chimeric-mice-study-published-nature/?utm_campaign=rss",
+      "summary": "Scientists have made mice with half a brain, then filled them with human organoids — possibly opening new avenues for research but also raising ethical issues.",
+      "ts": 1789570800000,
+      "publishedAt": "2026-09-16T15:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sen. Warren demands to see Trump drug-pricing pharma contracts, accuses RFK Jr. of hiding them",
+      "url": "https://www.statnews.com/2026/09/16/biotech-news-sen-warren-demands-to-see-trump-drug-pricing-contracts/?utm_campaign=rss",
+      "summary": "An FDA pilot program to speed up drug development, Democrats plan health care probes after midterms, and more biotech news",
+      "ts": 1789565644000,
+      "publishedAt": "2026-09-16T13:34:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about faster FDA approvals, access to experimental drugs in Montana, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss",
+      "summary": "The FDA is opening applications for a pilot program designed to shorten the time it takes for drugmakers to begin testing their products in humans",
+      "ts": 1789565352000,
+      "publishedAt": "2026-09-16T13:29:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
+      "ts": 1789563633000,
+      "publishedAt": "2026-09-16T13:00:33.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "ts": 1789563600000,
+      "publishedAt": "2026-09-16T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Building the materials foundation for AI",
+      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data cen…",
+      "ts": 1789562854000,
+      "publishedAt": "2026-09-16T12:47:34.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance pro…",
+      "ts": 1789560600000,
+      "publishedAt": "2026-09-16T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "U.S. reaches highest number of measles deaths in decades",
+      "url": "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/?utm_campaign=rss",
+      "summary": "How the midterms could change health care, the sedative contaminating the fentanyl black market, and other health news from Morning Rounds",
+      "ts": 1789559772000,
+      "publishedAt": "2026-09-16T11:56:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "The Republic of Cabo Verde signs its First Country Programme Framework (CPF) for 2026-2031",
+      "url": "http://www.iaea.org/newscenter/news/the-republic-of-cabo-verde-signs-its-first-country-programme-framework-cpf-for-2026-2031",
+      "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and HE Ms Clara Manuela da Luz Delgado Jesus, Resident Representative of the Permanent Mission of the Republic of Cabo Verde t…",
+      "ts": 1789555391000,
+      "publishedAt": "2026-09-16T10:43:11.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "ESA",
+      "title": "Faster-flowing glaciers fuel decades of polar ice loss",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss",
+      "summary": "The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than t…",
+      "ts": 1789549200000,
+      "publishedAt": "2026-09-16T09:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "Purple swirls on the Red Planet",
@@ -666,150 +810,6 @@
       "summary": "“Whether it’s nicotine or algorithms, the result is the same: reinforcing a behavior that is harmful to users,” writes Susan Morrisey.",
       "ts": 1789461000000,
       "publishedAt": "2026-09-15T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Scientific Forum Opening 2026: Delivering on the Promise of Cancer Care",
-      "url": "http://www.iaea.org/newscenter/multimedia/videos/scientific-forum-opening-2026-delivering-on-the-promise-of-cancer-care",
-      "summary": "",
-      "ts": 1789459140000,
-      "publishedAt": "2026-09-15T07:59:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "ESA",
-      "title": "FLEX and Sentinel-3C launch highlights ",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/FLEX_and_Sentinel-3C_launch_highlights",
-      "summary": "Video: 00:03:22 ESA’s state-of-the-art FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new mil…",
-      "ts": 1789455600000,
-      "publishedAt": "2026-09-15T07:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
-      "url": "http://www.iaea.org/newscenter/news/the-commonwealth-of-the-bahamas-signs-its-first-country-programme-framework-cpf-for-2026-2031",
-      "summary": "H.E. Ron O.",
-      "ts": 1789452577000,
-      "publishedAt": "2026-09-15T06:09:37.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Iceye’s global presence expands to address sovereign demand",
-      "url": "https://spacenews.com/iceye-rapidly-expands-global-presence-to-address-sovereign-demand/",
-      "summary": "Since raising more than $1 billion in a Series F funding round, Iceye has moved rapidly to address growing demand for sovereign space capabilities. In quick succession, the Finnish synthetic […] The post Iceye’s global p…",
-      "ts": 1789452000000,
-      "publishedAt": "2026-09-15T06:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "How Isotopes Protect Mining Water Resources",
-      "url": "http://www.iaea.org/newscenter/news/how-isotopes-protect-mining-water-resources",
-      "summary": "Mining can transform landscapes and economies, but it can also alter the movement and quality of water. In mining areas, groundwater and rivers may be affected by acid mine drainage, dissolved metals, salts and other con…",
-      "ts": 1789445670000,
-      "publishedAt": "2026-09-15T04:14:30.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 15 – A Daytime Eclipse: Moon Occults Venus",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/",
-      "summary": "APOD Science APOD APOD: 2026 September 15 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1789445100000,
-      "publishedAt": "2026-09-15T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From objective discovery to prediction of global ocean eco-provinces: A pathway for trustworthy learning",
-      "url": "https://arxiv.org/abs/2609.13206",
-      "summary": "arXiv:2609.13206v1 Announce Type: new Abstract: Marine ecosystems are increasingly impacted by climate change, necessitating tools to identify and predict spatial habitat information. To build such tools, ecological mari…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Planning as Dynamics Relaxation: Hippocampal Recurrent Network Realizes Optimal Goal-Directed Navigation",
-      "url": "https://arxiv.org/abs/2609.13219",
-      "summary": "arXiv:2609.13219v1 Announce Type: new Abstract: Neural correlates of spatial cognitive map are well documented, yet exactly how neural circuits perform spatial navigation in complex environments - e.g., reaching a goal w…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Chemical and geometric representation fidelity improves drug--target affinity prediction",
-      "url": "https://arxiv.org/abs/2609.13230",
-      "summary": "arXiv:2609.13230v1 Announce Type: new Abstract: Predicting drug--target binding affinity (DTA) requires models to distinguish subtle chemical and structural determinants underlying molecular recognition. Although recent …",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Interstitial flow in the chick yolk sac exhibits organ-scale patterns driven by segregated leakage and drainage",
-      "url": "https://arxiv.org/abs/2609.13249",
-      "summary": "arXiv:2609.13249v1 Announce Type: new Abstract: Interstitial flow plays a key role in drug delivery, angiogenesis, cancer, and edema. Recent studies show that the interstitium can provide connected pathways capable of su…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Polymerase-mediated quasispecies dynamics: bifurcations, complementation, and robustness of {\\tau}-tipping",
-      "url": "https://arxiv.org/abs/2609.13310",
-      "summary": "arXiv:2609.13310v1 Announce Type: new Abstract: Quasispecies theory describes how mutation and selection shape highly variable RNA virus populations, but most models explicitly consider neither RNA-dependent RNA polymera…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SenSASP: A Unified, Multi-Layer Database of Senescence and SASP Genes",
-      "url": "https://arxiv.org/abs/2609.13322",
-      "summary": "arXiv:2609.13322v1 Announce Type: new Abstract: Research on cellular senescence and the senescence-associated secretory phenotype (SASP) draws on independently curated gene resources that differ in scope, identifiers, an…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sequential reduction for discrete latent variables in ecological and evolutionary models using RTMB",
-      "url": "https://arxiv.org/abs/2609.13333",
-      "summary": "arXiv:2609.13333v1 Announce Type: new Abstract: Statistical models of ecological and evolutionary dynamics often include latent variables that are either continuous (e.g., average body size) or discrete (e.g., numerical …",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Speciation, extinction and explosions induced by sudden environmental changes",
-      "url": "https://arxiv.org/abs/2609.13349",
-      "summary": "arXiv:2609.13349v1 Announce Type: new Abstract: We study the evolution of sexually reproducing populations subjected to sudden environmental changes. Using an individual based model we consider scenarios where abrupt cha…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Automated Volumetric Segmentation of Microaneurysms on OCT Using Artificial Intelligence",
-      "url": "https://arxiv.org/abs/2609.13508",
-      "summary": "arXiv:2609.13508v1 Announce Type: new Abstract: Purpose: To develop and validate a deep learning-based method for the automated identification and volumetric segmentation of microaneurysms (MAs) in diabetic retinopathy (…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structures of the Basic Reproduction Number $R_0$ Across Compartmental Disease Models",
-      "url": "https://arxiv.org/abs/2609.13668",
-      "summary": "arXiv:2609.13668v1 Announce Type: new Abstract: The basic reproduction number $R_0$ is the central dimensionless quantity in mathematical epidemiology, characterizing the threshold for disease outbreak and the early grow…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
