@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-15T23:05:51.631Z",
+  "updated": "2026-09-16T00:06:21.717Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Greyhound racing just turned 100, and says its dogs are fine. But are they?",
+      "url": "https://phys.org/news/2026-09-greyhound-dogs-fine.html",
+      "summary": "This year, greyhound racing in Britain turns 100 years old. The first race took place on July 24, 1926, in Manchester, where six dogs chased a mechanical hare around a track.",
+      "ts": 1789516801000,
+      "publishedAt": "2026-09-16T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "High-resolution weather data could pinpoint neighborhoods facing greatest heat stress",
+      "url": "https://phys.org/news/2026-09-high-resolution-weather-neighborhoods-greatest.html",
+      "summary": "Heat stress is a leading cause of weather-related deaths and can be especially dangerous in cities, where phenomena like urban heat islands drive temperatures higher than in surrounding rural areas. Now, a new dataset de…",
+      "ts": 1789514401000,
+      "publishedAt": "2026-09-15T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New species of 240-million-year-old prehistoric animal could reshape dinosaur origins timeline",
+      "url": "https://phys.org/news/2026-09-species-million-year-prehistoric-animal.html",
+      "summary": "A new prehistoric animal species from Tanzania dating to around 240 million years ago, during the Triassic period, has been described by an international team of researchers. Led by the University of Bristol, the new spe…",
+      "ts": 1789513801000,
+      "publishedAt": "2026-09-15T23:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Plasma and electricity convert CO₂ into methanol, butane and other useful chemicals",
@@ -443,6 +467,30 @@
       "publishedAt": "2026-09-15T10:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Spectator-transition crosstalk in a spin-$3/2$ silicon-vacancy qudit in silicon carbide revealed by broadband Ramsey interferometry",
+      "url": "http://link.aps.org/doi/10.1103/qjsy-1m59",
+      "summary": "Author(s): Jun-Jae Choi, Seung-Jae Hwang, Seoyoung Paik, Juhwan Kim, Jawad Ul-Hassan, Nguyen Tien Son, Hiroshi Abe, Takeshi Ohshima, Jaekwon Suk, Hyeon-Ho Jeong, Dong-Hee Kim, and Sang-Yun Lee Color-center spins in 4H-Si…",
+      "ts": 1789466400000,
+      "publishedAt": "2026-09-15T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Radiation-induced defect dynamics in two-dimensional/three-dimensional systems: A dimensionality advantage preserved within patterned graphene–SiC heterostructures",
+      "url": "http://link.aps.org/doi/10.1103/xdmg-zbky",
+      "summary": "Author(s): Maciej J. Szary, Jakub Jagiełło, Wiktoria Reddig, Artur Dobrowolski, Tymoteusz Ciuk, Rafał Prokopowicz, Maciej Ziemba, Marek Wzorek, and Semir El-Ahmar 2D/3D heterostructures provide a powerful platform for un…",
+      "ts": 1789466400000,
+      "publishedAt": "2026-09-15T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Quadrature-symmetric pulse scheme for robust quantum control beyond the ideal-pulse approximation",
+      "url": "http://link.aps.org/doi/10.1103/b4tk-xgl9",
+      "summary": "Author(s): Mayur Jhamnani, Venkata SubbaRao Redrouthu, José P. Carvalho, Ethan Feldman, Anders B. Nielsen, Phani Kumar, Niels Chr. Nielsen, P. K. Madhu, and Asif Equbal PulsePol is an elegantly designed pulse-sequence-ba…",
+      "ts": 1789466400000,
+      "publishedAt": "2026-09-15T10:00:00.000Z"
+    },
+    {
       "source": "arXiv Physics",
       "title": "Evaluating E-OBS, AgERA5, MARS-STAT, ERA5, and ERA5-Land for Daily Minimum and Maximum Temperature Across Four Mediterranean European Countries",
       "url": "https://arxiv.org/abs/2609.13193",
@@ -751,54 +799,6 @@
       "title": "Lagrangian Dynamical Theory of the Velocity Gradient Tensor: Real Schur Form, Schur Frame, Characteristic Vorticity Modes, and Commutative Vorticity Operators",
       "url": "https://arxiv.org/abs/2609.14034",
       "summary": "arXiv:2609.14034v1 Announce Type: new Abstract: The present work proposes a novel Lagrangian dynamical theory for the velocity gradient tensor (VGT) $\\bm{A}\\equiv\\bm{\\nabla}\\bm{u}$, formulated on the basis of its canonic…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Retraction dynamics of polymer-laden droplets impacting a smooth solid surface",
-      "url": "https://arxiv.org/abs/2609.14055",
-      "summary": "arXiv:2609.14055v1 Announce Type: new Abstract: Hypothesis: The presence of a polymer in a droplet plays a significant role in contact line dynamics following droplet impact onto a solid substrate. We hypothesize that th…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exceptional-point conjugate symmetry and migration in fluid-loaded elastic waveguides: restructuring the physical dispersion spectrum",
-      "url": "https://arxiv.org/abs/2609.14061",
-      "summary": "arXiv:2609.14061v1 Announce Type: new Abstract: The dispersion spectrum of a fluid-loaded elastic waveguide is a non-Hermitian system with eigenmodes on a two-sheeted Riemann manifold. Although exceptional points (EPs) o…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite Asimov Sample Construction in Unbinned Neural Simulation-Based Inference",
-      "url": "https://arxiv.org/abs/2609.14136",
-      "summary": "arXiv:2609.14136v1 Announce Type: new Abstract: Expected sensitivity calculations in frequentist analysis using neural simulation-based inference often require large simulated samples to approximate an unbinned Asimov da…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magnetic Particle Spectroscopy for Detecting Cell-Associated Zinc Ferrite Nanoparticles and Probing Their Relaxation Dynamics",
-      "url": "https://arxiv.org/abs/2609.14162",
-      "summary": "arXiv:2609.14162v1 Announce Type: new Abstract: Magnetic particle spectroscopy (MPS) enables sensitive detection of magnetic nanoparticles (MNPs) and characterization of their dynamic magnetization through higher-order h…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Square-shaping of sturdy optical vortex droplets in quasi-phase-matched photonic crystals",
-      "url": "https://arxiv.org/abs/2609.14216",
-      "summary": "arXiv:2609.14216v1 Announce Type: new Abstract: We elaborate a scheme for controllable shaping of self-trapped vortex states in a quasi-phase-matched three-dimensional photonic crystal with the combination of self-focusi…",
-      "ts": 1789444800000,
-      "publishedAt": "2026-09-15T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bimorph Lithium Niobate Thickness-Shear Overtone Film Bulk Acoustic Resonator",
-      "url": "https://arxiv.org/abs/2609.14222",
-      "summary": "arXiv:2609.14222v1 Announce Type: new Abstract: High quality factor ($Q$) and overtone operation enable narrow-linewidth acoustic devices with multiple discrete frequencies in a single cavity. Maintaining both high $Q$ a…",
       "ts": 1789444800000,
       "publishedAt": "2026-09-15T04:00:00.000Z"
     }

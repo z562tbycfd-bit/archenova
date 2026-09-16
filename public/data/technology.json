@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-15T23:05:56.364Z",
+  "updated": "2026-09-16T00:06:27.526Z",
   "items": [
     {
       "source": "NVIDIA",
@@ -129,15 +129,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "NASA’s Webb Reveals Dynamic Panorama of Star Formation",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
-      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images released to date from NASA’s James Webb Space Telescope. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less mas…",
-      "ts": 1789480800000,
-      "publishedAt": "2026-09-15T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "ESA",
       "title": "Webb reveals stunning panorama of star formation",
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_stunning_panorama_of_star_formation",
@@ -154,6 +145,15 @@
       "ts": 1789480800000,
       "publishedAt": "2026-09-15T14:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Reveals Dynamic Panorama of Star Formation",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+      "summary": "This starry view of the nearby star-forming region IC 348 is one of the largest images released to date from NASA’s James Webb Space Telescope. Using Webb, astronomers searched IC 348 for brown dwarfs, which are less mas…",
+      "ts": 1789480800000,
+      "publishedAt": "2026-09-15T14:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
