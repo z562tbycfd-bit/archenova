@@ -25,12 +25,12 @@ import { useRouter } from "next/navigation";
 
    HOME PRINCIPLE
 
-   One Portal = One Black Glass Surface.
+   Portal = Content / Interaction.
+   HOME CSS = Black Glass Surface.
 
    This component does NOT create another card.
-   The HOME environment owns the glass surface.
 
-   Inside the surface exists only a transparent
+   Inside the HOME surface exists only a transparent
    civilization canvas:
 
    Deep Space
@@ -39,6 +39,17 @@ import { useRouter } from "next/navigation";
    → Cosmic City
    → Civilization Axis
    → Stellar Horizon
+
+   SCROLL PRINCIPLE
+
+   HOME remains the page-level environment.
+
+   Only:
+   .an-valley-portal__experience
+
+   owns the internal vertical scroll.
+
+   Scrollbar remains visually hidden.
 
    Episteme = entrance to cognition.
    Inquiry  = contact with reality.
@@ -115,6 +126,8 @@ export default function ArcheNovaValleyPortal() {
 
           IMPORTANT:
           This is NOT another glass card.
+
+          HOME / globals.css owns the visible card surface.
       ================================================== */}
 
       <div className="an-valley-portal__card">
@@ -169,6 +182,7 @@ export default function ArcheNovaValleyPortal() {
 
         {/* ==================================================
             CENTRAL EXPERIENCE
+            INTERNAL VERTICAL SCROLL OWNER
         ================================================== */}
 
         <div className="an-valley-portal__experience">
@@ -569,6 +583,13 @@ export default function ArcheNovaValleyPortal() {
           padding: 0;
 
           overflow: hidden;
+
+          border: 0;
+          outline: 0;
+
+          background: transparent;
+
+          box-shadow: none;
         }
 
 
@@ -578,13 +599,20 @@ export default function ArcheNovaValleyPortal() {
 
 
         /* ==================================================
-           TRANSPARENT INTERNAL CANVAS
+           TRANSPARENT INTERNAL LAYOUT
 
            IMPORTANT:
 
-           This is NOT a glass card.
+           This element is NOT a card.
 
-           HOME owns the single Black Glass Surface.
+           No:
+           - border
+           - glass background
+           - backdrop filter
+           - outer shadow
+           - card pseudo surface
+
+           HOME / globals.css owns the visible Black Glass.
         ================================================== */
 
         .an-valley-portal__card {
@@ -621,7 +649,9 @@ export default function ArcheNovaValleyPortal() {
 
           border: 0;
 
-          border-radius: inherit;
+          border-radius: 0;
+
+          outline: 0;
 
           background: transparent;
 
@@ -653,40 +683,6 @@ export default function ArcheNovaValleyPortal() {
 
             filter
             0.58s ease;
-        }
-
-
-        .an-valley-portal__card::before {
-          content: "";
-
-          position: absolute;
-
-          inset: 0;
-
-          z-index: -2;
-
-          pointer-events: none;
-
-          background:
-            linear-gradient(
-              132deg,
-              rgba(
-                255,
-                255,
-                255,
-                0.012
-              ),
-              transparent
-              20%,
-              transparent
-              80%,
-              rgba(
-                255,
-                255,
-                255,
-                0.004
-              )
-            );
         }
 
 
@@ -980,6 +976,11 @@ export default function ArcheNovaValleyPortal() {
 
         /* ==================================================
            EXPERIENCE
+
+           SINGLE INTERNAL VERTICAL SCROLL OWNER
+
+           Scroll remains functional.
+           Scrollbar remains invisible.
         ================================================== */
 
         .an-valley-portal__experience {
@@ -987,10 +988,11 @@ export default function ArcheNovaValleyPortal() {
 
           z-index: 5;
 
-          align-self: center;
+          align-self: stretch;
 
           width: 100%;
           min-width: 0;
+          min-height: 0;
 
           display: flex;
 
@@ -998,7 +1000,7 @@ export default function ArcheNovaValleyPortal() {
 
           align-items: center;
 
-          justify-content: center;
+          justify-content: flex-start;
 
           padding:
             clamp(
@@ -1012,6 +1014,28 @@ export default function ArcheNovaValleyPortal() {
               3vw,
               30px
             );
+
+          overflow-x: hidden;
+          overflow-y: auto;
+
+          overscroll-behavior-x: none;
+          overscroll-behavior-y: contain;
+
+          -webkit-overflow-scrolling: touch;
+
+          touch-action: pan-y;
+
+          scrollbar-width: none;
+
+          -ms-overflow-style: none;
+        }
+
+
+        .an-valley-portal__experience::-webkit-scrollbar {
+          width: 0;
+          height: 0;
+
+          display: none;
         }
 
 
@@ -1025,6 +1049,7 @@ export default function ArcheNovaValleyPortal() {
           z-index: 30;
 
           width: 100%;
+          flex: 0 0 auto;
 
           display: flex;
 
@@ -1113,6 +1138,8 @@ export default function ArcheNovaValleyPortal() {
 
           max-width: 100%;
           min-width: 0;
+
+          flex: 0 0 auto;
 
           display: block;
 
@@ -2824,6 +2851,7 @@ export default function ArcheNovaValleyPortal() {
           z-index: 20;
 
           width: 100%;
+          flex: 0 0 auto;
 
           display: flex;
 
@@ -4005,6 +4033,10 @@ export default function ArcheNovaValleyPortal() {
             padding: 0;
 
             overflow: hidden;
+
+            border: 0;
+            background: transparent;
+            box-shadow: none;
           }
 
 
@@ -4033,7 +4065,9 @@ export default function ArcheNovaValleyPortal() {
 
             border: 0;
 
-            border-radius: inherit;
+            border-radius: 0;
+
+            outline: 0;
 
             background: transparent;
 
@@ -4069,6 +4103,12 @@ export default function ArcheNovaValleyPortal() {
           }
 
 
+          /* ================================================
+             MOBILE INTERNAL SCROLL
+
+             Do NOT restore overflow:hidden here.
+          ================================================= */
+
           .an-valley-portal__experience {
             min-height: 0;
 
@@ -4077,7 +4117,26 @@ export default function ArcheNovaValleyPortal() {
               0
               10px;
 
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
+
+            overscroll-behavior-y: contain;
+
+            -webkit-overflow-scrolling: touch;
+
+            touch-action: pan-y;
+
+            scrollbar-width: none;
+
+            -ms-overflow-style: none;
+          }
+
+
+          .an-valley-portal__experience::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+
+            display: none;
           }
 
 
@@ -4269,6 +4328,9 @@ export default function ArcheNovaValleyPortal() {
               9px
               0
               6px;
+
+            overflow-x: hidden;
+            overflow-y: auto;
           }
 
 

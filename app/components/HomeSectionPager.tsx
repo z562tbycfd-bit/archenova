@@ -77,7 +77,7 @@ const CHAPTER_TARGETS:
       "MAP",
 
     subtitle:
-      "Explore ArcheNova",
+      "Where are we?",
   },
 
   {
@@ -91,7 +91,7 @@ const CHAPTER_TARGETS:
       "EPISTEME",
 
     subtitle:
-      "Dialogue & Reasoning",
+      "What can we know?",
   },
 
   {
@@ -119,7 +119,7 @@ const CHAPTER_TARGETS:
       "VALLEY",
 
     subtitle:
-      "Knowledge → Reality",
+      "What becomes reality?",
   },
 ];
 
