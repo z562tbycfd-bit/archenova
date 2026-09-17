@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-17T21:16:32.229Z",
+  "updated": "2026-09-17T23:58:56.131Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Kennedy announces new effort to speed up autism diagnoses",
+      "url": "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/?utm_campaign=rss",
+      "summary": "Health secretary Kennedy announced a new effort to improve autism diagnoses, arguing that the current model is outdated",
+      "ts": 1789682970000,
+      "publishedAt": "2026-09-17T22:09:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Kidney Organoids Reveal Inflammatory Drivers of Diabetic Kidney Disease",
+      "url": "https://www.genengnews.com/topics/translational-medicine/kidney-organoids-reveal-inflammatory-drivers-of-diabetic-kidney-disease/",
+      "summary": "In kidney organoids, elevated glucose triggered tissue-intrinsic inflammation and epithelial cell detachment without overt cytotoxicity. Inhibiting MIF, TNF-alpha, or MAPK-related signaling helped protect the organoids, …",
+      "ts": 1789680306000,
+      "publishedAt": "2026-09-17T21:25:06.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Kennedy renews attacks on vaccines at Children’s Health Defense conference",
@@ -792,24 +810,6 @@
       "summary": "Researchers developed a prophylactic phage therapy targeting Salmonella enterica Typhimurium that in mouse models colonized the gut, and produced lytic phages that protected against future infection by the pathogen, impr…",
       "ts": 1789584788000,
       "publishedAt": "2026-09-16T18:53:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
-      "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
-      "summary": "It started as a routine data-quality check. But as Robert Wagner, a scientist with NASA’s Lunar Reconnaissance Orbiter (LRO), scanned a giant Moon map on his computer screen, an unusually large bright spot circled by a d…",
-      "ts": 1789581995000,
-      "publishedAt": "2026-09-16T18:06:35.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cellares and GenomeFrontier Therapeutics Partner to Advance Automated Manufacturing of GF-CART01",
-      "url": "https://www.genengnews.com/topics/bioprocessing/cellares-and-genomefrontier-therapeutics-partner-to-advance-automated-manufacturing-of-gf-cart01/",
-      "summary": "The partnership marks Cellares’ first collaboration with a cell therapy developer in Asia and will evaluate automated manufacturing of GenomeFrontier’s virus-free CAR T process for clinical manufacturing in the U.S. The …",
-      "ts": 1789581849000,
-      "publishedAt": "2026-09-16T18:04:09.000Z",
       "categoryId": "bio"
     }
   ],
