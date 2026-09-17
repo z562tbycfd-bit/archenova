@@ -48863,3 +48863,597 @@ i {
   backdrop-filter:
     none !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   EPISTEME + VALLEY
+   PORTAL SURFACE BLEND
+   ----------------------------------------------------------
+   Purpose:
+   - Preserve the single HOME Black Glass
+   - Blend Portal-level atmosphere into that glass
+   - Remove the remaining "second card" impression
+   - Preserve Brain / Civilization visuals
+   - Preserve interaction / layout / animation
+========================================================== */
+
+
+/* ==========================================================
+   EPISTEME
+========================================================== */
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal,
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/*
+ * Portal atmosphere remains,
+ * but no longer behaves like a second dark surface.
+ */
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__ambient {
+  background:
+    radial-gradient(
+      ellipse at 50% 48%,
+      rgba(255,255,255,0.024) 0%,
+      rgba(255,255,255,0.010) 32%,
+      transparent 68%
+    )
+    !important;
+
+  opacity:
+    0.72 !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__reflection {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.012) 0%,
+      transparent 24%,
+      transparent 76%,
+      rgba(255,255,255,0.006) 100%
+    )
+    !important;
+
+  opacity:
+    0.42 !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/*
+ * Never allow Portal card pseudos
+ * to recreate another surface.
+ */
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card::before,
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   ARCHE NOVA VALLEY
+========================================================== */
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal,
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/*
+ * Keep only a very weak civilization illumination.
+ * It should read as light INSIDE the HOME glass,
+ * not as another glass panel.
+ */
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__ambient {
+  background:
+    radial-gradient(
+      ellipse at 50% 55%,
+      rgba(255,255,255,0.022) 0%,
+      rgba(255,255,255,0.009) 34%,
+      transparent 70%
+    )
+    !important;
+
+  opacity:
+    0.70 !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__reflection {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.011) 0%,
+      transparent 24%,
+      transparent 78%,
+      rgba(255,255,255,0.005) 100%
+    )
+    !important;
+
+  opacity:
+    0.40 !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card::before,
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+   EVEN SOFTER PORTAL ATMOSPHERE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__ambient {
+    background:
+      radial-gradient(
+        ellipse at 50% 48%,
+        rgba(255,255,255,0.018) 0%,
+        rgba(255,255,255,0.007) 34%,
+        transparent 70%
+      )
+      !important;
+
+    opacity:
+      0.64 !important;
+  }
+
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__reflection {
+    opacity:
+      0.30 !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__ambient {
+    background:
+      radial-gradient(
+        ellipse at 50% 55%,
+        rgba(255,255,255,0.017) 0%,
+        rgba(255,255,255,0.006) 36%,
+        transparent 72%
+      )
+      !important;
+
+    opacity:
+      0.62 !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__reflection {
+    opacity:
+      0.28 !important;
+  }
+
+}
+
+
+
+
+
+
+
+/* ==========================================================
+   TODAY'S INQUIRY
+   PORTAL SURFACE BLEND
+   ----------------------------------------------------------
+   Purpose:
+   - HOME remains the only Black Glass card
+   - Remove remaining nested surface contrast
+   - Preserve Today's Inquiry content
+   - Preserve internal research cards / controls
+   - Preserve layout / scrolling / interaction
+========================================================== */
+
+
+/* ==========================================================
+   MAIN PORTAL SURFACE
+========================================================== */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass-inner,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__experience {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   REMOVE OLD GLASS REFLECTION
+   ----------------------------------------------------------
+   .ti-home__glass::before previously created an optical
+   layer over the whole Inquiry portal.
+========================================================== */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass::before,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   DAILY EXPERIENCE
+   ----------------------------------------------------------
+   Prevent the main Experience component from becoming
+   another full-size dark/glass card.
+========================================================== */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__experience
+.ce-daily {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   RESEARCH AREA
+   ----------------------------------------------------------
+   Wrapper remains transparent.
+   Individual research cards are intentionally preserved.
+========================================================== */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__research,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__research
+.ti-research {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/*
+ * Remove only the large edge-overlay surface.
+ *
+ * Individual .ti-research-card elements are NOT changed.
+ */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__research
+.ti-research::before,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__research
+.ti-research::after {
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+   GUARANTEE ONE CONTINUOUS HOME GLASS
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass-inner,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__experience,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__experience
+  .ce-daily,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__research,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__research
+  .ti-research {
+    background:
+      transparent !important;
+
+    border:
+      0 !important;
+
+    outline:
+      0 !important;
+
+    box-shadow:
+      none !important;
+
+    -webkit-backdrop-filter:
+      none !important;
+
+    backdrop-filter:
+      none !important;
+  }
+
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass::before,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass::after {
+    content:
+      none !important;
+
+    display:
+      none !important;
+
+    background:
+      none !important;
+
+    border:
+      0 !important;
+
+    box-shadow:
+      none !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
