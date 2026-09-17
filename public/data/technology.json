@@ -1,7 +1,106 @@
 {
   "ok": true,
-  "updated": "2026-09-17T13:09:33.202Z",
+  "updated": "2026-09-17T17:59:52.075Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Definium’s new psychedelics data, and a reprieve for international scientists",
+      "url": "https://www.statnews.com/2026/09/17/psychedelics-definium-visas-international-students-court-ruling-readout-loud-podcast/?utm_campaign=rss",
+      "summary": "International researchers got a reprieve in the courts this week. What does that mean for U.S. medical research? Find out on this week's episode of \"The Readout LOUD\" podcast.",
+      "ts": 1789662378000,
+      "publishedAt": "2026-09-17T16:26:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-367-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1789659541000,
+      "publishedAt": "2026-09-17T15:39:01.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation",
+      "url": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
+      "summary": "PARIS — South Korean company Satrec Initiative is working with parent company Hanwha Systems to provide high-resolution Earth imagery for the synthetic-aperture-radar (SAR) constellation announced in July. Satrec Initiat…",
+      "ts": 1789657515000,
+      "publishedAt": "2026-09-17T15:05:15.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Kennedy names new members to Preventive Services Task Force, after months of vacancies",
+      "url": "https://www.statnews.com/2026/09/17/kennedy-names-eight-new-members-uspstf-task-force/?utm_campaign=rss",
+      "summary": "The influential panel hasn't met in more than a year, after Kennedy canceled its meeting.",
+      "ts": 1789657061000,
+      "publishedAt": "2026-09-17T14:57:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Simera Sense and IDOM partner to develop and produce xScape350 optical system as demand for high-resolution EO imagery surges",
+      "url": "https://spacenews.com/simera-sense-and-idom-partner-to-develop-and-produce-xscape350-optical-system-as-demand-for-high-resolution-eo-imagery-surges/",
+      "summary": "LEUVEN, BELGIUM and BILBAO, SPAIN – 17 September 2026—Simera Sense, a leading European provider of optical payload solutions for small satellites, today announced a strategic partnership with IDOM, one of […] The post Si…",
+      "ts": 1789656051000,
+      "publishedAt": "2026-09-17T14:40:51.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Inside Europe’s push for space autonomy with Josef Aschbacher",
+      "url": "https://spacenews.com/inside-europes-push-for-space-autonomy-with-josef-aschbacher/",
+      "summary": "In this episode of the podcast, SpaceNews’ Mike Gruss interviews Josef Aschbacher, the director-general of the European Space Agency, at the World Space Business Week conference in Paris. They discuss […] The post Inside…",
+      "ts": 1789655846000,
+      "publishedAt": "2026-09-17T14:37:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: New startup to test psychedelic-like drug against Parkinson’s symptom",
+      "url": "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/?utm_campaign=rss",
+      "summary": "A psychedelic-like drug for a Parkinson's symptom, mice with half-human brains, and more biotech news in the Readout newsletter.",
+      "ts": 1789655437000,
+      "publishedAt": "2026-09-17T14:30:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA has too few staffers to hire more staff",
+      "url": "https://www.statnews.com/2026/09/17/fda-hiring-bottleneck-senate-hearings-chris-klomp-nicole-saphier/?utm_campaign=rss",
+      "summary": "FDA's hiring bottleneck, Dems plan for health care oversight, and more from STAT's D.C. Diagnosis newsletter.",
+      "ts": 1789654623000,
+      "publishedAt": "2026-09-17T14:17:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Purer fentanyl won’t solve the U.S. overdose death crisis, study says",
+      "url": "https://www.statnews.com/2026/09/17/health-news-fentanyl-overdoses-fda-doge-morning-rounds/?utm_campaign=rss",
+      "summary": "Cautious optimism in the Ebola outbreak, FDA still stymied by DOGE cuts, and other health updates from the Morning Rounds newsletter.",
+      "ts": 1789654278000,
+      "publishedAt": "2026-09-17T14:11:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Sartorius and NIBRT Partner on Intensified and Continuous Bioprocessing Training Center",
+      "url": "https://www.genengnews.com/topics/bioprocessing/sartorius-and-nibrt-partner-on-intensified-and-continuous-bioprocessing-training-center/",
+      "summary": "Officials at Sartorius and the NIBRT said their partnership will strengthen global workforce readiness and accelerate the industry transition toward more efficient and sustainable biopharmaceutical production. The post S…",
+      "ts": 1789652977000,
+      "publishedAt": "2026-09-17T13:49:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Mithrl Raises $20M to Expand Deployment of Its Biomedical World Model Across Biopharma",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/mithrl-raises-20m-to-expand-deployment-of-its-biomedical-world-model-across-biopharma/",
+      "summary": "Mithrl’s platform embeds its biomedical world model and AI agents within biopharma companies’ own environments, providing the context and orchestration needed to apply frontier AI to proprietary data and pipelines. The p…",
+      "ts": 1789652637000,
+      "publishedAt": "2026-09-17T13:43:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Zocdoc for chatbots and what’s new with Medicare’s ACCESS",
@@ -10,6 +109,15 @@
       "ts": 1789650553000,
       "publishedAt": "2026-09-17T13:09:13.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+      "summary": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices…",
+      "ts": 1789650055000,
+      "publishedAt": "2026-09-17T13:00:55.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -30,6 +138,15 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "Scientific Forum Highlights Progress in Expanding Access to Cancer Care",
+      "url": "http://www.iaea.org/newscenter/news/scientific-forum-highlights-progress-in-expanding-access-to-cancer-care",
+      "summary": "The IAEA’s flagship Rays of Hope initiative to expand access to cancer care was in the spotlight at this year’s Scientific Forum. The signature side event at the 70th IAEA General Conference, the forum brought together a",
+      "ts": 1789650000000,
+      "publishedAt": "2026-09-17T13:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: mice with part-human brains and climate tech innovators",
       "url": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
@@ -37,6 +154,24 @@
       "ts": 1789647000000,
       "publishedAt": "2026-09-17T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Guterres calls for action as hate speech spreads across new platforms online",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168356",
+      "summary": "The UN Secretary-General has called for concerted action by governments, technology companies and civil society to stamp out hate speech, emphasizing that “its toxic message is spreading fast and striking deep”.",
+      "ts": 1789646400000,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Syria’s transition in the spotlight",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168355",
+      "summary": "While Syria is making progress in its political transition, the Security Council is meeting to hear briefings and discuss the situation on the ground, including recent reports of deadly armed clashes with an ISIS-affilia…",
+      "ts": 1789646400000,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -118,6 +253,15 @@
       "ts": 1789633800000,
       "publishedAt": "2026-09-17T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA starts next phase of IRIS² evolution through Low-LEO activities ",
+      "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_starts_next_phase_of_IRIS2_evolution_through_Low-LEO_activities",
+      "summary": "The European Space Agency (ESA) has signed 18 consolidation contracts bringing together nearly 80 companies to study new secure and resilient connectivity services. The contracts also cover associated mission concepts an…",
+      "ts": 1789632420000,
+      "publishedAt": "2026-09-17T08:07:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -435,6 +579,96 @@
       "categoryId": "bio"
     },
     {
+      "source": "Cell",
+      "title": "Evolving Cell with evolving science",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01013-5?rss=yes",
+      "summary": "I know what you think about papers in Cell. They are long. Mechanistic. “Complete.” They report deep biological insights. I know this because I hear it a lot from researchers. There is truth to it. Cell has published tho…",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "A world model of the virtual cell",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01015-9?rss=yes",
+      "summary": "The virtual cell is envisioned as a multi-modal, multi-scale, and stateful world model that can simulate, perturb, and ultimately program cellular systems. This perspective outlines how this paradigm could transform cell…",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "World models for biomedicine",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01005-6?rss=yes",
+      "summary": "Biological processes continuously adapt in response to intervention. Unlike static predictive models, biomedical world models support action-conditioned simulations for counterfactual reasoning, intervention design, and …",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Avoiding common failures in AI for health and medicine",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00823-8?rss=yes",
+      "summary": "Salaudeen et al. review common reliability failures in predictive and generative AI for healthcare, including erroneous model outputs, clinically unjustified performance differences, and deployment-time degradation. They…",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Changing minds: How AI is transforming the life sciences",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00946-3?rss=yes",
+      "summary": "Artificial intelligence (AI) is changing the way biomedical research is conducted by making it possible to integrate diverse types of biological data and tackle questions that were previously difficult to address. At the…",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00998-0?rss=yes",
+      "summary": "scBaseCount is presently the largest public single-cell RNA-seq repository, containing over 502 million cells across 27 organisms and 75 tissues. An AI agent autonomously discovers, annotates, and uniformly reprocesses a…",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "Tahoe-100M: Mapping drug-induced molecular phenotypes at single-cell resolution",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01008-1?rss=yes",
+      "summary": "Tahoe-100M is an atlas of 100 million single-cell transcriptomes, capturing how 50 cancer cell lines respond to ∼1,100 drug-dose treatments. By pairing single-cell and molecular phenotypes at scale, the resource links dr…",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "An open benchmark and language models for AI in aging biology",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00999-2?rss=yes",
+      "summary": "LongevityBench, Longevity-LLMs, and Longevity Claw evaluate the readiness of the state-of-the-art AI systems for spearheading aging research.",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Spatially informed policies can accelerate green hydrogen demand",
+      "url": "https://www.nature.com/articles/s41560-026-02139-x",
+      "summary": "",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Spatially informed demand-side policies for green hydrogen diffusion in Europe",
+      "url": "https://www.nature.com/articles/s41560-026-02126-2",
+      "summary": "",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "Passion Meets Precision at NASA’s Flight Research Lab",
       "url": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
@@ -577,240 +811,6 @@
       "ts": 1789574400000,
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Indonesia’s Anak Krakatau",
-      "url": "https://www.nasa.gov/image-article/indonesias-anak-krakatau/",
-      "summary": "Anak Krakatau erupts ash and volcanic gases in this Sept. 5, 2026, image acquired with the OLI (Operational Land Imager) on Landsat 8. Eruptions are a regular occurrence at Anak Krakatau, a small volcano between the Indo…",
-      "ts": 1789572231000,
-      "publishedAt": "2026-09-16T15:23:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Postcard Celebrates Rover’s 5,000th Day on Mars",
-      "url": "https://science.nasa.gov/photojournal/curiosity-postcard-celebrates-rovers-5000th-day-on-mars/",
-      "summary": "Description While parked at a sand ridge nicknamed “Chocolatal,” NASA’s Curiosity Mars rover used its black-and-white navigation cameras to capture panoramas at two times of day. The first was taken on Aug. 30, 2026, at …",
-      "ts": 1789572087000,
-      "publishedAt": "2026-09-16T15:21:27.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
-      "url": "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
-      "summary": "NASA recently awarded $10.5 million to seven organizations nationwide through its new State Hubs initiative. Space Florida was selected for Project ORBIT, which aims to expand opportunities for middle and high school stu…",
-      "ts": 1789571697000,
-      "publishedAt": "2026-09-16T15:14:57.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
-      "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher r…",
-      "ts": 1789570848000,
-      "publishedAt": "2026-09-16T15:00:48.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Reid Wiseman to Join NFL Fans in Baltimore",
-      "url": "https://www.nasa.gov/news-release/nasa-astronaut-reid-wiseman-to-join-nfl-fans-in-baltimore/",
-      "summary": "As part of NASA’s new Inspiration Tour, Reid Wiseman, NASA astronaut and commander of the agency’s Artemis II mission, will highlight America’s strengths in space exploration and aeronautics innovation at the Baltimore R…",
-      "ts": 1789570818000,
-      "publishedAt": "2026-09-16T15:00:18.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Meet a mouse whose brain cortex is made up of human cells",
-      "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
-      "summary": "Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed, leaving Pong-like traces on a monitor. The reason to watch this rodent so carefully? Nearly half its brain …",
-      "ts": 1789570800000,
-      "publishedAt": "2026-09-16T15:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Scientists made mice with half a brain. Then they filled them with human organoids",
-      "url": "https://www.statnews.com/2026/09/16/human-brain-organoids-neuro-chimeric-mice-study-published-nature/?utm_campaign=rss",
-      "summary": "Scientists have made mice with half a brain, then filled them with human organoids — possibly opening new avenues for research but also raising ethical issues.",
-      "ts": 1789570800000,
-      "publishedAt": "2026-09-16T15:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Integrated Medical Model (IMM)",
-      "url": "https://www.nasa.gov/general/nasas-integrated-medical-model-imm/",
-      "summary": "Planning crewed missions to the Moon and Mars involves preparing for the medical realities of long-duration space travel. Factors like cosmic radiation, microgravity, and distance from Earth create unique health consider…",
-      "ts": 1789570223000,
-      "publishedAt": "2026-09-16T14:50:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Newfound ‘Baby’ Planet Smashes Record for Youngest Known World",
-      "url": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-      "summary": "Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives. Called Elias 2-24 b, the baby planet is still whirling in its natal disk of dust…",
-      "ts": 1789569287000,
-      "publishedAt": "2026-09-16T14:34:47.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sen. Warren demands to see Trump drug-pricing pharma contracts, accuses RFK Jr. of hiding them",
-      "url": "https://www.statnews.com/2026/09/16/biotech-news-sen-warren-demands-to-see-trump-drug-pricing-contracts/?utm_campaign=rss",
-      "summary": "An FDA pilot program to speed up drug development, Democrats plan health care probes after midterms, and more biotech news",
-      "ts": 1789565644000,
-      "publishedAt": "2026-09-16T13:34:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about faster FDA approvals, access to experimental drugs in Montana, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss",
-      "summary": "The FDA is opening applications for a pilot program designed to shorten the time it takes for drugmakers to begin testing their products in humans",
-      "ts": 1789565352000,
-      "publishedAt": "2026-09-16T13:29:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-      "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
-      "ts": 1789563633000,
-      "publishedAt": "2026-09-16T13:00:33.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "ts": 1789563600000,
-      "publishedAt": "2026-09-16T13:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Building the materials foundation for AI",
-      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
-      "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data cen…",
-      "ts": 1789562854000,
-      "publishedAt": "2026-09-16T12:47:34.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
-      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance pro…",
-      "ts": 1789560600000,
-      "publishedAt": "2026-09-16T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How to connect AI usage to business value",
-      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Who should set the rules for AI? The UN is pushing for a safer digital future",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168353",
-      "summary": "Artificial intelligence (AI) is advancing rapidly, raising questions about how societies and governments can capture its benefits while managing risks that often extend beyond national borders.",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Shipping alert from IMO, democracy vanishing in Nicaragua, alert over political ‘denialism’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168352",
-      "summary": "Amid a rising number of attacks on shipping in key waterways in the Middle East linked to the US-Iran war, the head of UN maritime agency, Mr. Arsenio Dominguez, has insisted that the conflict is not a “pretext” to targe…",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Repression continues in Venezuela in the face of ‘appalling’ human rights violations",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168351",
-      "summary": "In Venezuela’s El Rodeo maximum security prison, some of those detained for political reasons are subject to forced intubation – and prolonged confinement in a sealed underground cistern.",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "AI, climate and conflicts top Guterres’s agenda ahead of General Assembly",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168348",
-      "summary": "Ahead of the UN General Assembly’s high-level week, Secretary-General António Guterres said the world had entered “an era of deep uncertainty” and urged governments to embrace international cooperation to address global …",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: ‘Being a woman is a crime in Afghanistan,’ civil society briefer declares",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168347",
-      "summary": "Since the Taliban returned to power in Afghanistan in 2021, the continuing presence of terrorist groups as well as rights violations against women and girls are a growing concern as the Security Council met Wednesday to …",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN report warns of reprisals against those who collaborate in defence of human rights",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168345",
-      "summary": "Activists, lawyers and others who cooperate with the United Nations on human rights continue to face intimidation and reprisals, according to a new report issued on Wednesday by the Secretary-General that calls for great…",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza: At least 20 killed in deadly building collapse, search for survivors continues",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168346",
-      "summary": "Search and rescue operations continued in Gaza City on Wednesday following the collapse of a bombed-out building that killed at least 20 people, according to reports.",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "The world comes to New York: What’s at stake at UN General Assembly high-level week",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168344",
-      "summary": "Each September, New York becomes the centre of global diplomacy as presidents, prime ministers, ministers and diplomats from around the world gather at United Nations Headquarters.",
-      "ts": 1789560000000,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "U.S. reaches highest number of measles deaths in decades",
-      "url": "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/?utm_campaign=rss",
-      "summary": "How the midterms could change health care, the sedative contaminating the fentanyl black market, and other health news from Morning Rounds",
-      "ts": 1789559772000,
-      "publishedAt": "2026-09-16T11:56:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "The Republic of Cabo Verde signs its First Country Programme Framework (CPF) for 2026-2031",
-      "url": "http://www.iaea.org/newscenter/news/the-republic-of-cabo-verde-signs-its-first-country-programme-framework-cpf-for-2026-2031",
-      "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and HE Ms Clara Manuela da Luz Delgado Jesus, Resident Representative of the Permanent Mission of the Republic of Cabo Verde t…",
-      "ts": 1789555391000,
-      "publishedAt": "2026-09-16T10:43:11.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
