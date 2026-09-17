@@ -28778,253 +28778,67 @@ line-height:1.75;
 
 
 /* ==========================================================
-   HOME — Single Portal Surface
+   HOME — Remove Double Outer Frames
    PC / Mobile Common
-
-   Purpose:
-   - Remove legacy HOME pseudo glass completely
-   - Keep actual Portal surfaces/content only
-   - Do NOT create any scroll container here
-   - Scroll ownership stays inside each Portal
 ========================================================== */
 
-
-/* ==========================================================
-   01 — REMOVE LEGACY HOME PSEUDO SURFACES
-
-   The old .home-snap .home-page::before at ~8868
-   creates a second translucent rectangular layer.
-
-   Border:none alone is not enough because its:
-   - background
-   - backdrop-filter
-   - border-radius
-   - positioned surface
-   remain visible.
-
-   Disable the pseudo-element itself.
-========================================================== */
-
-.archenova-twin-home.home-snap
+/* 外側に重なって見える不要な疑似枠を停止 */
 .home-page::before,
-
-.archenova-twin-home.home-snap
 .home-page::after,
-
-.archenova-twin-home.home-snap
 .twin-page::before,
-
-.archenova-twin-home.home-snap
 .twin-page::after,
-
-.archenova-twin-home.home-snap
 [data-home-section]::before,
-
-.archenova-twin-home.home-snap
 [data-home-section]::after {
-  content: none !important;
-
-  display: none !important;
-
-  background: none !important;
-
-  border: 0 !important;
-
-  outline: 0 !important;
-
-  -webkit-backdrop-filter:
-    none !important;
-
-  backdrop-filter:
-    none !important;
-
-  box-shadow:
-    none !important;
-
-  pointer-events:
-    none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-
-/* ==========================================================
-   02 — HOME SECTION IS ONLY A POSITIONING ENVIRONMENT
-
-   No card material is applied here.
-========================================================== */
-
-.archenova-twin-home.home-snap
+/* HOME各セクションの外側フレーム感を消す */
 .home-page,
-
-.archenova-twin-home.home-snap
 .twin-page,
-
-.archenova-twin-home.home-snap
 [data-home-section] {
-  outline:
-    none !important;
-
-  border:
-    0 !important;
-
-  background:
-    transparent !important;
-
-  box-shadow:
-    none !important;
+  outline: none !important;
 }
 
-
-/* ==========================================================
-   03 — KEEP HOME CONTENT ABOVE BACKGROUND
-
-   Preserve the original HOME content stacking behavior.
-========================================================== */
-
-.archenova-twin-home.home-snap
-.home-page > * {
-  position:
-    relative;
-
-  z-index:
-    1;
-
-  min-width:
-    0;
-
-  max-width:
-    100%;
-}
-
-
-/* ==========================================================
-   04 — DO NOT CREATE GLOBAL HOME SCROLL OWNERS
-
-   IMPORTANT:
-
-   No:
-     overflow-y:auto
-     max-height:calc(...)
-     height:100svh
-
-   is applied to Portal wrappers here.
-
-   Today's Inquiry already owns its correct scroll through:
-     .ti-home__scroll
-
-   Episteme and Valley will receive their own single
-   scroll-owner rules separately after their internal
-   structures are confirmed.
-
-   This prevents:
-     HOME scroll
-       + Portal scroll
-       = double scrolling
-========================================================== */
-
-
-/* ==========================================================
-   05 — EXISTING GENERIC ARCHENOVA SURFACES
-
-   Preserve their existing component-owned appearance.
-   Do not manufacture another HOME frame around them.
-========================================================== */
-
-.archenova-twin-home
+/* 本体側の1枚枠だけを残す */
 .an-glass,
-
-.archenova-twin-home
 .an-card,
-
-.archenova-twin-home
 .an-frame,
-
-.archenova-twin-home
 .civ-intel-portal,
-
-.archenova-twin-home
 .civ-library-shell,
-
-.archenova-twin-home
-.an-galaxy-stage {
-  position:
-    relative;
+.an-galaxy-stage,
+.an-galaxy-map,
+#home-hero .an-container,
+#origin-gate .an-container {
+  position: relative;
 }
 
+/* ArcheNova HOME内の本体枠 */
+.archenova-twin-home .an-glass,
+.archenova-twin-home .an-card,
+.archenova-twin-home .an-frame,
+.archenova-twin-home .civ-intel-portal,
+.archenova-twin-home .civ-library-shell,
+.archenova-twin-home .an-galaxy-stage {
+  border-color: rgba(255,255,255,0.08) !important;
+}
 
-/* ==========================================================
-   06 — MOBILE
-
-   Same architecture:
-   no legacy HOME pseudo card,
-   no global HOME internal scroll.
-========================================================== */
-
+/* モバイルでも同様に二重枠を撤去 */
 @media (max-width: 768px) {
-
-  .archenova-twin-home.home-snap
   .home-page::before,
-
-  .archenova-twin-home.home-snap
   .home-page::after,
-
-  .archenova-twin-home.home-snap
   .twin-page::before,
-
-  .archenova-twin-home.home-snap
   .twin-page::after,
-
-  .archenova-twin-home.home-snap
   [data-home-section]::before,
-
-  .archenova-twin-home.home-snap
   [data-home-section]::after {
-    content:
-      none !important;
-
-    display:
-      none !important;
-
-    background:
-      none !important;
-
-    border:
-      0 !important;
-
-    outline:
-      0 !important;
-
-    -webkit-backdrop-filter:
-      none !important;
-
-    backdrop-filter:
-      none !important;
-
-    box-shadow:
-      none !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
-
-  .archenova-twin-home.home-snap
-  .home-page,
-
-  .archenova-twin-home.home-snap
-  .twin-page,
-
-  .archenova-twin-home.home-snap
-  [data-home-section] {
-    border:
-      0 !important;
-
-    outline:
-      0 !important;
-
-    background:
-      transparent !important;
-
-    box-shadow:
-      none !important;
+  .archenova-twin-home .home-page {
+    border: none !important;
+    box-shadow: none !important;
   }
-
 }
 
 
