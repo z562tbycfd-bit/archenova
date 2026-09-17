@@ -39672,16 +39672,50 @@ a {
 
 /* ==========================================================
    ARCHENOVA SEARCH
-   OUTER GLASS FRAME
-   VISUAL ONLY — DO NOT CHANGE LAYOUT
+   OUTER BLACK GLASS FRAME
+   PC / MOBILE
+   ----------------------------------------------------------
+   One Portal = One Black Glass Surface
+
+   Scope:
+   HOME / #archenova-search-section / .an-search__surface
+
+   Purpose:
+   - Match EPISTEME / TODAY'S INQUIRY / ARCHENOVA VALLEY
+   - Keep the HOME section itself transparent
+   - Preserve all existing MAP layout and interaction
+   - Preserve nodes, filters, Selected System and pager
+   - Do not create a second outer frame
+   - No external drop shadow
+========================================================== */
+
+
+/* ==========================================================
+   DESKTOP / TABLET
+   SINGLE BLACK GLASS SURFACE
 ========================================================== */
 
 .archenova-twin-home
 #archenova-search-section
 .an-search__surface {
+  position:
+    relative !important;
+
+  isolation:
+    isolate !important;
+
+  /*
+   * Keep the existing MAP dimensions and layout untouched.
+   * Only the material language is standardized here.
+   */
   border:
     1px solid
-    rgba(255, 255, 255, 0.075)
+    rgba(
+      255,
+      255,
+      255,
+      0.055
+    )
     !important;
 
   border-radius:
@@ -39691,33 +39725,67 @@ a {
   background:
     linear-gradient(
       145deg,
-      rgba(15, 16, 18, 0.18),
-      rgba(0, 0, 0, 0.24)
+      rgba(
+        13,
+        14,
+        16,
+        0.34
+      ),
+      rgba(
+        0,
+        0,
+        0,
+        0.48
+      )
     )
     !important;
 
   -webkit-backdrop-filter:
-    blur(18px)
-    saturate(105%)
+    blur(24px)
+    saturate(108%)
     !important;
 
   backdrop-filter:
-    blur(18px)
-    saturate(105%)
+    blur(24px)
+    saturate(108%)
     !important;
 
+  /*
+   * Internal optical definition only.
+   * No external drop shadow.
+   */
   box-shadow:
-    inset 0 1px 0
-      rgba(255, 255, 255, 0.025),
-    0 18px 60px
-      rgba(0, 0, 0, 0.16)
+    inset
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    ),
+
+    inset
+    0
+    -1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.01
+    )
     !important;
+
+  outline:
+    0 !important;
 }
 
 
 /* ==========================================================
    MOBILE
-   VISUAL CHANGE ONLY
+   SAME MATERIAL — LIGHTER / MORE TRANSPARENT
 ========================================================== */
 
 @media (max-width: 768px) {
@@ -39725,21 +39793,86 @@ a {
   .archenova-twin-home
   #archenova-search-section
   .an-search__surface {
+    /*
+     * Card geometry remains compatible with
+     * the current ArcheNova Search layout.
+     */
+    border:
+      1px solid
+      rgba(
+        255,
+        255,
+        255,
+        0.055
+      )
+      !important;
+
     border-radius:
       18px
       !important;
 
-    border-color:
-      rgba(255, 255, 255, 0.07)
-      !important;
-
+    /*
+     * Mobile Black Glass language shared with
+     * the other HOME portals.
+     */
     background:
       linear-gradient(
         145deg,
-        rgba(14, 15, 17, 0.16),
-        rgba(0, 0, 0, 0.22)
+        rgba(
+          13,
+          14,
+          16,
+          0.30
+        ),
+        rgba(
+          0,
+          0,
+          0,
+          0.44
+        )
       )
       !important;
+
+    -webkit-backdrop-filter:
+      blur(20px)
+      saturate(106%)
+      !important;
+
+    backdrop-filter:
+      blur(20px)
+      saturate(106%)
+      !important;
+
+    /*
+     * No external shadow.
+     * Preserve only restrained internal glass definition.
+     */
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.035
+      ),
+
+      inset
+      0
+      -1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.01
+      )
+      !important;
+
+    outline:
+      0 !important;
   }
 
 }
