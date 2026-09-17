@@ -49457,3 +49457,253 @@ i {
 
 
 
+/* ==========================================================
+   ARCHENOVA HOME
+   FINAL PORTAL SURFACE MERGE
+   ----------------------------------------------------------
+   HOME Black Glass remains untouched.
+
+   Goal:
+   Episteme / Today's Inquiry / Valley internal full-size
+   surfaces visually merge into the HOME glass.
+
+   No layout changes.
+   No content changes.
+   No interaction changes.
+========================================================== */
+
+
+/* ==========================================================
+   1. EPISTEME
+========================================================== */
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card,
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__experience {
+  background: transparent !important;
+
+  border-color: transparent !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/*
+ * Card pseudo layers must never become another glass panel.
+ */
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card::before,
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card::after {
+  content: none !important;
+  display: none !important;
+
+  background: transparent !important;
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   2. TODAY'S INQUIRY
+========================================================== */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass-inner {
+  background: transparent !important;
+
+  border-color: transparent !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/*
+ * Both pseudo implementations exist in the current CSS
+ * history, therefore suppress both.
+ */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass::before,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass::after {
+  content: none !important;
+  display: none !important;
+
+  background: transparent !important;
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   3. ARCHENOVA VALLEY
+========================================================== */
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card,
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__experience {
+  background: transparent !important;
+
+  border-color: transparent !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/*
+ * Valley has a known full-card ::before optical layer.
+ * HOME now owns that optical surface, so remove it here.
+ */
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card::before,
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card::after {
+  content: none !important;
+  display: none !important;
+
+  background: transparent !important;
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   4. MOBILE GUARANTEE
+   ----------------------------------------------------------
+   Component-level responsive CSS contains later/special
+   mobile definitions. Keep HOME integration authoritative.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__card,
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass-inner,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__card,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience {
+    background: transparent !important;
+
+    border-color: transparent !important;
+    outline: 0 !important;
+
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__card::before,
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__card::after,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass::before,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass::after,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__card::before,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__card::after {
+    content: none !important;
+    display: none !important;
+
+    background: transparent !important;
+    border: 0 !important;
+
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
