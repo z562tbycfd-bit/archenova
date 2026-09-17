@@ -13,13 +13,9 @@ import TodaysInquiryResearch
 
    One Portal = One Black Glass Surface
 
-   Desktop / Tablet:
+   Desktop / Tablet / Mobile:
    Fixed Observatory
    → Internal Scientific Scroll
-
-   Mobile:
-   Natural Document
-   → HOME Owns Vertical Scroll
 
    HOME chapter
       ↓
@@ -30,6 +26,17 @@ import TodaysInquiryResearch
    Evidence
       ↓
    Revision
+
+   SCROLL ARCHITECTURE
+
+   Black Glass Surface
+   └─ Scientific Document
+      └─ Internal Vertical Scroll
+
+   The Black Glass Surface itself does not scroll.
+   HOME does not become the scroll owner.
+   The internal scrollbar remains visually hidden
+   on mobile.
 
    Internal Complexity ↑
    Visible Complexity ↓
@@ -74,11 +81,8 @@ export default function TodaysInquiryPortal() {
         {/* ==================================================
             SCIENTIFIC DOCUMENT
 
-            Desktop / Tablet:
-            internal scroll owner
-
-            Mobile:
-            natural document flow
+            Desktop / Tablet / Mobile:
+            internal vertical scroll owner
         ================================================== */}
 
         <div className="ti-home__scroll">
@@ -306,7 +310,7 @@ export default function TodaysInquiryPortal() {
 
 
         {/* ==================================================
-            DESKTOP / TABLET DEPTH MASKS
+            DEPTH MASKS
         ================================================== */}
 
         <div
@@ -321,7 +325,7 @@ export default function TodaysInquiryPortal() {
 
 
         {/* ==================================================
-            DESKTOP / TABLET SCROLL INDICATOR
+            SCROLL INDICATOR
         ================================================== */}
 
         <div
@@ -372,6 +376,8 @@ export default function TodaysInquiryPortal() {
             0;
 
           isolation: isolate;
+
+          overflow: hidden;
         }
 
 
@@ -682,7 +688,7 @@ export default function TodaysInquiryPortal() {
 
 
         /* ==================================================
-           DESKTOP / TABLET INTERNAL SCROLL OWNER
+           UNIVERSAL INTERNAL SCROLL OWNER
         ================================================== */
 
         .ti-home__scroll {
@@ -704,6 +710,8 @@ export default function TodaysInquiryPortal() {
           overscroll-behavior-y: contain;
 
           -webkit-overflow-scrolling: touch;
+
+          touch-action: pan-y;
 
           scrollbar-width: thin;
 
@@ -1619,13 +1627,13 @@ export default function TodaysInquiryPortal() {
         /* ==================================================
            MOBILE
 
-           IMPORTANT:
-           HOME owns vertical scrolling.
+           SAME PRINCIPLE AS DESKTOP:
 
-           No nested vertical scroll.
-           No fixed-height mobile document.
-           No mobile depth masks.
-           No mobile scroll indicator.
+           One Black Glass Surface
+           → Internal Scientific Scroll
+
+           HOME does not own this document's scroll.
+           No second external scroll surface is created.
         ================================================== */
 
         @media (max-width: 700px) {
@@ -1639,7 +1647,7 @@ export default function TodaysInquiryPortal() {
 
             padding: 8px 0;
 
-            overflow: visible;
+            overflow: hidden;
           }
 
 
@@ -1650,11 +1658,26 @@ export default function TodaysInquiryPortal() {
             max-width: 100%;
             min-width: 0;
 
-            height: auto !important;
-            min-height: 0 !important;
-            max-height: none !important;
+            height:
+              min(
+                690px,
+                calc(100svh - 42px)
+              );
+
+            min-height:
+              min(
+                560px,
+                calc(100svh - 42px)
+              );
+
+            max-height:
+              calc(100svh - 42px);
 
             overflow: hidden;
+
+            border:
+              1px solid
+              rgba(255,255,255,.055);
 
             border-radius: 20px;
 
@@ -1672,50 +1695,67 @@ export default function TodaysInquiryPortal() {
             backdrop-filter:
               blur(20px)
               saturate(106%);
+
+            box-shadow:
+              inset
+              0
+              1px
+              0
+              rgba(255,255,255,.035),
+
+              inset
+              0
+              -1px
+              0
+              rgba(255,255,255,.01);
           }
 
 
           /*
-           * Critical mobile correction.
+           * Mobile keeps exactly one vertical
+           * document scroll context:
            *
-           * Desktop:
-           *   glass → absolute scroll document
-           *
-           * Mobile:
-           *   glass → normal document flow
-           *
-           * This removes the second vertical scroll context.
+           * .ti-home__scroll
            */
 
           .ti-home__scroll {
-            position: relative !important;
+            position: absolute !important;
 
-            inset: auto !important;
+            inset: 0 !important;
 
             z-index: 3;
 
             width: 100% !important;
-            height: auto !important;
+            height: 100% !important;
 
             min-width: 0 !important;
             min-height: 0 !important;
 
-            max-height: none !important;
+            max-height: 100% !important;
 
-            overflow-x: hidden !important;
-            overflow-y: visible !important;
+            overflow-x:
+              hidden !important;
 
-            overscroll-behavior:
+            overflow-y:
               auto !important;
 
+            overscroll-behavior-y:
+              contain !important;
+
             -webkit-overflow-scrolling:
-              auto;
+              touch;
+
+            touch-action:
+              pan-y;
 
             scrollbar-width:
               none !important;
 
             scrollbar-gutter:
               auto !important;
+
+            -ms-overflow-style:
+              none;
           }
 
 
@@ -1735,14 +1775,14 @@ export default function TodaysInquiryPortal() {
             min-width: 0;
 
             height: auto;
-            min-height: 0;
+            min-height: 100%;
 
             overflow: visible;
           }
 
 
           /* ----------------------------------------------
-             Mobile removes unnecessary instrumentation.
+             Mobile removes side instrumentation.
           ---------------------------------------------- */
 
           .ti-home__edge-scale {
@@ -1766,21 +1806,53 @@ export default function TodaysInquiryPortal() {
 
 
           /*
-           * Masks only make sense when content disappears
-           * behind a fixed scroll viewport.
+           * Internal scrolling exists on mobile,
+           * therefore subtle depth masks remain useful.
            */
 
           .ti-home__mask {
-            display: none !important;
+            display: block;
+          }
+
+
+          .ti-home__mask--top {
+            height: 24px;
+
+            background:
+              linear-gradient(
+                to bottom,
+                rgba(3,4,5,.42),
+                transparent
+              );
+          }
+
+
+          .ti-home__mask--bottom {
+            height: 38px;
+
+            background:
+              linear-gradient(
+                to top,
+                rgba(0,0,0,.54),
+                transparent
+              );
           }
 
 
           /*
-           * Internal scroll no longer exists on mobile.
+           * Native scrollbar is hidden on mobile.
+           * The subtle ArcheNova depth indicator remains.
            */
 
           .ti-home__scroll-indicator {
-            display: none !important;
+            display: block;
+
+            right: 7px;
+            bottom: 13px;
+
+            height: 24px;
+
+            opacity: .68;
           }
 
 
@@ -2016,23 +2088,39 @@ export default function TodaysInquiryPortal() {
 
 
           .ti-home__glass {
-            height: auto !important;
-            min-height: 0 !important;
-            max-height: none !important;
+            height:
+              min(
+                690px,
+                calc(100svh - 32px)
+              );
+
+            min-height: 0;
+
+            max-height:
+              calc(100svh - 32px);
 
             border-radius: 18px;
           }
 
 
           .ti-home__scroll {
-            position: relative !important;
+            position:
+              absolute !important;
 
-            height: auto !important;
-            min-height: 0 !important;
-            max-height: none !important;
+            inset:
+              0 !important;
+
+            height:
+              100% !important;
+
+            min-height:
+              0 !important;
+
+            max-height:
+              100% !important;
 
             overflow-y:
-              visible !important;
+              auto !important;
           }
 
 
@@ -2080,6 +2168,20 @@ export default function TodaysInquiryPortal() {
 
         @media (max-width: 360px) {
 
+          .ti-home__glass {
+            height:
+              min(
+                670px,
+                calc(100svh - 26px)
+              );
+
+            min-height: 0;
+
+            max-height:
+              calc(100svh - 26px);
+          }
+
+
           .ti-home__header {
             width:
               calc(100% - 24px);
@@ -2121,8 +2223,9 @@ export default function TodaysInquiryPortal() {
         /* ==================================================
            SHORT MOBILE
 
-           Deliberately DO NOT restore fixed height.
-           Natural document flow remains authoritative.
+           Keep the Black Glass bounded to the viewport.
+           The scientific document remains the only
+           internal vertical scroll owner.
         ================================================== */
 
         @media
@@ -2131,21 +2234,45 @@ export default function TodaysInquiryPortal() {
           (max-height: 720px) {
 
           .ti-home__glass {
-            height: auto !important;
-            min-height: 0 !important;
-            max-height: none !important;
+            height:
+              calc(100svh - 30px);
+
+            min-height: 0;
+
+            max-height:
+              calc(100svh - 30px);
           }
 
 
           .ti-home__scroll {
-            position: relative !important;
+            position:
+              absolute !important;
 
-            height: auto !important;
-            min-height: 0 !important;
-            max-height: none !important;
+            inset:
+              0 !important;
+
+            height:
+              100% !important;
+
+            min-height:
+              0 !important;
+
+            max-height:
+              100% !important;
 
             overflow-y:
-              visible !important;
+              auto !important;
+          }
+
+
+          .ti-home__header {
+            padding-top: 26px;
+            padding-bottom: 25px;
+          }
+
+
+          .ti-home__terminus {
+            padding-bottom: 34px;
           }
 
         }
