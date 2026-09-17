@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-16T22:43:16.177Z",
+  "updated": "2026-09-17T01:09:01.589Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "New lawsuit argues NIH violated First Amendment rights of grant applicants",
+      "url": "https://www.statnews.com/2026/09/16/lawsuit-argues-nih-violated-researcher-first-amendment-rights-aclu/?utm_campaign=rss",
+      "summary": "The lawsuit seeks to halt the process of searching grant applications for specific terms to determine if they should be rejected.",
+      "ts": 1789605574000,
+      "publishedAt": "2026-09-17T00:39:34.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Passion Meets Precision at NASA’s Flight Research Lab",
@@ -292,6 +301,33 @@
     },
     {
       "source": "United Nations News",
+      "title": "Who should set the rules for AI? The UN is pushing for a safer digital future",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168353",
+      "summary": "Artificial intelligence (AI) is advancing rapidly, raising questions about how societies and governments can capture its benefits while managing risks that often extend beyond national borders.",
+      "ts": 1789560000000,
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Shipping alert from IMO, democracy vanishing in Nicaragua, alert over political ‘denialism’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168352",
+      "summary": "Amid a rising number of attacks on shipping in key waterways in the Middle East linked to the US-Iran war, the head of UN maritime agency, Mr. Arsenio Dominguez, has insisted that the conflict is not a “pretext” to targe…",
+      "ts": 1789560000000,
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Repression continues in Venezuela in the face of ‘appalling’ human rights violations",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168351",
+      "summary": "In Venezuela’s El Rodeo maximum security prison, some of those detained for political reasons are subject to forced intubation – and prolonged confinement in a sealed underground cistern.",
+      "ts": 1789560000000,
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "AI, climate and conflicts top Guterres’s agenda ahead of General Assembly",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168348",
       "summary": "Ahead of the UN General Assembly’s high-level week, Secretary-General António Guterres said the world had entered “an era of deep uncertainty” and urged governments to embrace international cooperation to address global …",
@@ -303,7 +339,7 @@
       "source": "United Nations News",
       "title": "Security Council LIVE: ‘Being a woman is a crime in Afghanistan,’ civil society briefer declares",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168347",
-      "summary": "Since the Taliban returned to power in Afghanistan in 2021, the continuing presence of terrorist groups as well as rights violations against women and girls are a growing concern as the Security Council meets Wednesday t…",
+      "summary": "Since the Taliban returned to power in Afghanistan in 2021, the continuing presence of terrorist groups as well as rights violations against women and girls are a growing concern as the Security Council met Wednesday to …",
       "ts": 1789560000000,
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -775,42 +811,6 @@
       "ts": 1789488864000,
       "publishedAt": "2026-09-15T16:14:24.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "More satellites watch the battlefield, putting a premium on making sense of the data",
-      "url": "https://spacenews.com/more-satellites-watch-the-battlefield-putting-a-premium-on-making-sense-of-the-data/",
-      "summary": "Space Force programs are tapping satellite data and AI to get intelligence to military commanders faster The post More satellites watch the battlefield, putting a premium on making sense of the data appeared first on Spa…",
-      "ts": 1789487371000,
-      "publishedAt": "2026-09-15T15:49:31.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: RFK Jr. returns to his roots",
-      "url": "https://www.statnews.com/2026/09/15/rfk-childrens-health-defense-chris-klomp-hearings-dc-diagnosis/?utm_campaign=rss",
-      "summary": "Kennedy will keynote a Children's Health Defense event, and hospitals are disappointed by GOP's rural health fund.",
-      "ts": 1789484120000,
-      "publishedAt": "2026-09-15T14:55:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Consolidating Antibody Discovery Data with an AI Platform",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/consolidating-antibody-discovery-data-with-an-ai-platform/",
-      "summary": "The Sapio Scientific AI platform gives scientists a single, structured environment where experimental records connect directly to client deliverables and where time spent on data consolidation becomes time spent on scien…",
-      "ts": 1789482653000,
-      "publishedAt": "2026-09-15T14:30:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare to expand its pilot that pays for technology to manage chronic diseases",
-      "url": "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/?utm_campaign=rss",
-      "summary": "A recently launched Medicare experiment that pays for technology to help people manage chronic conditions is expanding.",
-      "ts": 1789482524000,
-      "publishedAt": "2026-09-15T14:28:44.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

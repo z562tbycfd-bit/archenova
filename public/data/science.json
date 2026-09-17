@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-09-16T22:43:14.195Z",
+  "updated": "2026-09-17T01:08:59.372Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sharks on the move expose the need for international conservation efforts",
+      "url": "https://phys.org/news/2026-09-sharks-expose-international-efforts.html",
+      "summary": "Understanding the migration pathways of sharks and rays is key to conserving some of the world's most endangered marine species, according to new University of Queensland research.",
+      "ts": 1789605601000,
+      "publishedAt": "2026-09-17T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Survey reveals significant gap across 64 countries between commitment to the rule of law and its implementation",
+      "url": "https://phys.org/news/2026-09-survey-reveals-significant-gap-countries.html",
+      "summary": "A new report by the International Bar Association (IBA) has found a significant gap between the importance legal professionals attach to fundamental rule of law principles and their assessment of how effectively those pr…",
+      "ts": 1789604401000,
+      "publishedAt": "2026-09-17T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Forest structure matters more than topography in shaping plant diversity in Southern Apennine old-growth forests",
+      "url": "https://phys.org/news/2026-09-forest-topography-diversity-southern-apennine.html",
+      "summary": "A study in Pollino National Park shows that large trees, complex canopies and deadwood diversity play a major role in shaping vascular plant communities, highlighting the ecological value of one of Italy's most remarkabl…",
+      "ts": 1789603204000,
+      "publishedAt": "2026-09-17T00:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long-term oyster reef restoration shows clear success in murky waters",
+      "url": "https://phys.org/news/2026-09-term-oyster-reef-success-murky.html",
+      "summary": "Large-scale oyster reef restoration in the Chesapeake Bay is successfully creating three-dimensional habitats that support larger, more diverse fish communities, according to new research from scientists at the Universit…",
+      "ts": 1789602601000,
+      "publishedAt": "2026-09-16T23:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Device simulates natural conditions to grow biofilms and test their antibiotic susceptibility more accurately",
+      "url": "https://phys.org/news/2026-09-device-simulates-natural-conditions-biofilms.html",
+      "summary": "Biofilms are complex microbial communities that adhere to a surface and encase themselves in a viscous matrix they produce. This structure protects bacteria from antibiotics and the immune system far more effectively tha…",
+      "ts": 1789602005000,
+      "publishedAt": "2026-09-16T23:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hot electrons reveal electronic collisions may raise resistance in twisted graphene",
+      "url": "https://phys.org/news/2026-09-hot-electrons-reveal-electronic-collisions.html",
+      "summary": "When a material heats up, its electrical resistance often rises. The harder question is what, exactly, is getting in the way. The electrons carrying the current may be scattered by vibrations of the material's atomic lat…",
+      "ts": 1789602001000,
+      "publishedAt": "2026-09-16T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Building big with DNA gets a software upgrade",
+      "url": "https://phys.org/news/2026-09-big-dna-software.html",
+      "summary": "Forty-four years ago, Nadrian Seeman published his groundbreaking ideas on using DNA as a structural material, expanding DNA's significance far beyond its role as a carrier of genetic information. Since then, the steadil…",
+      "ts": 1789601401000,
+      "publishedAt": "2026-09-16T23:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "ChatGPT at university: Study maps why students stick with AI for learning",
+      "url": "https://phys.org/news/2026-09-chatgpt-university-students-ai.html",
+      "summary": "What factors influence students' decisions about whether they will continue to use ChatGPT for learning in the future? This was the question addressed by a new study from ELTE's Faculty of Informatics, which used an inte…",
+      "ts": 1789600804000,
+      "publishedAt": "2026-09-16T23:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thinking outside the binding site: Drug molecule makes a square peg fit a round hole",
+      "url": "https://phys.org/news/2026-09-site-drug-molecule-square-peg.html",
+      "summary": "A square peg doesn't fit a round hole. But what if the peg could change the shape of the hole? A newly developed drug molecule can do something surprisingly similar when binding to its target protein, according to a Univ…",
+      "ts": 1789600801000,
+      "publishedAt": "2026-09-16T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Henry VIII's dissolution enforcer stashed Catholic manuscript—its lost pages have just been rediscovered",
+      "url": "https://phys.org/news/2026-09-henry-viii-dissolution-stashed-catholic.html",
+      "summary": "Sir John Gage, a key figure in Henry VIII's dissolution of the monasteries, saved a dangerous Catholic book from likely destruction, a new study suggests. The identification of six lost pages of a medieval bestseller—ill…",
+      "ts": 1789600201000,
+      "publishedAt": "2026-09-16T23:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Volatile organic compounds may be underestimated in the carbon cycle",
+      "url": "https://phys.org/news/2026-09-volatile-compounds-underestimated-carbon.html",
+      "summary": "Rainwater connects the biogeochemical cycles of land and the atmosphere. It's effectively a chemical conveyor belt that delivers compounds to the ground during a process called wet deposition.",
+      "ts": 1789599610000,
+      "publishedAt": "2026-09-16T23:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Insect remains reveal Indigenous burial practices in the Canary Islands",
+      "url": "https://phys.org/news/2026-09-insect-reveal-indigenous-burial-canary.html",
+      "summary": "Archaeologists have analyzed insect remains preserved in the 7th to 9th centuries AD funerary cave of Cruz de la Esquina, Gran Canaria, and found that it was used by the island's Indigenous people for food storage before…",
+      "ts": 1789599608000,
+      "publishedAt": "2026-09-16T23:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global database reveals hidden diversity and potential of deep-sea microbes",
+      "url": "https://phys.org/news/2026-09-global-database-reveals-hidden-diversity.html",
+      "summary": "The ocean's aphotic zone—the dark, high-pressure region below the surface, where sunlight cannot reach—is home to a vast wealth of microbial life. Yet scientists know relatively little about the genetic makeup, growth an…",
+      "ts": 1789599001000,
+      "publishedAt": "2026-09-16T22:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Brazilian sedge reproduces sexually but without DNA reshuffling, producing genetic clones",
@@ -697,110 +801,6 @@
       "summary": "Removing a type of immune cell from lymph nodes in mice reduced brain inflammation and cell damage in a model of Alzheimer’s-like disease.",
       "ts": 1789563600000,
       "publishedAt": "2026-09-16T13:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Nearly 50 'ghost galaxies' emerge around three hosts, challenging dwarf galaxy counts",
-      "url": "https://phys.org/news/2026-09-ghost-galaxies-emerge-hosts-dwarf.html",
-      "summary": "Dwarf galaxies—with a mass equal to about a billion suns, but often considerably less—are the most abundant in the universe. However, because of their low luminosity, they are very difficult to detect. They have mostly b…",
-      "ts": 1789562406000,
-      "publishedAt": "2026-09-16T12:40:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The hidden cost of pressure to be a perfect parent",
-      "url": "https://phys.org/news/2026-09-hidden-pressure-parent.html",
-      "summary": "The pressure to be the perfect parent can be overwhelming, but social media and perceived world threats are causing some to become overprotective parents, negatively affecting young people.",
-      "ts": 1789562404000,
-      "publishedAt": "2026-09-16T12:40:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A third of Americans cannot name the three branches of government",
-      "url": "https://phys.org/news/2026-09-americans.html",
-      "summary": "Over a third of U.S. adults (35%) cannot name all three branches of the government, and under half can name four of the five rights protected by the First Amendment, according to the 2026 Annenberg Constitution Day Civic…",
-      "ts": 1789561204000,
-      "publishedAt": "2026-09-16T12:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Nine in 10 UK gambling websites breach data privacy law, study finds",
-      "url": "https://phys.org/news/2026-09-uk-gambling-websites-breach-privacy.html",
-      "summary": "Nearly nine in 10 (86%) UK-licensed online gambling websites are operating in breach of the General Data Protection Regulation, according to new research from the Gambling Research, Education and Treatment (GREAT) Center…",
-      "ts": 1789556401000,
-      "publishedAt": "2026-09-16T11:00:01.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Structure and Classification of Matrix Product Quantum Channels",
-      "url": "http://link.aps.org/doi/10.1103/4216-bgrp",
-      "summary": "Author(s): Giorgio Stucchi, J. Ignacio Cirac, Rahul Trivedi, and Georgios Styliaris We develop a framework for matrix product quantum channels, a one-dimensional tensor-network description of completely positive, trace-p…",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Error-Correction Transitions in Finite-Depth Quantum Channels",
-      "url": "http://link.aps.org/doi/10.1103/drwg-dgb7",
-      "summary": "Author(s): Arman Sauliere, Guglielmo Lami, Pedro Ribeiro, Andrea De Luca, and Jacopo De Nardis We study error-correction protocols in which a quantum channel encodes logical information into an enlarged Hilbert space thr…",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Active Quantum Matter from Monitored Pure-State Dynamics",
-      "url": "http://link.aps.org/doi/10.1103/zhdk-kgzx",
-      "summary": "Author(s): Jacob F. Steiner, Felix von Oppen, and Reinhold Egger Quantum many-body systems coupled to out-of-equilibrium reservoirs can behave as active matter and exhibit signs of flocking. However, the resulting steady…",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Long-Lived Telecom-Heralded Single-Photon Storage in an Absorptive Spin-Rephased Quantum Memory",
-      "url": "http://link.aps.org/doi/10.1103/ftkb-pkvp",
-      "summary": "Author(s): Alberto E. Rodríguez-Moldes, Félicien Appas, Jonathan Hänni, Jelena V. Rakonjac, Samuele Grandi, and Hugues de Riedmatten Researchers demonstrate a new quantum memory device that will enable faraway nodes in a…",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Pitching Cosmic Curveballs: Environmental Effects on Extreme-Mass-Ratio Inspirals with Spinning Secondaries",
-      "url": "http://link.aps.org/doi/10.1103/dy3h-65ty",
-      "summary": "Author(s): Leif Lui, Lisa V. Drummond, and Alejandro Torres-Orjuela Much like the aerodynamic deflection of a spinning curveball, a rotating secondary in an extreme-mass-ratio inspiral (EMRI) experiences Magnus and lift …",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Systematic Search for Conformal Field Theories in Very Small Spaces",
-      "url": "http://link.aps.org/doi/10.1103/j8v5-kyd6",
-      "summary": "Author(s): Xiang Li, Ting-Chun Lin, and John McGreevy Ground states of $1+1d$ conformal field theories (CFTs) satisfy a local entropic condition called the vector fixed point equation. This condition is surprisingly well…",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Factorization beyond Coherence",
-      "url": "http://link.aps.org/doi/10.1103/q3m4-bcpl",
-      "summary": "Author(s): Thomas Becher, Patrick Hager, Matthias Neubert, and Dominik Schwienbacher We propose a novel factorization theorem for $N$-jettiness at hadron colliders, which incorporates coherence-violating effects induced …",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Rydberg States with a Liquid Core",
-      "url": "http://link.aps.org/doi/10.1103/pdby-ss2t",
-      "summary": "Author(s): Juan Carlos Acosta Matos, P. Giannakeas, and Jan M. Rost We develop a self-consistent approach that provides an explicit potential for a Rydberg electron whose ionic core consists of a polarizable medium, typi…",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantum Criticality from Spectral Collapse in the Two-Photon Rabi Model",
-      "url": "http://link.aps.org/doi/10.1103/ctp9-k77q",
-      "summary": "Author(s): Jiong Li, Jun-Ling Wang, Qing-Hu Chen, and Hai-Qing Lin Spectral collapse in the two-photon quantum Rabi model (tpQRM) has long been regarded as insufficient to establish quantum criticality because, under gen…",
-      "ts": 1789552800000,
-      "publishedAt": "2026-09-16T10:00:00.000Z"
     }
   ],
   "sources": [
