@@ -39671,157 +39671,43 @@ a {
 
 
 /* ==========================================================
-   ARCHENOVA HOME
-   FOUR PORTALS — SINGLE BLACK GLASS SYSTEM
+   ARCHENOVA SEARCH
+   OUTER BLACK GLASS FRAME
    PC / MOBILE
    ----------------------------------------------------------
    One Portal = One Black Glass Surface
 
    Scope:
-   HOME only (.archenova-twin-home)
+   HOME / #archenova-search-section / .an-search__surface
 
-   Surface ownership:
-   - SEARCH
-       .an-search__surface
-   - EPISTEME
-       .ep-dialogue-portal__card
-   - TODAY'S INQUIRY
-       .ti-home__glass
-   - ARCHENOVA VALLEY
-       .an-valley-portal__card
-
-   Principles:
-   - HOME section itself is transparent
-   - Exactly one visible outer glass surface per portal
-   - Black-based transparent glass
-   - Same material language on PC and Mobile
+   Purpose:
+   - Match EPISTEME / TODAY'S INQUIRY / ARCHENOVA VALLEY
+   - Keep the HOME section itself transparent
+   - Preserve all existing MAP layout and interaction
+   - Preserve nodes, filters, Selected System and pager
+   - Do not create a second outer frame
    - No external drop shadow
-   - Preserve existing portal content and interaction
-   - Preserve existing internal scrolling
 ========================================================== */
 
 
 /* ==========================================================
-   01. HOME SECTION
-   SECTION ITSELF MUST NOT BECOME ANOTHER CARD
-========================================================== */
-
-.archenova-twin-home
-#archenova-search-section,
-
-.archenova-twin-home
-#episteme-dialogue,
-
-.archenova-twin-home
-#todays-inquiry,
-
-.archenova-twin-home
-#archenova-valley {
-  position: relative !important;
-
-  border: 0 !important;
-
-  outline: 0 !important;
-
-  background:
-    transparent !important;
-
-  box-shadow:
-    none !important;
-}
-
-
-/* ==========================================================
-   02. REMOVE GENERIC HOME SECTION SURFACES
-
-   Important:
-   The old .home-page::before layer must not remain
-   behind the portal-owned Black Glass surface.
-
-   Each HOME portal owns its own single visible card.
-========================================================== */
-
-.archenova-twin-home
-#archenova-search-section::before,
-
-.archenova-twin-home
-#archenova-search-section::after,
-
-.archenova-twin-home
-#episteme-dialogue::before,
-
-.archenova-twin-home
-#episteme-dialogue::after,
-
-.archenova-twin-home
-#todays-inquiry::before,
-
-.archenova-twin-home
-#todays-inquiry::after,
-
-.archenova-twin-home
-#archenova-valley::before,
-
-.archenova-twin-home
-#archenova-valley::after {
-  content:
-    none !important;
-
-  display:
-    none !important;
-
-  border:
-    0 !important;
-
-  background:
-    none !important;
-
-  box-shadow:
-    none !important;
-
-  -webkit-backdrop-filter:
-    none !important;
-
-  backdrop-filter:
-    none !important;
-}
-
-
-/* ==========================================================
-   03. SINGLE BLACK GLASS SURFACE
    DESKTOP / TABLET
-
-   SEARCH is the material reference.
-
-   Black Glass:
-   - neutral black
-   - restrained transparency
-   - subtle white edge
-   - background remains perceptible
-   - internal optical definition only
+   SINGLE BLACK GLASS SURFACE
 ========================================================== */
 
 .archenova-twin-home
 #archenova-search-section
-.an-search__surface,
-
-.archenova-twin-home
-#episteme-dialogue
-.ep-dialogue-portal__card,
-
-.archenova-twin-home
-#todays-inquiry
-.ti-home__glass,
-
-.archenova-twin-home
-#archenova-valley
-.an-valley-portal__card {
+.an-search__surface {
   position:
     relative !important;
 
   isolation:
     isolate !important;
 
+  /*
+   * Keep the existing MAP dimensions and layout untouched.
+   * Only the material language is standardized here.
+   */
   border:
     1px solid
     rgba(
@@ -39864,28 +39750,32 @@ a {
     saturate(108%)
     !important;
 
+  /*
+   * Internal optical definition only.
+   * No external drop shadow.
+   */
   box-shadow:
     inset
-      0
-      1px
-      0
-      rgba(
-        255,
-        255,
-        255,
-        0.035
-      ),
+    0
+    1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    ),
 
     inset
-      0
-      -1px
-      0
-      rgba(
-        255,
-        255,
-        255,
-        0.01
-      )
+    0
+    -1px
+    0
+    rgba(
+      255,
+      255,
+      255,
+      0.01
+    )
     !important;
 
   outline:
@@ -39894,226 +39784,19 @@ a {
 
 
 /* ==========================================================
-   04. REMOVE SECONDARY OUTER OPTICAL LAYERS
-
-   These pseudo-elements must not generate
-   another visible card / frame.
-
-   Internal content effects such as stars,
-   ambient fields, city lights, brain effects,
-   research cards, etc. are NOT affected.
-========================================================== */
-
-.archenova-twin-home
-#episteme-dialogue
-.ep-dialogue-portal__card::before,
-
-.archenova-twin-home
-#episteme-dialogue
-.ep-dialogue-portal__card::after,
-
-.archenova-twin-home
-#todays-inquiry
-.ti-home__glass::before,
-
-.archenova-twin-home
-#todays-inquiry
-.ti-home__glass::after,
-
-.archenova-twin-home
-#archenova-valley
-.an-valley-portal__card::before,
-
-.archenova-twin-home
-#archenova-valley
-.an-valley-portal__card::after {
-  content:
-    none !important;
-
-  display:
-    none !important;
-
-  border:
-    0 !important;
-
-  background:
-    none !important;
-
-  box-shadow:
-    none !important;
-
-  -webkit-backdrop-filter:
-    none !important;
-
-  backdrop-filter:
-    none !important;
-}
-
-
-/* ==========================================================
-   05. SEARCH
-   PRESERVE EXISTING FULL-SURFACE GEOMETRY
-
-   Material only.
-   Existing Search layout rules remain authoritative.
-========================================================== */
-
-.archenova-twin-home
-#archenova-search-section
-.an-search__surface {
-  width:
-    100% !important;
-
-  min-width:
-    0 !important;
-
-  min-height:
-    0 !important;
-}
-
-
-/* ==========================================================
-   06. EPISTEME
-   PORTAL CARD BECOMES THE ONLY OUTER SURFACE
-
-   Do not change:
-   - brain
-   - modes
-   - LIVE INTELLIGENCE
-   - footer
-   - transition
-   - internal scroll behavior
-========================================================== */
-
-.archenova-twin-home
-#episteme-dialogue
-.ep-dialogue-portal {
-  background:
-    transparent !important;
-
-  border:
-    0 !important;
-
-  box-shadow:
-    none !important;
-}
-
-
-.archenova-twin-home
-#episteme-dialogue
-.ep-dialogue-portal__card {
-  width:
-    100% !important;
-
-  max-width:
-    100% !important;
-
-  min-width:
-    0 !important;
-}
-
-
-/* ==========================================================
-   07. TODAY'S INQUIRY
-   REPLACE CURRENT BLUE / CYAN OPTICAL OUTER MATERIAL
-
-   Important:
-   Only the HOME outer glass is standardized here.
-   Internal Daily Experience and Related Research
-   structures remain unchanged.
-========================================================== */
-
-.archenova-twin-home
-#todays-inquiry
-.ti-home {
-  background:
-    transparent !important;
-
-  border:
-    0 !important;
-
-  box-shadow:
-    none !important;
-}
-
-
-.archenova-twin-home
-#todays-inquiry
-.ti-home__glass {
-  /*
-   * Preserve the existing Today's Inquiry geometry.
-   * Do not force Search dimensions onto this portal.
-   */
-  margin-left:
-    auto !important;
-
-  margin-right:
-    auto !important;
-}
-
-
-/* ==========================================================
-   08. ARCHENOVA VALLEY
-   PORTAL CARD BECOMES THE ONLY OUTER SURFACE
-
-   The component previously contained a visual
-   ::before layer despite declaring the card transparent.
-   Section 04 disables that extra outer layer on HOME.
-========================================================== */
-
-.archenova-twin-home
-#archenova-valley
-.an-valley-portal {
-  background:
-    transparent !important;
-
-  border:
-    0 !important;
-
-  box-shadow:
-    none !important;
-}
-
-
-.archenova-twin-home
-#archenova-valley
-.an-valley-portal__card {
-  width:
-    100% !important;
-
-  max-width:
-    100% !important;
-
-  min-width:
-    0 !important;
-}
-
-
-/* ==========================================================
-   09. MOBILE
-   SAME BLACK GLASS LANGUAGE
-
-   Lighter than desktop so the background remains visible.
-   Geometry is deliberately not globally forced.
+   MOBILE
+   SAME MATERIAL — LIGHTER / MORE TRANSPARENT
 ========================================================== */
 
 @media (max-width: 768px) {
 
   .archenova-twin-home
   #archenova-search-section
-  .an-search__surface,
-
-  .archenova-twin-home
-  #episteme-dialogue
-  .ep-dialogue-portal__card,
-
-  .archenova-twin-home
-  #todays-inquiry
-  .ti-home__glass,
-
-  .archenova-twin-home
-  #archenova-valley
-  .an-valley-portal__card {
+  .an-search__surface {
+    /*
+     * Card geometry remains compatible with
+     * the current ArcheNova Search layout.
+     */
     border:
       1px solid
       rgba(
@@ -40128,6 +39811,10 @@ a {
       18px
       !important;
 
+    /*
+     * Mobile Black Glass language shared with
+     * the other HOME portals.
+     */
     background:
       linear-gradient(
         145deg,
@@ -40156,254 +39843,36 @@ a {
       saturate(106%)
       !important;
 
+    /*
+     * No external shadow.
+     * Preserve only restrained internal glass definition.
+     */
     box-shadow:
       inset
-        0
-        1px
-        0
-        rgba(
-          255,
-          255,
-          255,
-          0.035
-        ),
+      0
+      1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.035
+      ),
 
       inset
-        0
-        -1px
-        0
-        rgba(
-          255,
-          255,
-          255,
-          0.01
-        )
+      0
+      -1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.01
+      )
       !important;
 
     outline:
       0 !important;
-  }
-
-
-  /* ========================================================
-     MOBILE — SECTION LAYER REMAINS TRANSPARENT
-  ======================================================== */
-
-  .archenova-twin-home
-  #archenova-search-section,
-
-  .archenova-twin-home
-  #episteme-dialogue,
-
-  .archenova-twin-home
-  #todays-inquiry,
-
-  .archenova-twin-home
-  #archenova-valley {
-    border:
-      0 !important;
-
-    outline:
-      0 !important;
-
-    background:
-      transparent !important;
-
-    box-shadow:
-      none !important;
-  }
-
-
-  /* ========================================================
-     MOBILE — NO SECOND SECTION SURFACE
-  ======================================================== */
-
-  .archenova-twin-home
-  #archenova-search-section::before,
-
-  .archenova-twin-home
-  #archenova-search-section::after,
-
-  .archenova-twin-home
-  #episteme-dialogue::before,
-
-  .archenova-twin-home
-  #episteme-dialogue::after,
-
-  .archenova-twin-home
-  #todays-inquiry::before,
-
-  .archenova-twin-home
-  #todays-inquiry::after,
-
-  .archenova-twin-home
-  #archenova-valley::before,
-
-  .archenova-twin-home
-  #archenova-valley::after {
-    content:
-      none !important;
-
-    display:
-      none !important;
-
-    background:
-      none !important;
-
-    border:
-      0 !important;
-
-    box-shadow:
-      none !important;
-
-    -webkit-backdrop-filter:
-      none !important;
-
-    backdrop-filter:
-      none !important;
-  }
-
-
-  /* ========================================================
-     MOBILE — EPISTEME
-
-     Preserve component's own internal sizing / scrolling.
-     Only ensure it cannot exceed the HOME card width.
-  ======================================================== */
-
-  .archenova-twin-home
-  #episteme-dialogue
-  .ep-dialogue-portal {
-    width:
-      100% !important;
-
-    max-width:
-      100% !important;
-
-    min-width:
-      0 !important;
-  }
-
-
-  .archenova-twin-home
-  #episteme-dialogue
-  .ep-dialogue-portal__card {
-    width:
-      100% !important;
-
-    max-width:
-      100% !important;
-
-    min-width:
-      0 !important;
-  }
-
-
-  /* ========================================================
-     MOBILE — TODAY'S INQUIRY
-
-     Keep the existing dedicated mobile scrolling architecture.
-     Do NOT introduce overflow-y here.
-  ======================================================== */
-
-  .archenova-twin-home
-  #todays-inquiry
-  .ti-home {
-    width:
-      100% !important;
-
-    max-width:
-      100% !important;
-
-    min-width:
-      0 !important;
-  }
-
-
-  .archenova-twin-home
-  #todays-inquiry
-  .ti-home__glass {
-    max-width:
-      calc(
-        100% - 12px
-      )
-      !important;
-
-    min-width:
-      0 !important;
-
-    margin-left:
-      auto !important;
-
-    margin-right:
-      auto !important;
-  }
-
-
-  /* ========================================================
-     MOBILE — ARCHENOVA VALLEY
-
-     Preserve the component's successful internal
-     vertical scrolling architecture.
-  ======================================================== */
-
-  .archenova-twin-home
-  #archenova-valley
-  .an-valley-portal {
-    width:
-      100% !important;
-
-    max-width:
-      100% !important;
-
-    min-width:
-      0 !important;
-  }
-
-
-  .archenova-twin-home
-  #archenova-valley
-  .an-valley-portal__card {
-    width:
-      100% !important;
-
-    max-width:
-      100% !important;
-
-    min-width:
-      0 !important;
-  }
-
-}
-
-
-/* ==========================================================
-   10. SMALL MOBILE
-   Preserve breathing room without creating another frame.
-========================================================== */
-
-@media (max-width: 430px) {
-
-  .archenova-twin-home
-  #episteme-dialogue
-  .ep-dialogue-portal__card,
-
-  .archenova-twin-home
-  #archenova-valley
-  .an-valley-portal__card {
-    max-width:
-      100% !important;
-  }
-
-
-  .archenova-twin-home
-  #todays-inquiry
-  .ti-home__glass {
-    max-width:
-      calc(
-        100% - 12px
-      )
-      !important;
   }
 
 }
