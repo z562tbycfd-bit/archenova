@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-09-17T17:59:52.075Z",
+  "updated": "2026-09-17T21:16:32.229Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Kennedy renews attacks on vaccines at Children’s Health Defense conference",
+      "url": "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/?utm_campaign=rss",
+      "summary": "Health secretary RFK Jr. returned to his roots in a keynote address at a conference hosted by the Children’s Health Defense, an anti-vaccine nonprofit he helped start.",
+      "ts": 1789677604000,
+      "publishedAt": "2026-09-17T20:40:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards Launch Services for StarBurst Gamma-Ray Detector",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/",
+      "summary": "NASA has selected SpaceX to provide launch services for the agency’s StarBurst mission, a small satellite designed to investigate neutron star mergers and the origins of short gamma-ray bursts. StarBurst will launch aboa…",
+      "ts": 1789677429000,
+      "publishedAt": "2026-09-17T20:37:09.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Molecular Devices and STEMCELL Technologies Team Up to Automate Organoid Research",
+      "url": "https://www.genengnews.com/topics/drug-discovery/molecular-devices-and-stemcell-technologies-team-up-to-automate-organoid-research/",
+      "summary": "Validated on the CellXpress.ai automated cell culture system, the new workflow combines organoid biology expertise and laboratory automation to help researchers reduce variability, expand scale, and move discoveries towa…",
+      "ts": 1789676649000,
+      "publishedAt": "2026-09-17T20:24:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease",
+      "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/?utm_campaign=rss",
+      "summary": "The FDA approved a new gene therapy for Sanfilippo syndrome type A, an ultra-rare disease sometimes known as childhood Alzheimer’s.",
+      "ts": 1789674946000,
+      "publishedAt": "2026-09-17T19:55:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
+      "summary": "Media accreditation is open for the next cargo launch that will deliver NASA science investigations, supplies, and equipment to the International Space Station. The 35th SpaceX commercial resupply services mission to the…",
+      "ts": 1789669950000,
+      "publishedAt": "2026-09-17T18:32:30.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why do ‘never-smokers’ get lung cancer? In some cases, rare genetic variant may be a factor",
+      "url": "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/?utm_campaign=rss",
+      "summary": "Researchers have identified a very rare genetic variant that is associated with higher odds of lung cancer in \"never smokers.\"",
+      "ts": 1789668000000,
+      "publishedAt": "2026-09-17T18:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "High-Grade Glioma Biology Varies by Age and Sex, Revealing Potential Treatment Targets",
+      "url": "https://www.genengnews.com/topics/cancer/high-grade-glioma-biology-varies-by-age-and-sex-revealing-potential-treatment-targets/",
+      "summary": "Researchers carrying out multiomics analyses of tumors from high-grade glioma patients found distinct molecular profiles and survival outcomes in different age groups and according to sex, and identified candidate treatm…",
+      "ts": 1789667895000,
+      "publishedAt": "2026-09-17T17:58:15.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Definium’s new psychedelics data, and a reprieve for international scientists",
@@ -21,6 +84,15 @@
       "categoryId": "energy-climate"
     },
     {
+      "source": "NASA",
+      "title": "NASA Unveils Enterprise, the First Space Shuttle",
+      "url": "https://www.nasa.gov/image-article/nasa-unveils-enterprise-the-first-space-shuttle/",
+      "summary": "Fifty years ago, on Sept. 17, 1976—Constitution Day of America’s bicentennial year—NASA unveiled its first space shuttle orbiter, OV-101, to the public. NASA had originally planned to name the vehicle Constitution, but a…",
+      "ts": 1789658562000,
+      "publishedAt": "2026-09-17T15:22:42.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation",
       "url": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
@@ -31,7 +103,7 @@
     },
     {
       "source": "STAT",
-      "title": "Kennedy names new members to Preventive Services Task Force, after months of vacancies",
+      "title": "Kennedy moves to revive preventive services panel with new members, after months of vacancies",
       "url": "https://www.statnews.com/2026/09/17/kennedy-names-eight-new-members-uspstf-task-force/?utm_campaign=rss",
       "summary": "The influential panel hasn't met in more than a year, after Kennedy canceled its meeting.",
       "ts": 1789657061000,
@@ -579,6 +651,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "ts": 1789603200000,
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Cell",
       "title": "Evolving Cell with evolving science",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01013-5?rss=yes",
@@ -730,87 +811,6 @@
       "ts": 1789581849000,
       "publishedAt": "2026-09-16T18:04:09.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Prime Assembly Expands Genome Editing with Precise, Large-Scale DNA Integration",
-      "url": "https://www.genengnews.com/topics/genome-editing/prime-assembly-expands-genome-editing-with-precise-large-scale-dna-integration/",
-      "summary": "A new genome-editing method, prime assembly, precisely inserts long DNA sequences into targeted genomic locations, potentially enabling mutation-agnostic gene therapies for diverse genetic diseases with fewer individuali…",
-      "ts": 1789580964000,
-      "publishedAt": "2026-09-16T17:49:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Our framework for reporting model misalignment",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "ts": 1789578000000,
-      "publishedAt": "2026-09-16T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "WHO expresses cautious optimism about bid to control Ebola outbreak in DRC",
-      "url": "https://www.statnews.com/2026/09/16/ebola-outbreak-drc-who-cautious-optimism/?utm_campaign=rss",
-      "summary": "There is reason to be cautiously optimistic about the trajectory of the current Ebola outbreak in the Democratic Republic of the Congo, the WHO says.",
-      "ts": 1789576150000,
-      "publishedAt": "2026-09-16T16:29:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar ",
-      "url": "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
-      "summary": "NASA celebrated the full restoration of its Guam Remote Station with a ribbon-cutting on Sept. 10, closing out more than three years of recovery after Super Typhoon Mawar devastated the site in 2023. Engineers from acros…",
-      "ts": 1789575121000,
-      "publishedAt": "2026-09-16T16:12:01.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
-      "url": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
-      "summary": "Seasonal changes redistribute enough water around Earth to shift the planet’s center of mass back and forth by fractions of an inch relative to its geometric center. NASA scientists are on the case, tracking the oscillat…",
-      "ts": 1789574880000,
-      "publishedAt": "2026-09-16T16:08:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Red Light Supercharges Anti-Obesity Drug Precursor",
-      "url": "https://www.genengnews.com/topics/bioprocessing/red-light-supercharges-anti-obesity-drug-precursor/",
-      "summary": "Scientists in New Delhi found that red light dramatically boosted lipstatin production in Streptomyces, while reshaping its growth. The work points to illumination as a simple, non-invasive lever for improving yields in …",
-      "ts": 1789574457000,
-      "publishedAt": "2026-09-16T16:00:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Choice of Excipients Dramatically Affects Antibody Solubility",
-      "url": "https://www.genengnews.com/topics/bioprocessing/choice-of-excipients-dramatically-affects-antibody-solubility/",
-      "summary": "More predictive, rational therapeutic antibody formulation designs can be grounded in interactions between antibodies and common excipients that biomanufacturers often consider generic. The post Choice of Excipients Dram…",
-      "ts": 1789574453000,
-      "publishedAt": "2026-09-16T16:00:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Lifecycle Approach Could Solve CGT Scale-Up Challenges",
-      "url": "https://www.genengnews.com/topics/bioprocessing/a-lifecycle-approach-could-solve-cgt-scale-up-challenges/",
-      "summary": "Cell and gene therapy developers often struggle to scale manufacturing, according to the authors of a new review, who suggest that part of the problem is the practice of developing unit operations in isolation. The post …",
-      "ts": 1789574414000,
-      "publishedAt": "2026-09-16T16:00:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "ts": 1789574400000,
-      "publishedAt": "2026-09-16T16:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
