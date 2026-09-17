@@ -28780,9 +28780,30 @@ line-height:1.75;
 /* ==========================================================
    HOME — Remove Double Outer Frames
    PC / Mobile Common
+
+   Architecture
+   ----------------------------------------------------------
+   PC:
+   Preserve the existing HOME presentation exactly.
+
+   Mobile:
+   The real portal/card is the only visible glass surface.
+   The legacy .home-page::before reading-film must not create
+   a second translucent black layer above/below the portal.
+
+   Important:
+   - Do not change portal content.
+   - Do not change HOME pager.
+   - Do not create another scroll owner.
+   - Do not change desktop geometry.
 ========================================================== */
 
-/* 外側に重なって見える不要な疑似枠を停止 */
+
+/* ==========================================================
+   01. COMMON
+   Remove only redundant frame decoration.
+========================================================== */
+
 .home-page::before,
 .home-page::after,
 .twin-page::before,
@@ -28793,14 +28814,20 @@ line-height:1.75;
   box-shadow: none !important;
 }
 
-/* HOME各セクションの外側フレーム感を消す */
+
+/* HOME sections themselves must never become another frame. */
 .home-page,
 .twin-page,
 [data-home-section] {
   outline: none !important;
 }
 
-/* 本体側の1枚枠だけを残す */
+
+/* ==========================================================
+   02. REAL PORTAL SURFACES
+   Preserve the existing component/card layer.
+========================================================== */
+
 .an-glass,
 .an-card,
 .an-frame,
@@ -28813,31 +28840,113 @@ line-height:1.75;
   position: relative;
 }
 
-/* ArcheNova HOME内の本体枠 */
+
+/* Existing ArcheNova HOME material language. */
 .archenova-twin-home .an-glass,
 .archenova-twin-home .an-card,
 .archenova-twin-home .an-frame,
 .archenova-twin-home .civ-intel-portal,
 .archenova-twin-home .civ-library-shell,
 .archenova-twin-home .an-galaxy-stage {
-  border-color: rgba(255,255,255,0.08) !important;
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    )
+    !important;
 }
 
-/* モバイルでも同様に二重枠を撤去 */
+
+/* ==========================================================
+   03. MOBILE
+   REMOVE THE LEGACY SECOND GLASS SURFACE
+
+   Critical:
+   The old rule:
+
+   .home-snap .home-page::before
+
+   still contains:
+   - content
+   - background
+   - backdrop-filter
+
+   Removing border/shadow alone does NOT remove that surface.
+
+   Therefore the pseudo-element itself is disabled on HOME
+   mobile only.
+========================================================== */
+
 @media (max-width: 768px) {
+
+  .archenova-twin-home.home-snap
   .home-page::before,
+
+  .archenova-twin-home.home-snap
   .home-page::after,
+
+  .archenova-twin-home
   .twin-page::before,
+
+  .archenova-twin-home
   .twin-page::after,
+
+  .archenova-twin-home
   [data-home-section]::before,
+
+  .archenova-twin-home
   [data-home-section]::after {
-    border: none !important;
+    content: none !important;
+    display: none !important;
+
+    background: none !important;
+
+    border: 0 !important;
     box-shadow: none !important;
+
+    -webkit-backdrop-filter:
+      none !important;
+
+    backdrop-filter:
+      none !important;
+
+    opacity:
+      0 !important;
+
+    visibility:
+      hidden !important;
+
+    pointer-events:
+      none !important;
   }
 
-  .archenova-twin-home .home-page {
-    border: none !important;
-    box-shadow: none !important;
+
+  /* ========================================================
+     04. MOBILE HOME SECTION
+     Section = positioning canvas, not another card.
+  ======================================================== */
+
+  .archenova-twin-home
+  .home-page,
+
+  .archenova-twin-home
+  .twin-page,
+
+  .archenova-twin-home
+  [data-home-section] {
+    border:
+      0 !important;
+
+    outline:
+      0 !important;
+
+    box-shadow:
+      none !important;
+
+    background:
+      transparent !important;
   }
 }
 
