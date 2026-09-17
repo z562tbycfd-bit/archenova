@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-09-17T07:19:35.219Z",
+  "updated": "2026-09-17T13:09:29.073Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "More short holidays close to home boost well-being, study finds",
+      "url": "https://phys.org/news/2026-09-short-holidays-home-boost.html",
+      "summary": "Travel plays a far more critical role in mental health and well-being than previously thought, according to new University of the Sunshine Coast-led research. The study found frequent leisure travel boosts happiness, psy…",
+      "ts": 1789650008000,
+      "publishedAt": "2026-09-17T13:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genome assembly of rice stink bug offers new data-informed tool in fight against costly pest",
+      "url": "https://phys.org/news/2026-09-genome-rice-bug-tool-pest.html",
+      "summary": "Scientists are getting a leg up on the rice stink bug, one of the most significant threats to rice, a staple food for nearly half the world's population and a major crop in Arkansas.",
+      "ts": 1789650001000,
+      "publishedAt": "2026-09-17T13:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "When AI goes rogue, its human overseers may be to blame",
+      "url": "https://www.sciencenews.org/article/rogue-ai-agents-human-blame-safety",
+      "summary": "When AI agents hack real systems, the bigger issue may be the human choices that gave them access, autonomy and too few safeguards.",
+      "ts": 1789650000000,
+      "publishedAt": "2026-09-17T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "At-risk gamers gambling with their financial future",
+      "url": "https://phys.org/news/2026-09-gamers-gambling-financial-future.html",
+      "summary": "Nearly 8 out of every 10 people at risk of gaming disorder have experienced overspending or financial harm due to their habit, an international study led by University of Queensland researchers found.",
+      "ts": 1789648802000,
+      "publishedAt": "2026-09-17T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Birds basking in natural 'saunas'",
+      "url": "https://phys.org/news/2026-09-birds-basking-natural-saunas.html",
+      "summary": "New research led by the University of Otago—Ōtākou Whakaihu Waka shows some bird species may be taking advantage of natural geothermal \"health spas.\"",
+      "ts": 1789647601000,
+      "publishedAt": "2026-09-17T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New livestream brings remote Australian arid zone waterhole to the world",
+      "url": "https://phys.org/news/2026-09-livestream-remote-australian-arid-zone.html",
+      "summary": "A new livestream from a remote waterhole in the Northern Territory is giving people around the world the opportunity to observe wildlife in real time.",
+      "ts": 1789646401000,
+      "publishedAt": "2026-09-17T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Political boot camps for women could redress gender imbalance",
+      "url": "https://phys.org/news/2026-09-political-boot-women-redress-gender.html",
+      "summary": "Immersive boot camps for women could be a way to overcome the stark gender imbalance in political leadership, according to new research that examined how to increase the political ambitions of talented women.",
+      "ts": 1789645208000,
+      "publishedAt": "2026-09-17T11:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cuttlefish suckers reveal how they grip rough prey—and could inspire better technology",
+      "url": "https://phys.org/news/2026-09-cuttlefish-suckers-reveal-rough-prey.html",
+      "summary": "Cephalopods are a group of soft-bodied marine mollusks that include cuttlefish, octopuses, squid and nautiluses. Many of these mollusks have muscular suckers on their arms that allow them to seize prey or grip other surf…",
+      "ts": 1789645204000,
+      "publishedAt": "2026-09-17T11:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Urban fire risk rises 30% in higher-income neighborhoods, analysis finds",
+      "url": "https://phys.org/news/2026-09-rich-neighborhoods.html",
+      "summary": "Frequently located on hillsides and in canyons surrounded by wildlands, wealthy neighborhoods are more likely to catch fire. However, a UC Riverside study shows they are also likely to recover faster than lower-income ar…",
+      "ts": 1789644010000,
+      "publishedAt": "2026-09-17T11:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dungeons & Dragons study rolls for better well-being",
+      "url": "https://phys.org/news/2026-09-dungeons-dragons.html",
+      "summary": "Rolling dice and battling imaginary monsters might seem an unlikely source of well-being, but Te Whare Wānanga o Waitaha | University of Canterbury (UC) research suggests Dungeons & Dragons groups can provide meaningful …",
+      "ts": 1789644006000,
+      "publishedAt": "2026-09-17T11:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study challenges estimates used to guide Atlantic menhaden fishing",
+      "url": "https://phys.org/news/2026-09-atlantic-menhaden-fishing.html",
+      "summary": "Atlantic menhaden (Brevoortia tyrannus), which supports a major commercial fishery along the U.S. East Coast and serves as essential prey for fish, seabirds and marine mammals, may be less able to sustain fishing pressur…",
+      "ts": 1789642802000,
+      "publishedAt": "2026-09-17T11:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "World's water cycle becoming more unpredictable, UN warns",
+      "url": "https://phys.org/news/2026-09-world-unpredictable.html",
+      "summary": "The planet's water cycle is becoming increasingly erratic, swinging between too little and too much, the United Nations warned Thursday, with an unprecedented El Niño expected to exacerbate the long-term trend.",
+      "ts": 1789633201000,
+      "publishedAt": "2026-09-17T08:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA spacecraft discovers a huge new crater on the moon",
+      "url": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
+      "summary": "Scientists have discovered a crater on the moon that's bigger than the Roman Colosseum and is the result of a powerful impact two years ago that initially went undetected.",
+      "ts": 1789632752000,
+      "publishedAt": "2026-09-17T08:12:32.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change made deadly Nepal glacier and rock collapse more likely, according to analysis",
+      "url": "https://phys.org/news/2026-09-climate-deadly-nepal-glacier-collapse.html",
+      "summary": "Human-caused global warming thinned glaciers and thawed mountain permafrost, likely helping to destabilize the Himalayan slope that collapsed last month and unleashed catastrophic flooding across Nepal, according to a re…",
+      "ts": 1789632161000,
+      "publishedAt": "2026-09-17T08:02:41.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Does AI make us smarter or more dependent?",
@@ -687,118 +799,6 @@
       "title": "IB-Flows: an open-source multi-GPU immersed boundary code for fluid-structure interaction",
       "url": "https://arxiv.org/abs/2609.19130",
       "summary": "arXiv:2609.19130v1 Announce Type: new Abstract: We present IB-Flows, an open-source, multi-GPU solver for the direct numerical simulation of incompressible fluid-structure interaction (FSI) problems. The code couples a s…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Period-Inverted Blast-Radius Normalization for a Non-Ablating Hypersonic Reentry Source Using OSIRIS-REx Capsule Infrasound",
-      "url": "https://arxiv.org/abs/2609.19141",
-      "summary": "arXiv:2609.19141v1 Announce Type: new Abstract: Cylindrical blast wave theory relates infrasound from hypersonic sources to energy deposition through a characteristic blast radius R_0, yet the normalization constant k in…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
-      "url": "https://arxiv.org/abs/2609.17532",
-      "summary": "arXiv:2609.17532v1 Announce Type: cross Abstract: Invasive mechanical ventilation is a lifesaving therapy, but timely, safe discontinuation is essential to preventing extubation failure (EF) and related risks to health. …",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Timbre Analysis of the Hulusi, a Southwestern Chinese Free-Reed Instrument, using Machine Learning",
-      "url": "https://arxiv.org/abs/2609.17612",
-      "summary": "arXiv:2609.17612v1 Announce Type: cross Abstract: The hulusi is a wind instrument that was invented in Yunnan Province, China, and has become tremendously popular in recent years. It consists of a mouthpiece, a gourd, an…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lecture notes on Physics Informed Neural Networks, Neural Operators, and their applications",
-      "url": "https://arxiv.org/abs/2609.17638",
-      "summary": "arXiv:2609.17638v1 Announce Type: cross Abstract: This is the set of lecture notes for the PhD course \\href{https://www.unibz.it/en/faculties/engineering/phd-computer-science/study-course-offering/2025/36967}{\\textit{Phy…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "1D PIC Simulations of Resonant Scattering-Driven Pair Cascades in Magnetar Magnetospheres",
-      "url": "https://arxiv.org/abs/2609.17661",
-      "summary": "arXiv:2609.17661v1 Announce Type: cross Abstract: Hard X-rays in persistent magnetar emission originate from radiative processes in pair-loaded magnetospheric plasma, yet self-consistent kinetic simulations of such radia…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrodynamic memory in overdamped colloidal dynamics",
-      "url": "https://arxiv.org/abs/2609.17677",
-      "summary": "arXiv:2609.17677v1 Announce Type: cross Abstract: Micron-sized colloid particles diffusing through a fluid experience hydrodynamic inertial and memory effects, the latter causing velocity autocorrelation to decay as a po…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Brownian motion with geometry-dependent hydrodynamic memory",
-      "url": "https://arxiv.org/abs/2609.17678",
-      "summary": "arXiv:2609.17678v1 Announce Type: cross Abstract: Micron-sized particles moving through a fluid are subject to viscous resistance and thermal fluctuations. Beyond steady Stokes friction, colloids also exhibit hydrodynami…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficiency-Resolved Recovery Dynamics of an Free-Running InGaAs/InP Single Photon Avalanche Detector Operated in Gated Mode",
-      "url": "https://arxiv.org/abs/2609.17694",
-      "summary": "arXiv:2609.17694v1 Announce Type: cross Abstract: Detection efficiency in gated-mode single-photon avalanche detectors recovers gradually after each gate edge, limiting attainable count rates, yet quantitative recovery m…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Multipolar Approach to Sliding Ferroelectricity",
-      "url": "https://arxiv.org/abs/2609.17741",
-      "summary": "arXiv:2609.17741v1 Announce Type: cross Abstract: Traditional theoretical treatments of ferroelectricity do not straightforwardly extend to sliding ferroelectrics, which are increasingly-studied layered materials where a…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact damping-basis continued fractions for few-atom lasers: collective correlations beyond second-order cumulant closure",
-      "url": "https://arxiv.org/abs/2609.17785",
-      "summary": "arXiv:2609.17785v1 Announce Type: cross Abstract: We combine the Briegel--Englert damping basis of a lossy cavity mode with the permutation-invariant Liouville basis of \\(N\\) identical, incoherently pumped two-level emit…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "QiT: Quantum-Inspired Transformer for Visual Recognition Task",
-      "url": "https://arxiv.org/abs/2609.17789",
-      "summary": "arXiv:2609.17789v1 Announce Type: cross Abstract: Quantum machine learning offers a compelling representational perspective: angle-encoded states inhabit Hilbert spaces in which periodic similarities and interactions can…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "What does \"instant thermalization\" in large-$q$ SYK models mean?",
-      "url": "https://arxiv.org/abs/2609.17794",
-      "summary": "arXiv:2609.17794v1 Announce Type: cross Abstract: Motivated by the Planckian thermalization rate $\\Gamma \\sim T$ observed in the two-body interacting SYK model, we study thermalization in the $q/2$-body case. Previous st…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A domain decomposition method for the directional contact angle hysteresis interval on doubly periodic rough surfaces",
-      "url": "https://arxiv.org/abs/2609.17811",
-      "summary": "arXiv:2609.17811v1 Announce Type: cross Abstract: We study wetting on a doubly periodic rough surface in three dimensions. Although the liquid-vapor interface meets the solid at the local Young's angle, microscale roughn…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "METALICA: METAdynamics and repLICA exchange for enhanced diffusion sampling",
-      "url": "https://arxiv.org/abs/2609.17823",
-      "summary": "arXiv:2609.17823v1 Announce Type: cross Abstract: Many proteins function through transitions between conformational states, yet rare states are rarely sampled by diffusion models trained on an equilibrium ensemble, deman…",
       "ts": 1789617600000,
       "publishedAt": "2026-09-17T04:00:00.000Z"
     }

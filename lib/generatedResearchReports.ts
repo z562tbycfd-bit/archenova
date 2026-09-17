@@ -1,6 +1,1548 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "bio-stat-zocdoc-for-chatbots-and-what-s-new-with-medicare-s-access",
+    "title": "STAT+: Zocdoc for chatbots and what’s new with Medicare’s ACCESS",
+    "category": "Bio",
+    "source": "STAT",
+    "originalUrl": "https://www.statnews.com/2026/09/17/zocdoc-for-chatbots-and-medicares-access-healh-tech/?utm_campaign=rss",
+    "summary": "In this edition of STAT Health Tech: Zocdoc enables appointment scheduling from chatbots and health plan websites, and more.",
+    "coreInsight": "STAT+: Zocdoc for chatbots and what’s new with Medicare’s ACCESS indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "In this edition of STAT Health Tech: Zocdoc enables appointment scheduling from chatbots and health plan websites, and more.",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 8.3,
+      "economic": 8.8,
+      "civilization": 9.4,
+      "overall": 8.9,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1789650553000
+  },
+  {
+    "slug": "bio-more-short-holidays-close-to-home-boost-well-being-study-finds",
+    "title": "More short holidays close to home boost well-being, study finds",
+    "category": "Bio",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-short-holidays-home-boost.html",
+    "summary": "Travel plays a far more critical role in mental health and well-being than previously thought, according to new University of the Sunshine Coast-led research. The study found frequent leisure travel boosts happiness, psy…",
+    "coreInsight": "More short holidays close to home boost well-being, study finds indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "Travel plays a far more critical role in mental health and well-being than previously thought, according to new University of the Sunshine Coast-led research. The study found frequent leisure travel boosts happiness, psy…",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 8.3,
+      "economic": 8.8,
+      "civilization": 9.4,
+      "overall": 8.9,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1789650008000
+  },
+  {
+    "slug": "ai-genome-assembly-of-rice-stink-bug-offers-new-data-informed-tool-in-fight-against",
+    "title": "Genome assembly of rice stink bug offers new data-informed tool in fight against costly pest",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-genome-rice-bug-tool-pest.html",
+    "summary": "Scientists are getting a leg up on the rice stink bug, one of the most significant threats to rice, a staple food for nearly half the world's population and a major crop in Arkansas.",
+    "coreInsight": "Genome assembly of rice stink bug offers new data-informed tool in fight against costly pest indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "Scientists are getting a leg up on the rice stink bug, one of the most significant threats to rice, a staple food for nearly half the world's population and a major crop in Arkansas.",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 8.3,
+      "economic": 8.6,
+      "civilization": 9.4,
+      "overall": 8.8,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1789650001000
+  },
+  {
+    "slug": "ai-when-ai-goes-rogue-its-human-overseers-may-be-to-blame",
+    "title": "When AI goes rogue, its human overseers may be to blame",
+    "category": "AI",
+    "source": "Science News",
+    "originalUrl": "https://www.sciencenews.org/article/rogue-ai-agents-human-blame-safety",
+    "summary": "When AI agents hack real systems, the bigger issue may be the human choices that gave them access, autonomy and too few safeguards.",
+    "coreInsight": "When AI goes rogue, its human overseers may be to blame is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "When AI agents hack real systems, the bigger issue may be the human choices that gave them access, autonomy and too few safeguards.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789650000000
+  },
+  {
+    "slug": "general-catalyst-campus-for-technology-and-innovation-in-partnership-with-the-bmc3i-tap-",
+    "title": "Catalyst Campus for Technology and Innovation, in partnership with the BMC3I TAP Lab, Selects Focus Area Cohort Teams for Cohort 26.A",
+    "category": "General",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/catalyst-campus-for-technology-and-innovation-in-partnership-with-the-bmc3i-tap-lab-selects-focus-area-cohort-teams-for-cohort-26-a/",
+    "summary": "Catalyst Campus for Technology and Innovation, in partnership with the BMC3I TAP Lab, has selected the Focus Area Cohort Teams (FACTs) participating in Cohort 26.A. The selected teams represent innovative […] The post Ca…",
+    "coreInsight": "Catalyst Campus for Technology and Innovation, in partnership with the BMC3I TAP Lab, Selects Focus Area Cohort Teams for Cohort 26.A is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Catalyst Campus for Technology and Innovation, in partnership with the BMC3I TAP Lab, has selected the Focus Area Cohort Teams (FACTs) participating in Cohort 26.A. The selected teams represent innovative […] The post Ca…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789650000000
+  },
+  {
+    "slug": "ai-icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight",
+    "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
+    "category": "AI",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/",
+    "summary": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
+    "coreInsight": "Icarus Robotics tests Joy in Canada ahead of ISS flight indicates a possible shift in how knowledge, materials, automation, and production systems can be converted into scalable industrial capability.",
+    "scientificSignal": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
+    "whyItMatters": "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
+    "strategicRelevance": "Strategically relevant for industrial capability, robotics, materials processing, supply-chain resilience, production automation, and infrastructure formation.",
+    "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
+    "capitalImplication": "Capital implication: monitor for commercialization pathways in automation, robotics, advanced materials, industrial software, manufacturing systems, and resilient supply-chain infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Scalability from prototype to production",
+      "Manufacturing cost and reliability",
+      "Supply-chain integration",
+      "Quality control and operational safety"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
+    "technologyRoadmap": [
+      "Scientific process discovery",
+      "Prototype manufacturing method",
+      "Automation and quality control",
+      "Industrial production integration",
+      "Resilient manufacturing infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Pilot deployment and industrial validation.",
+      "mid": "5–15 Years: Broad manufacturing integration and automation.",
+      "far": "15–30 Years: Self-optimizing industrial ecosystems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 10,
+      "economic": 9.6,
+      "civilization": 9.4,
+      "overall": 9.4,
+      "classification": "Industrial Capability Signal"
+    },
+    "ts": 1789650000000
+  },
+  {
+    "slug": "general-at-risk-gamers-gambling-with-their-financial-future",
+    "title": "At-risk gamers gambling with their financial future",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-gamers-gambling-financial-future.html",
+    "summary": "Nearly 8 out of every 10 people at risk of gaming disorder have experienced overspending or financial harm due to their habit, an international study led by University of Queensland researchers found.",
+    "coreInsight": "At-risk gamers gambling with their financial future is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Nearly 8 out of every 10 people at risk of gaming disorder have experienced overspending or financial harm due to their habit, an international study led by University of Queensland researchers found.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.3,
+      "engineering": 7.3,
+      "economic": 6.8,
+      "civilization": 7.6,
+      "overall": 7.3,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789648802000
+  },
+  {
+    "slug": "ai-birds-basking-in-natural-saunas",
+    "title": "Birds basking in natural 'saunas'",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-birds-basking-natural-saunas.html",
+    "summary": "New research led by the University of Otago—Ōtākou Whakaihu Waka shows some bird species may be taking advantage of natural geothermal \"health spas.\"",
+    "coreInsight": "Birds basking in natural 'saunas' indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "New research led by the University of Otago—Ōtākou Whakaihu Waka shows some bird species may be taking advantage of natural geothermal \"health spas.\"",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 8.3,
+      "economic": 8.8,
+      "civilization": 9.4,
+      "overall": 8.9,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1789647601000
+  },
+  {
+    "slug": "ai-the-download-mice-with-part-human-brains-and-climate-tech-innovators",
+    "title": "The Download: mice with part-human brains and climate tech innovators",
+    "category": "AI",
+    "source": "MIT Technology Review",
+    "originalUrl": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
+    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked…",
+    "coreInsight": "The Download: mice with part-human brains and climate tech innovators indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked…",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 7.9,
+      "economic": 8,
+      "civilization": 9.2,
+      "overall": 8.4,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1789647000000
+  },
+  {
+    "slug": "general-new-livestream-brings-remote-australian-arid-zone-waterhole-to-the-world",
+    "title": "New livestream brings remote Australian arid zone waterhole to the world",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-livestream-remote-australian-arid-zone.html",
+    "summary": "A new livestream from a remote waterhole in the Northern Territory is giving people around the world the opportunity to observe wildlife in real time.",
+    "coreInsight": "New livestream brings remote Australian arid zone waterhole to the world is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "A new livestream from a remote waterhole in the Northern Territory is giving people around the world the opportunity to observe wildlife in real time.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789646401000
+  },
+  {
+    "slug": "ai-yemen-escalation-displaces-more-than-57-000-children-unicef",
+    "title": "Yemen escalation displaces more than 57,000 children: UNICEF",
+    "category": "AI",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168354",
+    "summary": "Renewed fighting in Yemen is deepening an already severe humanitarian crisis in a country where more than 12 million children depend on aid, after more than a decade of conflict.",
+    "coreInsight": "Yemen escalation displaces more than 57,000 children: UNICEF is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Renewed fighting in Yemen is deepening an already severe humanitarian crisis in a country where more than 12 million children depend on aid, after more than a decade of conflict.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789646400000
+  },
+  {
+    "slug": "ai-as-freshwater-reserves-shrink-countries-must-prepare-for-a-new-water-reality",
+    "title": "As freshwater reserves shrink, countries must prepare for a new water reality",
+    "category": "AI",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168350",
+    "summary": "The world is entering a period in which abnormal water supplies are becoming the norm, with river flows, groundwater and glaciers all showing signs of sustained disruption, the UN weather agency warned on Thursday.",
+    "coreInsight": "As freshwater reserves shrink, countries must prepare for a new water reality indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "The world is entering a period in which abnormal water supplies are becoming the norm, with river flows, groundwater and glaciers all showing signs of sustained disruption, the UN weather agency warned on Thursday.",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.4,
+      "engineering": 8.2,
+      "economic": 8.3,
+      "civilization": 9.5,
+      "overall": 8.7,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1789646400000
+  },
+  {
+    "slug": "general-stat-pharmalittle-we-re-reading-about-fda-hiring-delays-a-new-bavarian-nordic-ce",
+    "title": "STAT+: Pharmalittle: We’re reading about FDA hiring delays, a new Bavarian Nordic CEO, and more",
+    "category": "General",
+    "source": "STAT",
+    "originalUrl": "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss",
+    "summary": "For all the talk of a hiring spree at the FDA after DOGE cuts last year, the reality is more complicated and filled with bureaucratic delays",
+    "coreInsight": "STAT+: Pharmalittle: We’re reading about FDA hiring delays, a new Bavarian Nordic CEO, and more is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "For all the talk of a hiring spree at the FDA after DOGE cuts last year, the reality is more complicated and filled with bureaucratic delays",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789646397000
+  },
+  {
+    "slug": "general-political-boot-camps-for-women-could-redress-gender-imbalance",
+    "title": "Political boot camps for women could redress gender imbalance",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-political-boot-women-redress-gender.html",
+    "summary": "Immersive boot camps for women could be a way to overcome the stark gender imbalance in political leadership, according to new research that examined how to increase the political ambitions of talented women.",
+    "coreInsight": "Political boot camps for women could redress gender imbalance is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Immersive boot camps for women could be a way to overcome the stark gender imbalance in political leadership, according to new research that examined how to increase the political ambitions of talented women.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789645208000
+  },
+  {
+    "slug": "general-cuttlefish-suckers-reveal-how-they-grip-rough-prey-and-could-inspire-better-tech",
+    "title": "Cuttlefish suckers reveal how they grip rough prey—and could inspire better technology",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-cuttlefish-suckers-reveal-rough-prey.html",
+    "summary": "Cephalopods are a group of soft-bodied marine mollusks that include cuttlefish, octopuses, squid and nautiluses. Many of these mollusks have muscular suckers on their arms that allow them to seize prey or grip other surf…",
+    "coreInsight": "Cuttlefish suckers reveal how they grip rough prey—and could inspire better technology is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Cephalopods are a group of soft-bodied marine mollusks that include cuttlefish, octopuses, squid and nautiluses. Many of these mollusks have muscular suckers on their arms that allow them to seize prey or grip other surf…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789645204000
+  },
+  {
+    "slug": "general-urban-fire-risk-rises-30-in-higher-income-neighborhoods-analysis-finds",
+    "title": "Urban fire risk rises 30% in higher-income neighborhoods, analysis finds",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-rich-neighborhoods.html",
+    "summary": "Frequently located on hillsides and in canyons surrounded by wildlands, wealthy neighborhoods are more likely to catch fire. However, a UC Riverside study shows they are also likely to recover faster than lower-income ar…",
+    "coreInsight": "Urban fire risk rises 30% in higher-income neighborhoods, analysis finds is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Frequently located on hillsides and in canyons surrounded by wildlands, wealthy neighborhoods are more likely to catch fire. However, a UC Riverside study shows they are also likely to recover faster than lower-income ar…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.3,
+      "engineering": 7.3,
+      "economic": 6.8,
+      "civilization": 7.6,
+      "overall": 7.3,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789644010000
+  },
+  {
+    "slug": "ai-dungeons-dragons-study-rolls-for-better-well-being",
+    "title": "Dungeons & Dragons study rolls for better well-being",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-dungeons-dragons.html",
+    "summary": "Rolling dice and battling imaginary monsters might seem an unlikely source of well-being, but Te Whare Wānanga o Waitaha | University of Canterbury (UC) research suggests Dungeons & Dragons groups can provide meaningful …",
+    "coreInsight": "Dungeons & Dragons study rolls for better well-being is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Rolling dice and battling imaginary monsters might seem an unlikely source of well-being, but Te Whare Wānanga o Waitaha | University of Canterbury (UC) research suggests Dungeons & Dragons groups can provide meaningful …",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789644006000
+  },
+  {
+    "slug": "ai-study-challenges-estimates-used-to-guide-atlantic-menhaden-fishing",
+    "title": "Study challenges estimates used to guide Atlantic menhaden fishing",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-atlantic-menhaden-fishing.html",
+    "summary": "Atlantic menhaden (Brevoortia tyrannus), which supports a major commercial fishery along the U.S. East Coast and serves as essential prey for fish, seabirds and marine mammals, may be less able to sustain fishing pressur…",
+    "coreInsight": "Study challenges estimates used to guide Atlantic menhaden fishing is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Atlantic menhaden (Brevoortia tyrannus), which supports a major commercial fishery along the U.S. East Coast and serves as essential prey for fish, seabirds and marine mammals, may be less able to sustain fishing pressur…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.3,
+      "engineering": 7.3,
+      "economic": 6.8,
+      "civilization": 7.6,
+      "overall": 7.3,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789642802000
+  },
+  {
+    "slug": "bio-stat-a-biotech-hedge-fund-births-a-new-immunology-company",
+    "title": "STAT+: A biotech hedge fund births a new immunology company ",
+    "category": "Bio",
+    "source": "STAT",
+    "originalUrl": "https://www.statnews.com/2026/09/17/biotech-hedge-fund-startup-north-immunology/?utm_campaign=rss",
+    "summary": "Why a biotech hedge fund decided to build from the ground up a new company to develop a better, long-acting antibody treatment for atopic dermatitis.",
+    "coreInsight": "STAT+: A biotech hedge fund births a new immunology company  is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Why a biotech hedge fund decided to build from the ground up a new company to develop a better, long-acting antibody treatment for atopic dermatitis.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this Bio signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Biological discovery",
+      "Platform translation",
+      "Validation and regulation",
+      "Healthcare or manufacturing adoption",
+      "Biological resilience infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789641000000
+  },
+  {
+    "slug": "ai-stat-a-sellas-immunotherapy-study-long-delayed-will-end-in-failure",
+    "title": "STAT+: A Sellas immunotherapy study, long delayed, will end in failure",
+    "category": "AI",
+    "source": "STAT",
+    "originalUrl": "https://www.statnews.com/2026/09/17/sellas-immunotherapy-study-acute-myeloid-leukemia/?utm_campaign=rss",
+    "summary": "Why Sellas' experimental immunotherapy study is a blowup waiting to happen.",
+    "coreInsight": "STAT+: A Sellas immunotherapy study, long delayed, will end in failure indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
+    "scientificSignal": "Why Sellas' experimental immunotherapy study is a blowup waiting to happen.",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.6,
+      "engineering": 8,
+      "economic": 8.5,
+      "civilization": 9.1,
+      "overall": 8.6,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1789641000000
+  },
+  {
+    "slug": "general-meet-the-innovators-under-35-shaping-climate-tech",
+    "title": "Meet the innovators under 35 shaping climate tech",
+    "category": "General",
+    "source": "MIT Technology Review",
+    "originalUrl": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
+    "summary": "Each year, the editorial team at MIT Technology Review puts together a list of 35 innovators under 35—a group of researchers, inventors, and other young minds worth following. The team worked on the newest edition of the…",
+    "coreInsight": "Meet the innovators under 35 shaping climate tech indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "Each year, the editorial team at MIT Technology Review puts together a list of 35 innovators under 35—a group of researchers, inventors, and other young minds worth following. The team worked on the newest edition of the…",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 7.9,
+      "economic": 8,
+      "civilization": 9.2,
+      "overall": 8.4,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1789639200000
+  },
+  {
+    "slug": "ai-tunisia-signs-a-country-programme-framework-cpf-for-2026-2030",
+    "title": "Tunisia Signs a Country Programme Framework (CPF) for 2026-2030",
+    "category": "AI",
+    "source": "IAEA News",
+    "originalUrl": "http://www.iaea.org/newscenter/news/tunisia-signs-a-country-programme-framework-cpf-for-2026-2030",
+    "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and HE Mr Mondher Belaid, Minister of Higher Education and Scientific Research, Tunisia, signed Tunisia’s Country Programme Fr…",
+    "coreInsight": "Tunisia Signs a Country Programme Framework (CPF) for 2026-2030 indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and HE Mr Mondher Belaid, Minister of Higher Education and Scientific Research, Tunisia, signed Tunisia’s Country Programme Fr…",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 8.2,
+      "economic": 8.5,
+      "civilization": 9.3,
+      "overall": 8.7,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1789635625000
+  },
+  {
+    "slug": "general-stat-the-fda-s-rebuilding-effort-is-running-into-a-new-challenge",
+    "title": "STAT+: The FDA’s rebuilding effort is running into a new challenge",
+    "category": "General",
+    "source": "STAT",
+    "originalUrl": "https://www.statnews.com/2026/09/17/fda-doge-cuts-new-hires-slowed-centralized-hiring-center-short-staffed/?utm_campaign=rss",
+    "summary": "The FDA's plan to hire thousands of new workers is being slowed by an overwhelmed HR center.",
+    "coreInsight": "STAT+: The FDA’s rebuilding effort is running into a new challenge is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "The FDA's plan to hire thousands of new workers is being slowed by an overwhelmed HR center.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.6,
+      "engineering": 7.6,
+      "economic": 7.1,
+      "civilization": 7.9,
+      "overall": 7.6,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789633800000
+  },
+  {
+    "slug": "general-opinion-what-happened-to-oppositional-defiant-disorder",
+    "title": "Opinion: What happened to oppositional defiant disorder?",
+    "category": "General",
+    "source": "STAT",
+    "originalUrl": "https://www.statnews.com/2026/09/17/oppositional-defiant-disorder-use-of-odd-diagnosis-declines-in-children/?utm_campaign=rss",
+    "summary": "Over the past 25 years, there’s been a dramatic change in how we understand children who don’t “listen,” writes behavioral pediatrician Lawrence Diller.",
+    "coreInsight": "Opinion: What happened to oppositional defiant disorder? is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Over the past 25 years, there’s been a dramatic change in how we understand children who don’t “listen,” writes behavioral pediatrician Lawrence Diller.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789633800000
+  },
+  {
+    "slug": "general-world-s-water-cycle-becoming-more-unpredictable-un-warns",
+    "title": "World's water cycle becoming more unpredictable, UN warns",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-world-unpredictable.html",
+    "summary": "The planet's water cycle is becoming increasingly erratic, swinging between too little and too much, the United Nations warned Thursday, with an unprecedented El Niño expected to exacerbate the long-term trend.",
+    "coreInsight": "World's water cycle becoming more unpredictable, UN warns is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "The planet's water cycle is becoming increasingly erratic, swinging between too little and too much, the United Nations warned Thursday, with an unprecedented El Niño expected to exacerbate the long-term trend.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789633201000
+  },
+  {
+    "slug": "energy-nasa-spacecraft-discovers-a-huge-new-crater-on-the-moon",
+    "title": "NASA spacecraft discovers a huge new crater on the moon",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
+    "summary": "Scientists have discovered a crater on the moon that's bigger than the Roman Colosseum and is the result of a powerful impact two years ago that initially went undetected.",
+    "coreInsight": "NASA spacecraft discovers a huge new crater on the moon indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Scientists have discovered a crater on the moon that's bigger than the Roman Colosseum and is the result of a powerful impact two years ago that initially went undetected.",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.3,
+      "engineering": 9.7,
+      "economic": 9.9,
+      "civilization": 10,
+      "overall": 9.7,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1789632752000
+  },
+  {
+    "slug": "ai-climate-change-made-deadly-nepal-glacier-and-rock-collapse-more-likely-according",
+    "title": "Climate change made deadly Nepal glacier and rock collapse more likely, according to analysis",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-climate-deadly-nepal-glacier-collapse.html",
+    "summary": "Human-caused global warming thinned glaciers and thawed mountain permafrost, likely helping to destabilize the Himalayan slope that collapsed last month and unleashed catastrophic flooding across Nepal, according to a re…",
+    "coreInsight": "Climate change made deadly Nepal glacier and rock collapse more likely, according to analysis indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "Human-caused global warming thinned glaciers and thawed mountain permafrost, likely helping to destabilize the Himalayan slope that collapsed last month and unleashed catastrophic flooding across Nepal, according to a re…",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 7.9,
+      "economic": 8,
+      "civilization": 9.2,
+      "overall": 8.4,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1789632161000
+  },
+  {
+    "slug": "ai-stat-england-to-cover-astrazeneca-breast-cancer-drug-a-result-of-u-k-u-s-drug-pr",
+    "title": "STAT+: England to cover AstraZeneca breast cancer drug, a result of U.K.-U.S. drug pricing deal",
+    "category": "AI",
+    "source": "STAT",
+    "originalUrl": "https://www.statnews.com/2026/09/17/astrazeneca-enhertu-breast-cancer-england-nice-pricing-agreement-us-trade-deal/?utm_campaign=rss",
+    "summary": "A breast cancer drug from AstraZeneca will now be available in England after a pricing deal was reached, in part a result of the U.S.-U.K. pharma pact.",
+    "coreInsight": "STAT+: England to cover AstraZeneca breast cancer drug, a result of U.K.-U.S. drug pricing deal is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "A breast cancer drug from AstraZeneca will now be available in England after a pricing deal was reached, in part a result of the U.S.-U.K. pharma pact.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789630968000
+  },
+  {
     "slug": "space-three-space-companies-win-esa-awards-for-excellence-and-innovation",
     "title": "Three space companies win ESA awards for excellence and innovation",
     "category": "Space",
@@ -109,6 +1651,226 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1789628595000
+  },
+  {
+    "slug": "space-galileo-s-first-civil-authenticated-position-fix-under-spoofing-conditions",
+    "title": "Galileo's first civil authenticated position fix under spoofing conditions",
+    "category": "Space",
+    "source": "ESA",
+    "originalUrl": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_s_first_civil_authenticated_position_fix_under_spoofing_conditions",
+    "summary": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigat…",
+    "coreInsight": "Galileo's first civil authenticated position fix under spoofing conditions indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigat…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1789626000000
+  },
+  {
+    "slug": "general-iaea-visitor-centre-celebrates-its-first-anniversary",
+    "title": "IAEA Visitor Centre Celebrates Its First Anniversary",
+    "category": "General",
+    "source": "IAEA News",
+    "originalUrl": "http://www.iaea.org/newscenter/news/iaea-visitor-centre-celebrates-its-first-anniversary",
+    "summary": "",
+    "coreInsight": "IAEA Visitor Centre Celebrates Its First Anniversary is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "IAEA Visitor Centre Celebrates Its First Anniversary",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789621200000
+  },
+  {
+    "slug": "general-apod-2026-september-17-a-treasure-chest-in-the-carina-nebula",
+    "title": "APOD: 2026 September 17 – A Treasure Chest in the Carina Nebula",
+    "category": "General",
+    "source": "NASA",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
+    "summary": "APOD Science APOD APOD: 2026 September 17 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+    "coreInsight": "APOD: 2026 September 17 – A Treasure Chest in the Carina Nebula is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "APOD Science APOD APOD: 2026 September 17 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1789617900000
+  },
+  {
+    "slug": "general-summer-goes-out-with-a-heat-dome",
+    "title": "Summer Goes Out With a Heat Dome",
+    "category": "General",
+    "source": "NASA",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/",
+    "summary": "Temperature records toppled across the central and southern U.S. as the autumnal equinox approached.",
+    "coreInsight": "Summer Goes Out With a Heat Dome indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "Temperature records toppled across the central and southern U.S. as the autumnal equinox approached.",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 7.9,
+      "economic": 8,
+      "civilization": 9.2,
+      "overall": 8.4,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1789617660000
   },
   {
     "slug": "ai-theoretical-operational-modelling-of-complex-experiments-parameter-robustness-an",
@@ -3755,1462 +5517,27 @@ export const generatedResearchReports =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1789569287000
-  },
-  {
-    "slug": "bio-stat-sen-warren-demands-to-see-trump-drug-pricing-pharma-contracts-accuses-rfk-j",
-    "title": "STAT+: Sen. Warren demands to see Trump drug-pricing pharma contracts, accuses RFK Jr. of hiding them",
-    "category": "Bio",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/2026/09/16/biotech-news-sen-warren-demands-to-see-trump-drug-pricing-contracts/?utm_campaign=rss",
-    "summary": "An FDA pilot program to speed up drug development, Democrats plan health care probes after midterms, and more biotech news",
-    "coreInsight": "STAT+: Sen. Warren demands to see Trump drug-pricing pharma contracts, accuses RFK Jr. of hiding them indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "An FDA pilot program to speed up drug development, Democrats plan health care probes after midterms, and more biotech news",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.6,
-      "engineering": 8,
-      "economic": 8.5,
-      "civilization": 9.1,
-      "overall": 8.6,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1789565644000
-  },
-  {
-    "slug": "general-stat-pharmalittle-we-re-reading-about-faster-fda-approvals-access-to-experimenta",
-    "title": "STAT+: Pharmalittle: We’re reading about faster FDA approvals, access to experimental drugs in Montana, and more",
-    "category": "General",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss",
-    "summary": "The FDA is opening applications for a pilot program designed to shorten the time it takes for drugmakers to begin testing their products in humans",
-    "coreInsight": "STAT+: Pharmalittle: We’re reading about faster FDA approvals, access to experimental drugs in Montana, and more is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "The FDA is opening applications for a pilot program designed to shorten the time it takes for drugmakers to begin testing their products in humans",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789565352000
-  },
-  {
-    "slug": "ai-emerald-ai-google-and-nvidia-launch-alliance-to-advance-flexible-ai-data-centers",
-    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-    "category": "AI",
-    "source": "NVIDIA",
-    "originalUrl": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-    "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
-    "coreInsight": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Infrastructure Formation",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 9.5,
-      "economic": 9.7,
-      "civilization": 10,
-      "overall": 9.6,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1789563633000
-  },
-  {
-    "slug": "ai-reimagining-advertising-with-ai",
-    "title": "Reimagining advertising with AI",
-    "category": "AI",
-    "source": "OpenAI",
-    "originalUrl": "https://openai.com/index/reimagining-advertising-with-ai",
-    "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-    "coreInsight": "Reimagining advertising with AI indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9,
-      "engineering": 9.4,
-      "economic": 9.6,
-      "civilization": 10,
-      "overall": 9.5,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1789563600000
-  },
-  {
-    "slug": "ai-building-the-materials-foundation-for-ai",
-    "title": "Building the materials foundation for AI",
-    "category": "AI",
-    "source": "MIT Technology Review",
-    "originalUrl": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
-    "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data cen…",
-    "coreInsight": "Building the materials foundation for AI indicates a possible shift in computation, AI infrastructure, chips, data systems, automation, or strategic intelligence capacity.",
-    "scientificSignal": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data cen…",
-    "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
-    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
-    "strategicRelevance": "Strategically relevant for AI infrastructure, semiconductors, cloud platforms, data centers, simulation systems, automation, and institutional decision intelligence.",
-    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
-    "capitalImplication": "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud systems, data centers, model deployment, and computational platforms.",
-    "civilizationFunction": "Capability Expansion",
-    "keyConstraints": [
-      "Compute cost",
-      "Energy demand",
-      "Hardware availability",
-      "Security, safety, and governance constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
-    "technologyRoadmap": [
-      "Computational architecture",
-      "Hardware or model optimization",
-      "Platform deployment",
-      "Institutional and industrial adoption",
-      "Civilization-scale prediction capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Deployment into research and enterprise systems.",
-      "mid": "5–15 Years: Infrastructure-scale computational integration.",
-      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "Very High",
-      "timeHorizon": "3–10 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.7,
-      "economic": 9.6,
-      "civilization": 9.5,
-      "overall": 9.3,
-      "classification": "Intelligence Infrastructure Signal"
-    },
-    "ts": 1789562854000
-  },
-  {
-    "slug": "ai-the-download-ai-s-trillion-dollar-gamble-and-openai-s-biology-data-bid",
-    "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
-    "category": "AI",
-    "source": "MIT Technology Review",
-    "originalUrl": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
-    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance pro…",
-    "coreInsight": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance pro…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789560600000
-  },
-  {
-    "slug": "ai-how-to-connect-ai-usage-to-business-value",
-    "title": "How to connect AI usage to business value",
-    "category": "AI",
-    "source": "OpenAI",
-    "originalUrl": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-    "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-    "coreInsight": "How to connect AI usage to business value is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "ai-who-should-set-the-rules-for-ai-the-un-is-pushing-for-a-safer-digital-future",
-    "title": "Who should set the rules for AI? The UN is pushing for a safer digital future",
-    "category": "AI",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168353",
-    "summary": "Artificial intelligence (AI) is advancing rapidly, raising questions about how societies and governments can capture its benefits while managing risks that often extend beyond national borders.",
-    "coreInsight": "Who should set the rules for AI? The UN is pushing for a safer digital future is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "Artificial intelligence (AI) is advancing rapidly, raising questions about how societies and governments can capture its benefits while managing risks that often extend beyond national borders.",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.3,
-      "engineering": 7.3,
-      "economic": 6.8,
-      "civilization": 7.6,
-      "overall": 7.3,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "general-world-news-in-brief-shipping-alert-from-imo-democracy-vanishing-in-nicaragua-ale",
-    "title": "World News in Brief: Shipping alert from IMO, democracy vanishing in Nicaragua, alert over political ‘denialism’",
-    "category": "General",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168352",
-    "summary": "Amid a rising number of attacks on shipping in key waterways in the Middle East linked to the US-Iran war, the head of UN maritime agency, Mr. Arsenio Dominguez, has insisted that the conflict is not a “pretext” to targe…",
-    "coreInsight": "World News in Brief: Shipping alert from IMO, democracy vanishing in Nicaragua, alert over political ‘denialism’ is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "Amid a rising number of attacks on shipping in key waterways in the Middle East linked to the US-Iran war, the head of UN maritime agency, Mr. Arsenio Dominguez, has insisted that the conflict is not a “pretext” to targe…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "ai-repression-continues-in-venezuela-in-the-face-of-appalling-human-rights-violatio",
-    "title": "Repression continues in Venezuela in the face of ‘appalling’ human rights violations",
-    "category": "AI",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168351",
-    "summary": "In Venezuela’s El Rodeo maximum security prison, some of those detained for political reasons are subject to forced intubation – and prolonged confinement in a sealed underground cistern.",
-    "coreInsight": "Repression continues in Venezuela in the face of ‘appalling’ human rights violations is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "In Venezuela’s El Rodeo maximum security prison, some of those detained for political reasons are subject to forced intubation – and prolonged confinement in a sealed underground cistern.",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "ai-ai-climate-and-conflicts-top-guterres-s-agenda-ahead-of-general-assembly",
-    "title": "AI, climate and conflicts top Guterres’s agenda ahead of General Assembly",
-    "category": "AI",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168348",
-    "summary": "Ahead of the UN General Assembly’s high-level week, Secretary-General António Guterres said the world had entered “an era of deep uncertainty” and urged governments to embrace international cooperation to address global …",
-    "coreInsight": "AI, climate and conflicts top Guterres’s agenda ahead of General Assembly indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Ahead of the UN General Assembly’s high-level week, Secretary-General António Guterres said the world had entered “an era of deep uncertainty” and urged governments to embrace international cooperation to address global …",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.6,
-      "engineering": 8,
-      "economic": 8.3,
-      "civilization": 9.1,
-      "overall": 8.5,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "ai-security-council-live-being-a-woman-is-a-crime-in-afghanistan-civil-society-brie",
-    "title": "Security Council LIVE: ‘Being a woman is a crime in Afghanistan,’ civil society briefer declares",
-    "category": "AI",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168347",
-    "summary": "Since the Taliban returned to power in Afghanistan in 2021, the continuing presence of terrorist groups as well as rights violations against women and girls are a growing concern as the Security Council met Wednesday to …",
-    "coreInsight": "Security Council LIVE: ‘Being a woman is a crime in Afghanistan,’ civil society briefer declares indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Since the Taliban returned to power in Afghanistan in 2021, the continuing presence of terrorist groups as well as rights violations against women and girls are a growing concern as the Security Council met Wednesday to …",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.7,
-      "engineering": 9.1,
-      "economic": 9.3,
-      "civilization": 9.7,
-      "overall": 9.2,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "ai-un-report-warns-of-reprisals-against-those-who-collaborate-in-defence-of-human-r",
-    "title": "UN report warns of reprisals against those who collaborate in defence of human rights",
-    "category": "AI",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168345",
-    "summary": "Activists, lawyers and others who cooperate with the United Nations on human rights continue to face intimidation and reprisals, according to a new report issued on Wednesday by the Secretary-General that calls for great…",
-    "coreInsight": "UN report warns of reprisals against those who collaborate in defence of human rights indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Activists, lawyers and others who cooperate with the United Nations on human rights continue to face intimidation and reprisals, according to a new report issued on Wednesday by the Secretary-General that calls for great…",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 8.5,
-      "economic": 8.8,
-      "civilization": 9.6,
-      "overall": 9,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "general-gaza-at-least-20-killed-in-deadly-building-collapse-search-for-survivors-continu",
-    "title": "Gaza: At least 20 killed in deadly building collapse, search for survivors continues",
-    "category": "General",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168346",
-    "summary": "Search and rescue operations continued in Gaza City on Wednesday following the collapse of a bombed-out building that killed at least 20 people, according to reports.",
-    "coreInsight": "Gaza: At least 20 killed in deadly building collapse, search for survivors continues is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "Search and rescue operations continued in Gaza City on Wednesday following the collapse of a bombed-out building that killed at least 20 people, according to reports.",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "bio-the-world-comes-to-new-york-what-s-at-stake-at-un-general-assembly-high-level-we",
-    "title": "The world comes to New York: What’s at stake at UN General Assembly high-level week",
-    "category": "Bio",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168344",
-    "summary": "Each September, New York becomes the centre of global diplomacy as presidents, prime ministers, ministers and diplomats from around the world gather at United Nations Headquarters.",
-    "coreInsight": "The world comes to New York: What’s at stake at UN General Assembly high-level week indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Each September, New York becomes the centre of global diplomacy as presidents, prime ministers, ministers and diplomats from around the world gather at United Nations Headquarters.",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 8.5,
-      "economic": 8.8,
-      "civilization": 9.6,
-      "overall": 9,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1789560000000
-  },
-  {
-    "slug": "bio-u-s-reaches-highest-number-of-measles-deaths-in-decades",
-    "title": "U.S. reaches highest number of measles deaths in decades",
-    "category": "Bio",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/?utm_campaign=rss",
-    "summary": "How the midterms could change health care, the sedative contaminating the fentanyl black market, and other health news from Morning Rounds",
-    "coreInsight": "U.S. reaches highest number of measles deaths in decades indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "How the midterms could change health care, the sedative contaminating the fentanyl black market, and other health news from Morning Rounds",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.6,
-      "engineering": 8,
-      "economic": 8.5,
-      "civilization": 9.1,
-      "overall": 8.6,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1789559772000
-  },
-  {
-    "slug": "bio-the-republic-of-cabo-verde-signs-its-first-country-programme-framework-cpf-for-2",
-    "title": "The Republic of Cabo Verde signs its First Country Programme Framework (CPF) for 2026-2031",
-    "category": "Bio",
-    "source": "IAEA News",
-    "originalUrl": "http://www.iaea.org/newscenter/news/the-republic-of-cabo-verde-signs-its-first-country-programme-framework-cpf-for-2026-2031",
-    "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and HE Ms Clara Manuela da Luz Delgado Jesus, Resident Representative of the Permanent Mission of the Republic of Cabo Verde t…",
-    "coreInsight": "The Republic of Cabo Verde signs its First Country Programme Framework (CPF) for 2026-2031 indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and HE Ms Clara Manuela da Luz Delgado Jesus, Resident Representative of the Permanent Mission of the Republic of Cabo Verde t…",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 8.5,
-      "economic": 8.8,
-      "civilization": 9.6,
-      "overall": 9,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1789555391000
-  },
-  {
-    "slug": "general-purple-swirls-on-the-red-planet",
-    "title": "Purple swirls on the Red Planet",
-    "category": "General",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Purple_swirls_on_the_Red_Planet",
-    "summary": "This image shows a prominent ice cliff near Mars’s south pole. With striking swirls of purple, pink and red, it’s a far cry from the colour palette we usually associate with the Red Planet.",
-    "coreInsight": "Purple swirls on the Red Planet indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "This image shows a prominent ice cliff near Mars’s south pole. With striking swirls of purple, pink and red, it’s a far cry from the colour palette we usually associate with the Red Planet.",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.2,
-      "engineering": 9,
-      "economic": 7.8,
-      "civilization": 9.5,
-      "overall": 8.7,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1789549200000
-  },
-  {
-    "slug": "space-faster-flowing-glaciers-fuel-decades-of-polar-ice-loss",
-    "title": "Faster-flowing glaciers fuel decades of polar ice loss",
-    "category": "Space",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss",
-    "summary": "The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than t…",
-    "coreInsight": "Faster-flowing glaciers fuel decades of polar ice loss indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than t…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Infrastructure Formation",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1789549200000
-  },
-  {
-    "slug": "ai-how-workers-are-unlocking-new-ways-of-working",
-    "title": "How workers are unlocking new ways of working",
-    "category": "AI",
-    "source": "OpenAI",
-    "originalUrl": "https://openai.com/index/unlocking-new-ways-of-working",
-    "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-    "coreInsight": "How workers are unlocking new ways of working is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789549200000
-  },
-  {
-    "slug": "energy-stat-house-democrats-may-use-oversight-powers-to-plan-for-health-care-overhaul",
-    "title": "STAT+: House Democrats may use oversight powers to plan for health care overhaul",
-    "category": "Energy",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/2026/09/16/healthcare-reform-house-democrats-oversight-targets-after-midterms/?utm_campaign=rss",
-    "summary": "Democrats are mapping out their post-election strategy, and see health care probes as a winning issue.",
-    "coreInsight": "STAT+: House Democrats may use oversight powers to plan for health care overhaul indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "Democrats are mapping out their post-election strategy, and see health care probes as a winning issue.",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1789547400000
-  },
-  {
-    "slug": "ai-opinion-how-my-cancer-diagnosis-changed-the-way-i-train-physicians",
-    "title": "Opinion: How my cancer diagnosis changed the way I train physicians",
-    "category": "AI",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/2026/09/16/medical-school-cancer-structure-pathology-professor-personal-experience/?utm_campaign=rss",
-    "summary": "“The tumors, test results, and treatments I present to future physicians? Mine,” writes David Elkowitz, a professor of pathology and laboratory medicine and science education.",
-    "coreInsight": "Opinion: How my cancer diagnosis changed the way I train physicians indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "“The tumors, test results, and treatments I present to future physicians? Mine,” writes David Elkowitz, a professor of pathology and laboratory medicine and science education.",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.6,
-      "engineering": 8,
-      "economic": 8.5,
-      "civilization": 9.1,
-      "overall": 8.6,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1789547400000
-  },
-  {
-    "slug": "ai-opinion-stat-dementia-should-be-a-campaign-issue-not-an-insult",
-    "title": "Opinion: STAT+: Dementia should be a campaign issue — not an insult",
-    "category": "AI",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy/?utm_campaign=rss",
-    "summary": "STAT’s Neurotransmissions columnist Jason Karlawish asks: What are the harms of the way politicians talk about dementia? What should they say instead?",
-    "coreInsight": "Opinion: STAT+: Dementia should be a campaign issue — not an insult is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "STAT’s Neurotransmissions columnist Jason Karlawish asks: What are the harms of the way politicians talk about dementia? What should they say instead?",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789547400000
-  },
-  {
-    "slug": "energy-the-syrian-arab-republic-signs-a-country-programme-framework-cpf-for-2026-2031",
-    "title": "The Syrian Arab Republic Signs a Country Programme Framework (CPF) for 2026–2031",
-    "category": "Energy",
-    "source": "IAEA News",
-    "originalUrl": "http://www.iaea.org/newscenter/news/the-syrian-arab-republic-signs-a-country-programme-framework-cpf-for-2026-2031",
-    "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and Dr Mudar Al Okla, Director General of the Atomic Energy Commission of Syria, signed the Syrian Arab Republic’s Country Pro…",
-    "coreInsight": "The Syrian Arab Republic Signs a Country Programme Framework (CPF) for 2026–2031 indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and Dr Mudar Al Okla, Director General of the Atomic Energy Commission of Syria, signed the Syrian Arab Republic’s Country Pro…",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 8.5,
-      "economic": 8.8,
-      "civilization": 9.6,
-      "overall": 9,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1789542403000
-  },
-  {
-    "slug": "ai-university-of-manchester-uses-nvidia-earth-2-to-forecast-air-pollution-across-th",
-    "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-    "category": "AI",
-    "source": "NVIDIA",
-    "originalUrl": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-    "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is …",
-    "coreInsight": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is …",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.4,
-      "engineering": 7.8,
-      "economic": 8.3,
-      "civilization": 8.9,
-      "overall": 8.4,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1789534842000
-  },
-  {
-    "slug": "general-apod-2026-september-16-webb-s-view-of-m64",
-    "title": "APOD: 2026 September 16 – Webb’s View of M64",
-    "category": "General",
-    "source": "NASA",
-    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-16-webbs-view-of-m64/",
-    "summary": "APODScienceAPODAPOD: 2026 September 16 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
-    "coreInsight": "APOD: 2026 September 16 – Webb’s View of M64 is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "APODScienceAPODAPOD: 2026 September 16 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1789531500000
   }
 ];
 
 export const archeNovaTopSignals =
 [
   {
-    "slug": "ai-emerald-ai-google-and-nvidia-launch-alliance-to-advance-flexible-ai-data-centers",
-    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-    "category": "AI",
-    "source": "NVIDIA",
-    "originalUrl": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-    "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
-    "coreInsight": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
+    "slug": "energy-nasa-spacecraft-discovers-a-huge-new-crater-on-the-moon",
+    "title": "NASA spacecraft discovers a huge new crater on the moon",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
+    "summary": "Scientists have discovered a crater on the moon that's bigger than the Roman Colosseum and is the result of a powerful impact two years ago that initially went undetected.",
+    "coreInsight": "NASA spacecraft discovers a huge new crater on the moon indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Scientists have discovered a crater on the moon that's bigger than the Roman Colosseum and is the result of a powerful impact two years ago that initially went undetected.",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
     "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Infrastructure Formation",
+    "civilizationFunction": "Reality Discovery",
     "keyConstraints": [
       "Technical reliability",
       "Grid or industrial integration",
@@ -5241,69 +5568,69 @@ export const archeNovaTopSignals =
       "timeHorizon": "10–30 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 9.5,
-      "economic": 9.7,
+      "scientific": 9.3,
+      "engineering": 9.7,
+      "economic": 9.9,
       "civilization": 10,
-      "overall": 9.6,
+      "overall": 9.7,
       "classification": "Civilization Energy Signal"
     },
-    "ts": 1789563633000
+    "ts": 1789632752000
   },
   {
-    "slug": "energy-pellet-size-scaling-of-quasi-steady-state-plasma-performance-in-wendelstein-7-x",
-    "title": "Pellet-Size Scaling of Quasi-Steady-State Plasma Performance in Wendelstein 7-X",
-    "category": "Energy",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2609.17751",
-    "summary": "arXiv:2609.17751v1 Announce Type: new Abstract: A continuous cryogenic-pellet injector has been used to realize long-pulse high-performance plasmas in Wendelstein 7-X (W7-X). A hydrogen ice pellet deposits particles dire…",
-    "coreInsight": "Pellet-Size Scaling of Quasi-Steady-State Plasma Performance in Wendelstein 7-X indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "arXiv:2609.17751v1 Announce Type: new Abstract: A continuous cryogenic-pellet injector has been used to realize long-pulse high-performance plasmas in Wendelstein 7-X (W7-X). A hydrogen ice pellet deposits particles dire…",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Capability Expansion",
+    "slug": "space-galileo-s-first-civil-authenticated-position-fix-under-spoofing-conditions",
+    "title": "Galileo's first civil authenticated position fix under spoofing conditions",
+    "category": "Space",
+    "source": "ESA",
+    "originalUrl": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_s_first_civil_authenticated_position_fix_under_spoofing_conditions",
+    "summary": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigat…",
+    "coreInsight": "Galileo's first civil authenticated position fix under spoofing conditions indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigat…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
     "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
     ],
     "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
       "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
       "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
     ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
     "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
     ],
     "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
     },
     "assessment": {
       "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 9,
-      "engineering": 9.4,
-      "economic": 9.6,
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
       "civilization": 10,
-      "overall": 9.5,
-      "classification": "Civilization Energy Signal"
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
     },
-    "ts": 1789617600000
+    "ts": 1789626000000
   },
   {
     "slug": "ai-topological-flame-bifurcation-aerodynamic-flashback-margins-and-multi-pathway-no",
@@ -5361,21 +5688,21 @@ export const archeNovaTopSignals =
     "ts": 1789617600000
   },
   {
-    "slug": "ai-reimagining-advertising-with-ai",
-    "title": "Reimagining advertising with AI",
-    "category": "AI",
-    "source": "OpenAI",
-    "originalUrl": "https://openai.com/index/reimagining-advertising-with-ai",
-    "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-    "coreInsight": "Reimagining advertising with AI indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+    "slug": "energy-pellet-size-scaling-of-quasi-steady-state-plasma-performance-in-wendelstein-7-x",
+    "title": "Pellet-Size Scaling of Quasi-Steady-State Plasma Performance in Wendelstein 7-X",
+    "category": "Energy",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2609.17751",
+    "summary": "arXiv:2609.17751v1 Announce Type: new Abstract: A continuous cryogenic-pellet injector has been used to realize long-pulse high-performance plasmas in Wendelstein 7-X (W7-X). A hydrogen ice pellet deposits particles dire…",
+    "coreInsight": "Pellet-Size Scaling of Quasi-Steady-State Plasma Performance in Wendelstein 7-X indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "arXiv:2609.17751v1 Announce Type: new Abstract: A continuous cryogenic-pellet injector has been used to realize long-pulse high-performance plasmas in Wendelstein 7-X (W7-X). A hydrogen ice pellet deposits particles dire…",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
     "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
+    "civilizationFunction": "Capability Expansion",
     "keyConstraints": [
       "Technical reliability",
       "Grid or industrial integration",
@@ -5413,62 +5740,7 @@ export const archeNovaTopSignals =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
-    "ts": 1789563600000
-  },
-  {
-    "slug": "space-faster-flowing-glaciers-fuel-decades-of-polar-ice-loss",
-    "title": "Faster-flowing glaciers fuel decades of polar ice loss",
-    "category": "Space",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss",
-    "summary": "The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than t…",
-    "coreInsight": "Faster-flowing glaciers fuel decades of polar ice loss indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than t…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Infrastructure Formation",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1789549200000
+    "ts": 1789617600000
   },
   {
     "slug": "bio-cellares-and-genomefrontier-therapeutics-partner-to-advance-automated-manufactur",
@@ -5525,6 +5797,61 @@ export const archeNovaTopSignals =
       "classification": "Biological Capability Signal"
     },
     "ts": 1789581849000
+  },
+  {
+    "slug": "ai-icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight",
+    "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
+    "category": "AI",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/",
+    "summary": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
+    "coreInsight": "Icarus Robotics tests Joy in Canada ahead of ISS flight indicates a possible shift in how knowledge, materials, automation, and production systems can be converted into scalable industrial capability.",
+    "scientificSignal": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
+    "whyItMatters": "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
+    "strategicRelevance": "Strategically relevant for industrial capability, robotics, materials processing, supply-chain resilience, production automation, and infrastructure formation.",
+    "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
+    "capitalImplication": "Capital implication: monitor for commercialization pathways in automation, robotics, advanced materials, industrial software, manufacturing systems, and resilient supply-chain infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Scalability from prototype to production",
+      "Manufacturing cost and reliability",
+      "Supply-chain integration",
+      "Quality control and operational safety"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
+    "technologyRoadmap": [
+      "Scientific process discovery",
+      "Prototype manufacturing method",
+      "Automation and quality control",
+      "Industrial production integration",
+      "Resilient manufacturing infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Pilot deployment and industrial validation.",
+      "mid": "5–15 Years: Broad manufacturing integration and automation.",
+      "far": "15–30 Years: Self-optimizing industrial ecosystems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 10,
+      "economic": 9.6,
+      "civilization": 9.4,
+      "overall": 9.4,
+      "classification": "Industrial Capability Signal"
+    },
+    "ts": 1789650000000
   },
   {
     "slug": "ai-plainmap-a-lightweight-restartable-mapping-pipeline-for-ancient-and-modern-dna",
@@ -5753,21 +6080,21 @@ export const archeNovaTopSignals =
 export const archeNovaWatchlist =
 [
   {
-    "slug": "ai-emerald-ai-google-and-nvidia-launch-alliance-to-advance-flexible-ai-data-centers",
-    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-    "category": "AI",
-    "source": "NVIDIA",
-    "originalUrl": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-    "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
-    "coreInsight": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch…",
+    "slug": "energy-nasa-spacecraft-discovers-a-huge-new-crater-on-the-moon",
+    "title": "NASA spacecraft discovers a huge new crater on the moon",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
+    "summary": "Scientists have discovered a crater on the moon that's bigger than the Roman Colosseum and is the result of a powerful impact two years ago that initially went undetected.",
+    "coreInsight": "NASA spacecraft discovers a huge new crater on the moon indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Scientists have discovered a crater on the moon that's bigger than the Roman Colosseum and is the result of a powerful impact two years ago that initially went undetected.",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
     "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Infrastructure Formation",
+    "civilizationFunction": "Reality Discovery",
     "keyConstraints": [
       "Technical reliability",
       "Grid or industrial integration",
@@ -5798,16 +6125,73 @@ export const archeNovaWatchlist =
       "timeHorizon": "10–30 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 9.5,
-      "economic": 9.7,
+      "scientific": 9.3,
+      "engineering": 9.7,
+      "economic": 9.9,
       "civilization": 10,
-      "overall": 9.6,
+      "overall": 9.7,
       "classification": "Civilization Energy Signal"
     },
-    "ts": 1789563633000,
+    "ts": 1789632752000,
     "trend": "Top Signal",
     "rank": 1
+  },
+  {
+    "slug": "space-galileo-s-first-civil-authenticated-position-fix-under-spoofing-conditions",
+    "title": "Galileo's first civil authenticated position fix under spoofing conditions",
+    "category": "Space",
+    "source": "ESA",
+    "originalUrl": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_s_first_civil_authenticated_position_fix_under_spoofing_conditions",
+    "summary": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigat…",
+    "coreInsight": "Galileo's first civil authenticated position fix under spoofing conditions indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigat…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1789626000000,
+    "trend": "High Priority",
+    "rank": 2
   },
   {
     "slug": "ai-topological-flame-bifurcation-aerodynamic-flashback-margins-and-multi-pathway-no",
@@ -5864,7 +6248,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1789617600000,
     "trend": "High Priority",
-    "rank": 2
+    "rank": 3
   },
   {
     "slug": "energy-pellet-size-scaling-of-quasi-steady-state-plasma-performance-in-wendelstein-7-x",
@@ -5921,64 +6305,64 @@ export const archeNovaWatchlist =
     },
     "ts": 1789617600000,
     "trend": "High Priority",
-    "rank": 3
+    "rank": 4
   },
   {
-    "slug": "ai-reimagining-advertising-with-ai",
-    "title": "Reimagining advertising with AI",
+    "slug": "ai-icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight",
+    "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
     "category": "AI",
-    "source": "OpenAI",
-    "originalUrl": "https://openai.com/index/reimagining-advertising-with-ai",
-    "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-    "coreInsight": "Reimagining advertising with AI indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/",
+    "summary": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
+    "coreInsight": "Icarus Robotics tests Joy in Canada ahead of ISS flight indicates a possible shift in how knowledge, materials, automation, and production systems can be converted into scalable industrial capability.",
+    "scientificSignal": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
+    "whyItMatters": "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
+    "strategicRelevance": "Strategically relevant for industrial capability, robotics, materials processing, supply-chain resilience, production automation, and infrastructure formation.",
+    "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
+    "capitalImplication": "Capital implication: monitor for commercialization pathways in automation, robotics, advanced materials, industrial software, manufacturing systems, and resilient supply-chain infrastructure.",
+    "civilizationFunction": "Reality Discovery",
     "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
+      "Scalability from prototype to production",
+      "Manufacturing cost and reliability",
+      "Supply-chain integration",
+      "Quality control and operational safety"
     ],
     "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
       "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
       "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
     ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "watchpoint": "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
     "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
+      "Scientific process discovery",
+      "Prototype manufacturing method",
+      "Automation and quality control",
+      "Industrial production integration",
+      "Resilient manufacturing infrastructure"
     ],
     "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+      "near": "1–5 Years: Pilot deployment and industrial validation.",
+      "mid": "5–15 Years: Broad manufacturing integration and automation.",
+      "far": "15–30 Years: Self-optimizing industrial ecosystems."
     },
     "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–15 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 9,
-      "engineering": 9.4,
+      "scientific": 8.8,
+      "engineering": 10,
       "economic": 9.6,
-      "civilization": 10,
-      "overall": 9.5,
-      "classification": "Civilization Energy Signal"
+      "civilization": 9.4,
+      "overall": 9.4,
+      "classification": "Industrial Capability Signal"
     },
-    "ts": 1789563600000,
-    "trend": "High Priority",
-    "rank": 4
+    "ts": 1789650000000,
+    "trend": "Stable",
+    "rank": 5
   },
   {
     "slug": "ai-plainmap-a-lightweight-restartable-mapping-pipeline-for-ancient-and-modern-dna",
@@ -6036,7 +6420,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1789617600000,
     "trend": "Stable",
-    "rank": 5
+    "rank": 6
   },
   {
     "slug": "bio-cellares-and-genomefrontier-therapeutics-partner-to-advance-automated-manufactur",
@@ -6094,7 +6478,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1789581849000,
     "trend": "Stable",
-    "rank": 6
+    "rank": 7
   },
   {
     "slug": "bio-prime-assembly-expands-genome-editing-with-precise-large-scale-dna-integration",
@@ -6151,63 +6535,6 @@ export const archeNovaWatchlist =
       "classification": "Biological Capability Signal"
     },
     "ts": 1789580964000,
-    "trend": "Stable",
-    "rank": 7
-  },
-  {
-    "slug": "space-faster-flowing-glaciers-fuel-decades-of-polar-ice-loss",
-    "title": "Faster-flowing glaciers fuel decades of polar ice loss",
-    "category": "Space",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss",
-    "summary": "The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than t…",
-    "coreInsight": "Faster-flowing glaciers fuel decades of polar ice loss indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than t…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Infrastructure Formation",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1789549200000,
     "trend": "Stable",
     "rank": 8
   },
@@ -6554,63 +6881,6 @@ export const archeNovaWatchlist =
     "rank": 14
   },
   {
-    "slug": "ai-building-the-materials-foundation-for-ai",
-    "title": "Building the materials foundation for AI",
-    "category": "AI",
-    "source": "MIT Technology Review",
-    "originalUrl": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
-    "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data cen…",
-    "coreInsight": "Building the materials foundation for AI indicates a possible shift in computation, AI infrastructure, chips, data systems, automation, or strategic intelligence capacity.",
-    "scientificSignal": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data cen…",
-    "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
-    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
-    "strategicRelevance": "Strategically relevant for AI infrastructure, semiconductors, cloud platforms, data centers, simulation systems, automation, and institutional decision intelligence.",
-    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
-    "capitalImplication": "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud systems, data centers, model deployment, and computational platforms.",
-    "civilizationFunction": "Capability Expansion",
-    "keyConstraints": [
-      "Compute cost",
-      "Energy demand",
-      "Hardware availability",
-      "Security, safety, and governance constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
-    "technologyRoadmap": [
-      "Computational architecture",
-      "Hardware or model optimization",
-      "Platform deployment",
-      "Institutional and industrial adoption",
-      "Civilization-scale prediction capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Deployment into research and enterprise systems.",
-      "mid": "5–15 Years: Infrastructure-scale computational integration.",
-      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "Very High",
-      "timeHorizon": "3–10 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.7,
-      "economic": 9.6,
-      "civilization": 9.5,
-      "overall": 9.3,
-      "classification": "Intelligence Infrastructure Signal"
-    },
-    "ts": 1789562854000,
-    "trend": "Stable",
-    "rank": 15
-  },
-  {
     "slug": "bio-lifecycle-approach-could-solve-cgt-scale-up-challenges",
     "title": "Lifecycle Approach Could Solve CGT Scale-Up Challenges",
     "category": "Bio",
@@ -6666,64 +6936,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1789574414000,
     "trend": "Stable",
-    "rank": 16
-  },
-  {
-    "slug": "ai-security-council-live-being-a-woman-is-a-crime-in-afghanistan-civil-society-brie",
-    "title": "Security Council LIVE: ‘Being a woman is a crime in Afghanistan,’ civil society briefer declares",
-    "category": "AI",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168347",
-    "summary": "Since the Taliban returned to power in Afghanistan in 2021, the continuing presence of terrorist groups as well as rights violations against women and girls are a growing concern as the Security Council met Wednesday to …",
-    "coreInsight": "Security Council LIVE: ‘Being a woman is a crime in Afghanistan,’ civil society briefer declares indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Since the Taliban returned to power in Afghanistan in 2021, the continuing presence of terrorist groups as well as rights violations against women and girls are a growing concern as the Security Council met Wednesday to …",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.7,
-      "engineering": 9.1,
-      "economic": 9.3,
-      "civilization": 9.7,
-      "overall": 9.2,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1789560000000,
-    "trend": "Stable",
-    "rank": 17
+    "rank": 15
   },
   {
     "slug": "ai-nvidia-vera-rubin-nvl72-delivers-leading-performance-in-mlperf-inference-v6-1-de",
@@ -6781,7 +6994,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1789570848000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 16
   },
   {
     "slug": "space-three-space-companies-win-esa-awards-for-excellence-and-innovation",
@@ -6838,7 +7051,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1789629000000,
     "trend": "Stable",
-    "rank": 19
+    "rank": 17
   },
   {
     "slug": "ai-theoretical-operational-modelling-of-complex-experiments-parameter-robustness-an",
@@ -6856,6 +7069,122 @@ export const archeNovaWatchlist =
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
     "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
     "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.1,
+      "engineering": 8.5,
+      "economic": 8.8,
+      "civilization": 9.6,
+      "overall": 9,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1789617600000,
+    "trend": "Stable",
+    "rank": 18
+  },
+  {
+    "slug": "bio-modelling-sexual-partnership-dynamics-and-population-heterogeneities-in-agent-ba",
+    "title": "Modelling sexual partnership dynamics and population heterogeneities in agent-based dynamic network models",
+    "category": "Bio",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2609.17622",
+    "summary": "arXiv:2609.17622v1 Announce Type: new Abstract: Population-level heterogeneities, combined with temporal fluctuations in sexual partnerships, shape the structure of sexual contact networks and can substantially influence…",
+    "coreInsight": "Modelling sexual partnership dynamics and population heterogeneities in agent-based dynamic network models indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "arXiv:2609.17622v1 Announce Type: new Abstract: Population-level heterogeneities, combined with temporal fluctuations in sexual partnerships, shape the structure of sexual contact networks and can substantially influence…",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.1,
+      "engineering": 8.5,
+      "economic": 8.8,
+      "civilization": 9.6,
+      "overall": 9,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1789617600000,
+    "trend": "Stable",
+    "rank": 19
+  },
+  {
+    "slug": "ai-structure-is-not-mechanism-high-gain-gated-ffn-rows-across-text-and-genomic-foun",
+    "title": "Structure is not mechanism: high-gain gated-FFN rows across text and genomic foundation models",
+    "category": "AI",
+    "source": "arXiv q-bio",
+    "originalUrl": "https://arxiv.org/abs/2609.17599",
+    "summary": "arXiv:2609.17599v1 Announce Type: new Abstract: A small number of unusually high-gain parameters can exert disproportionate effects in transformer language models, but whether analogous structures recur in genomic founda…",
+    "coreInsight": "Structure is not mechanism: high-gain gated-FFN rows across text and genomic foundation models indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "arXiv:2609.17599v1 Announce Type: new Abstract: A small number of unusually high-gain parameters can exert disproportionate effects in transformer language models, but whether analogous structures recur in genomic founda…",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Civilization Engineering",
     "keyConstraints": [
       "Independent biological validation",
       "Off-target effects and genetic stability",
