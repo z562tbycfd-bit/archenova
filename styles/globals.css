@@ -49873,3 +49873,67 @@ i {
     background: transparent !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME — ARchenova Valley
+   Invisible Native Scrollbar
+   ----------------------------------------------------------
+   Keep vertical scrolling fully functional.
+   Hide only the visual scrollbar.
+   Do not change content height / overflow ownership.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-valley
+  > * {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .archenova-twin-home
+  #archenova-valley
+  > *::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    display: none !important;
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  #archenova-valley
+  > *::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  #archenova-valley
+  > *::-webkit-scrollbar-thumb {
+    background: transparent !important;
+    border: 0 !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
