@@ -1,7 +1,115 @@
 {
   "ok": true,
-  "updated": "2026-09-18T14:12:08.152Z",
+  "updated": "2026-09-18T18:08:35.412Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Time-Restricted Eating Linked to Improved Huntington’s Disease Markers",
+      "url": "https://www.genengnews.com/topics/translational-medicine/time-restricted-eating-linked-to-improved-huntingtons-disease-markers/",
+      "summary": "A 12-week pilot study found time-restricted eating was safe and feasible for people with early Huntington’s disease, with improvements in disease severity, neurofilament light, and mitochondrial function. The post Time-R…",
+      "ts": 1789752582000,
+      "publishedAt": "2026-09-18T17:29:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Asahi Kasei Introduces VANTIJ® SU-VFC Benchtop Virus-Filtration System",
+      "url": "https://www.genengnews.com/topics/bioprocessing/asahi-kasei-introduces-vantij-su-vfc-benchtop-virus-filtration-system/",
+      "summary": "The instrument, the first benchtop-scale platform in Asahi Kasei Bioprocess’s VANTIJ family, extends the automation and operator-focused design principles of the existing portfolio while simplifying virus filtration proc…",
+      "ts": 1789751970000,
+      "publishedAt": "2026-09-18T17:19:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "GBI Biomanufacturing Set to Launch SmartScale GMP Solutions",
+      "url": "https://www.genengnews.com/topics/bioprocessing/gbi-biomanufacturing-set-to-launch-smartscale-gmp-solutions/",
+      "summary": "Many early-stage drug developers need a more efficient path to obtaining the GMP material required to reach the clinic. SmartScale was designed to help close that gap. The post GBI Biomanufacturing Set to Launch SmartSca…",
+      "ts": 1789751926000,
+      "publishedAt": "2026-09-18T17:18:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Nu-Tek Brings Topic of Raw-Material Risk to BPI",
+      "url": "https://www.genengnews.com/topics/bioprocessing/nu-tek-brings-topic-of-raw-material-risk-to-bpi/",
+      "summary": "Nu-Tek BioSciences will use BPI East to highlight animal-origin-free peptones and hydrolysates designed to strengthen media consistency, reduce raw-material risk, and support more reliable cell culture and fermentation p…",
+      "ts": 1789751846000,
+      "publishedAt": "2026-09-18T17:17:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Model-Free, Pure Component Analysis Could Help Biopharma Cut Costs",
+      "url": "https://www.genengnews.com/topics/bioprocessing/model-free-pure-component-analysis-could-help-biopharma-cut-costs/",
+      "summary": "Spectroscopic analysis techniques rely on empirical models that are time consuming and expensive to make. Biopharma companies could speed development and reduce costs using a model-free measuring approach called pure-com…",
+      "ts": 1789751831000,
+      "publishedAt": "2026-09-18T17:17:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+:  In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan",
+      "url": "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss",
+      "summary": "Several Texas hospitals are suing an out-of-state Blue Cross for unpaid medical claims, highlighting the varying standards for whether care is medically necessary.",
+      "ts": 1789749713000,
+      "publishedAt": "2026-09-18T16:41:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Saga of Sickle Cell Disease",
+      "url": "https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/",
+      "summary": "In his new book Curved Air, Kevin Davies, PhD, portrays the fascinating story of sickle cell disease, from its origins in sub-Saharan Africa to advances in gene therapy, along with powerful personal insights from patient…",
+      "ts": 1789748880000,
+      "publishedAt": "2026-09-18T16:28:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Two-Organ View of the Human Brain Emerges",
+      "url": "https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/",
+      "summary": "Research suggests that the brain is two distinct organs that evolved independently and comprise two ancient nervous systems packaged together; a hindbrain that regulates essential functions, and a forebrain that handles …",
+      "ts": 1789747454000,
+      "publishedAt": "2026-09-18T16:04:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+      "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+      "summary": "To continue regular crew transportation to the International Space Station, NASA has awarded SpaceX three additional missions through a contract modification.",
+      "ts": 1789747351000,
+      "publishedAt": "2026-09-18T16:02:31.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "COSI Telescope Comes Together",
+      "url": "https://www.nasa.gov/image-article/cosi-telescope-comes-together/",
+      "summary": "UC Berkeley engineers and managers watch as the COSI (Compton Spectrometer and Imager) detector assembly is slowly raised from a table in this July 8, 2026, image. The four pieces of silver material on the top of the det…",
+      "ts": 1789746303000,
+      "publishedAt": "2026-09-18T15:45:03.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Palomar Labs Spins Out Ariadne Bio to Advance Non-Hallucinogenic Therapy for Parkinson’s Apathy",
+      "url": "https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/",
+      "summary": "Backed by preclinical data and funding from The Michael J. Fox Foundation, Ariadne Bio is advancing AB-300, a serotonin 2A receptor agonist, as a potential treatment for Parkinson’s-related apathy. The post Palomar Labs …",
+      "ts": 1789744305000,
+      "publishedAt": "2026-09-18T15:11:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Terran Orbital Promotes Margherita Cardi to Vice President of European Operations & Head of Strategic Programs",
+      "url": "https://spacenews.com/terran-orbital-promotes-margherita-cardi-to-vice-president-of-european-operations-head-of-strategic-programs/",
+      "summary": "IRVINE, Calif. and TORINO, Italy – Sept. 17, 2026 – Terran Orbital, a Lockheed Martin company and a global leader in satellite-based solutions primarily serving the aerospace and defense industries, […] The post Terran O…",
+      "ts": 1789742858000,
+      "publishedAt": "2026-09-18T14:47:38.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Roche expands its Boston footprint with new research center",
@@ -64,6 +172,51 @@
       "ts": 1789733400000,
       "publishedAt": "2026-09-18T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Less than 4 years from development goals deadline, progress shows what’s possible",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168371",
+      "summary": "For Benin, making progress on the UN’s Sustainable Development Goals (SDGs) has meant finding new ways to finance development.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Women and girls pay high price in DR Congo Ebola outbreak",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168368",
+      "summary": "The deadly Ebola outbreak in the Democratic Republic of the Congo (DRC) has taken a disproportionate toll on women and girls, many of whom are on the frontlines caring for patients as well as their own families despite t…",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti: Child malnutrition crisis worsens amid escalating violence",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168366",
+      "summary": "Haiti is facing a worsening child malnutrition crisis, with an estimated 253,725 children aged 6 to 59 months projected to suffer from acute malnutrition between June 2026 and May 2027, new UN-backed analysis has reveale…",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nepal floods: ‘Apocalyptic’ destruction signals wider climate threat across Himalayas",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168365",
+      "summary": "The catastrophic flooding that swept away entire villages in northern Nepal could occur again in the country or elsewhere in the Himalayas due to climate change.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen’s humanitarian crisis growing by the hour amid spike in displacement",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168364",
+      "summary": "People displaced by the renewed fighting in Yemen have described fleeing for their lives amid shelling and gunfire, aid agencies reported on Friday, while highlighting the dramatic increase in humanitarian needs in the c…",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "MIT Technology Review",
@@ -658,159 +811,6 @@
       "ts": 1789646400000,
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN fact-finding mission on Iran focuses on plight of civilians",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168358",
-      "summary": "The Independent International Fact-Finding Mission on Iran confirmed that civilians in the country suffered serious human rights violations and “crimes against humanity committed by their government,” while finding \"reas…",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres calls for action as hate speech spreads across new platforms online",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168356",
-      "summary": "The UN Secretary-General has called for concerted action by governments, technology companies and civil society to stamp out hate speech, emphasizing that “its toxic message is spreading fast and striking deep”.",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Syria’s transition in the spotlight",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168355",
-      "summary": "While Syria is making progress in its political transition, the Security Council is meeting to hear briefings and discuss the situation on the ground, including recent reports of deadly armed clashes with an ISIS-affilia…",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Yemen escalation displaces more than 57,000 children: UNICEF",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168354",
-      "summary": "Renewed fighting in Yemen is deepening an already severe humanitarian crisis in a country where more than 12 million children depend on aid, after more than a decade of conflict.",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "As freshwater reserves shrink, countries must prepare for a new water reality",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168350",
-      "summary": "The world is entering a period in which abnormal water supplies are becoming the norm, with river flows, groundwater and glaciers all showing signs of sustained disruption, the UN weather agency warned on Thursday.",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about FDA hiring delays, a new Bavarian Nordic CEO, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss",
-      "summary": "For all the talk of a hiring spree at the FDA after DOGE cuts last year, the reality is more complicated and filled with bureaucratic delays",
-      "ts": 1789646397000,
-      "publishedAt": "2026-09-17T11:59:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A biotech hedge fund births a new immunology company ",
-      "url": "https://www.statnews.com/2026/09/17/biotech-hedge-fund-startup-north-immunology/?utm_campaign=rss",
-      "summary": "Why a biotech hedge fund decided to build from the ground up a new company to develop a better, long-acting antibody treatment for atopic dermatitis.",
-      "ts": 1789641000000,
-      "publishedAt": "2026-09-17T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A Sellas immunotherapy study, long delayed, will end in failure",
-      "url": "https://www.statnews.com/2026/09/17/sellas-immunotherapy-study-acute-myeloid-leukemia/?utm_campaign=rss",
-      "summary": "Why Sellas' experimental immunotherapy study is a blowup waiting to happen.",
-      "ts": 1789641000000,
-      "publishedAt": "2026-09-17T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Meet the innovators under 35 shaping climate tech",
-      "url": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
-      "summary": "Each year, the editorial team at MIT Technology Review puts together a list of 35 innovators under 35—a group of researchers, inventors, and other young minds worth following. The team worked on the newest edition of the…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Tunisia Signs a Country Programme Framework (CPF) for 2026-2030",
-      "url": "http://www.iaea.org/newscenter/news/tunisia-signs-a-country-programme-framework-cpf-for-2026-2030",
-      "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and HE Mr Mondher Belaid, Minister of Higher Education and Scientific Research, Tunisia, signed Tunisia’s Country Programme Fr…",
-      "ts": 1789635625000,
-      "publishedAt": "2026-09-17T09:00:25.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The FDA’s rebuilding effort is running into a new challenge",
-      "url": "https://www.statnews.com/2026/09/17/fda-doge-cuts-new-hires-slowed-centralized-hiring-center-short-staffed/?utm_campaign=rss",
-      "summary": "The FDA's plan to hire thousands of new workers is being slowed by an overwhelmed HR center.",
-      "ts": 1789633800000,
-      "publishedAt": "2026-09-17T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What happened to oppositional defiant disorder?",
-      "url": "https://www.statnews.com/2026/09/17/oppositional-defiant-disorder-use-of-odd-diagnosis-declines-in-children/?utm_campaign=rss",
-      "summary": "Over the past 25 years, there’s been a dramatic change in how we understand children who don’t “listen,” writes behavioral pediatrician Lawrence Diller.",
-      "ts": 1789633800000,
-      "publishedAt": "2026-09-17T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA starts next phase of IRIS² evolution through Low-LEO activities ",
-      "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_starts_next_phase_of_IRIS2_evolution_through_Low-LEO_activities",
-      "summary": "The European Space Agency (ESA) has signed 18 consolidation contracts bringing together nearly 80 companies to study new secure and resilient connectivity services. The contracts also cover associated mission concepts an…",
-      "ts": 1789632420000,
-      "publishedAt": "2026-09-17T08:07:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: England to cover AstraZeneca breast cancer drug, a result of U.K.-U.S. drug pricing deal",
-      "url": "https://www.statnews.com/2026/09/17/astrazeneca-enhertu-breast-cancer-england-nice-pricing-agreement-us-trade-deal/?utm_campaign=rss",
-      "summary": "A breast cancer drug from AstraZeneca will now be available in England after a pricing deal was reached, in part a result of the U.S.-U.K. pharma pact.",
-      "ts": 1789630968000,
-      "publishedAt": "2026-09-17T07:42:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Three space companies win ESA awards for excellence and innovation",
-      "url": "https://www.esa.int/About_Us/Business_with_ESA/Three_space_companies_win_ESA_awards_for_excellence_and_innovation",
-      "summary": "On 16 September at its Industry Space Days 2026 event at ESA–ESTEC in the Netherlands, the European Space Agency (ESA) honoured three space companies with this year’s prestigious awards for excellence and innovation.",
-      "ts": 1789629000000,
-      "publishedAt": "2026-09-17T07:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Galileo's first civil authenticated position fix under spoofing conditions",
-      "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_s_first_civil_authenticated_position_fix_under_spoofing_conditions",
-      "summary": "For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigat…",
-      "ts": 1789626000000,
-      "publishedAt": "2026-09-17T06:20:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Visitor Centre Celebrates Its First Anniversary",
-      "url": "http://www.iaea.org/newscenter/news/iaea-visitor-centre-celebrates-its-first-anniversary",
-      "summary": "",
-      "ts": 1789621200000,
-      "publishedAt": "2026-09-17T05:00:00.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
