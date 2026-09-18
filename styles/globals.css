@@ -50517,3 +50517,253 @@ i {
 
 
 
+/* ==========================================================
+   ARCHENOVA — ADAPTIVE QUIET NAVIGATION
+   ----------------------------------------------------------
+   INITIAL
+      Clearly discoverable
+
+   QUIET
+      Present without demanding attention
+
+   INTENT
+      Immediately returns to clarity
+
+   Navigation never disappears.
+========================================================== */
+
+
+/* ==========================================================
+   INITIAL STATE
+========================================================== */
+
+.an-menu:not(.is-quiet)
+.an-menu__trigger {
+  opacity: 0.92 !important;
+
+  transform:
+    scale(0.97) !important;
+}
+
+
+.an-menu:not(.is-quiet)
+.an-menu__trigger-lines i {
+  background:
+    rgba(246,249,251,0.72) !important;
+}
+
+
+/* ==========================================================
+   QUIET STATE
+========================================================== */
+
+.an-menu.is-quiet
+.an-menu__trigger {
+  opacity: 0.46 !important;
+
+  transform:
+    scale(0.88) !important;
+
+  border-color:
+    rgba(255,255,255,0.032) !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(13,14,16,0.17),
+      rgba(0,0,0,0.27)
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(18px)
+    saturate(102%) !important;
+
+  backdrop-filter:
+    blur(18px)
+    saturate(102%) !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(255,255,255,0.018) !important;
+}
+
+
+.an-menu.is-quiet
+.an-menu__trigger-lines i {
+  background:
+    rgba(244,247,249,0.46) !important;
+}
+
+
+/* ==========================================================
+   INTENT
+   Pointer / keyboard / touch interaction
+========================================================== */
+
+.an-menu.is-quiet.has-intent
+.an-menu__trigger,
+.an-menu.is-quiet
+.an-menu__trigger:hover,
+.an-menu.is-quiet
+.an-menu__trigger:focus-visible,
+.an-menu.is-quiet
+.an-menu__trigger:active {
+  opacity: 1 !important;
+
+  transform:
+    scale(1) !important;
+
+  border-color:
+    rgba(255,255,255,0.085) !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(16,17,19,0.36),
+      rgba(0,0,0,0.49)
+    ) !important;
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(106%) !important;
+
+  backdrop-filter:
+    blur(22px)
+    saturate(106%) !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(255,255,255,0.038),
+
+    inset
+    0
+    -1px
+    0
+    rgba(255,255,255,0.01) !important;
+}
+
+
+.an-menu.is-quiet.has-intent
+.an-menu__trigger-lines i,
+.an-menu.is-quiet
+.an-menu__trigger:hover
+.an-menu__trigger-lines i,
+.an-menu.is-quiet
+.an-menu__trigger:focus-visible
+.an-menu__trigger-lines i,
+.an-menu.is-quiet
+.an-menu__trigger:active
+.an-menu__trigger-lines i {
+  background:
+    rgba(248,250,252,0.88) !important;
+}
+
+
+/* ==========================================================
+   TRANSITION
+========================================================== */
+
+.an-menu__trigger {
+  transition:
+    opacity
+    0.8s
+    cubic-bezier(0.16,1,0.3,1),
+
+    transform
+    0.8s
+    cubic-bezier(0.16,1,0.3,1),
+
+    border-color
+    0.55s ease,
+
+    background
+    0.55s ease,
+
+    box-shadow
+    0.55s ease !important;
+}
+
+
+.an-menu__trigger-lines i {
+  transition:
+    background
+    0.45s ease,
+
+    transform
+    0.35s ease !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+   Keep quiet state discoverable.
+========================================================== */
+
+@media (max-width: 640px) {
+
+  .an-menu.is-quiet
+  .an-menu__trigger {
+    opacity: 0.50 !important;
+
+    transform:
+      scale(0.89) !important;
+  }
+
+
+  .an-menu.is-quiet
+  .an-menu__trigger-lines i {
+    background:
+      rgba(244,247,249,0.48) !important;
+  }
+
+
+  .an-menu.is-quiet.has-intent
+  .an-menu__trigger,
+  .an-menu.is-quiet
+  .an-menu__trigger:focus-visible,
+  .an-menu.is-quiet
+  .an-menu__trigger:active {
+    opacity: 1 !important;
+
+    transform:
+      scale(1) !important;
+  }
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+
+  .an-menu__trigger,
+  .an-menu__trigger-lines i {
+    transition:
+      none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

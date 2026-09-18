@@ -139,6 +139,23 @@ export default function Menu() {
       false,
     );
 
+    const [
+  menuQuiet,
+  setMenuQuiet,
+] =
+  useState(
+    false,
+  );
+
+
+const [
+  menuIntent,
+  setMenuIntent,
+] =
+  useState(
+    false,
+  );
+
 
   const panelRef =
     useRef<
@@ -250,6 +267,42 @@ export default function Menu() {
     open,
   ]);
 
+  /* ========================================================
+   QUIET NAVIGATION
+   --------------------------------------------------------
+   Initial visibility → quiet presence.
+   Interaction temporarily restores full clarity.
+======================================================== */
+
+useEffect(() => {
+  if (open) {
+    setMenuQuiet(false);
+
+    return;
+  }
+
+
+  setMenuQuiet(false);
+
+
+  const quietTimer =
+    window.setTimeout(
+      () => {
+        setMenuQuiet(true);
+      },
+      3200,
+    );
+
+
+  return () => {
+    window.clearTimeout(
+      quietTimer,
+    );
+  };
+}, [
+  pathname,
+  open,
+]);
 
   /* ========================================================
      ROUTE CHANGE
@@ -304,38 +357,72 @@ export default function Menu() {
 
   return (
     <div
-      className={[
-        "an-menu",
+  className={[
+    "an-menu",
 
-        open
-          ? "is-open"
-          : "",
+    open
+      ? "is-open"
+      : "",
 
-        closing
-          ? "is-closing"
-          : "",
-      ].join(
-        " ",
-      )}
-    >
+    closing
+      ? "is-closing"
+      : "",
+
+    menuQuiet
+      ? "is-quiet"
+      : "",
+
+    menuIntent
+      ? "has-intent"
+      : "",
+  ].join(
+    " ",
+  )}
+>
+
       {/* ==================================================
           TRIGGER
       ================================================== */}
 
       {!showOverlay && (
         <button
-          type="button"
-          className="an-menu__trigger"
-          aria-label="Open navigation"
-          aria-expanded={
-            open
-          }
-          onClick={() =>
-            setOpen(
-              true,
-            )
-          }
-        >
+  type="button"
+  className="an-menu__trigger"
+  aria-label="Open navigation"
+  aria-expanded={
+    open
+  }
+  onPointerEnter={() =>
+    setMenuIntent(
+      true,
+    )
+  }
+  onPointerLeave={() =>
+    setMenuIntent(
+      false,
+    )
+  }
+  onFocus={() =>
+    setMenuIntent(
+      true,
+    )
+  }
+  onBlur={() =>
+    setMenuIntent(
+      false,
+    )
+  }
+  onPointerDown={() =>
+    setMenuIntent(
+      true,
+    )
+  }
+  onClick={() =>
+    setOpen(
+      true,
+    )
+  }
+>
           <span className="an-menu__trigger-lines">
             <i />
             <i />
