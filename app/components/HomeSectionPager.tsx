@@ -119,7 +119,7 @@ const CHAPTER_TARGETS:
       "VALLEY",
 
     subtitle:
-      "What becomes reality?",
+      "What can we do?",
   },
 ];
 
