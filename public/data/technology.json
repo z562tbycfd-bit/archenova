@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-09-18T09:27:27.871Z",
+  "updated": "2026-09-18T14:12:08.152Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Roche expands its Boston footprint with new research center",
+      "url": "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss",
+      "summary": "A gene therapy approved for Sanfilippo syndrome, good and bad news for Xenon Pharma, and more biotech news",
+      "ts": 1789738949000,
+      "publishedAt": "2026-09-18T13:42:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1789738704000,
+      "publishedAt": "2026-09-18T13:38:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Spots an Out-of-Sync Galaxy",
+      "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+      "summary": "Though the spiral galaxy in this new image from the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellation Vir…",
+      "ts": 1789738692000,
+      "publishedAt": "2026-09-18T13:38:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about licensing deals with China, making drugs in space, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss",
+      "summary": "The U.S. is working on rules for investing in China that would likely preserve pharma's ability to strike most licensing deals for Chinese drugs",
+      "ts": 1789738178000,
+      "publishedAt": "2026-09-18T13:29:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 14-18 Sep 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_14-18_Sep_2026",
+      "summary": "Week in images: 14-18 Sep 2026 Discover our week through the lens",
+      "ts": 1789736700000,
+      "publishedAt": "2026-09-18T13:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Who supports policies for ‘health equity’? It depends on how you’re asking",
+      "url": "https://www.statnews.com/2026/09/18/health-news-who-supports-health-equity-policy-in-america/?utm_campaign=rss",
+      "summary": "Kennedy speaks at the Children's Health Defense, medical facilities under attack in Sudan, and more health news from Morning Rounds",
+      "ts": 1789733508000,
+      "publishedAt": "2026-09-18T12:11:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI’s extinction risk and bioweapons threat",
+      "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology…",
+      "ts": 1789733400000,
+      "publishedAt": "2026-09-18T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had t…",
+      "ts": 1789730962000,
+      "publishedAt": "2026-09-18T11:29:22.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
@@ -46,6 +118,15 @@
       "ts": 1789720200000,
       "publishedAt": "2026-09-18T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Brunei Darussalam Signs its Second Country Programme Framework (CPF) for 2025-2031",
+      "url": "http://www.iaea.org/newscenter/news/brunei-darussalam-signs-its-second-country-programme-framework-cpf-for-2025-2031",
+      "summary": "Ms Hajah Farida Dato Seri Paduka Hajib Talib, Permanent Secretary of Energy, and Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, signed Brunei Darussalam’s Country Programme …",
+      "ts": 1789719100000,
+      "publishedAt": "2026-09-18T08:11:40.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "ESA",
@@ -289,6 +370,15 @@
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "New Members Elected to the IAEA Board of Governors",
+      "url": "http://www.iaea.org/newscenter/news/GC70-new-members-elected-to-the-iaea-board-of-governors",
+      "summary": "",
+      "ts": 1789704000000,
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -721,96 +811,6 @@
       "ts": 1789621200000,
       "publishedAt": "2026-09-17T05:00:00.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 17 – A Treasure Chest in the Carina Nebula",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
-      "summary": "APOD Science APOD APOD: 2026 September 17 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1789617900000,
-      "publishedAt": "2026-09-17T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Summer Goes Out With a Heat Dome",
-      "url": "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/",
-      "summary": "Temperature records toppled across the central and southern U.S. as the autumnal equinox approached.",
-      "ts": 1789617660000,
-      "publishedAt": "2026-09-17T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structure is not mechanism: high-gain gated-FFN rows across text and genomic foundation models",
-      "url": "https://arxiv.org/abs/2609.17599",
-      "summary": "arXiv:2609.17599v1 Announce Type: new Abstract: A small number of unusually high-gain parameters can exert disproportionate effects in transformer language models, but whether analogous structures recur in genomic founda…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Democratizing Clinical Tumor Whole Genome Sequencing: 18-hour End-to-end Analysis via Trillion-parameter Large Language Models Locally Deployed on Consumer-grade Hardware",
-      "url": "https://arxiv.org/abs/2609.17620",
-      "summary": "arXiv:2609.17620v1 Announce Type: new Abstract: Whole genome sequencing (WGS) is essential for precision oncology, yet its clinical adoption remains limited by prohibitive computational costs and multi-day turnaround tim…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Decoding Extrahepatic Targeting of Lipid Nanoparticles with Interpretable Machine Learning",
-      "url": "https://arxiv.org/abs/2609.17721",
-      "summary": "arXiv:2609.17721v1 Announce Type: new Abstract: Lipid nanoparticles (LNPs) have transformed RNA medicine, yet their clinical utility remains constrained by predominant hepatic accumulation after systemic administration. …",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GIA: Germline-Informed Aging with AlphaGenome Finds Genetically Regulated CpGs",
-      "url": "https://arxiv.org/abs/2609.17801",
-      "summary": "arXiv:2609.17801v1 Announce Type: new Abstract: Epigenetic clocks estimate age and aging-related phenotypes from DNA methylation at selected CpG sites, but the extent to which these inputs are influenced by germline gene…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "FlowLOT: Linearized Optimal Transport for Flow Cytometry Analysis",
-      "url": "https://arxiv.org/abs/2609.17906",
-      "summary": "arXiv:2609.17906v1 Announce Type: new Abstract: Multiparameter flow cytometry generates high-dimensional, unordered single-cell mea- surement data for disease diagnosis and monitoring, yet analysis often remains dependen…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural noise enables accurate internal simulation of rare events",
-      "url": "https://arxiv.org/abs/2609.18033",
-      "summary": "arXiv:2609.18033v1 Announce Type: new Abstract: The brain needs an accurate internal model of the world to generate predictions and guide behavior. However, it must estimate the statistical structure of the environment f…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PlainMap: a lightweight, restartable mapping pipeline for ancient and modern DNA",
-      "url": "https://arxiv.org/abs/2609.18372",
-      "summary": "arXiv:2609.18372v1 Announce Type: new Abstract: Mapping sequencing reads to a reference genome requires preprocessing and alignment choices that can vary with library type, fragment length, sequencing platform, and refer…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Optimum foraging area in a three-trophic food chain",
-      "url": "https://arxiv.org/abs/2609.18609",
-      "summary": "arXiv:2609.18609v1 Announce Type: new Abstract: Organisms' foraging strategies are shaped by a trade-off between search area and local capture efficiency. This trade-off leads individuals to adapt their foraging area to …",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
