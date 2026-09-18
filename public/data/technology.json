@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-18T04:29:50.092Z",
+  "updated": "2026-09-18T04:38:18.640Z",
   "items": [
     {
       "source": "arXiv q-bio",
@@ -472,6 +472,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "New UN system platform puts millions of data points at users’ fingertips, says Guterres",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168363",
+      "summary": "How do you make sense of a world facing interconnected crises, from poverty and hunger to climate change, if the facts are scattered across dozens of different places?",
+      "ts": 1789646400000,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World News in Brief: Winter aid for Gaza, West Bank; Haiti food production; migrant deaths at sea; human rights funding",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168362",
       "summary": "The UN Children’s Fund (UNICEF) is seeking to raise $97.5 million to protect 540,000 children and their families in Gaza and the West Bank from harsh winter conditions in the coming months.",
@@ -799,15 +808,6 @@
       "title": "HPOQuest: A Rare-Disease Diagnostic Agent Using Active Phenotype Acquisition",
       "url": "https://arxiv.org/abs/2609.18431",
       "summary": "arXiv:2609.18431v1 Announce Type: cross Abstract: More than 300 million people worldwide are affected by one of over 7,000 known rare diseases, yet diagnosis remains difficult because patients initially present with inco…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The evolution of sex for artificial intelligence: a population-genetic framework for multigenerational model populations",
-      "url": "https://arxiv.org/abs/2609.18560",
-      "summary": "arXiv:2609.18560v1 Announce Type: cross Abstract: Some aspects of AI development resemble a population process in which models are specialised, retrained on the output of peers, or combined by averaging weights. These pr…",
       "ts": 1789617600000,
       "publishedAt": "2026-09-17T04:00:00.000Z",
       "categoryId": "bio"
