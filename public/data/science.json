@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-18T21:28:43.947Z",
+  "updated": "2026-09-18T23:58:28.294Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists hope deeper-rooted soybeans can withstand climate extremes and store more carbon",
+      "url": "https://phys.org/news/2026-09-scientists-deeper-rooted-soybeans-climate.html",
+      "summary": "Research scientist Ashish Rajurkar kneels in the dirt, lifting a large clod of soil tangled around a soybean plant. He knocks away pieces of earth from the plant's roots, which slope straight down instead of out to the s…",
+      "ts": 1789770002000,
+      "publishedAt": "2026-09-18T22:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "North Korea's nuclear testing may have triggered hundreds of earthquakes over several years",
@@ -791,14 +799,6 @@
       "title": "Mixed-precision GPU algorithms for efficient turbulent flow simulations with Raviart-Thomas finite elements",
       "url": "https://arxiv.org/abs/2609.19828",
       "summary": "arXiv:2609.19828v1 Announce Type: new Abstract: We propose GPU algorithms for high-fidelity simulation of incompressible turbulent flows. Discretization in space is performed with H(div)-conforming high-order Raviart-Tho…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mo2TiC2Tx MXene Saturable Absorption for Neural Networks on a Chip",
-      "url": "https://arxiv.org/abs/2609.19849",
-      "summary": "arXiv:2609.19849v1 Announce Type: new Abstract: MXenes have attracted considerable interest for integrated nonlinear photonics owing to their broadband optical response and chemical tunability, yet investigations have fo…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }

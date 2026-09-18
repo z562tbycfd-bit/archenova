@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-18T21:28:45.858Z",
+  "updated": "2026-09-18T23:58:30.638Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": " ESA and The Pokémon Company International reveal Europe-wide exhibition and astronaut Pikachu experience ",
+      "url": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_The_Pokemon_Company_International_reveal_Europe-wide_exhibition_and_astronaut_Pikachu_experience",
+      "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCI) have launched an official collaboration to celebrate World Space Week 2026 from 4–10 October 2026.",
+      "ts": 1789768860000,
+      "publishedAt": "2026-09-18T22:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Trump touts pharma deals to offer cheaper drugs to state Medicaid programs",
@@ -202,6 +211,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "‘Violence will only defer a problem’: UN Assembly President on trust, AI and lessons from the Rohingya crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168375",
+      "summary": "Khalilur Rahman took the gavel as President of the UN General Assembly's 81st session amid what he calls a crisis of confidence in the organization he has served – in one capacity or another – for 35 years.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: UN peacekeeping under pressure",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168376",
+      "summary": "UN peacekeepers have increasingly been sent into places where there is no peace to keep – under resourced, outgunned and exposed to violence they are not equipped to counter. The Security Council meets this afternoon in …",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Sexual violence against civilians and POW’s in Ukraine widespread and ‘abhorrent’",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168374",
       "summary": "Over 1,000 cases of sexual violence against civilians and prisoners of war (POWs) in Ukraine have been documented from the start of Russia’s invasion to the end of July this year.",
@@ -319,18 +346,18 @@
     },
     {
       "source": "ESA",
-      "title": "Earth from Space: Laguna Colorada",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Laguna_Colorada",
-      "summary": "Image: This Copernicus Sentinel-2 image, acquired on 25 August 2026, shows an area of the Andean Altiplano in southern Bolivia near the border with Chile.",
+      "title": "A galaxy spinning out of sync",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
+      "summary": "Image: Though the spiral galaxy in this new image by the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellatio…",
       "ts": 1789718400000,
       "publishedAt": "2026-09-18T08:00:00.000Z",
       "categoryId": "space"
     },
     {
       "source": "ESA",
-      "title": "A galaxy spinning out of sync",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
-      "summary": "Image: Though the spiral galaxy in this new image by the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellatio…",
+      "title": "Earth from Space: Laguna Colorada",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Laguna_Colorada",
+      "summary": "Image: This Copernicus Sentinel-2 image, acquired on 25 August 2026, shows an area of the Andean Altiplano in southern Bolivia near the border with Chile.",
       "ts": 1789718400000,
       "publishedAt": "2026-09-18T08:00:00.000Z",
       "categoryId": "space"
@@ -784,33 +811,6 @@
       "ts": 1789650000000,
       "publishedAt": "2026-09-17T13:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
-      "url": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/",
-      "summary": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
-      "ts": 1789650000000,
-      "publishedAt": "2026-09-17T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Scientific Forum Highlights Progress in Expanding Access to Cancer Care",
-      "url": "http://www.iaea.org/newscenter/news/scientific-forum-highlights-progress-in-expanding-access-to-cancer-care",
-      "summary": "The IAEA’s flagship Rays of Hope initiative to expand access to cancer care was in the spotlight at this year’s Scientific Forum. The signature side event at the 70th IAEA General Conference, the forum brought together a",
-      "ts": 1789650000000,
-      "publishedAt": "2026-09-17T13:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: mice with part-human brains and climate tech innovators",
-      "url": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked…",
-      "ts": 1789647000000,
-      "publishedAt": "2026-09-17T12:10:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
