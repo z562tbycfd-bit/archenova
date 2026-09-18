@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-09-17T23:58:53.971Z",
+  "updated": "2026-09-18T03:49:06.008Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Grass and clover can provide more than animal feed",
+      "url": "https://phys.org/news/2026-09-grass-clover-animal.html",
+      "summary": "Growing leys—grass and clover—is nothing new in Swedish agriculture. But in the arable farming regions dominated by cereal production, leys are less common. One reason is that there needs to be a market for what is harve…",
+      "ts": 1789699206000,
+      "publishedAt": "2026-09-18T02:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "In hottest summer on record, 2 in 3 Americans say climate change is increasing heat-related illnesses",
+      "url": "https://phys.org/news/2026-09-hottest-summer-americans-climate-illnesses.html",
+      "summary": "Nearly two-thirds of the American public say climate change is increasing the risk of respiratory diseases and heat- and insect-related illnesses, according to a new survey from the Annenberg Public Policy Center (APPC) …",
+      "ts": 1789698002000,
+      "publishedAt": "2026-09-18T02:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When prepping for disaster, don't forget to pack your teddy bear",
+      "url": "https://phys.org/news/2026-09-prepping-disaster-dont-teddy.html",
+      "summary": "Imagine it's the dead of night. Your phone pings with a text—it's a government emergency alert: \"Leave your home immediately! Only take with you enough supplies for the next three days.\" What would you want in your go-ba…",
+      "ts": 1789696801000,
+      "publishedAt": "2026-09-18T02:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Robots grow and package lettuce year-round in Norway's fully automated farm",
+      "url": "https://phys.org/news/2026-09-robots-package-lettuce-year-norway.html",
+      "summary": "Norway's first fully automated facility for vegetable production was put into operation last fall. This spring, the first products hit store shelves.",
+      "ts": 1789695603000,
+      "publishedAt": "2026-09-18T01:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Museums on prescription: How cultural activities are becoming crucial to the public health debate",
+      "url": "https://phys.org/news/2026-09-museums-prescription-cultural-crucial-health.html",
+      "summary": "On June 18, 2026, on the sidelines of the European Council in Brussels, the European Parliament, the European Commission and the Council of the European Union signed a joint declaration making culture a strategic priorit…",
+      "ts": 1789694402000,
+      "publishedAt": "2026-09-18T01:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Toxic algae can pose a hidden danger to dogs swimming in freshwater",
+      "url": "https://phys.org/news/2026-09-toxic-algae-pose-hidden-danger.html",
+      "summary": "Diving into cool water can be a quick way to escape the summer heat, but during certain times of year, freshwater can pose hidden dangers to people and pets.",
+      "ts": 1789693203000,
+      "publishedAt": "2026-09-18T01:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From toothbrushes to aerospace: Graphene research advances fibers that conduct heat efficiently",
+      "url": "https://phys.org/news/2026-09-toothbrushes-aerospace-graphene-advances-fibers.html",
+      "summary": "KAIST's discovery of graphene oxide liquid crystals in 2011 laid the foundation for 15 years of research worldwide, leading to technologies for producing graphene fibers with high strength and thermal conductivity. The f…",
+      "ts": 1789692001000,
+      "publishedAt": "2026-09-18T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's earliest glacier loss day in years signals a reckoning for the Alps",
+      "url": "https://phys.org/news/2026-09-europe-earliest-glacier-loss-day.html",
+      "summary": "On June 29, 2026, the snow accumulated by Switzerland's glaciers over the course of the previous winter had melted. Known as Glacier Loss Day, this date marks the point at which further melting begins to erode the glacie…",
+      "ts": 1789690802000,
+      "publishedAt": "2026-09-18T00:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fossil plankton shells reveal reduced nitrogen fixation in warmer oceans 3 million years ago",
+      "url": "https://phys.org/news/2026-09-fossil-plankton-shells-reveal-nitrogen.html",
+      "summary": "Nitrogen is a key nutrient because it fuels the growth of plankton, which forms the basis of the marine food web. Two opposing processes determine the global nitrogen cycle: nitrogen fixation and denitrification.",
+      "ts": 1789689605000,
+      "publishedAt": "2026-09-18T00:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Circular economy pilot projects show hotels can reduce waste and costs",
+      "url": "https://phys.org/news/2026-09-circular-economy-hotels.html",
+      "summary": "The new EU Packaging Regulation (PPWR) has been in effect since Aug. 12, 2026. Under this regulation, beginning in January 2030, the food service industry may no longer buy food or toiletries packaged in single-use plast…",
+      "ts": 1789689602000,
+      "publishedAt": "2026-09-18T00:00:02.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Large strain and high reversible dielectric tunability in Sm-modified PMN-PT ceramics",
+      "url": "https://www.nature.com/articles/s41467-026-77914-1",
+      "summary": "",
+      "ts": 1789689600000,
+      "publishedAt": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A ubiquitin carboxyl-terminal hydrolase facilitates H2A.Z removal in response to phosphate starvation",
+      "url": "https://www.nature.com/articles/s41467-026-77882-6",
+      "summary": "",
+      "ts": 1789689600000,
+      "publishedAt": "2026-09-18T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A finely tuned mess—how disorder can make networks more stable",
@@ -705,102 +801,6 @@
       "summary": "Frequently located on hillsides and in canyons surrounded by wildlands, wealthy neighborhoods are more likely to catch fire. However, a UC Riverside study shows they are also likely to recover faster than lower-income ar…",
       "ts": 1789644010000,
       "publishedAt": "2026-09-17T11:20:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Dungeons & Dragons study rolls for better well-being",
-      "url": "https://phys.org/news/2026-09-dungeons-dragons.html",
-      "summary": "Rolling dice and battling imaginary monsters might seem an unlikely source of well-being, but Te Whare Wānanga o Waitaha | University of Canterbury (UC) research suggests Dungeons & Dragons groups can provide meaningful …",
-      "ts": 1789644006000,
-      "publishedAt": "2026-09-17T11:20:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study challenges estimates used to guide Atlantic menhaden fishing",
-      "url": "https://phys.org/news/2026-09-atlantic-menhaden-fishing.html",
-      "summary": "Atlantic menhaden (Brevoortia tyrannus), which supports a major commercial fishery along the U.S. East Coast and serves as essential prey for fish, seabirds and marine mammals, may be less able to sustain fishing pressur…",
-      "ts": 1789642802000,
-      "publishedAt": "2026-09-17T11:00:02.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantum Sensing of Gravitational Frame Dragging with a Superfluid $^{4}\\mathrm{He}$ Gyrometer",
-      "url": "http://link.aps.org/doi/10.1103/q3v9-rjm9",
-      "summary": "Author(s): Kai-Isaak Ellers, Marios Christodoulou, K. C. Schwab, and K. Birgitta Whaley A proposed lab-based quantum sensor could precisely measure within seconds the warping of spacetime caused by Earth’s rotation. [Phy…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors",
-      "url": "http://link.aps.org/doi/10.1103/r62x-kt5j",
-      "summary": "Author(s): Evie Ladbrook, Jon P. Wright, and Mark S. Senn Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organizatio…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Crossover to Sachdev-Ye-Kitaev Criticality in an Infinite-Range Quantum Heisenberg Spin Glass",
-      "url": "http://link.aps.org/doi/10.1103/81qf-zd3y",
-      "summary": "Author(s): Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino A central question in frustrated quantum magnets is how quantum fluctuations destabilize spin-glass order and promote quantum spin-liquid behavior. We stud…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Genuine and Spurious (Non-)Ergodicity in Single Particle Tracking",
-      "url": "http://link.aps.org/doi/10.1103/m3jj-6sqz",
-      "summary": "Author(s): Wei Wang, Qing Wei, Igor M. Sokolov, Ralf Metzler, and Aleksei Chechkin The mean-squared increment is introduced as a new statistic to characterize single-particle positional time series data, providing a more…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Superconductivity in Monolayer-Trilayer Phase of ${\\mathrm{La}}_{3}{\\mathrm{Ni}}_{2}{\\mathrm{O}}_{7}$ under High Pressure",
-      "url": "http://link.aps.org/doi/10.1103/jc35-gj2l",
-      "summary": "Author(s): Chaoxin Huang, Jingyuan Li, Xing Huang, Hengyuan Zhang, Deyuan Hu, Mengwu Huo, Xiang Chen, Zhen Chen, Hualei Sun, and Meng Wang High-pressure studies on the 1313 monolayer-trilayer polymorph of La3Ni2O7 reveal…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Nonideal subthreshold swing in aligned carbon nanotube transistors due to variable-occupancy discrete charge traps",
-      "url": "http://link.aps.org/doi/10.1103/m25k-qfgk",
-      "summary": "Author(s): Saurabh S. Sawant, Teo Lara, François Léonard, Zhi (Jackie) Yao, and Andrew Nonaka Carbon nanotube (CNT) transistors have been experimentally demonstrated to reach performance comparable to and even surpassing…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Four-dimensional imaging using a one-dimensional transducer array combining photoacoustic signals with ultrasonic timecoding",
-      "url": "http://link.aps.org/doi/10.1103/tkjq-xb7z",
-      "summary": "Author(s): Yingjie Feng, Simin Wang, Yang Liu, Qiuqin Mao, Tianxiang Zuo, Yifan Yang, Chao Tao, and Xiaojun Liu Photoacoustic imaging (PAI) enables high optical contrast at ultrasonic imaging depths; however, real-time v…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Mitigation of magnetic flux trapping in superconducting electronics using moats",
-      "url": "http://link.aps.org/doi/10.1103/7n7l-k65c",
-      "summary": "Author(s): Rohan T. Kapur, Sergey K. Tolpygo, Alex Wynn, Pauli Kehayias, Adam A. Libson, Collin N. Muniz, Michael J. Gold, Justin L. Mallek, Danielle A. Braje, and Jennifer M. Schloss Magnetic flux (vortex) trapping rema…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Laser-control switch for electron correlation in double ionization: Toward application-specific pathway selection",
-      "url": "http://link.aps.org/doi/10.1103/gh3s-hzvr",
-      "summary": "Author(s): Xuan Luo, Yugang Yang, Liguang Jiao, Aihua Liu, and Xueshen Liu Controlling correlated electron dynamics is a central challenge in ultrafast science, with implications for the development of coherent light sou…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Noise-resilient phase detection enabled via nonlinear non-Hermitian electronics",
-      "url": "http://link.aps.org/doi/10.1103/d65d-z83w",
-      "summary": "Author(s): Yan-qiang Ma, An Chen, Yi-fei Xia, Jing Yang, Bin Liang, and Jian-chun Cheng Maintaining phase consistency under noisy conditions is a key issue in high-fidelity signal transmission. Traditional single-thresho…",
-      "ts": 1789639200000,
-      "publishedAt": "2026-09-17T10:00:00.000Z"
     }
   ],
   "sources": [

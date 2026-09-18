@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-17T23:58:56.131Z",
+  "updated": "2026-09-18T03:49:13.376Z",
   "items": [
     {
       "source": "STAT",
@@ -244,6 +244,42 @@
       "ts": 1789647000000,
       "publishedAt": "2026-09-17T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "ts": 1789646400000,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Winter aid for Gaza, West Bank; Haiti food production; migrant deaths at sea; human rights funding",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168362",
+      "summary": "The UN Children’s Fund (UNICEF) is seeking to raise $97.5 million to protect 540,000 children and their families in Gaza and the West Bank from harsh winter conditions in the coming months.",
+      "ts": 1789646400000,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gender equality woefully off track, new UN report reveals",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168360",
+      "summary": "At the current rate of progress, gender equality would take 171 years to achieve, a new UN report finds as institutions built to advance gains are being defunded and demobilised.",
+      "ts": 1789646400000,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN fact-finding mission on Iran focuses on plight of civilians",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168358",
+      "summary": "The Independent International Fact-Finding Mission on Iran confirmed that civilians in the country suffered serious human rights violations and “crimes against humanity committed by their government,” while finding \"reas…",
+      "ts": 1789646400000,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -775,42 +811,6 @@
       "ts": 1789592768000,
       "publishedAt": "2026-09-16T21:06:08.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: GOP aims to change Medicare adviser’s math so it’s more favorable to health insurers",
-      "url": "https://www.statnews.com/2026/09/16/medicare-advantage-overpayments-analysis-medpac-change-apples-to-apples-act/?utm_campaign=rss",
-      "summary": "The GOP bill directs MedPAC to study the topic of overpayments to Medicare Advantage plans in a manner that’s more favorable to insurers.",
-      "ts": 1789590015000,
-      "publishedAt": "2026-09-16T20:20:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Brain Protein in Mice Offers Insights Into Brain Development and ADHD",
-      "url": "https://www.genengnews.com/topics/translational-medicine/brain-protein-in-mice-offers-insights-into-brain-development-and-adhd/",
-      "summary": "Researchers identified a brain protein, NSF, that is important for maintaining dopamine-related cells and normal development, providing new insights into ADHD and potential therapeutic strategies. The post Brain Protein …",
-      "ts": 1789588474000,
-      "publishedAt": "2026-09-16T19:54:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Senators highlight the power Chris Klomp wields at confirmation hearings",
-      "url": "https://www.statnews.com/2026/09/16/senators-highlight-chris-klomp-power-rfk-jr-second-in-command/?utm_campaign=rss",
-      "summary": "Chris Klomp has already played a major role in the Trump administration and its Make America Healthy Again agenda.",
-      "ts": 1789586260000,
-      "publishedAt": "2026-09-16T19:17:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Prophylactic Phage Therapy Protects Mice Against Oral Salmonella Infection",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/prophylactic-phage-therapy-protects-mice-against-oral-salmonella-infection/",
-      "summary": "Researchers developed a prophylactic phage therapy targeting Salmonella enterica Typhimurium that in mouse models colonized the gut, and produced lytic phages that protected against future infection by the pathogen, impr…",
-      "ts": 1789584788000,
-      "publishedAt": "2026-09-16T18:53:08.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

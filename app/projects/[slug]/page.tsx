@@ -1,519 +1,664 @@
-export const dynamic = "force-static";
-export const dynamicParams = false;
+export const dynamic =
+  "force-static";
+
+export const dynamicParams =
+  false;
+
 
 import Link from "next/link";
-import { notFound } from "next/navigation";
 
-type Phase = "Concept" | "Prototype" | "Deployment";
+import {
+  notFound,
+} from "next/navigation";
 
-type ProjectDetail = {
-  id: string;
-  slug: string;
-  title: string;
-  phase: Phase;
-  fixedIrreversibleCondition: string;
-  targetScale: {
-    years: string;
-    generations: string;
-    capital: string;
-  };
-  realityConnection: {
-    whatIsFixedNow: string[];
-    evidenceArtifacts: string[];
-    phaseGate: Record<Phase, string[]>;
-  };
-};
+import {
+  getArcheNovaProject,
+  getArcheNovaProjectSlugs,
+  lockLevelFromCapital,
+  lockLevelFromGenerations,
+  lockLevelFromYears,
+  phaseLock,
+  type ProjectPhase,
+} from "../../../lib/valley-execution/projects";
 
-const PROJECTS: Record<string, ProjectDetail> = {
-  "project-001": {
-    id: "Project 001",
-    slug: "project-001",
-    title: "Fundamental Physics — Ambiguity Elimination Experiments",
-    phase: "Concept",
-    fixedIrreversibleCondition:
-      "Measurements must remove interpretive freedom entirely; outcomes force ontology rather than admit tunable explanations.",
-    targetScale: {
-      years: "5–20+ years",
-      generations: "1 generation",
-      capital: "Precision instrumentation & cryogenic systems",
-    },
-    realityConnection: {
-      whatIsFixedNow: [
-        "Experimental design that collapses interpretive ambiguity.",
-        "Failure modes defined at design-time, not post-hoc.",
-        "Signal/noise boundaries fixed structurally.",
-      ],
-      evidenceArtifacts: [
-        "Concept experiment note (PDF)",
-        "Noise floor & coherence assumptions",
-        "Measurement irreversibility analysis",
-      ],
-      phaseGate: {
-        Concept: [
-          "Define measurable quantity with zero interpretive slack.",
-          "Design apparatus where null results are decisive.",
-          "Publish falsifiable criteria.",
-        ],
-        Prototype: [
-          "Demonstrate bounded noise regime.",
-          "Confirm reproducibility across runs.",
-          "Lock measurement interpretation.",
-        ],
-        Deployment: [
-          "Independent replication.",
-          "Archive raw data permanently.",
-          "Close interpretive loopholes.",
-        ],
-      },
-    },
-  },
 
-  "project-002": {
-    id: "Project 002",
-    slug: "project-002",
-    title: "Quantum Infrastructure — Memory-First Boundary Design",
-    phase: "Prototype",
-    fixedIrreversibleCondition:
-      "Stability must arise from physical boundary conditions, not perpetual correction loops.",
-    targetScale: {
-      years: "10–30 years",
-      generations: "1 generation",
-      capital: "Deep-tech R&D and fabrication",
-    },
-    realityConnection: {
-      whatIsFixedNow: [
-        "Memory-first architecture locked.",
-        "Geometry & material constraints defined.",
-        "Failure states structurally refused.",
-      ],
-      evidenceArtifacts: [
-        "Prototype architecture memo",
-        "Interface stack diagram",
-        "Lifetime & coherence bounds",
-      ],
-      phaseGate: {
-        Concept: [
-          "Define refusal conditions.",
-          "Specify boundary-driven stability.",
-          "Set lifetime targets.",
-        ],
-        Prototype: [
-          "Demonstrate memory lifetime.",
-          "Bound correction overhead.",
-          "Validate scalability.",
-        ],
-        Deployment: [
-          "Operational protocol freeze.",
-          "Custody & authentication layer.",
-          "Long-term maintainability proof.",
-        ],
-      },
-    },
-  },
-
-  "project-003": {
-    id: "Project 003",
-    slug: "project-003",
-    title: "Energy Systems — Irreversible Safety-by-Design Storage",
-    phase: "Concept",
-    fixedIrreversibleCondition:
-      "Once deployed, the system must remain non-catastrophic without safety-critical intervention.",
-    targetScale: {
-      years: "30–100+ years",
-      generations: "1–3 generations",
-      capital: "Infrastructure-grade locked capital",
-    },
-    realityConnection: {
-      whatIsFixedNow: [
-        "Abandonment structurally disallowed.",
-        "Passive safety dominates design.",
-        "Geological custody assumptions fixed.",
-      ],
-      evidenceArtifacts: [
-        "System concept note",
-        "Failure mode elimination map",
-        "Custody lifecycle plan",
-      ],
-      phaseGate: {
-        Concept: [
-          "Define forbidden outcomes.",
-          "Map passive safety boundaries.",
-          "Specify custody horizon.",
-        ],
-        Prototype: [
-          "Demonstrate bounded failure.",
-          "Validate containment.",
-          "Stress-test degradation.",
-        ],
-        Deployment: [
-          "Custody & decommission locked.",
-          "Monitoring becomes confirmatory.",
-          "Intergenerational accountability assigned.",
-        ],
-      },
-    },
-  },
-
-  "project-004": {
-    id: "Project 004",
-    slug: "project-004",
-    title: "Planetary Systems — Continuous Power as Civilization Boundary",
-    phase: "Concept",
-    fixedIrreversibleCondition:
-      "Energy availability must be continuous and internally governed, not environmentally contingent.",
-    targetScale: {
-      years: "10–50 years",
-      generations: "1–2 generations",
-      capital: "Mission-scale planetary infrastructure",
-    },
-    realityConnection: {
-      whatIsFixedNow: [
-        "Decoupling from day-night cycles.",
-        "Internal governance of energy.",
-        "Permanent presence enabled.",
-      ],
-      evidenceArtifacts: [
-        "Mission power architecture",
-        "Environmental decoupling analysis",
-        "Continuity justification memo",
-      ],
-      phaseGate: {
-        Concept: [
-          "Define continuity requirement.",
-          "Map dependency elimination.",
-          "Set minimum reliability.",
-        ],
-        Prototype: [
-          "Demonstrate continuous operation.",
-          "Validate fault tolerance.",
-          "Bound environmental coupling.",
-        ],
-        Deployment: [
-          "Operational permanence.",
-          "Industrial enablement.",
-          "Civilizational lock-in.",
-        ],
-      },
-    },
-  },
-
-  "project-005": {
-    id: "Project 005",
-    slug: "project-005",
-    title: "AI — Constraint-First Computation",
-    phase: "Prototype",
-    fixedIrreversibleCondition:
-      "Catastrophic trajectories must be deleted upstream via hard constraints, not managed after emergence.",
-    targetScale: {
-      years: "3–10 years",
-      generations: "1 generation",
-      capital: "Compute & governance design",
-    },
-    realityConnection: {
-      whatIsFixedNow: [
-        "Constraint layer precedes capability.",
-        "Forbidden trajectories enumerated.",
-        "Legitimacy encoded structurally.",
-      ],
-      evidenceArtifacts: [
-        "Constraint schema draft",
-        "Failure trajectory taxonomy",
-        "Governance binding memo",
-      ],
-      phaseGate: {
-        Concept: [
-          "Define catastrophic states.",
-          "Specify refusal conditions.",
-          "Formalize constraint logic.",
-        ],
-        Prototype: [
-          "Demonstrate constraint enforcement.",
-          "Test bypass resistance.",
-          "Measure performance impact.",
-        ],
-        Deployment: [
-          "Bind constraints institutionally.",
-          "Audit irreversibility.",
-          "Prevent rollback.",
-        ],
-      },
-    },
-  },
-
-  "project-006": {
-    id: "Project 006",
-    slug: "project-006",
-    title: "Medical Systems — Upstream Diagnosis Before Irreversibility",
-    phase: "Concept",
-    fixedIrreversibleCondition:
-      "Diagnosis must expose latent dynamics before irreversible pathology manifests.",
-    targetScale: {
-      years: "5–15 years",
-      generations: "1 generation",
-      capital: "Clinical devices & validation",
-    },
-    realityConnection: {
-      whatIsFixedNow: [
-        "Focus on clearance, flow, transfer dynamics.",
-        "Shift diagnosis upstream in time.",
-        "Intervention windows fixed earlier.",
-      ],
-      evidenceArtifacts: [
-        "Diagnostic protocol concept",
-        "Physiological flow models",
-        "Clinical feasibility note",
-      ],
-      phaseGate: {
-        Concept: [
-          "Identify hidden dynamics.",
-          "Define irreversible thresholds.",
-          "Select measurable proxies.",
-        ],
-        Prototype: [
-          "Validate early detection.",
-          "Correlate with outcomes.",
-          "Optimize clinical timing.",
-        ],
-        Deployment: [
-          "Clinical integration.",
-          "Regulatory alignment.",
-          "Population-scale screening.",
-        ],
-      },
-    },
-  },
-};
+/* ==========================================================
+   STATIC PARAMS
+========================================================== */
 
 export function generateStaticParams() {
-  return Object.keys(PROJECTS).map((slug) => ({ slug }));
+  return (
+    getArcheNovaProjectSlugs()
+      .map(
+        (
+          slug,
+        ) => ({
+          slug,
+        }),
+      )
+  );
 }
 
-function PhaseBadge({ phase }: { phase }) {
-  return <span className={`pj-badge pj-${phase.toLowerCase()}`}>{phase}</span>;
+
+/* ==========================================================
+   PHASE BADGE
+========================================================== */
+
+function PhaseBadge({
+  phase,
+}: {
+  phase: ProjectPhase;
+}) {
+  return (
+    <span
+      className={`pj-badge pj-${phase.toLowerCase()}`}
+    >
+      {phase}
+    </span>
+  );
 }
+
+
+/* ==========================================================
+   PROJECT DETAIL
+========================================================== */
 
 export default function ProjectDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: {
+    slug: string;
+  };
 }) {
-  const p = PROJECTS[params.slug];
-  if (!p) return notFound();
+  const project =
+    getArcheNovaProject(
+      params.slug,
+    );
 
-    function lockLevelFromYears(years: string) {
-    const s = years.toLowerCase();
-    // ざっくり判定（表記ゆれに強め）
-    if (s.includes("100") || s.includes("50") || s.includes("30")) return 5;
-    if (s.includes("20") || s.includes("10")) return 4;
-    if (s.includes("5")) return 3;
-    return 3;
+
+  if (
+    !project
+  ) {
+    return notFound();
   }
 
-  function lockLevelFromGenerations(g: string) {
-    const s = g.toLowerCase();
-    if (s.includes("3")) return 5;
-    if (s.includes("2")) return 4;
-    if (s.includes("1")) return 3;
-    return 3;
-  }
 
-  function lockLevelFromCapital(c: string) {
-    const s = c.toLowerCase();
-    if (s.includes("infrastructure") || s.includes("locked") || s.includes("custody")) return 5;
-    if (s.includes("mission") || s.includes("governance")) return 4;
-    if (s.includes("deep-tech") || s.includes("instrument")) return 3;
-    return 3;
-  }
+  const lockYears =
+    lockLevelFromYears(
+      project
+        .targetScale
+        .years,
+    );
 
-  function phaseLock(phase: Phase) {
-    // Concept < Prototype < Deployment（不可逆性の進行）
-    if (phase === "Deployment") return 5;
-    if (phase === "Prototype") return 4;
-    return 3;
-  }
 
-  const lockYears = lockLevelFromYears(p.targetScale.years);
-  const lockGen = lockLevelFromGenerations(p.targetScale.generations);
-  const lockCap = lockLevelFromCapital(p.targetScale.capital);
-  const lockPhase = phaseLock(p.phase);
+  const lockGenerations =
+    lockLevelFromGenerations(
+      project
+        .targetScale
+        .generations,
+    );
+
+
+  const lockCapital =
+    lockLevelFromCapital(
+      project
+        .targetScale
+        .capital,
+    );
+
+
+  const lockProjectPhase =
+    phaseLock(
+      project.phase,
+    );
+
 
   return (
     <main className="project">
       <div className="project-top">
-        <Link href="/projects" className="project-back">
+        <Link
+          href="/projects"
+          className="project-back"
+        >
           ← Back to Projects
         </Link>
-        <PhaseBadge phase={p.phase} />
+
+        <PhaseBadge
+          phase={
+            project.phase
+          }
+        />
       </div>
 
+
       <header className="project-head">
-        <div className="project-id">{p.id}</div>
-        <h1>{p.title}</h1>
+        <div className="project-id">
+          {project.id}
+        </div>
+
+        <h1>
+          {project.title}
+        </h1>
       </header>
-                  {/* Phase Timeline (Irreversibility Progression + Phase Gates) */}
+
+
+      {/* ====================================================
+          IRREVERSIBILITY PROGRESSION
+      ==================================================== */}
+
       <section className="phase">
-        <h2 className="phase-title">Irreversibility Progression</h2>
+        <h2 className="phase-title">
+          Irreversibility Progression
+        </h2>
 
-        <ol className="phase-track" aria-label="Project phase timeline">
-          {(["Concept", "Prototype", "Deployment"] as const).map((ph, i) => {
-            const isActive = ph === p.phase;
-            const isDone =
-              (p.phase === "Prototype" && ph === "Concept") ||
-              (p.phase === "Deployment" && (ph === "Concept" || ph === "Prototype"));
 
-            const gates = p.realityConnection.phaseGate[ph] ?? [];
-            const topGates = gates.slice(0, 3); // ★多すぎると読みにくいので上位3つだけ表示
+        <ol
+          className="phase-track"
+          aria-label="Project phase timeline"
+        >
+          {(
+            [
+              "Concept",
+              "Prototype",
+              "Deployment",
+            ] as const
+          ).map(
+            (
+              phase,
+              index,
+            ) => {
+              const isActive =
+                phase ===
+                project.phase;
 
-            return (
-              <li
-                key={ph}
-                className={[
-                  "phase-step",
-                  isDone ? "is-done" : "",
-                  isActive ? "is-active" : "",
-                ].join(" ")}
-              >
-                <div className="phase-node">
-                  <span className="phase-index">{i + 1}</span>
-                </div>
 
-                <div className="phase-body">
-                  <div className="phase-name">{ph}</div>
+              const isDone =
+                (
+                  project.phase ===
+                    "Prototype" &&
+                  phase ===
+                    "Concept"
+                ) ||
+                (
+                  project.phase ===
+                    "Deployment" &&
+                  (
+                    phase ===
+                      "Concept" ||
+                    phase ===
+                      "Prototype"
+                  )
+                );
 
-                  <div className="phase-meaning">
-                    {ph === "Concept" &&
-                      "Define the non-negotiables. Specify what must never happen and the boundary conditions that refuse it."}
-                    {ph === "Prototype" &&
-                      "Prove bounded failure. Demonstrate the refusal holds under representative stress and degradation."}
-                    {ph === "Deployment" &&
-                      "Lock custody across time. Make irreversibility institutional: accountability and exit routes are fixed."}
+
+              const gates =
+                project
+                  .realityConnection
+                  .phaseGate[
+                    phase
+                  ] ??
+                [];
+
+
+              const topGates =
+                gates.slice(
+                  0,
+                  3,
+                );
+
+
+              return (
+                <li
+                  key={
+                    phase
+                  }
+                  className={[
+                    "phase-step",
+
+                    isDone
+                      ? "is-done"
+                      : "",
+
+                    isActive
+                      ? "is-active"
+                      : "",
+                  ].join(
+                    " ",
+                  )}
+                >
+                  <div className="phase-node">
+                    <span className="phase-index">
+                      {index + 1}
+                    </span>
                   </div>
 
-                  {/* Phase Gates: project-specific proof items */}
-                  <div className="phase-gates">
-                    <div className="phase-gates-title">Phase gates (project-specific)</div>
-                    <ul className="phase-gates-list">
-                      {topGates.map((g) => (
-                        <li key={g}>{g}</li>
-                      ))}
-                    </ul>
 
-                    {gates.length > 3 && (
-                      <div className="phase-gates-more">
-                        +{gates.length - 3} more gates defined below
+                  <div className="phase-body">
+                    <div className="phase-name">
+                      {phase}
+                    </div>
+
+
+                    <div className="phase-meaning">
+                      {phase ===
+                        "Concept" &&
+                        "Define the non-negotiables. Specify what must never happen and the boundary conditions that refuse it."}
+
+                      {phase ===
+                        "Prototype" &&
+                        "Prove bounded failure. Demonstrate the refusal holds under representative stress and degradation."}
+
+                      {phase ===
+                        "Deployment" &&
+                        "Lock custody across time. Make irreversibility institutional: accountability and exit routes are fixed."}
+                    </div>
+
+
+                    <div className="phase-gates">
+                      <div className="phase-gates-title">
+                        Phase gates (project-specific)
                       </div>
-                    )}
+
+                      <ul className="phase-gates-list">
+                        {topGates.map(
+                          (
+                            gate,
+                          ) => (
+                            <li
+                              key={
+                                gate
+                              }
+                            >
+                              {gate}
+                            </li>
+                          ),
+                        )}
+                      </ul>
+
+
+                      {gates.length >
+                        3 && (
+                        <div className="phase-gates-more">
+                          +
+                          {
+                            gates.length -
+                            3
+                          }{" "}
+                          more gates defined below
+                        </div>
+                      )}
+                    </div>
                   </div>
-                </div>
-              </li>
-            );
-          })}
+                </li>
+              );
+            },
+          )}
         </ol>
 
+
         <p className="phase-note">
-          The timeline becomes real only when each gate is satisfied. Irreversibility is not a label; it is a completed constraint.
+          The timeline becomes real only when each gate is satisfied.
+          Irreversibility is not a label; it is a completed constraint.
         </p>
       </section>
 
-      <section className="project-block">
-        <h2>Fixed Irreversible Condition</h2>
-        <p className="project-text">{p.fixedIrreversibleCondition}</p>
-      </section>
+
+      {/* ====================================================
+          FIXED CONDITION
+      ==================================================== */}
 
       <section className="project-block">
-        <h2>Target Scale</h2>
+        <h2>
+          Fixed Irreversible Condition
+        </h2>
+
+        <p className="project-text">
+          {
+            project
+              .fixedIrreversibleCondition
+          }
+        </p>
+      </section>
+
+
+      {/* ====================================================
+          TARGET SCALE
+      ==================================================== */}
+
+      <section className="project-block">
+        <h2>
+          Target Scale
+        </h2>
+
         <div className="project-scale">
           <div className="project-scale-row">
-            <span className="project-skey">Years</span>
-            <span className="project-sval">{p.targetScale.years}</span>
+            <span className="project-skey">
+              Years
+            </span>
+
+            <span className="project-sval">
+              {
+                project
+                  .targetScale
+                  .years
+              }
+            </span>
           </div>
+
+
           <div className="project-scale-row">
-            <span className="project-skey">Generations</span>
-            <span className="project-sval">{p.targetScale.generations}</span>
+            <span className="project-skey">
+              Generations
+            </span>
+
+            <span className="project-sval">
+              {
+                project
+                  .targetScale
+                  .generations
+              }
+            </span>
           </div>
+
+
           <div className="project-scale-row">
-            <span className="project-skey">Capital</span>
-            <span className="project-sval">{p.targetScale.capital}</span>
+            <span className="project-skey">
+              Capital
+            </span>
+
+            <span className="project-sval">
+              {
+                project
+                  .targetScale
+                  .capital
+              }
+            </span>
           </div>
         </div>
       </section>
-            {/* Lock Meter (Irreversibility intensity) */}
+
+
+      {/* ====================================================
+          LOCK METER
+      ==================================================== */}
+
       <section className="lock">
-        <h2 className="lock-title">Irreversibility Lock Meter</h2>
+        <h2 className="lock-title">
+          Irreversibility Lock Meter
+        </h2>
 
-        <div className="lock-grid" role="list" aria-label="Lock meters">
-          <div className="lock-item" role="listitem">
-            <div className="lock-k">Time Lock</div>
-            <div className="lock-meter" aria-label={`Time lock level ${lockYears} of 5`}>
-              <div className="lock-fill" style={{ width: `${(lockYears / 5) * 100}%` }} />
+
+        <div
+          className="lock-grid"
+          role="list"
+          aria-label="Lock meters"
+        >
+          <div
+            className="lock-item"
+            role="listitem"
+          >
+            <div className="lock-k">
+              Time Lock
             </div>
-            <div className="lock-v">{p.targetScale.years}</div>
+
+            <div
+              className="lock-meter"
+              aria-label={`Time lock level ${lockYears} of 5`}
+            >
+              <div
+                className="lock-fill"
+                style={{
+                  width:
+                    `${(
+                      lockYears /
+                      5
+                    ) *
+                      100}%`,
+                }}
+              />
+            </div>
+
+            <div className="lock-v">
+              {
+                project
+                  .targetScale
+                  .years
+              }
+            </div>
           </div>
 
-          <div className="lock-item" role="listitem">
-            <div className="lock-k">Generational Lock</div>
-            <div className="lock-meter" aria-label={`Generational lock level ${lockGen} of 5`}>
-              <div className="lock-fill" style={{ width: `${(lockGen / 5) * 100}%` }} />
+
+          <div
+            className="lock-item"
+            role="listitem"
+          >
+            <div className="lock-k">
+              Generational Lock
             </div>
-            <div className="lock-v">{p.targetScale.generations}</div>
+
+            <div
+              className="lock-meter"
+              aria-label={`Generational lock level ${lockGenerations} of 5`}
+            >
+              <div
+                className="lock-fill"
+                style={{
+                  width:
+                    `${(
+                      lockGenerations /
+                      5
+                    ) *
+                      100}%`,
+                }}
+              />
+            </div>
+
+            <div className="lock-v">
+              {
+                project
+                  .targetScale
+                  .generations
+              }
+            </div>
           </div>
 
-          <div className="lock-item" role="listitem">
-            <div className="lock-k">Capital Lock</div>
-            <div className="lock-meter" aria-label={`Capital lock level ${lockCap} of 5`}>
-              <div className="lock-fill" style={{ width: `${(lockCap / 5) * 100}%` }} />
+
+          <div
+            className="lock-item"
+            role="listitem"
+          >
+            <div className="lock-k">
+              Capital Lock
             </div>
-            <div className="lock-v">{p.targetScale.capital}</div>
+
+            <div
+              className="lock-meter"
+              aria-label={`Capital lock level ${lockCapital} of 5`}
+            >
+              <div
+                className="lock-fill"
+                style={{
+                  width:
+                    `${(
+                      lockCapital /
+                      5
+                    ) *
+                      100}%`,
+                }}
+              />
+            </div>
+
+            <div className="lock-v">
+              {
+                project
+                  .targetScale
+                  .capital
+              }
+            </div>
           </div>
 
-          <div className="lock-item" role="listitem">
-            <div className="lock-k">Phase Lock</div>
-            <div className="lock-meter" aria-label={`Phase lock level ${lockPhase} of 5`}>
-              <div className="lock-fill" style={{ width: `${(lockPhase / 5) * 100}%` }} />
+
+          <div
+            className="lock-item"
+            role="listitem"
+          >
+            <div className="lock-k">
+              Phase Lock
             </div>
-            <div className="lock-v">{p.phase}</div>
+
+            <div
+              className="lock-meter"
+              aria-label={`Phase lock level ${lockProjectPhase} of 5`}
+            >
+              <div
+                className="lock-fill"
+                style={{
+                  width:
+                    `${(
+                      lockProjectPhase /
+                      5
+                    ) *
+                      100}%`,
+                }}
+              />
+            </div>
+
+            <div className="lock-v">
+              {
+                project.phase
+              }
+            </div>
           </div>
         </div>
 
+
         <p className="lock-note">
-          As the project advances, the system moves from reversible choices to locked commitments. The meter visualizes where irreversibility is accumulating.
+          As the project advances, the system moves from reversible choices
+          to locked commitments. The meter visualizes where irreversibility
+          is accumulating.
         </p>
       </section>
 
+
+      {/* ====================================================
+          REALITY CONNECTION
+      ==================================================== */}
+
       <section className="project-block">
-        <h2>Reality Connection</h2>
+        <h2>
+          Reality Connection
+        </h2>
+
 
         <div className="project-sub">
-          <h3>What is fixed now</h3>
+          <h3>
+            What is fixed now
+          </h3>
+
           <ul className="project-list">
-            {p.realityConnection.whatIsFixedNow.map((x) => (
-              <li key={x}>{x}</li>
-            ))}
+            {
+              project
+                .realityConnection
+                .whatIsFixedNow
+                .map(
+                  (
+                    item,
+                  ) => (
+                    <li
+                      key={
+                        item
+                      }
+                    >
+                      {item}
+                    </li>
+                  ),
+                )
+            }
           </ul>
         </div>
 
+
         <div className="project-sub">
-          <h3>Evidence artifacts</h3>
+          <h3>
+            Evidence artifacts
+          </h3>
+
           <ul className="project-list">
-            {p.realityConnection.evidenceArtifacts.map((x) => (
-              <li key={x}>{x}</li>
-            ))}
+            {
+              project
+                .realityConnection
+                .evidenceArtifacts
+                .map(
+                  (
+                    item,
+                  ) => (
+                    <li
+                      key={
+                        item
+                      }
+                    >
+                      {item}
+                    </li>
+                  ),
+                )
+            }
           </ul>
         </div>
 
+
         <div className="project-sub">
-          <h3>Phase gates</h3>
+          <h3>
+            Phase gates
+          </h3>
+
           <div className="project-gates">
-            {(["Concept", "Prototype", "Deployment"] as Phase[]).map((ph) => (
-              <div key={ph} className="project-gate">
-                <div className="project-gate-title">{ph}</div>
-                <ul className="project-list">
-                  {p.realityConnection.phaseGate[ph].map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+            {
+              (
+                [
+                  "Concept",
+                  "Prototype",
+                  "Deployment",
+                ] as ProjectPhase[]
+              ).map(
+                (
+                  phase,
+                ) => (
+                  <div
+                    key={
+                      phase
+                    }
+                    className="project-gate"
+                  >
+                    <div className="project-gate-title">
+                      {phase}
+                    </div>
+
+                    <ul className="project-list">
+                      {
+                        project
+                          .realityConnection
+                          .phaseGate[
+                            phase
+                          ]
+                          .map(
+                            (
+                              item,
+                            ) => (
+                              <li
+                                key={
+                                  item
+                                }
+                              >
+                                {item}
+                              </li>
+                            ),
+                          )
+                      }
+                    </ul>
+                  </div>
+                ),
+              )
+            }
           </div>
         </div>
       </section>
