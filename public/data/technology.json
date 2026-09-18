@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-18T08:45:18.025Z",
+  "updated": "2026-09-18T09:27:27.871Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
+      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+      "summary": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress…",
+      "ts": 1789722000000,
+      "publishedAt": "2026-09-18T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Opinion: Doctors should educate patients about ‘Asian glow’ and drinking risks",
@@ -799,15 +808,6 @@
       "title": "Optimum foraging area in a three-trophic food chain",
       "url": "https://arxiv.org/abs/2609.18609",
       "summary": "arXiv:2609.18609v1 Announce Type: new Abstract: Organisms' foraging strategies are shaped by a trade-off between search area and local capture efficiency. This trade-off leads individuals to adapt their foraging area to …",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Automatic denoising and differentiation based on Savitzky-Golay filtering and Homogeneous Differentiators for attractor reconstruction via differential embedding",
-      "url": "https://arxiv.org/abs/2609.18631",
-      "summary": "arXiv:2609.18631v1 Announce Type: new Abstract: Differential embedding methods aim to reconstruct attractors of dynamical systems from noisy measured time series, but require accurate estimates of signal derivatives. We …",
       "ts": 1789617600000,
       "publishedAt": "2026-09-17T04:00:00.000Z",
       "categoryId": "bio"
