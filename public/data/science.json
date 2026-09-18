@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-18T06:58:21.244Z",
+  "updated": "2026-09-18T07:15:00.312Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Could expanding the U.S. nuclear arsenal make Americans less safe?",
+      "url": "https://phys.org/news/2026-09-nuclear-arsenal-americans-safe.html",
+      "summary": "A new report from the Brookings Institution presents evidence that increasing the size of the U.S. nuclear arsenal could make nuclear crises more likely. This raises an important challenge to arguments that the U.S. must…",
+      "ts": 1789714803000,
+      "publishedAt": "2026-09-18T07:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Baby orangutans in India expose 'frightening' scale of trafficking",
+      "url": "https://phys.org/news/2026-09-baby-orangutans-india-expose-scale.html",
+      "summary": "Five baby orangutans abandoned in an Indian forest have exposed a \"massive\" exotic wildlife trade, with traffickers smuggling increasingly rare species into the country, experts say.",
+      "ts": 1789714801000,
+      "publishedAt": "2026-09-18T07:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Bolivia's tilcayo tiger cat becomes first new wildcat species in 100 years",
@@ -783,22 +799,6 @@
       "title": "Radial dam breaks in a two-dimensional droplet bearing environment",
       "url": "https://arxiv.org/abs/2609.19508",
       "summary": "arXiv:2609.19508v1 Announce Type: cross Abstract: The controlled dynamical generation of radial dam break flows (DBFs) is demonstrated in two-dimensional droplet environments. These ultracold mixtures feature competing m…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial Aggregation of ROC and Precision-Recall Curves",
-      "url": "https://arxiv.org/abs/2609.19517",
-      "summary": "arXiv:2609.19517v1 Announce Type: cross Abstract: Receiver Operating Characteristic (ROC) and Precision-Recall (PR) curves are widely used to assess the discrimination ability of forecasts for binary events, such as thre…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrogen Reorganization in Hot Dense Ammonia",
-      "url": "https://arxiv.org/abs/2609.19605",
-      "summary": "arXiv:2609.19605v1 Announce Type: cross Abstract: Hydrogen is known to form stable compounds with a variety of simple molecular solids under high pressure. However, ammonia hydride has not been experimentally observed. H…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
