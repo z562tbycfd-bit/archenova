@@ -49777,3 +49777,99 @@ i {
 
 
 
+/* ==========================================================
+   TODAY'S INQUIRY
+   iOS / MOBILE SCROLLBAR VISUAL OVERRIDE
+   ----------------------------------------------------------
+   VISUAL ONLY.
+
+   DO NOT modify:
+   - position
+   - inset
+   - width / height
+   - overflow
+   - document flow
+   - scroll behavior
+   - RELATED RESEARCH reachability
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /*
+   * Confirmed scroll owner:
+   * .ti-home__scroll
+   */
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll {
+    scrollbar-width: none !important;
+    scrollbar-color: transparent transparent !important;
+  }
+
+
+  /* WebKit / iOS Safari */
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar {
+    -webkit-appearance: none !important;
+
+    width: 0 !important;
+    height: 0 !important;
+
+    background: transparent !important;
+  }
+
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-track {
+    -webkit-appearance: none !important;
+
+    background: transparent !important;
+
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-thumb {
+    -webkit-appearance: none !important;
+
+    background: transparent !important;
+
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-thumb:hover,
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-thumb:active {
+    background: transparent !important;
+
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-button,
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-corner {
+    -webkit-appearance: none !important;
+
+    width: 0 !important;
+    height: 0 !important;
+
+    background: transparent !important;
+  }
+}
