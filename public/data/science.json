@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-09-18T18:08:32.727Z",
+  "updated": "2026-09-18T21:28:43.947Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "North Korea's nuclear testing may have triggered hundreds of earthquakes over several years",
+      "url": "https://phys.org/news/2026-09-north-korea-nuclear-triggered-hundreds.html",
+      "summary": "Between 2006 and 2017, North Korea conducted six underground nuclear tests at its vast testing site at Mount Mantap in North Hamgyong province. Typically, underground explosions trigger an intense burst of minor earthqua…",
+      "ts": 1789765201000,
+      "publishedAt": "2026-09-18T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Medieval Chinese skeleton may reveal first evidence of a brutal punishment",
+      "url": "https://phys.org/news/2026-09-medieval-chinese-skeleton-reveal-evidence.html",
+      "summary": "Ancient Chinese authorities used many creative ways to punish people, often with methods designed to mark them for life. One brutal example mentioned repeatedly in historical texts is cutting off a person's nose. However…",
+      "ts": 1789759205000,
+      "publishedAt": "2026-09-18T19:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Workplace AI adoption remains slow, informal and uneven, survey finds",
+      "url": "https://phys.org/news/2026-09-workplace-ai-uneven-survey.html",
+      "summary": "Despite the rapid development of generative AI and the high level of public interest, the use of AI in the day-to-day work of many employees is not yet the norm. This is the finding of the third wave of the Konstanz AI s…",
+      "ts": 1789759202000,
+      "publishedAt": "2026-09-18T19:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "To read 2,000-year-old burned scrolls, scientists burn their own",
+      "url": "https://phys.org/news/2026-09-year-scrolls-scientists.html",
+      "summary": "Douglas Seiler painstakingly sourced papyrus and reed pens from Egypt and traditional lampblack ink from Japan, then paid some high school students to inscribe the papyrus with lines from Star Wars and the Bible and a qu…",
+      "ts": 1789758004000,
+      "publishedAt": "2026-09-18T19:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Power breeds suspicion: In cases of wrongdoing, people point to leaders more quickly",
+      "url": "https://phys.org/news/2026-09-power-suspicion-cases-wrongdoing-people.html",
+      "summary": "People with power are more quickly singled out as the culprit when something goes wrong but it is unclear who made the mistake. That is shown by a series of studies by researchers at the University of Amsterdam. In one, …",
+      "ts": 1789758001000,
+      "publishedAt": "2026-09-18T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe can lower emissions without deindustrializing, say researchers",
+      "url": "https://phys.org/news/2026-09-europe-emissions-deindustrializing.html",
+      "summary": "The European Union has committed to achieving climate neutrality by 2050, a process that will require rapid and substantial reductions in greenhouse gas emissions across all economic sectors.",
+      "ts": 1789756807000,
+      "publishedAt": "2026-09-18T18:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Amino acids and a bone mineral may help control magnesium implant breakdown, three student papers suggest",
+      "url": "https://phys.org/news/2026-09-amino-acids-bone-mineral-magnesium.html",
+      "summary": "Seeing a bachelor's thesis published in a scientific journal is relatively uncommon. For three theses linked to the same research group to result in scientific publications within just three months is downright rare. Yet…",
+      "ts": 1789756801000,
+      "publishedAt": "2026-09-18T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists extend the search for quantum black holes at the LHC",
+      "url": "https://phys.org/news/2026-09-physicists-quantum-black-holes-lhc.html",
+      "summary": "Physicists at UC Santa Barbara have extended the search for evidence of microscopic black holes produced at the Large Hadron Collider (LHC) at the European Organization for Nuclear Research (CERN). The formation of these…",
+      "ts": 1789755607000,
+      "publishedAt": "2026-09-18T18:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Who do you trust in an emergency? Researchers ask people in places hit by extreme weather",
+      "url": "https://phys.org/news/2026-09-emergency-people-extreme-weather.html",
+      "summary": "One evening in August 2025, a Pakistani shepherd, Abuzar Hussain, was tending sheep and goats on the mountain slopes of Shijar. At about 6 p.m., a thunderous roar shattered the silence of the valley.",
+      "ts": 1789755604000,
+      "publishedAt": "2026-09-18T18:20:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New thermal insulator outperforms any material found in nature",
@@ -371,6 +443,30 @@
       "publishedAt": "2026-09-18T10:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Investigating spectral dynamics and spin signatures of a mechanically isolated quantum emitter in $h\\mathrm{BN}$",
+      "url": "http://link.aps.org/doi/10.1103/m3gt-9g4v",
+      "summary": "Author(s): Sajedeh Shahbazi, Alexander Pachl, Kathrin Schwer, Patrick Maier, and Alexander Kubanek Mechanically isolated defect centers in hexagonal boron nitride are promising coherent quantum emitters, yet spectral ins…",
+      "ts": 1789725600000,
+      "publishedAt": "2026-09-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Frequency collisions in parametrically modulated superconducting circuits",
+      "url": "http://link.aps.org/doi/10.1103/ptj2-kcpc",
+      "summary": "Author(s): Zhuang Ma, Peng Zhao, Xinsheng Tan, and Yang Yu Superconducting circuits are a leading platform for scalable quantum computing, where parametric modulation is a widely used technique for implementing high-fide…",
+      "ts": 1789725600000,
+      "publishedAt": "2026-09-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Reconfigurable circuit for mode-tunable topological quantum structured light",
+      "url": "http://link.aps.org/doi/10.1103/w3dc-58pw",
+      "summary": "Author(s): Pedro Ornelas, Tatjana Kleine, André G. de Oliveira, Carmelo Rosales-Guzmán, Andrew Forbes, and Isaac Nape Quantum topological structured light offers a promising route to robust information encoding, but its …",
+      "ts": 1789725600000,
+      "publishedAt": "2026-09-18T10:00:00.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
       "url": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
@@ -703,102 +799,6 @@
       "title": "Mo2TiC2Tx MXene Saturable Absorption for Neural Networks on a Chip",
       "url": "https://arxiv.org/abs/2609.19849",
       "summary": "arXiv:2609.19849v1 Announce Type: new Abstract: MXenes have attracted considerable interest for integrated nonlinear photonics owing to their broadband optical response and chemical tunability, yet investigations have fo…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrogen isotope mixing entropy in ammonia clusters",
-      "url": "https://arxiv.org/abs/2609.19901",
-      "summary": "arXiv:2609.19901v1 Announce Type: new Abstract: Measured evaporation branching ratios of partially deuterated isotopologues of protonated ammonia clusters (NH$_3$)$_N$ H$^+$ ($N \\geq 8$) show ratios that depend only on t…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Broadband transverse mode directional couplers using partial Euler bends",
-      "url": "https://arxiv.org/abs/2609.19933",
-      "summary": "arXiv:2609.19933v1 Announce Type: new Abstract: Transverse modes beyond the fundamental mode are increasingly being explored to increase information capacity in both mode-division multiplexing and high-dimensional quantu…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mean flow scaling in stably stratified temporally developing turbulent boundary layers",
-      "url": "https://arxiv.org/abs/2609.19935",
-      "summary": "arXiv:2609.19935v1 Announce Type: new Abstract: Stably stratified wall-bounded turbulence governs the dynamics of many environmental and engineering flows. A key challenge is characterizing how stratification modifies me…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Power-Bandwidth Scaling of Resonantly Coupled Soliton Microcombs",
-      "url": "https://arxiv.org/abs/2609.19941",
-      "summary": "arXiv:2609.19941v1 Announce Type: new Abstract: A soliton microcomb requires increasing pump power as its optical bandwidth is broadened. Resonant pumping through an auxiliary microresonator can reduce the power required…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gradient-Based Construction of Collisionless Steady-State Guiding-Center Distributions in Tokamaks and Stellarators",
-      "url": "https://arxiv.org/abs/2609.19953",
-      "summary": "arXiv:2609.19953v1 Announce Type: new Abstract: We present a matrix-free residual-minimization method for preparing guiding-center distribution functions on finite grids. The method minimizes a fixed conservative discret…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-capacity computing with self-rectification nonlinear optical neural processor",
-      "url": "https://arxiv.org/abs/2609.19981",
-      "summary": "arXiv:2609.19981v1 Announce Type: new Abstract: Artificial intelligence (AI) and neural networks have driven groundbreaking innovations across numerous disciplines. Optical computing offers the promise of unprecedented s…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "T2 estimation from MOLLI acquisitions",
-      "url": "https://arxiv.org/abs/2609.19987",
-      "summary": "arXiv:2609.19987v1 Announce Type: new Abstract: Cardiac T1 and T2 quantitative magnetic resonance imaging (MRI) is a technique that provides characterization of a multitude of myocardial pathologies. However, each parame…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When higher-order interactions matter: reducibility, parsimony, and microscopic organization",
-      "url": "https://arxiv.org/abs/2609.20039",
-      "summary": "arXiv:2609.20039v1 Announce Type: new Abstract: The current debate on higher-order interactions raises a fundamental question: when can systems organized through group interactions be faithfully represented within a grap…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transient High-Harmonic Generation from Solids: From Spectroscopy and Control to Programmable Emission",
-      "url": "https://arxiv.org/abs/2609.20085",
-      "summary": "arXiv:2609.20085v1 Announce Type: new Abstract: High-harmonic generation (HHG) from solids has emerged as a powerful probe of electronic structure and ultrafast dynamics in condensed matter systems. In this chapter, we r…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Commissioning and Performance of the Time-of-Flight Detector for the T2K Neutrino Oscillation Experiment",
-      "url": "https://arxiv.org/abs/2609.20117",
-      "summary": "arXiv:2609.20117v1 Announce Type: new Abstract: The T2K ND280 Upgrade aims to reduce systematic uncertainties in measurements of neutrino oscillation parameters and improve sensitivity to the charge-parity (CP)-violating…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frequency Attraction and Repulsion in Lasers with Complex Mutual Coupling",
-      "url": "https://arxiv.org/abs/2609.20132",
-      "summary": "arXiv:2609.20132v1 Announce Type: new Abstract: We experimentally investigate laser synchronization under complex mutual coupling, featuring both dissipative and dispersive components. Using a reconfigurable digital dege…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstruction of Beam Transverse Parameters in the Fermilab Side-Coupled Linac Using a Normalized Coordinate Framework",
-      "url": "https://arxiv.org/abs/2609.20136",
-      "summary": "arXiv:2609.20136v1 Announce Type: new Abstract: Quadrupole scans are a commonly used tool for beam second moment reconstruction. Limitations in the strength of the magnets and layout of the beamline elements frequently p…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
