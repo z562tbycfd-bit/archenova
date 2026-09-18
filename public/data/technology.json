@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-18T04:38:18.640Z",
+  "updated": "2026-09-18T05:23:05.116Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy/",
+      "summary": "APOD Science APOD APOD: 2026 September 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1789704300000,
+      "publishedAt": "2026-09-18T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Flash-Radiomics: A Scalable Hybrid CPU-CUDA Engine for Standardized Scalar Radiomics and Accelerated Spatial Mapping",
@@ -799,15 +808,6 @@
       "title": "Quantum Probability Current Guided Reduction of Coupling Control Degrees of Freedom for Excitation Transport",
       "url": "https://arxiv.org/abs/2609.18250",
       "summary": "arXiv:2609.18250v1 Announce Type: cross Abstract: Time-dependent coherent control can enhance excitation transport in open quantum networks, but independently controlling every inter-site coupling creates a control space…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HPOQuest: A Rare-Disease Diagnostic Agent Using Active Phenotype Acquisition",
-      "url": "https://arxiv.org/abs/2609.18431",
-      "summary": "arXiv:2609.18431v1 Announce Type: cross Abstract: More than 300 million people worldwide are affected by one of over 7,000 known rare diseases, yet diagnosis remains difficult because patients initially present with inco…",
       "ts": 1789617600000,
       "publishedAt": "2026-09-17T04:00:00.000Z",
       "categoryId": "bio"

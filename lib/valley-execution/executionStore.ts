@@ -135,6 +135,80 @@ export interface ValleyExecutionStoreOperationResult<
     string;
 }
 
+/* ==========================================================
+   ATOMIC EXECUTION TRANSACTION
+
+   A transaction describes a complete set of runtime record
+   mutations that must either all succeed or none succeed.
+
+   This is an in-memory ArcheNova Core transaction.
+
+   It is NOT:
+   - a database transaction
+   - external persistence
+   - governance approval
+   - domain authorization
+
+   Supported V2.8 operations:
+
+   replace
+     → replace an existing execution object
+
+   create
+     → create a new execution object
+========================================================== */
+
+export interface ValleyExecutionAtomicReplaceOperation<
+  TObject extends
+    ValleyExecutionObject =
+    ValleyExecutionObject,
+> {
+  type:
+    "replace";
+
+  object:
+    TObject;
+
+  expectedStoreRevision:
+    number;
+
+  context:
+    ValleyExecutionWriteContext;
+}
+
+
+export interface ValleyExecutionAtomicCreateOperation<
+  TObject extends
+    ValleyExecutionObject =
+    ValleyExecutionObject,
+> {
+  type:
+    "create";
+
+  object:
+    TObject;
+
+  context:
+    ValleyExecutionWriteContext;
+}
+
+
+export type ValleyExecutionAtomicOperation =
+  | ValleyExecutionAtomicReplaceOperation
+  | ValleyExecutionAtomicCreateOperation;
+
+
+export interface ValleyExecutionAtomicTransactionResult {
+  ok:
+    boolean;
+
+  records?:
+    ValleyExecutionStateRecord[];
+
+  error?:
+    string;
+}
+
 
 /* ==========================================================
    STORE CONFIG
@@ -892,6 +966,489 @@ export class ValleyExecutionStore {
       value:
         cloneExecutionRecord(
           record,
+        ),
+    };
+  }
+
+  /* ========================================================
+     ATOMIC TRANSACTION
+     --------------------------------------------------------
+     Stage V2.8
+
+     All operations are evaluated against a private working
+     envelope first.
+
+     No runtime state becomes visible until:
+
+     - every operation has succeeded
+     - every resulting record is structurally valid
+     - the complete resulting envelope is valid
+
+     Only then does the Store perform ONE commit.
+
+     Therefore:
+
+     Partial Source Update
+     ≠ Possible Accepted State
+
+     Source Replace + Destination Create
+     = One Runtime Commit
+
+     This provides Core-level atomicity without requiring any
+     external storage provider.
+  ======================================================== */
+
+  atomicTransaction(
+    operations:
+      ValleyExecutionAtomicOperation[],
+  ):
+    ValleyExecutionAtomicTransactionResult {
+
+    if (
+      this.destroyed
+    ) {
+      return {
+        ok:
+          false,
+
+        error:
+          "Valley Execution Store has been destroyed.",
+      };
+    }
+
+
+    if (
+      !Array.isArray(
+        operations,
+      ) ||
+      operations.length ===
+        0
+    ) {
+      return {
+        ok:
+          false,
+
+        error:
+          "Atomic execution transaction requires at least one operation.",
+      };
+    }
+
+
+    let workingEnvelope =
+      cloneExecutionStateEnvelope(
+        this.envelope,
+      );
+
+
+    const changedRecords:
+      ValleyExecutionStateRecord[] =
+      [];
+
+
+    const touchedIds =
+      new Set<
+        string
+      >();
+
+
+    for (
+      const operation of
+      operations
+    ) {
+
+      const objectClone =
+        cloneExecutionObject(
+          operation.object,
+        );
+
+
+      if (
+        touchedIds.has(
+          objectClone.id,
+        )
+      ) {
+        return {
+          ok:
+            false,
+
+          error:
+            `Atomic execution transaction cannot mutate the same record more than once: ${objectClone.id}`,
+        };
+      }
+
+
+      touchedIds.add(
+        objectClone.id,
+      );
+
+
+      /* ----------------------------------------------------
+         CREATE
+      ---------------------------------------------------- */
+
+      if (
+        operation.type ===
+        "create"
+      ) {
+
+        const existing =
+          findExecutionStateRecord(
+            workingEnvelope,
+            objectClone.id,
+          );
+
+
+        if (
+          existing
+        ) {
+          return {
+            ok:
+              false,
+
+            error:
+              `Execution record already exists: ${objectClone.id}`,
+          };
+        }
+
+
+        let record:
+          ValleyExecutionStateRecord;
+
+
+        try {
+          record =
+            createExecutionStateRecord(
+              objectClone,
+              operation.context,
+            );
+        } catch (
+          error
+        ) {
+          return {
+            ok:
+              false,
+
+            error:
+              error instanceof Error
+                ? error.message
+                : `Atomic create failed: ${objectClone.id}`,
+          };
+        }
+
+
+        const recordValidation =
+          validateExecutionStateRecord(
+            record,
+          );
+
+
+        if (
+          !recordValidation.valid
+        ) {
+          return {
+            ok:
+              false,
+
+            error:
+              recordValidation.errors.join(
+                " ",
+              ),
+          };
+        }
+
+
+        workingEnvelope = {
+          ...workingEnvelope,
+
+          schemaVersion:
+            VALLEY_EXECUTION_STATE_SCHEMA_VERSION,
+
+          updatedAt:
+            record.updatedAt,
+
+          records: [
+            ...workingEnvelope
+              .records,
+
+            record,
+          ],
+        };
+
+
+        changedRecords.push(
+          cloneExecutionRecord(
+            record,
+          ),
+        );
+
+
+        continue;
+      }
+
+
+      /* ----------------------------------------------------
+         REPLACE
+      ---------------------------------------------------- */
+
+      const existing =
+        findExecutionStateRecord(
+          workingEnvelope,
+          objectClone.id,
+        );
+
+
+      if (
+        !existing
+      ) {
+        return {
+          ok:
+            false,
+
+        error:
+          `Execution record not found: ${objectClone.id}`,
+        };
+      }
+
+
+      const conflict =
+        this.validateExpectedRevision(
+          existing,
+          operation
+            .expectedStoreRevision,
+        );
+
+
+      if (
+        conflict
+      ) {
+        return {
+          ok:
+            false,
+
+          error:
+            conflict,
+        };
+      }
+
+
+      let timestamp:
+        string;
+
+
+      try {
+        timestamp =
+          resolveExecutionTimestamp(
+            operation
+              .context
+              .timestamp,
+          );
+      } catch (
+        error
+      ) {
+        return {
+          ok:
+            false,
+
+          error:
+            error instanceof Error
+              ? error.message
+              : `Atomic replace timestamp is invalid: ${objectClone.id}`,
+        };
+      }
+
+
+      const mutation:
+        ValleyExecutionMutation = {
+
+        id:
+          createExecutionMutationId(),
+
+        type:
+          "replaced",
+
+        source:
+          operation
+            .context
+            .source,
+
+        timestamp,
+
+        fromRevision:
+          existing
+            .object
+            .revision,
+
+        toRevision:
+          objectClone
+            .revision,
+
+        fromStage:
+          existing
+            .object
+            .stage,
+
+        toStage:
+          objectClone
+            .stage,
+
+        fromStatus:
+          existing
+            .object
+            .status,
+
+        toStatus:
+          objectClone
+            .status,
+
+        reason:
+          operation
+            .context
+            .reason,
+
+        metadata:
+          operation
+            .context
+            .metadata,
+      };
+
+
+      const nextRecord:
+        ValleyExecutionStateRecord = {
+
+        schemaVersion:
+          VALLEY_EXECUTION_STATE_SCHEMA_VERSION,
+
+        id:
+          existing.id,
+
+        stage:
+          objectClone.stage,
+
+        recordState:
+          existing.recordState,
+
+        storeRevision:
+          existing.storeRevision +
+          1,
+
+        object:
+          objectClone,
+
+        createdAt:
+          existing.createdAt,
+
+        updatedAt:
+          timestamp,
+
+        mutations:
+          this.limitMutations([
+            ...existing.mutations,
+            mutation,
+          ]),
+      };
+
+
+      const recordValidation =
+        validateExecutionStateRecord(
+          nextRecord,
+        );
+
+
+      if (
+        !recordValidation.valid
+      ) {
+        return {
+          ok:
+            false,
+
+          error:
+            recordValidation.errors.join(
+              " ",
+            ),
+        };
+      }
+
+
+      workingEnvelope = {
+        ...workingEnvelope,
+
+        updatedAt:
+          timestamp,
+
+        records:
+          workingEnvelope
+            .records
+            .map(
+              (record) =>
+                record.id ===
+                existing.id
+                  ? nextRecord
+                  : record,
+            ),
+      };
+
+
+      changedRecords.push(
+        cloneExecutionRecord(
+          nextRecord,
+        ),
+      );
+    }
+
+
+    /* ------------------------------------------------------
+       COMPLETE ENVELOPE VALIDATION
+
+       Nothing has been committed yet.
+    ------------------------------------------------------ */
+
+    const envelopeValidation =
+      validateExecutionStateEnvelope(
+        workingEnvelope,
+      );
+
+
+    if (
+      !envelopeValidation.valid
+    ) {
+      return {
+        ok:
+          false,
+
+        error:
+          [
+            "Atomic execution transaction rejected.",
+            ...envelopeValidation
+              .errors,
+          ].join(
+            " ",
+          ),
+      };
+    }
+
+
+    /* ------------------------------------------------------
+       ONE COMMIT
+
+       This is the only point at which runtime state changes.
+    ------------------------------------------------------ */
+
+    this.commit(
+      workingEnvelope,
+      "atomic-transaction",
+    );
+
+
+    return {
+      ok:
+        true,
+
+      records:
+        changedRecords.map(
+          (record) =>
+            cloneExecutionRecord(
+              record,
+            ),
         ),
     };
   }
