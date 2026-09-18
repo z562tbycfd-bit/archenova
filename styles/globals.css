@@ -49707,3 +49707,273 @@ i {
 
 
 
+/* ==========================================================
+   ARCHENOVA HOME
+   FINAL NATURAL PORTAL SCROLL
+   ----------------------------------------------------------
+   One HOME glass.
+   One internal vertical scroll owner per Portal.
+   Invisible mobile scrollbar.
+   Subtle desktop scrollbar.
+   Full content remains reachable.
+========================================================== */
+
+
+/* ==========================================================
+   1. SCROLL OWNERS
+========================================================== */
+
+/* EPISTEME */
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__experience,
+
+/* TODAY'S INQUIRY — confirmed actual scroll owner */
+.archenova-twin-home
+#todays-inquiry
+.ti-home__scroll,
+
+/* ARCHENOVA VALLEY */
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__experience {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+
+  overscroll-behavior-y: contain !important;
+
+  -webkit-overflow-scrolling: touch;
+
+  /*
+   * Do not reserve a visible scrollbar lane.
+   */
+  scrollbar-gutter: auto !important;
+}
+
+
+/* ==========================================================
+   2. REMOVE ACCIDENTAL SECOND SCROLL OWNER
+   ----------------------------------------------------------
+   Old global mobile rule:
+   .home-page > *,
+   .twin-page > *
+   was forcing Portal roots to scroll.
+
+   HOME section itself already handles page navigation.
+   Internal scrolling belongs only to the confirmed
+   Portal scroll owners above.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #episteme-dialogue
+  > *,
+
+  .archenova-twin-home
+  #todays-inquiry
+  > *,
+
+  .archenova-twin-home
+  #archenova-valley
+  > * {
+    overflow: visible !important;
+
+    max-height: none !important;
+  }
+
+
+  /*
+   * Restore scrolling ONLY to the actual internal owners.
+   */
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    /*
+     * Critical for flex/grid descendants.
+     */
+    min-height: 0 !important;
+
+    overscroll-behavior-y: contain !important;
+
+    -webkit-overflow-scrolling: touch;
+
+    /*
+     * Completely remove visual scrollbar.
+     * Scrolling itself remains enabled.
+     */
+    scrollbar-width: none !important;
+
+    scrollbar-color: transparent transparent !important;
+
+    scrollbar-gutter: auto !important;
+  }
+}
+
+
+/* ==========================================================
+   3. MOBILE WEBKIT / iOS SAFARI
+   ----------------------------------------------------------
+   Hide scrollbar only.
+   DO NOT disable scrolling.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience::-webkit-scrollbar,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+
+    display: none !important;
+
+    background: transparent !important;
+  }
+
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience::-webkit-scrollbar-track,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-track,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience::-webkit-scrollbar-thumb,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-thumb,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience::-webkit-scrollbar-thumb {
+    background: transparent !important;
+
+    border: 0 !important;
+
+    box-shadow: none !important;
+  }
+}
+
+
+/* ==========================================================
+   4. DESKTOP
+   ----------------------------------------------------------
+   Keep discoverability, but make scrollbar Apple-like:
+   extremely thin and low contrast.
+========================================================== */
+
+@media (min-width: 769px) {
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience {
+    scrollbar-width: thin !important;
+
+    scrollbar-color:
+      rgba(255,255,255,.08)
+      transparent !important;
+
+    scrollbar-gutter: auto !important;
+  }
+
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience::-webkit-scrollbar,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience::-webkit-scrollbar {
+    width: 3px !important;
+  }
+
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience::-webkit-scrollbar-track,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-track,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__experience::-webkit-scrollbar-thumb,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__scroll::-webkit-scrollbar-thumb,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__experience::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,.08) !important;
+
+    border: 0 !important;
+
+    border-radius: 999px !important;
+
+    box-shadow: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
