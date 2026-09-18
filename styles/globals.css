@@ -49707,3 +49707,73 @@ i {
 
 
 
+/* ==========================================================
+   TODAY'S INQUIRY
+   INVISIBLE SCROLLBAR — VISUAL ONLY
+   ----------------------------------------------------------
+   IMPORTANT:
+   Scroll geometry is NOT modified.
+
+   Preserves:
+   - position
+   - inset
+   - width / height
+   - min-height / max-height
+   - overflow-x / overflow-y
+   - overscroll behavior
+   - touch scrolling
+   - document flow
+   - RELATED RESEARCH
+   - SCIENTIFIC TERMINUS
+========================================================== */
+
+
+/* Firefox */
+.archenova-twin-home
+#todays-inquiry
+.ti-home__scroll {
+  scrollbar-width: none !important;
+}
+
+
+/* Safari / Chrome / iOS WebKit */
+.archenova-twin-home
+#todays-inquiry
+.ti-home__scroll::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+
+/* Track */
+.archenova-twin-home
+#todays-inquiry
+.ti-home__scroll::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+
+/* Thumb */
+.archenova-twin-home
+#todays-inquiry
+.ti-home__scroll::-webkit-scrollbar-thumb {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* Hover */
+.archenova-twin-home
+#todays-inquiry
+.ti-home__scroll::-webkit-scrollbar-thumb:hover {
+  background: transparent !important;
+}
+
+
+
+
+
+
+
+
