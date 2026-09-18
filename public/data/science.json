@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-18T07:42:46.447Z",
+  "updated": "2026-09-18T08:07:26.313Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
+      "url": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
+      "summary": "New research published in the Journal of Experimental Botany reveals that wheat crops are more sensitive to grain yield losses from heat waves that occur before reaching their flowering stage than those occurring later. …",
+      "ts": 1789718401000,
+      "publishedAt": "2026-09-18T08:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Could expanding the U.S. nuclear arsenal make Americans less safe?",
@@ -791,14 +799,6 @@
       "title": "Closed-form weak-wave propagation pressure amplitudes for arbitrary power-law attenuation",
       "url": "https://arxiv.org/abs/2609.19458",
       "summary": "arXiv:2609.19458v1 Announce Type: cross Abstract: Biological tissues exhibit power-law frequency dependence of the attenuation coefficient. We derive closed-form weak-wave expressions for fundamental, second-, and third-…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radial dam breaks in a two-dimensional droplet bearing environment",
-      "url": "https://arxiv.org/abs/2609.19508",
-      "summary": "arXiv:2609.19508v1 Announce Type: cross Abstract: The controlled dynamical generation of radial dam break flows (DBFs) is demonstrated in two-dimensional droplet environments. These ultracold mixtures feature competing m…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }

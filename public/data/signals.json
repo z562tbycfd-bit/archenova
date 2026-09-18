@@ -1,7 +1,125 @@
 {
   "ok": true,
-  "updated": "2026-09-18T07:42:59.648Z",
+  "updated": "2026-09-18T08:07:33.997Z",
   "items": [
+    {
+      "id": "adaptive-capacity-early-heat-waves-hit-wheat-yields-hardest-but-boost-resilience-to-subsequent-hea",
+      "title": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
+      "source": "Phys.org",
+      "sourceUrl": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
+      "originalUrl": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
+      "url": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
+      "category": "Adaptive Capacity",
+      "summary": "New research published in the Journal of Experimental Botany reveals that wheat crops are more sensitive to grain yield losses from heat waves that occur before reaching their flowering stage than those occurring later. …",
+      "observation": "New research published in the Journal of Experimental Botany reveals that wheat crops are more sensitive to grain yield losses from heat waves that occur before reaching their flowering stage than those occurring later. …",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "implications": [
+        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
+        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
+        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
+      ],
+      "commentary": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 82,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+      "civilizationFunction": "Adaptive Capacity",
+      "relatedTopics": [
+        "Climate and Environment"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "reasoning",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Law & Governance",
+        "Capital",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Active System Stress",
+      "expectedHorizon": "Immediate / Ongoing",
+      "horizonRationale": "This signal is currently assessed as Active System Stress, placing it in the Immediate / Ongoing horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 7.2,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T08:00:01.000Z",
+      "updatedAt": "2026-09-18T08:07:33.964Z",
+      "ts": 1789718401000
+    },
+    {
+      "id": "reality-discovery-a-galaxy-spinning-out-of-sync",
+      "title": "A galaxy spinning out of sync",
+      "source": "ESA",
+      "sourceUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
+      "originalUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
+      "category": "Reality Discovery",
+      "summary": "Image: Though the spiral galaxy in this new image by the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellatio…",
+      "observation": "Image: Though the spiral galaxy in this new image by the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellatio…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "implications": [
+        "May strengthen orbital sensing, communications, navigation, logistics, or off-Earth operations.",
+        "Could affect space governance, launch infrastructure, strategic coordination, and planetary observation.",
+        "May contribute to civilization becoming less dependent on a single planetary operating environment."
+      ],
+      "commentary": "A galaxy spinning out of sync should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+      "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+      "civilizationFunction": "Reality Discovery",
+      "relatedTopics": [
+        "Space Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Space",
+        "Science",
+        "Technology",
+        "Law & Governance"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "5–20 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–20 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "score": {
+        "realityDiscovery": 9.1,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.6,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T08:00:00.000Z",
+      "updatedAt": "2026-09-18T08:07:33.965Z",
+      "ts": 1789718400000
+    },
     {
       "id": "civilization-engineering-could-expanding-the-u-s-nuclear-arsenal-make-americans-less-safe",
       "title": "Could expanding the U.S. nuclear arsenal make Americans less safe?",
@@ -54,7 +172,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T07:00:03.000Z",
-      "updatedAt": "2026-09-18T07:42:59.616Z",
+      "updatedAt": "2026-09-18T08:07:33.965Z",
       "ts": 1789714803000
     },
     {
@@ -109,7 +227,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T07:00:01.000Z",
-      "updatedAt": "2026-09-18T07:42:59.616Z",
+      "updatedAt": "2026-09-18T08:07:33.966Z",
       "ts": 1789714801000
     },
     {
@@ -164,7 +282,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T06:49:43.000Z",
-      "updatedAt": "2026-09-18T07:42:59.616Z",
+      "updatedAt": "2026-09-18T08:07:33.966Z",
       "ts": 1789714183000
     },
     {
@@ -219,7 +337,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T04:05:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.617Z",
+      "updatedAt": "2026-09-18T08:07:33.967Z",
       "ts": 1789704300000
     },
     {
@@ -282,7 +400,7 @@
         "overall": 6.8
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.617Z",
+      "updatedAt": "2026-09-18T08:07:33.967Z",
       "ts": 1789704000000
     },
     {
@@ -337,7 +455,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.618Z",
+      "updatedAt": "2026-09-18T08:07:33.967Z",
       "ts": 1789704000000
     },
     {
@@ -392,7 +510,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.618Z",
+      "updatedAt": "2026-09-18T08:07:33.968Z",
       "ts": 1789704000000
     },
     {
@@ -447,7 +565,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.619Z",
+      "updatedAt": "2026-09-18T08:07:33.968Z",
       "ts": 1789704000000
     },
     {
@@ -507,7 +625,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.619Z",
+      "updatedAt": "2026-09-18T08:07:33.969Z",
       "ts": 1789704000000
     },
     {
@@ -562,7 +680,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.619Z",
+      "updatedAt": "2026-09-18T08:07:33.969Z",
       "ts": 1789704000000
     },
     {
@@ -617,7 +735,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.620Z",
+      "updatedAt": "2026-09-18T08:07:33.970Z",
       "ts": 1789704000000
     },
     {
@@ -672,7 +790,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.620Z",
+      "updatedAt": "2026-09-18T08:07:33.970Z",
       "ts": 1789704000000
     },
     {
@@ -733,7 +851,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.621Z",
+      "updatedAt": "2026-09-18T08:07:33.970Z",
       "ts": 1789704000000
     },
     {
@@ -794,7 +912,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.621Z",
+      "updatedAt": "2026-09-18T08:07:33.971Z",
       "ts": 1789704000000
     },
     {
@@ -852,7 +970,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.621Z",
+      "updatedAt": "2026-09-18T08:07:33.971Z",
       "ts": 1789704000000
     },
     {
@@ -913,7 +1031,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.621Z",
+      "updatedAt": "2026-09-18T08:07:33.971Z",
       "ts": 1789704000000
     },
     {
@@ -974,7 +1092,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.622Z",
+      "updatedAt": "2026-09-18T08:07:33.971Z",
       "ts": 1789704000000
     },
     {
@@ -1029,7 +1147,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.622Z",
+      "updatedAt": "2026-09-18T08:07:33.972Z",
       "ts": 1789704000000
     },
     {
@@ -1088,7 +1206,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.623Z",
+      "updatedAt": "2026-09-18T08:07:33.972Z",
       "ts": 1789704000000
     },
     {
@@ -1143,7 +1261,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.623Z",
+      "updatedAt": "2026-09-18T08:07:33.973Z",
       "ts": 1789704000000
     },
     {
@@ -1198,7 +1316,7 @@
         "overall": 6.7
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.624Z",
+      "updatedAt": "2026-09-18T08:07:33.973Z",
       "ts": 1789704000000
     },
     {
@@ -1257,7 +1375,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.624Z",
+      "updatedAt": "2026-09-18T08:07:33.974Z",
       "ts": 1789704000000
     },
     {
@@ -1312,7 +1430,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.625Z",
+      "updatedAt": "2026-09-18T08:07:33.974Z",
       "ts": 1789704000000
     },
     {
@@ -1367,7 +1485,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.625Z",
+      "updatedAt": "2026-09-18T08:07:33.975Z",
       "ts": 1789704000000
     },
     {
@@ -1422,7 +1540,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.626Z",
+      "updatedAt": "2026-09-18T08:07:33.975Z",
       "ts": 1789704000000
     },
     {
@@ -1483,7 +1601,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.626Z",
+      "updatedAt": "2026-09-18T08:07:33.975Z",
       "ts": 1789704000000
     },
     {
@@ -1543,7 +1661,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.626Z",
+      "updatedAt": "2026-09-18T08:07:33.976Z",
       "ts": 1789704000000
     },
     {
@@ -1598,7 +1716,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.627Z",
+      "updatedAt": "2026-09-18T08:07:33.976Z",
       "ts": 1789704000000
     },
     {
@@ -1659,7 +1777,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.627Z",
+      "updatedAt": "2026-09-18T08:07:33.976Z",
       "ts": 1789704000000
     },
     {
@@ -1714,7 +1832,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.627Z",
+      "updatedAt": "2026-09-18T08:07:33.977Z",
       "ts": 1789704000000
     },
     {
@@ -1770,7 +1888,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.628Z",
+      "updatedAt": "2026-09-18T08:07:33.977Z",
       "ts": 1789704000000
     },
     {
@@ -1826,7 +1944,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.628Z",
+      "updatedAt": "2026-09-18T08:07:33.977Z",
       "ts": 1789704000000
     },
     {
@@ -1886,7 +2004,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.628Z",
+      "updatedAt": "2026-09-18T08:07:33.978Z",
       "ts": 1789704000000
     },
     {
@@ -1941,7 +2059,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.629Z",
+      "updatedAt": "2026-09-18T08:07:33.978Z",
       "ts": 1789704000000
     },
     {
@@ -1996,7 +2114,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.629Z",
+      "updatedAt": "2026-09-18T08:07:33.978Z",
       "ts": 1789704000000
     },
     {
@@ -2056,7 +2174,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.629Z",
+      "updatedAt": "2026-09-18T08:07:33.979Z",
       "ts": 1789704000000
     },
     {
@@ -2111,7 +2229,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.630Z",
+      "updatedAt": "2026-09-18T08:07:33.979Z",
       "ts": 1789704000000
     },
     {
@@ -2166,7 +2284,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.630Z",
+      "updatedAt": "2026-09-18T08:07:33.980Z",
       "ts": 1789704000000
     },
     {
@@ -2221,7 +2339,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.631Z",
+      "updatedAt": "2026-09-18T08:07:33.980Z",
       "ts": 1789704000000
     },
     {
@@ -2276,7 +2394,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.631Z",
+      "updatedAt": "2026-09-18T08:07:33.980Z",
       "ts": 1789704000000
     },
     {
@@ -2338,7 +2456,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.631Z",
+      "updatedAt": "2026-09-18T08:07:33.981Z",
       "ts": 1789704000000
     },
     {
@@ -2399,7 +2517,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.631Z",
+      "updatedAt": "2026-09-18T08:07:33.981Z",
       "ts": 1789704000000
     },
     {
@@ -2454,7 +2572,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.632Z",
+      "updatedAt": "2026-09-18T08:07:33.981Z",
       "ts": 1789704000000
     },
     {
@@ -2512,7 +2630,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.632Z",
+      "updatedAt": "2026-09-18T08:07:33.982Z",
       "ts": 1789704000000
     },
     {
@@ -2569,7 +2687,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T22:09:30.000Z",
-      "updatedAt": "2026-09-18T07:42:59.632Z",
+      "updatedAt": "2026-09-18T08:07:33.982Z",
       "ts": 1789682970000
     },
     {
@@ -2624,7 +2742,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T21:25:06.000Z",
-      "updatedAt": "2026-09-18T07:42:59.633Z",
+      "updatedAt": "2026-09-18T08:07:33.982Z",
       "ts": 1789680306000
     },
     {
@@ -2681,7 +2799,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T20:40:04.000Z",
-      "updatedAt": "2026-09-18T07:42:59.633Z",
+      "updatedAt": "2026-09-18T08:07:33.983Z",
       "ts": 1789677604000
     },
     {
@@ -2739,7 +2857,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T20:37:09.000Z",
-      "updatedAt": "2026-09-18T07:42:59.634Z",
+      "updatedAt": "2026-09-18T08:07:33.983Z",
       "ts": 1789677429000
     },
     {
@@ -2798,7 +2916,7 @@
         "overall": 6.8
       },
       "publishedAt": "2026-09-17T20:24:09.000Z",
-      "updatedAt": "2026-09-18T07:42:59.634Z",
+      "updatedAt": "2026-09-18T08:07:33.983Z",
       "ts": 1789676649000
     },
     {
@@ -2859,7 +2977,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T19:55:46.000Z",
-      "updatedAt": "2026-09-18T07:42:59.634Z",
+      "updatedAt": "2026-09-18T08:07:33.984Z",
       "ts": 1789674946000
     },
     {
@@ -2917,7 +3035,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T18:32:30.000Z",
-      "updatedAt": "2026-09-18T07:42:59.634Z",
+      "updatedAt": "2026-09-18T08:07:33.984Z",
       "ts": 1789669950000
     },
     {
@@ -2977,7 +3095,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T18:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.635Z",
+      "updatedAt": "2026-09-18T08:07:33.984Z",
       "ts": 1789668000000
     },
     {
@@ -3033,7 +3151,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T17:58:15.000Z",
-      "updatedAt": "2026-09-18T07:42:59.635Z",
+      "updatedAt": "2026-09-18T08:07:33.984Z",
       "ts": 1789667895000
     },
     {
@@ -3088,7 +3206,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T16:26:18.000Z",
-      "updatedAt": "2026-09-18T07:42:59.636Z",
+      "updatedAt": "2026-09-18T08:07:33.985Z",
       "ts": 1789662378000
     },
     {
@@ -3148,7 +3266,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T15:39:01.000Z",
-      "updatedAt": "2026-09-18T07:42:59.636Z",
+      "updatedAt": "2026-09-18T08:07:33.985Z",
       "ts": 1789659541000
     },
     {
@@ -3206,7 +3324,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T15:22:42.000Z",
-      "updatedAt": "2026-09-18T07:42:59.636Z",
+      "updatedAt": "2026-09-18T08:07:33.985Z",
       "ts": 1789658562000
     },
     {
@@ -3264,7 +3382,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-17T15:05:15.000Z",
-      "updatedAt": "2026-09-18T07:42:59.636Z",
+      "updatedAt": "2026-09-18T08:07:33.986Z",
       "ts": 1789657515000
     },
     {
@@ -3319,7 +3437,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T14:57:41.000Z",
-      "updatedAt": "2026-09-18T07:42:59.637Z",
+      "updatedAt": "2026-09-18T08:07:33.986Z",
       "ts": 1789657061000
     },
     {
@@ -3377,7 +3495,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-17T14:40:51.000Z",
-      "updatedAt": "2026-09-18T07:42:59.637Z",
+      "updatedAt": "2026-09-18T08:07:33.986Z",
       "ts": 1789656051000
     },
     {
@@ -3438,7 +3556,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-17T14:37:26.000Z",
-      "updatedAt": "2026-09-18T07:42:59.637Z",
+      "updatedAt": "2026-09-18T08:07:33.987Z",
       "ts": 1789655846000
     },
     {
@@ -3493,7 +3611,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T14:30:37.000Z",
-      "updatedAt": "2026-09-18T07:42:59.638Z",
+      "updatedAt": "2026-09-18T08:07:33.987Z",
       "ts": 1789655437000
     },
     {
@@ -3549,7 +3667,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T14:17:03.000Z",
-      "updatedAt": "2026-09-18T07:42:59.638Z",
+      "updatedAt": "2026-09-18T08:07:33.987Z",
       "ts": 1789654623000
     },
     {
@@ -3605,7 +3723,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T14:11:18.000Z",
-      "updatedAt": "2026-09-18T07:42:59.638Z",
+      "updatedAt": "2026-09-18T08:07:33.987Z",
       "ts": 1789654278000
     },
     {
@@ -3660,7 +3778,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T13:49:37.000Z",
-      "updatedAt": "2026-09-18T07:42:59.638Z",
+      "updatedAt": "2026-09-18T08:07:33.988Z",
       "ts": 1789652977000
     },
     {
@@ -3719,7 +3837,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T13:43:57.000Z",
-      "updatedAt": "2026-09-18T07:42:59.639Z",
+      "updatedAt": "2026-09-18T08:07:33.988Z",
       "ts": 1789652637000
     },
     {
@@ -3775,7 +3893,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T13:09:13.000Z",
-      "updatedAt": "2026-09-18T07:42:59.639Z",
+      "updatedAt": "2026-09-18T08:07:33.988Z",
       "ts": 1789650553000
     },
     {
@@ -3833,7 +3951,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T13:00:55.000Z",
-      "updatedAt": "2026-09-18T07:42:59.639Z",
+      "updatedAt": "2026-09-18T08:07:33.989Z",
       "ts": 1789650055000
     },
     {
@@ -3893,7 +4011,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T13:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.640Z",
+      "updatedAt": "2026-09-18T08:07:33.989Z",
       "ts": 1789650000000
     },
     {
@@ -3948,7 +4066,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T13:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.640Z",
+      "updatedAt": "2026-09-18T08:07:33.989Z",
       "ts": 1789650000000
     },
     {
@@ -4006,7 +4124,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-17T13:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.640Z",
+      "updatedAt": "2026-09-18T08:07:33.990Z",
       "ts": 1789650000000
     },
     {
@@ -4065,7 +4183,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T12:10:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.641Z",
+      "updatedAt": "2026-09-18T08:07:33.990Z",
       "ts": 1789647000000
     },
     {
@@ -4120,7 +4238,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.641Z",
+      "updatedAt": "2026-09-18T08:07:33.990Z",
       "ts": 1789646400000
     },
     {
@@ -4178,7 +4296,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.641Z",
+      "updatedAt": "2026-09-18T08:07:33.990Z",
       "ts": 1789646400000
     },
     {
@@ -4233,7 +4351,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.642Z",
+      "updatedAt": "2026-09-18T08:07:33.991Z",
       "ts": 1789646400000
     },
     {
@@ -4288,7 +4406,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.642Z",
+      "updatedAt": "2026-09-18T08:07:33.991Z",
       "ts": 1789646400000
     },
     {
@@ -4343,7 +4461,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.642Z",
+      "updatedAt": "2026-09-18T08:07:33.991Z",
       "ts": 1789646400000
     },
     {
@@ -4404,7 +4522,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.642Z",
+      "updatedAt": "2026-09-18T08:07:33.992Z",
       "ts": 1789646400000
     },
     {
@@ -4459,7 +4577,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.643Z",
+      "updatedAt": "2026-09-18T08:07:33.992Z",
       "ts": 1789646400000
     },
     {
@@ -4514,7 +4632,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.643Z",
+      "updatedAt": "2026-09-18T08:07:33.992Z",
       "ts": 1789646400000
     },
     {
@@ -4572,7 +4690,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.643Z",
+      "updatedAt": "2026-09-18T08:07:33.992Z",
       "ts": 1789646400000
     },
     {
@@ -4627,7 +4745,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T11:59:57.000Z",
-      "updatedAt": "2026-09-18T07:42:59.644Z",
+      "updatedAt": "2026-09-18T08:07:33.993Z",
       "ts": 1789646397000
     },
     {
@@ -4682,7 +4800,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T10:30:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.644Z",
+      "updatedAt": "2026-09-18T08:07:33.993Z",
       "ts": 1789641000000
     },
     {
@@ -4738,7 +4856,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T10:30:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.644Z",
+      "updatedAt": "2026-09-18T08:07:33.993Z",
       "ts": 1789641000000
     },
     {
@@ -4796,7 +4914,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T10:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.644Z",
+      "updatedAt": "2026-09-18T08:07:33.994Z",
       "ts": 1789639200000
     },
     {
@@ -4856,7 +4974,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T09:00:25.000Z",
-      "updatedAt": "2026-09-18T07:42:59.645Z",
+      "updatedAt": "2026-09-18T08:07:33.994Z",
       "ts": 1789635625000
     },
     {
@@ -4911,7 +5029,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T08:30:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.645Z",
+      "updatedAt": "2026-09-18T08:07:33.994Z",
       "ts": 1789633800000
     },
     {
@@ -4966,7 +5084,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T08:30:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.645Z",
+      "updatedAt": "2026-09-18T08:07:33.994Z",
       "ts": 1789633800000
     },
     {
@@ -5024,7 +5142,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-17T08:07:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.646Z",
+      "updatedAt": "2026-09-18T08:07:33.995Z",
       "ts": 1789632420000
     },
     {
@@ -5079,7 +5197,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-17T07:42:48.000Z",
-      "updatedAt": "2026-09-18T07:42:59.646Z",
+      "updatedAt": "2026-09-18T08:07:33.995Z",
       "ts": 1789630968000
     },
     {
@@ -5138,7 +5256,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-17T07:10:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.646Z",
+      "updatedAt": "2026-09-18T08:07:33.996Z",
       "ts": 1789629000000
     },
     {
@@ -5196,7 +5314,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T06:20:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.647Z",
+      "updatedAt": "2026-09-18T08:07:33.996Z",
       "ts": 1789626000000
     },
     {
@@ -5251,7 +5369,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-17T05:00:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.647Z",
+      "updatedAt": "2026-09-18T08:07:33.996Z",
       "ts": 1789621200000
     },
     {
@@ -5306,7 +5424,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-17T04:05:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.647Z",
+      "updatedAt": "2026-09-18T08:07:33.996Z",
       "ts": 1789617900000
     },
     {
@@ -5364,7 +5482,7 @@
         "overall": 6
       },
       "publishedAt": "2026-09-17T04:01:00.000Z",
-      "updatedAt": "2026-09-18T07:42:59.647Z",
+      "updatedAt": "2026-09-18T08:07:33.997Z",
       "ts": 1789617660000
     }
   ]
