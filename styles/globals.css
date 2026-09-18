@@ -50367,3 +50367,153 @@ i {
 
 
 
+/* ==========================================================
+   ARCHENOVA — GLOBAL MENU
+   QUIET NAVIGATION PRESENCE
+   ----------------------------------------------------------
+   Always available.
+   Never visually dominant.
+   No HOME geometry / scrolling changes.
+========================================================== */
+
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+.an-menu__trigger {
+  width: 44px !important;
+  height: 44px !important;
+
+  border-radius: 15px !important;
+
+  opacity: 0.72;
+
+  transform:
+    scale(0.94);
+
+  transform-origin:
+    center;
+
+  transition:
+    opacity 0.45s ease,
+    transform 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.35s ease,
+    background 0.35s ease !important;
+}
+
+
+.an-menu__trigger-lines {
+  width: 17px !important;
+
+  gap: 4px !important;
+}
+
+
+.an-menu__trigger-lines i {
+  height: 1px !important;
+
+  background:
+    rgba(244,247,249,0.58) !important;
+}
+
+
+/* ==========================================================
+   INTENT STATE
+   Restore clarity only when the visitor approaches it
+========================================================== */
+
+.an-menu__trigger:focus-visible {
+  opacity: 1;
+
+  transform:
+    scale(1) !important;
+}
+
+
+@media (hover: hover) {
+
+  .an-menu__trigger:hover {
+    opacity: 1;
+
+    transform:
+      translateY(-1px)
+      scale(1) !important;
+  }
+
+
+  .an-menu__trigger:hover
+  .an-menu__trigger-lines i {
+    background:
+      rgba(248,250,252,0.88) !important;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+   Preserve a comfortable touch target,
+   but reduce its optical weight.
+========================================================== */
+
+@media (max-width: 640px) {
+
+  .an-menu__trigger {
+    width: 44px !important;
+    height: 44px !important;
+
+    border-radius: 14px !important;
+
+    opacity: 0.68;
+
+    transform:
+      scale(0.92);
+  }
+
+
+  .an-menu__trigger-lines {
+    width: 17px !important;
+
+    gap: 4px !important;
+  }
+
+
+  .an-menu__trigger-lines i {
+    height: 1px !important;
+
+    background:
+      rgba(244,247,249,0.56) !important;
+  }
+
+
+  .an-menu__trigger:focus-visible,
+  .an-menu__trigger:active {
+    opacity: 1;
+
+    transform:
+      scale(1) !important;
+  }
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .an-menu__trigger {
+    transform: none !important;
+
+    transition:
+      none !important;
+  }
+}
+
+
+
+
+
+
+
+
