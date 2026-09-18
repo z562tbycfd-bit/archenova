@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-18T06:42:22.991Z",
+  "updated": "2026-09-18T06:58:21.244Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Bolivia's tilcayo tiger cat becomes first new wildcat species in 100 years",
+      "url": "https://phys.org/news/2026-09-bolivia-tilcayo-tiger-cat-wildcat.html",
+      "summary": "Scientists have discovered a new species of wild cat for the first time in more than a century, a Bolivian researcher told AFP on Thursday.",
+      "ts": 1789714183000,
+      "publishedAt": "2026-09-18T06:49:43.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Scalable Production of Lead-212 and Actinium-225 Generators with Fusion Neutrons",
@@ -791,14 +799,6 @@
       "title": "Hydrogen Reorganization in Hot Dense Ammonia",
       "url": "https://arxiv.org/abs/2609.19605",
       "summary": "arXiv:2609.19605v1 Announce Type: cross Abstract: Hydrogen is known to form stable compounds with a variety of simple molecular solids under high pressure. However, ammonia hydride has not been experimentally observed. H…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Viscoelastocapillary extensional De-Oh or VE-DeOh stringiness of unentangled polymer solutions",
-      "url": "https://arxiv.org/abs/2609.19624",
-      "summary": "arXiv:2609.19624v1 Announce Type: cross Abstract: Characterization, control, and calibration of stringiness, the propensity to form long, thin, persistent threads, are key to the design and application of polymer solutio…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
