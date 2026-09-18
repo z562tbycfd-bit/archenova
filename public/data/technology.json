@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-18T08:07:33.918Z",
+  "updated": "2026-09-18T08:45:18.025Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: Doctors should educate patients about ‘Asian glow’ and drinking risks",
+      "url": "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/?utm_campaign=rss",
+      "summary": "It wasn’t until he started medical school, Brian Zhang writes, that he realized ‘Asian glow’ from drinking was a sign of something important.",
+      "ts": 1789720200000,
+      "publishedAt": "2026-09-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: More young men are coming to me for plastic surgery. The way I think about them has changed",
+      "url": "https://www.statnews.com/2026/09/18/young-men-plastic-surgery-rates-influencers-lookmaxxing-clavicular/?utm_campaign=rss",
+      "summary": "“The young men in my clinic are responding rationally to a system that was designed for profit,” writes plastic surgeon Kavitha Ranganathan.",
+      "ts": 1789720200000,
+      "publishedAt": "2026-09-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "In Sudan, attacks on hospitals force patients to make dangerous journeys",
+      "url": "https://www.statnews.com/2026/09/18/sudan-civil-war-cancer-treatment-wartime-tom-catena-mother-mercy-hospital/?utm_campaign=rss",
+      "summary": "Amid a civil war in Sudan, it’s now difficult for people with cancer and other long-term illnesses to receive treatment that was once readily available",
+      "ts": 1789720200000,
+      "publishedAt": "2026-09-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A geriatrician explains why AI for older adults deserves careful scrutiny",
+      "url": "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/?utm_campaign=rss",
+      "summary": "James Deardorff, a geriatrician at UCSF, talks about the benefits and pitfalls of using AI to make care decisions for older adults.",
+      "ts": 1789720200000,
+      "publishedAt": "2026-09-18T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Laguna Colorada",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Laguna_Colorada",
+      "summary": "Image: This Copernicus Sentinel-2 image, acquired on 25 August 2026, shows an area of the Andean Altiplano in southern Bolivia near the border with Chile.",
+      "ts": 1789718400000,
+      "publishedAt": "2026-09-18T08:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "A galaxy spinning out of sync",
@@ -763,51 +808,6 @@
       "title": "Automatic denoising and differentiation based on Savitzky-Golay filtering and Homogeneous Differentiators for attractor reconstruction via differential embedding",
       "url": "https://arxiv.org/abs/2609.18631",
       "summary": "arXiv:2609.18631v1 Announce Type: new Abstract: Differential embedding methods aim to reconstruct attractors of dynamical systems from noisy measured time series, but require accurate estimates of signal derivatives. We …",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A metabolite glue predicts inverse coupling of AICAR to one-carbon supply",
-      "url": "https://arxiv.org/abs/2609.18973",
-      "summary": "arXiv:2609.18973v1 Announce Type: new Abstract: Formate, an output of mitochondrial one-carbon metabolism, drives a switch from low to high adenine nucleotide levels in proliferating cells. The kinetic model of Oizel et …",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "STUART: Sequence Triage and qUAntification of Read Transcripts for Rapid Ionizing Radiation Exposure Assessment",
-      "url": "https://arxiv.org/abs/2609.19139",
-      "summary": "arXiv:2609.19139v1 Announce Type: new Abstract: Rapid medical triage following ionizing radiation exposure is critical for emergency management, yet traditional alignment-based bioinformatics are too computationally inte…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modelling sexual partnership dynamics and population heterogeneities in agent-based dynamic network models",
-      "url": "https://arxiv.org/abs/2609.17622",
-      "summary": "arXiv:2609.17622v1 Announce Type: cross Abstract: Population-level heterogeneities, combined with temporal fluctuations in sexual partnerships, shape the structure of sexual contact networks and can substantially influen…",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Information Set Emulation: Causal Certificates for AI Derived EHR Features",
-      "url": "https://arxiv.org/abs/2609.17777",
-      "summary": "arXiv:2609.17777v1 Announce Type: cross Abstract: AI and large language models can recover clinically meaningful features from electronic health records (EHRs), but predictive usefulness does not establish admissibility …",
-      "ts": 1789617600000,
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bracketing Uncertainty in Clustering Under the Manifold Hypothesis",
-      "url": "https://arxiv.org/abs/2609.17892",
-      "summary": "arXiv:2609.17892v1 Announce Type: cross Abstract: The manifold hypothesis suggests a natural criterion for clustering: partition data according to the manifold component from which each point is drawn. Whether two compon…",
       "ts": 1789617600000,
       "publishedAt": "2026-09-17T04:00:00.000Z",
       "categoryId": "bio"

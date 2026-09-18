@@ -28,6 +28,12 @@
    Object Revision
    ≠ Store Revision
 
+   Governance Re-evaluation
+   ≠ Governance Decision Rewrite
+
+   Evidence Reference
+   ≠ Evidence Truth
+
    Atomic Commit
    ≠ Automatic Learning Propagation
 
@@ -39,13 +45,19 @@
    ----------------------------------------------------------
 
    - require V7.1-valid accepted candidate
+   - defensively re-check accepted evidence boundary
    - require current active source Feedback
    - revalidate Feedback freshness
    - require current active target
    - revalidate target identity/stage/freshness
    - reject protected system-owned paths
+   - reject authority-owned Governance decision paths
+   - reject unsafe JSON pointer tokens
    - verify every change precondition
+   - require change evidence to be qualified when supplied
    - apply changes only to a cloned target
+   - validate base execution-object shape
+   - validate protected stage-specific shape
    - preserve execution identity
    - preserve stage
    - preserve lineage
@@ -53,8 +65,10 @@
    - preserve historical revisions
    - append exact ValleyRevision
    - increment object revision exactly once
+   - preserve portable-state compatibility
+   - write explicit V7.4 commit provenance
    - perform optimistic atomic Store replace
-   - perform zero Store mutation on failure
+   - perform zero Store mutation before atomic success
 
    ----------------------------------------------------------
    EXPLICITLY NOT RESPONSIBLE FOR
@@ -64,12 +78,14 @@
    - semantic evidence inference
    - automatic upstream target selection
    - Feedback mutation
+   - Governance decision mutation
    - learning propagation
    - re-evaluation routing
    - external persistence
 ========================================================== */
 
 import type {
+  GovernanceDecision,
   ValleyEvidenceFeedback,
   ValleyExecutionObject,
   ValleyRevision,
@@ -90,6 +106,7 @@ import type {
 } from "./executionState";
 
 import {
+  isRevisionTargetStageCompatible,
   validateUpstreamRevisionCandidate,
 } from "./upstreamRevisionLearning";
 
@@ -102,14 +119,19 @@ import type {
 /* ==========================================================
    PROTECTED PATHS
 
-   These fields belong to the execution kernel / mutation
-   boundary and cannot be changed through candidate patches.
+   These fields belong to the execution kernel, lifecycle
+   boundaries or explicit authority boundaries.
 
    Prefix protection means:
+
      /lineage
      /lineage/projectIds
 
    are both protected.
+
+   Governance decision authority is intentionally protected.
+   Feedback may cause Governance re-evaluation, but V7 must
+   not silently rewrite a V5.3 human decision.
 
    metadata is intentionally NOT globally protected because
    domain-specific revision data may legitimately live there.
@@ -121,10 +143,56 @@ export const UPSTREAM_REVISION_PROTECTED_PATHS = [
   "/createdAt",
   "/updatedAt",
   "/stage",
+
+  "/status",
+  "/nextStage",
+  "/decision",
+  "/verification",
+
   "/lineage",
   "/revisions",
   "/transitions",
+
+  "/governanceDecision",
+  "/decidedAt",
+  "/decidedBy",
 ] as const;
+
+
+/* ==========================================================
+   FORBIDDEN JSON POINTER TOKENS
+
+   Prevent prototype-chain mutation through paths such as:
+
+     /metadata/__proto__/x
+     /metadata/constructor/prototype/x
+========================================================== */
+
+const FORBIDDEN_POINTER_TOKENS =
+  new Set<string>([
+    "__proto__",
+    "prototype",
+    "constructor",
+  ]);
+
+
+/* ==========================================================
+   GOVERNANCE DECISIONS
+
+   Runtime shape protection.
+
+   V7.4 does not create or change these values.
+========================================================== */
+
+const GOVERNANCE_DECISION_VALUES:
+  readonly GovernanceDecision[] = [
+    "pending",
+    "pass",
+    "conditional",
+    "hold",
+    "revise",
+    "stop",
+  ];
 
 
 /* ==========================================================
@@ -150,6 +218,13 @@ export interface UpstreamRevisionCommitRequest {
   timestamp?:
     string;
 
+  /*
+   * Additional commit-time provenance only.
+   *
+   * These IDs are NOT treated as qualified candidate
+   * evidence unless already present as qualified references
+   * on the accepted candidate.
+   */
   evidenceIds?:
     string[];
 
@@ -178,6 +253,9 @@ export interface UpstreamRevisionChangeCommitAssessment {
   pathValid:
     boolean;
 
+  evidenceBoundarySatisfied:
+    boolean;
+
   preconditionSatisfied:
     boolean;
 
@@ -204,6 +282,15 @@ export interface UpstreamRevisionCommitAssessment {
     boolean;
 
   candidateAccepted:
+    boolean;
+
+  candidateEvidenceBoundarySatisfied:
+    boolean;
+
+  candidateEvidenceReferencesPresent:
+    boolean;
+
+  candidateEvidenceAllQualified:
     boolean;
 
   feedbackPresent:
@@ -243,6 +330,9 @@ export interface UpstreamRevisionCommitAssessment {
     boolean;
 
   changesPresent:
+    boolean;
+
+  changesEvidenceBound:
     boolean;
 
   changesApplicable:
@@ -294,6 +384,16 @@ export interface UpstreamRevisionCommitResult {
   committedStoreRevision?:
     number;
 
+  /*
+   * Atomic commit may succeed even if an unexpected
+   * post-commit readback anomaly occurs.
+   */
+  readbackAvailable?:
+    boolean;
+
+  warning?:
+    string;
+
   error?:
     string;
 }
@@ -327,6 +427,21 @@ interface PreparedChangeApplication {
 }
 
 
+interface CandidateEvidenceBoundary {
+  referencesPresent:
+    boolean;
+
+  allQualified:
+    boolean;
+
+  qualifiedEvidenceIds:
+    string[];
+
+  satisfied:
+    boolean;
+}
+
+
 /* ==========================================================
    BASIC HELPERS
 ========================================================== */
@@ -338,7 +453,7 @@ function cloneValue<TValue>(
 
   if (
     typeof structuredClone ===
-    "function"
+      "function"
   ) {
     return structuredClone(
       value,
@@ -362,8 +477,7 @@ function isNonEmptyString(
   return (
     typeof value ===
       "string" &&
-    value.trim()
-      .length >
+    value.trim().length >
       0
   );
 }
@@ -489,6 +603,8 @@ function isFeedbackRecord(
 
    Commit result must remain compatible with ArcheNova's
    portable-state persistence model.
+
+   Explicit undefined is rejected.
 ========================================================== */
 
 function isPlainRecord(
@@ -788,9 +904,12 @@ function structurallyEqual(
      /successCriteria/1
      /metadata/realityConstraint
 
-   RFC6901 escaping is supported:
+   RFC6901 escaping:
+
      ~1 → /
      ~0 → ~
+
+   Invalid ~ escape sequences are rejected.
 
    Root replacement is intentionally forbidden.
 ========================================================== */
@@ -798,7 +917,19 @@ function structurallyEqual(
 function decodePointerToken(
   token:
     string,
-): string {
+): string | null {
+
+  /*
+   * Every "~" must be followed by 0 or 1.
+   */
+  if (
+    /~(?:[^01]|$)/.test(
+      token,
+    )
+  ) {
+    return null;
+  }
+
 
   return token
     .replace(
@@ -831,50 +962,116 @@ function parsePath(
   }
 
 
-  const tokens =
+  const rawTokens =
     path
       .slice(
         1,
       )
       .split(
         "/",
-      )
-      .map(
-        decodePointerToken,
       );
 
 
   if (
-    tokens.length ===
-      0 ||
-    tokens.some(
-      (token) =>
-        token.length ===
-        0,
-    )
+    rawTokens.length ===
+      0
   ) {
     return null;
   }
 
 
-  return tokens;
+  const tokens:
+    string[] = [];
+
+
+  for (
+    const rawToken
+    of rawTokens
+  ) {
+    const decoded =
+      decodePointerToken(
+        rawToken,
+      );
+
+
+    if (
+      decoded ===
+        null ||
+      decoded.length ===
+        0 ||
+      FORBIDDEN_POINTER_TOKENS.has(
+        decoded,
+      )
+    ) {
+      return null;
+    }
+
+
+    tokens.push(
+      decoded,
+    );
+  }
+
+
+  return tokens.length >
+    0
+    ? tokens
+    : null;
 }
 
 
 /* ==========================================================
    PROTECTED PATH
+
+   Protection is evaluated on decoded canonical tokens,
+   preventing encoded path bypasses such as "~1".
 ========================================================== */
+
+function canonicalizePath(
+  path:
+    string,
+): string | null {
+
+  const tokens =
+    parsePath(
+      path,
+    );
+
+
+  if (
+    !tokens
+  ) {
+    return null;
+  }
+
+
+  return `/${tokens.join("/")}`;
+}
+
 
 function isProtectedPath(
   path:
     string,
 ): boolean {
 
+  const canonical =
+    canonicalizePath(
+      path,
+    );
+
+
+  if (
+    !canonical
+  ) {
+    return false;
+  }
+
+
   return UPSTREAM_REVISION_PROTECTED_PATHS.some(
     (protectedPath) =>
-      path ===
+      canonical ===
         protectedPath ||
-      path.startsWith(
+      canonical.startsWith(
         `${protectedPath}/`,
       ),
   );
@@ -939,6 +1136,18 @@ function lookupPath(
     const token
     of tokens
   ) {
+
+    if (
+      FORBIDDEN_POINTER_TOKENS.has(
+        token,
+      )
+    ) {
+      return {
+        exists:
+          false,
+      };
+    }
+
 
     if (
       Array.isArray(
@@ -1053,6 +1262,18 @@ function lookupParent(
 
 
   if (
+    FORBIDDEN_POINTER_TOKENS.has(
+      key,
+    )
+  ) {
+    return {
+      ok:
+        false,
+    };
+  }
+
+
+  if (
     tokens.length ===
       1
   ) {
@@ -1101,6 +1322,139 @@ function lookupParent(
 
 
 /* ==========================================================
+   ACCEPTED CANDIDATE EVIDENCE BOUNDARY
+
+   V7.3 remains the review authority.
+
+   V7.4 performs a defensive commit-time re-check so a
+   caller-supplied artifact cannot bypass the minimum
+   evidence requirements merely by setting state=accepted.
+
+   This does NOT establish scientific truth.
+========================================================== */
+
+function inspectCandidateEvidenceBoundary(
+  candidate:
+    UpstreamRevisionCandidate,
+): CandidateEvidenceBoundary {
+
+  const references =
+    Array.isArray(
+      candidate.evidenceReferences,
+    )
+      ? candidate.evidenceReferences
+      : [];
+
+
+  const referencesPresent =
+    references.length >
+      0;
+
+
+  const qualifiedEvidenceIds =
+    Array.from(
+      new Set(
+        references
+          .filter(
+            (reference) =>
+              reference.state ===
+              "qualified" &&
+              isNonEmptyString(
+                reference.evidenceId,
+              ),
+          )
+          .map(
+            (reference) =>
+              reference.evidenceId.trim(),
+          ),
+      ),
+    );
+
+
+  const allQualified =
+    referencesPresent &&
+    references.every(
+      (reference) =>
+        reference.state ===
+          "qualified" &&
+        isNonEmptyString(
+          reference.evidenceId,
+        ),
+    );
+
+
+  const satisfied =
+    candidate.evidenceConfidence ===
+      "sufficient" &&
+    referencesPresent &&
+    allQualified &&
+    qualifiedEvidenceIds.length ===
+      references.length;
+
+
+  return {
+    referencesPresent,
+
+    allQualified,
+
+    qualifiedEvidenceIds,
+
+    satisfied,
+  };
+}
+
+
+/* ==========================================================
+   CHANGE EVIDENCE BOUNDARY
+
+   If a change explicitly claims evidence IDs, every such ID
+   must belong to the accepted candidate's qualified evidence
+   snapshot.
+
+   A change may have no evidenceIds because V7.1 does not
+   require field-level evidence attribution.
+
+   Candidate-level evidence remains mandatory for acceptance.
+========================================================== */
+
+function isChangeEvidenceSatisfied(
+  change:
+    UpstreamRevisionChange,
+
+  qualifiedEvidenceIds:
+    Set<string>,
+): boolean {
+
+  if (
+    change.evidenceIds ===
+      undefined
+  ) {
+    return true;
+  }
+
+
+  if (
+    !Array.isArray(
+      change.evidenceIds,
+    )
+  ) {
+    return false;
+  }
+
+
+  return change.evidenceIds.every(
+    (evidenceId) =>
+      isNonEmptyString(
+        evidenceId,
+      ) &&
+      qualifiedEvidenceIds.has(
+        evidenceId.trim(),
+      ),
+  );
+}
+
+
+/* ==========================================================
    APPLY ONE CHANGE
 
    Strict semantics:
@@ -1135,16 +1489,13 @@ function applyOneChange(
 
   index:
     number,
+
+  qualifiedEvidenceIds:
+    Set<string>,
 ): UpstreamRevisionChangeCommitAssessment {
 
   const path =
     change.path;
-
-
-  const protectedPath =
-    isProtectedPath(
-      path,
-    );
 
 
   const tokens =
@@ -1156,6 +1507,51 @@ function applyOneChange(
   const pathValid =
     tokens !==
       null;
+
+
+  const protectedPath =
+    pathValid &&
+    isProtectedPath(
+      path,
+    );
+
+
+  const evidenceBoundarySatisfied =
+    isChangeEvidenceSatisfied(
+      change,
+      qualifiedEvidenceIds,
+    );
+
+
+  if (
+    !pathValid
+  ) {
+    return {
+      index,
+
+      path,
+
+      operation:
+        change.operation,
+
+      protectedPath:
+        false,
+
+      pathValid:
+        false,
+
+      evidenceBoundarySatisfied,
+
+      preconditionSatisfied:
+        false,
+
+      applicable:
+        false,
+
+      reason:
+        "Revision change path is invalid or contains a forbidden JSON pointer token.",
+    };
+  }
 
 
   if (
@@ -1172,7 +1568,10 @@ function applyOneChange(
       protectedPath:
         true,
 
-      pathValid,
+      pathValid:
+        true,
+
+      evidenceBoundarySatisfied,
 
       preconditionSatisfied:
         false,
@@ -1181,13 +1580,13 @@ function applyOneChange(
         false,
 
       reason:
-        "Revision change targets a protected execution-system path.",
+        "Revision change targets a protected execution-system or authority-owned path.",
     };
   }
 
 
   if (
-    !tokens
+    !evidenceBoundarySatisfied
   ) {
     return {
       index,
@@ -1201,6 +1600,9 @@ function applyOneChange(
         false,
 
       pathValid:
+        true,
+
+      evidenceBoundarySatisfied:
         false,
 
       preconditionSatisfied:
@@ -1210,7 +1612,7 @@ function applyOneChange(
         false,
 
       reason:
-        "Revision change path is invalid.",
+        "Revision change references evidence that is not present as qualified evidence on the accepted candidate.",
     };
   }
 
@@ -1243,6 +1645,9 @@ function applyOneChange(
         pathValid:
           true,
 
+        evidenceBoundarySatisfied:
+          true,
+
         preconditionSatisfied:
           false,
 
@@ -1273,6 +1678,9 @@ function applyOneChange(
         pathValid:
           true,
 
+        evidenceBoundarySatisfied:
+          true,
+
         preconditionSatisfied:
           false,
 
@@ -1281,6 +1689,40 @@ function applyOneChange(
 
         reason:
           "Add operation requires an after value.",
+      };
+    }
+
+
+    if (
+      !isPortableValue(
+        change.after,
+      )
+    ) {
+      return {
+        index,
+
+        path,
+
+        operation:
+          change.operation,
+
+        protectedPath:
+          false,
+
+        pathValid:
+          true,
+
+        evidenceBoundarySatisfied:
+          true,
+
+        preconditionSatisfied:
+          false,
+
+        applicable:
+          false,
+
+        reason:
+          "Add operation after value is not portable.",
       };
     }
   }
@@ -1307,6 +1749,9 @@ function applyOneChange(
           false,
 
         pathValid:
+          true,
+
+        evidenceBoundarySatisfied:
           true,
 
         preconditionSatisfied:
@@ -1341,6 +1786,9 @@ function applyOneChange(
         pathValid:
           true,
 
+        evidenceBoundarySatisfied:
+          true,
+
         preconditionSatisfied:
           false,
 
@@ -1355,33 +1803,73 @@ function applyOneChange(
 
     if (
       change.operation ===
-        "replace" &&
-      change.after ===
-        undefined
+        "replace"
     ) {
-      return {
-        index,
+      if (
+        change.after ===
+          undefined
+      ) {
+        return {
+          index,
 
-        path,
+          path,
 
-        operation:
-          change.operation,
+          operation:
+            change.operation,
 
-        protectedPath:
-          false,
+          protectedPath:
+            false,
 
-        pathValid:
-          true,
+          pathValid:
+            true,
 
-        preconditionSatisfied:
-          true,
+          evidenceBoundarySatisfied:
+            true,
 
-        applicable:
-          false,
+          preconditionSatisfied:
+            true,
 
-        reason:
-          "Replace operation requires an after value.",
-      };
+          applicable:
+            false,
+
+          reason:
+            "Replace operation requires an after value.",
+        };
+      }
+
+
+      if (
+        !isPortableValue(
+          change.after,
+        )
+      ) {
+        return {
+          index,
+
+          path,
+
+          operation:
+            change.operation,
+
+          protectedPath:
+            false,
+
+          pathValid:
+            true,
+
+          evidenceBoundarySatisfied:
+            true,
+
+          preconditionSatisfied:
+            true,
+
+          applicable:
+            false,
+
+          reason:
+            "Replace operation after value is not portable.",
+        };
+      }
     }
   }
 
@@ -1414,6 +1902,9 @@ function applyOneChange(
       pathValid:
         true,
 
+      evidenceBoundarySatisfied:
+        true,
+
       preconditionSatisfied:
         false,
 
@@ -1432,6 +1923,40 @@ function applyOneChange(
 
   const key =
     parentLookup.key;
+
+
+  if (
+    FORBIDDEN_POINTER_TOKENS.has(
+      key,
+    )
+  ) {
+    return {
+      index,
+
+      path,
+
+      operation:
+        change.operation,
+
+      protectedPath:
+        false,
+
+      pathValid:
+        false,
+
+      evidenceBoundarySatisfied:
+        true,
+
+      preconditionSatisfied:
+        false,
+
+      applicable:
+        false,
+
+      reason:
+        "Revision change contains a forbidden object-property token.",
+    };
+  }
 
 
   if (
@@ -1461,6 +1986,9 @@ function applyOneChange(
           false,
 
         pathValid:
+          true,
+
+        evidenceBoundarySatisfied:
           true,
 
         preconditionSatisfied:
@@ -1495,6 +2023,9 @@ function applyOneChange(
             false,
 
           pathValid:
+            true,
+
+          evidenceBoundarySatisfied:
             true,
 
           preconditionSatisfied:
@@ -1536,6 +2067,9 @@ function applyOneChange(
           pathValid:
             true,
 
+          evidenceBoundarySatisfied:
+            true,
+
           preconditionSatisfied:
             false,
 
@@ -1571,6 +2105,9 @@ function applyOneChange(
           pathValid:
             true,
 
+          evidenceBoundarySatisfied:
+            true,
+
           preconditionSatisfied:
             false,
 
@@ -1604,6 +2141,9 @@ function applyOneChange(
       pathValid:
         true,
 
+      evidenceBoundarySatisfied:
+        true,
+
       preconditionSatisfied:
         true,
 
@@ -1635,6 +2175,9 @@ function applyOneChange(
       pathValid:
         true,
 
+      evidenceBoundarySatisfied:
+        true,
+
       preconditionSatisfied:
         false,
 
@@ -1649,13 +2192,7 @@ function applyOneChange(
 
   if (
     change.operation ===
-      "add"
-  ) {
-    parent[key] =
-      cloneValue(
-        change.after,
-      );
-  } else if (
+      "add" ||
     change.operation ===
       "replace"
   ) {
@@ -1682,6 +2219,9 @@ function applyOneChange(
     pathValid:
       true,
 
+    evidenceBoundarySatisfied:
+      true,
+
     preconditionSatisfied:
       true,
 
@@ -1700,6 +2240,9 @@ function applyOneChange(
    All mutation occurs only on a cloned object.
 
    If any change fails, the clone is discarded.
+
+   Changes are intentionally sequential. Each later change
+   sees the working state produced by earlier changes.
 ========================================================== */
 
 function prepareChangeApplication(
@@ -1708,6 +2251,9 @@ function prepareChangeApplication(
 
   changes:
     UpstreamRevisionChange[],
+
+  qualifiedEvidenceIds:
+    Set<string>,
 ): PreparedChangeApplication {
 
   const working =
@@ -1734,6 +2280,7 @@ function prepareChangeApplication(
         working,
         changes[index],
         index,
+        qualifiedEvidenceIds,
       );
 
 
@@ -1771,12 +2318,242 @@ function prepareChangeApplication(
 
 
 /* ==========================================================
+   BASE EXECUTION SHAPE
+
+   V7.4 must not allow a candidate to remove required kernel
+   fields merely because the TypeScript compile-time type is
+   broad.
+
+   This is runtime structural validation only.
+========================================================== */
+
+function hasValidLineageShape(
+  value:
+    unknown,
+): boolean {
+
+  if (
+    !isPlainRecord(
+      value,
+    )
+  ) {
+    return false;
+  }
+
+
+  const requiredArrays = [
+    "sourceIds",
+    "parentIds",
+    "researchIds",
+    "epistemeJudgmentIds",
+    "realizationCaseIds",
+    "projectIds",
+    "commercializationIds",
+    "capitalIds",
+    "governanceGateIds",
+    "deploymentIds",
+    "feedbackIds",
+  ];
+
+
+  return requiredArrays.every(
+    (key) =>
+      Array.isArray(
+        value[key],
+      ) &&
+      (
+        value[key] as unknown[]
+      ).every(
+        (entry) =>
+          isNonEmptyString(
+            entry,
+          ),
+      ),
+  );
+}
+
+
+function hasValidBaseExecutionShape(
+  value:
+    ValleyExecutionObject,
+): boolean {
+
+  return (
+    isNonEmptyString(
+      value.id,
+    ) &&
+    Number.isInteger(
+      value.revision,
+    ) &&
+    value.revision >
+      0 &&
+    isNonEmptyString(
+      value.createdAt,
+    ) &&
+    !Number.isNaN(
+      Date.parse(
+        value.createdAt,
+      ),
+    ) &&
+    isNonEmptyString(
+      value.updatedAt,
+    ) &&
+    !Number.isNaN(
+      Date.parse(
+        value.updatedAt,
+      ),
+    ) &&
+    isNonEmptyString(
+      value.stage,
+    ) &&
+    isNonEmptyString(
+      value.status,
+    ) &&
+    isNonEmptyString(
+      value.title,
+    ) &&
+    isNonEmptyString(
+      value.summary,
+    ) &&
+    hasValidLineageShape(
+      value.lineage,
+    ) &&
+    Array.isArray(
+      value.evidence,
+    ) &&
+    Array.isArray(
+      value.assumptions,
+    ) &&
+    Array.isArray(
+      value.uncertainties,
+    ) &&
+    Array.isArray(
+      value.risks,
+    ) &&
+    Array.isArray(
+      value.constraints,
+    ) &&
+    Array.isArray(
+      value.revisions,
+    ) &&
+    Array.isArray(
+      value.transitions,
+    )
+  );
+}
+
+
+/* ==========================================================
+   PROJECT SHAPE
+
+   Required fields from ValleyProject.
+
+   V7 may replace these values through explicit reviewed
+   changes, but may not remove the required structure.
+========================================================== */
+
+function hasValidProjectShape(
+  value:
+    ValleyExecutionObject,
+): boolean {
+
+  if (
+    value.stage !==
+      "project"
+  ) {
+    return true;
+  }
+
+
+  const project =
+    value as unknown as Record<string, unknown>;
+
+
+  return (
+    isNonEmptyString(
+      project.problem,
+    ) &&
+    isNonEmptyString(
+      project.objective,
+    ) &&
+    Array.isArray(
+      project.capabilities,
+    ) &&
+    Array.isArray(
+      project.requirements,
+    ) &&
+    Array.isArray(
+      project.resources,
+    ) &&
+    Array.isArray(
+      project.dependencies,
+    ) &&
+    Array.isArray(
+      project.milestones,
+    ) &&
+    Array.isArray(
+      project.successCriteria,
+    ) &&
+    Array.isArray(
+      project.failureCriteria,
+    ) &&
+    Array.isArray(
+      project.exitConditions,
+    ) &&
+    (
+      project.commercializationRequired ===
+        undefined ||
+      typeof project.commercializationRequired ===
+        "boolean"
+    )
+  );
+}
+
+
+/* ==========================================================
+   GOVERNANCE SHAPE
+
+   Governance authority fields remain protected.
+
+   This validator additionally ensures the required
+   governanceDecision still exists and remains legal.
+========================================================== */
+
+function hasValidGovernanceShape(
+  value:
+    ValleyExecutionObject,
+): boolean {
+
+  if (
+    value.stage !==
+      "governance"
+  ) {
+    return true;
+  }
+
+
+  const governance =
+    value as unknown as Record<string, unknown>;
+
+
+  return (
+    typeof governance.governanceDecision ===
+      "string" &&
+    (
+      GOVERNANCE_DECISION_VALUES as readonly string[]
+    ).includes(
+      governance.governanceDecision,
+    )
+  );
+}
+
+
+/* ==========================================================
    RESULTING OBJECT INVARIANTS
 
-   Domain-specific schemas remain outside V7.4.
-
-   This boundary verifies execution-kernel invariants and
-   portable-state integrity.
+   Candidate-applied state must preserve system-owned fields
+   and remain structurally valid before system revision
+   fields are advanced.
 ========================================================== */
 
 function validateResultingObject(
@@ -1794,8 +2571,20 @@ function validateResultingObject(
       before.stage &&
     after.createdAt ===
       before.createdAt &&
+    after.updatedAt ===
+      before.updatedAt &&
     after.revision ===
       before.revision &&
+    after.status ===
+      before.status &&
+    after.nextStage ===
+      before.nextStage &&
+    after.decision ===
+      before.decision &&
+    structurallyEqual(
+      after.verification,
+      before.verification,
+    ) &&
     structurallyEqual(
       after.lineage,
       before.lineage,
@@ -1808,14 +2597,65 @@ function validateResultingObject(
       after.transitions,
       before.transitions,
     ) &&
-    isNonEmptyString(
-      after.title,
+    hasValidBaseExecutionShape(
+      after,
     ) &&
-    isNonEmptyString(
-      after.summary,
+    hasValidProjectShape(
+      after,
+    ) &&
+    hasValidGovernanceShape(
+      after,
     ) &&
     isPortableValue(
       after,
+    )
+  );
+}
+
+
+/* ==========================================================
+   GOVERNANCE AUTHORITY PRESERVATION
+
+   Even though Governance authority paths are protected,
+   perform a post-change invariant check as defense-in-depth.
+========================================================== */
+
+function governanceAuthorityPreserved(
+  before:
+    ValleyExecutionObject,
+
+  after:
+    ValleyExecutionObject,
+): boolean {
+
+  if (
+    before.stage !==
+      "governance"
+  ) {
+    return true;
+  }
+
+
+  const beforeGovernance =
+    before as unknown as Record<string, unknown>;
+
+
+  const afterGovernance =
+    after as unknown as Record<string, unknown>;
+
+
+  return (
+    structurallyEqual(
+      beforeGovernance.governanceDecision,
+      afterGovernance.governanceDecision,
+    ) &&
+    structurallyEqual(
+      beforeGovernance.decidedAt,
+      afterGovernance.decidedAt,
+    ) &&
+    structurallyEqual(
+      beforeGovernance.decidedBy,
+      afterGovernance.decidedBy,
     )
   );
 }
@@ -1854,6 +2694,31 @@ export function assessUpstreamRevisionCommit(
   const candidateAccepted =
     candidate.state ===
       "accepted";
+
+
+  const candidateEvidenceBoundary =
+    inspectCandidateEvidenceBoundary(
+      candidate,
+    );
+
+
+  const candidateEvidenceBoundarySatisfied =
+    candidateEvidenceBoundary.satisfied;
+
+
+  const candidateEvidenceReferencesPresent =
+    candidateEvidenceBoundary.referencesPresent;
+
+
+  const candidateEvidenceAllQualified =
+    candidateEvidenceBoundary.allQualified;
+
+
+  const qualifiedEvidenceIds =
+    new Set(
+      candidateEvidenceBoundary
+        .qualifiedEvidenceIds,
+    );
 
 
   const feedbackPresent =
@@ -1919,10 +2784,14 @@ export function assessUpstreamRevisionCommit(
   const targetStageMatches =
     Boolean(
       targetRecord &&
-      targetRecord.object.stage ===
-        candidate.target.stage &&
       candidate.target.stage ===
+        candidate.target.target &&
+      isRevisionTargetStageCompatible(
         candidate.target.target,
+        targetRecord.object.stage,
+      ) &&
+      targetRecord.object.stage ===
+        candidate.target.stage,
     );
 
 
@@ -1963,6 +2832,17 @@ export function assessUpstreamRevisionCommit(
       0;
 
 
+  const changesEvidenceBound =
+    changesPresent &&
+    candidate.changes.every(
+      (change) =>
+        isChangeEvidenceSatisfied(
+          change,
+          qualifiedEvidenceIds,
+        ),
+    );
+
+
   let changeAssessments:
     UpstreamRevisionChangeCommitAssessment[] =
       [];
@@ -1978,12 +2858,15 @@ export function assessUpstreamRevisionCommit(
 
   if (
     targetRecord &&
-    changesPresent
+    changesPresent &&
+    candidateEvidenceBoundarySatisfied &&
+    changesEvidenceBound
   ) {
     const prepared =
       prepareChangeApplication(
         targetRecord.object,
         candidate.changes,
+        qualifiedEvidenceIds,
       );
 
 
@@ -2003,6 +2886,10 @@ export function assessUpstreamRevisionCommit(
         validateResultingObject(
           targetRecord.object,
           prepared.object,
+        ) &&
+        governanceAuthorityPreserved(
+          targetRecord.object,
+          prepared.object,
         );
     }
   }
@@ -2011,6 +2898,7 @@ export function assessUpstreamRevisionCommit(
   const eligible =
     candidateValid &&
     candidateAccepted &&
+    candidateEvidenceBoundarySatisfied &&
     feedbackPresent &&
     feedbackActive &&
     feedbackIdentityMatches &&
@@ -2024,6 +2912,7 @@ export function assessUpstreamRevisionCommit(
     targetStoreRevisionFresh &&
     requestStoreRevisionFresh &&
     changesPresent &&
+    changesEvidenceBound &&
     changesApplicable &&
     resultingObjectValid;
 
@@ -2042,6 +2931,21 @@ export function assessUpstreamRevisionCommit(
   ) {
     reason =
       "Only an explicitly accepted V7.3 revision candidate may be committed.";
+  } else if (
+    !candidateEvidenceReferencesPresent
+  ) {
+    reason =
+      "Accepted revision candidate has no explicit evidence references.";
+  } else if (
+    !candidateEvidenceAllQualified
+  ) {
+    reason =
+      "Accepted revision candidate contains evidence references that are not qualified.";
+  } else if (
+    !candidateEvidenceBoundarySatisfied
+  ) {
+    reason =
+      "Accepted revision candidate does not satisfy the defensive V7.4 evidence boundary.";
   } else if (
     !feedbackPresent
   ) {
@@ -2108,6 +3012,11 @@ export function assessUpstreamRevisionCommit(
     reason =
       "Accepted revision candidate contains no explicit proposed changes.";
   } else if (
+    !changesEvidenceBound
+  ) {
+    reason =
+      "One or more revision changes reference evidence outside the accepted candidate's qualified evidence set.";
+  } else if (
     !changesApplicable
   ) {
     reason =
@@ -2116,7 +3025,7 @@ export function assessUpstreamRevisionCommit(
     !resultingObjectValid
   ) {
     reason =
-      "Applying the candidate changes would violate upstream execution-object invariants.";
+      "Applying the candidate changes would violate upstream execution-object or authority invariants.";
   } else if (
     !eligible
   ) {
@@ -2124,7 +3033,7 @@ export function assessUpstreamRevisionCommit(
       "Accepted revision candidate is not eligible for commit.";
   } else {
     reason =
-      "Accepted revision candidate satisfies the V7.4 atomic commit boundary.";
+      "Accepted revision candidate satisfies the hardened V7.4 atomic commit boundary.";
   }
 
 
@@ -2138,6 +3047,12 @@ export function assessUpstreamRevisionCommit(
     candidateValid,
 
     candidateAccepted,
+
+    candidateEvidenceBoundarySatisfied,
+
+    candidateEvidenceReferencesPresent,
+
+    candidateEvidenceAllQualified,
 
     feedbackPresent,
 
@@ -2165,6 +3080,8 @@ export function assessUpstreamRevisionCommit(
 
     changesPresent,
 
+    changesEvidenceBound,
+
     changesApplicable,
 
     resultingObjectValid,
@@ -2182,7 +3099,9 @@ export function assessUpstreamRevisionCommit(
    Main V7.4 mutation boundary.
 
    IMPORTANT:
+
    atomicTransaction takes ONE argument:
+
      ValleyExecutionAtomicOperation[]
 
    expectedStoreRevision belongs on the replace operation,
@@ -2254,29 +3173,41 @@ export function commitUpstreamRevision(
       );
 
 
+    /*
+     * Commit-time evidence IDs are provenance-only.
+     *
+     * They are not promoted into the candidate's qualified
+     * evidence boundary.
+     */
     const requestEvidenceIds =
       normalizeStringArray(
         request.evidenceIds,
       );
 
 
-    const candidateEvidenceIds =
-      candidate.evidenceReferences
-        .map(
-          (reference) =>
-            reference.evidenceId,
-        )
-        .filter(
-          isNonEmptyString,
-        );
+    const candidateEvidenceBoundary =
+      inspectCandidateEvidenceBoundary(
+        candidate,
+      );
 
 
+    const qualifiedCandidateEvidenceIds =
+      candidateEvidenceBoundary
+        .qualifiedEvidenceIds;
+
+
+    /*
+     * ValleyRevision evidenceIds contain only the qualified
+     * evidence snapshot supporting the accepted candidate.
+     *
+     * Additional request evidence remains metadata
+     * provenance and is not silently upgraded to qualified.
+     */
     const revisionEvidenceIds =
       Array.from(
-        new Set([
-          ...candidateEvidenceIds,
-          ...requestEvidenceIds,
-        ]),
+        new Set(
+          qualifiedCandidateEvidenceIds,
+        ),
       );
 
 
@@ -2325,6 +3256,7 @@ export function commitUpstreamRevision(
       !(
         assessment.candidateValid &&
         assessment.candidateAccepted &&
+        assessment.candidateEvidenceBoundarySatisfied &&
         assessment.feedbackPresent &&
         assessment.feedbackActive &&
         assessment.feedbackIdentityMatches &&
@@ -2338,6 +3270,7 @@ export function commitUpstreamRevision(
         assessment.targetStoreRevisionFresh &&
         assessment.requestStoreRevisionFresh &&
         assessment.changesPresent &&
+        assessment.changesEvidenceBound &&
         assessment.changesApplicable &&
         assessment.resultingObjectValid
       )
@@ -2389,10 +3322,17 @@ export function commitUpstreamRevision(
     }
 
 
+    const qualifiedEvidenceSet =
+      new Set(
+        qualifiedCandidateEvidenceIds,
+      );
+
+
     const prepared =
       prepareChangeApplication(
         targetRecord.object,
         candidate.changes,
+        qualifiedEvidenceSet,
       );
 
 
@@ -2436,9 +3376,50 @@ export function commitUpstreamRevision(
     }
 
 
+    if (
+      !validateResultingObject(
+        targetRecord.object,
+        prepared.object,
+      ) ||
+      !governanceAuthorityPreserved(
+        targetRecord.object,
+        prepared.object,
+      )
+    ) {
+      return {
+        ok:
+          false,
+
+        candidateId:
+          candidate.id,
+
+        targetId:
+          candidate.target.targetId,
+
+        previousRecord:
+          cloneValue(
+            targetRecord,
+          ),
+
+        assessment: {
+          ...assessment,
+
+          resultingObjectValid:
+            false,
+
+          reason:
+            "Prepared revision object violates V7.4 structural or authority invariants.",
+        },
+
+        error:
+          "Prepared revision object violates V7.4 structural or authority invariants.",
+      };
+    }
+
+
     /*
      * System-owned revision mutation happens only AFTER the
-     * candidate changes pass their preconditions.
+     * candidate changes pass all preconditions.
      */
     const previousObjectRevision =
       targetRecord.object.revision;
@@ -2449,6 +3430,14 @@ export function commitUpstreamRevision(
       1;
 
 
+    /*
+     * IMPORTANT:
+     *
+     * Do not create evidenceIds: undefined.
+     *
+     * Explicit undefined violates ArcheNova portable-state
+     * requirements.
+     */
     const revisionEntry:
       ValleyRevision = {
 
@@ -2462,13 +3451,18 @@ export function commitUpstreamRevision(
 
       changedBy:
         actor,
-
-      evidenceIds:
-        revisionEvidenceIds.length >
-        0
-          ? revisionEvidenceIds
-          : undefined,
     };
+
+
+    if (
+      revisionEvidenceIds.length >
+        0
+    ) {
+      revisionEntry.evidenceIds =
+        cloneValue(
+          revisionEvidenceIds,
+        );
+    }
 
 
     const nextObject:
@@ -2507,6 +3501,9 @@ export function commitUpstreamRevision(
         ),
 
         upstreamRevisionCommit: {
+          boundary:
+            "V7.4",
+
           candidateId:
             candidate.id,
 
@@ -2518,6 +3515,12 @@ export function commitUpstreamRevision(
 
           deploymentId:
             candidate.sourceFeedback.deploymentId,
+
+          target:
+            candidate.target.target,
+
+          targetId:
+            candidate.target.targetId,
 
           disposition:
             candidate.disposition,
@@ -2533,11 +3536,24 @@ export function commitUpstreamRevision(
           committedObjectRevision:
             nextObjectRevision,
 
+          previousStoreRevision:
+            targetRecord.storeRevision,
+
+          expectedStoreRevision:
+            request.expectedStoreRevision,
+
           changeCount:
             candidate.changes.length,
 
-          evidenceIds:
-            revisionEvidenceIds,
+          qualifiedEvidenceIds:
+            cloneValue(
+              revisionEvidenceIds,
+            ),
+
+          additionalProvenanceEvidenceIds:
+            cloneValue(
+              requestEvidenceIds,
+            ),
         },
       },
     };
@@ -2555,6 +3571,18 @@ export function commitUpstreamRevision(
         targetRecord.object.createdAt ||
       nextObject.revision !==
         nextObjectRevision ||
+      nextObject.updatedAt !==
+        timestamp ||
+      nextObject.status !==
+        targetRecord.object.status ||
+      nextObject.nextStage !==
+        targetRecord.object.nextStage ||
+      nextObject.decision !==
+        targetRecord.object.decision ||
+      !structurallyEqual(
+        nextObject.verification,
+        targetRecord.object.verification,
+      ) ||
       !structurallyEqual(
         nextObject.lineage,
         targetRecord.object.lineage,
@@ -2566,6 +3594,19 @@ export function commitUpstreamRevision(
       nextObject.revisions.length !==
         targetRecord.object.revisions.length +
         1 ||
+      !hasValidBaseExecutionShape(
+        nextObject,
+      ) ||
+      !hasValidProjectShape(
+        nextObject,
+      ) ||
+      !hasValidGovernanceShape(
+        nextObject,
+      ) ||
+      !governanceAuthorityPreserved(
+        targetRecord.object,
+        nextObject,
+      ) ||
       !isPortableValue(
         nextObject,
       )
@@ -2592,61 +3633,71 @@ export function commitUpstreamRevision(
             false,
 
           reason:
-            "Final committed object would violate V7.4 execution invariants.",
+            "Final committed object would violate hardened V7.4 execution invariants.",
         },
 
         error:
-          "Final committed object would violate V7.4 execution invariants.",
+          "Final committed object would violate hardened V7.4 execution invariants.",
       };
     }
 
 
     const writeContext:
-  ValleyExecutionWriteContext = {
+      ValleyExecutionWriteContext = {
 
-  source:
-    request.source,
+      source:
+        request.source,
 
-  reason,
+      reason,
 
-  timestamp,
+      timestamp,
 
-  metadata: {
-    ...(
-      request.metadata
-        ? cloneValue(
-            request.metadata,
-          )
-        : {}
-    ),
+      metadata: {
+        ...(
+          request.metadata
+            ? cloneValue(
+                request.metadata,
+              )
+            : {}
+        ),
 
-    executionBoundary:
-      "atomic-upstream-revision-commit",
+        executionBoundary:
+          "atomic-upstream-revision-commit",
 
-    candidateId:
-      candidate.id,
+        candidateId:
+          candidate.id,
 
-    candidateRevision:
-      candidate.candidateRevision,
+        candidateRevision:
+          candidate.candidateRevision,
 
-    feedbackId:
-      candidate.sourceFeedback.feedbackId,
+        feedbackId:
+          candidate.sourceFeedback.feedbackId,
 
-    targetId:
-      candidate.target.targetId,
+        deploymentId:
+          candidate.sourceFeedback.deploymentId,
 
-    previousObjectRevision,
+        targetId:
+          candidate.target.targetId,
 
-    committedObjectRevision:
-      nextObjectRevision,
+        previousObjectRevision,
 
-    committedBy:
-      actor,
+        committedObjectRevision:
+          nextObjectRevision,
 
-    evidenceIds:
-      revisionEvidenceIds,
-  },
-};
+        committedBy:
+          actor,
+
+        qualifiedEvidenceIds:
+          cloneValue(
+            revisionEvidenceIds,
+          ),
+
+        additionalProvenanceEvidenceIds:
+          cloneValue(
+            requestEvidenceIds,
+          ),
+      },
+    };
 
 
     /*
@@ -2659,21 +3710,21 @@ export function commitUpstreamRevision(
      * Optimistic concurrency belongs to the operation.
      */
     const operations:
-  ValleyExecutionAtomicOperation[] = [
-    {
-      type:
-        "replace",
+      ValleyExecutionAtomicOperation[] = [
+        {
+          type:
+            "replace",
 
-      object:
-        nextObject,
+          object:
+            nextObject,
 
-      expectedStoreRevision:
-        request.expectedStoreRevision,
+          expectedStoreRevision:
+            request.expectedStoreRevision,
 
-      context:
-        writeContext,
-    },
-  ];
+          context:
+            writeContext,
+        },
+      ];
 
 
     const transactionResult =
@@ -2714,6 +3765,13 @@ export function commitUpstreamRevision(
     }
 
 
+    /*
+     * From this point onward the atomic Store mutation has
+     * succeeded.
+     *
+     * A readback anomaly must therefore NOT be represented
+     * as an atomic commit failure.
+     */
     const committedRawRecord =
       store.getRecord(
         targetRecord.object.id,
@@ -2725,7 +3783,7 @@ export function commitUpstreamRevision(
     ) {
       return {
         ok:
-          false,
+          true,
 
         candidateId:
           candidate.id,
@@ -2742,17 +3800,87 @@ export function commitUpstreamRevision(
 
         previousObjectRevision,
 
+        committedObjectRevision:
+          nextObjectRevision,
+
         previousStoreRevision:
           targetRecord.storeRevision,
 
-        error:
-          "Atomic transaction completed but the committed upstream record could not be read.",
+        readbackAvailable:
+          false,
+
+        warning:
+          "Atomic upstream revision commit succeeded, but the committed record could not be read back from the runtime Store.",
       };
     }
 
 
     const committedRecord =
       committedRawRecord as ValleyExecutionStateRecord<ValleyExecutionObject>;
+
+
+    /*
+     * Readback integrity.
+     *
+     * This is not allowed to retroactively redefine atomic
+     * transaction success as failure.
+     */
+    const readbackMatches =
+      committedRecord.object.id ===
+        targetRecord.object.id &&
+      committedRecord.object.stage ===
+        targetRecord.object.stage &&
+      committedRecord.object.revision ===
+        nextObjectRevision &&
+      committedRecord.recordState ===
+        targetRecord.recordState &&
+      committedRecord.storeRevision >
+        targetRecord.storeRevision;
+
+
+    if (
+      !readbackMatches
+    ) {
+      return {
+        ok:
+          true,
+
+        committedRecord:
+          cloneValue(
+            committedRecord,
+          ),
+
+        previousRecord:
+          cloneValue(
+            targetRecord,
+          ),
+
+        assessment,
+
+        candidateId:
+          candidate.id,
+
+        targetId:
+          targetRecord.object.id,
+
+        previousObjectRevision,
+
+        committedObjectRevision:
+          committedRecord.object.revision,
+
+        previousStoreRevision:
+          targetRecord.storeRevision,
+
+        committedStoreRevision:
+          committedRecord.storeRevision,
+
+        readbackAvailable:
+          true,
+
+        warning:
+          "Atomic upstream revision commit succeeded, but post-commit readback did not match all expected V7.4 revision invariants.",
+      };
+    }
 
 
     return {
@@ -2787,6 +3915,9 @@ export function commitUpstreamRevision(
 
       committedStoreRevision:
         committedRecord.storeRevision,
+
+      readbackAvailable:
+        true,
     };
 
   } catch (

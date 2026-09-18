@@ -46,6 +46,9 @@
    Review
    ≠ Store Mutation
 
+   Portable Optional Field
+   ≠ Explicit Undefined Property
+
    ----------------------------------------------------------
    RESPONSIBILITIES
    ----------------------------------------------------------
@@ -61,6 +64,7 @@
    - create next candidate revision
    - preserve original candidate
    - preserve evidence and change set
+   - preserve portable-state compatibility
    - perform no Store mutation
 
    ----------------------------------------------------------
@@ -171,28 +175,6 @@ export interface UpstreamRevisionReviewEvidenceProfile {
 
 /* ==========================================================
    REVIEW REQUEST
-
-   decision:
-     explicit reviewer action.
-
-   reviewer:
-     attribution only. V7.3 does not implement identity or
-     cryptographic authorization.
-
-   rationale:
-     explicit reason for the review outcome.
-
-   supersededByCandidateId:
-     required only for supersede.
-
-   evidenceReferences:
-     optional review-time evidence snapshot.
-
-     If omitted, candidate evidenceReferences are used.
-
-     This allows evidence state to be explicitly refreshed
-     before review without rewriting the historical V7.2
-     candidate.
 ========================================================== */
 
 export interface UpstreamRevisionReviewRequest {
@@ -221,12 +203,6 @@ export interface UpstreamRevisionReviewRequest {
 
 /* ==========================================================
    ELIGIBILITY
-
-   acceptedBoundarySatisfied is deliberately stricter than
-   general review eligibility.
-
-   A candidate may be rejected/withdrawn/superseded without
-   satisfying the acceptance evidence boundary.
 ========================================================== */
 
 export interface UpstreamRevisionReviewEligibility {
@@ -294,10 +270,6 @@ export interface UpstreamRevisionReviewEligibility {
 
 /* ==========================================================
    REVIEW ARTIFACT
-
-   previousCandidate remains untouched.
-
-   reviewedCandidate is a NEW candidate revision artifact.
 ========================================================== */
 
 export interface UpstreamRevisionReviewArtifact {
@@ -381,7 +353,7 @@ function cloneValue<TValue>(
 
   if (
     typeof structuredClone ===
-    "function"
+      "function"
   ) {
     return structuredClone(
       value,
@@ -442,7 +414,7 @@ function resolveTimestamp(
 
   if (
     timestamp !==
-    undefined
+      undefined
   ) {
     const parsed =
       Date.parse(
@@ -506,17 +478,31 @@ function isFeedbackRecord(
 /* ==========================================================
    EVIDENCE NORMALIZATION
 
-   Review-time evidence may update state, but the original
-   V7.2 candidate remains unchanged.
+   IMPORTANT:
 
-   Duplicate evidence IDs are rejected because two states for
-   one evidence identity would make the review ambiguous.
+   Optional fields are omitted when absent.
+
+   This prevents enumerable properties containing undefined
+   from entering a candidate that is later checked by the
+   V7.1 portable-state validator.
+
+   Duplicate evidence IDs are rejected because conflicting
+   states for one evidence identity would make review
+   ambiguous.
 ========================================================== */
 
 function normalizeEvidenceReferences(
   references:
-    RevisionEvidenceReference[],
+    RevisionEvidenceReference[] | undefined,
 ): RevisionEvidenceReference[] {
+
+  if (
+    references ===
+      undefined
+  ) {
+    return [];
+  }
+
 
   if (
     !Array.isArray(
@@ -529,7 +515,7 @@ function normalizeEvidenceReferences(
   }
 
 
-  const seen =
+  const seenEvidenceIds =
     new Set<string>();
 
 
@@ -539,71 +525,63 @@ function normalizeEvidenceReferences(
       index,
     ) => {
 
+      const evidenceId =
+        reference
+          .evidenceId
+          ?.trim();
+
+
       if (
-        !reference ||
-        typeof reference !==
-          "object"
+        !evidenceId
       ) {
         throw new Error(
-          `Revision review evidence reference at index ${index} is invalid.`,
+          `Revision review evidence reference ${index} requires evidenceId.`,
         );
       }
 
 
-      const evidenceId =
-        normalizeRequiredString(
-          reference.evidenceId,
-          `Revision review evidence ID at index ${index}`,
-        );
-
-
       if (
-        seen.has(
+        seenEvidenceIds.has(
           evidenceId,
         )
       ) {
         throw new Error(
-          `Duplicate revision review evidence reference: ${evidenceId}`,
+          `Revision review evidence reference is duplicated: ${evidenceId}`,
         );
       }
 
 
-      seen.add(
+      seenEvidenceIds.add(
         evidenceId,
       );
 
 
-      if (
-        reference.state !==
-          "unresolved" &&
-        reference.state !==
-          "unsupported" &&
-        reference.state !==
-          "stale" &&
-        reference.state !==
-          "qualified"
-      ) {
-        throw new Error(
-          `Revision review evidence reference "${evidenceId}" has an invalid state.`,
-        );
-      }
+      const normalized:
+        RevisionEvidenceReference = {
+
+        evidenceId,
+
+        state:
+          reference.state,
+      };
 
 
       if (
         reference.sourceId !==
-          undefined &&
-        !isNonEmptyString(
-          reference.sourceId,
-        )
+          undefined
       ) {
-        throw new Error(
-          `Revision review evidence reference "${evidenceId}" has an invalid sourceId.`,
-        );
+        const sourceId =
+          reference.sourceId
+            .trim();
+
+
+        if (
+          sourceId
+        ) {
+          normalized.sourceId =
+            sourceId;
+        }
       }
-
-
-      let observedAt:
-        string | undefined;
 
 
       if (
@@ -622,12 +600,12 @@ function normalizeEvidenceReferences(
           )
         ) {
           throw new Error(
-            `Revision review evidence reference "${evidenceId}" has an invalid observedAt timestamp.`,
+            `Revision review evidence reference ${index} has invalid observedAt.`,
           );
         }
 
 
-        observedAt =
+        normalized.observedAt =
           new Date(
             parsed,
           ).toISOString();
@@ -636,34 +614,23 @@ function normalizeEvidenceReferences(
 
       if (
         reference.reason !==
-          undefined &&
-        !isNonEmptyString(
-          reference.reason,
-        )
+          undefined
       ) {
-        throw new Error(
-          `Revision review evidence reference "${evidenceId}" has an invalid reason.`,
-        );
+        const reason =
+          reference.reason
+            .trim();
+
+
+        if (
+          reason
+        ) {
+          normalized.reason =
+            reason;
+        }
       }
 
 
-      return {
-        evidenceId,
-
-        state:
-          reference.state,
-
-        sourceId:
-          reference.sourceId
-            ?.trim(),
-
-        observedAt,
-
-        reason:
-          reference.reason
-            ?.trim(),
-      };
-
+      return normalized;
     },
   );
 }
@@ -826,15 +793,6 @@ function getResultingState(
 
 /* ==========================================================
    REVIEWABLE STATE
-
-   V7.2 starts at candidate.
-
-   review is also accepted as an input state so a future UI
-   may explicitly mark a candidate as under review before the
-   final decision.
-
-   Terminal review outcomes cannot be reviewed again through
-   this boundary.
 ========================================================== */
 
 function isCandidateStateReviewable(
@@ -853,18 +811,6 @@ function isCandidateStateReviewable(
 
 /* ==========================================================
    EVIDENCE BOUNDARY
-
-   Acceptance requires:
-
-   - candidate evidenceConfidence = sufficient
-   - at least one evidence reference
-   - every current review evidence reference qualified
-   - no unresolved / unsupported / stale references
-
-   This is intentionally conservative.
-
-   Evidence sufficiency remains an explicit upstream
-   assessment, not a probability or truth guarantee.
 ========================================================== */
 
 function isAcceptanceEvidenceSatisfied(
@@ -888,8 +834,6 @@ function isAcceptanceEvidenceSatisfied(
 
 /* ==========================================================
    ASSESS REVIEW ELIGIBILITY
-
-   This function does not mutate candidate or Store.
 ========================================================== */
 
 export function assessUpstreamRevisionReviewEligibility(
@@ -936,7 +880,7 @@ export function assessUpstreamRevisionReviewEligibility(
 
   const feedbackPresent =
     feedbackRecord !==
-    null;
+      null;
 
 
   const feedbackActive =
@@ -975,7 +919,7 @@ export function assessUpstreamRevisionReviewEligibility(
 
   const targetPresent =
     targetRecord !==
-    null;
+      null;
 
 
   const targetActive =
@@ -1333,7 +1277,7 @@ export function reviewUpstreamRevisionCandidate(
 
       if (
         supersededByCandidateId ===
-        candidate.id
+          candidate.id
       ) {
         return {
           ok:
@@ -1428,7 +1372,9 @@ export function reviewUpstreamRevisionCandidate(
     if (
       !eligibility.eligible
     ) {
-      return {
+      const result:
+        UpstreamRevisionReviewResult = {
+
         ok:
           false,
 
@@ -1437,25 +1383,34 @@ export function reviewUpstreamRevisionCandidate(
             candidate,
           ),
 
-        feedbackRecord:
-          feedbackRecord
-            ? cloneValue(
-                feedbackRecord,
-              )
-            : undefined,
-
-        targetRecord:
-          targetRecord
-            ? cloneValue(
-                targetRecord,
-              )
-            : undefined,
-
         eligibility,
 
         error:
           eligibility.reason,
       };
+
+
+      if (
+        feedbackRecord
+      ) {
+        result.feedbackRecord =
+          cloneValue(
+            feedbackRecord,
+          );
+      }
+
+
+      if (
+        targetRecord
+      ) {
+        result.targetRecord =
+          cloneValue(
+            targetRecord,
+          );
+      }
+
+
+      return result;
     }
 
 
@@ -1463,6 +1418,69 @@ export function reviewUpstreamRevisionCandidate(
       getResultingState(
         request.decision,
       );
+
+
+    /* ------------------------------------------------------
+       PORTABLE REVIEW METADATA
+
+       Optional values are inserted only when present.
+    ------------------------------------------------------ */
+
+    const reviewedMetadata:
+      Record<string, unknown> = {
+
+      ...(
+        candidate.metadata
+          ? cloneValue(
+              candidate.metadata,
+            )
+          : {}
+      ),
+
+      ...(
+        request.metadata
+          ? cloneValue(
+              request.metadata,
+            )
+          : {}
+      ),
+
+      executionBoundary:
+        "evidence-constrained-revision-review",
+
+      reviewedAt,
+
+      reviewedBy:
+        reviewer,
+
+      reviewDecision:
+        request.decision,
+
+      reviewRationale:
+        rationale,
+
+      previousCandidateRevision:
+        candidate.candidateRevision,
+
+      resultingCandidateRevision:
+        candidate.candidateRevision +
+        1,
+
+      evidenceProfile:
+        cloneValue(
+          evidenceProfile,
+        ),
+    };
+
+
+    if (
+      supersededByCandidateId !==
+        undefined
+    ) {
+      reviewedMetadata
+        .supersededByCandidateId =
+          supersededByCandidateId;
+    }
 
 
     /*
@@ -1486,63 +1504,13 @@ export function reviewUpstreamRevisionCandidate(
       state:
         resultingState,
 
-      /*
-       * Review-time evidence becomes the evidence snapshot of
-       * this new candidate revision.
-       *
-       * Previous candidate revision remains untouched.
-       */
       evidenceReferences:
         cloneValue(
           evidenceReferences,
         ),
 
-      metadata: {
-        ...(
-          candidate.metadata
-            ? cloneValue(
-                candidate.metadata,
-              )
-            : {}
-        ),
-
-        ...(
-          request.metadata
-            ? cloneValue(
-                request.metadata,
-              )
-            : {}
-        ),
-
-        executionBoundary:
-          "evidence-constrained-revision-review",
-
-        reviewedAt,
-
-        reviewedBy:
-          reviewer,
-
-        reviewDecision:
-          request.decision,
-
-        reviewRationale:
-          rationale,
-
-        previousCandidateRevision:
-          candidate.candidateRevision,
-
-        resultingCandidateRevision:
-          candidate.candidateRevision +
-          1,
-
-        evidenceProfile:
-          cloneValue(
-            evidenceProfile,
-          ),
-
-        supersededByCandidateId:
-          supersededByCandidateId,
-      },
+      metadata:
+        reviewedMetadata,
     };
 
 
@@ -1558,7 +1526,9 @@ export function reviewUpstreamRevisionCandidate(
     if (
       !reviewedValidation.valid
     ) {
-      return {
+      const result:
+        UpstreamRevisionReviewResult = {
+
         ok:
           false,
 
@@ -1572,27 +1542,43 @@ export function reviewUpstreamRevisionCandidate(
             reviewedCandidate,
           ),
 
-        feedbackRecord:
-          feedbackRecord
-            ? cloneValue(
-                feedbackRecord,
-              )
-            : undefined,
-
-        targetRecord:
-          targetRecord
-            ? cloneValue(
-                targetRecord,
-              )
-            : undefined,
-
         eligibility,
 
         error:
           `Reviewed revision candidate failed V7.1 validation: ${reviewedValidation.reason}`,
       };
+
+
+      if (
+        feedbackRecord
+      ) {
+        result.feedbackRecord =
+          cloneValue(
+            feedbackRecord,
+          );
+      }
+
+
+      if (
+        targetRecord
+      ) {
+        result.targetRecord =
+          cloneValue(
+            targetRecord,
+          );
+      }
+
+
+      return result;
     }
 
+
+    /* ------------------------------------------------------
+       PORTABLE REVIEW ARTIFACT
+
+       Do not create optional enumerable keys containing
+       undefined.
+    ------------------------------------------------------ */
 
     const artifact:
       UpstreamRevisionReviewArtifact = {
@@ -1628,19 +1614,32 @@ export function reviewUpstreamRevisionCandidate(
         cloneValue(
           eligibility,
         ),
-
-      supersededByCandidateId,
-
-      metadata:
-        request.metadata
-          ? cloneValue(
-              request.metadata,
-            )
-          : undefined,
     };
 
 
-    return {
+    if (
+      supersededByCandidateId !==
+        undefined
+    ) {
+      artifact.supersededByCandidateId =
+        supersededByCandidateId;
+    }
+
+
+    if (
+      request.metadata !==
+        undefined
+    ) {
+      artifact.metadata =
+        cloneValue(
+          request.metadata,
+        );
+    }
+
+
+    const result:
+      UpstreamRevisionReviewResult = {
+
       ok:
         true,
 
@@ -1660,41 +1659,58 @@ export function reviewUpstreamRevisionCandidate(
         ),
 
       eligibility,
-
-      feedbackRecord:
-        feedbackRecord
-          ? cloneValue(
-              feedbackRecord,
-            )
-          : undefined,
-
-      targetRecord:
-        targetRecord
-          ? cloneValue(
-              targetRecord,
-            )
-          : undefined,
     };
+
+
+    if (
+      feedbackRecord
+    ) {
+      result.feedbackRecord =
+        cloneValue(
+          feedbackRecord,
+        );
+    }
+
+
+    if (
+      targetRecord
+    ) {
+      result.targetRecord =
+        cloneValue(
+          targetRecord,
+        );
+    }
+
+
+    return result;
 
   } catch (
     error
   ) {
 
-    return {
+    const result:
+      UpstreamRevisionReviewResult = {
+
       ok:
         false,
-
-      previousCandidate:
-        candidate
-          ? cloneValue(
-              candidate,
-            )
-          : undefined,
 
       error:
         error instanceof Error
           ? error.message
           : "Upstream revision review failed.",
     };
+
+
+    if (
+      candidate
+    ) {
+      result.previousCandidate =
+        cloneValue(
+          candidate,
+        );
+    }
+
+
+    return result;
   }
 }

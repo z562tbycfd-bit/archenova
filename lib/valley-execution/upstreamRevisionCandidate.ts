@@ -42,13 +42,16 @@
    Route Freshness
    ≠ Permanent Validity
 
+   Portable Optional Field
+   ≠ Explicit Undefined Property
+
    ----------------------------------------------------------
    RESPONSIBILITIES
    ----------------------------------------------------------
 
    - require current active Feedback
    - require current active upstream target
-   - consume one explicit V6.5 resolved route
+   - consume one explicit V6.5 resolved revision route
    - validate route target identity
    - validate route target stage
    - validate route object revision freshness
@@ -59,6 +62,8 @@
    - require explicit findings
    - require explicit proposed changes
    - preserve evidence references
+   - reject ambiguous duplicate evidence identities
+   - preserve portable-state compatibility
    - produce V7.1 UpstreamRevisionCandidate
    - perform no Store mutation
 
@@ -105,7 +110,6 @@ import type {
 import {
   LEARNING_DISPOSITIONS,
   REVISION_EVIDENCE_CONFIDENCE,
-  REVISION_EVIDENCE_REFERENCE_STATES,
   UPSTREAM_REVISION_TARGETS,
   isRevisionTargetStageCompatible,
   validateUpstreamRevisionCandidate,
@@ -123,11 +127,6 @@ import type {
 
 /* ==========================================================
    CONSTRUCTION REQUEST
-
-   Every interpretive field is explicit.
-
-   V7.2 does not derive disposition or proposed changes from
-   Feedback prose or Reality Delta.
 ========================================================== */
 
 export interface UpstreamRevisionCandidateRequest {
@@ -177,11 +176,6 @@ export interface UpstreamRevisionCandidateRequest {
 
 /* ==========================================================
    ELIGIBILITY
-
-   candidateConstructible means the current Feedback,
-   route-plan snapshot and current target still agree.
-
-   It does NOT mean the proposed revision is correct.
 ========================================================== */
 
 export interface UpstreamRevisionCandidateEligibility {
@@ -277,7 +271,7 @@ function cloneValue<TValue>(
 
   if (
     typeof structuredClone ===
-    "function"
+      "function"
   ) {
     return structuredClone(
       value,
@@ -344,7 +338,7 @@ function normalizeStringArray(
 
   if (
     values ===
-    undefined
+      undefined
   ) {
     if (
       required
@@ -419,7 +413,7 @@ function resolveTimestamp(
 
   if (
     timestamp !==
-    undefined
+      undefined
   ) {
     const parsed =
       Date.parse(
@@ -514,6 +508,16 @@ function isEvidenceConfidence(
 }
 
 
+/* ==========================================================
+   EVIDENCE NORMALIZATION
+
+   Optional properties are omitted when absent.
+
+   Duplicate evidence identities are rejected because a
+   candidate must not carry two potentially conflicting
+   states for the same evidence ID.
+========================================================== */
+
 function normalizeEvidenceReferences(
   references:
     RevisionEvidenceReference[] | undefined,
@@ -521,7 +525,7 @@ function normalizeEvidenceReferences(
 
   if (
     references ===
-    undefined
+      undefined
   ) {
     return [];
   }
@@ -538,12 +542,15 @@ function normalizeEvidenceReferences(
   }
 
 
-  const seen =
+  const seenEvidenceIds =
     new Set<string>();
 
 
   return references.map(
-    (reference) => {
+    (
+      reference,
+      index,
+    ) => {
 
       if (
         !reference ||
@@ -551,117 +558,131 @@ function normalizeEvidenceReferences(
           "object"
       ) {
         throw new Error(
-          "Revision evidence reference is invalid.",
+          `Revision evidence reference ${index} must be an object.`,
         );
       }
 
 
       const evidenceId =
-        normalizeRequiredString(
-          reference.evidenceId,
-          "Revision evidence ID",
-        );
+        reference
+          .evidenceId
+          ?.trim();
 
 
       if (
-        !(
-          REVISION_EVIDENCE_REFERENCE_STATES as readonly string[]
-        ).includes(
-          reference.state,
-        )
+        !evidenceId
       ) {
         throw new Error(
-          `Revision evidence reference "${evidenceId}" has an invalid state.`,
+          `Revision evidence reference ${index} requires evidenceId.`,
         );
       }
 
 
       if (
-        seen.has(
+        seenEvidenceIds.has(
           evidenceId,
         )
       ) {
         throw new Error(
-          `Duplicate revision evidence reference: ${evidenceId}`,
+          `Revision evidence reference is duplicated: ${evidenceId}`,
         );
       }
 
 
-      seen.add(
+      seenEvidenceIds.add(
         evidenceId,
       );
 
 
+      const normalized:
+        RevisionEvidenceReference = {
+
+        evidenceId,
+
+        state:
+          reference.state,
+      };
+
+
       if (
         reference.sourceId !==
-          undefined &&
-        !isNonEmptyString(
-          reference.sourceId,
-        )
+          undefined
       ) {
-        throw new Error(
-          `Revision evidence reference "${evidenceId}" has an invalid sourceId.`,
-        );
+        const sourceId =
+          reference.sourceId
+            .trim();
+
+
+        if (
+          sourceId
+        ) {
+          normalized.sourceId =
+            sourceId;
+        }
       }
 
 
       if (
         reference.observedAt !==
-          undefined &&
-        Number.isNaN(
+          undefined
+      ) {
+        const parsed =
           Date.parse(
             reference.observedAt,
-          ),
-        )
-      ) {
-        throw new Error(
-          `Revision evidence reference "${evidenceId}" has an invalid observedAt timestamp.`,
-        );
+          );
+
+
+        if (
+          Number.isNaN(
+            parsed,
+          )
+        ) {
+          throw new Error(
+            `Revision evidence reference ${index} has invalid observedAt.`,
+          );
+        }
+
+
+        normalized.observedAt =
+          new Date(
+            parsed,
+          ).toISOString();
       }
 
 
       if (
         reference.reason !==
-          undefined &&
-        !isNonEmptyString(
-          reference.reason,
-        )
+          undefined
       ) {
-        throw new Error(
-          `Revision evidence reference "${evidenceId}" has an invalid reason.`,
-        );
+        const reason =
+          reference.reason
+            .trim();
+
+
+        if (
+          reason
+        ) {
+          normalized.reason =
+            reason;
+        }
       }
 
 
-      return {
-        evidenceId,
-
-        state:
-          reference.state,
-
-        sourceId:
-          reference.sourceId
-            ?.trim(),
-
-        observedAt:
-          reference.observedAt !==
-            undefined
-            ? new Date(
-                Date.parse(
-                  reference.observedAt,
-                ),
-              ).toISOString()
-            : undefined,
-
-        reason:
-          reference.reason
-            ?.trim(),
-      };
-
+      return normalized;
     },
   );
 }
 
+
+/* ==========================================================
+   CHANGE NORMALIZATION
+
+   Optional before / after / evidenceIds fields are omitted
+   when absent.
+
+   Full add / replace / remove semantics remain canonical in
+   V7.1 and are enforced again before commit by V7.4.
+========================================================== */
 
 function normalizeChanges(
   changes:
@@ -671,20 +692,12 @@ function normalizeChanges(
   if (
     !Array.isArray(
       changes,
-    )
-  ) {
-    throw new Error(
-      "Revision changes must be an array.",
-    );
-  }
-
-
-  if (
+    ) ||
     changes.length ===
       0
   ) {
     throw new Error(
-      "Revision candidate requires at least one explicit proposed change.",
+      "Revision candidate requires at least one explicit change.",
     );
   }
 
@@ -701,78 +714,118 @@ function normalizeChanges(
           "object"
       ) {
         throw new Error(
-          `Revision change at index ${index} is invalid.`,
+          `Revision change ${index} must be an object.`,
         );
       }
 
 
       const path =
-        normalizeRequiredString(
-          change.path,
-          `Revision change path at index ${index}`,
-        );
-
+        change.path
+          ?.trim();
 
       const rationale =
-        normalizeRequiredString(
-          change.rationale,
-          `Revision change rationale at index ${index}`,
-        );
+        change.rationale
+          ?.trim();
 
 
       if (
-        change.operation !==
-          "add" &&
-        change.operation !==
-          "replace" &&
-        change.operation !==
-          "remove"
+        !path
       ) {
         throw new Error(
-          `Revision change "${path}" has an invalid operation.`,
+          `Revision change ${index} requires path.`,
         );
       }
 
 
-      const evidenceIds =
-        normalizeStringArray(
-          change.evidenceIds,
-          `Revision change evidenceIds for "${path}"`,
-          false,
+      if (
+        !rationale
+      ) {
+        throw new Error(
+          `Revision change ${index} requires rationale.`,
         );
+      }
 
 
-      return {
+      const normalized:
+        UpstreamRevisionChange = {
+
         path,
 
         operation:
           change.operation,
 
-        before:
-          change.before !==
-            undefined
-            ? cloneValue(
-                change.before,
-              )
-            : undefined,
-
-        after:
-          change.after !==
-            undefined
-            ? cloneValue(
-                change.after,
-              )
-            : undefined,
-
         rationale,
-
-        evidenceIds:
-          evidenceIds.length >
-          0
-            ? evidenceIds
-            : undefined,
       };
 
+
+      if (
+        change.before !==
+          undefined
+      ) {
+        normalized.before =
+          cloneValue(
+            change.before,
+          );
+      }
+
+
+      if (
+        change.after !==
+          undefined
+      ) {
+        normalized.after =
+          cloneValue(
+            change.after,
+          );
+      }
+
+
+      if (
+        change.evidenceIds !==
+          undefined
+      ) {
+
+        if (
+          !Array.isArray(
+            change.evidenceIds,
+          ) ||
+          change.evidenceIds.some(
+            (value) =>
+              typeof value !==
+                "string" ||
+              value.trim()
+                .length ===
+                0,
+          )
+        ) {
+          throw new Error(
+            `Revision change ${index} evidenceIds must contain non-empty strings only.`,
+          );
+        }
+
+
+        const evidenceIds =
+          Array.from(
+            new Set(
+              change.evidenceIds.map(
+                (value) =>
+                  value.trim(),
+              ),
+            ),
+          );
+
+
+        if (
+          evidenceIds.length >
+            0
+        ) {
+          normalized.evidenceIds =
+            evidenceIds;
+        }
+      }
+
+
+      return normalized;
     },
   );
 }
@@ -780,21 +833,6 @@ function normalizeChanges(
 
 /* ==========================================================
    ROUTE MEMBERSHIP
-
-   The supplied route must actually belong to the supplied
-   V6.5 route plan.
-
-   This prevents callers from constructing an arbitrary
-   "resolved" route object that was never present in the
-   route plan.
-
-   Comparison is exact over the route identity snapshot:
-   - target
-   - targetId
-   - state
-   - target stage
-   - target object revision
-   - target Store revision
 ========================================================== */
 
 function routeBelongsToPlan(
@@ -831,10 +869,6 @@ function routeBelongsToPlan(
 
 /* ==========================================================
    INTERPRETATION VALIDATION
-
-   This is structural only.
-
-   It does NOT determine whether the interpretation is true.
 ========================================================== */
 
 function validateInterpretation(
@@ -878,13 +912,6 @@ function validateInterpretation(
 
 /* ==========================================================
    ELIGIBILITY ASSESSMENT
-
-   This is the central freshness boundary of V7.2.
-
-   The route was resolved at an earlier moment.
-
-   Candidate construction is allowed only if the current
-   Feedback and target still match that route snapshot.
 ========================================================== */
 
 export function assessUpstreamRevisionCandidateEligibility(
@@ -920,7 +947,7 @@ export function assessUpstreamRevisionCandidateEligibility(
 
   const feedbackPresent =
     feedbackRecord !==
-    null;
+      null;
 
 
   const feedbackActive =
@@ -951,7 +978,7 @@ export function assessUpstreamRevisionCandidateEligibility(
 
   const routePlanReady =
     routePlan.ready ===
-    true;
+      true;
 
 
   const routePlanFeedbackMatches =
@@ -992,7 +1019,7 @@ export function assessUpstreamRevisionCandidateEligibility(
 
   const targetPresent =
     targetRecord !==
-    null;
+      null;
 
 
   const targetActive =
@@ -1055,13 +1082,9 @@ export function assessUpstreamRevisionCandidateEligibility(
       );
 
 
-    /*
-     * Full operation semantics and portable-state validation
-     * are performed again by the V7.1 candidate validator.
-     */
     changesValid =
       normalized.length >
-      0;
+        0;
 
   } catch {
 
@@ -1460,29 +1483,40 @@ export function constructUpstreamRevisionCandidate(
     if (
       !eligibility.eligible
     ) {
-      return {
+      const result:
+        UpstreamRevisionCandidateConstructionResult = {
+
         ok:
           false,
-
-        feedbackRecord:
-          feedbackRecord
-            ? cloneValue(
-                feedbackRecord,
-              )
-            : undefined,
-
-        targetRecord:
-          targetRecord
-            ? cloneValue(
-                targetRecord,
-              )
-            : undefined,
 
         eligibility,
 
         error:
           eligibility.reason,
       };
+
+
+      if (
+        feedbackRecord
+      ) {
+        result.feedbackRecord =
+          cloneValue(
+            feedbackRecord,
+          );
+      }
+
+
+      if (
+        targetRecord
+      ) {
+        result.targetRecord =
+          cloneValue(
+            targetRecord,
+          );
+      }
+
+
+      return result;
     }
 
 
@@ -1502,6 +1536,70 @@ export function constructUpstreamRevisionCandidate(
     }
 
 
+    const candidateMetadata:
+      Record<string, unknown> = {
+
+      ...(
+        request.metadata
+          ? cloneValue(
+              request.metadata,
+            )
+          : {}
+      ),
+
+      executionBoundary:
+        "upstream-revision-candidate-construction",
+
+      routePlanGeneratedAt:
+        request.routePlan
+          .generatedAt,
+
+      routePlanFeedbackObjectRevision:
+        request.routePlan
+          .feedbackObjectRevision,
+
+      routePlanFeedbackStoreRevision:
+        request.routePlan
+          .feedbackStoreRevision,
+
+      routeTarget:
+        request.route.target,
+
+      routeTargetId:
+        targetId,
+
+      constructedAt:
+        timestamp,
+
+      constructedBy:
+        actor,
+    };
+
+
+    if (
+      request.route
+        .targetObjectRevision !==
+        undefined
+    ) {
+      candidateMetadata
+        .routeTargetObjectRevision =
+          request.route
+            .targetObjectRevision;
+    }
+
+
+    if (
+      request.route
+        .targetStoreRevision !==
+        undefined
+    ) {
+      candidateMetadata
+        .routeTargetStoreRevision =
+          request.route
+            .targetStoreRevision;
+    }
+
+
     const candidate:
       UpstreamRevisionCandidate = {
 
@@ -1517,10 +1615,6 @@ export function constructUpstreamRevisionCandidate(
       createdBy:
         actor,
 
-      /*
-       * V7.2 always creates a candidate.
-       * Acceptance belongs to V7.3.
-       */
       state:
         "candidate",
 
@@ -1577,57 +1671,16 @@ export function constructUpstreamRevisionCandidate(
 
       changes,
 
-      metadata: {
-        ...(
-          request.metadata
-            ? cloneValue(
-                request.metadata,
-              )
-            : {}
-        ),
-
-        executionBoundary:
-          "upstream-revision-candidate-construction",
-
-        routePlanGeneratedAt:
-          request.routePlan
-            .generatedAt,
-
-        routePlanFeedbackObjectRevision:
-          request.routePlan
-            .feedbackObjectRevision,
-
-        routePlanFeedbackStoreRevision:
-          request.routePlan
-            .feedbackStoreRevision,
-
-        routeTarget:
-          request.route.target,
-
-        routeTargetId:
-          targetId,
-
-        routeTargetObjectRevision:
-          request.route
-            .targetObjectRevision,
-
-        routeTargetStoreRevision:
-          request.route
-            .targetStoreRevision,
-
-        constructedAt:
-          timestamp,
-
-        constructedBy:
-          actor,
-      },
+      metadata:
+        candidateMetadata,
     };
 
 
     /*
      * V7.1 remains the canonical structural validator.
      *
-     * V7.2 does not weaken or duplicate its final contract.
+     * This also provides the final portable-state boundary
+     * for candidate metadata and proposed values.
      */
     const validation =
       validateUpstreamRevisionCandidate(
