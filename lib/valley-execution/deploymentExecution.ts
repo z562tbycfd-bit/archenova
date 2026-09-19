@@ -3,7 +3,7 @@
    DEPLOYMENT LIFECYCLE & MUTATION BOUNDARY
    ----------------------------------------------------------
    Stage V6.1
-   Final Core Hardening A integrated
+   Final Core Hardening A + B integrated
 
    File:
    lib/valley-execution/deploymentExecution.ts
@@ -12,14 +12,36 @@
    Establish the dedicated mutation boundary for the runtime
    lifecycle of a ValleyDeployment created by V5.4.
 
-   Final Core Hardening A:
+   ----------------------------------------------------------
+   FINAL CORE HARDENING A
+   CONDITIONAL GOVERNANCE ACTIVATION
+   ----------------------------------------------------------
+
    - PASS Governance may activate through V6.1
    - CONDITIONAL Governance requires a valid, current,
      explicitly satisfied Conditional Governance activation
      artifact before entering ACTIVE
+   - HOLD / REVISE / STOP / PENDING cannot activate
    - The Conditional Governance activation boundary owns
      no mutation authority
    - V6.1 remains the lifecycle mutation authority
+
+   ----------------------------------------------------------
+   FINAL CORE HARDENING B
+   REALITY OBSERVATION BOUNDARY
+   ----------------------------------------------------------
+
+   - active → observed is NOT a generic lifecycle mutation
+   - V6.2 exclusively materializes the normal transition
+     from active → observed
+   - V6.2 simultaneously records:
+       observedState
+       Reality Delta
+       observation provenance
+       exact ValleyRevision
+   - observed → completed requires V6.2 observation
+     provenance
+   - Completion still does NOT imply success
 
    ----------------------------------------------------------
    CORE DISTINCTIONS
@@ -55,6 +77,9 @@
    Activation Authorization
    ≠ Lifecycle Mutation
 
+   Lifecycle State
+   ≠ Evidence of Reality Contact
+
    ----------------------------------------------------------
    RESPONSIBILITIES
    ----------------------------------------------------------
@@ -74,6 +99,8 @@
    - Require current Governance authorization before ACTIVE
    - Require explicit Conditional Governance satisfaction
      artifact when source decision is CONDITIONAL
+   - Prevent generic active → observed lifecycle bypass
+   - Require V6.2 observation provenance before completion
    - Persist through runtime Store mutation boundary
 
    ----------------------------------------------------------
@@ -150,28 +177,40 @@ export type DeploymentLifecycleStatus =
    kernel schema, even though V5.4 currently creates
    Deployment directly as "prepared".
 
-   Important:
+   ----------------------------------------------------------
+   HARDENING A
+   ----------------------------------------------------------
 
-   suspended → active
-   is explicit recovery/resumption.
+   Any transition into ACTIVE must additionally satisfy
+   current Governance activation authorization.
 
-   Final Core Hardening A:
-   Any transition into ACTIVE must still satisfy current
-   Governance activation authorization.
+   PASS:
+     current Governance authorization is sufficient.
 
-   For CONDITIONAL Governance, this means a current explicit
-   condition satisfaction artifact is required.
+   CONDITIONAL:
+     current explicit condition satisfaction artifact is
+     required.
 
-   terminated has no outgoing transition.
+   ----------------------------------------------------------
+   HARDENING B
+   ----------------------------------------------------------
 
-   completed has no outgoing transition.
+   active → observed is deliberately absent.
 
-   observed → active is deliberately not allowed here.
-   Observation is not something that should be erased merely
-   by changing lifecycle state.
+   OBSERVED is not merely a lifecycle label.
 
-   A later revision/redeployment boundary can model a new
-   execution cycle if necessary.
+   The normal active → observed transition belongs to V6.2:
+
+     commitDeploymentObservation()
+
+   which simultaneously records Reality Observation
+   provenance.
+
+   suspended → active remains explicit recovery/resumption.
+
+   observed → active is deliberately not allowed.
+
+   completed and terminated are terminal.
 ========================================================== */
 
 export const DEPLOYMENT_LIFECYCLE_TRANSITIONS:
@@ -194,7 +233,6 @@ export const DEPLOYMENT_LIFECYCLE_TRANSITIONS:
   ],
 
   active: [
-    "observed",
     "suspended",
     "terminated",
   ],
@@ -223,16 +261,12 @@ export const DEPLOYMENT_LIFECYCLE_TRANSITIONS:
 
    V6.2 owns Reality Observation.
 
-   startedAt / endedAt are also not caller-controlled.
-   V6.1 derives them from lifecycle transitions.
+   startedAt / endedAt are not caller-controlled.
 
-   Final Core Hardening A:
+   conditionalActivationArtifact is required only when
+   entering ACTIVE under a CONDITIONAL Governance decision.
 
-   conditionalActivationArtifact is required only when the
-   Deployment is entering ACTIVE under a CONDITIONAL source
-   Governance decision.
-
-   The artifact itself has no mutation authority.
+   The artifact itself owns no lifecycle mutation authority.
 ========================================================== */
 
 export interface DeploymentLifecycleMutationRequest {
@@ -257,14 +291,6 @@ export interface DeploymentLifecycleMutationRequest {
   evidenceIds?:
     string[];
 
-  /*
-   * Required only when activating a Deployment whose source
-   * Governance decision is CONDITIONAL.
-   *
-   * PASS activation remains unchanged.
-   *
-   * This artifact never performs lifecycle mutation itself.
-   */
   conditionalActivationArtifact?:
     ConditionalGovernanceActivationArtifact;
 
@@ -696,12 +722,10 @@ export function canTransitionDeploymentLifecycle(
 
    No Store mutation occurs here.
 
-   Important:
-
    transitionAllowed describes lifecycle topology only.
 
-   Final activation authorization is checked separately
-   inside the V6.1 mutation boundary before entering ACTIVE.
+   Governance authorization is evaluated separately inside
+   the V6.1 mutation boundary before entering ACTIVE.
 ========================================================== */
 
 export function assessDeploymentLifecycleTransition(
@@ -881,6 +905,15 @@ export function assessDeploymentLifecycleTransition(
       "suspended";
 
 
+  /*
+   * Hardening B:
+   *
+   * Generic V6.1 lifecycle mutation can no longer produce
+   * observed.
+   *
+   * This remains descriptive and will therefore normally be
+   * false for every allowed V6.1 transition.
+   */
   const willObserve =
     toStatus ===
       "observed";
@@ -982,8 +1015,6 @@ function createDeploymentLifecycleRevision(
    observedState is deliberately preserved exactly.
 
    V6.1 does not generate or overwrite Reality Observation.
-
-   Final Core Hardening A does not change this responsibility.
 ========================================================== */
 
 function createLifecycleMutationCandidate(
@@ -1088,10 +1119,14 @@ function createLifecycleMutationCandidate(
     endedAt,
 
     /*
-     * V6.1 must not manufacture observation.
+     * V6.1 must not manufacture Reality Observation.
+     *
+     * Explicit undefined check is used because an empty
+     * object is still a valid observedState.
      */
     observedState:
-      deployment.observedState
+      deployment.observedState !==
+        undefined
         ? cloneValue(
             deployment.observedState,
           )
@@ -1187,13 +1222,11 @@ function createLifecycleMutationCandidate(
    It does not imply that every listed transition currently
    satisfies Governance activation prerequisites.
 
-   In particular:
-
    prepared → active
    suspended → active
 
-   may additionally require a current CONDITIONAL Governance
-   activation artifact at mutation time.
+   additionally require current Governance activation
+   authorization at mutation time.
 ========================================================== */
 
 export function inspectDeploymentLifecycle(
@@ -1401,7 +1434,7 @@ export function inspectDeploymentLifecycle(
         ? "Deployment runtime record is archived."
         : terminal
           ? `Deployment lifecycle state "${deploymentStatus}" is terminal.`
-          : `Deployment lifecycle state "${deploymentStatus}" may transition only through the explicit V6.1 lifecycle boundary. Transitions into ACTIVE additionally require current Governance activation authorization.`,
+          : `Deployment lifecycle state "${deploymentStatus}" may transition only through the explicit V6.1 lifecycle boundary. Transitions into ACTIVE additionally require current Governance activation authorization. Reality Observation into OBSERVED belongs to V6.2.`,
   };
 }
 
@@ -1423,13 +1456,17 @@ export function inspectDeploymentLifecycle(
        ↓
    Governance Activation Guard
        ↓
+   Completion / Observation Provenance Guard
+       ↓
    Exact ValleyRevision
        ↓
    store.replace()
        ↓
    Updated Deployment
 
-   Final Core Hardening A:
+   ----------------------------------------------------------
+   HARDENING A
+   ----------------------------------------------------------
 
    When requested state is ACTIVE:
 
@@ -1445,10 +1482,22 @@ export function inspectDeploymentLifecycle(
        ↓
    V6.1 mutation
 
-   The Conditional Governance activation boundary performs
-   no mutation.
+   HOLD / REVISE / STOP / PENDING
+       ↓
+   Activation denied
 
-   No Reality Observation is generated.
+   ----------------------------------------------------------
+   HARDENING B
+   ----------------------------------------------------------
+
+   active → observed cannot occur here.
+
+   V6.2 owns Reality Observation.
+
+   observed → completed additionally requires V6.2
+   observation materialization and provenance.
+
+   No success judgment occurs here.
 ========================================================== */
 
 export function commitDeploymentLifecycleMutation(
@@ -1652,54 +1701,46 @@ export function commitDeploymentLifecycleMutation(
 
 
     /*
+     * ======================================================
      * FINAL CORE HARDENING A
+     * GOVERNANCE ACTIVATION AUTHORIZATION
      * ------------------------------------------------------
-     * Activation authorization is checked only when entering
-     * ACTIVE from a non-active lifecycle state.
      *
-     * Current legal cases are:
+     * Any lifecycle transition into ACTIVE must preserve
+     * current Governance authorization.
      *
-     * prepared → active
-     * suspended → active
+     * PASS
+     *   → current Governance authorization is sufficient.
      *
-     * PASS Governance:
-     *   Existing V6.1 activation behavior remains available,
-     *   provided the explicit source Governance Gate remains
-     *   current and authorizing.
+     * CONDITIONAL
+     *   → requires a valid, current, explicitly satisfied
+     *     Conditional Governance activation artifact.
      *
-     * CONDITIONAL Governance:
-     *   Requires a valid, current, fully satisfied condition
-     *   assessment artifact.
+     * HOLD / REVISE / STOP / PENDING
+     *   → activation is prohibited.
      *
-     * HOLD / REVISE / STOP / PENDING:
-     *   Activation is rejected.
+     * This check is read-only.
      *
-     * The artifact itself has NO mutation authority.
-     *
-     * V6.1 remains the lifecycle mutation boundary.
-     *
-     * This guard intentionally also applies to
-     * suspended → active.
-     *
-     * Previous satisfaction ≠ Current satisfaction.
+     * V6.1 remains the lifecycle mutation authority.
+     * ======================================================
      */
+
     if (
       request.toStatus ===
-        "active" &&
-      rawRecord.object
-        .deploymentStatus !==
         "active"
     ) {
       const activationAuthorization =
         validateDeploymentActivationAuthorization(
           rawRecord.object,
-          request.conditionalActivationArtifact,
+          request
+            .conditionalActivationArtifact,
           store,
         );
 
 
       if (
-        !activationAuthorization.authorized
+        !activationAuthorization
+          .authorized
       ) {
         return {
           ok:
@@ -1715,7 +1756,177 @@ export function commitDeploymentLifecycleMutation(
             rawRecord.storeRevision,
 
           error:
-            activationAuthorization.reason,
+            activationAuthorization
+              .reason,
+        };
+      }
+    }
+
+
+    /*
+     * ======================================================
+     * FINAL CORE HARDENING B
+     * COMPLETION REQUIRES V6.2 REALITY OBSERVATION
+     * ------------------------------------------------------
+     *
+     * Lifecycle label
+     * ≠ Reality contact
+     *
+     * active → observed cannot occur through V6.1.
+     *
+     * V6.2 owns the normal active → observed transition and
+     * materializes:
+     *
+     * - observedState
+     * - structural Reality Delta
+     * - observation provenance
+     * - exact ValleyRevision
+     *
+     * Therefore observed → completed additionally requires
+     * evidence that V6.2 actually materialized Reality
+     * Observation.
+     *
+     * This does NOT determine:
+     *
+     * - truth
+     * - success
+     * - expected-state achievement
+     * - Feedback response
+     * ======================================================
+     */
+
+    if (
+      request.toStatus ===
+        "completed"
+    ) {
+      if (
+        rawRecord.object
+          .deploymentStatus !==
+          "observed"
+      ) {
+        return {
+          ok:
+            false,
+
+          assessment,
+
+          objectRevision:
+            rawRecord.object
+              .revision,
+
+          storeRevision:
+            rawRecord.storeRevision,
+
+          error:
+            "Deployment may complete only from the observed lifecycle state.",
+        };
+      }
+
+
+      /*
+       * Empty object {} remains a valid explicit observation.
+       */
+      if (
+        rawRecord.object
+          .observedState ===
+          undefined
+      ) {
+        return {
+          ok:
+            false,
+
+          assessment,
+
+          objectRevision:
+            rawRecord.object
+              .revision,
+
+          storeRevision:
+            rawRecord.storeRevision,
+
+          error:
+            "Deployment cannot complete without an explicit Reality Observation produced through V6.2.",
+        };
+      }
+
+
+      const realityDelta =
+        rawRecord.object
+          .metadata
+          ?.deploymentRealityDelta;
+
+
+      if (
+        !realityDelta ||
+        typeof realityDelta !==
+          "object" ||
+        Array.isArray(
+          realityDelta,
+        )
+      ) {
+        return {
+          ok:
+            false,
+
+          assessment,
+
+          objectRevision:
+            rawRecord.object
+              .revision,
+
+          storeRevision:
+            rawRecord.storeRevision,
+
+          error:
+            "Deployment cannot complete without V6.2 Reality Delta provenance.",
+        };
+      }
+
+
+      const observedAt =
+        rawRecord.object
+          .metadata
+          ?.deploymentObservedAt;
+
+
+      const observedBy =
+        rawRecord.object
+          .metadata
+          ?.deploymentObservedBy;
+
+
+      if (
+        typeof observedAt !==
+          "string" ||
+        observedAt.trim()
+          .length ===
+          0 ||
+        Number.isNaN(
+          Date.parse(
+            observedAt,
+          ),
+        ) ||
+        typeof observedBy !==
+          "string" ||
+        observedBy.trim()
+          .length ===
+          0
+      ) {
+        return {
+          ok:
+            false,
+
+          assessment,
+
+          objectRevision:
+            rawRecord.object
+              .revision,
+
+          storeRevision:
+            rawRecord.storeRevision,
+
+          error:
+            "Deployment cannot complete without valid V6.2 Reality Observation provenance.",
         };
       }
     }
@@ -1735,12 +1946,17 @@ export function commitDeploymentLifecycleMutation(
 
     /*
      * Caller metadata is written first.
-     * Protected domain metadata follows.
+     * Protected boundary metadata follows.
      *
      * The Conditional Governance activation artifact is not
-     * automatically copied wholesale into Deployment state.
+     * copied wholesale into Deployment state.
      *
-     * The artifact remains a separate authorization artifact.
+     * Only its identifier is recorded as provenance.
+     *
+     * Artifact presence alone does not establish:
+     * - evidence truth
+     * - condition truth
+     * - project success
      */
     const replacement =
       store.replace(
@@ -1790,12 +2006,6 @@ export function commitDeploymentLifecycleMutation(
                 evidenceIds,
               ),
 
-            /*
-             * Provenance pointer only.
-             *
-             * Presence of an artifact ID does not itself
-             * establish evidence truth or condition truth.
-             */
             conditionalActivationArtifactId:
               request
                 .conditionalActivationArtifact
@@ -1829,10 +2039,6 @@ export function commitDeploymentLifecycleMutation(
     }
 
 
-    /*
-     * candidate is statically ValleyDeployment.
-     * No redundant post-replace stage guard is needed.
-     */
     const replacedRecord:
       ValleyExecutionStateRecord<ValleyDeployment> =
         replacement.value;
