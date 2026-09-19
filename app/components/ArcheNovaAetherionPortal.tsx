@@ -2147,9 +2147,66 @@ export default function ArcheNovaAetherionPortal() {
             letter-spacing: .1em;
           }
 
-          .ae-portal__indicator {
-            font-size: 0;
-          }
+          /* ==================================================
+   MOBILE — INDICATOR LABEL VISIBILITY
+
+   Keep the status dot and its text visible.
+   Does not modify the HOME outer glass card.
+================================================== */
+
+.ae-portal__indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
+
+  gap: 6px;
+
+  min-width: 0;
+
+  color: rgba(240, 244, 249, 0.64);
+
+  font-size: 7px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+
+  white-space: nowrap;
+}
+
+.ae-portal__indicator i {
+  width: 4px;
+  height: 4px;
+  flex: 0 0 4px;
+}
+
+.ae-portal__indicator span {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* ==================================================
+   MOBILE — TWO-ROW HEADER
+
+   AETHERION stays centered.
+   The status indicator moves below the identity.
+================================================== */
+
+.ae-portal__header {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  row-gap: 12px;
+}
+
+.ae-portal__identity {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.ae-portal__indicator {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: center;
+}
 
           .ae-portal__experience {
             justify-content: flex-start;
