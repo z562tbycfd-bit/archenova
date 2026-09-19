@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-19T13:44:46.024Z",
+  "updated": "2026-09-19T17:03:14.498Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Jehovah’s Witnesses allow blood-derived products but keep ban on whole-blood transfusions",
+      "url": "https://www.statnews.com/2026/09/19/jehovahs-witnesses-blood-derived-products-transfusions/?utm_campaign=rss",
+      "summary": "The Jehovah’s Witnesses have partly eased their longstanding prohibition on the medical use of donated blood.",
+      "ts": 1789827191000,
+      "publishedAt": "2026-09-19T14:13:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "The race to build a pandemic-proof world",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168377",
+      "summary": "Six years after COVID-19 killed millions, battered health systems, disrupted lives and brought the global economy to a virtual standstill, the world is still grappling with how we can prepare better for the next pandemic…",
+      "ts": 1789819200000,
+      "publishedAt": "2026-09-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Why the UN General Assembly still matters",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168361",
+      "summary": "More than eight decades on, the UN General Assembly remains the place where the UN’s 193 Member States come together to debate the defining challenges of the day, from war and peace – to development, climate change and h…",
+      "ts": 1789819200000,
+      "publishedAt": "2026-09-19T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 September 19 – A Zodiacal Night",
@@ -226,6 +253,15 @@
       "ts": 1789732800000,
       "publishedAt": "2026-09-18T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN Crime Congress: Technology is transforming crime – and the response to it",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168370",
+      "summary": "Sitting in her Vienna office ahead of a pivotal UN gathering in Abu Dhabi, Monica Juma is focused on a simple reality: crime has evolved faster than many of the institutions designed to combat it.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -774,42 +810,6 @@
       "summary": "FDA's hiring bottleneck, Dems plan for health care oversight, and more from STAT's D.C. Diagnosis newsletter.",
       "ts": 1789654623000,
       "publishedAt": "2026-09-17T14:17:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Purer fentanyl won’t solve the U.S. overdose death crisis, study says",
-      "url": "https://www.statnews.com/2026/09/17/health-news-fentanyl-overdoses-fda-doge-morning-rounds/?utm_campaign=rss",
-      "summary": "Cautious optimism in the Ebola outbreak, FDA still stymied by DOGE cuts, and other health updates from the Morning Rounds newsletter.",
-      "ts": 1789654278000,
-      "publishedAt": "2026-09-17T14:11:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Sartorius and NIBRT Partner on Intensified and Continuous Bioprocessing Training Center",
-      "url": "https://www.genengnews.com/topics/bioprocessing/sartorius-and-nibrt-partner-on-intensified-and-continuous-bioprocessing-training-center/",
-      "summary": "Officials at Sartorius and the NIBRT said their partnership will strengthen global workforce readiness and accelerate the industry transition toward more efficient and sustainable biopharmaceutical production. The post S…",
-      "ts": 1789652977000,
-      "publishedAt": "2026-09-17T13:49:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Mithrl Raises $20M to Expand Deployment of Its Biomedical World Model Across Biopharma",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/mithrl-raises-20m-to-expand-deployment-of-its-biomedical-world-model-across-biopharma/",
-      "summary": "Mithrl’s platform embeds its biomedical world model and AI agents within biopharma companies’ own environments, providing the context and orchestration needed to apply frontier AI to proprietary data and pipelines. The p…",
-      "ts": 1789652637000,
-      "publishedAt": "2026-09-17T13:43:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Zocdoc for chatbots and what’s new with Medicare’s ACCESS",
-      "url": "https://www.statnews.com/2026/09/17/zocdoc-for-chatbots-and-medicares-access-healh-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Zocdoc enables appointment scheduling from chatbots and health plan websites, and more.",
-      "ts": 1789650553000,
-      "publishedAt": "2026-09-17T13:09:13.000Z",
       "categoryId": "bio"
     }
   ],

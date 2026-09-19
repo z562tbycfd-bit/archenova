@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-09-19T13:44:44.299Z",
+  "updated": "2026-09-19T17:03:10.717Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Bringing ice sheets to life: Releasing a dynamic ice sheet modeling workflow for Australia's climate model",
+      "url": "https://phys.org/news/2026-09-ice-sheets-life-dynamic-sheet.html",
+      "summary": "Ice sheets are fundamental components of the Earth system. Antarctica and Greenland, the two ice sheets currently on Earth, don't just affect their own regions: What happens on these vast masses of land ice influences we…",
+      "ts": 1789837202000,
+      "publishedAt": "2026-09-19T17:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global population dataset uses buildings to reveal people's daily movement patterns",
+      "url": "https://phys.org/news/2026-09-global-population-dataset-reveal-people.html",
+      "summary": "Researchers at the Department of Energy's (DOE) Oak Ridge National Laboratory (ORNL) have released LandScan Mosaic, a next-generation global population distribution dataset that estimates where people are by modeling how…",
+      "ts": 1789833602000,
+      "publishedAt": "2026-09-19T16:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How narwhal 'scientists' track Arctic warming",
+      "url": "https://phys.org/news/2026-08-narwhal-scientists-track-arctic.html",
+      "summary": "The fight against climate change has a new, spiral-tusked ally: the narwhal.",
+      "ts": 1789831802000,
+      "publishedAt": "2026-09-19T15:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Meet Earth's newest wild cat species, the first named in over a century",
+      "url": "https://phys.org/news/2026-09-earth-wild-cat-species-century.html",
+      "summary": "A previously unknown cat species has been identified in plain sight: at a wildlife sanctuary in Bolivia, where the small, spotted feline had been living for years.",
+      "ts": 1789827601000,
+      "publishedAt": "2026-09-19T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A humpback whale was spotted in a California river, 60 miles from its Pacific Ocean home",
+      "url": "https://phys.org/news/2026-09-humpback-whale-california-river-miles.html",
+      "summary": "Denny Glover was hoping for a big catch when he went fishing with buddies on the Sacramento River, but he wasn't expecting a fully grown humpback whale.",
+      "ts": 1789826896000,
+      "publishedAt": "2026-09-19T14:08:16.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The monsters that weren't: Dinosaur and tusked-beast claims in San rock art unravel",
+      "url": "https://phys.org/news/2026-09-monsters-werent-dinosaur-tusked-beast.html",
+      "summary": "For decades, an idea has grown in paleontology that, long before scientists began digging up and reconstructing dinosaur bones, the Indigenous San and Basotho in southern Africa noticed them too, incorporating them into …",
+      "ts": 1789826402000,
+      "publishedAt": "2026-09-19T14:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Rethinking how we assess students could improve their well-being",
@@ -92,6 +140,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Anti-thymocyte globulin triggers TNF-dependent cell death in T-cell acute lymphoblastic leukemia",
+      "url": "https://www.nature.com/articles/s41467-026-77027-9",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Virtual sensing to enable real-time monitoring of inaccessible locations &amp; unmeasurable parameters",
       "url": "https://www.nature.com/articles/s41467-026-77463-7",
       "summary": "",
@@ -124,8 +180,24 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems",
+      "url": "https://www.nature.com/articles/s41467-026-77768-7",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors",
       "url": "https://www.nature.com/articles/s41467-026-77985-0",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Dosing and delivery of bacteriophage therapy in a murine wound infection model",
+      "url": "https://www.nature.com/articles/s41467-026-77992-1",
       "summary": "",
       "ts": 1789776000000,
       "publishedAt": "2026-09-19T00:00:00.000Z"
@@ -727,78 +799,6 @@
       "title": "Experimental study of the impact dynamics of polymeric hollow droplets",
       "url": "https://arxiv.org/abs/2609.19667",
       "summary": "arXiv:2609.19667v1 Announce Type: new Abstract: The impact dynamics of hollow droplets, while influential in applications such as coating and spraying, remain less explored than their dense counterparts. In particular, t…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design and characterization of large-size monolithic layers of 3D-segmented plastic scintillator",
-      "url": "https://arxiv.org/abs/2609.19684",
-      "summary": "arXiv:2609.19684v1 Announce Type: new Abstract: Three-dimensional fine-grained plastic scintillator detectors are extensively used in high-energy physics experiments where particle tracking, identification, calorimetry a…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Voltage-Current-Emission Framework of Time-Resolved Electroluminescence",
-      "url": "https://arxiv.org/abs/2609.19723",
-      "summary": "arXiv:2609.19723v1 Announce Type: new Abstract: Time-resolved electroluminescence has been a central methodology in the development of LED devices. However, it still lacks quantitative theoretical descriptions of time-re…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Indirect-Drive Fusion Target Design for Commercial Fusion Energy",
-      "url": "https://arxiv.org/abs/2609.19752",
-      "summary": "arXiv:2609.19752v1 Announce Type: new Abstract: This paper presents the physics basis for commercially relevant laser indirect-drive (LID) (radiation-driven) inertial fusion energy (IFE) using a 10 MJ laser driver. To da…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rapidity-Coupled Spin Dynamics in Pulsed Laser Fields from Physics-Informed Neural Networks",
-      "url": "https://arxiv.org/abs/2609.19756",
-      "summary": "arXiv:2609.19756v1 Announce Type: new Abstract: Carrier-envelope-phase (CEP) stabilized few-cycle pulses make the sub-cycle field structure a control parameter for laser-driven polarized electron sources, yet spin solver…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aberration sensing in fluorescence microscopy using quantum correlations",
-      "url": "https://arxiv.org/abs/2609.19806",
-      "summary": "arXiv:2609.19806v1 Announce Type: new Abstract: Widefield fluorescence microscopy is an essential biological imaging tool, yet its penetration depth is fundamentally restricted by tissue-induced aberrations. Correcting t…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of multiphoton entanglement in resonance fluoresce",
-      "url": "https://arxiv.org/abs/2609.19808",
-      "summary": "arXiv:2609.19808v1 Announce Type: new Abstract: Resonance fluorescence, the process in which a single two-level quantum emitter interacts with a near-resonant coherent light, is a cornerstone of quantum optics as a parad…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exergy-Anergy Representation of Turbomachine Performance Characteristics",
-      "url": "https://arxiv.org/abs/2609.19816",
-      "summary": "arXiv:2609.19816v1 Announce Type: new Abstract: The performance synthesis calculation of aircraft engines relies on tabulated datasets for the simulation of the complex turbomachinery components at acceptable runtimes. T…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mixed-precision GPU algorithms for efficient turbulent flow simulations with Raviart-Thomas finite elements",
-      "url": "https://arxiv.org/abs/2609.19828",
-      "summary": "arXiv:2609.19828v1 Announce Type: new Abstract: We propose GPU algorithms for high-fidelity simulation of incompressible turbulent flows. Discretization in space is performed with H(div)-conforming high-order Raviart-Tho…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mo2TiC2Tx MXene Saturable Absorption for Neural Networks on a Chip",
-      "url": "https://arxiv.org/abs/2609.19849",
-      "summary": "arXiv:2609.19849v1 Announce Type: new Abstract: MXenes have attracted considerable interest for integrated nonlinear photonics owing to their broadband optical response and chemical tunability, yet investigations have fo…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
