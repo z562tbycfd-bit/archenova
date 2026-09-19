@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-19T00:46:13.897Z",
+  "updated": "2026-09-19T01:35:05.660Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Peer sexual harassment emerges early, highlighting need for prevention before Grade 4",
+      "url": "https://phys.org/news/2026-09-peer-sexual-emerges-early-highlighting.html",
+      "summary": "Sexual harassment between peers begins as early as Grade 4 and continues throughout lower secondary school. Most of those who sexually harass others have also experienced harassment themselves. These are among the findin…",
+      "ts": 1789779601000,
+      "publishedAt": "2026-09-19T01:00:01.000Z"
+    },
     {
       "source": "Nature Communications",
       "title": "Spatial partitioning of NSD2 defines H3K36me2 as an active mark for repetitive sequence activation",
@@ -791,14 +799,6 @@
       "title": "Unreported large errors from two PAMGuard three-dimensional localizers of whale calls",
       "url": "https://arxiv.org/abs/2609.20350",
       "summary": "arXiv:2609.20350v1 Announce Type: new Abstract: Confidence intervals of location (CIL) of calling marine mammals, derived from time-differences-of-arrival (TDOA) between receivers, depend on errors of TDOAs, receiver loc…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-dimensional vector waves in time-variant materials, with applications in time-reversed focusing and Green's function retrieval",
-      "url": "https://arxiv.org/abs/2609.20357",
-      "summary": "arXiv:2609.20357v1 Announce Type: new Abstract: The behavior of wave propagation and scattering in time-variant materials has been studied by many authors, for electromagnetic as well as for mechanical waves. Most studie…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
