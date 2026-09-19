@@ -48545,9 +48545,73 @@ i {
     none !important;
 }
 
+/* ==========================================================
+   6. CIVILIZATION SPACE
+   REMOVE INTERNAL VISUAL SURFACE
+   ----------------------------------------------------------
+   HOME section owns the only visible glass.
+
+   CivilizationSpacePortal itself remains transparent.
+
+   The fullscreen navigation transition is intentionally
+   excluded because it must expand beyond the HOME card.
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal,
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__card {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__card::before,
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__card::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
 
 /* ==========================================================
-   6. ARCHE NOVA VALLEY
+   7. ARCHE NOVA VALLEY
    REMOVE INTERNAL VISUAL SURFACE
 ========================================================== */
 
@@ -50753,6 +50817,512 @@ i {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   CIVILIZATION SPACE
+   OPTICAL SURFACE MERGE — FINAL
+
+   TARGET
+
+   HOME Black Glass
+   +
+   Civilization Portal
+
+   must visually read as ONE continuous surface.
+
+   The internal Portal structure may continue to exist,
+   but it must not create a second visible card,
+   density boundary, glass layer, or rectangular field.
+========================================================== */
+
+
+/* ==========================================================
+   1. OUTER HOME GLASS
+   ----------------------------------------------------------
+   The only visible material surface.
+========================================================== */
+
+.archenova-twin-home
+section#civilization-space[data-home-section] {
+  position: relative;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    )
+    !important;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius:
+    30px !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(255, 255, 255, 0.040),
+
+    inset
+    0
+    -1px
+    0
+    rgba(255, 255, 255, 0.010)
+    !important;
+
+  isolation: isolate;
+}
+
+
+/* ==========================================================
+   2. PORTAL ROOT
+   ----------------------------------------------------------
+   Structural container only.
+
+   No independent optical material.
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   3. INTERNAL SURFACE
+   ----------------------------------------------------------
+   IMPORTANT
+
+   The internal surface continues to exist structurally.
+
+   But because it contributes ZERO additional material,
+   the visible density is exactly the density of the
+   HOME Black Glass underneath it.
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__surface {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-color:
+    transparent !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   4. REMOVE INTERNAL FULL-SURFACE OPTICAL OVERLAY
+   ----------------------------------------------------------
+   This is important.
+
+   The current TSX creates a full-size ::before gradient.
+   Even with transparent __surface, that gradient changes
+   the apparent density of the internal rectangle.
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__surface::before,
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__surface::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  opacity:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   5. REMOVE RECTANGULAR AMBIENT FIELD
+   ----------------------------------------------------------
+   The Aperture itself remains untouched.
+
+   Only the full-card optical field is removed.
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__ambient {
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  opacity:
+    0 !important;
+}
+
+
+/* ==========================================================
+   6. REMOVE FULL-SURFACE GRID
+   ----------------------------------------------------------
+   The Civilization Aperture's own:
+   - orbit
+   - core
+   - connections
+   - nodes
+   - signals
+
+   remain intact.
+
+   Only the rectangular card-sized grid disappears.
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__grid {
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  background-image:
+    none !important;
+
+  opacity:
+    0 !important;
+
+  -webkit-mask-image:
+    none !important;
+
+  mask-image:
+    none !important;
+}
+
+
+/* ==========================================================
+   7. REMOVE FULL-SURFACE REFLECTION
+   ----------------------------------------------------------
+   Prevents one region of the internal rectangle from
+   acquiring a different density from the outer glass.
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__reflection {
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  opacity:
+    0 !important;
+
+  filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   8. LEGACY INTERNAL SURFACE GUARD
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__card,
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__experience {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-color:
+    transparent !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   9. LEGACY PSEUDO SURFACE GUARD
+========================================================== */
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__card::before,
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__card::after,
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__experience::before,
+
+.archenova-twin-home
+#civilization-space
+.an-civilization-space-portal__experience::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   10. MOBILE OUTER GLASS
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  section#civilization-space[data-home-section] {
+    background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      )
+      !important;
+
+    border:
+      1px solid
+      rgba(255, 255, 255, 0.060)
+      !important;
+
+    border-radius:
+      26px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px)
+      saturate(104%)
+      !important;
+
+    backdrop-filter:
+      blur(18px)
+      saturate(104%)
+      !important;
+
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.035),
+
+      inset
+      0
+      -1px
+      0
+      rgba(255, 255, 255, 0.008)
+      !important;
+  }
+
+
+  .archenova-twin-home
+  #civilization-space
+  .an-civilization-space-portal,
+
+  .archenova-twin-home
+  #civilization-space
+  .an-civilization-space-portal__surface,
+
+  .archenova-twin-home
+  #civilization-space
+  .an-civilization-space-portal__card,
+
+  .archenova-twin-home
+  #civilization-space
+  .an-civilization-space-portal__experience {
+    background:
+      transparent !important;
+
+    border:
+      0 !important;
+
+    outline:
+      0 !important;
+
+    box-shadow:
+      none !important;
+
+    -webkit-backdrop-filter:
+      none !important;
+
+    backdrop-filter:
+      none !important;
+  }
+
+
+  .archenova-twin-home
+  #civilization-space
+  .an-civilization-space-portal__ambient,
+
+  .archenova-twin-home
+  #civilization-space
+  .an-civilization-space-portal__grid,
+
+  .archenova-twin-home
+  #civilization-space
+  .an-civilization-space-portal__reflection {
+    display:
+      none !important;
+
+    background:
+      none !important;
+
+    background-image:
+      none !important;
+
+    opacity:
+      0 !important;
+
+    filter:
+      none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   11. SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .archenova-twin-home
+  section#civilization-space[data-home-section] {
+    border-radius:
+      22px !important;
+  }
+
+}
 
 
 

@@ -1,975 +1,1041 @@
 "use client";
 
-import type {
-  ReactNode,
-} from "react";
+import type { ReactNode } from "react";
+import Link from "next/link";
 
-import {
-  useRef,
-} from "react";
-
-import Link
-  from "next/link";
-
-import CivilizationLibrary
-  from "../components/CivilizationLibrary";
-
-import CivilizationIntelligencePortal
-  from "../components/CivilizationIntelligencePortal";
-
-import CivilizationExperiencePortal
-  from "../components/CivilizationExperiencePortal";
-
-import CivilizationRealizationPortal
-  from "../components/CivilizationRealizationPortal";
-
+import CivilizationRealizationPortal from "../components/CivilizationRealizationPortal";
+import ValleyProjectsReadOnly from "../components/valley/ValleyProjectsReadOnly";
 
 /* ==========================================================
    TYPES
 ========================================================== */
 
-type ValleyCategoryProps = {
-  code: string;
-
-  category: string;
-
-  question: string;
-
+type ImplementationDistrictProps = {
+  index: string;
+  eyebrow: string;
+  title: string;
   description: string;
-
-  children: ReactNode;
-};
-
-
-type ValleyCategoryItemProps = {
-  children: ReactNode;
-
+  question: string;
+  children?: ReactNode;
   className?: string;
 };
 
+type ArchitectureMetricProps = {
+  label: string;
+  value: string;
+  description: string;
+};
 
 /* ==========================================================
-   VALLEY CATEGORY
+   IMPLEMENTATION DISTRICT
 ========================================================== */
 
-function ValleyCategory({
-  code,
-  category,
-  question,
+function ImplementationDistrict({
+  index,
+  eyebrow,
+  title,
   description,
-  children,
-}: ValleyCategoryProps) {
-
-  const railRef =
-    useRef<HTMLDivElement | null>(
-      null,
-    );
-
-
-  function scrollRail(
-    direction:
-      | "left"
-      | "right",
-  ) {
-
-    const rail =
-      railRef.current;
-
-
-    if (
-      !rail
-    ) {
-      return;
-    }
-
-
-    const items =
-      Array.from(
-        rail.querySelectorAll<HTMLElement>(
-          ".an-valley-category__item",
-        ),
-      );
-
-
-    if (
-      items.length <=
-      1
-    ) {
-      return;
-    }
-
-
-    const railRect =
-      rail.getBoundingClientRect();
-
-
-    const currentIndex =
-      items.reduce(
-        (
-          closestIndex,
-          item,
-          index,
-        ) => {
-
-          const itemRect =
-            item.getBoundingClientRect();
-
-
-          const currentDistance =
-            Math.abs(
-              itemRect.left -
-              railRect.left,
-            );
-
-
-          const closestRect =
-            items[
-              closestIndex
-            ]
-              .getBoundingClientRect();
-
-
-          const closestDistance =
-            Math.abs(
-              closestRect.left -
-              railRect.left,
-            );
-
-
-          return currentDistance <
-            closestDistance
-            ? index
-            : closestIndex;
-
-        },
-        0,
-      );
-
-
-    const targetIndex =
-      direction ===
-      "right"
-        ? Math.min(
-            items.length -
-              1,
-            currentIndex +
-              1,
-          )
-        : Math.max(
-            0,
-            currentIndex -
-              1,
-          );
-
-
-    const target =
-      items[
-        targetIndex
-      ];
-
-
-    rail.scrollTo({
-      left:
-        target.offsetLeft,
-
-      behavior:
-        "smooth",
-    });
-  }
-
-
-  return (
-    <section className="an-valley-category">
-
-      {/* ==================================================
-          CATEGORY HEADER
-      ================================================== */}
-
-      <header className="an-valley-category__header">
-
-        <div className="an-valley-category__identity">
-
-          <span>
-            {code}
-          </span>
-
-          <strong>
-            {category}
-          </strong>
-
-        </div>
-
-
-        <div className="an-valley-category__purpose">
-
-          <h2>
-            {question}
-          </h2>
-
-          <p>
-            {description}
-          </p>
-
-        </div>
-
-
-        <div
-          className="an-valley-category__navigation"
-          aria-label={`${category} card navigation`}
-        >
-
-          <button
-            type="button"
-            className="
-              an-valley-category__nav
-              an-valley-category__nav--prev
-            "
-            onClick={() => {
-              scrollRail(
-                "left",
-              );
-            }}
-            aria-label={`Previous ${category} card`}
-          >
-            <span aria-hidden="true" />
-          </button>
-
-
-          <button
-            type="button"
-            className="
-              an-valley-category__nav
-              an-valley-category__nav--next
-            "
-            onClick={() => {
-              scrollRail(
-                "right",
-              );
-            }}
-            aria-label={`Next ${category} card`}
-          >
-            <span aria-hidden="true" />
-          </button>
-
-        </div>
-
-      </header>
-
-
-      {/* ==================================================
-          CATEGORY RAIL
-      ================================================== */}
-
-      <div
-        ref={
-          railRef
-        }
-        className="an-valley-category__rail"
-      >
-        {children}
-      </div>
-
-
-      {/* ==================================================
-          CATEGORY FOOTER
-      ================================================== */}
-
-      <footer
-        className="an-valley-category__footer"
-        aria-hidden="true"
-      >
-
-        <span>
-          REALITY
-        </span>
-
-        <i />
-
-        <span>
-          {category}
-        </span>
-
-        <i />
-
-        <span>
-          ARCHENOVA VALLEY
-        </span>
-
-      </footer>
-
-    </section>
-  );
-}
-
-
-/* ==========================================================
-   VALLEY CATEGORY ITEM
-========================================================== */
-
-function ValleyCategoryItem({
+  question,
   children,
   className = "",
-}: ValleyCategoryItemProps) {
+}: ImplementationDistrictProps) {
+  const id =
+    title.toLowerCase().replace(/\s+/g, "-");
 
   return (
-    <div
+    <section
+      id={id}
       className={[
-        "an-valley-category__item",
+        "an-valley-district",
         className,
       ]
         .filter(Boolean)
         .join(" ")}
     >
-      {children}
-    </div>
+      <header className="an-valley-district__header">
+        <div className="an-valley-district__identity">
+          <div className="an-valley-district__meta">
+            <span className="an-valley-district__number">
+              {index}
+            </span>
+
+            <i aria-hidden="true" />
+
+            <span>{eyebrow}</span>
+          </div>
+
+          <h2>{title}</h2>
+        </div>
+
+        <div className="an-valley-district__statement">
+          <strong>{question}</strong>
+          <p>{description}</p>
+        </div>
+      </header>
+
+      {children && (
+        <div className="an-valley-district__body">
+          {children}
+        </div>
+      )}
+    </section>
   );
 }
-
 
 /* ==========================================================
-   FUTURE SYSTEM
-
-   Reserved space for future dedicated components.
+   ARCHITECTURE METRIC
 ========================================================== */
 
-function ValleyFutureSystem({
-  eyebrow,
-  title,
+function ArchitectureMetric({
+  label,
+  value,
   description,
-}: {
-  eyebrow: string;
-
-  title: string;
-
-  description: string;
-}) {
-
+}: ArchitectureMetricProps) {
   return (
-    <div className="an-valley-future-system">
-
-      <span className="an-valley-future-system__eyebrow">
-        {eyebrow}
-      </span>
-
-
-      <h3>
-        {title}
-      </h3>
-
-
-      <p>
-        {description}
-      </p>
-
-
-      <div className="an-valley-future-system__status">
-
-        <i />
-
-        <span>
-          DISTRICT RESERVED
-        </span>
-
-      </div>
-
+    <div className="an-valley-metric">
+      <span>{label}</span>
+      <strong>{value}</strong>
+      <p>{description}</p>
     </div>
   );
 }
 
+/* ==========================================================
+   COMMERCIALIZATION
+
+   Presentation only.
+   No runtime commercialization state is inferred.
+========================================================== */
+
+function CommercializationDistrict() {
+  return (
+    <div className="an-valley-system an-valley-system--conditional">
+      <div className="an-valley-conditional">
+        <div className="an-valley-conditional__branch">
+          <span className="an-valley-kicker">
+            CONDITIONAL PATH
+          </span>
+
+          <strong className="an-valley-display">
+            Commercialization
+            <br />
+            is not universal.
+          </strong>
+
+          <p className="an-valley-copy">
+            Commercialization is entered only when
+            implementation requires an adoptable
+            delivery, demand, market, revenue, or
+            operating model. Projects that do not
+            require it continue directly toward
+            capital.
+          </p>
+        </div>
+
+        <div
+          className="an-valley-conditional__diagram"
+          aria-label="Conditional commercialization path"
+        >
+          <div className="an-valley-conditional__source">
+            <span>PROJECT</span>
+          </div>
+
+          <div className="an-valley-conditional__routes">
+            <div className="an-valley-conditional__route">
+              <small>REQUIRED</small>
+              <i aria-hidden="true" />
+              <strong>COMMERCIALIZATION</strong>
+              <i aria-hidden="true" />
+              <span>CAPITAL</span>
+            </div>
+
+            <div className="an-valley-conditional__route">
+              <small>NOT REQUIRED</small>
+              <i aria-hidden="true" />
+              <strong>DIRECT</strong>
+              <i aria-hidden="true" />
+              <span>CAPITAL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ==========================================================
+   CAPITAL
+========================================================== */
+
+function CapitalDistrict() {
+  return (
+    <div className="an-valley-system">
+      <div className="an-valley-system__architecture">
+        <div className="an-valley-system__primary">
+          <span className="an-valley-kicker">
+            CAPITAL ARCHITECTURE
+          </span>
+
+          <strong className="an-valley-display">
+            Bound resources
+            <br />
+            before scale.
+          </strong>
+
+          <p className="an-valley-copy">
+            Capital is treated as implementation
+            structure rather than permission to
+            expand. Cost, runway, contingency,
+            capital at risk, first loss, liability,
+            funding sources, and failure boundaries
+            must remain visible.
+          </p>
+        </div>
+
+        <div className="an-valley-system__metrics">
+          <ArchitectureMetric
+            label="READINESS"
+            value="EVIDENCE"
+            description="Readiness depends on supported claims, not presentation."
+          />
+
+          <ArchitectureMetric
+            label="RISK"
+            value="BOUNDED"
+            description="Capital exposure and failure boundaries remain explicit."
+          />
+
+          <ArchitectureMetric
+            label="LIABILITY"
+            value="ASSIGNED"
+            description="Responsibility cannot disappear behind financing structure."
+          />
+        </div>
+      </div>
+
+      <div className="an-valley-system__flow">
+        <span>PROJECT</span>
+        <i aria-hidden="true" />
+        <strong>CAPITAL</strong>
+        <i aria-hidden="true" />
+        <span>GOVERNANCE GATE</span>
+      </div>
+    </div>
+  );
+}
+
+/* ==========================================================
+   GOVERNANCE GATE
+========================================================== */
+
+function GovernanceGateDistrict() {
+  const decisions = [
+    {
+      decision: "PASS",
+      description: "Requirements support advancement.",
+    },
+    {
+      decision: "CONDITIONAL",
+      description:
+        "Advancement remains bound to explicit conditions.",
+    },
+    {
+      decision: "HOLD",
+      description:
+        "Execution pauses without destroying state or history.",
+    },
+    {
+      decision: "REVISE",
+      description:
+        "The implementation must return for correction.",
+    },
+    {
+      decision: "STOP",
+      description:
+        "The execution path does not advance.",
+    },
+  ];
+
+  return (
+    <div className="an-valley-system">
+      <div className="an-valley-governance">
+        <div className="an-valley-governance__intro">
+          <span className="an-valley-kicker">
+            RESPONSIBILITY GATE
+          </span>
+
+          <strong className="an-valley-display">
+            Authority does not
+            <br />
+            emerge from capability.
+          </strong>
+
+          <p className="an-valley-copy">
+            Deployment requires an explicit governance
+            decision. Evidence and analysis may support
+            that decision, but they do not grant
+            themselves authority to approve execution.
+          </p>
+        </div>
+
+        <div className="an-valley-governance__decisions">
+          {decisions.map((item, index) => (
+            <div
+              key={item.decision}
+              className="an-valley-governance__decision"
+            >
+              <span className="an-valley-governance__decision-index">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+
+              <strong>{item.decision}</strong>
+
+              <p>{item.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="an-valley-governance__principle">
+          <span>DECISION SUPPORT</span>
+          <i aria-hidden="true" />
+          <strong>≠</strong>
+          <i aria-hidden="true" />
+          <span>DECISION AUTHORITY</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ==========================================================
+   DEPLOYMENT
+========================================================== */
+
+function DeploymentDistrict() {
+  const outcomes = [
+    "ACCEPT",
+    "CORRECT",
+    "RECOVER",
+    "REDESIGN",
+    "SUSPEND",
+    "TERMINATE",
+  ];
+
+  return (
+    <div className="an-valley-system an-valley-system--deployment">
+      <div className="an-valley-deployment">
+        <div className="an-valley-deployment__header">
+          <div>
+            <span className="an-valley-kicker">
+              REALITY BOUNDARY
+            </span>
+
+            <strong className="an-valley-display">
+              Deployment
+              <br />
+              is not success.
+            </strong>
+          </div>
+
+          <p className="an-valley-copy">
+            Deployment creates contact with operating
+            reality. Expected state and observed state
+            remain distinct until explicit observation
+            produces evidence of what actually occurred.
+          </p>
+        </div>
+
+        <div className="an-valley-deployment__reality">
+          <div className="an-valley-deployment__state">
+            <span>EXPECTED REALITY</span>
+            <strong>EXPECTED STATE</strong>
+            <small>BEFORE OBSERVATION</small>
+          </div>
+
+          <div className="an-valley-deployment__crossing">
+            <span>DEPLOY</span>
+            <i aria-hidden="true" />
+            <strong>REALITY</strong>
+            <i aria-hidden="true" />
+            <span>OBSERVE</span>
+          </div>
+
+          <div className="an-valley-deployment__state">
+            <span>OBSERVED REALITY</span>
+            <strong>OBSERVED STATE</strong>
+            <small>AFTER REALITY CONTACT</small>
+          </div>
+        </div>
+
+        <div className="an-valley-deployment__delta">
+          <span>ΔREALITY</span>
+
+          <i aria-hidden="true" />
+
+          <div>
+            {outcomes.map((outcome) => (
+              <strong key={outcome}>
+                {outcome}
+              </strong>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ==========================================================
+   REALITY / LEARNING
+========================================================== */
+
+function RealityLearningDistrict() {
+  const stages = [
+    "DEPLOYMENT",
+    "OBSERVATION",
+    "EVIDENCE",
+    "FEEDBACK",
+    "LEARNING",
+  ];
+
+  const principles = [
+    "REALITY",
+    "EVIDENCE",
+    "AUTHORITY",
+    "CORRECTABILITY",
+    "HISTORY",
+  ];
+
+  return (
+    <section
+      id="reality"
+      className="an-valley-reality"
+    >
+      <div
+        className="an-valley-reality__horizon"
+        aria-hidden="true"
+      />
+
+      <div className="an-valley-reality__content">
+        <span className="an-valley-reality__eyebrow">
+          REALITY RETAINS VETO
+        </span>
+
+        <h2>
+          Reality
+          <br />
+          closes the loop.
+        </h2>
+
+        <p>
+          Implementation becomes knowledge only when
+          observed reality can challenge expectations,
+          expose contradiction, trigger correction,
+          preserve history, and return evidence upstream.
+        </p>
+
+        <div className="an-valley-reality__loop">
+          {stages.map((stage, index) => (
+            <div
+              key={stage}
+              className="an-valley-reality__loop-step"
+            >
+              <span className="an-valley-reality__loop-number">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+
+              <strong>{stage}</strong>
+            </div>
+          ))}
+
+          <strong className="an-valley-reality__return-symbol">
+            ↺
+          </strong>
+        </div>
+
+        <div className="an-valley-reality__constitution">
+          {principles.map((principle) => (
+            <span key={principle}>
+              {principle}
+            </span>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
 
 /* ==========================================================
    ARCHENOVA VALLEY
 ========================================================== */
 
 export default function ArcheNovaValleyPage() {
+  const implementationStages = [
+    {
+      index: "01",
+      title: "REALIZATION",
+      href: "#realization",
+    },
+    {
+      index: "02",
+      title: "PROJECTS",
+      href: "#projects",
+    },
+    {
+      index: "03",
+      title: "COMMERCIALIZATION",
+      href: "#commercialization",
+      conditional: true,
+    },
+    {
+      index: "04",
+      title: "CAPITAL",
+      href: "#capital",
+    },
+    {
+      index: "05",
+      title: "GOVERNANCE",
+      href: "#governance",
+    },
+    {
+      index: "06",
+      title: "DEPLOYMENT",
+      href: "#deployment",
+    },
+  ];
 
   return (
     <main className="an-valley">
+      {/* ==================================================
+          PAGE-WIDE COSMIC ENVIRONMENT
+      ================================================== */}
+
+      <div
+        className="an-valley-city"
+        aria-hidden="true"
+      >
+        <div className="an-valley-city__stars" />
+        <div className="an-valley-city__horizon" />
+
+        <div className="an-valley-city__left">
+          <i />
+          <i />
+          <i />
+          <i />
+        </div>
+
+        <div className="an-valley-city__right">
+          <i />
+          <i />
+          <i />
+          <i />
+        </div>
+
+        <div className="an-valley-city__spine" />
+      </div>
 
       {/* ==================================================
-          VALLEY HERO
+          HERO
       ================================================== */}
 
       <section
         className="an-valley__hero"
-        aria-labelledby="an-valley-page-title"
+        aria-labelledby="an-valley-title"
       >
-
-        {/* AMBIENT */}
-
-        <div
-          className="an-valley__hero-ambient"
-          aria-hidden="true"
-        />
-
-        <div
-          className="an-valley__hero-grid"
-          aria-hidden="true"
-        />
-
-
-        {/* TOP */}
-
         <header className="an-valley__top">
-
           <Link
             href="/home"
             className="an-valley__back"
           >
             <span
-              aria-hidden="true"
               className="an-valley__back-arrow"
+              aria-hidden="true"
             />
 
-            <span>
-              ARCHENOVA
-            </span>
+            <span>ARCHENOVA</span>
           </Link>
 
+          <div className="an-valley__environment">
+            <i aria-hidden="true" />
 
-          <div className="an-valley__status">
-
-            <i />
-
-            <span>
-              VALLEY ACTIVE
-            </span>
-
+            <span>IMPLEMENTATION ENVIRONMENT</span>
           </div>
-
         </header>
 
-
-        {/* HERO CONTENT */}
-
         <div className="an-valley__hero-content">
-
           <span className="an-valley__hero-eyebrow">
-            REALITY → CIVILIZATION
+            CIVILIZATION IMPLEMENTATION
           </span>
 
-
-          <h1 id="an-valley-page-title">
+          <h1 id="an-valley-title">
             ArcheNova
             <br />
             Valley
           </h1>
 
-
           <p className="an-valley__hero-statement">
-            Where knowledge becomes reality.
+            Build what can survive reality.
           </p>
-
 
           <p className="an-valley__hero-description">
-            A civilization implementation ecosystem
-            connecting knowledge, intelligence,
-            engineering, projects, capital,
-            governance, deployment, and human
-            experience.
+            A civilization implementation environment
+            where validated knowledge is transformed
+            into bounded projects, capital,
+            responsibility, deployment, evidence,
+            correction, and durable learning.
           </p>
-
         </div>
-
 
         {/* ==================================================
-            VALLEY FLOW
+            EXECUTION MAP
         ================================================== */}
 
-        <div
-          className="an-valley__flow"
-          aria-label="ArcheNova Valley civilization flow"
+        <nav
+          className="an-valley__map"
+          aria-label="ArcheNova Valley implementation sequence"
         >
+          {implementationStages.map((stage) => (
+            <a
+              key={stage.index}
+              href={stage.href}
+              className={
+                stage.conditional
+                  ? "is-conditional"
+                  : ""
+              }
+            >
+              <small>{stage.index}</small>
 
-          <div className="an-valley__flow-line" />
+              <i aria-hidden="true" />
 
+              <strong>{stage.title}</strong>
 
-          <a
-            href="#knowledge"
-            className="
-              an-valley__flow-node
-              an-valley__flow-node--knowledge
-            "
-          >
-            <i />
-
-            <span>
-              01
-            </span>
-
-            <strong>
-              KNOWLEDGE
-            </strong>
-          </a>
-
-
-          <a
-            href="#intelligence"
-            className="
-              an-valley__flow-node
-              an-valley__flow-node--intelligence
-            "
-          >
-            <i />
-
-            <span>
-              02
-            </span>
-
-            <strong>
-              INTELLIGENCE
-            </strong>
-          </a>
-
-
-          <a
-            href="#implementation"
-            className="
-              an-valley__flow-node
-              an-valley__flow-node--implementation
-            "
-          >
-            <i />
-
-            <span>
-              03
-            </span>
-
-            <strong>
-              IMPLEMENTATION
-            </strong>
-          </a>
-
-
-          <a
-            href="#governance"
-            className="
-              an-valley__flow-node
-              an-valley__flow-node--governance
-            "
-          >
-            <i />
-
-            <span>
-              04
-            </span>
-
-            <strong>
-              GOVERNANCE
-            </strong>
-          </a>
-
-
-          <a
-            href="#experience"
-            className="
-              an-valley__flow-node
-              an-valley__flow-node--experience
-            "
-          >
-            <i />
-
-            <span>
-              05
-            </span>
-
-            <strong>
-              EXPERIENCE
-            </strong>
-          </a>
-
-        </div>
-
+              {stage.conditional && (
+                <span>CONDITIONAL</span>
+              )}
+            </a>
+          ))}
+        </nav>
 
         <div className="an-valley__hero-footer">
+          <span>KNOWLEDGE</span>
+          <i aria-hidden="true" />
+          <span>CAPABILITY</span>
+          <i aria-hidden="true" />
+          <span>RESPONSIBILITY</span>
+          <i aria-hidden="true" />
+          <span>REALITY</span>
+        </div>
+      </section>
 
-          <span>
-            REALITY
-          </span>
+      {/* ==================================================
+          IMPLEMENTATION
+      ================================================== */}
 
-          <i />
+      <section
+        className="an-valley__implementation"
+        aria-label="ArcheNova Valley implementation districts"
+      >
+        <div className="an-valley__implementation-head">
+          <span>IMPLEMENTATION</span>
 
-          <span>
-            KNOWLEDGE
-          </span>
+          <h2>
+            From possibility
+            <br />
+            to reality.
+          </h2>
 
-          <i />
-
-          <span>
-            CAPABILITY
-          </span>
-
-          <i />
-
-          <span>
-            CIVILIZATION
-          </span>
-
+          <p>
+            Each district represents a distinct
+            execution boundary. Advancement does not
+            imply truth, approval, success, or
+            permanence. Reality and explicit authority
+            remain capable of stopping the process.
+          </p>
         </div>
 
-      </section>
-
-
-      {/* ==================================================
-          01
-          KNOWLEDGE
-      ================================================== */}
-
-      <section
-        id="knowledge"
-        className="
-          an-valley__district
-          an-valley__district--knowledge
-        "
-      >
-
-        <ValleyCategory
-          code="01"
-          category="KNOWLEDGE"
-          question="What has been established?"
-          description="Preserve reproducible evidence, research, records, and validated knowledge that can remain independently accessible and reconstructable."
+        <ImplementationDistrict
+          index="01"
+          eyebrow="KNOWLEDGE → CAPABILITY"
+          title="Realization"
+          question="What minimum structure would make it real?"
+          description="Transform validated research into reproducible knowledge, minimum causal structure, implementable capability, correctable deployment, and durable value."
+          className="an-valley-district--realization"
         >
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--library
-            "
-          >
-            <CivilizationLibrary />
-          </ValleyCategoryItem>
-
-        </ValleyCategory>
-
-      </section>
-
-
-      {/* ==================================================
-          02
-          INTELLIGENCE
-      ================================================== */}
-
-      <section
-        id="intelligence"
-        className="
-          an-valley__district
-          an-valley__district--intelligence
-        "
-      >
-
-        <ValleyCategory
-          code="02"
-          category="INTELLIGENCE"
-          question="What does it mean?"
-          description="Transform evidence and changing signals into structured understanding of capability, risk, infrastructure, coordination, and future trajectories."
-        >
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--intelligence
-            "
-          >
-            <CivilizationIntelligencePortal />
-          </ValleyCategoryItem>
-
-        </ValleyCategory>
-
-      </section>
-
-
-      {/* ==================================================
-          03
-          IMPLEMENTATION
-
-          Realization
-          → Projects
-          → Commercialization
-          → Capital
-          → Governance
-          → Deployment
-      ================================================== */}
-
-      <section
-        id="implementation"
-        className="
-          an-valley__district
-          an-valley__district--implementation
-        "
-      >
-
-        <ValleyCategory
-          code="03"
-          category="IMPLEMENTATION"
-          question="How does knowledge become reality?"
-          description="Move validated knowledge through realization, projects, commercialization, capital, governance, and deployment until capability can survive real-world use without losing responsibility or correctability."
-        >
-
-          {/* =============================================
-              01 / REALIZATION
-          ============================================= */}
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--implementation
-              an-valley-category__item--realization
-            "
-          >
+          <div className="an-valley-realization-portal">
             <CivilizationRealizationPortal />
-          </ValleyCategoryItem>
+          </div>
+        </ImplementationDistrict>
 
+        <ImplementationDistrict
+          index="02"
+          eyebrow="PROJECT FORMATION"
+          title="Projects"
+          question="What exactly will be built?"
+          description="Convert realizable capability into explicit execution objects whose objectives, requirements, resources, milestones, risks, failure criteria, and exit conditions remain inspectable."
+        >
+          <ValleyProjectsReadOnly />
+        </ImplementationDistrict>
 
-          {/* =============================================
-              02 / PROJECTS
-          ============================================= */}
+        <ImplementationDistrict
+          index="03"
+          eyebrow="CONDITIONAL VALUE PATH"
+          title="Commercialization"
+          question="Does implementation require a market path?"
+          description="Commercialization is conditional rather than universal. It exists only when adoption, delivery, demand, revenue, manufacturing, or sustainable operation are necessary to implementation."
+          className="an-valley-district--conditional"
+        >
+          <CommercializationDistrict />
+        </ImplementationDistrict>
 
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--implementation
-              an-valley-category__item--projects
-            "
-          >
+        <ImplementationDistrict
+          index="04"
+          eyebrow="CAPITAL ARCHITECTURE"
+          title="Capital"
+          question="What resources may responsibly be placed at risk?"
+          description="Structure implementation resources while keeping capital exposure, first loss, liability, funding sources, contingency, and failure boundaries explicit."
+        >
+          <CapitalDistrict />
+        </ImplementationDistrict>
 
-            <ValleyFutureSystem
-              eyebrow="02 · PROJECT FORMATION"
-              title="Projects"
-              description="Convert realizable capability into concrete projects with defined objectives, sites, stakeholders, resources, timelines, technical milestones, and measurable success conditions."
-            />
+        <ImplementationDistrict
+          index="05"
+          eyebrow="RESPONSIBILITY GATE"
+          title="Governance"
+          question="Under what explicit authority may it advance?"
+          description="The implementation-level Governance Gate determines whether a specific execution path may proceed toward deployment. It is distinct from civilization-scale governance."
+        >
+          <GovernanceGateDistrict />
+        </ImplementationDistrict>
 
-          </ValleyCategoryItem>
-
-
-          {/* =============================================
-              03 / COMMERCIALIZATION
-          ============================================= */}
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--implementation
-              an-valley-category__item--commercialization
-            "
-          >
-
-            <ValleyFutureSystem
-              eyebrow="03 · VALUE FORMATION"
-              title="Commercialization"
-              description="Determine whether a validated capability can become an adoptable product, service, platform, or infrastructure with real demand, viable economics, manufacturing, and sustainable operation."
-            />
-
-          </ValleyCategoryItem>
-
-
-          {/* =============================================
-              04 / CAPITAL
-          ============================================= */}
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--implementation
-              an-valley-category__item--capital
-            "
-          >
-
-            <ValleyFutureSystem
-              eyebrow="04 · CAPITAL ARCHITECTURE"
-              title="Capital"
-              description="Structure the resources required for implementation while defining who bears risk, who absorbs failure, how capital remains accountable, and what conditions justify continued investment."
-            />
-
-          </ValleyCategoryItem>
-
-
-          {/* =============================================
-              05 / GOVERNANCE
-          ============================================= */}
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--implementation
-              an-valley-category__item--implementation-governance
-            "
-          >
-
-            <ValleyFutureSystem
-              eyebrow="05 · RESPONSIBILITY GATE"
-              title="Governance"
-              description="Define the authority, accountability, constraints, correction capacity, recovery pathways, and responsibility required before implementation may expand in scale."
-            />
-
-          </ValleyCategoryItem>
-
-
-          {/* =============================================
-              06 / DEPLOYMENT
-          ============================================= */}
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--implementation
-              an-valley-category__item--deployment
-            "
-          >
-
-            <ValleyFutureSystem
-              eyebrow="06 · REAL-WORLD OPERATION"
-              title="Deployment"
-              description="Test whether the implemented system remains reliable, useful, correctable, maintainable, and valuable under real operating conditions before it becomes durable infrastructure."
-            />
-
-          </ValleyCategoryItem>
-
-        </ValleyCategory>
-
+        <ImplementationDistrict
+          index="06"
+          eyebrow="REAL-WORLD OPERATION"
+          title="Deployment"
+          question="What does reality actually permit?"
+          description="Move approved implementation into explicit contact with operating reality while preserving observation, correction, recovery, suspension, termination, and evidence feedback."
+        >
+          <DeploymentDistrict />
+        </ImplementationDistrict>
       </section>
 
-
       {/* ==================================================
-          04
-          GOVERNANCE
+          REALITY / FEEDBACK / LEARNING
       ================================================== */}
 
-      <section
-        id="governance"
-        className="
-          an-valley__district
-          an-valley__district--governance
-        "
-      >
-
-        <ValleyCategory
-          code="04"
-          category="GOVERNANCE"
-          question="Under what responsibility may it scale?"
-          description="Define the authority, accountability, institutional constraints, correction capacity, recovery pathways, and conditions under which civilization-scale capability may legitimately persist and expand."
-        >
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--governance
-            "
-          >
-
-            <ValleyFutureSystem
-              eyebrow="RESPONSIBILITY ARCHITECTURE"
-              title="Civilization Governance"
-              description="Define responsibility, authority, institutional constraints, correction, recovery, and the conditions under which civilization-scale capability may legitimately acquire durable power."
-            />
-
-          </ValleyCategoryItem>
-
-        </ValleyCategory>
-
-      </section>
-
+      <RealityLearningDistrict />
 
       {/* ==================================================
-          05
-          EXPERIENCE
-      ================================================== */}
-
-      <section
-        id="experience"
-        className="
-          an-valley__district
-          an-valley__district--experience
-        "
-      >
-
-        <ValleyCategory
-          code="05"
-          category="EXPERIENCE"
-          question="How can humans encounter it?"
-          description="Transform validated capability into accessible interaction, exploration, participation, and direct human experience."
-        >
-
-          <ValleyCategoryItem
-            className="
-              an-valley-category__item--experience
-            "
-          >
-            <CivilizationExperiencePortal />
-          </ValleyCategoryItem>
-
-        </ValleyCategory>
-
-      </section>
-
-
-      {/* ==================================================
-          CIVILIZATION TERMINUS
+          TERMINUS
       ================================================== */}
 
       <section className="an-valley__terminus">
-
-        <span className="an-valley__terminus-eyebrow">
-          REALITY → CIVILIZATION
-        </span>
-
+        <span>ARCHENOVA VALLEY</span>
 
         <h2>
-          Build what can
+          Implementation
           <br />
-          survive reality.
+          remains answerable
+          <br />
+          to reality.
         </h2>
 
-
         <p>
-          Knowledge becomes consequential only when
-          it can be transformed into capability,
-          governed under responsibility, corrected
-          under failure, and preserved as durable
-          human value.
+          Reality retains veto. Evidence constrains
+          claims. Authority constrains mutation.
+          Correctability constrains scale. History
+          remains inspectable.
         </p>
-
 
         <Link
           href="/home"
           className="an-valley__return"
         >
-          <span>
-            Return to ArcheNova
-          </span>
-
+          <span>RETURN TO ARCHENOVA</span>
           <i aria-hidden="true" />
         </Link>
-
       </section>
 
-
       {/* ==================================================
-          GLOBAL PAGE STYLES
+          FULL-VIEWPORT PRESENTATION
       ================================================== */}
 
       <style jsx global>{`
-
         html {
           scroll-behavior: smooth;
         }
 
-
         body {
-          background: #000;
+          background: #020304;
         }
 
-
-        /* ==================================================
-           PAGE
-        ================================================== */
+        .an-valley,
+        .an-valley *,
+        .an-valley *::before,
+        .an-valley *::after {
+          box-sizing: border-box;
+        }
 
         .an-valley {
+          --valley-gutter: clamp(24px, 5vw, 112px);
+          --valley-line: rgba(226, 236, 242, 0.12);
+          --valley-muted: rgba(224, 234, 240, 0.57);
+          --valley-soft: rgba(224, 234, 240, 0.38);
+
           position: relative;
+          isolation: isolate;
 
           width: 100%;
+          min-width: 0;
+          min-height: 100svh;
 
-          min-height: 100vh;
+          overflow: clip;
 
-          overflow: hidden;
+          color: #f5f8fa;
 
           background:
-            #000;
-
-          color:
-            #fff;
+            radial-gradient(
+              ellipse at 50% 5%,
+              rgba(137, 169, 185, 0.09),
+              transparent 29%
+            ),
+            linear-gradient(
+              180deg,
+              #050709 0%,
+              #030506 40%,
+              #010203 100%
+            );
         }
 
+        .an-valley a {
+          -webkit-tap-highlight-color: transparent;
+        }
+
+        .an-valley a:focus-visible {
+          outline: 1px solid rgba(240, 248, 252, 0.85);
+          outline-offset: 6px;
+        }
+
+        /* ==================================================
+           PAGE-WIDE COSMIC CITY
+
+           Fixed background stays behind every district.
+           Content scrolls normally above it.
+        ================================================== */
+
+        .an-valley-city {
+          position: fixed;
+          inset: 0;
+          z-index: -1;
+
+          width: 100%;
+          height: 100svh;
+
+          overflow: hidden;
+          pointer-events: none;
+
+          background:
+            radial-gradient(
+              ellipse at 50% 88%,
+              rgba(135, 164, 178, 0.1),
+              transparent 48%
+            ),
+            linear-gradient(
+              180deg,
+              #05080b 0%,
+              #030506 55%,
+              #010203 100%
+            );
+        }
+
+        .an-valley-city__stars {
+          position: absolute;
+          inset: 0;
+
+          opacity: 0.75;
+
+          background-image:
+            radial-gradient(
+              circle at 12% 16%,
+              rgba(255,255,255,.52) 0 .7px,
+              transparent 1px
+            ),
+            radial-gradient(
+              circle at 78% 12%,
+              rgba(255,255,255,.42) 0 .6px,
+              transparent 1px
+            ),
+            radial-gradient(
+              circle at 39% 27%,
+              rgba(255,255,255,.36) 0 .7px,
+              transparent 1px
+            ),
+            radial-gradient(
+              circle at 92% 39%,
+              rgba(255,255,255,.3) 0 .6px,
+              transparent 1px
+            ),
+            radial-gradient(
+              circle at 25% 73%,
+              rgba(255,255,255,.28) 0 .6px,
+              transparent 1px
+            ),
+            radial-gradient(
+              circle at 69% 65%,
+              rgba(255,255,255,.25) 0 .6px,
+              transparent 1px
+            );
+        }
+
+        .an-valley-city__horizon {
+          position: absolute;
+          left: 50%;
+          bottom: 12%;
+
+          width: 125vw;
+          height: 38%;
+
+          transform: translateX(-50%);
+
+          border-bottom:
+            1px solid rgba(220, 236, 244, 0.12);
+
+          border-radius: 0 0 50% 50%;
+
+          background:
+            radial-gradient(
+              ellipse at 50% 100%,
+              rgba(179, 208, 223, 0.13),
+              transparent 55%
+            );
+        }
+
+        .an-valley-city__left,
+        .an-valley-city__right {
+          position: absolute;
+          bottom: 0;
+
+          width: 36%;
+          height: 53%;
+
+          opacity: 0.7;
+        }
+
+        .an-valley-city__left {
+          left: -3%;
+          transform: perspective(900px) rotateY(10deg);
+        }
+
+        .an-valley-city__right {
+          right: -3%;
+          transform: perspective(900px) rotateY(-10deg);
+        }
+
+        .an-valley-city__left i,
+        .an-valley-city__right i {
+          position: absolute;
+          bottom: 0;
+          display: block;
+
+          border:
+            1px solid rgba(213, 234, 244, 0.09);
+
+          background:
+            linear-gradient(
+              180deg,
+              rgba(181, 210, 225, 0.06),
+              rgba(8, 13, 17, 0.2) 42%,
+              rgba(0, 0, 0, 0.56)
+            );
+
+          box-shadow:
+            inset 0 1px 0 rgba(230, 244, 250, 0.045);
+        }
+
+        .an-valley-city__left i:nth-child(1),
+        .an-valley-city__right i:nth-child(1) {
+          left: 2%;
+          width: 15%;
+          height: 47%;
+        }
+
+        .an-valley-city__left i:nth-child(2),
+        .an-valley-city__right i:nth-child(2) {
+          left: 20%;
+          width: 22%;
+          height: 73%;
+        }
+
+        .an-valley-city__left i:nth-child(3),
+        .an-valley-city__right i:nth-child(3) {
+          left: 46%;
+          width: 16%;
+          height: 39%;
+        }
+
+        .an-valley-city__left i:nth-child(4),
+        .an-valley-city__right i:nth-child(4) {
+          left: 67%;
+          width: 27%;
+          height: 86%;
+        }
+
+        .an-valley-city__spine {
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+
+          width: 1px;
+          height: 63%;
+
+          background:
+            linear-gradient(
+              180deg,
+              transparent,
+              rgba(227, 242, 250, 0.18),
+              rgba(227, 242, 250, 0.035)
+            );
+
+          box-shadow:
+            0 0 36px rgba(215, 235, 246, 0.11);
+        }
+
+        /* ==================================================
+           SHARED TYPOGRAPHY
+        ================================================== */
+
+        .an-valley-kicker {
+          display: block;
+
+          color: var(--valley-muted);
+          font-size: 11px;
+          font-weight: 550;
+          letter-spacing: 0.17em;
+        }
+
+        .an-valley-display {
+          display: block;
+
+          margin-top: 22px;
+
+          color: rgba(250, 252, 253, 0.96);
+
+          font-size: clamp(40px, 4.4vw, 86px);
+          font-weight: 280;
+          line-height: 1.03;
+          letter-spacing: -0.055em;
+          overflow-wrap: anywhere;
+        }
+
+        .an-valley-copy {
+          max-width: 67ch;
+
+          margin: 25px 0 0;
+
+          color: var(--valley-muted);
+          font-size: clamp(14px, 1vw, 17px);
+          line-height: 1.8;
+        }
 
         /* ==================================================
            HERO
@@ -978,1402 +1044,1100 @@ export default function ArcheNovaValleyPage() {
         .an-valley__hero {
           position: relative;
 
-          isolation: isolate;
-
           min-height: 100svh;
 
           display: grid;
+          grid-template-rows: auto 1fr auto auto;
 
-          grid-template-rows:
-            auto
-            1fr
-            auto
-            auto;
-
-          overflow: hidden;
+          gap: clamp(28px, 5vh, 70px);
 
           padding:
-            clamp(
-              24px,
-              4vw,
-              54px
-            )
-            clamp(
-              20px,
-              6vw,
-              90px
-            )
-            clamp(
-              24px,
-              4vw,
-              48px
-            );
-
-          background:
-            radial-gradient(
-              ellipse
-              at
-              50%
-              58%,
-              rgba(
-                193,
-                208,
-                215,
-                0.055
-              ),
-              transparent
-              25%
-            ),
-
-            radial-gradient(
-              ellipse
-              at
-              50%
-              100%,
-              rgba(
-                73,
-                86,
-                93,
-                0.07
-              ),
-              transparent
-              48%
-            ),
-
-            linear-gradient(
-              180deg,
-              #070809,
-              #020303
-              46%,
-              #000
-            );
+            clamp(28px, 4vh, 56px)
+            var(--valley-gutter)
+            clamp(32px, 5vh, 64px);
         }
-
-
-        .an-valley__hero-ambient {
-          position: absolute;
-
-          inset: 0;
-
-          z-index: -4;
-
-          pointer-events: none;
-
-          background:
-            radial-gradient(
-              circle
-              at
-              50%
-              49%,
-              rgba(
-                231,
-                237,
-                239,
-                0.035
-              ),
-              transparent
-              17%
-            );
-        }
-
-
-        .an-valley__hero-grid {
-          position: absolute;
-
-          inset: 0;
-
-          z-index: -3;
-
-          opacity: 0.06;
-
-          pointer-events: none;
-
-          background-image:
-            linear-gradient(
-              rgba(
-                255,
-                255,
-                255,
-                0.024
-              )
-              1px,
-              transparent
-              1px
-            ),
-
-            linear-gradient(
-              90deg,
-              rgba(
-                255,
-                255,
-                255,
-                0.024
-              )
-              1px,
-              transparent
-              1px
-            );
-
-          background-size:
-            72px
-            72px;
-
-          -webkit-mask-image:
-            radial-gradient(
-              ellipse
-              at
-              center,
-              black,
-              transparent
-              76%
-            );
-
-          mask-image:
-            radial-gradient(
-              ellipse
-              at
-              center,
-              black,
-              transparent
-              76%
-            );
-        }
-
-
-        /* ==================================================
-           HERO TOP
-        ================================================== */
 
         .an-valley__top {
-          position: relative;
-
-          z-index: 10;
-
           display: flex;
-
           align-items: center;
-
-          justify-content:
-            space-between;
-
-          gap: 24px;
+          justify-content: space-between;
+          gap: 20px;
         }
-
 
         .an-valley__back {
           display: inline-flex;
-
           align-items: center;
+          gap: 14px;
 
-          gap: 12px;
-
-          color:
-            rgba(
-              239,
-              244,
-              246,
-              0.45
-            );
-
+          color: rgba(241, 248, 251, 0.75);
           text-decoration: none;
 
-          font-size: 7px;
+          font-size: 11px;
+          font-weight: 550;
+          letter-spacing: 0.17em;
 
-          font-weight: 620;
-
-          letter-spacing:
-            0.19em;
-
-          transition:
-            color
-            0.3s ease;
+          transition: color 0.25s ease;
         }
-
 
         .an-valley__back:hover {
-          color:
-            rgba(
-              245,
-              248,
-              249,
-              0.82
-            );
+          color: #fff;
         }
-
 
         .an-valley__back-arrow {
-          width: 8px;
-          height: 8px;
+          width: 9px;
+          height: 9px;
 
-          border-left:
-            1px solid
-            currentColor;
+          border-left: 1px solid currentColor;
+          border-bottom: 1px solid currentColor;
 
-          border-bottom:
-            1px solid
-            currentColor;
-
-          transform:
-            rotate(
-              45deg
-            );
+          transform: rotate(45deg);
         }
 
-
-        .an-valley__status {
+        .an-valley__environment {
           display: inline-flex;
-
           align-items: center;
+          gap: 10px;
 
-          gap: 8px;
+          color: var(--valley-muted);
 
-          color:
-            rgba(
-              216,
-              226,
-              230,
-              0.28
-            );
-
-          font-size: 6px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.16em;
+          font-size: 10px;
+          letter-spacing: 0.15em;
         }
 
+        .an-valley__environment i {
+          width: 6px;
+          height: 6px;
 
-        .an-valley__status i {
-          width: 5px;
-          height: 5px;
-
+          border: 1px solid rgba(231, 245, 251, 0.65);
           border-radius: 50%;
 
-          background:
-            rgba(
-              182,
-              211,
-              198,
-              0.78
-            );
-
           box-shadow:
-            0
-            0
-            12px
-            rgba(
-              182,
-              211,
-              198,
-              0.18
-            );
-
-          animation:
-            an-valley-page-status
-            9s
-            ease-in-out
-            infinite;
+            0 0 14px rgba(221, 241, 250, 0.2);
         }
 
-
-        /* ==================================================
-           HERO CONTENT
-        ================================================== */
-
         .an-valley__hero-content {
-          position: relative;
-
-          z-index: 5;
-
           align-self: center;
+          justify-self: center;
 
-          width:
-            min(
-              100%,
-              920px
-            );
+          width: 100%;
 
-          margin:
-            clamp(
-              50px,
-              8vh,
-              100px
-            )
-            auto
-            clamp(
-              44px,
-              7vh,
-              82px
-            );
+          padding: clamp(28px, 6vh, 80px) 0;
 
           text-align: center;
         }
 
-
         .an-valley__hero-eyebrow {
           display: block;
 
-          color:
-            rgba(
-              205,
-              217,
-              222,
-              0.23
-            );
+          color: rgba(226, 238, 244, 0.65);
 
-          font-size: 7px;
-
-          font-weight: 620;
-
-          letter-spacing:
-            0.22em;
+          font-size: clamp(10px, 0.8vw, 13px);
+          letter-spacing: 0.22em;
         }
-
 
         .an-valley__hero-content h1 {
-          margin:
-            20px
-            0
-            0;
+          margin: 24px 0 0;
 
-          color:
-            rgba(
-              250,
-              251,
-              252,
-              0.98
-            );
+          color: rgba(251, 253, 254, 0.98);
 
-          font-size:
-            clamp(
-              72px,
-              12vw,
-              176px
-            );
-
-          font-weight: 210;
-
-          line-height: 0.78;
-
-          letter-spacing:
-            -0.078em;
-
-          text-wrap: balance;
+          font-size: clamp(78px, 13vw, 220px);
+          font-weight: 220;
+          line-height: 0.86;
+          letter-spacing: -0.075em;
         }
-
 
         .an-valley__hero-statement {
-          margin:
-            clamp(
-              34px,
-              5vw,
-              58px
-            )
-            0
-            0;
+          margin: clamp(35px, 5vw, 72px) 0 0;
 
-          color:
-            rgba(
-              241,
-              245,
-              247,
-              0.72
-            );
+          color: rgba(248, 251, 253, 0.88);
 
-          font-size:
-            clamp(
-              19px,
-              2.2vw,
-              29px
-            );
-
-          font-weight: 280;
-
-          letter-spacing:
-            -0.026em;
+          font-size: clamp(22px, 2.4vw, 38px);
+          font-weight: 320;
+          letter-spacing: -0.035em;
         }
-
 
         .an-valley__hero-description {
-          max-width: 660px;
+          max-width: 68ch;
 
-          margin:
-            18px
-            auto
-            0;
+          margin: 24px auto 0;
 
-          color:
-            rgba(
-              210,
-              220,
-              225,
-              0.32
-            );
+          color: var(--valley-muted);
 
-          font-size:
-            clamp(
-              10px,
-              1vw,
-              13px
-            );
-
+          font-size: clamp(13px, 1vw, 17px);
           line-height: 1.8;
-
-          letter-spacing:
-            0.015em;
         }
 
-
         /* ==================================================
-           FLOW
+           EXECUTION MAP
         ================================================== */
 
-        .an-valley__flow {
+        .an-valley__map {
           position: relative;
 
-          z-index: 7;
+          display: grid;
+          grid-template-columns:
+            repeat(6, minmax(0, 1fr));
 
-          width:
-            min(
-              100%,
-              1080px
-            );
+          width: 100%;
+
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
+        }
+
+        .an-valley__map a {
+          position: relative;
+
+          min-width: 0;
+          min-height: 116px;
 
           display: grid;
-
-          grid-template-columns:
-            repeat(
-              5,
-              1fr
-            );
+          align-content: center;
+          justify-items: start;
 
           gap: 10px;
 
-          margin:
-            0
-            auto
-            clamp(
-              35px,
-              5vh,
-              60px
-            );
-        }
+          padding: 18px clamp(12px, 1.8vw, 30px);
 
-
-        .an-valley__flow-line {
-          position: absolute;
-
-          top: 7px;
-          left: 10%;
-
-          width: 80%;
-          height: 1px;
-
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(
-                222,
-                231,
-                235,
-                0.09
-              )
-              8%,
-              rgba(
-                222,
-                231,
-                235,
-                0.17
-              )
-              50%,
-              rgba(
-                222,
-                231,
-                235,
-                0.09
-              )
-              92%,
-              transparent
-            );
-        }
-
-
-        .an-valley__flow-node {
-          position: relative;
-
-          z-index: 2;
-
-          display: flex;
-
-          flex-direction: column;
-
-          align-items: center;
-
-          gap: 7px;
-
-          color:
-            rgba(
-              213,
-              224,
-              229,
-              0.25
-            );
-
+          color: rgba(235, 244, 248, 0.65);
           text-decoration: none;
 
+          border-right: 1px solid rgba(230, 241, 247, 0.08);
+
           transition:
-            color
-            0.35s ease,
-            transform
-            0.35s ease;
+            background 0.25s ease,
+            color 0.25s ease;
         }
 
-
-        .an-valley__flow-node:hover {
-          color:
-            rgba(
-              235,
-              240,
-              242,
-              0.7
-            );
-
-          transform:
-            translateY(
-              -2px
-            );
+        .an-valley__map a:first-child {
+          padding-left: 0;
         }
 
+        .an-valley__map a:last-child {
+          border-right: 0;
+        }
 
-        .an-valley__flow-node i {
-          width: 14px;
-          height: 14px;
+        .an-valley__map a:hover {
+          color: #fff;
+          background: rgba(218, 238, 249, 0.045);
+        }
 
-          border:
-            1px solid
-            rgba(
-              227,
-              234,
-              237,
-              0.16
-            );
+        .an-valley__map small {
+          font-size: 11px;
+          letter-spacing: 0.15em;
+        }
 
-          border-radius: 50%;
+        .an-valley__map a > i {
+          width: 20px;
+          height: 1px;
 
+          background: rgba(226, 241, 249, 0.3);
+        }
+
+        .an-valley__map a.is-conditional > i {
           background:
-            rgba(
-              222,
-              231,
-              235,
-              0.045
-            );
-
-          box-shadow:
-            0
-            0
-            16px
-            rgba(
-              220,
-              231,
-              235,
-              0.035
+            repeating-linear-gradient(
+              90deg,
+              rgba(226, 241, 249, 0.4) 0 3px,
+              transparent 3px 6px
             );
         }
 
-
-        .an-valley__flow-node span {
-          margin-top: 4px;
-
-          font-size: 5px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.15em;
-
-          opacity: 0.52;
+        .an-valley__map strong {
+          font-size: clamp(9px, 0.8vw, 12px);
+          font-weight: 570;
+          letter-spacing: 0.075em;
+          overflow-wrap: anywhere;
         }
 
-
-        .an-valley__flow-node strong {
-          font-size: 6px;
-
-          font-weight: 620;
-
-          letter-spacing:
-            0.15em;
+        .an-valley__map a > span {
+          color: rgba(222, 236, 243, 0.52);
+          font-size: 9px;
+          letter-spacing: 0.12em;
         }
-
-
-        /* ==================================================
-           HERO FOOTER
-        ================================================== */
 
         .an-valley__hero-footer {
           display: flex;
-
           align-items: center;
-
           justify-content: center;
+          flex-wrap: wrap;
 
-          gap:
-            clamp(
-              8px,
-              1.5vw,
-              18px
-            );
+          gap: clamp(12px, 2vw, 30px);
 
-          color:
-            rgba(
-              211,
-              222,
-              227,
-              0.14
-            );
+          color: rgba(230, 242, 248, 0.52);
 
-          font-size: 5px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.16em;
+          font-size: 10px;
+          letter-spacing: 0.14em;
         }
-
 
         .an-valley__hero-footer i {
-          width: 22px;
+          width: clamp(18px, 3vw, 56px);
           height: 1px;
 
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.075
-            );
+          background: rgba(230, 242, 248, 0.18);
         }
 
-
         /* ==================================================
-           DISTRICTS
+           IMPLEMENTATION INTRO
         ================================================== */
 
-        .an-valley__district {
+        .an-valley__implementation {
           position: relative;
 
           width: 100%;
 
-          padding:
-            clamp(
-              90px,
-              11vw,
-              160px
-            )
-            clamp(
-              18px,
-              5vw,
-              76px
-            );
+          padding: 0 var(--valley-gutter);
 
           background:
-            #000;
-
-          scroll-margin-top:
-            24px;
+            linear-gradient(
+              180deg,
+              rgba(2, 4, 6, 0.78),
+              rgba(1, 3, 5, 0.48) 20%,
+              rgba(1, 3, 5, 0.58) 80%,
+              rgba(2, 4, 6, 0.8)
+            );
         }
 
+        .an-valley__implementation-head {
+          min-height: 85svh;
 
-        .an-valley__district::before {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          padding: clamp(90px, 12vh, 160px) 0;
+
+          text-align: center;
+        }
+
+        .an-valley__implementation-head > span {
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          letter-spacing: 0.2em;
+        }
+
+        .an-valley__implementation-head h2 {
+          margin: 26px 0 0;
+
+          color: rgba(251, 253, 254, 0.98);
+
+          font-size: clamp(60px, 9vw, 154px);
+          font-weight: 230;
+          line-height: 0.9;
+          letter-spacing: -0.068em;
+        }
+
+        .an-valley__implementation-head p {
+          max-width: 68ch;
+
+          margin: 35px 0 0;
+
+          color: var(--valley-muted);
+
+          font-size: clamp(14px, 1vw, 17px);
+          line-height: 1.8;
+        }
+
+        /* ==================================================
+           FULL-WIDTH DISTRICT
+        ================================================== */
+
+        .an-valley-district {
+          position: relative;
+
+          width: 100%;
+          min-width: 0;
+          min-height: 100svh;
+
+          padding:
+            clamp(90px, 11vh, 170px)
+            0;
+
+          border-top: 1px solid var(--valley-line);
+
+          scroll-margin-top: 0;
+        }
+
+        .an-valley-district::before {
           content: "";
 
           position: absolute;
-
           top: 0;
-          left: 50%;
+          right: 0;
 
-          width:
-            min(
-              88%,
-              1320px
-            );
-
+          width: 32vw;
           height: 1px;
-
-          transform:
-            translateX(
-              -50%
-            );
 
           background:
             linear-gradient(
               90deg,
               transparent,
-              rgba(
-                255,
-                255,
-                255,
-                0.055
-              ),
-              transparent
-            );
-        }
-
-
-        /* ==================================================
-           CATEGORY
-        ================================================== */
-
-        .an-valley-category {
-          width:
-            min(
-              100%,
-              1440px
+              rgba(235, 246, 251, 0.4)
             );
 
-          margin: 0 auto;
+          pointer-events: none;
         }
 
-
-        .an-valley-category__header {
+        .an-valley-district__header {
           display: grid;
-
           grid-template-columns:
-            minmax(
-              180px,
-              0.52fr
-            )
-            minmax(
-              340px,
-              1.48fr
-            )
-            auto;
+            minmax(0, 1.15fr)
+            minmax(0, 0.85fr);
 
           align-items: end;
 
-          gap:
-            clamp(
-              24px,
-              5vw,
-              74px
-            );
-
-          margin-bottom:
-            clamp(
-              38px,
-              5vw,
-              66px
-            );
+          gap: clamp(35px, 7vw, 130px);
         }
 
+        .an-valley-district__identity,
+        .an-valley-district__statement {
+          min-width: 0;
+        }
 
-        .an-valley-category__identity {
+        .an-valley-district__meta {
           display: flex;
+          align-items: center;
+          flex-wrap: wrap;
 
-          flex-direction: column;
+          gap: 16px;
 
-          gap: 10px;
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          letter-spacing: 0.15em;
         }
 
-
-        .an-valley-category__identity
-        > span {
-          color:
-            rgba(
-              206,
-              218,
-              223,
-              0.18
-            );
-
-          font-size: 8px;
-
-          font-weight: 620;
-
-          letter-spacing:
-            0.19em;
+        .an-valley-district__number {
+          color: rgba(248, 252, 254, 0.9);
+          font-size: 16px;
+          font-weight: 450;
         }
 
+        .an-valley-district__meta i {
+          width: 44px;
+          height: 1px;
 
-        .an-valley-category__identity
-        > strong {
-          color:
-            rgba(
-              244,
-              247,
-              248,
-              0.73
-            );
-
-          font-size: 10px;
-
-          font-weight: 620;
-
-          letter-spacing:
-            0.18em;
+          background: rgba(230, 243, 250, 0.26);
         }
 
+        .an-valley-district__identity h2 {
+          margin: 24px 0 0;
 
-        .an-valley-category__purpose h2 {
-          margin: 0;
+          color: rgba(251, 253, 254, 0.98);
 
-          color:
-            rgba(
-              249,
-              250,
-              251,
-              0.94
-            );
+          font-size: clamp(52px, 6.8vw, 120px);
+          font-weight: 230;
+          line-height: 0.94;
+          letter-spacing: -0.065em;
 
-          font-size:
-            clamp(
-              34px,
-              4vw,
-              60px
-            );
-
-          font-weight: 240;
-
-          line-height: 1;
-
-          letter-spacing:
-            -0.048em;
+          overflow-wrap: anywhere;
         }
 
+        .an-valley-district__statement strong {
+          display: block;
 
-        .an-valley-category__purpose p {
-          max-width: 780px;
+          color: rgba(247, 251, 253, 0.88);
 
-          margin:
-            17px
-            0
-            0;
-
-          color:
-            rgba(
-              207,
-              218,
-              223,
-              0.29
-            );
-
-          font-size:
-            clamp(
-              9px,
-              0.95vw,
-              12px
-            );
-
-          line-height: 1.75;
+          font-size: clamp(20px, 1.8vw, 30px);
+          font-weight: 350;
+          line-height: 1.35;
+          letter-spacing: -0.025em;
         }
 
+        .an-valley-district__statement p {
+          max-width: 68ch;
+
+          margin: 19px 0 0;
+
+          color: var(--valley-muted);
+
+          font-size: clamp(14px, 1vw, 17px);
+          line-height: 1.8;
+        }
+
+        .an-valley-district__body {
+          min-width: 0;
+          width: 100%;
+
+          margin-top: clamp(60px, 8vw, 130px);
+        }
 
         /* ==================================================
-           CATEGORY NAVIGATION
+           REALIZATION
+
+           Existing portal remains a separate component.
+           Only its placement is changed here.
         ================================================== */
 
-        .an-valley-category__navigation {
+        .an-valley-realization-portal {
+          width: 100%;
+          min-width: 0;
+          min-height: min(85svh, 960px);
+        }
+
+        .an-valley-realization-portal
+        .an-realization-entry-shell {
+          width: 100%;
+          min-height: inherit;
+        }
+
+        /* ==================================================
+           OPEN SYSTEM FIELD
+
+           No outer card, border radius, or nested
+           glass container.
+        ================================================== */
+
+        .an-valley-system {
+          position: relative;
+
+          width: 100%;
+          min-width: 0;
+          min-height: 60svh;
+
+          padding: clamp(20px, 3vw, 55px) 0;
+
+          border-top:
+            1px solid rgba(230, 243, 250, 0.09);
+
+          border-bottom:
+            1px solid rgba(230, 243, 250, 0.09);
+
+          background:
+            linear-gradient(
+              90deg,
+              rgba(180, 210, 226, 0.018),
+              transparent 36%,
+              transparent 68%,
+              rgba(180, 210, 226, 0.018)
+            );
+        }
+
+        .an-valley-system__architecture {
+          display: grid;
+          grid-template-columns:
+            minmax(0, 0.9fr)
+            minmax(0, 1.1fr);
+
+          gap: clamp(48px, 8vw, 150px);
+        }
+
+        .an-valley-system__primary,
+        .an-valley-conditional__branch,
+        .an-valley-governance__intro {
+          min-width: 0;
+        }
+
+        /* ==================================================
+           CAPITAL METRICS
+        ================================================== */
+
+        .an-valley-system__metrics {
+          display: grid;
+          grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+
+          align-self: end;
+
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
+        }
+
+        .an-valley-metric {
+          min-width: 0;
+
+          padding:
+            clamp(22px, 2.6vw, 44px)
+            clamp(15px, 2vw, 32px);
+
+          border-right:
+            1px solid rgba(230, 243, 250, 0.09);
+        }
+
+        .an-valley-metric:first-child {
+          padding-left: 0;
+        }
+
+        .an-valley-metric:last-child {
+          padding-right: 0;
+          border-right: 0;
+        }
+
+        .an-valley-metric span {
+          color: var(--valley-muted);
+
+          font-size: 10px;
+          letter-spacing: 0.14em;
+        }
+
+        .an-valley-metric strong {
+          display: block;
+
+          margin-top: 18px;
+
+          color: rgba(249, 252, 254, 0.9);
+
+          font-size: clamp(20px, 2vw, 36px);
+          font-weight: 350;
+          letter-spacing: -0.035em;
+        }
+
+        .an-valley-metric p {
+          max-width: 30ch;
+
+          margin: 15px 0 0;
+
+          color: var(--valley-muted);
+
+          font-size: clamp(12px, 0.85vw, 15px);
+          line-height: 1.65;
+        }
+
+        .an-valley-system__flow {
           display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+
+          gap: clamp(12px, 2vw, 34px);
+
+          margin-top: clamp(75px, 9vw, 160px);
+          padding: 30px 0 0;
+
+          border-top:
+            1px solid rgba(230, 243, 250, 0.08);
+
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          letter-spacing: 0.12em;
+        }
+
+        .an-valley-system__flow i {
+          width: clamp(24px, 5vw, 110px);
+          height: 1px;
+
+          background: rgba(230, 243, 250, 0.25);
+        }
+
+        .an-valley-system__flow strong {
+          color: rgba(249, 252, 254, 0.9);
+          font-weight: 600;
+        }
+
+        /* ==================================================
+           COMMERCIALIZATION
+
+           A branch diagram, not a collection of cards.
+        ================================================== */
+
+        .an-valley-conditional {
+          display: grid;
+          grid-template-columns:
+            minmax(0, 0.8fr)
+            minmax(0, 1.2fr);
 
           align-items: center;
 
-          gap: 8px;
+          gap: clamp(55px, 8vw, 150px);
         }
 
-
-        .an-valley-category__nav {
-          width: 38px;
-          height: 38px;
+        .an-valley-conditional__diagram {
+          min-width: 0;
 
           display: grid;
+          grid-template-columns:
+            minmax(100px, 0.25fr)
+            minmax(0, 1fr);
 
+          align-items: center;
+
+          gap: clamp(20px, 3vw, 55px);
+        }
+
+        .an-valley-conditional__source {
+          min-height: 180px;
+
+          display: grid;
           place-items: center;
 
-          padding: 0;
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
 
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.065
-            );
+          color: rgba(247, 251, 253, 0.88);
 
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.018
-            );
-
-          color:
-            rgba(
-              229,
-              235,
-              238,
-              0.35
-            );
-
-          cursor: pointer;
-
-          transition:
-            border-color
-            0.3s ease,
-            background
-            0.3s ease,
-            color
-            0.3s ease,
-            transform
-            0.3s ease;
+          font-size: 13px;
+          font-weight: 550;
+          letter-spacing: 0.12em;
         }
 
-
-        .an-valley-category__nav:hover {
-          border-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.13
-            );
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.035
-            );
-
-          color:
-            rgba(
-              244,
-              247,
-              248,
-              0.7
-            );
+        .an-valley-conditional__routes {
+          display: grid;
+          gap: 20px;
         }
 
+        .an-valley-conditional__route {
+          min-width: 0;
+          min-height: 105px;
 
-        .an-valley-category__nav span {
-          width: 8px;
-          height: 8px;
+          display: grid;
+          grid-template-columns:
+            minmax(0, 0.85fr)
+            minmax(12px, 0.2fr)
+            minmax(0, 1.5fr)
+            minmax(12px, 0.2fr)
+            minmax(0, 0.6fr);
 
-          border-top:
-            1px solid
-            currentColor;
+          align-items: center;
 
-          border-right:
-            1px solid
-            currentColor;
+          gap: clamp(7px, 1vw, 20px);
+
+          padding: 20px 0;
+
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
         }
 
+        .an-valley-conditional__route small {
+          color: var(--valley-muted);
 
-        .an-valley-category__nav--prev span {
-          transform:
-            rotate(
-              -135deg
-            )
-            translate(
-              -1px,
-              1px
-            );
+          font-size: 10px;
+          letter-spacing: 0.08em;
         }
 
+        .an-valley-conditional__route i {
+          height: 1px;
 
-        .an-valley-category__nav--next span {
-          transform:
-            rotate(
-              45deg
-            )
-            translate(
-              -1px,
-              1px
-            );
+          background: rgba(230, 243, 250, 0.23);
         }
 
+        .an-valley-conditional__route strong {
+          color: rgba(248, 252, 254, 0.9);
+
+          font-size: clamp(11px, 0.85vw, 15px);
+          font-weight: 540;
+          letter-spacing: 0.04em;
+
+          overflow-wrap: anywhere;
+        }
+
+        .an-valley-conditional__route span {
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          letter-spacing: 0.08em;
+        }
 
         /* ==================================================
-           CATEGORY RAIL
+           GOVERNANCE
         ================================================== */
 
-        .an-valley-category__rail {
-          position: relative;
+        .an-valley-governance__intro {
+          max-width: 1100px;
+        }
+
+        .an-valley-governance__decisions {
+          display: grid;
+          grid-template-columns:
+            repeat(5, minmax(0, 1fr));
+
+          margin-top: clamp(60px, 8vw, 140px);
+
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
+        }
+
+        .an-valley-governance__decision {
+          min-width: 0;
+          min-height: 230px;
 
           display: flex;
+          flex-direction: column;
+
+          padding:
+            clamp(24px, 2.5vw, 46px)
+            clamp(16px, 2vw, 35px);
+
+          border-right:
+            1px solid rgba(230, 243, 250, 0.09);
+        }
+
+        .an-valley-governance__decision:first-child {
+          padding-left: 0;
+        }
+
+        .an-valley-governance__decision:last-child {
+          padding-right: 0;
+          border-right: 0;
+        }
+
+        .an-valley-governance__decision-index {
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          letter-spacing: 0.12em;
+        }
+
+        .an-valley-governance__decision strong {
+          margin-top: auto;
+
+          color: rgba(248, 252, 254, 0.92);
+
+          font-size: clamp(15px, 1.2vw, 22px);
+          font-weight: 470;
+          letter-spacing: 0.025em;
+
+          overflow-wrap: anywhere;
+        }
+
+        .an-valley-governance__decision p {
+          max-width: 29ch;
+
+          margin: 16px 0 0;
+
+          color: var(--valley-muted);
+
+          font-size: clamp(12px, 0.8vw, 15px);
+          line-height: 1.65;
+        }
+
+        .an-valley-governance__principle {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+
+          gap: clamp(12px, 2vw, 32px);
+
+          margin-top: clamp(55px, 6vw, 110px);
+
+          color: var(--valley-muted);
+
+          font-size: clamp(10px, 0.85vw, 14px);
+          letter-spacing: 0.12em;
+        }
+
+        .an-valley-governance__principle i {
+          width: clamp(25px, 5vw, 95px);
+          height: 1px;
+
+          background: rgba(230, 243, 250, 0.24);
+        }
+
+        .an-valley-governance__principle strong {
+          color: rgba(249, 252, 254, 0.94);
+
+          font-size: 24px;
+          font-weight: 350;
+        }
+
+        /* ==================================================
+           DEPLOYMENT
+        ================================================== */
+
+        .an-valley-deployment__header {
+          display: grid;
+          grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 0.8fr);
+
+          align-items: end;
+
+          gap: clamp(50px, 8vw, 150px);
+        }
+
+        .an-valley-deployment__header > p {
+          margin-bottom: 0;
+        }
+
+        .an-valley-deployment__reality {
+          display: grid;
+          grid-template-columns:
+            minmax(0, 1fr)
+            minmax(110px, 0.4fr)
+            minmax(0, 1fr);
 
           align-items: stretch;
 
-          gap:
-            clamp(
-              18px,
-              2.5vw,
-              34px
-            );
+          gap: clamp(15px, 3vw, 55px);
 
-          width: 100%;
-
-          overflow-x: auto;
-
-          overflow-y: hidden;
-
-          scroll-snap-type:
-            x mandatory;
-
-          scrollbar-width: none;
-
-          overscroll-behavior-x:
-            contain;
+          margin-top: clamp(65px, 8vw, 140px);
         }
 
-
-        .an-valley-category__rail::-webkit-scrollbar {
-          display: none;
-        }
-
-
-        .an-valley-category__item {
-          flex:
-            0
-            0
-            100%;
-
+        .an-valley-deployment__state {
           min-width: 0;
+          min-height: 260px;
 
-          scroll-snap-align: start;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+
+          gap: 14px;
+
+          padding: clamp(25px, 3vw, 55px) 0;
+
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
         }
 
+        .an-valley-deployment__state span,
+        .an-valley-deployment__state small {
+          color: var(--valley-muted);
 
-        /* ==================================================
-           CATEGORY FOOTER
-        ================================================== */
+          font-size: 11px;
+          letter-spacing: 0.12em;
+        }
 
-        .an-valley-category__footer {
+        .an-valley-deployment__state strong {
+          color: rgba(249, 252, 254, 0.93);
+
+          font-size: clamp(25px, 2.8vw, 48px);
+          font-weight: 300;
+          letter-spacing: -0.045em;
+        }
+
+        .an-valley-deployment__crossing {
           display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          gap: 16px;
+
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          letter-spacing: 0.12em;
+        }
+
+        .an-valley-deployment__crossing i {
+          width: 1px;
+          height: 35px;
+
+          background: rgba(230, 243, 250, 0.25);
+        }
+
+        .an-valley-deployment__crossing strong {
+          color: rgba(249, 252, 254, 0.94);
+
+          font-size: 15px;
+          font-weight: 500;
+        }
+
+        .an-valley-deployment__delta {
+          display: grid;
+          grid-template-columns:
+            auto minmax(30px, 0.3fr) minmax(0, 1fr);
 
           align-items: center;
 
-          justify-content: center;
+          gap: clamp(20px, 3vw, 55px);
 
-          gap:
-            clamp(
-              8px,
-              1.4vw,
-              16px
-            );
+          margin-top: clamp(40px, 5vw, 85px);
+          padding: 28px 0;
 
-          margin-top:
-            clamp(
-              28px,
-              4vw,
-              48px
-            );
-
-          color:
-            rgba(
-              209,
-              220,
-              225,
-              0.13
-            );
-
-          font-size: 5px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.14em;
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
         }
 
+        .an-valley-deployment__delta > span {
+          color: rgba(249, 252, 254, 0.9);
 
-        .an-valley-category__footer i {
-          width: 18px;
+          font-size: 14px;
+          letter-spacing: 0.12em;
+        }
+
+        .an-valley-deployment__delta > i {
           height: 1px;
 
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.055
-            );
+          background: rgba(230, 243, 250, 0.24);
         }
 
+        .an-valley-deployment__delta > div {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          gap: 18px;
+        }
+
+        .an-valley-deployment__delta strong {
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          font-weight: 530;
+          letter-spacing: 0.1em;
+        }
 
         /* ==================================================
-           FUTURE SYSTEM
+           REALITY / LEARNING
         ================================================== */
 
-        .an-valley-future-system {
+        .an-valley-reality {
           position: relative;
 
-          min-height:
-            clamp(
-              470px,
-              53vw,
-              650px
-            );
+          min-height: 100svh;
 
-          display: flex;
-
-          flex-direction: column;
-
-          align-items: flex-start;
-
-          justify-content: flex-end;
-
-          overflow: hidden;
+          display: grid;
+          align-items: center;
 
           padding:
-            clamp(
-              28px,
-              5vw,
-              68px
-            );
+            clamp(110px, 14vh, 220px)
+            var(--valley-gutter);
 
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.065
-            );
-
-          border-radius:
-            clamp(
-              22px,
-              3vw,
-              34px
-            );
+          border-top: 1px solid var(--valley-line);
 
           background:
             radial-gradient(
-              ellipse
-              at
-              72%
-              25%,
-              rgba(
-                196,
-                211,
-                218,
-                0.04
-              ),
-              transparent
-              28%
+              ellipse at 50% 45%,
+              rgba(164, 199, 218, 0.07),
+              transparent 48%
             ),
-
-            linear-gradient(
-              145deg,
-              rgba(
-                17,
-                19,
-                21,
-                0.74
-              ),
-              rgba(
-                5,
-                6,
-                7,
-                0.94
-              )
-              54%,
-              #010101
-            );
-
-          box-shadow:
-            inset
-            0
-            1px
-            0
-            rgba(
-              255,
-              255,
-              255,
-              0.035
-            );
+            rgba(1, 3, 5, 0.52);
         }
 
-
-        .an-valley-future-system::before {
-          content: "";
-
+        .an-valley-reality__horizon {
           position: absolute;
+          top: 50%;
+          left: 0;
 
-          top: 10%;
-          right: 8%;
+          width: 100%;
+          height: 1px;
 
-          width:
-            min(
-              42vw,
-              480px
+          background:
+            linear-gradient(
+              90deg,
+              transparent,
+              rgba(230, 243, 250, 0.16),
+              transparent
             );
 
-          aspect-ratio: 1;
-
-          border:
-            1px solid
-            rgba(
-              225,
-              234,
-              237,
-              0.035
-            );
-
-          border-radius: 50%;
-
-          box-shadow:
-            inset
-            0
-            0
-            70px
-            rgba(
-              218,
-              229,
-              234,
-              0.012
-            );
+          pointer-events: none;
         }
 
-
-        .an-valley-future-system__eyebrow {
+        .an-valley-reality__content {
           position: relative;
+          z-index: 1;
 
-          z-index: 2;
-
-          color:
-            rgba(
-              205,
-              217,
-              222,
-              0.22
-            );
-
-          font-size: 7px;
-
-          font-weight: 620;
-
-          letter-spacing:
-            0.18em;
+          width: 100%;
         }
 
+        .an-valley-reality__eyebrow {
+          color: var(--valley-muted);
 
-        .an-valley-future-system h3 {
-          position: relative;
+          font-size: 11px;
+          letter-spacing: 0.18em;
+        }
 
-          z-index: 2;
+        .an-valley-reality h2 {
+          margin: 28px 0 0;
 
-          margin:
-            17px
-            0
-            0;
+          color: rgba(251, 253, 254, 0.98);
 
-          color:
-            rgba(
-              249,
-              250,
-              251,
-              0.94
-            );
-
-          font-size:
-            clamp(
-              43px,
-              6vw,
-              84px
-            );
-
+          font-size: clamp(66px, 10vw, 175px);
           font-weight: 230;
-
-          line-height: 0.95;
-
-          letter-spacing:
-            -0.055em;
+          line-height: 0.9;
+          letter-spacing: -0.07em;
         }
 
+        .an-valley-reality__content > p {
+          max-width: 68ch;
 
-        .an-valley-future-system p {
-          position: relative;
+          margin: 36px 0 0;
 
-          z-index: 2;
+          color: var(--valley-muted);
 
-          max-width: 680px;
-
-          margin:
-            22px
-            0
-            0;
-
-          color:
-            rgba(
-              208,
-              219,
-              224,
-              0.3
-            );
-
-          font-size:
-            clamp(
-              9px,
-              1vw,
-              12px
-            );
-
-          line-height: 1.75;
+          font-size: clamp(14px, 1vw, 17px);
+          line-height: 1.8;
         }
 
+        .an-valley-reality__loop {
+          display: grid;
+          grid-template-columns:
+            repeat(5, minmax(0, 1fr)) auto;
 
-        .an-valley-future-system__status {
-          position: relative;
+          align-items: stretch;
 
-          z-index: 2;
+          gap: 0;
 
-          display: inline-flex;
+          margin-top: clamp(85px, 10vw, 180px);
 
+          border-top: 1px solid var(--valley-line);
+          border-bottom: 1px solid var(--valley-line);
+        }
+
+        .an-valley-reality__loop-step {
+          min-width: 0;
+          min-height: 145px;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          gap: 24px;
+
+          padding: 27px clamp(12px, 2vw, 35px);
+
+          border-right:
+            1px solid rgba(230, 243, 250, 0.09);
+        }
+
+        .an-valley-reality__loop-step:first-child {
+          padding-left: 0;
+        }
+
+        .an-valley-reality__loop-number {
+          color: var(--valley-muted);
+
+          font-size: 11px;
+          letter-spacing: 0.12em;
+        }
+
+        .an-valley-reality__loop-step strong {
+          color: rgba(249, 252, 254, 0.88);
+
+          font-size: clamp(10px, 0.9vw, 15px);
+          font-weight: 500;
+          letter-spacing: 0.06em;
+
+          overflow-wrap: anywhere;
+        }
+
+        .an-valley-reality__return-symbol {
+          align-self: center;
+
+          padding-left: clamp(18px, 3vw, 50px);
+
+          color: rgba(249, 252, 254, 0.75);
+
+          font-size: 35px;
+          font-weight: 300;
+        }
+
+        .an-valley-reality__constitution {
+          display: flex;
           align-items: center;
+          flex-wrap: wrap;
 
-          gap: 8px;
+          gap: clamp(12px, 2vw, 35px);
 
-          margin-top: 28px;
-
-          color:
-            rgba(
-              210,
-              221,
-              226,
-              0.18
-            );
-
-          font-size: 6px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.15em;
+          margin-top: 45px;
         }
 
+        .an-valley-reality__constitution span {
+          color: var(--valley-muted);
 
-        .an-valley-future-system__status i {
-          width: 5px;
-          height: 5px;
-
-          border:
-            1px solid
-            rgba(
-              224,
-              232,
-              235,
-              0.22
-            );
-
-          border-radius: 50%;
+          font-size: 10px;
+          letter-spacing: 0.14em;
         }
 
+        .an-valley-reality__constitution span + span::before {
+          content: "—";
+          margin-right: clamp(12px, 2vw, 35px);
+          color: rgba(230, 243, 250, 0.28);
+        }
 
         /* ==================================================
            TERMINUS
@@ -2382,577 +2146,1220 @@ export default function ArcheNovaValleyPage() {
         .an-valley__terminus {
           position: relative;
 
-          min-height:
-            min(
-              92svh,
-              900px
-            );
+          min-height: 90svh;
 
           display: flex;
-
           flex-direction: column;
-
           align-items: center;
-
           justify-content: center;
 
           padding:
-            100px
-            24px;
+            clamp(110px, 14vh, 220px)
+            var(--valley-gutter);
+
+          border-top: 1px solid var(--valley-line);
 
           text-align: center;
 
           background:
-            radial-gradient(
-              ellipse
-              at
-              50%
-              54%,
-              rgba(
-                203,
-                216,
-                222,
-                0.04
-              ),
-              transparent
-              26%
-            ),
-
-            #000;
-        }
-
-
-        .an-valley__terminus::before {
-          content: "";
-
-          position: absolute;
-
-          top: 0;
-          left: 50%;
-
-          width:
-            min(
-              88%,
-              1320px
-            );
-
-          height: 1px;
-
-          transform:
-            translateX(
-              -50%
-            );
-
-          background:
             linear-gradient(
-              90deg,
-              transparent,
-              rgba(
-                255,
-                255,
-                255,
-                0.055
-              ),
-              transparent
+              180deg,
+              rgba(1, 3, 5, 0.65),
+              rgba(1, 3, 5, 0.9)
             );
         }
 
+        .an-valley__terminus > span {
+          color: var(--valley-muted);
 
-        .an-valley__terminus-eyebrow {
-          color:
-            rgba(
-              207,
-              219,
-              224,
-              0.2
-            );
-
-          font-size: 7px;
-
-          font-weight: 620;
-
-          letter-spacing:
-            0.22em;
+          font-size: 11px;
+          letter-spacing: 0.2em;
         }
-
 
         .an-valley__terminus h2 {
-          margin:
-            24px
-            0
-            0;
+          margin: 30px 0 0;
 
-          color:
-            rgba(
-              250,
-              251,
-              252,
-              0.96
-            );
+          color: rgba(251, 253, 254, 0.98);
 
-          font-size:
-            clamp(
-              53px,
-              8vw,
-              116px
-            );
-
-          font-weight: 215;
-
-          line-height: 0.88;
-
-          letter-spacing:
-            -0.068em;
+          font-size: clamp(55px, 8vw, 140px);
+          font-weight: 230;
+          line-height: 0.94;
+          letter-spacing: -0.065em;
         }
 
-
         .an-valley__terminus p {
-          max-width: 680px;
+          max-width: 68ch;
 
-          margin:
-            30px
-            auto
-            0;
+          margin: 36px 0 0;
 
-          color:
-            rgba(
-              207,
-              219,
-              224,
-              0.3
-            );
+          color: var(--valley-muted);
 
-          font-size:
-            clamp(
-              10px,
-              1vw,
-              13px
-            );
-
+          font-size: clamp(14px, 1vw, 17px);
           line-height: 1.8;
         }
 
-
         .an-valley__return {
           display: inline-flex;
-
           align-items: center;
+          gap: 15px;
 
-          gap: 12px;
+          margin-top: 55px;
+          padding: 18px 0;
 
-          margin-top: 44px;
+          border-bottom: 1px solid var(--valley-line);
 
-          color:
-            rgba(
-              230,
-              236,
-              239,
-              0.4
-            );
-
+          color: rgba(246, 251, 253, 0.78);
           text-decoration: none;
 
-          font-size: 7px;
+          font-size: 11px;
+          font-weight: 550;
+          letter-spacing: 0.13em;
 
-          font-weight: 600;
-
-          letter-spacing:
-            0.12em;
-
-          transition:
-            color
-            0.3s ease,
-            transform
-            0.3s ease;
+          transition: color 0.25s ease;
         }
-
 
         .an-valley__return:hover {
-          color:
-            rgba(
-              245,
-              248,
-              249,
-              0.82
-            );
-
-          transform:
-            translateY(
-              -2px
-            );
+          color: #fff;
         }
-
 
         .an-valley__return i {
-          width: 8px;
-          height: 8px;
+          width: 9px;
+          height: 9px;
 
-          border-top:
-            1px solid
-            currentColor;
+          border-top: 1px solid currentColor;
+          border-right: 1px solid currentColor;
 
-          border-right:
-            1px solid
-            currentColor;
-
-          transform:
-            rotate(
-              45deg
-            );
+          transform: rotate(45deg);
         }
-
 
         /* ==================================================
-           ANIMATION
+           TABLET
         ================================================== */
 
-        @keyframes an-valley-page-status {
-
-          0%,
-          100% {
-            opacity: 0.38;
-
-            transform:
-              scale(
-                0.78
-              );
+        @media (max-width: 1100px) {
+          .an-valley {
+            --valley-gutter: clamp(26px, 4vw, 55px);
           }
 
-
-          50% {
-            opacity: 0.95;
-
-            transform:
-              scale(
-                1.08
-              );
+          .an-valley__map {
+            grid-template-columns:
+              repeat(3, minmax(0, 1fr));
           }
 
+          .an-valley__map a {
+            border-bottom:
+              1px solid rgba(230, 243, 250, 0.08);
+          }
+
+          .an-valley__map a:nth-child(3n) {
+            border-right: 0;
+          }
+
+          .an-valley__map a:nth-last-child(-n + 3) {
+            border-bottom: 0;
+          }
+
+          .an-valley__map a:nth-child(4) {
+            padding-left: 0;
+          }
+
+          .an-valley-district__header,
+          .an-valley-system__architecture,
+          .an-valley-conditional,
+          .an-valley-deployment__header {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 45px;
+          }
+
+          .an-valley-district__statement {
+            max-width: 760px;
+          }
+
+          .an-valley-conditional__diagram {
+            grid-template-columns:
+              minmax(100px, 0.25fr)
+              minmax(0, 1fr);
+          }
+
+          .an-valley-governance__decisions {
+            grid-template-columns:
+              repeat(3, minmax(0, 1fr));
+          }
+
+          .an-valley-governance__decision {
+            border-bottom:
+              1px solid rgba(230, 243, 250, 0.09);
+          }
+
+          .an-valley-governance__decision:nth-child(3) {
+            border-right: 0;
+          }
+
+          .an-valley-governance__decision:nth-child(4),
+          .an-valley-governance__decision:nth-child(5) {
+            border-bottom: 0;
+          }
+
+          .an-valley-governance__decision:nth-child(4) {
+            padding-left: 0;
+          }
         }
-
 
         /* ==================================================
            MOBILE
+
+           Full viewport width, vertical execution
+           corridor, no horizontal information squeeze.
         ================================================== */
 
-        @media (
-          max-width: 760px
-        ) {
+        @media (max-width: 768px) {
+          .an-valley {
+            --valley-gutter: clamp(18px, 5vw, 28px);
+          }
+
+          .an-valley-city__left,
+          .an-valley-city__right {
+            width: 48%;
+            height: 38%;
+            opacity: 0.43;
+          }
+
+          .an-valley-city__horizon {
+            bottom: 18%;
+          }
 
           .an-valley__hero {
             min-height: 100svh;
 
+            gap: 30px;
+
             padding:
-              22px
-              18px
-              28px;
+              max(24px, env(safe-area-inset-top))
+              var(--valley-gutter)
+              max(28px, env(safe-area-inset-bottom));
           }
 
+          .an-valley__back {
+            font-size: 10px;
+          }
+
+          .an-valley__environment {
+            max-width: 150px;
+            font-size: 9px;
+            line-height: 1.4;
+            text-align: right;
+          }
 
           .an-valley__hero-content {
-            margin:
-              60px
-              auto
-              54px;
+            padding: 35px 0 10px;
           }
 
-
-          .an-valley__hero-content h1 {
-            font-size:
-              clamp(
-                66px,
-                22vw,
-                102px
-              );
-
-            line-height: 0.82;
-          }
-
-
-          .an-valley__hero-statement {
-            margin-top: 34px;
-
-            font-size:
-              clamp(
-                17px,
-                5vw,
-                22px
-              );
-          }
-
-
-          .an-valley__hero-description {
-            max-width: 500px;
-
+          .an-valley__hero-eyebrow {
             font-size: 9px;
           }
 
-
-          .an-valley__flow {
-            grid-template-columns:
-              1fr;
-
-            gap: 0;
-
-            width:
-              min(
-                100%,
-                330px
-              );
-
-            margin-bottom: 38px;
+          .an-valley__hero-content h1 {
+            font-size: clamp(61px, 17vw, 112px);
+            line-height: 0.9;
           }
 
-
-          .an-valley__flow-line {
-            top: 7px;
-            bottom: 7px;
-            left: 7px;
-
-            width: 1px;
-            height: auto;
-
-            background:
-              linear-gradient(
-                to bottom,
-                transparent,
-                rgba(
-                  222,
-                  231,
-                  235,
-                  0.16
-                )
-                10%,
-                rgba(
-                  222,
-                  231,
-                  235,
-                  0.16
-                )
-                90%,
-                transparent
-              );
+          .an-valley__hero-statement {
+            margin-top: 32px;
+            font-size: clamp(21px, 5vw, 30px);
           }
 
+          .an-valley__hero-description {
+            font-size: 13px;
+          }
 
-          .an-valley__flow-node {
-            min-height: 50px;
+          .an-valley__map {
+            grid-template-columns: minmax(0, 1fr);
 
-            display: grid;
+            border-top: 1px solid var(--valley-line);
+          }
+
+          .an-valley__map a {
+            min-height: 57px;
 
             grid-template-columns:
-              14px
-              28px
-              1fr;
+              32px 18px minmax(0, 1fr) auto;
 
             align-items: center;
+            align-content: center;
+            justify-items: start;
 
             gap: 10px;
 
-            text-align: left;
+            padding: 10px 0;
+
+            border-right: 0;
+            border-bottom:
+              1px solid rgba(230, 243, 250, 0.09);
           }
 
-
-          .an-valley__flow-node span {
-            margin: 0;
+          .an-valley__map a:last-child {
+            border-bottom: 0;
           }
 
+          .an-valley__map a > i {
+            width: 8px;
+            height: 8px;
 
-          .an-valley__flow-node strong {
-            justify-self: start;
+            border: 1px solid rgba(230, 243, 250, 0.5);
+            border-radius: 50%;
+
+            background: rgba(230, 243, 250, 0.1);
           }
 
+          .an-valley__map a.is-conditional > i {
+            border-style: dashed;
+            background: transparent;
+          }
+
+          .an-valley__map strong {
+            font-size: 11px;
+          }
+
+          .an-valley__map a > span {
+            font-size: 8px;
+          }
 
           .an-valley__hero-footer {
-            flex-wrap: wrap;
-
-            font-size: 4px;
+            gap: 9px;
+            font-size: 8px;
           }
 
-
-          .an-valley__district {
-            padding:
-              82px
-              17px;
+          .an-valley__hero-footer i {
+            width: 12px;
           }
 
-
-          .an-valley-category__header {
-            grid-template-columns:
-              1fr
-              auto;
-
-            align-items: end;
-
-            gap:
-              24px
-              12px;
+          .an-valley__implementation-head {
+            min-height: 75svh;
+            padding: 90px 0;
           }
 
-
-          .an-valley-category__identity {
-            grid-column:
-              1 /
-              -1;
+          .an-valley__implementation-head h2 {
+            font-size: clamp(54px, 12vw, 88px);
           }
 
-
-          .an-valley-category__purpose h2 {
-            font-size:
-              clamp(
-                35px,
-                10vw,
-                48px
-              );
+          .an-valley__implementation-head p {
+            font-size: 14px;
           }
 
+          .an-valley-district {
+            min-height: 100svh;
+            padding: 90px 0;
+          }
 
-          .an-valley-category__purpose p {
+          .an-valley-district__header {
+            gap: 30px;
+          }
+
+          .an-valley-district__meta {
+            gap: 11px;
             font-size: 9px;
           }
 
-
-          .an-valley-category__navigation {
-            align-self: end;
+          .an-valley-district__number {
+            font-size: 14px;
           }
 
-
-          .an-valley-category__nav {
-            width: 34px;
-            height: 34px;
+          .an-valley-district__meta i {
+            width: 25px;
           }
 
+          .an-valley-district__identity h2 {
+            margin-top: 20px;
 
-          .an-valley-category__rail {
+            font-size: clamp(42px, 11vw, 76px);
+            overflow-wrap: anywhere;
+          }
+
+          .an-valley-district__statement strong {
+            font-size: 20px;
+          }
+
+          .an-valley-district__statement p {
+            font-size: 14px;
+          }
+
+          .an-valley-district__body {
+            margin-top: 50px;
+          }
+
+          .an-valley-realization-portal {
+            min-height: 560px;
+          }
+
+          .an-valley-system {
+            min-height: 0;
+            padding: 30px 0;
+          }
+
+          .an-valley-kicker {
+            font-size: 10px;
+          }
+
+          .an-valley-display {
+            font-size: clamp(38px, 10vw, 62px);
+          }
+
+          .an-valley-copy {
+            font-size: 14px;
+          }
+
+          .an-valley-system__architecture {
+            gap: 55px;
+          }
+
+          .an-valley-system__metrics {
+            grid-template-columns: minmax(0, 1fr);
+          }
+
+          .an-valley-metric,
+          .an-valley-metric:first-child,
+          .an-valley-metric:last-child {
+            padding: 24px 0;
+
+            border-right: 0;
+            border-bottom:
+              1px solid rgba(230, 243, 250, 0.09);
+          }
+
+          .an-valley-metric:last-child {
+            border-bottom: 0;
+          }
+
+          .an-valley-metric span {
+            font-size: 10px;
+          }
+
+          .an-valley-metric strong {
+            font-size: 27px;
+          }
+
+          .an-valley-metric p {
+            font-size: 13px;
+          }
+
+          .an-valley-system__flow {
+            justify-content: flex-start;
+            gap: 12px;
+
+            margin-top: 60px;
+
+            font-size: 9px;
+          }
+
+          .an-valley-system__flow i {
+            width: 20px;
+          }
+
+          .an-valley-conditional {
+            gap: 65px;
+          }
+
+          .an-valley-conditional__diagram {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 26px;
+          }
+
+          .an-valley-conditional__source {
+            min-height: 65px;
+            font-size: 12px;
+          }
+
+          .an-valley-conditional__routes {
+            gap: 35px;
+          }
+
+          .an-valley-conditional__route {
+            grid-template-columns: minmax(0, 1fr);
+            justify-items: start;
+
+            min-height: 0;
+            gap: 14px;
+
+            padding: 22px 0;
+          }
+
+          .an-valley-conditional__route small {
+            font-size: 10px;
+          }
+
+          .an-valley-conditional__route i {
+            width: 1px;
+            height: 20px;
+
+            background: rgba(230, 243, 250, 0.25);
+          }
+
+          .an-valley-conditional__route strong {
+            font-size: 16px;
+          }
+
+          .an-valley-conditional__route span {
+            font-size: 13px;
+          }
+
+          .an-valley-governance__decisions {
+            grid-template-columns: minmax(0, 1fr);
+            margin-top: 65px;
+          }
+
+          .an-valley-governance__decision,
+          .an-valley-governance__decision:first-child,
+          .an-valley-governance__decision:last-child,
+          .an-valley-governance__decision:nth-child(4) {
+            min-height: 140px;
+
+            padding: 23px 0;
+
+            border-right: 0;
+            border-bottom:
+              1px solid rgba(230, 243, 250, 0.09);
+          }
+
+          .an-valley-governance__decision:last-child {
+            border-bottom: 0;
+          }
+
+          .an-valley-governance__decision strong {
+            margin-top: 24px;
+            font-size: 19px;
+          }
+
+          .an-valley-governance__decision p {
+            max-width: 48ch;
+            margin-top: 10px;
+            font-size: 13px;
+          }
+
+          .an-valley-governance__principle {
+            gap: 10px;
+            margin-top: 60px;
+            font-size: 9px;
+          }
+
+          .an-valley-governance__principle i {
+            width: 12px;
+          }
+
+          .an-valley-deployment__header {
+            gap: 30px;
+          }
+
+          .an-valley-deployment__reality {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 20px;
+            margin-top: 65px;
+          }
+
+          .an-valley-deployment__state {
+            min-height: 175px;
+            padding: 25px 0;
+          }
+
+          .an-valley-deployment__state span,
+          .an-valley-deployment__state small {
+            font-size: 10px;
+          }
+
+          .an-valley-deployment__state strong {
+            font-size: clamp(26px, 7vw, 38px);
+          }
+
+          .an-valley-deployment__crossing {
+            min-height: 100px;
+            gap: 10px;
+          }
+
+          .an-valley-deployment__crossing i {
+            height: 16px;
+          }
+
+          .an-valley-deployment__delta {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 22px;
+            margin-top: 45px;
+          }
+
+          .an-valley-deployment__delta > i {
+            width: 100%;
+          }
+
+          .an-valley-deployment__delta > div {
+            justify-content: flex-start;
+            gap: 18px 22px;
+          }
+
+          .an-valley-deployment__delta strong {
+            font-size: 10px;
+          }
+
+          .an-valley-reality {
+            padding: 110px var(--valley-gutter);
+          }
+
+          .an-valley-reality h2 {
+            font-size: clamp(57px, 13vw, 94px);
+          }
+
+          .an-valley-reality__content > p {
+            font-size: 14px;
+          }
+
+          .an-valley-reality__loop {
+            grid-template-columns: minmax(0, 1fr);
+            margin-top: 75px;
+          }
+
+          .an-valley-reality__loop-step,
+          .an-valley-reality__loop-step:first-child {
+            min-height: 80px;
+
+            flex-direction: row;
+            align-items: center;
+
+            gap: 18px;
+            padding: 20px 0;
+
+            border-right: 0;
+            border-bottom:
+              1px solid rgba(230, 243, 250, 0.09);
+          }
+
+          .an-valley-reality__loop-step strong {
+            font-size: 13px;
+          }
+
+          .an-valley-reality__return-symbol {
+            justify-self: center;
+            padding: 18px 0;
+          }
+
+          .an-valley-reality__constitution {
             gap: 14px;
           }
 
-
-          .an-valley-category__item {
-            flex-basis: 100%;
+          .an-valley-reality__constitution span {
+            font-size: 9px;
           }
 
-
-          .an-valley-future-system {
-            min-height: 500px;
-
-            padding:
-              28px
-              24px;
-
-            border-radius: 23px;
+          .an-valley-reality__constitution span + span::before {
+            margin-right: 14px;
           }
-
-
-          .an-valley-future-system h3 {
-            font-size:
-              clamp(
-                45px,
-                14vw,
-                64px
-              );
-          }
-
 
           .an-valley__terminus {
-            min-height: 82svh;
-
-            padding:
-              90px
-              20px;
+            min-height: 85svh;
           }
-
 
           .an-valley__terminus h2 {
-            font-size:
-              clamp(
-                52px,
-                16vw,
-                78px
-              );
+            font-size: clamp(49px, 11vw, 80px);
           }
 
+          .an-valley__terminus p {
+            font-size: 14px;
+          }
         }
-
 
         /* ==================================================
            SMALL MOBILE
         ================================================== */
 
-        @media (
-          max-width: 430px
-        ) {
-
-          .an-valley__back {
-            font-size: 6px;
+        @media (max-width: 430px) {
+          .an-valley__environment {
+            max-width: 115px;
+            font-size: 8px;
           }
-
-
-          .an-valley__status {
-            font-size: 5px;
-          }
-
 
           .an-valley__hero-content h1 {
-            font-size:
-              clamp(
-                64px,
-                21vw,
-                90px
-              );
+            font-size: clamp(57px, 16vw, 76px);
           }
 
-
-          .an-valley-category__header {
-            grid-template-columns: 1fr;
+          .an-valley__hero-eyebrow {
+            font-size: 8px;
           }
 
-
-          .an-valley-category__navigation {
-            justify-self: start;
+          .an-valley__map a > span {
+            font-size: 7px;
           }
 
-
-          .an-valley-category__purpose h2 {
-            font-size:
-              clamp(
-                34px,
-                10.5vw,
-                44px
-              );
+          .an-valley-district__identity h2 {
+            font-size: clamp(39px, 10.5vw, 53px);
           }
 
-
-          .an-valley-category__footer {
-            font-size: 4px;
+          .an-valley-reality h2 {
+            font-size: clamp(51px, 12vw, 67px);
           }
 
+          .an-valley__terminus h2 {
+            font-size: clamp(43px, 10vw, 60px);
+          }
         }
 
+        /* ==========================================================
+   FULL-WIDTH CONTENT OVERRIDE
+   Place immediately BEFORE the REDUCED MOTION block.
+========================================================== */
+
+/* The page itself must not become a narrow foreground panel. */
+
+.an-valley {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  overflow-x: clip;
+}
+
+.an-valley__hero,
+.an-valley__implementation,
+.an-valley-reality,
+.an-valley__terminus {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* Keep the cosmic background subtle and behind the content. */
+
+.an-valley__implementation {
+  padding:
+    clamp(72px, 8vw, 128px)
+    clamp(20px, 3.5vw, 64px)
+    clamp(80px, 9vw, 140px);
+
+  background: transparent;
+}
+
+.an-valley__implementation::before {
+  opacity: 0.35;
+}
+
+/* Remove the narrow central content corridor. */
+
+.an-valley-district {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+
+  grid-template-columns:
+    36px
+    minmax(0, 1fr);
+
+  gap: clamp(18px, 2.5vw, 40px);
+
+  padding: clamp(64px, 7vw, 112px) 0;
+}
+
+.an-valley-district__content,
+.an-valley-district__body {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+.an-valley-district__header {
+  width: 100%;
+  min-width: 0;
+
+  grid-template-columns:
+    minmax(0, 0.8fr)
+    minmax(0, 1.2fr);
+
+  gap: clamp(24px, 4vw, 72px);
+}
+
+.an-valley-district__statement,
+.an-valley-district__identity {
+  min-width: 0;
+}
+
+.an-valley-district__statement p {
+  max-width: 760px;
+}
+
+/* The system sections are open page regions, not black cards. */
+
+.an-valley-system {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  min-height: 0;
+
+  overflow: visible;
+
+  padding: clamp(24px, 3vw, 48px) 0;
+
+  border: 0;
+  border-top: 1px solid rgba(230, 238, 242, 0.11);
+  border-radius: 0;
+
+  background: transparent;
+
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+
+  box-shadow: none;
+}
+
+.an-valley-system::before {
+  display: none;
+}
+
+/* Capital, commercialization and deployment can use the
+   available width without rigid minimum column widths. */
+
+.an-valley-system__architecture,
+.an-valley-conditional,
+.an-valley-deployment__header {
+  width: 100%;
+  min-width: 0;
+
+  grid-template-columns:
+    minmax(0, 0.85fr)
+    minmax(0, 1.15fr);
+
+  gap: clamp(28px, 4vw, 76px);
+}
+
+.an-valley-system__primary,
+.an-valley-system__metrics,
+.an-valley-conditional__branch,
+.an-valley-conditional__diagram,
+.an-valley-deployment {
+  min-width: 0;
+}
+
+/* Avoid placing the capital flow on top of content. */
+
+.an-valley-system__flow {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  left: auto;
+
+  width: 100%;
+  margin-top: clamp(32px, 5vw, 64px);
+  padding-top: 24px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Improve actual reading size and contrast. */
+
+.an-valley-district__identity > span,
+.an-valley-system__primary > span,
+.an-valley-conditional__branch > span,
+.an-valley-governance__intro > span,
+.an-valley-deployment__header span {
+  font-size: clamp(10px, 0.8vw, 12px);
+  color: rgba(218, 229, 234, 0.6);
+}
+
+.an-valley-district__statement p,
+.an-valley-system__primary > p,
+.an-valley-conditional__branch > p,
+.an-valley-governance__intro > p,
+.an-valley-deployment__header > p {
+  font-size: clamp(13px, 1vw, 16px);
+  line-height: 1.8;
+  color: rgba(220, 230, 235, 0.7);
+}
+
+.an-valley-district__statement strong {
+  font-size: clamp(17px, 1.45vw, 23px);
+  color: rgba(246, 249, 250, 0.92);
+}
+
+.an-valley-metric span,
+.an-valley-conditional__routes small,
+.an-valley-conditional__routes strong,
+.an-valley-conditional__routes span,
+.an-valley-governance__decision strong,
+.an-valley-deployment__state span,
+.an-valley-deployment__state small,
+.an-valley-deployment__delta strong {
+  font-size: clamp(10px, 0.8vw, 12px);
+}
+
+.an-valley-metric p,
+.an-valley-governance__decision p {
+  font-size: clamp(12px, 0.95vw, 14px);
+  line-height: 1.65;
+  color: rgba(220, 230, 235, 0.65);
+}
+
+/* Readable execution diagrams. */
+
+.an-valley-conditional__diagram {
+  grid-template-columns:
+    minmax(90px, 0.3fr)
+    minmax(0, 1fr);
+}
+
+.an-valley-conditional__routes > div {
+  grid-template-columns:
+    minmax(78px, 0.8fr)
+    minmax(12px, 0.3fr)
+    minmax(0, 1.5fr)
+    minmax(12px, 0.3fr)
+    minmax(48px, 0.6fr);
+
+  gap: 10px;
+}
+
+.an-valley-conditional__routes strong,
+.an-valley-conditional__routes span,
+.an-valley-conditional__routes small {
+  overflow-wrap: anywhere;
+}
+
+.an-valley-governance__decisions {
+  gap: clamp(10px, 1.5vw, 20px);
+}
+
+.an-valley-governance__decision {
+  min-width: 0;
+  min-height: 170px;
+  padding: clamp(16px, 2vw, 26px);
+}
+
+.an-valley-deployment__reality {
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(130px, 0.6fr)
+    minmax(0, 1fr);
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1100px) {
+  .an-valley-district__header,
+  .an-valley-system__architecture,
+  .an-valley-conditional,
+  .an-valley-deployment__header {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .an-valley-system__metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .an-valley-metric {
+    border-bottom: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .an-valley-metric:last-child {
+    border-right: 0;
+  }
+
+  .an-valley-governance__decisions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ==========================================================
+   MOBILE: CONTENT USES ALMOST THE ENTIRE SCREEN WIDTH
+========================================================== */
+
+@media (max-width: 768px) {
+  .an-valley__hero {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .an-valley__implementation {
+    padding:
+      72px
+      16px
+      88px;
+  }
+
+  .an-valley__implementation-head {
+    width: 100%;
+    margin-bottom: 56px;
+  }
+
+  .an-valley-district {
+    display: block;
+
+    width: 100%;
+    padding: 56px 0;
+  }
+
+  /* The section number no longer consumes a permanent
+     vertical column beside the entire section. */
+
+  .an-valley-district__marker {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 12px;
+    margin-bottom: 22px;
+  }
+
+  .an-valley-district__marker span {
+    font-size: 11px;
+    color: rgba(224, 233, 237, 0.58);
+  }
+
+  .an-valley-district__marker i {
+    width: 7px;
+    height: 7px;
+    box-shadow: none;
+  }
+
+  .an-valley-district__header {
+    display: block;
+    width: 100%;
+  }
+
+  .an-valley-district__identity h2 {
+    font-size: clamp(39px, 10.5vw, 60px);
+    overflow-wrap: anywhere;
+  }
+
+  .an-valley-district__statement {
+    margin-top: 24px;
+  }
+
+  .an-valley-district__statement strong {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .an-valley-district__statement p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .an-valley-district__body {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .an-valley-system {
+    min-height: 0;
+    padding: 26px 0 12px;
+    border-radius: 0;
+    background: transparent;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .an-valley-system__architecture,
+  .an-valley-conditional,
+  .an-valley-deployment__header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .an-valley-system__primary > strong,
+  .an-valley-conditional__branch > strong,
+  .an-valley-governance__intro > strong,
+  .an-valley-deployment__header strong {
+    font-size: clamp(30px, 8.5vw, 43px);
+  }
+
+  .an-valley-system__primary > p,
+  .an-valley-conditional__branch > p,
+  .an-valley-governance__intro > p,
+  .an-valley-deployment__header > p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .an-valley-system__metrics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .an-valley-metric {
+    padding: 20px 16px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .an-valley-metric:last-child {
+    border-bottom: 0;
+  }
+
+  .an-valley-metric strong {
+    font-size: 18px;
+  }
+
+  .an-valley-metric p {
+    font-size: 13px;
+  }
+
+  .an-valley-system__flow {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+
+    margin-top: 30px;
+    padding-top: 20px;
+
+    flex-wrap: wrap;
+    gap: 12px;
+
+    font-size: 10px;
+  }
+
+  .an-valley-system__flow i {
+    width: 20px;
+  }
+
+  /* Branches become readable vertical paths. */
+
+  .an-valley-conditional__diagram {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 16px;
+  }
+
+  .an-valley-conditional__source {
+    min-height: 54px;
+    font-size: 11px;
+  }
+
+  .an-valley-conditional__routes > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+    padding: 18px 16px;
+  }
+
+  .an-valley-conditional__routes i {
+    width: 1px;
+    height: 18px;
+    justify-self: center;
+  }
+
+  .an-valley-conditional__routes small,
+  .an-valley-conditional__routes strong,
+  .an-valley-conditional__routes span {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .an-valley-governance__decisions {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .an-valley-governance__decision {
+    min-height: 112px;
+    padding: 18px;
+  }
+
+  .an-valley-governance__decision strong {
+    font-size: 12px;
+  }
+
+  .an-valley-governance__decision p {
+    font-size: 13px;
+  }
+
+  .an-valley-deployment__reality {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .an-valley-deployment__crossing {
+    flex-direction: row;
+  }
+
+  .an-valley-deployment__crossing i {
+    width: 24px;
+    height: 1px;
+  }
+
+  .an-valley-deployment__delta {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .an-valley-deployment__delta > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px 16px;
+  }
+
+  .an-valley-deployment__delta strong {
+    font-size: 11px;
+  }
+
+  .an-valley-realization-portal {
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .an-valley-realization-portal
+  .an-realization-entry-shell {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .an-valley-reality__content,
+  .an-valley__terminus {
+    min-width: 0;
+  }
+}
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+  .an-valley__implementation {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .an-valley-district {
+    display: block;
+    padding: 48px 0;
+  }
+
+  .an-valley-district__identity h2 {
+    font-size: clamp(36px, 10vw, 46px);
+  }
+
+  .an-valley-system {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 12px;
+  }
+
+  .an-valley-conditional__diagram {
+    padding: 12px;
+  }
+}
 
         /* ==================================================
            REDUCED MOTION
         ================================================== */
 
-        @media (
-          prefers-reduced-motion:
-          reduce
-        ) {
-
+        @media (prefers-reduced-motion: reduce) {
           html {
             scroll-behavior: auto;
           }
 
-
-          .an-valley__status i {
-            animation:
-              none !important;
+          .an-valley *,
+          .an-valley *::before,
+          .an-valley *::after {
+            animation: none !important;
+            transition: none !important;
+            scroll-behavior: auto !important;
           }
-
         }
-
       `}</style>
-
     </main>
   );
 }

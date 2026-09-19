@@ -110,6 +110,20 @@ const CHAPTER_TARGETS:
 
   {
     id:
+      "civilization-space",
+
+    mark:
+      "⧫",
+
+    title:
+      "CIVILIZATION",
+
+    subtitle:
+      "what can we build?",
+  },
+
+  {
+    id:
       "archenova-valley",
 
     mark:
@@ -119,7 +133,7 @@ const CHAPTER_TARGETS:
       "VALLEY",
 
     subtitle:
-      "What can we do?",
+      "what can we realize?",
   },
 ];
 

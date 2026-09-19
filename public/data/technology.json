@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-19T04:20:07.080Z",
+  "updated": "2026-09-19T06:56:49.902Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 19 – A Zodiacal Night",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+      "summary": "APOD Science APOD APOD: 2026 September 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1789790700000,
+      "publishedAt": "2026-09-19T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": " ESA and The Pokémon Company International reveal Europe-wide exhibition and astronaut Pikachu experience ",
@@ -207,6 +216,15 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology…",
       "ts": 1789733400000,
       "publishedAt": "2026-09-18T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -793,24 +811,6 @@
       "ts": 1789650553000,
       "publishedAt": "2026-09-17T13:09:13.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
-      "summary": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices…",
-      "ts": 1789650055000,
-      "publishedAt": "2026-09-17T13:00:55.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Catalyst Campus for Technology and Innovation, in partnership with the BMC3I TAP Lab, Selects Focus Area Cohort Teams for Cohort 26.A",
-      "url": "https://spacenews.com/catalyst-campus-for-technology-and-innovation-in-partnership-with-the-bmc3i-tap-lab-selects-focus-area-cohort-teams-for-cohort-26-a/",
-      "summary": "Catalyst Campus for Technology and Innovation, in partnership with the BMC3I TAP Lab, has selected the Focus Area Cohort Teams (FACTs) participating in Cohort 26.A. The selected teams represent innovative […] The post Ca…",
-      "ts": 1789650000000,
-      "publishedAt": "2026-09-17T13:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

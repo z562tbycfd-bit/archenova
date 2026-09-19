@@ -1,8 +1,6 @@
 "use client";
 
-import Link
-  from "next/link";
-
+import Link from "next/link";
 
 export default function CivilizationExperiencePortal() {
   return (
@@ -15,140 +13,73 @@ export default function CivilizationExperiencePortal() {
         className="experience-portal__card"
         aria-label="Enter ArcheNova Scientific Open World"
       >
-        {/* ==================================================
-            OPTICAL / INDUSTRIAL BACKGROUND
-        ================================================== */}
-
         <div
           className="experience-portal__ambient"
           aria-hidden="true"
         />
-
         <div
           className="experience-portal__grid"
           aria-hidden="true"
         />
-
         <div
           className="experience-portal__horizon"
           aria-hidden="true"
         />
 
-
-        {/* ==================================================
-            TOP SYSTEM BAR
-        ================================================== */}
-
         <header className="experience-portal__top">
           <div className="experience-portal__identity">
-            <span>
-              CIVILIZATION EXPERIENCE
-            </span>
-
-            <small>
-              ARCHENOVA / WORLD SYSTEM
-            </small>
+            <span>CIVILIZATION EXPERIENCE</span>
+            <small>ARCHENOVA / WORLD SYSTEM</small>
           </div>
 
-
           <div className="experience-portal__live">
-            <i />
-
-            <span>
-              WORLD ONLINE
-            </span>
+            <i aria-hidden="true" />
+            <span>WORLD ONLINE</span>
           </div>
         </header>
 
-
-        {/* ==================================================
-            PRIMARY CONTENT
-        ================================================== */}
-
         <div className="experience-portal__content">
-
           <div className="experience-portal__system-label">
-            <span>
-              OPEN WORLD
-            </span>
-
-            <i />
-
-            <span>
-              001
-            </span>
+            <span>OPEN WORLD</span>
+            <i aria-hidden="true" />
+            <span>001</span>
           </div>
 
-
-          <h2
-            id="experience-title"
-          >
+          <h2 id="experience-title">
             Scientific
             <br />
             Open World
           </h2>
 
-
           <p>
             Enter a living civilization where science,
-            infrastructure, experimentation, and
-            physical reality become explorable.
+            infrastructure, experimentation, and physical
+            reality become explorable.
           </p>
 
-
-          {/* ================================================
-              WORLD LAYERS
-          ================================================= */}
-
           <div className="experience-portal__layers">
-            <span>
-              SCIENCE
-            </span>
-
-            <i />
-
-            <span>
-              EVIDENCE
-            </span>
-
-            <i />
-
-            <span>
-              INFRASTRUCTURE
-            </span>
-
-            <i />
-
-            <span>
-              CIVILIZATION
-            </span>
+            <span>SCIENCE</span>
+            <i aria-hidden="true" />
+            <span>EVIDENCE</span>
+            <i aria-hidden="true" />
+            <span>INFRASTRUCTURE</span>
+            <i aria-hidden="true" />
+            <span>CIVILIZATION</span>
           </div>
-
         </div>
 
-
-        {/* ==================================================
-            FOOTER / ENTER
-        ================================================== */}
-
         <footer className="experience-portal__footer">
-
           <div className="experience-portal__coordinates">
-            <span>
-              WORLD ACCESS
-            </span>
-
+            <span>WORLD ACCESS</span>
             <small>
               35.68° N · 139.76° E · REALITY LAYER
             </small>
           </div>
 
-
           <div className="experience-portal__enter">
             <span className="experience-portal__enter-copy">
               ENTER WORLD
             </span>
-
             <span
               className="experience-portal__arrow"
               aria-hidden="true"
@@ -156,1118 +87,450 @@ export default function CivilizationExperiencePortal() {
               →
             </span>
           </div>
-
         </footer>
       </Link>
 
-
       <style jsx>{`
-
-        /* ==================================================
-           ROOT
-        ================================================== */
+        .experience-portal,
+        .experience-portal * {
+          box-sizing: border-box;
+        }
 
         .experience-portal {
           position: relative;
-
+          display: flex;
+          justify-content: center;
           width: 100%;
-
-          padding:
-            clamp(
-              18px,
-              3vw,
-              34px
-            )
-            0;
+          min-width: 0;
+          margin: 0 auto;
+          padding: clamp(14px, 2vw, 28px) 0;
         }
-
-
-        /* ==================================================
-           CARD
-        ================================================== */
 
         .experience-portal__card {
           position: relative;
-
           isolation: isolate;
-
-          width: 100%;
-
-          min-height:
-            clamp(
-              390px,
-              48vw,
-              590px
-            );
-
           display: grid;
-
-          grid-template-rows:
-            auto
-            1fr
-            auto;
-
+          grid-template-rows: auto minmax(0, 1fr) auto;
+          width: 100%;
+          min-width: 0;
+          min-height: clamp(470px, 47vw, 640px);
+          margin: 0 auto;
+          padding: clamp(24px, 3.5vw, 52px);
           overflow: hidden;
 
-          padding:
-            clamp(
-              26px,
-              4vw,
-              52px
-            );
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.075
-            );
-
-          border-radius:
-            clamp(
-              24px,
-              2.8vw,
-              34px
-            );
+          border: 1px solid rgba(233, 244, 253, 0.17);
+          border-radius: clamp(22px, 2.5vw, 34px);
 
           background:
             linear-gradient(
               145deg,
-              rgba(
-                16,
-                18,
-                21,
-                0.66
-              ),
-              rgba(
-                5,
-                6,
-                8,
-                0.82
-              )
-              48%,
-              rgba(
-                0,
-                0,
-                0,
-                0.94
-              )
+              rgba(26, 34, 44, 0.57),
+              rgba(7, 11, 18, 0.7) 48%,
+              rgba(2, 4, 9, 0.84)
             );
 
-          -webkit-backdrop-filter:
-            blur(30px)
-            saturate(112%);
-
-          backdrop-filter:
-            blur(30px)
-            saturate(112%);
+          -webkit-backdrop-filter: blur(28px) saturate(120%);
+          backdrop-filter: blur(28px) saturate(120%);
 
           box-shadow:
-            inset
-            0
-            1px
-            0
-            rgba(
-              255,
-              255,
-              255,
-              0.045
-            ),
-            0
-            32px
-            100px
-            rgba(
-              0,
-              0,
-              0,
-              0.3
-            );
+            inset 0 1px 0 rgba(255, 255, 255, 0.1),
+            0 25px 75px rgba(0, 0, 0, 0.2);
 
-          color: white;
-
+          color: #f7fbff;
           text-decoration: none;
 
-          transform: none;
-
           transition:
-            border-color
-              0.45s ease,
-            box-shadow
-              0.45s ease,
-            background
-              0.45s ease;
+            border-color 0.3s ease,
+            box-shadow 0.3s ease;
         }
-
-
-        /* ==================================================
-           REMOVE GLOBAL LINK UNDERLINE
-        ================================================== */
 
         .experience-portal__card::after {
-          display: none;
+          display: none !important;
         }
 
-
-        /* ==================================================
-           AMBIENT LIGHT
-        ================================================== */
-
-        .experience-portal__ambient {
-          position: absolute;
-
-          inset: 0;
-
-          z-index: -3;
-
-          pointer-events: none;
-
-          background:
-            radial-gradient(
-              circle
-              at
-              70%
-              28%,
-              rgba(
-                118,
-                190,
-                224,
-                0.075
-              ),
-              transparent
-                27%
-            ),
-
-            radial-gradient(
-              ellipse
-              at
-              50%
-              110%,
-              rgba(
-                255,
-                255,
-                255,
-                0.04
-              ),
-              transparent
-                42%
-            );
-        }
-
-
-        /* ==================================================
-           INDUSTRIAL GRID
-        ================================================== */
-
-        .experience-portal__grid {
-          position: absolute;
-
-          inset: 0;
-
-          z-index: -2;
-
-          opacity: 0.22;
-
-          pointer-events: none;
-
-          background-image:
-            linear-gradient(
-              rgba(
-                255,
-                255,
-                255,
-                0.025
-              )
-              1px,
-              transparent
-              1px
-            ),
-
-            linear-gradient(
-              90deg,
-              rgba(
-                255,
-                255,
-                255,
-                0.025
-              )
-              1px,
-              transparent
-              1px
-            );
-
-          background-size:
-            64px
-            64px;
-
-          -webkit-mask-image:
-            linear-gradient(
-              to bottom,
-              transparent,
-              black 25%,
-              black 72%,
-              transparent
-            );
-
-          mask-image:
-            linear-gradient(
-              to bottom,
-              transparent,
-              black 25%,
-              black 72%,
-              transparent
-            );
-        }
-
-
-        /* ==================================================
-           HORIZON / CITY LINE
-        ================================================== */
-
+        .experience-portal__ambient,
+        .experience-portal__grid,
         .experience-portal__horizon {
           position: absolute;
-
-          right: 7%;
-          bottom: 29%;
-
-          z-index: -1;
-
-          width:
-            min(
-              370px,
-              38%
-            );
-
-          height: 1px;
-
-          opacity: 0.34;
-
           pointer-events: none;
+        }
 
+        .experience-portal__ambient {
+          z-index: -3;
+          inset: 0;
           background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(
-                178,
-                220,
-                240,
-                0.5
-              ),
-              transparent
-            );
-
-          box-shadow:
-            0
-            0
-            32px
-            rgba(
-              120,
-              200,
-              235,
-              0.16
+            radial-gradient(
+              ellipse at 70% 27%,
+              rgba(130, 197, 231, 0.13),
+              transparent 42%
+            ),
+            radial-gradient(
+              ellipse at 45% 110%,
+              rgba(103, 150, 180, 0.1),
+              transparent 45%
             );
         }
 
+        .experience-portal__grid {
+          z-index: -2;
+          inset: 0;
+          opacity: 0.38;
+          background-image:
+            linear-gradient(
+              rgba(214, 235, 250, 0.06) 1px,
+              transparent 1px
+            ),
+            linear-gradient(
+              90deg,
+              rgba(214, 235, 250, 0.06) 1px,
+              transparent 1px
+            );
+          background-size: 64px 64px;
+          -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent,
+            black 25%,
+            black 75%,
+            transparent
+          );
+          mask-image: linear-gradient(
+            to bottom,
+            transparent,
+            black 25%,
+            black 75%,
+            transparent
+          );
+        }
 
-        /* ==================================================
-           TOP
-        ================================================== */
+        .experience-portal__horizon {
+          z-index: -1;
+          right: 15%;
+          bottom: 31%;
+          width: 40%;
+          height: 1px;
+          opacity: 0.65;
+          background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(180, 225, 249, 0.5),
+            transparent
+          );
+          box-shadow: 0 0 30px rgba(143, 207, 244, 0.15);
+        }
 
         .experience-portal__top {
           position: relative;
-
-          z-index: 2;
-
+          z-index: 1;
           display: flex;
-
-          align-items:
-            flex-start;
-
-          justify-content:
-            space-between;
-
-          gap: 24px;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 16px;
+          min-width: 0;
         }
-
 
         .experience-portal__identity {
           display: flex;
-
           flex-direction: column;
-
           gap: 7px;
+          min-width: 0;
         }
 
-
-        .experience-portal__identity
-        > span {
-          color:
-            rgba(
-              238,
-              243,
-              247,
-              0.52
-            );
-
-          font-size: 8px;
-
-          font-weight: 620;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.23em;
+        .experience-portal__identity > span {
+          color: rgba(241, 248, 253, 0.85);
+          font-size: clamp(10px, 0.9vw, 12px);
+          font-weight: 650;
+          line-height: 1.4;
+          letter-spacing: 0.13em;
         }
 
-
-        .experience-portal__identity
-        > small {
-          color:
-            rgba(
-              215,
-              225,
-              232,
-              0.24
-            );
-
-          font-size: 6px;
-
-          line-height: 1;
-
-          letter-spacing:
-            0.16em;
+        .experience-portal__identity > small {
+          color: rgba(211, 228, 240, 0.64);
+          font-size: clamp(9px, 0.75vw, 11px);
+          line-height: 1.4;
+          letter-spacing: 0.08em;
         }
-
 
         .experience-portal__live {
           display: inline-flex;
-
+          flex: 0 0 auto;
           align-items: center;
-
           gap: 8px;
-
-          color:
-            rgba(
-              220,
-              230,
-              236,
-              0.36
-            );
-
-          font-size: 6px;
-
-          letter-spacing:
-            0.16em;
+          color: rgba(230, 242, 250, 0.84);
+          font-size: 10px;
+          font-weight: 650;
+          letter-spacing: 0.08em;
         }
-
 
         .experience-portal__live i {
-          width: 5px;
-          height: 5px;
-
+          width: 7px;
+          height: 7px;
           border-radius: 50%;
-
-          background:
-            rgba(
-              126,
-              242,
-              192,
-              0.82
-            );
-
-          box-shadow:
-            0
-            0
-            12px
-            rgba(
-              126,
-              242,
-              192,
-              0.38
-            );
+          background: #9be6c2;
+          box-shadow: 0 0 13px rgba(155, 230, 194, 0.4);
         }
 
-
-        /* ==================================================
-           CONTENT
-        ================================================== */
+        /* CONTENT: CENTERED IN THE FULL-WIDTH CARD */
 
         .experience-portal__content {
           position: relative;
-
-          z-index: 2;
-
+          z-index: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
           align-self: center;
-
           width: 100%;
-
-          padding:
-            clamp(
-              46px,
-              7vw,
-              82px
-            )
-            0
-            clamp(
-              40px,
-              5vw,
-              64px
-            );
-
-          text-align: left;
+          min-width: 0;
+          margin: 0 auto;
+          padding: clamp(50px, 7vw, 90px) 0;
+          text-align: center;
         }
-
-
-        /* ==================================================
-           SYSTEM LABEL
-        ================================================== */
 
         .experience-portal__system-label {
           display: flex;
-
           align-items: center;
-
+          justify-content: center;
           gap: 10px;
-
-          margin-bottom:
-            clamp(
-              16px,
-              2vw,
-              22px
-            );
-
-          color:
-            rgba(
-              167,
-              212,
-              235,
-              0.44
-            );
-
-          font-size: 7px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.19em;
+          margin: 0 auto 22px;
+          color: rgba(190, 225, 244, 0.84);
+          font-size: 10px;
+          font-weight: 650;
+          letter-spacing: 0.12em;
         }
-
 
         .experience-portal__system-label i {
           width: 24px;
           height: 1px;
-
-          background:
-            rgba(
-              166,
-              215,
-              236,
-              0.2
-            );
+          background: rgba(190, 225, 244, 0.4);
         }
-
-
-        /* ==================================================
-           TITLE
-        ================================================== */
 
         .experience-portal__content h2 {
-          max-width: 790px;
-
-          margin: 0;
-
-          color:
-            rgba(
-              249,
-              251,
-              252,
-              0.97
-            );
-
-          font-size:
-            clamp(
-              54px,
-              7.8vw,
-              104px
-            );
-
-          font-weight: 250;
-
-          line-height: 0.86;
-
-          letter-spacing:
-            -0.066em;
-
-          text-wrap: balance;
+          width: 100%;
+          max-width: 1000px;
+          min-width: 0;
+          margin: 0 auto;
+          color: rgba(250, 252, 255, 0.98);
+          font-size: clamp(44px, 7.4vw, 110px);
+          font-weight: 300;
+          line-height: 0.99;
+          letter-spacing: -0.06em;
+          text-align: center;
+          overflow-wrap: anywhere;
         }
-
-
-        /* ==================================================
-           DESCRIPTION
-        ================================================== */
 
         .experience-portal__content p {
-          max-width: 470px;
-
-          margin:
-            clamp(
-              27px,
-              3vw,
-              36px
-            )
-            0
-            0;
-
-          color:
-            rgba(
-              218,
-              227,
-              233,
-              0.48
-            );
-
-          font-size:
-            clamp(
-              11px,
-              1.15vw,
-              14px
-            );
-
-          font-weight: 370;
-
-          line-height: 1.78;
-
-          letter-spacing:
-            -0.003em;
+          width: 100%;
+          max-width: 620px;
+          margin: clamp(24px, 3vw, 34px) auto 0;
+          color: rgba(227, 237, 245, 0.84);
+          font-size: clamp(13px, 1.2vw, 17px);
+          line-height: 1.8;
+          text-align: center;
         }
 
-
-        /* ==================================================
-           WORLD LAYERS
-        ================================================== */
+        /* CENTERED WORLD LAYERS */
 
         .experience-portal__layers {
           display: flex;
-
           align-items: center;
-
+          justify-content: center;
           flex-wrap: wrap;
-
-          gap: 10px;
-
-          margin-top:
-            clamp(
-              28px,
-              4vw,
-              42px
-            );
-
-          color:
-            rgba(
-              217,
-              228,
-              235,
-              0.29
-            );
-
-          font-size: 6px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.17em;
+          gap: 12px;
+          width: 100%;
+          max-width: 820px;
+          min-width: 0;
+          margin: clamp(30px, 4vw, 44px) auto 0;
+          color: rgba(223, 237, 247, 0.82);
+          font-size: clamp(10px, 0.9vw, 12px);
+          font-weight: 650;
+          line-height: 1.6;
+          letter-spacing: 0.09em;
+          text-align: center;
         }
-
 
         .experience-portal__layers i {
+          flex: 0 0 auto;
           width: 18px;
           height: 1px;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.09
-            );
+          background: rgba(226, 242, 252, 0.35);
         }
-
-
-        /* ==================================================
-           FOOTER
-        ================================================== */
 
         .experience-portal__footer {
           position: relative;
-
-          z-index: 2;
-
+          z-index: 1;
           display: flex;
-
           align-items: center;
-
-          justify-content:
-            space-between;
-
-          gap: 28px;
-
+          justify-content: space-between;
+          gap: 20px;
           padding-top: 20px;
-
-          border-top:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.06
-            );
+          border-top: 1px solid rgba(233, 244, 253, 0.15);
         }
-
-
-        /* ==================================================
-           COORDINATES
-        ================================================== */
 
         .experience-portal__coordinates {
           display: flex;
-
           flex-direction: column;
-
           gap: 7px;
+          min-width: 0;
         }
 
-
-        .experience-portal__coordinates
-        > span {
-          color:
-            rgba(
-              232,
-              240,
-              244,
-              0.46
-            );
-
-          font-size: 7px;
-
-          font-weight: 600;
-
-          letter-spacing:
-            0.18em;
+        .experience-portal__coordinates > span {
+          color: rgba(238, 246, 252, 0.86);
+          font-size: 10px;
+          font-weight: 650;
+          letter-spacing: 0.1em;
         }
 
-
-        .experience-portal__coordinates
-        > small {
-          color:
-            rgba(
-              210,
-              221,
-              228,
-              0.22
-            );
-
-          font-size: 6px;
-
-          letter-spacing:
-            0.11em;
+        .experience-portal__coordinates > small {
+          color: rgba(207, 226, 239, 0.66);
+          font-size: 10px;
+          line-height: 1.5;
+          letter-spacing: 0.04em;
         }
-
-
-        /* ==================================================
-           ENTER
-        ================================================== */
 
         .experience-portal__enter {
           display: inline-flex;
-
+          flex: 0 0 auto;
           align-items: center;
-
           gap: 14px;
         }
 
-
         .experience-portal__enter-copy {
-          color:
-            rgba(
-              240,
-              246,
-              249,
-              0.72
-            );
-
-          font-size: 7px;
-
-          font-weight: 620;
-
-          letter-spacing:
-            0.2em;
+          color: rgba(244, 250, 255, 0.92);
+          font-size: 10px;
+          font-weight: 650;
+          letter-spacing: 0.1em;
         }
-
 
         .experience-portal__arrow {
           display: grid;
-
+          flex: 0 0 auto;
           width: 44px;
           height: 44px;
-
           place-items: center;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.09
-            );
-
-          border-radius:
-            50%;
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(
-                255,
-                255,
-                255,
-                0.05
-              ),
-              rgba(
-                255,
-                255,
-                255,
-                0.015
-              )
-            );
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.78
-            );
-
-          font-size: 14px;
-
-          box-shadow:
-            inset
-            0
-            1px
-            0
-            rgba(
-              255,
-              255,
-              255,
-              0.04
-            );
-
+          border: 1px solid rgba(234, 245, 253, 0.25);
+          border-radius: 50%;
+          background: rgba(217, 236, 250, 0.06);
+          color: rgba(250, 253, 255, 0.95);
+          font-size: 18px;
           transition:
-            border-color
-              0.35s ease,
-            background
-              0.35s ease,
-            box-shadow
-              0.35s ease;
+            border-color 0.3s ease,
+            background 0.3s ease;
         }
 
-
-        /* ==================================================
-           DESKTOP INTERACTION
-        ================================================== */
-
-        @media (
-          hover: hover
-        ) and (
-          pointer: fine
-        ) {
-
+        @media (hover: hover) and (pointer: fine) {
           .experience-portal__card:hover {
-            border-color:
-              rgba(
-                164,
-                218,
-                244,
-                0.14
-              );
-
+            border-color: rgba(196, 229, 250, 0.4);
             box-shadow:
-              inset
-              0
-              1px
-              0
-              rgba(
-                255,
-                255,
-                255,
-                0.065
-              ),
-              0
-              38px
-              110px
-              rgba(
-                0,
-                0,
-                0,
-                0.36
-              );
+              inset 0 1px 0 rgba(255, 255, 255, 0.13),
+              0 30px 85px rgba(0, 0, 0, 0.28);
           }
-
 
           .experience-portal__card:hover
-          .experience-portal__arrow {
-            border-color:
-              rgba(
-                168,
-                220,
-                245,
-                0.21
-              );
-
-            background:
-              rgba(
-                150,
-                210,
-                240,
-                0.06
-              );
-
-            box-shadow:
-              inset
-              0
-              1px
-              0
-              rgba(
-                255,
-                255,
-                255,
-                0.07
-              ),
-              0
-              0
-              24px
-              rgba(
-                126,
-                204,
-                240,
-                0.06
-              );
+            .experience-portal__arrow {
+            border-color: rgba(200, 232, 252, 0.5);
+            background: rgba(217, 236, 250, 0.13);
           }
         }
 
-
-        /* ==================================================
-           MOBILE
-        ================================================== */
-
-        @media (
-          max-width: 700px
-        ) {
-
+        @media (max-width: 700px) {
           .experience-portal {
-            padding:
-              14px
-              0;
+            padding: 12px 0;
           }
-
 
           .experience-portal__card {
-            min-height: 430px;
-
-            padding:
-              23px
-              21px
-              20px;
-
-            border-radius: 23px;
-
-            -webkit-backdrop-filter:
-              blur(20px)
-              saturate(110%);
-
-            backdrop-filter:
-              blur(20px)
-              saturate(110%);
+            min-height: 470px;
+            padding: 22px 16px;
+            border-radius: 22px;
           }
 
-
-          .experience-portal__identity
-          > span {
-            font-size: 6px;
-
-            letter-spacing:
-              0.18em;
+          .experience-portal__top {
+            gap: 10px;
           }
 
-
-          .experience-portal__identity
-          > small {
-            font-size: 5px;
+          .experience-portal__identity > span {
+            font-size: 9px;
+            letter-spacing: 0.06em;
           }
 
+          .experience-portal__identity > small {
+            font-size: 8px;
+            letter-spacing: 0.02em;
+          }
 
           .experience-portal__live {
-            font-size: 5px;
+            font-size: 9px;
           }
-
 
           .experience-portal__content {
-            padding:
-              46px
-              0
-              40px;
+            padding: 54px 0 44px;
           }
-
 
           .experience-portal__content h2 {
-            max-width: 100%;
-
-            font-size:
-              clamp(
-                45px,
-                14.5vw,
-                66px
-              );
-
-            line-height:
-              0.9;
+            font-size: clamp(34px, 10.3vw, 68px);
+            line-height: 1.03;
+            letter-spacing: -0.055em;
           }
 
-
           .experience-portal__content p {
-            max-width: 310px;
-
+            max-width: 440px;
             margin-top: 23px;
-
-            font-size: 10px;
-
+            font-size: 13px;
             line-height: 1.7;
           }
 
-
           .experience-portal__layers {
-            max-width: 310px;
-
-            margin-top: 27px;
-
             gap: 8px;
-
-            font-size: 5px;
+            margin-top: 28px;
+            font-size: 9px;
+            letter-spacing: 0.04em;
           }
-
 
           .experience-portal__layers i {
-            width: 12px;
+            width: 10px;
           }
-
 
           .experience-portal__footer {
-            align-items:
-              flex-end;
-
-            gap: 14px;
+            gap: 12px;
           }
 
-
-          .experience-portal__coordinates
-          > small {
-            display: none;
+          .experience-portal__coordinates > span {
+            font-size: 9px;
           }
 
-
-          .experience-portal__arrow {
-            width: 38px;
-            height: 38px;
-
-            font-size: 12px;
+          .experience-portal__coordinates > small {
+            font-size: 9px;
           }
-
 
           .experience-portal__enter-copy {
             display: none;
           }
 
-
-          .experience-portal__grid {
-            background-size:
-              44px
-              44px;
-          }
-
-
-          .experience-portal__horizon {
-            right: 2%;
-
-            width: 48%;
-
-            bottom: 26%;
+          .experience-portal__arrow {
+            width: 40px;
+            height: 40px;
           }
         }
 
-
-        /* ==================================================
-           SMALL MOBILE
-        ================================================== */
-
-        @media (
-          max-width: 430px
-        ) {
-
+        @media (max-width: 390px) {
           .experience-portal__card {
-            min-height: 410px;
-
-            padding:
-              21px
-              18px
-              18px;
-
-            border-radius: 21px;
+            padding: 20px 12px;
           }
-
-
-          .experience-portal__content {
-            padding:
-              40px
-              0
-              34px;
-          }
-
 
           .experience-portal__content h2 {
-            font-size:
-              clamp(
-                42px,
-                14vw,
-                58px
-              );
+            font-size: clamp(30px, 9.8vw, 40px);
           }
 
-
-          .experience-portal__system-label {
-            font-size: 5px;
+          .experience-portal__identity > small {
+            max-width: 180px;
           }
         }
 
-
-        /* ==================================================
-           REDUCED MOTION
-        ================================================== */
-
-        @media (
-          prefers-reduced-motion:
-          reduce
-        ) {
-
+        @media (prefers-reduced-motion: reduce) {
           .experience-portal__card,
           .experience-portal__arrow {
-            transition:
-              none !important;
+            transition: none !important;
           }
         }
-
       `}</style>
     </section>
   );

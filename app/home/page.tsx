@@ -15,6 +15,9 @@ import TodaysInquiryPortal
 import ArcheNovaMap
   from "../components/civilization/ArcheNovaMap";
 
+import CivilizationSpacePortal
+  from "../components/CivilizationSpacePortal";
+
 import ArcheNovaValleyPortal
   from "../components/ArcheNovaValleyPortal";
 
@@ -22,7 +25,7 @@ import ArcheNovaValleyPortal
 /* ==========================================================
    HOME
 
-   ArcheNova Home is intentionally reduced to four
+   ArcheNova Home is organized into five
    primary environments:
 
    01 / MAP
@@ -32,23 +35,43 @@ import ArcheNovaValleyPortal
         Think, question, challenge, and reason.
 
    03 / TODAY'S INQUIRY
-        Focus attention on a living question.
+        Establish contact with a living question
+        at the frontier of reality.
 
-   04 / ARCHENOVA VALLEY
-        Move knowledge toward implementation,
-        governance, experience, and civilization.
+   04 / CIVILIZATION SPACE
+        Preserve knowledge, understand change,
+        and encounter civilization-level experience.
 
-   Detailed civilization systems now live inside:
+   05 / ARCHENOVA VALLEY
+        Transform validated possibility into
+        bounded implementation and reality contact.
 
-   /archenova-valley
+   The environments remain distinct:
 
-   Reality
-   → Knowledge
-   → Intelligence
-   → Implementation
-   → Governance
-   → Experience
-   → Civilization
+   MAP
+   = Discovery
+
+   EPISTEME
+   = Cognition
+
+   TODAY'S INQUIRY
+   = Reality Contact
+
+   CIVILIZATION SPACE
+   = Preserve · Understand · Experience
+
+   ARCHENOVA VALLEY
+   = Implement · Deploy · Learn
+
+   System direction:
+
+   Explore
+   → Think
+   → Question Reality
+   → Preserve / Understand / Experience
+   → Implement
+   → Reality
+   → Learn
 ========================================================== */
 
 export default function Home() {
@@ -101,6 +124,12 @@ export default function Home() {
 
           Think with ArcheNova's
           conversational intelligence.
+
+          ASK
+          → EXPLORE
+          → CHALLENGE
+          → COMPARE
+          → SIMULATE
       ================================================== */}
 
       <section
@@ -120,8 +149,9 @@ export default function Home() {
           03
           TODAY'S INQUIRY
 
-          A living question at the
-          frontier of current inquiry.
+          Question reality through a living
+          inquiry at the frontier of current
+          scientific and technological knowledge.
       ================================================== */}
 
       <section
@@ -138,24 +168,62 @@ export default function Home() {
 
       {/* ==================================================
           04
+          CIVILIZATION SPACE
+
+          Preserve.
+          Understand.
+          Experience.
+
+          A shared civilization environment for:
+
+          Library
+          → Intelligence
+          → Experience
+
+          Civilization Space does not own
+          implementation authority.
+
+          Implementation remains the responsibility
+          of ArcheNova Valley.
+      ================================================== */}
+
+      <section
+        id="civilization-space"
+        data-home-section
+        className="
+          home-page
+          twin-page
+          civilization-space-page
+        "
+      >
+        <CivilizationSpacePortal />
+      </section>
+
+
+      {/* ==================================================
+          05
           ARCHENOVA VALLEY
 
-          Where knowledge becomes reality.
+          Build what can survive reality.
 
-          Future position:
-          ArcheNova's civilization implementation
-          ecosystem — an environment connecting:
+          ArcheNova Valley is the dedicated
+          civilization implementation environment:
 
-          Knowledge
-          → Intelligence
-          → Engineering
+          Realization
           → Projects
-          → Commercialization
-          → Capital
-          → Governance
+          → Commercialization? / Capital
+          → Governance Gate
           → Deployment
-          → Experience
-          → Civilization
+          → Reality
+          → Evidence Feedback
+          → Learning
+
+          Commercialization remains conditional.
+
+          Implementation Governance Gate remains
+          distinct from Civilization Governance.
+
+          Reality retains veto.
       ================================================== */}
 
       <section

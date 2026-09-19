@@ -153,6 +153,21 @@ export const senateAgenda =
   {
     "id": "agenda-11",
     "rank": 11,
+    "title": "Introducing the Australian Youth Safety Blueprint",
+    "slug": "ai-introducing-the-australian-youth-safety-blueprint",
+    "category": "AI",
+    "source": "OpenAI",
+    "score": 9.2,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
     "title": "Asahi Kasei Introduces VANTIJ® SU-VFC Benchtop Virus-Filtration System",
     "slug": "bio-asahi-kasei-introduces-vantij-su-vfc-benchtop-virus-filtration-system",
     "category": "Bio",
@@ -163,21 +178,6 @@ export const senateAgenda =
     "constitutionalQuestion": "Does this strengthen adaptive capacity?",
     "whyItMatters": "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems.",
     "architectureHandoff": "Adaptive Capacity Systems",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": " ESA and The Pokémon Company International reveal Europe-wide exhibition and astronaut Pikachu experience ",
-    "slug": "space-esa-and-the-pok-mon-company-international-reveal-europe-wide-exhibition-and-astr",
-    "category": "Space",
-    "source": "ESA",
-    "score": 9,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Orbital Infrastructure",
     "status": "Open"
   }
 ];

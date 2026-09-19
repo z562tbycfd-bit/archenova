@@ -1,7 +1,175 @@
 {
   "ok": true,
-  "updated": "2026-09-19T02:17:56.280Z",
+  "updated": "2026-09-19T06:56:49.988Z",
   "items": [
+    {
+      "id": "reality-discovery-apod-2026-september-19-a-zodiacal-night",
+      "title": "APOD: 2026 September 19 – A Zodiacal Night",
+      "source": "NASA",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+      "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+      "category": "Reality Discovery",
+      "summary": "APOD Science APOD APOD: 2026 September 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "observation": "APOD Science APOD APOD: 2026 September 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "implications": [
+        "May influence the transition from reality discovery knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "APOD: 2026 September 19 – A Zodiacal Night should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Reality Discovery",
+      "relatedTopics": [
+        "General"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.3
+      },
+      "publishedAt": "2026-09-19T04:05:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.953Z",
+      "ts": 1789790700000
+    },
+    {
+      "id": "adaptive-capacity-improving-urban-flood-forecasting-with-real-time-hazardous-rainfall-detection",
+      "title": "Improving urban flood forecasting with real-time hazardous rainfall detection",
+      "source": "Phys.org",
+      "sourceUrl": "https://phys.org/news/2026-09-urban-real-hazardous-rainfall.html",
+      "originalUrl": "https://phys.org/news/2026-09-urban-real-hazardous-rainfall.html",
+      "url": "https://phys.org/news/2026-09-urban-real-hazardous-rainfall.html",
+      "category": "Adaptive Capacity",
+      "summary": "The Korea Institute of Civil Engineering and Building Technology (KICT) announced that it will apply its early detection technology for quasi-stationary linear rainbands and sudden localized torrential rainfall to the Ur…",
+      "observation": "The Korea Institute of Civil Engineering and Building Technology (KICT) announced that it will apply its early detection technology for quasi-stationary linear rainbands and sudden localized torrential rainfall to the Ur…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "implications": [
+        "May improve environmental sensing, climate adaptation, resource management, or disaster resilience.",
+        "Could affect urban systems, water, food, public health, infrastructure, and regional stability.",
+        "May strengthen civilization's ability to operate under planetary uncertainty."
+      ],
+      "commentary": "Improving urban flood forecasting with real-time hazardous rainfall detection should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 74,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+      "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+      "civilizationFunction": "Adaptive Capacity",
+      "relatedTopics": [
+        "Climate and Environment"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "reasoning",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Law & Governance"
+      ],
+      "currentStage": "Active System Stress",
+      "expectedHorizon": "Immediate / Ongoing",
+      "horizonRationale": "This signal is currently assessed as Active System Stress, placing it in the Immediate / Ongoing horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8,
+        "civilizationImpact": 6.5,
+        "overall": 6
+      },
+      "publishedAt": "2026-09-19T03:20:02.000Z",
+      "updatedAt": "2026-09-19T06:56:49.954Z",
+      "ts": 1789788002000
+    },
+    {
+      "id": "civilization-engineering-how-rural-policing-gaps-can-make-escaping-domestic-violence-harder",
+      "title": "How rural policing gaps can make escaping domestic violence harder",
+      "source": "Phys.org",
+      "sourceUrl": "https://phys.org/news/2026-09-rural-policing-gaps-domestic-violence.html",
+      "originalUrl": "https://phys.org/news/2026-09-rural-policing-gaps-domestic-violence.html",
+      "url": "https://phys.org/news/2026-09-rural-policing-gaps-domestic-violence.html",
+      "category": "Civilization Engineering",
+      "summary": "Before murdering Molly Ticehurst in April 2024, court documents show Daniel Billings had threatened to exploit the limits of policing in her country town: \"I will come in the middle of the night … The police won't stop m…",
+      "observation": "Before murdering Molly Ticehurst in April 2024, court documents show Daniel Billings had threatened to exploit the limits of policing in her country town: \"I will come in the middle of the night … The police won't stop m…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "How rural policing gaps can make escaping domestic violence harder should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "General"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-19T02:20:02.000Z",
+      "updatedAt": "2026-09-19T06:56:49.954Z",
+      "ts": 1789784402000
+    },
     {
       "id": "civilization-engineering-peer-sexual-harassment-emerges-early-highlighting-need-for-prevention-before-gra",
       "title": "Peer sexual harassment emerges early, highlighting need for prevention before Grade 4",
@@ -54,7 +222,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-19T01:00:01.000Z",
-      "updatedAt": "2026-09-19T02:17:56.246Z",
+      "updatedAt": "2026-09-19T06:56:49.955Z",
       "ts": 1789779601000
     },
     {
@@ -109,7 +277,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-19T00:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.246Z",
+      "updatedAt": "2026-09-19T06:56:49.955Z",
       "ts": 1789776000000
     },
     {
@@ -164,7 +332,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-19T00:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.246Z",
+      "updatedAt": "2026-09-19T06:56:49.955Z",
       "ts": 1789776000000
     },
     {
@@ -222,7 +390,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T22:20:02.000Z",
-      "updatedAt": "2026-09-19T02:17:56.247Z",
+      "updatedAt": "2026-09-19T06:56:49.955Z",
       "ts": 1789770002000
     },
     {
@@ -280,7 +448,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-09-18T22:01:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.247Z",
+      "updatedAt": "2026-09-19T06:56:49.956Z",
       "ts": 1789768860000
     },
     {
@@ -335,7 +503,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T21:00:01.000Z",
-      "updatedAt": "2026-09-19T02:17:56.248Z",
+      "updatedAt": "2026-09-19T06:56:49.956Z",
       "ts": 1789765201000
     },
     {
@@ -395,7 +563,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T20:22:36.000Z",
-      "updatedAt": "2026-09-19T02:17:56.248Z",
+      "updatedAt": "2026-09-19T06:56:49.956Z",
       "ts": 1789762956000
     },
     {
@@ -453,7 +621,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T19:56:08.000Z",
-      "updatedAt": "2026-09-19T02:17:56.248Z",
+      "updatedAt": "2026-09-19T06:56:49.957Z",
       "ts": 1789761368000
     },
     {
@@ -508,7 +676,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T19:20:05.000Z",
-      "updatedAt": "2026-09-19T02:17:56.249Z",
+      "updatedAt": "2026-09-19T06:56:49.957Z",
       "ts": 1789759205000
     },
     {
@@ -569,7 +737,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T19:20:02.000Z",
-      "updatedAt": "2026-09-19T02:17:56.249Z",
+      "updatedAt": "2026-09-19T06:56:49.957Z",
       "ts": 1789759202000
     },
     {
@@ -624,7 +792,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T19:00:04.000Z",
-      "updatedAt": "2026-09-19T02:17:56.249Z",
+      "updatedAt": "2026-09-19T06:56:49.958Z",
       "ts": 1789758004000
     },
     {
@@ -682,7 +850,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T19:00:01.000Z",
-      "updatedAt": "2026-09-19T02:17:56.250Z",
+      "updatedAt": "2026-09-19T06:56:49.958Z",
       "ts": 1789758001000
     },
     {
@@ -740,7 +908,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T18:40:07.000Z",
-      "updatedAt": "2026-09-19T02:17:56.250Z",
+      "updatedAt": "2026-09-19T06:56:49.958Z",
       "ts": 1789756807000
     },
     {
@@ -795,7 +963,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T18:40:01.000Z",
-      "updatedAt": "2026-09-19T02:17:56.251Z",
+      "updatedAt": "2026-09-19T06:56:49.959Z",
       "ts": 1789756801000
     },
     {
@@ -850,7 +1018,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T18:20:07.000Z",
-      "updatedAt": "2026-09-19T02:17:56.251Z",
+      "updatedAt": "2026-09-19T06:56:49.959Z",
       "ts": 1789755607000
     },
     {
@@ -908,7 +1076,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T18:20:04.000Z",
-      "updatedAt": "2026-09-19T02:17:56.251Z",
+      "updatedAt": "2026-09-19T06:56:49.960Z",
       "ts": 1789755604000
     },
     {
@@ -966,7 +1134,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T18:02:53.000Z",
-      "updatedAt": "2026-09-19T02:17:56.252Z",
+      "updatedAt": "2026-09-19T06:56:49.960Z",
       "ts": 1789754573000
     },
     {
@@ -1021,7 +1189,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T18:00:06.000Z",
-      "updatedAt": "2026-09-19T02:17:56.252Z",
+      "updatedAt": "2026-09-19T06:56:49.961Z",
       "ts": 1789754406000
     },
     {
@@ -1079,7 +1247,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T18:00:01.000Z",
-      "updatedAt": "2026-09-19T02:17:56.252Z",
+      "updatedAt": "2026-09-19T06:56:49.961Z",
       "ts": 1789754401000
     },
     {
@@ -1134,7 +1302,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T17:40:05.000Z",
-      "updatedAt": "2026-09-19T02:17:56.253Z",
+      "updatedAt": "2026-09-19T06:56:49.961Z",
       "ts": 1789753205000
     },
     {
@@ -1192,7 +1360,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T17:40:01.000Z",
-      "updatedAt": "2026-09-19T02:17:56.253Z",
+      "updatedAt": "2026-09-19T06:56:49.962Z",
       "ts": 1789753201000
     },
     {
@@ -1247,7 +1415,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T17:29:42.000Z",
-      "updatedAt": "2026-09-19T02:17:56.254Z",
+      "updatedAt": "2026-09-19T06:56:49.962Z",
       "ts": 1789752582000
     },
     {
@@ -1302,7 +1470,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T17:20:15.000Z",
-      "updatedAt": "2026-09-19T02:17:56.254Z",
+      "updatedAt": "2026-09-19T06:56:49.962Z",
       "ts": 1789752015000
     },
     {
@@ -1363,7 +1531,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T17:20:12.000Z",
-      "updatedAt": "2026-09-19T02:17:56.254Z",
+      "updatedAt": "2026-09-19T06:56:49.963Z",
       "ts": 1789752012000
     },
     {
@@ -1418,7 +1586,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T17:20:10.000Z",
-      "updatedAt": "2026-09-19T02:17:56.255Z",
+      "updatedAt": "2026-09-19T06:56:49.963Z",
       "ts": 1789752010000
     },
     {
@@ -1475,7 +1643,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T17:19:30.000Z",
-      "updatedAt": "2026-09-19T02:17:56.255Z",
+      "updatedAt": "2026-09-19T06:56:49.964Z",
       "ts": 1789751970000
     },
     {
@@ -1533,7 +1701,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T17:18:46.000Z",
-      "updatedAt": "2026-09-19T02:17:56.255Z",
+      "updatedAt": "2026-09-19T06:56:49.964Z",
       "ts": 1789751926000
     },
     {
@@ -1589,7 +1757,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T17:17:26.000Z",
-      "updatedAt": "2026-09-19T02:17:56.256Z",
+      "updatedAt": "2026-09-19T06:56:49.964Z",
       "ts": 1789751846000
     },
     {
@@ -1644,121 +1812,8 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T17:17:11.000Z",
-      "updatedAt": "2026-09-19T02:17:56.256Z",
+      "updatedAt": "2026-09-19T06:56:49.965Z",
       "ts": 1789751831000
-    },
-    {
-      "id": "adaptive-capacity-hemp-waste-cellulose-unlocks-tougher-biodegradable-plastics",
-      "title": "Hemp waste cellulose unlocks tougher biodegradable plastics",
-      "source": "Phys.org",
-      "sourceUrl": "https://phys.org/news/2026-09-hemp-cellulose-tougher-biodegradable-plastics.html",
-      "originalUrl": "https://phys.org/news/2026-09-hemp-cellulose-tougher-biodegradable-plastics.html",
-      "url": "https://phys.org/news/2026-09-hemp-cellulose-tougher-biodegradable-plastics.html",
-      "category": "Adaptive Capacity",
-      "summary": "Korean researchers have developed a method to strengthen biodegradable plastics using hemp hurd, an agricultural byproduct. The approach is expected to be applicable to other large-volume agricultural residues, including…",
-      "observation": "Korean researchers have developed a method to strengthen biodegradable plastics using hemp hurd, an agricultural byproduct. The approach is expected to be applicable to other large-volume agricultural residues, including…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "implications": [
-        "May influence the transition from adaptive capacity knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Hemp waste cellulose unlocks tougher biodegradable plastics should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "confidence": 87,
-      "state": "PROCESSING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Adaptive Capacity",
-      "relatedTopics": [
-        "Biotechnology"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Applied Research",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "publishedAt": "2026-09-18T17:00:04.000Z",
-      "updatedAt": "2026-09-19T02:17:56.256Z",
-      "ts": 1789750804000
-    },
-    {
-      "id": "civilization-engineering-background-hums-and-buzzes-affect-human-behavior-researcher-finds",
-      "title": "Background hums and buzzes affect human behavior, researcher finds",
-      "source": "Phys.org",
-      "sourceUrl": "https://phys.org/news/2026-09-background-affect-human-behavior.html",
-      "originalUrl": "https://phys.org/news/2026-09-background-affect-human-behavior.html",
-      "url": "https://phys.org/news/2026-09-background-affect-human-behavior.html",
-      "category": "Civilization Engineering",
-      "summary": "Have you ever stopped and listened to the background sounds in a room you are in? The hum of the ventilation? The buzz of electricity? While most of the time we are barely aware of these sounds, Arthur Jinyue Guo, a rese…",
-      "observation": "Have you ever stopped and listened to the background sounds in a room you are in? The hum of the ventilation? The buzz of electricity? While most of the time we are barely aware of these sounds, Arthur Jinyue Guo, a rese…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
-        "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
-        "May expand or constrain the operating freedom of civilization-scale systems."
-      ],
-      "commentary": "Background hums and buzzes affect human behavior, researcher finds should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 88,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-      "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "Energy Systems"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "design",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Capital",
-        "Law & Governance"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-09-18T17:00:01.000Z",
-      "updatedAt": "2026-09-19T02:17:56.257Z",
-      "ts": 1789750801000
     },
     {
       "id": "adaptive-capacity-will-the-u-s-megadrought-ever-end",
@@ -1815,7 +1870,7 @@
         "overall": 6
       },
       "publishedAt": "2026-09-18T17:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.257Z",
+      "updatedAt": "2026-09-19T06:56:49.965Z",
       "ts": 1789750800000
     },
     {
@@ -1871,7 +1926,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T16:41:53.000Z",
-      "updatedAt": "2026-09-19T02:17:56.257Z",
+      "updatedAt": "2026-09-19T06:56:49.965Z",
       "ts": 1789749713000
     },
     {
@@ -1933,7 +1988,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T16:28:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.257Z",
+      "updatedAt": "2026-09-19T06:56:49.965Z",
       "ts": 1789748880000
     },
     {
@@ -1988,7 +2043,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T16:04:14.000Z",
-      "updatedAt": "2026-09-19T02:17:56.258Z",
+      "updatedAt": "2026-09-19T06:56:49.966Z",
       "ts": 1789747454000
     },
     {
@@ -2046,7 +2101,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-09-18T16:02:31.000Z",
-      "updatedAt": "2026-09-19T02:17:56.258Z",
+      "updatedAt": "2026-09-19T06:56:49.966Z",
       "ts": 1789747351000
     },
     {
@@ -2101,7 +2156,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T15:45:03.000Z",
-      "updatedAt": "2026-09-19T02:17:56.258Z",
+      "updatedAt": "2026-09-19T06:56:49.966Z",
       "ts": 1789746303000
     },
     {
@@ -2157,7 +2212,7 @@
         "overall": 6
       },
       "publishedAt": "2026-09-18T15:11:45.000Z",
-      "updatedAt": "2026-09-19T02:17:56.259Z",
+      "updatedAt": "2026-09-19T06:56:49.967Z",
       "ts": 1789744305000
     },
     {
@@ -2212,7 +2267,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T15:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.259Z",
+      "updatedAt": "2026-09-19T06:56:49.967Z",
       "ts": 1789743600000
     },
     {
@@ -2271,7 +2326,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T14:47:38.000Z",
-      "updatedAt": "2026-09-19T02:17:56.259Z",
+      "updatedAt": "2026-09-19T06:56:49.967Z",
       "ts": 1789742858000
     },
     {
@@ -2326,7 +2381,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T13:55:50.000Z",
-      "updatedAt": "2026-09-19T02:17:56.260Z",
+      "updatedAt": "2026-09-19T06:56:49.968Z",
       "ts": 1789739750000
     },
     {
@@ -2387,7 +2442,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T13:42:29.000Z",
-      "updatedAt": "2026-09-19T02:17:56.260Z",
+      "updatedAt": "2026-09-19T06:56:49.968Z",
       "ts": 1789738949000
     },
     {
@@ -2442,7 +2497,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T13:38:24.000Z",
-      "updatedAt": "2026-09-19T02:17:56.260Z",
+      "updatedAt": "2026-09-19T06:56:49.968Z",
       "ts": 1789738704000
     },
     {
@@ -2500,7 +2555,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T13:38:12.000Z",
-      "updatedAt": "2026-09-19T02:17:56.261Z",
+      "updatedAt": "2026-09-19T06:56:49.968Z",
       "ts": 1789738692000
     },
     {
@@ -2558,7 +2613,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-09-18T13:29:38.000Z",
-      "updatedAt": "2026-09-19T02:17:56.261Z",
+      "updatedAt": "2026-09-19T06:56:49.969Z",
       "ts": 1789738178000
     },
     {
@@ -2613,7 +2668,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T13:05:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.261Z",
+      "updatedAt": "2026-09-19T06:56:49.969Z",
       "ts": 1789736700000
     },
     {
@@ -2668,7 +2723,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T13:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.262Z",
+      "updatedAt": "2026-09-19T06:56:49.969Z",
       "ts": 1789736400000
     },
     {
@@ -2725,7 +2780,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T12:11:48.000Z",
-      "updatedAt": "2026-09-19T02:17:56.262Z",
+      "updatedAt": "2026-09-19T06:56:49.969Z",
       "ts": 1789733508000
     },
     {
@@ -2781,7 +2836,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T12:10:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.262Z",
+      "updatedAt": "2026-09-19T06:56:49.970Z",
       "ts": 1789733400000
     },
     {
@@ -2836,7 +2891,520 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T12:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.263Z",
+      "updatedAt": "2026-09-19T06:56:49.970Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "civilization-engineering-introducing-the-australian-youth-safety-blueprint",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "source": "OpenAI",
+      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "originalUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "category": "Civilization Engineering",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "observation": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
+        "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
+        "May expand or constrain the operating freedom of civilization-scale systems."
+      ],
+      "commentary": "Introducing the Australian Youth Safety Blueprint should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+      "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "Artificial Intelligence",
+        "Energy Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Capital",
+        "Law & Governance"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "5–15 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
+      "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.970Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "adaptive-capacity-violence-will-only-defer-a-problem-un-assembly-president-on-trust-ai-and-lessons",
+      "title": "‘Violence will only defer a problem’: UN Assembly President on trust, AI and lessons from the Rohingya crisis",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168375",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168375",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168375",
+      "category": "Adaptive Capacity",
+      "summary": "Khalilur Rahman took the gavel as President of the UN General Assembly's 81st session amid what he calls a crisis of confidence in the organization he has served – in one capacity or another – for 35 years.",
+      "observation": "Khalilur Rahman took the gavel as President of the UN General Assembly's 81st session amid what he calls a crisis of confidence in the organization he has served – in one capacity or another – for 35 years.",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "implications": [
+        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
+        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
+        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
+      ],
+      "commentary": "‘Violence will only defer a problem’: UN Assembly President on trust, AI and lessons from the Rohingya crisis should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 80,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+      "civilizationFunction": "Adaptive Capacity",
+      "relatedTopics": [
+        "Artificial Intelligence",
+        "Biotechnology"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "reasoning",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Law & Governance",
+        "Capital",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Active System Stress",
+      "expectedHorizon": "Immediate / Ongoing",
+      "horizonRationale": "This signal is currently assessed as Active System Stress, placing it in the Immediate / Ongoing horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.970Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "civilization-engineering-security-council-live-un-peacekeeping-under-pressure",
+      "title": "Security Council LIVE: UN peacekeeping under pressure",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168376",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168376",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168376",
+      "category": "Civilization Engineering",
+      "summary": "UN peacekeepers have increasingly been sent into places where there is no peace to keep – under resourced, outgunned and exposed to violence they are not equipped to counter. The Security Council meets this afternoon in …",
+      "observation": "UN peacekeepers have increasingly been sent into places where there is no peace to keep – under resourced, outgunned and exposed to violence they are not equipped to counter. The Security Council meets this afternoon in …",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Security Council LIVE: UN peacekeeping under pressure should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "Security and Risk"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.971Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "civilization-engineering-sexual-violence-against-civilians-and-pow-s-in-ukraine-widespread-and-abhorrent",
+      "title": "Sexual violence against civilians and POW’s in Ukraine widespread and ‘abhorrent’",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168374",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168374",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168374",
+      "category": "Civilization Engineering",
+      "summary": "Over 1,000 cases of sexual violence against civilians and prisoners of war (POWs) in Ukraine have been documented from the start of Russia’s invasion to the end of July this year.",
+      "observation": "Over 1,000 cases of sexual violence against civilians and prisoners of war (POWs) in Ukraine have been documented from the start of Russia’s invasion to the end of July this year.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Sexual violence against civilians and POW’s in Ukraine widespread and ‘abhorrent’ should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "Security and Risk"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.971Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "civilization-engineering-less-than-4-years-from-development-goals-deadline-progress-shows-what-s-possible",
+      "title": "Less than 4 years from development goals deadline, progress shows what’s possible",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168371",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168371",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168371",
+      "category": "Civilization Engineering",
+      "summary": "For Benin, making progress on the UN’s Sustainable Development Goals (SDGs) has meant finding new ways to finance development.",
+      "observation": "For Benin, making progress on the UN’s Sustainable Development Goals (SDGs) has meant finding new ways to finance development.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Less than 4 years from development goals deadline, progress shows what’s possible should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "AI"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.972Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "civilization-engineering-women-and-girls-pay-high-price-in-dr-congo-ebola-outbreak",
+      "title": "Women and girls pay high price in DR Congo Ebola outbreak",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168368",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168368",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168368",
+      "category": "Civilization Engineering",
+      "summary": "The deadly Ebola outbreak in the Democratic Republic of the Congo (DRC) has taken a disproportionate toll on women and girls, many of whom are on the frontlines caring for patients as well as their own families despite t…",
+      "observation": "The deadly Ebola outbreak in the Democratic Republic of the Congo (DRC) has taken a disproportionate toll on women and girls, many of whom are on the frontlines caring for patients as well as their own families despite t…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
+        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
+        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
+      ],
+      "commentary": "Women and girls pay high price in DR Congo Ebola outbreak should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "Health Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "reasoning",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Law & Governance",
+        "Capital",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "5–15 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
+      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.972Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "civilization-engineering-haiti-child-malnutrition-crisis-worsens-amid-escalating-violence",
+      "title": "Haiti: Child malnutrition crisis worsens amid escalating violence",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168366",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168366",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168366",
+      "category": "Civilization Engineering",
+      "summary": "Haiti is facing a worsening child malnutrition crisis, with an estimated 253,725 children aged 6 to 59 months projected to suffer from acute malnutrition between June 2026 and May 2027, new UN-backed analysis has reveale…",
+      "observation": "Haiti is facing a worsening child malnutrition crisis, with an estimated 253,725 children aged 6 to 59 months projected to suffer from acute malnutrition between June 2026 and May 2027, new UN-backed analysis has reveale…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Haiti: Child malnutrition crisis worsens amid escalating violence should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 82,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "AI"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Active System Stress",
+      "expectedHorizon": "Immediate / Ongoing",
+      "horizonRationale": "This signal is currently assessed as Active System Stress, placing it in the Immediate / Ongoing horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.972Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "synchronization-systems-nepal-floods-apocalyptic-destruction-signals-wider-climate-threat-across-himalay",
+      "title": "Nepal floods: ‘Apocalyptic’ destruction signals wider climate threat across Himalayas",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168365",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168365",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168365",
+      "category": "Synchronization Systems",
+      "summary": "The catastrophic flooding that swept away entire villages in northern Nepal could occur again in the country or elsewhere in the Himalayas due to climate change.",
+      "observation": "The catastrophic flooding that swept away entire villages in northern Nepal could occur again in the country or elsewhere in the Himalayas due to climate change.",
+      "implication": "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+      "implications": [
+        "May improve environmental sensing, climate adaptation, resource management, or disaster resilience.",
+        "Could affect urban systems, water, food, public health, infrastructure, and regional stability.",
+        "May strengthen civilization's ability to operate under planetary uncertainty."
+      ],
+      "commentary": "Nepal floods: ‘Apocalyptic’ destruction signals wider climate threat across Himalayas should not be interpreted only as a news item. From the ArcheNova perspective, it is a Synchronization Systems signal: This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+      "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 75,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+      "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+      "civilizationFunction": "Synchronization Systems",
+      "relatedTopics": [
+        "Climate and Environment"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "reasoning",
+        "design",
+        "realization",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Law & Governance"
+      ],
+      "currentStage": "Active System Stress",
+      "expectedHorizon": "Immediate / Ongoing",
+      "horizonRationale": "This signal is currently assessed as Active System Stress, placing it in the Immediate / Ongoing horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 6.5,
+        "synchronizationImpact": 8.8,
+        "adaptiveCapacity": 6.4,
+        "civilizationImpact": 6.7,
+        "overall": 6.5
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.972Z",
+      "ts": 1789732800000
+    },
+    {
+      "id": "civilization-engineering-yemen-s-humanitarian-crisis-growing-by-the-hour-amid-spike-in-displacement",
+      "title": "Yemen’s humanitarian crisis growing by the hour amid spike in displacement",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/feed/view/en/story/2026/09/1168364",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168364",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168364",
+      "category": "Civilization Engineering",
+      "summary": "People displaced by the renewed fighting in Yemen have described fleeing for their lives amid shelling and gunfire, aid agencies reported on Friday, while highlighting the dramatic increase in humanitarian needs in the c…",
+      "observation": "People displaced by the renewed fighting in Yemen have described fleeing for their lives amid shelling and gunfire, aid agencies reported on Friday, while highlighting the dramatic increase in humanitarian needs in the c…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "implications": [
+        "May influence the transition from civilization engineering knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Yemen’s humanitarian crisis growing by the hour amid spike in displacement should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 88,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "relatedTopics": [
+        "AI"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Active System Stress",
+      "expectedHorizon": "Immediate / Ongoing",
+      "horizonRationale": "This signal is currently assessed as Active System Stress, placing it in the Immediate / Ongoing horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.973Z",
       "ts": 1789732800000
     },
     {
@@ -2891,7 +3459,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T11:29:22.000Z",
-      "updatedAt": "2026-09-19T02:17:56.263Z",
+      "updatedAt": "2026-09-19T06:56:49.973Z",
       "ts": 1789730962000
     },
     {
@@ -2946,7 +3514,172 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T10:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.263Z",
+      "updatedAt": "2026-09-19T06:56:49.974Z",
+      "ts": 1789725600000
+    },
+    {
+      "id": "reality-discovery-investigating-spectral-dynamics-and-spin-signatures-of-a-mechanically-isolated-q",
+      "title": "Investigating spectral dynamics and spin signatures of a mechanically isolated quantum emitter in $h\\mathrm{BN}$",
+      "source": "APS PR Applied",
+      "sourceUrl": "http://link.aps.org/doi/10.1103/m3gt-9g4v",
+      "originalUrl": "http://link.aps.org/doi/10.1103/m3gt-9g4v",
+      "url": "http://link.aps.org/doi/10.1103/m3gt-9g4v",
+      "category": "Reality Discovery",
+      "summary": "Author(s): Sajedeh Shahbazi, Alexander Pachl, Kathrin Schwer, Patrick Maier, and Alexander Kubanek Mechanically isolated defect centers in hexagonal boron nitride are promising coherent quantum emitters, yet spectral ins…",
+      "observation": "Author(s): Sajedeh Shahbazi, Alexander Pachl, Kathrin Schwer, Patrick Maier, and Alexander Kubanek Mechanically isolated defect centers in hexagonal boron nitride are promising coherent quantum emitters, yet spectral ins…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "implications": [
+        "May influence the transition from reality discovery knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Investigating spectral dynamics and spin signatures of a mechanically isolated quantum emitter in $h\\mathrm{BN}$ should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Reality Discovery",
+      "relatedTopics": [
+        "Quantum Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.3
+      },
+      "publishedAt": "2026-09-18T10:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.974Z",
+      "ts": 1789725600000
+    },
+    {
+      "id": "reality-discovery-frequency-collisions-in-parametrically-modulated-superconducting-circuits",
+      "title": "Frequency collisions in parametrically modulated superconducting circuits",
+      "source": "APS PR Applied",
+      "sourceUrl": "http://link.aps.org/doi/10.1103/ptj2-kcpc",
+      "originalUrl": "http://link.aps.org/doi/10.1103/ptj2-kcpc",
+      "url": "http://link.aps.org/doi/10.1103/ptj2-kcpc",
+      "category": "Reality Discovery",
+      "summary": "Author(s): Zhuang Ma, Peng Zhao, Xinsheng Tan, and Yang Yu Superconducting circuits are a leading platform for scalable quantum computing, where parametric modulation is a widely used technique for implementing high-fide…",
+      "observation": "Author(s): Zhuang Ma, Peng Zhao, Xinsheng Tan, and Yang Yu Superconducting circuits are a leading platform for scalable quantum computing, where parametric modulation is a widely used technique for implementing high-fide…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "implications": [
+        "May influence the transition from reality discovery knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Frequency collisions in parametrically modulated superconducting circuits should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+      "confidence": 81,
+      "state": "PROCESSING",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Reality Discovery",
+      "relatedTopics": [
+        "Quantum Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Applied Research",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 6,
+        "infrastructureImpact": 6,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.4
+      },
+      "publishedAt": "2026-09-18T10:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.975Z",
+      "ts": 1789725600000
+    },
+    {
+      "id": "reality-discovery-reconfigurable-circuit-for-mode-tunable-topological-quantum-structured-light",
+      "title": "Reconfigurable circuit for mode-tunable topological quantum structured light",
+      "source": "APS PR Applied",
+      "sourceUrl": "http://link.aps.org/doi/10.1103/w3dc-58pw",
+      "originalUrl": "http://link.aps.org/doi/10.1103/w3dc-58pw",
+      "url": "http://link.aps.org/doi/10.1103/w3dc-58pw",
+      "category": "Reality Discovery",
+      "summary": "Author(s): Pedro Ornelas, Tatjana Kleine, André G. de Oliveira, Carmelo Rosales-Guzmán, Andrew Forbes, and Isaac Nape Quantum topological structured light offers a promising route to robust information encoding, but its …",
+      "observation": "Author(s): Pedro Ornelas, Tatjana Kleine, André G. de Oliveira, Carmelo Rosales-Guzmán, Andrew Forbes, and Isaac Nape Quantum topological structured light offers a promising route to robust information encoding, but its …",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "implications": [
+        "May influence the transition from reality discovery knowledge to applied capability.",
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "commentary": "Reconfigurable circuit for mode-tunable topological quantum structured light should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "confidence": 81,
+      "state": "OBSERVED",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Reality Discovery",
+      "relatedTopics": [
+        "Quantum Systems"
+      ],
+      "relatedOrgans": [
+        "observation",
+        "understanding",
+        "memory"
+      ],
+      "civilizationDomains": [
+        "Science",
+        "Technology",
+        "Education & Knowledge"
+      ],
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "10–30 Years",
+      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
+      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "score": {
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.3
+      },
+      "publishedAt": "2026-09-18T10:00:00.000Z",
+      "updatedAt": "2026-09-19T06:56:49.975Z",
       "ts": 1789725600000
     },
     {
@@ -3002,7 +3735,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T09:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.264Z",
+      "updatedAt": "2026-09-19T06:56:49.976Z",
       "ts": 1789722000000
     },
     {
@@ -3059,7 +3792,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T08:30:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.264Z",
+      "updatedAt": "2026-09-19T06:56:49.976Z",
       "ts": 1789720200000
     },
     {
@@ -3114,7 +3847,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T08:30:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.264Z",
+      "updatedAt": "2026-09-19T06:56:49.976Z",
       "ts": 1789720200000
     },
     {
@@ -3171,7 +3904,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T08:30:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.265Z",
+      "updatedAt": "2026-09-19T06:56:49.976Z",
       "ts": 1789720200000
     },
     {
@@ -3226,7 +3959,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T08:30:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.265Z",
+      "updatedAt": "2026-09-19T06:56:49.977Z",
       "ts": 1789720200000
     },
     {
@@ -3287,7 +4020,7 @@
         "overall": 6.2
       },
       "publishedAt": "2026-09-18T08:11:40.000Z",
-      "updatedAt": "2026-09-19T02:17:56.265Z",
+      "updatedAt": "2026-09-19T06:56:49.977Z",
       "ts": 1789719100000
     },
     {
@@ -3345,7 +4078,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T08:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.265Z",
+      "updatedAt": "2026-09-19T06:56:49.977Z",
       "ts": 1789718400000
     },
     {
@@ -3403,7 +4136,7 @@
         "overall": 6.1
       },
       "publishedAt": "2026-09-18T08:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.266Z",
+      "updatedAt": "2026-09-19T06:56:49.978Z",
       "ts": 1789718400000
     },
     {
@@ -3458,7 +4191,7 @@
         "overall": 6.3
       },
       "publishedAt": "2026-09-18T04:05:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.266Z",
+      "updatedAt": "2026-09-19T06:56:49.978Z",
       "ts": 1789704300000
     },
     {
@@ -3513,7 +4246,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.266Z",
+      "updatedAt": "2026-09-19T06:56:49.978Z",
       "ts": 1789704000000
     },
     {
@@ -3576,7 +4309,7 @@
         "overall": 6.8
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.266Z",
+      "updatedAt": "2026-09-19T06:56:49.978Z",
       "ts": 1789704000000
     },
     {
@@ -3631,7 +4364,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.267Z",
+      "updatedAt": "2026-09-19T06:56:49.979Z",
       "ts": 1789704000000
     },
     {
@@ -3686,7 +4419,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.267Z",
+      "updatedAt": "2026-09-19T06:56:49.979Z",
       "ts": 1789704000000
     },
     {
@@ -3741,7 +4474,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.268Z",
+      "updatedAt": "2026-09-19T06:56:49.980Z",
       "ts": 1789704000000
     },
     {
@@ -3801,7 +4534,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.268Z",
+      "updatedAt": "2026-09-19T06:56:49.980Z",
       "ts": 1789704000000
     },
     {
@@ -3856,7 +4589,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.268Z",
+      "updatedAt": "2026-09-19T06:56:49.980Z",
       "ts": 1789704000000
     },
     {
@@ -3911,7 +4644,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.269Z",
+      "updatedAt": "2026-09-19T06:56:49.981Z",
       "ts": 1789704000000
     },
     {
@@ -3966,7 +4699,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.269Z",
+      "updatedAt": "2026-09-19T06:56:49.981Z",
       "ts": 1789704000000
     },
     {
@@ -4027,7 +4760,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.270Z",
+      "updatedAt": "2026-09-19T06:56:49.982Z",
       "ts": 1789704000000
     },
     {
@@ -4088,7 +4821,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.270Z",
+      "updatedAt": "2026-09-19T06:56:49.982Z",
       "ts": 1789704000000
     },
     {
@@ -4146,7 +4879,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.270Z",
+      "updatedAt": "2026-09-19T06:56:49.982Z",
       "ts": 1789704000000
     },
     {
@@ -4207,7 +4940,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.270Z",
+      "updatedAt": "2026-09-19T06:56:49.982Z",
       "ts": 1789704000000
     },
     {
@@ -4268,7 +5001,7 @@
         "overall": 6.4
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.270Z",
+      "updatedAt": "2026-09-19T06:56:49.982Z",
       "ts": 1789704000000
     },
     {
@@ -4323,7 +5056,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.271Z",
+      "updatedAt": "2026-09-19T06:56:49.983Z",
       "ts": 1789704000000
     },
     {
@@ -4382,7 +5115,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.271Z",
+      "updatedAt": "2026-09-19T06:56:49.983Z",
       "ts": 1789704000000
     },
     {
@@ -4437,7 +5170,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.272Z",
+      "updatedAt": "2026-09-19T06:56:49.984Z",
       "ts": 1789704000000
     },
     {
@@ -4492,7 +5225,7 @@
         "overall": 6.7
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.272Z",
+      "updatedAt": "2026-09-19T06:56:49.984Z",
       "ts": 1789704000000
     },
     {
@@ -4551,7 +5284,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.273Z",
+      "updatedAt": "2026-09-19T06:56:49.985Z",
       "ts": 1789704000000
     },
     {
@@ -4606,7 +5339,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.273Z",
+      "updatedAt": "2026-09-19T06:56:49.985Z",
       "ts": 1789704000000
     },
     {
@@ -4661,7 +5394,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.274Z",
+      "updatedAt": "2026-09-19T06:56:49.986Z",
       "ts": 1789704000000
     },
     {
@@ -4716,7 +5449,7 @@
         "overall": 6.7
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.274Z",
+      "updatedAt": "2026-09-19T06:56:49.986Z",
       "ts": 1789704000000
     },
     {
@@ -4771,7 +5504,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.275Z",
+      "updatedAt": "2026-09-19T06:56:49.987Z",
       "ts": 1789704000000
     },
     {
@@ -4832,7 +5565,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.275Z",
+      "updatedAt": "2026-09-19T06:56:49.987Z",
       "ts": 1789704000000
     },
     {
@@ -4892,7 +5625,7 @@
         "overall": 6.6
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.275Z",
+      "updatedAt": "2026-09-19T06:56:49.987Z",
       "ts": 1789704000000
     },
     {
@@ -4947,747 +5680,7 @@
         "overall": 6.5
       },
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.275Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "adaptive-capacity-when-ai-generates-covariates-causal-typing-and-estimand-drift-in-sequential-expe",
-      "title": "When AI Generates Covariates: Causal Typing and Estimand Drift in Sequential Experiments",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2609.17772",
-      "originalUrl": "https://arxiv.org/abs/2609.17772",
-      "url": "https://arxiv.org/abs/2609.17772",
-      "category": "Adaptive Capacity",
-      "summary": "arXiv:2609.17772v1 Announce Type: cross Abstract: AI-generated covariates from notes, conversations, images, and wearable streams can change the causal question when their roles are left unspecified. A generated feature …",
-      "observation": "arXiv:2609.17772v1 Announce Type: cross Abstract: AI-generated covariates from notes, conversations, images, and wearable streams can change the causal question when their roles are left unspecified. A generated feature …",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "implications": [
-        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
-      ],
-      "commentary": "When AI Generates Covariates: Causal Typing and Estimand Drift in Sequential Experiments should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 87,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-      "civilizationFunction": "Adaptive Capacity",
-      "relatedTopics": [
-        "Artificial Intelligence",
-        "Biotechnology"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "reasoning",
-        "design",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Law & Governance",
-        "Capital",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.276Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "reality-discovery-biophys-bridge-a-benchmark-for-interdisciplinary-scientific-reasoning-in-physics",
-      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2609.19180",
-      "originalUrl": "https://arxiv.org/abs/2609.19180",
-      "url": "https://arxiv.org/abs/2609.19180",
-      "category": "Reality Discovery",
-      "summary": "arXiv:2609.19180v1 Announce Type: cross Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed …",
-      "observation": "arXiv:2609.19180v1 Announce Type: cross Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed …",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "implications": [
-        "May influence the transition from reality discovery knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "confidence": 88,
-      "state": "PROCESSING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Reality Discovery",
-      "relatedTopics": [
-        "Artificial Intelligence"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Applied Research",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 8.7,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.3
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.276Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "adaptive-capacity-i-know-where-to-look-but-does-the-llm-charting-the-gaps-between-clinical-expert-",
-      "title": "\"I Know Where to Look,\" But Does the LLM? Charting the Gaps Between Clinical Expert Needs and Unstructured Data Abstraction Tools",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2609.19318",
-      "originalUrl": "https://arxiv.org/abs/2609.19318",
-      "url": "https://arxiv.org/abs/2609.19318",
-      "category": "Adaptive Capacity",
-      "summary": "arXiv:2609.19318v1 Announce Type: cross Abstract: Clinical data abstraction, the process of distilling structured information from patient records, plays a key role in advancing knowledge about diseases such as cancer. I…",
-      "observation": "arXiv:2609.19318v1 Announce Type: cross Abstract: Clinical data abstraction, the process of distilling structured information from patient records, plays a key role in advancing knowledge about diseases such as cancer. I…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "implications": [
-        "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-        "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-        "May influence healthspan, adaptive capacity, and the continuity of human capability."
-      ],
-      "commentary": "\"I Know Where to Look,\" But Does the LLM? Charting the Gaps Between Clinical Expert Needs and Unstructured Data Abstraction Tools should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 87,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-      "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-      "civilizationFunction": "Adaptive Capacity",
-      "relatedTopics": [
-        "Health Systems"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Law & Governance"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.276Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "civilization-engineering-sharpness-aware-minimization-sam-improves-classification-accuracy-of-bacterial-r",
-      "title": "Sharpness-Aware Minimization (SAM) Improves Classification Accuracy of Bacterial Raman Spectral Data Enabling Portable Diagnostics",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2609.19453",
-      "originalUrl": "https://arxiv.org/abs/2609.19453",
-      "url": "https://arxiv.org/abs/2609.19453",
-      "category": "Civilization Engineering",
-      "summary": "arXiv:2609.19453v1 Announce Type: cross Abstract: Antimicrobial resistance is expected to claim 10 million lives per year by 2050, and resource-limited regions are most affected. Raman spectroscopy is a novel pathogen di…",
-      "observation": "arXiv:2609.19453v1 Announce Type: cross Abstract: Antimicrobial resistance is expected to claim 10 million lives per year by 2050, and resource-limited regions are most affected. Raman spectroscopy is a novel pathogen di…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
-        "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
-        "May influence healthspan, adaptive capacity, and the continuity of human capability."
-      ],
-      "commentary": "Sharpness-Aware Minimization (SAM) Improves Classification Accuracy of Bacterial Raman Spectral Data Enabling Portable Diagnostics should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 88,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-      "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "Health Systems"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Law & Governance"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.277Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "infrastructure-formation-dynamic-generalized-gromov-wasserstein-optimal-transport",
-      "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2609.20008",
-      "originalUrl": "https://arxiv.org/abs/2609.20008",
-      "url": "https://arxiv.org/abs/2609.20008",
-      "category": "Infrastructure Formation",
-      "summary": "arXiv:2609.20008v1 Announce Type: cross Abstract: Gromov--Wasserstein optimal transport (GW-OT) extends classical optimal transport by introducing structure-aware transport cost. This is particularly relevant for spatial…",
-      "observation": "arXiv:2609.20008v1 Announce Type: cross Abstract: Gromov--Wasserstein optimal transport (GW-OT) extends classical optimal transport by introducing structure-aware transport cost. This is particularly relevant for spatial…",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "implications": [
-        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
-      ],
-      "commentary": "Dynamic Generalized Gromov-Wasserstein Optimal Transport should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 81,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-      "civilizationFunction": "Infrastructure Formation",
-      "relatedTopics": [
-        "Biotechnology"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "reasoning",
-        "design",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Law & Governance",
-        "Capital",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 7.9,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 6.9,
-        "overall": 6.3
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.277Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "civilization-engineering-intact-to-amputee-transfer-in-surface-emg-gesture-decoding-training-source-and-c",
-      "title": "Intact-to-Amputee Transfer in Surface-EMG Gesture Decoding: Training Source and Calibration Budget",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2609.20297",
-      "originalUrl": "https://arxiv.org/abs/2609.20297",
-      "url": "https://arxiv.org/abs/2609.20297",
-      "category": "Civilization Engineering",
-      "summary": "arXiv:2609.20297v1 Announce Type: cross Abstract: A recogniser trained on one person rarely transfers to the next, and useful performance usually demands a fresh round of labelled calibration from the end user. A systema…",
-      "observation": "arXiv:2609.20297v1 Announce Type: cross Abstract: A recogniser trained on one person rarely transfers to the next, and useful performance usually demands a fresh round of labelled calibration from the end user. A systema…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Intact-to-Amputee Transfer in Surface-EMG Gesture Decoding: Training Source and Calibration Budget should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "confidence": 81,
-      "state": "PROCESSING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "AI"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Applied Research",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.277Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "civilization-engineering-stability-of-fixed-life-histories-to-perturbation-by-rare-diapause",
-      "title": "Stability of fixed life histories to perturbation by rare diapause",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/1809.04027",
-      "originalUrl": "https://arxiv.org/abs/1809.04027",
-      "url": "https://arxiv.org/abs/1809.04027",
-      "category": "Civilization Engineering",
-      "summary": "arXiv:1809.04027v3 Announce Type: replace Abstract: We analyze the behavior of an age-structured population subject to stochastically varying linear survival and reproduction at age-dependent rates, in the special case w…",
-      "observation": "arXiv:1809.04027v3 Announce Type: replace Abstract: We analyze the behavior of an age-structured population subject to stochastically varying linear survival and reproduction at age-dependent rates, in the special case w…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Stability of fixed life histories to perturbation by rare diapause should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The capability appears to have entered deployment or operational use. The principal uncertainty concerns scale, durability, cost, institutional adoption, and long-term system effects.",
-      "confidence": 81,
-      "state": "DEPLOYING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "Manufacturing"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scaling / Infrastructure",
-      "expectedHorizon": "0–3 Years",
-      "horizonRationale": "This signal is currently assessed as Scaling / Infrastructure, placing it in the 0–3 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Act now: monitor deployment, partnerships, capital allocation, market formation, and early infrastructure integration.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.278Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "infrastructure-formation-neural-langevin-machine-a-local-asymmetric-learning-rule-can-be-creative",
-      "title": "Neural Langevin Machine: a local asymmetric learning rule can be creative",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2506.23546",
-      "originalUrl": "https://arxiv.org/abs/2506.23546",
-      "url": "https://arxiv.org/abs/2506.23546",
-      "category": "Infrastructure Formation",
-      "summary": "arXiv:2506.23546v3 Announce Type: replace Abstract: Fixed points of recurrent neural networks can be leveraged to store and generate information. These fixed points are captured by the Boltzmann-Gibbs measure, which lead…",
-      "observation": "arXiv:2506.23546v3 Announce Type: replace Abstract: Fixed points of recurrent neural networks can be leveraged to store and generate information. These fixed points are captured by the Boltzmann-Gibbs measure, which lead…",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "implications": [
-        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
-      ],
-      "commentary": "Neural Langevin Machine: a local asymmetric learning rule can be creative should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 81,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-      "civilizationFunction": "Infrastructure Formation",
-      "relatedTopics": [
-        "Biotechnology"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "reasoning",
-        "design",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Law & Governance",
-        "Capital",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 8.7,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 6.9,
-        "overall": 6.5
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.278Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "synchronization-systems-a-regional-dopamine-serotonin-control-model-of-conscious-state",
-      "title": "A Regional Dopamine-Serotonin Control Model of Conscious State",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2507.02614",
-      "originalUrl": "https://arxiv.org/abs/2507.02614",
-      "url": "https://arxiv.org/abs/2507.02614",
-      "category": "Synchronization Systems",
-      "summary": "arXiv:2507.02614v2 Announce Type: replace Abstract: This article proposes a dopamine-serotonin theory of conscious state control. Regional dopamine signaling controls a candidate intensity coordinate and serotonergic sig…",
-      "observation": "arXiv:2507.02614v2 Announce Type: replace Abstract: This article proposes a dopamine-serotonin theory of conscious state control. Regional dopamine signaling controls a candidate intensity coordinate and serotonergic sig…",
-      "implication": "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
-      "implications": [
-        "May influence the transition from synchronization systems knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "A Regional Dopamine-Serotonin Control Model of Conscious State should not be interpreted only as a news item. From the ArcheNova perspective, it is a Synchronization Systems signal: This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "confidence": 81,
-      "state": "PROCESSING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Synchronization Systems",
-      "relatedTopics": [
-        "Artificial Intelligence"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Applied Research",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 6.5,
-        "synchronizationImpact": 8.8,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.3
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.278Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "synchronization-systems-hierarchical-maximum-likelihood-estimation-for-time-resolved-nmr-data",
-      "title": "Hierarchical Maximum Likelihood Estimation for Time-Resolved NMR Data",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2508.14902",
-      "originalUrl": "https://arxiv.org/abs/2508.14902",
-      "url": "https://arxiv.org/abs/2508.14902",
-      "category": "Synchronization Systems",
-      "summary": "arXiv:2508.14902v3 Announce Type: replace Abstract: Metabolic monitoring and reaction rate estimation using hyperpolarized NMR technology requires accurate quantitative analysis of multidimensional data scenarios. Curren…",
-      "observation": "arXiv:2508.14902v3 Announce Type: replace Abstract: Metabolic monitoring and reaction rate estimation using hyperpolarized NMR technology requires accurate quantitative analysis of multidimensional data scenarios. Curren…",
-      "implication": "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
-      "implications": [
-        "May influence the transition from synchronization systems knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Hierarchical Maximum Likelihood Estimation for Time-Resolved NMR Data should not be interpreted only as a news item. From the ArcheNova perspective, it is a Synchronization Systems signal: This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 88,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Synchronization Systems",
-      "relatedTopics": [
-        "General"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 6.5,
-        "synchronizationImpact": 8.8,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.3
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.279Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "adaptive-capacity-critical-like-growth-in-non-critical-transitions-linearised-dynamics-and-epidemi",
-      "title": "Critical-like growth in non-critical transitions: linearised dynamics and epidemic applications",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2601.14869",
-      "originalUrl": "https://arxiv.org/abs/2601.14869",
-      "url": "https://arxiv.org/abs/2601.14869",
-      "category": "Adaptive Capacity",
-      "summary": "arXiv:2601.14869v2 Announce Type: replace Abstract: In the wake of the SARS-CoV-2 pandemic, there has been heightened interest from applied mathematicians in infectious disease modelling. Modelling efforts often focus on…",
-      "observation": "arXiv:2601.14869v2 Announce Type: replace Abstract: In the wake of the SARS-CoV-2 pandemic, there has been heightened interest from applied mathematicians in infectious disease modelling. Modelling efforts often focus on…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "implications": [
-        "May influence the transition from adaptive capacity knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "Critical-like growth in non-critical transitions: linearised dynamics and epidemic applications should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "confidence": 80,
-      "state": "PROCESSING",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Adaptive Capacity",
-      "relatedTopics": [
-        "Artificial Intelligence"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Applied Research",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.279Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "civilization-engineering-beta-diversity-and-graph-sheaf-laplacians",
-      "title": "$\\beta$-diversity and Graph Sheaf Laplacians",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2601.17466",
-      "originalUrl": "https://arxiv.org/abs/2601.17466",
-      "url": "https://arxiv.org/abs/2601.17466",
-      "category": "Civilization Engineering",
-      "summary": "arXiv:2601.17466v2 Announce Type: replace Abstract: We suggest an approach to measuring biodiversity based on the spectrum of graph sheaf Laplacians associated with the sample data. In particular, we define a $\\beta_{ss}…",
-      "observation": "arXiv:2601.17466v2 Announce Type: replace Abstract: We suggest an approach to measuring biodiversity based on the spectrum of graph sheaf Laplacians associated with the sample data. In particular, we define a $\\beta_{ss}…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "implications": [
-        "May influence the transition from civilization engineering knowledge to applied capability.",
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
-      ],
-      "commentary": "$\\beta$-diversity and Graph Sheaf Laplacians should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
-      "confidence": 88,
-      "state": "OBSERVED",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "relatedTopics": [
-        "Bio"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Scientific Discovery",
-      "expectedHorizon": "10–30 Years",
-      "horizonRationale": "This signal is currently assessed as Scientific Discovery, placing it in the 10–30 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.280Z",
-      "ts": 1789704000000
-    },
-    {
-      "id": "adaptive-capacity-transcriptomic-models-for-immunotherapy-response-prediction-show-limited-cross-c",
-      "title": "Transcriptomic Models for Immunotherapy Response Prediction Show Limited Cross-cohort Generalisability",
-      "source": "arXiv q-bio",
-      "sourceUrl": "https://arxiv.org/abs/2604.05478",
-      "originalUrl": "https://arxiv.org/abs/2604.05478",
-      "url": "https://arxiv.org/abs/2604.05478",
-      "category": "Adaptive Capacity",
-      "summary": "arXiv:2604.05478v4 Announce Type: replace Abstract: Immune checkpoint inhibitors (ICIs) have transformed cancer therapy; yet substantial proportion of patients exhibit intrinsic or acquired resistance, making accurate pr…",
-      "observation": "arXiv:2604.05478v4 Announce Type: replace Abstract: Immune checkpoint inhibitors (ICIs) have transformed cancer therapy; yet substantial proportion of patients exhibit intrinsic or acquired resistance, making accurate pr…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "implications": [
-        "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
-        "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
-        "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements."
-      ],
-      "commentary": "Transcriptomic Models for Immunotherapy Response Prediction Show Limited Cross-cohort Generalisability should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-      "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "confidence": 80,
-      "state": "PROCESSING",
-      "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-      "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-      "civilizationFunction": "Adaptive Capacity",
-      "relatedTopics": [
-        "Artificial Intelligence",
-        "Biotechnology",
-        "Health Systems"
-      ],
-      "relatedOrgans": [
-        "observation",
-        "understanding",
-        "reasoning",
-        "design",
-        "realization",
-        "memory"
-      ],
-      "civilizationDomains": [
-        "Science",
-        "Technology",
-        "Law & Governance",
-        "Capital",
-        "Education & Knowledge"
-      ],
-      "currentStage": "Applied Research",
-      "expectedHorizon": "5–15 Years",
-      "horizonRationale": "This signal is currently assessed as Applied Research, placing it in the 5–15 Years horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.",
-      "executionTiming": "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.",
-      "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "updatedAt": "2026-09-19T02:17:56.280Z",
+      "updatedAt": "2026-09-19T06:56:49.988Z",
       "ts": 1789704000000
     }
   ]
