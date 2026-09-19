@@ -135,6 +135,20 @@ const CHAPTER_TARGETS:
     subtitle:
       "what can we realize?",
   },
+
+  {
+    id:
+      "aetherion",
+
+    mark:
+      "⚛︎",
+
+    title:
+      "AETHERION",
+
+    subtitle:
+      "what can we create?",
+  },
 ];
 
 

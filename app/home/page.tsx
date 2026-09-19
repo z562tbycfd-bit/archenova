@@ -21,6 +21,9 @@ import CivilizationSpacePortal
 import ArcheNovaValleyPortal
   from "../components/ArcheNovaValleyPortal";
 
+import ArcheNovaAetherionPortal
+ from "../components/ArcheNovaAetherionPortal";
+
 
 /* ==========================================================
    HOME
@@ -236,6 +239,35 @@ export default function Home() {
         "
       >
         <ArcheNovaValleyPortal />
+      </section>
+
+      {/* ==================================================
+          06
+          ARCHENOVA AETHERION
+
+          The Civilization Megafactory.
+
+          Aetherion is the dedicated civilization
+          production environment:
+
+          Engineer
+          → Fabricate
+          → Test
+          → Correct
+          → Reproduce
+          → Release
+
+          Aetherion is a physical realization
+          of ArcheNova's civilization principles.
+
+      ================================================== */}
+
+      <section
+      id="aetherion"
+        data-home-section
+        className="home-page twin-page archenova-aetherion-page"
+      >
+        <ArcheNovaAetherionPortal />
       </section>
 
     </main>

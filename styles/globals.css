@@ -51337,3 +51337,943 @@ section#civilization-space[data-home-section] {
 
 
 
+/* ==========================================================
+   ARCHENOVA HOME
+   FINAL SINGLE APPLE-LIKE BLACK GLASS
+   ----------------------------------------------------------
+   ABSOLUTE RULE:
+   ONE HOME SECTION = ONE GLASS SURFACE
+
+   The section itself owns the only visible glass.
+
+   SEARCH
+   EPISTEME
+   TODAY'S INQUIRY
+   ARCHENOVA VALLEY
+   AETHERION
+
+   All nested portal surfaces are forcibly transparent.
+
+   PC + MOBILE
+========================================================== */
+
+
+/* ==========================================================
+   1. KILL LEGACY HOME PSEUDO GLASS
+   ----------------------------------------------------------
+   No ::before / ::after may become another HOME card.
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]::before,
+
+.archenova-twin-home
+[data-home-section]::after,
+
+.archenova-twin-home
+.home-page::before,
+
+.archenova-twin-home
+.home-page::after,
+
+.archenova-twin-home
+.twin-page::before,
+
+.archenova-twin-home
+.twin-page::after {
+  content: none !important;
+
+  display: none !important;
+
+  position: static !important;
+
+  inset: auto !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+
+  border-radius: 0 !important;
+
+  background: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+
+  opacity: 0 !important;
+}
+
+
+/* ==========================================================
+   2. THE ONLY HOME GLASS
+   ----------------------------------------------------------
+   The five HOME sections themselves are the glass.
+========================================================== */
+
+.archenova-twin-home
+#archenova-search-section,
+
+.archenova-twin-home
+#episteme-dialogue,
+
+.archenova-twin-home
+#todays-inquiry,
+
+.archenova-twin-home
+#archenova-valley,
+
+.archenova-twin-home
+#aetherion {
+  position: relative !important;
+
+  isolation: isolate !important;
+
+  /*
+   * Apple-like smoked optical glass.
+   *
+   * Deliberately light enough for the cosmic
+   * background to remain visible through the card.
+   */
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    )
+    !important;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius:
+    30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  /*
+   * Optical edge only.
+   * Absolutely no external drop shadow.
+   */
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(255, 255, 255, 0.040),
+
+    inset
+    0
+    -1px
+    0
+    rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline: 0 !important;
+}
+
+
+/* ==========================================================
+   3. SEARCH
+   REMOVE ITS PRIVATE OUTER GLASS
+========================================================== */
+
+.archenova-twin-home
+#archenova-search-section
+.an-search,
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__surface,
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__workspace,
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__field {
+  background:
+    transparent !important;
+
+  border-color:
+    transparent !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/*
+ * Search surface itself must NOT look like a second card.
+ */
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__surface {
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+}
+
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__surface::before,
+
+.archenova-twin-home
+#archenova-search-section
+.an-search__surface::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   4. EPISTEME
+   FORCE INTERNAL STAGE TRANSPARENT
+========================================================== */
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal,
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card::before,
+
+.archenova-twin-home
+#episteme-dialogue
+.ep-dialogue-portal__card::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   5. TODAY'S INQUIRY
+   REMOVE ITS PRIVATE OPTICAL GLASS
+   ----------------------------------------------------------
+   IMPORTANT:
+   We are NOT using Today's Inquiry material as the common
+   material. The HOME section owns the common material.
+========================================================== */
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass-inner {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass {
+  border-radius:
+    0 !important;
+}
+
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass::before,
+
+.archenova-twin-home
+#todays-inquiry
+.ti-home__glass::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   6. ARCHE NOVA VALLEY
+   REMOVE INTERNAL VISUAL SURFACE
+========================================================== */
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal,
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card::before,
+
+.archenova-twin-home
+#archenova-valley
+.an-valley-portal__card::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   7. AETHERION
+   REMOVE INTERNAL PORTAL SURFACE ONLY
+   ----------------------------------------------------------
+   Preserve the visual materials of the actual megafactory:
+   orbital docks, station hull, reactor and transition.
+
+   Do not apply transparency to every descendant.
+========================================================== */
+
+.archenova-twin-home
+#aetherion
+.ae-portal,
+
+.archenova-twin-home
+#aetherion
+.ae-portal__stage {
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/*
+ * Only suppress full-size portal pseudo-surfaces.
+ *
+ * The factory's own structural and lighting effects
+ * must remain intact.
+ */
+
+.archenova-twin-home
+#aetherion
+.ae-portal::before,
+
+.archenova-twin-home
+#aetherion
+.ae-portal::after,
+
+.archenova-twin-home
+#aetherion
+.ae-portal__stage::before,
+
+.archenova-twin-home
+#aetherion
+.ae-portal__stage::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   8. DO NOT DESTROY INTERNAL CONTENT CARDS
+   ----------------------------------------------------------
+   Search input / filters / research cards / controls remain
+   available as UI elements.
+
+   Only full-size portal surfaces are removed above.
+========================================================== */
+
+.archenova-twin-home
+[data-home-section]
+> * {
+  position:
+    relative;
+
+  z-index:
+    1;
+}
+
+
+/* ==========================================================
+   9. MOBILE
+   SAME GLASS — SLIGHTLY MORE TRANSPARENT
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-search-section,
+
+  .archenova-twin-home
+  #episteme-dialogue,
+
+  .archenova-twin-home
+  #todays-inquiry,
+
+  .archenova-twin-home
+  #archenova-valley,
+
+  .archenova-twin-home
+  #aetherion {
+    background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      )
+      !important;
+
+    border:
+      1px solid
+      rgba(255, 255, 255, 0.060)
+      !important;
+
+    border-radius:
+      26px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px)
+      saturate(104%)
+      !important;
+
+    backdrop-filter:
+      blur(18px)
+      saturate(104%)
+      !important;
+
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.035),
+
+      inset
+      0
+      -1px
+      0
+      rgba(255, 255, 255, 0.008)
+      !important;
+
+    outline:
+      0 !important;
+  }
+
+
+  /*
+   * Repeat the critical transparency rules at the mobile
+   * cascade level so component-scoped mobile CSS cannot
+   * visually restore another full-size card.
+   */
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__surface,
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__card,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__card,
+
+  .archenova-twin-home
+  #aetherion
+  .ae-portal,
+
+  .archenova-twin-home
+  #aetherion
+  .ae-portal__stage {
+    background:
+      transparent !important;
+
+    border:
+      0 !important;
+
+    border-radius:
+      0 !important;
+
+    outline:
+      0 !important;
+
+    -webkit-backdrop-filter:
+      none !important;
+
+    backdrop-filter:
+      none !important;
+
+    box-shadow:
+      none !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__surface::before,
+
+  .archenova-twin-home
+  #archenova-search-section
+  .an-search__surface::after,
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__card::before,
+
+  .archenova-twin-home
+  #episteme-dialogue
+  .ep-dialogue-portal__card::after,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass::before,
+
+  .archenova-twin-home
+  #todays-inquiry
+  .ti-home__glass::after,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__card::before,
+
+  .archenova-twin-home
+  #archenova-valley
+  .an-valley-portal__card::after,
+
+  .archenova-twin-home
+  #aetherion
+  .ae-portal::before,
+
+  .archenova-twin-home
+  #aetherion
+  .ae-portal::after,
+
+  .archenova-twin-home
+  #aetherion
+  .ae-portal__stage::before,
+
+  .archenova-twin-home
+  #aetherion
+  .ae-portal__stage::after {
+    content:
+      none !important;
+
+    display:
+      none !important;
+
+    background:
+      none !important;
+
+    border:
+      0 !important;
+
+    box-shadow:
+      none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   10. VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .archenova-twin-home
+  #archenova-search-section,
+
+  .archenova-twin-home
+  #episteme-dialogue,
+
+  .archenova-twin-home
+  #todays-inquiry,
+
+  .archenova-twin-home
+  #archenova-valley,
+
+  .archenova-twin-home
+  #aetherion {
+    border-radius:
+      22px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   11. FINAL GUARANTEE
+   ----------------------------------------------------------
+   Legacy pseudo surfaces can never reappear.
+========================================================== */
+
+.archenova-twin-home
+#archenova-search-section::before,
+
+.archenova-twin-home
+#archenova-search-section::after,
+
+.archenova-twin-home
+#episteme-dialogue::before,
+
+.archenova-twin-home
+#episteme-dialogue::after,
+
+.archenova-twin-home
+#todays-inquiry::before,
+
+.archenova-twin-home
+#todays-inquiry::after,
+
+.archenova-twin-home
+#archenova-valley::before,
+
+.archenova-twin-home
+#archenova-valley::after,
+
+.archenova-twin-home
+#aetherion::before,
+
+.archenova-twin-home
+#aetherion::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+
+  background:
+    none !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME — Civilization Space + AETHERION
+   Invisible Native Scrollbar
+   ----------------------------------------------------------
+   Keep vertical scrolling fully functional.
+   Hide only the visual scrollbar.
+
+   Do NOT change:
+   - content height
+   - overflow ownership
+   - touch scrolling
+   - HOME glass surfaces
+========================================================== */
+
+@media (max-width: 768px) {
+
+  /* ========================================================
+     1. CIVILIZATION SPACE
+  ======================================================== */
+
+  .archenova-twin-home
+  #civilization-space
+  > *,
+
+  .archenova-twin-home
+  #civilization-space
+  > * * {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .archenova-twin-home
+  #civilization-space
+  > *::-webkit-scrollbar,
+
+  .archenova-twin-home
+  #civilization-space
+  > * *::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    display: none !important;
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  #civilization-space
+  > *::-webkit-scrollbar-track,
+
+  .archenova-twin-home
+  #civilization-space
+  > * *::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  #civilization-space
+  > *::-webkit-scrollbar-thumb,
+
+  .archenova-twin-home
+  #civilization-space
+  > * *::-webkit-scrollbar-thumb {
+    background: transparent !important;
+    border: 0 !important;
+  }
+
+
+  /* ========================================================
+     2. AETHERION
+  ======================================================== */
+
+  .archenova-twin-home
+  #aetherion
+  > *,
+
+  .archenova-twin-home
+  #aetherion
+  > * * {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .archenova-twin-home
+  #aetherion
+  > *::-webkit-scrollbar,
+
+  .archenova-twin-home
+  #aetherion
+  > * *::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    display: none !important;
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  #aetherion
+  > *::-webkit-scrollbar-track,
+
+  .archenova-twin-home
+  #aetherion
+  > * *::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  #aetherion
+  > *::-webkit-scrollbar-thumb,
+
+  .archenova-twin-home
+  #aetherion
+  > * *::-webkit-scrollbar-thumb {
+    background: transparent !important;
+    border: 0 !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
