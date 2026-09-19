@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-19T17:03:14.498Z",
+  "updated": "2026-09-19T20:13:43.608Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Lilly’s GIP/GLP-1 Candidate Brenipatide Shows Early Clinical Promise in Substance, Psych Disorders",
+      "url": "https://www.genengnews.com/topics/translational-medicine/lillys-gip-glp-1-candidate-brenipatide-shows-early-clinical-promise-in-substance-psych-disorders/",
+      "summary": "Brenipatide showed a mean half-life ranging between 9.08 days and 12.5 days, with the longer half-life seen in participants given the highest dose of the drug at 4.5 mg. The post Lilly’s GIP/GLP-1 Candidate Brenipatide S…",
+      "ts": 1789839079000,
+      "publishedAt": "2026-09-19T17:31:19.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Jehovah’s Witnesses allow blood-derived products but keep ban on whole-blood transfusions",
@@ -801,15 +810,6 @@
       "summary": "A psychedelic-like drug for a Parkinson's symptom, mice with half-human brains, and more biotech news in the Readout newsletter.",
       "ts": 1789655437000,
       "publishedAt": "2026-09-17T14:30:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA has too few staffers to hire more staff",
-      "url": "https://www.statnews.com/2026/09/17/fda-hiring-bottleneck-senate-hearings-chris-klomp-nicole-saphier/?utm_campaign=rss",
-      "summary": "FDA's hiring bottleneck, Dems plan for health care oversight, and more from STAT's D.C. Diagnosis newsletter.",
-      "ts": 1789654623000,
-      "publishedAt": "2026-09-17T14:17:03.000Z",
       "categoryId": "bio"
     }
   ],
