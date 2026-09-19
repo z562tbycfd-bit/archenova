@@ -3,14 +3,15 @@
    CONDITIONAL GOVERNANCE ACTIVATION BOUNDARY
    ----------------------------------------------------------
    Final Core Hardening A
+   Conditional Resume Hardening integrated
 
    File:
    lib/valley-execution/conditionalGovernanceActivation.ts
 
    Purpose:
    Establish a read-only constitutional prerequisite for
-   activating a Deployment prepared from a CONDITIONAL
-   Governance decision.
+   activating or resuming a Deployment governed by a
+   CONDITIONAL Governance decision.
 
    ----------------------------------------------------------
    CORE DISTINCTIONS
@@ -21,6 +22,9 @@
 
    Condition Satisfaction
    ≠ AI Inference
+
+   Previous Satisfaction
+   ≠ Current Satisfaction
 
    Condition Satisfaction Artifact
    ≠ Governance Decision
@@ -44,8 +48,14 @@
 
    This boundary owns NO mutation authority.
 
-   V6.1 remains the only lifecycle mutation boundary for
-   prepared → active.
+   V6.1 remains the lifecycle mutation boundary for:
+
+   prepared → active
+
+   suspended → active
+
+   A CONDITIONAL Deployment must obtain a current explicit
+   satisfaction artifact before either transition.
 
    ----------------------------------------------------------
    RESPONSIBILITIES
@@ -61,6 +71,9 @@
    - Detect stale Governance / Deployment revisions
    - Produce portable satisfaction artifact
    - Validate artifact against current runtime state
+   - Support first activation from prepared
+   - Support explicit re-authorization from suspended
+   - Require a new current artifact after lifecycle revision
    - Never mutate Store
 
    ----------------------------------------------------------
@@ -497,7 +510,7 @@ function isPortableValue(
 
   if (
     value ===
-    null
+      null
   ) {
     return true;
   }
@@ -648,6 +661,38 @@ function isGovernanceRecord(
     record.object &&
     record.object.stage ===
       "governance",
+  );
+}
+
+
+/* ==========================================================
+   CONDITIONAL ACTIVATION ELIGIBLE DEPLOYMENT STATUS
+
+   prepared:
+     first activation.
+
+   suspended:
+     explicit re-authorization before resumption.
+
+   Previous satisfaction
+   ≠ Current satisfaction
+
+   An artifact is bound to the exact current Deployment
+   object/store revisions. Therefore an artifact created
+   before activation or suspension cannot silently authorize
+   a later resumption after those revisions have changed.
+========================================================== */
+
+function isConditionalActivationEligibleDeploymentStatus(
+  deployment:
+    ValleyDeployment,
+): boolean {
+
+  return (
+    deployment.deploymentStatus ===
+      "prepared" ||
+    deployment.deploymentStatus ===
+      "suspended"
   );
 }
 
@@ -833,6 +878,8 @@ function getGovernanceConditions(
    Unknown conditions are rejected.
 
    Duplicate condition assessments are rejected.
+
+   Evidence references are validated before normalization.
 ========================================================== */
 
 function normalizeAssessments(
@@ -931,15 +978,6 @@ function normalizeAssessments(
       );
 
 
-    const evidenceIds =
-      assessment.evidenceIds ===
-        undefined
-        ? []
-        : uniqueStrings(
-            assessment.evidenceIds,
-          );
-
-
     if (
       assessment.evidenceIds !==
         undefined &&
@@ -958,6 +996,15 @@ function normalizeAssessments(
         `Evidence references for Governance condition "${condition}" must contain strings only.`,
       );
     }
+
+
+    const evidenceIds =
+      assessment.evidenceIds ===
+        undefined
+        ? []
+        : uniqueStrings(
+            assessment.evidenceIds,
+          );
 
 
     normalized.push({
@@ -1000,10 +1047,15 @@ function normalizeAssessments(
      no conditional artifact required.
 
    CONDITIONAL:
-     artifact required before prepared → active.
+     artifact required before:
+
+       prepared → active
+       suspended → active
 
    Other Governance decisions:
      activation is not valid through this path.
+
+   This inspection is descriptive only.
 ========================================================== */
 
 export function inspectConditionalGovernanceActivationRequirement(
@@ -1375,6 +1427,12 @@ export function inspectConditionalGovernanceActivationRequirement(
       0;
 
 
+  const activationEligible =
+    isConditionalActivationEligibleDeploymentStatus(
+      deploymentRecord.object,
+    );
+
+
   let reason:
     string;
 
@@ -1401,12 +1459,22 @@ export function inspectConditionalGovernanceActivationRequirement(
     !conditionsPresent
   ) {
     reason =
-      "CONDITIONAL Governance has no explicit conditions and cannot be activated.";
+      "CONDITIONAL Governance has no explicit conditions and cannot authorize activation.";
+  } else if (
+    conditional &&
+    activationEligible
+  ) {
+    reason =
+      deploymentRecord.object
+        .deploymentStatus ===
+        "suspended"
+        ? "CONDITIONAL Governance requires a new current explicit condition satisfaction artifact before Deployment resumption."
+        : "CONDITIONAL Governance requires a current explicit condition satisfaction artifact before Deployment activation.";
   } else if (
     conditional
   ) {
     reason =
-      "CONDITIONAL Governance requires a current explicit condition satisfaction artifact before Deployment activation.";
+      `CONDITIONAL Governance requires an activation-eligible Deployment state. Current status: ${deploymentRecord.object.deploymentStatus}.`;
   } else {
     reason =
       `Governance decision "${governanceDecision}" does not authorize Deployment activation.`;
@@ -1468,6 +1536,17 @@ export function inspectConditionalGovernanceActivationRequirement(
    Store is read only.
 
    No Deployment mutation occurs.
+
+   Eligible Deployment lifecycle states:
+
+   prepared:
+     first activation.
+
+   suspended:
+     explicit re-authorization before resumption.
+
+   A new artifact is bound to the exact current Deployment
+   object/store revisions.
 ========================================================== */
 
 export function buildConditionalGovernanceActivationArtifact(
@@ -1591,13 +1670,18 @@ export function buildConditionalGovernanceActivationArtifact(
 
 
   if (
-    deploymentRecord
-      .object
-      .deploymentStatus !==
-      "prepared"
+    !isConditionalActivationEligibleDeploymentStatus(
+      deploymentRecord.object,
+    )
   ) {
     throw new Error(
-      `Conditional Governance activation artifact may only be created for a prepared Deployment. Current status: ${deploymentRecord.object.deploymentStatus}.`,
+      [
+        "Conditional Governance activation artifact may only be created",
+        "for a prepared or suspended Deployment.",
+        `Current status: ${deploymentRecord.object.deploymentStatus}.`,
+      ].join(
+        " ",
+      ),
     );
   }
 
@@ -1805,7 +1889,13 @@ export function buildConditionalGovernanceActivationArtifact(
    - Governance decision changed
    - explicit lineage changed
 
-   Stale artifact cannot authorize activation.
+   It is also invalid if the Deployment is no longer in an
+   activation-eligible lifecycle state:
+
+   prepared
+   suspended
+
+   Stale artifact cannot authorize activation or resumption.
 ========================================================== */
 
 export function validateConditionalGovernanceActivationArtifact(
@@ -1894,6 +1984,11 @@ export function validateConditionalGovernanceActivationArtifact(
 
 
   if (
+    typeof artifact.createdAt !==
+      "string" ||
+    artifact.createdAt.trim()
+      .length ===
+      0 ||
     Number.isNaN(
       Date.parse(
         artifact.createdAt,
@@ -2014,13 +2109,18 @@ export function validateConditionalGovernanceActivationArtifact(
 
 
   if (
-    deploymentRecord
-      .object
-      .deploymentStatus !==
-      "prepared"
+    !isConditionalActivationEligibleDeploymentStatus(
+      deploymentRecord.object,
+    )
   ) {
     errors.push(
-      `Artifact Deployment is no longer prepared. Current status: ${deploymentRecord.object.deploymentStatus}.`,
+      [
+        "Artifact Deployment is no longer eligible for",
+        "Conditional Governance activation.",
+        `Current status: ${deploymentRecord.object.deploymentStatus}.`,
+      ].join(
+        " ",
+      ),
     );
   }
 
@@ -2103,10 +2203,34 @@ export function validateConditionalGovernanceActivationArtifact(
 
 
   const artifactConditions =
-    uniqueStrings(
-      artifact.conditions ??
-      [],
+    Array.isArray(
+      artifact.conditions,
+    ) &&
+    artifact.conditions.every(
+      (condition) =>
+        typeof condition ===
+          "string",
+    )
+      ? uniqueStrings(
+          artifact.conditions,
+        )
+      : [];
+
+
+  if (
+    !Array.isArray(
+      artifact.conditions,
+    ) ||
+    artifact.conditions.some(
+      (condition) =>
+        typeof condition !==
+          "string",
+    )
+  ) {
+    errors.push(
+      "Conditional Governance activation artifact conditions are invalid.",
     );
+  }
 
 
   if (
@@ -2177,10 +2301,34 @@ export function validateConditionalGovernanceActivationArtifact(
 
 
   const artifactEvidenceIds =
-    uniqueStrings(
-      artifact.evidenceIds ??
-      [],
+    Array.isArray(
+      artifact.evidenceIds,
+    ) &&
+    artifact.evidenceIds.every(
+      (evidenceId) =>
+        typeof evidenceId ===
+          "string",
+    )
+      ? uniqueStrings(
+          artifact.evidenceIds,
+        )
+      : [];
+
+
+  if (
+    !Array.isArray(
+      artifact.evidenceIds,
+    ) ||
+    artifact.evidenceIds.some(
+      (evidenceId) =>
+        typeof evidenceId !==
+          "string",
+    )
+  ) {
+    errors.push(
+      "Conditional Governance activation artifact evidenceIds are invalid.",
     );
+  }
 
 
   if (
@@ -2200,24 +2348,8 @@ export function validateConditionalGovernanceActivationArtifact(
 
 
   const current =
-    !errors.some(
-      (error) =>
-        error.includes(
-          "stale",
-        ) ||
-        error.includes(
-          "no longer",
-        ) ||
-        error.includes(
-          "current explicit",
-        ) ||
-        error.includes(
-          "conditions changed",
-        ) ||
-        error.includes(
-          "archived",
-        ),
-    );
+    errors.length ===
+      0;
 
 
   return {
@@ -2251,6 +2383,11 @@ export function validateConditionalGovernanceActivationArtifact(
 
    CONDITIONAL:
      Artifact must be valid, current, and fully satisfied.
+
+     This applies to both:
+
+       prepared → active
+       suspended → active
 
    HOLD / REVISE / STOP / PENDING:
      Not authorized.
@@ -2429,6 +2566,31 @@ export function validateDeploymentActivationAuthorization(
   }
 
 
+  if (
+    !isConditionalActivationEligibleDeploymentStatus(
+      deployment,
+    )
+  ) {
+    return {
+      authorized:
+        false,
+
+      conditionalArtifactRequired:
+        true,
+
+      governanceDecision,
+
+      governanceGateId:
+        governanceRecord
+          .object
+          .id,
+
+      reason:
+        `CONDITIONAL Governance activation requires a prepared or suspended Deployment. Current status: ${deployment.deploymentStatus}.`,
+    };
+  }
+
+
   const conditions =
     getGovernanceConditions(
       governanceRecord.object,
@@ -2477,7 +2639,10 @@ export function validateDeploymentActivationAuthorization(
           .id,
 
       reason:
-        "CONDITIONAL Governance requires a current explicit condition satisfaction artifact before Deployment activation.",
+        deployment.deploymentStatus ===
+          "suspended"
+          ? "CONDITIONAL Governance requires a new current explicit condition satisfaction artifact before Deployment resumption."
+          : "CONDITIONAL Governance requires a current explicit condition satisfaction artifact before Deployment activation.",
     };
   }
 
@@ -2584,6 +2749,9 @@ export function validateDeploymentActivationAuthorization(
         .id,
 
     reason:
-      "All explicit CONDITIONAL Governance conditions have current explicit satisfaction assessments. V6.1 may perform the lifecycle activation.",
+      deployment.deploymentStatus ===
+        "suspended"
+        ? "All explicit CONDITIONAL Governance conditions have current explicit satisfaction assessments. V6.1 may perform lifecycle resumption."
+        : "All explicit CONDITIONAL Governance conditions have current explicit satisfaction assessments. V6.1 may perform lifecycle activation.",
   };
 }
