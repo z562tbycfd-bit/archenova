@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-19T02:17:56.197Z",
+  "updated": "2026-09-19T04:20:07.080Z",
   "items": [
     {
       "source": "ESA",
@@ -210,6 +210,78 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "United Nations News",
+      "title": "‘Violence will only defer a problem’: UN Assembly President on trust, AI and lessons from the Rohingya crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168375",
+      "summary": "Khalilur Rahman took the gavel as President of the UN General Assembly's 81st session amid what he calls a crisis of confidence in the organization he has served – in one capacity or another – for 35 years.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: UN peacekeeping under pressure",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168376",
+      "summary": "UN peacekeepers have increasingly been sent into places where there is no peace to keep – under resourced, outgunned and exposed to violence they are not equipped to counter. The Security Council meets this afternoon in …",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sexual violence against civilians and POW’s in Ukraine widespread and ‘abhorrent’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168374",
+      "summary": "Over 1,000 cases of sexual violence against civilians and prisoners of war (POWs) in Ukraine have been documented from the start of Russia’s invasion to the end of July this year.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Less than 4 years from development goals deadline, progress shows what’s possible",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168371",
+      "summary": "For Benin, making progress on the UN’s Sustainable Development Goals (SDGs) has meant finding new ways to finance development.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Women and girls pay high price in DR Congo Ebola outbreak",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168368",
+      "summary": "The deadly Ebola outbreak in the Democratic Republic of the Congo (DRC) has taken a disproportionate toll on women and girls, many of whom are on the frontlines caring for patients as well as their own families despite t…",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti: Child malnutrition crisis worsens amid escalating violence",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168366",
+      "summary": "Haiti is facing a worsening child malnutrition crisis, with an estimated 253,725 children aged 6 to 59 months projected to suffer from acute malnutrition between June 2026 and May 2027, new UN-backed analysis has reveale…",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nepal floods: ‘Apocalyptic’ destruction signals wider climate threat across Himalayas",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168365",
+      "summary": "The catastrophic flooding that swept away entire villages in northern Nepal could occur again in the country or elsewhere in the Himalayas due to climate change.",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen’s humanitarian crisis growing by the hour amid spike in displacement",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168364",
+      "summary": "People displaced by the renewed fighting in Yemen have described fleeing for their lives amid shelling and gunfire, aid agencies reported on Friday, while highlighting the dramatic increase in humanitarian needs in the c…",
+      "ts": 1789732800000,
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "Could AI really kill us all? Your questions, answered.",
       "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
@@ -298,6 +370,15 @@
       "ts": 1789704300000,
       "publishedAt": "2026-09-18T04:05:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "New Members Elected to the IAEA Board of Governors",
+      "url": "http://www.iaea.org/newscenter/news/GC70-new-members-elected-to-the-iaea-board-of-governors",
+      "summary": "",
+      "ts": 1789704000000,
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "arXiv q-bio",
@@ -516,15 +597,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "IAEA News",
-      "title": "New Members Elected to the IAEA Board of Governors",
-      "url": "http://www.iaea.org/newscenter/news/GC70-new-members-elected-to-the-iaea-board-of-governors",
-      "summary": "",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
       "source": "STAT",
       "title": "Kennedy announces new effort to speed up autism diagnoses",
       "url": "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/?utm_campaign=rss",
@@ -739,78 +811,6 @@
       "ts": 1789650000000,
       "publishedAt": "2026-09-17T13:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Icarus Robotics tests Joy in Canada ahead of ISS flight",
-      "url": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/",
-      "summary": "PARIS — Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, conducted tests of its free-flying platform ahead of a 2027 demonstration on the International Space […] The post Icaru…",
-      "ts": 1789650000000,
-      "publishedAt": "2026-09-17T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Scientific Forum Highlights Progress in Expanding Access to Cancer Care",
-      "url": "http://www.iaea.org/newscenter/news/scientific-forum-highlights-progress-in-expanding-access-to-cancer-care",
-      "summary": "The IAEA’s flagship Rays of Hope initiative to expand access to cancer care was in the spotlight at this year’s Scientific Forum. The signature side event at the 70th IAEA General Conference, the forum brought together a",
-      "ts": 1789650000000,
-      "publishedAt": "2026-09-17T13:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: mice with part-human brains and climate tech innovators",
-      "url": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked…",
-      "ts": 1789647000000,
-      "publishedAt": "2026-09-17T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New UN system platform puts millions of data points at users’ fingertips, says Guterres",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168363",
-      "summary": "How do you make sense of a world facing interconnected crises, from poverty and hunger to climate change, if the facts are scattered across dozens of different places?",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Winter aid for Gaza, West Bank; Haiti food production; migrant deaths at sea; human rights funding",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168362",
-      "summary": "The UN Children’s Fund (UNICEF) is seeking to raise $97.5 million to protect 540,000 children and their families in Gaza and the West Bank from harsh winter conditions in the coming months.",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gender equality woefully off track, new UN report reveals",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168360",
-      "summary": "At the current rate of progress, gender equality would take 171 years to achieve, a new UN report finds as institutions built to advance gains are being defunded and demobilised.",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN fact-finding mission on Iran focuses on plight of civilians",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168358",
-      "summary": "The Independent International Fact-Finding Mission on Iran confirmed that civilians in the country suffered serious human rights violations and “crimes against humanity committed by their government,” while finding \"reas…",
-      "ts": 1789646400000,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

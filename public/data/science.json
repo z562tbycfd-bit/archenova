@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-19T02:17:48.157Z",
+  "updated": "2026-09-19T04:20:04.854Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Improving urban flood forecasting with real-time hazardous rainfall detection",
+      "url": "https://phys.org/news/2026-09-urban-real-hazardous-rainfall.html",
+      "summary": "The Korea Institute of Civil Engineering and Building Technology (KICT) announced that it will apply its early detection technology for quasi-stationary linear rainbands and sudden localized torrential rainfall to the Ur…",
+      "ts": 1789788002000,
+      "publishedAt": "2026-09-19T03:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How rural policing gaps can make escaping domestic violence harder",
+      "url": "https://phys.org/news/2026-09-rural-policing-gaps-domestic-violence.html",
+      "summary": "Before murdering Molly Ticehurst in April 2024, court documents show Daniel Billings had threatened to exploit the limits of policing in her country town: \"I will come in the middle of the night … The police won't stop m…",
+      "ts": 1789784402000,
+      "publishedAt": "2026-09-19T02:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Peer sexual harassment emerges early, highlighting need for prevention before Grade 4",
@@ -311,6 +327,30 @@
       "title": "Enduring Mechanical Memory from the Constitutive Response of Elastically Recoverable Nanostructured Materials",
       "url": "http://link.aps.org/doi/10.1103/n723-s2t6",
       "summary": "Author(s): Abhishek Gupta, Bhanugoban Maheswaran, Nicholas Jaegersberg, Komal Chawla, and Ramathasan Thevamaran Vertically aligned carbon nanotube foams exhibit return point memory, opening new opportunities for mechanic…",
+      "ts": 1789725600000,
+      "publishedAt": "2026-09-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Investigating spectral dynamics and spin signatures of a mechanically isolated quantum emitter in $h\\mathrm{BN}$",
+      "url": "http://link.aps.org/doi/10.1103/m3gt-9g4v",
+      "summary": "Author(s): Sajedeh Shahbazi, Alexander Pachl, Kathrin Schwer, Patrick Maier, and Alexander Kubanek Mechanically isolated defect centers in hexagonal boron nitride are promising coherent quantum emitters, yet spectral ins…",
+      "ts": 1789725600000,
+      "publishedAt": "2026-09-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Frequency collisions in parametrically modulated superconducting circuits",
+      "url": "http://link.aps.org/doi/10.1103/ptj2-kcpc",
+      "summary": "Author(s): Zhuang Ma, Peng Zhao, Xinsheng Tan, and Yang Yu Superconducting circuits are a leading platform for scalable quantum computing, where parametric modulation is a widely used technique for implementing high-fide…",
+      "ts": 1789725600000,
+      "publishedAt": "2026-09-18T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Reconfigurable circuit for mode-tunable topological quantum structured light",
+      "url": "http://link.aps.org/doi/10.1103/w3dc-58pw",
+      "summary": "Author(s): Pedro Ornelas, Tatjana Kleine, André G. de Oliveira, Carmelo Rosales-Guzmán, Andrew Forbes, and Isaac Nape Quantum topological structured light offers a promising route to robust information encoding, but its …",
       "ts": 1789725600000,
       "publishedAt": "2026-09-18T10:00:00.000Z"
     },
@@ -759,46 +799,6 @@
       "title": "Energy Harvesting for Self-Powered Microsystems: A Critical Review of Materials, Power Management, and System Integration",
       "url": "https://arxiv.org/abs/2609.20157",
       "summary": "arXiv:2609.20157v1 Announce Type: new Abstract: The relentless proliferation of the Internet of Things (IoT), wearable bioelectronics, and cyber-physical infrastructure has rendered the conventional electrochemical batte…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatiotemporal Analysis for Frequency-Magnitude Distribution of Earthquakes Across Mainland China: Comparing Classical and b-positive b-values Across Tectonic Regimes",
-      "url": "https://arxiv.org/abs/2609.20239",
-      "summary": "arXiv:2609.20239v1 Announce Type: new Abstract: The Gutenberg-Richter power-law relationship essentially governs the frequency-magnitude distribution (FMD) of seismic activity. The b-value, as the slope of this distribut…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The HANDY model with non-renewable resources and societal effects",
-      "url": "https://arxiv.org/abs/2609.20244",
-      "summary": "arXiv:2609.20244v1 Announce Type: new Abstract: We present an extension of the single-population Human and Nature Dynamics (HANDY) model that explicitly incorporates non-renewable resources and societal effects. The mode…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal mapping of drop impact spreading from wetting to Leidenfrost regimes",
-      "url": "https://arxiv.org/abs/2609.20259",
-      "summary": "arXiv:2609.20259v1 Announce Type: new Abstract: We establish a universal mapping between the maximum spreading of a drop under wetting and Leidenfrost impact conditions from an energy-dissipation perspective, with the la…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-dimensional shock-weak-discontinuity interactions: curvature deposition and post-shock flow response",
-      "url": "https://arxiv.org/abs/2609.20289",
-      "summary": "arXiv:2609.20289v1 Announce Type: new Abstract: A weak acoustic, entropy or vortical sheet can cross a finite-strength three-dimensional shock without producing a kink, yet it can deposit a discontinuity of curvature alo…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental setup for testing nanocalorimeter sensors as a plasma diagnostics tool",
-      "url": "https://arxiv.org/abs/2609.20328",
-      "summary": "arXiv:2609.20328v1 Announce Type: new Abstract: The application of microfabricated nanocalorimeters for real-time, highly sensitive, and selective monitoring of the energy fluxes from low-pressure plasma discharges has b…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
