@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-19T06:56:36.590Z",
+  "updated": "2026-09-19T09:14:48.788Z",
   "items": [
     {
       "source": "Phys.org",
@@ -30,6 +30,22 @@
       "source": "Nature Communications",
       "title": "Single-fiber hyperspectral imaging via nanophotonic disordered dispersion",
       "url": "https://www.nature.com/articles/s41467-026-77550-9",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Resonance-enhanced integrated acousto-optic beam steering",
+      "url": "https://www.nature.com/articles/s41467-026-77864-8",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors",
+      "url": "https://www.nature.com/articles/s41467-026-77985-0",
       "summary": "",
       "ts": 1789776000000,
       "publishedAt": "2026-09-19T00:00:00.000Z"
@@ -783,22 +799,6 @@
       "title": "Reconstruction of Beam Transverse Parameters in the Fermilab Side-Coupled Linac Using a Normalized Coordinate Framework",
       "url": "https://arxiv.org/abs/2609.20136",
       "summary": "arXiv:2609.20136v1 Announce Type: new Abstract: Quadrupole scans are a commonly used tool for beam second moment reconstruction. Limitations in the strength of the magnets and layout of the beamline elements frequently p…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterization of spatially inhomogeneous chirp in ultrashort multielectron beams via femtosecond hole burning",
-      "url": "https://arxiv.org/abs/2609.20141",
-      "summary": "arXiv:2609.20141v1 Announce Type: new Abstract: Direct observation of the temporal-energy structure of pulsed electron beams is crucial for beam-driven light generation and time-resolved microscopic imaging. In this stud…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy Harvesting for Self-Powered Microsystems: A Critical Review of Materials, Power Management, and System Integration",
-      "url": "https://arxiv.org/abs/2609.20157",
-      "summary": "arXiv:2609.20157v1 Announce Type: new Abstract: The relentless proliferation of the Internet of Things (IoT), wearable bioelectronics, and cyber-physical infrastructure has rendered the conventional electrochemical batte…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
