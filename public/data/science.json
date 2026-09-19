@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-09-19T09:14:48.788Z",
+  "updated": "2026-09-19T13:44:44.299Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rethinking how we assess students could improve their well-being",
+      "url": "https://phys.org/news/2026-09-rethinking-students.html",
+      "summary": "When you were in school, what stressed you out the most? For many students, classroom assessments—graded tests, quizzes, group work, presentations, labs and the like—would be near the top of the list.",
+      "ts": 1789824601000,
+      "publishedAt": "2026-09-19T13:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Florida scrub-jays attempt to breed at unusually young age after large-scale translocation",
+      "url": "https://phys.org/news/2026-09-florida-jays-unusually-young-age.html",
+      "summary": "For nearly two decades, biologist Lauren Deaner has worked with Florida scrub-jays, contributing to population recovery efforts and translocations. Now, as a doctoral researcher in UCF's integrative biology program, she …",
+      "ts": 1789821601000,
+      "publishedAt": "2026-09-19T12:40:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Surviving the summer",
+      "url": "https://www.sciencenews.org/article/surviving-summer-ed-note-october-2026",
+      "summary": "Editor in Chief Nancy Shute discusses existential threats to humankind: extreme heat, never-ending drought and a plan to provide Earth with sunlight on demand.",
+      "ts": 1789819200000,
+      "publishedAt": "2026-09-19T12:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Protein map reveals how red blood cells rapidly adjust to low oxygen",
+      "url": "https://phys.org/news/2026-09-protein-reveals-red-blood-cells.html",
+      "summary": "Scientists map the hidden protein network that helps red blood cells adapt to oxygen",
+      "ts": 1789818001000,
+      "publishedAt": "2026-09-19T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Loss of Y chromosome in men could be an early warning sign of cancer",
+      "url": "https://phys.org/news/2026-09-loss-chromosome-men-early-cancer.html",
+      "summary": "A study initiated by Dr. Dan Theodorescu, a physician-scientist at the University of Arizona Cancer Center, revealed that the loss of the Y chromosome in men's body tissue could pave the way for cancer to develop. Accord…",
+      "ts": 1789816801000,
+      "publishedAt": "2026-09-19T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists simulate cosmic crashes to test whether icy moons gain or lose their ability to sustain life",
+      "url": "https://phys.org/news/2026-09-scientists-simulate-cosmic-icy-moons.html",
+      "summary": "Many of the moons orbiting Saturn, Uranus and Neptune likely conceal oceans of liquid water beneath miles of icy shell. Because life as we know it needs water, these buried oceans rank among the most promising places to …",
+      "ts": 1789815606000,
+      "publishedAt": "2026-09-19T11:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Kids involved with child protective services miss much more school than their peers",
+      "url": "https://phys.org/news/2026-09-kids-involved-child-school-peers.html",
+      "summary": "Across the country, kids are settling into new school-year routines. Parents buy backpacks, teachers arrange desks and lesson plans, and friends reconnect. But in recent years, empty chairs are becoming a more common sig…",
+      "ts": 1789815604000,
+      "publishedAt": "2026-09-19T11:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sea surface temperature biases shift the North Pacific jet stream southward, study finds",
+      "url": "https://phys.org/news/2026-09-sea-surface-temperature-biases-shift.html",
+      "summary": "Climate models are numerical models used to project future climate change. They simulate the climate from the present into the future by calculating changes in the atmosphere, ocean and other components of the climate sy…",
+      "ts": 1789811401000,
+      "publishedAt": "2026-09-19T09:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Improving urban flood forecasting with real-time hazardous rainfall detection",
@@ -28,8 +92,24 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Virtual sensing to enable real-time monitoring of inaccessible locations &amp; unmeasurable parameters",
+      "url": "https://www.nature.com/articles/s41467-026-77463-7",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Single-fiber hyperspectral imaging via nanophotonic disordered dispersion",
       "url": "https://www.nature.com/articles/s41467-026-77550-9",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Kirigami-actuated reconfigurable topological photonic crystals",
+      "url": "https://www.nature.com/articles/s41467-026-77880-8",
       "summary": "",
       "ts": 1789776000000,
       "publishedAt": "2026-09-19T00:00:00.000Z"
@@ -54,6 +134,22 @@
       "source": "Nature Communications",
       "title": "Spatial partitioning of NSD2 defines H3K36me2 as an active mark for repetitive sequence activation",
       "url": "https://www.nature.com/articles/s41467-026-77898-y",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Scalable molecular representations enabled by multimodal fusion and sequence distillation",
+      "url": "https://www.nature.com/articles/s41467-026-77700-z",
+      "summary": "",
+      "ts": 1789776000000,
+      "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Cryo-EM structure of ex vivo Sup35 yeast prion and the factors defining prion phenotype",
+      "url": "https://www.nature.com/articles/s41467-026-77823-3",
       "summary": "",
       "ts": 1789776000000,
       "publishedAt": "2026-09-19T00:00:00.000Z"
@@ -703,102 +799,6 @@
       "title": "Mo2TiC2Tx MXene Saturable Absorption for Neural Networks on a Chip",
       "url": "https://arxiv.org/abs/2609.19849",
       "summary": "arXiv:2609.19849v1 Announce Type: new Abstract: MXenes have attracted considerable interest for integrated nonlinear photonics owing to their broadband optical response and chemical tunability, yet investigations have fo…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrogen isotope mixing entropy in ammonia clusters",
-      "url": "https://arxiv.org/abs/2609.19901",
-      "summary": "arXiv:2609.19901v1 Announce Type: new Abstract: Measured evaporation branching ratios of partially deuterated isotopologues of protonated ammonia clusters (NH$_3$)$_N$ H$^+$ ($N \\geq 8$) show ratios that depend only on t…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Broadband transverse mode directional couplers using partial Euler bends",
-      "url": "https://arxiv.org/abs/2609.19933",
-      "summary": "arXiv:2609.19933v1 Announce Type: new Abstract: Transverse modes beyond the fundamental mode are increasingly being explored to increase information capacity in both mode-division multiplexing and high-dimensional quantu…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mean flow scaling in stably stratified temporally developing turbulent boundary layers",
-      "url": "https://arxiv.org/abs/2609.19935",
-      "summary": "arXiv:2609.19935v1 Announce Type: new Abstract: Stably stratified wall-bounded turbulence governs the dynamics of many environmental and engineering flows. A key challenge is characterizing how stratification modifies me…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Power-Bandwidth Scaling of Resonantly Coupled Soliton Microcombs",
-      "url": "https://arxiv.org/abs/2609.19941",
-      "summary": "arXiv:2609.19941v1 Announce Type: new Abstract: A soliton microcomb requires increasing pump power as its optical bandwidth is broadened. Resonant pumping through an auxiliary microresonator can reduce the power required…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gradient-Based Construction of Collisionless Steady-State Guiding-Center Distributions in Tokamaks and Stellarators",
-      "url": "https://arxiv.org/abs/2609.19953",
-      "summary": "arXiv:2609.19953v1 Announce Type: new Abstract: We present a matrix-free residual-minimization method for preparing guiding-center distribution functions on finite grids. The method minimizes a fixed conservative discret…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-capacity computing with self-rectification nonlinear optical neural processor",
-      "url": "https://arxiv.org/abs/2609.19981",
-      "summary": "arXiv:2609.19981v1 Announce Type: new Abstract: Artificial intelligence (AI) and neural networks have driven groundbreaking innovations across numerous disciplines. Optical computing offers the promise of unprecedented s…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "T2 estimation from MOLLI acquisitions",
-      "url": "https://arxiv.org/abs/2609.19987",
-      "summary": "arXiv:2609.19987v1 Announce Type: new Abstract: Cardiac T1 and T2 quantitative magnetic resonance imaging (MRI) is a technique that provides characterization of a multitude of myocardial pathologies. However, each parame…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When higher-order interactions matter: reducibility, parsimony, and microscopic organization",
-      "url": "https://arxiv.org/abs/2609.20039",
-      "summary": "arXiv:2609.20039v1 Announce Type: new Abstract: The current debate on higher-order interactions raises a fundamental question: when can systems organized through group interactions be faithfully represented within a grap…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transient High-Harmonic Generation from Solids: From Spectroscopy and Control to Programmable Emission",
-      "url": "https://arxiv.org/abs/2609.20085",
-      "summary": "arXiv:2609.20085v1 Announce Type: new Abstract: High-harmonic generation (HHG) from solids has emerged as a powerful probe of electronic structure and ultrafast dynamics in condensed matter systems. In this chapter, we r…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Commissioning and Performance of the Time-of-Flight Detector for the T2K Neutrino Oscillation Experiment",
-      "url": "https://arxiv.org/abs/2609.20117",
-      "summary": "arXiv:2609.20117v1 Announce Type: new Abstract: The T2K ND280 Upgrade aims to reduce systematic uncertainties in measurements of neutrino oscillation parameters and improve sensitivity to the charge-parity (CP)-violating…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frequency Attraction and Repulsion in Lasers with Complex Mutual Coupling",
-      "url": "https://arxiv.org/abs/2609.20132",
-      "summary": "arXiv:2609.20132v1 Announce Type: new Abstract: We experimentally investigate laser synchronization under complex mutual coupling, featuring both dissipative and dispersive components. Using a reconfigurable digital dege…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstruction of Beam Transverse Parameters in the Fermilab Side-Coupled Linac Using a Normalized Coordinate Framework",
-      "url": "https://arxiv.org/abs/2609.20136",
-      "summary": "arXiv:2609.20136v1 Announce Type: new Abstract: Quadrupole scans are a commonly used tool for beam second moment reconstruction. Limitations in the strength of the magnets and layout of the beamline elements frequently p…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
