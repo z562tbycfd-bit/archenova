@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-20T00:47:21.670Z",
+  "updated": "2026-09-20T05:51:01.745Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
+      "summary": "APOD Science APOD APOD: 2026 September 20 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1789877100000,
+      "publishedAt": "2026-09-20T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Lilly’s GIP/GLP-1 Candidate Brenipatide Shows Early Clinical Promise in Substance, Psych Disorders",
@@ -802,15 +811,6 @@
       "ts": 1789655846000,
       "publishedAt": "2026-09-17T14:37:26.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: New startup to test psychedelic-like drug against Parkinson’s symptom",
-      "url": "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/?utm_campaign=rss",
-      "summary": "A psychedelic-like drug for a Parkinson's symptom, mice with half-human brains, and more biotech news in the Readout newsletter.",
-      "ts": 1789655437000,
-      "publishedAt": "2026-09-17T14:30:37.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
