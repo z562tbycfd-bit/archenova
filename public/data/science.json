@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-20T10:52:51.200Z",
+  "updated": "2026-09-20T14:35:42.367Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Longitudinal survey finds little evidence that social tech predicts life satisfaction in adults",
+      "url": "https://phys.org/news/2026-09-longitudinal-survey-evidence-social-tech.html",
+      "summary": "Social technologies, digital tools that allow people to communicate and share content with each other online, have become a central way of communicating for many people worldwide. Yet the possible effects of these techno…",
+      "ts": 1789912801000,
+      "publishedAt": "2026-09-20T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellites show Earth lost more than 12 trillion tons of ice from Greenland, Antarctica in 47 years",
+      "url": "https://phys.org/news/2026-09-satellites-earth-lost-trillion-tons.html",
+      "summary": "About 12.5 trillion tons (11.3 trillion metric tons) of ice from glaciers in Greenland and Antarctica have melted since 1979, which is enough frozen water to stack ice 5 feet (1.5 meters) deep across the continental Unit…",
+      "ts": 1789911001000,
+      "publishedAt": "2026-09-20T13:30:01.000Z"
+    },
     {
       "source": "Nature Communications",
       "title": "Memristive singular value decomposition",
@@ -783,22 +799,6 @@
       "title": "Mollified-sharp decomposition: a probabilistic regularization of parametric POD for shock-bearing flows",
       "url": "https://arxiv.org/abs/2609.19532",
       "summary": "arXiv:2609.19532v1 Announce Type: new Abstract: This paper introduces the mollified-sharp decomposition, a probabilistic regularization of moving shocks in parametric reduced-order models. Each detected shock location is…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automatic Optical Alignment Using Projective Geometry",
-      "url": "https://arxiv.org/abs/2609.19565",
-      "summary": "arXiv:2609.19565v1 Announce Type: new Abstract: Aligning and maintaining complex optical beam paths is a central challenge across experimental science, because it is a high-dimensional task with strong cross-coupling bet…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient laser ion acceleration in near-critical density plasmas in the picosecond pulse regime",
-      "url": "https://arxiv.org/abs/2609.19571",
-      "summary": "arXiv:2609.19571v1 Announce Type: new Abstract: Kilojoule-class short-pulse (< 10 ps) lasers are excellent tools for generating relativistic ion beams, but achieving high laser-to-ion conversion efficiency remains an ope…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
