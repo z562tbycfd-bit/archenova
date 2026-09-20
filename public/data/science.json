@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-20T21:14:59.594Z",
+  "updated": "2026-09-20T23:56:19.600Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'Rusty treasure' find revealed as Europe's largest assemblage of prehistoric iron bars",
+      "url": "https://phys.org/news/2026-09-rusty-treasure-revealed-europe-largest.html",
+      "summary": "Analysis of a \"rusty treasure\" excavated during industrial gravel extraction at Deinham, Austria, reveals it is the largest mass find of prehistoric iron bars in Europe, pointing to iron production and trade during the I…",
+      "ts": 1789945202000,
+      "publishedAt": "2026-09-20T23:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cooling liquids reveal self-limiting particle clusters behind glass transition",
+      "url": "https://phys.org/news/2026-09-cooling-liquids-reveal-limiting-particle.html",
+      "summary": "Before diving into the mystery of glass, theoretical physicist Corentin Laudicina takes us back to high school physics for a moment. Although he has spent years studying exactly what happens in a material during the glas…",
+      "ts": 1789939801000,
+      "publishedAt": "2026-09-20T21:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Tiny beach-dwelling crustaceans are big-time sand movers, shaping the California coast",
@@ -783,22 +799,6 @@
       "title": "From Prompts to Physical Laws: A Generative AI Workflow for Engineering Physics Education",
       "url": "https://arxiv.org/abs/2609.19400",
       "summary": "arXiv:2609.19400v1 Announce Type: new Abstract: This work explores the use of generative artificial intelligence (AI) as a source of synthetic experimental content for introductory physics courses in engineering educatio…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calculating a journey to Mars with introductory physics",
-      "url": "https://arxiv.org/abs/2609.19403",
-      "summary": "arXiv:2609.19403v1 Announce Type: new Abstract: The problem of a crewed mission to Mars provides a compelling and realistic context for teaching introductory physics. In this work, we present a coherent set of calculatio…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Agentic AI for Density-Functional Development: Revisiting r2SCAN",
-      "url": "https://arxiv.org/abs/2609.19419",
-      "summary": "arXiv:2609.19419v1 Announce Type: new Abstract: We demonstrate physics-constrained agentic development of a meta-generalized gradient approximation (meta-GGA) functional using a large language model (LLM) to assist the s…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }

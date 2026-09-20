@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-20T21:15:03.225Z",
+  "updated": "2026-09-20T23:56:21.854Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection",
+      "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
+      "summary": "ITM Isotope Technologies Munich SE and Telix Pharmaceuticals, two leading companies in the burgeoning radiopharmaceuticals field, are merging.",
+      "ts": 1789946757000,
+      "publishedAt": "2026-09-20T23:25:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
@@ -801,15 +810,6 @@
       "summary": "LEUVEN, BELGIUM and BILBAO, SPAIN – 17 September 2026—Simera Sense, a leading European provider of optical payload solutions for small satellites, today announced a strategic partnership with IDOM, one of […] The post Si…",
       "ts": 1789656051000,
       "publishedAt": "2026-09-17T14:40:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Inside Europe’s push for space autonomy with Josef Aschbacher",
-      "url": "https://spacenews.com/inside-europes-push-for-space-autonomy-with-josef-aschbacher/",
-      "summary": "In this episode of the podcast, SpaceNews’ Mike Gruss interviews Josef Aschbacher, the director-general of the European Space Agency, at the World Space Business Week conference in Paris. They discuss […] The post Inside…",
-      "ts": 1789655846000,
-      "publishedAt": "2026-09-17T14:37:26.000Z",
       "categoryId": "space"
     }
   ],
