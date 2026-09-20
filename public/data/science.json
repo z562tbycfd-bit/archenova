@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-09-20T14:35:42.367Z",
+  "updated": "2026-09-20T18:04:30.880Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "To understand the solar cycle, notice how the sun sleeps",
+      "url": "https://phys.org/news/2026-09-solar-sun.html",
+      "summary": "The sun is such a constant in our lives that it can be difficult to imagine our star ever changing. But the sun can be quite variable. There are times when its magnetic field is turbulent and generates many sunspots and …",
+      "ts": 1789924801000,
+      "publishedAt": "2026-09-20T17:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Virtual cells built from 4D AI models and 'digital twins' could speed up drug discovery",
+      "url": "https://phys.org/news/2026-09-virtual-cells-built-4d-ai.html",
+      "summary": "Mitochondria—tiny structures that convert nutrients into energy—are often depicted as discrete kidney bean-shaped objects. But in reality, they form a dynamic, interconnected network throughout the entire cell, rapidly s…",
+      "ts": 1789920005000,
+      "publishedAt": "2026-09-20T16:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The story of Little Italy's Feast of San Gennaro is the story of how Italian immigrants became American",
+      "url": "https://phys.org/news/2026-09-story-italy-feast-san-gennaro.html",
+      "summary": "For two weeks in September, everyone wants to be Italian—at least judging by the crowds at the annual Feast of San Gennaro in New York City's Little Italy.",
+      "ts": 1789920001000,
+      "publishedAt": "2026-09-20T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magma influx explains short-lived bulge at Tanzania's Ol Doinyo Lengai volcano",
+      "url": "https://phys.org/news/2026-09-magma-influx-short-bulge-tanzania.html",
+      "summary": "In 2024, D. Sarah Stamps' team detected and tracked a short-lived bulge in the land around a volcano in Tanzania. In a paper published Sep. 18, Stamps identified the cause of the uplift: 1 million cubic meters of magma p…",
+      "ts": 1789916401000,
+      "publishedAt": "2026-09-20T15:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Longitudinal survey finds little evidence that social tech predicts life satisfaction in adults",
@@ -767,38 +799,6 @@
       "title": "DFT GGA based datasets for H$_2$O potential energy surfaces, permanent moment and polarizability tensors",
       "url": "https://arxiv.org/abs/2609.19469",
       "summary": "arXiv:2609.19469v1 Announce Type: new Abstract: We present in this article data on the computed potential energy surface, permanent moment surface (from dipole to hexadecapole) and polarizability surface (from dipole-dip…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Giant Resonant Reflection Gain from Injection-Induced Quenching in a Tunnel Diode",
-      "url": "https://arxiv.org/abs/2609.19494",
-      "summary": "arXiv:2609.19494v1 Announce Type: new Abstract: Negative-resistance microwave oscillators can simultaneously sustain autonomous oscillations and coherently scatter electromagnetic waves, enabling active reflection beyond…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wake interactions drive synchronized vortex merging in a hovering quadcopter",
-      "url": "https://arxiv.org/abs/2609.19507",
-      "summary": "arXiv:2609.19507v1 Announce Type: new Abstract: The most energetic coherent structure of a hovering full-scale quadcopter is associated with a self-organizing process in which the individual rotor vortices synchronize th…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Continental-scale probabilistic resistivity imaging of Australia using deep learning: Implications for geology, groundwater, and critical minerals",
-      "url": "https://arxiv.org/abs/2609.19516",
-      "summary": "arXiv:2609.19516v1 Announce Type: new Abstract: Electrical resistivity is a fundamental physical property that provides powerful constraints on subsurface structure, lithology, fluid distribution, and mineralization. We …",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mollified-sharp decomposition: a probabilistic regularization of parametric POD for shock-bearing flows",
-      "url": "https://arxiv.org/abs/2609.19532",
-      "summary": "arXiv:2609.19532v1 Announce Type: new Abstract: This paper introduces the mollified-sharp decomposition, a probabilistic regularization of moving shocks in parametric reduced-order models. Each detected shock location is…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
