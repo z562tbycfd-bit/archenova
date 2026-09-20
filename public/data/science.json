@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-20T05:50:58.374Z",
+  "updated": "2026-09-20T10:52:51.200Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Memristive singular value decomposition",
+      "url": "https://www.nature.com/articles/s41467-026-76272-2",
+      "summary": "",
+      "ts": 1789862400000,
+      "publishedAt": "2026-09-20T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "At an old steel site in Pittsburgh, bacteria evolved to survive—and eat—industrial pollution",
@@ -791,14 +799,6 @@
       "title": "Efficient laser ion acceleration in near-critical density plasmas in the picosecond pulse regime",
       "url": "https://arxiv.org/abs/2609.19571",
       "summary": "arXiv:2609.19571v1 Announce Type: new Abstract: Kilojoule-class short-pulse (< 10 ps) lasers are excellent tools for generating relativistic ion beams, but achieving high laser-to-ion conversion efficiency remains an ope…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Limits on the free-space group velocity of optical wave packets incorporating angular dispersion. Part~I, conventional angular dispersion: tutorial",
-      "url": "https://arxiv.org/abs/2609.19576",
-      "summary": "arXiv:2609.19576v1 Announce Type: new Abstract: A plane-wave optical pulse travels in free space at a group velocity $c$ (the speed of light in vacuum) measured along its propagation axis. It is sometimes thought that sp…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
