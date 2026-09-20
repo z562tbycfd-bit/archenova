@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-20T18:04:30.880Z",
+  "updated": "2026-09-20T21:14:59.594Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tiny beach-dwelling crustaceans are big-time sand movers, shaping the California coast",
+      "url": "https://phys.org/news/2026-09-tiny-beach-crustaceans-big-sand.html",
+      "summary": "Stand on the damp sand on a California beach and chances are you're standing on top of an active earthworks site. Sand hoppers (Megalorchestia spp.), the tiny, shrimp-like creatures commonly found eating away at kelp on …",
+      "ts": 1789935601000,
+      "publishedAt": "2026-09-20T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How firelight may have shaped the origins of spoken language",
+      "url": "https://phys.org/news/2026-09-firelight-spoken-language.html",
+      "summary": "When asked about the greatest innovation of humans, people often say language or fire. A new paper suggests these innovations may be more interlinked than we previously assumed.",
+      "ts": 1789930801000,
+      "publishedAt": "2026-09-20T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Venus ate its moon: How Earth's 'twin' could have swallowed a rocky satellite",
+      "url": "https://phys.org/news/2026-09-venus-ate-moon-earth-twin.html",
+      "summary": "Scientists have long speculated why Venus, with a size, mass and structure similar to Earth's, doesn't have a moon. New UC Riverside research shows that our hungry twin likely swallowed it.",
+      "ts": 1789929002000,
+      "publishedAt": "2026-09-20T18:30:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "To understand the solar cycle, notice how the sun sleeps",
@@ -775,30 +799,6 @@
       "title": "Agentic AI for Density-Functional Development: Revisiting r2SCAN",
       "url": "https://arxiv.org/abs/2609.19419",
       "summary": "arXiv:2609.19419v1 Announce Type: new Abstract: We demonstrate physics-constrained agentic development of a meta-generalized gradient approximation (meta-GGA) functional using a large language model (LLM) to assist the s…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How universal are warm turbulent cascades?",
-      "url": "https://arxiv.org/abs/2609.19432",
-      "summary": "arXiv:2609.19432v1 Announce Type: new Abstract: It is often assumed that general stationary solutions to the wave kinetic equation are described solely by conserved fluxes and temperature. The families of solutions param…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A more predictable Madden-Julian Oscillation index derived from Koopman spectral analysis",
-      "url": "https://arxiv.org/abs/2609.19435",
-      "summary": "arXiv:2609.19435v1 Announce Type: new Abstract: The Madden-Julian oscillation (MJO) is a major source of subseasonal-to-seasonal (S2S) predictability. The MJO is commonly defined and tracked with indices such as the Real…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DFT GGA based datasets for H$_2$O potential energy surfaces, permanent moment and polarizability tensors",
-      "url": "https://arxiv.org/abs/2609.19469",
-      "summary": "arXiv:2609.19469v1 Announce Type: new Abstract: We present in this article data on the computed potential energy surface, permanent moment surface (from dipole to hexadecapole) and polarizability surface (from dipole-dip…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
