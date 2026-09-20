@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-19T22:43:50.920Z",
+  "updated": "2026-09-20T00:47:19.619Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "At an old steel site in Pittsburgh, bacteria evolved to survive—and eat—industrial pollution",
+      "url": "https://phys.org/news/2026-09-steel-site-pittsburgh-bacteria-evolved.html",
+      "summary": "Across Appalachia and the Rust Belt region, including throughout the city of Pittsburgh, former industrial sites are being transformed into new neighborhoods, research centers and technology hubs.",
+      "ts": 1789860601000,
+      "publishedAt": "2026-09-19T23:30:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How the malaria parasite boosts its transmission potential under stress conditions",
@@ -791,14 +799,6 @@
       "title": "Limits on the free-space group velocity of optical wave packets incorporating angular dispersion. Part~I, conventional angular dispersion: tutorial",
       "url": "https://arxiv.org/abs/2609.19576",
       "summary": "arXiv:2609.19576v1 Announce Type: new Abstract: A plane-wave optical pulse travels in free space at a group velocity $c$ (the speed of light in vacuum) measured along its propagation axis. It is sometimes thought that sp…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Limits on the free-space group velocity of optical wave packets incorporating angular dispersion. Part~II, non-differentiable angular dispersion: tutorial",
-      "url": "https://arxiv.org/abs/2609.19580",
-      "summary": "arXiv:2609.19580v1 Announce Type: new Abstract: In Part~I of this tutorial, we showed that introducing angular dispersion (AD) into a collimated optical pulse allows for tuning the wave packet group velocity in free spac…",
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z"
     }
