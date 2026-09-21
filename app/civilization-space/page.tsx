@@ -1,348 +1,1301 @@
 "use client";
 
-import type { ReactNode } from "react";
-import { useRef } from "react";
 import Link from "next/link";
-
-import CivilizationLibrary from "../components/CivilizationLibrary";
-import CivilizationIntelligencePortal from "../components/CivilizationIntelligencePortal";
-import CivilizationExperiencePortal from "../components/CivilizationExperiencePortal";
-
-/* ==========================================================
-   ARCHENOVA
-   CIVILIZATION SPACE
-
-   BLACK GALAXY × TRANSLUCENT BLACK GLASS
-
-   Preserve · Understand · Experience
-
-   DESIGN PRINCIPLES
-
-   - A full-width civilization environment
-   - Deep black as the dominant visual foundation
-   - Silver-white galactic light, not a blue cityscape
-   - Translucent black glass for interactive surfaces
-   - No giant foreground frame around imported portals
-   - Preserve the existing navigation and portal structure
-========================================================== */
+import {
+  useEffect,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 
 /* ==========================================================
-   TYPES
+   ARCHENOVA / WORKS
+
+   FULL-VIEWPORT EXHIBITION
+   PURE BLACK × TRANSLUCENT BLACK GLASS
+
+   DISPLAY PRINCIPLES
+
+   - Every exhibition occupies the full available width.
+   - Each exhibition has at least one viewport of height.
+   - Content may extend vertically when the device is short.
+   - Heading, artwork and navigation have separate layout zones.
+   - No fixed-position foreground cards over the artwork.
+   - No narrow outer container or 1440px width limit.
+   - Artwork is decorative, not experimental evidence.
 ========================================================== */
 
-type CivilizationSpaceLayerProps = {
-  code: string;
-  id: string;
-  label: string;
-  verb: string;
-  question: string;
+type VisualType = "episteme" | "aetherion" | "research";
+
+type Work = {
+  number: string;
+  id: VisualType;
+  category: string;
+  name: string;
+  subtitle: string;
   description: string;
-  children: ReactNode;
+  status: string;
+  statusDetail: string;
+  evidence: string;
+  openQuestion: string;
+  collaboration: string;
+  href: string;
+  action: string;
 };
 
+const WORKS: Work[] = [
+  {
+    number: "01",
+    id: "episteme",
+    category: "COGNITIVE INTELLIGENCE",
+    name: "Episteme",
+    subtitle: "A space to think beyond the question.",
+    description:
+      "ArcheNova's evolving cognitive environment for dialogue, reasoning, and research exploration.",
+    status: "DIGITAL ENVIRONMENT",
+    statusDetail:
+      "The public experience can be explored through ArcheNova. Individual capabilities may be at different stages of development.",
+    evidence:
+      "Explore the public interface and its currently accessible interactions. Implementation details and independently verified performance are not implied by the interface alone.",
+    openQuestion:
+      "How can scientific reasoning remain traceable, testable, and correctable as cognitive capabilities expand?",
+    collaboration:
+      "AI systems, scientific reasoning, evaluation methods, and human–AI interaction.",
+    href: "/home#episteme-dialogue",
+    action: "EXPERIENCE EPISTEME",
+  },
+  {
+    number: "02",
+    id: "aetherion",
+    category: "ORBITAL MANUFACTURING",
+    name: "Aetherion",
+    subtitle: "Manufacturing beyond the ground.",
+    description:
+      "An architectural concept exploring orbital manufacturing and civilization-scale production systems.",
+    status: "SYSTEM CONCEPT",
+    statusDetail:
+      "Aetherion is presented as a design concept. It is not represented here as an operating manufacturing facility.",
+    evidence:
+      "Conceptual architecture, enabling technologies, feasibility conditions, and unresolved engineering constraints require separate examination.",
+    openQuestion:
+      "Which technical, economic, operational, and safety conditions must be demonstrated before orbital production becomes feasible?",
+    collaboration:
+      "Space systems, manufacturing engineering, energy, robotics, safety, and systems architecture.",
+    href: "/home#aetherion",
+    action: "EXPLORE THE CONCEPT",
+  },
+  {
+    number: "03",
+    id: "research",
+    category: "SCIENTIFIC INQUIRY",
+    name: "Research & Scientific Frameworks",
+    subtitle: "Questions that reality can answer.",
+    description:
+      "Scientific questions, theoretical propositions, and frameworks designed to distinguish claims from evidence.",
+    status: "RESEARCH & FRAMEWORKS",
+    statusDetail:
+      "Research documents and conceptual frameworks must be distinguished from completed experiments and independently reproduced findings.",
+    evidence:
+      "Relevant publications, mathematical formulations, testable predictions, and experimental results should be associated with each individual research claim.",
+    openQuestion:
+      "What observations or experiments could distinguish competing explanations and falsify the proposed models?",
+    collaboration:
+      "Theoretical research, experimental design, measurement, reproducibility, and independent scientific review.",
+    href: "/research",
+    action: "EXPLORE RESEARCH",
+  },
+];
+
+const EVIDENCE_STEPS = [
+  {
+    number: "01",
+    title: "Experience",
+    description:
+      "Access the public environment or examine the artifact currently presented.",
+  },
+  {
+    number: "02",
+    title: "Examine",
+    description:
+      "Separate implemented capabilities, conceptual designs, and independently verified findings.",
+  },
+  {
+    number: "03",
+    title: "Challenge",
+    description:
+      "Identify unresolved questions, feasibility conditions, and evidence needed to advance the work.",
+  },
+];
+
 /* ==========================================================
-   CIVILIZATION SPACE LAYER
+   SHARED COMPONENTS
 ========================================================== */
 
-function CivilizationSpaceLayer({
-  code,
-  id,
-  label,
-  verb,
-  question,
-  description,
-  children,
-}: CivilizationSpaceLayerProps) {
+function Arrow({ diagonal = false }: { diagonal?: boolean }) {
   return (
-    <section id={id} className="an-cspace-layer">
-      <div className="an-cspace-layer__orbit" aria-hidden="true">
-        <i />
-        <i />
-        <i />
-      </div>
+    <svg
+      className="aw-arrow"
+      viewBox="0 0 24 24"
+      fill="none"
+      aria-hidden="true"
+    >
+      {diagonal ? (
+        <>
+          <path d="M5 19 19 5" />
+          <path d="M8 5h11v11" />
+        </>
+      ) : (
+        <>
+          <path d="M3 12h17" />
+          <path d="m13 5 7 7-7 7" />
+        </>
+      )}
+    </svg>
+  );
+}
 
-      <header className="an-cspace-layer__header">
-        <div className="an-cspace-layer__identity">
-          <span>{code}</span>
-          <strong>{label}</strong>
-        </div>
+function Reveal({
+  children,
+  className = "",
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const [visible, setVisible] = useState(false);
 
-        <div className="an-cspace-layer__meaning">
-          <span className="an-cspace-layer__verb">{verb}</span>
-          <h2>{question}</h2>
-          <p>{description}</p>
-        </div>
-      </header>
+  useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
 
-      {/*
-        The imported portal remains independent.
+    if (
+      !("IntersectionObserver" in window) ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      setVisible(true);
+      return;
+    }
 
-        This placement surface does not create an
-        additional large glass card or narrow frame.
-      */}
-      <div className="an-cspace-layer__surface">
-        {children}
-      </div>
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0.06,
+        rootMargin: "0px 0px 60px 0px",
+      },
+    );
 
-      <footer className="an-cspace-layer__footer" aria-hidden="true">
-        <span>REALITY</span>
-        <i />
-        <span>{label}</span>
-        <i />
-        <span>CIVILIZATION SPACE</span>
-      </footer>
-    </section>
+    observer.observe(element);
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div
+      ref={ref}
+      className={`aw-reveal ${visible ? "is-visible" : ""} ${className}`}
+    >
+      {children}
+    </div>
+  );
+}
+
+function Glass({
+  children,
+  className = "",
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  return <div className={`aw-glass ${className}`}>{children}</div>;
+}
+
+/* ==========================================================
+   DETERMINISTIC DECORATIVE PARTICLES
+========================================================== */
+
+function seeded(index: number, seed: number) {
+  const value =
+    Math.sin(index * 127.1 + seed * 311.7) * 43758.5453;
+
+  return value - Math.floor(value);
+}
+
+function StarField({
+  count = 170,
+  seed = 1,
+  concentrated = false,
+}: {
+  count?: number;
+  seed?: number;
+  concentrated?: boolean;
+}) {
+  return (
+    <g aria-hidden="true">
+      {Array.from({ length: count }, (_, index) => {
+        const angle = seeded(index, seed + 1) * Math.PI * 2;
+        const radius = Math.sqrt(seeded(index, seed + 2));
+
+        const x = concentrated
+          ? 500 + Math.cos(angle) * radius * 405
+          : seeded(index, seed + 3) * 1000;
+
+        const y = concentrated
+          ? 500 + Math.sin(angle) * radius * 405
+          : seeded(index, seed + 4) * 1000;
+
+        const size = 0.35 + seeded(index, seed + 5) * 1.5;
+        const opacity =
+          0.13 + seeded(index, seed + 6) * 0.67;
+
+        return (
+          <circle
+            key={index}
+            cx={x}
+            cy={y}
+            r={size}
+            fill="white"
+            opacity={opacity}
+          />
+        );
+      })}
+    </g>
   );
 }
 
 /* ==========================================================
-   CIVILIZATION SPACE PAGE
+   EPISTEME / ABSTRACT NEURAL SILHOUETTE
 ========================================================== */
 
-export default function CivilizationSpacePage() {
-  const layersRef = useRef<HTMLDivElement | null>(null);
+function EpistemeVisual() {
+  const nodes = Array.from({ length: 115 }, (_, index) => {
+    const angle = seeded(index, 11) * Math.PI * 2;
+    const radius = Math.sqrt(seeded(index, 12));
 
-  function enterSpace() {
-    layersRef.current?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  }
+    return {
+      x: 510 + Math.cos(angle) * radius * 260,
+      y: 420 + Math.sin(angle) * radius * 310,
+      r: 0.8 + seeded(index, 13) * 2.3,
+    };
+  });
 
   return (
-    <main className="an-cspace">
+    <svg
+      className="aw-art-svg aw-art-svg--episteme"
+      viewBox="0 0 1000 1000"
+      role="img"
+      aria-label="Abstract luminous neural network forming a human head silhouette"
+    >
+      <defs>
+        <radialGradient id="aw-episteme-light">
+          <stop offset="0%" stopColor="#fff8e5" />
+          <stop
+            offset="22%"
+            stopColor="#ead4a5"
+            stopOpacity=".8"
+          />
+          <stop
+            offset="100%"
+            stopColor="#bda47e"
+            stopOpacity="0"
+          />
+        </radialGradient>
+
+        <filter id="aw-episteme-glow">
+          <feGaussianBlur stdDeviation="4" />
+        </filter>
+
+        <clipPath id="aw-episteme-clip">
+          <path d="M659 155 C555 91 389 125 309 222 C260 279 246 355 260 423 C269 464 246 497 210 538 C186 568 204 591 247 594 L238 643 C233 664 248 675 276 680 C272 722 290 742 342 744 C370 744 399 736 424 739 C468 754 476 818 465 921 L777 921 C736 829 712 765 730 690 C751 625 812 560 813 445 C814 312 756 209 659 155 Z" />
+        </clipPath>
+      </defs>
+
+      <g className="aw-episteme-breath">
+        <path
+          d="M659 155 C555 91 389 125 309 222 C260 279 246 355 260 423 C269 464 246 497 210 538 C186 568 204 591 247 594 L238 643 C233 664 248 675 276 680 C272 722 290 742 342 744 C370 744 399 736 424 739 C468 754 476 818 465 921 L777 921 C736 829 712 765 730 690 C751 625 812 560 813 445 C814 312 756 209 659 155 Z"
+          fill="#cdb992"
+          fillOpacity=".025"
+          stroke="#d9c9aa"
+          strokeOpacity=".44"
+          strokeWidth="1.2"
+        />
+
+        <g clipPath="url(#aw-episteme-clip)">
+          {Array.from({ length: 42 }, (_, index) => {
+            const x = 200 + index * 14;
+            const bend = seeded(index, 20) * 130 - 65;
+
+            return (
+              <path
+                key={`v-${index}`}
+                d={`M${x} 90 C${x + bend} 310 ${
+                  x - bend
+                } 570 ${x + bend * 0.45} 970`}
+                fill="none"
+                stroke="#e7d7b3"
+                strokeOpacity={
+                  0.08 + seeded(index, 21) * 0.28
+                }
+                strokeWidth=".8"
+              />
+            );
+          })}
+
+          {Array.from({ length: 34 }, (_, index) => {
+            const y = 170 + index * 21;
+            const bend = seeded(index, 22) * 120 - 60;
+
+            return (
+              <path
+                key={`h-${index}`}
+                d={`M180 ${y} C370 ${
+                  y + bend
+                } 610 ${y - bend} 850 ${y + bend * 0.4}`}
+                fill="none"
+                stroke="#e7d7b3"
+                strokeOpacity={
+                  0.07 + seeded(index, 23) * 0.2
+                }
+                strokeWidth=".8"
+              />
+            );
+          })}
+
+          {nodes.map((node, index) => {
+            const next =
+              nodes[(index * 7 + 19) % nodes.length];
+
+            return (
+              <line
+                key={`line-${index}`}
+                x1={node.x}
+                y1={node.y}
+                x2={next.x}
+                y2={next.y}
+                stroke="#f0d7a5"
+                strokeOpacity=".14"
+                strokeWidth=".8"
+              />
+            );
+          })}
+
+          {nodes.map((node, index) => (
+            <g key={`node-${index}`}>
+              {index % 8 === 0 && (
+                <circle
+                  cx={node.x}
+                  cy={node.y}
+                  r={node.r * 5}
+                  fill="url(#aw-episteme-light)"
+                  opacity=".75"
+                />
+              )}
+
+              <circle
+                cx={node.x}
+                cy={node.y}
+                r={node.r}
+                fill="#fff4d9"
+                opacity={
+                  0.45 + seeded(index, 24) * 0.55
+                }
+              />
+            </g>
+          ))}
+
+          <path
+            d="M430 220 C550 300 380 390 520 480 S390 630 500 730 S590 820 560 970"
+            fill="none"
+            stroke="#fff1c8"
+            strokeOpacity=".35"
+            strokeWidth="12"
+            filter="url(#aw-episteme-glow)"
+          />
+
+          <path
+            d="M430 220 C550 300 380 390 520 480 S390 630 500 730 S590 820 560 970"
+            fill="none"
+            stroke="#fff1c8"
+            strokeOpacity=".85"
+            strokeWidth="1.5"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+/* ==========================================================
+   AETHERION / SILVER ORBITAL ARTWORK
+
+   Inspired by the supplied visual reference:
+   intersecting fine white-silver orbital paths,
+   scattered stellar particles and a luminous core.
+
+   Conceptual artwork, not an orbital simulation.
+========================================================== */
+
+function AetherionVisual() {
+  return (
+    <svg
+      className="aw-art-svg aw-art-svg--aetherion"
+      viewBox="0 0 1000 1000"
+      role="img"
+      aria-label="Abstract white-silver intersecting orbital paths surrounding a luminous central core"
+    >
+      <defs>
+        <radialGradient id="aw-aetherion-core">
+          <stop offset="0%" stopColor="#ffffff" />
+          <stop
+            offset="15%"
+            stopColor="#ffffff"
+            stopOpacity=".95"
+          />
+          <stop
+            offset="40%"
+            stopColor="#e7eaf0"
+            stopOpacity=".42"
+          />
+          <stop
+            offset="100%"
+            stopColor="#ffffff"
+            stopOpacity="0"
+          />
+        </radialGradient>
+
+        <filter id="aw-aetherion-glow">
+          <feGaussianBlur stdDeviation="10" />
+        </filter>
+      </defs>
+
+      <StarField count={210} seed={34} />
+
+      <g className="aw-aetherion-system">
+        <g
+          fill="none"
+          stroke="#f0f1f4"
+          strokeLinecap="round"
+        >
+          {Array.from({ length: 13 }, (_, index) => (
+            <ellipse
+              key={`vertical-${index}`}
+              cx="500"
+              cy="500"
+              rx={148 + index * 2.7}
+              ry={337 + index * 1.5}
+              transform={`rotate(${
+                index * 0.45 - 3
+              } 500 500)`}
+              strokeWidth={
+                index % 4 === 0 ? 1.3 : 0.65
+              }
+              strokeOpacity={
+                0.16 + (index % 5) * 0.07
+              }
+            />
+          ))}
+
+          {Array.from({ length: 15 }, (_, index) => (
+            <ellipse
+              key={`left-${index}`}
+              cx="500"
+              cy="500"
+              rx={346 + index * 1.9}
+              ry={128 + index * 1.3}
+              transform={`rotate(${
+                -31 + index * 0.36
+              } 500 500)`}
+              strokeWidth={
+                index % 5 === 0 ? 1.2 : 0.65
+              }
+              strokeOpacity={
+                0.14 + (index % 6) * 0.055
+              }
+            />
+          ))}
+
+          {Array.from({ length: 15 }, (_, index) => (
+            <ellipse
+              key={`right-${index}`}
+              cx="500"
+              cy="500"
+              rx={346 + index * 1.9}
+              ry={128 + index * 1.3}
+              transform={`rotate(${
+                31 - index * 0.36
+              } 500 500)`}
+              strokeWidth={
+                index % 5 === 0 ? 1.2 : 0.65
+              }
+              strokeOpacity={
+                0.14 + (index % 6) * 0.055
+              }
+            />
+          ))}
+        </g>
+
+        <g
+          fill="none"
+          stroke="#ffffff"
+          strokeOpacity=".12"
+          strokeWidth=".65"
+        >
+          {Array.from({ length: 9 }, (_, index) => (
+            <ellipse
+              key={`inner-${index}`}
+              cx="500"
+              cy="500"
+              rx={105 + index * 7}
+              ry={245 + index * 6}
+              transform={`rotate(${
+                index * 13
+              } 500 500)`}
+            />
+          ))}
+        </g>
+
+        <StarField
+          count={310}
+          seed={48}
+          concentrated
+        />
+
+        <circle
+          cx="500"
+          cy="500"
+          r="126"
+          fill="url(#aw-aetherion-core)"
+          filter="url(#aw-aetherion-glow)"
+          opacity=".8"
+        />
+
+        <circle
+          cx="500"
+          cy="500"
+          r="84"
+          fill="url(#aw-aetherion-core)"
+        />
+
+        <circle
+          cx="500"
+          cy="500"
+          r="23"
+          fill="#ffffff"
+          opacity=".94"
+        />
+
+        {Array.from({ length: 105 }, (_, index) => {
+          const angle =
+            seeded(index, 61) * Math.PI * 2;
+
+          const radius =
+            Math.sqrt(seeded(index, 62)) * 105;
+
+          return (
+            <circle
+              key={`core-${index}`}
+              cx={
+                500 + Math.cos(angle) * radius
+              }
+              cy={
+                500 + Math.sin(angle) * radius
+              }
+              r={
+                0.6 + seeded(index, 63) * 2.1
+              }
+              fill="white"
+              opacity={
+                0.28 + seeded(index, 64) * 0.72
+              }
+            />
+          );
+        })}
+      </g>
+    </svg>
+  );
+}
+
+/* ==========================================================
+   RESEARCH / ABSTRACT PARTICLE MANIFOLD
+========================================================== */
+
+function ResearchVisual() {
+  const rows = 45;
+  const columns = 100;
+
+  const points = Array.from(
+    { length: rows * columns },
+    (_, index) => {
+      const row = Math.floor(index / columns);
+      const column = index % columns;
+
+      const u =
+        (column / (columns - 1)) * Math.PI * 2;
+
+      const v =
+        (row / (rows - 1)) * Math.PI;
+
+      const folds =
+        1 +
+        0.17 * Math.sin(6 * u + 2 * v) +
+        0.11 * Math.cos(9 * u - 3 * v);
+
+      const radius =
+        (285 +
+          62 * Math.sin(3 * v + 4 * u)) *
+        folds;
+
+      const x =
+        500 +
+        Math.cos(u) *
+          Math.sin(v) *
+          radius +
+        20 * Math.sin(5 * v);
+
+      const y =
+        500 +
+        Math.sin(u) *
+          Math.sin(v) *
+          radius *
+          0.72 +
+        Math.cos(v) * 120;
+
+      const depth =
+        Math.cos(u + v * 0.8);
+
+      const opacity = Math.max(
+        0.07,
+        Math.min(
+          0.83,
+          0.3 + depth * 0.22,
+        ),
+      );
+
+      return { x, y, opacity };
+    },
+  );
+
+  return (
+    <svg
+      className="aw-art-svg aw-art-svg--research"
+      viewBox="0 0 1000 1000"
+      role="img"
+      aria-label="Abstract translucent folded scientific manifold formed by fine particles"
+    >
+      <defs>
+        <radialGradient id="aw-research-core">
+          <stop
+            offset="0%"
+            stopColor="#fffaf4"
+            stopOpacity=".8"
+          />
+          <stop
+            offset="25%"
+            stopColor="#d5d2eb"
+            stopOpacity=".36"
+          />
+          <stop
+            offset="100%"
+            stopColor="#b8b6df"
+            stopOpacity="0"
+          />
+        </radialGradient>
+      </defs>
+
+      <g className="aw-research-manifold">
+        <ellipse
+          cx="500"
+          cy="500"
+          rx="270"
+          ry="160"
+          fill="url(#aw-research-core)"
+          transform="rotate(-12 500 500)"
+        />
+
+        {points.map((point, index) => (
+          <circle
+            key={index}
+            cx={point.x}
+            cy={point.y}
+            r={
+              index % 19 === 0 ? 1.05 : 0.55
+            }
+            fill={
+              index % 7 === 0
+                ? "#fff0dc"
+                : "#d6d4f2"
+            }
+            opacity={point.opacity}
+          />
+        ))}
+
+        {Array.from({ length: 15 }, (_, index) => (
+          <ellipse
+            key={`fold-${index}`}
+            cx="500"
+            cy="500"
+            rx={125 + index * 8}
+            ry={45 + index * 6}
+            transform={`rotate(${
+              -24 + index * 3
+            } 500 500)`}
+            fill="none"
+            stroke="#e6def4"
+            strokeWidth=".65"
+            strokeOpacity=".08"
+          />
+        ))}
+      </g>
+    </svg>
+  );
+}
+
+function WorkVisual({ type }: { type: VisualType }) {
+  return (
+    <div className={`aw-visual aw-visual--${type}`}>
+      {type === "episteme" && <EpistemeVisual />}
+      {type === "aetherion" && <AetherionVisual />}
+      {type === "research" && <ResearchVisual />}
+    </div>
+  );
+}
+
+function WorkCaption({ type }: { type: VisualType }) {
+  const captions: Record<VisualType, string> = {
+    episteme:
+      "COGNITIVE ENVIRONMENT / ABSTRACT VISUAL",
+    aetherion:
+      "ORBITAL ARCHITECTURE / CONCEPT VISUAL",
+    research:
+      "SCIENTIFIC INQUIRY / ABSTRACT VISUAL",
+  };
+
+  return <span>{captions[type]}</span>;
+}
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+export default function WorksPage() {
+  const [activeWork, setActiveWork] =
+    useState<VisualType>("episteme");
+
+  const selectedWork =
+    WORKS.find(
+      (work) => work.id === activeWork,
+    ) ?? WORKS[0];
+
+  return (
+    <main className="aw">
       {/* ==================================================
-          PAGE-WIDE GALAXY
-
-          The background belongs to the entire page.
-          It is not a separate foreground card.
-      ================================================== */}
-
-      <div className="an-cspace__universe" aria-hidden="true">
-        <div className="an-cspace__stars" />
-        <div className="an-cspace__city-glow" />
-        <div className="an-cspace__city-grid" />
-
-        <div className="an-cspace__galaxy-core" />
-        <div className="an-cspace__galaxy-dust" />
-        <div className="an-cspace__galaxy-stars" />
-        <div className="an-cspace__galaxy-vignette" />
-      </div>
-
-      {/* ==================================================
-          HERO
+          OPENING / FULL VIEWPORT
       ================================================== */}
 
       <section
-        className="an-cspace-hero"
-        aria-labelledby="an-cspace-title"
+        className="aw-screen aw-opening"
+        aria-labelledby="aw-page-title"
       >
-        <div className="an-cspace-hero__field" aria-hidden="true">
-          <i />
-          <i />
-          <i />
-        </div>
-
-        <div
-          className="an-cspace-hero__horizon"
-          aria-hidden="true"
-        />
-
-        <header className="an-cspace-hero__top">
-          <Link href="/home" className="an-cspace-back">
+        <header className="aw-opening__top">
+          <Link
+            href="/home"
+            className="aw-back"
+          >
             <span
-              className="an-cspace-back__arrow"
+              className="aw-back__arrow"
               aria-hidden="true"
             />
             <span>ARCHENOVA</span>
           </Link>
 
-          <div className="an-cspace-status">
-            <i aria-hidden="true" />
-            <span>CIVILIZATION SPACE</span>
-          </div>
+          <span className="aw-opening__top-label">
+            WORKS / RESEARCH · ENGINEERING · CREATION
+          </span>
         </header>
 
-        <div className="an-cspace-hero__content">
-          <span className="an-cspace-hero__eyebrow">
-            KNOWLEDGE · INTELLIGENCE · EXPERIENCE
-          </span>
+        <div className="aw-opening__content">
+          <Reveal>
+            <p className="aw-kicker">
+              AN EXHIBITION OF WORK IN PROGRESS
+            </p>
 
-          <h1 id="an-cspace-title">
-            Civilization
-            <br />
-            Space
-          </h1>
+            <h1 id="aw-page-title">
+              Ideas become
+              <br />
+              <span>work.</span>
+            </h1>
 
-          <p className="an-cspace-hero__statement">
-            Preserve what we know.
-            <br />
-            Understand what is changing.
-            <br />
-            Encounter what becomes possible.
-          </p>
-
-          <p className="an-cspace-hero__description">
-            A shared ArcheNova environment for preserving civilization
-            knowledge, interpreting changing reality, and making emerging
-            capability accessible to human experience.
-          </p>
+            <p className="aw-opening__intro">
+              Enter the work. Discover its structure.
+              Examine what exists — and what remains
+              to be proven.
+            </p>
+          </Reveal>
         </div>
 
         <nav
-          className="an-cspace-map"
-          aria-label="Civilization Space layers"
+          className="aw-opening__index"
+          aria-label="Works exhibition"
         >
-          <a href="#library" className="an-cspace-map__node">
-            <span className="an-cspace-map__number">01</span>
+          {WORKS.map((work) => (
+            <a
+              key={work.id}
+              href={`#${work.id}`}
+              className="aw-opening__index-link"
+            >
+              <span className="aw-opening__index-number">
+                {work.number}
+              </span>
 
-            <span className="an-cspace-map__copy">
-              <strong>LIBRARY</strong>
-              <small>PRESERVE</small>
-            </span>
+              <strong>{work.name}</strong>
 
-            <span
-              className="an-cspace-map__arrow"
-              aria-hidden="true"
-            />
-          </a>
-
-          <a href="#intelligence" className="an-cspace-map__node">
-            <span className="an-cspace-map__number">02</span>
-
-            <span className="an-cspace-map__copy">
-              <strong>INTELLIGENCE</strong>
-              <small>UNDERSTAND</small>
-            </span>
-
-            <span
-              className="an-cspace-map__arrow"
-              aria-hidden="true"
-            />
-          </a>
-
-          <a href="#experience" className="an-cspace-map__node">
-            <span className="an-cspace-map__number">03</span>
-
-            <span className="an-cspace-map__copy">
-              <strong>EXPERIENCE</strong>
-              <small>ENCOUNTER</small>
-            </span>
-
-            <span
-              className="an-cspace-map__arrow"
-              aria-hidden="true"
-            />
-          </a>
+              <Arrow diagonal />
+            </a>
+          ))}
         </nav>
 
-        <button
-          type="button"
-          className="an-cspace-enter"
-          onClick={enterSpace}
-        >
-          <span>ENTER CIVILIZATION SPACE</span>
-          <i aria-hidden="true" />
-        </button>
+        <div className="aw-opening__bottom">
+          <span>THREE FIELDS OF WORK</span>
 
-        <div
-          className="an-cspace-hero__footer"
-          aria-hidden="true"
-        >
-          <span>PRESERVE</span>
-          <i />
-          <span>UNDERSTAND</span>
-          <i />
-          <span>ENCOUNTER</span>
+          <a href="#explore">
+            ENTER THE EXHIBITION
+            <span aria-hidden="true">↓</span>
+          </a>
         </div>
       </section>
 
       {/* ==================================================
-          LAYERS
+          INTRODUCTION / FULL VIEWPORT
       ================================================== */}
 
-      <div ref={layersRef} className="an-cspace-layers">
-        <CivilizationSpaceLayer
-          code="01"
-          id="library"
-          label="LIBRARY"
-          verb="PRESERVE"
-          question="What should remain accessible?"
-          description="Preserve research, evidence, records, and accumulated knowledge so that what civilization learns can remain independently accessible, inspectable, and reconstructable."
-        >
-          <CivilizationLibrary />
-        </CivilizationSpaceLayer>
+      <section
+        id="explore"
+        className="aw-screen aw-introduction"
+        aria-labelledby="aw-introduction-title"
+      >
+        <div className="aw-section-inner aw-introduction__layout">
+          <Reveal>
+            <p className="aw-kicker">
+              THE WORKS / 001—003
+            </p>
 
-        <CivilizationSpaceLayer
-          code="02"
-          id="intelligence"
-          label="INTELLIGENCE"
-          verb="UNDERSTAND"
-          question="What is changing?"
-          description="Transform evidence and changing signals into structured understanding of capability, risk, infrastructure, coordination, dependency, and emerging trajectories."
-        >
-          <CivilizationIntelligencePortal />
-        </CivilizationSpaceLayer>
+            <h2
+              id="aw-introduction-title"
+              className="aw-display"
+            >
+              Three frontiers.
+              <br />
+              <span>
+                One evolving body of work.
+              </span>
+            </h2>
+          </Reveal>
 
-        <CivilizationSpaceLayer
-          code="03"
-          id="experience"
-          label="EXPERIENCE"
-          verb="ENCOUNTER"
-          question="How can it be experienced?"
-          description="Bring validated knowledge and emerging capability into accessible interaction, exploration, participation, and direct human experience without confusing representation with reality."
-        >
-          <CivilizationExperiencePortal />
-        </CivilizationSpaceLayer>
-      </div>
+          <Reveal>
+            <Glass className="aw-introduction__note">
+              <p>
+                Cognitive intelligence.
+                Orbital manufacturing.
+                Scientific inquiry.
+              </p>
+
+              <p>
+                Each work is presented according to its
+                current stage of development. An accessible
+                digital experience, an architectural concept,
+                and a scientific framework are different
+                forms of progress.
+              </p>
+            </Glass>
+          </Reveal>
+        </div>
+      </section>
 
       {/* ==================================================
-          TERMINUS
+          WORKS / FULL-VIEWPORT EXHIBITIONS
       ================================================== */}
 
-      <section className="an-cspace-terminus">
-        <div
-          className="an-cspace-terminus__orbital"
-          aria-hidden="true"
+      {WORKS.map((work) => (
+        <section
+          key={work.id}
+          id={work.id}
+          className={`aw-work aw-work--${work.id}`}
+          aria-labelledby={`aw-${work.id}-title`}
         >
-          <i />
-          <i />
-        </div>
+          {/* EXHIBITION HERO */}
 
-        <span className="an-cspace-terminus__eyebrow">
-          KNOWLEDGE → UNDERSTANDING → EXPERIENCE
-        </span>
+          <div className="aw-screen aw-work__hero">
+            <header className="aw-work__hero-top">
+              <div className="aw-work__identity">
+                <span>WORK {work.number} / 03</span>
+                <span>{work.category}</span>
+              </div>
 
-        <h2>
-          What civilization
-          <br />
-          can preserve,
-          <br />
-          it can revisit.
-        </h2>
+              <a
+                href="#explore"
+                className="aw-work__all"
+              >
+                ALL WORKS
+                <Arrow diagonal />
+              </a>
+            </header>
 
-        <p>
-          Civilization Space preserves what has been learned, interprets
-          what is changing, and exposes emerging capability to human
-          encounter. Implementation remains a separate responsibility of
-          ArcheNova Valley.
-        </p>
+            {/*
+              Artwork has its own grid area.
+              It cannot sit on top of the heading or footer.
+            */}
 
-        <div className="an-cspace-terminus__actions">
-          <Link
-            href="/archenova-valley"
-            className="an-cspace-action an-cspace-action--primary"
+            <div className="aw-work__art-stage">
+              <WorkVisual type={work.id} />
+            </div>
+
+            <div className="aw-work__hero-copy">
+              <Reveal>
+                <Glass className="aw-work__heading-glass">
+                  <h2 id={`aw-${work.id}-title`}>
+                    {work.name}
+                  </h2>
+
+                  <p>{work.subtitle}</p>
+                </Glass>
+              </Reveal>
+            </div>
+
+            <div className="aw-work__hero-bottom">
+              <span>
+                <WorkCaption type={work.id} />
+              </span>
+
+              <a href={`#${work.id}-inside`}>
+                DISCOVER THE WORK
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+          </div>
+
+          {/* INSIDE THE WORK */}
+
+          <div
+            id={`${work.id}-inside`}
+            className="aw-screen aw-work__inside"
           >
-            <span>ENTER ARCHENOVA VALLEY</span>
-            <i aria-hidden="true" />
-          </Link>
+            <div className="aw-section-inner aw-work__inside-layout">
+              <Reveal>
+                <div className="aw-work__inside-heading">
+                  <p className="aw-kicker">
+                    INSIDE THE WORK / {work.number}
+                  </p>
 
-          <Link href="/home" className="an-cspace-action">
-            <span>RETURN TO ARCHENOVA</span>
-            <i aria-hidden="true" />
-          </Link>
+                  <h3 className="aw-display">
+                    Look closer.
+                    <br />
+                    <span>
+                      Understand the idea.
+                    </span>
+                  </h3>
+                </div>
+              </Reveal>
+
+              <Reveal>
+                <Glass className="aw-work__description">
+                  <span className="aw-small-label">
+                    THE WORK
+                  </span>
+
+                  <p>{work.description}</p>
+
+                  <Link
+                    href={work.href}
+                    className="aw-button aw-button--light"
+                  >
+                    <span>{work.action}</span>
+                    <Arrow diagonal />
+                  </Link>
+                </Glass>
+              </Reveal>
+            </div>
+          </div>
+
+          {/* RESEARCH AND ENGINEERING */}
+
+          <div className="aw-screen aw-work__depth">
+            <div className="aw-section-inner aw-work__depth-layout">
+              <Reveal>
+                <div className="aw-work__depth-heading">
+                  <p className="aw-kicker">
+                    RESEARCH & ENGINEERING / {work.number}
+                  </p>
+
+                  <h3 className="aw-display">
+                    What exists.
+                    <br />
+                    <span>
+                      What remains open.
+                    </span>
+                  </h3>
+                </div>
+              </Reveal>
+
+              <div className="aw-work__detail-grid">
+                <Reveal>
+                  <Glass className="aw-detail">
+                    <span className="aw-small-label">
+                      01 / CURRENT STATE
+                    </span>
+
+                    <h4>{work.status}</h4>
+
+                    <p>{work.statusDetail}</p>
+                  </Glass>
+                </Reveal>
+
+                <Reveal>
+                  <Glass className="aw-detail">
+                    <span className="aw-small-label">
+                      02 / EVIDENCE & LIMITS
+                    </span>
+
+                    <h4>
+                      What can be examined.
+                    </h4>
+
+                    <p>{work.evidence}</p>
+                  </Glass>
+                </Reveal>
+
+                <Reveal>
+                  <Glass className="aw-detail">
+                    <span className="aw-small-label">
+                      03 / OPEN QUESTION
+                    </span>
+
+                    <h4>What comes next.</h4>
+
+                    <p>{work.openQuestion}</p>
+                  </Glass>
+                </Reveal>
+              </div>
+
+              <Reveal>
+                <Glass className="aw-work__next">
+                  <div className="aw-work__next-copy">
+                    <span className="aw-small-label">
+                      EXPLORE / COLLABORATE
+                    </span>
+
+                    <p>
+                      Examine the work or propose a
+                      specific research and technical
+                      collaboration.
+                    </p>
+                  </div>
+
+                  <div className="aw-work__next-actions">
+                    <Link
+                      href={work.href}
+                      className="aw-button aw-button--light"
+                    >
+                      <span>{work.action}</span>
+                      <Arrow diagonal />
+                    </Link>
+
+                    <a
+                      href="#collaboration"
+                      className="aw-button aw-button--dark"
+                      onClick={() =>
+                        setActiveWork(work.id)
+                      }
+                    >
+                      <span>DISCUSS THIS WORK</span>
+                      <Arrow />
+                    </a>
+                  </div>
+                </Glass>
+              </Reveal>
+            </div>
+          </div>
+        </section>
+      ))}
+
+      {/* ==================================================
+          EVIDENCE / FULL VIEWPORT
+      ================================================== */}
+
+      <section
+        id="evidence"
+        className="aw-screen aw-evidence"
+        aria-labelledby="aw-evidence-title"
+      >
+        <div className="aw-section-inner aw-evidence__layout">
+          <Reveal>
+            <p className="aw-kicker">
+              EVIDENCE & LIMITATIONS
+            </p>
+
+            <h2
+              id="aw-evidence-title"
+              className="aw-display"
+            >
+              See the work.
+              <br />
+              <span>
+                Understand its boundaries.
+              </span>
+            </h2>
+
+            <p className="aw-section-intro">
+              Public interfaces, research propositions,
+              and conceptual architectures should not
+              be mistaken for the same level of
+              experimental or operational validation.
+            </p>
+          </Reveal>
+
+          <div className="aw-evidence__grid">
+            {EVIDENCE_STEPS.map((step) => (
+              <Reveal key={step.number}>
+                <Glass className="aw-evidence__card">
+                  <span className="aw-small-label">
+                    {step.number} / 03
+                  </span>
+
+                  <h3>{step.title}</h3>
+
+                  <p>{step.description}</p>
+                </Glass>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
+
+      {/* ==================================================
+          COLLABORATION / FULL VIEWPORT
+      ================================================== */}
+
+      <section
+        id="collaboration"
+        className="aw-screen aw-collaboration"
+        aria-labelledby="aw-collaboration-title"
+      >
+        <div className="aw-section-inner aw-collaboration__layout">
+          <Reveal>
+            <p className="aw-kicker">
+              RESEARCH & TECHNICAL COLLABORATION
+            </p>
+
+            <h2
+              id="aw-collaboration-title"
+              className="aw-display"
+            >
+              Build what
+              <br />
+              <span>comes next.</span>
+            </h2>
+
+            <p className="aw-section-intro">
+              Collaboration begins with a specific
+              research question, technical challenge,
+              or implementation opportunity.
+            </p>
+          </Reveal>
+
+          <Reveal>
+            <Glass className="aw-collaboration__panel">
+              <p className="aw-small-label">
+                SELECT AN AREA OF INTEREST
+              </p>
+
+              <div className="aw-collaboration__options">
+                {WORKS.map((work) => (
+                  <button
+                    key={work.id}
+                    type="button"
+                    className={`aw-collaboration__option ${
+                      activeWork === work.id
+                        ? "is-active"
+                        : ""
+                    }`}
+                    aria-pressed={
+                      activeWork === work.id
+                    }
+                    onClick={() =>
+                      setActiveWork(work.id)
+                    }
+                  >
+                    <span>{work.name}</span>
+
+                    <span aria-hidden="true">
+                      {activeWork === work.id
+                        ? "●"
+                        : "○"}
+                    </span>
+                  </button>
+                ))}
+              </div>
+
+              <div
+                className="aw-collaboration__selection"
+                aria-live="polite"
+              >
+                <span className="aw-small-label">
+                  COLLABORATION FOCUS
+                </span>
+
+                <p>
+                  {selectedWork.collaboration}
+                </p>
+              </div>
+
+              <Link
+                href={`/contact?subject=${encodeURIComponent(
+                  `ArcheNova Works — ${selectedWork.name}`,
+                )}`}
+                className="aw-button aw-button--light aw-collaboration__cta"
+              >
+                <span>
+                  DISCUSS COLLABORATION
+                </span>
+
+                <Arrow diagonal />
+              </Link>
+
+              <p className="aw-collaboration__note">
+                Identify the work, the question or
+                challenge, and the expertise or
+                contribution you wish to propose.
+              </p>
+            </Glass>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ==================================================
+          FOOTER
+      ================================================== */}
+
+      <footer className="aw-footer">
+        <Glass className="aw-footer__frame">
+          <div>
+            <span className="aw-small-label">
+              ARCHENOVA / WORKS
+            </span>
+
+            <p>
+              Research. Engineering. Creation.
+            </p>
+          </div>
+
+          <Link href="/home">
+            <span>RETURN TO ARCHENOVA</span>
+            <Arrow diagonal />
+          </Link>
+        </Glass>
+      </footer>
 
       {/* ==================================================
           PRESENTATION
@@ -351,6 +1304,11 @@ export default function CivilizationSpacePage() {
       <style jsx global>{`
         /* ==================================================
            FOUNDATION
+
+           Based on the full-width approach used in
+           CivilizationSpacePortal.tsx.
+
+           No narrow page-wide shell.
         ================================================== */
 
         html {
@@ -362,29 +1320,21 @@ export default function CivilizationSpacePage() {
           background: #000;
         }
 
-        .an-cspace,
-        .an-cspace *,
-        .an-cspace *::before,
-        .an-cspace *::after {
+        .aw,
+        .aw *,
+        .aw *::before,
+        .aw *::after {
           box-sizing: border-box;
         }
 
-        .an-cspace {
-          --cs-white: rgba(250, 251, 253, 0.97);
-          --cs-secondary: rgba(227, 232, 238, 0.77);
-          --cs-muted: rgba(196, 204, 214, 0.57);
-          --cs-line: rgba(233, 238, 244, 0.13);
+        .aw {
+          --aw-white: rgba(250, 251, 253, 0.98);
+          --aw-muted: rgba(233, 236, 242, 0.74);
+          --aw-faint: rgba(233, 236, 242, 0.49);
+          --aw-line: rgba(255, 255, 255, 0.13);
 
-          --cs-glass:
-            linear-gradient(
-              145deg,
-              rgba(37, 39, 44, 0.58) 0%,
-              rgba(14, 15, 19, 0.62) 45%,
-              rgba(3, 4, 7, 0.72) 100%
-            );
-
-          --cs-glass-border:
-            rgba(238, 242, 247, 0.17);
+          --aw-side: clamp(16px, 3.5vw, 68px);
+          --aw-block: clamp(28px, 4vw, 60px);
 
           position: relative;
           isolation: isolate;
@@ -396,403 +1346,229 @@ export default function CivilizationSpacePage() {
 
           overflow-x: clip;
 
-          color: var(--cs-white);
+          background: #000 !important;
+          color: var(--aw-white);
 
-          background:
-            linear-gradient(
-              180deg,
-              #010102 0%,
-              #030305 45%,
-              #000 100%
-            );
+          font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "SF Pro Display",
+            "SF Pro Text",
+            "Helvetica Neue",
+            Arial,
+            sans-serif;
+
+          -webkit-font-smoothing: antialiased;
         }
 
-        .an-cspace a,
-        .an-cspace button {
+        .aw a {
+          color: inherit;
+          text-decoration: none;
           -webkit-tap-highlight-color: transparent;
         }
 
-        .an-cspace a:focus-visible,
-        .an-cspace button:focus-visible {
-          outline: 2px solid rgba(238, 242, 248, 0.92);
+        .aw button {
+          font: inherit;
+          -webkit-tap-highlight-color: transparent;
+        }
+
+        .aw a:focus-visible,
+        .aw button:focus-visible {
+          outline: 2px solid #fff;
           outline-offset: 4px;
         }
 
-        /* ==================================================
-           PAGE-WIDE BLACK GALAXY
-
-           A restrained monochromatic galaxy:
-           black space, silver dust, soft white nebulae.
-
-           All effects remain behind the page content.
-        ================================================== */
-
-        .an-cspace__universe {
-          position: absolute;
-          z-index: -1;
-
-          inset: 0;
-
-          overflow: hidden;
-          pointer-events: none;
-
-          background:
-            radial-gradient(
-              ellipse 48% 12% at 78% 7%,
-              rgba(183, 190, 203, 0.105),
-              transparent 78%
-            ),
-            radial-gradient(
-              ellipse 37% 15% at 14% 33%,
-              rgba(133, 140, 154, 0.065),
-              transparent 82%
-            ),
-            radial-gradient(
-              ellipse 43% 18% at 83% 69%,
-              rgba(153, 159, 171, 0.075),
-              transparent 80%
-            ),
-            radial-gradient(
-              ellipse 52% 12% at 45% 91%,
-              rgba(115, 121, 135, 0.055),
-              transparent 85%
-            ),
-            linear-gradient(
-              180deg,
-              #030305 0%,
-              #000 18%,
-              #050507 42%,
-              #010102 68%,
-              #040406 86%,
-              #000 100%
-            );
+        .aw a,
+        .aw button,
+        .aw h1,
+        .aw h2,
+        .aw h3,
+        .aw h4,
+        .aw p,
+        .aw strong,
+        .aw span {
+          min-width: 0;
         }
 
-        /*
-         * Fine stars across the complete environment.
-         * Different tile sizes prevent a uniform grid look.
-         */
-
-        .an-cspace__stars {
-          position: absolute;
-          inset: 0;
-
-          background-image:
-            radial-gradient(
-              circle,
-              rgba(248, 250, 255, 0.68) 0 0.55px,
-              transparent 1.1px
-            ),
-            radial-gradient(
-              circle,
-              rgba(215, 220, 232, 0.47) 0 0.45px,
-              transparent 1px
-            ),
-            radial-gradient(
-              circle,
-              rgba(250, 250, 255, 0.29) 0 0.4px,
-              transparent 0.95px
-            );
-
-          background-size:
-            193px 211px,
-            307px 281px,
-            137px 163px;
-
-          background-position:
-            19px 31px,
-            91px 117px,
-            64px 83px;
-
-          opacity: 0.44;
-        }
-
-        /*
-         * Existing class names are preserved.
-         * The previous city glow becomes a soft nebular glow.
-         */
-
-        .an-cspace__city-glow {
-          position: absolute;
-
-          top: -2%;
-          right: -24%;
-
-          width: 105%;
-          height: min(1250px, 115svh);
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              ellipse at 50% 49%,
-              rgba(224, 226, 236, 0.115) 0%,
-              rgba(142, 149, 165, 0.065) 22%,
-              rgba(69, 72, 85, 0.035) 42%,
-              transparent 72%
-            );
-
-          filter: blur(65px);
-
-          opacity: 0.78;
-        }
-
-        /*
-         * The former city grid is replaced with a faint
-         * galactic dust band. No blue architectural grid.
-         */
-
-        .an-cspace__city-grid {
-          position: absolute;
-
-          top: 130px;
-          right: -22%;
-
-          width: 110%;
-          height: min(1000px, 95svh);
-
-          border-radius: 50%;
-
-          transform: rotate(-24deg);
-
-          background:
-            radial-gradient(
-              ellipse 65% 17% at 50% 50%,
-              rgba(234, 236, 244, 0.09),
-              rgba(160, 166, 182, 0.045) 39%,
-              transparent 85%
-            );
-
-          filter: blur(48px);
-
-          opacity: 0.72;
-        }
-
-        .an-cspace__galaxy-core {
-          position: absolute;
-
-          top: 5%;
-          right: -13%;
-
-          width: min(105vw, 1450px);
-          aspect-ratio: 1;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              ellipse 9% 9% at 52% 48%,
-              rgba(252, 252, 255, 0.17),
-              rgba(205, 210, 223, 0.075) 45%,
-              transparent 100%
-            ),
-            radial-gradient(
-              ellipse 37% 13% at 50% 50%,
-              rgba(207, 211, 223, 0.075),
-              transparent 85%
-            ),
-            radial-gradient(
-              ellipse 44% 34% at 50% 50%,
-              rgba(115, 120, 136, 0.055),
-              transparent 90%
-            );
-
-          transform: rotate(-26deg);
-
-          filter: blur(20px);
-
-          opacity: 0.8;
-        }
-
-        .an-cspace__galaxy-dust {
-          position: absolute;
-
-          inset: 0;
-
-          background:
-            radial-gradient(
-              ellipse 35% 5% at 75% 8%,
-              rgba(238, 239, 247, 0.11),
-              transparent 95%
-            ),
-            radial-gradient(
-              ellipse 33% 4% at 24% 34%,
-              rgba(198, 201, 215, 0.075),
-              transparent 95%
-            ),
-            radial-gradient(
-              ellipse 37% 5% at 79% 67%,
-              rgba(215, 218, 229, 0.08),
-              transparent 95%
-            ),
-            radial-gradient(
-              ellipse 35% 4% at 30% 87%,
-              rgba(187, 190, 205, 0.065),
-              transparent 95%
-            );
-
-          filter: blur(30px);
-        }
-
-        .an-cspace__galaxy-stars {
-          position: absolute;
-          inset: 0;
-
-          background-image:
-            radial-gradient(
-              circle,
-              rgba(255, 255, 255, 0.92) 0 1px,
-              rgba(255, 255, 255, 0.18) 1.5px,
-              transparent 4px
-            ),
-            radial-gradient(
-              circle,
-              rgba(242, 243, 250, 0.8) 0 0.8px,
-              transparent 2.5px
-            );
-
-          background-size:
-            487px 571px,
-            673px 619px;
-
-          background-position:
-            120px 160px,
-            340px 390px;
-
-          opacity: 0.46;
-        }
-
-        .an-cspace__galaxy-vignette {
-          position: absolute;
-          inset: 0;
-
-          background:
-            linear-gradient(
-              90deg,
-              rgba(0, 0, 0, 0.5),
-              transparent 25%,
-              transparent 75%,
-              rgba(0, 0, 0, 0.35)
-            ),
-            linear-gradient(
-              180deg,
-              rgba(0, 0, 0, 0.08),
-              transparent 14%,
-              transparent 88%,
-              rgba(0, 0, 0, 0.34)
-            );
-        }
-
-        /* ==================================================
-           HERO — FULL WIDTH
-        ================================================== */
-
-        .an-cspace-hero {
+        .aw-screen {
           position: relative;
-          isolation: isolate;
 
           display: flex;
           flex-direction: column;
+          justify-content: center;
 
           width: 100%;
           max-width: none;
           min-width: 0;
-          min-height: 100svh;
 
-          overflow: hidden;
+          /*
+           * At least one viewport.
+           * Never force content into a fixed height.
+           */
+          min-height: 100svh;
+          height: auto;
 
           padding:
-            clamp(22px, 3vw, 44px)
-            clamp(16px, 3.5vw, 68px)
-            clamp(28px, 4vw, 52px);
+            var(--aw-block)
+            var(--aw-side);
 
-          background: transparent;
+          overflow: clip;
+
+          background: #000 !important;
+
+          scroll-margin-top: 0;
         }
 
-        /*
-         * Silver orbital architecture.
-         * Subtle enough to remain part of the galaxy.
-         */
+        .aw-section-inner {
+          width: 100%;
+          max-width: none;
+          min-width: 0;
 
-        .an-cspace-hero__field {
-          position: absolute;
-          z-index: -2;
-
-          top: 44%;
-          right: -17%;
-
-          width: min(70vw, 1020px);
-          aspect-ratio: 1;
-
-          transform: translateY(-50%);
-
-          border: 1px solid rgba(239, 241, 247, 0.085);
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle at 42% 39%,
-              rgba(232, 234, 242, 0.055),
-              transparent 57%
-            );
-
-          box-shadow:
-            inset 0 0 125px rgba(231, 233, 241, 0.018),
-            0 0 160px rgba(207, 210, 223, 0.025);
-
-          pointer-events: none;
+          margin: 0;
         }
 
-        .an-cspace-hero__field i {
-          position: absolute;
-
-          border: 1px solid rgba(234, 237, 246, 0.055);
-          border-radius: 50%;
+        .aw-kicker,
+        .aw-small-label {
+          font-size: 10px;
+          font-weight: 550;
+          line-height: 1.6;
+          letter-spacing: 0.15em;
         }
 
-        .an-cspace-hero__field i:nth-child(1) {
-          inset: 13%;
+        .aw-kicker {
+          margin: 0 0 clamp(18px, 3vw, 38px);
+          color: var(--aw-faint);
         }
 
-        .an-cspace-hero__field i:nth-child(2) {
-          inset: 30%;
+        .aw-small-label {
+          color: var(--aw-faint);
         }
 
-        .an-cspace-hero__field i:nth-child(3) {
-          inset: 46%;
+        .aw-display {
+          max-width: 100%;
+          margin: 0;
+
+          font-size: clamp(42px, 7.2vw, 116px);
+          font-weight: 510;
+          line-height: 1.07;
+          letter-spacing: -0.072em;
+
+          overflow-wrap: break-word;
         }
 
-        .an-cspace-hero__horizon {
-          position: absolute;
-          z-index: -1;
+        .aw-display span {
+          color: rgba(237, 240, 245, 0.48);
+        }
 
-          right: -12%;
-          bottom: -260px;
+        .aw-section-intro {
+          max-width: 760px;
 
-          width: 124%;
-          height: 520px;
+          margin: clamp(24px, 3vw, 38px) 0 0;
 
-          border-top: 1px solid rgba(238, 240, 248, 0.095);
-          border-radius: 50% 50% 0 0;
+          color: var(--aw-muted);
+          font-size: clamp(15px, 1.4vw, 20px);
+          line-height: 1.8;
+        }
 
-          background:
-            radial-gradient(
-              ellipse at 50% 0%,
-              rgba(209, 212, 225, 0.045),
-              transparent 48%
-            );
+        .aw-arrow {
+          flex: 0 0 auto;
 
-          pointer-events: none;
+          width: 19px;
+          height: 19px;
+
+          stroke: currentColor;
+          stroke-width: 1.35;
+          stroke-linecap: round;
+          stroke-linejoin: round;
         }
 
         /* ==================================================
-           HERO TOP
+           TRANSLUCENT BLACK GLASS
         ================================================== */
 
-        .an-cspace-hero__top {
+        .aw-glass {
           position: relative;
-          z-index: 2;
+          isolation: isolate;
 
+          min-width: 0;
+          max-width: 100%;
+
+          overflow: hidden;
+
+          border: 1px solid rgba(255, 255, 255, 0.16);
+          border-radius: clamp(20px, 2.3vw, 34px);
+
+          background:
+            linear-gradient(
+              145deg,
+              rgba(36, 38, 43, 0.48),
+              rgba(12, 13, 17, 0.59) 48%,
+              rgba(4, 5, 8, 0.68)
+            );
+
+          -webkit-backdrop-filter:
+            blur(24px) saturate(105%);
+          backdrop-filter:
+            blur(24px) saturate(105%);
+
+          box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.085),
+            0 22px 75px rgba(0, 0, 0, 0.23);
+        }
+
+        .aw-glass::before {
+          content: "";
+
+          position: absolute;
+          z-index: -1;
+          inset: 0;
+
+          border-radius: inherit;
+          pointer-events: none;
+
+          background:
+            linear-gradient(
+              145deg,
+              rgba(255, 255, 255, 0.04),
+              transparent 40%,
+              transparent 80%,
+              rgba(255, 255, 255, 0.012)
+            );
+        }
+
+        /* ==================================================
+           REVEAL
+
+           Reveals do not establish fixed heights.
+        ================================================== */
+
+        .aw-reveal {
+          width: 100%;
+          min-width: 0;
+
+          opacity: 0;
+          transform: translate3d(0, 20px, 0);
+
+          transition:
+            opacity 0.8s ease,
+            transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .aw-reveal.is-visible {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+
+        /* ==================================================
+           OPENING / FULL AVAILABLE WIDTH
+        ================================================== */
+
+        .aw-opening {
+          justify-content: space-between;
+          gap: clamp(24px, 4svh, 52px);
+        }
+
+        .aw-opening__top {
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -804,28 +1580,23 @@ export default function CivilizationSpacePage() {
           gap: 16px;
         }
 
-        .an-cspace-back {
+        .aw-back {
           display: inline-flex;
           align-items: center;
           gap: 12px;
 
           min-height: 40px;
 
-          color: var(--cs-secondary);
-          text-decoration: none;
+          color: var(--aw-muted);
 
           font-size: 11px;
           font-weight: 650;
           letter-spacing: 0.13em;
-
-          transition: color 0.25s ease;
         }
 
-        .an-cspace-back:hover {
-          color: #fff;
-        }
+        .aw-back__arrow {
+          flex: 0 0 auto;
 
-        .an-cspace-back__arrow {
           width: 9px;
           height: 9px;
 
@@ -835,865 +1606,852 @@ export default function CivilizationSpacePage() {
           transform: rotate(45deg);
         }
 
-        .an-cspace-status {
-          display: inline-flex;
-          align-items: center;
-          gap: 9px;
-
-          color: var(--cs-muted);
+        .aw-opening__top-label {
+          color: var(--aw-faint);
 
           font-size: 10px;
-          font-weight: 650;
-          letter-spacing: 0.1em;
+          line-height: 1.6;
+          letter-spacing: 0.12em;
+
+          text-align: right;
         }
 
-        .an-cspace-status i {
-          width: 7px;
-          height: 7px;
-
-          border-radius: 50%;
-
-          background: rgba(236, 238, 247, 0.87);
-
-          box-shadow:
-            0 0 16px rgba(233, 235, 245, 0.27);
-        }
-
-        /* ==================================================
-           HERO CONTENT — NO FOREGROUND BOX
-        ================================================== */
-
-        .an-cspace-hero__content {
-          position: relative;
-          z-index: 2;
-
+        .aw-opening__content {
           width: 100%;
-          max-width: none;
           min-width: 0;
 
-          margin: auto 0 0;
-          padding: clamp(75px, 12vh, 145px) 0 0;
-
-          text-align: left;
+          margin: auto 0;
+          padding-block: clamp(12px, 3svh, 46px);
         }
 
-        .an-cspace-hero__eyebrow {
-          display: block;
-
-          color: var(--cs-muted);
-
-          font-size: 11px;
-          font-weight: 650;
-          line-height: 1.6;
-          letter-spacing: 0.14em;
-        }
-
-        .an-cspace-hero__content h1 {
+        .aw-opening__content h1 {
           max-width: 100%;
+          margin: 0;
 
-          margin: 22px 0 0;
-
-          color: var(--cs-white);
-
-          font-size: clamp(62px, 10vw, 156px);
-          font-weight: 240;
-          line-height: 0.9;
-          letter-spacing: -0.075em;
+          font-size: clamp(62px, 11vw, 190px);
+          font-weight: 510;
+          line-height: 0.98;
+          letter-spacing: -0.085em;
 
           overflow-wrap: break-word;
-
-          text-shadow:
-            0 2px 40px rgba(0, 0, 0, 0.38);
         }
 
-        .an-cspace-hero__statement {
-          margin: clamp(28px, 4vw, 54px) 0 0;
-
-          color: rgba(248, 249, 252, 0.91);
-
-          font-size: clamp(18px, 2vw, 28px);
-          font-weight: 340;
-          line-height: 1.55;
-          letter-spacing: -0.025em;
+        .aw-opening__content h1 span {
+          color: rgba(238, 241, 246, 0.44);
         }
 
-        .an-cspace-hero__description {
-          max-width: 850px;
+        .aw-opening__intro {
+          max-width: 660px;
 
-          margin: 22px 0 0;
+          margin: clamp(24px, 3vw, 42px) 0 0;
 
-          color: var(--cs-secondary);
+          color: var(--aw-muted);
 
-          font-size: clamp(13px, 1.1vw, 16px);
-          line-height: 1.85;
+          font-size: clamp(16px, 1.5vw, 22px);
+          line-height: 1.75;
         }
 
-        /* ==================================================
-           THREE TRANSLUCENT BLACK GLASS CARDS
-        ================================================== */
-
-        .an-cspace-map {
-          position: relative;
-          z-index: 2;
-
+        .aw-opening__index {
           display: grid;
-          grid-template-columns: repeat(3, minmax(0, 1fr));
+          grid-template-columns:
+            repeat(3, minmax(0, 1fr));
 
           width: 100%;
-          max-width: none;
           min-width: 0;
 
           gap: clamp(10px, 1.5vw, 22px);
-
-          margin: clamp(44px, 6vw, 85px) 0 0;
         }
 
-        .an-cspace-map__node {
-          position: relative;
-          isolation: isolate;
-
+        .aw-opening__index-link {
           display: grid;
-          grid-template-columns: auto minmax(0, 1fr) auto;
+          grid-template-columns:
+            25px
+            minmax(0, 1fr)
+            19px;
+
           align-items: center;
 
           min-width: 0;
-          min-height: 104px;
+          min-height: 94px;
 
-          gap: clamp(11px, 1.5vw, 22px);
+          gap: clamp(10px, 1.2vw, 20px);
+          padding: clamp(17px, 2vw, 28px);
 
-          padding: clamp(18px, 2vw, 28px);
-
-          overflow: hidden;
-
-          border: 1px solid var(--cs-glass-border);
-          border-radius: 22px;
-
-          background: var(--cs-glass);
-
-          -webkit-backdrop-filter:
-            blur(30px)
-            saturate(115%);
-
-          backdrop-filter:
-            blur(30px)
-            saturate(115%);
-
-          box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.105),
-            inset 0 -1px 0 rgba(255, 255, 255, 0.015),
-            0 18px 50px rgba(0, 0, 0, 0.27);
-
-          color: var(--cs-white);
-          text-decoration: none;
-
-          transition:
-            transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
-            border-color 0.3s ease,
-            box-shadow 0.3s ease,
-            background 0.3s ease;
-        }
-
-        .an-cspace-map__node::before {
-          content: "";
-
-          position: absolute;
-          z-index: -1;
-
-          top: -75%;
-          left: -25%;
-
-          width: 75%;
-          height: 160%;
-
-          transform: rotate(-28deg);
-
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(255, 255, 255, 0.035),
-              transparent
-            );
-
-          pointer-events: none;
-        }
-
-        .an-cspace-map__node::after {
-          content: "";
-
-          position: absolute;
-
-          inset: 0;
-
-          border-radius: inherit;
-
-          background:
-            radial-gradient(
-              ellipse at 15% 0%,
-              rgba(255, 255, 255, 0.055),
-              transparent 55%
-            );
-
-          pointer-events: none;
-        }
-
-        .an-cspace-map__node:hover {
-          transform: translateY(-4px);
-
-          border-color: rgba(244, 246, 251, 0.38);
+          border: 1px solid var(--aw-line);
+          border-radius: 20px;
 
           background:
             linear-gradient(
               145deg,
-              rgba(53, 55, 62, 0.67),
-              rgba(7, 8, 12, 0.78)
+              rgba(35, 37, 42, 0.46),
+              rgba(7, 8, 11, 0.66)
             );
 
-          box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.16),
-            0 22px 60px rgba(0, 0, 0, 0.36);
+          -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+
+          transition:
+            transform 0.3s ease,
+            border-color 0.3s ease,
+            background 0.3s ease;
         }
 
-        .an-cspace-map__number {
-          color: var(--cs-muted);
-
-          font-size: 13px;
-          font-weight: 650;
-          letter-spacing: 0.08em;
+        .aw-opening__index-number {
+          color: var(--aw-faint);
+          font-size: 10px;
         }
 
-        .an-cspace-map__copy {
-          display: flex;
-          flex-direction: column;
-
+        .aw-opening__index-link strong {
           min-width: 0;
-          gap: 8px;
-        }
 
-        .an-cspace-map__copy strong {
-          color: var(--cs-white);
-
-          font-size: clamp(13px, 1.2vw, 18px);
-          font-weight: 650;
-          letter-spacing: 0.08em;
+          font-size: clamp(15px, 1.5vw, 23px);
+          font-weight: 480;
+          line-height: 1.25;
+          letter-spacing: -0.035em;
 
           overflow-wrap: anywhere;
         }
 
-        .an-cspace-map__copy small {
-          color: var(--cs-muted);
+        .aw-opening__bottom {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
 
-          font-size: 10px;
-          font-weight: 650;
-          letter-spacing: 0.1em;
+          width: 100%;
+
+          gap: 16px;
+
+          color: var(--aw-faint);
+
+          font-size: 9px;
+          line-height: 1.6;
+          letter-spacing: 0.12em;
         }
 
-        .an-cspace-map__arrow {
-          width: 9px;
-          height: 9px;
+        .aw-opening__bottom a,
+        .aw-work__hero-bottom a {
+          display: inline-flex;
+          align-items: center;
 
-          border-top: 1px solid currentColor;
-          border-right: 1px solid currentColor;
+          gap: 14px;
 
-          transform: rotate(45deg);
+          color: var(--aw-white);
+        }
 
-          color: var(--cs-secondary);
+        .aw-opening__bottom a span,
+        .aw-work__hero-bottom a span {
+          font-size: 20px;
+          line-height: 1;
         }
 
         /* ==================================================
-           ENTER BUTTON — BLACK GLASS
+           INTRODUCTION
         ================================================== */
 
-        .an-cspace-enter {
-          position: relative;
-          z-index: 2;
+        .aw-introduction__layout {
+          display: grid;
 
+          grid-template-columns:
+            minmax(0, 1.2fr)
+            minmax(0, 0.8fr);
+
+          align-items: center;
+
+          gap: clamp(32px, 5vw, 90px);
+        }
+
+        .aw-introduction__note {
+          width: 100%;
+          padding: clamp(26px, 3.5vw, 58px);
+        }
+
+        .aw-introduction__note p:first-child {
+          margin: 0 0 22px;
+
+          font-size: clamp(22px, 2.5vw, 38px);
+          line-height: 1.38;
+          letter-spacing: -0.045em;
+        }
+
+        .aw-introduction__note p:last-child {
+          margin: 0;
+
+          color: var(--aw-muted);
+
+          font-size: clamp(14px, 1.15vw, 18px);
+          line-height: 1.85;
+        }
+
+        /* ==================================================
+           WORK HERO / FULL VIEWPORT
+
+           Four independent zones:
+           1. Top identity
+           2. Artwork
+           3. Heading
+           4. Bottom navigation
+
+           No absolute positioning of text over artwork.
+        ================================================== */
+
+        .aw-work {
+          width: 100%;
+          min-width: 0;
+
+          background: #000;
+        }
+
+        .aw-work__hero {
+          display: grid;
+
+          grid-template-columns: minmax(0, 1fr);
+          grid-template-rows:
+            auto
+            minmax(0, 1fr)
+            auto
+            auto;
+
+          align-content: stretch;
+
+          min-height: 100svh;
+          height: auto;
+
+          gap: clamp(12px, 2svh, 26px);
+        }
+
+        .aw-work__hero-top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          min-width: 0;
+          gap: 12px 24px;
+        }
+
+        .aw-work__identity {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+
+          gap: 10px 24px;
+
+          color: var(--aw-faint);
+
+          font-size: 10px;
+          line-height: 1.5;
+          letter-spacing: 0.12em;
+        }
+
+        .aw-work__all {
+          display: inline-flex;
+          align-items: center;
+
+          gap: 9px;
+
+          color: var(--aw-muted);
+
+          font-size: 10px;
+          line-height: 1.5;
+          letter-spacing: 0.1em;
+        }
+
+        .aw-work__all .aw-arrow {
+          width: 15px;
+          height: 15px;
+        }
+
+        /*
+         * Artwork occupies a dedicated layout row.
+         * aspect-ratio + contain prevents stretching.
+         */
+
+        .aw-work__art-stage {
+          position: relative;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 100%;
+          min-width: 0;
+
+          /*
+           * Keep a useful art area on tall screens.
+           * Short screens can grow vertically.
+           */
+          min-height: clamp(230px, 39svh, 620px);
+
+          overflow: hidden;
+
+          pointer-events: none;
+        }
+
+        .aw-visual {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 100%;
+          height: 100%;
+          min-width: 0;
+
+          overflow: hidden;
+
+          background: transparent;
+        }
+
+        .aw-art-svg {
+          display: block;
+
+          width: min(100%, 850px);
+          height: 100%;
+
+          max-height: 620px;
+
+          aspect-ratio: 1 / 1;
+          object-fit: contain;
+
+          overflow: visible;
+        }
+
+        .aw-art-svg--episteme {
+          width: min(100%, 750px);
+        }
+
+        .aw-art-svg--aetherion {
+          width: min(100%, 900px);
+        }
+
+        .aw-art-svg--research {
+          width: min(100%, 850px);
+        }
+
+        /*
+         * Heading is in normal document flow.
+         * It never covers the artwork.
+         */
+
+        .aw-work__hero-copy {
+          width: 100%;
+          min-width: 0;
+        }
+
+        .aw-work__heading-glass {
+          width: fit-content;
+          max-width: 100%;
+
+          padding:
+            clamp(22px, 2.5vw, 38px)
+            clamp(24px, 3vw, 46px);
+        }
+
+        .aw-work__heading-glass h2 {
+          max-width: 100%;
+          margin: 0;
+
+          font-size: clamp(54px, 6.6vw, 110px);
+          font-weight: 510;
+          line-height: 1.02;
+          letter-spacing: -0.078em;
+
+          overflow-wrap: break-word;
+        }
+
+        .aw-work--research
+          .aw-work__heading-glass h2 {
+          font-size: clamp(35px, 4.8vw, 76px);
+          line-height: 1.08;
+        }
+
+        .aw-work__heading-glass p {
+          margin: clamp(12px, 1.5vw, 22px) 0 0;
+
+          color: var(--aw-muted);
+
+          font-size: clamp(15px, 1.35vw, 21px);
+          line-height: 1.6;
+        }
+
+        .aw-work__hero-bottom {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          width: 100%;
+          min-width: 0;
+
+          gap: 12px 22px;
+          padding: 16px 20px;
+
+          border: 1px solid var(--aw-line);
+          border-radius: 17px;
+
+          background: rgba(9, 10, 13, 0.56);
+
+          -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+
+          color: var(--aw-faint);
+
+          font-size: 9px;
+          line-height: 1.6;
+          letter-spacing: 0.11em;
+        }
+
+        /* ==================================================
+           ART MOTION
+        ================================================== */
+
+        .aw-episteme-breath {
+          transform-origin: 50% 50%;
+          animation:
+            awEpistemeBreath
+            9s ease-in-out infinite;
+        }
+
+        .aw-aetherion-system {
+          transform-origin: 50% 50%;
+          animation:
+            awAetherionBreath
+            14s ease-in-out infinite;
+        }
+
+        .aw-research-manifold {
+          transform-origin: 50% 50%;
+          animation:
+            awResearchBreath
+            12s ease-in-out infinite;
+        }
+
+        @keyframes awEpistemeBreath {
+          0%,
+          100% {
+            opacity: 0.83;
+            transform: scale(0.99);
+          }
+
+          50% {
+            opacity: 1;
+            transform: scale(1.012);
+          }
+        }
+
+        @keyframes awAetherionBreath {
+          0%,
+          100% {
+            opacity: 0.84;
+            transform: scale(0.985);
+          }
+
+          50% {
+            opacity: 1;
+            transform: scale(1.012);
+          }
+        }
+
+        @keyframes awResearchBreath {
+          0%,
+          100% {
+            opacity: 0.78;
+            transform: scale(0.99);
+          }
+
+          50% {
+            opacity: 1;
+            transform: scale(1.015);
+          }
+        }
+
+        /* ==================================================
+           INSIDE THE WORK
+        ================================================== */
+
+        .aw-work__inside-layout {
+          display: grid;
+
+          grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 0.85fr);
+
+          align-items: center;
+
+          gap: clamp(30px, 5vw, 90px);
+        }
+
+        .aw-work__description {
+          width: 100%;
+
+          padding: clamp(26px, 3.5vw, 60px);
+        }
+
+        .aw-work__description > p {
+          margin: 26px 0 36px;
+
+          font-size: clamp(19px, 2vw, 29px);
+          line-height: 1.6;
+          letter-spacing: -0.035em;
+        }
+
+        /* ==================================================
+           RESEARCH AND ENGINEERING
+        ================================================== */
+
+        .aw-work__depth-layout {
+          display: grid;
+
+          gap: clamp(26px, 4vw, 56px);
+        }
+
+        .aw-work__detail-grid {
+          display: grid;
+
+          grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+
+          align-items: stretch;
+
+          gap: clamp(12px, 1.5vw, 24px);
+        }
+
+        .aw-work__detail-grid > .aw-reveal {
+          height: 100%;
+        }
+
+        .aw-detail {
+          width: 100%;
+          height: 100%;
+          min-height: 270px;
+
+          padding: clamp(24px, 2.6vw, 42px);
+        }
+
+        .aw-detail h4 {
+          margin: 28px 0 18px;
+
+          font-size: clamp(22px, 2.1vw, 32px);
+          font-weight: 490;
+          line-height: 1.3;
+          letter-spacing: -0.04em;
+
+          overflow-wrap: break-word;
+        }
+
+        .aw-detail p {
+          margin: 0;
+
+          color: var(--aw-muted);
+
+          font-size: 14px;
+          line-height: 1.85;
+        }
+
+        .aw-work__next {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          width: 100%;
+          gap: 24px;
+
+          padding: clamp(24px, 2.8vw, 44px);
+        }
+
+        .aw-work__next-copy {
+          flex: 1 1 290px;
+        }
+
+        .aw-work__next-copy p {
+          max-width: 530px;
+
+          margin: 14px 0 0;
+
+          color: var(--aw-muted);
+
+          font-size: 14px;
+          line-height: 1.75;
+        }
+
+        .aw-work__next-actions {
+          display: flex;
+          align-items: stretch;
+          flex-wrap: wrap;
+
+          min-width: 0;
+          gap: 12px;
+        }
+
+        /* ==================================================
+           BUTTONS
+        ================================================== */
+
+        .aw-button {
           display: inline-flex;
           align-items: center;
           justify-content: space-between;
 
-          align-self: flex-start;
+          min-width: 0;
+          max-width: 100%;
+          min-height: 54px;
 
-          min-height: 52px;
-
-          gap: 20px;
-          margin-top: 35px;
+          gap: 18px;
           padding: 13px 22px;
 
-          border: 1px solid rgba(237, 241, 248, 0.3);
           border-radius: 999px;
 
-          background:
-            linear-gradient(
-              145deg,
-              rgba(47, 49, 56, 0.62),
-              rgba(8, 9, 13, 0.7)
-            );
-
-          -webkit-backdrop-filter: blur(26px);
-          backdrop-filter: blur(26px);
-
-          box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.105),
-            0 12px 36px rgba(0, 0, 0, 0.23);
-
-          color: var(--cs-white);
-          cursor: pointer;
-
-          font-size: 11px;
+          font-size: 10px;
           font-weight: 650;
+          line-height: 1.5;
           letter-spacing: 0.09em;
 
           transition:
             transform 0.3s ease,
-            border-color 0.3s ease,
-            box-shadow 0.3s ease;
+            background 0.3s ease,
+            border-color 0.3s ease;
         }
 
-        .an-cspace-enter:hover {
-          transform: translateY(-2px);
-
-          border-color: rgba(248, 249, 253, 0.58);
-
-          box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.16),
-            0 16px 44px rgba(0, 0, 0, 0.34);
+        .aw-button > span {
+          min-width: 0;
+          overflow-wrap: anywhere;
         }
 
-        .an-cspace-enter i {
-          width: 8px;
-          height: 8px;
-
-          border-right: 1px solid currentColor;
-          border-bottom: 1px solid currentColor;
-
-          transform: rotate(45deg) translateY(-2px);
+        .aw-button--light {
+          background: rgba(248, 250, 252, 0.97);
+          color: #08090b !important;
         }
 
-        .an-cspace-hero__footer {
-          position: relative;
-          z-index: 2;
+        .aw-button--dark {
+          border: 1px solid rgba(255, 255, 255, 0.24);
 
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          gap: 14px;
-          margin-top: clamp(40px, 5vw, 70px);
-
-          color: var(--cs-muted);
-
-          font-size: 10px;
-          font-weight: 600;
-          letter-spacing: 0.1em;
-        }
-
-        .an-cspace-hero__footer i {
-          width: 26px;
-          height: 1px;
-
-          background: rgba(236, 239, 247, 0.16);
+          background: rgba(255, 255, 255, 0.055);
+          color: var(--aw-white) !important;
         }
 
         /* ==================================================
-           LAYERS — FULL-WIDTH CONTENT
+           EVIDENCE
         ================================================== */
 
-        .an-cspace-layers {
-          position: relative;
+        .aw-evidence__layout {
+          display: grid;
 
-          width: 100%;
-          max-width: none;
-          min-width: 0;
-
-          background: transparent;
+          gap: clamp(30px, 4vw, 66px);
         }
 
-        .an-cspace-layer {
-          position: relative;
-
-          width: 100%;
-          max-width: none;
-          min-width: 0;
-
-          overflow: visible;
-
-          padding:
-            clamp(75px, 8vw, 130px)
-            clamp(16px, 3vw, 58px);
-
-          scroll-margin-top: 20px;
-
-          border-top: 1px solid rgba(235, 238, 247, 0.075);
-
-          background: transparent;
-        }
-
-        /*
-         * Gentle silver orbits rather than bright
-         * geometric foreground decoration.
-         */
-
-        .an-cspace-layer__orbit {
-          position: absolute;
-          z-index: -1;
-
-          top: 45px;
-          right: -10%;
-
-          width: min(52vw, 680px);
-          aspect-ratio: 1;
-
-          pointer-events: none;
-        }
-
-        .an-cspace-layer__orbit i {
-          position: absolute;
-
-          border: 1px solid rgba(235, 238, 246, 0.042);
-          border-radius: 50%;
-        }
-
-        .an-cspace-layer__orbit i:nth-child(1) {
-          inset: 0;
-        }
-
-        .an-cspace-layer__orbit i:nth-child(2) {
-          inset: 18%;
-        }
-
-        .an-cspace-layer__orbit i:nth-child(3) {
-          inset: 37%;
-        }
-
-        /*
-         * No narrow outer frame or 1440px width limit.
-         */
-
-        .an-cspace-layer__header,
-        .an-cspace-layer__surface,
-        .an-cspace-layer__footer {
-          width: 100%;
-          max-width: none;
-          min-width: 0;
-
-          margin-right: 0;
-          margin-left: 0;
-        }
-
-        /* ==================================================
-           LAYER HEADER
-        ================================================== */
-
-        .an-cspace-layer__header {
+        .aw-evidence__grid {
           display: grid;
 
           grid-template-columns:
-            minmax(105px, 0.18fr)
-            minmax(0, 1fr);
+            repeat(3, minmax(0, 1fr));
 
-          align-items: start;
+          align-items: stretch;
 
-          gap: clamp(22px, 4vw, 72px);
-
-          margin-bottom: clamp(30px, 4vw, 60px);
+          gap: clamp(12px, 1.5vw, 24px);
         }
 
-        .an-cspace-layer__identity {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-
-          min-width: 0;
-          gap: 13px;
+        .aw-evidence__grid > .aw-reveal {
+          height: 100%;
         }
 
-        .an-cspace-layer__identity > span {
-          color: rgba(244, 246, 252, 0.91);
+        .aw-evidence__card {
+          width: 100%;
+          height: 100%;
+          min-height: 240px;
 
-          font-size: clamp(26px, 3vw, 42px);
-          font-weight: 300;
-          letter-spacing: 0.03em;
+          padding: clamp(24px, 2.7vw, 42px);
         }
 
-        .an-cspace-layer__identity > strong {
-          color: var(--cs-secondary);
+        .aw-evidence__card h3 {
+          margin: 30px 0 18px;
 
-          font-size: 11px;
-          font-weight: 650;
-          letter-spacing: 0.12em;
+          font-size: clamp(27px, 3vw, 45px);
+          font-weight: 490;
+          line-height: 1.2;
+          letter-spacing: -0.05em;
         }
 
-        .an-cspace-layer__meaning {
-          min-width: 0;
-        }
-
-        .an-cspace-layer__verb {
-          display: block;
-
-          margin-bottom: 14px;
-
-          color: var(--cs-muted);
-
-          font-size: 11px;
-          font-weight: 650;
-          letter-spacing: 0.14em;
-        }
-
-        .an-cspace-layer__meaning h2 {
+        .aw-evidence__card p {
           margin: 0;
 
-          color: var(--cs-white);
+          color: var(--aw-muted);
 
-          font-size: clamp(35px, 4.5vw, 70px);
-          font-weight: 280;
-          line-height: 1.08;
-          letter-spacing: -0.05em;
-
-          overflow-wrap: break-word;
-        }
-
-        .an-cspace-layer__meaning p {
-          max-width: 1100px;
-
-          margin: 20px 0 0;
-
-          color: var(--cs-secondary);
-
-          font-size: clamp(13px, 1.1vw, 16px);
+          font-size: 14px;
           line-height: 1.8;
         }
 
         /* ==================================================
-           PORTAL SURFACE
-
-           No additional giant glass card.
-           Imported components retain their own design.
+           COLLABORATION
         ================================================== */
 
-        .an-cspace-layer__surface {
-          position: relative;
+        .aw-collaboration__layout {
+          display: grid;
 
+          grid-template-columns:
+            minmax(0, 1.1fr)
+            minmax(0, 0.9fr);
+
+          align-items: center;
+
+          gap: clamp(30px, 5vw, 90px);
+        }
+
+        .aw-collaboration__panel {
+          width: 100%;
+
+          padding: clamp(25px, 3.5vw, 54px);
+        }
+
+        .aw-collaboration__panel
+          > .aw-small-label {
           display: block;
-
-          width: 100%;
-          max-width: none;
-          min-width: 0;
-
-          overflow: visible;
-
-          padding: 0;
-
-          border: 0;
-          border-radius: 0;
-
-          background: transparent;
-
-          -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-
-          box-shadow: none;
+          margin: 0 0 24px;
         }
 
-        .an-cspace-layer__surface > * {
-          min-width: 0;
-          max-width: 100%;
+        .aw-collaboration__options {
+          border-top: 1px solid var(--aw-line);
         }
 
-        /* ==================================================
-           LAYER FOOTER
-        ================================================== */
-
-        .an-cspace-layer__footer {
+        .aw-collaboration__option {
           display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          gap: 12px;
-
-          margin-top: clamp(30px, 4vw, 55px);
-
-          color: var(--cs-muted);
-
-          font-size: 10px;
-          font-weight: 600;
-          letter-spacing: 0.08em;
-        }
-
-        .an-cspace-layer__footer i {
-          width: 22px;
-          height: 1px;
-
-          background: rgba(236, 239, 247, 0.15);
-        }
-
-        /* ==================================================
-           TERMINUS
-        ================================================== */
-
-        .an-cspace-terminus {
-          position: relative;
-          isolation: isolate;
-
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-
-          width: 100%;
-          max-width: none;
-          min-width: 0;
-          min-height: 80svh;
-
-          overflow: hidden;
-
-          padding:
-            clamp(90px, 10vw, 150px)
-            clamp(18px, 4vw, 70px);
-
-          border-top: 1px solid rgba(235, 238, 247, 0.08);
-
-          text-align: center;
-
-          background:
-            radial-gradient(
-              ellipse at 50% 50%,
-              rgba(181, 186, 202, 0.055),
-              transparent 48%
-            );
-        }
-
-        .an-cspace-terminus__orbital {
-          position: absolute;
-          z-index: -1;
-
-          top: 50%;
-          left: 50%;
-
-          width: min(85vw, 1050px);
-          aspect-ratio: 1;
-
-          transform: translate(-50%, -50%);
-
-          pointer-events: none;
-        }
-
-        .an-cspace-terminus__orbital i {
-          position: absolute;
-
-          border: 1px solid rgba(237, 240, 248, 0.055);
-          border-radius: 50%;
-        }
-
-        .an-cspace-terminus__orbital i:first-child {
-          inset: 0;
-        }
-
-        .an-cspace-terminus__orbital i:last-child {
-          inset: 22%;
-        }
-
-        .an-cspace-terminus__eyebrow {
-          color: var(--cs-muted);
-
-          font-size: 11px;
-          font-weight: 650;
-          line-height: 1.6;
-          letter-spacing: 0.13em;
-        }
-
-        .an-cspace-terminus h2 {
-          max-width: 100%;
-
-          margin: 27px 0 0;
-
-          color: var(--cs-white);
-
-          font-size: clamp(47px, 7.2vw, 112px);
-          font-weight: 260;
-          line-height: 1;
-          letter-spacing: -0.065em;
-
-          overflow-wrap: break-word;
-        }
-
-        .an-cspace-terminus > p {
-          max-width: 900px;
-
-          margin: 30px auto 0;
-
-          color: var(--cs-secondary);
-
-          font-size: clamp(13px, 1.1vw, 16px);
-          line-height: 1.8;
-        }
-
-        .an-cspace-terminus__actions {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          gap: 14px;
-          margin-top: 42px;
-        }
-
-        .an-cspace-action {
-          display: inline-flex;
           align-items: center;
           justify-content: space-between;
 
-          min-height: 50px;
-          max-width: 100%;
+          width: 100%;
+          min-width: 0;
+          min-height: 65px;
 
-          gap: 18px;
-          padding: 12px 20px;
+          gap: 16px;
+          padding: 14px 0;
 
-          border: 1px solid rgba(237, 240, 248, 0.2);
-          border-radius: 999px;
+          border: 0;
+          border-bottom: 1px solid var(--aw-line);
 
-          background:
-            linear-gradient(
-              145deg,
-              rgba(38, 40, 47, 0.59),
-              rgba(6, 7, 11, 0.72)
-            );
+          background: transparent;
+          color: var(--aw-muted);
 
-          -webkit-backdrop-filter: blur(26px);
-          backdrop-filter: blur(26px);
+          font-size: 15px;
+          line-height: 1.5;
+          text-align: left;
 
-          box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.09),
-            0 12px 35px rgba(0, 0, 0, 0.24);
+          cursor: pointer;
+        }
 
-          color: var(--cs-white);
-          text-decoration: none;
+        .aw-collaboration__option > span:first-child {
+          min-width: 0;
+          overflow-wrap: anywhere;
+        }
+
+        .aw-collaboration__option > span:last-child {
+          flex: 0 0 auto;
+          font-size: 10px;
+        }
+
+        .aw-collaboration__option.is-active {
+          color: #fff;
+        }
+
+        .aw-collaboration__selection {
+          min-height: 125px;
+          padding-top: 26px;
+        }
+
+        .aw-collaboration__selection p {
+          margin: 14px 0 0;
+
+          font-size: 15px;
+          line-height: 1.75;
+        }
+
+        .aw-collaboration__cta {
+          width: 100%;
+          margin-top: 14px;
+        }
+
+        .aw-collaboration__note {
+          margin: 20px 0 0;
+
+          color: var(--aw-faint);
 
           font-size: 11px;
-          font-weight: 650;
-          line-height: 1.5;
-          letter-spacing: 0.07em;
-
-          transition:
-            transform 0.3s ease,
-            border-color 0.3s ease,
-            box-shadow 0.3s ease;
-        }
-
-        .an-cspace-action:hover {
-          transform: translateY(-2px);
-
-          border-color: rgba(247, 248, 253, 0.47);
-
-          box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.13),
-            0 16px 43px rgba(0, 0, 0, 0.34);
-        }
-
-        .an-cspace-action--primary {
-          border-color: rgba(240, 242, 249, 0.35);
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(62, 64, 73, 0.66),
-              rgba(12, 13, 19, 0.78)
-            );
-        }
-
-        .an-cspace-action i {
-          flex: 0 0 auto;
-
-          width: 8px;
-          height: 8px;
-
-          border-top: 1px solid currentColor;
-          border-right: 1px solid currentColor;
-
-          transform: rotate(45deg);
+          line-height: 1.75;
         }
 
         /* ==================================================
-           INTELLIGENCE / EXPERIENCE
-
-           CENTERED FULL-WIDTH PRESENTATION
-
-           Existing imported portal components are retained.
+           FOOTER / FULL WIDTH
         ================================================== */
 
-        .an-cspace-layer#intelligence
-          .an-cspace-layer__surface,
-        .an-cspace-layer#experience
-          .an-cspace-layer__surface {
+        .aw-footer {
           width: 100%;
-          max-width: none;
           min-width: 0;
 
+          padding:
+            0
+            var(--aw-side)
+            var(--aw-block);
+
+          background: #000 !important;
+        }
+
+        .aw-footer__frame {
           display: flex;
-          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          width: 100%;
+
+          gap: 25px;
+          padding: clamp(24px, 3vw, 44px);
+        }
+
+        .aw-footer__frame p {
+          margin: 12px 0 0;
+
+          color: var(--aw-muted);
+          font-size: 13px;
+          line-height: 1.7;
+        }
+
+        .aw-footer__frame > a {
+          display: inline-flex;
           align-items: center;
 
-          margin-right: auto;
-          margin-left: auto;
+          gap: 14px;
 
-          padding: 0;
-          border: 0;
-
-          background: transparent;
-          box-shadow: none;
+          font-size: 10px;
+          line-height: 1.5;
+          letter-spacing: 0.1em;
         }
 
-        .an-cspace-layer#intelligence
-          .an-cspace-layer__surface > *,
-        .an-cspace-layer#experience
-          .an-cspace-layer__surface > * {
-          width: 100%;
-          max-width: 100%;
-          min-width: 0;
+        /* ==================================================
+           HOVER
+        ================================================== */
 
-          margin-right: auto;
-          margin-left: auto;
-        }
+        @media (hover: hover) {
+          .aw-opening__index-link:hover {
+            transform: translateY(-3px);
 
-        .an-cspace-layer#intelligence
-          .an-cspace-layer__header,
-        .an-cspace-layer#experience
-          .an-cspace-layer__header {
-          width: 100%;
-          max-width: none;
+            border-color: rgba(255, 255, 255, 0.36);
+            background: rgba(28, 28, 31, 0.55);
+          }
 
-          grid-template-columns: minmax(0, 1fr);
+          .aw-button:hover {
+            transform: translateY(-2px);
+          }
 
-          justify-items: center;
-          gap: 20px;
+          .aw-button--light:hover {
+            background: #fff;
+          }
 
-          text-align: center;
-        }
+          .aw-button--dark:hover {
+            border-color: rgba(255, 255, 255, 0.5);
+          }
 
-        .an-cspace-layer#intelligence
-          .an-cspace-layer__identity,
-        .an-cspace-layer#experience
-          .an-cspace-layer__identity {
-          align-items: center;
-          justify-content: center;
-        }
-
-        .an-cspace-layer#intelligence
-          .an-cspace-layer__meaning,
-        .an-cspace-layer#experience
-          .an-cspace-layer__meaning {
-          width: 100%;
-          text-align: center;
-        }
-
-        .an-cspace-layer#intelligence
-          .an-cspace-layer__meaning p,
-        .an-cspace-layer#experience
-          .an-cspace-layer__meaning p {
-          margin-right: auto;
-          margin-left: auto;
+          .aw-collaboration__option:hover {
+            color: #fff;
+          }
         }
 
         /* ==================================================
@@ -1701,295 +2459,312 @@ export default function CivilizationSpacePage() {
         ================================================== */
 
         @media (max-width: 1100px) {
-          .an-cspace-hero__content {
-            padding-top: 95px;
-          }
-
-          .an-cspace-layer__header {
-            grid-template-columns:
-              minmax(90px, 0.18fr)
-              minmax(0, 1fr);
-          }
-
-          .an-cspace-layer#intelligence
-            .an-cspace-layer__header,
-          .an-cspace-layer#experience
-            .an-cspace-layer__header {
+          .aw-introduction__layout,
+          .aw-work__inside-layout,
+          .aw-collaboration__layout {
             grid-template-columns: minmax(0, 1fr);
+          }
+
+          .aw-introduction__note,
+          .aw-work__description,
+          .aw-collaboration__panel {
+            max-width: 100%;
+          }
+
+          .aw-work__detail-grid,
+          .aw-evidence__grid {
+            grid-template-columns:
+              repeat(2, minmax(0, 1fr));
+          }
+
+          .aw-work__next {
+            align-items: stretch;
+          }
+
+          .aw-work__next-actions {
+            width: 100%;
           }
         }
 
         /* ==================================================
-           MOBILE — FULL AVAILABLE WIDTH
+           MOBILE / FULL AVAILABLE WIDTH
         ================================================== */
 
         @media (max-width: 760px) {
-          .an-cspace__city-glow {
-            top: 0;
-            right: -75%;
-
-            width: 175%;
-            height: 750px;
-
-            filter: blur(48px);
-
-            opacity: 0.62;
+          .aw {
+            --aw-side: 12px;
+            --aw-block: clamp(24px, 4svh, 42px);
           }
 
-          .an-cspace__city-grid {
-            top: 150px;
-            right: -70%;
-
-            width: 175%;
-            height: 650px;
-
-            opacity: 0.5;
-          }
-
-          .an-cspace__galaxy-core {
-            top: 120px;
-            right: -85%;
-
-            width: 180vw;
-
-            opacity: 0.65;
-          }
-
-          .an-cspace__stars {
-            opacity: 0.36;
-          }
-
-          .an-cspace-hero {
+          .aw-screen {
             min-height: 100svh;
 
             padding:
-              19px
-              15px
-              28px;
+              var(--aw-block)
+              var(--aw-side);
           }
 
-          .an-cspace-back {
+          .aw-glass {
+            border-radius: 21px;
+          }
+
+          .aw-kicker,
+          .aw-small-label {
+            font-size: 9px;
+            letter-spacing: 0.12em;
+          }
+
+          .aw-display {
+            font-size: clamp(39px, 9vw, 70px);
+            line-height: 1.08;
+          }
+
+          .aw-section-intro {
+            font-size: 14px;
+          }
+
+          /* OPENING */
+
+          .aw-opening {
+            gap: 22px;
+          }
+
+          .aw-opening__top-label {
+            display: none;
+          }
+
+          .aw-back {
             font-size: 10px;
           }
 
-          .an-cspace-status {
-            font-size: 9px;
+          .aw-opening__content {
+            padding-block: 20px;
           }
 
-          .an-cspace-hero__field {
-            top: 35%;
-            right: -55%;
-
-            width: 140vw;
-            opacity: 0.5;
+          .aw-opening__content h1 {
+            font-size: clamp(54px, 11.5vw, 90px);
+            line-height: 1;
           }
 
-          .an-cspace-hero__horizon {
-            bottom: -160px;
-            height: 350px;
+          .aw-opening__intro {
+            margin-top: 23px;
+            font-size: 15px;
           }
 
-          .an-cspace-hero__content {
-            width: 100%;
-
-            margin-top: 0;
-            padding-top: 85px;
-
-            text-align: left;
-          }
-
-          .an-cspace-hero__eyebrow {
-            font-size: 9px;
-            letter-spacing: 0.075em;
-          }
-
-          .an-cspace-hero__content h1 {
-            margin-top: 19px;
-
-            font-size: clamp(43px, 11.4vw, 78px);
-            line-height: 0.98;
-          }
-
-          .an-cspace-hero__statement {
-            margin-top: 29px;
-
-            font-size: clamp(16px, 4.6vw, 22px);
-          }
-
-          .an-cspace-hero__description {
-            font-size: 13px;
-            line-height: 1.8;
-          }
-
-          .an-cspace-map {
-            grid-template-columns: 1fr;
-
-            gap: 10px;
-            margin-top: 43px;
-          }
-
-          .an-cspace-map__node {
-            min-height: 77px;
-
-            gap: 13px;
-            padding: 16px 18px;
-
-            border-radius: 18px;
-
-            -webkit-backdrop-filter:
-              blur(22px)
-              saturate(110%);
-
-            backdrop-filter:
-              blur(22px)
-              saturate(110%);
-          }
-
-          .an-cspace-map__copy strong {
-            font-size: 13px;
-          }
-
-          .an-cspace-map__copy small {
-            font-size: 9px;
-          }
-
-          .an-cspace-enter {
-            align-self: stretch;
-            justify-content: space-between;
-
-            width: 100%;
-            margin-top: 30px;
-
-            font-size: 10px;
-          }
-
-          .an-cspace-hero__footer {
-            gap: 9px;
-
-            font-size: 9px;
-            letter-spacing: 0.04em;
-          }
-
-          .an-cspace-hero__footer i {
-            width: 14px;
-          }
-
-          .an-cspace-layer {
-            padding:
-              75px
-              12px;
-          }
-
-          .an-cspace-layer__header {
+          .aw-opening__index {
             grid-template-columns: minmax(0, 1fr);
-
-            gap: 23px;
-            margin-bottom: 30px;
+            gap: 9px;
           }
 
-          .an-cspace-layer__identity {
-            flex-direction: row;
-            align-items: center;
+          .aw-opening__index-link {
+            min-height: 70px;
 
             gap: 12px;
+            padding: 15px 17px;
+
+            border-radius: 17px;
           }
 
-          .an-cspace-layer__identity > span {
-            font-size: 29px;
+          .aw-opening__index-link strong {
+            font-size: clamp(15px, 4.1vw, 20px);
           }
 
-          .an-cspace-layer__identity > strong {
-            font-size: 10px;
+          .aw-opening__bottom {
+            font-size: 8px;
+            letter-spacing: 0.07em;
           }
 
-          .an-cspace-layer__verb {
-            font-size: 10px;
+          /* INTRODUCTION */
+
+          .aw-introduction__layout {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 30px;
           }
 
-          .an-cspace-layer__meaning h2 {
-            font-size: clamp(32px, 8.2vw, 49px);
+          .aw-introduction__note {
+            padding: 26px;
           }
 
-          .an-cspace-layer__meaning p {
+          .aw-introduction__note p:first-child {
+            font-size: 23px;
+          }
+
+          .aw-introduction__note p:last-child {
             font-size: 13px;
           }
 
-          .an-cspace-layer__surface {
-            width: 100%;
+          /* WORK HERO */
 
-            padding: 0;
+          .aw-work__hero {
+            /*
+             * All four zones remain in normal flow.
+             * A short mobile viewport may scroll
+             * instead of overlapping its content.
+             */
+            grid-template-rows:
+              auto
+              minmax(0, 1fr)
+              auto
+              auto;
 
-            border: 0;
-            border-radius: 0;
-
-            background: transparent;
-
-            -webkit-backdrop-filter: none;
-            backdrop-filter: none;
-
-            box-shadow: none;
+            gap: clamp(12px, 2svh, 20px);
           }
 
-          .an-cspace-layer__orbit {
-            right: -48%;
-            width: 100vw;
-          }
-
-          .an-cspace-layer__footer {
-            gap: 8px;
-
+          .aw-work__identity {
+            gap: 6px 14px;
             font-size: 9px;
-            letter-spacing: 0.025em;
           }
 
-          .an-cspace-layer__footer i {
-            width: 12px;
+          .aw-work__all {
+            font-size: 9px;
           }
 
-          .an-cspace-layer#intelligence
-            .an-cspace-layer__identity,
-          .an-cspace-layer#experience
-            .an-cspace-layer__identity {
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
+          .aw-work__art-stage {
+            min-height: clamp(230px, 35svh, 470px);
           }
 
-          .an-cspace-layer#intelligence
-            .an-cspace-layer__surface,
-          .an-cspace-layer#experience
-            .an-cspace-layer__surface {
+          .aw-art-svg,
+          .aw-art-svg--episteme,
+          .aw-art-svg--aetherion,
+          .aw-art-svg--research {
+            width: min(100%, 570px);
+            max-height: 470px;
+          }
+
+          .aw-work__heading-glass {
             width: 100%;
-            align-items: center;
+            max-width: 100%;
+
+            padding: 22px;
           }
 
-          .an-cspace-terminus {
-            min-height: 75svh;
-
-            padding: 85px 15px;
-          }
-
-          .an-cspace-terminus h2 {
-            font-size: clamp(38px, 9.4vw, 70px);
+          .aw-work__heading-glass h2 {
+            font-size: clamp(48px, 11vw, 76px);
             line-height: 1.04;
           }
 
-          .an-cspace-terminus > p {
+          .aw-work--research
+            .aw-work__heading-glass h2 {
+            font-size: clamp(32px, 7.8vw, 56px);
+            line-height: 1.1;
+          }
+
+          .aw-work__heading-glass p {
+            margin-top: 12px;
+            font-size: 14px;
+          }
+
+          .aw-work__hero-bottom {
+            gap: 9px;
+            padding: 14px 16px;
+
+            font-size: 8px;
+            letter-spacing: 0.07em;
+          }
+
+          /* INSIDE THE WORK */
+
+          .aw-work__inside-layout {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 30px;
+          }
+
+          .aw-work__description {
+            padding: 26px;
+          }
+
+          .aw-work__description > p {
+            margin: 22px 0 28px;
+            font-size: 20px;
+          }
+
+          /* TECHNICAL DEPTH */
+
+          .aw-work__depth-layout {
+            gap: 24px;
+          }
+
+          .aw-work__detail-grid,
+          .aw-evidence__grid {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 12px;
+          }
+
+          .aw-detail {
+            min-height: 0;
+            padding: 26px;
+          }
+
+          .aw-detail h4 {
+            margin: 22px 0 14px;
+            font-size: 25px;
+          }
+
+          .aw-detail p {
             font-size: 13px;
           }
 
-          .an-cspace-terminus__actions {
-            flex-direction: column;
-            align-items: stretch;
-
-            width: 100%;
+          .aw-work__next {
+            gap: 24px;
+            padding: 25px;
           }
 
-          .an-cspace-action {
-            justify-content: space-between;
+          .aw-work__next-actions {
+            flex-direction: column;
+            align-items: stretch;
+          }
 
+          .aw-button {
             width: 100%;
-            font-size: 10px;
+            min-height: 53px;
+
+            padding: 12px 18px;
+
+            font-size: 9px;
+          }
+
+          /* EVIDENCE */
+
+          .aw-evidence__layout {
+            gap: 28px;
+          }
+
+          .aw-evidence__card {
+            min-height: 0;
+            padding: 26px;
+          }
+
+          .aw-evidence__card h3 {
+            margin: 22px 0 13px;
+            font-size: 31px;
+          }
+
+          .aw-evidence__card p {
+            font-size: 13px;
+          }
+
+          /* COLLABORATION */
+
+          .aw-collaboration__layout {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 30px;
+          }
+
+          .aw-collaboration__panel {
+            padding: 25px;
+          }
+
+          .aw-collaboration__option {
+            min-height: 61px;
+            font-size: 13px;
+          }
+
+          /* FOOTER */
+
+          .aw-footer__frame {
+            align-items: flex-start;
+            gap: 25px;
+            padding: 25px;
           }
         }
 
@@ -1998,27 +2773,80 @@ export default function CivilizationSpacePage() {
         ================================================== */
 
         @media (max-width: 390px) {
-          .an-cspace-hero {
-            padding-right: 10px;
-            padding-left: 10px;
+          .aw {
+            --aw-side: 9px;
           }
 
-          .an-cspace-hero__content h1 {
-            font-size: clamp(39px, 10.6vw, 49px);
+          .aw-opening__content h1 {
+            font-size: clamp(43px, 10.8vw, 54px);
           }
 
-          .an-cspace-layer {
-            padding-right: 9px;
-            padding-left: 9px;
+          .aw-work__heading-glass {
+            padding: 19px;
           }
 
-          .an-cspace-layer__meaning h2 {
-            font-size: clamp(30px, 8vw, 39px);
+          .aw-work__heading-glass h2 {
+            font-size: clamp(42px, 10.4vw, 52px);
           }
 
-          .an-cspace-terminus {
-            padding-right: 12px;
-            padding-left: 12px;
+          .aw-work--research
+            .aw-work__heading-glass h2 {
+            font-size: clamp(29px, 7.5vw, 39px);
+          }
+
+          .aw-work__hero-bottom {
+            align-items: flex-start;
+            flex-direction: column;
+          }
+        }
+
+        /* ==================================================
+           SHORT VIEWPORTS / LANDSCAPE
+
+           Content remains readable and scrollable.
+           No fixed-height clipping.
+        ================================================== */
+
+        @media (max-height: 650px) {
+          .aw {
+            --aw-block: 20px;
+          }
+
+          .aw-opening {
+            gap: 18px;
+          }
+
+          .aw-opening__content {
+            padding-block: 8px;
+          }
+
+          .aw-work__hero {
+            gap: 12px;
+          }
+
+          .aw-work__art-stage {
+            min-height: 210px;
+          }
+
+          .aw-art-svg {
+            max-height: 360px;
+          }
+
+          .aw-work__heading-glass {
+            padding: 19px 24px;
+          }
+
+          .aw-work__heading-glass h2 {
+            font-size: clamp(40px, 5vw, 75px);
+          }
+
+          .aw-work--research
+            .aw-work__heading-glass h2 {
+            font-size: clamp(30px, 3.8vw, 56px);
+          }
+
+          .aw-work__heading-glass p {
+            margin-top: 9px;
           }
         }
 
@@ -2031,11 +2859,16 @@ export default function CivilizationSpacePage() {
             scroll-behavior: auto;
           }
 
-          .an-cspace-map__node,
-          .an-cspace-enter,
-          .an-cspace-action,
-          .an-cspace-back {
-            transition: none;
+          .aw *,
+          .aw *::before,
+          .aw *::after {
+            animation: none !important;
+            transition: none !important;
+          }
+
+          .aw-reveal {
+            opacity: 1 !important;
+            transform: none !important;
           }
         }
       `}</style>

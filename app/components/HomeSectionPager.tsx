@@ -73,7 +73,7 @@ const CHAPTER_TARGETS:
   subtitle: "Why does ArcheNova exist?",
 },
 
- {
+{
     id:
       "archenova-search-section",
 
@@ -86,6 +86,13 @@ const CHAPTER_TARGETS:
     subtitle:
       "Where are we?",
   },
+
+{
+  id: "works",
+  mark: "⎅",
+  title: "WORKS",
+  subtitle: "What can we become?",
+},
 
   {
     id:

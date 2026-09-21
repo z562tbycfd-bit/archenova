@@ -27,8 +27,11 @@ import ArcheNovaAetherionPortal
  import FounderDigitalTwinPortal
   from "../components/founder-digital-twin/FounderDigitalTwinPortal";
 
-  import ArcheNovaCurrentState from
-  "@/app/components/ArcheNovaCurrentState";
+  import ArcheNovaCurrentState
+   from"@/app/components/ArcheNovaCurrentState";
+
+import WorksPortal
+ from "../components/WorksPortal ";
 
 /* ==========================================================
    HOME
@@ -137,7 +140,6 @@ export default function Home() {
   <ArcheNovaCurrentState />
 </section>
 
-      
 
 
       {/* ==================================================
@@ -157,6 +159,20 @@ export default function Home() {
       >
         <ArcheNovaMap />
       </section>
+
+      {/* ==================================================
+    01 / ARCHENOVA WORKS PORTAL
+
+    The ArcheNova Works exhibition entrance.
+    ================================================== */}
+    
+    <section
+  id="works"
+  data-home-section
+  className="an-works-home-section"
+>
+  <WorksPortal />
+</section>
 
 
       {/* ==================================================
