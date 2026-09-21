@@ -2,449 +2,206 @@
 
 import Link from "next/link";
 
-import {
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
-
 /* ==========================================================
    ARCHENOVA — CIVILIZATION GATE
 
-   A full-viewport cinematic entrance.
+   DESIGN
+   - Minimal, editorial, translucent glass
+   - Apple-inspired clarity × Nobel-inspired restraint
+   - No autoplay video
+   - No timers, playback state, or animated story rotation
+   - Responsive layout with generous whitespace
+   - Accessible contrast and reduced-motion support
 
-   Story:
-   GRAVITY & QUANTUM
-       ↓
-   SCIENCE & ENGINEERING
-       ↓
-   CIVILIZATION DESIGN
-
-   Existing assets:
-   /videos/archenova-cosmos.mp4
+   EXISTING ASSET
    /images/archenova-gate-poster.jpg
 
-   Existing destinations:
+   EXISTING DESTINATIONS
    /home
    https://x.com/ArcheNova_X
 
-   The visual sequence is conceptual.
-   It does not represent live operational activity.
+   Replace the current entrance page with this entire file.
 ========================================================== */
 
-type CinematicState =
-  | "loading"
-  | "playing"
-  | "failed";
-
-const STORY = [
+const PRINCIPLES = [
   {
     number: "01",
-    title: "ORIGIN",
-    subtitle: "Gravity & Quantum",
-    description:
-      "Begin with the physical principles that shape what is possible.",
+    label: "DISCOVER",
+    title: "Physics",
   },
   {
     number: "02",
-    title: "REALIZATION",
-    subtitle: "Science & Engineering",
-    description:
-      "Turn understanding into reproducible knowledge and reliable capability.",
+    label: "REALIZE",
+    title: "Engineering",
   },
   {
     number: "03",
-    title: "CONTINUITY",
-    subtitle: "Civilization Design",
-    description:
-      "Connect capability with infrastructure, governance, and enduring value.",
+    label: "DESIGN",
+    title: "Civilization",
   },
 ] as const;
 
 export default function GatePage() {
-  const videoRef =
-    useRef<HTMLVideoElement | null>(null);
-
-  const [
-    cinematicState,
-    setCinematicState,
-  ] = useState<CinematicState>("loading");
-
-  const [
-    reducedMotion,
-    setReducedMotion,
-  ] = useState(false);
-
-  const [
-    activeStory,
-    setActiveStory,
-  ] = useState(0);
-
-  const [
-    storyPaused,
-    setStoryPaused,
-  ] = useState(false);
-
-  const failCinematic = useCallback(() => {
-    setCinematicState("failed");
-    videoRef.current?.pause();
-  }, []);
-
-  /* ========================================================
-     ACCESSIBILITY / REDUCED MOTION
-  ======================================================== */
-
-  useEffect(() => {
-    const media = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    );
-
-    const update = () => {
-      setReducedMotion(media.matches);
-    };
-
-    update();
-
-    media.addEventListener("change", update);
-
-    return () => {
-      media.removeEventListener("change", update);
-    };
-  }, []);
-
-  /* ========================================================
-     VIDEO PLAYBACK / FALLBACK
-  ======================================================== */
-
-  useEffect(() => {
-    if (reducedMotion) {
-      videoRef.current?.pause();
-      return;
-    }
-
-    const video = videoRef.current;
-
-    if (!video) {
-      return;
-    }
-
-    const timeout = window.setTimeout(() => {
-      setCinematicState((current) =>
-        current === "playing"
-          ? current
-          : "failed",
-      );
-    }, 6000);
-
-    const attemptPlayback = async () => {
-      try {
-        await video.play();
-      } catch {
-        failCinematic();
-      }
-    };
-
-    void attemptPlayback();
-
-    return () => {
-      window.clearTimeout(timeout);
-    };
-  }, [failCinematic, reducedMotion]);
-
-  /* ========================================================
-     LIVING STORY
-
-     Automatically advances unless:
-     - reduced motion is enabled
-     - the user selects a story chapter manually
-  ======================================================== */
-
-  useEffect(() => {
-    if (reducedMotion || storyPaused) {
-      return;
-    }
-
-    const interval = window.setInterval(() => {
-      setActiveStory(
-        (current) => (current + 1) % STORY.length,
-      );
-    }, 5200);
-
-    return () => {
-      window.clearInterval(interval);
-    };
-  }, [reducedMotion, storyPaused]);
-
-  const selectStory = useCallback(
-    (index: number) => {
-      setActiveStory(index);
-      setStoryPaused(true);
-    },
-    [],
-  );
-
   return (
     <main className="an-gate">
-      {/* ====================================================
-          FULL-SCREEN CINEMATIC BACKGROUND
-      ==================================================== */}
+      {/* BACKGROUND — STATIC AND RELIABLE */}
 
       <div
-        className="an-gate__cinema"
+        className="an-gate__background"
         aria-hidden="true"
       >
-        <div className="an-gate__poster" />
-
-        {!reducedMotion &&
-          cinematicState !== "failed" && (
-            <video
-              ref={videoRef}
-              className={[
-                "an-gate__video",
-                cinematicState === "playing"
-                  ? "is-playing"
-                  : "",
-              ]
-                .filter(Boolean)
-                .join(" ")}
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              poster="/images/archenova-gate-poster.jpg"
-              onPlaying={() => {
-                setCinematicState("playing");
-              }}
-              onError={failCinematic}
-            >
-              <source
-                src="/videos/archenova-cosmos.mp4"
-                type="video/mp4"
-              />
-            </video>
-          )}
-
-        <div className="an-gate__cinema-shade" />
-        <div className="an-gate__cinema-vignette" />
-        <div className="an-gate__cinema-grain" />
+        <div className="an-gate__background-image" />
+        <div className="an-gate__background-shade" />
+        <div className="an-gate__background-light" />
       </div>
 
-      {/* ====================================================
-          AMBIENT GRAVITATIONAL STRUCTURE
-      ==================================================== */}
+      {/* MAIN GLASS SURFACE */}
 
-      <div
-        className="an-gate__cosmos"
-        aria-hidden="true"
-      >
-        <div className="an-gate__cosmos-halo" />
-
-        <div className="an-gate__orbit an-gate__orbit--one" />
-        <div className="an-gate__orbit an-gate__orbit--two" />
-        <div className="an-gate__orbit an-gate__orbit--three" />
-
-        <div className="an-gate__cosmos-core">
-          <span />
-        </div>
-      </div>
-
-      {/* ====================================================
-          MAIN VIEWPORT
-      ==================================================== */}
-
-      <section
-        className="an-gate__viewport"
-        aria-labelledby="an-gate-title"
-      >
+      <div className="an-gate__shell">
         {/* HEADER */}
 
         <header className="an-gate__header">
-          <div className="an-gate__brand">
-            <span className="an-gate__brand-mark">
+          <Link
+            href="/home"
+            className="an-gate__brand"
+            aria-label="ArcheNova Home"
+          >
+            <span
+              className="an-gate__brand-symbol"
+              aria-hidden="true"
+            >
               A
             </span>
 
-            <div className="an-gate__brand-copy">
-              <strong>ARCHENOVA</strong>
-              <small>
-                FOUNDER-LED CIVILIZATION DESIGN
-              </small>
-            </div>
-          </div>
-
-          <div className="an-gate__header-status">
-            <span
-              className="an-gate__status-dot"
-              aria-hidden="true"
-            />
-
-            <span>
-              AN INDEPENDENT INITIATIVE
+            <span className="an-gate__brand-name">
+              ARCHENOVA
             </span>
-          </div>
+          </Link>
+
+          <span className="an-gate__header-caption">
+            AN INDEPENDENT INITIATIVE
+          </span>
         </header>
 
-        {/* CENTRAL STORY */}
+        {/* HERO */}
 
-        <div className="an-gate__main">
-          <div className="an-gate__intro">
-            <div className="an-gate__eyebrow">
-              <span />
-
-              <p>
-                FROM FIRST PRINCIPLES
-                <br className="an-gate__mobile-break" />
-                {" "}
-                TO CIVILIZATION
-              </p>
-
-              <span />
-            </div>
+        <section
+          className="an-gate__hero"
+          aria-labelledby="an-gate-title"
+        >
+          <div className="an-gate__hero-content">
+            <p className="an-gate__eyebrow">
+              SCIENCE · ENGINEERING · CIVILIZATION
+            </p>
 
             <h1
               id="an-gate-title"
               className="an-gate__title"
             >
-              Arche<span>Nova</span>
+              ArcheNova<span>.</span>
             </h1>
 
-            <p className="an-gate__headline">
-              Where understanding becomes
+            <p className="an-gate__statement">
+              Civilization can be
               <br />
-              enduring structure.
+              intentionally designed.
             </p>
 
-            <p className="an-gate__introduction">
-              An independent, founder-led initiative
-              exploring how fundamental science
-              becomes engineering, infrastructure,
-              governance, and lasting value.
+            <p className="an-gate__description">
+              From physical principles to enduring
+              human possibilities.
             </p>
+
+            <div className="an-gate__actions">
+              <Link
+                href="/home"
+                className="an-gate__primary-action"
+              >
+                <span>Enter ArcheNova</span>
+
+                <span
+                  className="an-gate__action-arrow"
+                  aria-hidden="true"
+                >
+                  ↗
+                </span>
+              </Link>
+
+              <a
+                href="https://x.com/ArcheNova_X"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="an-gate__secondary-action"
+              >
+                Explore on X
+
+                <span aria-hidden="true">
+                  ↗
+                </span>
+              </a>
+            </div>
           </div>
 
-          {/* LIVING CHAPTER */}
+          {/* SINGLE QUIET VISUAL ELEMENT */}
 
           <div
-            className="an-gate__story"
-            aria-label="ArcheNova's conceptual journey"
+            className="an-gate__symbol"
+            aria-hidden="true"
           >
-            <div className="an-gate__story-topline">
-              <span>THE ARCHENOVA JOURNEY</span>
+            <div className="an-gate__symbol-ring an-gate__symbol-ring--outer" />
 
-              <span>
-                {STORY[activeStory].number}
-                {" / "}
-                03
-              </span>
+            <div className="an-gate__symbol-ring an-gate__symbol-ring--inner" />
+
+            <div className="an-gate__symbol-center">
+              <span />
             </div>
+          </div>
+        </section>
 
-            <div className="an-gate__story-body">
-              <div
-                key={activeStory}
-                className="an-gate__story-content"
-              >
-                <span className="an-gate__story-kicker">
-                  {STORY[activeStory].title}
+        {/* THREE PRINCIPLES — NO ROTATION */}
+
+        <section
+          className="an-gate__principles"
+          aria-label="ArcheNova's three foundations"
+        >
+          {PRINCIPLES.map((principle) => (
+            <div
+              key={principle.number}
+              className="an-gate__principle"
+            >
+              <span className="an-gate__principle-number">
+                {principle.number}
+              </span>
+
+              <div className="an-gate__principle-copy">
+                <span className="an-gate__principle-label">
+                  {principle.label}
                 </span>
 
-                <h2>
-                  {STORY[activeStory].subtitle}
-                </h2>
-
-                <p>
-                  {STORY[activeStory].description}
-                </p>
+                <span className="an-gate__principle-title">
+                  {principle.title}
+                </span>
               </div>
             </div>
-
-            <div
-              className="an-gate__story-navigation"
-              aria-label="Choose a story chapter"
-            >
-              {STORY.map((chapter, index) => (
-                <button
-                  key={chapter.number}
-                  type="button"
-                  className={[
-                    "an-gate__story-step",
-                    activeStory === index
-                      ? "is-active"
-                      : "",
-                  ]
-                    .filter(Boolean)
-                    .join(" ")}
-                  onClick={() => {
-                    selectStory(index);
-                  }}
-                  aria-label={`Show ${chapter.subtitle}`}
-                  aria-pressed={activeStory === index}
-                >
-                  <span className="an-gate__story-step-number">
-                    {chapter.number}
-                  </span>
-
-                  <span className="an-gate__story-step-track">
-                    <span />
-                  </span>
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* ACTIONS */}
-
-          <div className="an-gate__actions">
-            <Link
-              href="/home"
-              className="an-gate__enter"
-            >
-              <span>ENTER ARCHENOVA</span>
-
-              <span
-                className="an-gate__enter-arrow"
-                aria-hidden="true"
-              >
-                ↗
-              </span>
-            </Link>
-
-            <a
-              href="https://x.com/ArcheNova_X"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="an-gate__external"
-            >
-              <span>EXPLORE ON X</span>
-
-              <span aria-hidden="true">
-                ↗
-              </span>
-            </a>
-          </div>
-        </div>
+          ))}
+        </section>
 
         {/* FOOTER */}
 
         <footer className="an-gate__footer">
           <span>
-            PHYSICS
-            <i aria-hidden="true" />
-            ENGINEERING
-            <i aria-hidden="true" />
-            CIVILIZATION
+            FOUNDER-LED CIVILIZATION DESIGN
           </span>
 
-          <span className="an-gate__footer-right">
+          <span className="an-gate__footer-motto">
             REALITY RETAINS VETO
           </span>
         </footer>
-      </section>
+      </div>
 
       <style jsx global>{`
         /* ==================================================
-           ROOT / FULL VIEWPORT
+           FOUNDATION
         ================================================== */
 
         .an-gate,
@@ -455,327 +212,140 @@ export default function GatePage() {
         }
 
         .an-gate {
-          position: relative;
+          --an-white: #f7f8fa;
+          --an-muted: rgba(241, 244, 247, 0.64);
+          --an-faint: rgba(241, 244, 247, 0.43);
+          --an-line: rgba(255, 255, 255, 0.13);
+          --an-glass: rgba(225, 234, 242, 0.065);
 
+          position: relative;
           isolation: isolate;
 
           width: 100%;
           min-width: 0;
-          max-width: none !important;
-
           min-height: 100vh;
           min-height: 100svh;
 
-          margin: 0 !important;
-          padding: 0 !important;
+          margin: 0;
+          padding: 0;
 
-          overflow: clip;
+          overflow-x: clip;
 
-          background: #020304;
-
-          color: #f5f7f9;
+          background: #070a0e;
+          color: var(--an-white);
 
           font-family:
             -apple-system,
             BlinkMacSystemFont,
             "Segoe UI",
+            "Helvetica Neue",
             sans-serif;
+
+          -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
         }
 
         .an-gate a {
+          color: inherit;
           text-decoration: none;
         }
 
-        .an-gate button {
-          font: inherit;
+        .an-gate a:focus-visible {
+          outline: 2px solid rgba(255, 255, 255, 0.9);
+          outline-offset: 5px;
         }
 
         /* ==================================================
-           FULL-SCREEN CINEMA
+           BACKGROUND
+
+           The image is decorative. The dark gradient
+           remains usable even if the image is unavailable.
         ================================================== */
 
-        .an-gate__cinema {
+        .an-gate__background {
           position: absolute;
-
           inset: 0;
-
-          z-index: -3;
+          z-index: -2;
 
           overflow: hidden;
-
-          background: #020304;
-
           pointer-events: none;
-        }
 
-        .an-gate__poster,
-        .an-gate__video {
-          position: absolute;
-
-          inset: 0;
-
-          display: block;
-
-          width: 100%;
-          height: 100%;
-        }
-
-        .an-gate__poster {
           background:
-            #020304
-            url("/images/archenova-gate-poster.jpg")
-            center center / cover
-            no-repeat;
-
-          opacity: 0.72;
+            linear-gradient(
+              135deg,
+              #101923 0%,
+              #090e14 45%,
+              #05070a 100%
+            );
         }
 
-        .an-gate__video {
-          border: 0;
-
-          object-fit: cover;
-          object-position: center;
-
-          opacity: 0;
-
-          transition:
-            opacity 1.5s
-            cubic-bezier(.22, 1, .36, 1);
-        }
-
-        .an-gate__video.is-playing {
-          opacity: 0.74;
-        }
-
-        .an-gate__cinema-shade {
+        .an-gate__background-image,
+        .an-gate__background-shade,
+        .an-gate__background-light {
           position: absolute;
-
           inset: 0;
+        }
 
+        .an-gate__background-image {
+          background-image:
+            url("/images/archenova-gate-poster.jpg");
+
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          opacity: 0.32;
+        }
+
+        .an-gate__background-shade {
           background:
             linear-gradient(
               90deg,
-              rgba(0, 0, 0, .80),
-              rgba(0, 0, 0, .45) 48%,
-              rgba(0, 0, 0, .69)
+              rgba(4, 7, 11, 0.86) 0%,
+              rgba(5, 9, 14, 0.70) 49%,
+              rgba(5, 8, 12, 0.54) 100%
             ),
             linear-gradient(
               180deg,
-              rgba(0, 0, 0, .45),
-              rgba(0, 0, 0, .06) 30%,
-              rgba(0, 0, 0, .15) 65%,
-              rgba(0, 0, 0, .82)
+              rgba(4, 7, 10, 0.28),
+              transparent 30%,
+              rgba(3, 5, 8, 0.68)
             );
         }
 
-        .an-gate__cinema-vignette {
-          position: absolute;
-
-          inset: 0;
-
+        .an-gate__background-light {
           background:
             radial-gradient(
-              ellipse at 50% 45%,
-              transparent 15%,
-              rgba(0, 0, 0, .28) 55%,
-              rgba(0, 0, 0, .75) 100%
+              ellipse at 79% 42%,
+              rgba(190, 214, 233, 0.12),
+              transparent 43%
             );
-        }
-
-        .an-gate__cinema-grain {
-          position: absolute;
-
-          inset: 0;
-
-          opacity: .12;
-
-          background-image:
-            radial-gradient(
-              circle,
-              rgba(255, 255, 255, .35) 0 .45px,
-              transparent .8px
-            );
-
-          background-size: 67px 67px;
         }
 
         /* ==================================================
-           LIVING COSMOS
+           OUTER SHELL
         ================================================== */
 
-        .an-gate__cosmos {
-          position: absolute;
-
-          z-index: -1;
-
-          top: 50%;
-          right: -9%;
-
-          width: min(64vw, 850px);
-
-          aspect-ratio: 1;
-
-          transform: translateY(-50%);
-
-          display: grid;
-          place-items: center;
-
-          pointer-events: none;
-
-          opacity: .42;
-        }
-
-        .an-gate__cosmos-halo {
-          position: absolute;
-
-          inset: 10%;
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(214, 233, 246, .075),
-              rgba(165, 195, 216, .025) 35%,
-              transparent 68%
-            );
-
-          filter: blur(22px);
-
-          animation:
-            an-cosmos-breathe
-            12s ease-in-out infinite;
-        }
-
-        .an-gate__orbit {
-          position: absolute;
-
-          border: 1px solid
-            rgba(233, 243, 250, .16);
-
-          border-radius: 50%;
-        }
-
-        .an-gate__orbit--one {
-          width: 76%;
-          aspect-ratio: 1;
-
-          animation:
-            an-orbit-rotate
-            85s linear infinite;
-        }
-
-        .an-gate__orbit--one::before {
-          content: "";
-
-          position: absolute;
-
-          top: 0;
-          left: 50%;
-
-          width: 5px;
-          height: 5px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(245, 250, 253, .85);
-
-          box-shadow:
-            0 0 18px rgba(239, 248, 253, .6);
-        }
-
-        .an-gate__orbit--two {
-          width: 89%;
-          height: 31%;
-
-          transform: rotate(-25deg);
-
-          border-color:
-            rgba(233, 243, 250, .13);
-
-          animation:
-            an-orbit-tilt
-            19s ease-in-out infinite;
-        }
-
-        .an-gate__orbit--three {
-          width: 35%;
-          height: 84%;
-
-          transform: rotate(31deg);
-
-          border-color:
-            rgba(233, 243, 250, .1);
-
-          animation:
-            an-orbit-vertical
-            25s ease-in-out infinite;
-        }
-
-        .an-gate__cosmos-core {
-          display: grid;
-          place-items: center;
-
-          width: 16%;
-          aspect-ratio: 1;
-
-          border: 1px solid
-            rgba(242, 248, 252, .3);
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(235, 246, 252, .13),
-              rgba(5, 8, 12, .9) 38%,
-              #000 75%
-            );
-
-          box-shadow:
-            0 0 35px rgba(229, 241, 250, .08),
-            inset 0 0 20px rgba(0, 0, 0, .8);
-
-          animation:
-            an-core-breathe
-            9s ease-in-out infinite;
-        }
-
-        .an-gate__cosmos-core span {
-          width: 14%;
-          aspect-ratio: 1;
-
-          border-radius: 50%;
-
-          background:
-            rgba(246, 251, 253, .9);
-
-          box-shadow:
-            0 0 12px rgba(239, 248, 253, .8),
-            0 0 35px rgba(239, 248, 253, .3);
-        }
-
-        /* ==================================================
-           VIEWPORT STRUCTURE
-        ================================================== */
-
-        .an-gate__viewport {
+        .an-gate__shell {
           position: relative;
 
           display: grid;
-
           grid-template-rows:
-            auto minmax(0, 1fr) auto;
+            auto
+            minmax(0, 1fr)
+            auto
+            auto;
 
-          width: 100%;
+          width: min(100%, 1800px);
           min-height: 100vh;
           min-height: 100svh;
 
+          margin: 0 auto;
+
           padding:
-            max(28px, env(safe-area-inset-top))
-            clamp(24px, 5.5vw, 96px)
-            max(23px, env(safe-area-inset-bottom));
+            max(32px, env(safe-area-inset-top))
+            clamp(28px, 6vw, 112px)
+            max(24px, env(safe-area-inset-bottom));
         }
 
         /* ==================================================
@@ -783,429 +353,143 @@ export default function GatePage() {
         ================================================== */
 
         .an-gate__header {
-          position: relative;
-
-          z-index: 5;
-
           display: flex;
           align-items: center;
           justify-content: space-between;
 
-          gap: 20px;
-
-          width: 100%;
-        }
-
-        .an-gate__brand {
-          display: flex;
-          align-items: center;
-
-          gap: 12px;
-
+          gap: 24px;
           min-width: 0;
         }
 
-        .an-gate__brand-mark {
+        .an-gate__brand {
+          display: inline-flex;
+          align-items: center;
+
+          gap: 13px;
+          min-width: 0;
+        }
+
+        .an-gate__brand-symbol {
           display: grid;
           place-items: center;
 
-          width: 35px;
-          height: 35px;
+          width: 36px;
+          height: 36px;
+          flex: 0 0 36px;
 
-          flex: 0 0 35px;
-
-          border: 1px solid
-            rgba(245, 249, 252, .17);
-
+          border: 1px solid rgba(255, 255, 255, 0.23);
           border-radius: 50%;
 
-          background:
-            rgba(13, 17, 21, .42);
+          background: rgba(255, 255, 255, 0.065);
 
-          color:
-            rgba(246, 250, 253, .9);
-
-          font-size: 12px;
-          font-weight: 300;
+          color: rgba(255, 255, 255, 0.94);
+          font-size: 13px;
+          font-weight: 350;
 
           backdrop-filter: blur(16px);
           -webkit-backdrop-filter: blur(16px);
         }
 
-        .an-gate__brand-copy {
-          display: flex;
-          flex-direction: column;
+        .an-gate__brand-name {
+          color: rgba(255, 255, 255, 0.92);
 
-          gap: 5px;
-
-          min-width: 0;
+          font-size: 11px;
+          font-weight: 620;
+          letter-spacing: 0.22em;
         }
 
-        .an-gate__brand-copy strong {
-          color: rgba(250, 252, 253, .9);
+        .an-gate__header-caption {
+          color: var(--an-faint);
 
-          font-size: 10px;
-          font-weight: 650;
-
-          letter-spacing: .23em;
-        }
-
-        .an-gate__brand-copy small {
-          color: rgba(232, 241, 247, .45);
-
-          font-size: 7px;
-          font-weight: 500;
-
-          letter-spacing: .13em;
-        }
-
-        .an-gate__header-status {
-          display: flex;
-          align-items: center;
-
-          gap: 9px;
-
-          color: rgba(233, 242, 248, .55);
-
-          font-size: 8px;
+          font-size: 9px;
           font-weight: 550;
-
-          letter-spacing: .17em;
+          letter-spacing: 0.16em;
 
           white-space: nowrap;
         }
 
-        .an-gate__status-dot {
-          width: 5px;
-          height: 5px;
-
-          flex: 0 0 5px;
-
-          border-radius: 50%;
-
-          background: rgba(240, 249, 253, .8);
-
-          box-shadow:
-            0 0 12px rgba(233, 245, 252, .3);
-
-          animation:
-            an-status-breathe
-            6s ease-in-out infinite;
-        }
-
         /* ==================================================
-           MAIN CONTENT
+           HERO
         ================================================== */
 
-        .an-gate__main {
+        .an-gate__hero {
           position: relative;
 
-          z-index: 4;
+          display: grid;
+          grid-template-columns:
+            minmax(0, 1.1fr)
+            minmax(240px, 0.9fr);
 
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: center;
+          align-items: center;
 
-          gap: clamp(27px, 4vh, 45px);
+          gap: clamp(30px, 5vw, 90px);
 
-          width: min(100%, 760px);
+          min-width: 0;
 
           padding:
-            clamp(45px, 7vh, 90px) 0;
+            clamp(72px, 11vh, 150px)
+            0
+            clamp(68px, 10vh, 140px);
         }
 
-        .an-gate__intro {
-          width: 100%;
+        .an-gate__hero-content {
+          position: relative;
+          z-index: 2;
 
-          animation:
-            an-intro-appear
-            1.4s cubic-bezier(.22, 1, .36, 1)
-            both;
+          min-width: 0;
+          max-width: 760px;
         }
 
         .an-gate__eyebrow {
-          display: flex;
-          align-items: center;
-
-          gap: 12px;
-        }
-
-        .an-gate__eyebrow > span {
-          width: 23px;
-          height: 1px;
-
-          flex: 0 0 23px;
-
-          background:
-            rgba(233, 243, 250, .35);
-        }
-
-        .an-gate__eyebrow p {
           margin: 0;
 
-          color: rgba(229, 240, 247, .57);
+          color: var(--an-muted);
 
-          font-size: 9px;
-          font-weight: 600;
-
-          line-height: 1.6;
-          letter-spacing: .22em;
-        }
-
-        .an-gate__mobile-break {
-          display: none;
+          font-size: 10px;
+          font-weight: 550;
+          line-height: 1.5;
+          letter-spacing: 0.2em;
         }
 
         .an-gate__title {
-          margin:
-            clamp(20px, 3vh, 33px)
-            0 0;
+          margin: 25px 0 0;
 
-          color: rgba(250, 252, 253, .98);
+          color: #fff;
 
-          font-size:
-            clamp(76px, 10.8vw, 160px);
-
-          font-weight: 230;
-
-          line-height: .93;
-          letter-spacing: -.078em;
+          font-size: clamp(76px, 9.4vw, 152px);
+          font-weight: 250;
+          line-height: 0.98;
+          letter-spacing: -0.078em;
 
           white-space: nowrap;
-
-          text-shadow:
-            0 0 65px rgba(220, 239, 251, .055);
         }
 
         .an-gate__title span {
-          color: rgba(224, 237, 245, .82);
+          color: rgba(221, 232, 240, 0.72);
         }
 
-        .an-gate__headline {
-          margin:
-            clamp(22px, 3vh, 34px)
-            0 0;
+        .an-gate__statement {
+          margin: 33px 0 0;
 
-          color: rgba(244, 249, 252, .89);
+          color: rgba(249, 251, 252, 0.94);
 
-          font-size:
-            clamp(22px, 2.55vw, 36px);
-
-          font-weight: 300;
-
-          line-height: 1.3;
-          letter-spacing: -.035em;
+          font-size: clamp(27px, 3vw, 43px);
+          font-weight: 320;
+          line-height: 1.23;
+          letter-spacing: -0.043em;
         }
 
-        .an-gate__introduction {
-          width: min(100%, 490px);
+        .an-gate__description {
+          max-width: 450px;
 
-          margin: 19px 0 0;
+          margin: 22px 0 0;
 
-          color: rgba(222, 234, 242, .61);
+          color: var(--an-muted);
 
-          font-size:
-            clamp(12px, 1vw, 14px);
-
-          font-weight: 350;
-
-          line-height: 1.85;
-        }
-
-        /* ==================================================
-           TRANSLUCENT STORY PANEL
-        ================================================== */
-
-        .an-gate__story {
-          width: min(100%, 540px);
-
-          padding:
-            clamp(19px, 2.4vw, 29px);
-
-          border: 1px solid
-            rgba(236, 245, 251, .13);
-
-          border-radius: 20px;
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(22, 28, 34, .49),
-              rgba(3, 5, 8, .37)
-            );
-
-          box-shadow:
-            inset 0 1px 0
-              rgba(255, 255, 255, .035),
-            0 20px 65px
-              rgba(0, 0, 0, .16);
-
-          backdrop-filter: blur(24px);
-          -webkit-backdrop-filter: blur(24px);
-
-          animation:
-            an-panel-appear
-            1.4s .25s
-            cubic-bezier(.22, 1, .36, 1)
-            both;
-        }
-
-        .an-gate__story-topline {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          gap: 16px;
-
-          color: rgba(232, 242, 249, .49);
-
-          font-size: 8px;
-          font-weight: 600;
-
-          letter-spacing: .18em;
-        }
-
-        .an-gate__story-body {
-          display: flex;
-          align-items: center;
-
-          min-height: 127px;
-
-          padding: 22px 0 15px;
-        }
-
-        .an-gate__story-content {
-          width: 100%;
-
-          animation:
-            an-story-appear
-            .7s cubic-bezier(.22, 1, .36, 1)
-            both;
-        }
-
-        .an-gate__story-kicker {
-          color: rgba(226, 240, 249, .46);
-
-          font-size: 8px;
-          font-weight: 650;
-
-          letter-spacing: .23em;
-        }
-
-        .an-gate__story-content h2 {
-          margin: 9px 0 0;
-
-          color: rgba(248, 251, 253, .96);
-
-          font-size:
-            clamp(21px, 2vw, 29px);
-
-          font-weight: 350;
-
-          line-height: 1.25;
-          letter-spacing: -.035em;
-        }
-
-        .an-gate__story-content p {
-          max-width: 420px;
-
-          margin: 10px 0 0;
-
-          color: rgba(226, 237, 244, .59);
-
-          font-size: 11px;
-
-          line-height: 1.65;
-        }
-
-        /* ==================================================
-           STORY NAVIGATION
-        ================================================== */
-
-        .an-gate__story-navigation {
-          display: grid;
-
-          grid-template-columns:
-            repeat(3, minmax(0, 1fr));
-
-          gap: 11px;
-        }
-
-        .an-gate__story-step {
-          display: flex;
-          flex-direction: column;
-
-          gap: 9px;
-
-          min-width: 0;
-          min-height: 31px;
-
-          padding: 5px 0;
-
-          border: 0;
-
-          background: transparent;
-
-          color: rgba(230, 241, 248, .39);
-
-          cursor: pointer;
-
-          text-align: left;
-
-          -webkit-tap-highlight-color: transparent;
-        }
-
-        .an-gate__story-step-number {
-          font-size: 8px;
-
-          letter-spacing: .1em;
-
-          transition:
-            color .35s ease;
-        }
-
-        .an-gate__story-step-track {
-          display: block;
-
-          width: 100%;
-          height: 1px;
-
-          overflow: hidden;
-
-          background:
-            rgba(232, 243, 250, .16);
-        }
-
-        .an-gate__story-step-track span {
-          display: block;
-
-          width: 100%;
-          height: 100%;
-
-          background:
-            rgba(244, 250, 253, .9);
-
-          transform: scaleX(0);
-          transform-origin: left center;
-        }
-
-        .an-gate__story-step.is-active {
-          color: rgba(247, 251, 253, .94);
-        }
-
-        .an-gate__story-step.is-active
-        .an-gate__story-step-track span {
-          transform: scaleX(1);
-        }
-
-        .an-gate__story-step:focus-visible {
-          outline: 1px solid
-            rgba(245, 250, 253, .55);
-
-          outline-offset: 5px;
-
-          border-radius: 3px;
+          font-size: clamp(13px, 1.1vw, 15px);
+          font-weight: 380;
+          line-height: 1.75;
+          letter-spacing: 0.005em;
         }
 
         /* ==================================================
@@ -1217,96 +501,228 @@ export default function GatePage() {
           align-items: center;
           flex-wrap: wrap;
 
-          gap: 12px;
+          gap: 14px;
 
-          width: 100%;
-
-          animation:
-            an-panel-appear
-            1.4s .45s
-            cubic-bezier(.22, 1, .36, 1)
-            both;
+          margin-top: 39px;
         }
 
-        .an-gate__enter,
-        .an-gate__external {
+        .an-gate__primary-action,
+        .an-gate__secondary-action {
           display: inline-flex;
           align-items: center;
           justify-content: space-between;
 
-          gap: 28px;
+          gap: 25px;
 
           min-height: 52px;
-
-          padding: 0 21px;
+          padding: 0 23px;
 
           border-radius: 999px;
 
-          font-size: 9px;
-          font-weight: 650;
-
-          letter-spacing: .15em;
-
-          white-space: nowrap;
+          font-size: 12px;
+          font-weight: 550;
+          line-height: 1.2;
+          letter-spacing: 0.015em;
 
           transition:
-            transform .3s ease,
-            background .3s ease,
-            border-color .3s ease,
-            color .3s ease,
-            box-shadow .3s ease;
+            background 0.25s ease,
+            border-color 0.25s ease,
+            color 0.25s ease,
+            transform 0.25s ease;
         }
 
-        .an-gate__enter {
-          min-width: 218px;
+        .an-gate__primary-action {
+          min-width: 194px;
 
-          border: 1px solid
-            rgba(250, 252, 253, .64);
+          border: 1px solid rgba(255, 255, 255, 0.83);
 
-          background:
-            rgba(244, 249, 252, .93);
-
-          color: #070a0d;
-
-          box-shadow:
-            0 10px 36px
-            rgba(0, 0, 0, .18);
+          background: rgba(248, 250, 252, 0.96);
+          color: #111820 !important;
         }
 
-        .an-gate__enter-arrow {
-          font-size: 17px;
+        .an-gate__secondary-action {
+          min-width: 151px;
+
+          border: 1px solid rgba(255, 255, 255, 0.21);
+
+          background: rgba(235, 244, 251, 0.065);
+          color: rgba(249, 251, 253, 0.87) !important;
+
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
+        }
+
+        .an-gate__action-arrow {
+          font-size: 18px;
           font-weight: 350;
-
           line-height: 1;
         }
 
-        .an-gate__external {
-          min-width: 166px;
+        /* ==================================================
+           QUIET ORBITAL SYMBOL
 
-          border: 1px solid
-            rgba(235, 245, 251, .19);
+           Static visual: no GPU-heavy continuous animation.
+        ================================================== */
+
+        .an-gate__symbol {
+          position: relative;
+
+          display: grid;
+          place-items: center;
+
+          width: min(100%, 470px);
+          aspect-ratio: 1;
+
+          justify-self: center;
+
+          border-radius: 50%;
 
           background:
-            rgba(10, 14, 18, .35);
+            radial-gradient(
+              circle,
+              rgba(221, 235, 246, 0.065) 0%,
+              rgba(183, 209, 229, 0.025) 34%,
+              transparent 67%
+            );
 
-          color:
-            rgba(237, 245, 250, .76);
-
-          backdrop-filter: blur(18px);
-          -webkit-backdrop-filter: blur(18px);
+          pointer-events: none;
         }
 
-        .an-gate__external > span:last-child {
-          font-size: 15px;
-          font-weight: 350;
+        .an-gate__symbol-ring {
+          position: absolute;
+          display: block;
+
+          border: 1px solid rgba(235, 244, 250, 0.18);
+          border-radius: 50%;
         }
 
-        .an-gate__enter:focus-visible,
-        .an-gate__external:focus-visible {
-          outline: 2px solid
-            rgba(247, 251, 253, .85);
+        .an-gate__symbol-ring--outer {
+          inset: 10%;
 
-          outline-offset: 4px;
+          transform: rotate(-24deg) scaleY(0.64);
+        }
+
+        .an-gate__symbol-ring--inner {
+          inset: 22%;
+
+          transform: rotate(46deg) scaleY(0.48);
+
+          border-color: rgba(235, 244, 250, 0.28);
+        }
+
+        .an-gate__symbol-center {
+          display: grid;
+          place-items: center;
+
+          width: 16%;
+          aspect-ratio: 1;
+
+          border: 1px solid rgba(242, 248, 252, 0.43);
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle at 35% 30%,
+              rgba(244, 250, 254, 0.32),
+              rgba(150, 183, 206, 0.11) 35%,
+              rgba(9, 15, 22, 0.52) 72%
+            );
+
+          box-shadow:
+            0 0 55px rgba(213, 232, 245, 0.09),
+            inset 0 1px 0 rgba(255, 255, 255, 0.17);
+
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+        }
+
+        .an-gate__symbol-center span {
+          width: 15%;
+          aspect-ratio: 1;
+
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.9);
+
+          box-shadow:
+            0 0 12px rgba(245, 250, 253, 0.58);
+        }
+
+        /* ==================================================
+           THREE-PRINCIPLE GLASS STRIP
+        ================================================== */
+
+        .an-gate__principles {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+
+          width: 100%;
+          min-width: 0;
+
+          border: 1px solid var(--an-line);
+          border-radius: 22px;
+
+          background:
+            linear-gradient(
+              135deg,
+              rgba(236, 244, 250, 0.095),
+              rgba(211, 226, 238, 0.035)
+            );
+
+          box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.075),
+            0 22px 70px rgba(0, 0, 0, 0.1);
+
+          backdrop-filter: blur(28px) saturate(115%);
+          -webkit-backdrop-filter: blur(28px) saturate(115%);
+        }
+
+        .an-gate__principle {
+          display: flex;
+          align-items: center;
+
+          gap: clamp(13px, 2vw, 28px);
+
+          min-width: 0;
+          padding: clamp(23px, 2.5vw, 34px);
+        }
+
+        .an-gate__principle + .an-gate__principle {
+          border-left: 1px solid var(--an-line);
+        }
+
+        .an-gate__principle-number {
+          align-self: flex-start;
+
+          color: rgba(242, 247, 251, 0.36);
+
+          font-size: 11px;
+          font-weight: 450;
+          letter-spacing: 0.06em;
+        }
+
+        .an-gate__principle-copy {
+          display: flex;
+          flex-direction: column;
+
+          gap: 7px;
+          min-width: 0;
+        }
+
+        .an-gate__principle-label {
+          color: var(--an-faint);
+
+          font-size: 9px;
+          font-weight: 550;
+          letter-spacing: 0.16em;
+        }
+
+        .an-gate__principle-title {
+          color: rgba(251, 252, 253, 0.94);
+
+          font-size: clamp(17px, 1.8vw, 24px);
+          font-weight: 360;
+          line-height: 1.2;
+          letter-spacing: -0.025em;
         }
 
         /* ==================================================
@@ -1314,10 +730,6 @@ export default function GatePage() {
         ================================================== */
 
         .an-gate__footer {
-          position: relative;
-
-          z-index: 5;
-
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -1325,185 +737,43 @@ export default function GatePage() {
           gap: 20px;
 
           width: 100%;
+          min-width: 0;
 
-          padding-top: 16px;
+          margin-top: 34px;
+          padding-top: 19px;
 
-          border-top: 1px solid
-            rgba(239, 247, 252, .11);
+          border-top: 1px solid rgba(255, 255, 255, 0.105);
 
-          color: rgba(230, 240, 247, .43);
+          color: var(--an-faint);
 
-          font-size: 8px;
-          font-weight: 550;
-
-          letter-spacing: .15em;
+          font-size: 9px;
+          font-weight: 520;
+          line-height: 1.5;
+          letter-spacing: 0.13em;
         }
 
-        .an-gate__footer > span:first-child {
-          display: flex;
-          align-items: center;
-
-          gap: 12px;
-        }
-
-        .an-gate__footer i {
-          display: inline-block;
-
-          width: 3px;
-          height: 3px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(239, 247, 252, .4);
-        }
-
-        .an-gate__footer-right {
-          white-space: nowrap;
+        .an-gate__footer-motto {
+          text-align: right;
         }
 
         /* ==================================================
-           ANIMATIONS
-        ================================================== */
-
-        @keyframes an-cosmos-breathe {
-          0%,
-          100% {
-            opacity: .45;
-            transform: scale(.93);
-          }
-
-          50% {
-            opacity: .9;
-            transform: scale(1.06);
-          }
-        }
-
-        @keyframes an-orbit-rotate {
-          from {
-            transform: rotate(0deg);
-          }
-
-          to {
-            transform: rotate(360deg);
-          }
-        }
-
-        @keyframes an-orbit-tilt {
-          0%,
-          100% {
-            transform: rotate(-25deg);
-          }
-
-          50% {
-            transform: rotate(-8deg);
-          }
-        }
-
-        @keyframes an-orbit-vertical {
-          0%,
-          100% {
-            transform: rotate(31deg);
-          }
-
-          50% {
-            transform: rotate(48deg);
-          }
-        }
-
-        @keyframes an-core-breathe {
-          0%,
-          100% {
-            opacity: .65;
-            transform: scale(.94);
-          }
-
-          50% {
-            opacity: 1;
-            transform: scale(1.07);
-          }
-        }
-
-        @keyframes an-status-breathe {
-          0%,
-          100% {
-            opacity: .4;
-          }
-
-          50% {
-            opacity: 1;
-          }
-        }
-
-        @keyframes an-intro-appear {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-            filter: blur(5px);
-          }
-
-          to {
-            opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
-          }
-        }
-
-        @keyframes an-panel-appear {
-          from {
-            opacity: 0;
-            transform: translateY(14px);
-          }
-
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        @keyframes an-story-appear {
-          from {
-            opacity: 0;
-            transform: translateY(7px);
-            filter: blur(3px);
-          }
-
-          to {
-            opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
-          }
-        }
-
-        /* ==================================================
-           DESKTOP HOVER
+           HOVER
         ================================================== */
 
         @media (hover: hover) and (pointer: fine) {
-          .an-gate__enter:hover {
-            transform: translateY(-2px);
-
+          .an-gate__primary-action:hover {
             background: #fff;
-
-            box-shadow:
-              0 15px 42px
-              rgba(239, 247, 252, .12);
-          }
-
-          .an-gate__external:hover {
             transform: translateY(-2px);
-
-            border-color:
-              rgba(239, 247, 252, .35);
-
-            background:
-              rgba(24, 31, 38, .54);
-
-            color: #fff;
           }
 
-          .an-gate__story-step:hover {
-            color: rgba(247, 251, 253, .86);
+          .an-gate__secondary-action:hover {
+            border-color: rgba(255, 255, 255, 0.43);
+            background: rgba(235, 244, 251, 0.12);
+            transform: translateY(-2px);
+          }
+
+          .an-gate__brand:hover .an-gate__brand-symbol {
+            background: rgba(255, 255, 255, 0.12);
           }
         }
 
@@ -1511,312 +781,275 @@ export default function GatePage() {
            TABLET
         ================================================== */
 
-        @media (max-width: 1024px) {
-          .an-gate__cosmos {
-            right: -24%;
-
-            width: min(86vw, 760px);
-
-            opacity: .29;
-          }
-
-          .an-gate__main {
-            width: min(100%, 700px);
-          }
-
-          .an-gate__title {
-            font-size:
-              clamp(75px, 12vw, 120px);
-          }
-        }
-
-        /* ==================================================
-           MOBILE — FULL DEVICE VIEWPORT
-
-           The page uses the device's full width and
-           at least its full visible height.
-
-           Short screens may scroll so that no content
-           or navigation becomes inaccessible.
-        ================================================== */
-
-        @media (max-width: 700px) {
-          .an-gate__viewport {
-            min-height: 100vh;
-            min-height: 100svh;
-
-            padding:
-              max(21px, env(safe-area-inset-top))
-              22px
-              max(20px, env(safe-area-inset-bottom));
-          }
-
-          .an-gate__cinema-shade {
-            background:
-              linear-gradient(
-                180deg,
-                rgba(0, 0, 0, .70),
-                rgba(0, 0, 0, .44) 25%,
-                rgba(0, 0, 0, .64) 65%,
-                rgba(0, 0, 0, .88)
-              );
-          }
-
-          .an-gate__poster {
-            background-position: center;
-          }
-
-          .an-gate__video {
-            object-position: center;
-          }
-
-          .an-gate__cosmos {
-            top: 39%;
-            right: 50%;
-
-            width: min(105vw, 540px);
-
-            transform:
-              translate(50%, -50%);
-
-            opacity: .22;
-          }
-
-          .an-gate__brand {
-            gap: 9px;
-          }
-
-          .an-gate__brand-mark {
-            width: 30px;
-            height: 30px;
-
-            flex-basis: 30px;
-
-            font-size: 10px;
-          }
-
-          .an-gate__brand-copy strong {
-            font-size: 8px;
-            letter-spacing: .16em;
-          }
-
-          .an-gate__brand-copy small {
-            font-size: 5px;
-            letter-spacing: .07em;
-          }
-
-          .an-gate__header-status {
-            gap: 6px;
-
-            font-size: 0;
-          }
-
-          .an-gate__status-dot {
-            width: 5px;
-            height: 5px;
-          }
-
-          .an-gate__main {
-            align-items: center;
-
-            gap: 24px;
-
-            width: 100%;
-
-            padding: 43px 0 34px;
-
-            text-align: center;
-          }
-
-          .an-gate__intro {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          }
-
-          .an-gate__eyebrow {
-            justify-content: center;
-
-            gap: 9px;
-          }
-
-          .an-gate__eyebrow > span {
-            width: 15px;
-
-            flex-basis: 15px;
-          }
-
-          .an-gate__eyebrow p {
-            font-size: 7px;
-            letter-spacing: .16em;
-          }
-
-          .an-gate__title {
-            margin-top: 20px;
-
-            font-size:
-              clamp(53px, 15.5vw, 94px);
-
-            letter-spacing: -.075em;
-          }
-
-          .an-gate__headline {
-            margin-top: 21px;
-
-            font-size:
-              clamp(19px, 5.2vw, 28px);
-
-            line-height: 1.36;
-          }
-
-          .an-gate__introduction {
-            max-width: 360px;
-
-            margin-top: 14px;
-
-            font-size: 11px;
-
-            line-height: 1.75;
-          }
-
-          .an-gate__story {
-            width: min(100%, 410px);
-
-            padding: 19px 18px;
-
-            border-radius: 18px;
-
-            text-align: left;
-          }
-
-          .an-gate__story-topline {
-            font-size: 7px;
-          }
-
-          .an-gate__story-body {
-            min-height: 120px;
-
-            padding: 19px 0 12px;
-          }
-
-          .an-gate__story-content h2 {
-            font-size: 23px;
-          }
-
-          .an-gate__story-content p {
-            font-size: 10px;
-          }
-
-          .an-gate__actions {
-            justify-content: center;
-
-            width: min(100%, 410px);
-          }
-
-          .an-gate__enter,
-          .an-gate__external {
-            min-height: 49px;
-
-            font-size: 8px;
-          }
-
-          .an-gate__footer {
-            justify-content: center;
-
-            font-size: 7px;
-          }
-
-          .an-gate__footer-right {
-            display: none;
-          }
-        }
-
-        /* ==================================================
-           SMALL MOBILE
-        ================================================== */
-
-        @media (max-width: 430px) {
-          .an-gate__viewport {
-            padding-right: 17px;
-            padding-left: 17px;
-          }
-
-          .an-gate__main {
-            gap: 21px;
-          }
-
-          .an-gate__title {
-            font-size:
-              clamp(49px, 15.5vw, 67px);
-          }
-
-          .an-gate__introduction {
-            max-width: 320px;
-
-            font-size: 10px;
-          }
-
-          .an-gate__story {
-            padding: 17px 16px;
-          }
-
-          .an-gate__story-body {
-            min-height: 113px;
-          }
-
-          .an-gate__actions {
-            gap: 9px;
-          }
-
-          .an-gate__enter,
-          .an-gate__external {
-            width: 100%;
-
-            min-width: 0;
-
-            justify-content: center;
+        @media (max-width: 1100px) {
+          .an-gate__hero {
+            grid-template-columns:
+              minmax(0, 1fr)
+              minmax(180px, 0.6fr);
 
             gap: 20px;
           }
 
-          .an-gate__enter {
+          .an-gate__title {
+            font-size: clamp(68px, 9vw, 112px);
+          }
+
+          .an-gate__symbol {
+            width: min(100%, 350px);
+          }
+        }
+
+        /* ==================================================
+           MOBILE
+
+           Single column, readable type, generous spacing.
+           No fixed content height or clipped buttons.
+        ================================================== */
+
+        @media (max-width: 700px) {
+          .an-gate__shell {
+            grid-template-rows:
+              auto
+              1fr
+              auto
+              auto;
+
+            padding:
+              max(23px, env(safe-area-inset-top))
+              22px
+              max(22px, env(safe-area-inset-bottom));
+          }
+
+          .an-gate__header {
+            gap: 12px;
+          }
+
+          .an-gate__brand {
+            gap: 10px;
+          }
+
+          .an-gate__brand-symbol {
+            width: 32px;
+            height: 32px;
+            flex-basis: 32px;
+
+            font-size: 11px;
+          }
+
+          .an-gate__brand-name {
+            font-size: 10px;
+            letter-spacing: 0.16em;
+          }
+
+          .an-gate__header-caption {
+            max-width: 105px;
+
+            font-size: 8px;
+            line-height: 1.5;
+            letter-spacing: 0.09em;
+            text-align: right;
+            white-space: normal;
+          }
+
+          .an-gate__hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            gap: 0;
+
+            padding:
+              clamp(65px, 11svh, 110px)
+              0
+              clamp(62px, 10svh, 100px);
+
+            text-align: center;
+          }
+
+          .an-gate__hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+            max-width: 500px;
+          }
+
+          .an-gate__eyebrow {
+            font-size: 8px;
+            line-height: 1.6;
+            letter-spacing: 0.13em;
+          }
+
+          .an-gate__title {
+            margin-top: 21px;
+
+            font-size: clamp(52px, 13vw, 91px);
+            letter-spacing: -0.075em;
+          }
+
+          .an-gate__statement {
+            margin-top: 27px;
+
+            font-size: clamp(24px, 6vw, 35px);
+            line-height: 1.28;
+          }
+
+          .an-gate__description {
+            max-width: 340px;
+
+            margin-top: 18px;
+
+            font-size: 12px;
+            line-height: 1.7;
+          }
+
+          .an-gate__actions {
+            justify-content: center;
+
+            gap: 12px;
+            margin-top: 33px;
+          }
+
+          .an-gate__primary-action,
+          .an-gate__secondary-action {
+            min-height: 50px;
+            font-size: 12px;
+          }
+
+          .an-gate__symbol {
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+            z-index: -1;
+
+            width: min(85vw, 410px);
+
+            opacity: 0.26;
+
+            transform: translate(-50%, -50%);
+          }
+
+          .an-gate__principles {
+            border-radius: 18px;
+          }
+
+          .an-gate__principle {
+            flex-direction: column;
+            align-items: flex-start;
+
+            gap: 13px;
+            padding: 20px 15px;
+          }
+
+          .an-gate__principle-copy {
+            gap: 8px;
+          }
+
+          .an-gate__principle-number {
+            font-size: 10px;
+          }
+
+          .an-gate__principle-label {
+            font-size: 8px;
+            letter-spacing: 0.09em;
+          }
+
+          .an-gate__principle-title {
+            font-size: clamp(13px, 3.4vw, 18px);
+            overflow-wrap: anywhere;
+          }
+
+          .an-gate__footer {
+            margin-top: 26px;
+            padding-top: 17px;
+
+            font-size: 8px;
+            letter-spacing: 0.09em;
+          }
+        }
+
+        /* ==================================================
+           NARROW MOBILE
+        ================================================== */
+
+        @media (max-width: 430px) {
+          .an-gate__shell {
+            padding-right: 17px;
+            padding-left: 17px;
+          }
+
+          .an-gate__title {
+            font-size: clamp(47px, 12.6vw, 57px);
+          }
+
+          .an-gate__eyebrow {
+            font-size: 7px;
+            letter-spacing: 0.1em;
+          }
+
+          .an-gate__actions {
+            flex-direction: column;
+
+            width: min(100%, 340px);
+          }
+
+          .an-gate__primary-action,
+          .an-gate__secondary-action {
+            width: 100%;
+            min-width: 0;
+          }
+
+          .an-gate__primary-action {
             justify-content: space-between;
+          }
+
+          .an-gate__secondary-action {
+            justify-content: center;
+          }
+
+          .an-gate__principle {
+            padding: 18px 10px;
+          }
+
+          .an-gate__principle-title {
+            font-size: 13px;
+          }
+
+          .an-gate__footer {
+            flex-direction: column;
+            align-items: center;
+
+            gap: 7px;
+            text-align: center;
+          }
+
+          .an-gate__footer-motto {
+            text-align: center;
           }
         }
 
         /* ==================================================
            SHORT SCREENS
 
-           Preserve readability and access to buttons
-           rather than clipping the story into a fixed
-           vertical frame.
+           The page scrolls naturally instead of compressing
+           or clipping the hero and navigation.
         ================================================== */
 
         @media (max-height: 740px) {
-          .an-gate__main {
-            padding-top: 27px;
-            padding-bottom: 27px;
-
-            gap: 20px;
+          .an-gate__hero {
+            padding-top: 46px;
+            padding-bottom: 46px;
           }
 
-          .an-gate__title {
-            margin-top: 14px;
+          .an-gate__statement {
+            margin-top: 21px;
           }
 
-          .an-gate__headline {
-            margin-top: 16px;
-          }
-
-          .an-gate__introduction {
-            margin-top: 11px;
-          }
-
-          .an-gate__story-body {
-            min-height: 105px;
-
-            padding-top: 13px;
-            padding-bottom: 9px;
+          .an-gate__actions {
+            margin-top: 27px;
           }
         }
 
@@ -1825,35 +1058,30 @@ export default function GatePage() {
         ================================================== */
 
         @media (prefers-reduced-motion: reduce) {
-          .an-gate__video {
-            display: none !important;
+          .an-gate__primary-action,
+          .an-gate__secondary-action {
+            transition: none;
+          }
+        }
+
+        /* ==================================================
+           BACKDROP-FILTER FALLBACK
+
+           Maintain readable glass surfaces when blur
+           is unavailable or disabled by the browser.
+        ================================================== */
+
+        @supports not (
+          (backdrop-filter: blur(1px)) or
+          (-webkit-backdrop-filter: blur(1px))
+        ) {
+          .an-gate__principles {
+            background: rgba(20, 28, 36, 0.94);
           }
 
-          .an-gate__cosmos *,
-          .an-gate__status-dot,
-          .an-gate__intro,
-          .an-gate__story,
-          .an-gate__story-content,
-          .an-gate__actions {
-            animation: none !important;
-          }
-
-          .an-gate__intro,
-          .an-gate__story,
-          .an-gate__story-content,
-          .an-gate__actions {
-            opacity: 1 !important;
-
-            transform: none !important;
-
-            filter: none !important;
-          }
-
-          .an-gate__video,
-          .an-gate__enter,
-          .an-gate__external,
-          .an-gate__story-step {
-            transition: none !important;
+          .an-gate__secondary-action,
+          .an-gate__brand-symbol {
+            background: rgba(28, 37, 47, 0.94);
           }
         }
       `}</style>
