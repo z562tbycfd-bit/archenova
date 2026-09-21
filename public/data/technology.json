@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-21T16:50:24.668Z",
+  "updated": "2026-09-21T20:51:24.945Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Novo’s 2030 Strategy Underwhelms Investors at Capital Markets Day",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-novos-2030-strategy-underwhelms-investors-at-capital-markets-day/",
+      "summary": "Novo said it planned to launch “more than five multi-blockbusters” or drugs with multiple billions of dollars in sales every year through 2030, and generate more than DKK 150 billion (just over $23 billion) in risk-adjus…",
+      "ts": 1790023296000,
+      "publishedAt": "2026-09-21T20:41:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genes Involved in Flatworm Brain Regeneration Identified",
+      "url": "https://www.genengnews.com/topics/translational-medicine/genes-involved-in-flatworm-brain-regeneration-identified/",
+      "summary": "Researchers identified genes that enable the regeneration of dopamine-producing neurons in planarians. This provides a roadmap for investigating whether similar pathways can be activated in humans and potentially leverag…",
+      "ts": 1790022108000,
+      "publishedAt": "2026-09-21T20:21:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fi…",
+      "ts": 1790013607000,
+      "publishedAt": "2026-09-21T18:00:07.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What a vote on Grail’s cancer detection test could mean for the company, patients, and regulators",
+      "url": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss",
+      "summary": "Shares in Grail, the company developing a blood test for cancer, surged Monday after the FDA posted documents ahead of an advisory committee meeting.",
+      "ts": 1790013531000,
+      "publishedAt": "2026-09-21T17:58:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "H5N1 Spreads Among Australian Wildlife as Flu Season Ramps Up",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/h5n1-spreads-among-australian-wildlife-as-flu-season-ramps-up/",
+      "summary": "Australia is closely monitoring the H5N1 influenza strain after detections in sea lions, seals, dolphins, and foxes, prompting surveillance for mammal adaptation while authorities report low human health risk. The post H…",
+      "ts": 1790011537000,
+      "publishedAt": "2026-09-21T17:25:37.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
@@ -111,6 +156,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
       "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
@@ -145,6 +208,24 @@
       "ts": 1789992000000,
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Nowhere is safe’: UN experts detail Ukraine war’s toll and Russia’s reach beyond its borders",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168386",
+      "summary": "UN Human Rights Council-appointed experts on Monday laid out a grim picture of the human cost of Russia’s invasion of Ukraine, with a spotlight on civilians facing a third wartime winter as well as the intimidation of Ru…",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘We are not powerless’: UN chief urges world leaders to invest in peace",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168383",
+      "summary": "In a world facing rising conflicts, violence and divisions that are causing great suffering for millions of people, the UN chief on Monday called on world leaders and citizens to invest more in peace.",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -198,6 +279,15 @@
       "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cos…",
       "ts": 1789984835000,
       "publishedAt": "2026-09-21T10:00:35.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "ts": 1789984800000,
+      "publishedAt": "2026-09-21T10:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -280,6 +370,15 @@
       "ts": 1789979400000,
       "publishedAt": "2026-09-21T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "ts": 1789974000000,
+      "publishedAt": "2026-09-21T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -516,6 +615,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "Nature Energy",
+      "title": "Rethink data centre planning",
+      "url": "https://www.nature.com/articles/s41560-026-02146-y",
+      "summary": "",
+      "ts": 1789948800000,
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection",
       "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
@@ -703,114 +811,6 @@
       "ts": 1789747351000,
       "publishedAt": "2026-09-18T16:02:31.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "COSI Telescope Comes Together",
-      "url": "https://www.nasa.gov/image-article/cosi-telescope-comes-together/",
-      "summary": "UC Berkeley engineers and managers watch as the COSI (Compton Spectrometer and Imager) detector assembly is slowly raised from a table in this July 8, 2026, image. The four pieces of silver material on the top of the det…",
-      "ts": 1789746303000,
-      "publishedAt": "2026-09-18T15:45:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Palomar Labs Spins Out Ariadne Bio to Advance Non-Hallucinogenic Therapy for Parkinson’s Apathy",
-      "url": "https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/",
-      "summary": "Backed by preclinical data and funding from The Michael J. Fox Foundation, Ariadne Bio is advancing AB-300, a serotonin 2A receptor agonist, as a potential treatment for Parkinson’s-related apathy. The post Palomar Labs …",
-      "ts": 1789744305000,
-      "publishedAt": "2026-09-18T15:11:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Terran Orbital Promotes Margherita Cardi to Vice President of European Operations & Head of Strategic Programs",
-      "url": "https://spacenews.com/terran-orbital-promotes-margherita-cardi-to-vice-president-of-european-operations-head-of-strategic-programs/",
-      "summary": "IRVINE, Calif. and TORINO, Italy – Sept. 17, 2026 – Terran Orbital, a Lockheed Martin company and a global leader in satellite-based solutions primarily serving the aerospace and defense industries, […] The post Terran O…",
-      "ts": 1789742858000,
-      "publishedAt": "2026-09-18T14:47:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roche expands its Boston footprint with new research center",
-      "url": "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss",
-      "summary": "A gene therapy approved for Sanfilippo syndrome, good and bad news for Xenon Pharma, and more biotech news",
-      "ts": 1789738949000,
-      "publishedAt": "2026-09-18T13:42:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1789738704000,
-      "publishedAt": "2026-09-18T13:38:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Spots an Out-of-Sync Galaxy",
-      "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
-      "summary": "Though the spiral galaxy in this new image from the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellation Vir…",
-      "ts": 1789738692000,
-      "publishedAt": "2026-09-18T13:38:12.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about licensing deals with China, making drugs in space, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss",
-      "summary": "The U.S. is working on rules for investing in China that would likely preserve pharma's ability to strike most licensing deals for Chinese drugs",
-      "ts": 1789738178000,
-      "publishedAt": "2026-09-18T13:29:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 14-18 Sep 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_14-18_Sep_2026",
-      "summary": "Week in images: 14-18 Sep 2026 Discover our week through the lens",
-      "ts": 1789736700000,
-      "publishedAt": "2026-09-18T13:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Who supports policies for ‘health equity’? It depends on how you’re asking",
-      "url": "https://www.statnews.com/2026/09/18/health-news-who-supports-health-equity-policy-in-america/?utm_campaign=rss",
-      "summary": "Kennedy speaks at the Children's Health Defense, medical facilities under attack in Sudan, and more health news from Morning Rounds",
-      "ts": 1789733508000,
-      "publishedAt": "2026-09-18T12:11:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI’s extinction risk and bioweapons threat",
-      "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology…",
-      "ts": 1789733400000,
-      "publishedAt": "2026-09-18T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN Crime Congress: Technology is transforming crime – and the response to it",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168370",
-      "summary": "Sitting in her Vienna office ahead of a pivotal UN gathering in Abu Dhabi, Monica Juma is focused on a simple reality: crime has evolved faster than many of the institutions designed to combat it.",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
