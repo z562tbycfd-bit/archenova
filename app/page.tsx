@@ -270,7 +270,7 @@ export default function GatePage() {
         <header className="an-gate__header">
           <div className="an-gate__brand">
             <span className="an-gate__brand-mark">
-              A
+              ❂
             </span>
 
             <div className="an-gate__brand-copy">
