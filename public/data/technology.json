@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-09-21T10:27:49.205Z",
+  "updated": "2026-09-21T13:22:20.078Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Widely Attended Gatherings (WAGs) Determinations",
+      "url": "https://www.nasa.gov/organizations/nasa-ethics-advice-for-widely-attended-gatherings-wags/",
+      "summary": "2026 NAHF Enshrinement Ceremony 9.24.26.pdf An Evening with the Stars EWTS 9.16.26.pdf Maryland Space Business Roundtable 9.9.26 Virginia Aerospace Business Association (VASBA) Gala 9.24.26.pdf Roman Space Telescope Even…",
+      "ts": 1789995566000,
+      "publishedAt": "2026-09-21T12:59:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: investigating deaths at the US border’s “virtual wall”",
+      "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before the…",
+      "ts": 1789993200000,
+      "publishedAt": "2026-09-21T12:20:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "President Trump’s newest vaccine ‘demands’ repeat old misinformation",
+      "url": "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss",
+      "summary": "A day after health secretary Robert F. Kennedy Jr. promised that parents concerned about vaccines had a “friend” in the White House, President Trump said he’ll be “demanding” that drug…",
+      "ts": 1789992229000,
+      "publishedAt": "2026-09-21T12:03:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+      "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This …",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of peo…",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+      "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through th…",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "She died at the San Diego border. A surveillance camera was in plain sight",
+      "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+      "summary": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern C…",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Johnson Space Center Sparks Curiosity at Houston’s 33rd Annual Japan Festival  ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/johnson-space-center-sparks-curiosity-at-houstons-33rd-annual-japan-festival/",
+      "summary": "On Sept. 12-13, NASA’s Johnson Space Center employees brought the excitement and wonder of space exploration to Houston’s Japan Festival at Hermann Park. For more than 30 years, the festival has immersed guests in tradit…",
+      "ts": 1789989102000,
+      "publishedAt": "2026-09-21T11:11:42.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Alkermes’ orexin agonist shows potential to treat ADHD in early-stage trial",
+      "url": "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/?utm_campaign=rss",
+      "summary": "The drugmaker Alkermes said a therapy called an orexin agonist for the first time showed potential to treat people with ADHD in an early-stage study.",
+      "ts": 1789988400000,
+      "publishedAt": "2026-09-21T11:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "5 Companies Using NVIDIA AI for Clean Energy",
@@ -10,6 +91,15 @@
       "ts": 1789984835000,
       "publishedAt": "2026-09-21T10:00:35.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA brings public and private capital together to accelerate Europe’s space economy",
+      "url": "https://www.esa.int/About_Us/Business_with_ESA/ESA_brings_public_and_private_capital_together_to_accelerate_Europe_s_space_economy",
+      "summary": "Paris, 18 September 2026 – Access to appropriate finance is becoming a strategic enabler of Europe’s space ambitions. At ESA Headquarters in Paris, investors, financial institutions, industry leaders, European institutio…",
+      "ts": 1789984320000,
+      "publishedAt": "2026-09-21T09:52:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -82,6 +172,15 @@
       "ts": 1789979400000,
       "publishedAt": "2026-09-21T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 21 – Cocoon Nebula Wide Field",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-21-cocoon-nebula-wide-field/",
+      "summary": "APODScienceAPODAPOD: 2026 September 21 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
+      "ts": 1789963500000,
+      "publishedAt": "2026-09-21T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -312,7 +411,7 @@
       "source": "NASA",
       "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
-      "summary": "APOD Science APOD APOD: 2026 September 20 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "summary": "APODScienceAPODAPOD: 2026 September 20 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
       "ts": 1789877100000,
       "publishedAt": "2026-09-20T04:05:00.000Z",
       "categoryId": "space"
@@ -357,7 +456,7 @@
       "source": "NASA",
       "title": "APOD: 2026 September 19 – A Zodiacal Night",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
-      "summary": "APOD Science APOD APOD: 2026 September 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "summary": "APODScienceAPODAPOD: 2026 September 19 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
       "ts": 1789790700000,
       "publishedAt": "2026-09-19T04:05:00.000Z",
       "categoryId": "space"
@@ -445,7 +544,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+:  In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan",
+      "title": "STAT+: In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan",
       "url": "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss",
       "summary": "Several Texas hospitals are suing an out-of-state Blue Cross for unpaid medical claims, highlighting the varying standards for whether care is medically necessary.",
       "ts": 1789749713000,
@@ -711,105 +810,6 @@
       "summary": "James Deardorff, a geriatrician at UCSF, talks about the benefits and pitfalls of using AI to make care decisions for older adults.",
       "ts": 1789720200000,
       "publishedAt": "2026-09-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Brunei Darussalam Signs its Second Country Programme Framework (CPF) for 2025-2031",
-      "url": "http://www.iaea.org/newscenter/news/brunei-darussalam-signs-its-second-country-programme-framework-cpf-for-2025-2031",
-      "summary": "Ms Hajah Farida Dato Seri Paduka Hajib Talib, Permanent Secretary of Energy, and Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, signed Brunei Darussalam’s Country Programme …",
-      "ts": 1789719100000,
-      "publishedAt": "2026-09-18T08:11:40.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "ESA",
-      "title": "A galaxy spinning out of sync",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/A_galaxy_spinning_out_of_sync",
-      "summary": "Image: Though the spiral galaxy in this new image by the NASA/ESA Hubble Space Telescope seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellatio…",
-      "ts": 1789718400000,
-      "publishedAt": "2026-09-18T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Laguna Colorada",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Laguna_Colorada",
-      "summary": "Image: This Copernicus Sentinel-2 image, acquired on 25 August 2026, shows an area of the Andean Altiplano in southern Bolivia near the border with Chile.",
-      "ts": 1789718400000,
-      "publishedAt": "2026-09-18T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy/",
-      "summary": "APOD Science APOD APOD: 2026 September 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1789704300000,
-      "publishedAt": "2026-09-18T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "New Members Elected to the IAEA Board of Governors",
-      "url": "http://www.iaea.org/newscenter/news/GC70-new-members-elected-to-the-iaea-board-of-governors",
-      "summary": "",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Flash-Radiomics: A Scalable Hybrid CPU-CUDA Engine for Standardized Scalar Radiomics and Accelerated Spatial Mapping",
-      "url": "https://arxiv.org/abs/2609.19190",
-      "summary": "arXiv:2609.19190v1 Announce Type: new Abstract: Background and Objectives: Spatial mapping retains the spatial distribution of radiomic features, but computational cost and fragmented software limit its use. We developed…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Combined ODE Model of Carbohydrate Fermentation and Colorectal Cancer",
-      "url": "https://arxiv.org/abs/2609.19371",
-      "summary": "arXiv:2609.19371v1 Announce Type: new Abstract: We formulate and analyze a system of non-linear ordinary differential equations that describe key metabolic and immunological interactions between butyrate produced by fibe…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Self-Replicating Neural Cellular Automata: Quantifying Emergent Phenotypic and Genotypic Diversity in an OpenEnded Substrate",
-      "url": "https://arxiv.org/abs/2609.19902",
-      "summary": "arXiv:2609.19902v1 Announce Type: new Abstract: We study an in-silico substrate in which every pixel of a two-channel cellular-automata grid carries a tiny neural network (an agent) that senses its Moore neighborhood. A …",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Mathematical Model of Motivated Emotional Mind - Cognitive Embodied System",
-      "url": "https://arxiv.org/abs/2609.20437",
-      "summary": "arXiv:2609.20437v1 Announce Type: new Abstract: This article presents a mathematical model of the Motivated Emotional Mind cognitive architecture developed for embodied intelligent systems. Such a system learns to mainta…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "When AI Generates Covariates: Causal Typing and Estimand Drift in Sequential Experiments",
-      "url": "https://arxiv.org/abs/2609.17772",
-      "summary": "arXiv:2609.17772v1 Announce Type: cross Abstract: AI-generated covariates from notes, conversations, images, and wearable streams can change the causal question when their roles are left unspecified. A generated feature …",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
-      "url": "https://arxiv.org/abs/2609.19180",
-      "summary": "arXiv:2609.19180v1 Announce Type: cross Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed …",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],

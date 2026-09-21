@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-09-21T10:27:47.470Z",
+  "updated": "2026-09-21T13:22:09.909Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Flies, mice and humans share a walking pattern despite radically different bodies",
+      "url": "https://phys.org/news/2026-09-flies-mice-humans-pattern-radically.html",
+      "summary": "Flies, mice and humans move in different ways because of their very different physiques, but their movements follow a common pattern— joints farther from the center of the body move faster than those closer to the body. …",
+      "ts": 1789996810000,
+      "publishedAt": "2026-09-21T13:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nepal could show the world how to recover sustainably from a major disaster",
+      "url": "https://phys.org/news/2026-09-nepal-world-recover-sustainably-major.html",
+      "summary": "With chances of further sensational hydropower tunnel rescues dimming, the devastating ice-rock avalanche in August at the Nepal-Tibet border and catastrophic floods downstream are no longer making global headlines.",
+      "ts": 1789996804000,
+      "publishedAt": "2026-09-21T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny molecular scissors reveal how crystals bend without breaking",
+      "url": "https://phys.org/news/2026-09-tiny-molecular-scissors-reveal-crystals.html",
+      "summary": "Crystals are usually thought of as rigid and brittle. Yet some molecular crystals can bend, jump, twist or even change shape when exposed to light. Understanding how tiny molecular movements inside an ordered crystal can…",
+      "ts": 1789995608000,
+      "publishedAt": "2026-09-21T13:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to tackle persistent drought: Lessons from British Columbia",
+      "url": "https://phys.org/news/2026-09-tackle-persistent-drought-lessons-british.html",
+      "summary": "British Columbia has endured another extreme drought, with damaging impacts across the province, including a watershed emergency declared by the Syilx Okanagan Nation, 70% water-use reductions for agricultural producers …",
+      "ts": 1789995604000,
+      "publishedAt": "2026-09-21T13:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "African smoke brightens clouds, but weather patterns offset its cooling effect",
+      "url": "https://phys.org/news/2026-09-african-brightens-clouds-weather-patterns.html",
+      "summary": "Smoke from African agricultural fires brightens clouds over the southeast Atlantic—but new research from scientists at the University of Miami Rosenstiel School of Marine, Atmospheric and Earth Science shows that the sam…",
+      "ts": 1789994404000,
+      "publishedAt": "2026-09-21T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "School holidays are coming. Here's how families can keep some sort of routine",
+      "url": "https://phys.org/news/2026-09-school-holidays-families-routine.html",
+      "summary": "School holidays mean more free time and less structure.",
+      "ts": 1789994401000,
+      "publishedAt": "2026-09-21T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parental gambling linked to poorer health and educational outcomes for Australian children",
+      "url": "https://phys.org/news/2026-09-parental-gambling-linked-poorer-health.html",
+      "summary": "New Australian research has found that risky parental gambling is associated with poorer physical health, mental health and educational outcomes among children, highlighting the need to recognize gambling harm as a child…",
+      "ts": 1789993201000,
+      "publishedAt": "2026-09-21T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nasal spray for humans may help dogs during surgery",
+      "url": "https://phys.org/news/2026-09-nasal-spray-humans-dogs-surgery.html",
+      "summary": "Dr. Jun-Yan Sek, a small-animal surgical registrar at JCUVet, lecturer at James Cook University and JCU veterinary alumnus, led a study investigating the use of xylometazoline hydrochloride during surgery.",
+      "ts": 1789992004000,
+      "publishedAt": "2026-09-21T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Administrative assistance and advocacy help Mumbai communities get essential services",
+      "url": "https://phys.org/news/2026-09-administrative-advocacy-mumbai-communities-essential.html",
+      "summary": "Access to clean drinking water is a basic human need, yet many residents struggle to obtain it. In Mumbai, India, one of the world's largest and most populous cities, hundreds of informal settlements housing millions of …",
+      "ts": 1789990803000,
+      "publishedAt": "2026-09-21T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What's keeping schoolchildren from eating local foods?",
+      "url": "https://phys.org/news/2026-09-schoolchildren-local-foods.html",
+      "summary": "To get locally grown food onto a schoolchild's lunch tray, communities need supply chains that sort, process and package local farm products. They don't always exist.",
+      "ts": 1789989604000,
+      "publishedAt": "2026-09-21T11:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shoppers know fast fashion harms the environment but keep buying",
+      "url": "https://phys.org/news/2026-09-shoppers-fast-fashion-environment-buying.html",
+      "summary": "New RMIT University research suggests environmental awareness alone may not stop people from buying ultra-fast fashion, with price and convenience trumping sustainability concerns for shoppers.",
+      "ts": 1789988401000,
+      "publishedAt": "2026-09-21T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Photonic Legos of functional 3D thin-films unlock high-performance heterogeneous photonic integration",
+      "url": "https://phys.org/news/2026-09-photonic-legos-functional-3d-thin.html",
+      "summary": "Photonic integrated circuits route information with optical signals instead of relying only on electrical currents. Silicon (Si) and silicon nitride (SiNx) are excellent photonic platforms for waveguides, but they cannot…",
+      "ts": 1789987201000,
+      "publishedAt": "2026-09-21T10:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Genes that help flatworms regenerate their brains revealed",
@@ -703,102 +799,6 @@
       "title": "An analysis of the turbulence in the central region of the Orion Nebula (M42) -- II. homogeneity and power-spectrum analyses",
       "url": "https://arxiv.org/abs/2304.14696",
       "summary": "arXiv:2304.14696v7 Announce Type: cross Abstract: In this second communication we continue our analysis of the turbulence in the Huygens Region of the Orion Nebula (M 42). We calculate the associated transverse structure…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analog Gravity in Magneto-Viscous Fluids: Enhanced Analog Hawking Temperature in Accretion Disks",
-      "url": "https://arxiv.org/abs/2609.16135",
-      "summary": "arXiv:2609.16135v1 Announce Type: cross Abstract: We present a three-dimensional visco-magnetoacoustic framework for analog gravity in magnetohydrodynamic (MHD) flows. While standard fluid dissipation typically breaks th…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bend Contour Electron Tomography (BCET): Quantitative strain and topography mapping",
-      "url": "https://arxiv.org/abs/2609.21041",
-      "summary": "arXiv:2609.21041v1 Announce Type: cross Abstract: Freestanding thin films of quantum materials naturally develop sub-micrometer, nonuniform strain fields that strongly affect their electronic, magnetic, and structural pr…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy Partition in Relativistic Electron-Positron-Ion Reconnection",
-      "url": "https://arxiv.org/abs/2609.21118",
-      "summary": "arXiv:2609.21118v1 Announce Type: cross Abstract: Relativistic magnetic reconnection, a prime mechanism for particle acceleration, has been extensively studied in electron--ion and pair plasmas, but how the dissipated en…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calibration electronics for the 30 and 40 GHz instrument (TFGI) of the QUIJOTE experiment",
-      "url": "https://arxiv.org/abs/2609.21127",
-      "summary": "arXiv:2609.21127v1 Announce Type: cross Abstract: The 30 and 40 GHz instruments of the QUIJOTE radio astronomy experiment use very sensitive receivers which need to be characterized both to ensure their proper functionin…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A variational model of nonlinear poroelasticity",
-      "url": "https://arxiv.org/abs/2609.21294",
-      "summary": "arXiv:2609.21294v1 Announce Type: cross Abstract: We derive a thermodynamically-consistent model of fluid flow through a poroelastic medium. Starting from elastic and fluid free-energy densities, an energy-dissipation ra…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a Temperature-Variable Cold Blackbody Calibrator for Millimeter and Submillimeter Wave Detectors",
-      "url": "https://arxiv.org/abs/2609.21473",
-      "summary": "arXiv:2609.21473v1 Announce Type: cross Abstract: We report the design, fabrication, and characterization of a cryogenic blackbody calibrator intended for laboratory-based detector characterization, providing multi-tempe…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rydberg excitons in core-shell nanostructures I. Optical properties",
-      "url": "https://arxiv.org/abs/2609.21488",
-      "summary": "arXiv:2609.21488v1 Announce Type: cross Abstract: Optical properties of Cu$_2$O-metal core-shell nanostructures containing Rydberg excitons are examined. Calculations of electron and hole eigenfunctions and eigenenergies…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single Best Fits Can Be Misleading: Resolving Common Trapping Signatures across FA--Cs Perovskites",
-      "url": "https://arxiv.org/abs/2609.21545",
-      "summary": "arXiv:2609.21545v1 Announce Type: cross Abstract: Identifying defects responsible for non-radiative recombination in metal-halide perovskites remains challenging, with no common defect signatures established across compo…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adsorption of Phosgene Gas on Pristine and Noble Metal-Doped B12N12 Nanocages: Insights from Density Functional Theory",
-      "url": "https://arxiv.org/abs/2609.21678",
-      "summary": "arXiv:2609.21678v1 Announce Type: cross Abstract: This study examines phosgene (COCl2) adsorption on pristine and noble metal-doped (Ag, Au, Pd, Pt) B12N12 nanocages using dispersion-corrected density functional theory […",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian classification of astronomical spectra with class uncertainties",
-      "url": "https://arxiv.org/abs/2609.21694",
-      "summary": "arXiv:2609.21694v1 Announce Type: cross Abstract: Context: We developed a probabilistic machine learning method with the aim of performing the O(10)-way classification of low- and high-resolution spectra of stellar and e…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Dzyaloshinski-Moriya interaction dictates pairing in unconventional superconductor families",
-      "url": "https://arxiv.org/abs/2609.21731",
-      "summary": "arXiv:2609.21731v1 Announce Type: cross Abstract: The collinear-antiferromagnetic spin-fluctuation paradigm has long guided unconventional superconductivity research, yet fails to reconcile the noncollinear spin phenomen…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Complete Neural Electronic Initialization Accelerates Materials DFT",
-      "url": "https://arxiv.org/abs/2609.21759",
-      "summary": "arXiv:2609.21759v1 Announce Type: cross Abstract: We present the first complete machine learning method for accelerating plane-wave density functional theory (DFT) in materials under the projector augmented wave (PAW) fo…",
       "ts": 1789963200000,
       "publishedAt": "2026-09-21T04:00:00.000Z"
     }

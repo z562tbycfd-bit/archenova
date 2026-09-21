@@ -52487,3 +52487,74 @@ section#civilization-space[data-home-section] {
 
 
 
+/* ==========================================================
+   ARCHENOVA CURRENT STATE
+   HOME OWNS THE ONLY GLASS SURFACE
+========================================================== */
+
+.archenova-twin-home
+#archenova-current-state-section {
+  position: relative !important;
+  isolation: isolate !important;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    ) !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px) saturate(106%)
+    !important;
+
+  backdrop-filter:
+    blur(22px) saturate(106%)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+}
+
+.archenova-twin-home
+#archenova-current-state-section
+.ancs__surface {
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+  .archenova-twin-home
+  #archenova-current-state-section {
+    border-radius: 26px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .archenova-twin-home
+  #archenova-current-state-section {
+    border-radius: 22px !important;
+  }
+}

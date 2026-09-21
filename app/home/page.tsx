@@ -27,6 +27,8 @@ import ArcheNovaAetherionPortal
  import FounderDigitalTwinPortal
   from "../components/founder-digital-twin/FounderDigitalTwinPortal";
 
+  import ArcheNovaCurrentState from
+  "@/app/components/ArcheNovaCurrentState";
 
 /* ==========================================================
    HOME
@@ -115,6 +117,22 @@ export default function Home() {
   >
     <FounderDigitalTwinPortal />
     </section>
+
+{/* ==================================================
+    00 / ARCHENOVA CURRENT STATE
+    The current state of ArcheNova.
+    ================================================== */}
+
+    <section
+  id="archenova-current-state"
+  data-home-section
+  className="home-page twin-page archenova-current-state-page"
+  > 
+    <ArcheNovaCurrentState />
+
+    </section>
+
+
 
 
       {/* ==================================================
