@@ -1,7 +1,191 @@
 {
   "ok": true,
-  "updated": "2026-09-21T13:22:09.909Z",
+  "updated": "2026-09-21T16:50:21.350Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nuclear-spin swap extends room-temperature entanglement lifetime up to 240-fold",
+      "url": "https://phys.org/news/2026-09-nuclear-swap-room-temperature-entanglement.html",
+      "summary": "Researchers in China have extended the lifetime of entanglement in a room-temperature, solid-state system by up to a factor of 240. Led by Shuo Ren and Rui-Jian Liang at the University of Science and Technology of China …",
+      "ts": 1790008808000,
+      "publishedAt": "2026-09-21T16:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New tool helps responders identify highest-risk areas for post-hurricane rescue efforts",
+      "url": "https://phys.org/news/2026-09-tool-highest-areas-hurricane-efforts.html",
+      "summary": "Researchers have developed a mathematical model to predict which neighborhoods should be prioritized for search and rescue operations in the wake of a hurricane, with the goal of expediting recovery operations by the Coa…",
+      "ts": 1790008806000,
+      "publishedAt": "2026-09-21T16:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A mushroom-powered boost for soybean byproducts",
+      "url": "https://phys.org/news/2026-09-mushroom-powered-boost-soybean-byproducts.html",
+      "summary": "Scientists from Nanyang Technological University, Singapore (NTU Singapore) have demonstrated in a lab-scale study a fermentation method that could transform okara, a nutrient-rich soybean byproduct from tofu and soymilk…",
+      "ts": 1790007609000,
+      "publishedAt": "2026-09-21T16:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Superdense neutron star caught feeding on a blue hypergiant's stellar wind",
+      "url": "https://phys.org/news/2026-09-superdense-neutron-star-caught-blue.html",
+      "summary": "Using data from the Japan–led XRISM (X-ray Imaging and Spectroscopy Mission) observatory, astronomers have directly observed a giant star's outflow, called a stellar wind, being captured by its compact companion and prov…",
+      "ts": 1790007601000,
+      "publishedAt": "2026-09-21T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Family interactions can help young beetles cope with climate stress, study finds",
+      "url": "https://phys.org/news/2026-09-family-interactions-young-beetles-cope.html",
+      "summary": "Climate change is one of the most complex challenges of our time and places considerable strain on a wide range of animal groups. A research team at the University of Bayreuth has used burying beetles to investigate the …",
+      "ts": 1790006403000,
+      "publishedAt": "2026-09-21T16:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum communication protocol enables three users to establish a shared secure key",
+      "url": "https://phys.org/news/2026-09-quantum-communication-protocol-enables-users.html",
+      "summary": "Quantum key distribution allows two users to establish secret keys whose security is grounded in the laws of quantum mechanics. Extending this capability to multiple users is an essential step toward quantum networks tha…",
+      "ts": 1790006401000,
+      "publishedAt": "2026-09-21T16:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "First radio waves seen from an exoplanet hint at otherworldly auroras",
+      "url": "https://www.sciencenews.org/article/exoplanet-aurora-radio-waves",
+      "summary": "The gas giant Beta Pictoris b, about 63 light-years away, has the mass of 10 Jupiters and a magnetic field thousands of times as strong as Earth’s.",
+      "ts": 1790006400000,
+      "publishedAt": "2026-09-21T16:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New review outlines a governance roadmap for Europe's growing flood risks",
+      "url": "https://phys.org/news/2026-09-outlines-roadmap-europe.html",
+      "summary": "In 2024 alone, flood-related disasters around the world caused more than 8,700 deaths and economic losses exceeding 450 billion euros, with cumulative global losses of about 2.7 trillion euros over the previous decade. A…",
+      "ts": 1790005204000,
+      "publishedAt": "2026-09-21T15:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does Tutankhamen's tomb hold his stepmother Queen Nefertiti's remains? New study offers tantalizing clues",
+      "url": "https://phys.org/news/2026-09-tutankhamen-tomb-stepmother-queen-nefertiti.html",
+      "summary": "When Tutankhamun's tomb was discovered over a century ago, it became an immediate worldwide sensation, revealing a wealth of treasures from ancient Egypt. In the decades that followed, the tomb was meticulously cleared, …",
+      "ts": 1790005202000,
+      "publishedAt": "2026-09-21T15:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists teleport quantum states across 100 parallel optical channels",
+      "url": "https://phys.org/news/2026-09-scientists-teleport-quantum-states-parallel.html",
+      "summary": "Quantum communication networks consist of several connected nodes that exchange information encoded in quantum states. These networks could potentially enable more secure communications between quantum devices in differe…",
+      "ts": 1790004006000,
+      "publishedAt": "2026-09-21T15:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI is distorting archaeology and flattening Indigenous knowledge",
+      "url": "https://phys.org/news/2026-09-ai-distorting-archaeology-flattening-indigenous.html",
+      "summary": "If you search Google Images for \"cultural heritage Australia,\" near the top of the results is a photograph of giant carved stone heads rising from a red desert.",
+      "ts": 1790004003000,
+      "publishedAt": "2026-09-21T15:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Tiny spores for a big critical minerals challenge",
+      "url": "https://phys.org/news/2026-09-qa-tiny-spores-big-critical.html",
+      "summary": "Scientists at the Department of Energy's (DOE) Oak Ridge National Laboratory (ORNL) are exploring how durable, customizable bacterial spores could capture rare earth elements (REE) from acid mine drainage and other metal…",
+      "ts": 1790002806000,
+      "publishedAt": "2026-09-21T15:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 'rebellious' exoplanet orbits in the opposite direction of its star",
+      "url": "https://phys.org/news/2026-09-rebellious-exoplanet-orbits-star.html",
+      "summary": "A star and its planets form when a cloud of gas and dust collapses in on itself somewhere in space. The cloud then forms a disk around the nascent star, within which the planets will form. This protostar and its disk the…",
+      "ts": 1790002801000,
+      "publishedAt": "2026-09-21T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "End of humanity? Blow‑by‑blow account of what would happen if the Yellowstone supervolcano erupted now",
+      "url": "https://phys.org/news/2026-09-humanity-blowbyblow-account-yellowstone-supervolcano.html",
+      "summary": "Around 631,000 years ago—a geological blink of an eye—catastrophe unfolded in what is now northwestern Wyoming, U.S. During what is thought to have been a series of immense volcanic eruptions, life within hundreds of kil…",
+      "ts": 1790001606000,
+      "publishedAt": "2026-09-21T14:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Teenage girls may know how to prevent pregnancy—that doesn't mean they have the power to do it",
+      "url": "https://phys.org/news/2026-09-teenage-girls-pregnancy-doesnt-power.html",
+      "summary": "Teenage pregnancy is often explained in simple terms. Girls are said to lack knowledge about contraception, take sexual risks or make poor choices.",
+      "ts": 1790001601000,
+      "publishedAt": "2026-09-21T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Living with chronic pain at work: Supportive managers can help, but they can't solve everything",
+      "url": "https://phys.org/news/2026-09-chronic-pain.html",
+      "summary": "\"I don't want the pain to define me. I want me to define me.\"",
+      "ts": 1790000407000,
+      "publishedAt": "2026-09-21T14:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Environmental science takes an average of seven years to influence international policy, study finds",
+      "url": "https://phys.org/news/2026-09-environmental-science-average-years-international.html",
+      "summary": "A new study led by the University of Alicante (UA) and the Mediterranean Center for Environmental Studies (CEAM) analyzes the barriers separating scientific knowledge from environmental policy and its effective implement…",
+      "ts": 1790000403000,
+      "publishedAt": "2026-09-21T14:20:03.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
+      "url": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
+      "summary": "Half of our genome is made of transposons — snips of DNA that can move and copy themselves. But they’re more than parasites or genetic junk. The post How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution first …",
+      "ts": 1789999956000,
+      "publishedAt": "2026-09-21T14:12:36.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Planetary Health Check 2026 finds mounting pressures across Earth's life support systems",
+      "url": "https://phys.org/news/2026-09-planetary-health-mounting-pressures-earth.html",
+      "summary": "Seven breached Planetary Boundaries continue to worsen as record ocean heat, droughts, floods, wildfires and extreme heat reveal an Earth system under strain, according to the latest Planetary Health Check. The annual up…",
+      "ts": 1789999208000,
+      "publishedAt": "2026-09-21T14:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Red Planet has a purple side",
+      "url": "https://phys.org/news/2026-09-red-planet-purple-side.html",
+      "summary": "Oxidized iron dominates the Martian color palette. The dusty reds, ochers, browns and tans give the planet its nickname: the Red Planet. But new images of Mars' south polar region show something different. Swirls of pink…",
+      "ts": 1789999203000,
+      "publishedAt": "2026-09-21T14:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "MRIs show brain changes linked to Alzheimer’s years in advance",
+      "url": "https://www.sciencenews.org/article/mri-brain-change-alzheimers-disease",
+      "summary": "A thickening cortex, as shown in MRIs, preceded amyloid-beta accumulation, a known hallmark of Alzheimer’s disease, by up to seven years.",
+      "ts": 1789999200000,
+      "publishedAt": "2026-09-21T14:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "X-ray light is like guitar music, with frequencies sliding continuously between harmonics",
+      "url": "https://phys.org/news/2026-09-ray-guitar-music-frequencies-harmonics.html",
+      "summary": "Ultrashort laser pulses can be used to generate X-rays. Normally, however, only certain specific frequencies are produced. A team from TU Wien and the University of California San Diego has developed a method that makes …",
+      "ts": 1789998008000,
+      "publishedAt": "2026-09-21T13:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers measure the environment where the first supermassive black holes formed",
+      "url": "https://phys.org/news/2026-09-environment-supermassive-black-holes.html",
+      "summary": "When the James Webb Space Telescope pointed its powerful instruments toward the early universe, scientists were surprised by what it found. At high-redshift (z) values, corresponding to less than 1 billion years after th…",
+      "ts": 1789998001000,
+      "publishedAt": "2026-09-21T13:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Flies, mice and humans share a walking pattern despite radically different bodies",
@@ -615,190 +799,6 @@
       "title": "A multi-scale approach for wall-bounded WCSPH--RANS simulations",
       "url": "https://arxiv.org/abs/2609.21736",
       "summary": "arXiv:2609.21736v1 Announce Type: new Abstract: Achieving sufficient near-wall resolution remains challenging for wall-bounded turbulence simulations using weakly compressible smoothed particle hydrodynamics (WCSPH), as …",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dirac Cones in d-wave Altermagnets Enable High-Conductivity and High-Efficiency Spin Sources",
-      "url": "https://arxiv.org/abs/2609.21766",
-      "summary": "arXiv:2609.21766v1 Announce Type: new Abstract: Low critical charge-current density and low energy dissipation are highly desired in magnetic random-access memories, requiring spin sources to exhibit both high charge-to-…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When Integrated Photonics Should Be Wavy",
-      "url": "https://arxiv.org/abs/2609.21781",
-      "summary": "arXiv:2609.21781v1 Announce Type: new Abstract: Increasing demand for high-performance optical devices drives the search for improved fabrication and design paradigms. While photonic circuits have traditionally used stru…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of Physical Height Differences from Time Transfer via the ACES Mission -- A Simulation Study",
-      "url": "https://arxiv.org/abs/2609.21786",
-      "summary": "arXiv:2609.21786v1 Announce Type: new Abstract: The determination of physical height differences using highly stable atomic clocks has emerged as a novel approach in relativistic geodesy, exploiting the gravitational red…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An improved periodic activation for PINNs reconstructing convective flows",
-      "url": "https://arxiv.org/abs/2609.21798",
-      "summary": "arXiv:2609.21798v1 Announce Type: new Abstract: Architectures with periodic activation functions have already been shown to be beneficial in comparison to monotonic counterparts for a wide range of applications of physic…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "\"I don't have a good metric for what other people think:\" Unpacking the double empathy problem in neurodivergent physics problem-solving",
-      "url": "https://arxiv.org/abs/2609.21809",
-      "summary": "arXiv:2609.21809v1 Announce Type: new Abstract: Learning is a social act and requires communication between interlocutors. It is a process that takes place in a socially constructed neurotypical-normative system. These n…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Performance of Capacitively Loaded RF Electrodes on SiO2/Si Substrates for High-Speed Electro-Optic Modulators",
-      "url": "https://arxiv.org/abs/2609.21830",
-      "summary": "arXiv:2609.21830v1 Announce Type: new Abstract: We experimentally investigate conventional and capacitively loaded traveling-wave RF electrodes fabricated on thermally grown SiO$_2$ on high-resistivity silicon substrates…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Deep Neural Network based Level-1 Trigger for the Magnetic Monopole Search in the SCEP Experiment",
-      "url": "https://arxiv.org/abs/2609.21837",
-      "summary": "arXiv:2609.21837v1 Announce Type: new Abstract: The Search for Cosmic Exotic Particles (SCEP) experiment proposes a multilayer magnetic monopole (MM) detection array with a target exposure of O(10^4) m^2 year. Continuous…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Proof-of-Concept and User Perspective on Photon-to-Digital Converter Applications in Particle Physics",
-      "url": "https://arxiv.org/abs/2609.21864",
-      "summary": "arXiv:2609.21864v1 Announce Type: new Abstract: Photon-to-Digital Converters (PDCs) are photosensors with single photon resolution and large dynamic range that digitise the output of individual single-photon avalanche di…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Orbital-Free Surrogate Functionals Yield Transferable Interatomic Potentials and Electron Densities",
-      "url": "https://arxiv.org/abs/2609.21882",
-      "summary": "arXiv:2609.21882v1 Announce Type: new Abstract: Orbital-free density functional theory seeks to compute the energy of an electronic system directly from its electron density, avoiding one-electron wave functions and ther…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantized Transport of Gap Solitons in the Harper-Hofstadter Model",
-      "url": "https://arxiv.org/abs/2609.21917",
-      "summary": "arXiv:2609.21917v1 Announce Type: new Abstract: We investigate the dynamics of gap solitons found in the Harper-Hofstadter model with an additional cubic nonlinearity, such as that describing weakly-interacting cold atom…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "fix uvt and fix pimd/uvt: A Unified LAMMPS Framework for Constant-Potential Constant-Temperature Molecular Dynamics",
-      "url": "https://arxiv.org/abs/2609.21935",
-      "summary": "arXiv:2609.21935v1 Announce Type: new Abstract: Accurate simulations of electrochemical interfaces require the simultaneous treatment of constant-potential conditions, nuclear quantum effects, and sufficient configuratio…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Azimuthal mode decomposition Particle in Cell algorithm for cylindrical plasma sources",
-      "url": "https://arxiv.org/abs/2609.21951",
-      "summary": "arXiv:2609.21951v1 Announce Type: new Abstract: An efficient Particle-in-Cell numerical approach to perform full-dimensional kinetic simulations of low temperature plasmas is presented. Taking advantage of the cylindrica…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Momentum microscopy of a holey nanostructure",
-      "url": "https://arxiv.org/abs/2609.21958",
-      "summary": "arXiv:2609.21958v1 Announce Type: new Abstract: Momentum microscopy records the three-dimensional momentum distribution of photoelectrons emitted from a solid sample and, by utilizing sufficiently high photon energies in…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a Non-Empirical Exchange-Hole Dipole Moment Dispersion Model",
-      "url": "https://arxiv.org/abs/2609.21971",
-      "summary": "arXiv:2609.21971v1 Announce Type: new Abstract: The inclusion of dispersion effects is important in density-functional theory (DFT) to model non-covalent interactions correctly, a task that is essential in many applicati…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-Optical Control over Nonlocality for Ultrafast Image Processing with an Excitonic Metasurface",
-      "url": "https://arxiv.org/abs/2609.22006",
-      "summary": "arXiv:2609.22006v1 Announce Type: new Abstract: Image processing lies at the foundation of many modern technologies, such as augmented reality and autonomous driving, yet conventional digital approaches remain energy-int…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Mode Sorting with a Programmable Diffractive Neural Network",
-      "url": "https://arxiv.org/abs/2609.22015",
-      "summary": "arXiv:2609.22015v1 Announce Type: new Abstract: Programmable diffractive optical processors are particularly attractive for spatial light manipulation because their optical transformations can be dynamically reconfigured…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ReaxKit: A Modular Python Toolkit for Preparing, Parsing, and Analyzing ReaxFF Molecular Dynamics Simulations",
-      "url": "https://arxiv.org/abs/2609.22019",
-      "summary": "arXiv:2609.22019v1 Announce Type: new Abstract: Empirical reactive force field (RFF) molecular dynamics enables atomistic simulation of bond breaking, bond formation, charge redistribution, and structural evolution in ch…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "cboamd: A Machine Learning Molecular Dynamics Framework for Vibrational Strong Coupling",
-      "url": "https://arxiv.org/abs/2609.22022",
-      "summary": "arXiv:2609.22022v1 Announce Type: new Abstract: Under vibrational strong coupling (VSC), molecular vibrations hybridize with an optical cavity mode to form polaritons, offering a route to modify chemical and material pro…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moderator Modeling for High Intensity Slow Positron Sources",
-      "url": "https://arxiv.org/abs/2609.22036",
-      "summary": "arXiv:2609.22036v1 Announce Type: new Abstract: Slow positron beams enable diverse applications, from surface-sensitive materials studies to positronium physics, but progress is limited by source intensity and brightness…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the X-ray emission from massive star clusters and their evolving superbubbles II. Detailed analytics and observational effects",
-      "url": "https://arxiv.org/abs/0903.1678",
-      "summary": "arXiv:0903.1678v1 Announce Type: cross Abstract: In this work, we present a comprehensive X-ray picture of the interaction between a super star cluster and the ISM. In order to do that, we compare and combine the X-ray e…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gravitational and mass distribution effects on stationary superwinds",
-      "url": "https://arxiv.org/abs/1608.01266",
-      "summary": "arXiv:1608.01266v1 Announce Type: cross Abstract: Here, we model the effect of non-uniform dynamical mass distributions and their associated gravitational fields on the stationary galactic superwind solution. We do this …",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An analysis of the turbulence in the central region of M 42 through structure functions",
-      "url": "https://arxiv.org/abs/1812.01781",
-      "summary": "arXiv:1812.01781v1 Announce Type: cross Abstract: Here, we analyse the character of the turbulence of the Huygens Region in the Orion Nebula (M 42) using structure functions. We compute the second order structure functio…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An analysis of the turbulence in the central region of the Orion Nebula (M42) -- II. homogeneity and power-spectrum analyses",
-      "url": "https://arxiv.org/abs/2304.14696",
-      "summary": "arXiv:2304.14696v7 Announce Type: cross Abstract: In this second communication we continue our analysis of the turbulence in the Huygens Region of the Orion Nebula (M 42). We calculate the associated transverse structure…",
       "ts": 1789963200000,
       "publishedAt": "2026-09-21T04:00:00.000Z"
     }

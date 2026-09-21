@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-09-21T13:22:20.078Z",
+  "updated": "2026-09-21T16:50:24.668Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million ind…",
+      "ts": 1790006446000,
+      "publishedAt": "2026-09-21T16:00:46.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — build…",
+      "ts": 1790006410000,
+      "publishedAt": "2026-09-21T16:00:10.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Precure Selects Helix as Multiomics Lab and AI Tools Provider",
+      "url": "https://www.genengnews.com/topics/omics/precure-selects-helix-as-multiomics-lab-and-ai-tools-provider/",
+      "summary": "Mayo Clinic recently launched Precure with founding partner Thermo Fisher Scientific to help transform how the life sciences community understands the biological changes that occur as disease develops before symptoms occ…",
+      "ts": 1790003392000,
+      "publishedAt": "2026-09-21T15:09:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lilly’s breast cancer combo wins approval",
+      "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
+      "summary": "The FDA just approved a new combination drug treatment for patients with an advanced form of breast cancer.",
+      "ts": 1790003318000,
+      "publishedAt": "2026-09-21T15:08:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation (CSF) Welcomes Two New Members",
+      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-members/",
+      "summary": "September 21, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome ORBITInsure and Renaissance Strategic Advisors (RSA) as its newest members. ORBITInsure joins CSF as a Space Supply […] The…",
+      "ts": 1790002800000,
+      "publishedAt": "2026-09-21T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Andelyn Curator Biomanufacturing Platform Supports Fayuvi Gene Therapy Approval",
+      "url": "https://www.genengnews.com/topics/omics/andelyn-curator-biomanufacturing-platform-supports-fayuvi-gene-therapy-approval/",
+      "summary": "Sanfilippo syndrome type A (MPS IIIA) is a rare, fatal lysosomal storage disease that primarily affects the central nervous system and is marked by rapid neurodegeneration beginning in early childhood. The post Andelyn C…",
+      "ts": 1790002532000,
+      "publishedAt": "2026-09-21T14:55:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security en…",
+      "ts": 1790002294000,
+      "publishedAt": "2026-09-21T14:51:34.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Juice to fly past Earth for third gravity assist",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
+      "summary": "The European Space Agency’s Jupiter Icy Moons Explorer (Juice) will return to Earth on 28 September, with flight controllers guiding the spacecraft close to our home planet to alter its speed and direction en route to Ju…",
+      "ts": 1789999200000,
+      "publishedAt": "2026-09-21T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Novo plans to expand its pipeline, early Alkermes ADHD data, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss",
+      "summary": "Novo Nodisk outlined plans to expand its pipeline and find new products that it could sell more like consumer goods than traditional medicines",
+      "ts": 1789997467000,
+      "publishedAt": "2026-09-21T13:31:07.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Widely Attended Gatherings (WAGs) Determinations",
@@ -64,6 +145,33 @@
       "ts": 1789992000000,
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Why climate action now comes down to speed, finance and cooperation",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168382",
+      "summary": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance …",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola vaccine trial begins in DR Congo",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168381",
+      "summary": "An Ebola vaccine trial is underway in the Democratic Republic of the Congo (DRC), involving frontline health workers and others involved in the response.",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN panel calls for stronger safeguards as AI agents advance",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168380",
+      "summary": "The world's first scientific body on Artificial Intelligence called on Monday for AI safeguards to be adapted as current firewalls are “unravelling”.",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "NASA",
@@ -390,6 +498,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "Week in Review: IAEA 70th General Conference",
+      "url": "http://www.iaea.org/newscenter/news/week-in-review-iaea-70th-general-conference",
+      "summary": "The 70th annual IAEA General Conference came to a close on Friday last week, following five days of discussions, events and activities related to a range of nuclear topics.",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "ts": 1789948800000,
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection",
       "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
@@ -564,7 +690,7 @@
       "source": "Genetic Engineering News",
       "title": "Two-Organ View of the Human Brain Emerges",
       "url": "https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/",
-      "summary": "Research suggests that the brain is two distinct organs that evolved independently and comprise two ancient nervous systems packaged together; a hindbrain that regulates essential functions, and a forebrain that handles …",
+      "summary": "Research suggests that the brain is two distinct organs that evolved independently and comprise two ancient nervous systems packaged together: a hindbrain that regulates essential functions, and a forebrain that handles …",
       "ts": 1789747454000,
       "publishedAt": "2026-09-18T16:04:14.000Z",
       "categoryId": "bio"
@@ -685,132 +811,6 @@
       "ts": 1789732800000,
       "publishedAt": "2026-09-18T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Violence will only defer a problem’: UN Assembly President on trust, AI and lessons from the Rohingya crisis",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168375",
-      "summary": "Khalilur Rahman took the gavel as President of the UN General Assembly's 81st session amid what he calls a crisis of confidence in the organization he has served – in one capacity or another – for 35 years.",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: UN peacekeeping under pressure",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168376",
-      "summary": "UN peacekeepers have increasingly been sent into places where there is no peace to keep – under resourced, outgunned and exposed to violence they are not equipped to counter. The Security Council meets this afternoon in …",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sexual violence against civilians and POW’s in Ukraine widespread and ‘abhorrent’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168374",
-      "summary": "Over 1,000 cases of sexual violence against civilians and prisoners of war (POWs) in Ukraine have been documented from the start of Russia’s invasion to the end of July this year.",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Less than 4 years from development goals deadline, progress shows what’s possible",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168371",
-      "summary": "For Benin, making progress on the UN’s Sustainable Development Goals (SDGs) has meant finding new ways to finance development.",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Women and girls pay high price in DR Congo Ebola outbreak",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168368",
-      "summary": "The deadly Ebola outbreak in the Democratic Republic of the Congo (DRC) has taken a disproportionate toll on women and girls, many of whom are on the frontlines caring for patients as well as their own families despite t…",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Haiti: Child malnutrition crisis worsens amid escalating violence",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168366",
-      "summary": "Haiti is facing a worsening child malnutrition crisis, with an estimated 253,725 children aged 6 to 59 months projected to suffer from acute malnutrition between June 2026 and May 2027, new UN-backed analysis has reveale…",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Nepal floods: ‘Apocalyptic’ destruction signals wider climate threat across Himalayas",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168365",
-      "summary": "The catastrophic flooding that swept away entire villages in northern Nepal could occur again in the country or elsewhere in the Himalayas due to climate change.",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Yemen’s humanitarian crisis growing by the hour amid spike in displacement",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168364",
-      "summary": "People displaced by the renewed fighting in Yemen have described fleeing for their lives amid shelling and gunfire, aid agencies reported on Friday, while highlighting the dramatic increase in humanitarian needs in the c…",
-      "ts": 1789732800000,
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Could AI really kill us all? Your questions, answered.",
-      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
-      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had t…",
-      "ts": 1789730962000,
-      "publishedAt": "2026-09-18T11:29:22.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
-      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
-      "summary": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress…",
-      "ts": 1789722000000,
-      "publishedAt": "2026-09-18T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Doctors should educate patients about ‘Asian glow’ and drinking risks",
-      "url": "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/?utm_campaign=rss",
-      "summary": "It wasn’t until he started medical school, Brian Zhang writes, that he realized ‘Asian glow’ from drinking was a sign of something important.",
-      "ts": 1789720200000,
-      "publishedAt": "2026-09-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: More young men are coming to me for plastic surgery. The way I think about them has changed",
-      "url": "https://www.statnews.com/2026/09/18/young-men-plastic-surgery-rates-influencers-lookmaxxing-clavicular/?utm_campaign=rss",
-      "summary": "“The young men in my clinic are responding rationally to a system that was designed for profit,” writes plastic surgeon Kavitha Ranganathan.",
-      "ts": 1789720200000,
-      "publishedAt": "2026-09-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "In Sudan, attacks on hospitals force patients to make dangerous journeys",
-      "url": "https://www.statnews.com/2026/09/18/sudan-civil-war-cancer-treatment-wartime-tom-catena-mother-mercy-hospital/?utm_campaign=rss",
-      "summary": "Amid a civil war in Sudan, it’s now difficult for people with cancer and other long-term illnesses to receive treatment that was once readily available",
-      "ts": 1789720200000,
-      "publishedAt": "2026-09-18T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A geriatrician explains why AI for older adults deserves careful scrutiny",
-      "url": "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/?utm_campaign=rss",
-      "summary": "James Deardorff, a geriatrician at UCSF, talks about the benefits and pitfalls of using AI to make care decisions for older adults.",
-      "ts": 1789720200000,
-      "publishedAt": "2026-09-18T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
