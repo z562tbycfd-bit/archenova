@@ -281,17 +281,6 @@ export default function GatePage() {
               </small>
             </div>
           </div>
-
-          <div className="an-gate__header-status">
-            <span
-              className="an-gate__status-dot"
-              aria-hidden="true"
-            />
-
-            <span>
-              AN INDEPENDENT INITIATIVE
-            </span>
-          </div>
         </header>
 
         {/* CENTRAL STORY */}
