@@ -11,16 +11,21 @@ import { useRouter } from "next/navigation";
 
 /* ==========================================================
    ARCHENOVA AETHERION PORTAL
-   LIVING ORBITAL MEGAFACTORY
 
    HOME owns the only outer glass card.
 
-   This component:
-   - does not create an additional outer card
-   - does not fix or cap its content height
-   - does not create a nested vertical scroll area
-   - preserves the /aetherion destination
-   - presents six architectural stages, not live status
+   Desktop:
+   - the internal stage can scroll within a height-limited
+     HOME card
+   - its scrollbar remains invisible
+   - the footer remains reachable
+
+   Mobile:
+   - natural content height and the existing HOME scroll
+     behavior are preserved
+
+   The orbital emblem represents AETHERION's six
+   manufacturing stages; it is not a live status display.
 ========================================================== */
 
 const DOCKS = [
@@ -32,542 +37,269 @@ const DOCKS = [
   { number: "06", name: "RELEASE" },
 ] as const;
 
-const DOCK_POSITIONS = [
-  { x: 300, y: 178 },
-  { x: 426, y: 224 },
-  { x: 426, y: 376 },
-  { x: 300, y: 422 },
-  { x: 174, y: 376 },
-  { x: 174, y: 224 },
-] as const;
-
-function MegafactoryVisual({
+function AetherionEmblem({
   transition = false,
 }: {
   transition?: boolean;
 }) {
-  const instanceId = useId().replace(/:/g, "");
-  const metalId = `ae-metal-${instanceId}`;
-  const spineId = `ae-spine-${instanceId}`;
-  const coreId = `ae-core-${instanceId}`;
-  const haloId = `ae-halo-${instanceId}`;
+  const id = useId().replace(/:/g, "");
+
+  const metal = `ae-emblem-metal-${id}`;
+  const light = `ae-emblem-light-${id}`;
+  const nucleus = `ae-emblem-nucleus-${id}`;
+  const atmosphere = `ae-emblem-atmosphere-${id}`;
+  const softGlow = `ae-emblem-soft-glow-${id}`;
 
   return (
     <svg
       className={[
-        "ae-portal__megafactory",
-        transition ? "ae-portal__megafactory--transition" : "",
+        "ae-portal__emblem",
+        transition ? "ae-portal__emblem--transition" : "",
       ]
         .filter(Boolean)
         .join(" ")}
-      viewBox="0 0 600 600"
+      viewBox="0 0 500 500"
       fill="none"
       aria-hidden="true"
       focusable="false"
     >
       <defs>
-        <linearGradient id={metalId} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#cbd7e0" />
-          <stop offset="15%" stopColor="#56636f" />
-          <stop offset="38%" stopColor="#171e25" />
-          <stop offset="67%" stopColor="#06090d" />
-          <stop offset="87%" stopColor="#35414c" />
-          <stop offset="100%" stopColor="#9aabb8" />
+        <linearGradient
+          id={metal}
+          x1="0"
+          y1="0"
+          x2="1"
+          y2="1"
+        >
+          <stop offset="0%" stopColor="#f2e9eb" />
+          <stop offset="17%" stopColor="#9c939a" />
+          <stop offset="37%" stopColor="#39383e" />
+          <stop offset="57%" stopColor="#111217" />
+          <stop offset="78%" stopColor="#77737d" />
+          <stop offset="100%" stopColor="#eee7eb" />
         </linearGradient>
 
-        <linearGradient id={spineId} x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stopColor="#0a0e13" />
-          <stop offset="23%" stopColor="#647481" />
-          <stop offset="43%" stopColor="#1c2630" />
-          <stop offset="70%" stopColor="#06090d" />
-          <stop offset="88%" stopColor="#3b4854" />
-          <stop offset="100%" stopColor="#080c11" />
+        <linearGradient
+          id={light}
+          x1="0"
+          y1="0"
+          x2="1"
+          y2="0"
+        >
+          <stop offset="0%" stopColor="#e8dce2" stopOpacity="0" />
+          <stop offset="29%" stopColor="#e8dce2" stopOpacity=".24" />
+          <stop offset="48%" stopColor="#fff8f5" stopOpacity=".96" />
+          <stop offset="57%" stopColor="#f1e0e8" stopOpacity=".78" />
+          <stop offset="76%" stopColor="#d2c5d0" stopOpacity=".17" />
+          <stop offset="100%" stopColor="#e8dce2" stopOpacity="0" />
         </linearGradient>
 
-        <radialGradient id={coreId}>
-          <stop offset="0%" stopColor="#edf5fa" />
-          <stop offset="19%" stopColor="#a7bac8" />
-          <stop offset="52%" stopColor="#34424d" />
-          <stop offset="100%" stopColor="#020406" />
+        <radialGradient id={nucleus}>
+          <stop offset="0%" stopColor="#f1e8eb" stopOpacity=".46" />
+          <stop offset="17%" stopColor="#b5a9b4" stopOpacity=".24" />
+          <stop offset="43%" stopColor="#302b35" stopOpacity=".42" />
+          <stop offset="74%" stopColor="#111116" stopOpacity=".96" />
+          <stop offset="100%" stopColor="#050609" />
         </radialGradient>
 
-        <radialGradient id={haloId}>
-          <stop offset="0%" stopColor="#d8e8f4" stopOpacity=".13" />
-          <stop offset="48%" stopColor="#b5d0e3" stopOpacity=".035" />
-          <stop offset="100%" stopColor="#b5d0e3" stopOpacity="0" />
+        <radialGradient id={atmosphere}>
+          <stop offset="0%" stopColor="#c8aebf" stopOpacity=".12" />
+          <stop offset="34%" stopColor="#b9a6b5" stopOpacity=".045" />
+          <stop offset="74%" stopColor="#a6a0ad" stopOpacity=".012" />
+          <stop offset="100%" stopColor="#a6a0ad" stopOpacity="0" />
         </radialGradient>
+
+        <filter
+          id={softGlow}
+          x="-100%"
+          y="-100%"
+          width="300%"
+          height="300%"
+        >
+          <feGaussianBlur stdDeviation="4.5" />
+        </filter>
       </defs>
 
-      {/* A restrained atmosphere, rather than a bright icon background. */}
-      <circle cx="300" cy="300" r="232" fill={`url(#${haloId})`} />
+      {/* A soft atmosphere; no solid icon background. */}
+      <circle
+        cx="250"
+        cy="250"
+        r="216"
+        fill={`url(#${atmosphere})`}
+      />
 
-      <g className="ae-portal__visual-atmosphere">
-        <circle
-          cx="300"
-          cy="300"
-          r="231"
-          stroke="#d9e7f0"
-          strokeOpacity=".075"
-          strokeWidth=".8"
-          strokeDasharray="2 12"
+      {/* The three axes of the orbital manufacturing system. */}
+      <g className="ae-portal__emblem-axis ae-portal__emblem-axis--one">
+        <ellipse
+          cx="250"
+          cy="250"
+          rx="192"
+          ry="71"
+          stroke={`url(#${metal})`}
+          strokeOpacity=".42"
+          strokeWidth="1.25"
         />
         <ellipse
-          cx="300"
-          cy="300"
-          rx="255"
-          ry="90"
-          stroke="#c6d9e7"
-          strokeOpacity=".08"
-          strokeWidth=".8"
-          transform="rotate(-17 300 300)"
+          cx="250"
+          cy="250"
+          rx="192"
+          ry="71"
+          stroke={`url(#${light})`}
+          strokeOpacity=".22"
+          strokeWidth="2"
+          filter={`url(#${softGlow})`}
         />
+
         <ellipse
-          cx="300"
-          cy="300"
-          rx="255"
-          ry="90"
-          stroke="#c6d9e7"
-          strokeOpacity=".05"
-          strokeWidth=".8"
-          transform="rotate(17 300 300)"
+          className="ae-portal__emblem-current ae-portal__emblem-current--one"
+          cx="250"
+          cy="250"
+          rx="192"
+          ry="71"
+          stroke="#fff7f5"
+          strokeWidth="2.6"
+          strokeLinecap="round"
+          strokeDasharray="21 1280"
         />
       </g>
 
-      {/* Rear half of the primary industrial ring. */}
-      <g className="ae-portal__rear-ring">
+      <g className="ae-portal__emblem-axis ae-portal__emblem-axis--two">
         <ellipse
-          cx="300"
-          cy="300"
-          rx="239"
-          ry="81"
-          stroke="#0b1117"
-          strokeWidth="20"
-        />
-        <ellipse
-          cx="300"
-          cy="300"
-          rx="239"
-          ry="81"
-          stroke="#c4d3df"
-          strokeOpacity=".48"
-          strokeWidth="1.4"
+          cx="250"
+          cy="250"
+          rx="192"
+          ry="71"
+          stroke={`url(#${metal})`}
+          strokeOpacity=".53"
+          strokeWidth="1.25"
         />
         <ellipse
-          cx="300"
-          cy="300"
-          rx="226"
-          ry="69"
-          stroke="#b6c9d7"
-          strokeOpacity=".21"
-          strokeWidth="1"
-        />
-        <ellipse
-          cx="300"
-          cy="300"
-          rx="251"
-          ry="92"
-          stroke="#d9e6ef"
-          strokeOpacity=".13"
-          strokeDasharray="3 9"
-        />
-
-        {Array.from({ length: 48 }, (_, index) => {
-          const angle = (index / 48) * Math.PI * 2;
-
-          return (
-            <line
-              key={`rear-module-${index}`}
-              x1={300 + Math.cos(angle) * 226}
-              y1={300 + Math.sin(angle) * 69}
-              x2={300 + Math.cos(angle) * 249}
-              y2={300 + Math.sin(angle) * 91}
-              stroke="#dce9f2"
-              strokeOpacity={index % 4 === 0 ? ".36" : ".13"}
-              strokeWidth=".9"
-            />
-          );
-        })}
-      </g>
-
-      {/* A recognizable vertical manufacturing spine. */}
-      <g className="ae-portal__spine">
-        <path
-          d="M286 56 L300 28 L314 56 L317 544 L300 574 L283 544 Z"
-          fill={`url(#${spineId})`}
-          stroke="#b9cbd8"
-          strokeOpacity=".43"
-          strokeWidth="1.1"
-        />
-
-        <path
-          d="M300 31 L300 571"
-          stroke="#e3edf4"
-          strokeOpacity=".32"
-          strokeWidth="1"
-        />
-        <path
-          d="M288 81 L288 533 M312 81 L312 533"
-          stroke="#dce8f1"
-          strokeOpacity=".19"
-          strokeWidth=".8"
-        />
-
-        <path
-          d="M283 113 L257 154 L257 230 L283 244 Z"
-          fill="#10171e"
-          stroke="#a9bac8"
-          strokeOpacity=".35"
-        />
-        <path
-          d="M317 367 L344 382 L344 462 L317 496 Z"
-          fill="#10171e"
-          stroke="#a9bac8"
-          strokeOpacity=".35"
-        />
-        <path
-          d="M283 410 L265 433 L265 496 L283 520 Z"
-          fill="#0c1218"
-          stroke="#a9bac8"
-          strokeOpacity=".27"
-        />
-
-        {Array.from({ length: 17 }, (_, index) => (
-          <line
-            key={`spine-module-${index}`}
-            x1="285"
-            y1={93 + index * 26}
-            x2="315"
-            y2={93 + index * 26}
-            stroke="#dce9f2"
-            strokeOpacity={index % 3 === 0 ? ".34" : ".13"}
-            strokeWidth=".8"
-          />
-        ))}
-
-        <path
-          d="M292 62 L292 534"
-          stroke="#dcebf5"
-          strokeOpacity=".23"
-          strokeWidth="1.6"
-          strokeDasharray="8 7"
-        />
-        <path
-          className="ae-portal__spine-light"
-          d="M307 72 L307 526"
-          stroke="#e7f4fc"
-          strokeOpacity=".48"
-          strokeWidth="1.4"
-          strokeDasharray="3 15"
+          className="ae-portal__emblem-current ae-portal__emblem-current--two"
+          cx="250"
+          cy="250"
+          rx="192"
+          ry="71"
+          stroke="#f6e7ec"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+          strokeDasharray="25 1280"
         />
       </g>
 
-      {/* Upper ring: an architectural counterpart to the main ring. */}
-      <g className="ae-portal__upper-ring">
+      <g className="ae-portal__emblem-axis ae-portal__emblem-axis--three">
         <ellipse
-          cx="300"
-          cy="194"
-          rx="145"
-          ry="41"
-          stroke="#111922"
-          strokeWidth="17"
-        />
-        <ellipse
-          cx="300"
-          cy="194"
-          rx="145"
-          ry="41"
-          stroke="#c9d8e3"
-          strokeOpacity=".64"
-          strokeWidth="1.5"
-        />
-        <ellipse
-          cx="300"
-          cy="194"
-          rx="133"
-          ry="32"
-          stroke="#a9bdcb"
-          strokeOpacity=".4"
-          strokeWidth="1.1"
-        />
-        <ellipse
-          cx="300"
-          cy="194"
-          rx="154"
-          ry="47"
-          stroke="#d8e5ee"
-          strokeOpacity=".17"
-          strokeWidth=".8"
-        />
-
-        {Array.from({ length: 32 }, (_, index) => {
-          const angle = (index / 32) * Math.PI * 2;
-
-          return (
-            <line
-              key={`upper-module-${index}`}
-              x1={300 + Math.cos(angle) * 133}
-              y1={194 + Math.sin(angle) * 32}
-              x2={300 + Math.cos(angle) * 152}
-              y2={194 + Math.sin(angle) * 46}
-              stroke="#dce9f2"
-              strokeOpacity=".29"
-              strokeWidth=".9"
-            />
-          );
-        })}
-
-        <path
-          className="ae-portal__upper-current"
-          d="M158 194 A142 40 0 0 1 442 194"
-          stroke="#eaf4fa"
-          strokeOpacity=".54"
-          strokeWidth="1.4"
-          strokeDasharray="4 13"
-        />
-      </g>
-
-      {/* Six manufacturing paths, from the chamber to the docks. */}
-      <g className="ae-portal__transfer-corridors">
-        {DOCK_POSITIONS.map((dock, index) => (
-          <g key={`corridor-${index}`}>
-            <line
-              x1="300"
-              y1="300"
-              x2={dock.x}
-              y2={dock.y}
-              stroke="#d4e3ee"
-              strokeOpacity=".2"
-              strokeWidth="1.8"
-              strokeDasharray="3 7"
-            />
-            <line
-              className="ae-portal__transfer-current"
-              x1="300"
-              y1="300"
-              x2={dock.x}
-              y2={dock.y}
-              stroke="#f0f7fb"
-              strokeOpacity=".46"
-              strokeWidth="1"
-              strokeDasharray="2 16"
-              style={{ animationDelay: `${index * -0.85}s` }}
-            />
-          </g>
-        ))}
-      </g>
-
-      {/* Central manufacturing chamber and AETHERION nucleus. */}
-      <g className="ae-portal__chamber">
-        <ellipse
-          cx="300"
-          cy="300"
-          rx="81"
-          ry="32"
-          fill="#010305"
-          stroke="#b9cbd9"
-          strokeOpacity=".49"
-          strokeWidth="1.4"
-        />
-        <rect
-          x="276"
-          y="265"
-          width="48"
-          height="70"
-          rx="8"
-          fill={`url(#${metalId})`}
-          stroke="#c9d9e5"
-          strokeOpacity=".49"
-        />
-        <ellipse
-          cx="300"
-          cy="266"
-          rx="35"
-          ry="12"
-          fill="#111a22"
-          stroke="#d5e4ee"
+          cx="250"
+          cy="250"
+          rx="192"
+          ry="71"
+          stroke={`url(#${metal})`}
           strokeOpacity=".47"
+          strokeWidth="1.25"
         />
         <ellipse
-          cx="300"
-          cy="335"
-          rx="35"
-          ry="12"
-          fill="#05090d"
-          stroke="#b9cad8"
-          strokeOpacity=".36"
+          className="ae-portal__emblem-current ae-portal__emblem-current--three"
+          cx="250"
+          cy="250"
+          rx="192"
+          ry="71"
+          stroke="#f9eef0"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeDasharray="19 1280"
+        />
+      </g>
+
+      {/* A quiet central aperture, rather than a bright flare. */}
+      <g className="ae-portal__emblem-center">
+        <circle
+          cx="250"
+          cy="250"
+          r="65"
+          fill={`url(#${atmosphere})`}
         />
 
-        <ellipse
-          cx="300"
-          cy="300"
-          rx="49"
-          ry="19"
-          stroke="#d7e6f0"
-          strokeOpacity=".36"
-          strokeWidth="1.7"
+        <circle
+          className="ae-portal__emblem-nucleus"
+          cx="250"
+          cy="250"
+          r="37"
+          fill={`url(#${nucleus})`}
+          stroke="#d4c5ce"
+          strokeOpacity=".34"
+          strokeWidth=".85"
         />
 
         <circle
-          className="ae-portal__core-halo"
-          cx="300"
-          cy="300"
-          r="33"
-          fill={`url(#${haloId})`}
-        />
-        <circle
-          cx="300"
-          cy="300"
-          r="17"
-          fill="#05090d"
-          stroke="#e4eff7"
-          strokeOpacity=".5"
-          strokeWidth="1.2"
-        />
-        <circle
-          cx="300"
-          cy="300"
-          r="12"
-          fill={`url(#${coreId})`}
-          stroke="#e4eff7"
-          strokeOpacity=".5"
+          cx="250"
+          cy="250"
+          r="28"
+          stroke="#e8dbe1"
+          strokeOpacity=".12"
+          strokeWidth=".75"
         />
 
-        {/* An open, approachable aperture rather than a harsh flare. */}
         <circle
-          className="ae-portal__core-aperture"
-          cx="300"
-          cy="300"
-          r="6"
-          fill="#071017"
-          stroke="#e8f3fa"
-          strokeOpacity=".74"
-          strokeWidth="1.1"
-        />
-        <circle
-          className="ae-portal__core-light"
-          cx="300"
-          cy="300"
-          r="2.2"
-          fill="#eef7fc"
-        />
-
-        <path
-          d="M300 277 V285 M300 315 V323 M277 300 H285 M315 300 H323"
-          stroke="#e4f1f9"
-          strokeOpacity=".55"
+          className="ae-portal__emblem-aperture"
+          cx="250"
+          cy="250"
+          r="10.5"
+          fill="#090a0e"
+          stroke="#f0e5e9"
+          strokeOpacity=".68"
           strokeWidth="1"
         />
+
+        <circle
+          className="ae-portal__emblem-seed"
+          cx="250"
+          cy="250"
+          r="2.2"
+          fill="#fff8f5"
+        />
+
+        <path
+          d="M250 221 V229 M250 271 V279 M221 250 H229 M271 250 H279"
+          stroke="#e9dfe4"
+          strokeOpacity=".31"
+          strokeWidth=".8"
+          strokeLinecap="round"
+        />
       </g>
 
-      {/* Front ring overlays the chamber to establish orbital depth. */}
-      <g className="ae-portal__front-ring">
-        <path
-          d="M61 300 A239 81 0 0 0 539 300"
-          stroke="#0a1016"
-          strokeWidth="20"
-        />
-        <path
-          d="M61 300 A239 81 0 0 0 539 300"
-          stroke="#bacbd8"
-          strokeOpacity=".57"
-          strokeWidth="1.7"
-        />
-        <path
-          d="M74 303 A226 69 0 0 0 526 303"
-          stroke="#d5e3ee"
-          strokeOpacity=".28"
-          strokeWidth="1.1"
-        />
-        <path
-          className="ae-portal__ring-light"
-          d="M67 309 A233 76 0 0 0 533 309"
-          stroke="#e9f3fa"
-          strokeOpacity=".43"
-          strokeWidth="1.4"
-          strokeDasharray="3 12"
-        />
-
-        {Array.from({ length: 25 }, (_, index) => {
-          const angle = (index / 24) * Math.PI;
+      {/* Six subtle stage markers distributed along one orbit. */}
+      <g className="ae-portal__emblem-markers">
+        {DOCKS.map((dock, index) => {
+          const angle = (index / DOCKS.length) * Math.PI * 2;
+          const x = 250 + Math.cos(angle) * 192;
+          const y = 250 + Math.sin(angle) * 71;
 
           return (
-            <line
-              key={`front-module-${index}`}
-              x1={300 - Math.cos(angle) * 226}
-              y1={300 + Math.sin(angle) * 69}
-              x2={300 - Math.cos(angle) * 249}
-              y2={300 + Math.sin(angle) * 91}
-              stroke="#dce9f2"
-              strokeOpacity={index % 3 === 0 ? ".43" : ".19"}
-              strokeWidth=".9"
-            />
+            <g
+              key={dock.number}
+              className="ae-portal__emblem-marker"
+              style={{
+                animationDelay: `${index * -1.7}s`,
+              }}
+            >
+              <circle
+                cx={x}
+                cy={y}
+                r="3.5"
+                fill="#090a0e"
+                stroke="#e9dfe5"
+                strokeOpacity=".47"
+                strokeWidth=".8"
+              />
+              <circle
+                cx={x}
+                cy={y}
+                r="1.25"
+                fill="#fff4f2"
+                fillOpacity=".82"
+              />
+            </g>
           );
         })}
-      </g>
-
-      {/* Six distinct docking assemblies. */}
-      <g className="ae-portal__docks">
-        {DOCK_POSITIONS.map((dock, index) => (
-          <g
-            key={DOCKS[index].number}
-            className={[
-              "ae-portal__dock-assembly",
-              `ae-portal__dock-assembly--${index + 1}`,
-            ].join(" ")}
-            transform={`translate(${dock.x} ${dock.y})`}
-          >
-            <circle
-              className="ae-portal__dock-halo"
-              r="19"
-              stroke="#dceaf4"
-              strokeOpacity=".17"
-              strokeWidth=".8"
-            />
-            <rect
-              x="-10"
-              y="-10"
-              width="20"
-              height="20"
-              rx="2"
-              transform="rotate(45)"
-              fill="#0a1016"
-              stroke="#c9dbe8"
-              strokeOpacity=".72"
-              strokeWidth="1.2"
-            />
-            <rect
-              x="-5"
-              y="-5"
-              width="10"
-              height="10"
-              rx="1"
-              transform="rotate(45)"
-              fill="#28343e"
-              stroke="#d7e5ef"
-              strokeOpacity=".48"
-              strokeWidth=".8"
-            />
-            <circle
-              className="ae-portal__dock-light"
-              r="2.5"
-              fill="#edf7fd"
-            />
-          </g>
-        ))}
-      </g>
-
-      {/* Two small service craft give the factory a sense of scale. */}
-      <g className="ae-portal__service-craft">
-        <path
-          d="M476 144 L490 148 L476 152 L480 148 Z"
-          fill="#bdcfdd"
-          fillOpacity=".72"
-        />
-        <path
-          d="M111 429 L126 434 L111 439 L116 434 Z"
-          fill="#bdcfdd"
-          fillOpacity=".46"
-        />
       </g>
     </svg>
   );
@@ -578,6 +310,7 @@ export default function ArcheNovaAetherionPortal() {
 
   const transitionTimerRef =
     useRef<ReturnType<typeof setTimeout> | null>(null);
+
   const enteringRef = useRef(false);
 
   const [entering, setEntering] = useState(false);
@@ -678,20 +411,10 @@ export default function ArcheNovaAetherionPortal() {
               />
 
               <span
-                className="ae-portal__factory-orbit ae-portal__factory-orbit--one"
-                aria-hidden="true"
-              />
-
-              <span
-                className="ae-portal__factory-orbit ae-portal__factory-orbit--two"
-                aria-hidden="true"
-              />
-
-              <span
                 className="ae-portal__factory-object"
                 aria-hidden="true"
               >
-                <MegafactoryVisual />
+                <AetherionEmblem />
               </span>
 
               <span
@@ -719,7 +442,7 @@ export default function ArcheNovaAetherionPortal() {
         </footer>
       </div>
 
-      {/* Full-screen entry: six docks → chamber approach. */}
+      {/* Full-screen entry: orbital alignment → central aperture. */}
       <div className="ae-portal__transition" aria-hidden="true">
         <div className="ae-portal__transition-space" />
         <div className="ae-portal__transition-stars" />
@@ -729,7 +452,7 @@ export default function ArcheNovaAetherionPortal() {
         <div className="ae-portal__transition-factory">
           <div className="ae-portal__transition-halo" />
 
-          <MegafactoryVisual transition />
+          <AetherionEmblem transition />
 
           <div className="ae-portal__transition-target">
             <span className="ae-portal__transition-target-ring ae-portal__transition-target-ring--one" />
@@ -748,7 +471,7 @@ export default function ArcheNovaAetherionPortal() {
 
       <style jsx global>{`
         /* ==================================================
-           ROOT — HOME OWNS THE GLASS CARD
+           ROOT — HOME OWNS THE ONLY GLASS CARD
         ================================================== */
 
         .ae-portal,
@@ -760,23 +483,20 @@ export default function ArcheNovaAetherionPortal() {
 
         .ae-portal {
           position: relative;
-          display: block;
+          display: flex;
+          flex-direction: column;
           align-self: stretch;
 
           width: 100%;
           max-width: 100%;
           min-width: 0;
           min-height: 0;
+          height: 100%;
 
           margin: 0;
           padding: 0;
 
-          /*
-           * Never clip the bottom of the portal here.
-           * HOME remains responsible for its own card
-           * height and scroll container.
-           */
-          overflow: visible;
+          overflow: hidden;
 
           border: 0;
           border-radius: 0;
@@ -786,28 +506,38 @@ export default function ArcheNovaAetherionPortal() {
           -webkit-backdrop-filter: none;
 
           color: rgba(247, 249, 251, 0.94);
-
-          scrollbar-width: none;
-          -ms-overflow-style: none;
-        }
-
-        .ae-portal::-webkit-scrollbar,
-        .ae-portal *::-webkit-scrollbar {
-          width: 0 !important;
-          height: 0 !important;
-          display: none !important;
-          background: transparent !important;
         }
 
         .ae-portal button {
           font: inherit;
         }
 
-        /* ==================================================
-           INTERNAL STAGE — NATURAL CONTENT HEIGHT
+        /*
+         * Hide scrollbars without disabling scrolling.
+         * The rule is scoped to this Portal only.
+         */
+        .ae-portal,
+        .ae-portal__stage {
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
 
-           The stage grows with its content. There is no
-           fixed height, max-height, or clipped middle row.
+        .ae-portal::-webkit-scrollbar,
+        .ae-portal__stage::-webkit-scrollbar {
+          width: 0;
+          height: 0;
+          display: none;
+          background: transparent;
+        }
+
+        /* ==================================================
+           DESKTOP STAGE
+
+           The HOME card may impose a fixed available
+           height. In that case, this stage is the scroll
+           owner and its footer remains reachable.
+
+           The content itself never shrinks to fit.
         ================================================== */
 
         .ae-portal__stage {
@@ -820,15 +550,21 @@ export default function ArcheNovaAetherionPortal() {
             minmax(min-content, 1fr)
             auto;
 
+          flex: 1 1 auto;
+
           width: 100%;
           min-width: 0;
-          min-height: clamp(560px, 58vw, 700px);
-          height: auto;
-          max-height: none;
+          min-height: 0;
+          height: 100%;
+          max-height: 100%;
 
-          padding: clamp(25px, 4vw, 50px);
+          padding: clamp(22px, 3vw, 38px);
 
-          overflow: visible;
+          overflow-x: hidden;
+          overflow-y: auto;
+
+          overscroll-behavior-y: contain;
+          -webkit-overflow-scrolling: touch;
 
           border: 0;
           border-radius: 0;
@@ -852,27 +588,28 @@ export default function ArcheNovaAetherionPortal() {
 
         .ae-portal__ambient {
           z-index: -2;
+
           background:
             radial-gradient(
-              ellipse at 50% 55%,
-              rgba(222, 234, 245, 0.046),
+              ellipse at 50% 53%,
+              rgba(211, 197, 208, 0.045),
               transparent 43%
             ),
             radial-gradient(
-              ellipse at 50% 78%,
-              rgba(222, 234, 245, 0.015),
-              transparent 52%
+              ellipse at 50% 75%,
+              rgba(211, 197, 208, 0.015),
+              transparent 53%
             );
         }
 
         .ae-portal__starfield {
           z-index: -1;
-          opacity: 0.17;
+          opacity: 0.14;
 
           background-image:
             radial-gradient(
               circle,
-              rgba(255, 255, 255, 0.5) 0 0.45px,
+              rgba(255, 255, 255, 0.48) 0 0.45px,
               transparent 0.8px
             ),
             radial-gradient(
@@ -890,6 +627,7 @@ export default function ArcheNovaAetherionPortal() {
               black,
               transparent 82%
             );
+
           -webkit-mask-image:
             radial-gradient(
               ellipse at center,
@@ -899,7 +637,7 @@ export default function ArcheNovaAetherionPortal() {
         }
 
         /* ==================================================
-           HEADER
+           HEADER — PRESERVED
         ================================================== */
 
         .ae-portal__header {
@@ -913,6 +651,7 @@ export default function ArcheNovaAetherionPortal() {
             minmax(0, 1fr);
 
           align-items: start;
+
           width: 100%;
           min-width: 0;
         }
@@ -950,6 +689,7 @@ export default function ArcheNovaAetherionPortal() {
           display: inline-flex;
           align-items: center;
           gap: 8px;
+
           min-width: 0;
 
           color: rgba(240, 244, 249, 0.48);
@@ -975,7 +715,10 @@ export default function ArcheNovaAetherionPortal() {
         }
 
         /* ==================================================
-           EXPERIENCE — NO NESTED SCROLL OR CLIPPING
+           CENTRAL EXPERIENCE
+
+           No nested vertical scrolling. Its full natural
+           height contributes to the stage's scroll range.
         ================================================== */
 
         .ae-portal__experience {
@@ -993,18 +736,13 @@ export default function ArcheNovaAetherionPortal() {
           min-width: 0;
           min-height: min-content;
           height: auto;
-          max-height: none;
 
           padding:
-            clamp(24px, 4vw, 44px)
+            clamp(16px, 2.2vw, 27px)
             0
-            clamp(18px, 3vw, 30px);
+            clamp(13px, 2vw, 22px);
 
           overflow: visible;
-          overscroll-behavior: auto;
-
-          scrollbar-width: none;
-          -ms-overflow-style: none;
         }
 
         .ae-portal__statement {
@@ -1014,7 +752,7 @@ export default function ArcheNovaAetherionPortal() {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 14px;
+          gap: 13px;
 
           width: 100%;
           min-width: 0;
@@ -1049,7 +787,10 @@ export default function ArcheNovaAetherionPortal() {
         }
 
         /* ==================================================
-           INTERACTIVE LIVING MEGAFACTORY
+           LIVING ORBITAL EMBLEM
+
+           Smaller desktop dimensions leave more space
+           for the heading, sequence and footer.
         ================================================== */
 
         .ae-portal__factory-button {
@@ -1057,11 +798,11 @@ export default function ArcheNovaAetherionPortal() {
           z-index: 6;
 
           display: block;
-          width: min(100%, 560px);
+          width: min(100%, 360px);
           min-width: 0;
 
           margin:
-            clamp(10px, 1.6vw, 20px)
+            clamp(6px, 1vw, 12px)
             auto
             0;
 
@@ -1082,7 +823,8 @@ export default function ArcheNovaAetherionPortal() {
         }
 
         .ae-portal__factory-button:focus-visible {
-          outline: 1px solid rgba(255, 255, 255, 0.38);
+          outline:
+            1px solid rgba(255, 255, 255, 0.42);
           outline-offset: 7px;
           border-radius: 24px;
         }
@@ -1093,62 +835,38 @@ export default function ArcheNovaAetherionPortal() {
           display: grid;
           place-items: center;
 
-          width: min(100%, 490px);
-          aspect-ratio: 1.12;
+          width: min(100%, 330px);
+          aspect-ratio: 1.17;
 
           margin: 0 auto;
+
           background: transparent;
 
           transform: translateZ(0);
 
           transition:
-            transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+            transform 0.75s
+            cubic-bezier(0.2, 0.8, 0.2, 1);
         }
 
         .ae-portal__factory-aura {
           position: absolute;
-          inset: 11% 9%;
+          inset: 13% 12%;
+
           border-radius: 50%;
 
           background:
             radial-gradient(
               ellipse,
-              rgba(216, 231, 243, 0.085),
-              rgba(180, 202, 220, 0.024) 35%,
-              transparent 72%
+              rgba(224, 205, 218, 0.11),
+              rgba(190, 175, 190, 0.028) 40%,
+              transparent 73%
             );
 
-          filter: blur(22px);
+          filter: blur(18px);
 
           animation:
             ae-aura-breathe 12s ease-in-out infinite;
-        }
-
-        .ae-portal__factory-orbit {
-          position: absolute;
-          width: 85%;
-          height: 31%;
-
-          border: 1px solid rgba(226, 239, 249, 0.07);
-          border-radius: 50%;
-
-          pointer-events: none;
-        }
-
-        .ae-portal__factory-orbit--one {
-          transform: rotate(-19deg);
-          animation:
-            ae-orbit-one 24s ease-in-out infinite;
-        }
-
-        .ae-portal__factory-orbit--two {
-          width: 78%;
-          height: 26%;
-          border-color: rgba(226, 239, 249, 0.045);
-
-          transform: rotate(24deg);
-          animation:
-            ae-orbit-two 29s ease-in-out infinite;
         }
 
         .ae-portal__factory-object {
@@ -1156,144 +874,122 @@ export default function ArcheNovaAetherionPortal() {
           z-index: 2;
 
           display: block;
+
           width: 100%;
           height: 100%;
 
           transform-origin: center;
 
           animation:
-            ae-factory-float 13s ease-in-out infinite;
+            ae-emblem-float 13s ease-in-out infinite;
         }
 
-        .ae-portal__megafactory {
+        .ae-portal__emblem {
           display: block;
+
           width: 100%;
           height: 100%;
+
           overflow: visible;
 
           filter:
             drop-shadow(
-              0 18px 24px rgba(0, 0, 0, 0.58)
+              0 12px 19px rgba(0, 0, 0, 0.37)
             )
             drop-shadow(
-              0 0 18px rgba(212, 231, 244, 0.04)
+              0 0 11px rgba(239, 222, 231, 0.045)
             );
         }
 
-        /* ==================================================
-           REFINED AMBIENT MOTION
-        ================================================== */
+        .ae-portal__emblem-axis {
+          transform-box: view-box;
+          transform-origin: 250px 250px;
+        }
 
-        .ae-portal__rear-ring {
-          transform-origin: 300px 300px;
+        .ae-portal__emblem-axis--one {
           animation:
-            ae-ring-breathe 15s ease-in-out infinite;
+            ae-axis-one 26s ease-in-out infinite;
         }
 
-        .ae-portal__upper-ring {
-          transform-origin: 300px 194px;
+        .ae-portal__emblem-axis--two {
           animation:
-            ae-upper-ring-breathe 17s ease-in-out infinite;
+            ae-axis-two 31s ease-in-out infinite;
         }
 
-        .ae-portal__spine-light {
+        .ae-portal__emblem-axis--three {
           animation:
-            ae-spine-current 9s linear infinite;
+            ae-axis-three 35s ease-in-out infinite;
         }
 
-        .ae-portal__ring-light {
-          animation:
-            ae-ring-current 18s linear infinite;
-        }
+        .ae-portal__emblem-current {
+          opacity: 0.78;
 
-        .ae-portal__upper-current {
-          animation:
-            ae-ring-current 21s linear infinite reverse;
-        }
-
-        .ae-portal__transfer-current {
-          animation:
-            ae-transfer-current 8s linear infinite;
-        }
-
-        .ae-portal__core-halo {
-          transform-origin: 300px 300px;
-          animation:
-            ae-core-breathe 8s ease-in-out infinite;
-        }
-
-        .ae-portal__core-aperture {
-          transform-origin: 300px 300px;
-          animation:
-            ae-aperture-breathe 8s ease-in-out infinite;
-        }
-
-        .ae-portal__core-light {
-          transform-origin: 300px 300px;
-          animation:
-            ae-core-light 8s ease-in-out infinite;
-        }
-
-        /*
-         * Animate opacity only: the SVG docking groups
-         * retain their original translate(x y) positions.
-         */
-        .ae-portal__dock-assembly {
-          animation:
-            ae-dock-breathe 12s ease-in-out infinite;
-        }
-
-        .ae-portal__dock-assembly--2 {
-          animation-delay: -2s;
-        }
-
-        .ae-portal__dock-assembly--3 {
-          animation-delay: -4s;
-        }
-
-        .ae-portal__dock-assembly--4 {
-          animation-delay: -6s;
-        }
-
-        .ae-portal__dock-assembly--5 {
-          animation-delay: -8s;
-        }
-
-        .ae-portal__dock-assembly--6 {
-          animation-delay: -10s;
-        }
-
-        .ae-portal__dock-light {
-          opacity: 0.48;
           filter:
             drop-shadow(
-              0 0 3px rgba(238, 248, 255, 0.45)
+              0 0 3px rgba(255, 241, 245, 0.4)
             );
+
+          animation:
+            ae-orbital-current 12s linear infinite;
         }
 
-        .ae-portal__service-craft {
-          transform-origin: 300px 300px;
+        .ae-portal__emblem-current--two {
+          animation-duration: 15s;
+          animation-direction: reverse;
+        }
+
+        .ae-portal__emblem-current--three {
+          animation-duration: 18s;
+        }
+
+        .ae-portal__emblem-center {
+          transform-box: view-box;
+          transform-origin: 250px 250px;
+
           animation:
-            ae-service-craft 35s ease-in-out infinite;
+            ae-center-breathe 10s ease-in-out infinite;
+        }
+
+        .ae-portal__emblem-nucleus {
+          animation:
+            ae-nucleus-breathe 9s ease-in-out infinite;
+        }
+
+        .ae-portal__emblem-aperture {
+          animation:
+            ae-aperture-breathe 9s ease-in-out infinite;
+        }
+
+        .ae-portal__emblem-seed {
+          animation:
+            ae-seed-breathe 9s ease-in-out infinite;
+        }
+
+        .ae-portal__emblem-marker {
+          animation:
+            ae-marker-breathe 10.2s ease-in-out infinite;
         }
 
         .ae-portal__factory-floor {
           position: absolute;
           z-index: 1;
-          bottom: 11%;
 
-          width: 49%;
-          height: 8%;
+          bottom: 13%;
+
+          width: 44%;
+          height: 7%;
+
           border-radius: 50%;
 
           background:
             radial-gradient(
               ellipse,
-              rgba(226, 240, 251, 0.065),
+              rgba(233, 218, 228, 0.055),
               transparent 72%
             );
 
-          filter: blur(13px);
+          filter: blur(12px);
+
           animation:
             ae-floor-breathe 12s ease-in-out infinite;
         }
@@ -1301,6 +997,7 @@ export default function ArcheNovaAetherionPortal() {
         .ae-portal__tap-hint {
           position: absolute;
           z-index: 4;
+
           bottom: 0;
           left: 50%;
 
@@ -1346,6 +1043,10 @@ export default function ArcheNovaAetherionPortal() {
             );
         }
 
+        /* ==================================================
+           FOOTER — ALWAYS IN THE STAGE'S SCROLL FLOW
+        ================================================== */
+
         .ae-portal__footer {
           position: relative;
           z-index: 5;
@@ -1358,12 +1059,15 @@ export default function ArcheNovaAetherionPortal() {
           align-self: end;
 
           width: 100%;
-          padding-top: 18px;
+          min-height: 24px;
+
+          padding-top: 16px;
 
           border-top:
             1px solid rgba(255, 255, 255, 0.055);
 
           color: rgba(255, 255, 255, 0.3);
+
           transition: opacity 0.35s ease;
         }
 
@@ -1378,11 +1082,16 @@ export default function ArcheNovaAetherionPortal() {
           height: 3px;
           flex: 0 0 auto;
           border-radius: 50%;
-          background: rgba(255, 255, 255, 0.22);
+
+          background:
+            rgba(255, 255, 255, 0.22);
         }
 
         /* ==================================================
            FULL-SCREEN ENTRY TRANSITION
+
+           Existing destination and duration are preserved.
+           The new emblem follows the same chamber approach.
         ================================================== */
 
         .ae-portal__transition {
@@ -1394,6 +1103,7 @@ export default function ArcheNovaAetherionPortal() {
           place-items: center;
 
           overflow: hidden;
+
           opacity: 0;
           visibility: hidden;
           pointer-events: none;
@@ -1411,8 +1121,8 @@ export default function ArcheNovaAetherionPortal() {
           background:
             radial-gradient(
               circle at center,
-              #151c23,
-              #06090d 44%,
+              #19171c,
+              #09090c 44%,
               #000 82%
             );
         }
@@ -1447,13 +1157,13 @@ export default function ArcheNovaAetherionPortal() {
             repeating-linear-gradient(
               90deg,
               transparent 0 83px,
-              rgba(235, 246, 253, 0.055) 84px,
+              rgba(235, 228, 235, 0.045) 84px,
               transparent 85px
             ),
             repeating-linear-gradient(
               0deg,
               transparent 0 83px,
-              rgba(235, 246, 253, 0.055) 84px,
+              rgba(235, 228, 235, 0.045) 84px,
               transparent 85px
             );
 
@@ -1499,7 +1209,7 @@ export default function ArcheNovaAetherionPortal() {
           display: grid;
           place-items: center;
 
-          width: min(94vw, 780px);
+          width: min(94vw, 680px);
           aspect-ratio: 1;
 
           opacity: 0;
@@ -1507,9 +1217,10 @@ export default function ArcheNovaAetherionPortal() {
           filter: blur(9px);
         }
 
-        .ae-portal__megafactory--transition {
+        .ae-portal__emblem--transition {
           position: relative;
           z-index: 2;
+
           width: 100%;
           height: 100%;
         }
@@ -1517,13 +1228,14 @@ export default function ArcheNovaAetherionPortal() {
         .ae-portal__transition-halo {
           position: absolute;
           inset: 16%;
+
           border-radius: 50%;
 
           background:
             radial-gradient(
               circle,
-              rgba(220, 237, 249, 0.12),
-              rgba(220, 237, 249, 0.025) 40%,
+              rgba(233, 217, 229, 0.13),
+              rgba(233, 217, 229, 0.025) 40%,
               transparent 72%
             );
 
@@ -1533,6 +1245,7 @@ export default function ArcheNovaAetherionPortal() {
         .ae-portal__transition-target {
           position: absolute;
           z-index: 4;
+
           top: 50%;
           left: 50%;
 
@@ -1551,47 +1264,50 @@ export default function ArcheNovaAetherionPortal() {
 
         .ae-portal__transition-target-ring {
           position: absolute;
+
           width: 100%;
           aspect-ratio: 1;
 
           border:
-            1px solid rgba(238, 248, 255, 0.6);
+            1px solid rgba(250, 238, 244, 0.6);
 
           border-radius: 50%;
 
           box-shadow:
-            0 0 22px rgba(228, 243, 253, 0.15);
+            0 0 22px rgba(245, 224, 236, 0.15);
         }
 
         .ae-portal__transition-target-ring--two {
           width: 72%;
           border-color:
-            rgba(238, 248, 255, 0.32);
+            rgba(250, 238, 244, 0.32);
         }
 
         .ae-portal__transition-target-core {
           width: 26%;
           aspect-ratio: 1;
-          border-radius: 50%;
 
-          background: #e9f5fd;
+          border-radius: 50%;
+          background: #f4e9ee;
 
           box-shadow:
-            0 0 18px rgba(234, 247, 255, 0.75),
-            0 0 52px rgba(234, 247, 255, 0.25);
+            0 0 18px rgba(250, 235, 243, 0.65),
+            0 0 52px rgba(250, 235, 243, 0.2);
         }
 
         .ae-portal__transition-wave {
           position: absolute;
           z-index: 5;
+
           top: 50%;
           left: 50%;
 
           width: 12vmax;
           aspect-ratio: 1;
-          border-radius: 50%;
 
+          border-radius: 50%;
           background: #000;
+
           opacity: 0;
 
           transform:
@@ -1643,9 +1359,11 @@ export default function ArcheNovaAetherionPortal() {
         .ae-portal--entering
         .ae-portal__statement {
           opacity: 0;
+
           transform:
             translateY(-8px)
             scale(0.98);
+
           filter: blur(3px);
         }
 
@@ -1653,6 +1371,7 @@ export default function ArcheNovaAetherionPortal() {
         .ae-portal__stage {
           opacity: 0;
           transform: scale(0.975);
+
           filter:
             brightness(0.35)
             blur(8px);
@@ -1662,6 +1381,7 @@ export default function ArcheNovaAetherionPortal() {
         .ae-portal__transition {
           opacity: 1;
           visibility: visible;
+
           transition: opacity 0.12s ease;
         }
 
@@ -1693,60 +1413,24 @@ export default function ArcheNovaAetherionPortal() {
         }
 
         .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__dock-assembly {
+        .ae-portal__emblem--transition
+        .ae-portal__emblem-axis--one {
           animation:
-            ae-dock-activate 0.3s ease forwards;
+            ae-entry-axis-one 0.9s ease-in-out forwards;
         }
 
         .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__dock-assembly--1 {
-          animation-delay: 0.12s;
-        }
-
-        .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__dock-assembly--2 {
-          animation-delay: 0.23s;
-        }
-
-        .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__dock-assembly--3 {
-          animation-delay: 0.34s;
-        }
-
-        .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__dock-assembly--4 {
-          animation-delay: 0.45s;
-        }
-
-        .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__dock-assembly--5 {
-          animation-delay: 0.56s;
-        }
-
-        .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__dock-assembly--6 {
-          animation-delay: 0.67s;
-        }
-
-        .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__rear-ring {
+        .ae-portal__emblem--transition
+        .ae-portal__emblem-axis--two {
           animation:
-            ae-ring-align 0.9s ease-in-out forwards;
+            ae-entry-axis-two 0.9s ease-in-out forwards;
         }
 
         .ae-portal--entering
-        .ae-portal__megafactory--transition
-        .ae-portal__upper-ring {
+        .ae-portal__emblem--transition
+        .ae-portal__emblem-axis--three {
           animation:
-            ae-upper-ring-align 0.9s ease-in-out forwards;
+            ae-entry-axis-three 0.9s ease-in-out forwards;
         }
 
         .ae-portal--entering
@@ -1799,158 +1483,112 @@ export default function ArcheNovaAetherionPortal() {
           }
 
           50% {
-            opacity: 0.82;
-            transform: scale(1.05);
-          }
-        }
-
-        @keyframes ae-orbit-one {
-          0%, 100% {
-            opacity: 0.45;
-            transform: rotate(-19deg);
-          }
-
-          50% {
             opacity: 0.8;
-            transform: rotate(-13deg);
+            transform: scale(1.04);
           }
         }
 
-        @keyframes ae-orbit-two {
-          0%, 100% {
-            opacity: 0.35;
-            transform: rotate(24deg);
-          }
-
-          50% {
-            opacity: 0.72;
-            transform: rotate(18deg);
-          }
-        }
-
-        @keyframes ae-factory-float {
+        @keyframes ae-emblem-float {
           0%, 100% {
             transform:
-              translateY(3px)
-              scale(0.992);
+              translateY(2px)
+              scale(0.994);
           }
 
           50% {
             transform:
-              translateY(-4px)
-              scale(1.012);
+              translateY(-3px)
+              scale(1.006);
           }
         }
 
-        @keyframes ae-ring-breathe {
+        @keyframes ae-axis-one {
+          0%, 100% {
+            transform: rotate(0deg);
+          }
+
+          50% {
+            transform: rotate(7deg);
+          }
+        }
+
+        @keyframes ae-axis-two {
+          0%, 100% {
+            transform: rotate(60deg);
+          }
+
+          50% {
+            transform: rotate(53deg);
+          }
+        }
+
+        @keyframes ae-axis-three {
+          0%, 100% {
+            transform: rotate(-60deg);
+          }
+
+          50% {
+            transform: rotate(-53deg);
+          }
+        }
+
+        @keyframes ae-orbital-current {
+          from {
+            stroke-dashoffset: 0;
+          }
+
+          to {
+            stroke-dashoffset: -1301;
+          }
+        }
+
+        @keyframes ae-center-breathe {
+          0%, 100% {
+            transform: scale(0.985);
+          }
+
+          50% {
+            transform: scale(1.025);
+          }
+        }
+
+        @keyframes ae-nucleus-breathe {
           0%, 100% {
             opacity: 0.84;
-            transform: scale(0.996);
           }
 
           50% {
             opacity: 1;
-            transform: scale(1.004);
-          }
-        }
-
-        @keyframes ae-upper-ring-breathe {
-          0%, 100% {
-            opacity: 0.82;
-            transform: scale(0.994);
-          }
-
-          50% {
-            opacity: 1;
-            transform: scale(1.006);
-          }
-        }
-
-        @keyframes ae-spine-current {
-          from {
-            stroke-dashoffset: 0;
-          }
-
-          to {
-            stroke-dashoffset: -72;
-          }
-        }
-
-        @keyframes ae-ring-current {
-          from {
-            stroke-dashoffset: 0;
-          }
-
-          to {
-            stroke-dashoffset: -108;
-          }
-        }
-
-        @keyframes ae-transfer-current {
-          from {
-            stroke-dashoffset: 0;
-          }
-
-          to {
-            stroke-dashoffset: -72;
-          }
-        }
-
-        @keyframes ae-core-breathe {
-          0%, 100% {
-            opacity: 0.45;
-            transform: scale(0.9);
-          }
-
-          50% {
-            opacity: 0.9;
-            transform: scale(1.12);
           }
         }
 
         @keyframes ae-aperture-breathe {
           0%, 100% {
-            opacity: 0.78;
-            transform: scale(0.98);
+            stroke-opacity: 0.48;
           }
 
           50% {
-            opacity: 1;
-            transform: scale(1.05);
+            stroke-opacity: 0.85;
           }
         }
 
-        @keyframes ae-core-light {
+        @keyframes ae-seed-breathe {
           0%, 100% {
-            opacity: 0.55;
-            transform: scale(0.85);
+            opacity: 0.52;
           }
 
           50% {
-            opacity: 1;
-            transform: scale(1.13);
+            opacity: 0.95;
           }
         }
 
-        @keyframes ae-dock-breathe {
+        @keyframes ae-marker-breathe {
           0%, 100% {
-            opacity: 0.72;
-          }
-
-          50% {
-            opacity: 1;
-          }
-        }
-
-        @keyframes ae-service-craft {
-          0%, 100% {
-            transform: translate(0, 0);
             opacity: 0.4;
           }
 
           50% {
-            transform: translate(-7px, 4px);
-            opacity: 0.78;
+            opacity: 0.9;
           }
         }
 
@@ -1961,8 +1599,8 @@ export default function ArcheNovaAetherionPortal() {
           }
 
           50% {
-            opacity: 0.78;
-            transform: scaleX(1.06);
+            opacity: 0.72;
+            transform: scaleX(1.05);
           }
         }
 
@@ -1999,6 +1637,7 @@ export default function ArcheNovaAetherionPortal() {
         @keyframes ae-grid-enter {
           0% {
             opacity: 0;
+
             transform:
               perspective(800px)
               rotateX(68deg)
@@ -2011,6 +1650,7 @@ export default function ArcheNovaAetherionPortal() {
 
           100% {
             opacity: 0;
+
             transform:
               perspective(800px)
               rotateX(68deg)
@@ -2048,53 +1688,52 @@ export default function ArcheNovaAetherionPortal() {
           }
         }
 
-        @keyframes ae-dock-activate {
+        @keyframes ae-entry-axis-one {
           0% {
-            opacity: 0.25;
-            filter: brightness(0.7);
-          }
-
-          100% {
-            opacity: 1;
-            filter:
-              brightness(1.45)
-              drop-shadow(
-                0 0 7px rgba(233, 247, 255, 0.52)
-              );
-          }
-        }
-
-        @keyframes ae-ring-align {
-          0% {
-            transform: scale(0.996);
+            transform: rotate(0deg);
           }
 
           70% {
-            transform: scale(1.03);
+            transform: rotate(5deg);
           }
 
           100% {
-            transform: scale(1);
+            transform: rotate(0deg);
           }
         }
 
-        @keyframes ae-upper-ring-align {
+        @keyframes ae-entry-axis-two {
           0% {
-            transform: scale(0.994);
+            transform: rotate(60deg);
           }
 
           70% {
-            transform: scale(1.04);
+            transform: rotate(65deg);
           }
 
           100% {
-            transform: scale(1);
+            transform: rotate(60deg);
+          }
+        }
+
+        @keyframes ae-entry-axis-three {
+          0% {
+            transform: rotate(-60deg);
+          }
+
+          70% {
+            transform: rotate(-65deg);
+          }
+
+          100% {
+            transform: rotate(-60deg);
           }
         }
 
         @keyframes ae-target-open {
           0%, 43% {
             opacity: 0;
+
             transform:
               translate(-50%, -50%)
               scale(0.35);
@@ -2102,6 +1741,7 @@ export default function ArcheNovaAetherionPortal() {
 
           62% {
             opacity: 1;
+
             transform:
               translate(-50%, -50%)
               scale(1);
@@ -2109,6 +1749,7 @@ export default function ArcheNovaAetherionPortal() {
 
           100% {
             opacity: 0;
+
             transform:
               translate(-50%, -50%)
               scale(18);
@@ -2132,6 +1773,7 @@ export default function ArcheNovaAetherionPortal() {
         @keyframes ae-wave-enter {
           0%, 73% {
             opacity: 0;
+
             transform:
               translate(-50%, -50%)
               scale(0.1);
@@ -2143,6 +1785,7 @@ export default function ArcheNovaAetherionPortal() {
 
           100% {
             opacity: 1;
+
             transform:
               translate(-50%, -50%)
               scale(19);
@@ -2157,57 +1800,65 @@ export default function ArcheNovaAetherionPortal() {
           .ae-portal__factory-button:hover
           .ae-portal__factory {
             transform:
-              translateY(-3px)
-              scale(1.025);
+              translateY(-2px)
+              scale(1.035);
           }
 
           .ae-portal__factory-button:hover
-          .ae-portal__megafactory {
+          .ae-portal__emblem {
             filter:
               drop-shadow(
-                0 21px 28px rgba(0, 0, 0, 0.65)
+                0 15px 22px rgba(0, 0, 0, 0.43)
               )
               drop-shadow(
-                0 0 21px rgba(219, 237, 249, 0.1)
+                0 0 13px rgba(244, 226, 237, 0.11)
               );
           }
 
           .ae-portal__factory-button:hover
           .ae-portal__tap-hint {
             color: rgba(255, 255, 255, 0.67);
-            transform: translate(-50%, -2px);
+
+            transform:
+              translate(-50%, -2px);
           }
         }
 
         /* ==================================================
-           MOBILE — SHOW ALL CONTENT
+           MOBILE — PRESERVE NATURAL PAGE/CARD SCROLL
 
-           Natural stage height allows the HOME card's
-           existing scroll owner to reach the footer.
+           Do not give the Portal a fixed height on mobile.
+           The footer remains in the normal content flow.
         ================================================== */
 
         @media (max-width: 700px) {
           .ae-portal {
+            display: block;
+
             min-height: 0;
             height: auto;
             max-height: none;
+
             overflow: visible;
           }
 
           .ae-portal__stage {
+            display: grid;
+            grid-template-rows:
+              auto
+              minmax(min-content, 1fr)
+              auto;
+
             min-height:
               max(690px, calc(100svh - 42px));
 
             height: auto;
             max-height: none;
 
-            grid-template-rows:
-              auto
-              minmax(min-content, 1fr)
-              auto;
-
             padding: 25px 18px 23px;
+
             overflow: visible;
+            overscroll-behavior: auto;
           }
 
           .ae-portal__header {
@@ -2278,13 +1929,13 @@ export default function ArcheNovaAetherionPortal() {
           }
 
           .ae-portal__factory-button {
-            width: min(100%, 370px);
+            width: min(100%, 340px);
             margin-top: 12px;
           }
 
           .ae-portal__factory {
-            width: min(100%, 330px);
-            aspect-ratio: 1.1;
+            width: min(100%, 310px);
+            aspect-ratio: 1.12;
           }
 
           .ae-portal__tap-hint {
@@ -2342,7 +1993,7 @@ export default function ArcheNovaAetherionPortal() {
           }
 
           .ae-portal__factory {
-            width: min(100%, 295px);
+            width: min(100%, 285px);
           }
         }
 
@@ -2360,7 +2011,7 @@ export default function ArcheNovaAetherionPortal() {
           }
 
           .ae-portal__factory {
-            width: min(100%, 305px);
+            width: min(100%, 295px);
           }
 
           .ae-portal__footer > span {
@@ -2378,7 +2029,7 @@ export default function ArcheNovaAetherionPortal() {
           }
 
           .ae-portal__factory {
-            width: min(100%, 270px);
+            width: min(100%, 260px);
           }
 
           .ae-portal__eyebrow {
@@ -2397,21 +2048,32 @@ export default function ArcheNovaAetherionPortal() {
         @media (prefers-reduced-motion: reduce) {
           .ae-portal__indicator i,
           .ae-portal__factory-aura,
-          .ae-portal__factory-orbit,
           .ae-portal__factory-object,
-          .ae-portal__rear-ring,
-          .ae-portal__upper-ring,
-          .ae-portal__spine-light,
-          .ae-portal__ring-light,
-          .ae-portal__upper-current,
-          .ae-portal__transfer-current,
-          .ae-portal__core-halo,
-          .ae-portal__core-aperture,
-          .ae-portal__core-light,
-          .ae-portal__dock-assembly,
-          .ae-portal__service-craft,
+          .ae-portal__emblem-axis,
+          .ae-portal__emblem-current,
+          .ae-portal__emblem-center,
+          .ae-portal__emblem-nucleus,
+          .ae-portal__emblem-aperture,
+          .ae-portal__emblem-seed,
+          .ae-portal__emblem-marker,
           .ae-portal__factory-floor {
             animation: none !important;
+          }
+
+          /*
+           * Keep the three orbital axes in their
+           * intended static orientations.
+           */
+          .ae-portal__emblem-axis--one {
+            transform: rotate(0deg);
+          }
+
+          .ae-portal__emblem-axis--two {
+            transform: rotate(60deg);
+          }
+
+          .ae-portal__emblem-axis--three {
+            transform: rotate(-60deg);
           }
 
           .ae-portal__factory,
@@ -2429,14 +2091,8 @@ export default function ArcheNovaAetherionPortal() {
           .ae-portal--entering
           .ae-portal__transition-factory,
           .ae-portal--entering
-          .ae-portal__megafactory--transition
-          .ae-portal__dock-assembly,
-          .ae-portal--entering
-          .ae-portal__megafactory--transition
-          .ae-portal__rear-ring,
-          .ae-portal--entering
-          .ae-portal__megafactory--transition
-          .ae-portal__upper-ring,
+          .ae-portal__emblem--transition
+          .ae-portal__emblem-axis,
           .ae-portal--entering
           .ae-portal__transition-target,
           .ae-portal--entering
