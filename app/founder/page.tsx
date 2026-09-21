@@ -72,7 +72,7 @@ const DESTINATIONS = [
     subtitle:
       "Explore questions through dialogue and reasoning.",
     href: "/home/#episteme-dialogue",
-    mark: "✧",
+    mark: "☻",
   },
   {
     id: "inquiry",
@@ -80,14 +80,14 @@ const DESTINATIONS = [
     subtitle:
       "Encounter a question at the frontier of reality.",
     href: "/home/#todays-inquiry",
-    mark: "◌",
+    mark: "☁︎",
   },
   {
     id: "civilization",
     title: "CIVILIZATION SPACE",
     subtitle: "Preserve knowledge and understand change.",
     href: "/home/#civilization-space",
-    mark: "◇",
+    mark: "♦︎",
   },
   {
     id: "valley",
@@ -95,7 +95,7 @@ const DESTINATIONS = [
     subtitle:
       "Move from validated possibility to implementation.",
     href: "/home/#archenova-valley",
-    mark: "⌁",
+    mark: "⏥",
   },
   {
     id: "aetherion",
@@ -103,7 +103,7 @@ const DESTINATIONS = [
     subtitle:
       "Engineer, fabricate, test, and reproduce.",
     href: "/home/#aetherion",
-    mark: "⚛",
+    mark: "⚛︎",
   },
 ] as const;
 
