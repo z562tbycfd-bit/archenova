@@ -24,6 +24,9 @@ import ArcheNovaValleyPortal
 import ArcheNovaAetherionPortal
  from "../components/ArcheNovaAetherionPortal";
 
+ import FounderDigitalTwinPortal
+  from "../components/founder-digital-twin/FounderDigitalTwinPortal";
+
 
 /* ==========================================================
    HOME
@@ -94,12 +97,24 @@ export default function Home() {
 
       <MobileHomeScrollReset />
 
-
       {/* ==================================================
           HOME SECTION NAVIGATION
       ================================================== */}
 
       <HomeSectionPager />
+
+      {/* ==================================================
+    00 / FOUNDER DIGITAL TWIN
+    The origin of ArcheNova.
+    ================================================== */}
+    
+    <section
+  id="founder-digital-twin"
+  data-home-section
+  className="home-page twin-page founder-digital-twin-page"
+  >
+    <FounderDigitalTwinPortal />
+    </section>
 
 
       {/* ==================================================

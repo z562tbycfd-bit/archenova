@@ -66,7 +66,14 @@ type ChapterTarget = {
 const CHAPTER_TARGETS:
   readonly ChapterTarget[] = [
 
-  {
+    {
+  id: "founder-digital-twin",
+  mark: "☀︎",
+  title: "FOUNDER",
+  subtitle: "Why does ArcheNova exist?",
+},
+
+ {
     id:
       "archenova-search-section",
 
