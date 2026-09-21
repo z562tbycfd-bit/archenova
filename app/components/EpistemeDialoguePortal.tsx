@@ -2751,6 +2751,130 @@ export default function EpistemeDialoguePortal() {
               translate(-50%, -50%) scale(1);
           }
         }
+
+/* ==========================================================
+   EPISTEME HOME — FULL-HEIGHT LAYOUT ALIGNMENT
+
+   Match Civilization Space / Valley:
+   - header at the top
+   - experience distributed through the center
+   - footer at the bottom
+
+   HOME retains ownership of the outer glass card.
+   No additional glass surface is introduced.
+========================================================== */
+
+.ep-dialogue-portal {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  width: 100%;
+  min-height: 100%;
+}
+
+.ep-dialogue-portal__card {
+  flex: 1 0 auto;
+  width: 100%;
+  min-height: clamp(560px, 58vw, 700px);
+
+  display: grid;
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    auto;
+}
+
+.ep-dialogue-portal__experience {
+  align-self: stretch;
+  justify-content: center;
+}
+
+/* ==========================================================
+   MOBILE
+
+   The HOME card is tall on mobile. Give Episteme a
+   comparable vertical stage instead of allowing its
+   content to collapse into a short central block.
+
+   min-height rather than fixed height preserves access
+   to all content on smaller screens.
+========================================================== */
+
+@media (max-width: 700px) {
+  .ep-dialogue-portal {
+    min-height: max(690px, calc(100svh - 42px));
+  }
+
+  .ep-dialogue-portal__card {
+    height: auto;
+    min-height: max(690px, calc(100svh - 42px));
+    max-height: none;
+
+    grid-template-rows:
+      auto
+      minmax(0, 1fr)
+      auto;
+
+    padding: 25px 18px 23px;
+  }
+
+  .ep-dialogue-portal__top {
+    align-self: start;
+  }
+
+  .ep-dialogue-portal__experience {
+    align-self: stretch;
+    justify-content: center;
+
+    padding: 35px 0 30px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .ep-dialogue-portal__experience::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .ep-dialogue-portal__footer {
+    align-self: end;
+    margin-top: 0;
+  }
+}
+
+/* Keep the same full-height composition on short phones.
+   These rules override the existing short-mobile min-height: 0. */
+
+@media (max-width: 700px) and (max-height: 720px) {
+  .ep-dialogue-portal__card {
+    min-height: max(690px, calc(100svh - 42px));
+  }
+
+  .ep-dialogue-portal__experience {
+    padding: 25px 0 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .ep-dialogue-portal__card {
+    min-height: max(690px, calc(100svh - 42px));
+    padding: 25px 15px 21px;
+  }
+}
+
+@media (max-width: 360px) {
+  .ep-dialogue-portal__card {
+    min-height: max(690px, calc(100svh - 42px));
+    padding: 23px 13px 19px;
+  }
+}
+
       `}</style>
     </section>
   );
