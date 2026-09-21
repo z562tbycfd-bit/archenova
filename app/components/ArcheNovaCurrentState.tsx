@@ -60,12 +60,9 @@ export default function ArcheNovaCurrentState() {
       aria-labelledby="ancs-title"
     >
       <header className="ancs__header">
-        <span className="ancs__brand">
-          ARCHENOVA
-        </span>
 
         <span className="ancs__edition">
-          CURRENT STATE / 2026
+          CURRENT STATE / 2026.09
         </span>
       </header>
 
