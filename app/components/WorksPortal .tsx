@@ -466,32 +466,32 @@ export default function WorksPortal() {
           {/* The icon itself is the entrance. */}
 
           <a
-            href={DESTINATION}
-            className="aw-home-portal__entry"
-            aria-label="Enter the ArcheNova Works exhibition"
-            aria-busy={entering}
-            onClick={handleEntryLink}
-          >
-            <span className="aw-home-portal__artifact">
-              <span
-                className="aw-home-portal__gravity-field"
-                aria-hidden="true"
-              />
+ href={DESTINATION}
+ className="aw-home-portal__entry"
+ aria-label="Enter the ArcheNova Works exhibition"
+ aria-busy={entering}
+ onClick={handleEntryLink}
+>
+ <span className="aw-home-portal__artifact">
+   <span
+     className="aw-home-portal__gravity-field"
+     aria-hidden="true"
+   />
 
-              <span
-                className="aw-home-portal__aura"
-                aria-hidden="true"
-              />
+   <span
+     className="aw-home-portal__aura"
+     aria-hidden="true"
+   />
 
-              <span className="aw-home-portal__organ">
-                <WorksArtifact />
-              </span>
+   <span className="aw-home-portal__organ">
+     <WorksArtifact />
+   </span>
+ </span>
 
-              <span className="aw-home-portal__tap-hint">
-                Tap to enter the exhibition
-              </span>
-            </span>
-          </a>
+ <span className="aw-home-portal__tap-hint">
+   Tap to enter the exhibition
+ </span>
+</a>
         </div>
 
         {/* FOOTER — NO DIVIDER LINE */}
@@ -1206,40 +1206,39 @@ export default function WorksPortal() {
            NO HORIZONTAL DECORATIVE LINE.
         ================================================== */
 
-        .aw-home-portal__tap-hint {
-          position: absolute;
-          z-index: 10;
+       .aw-home-portal__tap-hint {
+ position: relative;
+ z-index: 10;
 
-          bottom: 1.5%;
-          left: 50%;
+ display: block;
 
-          max-width: 100%;
+ width: 100%;
+ max-width: 100%;
 
-          margin: 0;
-          padding: 0;
+ margin: 14px auto 0;
+ padding: 0;
 
-          transform: translateX(-50%);
+ border: 0 !important;
+ background: transparent !important;
+ box-shadow: none !important;
 
-          border: 0 !important;
-          background: transparent !important;
-          box-shadow: none !important;
+ color: rgba(255, 255, 255, .32);
 
-          color: rgba(255, 255, 255, .26);
+ font-size: 7px;
+ font-weight: 500;
+ line-height: 1.5;
+ letter-spacing: .12em;
 
-          font-size: 7px;
-          font-weight: 500;
-          letter-spacing: .12em;
+ text-align: center;
+ text-decoration: none !important;
+ white-space: nowrap;
 
-          text-decoration: none !important;
-          white-space: nowrap;
+ pointer-events: none;
 
-          pointer-events: none;
-
-          transition:
-            color .4s ease,
-            transform .4s ease,
-            opacity .35s ease;
-        }
+ transition:
+   color .4s ease,
+   opacity .35s ease;
+}
 
         .aw-home-portal__tap-hint::before,
         .aw-home-portal__tap-hint::after {
@@ -2385,6 +2384,99 @@ export default function WorksPortal() {
             transition: none !important;
           }
         }
+          /* ==================================================
+   WORKS ENTRY — ICON / LABEL SEPARATION
+
+   The icon is the entrance.
+   The label occupies its own row below the icon.
+   No additional glass or decorative line.
+================================================== */
+
+.aw-home-portal__entry {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+
+  width: min(100%, 520px);
+}
+
+.aw-home-portal__artifact {
+  flex: 0 0 auto;
+
+  width: min(100%, 390px);
+  aspect-ratio: 1.22;
+}
+
+.aw-home-portal__tap-hint {
+  position: relative !important;
+
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+
+  flex: 0 0 auto;
+
+  width: 100%;
+  margin: 14px auto 0;
+
+  transform: none !important;
+
+  overflow: visible;
+  text-overflow: clip;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .aw-home-portal__entry:hover
+  .aw-home-portal__tap-hint {
+    transform: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .aw-home-portal__entry {
+    width: min(100%, 350px);
+  }
+
+  .aw-home-portal__artifact {
+    width: min(100%, 265px);
+    aspect-ratio: 1.17;
+  }
+
+  .aw-home-portal__tap-hint {
+    margin-top: 12px;
+
+    font-size: 5.5px;
+    letter-spacing: .1em;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 720px) {
+  .aw-home-portal__artifact {
+    width: min(100%, 235px);
+  }
+
+  .aw-home-portal__tap-hint {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .aw-home-portal__artifact {
+    width: min(100%, 250px);
+  }
+
+  .aw-home-portal__tap-hint {
+    margin-top: 12px;
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 360px) {
+  .aw-home-portal__artifact {
+    width: min(100%, 225px);
+  }
+}
       `}</style>
     </section>
   );
