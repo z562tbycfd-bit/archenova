@@ -6,6 +6,7 @@ import {
   useId,
   useRef,
   useState,
+  type CSSProperties,
 } from "react";
 
 import { createPortal } from "react-dom";
@@ -14,28 +15,17 @@ import { useRouter } from "next/navigation";
 /* ==========================================================
    ARCHENOVA FOUNDER DIGITAL TWIN PORTAL
 
-   HOME owns the only outer glass card.
+   HOME owns the outer card and bottom navigation.
 
-   Desktop:
-   - the portal stage scrolls internally when constrained
-   - its scrollbar remains invisible
-   - header and footer remain reachable
+   LAYOUT
+   - Match the three-row Episteme portal layout.
+   - Keep header, experience, and footer inside HOME's card.
+   - Allow the central experience to shrink when necessary.
+   - Keep the original figure SVG and visual treatment.
+   - Preserve the /founder entry interaction and transition.
 
-   Mobile:
-   - natural content height
-   - HOME retains its existing scrolling behavior
-
-   Entry:
-   - only the human-shaped icon is the entry button
-   - viewport-centered transition rendered under body
-   - destination: /founder
-   - standard transition: 1700 ms
-
-   ENTRY VISUAL:
-   - cosmic alignment
-   - founder silhouette illuminated from within
-   - stellar ignition
-   - a luminous solar horizon
+   HOME navigation dimensions and positioning remain
+   controlled by the HOME component.
 ========================================================== */
 
 function FounderFigure({
@@ -124,7 +114,6 @@ function FounderFigure({
         </filter>
       </defs>
 
-      {/* Soft atmosphere around the figure. */}
       <ellipse
         className="fdp-figure__atmosphere"
         cx="150"
@@ -134,7 +123,6 @@ function FounderFigure({
         fill={`url(#${aura})`}
       />
 
-      {/* Long, translucent silhouette. */}
       <path
         className="fdp-figure__body"
         d="
@@ -163,7 +151,6 @@ function FounderFigure({
         fill={`url(#${body})`}
       />
 
-      {/* Primary luminous outline. */}
       <g
         className="fdp-figure__outline"
         stroke={`url(#${gold})`}
@@ -227,7 +214,6 @@ function FounderFigure({
         />
       </g>
 
-      {/* Diffused edge light. */}
       <g
         className="fdp-figure__halo-lines"
         stroke="#f5d595"
@@ -263,7 +249,6 @@ function FounderFigure({
         />
       </g>
 
-      {/* Fine flowing strands from the reference image. */}
       <g
         className="fdp-figure__strands"
         stroke={`url(#${gold})`}
@@ -297,7 +282,6 @@ function FounderFigure({
         />
       </g>
 
-      {/* Subtle internal light. */}
       <g className="fdp-figure__light-points">
         {[
           [148, 84, 1.2],
@@ -337,10 +321,7 @@ function FounderFigure({
 }
 
 /* ==========================================================
-   VIEWPORT-CENTERED ENTRY
-
-   All new visual layers belong exclusively to the
-   entry overlay. The HOME portal remains unchanged.
+   ENTRY TRANSITION
 ========================================================== */
 
 function FounderEntryTransition({
@@ -361,8 +342,6 @@ function FounderEntryTransition({
       <div className="fdp-entry__space" />
       <div className="fdp-entry__stars" />
 
-      {/* Distant orbital geometry connecting the figure
-          to the surrounding cosmos. */}
       <div className="fdp-entry__cosmos">
         <span className="fdp-entry__orbit fdp-entry__orbit--one" />
         <span className="fdp-entry__orbit fdp-entry__orbit--two" />
@@ -373,13 +352,10 @@ function FounderEntryTransition({
 
       <div className="fdp-entry__light" />
 
-      {/* The founder appears before the solar ignition. */}
       <div className="fdp-entry__figure">
         <FounderFigure transition />
       </div>
 
-      {/* The stellar core is centered on the figure's chest.
-          It grows into the sun as the silhouette dissolves. */}
       <div className="fdp-entry__stellar-origin">
         <div className="fdp-entry__solar-corona" />
         <div className="fdp-entry__solar-rays" />
@@ -388,7 +364,6 @@ function FounderEntryTransition({
         <div className="fdp-entry__solar-heart" />
       </div>
 
-      {/* Fine light particles expand from the ignition point. */}
       <div className="fdp-entry__particles">
         {Array.from({ length: 16 }, (_, index) => (
           <span
@@ -401,13 +376,12 @@ function FounderEntryTransition({
                   92 + (index % 4) * 36
                 }px`,
                 "--fdp-delay": `${(index % 5) * 0.045}s`,
-              } as React.CSSProperties
+              } as CSSProperties
             }
           />
         ))}
       </div>
 
-      {/* A warm solar horizon replaces the former black wave. */}
       <div className="fdp-entry__wave" />
 
       <div className="fdp-entry__copy">
@@ -503,8 +477,6 @@ export default function FounderDigitalTwinPortal() {
             aria-hidden="true"
           />
 
-          {/* HEADER */}
-
           <header className="fdp-portal__header">
             <div className="fdp-portal__identity">
               <span>ARCHENOVA</span>
@@ -516,8 +488,6 @@ export default function FounderDigitalTwinPortal() {
               <span>FOUNDER PRESENCE</span>
             </div>
           </header>
-
-          {/* CENTRAL EXPERIENCE */}
 
           <div className="fdp-portal__experience">
             <div className="fdp-portal__statement">
@@ -531,8 +501,6 @@ export default function FounderDigitalTwinPortal() {
                 behind ArcheNova.
               </h2>
             </div>
-
-            {/* ONLY THE FIGURE IS THE ENTRY BUTTON */}
 
             <button
               type="button"
@@ -572,12 +540,12 @@ export default function FounderDigitalTwinPortal() {
             </div>
           </div>
 
-          {/* FOOTER */}
-
           <footer className="fdp-portal__footer">
             <span>ARCHENOVA / ORIGIN</span>
             <i aria-hidden="true" />
-            <span>CIVILIZATION CAN BE INTENTIONALLY DESIGNED</span>
+            <span>
+              CIVILIZATION CAN BE INTENTIONALLY DESIGNED
+            </span>
           </footer>
         </div>
       </section>
@@ -590,7 +558,7 @@ export default function FounderDigitalTwinPortal() {
 
       <style jsx global>{`
         /* ==================================================
-           ROOT — HOME OWNS THE ONLY OUTER GLASS
+           ROOT — EPIS­TEME-STYLE CARD PARTICIPATION
         ================================================== */
 
         .fdp-portal,
@@ -606,15 +574,18 @@ export default function FounderDigitalTwinPortal() {
 
         .fdp-portal {
           position: relative;
+
           display: flex;
           flex-direction: column;
           align-self: stretch;
 
+          flex: 1 0 auto;
+
           width: 100%;
           max-width: 100%;
           min-width: 0;
-          min-height: 0;
-          height: 100%;
+          min-height: 100%;
+          height: auto;
 
           margin: 0;
           padding: 0;
@@ -637,21 +608,22 @@ export default function FounderDigitalTwinPortal() {
         }
 
         .fdp-portal,
-        .fdp-portal__stage {
+        .fdp-portal__stage,
+        .fdp-portal__experience {
           scrollbar-width: none;
           -ms-overflow-style: none;
         }
 
         .fdp-portal::-webkit-scrollbar,
-        .fdp-portal__stage::-webkit-scrollbar {
+        .fdp-portal__stage::-webkit-scrollbar,
+        .fdp-portal__experience::-webkit-scrollbar {
+          display: none;
           width: 0;
           height: 0;
-          display: none;
-          background: transparent;
         }
 
         /* ==================================================
-           STAGE
+           STAGE — HEADER / EXPERIENCE / FOOTER
         ================================================== */
 
         .fdp-portal__stage {
@@ -661,24 +633,21 @@ export default function FounderDigitalTwinPortal() {
           display: grid;
           grid-template-rows:
             auto
-            minmax(min-content, 1fr)
+            minmax(0, 1fr)
             auto;
 
-          flex: 1 1 auto;
+          flex: 1 0 auto;
 
           width: 100%;
           min-width: 0;
-          min-height: 0;
-          height: 100%;
-          max-height: 100%;
 
-          padding: clamp(22px, 3vw, 38px);
+          min-height: clamp(560px, 58vw, 700px);
+          height: auto;
+          max-height: none;
 
-          overflow-x: hidden;
-          overflow-y: auto;
+          padding: clamp(18px, 2.5vw, 32px);
 
-          overscroll-behavior-y: contain;
-          -webkit-overflow-scrolling: touch;
+          overflow: hidden;
 
           border: 0;
           border-radius: 0;
@@ -846,15 +815,14 @@ export default function FounderDigitalTwinPortal() {
 
           width: 100%;
           min-width: 0;
-          min-height: min-content;
-          height: auto;
+          min-height: 0;
 
           padding:
-            clamp(16px, 2.2vw, 27px)
+            clamp(12px, 2vw, 24px)
             0
-            clamp(13px, 2vw, 22px);
+            clamp(10px, 1.6vw, 18px);
 
-          overflow: visible;
+          overflow: hidden;
         }
 
         .fdp-portal__statement {
@@ -864,10 +832,11 @@ export default function FounderDigitalTwinPortal() {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 13px;
+          gap: 12px;
 
           width: 100%;
           min-width: 0;
+
           text-align: center;
 
           transition:
@@ -900,7 +869,7 @@ export default function FounderDigitalTwinPortal() {
         }
 
         /* ==================================================
-           FIGURE BUTTON
+           FIGURE BUTTON — ORIGINAL SVG PRESERVED
         ================================================== */
 
         .fdp-portal__figure-button {
@@ -908,11 +877,13 @@ export default function FounderDigitalTwinPortal() {
           z-index: 6;
 
           display: block;
+          flex: 0 1 auto;
+
           width: min(100%, 360px);
           min-width: 0;
 
           margin:
-            clamp(6px, 1vw, 12px)
+            clamp(5px, 0.8vw, 10px)
             auto
             0;
 
@@ -1097,7 +1068,7 @@ export default function FounderDigitalTwinPortal() {
           gap: 14px;
 
           width: 100%;
-          margin-top: 8px;
+          margin-top: 7px;
 
           color: rgba(255, 255, 255, 0.32);
           font-size: 7px;
@@ -1120,7 +1091,7 @@ export default function FounderDigitalTwinPortal() {
         }
 
         /* ==================================================
-           FOOTER
+           FOOTER — ALWAYS THE THIRD GRID ROW
         ================================================== */
 
         .fdp-portal__footer {
@@ -1135,8 +1106,8 @@ export default function FounderDigitalTwinPortal() {
           align-self: end;
 
           width: 100%;
-          min-height: 24px;
-          padding-top: 16px;
+          min-height: 20px;
+          padding-top: 12px;
 
           border-top:
             1px solid rgba(255, 255, 255, 0.055);
@@ -1175,7 +1146,6 @@ export default function FounderDigitalTwinPortal() {
           place-items: center;
 
           width: 100%;
-          height: 100%;
           height: 100dvh;
 
           margin: 0;
@@ -1256,10 +1226,6 @@ export default function FounderDigitalTwinPortal() {
             );
         }
 
-        /* ==================================================
-           NEW ENTRY VISUAL — COSMIC CONNECTION
-        ================================================== */
-
         .fdp-entry__cosmos {
           position: absolute;
           z-index: 2;
@@ -1285,7 +1251,9 @@ export default function FounderDigitalTwinPortal() {
 
           display: block;
 
-          border: 1px solid rgba(255, 218, 156, 0.24);
+          border:
+            1px solid rgba(255, 218, 156, 0.24);
+
           border-radius: 50%;
 
           box-shadow:
@@ -1346,10 +1314,6 @@ export default function FounderDigitalTwinPortal() {
             );
         }
 
-        /* ==================================================
-           NEW ENTRY VISUAL — FOUNDER
-        ================================================== */
-
         .fdp-entry__figure {
           position: absolute;
           z-index: 3;
@@ -1394,10 +1358,6 @@ export default function FounderDigitalTwinPortal() {
           transform-box: fill-box;
           transform-origin: center;
         }
-
-        /* ==================================================
-           NEW ENTRY VISUAL — SOLAR IGNITION
-        ================================================== */
 
         .fdp-entry__stellar-origin {
           position: absolute;
@@ -1553,10 +1513,6 @@ export default function FounderDigitalTwinPortal() {
             0 0 60px 28px rgba(255, 236, 183, 0.5);
         }
 
-        /* ==================================================
-           NEW ENTRY VISUAL — STELLAR PARTICLES
-        ================================================== */
-
         .fdp-entry__particles {
           position: absolute;
           z-index: 4;
@@ -1594,10 +1550,6 @@ export default function FounderDigitalTwinPortal() {
             translateX(0)
             scale(0.2);
         }
-
-        /* ==================================================
-           NEW ENTRY VISUAL — SOLAR HORIZON
-        ================================================== */
 
         .fdp-entry__wave {
           position: absolute;
@@ -1798,7 +1750,7 @@ export default function FounderDigitalTwinPortal() {
         }
 
         /* ==================================================
-           AMBIENT ANIMATIONS — UNCHANGED
+           AMBIENT ANIMATIONS
         ================================================== */
 
         @keyframes fdp-indicator-breathe {
@@ -1904,7 +1856,7 @@ export default function FounderDigitalTwinPortal() {
         }
 
         /* ==================================================
-           ENTRY ANIMATIONS — 1700ms TIMELINE
+           ENTRY ANIMATIONS — 1700ms
         ================================================== */
 
         @keyframes fdp-space-enter {
@@ -2297,7 +2249,7 @@ export default function FounderDigitalTwinPortal() {
         }
 
         /* ==================================================
-           HOVER — UNCHANGED
+           HOVER
         ================================================== */
 
         @media (hover: hover) and (pointer: fine) {
@@ -2329,49 +2281,70 @@ export default function FounderDigitalTwinPortal() {
         }
 
         /* ==================================================
-           MOBILE — NATURAL HOME SCROLL
+           MOBILE — MATCH EPISTEME'S CARD STRUCTURE
+
+           Do not switch the stage to an auto-height
+           flex column. Keep the three-row grid so the
+           footer stays at the bottom of the portal.
         ================================================== */
 
         @media (max-width: 700px) {
           .fdp-portal {
-            display: block;
+            display: flex;
+            flex-direction: column;
+            align-self: stretch;
 
-            min-height: 0;
+            flex: 1 0 auto;
+
+            width: 100%;
+            min-width: 0;
+
+            min-height: max(
+              690px,
+              calc(100svh - 42px)
+            );
             height: auto;
             max-height: none;
 
-            overflow: visible;
+            overflow: hidden;
           }
 
           .fdp-portal__stage {
             display: grid;
             grid-template-rows:
               auto
-              minmax(min-content, 1fr)
+              minmax(0, 1fr)
               auto;
 
-            min-height:
-              max(690px, calc(100svh - 42px));
+            flex: 1 0 auto;
 
+            width: 100%;
+            min-width: 0;
+
+            min-height: max(
+              690px,
+              calc(100svh - 42px)
+            );
             height: auto;
             max-height: none;
 
             padding: 25px 18px 23px;
 
-            overflow: visible;
-            overscroll-behavior: auto;
+            overflow: hidden;
           }
 
           .fdp-portal__header {
-            grid-template-columns: minmax(0, 1fr);
-            justify-items: center;
-            row-gap: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            width: 100%;
           }
 
           .fdp-portal__identity {
-            grid-column: 1;
-            grid-row: 1;
-            gap: 7px;
+            gap: 5px;
           }
 
           .fdp-portal__identity > span {
@@ -2385,13 +2358,11 @@ export default function FounderDigitalTwinPortal() {
           }
 
           .fdp-portal__indicator {
-            grid-column: 1;
-            grid-row: 2;
-            justify-self: center;
+            justify-self: auto;
 
             gap: 6px;
 
-            font-size: 7px;
+            font-size: 6px;
             letter-spacing: 0.09em;
           }
 
@@ -2402,19 +2373,33 @@ export default function FounderDigitalTwinPortal() {
           }
 
           .fdp-portal__experience {
-            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
 
-            min-height: min-content;
+            align-self: stretch;
+
+            flex: 1 1 auto;
+
+            width: 100%;
+            min-width: 0;
+            min-height: 0;
             height: auto;
             max-height: none;
 
-            padding: 30px 0 24px;
-            overflow: visible;
+            padding: 35px 0 30px;
+
+            overflow-x: hidden;
+            overflow-y: auto;
+
+            overscroll-behavior-y: contain;
+            -webkit-overflow-scrolling: touch;
           }
 
           .fdp-portal__statement {
-            gap: 12px;
+            flex: 0 0 auto;
+            gap: 10px;
           }
 
           .fdp-portal__eyebrow {
@@ -2423,18 +2408,20 @@ export default function FounderDigitalTwinPortal() {
           }
 
           .fdp-portal__statement h2 {
-            font-size: clamp(33px, 9.2vw, 46px);
-            line-height: 1.035;
+            font-size: clamp(30px, 7.6vw, 39px);
+            line-height: 1.04;
             letter-spacing: -0.054em;
           }
 
           .fdp-portal__figure-button {
-            width: min(100%, 340px);
-            margin-top: 12px;
+            flex: 0 0 auto;
+
+            width: min(100%, 310px);
+            margin-top: 10px;
           }
 
           .fdp-portal__figure-space {
-            width: min(100%, 310px);
+            width: min(100%, 275px);
             aspect-ratio: 1.12;
           }
 
@@ -2444,6 +2431,8 @@ export default function FounderDigitalTwinPortal() {
           }
 
           .fdp-portal__sequence {
+            flex: 0 0 auto;
+
             gap: 10px;
             margin-top: 9px;
 
@@ -2452,18 +2441,24 @@ export default function FounderDigitalTwinPortal() {
           }
 
           .fdp-portal__sequence i {
-            width: 28px;
+            width: 24px;
           }
 
           .fdp-portal__footer {
+            flex: 0 0 auto;
             align-self: end;
-            gap: 9px;
-            padding-top: 15px;
+
+            gap: 7px;
+
+            width: 100%;
+            min-height: 20px;
+
+            padding-top: 12px;
           }
 
           .fdp-portal__footer > span {
-            font-size: 6px;
-            letter-spacing: 0.1em;
+            font-size: 5.5px;
+            letter-spacing: 0.08em;
           }
 
           .fdp-entry__figure {
@@ -2472,33 +2467,7 @@ export default function FounderDigitalTwinPortal() {
         }
 
         /* ==================================================
-           SHORT MOBILE
-        ================================================== */
-
-        @media (max-width: 700px) and (max-height: 720px) {
-          .fdp-portal__stage {
-            padding: 22px 17px 19px;
-          }
-
-          .fdp-portal__experience {
-            padding: 22px 0 18px;
-          }
-
-          .fdp-portal__statement h2 {
-            font-size: clamp(31px, 8.9vw, 42px);
-          }
-
-          .fdp-portal__figure-button {
-            margin-top: 7px;
-          }
-
-          .fdp-portal__figure-space {
-            width: min(100%, 285px);
-          }
-        }
-
-        /* ==================================================
-           SMALL MOBILE
+           NARROW MOBILE
         ================================================== */
 
         @media (max-width: 430px) {
@@ -2507,15 +2476,15 @@ export default function FounderDigitalTwinPortal() {
           }
 
           .fdp-portal__statement h2 {
-            font-size: clamp(32px, 9.5vw, 42px);
+            font-size: clamp(29px, 7.7vw, 36px);
           }
 
           .fdp-portal__figure-space {
-            width: min(100%, 295px);
+            width: min(100%, 260px);
           }
 
           .fdp-portal__footer > span {
-            font-size: 5.5px;
+            font-size: 5px;
           }
         }
 
@@ -2525,19 +2494,75 @@ export default function FounderDigitalTwinPortal() {
           }
 
           .fdp-portal__statement h2 {
-            font-size: clamp(29px, 9.2vw, 37px);
-          }
-
-          .fdp-portal__figure-space {
-            width: min(100%, 260px);
+            font-size: 26px;
           }
 
           .fdp-portal__eyebrow {
             font-size: 5.5px;
           }
 
+          .fdp-portal__figure-space {
+            width: min(100%, 235px);
+          }
+
           .fdp-portal__footer > span {
-            font-size: 5px;
+            font-size: 4.5px;
+          }
+        }
+
+        /* ==================================================
+           SHORT VIEWPORTS
+
+           Keep the Episteme-style card height.
+           Reduce only the figure's display box and
+           internal spacing when viewport height is short.
+        ================================================== */
+
+        @media (max-width: 700px) and (max-height: 760px) {
+          .fdp-portal__experience {
+            padding: 24px 0 20px;
+          }
+
+          .fdp-portal__statement {
+            gap: 8px;
+          }
+
+          .fdp-portal__figure-button {
+            margin-top: 6px;
+          }
+
+          .fdp-portal__figure-space {
+            width: min(100%, 245px);
+          }
+
+          .fdp-portal__sequence {
+            margin-top: 6px;
+          }
+        }
+
+        @media (max-width: 700px) and (max-height: 640px) {
+          .fdp-portal__experience {
+            padding: 18px 0 15px;
+          }
+
+          .fdp-portal__statement h2 {
+            font-size: clamp(26px, 7vw, 33px);
+          }
+
+          .fdp-portal__figure-space {
+            width: min(100%, 215px);
+          }
+        }
+
+        @media (max-width: 430px) and (max-height: 760px) {
+          .fdp-portal__figure-space {
+            width: min(100%, 235px);
+          }
+        }
+
+        @media (max-width: 430px) and (max-height: 640px) {
+          .fdp-portal__figure-space {
+            width: min(100%, 205px);
           }
         }
 
