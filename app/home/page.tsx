@@ -118,20 +118,23 @@ export default function Home() {
     <FounderDigitalTwinPortal />
     </section>
 
-{/* ==================================================
-    00 / ARCHENOVA CURRENT STATE
-    The current state of ArcheNova.
-    ================================================== */}
+ {/* ==================================================
+          01 / ARCHENOVA CURRENT STATE
+      ================================================== */}
 
-    <section
-  id="archenova-current-state-section"
-  data-home-section
-  className="home-page twin-page archenova-current-state-page"
->
-  <ArcheNovaCurrentState />
-</section>
+      <section
+        id="archenova-current-state-section"
+        data-home-section
+        className="
+          home-page
+          twin-page
+          archenova-current-state-page
+        "
+      >
+        <ArcheNovaCurrentState />
+      </section>
 
-
+      
 
 
       {/* ==================================================

@@ -52488,135 +52488,207 @@ section#civilization-space[data-home-section] {
 
 
 /* ==========================================================
-   ARCHENOVA — CURRENT STATE
-   FINAL HOME GLASS / EDITORIAL HORIZONTAL EXPERIENCE
+   ARCHENOVA CURRENT STATE
+   FINAL INTEGRATED HOME IMPLEMENTATION
 
-   STRUCTURE:
-   HOME section = the only glass surface
-   .ancs = transparent content
-   .ancs__rail = horizontal content track
+   ONE HOME SECTION = ONE GLASS SURFACE
 
-   No nested glass.
-   No external shadow.
-   No decorative pseudo-surfaces.
+   - Exact HOME common glass material
+   - No nested glass
+   - Horizontal current-state experience
+   - One slide per view on mobile
+   - Compact editorial typography
+   - Independent section containment
+   - No overlap with the next HOME section
 ========================================================== */
 
 
 /* ==========================================================
-   01 / THE ONE AND ONLY GLASS
+   01 / CURRENT STATE — COMMON HOME GLASS
 
-   Override legacy .home-page / .twin-page surfaces.
+   Identical optical material to the existing
+   SEARCH / EPISTEME / INQUIRY / VALLEY / AETHERION
+   HOME sections.
+
+   Do not add another glass surface inside.
 ========================================================== */
 
 .archenova-twin-home
-section#archenova-current-state-section {
+#archenova-current-state-section {
   position: relative !important;
+
   isolation: isolate !important;
-
-  display: block !important;
-
-  width: 100% !important;
-  min-width: 0 !important;
-
-  height: auto !important;
-  min-height: 0 !important;
-
-  margin: 0 !important;
-
-  padding: 0 !important;
-
-  overflow: hidden !important;
-
-  color: rgba(250, 251, 253, 0.97) !important;
 
   background:
     radial-gradient(
-      ellipse at 12% 0%,
-      rgba(255, 255, 255, 0.055) 0%,
-      rgba(255, 255, 255, 0.012) 35%,
-      transparent 66%
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
     ),
     linear-gradient(
       145deg,
-      rgba(19, 22, 27, 0.31) 0%,
-      rgba(8, 10, 14, 0.38) 48%,
-      rgba(0, 0, 0, 0.47) 100%
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
     ) !important;
 
   border:
-    1px solid rgba(255, 255, 255, 0.085)
+    1px solid
+    rgba(255, 255, 255, 0.065)
     !important;
 
   border-radius: 30px !important;
 
   -webkit-backdrop-filter:
-    blur(22px) saturate(106%) !important;
+    blur(22px)
+    saturate(106%)
+    !important;
 
   backdrop-filter:
-    blur(22px) saturate(106%) !important;
+    blur(22px)
+    saturate(106%)
+    !important;
 
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.065),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.012)
+    inset
+    0
+    1px
+    0
+    rgba(255, 255, 255, 0.040),
+
+    inset
+    0
+    -1px
+    0
+    rgba(255, 255, 255, 0.010)
     !important;
 
   outline: 0 !important;
 }
 
-/*
-   HOME global CSS disables section pseudo-elements.
-   Keep this section compatible with that rule.
-*/
+
+/* ==========================================================
+   02 / SECTION CONTAINMENT
+
+   Keep the HOME section inside its own allocated
+   layout area.
+
+   Do not force the section to grow beyond the
+   existing HOME page structure.
+========================================================== */
 
 .archenova-twin-home
-section#archenova-current-state-section::before,
+> section#archenova-current-state-section {
+  display: flex !important;
 
-.archenova-twin-home
-section#archenova-current-state-section::after {
-  content: none !important;
-  display: none !important;
+  flex-direction: column !important;
+
+  justify-content: center !important;
+
+  align-items: stretch !important;
+
+  min-width: 0 !important;
+
+  min-height: 0 !important;
+
+  overflow-x: hidden !important;
+
+  overflow-y: auto !important;
+
+  overscroll-behavior-y: contain !important;
+
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-gutter: auto !important;
 }
 
 
 /* ==========================================================
-   02 / TRANSPARENT CONTENT FOUNDATION
+   03 / NO LEGACY SECTION PSEUDO GLASS
+========================================================== */
+
+.archenova-twin-home
+#archenova-current-state-section::before,
+
+.archenova-twin-home
+#archenova-current-state-section::after {
+  content: none !important;
+
+  display: none !important;
+
+  position: static !important;
+
+  background: none !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   04 / TRANSPARENT INNER CONTENT
 ========================================================== */
 
 .archenova-twin-home
 #archenova-current-state-section
 .ancs {
-  --ancs-white: rgba(250, 251, 253, 0.97);
-  --ancs-secondary: rgba(228, 233, 240, 0.76);
-  --ancs-muted: rgba(218, 225, 234, 0.48);
-  --ancs-line: rgba(255, 255, 255, 0.105);
+  --ancs-text:
+    rgba(250, 252, 253, 0.96);
 
-  position: relative;
+  --ancs-secondary:
+    rgba(231, 237, 243, 0.74);
 
-  display: block;
+  --ancs-muted:
+    rgba(225, 234, 242, 0.52);
 
-  width: 100%;
-  min-width: 0;
+  --ancs-line:
+    rgba(255, 255, 255, 0.105);
 
-  margin: 0;
+  position: relative !important;
+
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  justify-content: center !important;
+
+  width: 100% !important;
+
+  min-width: 0 !important;
+
+  min-height: 0 !important;
+
+  height: auto !important;
+
+  margin: 0 !important;
 
   padding:
-    clamp(28px, 4.1vw, 62px)
-    clamp(24px, 5vw, 76px)
-    clamp(23px, 3vw, 42px);
+    clamp(22px, 3vw, 38px)
+    clamp(22px, 4vw, 52px)
+    clamp(20px, 3vw, 32px)
+    !important;
+
+  color: var(--ancs-text);
 
   background: transparent !important;
 
   border: 0 !important;
+
   border-radius: 0 !important;
 
   outline: 0 !important;
 
   -webkit-backdrop-filter: none !important;
+
   backdrop-filter: none !important;
 
   box-shadow: none !important;
-
-  color: var(--ancs-white);
 
   font-family:
     -apple-system,
@@ -52627,8 +52699,12 @@ section#archenova-current-state-section::after {
     sans-serif;
 
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
+
+
+/* ==========================================================
+   05 / CONTENT BOX SIZING
+========================================================== */
 
 .archenova-twin-home
 #archenova-current-state-section
@@ -52638,374 +52714,397 @@ section#archenova-current-state-section::after {
 #archenova-current-state-section
 .ancs * {
   box-sizing: border-box;
-  min-width: 0;
-}
 
-.archenova-twin-home
-#archenova-current-state-section
-.ancs a {
-  text-decoration: none;
+  min-width: 0;
 }
 
 
 /* ==========================================================
-   03 / MASTHEAD
+   06 / HEADER
 ========================================================== */
 
-.ancs__masthead {
+#archenova-current-state-section
+.ancs__header {
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
-  gap: 18px;
+  gap: 14px;
 }
 
-.ancs__brand {
-  display: inline-flex;
-  align-items: center;
 
-  gap: 11px;
+#archenova-current-state-section
+.ancs__brand,
 
-  color: var(--ancs-white);
-
+#archenova-current-state-section
+.ancs__header-right {
   font-size: 10px;
+
   font-weight: 600;
+
   line-height: 1.4;
-  letter-spacing: 0.20em;
+
+  letter-spacing: 0.15em;
 }
 
-.ancs__brand-symbol {
-  display: grid;
-  place-items: center;
 
-  width: 29px;
-  height: 29px;
-  flex: 0 0 29px;
-
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 50%;
-
-  color: rgba(250, 251, 253, 0.94);
-
-  font-size: 11px;
-  font-weight: 350;
-  letter-spacing: 0;
+#archenova-current-state-section
+.ancs__brand {
+  color: var(--ancs-text);
 }
 
-.ancs__masthead-right {
+
+#archenova-current-state-section
+.ancs__header-right {
   color: var(--ancs-muted);
-
-  font-size: 9px;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.14em;
 
   text-align: right;
 }
 
 
 /* ==========================================================
-   04 / HERO
-
-   Large editorial heading on the left.
-   Quiet explanatory copy on the right.
+   07 / INTRO
 ========================================================== */
 
-.ancs__hero {
-  display: grid;
-
-  grid-template-columns:
-    minmax(0, 1.35fr)
-    minmax(190px, 0.65fr);
-
-  align-items: end;
-
-  gap: clamp(25px, 5vw, 76px);
-
-  margin-top: clamp(39px, 5vw, 76px);
-  margin-bottom: clamp(36px, 4.6vw, 65px);
+#archenova-current-state-section
+.ancs__intro {
+  margin-top:
+    clamp(25px, 3.5vw, 48px);
 }
 
+
+#archenova-current-state-section
 .ancs__eyebrow {
   display: block;
 
-  margin-bottom: 17px;
-
-  color: var(--ancs-muted);
-
-  font-size: 10px;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.20em;
-}
-
-.ancs__title {
-  margin: 0;
-
-  color: var(--ancs-white);
-
-  font-size: clamp(57px, 7.3vw, 112px);
-  font-weight: 260;
-
-  line-height: 0.99;
-  letter-spacing: -0.078em;
-}
-
-.ancs__title span {
-  color: rgba(218, 227, 237, 0.55);
-}
-
-.ancs__hero-aside {
-  max-width: 320px;
-  padding-bottom: 8px;
-}
-
-.ancs__aside-rule {
-  display: block;
-
-  width: 29px;
-  height: 1px;
-
-  margin-bottom: 21px;
-
-  background: rgba(244, 248, 252, 0.48);
-}
-
-.ancs__hero-aside p {
-  margin: 0;
-
-  color: rgba(243, 246, 250, 0.90);
-
-  font-size: clamp(15px, 1.45vw, 19px);
-  font-weight: 360;
-
-  line-height: 1.6;
-  letter-spacing: -0.025em;
-}
-
-.ancs__aside-caption {
-  display: block;
-
-  margin-top: 21px;
+  margin: 0 0 11px;
 
   color: var(--ancs-muted);
 
   font-size: 9px;
+
   font-weight: 600;
+
+  line-height: 1.5;
+
+  letter-spacing: 0.15em;
+}
+
+
+#archenova-current-state-section
+.ancs__title {
+  margin: 0;
+
+  color: var(--ancs-text);
+
+  font-size:
+    clamp(43px, 5.3vw, 75px);
+
+  font-weight: 300;
+
+  line-height: 1.06;
+
+  letter-spacing: -0.065em;
+}
+
+
+#archenova-current-state-section
+.ancs__title span {
+  color:
+    rgba(206, 223, 237, 0.68);
+}
+
+
+#archenova-current-state-section
+.ancs__subtitle {
+  margin: 11px 0 0;
+
+  color: var(--ancs-secondary);
+
+  font-size:
+    clamp(12px, 1.1vw, 15px);
+
+  font-weight: 400;
+
   line-height: 1.6;
+}
+
+
+/* ==========================================================
+   08 / CONTENT
+========================================================== */
+
+#archenova-current-state-section
+.ancs__content {
+  width: 100%;
+
+  min-width: 0;
+
+  margin-top:
+    clamp(24px, 3vw, 38px);
+}
+
+
+#archenova-current-state-section
+.ancs__content-heading {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding-bottom: 12px;
+
+  border-bottom:
+    1px solid var(--ancs-line);
+
+  color: var(--ancs-muted);
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  line-height: 1.5;
+
   letter-spacing: 0.13em;
 }
 
 
-/* ==========================================================
-   05 / HORIZONTAL EDITORIAL RAIL
-
-   Three columns on wide screens.
-   Horizontal scroll on smaller screens.
-
-   No internal cards.
-========================================================== */
-
-.ancs__rail-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  gap: 16px;
-
-  padding-bottom: 14px;
-
-  border-bottom: 1px solid var(--ancs-line);
-
-  color: var(--ancs-muted);
-
-  font-size: 9px;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.16em;
-}
-
-.ancs__rail-hint {
+#archenova-current-state-section
+.ancs__swipe-label {
   display: none;
+
   text-align: right;
 }
 
-.ancs__rail {
+
+/* ==========================================================
+   09 / HORIZONTAL TRACK
+========================================================== */
+
+#archenova-current-state-section
+.ancs__track {
   display: grid;
 
   grid-template-columns:
     repeat(3, minmax(0, 1fr));
 
   width: 100%;
+
   min-width: 0;
 
   overflow-x: auto;
+
   overflow-y: hidden;
 
   scroll-snap-type: x proximity;
+
   overscroll-behavior-x: contain;
 
   -webkit-overflow-scrolling: touch;
 
-  scrollbar-width: thin;
+  scrollbar-width: none;
 
-  scrollbar-color:
-    rgba(238, 244, 250, 0.24)
-    transparent;
+  -ms-overflow-style: none;
 }
 
-.ancs__rail::-webkit-scrollbar {
-  height: 3px;
+
+#archenova-current-state-section
+.ancs__track::-webkit-scrollbar {
+  display: none;
+
+  width: 0;
+
+  height: 0;
 }
 
-.ancs__rail::-webkit-scrollbar-track {
-  background: transparent;
-}
 
-.ancs__rail::-webkit-scrollbar-thumb {
-  background: rgba(238, 244, 250, 0.24);
-  border-radius: 999px;
-}
+/* ==========================================================
+   10 / TRANSPARENT SLIDES
+========================================================== */
 
-.ancs__rail:focus-visible {
-  outline: 1px solid rgba(250, 252, 253, 0.8);
-  outline-offset: -2px;
-}
-
-.ancs__item {
+#archenova-current-state-section
+.ancs__slide {
   display: flex;
+
   flex-direction: column;
-  align-items: flex-start;
 
   min-width: 0;
-  min-height: 225px;
+
+  min-height: 160px;
 
   padding:
-    29px clamp(19px, 2.7vw, 41px)
-    27px;
+    21px
+    clamp(15px, 2vw, 28px)
+    20px;
 
   background: transparent !important;
-  border: 0;
-  border-radius: 0;
+
+  border: 0 !important;
+
+  border-radius: 0 !important;
+
+  -webkit-backdrop-filter: none !important;
+
+  backdrop-filter: none !important;
 
   box-shadow: none !important;
 
   scroll-snap-align: start;
 }
 
-.ancs__item:first-child {
+
+#archenova-current-state-section
+.ancs__slide:first-child {
   padding-left: 0;
 }
 
-.ancs__item:last-child {
+
+#archenova-current-state-section
+.ancs__slide:last-child {
   padding-right: 0;
 }
 
-.ancs__item + .ancs__item {
-  border-left: 1px solid var(--ancs-line);
-}
 
-.ancs__item-heading {
-  display: flex;
-  align-items: baseline;
-
-  gap: 14px;
-}
-
-.ancs__item-index {
-  color: rgba(223, 232, 241, 0.40);
-
-  font-size: 11px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-}
-
-.ancs__item-category {
-  color: rgba(228, 236, 244, 0.65);
-
-  font-size: 9px;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.13em;
-}
-
-.ancs__item-body {
-  width: 100%;
-}
-
-.ancs__item-body h3 {
-  margin: 21px 0 0;
-
-  color: var(--ancs-white);
-
-  font-size: clamp(20px, 2vw, 28px);
-  font-weight: 350;
-
-  line-height: 1.24;
-  letter-spacing: -0.043em;
-}
-
-.ancs__item-body p {
-  max-width: 330px;
-
-  margin: 12px 0 0;
-
-  color: var(--ancs-secondary);
-
-  font-size: 12px;
-  font-weight: 390;
-
-  line-height: 1.8;
-}
-
-.ancs__item-footnote {
-  display: block;
-
-  margin-top: auto;
-  padding-top: 25px;
-
-  color: var(--ancs-muted);
-
-  font-size: 9px;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.12em;
+#archenova-current-state-section
+.ancs__slide + .ancs__slide {
+  border-left:
+    1px solid var(--ancs-line)
+    !important;
 }
 
 
 /* ==========================================================
-   06 / FOOTER
+   11 / SLIDE CONTENT
 ========================================================== */
 
+#archenova-current-state-section
+.ancs__slide-top {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+
+#archenova-current-state-section
+.ancs__number {
+  color: var(--ancs-muted);
+
+  font-size: 10px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.04em;
+}
+
+
+#archenova-current-state-section
+.ancs__status {
+  color:
+    rgba(232, 240, 247, 0.72);
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  line-height: 1.5;
+
+  letter-spacing: 0.11em;
+}
+
+
+#archenova-current-state-section
+.ancs__slide-body {
+  width: 100%;
+
+  min-width: 0;
+}
+
+
+#archenova-current-state-section
+.ancs__slide-body h3 {
+  margin: 16px 0 0;
+
+  color: var(--ancs-text);
+
+  font-size:
+    clamp(21px, 2.2vw, 30px);
+
+  font-weight: 350;
+
+  line-height: 1.22;
+
+  letter-spacing: -0.04em;
+}
+
+
+#archenova-current-state-section
+.ancs__slide-body p {
+  max-width: 330px;
+
+  margin: 9px 0 0;
+
+  color: var(--ancs-secondary);
+
+  font-size: 12px;
+
+  font-weight: 400;
+
+  line-height: 1.65;
+}
+
+
+/* ==========================================================
+   12 / FOOTER
+========================================================== */
+
+#archenova-current-state-section
 .ancs__footer {
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
-  gap: 20px;
+  gap: 14px;
 
-  padding-top: 20px;
+  padding-top: 15px;
 
-  border-top: 1px solid var(--ancs-line);
+  border-top:
+    1px solid var(--ancs-line);
 }
 
+
+#archenova-current-state-section
 .ancs__pagination {
-  display: inline-flex;
+  display: flex;
+
   align-items: center;
 
-  gap: 8px;
+  gap: 5px;
 }
 
-.ancs__page-dot {
+
+#archenova-current-state-section
+.ancs__dot {
   display: grid;
+
   place-items: center;
 
   width: 28px;
+
   height: 28px;
 
   padding: 0;
 
   border: 0;
+
   border-radius: 999px;
 
   background: transparent;
@@ -53013,311 +53112,412 @@ section#archenova-current-state-section::after {
   cursor: pointer;
 }
 
-.ancs__page-dot span {
+
+#archenova-current-state-section
+.ancs__dot span {
   display: block;
 
-  width: 17px;
+  width: 15px;
+
   height: 2px;
 
   border-radius: 999px;
 
-  background: rgba(238, 245, 251, 0.23);
-
-  transition:
-    width 0.25s ease,
-    background 0.25s ease;
+  background:
+    rgba(239, 246, 252, 0.26);
 }
 
-.ancs__page-dot.is-active span {
-  width: 24px;
 
-  background: rgba(250, 252, 253, 0.94);
+#archenova-current-state-section
+.ancs__dot.is-active span {
+  width: 23px;
+
+  background:
+    rgba(250, 252, 253, 0.95);
 }
 
-.ancs__page-dot:focus-visible,
-.ancs__next:focus-visible {
-  outline: 2px solid rgba(250, 252, 253, 0.9);
-  outline-offset: 3px;
-}
 
+#archenova-current-state-section
 .ancs__next {
   display: inline-flex;
+
   align-items: center;
 
-  gap: 22px;
+  gap: 12px;
 
-  min-height: 43px;
+  min-height: 40px;
 
-  color: rgba(248, 251, 253, 0.91);
+  color: var(--ancs-text);
 
-  font-size: 10px;
+  font-size: 9px;
+
   font-weight: 600;
+
   line-height: 1.4;
-  letter-spacing: 0.11em;
 
-  transition: color 0.2s ease;
+  letter-spacing: 0.10em;
+
+  text-decoration: none;
+
+  white-space: nowrap;
 }
 
+
+#archenova-current-state-section
 .ancs__next-arrow {
-  display: grid;
-  place-items: center;
-
-  width: 35px;
-  height: 35px;
-
-  border: 1px solid rgba(255, 255, 255, 0.19);
-  border-radius: 50%;
-
-  background: rgba(255, 255, 255, 0.035);
-
   font-size: 16px;
-  font-weight: 350;
 
-  transition:
-    background 0.2s ease,
-    border-color 0.2s ease;
+  font-weight: 350;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .ancs__next:hover {
-    color: #ffffff;
-  }
 
-  .ancs__next:hover .ancs__next-arrow {
-    background: rgba(255, 255, 255, 0.11);
-    border-color: rgba(255, 255, 255, 0.38);
-  }
+#archenova-current-state-section
+.ancs__dot:focus-visible,
+
+#archenova-current-state-section
+.ancs__next:focus-visible {
+  outline:
+    2px solid rgba(250, 252, 253, 0.9);
+
+  outline-offset: 3px;
 }
 
 
 /* ==========================================================
-   07 / TABLET
+   13 / TABLET
+
+   Two-column visual width.
+   Horizontal scrolling remains available.
 ========================================================== */
 
 @media (max-width: 1024px) {
-  .ancs__rail-hint {
+
+  #archenova-current-state-section
+  .ancs__swipe-label {
     display: inline;
   }
 
-  .ancs__rail {
+  #archenova-current-state-section
+  .ancs__track {
     grid-template-columns:
-      repeat(3, minmax(270px, 47%));
+      repeat(3, minmax(250px, 56%));
 
     scroll-snap-type: x mandatory;
   }
 
-  .ancs__item {
-    padding-right: 25px;
-    padding-left: 25px;
+  #archenova-current-state-section
+  .ancs__slide {
+    padding-right: 21px;
+
+    padding-left: 21px;
   }
+
 }
 
 
 /* ==========================================================
-   08 / MOBILE
+   14 / MOBILE
 
-   Same single glass.
-   Editorial hero becomes one column.
-   Rail remains horizontal.
+   One slide per view.
+   No compressed three-column layout.
 ========================================================== */
 
 @media (max-width: 768px) {
-  .archenova-twin-home
-  section#archenova-current-state-section {
-    border-radius: 26px !important;
 
+  /* EXACT COMMON HOME MOBILE GLASS */
+
+  .archenova-twin-home
+  #archenova-current-state-section {
     background:
       radial-gradient(
-        ellipse at 12% 0%,
-        rgba(255, 255, 255, 0.045),
-        transparent 62%
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
       ),
       linear-gradient(
         145deg,
-        rgba(17, 19, 23, 0.25),
-        rgba(0, 0, 0, 0.36)
-      ) !important;
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      )
+      !important;
+
+    border:
+      1px solid
+      rgba(255, 255, 255, 0.060)
+      !important;
+
+    border-radius: 26px !important;
 
     -webkit-backdrop-filter:
-      blur(18px) saturate(104%) !important;
+      blur(18px)
+      saturate(104%)
+      !important;
 
     backdrop-filter:
-      blur(18px) saturate(104%) !important;
+      blur(18px)
+      saturate(104%)
+      !important;
+
+    box-shadow:
+      inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.035),
+
+      inset
+      0
+      -1px
+      0
+      rgba(255, 255, 255, 0.008)
+      !important;
+
+    outline: 0 !important;
   }
+
+
+  /* MOBILE SECTION CONTAINMENT */
+
+  .archenova-twin-home
+  > section#archenova-current-state-section {
+    justify-content: center !important;
+
+    overflow-x: hidden !important;
+
+    overflow-y: auto !important;
+  }
+
+
+  /* MOBILE INNER LAYOUT */
 
   .archenova-twin-home
   #archenova-current-state-section
   .ancs {
-    padding: 27px 23px 22px;
+    padding:
+      22px
+      21px
+      19px
+      !important;
   }
 
-  .ancs__masthead-right {
-    font-size: 8px;
-    letter-spacing: 0.08em;
-  }
 
-  .ancs__hero {
-    grid-template-columns: minmax(0, 1fr);
-
-    gap: 23px;
-
-    margin-top: 43px;
-    margin-bottom: 38px;
-  }
-
-  .ancs__eyebrow {
-    margin-bottom: 15px;
-    font-size: 9px;
-  }
-
-  .ancs__title {
-    font-size: clamp(55px, 11vw, 84px);
-  }
-
-  .ancs__hero-aside {
-    max-width: 420px;
-    padding-bottom: 0;
-  }
-
-  .ancs__aside-rule {
-    margin-bottom: 13px;
-  }
-
-  .ancs__hero-aside p {
-    font-size: 15px;
-  }
-
-  .ancs__aside-caption {
-    margin-top: 12px;
-    font-size: 8px;
-  }
-
-  .ancs__rail {
-    grid-template-columns:
-      repeat(3, minmax(240px, 85%));
-  }
-
-  .ancs__item {
-    min-height: 222px;
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-
-  .ancs__item-body h3 {
-    font-size: 23px;
-  }
-
-  .ancs__footer {
-    padding-top: 14px;
-  }
-}
-
-
-/* ==========================================================
-   09 / SMALL MOBILE
-========================================================== */
-
-@media (max-width: 430px) {
-  .archenova-twin-home
-  section#archenova-current-state-section {
-    border-radius: 22px !important;
-  }
-
-  .archenova-twin-home
   #archenova-current-state-section
-  .ancs {
-    padding: 22px 18px 18px;
-  }
+  .ancs__brand,
 
-  .ancs__brand {
-    gap: 8px;
-
+  #archenova-current-state-section
+  .ancs__header-right {
     font-size: 9px;
-    letter-spacing: 0.14em;
+
+    letter-spacing: 0.11em;
   }
 
-  .ancs__brand-symbol {
-    width: 26px;
-    height: 26px;
-    flex-basis: 26px;
+
+  #archenova-current-state-section
+  .ancs__intro {
+    margin-top: 25px;
   }
 
-  .ancs__hero {
-    margin-top: 37px;
-    margin-bottom: 32px;
-  }
 
+  #archenova-current-state-section
   .ancs__title {
-    font-size: clamp(49px, 12vw, 61px);
+    font-size:
+      clamp(38px, 9vw, 55px);
   }
 
-  .ancs__rail-heading {
-    font-size: 8px;
-    letter-spacing: 0.09em;
-  }
 
-  .ancs__rail {
-    grid-template-columns:
-      repeat(3, minmax(0, 91%));
-  }
+  #archenova-current-state-section
+  .ancs__subtitle {
+    margin-top: 8px;
 
-  .ancs__item {
-    min-height: 222px;
-
-    padding-right: 17px;
-    padding-left: 17px;
-  }
-
-  .ancs__item-body h3 {
-    font-size: 21px;
-  }
-
-  .ancs__item-body p {
     font-size: 12px;
   }
 
-  .ancs__next {
-    gap: 9px;
 
-    font-size: 8px;
-    letter-spacing: 0.05em;
+  #archenova-current-state-section
+  .ancs__content {
+    margin-top: 26px;
   }
 
-  .ancs__next-arrow {
-    width: 31px;
-    height: 31px;
+
+  #archenova-current-state-section
+  .ancs__track {
+    display: grid;
+
+    grid-template-columns:
+      repeat(3, minmax(0, 100%));
+
+    width: 100%;
+
+    min-width: 0;
+
+    overflow-x: auto;
+
+    overflow-y: hidden;
+
+    scroll-snap-type: x mandatory;
   }
+
+
+  #archenova-current-state-section
+  .ancs__slide,
+
+  #archenova-current-state-section
+  .ancs__slide:first-child,
+
+  #archenova-current-state-section
+  .ancs__slide:last-child {
+    min-height: 155px;
+
+    padding:
+      20px
+      2px
+      19px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__slide + .ancs__slide {
+    border-left: 0 !important;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__slide-body h3 {
+    margin-top: 15px;
+
+    font-size: 24px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__slide-body p {
+    max-width: 280px;
+
+    font-size: 12px;
+
+    line-height: 1.6;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__footer {
+    padding-top: 13px;
+  }
+
 }
 
 
 /* ==========================================================
-   10 / ACCESSIBILITY
+   15 / VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .archenova-twin-home
+  #archenova-current-state-section {
+    border-radius: 22px !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-current-state-section
+  .ancs {
+    padding:
+      20px
+      17px
+      17px
+      !important;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__intro {
+    margin-top: 22px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__title {
+    font-size:
+      clamp(36px, 9vw, 45px);
+  }
+
+
+  #archenova-current-state-section
+  .ancs__content {
+    margin-top: 23px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__slide {
+    min-height: 150px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__slide-body h3 {
+    font-size: 22px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__next {
+    gap: 8px;
+
+    font-size: 8px;
+
+    letter-spacing: 0.05em;
+  }
+
+}
+
+
+/* ==========================================================
+   16 / TOUCH SCROLLBAR
+
+   Hide the visual scrollbar.
+   Preserve horizontal swipe and vertical containment.
+========================================================== */
+
+@media (hover: none) and (pointer: coarse) {
+
+  .archenova-twin-home
+  #archenova-current-state-section
+  .ancs__track {
+    scrollbar-width: none !important;
+
+    -ms-overflow-style: none !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-current-state-section
+  .ancs__track::-webkit-scrollbar {
+    display: none !important;
+
+    width: 0 !important;
+
+    height: 0 !important;
+  }
+
+}
+
+
+/* ==========================================================
+   17 / REDUCED MOTION
 ========================================================== */
 
 @media (prefers-reduced-motion: reduce) {
-  .ancs__page-dot span,
-  .ancs__next,
-  .ancs__next-arrow {
-    transition: none;
+
+  #archenova-current-state-section
+  .ancs__track {
+    scroll-behavior: auto;
   }
+
 }
-
-@supports not (
-  (backdrop-filter: blur(1px)) or
-  (-webkit-backdrop-filter: blur(1px))
-) {
-  .archenova-twin-home
-  section#archenova-current-state-section {
-    background:
-      rgba(11, 14, 19, 0.94) !important;
-  }
-}
-
-
-
-
-
 
 
 

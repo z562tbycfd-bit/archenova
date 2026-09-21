@@ -1,59 +1,69 @@
 "use client";
 
-import Link from "next/link";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-const CURRENT_STATE = [
+type CurrentStateItem = {
+  number: string;
+  status: string;
+  title: string;
+  description: string;
+};
+
+const CURRENT_STATES: CurrentStateItem[] = [
   {
-    index: "01",
-    category: "AVAILABLE NOW",
-    title: "A space to explore.",
+    number: "01",
+    status: "AVAILABLE",
+    title: "Explore.",
     description:
-      "ArcheNova is publicly accessible as an evolving digital environment for scientific inquiry and civilization design.",
-    footnote: "PUBLIC DIGITAL EXPERIENCE",
+      "A public digital space for science and civilization design.",
   },
   {
-    index: "02",
-    category: "WORK IN PROGRESS",
-    title: "A system in formation.",
+    number: "02",
+    status: "IN DEVELOPMENT",
+    title: "Evolve.",
     description:
-      "Its interactive environments and research workflows continue to be developed, examined, and refined.",
-    footnote: "DEVELOPMENT IS ONGOING",
+      "Interactive systems and research workflows are being refined.",
   },
   {
-    index: "03",
-    category: "EVIDENCE & LIMITS",
-    title: "Reality remains the test.",
+    number: "03",
+    status: "EVIDENCE & LIMITS",
+    title: "Verify.",
     description:
-      "Implemented capabilities, research interpretations, and future concepts are not presented as equivalent achievements.",
-    footnote: "CLAIMS REMAIN BOUNDED",
+      "Concepts, implementations, and validated outcomes remain distinct.",
   },
-] as const;
+];
 
 export default function ArcheNovaCurrentState() {
-  const trackRef = useRef<HTMLDivElement>(null);
+  const trackRef = useRef<HTMLDivElement | null>(null);
+
   const [activeIndex, setActiveIndex] = useState(0);
 
-  function goTo(index: number) {
+  const [isPaused, setIsPaused] = useState(false);
+
+  const goTo = (index: number) => {
     const track = trackRef.current;
-    const item = track?.children.item(index);
 
-    if (!track || !(item instanceof HTMLElement)) return;
+    if (!track) return;
 
-    const reduceMotion = window.matchMedia(
+    const item = track.children.item(index);
+
+    if (!(item instanceof HTMLElement)) return;
+
+    const reducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
 
     track.scrollTo({
       left: item.offsetLeft - track.offsetLeft,
-      behavior: reduceMotion ? "auto" : "smooth",
+      behavior: reducedMotion ? "auto" : "smooth",
     });
 
     setActiveIndex(index);
-  }
+  };
 
-  function handleScroll() {
+  const handleScroll = () => {
     const track = trackRef.current;
+
     if (!track) return;
 
     const items = Array.from(track.children);
@@ -64,8 +74,12 @@ export default function ArcheNovaCurrentState() {
     items.forEach((item, index) => {
       if (!(item instanceof HTMLElement)) return;
 
-      const left = item.offsetLeft - track.offsetLeft;
-      const distance = Math.abs(track.scrollLeft - left);
+      const itemLeft =
+        item.offsetLeft - track.offsetLeft;
+
+      const distance = Math.abs(
+        track.scrollLeft - itemLeft,
+      );
 
       if (distance < closestDistance) {
         closestDistance = distance;
@@ -74,123 +88,195 @@ export default function ArcheNovaCurrentState() {
     });
 
     setActiveIndex(closestIndex);
-  }
+  };
+
+  useEffect(() => {
+    if (isPaused) return;
+
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    if (reducedMotion) return;
+
+    const timer = window.setInterval(() => {
+      const track = trackRef.current;
+
+      if (!track) return;
+
+      const items = Array.from(track.children);
+
+      if (items.length === 0) return;
+
+      let closestIndex = 0;
+      let closestDistance = Infinity;
+
+      items.forEach((item, index) => {
+        if (!(item instanceof HTMLElement)) return;
+
+        const itemLeft =
+          item.offsetLeft - track.offsetLeft;
+
+        const distance = Math.abs(
+          track.scrollLeft - itemLeft,
+        );
+
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestIndex = index;
+        }
+      });
+
+      const nextIndex =
+        (closestIndex + 1) % items.length;
+
+      const nextItem = track.children.item(nextIndex);
+
+      if (!(nextItem instanceof HTMLElement)) return;
+
+      track.scrollTo({
+        left:
+          nextItem.offsetLeft -
+          track.offsetLeft,
+        behavior: "smooth",
+      });
+
+      setActiveIndex(nextIndex);
+    }, 6500);
+
+    return () => {
+      window.clearInterval(timer);
+    };
+  }, [isPaused]);
 
   return (
-    <div className="ancs">
-      <div className="ancs__masthead">
-        <div className="ancs__brand">
-          <span className="ancs__brand-symbol" aria-hidden="true">
-            A
-          </span>
-          <span>ARCHENOVA</span>
-        </div>
+    <div
+      className="ancs"
+      aria-labelledby="ancs-title"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+      onFocusCapture={() => setIsPaused(true)}
+      onBlurCapture={(event) => {
+        if (
+          !event.currentTarget.contains(
+            event.relatedTarget,
+          )
+        ) {
+          setIsPaused(false);
+        }
+      }}
+      onTouchStart={() => setIsPaused(true)}
+    >
+      <header className="ancs__header">
+        <span className="ancs__brand">
+          ARCHENOVA
+        </span>
 
-        <span className="ancs__masthead-right">
+        <span className="ancs__header-right">
+          CURRENT STATE
+        </span>
+      </header>
+
+      <div className="ancs__intro">
+        <span className="ancs__eyebrow">
           FOUNDER-LED INITIATIVE
         </span>
+
+        <h2
+          id="ancs-title"
+          className="ancs__title"
+        >
+          In motion<span>.</span>
+        </h2>
+
+        <p className="ancs__subtitle">
+          What exists. What comes next.
+        </p>
       </div>
 
-      <div className="ancs__hero">
-        <div className="ancs__hero-copy">
-          <span className="ancs__eyebrow">
-            THE PRESENT / 2026
-          </span>
+      <div className="ancs__content">
+        <div className="ancs__content-heading">
+          <span>THE PRESENT</span>
 
-          <h2 id="ancs-title" className="ancs__title">
-            Current
-            <br />
-            <span>State.</span>
-          </h2>
-        </div>
-
-        <div className="ancs__hero-aside">
-          <span className="ancs__aside-rule" aria-hidden="true" />
-
-          <p>
-            A living architecture.
-            <br />
-            An unfinished undertaking.
-          </p>
-
-          <span className="ancs__aside-caption">
-            WHAT EXISTS. WHAT IS EMERGING.
+          <span className="ancs__swipe-label">
+            SWIPE TO EXPLORE
+            <span aria-hidden="true"> ↔</span>
           </span>
         </div>
+
+        <div
+          ref={trackRef}
+          className="ancs__track"
+          role="region"
+          aria-label="ArcheNova current state"
+          tabIndex={0}
+          onScroll={handleScroll}
+        >
+          {CURRENT_STATES.map((item) => (
+            <article
+              key={item.number}
+              className="ancs__slide"
+            >
+              <div className="ancs__slide-top">
+                <span className="ancs__number">
+                  {item.number}
+                </span>
+
+                <span className="ancs__status">
+                  {item.status}
+                </span>
+              </div>
+
+              <div className="ancs__slide-body">
+                <h3>{item.title}</h3>
+
+                <p>{item.description}</p>
+              </div>
+            </article>
+          ))}
+        </div>
       </div>
 
-      <div className="ancs__rail-heading">
-        <span>THREE PERSPECTIVES</span>
-        <span className="ancs__rail-hint">
-          SWIPE TO EXPLORE <span aria-hidden="true">↔</span>
-        </span>
-      </div>
-
-      <div
-        ref={trackRef}
-        className="ancs__rail"
-        role="region"
-        aria-label="ArcheNova current state perspectives"
-        tabIndex={0}
-        onScroll={handleScroll}
-      >
-        {CURRENT_STATE.map((item) => (
-          <article className="ancs__item" key={item.index}>
-            <div className="ancs__item-heading">
-              <span className="ancs__item-index">
-                {item.index}
-              </span>
-
-              <span className="ancs__item-category">
-                {item.category}
-              </span>
-            </div>
-
-            <div className="ancs__item-body">
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-            </div>
-
-            <span className="ancs__item-footnote">
-              {item.footnote}
-            </span>
-          </article>
-        ))}
-      </div>
-
-      <div className="ancs__footer">
+      <footer className="ancs__footer">
         <div
           className="ancs__pagination"
-          aria-label="Choose a current state perspective"
+          aria-label="Current state navigation"
         >
-          {CURRENT_STATE.map((item, index) => (
+          {CURRENT_STATES.map((item, index) => (
             <button
-              key={item.index}
+              key={item.number}
               type="button"
               className={
                 activeIndex === index
-                  ? "ancs__page-dot is-active"
-                  : "ancs__page-dot"
+                  ? "ancs__dot is-active"
+                  : "ancs__dot"
               }
-              onClick={() => goTo(index)}
-              aria-label={`Show ${item.category}`}
+              aria-label={`Show ${item.status}`}
               aria-pressed={activeIndex === index}
+              onClick={() => {
+                setIsPaused(true);
+                goTo(index);
+              }}
             >
               <span />
             </button>
           ))}
         </div>
 
-        <Link
+        <a
           className="ancs__next"
-          href="/home#archenova-search-section"
+          href="#archenova-search-section"
         >
-          <span>EXPLORE THE ARCHITECTURE</span>
-          <span className="ancs__next-arrow" aria-hidden="true">
+          <span>EXPLORE THE MAP</span>
+
+          <span
+            className="ancs__next-arrow"
+            aria-hidden="true"
+          >
             ↗
           </span>
-        </Link>
-      </div>
+        </a>
+      </footer>
     </div>
   );
 }
