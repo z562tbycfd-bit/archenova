@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-09-21T04:14:52.170Z",
+  "updated": "2026-09-21T10:27:47.470Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Genes that help flatworms regenerate their brains revealed",
+      "url": "https://phys.org/news/2026-09-genes-flatworms-regenerate-brains-revealed.html",
+      "summary": "The human brain is terrible at healing itself from injury or disease. But some animals can harness their own cellular abilities not only to repair injuries but also to regrow their brains entirely. Researchers from the U…",
+      "ts": 1789981209000,
+      "publishedAt": "2026-09-21T09:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-powered barcode unmasks 'zombie cells' in aging tissue",
+      "url": "https://phys.org/news/2026-09-ai-powered-barcode-unmasks-zombie.html",
+      "summary": "As we age, some of the cells in our body enter a state of senescence, in which they stop dividing but do not die. Those senescent cells can contribute to age-related disorders such as cancer, tissue degeneration and infl…",
+      "ts": 1789981207000,
+      "publishedAt": "2026-09-21T09:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Children born today in Europe will live through almost twice as much extreme fire weather as their grandparents",
+      "url": "https://phys.org/news/2026-09-children-born-today-europe-extreme.html",
+      "summary": "A child born in Europe in 2025 will live through more than three additional years of extreme fire weather compared with someone born in 1950 if we continue with current climate policies, according to new research publish…",
+      "ts": 1789981203000,
+      "publishedAt": "2026-09-21T09:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Forest fire threatens tourist town in Colombian Andes",
+      "url": "https://phys.org/news/2026-09-forest-threatens-tourist-town-colombian.html",
+      "summary": "A forest fire was burning Sunday in central Colombia near the popular tourist town of Villa de Leyva, officials said.",
+      "ts": 1789978801000,
+      "publishedAt": "2026-09-21T08:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New Zealanders pick endangered black robin as Bird of the Year",
+      "url": "https://phys.org/news/2026-09-zealanders-endangered-black-robin-bird.html",
+      "summary": "A record number of New Zealanders turned out at the polls this month, not for national elections but to vote for their Bird of the Year—the critically endangered black robin.",
+      "ts": 1789978122000,
+      "publishedAt": "2026-09-21T08:08:42.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indonesia doing 'everything' but still struggling to curb fires",
+      "url": "https://phys.org/news/2026-09-indonesia-struggling-curb.html",
+      "summary": "Indonesia is doing \"everything\" to fight huge forest fires, but dozens of planes and thousands of personnel are still struggling to contain them, a senior official said Monday.",
+      "ts": 1789978084000,
+      "publishedAt": "2026-09-21T08:08:04.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Dual-Mode SERS and Colorimetric Sensor for Lung Cancer VOC-Biomarker Detection Using Hydrogel Patches",
@@ -751,54 +799,6 @@
       "title": "Complete Neural Electronic Initialization Accelerates Materials DFT",
       "url": "https://arxiv.org/abs/2609.21759",
       "summary": "arXiv:2609.21759v1 Announce Type: cross Abstract: We present the first complete machine learning method for accelerating plane-wave density functional theory (DFT) in materials under the projector augmented wave (PAW) fo…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stability Analysis of the Proton Hammerhead Distribution Observed by Parker Solar Probe: Linear Theory and Fully Kinetic Simulations under Idealised Conditions",
-      "url": "https://arxiv.org/abs/2609.21782",
-      "summary": "arXiv:2609.21782v1 Announce Type: cross Abstract: The non-adiabatic heating of the slow Solar Wind (SW) remains an open problem, with wave--particle interactions as a primary candidate mechanism. Novel in situ Parker Sol…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Physics-Informed Neural Networks for Stiff Guitar String Vibrations",
-      "url": "https://arxiv.org/abs/2609.21795",
-      "summary": "arXiv:2609.21795v1 Announce Type: cross Abstract: Modeling stiff string vibrations is challenging due to their dispersive and high-frequency characteristics. This study investigates the effectiveness of Physics-Informed …",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parameter-Decoupled Quantum Superresolution without Multiparameter Estimation",
-      "url": "https://arxiv.org/abs/2609.21796",
-      "summary": "arXiv:2609.21796v1 Announce Type: cross Abstract: Quantum superresolution promises to resolve closely spaced sources beyond the diffraction limit, but existing approaches generally rely on idealized source properties or …",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multivalley 3D Electronic Structure of PbSe from Soft-X-Ray ARPES and First-Principles Calculations",
-      "url": "https://arxiv.org/abs/2609.21824",
-      "summary": "arXiv:2609.21824v1 Announce Type: cross Abstract: PbSe is a narrow-gap IV-VI semiconductor, whose multivalley valence bands, with maxima at the L, $\\Sigma$, and $\\Delta$ points, underpin its intermediate-temperature ther…",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinearly Causal General-Relativistic Two-Fluid Dissipative Magnetohydrodynamics",
-      "url": "https://arxiv.org/abs/2609.21923",
-      "summary": "arXiv:2609.21923v1 Announce Type: cross Abstract: We present a formulation of general-relativistic (GR) 19-moment dissipative magnetohydrodynamics (MHD), capable of handling all first-order dissipative terms (viscosity, …",
-      "ts": 1789963200000,
-      "publishedAt": "2026-09-21T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-atom-based asynchronous photonic interconnect for scalable modular quantum computing",
-      "url": "https://arxiv.org/abs/2609.21961",
-      "summary": "arXiv:2609.21961v1 Announce Type: cross Abstract: Scaling quantum computation beyond the capacity of a single quantum processing unit requires quantum interconnects between modular processors. Optical photons are natural…",
       "ts": 1789963200000,
       "publishedAt": "2026-09-21T04:00:00.000Z"
     }
