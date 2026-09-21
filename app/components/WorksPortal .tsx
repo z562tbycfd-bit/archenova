@@ -14,27 +14,11 @@ import { useRouter } from "next/navigation";
    ARCHENOVA / WORKS PORTAL
    HOME EXHIBITION ENTRANCE
 
-   LAYOUT:
-   Match EpistemeDialoguePortal.
+   The outer HOME section owns the only glass surface.
 
-   HEADER
-   → CENTRAL STATEMENT
-   → EXHIBITION ARTIFACT / ENTRY
-   → FOOTER
-
-   GLASS OWNERSHIP:
-   The outer HOME section owns the only visible glass.
-   WorksPortal and all its layout surfaces are transparent.
-
-   INTERACTION:
-   Tap the artifact
-   → architectural planes separate
-   → a luminous passage opens
-   → full-screen exhibition transition
-   → navigate to /works
-
-   No external images.
-   No animation libraries.
+   The architectural artifact is the entrance.
+   No decorative line beneath the entrance.
+   No footer divider.
 ========================================================== */
 
 const DESTINATION = "/works";
@@ -42,9 +26,6 @@ const TRANSITION_MS = 1250;
 
 /* ==========================================================
    WORKS EXHIBITION ARTIFACT
-
-   A luminous architectural entrance.
-   Not an atom, orbit, or conventional app icon.
 ========================================================== */
 
 function WorksArtifact() {
@@ -66,35 +47,11 @@ function WorksArtifact() {
           y2="385"
           gradientUnits="userSpaceOnUse"
         >
-          <stop
-            offset="0%"
-            stopColor="#FFFFFF"
-            stopOpacity=".92"
-          />
-
-          <stop
-            offset="22%"
-            stopColor="#AAB6CB"
-            stopOpacity=".46"
-          />
-
-          <stop
-            offset="48%"
-            stopColor="#FFFFFF"
-            stopOpacity=".9"
-          />
-
-          <stop
-            offset="72%"
-            stopColor="#78879E"
-            stopOpacity=".32"
-          />
-
-          <stop
-            offset="100%"
-            stopColor="#FFFFFF"
-            stopOpacity=".74"
-          />
+          <stop offset="0%" stopColor="#FFFFFF" stopOpacity=".92" />
+          <stop offset="22%" stopColor="#AAB6CB" stopOpacity=".46" />
+          <stop offset="48%" stopColor="#FFFFFF" stopOpacity=".9" />
+          <stop offset="72%" stopColor="#78879E" stopOpacity=".32" />
+          <stop offset="100%" stopColor="#FFFFFF" stopOpacity=".74" />
         </linearGradient>
 
         <linearGradient
@@ -105,29 +62,10 @@ function WorksArtifact() {
           y2="350"
           gradientUnits="userSpaceOnUse"
         >
-          <stop
-            offset="0%"
-            stopColor="#F7FAFF"
-            stopOpacity=".46"
-          />
-
-          <stop
-            offset="34%"
-            stopColor="#CAD6EA"
-            stopOpacity=".12"
-          />
-
-          <stop
-            offset="72%"
-            stopColor="#FFFFFF"
-            stopOpacity=".06"
-          />
-
-          <stop
-            offset="100%"
-            stopColor="#D6E1F4"
-            stopOpacity=".28"
-          />
+          <stop offset="0%" stopColor="#F7FAFF" stopOpacity=".46" />
+          <stop offset="34%" stopColor="#CAD6EA" stopOpacity=".12" />
+          <stop offset="72%" stopColor="#FFFFFF" stopOpacity=".06" />
+          <stop offset="100%" stopColor="#D6E1F4" stopOpacity=".28" />
         </linearGradient>
 
         <linearGradient
@@ -138,69 +76,22 @@ function WorksArtifact() {
           y2="320"
           gradientUnits="userSpaceOnUse"
         >
-          <stop
-            offset="0%"
-            stopColor="#FFFFFF"
-            stopOpacity=".08"
-          />
-
-          <stop
-            offset="45%"
-            stopColor="#FFFFFF"
-            stopOpacity=".94"
-          />
-
-          <stop
-            offset="100%"
-            stopColor="#B5C8E8"
-            stopOpacity=".16"
-          />
+          <stop offset="0%" stopColor="#FFFFFF" stopOpacity=".08" />
+          <stop offset="45%" stopColor="#FFFFFF" stopOpacity=".94" />
+          <stop offset="100%" stopColor="#B5C8E8" stopOpacity=".16" />
         </linearGradient>
 
         <radialGradient id="aw-artifact-ambient">
-          <stop
-            offset="0%"
-            stopColor="#E7F0FF"
-            stopOpacity=".38"
-          />
-
-          <stop
-            offset="45%"
-            stopColor="#B4C7E9"
-            stopOpacity=".075"
-          />
-
-          <stop
-            offset="100%"
-            stopColor="#FFFFFF"
-            stopOpacity="0"
-          />
+          <stop offset="0%" stopColor="#E7F0FF" stopOpacity=".38" />
+          <stop offset="45%" stopColor="#B4C7E9" stopOpacity=".075" />
+          <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
         </radialGradient>
 
         <radialGradient id="aw-artifact-aperture">
-          <stop
-            offset="0%"
-            stopColor="#FFFFFF"
-            stopOpacity="1"
-          />
-
-          <stop
-            offset="16%"
-            stopColor="#F3F8FF"
-            stopOpacity=".88"
-          />
-
-          <stop
-            offset="44%"
-            stopColor="#B8C9E5"
-            stopOpacity=".18"
-          />
-
-          <stop
-            offset="100%"
-            stopColor="#FFFFFF"
-            stopOpacity="0"
-          />
+          <stop offset="0%" stopColor="#FFFFFF" stopOpacity="1" />
+          <stop offset="16%" stopColor="#F3F8FF" stopOpacity=".88" />
+          <stop offset="44%" stopColor="#B8C9E5" stopOpacity=".18" />
+          <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
         </radialGradient>
 
         <filter
@@ -412,12 +303,7 @@ function WorksArtifact() {
           strokeLinecap="round"
         />
 
-        <circle
-          cx="210"
-          cy="210"
-          r="3.2"
-          fill="#FFFFFF"
-        />
+        <circle cx="210" cy="210" r="3.2" fill="#FFFFFF" />
       </g>
 
       {/* Outer silhouette */}
@@ -522,9 +408,7 @@ export default function WorksPortal() {
     <section
       className={[
         "aw-home-portal",
-        entering
-          ? "aw-home-portal--entering"
-          : "",
+        entering ? "aw-home-portal--entering" : "",
       ]
         .filter(Boolean)
         .join(" ")}
@@ -533,7 +417,7 @@ export default function WorksPortal() {
       {/* HOME owns the only visible outer glass card. */}
 
       <div className="aw-home-portal__card">
-        {/* Internal atmosphere only — no glass surface. */}
+        {/* Internal atmosphere — no additional glass surface. */}
 
         <div
           className="aw-home-portal__ambient"
@@ -550,7 +434,7 @@ export default function WorksPortal() {
           aria-hidden="true"
         />
 
-        {/* HEADER — MATCH EPISTEME */}
+        {/* HEADER */}
 
         <header className="aw-home-portal__top">
           <div className="aw-home-portal__identity">
@@ -566,7 +450,7 @@ export default function WorksPortal() {
           </div>
         </header>
 
-        {/* CENTRAL EXPERIENCE — MATCH EPISTEME */}
+        {/* CENTRAL EXPERIENCE */}
 
         <div className="aw-home-portal__experience">
           <div className="aw-home-portal__statement">
@@ -579,7 +463,7 @@ export default function WorksPortal() {
             </h2>
           </div>
 
-          {/* The artifact is the central entrance. */}
+          {/* The icon itself is the entrance. */}
 
           <a
             href={DESTINATION}
@@ -589,15 +473,19 @@ export default function WorksPortal() {
             onClick={handleEntryLink}
           >
             <span className="aw-home-portal__artifact">
-              <span className="aw-home-portal__gravity-field" />
+              <span
+                className="aw-home-portal__gravity-field"
+                aria-hidden="true"
+              />
 
-              <span className="aw-home-portal__aura" />
+              <span
+                className="aw-home-portal__aura"
+                aria-hidden="true"
+              />
 
               <span className="aw-home-portal__organ">
                 <WorksArtifact />
               </span>
-
-              <span className="aw-home-portal__floor" />
 
               <span className="aw-home-portal__tap-hint">
                 Tap to enter the exhibition
@@ -606,7 +494,7 @@ export default function WorksPortal() {
           </a>
         </div>
 
-        {/* FOOTER — MATCH EPISTEME */}
+        {/* FOOTER — NO DIVIDER LINE */}
 
         <footer className="aw-home-portal__footer">
           <span>ARCHENOVA</span>
@@ -700,7 +588,6 @@ export default function WorksPortal() {
 
         /* ==================================================
            2. INTERNAL THREE-ROW LAYOUT
-           SAME STRUCTURE AS EPISTEME
         ================================================== */
 
         .aw-home-portal__card {
@@ -752,7 +639,6 @@ export default function WorksPortal() {
 
         /* ==================================================
            3. INTERNAL ATMOSPHERE
-           NO SECOND GLASS CARD
         ================================================== */
 
         .aw-home-portal__ambient {
@@ -850,7 +736,6 @@ export default function WorksPortal() {
 
         /* ==================================================
            4. HEADER
-           CENTER IDENTITY / RIGHT STATUS
         ================================================== */
 
         .aw-home-portal__top {
@@ -937,7 +822,6 @@ export default function WorksPortal() {
 
         /* ==================================================
            5. CENTRAL EXPERIENCE
-           SAME VERTICAL DISTRIBUTION AS EPISTEME
         ================================================== */
 
         .aw-home-portal__experience {
@@ -1039,10 +923,18 @@ export default function WorksPortal() {
 
         /* ==================================================
            7. CENTRAL ENTRY
-           SAME POSITION AS EPISTEME BRAIN BUTTON
+
+           ICON ONLY.
+           NO LINK UNDERLINE.
+           NO LINK PSEUDO-ELEMENTS.
+           NO DECORATIVE BOTTOM LINE.
         ================================================== */
 
-        .aw-home-portal__entry {
+        .aw-home-portal__entry,
+        .aw-home-portal__entry:link,
+        .aw-home-portal__entry:visited,
+        .aw-home-portal__entry:hover,
+        .aw-home-portal__entry:active {
           position: relative;
           z-index: 6;
 
@@ -1061,9 +953,9 @@ export default function WorksPortal() {
 
           border: 0 !important;
           border-radius: 0 !important;
-          outline: 0;
 
           background: transparent !important;
+          background-image: none !important;
 
           -webkit-backdrop-filter: none !important;
           backdrop-filter: none !important;
@@ -1071,11 +963,27 @@ export default function WorksPortal() {
           box-shadow: none !important;
 
           color: inherit;
-          text-decoration: none;
+
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          text-decoration-color: transparent !important;
 
           cursor: pointer;
 
           -webkit-tap-highlight-color: transparent;
+        }
+
+        .aw-home-portal__entry::before,
+        .aw-home-portal__entry::after {
+          content: none !important;
+          display: none !important;
+
+          width: 0 !important;
+          height: 0 !important;
+
+          border: 0 !important;
+          background: none !important;
+          box-shadow: none !important;
         }
 
         .aw-home-portal__entry:focus-visible {
@@ -1100,16 +1008,27 @@ export default function WorksPortal() {
           aspect-ratio: 1.22;
 
           margin: 0 auto;
+          padding: 0;
 
           overflow: visible;
 
-          background: transparent;
+          border: 0 !important;
+          background: transparent !important;
+          box-shadow: none !important;
+
+          text-decoration: none !important;
 
           transform: translateZ(0);
 
           transition:
             transform .75s
             cubic-bezier(.2, .8, .2, 1);
+        }
+
+        .aw-home-portal__artifact::before,
+        .aw-home-portal__artifact::after {
+          content: none !important;
+          display: none !important;
         }
 
         /* ==================================================
@@ -1191,6 +1110,10 @@ export default function WorksPortal() {
           width: 84%;
           height: 84%;
 
+          border: 0 !important;
+          background: transparent !important;
+          box-shadow: none !important;
+
           transform-style: preserve-3d;
 
           filter:
@@ -1211,6 +1134,12 @@ export default function WorksPortal() {
             filter .55s ease,
             transform .55s ease,
             opacity .55s ease;
+        }
+
+        .aw-home-portal__organ::before,
+        .aw-home-portal__organ::after {
+          content: none !important;
+          display: none !important;
         }
 
         .aw-home-portal__symbol {
@@ -1271,40 +1200,11 @@ export default function WorksPortal() {
         }
 
         /* ==================================================
-           10. FLOOR / TAP HINT
+           10. TAP HINT
+
+           NO FLOOR ELEMENT.
+           NO HORIZONTAL DECORATIVE LINE.
         ================================================== */
-
-        .aw-home-portal__floor {
-          position: absolute;
-          z-index: 3;
-
-          bottom: 16%;
-          left: 50%;
-
-          width: 49%;
-          height: 7%;
-
-          transform: translateX(-50%);
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              ellipse,
-              rgba(255, 255, 255, .047),
-              rgba(255, 255, 255, .008) 38%,
-              rgba(0, 0, 0, .24) 59%,
-              transparent 76%
-            );
-
-          filter: blur(9px);
-
-          opacity: .58;
-
-          animation:
-            awHomeFloorBreathe
-            10.8s ease-in-out infinite;
-        }
 
         .aw-home-portal__tap-hint {
           position: absolute;
@@ -1315,7 +1215,14 @@ export default function WorksPortal() {
 
           max-width: 100%;
 
+          margin: 0;
+          padding: 0;
+
           transform: translateX(-50%);
+
+          border: 0 !important;
+          background: transparent !important;
+          box-shadow: none !important;
 
           color: rgba(255, 255, 255, .26);
 
@@ -1323,7 +1230,10 @@ export default function WorksPortal() {
           font-weight: 500;
           letter-spacing: .12em;
 
+          text-decoration: none !important;
           white-space: nowrap;
+
+          pointer-events: none;
 
           transition:
             color .4s ease,
@@ -1331,9 +1241,17 @@ export default function WorksPortal() {
             opacity .35s ease;
         }
 
+        .aw-home-portal__tap-hint::before,
+        .aw-home-portal__tap-hint::after {
+          content: none !important;
+          display: none !important;
+        }
+
         /* ==================================================
            11. FOOTER
-           SAME BOTTOM ALIGNMENT AS EPISTEME
+
+           NO TOP BORDER.
+           NO PSEUDO-ELEMENT DIVIDER.
         ================================================== */
 
         .aw-home-portal__footer {
@@ -1355,14 +1273,21 @@ export default function WorksPortal() {
           margin-top: 0;
           padding-top: 18px;
 
-          border-top:
-            1px solid rgba(255, 255, 255, .035);
+          border: 0 !important;
+          background: transparent !important;
+          box-shadow: none !important;
 
           color: rgba(255, 255, 255, .2);
 
           text-align: center;
 
           transition: opacity .4s ease;
+        }
+
+        .aw-home-portal__footer::before,
+        .aw-home-portal__footer::after {
+          content: none !important;
+          display: none !important;
         }
 
         .aw-home-portal__footer > span {
@@ -1384,7 +1309,6 @@ export default function WorksPortal() {
 
         /* ==================================================
            12. FULL-SCREEN TRANSITION
-           ARCHITECTURAL PASSAGE
         ================================================== */
 
         .aw-home-portal__transition {
@@ -1765,8 +1689,6 @@ export default function WorksPortal() {
         .aw-home-portal--entering
         .aw-home-portal__aura,
         .aw-home-portal--entering
-        .aw-home-portal__floor,
-        .aw-home-portal--entering
         .aw-home-portal__tap-hint,
         .aw-home-portal--entering
         .aw-home-portal__footer {
@@ -1967,23 +1889,6 @@ export default function WorksPortal() {
           }
         }
 
-        @keyframes awHomeFloorBreathe {
-          0%,
-          100% {
-            opacity: .25;
-
-            transform:
-              translateX(-50%) scaleX(.84);
-          }
-
-          50% {
-            opacity: .58;
-
-            transform:
-              translateX(-50%) scaleX(1.07);
-          }
-        }
-
         @keyframes awHomeStatusBreathe {
           0%,
           100% {
@@ -2055,8 +1960,7 @@ export default function WorksPortal() {
           0% {
             opacity: 0;
 
-            transform:
-              scale(.35);
+            transform: scale(.35);
 
             filter: blur(6px);
           }
@@ -2068,8 +1972,7 @@ export default function WorksPortal() {
           65% {
             opacity: 1;
 
-            transform:
-              scale(1);
+            transform: scale(1);
 
             filter: blur(0);
           }
@@ -2077,8 +1980,7 @@ export default function WorksPortal() {
           100% {
             opacity: .24;
 
-            transform:
-              scale(1.8);
+            transform: scale(1.8);
 
             filter: blur(3px);
           }
@@ -2193,7 +2095,6 @@ export default function WorksPortal() {
 
         /* ==================================================
            18. MOBILE
-           MATCH EPISTEME FULL-HEIGHT COMPOSITION
         ================================================== */
 
         @media (max-width: 700px) {
@@ -2287,7 +2188,11 @@ export default function WorksPortal() {
             word-break: normal;
           }
 
-          .aw-home-portal__entry {
+          .aw-home-portal__entry,
+          .aw-home-portal__entry:link,
+          .aw-home-portal__entry:visited,
+          .aw-home-portal__entry:hover,
+          .aw-home-portal__entry:active {
             width: min(100%, 350px);
 
             flex: 0 0 auto;
@@ -2379,7 +2284,11 @@ export default function WorksPortal() {
               clamp(30px, 8.9vw, 40px);
           }
 
-          .aw-home-portal__entry {
+          .aw-home-portal__entry,
+          .aw-home-portal__entry:link,
+          .aw-home-portal__entry:visited,
+          .aw-home-portal__entry:hover,
+          .aw-home-portal__entry:active {
             margin-top: 1px;
           }
 
@@ -2465,7 +2374,6 @@ export default function WorksPortal() {
 
         /* ==================================================
            22. REDUCED MOTION
-           NAVIGATE WITHOUT THE ANIMATED TRANSITION
         ================================================== */
 
         @media (prefers-reduced-motion: reduce) {
