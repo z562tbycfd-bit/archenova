@@ -53261,3 +53261,419 @@ section#civilization-space[data-home-section] {
   }
 
 }
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA CURRENT STATE
+   REFINEMENT / SPACING + MINIMAL ARROWS
+
+   Preserve:
+   - Existing HOME single-glass surface
+   - Existing status switching
+   - Existing HOME section dimensions
+   - Existing HomeSectionPager
+
+   Remove:
+   - Current State footer / Explore Map
+   - Circular arrow appearance
+========================================================== */
+
+
+/* ==========================================================
+   01 / BALANCED INNER WIDTH
+========================================================== */
+
+.archenova-twin-home
+#archenova-current-state-section
+.ancs {
+  width: min(100%, 960px) !important;
+}
+
+
+/* ==========================================================
+   02 / MORE BREATHING ROOM
+========================================================== */
+
+#archenova-current-state-section
+.ancs__intro {
+  margin-top: clamp(42px, 7svh, 82px);
+}
+
+
+#archenova-current-state-section
+.ancs__subtitle {
+  margin-top: 18px;
+}
+
+
+#archenova-current-state-section
+.ancs__content {
+  margin-top: clamp(48px, 8svh, 92px);
+  padding-top: 25px;
+}
+
+
+#archenova-current-state-section
+.ancs__state {
+  min-height: clamp(220px, 28svh, 340px);
+
+  padding:
+    clamp(36px, 6svh, 70px)
+    0
+    clamp(34px, 5svh, 60px);
+}
+
+
+#archenova-current-state-section
+.ancs__state-description {
+  margin-top: 22px;
+}
+
+
+#archenova-current-state-section
+.ancs__state-detail {
+  margin-top: 22px;
+}
+
+
+#archenova-current-state-section
+.ancs__state-navigation {
+  padding-top: 22px;
+}
+
+
+/* ==========================================================
+   03 / REMOVE OLD FOOTER COMPLETELY
+========================================================== */
+
+#archenova-current-state-section
+.ancs__footer {
+  display: none !important;
+}
+
+
+/* ==========================================================
+   04 / MINIMAL LONG ARROWS
+========================================================== */
+
+#archenova-current-state-section
+.ancs__arrows {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+
+#archenova-current-state-section
+.ancs__arrow {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 58px;
+  height: 44px;
+
+  padding: 0;
+
+  color: rgba(250, 252, 253, 0.92);
+
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  cursor: pointer;
+
+  transition:
+    opacity 200ms ease,
+    transform 200ms ease;
+}
+
+
+#archenova-current-state-section
+.ancs__arrow-line {
+  position: relative;
+  display: block;
+
+  width: 38px;
+  height: 1px;
+
+  background: currentColor;
+
+  transition:
+    width 200ms ease;
+}
+
+
+/* Right arrowhead */
+
+#archenova-current-state-section
+.ancs__arrow--next
+.ancs__arrow-line::after {
+  content: "";
+
+  position: absolute;
+  right: 0;
+  top: 50%;
+
+  width: 9px;
+  height: 9px;
+
+  border-top: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+
+  transform:
+    translateY(-50%)
+    rotate(45deg);
+
+  transform-origin: center;
+}
+
+
+/* Left arrowhead */
+
+#archenova-current-state-section
+.ancs__arrow--previous
+.ancs__arrow-line::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  top: 50%;
+
+  width: 9px;
+  height: 9px;
+
+  border-bottom: 1px solid currentColor;
+  border-left: 1px solid currentColor;
+
+  transform:
+    translateY(-50%)
+    rotate(45deg);
+
+  transform-origin: center;
+}
+
+
+#archenova-current-state-section
+.ancs__arrow:disabled {
+  opacity: 0.22;
+  cursor: default;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+  #archenova-current-state-section
+  .ancs__arrow:not(:disabled):hover
+  .ancs__arrow-line {
+    width: 46px;
+  }
+}
+
+
+/* ==========================================================
+   05 / MOBILE SPACING
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-current-state-section
+  .ancs {
+    width: 100% !important;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__intro {
+    margin-top: clamp(38px, 6svh, 60px);
+  }
+
+
+  #archenova-current-state-section
+  .ancs__subtitle {
+    margin-top: 15px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__content {
+    margin-top: clamp(42px, 7svh, 66px);
+    padding-top: 22px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state {
+    min-height: clamp(235px, 31svh, 330px);
+
+    padding:
+      clamp(35px, 5svh, 55px)
+      0
+      clamp(38px, 6svh, 62px);
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state-description {
+    margin-top: 20px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state-detail {
+    margin-top: 20px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state-navigation {
+    padding-top: 18px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__arrows {
+    gap: 12px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__arrow {
+    width: 52px;
+    height: 44px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__arrow-line {
+    width: 33px;
+  }
+
+}
+
+
+/* ==========================================================
+   06 / SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  #archenova-current-state-section
+  .ancs__intro {
+    margin-top: 36px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__content {
+    margin-top: 40px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state {
+    min-height: 240px;
+
+    padding:
+      36px
+      0
+      42px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__arrows {
+    gap: 8px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__arrow {
+    width: 48px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__arrow-line {
+    width: 30px;
+  }
+
+}
+
+
+/* ==========================================================
+   07 / SHORT SCREENS
+
+   Prevent generous spacing from forcing content
+   underneath the next HOME section.
+========================================================== */
+
+@media (max-height: 720px) {
+
+  #archenova-current-state-section
+  .ancs__intro {
+    margin-top: 24px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__content {
+    margin-top: 28px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state {
+    min-height: 180px;
+    padding: 22px 0 24px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state-description {
+    margin-top: 12px;
+  }
+
+
+  #archenova-current-state-section
+  .ancs__state-detail {
+    margin-top: 12px;
+  }
+
+}
+
+
+/* ==========================================================
+   08 / REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  #archenova-current-state-section
+  .ancs__arrow,
+
+  #archenova-current-state-section
+  .ancs__arrow-line {
+    transition: none !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+

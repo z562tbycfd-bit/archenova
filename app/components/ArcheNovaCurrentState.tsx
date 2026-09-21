@@ -59,8 +59,6 @@ export default function ArcheNovaCurrentState() {
       className="ancs"
       aria-labelledby="ancs-title"
     >
-      {/* HEADER */}
-
       <header className="ancs__header">
         <span className="ancs__brand">
           ARCHENOVA
@@ -70,8 +68,6 @@ export default function ArcheNovaCurrentState() {
           CURRENT STATE / 2026
         </span>
       </header>
-
-      {/* INTRO */}
 
       <div className="ancs__intro">
         <span className="ancs__eyebrow">
@@ -89,8 +85,6 @@ export default function ArcheNovaCurrentState() {
           Publicly accessible. Continuously evolving.
         </p>
       </div>
-
-      {/* ACTIVE STATE */}
 
       <div className="ancs__content">
         <div className="ancs__content-top">
@@ -131,8 +125,6 @@ export default function ArcheNovaCurrentState() {
           </p>
         </div>
 
-        {/* STATE NAVIGATION */}
-
         <div className="ancs__state-navigation">
           <div
             className="ancs__pagination"
@@ -159,44 +151,34 @@ export default function ArcheNovaCurrentState() {
           <div className="ancs__arrows">
             <button
               type="button"
-              className="ancs__arrow"
+              className="ancs__arrow ancs__arrow--previous"
               aria-label="Previous current state"
               disabled={activeIndex === 0}
               onClick={() => goTo(activeIndex - 1)}
             >
-              ←
+              <span
+                className="ancs__arrow-line"
+                aria-hidden="true"
+              />
             </button>
 
             <button
               type="button"
-              className="ancs__arrow"
+              className="ancs__arrow ancs__arrow--next"
               aria-label="Next current state"
               disabled={
                 activeIndex === CURRENT_STATES.length - 1
               }
               onClick={() => goTo(activeIndex + 1)}
             >
-              →
+              <span
+                className="ancs__arrow-line"
+                aria-hidden="true"
+              />
             </button>
           </div>
         </div>
       </div>
-
-      {/* NEXT HOME ENVIRONMENT */}
-
-      <footer className="ancs__footer">
-        <span className="ancs__footer-label">
-          DISCOVER ARCHENOVA
-        </span>
-
-        <a
-          className="ancs__next"
-          href="#archenova-search-section"
-        >
-          EXPLORE MAP
-          <span aria-hidden="true">↴</span>
-        </a>
-      </footer>
     </div>
   );
 }
