@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-09-21T20:51:24.945Z",
+  "updated": "2026-09-21T23:54:15.231Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Members of Congress push back on plan to create a commission of political appointees to review NIH grants",
+      "url": "https://www.statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back/?utm_campaign=rss",
+      "summary": "Several members of Congress voiced strong opposition about a reported plan to create a panel of political appointees to sign off on NIH grants",
+      "ts": 1790029041000,
+      "publishedAt": "2026-09-21T22:17:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Advancing Cell Therapy for Cardiovascular Disease",
+      "url": "https://www.genengnews.com/multimedia/webinars/advancing-cell-therapy-for-cardiovascular-disease/",
+      "summary": "In this GEN webinar, our expert speaker Joshua Michael Hare, MD, will examine how therapeutically relevant research is helping shape the development of cell therapies for cardiovascular disease. The post Advancing Cell T…",
+      "ts": 1790028457000,
+      "publishedAt": "2026-09-21T22:07:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Embracing the Equinox",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/embracing-the-equinox/",
+      "summary": "Depending on your locale, equinoxes can be seen as harbingers of longer nights and gloomy weather, or promising beacons of nicer temperatures and more sunlight. Observing and predicting equinoxes is one of the earliest s…",
+      "ts": 1790027740000,
+      "publishedAt": "2026-09-21T21:55:40.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Emerging Trends in Fluid Transfers and Freeze-Thaw Workflows",
+      "url": "https://www.genengnews.com/multimedia/webinars/emerging-trends-in-fluid-transfers-and-freeze-thaw-workflows/",
+      "summary": "In this GEN webinar, our expert speakers will discuss the latest trends, challenges, and innovations shaping fluid transfer and freeze-thaw workflows. The post Emerging Trends in Fluid Transfers and Freeze-Thaw Workflows…",
+      "ts": 1790027663000,
+      "publishedAt": "2026-09-21T21:54:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory  ",
+      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
+      "summary": "The Republic of Albania signed the Artemis Accords Monday during a ceremony hosted by NASA at the agency’s headquarters in Washington, joining the coalition of like‑minded nations committed to the responsible and transpa…",
+      "ts": 1790025692000,
+      "publishedAt": "2026-09-21T21:21:32.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Kicks Off Nationwide Effort to Prepare Tomorrow’s Space Workforce",
+      "url": "https://www.nasa.gov/learning-resources/nasa-kicks-off-nationwide-effort-to-prepare-tomorrows-space-workforce/",
+      "summary": "NASA kicked off its State Hubs for Skilled Technical Workforce initiative Sept. 15, 2026 with awardees at Space Center Houston. Agency leadership convened State Hub partners to align strategy and build momentum while foc…",
+      "ts": 1790024584000,
+      "publishedAt": "2026-09-21T21:03:04.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "StockWatch: Novo’s 2030 Strategy Underwhelms Investors at Capital Markets Day",
@@ -19,6 +73,24 @@
       "ts": 1790022108000,
       "publishedAt": "2026-09-21T20:21:48.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Perseverance’s View of ‘Turquoise Bay’",
+      "url": "https://science.nasa.gov/photojournal/perseverances-view-of-turquoise-bay/",
+      "summary": "Description NASA’s Perseverance Mars rover used its Mastcam-Z camera to capture this 360-degree panorama of “Turquoise Bay,” a geologic area of interest in the “Margin Unit.” The 818 images used to create the natural-col…",
+      "ts": 1790018279000,
+      "publishedAt": "2026-09-21T19:17:59.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Reid Wiseman Attends Ravens vs. Saints Game",
+      "url": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-attends-ravens-vs-saints-game/",
+      "summary": "NASA astronaut and commander of the agency’s Artemis II mission, Reid Wiseman, a Baltimore native, takes a selfie with fans at an NFL game between the New Orleans Saints and the Baltimore Ravens at M&T Bank Stadium, Sund…",
+      "ts": 1790016193000,
+      "publishedAt": "2026-09-21T18:43:13.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NVIDIA",
@@ -46,6 +118,15 @@
       "ts": 1790011537000,
       "publishedAt": "2026-09-21T17:25:37.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Discovery Reveals Complex Water Systems on Early Mars",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+      "summary": "When NASA’s Perseverance rover reached the inner edge of Mars’ Jezero Crater in September 2023, mission scientists were surprised by what they found. Called the “Margin Unit,” the geologic area stretches along the shorel…",
+      "ts": 1790009683000,
+      "publishedAt": "2026-09-21T16:54:43.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NVIDIA",
@@ -208,6 +289,15 @@
       "ts": 1789992000000,
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN condemns attempted Houthi strike on Riyadh as Yemen displacement surges past 130,000",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168387",
+      "summary": "The UN has condemned continued cross‑border attacks by Houthi forces against Saudi Arabia, including an attempted strike on the capital Riyadh, as fighting inside Yemen drives one of the country’s fastest displacement su…",
+      "ts": 1789992000000,
+      "publishedAt": "2026-09-21T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -387,6 +477,15 @@
       "summary": "APODScienceAPODAPOD: 2026 September 21 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fa…",
       "ts": 1789963500000,
       "publishedAt": "2026-09-21T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Arctic Melt Season Length Levels Off",
+      "url": "https://science.nasa.gov/earth/earth-observatory/arctic-melt-season-length-levels-off/",
+      "summary": "While the sea ice melt season has lengthened dramatically in most of the satellite era, the trend unexpectedly stabilized around 2010.",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -712,105 +811,6 @@
       "ts": 1789762956000,
       "publishedAt": "2026-09-18T20:22:36.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media to Albania Artemis Accords Signing Ceremony",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
-      "summary": "The Republic of Albania will sign the Artemis Accords during a ceremony at 12 p.m. EDT on Monday, Sept. 21, at NASA Headquarters in Washington, becoming the 73rd country signatory. NASA Deputy Administrator Matt Anderson…",
-      "ts": 1789761368000,
-      "publishedAt": "2026-09-18T19:56:08.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’",
-      "url": "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/",
-      "summary": "Using data from the Japan-led XRISM (X-ray Imaging and Spectroscopy Mission) observatory, astronomers have directly observed a giant star’s outflow, called a stellar wind, being captured by its compact companion and prov…",
-      "ts": 1789754573000,
-      "publishedAt": "2026-09-18T18:02:53.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Time-Restricted Eating Linked to Improved Huntington’s Disease Markers",
-      "url": "https://www.genengnews.com/topics/translational-medicine/time-restricted-eating-linked-to-improved-huntingtons-disease-markers/",
-      "summary": "A 12-week pilot study found time-restricted eating was safe and feasible for people with early Huntington’s disease, with improvements in disease severity, neurofilament light, and mitochondrial function. The post Time-R…",
-      "ts": 1789752582000,
-      "publishedAt": "2026-09-18T17:29:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Asahi Kasei Introduces VANTIJ® SU-VFC Benchtop Virus-Filtration System",
-      "url": "https://www.genengnews.com/topics/bioprocessing/asahi-kasei-introduces-vantij-su-vfc-benchtop-virus-filtration-system/",
-      "summary": "The instrument, the first benchtop-scale platform in Asahi Kasei Bioprocess’s VANTIJ family, extends the automation and operator-focused design principles of the existing portfolio while simplifying virus filtration proc…",
-      "ts": 1789751970000,
-      "publishedAt": "2026-09-18T17:19:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "GBI Biomanufacturing Set to Launch SmartScale GMP Solutions",
-      "url": "https://www.genengnews.com/topics/bioprocessing/gbi-biomanufacturing-set-to-launch-smartscale-gmp-solutions/",
-      "summary": "Many early-stage drug developers need a more efficient path to obtaining the GMP material required to reach the clinic. SmartScale was designed to help close that gap. The post GBI Biomanufacturing Set to Launch SmartSca…",
-      "ts": 1789751926000,
-      "publishedAt": "2026-09-18T17:18:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Nu-Tek Brings Topic of Raw-Material Risk to BPI",
-      "url": "https://www.genengnews.com/topics/bioprocessing/nu-tek-brings-topic-of-raw-material-risk-to-bpi/",
-      "summary": "Nu-Tek BioSciences will use BPI East to highlight animal-origin-free peptones and hydrolysates designed to strengthen media consistency, reduce raw-material risk, and support more reliable cell culture and fermentation p…",
-      "ts": 1789751846000,
-      "publishedAt": "2026-09-18T17:17:26.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Model-Free, Pure Component Analysis Could Help Biopharma Cut Costs",
-      "url": "https://www.genengnews.com/topics/bioprocessing/model-free-pure-component-analysis-could-help-biopharma-cut-costs/",
-      "summary": "Spectroscopic analysis techniques rely on empirical models that are time consuming and expensive to make. Biopharma companies could speed development and reduce costs using a model-free measuring approach called pure-com…",
-      "ts": 1789751831000,
-      "publishedAt": "2026-09-18T17:17:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan",
-      "url": "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss",
-      "summary": "Several Texas hospitals are suing an out-of-state Blue Cross for unpaid medical claims, highlighting the varying standards for whether care is medically necessary.",
-      "ts": 1789749713000,
-      "publishedAt": "2026-09-18T16:41:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Saga of Sickle Cell Disease",
-      "url": "https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/",
-      "summary": "In his new book Curved Air, Kevin Davies, PhD, portrays the fascinating story of sickle cell disease, from its origins in sub-Saharan Africa to advances in gene therapy, along with powerful personal insights from patient…",
-      "ts": 1789748880000,
-      "publishedAt": "2026-09-18T16:28:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Two-Organ View of the Human Brain Emerges",
-      "url": "https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/",
-      "summary": "Research suggests that the brain is two distinct organs that evolved independently and comprise two ancient nervous systems packaged together: a hindbrain that regulates essential functions, and a forebrain that handles …",
-      "ts": 1789747454000,
-      "publishedAt": "2026-09-18T16:04:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
-      "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
-      "summary": "To continue regular crew transportation to the International Space Station, NASA has awarded SpaceX three additional missions through a contract modification.",
-      "ts": 1789747351000,
-      "publishedAt": "2026-09-18T16:02:31.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
