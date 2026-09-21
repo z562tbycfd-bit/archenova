@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-09-20T23:56:21.854Z",
+  "updated": "2026-09-21T04:14:54.325Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "Identifying Neural State Changes due to Gain versus Off-Manifold Displacement",
+      "url": "https://arxiv.org/abs/2609.21272",
+      "summary": "arXiv:2609.21272v1 Announce Type: new Abstract: Memory segmentation is thought to arise from rapid decorrelation in neural activity, often quantified by Euclidean distance or cosine angle. Although these metrics detect a…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "High Reconstruction Quality and Restart Repeatability Do Not Guarantee Recovery of Ground-Truth Muscle Synergies",
+      "url": "https://arxiv.org/abs/2609.21394",
+      "summary": "arXiv:2609.21394v1 Announce Type: new Abstract: High reconstruction quality and agreement across repeated fits do not necessarily establish recovery of muscle synergies. We tested whether a variance-accounted-for (VAF)/e…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Best Matches in Phylogenetic Networks",
+      "url": "https://arxiv.org/abs/2609.21700",
+      "summary": "arXiv:2609.21700v1 Announce Type: new Abstract: Best match graphs (BMGs) were introduced in mathematical phylogenetics to describe the concept of closest relatives for related genes (leaves of rooted tree) in different o…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Exact Counts of Binary Phylogenetic Networks with Four Reticulations",
+      "url": "https://arxiv.org/abs/2609.21772",
+      "summary": "arXiv:2609.21772v1 Announce Type: new Abstract: Phylogenetic networks provide a flexible framework for representing reticulate evolutionary processes, such as hybridization, introgression, recombination, and horizontal g…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
+      "url": "https://arxiv.org/abs/2609.21038",
+      "summary": "arXiv:2609.21038v1 Announce Type: cross Abstract: Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on laboratory CPUs and edge hardware requires compressi…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Hybrid quantum-classical attention for histopathology-based molecular profiling in data-limited cancers",
+      "url": "https://arxiv.org/abs/2609.21115",
+      "summary": "arXiv:2609.21115v1 Announce Type: cross Abstract: Molecular profiling from routine histopathology could expand access to precision oncology when sequencing is unavailable, tissue is limited, or training cohorts are small…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Reliability-Centered Evaluation of Sparse Longitudinal CT Lesion-Size Forecasting with Conformal Interval Calibration and Gompertz-Inspired Regularization",
+      "url": "https://arxiv.org/abs/2609.21197",
+      "summary": "arXiv:2609.21197v1 Announce Type: cross Abstract: Sparse longitudinal CT follow-up limits lesion-size forecasting when only a few prior observations are available. We constructed a five-visit DLT-derived same-lesion traj…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Compartmental Epidemiological Models: Discussing Fundamental Elements via the SIR Model",
+      "url": "https://arxiv.org/abs/2609.21904",
+      "summary": "arXiv:2609.21904v1 Announce Type: cross Abstract: We present a didactic treatment of compartmental disease spread modeling centered on the SIR framework, aimed at mathematics education. Our focus is on how modeling choic…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Learning Cardiac Features: ECG Biometrics Across Time and~Exercise",
+      "url": "https://arxiv.org/abs/2609.21962",
+      "summary": "arXiv:2609.21962v1 Announce Type: cross Abstract: Electrocardiograms (ECGs) carry subject-specific patterns enabling reliable individual discrimination, forming the basis of ECG biometrics. Beyond authentication, this pa…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
+      "url": "https://arxiv.org/abs/2609.22064",
+      "summary": "arXiv:2609.22064v1 Announce Type: cross Abstract: Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this sca…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Mapping disease-regulatory flux through eQTL-based causal gene networks: a complex-trait framework applied to coronary artery disease",
+      "url": "https://arxiv.org/abs/2501.19030",
+      "summary": "arXiv:2501.19030v3 Announce Type: replace Abstract: A substantial proportion of inherited susceptibility to common diseases is mediated through tissue-specific regulatory variation. The omnigenic model hypothesizes that …",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "From In Silico to In Vitro: A Comprehensive Guide to Validating Bioinformatics Findings",
+      "url": "https://arxiv.org/abs/2502.03478",
+      "summary": "arXiv:2502.03478v3 Announce Type: replace Abstract: Translating computational predictions into experimentally validated biological knowledge remains one of the central challenges in modern bioinformatics. This review cri…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cross-Country Learning for National Infectious Disease Forecasting Using European Data",
+      "url": "https://arxiv.org/abs/2601.20771",
+      "summary": "arXiv:2601.20771v3 Announce Type: replace Abstract: Accurate forecasting of infectious disease incidence is critical for public health planning and timely intervention. While most data-driven forecasting approaches rely …",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Transcriptomic Models for Immunotherapy Response Prediction Show Limited Cross-cohort Generalisability",
+      "url": "https://arxiv.org/abs/2604.05478",
+      "summary": "arXiv:2604.05478v5 Announce Type: replace Abstract: Immune checkpoint inhibitors (ICIs) have transformed cancer therapy; yet substantial proportion of patients exhibit intrinsic or acquired resistance, making accurate pr…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Evolution as fitness landscape navigation: concepts, measures, and emerging questions",
+      "url": "https://arxiv.org/abs/2604.17036",
+      "summary": "arXiv:2604.17036v2 Announce Type: replace Abstract: Fitness landscapes are mappings between genotypes, phenotypes, and fitness that shape evolution. In recent years, empirical work and theoretical models have greatly adv…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling",
+      "url": "https://arxiv.org/abs/2607.07666",
+      "summary": "arXiv:2607.07666v4 Announce Type: replace Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research wo…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Large Language Model Agents for Evidence Based Genetic Disease Severity Classification",
+      "url": "https://arxiv.org/abs/2609.19569",
+      "summary": "arXiv:2609.19569v2 Announce Type: replace Abstract: Disease severity classification for genetic conditions is subjective and labor-intensive, creating bottlenecks in genomic screening, where commercial panels vary widely…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Brief AI Literacy Intervention Does Not Significantly Reduce Over-Reliance and Increases Under-Reliance on ChatGPT: A Randomized Study",
+      "url": "https://arxiv.org/abs/2503.10556",
+      "summary": "arXiv:2503.10556v2 Announce Type: replace-cross Abstract: In this study, we examined whether a brief AI literacy intervention influences high school students' reliance on recommendations from large language models (LLMs)…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Transformers Discover Molecular Structure Without Graph Priors",
+      "url": "https://arxiv.org/abs/2510.02259",
+      "summary": "arXiv:2510.02259v2 Announce Type: replace-cross Abstract: Computational simulations play a central role in scientific discovery, and machine learning (ML) has emerged as a promising alternative to traditional physics-bas…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "LiteMedCoT-VL: Parameter-Efficient Adaptation for Medical Visual Question Answering",
+      "url": "https://arxiv.org/abs/2605.09384",
+      "summary": "arXiv:2605.09384v2 Announce Type: replace-cross Abstract: The reasoning gap between large and compact vision-language models (VLMs) limits the deployment of medical AI on portable clinical devices. Compact VLMs of 2-4B p…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Traveling fronts in a spatial epidemic model with slow loss of immunity",
+      "url": "https://arxiv.org/abs/2608.04594",
+      "summary": "arXiv:2608.04594v2 Announce Type: replace-cross Abstract: We investigate the emergence of traveling front solutions in a spatial SIRS epidemic model with diffusion acting on the infected population. The model exhibits a …",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Fluidization in Growth-Induced Morphogenesis",
+      "url": "https://arxiv.org/abs/2609.05858",
+      "summary": "arXiv:2609.05858v2 Announce Type: replace-cross Abstract: Elastic buckling has explained shape formation in growing tissues, yet the role of tissue fluidity remains elusive. We derive a minimal fluidized growth-elasticit…",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Attributing Cohen's d: Training Data Attribution for Disease-Related Effects in Normative Age Biomarkers",
+      "url": "https://arxiv.org/abs/2609.07729",
+      "summary": "arXiv:2609.07729v2 Announce Type: replace-cross Abstract: Normative age models are trained to predict chronological age in a nominally healthy cohort. Applied to patients, they deviate, and the gap between predicted and …",
+      "ts": 1789963200000,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Radiopharma companies merge after one receives surprise FDA rejection",
@@ -481,15 +688,6 @@
     },
     {
       "source": "arXiv q-bio",
-      "title": "Large Language Model Agents for Evidence Based Genetic Disease Severity Classification",
-      "url": "https://arxiv.org/abs/2609.19569",
-      "summary": "arXiv:2609.19569v1 Announce Type: new Abstract: Disease severity classification for genetic conditions is subjective and labor-intensive, creating bottlenecks in genomic screening, where commercial panels vary widely in …",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
       "title": "Self-Replicating Neural Cellular Automata: Quantifying Emergent Phenotypic and Genotypic Diversity in an OpenEnded Substrate",
       "url": "https://arxiv.org/abs/2609.19902",
       "summary": "arXiv:2609.19902v1 Announce Type: new Abstract: We study an in-silico substrate in which every pixel of a two-channel cellular-automata grid carries a tiny neural network (an agent) that senses its Moore neighborhood. A …",
@@ -613,204 +811,6 @@
       "ts": 1789704000000,
       "publishedAt": "2026-09-18T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "$\\beta$-diversity and Graph Sheaf Laplacians",
-      "url": "https://arxiv.org/abs/2601.17466",
-      "summary": "arXiv:2601.17466v2 Announce Type: replace Abstract: We suggest an approach to measuring biodiversity based on the spectrum of graph sheaf Laplacians associated with the sample data. In particular, we define a $\\beta_{ss}…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Transcriptomic Models for Immunotherapy Response Prediction Show Limited Cross-cohort Generalisability",
-      "url": "https://arxiv.org/abs/2604.05478",
-      "summary": "arXiv:2604.05478v4 Announce Type: replace Abstract: Immune checkpoint inhibitors (ICIs) have transformed cancer therapy; yet substantial proportion of patients exhibit intrinsic or acquired resistance, making accurate pr…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation",
-      "url": "https://arxiv.org/abs/2607.17227",
-      "summary": "arXiv:2607.17227v2 Announce Type: replace Abstract: Single-cell and spatial foundation models promise transferable biological representations, yet their generality remains largely untested across modalities, biological d…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A robust, scalable K-statistic for quantifying immune cell clustering in spatial proteomics data",
-      "url": "https://arxiv.org/abs/2412.08498",
-      "summary": "arXiv:2412.08498v4 Announce Type: replace-cross Abstract: Spatial summary statistics based on point process theory are widely used to quantify the spatial organization of cell populations in single-cell spatial proteomic…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories",
-      "url": "https://arxiv.org/abs/2605.10840",
-      "summary": "arXiv:2605.10840v5 Announce Type: replace-cross Abstract: Joint-embedding predictive architectures (JEPA) learn representations by predicting in latent space, as in computer vision; retaining the action-conditioned predi…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Transferable Learned Temporal Prior for Transmission Reconstruction and Decision-Relevant Uncertainty in Real Outbreak Labels",
-      "url": "https://arxiv.org/abs/2606.30842",
-      "summary": "arXiv:2606.30842v2 Announce Type: replace-cross Abstract: Reconstructing who infected whom often relies on case timing and published transmission links. However, two important questions remain: can a temporal pattern lea…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "VGAS: Variance-Reduced Guidance and Adaptive Selection for Training-Free Reward Alignment in Discrete Diffusion",
-      "url": "https://arxiv.org/abs/2608.26585",
-      "summary": "arXiv:2608.26585v2 Announce Type: replace-cross Abstract: Masked discrete diffusion models perform strongly on text, code, and biological sequences, but their training objective rewards only naturalness, and retraining t…",
-      "ts": 1789704000000,
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Kennedy announces new effort to speed up autism diagnoses",
-      "url": "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/?utm_campaign=rss",
-      "summary": "Health secretary Kennedy announced a new effort to improve autism diagnoses, arguing that the current model is outdated",
-      "ts": 1789682970000,
-      "publishedAt": "2026-09-17T22:09:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Kidney Organoids Reveal Inflammatory Drivers of Diabetic Kidney Disease",
-      "url": "https://www.genengnews.com/topics/translational-medicine/kidney-organoids-reveal-inflammatory-drivers-of-diabetic-kidney-disease/",
-      "summary": "In kidney organoids, elevated glucose triggered tissue-intrinsic inflammation and epithelial cell detachment without overt cytotoxicity. Inhibiting MIF, TNF-alpha, or MAPK-related signaling helped protect the organoids, …",
-      "ts": 1789680306000,
-      "publishedAt": "2026-09-17T21:25:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Kennedy renews attacks on vaccines at Children’s Health Defense conference",
-      "url": "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/?utm_campaign=rss",
-      "summary": "Health secretary RFK Jr. returned to his roots in a keynote address at a conference hosted by the Children’s Health Defense, an anti-vaccine nonprofit he helped start.",
-      "ts": 1789677604000,
-      "publishedAt": "2026-09-17T20:40:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Launch Services for StarBurst Gamma-Ray Detector",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/",
-      "summary": "NASA has selected SpaceX to provide launch services for the agency’s StarBurst mission, a small satellite designed to investigate neutron star mergers and the origins of short gamma-ray bursts. StarBurst will launch aboa…",
-      "ts": 1789677429000,
-      "publishedAt": "2026-09-17T20:37:09.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Molecular Devices and STEMCELL Technologies Team Up to Automate Organoid Research",
-      "url": "https://www.genengnews.com/topics/drug-discovery/molecular-devices-and-stemcell-technologies-team-up-to-automate-organoid-research/",
-      "summary": "Validated on the CellXpress.ai automated cell culture system, the new workflow combines organoid biology expertise and laboratory automation to help researchers reduce variability, expand scale, and move discoveries towa…",
-      "ts": 1789676649000,
-      "publishedAt": "2026-09-17T20:24:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease",
-      "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/?utm_campaign=rss",
-      "summary": "The FDA approved a new gene therapy for Sanfilippo syndrome type A, an ultra-rare disease sometimes known as childhood Alzheimer’s.",
-      "ts": 1789674946000,
-      "publishedAt": "2026-09-17T19:55:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
-      "summary": "Media accreditation is open for the next cargo launch that will deliver NASA science investigations, supplies, and equipment to the International Space Station. The 35th SpaceX commercial resupply services mission to the…",
-      "ts": 1789669950000,
-      "publishedAt": "2026-09-17T18:32:30.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why do ‘never-smokers’ get lung cancer? In some cases, rare genetic variant may be a factor",
-      "url": "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/?utm_campaign=rss",
-      "summary": "Researchers have identified a very rare genetic variant that is associated with higher odds of lung cancer in \"never smokers.\"",
-      "ts": 1789668000000,
-      "publishedAt": "2026-09-17T18:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "High-Grade Glioma Biology Varies by Age and Sex, Revealing Potential Treatment Targets",
-      "url": "https://www.genengnews.com/topics/cancer/high-grade-glioma-biology-varies-by-age-and-sex-revealing-potential-treatment-targets/",
-      "summary": "Researchers carrying out multiomics analyses of tumors from high-grade glioma patients found distinct molecular profiles and survival outcomes in different age groups and according to sex, and identified candidate treatm…",
-      "ts": 1789667895000,
-      "publishedAt": "2026-09-17T17:58:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Definium’s new psychedelics data, and a reprieve for international scientists",
-      "url": "https://www.statnews.com/2026/09/17/psychedelics-definium-visas-international-students-court-ruling-readout-loud-podcast/?utm_campaign=rss",
-      "summary": "International researchers got a reprieve in the courts this week. What does that mean for U.S. medical research? Find out on this week's episode of \"The Readout LOUD\" podcast.",
-      "ts": 1789662378000,
-      "publishedAt": "2026-09-17T16:26:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-367-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1789659541000,
-      "publishedAt": "2026-09-17T15:39:01.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Unveils Enterprise, the First Space Shuttle",
-      "url": "https://www.nasa.gov/image-article/nasa-unveils-enterprise-the-first-space-shuttle/",
-      "summary": "Fifty years ago, on Sept. 17, 1976—Constitution Day of America’s bicentennial year—NASA unveiled its first space shuttle orbiter, OV-101, to the public. NASA had originally planned to name the vehicle Constitution, but a…",
-      "ts": 1789658562000,
-      "publishedAt": "2026-09-17T15:22:42.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation",
-      "url": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
-      "summary": "PARIS — South Korean company Satrec Initiative is working with parent company Hanwha Aerospace to provide high-resolution Earth imagery for the synthetic-aperture-radar (SAR) constellation announced in July. Satrec Initi…",
-      "ts": 1789657515000,
-      "publishedAt": "2026-09-17T15:05:15.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Kennedy moves to revive preventive services panel with new members, after months of vacancies",
-      "url": "https://www.statnews.com/2026/09/17/kennedy-names-eight-new-members-uspstf-task-force/?utm_campaign=rss",
-      "summary": "The influential panel hasn't met in more than a year, after Kennedy canceled its meeting.",
-      "ts": 1789657061000,
-      "publishedAt": "2026-09-17T14:57:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Simera Sense and IDOM partner to develop and produce xScape350 optical system as demand for high-resolution EO imagery surges",
-      "url": "https://spacenews.com/simera-sense-and-idom-partner-to-develop-and-produce-xscape350-optical-system-as-demand-for-high-resolution-eo-imagery-surges/",
-      "summary": "LEUVEN, BELGIUM and BILBAO, SPAIN – 17 September 2026—Simera Sense, a leading European provider of optical payload solutions for small satellites, today announced a strategic partnership with IDOM, one of […] The post Si…",
-      "ts": 1789656051000,
-      "publishedAt": "2026-09-17T14:40:51.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
