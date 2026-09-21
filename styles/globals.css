@@ -52299,211 +52299,79 @@ section#civilization-space[data-home-section] {
 
 /* ==========================================================
    ARCHENOVA HOME
-   PORTAL-OWNED SCROLL / INVISIBLE SCROLLBAR
-   ----------------------------------------------------------
-   The HOME section owns the glass.
-   The Portal owns vertical scrolling.
+   SCROLL CONTAINMENT — SECTION LEVEL ONLY
 
-   Applies to:
-   MAP / EPISTEME / TODAY'S INQUIRY /
-   CIVILIZATION SPACE / VALLEY / AETHERION
-
-   Preserve existing glass colors, opacity and blur.
+   Preserve:
+   - Existing HOME glass
+   - Portal internal layout
+   - Today's Inquiry title and internal scroll
+   - Aetherion visual effects
+   - HOME navigation buttons
 ========================================================== */
 
-
-/* ==========================================================
-   1. HOME SECTION
-   ----------------------------------------------------------
-   The outer glass is NOT a scroll container.
-========================================================== */
-
+/* HOME sections remain the visible glass surfaces. */
 .archenova-twin-home > section[data-home-section] {
-  display: flex !important;
-  flex-direction: column !important;
-
   min-width: 0 !important;
-  min-height: 0 !important;
-
-  overflow: hidden !important;
+  min-height: 0;
 
   /*
-   * Keep the existing glass dimensions, background,
-   * border, border-radius and backdrop-filter.
+   * Allow the section to scroll only when its content
+   * exceeds the section's existing height.
    */
-}
-
-
-/* ==========================================================
-   2. PORTAL SCROLL OWNERS
-   ----------------------------------------------------------
-   Each direct Portal root receives the available
-   height of its HOME glass.
-========================================================== */
-
-.archenova-twin-home
-#archenova-search-section > .an-search,
-
-.archenova-twin-home
-#episteme-dialogue > .ep-dialogue-portal,
-
-.archenova-twin-home
-#todays-inquiry > .ti-home,
-
-.archenova-twin-home
-#civilization-space > .civilization-space-portal,
-
-.archenova-twin-home
-#archenova-valley > .an-valley-portal,
-
-.archenova-twin-home
-#aetherion > .ae-portal {
-  position: relative !important;
-
-  flex: 1 1 auto !important;
-
-  width: 100% !important;
-  min-width: 0 !important;
-
-  height: 100% !important;
-  min-height: 0 !important;
-  max-height: 100% !important;
-
   overflow-x: hidden !important;
   overflow-y: auto !important;
 
+  /*
+   * When the section reaches its scroll boundary,
+   * do not pass the remaining scroll gesture to
+   * the HOME page.
+   */
   overscroll-behavior-y: contain !important;
 
   -webkit-overflow-scrolling: touch;
 
-  scrollbar-width: none !important;
-  -ms-overflow-style: none !important;
-
   scrollbar-gutter: auto !important;
 }
 
-
-/* ==========================================================
-   3. TODAY'S INQUIRY
-   ----------------------------------------------------------
-   Keep the original glass geometry and the original
-   internal scroll container.
-
-   Do not turn .ti-home__scroll into normal flow:
-   doing so previously displaced the title.
-========================================================== */
-
-.archenova-twin-home
-#todays-inquiry > .ti-home {
-  /*
-   * The component already defines the correct desktop
-   * and mobile relationship between its glass,
-   * title and internal content.
-   *
-   * Avoid a second vertical scroll owner.
-   */
-  overflow-y: hidden !important;
-}
-
-.archenova-twin-home
-#todays-inquiry
-.ti-home__glass {
-  min-width: 0 !important;
-  max-width: 100% !important;
-}
-
-.archenova-twin-home
-#todays-inquiry
-.ti-home__scroll {
-  overscroll-behavior-y: contain !important;
-
-  scrollbar-width: none !important;
-  -ms-overflow-style: none !important;
-
-  scrollbar-gutter: auto !important;
-}
-
-
-/* ==========================================================
-   4. INVISIBLE SCROLLBAR
-   ----------------------------------------------------------
-   Hide scrollbar visuals without disabling scrolling.
-
-   No white or gray scrollbar track is introduced.
-========================================================== */
-
-.archenova-twin-home
-#archenova-search-section > .an-search::-webkit-scrollbar,
-
-.archenova-twin-home
-#episteme-dialogue > .ep-dialogue-portal::-webkit-scrollbar,
-
-.archenova-twin-home
-#todays-inquiry .ti-home__scroll::-webkit-scrollbar,
-
-.archenova-twin-home
-#civilization-space > .civilization-space-portal::-webkit-scrollbar,
-
-.archenova-twin-home
-#archenova-valley > .an-valley-portal::-webkit-scrollbar,
-
-.archenova-twin-home
-#aetherion > .ae-portal::-webkit-scrollbar {
-  display: none !important;
-
-  width: 0 !important;
-  height: 0 !important;
-
-  background: transparent !important;
-}
-
-
-/* ==========================================================
-   5. MOBILE
-   ----------------------------------------------------------
-   Portal scrolling remains available on touch devices.
-   No visible scrollbar.
-========================================================== */
-
-@media (max-width: 768px) {
-
-  .archenova-twin-home
-  #archenova-search-section > .an-search,
-
-  .archenova-twin-home
-  #episteme-dialogue > .ep-dialogue-portal,
-
-  .archenova-twin-home
-  #civilization-space > .civilization-space-portal,
-
-  .archenova-twin-home
-  #archenova-valley > .an-valley-portal,
-
-  .archenova-twin-home
-  #aetherion > .ae-portal {
-    height: 100% !important;
-    min-height: 0 !important;
-    max-height: 100% !important;
-
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-
-    overscroll-behavior-y: contain !important;
-
-    -webkit-overflow-scrolling: touch;
-
-    scrollbar-width: none !important;
+/* Desktop: subtle scrollbar matching the smoked glass. */
+@media (hover: hover) and (pointer: fine) {
+  .archenova-twin-home > section[data-home-section] {
+    scrollbar-width: thin !important;
+    scrollbar-color:
+      rgba(255, 255, 255, 0.045)
+      transparent !important;
   }
 
-  /*
-   * Today's Inquiry retains its component-defined
-   * mobile layout rather than receiving a conflicting
-   * second scroll container.
-   */
+  .archenova-twin-home
+  > section[data-home-section]::-webkit-scrollbar {
+    width: 3px !important;
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  > section[data-home-section]::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+  .archenova-twin-home
+  > section[data-home-section]::-webkit-scrollbar-thumb {
+    border-radius: 999px !important;
+    background: rgba(255, 255, 255, 0.045) !important;
+  }
 }
 
+/* Touch devices: no visible scrollbar, scrolling stays enabled. */
+@media (hover: none) and (pointer: coarse) {
+  .archenova-twin-home > section[data-home-section] {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
 
-
-
-
-
+  .archenova-twin-home
+  > section[data-home-section]::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    background: transparent !important;
+  }
+}
