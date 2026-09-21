@@ -119,20 +119,23 @@ export default function Home() {
     </section>
 
  {/* ==================================================
-          01 / ARCHENOVA CURRENT STATE
-      ================================================== */}
+    ARCHENOVA CURRENT STATE
 
-      <section
-        id="archenova-current-state-section"
-        data-home-section
-        className="
-          home-page
-          twin-page
-          archenova-current-state-page
-        "
-      >
-        <ArcheNovaCurrentState />
-      </section>
+    Independent status environment.
+    Not included in HomeSectionPager.
+================================================== */}
+
+<section
+  id="archenova-current-state-section"
+  data-home-section
+  className="
+    home-page
+    twin-page
+    archenova-current-state-page
+  "
+>
+  <ArcheNovaCurrentState />
+</section>
 
       
 

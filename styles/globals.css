@@ -52489,34 +52489,26 @@ section#civilization-space[data-home-section] {
 
 /* ==========================================================
    ARCHENOVA CURRENT STATE
-   FINAL INTEGRATED HOME IMPLEMENTATION
+   INDEPENDENT STATUS ENVIRONMENT
 
    ONE HOME SECTION = ONE GLASS SURFACE
 
-   - Exact HOME common glass material
+   - Same glass as existing HOME sections
    - No nested glass
-   - Horizontal current-state experience
-   - One slide per view on mobile
-   - Compact editorial typography
-   - Independent section containment
-   - No overlap with the next HOME section
+   - No horizontal grid or scroll dependency
+   - One status visible at a time
+   - Compact mobile-first layout
+   - No HomeSectionPager modification
 ========================================================== */
 
 
 /* ==========================================================
-   01 / CURRENT STATE — COMMON HOME GLASS
-
-   Identical optical material to the existing
-   SEARCH / EPISTEME / INQUIRY / VALLEY / AETHERION
-   HOME sections.
-
-   Do not add another glass surface inside.
+   01 / EXACT HOME GLASS MATERIAL
 ========================================================== */
 
 .archenova-twin-home
 #archenova-current-state-section {
   position: relative !important;
-
   isolation: isolate !important;
 
   background:
@@ -52534,34 +52526,20 @@ section#civilization-space[data-home-section] {
     ) !important;
 
   border:
-    1px solid
-    rgba(255, 255, 255, 0.065)
+    1px solid rgba(255, 255, 255, 0.065)
     !important;
 
   border-radius: 30px !important;
 
   -webkit-backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
+    blur(22px) saturate(106%) !important;
 
   backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
+    blur(22px) saturate(106%) !important;
 
   box-shadow:
-    inset
-    0
-    1px
-    0
-    rgba(255, 255, 255, 0.040),
-
-    inset
-    0
-    -1px
-    0
-    rgba(255, 255, 255, 0.010)
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
     !important;
 
   outline: 0 !important;
@@ -52569,43 +52547,40 @@ section#civilization-space[data-home-section] {
 
 
 /* ==========================================================
-   02 / SECTION CONTAINMENT
+   02 / SECTION LAYOUT
 
-   Keep the HOME section inside its own allocated
-   layout area.
-
-   Do not force the section to grow beyond the
-   existing HOME page structure.
+   Override the shared HOME grid only for Current State.
 ========================================================== */
 
 .archenova-twin-home
 > section#archenova-current-state-section {
   display: flex !important;
-
   flex-direction: column !important;
-
+  align-items: stretch !important;
   justify-content: center !important;
 
-  align-items: stretch !important;
-
   min-width: 0 !important;
+  min-height: 100svh !important;
 
-  min-height: 0 !important;
+  height: 100svh !important;
+  max-height: 100svh !important;
+
+  padding:
+    clamp(68px, 9svh, 100px)
+    clamp(22px, 5vw, 70px)
+    clamp(45px, 7svh, 75px)
+    !important;
 
   overflow-x: hidden !important;
-
   overflow-y: auto !important;
 
   overscroll-behavior-y: contain !important;
-
   -webkit-overflow-scrolling: touch;
-
-  scrollbar-gutter: auto !important;
 }
 
 
 /* ==========================================================
-   03 / NO LEGACY SECTION PSEUDO GLASS
+   03 / REMOVE SECTION PSEUDO SURFACES
 ========================================================== */
 
 .archenova-twin-home
@@ -52614,20 +52589,11 @@ section#civilization-space[data-home-section] {
 .archenova-twin-home
 #archenova-current-state-section::after {
   content: none !important;
-
   display: none !important;
 
-  position: static !important;
-
   background: none !important;
-
   border: 0 !important;
-
   box-shadow: none !important;
-
-  -webkit-backdrop-filter: none !important;
-
-  backdrop-filter: none !important;
 }
 
 
@@ -52638,57 +52604,30 @@ section#civilization-space[data-home-section] {
 .archenova-twin-home
 #archenova-current-state-section
 .ancs {
-  --ancs-text:
-    rgba(250, 252, 253, 0.96);
-
-  --ancs-secondary:
-    rgba(231, 237, 243, 0.74);
-
-  --ancs-muted:
-    rgba(225, 234, 242, 0.52);
-
-  --ancs-line:
-    rgba(255, 255, 255, 0.105);
-
-  position: relative !important;
+  --ancs-text: rgba(250, 252, 253, 0.96);
+  --ancs-secondary: rgba(231, 237, 243, 0.76);
+  --ancs-muted: rgba(225, 234, 242, 0.50);
+  --ancs-line: rgba(255, 255, 255, 0.11);
 
   display: flex !important;
-
   flex-direction: column !important;
 
-  justify-content: center !important;
-
-  width: 100% !important;
-
+  width: min(100%, 1100px) !important;
   min-width: 0 !important;
-
   min-height: 0 !important;
 
-  height: auto !important;
-
-  margin: 0 !important;
-
-  padding:
-    clamp(22px, 3vw, 38px)
-    clamp(22px, 4vw, 52px)
-    clamp(20px, 3vw, 32px)
-    !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
 
   color: var(--ancs-text);
 
   background: transparent !important;
-
   border: 0 !important;
-
   border-radius: 0 !important;
-
-  outline: 0 !important;
+  box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
-
   backdrop-filter: none !important;
-
-  box-shadow: none !important;
 
   font-family:
     -apple-system,
@@ -52702,10 +52641,6 @@ section#civilization-space[data-home-section] {
 }
 
 
-/* ==========================================================
-   05 / CONTENT BOX SIZING
-========================================================== */
-
 .archenova-twin-home
 #archenova-current-state-section
 .ancs,
@@ -52714,21 +52649,18 @@ section#civilization-space[data-home-section] {
 #archenova-current-state-section
 .ancs * {
   box-sizing: border-box;
-
   min-width: 0;
 }
 
 
 /* ==========================================================
-   06 / HEADER
+   05 / HEADER
 ========================================================== */
 
 #archenova-current-state-section
 .ancs__header {
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
 
   gap: 14px;
@@ -52739,13 +52671,10 @@ section#civilization-space[data-home-section] {
 .ancs__brand,
 
 #archenova-current-state-section
-.ancs__header-right {
+.ancs__edition {
   font-size: 10px;
-
   font-weight: 600;
-
   line-height: 1.4;
-
   letter-spacing: 0.15em;
 }
 
@@ -52757,21 +52686,19 @@ section#civilization-space[data-home-section] {
 
 
 #archenova-current-state-section
-.ancs__header-right {
+.ancs__edition {
   color: var(--ancs-muted);
-
   text-align: right;
 }
 
 
 /* ==========================================================
-   07 / INTRO
+   06 / INTRO
 ========================================================== */
 
 #archenova-current-state-section
 .ancs__intro {
-  margin-top:
-    clamp(25px, 3.5vw, 48px);
+  margin-top: clamp(30px, 5svh, 60px);
 }
 
 
@@ -52779,16 +52706,13 @@ section#civilization-space[data-home-section] {
 .ancs__eyebrow {
   display: block;
 
-  margin: 0 0 11px;
+  margin: 0 0 12px;
 
   color: var(--ancs-muted);
 
   font-size: 9px;
-
   font-weight: 600;
-
   line-height: 1.5;
-
   letter-spacing: 0.15em;
 }
 
@@ -52799,312 +52723,191 @@ section#civilization-space[data-home-section] {
 
   color: var(--ancs-text);
 
-  font-size:
-    clamp(43px, 5.3vw, 75px);
-
+  font-size: clamp(40px, 5vw, 72px);
   font-weight: 300;
-
-  line-height: 1.06;
-
-  letter-spacing: -0.065em;
+  line-height: 1.08;
+  letter-spacing: -0.06em;
 }
 
 
 #archenova-current-state-section
 .ancs__title span {
-  color:
-    rgba(206, 223, 237, 0.68);
+  color: rgba(206, 223, 237, 0.68);
 }
 
 
 #archenova-current-state-section
 .ancs__subtitle {
-  margin: 11px 0 0;
+  margin: 12px 0 0;
 
   color: var(--ancs-secondary);
 
-  font-size:
-    clamp(12px, 1.1vw, 15px);
-
+  font-size: clamp(12px, 1.15vw, 15px);
   font-weight: 400;
-
   line-height: 1.6;
 }
 
 
 /* ==========================================================
-   08 / CONTENT
+   07 / STATUS CONTENT
 ========================================================== */
 
 #archenova-current-state-section
 .ancs__content {
-  width: 100%;
+  margin-top: clamp(28px, 5svh, 54px);
 
-  min-width: 0;
+  padding-top: 20px;
 
-  margin-top:
-    clamp(24px, 3vw, 38px);
+  border-top: 1px solid var(--ancs-line);
 }
 
 
 #archenova-current-state-section
-.ancs__content-heading {
+.ancs__content-top {
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
 
-  gap: 15px;
-
-  padding-bottom: 12px;
-
-  border-bottom:
-    1px solid var(--ancs-line);
-
-  color: var(--ancs-muted);
-
-  font-size: 9px;
-
-  font-weight: 600;
-
-  line-height: 1.5;
-
-  letter-spacing: 0.13em;
-}
-
-
-#archenova-current-state-section
-.ancs__swipe-label {
-  display: none;
-
-  text-align: right;
-}
-
-
-/* ==========================================================
-   09 / HORIZONTAL TRACK
-========================================================== */
-
-#archenova-current-state-section
-.ancs__track {
-  display: grid;
-
-  grid-template-columns:
-    repeat(3, minmax(0, 1fr));
-
-  width: 100%;
-
-  min-width: 0;
-
-  overflow-x: auto;
-
-  overflow-y: hidden;
-
-  scroll-snap-type: x proximity;
-
-  overscroll-behavior-x: contain;
-
-  -webkit-overflow-scrolling: touch;
-
-  scrollbar-width: none;
-
-  -ms-overflow-style: none;
-}
-
-
-#archenova-current-state-section
-.ancs__track::-webkit-scrollbar {
-  display: none;
-
-  width: 0;
-
-  height: 0;
-}
-
-
-/* ==========================================================
-   10 / TRANSPARENT SLIDES
-========================================================== */
-
-#archenova-current-state-section
-.ancs__slide {
-  display: flex;
-
-  flex-direction: column;
-
-  min-width: 0;
-
-  min-height: 160px;
-
-  padding:
-    21px
-    clamp(15px, 2vw, 28px)
-    20px;
-
-  background: transparent !important;
-
-  border: 0 !important;
-
-  border-radius: 0 !important;
-
-  -webkit-backdrop-filter: none !important;
-
-  backdrop-filter: none !important;
-
-  box-shadow: none !important;
-
-  scroll-snap-align: start;
-}
-
-
-#archenova-current-state-section
-.ancs__slide:first-child {
-  padding-left: 0;
-}
-
-
-#archenova-current-state-section
-.ancs__slide:last-child {
-  padding-right: 0;
-}
-
-
-#archenova-current-state-section
-.ancs__slide + .ancs__slide {
-  border-left:
-    1px solid var(--ancs-line)
-    !important;
-}
-
-
-/* ==========================================================
-   11 / SLIDE CONTENT
-========================================================== */
-
-#archenova-current-state-section
-.ancs__slide-top {
-  display: flex;
-
-  align-items: center;
-
-  gap: 12px;
-}
-
-
-#archenova-current-state-section
-.ancs__number {
-  color: var(--ancs-muted);
-
-  font-size: 10px;
-
-  font-weight: 400;
-
-  letter-spacing: 0.04em;
+  gap: 14px;
 }
 
 
 #archenova-current-state-section
 .ancs__status {
-  color:
-    rgba(232, 240, 247, 0.72);
+  display: inline-flex;
+  align-items: center;
 
-  font-size: 9px;
+  gap: 8px;
 
+  color: rgba(236, 243, 249, 0.82);
+
+  font-size: 10px;
   font-weight: 600;
-
-  line-height: 1.5;
-
+  line-height: 1.4;
   letter-spacing: 0.11em;
 }
 
 
 #archenova-current-state-section
-.ancs__slide-body {
-  width: 100%;
+.ancs__status-indicator {
+  width: 5px;
+  height: 5px;
 
-  min-width: 0;
+  flex: 0 0 5px;
+
+  border-radius: 50%;
+
+  background: rgba(234, 244, 252, 0.9);
 }
 
 
 #archenova-current-state-section
-.ancs__slide-body h3 {
-  margin: 16px 0 0;
+.ancs__counter {
+  color: var(--ancs-muted);
 
-  color: var(--ancs-text);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
 
-  font-size:
-    clamp(21px, 2.2vw, 30px);
-
-  font-weight: 350;
-
-  line-height: 1.22;
-
-  letter-spacing: -0.04em;
-}
-
-
-#archenova-current-state-section
-.ancs__slide-body p {
-  max-width: 330px;
-
-  margin: 9px 0 0;
-
-  color: var(--ancs-secondary);
-
-  font-size: 12px;
-
-  font-weight: 400;
-
-  line-height: 1.65;
+  white-space: nowrap;
 }
 
 
 /* ==========================================================
-   12 / FOOTER
+   08 / ACTIVE STATE
 ========================================================== */
 
 #archenova-current-state-section
-.ancs__footer {
+.ancs__state {
   display: flex;
+  flex-direction: column;
 
+  justify-content: center;
+
+  min-height: 170px;
+
+  padding: 24px 0 18px;
+}
+
+
+#archenova-current-state-section
+.ancs__state-title {
+  max-width: 720px;
+
+  margin: 0;
+
+  color: var(--ancs-text);
+
+  font-size: clamp(23px, 3.2vw, 42px);
+  font-weight: 350;
+  line-height: 1.18;
+  letter-spacing: -0.045em;
+}
+
+
+#archenova-current-state-section
+.ancs__state-description {
+  max-width: 610px;
+
+  margin: 13px 0 0;
+
+  color: var(--ancs-secondary);
+
+  font-size: clamp(12px, 1.15vw, 15px);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+
+#archenova-current-state-section
+.ancs__state-detail {
+  margin: 16px 0 0;
+
+  color: var(--ancs-muted);
+
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+}
+
+
+/* ==========================================================
+   09 / STATUS NAVIGATION
+========================================================== */
+
+#archenova-current-state-section
+.ancs__state-navigation {
+  display: flex;
   align-items: center;
-
   justify-content: space-between;
 
   gap: 14px;
 
-  padding-top: 15px;
-
-  border-top:
-    1px solid var(--ancs-line);
+  padding-top: 12px;
 }
 
 
 #archenova-current-state-section
 .ancs__pagination {
   display: flex;
-
   align-items: center;
 
-  gap: 5px;
+  gap: 6px;
 }
 
 
 #archenova-current-state-section
 .ancs__dot {
   display: grid;
-
   place-items: center;
 
-  width: 28px;
-
-  height: 28px;
+  width: 30px;
+  height: 30px;
 
   padding: 0;
 
   border: 0;
-
   border-radius: 999px;
 
   background: transparent;
@@ -53118,44 +52921,107 @@ section#civilization-space[data-home-section] {
   display: block;
 
   width: 15px;
-
   height: 2px;
 
   border-radius: 999px;
 
-  background:
-    rgba(239, 246, 252, 0.26);
+  background: rgba(239, 246, 252, 0.25);
 }
 
 
 #archenova-current-state-section
 .ancs__dot.is-active span {
-  width: 23px;
+  width: 24px;
 
-  background:
-    rgba(250, 252, 253, 0.95);
+  background: rgba(250, 252, 253, 0.96);
+}
+
+
+#archenova-current-state-section
+.ancs__arrows {
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+}
+
+
+#archenova-current-state-section
+.ancs__arrow {
+  display: grid;
+  place-items: center;
+
+  width: 35px;
+  height: 35px;
+
+  padding: 0;
+
+  color: rgba(248, 250, 252, 0.9);
+
+  font-size: 17px;
+  font-weight: 300;
+
+  background: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+
+#archenova-current-state-section
+.ancs__arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+
+/* ==========================================================
+   10 / FOOTER
+========================================================== */
+
+#archenova-current-state-section
+.ancs__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 14px;
+
+  margin-top: clamp(24px, 4svh, 46px);
+  padding-top: 16px;
+
+  border-top: 1px solid var(--ancs-line);
+}
+
+
+#archenova-current-state-section
+.ancs__footer-label {
+  color: var(--ancs-muted);
+
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.11em;
 }
 
 
 #archenova-current-state-section
 .ancs__next {
   display: inline-flex;
-
   align-items: center;
 
   gap: 12px;
 
-  min-height: 40px;
+  min-height: 38px;
 
   color: var(--ancs-text);
 
-  font-size: 9px;
-
+  font-size: 10px;
   font-weight: 600;
-
   line-height: 1.4;
-
-  letter-spacing: 0.10em;
+  letter-spacing: 0.09em;
 
   text-decoration: none;
 
@@ -53164,9 +53030,8 @@ section#civilization-space[data-home-section] {
 
 
 #archenova-current-state-section
-.ancs__next-arrow {
-  font-size: 16px;
-
+.ancs__next span {
+  font-size: 17px;
   font-weight: 350;
 }
 
@@ -53175,51 +53040,17 @@ section#civilization-space[data-home-section] {
 .ancs__dot:focus-visible,
 
 #archenova-current-state-section
-.ancs__next:focus-visible {
-  outline:
-    2px solid rgba(250, 252, 253, 0.9);
+.ancs__arrow:focus-visible,
 
+#archenova-current-state-section
+.ancs__next:focus-visible {
+  outline: 2px solid rgba(250, 252, 253, 0.92);
   outline-offset: 3px;
 }
 
 
 /* ==========================================================
-   13 / TABLET
-
-   Two-column visual width.
-   Horizontal scrolling remains available.
-========================================================== */
-
-@media (max-width: 1024px) {
-
-  #archenova-current-state-section
-  .ancs__swipe-label {
-    display: inline;
-  }
-
-  #archenova-current-state-section
-  .ancs__track {
-    grid-template-columns:
-      repeat(3, minmax(250px, 56%));
-
-    scroll-snap-type: x mandatory;
-  }
-
-  #archenova-current-state-section
-  .ancs__slide {
-    padding-right: 21px;
-
-    padding-left: 21px;
-  }
-
-}
-
-
-/* ==========================================================
-   14 / MOBILE
-
-   One slide per view.
-   No compressed three-column layout.
+   11 / MOBILE
 ========================================================== */
 
 @media (max-width: 768px) {
@@ -53240,66 +53071,45 @@ section#civilization-space[data-home-section] {
         rgba(13, 14, 16, 0.16) 0%,
         rgba(6, 7, 9, 0.20) 50%,
         rgba(0, 0, 0, 0.26) 100%
-      )
-      !important;
+      ) !important;
 
     border:
-      1px solid
-      rgba(255, 255, 255, 0.060)
+      1px solid rgba(255, 255, 255, 0.060)
       !important;
 
     border-radius: 26px !important;
 
     -webkit-backdrop-filter:
-      blur(18px)
-      saturate(104%)
-      !important;
+      blur(18px) saturate(104%) !important;
 
     backdrop-filter:
-      blur(18px)
-      saturate(104%)
-      !important;
+      blur(18px) saturate(104%) !important;
 
     box-shadow:
-      inset
-      0
-      1px
-      0
-      rgba(255, 255, 255, 0.035),
-
-      inset
-      0
-      -1px
-      0
-      rgba(255, 255, 255, 0.008)
+      inset 0 1px 0 rgba(255, 255, 255, 0.035),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.008)
       !important;
 
     outline: 0 !important;
   }
 
 
-  /* MOBILE SECTION CONTAINMENT */
+  /* MOBILE SECTION FIT */
 
   .archenova-twin-home
   > section#archenova-current-state-section {
-    justify-content: center !important;
-
-    overflow-x: hidden !important;
-
-    overflow-y: auto !important;
+    padding:
+      76px
+      25px
+      52px
+      !important;
   }
 
-
-  /* MOBILE INNER LAYOUT */
 
   .archenova-twin-home
   #archenova-current-state-section
   .ancs {
-    padding:
-      22px
-      21px
-      19px
-      !important;
+    width: 100% !important;
   }
 
 
@@ -53307,102 +53117,69 @@ section#civilization-space[data-home-section] {
   .ancs__brand,
 
   #archenova-current-state-section
-  .ancs__header-right {
+  .ancs__edition {
     font-size: 9px;
-
-    letter-spacing: 0.11em;
+    letter-spacing: 0.10em;
   }
 
 
   #archenova-current-state-section
   .ancs__intro {
-    margin-top: 25px;
+    margin-top: 30px;
   }
 
 
   #archenova-current-state-section
   .ancs__title {
-    font-size:
-      clamp(38px, 9vw, 55px);
+    font-size: clamp(38px, 9vw, 54px);
   }
 
 
   #archenova-current-state-section
   .ancs__subtitle {
-    margin-top: 8px;
-
+    margin-top: 9px;
     font-size: 12px;
   }
 
 
   #archenova-current-state-section
   .ancs__content {
-    margin-top: 26px;
+    margin-top: 32px;
+    padding-top: 17px;
   }
 
 
   #archenova-current-state-section
-  .ancs__track {
-    display: grid;
-
-    grid-template-columns:
-      repeat(3, minmax(0, 100%));
-
-    width: 100%;
-
-    min-width: 0;
-
-    overflow-x: auto;
-
-    overflow-y: hidden;
-
-    scroll-snap-type: x mandatory;
+  .ancs__state {
+    min-height: 185px;
+    padding: 23px 0 15px;
   }
 
 
   #archenova-current-state-section
-  .ancs__slide,
-
-  #archenova-current-state-section
-  .ancs__slide:first-child,
-
-  #archenova-current-state-section
-  .ancs__slide:last-child {
-    min-height: 155px;
-
-    padding:
-      20px
-      2px
-      19px;
+  .ancs__state-title {
+    font-size: clamp(24px, 6.5vw, 32px);
   }
 
 
   #archenova-current-state-section
-  .ancs__slide + .ancs__slide {
-    border-left: 0 !important;
-  }
-
-
-  #archenova-current-state-section
-  .ancs__slide-body h3 {
-    margin-top: 15px;
-
-    font-size: 24px;
-  }
-
-
-  #archenova-current-state-section
-  .ancs__slide-body p {
-    max-width: 280px;
-
+  .ancs__state-description {
+    margin-top: 11px;
     font-size: 12px;
+    line-height: 1.65;
+  }
 
-    line-height: 1.6;
+
+  #archenova-current-state-section
+  .ancs__state-detail {
+    margin-top: 13px;
+    font-size: 9px;
   }
 
 
   #archenova-current-state-section
   .ancs__footer {
+    margin-top: 25px;
     padding-top: 13px;
   }
 
@@ -53410,7 +53187,7 @@ section#civilization-space[data-home-section] {
 
 
 /* ==========================================================
-   15 / VERY SMALL MOBILE
+   12 / SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 430px) {
@@ -53422,53 +53199,49 @@ section#civilization-space[data-home-section] {
 
 
   .archenova-twin-home
-  #archenova-current-state-section
-  .ancs {
+  > section#archenova-current-state-section {
     padding:
-      20px
-      17px
-      17px
+      72px
+      19px
+      46px
       !important;
   }
 
 
   #archenova-current-state-section
   .ancs__intro {
-    margin-top: 22px;
-  }
-
-
-  #archenova-current-state-section
-  .ancs__title {
-    font-size:
-      clamp(36px, 9vw, 45px);
+    margin-top: 26px;
   }
 
 
   #archenova-current-state-section
   .ancs__content {
-    margin-top: 23px;
+    margin-top: 28px;
   }
 
 
   #archenova-current-state-section
-  .ancs__slide {
-    min-height: 150px;
+  .ancs__state {
+    min-height: 175px;
   }
 
 
   #archenova-current-state-section
-  .ancs__slide-body h3 {
-    font-size: 22px;
+  .ancs__state-title {
+    font-size: clamp(23px, 6.4vw, 29px);
+  }
+
+
+  #archenova-current-state-section
+  .ancs__footer-label {
+    font-size: 8px;
   }
 
 
   #archenova-current-state-section
   .ancs__next {
-    gap: 8px;
-
-    font-size: 8px;
-
+    gap: 7px;
+    font-size: 9px;
     letter-spacing: 0.05em;
   }
 
@@ -53476,54 +53249,15 @@ section#civilization-space[data-home-section] {
 
 
 /* ==========================================================
-   16 / TOUCH SCROLLBAR
-
-   Hide the visual scrollbar.
-   Preserve horizontal swipe and vertical containment.
-========================================================== */
-
-@media (hover: none) and (pointer: coarse) {
-
-  .archenova-twin-home
-  #archenova-current-state-section
-  .ancs__track {
-    scrollbar-width: none !important;
-
-    -ms-overflow-style: none !important;
-  }
-
-
-  .archenova-twin-home
-  #archenova-current-state-section
-  .ancs__track::-webkit-scrollbar {
-    display: none !important;
-
-    width: 0 !important;
-
-    height: 0 !important;
-  }
-
-}
-
-
-/* ==========================================================
-   17 / REDUCED MOTION
+   13 / REDUCED MOTION
 ========================================================== */
 
 @media (prefers-reduced-motion: reduce) {
 
   #archenova-current-state-section
-  .ancs__track {
-    scroll-behavior: auto;
+  .ancs__state {
+    animation: none !important;
+    transition: none !important;
   }
 
 }
-
-
-
-
-
-
-
-
-
