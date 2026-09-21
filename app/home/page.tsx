@@ -121,26 +121,6 @@ export default function Home() {
     <FounderDigitalTwinPortal />
     </section>
 
- {/* ==================================================
-    ARCHENOVA CURRENT STATE
-
-    Independent status environment.
-    Not included in HomeSectionPager.
-================================================== */}
-
-<section
-  id="archenova-current-state-section"
-  data-home-section
-  className="
-    home-page
-    twin-page
-    archenova-current-state-page
-  "
->
-  <ArcheNovaCurrentState />
-</section>
-
-
 
       {/* ==================================================
           01
@@ -161,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* ==================================================
-    01 / ARCHENOVA WORKS PORTAL
+    02 / ARCHENOVA WORKS PORTAL
 
     The ArcheNova Works exhibition entrance.
     ================================================== */}
@@ -176,7 +156,7 @@ export default function Home() {
 
 
       {/* ==================================================
-          02
+          03
           EPISTEME
 
           Think with ArcheNova's
@@ -203,7 +183,7 @@ export default function Home() {
 
 
       {/* ==================================================
-          03
+          04
           TODAY'S INQUIRY
 
           Question reality through a living
@@ -224,7 +204,7 @@ export default function Home() {
 
 
       {/* ==================================================
-          04
+          05
           CIVILIZATION SPACE
 
           Preserve.
@@ -258,7 +238,7 @@ export default function Home() {
 
 
       {/* ==================================================
-          05
+          06
           ARCHENOVA VALLEY
 
           Build what can survive reality.
@@ -296,7 +276,7 @@ export default function Home() {
       </section>
 
       {/* ==================================================
-          06
+          07
           ARCHENOVA AETHERION
 
           The Civilization Megafactory.
