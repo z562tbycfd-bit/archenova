@@ -124,13 +124,12 @@ export default function Home() {
     ================================================== */}
 
     <section
-  id="archenova-current-state"
+  id="archenova-current-state-section"
   data-home-section
   className="home-page twin-page archenova-current-state-page"
-  > 
-    <ArcheNovaCurrentState />
-
-    </section>
+>
+  <ArcheNovaCurrentState />
+</section>
 
 
 

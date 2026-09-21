@@ -52488,73 +52488,842 @@ section#civilization-space[data-home-section] {
 
 
 /* ==========================================================
-   ARCHENOVA CURRENT STATE
-   HOME OWNS THE ONLY GLASS SURFACE
+   ARCHENOVA — CURRENT STATE
+   FINAL HOME GLASS / EDITORIAL HORIZONTAL EXPERIENCE
+
+   STRUCTURE:
+   HOME section = the only glass surface
+   .ancs = transparent content
+   .ancs__rail = horizontal content track
+
+   No nested glass.
+   No external shadow.
+   No decorative pseudo-surfaces.
+========================================================== */
+
+
+/* ==========================================================
+   01 / THE ONE AND ONLY GLASS
+
+   Override legacy .home-page / .twin-page surfaces.
 ========================================================== */
 
 .archenova-twin-home
-#archenova-current-state-section {
+section#archenova-current-state-section {
   position: relative !important;
   isolation: isolate !important;
 
+  display: block !important;
+
+  width: 100% !important;
+  min-width: 0 !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  color: rgba(250, 251, 253, 0.97) !important;
+
   background:
     radial-gradient(
-      circle at 50% 0%,
-      rgba(255, 255, 255, 0.025) 0%,
-      rgba(255, 255, 255, 0.008) 24%,
-      transparent 52%
+      ellipse at 12% 0%,
+      rgba(255, 255, 255, 0.055) 0%,
+      rgba(255, 255, 255, 0.012) 35%,
+      transparent 66%
     ),
     linear-gradient(
       145deg,
-      rgba(15, 16, 18, 0.20) 0%,
-      rgba(7, 8, 10, 0.24) 48%,
-      rgba(0, 0, 0, 0.30) 100%
+      rgba(19, 22, 27, 0.31) 0%,
+      rgba(8, 10, 14, 0.38) 48%,
+      rgba(0, 0, 0, 0.47) 100%
     ) !important;
 
   border:
-    1px solid rgba(255, 255, 255, 0.065)
+    1px solid rgba(255, 255, 255, 0.085)
     !important;
 
   border-radius: 30px !important;
 
   -webkit-backdrop-filter:
-    blur(22px) saturate(106%)
-    !important;
+    blur(22px) saturate(106%) !important;
 
   backdrop-filter:
-    blur(22px) saturate(106%)
-    !important;
+    blur(22px) saturate(106%) !important;
 
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.040),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    inset 0 1px 0 rgba(255, 255, 255, 0.065),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.012)
     !important;
+
+  outline: 0 !important;
 }
+
+/*
+   HOME global CSS disables section pseudo-elements.
+   Keep this section compatible with that rule.
+*/
+
+.archenova-twin-home
+section#archenova-current-state-section::before,
+
+.archenova-twin-home
+section#archenova-current-state-section::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+/* ==========================================================
+   02 / TRANSPARENT CONTENT FOUNDATION
+========================================================== */
 
 .archenova-twin-home
 #archenova-current-state-section
-.ancs__surface {
+.ancs {
+  --ancs-white: rgba(250, 251, 253, 0.97);
+  --ancs-secondary: rgba(228, 233, 240, 0.76);
+  --ancs-muted: rgba(218, 225, 234, 0.48);
+  --ancs-line: rgba(255, 255, 255, 0.105);
+
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  min-width: 0;
+
+  margin: 0;
+
+  padding:
+    clamp(28px, 4.1vw, 62px)
+    clamp(24px, 5vw, 76px)
+    clamp(23px, 3vw, 42px);
+
   background: transparent !important;
 
   border: 0 !important;
   border-radius: 0 !important;
 
+  outline: 0 !important;
+
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
 
   box-shadow: none !important;
+
+  color: var(--ancs-white);
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
+
+.archenova-twin-home
+#archenova-current-state-section
+.ancs,
+
+.archenova-twin-home
+#archenova-current-state-section
+.ancs * {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.archenova-twin-home
+#archenova-current-state-section
+.ancs a {
+  text-decoration: none;
+}
+
+
+/* ==========================================================
+   03 / MASTHEAD
+========================================================== */
+
+.ancs__masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 18px;
+}
+
+.ancs__brand {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 11px;
+
+  color: var(--ancs-white);
+
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.20em;
+}
+
+.ancs__brand-symbol {
+  display: grid;
+  place-items: center;
+
+  width: 29px;
+  height: 29px;
+  flex: 0 0 29px;
+
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 50%;
+
+  color: rgba(250, 251, 253, 0.94);
+
+  font-size: 11px;
+  font-weight: 350;
+  letter-spacing: 0;
+}
+
+.ancs__masthead-right {
+  color: var(--ancs-muted);
+
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.14em;
+
+  text-align: right;
+}
+
+
+/* ==========================================================
+   04 / HERO
+
+   Large editorial heading on the left.
+   Quiet explanatory copy on the right.
+========================================================== */
+
+.ancs__hero {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.35fr)
+    minmax(190px, 0.65fr);
+
+  align-items: end;
+
+  gap: clamp(25px, 5vw, 76px);
+
+  margin-top: clamp(39px, 5vw, 76px);
+  margin-bottom: clamp(36px, 4.6vw, 65px);
+}
+
+.ancs__eyebrow {
+  display: block;
+
+  margin-bottom: 17px;
+
+  color: var(--ancs-muted);
+
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.20em;
+}
+
+.ancs__title {
+  margin: 0;
+
+  color: var(--ancs-white);
+
+  font-size: clamp(57px, 7.3vw, 112px);
+  font-weight: 260;
+
+  line-height: 0.99;
+  letter-spacing: -0.078em;
+}
+
+.ancs__title span {
+  color: rgba(218, 227, 237, 0.55);
+}
+
+.ancs__hero-aside {
+  max-width: 320px;
+  padding-bottom: 8px;
+}
+
+.ancs__aside-rule {
+  display: block;
+
+  width: 29px;
+  height: 1px;
+
+  margin-bottom: 21px;
+
+  background: rgba(244, 248, 252, 0.48);
+}
+
+.ancs__hero-aside p {
+  margin: 0;
+
+  color: rgba(243, 246, 250, 0.90);
+
+  font-size: clamp(15px, 1.45vw, 19px);
+  font-weight: 360;
+
+  line-height: 1.6;
+  letter-spacing: -0.025em;
+}
+
+.ancs__aside-caption {
+  display: block;
+
+  margin-top: 21px;
+
+  color: var(--ancs-muted);
+
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.13em;
+}
+
+
+/* ==========================================================
+   05 / HORIZONTAL EDITORIAL RAIL
+
+   Three columns on wide screens.
+   Horizontal scroll on smaller screens.
+
+   No internal cards.
+========================================================== */
+
+.ancs__rail-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 16px;
+
+  padding-bottom: 14px;
+
+  border-bottom: 1px solid var(--ancs-line);
+
+  color: var(--ancs-muted);
+
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.16em;
+}
+
+.ancs__rail-hint {
+  display: none;
+  text-align: right;
+}
+
+.ancs__rail {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  width: 100%;
+  min-width: 0;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: thin;
+
+  scrollbar-color:
+    rgba(238, 244, 250, 0.24)
+    transparent;
+}
+
+.ancs__rail::-webkit-scrollbar {
+  height: 3px;
+}
+
+.ancs__rail::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ancs__rail::-webkit-scrollbar-thumb {
+  background: rgba(238, 244, 250, 0.24);
+  border-radius: 999px;
+}
+
+.ancs__rail:focus-visible {
+  outline: 1px solid rgba(250, 252, 253, 0.8);
+  outline-offset: -2px;
+}
+
+.ancs__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  min-width: 0;
+  min-height: 225px;
+
+  padding:
+    29px clamp(19px, 2.7vw, 41px)
+    27px;
+
+  background: transparent !important;
+  border: 0;
+  border-radius: 0;
+
+  box-shadow: none !important;
+
+  scroll-snap-align: start;
+}
+
+.ancs__item:first-child {
+  padding-left: 0;
+}
+
+.ancs__item:last-child {
+  padding-right: 0;
+}
+
+.ancs__item + .ancs__item {
+  border-left: 1px solid var(--ancs-line);
+}
+
+.ancs__item-heading {
+  display: flex;
+  align-items: baseline;
+
+  gap: 14px;
+}
+
+.ancs__item-index {
+  color: rgba(223, 232, 241, 0.40);
+
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.ancs__item-category {
+  color: rgba(228, 236, 244, 0.65);
+
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.13em;
+}
+
+.ancs__item-body {
+  width: 100%;
+}
+
+.ancs__item-body h3 {
+  margin: 21px 0 0;
+
+  color: var(--ancs-white);
+
+  font-size: clamp(20px, 2vw, 28px);
+  font-weight: 350;
+
+  line-height: 1.24;
+  letter-spacing: -0.043em;
+}
+
+.ancs__item-body p {
+  max-width: 330px;
+
+  margin: 12px 0 0;
+
+  color: var(--ancs-secondary);
+
+  font-size: 12px;
+  font-weight: 390;
+
+  line-height: 1.8;
+}
+
+.ancs__item-footnote {
+  display: block;
+
+  margin-top: auto;
+  padding-top: 25px;
+
+  color: var(--ancs-muted);
+
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.12em;
+}
+
+
+/* ==========================================================
+   06 / FOOTER
+========================================================== */
+
+.ancs__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid var(--ancs-line);
+}
+
+.ancs__pagination {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.ancs__page-dot {
+  display: grid;
+  place-items: center;
+
+  width: 28px;
+  height: 28px;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 999px;
+
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.ancs__page-dot span {
+  display: block;
+
+  width: 17px;
+  height: 2px;
+
+  border-radius: 999px;
+
+  background: rgba(238, 245, 251, 0.23);
+
+  transition:
+    width 0.25s ease,
+    background 0.25s ease;
+}
+
+.ancs__page-dot.is-active span {
+  width: 24px;
+
+  background: rgba(250, 252, 253, 0.94);
+}
+
+.ancs__page-dot:focus-visible,
+.ancs__next:focus-visible {
+  outline: 2px solid rgba(250, 252, 253, 0.9);
+  outline-offset: 3px;
+}
+
+.ancs__next {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 22px;
+
+  min-height: 43px;
+
+  color: rgba(248, 251, 253, 0.91);
+
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.11em;
+
+  transition: color 0.2s ease;
+}
+
+.ancs__next-arrow {
+  display: grid;
+  place-items: center;
+
+  width: 35px;
+  height: 35px;
+
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.035);
+
+  font-size: 16px;
+  font-weight: 350;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .ancs__next:hover {
+    color: #ffffff;
+  }
+
+  .ancs__next:hover .ancs__next-arrow {
+    background: rgba(255, 255, 255, 0.11);
+    border-color: rgba(255, 255, 255, 0.38);
+  }
+}
+
+
+/* ==========================================================
+   07 / TABLET
+========================================================== */
+
+@media (max-width: 1024px) {
+  .ancs__rail-hint {
+    display: inline;
+  }
+
+  .ancs__rail {
+    grid-template-columns:
+      repeat(3, minmax(270px, 47%));
+
+    scroll-snap-type: x mandatory;
+  }
+
+  .ancs__item {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+
+/* ==========================================================
+   08 / MOBILE
+
+   Same single glass.
+   Editorial hero becomes one column.
+   Rail remains horizontal.
+========================================================== */
 
 @media (max-width: 768px) {
   .archenova-twin-home
-  #archenova-current-state-section {
+  section#archenova-current-state-section {
     border-radius: 26px !important;
+
+    background:
+      radial-gradient(
+        ellipse at 12% 0%,
+        rgba(255, 255, 255, 0.045),
+        transparent 62%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(17, 19, 23, 0.25),
+        rgba(0, 0, 0, 0.36)
+      ) !important;
+
+    -webkit-backdrop-filter:
+      blur(18px) saturate(104%) !important;
+
+    backdrop-filter:
+      blur(18px) saturate(104%) !important;
+  }
+
+  .archenova-twin-home
+  #archenova-current-state-section
+  .ancs {
+    padding: 27px 23px 22px;
+  }
+
+  .ancs__masthead-right {
+    font-size: 8px;
+    letter-spacing: 0.08em;
+  }
+
+  .ancs__hero {
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 23px;
+
+    margin-top: 43px;
+    margin-bottom: 38px;
+  }
+
+  .ancs__eyebrow {
+    margin-bottom: 15px;
+    font-size: 9px;
+  }
+
+  .ancs__title {
+    font-size: clamp(55px, 11vw, 84px);
+  }
+
+  .ancs__hero-aside {
+    max-width: 420px;
+    padding-bottom: 0;
+  }
+
+  .ancs__aside-rule {
+    margin-bottom: 13px;
+  }
+
+  .ancs__hero-aside p {
+    font-size: 15px;
+  }
+
+  .ancs__aside-caption {
+    margin-top: 12px;
+    font-size: 8px;
+  }
+
+  .ancs__rail {
+    grid-template-columns:
+      repeat(3, minmax(240px, 85%));
+  }
+
+  .ancs__item {
+    min-height: 222px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .ancs__item-body h3 {
+    font-size: 23px;
+  }
+
+  .ancs__footer {
+    padding-top: 14px;
   }
 }
 
+
+/* ==========================================================
+   09 / SMALL MOBILE
+========================================================== */
+
 @media (max-width: 430px) {
   .archenova-twin-home
-  #archenova-current-state-section {
+  section#archenova-current-state-section {
     border-radius: 22px !important;
   }
+
+  .archenova-twin-home
+  #archenova-current-state-section
+  .ancs {
+    padding: 22px 18px 18px;
+  }
+
+  .ancs__brand {
+    gap: 8px;
+
+    font-size: 9px;
+    letter-spacing: 0.14em;
+  }
+
+  .ancs__brand-symbol {
+    width: 26px;
+    height: 26px;
+    flex-basis: 26px;
+  }
+
+  .ancs__hero {
+    margin-top: 37px;
+    margin-bottom: 32px;
+  }
+
+  .ancs__title {
+    font-size: clamp(49px, 12vw, 61px);
+  }
+
+  .ancs__rail-heading {
+    font-size: 8px;
+    letter-spacing: 0.09em;
+  }
+
+  .ancs__rail {
+    grid-template-columns:
+      repeat(3, minmax(0, 91%));
+  }
+
+  .ancs__item {
+    min-height: 222px;
+
+    padding-right: 17px;
+    padding-left: 17px;
+  }
+
+  .ancs__item-body h3 {
+    font-size: 21px;
+  }
+
+  .ancs__item-body p {
+    font-size: 12px;
+  }
+
+  .ancs__next {
+    gap: 9px;
+
+    font-size: 8px;
+    letter-spacing: 0.05em;
+  }
+
+  .ancs__next-arrow {
+    width: 31px;
+    height: 31px;
+  }
 }
+
+
+/* ==========================================================
+   10 / ACCESSIBILITY
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .ancs__page-dot span,
+  .ancs__next,
+  .ancs__next-arrow {
+    transition: none;
+  }
+}
+
+@supports not (
+  (backdrop-filter: blur(1px)) or
+  (-webkit-backdrop-filter: blur(1px))
+) {
+  .archenova-twin-home
+  section#archenova-current-state-section {
+    background:
+      rgba(11, 14, 19, 0.94) !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
