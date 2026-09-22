@@ -55537,3 +55537,373 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
 
 
+/* ==========================================================
+   ARCHENOVA — HOME REVEAL HEADER
+   ----------------------------------------------------------
+   HOME header only.
+
+   Preserves:
+   - Existing background image
+   - HOME full-width layout
+   - Existing Portal glass
+   - HomeSectionPager
+   - All HOME section dimensions
+========================================================== */
+
+.an-top-header {
+  --an-header-height: 72px;
+
+  position: fixed;
+  z-index: 9000;
+
+  inset: 0 0 auto;
+  width: 100%;
+
+  color: rgba(245, 246, 248, 0.95);
+
+  background:
+    linear-gradient(
+      155deg,
+      rgba(18, 19, 22, 0.43),
+      rgba(4, 5, 7, 0.57)
+    );
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.085);
+
+  -webkit-backdrop-filter:
+    blur(18px) saturate(105%);
+
+  backdrop-filter:
+    blur(18px) saturate(105%);
+
+  box-shadow:
+    inset 0 1px rgba(255, 255, 255, 0.035);
+
+  transform: translate3d(0, 0, 0);
+
+  transition:
+    transform 260ms ease;
+
+  pointer-events: auto;
+}
+
+.an-top-header--hidden {
+  transform:
+    translate3d(0, calc(-100% - 2px), 0);
+
+  pointer-events: none;
+}
+
+/* ==========================================================
+   HEADER BAR
+========================================================== */
+
+.an-top-header__bar {
+  min-height: var(--an-header-height);
+
+  max-width: 1800px;
+  margin: 0 auto;
+
+  padding:
+    0 clamp(14px, 3vw, 44px);
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto
+    minmax(0, 1fr);
+
+  align-items: center;
+  gap: 12px;
+}
+
+/* ==========================================================
+   ACTION ICONS
+========================================================== */
+
+.an-top-header__actions {
+  display: flex;
+  align-items: center;
+
+  gap: clamp(2px, 0.65vw, 10px);
+
+  min-width: 0;
+}
+
+.an-top-header__actions--right {
+  justify-content: flex-end;
+}
+
+.an-top-header__icon {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+
+  padding: 0;
+
+  border:
+    1px solid transparent;
+
+  border-radius: 50%;
+
+  background: transparent;
+  color: inherit;
+
+  cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.an-top-header__icon:hover,
+.an-top-header__icon:focus-visible {
+  background:
+    rgba(255, 255, 255, 0.075);
+
+  border-color:
+    rgba(255, 255, 255, 0.11);
+}
+
+/* ==========================================================
+   BRAND
+========================================================== */
+
+.an-top-header__brand {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 0;
+
+  text-decoration: none;
+  color: inherit;
+
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
+.an-top-header__brand span {
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(22px, 2.4vw, 30px);
+
+  font-weight: 400;
+
+  letter-spacing: 0.015em;
+}
+
+.an-top-header__brand small {
+  margin-top: 5px;
+
+  font-family: inherit;
+
+  font-size: 8px;
+  font-weight: 500;
+
+  letter-spacing: 0.19em;
+
+  opacity: 0.66;
+}
+
+/* ==========================================================
+   NAVIGATION MENU
+========================================================== */
+
+.an-top-header__menu {
+  position: absolute;
+
+  top: 100%;
+
+  left:
+    clamp(12px, 3vw, 44px);
+
+  width:
+    min(390px, calc(100vw - 24px));
+
+  max-height:
+    min(70dvh, 640px);
+
+  overflow-y: auto;
+
+  overscroll-behavior: contain;
+
+  padding: 9px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.105);
+
+  border-radius:
+    0 0 20px 20px;
+
+  background:
+    rgba(10, 11, 14, 0.94);
+
+  -webkit-backdrop-filter:
+    blur(18px);
+
+  backdrop-filter:
+    blur(18px);
+
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.24);
+}
+
+.an-top-header__menu[hidden] {
+  display: none !important;
+}
+
+.an-top-header__menu button {
+  display: flex;
+
+  width: 100%;
+  min-height: 45px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: 10px 13px;
+
+  border: 0;
+  border-radius: 10px;
+
+  background: transparent;
+
+  color:
+    rgba(245, 246, 248, 0.87);
+
+  text-align: left;
+
+  font: inherit;
+  font-size: 13px;
+
+  cursor: pointer;
+}
+
+.an-top-header__menu button svg {
+  width: 16px;
+  height: 16px;
+
+  opacity: 0.58;
+}
+
+.an-top-header__menu button:hover,
+.an-top-header__menu button:focus-visible {
+  background:
+    rgba(255, 255, 255, 0.075);
+}
+
+/* ==========================================================
+   KEYBOARD FOCUS
+========================================================== */
+
+.an-top-header button:focus-visible,
+.an-top-header a:focus-visible {
+  outline:
+    2px solid rgba(255, 255, 255, 0.72);
+
+  outline-offset: 2px;
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+  .an-top-header {
+    --an-header-height: 62px;
+  }
+
+  .an-top-header__bar {
+    padding-inline: 10px;
+    gap: 4px;
+  }
+
+  .an-top-header__icon {
+    width: 38px;
+    height: 42px;
+
+    min-width: 38px;
+  }
+
+  .an-top-header__icon svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .an-top-header__brand span {
+    font-size:
+      clamp(20px, 5.5vw, 25px);
+  }
+
+  .an-top-header__brand small {
+    font-size: 7px;
+    letter-spacing: 0.12em;
+  }
+
+  .an-top-header__menu {
+    left: 10px;
+  }
+}
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 370px) {
+  .an-top-header__bar {
+    padding-inline: 6px;
+  }
+
+  .an-top-header__icon {
+    width: 33px;
+    min-width: 33px;
+  }
+
+  .an-top-header__brand span {
+    font-size: 19px;
+  }
+
+  .an-top-header__brand small {
+    font-size: 6px;
+  }
+}
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .an-top-header {
+    transition: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
