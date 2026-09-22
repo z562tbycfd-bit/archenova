@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-09-22T14:27:19.121Z",
+  "updated": "2026-09-22T18:35:53.847Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: Former FDA commissioners: Heidi Overton has an opportunity to strengthen the FDA",
+      "url": "https://www.statnews.com/2026/09/22/heidi-overton-fda-commissioner-confirmation-hearing/?utm_campaign=rss",
+      "summary": "Two former FDA commissioners: Heidi Overton is the right pick in a difficult moment.",
+      "ts": 1790099343000,
+      "publishedAt": "2026-09-22T17:49:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Syngene Expands Integrated Drug Development and Manufacturing Services with BMS",
+      "url": "https://www.genengnews.com/topics/bioprocessing/syngene-expands-integrated-drug-development-and-manufacturing-services-with-bms/",
+      "summary": "The collaboration between Syngene and Bristol Myers Squibb began in 1998, culminating in the establishment of the Biocon Bristol Myers Squibb Research and Development Center, Syngene's first dedicated R&D Center. The pos…",
+      "ts": 1790099294000,
+      "publishedAt": "2026-09-22T17:48:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+      "url": "https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/",
+      "summary": "NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life. High temperatures can cause the destruction of necessary cell components, which is …",
+      "ts": 1790098390000,
+      "publishedAt": "2026-09-22T17:33:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Did the Trump administration just cut Novo a huge financial win?",
+      "url": "https://www.statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win/?utm_campaign=rss",
+      "summary": "The White House's GENEROUS plan was designed to make drugs more affordable for Medicaid users. There's one glaring potential exception.",
+      "ts": 1790094201000,
+      "publishedAt": "2026-09-22T16:23:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Chandra Finds Unusual Objects in Pinwheel Galaxy",
+      "url": "https://www.nasa.gov/image-article/nasas-chandra-finds-unusual-objects-in-pinwheel-galaxy/",
+      "summary": "Using NASA’s Chandra X-ray Observatory, researchers found mysterious objects that give off unusually low-energy X-rays but intense levels of ultraviolet radiation. One of the galaxies they studied, M101, is pictured here…",
+      "ts": 1790091648000,
+      "publishedAt": "2026-09-22T15:40:48.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Advancing AAV Development: From Production to Performance",
+      "url": "https://www.genengnews.com/multimedia/advancing-aav-development-from-production-to-performance/",
+      "summary": "In this GEN Learning Lab, our expert panelists Guangping Gao, PhD, and Thomas Quinn will explore critical steps in the AAV workflow that influence vector quality and downstream experimental success. The post Advancing AA…",
+      "ts": 1790089923000,
+      "publishedAt": "2026-09-22T15:12:03.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Novo may be getting a better deal than expected with Medicare’s Bridge program",
@@ -33,7 +87,7 @@
       "source": "NASA",
       "title": "NASA Astronaut to Answer Questions from New Hampshire Students",
       "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-to-answer-questions-from-new-hampshire-students/",
-      "summary": "Students in New Hampshire will hear from NASA astronaut Anil Menon as he answers prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 11:35 a.m. EDT Thursday, Sep…",
+      "summary": "Editor’s Note: This feature was updated Sept. 22, 2026, to note the time change for the in-flight call with students. Students in New Hampshire will hear from NASA astronaut Anil Menon as he answers prerecorded STEM ques…",
       "ts": 1790084333000,
       "publishedAt": "2026-09-22T13:38:53.000Z",
       "categoryId": "space"
@@ -73,6 +127,60 @@
       "ts": 1790078441000,
       "publishedAt": "2026-09-22T12:00:41.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Trump defends military action against Iran, Venezuela, and calls for rebrand of AI",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168397",
+      "summary": "US President Donald Trump used his address to the UN General Assembly on Tuesday to defend recent military action against Iran, urging countries to maintain economic pressure on Tehran – and declaring that he now faces a…",
+      "ts": 1790078400000,
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Diplomacy is the way to address global challenges, Brazil tells General Assembly",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168395",
+      "summary": "Brazilian President Luiz Inácio Lula da Silva told the General Assembly on Tuesday that the UN needs to become a “temple of peace” once again, as it confronts one of the most critical periods in its 80-year history.",
+      "ts": 1790078400000,
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Time to accept ‘hard truths’ so trust can be rebuilt: General Assembly president",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168394",
+      "summary": "The UN’s survival for 80 years is not, by itself, proof of success, and now, the institution must confront painful truths if it hopes to rebuild public trust, said Khalilur Rahman, president of the General Assembly’s 81s…",
+      "ts": 1790078400000,
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Guterres: ‘Cracks have become canyons’ as world faces four tests of power",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168392",
+      "summary": "Humanity faces four defining “tests of power” – around war or peace, inequality, climate change and AI – that will determine whether the world moves towards a new era of cooperation or deeper division, the UN chief warne…",
+      "ts": 1790078400000,
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Millions of children return to schools that still can’t provide clean water or a working toilet",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168393",
+      "summary": "A new academic year is underway in many countries across the world, yet millions of children still attend schools where the water is unsafe to drink, toilets are unusable and there is nowhere to properly wash their hands…",
+      "ts": 1790078400000,
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Displacement on the rise in Yemen as fighting continues",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168390",
+      "summary": "As hostilities worsen in Yemen, more people have been fleeing their homes, further intensifying the humanitarian crisis within the region, the UN Refugee Agency (UNHCR) warned on Tuesday.",
+      "ts": 1790078400000,
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -651,6 +759,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Priorities and principles for effective third party assessments",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "ts": 1790035200000,
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Nature Energy",
       "title": "A Ni(OH)<sub>2</sub> symmetric battery cell for hydroxide exchange membrane-based direct air capture of CO<sub>2</sub>",
       "url": "https://www.nature.com/articles/s41560-026-02129-z",
@@ -693,123 +810,6 @@
       "summary": "In this GEN webinar, our expert speakers will discuss the latest trends, challenges, and innovations shaping fluid transfer and freeze-thaw workflows. The post Emerging Trends in Fluid Transfers and Freeze-Thaw Workflows…",
       "ts": 1790027663000,
       "publishedAt": "2026-09-21T21:54:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Welcomes Albania as Newest Artemis Accords Signatory  ",
-      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
-      "summary": "The Republic of Albania signed the Artemis Accords Monday during a ceremony hosted by NASA at the agency’s headquarters in Washington, joining the coalition of like‑minded nations committed to the responsible and transpa…",
-      "ts": 1790025692000,
-      "publishedAt": "2026-09-21T21:21:32.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Kicks Off Nationwide Effort to Prepare Tomorrow’s Space Workforce",
-      "url": "https://www.nasa.gov/learning-resources/nasa-kicks-off-nationwide-effort-to-prepare-tomorrows-space-workforce/",
-      "summary": "NASA kicked off its State Hubs for Skilled Technical Workforce initiative Sept. 15, 2026 with awardees at Space Center Houston. Agency leadership convened State Hub partners to align strategy and build momentum while foc…",
-      "ts": 1790024584000,
-      "publishedAt": "2026-09-21T21:03:04.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "StockWatch: Novo’s 2030 Strategy Underwhelms Investors at Capital Markets Day",
-      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-novos-2030-strategy-underwhelms-investors-at-capital-markets-day/",
-      "summary": "Novo said it planned to launch “more than five multi-blockbusters” or drugs with multiple billions of dollars in sales every year through 2030, and generate more than DKK 150 billion (just over $23 billion) in risk-adjus…",
-      "ts": 1790023296000,
-      "publishedAt": "2026-09-21T20:41:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genes Involved in Flatworm Brain Regeneration Identified",
-      "url": "https://www.genengnews.com/topics/translational-medicine/genes-involved-in-flatworm-brain-regeneration-identified/",
-      "summary": "Researchers identified genes that enable the regeneration of dopamine-producing neurons in planarians. This provides a roadmap for investigating whether similar pathways can be activated in humans and potentially leverag…",
-      "ts": 1790022108000,
-      "publishedAt": "2026-09-21T20:21:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Perseverance’s View of ‘Turquoise Bay’",
-      "url": "https://science.nasa.gov/photojournal/perseverances-view-of-turquoise-bay/",
-      "summary": "Description NASA’s Perseverance Mars rover used its Mastcam-Z camera to capture this 360-degree panorama of “Turquoise Bay,” a geologic area of interest in the “Margin Unit.” The 818 images used to create the natural-col…",
-      "ts": 1790018279000,
-      "publishedAt": "2026-09-21T19:17:59.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Reid Wiseman Attends Ravens vs. Saints Game",
-      "url": "https://www.nasa.gov/image-article/nasa-astronaut-reid-wiseman-attends-ravens-vs-saints-game/",
-      "summary": "NASA astronaut and commander of the agency’s Artemis II mission, Reid Wiseman, a Baltimore native, takes a selfie with fans at an NFL game between the New Orleans Saints and the Baltimore Ravens at M&T Bank Stadium, Sund…",
-      "ts": 1790016193000,
-      "publishedAt": "2026-09-21T18:43:13.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fi…",
-      "ts": 1790013607000,
-      "publishedAt": "2026-09-21T18:00:07.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What a vote on Grail’s cancer detection test could mean for the company, patients, and regulators",
-      "url": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss",
-      "summary": "Shares in Grail, the company developing a blood test for cancer, surged Monday after the FDA posted documents ahead of an advisory committee meeting.",
-      "ts": 1790013531000,
-      "publishedAt": "2026-09-21T17:58:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "H5N1 Spreads Among Australian Wildlife as Flu Season Ramps Up",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/h5n1-spreads-among-australian-wildlife-as-flu-season-ramps-up/",
-      "summary": "Australia is closely monitoring the H5N1 influenza strain after detections in sea lions, seals, dolphins, and foxes, prompting surveillance for mammal adaptation while authorities report low human health risk. The post H…",
-      "ts": 1790011537000,
-      "publishedAt": "2026-09-21T17:25:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Discovery Reveals Complex Water Systems on Early Mars",
-      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
-      "summary": "When NASA’s Perseverance rover reached the inner edge of Mars’ Jezero Crater in September 2023, mission scientists were surprised by what they found. Called the “Margin Unit,” the geologic area stretches along the shorel…",
-      "ts": 1790009683000,
-      "publishedAt": "2026-09-21T16:54:43.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million ind…",
-      "ts": 1790006446000,
-      "publishedAt": "2026-09-21T16:00:46.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — build…",
-      "ts": 1790006410000,
-      "publishedAt": "2026-09-21T16:00:10.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Precure Selects Helix as Multiomics Lab and AI Tools Provider",
-      "url": "https://www.genengnews.com/topics/omics/precure-selects-helix-as-multiomics-lab-and-ai-tools-provider/",
-      "summary": "Mayo Clinic recently launched Precure with founding partner Thermo Fisher Scientific to help transform how the life sciences community understands the biological changes that occur as disease develops before symptoms occ…",
-      "ts": 1790003392000,
-      "publishedAt": "2026-09-21T15:09:52.000Z",
       "categoryId": "bio"
     }
   ],
