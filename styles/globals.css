@@ -55067,3 +55067,433 @@ section#civilization-space[data-home-section] {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA / HOME 2026 — SPACIOUS BACKGROUND-PRESERVING OPTICAL GLASS
+   HOME-only final override. Keep at END of app/globals.css.
+   Requires app/home/page.tsx class an-home-2026.
+   Does not change non-HOME routes or Portal functionality.
+========================================================== */
+
+main.an-home-2026.home-snap.archenova-twin-home {
+  --an-h-gutter: clamp(16px, 3.8vw, 76px);
+  --an-h-top: clamp(92px, 11svh, 148px);
+  --an-h-bottom: clamp(104px, 12svh, 160px);
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  overflow: visible !important;
+  background: transparent !important;
+  background-image: none !important;
+  scroll-snap-type: none !important;
+  scroll-behavior: auto;
+  animation: none !important;
+}
+
+/* Existing section-level film, float and fixed viewport rules. */
+main.an-home-2026 > section.an-home-2026__section[data-home-section] {
+  position: relative !important;
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: var(--an-h-top) var(--an-h-gutter) var(--an-h-bottom) !important;
+  overflow: visible !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  transform: none !important;
+  animation: none !important;
+  scroll-snap-align: none !important;
+  scroll-snap-stop: normal !important;
+}
+main.an-home-2026 > section.an-home-2026__section::before,
+main.an-home-2026 > section.an-home-2026__section::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* One generous HOME glass; existing internal research/UI cards remain intact. */
+main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass {
+  position: relative !important;
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  align-self: center;
+  width: 100% !important;
+  max-width: 1800px !important;
+  min-width: 0 !important;
+  min-height: min(690px, 76svh);
+  height: auto !important;
+  max-height: none !important;
+  margin: 0 auto !important;
+  padding: clamp(24px, 3.3vw, 62px) !important;
+  overflow: visible !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 30px !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Longer editorial environments must not be clipped by HOME layout. */
+main.an-home-2026 > #todays-inquiry > .an-home-2026__glass,
+main.an-home-2026 > #works > .an-home-2026__glass,
+main.an-home-2026 > #work-models > .an-home-2026__glass,
+main.an-home-2026 > #archenova-valley > .an-home-2026__glass {
+  justify-content: flex-start;
+}
+
+/* Today's Inquiry: release its legacy fixed-height nested scroll on HOME only. */
+main.an-home-2026 #todays-inquiry .ti-home,
+main.an-home-2026 #todays-inquiry .ti-home__glass,
+main.an-home-2026 #todays-inquiry .ti-home__scroll,
+main.an-home-2026 #todays-inquiry .ti-home__document {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+}
+main.an-home-2026 #todays-inquiry .ti-home__glass {
+  overflow: visible !important;
+}
+main.an-home-2026 #todays-inquiry .ti-home__scroll {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  overflow: visible !important;
+  overscroll-behavior: auto !important;
+}
+main.an-home-2026 #todays-inquiry .ti-home__depth-mask,
+main.an-home-2026 #todays-inquiry .ti-home__scroll-indicator {
+  display: none !important;
+}
+
+/* Work Models: release HOME-level viewport clipping, retain model controls. */
+main.an-home-2026 > #work-models,
+main.an-home-2026 #work-models .wm-portal,
+main.an-home-2026 #work-models .wm-portal__stage {
+  height: auto !important;
+  max-height: none !important;
+}
+main.an-home-2026 #work-models .wm-portal,
+main.an-home-2026 #work-models .wm-portal__stage {
+  overflow: visible !important;
+}
+main.an-home-2026 #work-models .wm-portal__stage {
+  min-height: 0 !important;
+  overscroll-behavior: auto;
+}
+
+/* Civilization Space intentionally clips its transition to its own glass. */
+main.an-home-2026 > #civilization-space > .an-home-2026__glass {
+  padding: 0 !important;
+  min-height: min(740px, 80svh);
+  overflow: visible !important;
+}
+main.an-home-2026 #civilization-space .an-civilization-space-portal {
+  width: 100%;
+  min-width: 0;
+  border-radius: inherit;
+}
+
+/* HOME pager: consistent, quiet, keyboard-accessible navigation. */
+main.an-home-2026 > .chapter-navigator {
+  position: fixed !important;
+  z-index: 1000 !important;
+  top: 50% !important;
+  right: clamp(8px, 1.2vw, 22px) !important;
+  bottom: auto !important;
+  left: auto !important;
+  transform: translateY(-50%) !important;
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 7px !important;
+  width: 52px !important;
+  max-width: 52px !important;
+  max-height: calc(100svh - 32px) !important;
+  padding: 9px 5px !important;
+  overflow: visible !important;
+  border: 1px solid rgba(255,255,255,.075) !important;
+  border-radius: 22px !important;
+  background: rgba(8,9,11,.42) !important;
+  -webkit-backdrop-filter: blur(18px) !important;
+  backdrop-filter: blur(18px) !important;
+  box-shadow: none !important;
+}
+main.an-home-2026 > .chapter-navigator .chapter-nav-list {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 3px !important;
+  width: 100% !important;
+  min-height: 0;
+  max-height: calc(100svh - 124px);
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  scrollbar-width: none;
+}
+main.an-home-2026 > .chapter-navigator .chapter-nav-list::-webkit-scrollbar { display: none; }
+main.an-home-2026 > .chapter-navigator .chapter-nav-arrow,
+main.an-home-2026 > .chapter-navigator .chapter-nav-item {
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 38px !important;
+  min-width: 38px !important;
+  height: 38px !important;
+  min-height: 38px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: rgba(255,255,255,.64) !important;
+  font: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+main.an-home-2026 > .chapter-navigator .chapter-nav-mark {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px !important;
+  line-height: 1 !important;
+}
+main.an-home-2026 > .chapter-navigator .chapter-nav-copy { display: none !important; }
+main.an-home-2026 > .chapter-navigator .chapter-nav-item.active {
+  background: rgba(255,255,255,.11) !important;
+  color: rgba(255,255,255,.98) !important;
+}
+main.an-home-2026 > .chapter-navigator .chapter-nav-arrow:disabled {
+  opacity: .26 !important;
+  cursor: default;
+}
+main.an-home-2026 > .chapter-navigator button:focus-visible {
+  outline: 2px solid rgba(255,255,255,.75) !important;
+  outline-offset: 2px !important;
+}
+@media (hover: hover) and (pointer: fine) {
+  main.an-home-2026 > .chapter-navigator button:not(:disabled):hover {
+    background: rgba(255,255,255,.075) !important;
+    color: #fff !important;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+  main.an-home-2026.home-snap { --an-h-gutter: clamp(20px, 3vw, 38px); }
+  main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass {
+    padding: clamp(25px, 3vw, 42px) !important;
+  }
+  main.an-home-2026 > #civilization-space > .an-home-2026__glass { padding: 0 !important; }
+}
+
+@media (max-width: 700px) {
+  main.an-home-2026.home-snap {
+    --an-h-gutter: 12px;
+    --an-h-top: 76px;
+    --an-h-bottom: 104px;
+  }
+  main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass {
+    min-height: min(610px, 72svh);
+    padding: 26px 19px !important;
+    border-radius: 24px !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+  main.an-home-2026 > #civilization-space > .an-home-2026__glass {
+    min-height: min(690px, 78svh);
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+  main.an-home-2026 > .chapter-navigator {
+    top: auto !important;
+    right: 50% !important;
+    bottom: max(12px, env(safe-area-inset-bottom)) !important;
+    left: auto !important;
+    transform: translateX(50%) !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 2px !important;
+    width: min(calc(100vw - 20px), 440px) !important;
+    max-width: min(calc(100vw - 20px), 440px) !important;
+    max-height: none !important;
+    padding: 7px 5px !important;
+    border-radius: 20px !important;
+  }
+  main.an-home-2026 > .chapter-navigator .chapter-nav-list {
+    flex: 1 1 auto;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-height: none !important;
+    gap: 1px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+  main.an-home-2026 > .chapter-navigator .chapter-nav-arrow,
+  main.an-home-2026 > .chapter-navigator .chapter-nav-item {
+    width: 34px !important;
+    min-width: 30px !important;
+    height: 40px !important;
+    min-height: 40px !important;
+  }
+  main.an-home-2026 > .chapter-navigator .chapter-nav-mark { font-size: 14px !important; }
+}
+@media (max-width: 390px) {
+  main.an-home-2026.home-snap { --an-h-gutter: 9px; }
+  main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass { padding: 23px 15px !important; }
+  main.an-home-2026 > #civilization-space > .an-home-2026__glass { padding: 0 !important; }
+  main.an-home-2026 > .chapter-navigator .chapter-nav-arrow,
+  main.an-home-2026 > .chapter-navigator .chapter-nav-item { width: 30px !important; min-width: 27px !important; }
+  main.an-home-2026 > .chapter-navigator .chapter-nav-mark { font-size: 12px !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  main.an-home-2026 > .chapter-navigator *,
+  main.an-home-2026 > section.an-home-2026__section { animation: none !important; transition: none !important; }
+}
+
+/* ==========================================================
+   SINGLE HOME GLASS OWNERSHIP / NO SCROLL-DEPENDENT FRAME
+   Keep section and portal shells unpainted; wrapper alone
+   draws the large border. Preserve internal UI and site image.
+========================================================== */
+main.an-home-2026 > section.an-home-2026__section[data-home-section] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: none !important;
+  filter: none !important;
+  content-visibility: visible !important;
+  contain: none !important;
+  will-change: auto !important;
+}
+main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass {
+  z-index: 1;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: none !important;
+  transform: none !important;
+  animation: none !important;
+  filter: none !important;
+  content-visibility: visible !important;
+  contain: none !important;
+  will-change: auto !important;
+  /* Opaque edge pixels; translucent center retains existing background image. */
+  border: 1px solid rgba(255,255,255,.095) !important;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,.025), rgba(255,255,255,.008) 24%, transparent 52%),
+    linear-gradient(145deg, rgba(15,16,18,.20), rgba(7,8,10,.24) 48%, rgba(0,0,0,.30)) !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.040), inset 0 -1px 0 rgba(255,255,255,.010) !important;
+}
+main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass::before,
+main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass::after { content: none !important; display: none !important; }
+/* Remove only portal-sized duplicate frames, never descendant content cards. */
+main.an-home-2026 #archenova-search-section :is(.an-search,.an-search__surface,.an-search__workspace),
+main.an-home-2026 #founder-digital-twin :is(.ep-dialogue-portal,.ep-dialogue-portal__card),
+main.an-home-2026 #todays-inquiry :is(.ti-home,.ti-home__glass,.ti-home__glass-inner),
+main.an-home-2026 #archenova-valley :is(.an-valley-portal,.an-valley-portal__card) {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+main.an-home-2026 #archenova-search-section .an-search__surface::before,
+main.an-home-2026 #archenova-search-section .an-search__surface::after,
+main.an-home-2026 #founder-digital-twin .ep-dialogue-portal__card::before,
+main.an-home-2026 #founder-digital-twin .ep-dialogue-portal__card::after,
+main.an-home-2026 #todays-inquiry .ti-home__glass::before,
+main.an-home-2026 #todays-inquiry .ti-home__glass::after,
+main.an-home-2026 #archenova-valley .an-valley-portal__card::before,
+main.an-home-2026 #archenova-valley .an-valley-portal__card::after { content: none !important; display: none !important; }
+/* The existing factory / Civilization Space visuals are not blanket-cleared. */
+@media (max-width: 700px) {
+  main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass {
+    background:
+      radial-gradient(circle at 50% 0%, rgba(255,255,255,.020), rgba(255,255,255,.006) 24%, transparent 50%),
+      linear-gradient(145deg, rgba(13,14,16,.16), rgba(6,7,9,.20) 50%, rgba(0,0,0,.26)) !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
