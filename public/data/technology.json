@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-22T18:35:53.847Z",
+  "updated": "2026-09-22T21:51:32.279Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "ts": 1790110800000,
+      "publishedAt": "2026-09-22T21:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cell Senescence ‘Barcodes’ Identified with Raman Microscopy and Gene Expression Data",
+      "url": "https://www.genengnews.com/topics/translational-medicine/cell-senescence-barcodes-identified-with-raman-microscopy-and-gene-expression-data/",
+      "summary": "Researchers combined Raman microscopy with gene expression data at single-cell resolution from the same cells, and AI, to develop RamanOmics, a noninvasive way to detect biomarkers of cellular senescence as “barcodes.\" T…",
+      "ts": 1790106712000,
+      "publishedAt": "2026-09-22T19:51:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: HHS unveils new initiatives to reduce animal testing in drug development",
+      "url": "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss",
+      "summary": "For the second time this year, HHS announced new strategies to speed the away from animals in medical testing.",
+      "ts": 1790105322000,
+      "publishedAt": "2026-09-22T19:28:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Risks of Decompression Sickness and Venous Thromboembolism during Spaceflight and Patent Foramen Ovale Implications",
+      "url": "https://www.nasa.gov/organizations/ochmo/risks-of-decompression-sickness-and-venous-thromboembolism-during-spaceflight-and-patent-foramen-ovale-implications/",
+      "summary": "NASA’s Office of the Chief Health and Medical Officer formed a working group in August 2026 to review the most recent data related to extravehicular activity (EVA) prebreathe testing and decompression sickness (DCS) even…",
+      "ts": 1790104785000,
+      "publishedAt": "2026-09-22T19:19:45.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "ts": 1790100000000,
+      "publishedAt": "2026-09-22T18:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Opinion: Former FDA commissioners: Heidi Overton has an opportunity to strengthen the FDA",
@@ -19,6 +64,15 @@
       "ts": 1790099294000,
       "publishedAt": "2026-09-22T17:48:14.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+      "url": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/",
+      "summary": "Lee esta historia en español aquí. NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life. High temperatures can cause the destruction of n…",
+      "ts": 1790098390000,
+      "publishedAt": "2026-09-22T17:33:10.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -262,6 +316,15 @@
       "ts": 1790060400000,
       "publishedAt": "2026-09-22T07:00:00.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 22 – Chance Triple Alignment: Plane, Space Station, Sun",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-22-chance-triple-alignment-plane-space-station-sun/",
+      "summary": "APOD Science APOD APOD: 2026 September 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1790049900000,
+      "publishedAt": "2026-09-22T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -747,69 +810,6 @@
       "summary": "arXiv:2608.17699v3 Announce Type: replace-cross Abstract: In the transcriptional networks of \\textit{Escherichia coli} and \\textit{Saccharomyces cerevisiae}, the eight feed-forward loop (FFL) motifs occur at markedly dif…",
       "ts": 1790049600000,
       "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "SARS-CoV-2 Protein Fuels Lung Inflammation by Hijacking Macrophages",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/sars-cov-2-protein-fuels-lung-inflammation-by-hijacking-macrophages/",
-      "summary": "The SARS-CoV-2 protein ORF8 reprograms macrophages to promote viral replication and lung inflammation. Blocking the ORF8-linked receptor IL-17RA reduced inflammation and fibrosis in mice, pointing to a potential therapeu…",
-      "ts": 1790037347000,
-      "publishedAt": "2026-09-22T00:35:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Priorities and principles for effective third party assessments",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "ts": 1790035200000,
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "A Ni(OH)<sub>2</sub> symmetric battery cell for hydroxide exchange membrane-based direct air capture of CO<sub>2</sub>",
-      "url": "https://www.nature.com/articles/s41560-026-02129-z",
-      "summary": "",
-      "ts": 1790035200000,
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Members of Congress push back on plan to create a commission of political appointees to review NIH grants",
-      "url": "https://www.statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back/?utm_campaign=rss",
-      "summary": "Several members of Congress voiced strong opposition about a reported plan to create a panel of political appointees to sign off on NIH grants",
-      "ts": 1790029041000,
-      "publishedAt": "2026-09-21T22:17:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Advancing Cell Therapy for Cardiovascular Disease",
-      "url": "https://www.genengnews.com/multimedia/webinars/advancing-cell-therapy-for-cardiovascular-disease/",
-      "summary": "In this GEN webinar, our expert speaker Joshua Michael Hare, MD, will examine how therapeutically relevant research is helping shape the development of cell therapies for cardiovascular disease. The post Advancing Cell T…",
-      "ts": 1790028457000,
-      "publishedAt": "2026-09-21T22:07:37.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Embracing the Equinox",
-      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/embracing-the-equinox/",
-      "summary": "Depending on your locale, equinoxes can be seen as harbingers of longer nights and gloomy weather, or promising beacons of nicer temperatures and more sunlight. Observing and predicting equinoxes is one of the earliest s…",
-      "ts": 1790027740000,
-      "publishedAt": "2026-09-21T21:55:40.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Emerging Trends in Fluid Transfers and Freeze-Thaw Workflows",
-      "url": "https://www.genengnews.com/multimedia/webinars/emerging-trends-in-fluid-transfers-and-freeze-thaw-workflows/",
-      "summary": "In this GEN webinar, our expert speakers will discuss the latest trends, challenges, and innovations shaping fluid transfer and freeze-thaw workflows. The post Emerging Trends in Fluid Transfers and Freeze-Thaw Workflows…",
-      "ts": 1790027663000,
-      "publishedAt": "2026-09-21T21:54:23.000Z",
       "categoryId": "bio"
     }
   ],
