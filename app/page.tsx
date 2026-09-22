@@ -287,10 +287,10 @@ export default function GatePage() {
               <span />
 
               <p>
-                FROM FIRST PRINCIPLES
+                FOUNDER-LED
                 <br className="an-gate__mobile-break" />
                 {" "}
-                TO CIVILIZATION
+                CIVILIZATION DESIGN
               </p>
 
               <span />
