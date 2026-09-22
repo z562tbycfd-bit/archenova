@@ -26,6 +26,17 @@ export default function HomePage() {
         <HomeSectionPager />
 
         <section
+          id="archenova-search-section"
+          data-home-section
+          className="home-page archenova-search-section an-home-2026__section"
+          aria-label="ArcheNova Map"
+        >
+          <div className="an-home-2026__glass">
+            <ArcheNovaMap />
+          </div>
+        </section>
+
+        <section
           id="founder-digital-twin"
           data-home-section
           className="home-page twin-page founder-digital-twin-page an-home-2026__section"
@@ -36,16 +47,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section
-          id="archenova-search-section"
-          data-home-section
-          className="home-page archenova-search-section an-home-2026__section"
-          aria-label="ArcheNova Map"
-        >
-          <div className="an-home-2026__glass">
-            <ArcheNovaMap />
-          </div>
-        </section>
 
         <section
           id="todays-inquiry"
