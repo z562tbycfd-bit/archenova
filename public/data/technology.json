@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-21T23:54:15.231Z",
+  "updated": "2026-09-22T03:54:39.880Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "SARS-CoV-2 Protein Fuels Lung Inflammation by Hijacking Macrophages",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/sars-cov-2-protein-fuels-lung-inflammation-by-hijacking-macrophages/",
+      "summary": "The SARS-CoV-2 protein ORF8 reprograms macrophages to promote viral replication and lung inflammation. Blocking the ORF8-linked receptor IL-17RA reduced inflammation and fibrosis in mice, pointing to a potential therapeu…",
+      "ts": 1790037347000,
+      "publishedAt": "2026-09-22T00:35:47.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Members of Congress push back on plan to create a commission of political appointees to review NIH grants",
@@ -802,15 +811,6 @@
       "ts": 1789768860000,
       "publishedAt": "2026-09-18T22:01:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump touts pharma deals to offer cheaper drugs to state Medicaid programs",
-      "url": "https://www.statnews.com/2026/09/18/trump-touts-state-participation-generous-medicaid-drug-discount-program/?utm_campaign=rss",
-      "summary": "Every state will participate in the GENEROUS program, but many of the details are unknown.",
-      "ts": 1789762956000,
-      "publishedAt": "2026-09-18T20:22:36.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

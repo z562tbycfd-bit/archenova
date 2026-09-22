@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-21T23:54:11.922Z",
+  "updated": "2026-09-22T03:54:37.457Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate change also poses a threat to cultural heritage",
+      "url": "https://phys.org/news/2026-09-climate-poses-threat-cultural-heritage.html",
+      "summary": "When we talk about climate change, the debate usually centers on energy, biodiversity, carbon emissions or the economic costs of the transition. But another aspect of the problem remains largely underestimated: the impac…",
+      "ts": 1790048401000,
+      "publishedAt": "2026-09-22T03:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fast-food brands may build loyalty through emotional experiences, not service alone",
+      "url": "https://phys.org/news/2026-09-fast-food-brands-loyalty-emotional.html",
+      "summary": "A study of more than 800 fast-food customers suggests that loyalty to a brand is shaped not only by satisfaction with the product or service but also by customers' emotional experiences. The study, published in the Inter…",
+      "ts": 1790044804000,
+      "publishedAt": "2026-09-22T02:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young users ditch Google for AI, with unknown consequences",
+      "url": "https://phys.org/news/2026-09-young-users-ditch-google-ai.html",
+      "summary": "Researchers have found that we know very little about how artificial intelligence use impacts younger school children's ability to learn and think.",
+      "ts": 1790041201000,
+      "publishedAt": "2026-09-22T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researcher studies mystical gemstones with a future in space exploration",
+      "url": "https://phys.org/news/2026-09-mystical-gemstones-future-space-exploration.html",
+      "summary": "Ph.D. candidate Natalia Seliutina has followed gemstones from the -30° temperatures of Siberia to the carving studios of Ōtepoti and the particle accelerators of Taiwan in her quest to discover why pounamu is one of the …",
+      "ts": 1790037601000,
+      "publishedAt": "2026-09-22T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fairness-based pathways shift emissions cuts while preserving global climate goals",
+      "url": "https://phys.org/news/2026-09-fairness-based-pathways-shift-emissions.html",
+      "summary": "Who cuts emissions fastest, and who supports others in doing so, are central questions in global climate action. New IIASA-led research shows that building fairness into climate models from the start can inform deliberat…",
+      "ts": 1790036401000,
+      "publishedAt": "2026-09-22T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Urban segregation study traces how history and ecology shape inequality in southern Chile",
+      "url": "https://phys.org/news/2026-09-urban-segregation-history-ecology-inequality.html",
+      "summary": "Segregation is a multidimensional phenomenon deeply intertwined with historical, social and ecological contexts. Yet this more integrated perspective has received limited attention in the Global South. A recent study foc…",
+      "ts": 1790035201000,
+      "publishedAt": "2026-09-22T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Host-pathogen pyrimidine metabolism drives cystic fibrosis lung disease",
+      "url": "https://www.nature.com/articles/s41467-026-77940-z",
+      "summary": "",
+      "ts": 1790035200000,
+      "publishedAt": "2026-09-22T00:00:00.000Z"
+    },
     {
       "source": "Nature Communications",
       "title": "Risk stratification for MDR/RR-TB: a comprehensive integrated patient-level analysis from TB programs and contemporary clinical trials",
@@ -743,62 +799,6 @@
       "title": "Observation of Vectorial Phase Singularities at Zero-Eigenvalue Exceptional Points",
       "url": "http://link.aps.org/doi/10.1103/djw2-myk2",
       "summary": "Author(s): Zijin Yang, Haoye Qin, Xinyue Gao, Heng Wei, Fulong Shi, Xinyang Mu, Jiaxin Chen, Chengzhi Zhang, Huibin Yang, Yuzhi Shi, Bo Li, Cheng-Wei Qiu, and Qinghua Song Exceptional points in non-Hermitian photonics pr…",
-      "ts": 1789984800000,
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Evidence for Magnon-Assisted Exciton Radiation in a Layered Antiferromagnetic Semiconductor",
-      "url": "http://link.aps.org/doi/10.1103/4c9s-gslh",
-      "summary": "Author(s): Yingchen Peng, Yanan Ge, Wentao Chen, Zihan Wang, Kang Wang, Kezhao Du, Xingzhi Wang, and Ye Yang Layered van der Waals (vdW) magnetic semiconductors open a new avenue for exploring intertwined excitonic and m…",
-      "ts": 1789984800000,
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Active Brownian Dynamics in Channels: First-Passage and Spatiotemporal Properties via Siegmund Duality",
-      "url": "http://link.aps.org/doi/10.1103/g83n-r4hs",
-      "summary": "Author(s): Yanis Baouche, Mathis Guéneau, and Christina Kurzthaler Accumulation at boundaries represents a widely observed phenomenon in active systems with implications for microbial ecology and engineering applications…",
-      "ts": 1789984800000,
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Beyond the Tip: Lattice Dynamics, Seams, and the Mechanism of Microtubule Fracture",
-      "url": "http://link.aps.org/doi/10.1103/zykj-2361",
-      "summary": "Author(s): Amir Zablotsky, Subham Biswas, Laura Schaedel, and Karin John The structural integrity of microtubules is paramount for cellular function. We present a theoretical analysis of their lattice fracture, focusing …",
-      "ts": 1789984800000,
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Fractional Quantum Hall States under Density Decoherence",
-      "url": "http://link.aps.org/doi/10.1103/bw7c-y5dc",
-      "summary": "Author(s): Zijian Wang, Ruihua Fan, Tianle Wang, Samuel J. Garratt, and Ehud Altman Statistical mechanics mappings reveal that quantum information stored in the non-Abelian anyons of Moore-Read states resists arbitrary d…",
-      "ts": 1789984800000,
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Interaction-Assisted Topological Pumping in Few- and Many-Atom Rydberg Arrays",
-      "url": "http://link.aps.org/doi/10.1103/bf85-ydvh",
-      "summary": "Author(s): Chenxi Huang, Tao Chen, Qian Liang, Matthew A. Krebs, Ethan Springhorn, Ruiyu Li, Mingsheng Tian, Kaden R. A. Hazzard, Jacob P. Covey, and Bryce Gadway Strong dipolar interactions in Rydberg atom arrays are fo…",
-      "ts": 1789984800000,
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Extended depth-of-field magneto-optical Kerr microscopy for applications in three-dimensional nanomagnetism",
-      "url": "http://link.aps.org/doi/10.1103/jb45-29sy",
-      "summary": "Author(s): Le Zhao, Alexander Rabensteiner, Miguel Ángel Cascales-Sandoval, Naëmi Leo, Sabri Koraltan, and Amalio Fernández-Pacheco High-resolution imaging of magnetic nanostructures is essential for understanding fundam…",
-      "ts": 1789984800000,
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Disorder-independent hole-spin manipulation by hopping",
-      "url": "http://link.aps.org/doi/10.1103/qwgc-mwzn",
-      "summary": "Author(s): Biel Martinez, Ana Sempere-Sanchis, José C. Abadillo-Uriel, and Yann-Michel Niquet Spin manipulation by hopping has emerged as an attractive approach for efficient spin control in arrays of germanium hole-spin…",
       "ts": 1789984800000,
       "publishedAt": "2026-09-21T10:00:00.000Z"
     }
