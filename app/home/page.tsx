@@ -90,6 +90,21 @@ export default function HomePage() {
       </section>
 
       {/* ====================================================
+          TODAY'S INQUIRY
+      ==================================================== */}
+
+      <section
+        id="todays-inquiry"
+        data-home-section
+        className="
+          home-page
+          todays-inquiry-page
+        "
+      >
+        <TodaysInquiryPortal />
+      </section>
+
+      {/* ====================================================
           WORKS EXHIBITION
 
           Independent entrance to /works.
@@ -123,21 +138,6 @@ export default function HomePage() {
         aria-label="Work Models"
       >
         <WorkModelsPortal />
-      </section>
-
-      {/* ====================================================
-          TODAY'S INQUIRY
-      ==================================================== */}
-
-      <section
-        id="todays-inquiry"
-        data-home-section
-        className="
-          home-page
-          todays-inquiry-page
-        "
-      >
-        <TodaysInquiryPortal />
       </section>
 
       {/* ====================================================

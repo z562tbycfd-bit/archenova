@@ -87,6 +87,20 @@ const CHAPTER_TARGETS:
       "Where are we?",
   },
 
+  {
+    id:
+      "todays-inquiry",
+
+    mark:
+      "☁︎",
+
+    title:
+      "INQUIRY",
+
+    subtitle:
+      "What should we ask?",
+  },
+
 {
   id: "works",
   mark: "⎅",
@@ -101,19 +115,7 @@ const CHAPTER_TARGETS:
   subtitle: "What can we imagine?",
 },
 
-  {
-    id:
-      "todays-inquiry",
 
-    mark:
-      "☁︎",
-
-    title:
-      "INQUIRY",
-
-    subtitle:
-      "What should we ask?",
-  },
 
   {
     id:

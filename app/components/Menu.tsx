@@ -39,12 +39,6 @@ const ITEMS: readonly MenuItem[] = [
     note: "ArcheNova digital environment",
   },
   {
-    href: "/home#archenova-current-state-section",
-    sectionId: "archenova-current-state-section",
-    label: "Current State",
-    note: "What exists. What comes next.",
-  },
-  {
     href: "/home#founder-digital-twin",
     sectionId: "founder-digital-twin",
     label: "Founder Digital Twin",

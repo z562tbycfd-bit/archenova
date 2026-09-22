@@ -271,10 +271,9 @@ export default function GatePage() {
           <div className="an-gate__brand">
             
             <div className="an-gate__brand-copy">
-              <strong>ARCHENOVA</strong>
 
               <small>
-                FOUNDER-LED CIVILIZATION DESIGN
+                FROM FIRST PRINCIPLES TO CIVILIZATION
               </small>
             </div>
           </div>
