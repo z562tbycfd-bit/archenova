@@ -559,11 +559,11 @@ export default function ArcheNovaFrameworkPortal() {
               </small>
             </div>
 
-            <div className="ep-dialogue-portal__live">
-            <i />
-            <span>INQUIRY</span>
-          </div>
-        </header>
+            <div className="fw-portal__indicator">
+              <i aria-hidden="true" />
+              <small>INQUIRY IN PROGRESS</small>
+            </div>
+          </header>
 
           <div className="fw-portal__experience">
             <div className="fw-portal__statement">
