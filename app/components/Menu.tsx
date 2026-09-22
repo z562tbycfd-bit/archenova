@@ -39,7 +39,7 @@ const ITEMS: readonly MenuItem[] = [
     note: "ArcheNova digital environment",
   },
   {
-    href: "/home#founder-digital-twin",
+    href: "/founder-digital-twin",
     sectionId: "founder-digital-twin",
     label: "Founder Digital Twin",
     note: "Purpose and identity",
@@ -51,10 +51,16 @@ const ITEMS: readonly MenuItem[] = [
     note: "Explore the system",
   },
   {
-    href: "/home#episteme-dialogue",
+    href: "/episteme-dialogue",
     sectionId: "episteme-dialogue",
     label: "Episteme",
     note: "Dialogue and reasoning",
+  },
+  {
+    href: "/aetherion",
+    sectionId: "aetherion",
+    label: "Aetherion",
+    note: "Orbital megafactory concept",
   },
   {
     href: "/home#todays-inquiry",
@@ -62,23 +68,22 @@ const ITEMS: readonly MenuItem[] = [
     label: "Today's Inquiry",
     note: "A living research question",
   },
+    {
+    href: "/humanity-responsibility",
+    label: "Humanity & Responsibility",
+    note: "A permanent inquiry into power and responsibility",
+  },
   {
-    href: "/home#civilization-space",
+    href: "/civilization-space",
     sectionId: "civilization-space",
     label: "Civilization Space",
     note: "Systems and civilization design",
   },
   {
-    href: "/home#archenova-valley",
+    href: "/archenova-valley",
     sectionId: "archenova-valley",
     label: "ArcheNova Valley",
     note: "From knowledge to realization",
-  },
-  {
-    href: "/home#aetherion",
-    sectionId: "aetherion",
-    label: "Aetherion",
-    note: "Orbital megafactory concept",
   },
   {
     href: "/civilization-experience",
