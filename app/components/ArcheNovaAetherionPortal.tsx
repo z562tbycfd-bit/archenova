@@ -520,7 +520,7 @@ export default function ArcheNovaAetherionPortal() {
               <h2 id="ae-portal-title">
                 Build with Aetherion.
               </h2>
-            </div>s
+            </div>
 
             <button
               type="button"
