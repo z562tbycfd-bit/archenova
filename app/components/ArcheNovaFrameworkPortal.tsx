@@ -569,7 +569,7 @@ export default function ArcheNovaFrameworkPortal() {
             <div className="fw-portal__statement">
 
               <h2 id="fw-portal-title">
-                Implementing a framework
+                Implementing a Framework.
               </h2>
             </div>
 
