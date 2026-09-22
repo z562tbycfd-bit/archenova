@@ -1,303 +1,3061 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useId, useRef, useState, type ReactNode } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 
 /* ============================================================
    ARCHENOVA / HUMANITY & RESPONSIBILITY
-   Route: /humanity-responsibility
-   Independent, self-contained research exhibition.
+
+   Route:
+     /humanity-responsibility
+
+   DESIGN
+   - Full-bleed, viewport-based research exhibition
+   - Monochromatic, soft-black atmosphere
+   - No narrow page-wide content frame
+   - Individual research items receive their own space
+   - Responsive desktop / tablet / mobile layouts
+   - No external images or additional libraries
 
    EVIDENCE BOUNDARY
-   This page proposes a research and engineering framework.
-   Its equations are definitions or design criteria, not newly
-   discovered physical laws or experimentally validated metrics.
-   Conceptual SVG artwork is not scientific data.
+   The research architecture below is a proposal.
+   Its criteria are design propositions, not newly discovered
+   physical laws, completed experiments, or proof of safety.
 ============================================================ */
 
-type Inquiry = {
-  id: string;
+type Domain = {
   number: string;
+  id: string;
   name: string;
-  domain: string;
+  subtitle: string;
   question: string;
-  premise: string;
-  mechanism: string;
-  failure: string;
-  test: string;
-  evidence: string;
+  abstract: string;
+  causal: string;
+  method: string;
+  falsification: string;
+  boundary: string;
   horizon: string;
-  research: string;
-  protocol: string;
-  unresolved: string;
+  openProblem: string;
 };
 
-const INQUIRIES: Inquiry[] = [
+const DOMAINS: Domain[] = [
   {
-    id: "intelligence", number: "01", name: "Intelligence", domain: "COGNITIVE INFRASTRUCTURE",
-    question: "Can intelligence become more capable without becoming less contestable?",
-    premise: "A system may generate useful answers or perform complex tasks while remaining unreliable outside the conditions in which it was evaluated. Fluency, benchmark performance, and authorization are different things.",
-    mechanism: "Separate source evidence, model inference, tool execution, and human approval. Preserve provenance, bounded permissions, observable action logs, independent evaluations, and a usable interruption path.",
-    failure: "An unsupported inference becomes an operational decision; delegated authority expands faster than oversight; an incorrect output is repeatedly treated as established context.",
-    test: "Introduce contradictory evidence and an out-of-distribution task. Can independent reviewers identify the unsupported claim, halt consequential action, and verify a corrected result?",
-    evidence: "Task-specific evaluations, calibrated uncertainty, reproducible incident tests, authorization records, and measured correction latency—not conversational persuasiveness.",
-    horizon: "Retain human agency and the ability to replace or retire a system as its capabilities, users, and operating conditions change.",
-    research: "Research design: model the full chain from source acquisition through inference, authorization, action, and downstream effect. Distinguish epistemic error (the proposition is false), execution error (the action differs from the authorized action), and institutional error (the authorization itself is unjustified). Evaluate these failure classes separately; a high aggregate task score cannot establish safe performance in any one class.",
-    protocol: "Prospective protocol: preregister a set of consequential tasks, evidence conflicts, distribution shifts, and attempted privilege escalation. Compare a bounded system with a baseline on task utility, unsupported-claim rate, intervention latency, human comprehension, and the success of independent red-team challenges. Retain complete records of the approval boundary without assuming that a log alone provides meaningful oversight.",
-    unresolved: "Open problem: how can independently testable correction remain effective when model capabilities, tool access, and deployment contexts evolve faster than human evaluation procedures?",
+    number: "01",
+    id: "intelligence",
+    name: "Intelligence",
+    subtitle: "THE POWER TO REASON AND ACT",
+    question:
+      "Can increasingly capable intelligence remain understandable, contestable, and correctable?",
+    abstract:
+      "Intelligence becomes a responsibility problem when an inference can influence consequential action. A system may perform well on a defined evaluation while failing under unfamiliar conditions, ambiguous instructions, unreliable evidence, or expanded authority. Apparent competence does not establish that a conclusion is true, that an action is authorized, or that its consequences can be controlled.",
+    causal:
+      "The relevant unit of analysis is not the model alone. It is the complete causal pathway: source evidence → representation → inference → authorization → action → downstream consequence. Each transition introduces a different failure mode. An inaccurate source can produce a coherent answer; a correct answer can be used to justify an unauthorized action; an authorized action can produce an unacceptable outcome when the operating environment changes.",
+    method:
+      "Specify the intended task, operating conditions, affected parties, permitted actions, and independent intervention points. Evaluate unsupported claims, uncertainty communication, tool-use boundaries, escalation behavior, and the time required for an authorized reviewer to interrupt or reverse an action. Introduce contradictory evidence, distribution shifts, unavailable tools, and attempts to exceed delegated authority. Compare performance against a defined baseline rather than treating a persuasive demonstration as validation.",
+    falsification:
+      "The proposed control architecture fails its stated objective if consequential actions proceed without the required authorization, independent reviewers cannot reconstruct the evidential basis of a decision, or an identified unsafe action cannot be interrupted within the available response window.",
+    boundary:
+      "An explanation generated by a model is not necessarily a faithful account of its internal computation. A log is not equivalent to meaningful oversight. Human approval is not sufficient when the reviewer lacks time, information, authority, or a practical alternative.",
+    horizon:
+      "Preserve the ability to restrict, retrain, replace, or retire the system as its capabilities, dependencies, and uses change. Records and oversight procedures must remain interpretable beyond the original development team.",
+    openProblem:
+      "How can independent correction remain effective when a system's capabilities and operational reach evolve faster than the procedures used to evaluate them?",
   },
   {
-    id: "energy", number: "02", name: "Energy", domain: "ENERGY DYNAMICS",
-    question: "Who remains responsible when energy infrastructure outlives its original operators?",
-    premise: "Energy systems are physical systems: failures can propagate through equipment, ecosystems, supply chains, and communities. Different technologies have different hazards, operating lives, and end-of-life obligations.",
-    mechanism: "Define the safety case, credible failure scenarios, monitoring requirements, maintenance capacity, emergency response, decommissioning route, and funded stewardship before expanding deployment.",
-    failure: "The project remains productive while its monitoring, spare parts, institutional knowledge, or end-of-life resources disappear. A low-probability event exceeds available recovery capacity.",
-    test: "Simulate loss of power, personnel, monitoring, funding, and access. Which essential safety functions remain available, for how long, and under whose authority?",
-    evidence: "Measured reliability, independent safety review, scenario-specific emergency exercises, lifecycle cost estimates, and auditable stewardship arrangements.",
-    horizon: "Make obligations transferable and inspectable across changes of ownership, technology, regulation, and generation.",
-    research: "Research design: treat energy infrastructure as a coupled physical and institutional system. Map hazard initiation, propagation, safety barriers, common-cause failures, maintenance dependencies, waste or end-of-life obligations, and the distribution of consequences across locations and generations. Distinguish demonstrated component reliability from whole-system resilience under correlated disruption.",
-    protocol: "Prospective protocol: construct an auditable safety case for a specified installation and operating horizon. Stress-test loss of grid supply, instrumentation, cooling or containment where relevant, spare parts, qualified personnel, financing, and site access. Measure time to unsafe state, independence of protective layers, recoverable service, and the sufficiency of funded closure provisions.",
-    unresolved: "Open problem: what institutional and financial mechanisms can preserve verifiable safety functions and remedy obligations when an installation persists beyond its original owner and regulatory context?",
+    number: "02",
+    id: "energy",
+    name: "Energy",
+    subtitle: "THE POWER OVER PHYSICAL SYSTEMS",
+    question:
+      "Can the benefits of powerful energy systems remain inseparable from long-term safety and stewardship?",
+    abstract:
+      "Energy infrastructure converts physical possibility into persistent societal dependence. Its benefits may be immediate, while some hazards, maintenance obligations, environmental effects, and end-of-life responsibilities extend far beyond the original investment horizon. A functioning installation is therefore not, by itself, evidence that its entire lifecycle is responsibly governed.",
+    causal:
+      "A credible safety argument must connect the physical system to its institutional support. Equipment depends on instrumentation, skilled operators, replacement parts, financing, emergency access, environmental monitoring, and accountable decision-making. The failure of one shared dependency may disable several apparently independent safeguards. Component reliability cannot be substituted for system-level resilience.",
+    method:
+      "Define the installation, operating envelope, hazard pathways, exposure scenarios, essential safety functions, and closure obligations. Construct a lifecycle safety case that includes construction, operation, maintenance, abnormal conditions, decommissioning, and post-closure stewardship where applicable. Stress-test the loss of external power, qualified personnel, monitoring, site access, funding, and critical suppliers. Establish who can act, with what resources, before a hazardous state is reached.",
+    falsification:
+      "The stewardship proposition is not supported if essential protective functions depend on an unavailable resource, credible failures propagate faster than intervention is possible, or the installation cannot meet its specified monitoring and closure obligations after a change of ownership or operator.",
+    boundary:
+      "Hazards differ substantially across energy technologies. No single generic safety model establishes the adequacy of a particular installation. Long-term performance requires application-specific evidence, qualified review, and reassessment when operating conditions change.",
+    horizon:
+      "Transfer the knowledge, resources, authority, and obligations necessary for safe operation and eventual closure. A project must not treat the disappearance of its original operator as the disappearance of its consequences.",
+    openProblem:
+      "What combination of technical safeguards, durable records, funded obligations, and institutional succession can maintain effective stewardship across multiple generations?",
   },
   {
-    id: "life", number: "03", name: "Life", domain: "BIOSYSTEMS",
-    question: "Can intervention in living systems remain bounded when biology adapts?",
-    premise: "Living systems evolve, interact, and respond to context. A result observed in a controlled setting may not generalize to another population, ecosystem, or time horizon.",
-    mechanism: "Define the intervention boundary, causal hypothesis, exposure pathway, monitoring method, containment strategy, stopping rule, and independent ethical and safety review appropriate to the application.",
-    failure: "A local benefit obscures delayed harm; an intervention reaches an unintended population; the system changes faster than the monitoring model can detect.",
-    test: "Which observations would falsify the claimed benefit or indicate unacceptable spread? Can the intervention be stopped, contained, or mitigated under plausible adverse conditions?",
-    evidence: "Appropriate controlled studies, replication, uncertainty analysis, surveillance, safety outcomes, and domain-specific regulatory review where required.",
-    horizon: "Do not assume reversibility: some biological changes cannot be fully recalled. Prevention, containment, and long-term follow-up may matter more than recovery claims.",
-    research: "Research design: distinguish the causal effect of an intervention from selection bias, natural adaptation, environmental confounding, and delayed or displaced effects. The relevant unit of analysis may extend beyond the treated organism to populations, ecological networks, and future generations. Containment claims must specify exposure pathways and credible failure mechanisms.",
-    protocol: "Prospective protocol: define intended and unintended endpoints, control groups or appropriate comparators, monitoring sensitivity, exposure boundaries, escalation triggers, and independent review before intervention. Test whether the observation window can detect delayed harm and whether stopping the intervention actually reduces exposure; never infer ecological reversibility from laboratory withdrawal alone.",
-    unresolved: "Open problem: how should deployment decisions be made when a potential benefit is measurable today but a plausible adverse biological consequence may be delayed, adaptive, or impossible to recall?",
+    number: "03",
+    id: "life",
+    name: "Life",
+    subtitle: "THE POWER TO ALTER LIVING SYSTEMS",
+    question:
+      "Can humanity intervene in living systems while preserving the capacity to detect, limit, and respond to unintended consequences?",
+    abstract:
+      "Living systems are adaptive, context-dependent, and interconnected. An intervention that produces a measurable benefit under controlled conditions may behave differently across populations, ecological relationships, or longer timescales. Biological responsibility therefore requires attention not only to intended function but also to exposure pathways, delayed effects, adaptation, and the limits of recall.",
+    causal:
+      "The causal boundary may extend beyond the treated organism or immediate recipient. Biological changes can interact with other organisms, environmental conditions, and selection pressures. A short observation window may detect the intended endpoint while missing a delayed or displaced adverse effect. Withdrawal of an intervention does not automatically restore the prior biological state.",
+    method:
+      "State the causal hypothesis, intended beneficiaries, relevant comparators, exposure boundary, monitoring sensitivity, and stopping conditions before intervention. Distinguish treatment effects from confounding, selection bias, and natural adaptation. Assess plausible routes of spread and persistence where relevant. Use appropriate controlled studies, replication, long-term observation, containment assessment, and independent ethical and safety review for the specific application.",
+    falsification:
+      "A claim of bounded intervention fails if an identified exposure pathway cannot be monitored or contained to the stated standard, an adverse outcome crosses a predefined stopping threshold, or the assumed ability to reverse an effect cannot be demonstrated under relevant conditions.",
+    boundary:
+      "Laboratory containment does not establish ecological recoverability. An absence of detected harm is not proof of absence when surveillance is insensitive or the observation period is too short. Some biological consequences may not be fully reversible.",
+    horizon:
+      "Where recovery cannot credibly be demonstrated, prevention, restricted exposure, and sustained observation take precedence over an unsupported promise of restoration.",
+    openProblem:
+      "How should evidence requirements and deployment boundaries change when benefits are observable in the present but plausible harms may be delayed, adaptive, or impossible to recall?",
   },
   {
-    id: "infrastructure", number: "04", name: "Infrastructure", domain: "SPACETIME & CIVILIZATION SYSTEMS",
-    question: "Can essential services survive the failure of the systems on which they depend?",
-    premise: "Civilization relies on interconnected networks. Optimizing a component does not establish the resilience of the whole; common-mode failures can defeat apparently redundant pathways.",
-    mechanism: "Map critical dependencies, identify minimum essential functions, diversify failure pathways, provide graceful degradation, rehearse restoration, and maintain replaceable components and human expertise.",
-    failure: "A shared dependency disables multiple backups; restoration requires the very network that failed; a technically recoverable service is inaccessible to those who need it.",
-    test: "Remove a critical node and then a shared dependency. Measure service continuity, restoration time, resource requirements, and unequal impacts across affected populations.",
-    evidence: "Dependency maps, fault-injection results, restoration drills, independently audited maintenance records, and service-level outcomes during real incidents.",
-    horizon: "Design for repair, migration, and eventual retirement rather than treating any single platform as permanent.",
-    research: "Research design: represent essential services as a dependency graph with physical assets, digital control, energy, materials, skilled personnel, governance, and access. Analyze not only component failure probabilities but shared dependencies, cascading effects, restoration bottlenecks, and which populations lose essential function first. Redundancy is meaningful only if pathways fail sufficiently independently.",
-    protocol: "Prospective protocol: specify minimum service thresholds and simulate loss of a node, a shared supplier, a control network, and the restoration channel itself. Measure continuity, time to degraded and restored service, resource sufficiency, geographic and social distribution of impact, and the feasibility of operating manually or through alternate providers.",
-    unresolved: "Open problem: what is the minimum sufficient architecture that preserves critical services under common-mode failure without creating an unmaintainable accumulation of redundant infrastructure?",
+    number: "04",
+    id: "infrastructure",
+    name: "Infrastructure",
+    subtitle: "THE POWER TO SHAPE CIVILIZATION",
+    question:
+      "Can systems that sustain civilization remain observable, recoverable, and adaptable across generations?",
+    abstract:
+      "Civilization depends on interacting networks of energy, communication, transport, computation, water, materials, and human expertise. A highly efficient component can increase whole-system fragility when its failure propagates through shared dependencies. The central responsibility is to preserve essential function under disruption—not merely to optimize performance during normal operation.",
+    causal:
+      "Infrastructure failure is often relational. Two services that appear independent may rely on the same electrical supply, communication network, supplier, software component, workforce, or institutional authority. Restoration may require the very infrastructure that has failed. The practical outcome also depends on who can access replacement services, not only whether those services technically exist.",
+    method:
+      "Represent essential services as a dependency network that includes physical assets, digital control, maintenance, supply chains, trained personnel, and access by affected populations. Identify minimum essential functions and common-mode failures. Test component loss, shared-dependency loss, cascading disruption, and degraded restoration conditions. Measure service continuity, restoration time, resource sufficiency, and the distribution of effects across users.",
+    falsification:
+      "A resilience claim is not supported if nominally redundant pathways fail through a shared dependency, restoration requires unavailable infrastructure, or essential service cannot be delivered to the population for whom continuity was claimed.",
+    boundary:
+      "Redundancy is not equivalent to independence. A successful simulation is evidence only for the scenarios and assumptions it represents. Restoration of technical capacity does not automatically establish restoration of equitable access.",
+    horizon:
+      "Preserve repairability, migration pathways, documented interfaces, replacement capacity, and the option to retire obsolete infrastructure without losing essential societal functions.",
+    openProblem:
+      "What is the minimum sufficient architecture that preserves essential services when multiple physical, digital, economic, and institutional dependencies fail together?",
   },
   {
-    id: "governance", number: "05", name: "Governance", domain: "CIVILIZATION INTELLIGENCE",
-    question: "Can institutions revise commitments after the evidence or the people in charge change?",
-    premise: "A technically functioning system can still produce harmful outcomes when incentives, authority, accountability, or public participation are misaligned. Technical validation does not confer social permission.",
-    mechanism: "Make mandates explicit; separate operators from independent oversight; establish appeal, disclosure, review, sunset, and succession mechanisms; define who bears residual risk and who may stop deployment.",
-    failure: "Responsibility is diffused across contractors and generations; affected communities cannot contest decisions; an institution preserves a failing system because exit is politically or financially difficult.",
-    test: "After a leadership change and a credible adverse finding, can an independent body obtain evidence, suspend the activity, provide remedy, and revise or terminate the mandate?",
-    evidence: "Published decision records, independent audits, tested appeal procedures, enforceable responsibilities, and documented outcomes for affected people.",
-    horizon: "Preserve accountability across institutional succession without assuming that one governance model fits every jurisdiction or domain.",
-    research: "Research design: separate factual uncertainty, technical performance, authorization, legitimacy, distribution of risk, and responsibility for remedy. A valid engineering result cannot by itself determine who should bear exposure or who may decide on behalf of others. Trace decisions across contractors, owners, oversight bodies, affected communities, and successor institutions.",
-    protocol: "Prospective protocol: conduct an adversarial institutional exercise in which new evidence contradicts the original safety case after leadership turnover. Test access to records, independence of review, appeal and participation routes, authority to suspend operation, continuity of funding, and the practical ability to compensate or restore affected interests.",
-    unresolved: "Open problem: how can enforceable duties, transparent evidence, and meaningful revision survive changes in ownership, jurisdiction, incentives, and public priorities without freezing future generations into an unchangeable mandate?",
+    number: "05",
+    id: "governance",
+    name: "Governance",
+    subtitle: "THE POWER TO AUTHORIZE AND DECIDE",
+    question:
+      "Can institutions retain the authority and practical capacity to revise decisions as evidence and consequences change?",
+    abstract:
+      "Technical feasibility cannot determine, on its own, who should bear a risk, who may authorize an intervention, or what remedy is owed after harm. Institutions establish the decision rights and obligations through which technical capability becomes socially consequential. Their responsibility must remain operative when evidence changes, leadership turns over, and the original decision-makers are no longer present.",
+    causal:
+      "Institutional failure can occur even when equipment performs as designed. Authority may be fragmented among owners, contractors, operators, and oversight bodies. Affected people may lack access to evidence or a meaningful route to challenge decisions. Financial and organizational incentives may favor continued operation even when the original justification has weakened.",
+    method:
+      "Map decision rights, duties, affected populations, disclosure requirements, review mechanisms, funding, and remedies. Separate technical evaluation from authorization and independent oversight. Conduct an adversarial exercise in which new evidence contradicts the original safety case after a change in leadership or ownership. Test whether records remain accessible, review remains independent, operations can be suspended, and corrective action can actually be financed and executed.",
+    falsification:
+      "The accountability architecture fails its stated objective if a credible adverse finding cannot reach an empowered reviewer, affected parties cannot use the established challenge process, or no accountable institution has the authority and resources to implement a required correction or remedy.",
+    boundary:
+      "No universal institutional arrangement is presumed appropriate for every technology, population, or jurisdiction. An audit record does not itself establish legitimacy, and formal authority does not guarantee practical capacity to act.",
+    horizon:
+      "Make responsibilities inspectable and transferable without binding future generations to an unchangeable decision. Continuity of obligation must coexist with the ability to revise or terminate a mandate.",
+    openProblem:
+      "How can enforceable responsibility survive changes in ownership, jurisdiction, incentives, and public priorities while preserving meaningful independent revision?",
   },
 ];
 
 const CAPACITIES = [
-  { number: "01", title: "Observe", detail: "Detect consequential behavior and emerging failures before the opportunity to respond closes.", proof: "Coverage, detection delay, false-negative analysis, and independent access to measurements." },
-  { number: "02", title: "Understand", detail: "Distinguish observations from models, assumptions, forecasts, and unresolved alternatives.", proof: "Traceable claims, calibrated uncertainty, discriminating tests, and documented model limits." },
-  { number: "03", title: "Challenge", detail: "Allow affected people and independent institutions to inspect and contest consequential decisions.", proof: "Accessible records, meaningful review authority, appeal routes, and protection against conflicts of interest." },
-  { number: "04", title: "Interrupt", detail: "Contain unsafe behavior before it crosses a defined harm or irreversibility threshold.", proof: "Tested stop conditions, intervention latency, safe-state behavior, and authority to act." },
-  { number: "05", title: "Recover", detail: "Restore essential function or provide a viable alternative when prevention fails.", proof: "Restoration drills, replacement pathways, resource reserves, and explicit limits where recovery is impossible." },
-  { number: "06", title: "Remain accountable", detail: "Keep obligations, evidence, and remedies available beyond the original creators and operators.", proof: "Named duty holders, funded stewardship, succession rules, records retention, and independent review." },
+  {
+    number: "01",
+    title: "Observe",
+    question: "Can emerging failure be detected while action is still possible?",
+    explanation:
+      "Observation requires defined indicators, sufficient coverage, known detection limits, and a response window. Monitoring that detects harm only after an irreversible threshold has been crossed does not establish effective control.",
+    evidence:
+      "Detection latency, coverage, false-negative analysis, independent measurement access, and tested alert pathways.",
+  },
+  {
+    number: "02",
+    title: "Understand",
+    question: "Can the claim be distinguished from a persuasive representation?",
+    explanation:
+      "A model is a candidate account of reality. Responsible understanding separates measured outcomes, inferred mechanisms, assumptions, uncertainty, and competing explanations.",
+    evidence:
+      "Traceable sources, discriminating experiments, uncertainty analysis, explicit operating limits, and reproducible review.",
+  },
+  {
+    number: "03",
+    title: "Challenge",
+    question: "Can an independent party question the system with practical effect?",
+    explanation:
+      "Challenge requires more than permission to express disagreement. Reviewers and affected people need relevant evidence, accessible procedures, sufficient independence, and a route to change a consequential decision.",
+    evidence:
+      "Independent review access, documented objections, appeal procedures, decision records, and demonstrated authority to intervene.",
+  },
+  {
+    number: "04",
+    title: "Correct",
+    question: "Can unsafe behavior be interrupted before consequences escalate?",
+    explanation:
+      "Correctability depends on the relationship between detection, decision, and intervention time. A nominal stop mechanism is insufficient if it cannot act under degraded conditions or before the relevant harm threshold.",
+    evidence:
+      "Intervention exercises, safe-state tests, response latency, bounded authority, and failure-mode-specific stopping criteria.",
+  },
+  {
+    number: "05",
+    title: "Recover",
+    question: "Can essential function be restored when prevention fails?",
+    explanation:
+      "Recovery may mean repair, substitution, restoration of service, or remedy for affected people. It must be demonstrated for the claimed failure conditions. Some losses have no credible recovery pathway.",
+    evidence:
+      "Restoration drills, alternative pathways, resource reserves, measured service outcomes, and explicit identification of irreversible harms.",
+  },
+  {
+    number: "06",
+    title: "Remain accountable",
+    question: "Who retains the obligation after the original creator disappears?",
+    explanation:
+      "Responsibility must survive changes in personnel, ownership, technology, and institutional form. Knowledge, authority, resources, and duties must be transferred in a way that can be independently inspected.",
+    evidence:
+      "Named duty holders, funded stewardship, retained records, succession arrangements, review dates, and enforceable remedy pathways.",
+  },
 ] as const;
 
 const GATES = [
-  { id: "claim", title: "01 / Define the claim", question: "What exactly is being proposed?", method: "Specify the intended benefit, affected population, operating boundary, alternatives, and plausible harms. Distinguish a demonstrated result from a hypothesis or design ambition.", advance: "The claim can be independently examined and at least one outcome could count against it." },
-  { id: "discriminate", title: "02 / Discriminate", question: "What would change our conclusion?", method: "Identify rival explanations, measurement bias, missing populations, and observations that could falsify the preferred account. Predefine consequential thresholds where feasible.", advance: "The proposed test can distinguish the claim from credible alternatives within stated uncertainty." },
-  { id: "reproduce", title: "03 / Reproduce", question: "Does the result survive variation?", method: "Repeat under relevant conditions and independent scrutiny. Measure not only average performance but failure tails, uncertainty, and dependence on particular people or equipment.", advance: "Evidence supports the specified operating range; remaining uncertainty is visible rather than silently averaged away." },
-  { id: "control", title: "04 / Bound the capability", question: "Can adverse behavior be stopped?", method: "Test observability, interruption, containment, recovery, and authority under degraded conditions. Where harm is irreversible, prioritize prevention and exposure limits.", advance: "Safeguards have been demonstrated for the proposed scope and credible failure scenarios." },
-  { id: "steward", title: "05 / Sustain responsibility", question: "Who carries the obligation tomorrow?", method: "Assign maintenance, monitoring, funding, disclosure, remedy, and end-of-life duties across ownership and institutional change.", advance: "Responsible parties, resources, review dates, and a viable succession or exit plan are documented." },
-  { id: "scale", title: "06 / Reauthorize scale", question: "What justifies the next increase?", method: "Reassess the safety case when deployment, autonomy, exposure, interdependence, or time horizon increases. Require new evidence rather than extrapolating from a smaller demonstration.", advance: "The next scale remains within demonstrated oversight and harm-management capacity." },
+  {
+    number: "01",
+    title: "Define the claim",
+    question: "What is actually being proposed?",
+    body:
+      "Specify the intended benefit, affected population, operating conditions, alternatives, plausible harms, and limits of the present evidence. A claim must be narrow enough that a relevant observation could count against it.",
+  },
+  {
+    number: "02",
+    title: "Discriminate",
+    question: "What observation would change the conclusion?",
+    body:
+      "Identify rival explanations, measurement bias, missing populations, and conditions under which the preferred model would fail. Define meaningful outcomes before examining the results where feasible.",
+  },
+  {
+    number: "03",
+    title: "Reproduce",
+    question: "Does the result survive independent examination?",
+    body:
+      "Repeat relevant tests across operating conditions and independent reviewers. Examine uncertainty, failure tails, dependence on particular personnel, and the boundary beyond which results cannot be generalized.",
+  },
+  {
+    number: "04",
+    title: "Bound the capability",
+    question: "Can adverse behavior be detected and stopped?",
+    body:
+      "Demonstrate observation, interruption, containment, and recovery where recovery is feasible. When harm may be irreversible, use stronger prevention and narrower exposure rather than assuming a future repair.",
+  },
+  {
+    number: "05",
+    title: "Sustain the obligation",
+    question: "Who remains responsible tomorrow?",
+    body:
+      "Assign monitoring, maintenance, funding, disclosure, remedy, replacement, and end-of-life duties. Test the arrangements against the disappearance of the original operator or a change in ownership.",
+  },
+  {
+    number: "06",
+    title: "Reauthorize scale",
+    question: "What evidence supports the next increase in reach?",
+    body:
+      "Reassess the safety and responsibility case whenever autonomy, deployment, exposure, interdependence, or time horizon expands. Evidence at one scale does not automatically authorize the next.",
+  },
 ] as const;
 
 const HORIZONS = [
-  { period: "IMMEDIATE", label: "Seconds → days", issue: "Intervention latency", detail: "A system may cause harm faster than a human can observe or interrupt it. Automation, interlocks, and bounded authority must be matched to the actual response window." },
-  { period: "OPERATIONAL", label: "Months → decades", issue: "Maintenance and drift", detail: "Components age, data distributions shift, operators change, and institutional attention fades. Monitoring and corrective capacity must be maintained rather than assumed." },
-  { period: "INTERGENERATIONAL", label: "Decades → centuries", issue: "Succession and stewardship", detail: "Some infrastructure and environmental effects persist beyond the organizations that created them. Knowledge, resources, duties, and public scrutiny need durable transfer mechanisms." },
-  { period: "IRREVERSIBLE", label: "No reliable recovery horizon", issue: "Prevention before commitment", detail: "Extinction, permanent ecological loss, and some long-lived harms cannot be treated as ordinary repairable failures. The appropriate response may be non-deployment or a strictly bounded experiment." },
+  {
+    number: "01",
+    label: "SECONDS → DAYS",
+    title: "The intervention window",
+    body:
+      "Some systems can cross a harm threshold faster than a person can recognize the problem and respond. The design must therefore establish the actual time available for detection, authorization, and intervention. Where human response is too slow, the operating envelope must be constrained or appropriate protective mechanisms must act independently.",
+  },
+  {
+    number: "02",
+    label: "MONTHS → DECADES",
+    title: "Maintenance and drift",
+    body:
+      "Equipment ages, environments change, models lose calibration, and personnel move on. A safety case must account for inspection intervals, replacement resources, changes in use, and the possibility that initially valid assumptions will cease to hold.",
+  },
+  {
+    number: "03",
+    label: "DECADES → CENTURIES",
+    title: "Intergenerational stewardship",
+    body:
+      "Consequences can persist beyond the organization that created them. Durable responsibility requires records that remain understandable, obligations that can be transferred, resources that remain available, and institutions capable of revising decisions when new evidence emerges.",
+  },
+  {
+    number: "04",
+    label: "NO CREDIBLE RECOVERY HORIZON",
+    title: "The irreversibility boundary",
+    body:
+      "Some losses cannot be restored by ordinary repair. When recovery is not credible, a design must not rely on it to justify exposure. The relevant options may include prevention, smaller-scale investigation, alternative approaches, or non-deployment.",
+  },
 ] as const;
 
-function Arrow({ diagonal = false }: { diagonal?: boolean }) {
-  return <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className="hr-arrow"><path d={diagonal ? "M5 19 19 5 M8 5h11v11" : "M3 12h17 m-7-7 7 7-7 7"} /></svg>;
-}
-
-function Glass({ children, className = "" }: { children: ReactNode; className?: string }) {
-  return <div className={`hr-glass ${className}`}>{children}</div>;
-}
-
-function Reveal({ children, className = "" }: { children: ReactNode; className?: string }) {
+function Reveal({
+  children,
+  className = "",
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
+
   useEffect(() => {
-    const node = ref.current;
-    if (!node) return;
-    if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) { setVisible(true); return; }
-    const observer = new IntersectionObserver(([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect(); } }, { threshold: 0.04, rootMargin: "0px 0px 90px 0px" });
-    observer.observe(node);
+    const element = ref.current;
+    if (!element) return;
+
+    if (
+      !("IntersectionObserver" in window) ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      setVisible(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0.05,
+        rootMargin: "0px 0px 80px 0px",
+      }
+    );
+
+    observer.observe(element);
+
     return () => observer.disconnect();
   }, []);
-  return <div ref={ref} className={`hr-reveal ${visible ? "is-visible" : ""} ${className}`}>{children}</div>;
+
+  return (
+    <div
+      ref={ref}
+      className={`hr-reveal ${visible ? "is-visible" : ""} ${className}`}
+    >
+      {children}
+    </div>
+  );
 }
 
-function random(index: number, seed: number) {
-  const value = Math.sin(index * 127.1 + seed * 311.7) * 43758.5453;
-  return value - Math.floor(value);
+function SectionHeading({
+  index,
+  label,
+  title,
+  secondary,
+  children,
+}: {
+  index: string;
+  label: string;
+  title: string;
+  secondary?: string;
+  children: ReactNode;
+}) {
+  return (
+    <Reveal className="hr-heading">
+      <div className="hr-heading__top">
+        <span className="hr-index">{index}</span>
+        <span className="hr-eyebrow">{label}</span>
+      </div>
+
+      <h2>
+        {title}
+        {secondary && (
+          <>
+            <br />
+            <span>{secondary}</span>
+          </>
+        )}
+      </h2>
+
+      <p>{children}</p>
+    </Reveal>
+  );
 }
 
-/* Deterministic, decorative SVG: no external images, canvas, or network calls. */
-function Cosmos({ compact = false }: { compact?: boolean }) {
-  const uid = useId().replace(/:/g, "");
-  const stars = Array.from({ length: compact ? 95 : 230 }, (_, i) => ({ x: random(i, 7) * 1440, y: random(i, 8) * 1000, r: 0.35 + random(i, 9) * 1.25, opacity: 0.13 + random(i, 10) * 0.55 }));
-  return <svg className={`hr-cosmos ${compact ? "hr-cosmos--compact" : ""}`} viewBox="0 0 1440 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
-    <defs>
-      <radialGradient id={`${uid}-void`} cx="67%" cy="46%" r="58%"><stop offset="0%" stopColor="#27323c" stopOpacity=".37"/><stop offset="49%" stopColor="#101820" stopOpacity=".15"/><stop offset="100%" stopColor="#030406" stopOpacity="0"/></radialGradient>
-      <radialGradient id={`${uid}-planet`} cx="32%" cy="28%" r="78%"><stop offset="0%" stopColor="#536b7b" stopOpacity=".68"/><stop offset="29%" stopColor="#243543" stopOpacity=".62"/><stop offset="66%" stopColor="#0b1219" stopOpacity=".91"/><stop offset="100%" stopColor="#020306"/></radialGradient>
-      <linearGradient id={`${uid}-arc`} x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#c9d5e0" stopOpacity="0"/><stop offset="48%" stopColor="#c9d5e0" stopOpacity=".42"/><stop offset="100%" stopColor="#c9d5e0" stopOpacity="0"/></linearGradient>
-      <filter id={`${uid}-glow`}><feGaussianBlur stdDeviation="18"/></filter>
-    </defs>
-    <rect width="1440" height="1000" fill={`url(#${uid}-void)`}/>
-    <g className="hr-cosmos__stars">{stars.map((star, i) => <circle key={i} cx={star.x} cy={star.y} r={star.r} fill="#e4edf5" opacity={star.opacity}/>)}</g>
-    <g className="hr-cosmos__orbit" fill="none" stroke={`url(#${uid}-arc)`}>
-      <ellipse cx="1050" cy="540" rx="620" ry="238" transform="rotate(-29 1050 540)" strokeWidth="1"/>
-      <ellipse cx="1050" cy="540" rx="670" ry="270" transform="rotate(-29 1050 540)" strokeWidth=".6" opacity=".55"/>
-      <ellipse cx="1050" cy="540" rx="730" ry="305" transform="rotate(-29 1050 540)" strokeWidth=".5" opacity=".35"/>
-    </g>
-    <circle cx="1090" cy="565" r="325" fill={`url(#${uid}-planet)`} opacity=".9"/>
-    <circle cx="1090" cy="565" r="327" fill="none" stroke="#b5c8d8" strokeOpacity=".24" strokeWidth="2"/>
-    <path d="M 802 420 A 325 325 0 0 1 1320 335" fill="none" stroke="#bed1df" strokeOpacity=".36" strokeWidth="15" filter={`url(#${uid}-glow)`}/>
-    <path d="M 802 420 A 325 325 0 0 1 1320 335" fill="none" stroke="#d7e5ee" strokeOpacity=".34" strokeWidth="1"/>
-    <path d="M0 830 C320 710 450 980 720 855 S1120 755 1440 885" fill="none" stroke="#9db4c8" strokeOpacity=".11" strokeWidth="1"/>
-  </svg>;
+function Background() {
+  return (
+    <div className="hr-background" aria-hidden="true">
+      <div className="hr-background__field" />
+
+      <svg
+        className="hr-background__art"
+        viewBox="0 0 1600 1000"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+      >
+        <defs>
+          <radialGradient id="hr-world" cx="36%" cy="28%" r="78%">
+            <stop offset="0%" stopColor="#494949" stopOpacity=".42" />
+            <stop offset="35%" stopColor="#262626" stopOpacity=".35" />
+            <stop offset="76%" stopColor="#101010" stopOpacity=".95" />
+            <stop offset="100%" stopColor="#080808" />
+          </radialGradient>
+
+          <radialGradient id="hr-halo">
+            <stop offset="0%" stopColor="#8c8c8c" stopOpacity=".12" />
+            <stop offset="100%" stopColor="#8c8c8c" stopOpacity="0" />
+          </radialGradient>
+
+          <linearGradient id="hr-orbit" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#a4a4a4" stopOpacity="0" />
+            <stop offset="48%" stopColor="#a4a4a4" stopOpacity=".2" />
+            <stop offset="100%" stopColor="#a4a4a4" stopOpacity="0" />
+          </linearGradient>
+        </defs>
+
+        <ellipse
+          cx="1200"
+          cy="510"
+          rx="630"
+          ry="610"
+          fill="url(#hr-halo)"
+        />
+
+        <g className="hr-background__orbits">
+          <ellipse
+            cx="1210"
+            cy="510"
+            rx="570"
+            ry="210"
+            fill="none"
+            stroke="url(#hr-orbit)"
+            strokeWidth="1"
+            transform="rotate(-28 1210 510)"
+          />
+          <ellipse
+            cx="1210"
+            cy="510"
+            rx="660"
+            ry="300"
+            fill="none"
+            stroke="url(#hr-orbit)"
+            strokeWidth=".8"
+            transform="rotate(27 1210 510)"
+          />
+          <ellipse
+            cx="1210"
+            cy="510"
+            rx="730"
+            ry="410"
+            fill="none"
+            stroke="url(#hr-orbit)"
+            strokeWidth=".65"
+            transform="rotate(-16 1210 510)"
+          />
+        </g>
+
+        <circle
+          className="hr-background__world"
+          cx="1210"
+          cy="510"
+          r="285"
+          fill="url(#hr-world)"
+          stroke="#777"
+          strokeOpacity=".12"
+        />
+
+        <circle
+          cx="1210"
+          cy="510"
+          r="296"
+          fill="none"
+          stroke="#b0b0b0"
+          strokeOpacity=".075"
+        />
+
+        <path
+          d="M 930 465 Q 1200 365 1480 495"
+          fill="none"
+          stroke="#bcbcbc"
+          strokeOpacity=".09"
+        />
+        <path
+          d="M 960 610 Q 1230 480 1450 620"
+          fill="none"
+          stroke="#bcbcbc"
+          strokeOpacity=".055"
+        />
+      </svg>
+
+      <div className="hr-background__veil" />
+      <div className="hr-background__grain" />
+    </div>
+  );
 }
 
-function SectionHead({ index, label, title, muted, children }: { index: string; label: string; title: string; muted?: string; children: ReactNode }) {
-  return <Reveal><div className="hr-section-head"><p className="hr-kicker">{index} / {label}</p><h2 className="hr-display">{title}{muted && <><br/><span>{muted}</span></>}</h2><p className="hr-section-lead">{children}</p></div></Reveal>;
+function DomainSection({ domain }: { domain: Domain }) {
+  return (
+    <section
+      id={domain.id}
+      className="hr-screen hr-domain"
+      aria-labelledby={`hr-${domain.id}-title`}
+    >
+      <div className="hr-domain__watermark" aria-hidden="true">
+        {domain.number}
+      </div>
+
+      <div className="hr-width">
+        <Reveal className="hr-domain__heading">
+          <div className="hr-domain__meta">
+            <span className="hr-index">{domain.number} / 05</span>
+            <span className="hr-eyebrow">{domain.subtitle}</span>
+          </div>
+
+          <h2 id={`hr-${domain.id}-title`}>{domain.name}</h2>
+
+          <p className="hr-domain__question">{domain.question}</p>
+        </Reveal>
+
+        <Reveal>
+          <article className="hr-paper hr-domain__abstract">
+            <span className="hr-paper__label">RESEARCH ABSTRACT</span>
+            <p>{domain.abstract}</p>
+          </article>
+        </Reveal>
+
+        <div className="hr-domain__research">
+          <Reveal>
+            <article className="hr-paper hr-research-card">
+              <span className="hr-paper__label">01 / CAUSAL STRUCTURE</span>
+              <h3>Where responsibility enters the system</h3>
+              <p>{domain.causal}</p>
+            </article>
+          </Reveal>
+
+          <Reveal>
+            <article className="hr-paper hr-research-card">
+              <span className="hr-paper__label">02 / RESEARCH METHOD</span>
+              <h3>How the claim should be examined</h3>
+              <p>{domain.method}</p>
+            </article>
+          </Reveal>
+
+          <Reveal>
+            <article className="hr-paper hr-research-card">
+              <span className="hr-paper__label">03 / FALSIFICATION CONDITION</span>
+              <h3>What would count against the claim</h3>
+              <p>{domain.falsification}</p>
+            </article>
+          </Reveal>
+
+          <Reveal>
+            <article className="hr-paper hr-research-card">
+              <span className="hr-paper__label">04 / EVIDENCE BOUNDARY</span>
+              <h3>What must not be assumed</h3>
+              <p>{domain.boundary}</p>
+            </article>
+          </Reveal>
+        </div>
+
+        <Reveal>
+          <article className="hr-paper hr-domain__horizon">
+            <div>
+              <span className="hr-paper__label">THE LONG HORIZON</span>
+              <h3>Responsibility beyond the moment of creation</h3>
+            </div>
+            <p>{domain.horizon}</p>
+          </article>
+        </Reveal>
+
+        <Reveal>
+          <div className="hr-domain__open">
+            <span className="hr-paper__label">OPEN RESEARCH QUESTION</span>
+            <p>{domain.openProblem}</p>
+          </div>
+        </Reveal>
+      </div>
+    </section>
+  );
 }
 
-function InquiryPanel() {
-  const [active, setActive] = useState(0);
-  const inquiry = INQUIRIES[active];
-  return <div className="hr-inquiry-layout">
-    <Reveal><nav className="hr-inquiry-nav" aria-label="Select a field of inquiry">{INQUIRIES.map((item, i) => <button type="button" key={item.id} onClick={() => setActive(i)} className={`hr-inquiry-tab ${active === i ? "is-active" : ""}`} aria-pressed={active === i} aria-controls="hr-inquiry-panel"><span className="hr-index">{item.number}</span><span><strong>{item.name}</strong><small>{item.domain}</small></span><Arrow diagonal/></button>)}</nav></Reveal>
-    <Reveal><Glass className="hr-inquiry-panel"><div id="hr-inquiry-panel" key={inquiry.id} className="hr-panel-enter" aria-live="polite"><div className="hr-panel-meta"><span className="hr-small">FIELD {inquiry.number} / {inquiry.domain}</span><span className="hr-small">{inquiry.number} / 05</span></div><h3>{inquiry.question}</h3><p className="hr-panel-premise">{inquiry.premise}</p><div className="hr-inquiry-grid"><div><span className="hr-small">DESIGN RESPONSE</span><p>{inquiry.mechanism}</p></div><div><span className="hr-small">CREDIBLE FAILURE</span><p>{inquiry.failure}</p></div><div><span className="hr-small">DISCRIMINATING TEST</span><p>{inquiry.test}</p></div><div><span className="hr-small">REQUIRED EVIDENCE</span><p>{inquiry.evidence}</p></div></div><div className="hr-research-deep"><div><span className="hr-small">RESEARCH ARCHITECTURE / CAUSAL MODEL</span><p>{inquiry.research}</p></div><div><span className="hr-small">PROSPECTIVE VALIDATION / PROPOSED</span><p>{inquiry.protocol}</p></div><div><span className="hr-small">OPEN RESEARCH QUESTION</span><p>{inquiry.unresolved}</p></div></div><div className="hr-inquiry-horizon"><span className="hr-small">LONG-HORIZON OBLIGATION</span><p>{inquiry.horizon}</p></div></div></Glass></Reveal>
-  </div>;
-}
+function GateSection() {
+  const [expanded, setExpanded] = useState<string | null>("01");
 
-function Gates() {
-  const [expanded, setExpanded] = useState<number | null>(0);
-  return <Glass className="hr-gates">{GATES.map((gate, i) => { const open = expanded === i; return <div key={gate.id} className={`hr-gate ${open ? "is-open" : ""}`}><button type="button" className="hr-gate-trigger" aria-expanded={open} aria-controls={`hr-gate-${gate.id}`} onClick={() => setExpanded(open ? null : i)}><span className="hr-gate-count">{String(i + 1).padStart(2, "0")}</span><span><small>{gate.title}</small><strong>{gate.question}</strong></span><span className="hr-gate-symbol" aria-hidden="true">{open ? "−" : "+"}</span></button><div id={`hr-gate-${gate.id}`} className="hr-gate-detail" hidden={!open}><p>{gate.method}</p><div className="hr-gate-criterion"><span className="hr-small">ADVANCEMENT CONDITION / PROPOSED</span><p>{gate.advance}</p></div></div></div>; })}</Glass>;
-}
+  return (
+    <div className="hr-gates">
+      {GATES.map((gate) => {
+        const open = expanded === gate.number;
 
+        return (
+          <article
+            className={`hr-gate ${open ? "is-open" : ""}`}
+            key={gate.number}
+          >
+            <button
+              type="button"
+              className="hr-gate__button"
+              aria-expanded={open}
+              aria-controls={`hr-gate-${gate.number}`}
+              onClick={() =>
+                setExpanded(open ? null : gate.number)
+              }
+            >
+              <span className="hr-index">{gate.number}</span>
 
-const EXPERIMENTS = [
-  { id: "latency", number: "01", name: "The response window", premise: "An autonomous controller can act faster than its monitoring and intervention system.", perturbation: "Introduce a delayed sensor report, an unavailable human reviewer, and an actuator fault in a bounded test environment.", observable: "Record the time to detect the hazard, reach an authorized decision, execute a safe intervention, and reach the harm threshold. Include uncertainty in each measurement.", decision: "If a credible adverse trajectory reaches the harm threshold first, narrow the operating envelope or introduce independently effective protective mechanisms before increasing autonomy.", boundary: "This is a hypothetical protocol. The inequality is a proposed diagnostic; it does not establish that all harms have a measurable warning interval." },
-  { id: "succession", number: "02", name: "The succession failure", premise: "A long-lived facility remains consequential after its owner, funding model, and original technical team have changed.", perturbation: "Remove the original operator, a critical supplier, and access to one institutional archive. Introduce a previously unrecognized failure mode.", observable: "Test whether successors can reconstruct the safety case, locate reliable records, access reserved resources, exercise shutdown authority, and maintain essential functions.", decision: "If essential duties cannot be performed by a successor, redesign the handover architecture and secure independent stewardship before authorizing a longer operating horizon.", boundary: "The exercise tests institutional continuity; it cannot guarantee that future institutions will preserve identical resources or priorities." },
-  { id: "irreversible", number: "03", name: "The irreversibility boundary", premise: "Some consequences cannot credibly be restored by a later corrective action.", perturbation: "Compare a reversible pilot with a wider intervention whose credible adverse pathways include persistent ecological, biological, or infrastructural effects.", observable: "Identify which effects are detectable, which are containable, which are actually recoverable, and which remain uncertain even after observation and mitigation.", decision: "Where credible severe harm is irreversible and the evidence is insufficient, do not use a nominal recovery plan as a substitute for prevention; revise scope, exposure, or the intervention itself.", boundary: "Irreversibility and acceptable exposure must be assessed in the specific domain and through an appropriate, accountable decision process." },
-] as const;
+              <span className="hr-gate__title">
+                <strong>{gate.title}</strong>
+                <small>{gate.question}</small>
+              </span>
 
-function ExperimentLab() {
-  const [active, setActive] = useState(0);
-  const current = EXPERIMENTS[active];
-  return <div className="hr-lab"><div className="hr-lab-tabs" role="group" aria-label="Choose a proposed responsibility experiment">{EXPERIMENTS.map((item,i)=><button type="button" key={item.id} className={`hr-lab-tab hr-glass ${i===active ? "is-active" : ""}`} aria-pressed={i===active} onClick={()=>setActive(i)}><span className="hr-small">PROTOCOL {item.number}</span><strong>{item.name}</strong><span aria-hidden="true">{i===active ? "●" : "○"}</span></button>)}</div><Glass className="hr-lab-panel"><div key={current.id} className="hr-panel-enter"><span className="hr-small">CONCEPTUAL RESEARCH PROTOCOL / NOT A COMPLETED EXPERIMENT</span><h3>{current.name}</h3><p className="hr-lab-premise">{current.premise}</p><div className="hr-lab-grid"><div><span className="hr-small">01 / CONTROLLED PERTURBATION</span><p>{current.perturbation}</p></div><div><span className="hr-small">02 / OBSERVABLE EVIDENCE</span><p>{current.observable}</p></div><div><span className="hr-small">03 / DECISION RULE</span><p>{current.decision}</p></div><div><span className="hr-small">04 / EVIDENCE BOUNDARY</span><p>{current.boundary}</p></div></div></div></Glass></div>;
+              <span className="hr-gate__symbol" aria-hidden="true">
+                {open ? "−" : "+"}
+              </span>
+            </button>
+
+            <div
+              id={`hr-gate-${gate.number}`}
+              className="hr-gate__body"
+              hidden={!open}
+            >
+              <p>{gate.body}</p>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+  );
 }
 
 export default function HumanityResponsibilityPage() {
-  return <main className="hr" id="top">
-    <div className="hr-atmosphere" aria-hidden="true"><Cosmos/><div className="hr-atmosphere__shade"/></div>
-    <section className="hr-screen hr-hero" aria-labelledby="hr-title"><header className="hr-topbar"><Link href="/home/" className="hr-back hr-glass"><span aria-hidden="true">←</span><span>ARCHENOVA</span></Link><span className="hr-topbar-label">PERMANENT INQUIRY / HUMANITY & RESPONSIBILITY</span></header><div className="hr-hero-main"><Reveal><Glass className="hr-hero-copy"><p className="hr-kicker"><span className="hr-live-dot"/> THE QUESTION THAT OUTLIVES ITS ANSWERS</p><h1 id="hr-title">Can humanity<br/>remain <em>responsible</em><br/>for the power<br/>it creates?</h1><p className="hr-hero-lead">Humanity can increasingly alter matter, energy, intelligence, living systems, and the conditions of civilization. The ability to produce consequences is not the same as the ability to understand, limit, correct, or answer for them.</p><div className="hr-hero-actions"><a className="hr-button hr-button--light" href="#principle">ENTER THE INQUIRY <Arrow diagonal/></a><a className="hr-button hr-button--outline" href="#fields">EXPLORE FIVE FIELDS <Arrow/></a></div></Glass></Reveal></div><div className="hr-hero-bottom"><span>CONCEPTUAL COSMIC ART / NOT OBSERVATIONAL DATA</span><a href="#principle">SCROLL TO THE PRINCIPLE <span aria-hidden="true">↓</span></a></div></section>
+  const [readingProgress, setReadingProgress] = useState(0);
 
-    <section id="principle" className="hr-screen hr-principle" aria-labelledby="hr-principle-title"><div className="hr-inner hr-two-col"><div><Reveal><p className="hr-kicker">01 / THE FUNDAMENTAL DISTINCTION</p><h2 id="hr-principle-title" className="hr-display">Power is not<br/><span>responsibility.</span></h2><p className="hr-section-lead">A capability can be scientifically plausible, technically functional, and economically attractive while its consequences remain poorly understood or difficult to reverse. Responsible deployment therefore requires evidence about the entire system—not only its intended performance.</p></Reveal></div><Reveal><Glass className="hr-principle-card"><span className="hr-small">A RESEARCH PROPOSITION / NOT A PHYSICAL LAW</span><div className="hr-equation"><span>Capability</span><b>≠</b><span>Control</span><b>≠</b><span>Authority</span><b>≠</b><span>Responsibility</span></div><div className="hr-principle-divider"/><p><strong>Capability</strong> describes what a system can do. <strong>Control</strong> concerns whether its behavior can be bounded. <strong>Authority</strong> concerns who may permit its use. <strong>Responsibility</strong> concerns who must answer for its effects and maintain the means to respond when things go wrong.</p><p className="hr-card-foot">No one distinction automatically establishes the next.</p></Glass></Reveal></div></section>
+  useEffect(() => {
+    let frame = 0;
 
-    <section className="hr-screen hr-thesis" aria-labelledby="hr-thesis-title"><div className="hr-inner"><SectionHead index="02" label="THE CENTRAL THESIS" title="Responsibility is a" muted="continuous capability.">It is not a statement of good intentions, a one-time approval, or a promise made at launch. It is a set of operational capacities that must remain effective as a system, its environment, and its consequences change.</SectionHead><div className="hr-capacity-grid">{CAPACITIES.map(item => <Reveal key={item.number}><Glass className="hr-capacity-card"><span className="hr-small">{item.number} / 06</span><h3>{item.title}</h3><p>{item.detail}</p><div className="hr-capacity-proof"><span className="hr-small">WHAT TO DEMONSTRATE</span><p>{item.proof}</p></div></Glass></Reveal>)}</div><Reveal><Glass className="hr-thesis-note"><span className="hr-small">THE NON-SUBSTITUTION RULE</span><p>Strong performance in one capacity cannot automatically compensate for the absence of another. A system that is easy to observe but impossible to stop is not thereby controllable; a system that can be stopped but leaves irreversible harm is not thereby recoverable.</p></Glass></Reveal></div></section>
+    const updateProgress = () => {
+      cancelAnimationFrame(frame);
 
-    <section id="fields" className="hr-screen hr-fields" aria-labelledby="hr-fields-title"><div className="hr-inner"><SectionHead index="03" label="FIVE FIELDS OF INQUIRY" title="One permanent question." muted="Five forms of power.">The same responsibility problem takes different physical, technical, and institutional forms. Select a field to examine its causal assumptions, plausible failures, discriminating tests, evidence requirements, and long-horizon obligations.</SectionHead><InquiryPanel/></div></section>
+      frame = requestAnimationFrame(() => {
+        const root = document.documentElement;
+        const available = root.scrollHeight - window.innerHeight;
 
-    <section className="hr-screen hr-model" aria-labelledby="hr-model-title"><div className="hr-inner hr-two-col hr-two-col--model"><Reveal><div><p className="hr-kicker">04 / A TESTABLE DESIGN LANGUAGE</p><h2 id="hr-model-title" className="hr-display">Measure the<br/><span>gap.</span></h2><p className="hr-section-lead">A responsible design must compare the rate and reach of consequential action with the actual capacity to observe, interrupt, and mitigate it. The expressions below are proposed engineering diagnostics. Their variables and thresholds must be operationalized separately for each domain.</p><p className="hr-model-caution">These expressions are not universal safety guarantees, empirically established constants, or substitutes for domain-specific risk analysis.</p></div></Reveal><Reveal><Glass className="hr-model-card"><span className="hr-small">01 / RESPONSE-WINDOW CONDITION</span><div className="hr-math">τ<sub>detect</sub> + τ<sub>decide</sub> + τ<sub>act</sub> &lt; τ<sub>harm</sub></div><p>The combined time to detect, decide, and intervene should be shorter than the time available before unacceptable harm, with an appropriate margin for uncertainty. If that cannot be demonstrated, reduce exposure, autonomy, or operating scope.</p><div className="hr-model-rule"/><span className="hr-small">02 / SCALE-CONSTRAINT PROPOSITION</span><div className="hr-math hr-math--text">Permissible scale ≤ Demonstrated capacity to oversee and respond</div><p>Expansion should be conditional on evidence that monitoring, intervention, recovery where feasible, and accountable governance remain effective at the proposed scale. This is a design principle, not a single scalar quantity.</p><div className="hr-model-rule"/><span className="hr-small">03 / IRREVERSIBILITY BOUNDARY</span><div className="hr-math hr-math--text">Irreversible harm → Stronger prevention and narrower exposure</div><p>When restoration cannot credibly be demonstrated, a recovery plan must not be used to justify exposure. The decision may require redesign, a smaller experiment, or non-deployment.</p></Glass></Reveal></div></section>
+        setReadingProgress(
+          available > 0
+            ? Math.min(100, (window.scrollY / available) * 100)
+            : 0
+        );
+      });
+    };
 
-    <section id="gates" className="hr-screen hr-validation" aria-labelledby="hr-validation-title"><div className="hr-inner hr-two-col hr-two-col--validation"><Reveal><div><p className="hr-kicker">05 / THE EVIDENCE-TO-AUTHORITY PATH</p><h2 id="hr-validation-title" className="hr-display">No scale<br/><span>without a gate.</span></h2><p className="hr-section-lead">A proposed sequence for moving from an idea to consequential deployment. These are evaluation gates, not a claim that ArcheNova has completed them or that one procedure fits every field.</p><Glass className="hr-side-note"><span className="hr-small">THE QUESTION AT EVERY GATE</span><p>What evidence would justify the next commitment—and what result would require us to stop, revise, or withdraw it?</p></Glass></div></Reveal><Reveal><Gates/></Reveal></div></section>
+    updateProgress();
 
-    <section className="hr-screen hr-horizon" aria-labelledby="hr-horizon-title"><div className="hr-inner"><SectionHead index="06" label="THE LONG HORIZON" title="Consequences outlive" muted="their creators.">The relevant timescale is not the duration of a launch, a product cycle, or an institution's mandate. It is the duration of the consequence and the period over which meaningful stewardship must remain possible.</SectionHead><div className="hr-horizon-grid">{HORIZONS.map((item, i) => <Reveal key={item.period}><Glass className="hr-horizon-card"><div className="hr-horizon-top"><span className="hr-small">0{i + 1} / {item.period}</span><span className="hr-horizon-line"/></div><span className="hr-horizon-period">{item.label}</span><h3>{item.issue}</h3><p>{item.detail}</p></Glass></Reveal>)}</div><Reveal><Glass className="hr-horizon-statement"><span className="hr-small">INTERGENERATIONAL RESPONSIBILITY</span><p>Transfer the capacity to know what was built, why it was authorized, how it can fail, who is obligated to act, and what resources remain available for maintenance, remedy, replacement, or safe closure.</p></Glass></Reveal></div></section>
+    window.addEventListener("scroll", updateProgress, {
+      passive: true,
+    });
+    window.addEventListener("resize", updateProgress);
 
-    <section className="hr-screen hr-case" aria-labelledby="hr-case-title"><div className="hr-inner hr-two-col"><Reveal><div><p className="hr-kicker">07 / THE COUNTERFACTUAL TEST</p><h2 id="hr-case-title" className="hr-display">Design for<br/><span>the day after.</span></h2><p className="hr-section-lead">A system should not be judged solely by how it performs when its creators, funding, infrastructure, and assumptions remain intact. The harder question is whether its responsibilities can still be discharged after those supports change.</p></div></Reveal><Reveal><Glass className="hr-case-card"><span className="hr-small">A SCENARIO TO TEST / NOT A REPORTED EVENT</span><h3>The original operator disappears.</h3><p>A consequential system remains in use. Its original team is gone, its records are incomplete, an essential supplier has failed, and a previously unknown hazard has emerged.</p><div className="hr-case-questions"><p><span>01</span> Who can establish what the system is doing?</p><p><span>02</span> Who has authority and resources to intervene?</p><p><span>03</span> Can essential functions continue through an alternative pathway?</p><p><span>04</span> Who provides remedy if harm cannot be reversed?</p><p><span>05</span> What evidence would justify continued operation—or closure?</p></div><p className="hr-case-ending">If these questions have no credible answer, the original deployment plan has an unresolved responsibility gap.</p></Glass></Reveal></div></section>
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", updateProgress);
+      window.removeEventListener("resize", updateProgress);
+    };
+  }, []);
 
-    <section className="hr-screen hr-boundaries" aria-labelledby="hr-boundaries-title"><div className="hr-inner"><SectionHead index="08" label="EVIDENCE & LIMITS" title="A framework must also" muted="answer to reality.">The concepts on this page are proposed principles for inquiry and design. Their usefulness depends on whether they improve real decisions under specified conditions and survive independent challenge.</SectionHead><div className="hr-boundary-grid"><Reveal><Glass className="hr-boundary-card"><span className="hr-small">PRESENTED HERE</span><h3>A structured research proposition</h3><p>Definitions, domain-specific questions, candidate design constraints, and a proposed sequence of validation and stewardship gates.</p></Glass></Reveal><Reveal><Glass className="hr-boundary-card"><span className="hr-small">REQUIRES VALIDATION</span><h3>Operational effectiveness</h3><p>Each application requires measurable variables, comparison with existing methods, failure testing, relevant expert review, and evidence from actual operating conditions.</p></Glass></Reveal><Reveal><Glass className="hr-boundary-card"><span className="hr-small">NOT CLAIMED</span><h3>A universal law or proof of safety</h3><p>No equation here establishes a new physical law, guarantees the absence of harm, or proves that every technology can be made reversible or fully governable.</p></Glass></Reveal></div></div></section>
+  return (
+    <main className="hr" id="top">
+      <Background />
 
+      <div className="hr-progress" aria-hidden="true">
+        <div style={{ width: `${readingProgress}%` }} />
+      </div>
 
-    <section id="experiments" className="hr-screen hr-experiments" aria-labelledby="hr-experiments-title"><div className="hr-inner"><SectionHead index="09" label="A LIVING RESEARCH EXHIBITION" title="Make responsibility" muted="answerable to a test.">Select a proposed experiment to inspect the causal hypothesis, the perturbation that could expose failure, the evidence that must be recorded, and the decision that follows. These are protocols for future investigation, not results presented as accomplished research.</SectionHead><ExperimentLab/></div></section>
-    <section className="hr-screen hr-closing" aria-labelledby="hr-closing-title"><div className="hr-closing-art" aria-hidden="true"><Cosmos compact/></div><div className="hr-inner hr-closing-inner"><Reveal><Glass className="hr-closing-glass"><p className="hr-kicker">ARCHENOVA / PERMANENT INQUIRY</p><h2 id="hr-closing-title">The question<br/><span>remains open.</span></h2><p>Every new capability changes what humanity can do. It also changes what must be observed, challenged, bounded, sustained, and—when necessary—refused. Responsibility is not the end of discovery. It is a condition for carrying its consequences into the future.</p><div className="hr-closing-actions"><Link href="/home/" className="hr-button hr-button--light">RETURN TO ARCHENOVA <Arrow diagonal/></Link><a href="#top" className="hr-button hr-button--outline">REVISIT THE QUESTION <span aria-hidden="true">↑</span></a></div></Glass></Reveal></div></section>
-    <footer className="hr-footer"><span>ARCHENOVA / HUMANITY & RESPONSIBILITY</span><span>REALITY · CAPABILITY · CORRECTABILITY · STEWARDSHIP</span></footer>
+      {/* HERO */}
 
-    <style jsx global>{`
-      /* Device-specific full-viewport research screens: content scrolls naturally when taller than a screen. */
-      .hr{width:100%;min-width:0;min-height:100svh;min-height:100dvh;isolation:isolate}
-      .hr-screen{width:100%;min-height:100svh;min-height:100dvh;display:flex;align-items:center;position:relative;scroll-margin-top:0;box-sizing:border-box}
-      .hr-screen>.hr-inner{width:100%;margin-inline:auto}
-      .hr-hero{min-height:100svh;min-height:100dvh}
-      .hr-atmosphere{position:fixed;inset:0;width:100vw;height:100svh;height:100dvh;pointer-events:none}
-      .hr-atmosphere .hr-cosmos{width:100%;height:100%;object-fit:cover;animation:hrCosmicDrift 38s ease-in-out infinite alternate}
-      .hr-cosmos__orbit{transform-origin:75% 55%;animation:hrOrbitBreath 26s ease-in-out infinite alternate}
-      .hr-cosmos__stars{animation:hrStarsBreathe 9s ease-in-out infinite alternate}
-      @keyframes hrCosmicDrift{from{transform:scale(1.04) translate3d(-.8%,0,0)}to{transform:scale(1.11) translate3d(1%,.8%,0)}}
-      @keyframes hrOrbitBreath{from{opacity:.42}to{opacity:1}}
-      @keyframes hrStarsBreathe{from{opacity:.55}to{opacity:1}}
-      .hr, .hr *{box-sizing:border-box}.hr p,.hr h1,.hr h2,.hr h3{overflow-wrap:break-word}
-      .hr-research-deep{display:grid;gap:0;margin-top:30px;border-top:1px solid var(--hr-line)}
-      .hr-research-deep>div{padding:22px 0;border-bottom:1px solid var(--hr-line)}
-      .hr-research-deep p{margin:11px 0 0;color:var(--hr-muted);font-size:14px;line-height:1.85}
-      .hr-lab{display:grid;grid-template-columns:minmax(220px,.42fr) minmax(0,1fr);gap:clamp(14px,2vw,30px)}
-      .hr-lab-tabs{display:grid;align-content:start;gap:12px}
-      .hr-lab-tab{display:grid;grid-template-columns:1fr auto;gap:12px;width:100%;padding:23px;text-align:left;color:var(--hr-muted);cursor:pointer;border:1px solid var(--hr-line);border-radius:18px;background:rgba(16,20,26,.48)}
-      .hr-lab-tab .hr-small{grid-column:1/-1}.hr-lab-tab strong{font-size:clamp(18px,1.8vw,26px);font-weight:500;letter-spacing:-.04em}
-      .hr-lab-tab.is-active{color:#fff;border-color:rgba(220,233,245,.5);background:rgba(53,65,77,.48)}
-      .hr-lab-panel{padding:clamp(25px,3.5vw,58px);min-height:580px}
-      .hr-lab-panel h3{margin:23px 0 15px;font-size:clamp(32px,4vw,62px);font-weight:500;letter-spacing:-.06em;line-height:1.12}
-      .hr-lab-premise{max-width:850px;color:var(--hr-muted);font-size:clamp(16px,1.5vw,22px);line-height:1.7}
-      .hr-lab-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px;margin-top:28px;border-top:1px solid var(--hr-line)}
-      .hr-lab-grid>div{padding:22px 0;border-bottom:1px solid var(--hr-line)}
-      .hr-lab-grid p{margin:12px 0 0;color:var(--hr-muted);font-size:14px;line-height:1.8}
-      @media(min-width:1500px){.hr{--hr-side:max(42px,calc((100vw - 1700px)/2))}.hr-inner{max-width:1700px}.hr-hero h1{font-size:clamp(78px,6.4vw,132px)}}
-      @media(max-width:1100px){.hr-lab{grid-template-columns:1fr}.hr-lab-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}.hr-lab-panel{min-height:0}}
-      @media(max-width:760px){.hr-screen{min-height:100svh;min-height:100dvh;padding-block:clamp(68px,9svh,110px)}.hr-hero{padding-block:20px}.hr-lab-tabs{grid-template-columns:1fr}.hr-lab-tab{padding:18px}.hr-lab-panel{padding:23px}.hr-lab-grid{grid-template-columns:1fr}.hr-atmosphere .hr-cosmos{object-position:65% center}.hr-cosmos__orbit{opacity:.48}.hr-hero h1{overflow-wrap:normal}.hr-screen>.hr-inner{min-width:0}}
-      @media(max-width:390px){.hr-lab-panel{padding:19px}.hr-lab-panel h3{font-size:30px}}
-      @media(prefers-reduced-motion:reduce){.hr-atmosphere .hr-cosmos,.hr-cosmos__orbit,.hr-cosmos__stars{animation:none!important}}
+      <section className="hr-screen hr-hero" aria-labelledby="hr-title">
+        <header className="hr-topbar">
+          <Link href="/home/" className="hr-home">
+            <span aria-hidden="true">←</span>
+            <span>ARCHENOVA HOME</span>
+          </Link>
 
-      html:has(.hr), body:has(.hr){margin:0!important;padding:0!important;width:100%!important;max-width:none!important;background:#030406!important;scroll-behavior:smooth}
-      body:has(.hr){overflow-x:clip!important}
-      body:has(.hr) .site-header{display:none!important}
-      body:has(.hr) .site-content{position:relative!important;z-index:1!important;display:block!important;width:100%!important;min-width:0!important;max-width:none!important;min-height:100svh!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;transform:none!important;overflow:visible!important}
-      body:has(.hr) .site-content::before,body:has(.hr) .site-content::after{display:none!important}
-      .hr,.hr *,.hr *::before,.hr *::after{box-sizing:border-box}
-      .hr{--hr-white:rgba(249,251,253,.97);--hr-muted:rgba(231,237,244,.77);--hr-faint:rgba(225,234,243,.55);--hr-line:rgba(233,241,249,.15);--hr-side:clamp(16px,4.1vw,76px);--hr-block:clamp(75px,10vw,156px);position:relative;isolation:isolate;width:100%;min-width:0;min-height:100svh;overflow-x:clip;background:#030406;color:var(--hr-white);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
-      .hr a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:transparent}.hr button{font:inherit;-webkit-tap-highlight-color:transparent}.hr a:focus-visible,.hr button:focus-visible{outline:2px solid #e7f0f8;outline-offset:4px}.hr a,.hr button,.hr h1,.hr h2,.hr h3,.hr p,.hr span,.hr strong{min-width:0}.hr p{overflow-wrap:break-word}
-      .hr-atmosphere{position:absolute;z-index:-1;inset:0;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse at 76% 12%,rgba(44,58,69,.28),transparent 35%),radial-gradient(ellipse at 12% 65%,rgba(29,36,47,.21),transparent 35%),#030406}.hr-atmosphere>.hr-cosmos{position:absolute;top:0;left:0;width:100%;height:min(130svh,1100px);opacity:.92}.hr-atmosphere__shade{position:absolute;inset:0;background:linear-gradient(180deg,transparent 0%,#030406 18%,rgba(3,4,6,.95) 35%,#030406 100%)}
-      .hr-cosmos{display:block;width:100%;height:100%;pointer-events:none}.hr-cosmos__orbit{transform-origin:1050px 540px;animation:hrOrbit 55s linear infinite}.hr-cosmos__stars{animation:hrStars 11s ease-in-out infinite alternate}@keyframes hrOrbit{to{transform:rotate(6deg)}}@keyframes hrStars{to{opacity:.65}}
-      .hr-screen{position:relative;display:flex;flex-direction:column;justify-content:center;width:100%;min-height:100svh;padding:var(--hr-block) var(--hr-side);scroll-margin-top:0;background:transparent}.hr-inner{width:100%;min-width:0;max-width:1680px;margin-inline:auto}.hr-kicker,.hr-small{font-size:10px;font-weight:600;line-height:1.6;letter-spacing:.16em}.hr-kicker{margin:0 0 clamp(19px,3vw,39px);color:var(--hr-faint)}.hr-small{color:var(--hr-faint)}.hr-display{margin:0;font-size:clamp(43px,7.3vw,116px);font-weight:500;line-height:1.065;letter-spacing:-.075em;overflow-wrap:break-word}.hr-display span{color:rgba(224,234,245,.48)}.hr-section-lead{max-width:790px;margin:clamp(24px,3vw,42px) 0 0;color:var(--hr-muted);font-size:clamp(15px,1.35vw,20px);line-height:1.85}.hr-section-head{margin-bottom:clamp(35px,5vw,75px)}
-      .hr-glass{position:relative;isolation:isolate;min-width:0;max-width:100%;overflow:hidden;border:1px solid rgba(231,240,250,.17);border-radius:clamp(20px,2.3vw,34px);background:linear-gradient(142deg,rgba(36,42,49,.43),rgba(12,16,22,.55) 49%,rgba(5,8,13,.65));-webkit-backdrop-filter:blur(25px) saturate(108%);backdrop-filter:blur(25px) saturate(108%);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 26px 80px rgba(0,0,0,.18)}.hr-glass::before{content:"";position:absolute;z-index:-1;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(145deg,rgba(255,255,255,.035),transparent 46%,rgba(255,255,255,.012))}
-      .hr-reveal{width:100%;min-width:0;opacity:0;transform:translate3d(0,20px,0);transition:opacity .85s ease,transform 1s cubic-bezier(.16,1,.3,1)}.hr-reveal.is-visible{opacity:1;transform:none}.hr-arrow{flex:0 0 auto;width:19px;height:19px;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
-      .hr-hero{justify-content:space-between;gap:35px;min-height:100svh;padding-top:clamp(24px,4svh,55px);padding-bottom:clamp(22px,3svh,42px)}.hr-topbar,.hr-hero-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px}.hr-topbar{position:relative;z-index:2}.hr-back{display:inline-flex;align-items:center;gap:13px;min-height:45px;padding:10px 19px;border-radius:999px;font-size:10px;font-weight:650;letter-spacing:.13em}.hr-back>span:first-child{font-size:18px;font-weight:400}.hr-topbar-label,.hr-hero-bottom{color:var(--hr-faint);font-size:9px;letter-spacing:.13em;line-height:1.6}.hr-hero-main{width:100%;max-width:1680px;margin:auto}.hr-hero-copy{width:min(100%,1040px);padding:clamp(29px,4.8vw,82px)}.hr-live-dot{display:inline-block;width:6px;height:6px;margin-right:10px;border-radius:50%;background:#c6d9e8;box-shadow:0 0 13px rgba(204,225,243,.6);vertical-align:middle}.hr-hero h1{margin:0;font-size:clamp(48px,7.4vw,120px);font-weight:510;line-height:1.035;letter-spacing:-.077em;overflow-wrap:break-word}.hr-hero h1 em{font-style:normal;color:rgba(220,233,244,.54)}.hr-hero-lead{max-width:810px;margin:clamp(25px,3.2vw,48px) 0 0;color:var(--hr-muted);font-size:clamp(15px,1.4vw,21px);line-height:1.8}.hr-hero-actions,.hr-closing-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(26px,3vw,42px)}.hr-button{display:inline-flex;align-items:center;justify-content:space-between;gap:22px;min-height:55px;padding:14px 23px;border-radius:999px;font-size:10px;font-weight:650;letter-spacing:.1em;line-height:1.5;transition:transform .25s ease,border-color .25s ease,background .25s ease}.hr-button--light{background:rgba(246,249,252,.96);color:#0b1117!important}.hr-button--outline{border:1px solid rgba(234,242,251,.3);background:rgba(9,13,18,.35);color:var(--hr-white)!important;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}.hr-hero-bottom a{display:inline-flex;align-items:center;gap:13px;color:var(--hr-white)}.hr-hero-bottom a span{font-size:19px}
-      .hr-two-col{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.95fr);align-items:center;gap:clamp(30px,5vw,95px)}.hr-principle-card{padding:clamp(26px,3.6vw,62px)}.hr-equation{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;margin:clamp(28px,3vw,43px) 0;font-size:clamp(20px,2.2vw,36px);font-weight:500;letter-spacing:-.045em;line-height:1.4}.hr-equation b{font-size:.7em;font-weight:400;color:var(--hr-faint)}.hr-principle-divider,.hr-model-rule{height:1px;background:var(--hr-line)}.hr-principle-card>p{margin:24px 0 0;color:var(--hr-muted);font-size:15px;line-height:1.85}.hr-principle-card>p strong{color:var(--hr-white);font-weight:550}.hr-principle-card .hr-card-foot{font-size:12px;color:var(--hr-faint)}
-      .hr-capacity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.5vw,24px)}.hr-capacity-grid>.hr-reveal{height:100%}.hr-capacity-card{display:flex;flex-direction:column;height:100%;min-height:340px;padding:clamp(25px,2.7vw,45px)}.hr-capacity-card h3{margin:30px 0 16px;font-size:clamp(26px,2.6vw,42px);font-weight:490;letter-spacing:-.055em}.hr-capacity-card>p,.hr-capacity-proof p{margin:0;color:var(--hr-muted);font-size:14px;line-height:1.8}.hr-capacity-proof{margin-top:auto;padding-top:26px}.hr-capacity-proof .hr-small{display:block;padding-top:21px;border-top:1px solid var(--hr-line)}.hr-capacity-proof p{margin-top:10px;font-size:12px}.hr-thesis-note{margin-top:clamp(15px,2vw,27px);padding:clamp(25px,3vw,43px)}.hr-thesis-note p{max-width:1100px;margin:15px 0 0;font-size:clamp(17px,1.8vw,26px);line-height:1.65;letter-spacing:-.025em}
-      .hr-inquiry-layout{display:grid;grid-template-columns:minmax(0,.62fr) minmax(0,1.38fr);align-items:start;gap:clamp(15px,2.5vw,38px)}.hr-inquiry-nav{display:grid;gap:10px}.hr-inquiry-tab{display:grid;grid-template-columns:24px minmax(0,1fr) 19px;align-items:center;width:100%;min-height:92px;gap:15px;padding:20px;border:1px solid var(--hr-line);border-radius:19px;background:rgba(19,25,32,.34);color:var(--hr-muted);text-align:left;cursor:pointer;transition:border-color .25s ease,background .25s ease,color .25s ease}.hr-inquiry-tab.is-active{border-color:rgba(230,240,250,.46);background:rgba(52,63,74,.42);color:#fff}.hr-inquiry-tab .hr-index{font-size:10px;color:var(--hr-faint)}.hr-inquiry-tab strong{display:block;font-size:clamp(18px,1.6vw,25px);font-weight:500;letter-spacing:-.035em}.hr-inquiry-tab small{display:block;margin-top:8px;color:var(--hr-faint);font-size:9px;letter-spacing:.09em;line-height:1.5}.hr-inquiry-panel{min-height:780px;padding:clamp(26px,3.4vw,57px)}.hr-panel-enter{animation:hrPanel .4s ease both}@keyframes hrPanel{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}.hr-panel-meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}.hr-inquiry-panel h3{max-width:900px;margin:32px 0 20px;font-size:clamp(34px,3.9vw,65px);font-weight:490;line-height:1.12;letter-spacing:-.065em}.hr-panel-premise{max-width:900px;margin:0;color:var(--hr-muted);font-size:clamp(16px,1.45vw,21px);line-height:1.75}.hr-inquiry-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin-top:33px;border-top:1px solid var(--hr-line)}.hr-inquiry-grid>div{padding:23px 0;border-bottom:1px solid var(--hr-line)}.hr-inquiry-grid p{margin:12px 0 0;color:var(--hr-muted);font-size:13px;line-height:1.85}.hr-inquiry-horizon{margin-top:30px;padding:clamp(20px,2.4vw,34px);border:1px solid var(--hr-line);border-radius:18px;background:rgba(255,255,255,.035)}.hr-inquiry-horizon p{margin:13px 0 0;font-size:clamp(16px,1.6vw,23px);line-height:1.6}
-      .hr-model-card{padding:clamp(27px,3.5vw,59px)}.hr-math{margin:20px 0;font-size:clamp(23px,2.4vw,38px);line-height:1.55;letter-spacing:-.04em;overflow-wrap:anywhere}.hr-math sub{font-size:.48em;letter-spacing:0}.hr-math--text{font-size:clamp(19px,1.8vw,28px)}.hr-model-card>p{margin:0;color:var(--hr-muted);font-size:14px;line-height:1.85}.hr-model-rule{margin:30px 0}.hr-model-caution{max-width:690px;margin:25px 0 0;color:var(--hr-faint);font-size:12px;line-height:1.8}
-      .hr-two-col--validation{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}.hr-side-note{margin-top:clamp(30px,4vw,60px);padding:clamp(23px,2.8vw,42px)}.hr-side-note p{margin:14px 0 0;font-size:clamp(17px,1.7vw,25px);line-height:1.65}.hr-gates{padding:clamp(20px,3vw,48px)}.hr-gate{border-top:1px solid var(--hr-line)}.hr-gate:first-child{border-top:0}.hr-gate-trigger{display:grid;grid-template-columns:25px minmax(0,1fr) 24px;align-items:center;width:100%;min-height:97px;gap:15px;padding:19px 0;border:0;background:transparent;color:var(--hr-white);text-align:left;cursor:pointer}.hr-gate-count{color:var(--hr-faint);font-size:10px}.hr-gate-trigger small{display:block;color:var(--hr-faint);font-size:9px;letter-spacing:.12em;line-height:1.5}.hr-gate-trigger strong{display:block;margin-top:8px;font-size:clamp(18px,1.7vw,26px);font-weight:500;line-height:1.35;letter-spacing:-.035em}.hr-gate-symbol{font-size:22px;font-weight:300;text-align:center}.hr-gate-detail{padding:0 0 26px 40px}.hr-gate-detail>p{margin:0;color:var(--hr-muted);font-size:14px;line-height:1.85}.hr-gate-criterion{margin-top:20px;padding:20px;border-radius:15px;background:rgba(255,255,255,.045)}.hr-gate-criterion p{margin:9px 0 0;font-size:13px;line-height:1.8}
-      .hr-horizon-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.5vw,23px)}.hr-horizon-grid>.hr-reveal{height:100%}.hr-horizon-card{height:100%;min-height:365px;padding:clamp(23px,2.5vw,40px)}.hr-horizon-top{display:flex;align-items:center;gap:15px}.hr-horizon-line{flex:1;height:1px;background:var(--hr-line)}.hr-horizon-period{display:block;margin-top:42px;color:var(--hr-faint);font-size:12px;letter-spacing:.04em}.hr-horizon-card h3{margin:16px 0 20px;font-size:clamp(23px,2.1vw,34px);font-weight:490;line-height:1.25;letter-spacing:-.045em}.hr-horizon-card p{margin:0;color:var(--hr-muted);font-size:13px;line-height:1.85}.hr-horizon-statement{margin-top:clamp(15px,2vw,27px);padding:clamp(26px,3.4vw,54px)}.hr-horizon-statement p{max-width:1180px;margin:16px 0 0;font-size:clamp(19px,2.1vw,32px);line-height:1.6;letter-spacing:-.035em}
-      .hr-case-card{padding:clamp(27px,3.5vw,58px)}.hr-case-card h3{margin:26px 0 16px;font-size:clamp(30px,3.3vw,52px);font-weight:490;line-height:1.15;letter-spacing:-.055em}.hr-case-card>p{color:var(--hr-muted);font-size:14px;line-height:1.85}.hr-case-questions{margin:27px 0;border-top:1px solid var(--hr-line)}.hr-case-questions p{display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;margin:0;padding:16px 0;border-bottom:1px solid var(--hr-line);font-size:14px;line-height:1.7}.hr-case-questions span{color:var(--hr-faint);font-size:10px}.hr-case-card .hr-case-ending{margin:25px 0 0;color:var(--hr-white);font-size:clamp(17px,1.7vw,24px);line-height:1.6}
-      .hr-boundary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.5vw,24px)}.hr-boundary-grid>.hr-reveal{height:100%}.hr-boundary-card{height:100%;min-height:290px;padding:clamp(25px,2.8vw,45px)}.hr-boundary-card h3{margin:29px 0 18px;font-size:clamp(23px,2.3vw,35px);font-weight:490;line-height:1.25;letter-spacing:-.045em}.hr-boundary-card p{margin:0;color:var(--hr-muted);font-size:14px;line-height:1.85}
-      .hr-closing{min-height:100svh;overflow:hidden}.hr-closing-art{position:absolute;inset:0;opacity:.48;pointer-events:none}.hr-closing-art::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,4,6,.6),transparent 75%),linear-gradient(0deg,#030406,transparent 35%,transparent 70%,#030406)}.hr-closing-inner{position:relative;z-index:1}.hr-closing-glass{width:min(100%,1100px);padding:clamp(30px,5vw,83px)}.hr-closing h2{margin:0;font-size:clamp(48px,8vw,132px);font-weight:500;line-height:1.04;letter-spacing:-.078em}.hr-closing h2 span{color:rgba(224,234,245,.52)}.hr-closing-glass>p:not(.hr-kicker){max-width:820px;margin:clamp(25px,3vw,43px) 0 0;color:var(--hr-muted);font-size:clamp(16px,1.5vw,22px);line-height:1.8}.hr-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;padding:28px var(--hr-side) 36px;border-top:1px solid var(--hr-line);color:var(--hr-faint);font-size:9px;line-height:1.7;letter-spacing:.12em}
-      @media(hover:hover){.hr-button:hover{transform:translateY(-2px)}.hr-button--light:hover{background:#fff}.hr-button--outline:hover{border-color:rgba(255,255,255,.6)}.hr-inquiry-tab:hover{border-color:rgba(231,240,250,.4);color:#fff}.hr-gate-trigger:hover strong{color:rgba(255,255,255,.75)}}
-      @media(max-width:1100px){.hr-two-col,.hr-two-col--validation,.hr-inquiry-layout{grid-template-columns:minmax(0,1fr)}.hr-inquiry-nav{grid-template-columns:repeat(2,minmax(0,1fr))}.hr-capacity-grid,.hr-boundary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hr-horizon-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hr-inquiry-panel{min-height:0}}
-      @media(max-width:760px){.hr{--hr-side:13px;--hr-block:clamp(66px,11svh,95px)}.hr-glass{border-radius:21px}.hr-kicker,.hr-small{font-size:9px;letter-spacing:.12em}.hr-display{font-size:clamp(41px,9.2vw,70px)}.hr-section-lead{font-size:14px}.hr-hero{padding-top:22px;padding-bottom:24px;gap:24px}.hr-topbar-label{display:none}.hr-hero-copy{padding:clamp(23px,5.5vw,36px)}.hr-hero h1{font-size:clamp(37px,9vw,68px);line-height:1.06}.hr-hero-lead{font-size:14px}.hr-hero-actions,.hr-closing-actions{flex-direction:column}.hr-button{width:100%;min-height:52px;font-size:9px}.hr-hero-bottom{font-size:8px;letter-spacing:.07em}.hr-principle-card,.hr-model-card,.hr-case-card{padding:25px}.hr-equation{font-size:23px}.hr-capacity-grid,.hr-boundary-grid,.hr-horizon-grid,.hr-inquiry-nav{grid-template-columns:minmax(0,1fr)}.hr-capacity-card,.hr-boundary-card,.hr-horizon-card{min-height:0;padding:26px}.hr-capacity-card h3{margin-top:18px}.hr-capacity-proof{margin-top:24px}.hr-inquiry-tab{min-height:68px;padding:15px}.hr-inquiry-tab strong{font-size:17px}.hr-inquiry-panel{padding:24px}.hr-inquiry-panel h3{font-size:clamp(30px,7.8vw,49px)}.hr-inquiry-grid{grid-template-columns:minmax(0,1fr)}.hr-inquiry-grid>div{padding:19px 0}.hr-inquiry-horizon{padding:20px}.hr-gates{padding:21px}.hr-gate-trigger{min-height:84px;gap:10px}.hr-gate-trigger strong{font-size:18px}.hr-gate-detail{padding-left:0}.hr-horizon-period{margin-top:24px}.hr-horizon-card h3{font-size:26px}.hr-closing-glass{padding:27px}.hr-closing h2{font-size:clamp(43px,10vw,76px)}.hr-footer{font-size:8px}}
-      @media(max-width:390px){.hr{--hr-side:9px}.hr-hero h1{font-size:clamp(33px,8.6vw,43px)}.hr-hero-copy,.hr-inquiry-panel,.hr-gates{padding:20px}.hr-inquiry-tab{grid-template-columns:19px minmax(0,1fr) 17px;gap:10px}.hr-topbar{gap:9px}}
-      @media(max-height:650px){.hr-hero{gap:18px}.hr-hero-main{margin:10px auto}.hr-hero-copy{padding:clamp(20px,3vw,42px)}.hr-hero h1{font-size:clamp(38px,6vw,75px)}}
-      @media(prefers-reduced-motion:reduce){html:has(.hr){scroll-behavior:auto}.hr *,.hr *::before,.hr *::after{animation:none!important;transition:none!important}.hr-reveal{opacity:1!important;transform:none!important}}
-    `}</style>
-  </main>;
+          <span className="hr-topbar__identity">
+            PERMANENT INQUIRY / HUMANITY & RESPONSIBILITY
+          </span>
+        </header>
+
+        <div className="hr-hero__body hr-width">
+          <Reveal>
+            <span className="hr-eyebrow hr-hero__eyebrow">
+              AN OPEN QUESTION FOR EVERY GENERATION
+            </span>
+
+            <h1 id="hr-title">
+              Can Humanity
+              <br />
+              Remain Responsible
+              <br />
+              <span>for the Power</span>
+              <br />
+              <span>It Creates?</span>
+            </h1>
+
+            <div className="hr-hero__intro">
+              <p>
+                Humanity continues to expand its power over
+                matter, energy, intelligence, life, and the
+                conditions of civilization.
+              </p>
+
+              <p>
+                The ability to create consequences is not the
+                same as the ability to understand, govern,
+                correct, and remain responsible for them.
+              </p>
+            </div>
+
+            <div className="hr-hero__actions">
+              <a href="#principle" className="hr-action">
+                EXPLORE THE QUESTION
+                <span aria-hidden="true">↓</span>
+              </a>
+
+              <a href="#fields" className="hr-action hr-action--quiet">
+                FIVE FIELDS OF INQUIRY
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </Reveal>
+        </div>
+
+        <div className="hr-hero__footer">
+          <span>ARCHENOVA / PERMANENT INQUIRY</span>
+          <span>SCROLL TO CONTINUE ↓</span>
+        </div>
+      </section>
+
+      {/* PRINCIPLE */}
+
+      <section
+        id="principle"
+        className="hr-screen hr-principle"
+        aria-labelledby="hr-principle-title"
+      >
+        <div className="hr-width">
+          <Reveal className="hr-principle__intro">
+            <span className="hr-eyebrow">
+              01 / THE GOVERNING PRINCIPLE
+            </span>
+
+            <h2 id="hr-principle-title">
+              Capability must
+              <br />
+              <span>not outgrow responsibility.</span>
+            </h2>
+
+            <p>
+              A capability may be scientifically possible,
+              technically functional, and economically
+              attractive without its long-term consequences
+              being sufficiently understood or its failures
+              being recoverable.
+            </p>
+          </Reveal>
+
+          <Reveal>
+            <div className="hr-principle__statement hr-paper">
+              <span className="hr-paper__label">
+                THE FUNDAMENTAL DISTINCTION
+              </span>
+
+              <div className="hr-principle__formula">
+                <span>CAPABILITY</span>
+                <span className="hr-principle__operator">≠</span>
+                <span>CONTROL</span>
+                <span className="hr-principle__operator">≠</span>
+                <span>RESPONSIBILITY</span>
+              </div>
+
+              <p>
+                Creating power does not, by itself, establish
+                the ability to govern its consequences.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="hr-principle__analysis">
+            <Reveal>
+              <article>
+                <span className="hr-paper__label">
+                  EPISTEMIC REQUIREMENT
+                </span>
+                <h3>Reality must remain distinct from its representation.</h3>
+                <p>
+                  Observations, measurements, datasets, models,
+                  and forecasts are ways of examining reality;
+                  none is reality itself. A responsible decision
+                  identifies the evidence supporting its claims,
+                  the uncertainty that remains, and the
+                  observations that could require revision.
+                </p>
+              </article>
+            </Reveal>
+
+            <Reveal>
+              <article>
+                <span className="hr-paper__label">
+                  OPERATIONAL REQUIREMENT
+                </span>
+                <h3>Control must exist before it is needed.</h3>
+                <p>
+                  Responsibility requires a practical capacity
+                  to detect adverse behavior, intervene within
+                  the available response window, and preserve
+                  essential function where recovery is possible.
+                  A safeguard that works only under ideal
+                  conditions does not establish control during
+                  the failures it is intended to address.
+                </p>
+              </article>
+            </Reveal>
+
+            <Reveal>
+              <article>
+                <span className="hr-paper__label">
+                  INTERGENERATIONAL REQUIREMENT
+                </span>
+                <h3>Obligations must survive their creators.</h3>
+                <p>
+                  Consequences may persist after the original
+                  team, owner, technology, or institution has
+                  disappeared. Knowledge, resources, authority,
+                  review, and remedy must be designed for
+                  transfer rather than assumed to remain
+                  available indefinitely.
+                </p>
+              </article>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTINUOUS TEST */}
+
+      <section
+        className="hr-screen hr-capacities"
+        aria-labelledby="hr-capacities-title"
+      >
+        <div className="hr-width">
+          <SectionHeading
+            index="02"
+            label="THE CONTINUOUS TEST"
+            title="Responsibility must"
+            secondary="remain operational."
+          >
+            Responsibility is not merely an intention, a
+            promise, or an approval issued once. It requires
+            capacities that can be demonstrated, independently
+            challenged, and reassessed as the system becomes
+            more powerful, interconnected, or difficult to
+            reverse.
+          </SectionHeading>
+
+          <div className="hr-capacities__list">
+            {CAPACITIES.map((capacity) => (
+              <Reveal key={capacity.number}>
+                <article className="hr-capacity">
+                  <div className="hr-capacity__identity">
+                    <span className="hr-index">
+                      {capacity.number} / 06
+                    </span>
+                    <h3>{capacity.title}</h3>
+                  </div>
+
+                  <div className="hr-capacity__content">
+                    <h4>{capacity.question}</h4>
+                    <p>{capacity.explanation}</p>
+
+                    <div className="hr-capacity__evidence">
+                      <span className="hr-paper__label">
+                        WHAT WOULD COUNT AS EVIDENCE
+                      </span>
+                      <p>{capacity.evidence}</p>
+                    </div>
+                  </div>
+                </article>
+              </Reveal>
+            ))}
+          </div>
+
+          <Reveal>
+            <p className="hr-section-endnote">
+              A safeguard adequate at one scale may become
+              insufficient at another. The test must continue
+              as capabilities, dependencies, and consequences
+              change.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* FIVE FIELDS */}
+
+      <section
+        id="fields"
+        className="hr-screen hr-fields-intro"
+        aria-labelledby="hr-fields-title"
+      >
+        <div className="hr-width">
+          <Reveal>
+            <span className="hr-eyebrow">
+              03 / THE FIELDS OF INQUIRY
+            </span>
+
+            <h2 id="hr-fields-title">
+              One question.
+              <br />
+              <span>Many forms of power.</span>
+            </h2>
+
+            <p>
+              The same responsibility problem appears wherever
+              human capability can produce consequences that
+              extend beyond immediate observation, control,
+              or recovery.
+            </p>
+          </Reveal>
+
+          <nav
+            className="hr-field-navigation"
+            aria-label="Five fields of inquiry"
+          >
+            {DOMAINS.map((domain) => (
+              <a key={domain.id} href={`#${domain.id}`}>
+                <span className="hr-index">{domain.number}</span>
+                <span>{domain.name}</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            ))}
+          </nav>
+        </div>
+      </section>
+
+      {DOMAINS.map((domain) => (
+        <DomainSection key={domain.id} domain={domain} />
+      ))}
+
+      {/* DESIGN CONDITIONS */}
+
+      <section
+        className="hr-screen hr-conditions"
+        aria-labelledby="hr-conditions-title"
+      >
+        <div className="hr-width">
+          <SectionHeading
+            index="04"
+            label="THE ENGINEERING OF RESPONSIBILITY"
+            title="The response must"
+            secondary="precede the consequence."
+          >
+            The central engineering question is not whether a
+            system possesses a nominal safeguard. It is whether
+            the safeguard remains effective under the conditions
+            in which it is actually needed.
+          </SectionHeading>
+
+          <div className="hr-conditions__list">
+            <Reveal>
+              <article className="hr-paper hr-condition">
+                <span className="hr-paper__label">
+                  DESIGN CONDITION / RESPONSE TIME
+                </span>
+
+                <h3>
+                  Detection + decision + intervention
+                  <br />
+                  <span>must fit within the available window.</span>
+                </h3>
+
+                <p>
+                  The time required to recognize a hazard,
+                  authorize a response, and execute an
+                  intervention must be evaluated against the
+                  time remaining before a specified adverse
+                  threshold is crossed. If the response cannot
+                  reliably arrive in time, the operating
+                  envelope or the protective architecture must
+                  change.
+                </p>
+
+                <div className="hr-condition__note">
+                  <span>VALIDATION QUESTION</span>
+                  <p>
+                    Does the response remain timely when
+                    sensors, communications, personnel, or
+                    other dependencies are degraded?
+                  </p>
+                </div>
+              </article>
+            </Reveal>
+
+            <Reveal>
+              <article className="hr-paper hr-condition">
+                <span className="hr-paper__label">
+                  DESIGN CONDITION / PERMISSIBLE SCALE
+                </span>
+
+                <h3>
+                  Reach must remain bounded
+                  <br />
+                  <span>by demonstrated oversight.</span>
+                </h3>
+
+                <p>
+                  Expansion can increase exposure, autonomy,
+                  coupling, and the speed at which failure
+                  propagates. Evidence obtained from a limited
+                  demonstration cannot automatically establish
+                  that monitoring, intervention, recovery, and
+                  accountable authorization remain adequate
+                  after deployment grows.
+                </p>
+
+                <div className="hr-condition__note">
+                  <span>VALIDATION QUESTION</span>
+                  <p>
+                    Which new failure pathways appear at the
+                    proposed scale, and what new evidence is
+                    required before expansion?
+                  </p>
+                </div>
+              </article>
+            </Reveal>
+
+            <Reveal>
+              <article className="hr-paper hr-condition">
+                <span className="hr-paper__label">
+                  DESIGN CONDITION / IRREVERSIBILITY
+                </span>
+
+                <h3>
+                  When recovery is not credible,
+                  <br />
+                  <span>prevention becomes decisive.</span>
+                </h3>
+
+                <p>
+                  Not every consequence can be undone. The
+                  absence of a credible restoration pathway
+                  changes the design problem: exposure may need
+                  to be reduced, experiments may need to be
+                  bounded more tightly, and some commitments
+                  may need to be deferred or avoided. A
+                  speculative recovery plan must not be treated
+                  as demonstrated protection.
+                </p>
+
+                <div className="hr-condition__note">
+                  <span>VALIDATION QUESTION</span>
+                  <p>
+                    What irreversible outcome is plausible,
+                    what evidence supports that assessment,
+                    and how is the exposure boundary enforced?
+                  </p>
+                </div>
+              </article>
+            </Reveal>
+          </div>
+
+          <Reveal>
+            <p className="hr-section-endnote">
+              These are proposed design conditions, not
+              universal numerical laws. Each application
+              requires its own variables, thresholds,
+              uncertainty analysis, and independent validation.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* VALIDATION GATES */}
+
+      <section
+        className="hr-screen hr-validation"
+        aria-labelledby="hr-validation-title"
+      >
+        <div className="hr-width">
+          <SectionHeading
+            index="05"
+            label="FROM EVIDENCE TO AUTHORITY"
+            title="No expansion"
+            secondary="without renewed evidence."
+          >
+            A proposed pathway from an idea to consequential
+            deployment. Each gate asks what must be established
+            before a further commitment is made—and what
+            finding would require revision, restriction,
+            or withdrawal.
+          </SectionHeading>
+
+          <Reveal>
+            <GateSection />
+          </Reveal>
+
+          <Reveal>
+            <div className="hr-validation__footnote">
+              <span className="hr-paper__label">
+                STATUS OF THIS FRAMEWORK
+              </span>
+              <p>
+                These gates are proposed evaluation criteria.
+                Their presence on this page does not mean
+                ArcheNova has completed the associated tests
+                or that the same procedure is sufficient for
+                every scientific, technical, or institutional
+                domain.
+              </p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* LONG HORIZON */}
+
+      <section
+        className="hr-screen hr-horizons"
+        aria-labelledby="hr-horizons-title"
+      >
+        <div className="hr-width">
+          <SectionHeading
+            index="06"
+            label="THE LONG HORIZON"
+            title="Consequences may outlive"
+            secondary="their creators."
+          >
+            The relevant timescale is not the duration of a
+            launch, a product cycle, or an institution's
+            mandate. It is the duration of the consequence
+            and the period over which meaningful stewardship
+            must remain possible.
+          </SectionHeading>
+
+          <div className="hr-horizons__list">
+            {HORIZONS.map((horizon) => (
+              <Reveal key={horizon.number}>
+                <article className="hr-horizon">
+                  <div className="hr-horizon__time">
+                    <span className="hr-index">
+                      {horizon.number} / 04
+                    </span>
+                    <span>{horizon.label}</span>
+                  </div>
+
+                  <div className="hr-horizon__body">
+                    <h3>{horizon.title}</h3>
+                    <p>{horizon.body}</p>
+                  </div>
+                </article>
+              </Reveal>
+            ))}
+          </div>
+
+          <Reveal>
+            <div className="hr-paper hr-horizons__statement">
+              <span className="hr-paper__label">
+                THE INTERGENERATIONAL REQUIREMENT
+              </span>
+
+              <p>
+                Monitoring, correction, recovery where
+                possible, and accountability must be designed
+                to continue beyond the moment of creation.
+              </p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* COUNTERFACTUAL */}
+
+      <section
+        className="hr-screen hr-counterfactual"
+        aria-labelledby="hr-counterfactual-title"
+      >
+        <div className="hr-width">
+          <SectionHeading
+            index="07"
+            label="THE COUNTERFACTUAL TEST"
+            title="Design for"
+            secondary="the day after."
+          >
+            A system should not be judged only by how it
+            performs while its creators, funding, equipment,
+            and original assumptions remain intact. The harder
+            question is whether its responsibilities can still
+            be discharged after those supports change.
+          </SectionHeading>
+
+          <Reveal>
+            <article className="hr-paper hr-scenario">
+              <span className="hr-paper__label">
+                PROPOSED STRESS-TEST SCENARIO / NOT A REPORTED EVENT
+              </span>
+
+              <h3>The original operator disappears.</h3>
+
+              <p className="hr-scenario__lead">
+                A consequential system remains in use. Its
+                original team is gone, its records are
+                incomplete, an essential supplier has failed,
+                and a previously unknown hazard has emerged.
+              </p>
+
+              <div className="hr-scenario__questions">
+                {[
+                  "Who can establish what the system is doing?",
+                  "Who has the authority and resources to intervene?",
+                  "Can essential functions continue through an alternative pathway?",
+                  "Who provides remedy if harm cannot be reversed?",
+                  "What evidence would justify continued operation—or closure?",
+                ].map((question, index) => (
+                  <div key={question}>
+                    <span className="hr-index">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <p>{question}</p>
+                  </div>
+                ))}
+              </div>
+
+              <p className="hr-scenario__conclusion">
+                If these questions have no credible answer,
+                the original deployment plan contains an
+                unresolved responsibility gap.
+              </p>
+            </article>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* EVIDENCE BOUNDARY */}
+
+      <section
+        className="hr-screen hr-evidence"
+        aria-labelledby="hr-evidence-title"
+      >
+        <div className="hr-width">
+          <SectionHeading
+            index="08"
+            label="EVIDENCE & LIMITS"
+            title="The framework must"
+            secondary="answer to reality."
+          >
+            A research architecture is valuable only if it
+            improves the quality of real decisions under
+            specified conditions and remains open to
+            independent criticism, contrary evidence,
+            and revision.
+          </SectionHeading>
+
+          <div className="hr-evidence__grid">
+            <Reveal>
+              <article className="hr-paper">
+                <span className="hr-paper__label">
+                  PRESENTED HERE
+                </span>
+                <h3>A structured research proposition</h3>
+                <p>
+                  A governing question, domain-specific causal
+                  analyses, proposed design conditions,
+                  falsification criteria, and a framework for
+                  sustained responsibility.
+                </p>
+              </article>
+            </Reveal>
+
+            <Reveal>
+              <article className="hr-paper">
+                <span className="hr-paper__label">
+                  REQUIRES VALIDATION
+                </span>
+                <h3>Operational effectiveness</h3>
+                <p>
+                  Every real application requires measurable
+                  variables, comparison with existing methods,
+                  relevant failure testing, independent
+                  expertise, and evidence from its actual
+                  operating conditions.
+                </p>
+              </article>
+            </Reveal>
+
+            <Reveal>
+              <article className="hr-paper">
+                <span className="hr-paper__label">
+                  NOT CLAIMED
+                </span>
+                <h3>A universal law or proof of safety</h3>
+                <p>
+                  No statement on this page establishes a new
+                  physical law, guarantees the absence of harm,
+                  or proves that every technology can be made
+                  reversible, recoverable, or fully governable.
+                </p>
+              </article>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* CLOSING */}
+
+      <section
+        className="hr-screen hr-closing"
+        aria-labelledby="hr-closing-title"
+      >
+        <div className="hr-width">
+          <Reveal>
+            <span className="hr-eyebrow">
+              ARCHENOVA / PERMANENT INQUIRY
+            </span>
+
+            <h2 id="hr-closing-title">
+              The question
+              <br />
+              <span>remains open.</span>
+            </h2>
+
+            <p>
+              Every new capability creates a new occasion to
+              test whether humanity can remain responsible
+              for the power it creates.
+            </p>
+
+            <p>
+              Responsibility is not the end of discovery. It
+              is the continuing obligation to distinguish
+              what is known from what is assumed, to preserve
+              the ability to challenge and correct, and to
+              carry the consequences of creation into a future
+              that its creators will not fully control.
+            </p>
+
+            <div className="hr-closing__actions">
+              <Link href="/home/" className="hr-action">
+                RETURN TO ARCHENOVA
+                <span aria-hidden="true">↗</span>
+              </Link>
+
+              <a
+                href="#top"
+                className="hr-action hr-action--quiet"
+              >
+                REVISIT THE QUESTION
+                <span aria-hidden="true">↑</span>
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <footer className="hr-footer">
+        <span>ARCHENOVA / HUMANITY & RESPONSIBILITY</span>
+        <span>
+          CAPABILITY · CORRECTABILITY · STEWARDSHIP
+        </span>
+      </footer>
+
+      <style jsx global>{`
+        /* ====================================================
+           00 / FULL-VIEWPORT RESET
+
+           The page is deliberately NOT placed inside a
+           centered, fixed-width global content container.
+        ==================================================== */
+
+        html:has(.hr) {
+          scroll-behavior: smooth;
+          background: #0b0b0b;
+        }
+
+        body:has(.hr) {
+          margin: 0;
+          background: #0b0b0b;
+        }
+
+        html:has(.hr),
+        body:has(.hr) {
+          width: 100%;
+          min-width: 0;
+          overflow-x: clip;
+        }
+
+        body:has(.hr) .site-content,
+        body:has(.hr) #site-content,
+        body:has(.hr) .main-content,
+        body:has(.hr) .page-content {
+          width: 100% !important;
+          max-width: none !important;
+          min-width: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          border: 0 !important;
+          background: transparent !important;
+        }
+
+        body:has(.hr) .site-header {
+          display: none !important;
+        }
+
+        .hr,
+        .hr *,
+        .hr *::before,
+        .hr *::after {
+          box-sizing: border-box;
+        }
+
+        .hr {
+          --hr-black: #0b0b0b;
+          --hr-text: #f2f2f2;
+          --hr-muted: rgba(242, 242, 242, 0.68);
+          --hr-faint: rgba(242, 242, 242, 0.43);
+          --hr-line: rgba(255, 255, 255, 0.105);
+          --hr-side: clamp(24px, 6.1vw, 116px);
+          --hr-space: clamp(108px, 13vh, 190px);
+
+          position: relative;
+          isolation: isolate;
+          width: 100%;
+          max-width: none;
+          min-width: 0;
+          min-height: 100vh;
+          margin: 0;
+          padding: 0;
+          overflow: clip;
+          color: var(--hr-text);
+          background: var(--hr-black);
+          font-family:
+            Inter,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            sans-serif;
+          -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
+        }
+
+        .hr a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        .hr button {
+          font: inherit;
+        }
+
+        .hr button,
+        .hr a {
+          -webkit-tap-highlight-color: transparent;
+        }
+
+        .hr button:focus-visible,
+        .hr a:focus-visible {
+          outline: 2px solid rgba(255, 255, 255, 0.9);
+          outline-offset: 5px;
+        }
+
+        .hr h1,
+        .hr h2,
+        .hr h3,
+        .hr h4,
+        .hr p {
+          overflow-wrap: break-word;
+        }
+
+        /* ====================================================
+           01 / MONOCHROMATIC LIVING BACKGROUND
+        ==================================================== */
+
+        .hr-background {
+          position: fixed;
+          z-index: -1;
+          inset: 0;
+          width: 100%;
+          height: 100vh;
+          height: 100dvh;
+          overflow: hidden;
+          pointer-events: none;
+          background: #0b0b0b;
+        }
+
+        .hr-background__field {
+          position: absolute;
+          inset: 0;
+          background:
+            radial-gradient(
+              ellipse at 76% 40%,
+              rgba(65, 65, 65, 0.16),
+              transparent 53%
+            ),
+            linear-gradient(
+              125deg,
+              #0b0b0b 0%,
+              #111111 48%,
+              #090909 100%
+            );
+        }
+
+        .hr-background__art {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0.8;
+          animation: hr-background-drift 45s ease-in-out infinite alternate;
+        }
+
+        .hr-background__world {
+          animation: hr-world-breathe 12s ease-in-out infinite alternate;
+        }
+
+        .hr-background__orbits {
+          transform-origin: 1210px 510px;
+          animation: hr-orbit-drift 70s linear infinite;
+        }
+
+        .hr-background__veil {
+          position: absolute;
+          inset: 0;
+          background:
+            linear-gradient(
+              90deg,
+              rgba(8, 8, 8, 0.52),
+              rgba(8, 8, 8, 0.1) 70%
+            ),
+            linear-gradient(
+              180deg,
+              rgba(8, 8, 8, 0.22),
+              transparent 25%,
+              transparent 72%,
+              rgba(8, 8, 8, 0.46)
+            );
+        }
+
+        .hr-background__grain {
+          position: absolute;
+          inset: 0;
+          opacity: 0.12;
+          background-image: repeating-linear-gradient(
+            0deg,
+            transparent 0,
+            transparent 3px,
+            rgba(255, 255, 255, 0.012) 4px
+          );
+        }
+
+        @keyframes hr-background-drift {
+          from {
+            transform: scale(1.04) translate3d(-1%, 0, 0);
+          }
+          to {
+            transform: scale(1.13) translate3d(1%, 1%, 0);
+          }
+        }
+
+        @keyframes hr-world-breathe {
+          from {
+            opacity: 0.65;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        @keyframes hr-orbit-drift {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+
+        .hr-progress {
+          position: fixed;
+          z-index: 30;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: rgba(255, 255, 255, 0.055);
+          pointer-events: none;
+        }
+
+        .hr-progress > div {
+          height: 100%;
+          background: rgba(255, 255, 255, 0.78);
+          transition: width 0.12s linear;
+        }
+
+        /* ====================================================
+           02 / FULL-BLEED SECTION SYSTEM
+
+           Every section fills the available screen width.
+           hr-width controls padding, NOT page width.
+        ==================================================== */
+
+        .hr-screen {
+          position: relative;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          max-width: none;
+          min-width: 0;
+          min-height: 100vh;
+          min-height: 100svh;
+          margin: 0;
+          padding: var(--hr-space) 0;
+          scroll-margin-top: 0;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.055);
+        }
+
+        .hr-width {
+          position: relative;
+          z-index: 1;
+          width: 100%;
+          max-width: none;
+          min-width: 0;
+          margin: 0;
+          padding-inline: var(--hr-side);
+        }
+
+        .hr-eyebrow,
+        .hr-index,
+        .hr-paper__label {
+          display: block;
+          color: var(--hr-faint);
+          font-size: 10px;
+          font-weight: 650;
+          line-height: 1.6;
+          letter-spacing: 0.17em;
+        }
+
+        .hr-index {
+          font-variant-numeric: tabular-nums;
+        }
+
+        .hr-reveal {
+          opacity: 0;
+          transform: translateY(20px);
+          transition:
+            opacity 0.85s ease,
+            transform 0.85s cubic-bezier(0.2, 0.75, 0.2, 1);
+        }
+
+        .hr-reveal.is-visible {
+          opacity: 1;
+          transform: none;
+        }
+
+        /* ====================================================
+           03 / GLASS
+
+           Glass is applied to individual research exhibits.
+           No enclosing vertical glass column.
+        ==================================================== */
+
+        .hr-paper {
+          min-width: 0;
+          border: 1px solid var(--hr-line);
+          border-radius: clamp(20px, 2.4vw, 34px);
+          background: rgba(19, 19, 19, 0.58);
+          -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+          box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.045),
+            0 24px 85px rgba(0, 0, 0, 0.11);
+        }
+
+        .hr-paper h3 {
+          margin: 0;
+          font-size: clamp(25px, 2.5vw, 40px);
+          font-weight: 470;
+          line-height: 1.23;
+          letter-spacing: -0.05em;
+        }
+
+        .hr-paper p {
+          color: var(--hr-muted);
+          font-size: clamp(15px, 1.12vw, 18px);
+          line-height: 1.95;
+        }
+
+        /* ====================================================
+           04 / HERO
+        ==================================================== */
+
+        .hr-hero {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: stretch;
+          min-height: 100vh;
+          min-height: 100svh;
+          padding: 0;
+        }
+
+        .hr-topbar {
+          position: relative;
+          z-index: 2;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+          width: 100%;
+          padding: 27px var(--hr-side);
+        }
+
+        .hr-home {
+          display: inline-flex;
+          align-items: center;
+          gap: 13px;
+          min-height: 44px;
+          padding: 11px 18px;
+          border: 1px solid var(--hr-line);
+          border-radius: 999px;
+          background: rgba(18, 18, 18, 0.6);
+          -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+          font-size: 10px;
+          font-weight: 650;
+          letter-spacing: 0.11em;
+        }
+
+        .hr-home > span:first-child {
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        .hr-topbar__identity,
+        .hr-hero__footer {
+          color: var(--hr-faint);
+          font-size: 9px;
+          line-height: 1.6;
+          letter-spacing: 0.14em;
+        }
+
+        .hr-hero__body {
+          display: flex;
+          align-items: center;
+          flex: 1;
+          padding-block: 65px;
+        }
+
+        .hr-hero__body > .hr-reveal {
+          width: 100%;
+        }
+
+        .hr-hero__eyebrow {
+          margin-bottom: clamp(30px, 5vh, 65px);
+        }
+
+        .hr-hero h1 {
+          max-width: 1500px;
+          margin: 0;
+          font-size: clamp(52px, 7.7vw, 142px);
+          font-weight: 470;
+          line-height: 1.045;
+          letter-spacing: -0.078em;
+        }
+
+        .hr-hero h1 span {
+          color: rgba(242, 242, 242, 0.53);
+        }
+
+        .hr-hero__intro {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: clamp(30px, 5vw, 100px);
+          max-width: 1320px;
+          margin-top: clamp(44px, 7vh, 90px);
+        }
+
+        .hr-hero__intro p {
+          max-width: 610px;
+          margin: 0;
+          color: var(--hr-muted);
+          font-size: clamp(16px, 1.35vw, 22px);
+          line-height: 1.8;
+        }
+
+        .hr-hero__actions,
+        .hr-closing__actions {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 12px;
+          margin-top: 48px;
+        }
+
+        .hr-action {
+          display: inline-flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 35px;
+          min-height: 56px;
+          padding: 15px 23px;
+          border: 1px solid rgba(255, 255, 255, 0.28);
+          border-radius: 999px;
+          background: rgba(225, 225, 225, 0.92);
+          color: #101010 !important;
+          font-size: 10px;
+          font-weight: 700;
+          line-height: 1.5;
+          letter-spacing: 0.11em;
+          transition:
+            transform 0.25s ease,
+            background 0.25s ease,
+            border-color 0.25s ease;
+        }
+
+        .hr-action--quiet {
+          background: rgba(18, 18, 18, 0.56);
+          color: var(--hr-text) !important;
+          -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+        }
+
+        .hr-hero__footer {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 23px var(--hr-side) 30px;
+        }
+
+        /* ====================================================
+           05 / SHARED SECTION HEADINGS
+        ==================================================== */
+
+        .hr-heading {
+          max-width: 1300px;
+          margin-bottom: clamp(55px, 8vh, 110px);
+        }
+
+        .hr-heading__top {
+          display: flex;
+          align-items: center;
+          gap: 25px;
+          margin-bottom: clamp(25px, 4vh, 48px);
+        }
+
+        .hr-heading h2,
+        .hr-principle h2,
+        .hr-fields-intro h2,
+        .hr-closing h2 {
+          margin: 0;
+          font-size: clamp(47px, 6.3vw, 112px);
+          font-weight: 470;
+          line-height: 1.07;
+          letter-spacing: -0.075em;
+        }
+
+        .hr-heading h2 span,
+        .hr-principle h2 span,
+        .hr-fields-intro h2 span,
+        .hr-closing h2 span {
+          color: rgba(242, 242, 242, 0.48);
+        }
+
+        .hr-heading > p,
+        .hr-principle__intro > p,
+        .hr-fields-intro > .hr-width > .hr-reveal > p,
+        .hr-closing > .hr-width > .hr-reveal > p {
+          max-width: 920px;
+          margin: 34px 0 0;
+          color: var(--hr-muted);
+          font-size: clamp(17px, 1.5vw, 23px);
+          line-height: 1.85;
+        }
+
+        /* ====================================================
+           06 / PRINCIPLE
+        ==================================================== */
+
+        .hr-principle__intro {
+          max-width: 1380px;
+        }
+
+        .hr-principle__intro > .hr-eyebrow {
+          margin-bottom: 38px;
+        }
+
+        .hr-principle__statement {
+          margin-top: clamp(55px, 8vh, 105px);
+          padding: clamp(30px, 5vw, 85px);
+        }
+
+        .hr-principle__formula {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: clamp(14px, 2.5vw, 45px);
+          margin-top: 45px;
+          font-size: clamp(26px, 4vw, 72px);
+          font-weight: 470;
+          line-height: 1.3;
+          letter-spacing: -0.055em;
+        }
+
+        .hr-principle__operator {
+          color: var(--hr-faint);
+          font-weight: 350;
+        }
+
+        .hr-principle__statement > p {
+          max-width: 850px;
+          margin: 35px 0 0;
+        }
+
+        .hr-principle__analysis {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: clamp(25px, 3vw, 65px);
+          margin-top: clamp(70px, 10vh, 135px);
+        }
+
+        .hr-principle__analysis article {
+          padding-top: 26px;
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-principle__analysis h3 {
+          margin: 25px 0 20px;
+          font-size: clamp(24px, 2.15vw, 35px);
+          font-weight: 480;
+          line-height: 1.3;
+          letter-spacing: -0.045em;
+        }
+
+        .hr-principle__analysis p {
+          margin: 0;
+          color: var(--hr-muted);
+          font-size: 15px;
+          line-height: 1.9;
+        }
+
+        /* ====================================================
+           07 / CAPACITIES — ONE ITEM PER SPACIOUS ROW
+        ==================================================== */
+
+        .hr-capacities__list {
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-capacity {
+          display: grid;
+          grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+          gap: clamp(40px, 6vw, 125px);
+          min-height: clamp(340px, 47vh, 520px);
+          padding: clamp(52px, 7vh, 95px) 0;
+          border-bottom: 1px solid var(--hr-line);
+        }
+
+        .hr-capacity__identity h3 {
+          margin: 30px 0 0;
+          font-size: clamp(46px, 5vw, 88px);
+          font-weight: 470;
+          line-height: 1.1;
+          letter-spacing: -0.07em;
+        }
+
+        .hr-capacity__content h4 {
+          max-width: 900px;
+          margin: 0;
+          font-size: clamp(24px, 2.5vw, 41px);
+          font-weight: 480;
+          line-height: 1.28;
+          letter-spacing: -0.05em;
+        }
+
+        .hr-capacity__content > p {
+          max-width: 900px;
+          margin: 27px 0 0;
+          color: var(--hr-muted);
+          font-size: clamp(16px, 1.3vw, 20px);
+          line-height: 1.95;
+        }
+
+        .hr-capacity__evidence {
+          max-width: 900px;
+          margin-top: 43px;
+          padding: 26px 0 0;
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-capacity__evidence p {
+          margin: 12px 0 0;
+          color: var(--hr-muted);
+          font-size: 14px;
+          line-height: 1.85;
+        }
+
+        .hr-section-endnote {
+          max-width: 1000px;
+          margin: 55px 0 0;
+          color: var(--hr-faint);
+          font-size: 14px;
+          line-height: 1.9;
+        }
+
+        /* ====================================================
+           08 / FIELDS INTRODUCTION
+        ==================================================== */
+
+        .hr-fields-intro > .hr-width > .hr-reveal > .hr-eyebrow {
+          margin-bottom: 38px;
+        }
+
+        .hr-field-navigation {
+          display: grid;
+          grid-template-columns: repeat(5, minmax(0, 1fr));
+          gap: 12px;
+          margin-top: clamp(65px, 10vh, 130px);
+        }
+
+        .hr-field-navigation a {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          gap: 38px;
+          min-height: 190px;
+          padding: 25px;
+          border: 1px solid var(--hr-line);
+          border-radius: 22px;
+          background: rgba(19, 19, 19, 0.52);
+          -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+          transition:
+            background 0.25s ease,
+            border-color 0.25s ease,
+            transform 0.25s ease;
+        }
+
+        .hr-field-navigation a > span:nth-child(2) {
+          font-size: clamp(18px, 1.65vw, 28px);
+          letter-spacing: -0.045em;
+        }
+
+        .hr-field-navigation a > span:last-child {
+          align-self: flex-end;
+          color: var(--hr-faint);
+        }
+
+        /* ====================================================
+           09 / EACH DOMAIN IS ITS OWN RESEARCH EXHIBITION
+        ==================================================== */
+
+        .hr-domain {
+          align-items: flex-start;
+          overflow: hidden;
+          padding-top: clamp(110px, 14vh, 190px);
+          padding-bottom: clamp(110px, 14vh, 190px);
+        }
+
+        .hr-domain__watermark {
+          position: absolute;
+          top: 20px;
+          right: -0.035em;
+          color: rgba(255, 255, 255, 0.025);
+          font-size: clamp(240px, 36vw, 670px);
+          font-weight: 600;
+          line-height: 1;
+          letter-spacing: -0.12em;
+          pointer-events: none;
+          user-select: none;
+        }
+
+        .hr-domain__heading {
+          position: relative;
+          max-width: 1400px;
+          margin-bottom: clamp(55px, 8vh, 105px);
+        }
+
+        .hr-domain__meta {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          align-items: center;
+          margin-bottom: 35px;
+        }
+
+        .hr-domain__heading h2 {
+          margin: 0;
+          font-size: clamp(75px, 11vw, 190px);
+          font-weight: 460;
+          line-height: 0.98;
+          letter-spacing: -0.085em;
+        }
+
+        .hr-domain__question {
+          max-width: 1130px;
+          margin: 38px 0 0;
+          color: rgba(242, 242, 242, 0.78);
+          font-size: clamp(24px, 2.65vw, 45px);
+          line-height: 1.4;
+          letter-spacing: -0.045em;
+        }
+
+        .hr-domain__abstract {
+          padding: clamp(32px, 5vw, 78px);
+        }
+
+        .hr-domain__abstract p {
+          max-width: 1260px;
+          margin: 27px 0 0;
+          color: rgba(242, 242, 242, 0.84);
+          font-size: clamp(18px, 1.65vw, 26px);
+          line-height: 1.85;
+          letter-spacing: -0.015em;
+        }
+
+        .hr-domain__research {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: clamp(16px, 2vw, 32px);
+          margin-top: clamp(22px, 3vw, 44px);
+        }
+
+        .hr-domain__research > .hr-reveal {
+          display: flex;
+          min-width: 0;
+        }
+
+        .hr-research-card {
+          width: 100%;
+          min-height: clamp(370px, 43vh, 540px);
+          padding: clamp(32px, 3.5vw, 62px);
+        }
+
+        .hr-research-card h3 {
+          max-width: 740px;
+          margin-top: 31px;
+        }
+
+        .hr-research-card p {
+          max-width: 850px;
+          margin: 24px 0 0;
+        }
+
+        .hr-domain__horizon {
+          display: grid;
+          grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+          gap: clamp(35px, 5vw, 100px);
+          margin-top: clamp(22px, 3vw, 44px);
+          padding: clamp(34px, 4vw, 70px);
+        }
+
+        .hr-domain__horizon h3 {
+          max-width: 680px;
+          margin-top: 28px;
+        }
+
+        .hr-domain__horizon p {
+          max-width: 900px;
+          margin: 0;
+        }
+
+        .hr-domain__open {
+          display: grid;
+          grid-template-columns: minmax(0, 0.35fr) minmax(0, 1fr);
+          gap: clamp(35px, 5vw, 100px);
+          align-items: start;
+          margin-top: clamp(65px, 9vh, 115px);
+          padding-top: 30px;
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-domain__open p {
+          max-width: 1050px;
+          margin: 0;
+          font-size: clamp(22px, 2.3vw, 37px);
+          line-height: 1.5;
+          letter-spacing: -0.035em;
+        }
+
+        /* ====================================================
+           10 / DESIGN CONDITIONS
+        ==================================================== */
+
+        .hr-conditions__list {
+          display: grid;
+          gap: clamp(22px, 3vw, 45px);
+        }
+
+        .hr-condition {
+          padding: clamp(35px, 5vw, 85px);
+        }
+
+        .hr-condition h3 {
+          margin-top: 38px;
+          font-size: clamp(31px, 3.5vw, 60px);
+          line-height: 1.2;
+        }
+
+        .hr-condition h3 span {
+          color: rgba(242, 242, 242, 0.5);
+        }
+
+        .hr-condition > p {
+          max-width: 1180px;
+          margin: 35px 0 0;
+          font-size: clamp(16px, 1.4vw, 21px);
+        }
+
+        .hr-condition__note {
+          display: grid;
+          grid-template-columns: minmax(0, 0.3fr) minmax(0, 1fr);
+          gap: 40px;
+          max-width: 1350px;
+          margin-top: 48px;
+          padding-top: 28px;
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-condition__note > span {
+          color: var(--hr-faint);
+          font-size: 10px;
+          letter-spacing: 0.13em;
+        }
+
+        .hr-condition__note p {
+          margin: 0;
+          color: rgba(242, 242, 242, 0.8);
+          font-size: clamp(15px, 1.2vw, 18px);
+          line-height: 1.8;
+        }
+
+        /* ====================================================
+           11 / VALIDATION GATES
+        ==================================================== */
+
+        .hr-gates {
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-gate {
+          border-bottom: 1px solid var(--hr-line);
+        }
+
+        .hr-gate__button {
+          display: grid;
+          grid-template-columns: 70px minmax(0, 1fr) 42px;
+          gap: clamp(20px, 4vw, 70px);
+          align-items: center;
+          width: 100%;
+          min-height: clamp(130px, 17vh, 210px);
+          padding: 35px 0;
+          border: 0;
+          background: transparent;
+          color: var(--hr-text);
+          text-align: left;
+          cursor: pointer;
+        }
+
+        .hr-gate__title strong {
+          display: block;
+          font-size: clamp(27px, 3vw, 51px);
+          font-weight: 470;
+          line-height: 1.2;
+          letter-spacing: -0.055em;
+        }
+
+        .hr-gate__title small {
+          display: block;
+          margin-top: 12px;
+          color: var(--hr-muted);
+          font-size: clamp(14px, 1.15vw, 18px);
+          line-height: 1.7;
+        }
+
+        .hr-gate__symbol {
+          justify-self: end;
+          color: var(--hr-faint);
+          font-size: 34px;
+          font-weight: 300;
+        }
+
+        .hr-gate__body {
+          padding: 0 70px clamp(35px, 5vh, 70px)
+            calc(70px + clamp(20px, 4vw, 70px));
+        }
+
+        .hr-gate__body p {
+          max-width: 1150px;
+          margin: 0;
+          color: var(--hr-muted);
+          font-size: clamp(16px, 1.35vw, 21px);
+          line-height: 1.9;
+        }
+
+        .hr-validation__footnote {
+          display: grid;
+          grid-template-columns: minmax(0, 0.35fr) minmax(0, 1fr);
+          gap: 40px;
+          margin-top: 65px;
+        }
+
+        .hr-validation__footnote p {
+          max-width: 920px;
+          margin: 0;
+          color: var(--hr-faint);
+          font-size: 14px;
+          line-height: 1.9;
+        }
+
+        /* ====================================================
+           12 / LONG HORIZON
+        ==================================================== */
+
+        .hr-horizons__list {
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-horizon {
+          display: grid;
+          grid-template-columns: minmax(0, 0.65fr) minmax(0, 1.35fr);
+          gap: clamp(40px, 6vw, 120px);
+          min-height: clamp(300px, 38vh, 470px);
+          padding: clamp(50px, 6vh, 85px) 0;
+          border-bottom: 1px solid var(--hr-line);
+        }
+
+        .hr-horizon__time {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+        }
+
+        .hr-horizon__time > span:last-child {
+          color: var(--hr-faint);
+          font-size: clamp(15px, 1.35vw, 21px);
+          letter-spacing: 0.025em;
+        }
+
+        .hr-horizon__body h3 {
+          margin: 0;
+          font-size: clamp(31px, 3.3vw, 55px);
+          font-weight: 470;
+          line-height: 1.2;
+          letter-spacing: -0.055em;
+        }
+
+        .hr-horizon__body p {
+          max-width: 1050px;
+          margin: 25px 0 0;
+          color: var(--hr-muted);
+          font-size: clamp(16px, 1.3vw, 20px);
+          line-height: 1.9;
+        }
+
+        .hr-horizons__statement {
+          margin-top: 65px;
+          padding: clamp(35px, 5vw, 85px);
+        }
+
+        .hr-horizons__statement p {
+          max-width: 1350px;
+          margin: 30px 0 0;
+          color: var(--hr-text);
+          font-size: clamp(25px, 3vw, 49px);
+          line-height: 1.5;
+          letter-spacing: -0.045em;
+        }
+
+        /* ====================================================
+           13 / COUNTERFACTUAL
+        ==================================================== */
+
+        .hr-scenario {
+          padding: clamp(35px, 5vw, 85px);
+        }
+
+        .hr-scenario h3 {
+          margin-top: 36px;
+          font-size: clamp(36px, 4.5vw, 75px);
+          letter-spacing: -0.065em;
+        }
+
+        .hr-scenario__lead {
+          max-width: 1080px;
+          margin: 28px 0 0;
+          font-size: clamp(17px, 1.45vw, 23px) !important;
+        }
+
+        .hr-scenario__questions {
+          margin-top: 60px;
+          border-top: 1px solid var(--hr-line);
+        }
+
+        .hr-scenario__questions > div {
+          display: grid;
+          grid-template-columns: 65px minmax(0, 1fr);
+          gap: 30px;
+          align-items: start;
+          padding: clamp(25px, 3vh, 45px) 0;
+          border-bottom: 1px solid var(--hr-line);
+        }
+
+        .hr-scenario__questions p {
+          margin: 0;
+          color: var(--hr-text);
+          font-size: clamp(20px, 2vw, 32px);
+          line-height: 1.5;
+          letter-spacing: -0.035em;
+        }
+
+        .hr-scenario__conclusion {
+          max-width: 1120px;
+          margin: 55px 0 0;
+          color: rgba(242, 242, 242, 0.85) !important;
+          font-size: clamp(21px, 2.2vw, 35px) !important;
+          line-height: 1.6 !important;
+          letter-spacing: -0.035em;
+        }
+
+        /* ====================================================
+           14 / EVIDENCE
+        ==================================================== */
+
+        .hr-evidence__grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: clamp(18px, 2vw, 32px);
+        }
+
+        .hr-evidence__grid > .hr-reveal {
+          display: flex;
+        }
+
+        .hr-evidence__grid .hr-paper {
+          width: 100%;
+          min-height: 410px;
+          padding: clamp(30px, 3vw, 55px);
+        }
+
+        .hr-evidence__grid h3 {
+          margin-top: 35px;
+        }
+
+        .hr-evidence__grid p {
+          margin: 25px 0 0;
+        }
+
+        /* ====================================================
+           15 / CLOSING
+        ==================================================== */
+
+        .hr-closing {
+          min-height: 100vh;
+          min-height: 100svh;
+        }
+
+        .hr-closing > .hr-width > .hr-reveal {
+          max-width: 1450px;
+        }
+
+        .hr-closing .hr-eyebrow {
+          margin-bottom: 42px;
+        }
+
+        .hr-closing h2 {
+          font-size: clamp(65px, 9vw, 160px);
+        }
+
+        .hr-closing > .hr-width > .hr-reveal > p {
+          max-width: 1100px;
+        }
+
+        .hr-closing__actions {
+          margin-top: 65px;
+        }
+
+        .hr-footer {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 20px;
+          width: 100%;
+          padding: 35px var(--hr-side);
+          border-top: 1px solid var(--hr-line);
+          color: var(--hr-faint);
+          font-size: 9px;
+          line-height: 1.8;
+          letter-spacing: 0.13em;
+        }
+
+        /* ====================================================
+           16 / TABLET — FULL SCREEN, WIDER READING COLUMNS
+        ==================================================== */
+
+        @media (max-width: 1100px) {
+          .hr {
+            --hr-side: clamp(26px, 4.5vw, 60px);
+          }
+
+          .hr-hero h1 {
+            font-size: clamp(53px, 8vw, 100px);
+          }
+
+          .hr-principle__analysis {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 45px;
+          }
+
+          .hr-principle__analysis article {
+            max-width: 900px;
+          }
+
+          .hr-field-navigation {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+
+          .hr-domain__research {
+            grid-template-columns: minmax(0, 1fr);
+          }
+
+          .hr-research-card {
+            min-height: 0;
+          }
+
+          .hr-domain__horizon {
+            grid-template-columns: minmax(0, 1fr);
+          }
+
+          .hr-domain__horizon p {
+            margin-top: 15px;
+          }
+
+          .hr-evidence__grid {
+            grid-template-columns: minmax(0, 1fr);
+          }
+
+          .hr-evidence__grid .hr-paper {
+            min-height: 0;
+          }
+        }
+
+        /* ====================================================
+           17 / MOBILE — TRUE VIEWPORT-WIDTH EXHIBITIONS
+
+           No horizontal overflow.
+           No text clipped to fit a fixed-height screen.
+        ==================================================== */
+
+        @media (max-width: 700px) {
+          .hr {
+            --hr-side: 20px;
+            --hr-space: clamp(85px, 12svh, 120px);
+          }
+
+          .hr-screen {
+            min-height: 100svh;
+            min-height: 100dvh;
+            align-items: center;
+          }
+
+          .hr-background__art {
+            width: 170%;
+            max-width: none;
+            left: -36%;
+            opacity: 0.55;
+          }
+
+          .hr-topbar {
+            padding: 20px var(--hr-side);
+          }
+
+          .hr-topbar__identity {
+            display: none;
+          }
+
+          .hr-home {
+            min-height: 42px;
+            padding: 10px 15px;
+            font-size: 9px;
+          }
+
+          .hr-hero__body {
+            padding-block: 50px;
+          }
+
+          .hr-hero__eyebrow {
+            margin-bottom: 30px;
+          }
+
+          .hr-hero h1 {
+            font-size: clamp(39px, 9.15vw, 65px);
+            line-height: 1.075;
+            letter-spacing: -0.075em;
+          }
+
+          .hr-hero__intro {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 20px;
+            margin-top: 35px;
+          }
+
+          .hr-hero__intro p {
+            font-size: 15px;
+            line-height: 1.8;
+          }
+
+          .hr-hero__actions,
+          .hr-closing__actions {
+            flex-direction: column;
+            margin-top: 35px;
+          }
+
+          .hr-action {
+            width: 100%;
+            min-height: 54px;
+            font-size: 9px;
+          }
+
+          .hr-hero__footer {
+            padding-block: 17px 22px;
+            font-size: 8px;
+            letter-spacing: 0.055em;
+          }
+
+          .hr-eyebrow,
+          .hr-index,
+          .hr-paper__label {
+            font-size: 9px;
+            letter-spacing: 0.12em;
+          }
+
+          .hr-heading {
+            margin-bottom: 50px;
+          }
+
+          .hr-heading__top {
+            gap: 15px;
+            margin-bottom: 25px;
+          }
+
+          .hr-heading h2,
+          .hr-principle h2,
+          .hr-fields-intro h2 {
+            font-size: clamp(42px, 9.5vw, 68px);
+          }
+
+          .hr-heading > p,
+          .hr-principle__intro > p,
+          .hr-fields-intro > .hr-width > .hr-reveal > p,
+          .hr-closing > .hr-width > .hr-reveal > p {
+            margin-top: 24px;
+            font-size: 16px;
+            line-height: 1.8;
+          }
+
+          .hr-paper {
+            border-radius: 21px;
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+          }
+
+          .hr-principle__intro > .hr-eyebrow {
+            margin-bottom: 27px;
+          }
+
+          .hr-principle__statement {
+            margin-top: 45px;
+            padding: 27px;
+          }
+
+          .hr-principle__formula {
+            gap: 10px 14px;
+            margin-top: 28px;
+            font-size: clamp(21px, 5.7vw, 34px);
+          }
+
+          .hr-principle__statement > p {
+            margin-top: 25px;
+          }
+
+          .hr-principle__analysis {
+            margin-top: 65px;
+          }
+
+          .hr-principle__analysis h3 {
+            margin-top: 19px;
+            font-size: 26px;
+          }
+
+          .hr-capacity {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 32px;
+            min-height: 0;
+            padding: 50px 0;
+          }
+
+          .hr-capacity__identity h3 {
+            margin-top: 15px;
+            font-size: clamp(42px, 10vw, 64px);
+          }
+
+          .hr-capacity__content h4 {
+            font-size: 26px;
+          }
+
+          .hr-capacity__content > p {
+            margin-top: 19px;
+            font-size: 15px;
+          }
+
+          .hr-capacity__evidence {
+            margin-top: 28px;
+          }
+
+          .hr-field-navigation {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 10px;
+            margin-top: 45px;
+          }
+
+          .hr-field-navigation a {
+            flex-direction: row;
+            align-items: center;
+            gap: 16px;
+            min-height: 77px;
+            padding: 19px;
+            border-radius: 17px;
+          }
+
+          .hr-field-navigation a > span:nth-child(2) {
+            flex: 1;
+            font-size: 20px;
+          }
+
+          .hr-domain {
+            padding-block: 100px;
+          }
+
+          .hr-domain__watermark {
+            top: 45px;
+            right: 0;
+            font-size: 230px;
+          }
+
+          .hr-domain__heading {
+            margin-bottom: 42px;
+          }
+
+          .hr-domain__meta {
+            gap: 13px;
+            margin-bottom: 25px;
+          }
+
+          .hr-domain__heading h2 {
+            font-size: clamp(56px, 12vw, 90px);
+          }
+
+          .hr-domain__question {
+            margin-top: 25px;
+            font-size: clamp(23px, 5.8vw, 32px);
+          }
+
+          .hr-domain__abstract,
+          .hr-research-card,
+          .hr-domain__horizon {
+            padding: 27px;
+          }
+
+          .hr-domain__abstract p {
+            margin-top: 19px;
+            font-size: 17px;
+          }
+
+          .hr-domain__research {
+            gap: 13px;
+            margin-top: 13px;
+          }
+
+          .hr-research-card h3 {
+            margin-top: 22px;
+            font-size: 27px;
+          }
+
+          .hr-research-card p {
+            margin-top: 18px;
+            font-size: 15px;
+          }
+
+          .hr-domain__horizon {
+            margin-top: 13px;
+            gap: 17px;
+          }
+
+          .hr-domain__open {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 20px;
+            margin-top: 60px;
+          }
+
+          .hr-domain__open p {
+            font-size: 24px;
+          }
+
+          .hr-conditions__list {
+            gap: 13px;
+          }
+
+          .hr-condition {
+            padding: 27px;
+          }
+
+          .hr-condition h3 {
+            margin-top: 25px;
+            font-size: clamp(27px, 6.6vw, 40px);
+          }
+
+          .hr-condition > p {
+            margin-top: 24px;
+            font-size: 15px;
+          }
+
+          .hr-condition__note {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 12px;
+            margin-top: 30px;
+          }
+
+          .hr-gate__button {
+            grid-template-columns: 35px minmax(0, 1fr) 22px;
+            gap: 12px;
+            min-height: 110px;
+            padding: 25px 0;
+          }
+
+          .hr-gate__title strong {
+            font-size: 24px;
+          }
+
+          .hr-gate__title small {
+            margin-top: 8px;
+            font-size: 13px;
+          }
+
+          .hr-gate__symbol {
+            font-size: 25px;
+          }
+
+          .hr-gate__body {
+            padding: 0 0 30px 47px;
+          }
+
+          .hr-gate__body p {
+            font-size: 15px;
+          }
+
+          .hr-validation__footnote {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 15px;
+            margin-top: 45px;
+          }
+
+          .hr-horizon {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 25px;
+            min-height: 0;
+            padding: 45px 0;
+          }
+
+          .hr-horizon__time {
+            gap: 12px;
+          }
+
+          .hr-horizon__time > span:last-child {
+            font-size: 13px;
+          }
+
+          .hr-horizon__body h3 {
+            font-size: 29px;
+          }
+
+          .hr-horizon__body p {
+            margin-top: 18px;
+            font-size: 15px;
+          }
+
+          .hr-horizons__statement {
+            margin-top: 45px;
+            padding: 27px;
+          }
+
+          .hr-horizons__statement p {
+            font-size: 24px;
+          }
+
+          .hr-scenario {
+            padding: 27px;
+          }
+
+          .hr-scenario h3 {
+            margin-top: 25px;
+            font-size: 37px;
+          }
+
+          .hr-scenario__lead {
+            font-size: 16px !important;
+          }
+
+          .hr-scenario__questions {
+            margin-top: 38px;
+          }
+
+          .hr-scenario__questions > div {
+            grid-template-columns: 27px minmax(0, 1fr);
+            gap: 14px;
+            padding: 22px 0;
+          }
+
+          .hr-scenario__questions p {
+            font-size: 19px;
+          }
+
+          .hr-scenario__conclusion {
+            margin-top: 38px;
+            font-size: 23px !important;
+          }
+
+          .hr-evidence__grid {
+            gap: 13px;
+          }
+
+          .hr-evidence__grid .hr-paper {
+            padding: 27px;
+          }
+
+          .hr-evidence__grid h3 {
+            margin-top: 23px;
+            font-size: 27px;
+          }
+
+          .hr-evidence__grid p {
+            margin-top: 18px;
+            font-size: 15px;
+          }
+
+          .hr-closing h2 {
+            font-size: clamp(55px, 12vw, 85px);
+          }
+
+          .hr-closing__actions {
+            margin-top: 45px;
+          }
+
+          .hr-footer {
+            padding-block: 26px;
+            font-size: 8px;
+            letter-spacing: 0.07em;
+          }
+        }
+
+        /* ====================================================
+           18 / SMALL MOBILE
+        ==================================================== */
+
+        @media (max-width: 390px) {
+          .hr {
+            --hr-side: 15px;
+          }
+
+          .hr-hero h1 {
+            font-size: clamp(36px, 9vw, 43px);
+          }
+
+          .hr-hero__intro p {
+            font-size: 14px;
+          }
+
+          .hr-domain__heading h2 {
+            font-size: clamp(49px, 11.5vw, 62px);
+          }
+
+          .hr-domain__abstract,
+          .hr-research-card,
+          .hr-domain__horizon,
+          .hr-condition,
+          .hr-scenario,
+          .hr-evidence__grid .hr-paper {
+            padding: 22px;
+          }
+
+          .hr-principle__formula {
+            font-size: 21px;
+          }
+
+          .hr-hero__footer span:last-child {
+            display: none;
+          }
+        }
+
+        /* ====================================================
+           19 / SHORT LANDSCAPE SCREENS
+        ==================================================== */
+
+        @media (max-height: 650px) and (min-width: 701px) {
+          .hr-hero__body {
+            padding-block: 35px;
+          }
+
+          .hr-hero h1 {
+            font-size: clamp(46px, 6.4vw, 92px);
+          }
+
+          .hr-hero__intro {
+            margin-top: 25px;
+          }
+
+          .hr-hero__actions {
+            margin-top: 25px;
+          }
+        }
+
+        /* ====================================================
+           20 / MOTION & INTERACTION
+        ==================================================== */
+
+        @media (hover: hover) {
+          .hr-action:hover {
+            transform: translateY(-2px);
+          }
+
+          .hr-action--quiet:hover,
+          .hr-field-navigation a:hover {
+            background: rgba(45, 45, 45, 0.72);
+            border-color: rgba(255, 255, 255, 0.3);
+          }
+
+          .hr-field-navigation a:hover {
+            transform: translateY(-3px);
+          }
+
+          .hr-gate__button:hover .hr-gate__title strong {
+            color: rgba(242, 242, 242, 0.68);
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          html:has(.hr) {
+            scroll-behavior: auto;
+          }
+
+          .hr *,
+          .hr *::before,
+          .hr *::after {
+            animation: none !important;
+            transition: none !important;
+          }
+
+          .hr-reveal {
+            opacity: 1 !important;
+            transform: none !important;
+          }
+        }
+      `}</style>
+    </main>
+  );
 }
