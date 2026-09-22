@@ -421,7 +421,7 @@ export default function EpistemeDialoguePortal() {
             <span>EPISTEME</span>
 
             <small>
-              CONVERSATIONAL INTELLIGENCE
+              ArcheNova's conversational intelligence space
             </small>
           </div>
 
@@ -436,9 +436,7 @@ export default function EpistemeDialoguePortal() {
 
         <div className="ep-dialogue-portal__experience">
           <div className="ep-dialogue-portal__statement">
-            <span className="ep-dialogue-portal__eyebrow">
-              CONTINUOUS INTELLIGENCE
-            </span>
+
 
             <h2 id="ep-dialogue-portal-title">
               Think with Episteme.
@@ -481,16 +479,6 @@ export default function EpistemeDialoguePortal() {
             </span>
           </button>
         </div>
-
-        {/* FOOTER — ORIGINAL */}
-
-        <footer className="ep-dialogue-portal__footer">
-          <span>EPISTEME</span>
-
-          <i />
-
-          <span>REALITY RETAINS VETO</span>
-        </footer>
       </div>
 
       {/* ORIGINAL FULL-SCREEN BLACK-HOLE TRANSITION */}

@@ -504,7 +504,7 @@ export default function ArcheNovaAetherionPortal() {
           <header className="ae-portal__header">
             <div className="ae-portal__identity">
               <span>AETHERION</span>
-              <small>ORBITAL MEGAFACTORY</small>
+              <small>ArcheNova's orbital megafactory</small>
             </div>
 
             <div className="ae-portal__indicator">
@@ -515,9 +515,7 @@ export default function ArcheNovaAetherionPortal() {
 
           <div className="ae-portal__experience">
             <div className="ae-portal__statement">
-              <span className="ae-portal__eyebrow">
-                ENGINEERING · MANUFACTURING · VERIFICATION
-              </span>
+              
 
               <h2 id="ae-portal-title">
                 Build what
@@ -557,18 +555,7 @@ export default function ArcheNovaAetherionPortal() {
               </span>
             </button>
 
-            <div className="ae-portal__sequence">
-              <span>01 ENGINEERING</span>
-              <i aria-hidden="true" />
-              <span>06 RELEASE</span>
-            </div>
           </div>
-
-          <footer className="ae-portal__footer">
-            <span>AETHERION</span>
-            <i aria-hidden="true" />
-            <span>REALITY RETAINS VETO</span>
-          </footer>
         </div>
       </section>
 

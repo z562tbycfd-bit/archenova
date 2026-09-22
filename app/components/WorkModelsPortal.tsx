@@ -10,6 +10,7 @@ import {
 
 import EpistemeDialoguePortal from "./EpistemeDialoguePortal";
 import ArcheNovaAetherionPortal from "./ArcheNovaAetherionPortal";
+import ArcheNovaFrameworkPortal from "./ArcheNovaFrameworkPortal";
 
 /* ==========================================================
    ARCHENOVA / WORK MODELS
@@ -374,8 +375,8 @@ export default function WorkModelsPortal() {
           )}
 
           {activeIndex === 2 && (
-            <FrameworkReserved />
-          )}
+  <ArcheNovaFrameworkPortal />
+)}
         </div>
       </div>
 

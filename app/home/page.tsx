@@ -21,19 +21,16 @@ import CivilizationSpacePortal
 import ArcheNovaValleyPortal
   from "../components/ArcheNovaValleyPortal";
 
-import ArcheNovaAetherionPortal
- from "../components/ArcheNovaAetherionPortal";
 
  import FounderDigitalTwinPortal
   from "../components/founder-digital-twin/FounderDigitalTwinPortal";
 
-  import ArcheNovaCurrentState
-   from"@/app/components/ArcheNovaCurrentState";
-
+  
 import WorksPortal
  from "../components/WorksPortal ";
 
  import WorkModelsPortal from "../components/WorkModelsPortal";
+
 
 /* ==========================================================
    ARCHENOVA / HOME
