@@ -27,6 +27,9 @@ type Inquiry = {
   test: string;
   evidence: string;
   horizon: string;
+  research: string;
+  protocol: string;
+  unresolved: string;
 };
 
 const INQUIRIES: Inquiry[] = [
@@ -39,6 +42,9 @@ const INQUIRIES: Inquiry[] = [
     test: "Introduce contradictory evidence and an out-of-distribution task. Can independent reviewers identify the unsupported claim, halt consequential action, and verify a corrected result?",
     evidence: "Task-specific evaluations, calibrated uncertainty, reproducible incident tests, authorization records, and measured correction latency—not conversational persuasiveness.",
     horizon: "Retain human agency and the ability to replace or retire a system as its capabilities, users, and operating conditions change.",
+    research: "Research design: model the full chain from source acquisition through inference, authorization, action, and downstream effect. Distinguish epistemic error (the proposition is false), execution error (the action differs from the authorized action), and institutional error (the authorization itself is unjustified). Evaluate these failure classes separately; a high aggregate task score cannot establish safe performance in any one class.",
+    protocol: "Prospective protocol: preregister a set of consequential tasks, evidence conflicts, distribution shifts, and attempted privilege escalation. Compare a bounded system with a baseline on task utility, unsupported-claim rate, intervention latency, human comprehension, and the success of independent red-team challenges. Retain complete records of the approval boundary without assuming that a log alone provides meaningful oversight.",
+    unresolved: "Open problem: how can independently testable correction remain effective when model capabilities, tool access, and deployment contexts evolve faster than human evaluation procedures?",
   },
   {
     id: "energy", number: "02", name: "Energy", domain: "ENERGY DYNAMICS",
@@ -49,6 +55,9 @@ const INQUIRIES: Inquiry[] = [
     test: "Simulate loss of power, personnel, monitoring, funding, and access. Which essential safety functions remain available, for how long, and under whose authority?",
     evidence: "Measured reliability, independent safety review, scenario-specific emergency exercises, lifecycle cost estimates, and auditable stewardship arrangements.",
     horizon: "Make obligations transferable and inspectable across changes of ownership, technology, regulation, and generation.",
+    research: "Research design: treat energy infrastructure as a coupled physical and institutional system. Map hazard initiation, propagation, safety barriers, common-cause failures, maintenance dependencies, waste or end-of-life obligations, and the distribution of consequences across locations and generations. Distinguish demonstrated component reliability from whole-system resilience under correlated disruption.",
+    protocol: "Prospective protocol: construct an auditable safety case for a specified installation and operating horizon. Stress-test loss of grid supply, instrumentation, cooling or containment where relevant, spare parts, qualified personnel, financing, and site access. Measure time to unsafe state, independence of protective layers, recoverable service, and the sufficiency of funded closure provisions.",
+    unresolved: "Open problem: what institutional and financial mechanisms can preserve verifiable safety functions and remedy obligations when an installation persists beyond its original owner and regulatory context?",
   },
   {
     id: "life", number: "03", name: "Life", domain: "BIOSYSTEMS",
@@ -59,6 +68,9 @@ const INQUIRIES: Inquiry[] = [
     test: "Which observations would falsify the claimed benefit or indicate unacceptable spread? Can the intervention be stopped, contained, or mitigated under plausible adverse conditions?",
     evidence: "Appropriate controlled studies, replication, uncertainty analysis, surveillance, safety outcomes, and domain-specific regulatory review where required.",
     horizon: "Do not assume reversibility: some biological changes cannot be fully recalled. Prevention, containment, and long-term follow-up may matter more than recovery claims.",
+    research: "Research design: distinguish the causal effect of an intervention from selection bias, natural adaptation, environmental confounding, and delayed or displaced effects. The relevant unit of analysis may extend beyond the treated organism to populations, ecological networks, and future generations. Containment claims must specify exposure pathways and credible failure mechanisms.",
+    protocol: "Prospective protocol: define intended and unintended endpoints, control groups or appropriate comparators, monitoring sensitivity, exposure boundaries, escalation triggers, and independent review before intervention. Test whether the observation window can detect delayed harm and whether stopping the intervention actually reduces exposure; never infer ecological reversibility from laboratory withdrawal alone.",
+    unresolved: "Open problem: how should deployment decisions be made when a potential benefit is measurable today but a plausible adverse biological consequence may be delayed, adaptive, or impossible to recall?",
   },
   {
     id: "infrastructure", number: "04", name: "Infrastructure", domain: "SPACETIME & CIVILIZATION SYSTEMS",
@@ -69,6 +81,9 @@ const INQUIRIES: Inquiry[] = [
     test: "Remove a critical node and then a shared dependency. Measure service continuity, restoration time, resource requirements, and unequal impacts across affected populations.",
     evidence: "Dependency maps, fault-injection results, restoration drills, independently audited maintenance records, and service-level outcomes during real incidents.",
     horizon: "Design for repair, migration, and eventual retirement rather than treating any single platform as permanent.",
+    research: "Research design: represent essential services as a dependency graph with physical assets, digital control, energy, materials, skilled personnel, governance, and access. Analyze not only component failure probabilities but shared dependencies, cascading effects, restoration bottlenecks, and which populations lose essential function first. Redundancy is meaningful only if pathways fail sufficiently independently.",
+    protocol: "Prospective protocol: specify minimum service thresholds and simulate loss of a node, a shared supplier, a control network, and the restoration channel itself. Measure continuity, time to degraded and restored service, resource sufficiency, geographic and social distribution of impact, and the feasibility of operating manually or through alternate providers.",
+    unresolved: "Open problem: what is the minimum sufficient architecture that preserves critical services under common-mode failure without creating an unmaintainable accumulation of redundant infrastructure?",
   },
   {
     id: "governance", number: "05", name: "Governance", domain: "CIVILIZATION INTELLIGENCE",
@@ -79,6 +94,9 @@ const INQUIRIES: Inquiry[] = [
     test: "After a leadership change and a credible adverse finding, can an independent body obtain evidence, suspend the activity, provide remedy, and revise or terminate the mandate?",
     evidence: "Published decision records, independent audits, tested appeal procedures, enforceable responsibilities, and documented outcomes for affected people.",
     horizon: "Preserve accountability across institutional succession without assuming that one governance model fits every jurisdiction or domain.",
+    research: "Research design: separate factual uncertainty, technical performance, authorization, legitimacy, distribution of risk, and responsibility for remedy. A valid engineering result cannot by itself determine who should bear exposure or who may decide on behalf of others. Trace decisions across contractors, owners, oversight bodies, affected communities, and successor institutions.",
+    protocol: "Prospective protocol: conduct an adversarial institutional exercise in which new evidence contradicts the original safety case after leadership turnover. Test access to records, independence of review, appeal and participation routes, authority to suspend operation, continuity of funding, and the practical ability to compensate or restore affected interests.",
+    unresolved: "Open problem: how can enforceable duties, transparent evidence, and meaningful revision survive changes in ownership, jurisdiction, incentives, and public priorities without freezing future generations into an unchangeable mandate?",
   },
 ];
 
@@ -169,13 +187,26 @@ function InquiryPanel() {
   const inquiry = INQUIRIES[active];
   return <div className="hr-inquiry-layout">
     <Reveal><nav className="hr-inquiry-nav" aria-label="Select a field of inquiry">{INQUIRIES.map((item, i) => <button type="button" key={item.id} onClick={() => setActive(i)} className={`hr-inquiry-tab ${active === i ? "is-active" : ""}`} aria-pressed={active === i} aria-controls="hr-inquiry-panel"><span className="hr-index">{item.number}</span><span><strong>{item.name}</strong><small>{item.domain}</small></span><Arrow diagonal/></button>)}</nav></Reveal>
-    <Reveal><Glass className="hr-inquiry-panel"><div id="hr-inquiry-panel" key={inquiry.id} className="hr-panel-enter" aria-live="polite"><div className="hr-panel-meta"><span className="hr-small">FIELD {inquiry.number} / {inquiry.domain}</span><span className="hr-small">{inquiry.number} / 05</span></div><h3>{inquiry.question}</h3><p className="hr-panel-premise">{inquiry.premise}</p><div className="hr-inquiry-grid"><div><span className="hr-small">DESIGN RESPONSE</span><p>{inquiry.mechanism}</p></div><div><span className="hr-small">CREDIBLE FAILURE</span><p>{inquiry.failure}</p></div><div><span className="hr-small">DISCRIMINATING TEST</span><p>{inquiry.test}</p></div><div><span className="hr-small">REQUIRED EVIDENCE</span><p>{inquiry.evidence}</p></div></div><div className="hr-inquiry-horizon"><span className="hr-small">LONG-HORIZON OBLIGATION</span><p>{inquiry.horizon}</p></div></div></Glass></Reveal>
+    <Reveal><Glass className="hr-inquiry-panel"><div id="hr-inquiry-panel" key={inquiry.id} className="hr-panel-enter" aria-live="polite"><div className="hr-panel-meta"><span className="hr-small">FIELD {inquiry.number} / {inquiry.domain}</span><span className="hr-small">{inquiry.number} / 05</span></div><h3>{inquiry.question}</h3><p className="hr-panel-premise">{inquiry.premise}</p><div className="hr-inquiry-grid"><div><span className="hr-small">DESIGN RESPONSE</span><p>{inquiry.mechanism}</p></div><div><span className="hr-small">CREDIBLE FAILURE</span><p>{inquiry.failure}</p></div><div><span className="hr-small">DISCRIMINATING TEST</span><p>{inquiry.test}</p></div><div><span className="hr-small">REQUIRED EVIDENCE</span><p>{inquiry.evidence}</p></div></div><div className="hr-research-deep"><div><span className="hr-small">RESEARCH ARCHITECTURE / CAUSAL MODEL</span><p>{inquiry.research}</p></div><div><span className="hr-small">PROSPECTIVE VALIDATION / PROPOSED</span><p>{inquiry.protocol}</p></div><div><span className="hr-small">OPEN RESEARCH QUESTION</span><p>{inquiry.unresolved}</p></div></div><div className="hr-inquiry-horizon"><span className="hr-small">LONG-HORIZON OBLIGATION</span><p>{inquiry.horizon}</p></div></div></Glass></Reveal>
   </div>;
 }
 
 function Gates() {
   const [expanded, setExpanded] = useState<number | null>(0);
   return <Glass className="hr-gates">{GATES.map((gate, i) => { const open = expanded === i; return <div key={gate.id} className={`hr-gate ${open ? "is-open" : ""}`}><button type="button" className="hr-gate-trigger" aria-expanded={open} aria-controls={`hr-gate-${gate.id}`} onClick={() => setExpanded(open ? null : i)}><span className="hr-gate-count">{String(i + 1).padStart(2, "0")}</span><span><small>{gate.title}</small><strong>{gate.question}</strong></span><span className="hr-gate-symbol" aria-hidden="true">{open ? "−" : "+"}</span></button><div id={`hr-gate-${gate.id}`} className="hr-gate-detail" hidden={!open}><p>{gate.method}</p><div className="hr-gate-criterion"><span className="hr-small">ADVANCEMENT CONDITION / PROPOSED</span><p>{gate.advance}</p></div></div></div>; })}</Glass>;
+}
+
+
+const EXPERIMENTS = [
+  { id: "latency", number: "01", name: "The response window", premise: "An autonomous controller can act faster than its monitoring and intervention system.", perturbation: "Introduce a delayed sensor report, an unavailable human reviewer, and an actuator fault in a bounded test environment.", observable: "Record the time to detect the hazard, reach an authorized decision, execute a safe intervention, and reach the harm threshold. Include uncertainty in each measurement.", decision: "If a credible adverse trajectory reaches the harm threshold first, narrow the operating envelope or introduce independently effective protective mechanisms before increasing autonomy.", boundary: "This is a hypothetical protocol. The inequality is a proposed diagnostic; it does not establish that all harms have a measurable warning interval." },
+  { id: "succession", number: "02", name: "The succession failure", premise: "A long-lived facility remains consequential after its owner, funding model, and original technical team have changed.", perturbation: "Remove the original operator, a critical supplier, and access to one institutional archive. Introduce a previously unrecognized failure mode.", observable: "Test whether successors can reconstruct the safety case, locate reliable records, access reserved resources, exercise shutdown authority, and maintain essential functions.", decision: "If essential duties cannot be performed by a successor, redesign the handover architecture and secure independent stewardship before authorizing a longer operating horizon.", boundary: "The exercise tests institutional continuity; it cannot guarantee that future institutions will preserve identical resources or priorities." },
+  { id: "irreversible", number: "03", name: "The irreversibility boundary", premise: "Some consequences cannot credibly be restored by a later corrective action.", perturbation: "Compare a reversible pilot with a wider intervention whose credible adverse pathways include persistent ecological, biological, or infrastructural effects.", observable: "Identify which effects are detectable, which are containable, which are actually recoverable, and which remain uncertain even after observation and mitigation.", decision: "Where credible severe harm is irreversible and the evidence is insufficient, do not use a nominal recovery plan as a substitute for prevention; revise scope, exposure, or the intervention itself.", boundary: "Irreversibility and acceptable exposure must be assessed in the specific domain and through an appropriate, accountable decision process." },
+] as const;
+
+function ExperimentLab() {
+  const [active, setActive] = useState(0);
+  const current = EXPERIMENTS[active];
+  return <div className="hr-lab"><div className="hr-lab-tabs" role="group" aria-label="Choose a proposed responsibility experiment">{EXPERIMENTS.map((item,i)=><button type="button" key={item.id} className={`hr-lab-tab hr-glass ${i===active ? "is-active" : ""}`} aria-pressed={i===active} onClick={()=>setActive(i)}><span className="hr-small">PROTOCOL {item.number}</span><strong>{item.name}</strong><span aria-hidden="true">{i===active ? "●" : "○"}</span></button>)}</div><Glass className="hr-lab-panel"><div key={current.id} className="hr-panel-enter"><span className="hr-small">CONCEPTUAL RESEARCH PROTOCOL / NOT A COMPLETED EXPERIMENT</span><h3>{current.name}</h3><p className="hr-lab-premise">{current.premise}</p><div className="hr-lab-grid"><div><span className="hr-small">01 / CONTROLLED PERTURBATION</span><p>{current.perturbation}</p></div><div><span className="hr-small">02 / OBSERVABLE EVIDENCE</span><p>{current.observable}</p></div><div><span className="hr-small">03 / DECISION RULE</span><p>{current.decision}</p></div><div><span className="hr-small">04 / EVIDENCE BOUNDARY</span><p>{current.boundary}</p></div></div></div></Glass></div>;
 }
 
 export default function HumanityResponsibilityPage() {
@@ -199,10 +230,45 @@ export default function HumanityResponsibilityPage() {
 
     <section className="hr-screen hr-boundaries" aria-labelledby="hr-boundaries-title"><div className="hr-inner"><SectionHead index="08" label="EVIDENCE & LIMITS" title="A framework must also" muted="answer to reality.">The concepts on this page are proposed principles for inquiry and design. Their usefulness depends on whether they improve real decisions under specified conditions and survive independent challenge.</SectionHead><div className="hr-boundary-grid"><Reveal><Glass className="hr-boundary-card"><span className="hr-small">PRESENTED HERE</span><h3>A structured research proposition</h3><p>Definitions, domain-specific questions, candidate design constraints, and a proposed sequence of validation and stewardship gates.</p></Glass></Reveal><Reveal><Glass className="hr-boundary-card"><span className="hr-small">REQUIRES VALIDATION</span><h3>Operational effectiveness</h3><p>Each application requires measurable variables, comparison with existing methods, failure testing, relevant expert review, and evidence from actual operating conditions.</p></Glass></Reveal><Reveal><Glass className="hr-boundary-card"><span className="hr-small">NOT CLAIMED</span><h3>A universal law or proof of safety</h3><p>No equation here establishes a new physical law, guarantees the absence of harm, or proves that every technology can be made reversible or fully governable.</p></Glass></Reveal></div></div></section>
 
+
+    <section id="experiments" className="hr-screen hr-experiments" aria-labelledby="hr-experiments-title"><div className="hr-inner"><SectionHead index="09" label="A LIVING RESEARCH EXHIBITION" title="Make responsibility" muted="answerable to a test.">Select a proposed experiment to inspect the causal hypothesis, the perturbation that could expose failure, the evidence that must be recorded, and the decision that follows. These are protocols for future investigation, not results presented as accomplished research.</SectionHead><ExperimentLab/></div></section>
     <section className="hr-screen hr-closing" aria-labelledby="hr-closing-title"><div className="hr-closing-art" aria-hidden="true"><Cosmos compact/></div><div className="hr-inner hr-closing-inner"><Reveal><Glass className="hr-closing-glass"><p className="hr-kicker">ARCHENOVA / PERMANENT INQUIRY</p><h2 id="hr-closing-title">The question<br/><span>remains open.</span></h2><p>Every new capability changes what humanity can do. It also changes what must be observed, challenged, bounded, sustained, and—when necessary—refused. Responsibility is not the end of discovery. It is a condition for carrying its consequences into the future.</p><div className="hr-closing-actions"><Link href="/home/" className="hr-button hr-button--light">RETURN TO ARCHENOVA <Arrow diagonal/></Link><a href="#top" className="hr-button hr-button--outline">REVISIT THE QUESTION <span aria-hidden="true">↑</span></a></div></Glass></Reveal></div></section>
     <footer className="hr-footer"><span>ARCHENOVA / HUMANITY & RESPONSIBILITY</span><span>REALITY · CAPABILITY · CORRECTABILITY · STEWARDSHIP</span></footer>
 
     <style jsx global>{`
+      /* Device-specific full-viewport research screens: content scrolls naturally when taller than a screen. */
+      .hr{width:100%;min-width:0;min-height:100svh;min-height:100dvh;isolation:isolate}
+      .hr-screen{width:100%;min-height:100svh;min-height:100dvh;display:flex;align-items:center;position:relative;scroll-margin-top:0;box-sizing:border-box}
+      .hr-screen>.hr-inner{width:100%;margin-inline:auto}
+      .hr-hero{min-height:100svh;min-height:100dvh}
+      .hr-atmosphere{position:fixed;inset:0;width:100vw;height:100svh;height:100dvh;pointer-events:none}
+      .hr-atmosphere .hr-cosmos{width:100%;height:100%;object-fit:cover;animation:hrCosmicDrift 38s ease-in-out infinite alternate}
+      .hr-cosmos__orbit{transform-origin:75% 55%;animation:hrOrbitBreath 26s ease-in-out infinite alternate}
+      .hr-cosmos__stars{animation:hrStarsBreathe 9s ease-in-out infinite alternate}
+      @keyframes hrCosmicDrift{from{transform:scale(1.04) translate3d(-.8%,0,0)}to{transform:scale(1.11) translate3d(1%,.8%,0)}}
+      @keyframes hrOrbitBreath{from{opacity:.42}to{opacity:1}}
+      @keyframes hrStarsBreathe{from{opacity:.55}to{opacity:1}}
+      .hr, .hr *{box-sizing:border-box}.hr p,.hr h1,.hr h2,.hr h3{overflow-wrap:break-word}
+      .hr-research-deep{display:grid;gap:0;margin-top:30px;border-top:1px solid var(--hr-line)}
+      .hr-research-deep>div{padding:22px 0;border-bottom:1px solid var(--hr-line)}
+      .hr-research-deep p{margin:11px 0 0;color:var(--hr-muted);font-size:14px;line-height:1.85}
+      .hr-lab{display:grid;grid-template-columns:minmax(220px,.42fr) minmax(0,1fr);gap:clamp(14px,2vw,30px)}
+      .hr-lab-tabs{display:grid;align-content:start;gap:12px}
+      .hr-lab-tab{display:grid;grid-template-columns:1fr auto;gap:12px;width:100%;padding:23px;text-align:left;color:var(--hr-muted);cursor:pointer;border:1px solid var(--hr-line);border-radius:18px;background:rgba(16,20,26,.48)}
+      .hr-lab-tab .hr-small{grid-column:1/-1}.hr-lab-tab strong{font-size:clamp(18px,1.8vw,26px);font-weight:500;letter-spacing:-.04em}
+      .hr-lab-tab.is-active{color:#fff;border-color:rgba(220,233,245,.5);background:rgba(53,65,77,.48)}
+      .hr-lab-panel{padding:clamp(25px,3.5vw,58px);min-height:580px}
+      .hr-lab-panel h3{margin:23px 0 15px;font-size:clamp(32px,4vw,62px);font-weight:500;letter-spacing:-.06em;line-height:1.12}
+      .hr-lab-premise{max-width:850px;color:var(--hr-muted);font-size:clamp(16px,1.5vw,22px);line-height:1.7}
+      .hr-lab-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px;margin-top:28px;border-top:1px solid var(--hr-line)}
+      .hr-lab-grid>div{padding:22px 0;border-bottom:1px solid var(--hr-line)}
+      .hr-lab-grid p{margin:12px 0 0;color:var(--hr-muted);font-size:14px;line-height:1.8}
+      @media(min-width:1500px){.hr{--hr-side:max(42px,calc((100vw - 1700px)/2))}.hr-inner{max-width:1700px}.hr-hero h1{font-size:clamp(78px,6.4vw,132px)}}
+      @media(max-width:1100px){.hr-lab{grid-template-columns:1fr}.hr-lab-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}.hr-lab-panel{min-height:0}}
+      @media(max-width:760px){.hr-screen{min-height:100svh;min-height:100dvh;padding-block:clamp(68px,9svh,110px)}.hr-hero{padding-block:20px}.hr-lab-tabs{grid-template-columns:1fr}.hr-lab-tab{padding:18px}.hr-lab-panel{padding:23px}.hr-lab-grid{grid-template-columns:1fr}.hr-atmosphere .hr-cosmos{object-position:65% center}.hr-cosmos__orbit{opacity:.48}.hr-hero h1{overflow-wrap:normal}.hr-screen>.hr-inner{min-width:0}}
+      @media(max-width:390px){.hr-lab-panel{padding:19px}.hr-lab-panel h3{font-size:30px}}
+      @media(prefers-reduced-motion:reduce){.hr-atmosphere .hr-cosmos,.hr-cosmos__orbit,.hr-cosmos__stars{animation:none!important}}
+
       html:has(.hr), body:has(.hr){margin:0!important;padding:0!important;width:100%!important;max-width:none!important;background:#030406!important;scroll-behavior:smooth}
       body:has(.hr){overflow-x:clip!important}
       body:has(.hr) .site-header{display:none!important}
