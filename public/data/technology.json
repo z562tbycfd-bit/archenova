@@ -1,7 +1,106 @@
 {
   "ok": true,
-  "updated": "2026-09-22T09:09:31.923Z",
+  "updated": "2026-09-22T14:27:19.121Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Novo may be getting a better deal than expected with Medicare’s Bridge program",
+      "url": "https://www.statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge/?utm_campaign=rss",
+      "summary": "Eli Lilly and Novo Nordisk were already benefitting a great deal from the Trump administration's pilot program covering obesity drugs for seniors at a price of $245 a month. It…",
+      "ts": 1790086980000,
+      "publishedAt": "2026-09-22T14:23:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Best Practices for Establishing Data Integrity in Western Blotting",
+      "url": "https://www.genengnews.com/topics/bioprocessing/best-practices-for-establishing-data-integrity-in-western-blotting/",
+      "summary": "Despite advances in other proteomic methods, including mass spectrometry, western blotting remains one of the most widely-used techniques across life sciences research due to its affordability, specificity, and widesprea…",
+      "ts": 1790084548000,
+      "publishedAt": "2026-09-22T13:42:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreak…",
+      "ts": 1790084525000,
+      "publishedAt": "2026-09-22T13:42:05.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut to Answer Questions from New Hampshire Students",
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-to-answer-questions-from-new-hampshire-students/",
+      "summary": "Students in New Hampshire will hear from NASA astronaut Anil Menon as he answers prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 11:35 a.m. EDT Thursday, Sep…",
+      "ts": 1790084333000,
+      "publishedAt": "2026-09-22T13:38:53.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Epic’s mortality model, and Omada’s future products",
+      "url": "https://www.statnews.com/2026/09/22/epics-mortality-model-omadas-future-products-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: What Epic's mortality prediction algorithm tells us about AI in geriatrics, Omada's expansion plans, and more.",
+      "ts": 1790082905000,
+      "publishedAt": "2026-09-22T13:15:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about pharma seeking to protect China deals, a Roche obesity drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss",
+      "summary": "Western pharmaceutical companies are urging the Trump administration to allow them to keep doing deals with Chinese companies for drug candidates",
+      "ts": 1790082874000,
+      "publishedAt": "2026-09-22T13:14:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the…",
+      "ts": 1790079000000,
+      "publishedAt": "2026-09-22T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics …",
+      "ts": 1790078441000,
+      "publishedAt": "2026-09-22T12:00:41.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "New federal autism committee head has financial ties to leucovorin",
+      "url": "https://www.statnews.com/2026/09/22/health-news-federal-autism-committee-head-has-financial-ties-to-leucovorin/?utm_campaign=rss",
+      "summary": "RFK Jr. has installed John Gaitanis, a pediatric neurologist, as the new chair of the Interagency Autism Coordinating Committee, which helps the federal government decide how to allocate roughly $2 billion…",
+      "ts": 1790078081000,
+      "publishedAt": "2026-09-22T11:54:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "A call to boost European space exploration",
+      "url": "https://www.esa.int/About_Us/Corporate_news/A_call_to_boost_European_space_exploration",
+      "summary": "The Call sets out a shared vision for strengthening Europe's role in human and robotic space exploration and provides political guidance for preparations ahead of the Intermediate Ministerial Meeting in Rome on 15 Decemb…",
+      "ts": 1790076360000,
+      "publishedAt": "2026-09-22T11:26:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Don’t be fooled by this summer of AI hype ",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face h…",
+      "ts": 1790075091000,
+      "publishedAt": "2026-09-22T11:04:51.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Ohio governor’s race is a battle over Covid, health costs, and trust in science",
@@ -46,6 +145,24 @@
       "ts": 1790064089000,
       "publishedAt": "2026-09-22T08:01:29.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Call for Abstracts: International Symposium on Trends in Radiopharmaceuticals",
+      "url": "http://www.iaea.org/newscenter/news/call-for-abstracts-international-symposium-on-trends-in-radiopharmaceuticals",
+      "summary": "",
+      "ts": 1790060400000,
+      "publishedAt": "2026-09-22T07:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "An Epic View of the Seasons",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-epic-view-of-the-seasons/",
+      "summary": "The tilt in Earth’s axis of rotation makes the apparent position of continents shift with the seasons in imagery from a NASA camera in deep space.",
+      "ts": 1790049660000,
+      "publishedAt": "2026-09-22T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -534,6 +651,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "A Ni(OH)<sub>2</sub> symmetric battery cell for hydroxide exchange membrane-based direct air capture of CO<sub>2</sub>",
+      "url": "https://www.nature.com/articles/s41560-026-02129-z",
+      "summary": "",
+      "ts": 1790035200000,
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Members of Congress push back on plan to create a commission of political appointees to review NIH grants",
       "url": "https://www.statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back/?utm_campaign=rss",
@@ -685,132 +811,6 @@
       "ts": 1790003392000,
       "publishedAt": "2026-09-21T15:09:52.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lilly’s breast cancer combo wins approval",
-      "url": "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss",
-      "summary": "The FDA just approved a new combination drug treatment for patients with an advanced form of breast cancer.",
-      "ts": 1790003318000,
-      "publishedAt": "2026-09-21T15:08:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Commercial Space Federation (CSF) Welcomes Two New Members",
-      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-members/",
-      "summary": "September 21, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome ORBITInsure and Renaissance Strategic Advisors (RSA) as its newest members. ORBITInsure joins CSF as a Space Supply […] The…",
-      "ts": 1790002800000,
-      "publishedAt": "2026-09-21T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Andelyn Curator Biomanufacturing Platform Supports Fayuvi Gene Therapy Approval",
-      "url": "https://www.genengnews.com/topics/omics/andelyn-curator-biomanufacturing-platform-supports-fayuvi-gene-therapy-approval/",
-      "summary": "Sanfilippo syndrome type A (MPS IIIA) is a rare, fatal lysosomal storage disease that primarily affects the central nervous system and is marked by rapid neurodegeneration beginning in early childhood. The post Andelyn C…",
-      "ts": 1790002532000,
-      "publishedAt": "2026-09-21T14:55:32.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security en…",
-      "ts": 1790002294000,
-      "publishedAt": "2026-09-21T14:51:34.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Juice to fly past Earth for third gravity assist",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
-      "summary": "The European Space Agency’s Jupiter Icy Moons Explorer (Juice) will return to Earth on 28 September, with flight controllers guiding the spacecraft close to our home planet to alter its speed and direction en route to Ju…",
-      "ts": 1789999200000,
-      "publishedAt": "2026-09-21T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Novo plans to expand its pipeline, early Alkermes ADHD data, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss",
-      "summary": "Novo Nodisk outlined plans to expand its pipeline and find new products that it could sell more like consumer goods than traditional medicines",
-      "ts": 1789997467000,
-      "publishedAt": "2026-09-21T13:31:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Widely Attended Gatherings (WAGs) Determinations",
-      "url": "https://www.nasa.gov/organizations/nasa-ethics-advice-for-widely-attended-gatherings-wags/",
-      "summary": "2026 NAHF Enshrinement Ceremony 9.24.26.pdf An Evening with the Stars EWTS 9.16.26.pdf Maryland Space Business Roundtable 9.9.26 Virginia Aerospace Business Association (VASBA) Gala 9.24.26.pdf Roman Space Telescope Even…",
-      "ts": 1789995566000,
-      "publishedAt": "2026-09-21T12:59:26.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: investigating deaths at the US border’s “virtual wall”",
-      "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before the…",
-      "ts": 1789993200000,
-      "publishedAt": "2026-09-21T12:20:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "President Trump’s newest vaccine ‘demands’ repeat old misinformation",
-      "url": "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss",
-      "summary": "A day after health secretary Robert F. Kennedy Jr. promised that parents concerned about vaccines had a “friend” in the White House, President Trump said he’ll be “demanding” that drug…",
-      "ts": 1789992229000,
-      "publishedAt": "2026-09-21T12:03:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
-      "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
-      "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This …",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
-      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
-      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of peo…",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
-      "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
-      "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through th…",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
