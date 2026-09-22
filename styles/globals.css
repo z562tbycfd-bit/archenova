@@ -55414,9 +55414,9 @@ main.an-home-2026 > .chapter-navigator button:focus-visible {
 }
 
 /* ==========================================================
-   SINGLE HOME GLASS OWNERSHIP / NO SCROLL-DEPENDENT FRAME
-   Keep section and portal shells unpainted; wrapper alone
-   draws the large border. Preserve internal UI and site image.
+   HOME FRAME OWNERSHIP — PORTAL IS THE VISIBLE CARD
+   Outer layout wrapper remains wide but does not paint a
+   second border, background or optical surface.
 ========================================================== */
 main.an-home-2026 > section.an-home-2026__section[data-home-section] {
   opacity: 1 !important;
@@ -55438,48 +55438,88 @@ main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass {
   content-visibility: visible !important;
   contain: none !important;
   will-change: auto !important;
-  /* Opaque edge pixels; translucent center retains existing background image. */
-  border: 1px solid rgba(255,255,255,.095) !important;
-  background:
-    radial-gradient(circle at 50% 0%, rgba(255,255,255,.025), rgba(255,255,255,.008) 24%, transparent 52%),
-    linear-gradient(145deg, rgba(15,16,18,.20), rgba(7,8,10,.24) 48%, rgba(0,0,0,.30)) !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: 1px solid transparent !important;
+  outline: 0 !important;
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.040), inset 0 -1px 0 rgba(255,255,255,.010) !important;
+  box-shadow: none !important;
 }
 main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass::before,
-main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass::after { content: none !important; display: none !important; }
-/* Remove only portal-sized duplicate frames, never descendant content cards. */
-main.an-home-2026 #archenova-search-section :is(.an-search,.an-search__surface,.an-search__workspace),
-main.an-home-2026 #founder-digital-twin :is(.ep-dialogue-portal,.ep-dialogue-portal__card),
-main.an-home-2026 #todays-inquiry :is(.ti-home,.ti-home__glass,.ti-home__glass-inner),
-main.an-home-2026 #archenova-valley :is(.an-valley-portal,.an-valley-portal__card) {
-  background: transparent !important;
-  border: 0 !important;
+main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass::after {
+  content: none !important;
+  display: none !important;
+}
+/* Preserve portal-owned cards, outlines, and internal controls.
+   No blanket descendant transparency or pseudo-element removal. */
+
+/* ==========================================================
+   HOME SECTION PAGER — NEUTRAL SMOKED BLACK GLASS
+   Keep the previous pager dimensions and positioning.
+   Remove blue cast from the shell, icons, and active state.
+========================================================== */
+main.an-home-2026 > .chapter-navigator {
+  color-scheme: dark;
+  color: rgba(245,245,245,.85) !important;
+  background: linear-gradient(145deg,rgba(15,16,18,.40),rgba(0,0,0,.46)) !important;
+  background-image: linear-gradient(145deg,rgba(15,16,18,.40),rgba(0,0,0,.46)) !important;
+  border: 1px solid rgba(255,255,255,.075) !important;
+  outline: 0 !important;
+  -webkit-backdrop-filter: blur(18px) saturate(100%) !important;
+  backdrop-filter: blur(18px) saturate(100%) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.035) !important;
+}
+main.an-home-2026 > .chapter-navigator::before,
+main.an-home-2026 > .chapter-navigator::after {
+  content: none !important;
+  display: none !important;
+}
+main.an-home-2026 > .chapter-navigator :is(.chapter-nav-list,.chapter-nav-arrow,.chapter-nav-item,.chapter-nav-mark,.chapter-nav-copy) {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
   box-shadow: none !important;
+  text-shadow: none !important;
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
 }
-main.an-home-2026 #archenova-search-section .an-search__surface::before,
-main.an-home-2026 #archenova-search-section .an-search__surface::after,
-main.an-home-2026 #founder-digital-twin .ep-dialogue-portal__card::before,
-main.an-home-2026 #founder-digital-twin .ep-dialogue-portal__card::after,
-main.an-home-2026 #todays-inquiry .ti-home__glass::before,
-main.an-home-2026 #todays-inquiry .ti-home__glass::after,
-main.an-home-2026 #archenova-valley .an-valley-portal__card::before,
-main.an-home-2026 #archenova-valley .an-valley-portal__card::after { content: none !important; display: none !important; }
-/* The existing factory / Civilization Space visuals are not blanket-cleared. */
-@media (max-width: 700px) {
-  main.an-home-2026 > section.an-home-2026__section > .an-home-2026__glass {
-    background:
-      radial-gradient(circle at 50% 0%, rgba(255,255,255,.020), rgba(255,255,255,.006) 24%, transparent 50%),
-      linear-gradient(145deg, rgba(13,14,16,.16), rgba(6,7,9,.20) 50%, rgba(0,0,0,.26)) !important;
+main.an-home-2026 > .chapter-navigator :is(.chapter-nav-arrow,.chapter-nav-item,.chapter-nav-mark,.chapter-nav-copy),
+main.an-home-2026 > .chapter-navigator :is(.chapter-nav-arrow,.chapter-nav-item) :is(svg,path,circle,rect,line,polyline,polygon) {
+  color: rgba(245,245,245,.70) !important;
+  border-color: transparent !important;
+}
+main.an-home-2026 > .chapter-navigator :is(.chapter-nav-arrow,.chapter-nav-item) svg {
+  fill: none !important;
+  stroke: currentColor !important;
+}
+main.an-home-2026 > .chapter-navigator .chapter-nav-item.active,
+main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current="true"],
+main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current="page"] {
+  background: rgba(255,255,255,.095) !important;
+  background-image: none !important;
+  border: 1px solid rgba(255,255,255,.07) !important;
+  color: rgba(255,255,255,.98) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.035) !important;
+}
+main.an-home-2026 > .chapter-navigator .chapter-nav-item.active :is(.chapter-nav-mark,svg),
+main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chapter-nav-mark,svg) {
+  color: rgba(255,255,255,.98) !important;
+}
+@media (hover: hover) and (pointer: fine) {
+  main.an-home-2026 > .chapter-navigator :is(.chapter-nav-arrow,.chapter-nav-item):not(:disabled):hover {
+    background: rgba(255,255,255,.065) !important;
+    background-image: none !important;
+    border-color: rgba(255,255,255,.05) !important;
+    color: #fff !important;
   }
 }
-
-
-
-
+@media (max-width: 700px) {
+  main.an-home-2026 > .chapter-navigator {
+    background: linear-gradient(145deg,rgba(13,14,16,.35),rgba(0,0,0,.42)) !important;
+    border-color: rgba(255,255,255,.065) !important;
+  }
+}
 
 
 
