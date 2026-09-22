@@ -369,12 +369,13 @@ export default function WorkModelsPortal() {
           )}
 
           {activeIndex === 1 && (
+            <ArcheNovaFrameworkPortal />
+          )}
+          
+          {activeIndex === 2 && (
             <ArcheNovaAetherionPortal />
           )}
 
-          {activeIndex === 2 && (
-            <ArcheNovaFrameworkPortal />
-          )}
         </div>
       </div>
 

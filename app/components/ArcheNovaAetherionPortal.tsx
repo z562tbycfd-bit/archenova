@@ -518,11 +518,9 @@ export default function ArcheNovaAetherionPortal() {
               
 
               <h2 id="ae-portal-title">
-                Build what
-                <br />
-                reality can verify.
+                Build with Aetherion.
               </h2>
-            </div>
+            </div>s
 
             <button
               type="button"
