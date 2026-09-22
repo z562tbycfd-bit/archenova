@@ -150,12 +150,7 @@ useEffect(() => {
               PRESERVE · UNDERSTAND · EXPERIENCE
             </span>
           </div>
-
-          <div className="an-civilization-space-portal__status">
-            <i aria-hidden="true" />
-
-            <span>ARCHITECTURE</span>
-          </div>
+          
         </header>
 
         {/* ==================================================
@@ -168,19 +163,13 @@ useEffect(() => {
           ================================================= */}
 
           <div className="an-civilization-space-portal__statement">
-            <span className="an-civilization-space-portal__statement-eyebrow">
-              CIVILIZATION CONTINUITY
-            </span>
+        
 
             <h2 id="an-civilization-space-title">
               Civilization Space.
             </h2>
 
-            <p>
-              Preserve what civilization knows,
-              understand what is changing,
-              and experience what it becomes.
-            </p>
+
           </div>
 
           {/* ================================================

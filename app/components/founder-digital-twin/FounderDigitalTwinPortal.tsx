@@ -483,10 +483,7 @@ export default function FounderDigitalTwinPortal() {
               <small>ORIGIN · PRINCIPLES · INTENTIONS</small>
             </div>
 
-            <div className="fdp-portal__indicator">
-              <i aria-hidden="true" />
-              <span>FOUNDER PRESENCE</span>
-            </div>
+
           </header>
 
           <div className="fdp-portal__experience">

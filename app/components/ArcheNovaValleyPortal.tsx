@@ -154,16 +154,6 @@ export default function ArcheNovaValleyPortal() {
           </div>
 
 
-          <div className="an-valley-portal__status">
-
-            <i />
-
-            <span>
-              FOUNDATION
-            </span>
-
-          </div>
-
         </header>
 
 
@@ -174,10 +164,7 @@ export default function ArcheNovaValleyPortal() {
         <div className="an-valley-portal__experience">
 
           <div className="an-valley-portal__statement">
-
-            <span className="an-valley-portal__eyebrow">
-              REALITY → CIVILIZATION
-            </span>
+            
 
             <h2 id="an-valley-title">
               Where knowledge

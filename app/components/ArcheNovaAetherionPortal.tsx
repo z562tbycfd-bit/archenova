@@ -507,10 +507,7 @@ export default function ArcheNovaAetherionPortal() {
               <small>ArcheNova's orbital megafactory</small>
             </div>
 
-            <div className="ae-portal__indicator">
-              <i aria-hidden="true" />
-              <small>PHYSICAL REALIZATION</small>
-            </div>
+            
           </header>
 
           <div className="ae-portal__experience">

@@ -54040,3 +54040,1030 @@ section#civilization-space[data-home-section] {
     overflow-y: auto;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME / PERMANENT INQUIRY
+   SINGLE HOME GLASS — SIZE & SPACING INTEGRATION
+
+   ONE HOME SECTION = ONE GLASS SURFACE
+
+   TARGET:
+     #humanity-responsibility
+
+   SAME OUTER GEOMETRY AS:
+     #archenova-current-state-section
+     #works
+
+   HOME:
+     HumanityResponsibilityPortal
+
+   DEDICATED PAGE:
+     /humanity-responsibility
+
+   PRESERVE:
+     - Entire text-frame navigation
+     - Existing HOME section dimensions
+     - HomeSectionPager
+     - Other HOME cards
+     - Mobile vertical scrolling
+========================================================== */
+
+
+/* ==========================================================
+   01 / THE ONLY HOME GLASS
+   ----------------------------------------------------------
+   The HOME section itself owns the optical material.
+========================================================== */
+
+.archenova-twin-home
+> section#humanity-responsibility[data-home-section] {
+  position: relative !important;
+  isolation: isolate !important;
+
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+
+  width: 100% !important;
+  min-width: 0 !important;
+
+  min-height: 100svh !important;
+  height: 100svh !important;
+  max-height: 100svh !important;
+
+  /*
+   * EXACT SAME PADDING AS CURRENT STATE / WORKS.
+   */
+
+  padding:
+    clamp(68px, 9svh, 100px)
+    clamp(22px, 5vw, 70px)
+    clamp(45px, 7svh, 75px)
+    !important;
+
+  /*
+   * The section owns overflow.
+   * No second scroll container inside the Portal.
+   */
+
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+
+  overscroll-behavior-y: contain !important;
+
+  -webkit-overflow-scrolling: touch;
+
+  /*
+   * EXACT SAME HOME BLACK GLASS.
+   */
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    )
+    !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px) saturate(106%)
+    !important;
+
+  backdrop-filter:
+    blur(22px) saturate(106%)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.040),
+
+    inset 0 -1px 0
+      rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline: 0 !important;
+}
+
+
+/* ==========================================================
+   02 / REMOVE SECTION PSEUDO SURFACES
+========================================================== */
+
+.archenova-twin-home
+> section#humanity-responsibility::before,
+
+.archenova-twin-home
+> section#humanity-responsibility::after {
+  content: none !important;
+  display: none !important;
+
+  background: none !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   03 / TRANSPARENT PORTAL ROOT
+   ----------------------------------------------------------
+   HOME section controls outer size and padding.
+
+   Portal contributes content only.
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal {
+  position: relative;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  flex: 1 1 auto;
+
+  align-self: stretch;
+
+  width: min(100%, 960px) !important;
+  max-width: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  /*
+   * Center the content horizontally.
+   * Remove the Portal's original outer padding.
+   */
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   04 / TRANSPARENT TEXT ENTRANCE
+   ----------------------------------------------------------
+   The entire text frame remains one Link.
+
+   Remove only the independent card surface.
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__entrance {
+  position: relative;
+
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+
+  flex: 1 1 auto;
+
+  align-self: stretch;
+
+  width: 100% !important;
+  max-width: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  /*
+   * The outer HOME section is the only scroll owner.
+   */
+
+  overflow: visible !important;
+
+  color: inherit;
+
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   05 / REMOVE INTERNAL FULL-CARD PSEUDO SURFACES
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal::before,
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal::after,
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__entrance::before,
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__entrance::after {
+  content: none !important;
+  display: none !important;
+
+  background: none !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   06 / INNER CONTENT
+   ----------------------------------------------------------
+   Match Current State / Works inner width.
+
+   Preserve original text, separators, and interaction.
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__content {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  min-width: 0;
+
+  margin: auto 0;
+
+  padding:
+    clamp(32px, 5svh, 62px)
+    0;
+
+  box-sizing: border-box;
+
+  background: transparent !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__topline,
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__bottomline {
+  position: relative;
+  z-index: 1;
+
+  min-width: 0;
+}
+
+
+/* ==========================================================
+   07 / TEXT SCALE
+   ----------------------------------------------------------
+   Maintain the original visual hierarchy while fitting
+   the same HOME section dimensions.
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__content h2 {
+  max-width: 900px;
+
+  margin: 0;
+
+  font-size: clamp(36px, 5vw, 68px);
+  font-weight: 300;
+  line-height: 1.13;
+  letter-spacing: -0.055em;
+}
+
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__description {
+  max-width: 610px;
+
+  margin: 25px 0 0;
+
+  font-size: clamp(12px, 1.15vw, 15px);
+  line-height: 1.8;
+}
+
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__principle {
+  margin-top: 27px;
+  padding-top: 17px;
+}
+
+
+/* ==========================================================
+   08 / PRESERVE FULL-FRAME INTERACTION
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__entrance {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.archenova-twin-home
+#humanity-responsibility
+.hr-portal__entrance:focus-visible {
+  outline:
+    2px solid rgba(235, 243, 255, 0.88)
+    !important;
+
+  outline-offset: 6px !important;
+
+  border-radius: 4px !important;
+}
+
+
+/* ==========================================================
+   09 / MOBILE
+   ----------------------------------------------------------
+   EXACT SAME MOBILE SECTION PADDING AS
+   CURRENT STATE / WORKS.
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  > section#humanity-responsibility[data-home-section] {
+    padding:
+      76px
+      25px
+      52px
+      !important;
+
+    background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      )
+      !important;
+
+    border:
+      1px solid rgba(255, 255, 255, 0.060)
+      !important;
+
+    border-radius: 26px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px) saturate(104%)
+      !important;
+
+    backdrop-filter:
+      blur(18px) saturate(104%)
+      !important;
+
+    box-shadow:
+      inset 0 1px 0
+        rgba(255, 255, 255, 0.035),
+
+      inset 0 -1px 0
+        rgba(255, 255, 255, 0.008)
+      !important;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal {
+    width: 100% !important;
+
+    min-height: 0 !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__entrance {
+    min-height: 0 !important;
+
+    padding: 0 !important;
+
+    background: transparent !important;
+
+    border: 0 !important;
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__content {
+    padding: 26px 0;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__content h2 {
+    font-size: clamp(28px, 7.2vw, 43px);
+    line-height: 1.18;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__description {
+    margin-top: 20px;
+
+    font-size: 11px;
+    line-height: 1.7;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__principle {
+    margin-top: 21px;
+    padding-top: 14px;
+
+    font-size: 10px;
+  }
+}
+
+
+/* ==========================================================
+   10 / SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .archenova-twin-home
+  > section#humanity-responsibility[data-home-section] {
+    padding:
+      72px
+      19px
+      46px
+      !important;
+
+    border-radius: 22px !important;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__content {
+    padding: 20px 0;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__content h2 {
+    font-size: clamp(26px, 7vw, 34px);
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__description {
+    font-size: 10px;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__principle {
+    font-size: 9px;
+  }
+}
+
+
+/* ==========================================================
+   11 / SHORT SCREENS
+   ----------------------------------------------------------
+   Prevent content from being pushed underneath the
+   HOME navigation or the next HOME section.
+========================================================== */
+
+@media (max-height: 720px) {
+
+  .archenova-twin-home
+  > section#humanity-responsibility[data-home-section] {
+    justify-content: flex-start !important;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__content {
+    margin: auto 0;
+    padding: 18px 0;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__description {
+    margin-top: 15px;
+  }
+
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__principle {
+    margin-top: 16px;
+    padding-top: 12px;
+  }
+}
+
+
+/* ==========================================================
+   12 / INVISIBLE NATIVE SCROLLBAR
+   ----------------------------------------------------------
+   Visual only.
+   Keep vertical scrolling functional.
+========================================================== */
+
+.archenova-twin-home
+> section#humanity-responsibility[data-home-section] {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+
+.archenova-twin-home
+> section#humanity-responsibility[data-home-section]
+::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+
+  display: none !important;
+
+  background: transparent !important;
+}
+
+
+/* ==========================================================
+   13 / REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hr-portal__entrance {
+    transition: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME
+   HUMANITY RESPONSIBILITY — SINGLE BLACK GLASS
+   ----------------------------------------------------------
+   ONE HOME SECTION = ONE GLASS SURFACE
+
+   The HOME section owns the only visible glass.
+   HumanityResponsibilityPortal remains transparent.
+
+   PC + MOBILE
+========================================================== */
+
+
+/* ==========================================================
+   1. REMOVE LEGACY SECTION PSEUDO SURFACES
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility::before,
+
+.archenova-twin-home
+#humanity-responsibility::after {
+  content: none !important;
+
+  display: none !important;
+
+  position: static !important;
+  inset: auto !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+
+  background: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+
+  opacity: 0 !important;
+}
+
+
+/* ==========================================================
+   2. THE ONLY VISIBLE GLASS — HOME SECTION
+   ----------------------------------------------------------
+   Match the existing HOME cards exactly.
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility {
+  position: relative !important;
+
+  isolation: isolate !important;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    ) !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px) saturate(106%)
+    !important;
+
+  backdrop-filter:
+    blur(22px) saturate(106%)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline: 0 !important;
+}
+
+
+/* ==========================================================
+   3. KEEP THE PORTAL INTERNALLY TRANSPARENT
+   ----------------------------------------------------------
+   Prevent a second full-size glass surface.
+   Do not remove the symbol's glow or ambient artwork.
+========================================================== */
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal,
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal__stage {
+  background: transparent !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   4. MOBILE — MATCH THE EXISTING HOME GLASS
+========================================================== */
+
+@media (max-width: 768px) {
+  .archenova-twin-home
+  #humanity-responsibility {
+    background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      ) !important;
+
+    border:
+      1px solid rgba(255, 255, 255, 0.060)
+      !important;
+
+    border-radius: 26px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px) saturate(104%)
+      !important;
+
+    backdrop-filter:
+      blur(18px) saturate(104%)
+      !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.035),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.008)
+      !important;
+
+    outline: 0 !important;
+  }
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hrp-portal,
+
+  .archenova-twin-home
+  #humanity-responsibility
+  .hrp-portal__stage {
+    background: transparent !important;
+
+    border: 0 !important;
+    border-radius: 0 !important;
+    outline: 0 !important;
+
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+
+    box-shadow: none !important;
+  }
+}
+
+
+/* ==========================================================
+   5. VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+  .archenova-twin-home
+  #humanity-responsibility {
+    border-radius: 22px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HUMANITY RESPONSIBILITY
+   REMOVE BLUE CARD / RESTORE THIN BLACK GLASS
+   ----------------------------------------------------------
+   HOME section = the only glass surface.
+   Portal interior = transparent.
+========================================================== */
+
+
+/* 1. HOME section: the only visible glass */
+
+.archenova-twin-home
+#humanity-responsibility {
+  position: relative !important;
+  isolation: isolate !important;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    ) !important;
+
+  border: 1px solid rgba(255, 255, 255, 0.065) !important;
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter: blur(22px) saturate(106%) !important;
+  backdrop-filter: blur(22px) saturate(106%) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline: 0 !important;
+}
+
+
+/* 2. Remove full-card blue surfaces inside the portal */
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal,
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal__stage {
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  box-shadow: none !important;
+}
+
+
+/* 3. Remove decorative overlays covering the entire card */
+
+.archenova-twin-home
+#humanity-responsibility::before,
+
+.archenova-twin-home
+#humanity-responsibility::after,
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal::before,
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal::after,
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal__stage::before,
+
+.archenova-twin-home
+#humanity-responsibility
+.hrp-portal__stage::after {
+  content: none !important;
+  display: none !important;
+
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+
+/* 4. Mobile: the same glass, slightly more transparent */
+
+@media (max-width: 768px) {
+  .archenova-twin-home
+  #humanity-responsibility {
+    background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      ) !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.060) !important;
+    border-radius: 26px !important;
+
+    -webkit-backdrop-filter: blur(18px) saturate(104%) !important;
+    backdrop-filter: blur(18px) saturate(104%) !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.035),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.008)
+      !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .archenova-twin-home
+  #humanity-responsibility {
+    border-radius: 22px !important;
+  }
+}
+
+
+
+
+
+
+
+
+

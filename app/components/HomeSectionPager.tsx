@@ -101,6 +101,20 @@ const CHAPTER_TARGETS:
       "What should we ask?",
   },
 
+  {
+   id:
+      "humanity-responsibility",
+
+    mark:
+      "⑇",
+
+    title:
+      "PERMANENT INQUIRY",
+
+    subtitle:
+      "Can humanity handle its power?",
+  },
+
 {
   id: "works",
   mark: "⎅",

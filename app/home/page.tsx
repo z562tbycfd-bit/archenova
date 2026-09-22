@@ -1,8 +1,5 @@
 "use client";
 
-import EpistemeDialoguePortal
-  from "../components/EpistemeDialoguePortal";
-
 import HomeSectionPager
   from "../components/HomeSectionPager";
 
@@ -11,6 +8,9 @@ import MobileHomeScrollReset
 
 import TodaysInquiryPortal
   from "../components/TodaysInquiryPortal";
+
+import HumanityResponsibilityPortal
+  from "../components/HumanityResponsibilityPortal";
 
 import ArcheNovaMap
   from "../components/civilization/ArcheNovaMap";
@@ -21,31 +21,33 @@ import CivilizationSpacePortal
 import ArcheNovaValleyPortal
   from "../components/ArcheNovaValleyPortal";
 
-
- import FounderDigitalTwinPortal
+import FounderDigitalTwinPortal
   from "../components/founder-digital-twin/FounderDigitalTwinPortal";
 
-  
 import WorksPortal
- from "../components/WorksPortal ";
+  from "../components/WorksPortal ";
 
- import WorkModelsPortal from "../components/WorkModelsPortal";
-
+import WorkModelsPortal
+  from "../components/WorkModelsPortal";
 
 /* ==========================================================
    ARCHENOVA / HOME
 
-   WORK MODELS INTEGRATION
+   PERMANENT INQUIRY INTEGRATION
 
-   Outer HOME:
-     Work Models = ONE section.
+   Existing HOME sections remain independent.
 
-   Inner Work Models:
-     01 Episteme
-     02 Aetherion
-     03 Framework / reserved
+   Permanent Inquiry:
+     One dedicated HOME section.
+     Entire text frame links to:
+       /humanity-responsibility
 
-   Existing Works exhibition entrance remains independent.
+   Work Models:
+     Episteme
+     Aetherion
+     Framework
+
+   Works exhibition remains independent.
 ========================================================== */
 
 export default function HomePage() {
@@ -105,6 +107,28 @@ export default function HomePage() {
       </section>
 
       {/* ====================================================
+          PERMANENT INQUIRY
+
+          Independent HOME entrance.
+
+          Tap the entire text frame to open:
+            /humanity-responsibility
+      ==================================================== */}
+
+      <section
+        id="humanity-responsibility"
+        data-home-section
+        className="
+          home-page
+          twin-page
+          humanity-responsibility-page
+        "
+        aria-label="Can Humanity Remain Responsible for the Power It Creates?"
+      >
+        <HumanityResponsibilityPortal />
+      </section>
+
+      {/* ====================================================
           WORKS EXHIBITION
 
           Independent entrance to /works.
@@ -123,8 +147,8 @@ export default function HomePage() {
 
           ONE outer HOME section.
 
-          Episteme and Aetherion are no longer separate
-          data-home-section elements.
+          Original Episteme, Aetherion, and Framework
+          components are rendered by WorkModelsPortal.
       ==================================================== */}
 
       <section

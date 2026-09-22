@@ -424,12 +424,7 @@ export default function EpistemeDialoguePortal() {
               ArcheNova's conversational intelligence space
             </small>
           </div>
-
-          <div className="ep-dialogue-portal__live">
-            <i />
-
-            <span>LIVE</span>
-          </div>
+          
         </header>
 
         {/* CENTRAL EXPERIENCE — ORIGINAL LAYOUT */}
