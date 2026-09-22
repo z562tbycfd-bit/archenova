@@ -94,19 +94,12 @@ const CHAPTER_TARGETS:
   subtitle: "What can we become?",
 },
 
-  {
-    id:
-      "episteme-dialogue",
-
-    mark:
-      "☻",
-
-    title:
-      "EPISTEME",
-
-    subtitle:
-      "What can we know?",
-  },
+{
+  id: "work-models",
+  mark: "⏣",
+  title: "MODELS",
+  subtitle: "What can we imagine?",
+},
 
   {
     id:
@@ -150,19 +143,6 @@ const CHAPTER_TARGETS:
       "what can we realize?",
   },
 
-  {
-    id:
-      "aetherion",
-
-    mark:
-      "⚛︎",
-
-    title:
-      "AETHERION",
-
-    subtitle:
-      "what can we create?",
-  },
 ];
 
 

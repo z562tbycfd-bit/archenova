@@ -33,101 +33,53 @@ import ArcheNovaAetherionPortal
 import WorksPortal
  from "../components/WorksPortal ";
 
+ import WorkModelsPortal from "../components/WorkModelsPortal";
+
 /* ==========================================================
-   HOME
+   ARCHENOVA / HOME
 
-   ArcheNova Home is organized into five
-   primary environments:
+   WORK MODELS INTEGRATION
 
-   01 / MAP
-        Discover the ArcheNova system.
+   Outer HOME:
+     Work Models = ONE section.
 
-   02 / EPISTEME
-        Think, question, challenge, and reason.
+   Inner Work Models:
+     01 Episteme
+     02 Aetherion
+     03 Framework / reserved
 
-   03 / TODAY'S INQUIRY
-        Establish contact with a living question
-        at the frontier of reality.
-
-   04 / CIVILIZATION SPACE
-        Preserve knowledge, understand change,
-        and encounter civilization-level experience.
-
-   05 / ARCHENOVA VALLEY
-        Transform validated possibility into
-        bounded implementation and reality contact.
-
-   The environments remain distinct:
-
-   MAP
-   = Discovery
-
-   EPISTEME
-   = Cognition
-
-   TODAY'S INQUIRY
-   = Reality Contact
-
-   CIVILIZATION SPACE
-   = Preserve · Understand · Experience
-
-   ARCHENOVA VALLEY
-   = Implement · Deploy · Learn
-
-   System direction:
-
-   Explore
-   → Think
-   → Question Reality
-   → Preserve / Understand / Experience
-   → Implement
-   → Reality
-   → Learn
+   Existing Works exhibition entrance remains independent.
 ========================================================== */
 
-export default function Home() {
-
+export default function HomePage() {
   return (
     <main
-      className="
-        home-snap
-        archenova-twin-home
-      "
+      className="home-snap archenova-twin-home"
       id="home-top"
     >
-
-      {/* ==================================================
-          MOBILE SCROLL RESET
-      ================================================== */}
-
       <MobileHomeScrollReset />
-
-      {/* ==================================================
-          HOME SECTION NAVIGATION
-      ================================================== */}
 
       <HomeSectionPager />
 
-      {/* ==================================================
-    00 / FOUNDER DIGITAL TWIN
-    The origin of ArcheNova.
-    ================================================== */}
-    
-    <section
-  id="founder-digital-twin"
-  data-home-section
-  className="home-page twin-page founder-digital-twin-page"
-  >
-    <FounderDigitalTwinPortal />
-    </section>
+      {/* ====================================================
+          FOUNDER
+      ==================================================== */}
 
+      <section
+        id="founder-digital-twin"
+        data-home-section
+        className="
+          home-page
+          twin-page
+          founder-digital-twin-page
+        "
+      >
+        <FounderDigitalTwinPortal />
+      </section>
 
-      {/* ==================================================
-          01
-          ARCHENOVA MAP
-
-          Discover the system.
-      ================================================== */}
+      {/* ====================================================
+          ARCHE NOVA MAP / SEARCH
+      ==================================================== */}
 
       <section
         id="archenova-search-section"
@@ -140,56 +92,45 @@ export default function Home() {
         <ArcheNovaMap />
       </section>
 
-      {/* ==================================================
-    02 / ARCHENOVA WORKS PORTAL
+      {/* ====================================================
+          WORKS EXHIBITION
 
-    The ArcheNova Works exhibition entrance.
-    ================================================== */}
-    
-    <section
-  id="works"
-  data-home-section
-  className="an-works-home-section"
->
-  <WorksPortal />
-</section>
-
-
-      {/* ==================================================
-          03
-          EPISTEME
-
-          Think with ArcheNova's
-          conversational intelligence.
-
-          ASK
-          → EXPLORE
-          → CHALLENGE
-          → COMPARE
-          → SIMULATE
-      ================================================== */}
+          Independent entrance to /works.
+      ==================================================== */}
 
       <section
-        id="episteme-dialogue"
+        id="works"
+        data-home-section
+        className="an-works-home-section"
+      >
+        <WorksPortal />
+      </section>
+
+      {/* ====================================================
+          WORK MODELS
+
+          ONE outer HOME section.
+
+          Episteme and Aetherion are no longer separate
+          data-home-section elements.
+      ==================================================== */}
+
+      <section
+        id="work-models"
         data-home-section
         className="
           home-page
           twin-page
-          episteme-dialogue-page
+          work-models-page
         "
+        aria-label="Work Models"
       >
-        <EpistemeDialoguePortal />
+        <WorkModelsPortal />
       </section>
 
-
-      {/* ==================================================
-          04
+      {/* ====================================================
           TODAY'S INQUIRY
-
-          Question reality through a living
-          inquiry at the frontier of current
-          scientific and technological knowledge.
-      ================================================== */}
+      ==================================================== */}
 
       <section
         id="todays-inquiry"
@@ -202,27 +143,9 @@ export default function Home() {
         <TodaysInquiryPortal />
       </section>
 
-
-      {/* ==================================================
-          05
+      {/* ====================================================
           CIVILIZATION SPACE
-
-          Preserve.
-          Understand.
-          Experience.
-
-          A shared civilization environment for:
-
-          Library
-          → Intelligence
-          → Experience
-
-          Civilization Space does not own
-          implementation authority.
-
-          Implementation remains the responsibility
-          of ArcheNova Valley.
-      ================================================== */}
+      ==================================================== */}
 
       <section
         id="civilization-space"
@@ -236,32 +159,9 @@ export default function Home() {
         <CivilizationSpacePortal />
       </section>
 
-
-      {/* ==================================================
-          06
-          ARCHENOVA VALLEY
-
-          Build what can survive reality.
-
-          ArcheNova Valley is the dedicated
-          civilization implementation environment:
-
-          Realization
-          → Projects
-          → Commercialization? / Capital
-          → Governance Gate
-          → Deployment
-          → Reality
-          → Evidence Feedback
-          → Learning
-
-          Commercialization remains conditional.
-
-          Implementation Governance Gate remains
-          distinct from Civilization Governance.
-
-          Reality retains veto.
-      ================================================== */}
+      {/* ====================================================
+          ARCHE NOVA VALLEY
+      ==================================================== */}
 
       <section
         id="archenova-valley"
@@ -274,36 +174,6 @@ export default function Home() {
       >
         <ArcheNovaValleyPortal />
       </section>
-
-      {/* ==================================================
-          07
-          ARCHENOVA AETHERION
-
-          The Civilization Megafactory.
-
-          Aetherion is the dedicated civilization
-          production environment:
-
-          Engineer
-          → Fabricate
-          → Test
-          → Correct
-          → Reproduce
-          → Release
-
-          Aetherion is a physical realization
-          of ArcheNova's civilization principles.
-
-      ================================================== */}
-
-      <section
-      id="aetherion"
-        data-home-section
-        className="home-page twin-page archenova-aetherion-page"
-      >
-        <ArcheNovaAetherionPortal />
-      </section>
-
     </main>
   );
 }

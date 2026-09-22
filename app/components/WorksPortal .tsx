@@ -438,9 +438,9 @@ export default function WorksPortal() {
 
         <header className="aw-home-portal__top">
           <div className="aw-home-portal__identity">
-            <span>ARCHENOVA</span>
+            <span>ARCHENOVA  WORKS</span>
 
-            <small>WORKS / EXHIBITION</small>
+            <small>EXHIBITION</small>
           </div>
 
           <div className="aw-home-portal__status">
@@ -453,10 +453,7 @@ export default function WorksPortal() {
         {/* CENTRAL EXPERIENCE */}
 
         <div className="aw-home-portal__experience">
-          <div className="aw-home-portal__statement">
-            <span className="aw-home-portal__eyebrow">
-              ARCHENOVA / EXHIBITION
-            </span>
+          <div className="aw-home-portal__statement"> 
 
             <h2 id="aw-home-portal-title">
               Explore Works.

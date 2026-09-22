@@ -479,8 +479,8 @@ export default function FounderDigitalTwinPortal() {
 
           <header className="fdp-portal__header">
             <div className="fdp-portal__identity">
-              <span>ARCHENOVA</span>
-              <small>FOUNDER DIGITAL TWIN</small>
+              <span>ARCHENOVA FOUNDER DIGITAL TWIN</span>
+              <small>ORIGIN · PRINCIPLES · INTENTIONS</small>
             </div>
 
             <div className="fdp-portal__indicator">
@@ -491,10 +491,7 @@ export default function FounderDigitalTwinPortal() {
 
           <div className="fdp-portal__experience">
             <div className="fdp-portal__statement">
-              <span className="fdp-portal__eyebrow">
-                ORIGIN · PRINCIPLES · INTENTIONS
-              </span>
-
+              
               <h2 id="fdp-portal-title">
                 Meet the mind
                 <br />
