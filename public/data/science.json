@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-22T06:24:53.646Z",
+  "updated": "2026-09-22T09:09:29.170Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Iron complex breaks down stubborn pollutant using light-powered reaction",
+      "url": "https://phys.org/news/2026-09-iron-complex-stubborn-pollutant-powered.html",
+      "summary": "The molecular culprit behind harmful algal blooms and some groundwater contamination is the same thing that has kept civilization fed for millennia: a stable form of nitrogen called nitrate.",
+      "ts": 1790067602000,
+      "publishedAt": "2026-09-22T09:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Worsening El Nino threatens Asia with drought, potentially raising food prices globally",
+      "url": "https://phys.org/news/2026-09-worsening-el-nino-threatens-asia.html",
+      "summary": "All signs are pointing toward a record-breaking El Niño this year, which experts say may cause severe drought in Asia and other extreme weather across the world, threatening food security for millions of people.",
+      "ts": 1790064462000,
+      "publishedAt": "2026-09-22T08:07:42.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 42-light-year X-ray tail links a pulsar to previously 'orphan' gamma rays",
+      "url": "https://phys.org/news/2026-09-year-ray-tail-links-pulsar.html",
+      "summary": "Understanding the origin, acceleration and propagation of high-energy cosmic rays has been a century-old mystery in astrophysics. Recently, joint observations from China's Einstein Probe (EP) satellite and the Large High…",
+      "ts": 1790063848000,
+      "publishedAt": "2026-09-22T07:57:28.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Films written by women make studios the most money, but budgets go to male filmmakers: Study",
@@ -775,30 +799,6 @@
       "title": "AI-assisted analytical theory in soft matter and multiphysics: new results and lessons from diffusiophoresis and bipolar membranes",
       "url": "https://arxiv.org/abs/2609.23930",
       "summary": "arXiv:2609.23930v1 Announce Type: new Abstract: We present a framework to advance analytical theory in the area of soft matter and multiphysics using assistance from AI. The framework emphasizes (i) setting \"honesty rule…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Buccal-Lingual Analysis and Inflammation Tracking in Oral Soft Tissues Using Quantitative Ultrasound: A Preclinical Study",
-      "url": "https://arxiv.org/abs/2609.23931",
-      "summary": "arXiv:2609.23931v1 Announce Type: new Abstract: Four out of 10 adults aged 30 years or older in the USA are impacted by periodontal diseases which span a spectrum of inflammatory conditions. Currently, a subjective, inva…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inferring Latent Geometries in Weighted Spatio-Functional Networks",
-      "url": "https://arxiv.org/abs/2609.23933",
-      "summary": "arXiv:2609.23933v1 Announce Type: new Abstract: Physical constraints and functional demands constantly co-evolve across real-world networks, yet empirical topologies rarely conform to idealized dichotomies of pure planar…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conservation Constraints and Distributed Advective Memory in a Reduced Model of Atlantic Overturning Hysteresis",
-      "url": "https://arxiv.org/abs/2609.24000",
-      "summary": "arXiv:2609.24000v1 Announce Type: new Abstract: Interbasin exchange through the Indo-Pacific gateway supplies salt to the Atlantic and is widely invoked as a control on the stability of the Atlantic overturning circulati…",
       "ts": 1790049600000,
       "publishedAt": "2026-09-22T04:00:00.000Z"
     }

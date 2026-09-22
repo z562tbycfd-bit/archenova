@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-09-22T06:25:00.970Z",
+  "updated": "2026-09-22T09:09:31.923Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Ohio governor’s race is a battle over Covid, health costs, and trust in science",
+      "url": "https://www.statnews.com/2026/09/22/ohio-governor-election-health-care-policy-acton-ramaswamy/?utm_campaign=rss",
+      "summary": "The race between Amy Acton and Vivek Ramaswamy could be the election’s most direct test of where the heartland stands on health care and the pandemic.",
+      "ts": 1790065800000,
+      "publishedAt": "2026-09-22T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why an influential GOP health policy expert still backs the Medicaid cuts — and which policy target is next",
+      "url": "https://www.statnews.com/2026/09/22/brian-blase-paragon-health-institute-gop-aca-medicaid-reforms/?utm_campaign=rss",
+      "summary": "Why an influential GOP health policy expert still backs $1 trillion in Medicaid cuts — and which policy target is next.",
+      "ts": 1790065800000,
+      "publishedAt": "2026-09-22T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Social media bans are passing around the world. How will we know if they help teens?",
+      "url": "https://www.statnews.com/2026/09/22/social-media-bans-australia-uk-teen-mental-health/?utm_campaign=rss",
+      "summary": "“Researchers must seize this opportunity to examine how social media — and its regulation — impacts teenagers,” writes Wellcome’s Camilla Iannone.",
+      "ts": 1790065800000,
+      "publishedAt": "2026-09-22T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The science on relieving cancer symptoms is clear. Why isn’t insurance paying?",
+      "url": "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss",
+      "summary": "Research shows that integrative therapies reduce cancer-related pain, fatigue, anxiety, and nausea. Why won't insurance pay?",
+      "ts": 1790065800000,
+      "publishedAt": "2026-09-22T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Nicaragua Signs a Country Programme Framework (CPF) for 2026–2031",
+      "url": "http://www.iaea.org/newscenter/news/nicaragua-signs-a-country-programme-framework-cpf-for-2026-2031",
+      "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and Ms Sabra Amari Murillo Centeno, Resident Representative at the Permanent Mission of the Republic of Nicaragua to the IAEA,…",
+      "ts": 1790064089000,
+      "publishedAt": "2026-09-22T08:01:29.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Exploring the robustness of permutation entropy analysis to differentiate between closed-eyes and open-eyes resting states",
@@ -766,51 +811,6 @@
       "ts": 1789992000000,
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "She died at the San Diego border. A surveillance camera was in plain sight",
-      "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
-      "summary": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern C…",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN condemns attempted Houthi strike on Riyadh as Yemen displacement surges past 130,000",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168387",
-      "summary": "The UN has condemned continued cross‑border attacks by Houthi forces against Saudi Arabia, including an attempted strike on the capital Riyadh, as fighting inside Yemen drives one of the country’s fastest displacement su…",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Nowhere is safe’: UN experts detail Ukraine war’s toll and Russia’s reach beyond its borders",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168386",
-      "summary": "UN Human Rights Council-appointed experts on Monday laid out a grim picture of the human cost of Russia’s invasion of Ukraine, with a spotlight on civilians facing a third wartime winter as well as the intimidation of Ru…",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘We are not powerless’: UN chief urges world leaders to invest in peace",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168383",
-      "summary": "In a world facing rising conflicts, violence and divisions that are causing great suffering for millions of people, the UN chief on Monday called on world leaders and citizens to invest more in peace.",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Why climate action now comes down to speed, finance and cooperation",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168382",
-      "summary": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance …",
-      "ts": 1789992000000,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
