@@ -8958,49 +8958,75 @@ html, body {
   }
   .home-snap{ scroll-behavior: auto; }
 }
-/* ==========================================
-   ArcheNova Background Restore
-   ========================================== */
 
-/* PC */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA — UNIFIED COSMIC BACKGROUND
+
+   All devices:
+   /image/IMG_9845.jpeg
+
+   Preserve:
+   - Existing HOME cards and Portals
+   - Slim header
+   - Fullscreen glass overlays
+   - HomeSectionPager
+========================================================== */
+
 .site-bg {
   position: fixed;
   inset: 0;
   z-index: -2;
 
-  background-image: url("/image/IMG_9379.jpeg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("/image/IMG_9845.jpeg");
+  background-size: contain;
+  background-position: center center;
   background-repeat: no-repeat;
 }
-/* ==========================================
-   Mobile HOME background: same as GATE
-   ========================================== */
 
-@media (max-width: 768px) {
-  body:has(.home-snap) .site-bg {
-    position: fixed !important;
-    inset: 0 !important;
-    z-index: -2 !important;
+/* HOME: preserve transparent layout above the background. */
 
-    background-image: url("/image/IMG_9845.jpeg") !important;
-    background-size: contain !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-  }
-
-  body:has(.home-snap) .site-bg::before {
-    display: none !important;
-    content: none !important;
-  }
-
-  body:has(.home-snap) .home-snap,
-  body:has(.home-snap) .home-page,
-  body:has(.home-snap) .hero,
-  body:has(.home-snap) .hero-scroll {
-    background: transparent !important;
-  }
+body:has(.home-snap) .home-snap,
+body:has(.home-snap) .home-page,
+body:has(.home-snap) .hero,
+body:has(.home-snap) .hero-scroll {
+  background: transparent !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================
    Mobile HOME only: section snap stability
    ========================================== */
