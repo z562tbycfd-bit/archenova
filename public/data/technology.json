@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-09-23T16:21:48.376Z",
+  "updated": "2026-09-23T19:59:37.449Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Aircraft to Make Low-Altitude Research Flights Over Colorado",
+      "url": "https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado/",
+      "summary": "Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems. The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates, and…",
+      "ts": 1790190183000,
+      "publishedAt": "2026-09-23T19:03:03.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Telescope Reaches Milestone, Looks for Elusive Supernova",
+      "url": "https://www.nasa.gov/image-article/nasas-hubble-telescope-reaches-milestone-looks-for-elusive-supernova/",
+      "summary": "NASA’s Hubble Space Telescope captured this image of massive galaxy cluster MACS J0417 (left of center) on Sept. 19, 2026. This galaxy cluster acts as a gravitational lens, bending and magnifying light from objects far b…",
+      "ts": 1790189023000,
+      "publishedAt": "2026-09-23T18:43:43.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
+      "url": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/",
+      "summary": "Arctic sea ice reached its annual minimum extent on Sept. 12, according to NASA and the National Snow and Ice Data Center (NSIDC) at the University of Colorado Boulder. The ice covered an estimated 1.78 million square mi…",
+      "ts": 1790183732000,
+      "publishedAt": "2026-09-23T17:15:32.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A congressional representative just proposed killing America’s border tower program",
+      "url": "https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program/",
+      "summary": "Delia Ramirez, a Democratic US representative from Illinois, has announced a plan to introduce new legislation to terminate the surveillance tower program along the US southern border. The announcement comes just days af…",
+      "ts": 1790183411000,
+      "publishedAt": "2026-09-23T17:10:11.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "Shannon Lucid’s Record-Setting Mission Aboard Mir",
@@ -156,6 +192,69 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: OpenAI and Anthropic to brief Security Council as AI guardrails debate intensifies",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168414",
+      "summary": "🔴 LIVE NOW The Security Council turns its attention to artificial intelligence at 3pm as the global debate over AI safety – and who controls it – intensifies at the UN. Tech leaders driving the AI race, including the he…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: Climate change is here - What happens next is still in our hands",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168372",
+      "summary": "🔴 LIVE NOW From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts …",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN’s ‘sacred covenant has been broken’, Argentina’s Milei tells General Assembly",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168415",
+      "summary": "Argentine President Javier Milei told the General Assembly on Wednesday that the UN has broken the “sacred covenant” on which it was founded, failing at what it was meant to do – while excelling at things beyond its remi…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "At UN, Pezeshkian turns terrorism accusation back on Iran’s critics",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168412",
+      "summary": "President Masoud Pezeshkian opened his General Assembly address with a direct rebuttal to US President Donald Trump, who a day earlier had branded Iran the “number one sponsor of terror.”",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "United Nations News",
       "title": "Syria begins ‘new phase of revival’, President Al-Sharaa tells General Assembly",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168411",
@@ -226,6 +325,24 @@
       "ts": 1790162220000,
       "publishedAt": "2026-09-23T11:17:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "ts": 1790157600000,
+      "publishedAt": "2026-09-23T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The AI Hype Index: AI loves cheating",
+      "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two t…",
+      "ts": 1790154000000,
+      "publishedAt": "2026-09-23T09:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -694,123 +811,6 @@
       "ts": 1790104785000,
       "publishedAt": "2026-09-22T19:19:45.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "ts": 1790100000000,
-      "publishedAt": "2026-09-22T18:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Former FDA commissioners: Heidi Overton has an opportunity to strengthen the FDA",
-      "url": "https://www.statnews.com/2026/09/22/heidi-overton-fda-commissioner-confirmation-hearing/?utm_campaign=rss",
-      "summary": "Two former FDA commissioners: Heidi Overton is the right pick in a difficult moment.",
-      "ts": 1790099343000,
-      "publishedAt": "2026-09-22T17:49:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Syngene Expands Integrated Drug Development and Manufacturing Services with BMS",
-      "url": "https://www.genengnews.com/topics/bioprocessing/syngene-expands-integrated-drug-development-and-manufacturing-services-with-bms/",
-      "summary": "The collaboration between Syngene and Bristol Myers Squibb began in 1998, culminating in the establishment of the Biocon Bristol Myers Squibb Research and Development Center, Syngene's first dedicated R&D Center. The pos…",
-      "ts": 1790099294000,
-      "publishedAt": "2026-09-22T17:48:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
-      "url": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/",
-      "summary": "Lee esta historia en español aquí. NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life. High temperatures can cause the destruction of n…",
-      "ts": 1790098390000,
-      "publishedAt": "2026-09-22T17:33:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
-      "url": "https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/",
-      "summary": "NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life. High temperatures can cause the destruction of necessary cell components, which is …",
-      "ts": 1790098390000,
-      "publishedAt": "2026-09-22T17:33:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Did the Trump administration just cut Novo a huge financial win?",
-      "url": "https://www.statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win/?utm_campaign=rss",
-      "summary": "The White House's GENEROUS plan was designed to make drugs more affordable for Medicaid users. There's one glaring potential exception.",
-      "ts": 1790094201000,
-      "publishedAt": "2026-09-22T16:23:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Chandra Finds Unusual Objects in Pinwheel Galaxy",
-      "url": "https://www.nasa.gov/image-article/nasas-chandra-finds-unusual-objects-in-pinwheel-galaxy/",
-      "summary": "Using NASA’s Chandra X-ray Observatory, researchers found mysterious objects that give off unusually low-energy X-rays but intense levels of ultraviolet radiation. One of the galaxies they studied, M101, is pictured here…",
-      "ts": 1790091648000,
-      "publishedAt": "2026-09-22T15:40:48.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Advancing AAV Development: From Production to Performance",
-      "url": "https://www.genengnews.com/multimedia/advancing-aav-development-from-production-to-performance/",
-      "summary": "In this GEN Learning Lab, our expert panelists Guangping Gao, PhD, and Thomas Quinn will explore critical steps in the AAV workflow that influence vector quality and downstream experimental success. The post Advancing AA…",
-      "ts": 1790089923000,
-      "publishedAt": "2026-09-22T15:12:03.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Novo may be getting a better deal than expected with Medicare’s Bridge program",
-      "url": "https://www.statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge/?utm_campaign=rss",
-      "summary": "Eli Lilly and Novo Nordisk were already benefitting a great deal from the Trump administration's pilot program covering obesity drugs for seniors at a price of $245 a month. It…",
-      "ts": 1790086980000,
-      "publishedAt": "2026-09-22T14:23:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Best Practices for Establishing Data Integrity in Western Blotting",
-      "url": "https://www.genengnews.com/topics/bioprocessing/best-practices-for-establishing-data-integrity-in-western-blotting/",
-      "summary": "Despite advances in other proteomic methods, including mass spectrometry, western blotting remains one of the most widely-used techniques across life sciences research due to its affordability, specificity, and widesprea…",
-      "ts": 1790084548000,
-      "publishedAt": "2026-09-22T13:42:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-      "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreak…",
-      "ts": 1790084525000,
-      "publishedAt": "2026-09-22T13:42:05.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut to Answer Questions from New Hampshire Students",
-      "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-to-answer-questions-from-new-hampshire-students/",
-      "summary": "Editor’s Note: This feature was updated Sept. 22, 2026, to note the time change for the in-flight call with students. Students in New Hampshire will hear from NASA astronaut Anil Menon as he answers prerecorded STEM ques…",
-      "ts": 1790084333000,
-      "publishedAt": "2026-09-22T13:38:53.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Epic’s mortality model, and Omada’s future products",
-      "url": "https://www.statnews.com/2026/09/22/epics-mortality-model-omadas-future-products-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: What Epic's mortality prediction algorithm tells us about AI in geriatrics, Omada's expansion plans, and more.",
-      "ts": 1790082905000,
-      "publishedAt": "2026-09-22T13:15:05.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
