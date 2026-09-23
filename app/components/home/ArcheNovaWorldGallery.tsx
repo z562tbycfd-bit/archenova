@@ -387,9 +387,7 @@ export default function ArcheNovaWorldGallery() {
           className="an-world-gallery__header"
           data-an-world-reveal
         >
-          <p className="an-world-gallery__eyebrow">
-            ARCHENOVA / THE CIVILIZATION EXHIBITION
-          </p>
+
 
           <h2
             id="an-world-gallery-title"
@@ -401,15 +399,16 @@ export default function ArcheNovaWorldGallery() {
           </h2>
 
           <p className="an-world-gallery__introduction">
+            <small>
             Five visions of a world
             <br />
             yet to be built.
+            </small>
           </p>
 
           <div className="an-world-gallery__header-bottom">
-            <span>THE COLLECTION / 2026</span>
-
-            <span>SCROLL TO EXPLORE ↓</span>
+            
+            <span>THE COLLECTION / 2026 ↓</span>
           </div>
         </header>
 
