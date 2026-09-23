@@ -2,18 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const HOME_LINKS = [
-  { id: "founder-digital-twin", label: "Founder" },
-  { id: "archenova-search-section", label: "ArcheNova Map" },
-  { id: "todays-inquiry", label: "Today's Inquiry" },
-  { id: "humanity-responsibility", label: "Humanity & Responsibility" },
-  { id: "works", label: "Works" },
-  { id: "work-models", label: "Work Models" },
-  { id: "civilization-space", label: "Civilization Space" },
-  { id: "archenova-valley", label: "ArcheNova Valley" },
-] as const;
-
-function MenuIcon({ open }: { open: boolean }) {
+function MenuIcon() {
   return (
     <svg
       width="22"
@@ -25,31 +14,7 @@ function MenuIcon({ open }: { open: boolean }) {
       strokeLinecap="round"
       aria-hidden="true"
     >
-      {open ? (
-        <path d="M5 5l14 14M19 5L5 19" />
-      ) : (
-        <path d="M4 7h16M4 12h16M4 17h16" />
-      )}
-    </svg>
-  );
-}
-
-function EpistemeIcon() {
-  return (
-    <svg
-      width="22"
-      height="22"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.4"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <path d="M12 5.5a4 4 0 0 0-7 2.4 4 4 0 0 0-.5 7.1A4 4 0 0 0 12 18.5V5.5Z" />
-      <path d="M12 5.5a4 4 0 0 1 7 2.4 4 4 0 0 1 .5 7.1 4 4 0 0 1-7.5 3.5v-13Z" />
-      <path d="M8.5 9.5 12 12l3.5-2.5M12 12v6.5" />
+      <path d="M4 7h16M4 12h16M4 17h16" />
     </svg>
   );
 }
@@ -60,28 +25,77 @@ export default function ArcheNovaHeader() {
 
   const lastScrollY = useRef(0);
   const directionDistance = useRef(0);
-  const menuOpenRef = useRef(false);
+  const frameRef = useRef<number | null>(null);
 
+  /*
+   * HOME-only class.
+   *
+   * Hides the original Menu.tsx trigger on HOME,
+   * without removing or duplicating the existing menu.
+   */
   useEffect(() => {
-    menuOpenRef.current = menuOpen;
+    document.body.classList.add("an-home-header-active");
 
-    if (menuOpen) {
-      setVisible(true);
-    }
-  }, [menuOpen]);
+    return () => {
+      document.body.classList.remove("an-home-header-active");
+    };
+  }, []);
 
+  /*
+   * Observe the existing Menu.tsx state.
+   *
+   * Menu.tsx remains the single owner of:
+   * - menu opening and closing
+   * - route navigation
+   * - HOME section navigation
+   * - body scroll lock
+   * - Escape handling
+   */
+  useEffect(() => {
+    const updateMenuState = () => {
+      const existingMenu = document.querySelector(".an-menu");
+
+      const isOpen =
+        existingMenu?.classList.contains("is-open") ?? false;
+
+      const isClosing =
+        existingMenu?.classList.contains("is-closing") ?? false;
+
+      setMenuOpen(isOpen || isClosing);
+    };
+
+    updateMenuState();
+
+    const observer = new MutationObserver(updateMenuState);
+
+    observer.observe(document.body, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  /*
+   * Reveal on upward scrolling.
+   * Hide on downward scrolling.
+   *
+   * Keep the header visible while the menu is open.
+   */
   useEffect(() => {
     lastScrollY.current = window.scrollY;
 
-    let frame = 0;
-
     const update = () => {
-      frame = 0;
+      frameRef.current = null;
 
       const currentY = Math.max(0, window.scrollY);
       const delta = currentY - lastScrollY.current;
 
-      if (currentY <= 80 || menuOpenRef.current) {
+      if (currentY <= 80 || menuOpen) {
         setVisible(true);
         directionDistance.current = 0;
       } else if (Math.abs(delta) > 0.5) {
@@ -95,9 +109,7 @@ export default function ArcheNovaHeader() {
         if (directionDistance.current > 24) {
           setVisible(false);
           directionDistance.current = 0;
-        }
-
-        if (directionDistance.current < -18) {
+        } else if (directionDistance.current < -18) {
           setVisible(true);
           directionDistance.current = 0;
         }
@@ -107,40 +119,55 @@ export default function ArcheNovaHeader() {
     };
 
     const onScroll = () => {
-      if (!frame) {
-        frame = window.requestAnimationFrame(update);
+      if (frameRef.current === null) {
+        frameRef.current =
+          window.requestAnimationFrame(update);
       }
     };
 
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") {
-        setMenuOpen(false);
-      }
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("keydown", onKeyDown);
+    window.addEventListener("scroll", onScroll, {
+      passive: true,
+    });
 
     return () => {
       window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("keydown", onKeyDown);
 
-      if (frame) {
-        window.cancelAnimationFrame(frame);
+      if (frameRef.current !== null) {
+        window.cancelAnimationFrame(frameRef.current);
       }
     };
-  }, []);
+  }, [menuOpen]);
 
-  const navigate = (id: string) => {
-    setMenuOpen(false);
-    setVisible(true);
+  /*
+   * Open the EXISTING Menu.tsx.
+   *
+   * Its original trigger is visually hidden on HOME,
+   * but remains mounted so its established opening
+   * behavior can be used without creating a second menu.
+   */
+  const openExistingMenu = () => {
+    const trigger =
+      document.querySelector<HTMLButtonElement>(
+        ".an-menu__trigger",
+      );
 
-    document.getElementById(id)?.scrollIntoView({
-      behavior: "smooth",
+    if (trigger) {
+      trigger.click();
+      setVisible(true);
+    }
+  };
+
+  const backToTop = () => {
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    document.getElementById("home-top")?.scrollIntoView({
+      behavior: reducedMotion ? "auto" : "smooth",
       block: "start",
     });
 
-    window.history.replaceState(null, "", `#${id}`);
+    setVisible(true);
   };
 
   return (
@@ -152,20 +179,18 @@ export default function ArcheNovaHeader() {
           ? "an-top-header--visible"
           : "an-top-header--hidden",
       ].join(" ")}
+      aria-label="ArcheNova header"
     >
       <div className="an-top-header__bar">
         <div className="an-top-header__side">
           <button
             type="button"
             className="an-top-header__icon"
-            aria-label={
-              menuOpen ? "Close navigation" : "Open navigation"
-            }
+            aria-label="Open ArcheNova navigation"
             aria-expanded={menuOpen}
-            aria-controls="an-top-header-menu"
-            onClick={() => setMenuOpen((open) => !open)}
+            onClick={openExistingMenu}
           >
-            <MenuIcon open={menuOpen} />
+            <MenuIcon />
           </button>
         </div>
 
@@ -175,46 +200,19 @@ export default function ArcheNovaHeader() {
           aria-label="ArcheNova — Back to top"
           onClick={(event) => {
             event.preventDefault();
-            navigate("home-top");
+            backToTop();
           }}
         >
           ArcheNova
         </a>
 
-        <div className="an-top-header__side an-top-header__side--right">
-          <button
-            type="button"
-            className="an-top-header__icon"
-            aria-label="Go to Episteme"
-            title="Episteme"
-            onClick={() => navigate("founder-digital-twin")}
-          >
-            <EpistemeIcon />
-          </button>
+        <div
+          className="an-top-header__side an-top-header__side--right"
+          aria-hidden="true"
+        >
+          <span className="an-top-header__balance" />
         </div>
       </div>
-
-      <nav
-        id="an-top-header-menu"
-        className="an-top-header__menu"
-        aria-label="ArcheNova navigation"
-        hidden={!menuOpen}
-      >
-        <div className="an-top-header__menu-label">
-          EXPLORE ARCHE NOVA
-        </div>
-
-        {HOME_LINKS.map((link) => (
-          <button
-            key={link.id}
-            type="button"
-            onClick={() => navigate(link.id)}
-          >
-            {link.label}
-            <span aria-hidden="true">↗</span>
-          </button>
-        ))}
-      </nav>
     </header>
   );
 }
