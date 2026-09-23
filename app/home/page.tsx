@@ -11,6 +11,14 @@ import FounderDigitalTwinPortal from "../components/founder-digital-twin/Founder
 import WorksPortal from "../components/WorksPortal ";
 import WorkModelsPortal from "../components/WorkModelsPortal";
 
+import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
+
+
+import {
+  ArcheNovaHorizon,
+  ArcheNovaStillness,
+} from "../components/home/ArcheNovaCivilizationJourney";
+
 /** HOME only. All visual rules live in app/globals.css. */
 export default function HomePage() {
   return (
@@ -20,6 +28,11 @@ export default function HomePage() {
     >
       <MobileHomeScrollReset />
       <HomeSectionPager />
+
+      {/* ==================================================
+          01 — MAP
+          Existing section: unchanged.
+      ================================================== */}
 
       <section
         id="archenova-search-section"
@@ -32,6 +45,32 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ==================================================
+          02 — THE HORIZON
+          New: outward contemplation.
+      ================================================== */}
+
+      <ArcheNovaHorizon />
+
+      {/* ==================================================
+          03 — THE ARCHENOVA WORLD
+          New: five-domain civilization collection.
+      ================================================== */}
+
+      <ArcheNovaWorldGallery />
+
+      {/* ==================================================
+          04 — THE STILLNESS
+          New: inward contemplation.
+      ================================================== */}
+
+      <ArcheNovaStillness />
+
+      {/* ==================================================
+          05 — FOUNDER
+          Existing section: unchanged.
+      ================================================== */}
+
       <section
         id="founder-digital-twin"
         data-home-section
@@ -42,6 +81,11 @@ export default function HomePage() {
           <FounderDigitalTwinPortal />
         </div>
       </section>
+
+      {/* ==================================================
+          06 — TODAY'S INQUIRY
+          Existing section: unchanged.
+      ================================================== */}
 
       <section
         id="todays-inquiry"
@@ -54,6 +98,11 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ==================================================
+          07 — HUMANITY RESPONSIBILITY
+          Existing section: unchanged.
+      ================================================== */}
+
       <section
         id="humanity-responsibility"
         data-home-section
@@ -64,6 +113,11 @@ export default function HomePage() {
           <HumanityResponsibilityPortal />
         </div>
       </section>
+
+      {/* ==================================================
+          08 — WORKS
+          Existing section: unchanged.
+      ================================================== */}
 
       <section
         id="works"
@@ -76,6 +130,11 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ==================================================
+          09 — WORK MODELS
+          Existing section: unchanged.
+      ================================================== */}
+
       <section
         id="work-models"
         data-home-section
@@ -87,6 +146,11 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ==================================================
+          10 — CIVILIZATION SPACE
+          Existing section: unchanged.
+      ================================================== */}
+
       <section
         id="civilization-space"
         data-home-section
@@ -97,6 +161,11 @@ export default function HomePage() {
           <CivilizationSpacePortal />
         </div>
       </section>
+
+      {/* ==================================================
+          11 — ARCHENOVA VALLEY
+          Existing section: unchanged.
+      ================================================== */}
 
       <section
         id="archenova-valley"

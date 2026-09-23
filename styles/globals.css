@@ -57117,3 +57117,3393 @@ body.an-home-header-active
 
 
 
+/* ==========================================================
+   ARCHENOVA CIVILIZATION JOURNEY
+   ----------------------------------------------------------
+   MAP → HORIZON → WORLD → STILLNESS → FOUNDER
+
+   DESIGN:
+   - One HOME section = one glass surface.
+   - Apple-inspired restrained interaction.
+   - Editorial civilization collection.
+   - Dark optical glass.
+   - No external images or animation libraries.
+   - Mobile-first readability.
+========================================================== */
+
+/* ==========================================================
+   01. SECTION FOUNDATION
+========================================================== */
+
+.archenova-twin-home .an-journey-section {
+  --an-j-white: rgba(247, 247, 247, 0.96);
+  --an-j-muted: rgba(232, 236, 241, 0.56);
+  --an-j-faint: rgba(232, 236, 241, 0.34);
+  --an-j-line: rgba(255, 255, 255, 0.095);
+
+  position: relative !important;
+  isolation: isolate !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  color: var(--an-j-white) !important;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(255, 255, 255, 0.024),
+      transparent 48%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20),
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30)
+    ) !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065) !important;
+
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px) saturate(106%) !important;
+
+  backdrop-filter:
+    blur(22px) saturate(106%) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+
+  scroll-margin-top: 12px;
+}
+
+.archenova-twin-home .an-journey-section::before,
+.archenova-twin-home .an-journey-section::after {
+  content: none !important;
+  display: none !important;
+}
+
+.archenova-twin-home .an-journey-section,
+.archenova-twin-home .an-journey-section * {
+  box-sizing: border-box;
+}
+
+.archenova-twin-home .an-journey-section button {
+  font: inherit;
+}
+
+.archenova-twin-home .an-journey-section button:focus-visible {
+  outline: 2px solid rgba(225, 237, 255, 0.86);
+  outline-offset: 5px;
+}
+
+.an-journey-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  color: rgba(239, 242, 247, 0.66);
+
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  line-height: 1.7;
+}
+
+.an-journey-eyebrow__line {
+  display: inline-block;
+
+  width: 25px;
+  height: 1px;
+
+  flex: 0 0 auto;
+
+  background: rgba(239, 242, 247, 0.48);
+}
+
+.an-journey-display {
+  margin: 0;
+
+  color: var(--an-j-white);
+
+  font-size: clamp(48px, 7.4vw, 112px);
+  font-weight: 400;
+  letter-spacing: -0.075em;
+  line-height: 0.99;
+
+  text-wrap: balance;
+}
+
+/* ==========================================================
+   02. APPLE-INSPIRED REVEAL
+
+   Only animate after the browser confirms visibility.
+   Content is never hidden before JS initialization.
+========================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+  .an-journey-section
+  [data-an-journey-reveal].is-visible {
+    animation:
+      an-journey-enter 850ms
+      cubic-bezier(0.22, 1, 0.36, 1)
+      both;
+  }
+
+  @keyframes an-journey-enter {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 22px, 0);
+      filter: blur(4px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      filter: blur(0);
+    }
+  }
+}
+
+/* ==========================================================
+   03. THE HORIZON
+========================================================== */
+
+.archenova-twin-home
+.an-journey-section--horizon {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: max(760px, 100svh) !important;
+
+  padding:
+    clamp(95px, 12vh, 150px)
+    clamp(28px, 7.5vw, 128px)
+    clamp(76px, 10vh, 120px)
+    !important;
+
+  background:
+    radial-gradient(
+      ellipse at 70% 42%,
+      rgba(64, 85, 107, 0.12),
+      transparent 42%
+    ),
+    linear-gradient(
+      160deg,
+      rgba(13, 16, 20, 0.28),
+      rgba(2, 4, 8, 0.34) 58%,
+      rgba(0, 0, 0, 0.36)
+    ) !important;
+}
+
+.an-journey-horizon__scene {
+  position: absolute;
+  z-index: 0;
+
+  inset: 0;
+
+  overflow: hidden;
+
+  pointer-events: none;
+}
+
+.an-journey-horizon__stars {
+  position: absolute;
+
+  inset: 0;
+
+  opacity: 0.58;
+
+  background-image:
+    radial-gradient(
+      1px 1px at 12% 18%,
+      rgba(255, 255, 255, 0.72) 98%,
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 31% 29%,
+      rgba(255, 255, 255, 0.44) 98%,
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 56% 12%,
+      rgba(255, 255, 255, 0.62) 98%,
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 78% 24%,
+      rgba(255, 255, 255, 0.68) 98%,
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 89% 42%,
+      rgba(255, 255, 255, 0.52) 98%,
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 22% 63%,
+      rgba(255, 255, 255, 0.38) 98%,
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 66% 68%,
+      rgba(255, 255, 255, 0.48) 98%,
+      transparent
+    );
+}
+
+.an-journey-horizon__planet {
+  position: absolute;
+
+  width: min(92vw, 1150px);
+  aspect-ratio: 1;
+
+  right: -28%;
+  bottom: -89%;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      ellipse at 40% 20%,
+      rgba(139, 168, 183, 0.16),
+      transparent 39%
+    ),
+    radial-gradient(
+      ellipse at 48% 12%,
+      rgba(83, 124, 155, 0.23),
+      rgba(22, 39, 57, 0.26) 28%,
+      rgba(5, 12, 22, 0.40) 55%,
+      rgba(0, 0, 0, 0.22) 75%
+    );
+
+  border-top:
+    1px solid rgba(167, 205, 228, 0.31);
+
+  box-shadow:
+    0 -22px 95px rgba(91, 145, 181, 0.09),
+    inset 0 32px 80px rgba(142, 182, 204, 0.07);
+
+  transform: rotate(-13deg);
+}
+
+.an-journey-horizon__orbital-line {
+  position: absolute;
+
+  width: 85%;
+  height: 32%;
+
+  right: -23%;
+  bottom: 16%;
+
+  border-top:
+    1px solid rgba(202, 222, 235, 0.12);
+
+  border-radius: 50%;
+
+  transform: rotate(-14deg);
+}
+
+.an-journey-horizon__window {
+  position: absolute;
+
+  inset: 7% 5% 7% 5%;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.055);
+
+  border-radius: 24px;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.025);
+
+  opacity: 0.72;
+}
+
+.an-journey-horizon__window span {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  width: 1px;
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(255, 255, 255, 0.07) 20%,
+      rgba(255, 255, 255, 0.035) 80%,
+      transparent
+    );
+}
+
+.an-journey-horizon__window span:nth-child(1) {
+  left: 12%;
+}
+
+.an-journey-horizon__window span:nth-child(2) {
+  right: 28%;
+}
+
+.an-journey-horizon__window span:nth-child(3) {
+  right: 12%;
+}
+
+.an-journey-horizon__content {
+  position: relative;
+  z-index: 2;
+
+  width: min(100%, 960px);
+
+  margin: 0 auto;
+}
+
+.an-journey-horizon__content
+.an-journey-display {
+  margin-top: clamp(35px, 6vw, 90px);
+}
+
+.an-journey-horizon__description {
+  margin:
+    clamp(28px, 4vw, 52px)
+    0 0;
+
+  color: rgba(237, 241, 246, 0.68);
+
+  font-size: clamp(16px, 1.7vw, 22px);
+  font-weight: 300;
+  letter-spacing: -0.025em;
+  line-height: 1.7;
+}
+
+.an-journey-horizon__footer,
+.an-journey-stillness__footer {
+  position: absolute;
+  z-index: 2;
+
+  right: clamp(28px, 7.5vw, 128px);
+  bottom: 32px;
+  left: clamp(28px, 7.5vw, 128px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: rgba(235, 239, 244, 0.38);
+
+  font-size: 9px;
+  letter-spacing: 0.19em;
+}
+
+.an-journey-horizon__footer span:last-child,
+.an-journey-stillness__footer span:last-child {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* ==========================================================
+   04. THE ARCHENOVA WORLD
+   Editorial collection / long-form natural scrolling.
+========================================================== */
+
+.archenova-twin-home
+.an-journey-section--world {
+  min-height: 100svh !important;
+
+  padding:
+    clamp(94px, 12vh, 148px)
+    clamp(22px, 5.5vw, 100px)
+    clamp(70px, 8vw, 120px)
+    !important;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(190, 203, 214, 0.035),
+      transparent 26%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(11, 12, 15, 0.25),
+      rgba(3, 4, 7, 0.30) 45%,
+      rgba(7, 8, 11, 0.28)
+    ) !important;
+}
+
+.an-journey-world__intro {
+  width: min(100%, 1250px);
+
+  margin: 0 auto;
+}
+
+.an-journey-world__title {
+  margin:
+    clamp(35px, 5.5vw, 82px)
+    0 0;
+
+  color: rgba(248, 248, 249, 0.98);
+
+  font-size: clamp(56px, 9vw, 150px);
+  font-weight: 400;
+  letter-spacing: -0.083em;
+  line-height: 0.94;
+
+  text-wrap: balance;
+}
+
+.an-journey-world__lead {
+  margin:
+    clamp(28px, 4vw, 52px)
+    0 0;
+
+  color: rgba(236, 239, 244, 0.66);
+
+  font-size: clamp(17px, 1.8vw, 25px);
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  line-height: 1.65;
+}
+
+.an-journey-world__intro-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+
+  margin-top: clamp(72px, 10vw, 150px);
+  padding-bottom: 20px;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.11);
+
+  color: rgba(232, 236, 242, 0.46);
+
+  font-size: 10px;
+  letter-spacing: 0.16em;
+}
+
+.an-journey-world__collection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap:
+    clamp(60px, 8vw, 132px)
+    clamp(18px, 3vw, 52px);
+
+  width: min(100%, 1250px);
+
+  margin:
+    clamp(34px, 5vw, 76px)
+    auto 0;
+}
+
+.an-journey-world-card {
+  min-width: 0;
+}
+
+.an-journey-world-card--wide {
+  grid-column: 1 / -1;
+}
+
+.an-journey-world-card__button {
+  display: block;
+
+  width: 100%;
+  padding: 0;
+
+  border: 0;
+  border-radius: 0;
+
+  background: transparent;
+
+  color: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.an-journey-world-card__image {
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 4 / 5;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.075);
+
+  border-radius: 5px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(18, 23, 30, 0.64),
+      rgba(4, 6, 10, 0.80)
+    );
+}
+
+.an-journey-world-card--wide
+.an-journey-world-card__image {
+  aspect-ratio: 16 / 8.4;
+}
+
+.an-journey-world-card__image-index {
+  position: absolute;
+  z-index: 4;
+
+  top: 24px;
+  left: 24px;
+
+  color: rgba(241, 245, 249, 0.64);
+
+  font-size: 10px;
+  letter-spacing: 0.19em;
+}
+
+.an-journey-world-card__image-action {
+  position: absolute;
+  z-index: 4;
+
+  top: 18px;
+  right: 20px;
+
+  display: grid;
+  place-items: center;
+
+  width: 32px;
+  height: 32px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.18);
+
+  border-radius: 50%;
+
+  background: rgba(8, 11, 15, 0.23);
+
+  color: rgba(248, 249, 250, 0.86);
+
+  font-size: 19px;
+  font-weight: 300;
+
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.an-journey-world-card__caption {
+  padding: 23px 1px 0;
+}
+
+.an-journey-world-card__meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+
+  color: rgba(233, 237, 242, 0.48);
+
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  line-height: 1.5;
+}
+
+.an-journey-world-card__caption h3 {
+  margin: 23px 0 0;
+
+  color: rgba(247, 248, 250, 0.96);
+
+  font-size: clamp(27px, 3.2vw, 48px);
+  font-weight: 400;
+  letter-spacing: -0.057em;
+  line-height: 1.13;
+}
+
+.an-journey-world-card__caption p {
+  max-width: 600px;
+
+  margin: 17px 0 0;
+
+  color: rgba(231, 236, 242, 0.57);
+
+  font-size: clamp(14px, 1.2vw, 17px);
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.an-journey-world-card__explore {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 25px;
+  padding-bottom: 7px;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.30);
+
+  color: rgba(245, 247, 250, 0.78);
+
+  font-size: 10px;
+  letter-spacing: 0.15em;
+}
+
+.an-journey-world-card__explore span {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.an-journey-world-card__detail {
+  margin-top: 28px;
+  padding:
+    26px 0 0;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.09);
+}
+
+.an-journey-world-card__detail[hidden] {
+  display: none !important;
+}
+
+.an-journey-world-card__detail-label,
+.an-journey-world-card__detail-note {
+  color: rgba(234, 239, 244, 0.42);
+
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  line-height: 1.6;
+}
+
+.an-journey-world-card__detail p {
+  max-width: 680px;
+
+  margin: 18px 0 23px;
+
+  color: rgba(238, 241, 245, 0.70);
+
+  font-size: clamp(14px, 1.25vw, 17px);
+  font-weight: 300;
+  line-height: 1.85;
+}
+
+.an-journey-world__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 28px;
+
+  width: min(100%, 1250px);
+
+  margin:
+    clamp(100px, 12vw, 180px)
+    auto 0;
+
+  padding-top: 25px;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.11);
+}
+
+.an-journey-world__footer span {
+  color: rgba(234, 238, 244, 0.42);
+
+  font-size: 10px;
+  letter-spacing: 0.15em;
+}
+
+.an-journey-world__footer p {
+  margin: 0;
+
+  color: rgba(239, 241, 245, 0.62);
+
+  font-size: clamp(16px, 1.8vw, 23px);
+  font-weight: 300;
+  letter-spacing: -0.035em;
+  line-height: 1.5;
+
+  text-align: right;
+}
+
+/* ==========================================================
+   05. WORLD VISUAL SYSTEM
+
+   Conceptual architecture made with CSS:
+   light, geometry, atmosphere, spatial depth.
+========================================================== */
+
+.an-journey-visual {
+  position: absolute;
+
+  inset: 0;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 44%,
+      rgba(92, 113, 132, 0.12),
+      transparent 47%
+    ),
+    linear-gradient(
+      165deg,
+      #121820 0%,
+      #080b11 49%,
+      #030407 100%
+    );
+
+  transform: translateZ(0);
+}
+
+.an-journey-visual__ambient {
+  position: absolute;
+
+  inset: -15%;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 47%,
+      rgba(172, 193, 207, 0.13),
+      transparent 42%
+    );
+
+  opacity: 0.8;
+}
+
+.an-journey-visual__grid {
+  position: absolute;
+
+  inset: 45% -50% -45%;
+
+  background-image:
+    linear-gradient(
+      rgba(209, 225, 237, 0.065) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(209, 225, 237, 0.065) 1px,
+      transparent 1px
+    );
+
+  background-size: 54px 54px;
+
+  transform:
+    perspective(380px)
+    rotateX(69deg);
+
+  transform-origin: center top;
+
+  opacity: 0.58;
+}
+
+.an-journey-visual__architecture {
+  position: absolute;
+
+  inset: 9% 10% 13%;
+
+  border:
+    1px solid rgba(232, 239, 245, 0.075);
+
+  border-radius: 45% 45% 4px 4px / 15% 15% 4px 4px;
+
+  box-shadow:
+    inset 0 0 70px rgba(190, 216, 233, 0.018),
+    0 0 70px rgba(0, 0, 0, 0.10);
+}
+
+.an-journey-visual__arch {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  width: 1px;
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(221, 233, 242, 0.12) 23%,
+      rgba(221, 233, 242, 0.055) 75%,
+      transparent
+    );
+}
+
+.an-journey-visual__arch--one {
+  left: 18%;
+}
+
+.an-journey-visual__arch--two {
+  left: 50%;
+}
+
+.an-journey-visual__arch--three {
+  right: 18%;
+}
+
+.an-journey-visual__core {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: min(48%, 380px);
+  aspect-ratio: 1;
+
+  transform: translate(-50%, -50%);
+}
+
+.an-journey-visual__ring {
+  position: absolute;
+
+  inset: 0;
+
+  border:
+    1px solid rgba(205, 227, 242, 0.22);
+
+  border-radius: 50%;
+
+  box-shadow:
+    0 0 34px rgba(159, 199, 225, 0.035),
+    inset 0 0 34px rgba(159, 199, 225, 0.025);
+}
+
+.an-journey-visual__ring--two {
+  inset: 16%;
+
+  border-color:
+    rgba(209, 229, 243, 0.17);
+}
+
+.an-journey-visual__ring--three {
+  inset: 32%;
+
+  border-color:
+    rgba(220, 236, 247, 0.25);
+}
+
+.an-journey-visual__light {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 10%;
+  aspect-ratio: 1;
+
+  border-radius: 50%;
+
+  background:
+    rgba(218, 234, 244, 0.75);
+
+  box-shadow:
+    0 0 24px rgba(187, 221, 244, 0.32),
+    0 0 80px rgba(151, 194, 226, 0.15);
+
+  transform: translate(-50%, -50%);
+}
+
+.an-journey-visual__horizon {
+  position: absolute;
+
+  right: 0;
+  bottom: 16%;
+  left: 0;
+
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(203, 225, 241, 0.20),
+      transparent
+    );
+}
+
+.an-journey-visual__label {
+  position: absolute;
+
+  right: 24px;
+  bottom: 22px;
+  left: 24px;
+
+  color: rgba(231, 238, 244, 0.43);
+
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+/* SPACETIME */
+
+.an-journey-visual--spacetime {
+  background:
+    radial-gradient(
+      ellipse at 50% 48%,
+      rgba(99, 135, 167, 0.17),
+      transparent 40%
+    ),
+    linear-gradient(
+      160deg,
+      #151b24,
+      #070a10 56%,
+      #020305
+    );
+}
+
+.an-journey-visual--spacetime
+.an-journey-visual__ring--one {
+  transform: rotateX(62deg) rotate(-24deg);
+}
+
+.an-journey-visual--spacetime
+.an-journey-visual__ring--two {
+  transform: rotateY(58deg) rotate(22deg);
+}
+
+/* COGNITION */
+
+.an-journey-visual--cognition {
+  background:
+    radial-gradient(
+      ellipse at 50% 45%,
+      rgba(130, 140, 180, 0.15),
+      transparent 46%
+    ),
+    linear-gradient(
+      155deg,
+      #151621,
+      #090a12 55%,
+      #030307
+    );
+}
+
+.an-journey-visual--cognition
+.an-journey-visual__core {
+  transform:
+    translate(-50%, -50%)
+    rotate(45deg);
+}
+
+.an-journey-visual--cognition
+.an-journey-visual__ring {
+  border-radius: 18%;
+}
+
+/* ENERGY */
+
+.an-journey-visual--energy {
+  background:
+    radial-gradient(
+      ellipse at 50% 63%,
+      rgba(198, 153, 99, 0.13),
+      transparent 43%
+    ),
+    linear-gradient(
+      160deg,
+      #1a1716,
+      #0d0c0c 56%,
+      #040404
+    );
+}
+
+.an-journey-visual--energy
+.an-journey-visual__ring {
+  border-color:
+    rgba(232, 194, 146, 0.22);
+}
+
+.an-journey-visual--energy
+.an-journey-visual__light {
+  background: rgba(245, 207, 160, 0.80);
+
+  box-shadow:
+    0 0 35px rgba(241, 181, 106, 0.30),
+    0 0 110px rgba(221, 151, 78, 0.15);
+}
+
+/* BIOSYSTEMS */
+
+.an-journey-visual--biosystems {
+  background:
+    radial-gradient(
+      ellipse at 50% 45%,
+      rgba(95, 146, 129, 0.14),
+      transparent 44%
+    ),
+    linear-gradient(
+      155deg,
+      #121c1b,
+      #07100f 55%,
+      #020605
+    );
+}
+
+.an-journey-visual--biosystems
+.an-journey-visual__ring {
+  border-color:
+    rgba(176, 224, 204, 0.20);
+
+  transform: rotateX(44deg) rotate(-20deg);
+}
+
+.an-journey-visual--biosystems
+.an-journey-visual__light {
+  background: rgba(188, 232, 210, 0.75);
+
+  box-shadow:
+    0 0 34px rgba(157, 222, 188, 0.23),
+    0 0 100px rgba(105, 187, 144, 0.11);
+}
+
+/* CIVILIZATION */
+
+.an-journey-visual--civilization {
+  background:
+    radial-gradient(
+      ellipse at 50% 45%,
+      rgba(169, 162, 150, 0.13),
+      transparent 44%
+    ),
+    linear-gradient(
+      160deg,
+      #1a1a1b,
+      #0b0c0f 55%,
+      #030405
+    );
+}
+
+.an-journey-visual--civilization
+.an-journey-visual__core {
+  width: min(36%, 310px);
+}
+
+.an-journey-visual--civilization
+.an-journey-visual__architecture {
+  inset: 8% 6% 12%;
+
+  border-radius:
+    50% 50% 3px 3px / 25% 25% 3px 3px;
+}
+
+/* ==========================================================
+   06. APPLE-LIKE INTERACTION
+   Restrained response to pointer input.
+========================================================== */
+
+@media (hover: hover) and (pointer: fine) {
+  .an-journey-world-card__image,
+  .an-journey-world-card__image-action,
+  .an-journey-world-card__explore {
+    transition:
+      border-color 450ms ease,
+      background 450ms ease,
+      transform 650ms cubic-bezier(0.22, 1, 0.36, 1),
+      opacity 450ms ease;
+  }
+
+  .an-journey-world-card__button:hover
+  .an-journey-world-card__image {
+    border-color:
+      rgba(255, 255, 255, 0.20);
+  }
+
+  .an-journey-world-card__button:hover
+  .an-journey-visual {
+    transform: scale(1.025);
+
+    transition:
+      transform 1000ms
+      cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .an-journey-world-card__button:hover
+  .an-journey-world-card__image-action {
+    transform: rotate(90deg);
+
+    background:
+      rgba(220, 231, 241, 0.12);
+  }
+
+  .an-journey-world-card__button:hover
+  .an-journey-world-card__explore {
+    border-color:
+      rgba(255, 255, 255, 0.65);
+  }
+}
+
+.an-journey-world-card__button:active
+.an-journey-world-card__image {
+  transform: scale(0.995);
+}
+
+/* ==========================================================
+   07. THE STILLNESS
+========================================================== */
+
+.archenova-twin-home
+.an-journey-section--stillness {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: max(760px, 100svh) !important;
+
+  padding:
+    clamp(95px, 12vh, 150px)
+    clamp(28px, 7.5vw, 128px)
+    clamp(76px, 10vh, 120px)
+    !important;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 50%,
+      rgba(195, 202, 207, 0.025),
+      transparent 45%
+    ),
+    linear-gradient(
+      155deg,
+      rgba(14, 15, 17, 0.25),
+      rgba(4, 5, 7, 0.34) 55%,
+      rgba(0, 0, 0, 0.36)
+    ) !important;
+}
+
+.an-journey-stillness__scene {
+  position: absolute;
+  z-index: 0;
+
+  inset: 0;
+
+  overflow: hidden;
+
+  opacity: 0.57;
+
+  pointer-events: none;
+}
+
+.an-journey-stillness__scene
+.an-journey-visual {
+  background:
+    radial-gradient(
+      ellipse at 50% 48%,
+      rgba(204, 207, 209, 0.065),
+      transparent 42%
+    ),
+    linear-gradient(
+      160deg,
+      rgba(14, 15, 17, 0.20),
+      rgba(4, 5, 7, 0.35)
+    );
+}
+
+.an-journey-visual--stillness
+.an-journey-visual__architecture {
+  inset: 9% 15% 11%;
+
+  border-radius:
+    48% 48% 2px 2px / 17% 17% 2px 2px;
+}
+
+.an-journey-visual--stillness
+.an-journey-visual__core {
+  top: 45%;
+
+  width: min(27%, 250px);
+
+  opacity: 0.52;
+}
+
+.an-journey-visual--stillness
+.an-journey-visual__grid {
+  opacity: 0.18;
+}
+
+.an-journey-visual--stillness
+.an-journey-visual__light {
+  background:
+    rgba(239, 233, 218, 0.70);
+
+  box-shadow:
+    0 0 45px rgba(236, 220, 191, 0.20),
+    0 0 120px rgba(236, 220, 191, 0.07);
+}
+
+.an-journey-stillness__content {
+  position: relative;
+  z-index: 2;
+
+  width: min(100%, 960px);
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.an-journey-stillness__content
+.an-journey-eyebrow {
+  justify-content: center;
+}
+
+.an-journey-stillness__content
+.an-journey-display {
+  margin-top: clamp(32px, 5vw, 70px);
+}
+
+.an-journey-stillness__question {
+  margin:
+    clamp(40px, 6vw, 82px)
+    0 0;
+
+  color: rgba(248, 248, 248, 0.87);
+
+  font-size: clamp(23px, 3.1vw, 44px);
+  font-weight: 300;
+  letter-spacing: -0.045em;
+  line-height: 1.35;
+}
+
+.an-journey-stillness__description {
+  margin:
+    clamp(24px, 3vw, 40px)
+    0 0;
+
+  color: rgba(235, 239, 244, 0.48);
+
+  font-size: clamp(14px, 1.35vw, 18px);
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+/* ==========================================================
+   08. LONG GALLERY SCROLL SUPPORT
+
+   The collection must not be clipped to one viewport.
+   Existing HOME scroll-snap remains available for other
+   sections, while the gallery can be read naturally.
+========================================================== */
+
+.archenova-twin-home
+#archenova-world {
+  height: auto !important;
+  min-height: 100svh !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+.archenova-twin-home
+#archenova-world
+.an-journey-world__collection {
+  height: auto !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+}
+
+/* ==========================================================
+   09. TABLET
+========================================================== */
+
+@media (max-width: 1024px) {
+  .archenova-twin-home
+  .an-journey-section--horizon,
+  .archenova-twin-home
+  .an-journey-section--stillness {
+    min-height: 100svh !important;
+  }
+
+  .an-journey-horizon__planet {
+    right: -43%;
+    bottom: -62%;
+
+    width: 105vw;
+  }
+
+  .an-journey-world__collection {
+    column-gap: 24px;
+  }
+
+  .an-journey-world-card__image {
+    aspect-ratio: 4 / 5.4;
+  }
+}
+
+/* ==========================================================
+   10. MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+  .archenova-twin-home
+  .an-journey-section {
+    border-radius: 26px !important;
+
+    background:
+      radial-gradient(
+        ellipse at 50% 0%,
+        rgba(255, 255, 255, 0.020),
+        transparent 50%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.16),
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26)
+      ) !important;
+
+    border:
+      1px solid rgba(255, 255, 255, 0.060)
+      !important;
+
+    -webkit-backdrop-filter:
+      blur(18px) saturate(104%) !important;
+
+    backdrop-filter:
+      blur(18px) saturate(104%) !important;
+  }
+
+  .archenova-twin-home
+  .an-journey-section--horizon,
+  .archenova-twin-home
+  .an-journey-section--stillness {
+    min-height: 100svh !important;
+
+    padding:
+      110px
+      25px
+      92px
+      !important;
+  }
+
+  .an-journey-eyebrow {
+    gap: 9px;
+
+    font-size: 9px;
+    letter-spacing: 0.14em;
+  }
+
+  .an-journey-eyebrow__line {
+    width: 18px;
+  }
+
+  .an-journey-display {
+    font-size: clamp(48px, 12vw, 80px);
+    letter-spacing: -0.075em;
+  }
+
+  .an-journey-horizon__planet {
+    width: 145vw;
+
+    right: -70%;
+    bottom: -24%;
+
+    opacity: 0.74;
+  }
+
+  .an-journey-horizon__window {
+    inset: 5% 4% 5%;
+
+    border-radius: 17px;
+  }
+
+  .an-journey-horizon__description {
+    font-size: 16px;
+  }
+
+  .an-journey-horizon__footer,
+  .an-journey-stillness__footer {
+    right: 25px;
+    bottom: 28px;
+    left: 25px;
+
+    font-size: 8px;
+    letter-spacing: 0.11em;
+  }
+
+  .archenova-twin-home
+  .an-journey-section--world {
+    padding:
+      105px
+      20px
+      76px
+      !important;
+  }
+
+  .an-journey-world__title {
+    margin-top: 34px;
+
+    font-size: clamp(54px, 12vw, 88px);
+    letter-spacing: -0.075em;
+  }
+
+  .an-journey-world__lead {
+    margin-top: 27px;
+
+    font-size: 16px;
+  }
+
+  .an-journey-world__intro-bottom {
+    margin-top: 70px;
+
+    font-size: 8px;
+    letter-spacing: 0.10em;
+  }
+
+  .an-journey-world__collection {
+    grid-template-columns: minmax(0, 1fr);
+
+    row-gap: 68px;
+
+    margin-top: 32px;
+  }
+
+  .an-journey-world-card--wide {
+    grid-column: auto;
+  }
+
+  .an-journey-world-card__image,
+  .an-journey-world-card--wide
+  .an-journey-world-card__image {
+    aspect-ratio: 4 / 4.5;
+  }
+
+  .an-journey-world-card__image-index {
+    top: 18px;
+    left: 18px;
+
+    font-size: 9px;
+  }
+
+  .an-journey-world-card__image-action {
+    top: 14px;
+    right: 14px;
+  }
+
+  .an-journey-world-card__caption {
+    padding-top: 19px;
+  }
+
+  .an-journey-world-card__meta {
+    font-size: 9px;
+  }
+
+  .an-journey-world-card__caption h3 {
+    margin-top: 18px;
+
+    font-size: clamp(30px, 8vw, 43px);
+  }
+
+  .an-journey-world-card__caption p {
+    font-size: 15px;
+  }
+
+  .an-journey-world__footer {
+    display: block;
+
+    margin-top: 100px;
+  }
+
+  .an-journey-world__footer p {
+    margin-top: 23px;
+
+    font-size: 19px;
+
+    text-align: left;
+  }
+
+  .an-journey-stillness__question {
+    margin-top: 50px;
+
+    font-size: clamp(25px, 7vw, 36px);
+  }
+
+  .an-journey-stillness__description {
+    font-size: 14px;
+  }
+
+  .an-journey-visual__architecture {
+    inset: 9% 7% 13%;
+  }
+
+  .an-journey-visual__core {
+    width: 56%;
+  }
+}
+
+/* ==========================================================
+   11. VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+  .archenova-twin-home
+  .an-journey-section {
+    border-radius: 22px !important;
+  }
+
+  .archenova-twin-home
+  .an-journey-section--horizon,
+  .archenova-twin-home
+  .an-journey-section--stillness {
+    padding-right: 21px !important;
+    padding-left: 21px !important;
+  }
+
+  .archenova-twin-home
+  .an-journey-section--world {
+    padding-right: 17px !important;
+    padding-left: 17px !important;
+  }
+
+  .an-journey-world__intro-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .an-journey-world__title {
+    font-size: clamp(49px, 12vw, 64px);
+  }
+
+  .an-journey-world-card__image,
+  .an-journey-world-card--wide
+  .an-journey-world-card__image {
+    aspect-ratio: 4 / 4.8;
+  }
+}
+
+/* ==========================================================
+   12. ACCESSIBILITY / REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .an-journey-section *,
+  .an-journey-section *::before,
+  .an-journey-section *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .an-journey-section
+  [data-an-journey-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  .an-journey-world-card__button:hover
+  .an-journey-visual {
+    transform: none !important;
+  }
+}
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME — 01 THE HORIZON
+
+   ONE SECTION = ONE GLASS SURFACE
+   Image only. No additional text, overlay, or inner card.
+========================================================== */
+
+.archenova-twin-home
+#archenova-horizon.an-horizon-image-section {
+  position: relative !important;
+  isolation: isolate !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20),
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30)
+    ) !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px) saturate(106%) !important;
+
+  backdrop-filter:
+    blur(22px) saturate(106%) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+}
+
+.archenova-twin-home
+#archenova-horizon::before,
+
+.archenova-twin-home
+#archenova-horizon::after {
+  content: none !important;
+  display: none !important;
+}
+
+.archenova-twin-home
+#archenova-horizon
+.an-horizon-image {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  height: auto !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  object-fit: contain !important;
+
+  opacity: 1 !important;
+  transform: none !important;
+
+  filter: none !important;
+
+  box-shadow: none !important;
+}
+
+/* Mobile: preserve the full image without cropping. */
+
+@media (max-width: 768px) {
+  .archenova-twin-home
+  #archenova-horizon.an-horizon-image-section {
+    border-radius: 26px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .archenova-twin-home
+  #archenova-horizon.an-horizon-image-section {
+    border-radius: 22px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME — THE STILLNESS
+   ----------------------------------------------------------
+   Image-only presentation.
+
+   One HOME section = one glass surface.
+
+   The section owns the glass frame.
+   The image fills its interior.
+
+   No inner card.
+   No extra text.
+   No generated geometry.
+========================================================== */
+
+
+/* ==========================================================
+   01. HOME GLASS SURFACE
+========================================================== */
+
+.archenova-twin-home
+#archenova-stillness.an-stillness-image-section {
+  position: relative !important;
+
+  isolation: isolate !important;
+
+  display: block !important;
+
+  width: 100% !important;
+
+  min-height: 0 !important;
+
+  height: auto !important;
+
+  max-height: none !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  overflow: hidden !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    ) !important;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius:
+    30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline: 0 !important;
+
+  scroll-margin-top: 12px;
+}
+
+
+/* ==========================================================
+   02. REMOVE LEGACY SECTION PSEUDO SURFACES
+========================================================== */
+
+.archenova-twin-home
+#archenova-stillness::before,
+
+.archenova-twin-home
+#archenova-stillness::after {
+  content: none !important;
+
+  display: none !important;
+
+  background: none !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+
+  backdrop-filter: none !important;
+}
+
+
+/* ==========================================================
+   03. IMAGE
+   ----------------------------------------------------------
+   Display the entire image without cropping.
+
+   No dark overlay is applied over the image.
+   The image itself provides the black aesthetic.
+========================================================== */
+
+.archenova-twin-home
+#archenova-stillness
+.an-stillness-image {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+
+  height: auto !important;
+
+  max-width: none !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  border: 0 !important;
+
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  object-fit: contain !important;
+
+  object-position: center center !important;
+
+  opacity: 1 !important;
+
+  transform: none !important;
+
+  filter: none !important;
+
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   04. MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-stillness.an-stillness-image-section {
+    border-radius: 26px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px)
+      saturate(104%)
+      !important;
+
+    backdrop-filter:
+      blur(18px)
+      saturate(104%)
+      !important;
+  }
+
+  .archenova-twin-home
+  #archenova-stillness
+  .an-stillness-image {
+    width: 100% !important;
+
+    height: auto !important;
+
+    object-fit: contain !important;
+  }
+
+}
+
+
+@media (max-width: 430px) {
+
+  .archenova-twin-home
+  #archenova-stillness.an-stillness-image-section {
+    border-radius: 22px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HOME — QUIET SPACES
+   ==========================================================
+
+   THE HORIZON
+   THE STILLNESS
+
+   TRANSPARENT BLACK GLASS
+   ×
+   ELEGANT TYPOGRAPHY
+   ×
+   SUBTLE LIGHT
+   ×
+   RESTRAINED MOTION
+
+   No images.
+   No additional visible text.
+   No inner glass card.
+========================================================== */
+
+
+/* ==========================================================
+   01. SECTION — THE ONLY GLASS SURFACE
+========================================================== */
+
+.archenova-twin-home
+#archenova-horizon.an-quiet-space,
+
+.archenova-twin-home
+#archenova-stillness.an-quiet-space {
+  position: relative !important;
+
+  isolation: isolate !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  width: 100% !important;
+
+  min-height: 100svh !important;
+
+  height: auto !important;
+
+  max-height: none !important;
+
+  margin: 0 !important;
+
+  padding:
+    clamp(90px, 12vh, 150px)
+    clamp(26px, 7vw, 120px)
+    !important;
+
+  overflow: hidden !important;
+
+  /*
+   * Nearly black, optically transparent glass.
+   *
+   * The ambient background remains faintly visible.
+   */
+
+  background:
+    radial-gradient(
+      ellipse at 50% 50%,
+      rgba(29, 32, 38, 0.18) 0%,
+      rgba(8, 9, 12, 0.26) 45%,
+      rgba(0, 0, 0, 0.40) 100%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(7, 8, 10, 0.38),
+      rgba(0, 0, 0, 0.50)
+    )
+    !important;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius:
+    30px !important;
+
+  -webkit-backdrop-filter:
+    blur(24px)
+    saturate(90%)
+    !important;
+
+  backdrop-filter:
+    blur(24px)
+    saturate(90%)
+    !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.050),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.012)
+    !important;
+
+  outline: 0 !important;
+
+  scroll-margin-top: 12px;
+}
+
+
+/* ==========================================================
+   02. NO LEGACY PSEUDO CARDS
+========================================================== */
+
+.archenova-twin-home
+#archenova-horizon.an-quiet-space::before,
+
+.archenova-twin-home
+#archenova-horizon.an-quiet-space::after,
+
+.archenova-twin-home
+#archenova-stillness.an-quiet-space::before,
+
+.archenova-twin-home
+#archenova-stillness.an-quiet-space::after {
+  content: none !important;
+
+  display: none !important;
+
+  background: none !important;
+
+  border: 0 !important;
+
+  box-shadow: none !important;
+}
+
+
+/* ==========================================================
+   03. CENTERED TYPOGRAPHY
+========================================================== */
+
+.archenova-twin-home
+.an-quiet-space
+.an-quiet-space__center {
+  position: relative;
+
+  z-index: 1;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 100%;
+
+  max-width: 1250px;
+
+  min-height: 160px;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+
+.archenova-twin-home
+.an-quiet-space
+.an-quiet-space__sentence {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+
+  max-width: 1100px;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: rgba(249, 249, 250, 0.92);
+
+  font-family:
+    "Bodoni Moda",
+    "Didot",
+    "Bodoni MT",
+    "Times New Roman",
+    Georgia,
+    serif;
+
+  font-size:
+    clamp(25px, 3.1vw, 48px);
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  letter-spacing: 0.025em;
+
+  line-height: 1.55;
+
+  text-wrap: balance;
+
+  -webkit-font-smoothing: antialiased;
+
+  text-rendering: optimizeLegibility;
+
+  /*
+   * A faint optical presence, not a visible neon glow.
+   */
+
+  text-shadow:
+    0 0 26px rgba(231, 239, 249, 0.075);
+}
+
+
+/* ==========================================================
+   04. QUIET APPEARANCE
+
+   The sentence becomes visible when its HOME section
+   enters the viewport.
+========================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .archenova-twin-home
+  .an-quiet-space
+  .an-quiet-space__sentence {
+    opacity: 0;
+
+    transform:
+      translate3d(0, 17px, 0);
+
+    filter:
+      blur(3px);
+
+    transition:
+      opacity 1800ms
+        cubic-bezier(0.22, 1, 0.36, 1),
+
+      transform 1800ms
+        cubic-bezier(0.22, 1, 0.36, 1),
+
+      filter 1800ms
+        cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+
+  .archenova-twin-home
+  .an-quiet-space.an-quiet-space--visible
+  .an-quiet-space__sentence {
+    opacity: 1;
+
+    transform:
+      translate3d(0, 0, 0);
+
+    filter:
+      blur(0);
+  }
+
+}
+
+
+/* ==========================================================
+   05. SUBTLE LIGHT BREATHING
+
+   The light effect remains barely perceptible.
+   It must not compete with the sentence.
+========================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .archenova-twin-home
+  .an-quiet-space.an-quiet-space--visible
+  .an-quiet-space__sentence {
+    animation:
+      an-quiet-text-breathe
+      11s ease-in-out 2s infinite alternate;
+  }
+
+
+  @keyframes an-quiet-text-breathe {
+
+    0% {
+      text-shadow:
+        0 0 22px rgba(231, 239, 249, 0.045);
+    }
+
+    100% {
+      text-shadow:
+        0 0 34px rgba(231, 239, 249, 0.105);
+    }
+
+  }
+
+}
+
+
+/* ==========================================================
+   06. MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-horizon.an-quiet-space,
+
+  .archenova-twin-home
+  #archenova-stillness.an-quiet-space {
+    min-height: 100svh !important;
+
+    padding:
+      100px
+      28px
+      !important;
+
+    border-radius:
+      26px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px)
+      saturate(90%)
+      !important;
+
+    backdrop-filter:
+      blur(18px)
+      saturate(90%)
+      !important;
+  }
+
+
+  .archenova-twin-home
+  .an-quiet-space
+  .an-quiet-space__center {
+    min-height: 130px;
+  }
+
+
+  .archenova-twin-home
+  .an-quiet-space
+  .an-quiet-space__sentence {
+    max-width: 560px;
+
+    font-size:
+      clamp(24px, 5.5vw, 36px);
+
+    letter-spacing: 0.015em;
+
+    line-height: 1.65;
+  }
+
+}
+
+
+/* ==========================================================
+   07. VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .archenova-twin-home
+  #archenova-horizon.an-quiet-space,
+
+  .archenova-twin-home
+  #archenova-stillness.an-quiet-space {
+    padding:
+      90px
+      22px
+      !important;
+
+    border-radius:
+      22px !important;
+  }
+
+
+  .archenova-twin-home
+  .an-quiet-space
+  .an-quiet-space__sentence {
+    font-size:
+      clamp(23px, 6vw, 29px);
+
+    letter-spacing: 0.01em;
+
+    line-height: 1.7;
+  }
+
+}
+
+
+/* ==========================================================
+   08. REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .archenova-twin-home
+  .an-quiet-space
+  .an-quiet-space__sentence {
+    opacity: 1 !important;
+
+    transform: none !important;
+
+    filter: none !important;
+
+    animation: none !important;
+
+    transition: none !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA WORLD
+   THE CIVILIZATION EXHIBITION
+
+   Editorial art gallery
+   ×
+   Transparent black optical glass
+   ×
+   Restrained interaction
+
+   Five supplied JPEG artworks.
+
+   One HOME section = one glass surface.
+========================================================== */
+
+
+/* ==========================================================
+   01 — THE ONLY GLASS SURFACE
+========================================================== */
+
+.archenova-twin-home
+#archenova-world.an-world-gallery {
+  --aw-white: rgba(250, 250, 250, 0.96);
+  --aw-secondary: rgba(241, 243, 246, 0.67);
+  --aw-muted: rgba(234, 237, 242, 0.44);
+  --aw-line: rgba(255, 255, 255, 0.12);
+
+  position: relative !important;
+
+  isolation: isolate !important;
+
+  display: block !important;
+
+  width: 100% !important;
+
+  min-height: 100svh !important;
+
+  height: auto !important;
+
+  max-height: none !important;
+
+  margin: 0 !important;
+
+  padding:
+    clamp(90px, 10vw, 155px)
+    clamp(20px, 5vw, 90px)
+    clamp(85px, 9vw, 145px)
+    !important;
+
+  overflow: visible !important;
+
+  color: var(--aw-white) !important;
+
+  background:
+    linear-gradient(
+      155deg,
+      rgba(13, 14, 17, 0.36) 0%,
+      rgba(4, 5, 7, 0.44) 48%,
+      rgba(0, 0, 0, 0.53) 100%
+    )
+    !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.07)
+    !important;
+
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter:
+    blur(24px) saturate(85%) !important;
+
+  backdrop-filter:
+    blur(24px) saturate(85%) !important;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.045),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.012)
+    !important;
+
+  scroll-snap-align: start;
+
+  scroll-snap-stop: normal;
+}
+
+
+/* No legacy pseudo-glass. */
+
+.archenova-twin-home
+#archenova-world.an-world-gallery::before,
+
+.archenova-twin-home
+#archenova-world.an-world-gallery::after {
+  content: none !important;
+
+  display: none !important;
+}
+
+
+/* ==========================================================
+   02 — INNER EDITORIAL WIDTH
+========================================================== */
+
+.archenova-twin-home
+#archenova-world
+.an-world-gallery__inner {
+  position: relative;
+
+  width: 100%;
+
+  max-width: 1360px;
+
+  margin: 0 auto;
+
+  padding: 0;
+
+  background: transparent;
+
+  border: 0;
+
+  box-shadow: none;
+}
+
+.archenova-twin-home
+#archenova-world *,
+.archenova-twin-home
+#archenova-world *::before,
+.archenova-twin-home
+#archenova-world *::after {
+  box-sizing: border-box;
+}
+
+
+/* ==========================================================
+   03 — INTRODUCTION
+========================================================== */
+
+.an-world-gallery__header {
+  padding:
+    clamp(20px, 4vw, 60px)
+    0
+    clamp(65px, 10vw, 145px);
+}
+
+.an-world-gallery__eyebrow {
+  margin: 0;
+
+  color: var(--aw-muted);
+
+  font-size: 10px;
+  font-weight: 400;
+
+  letter-spacing: 0.22em;
+
+  line-height: 1.8;
+}
+
+.an-world-gallery__title {
+  margin:
+    clamp(35px, 6vw, 86px)
+    0 0;
+
+  color: var(--aw-white);
+
+  font-family:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: clamp(56px, 9vw, 142px);
+
+  font-weight: 200;
+
+  letter-spacing: -0.075em;
+
+  line-height: 0.99;
+
+  text-wrap: balance;
+}
+
+.an-world-gallery__introduction {
+  margin:
+    clamp(34px, 5vw, 70px)
+    0 0;
+
+  color: var(--aw-secondary);
+
+  font-size: clamp(17px, 2vw, 26px);
+
+  font-weight: 300;
+
+  letter-spacing: -0.025em;
+
+  line-height: 1.65;
+}
+
+.an-world-gallery__header-bottom {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 24px;
+
+  margin-top: clamp(85px, 11vw, 165px);
+
+  padding-bottom: 22px;
+
+  border-bottom:
+    1px solid var(--aw-line);
+
+  color: var(--aw-muted);
+
+  font-size: 10px;
+
+  letter-spacing: 0.16em;
+
+  line-height: 1.6;
+}
+
+
+/* ==========================================================
+   04 — THE COLLECTION
+
+   Hero image
+   → two-column editorial gallery
+   → final two-column exhibition.
+
+   Each image is the artwork.
+   No inner glass panel.
+========================================================== */
+
+.an-world-gallery__collection {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  column-gap: clamp(22px, 4vw, 72px);
+
+  row-gap: clamp(85px, 10vw, 165px);
+
+  width: 100%;
+}
+
+.an-world-gallery__item {
+  min-width: 0;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+.an-world-gallery__item--hero {
+  grid-column: 1 / -1;
+}
+
+
+/* ==========================================================
+   05 — ARTWORK BUTTON
+========================================================== */
+
+.an-world-gallery__artwork-button {
+  display: block;
+
+  width: 100%;
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  border-radius: 0;
+
+  background: transparent;
+
+  color: inherit;
+
+  font: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.an-world-gallery__artwork-button:focus-visible {
+  outline:
+    2px solid rgba(232, 239, 247, 0.85);
+
+  outline-offset: 7px;
+}
+
+
+/* ==========================================================
+   06 — IMAGE FRAME
+========================================================== */
+
+.an-world-gallery__image-frame {
+  position: relative;
+
+  isolation: isolate;
+
+  display: block;
+
+  width: 100%;
+
+  aspect-ratio: 4 / 5;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.075);
+
+  border-radius: 3px;
+
+  background: rgba(9, 10, 12, 0.48);
+}
+
+.an-world-gallery__item--hero
+.an-world-gallery__image-frame {
+  aspect-ratio: 16 / 9;
+}
+
+.an-world-gallery__item--landscape
+.an-world-gallery__image-frame {
+  aspect-ratio: 4 / 3;
+}
+
+.an-world-gallery__image {
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  transform: scale(1);
+
+  transition:
+    transform 1100ms
+      cubic-bezier(0.22, 1, 0.36, 1),
+    filter 800ms ease;
+}
+
+.an-world-gallery__image-number {
+  position: absolute;
+
+  z-index: 2;
+
+  top: 23px;
+
+  left: 23px;
+
+  color: rgba(255, 255, 255, 0.90);
+
+  font-size: 10px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.15em;
+
+  text-shadow:
+    0 1px 12px rgba(0, 0, 0, 0.48);
+}
+
+.an-world-gallery__image-control {
+  position: absolute;
+
+  z-index: 2;
+
+  top: 17px;
+
+  right: 17px;
+
+  display: grid;
+
+  place-items: center;
+
+  width: 36px;
+
+  height: 36px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.26);
+
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.24);
+
+  -webkit-backdrop-filter:
+    blur(14px) saturate(90%);
+
+  backdrop-filter:
+    blur(14px) saturate(90%);
+
+  color: rgba(255, 255, 255, 0.96);
+
+  font-size: 22px;
+
+  font-weight: 200;
+
+  line-height: 1;
+
+  transition:
+    background 450ms ease,
+    transform 600ms
+      cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+/* ==========================================================
+   07 — CAPTION
+========================================================== */
+
+.an-world-gallery__caption {
+  display: block;
+
+  padding: clamp(22px, 3vw, 38px) 1px 0;
+
+  background: transparent;
+
+  border: 0;
+
+  box-shadow: none;
+}
+
+.an-world-gallery__category {
+  display: block;
+
+  color: var(--aw-muted);
+
+  font-size: 10px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.19em;
+
+  line-height: 1.6;
+}
+
+.an-world-gallery__item-title {
+  margin: 23px 0 0;
+
+  color: var(--aw-white);
+
+  font-family:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: clamp(30px, 3.4vw, 54px);
+
+  font-weight: 300;
+
+  letter-spacing: -0.052em;
+
+  line-height: 1.14;
+}
+
+.an-world-gallery__item--hero
+.an-world-gallery__item-title {
+  font-size: clamp(40px, 5vw, 76px);
+}
+
+.an-world-gallery__statement {
+  max-width: 640px;
+
+  margin: 19px 0 0;
+
+  color: var(--aw-secondary);
+
+  font-size: clamp(15px, 1.25vw, 19px);
+
+  font-weight: 300;
+
+  letter-spacing: -0.015em;
+
+  line-height: 1.8;
+}
+
+.an-world-gallery__action {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  margin-top: 28px;
+
+  padding-bottom: 8px;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.28);
+
+  color: rgba(249, 249, 250, 0.86);
+
+  font-size: 10px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.15em;
+
+  line-height: 1.5;
+
+  transition:
+    border-color 350ms ease;
+}
+
+.an-world-gallery__action > span {
+  font-size: 17px;
+
+  font-weight: 300;
+
+  line-height: 1;
+}
+
+
+/* ==========================================================
+   08 — EXPANDED EXHIBITION DETAILS
+========================================================== */
+
+.an-world-gallery__detail {
+  margin-top: 28px;
+
+  padding:
+    27px 0 0;
+
+  border-top:
+    1px solid var(--aw-line);
+
+  background: transparent;
+
+  box-shadow: none;
+}
+
+.an-world-gallery__detail[hidden] {
+  display: none !important;
+}
+
+.an-world-gallery__detail-heading,
+.an-world-gallery__detail-note {
+  color: var(--aw-muted);
+
+  font-size: 10px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.17em;
+
+  line-height: 1.7;
+}
+
+.an-world-gallery__detail p {
+  max-width: 760px;
+
+  margin: 20px 0 26px;
+
+  color: rgba(240, 242, 246, 0.74);
+
+  font-size: clamp(15px, 1.3vw, 19px);
+
+  font-weight: 300;
+
+  line-height: 1.9;
+}
+
+
+/* ==========================================================
+   09 — QUIET APPLE-LIKE INTERACTION
+========================================================== */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .an-world-gallery__artwork-button:hover
+  .an-world-gallery__image {
+    transform: scale(1.025);
+  }
+
+  .an-world-gallery__artwork-button:hover
+  .an-world-gallery__image-control {
+    background: rgba(0, 0, 0, 0.40);
+
+    transform: rotate(90deg);
+  }
+
+  .an-world-gallery__artwork-button:hover
+  .an-world-gallery__action {
+    border-color:
+      rgba(255, 255, 255, 0.76);
+  }
+
+}
+
+
+/* ==========================================================
+   10 — SCROLL REVEAL
+========================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .an-world-gallery
+  [data-an-world-reveal].is-visible {
+    animation:
+      an-world-gallery-reveal
+      1100ms
+      cubic-bezier(0.22, 1, 0.36, 1)
+      both;
+  }
+
+  @keyframes an-world-gallery-reveal {
+
+    from {
+      opacity: 0;
+
+      transform:
+        translate3d(0, 25px, 0);
+    }
+
+    to {
+      opacity: 1;
+
+      transform:
+        translate3d(0, 0, 0);
+    }
+
+  }
+
+}
+
+
+/* ==========================================================
+   11 — CLOSING STATEMENT
+========================================================== */
+
+.an-world-gallery__footer {
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap: 36px;
+
+  margin-top:
+    clamp(120px, 15vw, 220px);
+
+  padding-top: 27px;
+
+  border-top:
+    1px solid var(--aw-line);
+}
+
+.an-world-gallery__footer > span {
+  color: var(--aw-muted);
+
+  font-size: 10px;
+
+  letter-spacing: 0.16em;
+
+  line-height: 1.8;
+}
+
+.an-world-gallery__footer p {
+  margin: 0;
+
+  color: var(--aw-secondary);
+
+  font-size: clamp(18px, 2vw, 28px);
+
+  font-weight: 300;
+
+  letter-spacing: -0.025em;
+
+  line-height: 1.6;
+
+  text-align: right;
+}
+
+
+/* ==========================================================
+   12 — TABLET
+========================================================== */
+
+@media (max-width: 1024px) {
+
+  .an-world-gallery__collection {
+    column-gap: 25px;
+  }
+
+  .an-world-gallery__item-title {
+    font-size: clamp(28px, 3.5vw, 43px);
+  }
+
+}
+
+
+/* ==========================================================
+   13 — MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-world.an-world-gallery {
+    padding:
+      105px
+      20px
+      80px
+      !important;
+
+    border-radius:
+      26px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px) saturate(85%) !important;
+
+    backdrop-filter:
+      blur(18px) saturate(85%) !important;
+  }
+
+  .an-world-gallery__header {
+    padding:
+      12px 0 72px;
+  }
+
+  .an-world-gallery__eyebrow {
+    font-size: 9px;
+
+    letter-spacing: 0.13em;
+  }
+
+  .an-world-gallery__title {
+    margin-top: 42px;
+
+    font-size:
+      clamp(48px, 11vw, 76px);
+
+    font-weight: 200;
+  }
+
+  .an-world-gallery__introduction {
+    margin-top: 33px;
+
+    font-size: 17px;
+  }
+
+  .an-world-gallery__header-bottom {
+    margin-top: 76px;
+
+    font-size: 9px;
+
+    letter-spacing: 0.10em;
+  }
+
+  .an-world-gallery__collection {
+    grid-template-columns:
+      minmax(0, 1fr);
+
+    row-gap: 85px;
+  }
+
+  .an-world-gallery__item--hero {
+    grid-column: auto;
+  }
+
+  .an-world-gallery__image-frame {
+    aspect-ratio: 4 / 5;
+  }
+
+  .an-world-gallery__item--hero
+  .an-world-gallery__image-frame {
+    aspect-ratio: 4 / 5;
+  }
+
+  .an-world-gallery__item--landscape
+  .an-world-gallery__image-frame {
+    aspect-ratio: 16 / 9;
+  }
+
+  .an-world-gallery__image-number {
+    top: 18px;
+
+    left: 18px;
+
+    font-size: 9px;
+  }
+
+  .an-world-gallery__image-control {
+    top: 13px;
+
+    right: 13px;
+  }
+
+  .an-world-gallery__caption {
+    padding-top: 24px;
+  }
+
+  .an-world-gallery__category {
+    font-size: 9px;
+  }
+
+  .an-world-gallery__item-title,
+  .an-world-gallery__item--hero
+  .an-world-gallery__item-title {
+    margin-top: 20px;
+
+    font-size:
+      clamp(32px, 8vw, 46px);
+  }
+
+  .an-world-gallery__statement {
+    font-size: 15px;
+  }
+
+  .an-world-gallery__detail p {
+    font-size: 15px;
+  }
+
+  .an-world-gallery__footer {
+    display: block;
+
+    margin-top: 120px;
+  }
+
+  .an-world-gallery__footer p {
+    margin-top: 30px;
+
+    font-size: 21px;
+
+    text-align: left;
+  }
+
+}
+
+
+/* ==========================================================
+   14 — SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  .archenova-twin-home
+  #archenova-world.an-world-gallery {
+    padding-right: 17px !important;
+
+    padding-left: 17px !important;
+
+    border-radius: 22px !important;
+  }
+
+  .an-world-gallery__title {
+    font-size:
+      clamp(45px, 11vw, 58px);
+  }
+
+  .an-world-gallery__header-bottom {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 10px;
+  }
+
+}
+
+
+/* ==========================================================
+   15 — REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .an-world-gallery *,
+  .an-world-gallery *::before,
+  .an-world-gallery *::after {
+    animation: none !important;
+
+    transition: none !important;
+  }
+
+  .an-world-gallery
+  [data-an-world-reveal] {
+    opacity: 1 !important;
+
+    transform: none !important;
+  }
+
+  .an-world-gallery__artwork-button:hover
+  .an-world-gallery__image {
+    transform: none !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+  ARCHENOVA WORLD
+  IMG_2559.jpeg — RESPONSIVE SQUARE EXHIBITION
+
+  PC / TABLET / MOBILE:
+  - Always square
+  - No image distortion
+  - Architecture-focused composition
+========================================================== */
+
+/* 01 — ALL DEVICES */
+
+.archenova-twin-home
+#archenova-world
+.an-world-gallery__item--hero
+.an-world-gallery__image-frame {
+ position: relative !important;
+
+ display: block !important;
+
+ width: 100% !important;
+ height: auto !important;
+
+ aspect-ratio: 1 / 1 !important;
+
+ overflow: hidden !important;
+}
+
+.archenova-twin-home
+#archenova-world
+.an-world-gallery__item--hero
+.an-world-gallery__image {
+ width: 100% !important;
+ height: 100% !important;
+
+ object-fit: cover !important;
+ object-position: center 35% !important;
+
+ transform-origin: center center;
+}
+
+/* 02 — TABLET */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+ .archenova-twin-home
+ #archenova-world
+ .an-world-gallery__item--hero
+ .an-world-gallery__image {
+   object-position: center 32% !important;
+ }
+}
+
+/* 03 — MOBILE */
+
+@media (max-width: 768px) {
+ .archenova-twin-home
+ #archenova-world
+ .an-world-gallery__item--hero
+ .an-world-gallery__image-frame {
+   aspect-ratio: 1 / 1 !important;
+ }
+
+ .archenova-twin-home
+ #archenova-world
+ .an-world-gallery__item--hero
+ .an-world-gallery__image {
+   object-position: center 30% !important;
+ }
+}
+
+/* 04 — SMALL MOBILE */
+
+@media (max-width: 430px) {
+ .archenova-twin-home
+ #archenova-world
+ .an-world-gallery__item--hero
+ .an-world-gallery__image {
+   object-position: center 28% !important;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA WORLD
+   IMG_2561.jpeg — RESPONSIVE LANDSCAPE EXHIBITION
+
+   PC / TABLET / MOBILE:
+   - Always landscape (16:9)
+   - No image distortion
+   - Vehicle-centered composition
+========================================================== */
+
+.archenova-twin-home
+#archenova-world
+.an-world-gallery__item--landscape
+.an-world-gallery__image-frame {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  height: auto !important;
+
+  aspect-ratio: 16 / 9 !important;
+
+  overflow: hidden !important;
+}
+
+.archenova-twin-home
+#archenova-world
+.an-world-gallery__item--landscape
+.an-world-gallery__image {
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
