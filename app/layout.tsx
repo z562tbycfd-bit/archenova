@@ -4,6 +4,7 @@ import "../styles/civilization-intelligence.css";
 
 import Menu from "./components/Menu";
 import SiteBackground from "./components/SiteBackground";
+import ArcheNovaHeader from "./components/ArcheNovaHeader";
 
 export const metadata = {
   title: "ArcheNova",
@@ -21,6 +22,8 @@ export default function RootLayout({
       <body>
         <SiteBackground />
 
+        <ArcheNovaHeader />
+
         <header className="site-header">
           <Menu />
         </header>
@@ -31,5 +34,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-
 }

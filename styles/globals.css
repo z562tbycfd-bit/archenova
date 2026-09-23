@@ -55538,23 +55538,27 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
 
 /* ==========================================================
-   ARCHENOVA — SINGLE MENU REVEAL HEADER
+   ARCHENOVA — MINIMAL FOUR-ACTION GLASS HEADER
    ----------------------------------------------------------
-   HOME only.
+   LEFT:
+     Founder Vision / Products
 
-   One header trigger.
-   One existing Menu.tsx instance.
-   No duplicate navigation panel.
+   CENTER:
+     ArcheNova HOME
+
+   RIGHT:
+     Existing Menu.tsx
 
    Preserves:
-   - Existing HOME background image
-   - Portal glass and section frames
-   - HOME full-width layout
+   - HOME background and section layout
+   - Portal-owned glass
    - HomeSectionPager
+   - Existing Menu.tsx overlay and animation
+   - Scroll hide / reveal behavior
 ========================================================== */
 
 /* ==========================================================
-   1. HEADER
+   1. HEADER SHELL
 ========================================================== */
 
 .an-top-header.an-top-header--minimal {
@@ -55562,7 +55566,10 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
   position: fixed;
   inset: 0 0 auto;
+
   z-index: 9000;
+
+  box-sizing: border-box;
 
   width: 100%;
 
@@ -55576,6 +55583,7 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
     );
 
   border: 0;
+
   border-bottom:
     1px solid rgba(255, 255, 255, 0.055);
 
@@ -55602,18 +55610,23 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 }
 
 /* ==========================================================
-   2. HEADER BAR
+   2. THREE-COLUMN BAR
+
+   Equal left/right columns keep ArcheNova centered
+   relative to the viewport, not the remaining space.
 ========================================================== */
 
 .an-top-header--minimal .an-top-header__bar {
   display: grid;
 
   grid-template-columns:
-    minmax(44px, 1fr)
+    minmax(100px, 1fr)
     auto
-    minmax(44px, 1fr);
+    minmax(100px, 1fr);
 
   align-items: center;
+
+  box-sizing: border-box;
 
   width: 100%;
   max-width: 1800px;
@@ -55629,12 +55642,7 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 }
 
 /* ==========================================================
-   3. LEFT MENU BUTTON
-   ----------------------------------------------------------
-   The visible icon and its actual tap target
-   share the same center.
-
-   The complete 44 × 44 px button is interactive.
+   3. LEFT / RIGHT ACTION AREAS
 ========================================================== */
 
 .an-top-header--minimal .an-top-header__side {
@@ -55643,13 +55651,28 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
   align-items: center;
   justify-content: flex-start;
 
+  gap: 4px;
+
   min-width: 0;
   min-height: var(--an-header-height);
+}
+
+.an-top-header--minimal .an-top-header__side--left {
+  justify-content: flex-start;
 }
 
 .an-top-header--minimal .an-top-header__side--right {
   justify-content: flex-end;
 }
+
+/* ==========================================================
+   4. ICON BUTTONS
+
+   Visible icon and actual interactive area
+   share the same center.
+
+   Each target is 44 × 44 px.
+========================================================== */
 
 .an-top-header--minimal .an-top-header__icon {
   appearance: none;
@@ -55657,7 +55680,7 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
   position: relative;
 
-  display: flex;
+  display: inline-flex;
 
   align-items: center;
   justify-content: center;
@@ -55684,7 +55707,10 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
   box-shadow: none;
 
+  font: inherit;
   line-height: 1;
+
+  text-decoration: none;
 
   cursor: pointer;
 
@@ -55696,45 +55722,70 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 .an-top-header--minimal .an-top-header__icon svg {
   display: block;
 
-  width: 22px;
-  height: 22px;
+  flex: 0 0 20px;
 
-  flex: 0 0 22px;
+  width: 20px;
+  height: 20px;
 
   margin: 0;
 
   pointer-events: none;
 }
 
-@media (hover: hover) {
-  .an-top-header--minimal .an-top-header__icon:hover {
-    border-color:
-      rgba(255, 255, 255, 0.075);
+.an-top-header--minimal
+.an-top-header__side--right
+.an-top-header__icon svg {
+  flex-basis: 22px;
 
-    background:
-      rgba(255, 255, 255, 0.045);
-  }
-}
-
-.an-top-header--minimal .an-top-header__icon:focus-visible {
-  outline:
-    2px solid rgba(255, 255, 255, 0.65);
-
-  outline-offset: 2px;
+  width: 22px;
+  height: 22px;
 }
 
 /* ==========================================================
-   4. CENTER BRAND
+   5. CURRENT PAGE INDICATOR
+
+   Minimal, non-intrusive.
+========================================================== */
+
+.an-top-header--minimal
+.an-top-header__icon[aria-current="page"] {
+  color: rgba(255, 255, 255, 1);
+
+  background:
+    rgba(255, 255, 255, 0.075);
+
+  border-color:
+    rgba(255, 255, 255, 0.07);
+}
+
+/* ==========================================================
+   6. CENTER BRAND
+
+   Native button:
+   - No hash-only navigation on other pages
+   - No default browser button styling
 ========================================================== */
 
 .an-top-header--minimal .an-top-header__brand {
+  appearance: none;
+  -webkit-appearance: none;
+
   display: inline-flex;
 
   align-items: center;
   justify-content: center;
 
+  box-sizing: border-box;
+
   min-width: 0;
+  min-height: 44px;
+
   margin: 0;
+  padding: 0 5px;
+
+  border: 0;
+
+  background: transparent;
 
   color: rgba(250, 250, 250, 0.95);
 
@@ -55753,37 +55804,51 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
   white-space: nowrap;
   text-decoration: none;
+
+  cursor: pointer;
+
+  touch-action: manipulation;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
-.an-top-header--minimal .an-top-header__brand:focus-visible {
+/* ==========================================================
+   7. FOCUS / HOVER
+========================================================== */
+
+.an-top-header--minimal
+.an-top-header__icon:focus-visible,
+
+.an-top-header--minimal
+.an-top-header__brand:focus-visible {
   outline:
     2px solid rgba(255, 255, 255, 0.65);
 
-  outline-offset: 5px;
+  outline-offset: 2px;
+}
+
+@media (hover: hover) {
+  .an-top-header--minimal
+  .an-top-header__icon:hover {
+    border-color:
+      rgba(255, 255, 255, 0.075);
+
+    background:
+      rgba(255, 255, 255, 0.045);
+  }
+
+  .an-top-header--minimal
+  .an-top-header__brand:hover {
+    color: rgba(255, 255, 255, 1);
+  }
 }
 
 /* ==========================================================
-   5. RIGHT SIDE — VISUAL BALANCE ONLY
-   ----------------------------------------------------------
-   No duplicate section navigation icons.
-========================================================== */
+   8. HIDE ORIGINAL FLOATING MENU TRIGGER
 
-.an-top-header--minimal .an-top-header__balance {
-  display: block;
-
-  width: 44px;
-  height: 44px;
-
-  pointer-events: none;
-}
-
-/* ==========================================================
-   6. HIDE THE ORIGINAL MENU TRIGGER ON HOME
-   ----------------------------------------------------------
-   Keep Menu.tsx mounted.
-
-   Only its original floating button is hidden.
-   The header button opens that existing menu.
+   Menu.tsx stays mounted.
+   Only its original floating trigger is hidden
+   while the new header is mounted.
 ========================================================== */
 
 body.an-home-header-active .an-menu__trigger {
@@ -55795,12 +55860,10 @@ body.an-home-header-active .an-menu__trigger {
 }
 
 /* ==========================================================
-   7. EXISTING MENU OVERLAY ABOVE HEADER
-   ----------------------------------------------------------
-   Applied only while the menu is open or closing
-   and only on HOME.
+   9. EXISTING MENU OVERLAY ABOVE HEADER
 
-   Preserves the original Menu.tsx panel and animation.
+   Do not duplicate Menu.tsx.
+   Preserve the existing overlay and animation.
 ========================================================== */
 
 body.an-home-header-active
@@ -55823,9 +55886,10 @@ body.an-home-header-active
 }
 
 /* ==========================================================
-   8. MOBILE
-   ----------------------------------------------------------
-   Keep the same 44 × 44 px interactive area.
+   10. MOBILE
+
+   Two left-side 44px targets + centered brand
+   + right-side 44px Menu target.
 ========================================================== */
 
 @media (max-width: 768px) {
@@ -55834,8 +55898,18 @@ body.an-home-header-active
   }
 
   .an-top-header--minimal .an-top-header__bar {
+    grid-template-columns:
+      minmax(92px, 1fr)
+      auto
+      minmax(92px, 1fr);
+
     padding-inline: 14px;
-    gap: 8px;
+
+    gap: 6px;
+  }
+
+  .an-top-header--minimal .an-top-header__side {
+    gap: 2px;
   }
 
   .an-top-header--minimal .an-top-header__icon {
@@ -55850,35 +55924,1051 @@ body.an-home-header-active
 
   .an-top-header--minimal .an-top-header__brand {
     font-size:
-      clamp(24px, 6vw, 28px);
-  }
-
-  .an-top-header--minimal .an-top-header__balance {
-    width: 44px;
-    height: 44px;
+      clamp(23px, 5.6vw, 28px);
   }
 }
 
 /* ==========================================================
-   9. SMALL MOBILE
+   11. SMALL MOBILE
+
+   Keep all controls inside the viewport.
 ========================================================== */
 
 @media (max-width: 370px) {
   .an-top-header--minimal .an-top-header__bar {
-    padding-inline: 10px;
+    grid-template-columns:
+      minmax(88px, 1fr)
+      auto
+      minmax(88px, 1fr);
+
+    padding-inline: 8px;
+
+    gap: 3px;
+  }
+
+  .an-top-header--minimal .an-top-header__side {
+    gap: 0;
   }
 
   .an-top-header--minimal .an-top-header__brand {
-    font-size: 22px;
+    font-size: 21px;
   }
 }
 
 /* ==========================================================
-   10. REDUCED MOTION
+   12. REDUCED MOTION
 ========================================================== */
 
 @media (prefers-reduced-motion: reduce) {
   .an-top-header.an-top-header--minimal {
+    transition: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA — SLIM HEADER + FULLSCREEN GLASS PANELS
+
+   Replace the previous block with this entire block.
+
+   Scope:
+   - Header
+   - Founder Vision / Products fullscreen overlays
+
+   Intentionally untouched:
+   - HOME background
+   - HOME section wrappers
+   - Portal-owned cards
+   - HomeSectionPager
+   - Existing Menu.tsx
+========================================================== */
+
+/* ==========================================================
+   1. SLIM HEADER
+
+   42px visual height.
+   44px interactive targets.
+========================================================== */
+
+.an-top-header.an-top-header--minimal {
+  --an-header-height: 42px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(14, 14, 15, 0.22),
+      rgba(3, 3, 4, 0.32)
+    );
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.04);
+
+  -webkit-backdrop-filter:
+    blur(12px) saturate(100%);
+
+  backdrop-filter:
+    blur(12px) saturate(100%);
+
+  box-shadow: none;
+}
+
+.an-top-header--minimal .an-top-header__bar {
+  grid-template-columns:
+    minmax(92px, 1fr)
+    auto
+    minmax(92px, 1fr);
+
+  min-height: var(--an-header-height);
+
+  padding-inline:
+    clamp(12px, 2.4vw, 36px);
+
+  gap: 8px;
+}
+
+.an-top-header--minimal .an-top-header__side {
+  min-height: var(--an-header-height);
+
+  gap: 2px;
+}
+
+.an-top-header--minimal .an-top-header__icon {
+  flex: 0 0 44px;
+
+  width: 44px;
+  height: 44px;
+
+  min-width: 44px;
+  min-height: 44px;
+
+  border-radius: 12px;
+}
+
+.an-top-header--minimal .an-top-header__icon svg {
+  width: 18px;
+  height: 18px;
+
+  flex-basis: 18px;
+}
+
+.an-top-header--minimal
+.an-top-header__side--right
+.an-top-header__icon svg {
+  width: 20px;
+  height: 20px;
+
+  flex-basis: 20px;
+}
+
+.an-top-header--minimal .an-top-header__brand {
+  min-height: 42px;
+
+  padding-inline: 3px;
+
+  font-size: clamp(22px, 2.4vw, 27px);
+
+  line-height: 1;
+}
+
+/* ==========================================================
+   2. FULLSCREEN PANEL ROOT
+========================================================== */
+
+.an-header-panel {
+  position: fixed;
+  inset: 0;
+
+  z-index: 11000;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+
+  padding:
+    max(8px, env(safe-area-inset-top))
+    max(8px, env(safe-area-inset-right))
+    max(8px, env(safe-area-inset-bottom))
+    max(8px, env(safe-area-inset-left));
+
+  isolation: isolate;
+}
+
+/* ==========================================================
+   3. BACKDROP
+========================================================== */
+
+.an-header-panel__backdrop {
+  appearance: none;
+  -webkit-appearance: none;
+
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+
+  background:
+    rgba(0, 0, 0, 0.42);
+
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+
+  cursor: default;
+}
+
+/* ==========================================================
+   4. GLASS SURFACE
+========================================================== */
+
+.an-header-panel__surface {
+  position: relative;
+
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  width: min(100%, 1680px);
+  height: 100%;
+
+  min-height: 0;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.075);
+
+  border-radius: 25px;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.035),
+      transparent 45%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.45),
+      rgba(3, 4, 6, 0.65)
+    );
+
+  -webkit-backdrop-filter:
+    blur(24px) saturate(100%);
+
+  backdrop-filter:
+    blur(24px) saturate(100%);
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.055);
+
+  color:
+    rgba(245, 245, 245, 0.94);
+
+  outline: none;
+}
+
+/* ==========================================================
+   5. PANEL TOP
+========================================================== */
+
+.an-header-panel__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex: 0 0 auto;
+
+  gap: 18px;
+
+  min-height: 68px;
+
+  padding:
+    12px clamp(18px, 3vw, 46px);
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.055);
+}
+
+.an-header-panel__identity {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+}
+
+.an-header-panel__identity > span {
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+
+.an-header-panel__identity > small {
+  color:
+    rgba(245, 245, 245, 0.43);
+
+  font-size: 9px;
+  letter-spacing: 0.19em;
+}
+
+.an-header-panel__close {
+  appearance: none;
+  -webkit-appearance: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 44px;
+
+  width: 44px;
+  height: 44px;
+
+  margin: 0;
+  padding: 0;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.07);
+
+  border-radius: 50%;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color:
+    rgba(245, 245, 245, 0.85);
+
+  cursor: pointer;
+
+  touch-action: manipulation;
+}
+
+.an-header-panel__close svg {
+  pointer-events: none;
+}
+
+/* ==========================================================
+   6. SCROLLABLE CONTENT
+========================================================== */
+
+.an-header-panel__scroll {
+  flex: 1 1 auto;
+
+  min-height: 0;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  overscroll-behavior: contain;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.an-header-panel__content {
+  box-sizing: border-box;
+
+  width: min(100%, 1160px);
+
+  margin: 0 auto;
+
+  padding:
+    clamp(36px, 6vw, 92px)
+    clamp(22px, 5vw, 70px)
+    clamp(48px, 7vw, 110px);
+}
+
+.an-header-panel__section + .an-header-panel__section {
+  margin-top:
+    clamp(52px, 8vw, 110px);
+}
+
+.an-header-panel__eyebrow {
+  display: block;
+
+  margin-bottom: 22px;
+
+  color:
+    rgba(245, 245, 245, 0.43);
+
+  font-size: 10px;
+  letter-spacing: 0.21em;
+}
+
+.an-header-panel__section-title {
+  max-width: 1000px;
+
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(38px, 6vw, 78px);
+
+  font-weight: 400;
+  line-height: 1.1;
+
+  letter-spacing: -0.035em;
+
+  overflow-wrap: anywhere;
+}
+
+.an-header-panel__description {
+  max-width: 720px;
+
+  margin: 26px 0 0;
+
+  color:
+    rgba(245, 245, 245, 0.59);
+
+  font-size:
+    clamp(14px, 1.4vw, 17px);
+
+  line-height: 1.85;
+}
+
+.an-header-panel__statement {
+  margin-top: 40px;
+
+  padding:
+    clamp(26px, 4vw, 48px);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.07);
+
+  border-radius: 23px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+.an-header-panel__statement > span {
+  color:
+    rgba(245, 245, 245, 0.43);
+
+  font-size: 10px;
+  letter-spacing: 0.18em;
+}
+
+.an-header-panel__statement > p {
+  max-width: 760px;
+
+  margin: 22px 0 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(22px, 3vw, 38px);
+
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+/* ==========================================================
+   7. FOUNDER PRINCIPLES
+========================================================== */
+
+.an-header-panel__principles {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 14px;
+
+  margin-top: 42px;
+}
+
+.an-header-panel__principle {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 0;
+  min-height: 340px;
+
+  padding: 28px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.07);
+
+  border-radius: 21px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.04),
+      rgba(255, 255, 255, 0.012)
+    );
+}
+
+.an-header-panel__item-index {
+  color:
+    rgba(245, 245, 245, 0.37);
+
+  font-size: 10px;
+  letter-spacing: 0.14em;
+}
+
+.an-header-panel__principle h3 {
+  margin: 40px 0 0;
+
+  font-size:
+    clamp(21px, 2vw, 27px);
+
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.an-header-panel__item-statement {
+  margin: 20px 0 0;
+
+  color:
+    rgba(245, 245, 245, 0.75);
+
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.an-header-panel__item-divider {
+  height: 1px;
+
+  margin-top: auto;
+
+  padding-top: 28px;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.075);
+}
+
+.an-header-panel__item-detail {
+  margin: 19px 0 0;
+
+  color:
+    rgba(245, 245, 245, 0.48);
+
+  font-size: 11px;
+  line-height: 1.85;
+}
+
+/* ==========================================================
+   8. FOUNDER INTENTIONS
+========================================================== */
+
+.an-header-panel__intent-list {
+  margin-top: 40px;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.09);
+}
+
+.an-header-panel__intent {
+  display: grid;
+
+  grid-template-columns:
+    55px minmax(0, 1fr);
+
+  gap: 20px;
+
+  padding: 30px 0;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.09);
+}
+
+.an-header-panel__intent h3 {
+  margin: 0;
+
+  font-size:
+    clamp(20px, 2.2vw, 28px);
+
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.an-header-panel__intent p {
+  max-width: 660px;
+
+  margin: 13px 0 0;
+
+  color:
+    rgba(245, 245, 245, 0.5);
+
+  font-size: 12px;
+  line-height: 1.85;
+}
+
+/* ==========================================================
+   9. PRODUCTS
+========================================================== */
+
+.an-header-panel__product {
+  max-width: 780px;
+
+  margin-top: 42px;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.075);
+
+  border-radius: 25px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.043),
+      rgba(255, 255, 255, 0.012)
+    );
+}
+
+.an-header-panel__product-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  padding: 25px 30px 0;
+
+  color:
+    rgba(245, 245, 245, 0.42);
+
+  font-size: 9px;
+  letter-spacing: 0.15em;
+}
+
+.an-header-panel__status {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 8px;
+
+  color:
+    rgba(245, 245, 245, 0.62);
+
+  font-size: 8px;
+  letter-spacing: 0.11em;
+}
+
+.an-header-panel__status-dot {
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(224, 237, 232, 0.72);
+}
+
+.an-header-panel__product-visual {
+  display: grid;
+  place-items: center;
+
+  min-height: 245px;
+
+  padding: 15px;
+}
+
+.an-header-panel__episteme-symbol {
+  width: min(210px, 65%);
+  height: auto;
+
+  color:
+    rgba(232, 239, 246, 0.82);
+}
+
+.an-header-panel__product-body {
+  padding: 0 34px 35px;
+}
+
+.an-header-panel__product-body h3 {
+  margin: 0;
+
+  font-size:
+    clamp(36px, 4vw, 52px);
+
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+
+.an-header-panel__product-headline {
+  max-width: 520px;
+
+  margin: 16px 0 0;
+
+  color:
+    rgba(245, 245, 245, 0.78);
+
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.an-header-panel__product-body
+.an-header-panel__description {
+  margin-top: 19px;
+
+  font-size: 12px;
+}
+
+.an-header-panel__capabilities {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: 25px;
+}
+
+.an-header-panel__capabilities span {
+  padding: 8px 11px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.07);
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color:
+    rgba(245, 245, 245, 0.55);
+
+  font-size: 10px;
+}
+
+/* ==========================================================
+   10. ACTIONS
+========================================================== */
+
+.an-header-panel__action,
+.an-header-panel__text-action {
+  appearance: none;
+  -webkit-appearance: none;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+
+  min-height: 44px;
+
+  font: inherit;
+  font-size: 11px;
+
+  cursor: pointer;
+
+  touch-action: manipulation;
+}
+
+.an-header-panel__action {
+  margin-top: 32px;
+
+  padding: 0 19px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.14);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255, 255, 255, 0.065);
+
+  color:
+    rgba(245, 245, 245, 0.94);
+}
+
+.an-header-panel__text-action {
+  margin-top: 28px;
+
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+
+  color:
+    rgba(245, 245, 245, 0.86);
+}
+
+.an-header-panel__action svg,
+.an-header-panel__text-action svg {
+  flex: 0 0 auto;
+}
+
+/* ==========================================================
+   11. PANEL FOOT
+========================================================== */
+
+.an-header-panel__foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  flex: 0 0 auto;
+
+  min-height: 48px;
+
+  padding: 12px 20px;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.045);
+
+  color:
+    rgba(245, 245, 245, 0.3);
+
+  font-size: 9px;
+  letter-spacing: 0.15em;
+
+  text-align: center;
+}
+
+/* ==========================================================
+   12. FOCUS / HOVER
+========================================================== */
+
+.an-header-panel__surface button:focus-visible {
+  outline:
+    2px solid rgba(255, 255, 255, 0.75);
+
+  outline-offset: 3px;
+}
+
+@media (hover: hover) {
+  .an-header-panel__close:hover,
+  .an-header-panel__action:hover {
+    background:
+      rgba(255, 255, 255, 0.085);
+  }
+
+  .an-header-panel__text-action:hover {
+    color: #fff;
+  }
+}
+
+/* ==========================================================
+   13. TABLET
+========================================================== */
+
+@media (max-width: 1000px) {
+  .an-header-panel__principles {
+    grid-template-columns: 1fr;
+  }
+
+  .an-header-panel__principle {
+    min-height: 0;
+  }
+
+  .an-header-panel__item-divider {
+    margin-top: 30px;
+  }
+}
+
+/* ==========================================================
+   14. MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+  .an-top-header.an-top-header--minimal {
+    --an-header-height: 42px;
+  }
+
+  .an-top-header--minimal .an-top-header__bar {
+    grid-template-columns:
+      minmax(88px, 1fr)
+      auto
+      minmax(88px, 1fr);
+
+    padding-inline: 9px;
+
+    gap: 4px;
+  }
+
+  .an-top-header--minimal .an-top-header__side {
+    min-height: 42px;
+
+    gap: 0;
+  }
+
+  .an-top-header--minimal .an-top-header__brand {
+    min-height: 42px;
+
+    font-size:
+      clamp(21px, 5.5vw, 25px);
+  }
+
+  .an-header-panel {
+    padding:
+      max(6px, env(safe-area-inset-top))
+      max(6px, env(safe-area-inset-right))
+      max(6px, env(safe-area-inset-bottom))
+      max(6px, env(safe-area-inset-left));
+  }
+
+  .an-header-panel__surface {
+    border-radius: 22px;
+  }
+
+  .an-header-panel__top {
+    min-height: 60px;
+
+    padding: 10px 18px;
+  }
+
+  .an-header-panel__identity > span {
+    font-size: 21px;
+  }
+
+  .an-header-panel__content {
+    padding: 40px 22px 64px;
+  }
+
+  .an-header-panel__section-title {
+    font-size:
+      clamp(36px, 9vw, 54px);
+  }
+
+  .an-header-panel__description {
+    margin-top: 20px;
+
+    font-size: 14px;
+  }
+
+  .an-header-panel__statement {
+    margin-top: 30px;
+
+    padding: 25px 22px;
+  }
+
+  .an-header-panel__statement > p {
+    font-size:
+      clamp(22px, 6vw, 30px);
+  }
+
+  .an-header-panel__principles {
+    margin-top: 32px;
+  }
+
+  .an-header-panel__principle {
+    padding: 24px;
+  }
+
+  .an-header-panel__principle h3 {
+    margin-top: 30px;
+  }
+
+  .an-header-panel__intent {
+    grid-template-columns:
+      28px minmax(0, 1fr);
+
+    gap: 12px;
+  }
+
+  .an-header-panel__product-top {
+    padding: 22px 22px 0;
+  }
+
+  .an-header-panel__product-visual {
+    min-height: 210px;
+  }
+
+  .an-header-panel__episteme-symbol {
+    width: min(185px, 70%);
+  }
+
+  .an-header-panel__product-body {
+    padding: 0 24px 28px;
+  }
+
+  .an-header-panel__foot {
+    gap: 8px;
+
+    font-size: 7px;
+  }
+}
+
+/* ==========================================================
+   15. SMALL MOBILE
+========================================================== */
+
+@media (max-width: 370px) {
+  .an-top-header--minimal .an-top-header__bar {
+    padding-inline: 6px;
+
+    gap: 2px;
+  }
+
+  .an-top-header--minimal .an-top-header__brand {
+    font-size: 20px;
+  }
+
+  .an-header-panel__content {
+    padding-inline: 17px;
+  }
+
+  .an-header-panel__product-body {
+    padding-inline: 20px;
+  }
+}
+
+/* ==========================================================
+   16. REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .an-top-header.an-top-header--minimal,
+  .an-header-panel__action,
+  .an-header-panel__text-action {
     transition: none;
   }
 }
