@@ -55098,19 +55098,117 @@ section#civilization-space[data-home-section] {
 
 
 /* ==========================================================
-   ARCHENOVA HEADER — MENU TAP TARGET FIX
+   ARCHENOVA — SINGLE MENU REVEAL HEADER
    ----------------------------------------------------------
-   Keep the visible icon and actual button hit area aligned.
-   HOME only. No changes to Menu.tsx or HomeSectionPager.
+   HOME only.
+
+   One header trigger.
+   One existing Menu.tsx instance.
+   No duplicate navigation panel.
+
+   Preserves:
+   - Existing HOME background image
+   - Portal glass and section frames
+   - HOME full-width layout
+   - HomeSectionPager
+========================================================== */
+
+/* ==========================================================
+   1. HEADER
+========================================================== */
+
+.an-top-header.an-top-header--minimal {
+  --an-header-height: 64px;
+
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 9000;
+
+  width: 100%;
+
+  color: rgba(245, 245, 245, 0.94);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(16, 16, 17, 0.30),
+      rgba(4, 4, 5, 0.43)
+    );
+
+  border: 0;
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.055);
+
+  -webkit-backdrop-filter:
+    blur(14px) saturate(102%);
+
+  backdrop-filter:
+    blur(14px) saturate(102%);
+
+  box-shadow: none;
+
+  transform: translate3d(0, 0, 0);
+
+  transition: transform 260ms ease;
+
+  pointer-events: auto;
+}
+
+.an-top-header.an-top-header--minimal.an-top-header--hidden {
+  transform:
+    translate3d(0, calc(-100% - 2px), 0);
+
+  pointer-events: none;
+}
+
+/* ==========================================================
+   2. HEADER BAR
+========================================================== */
+
+.an-top-header--minimal .an-top-header__bar {
+  display: grid;
+
+  grid-template-columns:
+    minmax(44px, 1fr)
+    auto
+    minmax(44px, 1fr);
+
+  align-items: center;
+
+  width: 100%;
+  max-width: 1800px;
+
+  min-height: var(--an-header-height);
+
+  margin: 0 auto;
+
+  padding:
+    0 clamp(14px, 3vw, 44px);
+
+  gap: 12px;
+}
+
+/* ==========================================================
+   3. LEFT MENU BUTTON
+   ----------------------------------------------------------
+   The visible icon and its actual tap target
+   share the same center.
+
+   The complete 44 × 44 px button is interactive.
 ========================================================== */
 
 .an-top-header--minimal .an-top-header__side {
   display: flex;
+
   align-items: center;
   justify-content: flex-start;
 
   min-width: 0;
   min-height: var(--an-header-height);
+}
+
+.an-top-header--minimal .an-top-header__side--right {
+  justify-content: flex-end;
 }
 
 .an-top-header--minimal .an-top-header__icon {
@@ -55120,6 +55218,7 @@ section#civilization-space[data-home-section] {
   position: relative;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
@@ -55129,6 +55228,7 @@ section#civilization-space[data-home-section] {
 
   width: 44px;
   height: 44px;
+
   min-width: 44px;
   min-height: 44px;
 
@@ -55139,11 +55239,15 @@ section#civilization-space[data-home-section] {
   border-radius: 50%;
 
   background: transparent;
-  color: rgba(245, 245, 245, 0.92);
+
+  color: rgba(245, 245, 245, 0.9);
+
+  box-shadow: none;
 
   line-height: 1;
 
   cursor: pointer;
+
   touch-action: manipulation;
 
   -webkit-tap-highlight-color: transparent;
@@ -55162,6 +55266,182 @@ section#civilization-space[data-home-section] {
   pointer-events: none;
 }
 
+@media (hover: hover) {
+  .an-top-header--minimal .an-top-header__icon:hover {
+    border-color:
+      rgba(255, 255, 255, 0.075);
+
+    background:
+      rgba(255, 255, 255, 0.045);
+  }
+}
+
+.an-top-header--minimal .an-top-header__icon:focus-visible {
+  outline:
+    2px solid rgba(255, 255, 255, 0.65);
+
+  outline-offset: 2px;
+}
+
+/* ==========================================================
+   4. CENTER BRAND
+========================================================== */
+
+.an-top-header--minimal .an-top-header__brand {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 0;
+  margin: 0;
+
+  color: rgba(250, 250, 250, 0.95);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(25px, 3vw, 32px);
+
+  font-weight: 400;
+  line-height: 1;
+
+  letter-spacing: 0.012em;
+
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.an-top-header--minimal .an-top-header__brand:focus-visible {
+  outline:
+    2px solid rgba(255, 255, 255, 0.65);
+
+  outline-offset: 5px;
+}
+
+/* ==========================================================
+   5. RIGHT SIDE — VISUAL BALANCE ONLY
+   ----------------------------------------------------------
+   No duplicate section navigation icons.
+========================================================== */
+
+.an-top-header--minimal .an-top-header__balance {
+  display: block;
+
+  width: 44px;
+  height: 44px;
+
+  pointer-events: none;
+}
+
+/* ==========================================================
+   6. HIDE THE ORIGINAL MENU TRIGGER ON HOME
+   ----------------------------------------------------------
+   Keep Menu.tsx mounted.
+
+   Only its original floating button is hidden.
+   The header button opens that existing menu.
+========================================================== */
+
+body.an-home-header-active .an-menu__trigger {
+  visibility: hidden !important;
+
+  opacity: 0 !important;
+
+  pointer-events: none !important;
+}
+
+/* ==========================================================
+   7. EXISTING MENU OVERLAY ABOVE HEADER
+   ----------------------------------------------------------
+   Applied only while the menu is open or closing
+   and only on HOME.
+
+   Preserves the original Menu.tsx panel and animation.
+========================================================== */
+
+body.an-home-header-active
+.an-menu.is-open,
+
+body.an-home-header-active
+.an-menu.is-closing {
+  position: fixed !important;
+
+  inset: 0 !important;
+
+  z-index: 12000 !important;
+
+  pointer-events: none;
+}
+
+body.an-home-header-active
+.an-menu__overlay {
+  pointer-events: auto;
+}
+
+/* ==========================================================
+   8. MOBILE
+   ----------------------------------------------------------
+   Keep the same 44 × 44 px interactive area.
+========================================================== */
+
+@media (max-width: 768px) {
+  .an-top-header.an-top-header--minimal {
+    --an-header-height: 56px;
+  }
+
+  .an-top-header--minimal .an-top-header__bar {
+    padding-inline: 14px;
+    gap: 8px;
+  }
+
+  .an-top-header--minimal .an-top-header__icon {
+    flex: 0 0 44px;
+
+    width: 44px;
+    height: 44px;
+
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .an-top-header--minimal .an-top-header__brand {
+    font-size:
+      clamp(24px, 6vw, 28px);
+  }
+
+  .an-top-header--minimal .an-top-header__balance {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ==========================================================
+   9. SMALL MOBILE
+========================================================== */
+
+@media (max-width: 370px) {
+  .an-top-header--minimal .an-top-header__bar {
+    padding-inline: 10px;
+  }
+
+  .an-top-header--minimal .an-top-header__brand {
+    font-size: 22px;
+  }
+}
+
+/* ==========================================================
+   10. REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .an-top-header.an-top-header--minimal {
+    transition: none;
+  }
+}
 
 
 
