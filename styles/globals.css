@@ -55538,107 +55538,80 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
 
 /* ==========================================================
-   ARCHENOVA — HOME REVEAL HEADER
+   ARCHENOVA — MINIMAL REVEAL HEADER
    ----------------------------------------------------------
-   HOME header only.
+   Three elements only:
+   MENU | ARCHE NOVA | EPISTEME
 
-   Preserves:
-   - Existing background image
-   - HOME full-width layout
-   - Existing Portal glass
-   - HomeSectionPager
-   - All HOME section dimensions
+   Existing HOME / Portal / SectionPager styles are untouched.
 ========================================================== */
 
-.an-top-header {
-  --an-header-height: 72px;
+.an-top-header.an-top-header--minimal {
+  --an-header-height: 64px;
 
   position: fixed;
+  inset: 0 0 auto;
   z-index: 9000;
 
-  inset: 0 0 auto;
   width: 100%;
 
-  color: rgba(245, 246, 248, 0.95);
+  color: rgba(244, 244, 244, 0.92);
 
   background:
     linear-gradient(
-      155deg,
-      rgba(18, 19, 22, 0.43),
-      rgba(4, 5, 7, 0.57)
+      145deg,
+      rgba(16, 16, 17, 0.42),
+      rgba(4, 4, 5, 0.56)
     );
 
+  border: 0;
   border-bottom:
-    1px solid rgba(255, 255, 255, 0.085);
+    1px solid rgba(255, 255, 255, 0.065);
 
-  -webkit-backdrop-filter:
-    blur(18px) saturate(105%);
+  -webkit-backdrop-filter: blur(14px) saturate(102%);
+  backdrop-filter: blur(14px) saturate(102%);
 
-  backdrop-filter:
-    blur(18px) saturate(105%);
-
-  box-shadow:
-    inset 0 1px rgba(255, 255, 255, 0.035);
+  box-shadow: none;
 
   transform: translate3d(0, 0, 0);
 
-  transition:
-    transform 260ms ease;
+  transition: transform 260ms ease;
 
   pointer-events: auto;
 }
 
-.an-top-header--hidden {
-  transform:
-    translate3d(0, calc(-100% - 2px), 0);
-
+.an-top-header.an-top-header--minimal.an-top-header--hidden {
+  transform: translate3d(0, calc(-100% - 2px), 0);
   pointer-events: none;
 }
 
-/* ==========================================================
-   HEADER BAR
-========================================================== */
+.an-top-header--minimal .an-top-header__bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
 
-.an-top-header__bar {
+  width: 100%;
+  max-width: 1800px;
   min-height: var(--an-header-height);
 
-  max-width: 1800px;
   margin: 0 auto;
+  padding: 0 clamp(16px, 3vw, 44px);
 
-  padding:
-    0 clamp(14px, 3vw, 44px);
-
-  display: grid;
-
-  grid-template-columns:
-    minmax(0, 1fr)
-    auto
-    minmax(0, 1fr);
-
-  align-items: center;
   gap: 12px;
 }
 
-/* ==========================================================
-   ACTION ICONS
-========================================================== */
-
-.an-top-header__actions {
+.an-top-header--minimal .an-top-header__side {
   display: flex;
   align-items: center;
-
-  gap: clamp(2px, 0.65vw, 10px);
-
-  min-width: 0;
+  justify-content: flex-start;
 }
 
-.an-top-header__actions--right {
+.an-top-header--minimal .an-top-header__side--right {
   justify-content: flex-end;
 }
 
-.an-top-header__icon {
+.an-top-header--minimal .an-top-header__icon {
   display: inline-flex;
-
   align-items: center;
   justify-content: center;
 
@@ -55648,133 +55621,96 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
 
   padding: 0;
 
-  border:
-    1px solid transparent;
-
+  border: 1px solid transparent;
   border-radius: 50%;
 
   background: transparent;
-  color: inherit;
+  color: rgba(244, 244, 244, 0.88);
 
+  box-shadow: none;
   cursor: pointer;
 
   -webkit-tap-highlight-color: transparent;
 }
 
-.an-top-header__icon:hover,
-.an-top-header__icon:focus-visible {
-  background:
-    rgba(255, 255, 255, 0.075);
-
-  border-color:
-    rgba(255, 255, 255, 0.11);
+.an-top-header--minimal .an-top-header__icon svg {
+  display: block;
+  width: 21px;
+  height: 21px;
 }
 
-/* ==========================================================
-   BRAND
-========================================================== */
+.an-top-header--minimal .an-top-header__icon:hover,
+.an-top-header--minimal .an-top-header__icon:focus-visible {
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(255, 255, 255, 0.085);
+}
 
-.an-top-header__brand {
-  display: flex;
-
-  flex-direction: column;
-
+.an-top-header--minimal .an-top-header__brand {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 
   min-width: 0;
+  margin: 0;
 
-  text-decoration: none;
-  color: inherit;
+  color: rgba(250, 250, 250, 0.94);
 
-  line-height: 1.05;
-  white-space: nowrap;
-}
-
-.an-top-header__brand span {
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-
-  font-size:
-    clamp(22px, 2.4vw, 30px);
-
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(24px, 3vw, 32px);
   font-weight: 400;
+  line-height: 1;
 
-  letter-spacing: 0.015em;
+  letter-spacing: 0.012em;
+  white-space: nowrap;
+  text-decoration: none;
 }
 
-.an-top-header__brand small {
-  margin-top: 5px;
-
-  font-family: inherit;
-
-  font-size: 8px;
-  font-weight: 500;
-
-  letter-spacing: 0.19em;
-
-  opacity: 0.66;
-}
-
-/* ==========================================================
-   NAVIGATION MENU
-========================================================== */
-
-.an-top-header__menu {
+.an-top-header--minimal .an-top-header__menu {
   position: absolute;
-
   top: 100%;
+  left: clamp(12px, 3vw, 44px);
 
-  left:
-    clamp(12px, 3vw, 44px);
-
-  width:
-    min(390px, calc(100vw - 24px));
-
-  max-height:
-    min(70dvh, 640px);
+  width: min(360px, calc(100vw - 24px));
+  max-height: min(72dvh, 620px);
 
   overflow-y: auto;
-
   overscroll-behavior: contain;
 
-  padding: 9px;
+  padding: 14px 10px 10px;
 
-  border:
-    1px solid rgba(255, 255, 255, 0.105);
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  border-top: 0;
+  border-radius: 0 0 18px 18px;
 
-  border-radius:
-    0 0 20px 20px;
+  background: rgba(9, 9, 11, 0.88);
 
-  background:
-    rgba(10, 11, 14, 0.94);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
 
-  -webkit-backdrop-filter:
-    blur(18px);
-
-  backdrop-filter:
-    blur(18px);
-
-  box-shadow:
-    0 18px 44px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
 }
 
-.an-top-header__menu[hidden] {
+.an-top-header--minimal .an-top-header__menu[hidden] {
   display: none !important;
 }
 
-.an-top-header__menu button {
+.an-top-header--minimal .an-top-header__menu-label {
+  padding: 4px 13px 12px;
+
+  color: rgba(240, 240, 240, 0.48);
+
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.19em;
+}
+
+.an-top-header--minimal .an-top-header__menu button {
   display: flex;
-
-  width: 100%;
-  min-height: 45px;
-
   align-items: center;
   justify-content: space-between;
 
-  gap: 12px;
+  width: 100%;
+  min-height: 44px;
 
   padding: 10px 13px;
 
@@ -55782,116 +55718,70 @@ main.an-home-2026 > .chapter-navigator .chapter-nav-item[aria-current] :is(.chap
   border-radius: 10px;
 
   background: transparent;
-
-  color:
-    rgba(245, 246, 248, 0.87);
-
-  text-align: left;
+  color: rgba(245, 245, 245, 0.84);
 
   font: inherit;
   font-size: 13px;
+  text-align: left;
 
   cursor: pointer;
 }
 
-.an-top-header__menu button svg {
-  width: 16px;
-  height: 16px;
-
-  opacity: 0.58;
+.an-top-header--minimal .an-top-header__menu button:hover,
+.an-top-header--minimal .an-top-header__menu button:focus-visible {
+  background: rgba(255, 255, 255, 0.055);
 }
 
-.an-top-header__menu button:hover,
-.an-top-header__menu button:focus-visible {
-  background:
-    rgba(255, 255, 255, 0.075);
-}
-
-/* ==========================================================
-   KEYBOARD FOCUS
-========================================================== */
-
-.an-top-header button:focus-visible,
-.an-top-header a:focus-visible {
-  outline:
-    2px solid rgba(255, 255, 255, 0.72);
-
+.an-top-header--minimal button:focus-visible,
+.an-top-header--minimal a:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.65);
   outline-offset: 2px;
 }
 
-/* ==========================================================
-   MOBILE
-========================================================== */
-
 @media (max-width: 768px) {
-  .an-top-header {
-    --an-header-height: 62px;
+  .an-top-header.an-top-header--minimal {
+    --an-header-height: 56px;
   }
 
-  .an-top-header__bar {
-    padding-inline: 10px;
-    gap: 4px;
+  .an-top-header--minimal .an-top-header__bar {
+    padding-inline: 14px;
+    gap: 8px;
   }
 
-  .an-top-header__icon {
-    width: 38px;
-    height: 42px;
-
-    min-width: 38px;
+  .an-top-header--minimal .an-top-header__icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
   }
 
-  .an-top-header__icon svg {
-    width: 20px;
-    height: 20px;
+  .an-top-header--minimal .an-top-header__brand {
+    font-size: clamp(23px, 6vw, 28px);
   }
 
-  .an-top-header__brand span {
-    font-size:
-      clamp(20px, 5.5vw, 25px);
-  }
-
-  .an-top-header__brand small {
-    font-size: 7px;
-    letter-spacing: 0.12em;
-  }
-
-  .an-top-header__menu {
+  .an-top-header--minimal .an-top-header__menu {
     left: 10px;
   }
 }
 
-/* ==========================================================
-   SMALL MOBILE
-========================================================== */
-
 @media (max-width: 370px) {
-  .an-top-header__bar {
-    padding-inline: 6px;
+  .an-top-header--minimal .an-top-header__bar {
+    padding-inline: 9px;
   }
 
-  .an-top-header__icon {
-    width: 33px;
-    min-width: 33px;
-  }
-
-  .an-top-header__brand span {
-    font-size: 19px;
-  }
-
-  .an-top-header__brand small {
-    font-size: 6px;
+  .an-top-header--minimal .an-top-header__brand {
+    font-size: 22px;
   }
 }
 
-/* ==========================================================
-   REDUCED MOTION
-========================================================== */
-
 @media (prefers-reduced-motion: reduce) {
-  .an-top-header {
+  .an-top-header.an-top-header--minimal {
     transition: none;
   }
 }
+
+
+
+
 
 
 

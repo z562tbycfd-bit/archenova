@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const SECTIONS = [
+const HOME_LINKS = [
   { id: "founder-digital-twin", label: "Founder" },
   { id: "archenova-search-section", label: "ArcheNova Map" },
   { id: "todays-inquiry", label: "Today's Inquiry" },
@@ -13,120 +13,102 @@ const SECTIONS = [
   { id: "archenova-valley", label: "ArcheNova Valley" },
 ] as const;
 
-type IconName = "menu" | "close" | "search" | "brain" | "arrow";
-
-function Icon({ name }: { name: IconName }) {
-  const common = {
-    width: 21,
-    height: 21,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: 1.55,
-    strokeLinecap: "round" as const,
-    strokeLinejoin: "round" as const,
-    "aria-hidden": true as const,
-  };
-
-  if (name === "menu") {
-    return (
-      <svg {...common}>
-        <path d="M4 7h16M4 12h16M4 17h16" />
-      </svg>
-    );
-  }
-
-  if (name === "close") {
-    return (
-      <svg {...common}>
-        <path d="M5 5l14 14M19 5L5 19" />
-      </svg>
-    );
-  }
-
-  if (name === "search") {
-    return (
-      <svg {...common}>
-        <circle cx="10.8" cy="10.8" r="6.5" />
-        <path d="m16 16 4.5 4.5" />
-      </svg>
-    );
-  }
-
-  if (name === "brain") {
-    return (
-      <svg {...common}>
-        <path d="M12 5.2a4 4 0 0 0-7.1 2.4 4 4 0 0 0-.5 7.2A4 4 0 0 0 12 18.5V5.2ZM12 5.2a4 4 0 0 1 7.1 2.4 4 4 0 0 1 .5 7.2A4 4 0 0 1 12 18.5V5.2Z" />
-        <path d="M8.5 9.5 12 12l3.5-2.5M12 12v6.5" />
-      </svg>
-    );
-  }
-
+function MenuIcon({ open }: { open: boolean }) {
   return (
-    <svg {...common}>
-      <path d="M5 12h14m-6-6 6 6-6 6" />
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      aria-hidden="true"
+    >
+      {open ? (
+        <path d="M5 5l14 14M19 5L5 19" />
+      ) : (
+        <path d="M4 7h16M4 12h16M4 17h16" />
+      )}
     </svg>
   );
 }
 
-/**
- * HOME-only header.
- *
- * - Visible at the top of the page
- * - Hides while scrolling down
- * - Reappears while scrolling up
- * - Remains visible while the menu is open
- * - Does not modify Portal or HomeSectionPager behavior
- */
+function EpistemeIcon() {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M12 5.5a4 4 0 0 0-7 2.4 4 4 0 0 0-.5 7.1A4 4 0 0 0 12 18.5V5.5Z" />
+      <path d="M12 5.5a4 4 0 0 1 7 2.4 4 4 0 0 1 .5 7.1 4 4 0 0 1-7.5 3.5v-13Z" />
+      <path d="M8.5 9.5 12 12l3.5-2.5M12 12v6.5" />
+    </svg>
+  );
+}
+
 export default function ArcheNovaHeader() {
   const [visible, setVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const lastY = useRef(0);
-  const visibleRef = useRef(true);
+  const lastScrollY = useRef(0);
+  const directionDistance = useRef(0);
   const menuOpenRef = useRef(false);
 
   useEffect(() => {
     menuOpenRef.current = menuOpen;
 
     if (menuOpen) {
-      visibleRef.current = true;
       setVisible(true);
     }
   }, [menuOpen]);
 
   useEffect(() => {
-    lastY.current = window.scrollY;
+    lastScrollY.current = window.scrollY;
 
-    let scheduled = false;
-    let frameId = 0;
+    let frame = 0;
 
     const update = () => {
-      scheduled = false;
+      frame = 0;
 
-      const y = Math.max(0, window.scrollY);
-      const delta = y - lastY.current;
+      const currentY = Math.max(0, window.scrollY);
+      const delta = currentY - lastScrollY.current;
 
-      if (menuOpenRef.current || y < 100) {
-        if (!visibleRef.current) {
-          visibleRef.current = true;
-          setVisible(true);
-        }
-      } else if (delta > 7 && visibleRef.current) {
-        visibleRef.current = false;
-        setVisible(false);
-      } else if (delta < -7 && !visibleRef.current) {
-        visibleRef.current = true;
+      if (currentY <= 80 || menuOpenRef.current) {
         setVisible(true);
+        directionDistance.current = 0;
+      } else if (Math.abs(delta) > 0.5) {
+        const previous = directionDistance.current;
+
+        directionDistance.current =
+          Math.sign(previous) === Math.sign(delta)
+            ? previous + delta
+            : delta;
+
+        if (directionDistance.current > 24) {
+          setVisible(false);
+          directionDistance.current = 0;
+        }
+
+        if (directionDistance.current < -18) {
+          setVisible(true);
+          directionDistance.current = 0;
+        }
       }
 
-      lastY.current = y;
+      lastScrollY.current = currentY;
     };
 
     const onScroll = () => {
-      if (!scheduled) {
-        scheduled = true;
-        frameId = window.requestAnimationFrame(update);
+      if (!frame) {
+        frame = window.requestAnimationFrame(update);
       }
     };
 
@@ -142,12 +124,16 @@ export default function ArcheNovaHeader() {
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("keydown", onKeyDown);
-      window.cancelAnimationFrame(frameId);
+
+      if (frame) {
+        window.cancelAnimationFrame(frame);
+      }
     };
   }, []);
 
   const navigate = (id: string) => {
     setMenuOpen(false);
+    setVisible(true);
 
     document.getElementById(id)?.scrollIntoView({
       behavior: "smooth",
@@ -159,14 +145,16 @@ export default function ArcheNovaHeader() {
 
   return (
     <header
-      className={`an-top-header${
+      className={[
+        "an-top-header",
+        "an-top-header--minimal",
         visible || menuOpen
-          ? " an-top-header--visible"
-          : " an-top-header--hidden"
-      }`}
+          ? "an-top-header--visible"
+          : "an-top-header--hidden",
+      ].join(" ")}
     >
       <div className="an-top-header__bar">
-        <div className="an-top-header__actions">
+        <div className="an-top-header__side">
           <button
             type="button"
             className="an-top-header__icon"
@@ -175,51 +163,33 @@ export default function ArcheNovaHeader() {
             }
             aria-expanded={menuOpen}
             aria-controls="an-top-header-menu"
-            onClick={() => setMenuOpen((previous) => !previous)}
+            onClick={() => setMenuOpen((open) => !open)}
           >
-            <Icon name={menuOpen ? "close" : "menu"} />
-          </button>
-
-          <button
-            type="button"
-            className="an-top-header__icon"
-            aria-label="Go to ArcheNova Map"
-            onClick={() => navigate("archenova-search-section")}
-          >
-            <Icon name="search" />
+            <MenuIcon open={menuOpen} />
           </button>
         </div>
 
         <a
-          className="an-top-header__brand"
           href="#home-top"
-          aria-label="ArcheNova home"
+          className="an-top-header__brand"
+          aria-label="ArcheNova — Back to top"
           onClick={(event) => {
             event.preventDefault();
             navigate("home-top");
           }}
         >
-          <span>ArcheNova</span>
-          <small>ENGINEERING REALITY</small>
+          ArcheNova
         </a>
 
-        <div className="an-top-header__actions an-top-header__actions--right">
+        <div className="an-top-header__side an-top-header__side--right">
           <button
             type="button"
             className="an-top-header__icon"
-            aria-label="Go to Founder"
+            aria-label="Go to Episteme"
+            title="Episteme"
             onClick={() => navigate("founder-digital-twin")}
           >
-            <Icon name="brain" />
-          </button>
-
-          <button
-            type="button"
-            className="an-top-header__icon"
-            aria-label="Go to Civilization Space"
-            onClick={() => navigate("civilization-space")}
-          >
-            <Icon name="arrow" />
+            <EpistemeIcon />
           </button>
         </div>
       </div>
@@ -227,17 +197,21 @@ export default function ArcheNovaHeader() {
       <nav
         id="an-top-header-menu"
         className="an-top-header__menu"
-        aria-label="HOME sections"
+        aria-label="ArcheNova navigation"
         hidden={!menuOpen}
       >
-        {SECTIONS.map((section) => (
+        <div className="an-top-header__menu-label">
+          EXPLORE ARCHE NOVA
+        </div>
+
+        {HOME_LINKS.map((link) => (
           <button
+            key={link.id}
             type="button"
-            key={section.id}
-            onClick={() => navigate(section.id)}
+            onClick={() => navigate(link.id)}
           >
-            {section.label}
-            <Icon name="arrow" />
+            {link.label}
+            <span aria-hidden="true">↗</span>
           </button>
         ))}
       </nav>
