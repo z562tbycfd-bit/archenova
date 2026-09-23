@@ -56988,32 +56988,122 @@ body.an-home-header-active
 
 
 /* ==========================================================
-   ARCHENOVA — MOBILE HOME BACKGROUND SIZE RESTORE
+   ARCHENOVA — MOBILE HOME COSMIC BACKGROUND
+
+   Image:
+   public/images/IMG_9845.jpeg
 
    Scope:
-   - Mobile HOME background only
-   - No changes to header, overlays, cards or Portals
+   Mobile HOME only.
+
+   Preserve:
+   - Existing HOME cards and Portals
+   - ArcheNovaHeader
+   - Fullscreen glass overlays
+   - HomeSectionPager
+   - Existing Menu
 ========================================================== */
 
 @media (max-width: 768px) {
+
+  /* ========================================================
+     MOBILE HOME BACKGROUND
+  ======================================================== */
+
   body:has(main.an-home-2026.home-snap) .site-bg {
     position: fixed !important;
+
     inset: 0 !important;
 
-    width: 100vw !important;
+    z-index: -2 !important;
+
+    box-sizing: border-box !important;
+
+    width: 100% !important;
+
     height: 100vh !important;
     height: 100dvh !important;
 
-    background-image: url("/image/IMG_9845.jpeg") !important;
-    background-size: contain !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
+    /*
+     Use the actual image path:
+
+     public/images/IMG_9845.jpeg
+     → /images/IMG_9845.jpeg
+    */
+
+    background-image:
+      url("/images/IMG_9845.jpeg") !important;
+
+    /*
+     Reduce the displayed image size.
+
+     80% = initial adjustment value.
+     Change only this value if necessary.
+    */
+
+    background-size:
+      80% auto !important;
+
+    background-position:
+      center center !important;
+
+    background-repeat:
+      no-repeat !important;
+
+    /*
+     Prevent additional scaling of the
+     background element itself.
+    */
 
     transform: none !important;
+
     scale: 1 !important;
+
     zoom: 1 !important;
+
+    will-change: auto !important;
+
+    pointer-events: none !important;
+  }
+
+  /* ========================================================
+     DISABLE THE ADDITIONAL CSS STAR LAYER
+
+     Preserve the original background image.
+  ======================================================== */
+
+  body:has(main.an-home-2026.home-snap)
+  .site-bg::before {
+    content: none !important;
+
+    display: none !important;
+  }
+
+  /* ========================================================
+     PRESERVE TRANSPARENT HOME BACKGROUNDS
+
+     The cosmic background remains visible behind
+     the existing HOME content.
+  ======================================================== */
+
+  body:has(main.an-home-2026.home-snap)
+  .home-snap,
+
+  body:has(main.an-home-2026.home-snap)
+  .home-page,
+
+  body:has(main.an-home-2026.home-snap)
+  .hero,
+
+  body:has(main.an-home-2026.home-snap)
+  .hero-scroll {
+    background: transparent !important;
   }
 }
+
+
+
+
 
 
 
