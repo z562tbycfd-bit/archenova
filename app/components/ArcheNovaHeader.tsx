@@ -2,6 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 
+const ARCHENOVA_MENU_OPEN_EVENT = "archenova:menu-open";
+const ARCHENOVA_MENU_STATE_EVENT = "archenova:menu-state";
+
 function MenuIcon() {
   return (
     <svg
@@ -27,65 +30,60 @@ export default function ArcheNovaHeader() {
   const directionDistance = useRef(0);
   const frameRef = useRef<number | null>(null);
 
-  /*
-   * HOME-only class.
-   *
-   * Hides the original Menu.tsx trigger on HOME,
-   * without removing or duplicating the existing menu.
-   */
+  /* ========================================================
+     HOME HEADER ACTIVE
+     --------------------------------------------------------
+     Hide only the original floating Menu.tsx trigger.
+     Keep the existing Menu.tsx component mounted.
+  ======================================================== */
+
   useEffect(() => {
     document.body.classList.add("an-home-header-active");
 
     return () => {
-      document.body.classList.remove("an-home-header-active");
+      document.body.classList.remove(
+        "an-home-header-active",
+      );
     };
   }, []);
 
-  /*
-   * Observe the existing Menu.tsx state.
-   *
-   * Menu.tsx remains the single owner of:
-   * - menu opening and closing
-   * - route navigation
-   * - HOME section navigation
-   * - body scroll lock
-   * - Escape handling
-   */
+  /* ========================================================
+     MENU STATE
+     --------------------------------------------------------
+     Menu.tsx reports its open/closing state.
+     The header does not own or duplicate menu state.
+  ======================================================== */
+
   useEffect(() => {
-    const updateMenuState = () => {
-      const existingMenu = document.querySelector(".an-menu");
+    const onMenuState = (event: Event) => {
+      const customEvent = event as CustomEvent<{
+        open: boolean;
+      }>;
 
-      const isOpen =
-        existingMenu?.classList.contains("is-open") ?? false;
-
-      const isClosing =
-        existingMenu?.classList.contains("is-closing") ?? false;
-
-      setMenuOpen(isOpen || isClosing);
+      setMenuOpen(Boolean(customEvent.detail?.open));
     };
 
-    updateMenuState();
-
-    const observer = new MutationObserver(updateMenuState);
-
-    observer.observe(document.body, {
-      subtree: true,
-      childList: true,
-      attributes: true,
-      attributeFilter: ["class"],
-    });
+    window.addEventListener(
+      ARCHENOVA_MENU_STATE_EVENT,
+      onMenuState,
+    );
 
     return () => {
-      observer.disconnect();
+      window.removeEventListener(
+        ARCHENOVA_MENU_STATE_EVENT,
+        onMenuState,
+      );
     };
   }, []);
 
-  /*
-   * Reveal on upward scrolling.
-   * Hide on downward scrolling.
-   *
-   * Keep the header visible while the menu is open.
-   */
+  /* ========================================================
+     HEADER REVEAL
+     --------------------------------------------------------
+     Hide on downward scrolling.
+     Reveal on upward scrolling.
+     Keep visible while the menu is open.
+  ======================================================== */
+
   useEffect(() => {
     lastScrollY.current = window.scrollY;
 
@@ -138,24 +136,25 @@ export default function ArcheNovaHeader() {
     };
   }, [menuOpen]);
 
-  /*
-   * Open the EXISTING Menu.tsx.
-   *
-   * Its original trigger is visually hidden on HOME,
-   * but remains mounted so its established opening
-   * behavior can be used without creating a second menu.
-   */
-  const openExistingMenu = () => {
-    const trigger =
-      document.querySelector<HTMLButtonElement>(
-        ".an-menu__trigger",
-      );
+  /* ========================================================
+     OPEN EXISTING MENU DIRECTLY
+     --------------------------------------------------------
+     No hidden-button lookup.
+     No .click() proxy.
+     Menu.tsx handles the actual opening.
+  ======================================================== */
 
-    if (trigger) {
-      trigger.click();
-      setVisible(true);
-    }
+  const openExistingMenu = () => {
+    setVisible(true);
+
+    window.dispatchEvent(
+      new Event(ARCHENOVA_MENU_OPEN_EVENT),
+    );
   };
+
+  /* ========================================================
+     BACK TO HOME TOP
+  ======================================================== */
 
   const backToTop = () => {
     const reducedMotion = window.matchMedia(
@@ -188,6 +187,7 @@ export default function ArcheNovaHeader() {
             className="an-top-header__icon"
             aria-label="Open ArcheNova navigation"
             aria-expanded={menuOpen}
+            aria-haspopup="dialog"
             onClick={openExistingMenu}
           >
             <MenuIcon />
@@ -207,7 +207,10 @@ export default function ArcheNovaHeader() {
         </a>
 
         <div
-          className="an-top-header__side an-top-header__side--right"
+          className={[
+            "an-top-header__side",
+            "an-top-header__side--right",
+          ].join(" ")}
           aria-hidden="true"
         >
           <span className="an-top-header__balance" />
