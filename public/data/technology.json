@@ -1,7 +1,205 @@
 {
   "ok": true,
-  "updated": "2026-09-23T11:00:39.068Z",
+  "updated": "2026-09-23T16:21:48.376Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Shannon Lucid’s Record-Setting Mission Aboard Mir",
+      "url": "https://www.nasa.gov/image-article/shannon-lucids-record-setting-mission-aboard-mir/",
+      "summary": "Shannon Lucid’s Record-Setting Mission Aboard Mir Three days before returning to Earth, Shannon W. Lucid—who joined NASA in 1978 as one of its first six female astronauts—checked in on wheat growing in the Svet greenhous…",
+      "ts": 1790179417000,
+      "publishedAt": "2026-09-23T16:03:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Digital Shadows to Aid Complexity in Handling Process Intensification",
+      "url": "https://www.genengnews.com/topics/bioprocessing/digital-shadows-to-aid-complexity-in-handling-process-intensification/",
+      "summary": "AI-augmented digital twins that merely report, rather than control processes, could help biotechnology companies untangle the complexities of analyzing big multidimensional nonlinear datasets to help simplify and improve…",
+      "ts": 1790179231000,
+      "publishedAt": "2026-09-23T16:00:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Media Cleaning Could Help Biopharma Cut Costs and Fully Embrace Perfusion",
+      "url": "https://www.genengnews.com/topics/bioprocessing/media-cleaning-could-help-biopharma-cut-costs-and-fully-embrace-perfusion/",
+      "summary": "A novel media cleaning process could help drug companies significantly reduce production costs, according to MIT researchers, who say the approach could improve the economic case for perfusion bioreactors and continuous …",
+      "ts": 1790179224000,
+      "publishedAt": "2026-09-23T16:00:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "CGT Collaboration Moves from Aspirations to Infrastructure",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cgt-collaboration-moves-from-aspirations-to-infrastructure/",
+      "summary": "Act for Hope founder Alexander Seyf says cell and gene therapy’s next challenge is not proving the science, but building a connected ecosystem that can turn breakthrough treatments into reliable, scalable, and equitable …",
+      "ts": 1790179217000,
+      "publishedAt": "2026-09-23T16:00:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Multi-Controller System: Major Boost to Continuous CHO Perfusion",
+      "url": "https://www.genengnews.com/topics/bioprocessing/multi-controller-system-major-boost-to-continuous-cho-perfusion/",
+      "summary": "A novel multi-strategy nonlinear predictive control system maximizes CHO cell perfusion productivity in a continuous bioprocessing environment by optimizing feed, bleed, and harvest flows, and letting biomanufacturers sw…",
+      "ts": 1790179215000,
+      "publishedAt": "2026-09-23T16:00:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "ts": 1790179200000,
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Ethereal Space Awarded NOAA SBEM Task Order 1",
+      "url": "https://spacenews.com/ethereal-space-awarded-noaa-sbem-task-order-1/",
+      "summary": "DENVER, Colorado – September 2026 – Ethereal Space, Inc. today announced that it has been awarded Task Order 1 under NOAA’s ProTech 2.0 Space-Based Environmental Monitoring (SBEM) program, following NOAA’s […] The post E…",
+      "ts": 1790176690000,
+      "publishedAt": "2026-09-23T15:18:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+      "summary": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a lig…",
+      "ts": 1790175632000,
+      "publishedAt": "2026-09-23T15:00:32.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "FFA 2026 Hyperwall Schedule",
+      "url": "https://science.nasa.gov/earth/ffa-2026-hyperwall-schedule/",
+      "summary": "FFA 2026 Hyperwall Schedule",
+      "ts": 1790175493000,
+      "publishedAt": "2026-09-23T14:58:13.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Risk of Hydrazine Use Following Freeze–Thaw Exposure",
+      "url": "https://www.nasa.gov/general/risk-of-hydrazine-use-following-freeze-thaw-exposure/",
+      "summary": "For more information, contact Jonathan E. Jones, Langley Research Center, jonathan.e.jones@nasa.gov Download the PDF version The purpose of this Technical Bulletin is to communicate the risks associated with freeze–thaw …",
+      "ts": 1790173918000,
+      "publishedAt": "2026-09-23T14:31:58.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Seeks Lensed Supernova, Marks 200,000 Orbits",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-seeks-lensed-supernova-marks-200000-orbits/",
+      "summary": "NASA’s Hubble Space Telescope completed its 200,000th orbit around Earth on Sept. 19, marking another new milestone for an observatory that continues to transform our understanding of the universe. Hubble has traveled mo…",
+      "ts": 1790171734000,
+      "publishedAt": "2026-09-23T13:55:34.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Flagship gets a Pentagon contract ",
+      "url": "https://www.statnews.com/2026/09/23/biotech-news-flagship-gets-a-pentagon-contract/?utm_campaign=rss",
+      "summary": "Biotech investment firm Flagship Pioneering has been awarded a contract by the Department of Defense to advance countermeasure technologies against biological threats.",
+      "ts": 1790170656000,
+      "publishedAt": "2026-09-23T13:37:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AI doomerism: Here’s how to make sense of it",
+      "url": "https://www.statnews.com/2026/09/23/how-to-make-sense-of-ai-doomerism-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis newsletter: Brittany Trang offers a few stories to make sense of the AI doom/slowdown talk, and more.",
+      "ts": 1790170198000,
+      "publishedAt": "2026-09-23T13:29:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a closing loophole for importing meds, European competitiveness, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss",
+      "summary": "As of next month, a loophole that allows Americans to personally import their medications by mail is closing",
+      "ts": 1790169631000,
+      "publishedAt": "2026-09-23T13:20:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Anthropic-, Nvidia-Backed Basecamp Research Raise $140M Series C Financing Toward Advancing AI-Designed Drugs",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs/",
+      "summary": "According to Basecamp, EDEN offers the ability to design long and complex DNA sequences with large serine recombinases capable of delivering those sequences precisely. The post Anthropic-, Nvidia-Backed Basecamp Research…",
+      "ts": 1790168422000,
+      "publishedAt": "2026-09-23T13:00:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "ts": 1790168400000,
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
+      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram vid…",
+      "ts": 1790165400000,
+      "publishedAt": "2026-09-23T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Syria begins ‘new phase of revival’, President Al-Sharaa tells General Assembly",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168411",
+      "summary": "Syrian President Ahmad Al-Sharaa told the UN General Assembly on Wednesday that his country “is rising” on many levels, thanks to the strength of its people.",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: World leaders debate ongoing war in Ukraine",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168410",
+      "summary": "Five years of war. Another winter closing in. Today, the Security Council once again debates a path to peace – though any resolution still runs up against the veto of Russia, one of its own permanent members, whose objec…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Right to development: A blueprint for unmet promises",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168405",
+      "summary": "Ahead of the 40th anniversary of the groundbreaking Declaration on the Right to Development this December, world leaders gathered at a High-Level Week meeting on Wednesday to map progress made and the 21st century challe…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN health agency calls for investment boost to save young lives from cancer",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168408",
+      "summary": "More children and young people are beating cancer, but progress remains uneven across regions and age groups, highlighting the need for increased investment to boost survival rates.",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo Ebola outbreak toll exceeds 3,700 deaths",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168407",
+      "summary": "More than 130 days into the latest Ebola outbreak in the Democratic Republic of the Congo (DRC), health experts said on Wednesday that response efforts have been scaled up significantly and “the first encouraging signs o…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "United Nations News",
       "title": "United Kingdom announces action on disinformation and global AI standards",
@@ -10,6 +208,24 @@
       "ts": 1790164800000,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "The latest in the legal saga for youth gender-affirming care in the U.S.",
+      "url": "https://www.statnews.com/2026/09/23/health-news-legal-saga-for-youth-gender-affirming-care-in-the-us/?utm_campaign=rss",
+      "summary": "The chilling effect of the Trump administration's dogged offensive against transgender health care has been swift, with dozens of hospitals across the U.S. ending care, even if they haven't been…",
+      "ts": 1790164303000,
+      "publishedAt": "2026-09-23T11:51:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "First switch on for ESA-JAXA Ramses asteroid mission",
+      "url": "https://www.esa.int/Space_Safety/Planetary_Defence/First_switch_on_for_ESA-JAXA_Ramses_asteroid_mission",
+      "summary": "The European Space Agency’s and Japan Aerospace Exploration Agency’s Ramses planetary defence spacecraft has been turned on for the first time by its prime contractor – marking a major milestone in its time-critical deve…",
+      "ts": 1790162220000,
+      "publishedAt": "2026-09-23T11:17:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -426,6 +642,15 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "ts": 1790121600000,
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Biomimetic Nanoparticles Trigger Light Responses in Blind Mouse Retinas",
       "url": "https://www.genengnews.com/topics/translational-medicine/biomimetic-nanoparticles-trigger-light-responses-in-blind-mouse-retinas/",
@@ -586,231 +811,6 @@
       "ts": 1790082905000,
       "publishedAt": "2026-09-22T13:15:05.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about pharma seeking to protect China deals, a Roche obesity drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss",
-      "summary": "Western pharmaceutical companies are urging the Trump administration to allow them to keep doing deals with Chinese companies for drug candidates",
-      "ts": 1790082874000,
-      "publishedAt": "2026-09-22T13:14:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the…",
-      "ts": 1790079000000,
-      "publishedAt": "2026-09-22T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics …",
-      "ts": 1790078441000,
-      "publishedAt": "2026-09-22T12:00:41.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "When a country goes underwater: Island States fight for their future",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168398",
-      "summary": "Rising sea levels and ever-more-powerful storms are eroding shorelines, submerging land and threatening to evict millions of people from their homes worldwide.",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168404",
-      "summary": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be…",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Ask us first’: Children demand a voice on AI’s future",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168403",
-      "summary": "The first generation to grow up with AI may also be the last one anyone thinks to ask about it – and that has to change, the UN's top human rights official said on Tuesday.",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Time is running out’ for Israel-Palestine two-State solution",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168401",
-      "summary": "The UN chief warned on Tuesday that the two-State solution for the Israel-Palestine conflict is at risk of collapse amid illegal Israeli settlement expansion and annexation.",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Choose international order over ‘law of the jungle’, urges Macron",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168402",
-      "summary": "French President Emmanuel Macron said on Tuesday that the world faces a stark choice: “Do we want to live…with a return to the law of the jungle – or do we want to live in a civilized international society?”",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Qatar: Absence of a regional collective security system is fuelling crisis in the Gulf",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168400",
-      "summary": "The crisis in the Gulf should come as a surprise to no one, the Emir of Qatar, Sheikh Tamim bin Hamad Al Thani said on Tuesday, describing it as the cumulative result of years of delay, crisis management through temporar…",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN rendered unable to fulfil its mission, Turkish President laments before world leaders",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168399",
-      "summary": "The United Nations continues to be weakened, and those who have tied their hopes to the world body – from Palestine to Sudan – have been disappointed, Türkiye’s President said, while adding that his country is committed …",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Trump defends military action against Iran, Venezuela, and calls for rebrand of AI",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168397",
-      "summary": "US President Donald Trump used his address to the UN General Assembly on Tuesday to defend recent military action against Iran, urging countries to maintain economic pressure on Tehran – and declaring that he now faces a…",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Diplomacy is the way to address global challenges, Brazil tells General Assembly",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168395",
-      "summary": "Brazilian President Luiz Inácio Lula da Silva told the General Assembly on Tuesday that the UN needs to become a “temple of peace” once again, as it confronts one of the most critical periods in its 80-year history.",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Time to accept ‘hard truths’ so trust can be rebuilt: General Assembly President",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168394",
-      "summary": "The UN’s survival for 80 years is not, by itself, proof of success, and now, the institution must confront painful truths if it hopes to rebuild public trust, said Khalilur Rahman, president of the General Assembly’s 81s…",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres: ‘Cracks have become canyons’ as world faces four tests of power",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168392",
-      "summary": "Humanity faces four defining “tests of power” – around war or peace, inequality, climate change and AI – that will determine whether the world moves towards a new era of cooperation or deeper division, the UN chief warne…",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Millions of children return to schools that still can’t provide clean water or a working toilet",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168393",
-      "summary": "A new academic year is underway in many countries across the world, yet millions of children still attend schools where the water is unsafe to drink, toilets are unusable and there is nowhere to properly wash their hands…",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Displacement on the rise in Yemen as fighting continues",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168390",
-      "summary": "As hostilities worsen in Yemen, more people have been fleeing their homes, further intensifying the humanitarian crisis within the region, the UN Refugee Agency (UNHCR) warned on Tuesday.",
-      "ts": 1790078400000,
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "New federal autism committee head has financial ties to leucovorin",
-      "url": "https://www.statnews.com/2026/09/22/health-news-federal-autism-committee-head-has-financial-ties-to-leucovorin/?utm_campaign=rss",
-      "summary": "RFK Jr. has installed John Gaitanis, a pediatric neurologist, as the new chair of the Interagency Autism Coordinating Committee, which helps the federal government decide how to allocate roughly $2 billion…",
-      "ts": 1790078081000,
-      "publishedAt": "2026-09-22T11:54:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "A call to boost European space exploration",
-      "url": "https://www.esa.int/About_Us/Corporate_news/A_call_to_boost_European_space_exploration",
-      "summary": "The Call sets out a shared vision for strengthening Europe's role in human and robotic space exploration and provides political guidance for preparations ahead of the Intermediate Ministerial Meeting in Rome on 15 Decemb…",
-      "ts": 1790076360000,
-      "publishedAt": "2026-09-22T11:26:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Don’t be fooled by this summer of AI hype ",
-      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face h…",
-      "ts": 1790075091000,
-      "publishedAt": "2026-09-22T11:04:51.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Ohio governor’s race is a battle over Covid, health costs, and trust in science",
-      "url": "https://www.statnews.com/2026/09/22/ohio-governor-election-health-care-policy-acton-ramaswamy/?utm_campaign=rss",
-      "summary": "The race between Amy Acton and Vivek Ramaswamy could be the election’s most direct test of where the heartland stands on health care and the pandemic.",
-      "ts": 1790065800000,
-      "publishedAt": "2026-09-22T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why an influential GOP health policy expert still backs the Medicaid cuts — and which policy target is next",
-      "url": "https://www.statnews.com/2026/09/22/brian-blase-paragon-health-institute-gop-aca-medicaid-reforms/?utm_campaign=rss",
-      "summary": "Why an influential GOP health policy expert still backs $1 trillion in Medicaid cuts — and which policy target is next.",
-      "ts": 1790065800000,
-      "publishedAt": "2026-09-22T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Social media bans are passing around the world. How will we know if they help teens?",
-      "url": "https://www.statnews.com/2026/09/22/social-media-bans-australia-uk-teen-mental-health/?utm_campaign=rss",
-      "summary": "“Researchers must seize this opportunity to examine how social media — and its regulation — impacts teenagers,” writes Wellcome’s Camilla Iannone.",
-      "ts": 1790065800000,
-      "publishedAt": "2026-09-22T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The science on relieving cancer symptoms is clear. Why isn’t insurance paying?",
-      "url": "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss",
-      "summary": "Research shows that integrative therapies reduce cancer-related pain, fatigue, anxiety, and nausea. Why won't insurance pay?",
-      "ts": 1790065800000,
-      "publishedAt": "2026-09-22T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Nicaragua Signs a Country Programme Framework (CPF) for 2026–2031",
-      "url": "http://www.iaea.org/newscenter/news/nicaragua-signs-a-country-programme-framework-cpf-for-2026-2031",
-      "summary": "Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, and Ms Sabra Amari Murillo Centeno, Resident Representative at the Permanent Mission of the Republic of Nicaragua to the IAEA,…",
-      "ts": 1790064089000,
-      "publishedAt": "2026-09-22T08:01:29.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
