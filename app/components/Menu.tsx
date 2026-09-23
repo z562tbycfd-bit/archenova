@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+
 import { usePathname } from "next/navigation";
 
 import {
@@ -22,17 +23,7 @@ import {
    Scientific Open World / Civilization Intelligence /
    Research / Civilization / Projects /
    Governance / About / Contact
-
-   HEADER INTEGRATION:
-   - Menu.tsx owns the menu state.
-   - ArcheNovaHeader requests opening through an event.
-   - No hidden-trigger .click() proxy.
-   - The original floating trigger remains available
-     outside HOME.
 ========================================================== */
-
-const ARCHENOVA_MENU_OPEN_EVENT = "archenova:menu-open";
-const ARCHENOVA_MENU_STATE_EVENT = "archenova:menu-state";
 
 type MenuItem = {
   href: string;
@@ -77,7 +68,7 @@ const ITEMS: readonly MenuItem[] = [
     label: "Today's Inquiry",
     note: "A living research question",
   },
-  {
+    {
     href: "/humanity-responsibility",
     label: "Humanity & Responsibility",
     note: "A permanent inquiry into power and responsibility",
@@ -149,26 +140,6 @@ export default function Menu() {
   const closeTimerRef = useRef<number | null>(null);
 
   /* ========================================================
-     OPEN
-     --------------------------------------------------------
-     Used by:
-     - The original floating trigger on non-HOME pages.
-     - The HOME header's direct open event.
-  ======================================================== */
-
-  function requestOpen() {
-    if (closeTimerRef.current !== null) {
-      window.clearTimeout(closeTimerRef.current);
-      closeTimerRef.current = null;
-    }
-
-    setClosing(false);
-    setOpen(true);
-    setMenuQuiet(false);
-    setMenuIntent(true);
-  }
-
-  /* ========================================================
      CLOSE
   ======================================================== */
 
@@ -188,10 +159,6 @@ export default function Menu() {
     }, 420);
   }
 
-  /* ========================================================
-     TIMER CLEANUP
-  ======================================================== */
-
   useEffect(() => {
     return () => {
       if (closeTimerRef.current !== null) {
@@ -199,52 +166,6 @@ export default function Menu() {
       }
     };
   }, []);
-
-  /* ========================================================
-     DIRECT HEADER CONTROL
-     --------------------------------------------------------
-     ArcheNovaHeader dispatches:
-       arch​enova:menu-open
-
-     This component handles the opening directly.
-     No hidden DOM button is searched or clicked.
-  ======================================================== */
-
-  useEffect(() => {
-    function openFromHeader() {
-      requestOpen();
-    }
-
-    window.addEventListener(
-      ARCHENOVA_MENU_OPEN_EVENT,
-      openFromHeader,
-    );
-
-    return () => {
-      window.removeEventListener(
-        ARCHENOVA_MENU_OPEN_EVENT,
-        openFromHeader,
-      );
-    };
-  }, []);
-
-  /* ========================================================
-     REPORT MENU STATE TO HEADER
-     --------------------------------------------------------
-     The header uses this to:
-     - Keep itself visible while the menu is open.
-     - Update aria-expanded.
-  ======================================================== */
-
-  useEffect(() => {
-    window.dispatchEvent(
-      new CustomEvent(ARCHENOVA_MENU_STATE_EVENT, {
-        detail: {
-          open: open || closing,
-        },
-      }),
-    );
-  }, [open, closing]);
 
   /* ========================================================
      ESC
@@ -405,9 +326,6 @@ export default function Menu() {
     >
       {/* ==================================================
           TRIGGER
-          --------------------------------------------------
-          Hidden on HOME by the existing globals.css rule.
-          Remains available on all other pages.
       ================================================== */}
 
       {!showOverlay && (
@@ -421,7 +339,7 @@ export default function Menu() {
           onFocus={() => setMenuIntent(true)}
           onBlur={() => setMenuIntent(false)}
           onPointerDown={() => setMenuIntent(true)}
-          onClick={requestOpen}
+          onClick={() => setOpen(true)}
         >
           <span className="an-menu__trigger-lines">
             <i />
@@ -573,8 +491,6 @@ export default function Menu() {
 
       {/* ==================================================
           STYLE
-          --------------------------------------------------
-          Original glass design and animations retained.
       ================================================== */}
 
       <style jsx global>{`
