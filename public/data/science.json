@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-22T21:51:28.332Z",
+  "updated": "2026-09-23T00:06:58.191Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How the pro‑nicotine 'wellness' movement rebranded an addictive drug",
+      "url": "https://phys.org/news/2026-09-pronicotine-wellness-movement-rebranded-addictive.html",
+      "summary": "An ironic development emerging alongside the \"Make America Healthy Again\" movement is the portrayal of nicotine as a wellness and performance-enhancing product. Across social media, podcasts, wellness communities and tec…",
+      "ts": 1790121601000,
+      "publishedAt": "2026-09-23T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The secret to a perfect crystal may be a precisely calibrated extra turn",
+      "url": "https://phys.org/news/2026-09-secret-crystal-precisely-calibrated-extra.html",
+      "summary": "Creating a perfect crystal sounds straightforward: Arrange identical building blocks into a repeating, orderly structure. At the microscopic scale, though, even subtle biases in how particles interact can push them in pr…",
+      "ts": 1790119205000,
+      "publishedAt": "2026-09-22T23:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Queasy plesiosaurs swam to shore to vomit, Jurassic fossils reveal",
+      "url": "https://phys.org/news/2026-09-queasy-plesiosaurs-swam-shore-vomit.html",
+      "summary": "Plesiosaurs swam into river deltas to vomit up shells and other indigestible elements of their marine meals, suggests new research published by Cambridge University Press. The behavior resembles that of today's fur seals…",
+      "ts": 1790118001000,
+      "publishedAt": "2026-09-22T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Injectable nanoparticles make blind retinas respond to light in preclinical study",
+      "url": "https://phys.org/news/2026-09-nanoparticles-retinas-preclinical.html",
+      "summary": "An international research team has developed microscopic particles that can make blind retinas respond to light. The particles act as tiny light receptors. Researchers inject them into the eye, where they settle close to…",
+      "ts": 1790116802000,
+      "publishedAt": "2026-09-22T22:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Corals show 'vaccine-like' responses after pathogen exposure",
+      "url": "https://phys.org/news/2026-09-corals-vaccine-responses-pathogen-exposure.html",
+      "summary": "To boost corals' resilience amid rising sea temperatures and the spread of disease, KAUST researchers have found that controlled, low-level exposure to dead pathogenic cells can help corals resist future infection.",
+      "ts": 1790115606000,
+      "publishedAt": "2026-09-22T22:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tech solution that makes drone operations much more wildlife friendly",
+      "url": "https://phys.org/news/2026-09-tech-solution-drone-wildlife-friendly.html",
+      "summary": "This summer, Norwegian news has reported (in Norwegian) multiple stories about Lofoten residents who shot at drones out of sheer frustration. But not everyone exposed to approaching drones has a gun with which to defend …",
+      "ts": 1790115604000,
+      "publishedAt": "2026-09-22T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists crack the math connecting ultraslow quantum magnetism to ultrafast black-hole physics",
+      "url": "https://phys.org/news/2026-09-physicists-math-ultraslow-quantum-magnetism.html",
+      "summary": "A team led by University at Buffalo physicists has found a mathematical solution that shows how a frustrated quantum magnet can transition from ultraslow behavior to ultrafast, highly entangled behavior resembling that o…",
+      "ts": 1790114403000,
+      "publishedAt": "2026-09-22T22:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "From swarming bacteria to tissue cells, living matter defies classic physical models of motion",
@@ -745,62 +801,6 @@
       "summary": "Author(s): Ryan O. Behunin, Taylor Ray, Dylan Chapman, Andrew J. Shepherd, Yizhi Luo, and Peter T. Rakich Phonon modes within pristine crystalline resonators now routinely reach the quantum ground state. Such systems are…",
       "ts": 1790071200000,
       "publishedAt": "2026-09-22T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Integration architecture for a pocket-sized quantum vector magnetometer using spin defects in silicon carbide",
-      "url": "http://link.aps.org/doi/10.1103/51zn-q6t6",
-      "summary": "Author(s): Andreas Gottscholl, Corey J. Cochrane, and Hannes Kraus We present a miniaturized, modular vector magnetometer based on silicon vacancy (${\\mathrm{V}}_{\\mathrm{Si}}^{−}$) centers in 4H-SiC. While N-$V$-diamond…",
-      "ts": 1790071200000,
-      "publishedAt": "2026-09-22T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Nonideal absorbers in hot-carrier and hot-absorber solar cells: Losses and heat recycling",
-      "url": "http://link.aps.org/doi/10.1103/7gjt-qhd4",
-      "summary": "Author(s): Inés Durán, Simon Svatek, Irene Artacho, Elisa Antolín, and Antonio Martí The hot carrier solar cell exhibits a photovoltaic conversion efficiency limit of 85.4%. Among the idealizations necessary to achieve t…",
-      "ts": 1790071200000,
-      "publishedAt": "2026-09-22T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Transverse relaxation time–aware qubit-mapping algorithm for noisy intermediate-scale quantum devices",
-      "url": "http://link.aps.org/doi/10.1103/1hwv-bmqs",
-      "summary": "Author(s): Yifei Huang, Pascal Jahan Elahi, Ugo Varetto, Kan He, Jinchuan Hou, and Shusen Liu Noisy intermediate-scale quantum (NISQ) devices impose dual challenges on quantum circuit execution: limited qubit connectivit…",
-      "ts": 1790071200000,
-      "publishedAt": "2026-09-22T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "El Niño weather pattern enters record territory: Scientist",
-      "url": "https://phys.org/news/2026-09-el-nio-weather-pattern-territory.html",
-      "summary": "The strengthening El Niño weather pattern has tied for the most intense on record on a widely used metric, a senior scientist told AFP on Monday, even as its influence is already being felt from Central America to Indone…",
-      "ts": 1790070001000,
-      "publishedAt": "2026-09-22T09:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Iron complex breaks down stubborn pollutant using light-powered reaction",
-      "url": "https://phys.org/news/2026-09-iron-complex-stubborn-pollutant-powered.html",
-      "summary": "The molecular culprit behind harmful algal blooms and some groundwater contamination is the same thing that has kept civilization fed for millennia: a stable form of nitrogen called nitrate.",
-      "ts": 1790067602000,
-      "publishedAt": "2026-09-22T09:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Worsening El Nino threatens Asia with drought, potentially raising food prices globally",
-      "url": "https://phys.org/news/2026-09-worsening-el-nino-threatens-asia.html",
-      "summary": "All signs are pointing toward a record-breaking El Niño this year, which experts say may cause severe drought in Asia and other extreme weather across the world, threatening food security for millions of people.",
-      "ts": 1790064462000,
-      "publishedAt": "2026-09-22T08:07:42.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A 42-light-year X-ray tail links a pulsar to previously 'orphan' gamma rays",
-      "url": "https://phys.org/news/2026-09-year-ray-tail-links-pulsar.html",
-      "summary": "Understanding the origin, acceleration and propagation of high-energy cosmic rays has been a century-old mystery in astrophysics. Recently, joint observations from China's Einstein Probe (EP) satellite and the Large High…",
-      "ts": 1790063848000,
-      "publishedAt": "2026-09-22T07:57:28.000Z"
     }
   ],
   "sources": [

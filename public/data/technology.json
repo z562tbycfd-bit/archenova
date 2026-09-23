@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-22T21:51:32.279Z",
+  "updated": "2026-09-23T00:07:02.927Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Biomimetic Nanoparticles Trigger Light Responses in Blind Mouse Retinas",
+      "url": "https://www.genengnews.com/topics/translational-medicine/biomimetic-nanoparticles-trigger-light-responses-in-blind-mouse-retinas/",
+      "summary": "A biomimetic nanoparticle platform inspired by photosynthesis helped activate surviving retinal nerve cells in mice with advanced retinal degeneration. The post Biomimetic Nanoparticles Trigger Light Responses in Blind M…",
+      "ts": 1790121093000,
+      "publishedAt": "2026-09-22T23:51:33.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "OpenAI",
       "title": "Better prompt caching for GPT-6",
@@ -180,6 +189,15 @@
       "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics …",
       "ts": 1790078441000,
       "publishedAt": "2026-09-22T12:00:41.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "ts": 1790078400000,
+      "publishedAt": "2026-09-22T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -790,24 +808,6 @@
       "title": "Dimension-dependent continuum limits in tissue mechanics",
       "url": "https://arxiv.org/abs/2607.07000",
       "summary": "arXiv:2607.07000v2 Announce Type: replace-cross Abstract: Continuum descriptions of epithelial tissue mechanics can replace expensive individual-based simulations with tractable macroscopic models, yet the link between c…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Long-term Coexistence of Epidemics and Risk Awareness: Impacts of Adaptive Human Response and Fatigue",
-      "url": "https://arxiv.org/abs/2607.18301",
-      "summary": "arXiv:2607.18301v3 Announce Type: replace-cross Abstract: Human behavior shapes epidemic dynamics, yet most models represent it by rescaling transmission, conflating behavior with biology and removing the memory carried …",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An information-theoretic perspective on feed-forward loop abundances in transcriptional networks",
-      "url": "https://arxiv.org/abs/2608.17699",
-      "summary": "arXiv:2608.17699v3 Announce Type: replace-cross Abstract: In the transcriptional networks of \\textit{Escherichia coli} and \\textit{Saccharomyces cerevisiae}, the eight feed-forward loop (FFL) motifs occur at markedly dif…",
       "ts": 1790049600000,
       "publishedAt": "2026-09-22T04:00:00.000Z",
       "categoryId": "bio"
