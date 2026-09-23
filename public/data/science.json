@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-23T19:59:35.487Z",
+  "updated": "2026-09-23T22:53:41.126Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "It's hard to predict who will be suicidal: It's easier to ensure people can't shoot themselves",
+      "url": "https://phys.org/news/2026-09-hard-suicidal-easier-people.html",
+      "summary": "Dr. Paul Nestadt is about as steeped in suicide prevention as a person can be.",
+      "ts": 1790203204000,
+      "publishedAt": "2026-09-23T22:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bennu asteroid samples point to a surprising origin involving Jupiter",
+      "url": "https://phys.org/news/2026-09-bennu-asteroid-samples-involving-jupiter.html",
+      "summary": "The asteroid Bennu orbits the sun once every 1.2 years and approaches Earth every six years, passing within around 300,000 kilometers. NASA took advantage of this to collect material from the celestial body. In a spectac…",
+      "ts": 1790203201000,
+      "publishedAt": "2026-09-23T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Starch-based sensor changes color to indicate moisture in food packaging",
+      "url": "https://phys.org/news/2026-09-starch-based-sensor-moisture-food.html",
+      "summary": "Brazilian researchers have developed a biodegradable, starch-based sensor that changes color when moisture enters food packaging. With the addition of cobalt chloride, the sensor changes from blue to pink as moisture lev…",
+      "ts": 1790202008000,
+      "publishedAt": "2026-09-23T22:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gene editing produces soybean with more than 90% oleic acid",
+      "url": "https://phys.org/news/2026-09-gene-soybean-oleic-acid.html",
+      "summary": "Sejong University researchers have developed a high-quality soybean with improved oxidative stability, reduced saturated fat and increased seed fatty acid content. The research team led by Hyun Uk Kim, a professor in the…",
+      "ts": 1790202005000,
+      "publishedAt": "2026-09-23T22:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bee-made propolis boosts an antifungal drug against yeast pathogens in lab tests",
+      "url": "https://phys.org/news/2026-09-bee-propolis-boosts-antifungal-drug.html",
+      "summary": "Propolis may not only inhibit the growth of certain fungi but also affect the activity of drugs used to treat fungal infections. Researchers have investigated how an ethanolic extract of Polish propolis interacts with va…",
+      "ts": 1790200810000,
+      "publishedAt": "2026-09-23T22:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Banking patterns could help identify people experiencing financial abuse, UK study finds",
+      "url": "https://phys.org/news/2026-09-banking-patterns-people-experiencing-financial.html",
+      "summary": "Telltale signs of financial abuse, such as depleted savings, increasing debts and declining credit scores, can be identified in bank records, according to an analysis of U.K. banking data published in Nature. The finding…",
+      "ts": 1790200802000,
+      "publishedAt": "2026-09-23T22:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Central surface density of dark matter agrees with the prediction of a new theory of gravity",
+      "url": "https://phys.org/news/2026-09-central-surface-density-dark-theory.html",
+      "summary": "A researcher from Sejong University has used a new theory of gravity proposed by Erik Verlinde to predict the observed central surface density of dark matter. The study was published in Physics of the Dark Universe on Se…",
+      "ts": 1790199607000,
+      "publishedAt": "2026-09-23T21:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Aiming at number 9: CASPAR targets fluorine in new science run",
+      "url": "https://phys.org/news/2026-09-aiming-caspar-fluorine-science.html",
+      "summary": "The Compact Accelerator System for Performing Astrophysical Research (CASPAR) recreates conditions inside stars to study how elements are made. The experiment recently restarted with a new target—the ninth element on the…",
+      "ts": 1790199605000,
+      "publishedAt": "2026-09-23T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Antarctic's only two flowering plants reveal opposing strategies for surviving long-term warming",
+      "url": "https://phys.org/news/2026-09-antarctic-reveal-opposing-strategies-surviving.html",
+      "summary": "A team of Chilean and Spanish researchers has published the results of one of the longest-running in-situ warming experiments in maritime Antarctica in the journal Physiologia Plantarum. The experiment exposed the Antarc…",
+      "ts": 1790198408000,
+      "publishedAt": "2026-09-23T21:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Graphene measurements reveal energy-loss and quantum-coherence exponents diverge under gate control",
+      "url": "https://phys.org/news/2026-09-graphene-reveal-energy-loss-quantum.html",
+      "summary": "Scientists have shown that the two exponents (inelastic scattering exponent and dephasing exponent) commonly used to describe electron scattering in graphene do not necessarily follow the same behavior. Using gated epita…",
+      "ts": 1790198404000,
+      "publishedAt": "2026-09-23T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How ChatGPT served up false information before the 2024 election",
+      "url": "https://phys.org/news/2026-09-chatgpt-false-election.html",
+      "summary": "On Oct. 25, 2024, 10 days before the election that would return Republican Donald Trump to the White House and more than three months after Kamala Harris ascended to the top of the Democratic ticket, ChatGPT was still te…",
+      "ts": 1790197209000,
+      "publishedAt": "2026-09-23T21:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Evolved enzymes build tuberculosis antibiotic ingredient in the desired form, potentially reducing waste",
+      "url": "https://phys.org/news/2026-09-evolved-enzymes-tuberculosis-antibiotic-ingredient.html",
+      "summary": "Tuberculosis, or TB, is a contagious bacterial infection that primarily affects the lungs. While curative treatments exist, more than 80% of cases occur in low- and middle-income nations, where drug-resistant strains are…",
+      "ts": 1790197205000,
+      "publishedAt": "2026-09-23T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New AI methodology powers the latest million dollar list",
+      "url": "https://phys.org/news/2026-09-ai-methodology-powers-latest-million.html",
+      "summary": "New research from Indiana University Lilly Family School of Philanthropy examines charitable gifts of $1 million or more from 2021 to 2023. The Million-Dollar-Plus Giving in the United States, 2021–2023 report offers ins…",
+      "ts": 1790196005000,
+      "publishedAt": "2026-09-23T20:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient genome function persists despite frequent mutations, centromere study shows",
+      "url": "https://phys.org/news/2026-09-ancient-genome-function-persists-frequent.html",
+      "summary": "Every time a cell divides, its chromosomes must be distributed correctly between the two daughter cells. Central to this process is the centromere, a specialized region of the chromosome. The centromere serves as the att…",
+      "ts": 1790196001000,
+      "publishedAt": "2026-09-23T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cooling investments in apparel factories can pay for themselves, study shows",
+      "url": "https://phys.org/news/2026-09-cooling-investments-apparel-factories-pay.html",
+      "summary": "Investing in cooling for Bangladesh's apparel factories can be commercially viable, with an average payback period of one to four years, according to new research from Cornell University's Global Labor Institute (GLI).",
+      "ts": 1790194808000,
+      "publishedAt": "2026-09-23T20:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists build world's most accurate atomic clock",
+      "url": "https://phys.org/news/2026-09-scientists-world-accurate-atomic-clock.html",
+      "summary": "Take a second and turn it into trillions of moments. Measure each one. That's how precisely an atomic clock at Singapore's Centre for Quantum Technologies (CQT) keeps time—and with record-setting accuracy, according to r…",
+      "ts": 1790194803000,
+      "publishedAt": "2026-09-23T20:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fluorescence timing identifies eight proteins in one cell with a single staining step",
+      "url": "https://phys.org/news/2026-09-fluorescence-proteins-cell.html",
+      "summary": "An international collaboration led by the University Medical Center Göttingen (UMG), Germany, has developed a labeling method that distinguishes fluorescent labels not by color but by how long it takes a dye to emit fluo…",
+      "ts": 1790193610000,
+      "publishedAt": "2026-09-23T20:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Political shifts may shape how quickly Germany adopts electric cars and solar power",
+      "url": "https://phys.org/news/2026-09-political-shifts-quickly-germany-electric.html",
+      "summary": "A new study conducted by the Climate Action Research Lab (CARL) at the University of Freiburg finds that electric cars and photovoltaic systems are less widespread on average in municipalities with strong support for Alt…",
+      "ts": 1790193604000,
+      "publishedAt": "2026-09-23T20:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Prefer intricate shapes? You may also favor complex melodies",
@@ -507,6 +651,30 @@
       "publishedAt": "2026-09-23T10:00:01.000Z"
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Algorithmic Quantum Simulations of Quantum Thermodynamics",
+      "url": "http://link.aps.org/doi/10.1103/n7tv-p5bp",
+      "summary": "Author(s): Yangsen Ye et al. A method to compute thermodynamic properties of spin systems is demonstrated in quantum hardware. [Phys. Rev. Lett. 137, 130603] Published Wed Sep 23, 2026",
+      "ts": 1790157600000,
+      "publishedAt": "2026-09-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Hidden Zeeman Field in Odd-Parity Magnets: An Ideal Platform for Topological Superconductivity",
+      "url": "http://link.aps.org/doi/10.1103/j9m4-386b",
+      "summary": "Author(s): Xun-Jiang Luo, Zi-Ting Sun, Xilin Feng, Mingliang Tian, and K. T. Law Odd-parity magnets (OPMs) have emerged as a fundamental class of unconventional magnetism, characterized by time-reversal-preserving nonrel…",
+      "ts": 1790157600000,
+      "publishedAt": "2026-09-23T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Intertwined Charge Stripes and Majorana Zero Modes in an Iron-Based Superconductor",
+      "url": "http://link.aps.org/doi/10.1103/6f1z-dvc6",
+      "summary": "Author(s): Yu Liu, Li-Xuan Wei, Qiang-Jun Cheng, Zhenhua Zhu, Xin-Yu Shi, Cong-Cong Lou, Yong-Wei Wang, Ze-Xian Deng, Ming-Qiang Ren, Dong E. Liu, Ziqiang Wang, Xu-Cun Ma, Jin-Feng Jia, Qi-Kun Xue, and Can-Li Song In typ…",
+      "ts": 1790157600000,
+      "publishedAt": "2026-09-23T10:00:00.000Z"
+    },
+    {
       "source": "APS PRX",
       "title": "Chaotic Many-Body Quantum Dynamics, Spectral Correlations, and Energy Diffusion",
       "url": "http://link.aps.org/doi/10.1103/bjj5-49pg",
@@ -631,174 +799,6 @@
       "title": "Vector Dark Matter from Gravitational Quantum Field Theory",
       "url": "https://arxiv.org/abs/2609.25069",
       "summary": "arXiv:2609.25069v1 Announce Type: new Abstract: Gravitational evidence firmly establishes the existence of dark matter (DM), yet its non-gravitational interactions and fundamental nature remain unresolved. In this work, …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inferring Thermal Dissociation Kinetics of Ion Clusters from Molecular Dynamics",
-      "url": "https://arxiv.org/abs/2609.25070",
-      "summary": "arXiv:2609.25070v1 Announce Type: new Abstract: Electrospray ionic liquid ion sources operating in the pure ion regime emit metastable, low solvation number ion clusters whose post-emission dissociation modifies plume co…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reactive Trace Species Modeling with the Simulation Tool PICLas",
-      "url": "https://arxiv.org/abs/2609.25073",
-      "summary": "arXiv:2609.25073v1 Announce Type: new Abstract: A species-specific weighting scheme for the Natural-Sample-Size collision model within the Direct Simulation Monte Carlo method is developed and implemented in the open-sou…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mass-Scaling of Quantum Tunnelling in Hydrogen Bonds: Analytical Model and Comparison with Multidimensional Potentials",
-      "url": "https://arxiv.org/abs/2609.25074",
-      "summary": "arXiv:2609.25074v1 Announce Type: new Abstract: Quantum tunnelling plays a central role in the structure and spectroscopy of hydrogen-bonded systems, and its sensitivity to isotopic substitution provides a stringent prob…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparing Mass-Varying Neutrino Dark Energy Models with DESI DR2: Cosmological Constraints and Bayesian Evidence",
-      "url": "https://arxiv.org/abs/2609.25090",
-      "summary": "arXiv:2609.25090v1 Announce Type: new Abstract: We investigate late-time cosmic acceleration in mass-varying neutrino (MaVaN) dark energy scenarios, where the neutrino mass is coupled to a dynamical quintessence field th…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radiation hardness characterization of SiPM sensors for Low Earth Orbit space missions",
-      "url": "https://arxiv.org/abs/2609.25093",
-      "summary": "arXiv:2609.25093v1 Announce Type: new Abstract: This work presents a comprehensive radiation hardness characterization of SiPM devices for space-based applications: FBK NUV-HD-MT and NUV-HD-LowCT (1$\\times$1, 3$\\times$3,…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The use of coherent states in the excitation and ionization of atoms by a short symmetric pulse",
-      "url": "https://arxiv.org/abs/2609.25099",
-      "summary": "arXiv:2609.25099v1 Announce Type: new Abstract: We propose a new model for describing the excitation of atoms by short symmetric pulses. The theory is based on the impulse approximation and incorporates a confining poten…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rachel: A general-purpose language model directs and revises retrosynthetic routes",
-      "url": "https://arxiv.org/abs/2609.25118",
-      "summary": "arXiv:2609.25118v1 Announce Type: new Abstract: Retrosynthetic planning advances through decisions that reshape the remaining chemical problem: a locally plausible disconnection can leave precursors whose chemoselectivit…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Clinical Commissioning of the First Ultra-Compact Gantry-less Upright Proton Therapy System",
-      "url": "https://arxiv.org/abs/2609.25141",
-      "summary": "arXiv:2609.25141v1 Announce Type: new Abstract: This study reports the comprehensive clinical commissioning and benchmarking of a novel ultra-compact, gantry-free, upright PT system.",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spin-multiplexed terahertz image edge detection based on extrinsic chirality in all-dielectric metasurface",
-      "url": "https://arxiv.org/abs/2609.25147",
-      "summary": "arXiv:2609.25147v1 Announce Type: new Abstract: Extrinsically chiral metasurfaces can exhibit pronounced chiral responses in planar structures without intrinsic chirality, making them attractive for spin-selective light …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Sustainable Magnetic Resonance Imaging: Insights from long-term, high-resolution energy recordings across an entire scanner fleet",
-      "url": "https://arxiv.org/abs/2609.25150",
-      "summary": "arXiv:2609.25150v1 Announce Type: new Abstract: Magnetic resonance imaging (MRI) is among the most energy-intensive diagnostic modalities in healthcare, yet its energy consumption and the factors influencing it remain in…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pulse-shape discrimination with machine learning for CZT detectors at the DA$\\Phi$NE beam test facility",
-      "url": "https://arxiv.org/abs/2609.25156",
-      "summary": "arXiv:2609.25156v1 Announce Type: new Abstract: Cadmium zinc telluride (CZT) detectors offer versatility, operational simplicity, and room-temperature X- and gamma-ray spectroscopy, making them attractive for collider ap…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reply to Comment on \"Efficient implementation of the superposition of atomic potentials initial guess for electronic structure calculations in Gaussian basis sets\"",
-      "url": "https://arxiv.org/abs/2609.25160",
-      "summary": "arXiv:2609.25160v1 Announce Type: new Abstract: We reply to the Comment by Surjuse, Deng, Asadchev, and Valeev [arXiv:2603.16989] on our article \"Efficient implementation of the superposition of atomic potentials initial…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical physics of language change inferred from time evolving maps",
-      "url": "https://arxiv.org/abs/2609.25169",
-      "summary": "arXiv:2609.25169v1 Announce Type: new Abstract: Language change may be studied by tracking linguistic variant frequencies through space and time. Observed frequencies may be viewed as realisations of a statistical field.…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Before WIMPs: Neutrinos and the origins of particle dark matter",
-      "url": "https://arxiv.org/abs/2609.25239",
-      "summary": "arXiv:2609.25239v1 Announce Type: new Abstract: After four decades of null-results, the experimental quest to discover a dark matter particle ardently continues. While confidence in the leading candidate, the Weakly Inte…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Silk-templated Nanostrips as Superprotonic Fibre Sensors",
-      "url": "https://arxiv.org/abs/2609.25293",
-      "summary": "arXiv:2609.25293v1 Announce Type: new Abstract: Transforming textile fibres into sensors can facilitate continuous physiological monitoring for improving human healthcare. Coating fibres with electronic conductors can he…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time Distribution of Heavy Rainfall in Brazil: Empirical Huff Curves from 290,164 Sub-Daily Storm Events",
-      "url": "https://arxiv.org/abs/2609.25315",
-      "summary": "arXiv:2609.25315v1 Announce Type: new Abstract: Temporal rainfall distributions are widely used in design storm construction; however, many countries with limited sub-daily observations, such as Brazil, still rely on fra…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Near Chemical Accuracy From Size-Consistent Pad\\'e Resummed M{\\o}ller-Plesset Perturbation Theory",
-      "url": "https://arxiv.org/abs/2609.25330",
-      "summary": "arXiv:2609.25330v1 Announce Type: new Abstract: Pad\\'e resummation of the correlation energy from M{\\o}ller-Plesset (MP) perturbation theory is not size-consistent and is therefore seldom used. We present an orbital-base…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MolExplain: An Interactive Tool for Explainable Molecular Property Prediction",
-      "url": "https://arxiv.org/abs/2609.25355",
-      "summary": "arXiv:2609.25355v1 Announce Type: new Abstract: The application of machine learning to molecular property prediction has become increasingly prevalent in drug discovery, yet most models operate as black boxes, returning …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Why MHD turbulence forms sheets: energy conversion and cascade geometry",
-      "url": "https://arxiv.org/abs/2609.25407",
-      "summary": "arXiv:2609.25407v1 Announce Type: new Abstract: Sheet-like structures are ubiquitous in magnetohydrodynamic systems and are known to play a crucial role in astrophysical plasma transport. Here, by applying a theoretical …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-constrained identification of near-flutter aeroelastic damping from finite records",
-      "url": "https://arxiv.org/abs/2609.25440",
-      "summary": "arXiv:2609.25440v1 Announce Type: new Abstract: Near flutter, modal frequency can be well resolved from accumulated phase while the sign of a small modal growth rate remains uncertain because the response envelope change…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A low-cost modular FPGA-based control system for neutral atom tweezer arrays",
-      "url": "https://arxiv.org/abs/2609.25456",
-      "summary": "arXiv:2609.25456v1 Announce Type: new Abstract: We present the Quantum Atom Control Kit (QuACK), a low-cost FPGA-based control system that provides memory-efficient precise signal timing and low-delay measurement-based d…",
       "ts": 1790136000000,
       "publishedAt": "2026-09-23T04:00:00.000Z"
     }

@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-09-23T19:59:37.449Z",
+  "updated": "2026-09-23T22:53:45.040Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Nominee to lead FDA aims to speed up medical research, combat China’s rise",
+      "url": "https://www.statnews.com/2026/09/23/heidi-overton-fda-nominee-opening-statement-senate-hearing-clinical-trials/?utm_campaign=rss",
+      "summary": "Exclusive: Heidi Overton plans to tell senators she will speed up biomedical research, working with FDA staff.",
+      "ts": 1790201677000,
+      "publishedAt": "2026-09-23T22:14:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Modernizes Commercial Airline Systems",
+      "url": "https://www.nasa.gov/directorates/armd/aosp/nasa-modernizes-commercial-airline-systems/",
+      "summary": "NASA’s researchers know that when you settle into your seat on a commercial flight, you expect a smooth takeoff, views over the clouds, a steady descent, and hopefully an early arrival at your destination. But when your …",
+      "ts": 1790201334000,
+      "publishedAt": "2026-09-23T22:08:54.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+      "url": "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss",
+      "summary": "An FDA advisory panel has endorsed Galleri, a blood test designed by the biotech firm Grail to screen for multiple types of cancer.",
+      "ts": 1790200078000,
+      "publishedAt": "2026-09-23T21:47:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Croatia as Newest Artemis Accords Signatory",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-croatia-as-newest-artemis-accords-signatory/",
+      "summary": "The Republic of Croatia became the 74th signatory to the Artemis Accords on Wednesday during a ceremony in the capital city of Zagreb with NASA and U.S. Department of State officials present. “It is my privilege to welco…",
+      "ts": 1790195839000,
+      "publishedAt": "2026-09-23T20:37:19.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Liposome Design Could Provide Effective Slow-Release Drug Delivery System",
+      "url": "https://www.genengnews.com/topics/drug-discovery/new-liposome-design-could-provide-effective-slow-release-drug-delivery-system/",
+      "summary": "A slow-release liposome system delivered local anesthesia for weeks in rats, potentially enabling longer-lasting nerve blocks and new approaches to pain management. The post New Liposome Design Could Provide Effective Sl…",
+      "ts": 1790195120000,
+      "publishedAt": "2026-09-23T20:25:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Tautomer-Predictor AI Tool Identifies Stable Molecules for Drug Discovery",
+      "url": "https://www.genengnews.com/topics/drug-discovery/tautomer-predictor-ai-tool-identifies-stable-molecules-for-drug-discovery/",
+      "summary": "Researchers trained an AI model to learn chemical patterns associated with stability in drug-like molecules and accurately predict where their hydrogen atoms should be positioned. The post Tautomer-Predictor AI Tool Iden…",
+      "ts": 1790195044000,
+      "publishedAt": "2026-09-23T20:24:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genialis and Inventia Life Science Collaborate to Link Patient Biology with 3D Pancreatic Cancer Models",
+      "url": "https://www.genengnews.com/topics/cancer/genialis-and-inventia-life-science-collaborate-to-link-patient-biology-with-3d-pancreatic-cancer-models/",
+      "summary": "The collaboration pairs the Genialis Supermodel with Inventia Life Science’s RASTRUM 3D cell model platform to test therapeutic hypotheses in models that mirror the tumor biology of specific patient groups. The post Geni…",
+      "ts": 1790194988000,
+      "publishedAt": "2026-09-23T20:23:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Selects Far-Infrared Telescope as First in New Mission Class",
+      "url": "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class/",
+      "summary": "NASA announced Wednesday a mission to explore the history and evolution of the universe, PRIMA (PRobe far-Infrared Mission for Astrophysics), is advancing to the next phase of development. This space telescope is the fir…",
+      "ts": 1790194182000,
+      "publishedAt": "2026-09-23T20:09:42.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "NASA Aircraft to Make Low-Altitude Research Flights Over Colorado",
@@ -166,9 +238,9 @@
     },
     {
       "source": "Genetic Engineering News",
-      "title": "Anthropic-, Nvidia-Backed Basecamp Research Raise $140M Series C Financing Toward Advancing AI-Designed Drugs",
+      "title": "Basecamp Research Raise $140M Series C Financing Toward Advancing AI-Designed Drugs",
       "url": "https://www.genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs/",
-      "summary": "According to Basecamp, EDEN offers the ability to design long and complex DNA sequences with large serine recombinases capable of delivering those sequences precisely. The post Anthropic-, Nvidia-Backed Basecamp Research…",
+      "summary": "According to Basecamp, EDEN offers the ability to design long and complex DNA sequences with large serine recombinases capable of delivering those sequences precisely. The post Basecamp Research Raise $140M Series C Fina…",
       "ts": 1790168422000,
       "publishedAt": "2026-09-23T13:00:22.000Z",
       "categoryId": "bio"
@@ -189,6 +261,15 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram vid…",
       "ts": 1790165400000,
       "publishedAt": "2026-09-23T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -220,9 +301,36 @@
     },
     {
       "source": "United Nations News",
-      "title": "LIVE: OpenAI and Anthropic to brief Security Council as AI guardrails debate intensifies",
+      "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168418",
+      "summary": "“We are the first generation with the tools to end the fossil fuel age – and the last who can avert climate catastrophe,” UN Secretary-General António Guterres said on Wednesday, calling on countries to draw up credible …",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Rohingya refugees deserve a future beyond survival, not endless displacement",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168417",
+      "summary": "Nine years after the mass displacement of the Rohingya from Myanmar, their situation remains one of the world's most protracted and complex refugee crises, marked by years of persecution and uncertainty over the prospect…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Zelenskyy urges stronger pressure on Russia, warns war’s impact is spreading beyond Ukraine",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168416",
+      "summary": "Ukrainian President Volodymyr Zelenskyy on Wednesday called for intensified pressure on Russia to end its war against Ukraine, arguing that Moscow continues to incur massive losses while prolonging a conflict whose conse…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168414",
-      "summary": "🔴 LIVE NOW The Security Council turns its attention to artificial intelligence at 3pm as the global debate over AI safety – and who controls it – intensifies at the UN. Tech leaders driving the AI race, including the he…",
+      "summary": "The Security Council has been briefed by some of the world's top AI executives on the huge benefits and huge risks the frontier technology presents. With warnings mounting that the world may be losing its grip on systems…",
       "ts": 1790164800000,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -703,114 +811,6 @@
       "ts": 1790136000000,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Task- and dataset-specific information in protein language models",
-      "url": "https://arxiv.org/abs/2608.12090",
-      "summary": "arXiv:2608.12090v4 Announce Type: replace-cross Abstract: Protein language models (PLMs) have transferred the latest advances from natural language processing to computational biology. These models, trained on large corp…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks",
-      "url": "https://arxiv.org/abs/2608.25286",
-      "summary": "arXiv:2608.25286v2 Announce Type: replace-cross Abstract: Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. Yet the ability of AI agents to execute on computati…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fixed-Dimensional Latent Flow for Generating Variable-Size 3D Molecules",
-      "url": "https://arxiv.org/abs/2609.08333",
-      "summary": "arXiv:2609.08333v3 Announce Type: replace-cross Abstract: Molecular size is coupled to composition, structure, and function, yet most 3D molecular generators require a predefined atom count. We introduce Equivariant-Free…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Cross-Substrate Access Assay: What an Indicator Test Must Declare to Travel from Brain to Language Model",
-      "url": "https://arxiv.org/abs/2609.22300",
-      "summary": "arXiv:2609.22300v2 Announce Type: replace-cross Abstract: Testing an artificial system for a property linked to consciousness means applying a measurement developed on brains to a system that is not one. Such a transfer …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
-      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate the…",
-      "ts": 1790130622000,
-      "publishedAt": "2026-09-23T02:30:22.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 5010-5015: Checking out the Bands",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5010-5015-checking-out-the-bands/",
-      "summary": "Catherine O’Connell-Cooper, APXS Strategic Planner and Payload Uplink/Downlink Lead, University New Brunswick, NB, Canada Earth planning date: Friday, Sept. 11, 2026 This week we had two planning days (Tuesday and Friday…",
-      "ts": 1790124016000,
-      "publishedAt": "2026-09-23T00:40:16.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-      "ts": 1790121600000,
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Biomimetic Nanoparticles Trigger Light Responses in Blind Mouse Retinas",
-      "url": "https://www.genengnews.com/topics/translational-medicine/biomimetic-nanoparticles-trigger-light-responses-in-blind-mouse-retinas/",
-      "summary": "A biomimetic nanoparticle platform inspired by photosynthesis helped activate surviving retinal nerve cells in mice with advanced retinal degeneration. The post Biomimetic Nanoparticles Trigger Light Responses in Blind M…",
-      "ts": 1790121093000,
-      "publishedAt": "2026-09-22T23:51:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Better prompt caching for GPT-6",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "ts": 1790110800000,
-      "publishedAt": "2026-09-22T21:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cell Senescence ‘Barcodes’ Identified with Raman Microscopy and Gene Expression Data",
-      "url": "https://www.genengnews.com/topics/translational-medicine/cell-senescence-barcodes-identified-with-raman-microscopy-and-gene-expression-data/",
-      "summary": "Researchers combined Raman microscopy with gene expression data at single-cell resolution from the same cells, and AI, to develop RamanOmics, a noninvasive way to detect biomarkers of cellular senescence as “barcodes.\" T…",
-      "ts": 1790106712000,
-      "publishedAt": "2026-09-22T19:51:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: HHS unveils new initiatives to reduce animal testing in drug development",
-      "url": "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss",
-      "summary": "For the second time this year, HHS announced new strategies to speed the away from animals in medical testing.",
-      "ts": 1790105322000,
-      "publishedAt": "2026-09-22T19:28:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Risks of Decompression Sickness and Venous Thromboembolism during Spaceflight and Patent Foramen Ovale Implications",
-      "url": "https://www.nasa.gov/organizations/ochmo/risks-of-decompression-sickness-and-venous-thromboembolism-during-spaceflight-and-patent-foramen-ovale-implications/",
-      "summary": "NASA’s Office of the Chief Health and Medical Officer formed a working group in August 2026 to review the most recent data related to extravehicular activity (EVA) prebreathe testing and decompression sickness (DCS) even…",
-      "ts": 1790104785000,
-      "publishedAt": "2026-09-22T19:19:45.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
