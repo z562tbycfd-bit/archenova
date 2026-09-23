@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-09-23T05:37:00.844Z",
+  "updated": "2026-09-23T11:00:37.315Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers find convenience, drinking water access and advertising drive global bottled water consumption",
+      "url": "https://phys.org/news/2026-09-convenience-access-advertising-global-bottled.html",
+      "summary": "Over 1 million plastic water bottles are bought globally every minute. That translates into more than 1.3 billion every day and more than 500 billion every year. That's a lot of plastic, and much of it winds up in human …",
+      "ts": 1790161205000,
+      "publishedAt": "2026-09-23T11:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zika virus assembles without protein segment long deemed essential",
+      "url": "https://phys.org/news/2026-09-zika-virus-protein-segment-deemed.html",
+      "summary": "For years, scientists were certain that two factors were involved in the assembly of active, highly infectious Zika viruses in human cells: a specific viral protein in its entirety and a turncoat human enzyme that assure…",
+      "ts": 1790161202000,
+      "publishedAt": "2026-09-23T11:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pigeons' proposed inner-ear compass runs into a noise problem",
+      "url": "https://phys.org/news/2026-09-pigeons-ear-compass-noise-problem.html",
+      "summary": "A pigeon turning its head might seem an unlikely electricity generator. Yet one proposed explanation for the bird's magnetic sense depends on exactly that: Turning through Earth's magnetic field would produce tiny electr…",
+      "ts": 1790157601000,
+      "publishedAt": "2026-09-23T10:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Typhoon Dujuan leaves seven dead in Japan from landslides, flooding",
+      "url": "https://phys.org/news/2026-09-typhoon-dujuan-dead-japan-landslides.html",
+      "summary": "Typhoon Dujuan left seven people dead and five others missing Tuesday after the storm triggered landslides and flooding in the greater Tokyo area, Kyodo News reported, citing authorities.",
+      "ts": 1790156401000,
+      "publishedAt": "2026-09-23T09:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK to launch new military space squadron to protect satellites",
+      "url": "https://phys.org/news/2026-09-uk-military-space-squadron-satellites.html",
+      "summary": "Britain announced Wednesday that it will launch a new military space squadron to defend the country's satellites, the latest move as countries race to develop military space capabilities.",
+      "ts": 1790155202000,
+      "publishedAt": "2026-09-23T09:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Risk-free' matched betting? More than half of surveyed users report losses",
+      "url": "https://phys.org/news/2026-09-free-surveyed-users-losses.html",
+      "summary": "A new peer-reviewed study from Bournemouth University has found a striking gap between how people perceive the risks of matched betting and what some experience in practice. Matched betting involves using free bets given…",
+      "ts": 1790154961000,
+      "publishedAt": "2026-09-23T09:16:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat waves on land start earlier and develop faster, global analysis reveals",
+      "url": "https://phys.org/news/2026-09-earlier-faster-global-analysis-reveals.html",
+      "summary": "Heat waves over land worldwide are beginning earlier, ending later and occurring over longer seasons, while the first heat wave of the season has recently shifted toward faster onset, according to a new study published i…",
+      "ts": 1790154009000,
+      "publishedAt": "2026-09-23T09:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Snapshots reveal key molecular machine in tropical parasites at near-atomic resolution",
+      "url": "https://phys.org/news/2026-09-snapshots-reveal-key-molecular-machine.html",
+      "summary": "A study conducted by the University of Liège and Rockefeller University reveals, with near-atomic precision, the three-dimensional structure and function of a gigantic molecular machine essential to the survival of trypa…",
+      "ts": 1790154005000,
+      "publishedAt": "2026-09-23T09:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI scans 4.6 million compounds in hours to predict hydrogen positions in drug-like molecules",
+      "url": "https://phys.org/news/2026-09-ai-scans-million-compounds-hours.html",
+      "summary": "New York University researchers have trained an AI model to learn chemical patterns associated with stability in drug-like molecules and accurately predict where their hydrogen atoms should be positioned.",
+      "ts": 1790154002000,
+      "publishedAt": "2026-09-23T09:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tech elite's new school aims to replace universities",
+      "url": "https://phys.org/news/2026-09-tech-elite-school-aims-universities.html",
+      "summary": "The most powerful venture capital firm in Silicon Valley is starting a two-year private school intended to replace college, as some members of the U.S. tech elite question the benefits of a traditional university educati…",
+      "ts": 1790153401000,
+      "publishedAt": "2026-09-23T08:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chile's Atacama Desert blossoms with life after El Niño rains",
+      "url": "https://phys.org/news/2026-09-chile-atacama-blossoms-life-el.html",
+      "summary": "A display of flowers has bloomed across Chile's Atacama Desert, one of the driest places on Earth, after the El Niño climate phenomenon brought heavy rain to the region.",
+      "ts": 1790152288000,
+      "publishedAt": "2026-09-23T08:31:28.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Agency says sea turtle eggs laid on California beaches are a first for the US West Coast",
+      "url": "https://phys.org/news/2026-09-agency-sea-turtle-eggs-laid.html",
+      "summary": "A reptile believed to be struggling in sand at a Southern California beach was simply making history: a sea turtle laying eggs on the U.S. West Coast.",
+      "ts": 1790150440000,
+      "publishedAt": "2026-09-23T08:00:40.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Livestock grazing may boost soil carbon storage in Iceland's subarctic grasslands",
+      "url": "https://phys.org/news/2026-09-livestock-grazing-boost-soil-carbon.html",
+      "summary": "Grassland plants transfer large amounts of carbon to soil through their roots, and most of that carbon is stored underground. Therefore, promoting soil carbon storage can help combat climate change. Grazers feed on grass…",
+      "ts": 1790147414000,
+      "publishedAt": "2026-09-23T07:10:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sensors and drones can help farmers improve crop quality while saving water",
+      "url": "https://phys.org/news/2026-09-sensors-drones-farmers-crop-quality.html",
+      "summary": "New research in Plants, People, Planet demonstrates how precision agriculture techniques involving drones and sensor-based irrigation can save water needed to produce tomatoes and grapes while also improving the quality …",
+      "ts": 1790147409000,
+      "publishedAt": "2026-09-23T07:10:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Analysis finds socioeconomic and health factors drive most disability approval disparities",
+      "url": "https://phys.org/news/2026-09-analysis-socioeconomic-health-factors-disability.html",
+      "summary": "A study in Contemporary Economic Policy examined whether racial and ethnic differences in U.S. disability insurance approval rates reflect disparities in the determination process or broader differences in applicants' ci…",
+      "ts": 1790147404000,
+      "publishedAt": "2026-09-23T07:10:04.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Effects of High-Temperature Preconditioning on Li Plating During Low-Temperature Cycling of the COTS LG Chem HG2 Cell",
@@ -679,126 +799,6 @@
       "title": "Analytic toroidal 3D MHD equilibria and steady Euler flows with invariant surfaces",
       "url": "https://arxiv.org/abs/2609.26742",
       "summary": "arXiv:2609.26742v1 Announce Type: new Abstract: Families of explicit analytic solutions of the magnetohydrodynamic equilibrium equations are presented, equivalent to steady incompressible Euler flow. The solutions are no…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Ion Clock with Engineered Immunity to Motion-Induced Frequency Shifts",
-      "url": "https://arxiv.org/abs/2609.26775",
-      "summary": "arXiv:2609.26775v1 Announce Type: new Abstract: Spectroscopic frequency shifts due to residual motion of the probed atoms significantly contribute to the uncertainty budgets of state-of-the-art optical ion clocks. For cl…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DIRAC framework evaluation for the $\\boldsymbol{Fermi}$-LAT and CTA experiments",
-      "url": "https://arxiv.org/abs/1403.7221",
-      "summary": "arXiv:1403.7221v1 Announce Type: cross Abstract: DIRAC (Distributed Infrastructure with Remote Agent Control) is a general framework for the management of tasks over distributed heterogeneous computing environments. It h…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "StarDICE I: sensor calibration bench and absolute photometric calibration of a Sony IMX411 sensor",
-      "url": "https://arxiv.org/abs/2211.04913",
-      "summary": "arXiv:2211.04913v2 Announce Type: cross Abstract: The Hubble diagram of type-Ia supernovae (SNe-Ia) provides cosmological constraints on the nature of dark energy with an accuracy limited by the flux calibration of curre…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "StarDICE III: Characterization of the photometric instrument with a Collimated Beam Projector",
-      "url": "https://arxiv.org/abs/2410.24173",
-      "summary": "arXiv:2410.24173v2 Announce Type: cross Abstract: The measurement of type Ia supernovae magnitudes provides cosmological distances, which can be used to constrain dark energy parameters. Large photometric surveys require…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Renormalization Group in far-from-equilibrium states",
-      "url": "https://arxiv.org/abs/2504.06243",
-      "summary": "arXiv:2504.06243v2 Announce Type: cross Abstract: We study renormalization group flows in far-from-equilibrium states. The study is made tractable by focusing on states that are spatially homogeneous, time-independent, a…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "StarDICE IV: correcting visible photometry from atmospheric gray extinction using thermal infrared observations",
-      "url": "https://arxiv.org/abs/2511.00182",
-      "summary": "arXiv:2511.00182v3 Announce Type: cross Abstract: Ground-based surveys such as the Vera C. Rubin Observatory's Legacy Survey of Space and Time require photometric calibration that is both long-term stable and spatially u…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reactive molecular dynamics simulations of atenolol first steps degradation by 9CL6 ammonia monooxygenase",
-      "url": "https://arxiv.org/abs/2609.25076",
-      "summary": "arXiv:2609.25076v1 Announce Type: cross Abstract: The persistence of beta-blockers like atenolol in aquatic environments necessitates efficient remediation strategies, such as enzymatic biodegradation. This study employs…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stochastic Field Theory of HIV Latency: Instanton Dynamics and the Path to Viral Rebound",
-      "url": "https://arxiv.org/abs/2609.25136",
-      "summary": "arXiv:2609.25136v1 Announce Type: cross Abstract: The transition from clinical latency to active HIV infection is a stochastic process. Traditional deterministic models based on ordinary differential equations (ODEs) fai…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing quantum spin liquids with multiple quantum coherences",
-      "url": "https://arxiv.org/abs/2609.25193",
-      "summary": "arXiv:2609.25193v1 Announce Type: cross Abstract: Quantum simulators are beginning to prepare long-sought phases of matter that remain difficult to realize cleanly in materials. Yet identifying such phases remains a majo…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Indirect tipping: a social attack surface in AI agent populations",
-      "url": "https://arxiv.org/abs/2609.25194",
-      "summary": "arXiv:2609.25194v1 Announce Type: cross Abstract: As generative AI agents are deployed at scale, safety will depend not only on technical safeguards and individual model design, but also on collective equilibria that det…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Localized Decoherence as a Constructive Tool: An Optical Simulation of Matter-Wave Interference",
-      "url": "https://arxiv.org/abs/2609.25227",
-      "summary": "arXiv:2609.25227v1 Announce Type: cross Abstract: Decoherence is conventionally regarded as a detrimental process that suppresses quantum coherence and limits the performance of quantum technologies. Contrary to this vie…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast Surrogate for the Earth Matter Effect on Solar Neutrinos",
-      "url": "https://arxiv.org/abs/2609.25229",
-      "summary": "arXiv:2609.25229v1 Announce Type: cross Abstract: We present a deep-learning surrogate for the Earth matter effect on solar neutrinos. The model uses a residual convolutional network conditioned on the solar neutrino osc…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite-state automata for exact matrix product operators of tight-binding Hamiltonians: fractals, quasicrystals, trees and hyperbolic lattices",
-      "url": "https://arxiv.org/abs/2609.25276",
-      "summary": "arXiv:2609.25276v1 Announce Type: cross Abstract: Inspired by the recent progress in the simulation of tight-binding Hamiltonians on large lattices using tensor networks, we introduce a systematic matrix product operator…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond Legacy L1 C/A: Characterizing Advanced Multi-Frequency Spoofing Against Multi-Frequency GPS Receivers for Autonomous Navigation",
-      "url": "https://arxiv.org/abs/2609.25361",
-      "summary": "arXiv:2609.25361v1 Announce Type: cross Abstract: Autonomous vehicles increasingly rely on high-end multi-frequency GNSS receivers that track modernized civil signals, such as L2C, L5, and L1C, alongside legacy GPS L1~C/…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast Dissipative Localization of Electronic Energy in AuPt Superlattices",
-      "url": "https://arxiv.org/abs/2609.25426",
-      "summary": "arXiv:2609.25426v1 Announce Type: cross Abstract: Controlling the spatial distribution of absorbed optical energy is central to nanoscale photothermal chemistry, plasmonics, and ultrafast materials control. Here, we show…",
       "ts": 1790136000000,
       "publishedAt": "2026-09-23T04:00:00.000Z"
     }

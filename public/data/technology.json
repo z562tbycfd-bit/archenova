@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-09-23T05:37:02.397Z",
+  "updated": "2026-09-23T11:00:39.068Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "United Kingdom announces action on disinformation and global AI standards",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168406",
+      "summary": "The United Kingdom will fight disinformation at home and abroad, and work to ensure global safety standards for artificial intelligence (AI), new Prime Minister Andy Burnham said on Monday evening in his first address to…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Smart glasses are already causing havoc in India",
+      "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+      "summary": "Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bi…",
+      "ts": 1790154000000,
+      "publishedAt": "2026-09-23T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: UnitedHealth, CVS push back on Medicare plan to curb remote patient monitoring",
+      "url": "https://www.statnews.com/2026/09/23/unitedhealth-cvs-pushback-medicare-plan-rpm-abuse/?utm_campaign=rss",
+      "summary": "Some health insurers push back on a Medicare proposal that would disrupt how doctors can bill for remotely monitoring patients' health.",
+      "ts": 1790152200000,
+      "publishedAt": "2026-09-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Drugmakers, biotech VCs show ‘reinvigorated’ interest in osteoporosis treatments",
+      "url": "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss",
+      "summary": "Medicines for osteoporosis are grabbing the attention of the pharma industry, which has been incentivized by a long-awaited regulatory change.",
+      "ts": 1790152200000,
+      "publishedAt": "2026-09-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Mentally ill women deserve more support to have children",
+      "url": "https://www.statnews.com/2026/09/23/lindsay-clancy-patrick-60-minutes-reproductive-psychiatry-mentally-ill-mothers/?utm_campaign=rss",
+      "summary": "“The maternal mental health needs of women like me have been badly underprioritized in American society,” writes Meg LeDuc.",
+      "ts": 1790152200000,
+      "publishedAt": "2026-09-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A private equity-owned hospital chain is becoming a nonprofit. Is it just a bailout for investors?",
+      "url": "https://www.statnews.com/2026/09/23/quorum-hospitals-nonprofit-conversion-increases-debt-load/?utm_campaign=rss",
+      "summary": "Other private equity-owned hospital chains have collapsed in recent years, so the stakes are high for Quorum.",
+      "ts": 1790152200000,
+      "publishedAt": "2026-09-23T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "A hitchhiker’s guide to Hera’s target asteroids",
+      "url": "https://www.esa.int/Space_Safety/Hera/A_hitchhiker_s_guide_to_Hera_s_target_asteroids",
+      "summary": "Currently speeding through deep space at 12 km/s relative to Earth, ESA’s Hera spacecraft is due to reach its target Dimorphos asteroid this November. But if an astronaut were magically teleported onto the small-car-size…",
+      "ts": 1790151000000,
+      "publishedAt": "2026-09-23T08:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 23 – A New Lunar Crater: McGetchin",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-23-the-mcgetchin-crater/",
+      "summary": "APOD Science APOD APOD: 2026 September 23 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
+      "ts": 1790136300000,
+      "publishedAt": "2026-09-23T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Boom Year for Desert Blooms",
+      "url": "https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/",
+      "summary": "Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains.",
+      "ts": 1790136060000,
+      "publishedAt": "2026-09-23T04:01:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "BananaVLM: A Domain-Adapted Vision Language Model for Banana Crop Disease Diagnosis",
@@ -334,6 +415,15 @@
       "ts": 1790130622000,
       "publishedAt": "2026-09-23T02:30:22.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 5010-5015: Checking out the Bands",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5010-5015-checking-out-the-bands/",
+      "summary": "Catherine O’Connell-Cooper, APXS Strategic Planner and Payload Uplink/Downlink Lead, University New Brunswick, NB, Canada Earth planning date: Friday, Sept. 11, 2026 This week we had two planning days (Tuesday and Friday…",
+      "ts": 1790124016000,
+      "publishedAt": "2026-09-23T00:40:16.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -721,96 +811,6 @@
       "ts": 1790064089000,
       "publishedAt": "2026-09-22T08:01:29.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Call for Abstracts: International Symposium on Trends in Radiopharmaceuticals",
-      "url": "http://www.iaea.org/newscenter/news/call-for-abstracts-international-symposium-on-trends-in-radiopharmaceuticals",
-      "summary": "",
-      "ts": 1790060400000,
-      "publishedAt": "2026-09-22T07:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 22 – Chance Triple Alignment: Plane, Space Station, Sun",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-22-chance-triple-alignment-plane-space-station-sun/",
-      "summary": "APOD Science APOD APOD: 2026 September 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1790049900000,
-      "publishedAt": "2026-09-22T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "An Epic View of the Seasons",
-      "url": "https://science.nasa.gov/earth/earth-observatory/an-epic-view-of-the-seasons/",
-      "summary": "The tilt in Earth’s axis of rotation makes the apparent position of continents shift with the seasons in imagery from a NASA camera in deep space.",
-      "ts": 1790049660000,
-      "publishedAt": "2026-09-22T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Exploring the robustness of permutation entropy analysis to differentiate between closed-eyes and open-eyes resting states",
-      "url": "https://arxiv.org/abs/2609.22265",
-      "summary": "arXiv:2609.22265v1 Announce Type: new Abstract: Electroencephalography (EEG) is a noninvasive technology that is widely used to monitor brain states, and many efforts are focused on developing reliable and efficient data…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "2D reaction-diffusion model-based biopsy simulation for dynamic tumor growth parameter estimation",
-      "url": "https://arxiv.org/abs/2609.22363",
-      "summary": "arXiv:2609.22363v1 Announce Type: new Abstract: Once diagnosed, cancer requires a fast, reliable and preferably cost-efficient assessment of the current state and potential progression of the disease. A new method for es…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Foundation-model-based multi-label phenotyping of combined hyperkinetic movement disorders",
-      "url": "https://arxiv.org/abs/2609.22369",
-      "summary": "arXiv:2609.22369v1 Announce Type: new Abstract: Movement disorders (MDs) frequently co-occur, yet phenomenological and severity assessment shows substantial inter-rater variability. Markerless video could improve reprodu…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From daylight to darkness: a nonlocal model of circadian activity cycles",
-      "url": "https://arxiv.org/abs/2609.22713",
-      "summary": "arXiv:2609.22713v1 Announce Type: new Abstract: An animal's ability to perceive its surroundings, as well as the ecological interactions it experiences, can be strongly influenced by the sleep patterns of both itself and…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Chaotic Dynamics-Regulated Topological Learning for Patient-Specific Preictal State Identification",
-      "url": "https://arxiv.org/abs/2609.23317",
-      "summary": "arXiv:2609.23317v1 Announce Type: new Abstract: Epileptic seizures arise from complex, nonlinear interactions within brain networks, yet reliable electroencephalographic (EEG) prediction remains challenging due to the no…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Minimality in Reflexive and Stoichiometric Autocatalysis",
-      "url": "https://arxiv.org/abs/2609.23602",
-      "summary": "arXiv:2609.23602v1 Announce Type: new Abstract: Autocatalysis, the ability of a chemical subsystem to sustain its own constituents when supplied with sufficient food molecules, has been closely related to the origin of l…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Demographic inference of pathogen-infected populations from partially observed transmission forests",
-      "url": "https://arxiv.org/abs/2609.23624",
-      "summary": "arXiv:2609.23624v1 Announce Type: new Abstract: Genomic epidemiology has several methods for identifying which sampled individuals are linked by close proximity in the transmission chain, whether by grouping them into cl…",
-      "ts": 1790049600000,
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
