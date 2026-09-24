@@ -61489,6 +61489,9 @@ main#home-top.an-home-2026
     auto
     !important;
 
+  box-shadow:
+    var(--an-cj-glass-shadow)
+    !important;
 }
 
 
@@ -61518,6 +61521,9 @@ main#home-top.an-home-2026
     auto
     !important;
 
+  box-shadow:
+    var(--an-cj-glass-shadow)
+    !important;
 }
 
 
