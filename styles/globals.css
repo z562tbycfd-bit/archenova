@@ -61484,7 +61484,10 @@ main#home-top.an-home-2026
 
   max-width: none !important;
 
-  margin: 0 auto !important;
+  margin:
+    var(--an-cj-section-gap)
+    auto
+    !important;
 
   box-shadow:
     var(--an-cj-glass-shadow)
@@ -61513,7 +61516,10 @@ main#home-top.an-home-2026
   height: auto !important;
   max-height: none !important;
 
-  margin: 0 auto !important;
+  margin:
+    var(--an-cj-section-gap)
+    auto
+    !important;
 
   box-shadow:
     var(--an-cj-glass-shadow)
@@ -61577,10 +61583,7 @@ main#home-top.an-home-2026
 
 
 
-/* STILLNESS → SEARCH:
-   Preserve a visible HOME background gap. */
 
-main#home-top.an-home-2026
-> #archenova-stillness.an-home-2026__section {
-  margin-bottom: var(--an-cj-section-gap) !important;
-}
+
+
+
