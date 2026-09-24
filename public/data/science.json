@@ -1,7 +1,143 @@
 {
   "ok": true,
-  "updated": "2026-09-24T07:23:11.290Z",
+  "updated": "2026-09-24T13:22:07.938Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nine lives and counting: Feline aging study marks nine years with new clinical trial",
+      "url": "https://phys.org/news/2026-09-feline-aging-years-clinical-trial.html",
+      "summary": "The University of Liverpool's Cat Prospective Aging and Welfare Study (CatPAWS), which follows a group of pet cats from middle age into later life, is celebrating more than nine years of work to improve the health and we…",
+      "ts": 1790256008000,
+      "publishedAt": "2026-09-24T13:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Frog's coat of bacterial armor helps protect it from fungal disease",
+      "url": "https://phys.org/news/2026-09-frog-coat-bacterial-armor-fungal.html",
+      "summary": "The bacteria living on frogs' skin could play a vital role in protecting the animals from a deadly fungal disease. A team of researchers led by Penn State scientists found that frogs' natural skin bacteria can help them …",
+      "ts": 1790256004000,
+      "publishedAt": "2026-09-24T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research: Snack names influence how filling we imagine they will be",
+      "url": "https://phys.org/news/2026-09-snack.html",
+      "summary": "Imagine being hungry in a grocery store and looking for a snack. You have a choice between Gobo granola bars or Kipi granola bars. Which do you reach for to fill you up? If you're like the participants in our new study, …",
+      "ts": 1790254805000,
+      "publishedAt": "2026-09-24T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Faint young stars reveal spiral galaxy Messier 74 may be twice as large as thought",
+      "url": "https://phys.org/news/2026-09-faint-young-stars-reveal-spiral.html",
+      "summary": "Astronomers have discovered a faint population of young stars extending far beyond the known edge of the nearby spiral galaxy Messier 74. The finding suggests the galaxy is nearly twice as large as previously measured. T…",
+      "ts": 1790254801000,
+      "publishedAt": "2026-09-24T13:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "This year’s El Niño just broke a record months before it’s expected to peak",
+      "url": "https://www.sciencenews.org/article/record-breaking-el-nino-temperatures",
+      "summary": "Daily sea surface temperatures in the region where El Niño develops are more extreme than at any point in recorded history.",
+      "ts": 1790254800000,
+      "publishedAt": "2026-09-24T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earth's tides are shaped by more than the Moon—and they're changing as the planet warms",
+      "url": "https://phys.org/news/2026-09-earth-tides-moon-theyre-planet.html",
+      "summary": "In some parts of the world, the sea barely rises and falls with the tides. In others, the difference between high and low tide is dramatic. Along Western Australia's Kimberley coast, for example, it can exceed 10 meters …",
+      "ts": 1790253604000,
+      "publishedAt": "2026-09-24T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The space race should not endanger Australian wildlife",
+      "url": "https://phys.org/news/2026-09-space-endanger-australian-wildlife.html",
+      "summary": "The race to space continues, with the number of rockets launched increasing every year.",
+      "ts": 1790252410000,
+      "publishedAt": "2026-09-24T12:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hungary detects invasive spotted lanternfly for the first time in the EU",
+      "url": "https://phys.org/news/2026-09-hungary-invasive-lanternfly-eu.html",
+      "summary": "An invasive insect linked to major agricultural losses in the U.S. has been detected in the European Union for the first time, Hungary's food safety agency said Thursday.",
+      "ts": 1790251930000,
+      "publishedAt": "2026-09-24T12:12:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers build microscopic DNA 'sails' to pull molecules apart",
+      "url": "https://phys.org/news/2026-09-microscopic-dna-molecules.html",
+      "summary": "Across every cell in the body, molecules are constantly pulling, gripping and releasing under mechanical strain. That force often decides whether a drug sticks to its target, whether a cell holds its shape or whether a d…",
+      "ts": 1790251204000,
+      "publishedAt": "2026-09-24T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change: Laws and policies must change to prevent future statelessness",
+      "url": "https://phys.org/news/2026-09-climate-laws-policies-future-statelessness.html",
+      "summary": "Australia and other nations should amend laws and practices to address the needs of millions of people expected to move because of climate-related hazards, according to a new report by the Peter McMullin Centre on Statel…",
+      "ts": 1790250004000,
+      "publishedAt": "2026-09-24T11:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Why should colleges promote student physical activity?",
+      "url": "https://phys.org/news/2026-09-qa-colleges-student-physical.html",
+      "summary": "Every fall in the United States, millions of young people move to college campuses, away from home for the first time. During this transition, they typically develop new social networks and routines as they learn to live…",
+      "ts": 1790248801000,
+      "publishedAt": "2026-09-24T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "1 in 3 Tucsonans exposed to historic water contamination still report signs of psychological trauma",
+      "url": "https://phys.org/news/2026-09-tucsonans-exposed-historic-contamination-psychological.html",
+      "summary": "Residents of Tucson's south side might remember drinking from the garden hose and bathing their children in tap water. For years, that water was contaminated with industrial solvents that had leaked into the groundwater …",
+      "ts": 1790247601000,
+      "publishedAt": "2026-09-24T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How calcium channels in muscle cells open together",
+      "url": "https://phys.org/news/2026-09-calcium-channels-muscle-cells.html",
+      "summary": "Every step we take begins with a burst of calcium inside our muscle cells, causing them to contract. To prepare for action, the cells keep calcium locked in an internal compartment, the sarcoplasmic reticulum. Studding i…",
+      "ts": 1790240408000,
+      "publishedAt": "2026-09-24T09:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "JWST finds early galaxies were already seeding the universe with heavy elements",
+      "url": "https://phys.org/news/2026-09-jwst-early-galaxies-seeding-universe.html",
+      "summary": "When the universe was still in its infancy—only 500 million years after the Big Bang, or about 3% of its current age—some of the universe's earliest stars and galaxies had already formed. Astronomers have long predicted …",
+      "ts": 1790240404000,
+      "publishedAt": "2026-09-24T09:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bay Area wastewater plants could nearly halve nitrogen cleanup costs by coordinating upgrades",
+      "url": "https://phys.org/news/2026-09-bay-area-wastewater-halve-nitrogen.html",
+      "summary": "Treating polluted water flowing into San Francisco Bay to meet regulatory requirements is going to cost ratepayers money. Exactly how much depends, in large part, on whether the region's wastewater treatment plant operat…",
+      "ts": 1790240401000,
+      "publishedAt": "2026-09-24T09:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Anthropic touts AI-led biology discovery",
+      "url": "https://phys.org/news/2026-09-anthropic-touts-ai-biology-discovery.html",
+      "summary": "U.S. artificial intelligence startup Anthropic on Wednesday unveiled the first discovery from its molecular biology lab, a previously unknown enzyme system spotted by its Claude model and touted by the company as proof t…",
+      "ts": 1790239201000,
+      "publishedAt": "2026-09-24T08:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Archaeological 'breakthrough' could confirm origins of Paris",
+      "url": "https://phys.org/news/2026-09-archaeological-breakthrough-paris.html",
+      "summary": "An ancient wall discovered in central Paris was hailed as a \"major breakthrough\" on Wednesday, as the archaeological find may have settled a long-standing debate about the location of the city's original settlement.",
+      "ts": 1790237967000,
+      "publishedAt": "2026-09-24T08:19:27.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Aerial maps reveal successful woodland expansion in Scotland's Cairngorms",
@@ -663,142 +799,6 @@
       "title": "Optimal limits on weak integrability breaking and protected thermal memory near qutrit exchange",
       "url": "https://arxiv.org/abs/2609.28237",
       "summary": "arXiv:2609.28237v1 Announce Type: new Abstract: Although integrability does not universally require a continuous one-site symmetry, we rigorously prove that every jointly analytic, regular Yang-Baxter deformation of the …",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GenMC: Real-Time Generative Monte Carlo Surrogate for Quantitative Photoacoustic Imaging",
-      "url": "https://arxiv.org/abs/2609.28261",
-      "summary": "arXiv:2609.28261v1 Announce Type: new Abstract: Photoacoustic (PA) imaging provides molecular and functional information about tissue, such as blood oxygen saturation (sO2), yet its clinical translation is hindered by in…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physical Fidelity of Wave-Based Inverse Problems under Broken Time-Reversal Symmetry",
-      "url": "https://arxiv.org/abs/2609.28266",
-      "summary": "arXiv:2609.28266v1 Announce Type: new Abstract: Modern coherent imaging commonly treats defocus interference as an undesirable artifact to be suppressed. Here, we show that this interference is instead a deterministic pr…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A photonic integrated comb engine for ultracold quantum gases",
-      "url": "https://arxiv.org/abs/2609.28294",
-      "summary": "arXiv:2609.28294v1 Announce Type: new Abstract: Cold atoms underpin quantum sensing, simulation and computation, but their coherent control demands highly stable optical fields whose generation, referencing and power sca…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics-structure interchangeability in binary opinion models on multiplex networks",
-      "url": "https://arxiv.org/abs/2609.28340",
-      "summary": "arXiv:2609.28340v1 Announce Type: new Abstract: We examine the interchangeability between two duplex systems with opinion dynamics: one characterized by different dynamics parameters $a_1$ and $a_2$ on each layer and ful…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation of a Battery Cell on Quantum Computers: Reactions & Transport",
-      "url": "https://arxiv.org/abs/2609.28369",
-      "summary": "arXiv:2609.28369v1 Announce Type: new Abstract: Simulations of electrochemical materials and systems accelerate technological progress, but are still limited by computational power. In particular, quantum computing offer…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lasing Mode Control in ZnO Nanowires Coupled to TiO2 Nanopillars",
-      "url": "https://arxiv.org/abs/2609.28375",
-      "summary": "arXiv:2609.28375v1 Announce Type: new Abstract: Nanowire lasers based on spectrally broad gain materials typically exhibit multimode emission, which limits their utility in applications requiring precisely defined spectr…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Linear Growth Rate of Compressible Tearing Instability in a Force-Free Current Sheet",
-      "url": "https://arxiv.org/abs/2609.28379",
-      "summary": "arXiv:2609.28379v1 Announce Type: new Abstract: We investigate the linear growth rate of tearing instability in a resistive force-free current sheet using the linearized fully-compressible magnetohydrodynamics (MHD) equa…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Retrospective on the Design and Implementation of the Milestone-Based Fusion Development Program of the U.S. Department of Energy",
-      "url": "https://arxiv.org/abs/2609.28398",
-      "summary": "arXiv:2609.28398v1 Announce Type: new Abstract: This paper provides a detailed account of the origins, objectives, design, and implementation of the Milestone-Based Fusion Development Program, a public-private-partnershi…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Label-Efficient Generative Inverse Design and Design-Rule Discovery in Freeform Topological Photonics",
-      "url": "https://arxiv.org/abs/2609.28401",
-      "summary": "arXiv:2609.28401v1 Announce Type: new Abstract: Topological photonic crystals support robust, disorder-resilient light transport protected by their band-structure topology, yet their design remains confined to a small se…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring pedagogical content knowledge of physics teaching assistants using the Energy and Momentum Conceptual Survey",
-      "url": "https://arxiv.org/abs/2609.28423",
-      "summary": "arXiv:2609.28423v1 Announce Type: new Abstract: This study examines the extent to which physics graduate teaching assistants (TAs) are aware of introductory physics student thinking and the types of challenges introducto…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shape matters: DEM investigation of geometry-controlled mechanical response in irregular rock fragments under static and dynamic loading",
-      "url": "https://arxiv.org/abs/2609.28426",
-      "summary": "arXiv:2609.28426v1 Announce Type: new Abstract: Mechanical characterization of subsurface rock formations typically requires standardized cylindrical core specimens, which are often unavailable from fractured or unconven…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transfer Dynamics and Spectral Cascades in Graph-Coupled Kuramoto Networks",
-      "url": "https://arxiv.org/abs/2609.28432",
-      "summary": "arXiv:2609.28432v1 Announce Type: new Abstract: This work introduces a spectral transfer formalism for nonlinear synchronisation dynamics to resolve how internal dynamical activity redistributes across network scales, mo…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial-Spectral Trade-offs in Metasurface-Based Snapshot Hyperspectral Imaging",
-      "url": "https://arxiv.org/abs/2609.28450",
-      "summary": "arXiv:2609.28450v1 Announce Type: new Abstract: Snapshot hyperspectral imaging maps a spatial--spectral datacube onto a two-dimensional detector, with recoverability depending on the datacube sampling regime, the scene p…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast-Neutron Scintillation with Multi-Quantum-Well 2D Perovskites",
-      "url": "https://arxiv.org/abs/2609.28468",
-      "summary": "arXiv:2609.28468v1 Announce Type: new Abstract: Fast-neutron scintillators must efficiently convert neutron energy into detectable light while enabling selectivity between neutrons and the {\\gamma}-ray background. Here, …",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strong coupling of a reconfigurable ${}^{171}$Yb atom array to a tunable telecom-band nanofiber cavity",
-      "url": "https://arxiv.org/abs/2609.25232",
-      "summary": "arXiv:2609.25232v1 Announce Type: cross Abstract: Nanophotonic cavities provide strong atom-photon coupling in a compact, directly fiber-coupled geometry, while a reconfigurable array of $^{171}$Yb atoms combines high-fi…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frozen-In Gravitational Fields",
-      "url": "https://arxiv.org/abs/2609.25240",
-      "summary": "arXiv:2609.25240v1 Announce Type: cross Abstract: Spacetime can undergo complex nonlinear evolution, as governed by the Einstein field equations, and a central challenge is to understand the geometric structures that ari…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconnection of Gravitational Fields",
-      "url": "https://arxiv.org/abs/2609.25241",
-      "summary": "arXiv:2609.25241v1 Announce Type: cross Abstract: In a tetrad formulation of general relativity, an ideal Ohm-type condition for the gravitational field implies the conservation of gravitational fluxes and the preservati…",
       "ts": 1790222400000,
       "publishedAt": "2026-09-24T04:00:00.000Z"
     }

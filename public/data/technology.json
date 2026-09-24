@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-24T07:23:18.252Z",
+  "updated": "2026-09-24T13:22:09.729Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about the FDA commissioner nominee, a Lilly partnership in China, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/?utm_campaign=rss",
+      "summary": "During a Senate hearing today, Heidi Overton, the nominee to lead the FDA, plans to emphasize the need for speed and efficiency to compete with China",
+      "ts": 1790256110000,
+      "publishedAt": "2026-09-24T13:21:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The rise of the AI-native radiology practice",
+      "url": "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: Radiology startups say owning a practice makes it easier to develop AI tools, and insurers oppose RPM changes.",
+      "ts": 1790256074000,
+      "publishedAt": "2026-09-24T13:21:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
+      "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the fin…",
+      "ts": 1790254836000,
+      "publishedAt": "2026-09-24T13:00:36.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+      "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A congressional representative just proposed killing America’s border tower progra…",
+      "ts": 1790251800000,
+      "publishedAt": "2026-09-24T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Peace remains only a promise’ for millions in eastern DR Congo, General Assembly hears",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168422",
+      "summary": "The Prime Minister of the Democratic Republic of the Congo (DRC) cautioned against growing global demand for “blood-stained minerals” in the rush to net-zero, in her speech to the UN General Assembly.",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "The Takeaway: UN General Assembly debate Day 2",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168421",
+      "summary": "This edition of UN News's The Takeaway recaps key highlghts at the UN General Assembly on Wednesday, including focus on the war in Ukraine and a renewed push by African countries for Security Council reform.",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "One of the most contagious diseases on the planet is having its worst U.S. outbreak since 1991",
+      "url": "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/?utm_campaign=rss",
+      "summary": "The CDC has added a single measles death to its online counter. In the last few weeks, four unvaccinated people have died from measles in Pennsylvania, according to state officials.…",
+      "ts": 1790250748000,
+      "publishedAt": "2026-09-24T11:52:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why Gilead can’t stop talking about its ambitions in immunology",
+      "url": "https://www.statnews.com/2026/09/24/gilead-immunology-inflammation-biotech-moderna-merck/?utm_campaign=rss",
+      "summary": "Gilead Sciences’ top executives have been emphatically bullish about the biotech’s years-long push to develop drugs for inflammatory and autoimmune diseases.",
+      "ts": 1790245800000,
+      "publishedAt": "2026-09-24T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI is dominating the conversation at Climate Week",
+      "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
+      "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so …",
+      "ts": 1790244000000,
+      "publishedAt": "2026-09-24T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How a young doctor rose from rural New Mexico to FDA commissioner nominee",
+      "url": "https://www.statnews.com/2026/09/24/heidi-overton-profile-fda-commissioner-nominee/?utm_campaign=rss",
+      "summary": "What to know about Dr. Heidi Overton, Trump's pick to run the FDA, including her medical background and career trajectory.",
+      "ts": 1790238600000,
+      "publishedAt": "2026-09-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: In radiology, AI is blurring the line between technology development and clinical practice",
+      "url": "https://www.statnews.com/2026/09/24/radiology-ai-blurred-line-between-tech-development-clinical-practice/?utm_campaign=rss",
+      "summary": "A new wave of radiology practices are aggressively embracing AI: developing and deploying it in-house, and marketing themselves as 'AI-native.'",
+      "ts": 1790238600000,
+      "publishedAt": "2026-09-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Momentum is building for a big change to how doctors get paid",
+      "url": "https://www.statnews.com/2026/09/24/patients-first-act-congress-moves-on-doctor-pay-medicare-reform/?utm_campaign=rss",
+      "summary": "Congress is considering linking doctor payment rates to medical inflation under the proposed Patients First Act.",
+      "ts": 1790238600000,
+      "publishedAt": "2026-09-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump boast on drug pricing policy overstated state-level interest in federal program",
+      "url": "https://www.statnews.com/2026/09/24/trump-medicaid-generous-model-state-interest/?utm_campaign=rss",
+      "summary": "President Trump and his aides boasted that every U.S. state wanted to participate in a drug pricing initiative through Medicaid. Several states said they weren't sure yet.",
+      "ts": 1790238600000,
+      "publishedAt": "2026-09-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Heidi Overton, Trump’s pick for FDA head, to face questions at Senate hearing",
+      "url": "https://www.statnews.com/2026/09/24/heidi-overton-fda-commissioner-confirmation-hearing-2/?utm_campaign=rss",
+      "summary": "Heidi Overton, Trump's pick for FDA head, will face questions at a Senate hearing. Follow along with our live blog.",
+      "ts": 1790238600000,
+      "publishedAt": "2026-09-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Measles almost killed me. Now I’m a doctor — and I’m scared of what’s happening",
+      "url": "https://www.statnews.com/2026/09/24/measles-outbreak-experience-child-doctor-1961/?utm_campaign=rss",
+      "summary": "Jewel Mullen was in kindergarten in 1961 when she almost died from measles. Now a physician, measles’ return frightens her.",
+      "ts": 1790238600000,
+      "publishedAt": "2026-09-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: A moment of reckoning for preventive cardiology and the precision medicine revolution",
+      "url": "https://www.statnews.com/2026/09/24/lpa-horizon-zeus-results-pelacarsen-preventive-cardiology-precision-medicine-disappointment/?utm_campaign=rss",
+      "summary": "“The epidemiology and genetics of heart attack and stroke risk, for now, seem to have outpaced what more we can actually do about it,” writes cardiologist Vishal Khetpal.",
+      "ts": 1790238600000,
+      "publishedAt": "2026-09-24T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Record participation in ESA’s Industry Space Days 2026",
@@ -10,6 +154,15 @@
       "ts": 1790233500000,
       "publishedAt": "2026-09-24T07:05:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Signs Agreements with Six Industry Partners to Advance Cancer Care under Rays of Hope",
+      "url": "http://www.iaea.org/newscenter/news/iaea-signs-agreements-with-six-industry-partners-to-advance-cancer-care-under-rays-of-hope",
+      "summary": "Addressing the growing burden of cancer and global disparities in cancer diagnosis and treatment requires innovative, multi-sectoral solutions that go beyond traditional partnerships.",
+      "ts": 1790229624000,
+      "publishedAt": "2026-09-24T06:00:24.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -658,159 +811,6 @@
       "ts": 1790164800000,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "The latest in the legal saga for youth gender-affirming care in the U.S.",
-      "url": "https://www.statnews.com/2026/09/23/health-news-legal-saga-for-youth-gender-affirming-care-in-the-us/?utm_campaign=rss",
-      "summary": "The chilling effect of the Trump administration's dogged offensive against transgender health care has been swift, with dozens of hospitals across the U.S. ending care, even if they haven't been…",
-      "ts": 1790164303000,
-      "publishedAt": "2026-09-23T11:51:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "First switch on for ESA-JAXA Ramses asteroid mission",
-      "url": "https://www.esa.int/Space_Safety/Planetary_Defence/First_switch_on_for_ESA-JAXA_Ramses_asteroid_mission",
-      "summary": "The European Space Agency’s and Japan Aerospace Exploration Agency’s Ramses planetary defence spacecraft has been turned on for the first time by its prime contractor – marking a major milestone in its time-critical deve…",
-      "ts": 1790162220000,
-      "publishedAt": "2026-09-23T11:17:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing MentalHealthBench",
-      "url": "https://openai.com/index/introducing-mentalhealthbench",
-      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-      "ts": 1790157600000,
-      "publishedAt": "2026-09-23T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The AI Hype Index: AI loves cheating",
-      "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two t…",
-      "ts": 1790154000000,
-      "publishedAt": "2026-09-23T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Smart glasses are already causing havoc in India",
-      "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
-      "summary": "Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bi…",
-      "ts": 1790154000000,
-      "publishedAt": "2026-09-23T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: UnitedHealth, CVS push back on Medicare plan to curb remote patient monitoring",
-      "url": "https://www.statnews.com/2026/09/23/unitedhealth-cvs-pushback-medicare-plan-rpm-abuse/?utm_campaign=rss",
-      "summary": "Some health insurers push back on a Medicare proposal that would disrupt how doctors can bill for remotely monitoring patients' health.",
-      "ts": 1790152200000,
-      "publishedAt": "2026-09-23T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Drugmakers, biotech VCs show ‘reinvigorated’ interest in osteoporosis treatments",
-      "url": "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss",
-      "summary": "Medicines for osteoporosis are grabbing the attention of the pharma industry, which has been incentivized by a long-awaited regulatory change.",
-      "ts": 1790152200000,
-      "publishedAt": "2026-09-23T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Mentally ill women deserve more support to have children",
-      "url": "https://www.statnews.com/2026/09/23/lindsay-clancy-patrick-60-minutes-reproductive-psychiatry-mentally-ill-mothers/?utm_campaign=rss",
-      "summary": "“The maternal mental health needs of women like me have been badly underprioritized in American society,” writes Meg LeDuc.",
-      "ts": 1790152200000,
-      "publishedAt": "2026-09-23T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A private equity-owned hospital chain is becoming a nonprofit. Is it just a bailout for investors?",
-      "url": "https://www.statnews.com/2026/09/23/quorum-hospitals-nonprofit-conversion-increases-debt-load/?utm_campaign=rss",
-      "summary": "Other private equity-owned hospital chains have collapsed in recent years, so the stakes are high for Quorum.",
-      "ts": 1790152200000,
-      "publishedAt": "2026-09-23T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "A hitchhiker’s guide to Hera’s target asteroids",
-      "url": "https://www.esa.int/Space_Safety/Hera/A_hitchhiker_s_guide_to_Hera_s_target_asteroids",
-      "summary": "Currently speeding through deep space at 12 km/s relative to Earth, ESA’s Hera spacecraft is due to reach its target Dimorphos asteroid this November. But if an astronaut were magically teleported onto the small-car-size…",
-      "ts": 1790151000000,
-      "publishedAt": "2026-09-23T08:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 23 – A New Lunar Crater: McGetchin",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-23-the-mcgetchin-crater/",
-      "summary": "APOD Science APOD APOD: 2026 September 23 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photo…",
-      "ts": 1790136300000,
-      "publishedAt": "2026-09-23T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Boom Year for Desert Blooms",
-      "url": "https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/",
-      "summary": "Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains.",
-      "ts": 1790136060000,
-      "publishedAt": "2026-09-23T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BananaVLM: A Domain-Adapted Vision Language Model for Banana Crop Disease Diagnosis",
-      "url": "https://arxiv.org/abs/2609.25040",
-      "summary": "arXiv:2609.25040v1 Announce Type: new Abstract: Banana crop diseases threaten food security across the world, yet field diagnosis remains difficult because of limited expert access and visual similarity among disease cla…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reactive molecular dynamics simulations of atenolol first steps degradation by 9CL6 ammonia monooxygenase",
-      "url": "https://arxiv.org/abs/2609.25076",
-      "summary": "arXiv:2609.25076v1 Announce Type: new Abstract: The persistence of beta-blockers like atenolol in aquatic environments necessitates efficient remediation strategies, such as enzymatic biodegradation. This study employs r…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "WILSON - a pathology foundation model framework for patient-level analysis and diagnostic text generation",
-      "url": "https://arxiv.org/abs/2609.25123",
-      "summary": "arXiv:2609.25123v1 Announce Type: new Abstract: Pathologists integrate morphology across magnifications and across the slides of a patient case, whereas pathology foundation models encode thousands of tiles from single s…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic Field Theory of HIV Latency: Instanton Dynamics and the Path to Viral Rebound",
-      "url": "https://arxiv.org/abs/2609.25136",
-      "summary": "arXiv:2609.25136v1 Announce Type: new Abstract: The transition from clinical latency to active HIV infection is a stochastic process. Traditional deterministic models based on ordinary differential equations (ODEs) fail …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Uncertainty Quantification-Incorporated Ensemble Model for Personalized Prediction of Severe Radiotherapy-Induced Immunosuppression Among Esophageal Cancer Patients",
-      "url": "https://arxiv.org/abs/2609.25139",
-      "summary": "arXiv:2609.25139v1 Announce Type: new Abstract: Severe radiation-induced lymphopenia (RIL), specifically Grade 4 RIL (G4RIL), is a frequent immune toxicity and a strong predictor of poor survival for esophageal cancer pa…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
