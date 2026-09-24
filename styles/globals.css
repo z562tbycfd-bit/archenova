@@ -61461,66 +61461,6 @@ main#home-top.an-home-2026 {
     inset 0 -1px 0 rgba(255, 255, 255, 0.012);
 }
 
-
-/* ==========================================================
-   02 / PURPOSES — FULL VIEWPORT PRESENTATION
-
-   The 500svh scroll section remains unchanged.
-
-   Only the visible viewport frame and its glass geometry
-   are adjusted. START / FIXED / END remain untouched.
-========================================================== */
-
-main#home-top.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame {
-  width: 100% !important;
-
-  height: 100svh !important;
-  min-height: 100svh !important;
-  max-height: 100svh !important;
-
-  padding:
-    var(--an-cj-side-gap)
-    !important;
-}
-
-main#home-top.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__glass {
-  box-sizing: border-box !important;
-
-  width: 100% !important;
-  max-width: none !important;
-
-  height: 100% !important;
-  min-height: 0 !important;
-  max-height: none !important;
-
-  margin: 0 !important;
-
-  background:
-    var(--an-cj-glass-background)
-    !important;
-
-  border:
-    var(--an-cj-glass-border)
-    !important;
-
-  border-radius: 30px !important;
-
-  -webkit-backdrop-filter:
-    blur(24px) saturate(85%) !important;
-
-  backdrop-filter:
-    blur(24px) saturate(85%) !important;
-
-  box-shadow:
-    var(--an-cj-glass-shadow)
-    !important;
-}
-
-
 /* ==========================================================
    03 / HORIZON + STILLNESS
 
