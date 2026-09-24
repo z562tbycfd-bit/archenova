@@ -41,8 +41,8 @@ const MODEL_COUNT = 3;
 
 const MODEL_NAMES = [
   "Episteme",
-  "Aetherion",
   "Framework",
+  "Aetherion",
 ] as const;
 
 type ModelIndex = 0 | 1 | 2;
