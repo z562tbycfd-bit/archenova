@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react";
 
 type Chapter = {
   number: string;
-  label: string;
   title: string;
   body: string;
   closing: string;
@@ -13,7 +12,6 @@ type Chapter = {
 const CHAPTERS: readonly Chapter[] = [
   {
     number: "01",
-    label: "FOUNDATIONAL PURPOSE",
     title: "A Digital Twin of Civilization.",
     body:
       "ArcheNova is developing a digital environment for examining " +
@@ -28,7 +26,6 @@ const CHAPTERS: readonly Chapter[] = [
   },
   {
     number: "02",
-    label: "SYSTEMS AND INTERDEPENDENCE",
     title: "Progress Changes More Than One System.",
     body:
       "A new technology can reshape energy demand, industrial " +
@@ -43,7 +40,6 @@ const CHAPTERS: readonly Chapter[] = [
   },
   {
     number: "03",
-    label: "SCIENTIFIC AND ENGINEERING METHOD",
     title: "Reality Remains the Final Authority.",
     body:
       "A useful digital twin must remain connected to evidence. " +
@@ -57,7 +53,6 @@ const CHAPTERS: readonly Chapter[] = [
   },
   {
     number: "04",
-    label: "RESPONSIBLE DEVELOPMENT",
     title: "Feasibility Is Only the Beginning.",
     body:
       "A capability must be assessed for reliability, safety, " +
@@ -71,7 +66,6 @@ const CHAPTERS: readonly Chapter[] = [
   },
   {
     number: "05",
-    label: "FROM DIGITAL TWIN TO REALITY",
     title: "Knowledge Must Survive Real-World Testing.",
     body:
       "ArcheNova aims to turn digital exploration into better " +
@@ -175,9 +169,6 @@ export default function ArcheNovaCivilizationPrelude() {
             key={chapter.number}
             className="an-civilization-purpose__chapter"
           >
-            <p className="an-civilization-purpose__eyebrow">
-              ARCHENOVA / {chapter.label}
-            </p>
 
             <h2 className="an-civilization-purpose__title">
               {chapter.title}
