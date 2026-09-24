@@ -13,6 +13,7 @@ import WorkModelsPortal from "../components/WorkModelsPortal";
 
 import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
 
+import ArcheNovaCivilizationPrelude from "../components/home/ArcheNovaCivilizationPrelude";
 
 import {
   ArcheNovaHorizon,
@@ -30,6 +31,34 @@ export default function HomePage() {
       <HomeSectionPager />
 
       {/* ==================================================
+          00 — FOUNDATIONAL PURPOSE
+          New: scroll-driven civilization introduction.
+      ================================================== */}
+
+      <ArcheNovaCivilizationPrelude />
+
+      {/* ==================================================
+          02 — THE HORIZON
+          Existing section: unchanged.
+      ================================================== */}
+
+      <ArcheNovaHorizon />
+
+      {/* ==================================================
+          03 — THE ARCHENOVA WORLD
+          Existing section: unchanged.
+      ================================================== */}
+
+      <ArcheNovaWorldGallery />
+
+      {/* ==================================================
+          04 — THE STILLNESS
+          Existing section: unchanged.
+      ================================================== */}
+
+      <ArcheNovaStillness />
+
+      {/* ==================================================
           01 — MAP
           Existing section: unchanged.
       ================================================== */}
@@ -44,27 +73,7 @@ export default function HomePage() {
           <ArcheNovaMap />
         </div>
       </section>
-
-      {/* ==================================================
-          02 — THE HORIZON
-          New: outward contemplation.
-      ================================================== */}
-
-      <ArcheNovaHorizon />
-
-      {/* ==================================================
-          03 — THE ARCHENOVA WORLD
-          New: five-domain civilization collection.
-      ================================================== */}
-
-      <ArcheNovaWorldGallery />
-
-      {/* ==================================================
-          04 — THE STILLNESS
-          New: inward contemplation.
-      ================================================== */}
-
-      <ArcheNovaStillness />
+      
 
       {/* ==================================================
           05 — FOUNDER

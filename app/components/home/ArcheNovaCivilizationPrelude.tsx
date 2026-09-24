@@ -1,0 +1,207 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+
+type Chapter = {
+  number: string;
+  label: string;
+  title: string;
+  body: string;
+  closing: string;
+};
+
+const CHAPTERS: readonly Chapter[] = [
+  {
+    number: "01",
+    label: "FOUNDATIONAL PURPOSE",
+    title: "A Digital Twin of Civilization.",
+    body:
+      "ArcheNova is developing a digital environment for examining " +
+      "how science, technology, energy, infrastructure, biological " +
+      "systems, and institutions interact. Its models represent " +
+      "selected real-world systems—not civilization in its entirety—" +
+      "so that alternative development pathways can be investigated " +
+      "before decisions are made in reality.",
+    closing:
+      "Model the systems that sustain civilization. " +
+      "Test the possibilities that could advance it.",
+  },
+  {
+    number: "02",
+    label: "SYSTEMS AND INTERDEPENDENCE",
+    title: "Progress Changes More Than One System.",
+    body:
+      "A new technology can reshape energy demand, industrial " +
+      "capacity, infrastructure, environmental conditions, and " +
+      "institutional responsibilities. ArcheNova examines these " +
+      "connections through defined system boundaries, measurable " +
+      "variables, documented assumptions, and alternative scenarios. " +
+      "Established relationships must remain distinguishable from " +
+      "hypotheses and unknowns.",
+    closing:
+      "Understand the dependencies before scaling the capability.",
+  },
+  {
+    number: "03",
+    label: "SCIENTIFIC AND ENGINEERING METHOD",
+    title: "Reality Remains the Final Authority.",
+    body:
+      "A useful digital twin must remain connected to evidence. " +
+      "ArcheNova seeks to ground selected models in observations, " +
+      "traceable sources, physical laws, and reproducible methods. " +
+      "Predictions should be tested against independent measurements " +
+      "where possible. Assumptions, uncertainty, and limits must " +
+      "remain explicit; models must change when evidence contradicts them.",
+    closing:
+      "Simulation proposes. Independent validation determines.",
+  },
+  {
+    number: "04",
+    label: "RESPONSIBLE DEVELOPMENT",
+    title: "Feasibility Is Only the Beginning.",
+    body:
+      "A capability must be assessed for reliability, safety, " +
+      "resource demand, environmental effects, institutional " +
+      "accountability, and long-term consequences—not merely whether " +
+      "it can be built. ArcheNova examines failure scenarios and " +
+      "whether a system can be monitored, corrected, recovered, " +
+      "or discontinued when conditions change.",
+    closing:
+      "Build capability without surrendering correctability.",
+  },
+  {
+    number: "05",
+    label: "FROM DIGITAL TWIN TO REALITY",
+    title: "Knowledge Must Survive Real-World Testing.",
+    body:
+      "ArcheNova aims to turn digital exploration into better " +
+      "questions, comparable designs, and proposals suitable for " +
+      "real-world investigation. Moving from a model to an experiment, " +
+      "prototype, or deployed system requires independent validation " +
+      "appropriate to its scale and consequences. Results remain " +
+      "open to revision as new evidence emerges.",
+    closing:
+      "OBSERVE · MODEL · COMPARE · TEST · VALIDATE · REFINE",
+  },
+];
+
+const CHAPTER_COUNT = CHAPTERS.length;
+
+type FramePosition = "start" | "fixed" | "end";
+
+function clamp(value: number, min: number, max: number) {
+  return Math.min(max, Math.max(min, value));
+}
+
+export default function ArcheNovaCivilizationPrelude() {
+  const sectionRef = useRef<HTMLElement | null>(null);
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [framePosition, setFramePosition] =
+    useState<FramePosition>("start");
+
+  useEffect(() => {
+    const section = sectionRef.current;
+
+    if (!section) return;
+
+    let animationFrame = 0;
+    let lastIndex = -1;
+    let lastPosition: FramePosition | null = null;
+
+    const update = () => {
+      const rect = section.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+
+      const frameHeight = viewportHeight;
+      const travel = Math.max(1, rect.height - frameHeight);
+
+      let nextPosition: FramePosition;
+
+      if (rect.top >= 0) {
+        nextPosition = "start";
+      } else if (rect.bottom <= frameHeight) {
+        nextPosition = "end";
+      } else {
+        nextPosition = "fixed";
+      }
+
+      const travelled = clamp(-rect.top, 0, travel);
+
+      const nextIndex = clamp(
+        Math.floor((travelled / travel) * CHAPTER_COUNT),
+        0,
+        CHAPTER_COUNT - 1
+      );
+
+      if (nextPosition !== lastPosition) {
+        lastPosition = nextPosition;
+        setFramePosition(nextPosition);
+      }
+
+      if (nextIndex !== lastIndex) {
+        lastIndex = nextIndex;
+        setActiveIndex(nextIndex);
+      }
+
+      animationFrame = window.requestAnimationFrame(update);
+    };
+
+    animationFrame = window.requestAnimationFrame(update);
+
+    return () => {
+      window.cancelAnimationFrame(animationFrame);
+    };
+  }, []);
+
+  const chapter = CHAPTERS[activeIndex];
+
+  return (
+    <section
+      ref={sectionRef}
+      id="archenova-civilization-prelude"
+      data-home-section
+      className="an-civilization-purpose"
+      aria-label="ArcheNova foundational purpose"
+    >
+      <div
+        className={[
+          "an-civilization-purpose__frame",
+          `an-civilization-purpose__frame--${framePosition}`,
+        ].join(" ")}
+      >
+        <div className="an-civilization-purpose__glass">
+          <article
+            key={chapter.number}
+            className="an-civilization-purpose__chapter"
+          >
+            <p className="an-civilization-purpose__eyebrow">
+              ARCHENOVA / {chapter.label}
+            </p>
+
+            <h2 className="an-civilization-purpose__title">
+              {chapter.title}
+            </h2>
+
+            <p className="an-civilization-purpose__body">
+              {chapter.body}
+            </p>
+
+            <p className="an-civilization-purpose__closing">
+              {chapter.closing}
+            </p>
+          </article>
+
+          <p
+            className="an-civilization-purpose__position"
+            aria-label={`Chapter ${
+              activeIndex + 1
+            } of ${CHAPTER_COUNT}`}
+          >
+            {chapter.number} / 05
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
