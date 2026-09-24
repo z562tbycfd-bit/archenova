@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-09-24T13:22:09.729Z",
+  "updated": "2026-09-24T18:18:58.763Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s Machines for Mars Make Beer Bubbly ",
+      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/",
+      "summary": "Carbon-capture technology repurposed for breweries spreads and finds new applications",
+      "ts": 1790268061000,
+      "publishedAt": "2026-09-24T16:41:01.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Senate finance committee backs Chris Klomp, advancing him to full Senate vote",
+      "url": "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/?utm_campaign=rss",
+      "summary": "Klomp, a behind-the-scenes HHS power player, is likely to be confirmed as second-in-command to RFK Jr.",
+      "ts": 1790267892000,
+      "publishedAt": "2026-09-24T16:38:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Practicing for Safe Landings on the Moon and Beyond",
+      "url": "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/",
+      "summary": "In this Aug. 27, 2026, image, an Alta-X drone flies an advanced guidance and navigation system known as the Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) experiment near NASA’s Armstrong Flight Re…",
+      "ts": 1790267359000,
+      "publishedAt": "2026-09-24T16:29:19.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "True or false on space industry trends with Pacôme Révillon",
+      "url": "https://spacenews.com/true-or-false-on-space-industry-trends-with-pacome-revillon/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss and Novaspace CEO Pacôme Révillon look at what to expect from the space industry in the next year by playing a game of true […] The post True or false on space industry trends with …",
+      "ts": 1790265102000,
+      "publishedAt": "2026-09-24T15:51:42.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
+      "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
+      "summary": "Like tendrils on a vine, lava spreads out from the northern crater of Krasheninnikov, a volcano pair on the Pacific coast of Russia’s Kamchatka Peninsula. On July 30, 2025, an 8.8-magnitude earthquake had struck in the n…",
+      "ts": 1790264837000,
+      "publishedAt": "2026-09-24T15:47:17.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Moog Completes ISO Class 8 Clean Room at Niagara Falls Facility to Expand Thruster Production",
+      "url": "https://spacenews.com/moog-completes-iso-class-8-clean-room-at-niagara-falls-facility-to-expand-thruster-production/",
+      "summary": "East Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B) announced the completion and commissioning of a new ISO Class 8 certified clean room at its Niagara Falls facility. This […] The post Moog Completes ISO Class 8 Clean R…",
+      "ts": 1790262328000,
+      "publishedAt": "2026-09-24T15:05:28.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Indonesian ruling against ‘patent evergreening’ by pharma industry sends critical message, patient advocates say",
+      "url": "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/?utm_campaign=rss",
+      "summary": "A recent court decision in Indonesia sends an important message to other countries to challenge the pharma industry's use of \"patent evergreening,\" patient advocates say.",
+      "ts": 1790261874000,
+      "publishedAt": "2026-09-24T14:57:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+      "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not…",
+      "ts": 1790258450000,
+      "publishedAt": "2026-09-24T14:00:50.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Study Human Health, Performance During Crew-13 Mission",
+      "url": "https://www.nasa.gov/humans-in-space/nasa-to-study-human-health-performance-during-crew-13-mission/",
+      "summary": "During NASA’s SpaceX Crew‑13 mission aboard the International Space Station, astronauts will support a series of biomedical and human performance investigations, including a new collaborative effort to study how spacefli…",
+      "ts": 1790258028000,
+      "publishedAt": "2026-09-24T13:53:48.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Kyverna’s cell therapy shows lasting autoimmune benefit",
+      "url": "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss",
+      "summary": "Kyverna Therapeutics is one step closer to launching the first cell therapy for an autoimmune disease, with new data in hand showing many patients remained off of other therapies a…",
+      "ts": 1790257930000,
+      "publishedAt": "2026-09-24T13:52:10.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about the FDA commissioner nominee, a Lilly partnership in China, and more",
@@ -30,6 +120,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "ESA",
+      "title": "Win a trip to ESA to witness BepiColombo arrive at Mercury ",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Win_a_trip_to_ESA_to_witness_BepiColombo_arrive_at_Mercury",
+      "summary": "Get ready to celebrate BepiColombo’s arrival at Mercury. Craft a welcoming message that could be a drawing, song, poem or any other art form and stand a chance to win a trip to mission control! ENTRY FORM Full rules and …",
+      "ts": 1790254800000,
+      "publishedAt": "2026-09-24T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
       "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
@@ -37,6 +136,24 @@
       "ts": 1790251800000,
       "publishedAt": "2026-09-24T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Palestinian existence under threat, Abbas tells UN, warning of ‘another Nakba’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168426",
+      "summary": "Israeli policies now threaten “the very life and existence of the Palestinian people on their homeland”, Palestinian President Mahmoud Abbas told the UN General Assembly on Thursday, urging the world not to allow “anothe…",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: World leaders approve new declaration to tackle rising sea levels",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168423",
+      "summary": "Sea level rise is among the most visible consequences of global warming, but for some countries, it is an imminent existential threat. World leaders approved a new declaration on Thursday while debating the best ways to …",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -121,7 +238,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Heidi Overton, Trump’s pick for FDA head, to face questions at Senate hearing",
+      "title": "STAT+: Heidi Overton, Trump’s pick for FDA head, faced questions at Senate hearing",
       "url": "https://www.statnews.com/2026/09/24/heidi-overton-fda-commissioner-confirmation-hearing-2/?utm_campaign=rss",
       "summary": "Heidi Overton, Trump's pick for FDA head, will face questions at a Senate hearing. Follow along with our live blog.",
       "ts": 1790238600000,
@@ -691,123 +808,6 @@
       "title": "Equality ‘ends at the doors of the Security Council’, Kenya’s Ruto tells General Assembly",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168419",
       "summary": "Kenyan President William Ruto told the General Assembly on Wednesday that the sovereign equality the UN proclaims is contradicted by its own structures, urging Member States to reform the Security Council and an internat…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168418",
-      "summary": "“We are the first generation with the tools to end the fossil fuel age – and the last who can avert climate catastrophe,” UN Secretary-General António Guterres said on Wednesday, calling on countries to draw up credible …",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Rohingya refugees deserve a future beyond survival, not endless displacement",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168417",
-      "summary": "Nine years after the mass displacement of the Rohingya from Myanmar, their situation remains one of the world's most protracted and complex refugee crises, marked by years of persecution and uncertainty over the prospect…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Zelenskyy urges stronger pressure on Russia, warns war’s impact is spreading beyond Ukraine",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168416",
-      "summary": "Ukrainian President Volodymyr Zelenskyy on Wednesday called for intensified pressure on Russia to end its war against Ukraine, arguing that Moscow continues to incur massive losses while prolonging a conflict whose conse…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168414",
-      "summary": "The Security Council has been briefed by some of the world's top AI executives on the huge benefits and huge risks the frontier technology presents. With warnings mounting that the world may be losing its grip on systems…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "LIVE: Climate change is here - What happens next is still in our hands",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168372",
-      "summary": "From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts already unfo…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN’s ‘sacred covenant has been broken’, Argentina’s Milei tells General Assembly",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168415",
-      "summary": "Argentine President Javier Milei told the General Assembly on Wednesday that the UN has broken the “sacred covenant” on which it was founded, failing at what it was meant to do – while excelling at things beyond its remi…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "At UN, Pezeshkian turns terrorism accusation back on Iran’s critics",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168412",
-      "summary": "President Masoud Pezeshkian opened his General Assembly address with a direct rebuttal to US President Donald Trump, who a day earlier had branded Iran the “number one sponsor of terror.”",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Syria begins ‘new phase of revival’, President Al-Sharaa tells General Assembly",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168411",
-      "summary": "Syrian President Ahmad Al-Sharaa told the UN General Assembly on Wednesday that his country “is rising” on many levels, thanks to the strength of its people.",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: World leaders debate ongoing war in Ukraine",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168410",
-      "summary": "Five years of war. Another winter closing in. Today, the Security Council once again debates a path to peace – though any resolution still runs up against the veto of Russia, one of its own permanent members, whose objec…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Right to development: A blueprint for unmet promises",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168405",
-      "summary": "Ahead of the 40th anniversary of the groundbreaking Declaration on the Right to Development this December, world leaders gathered at a High-Level Week meeting on Wednesday to map progress made and the 21st century challe…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN health agency calls for investment boost to save young lives from cancer",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168408",
-      "summary": "More children and young people are beating cancer, but progress remains uneven across regions and age groups, highlighting the need for increased investment to boost survival rates.",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo Ebola outbreak toll exceeds 3,700 deaths",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168407",
-      "summary": "More than 130 days into the latest Ebola outbreak in the Democratic Republic of the Congo (DRC), health experts said on Wednesday that response efforts have been scaled up significantly and “the first encouraging signs o…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "United Kingdom announces action on disinformation and global AI standards",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168406",
-      "summary": "The United Kingdom will fight disinformation at home and abroad, and work to ensure global safety standards for artificial intelligence (AI), new Prime Minister Andy Burnham said on Monday evening in his first address to…",
       "ts": 1790164800000,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "categoryId": "global-governance"
