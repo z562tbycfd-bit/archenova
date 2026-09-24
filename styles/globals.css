@@ -60586,7 +60586,12 @@ main.an-home-2026
 
 
 /* ==========================================================
-   02 / VIEWPORT FRAME — NO SECOND CARD
+   02 / VIEWPORT FRAME — WORLD-MATCHED GEOMETRY
+
+   The frame remains one viewport tall for the existing
+   START / FIXED / END scroll behavior.
+
+   Its padding defines the visible glass dimensions.
 ========================================================== */
 
 main.an-home-2026
@@ -60606,10 +60611,6 @@ main.an-home-2026
 
   margin: 0 !important;
 
-  /*
-   * Retain the original Prelude geometry.
-   * Only the glass inside this frame is visible.
-   */
   padding: clamp(12px, 2vw, 24px) !important;
 
   overflow: visible !important;
@@ -60667,96 +60668,83 @@ main.an-home-2026
 
 
 /* ==========================================================
-   04 / SINGLE GLASS — HOME OPTICAL LANGUAGE
+  04 / SINGLE GLASS — WORLD-MATCHED SURFACE
 
-   HOME reference:
-   - Border: 0.065
-   - Blur: 22px
-   - Saturation: 106%
-   - Radius: 30px
-   - Inset edge only
+  Match WORLD:
+  - One glass surface
+  - Smoked black gradient
+  - 30px desktop radius
+  - 24px blur / 85% saturation
+  - Restrained optical border and inset edges
 
-   Prelude-specific underlay:
-   Retains background legibility when the fixed card's
-   backdrop blur is rendered differently by the browser.
+  Preserve PURPOSES:
+  - One viewport-tall presentation
+  - Five scroll-driven chapters
+  - Existing content alignment
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-prelude
 .an-civilization-purpose__glass {
-  position: relative !important;
-  isolation: isolate !important;
+ position: relative !important;
+ isolation: isolate !important;
 
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
+ display: flex !important;
+ flex-direction: column !important;
+ align-items: center !important;
+ justify-content: center !important;
 
-  box-sizing: border-box !important;
+ box-sizing: border-box !important;
 
-  width: 100% !important;
-  min-width: 0 !important;
+ width: 100% !important;
+ max-width: 1800px !important;
+ min-width: 0 !important;
 
-  height: 100% !important;
-  min-height: 0 !important;
+ height: 100% !important;
+ min-height: 0 !important;
 
-  margin: 0 !important;
+ margin: 0 auto !important;
 
-  padding:
-    clamp(44px, 6vw, 92px)
-    clamp(26px, 7vw, 120px)
-    !important;
+ padding:
+   clamp(44px, 6vw, 92px)
+   clamp(26px, 7vw, 120px)
+   !important;
 
-  overflow: hidden !important;
+ overflow: hidden !important;
 
-  /*
-   * Keep a real translucent black underlay.
-   * Do not set this to transparent.
-   */
-  background-color:
-    rgba(5, 6, 9, 0.76) !important;
+ /* WORLD's optical glass surface. */
+ background:
+   linear-gradient(
+     155deg,
+     rgba(13, 14, 17, 0.36) 0%,
+     rgba(4, 5, 7, 0.44) 48%,
+     rgba(0, 0, 0, 0.53) 100%
+   ) !important;
 
-  /*
-   * HOME glass gradient.
-   */
-  background-image:
-    radial-gradient(
-      circle at 50% 0%,
-      rgba(255, 255, 255, 0.025) 0%,
-      rgba(255, 255, 255, 0.008) 24%,
-      transparent 52%
-    ),
-    linear-gradient(
-      145deg,
-      rgba(15, 16, 18, 0.20) 0%,
-      rgba(7, 8, 10, 0.24) 48%,
-      rgba(0, 0, 0, 0.30) 100%
-    ) !important;
+ border:
+   1px solid rgba(255, 255, 255, 0.07)
+   !important;
 
-  border:
-    1px solid rgba(255, 255, 255, 0.065)
-    !important;
+ border-radius: 30px !important;
 
-  border-radius: 30px !important;
+ -webkit-backdrop-filter:
+   blur(24px) saturate(85%) !important;
 
-  -webkit-backdrop-filter:
-    blur(22px) saturate(106%) !important;
+ backdrop-filter:
+   blur(24px) saturate(85%) !important;
 
-  backdrop-filter:
-    blur(22px) saturate(106%) !important;
+ box-shadow:
+   inset 0 1px 0 rgba(255, 255, 255, 0.045),
+   inset 0 -1px 0 rgba(255, 255, 255, 0.012)
+   !important;
 
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.040),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.010)
-    !important;
+ outline: 0 !important;
 
-  outline: 0 !important;
+ opacity: 1 !important;
+ filter: none !important;
 
-  opacity: 1 !important;
-  filter: none !important;
-
-  transition: none !important;
-  animation: none !important;
+ transition: none !important;
+ animation: none !important;
 }
 
 
@@ -60975,50 +60963,38 @@ main.an-home-2026
 
 
 /* ==========================================================
-   08 / MOBILE — HOME GLASS EDGE AND RADIUS
+  08 / MOBILE — WORLD-MATCHED GLASS
 ========================================================== */
 
 @media (max-width: 768px) {
-  main.an-home-2026
-  #archenova-civilization-prelude
-  .an-civilization-purpose__glass {
-    /*
-     * Preserve the previously stable mobile underlay.
-     */
-    background-color:
-      rgba(5, 6, 9, 0.82) !important;
+ main.an-home-2026
+ #archenova-civilization-prelude
+ .an-civilization-purpose__glass {
+   background:
+     linear-gradient(
+       155deg,
+       rgba(13, 14, 17, 0.36) 0%,
+       rgba(4, 5, 7, 0.44) 48%,
+       rgba(0, 0, 0, 0.53) 100%
+     ) !important;
 
-    background-image:
-      radial-gradient(
-        circle at 50% 0%,
-        rgba(255, 255, 255, 0.020) 0%,
-        rgba(255, 255, 255, 0.006) 24%,
-        transparent 50%
-      ),
-      linear-gradient(
-        145deg,
-        rgba(13, 14, 16, 0.16) 0%,
-        rgba(6, 7, 9, 0.20) 50%,
-        rgba(0, 0, 0, 0.26) 100%
-      ) !important;
+   border:
+     1px solid rgba(255, 255, 255, 0.07)
+     !important;
 
-    border:
-      1px solid rgba(255, 255, 255, 0.060)
-      !important;
+   border-radius: 26px !important;
 
-    border-radius: 26px !important;
+   -webkit-backdrop-filter:
+     blur(18px) saturate(85%) !important;
 
-    -webkit-backdrop-filter:
-      blur(22px) saturate(106%) !important;
+   backdrop-filter:
+     blur(18px) saturate(85%) !important;
 
-    backdrop-filter:
-      blur(22px) saturate(106%) !important;
-
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.035),
-      inset 0 -1px 0 rgba(255, 255, 255, 0.008)
-      !important;
-  }
+   box-shadow:
+     inset 0 1px 0 rgba(255, 255, 255, 0.045),
+     inset 0 -1px 0 rgba(255, 255, 255, 0.012)
+     !important;
+ }
 }
 
 
