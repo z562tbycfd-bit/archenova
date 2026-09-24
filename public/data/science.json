@@ -1,7 +1,135 @@
 {
   "ok": true,
-  "updated": "2026-09-23T22:53:41.126Z",
+  "updated": "2026-09-24T01:12:59.457Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Self-driving lab automates semiconductor ink synthesis and thin-film characterization",
+      "url": "https://phys.org/news/2026-09-lab-automates-semiconductor-ink-synthesis.html",
+      "summary": "Developing new functional materials often requires testing numerous material combinations. Conventional experiments reach their limits quickly when many variants must be compared. To overcome this bottleneck, the new Ene…",
+      "ts": 1790211602000,
+      "publishedAt": "2026-09-24T01:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The stories we tell ourselves shape who we are",
+      "url": "https://phys.org/news/2026-09-stories.html",
+      "summary": "\"One way or another, we are living the stories planted knowingly or unknowingly in us early in life, the stories that give our lives meaning.\"—Ben Okri, A Way of Being Free",
+      "ts": 1790210401000,
+      "publishedAt": "2026-09-24T00:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Delaying cherry blossom to reduce frost damage",
+      "url": "https://phys.org/news/2026-09-delaying-cherry-blossom-frost.html",
+      "summary": "Climate change is causing many fruit trees to flower earlier, increasing their exposure to damaging late spring frosts. A study led by the University of Göttingen shows that the plant growth regulator ethephon can delay …",
+      "ts": 1790209205000,
+      "publishedAt": "2026-09-24T00:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crown-of-thorns starfish can help reefs thrive",
+      "url": "https://phys.org/news/2026-09-crown-thorns-starfish-reefs.html",
+      "summary": "Crown-of-thorns starfish (COTS) are infamous in the marine world. Their toxin-loaded thorns give them a menacing appearance, and they have a reputation as destroyers of coral reefs. New research from the University of Sy…",
+      "ts": 1790208004000,
+      "publishedAt": "2026-09-24T00:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "GenAI use among online adult learners associated with academic performance and technology confidence",
+      "url": "https://phys.org/news/2026-09-genai-online-adult-learners-academic.html",
+      "summary": "University of Phoenix scholars have published research examining how nontraditional undergraduate students use generative artificial intelligence (GenAI) in online higher education. The study found that more frequent Gen…",
+      "ts": 1790208001000,
+      "publishedAt": "2026-09-24T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Navigational strategy dictates hippocampal representation of space in an everyday memory task",
+      "url": "https://www.nature.com/articles/s41467-026-77885-3",
+      "summary": "",
+      "ts": 1790208000000,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Spatiotemporal delivery of immune-synapse-stabilizing NK cells for postoperative tumor therapy",
+      "url": "https://www.nature.com/articles/s41467-026-77873-7",
+      "summary": "",
+      "ts": 1790208000000,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Chronic stress activates a hypothalamic vagal circuit to promote hepatocellular carcinoma progression in male mice",
+      "url": "https://www.nature.com/articles/s41467-026-77923-0",
+      "summary": "",
+      "ts": 1790208000000,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "High-throughput label-free single-cell proteomics enabled by multicolumn NanoLC",
+      "url": "https://www.nature.com/articles/s41467-026-78059-x",
+      "summary": "",
+      "ts": 1790208000000,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "SATB1 lowers the T cell receptor signaling threshold for thymocyte positive selection via super-enhancer reprogramming",
+      "url": "https://www.nature.com/articles/s41467-026-78061-3",
+      "summary": "",
+      "ts": 1790208000000,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How lawyers can better support clients living with dementia",
+      "url": "https://phys.org/news/2026-09-lawyers-clients-dementia.html",
+      "summary": "Lawyers play a critical role in helping people with dementia plan for the future. A recent study identifies knowledge gaps in the legal profession and key capabilities needed to better support people with dementia.",
+      "ts": 1790206809000,
+      "publishedAt": "2026-09-23T23:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astrophysicists use wave simulations to open a new window on dark matter",
+      "url": "https://phys.org/news/2026-09-astrophysicists-simulations-window-dark.html",
+      "summary": "Astrophysicists from The University of Hong Kong (HKU), working with a research team led by Beijing Normal University (BNU), have developed a more physically realistic approach to testing how ultralight, or \"fuzzy,\" dark…",
+      "ts": 1790206805000,
+      "publishedAt": "2026-09-23T23:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Biologists battle over North America's largest crayfish",
+      "url": "https://phys.org/news/2026-09-biologists-north-america-largest-crayfish.html",
+      "summary": "When Caitlin Bloomer wrestled the massive Crawzilla crawdad—yes, that's its actual common name—out of the muck during a biological survey in Kentucky, she was convinced it was the largest crayfish ever recorded.",
+      "ts": 1790205604000,
+      "publishedAt": "2026-09-23T23:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists make progress in mapping chemicals to six groups of common diseases",
+      "url": "https://phys.org/news/2026-09-scientists-chemicals-groups-common-diseases.html",
+      "summary": "Exposure to hazardous chemicals can contribute to noncommunicable diseases and remains a key public health challenge. Most chemicals used in consumer products, including food packaging, lack sufficient data to determine …",
+      "ts": 1790205601000,
+      "publishedAt": "2026-09-23T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can this biotech innovation halt the destructive march of a cereal killer?",
+      "url": "https://phys.org/news/2026-09-biotech-halt-destructive-cereal-killer.html",
+      "summary": "A UK-led research collaboration has taken a significant step in the global effort to protect cereal crops from the devastating blast fungus. Researchers at the John Innes Centre explored a recently discovered class of pl…",
+      "ts": 1790204404000,
+      "publishedAt": "2026-09-23T23:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Combined satellite views offer clues to magma movement beneath Ethiopia's volcanoes",
+      "url": "https://phys.org/news/2026-09-combined-satellite-views-clues-magma.html",
+      "summary": "Magma moving beneath a volcano can make the ground rise, sink or shift sideways. Measuring these changes gives scientists clues about where magma is stored and how it travels. A study published in Geodesy and Geodynamics…",
+      "ts": 1790204401000,
+      "publishedAt": "2026-09-23T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "It's hard to predict who will be suicidal: It's easier to ensure people can't shoot themselves",
@@ -660,147 +788,19 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Hidden Zeeman Field in Odd-Parity Magnets: An Ideal Platform for Topological Superconductivity",
-      "url": "http://link.aps.org/doi/10.1103/j9m4-386b",
-      "summary": "Author(s): Xun-Jiang Luo, Zi-Ting Sun, Xilin Feng, Mingliang Tian, and K. T. Law Odd-parity magnets (OPMs) have emerged as a fundamental class of unconventional magnetism, characterized by time-reversal-preserving nonrel…",
+      "title": "Braking Protons at the Electron-Ion Collider: From Invisible Meson Decay to New Physics Searches",
+      "url": "http://link.aps.org/doi/10.1103/991b-9jp2",
+      "summary": "Author(s): Reuven Balkin, Ta’el Coren, Alexander Jentsch, Hongkai Liu, Maksym Ovchynnikov, Yotam Soreq, and Sokratis Trifinopoulos We investigate the sensitivity of the Electron-Ion Collider (EIC) to invisible final stat…",
       "ts": 1790157600000,
       "publishedAt": "2026-09-23T10:00:00.000Z"
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Intertwined Charge Stripes and Majorana Zero Modes in an Iron-Based Superconductor",
-      "url": "http://link.aps.org/doi/10.1103/6f1z-dvc6",
-      "summary": "Author(s): Yu Liu, Li-Xuan Wei, Qiang-Jun Cheng, Zhenhua Zhu, Xin-Yu Shi, Cong-Cong Lou, Yong-Wei Wang, Ze-Xian Deng, Ming-Qiang Ren, Dong E. Liu, Ziqiang Wang, Xu-Cun Ma, Jin-Feng Jia, Qi-Kun Xue, and Can-Li Song In typ…",
+      "title": "Observation of Time-Reversal Symmetry Breaking in the Type-I Superconductor ${\\mathrm{YbSb}}_{2}$",
+      "url": "http://link.aps.org/doi/10.1103/drzq-lfn5",
+      "summary": "Author(s): Anshu Kataria, Shashank Srivastava, Dibyendu Samanta, Pushpendra Yadav, Poulami Manna, Suhani Sharma, Priya Mishra, Joel Barker, Adrian D. Hillier, Amit Agarwal, Sudeep Kumar Ghosh, and Ravi Prakash Singh A ha…",
       "ts": 1790157600000,
       "publishedAt": "2026-09-23T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Chaotic Many-Body Quantum Dynamics, Spectral Correlations, and Energy Diffusion",
-      "url": "http://link.aps.org/doi/10.1103/bjj5-49pg",
-      "summary": "Author(s): J. T. Chalker and Dominik Hahn Researchers analyze a solvable many-body model to demonstrate how energy diffusion governs spectral correlations in chaotic quantum systems. [Phys. Rev. X 16, 031076] Published W…",
-      "ts": 1790157600000,
-      "publishedAt": "2026-09-23T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Typhoon Dujuan leaves seven dead in Japan from landslides, flooding",
-      "url": "https://phys.org/news/2026-09-typhoon-dujuan-dead-japan-landslides.html",
-      "summary": "Typhoon Dujuan left seven people dead and five others missing Tuesday after the storm triggered landslides and flooding in the greater Tokyo area, Kyodo News reported, citing authorities.",
-      "ts": 1790156401000,
-      "publishedAt": "2026-09-23T09:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "UK to launch new military space squadron to protect satellites",
-      "url": "https://phys.org/news/2026-09-uk-military-space-squadron-satellites.html",
-      "summary": "Britain announced Wednesday that it will launch a new military space squadron to defend the country's satellites, the latest move as countries race to develop military space capabilities.",
-      "ts": 1790155202000,
-      "publishedAt": "2026-09-23T09:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Risk-free' matched betting? More than half of surveyed users report losses",
-      "url": "https://phys.org/news/2026-09-free-surveyed-users-losses.html",
-      "summary": "A new peer-reviewed study from Bournemouth University has found a striking gap between how people perceive the risks of matched betting and what some experience in practice. Matched betting involves using free bets given…",
-      "ts": 1790154961000,
-      "publishedAt": "2026-09-23T09:16:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Heat waves on land start earlier and develop faster, global analysis reveals",
-      "url": "https://phys.org/news/2026-09-earlier-faster-global-analysis-reveals.html",
-      "summary": "Heat waves over land worldwide are beginning earlier, ending later and occurring over longer seasons, while the first heat wave of the season has recently shifted toward faster onset, according to a new study published i…",
-      "ts": 1790154009000,
-      "publishedAt": "2026-09-23T09:00:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Snapshots reveal key molecular machine in tropical parasites at near-atomic resolution",
-      "url": "https://phys.org/news/2026-09-snapshots-reveal-key-molecular-machine.html",
-      "summary": "A study conducted by the University of Liège and Rockefeller University reveals, with near-atomic precision, the three-dimensional structure and function of a gigantic molecular machine essential to the survival of trypa…",
-      "ts": 1790154005000,
-      "publishedAt": "2026-09-23T09:00:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI scans 4.6 million compounds in hours to predict hydrogen positions in drug-like molecules",
-      "url": "https://phys.org/news/2026-09-ai-scans-million-compounds-hours.html",
-      "summary": "New York University researchers have trained an AI model to learn chemical patterns associated with stability in drug-like molecules and accurately predict where their hydrogen atoms should be positioned.",
-      "ts": 1790154002000,
-      "publishedAt": "2026-09-23T09:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tech elite's new school aims to replace universities",
-      "url": "https://phys.org/news/2026-09-tech-elite-school-aims-universities.html",
-      "summary": "The most powerful venture capital firm in Silicon Valley is starting a two-year private school intended to replace college, as some members of the U.S. tech elite question the benefits of a traditional university educati…",
-      "ts": 1790153401000,
-      "publishedAt": "2026-09-23T08:50:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Chile's Atacama Desert blossoms with life after El Niño rains",
-      "url": "https://phys.org/news/2026-09-chile-atacama-blossoms-life-el.html",
-      "summary": "A display of flowers has bloomed across Chile's Atacama Desert, one of the driest places on Earth, after the El Niño climate phenomenon brought heavy rain to the region.",
-      "ts": 1790152288000,
-      "publishedAt": "2026-09-23T08:31:28.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Agency says sea turtle eggs laid on California beaches are a first for the US West Coast",
-      "url": "https://phys.org/news/2026-09-agency-sea-turtle-eggs-laid.html",
-      "summary": "A reptile believed to be struggling in sand at a Southern California beach was simply making history: a sea turtle laying eggs on the U.S. West Coast.",
-      "ts": 1790150440000,
-      "publishedAt": "2026-09-23T08:00:40.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Livestock grazing may boost soil carbon storage in Iceland's subarctic grasslands",
-      "url": "https://phys.org/news/2026-09-livestock-grazing-boost-soil-carbon.html",
-      "summary": "Grassland plants transfer large amounts of carbon to soil through their roots, and most of that carbon is stored underground. Therefore, promoting soil carbon storage can help combat climate change. Grazers feed on grass…",
-      "ts": 1790147414000,
-      "publishedAt": "2026-09-23T07:10:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Sensors and drones can help farmers improve crop quality while saving water",
-      "url": "https://phys.org/news/2026-09-sensors-drones-farmers-crop-quality.html",
-      "summary": "New research in Plants, People, Planet demonstrates how precision agriculture techniques involving drones and sensor-based irrigation can save water needed to produce tomatoes and grapes while also improving the quality …",
-      "ts": 1790147409000,
-      "publishedAt": "2026-09-23T07:10:09.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Analysis finds socioeconomic and health factors drive most disability approval disparities",
-      "url": "https://phys.org/news/2026-09-analysis-socioeconomic-health-factors-disability.html",
-      "summary": "A study in Contemporary Economic Policy examined whether racial and ethnic differences in U.S. disability insurance approval rates reflect disparities in the determination process or broader differences in applicants' ci…",
-      "ts": 1790147404000,
-      "publishedAt": "2026-09-23T07:10:04.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of High-Temperature Preconditioning on Li Plating During Low-Temperature Cycling of the COTS LG Chem HG2 Cell",
-      "url": "https://arxiv.org/abs/2609.25005",
-      "summary": "arXiv:2609.25005v1 Announce Type: new Abstract: Commercial off-the-shelf~(COTS) Li ion cells offer an attractive and rechargeable power source for spacecraft applications. However, since these cells are typically designe…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cross-Detector Transfer Learning with Parnassus: From ALEPH to SLD",
-      "url": "https://arxiv.org/abs/2609.25061",
-      "summary": "arXiv:2609.25061v1 Announce Type: new Abstract: Parnassus is a fast detector-simulation and reconstruction framework that maps truth-level particles directly to reconstructed particles. In this work, we investigate cross…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vector Dark Matter from Gravitational Quantum Field Theory",
-      "url": "https://arxiv.org/abs/2609.25069",
-      "summary": "arXiv:2609.25069v1 Announce Type: new Abstract: Gravitational evidence firmly establishes the existence of dark matter (DM), yet its non-gravitational interactions and fundamental nature remain unresolved. In this work, …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z"
     }
   ],
   "sources": [

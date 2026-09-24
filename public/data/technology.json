@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-23T22:53:45.040Z",
+  "updated": "2026-09-24T01:13:02.498Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "White House plan to increase control of NIH grants appears ‘dead’",
+      "url": "https://www.statnews.com/2026/09/23/nih-grants-political-control-executive-order-bipartisan-pushback/?utm_campaign=rss",
+      "summary": "A planned EO that would have greatly enhanced White House influence over grants at the NIH is “looking dead,” a source said.",
+      "ts": 1790205961000,
+      "publishedAt": "2026-09-23T23:26:01.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Nominee to lead FDA aims to speed up medical research, combat China’s rise",
@@ -301,6 +310,24 @@
     },
     {
       "source": "United Nations News",
+      "title": "Venezuela seeking rebirth after political crisis and devastating earthquakes, President tells UN",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168420",
+      "summary": "Venezuela is seeking to rebuild after a period of political upheaval and the destruction caused by twin earthquakes earlier this year, Acting President Delcy Rodríguez told world leaders at the United Nations on Wednesda…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Equality ‘ends at the doors of the Security Council’, Kenya’s Ruto tells General Assembly",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168419",
+      "summary": "Kenyan President William Ruto told the General Assembly on Wednesday that the sovereign equality the UN proclaims is contradicted by its own structures, urging Member States to reform the Security Council and an internat…",
+      "ts": 1790164800000,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168418",
       "summary": "“We are the first generation with the tools to end the fossil fuel age – and the last who can avert climate catastrophe,” UN Secretary-General António Guterres said on Wednesday, calling on countries to draw up credible …",
@@ -339,7 +366,7 @@
       "source": "United Nations News",
       "title": "LIVE: Climate change is here - What happens next is still in our hands",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168372",
-      "summary": "🔴 LIVE NOW From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts …",
+      "summary": "From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts already unfo…",
       "ts": 1790164800000,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -781,33 +808,6 @@
       "title": "Information geometry of perturbed gradient flow systems on hypergraphs: A perspective towards nonequilibrium physics",
       "url": "https://arxiv.org/abs/2510.27268",
       "summary": "arXiv:2510.27268v2 Announce Type: replace-cross Abstract: This article serves to concisely review the link between gradient flow systems on hypergraphs and information geometry which has been established within the last …",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "STAR-VAE: A Scalable Latent-Variable Transformer for Controllable Molecular Generation",
-      "url": "https://arxiv.org/abs/2511.02769",
-      "summary": "arXiv:2511.02769v2 Announce Type: replace-cross Abstract: Many molecular Transformers lack probabilistic latent variables for posterior inference and latent interpolation. We introduce STAR-VAE, a SELFIES-encoded, Transf…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sampling at intermediate temperatures is optimal for training large language models in protein structure prediction",
-      "url": "https://arxiv.org/abs/2603.29529",
-      "summary": "arXiv:2603.29529v2 Announce Type: replace-cross Abstract: Using a statistical mechanics framework, we investigate the parameter space of transformer models trained on protein sequence data. We sample the loss landscape a…",
-      "ts": 1790136000000,
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Flow Matching for Count Data",
-      "url": "https://arxiv.org/abs/2605.07746",
-      "summary": "arXiv:2605.07746v2 Announce Type: replace-cross Abstract: High-dimensional count data arise in applications such as single-cell RNA sequencing and neural spike trains, where mappings between distributions across successi…",
       "ts": 1790136000000,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "categoryId": "bio"
