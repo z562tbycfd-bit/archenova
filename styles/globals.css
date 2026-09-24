@@ -61419,169 +61419,72 @@ main#home-top.an-home-2026
 
 /* ==========================================================
    ARCHENOVA HOME
-   INDEPENDENT CIVILIZATION GLASS FRAMES
+   PURPOSES + WORLD — GLASS SURFACE ONLY
 
-   PURPOSES / HORIZON / WORLD / STILLNESS
-
-   Goals:
-   - One independent glass frame per section
-   - Visible HOME background between sections
-   - Consistent optical glass appearance
-   - Full-viewport PURPOSES presentation
-   - Preserve existing scroll and chapter switching
-   - Do not modify SEARCH or later HOME sections
+   No changes to:
+   - Section width, height, margin or padding
+   - START / FIXED / END
+   - Scroll snapping or animations
+   - HORIZON / STILLNESS
+   - SEARCH and all subsequent HOME sections
 ========================================================== */
 
 
 /* ==========================================================
-   01 / SHARED FRAME GEOMETRY
+   01 / SHARED OPTICAL GLASS
 
-   The horizontal inset is identical across all four
-   sections. Vertical separation is applied only to the
-   non-fixed Journey sections.
+   PURPOSES:
+   Apply to its existing inner glass.
+
+   WORLD:
+   Apply only the visual surface properties to the
+   existing gallery section. Its geometry is unchanged.
 ========================================================== */
 
-main#home-top.an-home-2026 {
-  --an-cj-side-gap: clamp(12px, 2vw, 24px);
-  --an-cj-section-gap: clamp(28px, 5vw, 72px);
+main#home-top.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__glass,
 
-  --an-cj-glass-background:
+main#home-top.an-home-2026
+#archenova-world.an-world-gallery {
+  background:
     linear-gradient(
       155deg,
       rgba(13, 14, 17, 0.36) 0%,
       rgba(4, 5, 7, 0.44) 48%,
       rgba(0, 0, 0, 0.53) 100%
-    );
+    ) !important;
 
-  --an-cj-glass-border:
-    1px solid rgba(255, 255, 255, 0.07);
+  border:
+    1px solid rgba(255, 255, 255, 0.07)
+    !important;
 
-  --an-cj-glass-shadow:
+  border-radius: 30px !important;
+
+  -webkit-backdrop-filter:
+    blur(24px) saturate(85%) !important;
+
+  backdrop-filter:
+    blur(24px) saturate(85%) !important;
+
+  box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.045),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.012);
-}
-
-/* ==========================================================
-   03 / HORIZON + STILLNESS
-
-   These components draw their own outer section surface.
-   Do not introduce a second glass wrapper.
-
-   Preserve their existing content, animation and
-   internal layout.
-========================================================== */
-
-main#home-top.an-home-2026
-> :is(
-  #archenova-horizon,
-  #archenova-stillness
-).an-home-2026__section {
-  box-sizing: border-box !important;
-
-  width:
-    calc(100% - 2 * var(--an-cj-side-gap))
-    !important;
-
-  max-width: none !important;
-
-  margin:
-    var(--an-cj-section-gap)
-    auto
-    !important;
-
-  background:
-    var(--an-cj-glass-background)
-    !important;
-
-  border:
-    var(--an-cj-glass-border)
-    !important;
-
-  border-radius: 30px !important;
-
-  -webkit-backdrop-filter:
-    blur(24px) saturate(85%) !important;
-
-  backdrop-filter:
-    blur(24px) saturate(85%) !important;
-
-  box-shadow:
-    var(--an-cj-glass-shadow)
+    inset 0 -1px 0 rgba(255, 255, 255, 0.012)
     !important;
 }
 
 
 /* ==========================================================
-   04 / WORLD GALLERY
-
-   WORLD remains an independent, content-height gallery.
-   Its existing images and exhibition interactions
-   are untouched.
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery {
-  box-sizing: border-box !important;
-
-  width:
-    calc(100% - 2 * var(--an-cj-side-gap))
-    !important;
-
-  max-width: none !important;
-
-  height: auto !important;
-  max-height: none !important;
-
-  margin:
-    var(--an-cj-section-gap)
-    auto
-    !important;
-
-  background:
-    var(--an-cj-glass-background)
-    !important;
-
-  border:
-    var(--an-cj-glass-border)
-    !important;
-
-  border-radius: 30px !important;
-
-  -webkit-backdrop-filter:
-    blur(24px) saturate(85%) !important;
-
-  backdrop-filter:
-    blur(24px) saturate(85%) !important;
-
-  box-shadow:
-    var(--an-cj-glass-shadow)
-    !important;
-}
-
-
-/* ==========================================================
-   05 / MOBILE
-
-   Maintain the same frame inset and optical language
-   across PURPOSES / HORIZON / WORLD / STILLNESS.
+   02 / MOBILE — SAME OPTICAL LANGUAGE
 ========================================================== */
 
 @media (max-width: 768px) {
-  main#home-top.an-home-2026 {
-    --an-cj-side-gap: 8px;
-    --an-cj-section-gap: 28px;
-  }
-
   main#home-top.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__glass,
+
   main#home-top.an-home-2026
-  > :is(
-    #archenova-horizon,
-    #archenova-stillness
-  ).an-home-2026__section,
-  main#home-top.an-home-2026
-  > #archenova-world.an-world-gallery {
+  #archenova-world.an-world-gallery {
     border-radius: 26px !important;
 
     -webkit-backdrop-filter:
@@ -61594,23 +61497,20 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   06 / SMALL MOBILE
+   03 / SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 430px) {
   main#home-top.an-home-2026
   #archenova-civilization-prelude
   .an-civilization-purpose__glass,
+
   main#home-top.an-home-2026
-  > :is(
-    #archenova-horizon,
-    #archenova-stillness
-  ).an-home-2026__section,
-  main#home-top.an-home-2026
-  > #archenova-world.an-world-gallery {
+  #archenova-world.an-world-gallery {
     border-radius: 22px !important;
   }
 }
+
 
 
 
