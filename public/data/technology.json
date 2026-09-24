@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-09-24T18:18:58.763Z",
+  "updated": "2026-09-24T22:05:17.375Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "APOE4 Linked to Potentially Reversible Mechanisms of Brain Blood Vessel Damage in Alzheimer’s",
+      "url": "https://www.genengnews.com/topics/translational-medicine/apoe4-linked-to-potentially-reversible-mechanisms-of-brain-blood-vessel-damage-in-alzheimers/",
+      "summary": "Two studies reveal how APOE4, a major genetic risk factor for Alzheimer’s, disrupts brain blood vessels and promotes abnormal protein accumulation, pointing to potentially reversible disease mechanisms. The post APOE4 Li…",
+      "ts": 1790285448000,
+      "publishedAt": "2026-09-24T21:30:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Muscle Cell Calcium Channel Structure, Synchronicity Could Advance Muscle Disease Therapeutics",
+      "url": "https://www.genengnews.com/topics/translational-medicine/muscle-cell-calcium-channel-structure-synchronicity-could-advance-muscle-disease-therapeutics/",
+      "summary": "Researchers captured the first high-resolution 3D images of the muscle cell calcium channel RyR1 at six stages of opening inside the intact sarcoplasmic reticulum membrane, potentially helping to explain mechanisms behin…",
+      "ts": 1790283943000,
+      "publishedAt": "2026-09-24T21:05:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA commissioner nominee Heidi Overton keeps opinions to herself in Senate hearing",
+      "url": "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/?utm_campaign=rss",
+      "summary": "Senators focused on asking Overton about vaccines, abortion, and vapes.",
+      "ts": 1790281292000,
+      "publishedAt": "2026-09-24T20:21:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "JNC Targets Bigger Molecules with Cellufine",
+      "url": "https://www.genengnews.com/topics/bioprocessing/jnc-targets-bigger-molecules-with-cellufine/",
+      "summary": "JNC is using BioProcess International 2026 to spotlight Cellufine and its emerging MLP chromatography media, developed to address purification challenges posed by viral vectors, vaccines, and other increasingly large and…",
+      "ts": 1790279339000,
+      "publishedAt": "2026-09-24T19:48:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Intense Media Pressure an Emerging Challenge in CHO Business",
+      "url": "https://www.genengnews.com/topics/bioprocessing/intense-media-pressure-an-emerging-challenge-in-cho-business/",
+      "summary": "Process intensification and the adoption of continuous-mode manufacturing has increased the consumption of culture media. Managing these ever-growing culture volumes in a cost and space efficient manner has become a majo…",
+      "ts": 1790279271000,
+      "publishedAt": "2026-09-24T19:47:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The FDA’s Overton era, and dispatches from Shanghai",
+      "url": "https://www.statnews.com/2026/09/24/chronicling-chinese-drug-development-from-shanghai-readout-loud/?utm_campaign=rss",
+      "summary": "The Readout LOUD is going international this week with a dispatch from Shanghai, along with notes on the FDA's Overton era.",
+      "ts": 1790278238000,
+      "publishedAt": "2026-09-24T19:30:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Altruist Biologics’ Suzhou Site Receives EMA GMP Certification",
+      "url": "https://www.genengnews.com/topics/bioprocessing/altruist-biologics-suzhou-site-receives-ema-gmp-certification/",
+      "summary": "The company’s Quality Risk Management framework enabled proactive identification of compliance risks, reduced uncertainties associated with cross-regional technology transfer, and provided greater predictability as thera…",
+      "ts": 1790275158000,
+      "publishedAt": "2026-09-24T18:39:18.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA’s Machines for Mars Make Beer Bubbly ",
@@ -136,6 +199,33 @@
       "ts": 1790251800000,
       "publishedAt": "2026-09-24T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haitians can’t wait to return home and vote in elections says Prime Minister",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168429",
+      "summary": "“There is a people. A people who can wait no longer. A people waiting to regain security, to return home to work, to send their children to school, and to freely choose their leaders.” Those are the words of the Haitian …",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UNRWA work and mandate in ‘jeopardy’, Guterres warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168428",
+      "summary": "The UN Relief and Works Agency for Palestine refugees (UNRWA) continues to operate under “extraordinary pressure”, UN Secretary-General António Guterres said on Thursday.",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: ‘New intensity’ to Russian attacks on Ukraine, Yemen, Gaza and Colombia updates",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168427",
+      "summary": "Russian armed forces have carried out repeated attacks across Ukraine over the past several days, killing and injuring civilians and damaging homes, hospitals, shops and workplaces, UN human rights monitors said on Thurs…",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -721,96 +811,6 @@
       "ts": 1790170198000,
       "publishedAt": "2026-09-23T13:29:58.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a closing loophole for importing meds, European competitiveness, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss",
-      "summary": "As of next month, a loophole that allows Americans to personally import their medications by mail is closing",
-      "ts": 1790169631000,
-      "publishedAt": "2026-09-23T13:20:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Basecamp Research Raise $140M Series C Financing Toward Advancing AI-Designed Drugs",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs/",
-      "summary": "According to Basecamp, EDEN offers the ability to design long and complex DNA sequences with large serine recombinases capable of delivering those sequences precisely. The post Basecamp Research Raise $140M Series C Fina…",
-      "ts": 1790168422000,
-      "publishedAt": "2026-09-23T13:00:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "ts": 1790168400000,
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
-      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram vid…",
-      "ts": 1790165400000,
-      "publishedAt": "2026-09-23T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela seeking rebirth after political crisis and devastating earthquakes, President tells UN",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168420",
-      "summary": "Venezuela is seeking to rebuild after a period of political upheaval and the destruction caused by twin earthquakes earlier this year, Acting President Delcy Rodríguez told world leaders at the United Nations on Wednesda…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Equality ‘ends at the doors of the Security Council’, Kenya’s Ruto tells General Assembly",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168419",
-      "summary": "Kenyan President William Ruto told the General Assembly on Wednesday that the sovereign equality the UN proclaims is contradicted by its own structures, urging Member States to reform the Security Council and an internat…",
-      "ts": 1790164800000,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
