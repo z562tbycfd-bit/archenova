@@ -44,20 +44,20 @@ export default function HomePage() {
       ================================================== */}
 
       <section
-        id="archenova-civilization-purpose-map"
-        data-home-section
-        className="an-purpose-map-section"
-        aria-label="ArcheNova Civilization Purpose Map"
-      >
-        <img
-          src="/images/archenova-civilization-purpose-map.jpeg"
-          alt="ArcheNova civilization digital twin framework illustrating interconnected science, technology, energy, infrastructure, biological systems, institutions, scenario exploration, validation, correctability, and real-world testing."
-          className="an-purpose-map-section__image"
-          loading="eager"
-          decoding="async"
-          draggable={false}
-        />
-      </section>
+  id="archenova-civilization-purpose-map"
+  data-home-section
+  className="an-purpose-map-section"
+  aria-label="ArcheNova Civilization Digital Twin"
+>
+  <img
+    src="/images/archenova-digital-twin-portrait.jpeg"
+    alt="ArcheNova Civilization Digital Twin"
+    className="an-purpose-map-section__image"
+    loading="eager"
+    decoding="async"
+    draggable={false}
+  />
+</section>
 
       {/* ==================================================
           02 — THE HORIZON
