@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-25T07:17:53.665Z",
+  "updated": "2026-09-25T13:22:30.203Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Federal judge rolls back landmark disability protections",
+      "url": "https://www.statnews.com/2026/09/25/health-news-federal-judge-rolls-back-landmark-disability-protections/?utm_campaign=rss",
+      "summary": "The Justice Department said in June that it would no longer enforce laws that prioritized people with disabilities living and receiving services in their communities, rather than in nursing homes…",
+      "ts": 1790340835000,
+      "publishedAt": "2026-09-25T12:53:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Three Earth Explorer candidates go forward",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Three_Earth_Explorer_candidates_go_forward",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/03/advancing_earth_science/26001430-2-eng-GB/Advancing_Earth_science_card_full.png\" alt=\"Advancing Earth science\">",
+      "ts": 1790338800000,
+      "publishedAt": "2026-09-25T12:20:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US governme…",
+      "ts": 1790338200000,
+      "publishedAt": "2026-09-25T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Australia urges global cooperation on climate, AI checks and international law",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168435",
+      "summary": "Australian Prime Minister Anthony Albanese underlined the need for countries to work together to address the climate crisis, emerging technologies such as AI, and the breakdown of international rules, at the United Natio…",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "The Takeaway: UN General Assembly debate Day 3",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168434",
+      "summary": "As the high-level debate enters a fourth day, The Takeaway looks back at key highlights on Thursday, with Israeli and Palestinian leaders presenting divergent views on the Middle East conflict and their counterparts from…",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will foc…",
+      "ts": 1790327785000,
+      "publishedAt": "2026-09-25T09:16:25.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "New CRISPR-Based Tool Enables Genome-Wide Mutagenesis of Bacteriophages",
+      "url": "https://www.genengnews.com/topics/genome-editing/new-crispr-based-tool-enables-genome-wide-mutagenesis-of-bacteriophages/",
+      "summary": "A CRISPR-based method for disrupting genes across bacteriophage genomes has been developed, creating a faster route to uncover gene functions and engineer phages for potential therapeutic and biotechnology applications. …",
+      "ts": 1790326858000,
+      "publishedAt": "2026-09-25T09:00:58.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Young organs may not be a fountain of youth for recipients",
+      "url": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
+      "summary": "Around this time last year I was attending an aging conference in Manchester, listening to a talk about fly aging, when my phone started pinging. News outlets were reporting that a hot mic had caught Russia’s and China’s…",
+      "ts": 1790326800000,
+      "publishedAt": "2026-09-25T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA and the EU partner with Museo Galileo on new exhibition",
+      "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_and_the_EU_partner_with_Museo_Galileo_on_new_exhibition",
+      "summary": "The European Space Agency (ESA), Italy’s Museo Galileo - Institute and Museum of the History of Science, and the European Commission (EC) have partnered to uncover the surprising and far-reaching connections between the …",
+      "ts": 1790326800000,
+      "publishedAt": "2026-09-25T09:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "How Big Tobacco flooded the FDA with public comments to kill a menthol cigarette ban",
+      "url": "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/?utm_campaign=rss",
+      "summary": "Virtually all of the 175,000 public comments on a 2022 FDA proposal to ban menthol cigarettes were form letters, most echoing tobacco industry talking points.",
+      "ts": 1790325000000,
+      "publishedAt": "2026-09-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "At least five candidates vie to become the next WHO leader, as questions over U.S. role loom",
+      "url": "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/?utm_campaign=rss",
+      "summary": "At least five candidates are in the running to become the next director-general of the WHO, a job that will come with extraordinary challenges.",
+      "ts": 1790325000000,
+      "publishedAt": "2026-09-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The head of Kennedy’s new autism project has roots in Iraq War, Sesame Street",
+      "url": "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss",
+      "summary": "Advanced Research Projects Agency for Health is planning a total-lifespan research project on autism: A Q&A with its leader, Russell Shilling.",
+      "ts": 1790325000000,
+      "publishedAt": "2026-09-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: RFK Jr.’s use of the National Center for Health Statistics will add confusion to measles deaths count",
+      "url": "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/?utm_campaign=rss",
+      "summary": "“A discrepancy between how federal and state public health officials determine measles deaths will only increase public confusion,” write Denys T. Lau and Jennifer D. Schoendorf.",
+      "ts": 1790325000000,
+      "publishedAt": "2026-09-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The ‘died with’ vs. ‘died of’ measles discussion misses something very important",
+      "url": "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/?utm_campaign=rss",
+      "summary": "“Arguing over whether someone died ‘with’ or ‘of’ a disease gets us stuck on the last thing that happened.” write two Unbiased Science scientists.",
+      "ts": 1790325000000,
+      "publishedAt": "2026-09-25T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Venetian Lagoon",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Venetian_Lagoon",
+      "summary": "Image: This image of the Venetian Lagoon in northern Italy was acquired by the IRIDE satellites on 17 May 2026.",
+      "ts": 1790323200000,
+      "publishedAt": "2026-09-25T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Türkiye Protects its Citrus Harvests with Nuclear Science",
+      "url": "http://www.iaea.org/newscenter/news/turkiye-protects-its-citrus-harvests-with-nuclear-science",
+      "summary": "",
+      "ts": 1790316000000,
+      "publishedAt": "2026-09-25T06:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 September 25 – Globular Star Cluster Omega Centauri",
@@ -528,7 +672,7 @@
       "source": "United Nations News",
       "title": "Israeli leader at UN: ‘We’re going to win. We have no other choice’",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168431",
-      "summary": "Prime Minister Benjamin Netanyahu used his address to the UN General Assembly to defend Israel’s strikes against Iran as a matter of national survival and describe the violence in the West Bank as the work of few “juveni…",
+      "summary": "Prime Minister Benjamin Netanyahu used his address to the UN General Assembly to defend Israel’s strikes against Iran as a matter of national survival and described the violence in the West Bank as the work of a few “juv…",
       "ts": 1790251200000,
       "publishedAt": "2026-09-24T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -666,150 +810,6 @@
       "summary": "President Trump and his aides boasted that every U.S. state wanted to participate in a drug pricing initiative through Medicaid. Several states said they weren't sure yet.",
       "ts": 1790238600000,
       "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Heidi Overton, Trump’s pick for FDA head, faced questions at Senate hearing",
-      "url": "https://www.statnews.com/2026/09/24/heidi-overton-fda-commissioner-confirmation-hearing-2/?utm_campaign=rss",
-      "summary": "Heidi Overton, Trump's pick for FDA head, will face questions at a Senate hearing. Follow along with our live blog.",
-      "ts": 1790238600000,
-      "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Measles almost killed me. Now I’m a doctor — and I’m scared of what’s happening",
-      "url": "https://www.statnews.com/2026/09/24/measles-outbreak-experience-child-doctor-1961/?utm_campaign=rss",
-      "summary": "Jewel Mullen was in kindergarten in 1961 when she almost died from measles. Now a physician, measles’ return frightens her.",
-      "ts": 1790238600000,
-      "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: STAT+: A moment of reckoning for preventive cardiology and the precision medicine revolution",
-      "url": "https://www.statnews.com/2026/09/24/lpa-horizon-zeus-results-pelacarsen-preventive-cardiology-precision-medicine-disappointment/?utm_campaign=rss",
-      "summary": "“The epidemiology and genetics of heart attack and stroke risk, for now, seem to have outpaced what more we can actually do about it,” writes cardiologist Vishal Khetpal.",
-      "ts": 1790238600000,
-      "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Record participation in ESA’s Industry Space Days 2026",
-      "url": "https://www.esa.int/About_Us/Business_with_ESA/Record_participation_in_ESA_s_Industry_Space_Days_2026",
-      "summary": "On 16–17 September, the European Space Agency (ESA) hosted a record 3100 visitors from Europe’s space industry for a two-day Industry Space Days (ISD) event at ESA’s ESTEC technical centre in the Netherlands.",
-      "ts": 1790233500000,
-      "publishedAt": "2026-09-24T07:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Signs Agreements with Six Industry Partners to Advance Cancer Care under Rays of Hope",
-      "url": "http://www.iaea.org/newscenter/news/iaea-signs-agreements-with-six-industry-partners-to-advance-cancer-care-under-rays-of-hope",
-      "summary": "Addressing the growing burden of cancer and global disparities in cancer diagnosis and treatment requires innovative, multi-sectoral solutions that go beyond traditional partnerships.",
-      "ts": 1790229624000,
-      "publishedAt": "2026-09-24T06:00:24.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 24 – The Ghosts of Five Supernovas",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas/",
-      "summary": "APOD Science APOD APOD: 2026 September 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1790222700000,
-      "publishedAt": "2026-09-24T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Cloudy Cloak Over the Northwest",
-      "url": "https://science.nasa.gov/earth/earth-observatory/cloudy-cloak-over-the-northwest/",
-      "summary": "A low-lying cloud layer brought autumn ambience to western Washington and Oregon, while mountainous areas near the coast remained above the pall.",
-      "ts": 1790222460000,
-      "publishedAt": "2026-09-24T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BreCol: Benchmarking Classical and Deep-Learning Methods for Microbiome-Based Cancer Detection",
-      "url": "https://arxiv.org/abs/2609.27207",
-      "summary": "arXiv:2609.27207v1 Announce Type: new Abstract: DNA sequencing of the gut microbial community shows promise for cancer detection, but questions remain about the generalizability of results across studies. We propose BreC…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Topological Inference for Organoids",
-      "url": "https://arxiv.org/abs/2609.27668",
-      "summary": "arXiv:2609.27668v1 Announce Type: new Abstract: The reproducibility of organ morphology and the extent to which computational models can predict morphogenesis remain difficult to quantify, particularly for organs with co…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "AI-Driven Neural Surrogates for In Silico Design of Cognitive-Affective Neuromodulation Targets",
-      "url": "https://arxiv.org/abs/2609.27729",
-      "summary": "arXiv:2609.27729v1 Announce Type: new Abstract: In neuropsychiatry, the primary goal is often not only to decode brain activity but to change it, for example to lessen a negative affective bias or an overly salient memor…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spatial-Molecular Information Analysis Based on Histopathological Geometry: KL-Divergence Decomposition of Cell Distribution and Location-Dependent Expression States in PD-1 Immunohistochemistry",
-      "url": "https://arxiv.org/abs/2609.27755",
-      "summary": "arXiv:2609.27755v1 Announce Type: new Abstract: Spatial biology enables molecular expression to be analyzed together with the location of cells in tissue. However, it is often difficult to distinguish whether cells prefe…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Circadian Derived Features for Early Discrimination Across Insomnia Severity Levels: At Least 8 Weeks of Monitoring Are Needed for Clinically Meaningful Assessment",
-      "url": "https://arxiv.org/abs/2609.28252",
-      "summary": "arXiv:2609.28252v1 Announce Type: new Abstract: Background: Wearable devices provide continuous, objective measures of daily activity and offer promise for assessing sleep disorders. However, the minimum monitoring durat…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Motif-Vocab: StatisticallyCalibrated Transcription-Factor-Identity Tokenization forGenomic Language Models",
-      "url": "https://arxiv.org/abs/2609.28386",
-      "summary": "arXiv:2609.28386v1 Announce Type: new Abstract: Tokenization is a central design choice in genomic language models, yet most deoxyribonucleic acid (DNA) tokenizers use characters, fixed-length k-mers, or frequency-derive…",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Computational Value of Sensory-Aligned Receptive Fields Depends on Neuronal Expressivity",
-      "url": "https://arxiv.org/abs/2609.26940",
-      "summary": "arXiv:2609.26940v1 Announce Type: cross Abstract: Biological sensory neurons have selective receptive fields organized along meaningful stimulus coordinates, such as frequency, motion direction, or retinotopic position. …",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spatially Resolved Nucleated Polymerization: A Free-Boundary Model of Protein Aggregation in Concentrated Solutions",
-      "url": "https://arxiv.org/abs/2609.27185",
-      "summary": "arXiv:2609.27185v1 Announce Type: cross Abstract: Kinetic models of protein aggregation describe populations by size, not by spatial organization or morphology. We extend Lumry-Eyring nucleated polymerization to a model …",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Benchmarking Active Spot Selection for Cost-Efficient Spatial Transcriptomics",
-      "url": "https://arxiv.org/abs/2609.27208",
-      "summary": "arXiv:2609.27208v1 Announce Type: cross Abstract: Spatial transcriptomics (ST) measures gene expression in tissue context, but dense capture grids can be costly and may repeatedly sample morphologically similar regions. …",
-      "ts": 1790222400000,
-      "publishedAt": "2026-09-24T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
