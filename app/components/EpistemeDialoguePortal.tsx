@@ -15,37 +15,37 @@ import { useRouter } from "next/navigation";
 
    GEOMETRY CONTRACT
    ----------------------------------------------------------
-   Standalone:
-     preserves the original Episteme presentation.
+   Reference entrance geometry:
+     690px
 
-   WorkModels:
-     WorkModelsPortal is the single geometry authority.
+   WorkModels may publish:
+     --wm-model-height
+     --wm-model-scale
 
-     --wm-model-reference-height = 690px
-     --wm-model-height           = actual available height
-     --wm-model-scale            = actual / 690
+   The 690px value is a DESIGN REFERENCE, not a mandatory
+   embedded minimum.
 
-   The model itself never restores 690px as an embedded
-   minimum.
+   When embedded in WorkModels:
+     available height
+       → model height
+       → proportional internal contraction
+       → header / title / brain / tap remain contained
 
-   Embedded composition:
-     identity
-       ↓
-     statement
-       ↓
-     brain
-       ↓
-     tap hint
-
-   Every element remains inside the parent-published
-   entrance height without internal vertical scrolling and
-   without transform-scaling the whole component.
+   No internal vertical scrolling is required.
 
    TRANSITION
    ----------------------------------------------------------
-   The cinematic transition is portaled directly to body.
+   The cinematic transition is portaled directly to body and
+   is therefore independent from WorkModels entrance geometry.
 
-   It is viewport-owned, not WorkModels-owned.
+   Transition sequence:
+     cognition
+       → spacetime distortion
+       → black-hole resolution
+       → gravitational lensing
+       → horizon approach
+       → event-horizon crossing
+       → Episteme
 
    ICON
    ----------------------------------------------------------
@@ -131,13 +131,11 @@ function WireframeBrain() {
             stopColor="#FFFFFF"
             stopOpacity="0.65"
           />
-
           <stop
             offset="0.48"
             stopColor="#FFFFFF"
             stopOpacity="0.96"
           />
-
           <stop
             offset="1"
             stopColor="#FFFFFF"
@@ -362,6 +360,12 @@ function EpistemeTransition({
         <div className="ep-dialogue-portal__transition-stars ep-dialogue-portal__transition-stars--near" />
 
         <div className="ep-dialogue-portal__gravity-well" />
+
+        <div className="ep-dialogue-portal__spacetime-shear">
+          <span className="ep-dialogue-portal__shear ep-dialogue-portal__shear--1" />
+          <span className="ep-dialogue-portal__shear ep-dialogue-portal__shear--2" />
+          <span className="ep-dialogue-portal__shear ep-dialogue-portal__shear--3" />
+        </div>
 
         <div className="ep-dialogue-portal__lensing-field">
           <span className="ep-dialogue-portal__lens-arc ep-dialogue-portal__lens-arc--1" />
@@ -909,6 +913,7 @@ export default function EpistemeDialoguePortal() {
           text-align: center;
 
           overflow-wrap: break-word;
+
           text-wrap: balance;
 
           text-shadow:
@@ -1328,11 +1333,6 @@ export default function EpistemeDialoguePortal() {
 
         /* ==================================================
            TAP
-
-           Real layout row.
-
-           It participates in height calculation and can
-           therefore never require a negative bottom offset.
         ================================================== */
 
         .ep-dialogue-portal__tap-hint {
@@ -1386,419 +1386,86 @@ export default function EpistemeDialoguePortal() {
         }
 
         /* ==================================================
-           WORK MODELS / PARENT-OWNED GEOMETRY
-
-           WorkModelsPortal owns the physical height.
-
-           No minimum model height is introduced here.
-
-           The component receives the parent height and uses
-           that space as a size-query container.
+           WORK MODELS COORDINATE CONTRACT
         ================================================== */
 
         #work-models .ep-dialogue-portal {
-          flex:
-            1 1 auto !important;
+          flex: 1 1 auto;
 
-          width:
-            100% !important;
+          width: 100%;
 
           height:
             var(
               --wm-model-height,
               100%
-            )
-            !important;
+            );
 
-          min-height:
-            0 !important;
+          min-height: 0;
 
           max-height:
             var(
               --wm-model-height,
               100%
-            )
-            !important;
+            );
 
-          overflow:
-            hidden !important;
-
-          container-type:
-            size;
-
-          container-name:
-            ep-work-model;
+          overflow: hidden;
         }
 
         #work-models
         .ep-dialogue-portal__card {
-          flex:
-            1 1 auto !important;
+          flex: 1 1 auto;
 
-          width:
-            100% !important;
+          width: 100%;
 
           height:
-            100% !important;
+            var(
+              --wm-model-height,
+              100%
+            );
 
-          min-height:
-            0 !important;
-
-          max-height:
-            100% !important;
-
-          display:
-            grid !important;
-
-          grid-template-rows:
-            auto
-            minmax(0, 1fr)
-            !important;
-
-          padding:
-            clamp(
-              12px,
-              3.6cqh,
-              25px
-            )
-            clamp(
-              10px,
-              2.7cqh,
-              18px
-            )
-            clamp(
-              11px,
-              3.3cqh,
-              23px
-            )
-            !important;
-
-          overflow:
-            hidden !important;
-        }
-
-        #work-models
-        .ep-dialogue-portal__top {
           min-height: 0;
-        }
-
-        #work-models
-        .ep-dialogue-portal__identity {
-          gap:
-            clamp(
-              3px,
-              1cqh,
-              7px
-            );
-        }
-
-        #work-models
-        .ep-dialogue-portal__identity
-        > span {
-          font-size:
-            clamp(
-              5.5px,
-              1.02cqh,
-              9px
-            );
-
-          letter-spacing:
-            clamp(
-              0.18em,
-              0.24em,
-              0.24em
-            );
-        }
-
-        #work-models
-        .ep-dialogue-portal__identity
-        > small {
-          font-size:
-            clamp(
-              3.6px,
-              0.72cqh,
-              6px
-            );
-
-          letter-spacing:
-            0.12em;
-        }
-
-        #work-models
-        .ep-dialogue-portal__experience {
-          min-height:
-            0 !important;
 
           max-height:
-            100% !important;
-
-          justify-content:
-            center;
-
-          padding:
-            clamp(
-              7px,
-              4.8cqh,
-              33px
-            )
-            0
-            clamp(
-              6px,
-              3.6cqh,
-              25px
-            )
-            !important;
-
-          overflow:
-            hidden !important;
-        }
-
-        #work-models
-        .ep-dialogue-portal__statement {
-          flex:
-            0 0 auto;
-
-          gap:
-            clamp(
-              4px,
-              1.3cqh,
-              9px
-            );
-        }
-
-        #work-models
-        .ep-dialogue-portal__statement
-        h2 {
-          max-width:
-            min(
-              820px,
-              96%
+            var(
+              --wm-model-height,
+              100%
             );
 
-          padding:
-            0
-            clamp(
-              2px,
-              0.6cqh,
-              4px
-            );
-
-          font-size:
-            clamp(
-              23px,
-              min(
-                5.1vw,
-                6.65cqh
-              ),
-              70px
-            )
-            !important;
-
-          line-height:
-            1 !important;
-
-          letter-spacing:
-            -0.052em;
+          overflow: hidden;
         }
 
         /* ==================================================
-           WORK MODELS / BRAIN ENVELOPE
-
-           Width and available height both constrain the
-           artwork.
-
-           No hard 190 / 230 / 305px minimum is used here.
-           This is important on short devices.
-        ================================================== */
-
-        #work-models
-        .ep-dialogue-portal__brain-button {
-          flex:
-            0 1 auto !important;
-
-          width:
-            min(
-              100%,
-              520px,
-              61cqh
-            )
-            !important;
-
-          max-width:
-            100% !important;
-
-          min-width:
-            0 !important;
-
-          min-height:
-            0 !important;
-
-          margin:
-            clamp(
-              1px,
-              1.15cqh,
-              8px
-            )
-            auto
-            0
-            !important;
-        }
-
-        #work-models
-        .ep-dialogue-portal__brain {
-          flex:
-            0 1 auto !important;
-
-          width:
-            min(
-              100%,
-              450px,
-              52cqh
-            )
-            !important;
-
-          max-width:
-            100% !important;
-
-          min-width:
-            0 !important;
-
-          max-height:
-            52cqh !important;
-
-          aspect-ratio:
-            1.22;
-
-          margin:
-            0 auto;
-        }
-
-        #work-models
-        .ep-dialogue-portal__organ--wire {
-          width: 88%;
-          height: 79%;
-        }
-
-        #work-models
-        .ep-dialogue-portal__tap-hint {
-          position:
-            relative !important;
-
-          inset:
-            auto !important;
-
-          flex:
-            0 0 auto !important;
-
-          width:
-            100% !important;
-
-          max-width:
-            calc(
-              100% - 12px
-            )
-            !important;
-
-          margin:
-            clamp(
-              2px,
-              0.9cqh,
-              7px
-            )
-            auto
-            0
-            !important;
-
-          font-size:
-            clamp(
-              4.4px,
-              0.8cqh,
-              7px
-            )
-            !important;
-
-          line-height:
-            1.2;
-
-          letter-spacing:
-            0.1em !important;
-
-          overflow:
-            hidden !important;
-
-          text-overflow:
-            ellipsis;
-
-          white-space:
-            nowrap;
-        }
-
-        /* ==================================================
-           BODY-OWNED FULL-SCREEN TRANSITION
-
-           Deliberately independent from WorkModels.
-
-           100dvh / 100dvw make the transition fill the
-           currently visible device viewport.
-
-           svh/svw provide a robust minimum for browser UI
-           changes.
+           BODY-OWNED FULL SCREEN TRANSITION
         ================================================== */
 
         .ep-dialogue-transition-root {
-          position: fixed !important;
+          position: fixed;
 
-          inset: 0 !important;
+          inset: 0;
 
-          z-index:
-            2147483647 !important;
+          z-index: 2147483000;
 
-          width:
-            100vw !important;
+          width: 100vw;
+          width: 100dvw;
 
-          width:
-            100dvw !important;
+          height: 100vh;
+          height: 100dvh;
 
-          min-width:
-            100vw !important;
+          margin: 0;
+          padding: 0;
 
-          height:
-            100vh !important;
+          overflow: hidden;
 
-          height:
-            100dvh !important;
-
-          min-height:
-            100svh !important;
-
-          margin:
-            0 !important;
-
-          padding:
-            0 !important;
-
-          overflow:
-            hidden !important;
-
-          background:
-            #000 !important;
+          background: #000;
 
           opacity: 0;
+          visibility: hidden;
 
-          visibility:
-            hidden;
+          pointer-events: none;
 
-          pointer-events:
-            none;
+          isolation: isolate;
 
-          isolation:
-            isolate;
-
-          transform:
-            translateZ(0);
-
-          contain:
-            strict;
+          transform: translateZ(0);
 
           transition:
             opacity 0.1s ease,
@@ -1810,60 +1477,42 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-transition-root--active {
           opacity: 1;
-
-          visibility:
-            visible;
+          visibility: visible;
 
           transition:
             opacity 0.1s ease;
         }
 
         .ep-dialogue-portal__transition {
-          position:
-            absolute !important;
+          position: absolute;
 
-          inset:
-            0 !important;
+          inset: 0;
 
-          width:
-            100% !important;
+          width: 100%;
+          height: 100%;
 
-          height:
-            100% !important;
+          overflow: hidden;
 
-          min-width:
-            100% !important;
+          display: grid;
+          place-items: center;
 
-          min-height:
-            100% !important;
+          background: #000;
 
-          overflow:
-            hidden !important;
+          opacity: 1;
+          visibility: visible;
 
-          display:
-            grid;
+          pointer-events: none;
 
-          place-items:
-            center;
-
-          background:
-            #000;
-
-          opacity:
-            1;
-
-          visibility:
-            visible;
-
-          pointer-events:
-            none;
-
-          isolation:
-            isolate;
+          isolation: isolate;
         }
+
+        /* ==================================================
+           SPACE
+        ================================================== */
 
         .ep-dialogue-portal__space {
           position: absolute;
+
           inset: -12%;
 
           z-index: 0;
@@ -1880,10 +1529,15 @@ export default function EpistemeDialoguePortal() {
           opacity: 0;
 
           transform: scale(1.18);
+
+          will-change:
+            transform,
+            opacity;
         }
 
         .ep-dialogue-portal__deep-space {
           position: absolute;
+
           inset: -30%;
 
           z-index: 1;
@@ -1945,15 +1599,30 @@ export default function EpistemeDialoguePortal() {
           transform:
             rotate(-8deg)
             scale(1.18);
+
+          will-change:
+            transform,
+            opacity,
+            filter;
         }
+
+        /* ==================================================
+           STARS
+        ================================================== */
 
         .ep-dialogue-portal__transition-stars {
           position: absolute;
+
           inset: -35%;
 
           pointer-events: none;
 
           opacity: 0;
+
+          will-change:
+            transform,
+            opacity,
+            filter;
         }
 
         .ep-dialogue-portal__transition-stars--far {
@@ -2030,6 +1699,10 @@ export default function EpistemeDialoguePortal() {
           filter: blur(0.15px);
         }
 
+        /* ==================================================
+           GRAVITY WELL
+        ================================================== */
+
         .ep-dialogue-portal__gravity-well {
           position: absolute;
 
@@ -2084,7 +1757,121 @@ export default function EpistemeDialoguePortal() {
           filter: blur(22px);
 
           pointer-events: none;
+
+          will-change:
+            transform,
+            opacity;
         }
+
+        /* ==================================================
+           SPACETIME SHEAR
+
+           A subtle intermediate field between the background
+           and the photon/lensing structure.
+
+           It gives the transition a sense of warped geometry
+           rather than a simple zoom.
+        ================================================== */
+
+        .ep-dialogue-portal__spacetime-shear {
+          position: absolute;
+
+          z-index: 4;
+
+          left: 50%;
+          top: 50%;
+
+          width: 118vmax;
+          height: 118vmax;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            scale(0.42)
+            rotate(-7deg);
+
+          opacity: 0;
+
+          pointer-events: none;
+
+          will-change:
+            transform,
+            opacity;
+        }
+
+        .ep-dialogue-portal__shear {
+          position: absolute;
+
+          left: 50%;
+          top: 50%;
+
+          border-radius: 50%;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
+          filter: blur(0.35px);
+
+          pointer-events: none;
+        }
+
+        .ep-dialogue-portal__shear--1 {
+          width: 92%;
+          height: 31%;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-8deg);
+        }
+
+        .ep-dialogue-portal__shear--2 {
+          width: 68%;
+          height: 47%;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(14deg);
+
+          opacity: 0.7;
+        }
+
+        .ep-dialogue-portal__shear--3 {
+          width: 43%;
+          height: 72%;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-21deg);
+
+          opacity: 0.42;
+        }
+
+        /* ==================================================
+           GRAVITATIONAL LENSING
+        ================================================== */
 
         .ep-dialogue-portal__lensing-field {
           position: absolute;
@@ -2113,6 +1900,10 @@ export default function EpistemeDialoguePortal() {
           opacity: 0;
 
           pointer-events: none;
+
+          will-change:
+            transform,
+            opacity;
         }
 
         .ep-dialogue-portal__lens-arc {
@@ -2248,6 +2039,14 @@ export default function EpistemeDialoguePortal() {
 
         /* ==================================================
            BLACK HOLE
+
+           The object no longer begins as an almost-zero dot
+           and no longer grows to an exaggerated 3.35 scale.
+
+           The black hole resolves in space first.
+
+           The final full-screen black state is produced by
+           the horizon-crossing wave instead.
         ================================================== */
 
         .ep-dialogue-portal__black-hole {
@@ -2257,8 +2056,8 @@ export default function EpistemeDialoguePortal() {
 
           width:
             min(
-              88vmax,
-              1180px
+              74vmax,
+              1040px
             );
 
           aspect-ratio: 1;
@@ -2269,10 +2068,10 @@ export default function EpistemeDialoguePortal() {
           opacity: 0;
 
           transform:
-            scale(0.025)
-            rotate(-3deg);
+            scale(0.16)
+            rotate(-2deg);
 
-          filter: blur(12px);
+          filter: blur(5px);
 
           will-change:
             transform,
@@ -2288,6 +2087,10 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__singularity {
           position: absolute;
         }
+
+        /* ==================================================
+           ACCRETION LIGHT
+        ================================================== */
 
         .ep-dialogue-portal__disk-glow {
           z-index: 2;
@@ -2401,6 +2204,10 @@ export default function EpistemeDialoguePortal() {
 
           opacity: 0.74;
         }
+
+        /* ==================================================
+           ACCRETION STRUCTURE
+        ================================================== */
 
         .ep-dialogue-portal__accretion {
           z-index: 3;
@@ -2545,6 +2352,10 @@ export default function EpistemeDialoguePortal() {
             );
         }
 
+        /* ==================================================
+           PHOTON REGION / EVENT HORIZON
+        ================================================== */
+
         .ep-dialogue-portal__photon-crown {
           z-index: 5;
 
@@ -2660,8 +2471,13 @@ export default function EpistemeDialoguePortal() {
           background: #000;
         }
 
+        /* ==================================================
+           HORIZON CROSSING
+        ================================================== */
+
         .ep-dialogue-portal__collapse-vignette {
           position: absolute;
+
           inset: 0;
 
           z-index: 10;
@@ -2724,7 +2540,15 @@ export default function EpistemeDialoguePortal() {
           opacity: 0;
 
           pointer-events: none;
+
+          will-change:
+            transform,
+            opacity;
         }
+
+        /* ==================================================
+           TRANSITION COPY
+        ================================================== */
 
         .ep-dialogue-portal__transition-copy {
           position: absolute;
@@ -2750,7 +2574,7 @@ export default function EpistemeDialoguePortal() {
           transform:
             translate(
               -50%,
-              12px
+              8px
             );
 
           opacity: 0;
@@ -2760,8 +2584,7 @@ export default function EpistemeDialoguePortal() {
           pointer-events: none;
         }
 
-        .ep-dialogue-portal__transition-copy
-        > span {
+        .ep-dialogue-portal__transition-copy > span {
           color:
             rgba(
               246,
@@ -2776,8 +2599,7 @@ export default function EpistemeDialoguePortal() {
           letter-spacing: 0.25em;
         }
 
-        .ep-dialogue-portal__transition-copy
-        > small {
+        .ep-dialogue-portal__transition-copy > small {
           color:
             rgba(
               221,
@@ -2912,6 +2734,20 @@ export default function EpistemeDialoguePortal() {
               0.1,
               0.74,
               0.1,
+              1
+            )
+            both;
+        }
+
+        .ep-dialogue-transition-root--active
+        .ep-dialogue-portal__spacetime-shear {
+          animation:
+            ep-spacetime-shear
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.12,
+              0.72,
+              0.08,
               1
             )
             both;
@@ -3100,21 +2936,34 @@ export default function EpistemeDialoguePortal() {
         @keyframes ep-space-fall {
           0% {
             opacity: 0;
-            transform: scale(1.16);
+
+            transform:
+              scale(1.12);
           }
 
-          16% {
+          13% {
             opacity: 1;
           }
 
-          70% {
+          62% {
             opacity: 1;
-            transform: scale(1);
+
+            transform:
+              scale(1.02);
+          }
+
+          82% {
+            opacity: 1;
+
+            transform:
+              scale(1.08);
           }
 
           100% {
             opacity: 1;
-            transform: scale(1.12);
+
+            transform:
+              scale(1.16);
           }
         }
 
@@ -3124,59 +2973,104 @@ export default function EpistemeDialoguePortal() {
 
             transform:
               rotate(-8deg)
-              scale(1.3);
+              scale(1.22);
           }
 
-          20% {
-            opacity: 0.52;
+          18% {
+            opacity: 0.42;
+          }
+
+          48% {
+            opacity: 0.62;
+
+            transform:
+              rotate(-2deg)
+              scale(1.02);
           }
 
           72% {
-            opacity: 0.72;
+            opacity: 0.48;
 
             transform:
               rotate(4deg)
-              scale(0.86);
+              scale(1.08);
+          }
+
+          88% {
+            opacity: 0.16;
+
+            transform:
+              rotate(9deg)
+              scale(1.28);
           }
 
           100% {
             opacity: 0;
 
             transform:
-              rotate(12deg)
-              scale(0.34);
+              rotate(14deg)
+              scale(1.52);
           }
         }
+
+        /*
+         * The stars now move outward toward the observer
+         * instead of shrinking into the center.
+         */
 
         @keyframes ep-stars-fall-far {
           0% {
             opacity: 0;
 
             transform:
-              scale(1.18)
+              scale(1.03)
               rotate(0deg);
+
+            filter: blur(0);
           }
 
-          16% {
-            opacity: 0.56;
+          15% {
+            opacity: 0.42;
           }
 
-          58% {
-            opacity: 0.72;
+          48% {
+            opacity: 0.58;
 
             transform:
-              scale(0.92)
-              rotate(2deg);
+              scale(1.06)
+              rotate(0.5deg);
+
+            filter: blur(0);
+          }
+
+          72% {
+            opacity: 0.42;
+
+            transform:
+              scale(1.15)
+              rotate(1.5deg);
+
+            filter: blur(0.5px);
+          }
+
+          90% {
+            opacity: 0.12;
+
+            transform:
+              scale(1.42)
+              rotate(4deg);
+
+            filter: blur(2px);
           }
 
           100% {
             opacity: 0;
 
             transform:
-              scale(0.16)
-              rotate(9deg);
+              scale(1.7)
+              rotate(7deg);
 
-            filter: blur(3px);
+            filter: blur(5px);
           }
         }
 
@@ -3185,30 +3079,54 @@ export default function EpistemeDialoguePortal() {
             opacity: 0;
 
             transform:
-              scale(1.38)
+              scale(1)
               rotate(0deg);
+
+            filter: blur(0);
           }
 
-          19% {
-            opacity: 0.42;
+          17% {
+            opacity: 0.32;
           }
 
-          63% {
-            opacity: 0.62;
+          47% {
+            opacity: 0.5;
 
             transform:
-              scale(0.96)
-              rotate(-3deg);
+              scale(1.12)
+              rotate(-0.8deg);
+
+            filter: blur(0);
+          }
+
+          70% {
+            opacity: 0.36;
+
+            transform:
+              scale(1.34)
+              rotate(-2deg);
+
+            filter: blur(0.8px);
+          }
+
+          89% {
+            opacity: 0.08;
+
+            transform:
+              scale(1.82)
+              rotate(-5deg);
+
+            filter: blur(3px);
           }
 
           100% {
             opacity: 0;
 
             transform:
-              scale(0.08)
-              rotate(-13deg);
+              scale(2.35)
+              rotate(-9deg);
 
-            filter: blur(6px);
+            filter: blur(7px);
           }
         }
 
@@ -3221,33 +3139,126 @@ export default function EpistemeDialoguePortal() {
                 -50%,
                 -50%
               )
-              scale(0.16);
+              scale(0.22);
           }
 
-          28% {
-            opacity: 0.3;
+          22% {
+            opacity: 0.18;
           }
 
-          66% {
-            opacity: 0.7;
+          48% {
+            opacity: 0.46;
 
             transform:
               translate(
                 -50%,
                 -50%
               )
-              scale(0.78);
+              scale(0.58);
+          }
+
+          72% {
+            opacity: 0.72;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.96);
+          }
+
+          88% {
+            opacity: 0.62;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.28);
           }
 
           100% {
-            opacity: 1;
+            opacity: 0.18;
 
             transform:
               translate(
                 -50%,
                 -50%
               )
-              scale(1.7);
+              scale(1.55);
+          }
+        }
+
+        /*
+         * Spacetime shear appears after the black hole begins
+         * resolving and disappears before the final crossing.
+         */
+
+        @keyframes ep-spacetime-shear {
+          0% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.42)
+              rotate(-7deg);
+          }
+
+          18% {
+            opacity: 0.12;
+          }
+
+          42% {
+            opacity: 0.48;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.68)
+              rotate(-3deg);
+          }
+
+          67% {
+            opacity: 0.72;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.96)
+              rotate(2deg);
+          }
+
+          84% {
+            opacity: 0.28;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.34)
+              rotate(8deg);
+          }
+
+          100% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.78)
+              rotate(15deg);
           }
         }
 
@@ -3260,36 +3271,60 @@ export default function EpistemeDialoguePortal() {
                 -50%,
                 -50%
               )
-              scale(0.12)
-              rotate(-16deg);
+              scale(0.2)
+              rotate(-14deg);
           }
 
-          20% {
-            opacity: 0.15;
+          18% {
+            opacity: 0.08;
           }
 
-          55% {
-            opacity: 0.8;
+          42% {
+            opacity: 0.48;
 
             transform:
               translate(
                 -50%,
                 -50%
               )
-              scale(0.74)
-              rotate(-5deg);
+              scale(0.56)
+              rotate(-8deg);
           }
 
-          82% {
-            opacity: 0.52;
+          62% {
+            opacity: 0.82;
 
             transform:
               translate(
                 -50%,
                 -50%
               )
-              scale(1.28)
-              rotate(5deg);
+              scale(0.88)
+              rotate(-2deg);
+          }
+
+          78% {
+            opacity: 0.62;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.14)
+              rotate(4deg);
+          }
+
+          90% {
+            opacity: 0.2;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.48)
+              rotate(9deg);
           }
 
           100% {
@@ -3300,52 +3335,86 @@ export default function EpistemeDialoguePortal() {
                 -50%,
                 -50%
               )
-              scale(2.15)
-              rotate(13deg);
+              scale(1.82)
+              rotate(14deg);
           }
         }
+
+        /*
+         * Black hole resolves rather than exploding from a
+         * point.
+
+         * The final scale remains controlled. Full black is
+         * delegated to the event-horizon crossing layer.
+         */
 
         @keyframes ep-black-hole-entry {
           0% {
             opacity: 0;
 
             transform:
-              scale(0.025)
-              rotate(-4deg);
+              scale(0.16)
+              rotate(-2deg);
 
-            filter: blur(12px);
+            filter: blur(5px);
           }
 
           12% {
-            opacity: 0.35;
+            opacity: 0.18;
+
+            transform:
+              scale(0.2)
+              rotate(-1.7deg);
+
+            filter: blur(3px);
           }
 
-          34% {
+          27% {
+            opacity: 0.82;
+
+            transform:
+              scale(0.32)
+              rotate(-1.2deg);
+
+            filter: blur(0.8px);
+          }
+
+          43% {
             opacity: 1;
 
             transform:
-              scale(0.42)
-              rotate(-2deg);
+              scale(0.48)
+              rotate(-0.6deg);
 
-            filter: blur(1.5px);
+            filter: blur(0);
           }
 
-          66% {
+          63% {
             opacity: 1;
 
             transform:
-              scale(0.98)
+              scale(0.7)
               rotate(0deg);
 
             filter: blur(0);
           }
 
-          82% {
+          78% {
             opacity: 1;
 
             transform:
-              scale(1.34)
-              rotate(1deg);
+              scale(0.96)
+              rotate(0.4deg);
+
+            filter: blur(0);
+          }
+
+          89% {
+            opacity: 1;
+
+            transform:
+              scale(1.32)
+              rotate(0.7deg);
 
             filter: blur(0);
           }
@@ -3354,25 +3423,33 @@ export default function EpistemeDialoguePortal() {
             opacity: 1;
 
             transform:
-              scale(3.35)
-              rotate(3deg);
+              scale(1.72)
+              rotate(1deg);
 
-            filter: blur(1px);
+            filter: blur(0.5px);
           }
         }
 
         @keyframes ep-vignette-collapse {
           0%,
-          34% {
+          42% {
             opacity: 0;
           }
 
-          66% {
-            opacity: 0.36;
+          64% {
+            opacity: 0.2;
+          }
+
+          78% {
+            opacity: 0.42;
           }
 
           88% {
-            opacity: 0.86;
+            opacity: 0.76;
+          }
+
+          96% {
+            opacity: 0.96;
           }
 
           100% {
@@ -3380,9 +3457,14 @@ export default function EpistemeDialoguePortal() {
           }
         }
 
+        /*
+         * The black wave represents crossing the event
+         * horizon. It remains absent until the final phase.
+         */
+
         @keyframes ep-black-wave {
           0%,
-          72% {
+          76% {
             opacity: 0;
 
             transform:
@@ -3393,8 +3475,37 @@ export default function EpistemeDialoguePortal() {
               scale(0.01);
           }
 
-          76% {
-            opacity: 0.08;
+          80% {
+            opacity: 0.12;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.4);
+          }
+
+          88% {
+            opacity: 0.72;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(7);
+          }
+
+          96% {
+            opacity: 1;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(24);
           }
 
           100% {
@@ -3405,24 +3516,29 @@ export default function EpistemeDialoguePortal() {
                 -50%,
                 -50%
               )
-              scale(32);
+              scale(40);
           }
         }
 
+        /*
+         * Copy is deliberately secondary to the physical
+         * transition.
+         */
+
         @keyframes ep-transition-copy {
           0%,
-          22% {
+          26% {
             opacity: 0;
 
             transform:
               translate(
                 -50%,
-                12px
+                8px
               );
           }
 
-          38% {
-            opacity: 1;
+          42% {
+            opacity: 0.62;
 
             transform:
               translate(
@@ -3431,21 +3547,41 @@ export default function EpistemeDialoguePortal() {
               );
           }
 
-          70% {
-            opacity: 0.76;
+          65% {
+            opacity: 0.48;
+
+            transform:
+              translate(
+                -50%,
+                0
+              );
           }
 
-          86%,
+          76% {
+            opacity: 0.18;
+
+            transform:
+              translate(
+                -50%,
+                -2px
+              );
+          }
+
+          84%,
           100% {
             opacity: 0;
 
             transform:
               translate(
                 -50%,
-                -8px
+                -5px
               );
           }
         }
+
+        /* ==================================================
+           ACCRETION ROTATION
+        ================================================== */
 
         @keyframes ep-accretion-far {
           from {
@@ -3599,10 +3735,12 @@ export default function EpistemeDialoguePortal() {
         }
 
         /* ==================================================
-           STANDALONE MOBILE
+           MOBILE
 
-           These rules are intentionally excluded from the
-           WorkModels geometry contract.
+           Standalone fallback keeps the original presentation.
+
+           Inside #work-models the coordinate contract above
+           overrides the hard standalone minimum.
         ================================================== */
 
         @media (max-width: 700px) {
@@ -3619,138 +3757,344 @@ export default function EpistemeDialoguePortal() {
               );
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
           .ep-dialogue-portal__card {
             padding:
-              25px
-              18px
-              23px;
+              clamp(
+                12px,
+                calc(
+                  25px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                25px
+              )
+              clamp(
+                10px,
+                calc(
+                  18px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                18px
+              )
+              clamp(
+                11px,
+                calc(
+                  23px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                23px
+              );
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
+          #work-models
+          .ep-dialogue-portal__card {
+            min-height: 0;
+          }
+
           .ep-dialogue-portal__identity {
-            gap: 7px;
+            gap:
+              clamp(
+                3px,
+                calc(
+                  7px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                7px
+              );
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
-          .ep-dialogue-portal__identity
-          > span {
-            font-size: 7px;
+          .ep-dialogue-portal__identity > span {
+            font-size:
+              clamp(
+                5.5px,
+                calc(
+                  7px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                7px
+              );
+
             letter-spacing: 0.2em;
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
-          .ep-dialogue-portal__identity
-          > small {
+          .ep-dialogue-portal__identity > small {
             margin-top: -1px;
 
-            font-size: 4.5px;
+            font-size:
+              clamp(
+                3.5px,
+                calc(
+                  4.5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                4.5px
+              );
 
             letter-spacing: 0.1em;
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
           .ep-dialogue-portal__experience {
+            justify-content: center;
+
+            min-height: 0;
+
             padding:
-              35px
+              clamp(
+                7px,
+                calc(
+                  35px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                35px
+              )
               0
-              30px;
+              clamp(
+                6px,
+                calc(
+                  30px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                30px
+              );
+
+            overflow: hidden;
+
+            touch-action: pan-y;
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
+          .ep-dialogue-portal__statement {
+            gap:
+              clamp(
+                4px,
+                calc(
+                  9px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                9px
+              );
+          }
+
           .ep-dialogue-portal__statement h2 {
+            width: 100%;
             max-width: 100%;
 
-            padding: 0 4px;
+            padding:
+              0
+              clamp(
+                2px,
+                calc(
+                  4px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                4px
+              );
 
-            font-size: 46px;
+            font-size:
+              clamp(
+                24px,
+                calc(
+                  46px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                46px
+              );
 
             line-height: 1;
 
             letter-spacing: -0.052em;
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
           .ep-dialogue-portal__brain-button {
             width:
               min(
                 100%,
-                350px
+                clamp(
+                  218px,
+                  calc(
+                    350px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  350px
+                )
               );
 
-            margin-top: 8px;
+            min-height: 0;
+
+            flex:
+              0 1 auto;
+
+            margin:
+              clamp(
+                1px,
+                calc(
+                  8px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                8px
+              )
+              auto
+              0;
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
           .ep-dialogue-portal__brain {
             width:
               min(
                 100%,
-                305px
+                clamp(
+                  190px,
+                  calc(
+                    305px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  305px
+                )
+              );
+
+            max-height:
+              calc(
+                var(
+                  --wm-model-height,
+                  690px
+                )
+                *
+                0.49
               );
 
             aspect-ratio: 1.17;
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
           .ep-dialogue-portal__organ--wire {
             width: 92%;
             height: 82%;
           }
 
-          .ep-dialogue-portal:not(
-            #work-models
-            .ep-dialogue-portal
-          )
-          .ep-dialogue-portal__tap-hint {
-            margin-top: 7px;
+          .ep-dialogue-portal__gravity-field {
+            width: 82%;
+          }
 
-            font-size: 5.5px;
+          .ep-dialogue-portal__brain-aura {
+            width: 75%;
+          }
+
+          .ep-dialogue-portal__brain-orbit--outer {
+            width: 70%;
+          }
+
+          .ep-dialogue-portal__brain-orbit--inner {
+            width: 53%;
+          }
+
+          .ep-dialogue-portal__brain-orbit--vertical {
+            width: 26%;
+            height: 57%;
+          }
+
+          .ep-dialogue-portal__tap-hint {
+            width: 100%;
+
+            max-width:
+              calc(
+                100% - 12px
+              );
+
+            margin:
+              clamp(
+                3px,
+                calc(
+                  7px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                7px
+              )
+              auto
+              0;
+
+            font-size:
+              clamp(
+                4.5px,
+                calc(
+                  5.5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                5.5px
+              );
+
+            line-height: 1.25;
 
             letter-spacing: 0.1em;
           }
 
+          /*
+           * Transition remains viewport-owned.
+           * Only the cinematic object dimensions change.
+           */
+
           .ep-dialogue-portal__black-hole {
             width:
               min(
-                116vmax,
-                980px
+                94vmax,
+                900px
               );
           }
 
           .ep-dialogue-portal__lensing-field {
             width:
               min(
-                152vmax,
+                142vmax,
                 1280px
               );
+          }
+
+          .ep-dialogue-portal__spacetime-shear {
+            width: 148vmax;
+            height: 148vmax;
           }
 
           .ep-dialogue-portal__gravity-well {
@@ -3760,252 +4104,157 @@ export default function EpistemeDialoguePortal() {
         }
 
         /* ==================================================
-           WORK MODELS / NARROW WIDTH REFINEMENT
+           SHORT MOBILE
         ================================================== */
 
-        @container ep-work-model
-          (max-width: 430px) {
+        @media
+          (max-width: 700px)
+          and (max-height: 720px) {
 
-          #work-models
-          .ep-dialogue-portal__statement
-          h2 {
-            font-size:
-              clamp(
-                22px,
-                min(
-                  10.8cqw,
-                  6.4cqh
-                ),
-                41px
-              )
-              !important;
-          }
-
-          #work-models
-          .ep-dialogue-portal__brain {
-            width:
-              min(
-                92cqw,
-                48cqh,
-                305px
-              )
-              !important;
-          }
-
-          #work-models
-          .ep-dialogue-portal__organ--wire {
-            width: 92%;
-            height: 82%;
-          }
-        }
-
-        /* ==================================================
-           WORK MODELS / SHORT HEIGHT REFINEMENT
-
-           Height is the decisive dimension here.
-
-           The title and brain become more compact before
-           anything can collide with the tap row.
-        ================================================== */
-
-        @container ep-work-model
-          (max-height: 560px) {
-
-          #work-models
-          .ep-dialogue-portal__card {
-            padding-top:
-              clamp(
-                9px,
-                2.6cqh,
-                15px
-              )
-              !important;
-
-            padding-bottom:
-              clamp(
-                8px,
-                2.4cqh,
-                14px
-              )
-              !important;
-          }
-
-          #work-models
           .ep-dialogue-portal__experience {
             padding:
               clamp(
                 5px,
-                2.8cqh,
-                15px
+                calc(
+                  25px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                25px
               )
               0
               clamp(
-                4px,
-                2.2cqh,
-                12px
-              )
-              !important;
-          }
-
-          #work-models
-          .ep-dialogue-portal__statement
-          h2 {
-            font-size:
-              clamp(
-                21px,
-                min(
-                  9.8cqw,
-                  6.1cqh
-                ),
-                38px
-              )
-              !important;
-          }
-
-          #work-models
-          .ep-dialogue-portal__brain-button {
-            width:
-              min(
-                100%,
-                50cqh,
-                330px
-              )
-              !important;
-
-            margin-top:
-              clamp(
-                1px,
-                0.7cqh,
-                4px
-              )
-              !important;
-          }
-
-          #work-models
-          .ep-dialogue-portal__brain {
-            width:
-              min(
-                100%,
-                44cqh,
-                285px
-              )
-              !important;
-
-            max-height:
-              44cqh !important;
-          }
-
-          #work-models
-          .ep-dialogue-portal__tap-hint {
-            margin-top:
-              clamp(
-                1px,
-                0.6cqh,
-                4px
-              )
-              !important;
-          }
-        }
-
-        @container ep-work-model
-          (max-height: 450px) {
-
-          #work-models
-          .ep-dialogue-portal__identity {
-            gap: 2px;
-          }
-
-          #work-models
-          .ep-dialogue-portal__identity
-          > span {
-            font-size:
-              clamp(
                 5px,
-                1.25cqh,
-                6px
-              );
-          }
-
-          #work-models
-          .ep-dialogue-portal__identity
-          > small {
-            font-size:
-              clamp(
-                3.3px,
-                0.9cqh,
-                4px
-              );
-          }
-
-          #work-models
-          .ep-dialogue-portal__statement
-          h2 {
-            font-size:
-              clamp(
-                20px,
-                min(
-                  9.3cqw,
-                  5.8cqh
+                calc(
+                  20px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
                 ),
-                32px
-              )
-              !important;
+                20px
+              );
           }
 
-          #work-models
+          .ep-dialogue-portal__statement h2 {
+            font-size:
+              clamp(
+                23px,
+                calc(
+                  40px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                40px
+              );
+          }
+
+          .ep-dialogue-portal__brain-button {
+            margin-top: 1px;
+          }
+
           .ep-dialogue-portal__brain {
             width:
               min(
                 100%,
-                40cqh,
-                250px
-              )
-              !important;
-
-            max-height:
-              40cqh !important;
-          }
-
-          #work-models
-          .ep-dialogue-portal__tap-hint {
-            font-size:
-              clamp(
-                4px,
-                1cqh,
-                5px
-              )
-              !important;
-          }
-        }
-
-        /* ==================================================
-           TRANSITION / MOBILE
-        ================================================== */
-
-        @media (max-width: 700px) {
-          .ep-dialogue-portal__black-hole {
-            width:
-              min(
-                116vmax,
-                980px
+                clamp(
+                  180px,
+                  calc(
+                    265px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  265px
+                )
               );
-          }
-
-          .ep-dialogue-portal__lensing-field {
-            width:
-              min(
-                152vmax,
-                1280px
-              );
-          }
-
-          .ep-dialogue-portal__gravity-well {
-            width: 175vmax;
-            height: 175vmax;
           }
         }
 
         @media (max-width: 430px) {
+          .ep-dialogue-portal__identity > span {
+            font-size:
+              clamp(
+                5px,
+                calc(
+                  6.5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                6.5px
+              );
+          }
+
+          .ep-dialogue-portal__identity > small {
+            font-size:
+              clamp(
+                3.3px,
+                calc(
+                  4px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                4px
+              );
+          }
+
+          .ep-dialogue-portal__statement h2 {
+            font-size:
+              clamp(
+                23px,
+                calc(
+                  41px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                41px
+              );
+          }
+
+          .ep-dialogue-portal__brain {
+            width:
+              min(
+                100%,
+                clamp(
+                  184px,
+                  calc(
+                    285px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  285px
+                )
+              );
+          }
+
+          .ep-dialogue-portal__tap-hint {
+            font-size:
+              clamp(
+                4.3px,
+                calc(
+                  5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                5px
+              );
+          }
+
           .ep-dialogue-portal__transition-copy {
             bottom:
               max(
@@ -4017,6 +4266,49 @@ export default function EpistemeDialoguePortal() {
           }
         }
 
+        @media (max-width: 360px) {
+          .ep-dialogue-portal__identity > small {
+            display: none;
+          }
+
+          .ep-dialogue-portal__statement h2 {
+            font-size:
+              clamp(
+                22px,
+                calc(
+                  37px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                37px
+              );
+          }
+
+          .ep-dialogue-portal__brain {
+            width:
+              min(
+                100%,
+                clamp(
+                  174px,
+                  calc(
+                    255px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  255px
+                )
+              );
+          }
+        }
+
+        /* ==================================================
+           LANDSCAPE TRANSITION
+        ================================================== */
+
         @media
           (max-height: 520px)
           and (orientation: landscape) {
@@ -4024,17 +4316,22 @@ export default function EpistemeDialoguePortal() {
           .ep-dialogue-portal__black-hole {
             width:
               min(
-                128vmax,
-                1050px
+                104vmax,
+                980px
               );
           }
 
           .ep-dialogue-portal__lensing-field {
             width:
               min(
-                165vmax,
+                150vmax,
                 1380px
               );
+          }
+
+          .ep-dialogue-portal__spacetime-shear {
+            width: 156vmax;
+            height: 156vmax;
           }
 
           .ep-dialogue-portal__transition-copy {
@@ -4048,20 +4345,38 @@ export default function EpistemeDialoguePortal() {
           }
         }
 
+        /* ==================================================
+           LARGE VIEWPORT TRANSITION
+        ================================================== */
+
         @media (min-width: 1440px) {
           .ep-dialogue-portal__black-hole {
             width:
               min(
-                96vmax,
-                1500px
+                80vmax,
+                1320px
               );
           }
 
           .ep-dialogue-portal__lensing-field {
             width:
               min(
-                126vmax,
+                118vmax,
                 1900px
+              );
+          }
+
+          .ep-dialogue-portal__spacetime-shear {
+            width:
+              min(
+                124vmax,
+                2000px
+              );
+
+            height:
+              min(
+                124vmax,
+                2000px
               );
           }
         }
@@ -4097,6 +4412,8 @@ export default function EpistemeDialoguePortal() {
           .ep-dialogue-portal__transition-stars,
           .ep-dialogue-transition-root--active
           .ep-dialogue-portal__gravity-well,
+          .ep-dialogue-transition-root--active
+          .ep-dialogue-portal__spacetime-shear,
           .ep-dialogue-transition-root--active
           .ep-dialogue-portal__lensing-field,
           .ep-dialogue-transition-root--active
