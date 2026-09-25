@@ -62308,440 +62308,96 @@ and
 
 
 /* ==========================================================
-   ARCHENOVA — WHO IT IS FOR
+   ARCHENOVA IDEAL USER
+   FRAME SIZE ALIGNMENT — HOME 2026 STANDARD
    ----------------------------------------------------------
-   Companion section to Civilization Purpose.
+   SIZE ONLY.
 
-   SAME:
-   - geometry
-   - optical glass
-   - viewport behavior
-   - typography rhythm
-   - fixed chapter transition
+   Content, typography, transition logic and visual material
+   remain unchanged.
 
-   Dynamic:
-   - chapter count is controlled by React
+   Geometry source:
+   .an-home-2026__glass
 ========================================================== */
-
-.archenova-twin-home
-#archenova-ideal-user.an-ideal-user {
-  position: relative !important;
-  isolation: isolate !important;
-
-  box-sizing: border-box !important;
-
-  width: 100% !important;
-  min-width: 0 !important;
-
-  /*
-   * Number of chapters is not hard-coded into CSS.
-   * React publishes --an-ideal-user-count.
-   */
-  height:
-    calc(
-      var(--an-ideal-user-count, 6)
-      * 100svh
-    ) !important;
-
-  min-height:
-    calc(
-      var(--an-ideal-user-count, 6)
-      * 100svh
-    ) !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  overflow: visible !important;
-
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-}
 
 
 /* ==========================================================
-   FRAME POSITIONING
+   1. DESKTOP / DEFAULT
+   SAME OUTER POSITIONING AS HOME STANDARD
 ========================================================== */
 
-.archenova-twin-home
+main.an-home-2026
 #archenova-ideal-user
 .an-ideal-user__frame {
   box-sizing: border-box !important;
 
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-
   width: 100% !important;
-  height: 100svh !important;
 
+  /*
+   * Same HOME section spacing.
+   */
   padding:
     var(--an-h-top)
     var(--an-h-gutter)
     var(--an-h-bottom)
     !important;
-
-  pointer-events: none;
-}
-
-
-/* BEFORE PIN */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__frame--start {
-  position: absolute !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-}
-
-
-/* PINNED */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__frame--fixed {
-  position: fixed !important;
-
-  z-index: 20 !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-}
-
-
-/* AFTER PIN */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
 }
 
 
 /* ==========================================================
-   SINGLE OPTICAL GLASS
-   ----------------------------------------------------------
-   Same visual dimensions as HOME / Purposes.
+   2. GLASS SIZE
+   EXACTLY MATCH HOME STANDARD GLASS GEOMETRY
 ========================================================== */
 
-.archenova-twin-home
+main.an-home-2026
 #archenova-ideal-user
 .an-ideal-user__glass {
-  position: relative !important;
-  isolation: isolate !important;
-
   box-sizing: border-box !important;
 
-  display: flex !important;
-  flex-direction: column !important;
-
-  justify-content: center !important;
-
+  /*
+   * HOME standard width
+   */
   width: 100% !important;
   max-width: 1800px !important;
-
   min-width: 0 !important;
 
+  /*
+   * HOME standard height
+   */
   min-height:
-    min(690px, 76svh) !important;
+    min(690px, 76svh)
+    !important;
 
-  height: auto !important;
+  height:
+    auto !important;
 
-  margin: 0 auto !important;
+  max-height:
+    none !important;
 
+  /*
+   * HOME standard positioning
+   */
+  margin:
+    0 auto !important;
+
+  /*
+   * HOME standard internal spacing
+   */
   padding:
-    clamp(34px, 4.4vw, 78px)
+    clamp(24px, 3.3vw, 62px)
     !important;
 
-  overflow: hidden !important;
-
-  background:
-    radial-gradient(
-      circle at 50% 0%,
-      rgba(255, 255, 255, 0.025) 0%,
-      rgba(255, 255, 255, 0.008) 24%,
-      transparent 52%
-    ),
-    linear-gradient(
-      145deg,
-      rgba(15, 16, 18, 0.20) 0%,
-      rgba(7, 8, 10, 0.24) 48%,
-      rgba(0, 0, 0, 0.30) 100%
-    )
-    !important;
-
-  border:
-    1px solid
-    rgba(255, 255, 255, 0.065)
-    !important;
-
+  /*
+   * Keep the same desktop corner geometry.
+   */
   border-radius:
     30px !important;
-
-  -webkit-backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
-
-  backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
-
-  box-shadow:
-    inset
-    0
-    1px
-    0
-    rgba(255, 255, 255, 0.040),
-
-    inset
-    0
-    -1px
-    0
-    rgba(255, 255, 255, 0.010)
-    !important;
-
-  pointer-events: auto;
 }
 
 
 /* ==========================================================
-   CONTENT
-========================================================== */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__chapter {
-  position: relative;
-
-  z-index: 1;
-
-  width:
-    min(100%, 1040px);
-
-  margin:
-    0 auto;
-
-  text-align:
-    center;
-
-  animation:
-    anIdealUserReveal
-    720ms
-    cubic-bezier(.22, .72, .24, 1)
-    both;
-}
-
-
-/* ==========================================================
-   EYEBROW
-========================================================== */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__eyebrow {
-  margin:
-    0 0 22px;
-
-  color:
-    rgba(255, 255, 255, 0.43);
-
-  font-size:
-    clamp(10px, 0.72vw, 12px);
-
-  font-weight:
-    560;
-
-  line-height:
-    1.2;
-
-  letter-spacing:
-    0.22em;
-
-  text-transform:
-    uppercase;
-}
-
-
-/* ==========================================================
-   TITLE
-========================================================== */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__title {
-  max-width:
-    1000px;
-
-  margin:
-    0 auto;
-
-  color:
-    rgba(255, 255, 255, 0.96);
-
-  font-size:
-    clamp(36px, 4.4vw, 74px);
-
-  font-weight:
-    420;
-
-  line-height:
-    0.98;
-
-  letter-spacing:
-    -0.052em;
-
-  text-wrap:
-    balance;
-}
-
-
-/* ==========================================================
-   BODY
-========================================================== */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__body {
-  max-width:
-    880px;
-
-  margin:
-    clamp(30px, 4vh, 48px)
-    auto
-    0;
-
-  color:
-    rgba(255, 255, 255, 0.64);
-
-  font-size:
-    clamp(15px, 1.22vw, 19px);
-
-  font-weight:
-    390;
-
-  line-height:
-    1.72;
-
-  letter-spacing:
-    -0.012em;
-
-  text-wrap:
-    pretty;
-}
-
-
-/* ==========================================================
-   CLOSING
-========================================================== */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__closing {
-  max-width:
-    900px;
-
-  margin:
-    clamp(30px, 4vh, 48px)
-    auto
-    0;
-
-  color:
-    rgba(255, 255, 255, 0.90);
-
-  font-size:
-    clamp(13px, 1.05vw, 16px);
-
-  font-weight:
-    520;
-
-  line-height:
-    1.55;
-
-  letter-spacing:
-    0.025em;
-
-  text-wrap:
-    balance;
-}
-
-
-/* ==========================================================
-   POSITION
-========================================================== */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__position {
-  position:
-    absolute;
-
-  right:
-    clamp(26px, 3vw, 52px);
-
-  bottom:
-    clamp(24px, 3vw, 46px);
-
-  z-index:
-    2;
-
-  margin:
-    0;
-
-  color:
-    rgba(255, 255, 255, 0.32);
-
-  font-size:
-    11px;
-
-  font-weight:
-    540;
-
-  line-height:
-    1;
-
-  letter-spacing:
-    0.16em;
-
-  font-variant-numeric:
-    tabular-nums;
-}
-
-
-/* ==========================================================
-   TRANSITION
-========================================================== */
-
-@keyframes anIdealUserReveal {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-    filter: blur(5px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-    filter: blur(0);
-  }
-}
-
-
-/* ==========================================================
-   TABLET
+   3. TABLET
+   SAME 701px–1100px HOME GEOMETRY
 ========================================================== */
 
 @media
@@ -62749,58 +62405,57 @@ and
 and
 (max-width: 1100px) {
 
-  .archenova-twin-home
+  main.an-home-2026
   #archenova-ideal-user
-  .an-ideal-user__glass {
+  .an-ideal-user__frame {
     padding:
-      clamp(30px, 4vw, 48px)
+      var(--an-h-top)
+      var(--an-h-gutter)
+      var(--an-h-bottom)
       !important;
   }
 
 
-  .archenova-twin-home
+  main.an-home-2026
   #archenova-ideal-user
-  .an-ideal-user__chapter {
+  .an-ideal-user__glass {
     width:
-      min(100%, 820px);
-  }
+      100% !important;
 
+    max-width:
+      1800px !important;
 
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__title {
-    font-size:
-      clamp(38px, 6vw, 62px);
+    min-height:
+      min(690px, 76svh)
+      !important;
+
+    padding:
+      clamp(25px, 3vw, 42px)
+      !important;
+
+    border-radius:
+      30px !important;
   }
 
 }
 
 
 /* ==========================================================
-   MOBILE
+   4. MOBILE
+   EXACTLY MATCH EXISTING HOME MOBILE GLASS SIZE
 ========================================================== */
 
 @media (max-width: 700px) {
 
-  .archenova-twin-home
-  #archenova-ideal-user.an-ideal-user {
-    height:
-      calc(
-        var(--an-ideal-user-count, 6)
-        * 100svh
-      ) !important;
-
-    min-height:
-      calc(
-        var(--an-ideal-user-count, 6)
-        * 100svh
-      ) !important;
-  }
-
-
-  .archenova-twin-home
+  main.an-home-2026
   #archenova-ideal-user
   .an-ideal-user__frame {
+    box-sizing:
+      border-box !important;
+
+    width:
+      100% !important;
+
     height:
       100svh !important;
 
@@ -62812,241 +62467,86 @@ and
   }
 
 
-  .archenova-twin-home
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__glass {
+    box-sizing:
+      border-box !important;
+
+    width:
+      100% !important;
+
+    max-width:
+      1800px !important;
+
+    min-width:
+      0 !important;
+
+    /*
+     * Exact existing HOME mobile height.
+     */
+    min-height:
+      min(610px, 72svh)
+      !important;
+
+    height:
+      auto !important;
+
+    max-height:
+      none !important;
+
+    margin:
+      0 auto !important;
+
+    /*
+     * Exact existing HOME mobile padding.
+     */
+    padding:
+      26px 19px
+      !important;
+
+    /*
+     * Exact existing HOME mobile radius.
+     */
+    border-radius:
+      24px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   5. VERY SMALL MOBILE
+   EXACTLY MATCH EXISTING HOME <=390px
+========================================================== */
+
+@media (max-width: 390px) {
+
+  main.an-home-2026
   #archenova-ideal-user
   .an-ideal-user__glass {
     width:
       100% !important;
 
     max-width:
-      none !important;
+      1800px !important;
 
     min-height:
       min(610px, 72svh)
       !important;
 
+    /*
+     * Exact existing HOME <=390px padding.
+     */
     padding:
-      34px 24px 62px
-      !important;
-
-    background:
-      radial-gradient(
-        circle at 50% 0%,
-        rgba(255, 255, 255, 0.020) 0%,
-        rgba(255, 255, 255, 0.006) 24%,
-        transparent 50%
-      ),
-      linear-gradient(
-        145deg,
-        rgba(13, 14, 16, 0.16) 0%,
-        rgba(6, 7, 9, 0.20) 50%,
-        rgba(0, 0, 0, 0.26) 100%
-      )
-      !important;
-
-    border:
-      1px solid
-      rgba(255, 255, 255, 0.060)
+      23px 15px
       !important;
 
     border-radius:
-      26px !important;
-
-    -webkit-backdrop-filter:
-      blur(18px)
-      saturate(104%)
-      !important;
-
-    backdrop-filter:
-      blur(18px)
-      saturate(104%)
-      !important;
-
-    box-shadow:
-      inset
-      0
-      1px
-      0
-      rgba(255, 255, 255, 0.035),
-
-      inset
-      0
-      -1px
-      0
-      rgba(255, 255, 255, 0.008)
-      !important;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__chapter {
-    width:
-      100%;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__eyebrow {
-    margin-bottom:
-      18px;
-
-    font-size:
-      9px;
-
-    letter-spacing:
-      0.19em;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__title {
-    font-size:
-      clamp(31px, 9.2vw, 46px);
-
-    line-height:
-      1.01;
-
-    letter-spacing:
-      -0.045em;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__body {
-    margin-top:
-      28px;
-
-    font-size:
-      clamp(14px, 3.8vw, 16px);
-
-    line-height:
-      1.65;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__closing {
-    margin-top:
-      28px;
-
-    font-size:
-      12px;
-
-    line-height:
-      1.55;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__position {
-    right:
-      24px;
-
-    bottom:
-      24px;
-
-    font-size:
-      10px;
+      24px !important;
   }
 
 }
-
-
-/* ==========================================================
-   VERY SMALL MOBILE
-========================================================== */
-
-@media (max-width: 430px) {
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__glass {
-    padding:
-      30px 20px 56px
-      !important;
-
-    border-radius:
-      22px !important;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__title {
-    font-size:
-      clamp(29px, 8.8vw, 40px);
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__body {
-    font-size:
-      13.5px;
-
-    line-height:
-      1.62;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__closing {
-    font-size:
-      11.5px;
-  }
-
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__position {
-    right:
-      20px;
-
-    bottom:
-      20px;
-  }
-
-}
-
-
-/* ==========================================================
-   REDUCED MOTION
-========================================================== */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .archenova-twin-home
-  #archenova-ideal-user
-  .an-ideal-user__chapter {
-    animation:
-      none !important;
-
-    transition:
-      none !important;
-
-    transform:
-      none !important;
-
-    filter:
-      none !important;
-  }
-
-}
-
-
-
-
-
-
-
-
 
 
 

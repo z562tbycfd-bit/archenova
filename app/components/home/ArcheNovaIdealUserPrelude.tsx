@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react";
 
 type Profile = {
   number: string;
-  eyebrow: string;
   title: string;
   body: string;
   closing: string;
@@ -13,7 +12,6 @@ type Profile = {
 const PROFILES: readonly Profile[] = [
   {
     number: "01",
-    eyebrow: "THE IDEAL USER",
     title: "For Those Who Think in Systems.",
     body:
       "ArcheNova is for reflective, systems-oriented thinkers drawn to " +
@@ -28,7 +26,6 @@ const PROFILES: readonly Profile[] = [
 
   {
     number: "02",
-    eyebrow: "SYNTHESIS",
     title: "For Those Who See the Connections.",
     body:
       "Energy changes infrastructure. Technology changes institutions. " +
@@ -42,7 +39,6 @@ const PROFILES: readonly Profile[] = [
 
   {
     number: "03",
-    eyebrow: "BUILDERS",
     title: "For Those Building Beyond the Obvious.",
     body:
       "Founders, independent researchers, engineers, and designers may use " +
@@ -57,7 +53,6 @@ const PROFILES: readonly Profile[] = [
 
   {
     number: "04",
-    eyebrow: "CIVILIZATION DESIGN",
     title: "For Those Who Treat Civilization as Designable.",
     body:
       "ArcheNova is especially aligned with people interested in alternative " +
@@ -72,7 +67,6 @@ const PROFILES: readonly Profile[] = [
 
   {
     number: "05",
-    eyebrow: "EXPLORATION",
     title: "For Quiet, High-Agency Explorers.",
     body:
       "The environment favors depth over noise, inquiry over hype, and " +
@@ -87,7 +81,6 @@ const PROFILES: readonly Profile[] = [
 
   {
     number: "06",
-    eyebrow: "BOUNDARY",
     title: "Not Every Environment Must Serve Everyone.",
     body:
       "ArcheNova is not primarily designed as a conventional software product, " +
@@ -195,9 +188,6 @@ export default function ArcheNovaIdealUserPrelude() {
             key={profile.number}
             className="an-ideal-user__chapter"
           >
-            <p className="an-ideal-user__eyebrow">
-              {profile.eyebrow}
-            </p>
 
             <h2 className="an-ideal-user__title">
               {profile.title}
