@@ -53,7 +53,7 @@ export default function HomePage() {
         <figure className="an-purpose-map__figure">
           <div className="an-purpose-map__viewport">
             <img
-              src="/images/archenova-civilization-purpose-map.jpg"
+              src="/images/archenova-civilization-purpose-map.jpeg"
               alt="ArcheNova civilization digital twin framework illustrating the relationships among science, technology, energy, infrastructure, biological systems, institutions, system dependencies, scenario exploration, evidence-based validation, feasibility, correctability, and real-world testing."
               className="an-purpose-map__image"
               loading="lazy"
