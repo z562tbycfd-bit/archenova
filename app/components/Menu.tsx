@@ -54,12 +54,6 @@ const ITEMS: readonly MenuItem[] = [
     note: "Purpose and identity",
   },
   {
-    href: "/home#archenova-search-section",
-    sectionId: "archenova-search-section",
-    label: "ArcheNova Map",
-    note: "Explore the system",
-  },
-  {
     href: "/episteme-dialogue",
     sectionId: "episteme-dialogue",
     label: "Episteme",
@@ -70,17 +64,6 @@ const ITEMS: readonly MenuItem[] = [
     sectionId: "aetherion",
     label: "Aetherion",
     note: "Orbital megafactory concept",
-  },
-  {
-    href: "/home#todays-inquiry",
-    sectionId: "todays-inquiry",
-    label: "Today's Inquiry",
-    note: "A living research question",
-  },
-  {
-    href: "/humanity-responsibility",
-    label: "Humanity & Responsibility",
-    note: "A permanent inquiry into power and responsibility",
   },
   {
     href: "/civilization-space",
@@ -95,34 +78,14 @@ const ITEMS: readonly MenuItem[] = [
     note: "From knowledge to realization",
   },
   {
-    href: "/civilization-experience",
-    label: "Scientific Open World",
-    note: "Explore the scientific city",
-  },
-  {
-    href: "/intelligence-platform/dashboard",
-    label: "Civilization Intelligence",
-    note: "Signals, systems, and foresight",
-  },
-  {
     href: "/research",
     label: "Research",
     note: "Scientific inquiry and knowledge",
   },
   {
-    href: "/civilization",
-    label: "Civilization",
-    note: "Civilization-scale architecture",
-  },
-  {
     href: "/projects",
     label: "Projects",
     note: "From principles to realization",
-  },
-  {
-    href: "/governance",
-    label: "Governance",
-    note: "Institutions, rules, and continuity",
   },
   {
     href: "/about",
@@ -561,7 +524,7 @@ export default function Menu() {
             ============================================ */}
 
             <footer className="an-menu__foot">
-              <span>PHYSICS</span>
+              <span>BASIC SCIENCE</span>
               <i />
               <span>APPLIED SCIENCE</span>
               <i />

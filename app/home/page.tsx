@@ -7,8 +7,6 @@ import HumanityResponsibilityPortal from "../components/HumanityResponsibilityPo
 import ArcheNovaMap from "../components/civilization/ArcheNovaMap";
 import CivilizationSpacePortal from "../components/CivilizationSpacePortal";
 import ArcheNovaValleyPortal from "../components/ArcheNovaValleyPortal";
-import FounderDigitalTwinPortal from "../components/founder-digital-twin/FounderDigitalTwinPortal";
-import WorksPortal from "../components/WorksPortal ";
 import WorkModelsPortal from "../components/WorkModelsPortal";
 
 import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
@@ -96,22 +94,6 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          06 — FOUNDER
-          Existing section: unchanged.
-      ================================================== */}
-
-      <section
-        id="founder-digital-twin"
-        data-home-section
-        className="home-page twin-page founder-digital-twin-page an-home-2026__section"
-        aria-label="Founder"
-      >
-        <div className="an-home-2026__glass">
-          <FounderDigitalTwinPortal />
-        </div>
-      </section>
-
-      {/* ==================================================
           07 — TODAY'S INQUIRY
           Existing section: unchanged.
       ================================================== */}
@@ -140,22 +122,6 @@ export default function HomePage() {
       >
         <div className="an-home-2026__glass">
           <HumanityResponsibilityPortal />
-        </div>
-      </section>
-
-      {/* ==================================================
-          09 — WORKS
-          Existing section: unchanged.
-      ================================================== */}
-
-      <section
-        id="works"
-        data-home-section
-        className="an-works-home-section an-home-2026__section"
-        aria-label="Works"
-      >
-        <div className="an-home-2026__glass">
-          <WorksPortal />
         </div>
       </section>
 

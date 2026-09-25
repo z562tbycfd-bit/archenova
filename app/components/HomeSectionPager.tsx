@@ -54,12 +54,6 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     subtitle: "Where are we?",
   },
   {
-    id: "founder-digital-twin",
-    mark: "☀︎",
-    title: "FOUNDER",
-    subtitle: "Why does ArcheNova exist?",
-  },
-  {
     id: "todays-inquiry",
     mark: "☁︎",
     title: "INQUIRY",
@@ -70,12 +64,6 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
     mark: "⑇",
     title: "PERMANENT INQUIRY",
     subtitle: "Can humanity handle its power?",
-  },
-  {
-    id: "works",
-    mark: "⎅",
-    title: "WORKS",
-    subtitle: "What can we become?",
   },
   {
     id: "work-models",
