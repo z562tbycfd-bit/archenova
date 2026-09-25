@@ -13,26 +13,30 @@ import { useRouter } from "next/navigation";
 /* ==========================================================
    ARCHENOVA FRAMEWORK PORTAL
 
-   EPISTEME GEOMETRY CONTRACT
-   --------------------------------
+   SHARED WORK MODELS GEOMETRY CONTRACT
+   ------------------------------------
    690px reference
    → available-height fit
    → title / artifact / Tap fully contained
 
-   Framework visual principle:
-   Reality
-   → Evidence
-   → Distinction
-   → Test
-   → Reproduction
-   → Engineering
-   → Correction
+   Framework-specific vertical contract:
+   Framework visual
+   → lowest node
+   → dedicated Tap row
+   → frame bottom
 
-   HOME owns the visible outer glass.
+   690px is a reference canvas, not a physical minimum.
+
+   HOME / WorkModels owns:
+   - available entrance height
+   - outer visible glass
+   - model navigation
 
    Framework owns:
    - internal inquiry architecture
    - white structural wireframe
+   - responsive containment inside available height
+   - dedicated Tap row
    - full-screen framework-collapse transition
    - /framework navigation
 ========================================================== */
@@ -472,11 +476,8 @@ function FrameworkEntryTransition({
       aria-hidden="true"
     >
       <div className="fw-entry__space" />
-
       <div className="fw-entry__stars" />
-
       <div className="fw-entry__grid" />
-
       <div className="fw-entry__vignette" />
 
       <div className="fw-entry__lensing">
@@ -488,7 +489,6 @@ function FrameworkEntryTransition({
 
       <div className="fw-entry__structure">
         <span className="fw-entry__structure-glow" />
-
         <FrameworkEmblem transition />
       </div>
 
@@ -646,40 +646,61 @@ export default function ArcheNovaFrameworkPortal() {
               aria-label="Enter ArcheNova Framework"
             >
               <span className="fw-portal__artifact">
-                <span
-                  className="fw-portal__artifact-aura"
-                  aria-hidden="true"
-                />
+                {/* ==========================================
+                    VISUAL ROW
 
-                <span
-                  className="fw-portal__artifact-orbit fw-portal__artifact-orbit--outer"
-                  aria-hidden="true"
-                />
+                    All Framework geometry lives here.
+                    The Tap label does NOT share this
+                    coordinate system.
+                ========================================== */}
 
-                <span
-                  className="fw-portal__artifact-orbit fw-portal__artifact-orbit--inner"
-                  aria-hidden="true"
-                />
+                <span className="fw-portal__artifact-visual">
+                  <span
+                    className="fw-portal__artifact-aura"
+                    aria-hidden="true"
+                  />
 
-                <span
-                  className="fw-portal__artifact-orbit fw-portal__artifact-orbit--vertical"
-                  aria-hidden="true"
-                />
+                  <span
+                    className="fw-portal__artifact-orbit fw-portal__artifact-orbit--outer"
+                    aria-hidden="true"
+                  />
 
-                <span
-                  className="fw-portal__artifact-object"
-                  aria-hidden="true"
-                >
-                  <FrameworkEmblem />
+                  <span
+                    className="fw-portal__artifact-orbit fw-portal__artifact-orbit--inner"
+                    aria-hidden="true"
+                  />
+
+                  <span
+                    className="fw-portal__artifact-orbit fw-portal__artifact-orbit--vertical"
+                    aria-hidden="true"
+                  />
+
+                  <span
+                    className="fw-portal__artifact-object"
+                    aria-hidden="true"
+                  >
+                    <FrameworkEmblem />
+                  </span>
+
+                  <span
+                    className="fw-portal__artifact-floor"
+                    aria-hidden="true"
+                  />
                 </span>
 
-                <span
-                  className="fw-portal__artifact-floor"
-                  aria-hidden="true"
-                />
+                {/* ==========================================
+                    DEDICATED TAP ROW
 
-                <span className="fw-portal__tap-hint">
-                  Tap the framework to enter
+                    lowest node
+                    → protected gap
+                    → Tap
+                    → frame bottom
+                ========================================== */}
+
+                <span className="fw-portal__tap-row">
+                  <span className="fw-portal__tap-hint">
+                    Tap the framework to enter
+                  </span>
                 </span>
               </span>
             </button>
@@ -739,12 +760,7 @@ export default function ArcheNovaFrameworkPortal() {
 
           box-shadow: none;
 
-          color: rgba(
-            248,
-            249,
-            250,
-            0.94
-          );
+          color: rgba(248, 249, 250, 0.94);
         }
 
         .fw-portal button {
@@ -812,32 +828,17 @@ export default function ArcheNovaFrameworkPortal() {
           background:
             radial-gradient(
               ellipse at 50% 51%,
-              rgba(
-                255,
-                255,
-                255,
-                0.026
-              ),
+              rgba(255, 255, 255, 0.026),
               transparent 42%
             ),
             radial-gradient(
               ellipse at 17% 23%,
-              rgba(
-                255,
-                255,
-                255,
-                0.012
-              ),
+              rgba(255, 255, 255, 0.012),
               transparent 35%
             ),
             radial-gradient(
               ellipse at 83% 76%,
-              rgba(
-                255,
-                255,
-                255,
-                0.01
-              ),
+              rgba(255, 255, 255, 0.01),
               transparent 36%
             );
         }
@@ -852,24 +853,12 @@ export default function ArcheNovaFrameworkPortal() {
 
           background-image:
             linear-gradient(
-              rgba(
-                  255,
-                  255,
-                  255,
-                  0.13
-                )
-                1px,
+              rgba(255, 255, 255, 0.13) 1px,
               transparent 1px
             ),
             linear-gradient(
               90deg,
-              rgba(
-                  255,
-                  255,
-                  255,
-                  0.13
-                )
-                1px,
+              rgba(255, 255, 255, 0.13) 1px,
               transparent 1px
             );
 
@@ -930,12 +919,7 @@ export default function ArcheNovaFrameworkPortal() {
 
         .fw-portal__identity > span {
           color:
-            rgba(
-              255,
-              255,
-              255,
-              0.82
-            );
+            rgba(255, 255, 255, 0.82);
 
           font-size: 9px;
           font-weight: 650;
@@ -946,12 +930,7 @@ export default function ArcheNovaFrameworkPortal() {
 
         .fw-portal__identity > small {
           color:
-            rgba(
-              255,
-              255,
-              255,
-              0.24
-            );
+            rgba(255, 255, 255, 0.24);
 
           font-size: 6px;
           letter-spacing: 0.14em;
@@ -1029,12 +1008,7 @@ export default function ArcheNovaFrameworkPortal() {
           margin: 0;
 
           color:
-            rgba(
-              250,
-              251,
-              252,
-              0.97
-            );
+            rgba(250, 251, 252, 0.97);
 
           font-size:
             clamp(
@@ -1053,16 +1027,11 @@ export default function ArcheNovaFrameworkPortal() {
 
           text-shadow:
             0 1px 0
-              rgba(
-                255,
-                255,
-                255,
-                0.02
-              );
+              rgba(255, 255, 255, 0.02);
         }
 
         /* ==================================================
-           FRAMEWORK ARTIFACT
+           FRAMEWORK ENTRY BUTTON
         ================================================== */
 
         .fw-portal__entry-button {
@@ -1110,16 +1079,29 @@ export default function ArcheNovaFrameworkPortal() {
         .fw-portal__entry-button:focus-visible {
           outline:
             1px solid
-              rgba(
-                255,
-                255,
-                255,
-                0.18
-              );
+              rgba(255, 255, 255, 0.18);
 
           outline-offset: 8px;
-          border-radius: 50%;
+          border-radius: 28px;
         }
+
+        /* ==================================================
+           FRAMEWORK ARTIFACT ENVELOPE
+
+           IMPORTANT:
+           The artifact itself no longer has a single
+           aspect-ratio containing both visual + Tap.
+
+           Instead:
+
+           artifact
+           ├─ visual
+           │  └─ Framework emblem / lowest node
+           └─ dedicated Tap row
+
+           This makes the Tap row participate in real
+           layout height.
+        ================================================== */
 
         .fw-portal__artifact {
           position: relative;
@@ -1130,10 +1112,11 @@ export default function ArcheNovaFrameworkPortal() {
           max-width: 100%;
           min-width: 0;
 
-          aspect-ratio: 1.22;
-
           display: grid;
-          place-items: center;
+
+          grid-template-rows:
+            minmax(0, 1fr)
+            auto;
 
           margin: 0 auto;
 
@@ -1155,6 +1138,30 @@ export default function ArcheNovaFrameworkPortal() {
               );
         }
 
+        /* ==================================================
+           FRAMEWORK VISUAL ROW
+
+           All absolute Framework geometry is bounded
+           to this row only.
+
+           Tap is intentionally outside.
+        ================================================== */
+
+        .fw-portal__artifact-visual {
+          position: relative;
+
+          width: 100%;
+          max-width: 100%;
+          min-width: 0;
+
+          aspect-ratio: 1.22;
+
+          display: grid;
+          place-items: center;
+
+          overflow: visible;
+        }
+
         .fw-portal__artifact-aura {
           position: absolute;
           z-index: 0;
@@ -1168,19 +1175,9 @@ export default function ArcheNovaFrameworkPortal() {
             radial-gradient(
               circle,
               transparent 13%,
-              rgba(
-                255,
-                255,
-                255,
-                0.035
-              )
+              rgba(255, 255, 255, 0.035)
                 34%,
-              rgba(
-                255,
-                255,
-                255,
-                0.008
-              )
+              rgba(255, 255, 255, 0.008)
                 54%,
               transparent 73%
             );
@@ -1204,12 +1201,7 @@ export default function ArcheNovaFrameworkPortal() {
 
           border:
             1px solid
-              rgba(
-                255,
-                255,
-                255,
-                0.034
-              );
+              rgba(255, 255, 255, 0.034);
 
           border-radius: 50%;
 
@@ -1269,12 +1261,7 @@ export default function ArcheNovaFrameworkPortal() {
             )
             drop-shadow(
               0 0 13px
-                rgba(
-                  255,
-                  255,
-                  255,
-                  0.065
-                )
+                rgba(255, 255, 255, 0.065)
             );
 
           animation:
@@ -1363,12 +1350,7 @@ export default function ArcheNovaFrameworkPortal() {
           filter:
             drop-shadow(
               0 0 4px
-                rgba(
-                  255,
-                  255,
-                  255,
-                  0.72
-                )
+                rgba(255, 255, 255, 0.72)
             );
 
           animation:
@@ -1380,7 +1362,7 @@ export default function ArcheNovaFrameworkPortal() {
           position: absolute;
           z-index: 3;
 
-          bottom: 16%;
+          bottom: 7%;
           left: 50%;
 
           width: 49%;
@@ -1394,25 +1376,10 @@ export default function ArcheNovaFrameworkPortal() {
           background:
             radial-gradient(
               ellipse,
-              rgba(
-                255,
-                255,
-                255,
-                0.047
-              ),
-              rgba(
-                255,
-                255,
-                255,
-                0.008
-              )
+              rgba(255, 255, 255, 0.047),
+              rgba(255, 255, 255, 0.008)
                 38%,
-              rgba(
-                0,
-                0,
-                0,
-                0.24
-              )
+              rgba(0, 0, 0, 0.24)
                 59%,
               transparent 76%
             );
@@ -1426,30 +1393,52 @@ export default function ArcheNovaFrameworkPortal() {
             infinite;
         }
 
-        .fw-portal__tap-hint {
-          position: absolute;
+        /* ==================================================
+           DEDICATED TAP ROW
+
+           lowest node
+           → protected separation
+           → Tap
+           → frame bottom
+
+           No absolute positioning.
+           No overlap with Framework SVG.
+        ================================================== */
+
+        .fw-portal__tap-row {
+          position: relative;
           z-index: 10;
 
-          bottom: 1.5%;
-          left: 50%;
+          width: 100%;
+          max-width: 100%;
+          min-width: 0;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          flex: 0 0 auto;
+
+          padding-top:
+            clamp(7px, 1.1vw, 12px);
+        }
+
+        .fw-portal__tap-hint {
+          position: relative;
+
+          display: block;
 
           max-width: 100%;
 
-          transform:
-            translateX(-50%);
-
           color:
-            rgba(
-              255,
-              255,
-              255,
-              0.26
-            );
+            rgba(255, 255, 255, 0.26);
 
           font-size: 7px;
           font-weight: 500;
           letter-spacing: 0.12em;
+          line-height: 1.35;
 
+          text-align: center;
           white-space: nowrap;
 
           transition:
@@ -1460,16 +1449,6 @@ export default function ArcheNovaFrameworkPortal() {
 
         /* ==================================================
            FULL-SCREEN FRAMEWORK ENTRY
-
-           Same cinematic scale as Episteme,
-           but the physical metaphor differs:
-
-           Episteme:
-           cognition → black-hole collapse
-
-           Framework:
-           structures → validation aperture
-           → coordinate collapse
         ================================================== */
 
         .fw-entry {
@@ -1479,8 +1458,11 @@ export default function ArcheNovaFrameworkPortal() {
           z-index: 2147483647;
 
           width: 100vw;
+          width: 100dvw;
+
           height: 100vh;
           height: 100dvh;
+          min-height: 100svh;
 
           display: grid;
           place-items: center;
@@ -1495,6 +1477,8 @@ export default function ArcheNovaFrameworkPortal() {
           visibility: hidden;
 
           pointer-events: none;
+
+          isolation: isolate;
 
           background: #000;
 
@@ -1521,27 +1505,9 @@ export default function ArcheNovaFrameworkPortal() {
           background:
             radial-gradient(
               circle at 50% 50%,
-              rgba(
-                18,
-                19,
-                22,
-                1
-              )
-                0%,
-              rgba(
-                5,
-                5,
-                7,
-                1
-              )
-                34%,
-              rgba(
-                1,
-                1,
-                2,
-                1
-              )
-                63%,
+              rgba(18, 19, 22, 1) 0%,
+              rgba(5, 5, 7, 1) 34%,
+              rgba(1, 1, 2, 1) 63%,
               #000 100%
             );
 
@@ -1561,23 +1527,13 @@ export default function ArcheNovaFrameworkPortal() {
           background-image:
             radial-gradient(
               circle,
-              rgba(
-                  255,
-                  255,
-                  255,
-                  0.48
-                )
+              rgba(255, 255, 255, 0.48)
                 0 0.5px,
               transparent 0.9px
             ),
             radial-gradient(
               circle,
-              rgba(
-                  255,
-                  255,
-                  255,
-                  0.2
-                )
+              rgba(255, 255, 255, 0.2)
                 0 0.4px,
               transparent 0.8px
             );
@@ -1604,31 +1560,17 @@ export default function ArcheNovaFrameworkPortal() {
           background:
             repeating-linear-gradient(
               90deg,
-              transparent
-                0 79px,
-              rgba(
-                  255,
-                  255,
-                  255,
-                  0.052
-                )
+              transparent 0 79px,
+              rgba(255, 255, 255, 0.052)
                 80px,
-              transparent
-                81px
+              transparent 81px
             ),
             repeating-linear-gradient(
               0deg,
-              transparent
-                0 79px,
-              rgba(
-                  255,
-                  255,
-                  255,
-                  0.052
-                )
+              transparent 0 79px,
+              rgba(255, 255, 255, 0.052)
                 80px,
-              transparent
-                81px
+              transparent 81px
             );
 
           -webkit-mask-image:
@@ -1661,19 +1603,9 @@ export default function ArcheNovaFrameworkPortal() {
               circle at 50% 50%,
               transparent 0%,
               transparent 24%,
-              rgba(
-                0,
-                0,
-                0,
-                0.18
-              )
+              rgba(0, 0, 0, 0.18)
                 49%,
-              rgba(
-                0,
-                0,
-                0,
-                0.92
-              )
+              rgba(0, 0, 0, 0.92)
                 100%
             );
         }
@@ -1715,12 +1647,7 @@ export default function ArcheNovaFrameworkPortal() {
           height: 91%;
 
           border-top-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.1
-            );
+            rgba(255, 255, 255, 0.1);
 
           transform:
             translate(-50%, -50%)
@@ -1732,12 +1659,7 @@ export default function ArcheNovaFrameworkPortal() {
           height: 76%;
 
           border-bottom-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.08
-            );
+            rgba(255, 255, 255, 0.08);
 
           transform:
             translate(-50%, -50%)
@@ -1749,12 +1671,7 @@ export default function ArcheNovaFrameworkPortal() {
           height: 46%;
 
           border-top-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.055
-            );
+            rgba(255, 255, 255, 0.055);
 
           transform:
             translate(-50%, -50%)
@@ -1766,12 +1683,7 @@ export default function ArcheNovaFrameworkPortal() {
           height: 103%;
 
           border-right-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.04
-            );
+            rgba(255, 255, 255, 0.04);
 
           transform:
             translate(-50%, -50%)
@@ -1826,19 +1738,9 @@ export default function ArcheNovaFrameworkPortal() {
             radial-gradient(
               circle,
               transparent 12%,
-              rgba(
-                255,
-                255,
-                255,
-                0.045
-              )
+              rgba(255, 255, 255, 0.045)
                 38%,
-              rgba(
-                255,
-                255,
-                255,
-                0.008
-              )
+              rgba(255, 255, 255, 0.008)
                 59%,
               transparent 75%
             );
@@ -1860,13 +1762,9 @@ export default function ArcheNovaFrameworkPortal() {
           overflow: visible;
         }
 
-        /* ------------------------------------------
+        /* ==================================================
            FRAMEWORK APERTURE
-
-           Deliberately resembles an event horizon
-           in scale, but remains geometric and
-           architectural rather than astrophysical.
-        ------------------------------------------ */
+        ================================================== */
 
         .fw-entry__aperture {
           position: absolute;
@@ -1904,26 +1802,11 @@ export default function ArcheNovaFrameworkPortal() {
           background:
             radial-gradient(
               circle,
-              rgba(
-                255,
-                255,
-                255,
-                0.02
-              )
+              rgba(255, 255, 255, 0.02)
                 0%,
-              rgba(
-                255,
-                255,
-                255,
-                0.055
-              )
+              rgba(255, 255, 255, 0.055)
                 23%,
-              rgba(
-                255,
-                255,
-                255,
-                0.015
-              )
+              rgba(255, 255, 255, 0.015)
                 43%,
               transparent 68%
             );
@@ -1943,12 +1826,7 @@ export default function ArcheNovaFrameworkPortal() {
 
           border:
             1px solid
-              rgba(
-                255,
-                255,
-                255,
-                0.13
-              );
+              rgba(255, 255, 255, 0.13);
         }
 
         .fw-entry__aperture-ring--middle {
@@ -1957,12 +1835,7 @@ export default function ArcheNovaFrameworkPortal() {
 
           border:
             1px solid
-              rgba(
-                255,
-                255,
-                255,
-                0.31
-              );
+              rgba(255, 255, 255, 0.31);
         }
 
         .fw-entry__aperture-ring--inner {
@@ -1971,21 +1844,11 @@ export default function ArcheNovaFrameworkPortal() {
 
           border:
             1px solid
-              rgba(
-                255,
-                255,
-                255,
-                0.68
-              );
+              rgba(255, 255, 255, 0.68);
 
           box-shadow:
             0 0 22px
-              rgba(
-                255,
-                255,
-                255,
-                0.08
-              );
+              rgba(255, 255, 255, 0.08);
         }
 
         .fw-entry__aperture-horizon {
@@ -2000,19 +1863,9 @@ export default function ArcheNovaFrameworkPortal() {
 
           box-shadow:
             0 0 0 1px
-              rgba(
-                255,
-                255,
-                255,
-                0.08
-              ),
+              rgba(255, 255, 255, 0.08),
             0 0 34px
-              rgba(
-                255,
-                255,
-                255,
-                0.045
-              );
+              rgba(255, 255, 255, 0.045);
         }
 
         .fw-entry__aperture-core {
@@ -2090,12 +1943,7 @@ export default function ArcheNovaFrameworkPortal() {
 
         .fw-entry__copy > span {
           color:
-            rgba(
-              246,
-              248,
-              249,
-              0.58
-            );
+            rgba(246, 248, 249, 0.58);
 
           font-size: 7px;
           font-weight: 620;
@@ -2104,12 +1952,7 @@ export default function ArcheNovaFrameworkPortal() {
 
         .fw-entry__copy > small {
           color:
-            rgba(
-              221,
-              227,
-              230,
-              0.2
-            );
+            rgba(221, 227, 230, 0.2);
 
           font-size: 6px;
           letter-spacing: 0.08em;
@@ -2150,7 +1993,7 @@ export default function ArcheNovaFrameworkPortal() {
         .fw-portal--entering
         .fw-portal__artifact-floor,
         .fw-portal--entering
-        .fw-portal__tap-hint {
+        .fw-portal__tap-row {
           opacity: 0;
         }
 
@@ -2786,21 +2629,11 @@ export default function ArcheNovaFrameworkPortal() {
             filter:
               drop-shadow(
                 0 31px 48px
-                  rgba(
-                    0,
-                    0,
-                    0,
-                    0.82
-                  )
+                  rgba(0, 0, 0, 0.82)
               )
               drop-shadow(
                 0 0 19px
-                  rgba(
-                    255,
-                    255,
-                    255,
-                    0.12
-                  )
+                  rgba(255, 255, 255, 0.12)
               )
               brightness(1.075);
           }
@@ -2808,15 +2641,9 @@ export default function ArcheNovaFrameworkPortal() {
           .fw-portal__entry-button:hover
           .fw-portal__tap-hint {
             color:
-              rgba(
-                255,
-                255,
-                255,
-                0.52
-              );
+              rgba(255, 255, 255, 0.52);
 
             transform:
-              translateX(-50%)
               translateY(-2px);
           }
         }
@@ -2825,14 +2652,18 @@ export default function ArcheNovaFrameworkPortal() {
            MOBILE
            690px REFERENCE → AVAILABLE-HEIGHT FIT
 
-           Coordinate contract:
+           Parent contract:
+           WorkModels supplies the actual available box.
+
+           Framework contract:
            header
            → title
-           → artifact
-           → Tap
+           → visual
+           → lowest node
+           → dedicated Tap row
+           → bottom clearance
 
-           The complete interaction is always contained
-           inside the available Work Models stage.
+           Nothing is allowed to overlap the Tap row.
         ================================================== */
 
         @media (max-width: 700px) {
@@ -2841,11 +2672,6 @@ export default function ArcheNovaFrameworkPortal() {
             max-width: 100%;
             min-width: 0;
 
-            /*
-             * 690px is the reference geometry.
-             * The portal itself may shrink to the
-             * height actually supplied by Work Models.
-             */
             min-height: 0;
             height: 100%;
             max-height: 100%;
@@ -2859,12 +2685,9 @@ export default function ArcheNovaFrameworkPortal() {
             min-width: 0;
 
             /*
-             * Critical:
-             * do not force a physical 690px box into
-             * a shorter parent.
-             *
-             * 690px remains the design reference,
-             * while 100% is the actual available box.
+             * 690px remains the reference only.
+             * Never force 690 physical pixels into
+             * a shorter WorkModels parent.
              */
             min-height: 0;
             height: 100%;
@@ -2903,10 +2726,6 @@ export default function ArcheNovaFrameworkPortal() {
           .fw-portal__experience {
             align-self: stretch;
 
-            /*
-             * The remaining row is the entire
-             * interaction budget.
-             */
             min-height: 0;
 
             justify-content: center;
@@ -2966,21 +2785,18 @@ export default function ArcheNovaFrameworkPortal() {
               auto
               0;
 
-            /*
-             * Allows the visual envelope to yield
-             * before the Tap label is clipped.
-             */
             min-height: 0;
           }
 
+          /* ================================================
+             MOBILE ARTIFACT ENVELOPE
+
+             Important:
+             aspect-ratio belongs only to visual.
+             Tap has its own physical row.
+          ================================================ */
+
           .fw-portal__artifact {
-            /*
-             * Episteme 305px reference.
-             *
-             * Available-height term prevents
-             * short phones / embedded WorkModels
-             * from losing the Tap label.
-             */
             width:
               min(
                 100%,
@@ -2991,9 +2807,15 @@ export default function ArcheNovaFrameworkPortal() {
             max-width: 100%;
             min-width: 0;
 
-            aspect-ratio: 1.17;
-
             margin: 0 auto;
+          }
+
+          .fw-portal__artifact-visual {
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
+
+            aspect-ratio: 1.17;
           }
 
           .fw-portal__artifact-object {
@@ -3018,9 +2840,20 @@ export default function ArcheNovaFrameworkPortal() {
             height: 57%;
           }
 
-          .fw-portal__tap-hint {
-            bottom: 0.5%;
+          /* ================================================
+             PROTECTED TAP ROW
+          ================================================ */
 
+          .fw-portal__tap-row {
+            padding-top:
+              clamp(
+                5px,
+                1.1svh,
+                9px
+              );
+          }
+
+          .fw-portal__tap-hint {
             max-width:
               calc(100% - 16px);
 
@@ -3028,12 +2861,8 @@ export default function ArcheNovaFrameworkPortal() {
 
             font-size: 5.5px;
             letter-spacing: 0.1em;
+            line-height: 1.3;
 
-            /*
-             * No ellipsis:
-             * "Tap..." is part of the required
-             * interaction contract.
-             */
             text-overflow: clip;
             white-space: nowrap;
           }
@@ -3057,10 +2886,13 @@ export default function ArcheNovaFrameworkPortal() {
         /* ==================================================
            SHORT MOBILE
 
-           Preserve the full interaction:
-           title + Framework + Tap.
+           Preserve:
+           title
+           → Framework visual
+           → lowest node
+           → Tap
 
-           Scale the artifact before removing content.
+           The visual contracts first.
         ================================================== */
 
         @media (max-width: 700px) and (max-height: 720px) {
@@ -3093,6 +2925,15 @@ export default function ArcheNovaFrameworkPortal() {
                 100%,
                 265px,
                 34svh
+              );
+          }
+
+          .fw-portal__tap-row {
+            padding-top:
+              clamp(
+                4px,
+                0.9svh,
+                7px
               );
           }
         }
@@ -3179,13 +3020,19 @@ export default function ArcheNovaFrameworkPortal() {
                 33svh
               );
           }
+
+          .fw-portal__tap-row {
+            padding-top: 4px;
+          }
         }
 
         /* ==================================================
            EXTREMELY SHORT AVAILABLE HEIGHT
 
-           Last-resort fit layer.
-           Nothing semantically important is removed.
+           Last-resort contraction.
+
+           No semantically important element is removed.
+           Tap remains a real layout row.
         ================================================== */
 
         @media (max-width: 700px) and (max-height: 620px) {
@@ -3229,8 +3076,8 @@ export default function ArcheNovaFrameworkPortal() {
               );
           }
 
-          .fw-portal__tap-hint {
-            bottom: 0;
+          .fw-portal__tap-row {
+            padding-top: 4px;
           }
         }
 
