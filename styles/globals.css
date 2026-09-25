@@ -63049,112 +63049,346 @@ and
 
 /* ==========================================================
    ARCHENOVA IDEAL USER
-   FRAME SIZE ALIGNMENT — HOME 2026 STANDARD
+   CIVILIZATION PRELUDE — EXACT FRAME GEOMETRY MATCH
    ----------------------------------------------------------
-   SIZE ONLY.
+   Geometry reference:
+   #archenova-civilization-prelude
 
-   Content, typography, transition logic and visual material
-   remain unchanged.
+   This override changes FRAME GEOMETRY ONLY.
 
-   Geometry source:
-   .an-home-2026__glass
+   Preserve:
+   - Ideal User content
+   - Dynamic number of states
+   - START / FIXED / END
+   - Existing typography
+   - Existing Ideal User visual treatment
 ========================================================== */
 
 
 /* ==========================================================
-   1. DESKTOP / DEFAULT
-   SAME OUTER POSITIONING AS HOME STANDARD
+   01 / SCROLL CONTAINER
+   ----------------------------------------------------------
+   Keep the dynamic number of Ideal User states.
+   Civilization Prelude uses 500svh for five states.
+   Ideal User derives the equivalent distance automatically.
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user.an-ideal-user {
+  position: relative !important;
+
+  display: block !important;
+
+  box-sizing: border-box !important;
+
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+
+  height:
+    calc(
+      var(--an-ideal-user-count, 1)
+      * 100svh
+    )
+    !important;
+
+  min-height:
+    calc(
+      var(--an-ideal-user-count, 1)
+      * 100svh
+    )
+    !important;
+
+  max-height:
+    none !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  overflow:
+    visible !important;
+
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  scroll-snap-align:
+    none !important;
+}
+
+
+/* ==========================================================
+   02 / NO OUTER PSEUDO SURFACE
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user::before,
+
+main.an-home-2026
+#archenova-ideal-user::after {
+  content:
+    none !important;
+
+  display:
+    none !important;
+}
+
+
+/* ==========================================================
+   03 / VIEWPORT FRAME
+   EXACTLY MATCH CIVILIZATION PRELUDE
 ========================================================== */
 
 main.an-home-2026
 #archenova-ideal-user
 .an-ideal-user__frame {
-  box-sizing: border-box !important;
+  box-sizing:
+    border-box !important;
 
-  width: 100% !important;
+  display:
+    flex !important;
+
+  align-items:
+    stretch !important;
+
+  justify-content:
+    center !important;
+
+  width:
+    100% !important;
+
+  height:
+    100svh !important;
+
+  min-height:
+    100svh !important;
+
+  max-height:
+    100svh !important;
+
+  margin:
+    0 !important;
 
   /*
-   * Same HOME section spacing.
+   * EXACT Civilization Prelude desktop frame padding.
    */
   padding:
-    var(--an-h-top)
-    var(--an-h-gutter)
-    var(--an-h-bottom)
+    clamp(12px, 2vw, 24px)
     !important;
+
+  overflow:
+    visible !important;
+
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
 }
 
 
 /* ==========================================================
-   2. GLASS SIZE
-   EXACTLY MATCH HOME STANDARD GLASS GEOMETRY
+   04 / START
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__frame--start {
+  position:
+    absolute !important;
+
+  top:
+    0 !important;
+
+  right:
+    0 !important;
+
+  bottom:
+    auto !important;
+
+  left:
+    0 !important;
+}
+
+
+/* ==========================================================
+   05 / FIXED
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__frame--fixed {
+  position:
+    fixed !important;
+
+  top:
+    0 !important;
+
+  right:
+    0 !important;
+
+  bottom:
+    auto !important;
+
+  left:
+    0 !important;
+
+  z-index:
+    20 !important;
+}
+
+
+/* ==========================================================
+   06 / END
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__frame--end {
+  position:
+    absolute !important;
+
+  top:
+    auto !important;
+
+  right:
+    0 !important;
+
+  bottom:
+    0 !important;
+
+  left:
+    0 !important;
+}
+
+
+/* ==========================================================
+   07 / GLASS GEOMETRY
+   EXACTLY MATCH CIVILIZATION PRELUDE
+   ----------------------------------------------------------
+   IMPORTANT:
+   This is the actual visible frame size.
 ========================================================== */
 
 main.an-home-2026
 #archenova-ideal-user
 .an-ideal-user__glass {
-  box-sizing: border-box !important;
+  position:
+    relative !important;
+
+  isolation:
+    isolate !important;
+
+  display:
+    flex !important;
+
+  flex-direction:
+    column !important;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    center !important;
+
+  box-sizing:
+    border-box !important;
 
   /*
-   * HOME standard width
+   * EXACT Prelude width.
    */
-  width: 100% !important;
-  max-width: 1800px !important;
-  min-width: 0 !important;
+  width:
+    100% !important;
+
+  max-width:
+    1800px !important;
+
+  min-width:
+    0 !important;
 
   /*
-   * HOME standard height
+   * EXACT Prelude height.
+   *
+   * The glass fills the viewport frame after the
+   * clamp(12px, 2vw, 24px) outer padding.
    */
-  min-height:
-    min(690px, 76svh)
-    !important;
-
   height:
-    auto !important;
+    100% !important;
+
+  min-height:
+    0 !important;
 
   max-height:
     none !important;
 
-  /*
-   * HOME standard positioning
-   */
   margin:
     0 auto !important;
 
   /*
-   * HOME standard internal spacing
+   * EXACT Prelude desktop inner spacing.
    */
   padding:
-    clamp(24px, 3.3vw, 62px)
+    clamp(44px, 6vw, 92px)
+    clamp(26px, 7vw, 120px)
     !important;
 
+  overflow:
+    hidden !important;
+
   /*
-   * Keep the same desktop corner geometry.
+   * Keep existing Ideal User material.
+   * Only geometry is being unified here.
    */
+
   border-radius:
     30px !important;
 }
 
 
 /* ==========================================================
-   3. TABLET
-   SAME 701px–1100px HOME GEOMETRY
+   08 / TABLET
+   EXACTLY MATCH CIVILIZATION PRELUDE
 ========================================================== */
 
 @media
 (min-width: 701px)
 and
 (max-width: 1100px) {
-
-  main.an-home-2026
-  #archenova-ideal-user
-  .an-ideal-user__frame {
-    padding:
-      var(--an-h-top)
-      var(--an-h-gutter)
-      var(--an-h-bottom)
-      !important;
-  }
-
 
   main.an-home-2026
   #archenova-ideal-user
@@ -63165,12 +63399,15 @@ and
     max-width:
       1800px !important;
 
+    height:
+      100% !important;
+
     min-height:
-      min(690px, 76svh)
-      !important;
+      0 !important;
 
     padding:
-      clamp(25px, 3vw, 42px)
+      44px
+      clamp(30px, 5vw, 64px)
       !important;
 
     border-radius:
@@ -63181,8 +63418,8 @@ and
 
 
 /* ==========================================================
-   4. MOBILE
-   EXACTLY MATCH EXISTING HOME MOBILE GLASS SIZE
+   09 / MOBILE FRAME
+   EXACTLY MATCH CIVILIZATION PRELUDE
 ========================================================== */
 
 @media (max-width: 700px) {
@@ -63190,19 +63427,26 @@ and
   main.an-home-2026
   #archenova-ideal-user
   .an-ideal-user__frame {
-    box-sizing:
-      border-box !important;
-
     width:
       100% !important;
 
     height:
       100svh !important;
 
+    min-height:
+      100svh !important;
+
+    max-height:
+      100svh !important;
+
+    /*
+     * EXACT Prelude safe-area geometry.
+     */
     padding:
-      var(--an-h-top)
-      var(--an-h-gutter)
-      var(--an-h-bottom)
+      max(8px, env(safe-area-inset-top))
+      max(8px, env(safe-area-inset-right))
+      max(8px, env(safe-area-inset-bottom))
+      max(8px, env(safe-area-inset-left))
       !important;
   }
 
@@ -63210,27 +63454,17 @@ and
   main.an-home-2026
   #archenova-ideal-user
   .an-ideal-user__glass {
-    box-sizing:
-      border-box !important;
-
     width:
       100% !important;
 
     max-width:
       1800px !important;
 
-    min-width:
-      0 !important;
-
-    /*
-     * Exact existing HOME mobile height.
-     */
-    min-height:
-      min(610px, 72svh)
-      !important;
-
     height:
-      auto !important;
+      100% !important;
+
+    min-height:
+      0 !important;
 
     max-height:
       none !important;
@@ -63239,51 +63473,67 @@ and
       0 auto !important;
 
     /*
-     * Exact existing HOME mobile padding.
+     * EXACT Prelude mobile content geometry.
      */
     padding:
-      26px 19px
+      38px 24px 68px
       !important;
 
-    /*
-     * Exact existing HOME mobile radius.
-     */
     border-radius:
-      24px !important;
+      26px !important;
   }
 
 }
 
 
 /* ==========================================================
-   5. VERY SMALL MOBILE
-   EXACTLY MATCH EXISTING HOME <=390px
+   10 / SMALL MOBILE
+   EXACTLY MATCH CIVILIZATION PRELUDE
 ========================================================== */
 
-@media (max-width: 390px) {
+@media (max-width: 430px) {
 
   main.an-home-2026
   #archenova-ideal-user
   .an-ideal-user__glass {
-    width:
-      100% !important;
-
-    max-width:
-      1800px !important;
-
-    min-height:
-      min(610px, 72svh)
-      !important;
-
     /*
-     * Exact existing HOME <=390px padding.
+     * EXACT Prelude <=430px geometry.
      */
     padding:
-      23px 15px
+      30px 19px 64px
       !important;
 
     border-radius:
-      24px !important;
+      22px !important;
   }
 
 }
+
+
+/* ==========================================================
+   11 / SHORT SCREEN
+   EXACTLY MATCH CIVILIZATION PRELUDE
+========================================================== */
+
+@media (max-height: 700px) {
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__glass {
+    padding-top:
+      22px !important;
+
+    padding-bottom:
+      48px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
