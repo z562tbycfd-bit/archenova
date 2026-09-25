@@ -5,6 +5,7 @@ import {
   useEffect,
   useRef,
   useState,
+  type CSSProperties,
   type KeyboardEvent,
   type MouseEvent,
   type TouchEvent,
@@ -23,24 +24,43 @@ import ArcheNovaFrameworkPortal from "./ArcheNovaFrameworkPortal";
    INTERNAL:
      Header
        ↓
-     Height-constrained, vertically scrollable model stage
+     Model counter
        ↓
-     Navigation that remains outside the model scroll area
+     Height-constrained entrance frame
+       ↓
+     Navigation outside the entrance frame
 
    MODELS:
      01 Episteme
      02 Framework
      03 Aetherion
 
+   DIMENSIONAL CONTRACT:
+     690px is the reference entrance height.
+
+     If the available Work Models entrance frame is smaller
+     than 690px, the actual model geometry contracts to the
+     available height instead of overflowing or requiring
+     vertical scrolling.
+
+     WorkModels publishes:
+
+       --wm-model-reference-height
+       --wm-model-height
+       --wm-model-scale
+
+     to the active model.
+
    IMPORTANT:
      - Render the original model components.
-     - Do not recreate their artwork or entry transitions.
-     - WorkModels owns vertical scrolling.
-     - Each model owns its own two-row / 690px entrance geometry.
-     - Do not override the model's internal entrance padding.
+     - Do not recreate artwork.
+     - Do not alter entry transitions.
+     - Navigation stays outside the entrance frame.
+     - Do not use transform: scale() on the whole model.
 ========================================================== */
 
 const MODEL_COUNT = 3;
+const MODEL_REFERENCE_HEIGHT = 690;
 
 const MODEL_NAMES = [
   "Episteme",
@@ -49,6 +69,13 @@ const MODEL_NAMES = [
 ] as const;
 
 type ModelIndex = 0 | 1 | 2;
+
+type WorkModelsStyle =
+  CSSProperties & {
+    "--wm-model-reference-height"?: string;
+    "--wm-model-height"?: string;
+    "--wm-model-scale"?: string;
+  };
 
 /* ==========================================================
    ICONS
@@ -100,7 +127,18 @@ export default function WorkModelsPortal() {
   const [activeIndex, setActiveIndex] =
     useState<ModelIndex>(0);
 
-  const stageRef = useRef<HTMLDivElement | null>(null);
+  /*
+   * Actual usable entrance-frame height.
+   *
+   * 690 remains the reference geometry.
+   * This value becomes smaller only when the actual
+   * Work Models frame cannot provide the full 690px.
+   */
+  const [modelHeight, setModelHeight] =
+    useState(MODEL_REFERENCE_HEIGHT);
+
+  const stageRef =
+    useRef<HTMLDivElement | null>(null);
 
   const touchStartRef = useRef<{
     x: number;
@@ -113,12 +151,145 @@ export default function WorkModelsPortal() {
   } | null>(null);
 
   /* ========================================================
+     AVAILABLE ENTRANCE GEOMETRY
+
+     690px is a reference canvas, not a compulsory physical
+     minimum.
+
+     The Work Models stage tells every model how much actual
+     vertical space exists.
+
+     ResizeObserver handles:
+       - browser differences
+       - mobile browser chrome
+       - orientation changes
+       - responsive HOME geometry
+       - desktop / tablet / mobile resizing
+  ======================================================== */
+
+  useEffect(() => {
+    const stage = stageRef.current;
+
+    if (!stage) return;
+
+    let frameId = 0;
+
+    const measure = () => {
+      cancelAnimationFrame(frameId);
+
+      frameId = requestAnimationFrame(() => {
+        const rect =
+          stage.getBoundingClientRect();
+
+        /*
+         * clientHeight excludes the border.
+         * We also remove the stage's vertical padding so
+         * --wm-model-height represents the actual model
+         * entrance canvas.
+         */
+        const computed =
+          window.getComputedStyle(stage);
+
+        const paddingTop =
+          Number.parseFloat(
+            computed.paddingTop
+          ) || 0;
+
+        const paddingBottom =
+          Number.parseFloat(
+            computed.paddingBottom
+          ) || 0;
+
+        const available =
+          Math.max(
+            0,
+            rect.height -
+              paddingTop -
+              paddingBottom
+          );
+
+        /*
+         * Never enlarge the model beyond the original
+         * 690px reference canvas.
+         *
+         * On a smaller frame, use its actual height.
+         */
+        const nextHeight =
+          Math.min(
+            MODEL_REFERENCE_HEIGHT,
+            available
+          );
+
+        if (nextHeight > 0) {
+          setModelHeight((current) =>
+            Math.abs(
+              current - nextHeight
+            ) < 0.5
+              ? current
+              : nextHeight
+          );
+        }
+      });
+    };
+
+    measure();
+
+    const observer =
+      new ResizeObserver(measure);
+
+    observer.observe(stage);
+
+    window.addEventListener(
+      "resize",
+      measure,
+      { passive: true }
+    );
+
+    window.visualViewport?.addEventListener(
+      "resize",
+      measure
+    );
+
+    return () => {
+      cancelAnimationFrame(frameId);
+
+      observer.disconnect();
+
+      window.removeEventListener(
+        "resize",
+        measure
+      );
+
+      window.visualViewport?.removeEventListener(
+        "resize",
+        measure
+      );
+    };
+  }, []);
+
+  const modelScale =
+    Math.min(
+      1,
+      Math.max(
+        0,
+        modelHeight /
+          MODEL_REFERENCE_HEIGHT
+      )
+    );
+
+  const modelStyle: WorkModelsStyle = {
+    "--wm-model-reference-height":
+      `${MODEL_REFERENCE_HEIGHT}px`,
+
+    "--wm-model-height":
+      `${modelHeight}px`,
+
+    "--wm-model-scale":
+      `${modelScale}`,
+  };
+
+  /* ========================================================
      MODEL NAVIGATION
-
-     On model change, return the Work Models stage and any
-     model-owned inner scroll area to their beginning.
-
-     HOME itself is never scrolled here.
   ======================================================== */
 
   const selectModel = useCallback(
@@ -131,7 +302,10 @@ export default function WorkModelsPortal() {
   const goPrevious = useCallback(() => {
     setActiveIndex(
       (current) =>
-        Math.max(0, current - 1) as ModelIndex
+        Math.max(
+          0,
+          current - 1
+        ) as ModelIndex
     );
   }, []);
 
@@ -145,6 +319,13 @@ export default function WorkModelsPortal() {
     );
   }, []);
 
+  /*
+   * Reset any model-owned experience scroll position when
+   * changing models.
+   *
+   * WorkModels itself is no longer a normal vertical
+   * scrolling container.
+   */
   useEffect(() => {
     const stage = stageRef.current;
 
@@ -173,139 +354,188 @@ export default function WorkModelsPortal() {
      INNER NAVIGATION EVENT ISOLATION
   ======================================================== */
 
-  const handleNavigationClick = useCallback(
-    (event: MouseEvent<HTMLElement>) => {
-      event.stopPropagation();
-    },
-    []
-  );
-
-  const handleNavigationKeyDown = useCallback(
-    (event: KeyboardEvent<HTMLElement>) => {
-      if (event.key === "ArrowLeft") {
-        event.preventDefault();
+  const handleNavigationClick =
+    useCallback(
+      (
+        event:
+          MouseEvent<HTMLElement>
+      ) => {
         event.stopPropagation();
-        goPrevious();
-      }
+      },
+      []
+    );
 
-      if (event.key === "ArrowRight") {
-        event.preventDefault();
-        event.stopPropagation();
-        goNext();
-      }
-    },
-    [goNext, goPrevious]
-  );
+  const handleNavigationKeyDown =
+    useCallback(
+      (
+        event:
+          KeyboardEvent<HTMLElement>
+      ) => {
+        if (
+          event.key === "ArrowLeft"
+        ) {
+          event.preventDefault();
+          event.stopPropagation();
+
+          goPrevious();
+        }
+
+        if (
+          event.key === "ArrowRight"
+        ) {
+          event.preventDefault();
+          event.stopPropagation();
+
+          goNext();
+        }
+      },
+      [goNext, goPrevious]
+    );
 
   /* ========================================================
      TOUCH SWIPE
 
-     Horizontal movement changes the active model.
-     Vertical movement remains available for scrolling.
+     Horizontal:
+       change Work Model
 
-     Touch coordinates are held in refs to avoid rerendering
-     the artwork during every touch movement.
+     Vertical:
+       remain available to the browser / HOME.
+
+     Interactive model buttons retain their own behavior.
   ======================================================== */
 
-  const handleTouchStart = useCallback(
-    (event: TouchEvent<HTMLDivElement>) => {
-      if (event.touches.length !== 1) {
-        touchStartRef.current = null;
-        touchLastRef.current = null;
-        return;
-      }
+  const handleTouchStart =
+    useCallback(
+      (
+        event:
+          TouchEvent<HTMLDivElement>
+      ) => {
+        if (
+          event.touches.length !== 1
+        ) {
+          touchStartRef.current =
+            null;
 
-      const touch = event.touches[0];
+          touchLastRef.current =
+            null;
 
-      touchStartRef.current = {
-        x: touch.clientX,
-        y: touch.clientY,
-      };
+          return;
+        }
 
-      touchLastRef.current = {
-        x: touch.clientX,
-        y: touch.clientY,
-      };
-    },
-    []
-  );
+        const touch =
+          event.touches[0];
 
-  const handleTouchMove = useCallback(
-    (event: TouchEvent<HTMLDivElement>) => {
-      if (
-        event.touches.length !== 1 ||
-        touchStartRef.current === null
-      ) {
-        return;
-      }
+        touchStartRef.current = {
+          x: touch.clientX,
+          y: touch.clientY,
+        };
 
-      const touch = event.touches[0];
+        touchLastRef.current = {
+          x: touch.clientX,
+          y: touch.clientY,
+        };
+      },
+      []
+    );
 
-      touchLastRef.current = {
-        x: touch.clientX,
-        y: touch.clientY,
-      };
-    },
-    []
-  );
+  const handleTouchMove =
+    useCallback(
+      (
+        event:
+          TouchEvent<HTMLDivElement>
+      ) => {
+        if (
+          event.touches.length !== 1 ||
+          touchStartRef.current ===
+            null
+        ) {
+          return;
+        }
 
-  const handleTouchEnd = useCallback(
-    (event: TouchEvent<HTMLDivElement>) => {
-      const start = touchStartRef.current;
-      const last = touchLastRef.current;
+        const touch =
+          event.touches[0];
 
+        touchLastRef.current = {
+          x: touch.clientX,
+          y: touch.clientY,
+        };
+      },
+      []
+    );
+
+  const handleTouchEnd =
+    useCallback(
+      (
+        event:
+          TouchEvent<HTMLDivElement>
+      ) => {
+        const start =
+          touchStartRef.current;
+
+        const last =
+          touchLastRef.current;
+
+        touchStartRef.current =
+          null;
+
+        touchLastRef.current =
+          null;
+
+        if (!start || !last) {
+          return;
+        }
+
+        const deltaX =
+          last.x - start.x;
+
+        const deltaY =
+          last.y - start.y;
+
+        const isHorizontalGesture =
+          Math.abs(deltaX) > 55 &&
+          Math.abs(deltaX) >
+            Math.abs(deltaY) *
+              1.35;
+
+        if (!isHorizontalGesture) {
+          return;
+        }
+
+        const target =
+          event.target;
+
+        if (
+          target instanceof Element &&
+          target.closest(
+            [
+              "button",
+              "a",
+              "input",
+              "textarea",
+              "select",
+              '[role="button"]',
+            ].join(",")
+          )
+        ) {
+          return;
+        }
+
+        event.stopPropagation();
+
+        if (deltaX < 0) {
+          goNext();
+        } else {
+          goPrevious();
+        }
+      },
+      [goNext, goPrevious]
+    );
+
+  const handleTouchCancel =
+    useCallback(() => {
       touchStartRef.current = null;
       touchLastRef.current = null;
-
-      if (!start || !last) return;
-
-      const deltaX = last.x - start.x;
-      const deltaY = last.y - start.y;
-
-      const isHorizontalGesture =
-        Math.abs(deltaX) > 55 &&
-        Math.abs(deltaX) >
-          Math.abs(deltaY) * 1.35;
-
-      if (!isHorizontalGesture) return;
-
-      /*
-       * A swipe beginning on an interactive element
-       * should not override that element's behavior.
-       */
-      const target = event.target;
-
-      if (
-        target instanceof Element &&
-        target.closest(
-          [
-            "button",
-            "a",
-            "input",
-            "textarea",
-            "select",
-            '[role="button"]',
-          ].join(",")
-        )
-      ) {
-        return;
-      }
-
-      event.stopPropagation();
-
-      if (deltaX < 0) {
-        goNext();
-      } else {
-        goPrevious();
-      }
-    },
-    [goNext, goPrevious]
-  );
-
-  const handleTouchCancel = useCallback(() => {
-    touchStartRef.current = null;
-    touchLastRef.current = null;
-  }, []);
+    }, []);
 
   /* ========================================================
      RENDER
@@ -322,7 +552,10 @@ export default function WorkModelsPortal() {
 
       <header className="wm-portal__header">
         <div className="wm-portal__brand">
-          <span>ARCHENOVA WORK MODELS</span>
+          <span>
+            ARCHENOVA WORK MODELS
+          </span>
+
           <small>EXHIBITION</small>
         </div>
       </header>
@@ -336,22 +569,26 @@ export default function WorkModelsPortal() {
           className="wm-portal__counter"
           aria-live="polite"
         >
-          {String(activeIndex + 1).padStart(2, "0")}
+          {String(
+            activeIndex + 1
+          ).padStart(2, "0")}
           {" / "}
-          {String(MODEL_COUNT).padStart(2, "0")}
+          {String(
+            MODEL_COUNT
+          ).padStart(2, "0")}
         </span>
       </div>
 
       {/* ====================================================
-          INNER MODEL STAGE
+          ENTRANCE FRAME
 
-          WorkModels owns the bounded vertical viewport.
+          This is now a fitting frame, not a 690px scrolling
+          viewport.
 
-          Each model keeps its own natural entrance height,
-          two-row layout, padding, and visual envelope.
+          690px remains the model reference geometry.
 
-          If the model is taller than the available viewport,
-          this outer stage scrolls.
+          The actual usable height is published through CSS
+          variables on .wm-portal__model.
       ==================================================== */}
 
       <div
@@ -360,10 +597,18 @@ export default function WorkModelsPortal() {
         role="region"
         aria-label={`${MODEL_NAMES[activeIndex]} model`}
         tabIndex={0}
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
-        onTouchCancel={handleTouchCancel}
+        onTouchStart={
+          handleTouchStart
+        }
+        onTouchMove={
+          handleTouchMove
+        }
+        onTouchEnd={
+          handleTouchEnd
+        }
+        onTouchCancel={
+          handleTouchCancel
+        }
       >
         <div
           key={activeIndex}
@@ -373,6 +618,7 @@ export default function WorkModelsPortal() {
               activeIndex
             ].toLowerCase()}`,
           ].join(" ")}
+          style={modelStyle}
         >
           {activeIndex === 0 && (
             <EpistemeDialoguePortal />
@@ -389,43 +635,49 @@ export default function WorkModelsPortal() {
       </div>
 
       {/* ====================================================
-          INNER NAVIGATION
-
-          Navigation remains outside the model scroll area.
+          NAVIGATION
       ==================================================== */}
 
       <nav
         className="wm-portal__navigation"
         aria-label="Work Models navigation"
-        onClick={handleNavigationClick}
-        onKeyDown={handleNavigationKeyDown}
+        onClick={
+          handleNavigationClick
+        }
+        onKeyDown={
+          handleNavigationKeyDown
+        }
       >
         <div className="wm-portal__pagination">
-          {MODEL_NAMES.map((name, index) => (
-            <button
-              key={name}
-              type="button"
-              className={[
-                "wm-portal__dot",
-                activeIndex === index
-                  ? "wm-portal__dot--active"
-                  : "",
-              ]
-                .filter(Boolean)
-                .join(" ")}
-              aria-label={`Show ${name}`}
-              aria-current={
-                activeIndex === index
-                  ? "step"
-                  : undefined
-              }
-              onClick={() =>
-                selectModel(index as ModelIndex)
-              }
-            >
-              <span />
-            </button>
-          ))}
+          {MODEL_NAMES.map(
+            (name, index) => (
+              <button
+                key={name}
+                type="button"
+                className={[
+                  "wm-portal__dot",
+                  activeIndex === index
+                    ? "wm-portal__dot--active"
+                    : "",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
+                aria-label={`Show ${name}`}
+                aria-current={
+                  activeIndex === index
+                    ? "step"
+                    : undefined
+                }
+                onClick={() =>
+                  selectModel(
+                    index as ModelIndex
+                  )
+                }
+              >
+                <span />
+              </button>
+            )
+          )}
         </div>
 
         <div className="wm-portal__arrows">
@@ -433,7 +685,9 @@ export default function WorkModelsPortal() {
             type="button"
             className="wm-portal__arrow"
             aria-label="Previous Work Model"
-            disabled={activeIndex === 0}
+            disabled={
+              activeIndex === 0
+            }
             onClick={goPrevious}
           >
             <ArrowLeftIcon />
@@ -444,7 +698,8 @@ export default function WorkModelsPortal() {
             className="wm-portal__arrow"
             aria-label="Next Work Model"
             disabled={
-              activeIndex === MODEL_COUNT - 1
+              activeIndex ===
+              MODEL_COUNT - 1
             }
             onClick={goNext}
           >
@@ -456,11 +711,6 @@ export default function WorkModelsPortal() {
       <style jsx global>{`
         /* ==================================================
            01 / OUTER HOME GLASS
-
-           One fixed-height HOME section.
-
-           The HOME section itself does not scroll.
-           WorkModels' internal stage owns overflow.
         ================================================== */
 
         .archenova-twin-home
@@ -493,38 +743,88 @@ export default function WorkModelsPortal() {
           background:
             radial-gradient(
               circle at 50% 0%,
-              rgba(255, 255, 255, 0.025) 0%,
-              rgba(255, 255, 255, 0.008) 24%,
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              )
+              0%,
+              rgba(
+                255,
+                255,
+                255,
+                0.008
+              )
+              24%,
               transparent 52%
             ),
             linear-gradient(
               145deg,
-              rgba(15, 16, 18, 0.20) 0%,
-              rgba(7, 8, 10, 0.24) 48%,
-              rgba(0, 0, 0, 0.30) 100%
+              rgba(
+                15,
+                16,
+                18,
+                0.20
+              )
+              0%,
+              rgba(
+                7,
+                8,
+                10,
+                0.24
+              )
+              48%,
+              rgba(
+                0,
+                0,
+                0,
+                0.30
+              )
+              100%
             )
             !important;
 
           border:
             1px solid
-            rgba(255, 255, 255, 0.065)
+            rgba(
+              255,
+              255,
+              255,
+              0.065
+            )
             !important;
 
-          border-radius: 30px !important;
+          border-radius:
+            30px !important;
 
           -webkit-backdrop-filter:
-            blur(22px) saturate(106%)
+            blur(22px)
+            saturate(106%)
             !important;
 
           backdrop-filter:
-            blur(22px) saturate(106%)
+            blur(22px)
+            saturate(106%)
             !important;
 
           box-shadow:
-            inset 0 1px 0
-              rgba(255, 255, 255, 0.040),
-            inset 0 -1px 0
-              rgba(255, 255, 255, 0.010)
+            inset
+              0 1px 0
+              rgba(
+                255,
+                255,
+                255,
+                0.040
+              ),
+            inset
+              0 -1px 0
+              rgba(
+                255,
+                255,
+                255,
+                0.010
+              )
             !important;
 
           outline: 0 !important;
@@ -540,10 +840,6 @@ export default function WorkModelsPortal() {
 
         /* ==================================================
            02 / PORTAL ROOT
-
-           Critical:
-           flex: 1 + min-height: 0 lets the internal stage
-           consume only the space left above navigation.
         ================================================== */
 
         #work-models .wm-portal,
@@ -563,6 +859,7 @@ export default function WorkModelsPortal() {
 
           min-width: 0;
           min-height: 0;
+
           height: 100%;
           max-height: 100%;
 
@@ -571,9 +868,16 @@ export default function WorkModelsPortal() {
 
           overflow: hidden;
 
-          color: rgba(250, 252, 253, 0.96);
+          color:
+            rgba(
+              250,
+              252,
+              253,
+              0.96
+            );
 
           background: transparent;
+
           border: 0;
           box-shadow: none;
 
@@ -585,38 +889,57 @@ export default function WorkModelsPortal() {
             Arial,
             sans-serif;
 
-          -webkit-font-smoothing: antialiased;
+          -webkit-font-smoothing:
+            antialiased;
         }
 
         /* ==================================================
            03 / HEADER
         ================================================== */
 
-        #work-models .wm-portal__header {
+        #work-models
+        .wm-portal__header {
           display: flex;
           flex: 0 0 auto;
+
           align-items: flex-start;
           justify-content: space-between;
 
           gap: 16px;
         }
 
-        #work-models .wm-portal__brand {
+        #work-models
+        .wm-portal__brand {
           display: flex;
           flex-direction: column;
+
           gap: 6px;
         }
 
-        #work-models .wm-portal__brand > span {
-          color: rgba(255, 255, 255, 0.85);
+        #work-models
+        .wm-portal__brand > span {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.85
+            );
 
           font-size: 9px;
           font-weight: 650;
           letter-spacing: 0.19em;
         }
 
-        #work-models .wm-portal__brand > small {
-          color: rgba(255, 255, 255, 0.34);
+        #work-models
+        .wm-portal__brand > small {
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.34
+            );
 
           font-size: 8px;
           font-weight: 500;
@@ -627,47 +950,60 @@ export default function WorkModelsPortal() {
            04 / HEADING
         ================================================== */
 
-        #work-models .wm-portal__heading {
+        #work-models
+        .wm-portal__heading {
           display: flex;
           flex: 0 0 auto;
+
           align-items: flex-end;
           justify-content: space-between;
 
           gap: 18px;
 
           margin-top:
-            clamp(16px, 2.5svh, 28px);
+            clamp(
+              16px,
+              2.5svh,
+              28px
+            );
 
           margin-bottom: 14px;
         }
 
-        #work-models .wm-portal__counter {
+        #work-models
+        .wm-portal__counter {
           flex: 0 0 auto;
 
           padding-bottom: 4px;
 
-          color: rgba(255, 255, 255, 0.52);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.52
+            );
 
           font-size: 11px;
           font-weight: 500;
           letter-spacing: 0.12em;
-          font-variant-numeric: tabular-nums;
+
+          font-variant-numeric:
+            tabular-nums;
         }
 
         /* ==================================================
-           05 / INNER MODEL STAGE
+           05 / ENTRANCE FRAME
 
-           This is the bounded scrolling viewport.
+           This is no longer a normal vertical-scrolling
+           container.
 
-           Important:
-           The stage may be smaller than a model's 690px
-           entrance geometry.
-
-           We therefore scroll this outer stage instead of
-           collapsing the model itself.
+           It defines the actual physical area available to
+           the active model.
         ================================================== */
 
-        #work-models .wm-portal__stage {
+        #work-models
+        .wm-portal__stage {
           position: relative;
           isolation: isolate;
 
@@ -686,122 +1022,168 @@ export default function WorkModelsPortal() {
 
           padding:
             17px
-            clamp(12px, 2vw, 24px)
+            clamp(
+              12px,
+              2vw,
+              24px
+            )
             12px;
 
-          overflow-x: hidden;
-          overflow-y: auto;
+          overflow: hidden;
 
-          overscroll-behavior-x: contain;
-          overscroll-behavior-y: contain;
+          overscroll-behavior:
+            contain;
 
-          -webkit-overflow-scrolling: touch;
-          touch-action: pan-y;
+          touch-action:
+            pan-y;
 
           border:
             1px solid
-            rgba(255, 255, 255, 0.085);
+            rgba(
+              255,
+              255,
+              255,
+              0.085
+            );
 
           border-radius: 22px;
 
           background:
-            rgba(0, 0, 0, 0.095);
+            rgba(
+              0,
+              0,
+              0,
+              0.095
+            );
 
           box-shadow:
-            inset 0 1px 0
-              rgba(255, 255, 255, 0.018);
-
-          scrollbar-width: thin;
-
-          scrollbar-color:
-            rgba(255, 255, 255, 0.18)
-            transparent;
+            inset
+              0 1px 0
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              );
         }
 
         #work-models
-        .wm-portal__stage::-webkit-scrollbar {
-          width: 3px;
-        }
-
-        #work-models
-        .wm-portal__stage::-webkit-scrollbar-track {
-          background: transparent;
-        }
-
-        #work-models
-        .wm-portal__stage::-webkit-scrollbar-thumb {
-          border-radius: 999px;
-
-          background:
-            rgba(255, 255, 255, 0.18);
-        }
-
-        #work-models .wm-portal__stage:focus-visible {
+        .wm-portal__stage:focus-visible {
           outline:
             1px solid
-            rgba(255, 255, 255, 0.42);
+            rgba(
+              255,
+              255,
+              255,
+              0.42
+            );
 
           outline-offset: -3px;
         }
 
         /* ==================================================
-           06 / MODEL WRAPPER
+           06 / MODEL FIT CONTRACT
 
-           Natural model height is preserved.
+           The model wrapper occupies exactly the available
+           entrance canvas.
 
-           This wrapper must never compress a model's
-           internal entrance geometry.
+           690px is exposed as a reference value, but it is
+           no longer forced as a physical minimum here.
         ================================================== */
 
-        #work-models .wm-portal__model {
+        #work-models
+        .wm-portal__model {
           position: relative;
 
           display: flex;
-          flex: 0 0 auto;
+          flex: 1 1 auto;
           flex-direction: column;
 
           width: 100%;
           min-width: 0;
 
           min-height: 0;
-          height: auto;
+
+          height:
+            var(
+              --wm-model-height,
+              690px
+            );
+
+          max-height: 100%;
 
           margin: 0;
           padding: 0;
 
-          overflow: visible;
+          overflow: hidden;
 
           background: transparent;
         }
 
         /* ==================================================
-           07 / MODEL OWNERSHIP
+           07 / MODEL ROOT CONTRACT
 
-           WorkModels removes only duplicate outer surfaces.
+           Duplicate outer surfaces are removed.
 
-           It deliberately does NOT override:
-             - min-height
-             - internal grid rows
-             - entrance padding
-             - experience geometry
-             - visual envelope dimensions
+           The active model receives the actual Work Models
+           entrance height.
 
-           Those belong to each model component.
+           This deliberately overrides the former 690px
+           physical minimum only inside Work Models.
         ================================================== */
 
-        #work-models .ep-dialogue-portal,
-        #work-models .fw-portal,
-        #work-models .ae-portal {
-          width: 100% !important;
-          max-width: 100% !important;
-          min-width: 0 !important;
+        #work-models
+        .ep-dialogue-portal,
+        #work-models
+        .fw-portal,
+        #work-models
+        .ae-portal {
+          flex:
+            1 1 auto !important;
 
-          margin: 0 !important;
+          width:
+            100% !important;
 
-          background: transparent !important;
+          max-width:
+            100% !important;
 
-          border: 0 !important;
-          border-radius: 0 !important;
+          min-width:
+            0 !important;
+
+          min-height:
+            0 !important;
+
+          height:
+            var(
+              --wm-model-height,
+              690px
+            )
+            !important;
+
+          max-height:
+            var(
+              --wm-model-height,
+              690px
+            )
+            !important;
+
+          margin:
+            0 !important;
+
+          padding:
+            0 !important;
+
+          overflow:
+            hidden !important;
+
+          background:
+            transparent !important;
+
+          border:
+            0 !important;
+
+          border-radius:
+            0 !important;
 
           -webkit-backdrop-filter:
             none !important;
@@ -809,38 +1191,73 @@ export default function WorkModelsPortal() {
           backdrop-filter:
             none !important;
 
-          box-shadow: none !important;
+          box-shadow:
+            none !important;
         }
 
-        /*
-         * Do not set min-height / height / max-height here.
-         *
-         * Episteme, Framework, and Aetherion retain their
-         * own dimensional entrance contracts.
-         */
-
         /* ==================================================
-           08 / MODEL INTERNAL SURFACES
+           08 / TWO-ROW MODEL CANVAS
 
-           Remove duplicate glass only.
+           All three model canvases occupy the exact physical
+           height supplied by WorkModels.
 
-           No geometry is overridden here.
+           Their own:
+             header
+             experience
+           remain the two rows.
+
+           No transform scaling is applied.
         ================================================== */
 
-        #work-models .ep-dialogue-portal__card,
-        #work-models .fw-portal__stage,
-        #work-models .ae-portal__stage {
-          width: 100% !important;
-          max-width: 100% !important;
-          min-width: 0 !important;
+        #work-models
+        .ep-dialogue-portal__card,
+        #work-models
+        .fw-portal__stage,
+        #work-models
+        .ae-portal__stage {
+          flex:
+            1 1 auto !important;
 
-          margin-left: 0 !important;
-          margin-right: 0 !important;
+          width:
+            100% !important;
 
-          background: transparent !important;
+          max-width:
+            100% !important;
 
-          border: 0 !important;
-          border-radius: 0 !important;
+          min-width:
+            0 !important;
+
+          min-height:
+            0 !important;
+
+          height:
+            100% !important;
+
+          max-height:
+            100% !important;
+
+          margin:
+            0 !important;
+
+          display:
+            grid !important;
+
+          grid-template-rows:
+            auto
+            minmax(0, 1fr)
+            !important;
+
+          overflow:
+            hidden !important;
+
+          background:
+            transparent !important;
+
+          border:
+            0 !important;
+
+          border-radius:
+            0 !important;
 
           -webkit-backdrop-filter:
             none !important;
@@ -848,45 +1265,55 @@ export default function WorkModelsPortal() {
           backdrop-filter:
             none !important;
 
-          box-shadow: none !important;
+          box-shadow:
+            none !important;
         }
 
         /*
-         * Intentionally absent:
+         * Desktop/tablet model-owned padding is intentionally
+         * preserved.
          *
-         * min-height: 0 !important;
-         * height: auto !important;
-         * max-height: none !important;
-         * padding: ... !important;
-         * overflow: visible !important;
-         *
-         * These previously destroyed the shared
-         * Episteme-based 690px entrance geometry.
+         * Only the physical height contract is changed.
          */
 
         /* ==================================================
-           09 / ENTRY TRANSITIONS
+           09 / EXPERIENCE SAFETY CONTRACT
 
-           Framework and Aetherion render their entry
-           overlays under document.body.
+           The experience is allowed to shrink as part of
+           the two-row layout.
 
-           WorkModels never constrains those overlays.
+           It must never force the model canvas beyond the
+           Work Models frame.
         ================================================== */
+
+        #work-models
+        .ep-dialogue-portal__experience,
+        #work-models
+        .fw-portal__experience,
+        #work-models
+        .ae-portal__experience {
+          min-height:
+            0 !important;
+
+          max-height:
+            100% !important;
+
+          overflow:
+            hidden !important;
+        }
 
         /* ==================================================
            10 / NAVIGATION
-
-           Separate non-scrolling navigation.
-
-           This remains outside .wm-portal__stage.
         ================================================== */
 
-        #work-models .wm-portal__navigation {
+        #work-models
+        .wm-portal__navigation {
           position: relative;
-          z-index: 2;
+          z-index: 20;
 
           display: flex;
           flex: 0 0 auto;
+
           align-items: center;
           justify-content: space-between;
 
@@ -900,14 +1327,16 @@ export default function WorkModelsPortal() {
           background: transparent;
         }
 
-        #work-models .wm-portal__pagination {
+        #work-models
+        .wm-portal__pagination {
           display: flex;
           align-items: center;
 
           gap: 4px;
         }
 
-        #work-models .wm-portal__dot {
+        #work-models
+        .wm-portal__dot {
           display: grid;
           place-items: center;
 
@@ -924,14 +1353,20 @@ export default function WorkModelsPortal() {
           cursor: pointer;
         }
 
-        #work-models .wm-portal__dot span {
+        #work-models
+        .wm-portal__dot span {
           width: 16px;
           height: 2px;
 
           border-radius: 999px;
 
           background:
-            rgba(255, 255, 255, 0.27);
+            rgba(
+              255,
+              255,
+              255,
+              0.27
+            );
 
           transition:
             width 180ms ease,
@@ -943,17 +1378,24 @@ export default function WorkModelsPortal() {
           width: 25px;
 
           background:
-            rgba(255, 255, 255, 0.92);
+            rgba(
+              255,
+              255,
+              255,
+              0.92
+            );
         }
 
-        #work-models .wm-portal__arrows {
+        #work-models
+        .wm-portal__arrows {
           display: flex;
           align-items: center;
 
           gap: 12px;
         }
 
-        #work-models .wm-portal__arrow {
+        #work-models
+        .wm-portal__arrow {
           display: grid;
           place-items: center;
 
@@ -963,9 +1405,15 @@ export default function WorkModelsPortal() {
           padding: 0;
 
           color:
-            rgba(255, 255, 255, 0.88);
+            rgba(
+              255,
+              255,
+              255,
+              0.88
+            );
 
-          background: transparent;
+          background:
+            transparent;
 
           border: 0;
           border-radius: 0;
@@ -976,21 +1424,30 @@ export default function WorkModelsPortal() {
             opacity 180ms ease;
         }
 
-        #work-models .wm-portal__arrow svg {
+        #work-models
+        .wm-portal__arrow svg {
           width: 38px;
           height: 16px;
         }
 
-        #work-models .wm-portal__arrow:disabled {
+        #work-models
+        .wm-portal__arrow:disabled {
           opacity: 0.22;
           cursor: default;
         }
 
-        #work-models .wm-portal__dot:focus-visible,
-        #work-models .wm-portal__arrow:focus-visible {
+        #work-models
+        .wm-portal__dot:focus-visible,
+        #work-models
+        .wm-portal__arrow:focus-visible {
           outline:
             2px solid
-            rgba(255, 255, 255, 0.88);
+            rgba(
+              255,
+              255,
+              255,
+              0.88
+            );
 
           outline-offset: 2px;
         }
@@ -998,17 +1455,11 @@ export default function WorkModelsPortal() {
         /* ==================================================
            11 / MOBILE
 
-           Critical difference from the previous version:
+           On mobile the available model canvas is usually
+           below the 690px reference.
 
-           WorkModels changes only its own viewport.
-
-           It no longer resets model min-height or model
-           padding.
-
-           Therefore each model keeps:
-             690px
-             two rows
-             Episteme-aligned entrance envelope
+           Therefore the internal geometry becomes compact
+           while retaining the same two-row architecture.
         ================================================== */
 
         @media (max-width: 768px) {
@@ -1092,7 +1543,8 @@ export default function WorkModelsPortal() {
               !important;
           }
 
-          #work-models .wm-portal {
+          #work-models
+          .wm-portal {
             min-height: 0;
 
             height: 100%;
@@ -1107,8 +1559,10 @@ export default function WorkModelsPortal() {
             margin-bottom: 12px;
           }
 
-          #work-models .wm-portal__stage {
-            flex: 1 1 auto;
+          #work-models
+          .wm-portal__stage {
+            flex:
+              1 1 auto;
 
             min-height: 0;
             max-height: 100%;
@@ -1118,34 +1572,288 @@ export default function WorkModelsPortal() {
               8px
               8px;
 
-            overflow-x: hidden;
-            overflow-y: auto;
+            overflow: hidden;
 
             border-radius: 17px;
 
-            overscroll-behavior-y:
+            overscroll-behavior:
               contain;
 
-            -webkit-overflow-scrolling:
-              touch;
-
-            touch-action: pan-y;
+            touch-action:
+              pan-y;
           }
 
-          /*
-           * IMPORTANT:
-           *
-           * No mobile min-height reset is applied to:
-           *
-           * .ep-dialogue-portal
-           * .ep-dialogue-portal__card
-           * .fw-portal
-           * .fw-portal__stage
-           * .ae-portal
-           * .ae-portal__stage
-           *
-           * Their own 690px geometry remains authoritative.
-           */
+          /* ================================================
+             MOBILE / SHARED ENTRANCE PADDING
+
+             These values are the Episteme mobile reference.
+
+             All three model canvases now use the same
+             physical entrance padding inside WorkModels.
+          ================================================ */
+
+          #work-models
+          .ep-dialogue-portal__card,
+          #work-models
+          .fw-portal__stage,
+          #work-models
+          .ae-portal__stage {
+            padding:
+              clamp(
+                12px,
+                calc(
+                  25px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                25px
+              )
+              clamp(
+                10px,
+                calc(
+                  18px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                18px
+              )
+              clamp(
+                11px,
+                calc(
+                  23px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                23px
+              )
+              !important;
+          }
+
+          /* ================================================
+             MOBILE / EXPERIENCE FIT
+
+             Original Episteme reference:
+               35px top
+               30px bottom
+
+             The spacing contracts proportionally when the
+             available frame is below 690px.
+          ================================================ */
+
+          #work-models
+          .ep-dialogue-portal__experience,
+          #work-models
+          .fw-portal__experience,
+          #work-models
+          .ae-portal__experience {
+            padding:
+              clamp(
+                8px,
+                calc(
+                  35px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                35px
+              )
+              0
+              clamp(
+                8px,
+                calc(
+                  30px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                30px
+              )
+              !important;
+
+            overflow:
+              hidden !important;
+          }
+
+          /* ================================================
+             MOBILE / SHARED TITLE FIT
+
+             This is intentionally applied only inside
+             WorkModels.
+
+             The model's standalone page remains unchanged.
+          ================================================ */
+
+          #work-models
+          .ep-dialogue-portal__statement h2,
+          #work-models
+          .fw-portal__statement h2,
+          #work-models
+          .ae-portal__statement h2 {
+            font-size:
+              clamp(
+                25px,
+                calc(
+                  46px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                46px
+              )
+              !important;
+
+            line-height:
+              1 !important;
+          }
+
+          /* ================================================
+             MOBILE / ENTRANCE ENVELOPE
+
+             305px is the shared Episteme reference visual
+             envelope.
+
+             The envelope contracts with the actual model
+             frame instead of leaving the frame.
+          ================================================ */
+
+          #work-models
+          .ep-dialogue-portal__brain-button,
+          #work-models
+          .fw-portal__framework-button,
+          #work-models
+          .ae-portal__factory-button {
+            width:
+              min(
+                100%,
+                clamp(
+                  230px,
+                  calc(
+                    350px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  350px
+                )
+              )
+              !important;
+
+            flex:
+              0 1 auto !important;
+
+            margin-top:
+              clamp(
+                1px,
+                calc(
+                  8px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                8px
+              )
+              !important;
+          }
+
+          #work-models
+          .ep-dialogue-portal__brain,
+          #work-models
+          .fw-portal__artifact,
+          #work-models
+          .ae-portal__factory {
+            width:
+              min(
+                100%,
+                clamp(
+                  205px,
+                  calc(
+                    305px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  305px
+                )
+              )
+              !important;
+
+            max-width:
+              100% !important;
+
+            flex:
+              0 1 auto !important;
+          }
+
+          /* ================================================
+             TAP HINT
+
+             Keep the hint inside the entrance envelope.
+          ================================================ */
+
+          #work-models
+          .ep-dialogue-portal__tap-hint,
+          #work-models
+          .fw-portal__tap-hint,
+          #work-models
+          .ae-portal__tap-hint {
+            bottom:
+              clamp(
+                2px,
+                calc(
+                  0.5% *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                0.5%
+              )
+              !important;
+
+            max-width:
+              calc(
+                100% - 16px
+              )
+              !important;
+
+            overflow:
+              hidden !important;
+
+            font-size:
+              clamp(
+                4.5px,
+                calc(
+                  5.5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                5.5px
+              )
+              !important;
+
+            letter-spacing:
+              0.1em !important;
+
+            text-overflow:
+              ellipsis;
+
+            white-space:
+              nowrap;
+          }
 
           #work-models
           .wm-portal__navigation {
@@ -1189,14 +1897,16 @@ export default function WorkModelsPortal() {
             font-size: 10px;
           }
 
-          #work-models .wm-portal__stage {
+          #work-models
+          .wm-portal__stage {
             padding:
               10px
               6px
               7px;
           }
 
-          #work-models .wm-portal__arrow {
+          #work-models
+          .wm-portal__arrow {
             width: 44px;
           }
 
@@ -1209,15 +1919,16 @@ export default function WorkModelsPortal() {
         /* ==================================================
            13 / SHORT MOBILE VIEWPORT
 
-           Only the outer WorkModels viewport is compacted.
+           We compact WorkModels chrome first.
 
-           Model-owned 690px entrance geometry remains
-           untouched and therefore scrolls inside the stage.
+           The remaining entrance frame is then measured
+           automatically and published to the active model.
         ================================================== */
 
         @media
           (max-width: 768px)
           and (max-height: 720px) {
+
           .archenova-twin-home
           > section#work-models[data-home-section] {
             padding-top:
@@ -1258,7 +1969,8 @@ export default function WorkModelsPortal() {
           .wm-portal__dot span,
           #work-models
           .wm-portal__arrow {
-            transition: none !important;
+            transition:
+              none !important;
           }
         }
       `}</style>
