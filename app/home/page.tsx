@@ -37,11 +37,10 @@ export default function HomePage() {
 
       <ArcheNovaCivilizationPrelude />
 
-      {/* ==================================================
+       {/* ==================================================
           01 — CIVILIZATION PURPOSE MAP
-          Large-format scientific figure summarizing the
-          foundational purpose as one integrated system.
-          Visual rules live in app/globals.css.
+          Image-only scientific exhibition.
+          One HOME section = one optical glass surface.
       ================================================== */}
 
       <section
@@ -50,29 +49,20 @@ export default function HomePage() {
         className="home-page an-purpose-map an-home-2026__section"
         aria-label="ArcheNova Civilization Purpose Map"
       >
-        <figure className="an-purpose-map__figure">
-          <div className="an-purpose-map__viewport">
-            <img
-              src="/images/archenova-civilization-purpose-map.jpeg"
-              alt="ArcheNova civilization digital twin framework illustrating the relationships among science, technology, energy, infrastructure, biological systems, institutions, system dependencies, scenario exploration, evidence-based validation, feasibility, correctability, and real-world testing."
-              className="an-purpose-map__image"
-              loading="lazy"
-              decoding="async"
-              draggable={false}
-            />
-          </div>
-
-          <figcaption className="an-purpose-map__caption">
-            <span className="an-purpose-map__caption-index">
-              ARCHENOVA · PURPOSE
-            </span>
-
-            <span className="an-purpose-map__caption-text">
-              From interconnected models to independently validated,
-              correctable real-world capability.
-            </span>
-          </figcaption>
-        </figure>
+        <div className="an-home-2026__glass">
+          <figure className="an-purpose-map__figure">
+            <div className="an-purpose-map__image-frame">
+              <img
+                src="/images/archenova-civilization-purpose-map.jpeg"
+                alt="ArcheNova civilization digital twin framework illustrating the relationships among science, technology, energy, infrastructure, biological systems, institutions, evidence, validation, feasibility, correctability, and real-world testing."
+                className="an-purpose-map__image"
+                loading="eager"
+                decoding="async"
+                draggable={false}
+              />
+            </div>
+          </figure>
+        </div>
       </section>
 
       {/* ==================================================
