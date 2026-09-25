@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-25T18:18:31.918Z",
+  "updated": "2026-09-25T22:03:17.522Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1790362800000,
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Thar Process Partners with ExtrateX to Bring Prep to Process-Scale SFC to Europe",
+      "url": "https://www.genengnews.com/topics/bioprocessing/thar-process-partners-with-extratex-to-bring-prep-to-process-scale-sfc-to-europe/",
+      "summary": "SFC is a platform technology that utilizes upcycled CO2 for the purification of natural and synthetic molecules that is both highly efficient and sustainable at the same time. The post Thar Process Partners with ExtrateX…",
+      "ts": 1790360360000,
+      "publishedAt": "2026-09-25T18:19:20.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "Genetic Engineering News",
@@ -118,6 +127,114 @@
       "ts": 1790337721000,
       "publishedAt": "2026-09-25T12:02:01.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Pakistan’s Sharif warns any diversion of Indus waters will be ‘treated as an act of war’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168452",
+      "summary": "Pakistani Prime Minister Shehbaz Sharif told the UN General Assembly on Friday that any attempt by India to stop, impede or divert Pakistan’s share of the Indus River waters “will be treated as an act of war”.",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN voices grave concern as fighting spreads across northern Ethiopia",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168450",
+      "summary": "The UN said on Friday it remains gravely concerned by the continued deterioration of the security situation across northern Ethiopia, as fighting spreads across multiple fronts and increasingly disrupts humanitarian oper…",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Tuvalu urges decisive global action as rising seas threaten its future",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168449",
+      "summary": "Climate change remains the greatest existential threat to Tuvalu, Prime Minister Feleti Teo told the UN General Assembly on Friday, warning that the pace and scale of international action are still falling far short of w…",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: West Bank demolitions accelerate, urgent support for Sudan,  Haiti diplacement, AI hub to boost gender equality",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168447",
+      "summary": "The situation in the occupied West Bank continues to deteriorate, the UN human rights office has said, pointing to the “mass destruction” of Palestinian villages and forcible transfer of residents in Msafer Yatta, South …",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘No one speaks on behalf of Lebanon’: PM Salam asserts State authority at UN",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168444",
+      "summary": "Lebanon’s Prime Minister, Nawaf Salam, has stressed that decisions over war and peace, and control of weapons, must rest solely with the State and its constitutional institutions.",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Invest with Iraq’: PM sets out vision for new economic future",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168443",
+      "summary": "Iraq’s Prime Minister, Ali Faleh Al-Zaidi, said his country aims to exert its influence as an active economic power in the region, and as a bridge for dialogue and cooperation between its peoples.",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nepal PM urges climate justice after ‘Himalayan tsunami’ devastates country",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168441",
+      "summary": "Nepal’s Prime Minister Balendra Shah brought a stark warning from the Himalayas to the UN General Assembly on Thursday, saying catastrophic floods that killed at least 1,400 people in his country laid bare the human cost…",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Africa needs its own AI solutions, not borrowed ones, says expert",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168440",
+      "summary": "Africa should focus its use of technology on solving its own real challenges rather than copying the systems and priorities of other parts of the world.",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan’s farmers are ready to return – private investment could get them there",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168439",
+      "summary": "The war in Sudan has devastated the economy and agricultural production, but a UN-backed plan aims to mobilise private sector investment to help farmers return to their fields.",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Rising tide of forced displacement",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168438",
+      "summary": "At a time when war, climate crises and man-made disasters continue to displace millions around the world, the UN High Commissioner for Refugees briefed the Security Council on Friday.",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: Six years on from COVID-19, is the world ready for the next pandemic?",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168437",
+      "summary": "COVID-19 killed millions, shattered health systems and brought the global economy to a virtual standstill. World leaders are meeting Friday to review the lessons learned and cement a new approach to prevention and prepar…",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen violence deepens concerns over child hunger crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168436",
+      "summary": "Aid agencies in Yemen highlighted the growing hunger emergency sparked by renewed fighting between Houthi opposition forces and Government troops, after mobile health clinics reported that hundreds of children displaced …",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -694,123 +811,6 @@
       "ts": 1790257930000,
       "publishedAt": "2026-09-24T13:52:10.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about the FDA commissioner nominee, a Lilly partnership in China, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/?utm_campaign=rss",
-      "summary": "During a Senate hearing today, Heidi Overton, the nominee to lead the FDA, plans to emphasize the need for speed and efficiency to compete with China",
-      "ts": 1790256110000,
-      "publishedAt": "2026-09-24T13:21:50.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The rise of the AI-native radiology practice",
-      "url": "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Radiology startups say owning a practice makes it easier to develop AI tools, and insurers oppose RPM changes.",
-      "ts": 1790256074000,
-      "publishedAt": "2026-09-24T13:21:14.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-      "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the fin…",
-      "ts": 1790254836000,
-      "publishedAt": "2026-09-24T13:00:36.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Win a trip to ESA to witness BepiColombo arrive at Mercury ",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Win_a_trip_to_ESA_to_witness_BepiColombo_arrive_at_Mercury",
-      "summary": "Get ready to celebrate BepiColombo’s arrival at Mercury. Craft a welcoming message that could be a drawing, song, poem or any other art form and stand a chance to win a trip to mission control! ENTRY FORM Full rules and …",
-      "ts": 1790254800000,
-      "publishedAt": "2026-09-24T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-      "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A congressional representative just proposed killing America’s border tower progra…",
-      "ts": 1790251800000,
-      "publishedAt": "2026-09-24T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Turn what we know into what we do,’ Barbados PM Mottley urges world leaders at UN",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168433",
-      "summary": "Barbados Prime Minister Mia Mottley called on world leaders on Thursday to turn knowledge into action, reform international institutions and ensure that new technologies and global wealth benefit everyone.",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Yemen’s path to stability depends on restoring the state, Leadership Council vice-president tells UN",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168432",
-      "summary": "The Vice-President of Yemen’s Presidential Leadership Council, Abdullah Al-Alimi Bawazir, told the UN General Assembly on Thursday that his Government had engaged “responsibly and positively” with regional and internatio…",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Israeli leader at UN: ‘We’re going to win. We have no other choice’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168431",
-      "summary": "Prime Minister Benjamin Netanyahu used his address to the UN General Assembly to defend Israel’s strikes against Iran as a matter of national survival and described the violence in the West Bank as the work of a few “juv…",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Rising seas are sinking futures’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168430",
-      "summary": "World leaders approved the UN Declaration on Sea Level Rise by consensus on Thursday as the UN chief warned that encroaching waters are already threatening the future of coastal communities worldwide.",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Haitians can’t wait to return home and vote in elections says Prime Minister",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168429",
-      "summary": "“There is a people. A people who can wait no longer. A people waiting to regain security, to return home to work, to send their children to school, and to freely choose their leaders.” Those are the words of the Haitian …",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UNRWA work and mandate in ‘jeopardy’, Guterres warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168428",
-      "summary": "The UN Relief and Works Agency for Palestine refugees (UNRWA) continues to operate under “extraordinary pressure”, UN Secretary-General António Guterres said on Thursday.",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: ‘New intensity’ to Russian attacks on Ukraine, Yemen, Gaza and Colombia updates",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168427",
-      "summary": "Russian armed forces have carried out repeated attacks across Ukraine over the past several days, killing and injuring civilians and damaging homes, hospitals, shops and workplaces, UN human rights monitors said on Thurs…",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Palestinian existence under threat, Abbas tells UN, warning of ‘another Nakba’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168426",
-      "summary": "Israeli policies now threaten “the very life and existence of the Palestinian people on their homeland”, Palestinian President Mahmoud Abbas told the UN General Assembly on Thursday, urging the world not to allow “anothe…",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

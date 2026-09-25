@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-09-25T18:18:29.924Z",
+  "updated": "2026-09-25T22:03:15.033Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Breaking and entering: How parasites prepare host cells for invasion",
+      "url": "https://phys.org/news/2026-09-parasites-host-cells-invasion.html",
+      "summary": "Before the parasite Toxoplasma gondii can invade a cell, it has to know it has reached the right place. New research from the Whitehead Institute reveals that the parasite doesn't simply recognize a ready-made doorway in…",
+      "ts": 1790372401000,
+      "publishedAt": "2026-09-25T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How cells rapidly detect viruses that fuse with their membranes",
+      "url": "https://phys.org/news/2026-09-cells-rapidly-viruses-fuse-membranes.html",
+      "summary": "Researchers have figured out a missing piece of the puzzle of how human cells detect invading viruses and mount an immune response within an hour.",
+      "ts": 1790371213000,
+      "publishedAt": "2026-09-25T21:20:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Critically endangered species in the heart of Africa: Investigating Hooded Vultures in Chad",
+      "url": "https://phys.org/news/2026-09-critically-endangered-species-heart-africa.html",
+      "summary": "Slaughterhouses are places most people never want to go, and might seem like unlikely places to search for rare or endangered species. In West Africa, however, they are among the last places one can find a critically end…",
+      "ts": 1790371202000,
+      "publishedAt": "2026-09-25T21:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mitochondrial protein complexes: A single amino acid can jeopardize their stability",
+      "url": "https://phys.org/news/2026-09-mitochondrial-protein-complexes-amino-acid.html",
+      "summary": "Removing a single amino acid can determine whether new proteins assemble into stable complexes within mitochondria. An enzyme carries out this precise trimming at the start of mitochondrial proteins. Without it, numerous…",
+      "ts": 1790370001000,
+      "publishedAt": "2026-09-25T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Blood pressure enzyme reveals second job: Making sulfur rings for cellular antioxidants",
+      "url": "https://phys.org/news/2026-09-blood-pressure-enzyme-reveals-job.html",
+      "summary": "Antioxidants such as vitamins C and E protect cells by neutralizing free radicals, such as reactive oxygen species, before they can damage genetic material or cell membranes. Such damage can contribute to the development…",
+      "ts": 1790368801000,
+      "publishedAt": "2026-09-25T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Natural proteins can guide active ingredients to diseased cells",
+      "url": "https://phys.org/news/2026-09-natural-proteins-ingredients-diseased-cells.html",
+      "summary": "After taking a pill, the drugs it contains are distributed throughout the body, reaching the tissues and cells affected by disease and performing their intended function. However, they also enter healthy cells, where the…",
+      "ts": 1790367605000,
+      "publishedAt": "2026-09-25T20:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How a century-old solvent can enable efficient amide synthesis",
+      "url": "https://phys.org/news/2026-09-century-solvent-enable-efficient-amide.html",
+      "summary": "Amide bonds are chemical linkages essential to biology, medicine and materials chemistry. Peptide bonds, a class of amide bonds, link amino acids to form proteins. Amide bonds are also important in medicines and polymers…",
+      "ts": 1790366401000,
+      "publishedAt": "2026-09-25T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrathin materials could make quantum light circuits programmable",
+      "url": "https://phys.org/news/2026-09-ultrathin-materials-quantum-circuits-programmable.html",
+      "summary": "Quantum photonics could be a pivotal part of future quantum technology if the right materials can be created, a new review paper has found.",
+      "ts": 1790365201000,
+      "publishedAt": "2026-09-25T19:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "An overlooked era of cosmology is stealing the show in the quest to understand the cosmos",
+      "url": "https://phys.org/news/2026-09-overlooked-era-cosmology-quest-cosmos.html",
+      "summary": "Could you imagine if pagers made a comeback? Sure, your smartphone would still be your notepad-flashlight-camera-personal assistant-MP3 player-wallet-social media browser. But imagine if pagers made it so easy to do that…",
+      "ts": 1790364001000,
+      "publishedAt": "2026-09-25T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser light enables detection of colorectal cancer biomarker in blood within minutes",
+      "url": "https://phys.org/news/2026-09-laser-enables-colorectal-cancer-biomarker.html",
+      "summary": "Researchers often use antibodies to detect specific molecules or biological markers because they are remarkably precise at recognizing their targets. However, finding the faint signals of cancer in blood samples is a cha…",
+      "ts": 1790362801000,
+      "publishedAt": "2026-09-25T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New tools pinpoint where urban trees could provide the most relief from heat",
+      "url": "https://phys.org/news/2026-09-tools-urban-trees-relief.html",
+      "summary": "Cities trying to cool sweltering streets often set broad tree canopy targets. But those targets can overlook the reality that not all shade is equally useful, and not every neighborhood has room for more trees.",
+      "ts": 1790361601000,
+      "publishedAt": "2026-09-25T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Previously overlooked protein helps cells divide correctly",
+      "url": "https://phys.org/news/2026-09-previously-overlooked-protein-cells.html",
+      "summary": "Modern technologies have made it possible to uncover a growing \"hidden proteome\"—proteins encoded by parts of the genome that researchers previously overlooked. Advances in sequencing and protein analysis are making it p…",
+      "ts": 1790360405000,
+      "publishedAt": "2026-09-25T18:20:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Great news from Saturn's moon Enceladus in the search for life in space",
@@ -703,102 +799,6 @@
       "title": "Topology of bound states in the continuum from the angular structure of leading radiation",
       "url": "https://arxiv.org/abs/2609.29074",
       "summary": "arXiv:2609.29074v1 Announce Type: new Abstract: We show that the angular structure of the leading radiation associated with a bound state in the continuum (BIC) directly encodes topology, identifies the critical conditio…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A System-Independent Metadynamics Strategy for Reactive Training Data: Application to Gas-Phase Organic Reactions",
-      "url": "https://arxiv.org/abs/2609.29105",
-      "summary": "arXiv:2609.29105v1 Announce Type: new Abstract: General-purpose machine-learning interatomic potentials (MLIPs) for organic reactions need to be accurate on both the minimum energy path (MEP) for static evaluation of bas…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of fuel stratification length scale on thermodiffusively unstable lean hydrogen flames",
-      "url": "https://arxiv.org/abs/2609.29201",
-      "summary": "arXiv:2609.29201v1 Announce Type: new Abstract: Lean premixed hydrogen flames are highly susceptible to thermodiffusive instabilities, which generate cellular structures and enhance propagation speed. In practical combus…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D modelling of strain concentration due to PCI within the fuel code ALCYONE",
-      "url": "https://arxiv.org/abs/2609.29236",
-      "summary": "arXiv:2609.29236v1 Announce Type: new Abstract: In this paper, the 3D scheme of the fuel code ALCYONE is applied to a database consisting of more than 50 base irradiations and ramp tests performed on rods with UO 2 , MOX…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of symmetry breaking in time-varying scattering systems",
-      "url": "https://arxiv.org/abs/2609.29254",
-      "summary": "arXiv:2609.29254v1 Announce Type: new Abstract: From the Higgs mechanism to magnetic ordering, spontaneous symmetry breaking organizes physics across scales. Whether an analogous transition governs waves scattered by per…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The quadratic density response function for non-interacting fermions at arbitrary temperature",
-      "url": "https://arxiv.org/abs/2609.29257",
-      "summary": "arXiv:2609.29257v1 Announce Type: new Abstract: We develop and implement the quadratic density response function of non-interacting fermions at arbitrary temperature, frequencies, and wave vectors. Starting from a Green'…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full-frequency GW from Cayley-transformed self-energy moments",
-      "url": "https://arxiv.org/abs/2609.29271",
-      "summary": "arXiv:2609.29271v1 Announce Type: new Abstract: The dynamical GW self-energy approximation is a key computational tool to provide the fundamental spectrum of electronic systems. We reformulate this approximation, represe…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Second-Order Rayleigh-Schr\\\"odinger Perturbation Theory for the Grasp",
-      "url": "https://arxiv.org/abs/2609.29272",
-      "summary": "arXiv:2609.29272v1 Announce Type: new Abstract: A developed method, based on the stationary second-order Rayleigh-Schr\\\"odinger many-body perturbation theory in an irreducible tensorial form, allows us to determine the m…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prediction of Re-Ignition Times in Dielectric Barrier Discharges",
-      "url": "https://arxiv.org/abs/2609.29277",
-      "summary": "arXiv:2609.29277v1 Announce Type: new Abstract: Discharge ignition events in dielectric barrier discharges (DBDs) self-organise into spatio-temporal patterns with varying degrees of order. The complex dynamics of a DBD a…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Physics-Driven Framework for Parametric Periodic-Flow Modeling and Finite-Amplitude Aeroelastic Response Analysis",
-      "url": "https://arxiv.org/abs/2609.29280",
-      "summary": "arXiv:2609.29280v1 Announce Type: new Abstract: Periodic unsteady flows are common in forced-motion and fluid-structure interaction problems. Their parametric analysis typically requires repeated high-fidelity simulation…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strong-Field-Driven Non-Linear Electron Dynamics in Thiophene Oligomers",
-      "url": "https://arxiv.org/abs/2609.29284",
-      "summary": "arXiv:2609.29284v1 Announce Type: new Abstract: The interaction between conjugated molecules and intense electric field pulses drives a plethora of intriguing nonlinear phenomena, including optical limiting. While excite…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Zero-forward Kerker scattering via synthesized complex-frequency excitation",
-      "url": "https://arxiv.org/abs/2609.29293",
-      "summary": "arXiv:2609.29293v1 Announce Type: new Abstract: All objects illuminated with light inevitably cast a shadow -- a universal phenomenon encapsulated in the fundamental property that all passive systems with plane-wave illu…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Monte Carlo sampling of first-order QED processes in laser and pulsar plasmas",
-      "url": "https://arxiv.org/abs/2609.29325",
-      "summary": "arXiv:2609.29325v1 Announce Type: new Abstract: Monte Carlo sampling of strong-field quantum electrodynamics processes underpins simulations of high-intensity laser experiments and of astrophysical compact-object magneto…",
       "ts": 1790308800000,
       "publishedAt": "2026-09-25T04:00:00.000Z"
     }
