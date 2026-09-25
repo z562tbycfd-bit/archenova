@@ -1,0 +1,228 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+
+type Profile = {
+  number: string;
+  eyebrow: string;
+  title: string;
+  body: string;
+  closing: string;
+};
+
+const PROFILES: readonly Profile[] = [
+  {
+    number: "01",
+    eyebrow: "THE IDEAL USER",
+    title: "For Those Who Think in Systems.",
+    body:
+      "ArcheNova is for reflective, systems-oriented thinkers drawn to " +
+      "long-horizon questions about civilization rather than short-term " +
+      "tools or products. It is an environment for people willing to move " +
+      "across science, technology, engineering, governance, institutions, " +
+      "and philosophy without treating disciplinary boundaries as the limits " +
+      "of the question.",
+    closing:
+      "Think across systems. Question across generations.",
+  },
+
+  {
+    number: "02",
+    eyebrow: "SYNTHESIS",
+    title: "For Those Who See the Connections.",
+    body:
+      "Energy changes infrastructure. Technology changes institutions. " +
+      "Biological systems constrain engineering. Intelligence changes how " +
+      "decisions are made. ArcheNova is designed for people who want to " +
+      "examine these interactions together and explore how changes in one " +
+      "system propagate through the larger architecture of civilization.",
+    closing:
+      "Civilization is not a collection of isolated systems.",
+  },
+
+  {
+    number: "03",
+    eyebrow: "BUILDERS",
+    title: "For Those Building Beyond the Obvious.",
+    body:
+      "Founders, independent researchers, engineers, and designers may use " +
+      "ArcheNova as a conceptual environment for ambitious first-principles " +
+      "work. The emphasis is not on presenting a finished commercial product, " +
+      "but on constructing frameworks, comparing possibilities, exposing " +
+      "assumptions, and developing ideas before they become experiments, " +
+      "institutions, infrastructure, or deployed capability.",
+    closing:
+      "Explore the architecture before committing to the structure.",
+  },
+
+  {
+    number: "04",
+    eyebrow: "CIVILIZATION DESIGN",
+    title: "For Those Who Treat Civilization as Designable.",
+    body:
+      "ArcheNova is especially aligned with people interested in alternative " +
+      "development pathways, institutional architecture, cognitive " +
+      "infrastructure, responsible power, and the long-term relationship " +
+      "between technology and society. It treats civilization not as a fixed " +
+      "background, but as a system whose structures, dependencies, and future " +
+      "possibilities can be examined deliberately.",
+    closing:
+      "Civilization can be studied as an evolving design space.",
+  },
+
+  {
+    number: "05",
+    eyebrow: "EXPLORATION",
+    title: "For Quiet, High-Agency Explorers.",
+    body:
+      "The environment favors depth over noise, inquiry over hype, and " +
+      "deliberate construction over immediate utility. It may resonate with " +
+      "people who value speculative but structured environments, living " +
+      "models, permanent questions, complexity science, institutional design, " +
+      "technology-society interfaces, or founder-led digital twins as " +
+      "instruments for thinking and exploration.",
+    closing:
+      "Enter to investigate, not merely to consume.",
+  },
+
+  {
+    number: "06",
+    eyebrow: "BOUNDARY",
+    title: "Not Every Environment Must Serve Everyone.",
+    body:
+      "ArcheNova is not primarily designed as a conventional software product, " +
+      "news destination, entertainment platform, or catalogue of ready-to-use " +
+      "tools, datasets, dashboards, and simulations. Nor is its present form " +
+      "optimized for users seeking immediate commercial utility, conventional " +
+      "organizational roadmaps, or social proof.",
+    closing:
+      "For those willing to treat civilization itself as a modelable system.",
+  },
+];
+
+type FramePosition = "start" | "fixed" | "end";
+
+function clamp(value: number, min: number, max: number) {
+  return Math.min(max, Math.max(min, value));
+}
+
+export default function ArcheNovaIdealUserPrelude() {
+  const sectionRef = useRef<HTMLElement | null>(null);
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [framePosition, setFramePosition] =
+    useState<FramePosition>("start");
+
+  const profileCount = PROFILES.length;
+
+  useEffect(() => {
+    const section = sectionRef.current;
+
+    if (!section) return;
+
+    let animationFrame = 0;
+    let lastIndex = -1;
+    let lastPosition: FramePosition | null = null;
+
+    const update = () => {
+      const rect = section.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+
+      const frameHeight = viewportHeight;
+      const travel = Math.max(1, rect.height - frameHeight);
+
+      let nextPosition: FramePosition;
+
+      if (rect.top >= 0) {
+        nextPosition = "start";
+      } else if (rect.bottom <= frameHeight) {
+        nextPosition = "end";
+      } else {
+        nextPosition = "fixed";
+      }
+
+      const travelled = clamp(-rect.top, 0, travel);
+
+      const nextIndex = clamp(
+        Math.floor((travelled / travel) * profileCount),
+        0,
+        profileCount - 1
+      );
+
+      if (nextPosition !== lastPosition) {
+        lastPosition = nextPosition;
+        setFramePosition(nextPosition);
+      }
+
+      if (nextIndex !== lastIndex) {
+        lastIndex = nextIndex;
+        setActiveIndex(nextIndex);
+      }
+
+      animationFrame = window.requestAnimationFrame(update);
+    };
+
+    animationFrame = window.requestAnimationFrame(update);
+
+    return () => {
+      window.cancelAnimationFrame(animationFrame);
+    };
+  }, [profileCount]);
+
+  const profile = PROFILES[activeIndex];
+
+  return (
+    <section
+      ref={sectionRef}
+      id="archenova-ideal-user"
+      data-home-section
+      className="an-ideal-user"
+      aria-label="Who ArcheNova is for"
+      style={
+        {
+          "--an-ideal-user-count": profileCount,
+        } as React.CSSProperties
+      }
+    >
+      <div
+        className={[
+          "an-ideal-user__frame",
+          `an-ideal-user__frame--${framePosition}`,
+        ].join(" ")}
+      >
+        <div className="an-ideal-user__glass">
+          <article
+            key={profile.number}
+            className="an-ideal-user__chapter"
+          >
+            <p className="an-ideal-user__eyebrow">
+              {profile.eyebrow}
+            </p>
+
+            <h2 className="an-ideal-user__title">
+              {profile.title}
+            </h2>
+
+            <p className="an-ideal-user__body">
+              {profile.body}
+            </p>
+
+            <p className="an-ideal-user__closing">
+              {profile.closing}
+            </p>
+          </article>
+
+          <p
+            className="an-ideal-user__position"
+            aria-label={`Section ${
+              activeIndex + 1
+            } of ${profileCount}`}
+          >
+            {profile.number} /{" "}
+            {String(profileCount).padStart(2, "0")}
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

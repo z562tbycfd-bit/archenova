@@ -13,6 +13,8 @@ import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
 
 import ArcheNovaCivilizationPrelude from "../components/home/ArcheNovaCivilizationPrelude";
 
+import ArcheNovaIdealUserPrelude from "../components/home/ArcheNovaIdealUserPrelude";
+
 import {
   ArcheNovaHorizon,
   ArcheNovaStillness,
@@ -34,6 +36,8 @@ export default function HomePage() {
       ================================================== */}
 
       <ArcheNovaCivilizationPrelude />
+
+      <ArcheNovaIdealUserPrelude />
 
        {/* ==================================================
     01 — CIVILIZATION DIGITAL TWIN
