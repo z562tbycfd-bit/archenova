@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-09-25T13:22:30.203Z",
+  "updated": "2026-09-25T18:18:31.918Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "ts": 1790362800000,
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How Bladder Cells Fight Hidden E. coli: New Insights Into Recurrent UTIs",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/how-bladder-cells-fight-hidden-e-coli-new-insights-into-recurrent-utis/",
+      "summary": "A new study finds the drug OM-89 may help bladder cells eliminate hidden E. coli by activating lysosomal pathways and increasing antibiotic uptake, potentially reducing bacterial regrowth in recurrent UTIs. The post How …",
+      "ts": 1790359259000,
+      "publishedAt": "2026-09-25T18:00:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Licensing deals on generic versions of Roche flu drug aimed at preparing for pandemic",
+      "url": "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/?utm_campaign=rss",
+      "summary": "With an eye toward pandemic preparedness, a U.N.-backed agency has signed sub-licensing deals related to generic versions of a Roche influenza treatment.",
+      "ts": 1790358604000,
+      "publishedAt": "2026-09-25T17:50:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Stroke Remodels Tumor Microenvironment to Promote Glioma Growth",
+      "url": "https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/",
+      "summary": "A study in mouse and human models showed how stroke promotes glioma growth by remodeling the tumor microenvironment, with the emergence of a distinct population of tumor-associated astrocytes with reduced Ca2+ activity, …",
+      "ts": 1790354274000,
+      "publishedAt": "2026-09-25T16:37:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lilly wins approval for once-weekly insulin shot",
+      "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss",
+      "summary": "The FDA approved Eli Lilly’s Onswik, a once-weekly basal insulin for adults with type 2 diabetes, offering patients an alternative to daily long-acting insulin injections.",
+      "ts": 1790349910000,
+      "publishedAt": "2026-09-25T15:25:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: FDA commissioner nominee Heidi Overton is ignoring the science on abortion drug",
+      "url": "https://www.statnews.com/2026/09/25/heidi-overton-confirmation-hearing-mifepristone-abortion-evasive/?utm_campaign=rss",
+      "summary": "“With this latest appointment, mifepristone has a new boss but an old problem,” writes Julie F. Kay, founder and CEO of Reproductive Futures.",
+      "ts": 1790347178000,
+      "publishedAt": "2026-09-25T14:39:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1790343498000,
+      "publishedAt": "2026-09-25T13:38:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a reticent FDA commish nominee, a Novo deal, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss",
+      "summary": "President Trump’s nominee to lead the FDA was grilled by senators on hot button topics like China, vaccines, and abortion access",
+      "ts": 1790343130000,
+      "publishedAt": "2026-09-25T13:32:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 21-25 Sep 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_21-25_Sep_2026",
+      "summary": "Week in images: 21-25 Sep 2026 Discover our week through the lens",
+      "ts": 1790341800000,
+      "publishedAt": "2026-09-25T13:10:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Federal judge rolls back landmark disability protections",
@@ -28,6 +109,15 @@
       "ts": 1790338200000,
       "publishedAt": "2026-09-25T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA and Inter-American Development Bank Sign Partnership Agreement on Nuclear Energy for Development",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-and-inter-american-development-bank-sign-partnership-agreement-on-nuclear-energy-for-development",
+      "summary": "",
+      "ts": 1790337721000,
+      "publishedAt": "2026-09-25T12:02:01.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "United Nations News",
@@ -721,96 +811,6 @@
       "ts": 1790251200000,
       "publishedAt": "2026-09-24T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "LIVE: World leaders approve new declaration to tackle rising sea levels",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168423",
-      "summary": "Sea level rise is among the most visible consequences of global warming, but for some countries, it is an imminent existential threat. World leaders approved a new declaration on Thursday while debating the best ways to …",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Peace remains only a promise’ for millions in eastern DR Congo, General Assembly hears",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168422",
-      "summary": "The Prime Minister of the Democratic Republic of the Congo (DRC) cautioned against growing global demand for “blood-stained minerals” in the rush to net-zero, in her speech to the UN General Assembly.",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "The Takeaway: UN General Assembly debate Day 2",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168421",
-      "summary": "This edition of UN News's The Takeaway recaps key highlghts at the UN General Assembly on Wednesday, including focus on the war in Ukraine and a renewed push by African countries for Security Council reform.",
-      "ts": 1790251200000,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "One of the most contagious diseases on the planet is having its worst U.S. outbreak since 1991",
-      "url": "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/?utm_campaign=rss",
-      "summary": "The CDC has added a single measles death to its online counter. In the last few weeks, four unvaccinated people have died from measles in Pennsylvania, according to state officials.…",
-      "ts": 1790250748000,
-      "publishedAt": "2026-09-24T11:52:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why Gilead can’t stop talking about its ambitions in immunology",
-      "url": "https://www.statnews.com/2026/09/24/gilead-immunology-inflammation-biotech-moderna-merck/?utm_campaign=rss",
-      "summary": "Gilead Sciences’ top executives have been emphatically bullish about the biotech’s years-long push to develop drugs for inflammatory and autoimmune diseases.",
-      "ts": 1790245800000,
-      "publishedAt": "2026-09-24T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI is dominating the conversation at Climate Week",
-      "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
-      "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so …",
-      "ts": 1790244000000,
-      "publishedAt": "2026-09-24T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: How a young doctor rose from rural New Mexico to FDA commissioner nominee",
-      "url": "https://www.statnews.com/2026/09/24/heidi-overton-profile-fda-commissioner-nominee/?utm_campaign=rss",
-      "summary": "What to know about Dr. Heidi Overton, Trump's pick to run the FDA, including her medical background and career trajectory.",
-      "ts": 1790238600000,
-      "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In radiology, AI is blurring the line between technology development and clinical practice",
-      "url": "https://www.statnews.com/2026/09/24/radiology-ai-blurred-line-between-tech-development-clinical-practice/?utm_campaign=rss",
-      "summary": "A new wave of radiology practices are aggressively embracing AI: developing and deploying it in-house, and marketing themselves as 'AI-native.'",
-      "ts": 1790238600000,
-      "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Momentum is building for a big change to how doctors get paid",
-      "url": "https://www.statnews.com/2026/09/24/patients-first-act-congress-moves-on-doctor-pay-medicare-reform/?utm_campaign=rss",
-      "summary": "Congress is considering linking doctor payment rates to medical inflation under the proposed Patients First Act.",
-      "ts": 1790238600000,
-      "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump boast on drug pricing policy overstated state-level interest in federal program",
-      "url": "https://www.statnews.com/2026/09/24/trump-medicaid-generous-model-state-interest/?utm_campaign=rss",
-      "summary": "President Trump and his aides boasted that every U.S. state wanted to participate in a drug pricing initiative through Medicaid. Several states said they weren't sure yet.",
-      "ts": 1790238600000,
-      "publishedAt": "2026-09-24T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
