@@ -61,7 +61,7 @@ export default function HomePage() {
 
             <img
 
-              src="/images/archenova-civilization-digital-twin.png"
+              src="/images/archenova-civilization-digital-twin.jpeg"
 
               alt="Conceptual visualization of the ArcheNova civilization digital twin integrating planetary systems, cities, infrastructure, energy, biological environments, data, and interconnected models."
 
