@@ -61598,664 +61598,254 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   ARCHENOVA HOME — CIVILIZATION DIGITAL TWIN
-   FULL-SCREEN RESPONSIVE EXHIBITION
-   ----------------------------------------------------------
-   One viewport = one dedicated optical-glass environment.
-
-   DESIGN:
-   - Full-screen glass frame on every device.
-   - Portrait Digital Twin artwork centered inside.
-   - Image uses maximum available screen area.
-   - Preserve complete artwork.
-   - Never crop.
-   - Never distort.
-   - No horizontal scrolling.
-   - No inner card.
-   - No text overlay.
-   - No artificial image filter.
-   - Responsive to width AND viewport height.
-========================================================== */
-
-
-/* ==========================================================
-   01 — FULL-SCREEN GLASS FRAME
+   ARCHENOVA CIVILIZATION DIGITAL TWIN
+   Square visual / optical glass
 ========================================================== */
 
 .archenova-twin-home
-#archenova-civilization-purpose-map.an-purpose-map-section {
+#archenova-civilization-digital-twin.an-civilization-twin-visual {
   position: relative !important;
-
   isolation: isolate !important;
 
-  box-sizing: border-box !important;
-
   display: flex !important;
-  flex-direction: column !important;
-
   align-items: center !important;
   justify-content: center !important;
 
   width: 100% !important;
-  max-width: none !important;
-  min-width: 0 !important;
-
-  /*
-   * One device viewport = one exhibition.
-   */
   min-height: 100svh !important;
-  height: 100svh !important;
-  max-height: 100svh !important;
 
-  margin: 0 !important;
-
-  /*
-   * Small breathing room around the artwork.
-   * Uses safe areas on modern mobile devices.
-   */
   padding:
-    max(24px, env(safe-area-inset-top))
-    clamp(18px, 3vw, 52px)
-    max(24px, env(safe-area-inset-bottom))
-    !important;
+    clamp(72px, 9svh, 120px)
+    var(--an-h-gutter)
+    clamp(72px, 9svh, 120px) !important;
+
+  overflow: visible !important;
+
+  background: transparent !important;
+  border: 0 !important;
+}
+
+
+/* ==========================================================
+   SQUARE GLASS SURFACE
+
+   The frame itself remains square.
+   No text / caption / secondary card.
+========================================================== */
+
+.archenova-twin-home
+.an-civilization-twin-visual__surface {
+  position: relative !important;
+  isolation: isolate !important;
+
+  width: min(
+    1080px,
+    calc(100vw - (var(--an-h-gutter) * 2)),
+    calc(100svh - 150px)
+  ) !important;
+
+  aspect-ratio: 1 / 1 !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
 
   overflow: hidden !important;
 
-  color-scheme: dark;
-
   background:
-    radial-gradient(
-      ellipse at 50% 42%,
-      rgba(72, 87, 108, 0.085) 0%,
-      rgba(26, 31, 40, 0.035) 35%,
-      transparent 65%
-    ),
     linear-gradient(
       145deg,
-      rgba(15, 16, 18, 0.24) 0%,
-      rgba(7, 8, 10, 0.30) 48%,
-      rgba(0, 0, 0, 0.40) 100%
-    )
-    !important;
+      rgba(15, 16, 18, 0.20),
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30)
+    ) !important;
 
   border:
-    1px solid
-    rgba(255, 255, 255, 0.065)
-    !important;
+    1px solid rgba(255, 255, 255, 0.065) !important;
 
-  border-radius:
-    30px
-    !important;
+  border-radius: 30px !important;
 
   -webkit-backdrop-filter:
-    blur(22px)
-    saturate(104%)
-    !important;
+    blur(22px) saturate(106%) !important;
 
   backdrop-filter:
-    blur(22px)
-    saturate(104%)
-    !important;
+    blur(22px) saturate(106%) !important;
 
   box-shadow:
-    inset 0 1px 0
-      rgba(255, 255, 255, 0.045),
-
-    inset 0 -1px 0
-      rgba(255, 255, 255, 0.012)
-    !important;
-
-  outline: 0 !important;
-
-  scroll-margin-top: 0;
-
-  transform: none !important;
+    inset 0 1px 0 rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.010),
+    0 32px 90px rgba(0, 0, 0, 0.24) !important;
 }
 
 
 /* ==========================================================
-   02 — REMOVE LEGACY / DUPLICATE SURFACES
+   IMAGE
+
+   The generated artwork is already square.
+   Fill the glass surface without creating another layer.
 ========================================================== */
 
 .archenova-twin-home
-#archenova-civilization-purpose-map.an-purpose-map-section::before,
-
-.archenova-twin-home
-#archenova-civilization-purpose-map.an-purpose-map-section::after {
-  content: none !important;
-
-  display: none !important;
-
-  background: none !important;
-
-  border: 0 !important;
-
-  box-shadow: none !important;
-
-  -webkit-backdrop-filter:
-    none
-    !important;
-
-  backdrop-filter:
-    none
-    !important;
-}
-
-
-/* ==========================================================
-   03 — PORTRAIT DIGITAL TWIN ARTWORK
-   ----------------------------------------------------------
-   Critical rule:
-
-   The artwork is constrained by BOTH:
-   - available width
-   - available viewport height
-
-   Therefore a 2:3 portrait image remains fully visible
-   without becoming too tall or too wide.
-========================================================== */
-
-.archenova-twin-home
-#archenova-civilization-purpose-map
-.an-purpose-map-section__image {
-  position: relative !important;
-
-  z-index: 1 !important;
+.an-civilization-twin-visual__image {
+  position: absolute !important;
+  inset: 0 !important;
 
   display: block !important;
 
-  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 100% !important;
 
-  /*
-   * Browser chooses the limiting dimension.
-   */
-  width: auto !important;
-  height: auto !important;
-
-  max-width: 100% !important;
-
-  max-height:
-    calc(
-      100svh -
-      max(24px, env(safe-area-inset-top)) -
-      max(24px, env(safe-area-inset-bottom))
-    )
-    !important;
-
-  margin: auto !important;
-
+  margin: 0 !important;
   padding: 0 !important;
 
-  border: 0 !important;
-  border-radius: 0 !important;
+  object-fit: cover !important;
+  object-position: center center !important;
 
-  outline: 0 !important;
+  border: 0 !important;
+  border-radius: inherit !important;
+
+  user-select: none !important;
+  -webkit-user-drag: none !important;
+
+  transform: translateZ(0);
+}
+
+
+/* ==========================================================
+   SUBTLE OPTICAL INTEGRATION
+
+   Very light internal veil only.
+   It does not hide the artwork.
+========================================================== */
+
+.archenova-twin-home
+.an-civilization-twin-visual__surface::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+
+  pointer-events: none;
+
+  border-radius: inherit;
 
   background:
-    transparent
-    !important;
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.018) 0%,
+      transparent 18%,
+      transparent 78%,
+      rgba(0, 0, 0, 0.10) 100%
+    );
 
-  object-fit:
-    contain
-    !important;
-
-  object-position:
-    center center
-    !important;
-
-  opacity: 1 !important;
-
-  transform: none !important;
-
-  scale: none !important;
-
-  filter: none !important;
-
-  box-shadow: none !important;
-
-  mix-blend-mode:
-    normal
-    !important;
-
-  image-rendering: auto;
-
-  user-select: none;
-
-  -webkit-user-drag: none;
-
-  -webkit-touch-callout: none;
+  box-shadow:
+    inset 0 0 80px rgba(0, 0, 0, 0.10);
 }
 
 
 /* ==========================================================
-   04 — LARGE DESKTOP
-   ----------------------------------------------------------
-   Large monitors get a true cinematic full-screen frame,
-   while the portrait artwork remains height-bound.
+   LARGE DESKTOP
 ========================================================== */
 
-@media (min-width: 1441px) {
-
+@media (min-width: 1440px) {
   .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
-    padding:
-      42px
-      clamp(52px, 5vw, 96px)
-      !important;
-
-    border-radius:
-      30px
-      !important;
+  .an-civilization-twin-visual__surface {
+    width: min(
+      1120px,
+      calc(100vw - (var(--an-h-gutter) * 2)),
+      calc(100svh - 150px)
+    ) !important;
   }
-
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    max-width:
-      min(100%, 1024px)
-      !important;
-
-    max-height:
-      calc(100svh - 84px)
-      !important;
-  }
-
 }
 
 
 /* ==========================================================
-   05 — DESKTOP / LAPTOP
+   TABLET
 ========================================================== */
 
-@media (min-width: 1025px) and (max-width: 1440px) {
-
+@media (max-width: 1024px) {
   .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
+  #archenova-civilization-digital-twin.an-civilization-twin-visual {
+    min-height: 100svh !important;
+
     padding:
-      32px
-      clamp(34px, 4vw, 64px)
-      !important;
+      clamp(64px, 8svh, 92px)
+      var(--an-h-gutter)
+      clamp(64px, 8svh, 92px) !important;
   }
-
 
   .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    max-width:
-      min(100%, 900px)
-      !important;
+  .an-civilization-twin-visual__surface {
+    width: min(
+      860px,
+      calc(100vw - (var(--an-h-gutter) * 2)),
+      calc(100svh - 130px)
+    ) !important;
 
-    max-height:
-      calc(100svh - 64px)
-      !important;
+    border-radius: 28px !important;
   }
-
 }
 
 
 /* ==========================================================
-   06 — TABLET LANDSCAPE
+   MOBILE
 ========================================================== */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 720px) {
+  .archenova-twin-home
+  #archenova-civilization-digital-twin.an-civilization-twin-visual {
+    min-height: 100svh !important;
+
+    padding:
+      clamp(54px, 7svh, 72px)
+      var(--an-h-gutter)
+      clamp(54px, 7svh, 72px) !important;
+  }
 
   .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
-    padding:
-      26px
-      28px
-      !important;
+  .an-civilization-twin-visual__surface {
+    width: min(
+      100%,
+      calc(100vw - (var(--an-h-gutter) * 2))
+    ) !important;
 
-    border-radius:
-      28px
-      !important;
+    max-width: none !important;
+
+    border-radius: 26px !important;
 
     -webkit-backdrop-filter:
-      blur(20px)
-      saturate(104%)
-      !important;
+      blur(18px) saturate(104%) !important;
 
     backdrop-filter:
-      blur(20px)
-      saturate(104%)
-      !important;
+      blur(18px) saturate(104%) !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.035),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.010),
+      0 24px 64px rgba(0, 0, 0, 0.22) !important;
   }
-
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    max-width:
-      min(100%, 760px)
-      !important;
-
-    max-height:
-      calc(100svh - 52px)
-      !important;
-  }
-
 }
 
 
 /* ==========================================================
-   07 — TABLET PORTRAIT / LARGE MOBILE
-========================================================== */
-
-@media (min-width: 601px) and (max-width: 768px) {
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
-    min-height:
-      100svh
-      !important;
-
-    height:
-      100svh
-      !important;
-
-    max-height:
-      100svh
-      !important;
-
-    padding:
-      max(18px, env(safe-area-inset-top))
-      18px
-      max(18px, env(safe-area-inset-bottom))
-      !important;
-
-    border-radius:
-      26px
-      !important;
-
-    -webkit-backdrop-filter:
-      blur(18px)
-      saturate(102%)
-      !important;
-
-    backdrop-filter:
-      blur(18px)
-      saturate(102%)
-      !important;
-  }
-
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    max-width:
-      100%
-      !important;
-
-    max-height:
-      calc(
-        100svh -
-        max(18px, env(safe-area-inset-top)) -
-        max(18px, env(safe-area-inset-bottom))
-      )
-      !important;
-  }
-
-}
-
-
-/* ==========================================================
-   08 — MOBILE
-   ----------------------------------------------------------
-   Nearly all available screen space is given to the image.
-========================================================== */
-
-@media (max-width: 600px) {
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
-    width:
-      100%
-      !important;
-
-    min-height:
-      100svh
-      !important;
-
-    height:
-      100svh
-      !important;
-
-    max-height:
-      100svh
-      !important;
-
-    margin:
-      0
-      !important;
-
-    padding:
-      max(10px, env(safe-area-inset-top))
-      10px
-      max(10px, env(safe-area-inset-bottom))
-      !important;
-
-    border-radius:
-      24px
-      !important;
-
-    overflow:
-      hidden
-      !important;
-
-    -webkit-backdrop-filter:
-      blur(18px)
-      saturate(102%)
-      !important;
-
-    backdrop-filter:
-      blur(18px)
-      saturate(102%)
-      !important;
-  }
-
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    width:
-      auto
-      !important;
-
-    height:
-      auto
-      !important;
-
-    max-width:
-      100%
-      !important;
-
-    max-height:
-      calc(
-        100svh -
-        max(10px, env(safe-area-inset-top)) -
-        max(10px, env(safe-area-inset-bottom))
-      )
-      !important;
-
-    object-fit:
-      contain
-      !important;
-  }
-
-}
-
-
-/* ==========================================================
-   09 — SMALL MOBILE / iPHONE
+   SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 430px) {
-
   .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
+  #archenova-civilization-digital-twin.an-civilization-twin-visual {
     padding:
-      max(7px, env(safe-area-inset-top))
-      7px
-      max(7px, env(safe-area-inset-bottom))
-      !important;
-
-    border-radius:
-      22px
-      !important;
+      48px
+      var(--an-h-gutter)
+      48px !important;
   }
-
 
   .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    max-height:
-      calc(
-        100svh -
-        max(7px, env(safe-area-inset-top)) -
-        max(7px, env(safe-area-inset-bottom))
-      )
-      !important;
+  .an-civilization-twin-visual__surface {
+    border-radius: 22px !important;
   }
-
 }
 
-
-/* ==========================================================
-   10 — VERY SMALL MOBILE
-========================================================== */
-
-@media (max-width: 360px) {
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
-    padding:
-      max(5px, env(safe-area-inset-top))
-      5px
-      max(5px, env(safe-area-inset-bottom))
-      !important;
-
-    border-radius:
-      20px
-      !important;
-  }
-
-}
-
-
-/* ==========================================================
-   11 — LANDSCAPE DEVICES
-   ----------------------------------------------------------
-   Important for:
-   - iPhone landscape
-   - Android landscape
-   - iPad landscape
-   - short laptop windows
-
-   Height becomes the governing dimension.
-========================================================== */
-
-@media (orientation: landscape) and (max-height: 700px) {
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map.an-purpose-map-section {
-    min-height:
-      100svh
-      !important;
-
-    height:
-      100svh
-      !important;
-
-    max-height:
-      100svh
-      !important;
-
-    padding:
-      max(8px, env(safe-area-inset-top))
-      max(16px, env(safe-area-inset-right))
-      max(8px, env(safe-area-inset-bottom))
-      max(16px, env(safe-area-inset-left))
-      !important;
-  }
-
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    width:
-      auto
-      !important;
-
-    height:
-      auto
-      !important;
-
-    max-width:
-      100%
-      !important;
-
-    max-height:
-      calc(100svh - 16px)
-      !important;
-  }
-
-}
-
-
-/* ==========================================================
-   12 — HIGH-DENSITY / RETINA
-========================================================== */
-
-@media (min-resolution: 2dppx) {
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map
-  .an-purpose-map-section__image {
-    image-rendering:
-      auto;
-
-    filter:
-      none
-      !important;
-
-    transform:
-      none
-      !important;
-  }
-
-}
-
-
-/* ==========================================================
-   13 — REDUCED MOTION
-========================================================== */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map,
-
-  .archenova-twin-home
-  #archenova-civilization-purpose-map * {
-    animation:
-      none
-      !important;
-
-    transition:
-      none
-      !important;
-
-    transform:
-      none
-      !important;
-
-    scroll-behavior:
-      auto
-      !important;
-  }
-
-}
 
 
 
