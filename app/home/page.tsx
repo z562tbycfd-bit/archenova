@@ -32,10 +32,48 @@ export default function HomePage() {
 
       {/* ==================================================
           00 — FOUNDATIONAL PURPOSE
-          New: scroll-driven civilization introduction.
+          Scroll-driven civilization introduction.
       ================================================== */}
 
       <ArcheNovaCivilizationPrelude />
+
+      {/* ==================================================
+          01 — CIVILIZATION PURPOSE MAP
+          Large-format scientific figure summarizing the
+          foundational purpose as one integrated system.
+          Visual rules live in app/globals.css.
+      ================================================== */}
+
+      <section
+        id="archenova-civilization-purpose-map"
+        data-home-section
+        className="home-page an-purpose-map an-home-2026__section"
+        aria-label="ArcheNova Civilization Purpose Map"
+      >
+        <figure className="an-purpose-map__figure">
+          <div className="an-purpose-map__viewport">
+            <img
+              src="/images/archenova-civilization-purpose-map.jpg"
+              alt="ArcheNova civilization digital twin framework illustrating the relationships among science, technology, energy, infrastructure, biological systems, institutions, system dependencies, scenario exploration, evidence-based validation, feasibility, correctability, and real-world testing."
+              className="an-purpose-map__image"
+              loading="lazy"
+              decoding="async"
+              draggable={false}
+            />
+          </div>
+
+          <figcaption className="an-purpose-map__caption">
+            <span className="an-purpose-map__caption-index">
+              ARCHENOVA · PURPOSE
+            </span>
+
+            <span className="an-purpose-map__caption-text">
+              From interconnected models to independently validated,
+              correctable real-world capability.
+            </span>
+          </figcaption>
+        </figure>
+      </section>
 
       {/* ==================================================
           02 — THE HORIZON
@@ -59,7 +97,7 @@ export default function HomePage() {
       <ArcheNovaStillness />
 
       {/* ==================================================
-          01 — MAP
+          05 — MAP
           Existing section: unchanged.
       ================================================== */}
 
@@ -73,10 +111,9 @@ export default function HomePage() {
           <ArcheNovaMap />
         </div>
       </section>
-      
 
       {/* ==================================================
-          05 — FOUNDER
+          06 — FOUNDER
           Existing section: unchanged.
       ================================================== */}
 
@@ -92,7 +129,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          06 — TODAY'S INQUIRY
+          07 — TODAY'S INQUIRY
           Existing section: unchanged.
       ================================================== */}
 
@@ -108,7 +145,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          07 — HUMANITY RESPONSIBILITY
+          08 — HUMANITY RESPONSIBILITY
           Existing section: unchanged.
       ================================================== */}
 
@@ -124,7 +161,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          08 — WORKS
+          09 — WORKS
           Existing section: unchanged.
       ================================================== */}
 
@@ -140,7 +177,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          09 — WORK MODELS
+          10 — WORK MODELS
           Existing section: unchanged.
       ================================================== */}
 
@@ -156,7 +193,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          10 — CIVILIZATION SPACE
+          11 — CIVILIZATION SPACE
           Existing section: unchanged.
       ================================================== */}
 
@@ -172,7 +209,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          11 — ARCHENOVA VALLEY
+          12 — ARCHENOVA VALLEY
           Existing section: unchanged.
       ================================================== */}
 
