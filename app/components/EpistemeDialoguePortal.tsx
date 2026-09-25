@@ -12,23 +12,37 @@ import { useRouter } from "next/navigation";
 /* ==========================================================
    EPISTEME DIALOGUE PORTAL
 
-   HOME owns the only visible outer glass card.
+   HOME / WORK MODELS:
+   - HOME owns the visible outer glass.
+   - WorkModels may publish:
+       --wm-model-height
+       --wm-model-scale
 
-   This component preserves:
-   - existing HOME layout
-   - black atmosphere
-   - wording and navigation
-   - internal vertical scrolling
-   - full-screen black-hole transition
+   ENTRANCE:
+   - 690px remains the reference geometry.
+   - Actual geometry may contract to the available frame.
+   - No internal vertical scrolling is required in WorkModels.
+   - Header / title / brain / tap instruction remain visible.
+   - Tap instruction is a real layout row, not an overlay
+     attached to the bottom of the brain.
 
-   LAYOUT:
-   - shared two-row portal geometry
-   - header at the top
-   - experience occupies the remaining stage
-   - no internal footer row
+   TRANSITION:
+   - fixed full-screen cosmic field
+   - viewport-scale gravitational lensing
+   - large black-hole event horizon
+   - multi-layer accretion structure
+   - star-field collapse
+   - full-screen final plunge
 
    ICON:
-   Obsidian brain → white anatomical wire-frame brain
+   Obsidian atmosphere
+     → white anatomical wire-frame brain
+========================================================== */
+
+const ENTRY_DURATION = 1850;
+
+/* ==========================================================
+   WIREFRAME BRAIN
 ========================================================== */
 
 function WireframeBrain() {
@@ -134,7 +148,10 @@ function WireframeBrain() {
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <g strokeWidth="0.68" opacity="0.67">
+        <g
+          strokeWidth="0.68"
+          opacity="0.67"
+        >
           {horizontalThreads.map((i) => {
             const y = 74 + i * 14;
 
@@ -154,7 +171,10 @@ function WireframeBrain() {
           })}
         </g>
 
-        <g strokeWidth="0.7" opacity="0.72">
+        <g
+          strokeWidth="0.7"
+          opacity="0.72"
+        >
           {verticalThreads.map((i) => {
             const x = 80 + i * 17;
 
@@ -172,7 +192,10 @@ function WireframeBrain() {
           })}
         </g>
 
-        <g strokeWidth="0.62" opacity="0.55">
+        <g
+          strokeWidth="0.62"
+          opacity="0.55"
+        >
           {diagonalThreads.map((i) => {
             const y = 93 + i * 15;
 
@@ -190,7 +213,10 @@ function WireframeBrain() {
           })}
         </g>
 
-        <g strokeWidth="1.55" opacity="0.84">
+        <g
+          strokeWidth="1.55"
+          opacity="0.84"
+        >
           <path d="M 120 236 C 194 150 252 164 320 220 S 437 310 499 230 S 623 167 686 239" />
           <path d="M 117 291 C 187 237 242 284 292 329 S 387 376 444 310 S 570 250 689 303" />
           <path d="M 164 165 C 232 122 272 174 303 220 S 371 289 419 247 S 502 145 590 159" />
@@ -203,7 +229,10 @@ function WireframeBrain() {
           <path d="M 502 107 C 480 160 507 203 550 223 S 586 288 557 328" />
         </g>
 
-        <g strokeWidth="0.94" opacity="0.76">
+        <g
+          strokeWidth="0.94"
+          opacity="0.76"
+        >
           <path d="M 130 269 C 185 249 215 277 242 314 S 303 348 341 320" />
           <path d="M 173 144 C 205 187 241 178 274 155 S 332 129 361 168" />
           <path d="M 290 94 C 337 118 358 161 343 204 S 366 270 407 287" />
@@ -285,7 +314,10 @@ function WireframeBrain() {
           opacity="0.76"
         />
 
-        <g strokeWidth="0.72" opacity="0.53">
+        <g
+          strokeWidth="0.72"
+          opacity="0.53"
+        >
           <path d="M 535 460 L 583 506" />
           <path d="M 546 480 L 589 528" />
           <path d="M 557 502 L 590 550" />
@@ -304,6 +336,10 @@ function WireframeBrain() {
     </svg>
   );
 }
+
+/* ==========================================================
+   PORTAL
+========================================================== */
 
 export default function EpistemeDialoguePortal() {
   const router = useRouter();
@@ -324,12 +360,14 @@ export default function EpistemeDialoguePortal() {
     transitionTimerRef.current =
       window.setTimeout(() => {
         router.push("/episteme-dialogue");
-      }, 1250);
+      }, ENTRY_DURATION);
   }, [entering, router]);
 
   useEffect(() => {
     return () => {
-      if (transitionTimerRef.current !== null) {
+      if (
+        transitionTimerRef.current !== null
+      ) {
         window.clearTimeout(
           transitionTimerRef.current,
         );
@@ -349,6 +387,10 @@ export default function EpistemeDialoguePortal() {
         .join(" ")}
       aria-labelledby="ep-dialogue-portal-title"
     >
+      {/* ====================================================
+          ENTRANCE
+      ==================================================== */}
+
       <div className="ep-dialogue-portal__card">
         <div
           className="ep-dialogue-portal__ambient"
@@ -370,7 +412,7 @@ export default function EpistemeDialoguePortal() {
             <span>EPISTEME</span>
 
             <small>
-              ArcheNova's conversational intelligence space
+              ArcheNova&apos;s conversational intelligence space
             </small>
           </div>
         </header>
@@ -405,14 +447,18 @@ export default function EpistemeDialoguePortal() {
               </span>
 
               <span className="ep-dialogue-portal__brain-floor" />
+            </span>
 
-              <span className="ep-dialogue-portal__tap-hint">
-                Tap Episteme to enter
-              </span>
+            <span className="ep-dialogue-portal__tap-hint">
+              Tap Episteme to enter
             </span>
           </button>
         </div>
       </div>
+
+      {/* ====================================================
+          FULL-SCREEN BLACK-HOLE TRANSITION
+      ==================================================== */}
 
       <div
         className="ep-dialogue-portal__transition"
@@ -420,28 +466,45 @@ export default function EpistemeDialoguePortal() {
       >
         <div className="ep-dialogue-portal__space" />
 
-        <div className="ep-dialogue-portal__transition-stars" />
+        <div className="ep-dialogue-portal__deep-space" />
 
-        <div className="ep-dialogue-portal__collapse-vignette" />
+        <div className="ep-dialogue-portal__transition-stars ep-dialogue-portal__transition-stars--far" />
+
+        <div className="ep-dialogue-portal__transition-stars ep-dialogue-portal__transition-stars--near" />
+
+        <div className="ep-dialogue-portal__gravity-well" />
 
         <div className="ep-dialogue-portal__lensing-field">
           <span className="ep-dialogue-portal__lens-arc ep-dialogue-portal__lens-arc--1" />
           <span className="ep-dialogue-portal__lens-arc ep-dialogue-portal__lens-arc--2" />
           <span className="ep-dialogue-portal__lens-arc ep-dialogue-portal__lens-arc--3" />
           <span className="ep-dialogue-portal__lens-arc ep-dialogue-portal__lens-arc--4" />
+          <span className="ep-dialogue-portal__lens-arc ep-dialogue-portal__lens-arc--5" />
         </div>
 
         <div className="ep-dialogue-portal__black-hole">
-          <span className="ep-dialogue-portal__disk-glow" />
+          <span className="ep-dialogue-portal__disk-glow ep-dialogue-portal__disk-glow--wide" />
+
+          <span className="ep-dialogue-portal__disk-glow ep-dialogue-portal__disk-glow--core" />
+
           <span className="ep-dialogue-portal__accretion ep-dialogue-portal__accretion--far" />
+
           <span className="ep-dialogue-portal__accretion ep-dialogue-portal__accretion--outer" />
+
           <span className="ep-dialogue-portal__accretion ep-dialogue-portal__accretion--middle" />
+
           <span className="ep-dialogue-portal__accretion ep-dialogue-portal__accretion--inner" />
+
           <span className="ep-dialogue-portal__photon-crown" />
+
           <span className="ep-dialogue-portal__photon-ring" />
+
           <span className="ep-dialogue-portal__event-horizon" />
+
           <span className="ep-dialogue-portal__singularity" />
         </div>
+
+        <div className="ep-dialogue-portal__collapse-vignette" />
 
         <div className="ep-dialogue-portal__black-wave" />
 
@@ -452,6 +515,10 @@ export default function EpistemeDialoguePortal() {
       </div>
 
       <style jsx>{`
+        /* ==================================================
+           00 / FOUNDATION
+        ================================================== */
+
         .ep-dialogue-portal,
         .ep-dialogue-portal *,
         .ep-dialogue-portal *::before,
@@ -461,6 +528,7 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal {
           position: relative;
+
           display: flex;
           flex-direction: column;
           align-self: stretch;
@@ -468,18 +536,23 @@ export default function EpistemeDialoguePortal() {
           width: 100%;
           max-width: 100%;
           min-width: 0;
+
           min-height: 100%;
 
           margin: 0;
           padding: 0;
+
           overflow: hidden;
 
           border: 0;
           border-radius: 0;
           outline: 0;
+
           background: transparent;
+
           -webkit-backdrop-filter: none;
           backdrop-filter: none;
+
           box-shadow: none;
         }
 
@@ -488,41 +561,72 @@ export default function EpistemeDialoguePortal() {
         }
 
         /* ==================================================
-           SHARED TWO-ROW PORTAL GEOMETRY
+           01 / TWO-ROW PORTAL CANVAS
         ================================================== */
 
         .ep-dialogue-portal__card {
           position: relative;
           isolation: isolate;
 
-          flex: 1 0 auto;
+          flex: 1 1 auto;
 
           width: 100%;
           max-width: 100%;
           min-width: 0;
-          min-height: clamp(560px, 58vw, 700px);
+
+          min-height:
+            clamp(
+              560px,
+              58vw,
+              700px
+            );
 
           display: grid;
+
           grid-template-rows:
             auto
             minmax(0, 1fr);
 
           overflow: hidden;
-          padding: clamp(25px, 4vw, 50px);
+
+          padding:
+            clamp(
+              25px,
+              4vw,
+              50px
+            );
 
           border: 0;
           border-radius: 0;
           outline: 0;
+
           background: transparent;
-          -webkit-backdrop-filter: none;
-          backdrop-filter: none;
+
+          -webkit-backdrop-filter:
+            none;
+
+          backdrop-filter:
+            none;
+
           box-shadow: none;
 
-          color: rgba(248, 249, 250, 0.94);
+          color:
+            rgba(
+              248,
+              249,
+              250,
+              0.94
+            );
 
           transition:
-            opacity 0.65s ease,
-            transform 0.8s cubic-bezier(0.16, 0.78, 0.22, 1),
+            opacity 0.55s ease,
+            transform 0.8s
+              cubic-bezier(
+                0.16,
+                0.78,
+                0.22,
+                1
+              ),
             filter 0.65s ease;
         }
 
@@ -532,26 +636,47 @@ export default function EpistemeDialoguePortal() {
           display: none;
         }
 
+        /* ==================================================
+           02 / ATMOSPHERE
+        ================================================== */
+
         .ep-dialogue-portal__ambient {
           position: absolute;
           inset: 0;
+
           z-index: -6;
+
           pointer-events: none;
 
           background:
             radial-gradient(
               ellipse at 50% 51%,
-              rgba(255, 255, 255, 0.026),
+              rgba(
+                255,
+                255,
+                255,
+                0.026
+              ),
               transparent 42%
             ),
             radial-gradient(
               ellipse at 16% 24%,
-              rgba(255, 255, 255, 0.012),
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              ),
               transparent 35%
             ),
             radial-gradient(
               ellipse at 84% 75%,
-              rgba(255, 255, 255, 0.01),
+              rgba(
+                255,
+                255,
+                255,
+                0.01
+              ),
               transparent 36%
             );
         }
@@ -559,24 +684,44 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__stars {
           position: absolute;
           inset: 0;
+
           z-index: -5;
+
           pointer-events: none;
+
           opacity: 0.14;
 
           background-image:
             radial-gradient(
               circle,
-              rgba(255, 255, 255, 0.36) 0 0.45px,
+              rgba(
+                255,
+                255,
+                255,
+                0.36
+              )
+              0 0.45px,
               transparent 0.75px
             ),
             radial-gradient(
               circle,
-              rgba(255, 255, 255, 0.16) 0 0.35px,
+              rgba(
+                255,
+                255,
+                255,
+                0.16
+              )
+              0 0.35px,
               transparent 0.65px
             );
 
-          background-size: 67px 67px, 109px 109px;
-          background-position: 0 0, 31px 21px;
+          background-size:
+            67px 67px,
+            109px 109px;
+
+          background-position:
+            0 0,
+            31px 21px;
 
           -webkit-mask-image:
             radial-gradient(
@@ -595,11 +740,14 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal__reflection {
           position: absolute;
+
           z-index: -3;
+
           pointer-events: none;
 
           top: -30%;
           left: -10%;
+
           width: 62%;
           height: 62%;
 
@@ -609,7 +757,12 @@ export default function EpistemeDialoguePortal() {
             linear-gradient(
               110deg,
               transparent,
-              rgba(255, 255, 255, 0.014),
+              rgba(
+                255,
+                255,
+                255,
+                0.014
+              ),
               transparent
             );
 
@@ -617,11 +770,12 @@ export default function EpistemeDialoguePortal() {
         }
 
         /* ==================================================
-           HEADER
+           03 / HEADER
         ================================================== */
 
         .ep-dialogue-portal__top {
           position: relative;
+
           z-index: 10;
 
           width: 100%;
@@ -629,6 +783,7 @@ export default function EpistemeDialoguePortal() {
           min-width: 0;
 
           display: grid;
+
           grid-template-columns:
             minmax(0, 1fr)
             auto
@@ -640,37 +795,63 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal__identity {
           grid-column: 2;
+
           min-width: 0;
 
           display: flex;
           flex-direction: column;
           align-items: center;
+
           gap: 7px;
 
           text-align: center;
         }
 
         .ep-dialogue-portal__identity > span {
-          color: rgba(255, 255, 255, 0.82);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.82
+            );
+
           font-size: 9px;
           font-weight: 650;
+
           letter-spacing: 0.24em;
+
           white-space: nowrap;
         }
 
         .ep-dialogue-portal__identity > small {
-          color: rgba(255, 255, 255, 0.24);
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.24
+            );
+
           font-size: 6px;
+
           letter-spacing: 0.14em;
+
           white-space: nowrap;
         }
 
         /* ==================================================
-           EXPERIENCE
+           04 / EXPERIENCE
+
+           Everything is a real layout participant.
+
+           The tap instruction is therefore never dependent
+           on absolute positioning outside the visible frame.
         ================================================== */
 
         .ep-dialogue-portal__experience {
           position: relative;
+
           z-index: 5;
 
           align-self: stretch;
@@ -682,32 +863,32 @@ export default function EpistemeDialoguePortal() {
 
           display: flex;
           flex-direction: column;
+
           align-items: center;
           justify-content: center;
 
           padding:
-            clamp(28px, 4vw, 46px)
+            clamp(
+              28px,
+              4vw,
+              46px
+            )
             0
-            clamp(20px, 3vw, 32px);
+            clamp(
+              20px,
+              3vw,
+              32px
+            );
 
-          overflow-x: hidden;
-          overflow-y: auto;
-          overscroll-behavior-y: contain;
-          -webkit-overflow-scrolling: touch;
-
-          scrollbar-width: none;
-          -ms-overflow-style: none;
-        }
-
-        .ep-dialogue-portal__experience::-webkit-scrollbar {
-          width: 0;
-          height: 0;
-          display: none;
+          overflow: hidden;
         }
 
         .ep-dialogue-portal__statement {
           position: relative;
+
           z-index: 5;
+
+          flex: 0 0 auto;
 
           width: 100%;
           max-width: 100%;
@@ -716,6 +897,7 @@ export default function EpistemeDialoguePortal() {
           display: flex;
           flex-direction: column;
           align-items: center;
+
           gap: 13px;
 
           text-align: center;
@@ -729,50 +911,109 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__statement h2 {
           width: 100%;
           max-width: 820px;
+
           margin: 0;
 
-          color: rgba(250, 251, 252, 0.97);
+          color:
+            rgba(
+              250,
+              251,
+              252,
+              0.97
+            );
 
-          font-size: clamp(39px, 5.1vw, 70px);
+          font-size:
+            clamp(
+              39px,
+              5.1vw,
+              70px
+            );
+
           font-weight: 235;
+
           line-height: 1.015;
-          letter-spacing: -0.058em;
+
+          letter-spacing:
+            -0.058em;
 
           text-align: center;
-          overflow-wrap: break-word;
+
+          overflow-wrap:
+            break-word;
+
           text-wrap: balance;
 
           text-shadow:
-            0 1px 0 rgba(255, 255, 255, 0.02);
+            0 1px 0
+            rgba(
+              255,
+              255,
+              255,
+              0.02
+            );
         }
 
         /* ==================================================
-           BRAIN
+           05 / BRAIN BUTTON
+
+           The button now contains:
+
+             brain visual
+               ↓
+             tap instruction
+
+           instead of placing the tap instruction inside the
+           brain with position:absolute.
         ================================================== */
 
         .ep-dialogue-portal__brain-button {
           position: relative;
+
           z-index: 6;
 
-          width: min(100%, 520px);
+          flex: 0 1 auto;
+
+          width:
+            min(
+              100%,
+              520px
+            );
+
           max-width: 100%;
           min-width: 0;
 
-          display: block;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
 
-          margin-top: clamp(13px, 1.8vw, 22px);
+          margin:
+            clamp(
+              13px,
+              1.8vw,
+              22px
+            )
+            auto
+            0;
+
           padding: 0;
 
           border: 0;
           outline: 0;
+
           background: transparent;
+
           box-shadow: none;
+
           color: inherit;
 
           cursor: pointer;
+
           appearance: none;
+
           -webkit-appearance: none;
-          -webkit-tap-highlight-color: transparent;
+
+          -webkit-tap-highlight-color:
+            transparent;
         }
 
         .ep-dialogue-portal__brain-button:disabled {
@@ -781,16 +1022,30 @@ export default function EpistemeDialoguePortal() {
 
         .ep-dialogue-portal__brain-button:focus-visible {
           outline:
-            1px solid rgba(255, 255, 255, 0.18);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.18
+            );
 
           outline-offset: 8px;
-          border-radius: 50%;
+
+          border-radius: 18px;
         }
 
         .ep-dialogue-portal__brain {
           position: relative;
 
-          width: min(100%, 450px);
+          flex: 0 1 auto;
+
+          width:
+            min(
+              100%,
+              450px
+            );
+
           max-width: 100%;
           min-width: 0;
 
@@ -800,83 +1055,148 @@ export default function EpistemeDialoguePortal() {
           place-items: center;
 
           margin: 0 auto;
+
           overflow: visible;
 
           background: transparent;
+
           border: 0;
+
           box-shadow: none;
 
           transform: translateZ(0);
 
           transition:
             transform 0.75s
-            cubic-bezier(0.2, 0.8, 0.2, 1);
+            cubic-bezier(
+              0.2,
+              0.8,
+              0.2,
+              1
+            );
         }
 
         .ep-dialogue-portal__gravity-field {
           position: absolute;
+
           z-index: 0;
 
           width: 86%;
           height: 65%;
+
           left: 50%;
           top: 48%;
 
-          transform: translate(-50%, -50%);
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
           border-radius: 50%;
 
           background:
             radial-gradient(
               ellipse,
-              rgba(255, 255, 255, 0.032) 0%,
-              rgba(255, 255, 255, 0.012) 27%,
-              rgba(0, 0, 0, 0.11) 49%,
+              rgba(
+                255,
+                255,
+                255,
+                0.032
+              )
+              0%,
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              )
+              27%,
+              rgba(
+                0,
+                0,
+                0,
+                0.11
+              )
+              49%,
               transparent 72%
             );
 
           filter: blur(13px);
+
           opacity: 0.72;
+
           pointer-events: none;
 
           animation:
-            ep-gravity-breathe 11.5s ease-in-out infinite;
+            ep-gravity-breathe
+            11.5s
+            ease-in-out
+            infinite;
         }
 
         .ep-dialogue-portal__brain-aura {
           position: absolute;
+
           z-index: 1;
 
           width: 78%;
+
           aspect-ratio: 1;
+
           border-radius: 50%;
 
           background:
             radial-gradient(
               circle,
               transparent 16%,
-              rgba(255, 255, 255, 0.032) 34%,
-              rgba(255, 255, 255, 0.009) 52%,
+              rgba(
+                255,
+                255,
+                255,
+                0.032
+              )
+              34%,
+              rgba(
+                255,
+                255,
+                255,
+                0.009
+              )
+              52%,
               transparent 72%
             );
 
           filter: blur(11px);
+
           pointer-events: none;
 
           animation:
-            ep-aura-breathe 10.8s ease-in-out infinite;
+            ep-aura-breathe
+            10.8s
+            ease-in-out
+            infinite;
         }
 
         .ep-dialogue-portal__brain-orbit {
           position: absolute;
+
           z-index: 2;
 
           left: 50%;
           top: 50%;
 
           border:
-            1px solid rgba(255, 255, 255, 0.035);
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
 
           border-radius: 50%;
+
           pointer-events: none;
 
           transition:
@@ -889,7 +1209,11 @@ export default function EpistemeDialoguePortal() {
           height: 39%;
 
           transform:
-            translate(-50%, -50%) rotate(-8deg);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-8deg);
 
           opacity: 0.72;
         }
@@ -899,7 +1223,11 @@ export default function EpistemeDialoguePortal() {
           height: 28%;
 
           transform:
-            translate(-50%, -50%) rotate(17deg);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(17deg);
 
           opacity: 0.48;
         }
@@ -909,13 +1237,18 @@ export default function EpistemeDialoguePortal() {
           height: 61%;
 
           transform:
-            translate(-50%, -50%) rotate(-19deg);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-19deg);
 
           opacity: 0.24;
         }
 
         .ep-dialogue-portal__organ--wire {
           position: relative;
+
           z-index: 5;
 
           width: 84%;
@@ -924,19 +1257,38 @@ export default function EpistemeDialoguePortal() {
           display: grid;
           place-items: center;
 
-          transform-style: preserve-3d;
+          transform-style:
+            preserve-3d;
 
           filter:
             drop-shadow(
-              0 27px 40px rgba(0, 0, 0, 0.76)
+              0 27px 40px
+              rgba(
+                0,
+                0,
+                0,
+                0.76
+              )
             )
             drop-shadow(
-              0 0 13px rgba(255, 255, 255, 0.065)
+              0 0 13px
+              rgba(
+                255,
+                255,
+                255,
+                0.065
+              )
             );
 
           animation:
-            ep-brain-breathe 10.8s
-            cubic-bezier(0.45, 0, 0.55, 1)
+            ep-brain-breathe
+            10.8s
+            cubic-bezier(
+              0.45,
+              0,
+              0.55,
+              1
+            )
             infinite;
 
           transition:
@@ -948,55 +1300,119 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal__organ--wire
         :global(.ep-dialogue-portal__wire-brain) {
           display: block;
+
           width: 100%;
           height: 100%;
+
           overflow: visible;
+
           opacity: 0.94;
         }
 
         .ep-dialogue-portal__brain-floor {
           position: absolute;
+
           z-index: 3;
 
           bottom: 16%;
           left: 50%;
+
           width: 49%;
           height: 7%;
 
-          transform: translateX(-50%);
+          transform:
+            translateX(-50%);
+
           border-radius: 50%;
 
           background:
             radial-gradient(
               ellipse,
-              rgba(255, 255, 255, 0.047),
-              rgba(255, 255, 255, 0.008) 38%,
-              rgba(0, 0, 0, 0.24) 59%,
+              rgba(
+                255,
+                255,
+                255,
+                0.047
+              ),
+              rgba(
+                255,
+                255,
+                255,
+                0.008
+              )
+              38%,
+              rgba(
+                0,
+                0,
+                0,
+                0.24
+              )
+              59%,
               transparent 76%
             );
 
           filter: blur(9px);
+
           opacity: 0.58;
 
           animation:
-            ep-floor-breathe 10.8s ease-in-out infinite;
+            ep-floor-breathe
+            10.8s
+            ease-in-out
+            infinite;
         }
 
+        /* ==================================================
+           06 / TAP INSTRUCTION
+
+           Real layout row.
+           It is always reserved inside the visible frame.
+        ================================================== */
+
         .ep-dialogue-portal__tap-hint {
-          position: absolute;
+          position: relative;
+
           z-index: 10;
 
-          bottom: 1.5%;
-          left: 50%;
-          max-width: 100%;
+          display: block;
 
-          transform: translateX(-50%);
+          flex: 0 0 auto;
 
-          color: rgba(255, 255, 255, 0.26);
+          width: 100%;
+
+          margin:
+            clamp(
+              4px,
+              0.7vw,
+              8px
+            )
+            auto
+            0;
+
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.29
+            );
+
           font-size: 7px;
+
           font-weight: 500;
-          letter-spacing: 0.12em;
+
+          line-height: 1.2;
+
+          letter-spacing:
+            0.12em;
+
+          text-align: center;
+
           white-space: nowrap;
+
+          overflow: hidden;
+
+          text-overflow: ellipsis;
 
           transition:
             color 0.4s ease,
@@ -1005,175 +1421,521 @@ export default function EpistemeDialoguePortal() {
         }
 
         /* ==================================================
-           FULL-SCREEN TRANSITION
+           07 / FULL-SCREEN COSMIC TRANSITION
+
+           The transition is viewport-owned rather than
+           entrance-card-owned.
+
+           100dvw / 100dvh ensures the effect fills the
+           actual visual viewport on modern mobile browsers.
         ================================================== */
 
         .ep-dialogue-portal__transition {
           position: fixed;
+
           inset: 0;
-          z-index: 9999;
+
+          z-index: 2147483000;
+
+          width: 100dvw;
+          height: 100dvh;
+
           overflow: hidden;
 
           display: grid;
           place-items: center;
 
-          background: transparent;
+          background: #000;
+
           opacity: 0;
           visibility: hidden;
+
           pointer-events: none;
 
+          contain: strict;
+
           transition:
-            opacity 0.14s ease,
-            visibility 0s linear 1.3s;
+            opacity 0.16s ease,
+            visibility
+            0s linear
+            ${ENTRY_DURATION}ms;
         }
 
         .ep-dialogue-portal__space {
           position: absolute;
-          inset: -4%;
+
+          inset: -12%;
+
+          z-index: 0;
 
           background:
             radial-gradient(
-              circle at 50% 50%,
-              rgba(17, 18, 20, 0.99) 0%,
-              rgba(5, 5, 6, 0.995) 35%,
-              rgba(1, 1, 2, 1) 62%,
+              ellipse
+              at 50% 50%,
+              rgba(
+                21,
+                22,
+                25,
+                1
+              )
+              0%,
+              rgba(
+                7,
+                8,
+                10,
+                1
+              )
+              27%,
+              rgba(
+                1,
+                1,
+                2,
+                1
+              )
+              59%,
               #000 100%
             );
 
           opacity: 0;
-          transform: scale(1.08);
+
+          transform:
+            scale(1.18);
 
           transition:
-            opacity 0.42s ease,
-            transform 1.15s
-            cubic-bezier(0.16, 0.78, 0.18, 1);
-        }
-
-        .ep-dialogue-portal__transition-stars {
-          position: absolute;
-          inset: -18%;
-          z-index: 1;
-          opacity: 0;
-
-          background-image:
-            radial-gradient(
-              circle,
-              rgba(255, 255, 255, 0.52) 0 0.55px,
-              transparent 0.9px
-            ),
-            radial-gradient(
-              circle,
-              rgba(255, 255, 255, 0.24) 0 0.45px,
-              transparent 0.8px
+            opacity 0.28s ease,
+            transform
+            1.75s
+            cubic-bezier(
+              0.12,
+              0.76,
+              0.12,
+              1
             );
-
-          background-size: 91px 91px, 137px 137px;
-          background-position: 13px 7px, 48px 33px;
-
-          transform: scale(1);
-          filter: blur(0);
         }
 
-        .ep-dialogue-portal__collapse-vignette {
+        .ep-dialogue-portal__deep-space {
           position: absolute;
-          inset: 0;
-          z-index: 7;
+
+          inset: -30%;
+
+          z-index: 1;
+
           opacity: 0;
 
           background:
             radial-gradient(
-              circle at 50% 50%,
-              transparent 0%,
-              transparent 28%,
-              rgba(0, 0, 0, 0.16) 50%,
-              rgba(0, 0, 0, 0.88) 100%
+              ellipse
+              at 50% 50%,
+              transparent 0 16%,
+              rgba(
+                255,
+                255,
+                255,
+                0.014
+              )
+              23%,
+              transparent 31%
+            ),
+            conic-gradient(
+              from 17deg
+              at 50% 50%,
+              transparent,
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              ),
+              transparent 14%,
+              rgba(
+                255,
+                255,
+                255,
+                0.022
+              )
+              26%,
+              transparent 39%,
+              rgba(
+                255,
+                255,
+                255,
+                0.01
+              )
+              55%,
+              transparent 72%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              )
+              86%,
+              transparent
             );
 
-          pointer-events: none;
+          filter: blur(24px);
+
+          transform:
+            rotate(-8deg)
+            scale(1.18);
         }
 
-        .ep-dialogue-portal__lensing-field {
+        /* ==================================================
+           08 / TRANSITION STAR FIELDS
+        ================================================== */
+
+        .ep-dialogue-portal__transition-stars {
           position: absolute;
+
+          inset: -35%;
+
+          pointer-events: none;
+
+          opacity: 0;
+        }
+
+        .ep-dialogue-portal__transition-stars--far {
           z-index: 2;
+
+          background-image:
+            radial-gradient(
+              circle,
+              rgba(
+                255,
+                255,
+                255,
+                0.5
+              )
+              0 0.45px,
+              transparent 0.85px
+            ),
+            radial-gradient(
+              circle,
+              rgba(
+                255,
+                255,
+                255,
+                0.24
+              )
+              0 0.35px,
+              transparent 0.75px
+            );
+
+          background-size:
+            83px 83px,
+            137px 137px;
+
+          background-position:
+            7px 11px,
+            43px 31px;
+        }
+
+        .ep-dialogue-portal__transition-stars--near {
+          z-index: 3;
+
+          background-image:
+            radial-gradient(
+              ellipse,
+              rgba(
+                255,
+                255,
+                255,
+                0.65
+              )
+              0 0.6px,
+              transparent 1.2px
+            ),
+            radial-gradient(
+              ellipse,
+              rgba(
+                255,
+                255,
+                255,
+                0.28
+              )
+              0 0.5px,
+              transparent 1px
+            );
+
+          background-size:
+            149px 149px,
+            211px 211px;
+
+          background-position:
+            19px 7px,
+            71px 57px;
+
+          filter: blur(0.15px);
+        }
+
+        /* ==================================================
+           09 / VIEWPORT-SCALE GRAVITY WELL
+        ================================================== */
+
+        .ep-dialogue-portal__gravity-well {
+          position: absolute;
+
+          z-index: 4;
 
           left: 50%;
           top: 50%;
 
-          width: min(82vw, 790px);
+          width: 142vmax;
+          height: 142vmax;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            scale(0.18);
+
+          border-radius: 50%;
+
+          opacity: 0;
+
+          background:
+            radial-gradient(
+              circle,
+              rgba(
+                0,
+                0,
+                0,
+                0
+              )
+              0 9%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              )
+              14%,
+              rgba(
+                0,
+                0,
+                0,
+                0.14
+              )
+              27%,
+              rgba(
+                0,
+                0,
+                0,
+                0.46
+              )
+              48%,
+              transparent 72%
+            );
+
+          filter: blur(22px);
+
+          pointer-events: none;
+        }
+
+        /* ==================================================
+           10 / GRAVITATIONAL LENS
+        ================================================== */
+
+        .ep-dialogue-portal__lensing-field {
+          position: absolute;
+
+          z-index: 5;
+
+          left: 50%;
+          top: 50%;
+
+          width:
+            min(
+              116vmax,
+              1600px
+            );
+
           aspect-ratio: 1;
 
           transform:
-            translate(-50%, -50%) scale(0.34);
+            translate(
+              -50%,
+              -50%
+            )
+            scale(0.16)
+            rotate(-9deg);
 
           opacity: 0;
+
           pointer-events: none;
         }
 
         .ep-dialogue-portal__lens-arc {
           position: absolute;
+
           left: 50%;
           top: 50%;
 
           border-radius: 50%;
-          border: 1px solid transparent;
+
+          border:
+            1px solid
+            transparent;
+
           pointer-events: none;
         }
 
         .ep-dialogue-portal__lens-arc--1 {
-          width: 82%;
-          height: 82%;
+          width: 94%;
+          height: 94%;
+
           border-top-color:
-            rgba(247, 249, 250, 0.09);
+            rgba(
+              255,
+              255,
+              255,
+              0.11
+            );
+
+          border-left-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.018
+            );
+
           transform:
-            translate(-50%, -50%) rotate(-19deg);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-17deg);
         }
 
         .ep-dialogue-portal__lens-arc--2 {
-          width: 69%;
-          height: 69%;
+          width: 81%;
+          height: 81%;
+
+          border-right-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.085
+            );
+
           border-bottom-color:
-            rgba(247, 249, 250, 0.075);
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+
           transform:
-            translate(-50%, -50%) rotate(27deg);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(31deg);
         }
 
         .ep-dialogue-portal__lens-arc--3 {
-          width: 96%;
-          height: 42%;
+          width: 112%;
+          height: 39%;
+
           border-top-color:
-            rgba(255, 255, 255, 0.055);
+            rgba(
+              255,
+              255,
+              255,
+              0.075
+            );
+
           transform:
-            translate(-50%, -50%) rotate(-11deg);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-10deg);
         }
 
         .ep-dialogue-portal__lens-arc--4 {
-          width: 57%;
-          height: 91%;
+          width: 52%;
+          height: 103%;
+
           border-right-color:
-            rgba(255, 255, 255, 0.035);
+            rgba(
+              255,
+              255,
+              255,
+              0.052
+            );
+
           transform:
-            translate(-50%, -50%) rotate(17deg);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(21deg);
         }
+
+        .ep-dialogue-portal__lens-arc--5 {
+          width: 125%;
+          height: 23%;
+
+          border-bottom-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.04
+            );
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-7deg);
+        }
+
+        /* ==================================================
+           11 / BLACK HOLE
+
+           Desktop:
+             may extend beyond viewport edges.
+
+           Mobile:
+             uses vmax so landscape / portrait both retain
+             a genuinely full-screen gravitational scale.
+        ================================================== */
 
         .ep-dialogue-portal__black-hole {
           position: relative;
-          z-index: 4;
 
-          width: min(61vw, 610px);
+          z-index: 8;
+
+          width:
+            min(
+              88vmax,
+              1180px
+            );
+
           aspect-ratio: 1;
 
           display: grid;
           place-items: center;
 
           opacity: 0;
-          transform: scale(0.08);
-          filter: blur(7px);
 
-          transition:
-            opacity 0.24s ease,
-            transform 1.12s
-            cubic-bezier(0.12, 0.72, 0.16, 1),
-            filter 0.5s ease;
+          transform:
+            scale(0.025)
+            rotate(-3deg);
+
+          filter: blur(12px);
+
+          will-change:
+            transform,
+            opacity,
+            filter;
         }
 
         .ep-dialogue-portal__disk-glow,
@@ -1185,183 +1947,547 @@ export default function EpistemeDialoguePortal() {
           position: absolute;
         }
 
+        /* ==================================================
+           12 / ACCRETION DISK
+        ================================================== */
+
         .ep-dialogue-portal__disk-glow {
           z-index: 2;
-          width: 107%;
-          height: 23%;
-          border-radius: 50%;
-          transform: rotate(-12deg);
-
-          background:
-            linear-gradient(
-              90deg,
-              transparent 2%,
-              rgba(255, 255, 255, 0.015) 16%,
-              rgba(255, 255, 255, 0.12) 42%,
-              rgba(255, 255, 255, 0.32) 50%,
-              rgba(255, 255, 255, 0.105) 59%,
-              rgba(255, 255, 255, 0.012) 84%,
-              transparent 98%
-            );
-
-          filter: blur(7px);
-          opacity: 0.55;
-        }
-
-        .ep-dialogue-portal__accretion {
-          z-index: 3;
-          border-radius: 50%;
-          border-style: solid;
-          transform:
-            rotateX(70deg) rotateZ(-12deg);
-        }
-
-        .ep-dialogue-portal__accretion--far {
-          width: 108%;
-          height: 108%;
-          border-width: 1px;
-          border-color:
-            transparent
-            rgba(255, 255, 255, 0.055)
-            transparent
-            rgba(255, 255, 255, 0.018);
-        }
-
-        .ep-dialogue-portal__accretion--outer {
-          width: 91%;
-          height: 91%;
-          border-width: 1px;
-          border-color:
-            rgba(239, 243, 245, 0.035)
-            rgba(239, 243, 245, 0.18)
-            rgba(239, 243, 245, 0.02)
-            rgba(239, 243, 245, 0.075);
-        }
-
-        .ep-dialogue-portal__accretion--middle {
-          width: 72%;
-          height: 72%;
-          border-width: 1px;
-          border-color:
-            rgba(247, 249, 250, 0.055)
-            rgba(247, 249, 250, 0.34)
-            rgba(247, 249, 250, 0.03)
-            rgba(247, 249, 250, 0.14);
-        }
-
-        .ep-dialogue-portal__accretion--inner {
-          width: 54%;
-          height: 54%;
-          border-width: 1px;
-          border-color:
-            rgba(255, 255, 255, 0.08)
-            rgba(255, 255, 255, 0.54)
-            rgba(255, 255, 255, 0.04)
-            rgba(255, 255, 255, 0.19);
-        }
-
-        .ep-dialogue-portal__photon-crown {
-          z-index: 5;
-          width: 43%;
-          height: 43%;
-          border-radius: 50%;
-        }
-
-        .ep-dialogue-portal__photon-ring {
-          z-index: 6;
-          width: 38%;
-          height: 38%;
-          border:
-            1px solid rgba(250, 252, 252, 0.62);
-          border-radius: 50%;
-        }
-
-        .ep-dialogue-portal__event-horizon {
-          z-index: 7;
-          width: 35.5%;
-          height: 35.5%;
-          border-radius: 50%;
-          background: #000;
-        }
-
-        .ep-dialogue-portal__singularity {
-          z-index: 8;
-          width: 2px;
-          height: 2px;
-          border-radius: 50%;
-          background: #000;
-        }
-
-        .ep-dialogue-portal__black-wave {
-          position: absolute;
-          z-index: 6;
 
           left: 50%;
           top: 50%;
 
-          width: 14vmax;
-          height: 14vmax;
           border-radius: 50%;
 
           transform:
-            translate(-50%, -50%) scale(0.1);
+            translate(
+              -50%,
+              -50%
+            )
+            rotate(-11deg);
 
-          background: #000;
-          opacity: 0;
           pointer-events: none;
         }
 
+        .ep-dialogue-portal__disk-glow--wide {
+          width: 126%;
+          height: 24%;
+
+          background:
+            linear-gradient(
+              90deg,
+              transparent 0%,
+              rgba(
+                255,
+                255,
+                255,
+                0.012
+              )
+              10%,
+              rgba(
+                255,
+                255,
+                255,
+                0.055
+              )
+              28%,
+              rgba(
+                255,
+                255,
+                255,
+                0.28
+              )
+              46%,
+              rgba(
+                255,
+                255,
+                255,
+                0.7
+              )
+              50%,
+              rgba(
+                255,
+                255,
+                255,
+                0.23
+              )
+              56%,
+              rgba(
+                255,
+                255,
+                255,
+                0.045
+              )
+              73%,
+              transparent 100%
+            );
+
+          filter: blur(13px);
+
+          opacity: 0.72;
+        }
+
+        .ep-dialogue-portal__disk-glow--core {
+          width: 102%;
+          height: 10%;
+
+          background:
+            linear-gradient(
+              90deg,
+              transparent,
+              rgba(
+                255,
+                255,
+                255,
+                0.08
+              )
+              25%,
+              rgba(
+                255,
+                255,
+                255,
+                0.92
+              )
+              49%,
+              rgba(
+                255,
+                255,
+                255,
+                0.11
+              )
+              74%,
+              transparent
+            );
+
+          filter: blur(4px);
+
+          opacity: 0.74;
+        }
+
+        .ep-dialogue-portal__accretion {
+          z-index: 3;
+
+          left: 50%;
+          top: 50%;
+
+          border-radius: 50%;
+
+          border-style: solid;
+
+          pointer-events: none;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            rotateX(72deg)
+            rotateZ(-11deg);
+        }
+
+        .ep-dialogue-portal__accretion--far {
+          width: 119%;
+          height: 119%;
+
+          border-width: 1px;
+
+          border-color:
+            transparent
+            rgba(
+              255,
+              255,
+              255,
+              0.09
+            )
+            transparent
+            rgba(
+              255,
+              255,
+              255,
+              0.025
+            );
+        }
+
+        .ep-dialogue-portal__accretion--outer {
+          width: 101%;
+          height: 101%;
+
+          border-width: 1px;
+
+          border-color:
+            rgba(
+              239,
+              243,
+              245,
+              0.04
+            )
+            rgba(
+              239,
+              243,
+              245,
+              0.24
+            )
+            rgba(
+              239,
+              243,
+              245,
+              0.025
+            )
+            rgba(
+              239,
+              243,
+              245,
+              0.09
+            );
+        }
+
+        .ep-dialogue-portal__accretion--middle {
+          width: 80%;
+          height: 80%;
+
+          border-width: 1px;
+
+          border-color:
+            rgba(
+              247,
+              249,
+              250,
+              0.065
+            )
+            rgba(
+              247,
+              249,
+              250,
+              0.42
+            )
+            rgba(
+              247,
+              249,
+              250,
+              0.035
+            )
+            rgba(
+              247,
+              249,
+              250,
+              0.16
+            );
+        }
+
+        .ep-dialogue-portal__accretion--inner {
+          width: 61%;
+          height: 61%;
+
+          border-width: 1px;
+
+          border-color:
+            rgba(
+              255,
+              255,
+              255,
+              0.1
+            )
+            rgba(
+              255,
+              255,
+              255,
+              0.72
+            )
+            rgba(
+              255,
+              255,
+              255,
+              0.05
+            )
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
+        }
+
+        /* ==================================================
+           13 / PHOTON RING + EVENT HORIZON
+        ================================================== */
+
+        .ep-dialogue-portal__photon-crown {
+          z-index: 5;
+
+          width: 49%;
+          height: 49%;
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle,
+              transparent 58%,
+              rgba(
+                255,
+                255,
+                255,
+                0.025
+              )
+              66%,
+              rgba(
+                255,
+                255,
+                255,
+                0.11
+              )
+              72%,
+              transparent 79%
+            );
+
+          filter: blur(5px);
+        }
+
+        .ep-dialogue-portal__photon-ring {
+          z-index: 6;
+
+          width: 43%;
+          height: 43%;
+
+          border:
+            1px solid
+            rgba(
+              250,
+              252,
+              252,
+              0.82
+            );
+
+          border-radius: 50%;
+
+          box-shadow:
+            0 0 8px
+            rgba(
+              255,
+              255,
+              255,
+              0.16
+            ),
+            0 0 27px
+            rgba(
+              255,
+              255,
+              255,
+              0.055
+            );
+        }
+
+        .ep-dialogue-portal__event-horizon {
+          z-index: 7;
+
+          width: 40.5%;
+          height: 40.5%;
+
+          border-radius: 50%;
+
+          background:
+            radial-gradient(
+              circle at 47% 43%,
+              #020202 0%,
+              #000 58%,
+              #000 100%
+            );
+
+          box-shadow:
+            inset
+              0 0 28px
+              rgba(
+                255,
+                255,
+                255,
+                0.008
+              ),
+            0 0 42px
+              rgba(
+                0,
+                0,
+                0,
+                0.96
+              );
+        }
+
+        .ep-dialogue-portal__singularity {
+          z-index: 8;
+
+          width: 2px;
+          height: 2px;
+
+          border-radius: 50%;
+
+          background: #000;
+        }
+
+        /* ==================================================
+           14 / VIGNETTE + FINAL BLACK WAVE
+        ================================================== */
+
+        .ep-dialogue-portal__collapse-vignette {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: 10;
+
+          opacity: 0;
+
+          background:
+            radial-gradient(
+              circle
+              at 50% 50%,
+              transparent 0%,
+              transparent 17%,
+              rgba(
+                0,
+                0,
+                0,
+                0.05
+              )
+              31%,
+              rgba(
+                0,
+                0,
+                0,
+                0.36
+              )
+              61%,
+              rgba(
+                0,
+                0,
+                0,
+                0.96
+              )
+              100%
+            );
+
+          pointer-events: none;
+        }
+
+        .ep-dialogue-portal__black-wave {
+          position: absolute;
+
+          z-index: 20;
+
+          left: 50%;
+          top: 50%;
+
+          width: 10vmax;
+          height: 10vmax;
+
+          border-radius: 50%;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            )
+            scale(0.01);
+
+          background: #000;
+
+          opacity: 0;
+
+          pointer-events: none;
+        }
+
+        /* ==================================================
+           15 / TRANSITION COPY
+        ================================================== */
+
         .ep-dialogue-portal__transition-copy {
           position: absolute;
-          z-index: 9;
 
-          bottom: clamp(44px, 8vh, 90px);
+          z-index: 30;
+
+          bottom:
+            max(
+              28px,
+              env(
+                safe-area-inset-bottom
+              )
+            );
+
           left: 50%;
 
           display: flex;
           flex-direction: column;
           align-items: center;
+
           gap: 8px;
 
-          transform: translate(-50%, 9px);
+          transform:
+            translate(
+              -50%,
+              12px
+            );
+
           opacity: 0;
+
           text-align: center;
 
-          transition:
-            opacity 0.32s ease 0.44s,
-            transform 0.5s ease 0.44s;
+          pointer-events: none;
         }
 
         .ep-dialogue-portal__transition-copy > span {
-          color: rgba(246, 248, 249, 0.58);
+          color:
+            rgba(
+              246,
+              248,
+              249,
+              0.64
+            );
+
           font-size: 7px;
+
           font-weight: 620;
+
           letter-spacing: 0.25em;
         }
 
         .ep-dialogue-portal__transition-copy > small {
-          color: rgba(221, 227, 230, 0.2);
+          color:
+            rgba(
+              221,
+              227,
+              230,
+              0.24
+            );
+
           font-size: 6px;
+
           letter-spacing: 0.08em;
         }
 
         /* ==================================================
-           ENTERING
+           16 / ENTERING — CARD
         ================================================== */
 
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__statement {
           opacity: 0;
-          transform: translateY(-8px) scale(0.985);
+
+          transform:
+            translateY(-8px)
+            scale(0.985);
+
           filter: blur(2px);
         }
 
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__organ--wire {
           animation: none;
-          transform: scale(0.31);
+
+          transform: scale(0.24);
+
           opacity: 0;
-          filter: brightness(0.22) blur(2px);
+
+          filter:
+            brightness(0.16)
+            blur(3px);
         }
 
         .ep-dialogue-portal--entering
@@ -1378,50 +2504,216 @@ export default function EpistemeDialoguePortal() {
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__card {
           opacity: 0;
-          transform: scale(0.982);
-          filter: brightness(0.42) blur(9px);
+
+          transform:
+            scale(0.975);
+
+          filter:
+            brightness(0.3)
+            blur(11px);
         }
+
+        /* ==================================================
+           17 / ENTERING — COSMOS
+        ================================================== */
 
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__transition {
           visibility: visible;
+
           opacity: 1;
-          transition: opacity 0.12s ease;
+
+          transition:
+            opacity 0.1s ease;
         }
 
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__space {
           opacity: 1;
-          transform: scale(1);
+
+          transform:
+            scale(1);
+
+          animation:
+            ep-space-fall
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.12,
+              0.74,
+              0.12,
+              1
+            )
+            both;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__deep-space {
+          animation:
+            ep-deep-space-collapse
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.12,
+              0.72,
+              0.12,
+              1
+            )
+            both;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__transition-stars--far {
+          animation:
+            ep-stars-fall-far
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.12,
+              0.72,
+              0.12,
+              1
+            )
+            both;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__transition-stars--near {
+          animation:
+            ep-stars-fall-near
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.12,
+              0.72,
+              0.12,
+              1
+            )
+            both;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__gravity-well {
+          animation:
+            ep-gravity-collapse
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.1,
+              0.74,
+              0.1,
+              1
+            )
+            both;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__lensing-field {
+          animation:
+            ep-lens-collapse
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.1,
+              0.72,
+              0.1,
+              1
+            )
+            both;
         }
 
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__black-hole {
-          opacity: 1;
-          transform: scale(1.2);
-          filter: blur(0);
+          animation:
+            ep-black-hole-entry
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.08,
+              0.74,
+              0.08,
+              1
+            )
+            both;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__accretion--far {
+          animation:
+            ep-accretion-far
+            7s
+            linear
+            infinite;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__accretion--outer {
+          animation:
+            ep-accretion-outer
+            5.4s
+            linear
+            infinite;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__accretion--middle {
+          animation:
+            ep-accretion-middle
+            3.8s
+            linear
+            infinite;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__accretion--inner {
+          animation:
+            ep-accretion-inner
+            2.6s
+            linear
+            infinite;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__collapse-vignette {
+          animation:
+            ep-vignette-collapse
+            ${ENTRY_DURATION}ms
+            ease
+            both;
+        }
+
+        .ep-dialogue-portal--entering
+        .ep-dialogue-portal__black-wave {
+          animation:
+            ep-black-wave
+            ${ENTRY_DURATION}ms
+            cubic-bezier(
+              0.3,
+              0,
+              0.12,
+              1
+            )
+            both;
         }
 
         .ep-dialogue-portal--entering
         .ep-dialogue-portal__transition-copy {
-          opacity: 1;
-          transform: translate(-50%, 0);
+          animation:
+            ep-transition-copy
+            ${ENTRY_DURATION}ms
+            ease
+            both;
         }
 
         /* ==================================================
-           ANIMATIONS
+           18 / ENTRANCE BREATHING
         ================================================== */
 
         @keyframes ep-brain-breathe {
           0%,
           100% {
             transform:
-              translateY(1px) scale(0.975);
+              translateY(1px)
+              scale(0.975);
           }
 
           50% {
             transform:
-              translateY(-2px) scale(1.028);
+              translateY(-2px)
+              scale(1.028);
           }
         }
 
@@ -1429,14 +2721,24 @@ export default function EpistemeDialoguePortal() {
           0%,
           100% {
             opacity: 0.43;
+
             transform:
-              translate(-50%, -50%) scale(0.93);
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.93);
           }
 
           50% {
             opacity: 0.76;
+
             transform:
-              translate(-50%, -50%) scale(1.055);
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.055);
           }
         }
 
@@ -1457,36 +2759,497 @@ export default function EpistemeDialoguePortal() {
           0%,
           100% {
             opacity: 0.25;
+
             transform:
-              translateX(-50%) scaleX(0.84);
+              translateX(-50%)
+              scaleX(0.84);
           }
 
           50% {
             opacity: 0.58;
+
             transform:
-              translateX(-50%) scaleX(1.07);
+              translateX(-50%)
+              scaleX(1.07);
           }
         }
 
         /* ==================================================
-           HOVER
+           19 / BLACK-HOLE CINEMATIC KEYFRAMES
         ================================================== */
 
-        @media (hover: hover) and (pointer: fine) {
+        @keyframes ep-space-fall {
+          0% {
+            opacity: 0;
+            transform: scale(1.16);
+          }
+
+          16% {
+            opacity: 1;
+          }
+
+          70% {
+            opacity: 1;
+            transform: scale(1);
+          }
+
+          100% {
+            opacity: 1;
+            transform: scale(1.12);
+          }
+        }
+
+        @keyframes ep-deep-space-collapse {
+          0% {
+            opacity: 0;
+            transform:
+              rotate(-8deg)
+              scale(1.3);
+          }
+
+          20% {
+            opacity: 0.52;
+          }
+
+          72% {
+            opacity: 0.72;
+
+            transform:
+              rotate(4deg)
+              scale(0.86);
+          }
+
+          100% {
+            opacity: 0;
+
+            transform:
+              rotate(12deg)
+              scale(0.34);
+          }
+        }
+
+        @keyframes ep-stars-fall-far {
+          0% {
+            opacity: 0;
+
+            transform:
+              scale(1.18)
+              rotate(0deg);
+          }
+
+          16% {
+            opacity: 0.56;
+          }
+
+          58% {
+            opacity: 0.72;
+
+            transform:
+              scale(0.92)
+              rotate(2deg);
+          }
+
+          100% {
+            opacity: 0;
+
+            transform:
+              scale(0.16)
+              rotate(9deg);
+
+            filter: blur(3px);
+          }
+        }
+
+        @keyframes ep-stars-fall-near {
+          0% {
+            opacity: 0;
+
+            transform:
+              scale(1.38)
+              rotate(0deg);
+          }
+
+          19% {
+            opacity: 0.42;
+          }
+
+          63% {
+            opacity: 0.62;
+
+            transform:
+              scale(0.96)
+              rotate(-3deg);
+          }
+
+          100% {
+            opacity: 0;
+
+            transform:
+              scale(0.08)
+              rotate(-13deg);
+
+            filter: blur(6px);
+          }
+        }
+
+        @keyframes ep-gravity-collapse {
+          0% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.16);
+          }
+
+          28% {
+            opacity: 0.3;
+          }
+
+          66% {
+            opacity: 0.7;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.78);
+          }
+
+          100% {
+            opacity: 1;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.7);
+          }
+        }
+
+        @keyframes ep-lens-collapse {
+          0% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.12)
+              rotate(-16deg);
+          }
+
+          20% {
+            opacity: 0.15;
+          }
+
+          55% {
+            opacity: 0.8;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.74)
+              rotate(-5deg);
+          }
+
+          82% {
+            opacity: 0.52;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(1.28)
+              rotate(5deg);
+          }
+
+          100% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(2.15)
+              rotate(13deg);
+          }
+        }
+
+        @keyframes ep-black-hole-entry {
+          0% {
+            opacity: 0;
+
+            transform:
+              scale(0.025)
+              rotate(-4deg);
+
+            filter: blur(12px);
+          }
+
+          12% {
+            opacity: 0.35;
+          }
+
+          34% {
+            opacity: 1;
+
+            transform:
+              scale(0.42)
+              rotate(-2deg);
+
+            filter: blur(1.5px);
+          }
+
+          66% {
+            opacity: 1;
+
+            transform:
+              scale(0.98)
+              rotate(0deg);
+
+            filter: blur(0);
+          }
+
+          82% {
+            opacity: 1;
+
+            transform:
+              scale(1.34)
+              rotate(1deg);
+
+            filter: blur(0);
+          }
+
+          100% {
+            opacity: 1;
+
+            transform:
+              scale(3.35)
+              rotate(3deg);
+
+            filter: blur(1px);
+          }
+        }
+
+        @keyframes ep-vignette-collapse {
+          0%,
+          34% {
+            opacity: 0;
+          }
+
+          66% {
+            opacity: 0.36;
+          }
+
+          88% {
+            opacity: 0.86;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+
+        @keyframes ep-black-wave {
+          0%,
+          72% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(0.01);
+          }
+
+          76% {
+            opacity: 0.08;
+          }
+
+          100% {
+            opacity: 1;
+
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              scale(32);
+          }
+        }
+
+        @keyframes ep-transition-copy {
+          0%,
+          22% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                12px
+              );
+          }
+
+          38% {
+            opacity: 1;
+
+            transform:
+              translate(
+                -50%,
+                0
+              );
+          }
+
+          70% {
+            opacity: 0.76;
+          }
+
+          86%,
+          100% {
+            opacity: 0;
+
+            transform:
+              translate(
+                -50%,
+                -8px
+              );
+          }
+        }
+
+        @keyframes ep-accretion-far {
+          from {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(-11deg);
+          }
+
+          to {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(349deg);
+          }
+        }
+
+        @keyframes ep-accretion-outer {
+          from {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(12deg);
+          }
+
+          to {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(372deg);
+          }
+        }
+
+        @keyframes ep-accretion-middle {
+          from {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(-28deg);
+          }
+
+          to {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(332deg);
+          }
+        }
+
+        @keyframes ep-accretion-inner {
+          from {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(31deg);
+          }
+
+          to {
+            transform:
+              translate(
+                -50%,
+                -50%
+              )
+              rotateX(72deg)
+              rotateZ(391deg);
+          }
+        }
+
+        /* ==================================================
+           20 / HOVER
+        ================================================== */
+
+        @media
+          (hover: hover)
+          and (pointer: fine) {
+
           .ep-dialogue-portal__brain-button:hover
           .ep-dialogue-portal__brain {
             transform:
-              scale(1.018) translateY(-2px);
+              scale(1.018)
+              translateY(-2px);
           }
 
           .ep-dialogue-portal__brain-button:hover
           .ep-dialogue-portal__organ--wire {
             filter:
               drop-shadow(
-                0 31px 48px rgba(0, 0, 0, 0.82)
+                0 31px 48px
+                rgba(
+                  0,
+                  0,
+                  0,
+                  0.82
+                )
               )
               drop-shadow(
-                0 0 19px rgba(255, 255, 255, 0.12)
+                0 0 19px
+                rgba(
+                  255,
+                  255,
+                  255,
+                  0.12
+                )
               )
               brightness(1.075);
           }
@@ -1498,21 +3261,58 @@ export default function EpistemeDialoguePortal() {
 
           .ep-dialogue-portal__brain-button:hover
           .ep-dialogue-portal__tap-hint {
-            color: rgba(255, 255, 255, 0.52);
+            color:
+              rgba(
+                255,
+                255,
+                255,
+                0.54
+              );
 
             transform:
-              translateX(-50%) translateY(-2px);
+              translateY(-2px);
           }
         }
 
         /* ==================================================
-           MOBILE — SAME TWO-ROW STRUCTURE
+           21 / MOBILE
+
+           Standalone fallback:
+             retains a 690px reference.
+
+           WorkModels:
+             --wm-model-height overrides the physical canvas.
+             --wm-model-scale contracts internal geometry.
+
+           Crucially:
+             no inner vertical scrolling.
+             Tap text remains a real visible row.
         ================================================== */
 
         @media (max-width: 700px) {
           .ep-dialogue-portal {
             min-height:
-              max(690px, calc(100svh - 42px));
+              var(
+                --wm-model-height,
+                max(
+                  690px,
+                  calc(
+                    100svh - 42px
+                  )
+                )
+              );
+
+            height:
+              var(
+                --wm-model-height,
+                auto
+              );
+
+            max-height:
+              var(
+                --wm-model-height,
+                none
+              );
 
             overflow: hidden;
           }
@@ -1522,17 +3322,70 @@ export default function EpistemeDialoguePortal() {
             max-width: 100%;
             min-width: 0;
 
-            height: auto;
+            height:
+              var(
+                --wm-model-height,
+                auto
+              );
+
             min-height:
-              max(690px, calc(100svh - 42px));
-            max-height: none;
+              var(
+                --wm-model-height,
+                max(
+                  690px,
+                  calc(
+                    100svh - 42px
+                  )
+                )
+              );
+
+            max-height:
+              var(
+                --wm-model-height,
+                none
+              );
 
             display: grid;
+
             grid-template-rows:
               auto
               minmax(0, 1fr);
 
-            padding: 25px 18px 23px;
+            padding:
+              clamp(
+                12px,
+                calc(
+                  25px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                25px
+              )
+              clamp(
+                10px,
+                calc(
+                  18px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                18px
+              )
+              clamp(
+                11px,
+                calc(
+                  23px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                23px
+              );
+
             overflow: hidden;
           }
 
@@ -1540,66 +3393,217 @@ export default function EpistemeDialoguePortal() {
             align-self: start;
           }
 
+          .ep-dialogue-portal__identity {
+            gap:
+              clamp(
+                3px,
+                calc(
+                  7px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                7px
+              );
+          }
+
           .ep-dialogue-portal__identity > span {
-            font-size: 7px;
+            font-size:
+              clamp(
+                5.5px,
+                calc(
+                  7px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                7px
+              );
+
             letter-spacing: 0.2em;
           }
 
           .ep-dialogue-portal__identity > small {
             margin-top: -1px;
-            font-size: 4.5px;
+
+            font-size:
+              clamp(
+                3.5px,
+                calc(
+                  4.5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                4.5px
+              );
+
             letter-spacing: 0.1em;
           }
 
           .ep-dialogue-portal__experience {
             align-self: stretch;
+
             justify-content: center;
 
-            padding: 35px 0 30px;
+            min-height: 0;
 
-            overflow-x: hidden;
-            overflow-y: auto;
+            padding:
+              clamp(
+                7px,
+                calc(
+                  35px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                35px
+              )
+              0
+              clamp(
+                6px,
+                calc(
+                  30px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                30px
+              );
 
-            -webkit-overflow-scrolling: touch;
+            overflow: hidden;
+
             touch-action: pan-y;
-
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-          }
-
-          .ep-dialogue-portal__experience::-webkit-scrollbar {
-            display: none;
-            width: 0;
-            height: 0;
           }
 
           .ep-dialogue-portal__statement {
             width: 100%;
             max-width: 100%;
             min-width: 0;
+
             flex: 0 0 auto;
-            gap: 9px;
+
+            gap:
+              clamp(
+                4px,
+                calc(
+                  9px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                9px
+              );
           }
 
           .ep-dialogue-portal__statement h2 {
             width: 100%;
             max-width: 100%;
-            margin: 0;
-            padding: 0 4px;
 
-            font-size: clamp(32px, 9.4vw, 46px);
+            margin: 0;
+
+            padding:
+              0
+              clamp(
+                2px,
+                calc(
+                  4px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                4px
+              );
+
+            font-size:
+              clamp(
+                24px,
+                calc(
+                  46px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                46px
+              );
+
             line-height: 1;
-            letter-spacing: -0.052em;
+
+            letter-spacing:
+              -0.052em;
           }
 
           .ep-dialogue-portal__brain-button {
-            width: min(100%, 350px);
-            flex: 0 0 auto;
-            margin: 8px auto 0;
+            width:
+              min(
+                100%,
+                clamp(
+                  218px,
+                  calc(
+                    350px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  350px
+                )
+              );
+
+            min-height: 0;
+
+            flex: 0 1 auto;
+
+            margin:
+              clamp(
+                1px,
+                calc(
+                  8px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                8px
+              )
+              auto
+              0;
           }
 
           .ep-dialogue-portal__brain {
-            width: min(100%, 305px);
+            width:
+              min(
+                100%,
+                clamp(
+                  190px,
+                  calc(
+                    305px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  305px
+                )
+              );
+
+            max-height:
+              calc(
+                var(
+                  --wm-model-height,
+                  690px
+                ) *
+                0.49
+              );
+
             aspect-ratio: 1.17;
           }
 
@@ -1630,38 +3634,140 @@ export default function EpistemeDialoguePortal() {
           }
 
           .ep-dialogue-portal__tap-hint {
-            bottom: 0.5%;
-            max-width: calc(100% - 16px);
+            position: relative;
+
+            width: 100%;
+            max-width:
+              calc(
+                100% - 12px
+              );
+
+            margin:
+              clamp(
+                3px,
+                calc(
+                  7px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                7px
+              )
+              auto
+              0;
+
+            flex: 0 0 auto;
+
             overflow: hidden;
 
-            font-size: 5.5px;
+            font-size:
+              clamp(
+                4.5px,
+                calc(
+                  5.5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                5.5px
+              );
+
+            line-height: 1.25;
+
             letter-spacing: 0.1em;
+
             text-overflow: ellipsis;
+
+            white-space: nowrap;
           }
 
+          /* ================================================
+             MOBILE BLACK HOLE
+
+             Portrait devices get a larger-than-screen
+             gravitational system.
+
+             The horizon itself remains clearly readable
+             before the final plunge.
+          ================================================ */
+
           .ep-dialogue-portal__black-hole {
-            width: min(92vw, 520px);
+            width:
+              min(
+                116vmax,
+                980px
+              );
           }
 
           .ep-dialogue-portal__lensing-field {
-            width: min(118vw, 680px);
+            width:
+              min(
+                152vmax,
+                1280px
+              );
+          }
+
+          .ep-dialogue-portal__gravity-well {
+            width: 175vmax;
+            height: 175vmax;
           }
         }
 
-        @media (max-width: 700px) and (max-height: 720px) {
-          .ep-dialogue-portal__card {
-            min-height:
-              max(690px, calc(100svh - 42px));
+        /* ==================================================
+           22 / SHORT MOBILE
 
-            padding: 22px 17px 19px;
-          }
+           Do not restore 690px physical minimum.
+
+           Instead, allow the shared WorkModels scale to
+           contract title + brain + spacing.
+        ================================================== */
+
+        @media
+          (max-width: 700px)
+          and (max-height: 720px) {
 
           .ep-dialogue-portal__experience {
-            padding: 25px 0 20px;
+            padding:
+              clamp(
+                5px,
+                calc(
+                  25px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                25px
+              )
+              0
+              clamp(
+                5px,
+                calc(
+                  20px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                20px
+              );
           }
 
           .ep-dialogue-portal__statement h2 {
-            font-size: clamp(30px, 8.9vw, 40px);
+            font-size:
+              clamp(
+                23px,
+                calc(
+                  40px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                40px
+              );
           }
 
           .ep-dialogue-portal__brain-button {
@@ -1669,82 +3775,274 @@ export default function EpistemeDialoguePortal() {
           }
 
           .ep-dialogue-portal__brain {
-            width: min(100%, 265px);
+            width:
+              min(
+                100%,
+                clamp(
+                  180px,
+                  calc(
+                    265px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  265px
+                )
+              );
           }
         }
 
+        /* ==================================================
+           23 / SMALL MOBILE
+        ================================================== */
+
         @media (max-width: 430px) {
-          .ep-dialogue-portal__card {
-            min-height:
-              max(690px, calc(100svh - 42px));
-
-            padding: 25px 15px 21px;
-          }
-
           .ep-dialogue-portal__identity > span {
-            font-size: 6.5px;
+            font-size:
+              clamp(
+                5px,
+                calc(
+                  6.5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                6.5px
+              );
           }
 
           .ep-dialogue-portal__identity > small {
-            font-size: 4px;
+            font-size:
+              clamp(
+                3.3px,
+                calc(
+                  4px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                4px
+              );
           }
 
           .ep-dialogue-portal__statement h2 {
-            font-size: clamp(31px, 9.7vw, 41px);
+            font-size:
+              clamp(
+                23px,
+                calc(
+                  41px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                41px
+              );
           }
 
           .ep-dialogue-portal__brain {
-            width: min(100%, 285px);
+            width:
+              min(
+                100%,
+                clamp(
+                  184px,
+                  calc(
+                    285px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  285px
+                )
+              );
           }
 
           .ep-dialogue-portal__tap-hint {
-            font-size: 5px;
+            font-size:
+              clamp(
+                4.3px,
+                calc(
+                  5px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                5px
+              );
+          }
+
+          .ep-dialogue-portal__transition-copy {
+            bottom:
+              max(
+                20px,
+                env(
+                  safe-area-inset-bottom
+                )
+              );
           }
         }
 
+        /* ==================================================
+           24 / NARROW MOBILE
+        ================================================== */
+
         @media (max-width: 360px) {
-          .ep-dialogue-portal__card {
-            min-height:
-              max(690px, calc(100svh - 42px));
-
-            padding: 23px 13px 19px;
-          }
-
           .ep-dialogue-portal__identity > small {
             display: none;
           }
 
           .ep-dialogue-portal__statement h2 {
-            font-size: clamp(29px, 9.4vw, 37px);
+            font-size:
+              clamp(
+                22px,
+                calc(
+                  37px *
+                  var(
+                    --wm-model-scale,
+                    1
+                  )
+                ),
+                37px
+              );
           }
 
           .ep-dialogue-portal__brain {
-            width: min(100%, 255px);
+            width:
+              min(
+                100%,
+                clamp(
+                  174px,
+                  calc(
+                    255px *
+                    var(
+                      --wm-model-scale,
+                      1
+                    )
+                  ),
+                  255px
+                )
+              );
           }
         }
 
         /* ==================================================
-           REDUCED MOTION
+           25 / LANDSCAPE MOBILE
+
+           Black hole uses the longer viewport dimension,
+           while the transition remains exactly full-screen.
         ================================================== */
 
-        @media (prefers-reduced-motion: reduce) {
+        @media
+          (max-height: 520px)
+          and (orientation: landscape) {
+
+          .ep-dialogue-portal__black-hole {
+            width:
+              min(
+                128vmax,
+                1050px
+              );
+          }
+
+          .ep-dialogue-portal__lensing-field {
+            width:
+              min(
+                165vmax,
+                1380px
+              );
+          }
+
+          .ep-dialogue-portal__transition-copy {
+            bottom:
+              max(
+                14px,
+                env(
+                  safe-area-inset-bottom
+                )
+              );
+          }
+        }
+
+        /* ==================================================
+           26 / LARGE DESKTOP
+
+           On large displays the event horizon itself grows,
+           rather than leaving a small central black hole
+           surrounded by unused screen space.
+        ================================================== */
+
+        @media (min-width: 1440px) {
+          .ep-dialogue-portal__black-hole {
+            width:
+              min(
+                96vmax,
+                1500px
+              );
+          }
+
+          .ep-dialogue-portal__lensing-field {
+            width:
+              min(
+                126vmax,
+                1900px
+              );
+          }
+        }
+
+        /* ==================================================
+           27 / REDUCED MOTION
+        ================================================== */
+
+        @media (
+          prefers-reduced-motion:
+          reduce
+        ) {
           .ep-dialogue-portal__gravity-field,
           .ep-dialogue-portal__brain-aura,
           .ep-dialogue-portal__organ--wire,
-          .ep-dialogue-portal__brain-floor,
-          .ep-dialogue-portal__accretion,
-          .ep-dialogue-portal__photon-crown,
-          .ep-dialogue-portal__photon-ring,
-          .ep-dialogue-portal__event-horizon,
-          .ep-dialogue-portal__disk-glow {
-            animation: none !important;
+          .ep-dialogue-portal__brain-floor {
+            animation:
+              none !important;
           }
 
           .ep-dialogue-portal__brain,
           .ep-dialogue-portal__organ--wire,
-          .ep-dialogue-portal__card,
-          .ep-dialogue-portal__black-hole {
-            transition-duration: 0.25s !important;
+          .ep-dialogue-portal__card {
+            transition-duration:
+              0.25s !important;
+          }
+
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__space,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__deep-space,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__transition-stars,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__gravity-well,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__lensing-field,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__black-hole,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__collapse-vignette,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__black-wave,
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__transition-copy {
+            animation-duration:
+              0.55s !important;
+          }
+
+          .ep-dialogue-portal--entering
+          .ep-dialogue-portal__accretion {
+            animation:
+              none !important;
           }
         }
       `}</style>
