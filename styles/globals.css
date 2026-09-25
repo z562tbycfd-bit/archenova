@@ -63537,3 +63537,473 @@ and
 
 
 
+/* ==========================================================
+   ARCHENOVA IDEAL USER
+   TYPOGRAPHY — EXACTLY MATCH CIVILIZATION PURPOSES
+   ----------------------------------------------------------
+   Typography only.
+
+   Preserve:
+   - content
+   - scroll switching
+   - frame geometry
+   - glass
+   - START / FIXED / END
+========================================================== */
+
+
+/* ==========================================================
+   01 / CONTENT
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__chapter {
+  position: relative !important;
+  z-index: 1 !important;
+
+  width: 100% !important;
+  max-width: 1100px !important;
+  min-width: 0 !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  color: rgba(249, 249, 250, 0.92);
+
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* ==========================================================
+   02 / EYEBROW
+   Same as PURPOSES
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__eyebrow {
+  margin:
+    0 0 clamp(14px, 2.2vh, 26px)
+    !important;
+
+  color:
+    rgba(233, 235, 239, 0.65)
+    !important;
+
+  font-family:
+    inherit !important;
+
+  font-size:
+    clamp(9px, 0.75vw, 11px)
+    !important;
+
+  font-weight:
+    500 !important;
+
+  letter-spacing:
+    0.18em !important;
+
+  line-height:
+    1.6 !important;
+
+  text-transform:
+    none !important;
+}
+
+
+/* ==========================================================
+   03 / TITLE
+   Same Bodoni / Didot hierarchy as PURPOSES
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__title {
+  width: auto !important;
+  max-width: 1100px !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    0 !important;
+
+  color:
+    rgba(249, 249, 250, 0.96)
+    !important;
+
+  font-family:
+    "Bodoni Moda",
+    "Didot",
+    "Bodoni MT",
+    "Times New Roman",
+    Georgia,
+    serif
+    !important;
+
+  font-size:
+    clamp(29px, 3.2vw, 50px)
+    !important;
+
+  font-weight:
+    300 !important;
+
+  font-style:
+    normal !important;
+
+  letter-spacing:
+    0.015em !important;
+
+  line-height:
+    1.3 !important;
+
+  text-wrap:
+    balance;
+
+  text-shadow:
+    0 0 26px
+    rgba(231, 239, 249, 0.075)
+    !important;
+}
+
+
+/* ==========================================================
+   04 / BODY
+   Same as PURPOSES
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__body {
+  width: auto !important;
+  max-width: 960px !important;
+
+  margin:
+    clamp(18px, 3vh, 34px)
+    auto
+    0
+    !important;
+
+  color:
+    rgba(239, 240, 243, 0.86)
+    !important;
+
+  font-family:
+    inherit !important;
+
+  font-size:
+    clamp(13px, 1.08vw, 17px)
+    !important;
+
+  font-weight:
+    400 !important;
+
+  letter-spacing:
+    0.005em !important;
+
+  line-height:
+    1.85 !important;
+
+  overflow-wrap:
+    break-word;
+
+  text-wrap:
+    pretty;
+}
+
+
+/* ==========================================================
+   05 / CLOSING
+   Same serif treatment as PURPOSES
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__closing {
+  width: auto !important;
+  max-width: 900px !important;
+
+  margin:
+    clamp(18px, 3vh, 34px)
+    auto
+    0
+    !important;
+
+  color:
+    rgba(232, 235, 239, 0.72)
+    !important;
+
+  font-family:
+    "Bodoni Moda",
+    "Didot",
+    "Bodoni MT",
+    "Times New Roman",
+    Georgia,
+    serif
+    !important;
+
+  font-size:
+    clamp(14px, 1.25vw, 19px)
+    !important;
+
+  font-weight:
+    300 !important;
+
+  letter-spacing:
+    0.025em !important;
+
+  line-height:
+    1.6 !important;
+
+  text-wrap:
+    balance;
+}
+
+
+/* ==========================================================
+   06 / POSITION INDICATOR
+   Same as PURPOSES
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__position {
+  position:
+    absolute !important;
+
+  right:
+    clamp(20px, 3vw, 44px)
+    !important;
+
+  bottom:
+    clamp(18px, 2.5vw, 36px)
+    !important;
+
+  z-index:
+    1 !important;
+
+  margin:
+    0 !important;
+
+  color:
+    rgba(239, 240, 243, 0.55)
+    !important;
+
+  font-family:
+    inherit !important;
+
+  font-size:
+    10px !important;
+
+  font-weight:
+    400 !important;
+
+  letter-spacing:
+    0.13em !important;
+
+  line-height:
+    1 !important;
+}
+
+
+/* ==========================================================
+   07 / TABLET
+   Same as PURPOSES
+========================================================== */
+
+@media
+(min-width: 701px)
+and
+(max-width: 1100px) {
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__title {
+    font-size:
+      clamp(30px, 4vw, 43px)
+      !important;
+  }
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__body {
+    font-size:
+      clamp(13px, 1.45vw, 16px)
+      !important;
+
+    line-height:
+      1.75 !important;
+  }
+}
+
+
+/* ==========================================================
+   08 / MOBILE
+   Same as PURPOSES
+========================================================== */
+
+@media (max-width: 700px) {
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__eyebrow {
+    margin-bottom:
+      14px !important;
+
+    font-size:
+      9px !important;
+
+    letter-spacing:
+      0.11em !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__title {
+    font-size:
+      clamp(25px, 6.1vw, 34px)
+      !important;
+
+    letter-spacing:
+      0.01em !important;
+
+    line-height:
+      1.3 !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__body {
+    margin-top:
+      18px !important;
+
+    font-size:
+      clamp(12px, 3vw, 14px)
+      !important;
+
+    line-height:
+      1.65 !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__closing {
+    margin-top:
+      18px !important;
+
+    font-size:
+      clamp(13px, 3.3vw, 16px)
+      !important;
+
+    line-height:
+      1.5 !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__position {
+    right:
+      22px !important;
+
+    bottom:
+      22px !important;
+  }
+}
+
+
+/* ==========================================================
+   09 / SMALL MOBILE
+   Same as PURPOSES
+========================================================== */
+
+@media (max-width: 430px) {
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__title {
+    font-size:
+      clamp(23px, 6vw, 29px)
+      !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__body {
+    font-size:
+      12px !important;
+
+    line-height:
+      1.58 !important;
+  }
+}
+
+
+/* ==========================================================
+   10 / SHORT SCREENS
+   Same as PURPOSES
+========================================================== */
+
+@media (max-height: 700px) {
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__eyebrow {
+    margin-bottom:
+      9px !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__title {
+    font-size:
+      clamp(22px, 4.2vw, 36px)
+      !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__body {
+    margin-top:
+      12px !important;
+
+    font-size:
+      clamp(11px, 1vw, 14px)
+      !important;
+
+    line-height:
+      1.5 !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__closing {
+    margin-top:
+      12px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
