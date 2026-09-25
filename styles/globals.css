@@ -61598,35 +61598,51 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   ARCHENOVA HOME — CIVILIZATION PURPOSE MAP
+   ARCHENOVA HOME — CIVILIZATION DIGITAL TWIN
+   PORTRAIT HIGH-RESOLUTION EXHIBITION
    ----------------------------------------------------------
-   PURPOSES 01–05 → INTEGRATED SCIENTIFIC FIGURE
+
+   PURPOSES 01–05 → ONE VISUAL DIGITAL TWIN
 
    DESIGN:
-   - Same visual language as ARCHENOVA CIVILIZATION JOURNEY.
-   - One section = one dedicated optical-glass surface.
-   - The supplied JPEG is the content itself.
+   - Portrait artwork optimized for every device class.
+   - Preserve native image detail.
+   - Never crop.
+   - Never distort.
+   - Avoid unnecessary desktop upscaling.
+   - Mobile uses available physical width.
+   - One section = one optical-glass exhibition surface.
    - No inner card.
-   - No caption.
-   - No secondary frame.
-   - No overlay over the scientific figure.
-   - Preserve the complete image.
+   - No text overlay.
+   - No image filter.
+   - No transform-based scaling.
+
+   IMPORTANT:
+   CSS cannot create source-image resolution.
+   High perceived quality is preserved by preventing
+   unnecessary enlargement beyond an appropriate display size.
 ========================================================== */
 
 
 /* ==========================================================
-   01 — DEDICATED GLASS SURFACE
+   01 — SECTION / OPTICAL GLASS EXHIBITION
 ========================================================== */
 
 .archenova-twin-home
 #archenova-civilization-purpose-map.an-purpose-map-section {
-  position: relative !important;
+  --an-purpose-art-max: 1024px;
+  --an-purpose-padding-x: clamp(20px, 4vw, 72px);
+  --an-purpose-padding-y: clamp(34px, 5vw, 78px);
 
+  position: relative !important;
   isolation: isolate !important;
 
-  display: block !important;
-
   box-sizing: border-box !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 
   width: 100% !important;
   max-width: none !important;
@@ -61637,39 +61653,45 @@ main#home-top.an-home-2026
   max-height: none !important;
 
   margin: 0 !important;
-  padding: 0 !important;
+
+  padding:
+    var(--an-purpose-padding-y)
+    var(--an-purpose-padding-x)
+    !important;
 
   overflow: hidden !important;
 
-  /*
-   * Same restrained black optical-glass language
-   * as ARCHENOVA CIVILIZATION JOURNEY.
-   */
+  color-scheme: dark;
+
   background:
     radial-gradient(
-      ellipse at 50% 0%,
-      rgba(255, 255, 255, 0.024),
-      transparent 48%
+      ellipse at 50% 34%,
+      rgba(78, 91, 111, 0.075) 0%,
+      rgba(18, 21, 27, 0.025) 35%,
+      transparent 64%
     ),
     linear-gradient(
       145deg,
-      rgba(15, 16, 18, 0.20),
+      rgba(15, 16, 18, 0.20) 0%,
       rgba(7, 8, 10, 0.24) 48%,
-      rgba(0, 0, 0, 0.30)
+      rgba(0, 0, 0, 0.30) 100%
     ) !important;
 
   border:
-    1px solid rgba(255, 255, 255, 0.065) !important;
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
 
   border-radius: 30px !important;
 
   -webkit-backdrop-filter:
     blur(22px)
-    saturate(106%) !important;
+    saturate(106%)
+    !important;
 
   backdrop-filter:
     blur(22px)
-    saturate(106%) !important;
+    saturate(106%)
+    !important;
 
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.040),
@@ -61679,11 +61701,15 @@ main#home-top.an-home-2026
   outline: 0 !important;
 
   scroll-margin-top: 12px;
+
+  transform: none !important;
+
+  image-rendering: auto;
 }
 
 
 /* ==========================================================
-   02 — REMOVE LEGACY / GLOBAL PSEUDO SURFACES
+   02 — REMOVE LEGACY / DUPLICATE SURFACES
 ========================================================== */
 
 .archenova-twin-home
@@ -61708,16 +61734,18 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   03 — SCIENTIFIC FIGURE
+   03 — PORTRAIT DIGITAL TWIN ARTWORK
    ----------------------------------------------------------
-   The image sits directly on the dedicated glass surface.
+   This is the critical high-resolution rule.
 
-   Important:
-   - Full image is visible.
-   - No cropping.
-   - No distortion.
-   - No extra inner border.
-   - No dark overlay over the image.
+   Do NOT:
+   - width: 100vw
+   - transform: scale(...)
+   - fixed large height
+   - object-fit: cover
+
+   The image is allowed to reach its responsive display
+   width naturally while retaining its complete composition.
 ========================================================== */
 
 .archenova-twin-home
@@ -61731,49 +61759,95 @@ main#home-top.an-home-2026
 
   box-sizing: border-box !important;
 
-  width: 100% !important;
-  max-width: none !important;
+  /*
+   * Portrait image remains large enough to feel monumental,
+   * but is not stretched across an ultra-wide desktop.
+   */
+  width:
+    min(
+      100%,
+      var(--an-purpose-art-max)
+    )
+    !important;
+
+  max-width:
+    var(--an-purpose-art-max)
+    !important;
+
+  min-width: 0 !important;
 
   height: auto !important;
+
   max-height: none !important;
 
-  margin: 0 !important;
+  aspect-ratio: auto !important;
+
+  margin: 0 auto !important;
+
   padding: 0 !important;
 
   border: 0 !important;
+
   border-radius: 0 !important;
 
   outline: 0 !important;
 
   background: transparent !important;
 
+  /*
+   * Entire source artwork is always preserved.
+   */
   object-fit: contain !important;
-  object-position: center center !important;
 
+  object-position:
+    center center
+    !important;
+
+  /*
+   * Absolutely no visual processing over the source.
+   */
   opacity: 1 !important;
-
-  transform: none !important;
 
   filter: none !important;
 
+  transform: none !important;
+
+  scale: none !important;
+
   box-shadow: none !important;
+
+  mix-blend-mode: normal !important;
+
+  image-rendering: auto;
 
   user-select: none;
 
   -webkit-user-drag: none;
+
+  -webkit-touch-callout: none;
 }
 
 
 /* ==========================================================
-   04 — DESKTOP
-   ----------------------------------------------------------
-   Keep the figure large and editorial.
+   04 — VERY LARGE / RETINA DESKTOP
+   1440px+ viewport
+
+   Portrait image deliberately stops growing before it
+   becomes a huge low-density desktop bitmap.
 ========================================================== */
 
-@media (min-width: 1025px) {
+@media (min-width: 1441px) {
 
   .archenova-twin-home
   #archenova-civilization-purpose-map.an-purpose-map-section {
+    --an-purpose-art-max: 1024px;
+
+    --an-purpose-padding-x:
+      clamp(52px, 5vw, 96px);
+
+    --an-purpose-padding-y:
+      clamp(58px, 5.5vw, 96px);
+
     border-radius: 30px !important;
   }
 
@@ -61781,98 +61855,304 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   05 — TABLET
+   05 — STANDARD DESKTOP
+   1101px–1440px
 ========================================================== */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1101px) and (max-width: 1440px) {
 
   .archenova-twin-home
   #archenova-civilization-purpose-map.an-purpose-map-section {
-    border-radius: 28px !important;
+    --an-purpose-art-max: 900px;
 
-    -webkit-backdrop-filter:
-      blur(20px)
-      saturate(104%) !important;
+    --an-purpose-padding-x:
+      clamp(34px, 4vw, 64px);
 
-    backdrop-filter:
-      blur(20px)
-      saturate(104%) !important;
+    --an-purpose-padding-y:
+      clamp(42px, 5vw, 70px);
   }
 
 }
 
 
 /* ==========================================================
-   06 — MOBILE
-   ----------------------------------------------------------
-   Unlike the previous implementation, the figure is NOT
-   converted into a 1000px horizontal scrolling document.
-
-   It behaves like THE HORIZON:
-   the entire supplied image remains visible inside its
-   dedicated glass surface.
+   06 — LAPTOP
+   901px–1100px
 ========================================================== */
 
-@media (max-width: 768px) {
+@media (min-width: 901px) and (max-width: 1100px) {
 
   .archenova-twin-home
   #archenova-civilization-purpose-map.an-purpose-map-section {
-    width: 100% !important;
+    --an-purpose-art-max: 780px;
 
-    min-height: 0 !important;
-    height: auto !important;
+    --an-purpose-padding-x:
+      clamp(26px, 3.5vw, 42px);
 
-    padding: 0 !important;
+    --an-purpose-padding-y:
+      clamp(34px, 4vw, 52px);
 
-    overflow: hidden !important;
+    border-radius: 28px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   07 — TABLET LANDSCAPE
+   769px–900px
+========================================================== */
+
+@media (min-width: 769px) and (max-width: 900px) {
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map.an-purpose-map-section {
+    --an-purpose-art-max: 680px;
+
+    --an-purpose-padding-x: 26px;
+
+    --an-purpose-padding-y: 32px;
+
+    border-radius: 28px !important;
+
+    -webkit-backdrop-filter:
+      blur(20px)
+      saturate(104%)
+      !important;
+
+    backdrop-filter:
+      blur(20px)
+      saturate(104%)
+      !important;
+  }
+
+}
+
+
+/* ==========================================================
+   08 — TABLET PORTRAIT / LARGE MOBILE
+   601px–768px
+
+   Use most of the available width because portrait artwork
+   benefits from physical screen width on these devices.
+========================================================== */
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map.an-purpose-map-section {
+    --an-purpose-art-max: 680px;
+
+    --an-purpose-padding-x: 18px;
+
+    --an-purpose-padding-y: 22px;
 
     border-radius: 26px !important;
 
     -webkit-backdrop-filter:
       blur(18px)
-      saturate(104%) !important;
+      saturate(104%)
+      !important;
 
     backdrop-filter:
       blur(18px)
-      saturate(104%) !important;
+      saturate(104%)
+      !important;
+  }
+
+}
+
+
+/* ==========================================================
+   09 — MOBILE
+   431px–600px
+
+   Near edge-to-edge image presentation.
+   The glass remains visible as a restrained perimeter.
+========================================================== */
+
+@media (min-width: 431px) and (max-width: 600px) {
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map.an-purpose-map-section {
+    --an-purpose-art-max: 100%;
+
+    --an-purpose-padding-x: 10px;
+
+    --an-purpose-padding-y: 12px;
+
+    width: 100% !important;
+
+    border-radius: 24px !important;
+
+    -webkit-backdrop-filter:
+      blur(18px)
+      saturate(102%)
+      !important;
+
+    backdrop-filter:
+      blur(18px)
+      saturate(102%)
+      !important;
   }
 
 
   .archenova-twin-home
   #archenova-civilization-purpose-map
   .an-purpose-map-section__image {
-    display: block !important;
-
     width: 100% !important;
 
+    max-width: 100% !important;
+
     height: auto !important;
-
-    max-width: none !important;
-
-    object-fit: contain !important;
-
-    object-position: center center !important;
   }
 
 }
 
 
 /* ==========================================================
-   07 — VERY SMALL MOBILE
+   10 — iPHONE / SMALL MOBILE
+   <= 430px
+
+   Maximum useful image width.
+   No decorative padding large enough to waste pixels.
 ========================================================== */
 
 @media (max-width: 430px) {
 
   .archenova-twin-home
   #archenova-civilization-purpose-map.an-purpose-map-section {
+    --an-purpose-art-max: 100%;
+
+    --an-purpose-padding-x: 7px;
+
+    --an-purpose-padding-y: 8px;
+
+    width: 100% !important;
+
+    min-height: 0 !important;
+
+    height: auto !important;
+
     border-radius: 22px !important;
+
+    -webkit-backdrop-filter:
+      blur(16px)
+      saturate(102%)
+      !important;
+
+    backdrop-filter:
+      blur(16px)
+      saturate(102%)
+      !important;
+  }
+
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map
+  .an-purpose-map-section__image {
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    height: auto !important;
+
+    object-fit: contain !important;
+
+    object-position:
+      center center
+      !important;
   }
 
 }
 
 
 /* ==========================================================
-   08 — REDUCED MOTION
+   11 — VERY NARROW MOBILE
+   <= 360px
+
+   Preserve every available display pixel for the artwork.
+========================================================== */
+
+@media (max-width: 360px) {
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map.an-purpose-map-section {
+    --an-purpose-padding-x: 5px;
+
+    --an-purpose-padding-y: 6px;
+
+    border-radius: 20px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   12 — LANDSCAPE MOBILE
+   ----------------------------------------------------------
+   Portrait artwork should NOT expand to the entire landscape
+   viewport width. That would create an unnecessarily tall
+   section and magnify the source bitmap.
+
+   Instead, constrain it using viewport height.
+========================================================== */
+
+@media (max-height: 600px) and (orientation: landscape) {
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map.an-purpose-map-section {
+    --an-purpose-padding-x: 18px;
+
+    --an-purpose-padding-y: 18px;
+  }
+
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map
+  .an-purpose-map-section__image {
+    width: auto !important;
+
+    max-width: min(100%, 720px) !important;
+
+    /*
+     * Keep the portrait work comfortably inside a
+     * landscape display without cropping.
+     */
+    max-height: 88svh !important;
+
+    height: auto !important;
+
+    object-fit: contain !important;
+  }
+
+}
+
+
+/* ==========================================================
+   13 — HIGH-DENSITY DISPLAY SAFETY
+   ----------------------------------------------------------
+   Do not apply artificial sharpening or CSS filtering.
+   Browser interpolation remains native.
+========================================================== */
+
+@media (min-resolution: 2dppx) {
+
+  .archenova-twin-home
+  #archenova-civilization-purpose-map
+  .an-purpose-map-section__image {
+    image-rendering: auto;
+
+    filter: none !important;
+
+    transform: none !important;
+  }
+
+}
+
+
+/* ==========================================================
+   14 — REDUCED MOTION
 ========================================================== */
 
 @media (prefers-reduced-motion: reduce) {
@@ -61887,6 +62167,23 @@ main#home-top.an-home-2026
     transition: none !important;
 
     transform: none !important;
+
+    scroll-behavior: auto !important;
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
