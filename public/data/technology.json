@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-24T22:05:17.375Z",
+  "updated": "2026-09-25T01:13:35.913Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -10,6 +10,24 @@
       "ts": 1790285448000,
       "publishedAt": "2026-09-24T21:30:48.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Côte d’Ivoire as Newest Artemis Accords Signatory",
+      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-cote-divoire-as-newest-artemis-accords-signatory/",
+      "summary": "Côte d’Ivoire signed the Artemis Accords on Thursday, becoming the 75th signatory and marking a major milestone for this growing coalition. With the signing ceremony in the nation’s largest city, Abidjan, Côte d’Ivoire j…",
+      "ts": 1790285237000,
+      "publishedAt": "2026-09-24T21:27:17.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Shares SpaceX Crew-14 Assignments for Space Station Mission",
+      "url": "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-14-assignments-for-space-station-mission/",
+      "summary": "Four crew members from three space agencies will launch to the International Space Station no earlier than spring 2027 for a long-duration science expedition as part of NASA’s SpaceX Crew-14 mission. NASA astronauts Kayl…",
+      "ts": 1790284546000,
+      "publishedAt": "2026-09-24T21:15:46.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -64,6 +82,24 @@
       "ts": 1790275158000,
       "publishedAt": "2026-09-24T18:39:18.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Travel",
+      "url": "https://www.nasa.gov/centers-and-facilities/nssc/travel/",
+      "summary": "The NSSC provides travel reimbursement services for all authorized Agency travel including: domestic, foreign, local, ETDY, and Change of Station (COS). References Federal Travel Regulations (FTR) Traveler Extended TDY a…",
+      "ts": 1790273174000,
+      "publishedAt": "2026-09-24T18:06:14.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Unveils Winning Designs for Mars Space Food Systems Challenge ",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-unveils-winning-designs-for-mars-space-food-systems-challenge/",
+      "summary": "NASA announced the winners of the Deep Space Food Challenge: Mars to Table Thursday, with the top $300,000 prize being awarded to Chinyere Ukeje of Philadelphia, Pa. for the Adaptive Nourishment Infrastructure (ANI) food…",
+      "ts": 1790272905000,
+      "publishedAt": "2026-09-24T18:01:45.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -199,6 +235,42 @@
       "ts": 1790251800000,
       "publishedAt": "2026-09-24T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Turn what we know into what we do,’ Barbados PM Mottley urges world leaders at UN",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168433",
+      "summary": "Barbados Prime Minister Mia Mottley called on world leaders on Thursday to turn knowledge into action, reform international institutions and ensure that new technologies and global wealth benefit everyone.",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen’s path to stability depends on restoring the state, Leadership Council vice-president tells UN",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168432",
+      "summary": "The Vice-President of Yemen’s Presidential Leadership Council, Abdullah Al-Alimi Bawazir, told the UN General Assembly on Thursday that his Government had engaged “responsibly and positively” with regional and internatio…",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Israeli leader at UN: ‘We’re going to win. We have no other choice’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168431",
+      "summary": "Prime Minister Benjamin Netanyahu used his address to the UN General Assembly to defend Israel’s strikes against Iran as a matter of national survival and describe the violence in the West Bank as the work of few “juveni…",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Rising seas are sinking futures’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168430",
+      "summary": "World leaders approved the UN Declaration on Sea Level Rise by consensus on Thursday as the UN chief warned that encroaching waters are already threatening the future of coastal communities worldwide.",
+      "ts": 1790251200000,
+      "publishedAt": "2026-09-24T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -738,78 +810,6 @@
       "summary": "A novel multi-strategy nonlinear predictive control system maximizes CHO cell perfusion productivity in a continuous bioprocessing environment by optimizing feed, bleed, and harvest flows, and letting biomanufacturers sw…",
       "ts": 1790179215000,
       "publishedAt": "2026-09-23T16:00:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "ts": 1790179200000,
-      "publishedAt": "2026-09-23T16:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Ethereal Space Awarded NOAA SBEM Task Order 1",
-      "url": "https://spacenews.com/ethereal-space-awarded-noaa-sbem-task-order-1/",
-      "summary": "DENVER, Colorado – September 2026 – Ethereal Space, Inc. today announced that it has been awarded Task Order 1 under NOAA’s ProTech 2.0 Space-Based Environmental Monitoring (SBEM) program, following NOAA’s […] The post E…",
-      "ts": 1790176690000,
-      "publishedAt": "2026-09-23T15:18:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
-      "summary": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a lig…",
-      "ts": 1790175632000,
-      "publishedAt": "2026-09-23T15:00:32.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "FFA 2026 Hyperwall Schedule",
-      "url": "https://science.nasa.gov/earth/ffa-2026-hyperwall-schedule/",
-      "summary": "FFA 2026 Hyperwall Schedule",
-      "ts": 1790175493000,
-      "publishedAt": "2026-09-23T14:58:13.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Risk of Hydrazine Use Following Freeze–Thaw Exposure",
-      "url": "https://www.nasa.gov/general/risk-of-hydrazine-use-following-freeze-thaw-exposure/",
-      "summary": "For more information, contact Jonathan E. Jones, Langley Research Center, jonathan.e.jones@nasa.gov Download the PDF version The purpose of this Technical Bulletin is to communicate the risks associated with freeze–thaw …",
-      "ts": 1790173918000,
-      "publishedAt": "2026-09-23T14:31:58.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Seeks Lensed Supernova, Marks 200,000 Orbits",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-seeks-lensed-supernova-marks-200000-orbits/",
-      "summary": "NASA’s Hubble Space Telescope completed its 200,000th orbit around Earth on Sept. 19, marking another new milestone for an observatory that continues to transform our understanding of the universe. Hubble has traveled mo…",
-      "ts": 1790171734000,
-      "publishedAt": "2026-09-23T13:55:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Flagship gets a Pentagon contract ",
-      "url": "https://www.statnews.com/2026/09/23/biotech-news-flagship-gets-a-pentagon-contract/?utm_campaign=rss",
-      "summary": "Biotech investment firm Flagship Pioneering has been awarded a contract by the Department of Defense to advance countermeasure technologies against biological threats.",
-      "ts": 1790170656000,
-      "publishedAt": "2026-09-23T13:37:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI doomerism: Here’s how to make sense of it",
-      "url": "https://www.statnews.com/2026/09/23/how-to-make-sense-of-ai-doomerism-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AI Prognosis newsletter: Brittany Trang offers a few stories to make sense of the AI doom/slowdown talk, and more.",
-      "ts": 1790170198000,
-      "publishedAt": "2026-09-23T13:29:58.000Z",
       "categoryId": "bio"
     }
   ],
