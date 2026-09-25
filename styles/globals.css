@@ -61599,82 +61599,69 @@ main#home-top.an-home-2026
 
 /* ==========================================================
    ARCHENOVA HOME — CIVILIZATION PURPOSE MAP
+   RESPONSIVE FULL-SCALE SCIENTIFIC EXHIBITION
    ----------------------------------------------------------
-   SCIENTIFIC LARGE-FORMAT EXHIBITION
-
-   Reference:
-   ArcheNova World Gallery large-format image presentation.
-
-   DESIGN:
-   - One dedicated HOME exhibition frame.
-   - Image-only presentation.
-   - No caption below the image.
-   - No horizontal scrolling.
-   - No cropping.
-   - No image distortion.
+   PURPOSE:
    - Maximum readable size on every device.
-   - PC / Tablet / Mobile use dedicated responsive geometry.
-   - The supplied image remains the visual authority.
+   - Preserve the complete supplied image.
+   - Never crop.
+   - Never distort.
+   - No forced 16:9 frame.
+   - No horizontal scrolling.
+   - No inner caption.
+   - Desktop / Tablet / Mobile each use the available
+     display width as efficiently as possible.
+
+   IMPORTANT:
+   The source image determines its own aspect ratio.
 ========================================================== */
 
 
 /* ==========================================================
-   01 — HOME SECTION
+   01 — SECTION
 ========================================================== */
 
 main.an-home-2026
 > #archenova-civilization-purpose-map.an-purpose-map {
   position: relative !important;
-
   isolation: isolate !important;
 
   box-sizing: border-box !important;
 
   display: flex !important;
-
   align-items: center !important;
-
   justify-content: center !important;
 
   width: 100% !important;
-
   max-width: none !important;
-
   min-width: 0 !important;
 
   min-height: 100svh !important;
-
   height: auto !important;
-
   max-height: none !important;
 
   margin: 0 !important;
 
   padding:
-    clamp(92px, 10svh, 148px)
-    clamp(16px, 3.8vw, 76px)
-    clamp(104px, 12svh, 160px)
+    clamp(72px, 8svh, 120px)
+    clamp(14px, 2.5vw, 48px)
+    clamp(88px, 10svh, 140px)
     !important;
 
   overflow: visible !important;
 
   background: transparent !important;
-
   background-image: none !important;
 
   border: 0 !important;
-
   border-radius: 0 !important;
 
   box-shadow: none !important;
 
   -webkit-backdrop-filter: none !important;
-
   backdrop-filter: none !important;
 }
 
-
-/* Remove generic section pseudo surfaces. */
 
 main.an-home-2026
 > #archenova-civilization-purpose-map::before,
@@ -61682,55 +61669,40 @@ main.an-home-2026
 main.an-home-2026
 > #archenova-civilization-purpose-map::after {
   content: none !important;
-
   display: none !important;
 }
 
 
 /* ==========================================================
-   02 — DEDICATED EXHIBITION GLASS
-
-   Same broad visual language as WorldGallery:
-   dark optical glass + restrained boundary.
-
-   This is the only visible frame around the scientific image.
+   02 — ONE EXHIBITION GLASS
 ========================================================== */
 
 main.an-home-2026
 > #archenova-civilization-purpose-map
 > .an-home-2026__glass {
   position: relative !important;
-
   isolation: isolate !important;
 
   box-sizing: border-box !important;
 
   display: block !important;
 
-  align-self: center !important;
-
   width: 100% !important;
-
-  max-width: 1800px !important;
-
+  max-width: 1840px !important;
   min-width: 0 !important;
 
   min-height: 0 !important;
-
   height: auto !important;
-
   max-height: none !important;
 
   margin: 0 auto !important;
 
   /*
-   * Purpose Map is already a complete scientific composition.
-   * Give it a restrained exhibition margin rather than the
-   * normal HOME content-card padding.
+   * Very small frame padding.
+   * The image, not the frame, should dominate.
    */
-
   padding:
-    clamp(14px, 1.5vw, 26px)
+    clamp(8px, 0.85vw, 15px)
     !important;
 
   overflow: hidden !important;
@@ -61738,9 +61710,9 @@ main.an-home-2026
   background:
     linear-gradient(
       155deg,
-      rgba(13, 14, 17, 0.36) 0%,
-      rgba(4, 5, 7, 0.44) 48%,
-      rgba(0, 0, 0, 0.53) 100%
+      rgba(13, 14, 17, 0.34) 0%,
+      rgba(4, 5, 7, 0.42) 48%,
+      rgba(0, 0, 0, 0.50) 100%
     )
     !important;
 
@@ -61767,16 +61739,12 @@ main.an-home-2026
     !important;
 
   opacity: 1 !important;
-
   visibility: visible !important;
 
   transform: none !important;
-
   filter: none !important;
 }
 
-
-/* Remove generic HOME wrapper pseudo surfaces. */
 
 main.an-home-2026
 > #archenova-civilization-purpose-map
@@ -61786,7 +61754,6 @@ main.an-home-2026
 > #archenova-civilization-purpose-map
 > .an-home-2026__glass::after {
   content: none !important;
-
   display: none !important;
 }
 
@@ -61798,179 +61765,141 @@ main.an-home-2026
 main.an-home-2026
 #archenova-civilization-purpose-map
 .an-purpose-map__figure {
-  position: relative;
+  position: relative !important;
 
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 
-  display: block;
+  display: block !important;
 
-  width: 100%;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
 
-  max-width: none;
+  height: auto !important;
 
-  min-width: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 
-  margin: 0;
+  background: transparent !important;
 
-  padding: 0;
+  border: 0 !important;
 
-  background: transparent;
-
-  border: 0;
-
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 
 /* ==========================================================
-   04 — SCIENTIFIC IMAGE FRAME
+   04 — IMAGE FRAME
 
-   The frame follows the actual panoramic composition.
+   CRITICAL:
+   No fixed aspect ratio.
 
-   Unlike the previous implementation:
-   - no horizontal scrolling
-   - no forced 1000px mobile canvas
-   - no clipping
-   - no artificial crop
-
-   The entire scientific figure is always visible.
+   The frame follows the actual JPEG dimensions.
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-purpose-map
 .an-purpose-map__image-frame {
-  position: relative;
+  position: relative !important;
+  isolation: isolate !important;
 
-  isolation: isolate;
+  box-sizing: border-box !important;
 
-  box-sizing: border-box;
+  display: block !important;
 
-  display: flex;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
 
-  align-items: center;
-
-  justify-content: center;
-
-  width: 100%;
-
-  max-width: none;
-
-  min-width: 0;
-
-  height: auto;
-
-  margin: 0;
-
-  padding: 0;
-
-  overflow: hidden;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
 
   /*
-   * The supplied artwork is a wide scientific figure.
-   * 16:9 provides a large-display presentation close to
-   * WorldGallery's landscape exhibition language.
+   * Cancel the previous forced 16:9 geometry.
    */
+  aspect-ratio: auto !important;
 
-  aspect-ratio: 16 / 9;
+  margin: 0 !important;
+  padding: 0 !important;
 
-  background:
-    rgba(4, 5, 7, 0.72);
+  overflow: hidden !important;
+
+  background: #000 !important;
 
   border:
-    1px solid rgba(255, 255, 255, 0.075);
+    1px solid rgba(255, 255, 255, 0.075)
+    !important;
 
   border-radius:
-    4px;
+    5px !important;
 
-  box-shadow:
-    none;
+  box-shadow: none !important;
 }
 
 
 /* ==========================================================
    05 — IMAGE
 
-   CONTAIN is intentional.
+   Natural dimensions determine the frame height.
 
-   The image is scientific information, not decorative artwork.
-   Therefore no information may be cropped.
+   width:100% + height:auto
+   =
+   full image preserved at the maximum available width.
 ========================================================== */
 
 main.an-home-2026
 #archenova-civilization-purpose-map
 .an-purpose-map__image {
-  position: relative;
+  position: relative !important;
 
-  z-index: 1;
-
-  display: block;
+  display: block !important;
 
   width: 100% !important;
+  max-width: none !important;
 
-  height: 100% !important;
-
-  max-width: 100% !important;
-
-  max-height: 100% !important;
+  height: auto !important;
+  max-height: none !important;
 
   margin: 0 !important;
-
   padding: 0 !important;
 
-  object-fit:
-    contain !important;
+  object-fit: contain !important;
+  object-position: center center !important;
 
-  object-position:
-    center center !important;
+  background: #000 !important;
 
-  background:
-    transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
 
-  border:
-    0 !important;
+  opacity: 1 !important;
 
-  border-radius:
-    0 !important;
+  transform: none !important;
+  filter: none !important;
 
-  opacity:
-    1 !important;
+  box-shadow: none !important;
 
-  transform:
-    none !important;
+  user-select: none;
 
-  filter:
-    none !important;
-
-  box-shadow:
-    none !important;
-
-  user-select:
-    none;
-
-  -webkit-user-drag:
-    none;
+  -webkit-user-drag: none;
 }
 
 
 /* ==========================================================
    06 — LARGE DESKTOP
-   ----------------------------------------------------------
-   Large research-display format.
-
-   The figure can approach the 1800px HOME maximum while
-   retaining comfortable optical breathing room.
+   1441px+
 ========================================================== */
 
 @media (min-width: 1441px) {
 
   main.an-home-2026
-  > #archenova-civilization-purpose-map {
+  > #archenova-civilization-purpose-map.an-purpose-map {
     padding-right:
-      clamp(28px, 3vw, 64px)
+      clamp(24px, 2.5vw, 48px)
       !important;
 
     padding-left:
-      clamp(28px, 3vw, 64px)
+      clamp(24px, 2.5vw, 48px)
       !important;
   }
 
@@ -61979,26 +61908,37 @@ main.an-home-2026
   > #archenova-civilization-purpose-map
   > .an-home-2026__glass {
     max-width:
-      1800px !important;
+      1840px !important;
 
     padding:
-      24px !important;
+      14px !important;
   }
 
 }
 
 
 /* ==========================================================
-   07 — STANDARD DESKTOP
+   07 — DESKTOP / LAPTOP
+   1025px — 1440px
 ========================================================== */
 
 @media (min-width: 1025px) and (max-width: 1440px) {
 
   main.an-home-2026
+  > #archenova-civilization-purpose-map.an-purpose-map {
+    padding-right:
+      24px !important;
+
+    padding-left:
+      24px !important;
+  }
+
+
+  main.an-home-2026
   > #archenova-civilization-purpose-map
   > .an-home-2026__glass {
     padding:
-      18px !important;
+      11px !important;
   }
 
 }
@@ -62006,19 +61946,22 @@ main.an-home-2026
 
 /* ==========================================================
    08 — TABLET
+   769px — 1024px
 
-   Keep the full panoramic figure.
-   Use almost all available horizontal space.
+   Nearly edge-to-edge.
 ========================================================== */
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
   main.an-home-2026
   > #archenova-civilization-purpose-map.an-purpose-map {
+    min-height:
+      100svh !important;
+
     padding:
-      clamp(84px, 10svh, 112px)
-      clamp(18px, 3vw, 30px)
-      clamp(92px, 11svh, 124px)
+      74px
+      14px
+      92px
       !important;
   }
 
@@ -62029,11 +61972,14 @@ main.an-home-2026
     width:
       100% !important;
 
+    max-width:
+      none !important;
+
     padding:
-      14px !important;
+      9px !important;
 
     border-radius:
-      28px !important;
+      27px !important;
 
     -webkit-backdrop-filter:
       blur(20px)
@@ -62046,43 +61992,57 @@ main.an-home-2026
       !important;
   }
 
-
-  main.an-home-2026
-  #archenova-civilization-purpose-map
-  .an-purpose-map__image-frame {
-    width:
-      100%;
-
-    aspect-ratio:
-      16 / 9;
-  }
-
 }
 
 
 /* ==========================================================
    09 — MOBILE
+   <= 768px
 
-   Same philosophy as WorldGallery:
-   the image remains a large exhibition object.
+   IMPORTANT:
+   Do not center a small 16:9 frame inside 100svh.
 
-   No horizontal scrolling.
-   No tiny inset card.
-   The frame uses almost the full device width.
+   Instead:
+   - use nearly the complete viewport width
+   - let the JPEG determine its own height
+   - remove unnecessary frame padding
+   - keep the entire image visible
 ========================================================== */
 
 @media (max-width: 768px) {
 
   main.an-home-2026
   > #archenova-civilization-purpose-map.an-purpose-map {
+    display:
+      flex !important;
+
+    align-items:
+      center !important;
+
+    justify-content:
+      center !important;
+
+    width:
+      100% !important;
+
+    /*
+     * The section remains a HOME chapter, but the artwork
+     * itself is allowed to occupy almost the full width.
+     */
     min-height:
       100svh !important;
 
+    height:
+      auto !important;
+
     padding:
-      76px
-      12px
-      104px
+      58px
+      6px
+      86px
       !important;
+
+    overflow:
+      visible !important;
   }
 
 
@@ -62098,14 +62058,31 @@ main.an-home-2026
     min-height:
       0 !important;
 
+    height:
+      auto !important;
+
+    /*
+     * Only a thin optical edge remains.
+     */
     padding:
-      10px !important;
+      5px !important;
+
+    margin:
+      0 !important;
 
     overflow:
       hidden !important;
 
     border-radius:
-      26px !important;
+      24px !important;
+
+    background:
+      linear-gradient(
+        155deg,
+        rgba(13, 14, 17, 0.30),
+        rgba(0, 0, 0, 0.46)
+      )
+      !important;
 
     -webkit-backdrop-filter:
       blur(18px)
@@ -62121,33 +62098,55 @@ main.an-home-2026
 
   main.an-home-2026
   #archenova-civilization-purpose-map
-  .an-purpose-map__image-frame {
-    /*
-     * Preserve the scientific figure as landscape.
-     *
-     * Do not convert it to portrait or square: that would
-     * either crop the figure or waste most of its pixels.
-     */
-
+  .an-purpose-map__figure {
     width:
-      100%;
+      100% !important;
+
+    height:
+      auto !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-civilization-purpose-map
+  .an-purpose-map__image-frame {
+    width:
+      100% !important;
+
+    height:
+      auto !important;
+
+    min-height:
+      0 !important;
+
+    max-height:
+      none !important;
 
     aspect-ratio:
-      16 / 9;
+      auto !important;
 
     border-radius:
-      3px;
+      19px !important;
   }
 
 
   main.an-home-2026
   #archenova-civilization-purpose-map
   .an-purpose-map__image {
+    display:
+      block !important;
+
     width:
       100% !important;
 
     height:
-      100% !important;
+      auto !important;
+
+    max-width:
+      none !important;
+
+    max-height:
+      none !important;
 
     object-fit:
       contain !important;
@@ -62161,17 +62160,20 @@ main.an-home-2026
 
 /* ==========================================================
    10 — SMALL MOBILE
+   <= 430px
+
+   Maximum use of the physical screen width.
 ========================================================== */
 
 @media (max-width: 430px) {
 
   main.an-home-2026
   > #archenova-civilization-purpose-map.an-purpose-map {
-    padding-right:
-      9px !important;
-
-    padding-left:
-      9px !important;
+    padding:
+      52px
+      3px
+      82px
+      !important;
   }
 
 
@@ -62179,38 +62181,94 @@ main.an-home-2026
   > #archenova-civilization-purpose-map
   > .an-home-2026__glass {
     padding:
-      7px !important;
+      3px !important;
 
     border-radius:
-      22px !important;
+      20px !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-civilization-purpose-map
+  .an-purpose-map__image-frame {
+    border-radius:
+      17px !important;
   }
 
 }
 
 
 /* ==========================================================
-   11 — SHORT MOBILE / LANDSCAPE DEVICE
+   11 — VERY NARROW MOBILE
+   <= 390px
 ========================================================== */
 
-@media (max-width: 768px) and (max-height: 700px) {
+@media (max-width: 390px) {
+
+  main.an-home-2026
+  > #archenova-civilization-purpose-map.an-purpose-map {
+    padding-right:
+      2px !important;
+
+    padding-left:
+      2px !important;
+  }
+
+
+  main.an-home-2026
+  > #archenova-civilization-purpose-map
+  > .an-home-2026__glass {
+    padding:
+      2px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   12 — MOBILE LANDSCAPE
+
+   A landscape phone has far more horizontal space.
+   Remove unnecessary vertical reservation and let the
+   artwork become the dominant screen object.
+========================================================== */
+
+@media
+(max-width: 950px)
+and (orientation: landscape)
+and (max-height: 520px) {
 
   main.an-home-2026
   > #archenova-civilization-purpose-map.an-purpose-map {
     min-height:
       100svh !important;
 
-    padding-top:
-      58px !important;
+    padding:
+      20px
+      8px
+      28px
+      !important;
+  }
 
-    padding-bottom:
-      78px !important;
+
+  main.an-home-2026
+  > #archenova-civilization-purpose-map
+  > .an-home-2026__glass {
+    width:
+      min(100%, 920px) !important;
+
+    padding:
+      4px !important;
+
+    border-radius:
+      18px !important;
   }
 
 }
 
 
 /* ==========================================================
-   12 — REDUCED MOTION
+   13 — REDUCED MOTION
 ========================================================== */
 
 @media (prefers-reduced-motion: reduce) {
@@ -62234,6 +62292,8 @@ main.an-home-2026
   }
 
 }
+
+
 
 
 
