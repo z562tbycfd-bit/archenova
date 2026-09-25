@@ -37,47 +37,26 @@ export default function HomePage() {
 
       <ArcheNovaCivilizationPrelude />
 
-        {/* ==================================================
-
-            01 — CIVILIZATION DIGITAL TWIN
-
-            A single square visual surface.
-
-        ================================================== */}
-
-        <section
-
-          id="archenova-civilization-digital-twin"
-
-          data-home-section
-
-          className="an-civilization-twin-visual"
-
-          aria-label="ArcheNova Civilization Digital Twin"
-
-        >
-
-          <div className="an-civilization-twin-visual__surface">
-
-            <img
-
-              src="/images/archenova-civilization-digital-twin.jpeg"
-
-              alt="Conceptual visualization of the ArcheNova civilization digital twin integrating planetary systems, cities, infrastructure, energy, biological environments, data, and interconnected models."
-
-              className="an-civilization-twin-visual__image"
-
-              loading="eager"
-
-              decoding="async"
-
-              draggable={false}
-
-            />
-
-          </div>
-
-        </section>
+       {/* ==================================================
+    01 — CIVILIZATION DIGITAL TWIN
+================================================== */}
+<section
+  id="archenova-civilization-digital-twin"
+  data-home-section
+  className="an-home-2026__section an-civilization-twin-visual"
+  aria-label="ArcheNova Civilization Digital Twin"
+>
+  <div className="an-home-2026__glass an-civilization-twin-visual__surface">
+    <img
+      src="/images/archenova-civilization-digital-twin.jpeg"
+      alt="Conceptual visualization of the ArcheNova civilization digital twin integrating planetary systems, cities, infrastructure, energy, biological environments, data, and interconnected models."
+      className="an-civilization-twin-visual__image"
+      loading="eager"
+      decoding="async"
+      draggable={false}
+    />
+  </div>
+</section>
 
       {/* ==================================================
           02 — THE HORIZON

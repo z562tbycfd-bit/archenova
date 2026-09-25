@@ -61599,257 +61599,707 @@ main#home-top.an-home-2026
 
 /* ==========================================================
    ARCHENOVA CIVILIZATION DIGITAL TWIN
-   Square visual / optical glass
+   HOME 2026 — SHARED GLASS SYSTEM
+   ----------------------------------------------------------
+   RULE:
+   ONE HOME SECTION = ONE GLASS SURFACE
+
+   The section itself owns the visible optical glass.
+   The inner .an-home-2026__glass is layout-only.
+
+   Square artwork:
+   - large on desktop
+   - width-adaptive on tablet
+   - nearly edge-to-edge on mobile
+   - never overlaps adjacent HOME sections
 ========================================================== */
 
-.archenova-twin-home
-#archenova-civilization-digital-twin.an-civilization-twin-visual {
+
+/* ==========================================================
+   1. SECTION = THE VISIBLE GLASS
+   ----------------------------------------------------------
+   Same material language as:
+   SEARCH / EPISTEME / TODAY'S INQUIRY / VALLEY
+========================================================== */
+
+main.an-home-2026
+> #archenova-civilization-digital-twin.an-civilization-twin-visual {
   position: relative !important;
   isolation: isolate !important;
+
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  /*
+   * Do not force the square artwork into one viewport.
+   * The section is allowed to become taller than 100svh.
+   */
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+
+  /*
+   * Exactly follows the HOME spacing system.
+   */
+  padding:
+    var(--an-h-top)
+    var(--an-h-gutter)
+    var(--an-h-bottom)
+    !important;
+
+  overflow: visible !important;
+
+  /*
+   * Same Apple-like smoked black glass used by
+   * the existing HOME-owned surfaces.
+   */
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
+    )
+    !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065)
+    !important;
+
+  border-radius:
+    30px !important;
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  backdrop-filter:
+    blur(22px)
+    saturate(106%)
+    !important;
+
+  box-shadow:
+    inset
+    0
+    1px
+    0
+    rgba(255, 255, 255, 0.040),
+
+    inset
+    0
+    -1px
+    0
+    rgba(255, 255, 255, 0.010)
+    !important;
+
+  outline: 0 !important;
+
+  transform: none !important;
+  animation: none !important;
+
+  scroll-snap-align: none !important;
+  scroll-snap-stop: normal !important;
+}
+
+
+/* ==========================================================
+   2. REMOVE LEGACY SECTION PSEUDO SURFACES
+========================================================== */
+
+main.an-home-2026
+> #archenova-civilization-digital-twin::before,
+
+main.an-home-2026
+> #archenova-civilization-digital-twin::after {
+  content: none !important;
+
+  display: none !important;
+
+  position: static !important;
+  inset: auto !important;
+
+  background: none !important;
+
+  border: 0 !important;
+  outline: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  opacity: 0 !important;
+}
+
+
+/* ==========================================================
+   3. INNER HOME GLASS = LAYOUT ONLY
+   ----------------------------------------------------------
+   IMPORTANT:
+   This must NOT become another card.
+========================================================== */
+
+main.an-home-2026
+> #archenova-civilization-digital-twin
+> .an-civilization-twin-visual__surface {
+  position: relative !important;
+  z-index: 1 !important;
+
+  box-sizing: border-box !important;
 
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
 
-  width: 100% !important;
-  min-height: 100svh !important;
+  align-self: center !important;
 
+  /*
+   * Match existing HOME content geometry.
+   */
+  width: 100% !important;
+  max-width: 1800px !important;
+  min-width: 0 !important;
+
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 auto !important;
+
+  /*
+   * Keep generous breathing room around the square artwork,
+   * while still allowing it to become substantially larger
+   * than the previous implementation.
+   */
   padding:
-    clamp(72px, 9svh, 120px)
-    var(--an-h-gutter)
-    clamp(72px, 9svh, 120px) !important;
+    clamp(18px, 2.2vw, 40px)
+    !important;
 
   overflow: visible !important;
 
-  background: transparent !important;
-  border: 0 !important;
-}
-
-
-/* ==========================================================
-   SQUARE GLASS SURFACE
-
-   The frame itself remains square.
-   No text / caption / secondary card.
-========================================================== */
-
-.archenova-twin-home
-.an-civilization-twin-visual__surface {
-  position: relative !important;
-  isolation: isolate !important;
-
-  width: min(
-    1080px,
-    calc(100vw - (var(--an-h-gutter) * 2)),
-    calc(100svh - 150px)
-  ) !important;
-
-  aspect-ratio: 1 / 1 !important;
-
-  margin: 0 auto !important;
-  padding: 0 !important;
-
-  overflow: hidden !important;
-
   background:
-    linear-gradient(
-      145deg,
-      rgba(15, 16, 18, 0.20),
-      rgba(7, 8, 10, 0.24) 48%,
-      rgba(0, 0, 0, 0.30)
-    ) !important;
+    transparent !important;
+
+  background-image:
+    none !important;
 
   border:
-    1px solid rgba(255, 255, 255, 0.065) !important;
+    0 !important;
 
-  border-radius: 30px !important;
+  border-radius:
+    0 !important;
+
+  outline:
+    0 !important;
 
   -webkit-backdrop-filter:
-    blur(22px) saturate(106%) !important;
+    none !important;
 
   backdrop-filter:
-    blur(22px) saturate(106%) !important;
+    none !important;
 
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.040),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.010),
-    0 32px 90px rgba(0, 0, 0, 0.24) !important;
+    none !important;
+
+  transform:
+    none !important;
+
+  animation:
+    none !important;
 }
 
 
 /* ==========================================================
-   IMAGE
-
-   The generated artwork is already square.
-   Fill the glass surface without creating another layer.
+   4. INNER GLASS PSEUDO ELEMENTS OFF
 ========================================================== */
 
-.archenova-twin-home
-.an-civilization-twin-visual__image {
-  position: absolute !important;
-  inset: 0 !important;
+main.an-home-2026
+> #archenova-civilization-digital-twin
+> .an-civilization-twin-visual__surface::before,
 
-  display: block !important;
+main.an-home-2026
+> #archenova-civilization-digital-twin
+> .an-civilization-twin-visual__surface::after {
+  content:
+    none !important;
 
-  width: 100% !important;
-  height: 100% !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  object-fit: cover !important;
-  object-position: center center !important;
-
-  border: 0 !important;
-  border-radius: inherit !important;
-
-  user-select: none !important;
-  -webkit-user-drag: none !important;
-
-  transform: translateZ(0);
-}
-
-
-/* ==========================================================
-   SUBTLE OPTICAL INTEGRATION
-
-   Very light internal veil only.
-   It does not hide the artwork.
-========================================================== */
-
-.archenova-twin-home
-.an-civilization-twin-visual__surface::after {
-  content: "";
-
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-
-  pointer-events: none;
-
-  border-radius: inherit;
+  display:
+    none !important;
 
   background:
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.018) 0%,
-      transparent 18%,
-      transparent 78%,
-      rgba(0, 0, 0, 0.10) 100%
-    );
+    none !important;
+
+  border:
+    0 !important;
 
   box-shadow:
-    inset 0 0 80px rgba(0, 0, 0, 0.10);
+    none !important;
 }
 
 
 /* ==========================================================
-   LARGE DESKTOP
+   5. SQUARE ARTWORK
+   ----------------------------------------------------------
+   Width is the geometry authority.
+
+   IMPORTANT:
+   No 100svh restriction.
+   A large desktop square may exceed one viewport vertically.
+   The section grows naturally around it.
 ========================================================== */
 
-@media (min-width: 1440px) {
-  .archenova-twin-home
-  .an-civilization-twin-visual__surface {
-    width: min(
-      1120px,
-      calc(100vw - (var(--an-h-gutter) * 2)),
-      calc(100svh - 150px)
-    ) !important;
-  }
+main.an-home-2026
+#archenova-civilization-digital-twin
+.an-civilization-twin-visual__image {
+  position:
+    relative !important;
+
+  inset:
+    auto !important;
+
+  z-index:
+    1 !important;
+
+  display:
+    block !important;
+
+  box-sizing:
+    border-box !important;
+
+  /*
+   * Large desktop default.
+   *
+   * The HOME content system allows up to 1800px.
+   * The artwork uses up to 1500px of that space.
+   */
+  width:
+    min(
+      1500px,
+      100%
+    )
+    !important;
+
+  aspect-ratio:
+    1 / 1 !important;
+
+  height:
+    auto !important;
+
+  min-width:
+    0 !important;
+
+  min-height:
+    0 !important;
+
+  max-width:
+    1500px !important;
+
+  max-height:
+    none !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    0 !important;
+
+  object-fit:
+    cover !important;
+
+  object-position:
+    center center !important;
+
+  /*
+   * The image itself is NOT another glass card.
+   * Only a subtle radius follows the section language.
+   */
+  border:
+    0 !important;
+
+  border-radius:
+    24px !important;
+
+  outline:
+    0 !important;
+
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+
+  user-select:
+    none !important;
+
+  -webkit-user-select:
+    none !important;
+
+  -webkit-user-drag:
+    none !important;
+
+  transform:
+    none !important;
 }
 
 
 /* ==========================================================
-   TABLET
+   6. LARGE DESKTOP
+   >= 1600px
 ========================================================== */
 
-@media (max-width: 1024px) {
-  .archenova-twin-home
-  #archenova-civilization-digital-twin.an-civilization-twin-visual {
-    min-height: 100svh !important;
+@media (min-width: 1600px) {
+
+  main.an-home-2026
+  > #archenova-civilization-digital-twin
+  > .an-civilization-twin-visual__surface {
+    max-width:
+      1800px !important;
 
     padding:
-      clamp(64px, 8svh, 92px)
-      var(--an-h-gutter)
-      clamp(64px, 8svh, 92px) !important;
+      42px !important;
   }
 
-  .archenova-twin-home
-  .an-civilization-twin-visual__surface {
-    width: min(
-      860px,
-      calc(100vw - (var(--an-h-gutter) * 2)),
-      calc(100svh - 130px)
-    ) !important;
 
-    border-radius: 28px !important;
+  main.an-home-2026
+  #archenova-civilization-digital-twin
+  .an-civilization-twin-visual__image {
+    width:
+      min(
+        1500px,
+        100%
+      )
+      !important;
+
+    max-width:
+      1500px !important;
+
+    border-radius:
+      26px !important;
   }
+
 }
 
 
 /* ==========================================================
-   MOBILE
+   7. STANDARD DESKTOP
+   1200px — 1599px
 ========================================================== */
 
-@media (max-width: 720px) {
-  .archenova-twin-home
-  #archenova-civilization-digital-twin.an-civilization-twin-visual {
-    min-height: 100svh !important;
+@media
+(min-width: 1200px)
+and
+(max-width: 1599px) {
 
+  main.an-home-2026
+  > #archenova-civilization-digital-twin
+  > .an-civilization-twin-visual__surface {
     padding:
-      clamp(54px, 7svh, 72px)
-      var(--an-h-gutter)
-      clamp(54px, 7svh, 72px) !important;
+      clamp(28px, 2.6vw, 38px)
+      !important;
   }
 
-  .archenova-twin-home
-  .an-civilization-twin-visual__surface {
-    width: min(
-      100%,
-      calc(100vw - (var(--an-h-gutter) * 2))
-    ) !important;
 
-    max-width: none !important;
+  main.an-home-2026
+  #archenova-civilization-digital-twin
+  .an-civilization-twin-visual__image {
+    width:
+      min(
+        1280px,
+        100%
+      )
+      !important;
 
-    border-radius: 26px !important;
+    max-width:
+      1280px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   8. SMALL DESKTOP / TABLET LANDSCAPE
+   901px — 1199px
+========================================================== */
+
+@media
+(min-width: 901px)
+and
+(max-width: 1199px) {
+
+  main.an-home-2026
+  > #archenova-civilization-digital-twin
+  > .an-civilization-twin-visual__surface {
+    padding:
+      clamp(22px, 2.5vw, 30px)
+      !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-civilization-digital-twin
+  .an-civilization-twin-visual__image {
+    width:
+      min(
+        1040px,
+        100%
+      )
+      !important;
+
+    max-width:
+      1040px !important;
+
+    border-radius:
+      24px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   9. TABLET
+   701px — 900px
+========================================================== */
+
+@media
+(min-width: 701px)
+and
+(max-width: 900px) {
+
+  main.an-home-2026
+  > #archenova-civilization-digital-twin
+  > .an-civilization-twin-visual__surface {
+    width:
+      100% !important;
+
+    padding:
+      18px !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-civilization-digital-twin
+  .an-civilization-twin-visual__image {
+    width:
+      100% !important;
+
+    max-width:
+      none !important;
+
+    border-radius:
+      22px !important;
+  }
+
+}
+
+
+/* ==========================================================
+   10. MOBILE
+   <= 700px
+   ----------------------------------------------------------
+   Same HOME glass material as existing sections.
+========================================================== */
+
+@media (max-width: 700px) {
+
+  main.an-home-2026
+  > #archenova-civilization-digital-twin.an-civilization-twin-visual {
+    min-height:
+      100svh !important;
+
+    height:
+      auto !important;
+
+    padding:
+      var(--an-h-top)
+      var(--an-h-gutter)
+      var(--an-h-bottom)
+      !important;
+
+    background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
+      ),
+      linear-gradient(
+        145deg,
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
+      )
+      !important;
+
+    border:
+      1px solid
+      rgba(255, 255, 255, 0.060)
+      !important;
+
+    border-radius:
+      26px !important;
 
     -webkit-backdrop-filter:
-      blur(18px) saturate(104%) !important;
+      blur(18px)
+      saturate(104%)
+      !important;
 
     backdrop-filter:
-      blur(18px) saturate(104%) !important;
+      blur(18px)
+      saturate(104%)
+      !important;
 
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.035),
-      inset 0 -1px 0 rgba(255, 255, 255, 0.010),
-      0 24px 64px rgba(0, 0, 0, 0.22) !important;
+      inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.035),
+
+      inset
+      0
+      -1px
+      0
+      rgba(255, 255, 255, 0.008)
+      !important;
   }
+
+
+  main.an-home-2026
+  > #archenova-civilization-digital-twin
+  > .an-civilization-twin-visual__surface {
+    width:
+      100% !important;
+
+    max-width:
+      none !important;
+
+    min-height:
+      0 !important;
+
+    padding:
+      8px !important;
+
+    background:
+      transparent !important;
+
+    border:
+      0 !important;
+
+    border-radius:
+      0 !important;
+
+    -webkit-backdrop-filter:
+      none !important;
+
+    backdrop-filter:
+      none !important;
+
+    box-shadow:
+      none !important;
+  }
+
+
+  main.an-home-2026
+  #archenova-civilization-digital-twin
+  .an-civilization-twin-visual__image {
+    width:
+      100% !important;
+
+    max-width:
+      none !important;
+
+    height:
+      auto !important;
+
+    aspect-ratio:
+      1 / 1 !important;
+
+    border-radius:
+      20px !important;
+  }
+
 }
 
 
 /* ==========================================================
-   SMALL MOBILE
+   11. VERY SMALL MOBILE
+   <= 430px
 ========================================================== */
 
 @media (max-width: 430px) {
-  .archenova-twin-home
-  #archenova-civilization-digital-twin.an-civilization-twin-visual {
-    padding:
-      48px
-      var(--an-h-gutter)
-      48px !important;
+
+  main.an-home-2026
+  > #archenova-civilization-digital-twin.an-civilization-twin-visual {
+    border-radius:
+      22px !important;
   }
 
-  .archenova-twin-home
-  .an-civilization-twin-visual__surface {
-    border-radius: 22px !important;
+
+  main.an-home-2026
+  > #archenova-civilization-digital-twin
+  > .an-civilization-twin-visual__surface {
+    padding:
+      5px !important;
   }
+
+
+  main.an-home-2026
+  #archenova-civilization-digital-twin
+  .an-civilization-twin-visual__image {
+    border-radius:
+      17px !important;
+  }
+
 }
 
 
+/* ==========================================================
+   12. FINAL OWNERSHIP GUARANTEE
+   ----------------------------------------------------------
+   Never allow the inner wrapper to become a second glass.
+========================================================== */
 
+.archenova-twin-home
+#archenova-civilization-digital-twin
+.an-civilization-twin-visual__surface {
+  background:
+    transparent !important;
 
+  background-image:
+    none !important;
 
+  border:
+    0 !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+}
 
 
 
