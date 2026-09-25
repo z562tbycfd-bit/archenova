@@ -1853,185 +1853,349 @@ export default function ArcheNovaFrameworkPortal() {
           }
         }
 
-        /* ==================================================
-           MOBILE — NATURAL HOME SCROLL
-        ================================================== */
+        /* ==========================================================
+   MOBILE — EPISTEME DIMENSIONAL REFERENCE
 
-        @media (max-width: 700px) {
-          .fw-portal {
-            display: block;
+   EpistemeDialoguePortal is the geometry reference.
 
-            min-height: 0;
-            height: auto;
-            max-height: none;
+   Shared:
+   - portal height
+   - stage height
+   - stage padding
+   - header coordinate
+   - experience coordinate
+   - title scale
+   - entry envelope
+   - visual envelope
+   - tap-hint coordinate
 
-            overflow: visible;
-          }
+   Framework keeps its own visual identity.
+========================================================== */
 
-          .fw-portal__stage {
-            display: grid;
-            grid-template-rows:
-              auto
-              minmax(min-content, 1fr);
+@media (max-width: 700px) {
+  .fw-portal {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
 
-            min-height:
-              max(690px, calc(100svh - 42px));
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-            height: auto;
-            max-height: none;
+    min-height:
+      max(690px, calc(100svh - 42px));
+    height: auto;
+    max-height: none;
 
-            padding: 25px 18px 23px;
+    overflow: hidden;
+  }
 
-            overflow: visible;
-            overscroll-behavior: auto;
-          }
+  .fw-portal__stage {
+    position: relative;
 
-          .fw-portal__header {
-            grid-template-columns: minmax(0, 1fr);
-            justify-items: center;
-            row-gap: 12px;
-          }
+    flex: 1 0 auto;
 
-          .fw-portal__identity {
-            grid-column: 1;
-            grid-row: 1;
-            gap: 7px;
-          }
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-          .fw-portal__identity > span {
-            font-size: 9px;
-            letter-spacing: .21em;
-          }
+    min-height:
+      max(690px, calc(100svh - 42px));
+    height: auto;
+    max-height: none;
 
-          .fw-portal__identity > small {
-            font-size: 6px;
-            letter-spacing: .1em;
-          }
+    display: grid;
+    grid-template-rows:
+      auto
+      minmax(0, 1fr);
 
-          .fw-portal__indicator {
-            grid-column: 1;
-            grid-row: 2;
-            justify-self: center;
+    padding: 25px 18px 23px;
 
-            gap: 6px;
-            font-size: 7px;
-            letter-spacing: .09em;
-          }
+    overflow: hidden;
+    overscroll-behavior: auto;
+  }
 
-          .fw-portal__indicator i {
-            width: 4px;
-            height: 4px;
-            flex-basis: 4px;
-          }
+  /* ------------------------------------------
+     HEADER
+     Exact Episteme coordinate system
+  ------------------------------------------ */
 
-          .fw-portal__experience {
-            align-self: stretch;
-            justify-content: center;
+  .fw-portal__header {
+    position: relative;
 
-            min-height: min-content;
-            height: auto;
-            max-height: none;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-            padding: 30px 0 24px;
-            overflow: visible;
-          }
+    display: grid;
+    grid-template-columns:
+      minmax(0, 1fr)
+      auto
+      minmax(0, 1fr);
 
-          .fw-portal__statement {
-            gap: 12px;
-          }
+    align-items: start;
+    align-self: start;
 
-          .fw-portal__eyebrow {
-            font-size: 6px;
-            letter-spacing: .1em;
-          }
+    justify-items: initial;
+    row-gap: 0;
+  }
 
-          .fw-portal__statement h2 {
-            font-size: clamp(33px, 9.2vw, 46px);
-            line-height: 1.035;
-            letter-spacing: -.054em;
-          }
+  .fw-portal__identity {
+    grid-column: 2;
+    grid-row: 1;
 
-          .fw-portal__entry-button {
-            width: min(100%, 340px);
-            margin-top: 12px;
-          }
+    min-width: 0;
 
-          .fw-portal__artifact {
-            width: min(100%, 310px);
-            aspect-ratio: 1.12;
-          }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
 
-          .fw-portal__tap-hint {
-            font-size: 7px;
-            letter-spacing: .08em;
-          }
+    text-align: center;
+  }
 
-          .fw-entry__structure {
-            width: min(88vw, 520px);
-          }
-        }
+  .fw-portal__identity > span {
+    color: rgba(255, 255, 255, .82);
 
-        /* ==================================================
-           SHORT MOBILE
-        ================================================== */
+    font-size: 7px;
+    font-weight: 650;
+    letter-spacing: .2em;
 
-        @media (max-width: 700px) and (max-height: 720px) {
-          .fw-portal__stage {
-            padding: 22px 17px 19px;
-          }
+    white-space: nowrap;
+  }
 
-          .fw-portal__experience {
-            padding: 22px 0 18px;
-          }
+  .fw-portal__identity > small {
+    margin-top: -1px;
 
-          .fw-portal__statement h2 {
-            font-size: clamp(31px, 8.9vw, 42px);
-          }
+    color: rgba(255, 255, 255, .24);
 
-          .fw-portal__entry-button {
-            margin-top: 7px;
-          }
+    font-size: 4.5px;
+    letter-spacing: .1em;
 
-          .fw-portal__artifact {
-            width: min(100%, 285px);
-          }
-        }
+    white-space: nowrap;
+  }
 
-        /* ==================================================
-           SMALL MOBILE
-        ================================================== */
+  /* ------------------------------------------
+     EXPERIENCE
+     Same remaining-stage geometry as Episteme
+  ------------------------------------------ */
 
-        @media (max-width: 430px) {
-          .fw-portal__stage {
-            padding: 25px 15px 21px;
-          }
+  .fw-portal__experience {
+    position: relative;
 
-          .fw-portal__statement h2 {
-            font-size: clamp(32px, 9.5vw, 42px);
-          }
+    align-self: stretch;
 
-          .fw-portal__artifact {
-            width: min(100%, 295px);
-          }
-        }
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 0;
 
-        @media (max-width: 360px) {
-          .fw-portal__stage {
-            padding: 23px 13px 19px;
-          }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-          .fw-portal__statement h2 {
-            font-size: clamp(29px, 9.2vw, 37px);
-          }
+    padding: 35px 0 30px;
 
-          .fw-portal__artifact {
-            width: min(100%, 260px);
-          }
+    overflow-x: hidden;
+    overflow-y: auto;
 
-          .fw-portal__eyebrow {
-            font-size: 5.5px;
-          }
-        }
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .fw-portal__experience::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .fw-portal__statement {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    flex: 0 0 auto;
+
+    gap: 9px;
+  }
+
+  .fw-portal__statement h2 {
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0 4px;
+
+    font-size: clamp(32px, 9.4vw, 46px);
+    line-height: 1;
+    letter-spacing: -.052em;
+
+    text-align: center;
+  }
+
+  /* ------------------------------------------
+     ENTRY ENVELOPE
+     Same dimensions as Episteme brain-button
+  ------------------------------------------ */
+
+  .fw-portal__entry-button {
+    position: relative;
+
+    width: min(100%, 350px);
+    max-width: 100%;
+    min-width: 0;
+
+    flex: 0 0 auto;
+
+    margin: 8px auto 0;
+    padding: 0;
+  }
+
+  /* ------------------------------------------
+     VISUAL ENVELOPE
+     Same 305px / 1.17 stage as Episteme.
+
+     The Framework emblem itself remains unique.
+  ------------------------------------------ */
+
+  .fw-portal__artifact {
+    position: relative;
+
+    width: min(100%, 305px);
+    max-width: 100%;
+    min-width: 0;
+
+    aspect-ratio: 1.17;
+
+    display: grid;
+    place-items: center;
+
+    margin: 0 auto;
+  }
+
+  .fw-portal__artifact-object {
+    width: 100%;
+    height: 100%;
+  }
+
+  .fw-portal__tap-hint {
+    bottom: .5%;
+
+    max-width: calc(100% - 16px);
+
+    overflow: hidden;
+
+    font-size: 5.5px;
+    letter-spacing: .1em;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .fw-entry__structure {
+    width: min(88vw, 520px);
+  }
+}
+
+/* ==========================================================
+   SHORT MOBILE — EPISTEME REFERENCE
+========================================================== */
+
+@media (max-width: 700px) and (max-height: 720px) {
+  .fw-portal {
+    min-height:
+      max(690px, calc(100svh - 42px));
+  }
+
+  .fw-portal__stage {
+    min-height:
+      max(690px, calc(100svh - 42px));
+
+    padding: 22px 17px 19px;
+  }
+
+  .fw-portal__experience {
+    padding: 25px 0 20px;
+  }
+
+  .fw-portal__statement h2 {
+    font-size: clamp(30px, 8.9vw, 40px);
+  }
+
+  .fw-portal__entry-button {
+    margin-top: 1px;
+  }
+
+  .fw-portal__artifact {
+    width: min(100%, 265px);
+    aspect-ratio: 1.17;
+  }
+}
+
+/* ==========================================================
+   SMALL MOBILE — EPISTEME REFERENCE
+========================================================== */
+
+@media (max-width: 430px) {
+  .fw-portal__stage {
+    min-height:
+      max(690px, calc(100svh - 42px));
+
+    padding: 25px 15px 21px;
+  }
+
+  .fw-portal__identity > span {
+    font-size: 6.5px;
+  }
+
+  .fw-portal__identity > small {
+    font-size: 4px;
+  }
+
+  .fw-portal__statement h2 {
+    font-size: clamp(31px, 9.7vw, 41px);
+  }
+
+  .fw-portal__artifact {
+    width: min(100%, 285px);
+    aspect-ratio: 1.17;
+  }
+
+  .fw-portal__tap-hint {
+    font-size: 5px;
+  }
+}
+
+/* ==========================================================
+   VERY SMALL MOBILE — EPISTEME REFERENCE
+========================================================== */
+
+@media (max-width: 360px) {
+  .fw-portal__stage {
+    min-height:
+      max(690px, calc(100svh - 42px));
+
+    padding: 23px 13px 19px;
+  }
+
+  .fw-portal__identity > small {
+    display: none;
+  }
+
+  .fw-portal__statement h2 {
+    font-size: clamp(29px, 9.4vw, 37px);
+  }
+
+  .fw-portal__artifact {
+    width: min(100%, 255px);
+    aspect-ratio: 1.17;
+  }
+}
 
         /* ==================================================
            REDUCED MOTION
