@@ -37,32 +37,26 @@ export default function HomePage() {
 
       <ArcheNovaCivilizationPrelude />
 
-       {/* ==================================================
+        {/* ==================================================
           01 — CIVILIZATION PURPOSE MAP
-          Image-only scientific exhibition.
-          One HOME section = one optical glass surface.
+          One dedicated optical-glass surface.
+          The scientific figure is the content.
       ================================================== */}
 
       <section
         id="archenova-civilization-purpose-map"
         data-home-section
-        className="home-page an-purpose-map an-home-2026__section"
+        className="an-purpose-map-section"
         aria-label="ArcheNova Civilization Purpose Map"
       >
-        <div className="an-home-2026__glass">
-          <figure className="an-purpose-map__figure">
-            <div className="an-purpose-map__image-frame">
-              <img
-                src="/images/archenova-civilization-purpose-map.jpeg"
-                alt="ArcheNova civilization digital twin framework illustrating the relationships among science, technology, energy, infrastructure, biological systems, institutions, evidence, validation, feasibility, correctability, and real-world testing."
-                className="an-purpose-map__image"
-                loading="eager"
-                decoding="async"
-                draggable={false}
-              />
-            </div>
-          </figure>
-        </div>
+        <img
+          src="/images/archenova-civilization-purpose-map.jpeg"
+          alt="ArcheNova civilization digital twin framework illustrating interconnected science, technology, energy, infrastructure, biological systems, institutions, scenario exploration, validation, correctability, and real-world testing."
+          className="an-purpose-map-section__image"
+          loading="eager"
+          decoding="async"
+          draggable={false}
+        />
       </section>
 
       {/* ==================================================
