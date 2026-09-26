@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-26T19:35:39.345Z",
+  "updated": "2026-09-26T22:29:16.907Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Looking for #womenshealth information on Instagram? 4 out of 10 posts are ads",
+      "url": "https://phys.org/news/2026-09-womenshealth-instagram-ads.html",
+      "summary": "A woman in her 40s scrolls through Instagram. Between photos of friends, recipes and vacation photos, she comes across a video about perimenopause. The woman on screen explains that perimenopause is to blame for feeling …",
+      "ts": 1790456407000,
+      "publishedAt": "2026-09-26T21:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black hole jets reach far beyond galaxies' visible edges, potentially deciding their fate",
+      "url": "https://phys.org/news/2026-09-black-hole-jets-galaxies-visible.html",
+      "summary": "Galaxies are enormous and hold hundreds of billions of stars. These stars form from cold, dense gas. Every large galaxy, including the Milky Way, is wrapped in a huge envelope of gas called the circumgalactic medium, or …",
+      "ts": 1790456401000,
+      "publishedAt": "2026-09-26T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why earwigs infected by parasitic worms head towards water",
+      "url": "https://phys.org/news/2026-09-earwigs-infected-parasitic-worms.html",
+      "summary": "Earwigs, small, elongated insects with distinctive pincers at the rear of their abdomens, have little reason to enter open water. While many earwig species are attracted to damp environments, they typically avoid open wa…",
+      "ts": 1790452802000,
+      "publishedAt": "2026-09-26T20:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Pumpkin-derived enzyme weakens peanut proteins' binding to allergy antibodies in lab tests",
@@ -777,30 +801,6 @@
       "summary": "Author(s): Riccardo Fornari, Mohammad Tomal Hossain, Raffaele Silvani, Vinayak Shantaram Bhat, Rawnak Sultana, M. Benjamin Jungfleisch, and Gianluca Gubbiotti Artificial spin ices are promising for reconfigurable magnoni…",
       "ts": 1790330400000,
       "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "High-tech canopy maps reveal how tropical birds use Amazon forests",
-      "url": "https://phys.org/news/2026-09-high-tech-canopy-reveal-tropical.html",
-      "summary": "Tropical forests may look like a uniform sea of green from above, but new research shows that carefully measured differences in forest structure and function can help explain how birds use existing habitats, how they res…",
-      "ts": 1790326810000,
-      "publishedAt": "2026-09-25T09:00:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New tool closes gap in harnessing untapped potential of phages",
-      "url": "https://phys.org/news/2026-09-tool-gap-harnessing-untapped-potential.html",
-      "summary": "A new tool to mutate bacteriophages—viruses that infect bacteria—provides a \"big leap\" forward in our understanding of how they function and our ability to harness their full potential.",
-      "ts": 1790326801000,
-      "publishedAt": "2026-09-25T09:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bacteria suspected in deaths of hundreds of baby whales off Argentina",
-      "url": "https://phys.org/news/2026-09-bacteria-deaths-hundreds-baby-whales.html",
-      "summary": "A bacterial infection is suspected of killing hundreds of baby whales in the southern Argentine region of Patagonia, a marine mammal expert told AFP on Thursday.",
-      "ts": 1790323801000,
-      "publishedAt": "2026-09-25T08:10:01.000Z"
     }
   ],
   "sources": [
