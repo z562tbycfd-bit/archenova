@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-09-26T01:16:13.635Z",
+  "updated": "2026-09-26T07:13:15.240Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A 'library' of bacteria-killing viruses: Harnessing the power of phages",
+      "url": "https://phys.org/news/2026-09-library-bacteria-viruses-harnessing-power.html",
+      "summary": "An estimated 38 trillion bacteria live in the human body—and only a small fraction are harmful to our health. However, the harmful ones can cause serious illness, especially when they develop resistance to antibiotics.",
+      "ts": 1790390401000,
+      "publishedAt": "2026-09-26T02:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Climate crisis is affecting children's nutrition",
@@ -14,6 +22,14 @@
       "source": "Nature Communications",
       "title": "Manipulation of ferromagnetism with a light-driven nonlinear Edelstein-Zeeman field",
       "url": "https://www.nature.com/articles/s41467-026-77965-4",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Branched-type nanocluster-junction fluorofluidic-gels for interface-adaptive thermal conduction and mechanical resistance",
+      "url": "https://www.nature.com/articles/s41467-026-78046-2",
       "summary": "",
       "ts": 1790380800000,
       "publishedAt": "2026-09-26T00:00:00.000Z"
@@ -516,6 +532,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Combination of ATLAS and CMS Searches for Higgs Boson Pair Production at $\\sqrt{s}=13\\text{ }\\text{ }\\mathrm{TeV}$",
+      "url": "http://link.aps.org/doi/10.1103/27s7-2frt",
+      "summary": "Author(s): G. Aad et al. (ATLAS Collaboration†[\"id\", \"col1\"], CMS Collaboration) First combination of searches for Higgs boson pair production from two CERN collaborations on this important standard model process provide…",
+      "ts": 1790330400000,
+      "publishedAt": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Radiative Corrections to Inverse Beta Decay: Precision Analysis for Reactor Neutrinos",
       "url": "http://link.aps.org/doi/10.1103/zbcz-nkpd",
       "summary": "Author(s): Oleksandr Tomalak We present a complete calculation of radiative corrections to the inverse beta decay reaction, ${\\overline{ν}}_{e}+p→{e}^{+}+n$, at reactor antineutrino energies using heavy-baryon chiral per…",
@@ -559,6 +583,54 @@
       "title": "Evolution of Electron Spin Resonance through a Metallic Quantum Critical Phase Diagram",
       "url": "http://link.aps.org/doi/10.1103/y227-dk8f",
       "summary": "Author(s): Marc Scheffler, Jörg Sichelschmidt, Conrad Clauss, Mojtaba Javaheri Rahim, Boris I. Kochelaev, Cornelius Krellner, Christoph Geibel, Frank Steglich, and Martin Dressel Using multiple antennae and their resonan…",
+      "ts": 1790330400000,
+      "publishedAt": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Observation of Ring States in a Delicate Topological Insulator",
+      "url": "http://link.aps.org/doi/10.1103/7ts9-mxcy",
+      "summary": "Author(s): C. Tornow, J. Rupprecht, P. Engeler, U. Drechsler, K.-E. Huhtinen, C. Devescovi, and S. D. Huber A delicate topological insulator realized in a silicon phononic metamaterial shows ring states induced by strong…",
+      "ts": 1790330400000,
+      "publishedAt": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Modular and integrable cryogen-free dilution refrigerator",
+      "url": "http://link.aps.org/doi/10.1103/lpcw-bm1q",
+      "summary": "Author(s): Xiang Guan, Pei Liu, De Ming Wang, Yong Jie Xie, Yu Qun Xu, Jie Fan, Zhong Qing Ji, Yi Rong Jin, and Haifeng Yu We have developed two modular dilution refrigerators with a cooling power on the order of 1 mW at…",
+      "ts": 1790330400000,
+      "publishedAt": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Analytical framework for controlling antenna performance using near-zero-index metamaterials",
+      "url": "http://link.aps.org/doi/10.1103/cxrs-z168",
+      "summary": "Author(s): Amir Jafargholi and Romain Fleury In the antenna community, there has always been a fundamental question: how can we control antenna behavior, e.g., resonant frequency, bandwidth, and mutual coupling in an arr…",
+      "ts": 1790330400000,
+      "publishedAt": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Momentum-selective coupling-driven transport behavior in two-dimensional Janus multiferroic ${\\text{InCrS}}_{3}$",
+      "url": "http://link.aps.org/doi/10.1103/y3b3-jr2s",
+      "summary": "Author(s): Kexin Song, Chun-Sheng Liu, Shaohui Yu, Xiaohong Zheng, Hua Hao, and Weiyang Wang Two-dimensional (2D) multiferroic materials with polarization-tunable electronic properties provide unprecedented opportunities…",
+      "ts": 1790330400000,
+      "publishedAt": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Circulators based on coupled quantum anomalous Hall insulators and resonators",
+      "url": "http://link.aps.org/doi/10.1103/c5hf-mn4s",
+      "summary": "Author(s): Luis A. Martinez, Nick Du, Nicholas Materise, Sean O’Kelley, Xian Wu, Gang Qiu, Kang L. Wang, Gianpaolo P. Carosi, Tony Low, and Dong-Xia Qu Integrated plasmonics is advancing rapidly, enabling a wide range of…",
+      "ts": 1790330400000,
+      "publishedAt": "2026-09-25T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Roles of quadratic and biquadratic couplings in the spin-wave modes of $\\mathrm{Co}\\text{−}\\mathrm{Fe}/\\text{Ru}/\\text{Ni}\\text{−}\\mathrm{Fe}$ artificial spin ices",
+      "url": "http://link.aps.org/doi/10.1103/5c9l-5w7v",
+      "summary": "Author(s): Riccardo Fornari, Mohammad Tomal Hossain, Raffaele Silvani, Vinayak Shantaram Bhat, Rawnak Sultana, M. Benjamin Jungfleisch, and Gianluca Gubbiotti Artificial spin ices are promising for reconfigurable magnoni…",
       "ts": 1790330400000,
       "publishedAt": "2026-09-25T10:00:00.000Z"
     },
@@ -727,78 +799,6 @@
       "title": "Imaging with GeV muons produced via laser-wakefield-accelerated electrons",
       "url": "https://arxiv.org/abs/2609.28788",
       "summary": "arXiv:2609.28788v1 Announce Type: new Abstract: Artificially generated muon beams, with tunable parameters, are highly valuable in imaging objects that are opaque to any other scanning technique. Lower-energy muon beams …",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation of ultracold plasma expansion in homogeneous magnetic field",
-      "url": "https://arxiv.org/abs/2609.28829",
-      "summary": "arXiv:2609.28829v1 Announce Type: new Abstract: We present molecular dynamics simulation results for an ultracold $^{40}$Ca plasma in a constant, homogeneous magnetic field. The magnetic field induces a significant spati…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Task-Based Framework for Evaluating Raman Spectral Quality Measures",
-      "url": "https://arxiv.org/abs/2609.28874",
-      "summary": "arXiv:2609.28874v1 Announce Type: new Abstract: Raman spectral preprocessing and enhancement are often evaluated by comparing output spectra with a reference. Interpreting these comparisons requires evidence that spectra…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave-driven propulsion of a flexible raft",
-      "url": "https://arxiv.org/abs/2609.28884",
-      "summary": "arXiv:2609.28884v1 Announce Type: new Abstract: Inertial propulsion in fluids generally arises from an unbalanced flux of momentum. For the case of wave-driven propulsion, momentum is transported away from an oscillating…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global modal/non-modal analysis of high-enthalpy Martian entry vehicles",
-      "url": "https://arxiv.org/abs/2609.28885",
-      "summary": "arXiv:2609.28885v1 Announce Type: new Abstract: We analyze laminar-to-turbulent transition over a blunt capsule representative of Martian entry at Mach 26 using global modal and transient-growth analyses about a thermoch…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterization and Active Control of Position-Dependent Timing Dynamics in Superconducting Strip Detectors",
-      "url": "https://arxiv.org/abs/2609.28897",
-      "summary": "arXiv:2609.28897v1 Announce Type: new Abstract: Superconducting strip single-photon detectors (SSPDs) have emerged as scalable, wide-strip variants of traditional nanowire counterparts. Despite practical advantages inclu…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SPBench: A Multi-Task Evaluation Benchmark for Exploration Seismic Processing",
-      "url": "https://arxiv.org/abs/2609.28925",
-      "summary": "arXiv:2609.28925v1 Announce Type: new Abstract: Exploration seismic processing underpins subsurface imaging and resource exploration, but learning-based methods remain difficult to compare across studies. Our survey of 3…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Teaching an LLM agent to fit XRR curves with X-Ray Calc 3",
-      "url": "https://arxiv.org/abs/2609.28926",
-      "summary": "arXiv:2609.28926v1 Announce Type: new Abstract: The structure of a periodic multilayer X-ray mirror is obtained by fitting its X-ray reflectivity (XRR) curve, and the result depends on how the operator normalizes and tri…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global Framework for Dynamics and Criticality of Bound States in the Continuum",
-      "url": "https://arxiv.org/abs/2609.28934",
-      "summary": "arXiv:2609.28934v1 Announce Type: new Abstract: Bound states in the continuum (BICs) exhibit rich momentum-space dynamics, including merging, annihilation, and reconnection across symmetry directions and bands. Yet these…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Relative periodic orbits in spatially extended Kolmogorov turbulence: from global to localized recurrence",
-      "url": "https://arxiv.org/abs/2609.28981",
-      "summary": "arXiv:2609.28981v1 Announce Type: new Abstract: Recurrent invariant solutions provide a dynamical framework for interpreting turbulence, but their computation becomes increasingly difficult in spatially extended flows, w…",
       "ts": 1790308800000,
       "publishedAt": "2026-09-25T04:00:00.000Z"
     }

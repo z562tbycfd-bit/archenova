@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-26T01:16:16.006Z",
+  "updated": "2026-09-26T07:13:17.141Z",
   "items": [
     {
       "source": "STAT",
@@ -199,6 +199,15 @@
       "ts": 1790337721000,
       "publishedAt": "2026-09-25T12:02:01.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti at ‘watershed moment’, Prime Minister tells UN, urging full backing for security force",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168453",
+      "summary": "Haiti is at a “watershed moment” in its struggle against gang violence and needs sustained international support alongside stronger national security institutions, Prime Minister Alix Didier Fils-Aimé told the UN General…",
+      "ts": 1790337600000,
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -802,15 +811,6 @@
       "ts": 1790268061000,
       "publishedAt": "2026-09-24T16:41:01.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Senate finance committee backs Chris Klomp, advancing him to full Senate vote",
-      "url": "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/?utm_campaign=rss",
-      "summary": "Klomp, a behind-the-scenes HHS power player, is likely to be confirmed as second-in-command to RFK Jr.",
-      "ts": 1790267892000,
-      "publishedAt": "2026-09-24T16:38:12.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
