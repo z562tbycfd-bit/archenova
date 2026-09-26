@@ -64019,53 +64019,67 @@ and
 
 /* ==========================================================
    ARCHENOVA / HOME 2026
-   ARCHENOVA CONCEPT
+   CONCEPT — FINAL CONSOLIDATED OVERRIDE
    ----------------------------------------------------------
-   Place at END of app/globals.css.
+   PLACE THIS BLOCK AT THE VERY END OF app/globals.css.
 
-   CURRENT DOM
+   DELETE / REPLACE the previous Concept-related override
+   blocks shown in the prompt.
 
-   #archenova-concept
-   └─ .an-concept-portal__surface
-      ├─ .an-concept-portal__ambient
-      ├─ .an-concept-portal__reflection
-      ├─ .an-concept-portal__header
-      │  ├─ .an-concept-portal__eyebrow
-      │  └─ .an-concept-portal__count
-      ├─ .an-concept-portal__body
-      │  └─ h2
-      ├─ .an-concept-portal__structure
-      └─ .an-concept-portal__footer
-
-   EXPANDED
-
+   ARCHITECTURE
+   ----------------------------------------------------------
    #archenova-concept
    #archenova-civilization-prelude
    #archenova-ideal-user
    #archenova-world
    #archenova-concept-end
 
-   IMPORTANT
-
-   - No .an-concept-portal__content wrapper exists.
-   - Expanded sections remain direct children of HOME.
-   - Existing Purpose / Ideal User scroll architecture remains
-     owned by those components and their canonical CSS.
-   - ONE HOME SECTION = ONE VISIBLE GLASS.
+   PRINCIPLES
+   ----------------------------------------------------------
+   1. Concept OPEN / CLOSED uses identical material.
+   2. One HOME section = one visible glass.
+   3. Concept surface is layout only.
+   4. Purpose / Ideal User remain direct children of HOME.
+   5. Purpose / Ideal User TSX owns START / FIXED / END.
+   6. CSS does not fight framePosition.
+   7. No transform / filter / contain around fixed frames.
+   8. World Gallery is not modified here.
 ========================================================== */
 
 
 /* ==========================================================
-   01 / CONCEPT HOME GLASS
+   01 / CONCEPT ENTRANCE
+   ONE MATERIAL — OPEN AND CLOSED
 ========================================================== */
 
 main#home-top.an-home-2026
-> #archenova-concept {
+> #archenova-concept.an-concept-portal,
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--closed,
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--open {
   position: relative !important;
   isolation: isolate !important;
 
-  color: rgba(255, 255, 255, 0.94);
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
 
+  width: 100% !important;
+  min-width: 0 !important;
+  min-height: 100svh !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  color:
+    rgba(255, 255, 255, 0.94) !important;
+
+  /*
+   * IMPORTANT:
+   * OPEN and CLOSED intentionally use
+   * EXACTLY the same optical material.
+   */
   background:
     radial-gradient(
       circle at 50% 0%,
@@ -64084,7 +64098,10 @@ main#home-top.an-home-2026
     1px solid
     rgba(255, 255, 255, 0.065) !important;
 
-  border-radius: 30px !important;
+  border-radius:
+    30px !important;
+
+  outline: 0 !important;
 
   -webkit-backdrop-filter:
     blur(22px)
@@ -64096,45 +64113,55 @@ main#home-top.an-home-2026
 
   box-shadow:
     inset 0 1px 0
-    rgba(255, 255, 255, 0.040),
-
+      rgba(255, 255, 255, 0.040),
     inset 0 -1px 0
-    rgba(255, 255, 255, 0.010) !important;
+      rgba(255, 255, 255, 0.010) !important;
 
-  outline: 0 !important;
-
+  /*
+   * Concept itself may clip its decorative optics.
+   * This does NOT contain the expanded chapters,
+   * because they are sibling sections.
+   */
   overflow: hidden !important;
+
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+
+  contain: none !important;
+
+  content-visibility:
+    visible !important;
 }
 
 
 /* ==========================================================
-   02 / REMOVE DUPLICATE SECTION OPTICS
+   02 / CONCEPT PSEUDO ELEMENTS
+   NO SECOND OPTICAL SURFACE
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-concept::before,
-
 main#home-top.an-home-2026
 > #archenova-concept::after {
   content: none !important;
   display: none !important;
 
   background: none !important;
-
   border: 0 !important;
-
   box-shadow: none !important;
 
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
 }
 
 
 /* ==========================================================
-   03 / INTERNAL SURFACE
-   ----------------------------------------------------------
-   This is layout only.
-   It MUST NOT become a second glass card.
+   03 / CONCEPT INTERNAL SURFACE
+   LAYOUT ONLY
 ========================================================== */
 
 main#home-top.an-home-2026
@@ -64143,12 +64170,11 @@ main#home-top.an-home-2026
   position: relative !important;
   isolation: isolate !important;
 
-  box-sizing: border-box !important;
+  box-sizing:
+    border-box !important;
 
   display: flex !important;
   flex-direction: column !important;
-
-  justify-content: space-between !important;
 
   width: 100% !important;
   max-width: 1800px !important;
@@ -64160,40 +64186,64 @@ main#home-top.an-home-2026
   height: auto !important;
   max-height: none !important;
 
-  margin: 0 auto !important;
+  margin:
+    0 auto !important;
 
   padding:
     clamp(28px, 3.4vw, 58px)
     clamp(26px, 4.2vw, 72px)
     clamp(26px, 3.2vw, 52px) !important;
 
-  overflow: visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 
-  background: transparent !important;
-  background-image: none !important;
+  overflow: hidden !important;
 
-  border: 0 !important;
-  border-radius: 0 !important;
+  background:
+    transparent !important;
 
-  outline: 0 !important;
+  background-image:
+    none !important;
 
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
+  border:
+    0 !important;
 
-  box-shadow: none !important;
+  border-radius:
+    0 !important;
 
-  transform: none !important;
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+
+  box-shadow:
+    none !important;
+
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  perspective:
+    none !important;
+
+  contain:
+    none !important;
 }
 
 
 /* ==========================================================
-   04 / INTERNAL SURFACE PSEUDO GUARANTEE
+   04 / INTERNAL SURFACE PSEUDO
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-concept
 > .an-concept-portal__surface::before,
-
 main#home-top.an-home-2026
 > #archenova-concept
 > .an-concept-portal__surface::after {
@@ -64201,444 +64251,746 @@ main#home-top.an-home-2026
   display: none !important;
 
   background: none !important;
-
   border: 0 !important;
-
   box-shadow: none !important;
 }
 
 
 /* ==========================================================
-   05 / QUIET AMBIENT OPTICS
-   ----------------------------------------------------------
-   Decorative only.
-   No independent glass/card.
+   05 / OPEN / CLOSED
+   NEVER ALTER VISUAL DENSITY
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--open
+> .an-concept-portal__surface,
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--closed
+> .an-concept-portal__surface {
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   06 / AMBIENT OPTICS
+   IDENTICAL IN OPEN / CLOSED
 ========================================================== */
 
 main#home-top.an-home-2026
 #archenova-concept
 .an-concept-portal__ambient,
-
 main#home-top.an-home-2026
 #archenova-concept
-.an-concept-portal__reflection {
-  position: absolute;
-
-  inset: 0;
-
-  z-index: -1;
-
-  pointer-events: none;
-
-  border: 0 !important;
-
-  border-radius: inherit;
-
-  box-shadow: none !important;
+.an-concept-portal__grid,
+main#home-top.an-home-2026
+#archenova-concept
+.an-concept-portal__reflection,
+main#home-top.an-home-2026
+#archenova-concept
+.an-concept-portal__axis {
+  pointer-events:
+    none !important;
 }
 
 
+/* Ambient */
+
 main#home-top.an-home-2026
-#archenova-concept
+> #archenova-concept.an-concept-portal--open
+.an-concept-portal__ambient,
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--closed
 .an-concept-portal__ambient {
-  opacity: 0.58;
-
-  background:
-    radial-gradient(
-      ellipse at 48% 46%,
-      rgba(255, 255, 255, 0.020) 0%,
-      rgba(255, 255, 255, 0.008) 24%,
-      transparent 60%
-    );
+  opacity:
+    0.58 !important;
 }
 
 
+/* Grid */
+
 main#home-top.an-home-2026
-#archenova-concept
+> #archenova-concept.an-concept-portal--open
+.an-concept-portal__grid,
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--closed
+.an-concept-portal__grid {
+  opacity:
+    0.11 !important;
+}
+
+
+/* Reflection */
+
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--open
+.an-concept-portal__reflection,
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--closed
 .an-concept-portal__reflection {
-  opacity: 0.42;
+  opacity:
+    0.42 !important;
+}
 
-  background:
-    linear-gradient(
-      116deg,
-      transparent 0%,
-      transparent 38%,
-      rgba(255, 255, 255, 0.014) 49%,
-      transparent 60%
-    );
+
+/* Axis */
+
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--open
+.an-concept-portal__axis,
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--closed
+.an-concept-portal__axis {
+  opacity:
+    0.18 !important;
 }
 
 
 /* ==========================================================
-   06 / HEADER
+   07 / CONCEPT CONTENT
+   KEEP ABOVE DECORATIVE OPTICS
 ========================================================== */
 
 main#home-top.an-home-2026
 #archenova-concept
-.an-concept-portal__header {
+:is(
+  .an-concept-portal__header,
+  .an-concept-portal__body,
+  .an-concept-portal__architecture,
+  .an-concept-portal__structure,
+  .an-concept-portal__footer
+) {
   position: relative;
 
   z-index: 3;
 
-  display: flex;
-
-  flex: 0 0 auto;
-
-  align-items: center;
-  justify-content: space-between;
-
-  width: 100%;
-
-  gap: 24px;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__eyebrow {
-  color: rgba(255, 255, 255, 0.70);
-
-  font-size: 9px;
-  font-weight: 600;
-  line-height: 1;
-
-  letter-spacing: 0.22em;
-
-  white-space: nowrap;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__count {
-  color: rgba(255, 255, 255, 0.25);
-
-  font-size: 8px;
-  font-weight: 500;
-  line-height: 1;
-
-  letter-spacing: 0.17em;
-
-  white-space: nowrap;
-}
-
-
-/* ==========================================================
-   07 / CENTRAL STATEMENT
-========================================================== */
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__body {
-  position: relative;
-
-  z-index: 2;
-
-  display: flex;
-
-  flex: 1 1 auto;
-
-  align-items: center;
-
-  width: 100%;
-
-  padding:
-    clamp(58px, 9svh, 112px)
-    0
-    clamp(50px, 7svh, 88px);
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__body
-h2 {
-  width: min(100%, 1080px);
-
-  margin: 0;
-
-  color: rgba(255, 255, 255, 0.94);
-
-  font-size:
-    clamp(42px, 5.2vw, 78px);
-
-  font-weight: 300;
-
-  line-height: 1.02;
-
-  letter-spacing: -0.055em;
-
-  text-wrap: balance;
-}
-
-
-/* ==========================================================
-   08 / PURPOSE · HUMAN AGENCY · WORLD
-========================================================== */
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__structure {
-  position: relative;
-
-  z-index: 3;
-
-  display: flex;
-
-  flex: 0 0 auto;
-
-  align-items: center;
-
-  width: 100%;
-
-  margin: 0 0 clamp(28px, 4svh, 46px);
-
-  color: rgba(255, 255, 255, 0.38);
-
-  background: transparent;
-
-  border: 0;
-
-  box-shadow: none;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__structure
-span {
-  flex: 0 0 auto;
-
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 1;
-
-  letter-spacing: 0.17em;
-
-  white-space: nowrap;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__structure
-i {
-  display: block;
-
-  flex: 1 1 70px;
-
-  max-width: 92px;
-
-  height: 1px;
-
-  margin: 0 clamp(14px, 2vw, 28px);
+  opacity: 1 !important;
+  visibility: visible !important;
 
   background:
-    linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.04),
-      rgba(255, 255, 255, 0.18),
-      rgba(255, 255, 255, 0.04)
-    );
+    transparent !important;
 
-  border: 0;
+  border:
+    0 !important;
 
-  font-style: normal;
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
 }
 
 
 /* ==========================================================
-   09 / FOOTER
+   08 / CONTROLS
 ========================================================== */
 
 main#home-top.an-home-2026
 #archenova-concept
-.an-concept-portal__footer {
-  position: relative;
-
-  z-index: 4;
-
-  display: flex;
-
-  flex: 0 0 auto;
-
-  align-items: center;
-  justify-content: space-between;
-
-  width: 100%;
-
-  min-height: 44px;
-
-  gap: 24px;
-}
-
-
-/* ==========================================================
-   10 / EXPLORE + CLOSE
-========================================================== */
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__enter,
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__close {
+:is(
+  .an-concept-portal__enter,
+  .an-concept-portal__close
+) {
   appearance: none;
 
-  display: inline-flex;
+  background:
+    transparent !important;
 
-  align-items: center;
+  background-image:
+    none !important;
 
-  gap: 18px;
+  border:
+    0 !important;
 
-  margin: 0;
+  border-radius:
+    0 !important;
 
-  padding: 10px 0;
+  box-shadow:
+    none !important;
 
-  color: rgba(255, 255, 255, 0.68);
+  -webkit-backdrop-filter:
+    none !important;
 
-  background: transparent !important;
-  background-image: none !important;
-
-  border: 0 !important;
-  border-radius: 0 !important;
-
-  outline: 0;
-
-  box-shadow: none !important;
-
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-
-  font: inherit;
-
-  cursor: pointer;
-
-  transition:
-    color 240ms ease,
-    gap 360ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__enter
-span,
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__close
-span {
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 1;
-
-  letter-spacing: 0.18em;
-
-  white-space: nowrap;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__enter
-svg,
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__close
-svg {
-  display: block;
-
-  flex: 0 0 auto;
-
-  width: 42px;
-  height: 16px;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__enter:hover,
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__close:hover {
-  gap: 26px;
-
-  color: rgba(255, 255, 255, 0.96);
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__enter:focus-visible,
-
-main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__close:focus-visible {
-  outline:
-    1px solid
-    rgba(255, 255, 255, 0.62);
-
-  outline-offset: 5px;
+  backdrop-filter:
+    none !important;
 }
 
 
 /* ==========================================================
-   11 / OPEN STATE
+   09 / PURPOSE
+   SCROLL TERRITORY ONLY
+   ----------------------------------------------------------
+   TSX owns frame START / FIXED / END.
 ========================================================== */
 
 main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__opened {
-  color: rgba(255, 255, 255, 0.28);
+> #archenova-civilization-prelude.an-civilization-purpose {
+  position:
+    relative !important;
 
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 1;
+  display:
+    block !important;
 
-  letter-spacing: 0.17em;
+  width:
+    100% !important;
 
-  white-space: nowrap;
+  /*
+   * 5 chapters
+   */
+  height:
+    500svh !important;
+
+  min-height:
+    500svh !important;
+
+  max-height:
+    none !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  justify-content:
+    initial !important;
+
+  overflow:
+    visible !important;
+
+  overflow-x:
+    visible !important;
+
+  overflow-y:
+    visible !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  perspective:
+    none !important;
+
+  contain:
+    none !important;
+
+  content-visibility:
+    visible !important;
+
+  clip:
+    auto !important;
+
+  clip-path:
+    none !important;
+
+  isolation:
+    auto !important;
 }
 
 
 /* ==========================================================
-   12 / OPEN-STATE MATERIAL CHANGE
+   10 / PURPOSE FRAME
    ----------------------------------------------------------
-   Extremely subtle.
+   DO NOT DEFINE position/top/bottom HERE.
+
+   The TSX inline style owns:
+   start = absolute top
+   fixed = fixed top
+   end   = absolute bottom
 ========================================================== */
 
 main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--open {
-  border-color:
-    rgba(255, 255, 255, 0.080) !important;
+> #archenova-civilization-prelude
+> .an-civilization-purpose__frame {
+  display:
+    flex !important;
+
+  align-items:
+    stretch !important;
+
+  justify-content:
+    center !important;
+
+  width:
+    100% !important;
+
+  height:
+    100svh !important;
+
+  min-height:
+    100svh !important;
+
+  max-height:
+    100svh !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    clamp(12px, 2vw, 24px) !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  pointer-events:
+    auto !important;
+
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  perspective:
+    none !important;
+
+  contain:
+    none !important;
+
+  content-visibility:
+    visible !important;
 }
 
 
 /* ==========================================================
-   13 / CONCEPT END
+   11 / PURPOSE PINNED LAYER
    ----------------------------------------------------------
-   Separate HOME environment.
-   No nested glass card.
+   Only stacking is reinforced.
+   Position remains owned by TSX.
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+> .an-civilization-purpose__frame[data-frame-position="start"] {
+  z-index:
+    40 !important;
+}
+
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+> .an-civilization-purpose__frame[data-frame-position="fixed"] {
+  z-index:
+    40 !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+}
+
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+> .an-civilization-purpose__frame[data-frame-position="end"] {
+  z-index:
+    40 !important;
+}
+
+
+/* ==========================================================
+   12 / PURPOSE GLASS
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+.an-civilization-purpose__glass {
+  position:
+    relative !important;
+
+  z-index:
+    1 !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  content-visibility:
+    visible !important;
+
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  contain:
+    none !important;
+}
+
+
+/* ==========================================================
+   13 / PURPOSE CONTENT
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-civilization-prelude
+:is(
+  .an-civilization-purpose__chapter,
+  .an-civilization-purpose__title,
+  .an-civilization-purpose__body,
+  .an-civilization-purpose__closing,
+  .an-civilization-purpose__position
+) {
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  content-visibility:
+    visible !important;
+}
+
+
+/* ==========================================================
+   14 / IDEAL USER
+   SCROLL TERRITORY ONLY
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-ideal-user.an-ideal-user {
+  position:
+    relative !important;
+
+  display:
+    block !important;
+
+  width:
+    100% !important;
+
+  height:
+    calc(
+      var(--an-ideal-user-count, 1)
+      * 100svh
+    ) !important;
+
+  min-height:
+    calc(
+      var(--an-ideal-user-count, 1)
+      * 100svh
+    ) !important;
+
+  max-height:
+    none !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  justify-content:
+    initial !important;
+
+  overflow:
+    visible !important;
+
+  overflow-x:
+    visible !important;
+
+  overflow-y:
+    visible !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  box-shadow:
+    none !important;
+
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  perspective:
+    none !important;
+
+  contain:
+    none !important;
+
+  content-visibility:
+    visible !important;
+
+  clip:
+    auto !important;
+
+  clip-path:
+    none !important;
+
+  isolation:
+    auto !important;
+}
+
+
+/* ==========================================================
+   15 / IDEAL USER FRAME
+   TSX OWNS START / FIXED / END
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-ideal-user
+> .an-ideal-user__frame {
+  display:
+    flex !important;
+
+  align-items:
+    stretch !important;
+
+  justify-content:
+    center !important;
+
+  width:
+    100% !important;
+
+  height:
+    100svh !important;
+
+  min-height:
+    100svh !important;
+
+  max-height:
+    100svh !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    clamp(12px, 2vw, 24px) !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  pointer-events:
+    auto !important;
+
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  perspective:
+    none !important;
+
+  contain:
+    none !important;
+
+  content-visibility:
+    visible !important;
+}
+
+
+/* ==========================================================
+   16 / IDEAL USER PINNED LAYER
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-ideal-user
+> .an-ideal-user__frame[data-frame-position="start"] {
+  z-index:
+    40 !important;
+}
+
+main#home-top.an-home-2026
+> #archenova-ideal-user
+> .an-ideal-user__frame[data-frame-position="fixed"] {
+  z-index:
+    40 !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+}
+
+main#home-top.an-home-2026
+> #archenova-ideal-user
+> .an-ideal-user__frame[data-frame-position="end"] {
+  z-index:
+    40 !important;
+}
+
+
+/* ==========================================================
+   17 / IDEAL USER GLASS
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-ideal-user
+.an-ideal-user__glass {
+  position:
+    relative !important;
+
+  z-index:
+    1 !important;
+
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  content-visibility:
+    visible !important;
+
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  contain:
+    none !important;
+}
+
+
+/* ==========================================================
+   18 / IDEAL USER CONTENT
+========================================================== */
+
+main#home-top.an-home-2026
+> #archenova-ideal-user
+:is(
+  .an-ideal-user__chapter,
+  .an-ideal-user__title,
+  .an-ideal-user__body,
+  .an-ideal-user__closing,
+  .an-ideal-user__position
+) {
+  opacity:
+    1 !important;
+
+  visibility:
+    visible !important;
+
+  content-visibility:
+    visible !important;
+}
+
+
+/* ==========================================================
+   19 / CRITICAL FIXED-POSITION PATH
+   ----------------------------------------------------------
+   These are siblings of Concept, not descendants.
+
+   Never create a containing block on either long-scroll
+   environment.
+========================================================== */
+
+main#home-top.an-home-2026
+> :is(
+  #archenova-civilization-prelude,
+  #archenova-ideal-user
+) {
+  transform:
+    none !important;
+
+  filter:
+    none !important;
+
+  perspective:
+    none !important;
+
+  contain:
+    none !important;
+
+  will-change:
+    auto !important;
+
+  content-visibility:
+    visible !important;
+}
+
+
+/* ==========================================================
+   20 / CONCEPT END
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-concept-end {
-  position: relative !important;
+  position:
+    relative !important;
 
-  isolation: isolate !important;
+  isolation:
+    isolate !important;
 
-  display: flex !important;
+  display:
+    flex !important;
 
-  align-items: center !important;
-  justify-content: center !important;
+  align-items:
+    center !important;
 
-  min-height: 100svh !important;
+  justify-content:
+    center !important;
 
-  color: rgba(255, 255, 255, 0.94);
+  width:
+    100% !important;
+
+  min-height:
+    100svh !important;
+
+  color:
+    rgba(255, 255, 255, 0.94);
 
   background:
     radial-gradient(
@@ -64657,7 +65009,8 @@ main#home-top.an-home-2026
     1px solid
     rgba(255, 255, 255, 0.055) !important;
 
-  border-radius: 30px !important;
+  border-radius:
+    30px !important;
 
   -webkit-backdrop-filter:
     blur(20px)
@@ -64669,306 +65022,100 @@ main#home-top.an-home-2026
 
   box-shadow:
     inset 0 1px 0
-    rgba(255, 255, 255, 0.032) !important;
+      rgba(255, 255, 255, 0.032) !important;
 
-  overflow: hidden !important;
+  overflow:
+    hidden !important;
 }
 
 
 main#home-top.an-home-2026
 > #archenova-concept-end::before,
-
 main#home-top.an-home-2026
 > #archenova-concept-end::after {
-  content: none !important;
-  display: none !important;
+  content:
+    none !important;
+
+  display:
+    none !important;
 }
 
 
 /* ==========================================================
-   14 / CONCEPT END CONTENT
+   21 / CONCEPT END CONTENT
 ========================================================== */
 
 main#home-top.an-home-2026
 #archenova-concept-end
 .an-concept-portal__closing-surface {
-  position: relative;
+  position:
+    relative;
 
-  box-sizing: border-box;
+  box-sizing:
+    border-box;
 
-  display: flex;
+  display:
+    flex;
 
-  flex-direction: column;
+  flex-direction:
+    column;
 
-  align-items: center;
-  justify-content: center;
+  align-items:
+    center;
 
-  width: min(100%, 1100px);
+  justify-content:
+    center;
+
+  width:
+    min(100%, 1100px);
 
   min-height:
     min(620px, 72svh);
 
-  margin: 0 auto;
+  margin:
+    0 auto;
 
   padding:
     clamp(44px, 7vw, 96px)
     clamp(24px, 5vw, 70px);
 
-  text-align: center;
+  text-align:
+    center;
 
-  background: transparent !important;
+  background:
+    transparent !important;
 
-  border: 0 !important;
-  border-radius: 0 !important;
+  border:
+    0 !important;
 
-  box-shadow: none !important;
+  border-radius:
+    0 !important;
 
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-}
+  box-shadow:
+    none !important;
 
+  -webkit-backdrop-filter:
+    none !important;
 
-main#home-top.an-home-2026
-#archenova-concept-end
-.an-concept-portal__closing-eyebrow {
-  margin-bottom:
-    clamp(30px, 5svh, 48px);
-
-  color: rgba(255, 255, 255, 0.28);
-
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 1;
-
-  letter-spacing: 0.20em;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept-end
-.an-concept-portal__closing-surface
-p {
-  margin: 0;
-
-  color: rgba(255, 255, 255, 0.80);
-
-  font-size:
-    clamp(28px, 3.6vw, 52px);
-
-  font-weight: 300;
-
-  line-height: 1.28;
-
-  letter-spacing: -0.045em;
+  backdrop-filter:
+    none !important;
 }
 
 
 /* ==========================================================
-   15 / RETURN CONTROL
+   22 / MOBILE
 ========================================================== */
 
-main#home-top.an-home-2026
-#archenova-concept-end
-.an-concept-portal__return {
-  appearance: none;
-
-  display: inline-flex;
-
-  align-items: center;
-
-  gap: 16px;
-
-  margin-top:
-    clamp(44px, 7svh, 78px);
-
-  padding: 10px 0;
-
-  color: rgba(255, 255, 255, 0.44);
-
-  background: transparent;
-
-  border: 0;
-
-  border-radius: 0;
-
-  font: inherit;
-
-  cursor: pointer;
-
-  transition:
-    color 240ms ease,
-    gap 320ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept-end
-.an-concept-portal__return
-svg {
-  display: block;
-
-  width: 38px;
-  height: 16px;
-
-  transform: rotate(180deg);
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept-end
-.an-concept-portal__return
-span {
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 1;
-
-  letter-spacing: 0.17em;
-
-  white-space: nowrap;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept-end
-.an-concept-portal__return:hover {
-  gap: 24px;
-
-  color: rgba(255, 255, 255, 0.90);
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept-end
-.an-concept-portal__return:focus-visible {
-  outline:
-    1px solid
-    rgba(255, 255, 255, 0.62);
-
-  outline-offset: 5px;
-}
-
-
-/* ==========================================================
-   16 / EXPANDED CONCEPT SECTIONS
-   ----------------------------------------------------------
-   IMPORTANT:
-
-   ArcheNovaConceptPortal now returns a Fragment.
-
-   Therefore:
-   #archenova-civilization-prelude
-   #archenova-ideal-user
-   #archenova-world
-
-   are direct children of main#home-top.
-
-   Do NOT recreate:
-   .an-concept-portal__content
-
-   Do NOT override their canonical START / FIXED / END logic
-   here.
-
-   Only guarantee that no Concept-level containing block
-   interferes with them.
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude,
-
-main#home-top.an-home-2026
-> #archenova-ideal-user,
-
-main#home-top.an-home-2026
-> #archenova-world {
-  min-width: 0 !important;
-
-  transform: none !important;
-
-  filter: none !important;
-
-  perspective: none !important;
-
-  contain: none !important;
-
-  content-visibility: visible !important;
-
-  will-change: auto !important;
-}
-
-
-/* ==========================================================
-   17 / WORLD GALLERY
-   ----------------------------------------------------------
-   World remains normal editorial content.
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery {
-  position: relative !important;
-
-  height: auto !important;
-  max-height: none !important;
-
-  overflow: visible !important;
-
-  transform: none !important;
-
-  contain: none !important;
-
-  content-visibility: visible !important;
-}
-
-
-/* ==========================================================
-   18 / TABLET
-========================================================== */
-
-@media
-  (min-width: 701px)
-  and (max-width: 1100px) {
+@media (max-width: 768px) {
 
   main#home-top.an-home-2026
-  > #archenova-concept
-  > .an-concept-portal__surface {
-    min-height:
-      min(650px, 74svh) !important;
-
-    padding:
-      30px
-      clamp(28px, 4vw, 48px)
-      28px !important;
-  }
-
-
+  > #archenova-concept.an-concept-portal,
   main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__body {
-    padding:
-      clamp(52px, 8svh, 88px)
-      0
-      clamp(44px, 6svh, 68px);
-  }
-
-
+  > #archenova-concept.an-concept-portal--closed,
   main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__body
-  h2 {
-    font-size:
-      clamp(42px, 6vw, 64px);
-  }
-}
-
-
-/* ==========================================================
-   19 / MOBILE
-========================================================== */
-
-@media (max-width: 700px) {
-
-  main#home-top.an-home-2026
-  > #archenova-concept {
-    border-radius: 26px !important;
+  > #archenova-concept.an-concept-portal--open {
+    border-radius:
+      26px !important;
 
     background:
       radial-gradient(
@@ -64998,10 +65145,9 @@ main#home-top.an-home-2026
 
     box-shadow:
       inset 0 1px 0
-      rgba(255, 255, 255, 0.035),
-
+        rgba(255, 255, 255, 0.035),
       inset 0 -1px 0
-      rgba(255, 255, 255, 0.008) !important;
+        rgba(255, 255, 255, 0.008) !important;
   }
 
 
@@ -65019,562 +65165,23 @@ main#home-top.an-home-2026
 
 
   main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__eyebrow {
-    font-size: 8px;
-
-    letter-spacing: 0.19em;
-  }
-
+  > #archenova-civilization-prelude
+  > .an-civilization-purpose__frame,
 
   main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__count {
-    font-size: 7px;
+  > #archenova-ideal-user
+  > .an-ideal-user__frame {
+    width:
+      100% !important;
 
-    letter-spacing: 0.14em;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__body {
-    padding:
-      48px
-      0
-      42px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__body
-  h2 {
-    width: 100%;
-
-    font-size:
-      clamp(36px, 10.4vw, 54px);
-
-    line-height: 1.035;
-
-    letter-spacing: -0.052em;
-
-    text-wrap: initial;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__structure {
-    margin-bottom: 28px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__structure
-  span {
-    font-size: 7px;
-
-    letter-spacing: 0.13em;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__structure
-  i {
-    min-width: 12px;
-
-    margin:
-      0
-      clamp(8px, 2.6vw, 14px);
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__footer {
-    min-height: 40px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__enter,
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__close {
-    gap: 14px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__enter
-  svg,
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__close
-  svg {
-    width: 34px;
-  }
-
-
-  main#home-top.an-home-2026
-  > #archenova-concept-end {
-    border-radius: 26px !important;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept-end
-  .an-concept-portal__closing-surface {
-    width: 100%;
+    height:
+      100svh !important;
 
     min-height:
-      min(580px, 68svh);
+      100svh !important;
 
-    padding:
-      42px
-      20px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept-end
-  .an-concept-portal__closing-surface
-  p {
-    font-size:
-      clamp(27px, 8vw, 42px);
-  }
-}
-
-
-/* ==========================================================
-   20 / SMALL MOBILE
-========================================================== */
-
-@media (max-width: 430px) {
-
-  main#home-top.an-home-2026
-  > #archenova-concept {
-    border-radius: 22px !important;
-  }
-
-
-  main#home-top.an-home-2026
-  > #archenova-concept
-  > .an-concept-portal__surface {
-    min-height:
-      min(580px, 70svh) !important;
-
-    padding:
-      22px
-      15px
-      19px !important;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__body {
-    padding:
-      42px
-      0
-      36px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__body
-  h2 {
-    font-size:
-      clamp(33px, 10.3vw, 44px);
-
-    line-height: 1.04;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__structure {
-    margin-bottom: 23px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__structure
-  span {
-    font-size: 6.5px;
-
-    letter-spacing: 0.105em;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__structure
-  i {
-    margin:
-      0
-      7px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__opened {
-    font-size: 7px;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__close
-  span {
-    display: none;
-  }
-
-
-  main#home-top.an-home-2026
-  > #archenova-concept-end {
-    border-radius: 22px !important;
-  }
-
-
-  main#home-top.an-home-2026
-  #archenova-concept-end
-  .an-concept-portal__closing-surface {
-    padding:
-      36px
-      16px;
-  }
-}
-
-
-/* ==========================================================
-   21 / REDUCED MOTION
-========================================================== */
-
-@media (prefers-reduced-motion: reduce) {
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__enter,
-
-  main#home-top.an-home-2026
-  #archenova-concept
-  .an-concept-portal__close,
-
-  main#home-top.an-home-2026
-  #archenova-concept-end
-  .an-concept-portal__return {
-    transition: none !important;
-    animation: none !important;
-  }
-}
-
-
-/* ==========================================================
-   22 / FINAL SINGLE-GLASS GUARANTEE
-========================================================== */
-
-main#home-top.an-home-2026
-#archenova-concept
-:is(
-  .an-concept-portal__surface,
-  .an-concept-portal__header,
-  .an-concept-portal__body,
-  .an-concept-portal__structure,
-  .an-concept-portal__footer
-) {
-  box-shadow: none !important;
-}
-
-
-main#home-top.an-home-2026
-#archenova-concept
-:is(
-  .an-concept-portal__header,
-  .an-concept-portal__body,
-  .an-concept-portal__structure,
-  .an-concept-portal__footer
-) {
-  background: transparent !important;
-
-  border: 0 !important;
-
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-}
-
-
-
-
-
-/* ==========================================================
-   ARCHENOVA CONCEPT
-   SCROLL CHAPTER GEOMETRY — FINAL GUARANTEE
-
-   Purpose / Ideal User use a long scroll section while
-   their visual frame moves through:
-
-   START
-   → FIXED
-   → END
-
-   Keep this block at the END of globals.css.
-========================================================== */
-
-
-/* ==========================================================
-   01 / PURPOSE
-   5 chapters = 500svh
-========================================================== */
-
-main.an-home-2026
-#archenova-civilization-prelude.an-civilization-purpose {
-  position: relative !important;
-
-  display: block !important;
-
-  width: 100% !important;
-
-  height: 500svh !important;
-  min-height: 500svh !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  overflow: visible !important;
-
-  background: transparent !important;
-}
-
-
-/* ==========================================================
-   02 / PURPOSE FRAME
-========================================================== */
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame {
-  display: flex !important;
-
-  align-items: stretch !important;
-  justify-content: center !important;
-
-  width: 100% !important;
-
-  height: 100svh !important;
-  min-height: 100svh !important;
-  max-height: 100svh !important;
-
-  margin: 0 !important;
-
-  padding:
-    clamp(12px, 2vw, 24px)
-    !important;
-}
-
-
-/* START */
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--start {
-  position: absolute !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-
-/* FIXED */
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--fixed {
-  position: fixed !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-
-/* END */
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-
-/* ==========================================================
-   03 / IDEAL USER / PRELUDE
-   Dynamic number of chapters
-========================================================== */
-
-main.an-home-2026
-#archenova-ideal-user.an-ideal-user {
-  position: relative !important;
-
-  display: block !important;
-
-  width: 100% !important;
-
-  height:
-    calc(
-      var(--an-ideal-user-count, 1)
-      * 100svh
-    )
-    !important;
-
-  min-height:
-    calc(
-      var(--an-ideal-user-count, 1)
-      * 100svh
-    )
-    !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  overflow: visible !important;
-
-  background: transparent !important;
-}
-
-
-/* ==========================================================
-   04 / IDEAL USER FRAME
-========================================================== */
-
-main.an-home-2026
-#archenova-ideal-user
-.an-ideal-user__frame {
-  display: flex !important;
-
-  align-items: stretch !important;
-  justify-content: center !important;
-
-  width: 100% !important;
-
-  height: 100svh !important;
-  min-height: 100svh !important;
-  max-height: 100svh !important;
-
-  margin: 0 !important;
-
-  padding:
-    clamp(12px, 2vw, 24px)
-    !important;
-}
-
-
-/* START */
-
-main.an-home-2026
-#archenova-ideal-user
-.an-ideal-user__frame--start {
-  position: absolute !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-
-/* FIXED */
-
-main.an-home-2026
-#archenova-ideal-user
-.an-ideal-user__frame--fixed {
-  position: fixed !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-
-/* END */
-
-main.an-home-2026
-#archenova-ideal-user
-.an-ideal-user__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-
-/* ==========================================================
-   05 / PREVENT HOME GENERIC SECTION GEOMETRY
-   FROM TURNING THESE INTO NORMAL LONG CONTENT BLOCKS
-========================================================== */
-
-main.an-home-2026
-> #archenova-civilization-prelude[data-home-section],
-
-main.an-home-2026
-> #archenova-ideal-user[data-home-section] {
-  justify-content: initial !important;
-
-  overflow: visible !important;
-}
-
-
-/* ==========================================================
-   06 / MOBILE
-========================================================== */
-
-@media (max-width: 768px) {
-
-  main.an-home-2026
-  #archenova-civilization-prelude
-  .an-civilization-purpose__frame,
-
-  main.an-home-2026
-  #archenova-ideal-user
-  .an-ideal-user__frame {
-    width: 100% !important;
-
-    height: 100svh !important;
-    min-height: 100svh !important;
-    max-height: 100svh !important;
+    max-height:
+      100svh !important;
 
     padding:
       max(
@@ -65592,568 +65199,121 @@ main.an-home-2026
       max(
         8px,
         env(safe-area-inset-left)
-      )
-      !important;
-  }
-
-}
-
-
-/* ==========================================================
-   07 / CRITICAL
-   Do not create containing blocks around FIXED frames.
-
-   These sections and their immediate frame path must not
-   receive transform/filter/perspective/contain.
-========================================================== */
-
-main.an-home-2026
-#archenova-civilization-prelude,
-
-main.an-home-2026
-#archenova-ideal-user {
-  transform: none !important;
-
-  filter: none !important;
-
-  perspective: none !important;
-
-  contain: none !important;
-}
-
-
-
-
-
-
-
-/* ==========================================================
-   ARCHENOVA CONCEPT
-   FINAL OPEN-STATE + PINNED-CHAPTER STABILITY FIX
-   ----------------------------------------------------------
-   Fix only:
-
-   1. EXPLORE CONCEPT must not change Concept glass density.
-   2. Purpose / Ideal User pinned frames must remain visible.
-   3. World Gallery remains untouched.
-========================================================== */
-
-
-/* ==========================================================
-   01 / CONCEPT
-   OPEN / CLOSED MUST USE EXACTLY THE SAME MATERIAL
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal,
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--closed,
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--open {
-  opacity: 1 !important;
-
-  visibility: visible !important;
-
-  background:
-    radial-gradient(
-      circle at 50% 0%,
-      rgba(255, 255, 255, 0.025) 0%,
-      rgba(255, 255, 255, 0.008) 24%,
-      transparent 52%
-    ),
-    linear-gradient(
-      145deg,
-      rgba(15, 16, 18, 0.20) 0%,
-      rgba(7, 8, 10, 0.24) 48%,
-      rgba(0, 0, 0, 0.30) 100%
-    )
-    !important;
-
-  border:
-    1px solid
-    rgba(255, 255, 255, 0.065)
-    !important;
-
-  box-shadow:
-    inset 0 1px 0
-    rgba(255, 255, 255, 0.040),
-
-    inset 0 -1px 0
-    rgba(255, 255, 255, 0.010)
-    !important;
-
-  -webkit-backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
-
-  backdrop-filter:
-    blur(22px)
-    saturate(106%)
-    !important;
-}
-
-
-/* ==========================================================
-   02 / OPENING CONCEPT MUST NOT MODIFY INNER OPACITY
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--open
-.an-concept-portal__surface,
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--closed
-.an-concept-portal__surface {
-  opacity: 1 !important;
-
-  background: transparent !important;
-
-  border: 0 !important;
-
-  box-shadow: none !important;
-
-  -webkit-backdrop-filter: none !important;
-
-  backdrop-filter: none !important;
-}
-
-
-/* ==========================================================
-   03 / DO NOT CHANGE AMBIENT DENSITY WHEN OPEN
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--open
-.an-concept-portal__ambient,
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--closed
-.an-concept-portal__ambient {
-  opacity: 0.72 !important;
-}
-
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--open
-.an-concept-portal__grid,
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--closed
-.an-concept-portal__grid {
-  opacity: 0.075 !important;
-}
-
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--open
-.an-concept-portal__reflection,
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--closed
-.an-concept-portal__reflection {
-  opacity: 0.42 !important;
-}
-
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--open
-.an-concept-portal__axis,
-
-main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--closed
-.an-concept-portal__axis {
-  opacity: 0.12 !important;
-}
-
-
-/* ==========================================================
-   04 / PURPOSE
-   KEEP THE LONG SCROLL SECTION IN NORMAL DOCUMENT FLOW
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude.an-civilization-purpose {
-  position: relative !important;
-
-  display: block !important;
-
-  width: 100% !important;
-
-  height: 500svh !important;
-  min-height: 500svh !important;
-  max-height: none !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  overflow: visible !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  transform: none !important;
-
-  filter: none !important;
-
-  perspective: none !important;
-
-  contain: none !important;
-
-  content-visibility: visible !important;
-
-  isolation: auto !important;
-}
-
-
-/* ==========================================================
-   05 / PURPOSE FRAME
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-.an-civilization-purpose__frame {
-  display: flex !important;
-
-  width: 100% !important;
-
-  height: 100svh !important;
-  min-height: 100svh !important;
-  max-height: 100svh !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  pointer-events: auto !important;
-}
-
-
-/* PURPOSE / START */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-.an-civilization-purpose__frame--start {
-  position: absolute !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 40 !important;
-}
-
-
-/* PURPOSE / FIXED */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-.an-civilization-purpose__frame--fixed {
-  position: fixed !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  width: 100% !important;
-
-  height: 100svh !important;
-
-  z-index: 40 !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  transform: none !important;
-
-  filter: none !important;
-
-  perspective: none !important;
-}
-
-
-/* PURPOSE / END */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-.an-civilization-purpose__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-
-  z-index: 40 !important;
-}
-
-
-/* ==========================================================
-   06 / PURPOSE GLASS
-   NEVER DISAPPEAR WHILE FRAME IS PINNED
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-.an-civilization-purpose__glass {
-  opacity: 1 !important;
-
-  visibility: visible !important;
-
-  content-visibility: visible !important;
-}
-
-
-/* ==========================================================
-   07 / IDEAL USER / PRELUDE
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-ideal-user.an-ideal-user {
-  position: relative !important;
-
-  display: block !important;
-
-  width: 100% !important;
-
-  height:
-    calc(
-      var(--an-ideal-user-count, 1)
-      * 100svh
-    )
-    !important;
-
-  min-height:
-    calc(
-      var(--an-ideal-user-count, 1)
-      * 100svh
-    )
-    !important;
-
-  max-height: none !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  overflow: visible !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  transform: none !important;
-
-  filter: none !important;
-
-  perspective: none !important;
-
-  contain: none !important;
-
-  content-visibility: visible !important;
-
-  isolation: auto !important;
-}
-
-
-/* ==========================================================
-   08 / IDEAL USER FRAME
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-.an-ideal-user__frame {
-  display: flex !important;
-
-  width: 100% !important;
-
-  height: 100svh !important;
-  min-height: 100svh !important;
-  max-height: 100svh !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  pointer-events: auto !important;
-}
-
-
-/* IDEAL USER / START */
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-.an-ideal-user__frame--start {
-  position: absolute !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 40 !important;
-}
-
-
-/* IDEAL USER / FIXED */
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-.an-ideal-user__frame--fixed {
-  position: fixed !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  width: 100% !important;
-
-  height: 100svh !important;
-
-  z-index: 40 !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-
-  transform: none !important;
-
-  filter: none !important;
-
-  perspective: none !important;
-}
-
-
-/* IDEAL USER / END */
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-.an-ideal-user__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-
-  z-index: 40 !important;
-}
-
-
-/* ==========================================================
-   09 / IDEAL USER GLASS
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-.an-ideal-user__glass {
-  opacity: 1 !important;
-
-  visibility: visible !important;
-
-  content-visibility: visible !important;
-}
-
-
-/* ==========================================================
-   10 / DO NOT LET GENERIC HOME RULES CLIP PINNED JOURNEYS
-========================================================== */
-
-main#home-top.an-home-2026
-> :is(
-  #archenova-civilization-prelude,
-  #archenova-ideal-user
-) {
-  overflow: visible !important;
-
-  overflow-x: visible !important;
-  overflow-y: visible !important;
-
-  clip: auto !important;
-
-  clip-path: none !important;
-}
-
-
-/* ==========================================================
-   11 / MOBILE
-========================================================== */
-
-@media (max-width: 768px) {
-
-  main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal,
-  main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal--open,
-  main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal--closed {
-    background:
-      radial-gradient(
-        circle at 50% 0%,
-        rgba(255, 255, 255, 0.020) 0%,
-        rgba(255, 255, 255, 0.006) 24%,
-        transparent 50%
-      ),
-      linear-gradient(
-        145deg,
-        rgba(13, 14, 16, 0.16) 0%,
-        rgba(6, 7, 9, 0.20) 50%,
-        rgba(0, 0, 0, 0.26) 100%
-      )
-      !important;
-
-    border:
-      1px solid
-      rgba(255, 255, 255, 0.060)
-      !important;
-
-    -webkit-backdrop-filter:
-      blur(18px)
-      saturate(104%)
-      !important;
-
-    backdrop-filter:
-      blur(18px)
-      saturate(104%)
-      !important;
+      ) !important;
   }
 
 
   main#home-top.an-home-2026
-  > #archenova-civilization-prelude
-  .an-civilization-purpose__frame,
-
-  main#home-top.an-home-2026
-  > #archenova-ideal-user
-  .an-ideal-user__frame {
-    height: 100svh !important;
-    min-height: 100svh !important;
-    max-height: 100svh !important;
+  > #archenova-concept-end {
+    border-radius:
+      26px !important;
   }
 
+
+  main#home-top.an-home-2026
+  #archenova-concept-end
+  .an-concept-portal__closing-surface {
+    width:
+      100%;
+
+    min-height:
+      min(580px, 68svh);
+
+    padding:
+      42px
+      20px;
+  }
 }
 
 
 /* ==========================================================
-   12 / FINAL FIXED-LAYER GUARANTEE
+   23 / SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+
+  main#home-top.an-home-2026
+  > #archenova-concept {
+    border-radius:
+      22px !important;
+  }
+
+
+  main#home-top.an-home-2026
+  > #archenova-concept
+  > .an-concept-portal__surface {
+    min-height:
+      min(580px, 70svh) !important;
+
+    padding:
+      22px
+      15px
+      19px !important;
+  }
+
+
+  main#home-top.an-home-2026
+  > #archenova-concept-end {
+    border-radius:
+      22px !important;
+  }
+}
+
+
+/* ==========================================================
+   24 / REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  main#home-top.an-home-2026
+  #archenova-concept
+  :is(
+    .an-concept-portal__enter,
+    .an-concept-portal__close
+  ),
+
+  main#home-top.an-home-2026
+  #archenova-concept-end
+  .an-concept-portal__return {
+    animation:
+      none !important;
+
+    transition:
+      none !important;
+  }
+}
+
+
+/* ==========================================================
+   25 / FINAL PINNED-LAYER GUARANTEE
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-civilization-prelude
-.an-civilization-purpose__frame--fixed,
+> .an-civilization-purpose__frame[data-frame-position="fixed"],
 
 main#home-top.an-home-2026
 > #archenova-ideal-user
-.an-ideal-user__frame--fixed {
-  display: flex !important;
+> .an-ideal-user__frame[data-frame-position="fixed"] {
+  display:
+    flex !important;
 
-  opacity: 1 !important;
+  opacity:
+    1 !important;
 
-  visibility: visible !important;
+  visibility:
+    visible !important;
 
-  content-visibility: visible !important;
+  content-visibility:
+    visible !important;
 
-  pointer-events: auto !important;
+  pointer-events:
+    auto !important;
+
+  z-index:
+    40 !important;
 }
-
 
 
 
