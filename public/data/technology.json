@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-09-26T07:13:17.141Z",
+  "updated": "2026-09-26T10:38:46.438Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "The Takeaway: UN General Assembly debate Day 4",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168454",
+      "summary": "From the Caribbean to the Pacific, leaders from small island States demanded climate justice, ocean protection and greater solidarity at the UN General Assembly on Friday. They warned that rising seas are already redrawi…",
+      "ts": 1790424000000,
+      "publishedAt": "2026-09-26T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
+      "summary": "APOD Science APOD APOD: 2026 September 26 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1790395500000,
+      "publishedAt": "2026-09-26T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
@@ -792,24 +810,6 @@
       "summary": "The NSSC provides travel reimbursement services for all authorized Agency travel including: domestic, foreign, local, ETDY, and Change of Station (COS). References Federal Travel Regulations (FTR) Traveler Extended TDY a…",
       "ts": 1790273174000,
       "publishedAt": "2026-09-24T18:06:14.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Unveils Winning Designs for Mars Space Food Systems Challenge ",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-unveils-winning-designs-for-mars-space-food-systems-challenge/",
-      "summary": "NASA announced the winners of the Deep Space Food Challenge: Mars to Table Thursday, with the top $300,000 prize being awarded to Chinyere Ukeje of Philadelphia, Pa. for the Adaptive Nourishment Infrastructure (ANI) food…",
-      "ts": 1790272905000,
-      "publishedAt": "2026-09-24T18:01:45.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Machines for Mars Make Beer Bubbly ",
-      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/",
-      "summary": "Carbon-capture technology repurposed for breweries spreads and finds new applications",
-      "ts": 1790268061000,
-      "publishedAt": "2026-09-24T16:41:01.000Z",
       "categoryId": "space"
     }
   ],

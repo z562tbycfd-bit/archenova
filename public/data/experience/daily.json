@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-09-22T06:11:10.483Z",
+  "generatedAt": "2026-09-26T10:28:00.048Z",
   "current": {
-    "date": "2026-09-22",
-    "id": "design-of-a-lamb-shift-polarimeter-for-3-he-ions-and-atoms",
+    "date": "2026-09-26",
+    "id": "apod-2026-september-26-mirrored-meteor-and-milky-way",
     "experienceVersion": "4D-1",
-    "title": "Design of a Lamb-Shift Polarimeter for $^3$He Ions and Atoms",
-    "experienceTitle": "Design of a Lamb-Shift Polarimeter for $^3$He Ions and Atoms",
+    "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
+    "experienceTitle": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
     "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
     "source": {
-      "title": "Design of a Lamb-Shift Polarimeter for $^3$He Ions and Atoms",
-      "organization": "arXiv Physics",
-      "url": "https://arxiv.org/abs/2609.22186",
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "updatedAt": "2026-09-22T06:11:10.467Z"
+      "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
+      "organization": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
+      "publishedAt": "2026-09-26T04:05:00.000Z",
+      "updatedAt": "2026-09-26T10:28:00.035Z"
     },
     "classification": {
-      "category": "SCIENCE",
+      "category": "ENGINEERING",
       "signalCategory": "Reality Discovery",
-      "currentStage": "Applied Research",
+      "currentStage": "Scientific Discovery",
       "expectedHorizon": "10–30 Years"
     },
     "reality": {
-      "statement": "arXiv:2609.22186v1 Announce Type: new Abstract: In high energy physics experiments $^3$He$^{2+}$ nucleons are suitable to test the internal structure of neutrons, which makes them the perfect substitute. Moreover, it is …"
+      "statement": "APOD Science APOD APOD: 2026 September 26 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…"
     },
     "theory": {
       "statement": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
       "mechanism": [
         "Reality Discovery",
-        "Energy Systems",
+        "General",
         "observation",
         "understanding",
         "memory"
@@ -74,12 +74,12 @@
       "statement": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
     },
     "evidence": {
-      "statement": "arXiv:2609.22186v1 Announce Type: new Abstract: In high energy physics experiments $^3$He$^{2+}$ nucleons are suitable to test the internal structure of neutrons, which makes them the perfect substitute. Moreover, it is …",
+      "statement": "APOD Science APOD APOD: 2026 September 26 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
       "strength": "Strong",
-      "confidence": 88
+      "confidence": 81
     },
     "falsification": {
-      "statement": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+      "statement": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
       "failureCondition": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
     },
     "engineeringReach": {
@@ -93,18 +93,18 @@
       "speculative": []
     },
     "civilizationMeaning": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+    "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
     "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-09-22.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-09-26.",
     "selection": {
-      "finalScore": 52.9,
+      "finalScore": 51.2,
       "repetitionPenalty": 25,
       "criteria": {
-        "scientificSignificance": 77.5,
-        "empiricalStrength": 89.5,
-        "falsifiability": 79.3,
+        "scientificSignificance": 75,
+        "empiricalStrength": 84,
+        "falsifiability": 77,
         "engineeringReach": 55,
-        "civilizationImpact": 66,
+        "civilizationImpact": 63,
         "explanatoryValue": 80,
         "theoryEvidenceCoupling": 80,
         "fundamentalPrincipleValue": 95,
@@ -113,28 +113,15 @@
       }
     },
     "topicFingerprint": [
-      "science",
+      "engineering",
       "reality discovery",
-      "energy systems",
+      "general",
+      "science",
       "technology",
       "education & knowledge"
     ]
   },
   "history": [
-    {
-      "date": "2026-08-15",
-      "id": "warned-but-not-protected-four-in-ten-adults-in-england-ignore-heat-alerts",
-      "title": "‘Warned but not protected’: Four in ten adults in England ignore heat alerts",
-      "topicFingerprint": [
-        "governance",
-        "adaptive capacity",
-        "health systems",
-        "climate and environment",
-        "science",
-        "technology",
-        "law & governance"
-      ]
-    },
     {
       "date": "2026-08-18",
       "id": "iss-hosts-first-spacewalk-by-a-frenchwoman",
@@ -315,6 +302,18 @@
         "science",
         "technology",
         "law & governance"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "design-of-a-lamb-shift-polarimeter-for-3-he-ions-and-atoms",
+      "title": "Design of a Lamb-Shift Polarimeter for $^3$He Ions and Atoms",
+      "topicFingerprint": [
+        "science",
+        "reality discovery",
+        "energy systems",
+        "technology",
+        "education & knowledge"
       ]
     }
   ]
