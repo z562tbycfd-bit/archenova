@@ -34,7 +34,9 @@ import {
       ↓
    Header
       ↓
-   Heading / Counter
+   Heading
+      ↓
+   Space counter
       ↓
    One unified entrance frame
       ↓
@@ -44,6 +46,8 @@ import {
 
    IMPORTANT
 
+   - Counter placement matches WorkModelsPortal.
+   - Counter left edge matches the entrance-frame left edge.
    - The stage itself is the small entrance frame.
    - There is NO second card inside the stage.
    - The sentence itself is the Link.
@@ -456,10 +460,21 @@ export default function CivilizationSpacePortal() {
         </header>
 
         {/* ==================================================
-            HEADING
+            SPACE COUNTER
+
+            Placement architecture matches WorkModelsPortal.
+
+            Heading
+              ↓
+            Counter
+              ↓
+            Entrance Frame
+
+            Counter and entrance frame share exactly the
+            same 1100px alignment envelope.
         ================================================== */}
 
-        <div className="an-civilization-space-portal__heading">
+        <div className="an-civilization-space-portal__counter-row">
           <span
             className="an-civilization-space-portal__counter"
             aria-live="polite"
@@ -1020,18 +1035,8 @@ export default function CivilizationSpacePortal() {
           position: relative;
           z-index: 4;
 
-          display: flex;
+          display: block;
           flex: 0 0 auto;
-
-          align-items: flex-end;
-          justify-content: space-between;
-
-          gap:
-            clamp(
-              28px,
-              5vw,
-              90px
-            );
 
           margin-top:
             clamp(
@@ -1040,12 +1045,7 @@ export default function CivilizationSpacePortal() {
               48px
             );
 
-          margin-bottom:
-            clamp(
-              20px,
-              3vh,
-              34px
-            );
+          margin-bottom: 0;
         }
 
         .an-civilization-space-portal
@@ -1127,59 +1127,82 @@ export default function CivilizationSpacePortal() {
           line-height: 1.82;
         }
 
+        /* ==================================================
+           06 / SPACE COUNTER
+
+           Same placement contract as WorkModelsPortal:
+
+           Heading
+              ↓
+           Counter
+              ↓
+           Entrance Frame
+
+           Counter and stage use the same:
+             width: min(100%, 1100px)
+             margin-inline: auto
+
+           Therefore their left edges are identical.
+        ================================================== */
+
         .an-civilization-space-portal
-.an-civilization-space-portal__counter {
-  position: absolute;
+        .an-civilization-space-portal__counter-row {
+          position: relative;
+          z-index: 4;
 
-  left:
-    max(
-      0px,
-      calc(
-        (100% - 1100px) / 2
-      )
-    );
+          display: flex;
+          flex: 0 0 auto;
 
-  bottom:
-    calc(
-      -1 *
-      clamp(
-        20px,
-        3vh,
-        34px
-      )
-      - 22px
-    );
+          align-items: flex-end;
+          justify-content: flex-start;
 
-  z-index: 8;
+          width:
+            min(
+              100%,
+              1100px
+            );
 
-  display: block;
+          min-width: 0;
 
-  margin: 0;
-  padding: 0;
+          margin:
+            clamp(
+              16px,
+              2.5svh,
+              28px
+            )
+            auto
+            14px;
 
-  color:
-    rgba(
-      255,
-      255,
-      255,
-      0.52
-    );
+          padding: 0;
+        }
 
-  font-size: 11px;
-  font-weight: 500;
-  line-height: 1;
+        .an-civilization-space-portal
+        .an-civilization-space-portal__counter {
+          flex: 0 0 auto;
 
-  letter-spacing:
-    0.12em;
+          padding-bottom: 4px;
 
-  font-variant-numeric:
-    tabular-nums;
+          color:
+            rgba(
+              255,
+              255,
+              255,
+              0.52
+            );
 
-  pointer-events: none;
-}
+          font-size: 11px;
+          font-weight: 500;
+          line-height: 1;
+
+          letter-spacing:
+            0.12em;
+
+          font-variant-numeric:
+            tabular-nums;
+        }
 
         /* ==================================================
-           06 / UNIFIED ENTRANCE FRAME
+           07 / UNIFIED ENTRANCE FRAME
 
            THIS IS THE ONLY SMALL FRAME.
 
@@ -1315,7 +1338,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           07 / ACTIVE CONTENT
+           08 / ACTIVE CONTENT
 
            No border.
            No background.
@@ -1378,7 +1401,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           08 / SENTENCE = ENTRANCE
+           09 / SENTENCE = ENTRANCE
 
            The text itself is the interactive entrance.
 
@@ -1490,7 +1513,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           09 / NAVIGATION
+           10 / NAVIGATION
 
            EXACT WORKMODELS GEOMETRY
 
@@ -1660,7 +1683,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           10 / TABLET
+           11 / TABLET
         ================================================== */
 
         @media (max-width: 980px) {
@@ -1690,7 +1713,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           11 / MOBILE
+           12 / MOBILE
         ================================================== */
 
         @media (max-width: 768px) {
@@ -1730,7 +1753,7 @@ export default function CivilizationSpacePortal() {
             display: block;
 
             margin-top: 24px;
-            margin-bottom: 16px;
+            margin-bottom: 0;
           }
 
           .an-civilization-space-portal
@@ -1760,13 +1783,21 @@ export default function CivilizationSpacePortal() {
             line-height: 1.62;
           }
 
+          /*
+           * Same mobile counter geometry as WorkModels:
+           * a dedicated row immediately before the stage.
+           */
+          .an-civilization-space-portal
+          .an-civilization-space-portal__counter-row {
+            width: 100%;
+
+            margin-top: 18px;
+            margin-bottom: 12px;
+          }
+
           .an-civilization-space-portal
           .an-civilization-space-portal__counter {
-            display: block;
-
-            margin-top: 15px;
-
-            padding: 0;
+            padding-bottom: 4px;
 
             font-size: 10px;
           }
@@ -1884,7 +1915,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           12 / SMALL MOBILE
+           13 / SMALL MOBILE
 
            Exact WorkModels arrow geometry:
              button width : 44px
@@ -1905,7 +1936,7 @@ export default function CivilizationSpacePortal() {
           .an-civilization-space-portal
           .an-civilization-space-portal__heading {
             margin-top: 21px;
-            margin-bottom: 14px;
+            margin-bottom: 0;
           }
 
           .an-civilization-space-portal
@@ -1928,9 +1959,13 @@ export default function CivilizationSpacePortal() {
           }
 
           .an-civilization-space-portal
-          .an-civilization-space-portal__counter {
-            margin-top: 12px;
+          .an-civilization-space-portal__counter-row {
+            margin-top: 16px;
+            margin-bottom: 10px;
+          }
 
+          .an-civilization-space-portal
+          .an-civilization-space-portal__counter {
             font-size: 9px;
           }
 
@@ -1974,7 +2009,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           13 / SHORT MOBILE
+           14 / SHORT MOBILE
         ================================================== */
 
         @media
@@ -1992,7 +2027,7 @@ export default function CivilizationSpacePortal() {
           .an-civilization-space-portal
           .an-civilization-space-portal__heading {
             margin-top: 16px;
-            margin-bottom: 11px;
+            margin-bottom: 0;
           }
 
           .an-civilization-space-portal
@@ -2010,8 +2045,9 @@ export default function CivilizationSpacePortal() {
           }
 
           .an-civilization-space-portal
-          .an-civilization-space-portal__counter {
-            margin-top: 8px;
+          .an-civilization-space-portal__counter-row {
+            margin-top: 11px;
+            margin-bottom: 8px;
           }
 
           .an-civilization-space-portal
@@ -2051,7 +2087,7 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           14 / REDUCED MOTION
+           15 / REDUCED MOTION
         ================================================== */
 
         @media (
