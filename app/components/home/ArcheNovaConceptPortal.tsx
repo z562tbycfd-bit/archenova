@@ -1187,73 +1187,60 @@ export default function ArcheNovaConceptPortal() {
 
 
         /* ==================================================
-           11 / CLOSING
+   11 / CLOSING
 
-           No inner glass.
-        ================================================== */
+   Geometry follows the Concept Cover.
+   Visible glass ownership remains in globals.css.
+================================================== */
 
-        .an-concept-portal__closing {
-          position: relative;
+.an-concept-portal__closing {
+  position: relative;
 
-          display: flex;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 
-          align-items:
-            center;
+  width: 100%;
+  min-width: 0;
+  min-height: 100svh;
+}
 
-          justify-content:
-            center;
+.an-concept-portal__closing-surface {
+  position: relative;
+  isolation: isolate;
 
-          width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-          min-height:
-            100svh;
-        }
+  width: 100%;
+  max-width: 1800px;
+  min-width: 0;
 
+  height: 100%;
+  min-height: 0;
 
-        .an-concept-portal__closing-surface {
-          display: flex;
+  margin: 0 auto;
 
-          flex-direction:
-            column;
+  padding:
+    clamp(44px, 6vw, 92px)
+    clamp(26px, 7vw, 120px);
 
-          align-items:
-            center;
+  overflow: hidden;
 
-          justify-content:
-            center;
+  border: 0;
+  border-radius: 0;
 
-          width:
-            min(100%, 1080px);
+  background: transparent;
 
-          min-height:
-            min(620px, 74svh);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
 
-          padding:
-            clamp(
-              40px,
-              7vw,
-              90px
-            );
+  box-shadow: none;
 
-          border: 0;
-
-          border-radius: 0;
-
-          background:
-            transparent;
-
-          -webkit-backdrop-filter:
-            none;
-
-          backdrop-filter:
-            none;
-
-          box-shadow:
-            none;
-
-          text-align:
-            center;
-        }
+  text-align: center;
+}
 
 
         .an-concept-portal__closing-eyebrow {
@@ -1508,21 +1495,6 @@ export default function ArcheNovaConceptPortal() {
           }
 
 
-          .an-concept-portal__closing-surface {
-            width:
-              calc(
-                100% - 32px
-              );
-
-            min-height:
-              68svh;
-
-            padding:
-              40px
-              24px;
-          }
-
-
           .an-concept-portal__closing-surface p {
             font-size:
               clamp(
@@ -1590,18 +1562,6 @@ export default function ArcheNovaConceptPortal() {
           #archenova-concept
           .an-concept-portal__close span {
             display: none;
-          }
-
-
-          .an-concept-portal__closing-surface {
-            width:
-              calc(
-                100% - 24px
-              );
-
-            padding:
-              34px
-              18px;
           }
         }
 
