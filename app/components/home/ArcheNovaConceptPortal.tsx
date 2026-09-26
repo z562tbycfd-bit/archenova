@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  Fragment,
   useCallback,
   useState,
 } from "react";
@@ -12,55 +13,65 @@ import ArcheNovaWorldGallery from "./ArcheNovaWorldGallery";
 /* ==========================================================
    ARCHENOVA CONCEPT
 
-   HOME
-   └─ ArcheNova Concept
-      │
-      ├─ Purpose
-      │    └─ ArcheNovaCivilizationPrelude
-      │
-      ├─ Human Agency
-      │    └─ ArcheNovaIdealUserPrelude
-      │
-      └─ World
-           └─ ArcheNovaWorldGallery
-
    CLOSED
-     One quiet HOME entrance.
+   ----------------------------------------------------------
+   One quiet HOME entrance.
 
    OPEN
-     The three existing Concept environments are mounted
-     in their original form.
+   ----------------------------------------------------------
+   Purpose / Human Agency / World are mounted as direct
+   siblings of the Concept entrance.
 
    IMPORTANT
-   - Existing Concept components remain unchanged.
+   ----------------------------------------------------------
+   - Existing Concept environments remain unchanged.
    - Closed content is removed from the DOM.
+   - No wrapper surrounds the expanded environments.
    - No duplicate inner glass card.
-   - The Concept entrance itself is a HOME section.
+   - Purpose / Ideal User keep viewport-based scrolling.
+   - World keeps its original HOME relationship.
 ========================================================== */
 
 export default function ArcheNovaConceptPortal() {
   const [isOpen, setIsOpen] =
     useState(false);
 
-  const openConcept = useCallback(() => {
-    setIsOpen(true);
-  }, []);
+  const openConcept =
+    useCallback(() => {
+      setIsOpen(true);
+    }, []);
 
-  const closeConcept = useCallback(() => {
-    setIsOpen(false);
+  const closeConcept =
+    useCallback(() => {
+      setIsOpen(false);
 
-    window.requestAnimationFrame(() => {
-      document
-        .getElementById("archenova-concept")
-        ?.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          const concept =
+            document.getElementById(
+              "archenova-concept",
+            );
+
+          if (!concept) return;
+
+          const reducedMotion =
+            window.matchMedia(
+              "(prefers-reduced-motion: reduce)",
+            ).matches;
+
+          concept.scrollIntoView({
+            behavior:
+              reducedMotion
+                ? "auto"
+                : "smooth",
+            block: "start",
+          });
         });
-    });
-  }, []);
+      });
+    }, []);
 
   return (
-    <>
+    <Fragment>
       {/* ====================================================
           CONCEPT ENTRANCE
       ==================================================== */}
@@ -206,9 +217,10 @@ export default function ArcheNovaConceptPortal() {
                 className="an-concept-portal__enter"
                 onClick={openConcept}
                 aria-expanded={false}
-                aria-controls="archenova-concept-content"
               >
-                <span>EXPLORE CONCEPT</span>
+                <span>
+                  EXPLORE CONCEPT
+                </span>
 
                 <svg
                   viewBox="0 0 42 16"
@@ -225,7 +237,11 @@ export default function ArcheNovaConceptPortal() {
                 </svg>
               </button>
             ) : (
-              <div className="an-concept-portal__opened">
+              <div
+                className="an-concept-portal__opened"
+                role="status"
+                aria-live="polite"
+              >
                 <span>
                   CONCEPT ENVIRONMENT OPEN
                 </span>
@@ -240,19 +256,18 @@ export default function ArcheNovaConceptPortal() {
       </section>
 
       {/* ====================================================
-          CONCEPT CONTENT
+          EXPANDED CONCEPT
 
-          Deliberately mounted only while open.
+          IMPORTANT:
+          No DOM wrapper is used here.
 
-          The existing three components retain their own
-          section / scroll architecture.
+          When ArcheNovaConceptPortal itself is rendered
+          directly under <main>, these environments also
+          become direct children of <main>.
       ==================================================== */}
 
       {isOpen && (
-        <div
-          id="archenova-concept-content"
-          className="an-concept-portal__content"
-        >
+        <Fragment>
           <ArcheNovaCivilizationPrelude />
 
           <ArcheNovaIdealUserPrelude />
@@ -260,10 +275,11 @@ export default function ArcheNovaConceptPortal() {
           <ArcheNovaWorldGallery />
 
           {/* ================================================
-              END OF CONCEPT / CLOSE
+              END OF CONCEPT
           ================================================ */}
 
           <section
+            id="archenova-concept-end"
             data-home-section
             className={[
               "an-home-2026__section",
@@ -288,6 +304,7 @@ export default function ArcheNovaConceptPortal() {
                 type="button"
                 onClick={closeConcept}
                 className="an-concept-portal__return"
+                aria-label="Close ArcheNova Concept and return to its entrance"
               >
                 <svg
                   viewBox="0 0 42 16"
@@ -303,22 +320,35 @@ export default function ArcheNovaConceptPortal() {
                   />
                 </svg>
 
-                <span>CLOSE CONCEPT</span>
+                <span>
+                  CLOSE CONCEPT
+                </span>
               </button>
             </div>
           </section>
-        </div>
+        </Fragment>
       )}
 
       <style jsx global>{`
+        /* ==================================================
+           ARCHENOVA CONCEPT
+           VISUAL SYSTEM
+
+           IMPORTANT:
+           #archenova-concept is the HOME glass.
+           .an-concept-portal__surface is layout only.
+
+           This preserves the original visual composition
+           without creating a second glass frame.
+        ================================================== */
+
+
         /* ==================================================
            01 / ROOT
         ================================================== */
 
         .an-concept-portal,
-        .an-concept-portal *,
-        .an-concept-portal__content,
-        .an-concept-portal__content * {
+        .an-concept-portal * {
           box-sizing: border-box;
           min-width: 0;
         }
@@ -344,10 +374,24 @@ export default function ArcheNovaConceptPortal() {
             sans-serif;
 
           -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
         }
 
+
         /* ==================================================
-           02 / CONCEPT SURFACE
+           02 / SURFACE
+
+           Layout surface only.
+
+           REMOVED:
+           - border
+           - background
+           - backdrop-filter
+           - box-shadow
+           - border-radius
+
+           Therefore the HOME section remains the single
+           visible glass frame.
         ================================================== */
 
         .an-concept-portal
@@ -359,7 +403,9 @@ export default function ArcheNovaConceptPortal() {
           flex-direction: column;
 
           width: min(100%, 1180px);
-          min-height: min(760px, 82svh);
+
+          min-height:
+            min(760px, 82svh);
 
           padding:
             clamp(30px, 4vw, 58px)
@@ -368,52 +414,17 @@ export default function ArcheNovaConceptPortal() {
 
           overflow: hidden;
 
-          border:
-            1px solid
-            rgba(255, 255, 255, 0.07);
+          border: 0;
+          border-radius: 0;
 
-          border-radius: 30px;
+          background: transparent;
 
-          background:
-            radial-gradient(
-              ellipse at 50% -8%,
-              rgba(255, 255, 255, 0.036),
-              transparent 42%
-            ),
-            radial-gradient(
-              circle at 13% 76%,
-              rgba(255, 255, 255, 0.014),
-              transparent 28%
-            ),
-            linear-gradient(
-              145deg,
-              rgba(15, 16, 18, 0.18),
-              rgba(7, 8, 10, 0.22) 48%,
-              rgba(0, 0, 0, 0.28)
-            );
+          -webkit-backdrop-filter: none;
+          backdrop-filter: none;
 
-          -webkit-backdrop-filter:
-            blur(22px)
-            saturate(106%);
-
-          backdrop-filter:
-            blur(22px)
-            saturate(106%);
-
-          box-shadow:
-            inset 0 1px 0
-            rgba(255, 255, 255, 0.028);
-
-          transition:
-            border-color 600ms ease,
-            background 600ms ease;
+          box-shadow: none;
         }
 
-        .an-concept-portal--open
-        .an-concept-portal__surface {
-          border-color:
-            rgba(255, 255, 255, 0.105);
-        }
 
         /* ==================================================
            03 / AMBIENT
@@ -462,7 +473,8 @@ export default function ArcheNovaConceptPortal() {
               transparent 1px
             );
 
-          background-size: 82px 82px;
+          background-size:
+            82px 82px;
 
           -webkit-mask-image:
             radial-gradient(
@@ -497,6 +509,7 @@ export default function ArcheNovaConceptPortal() {
             );
         }
 
+
         /* ==================================================
            04 / AXIS
         ================================================== */
@@ -524,27 +537,40 @@ export default function ArcheNovaConceptPortal() {
 
         .an-concept-portal
         .an-concept-portal__axis span:nth-child(1) {
-          width: min(74vw, 980px);
-          aspect-ratio: 2.2 / 1;
+          width:
+            min(74vw, 980px);
 
-          transform: rotate(-7deg);
+          aspect-ratio:
+            2.2 / 1;
+
+          transform:
+            rotate(-7deg);
         }
 
         .an-concept-portal
         .an-concept-portal__axis span:nth-child(2) {
-          width: min(57vw, 760px);
-          aspect-ratio: 2 / 1;
+          width:
+            min(57vw, 760px);
 
-          transform: rotate(8deg);
+          aspect-ratio:
+            2 / 1;
+
+          transform:
+            rotate(8deg);
         }
 
         .an-concept-portal
         .an-concept-portal__axis span:nth-child(3) {
-          width: min(38vw, 520px);
-          aspect-ratio: 1.7 / 1;
+          width:
+            min(38vw, 520px);
 
-          transform: rotate(-12deg);
+          aspect-ratio:
+            1.7 / 1;
+
+          transform:
+            rotate(-12deg);
         }
+
 
         /* ==================================================
            05 / HEADER
@@ -574,25 +600,30 @@ export default function ArcheNovaConceptPortal() {
 
         .an-concept-portal
         .an-concept-portal__eyebrow {
-          color: rgba(255, 255, 255, 0.76);
+          color:
+            rgba(255, 255, 255, 0.76);
 
           font-size: 9px;
           font-weight: 650;
           line-height: 1;
 
-          letter-spacing: 0.22em;
+          letter-spacing:
+            0.22em;
         }
 
         .an-concept-portal
         .an-concept-portal__principle {
-          color: rgba(255, 255, 255, 0.3);
+          color:
+            rgba(255, 255, 255, 0.3);
 
           font-size: 8px;
           font-weight: 500;
           line-height: 1.4;
 
-          letter-spacing: 0.17em;
+          letter-spacing:
+            0.17em;
         }
+
 
         /* ==================================================
            06 / CLOSE
@@ -605,14 +636,22 @@ export default function ArcheNovaConceptPortal() {
 
           gap: 10px;
 
-          margin: -10px -8px 0 0;
-          padding: 10px 8px;
+          margin:
+            -10px -8px 0 0;
 
-          color: rgba(255, 255, 255, 0.5);
+          padding:
+            10px 8px;
+
+          color:
+            rgba(255, 255, 255, 0.5);
 
           border: 0;
+          border-radius: 0;
 
-          background: transparent;
+          background:
+            transparent;
+
+          box-shadow: none;
 
           font: inherit;
 
@@ -631,7 +670,8 @@ export default function ArcheNovaConceptPortal() {
           font-size: 8px;
           font-weight: 600;
 
-          letter-spacing: 0.18em;
+          letter-spacing:
+            0.18em;
         }
 
         .an-concept-portal
@@ -639,13 +679,16 @@ export default function ArcheNovaConceptPortal() {
           width: 17px;
           height: 17px;
 
-          transform: rotate(-90deg);
+          transform:
+            rotate(-90deg);
         }
 
         .an-concept-portal
         .an-concept-portal__close:hover {
-          color: rgba(255, 255, 255, 0.94);
+          color:
+            rgba(255, 255, 255, 0.94);
         }
+
 
         /* ==================================================
            07 / BODY
@@ -666,16 +709,29 @@ export default function ArcheNovaConceptPortal() {
           align-items: center;
 
           gap:
-            clamp(48px, 8vw, 140px);
+            clamp(
+              48px,
+              8vw,
+              140px
+            );
 
           padding:
-            clamp(52px, 8vh, 105px)
+            clamp(
+              52px,
+              8vh,
+              105px
+            )
             0
-            clamp(42px, 6vh, 80px);
+            clamp(
+              42px,
+              6vh,
+              80px
+            );
         }
 
         .an-concept-portal
         .an-concept-portal__statement {
+          width: 100%;
           max-width: 720px;
         }
 
@@ -685,44 +741,62 @@ export default function ArcheNovaConceptPortal() {
 
           margin-bottom: 22px;
 
-          color: rgba(255, 255, 255, 0.3);
+          color:
+            rgba(255, 255, 255, 0.3);
 
           font-size: 9px;
           font-weight: 500;
 
-          letter-spacing: 0.16em;
+          letter-spacing:
+            0.16em;
         }
 
         .an-concept-portal
         .an-concept-portal__statement h2 {
           margin: 0;
 
-          color: rgba(255, 255, 255, 0.95);
+          color:
+            rgba(255, 255, 255, 0.95);
 
           font-size:
-            clamp(44px, 5.4vw, 78px);
+            clamp(
+              44px,
+              5.4vw,
+              78px
+            );
 
           font-weight: 300;
           line-height: 0.98;
 
-          letter-spacing: -0.06em;
+          letter-spacing:
+            -0.06em;
         }
 
         .an-concept-portal
         .an-concept-portal__statement p {
           margin:
-            clamp(28px, 4vh, 42px)
+            clamp(
+              28px,
+              4vh,
+              42px
+            )
             0
             0;
 
-          color: rgba(255, 255, 255, 0.4);
+          color:
+            rgba(255, 255, 255, 0.4);
 
           font-size:
-            clamp(12px, 1.05vw, 15px);
+            clamp(
+              12px,
+              1.05vw,
+              15px
+            );
 
           font-weight: 400;
           line-height: 1.8;
         }
+
 
         /* ==================================================
            08 / CONCEPT ARCHITECTURE
@@ -734,6 +808,10 @@ export default function ArcheNovaConceptPortal() {
           align-items: stretch;
 
           min-height: 210px;
+
+          border: 0;
+          background: transparent;
+          box-shadow: none;
         }
 
         .an-concept-portal
@@ -741,14 +819,30 @@ export default function ArcheNovaConceptPortal() {
           width: 1px;
 
           margin-right:
-            clamp(22px, 3vw, 42px);
+            clamp(
+              22px,
+              3vw,
+              42px
+            );
 
           background:
             linear-gradient(
               to bottom,
               transparent,
-              rgba(255, 255, 255, 0.18) 14%,
-              rgba(255, 255, 255, 0.18) 86%,
+              rgba(
+                255,
+                255,
+                255,
+                0.18
+              )
+              14%,
+              rgba(
+                255,
+                255,
+                255,
+                0.18
+              )
+              86%,
               transparent
             );
         }
@@ -759,7 +853,8 @@ export default function ArcheNovaConceptPortal() {
           flex: 1;
           flex-direction: column;
 
-          justify-content: space-between;
+          justify-content:
+            space-between;
         }
 
         .an-concept-portal
@@ -769,21 +864,25 @@ export default function ArcheNovaConceptPortal() {
 
           gap: 16px;
 
-          color: rgba(255, 255, 255, 0.48);
+          color:
+            rgba(255, 255, 255, 0.48);
 
           font-size: 9px;
           font-weight: 600;
 
-          letter-spacing: 0.15em;
+          letter-spacing:
+            0.15em;
         }
 
         .an-concept-portal
         .an-concept-portal__architecture-items small {
-          color: rgba(255, 255, 255, 0.22);
+          color:
+            rgba(255, 255, 255, 0.22);
 
           font-size: 8px;
           font-weight: 500;
         }
+
 
         /* ==================================================
            09 / FOOTER
@@ -811,13 +910,20 @@ export default function ArcheNovaConceptPortal() {
           gap: 18px;
 
           margin: 0;
-          padding: 10px 0;
 
-          color: rgba(255, 255, 255, 0.72);
+          padding:
+            10px 0;
+
+          color:
+            rgba(255, 255, 255, 0.72);
 
           border: 0;
+          border-radius: 0;
 
-          background: transparent;
+          background:
+            transparent;
+
+          box-shadow: none;
 
           font: inherit;
 
@@ -826,12 +932,12 @@ export default function ArcheNovaConceptPortal() {
           transition:
             color 260ms ease,
             gap 360ms
-              cubic-bezier(
-                0.22,
-                1,
-                0.36,
-                1
-              );
+            cubic-bezier(
+              0.22,
+              1,
+              0.36,
+              1
+            );
         }
 
         .an-concept-portal
@@ -839,7 +945,8 @@ export default function ArcheNovaConceptPortal() {
           font-size: 9px;
           font-weight: 650;
 
-          letter-spacing: 0.18em;
+          letter-spacing:
+            0.18em;
         }
 
         .an-concept-portal
@@ -852,7 +959,8 @@ export default function ArcheNovaConceptPortal() {
         .an-concept-portal__enter:hover {
           gap: 27px;
 
-          color: rgba(255, 255, 255, 1);
+          color:
+            rgba(255, 255, 255, 1);
         }
 
         .an-concept-portal
@@ -862,7 +970,8 @@ export default function ArcheNovaConceptPortal() {
 
           gap: 16px;
 
-          color: rgba(255, 255, 255, 0.31);
+          color:
+            rgba(255, 255, 255, 0.31);
 
           animation:
             an-concept-control-enter
@@ -874,7 +983,8 @@ export default function ArcheNovaConceptPortal() {
           font-size: 8px;
           font-weight: 600;
 
-          letter-spacing: 0.16em;
+          letter-spacing:
+            0.16em;
         }
 
         .an-concept-portal
@@ -892,35 +1002,33 @@ export default function ArcheNovaConceptPortal() {
           }
         }
 
+
         /* ==================================================
            10 / FOCUS
         ================================================== */
 
         .an-concept-portal
         .an-concept-portal__enter:focus-visible,
+
         .an-concept-portal
         .an-concept-portal__close:focus-visible,
+
         .an-concept-portal__return:focus-visible {
           outline:
             1px solid
             rgba(255, 255, 255, 0.7);
 
-          outline-offset: 5px;
+          outline-offset:
+            5px;
         }
 
-        /* ==================================================
-           11 / EXPANDED CONCEPT CONTENT
-
-           No new visual frame is placed around the existing
-           components. Their original presentation survives.
-        ================================================== */
-
-        .an-concept-portal__content {
-          display: contents;
-        }
 
         /* ==================================================
-           12 / CLOSING
+           11 / CLOSING SECTION
+
+           The HOME section itself owns any global HOME glass.
+           Therefore closing-surface does NOT add a second
+           framed glass card.
         ================================================== */
 
         .an-concept-portal__closing {
@@ -931,7 +1039,9 @@ export default function ArcheNovaConceptPortal() {
           justify-content: center;
 
           width: 100%;
-          min-height: 100svh;
+
+          min-height:
+            100svh;
         }
 
         .an-concept-portal__closing-surface {
@@ -941,25 +1051,32 @@ export default function ArcheNovaConceptPortal() {
           align-items: center;
           justify-content: center;
 
-          width: min(100%, 1080px);
-          min-height: min(620px, 74svh);
+          width:
+            min(100%, 1080px);
+
+          min-height:
+            min(620px, 74svh);
 
           padding:
-            clamp(40px, 7vw, 90px);
+            clamp(
+              40px,
+              7vw,
+              90px
+            );
 
-          border:
-            1px solid
-            rgba(255, 255, 255, 0.06);
-
-          border-radius: 30px;
+          border: 0;
+          border-radius: 0;
 
           background:
-            radial-gradient(
-              circle at 50% 42%,
-              rgba(255, 255, 255, 0.025),
-              transparent 42%
-            ),
-            rgba(0, 0, 0, 0.1);
+            transparent;
+
+          -webkit-backdrop-filter:
+            none;
+
+          backdrop-filter:
+            none;
+
+          box-shadow: none;
 
           text-align: center;
         }
@@ -967,26 +1084,34 @@ export default function ArcheNovaConceptPortal() {
         .an-concept-portal__closing-eyebrow {
           margin-bottom: 38px;
 
-          color: rgba(255, 255, 255, 0.3);
+          color:
+            rgba(255, 255, 255, 0.3);
 
           font-size: 8px;
           font-weight: 600;
 
-          letter-spacing: 0.2em;
+          letter-spacing:
+            0.2em;
         }
 
         .an-concept-portal__closing-surface p {
           margin: 0;
 
-          color: rgba(255, 255, 255, 0.78);
+          color:
+            rgba(255, 255, 255, 0.78);
 
           font-size:
-            clamp(25px, 3.4vw, 48px);
+            clamp(
+              25px,
+              3.4vw,
+              48px
+            );
 
           font-weight: 300;
           line-height: 1.3;
 
-          letter-spacing: -0.04em;
+          letter-spacing:
+            -0.04em;
         }
 
         .an-concept-portal__return {
@@ -996,15 +1121,25 @@ export default function ArcheNovaConceptPortal() {
           gap: 16px;
 
           margin-top:
-            clamp(46px, 7vh, 76px);
+            clamp(
+              46px,
+              7vh,
+              76px
+            );
 
-          padding: 10px 0;
+          padding:
+            10px 0;
 
-          color: rgba(255, 255, 255, 0.48);
+          color:
+            rgba(255, 255, 255, 0.48);
 
           border: 0;
+          border-radius: 0;
 
-          background: transparent;
+          background:
+            transparent;
+
+          box-shadow: none;
 
           font: inherit;
 
@@ -1018,24 +1153,28 @@ export default function ArcheNovaConceptPortal() {
         .an-concept-portal__return svg {
           width: 36px;
 
-          transform: rotate(180deg);
+          transform:
+            rotate(180deg);
         }
 
         .an-concept-portal__return span {
           font-size: 8px;
           font-weight: 600;
 
-          letter-spacing: 0.17em;
+          letter-spacing:
+            0.17em;
         }
 
         .an-concept-portal__return:hover {
           gap: 23px;
 
-          color: rgba(255, 255, 255, 0.9);
+          color:
+            rgba(255, 255, 255, 0.9);
         }
 
+
         /* ==================================================
-           13 / MOBILE
+           12 / MOBILE
         ================================================== */
 
         @media (max-width: 768px) {
@@ -1043,14 +1182,22 @@ export default function ArcheNovaConceptPortal() {
           .an-concept-portal__surface {
             width: 100%;
 
-            min-height: min(700px, 80svh);
+            min-height:
+              min(700px, 80svh);
 
             padding:
               25px
               18px
               18px;
 
-            border-radius: 24px;
+            border: 0;
+            border-radius: 0;
+
+            background:
+              transparent;
+
+            box-shadow:
+              none;
           }
 
           .an-concept-portal
@@ -1062,7 +1209,8 @@ export default function ArcheNovaConceptPortal() {
           .an-concept-portal__principle {
             font-size: 7px;
 
-            letter-spacing: 0.13em;
+            letter-spacing:
+              0.13em;
           }
 
           .an-concept-portal
@@ -1091,7 +1239,11 @@ export default function ArcheNovaConceptPortal() {
           .an-concept-portal
           .an-concept-portal__statement h2 {
             font-size:
-              clamp(38px, 11vw, 56px);
+              clamp(
+                38px,
+                11vw,
+                56px
+              );
           }
 
           .an-concept-portal
@@ -1133,20 +1285,33 @@ export default function ArcheNovaConceptPortal() {
           }
 
           .an-concept-portal__closing-surface {
-            width: calc(100% - 32px);
+            width:
+              calc(100% - 32px);
 
-            min-height: 68svh;
+            min-height:
+              68svh;
 
             padding:
               40px
               24px;
 
-            border-radius: 24px;
+            border: 0;
+            border-radius: 0;
+
+            background:
+              transparent;
+
+            box-shadow:
+              none;
           }
 
           .an-concept-portal__closing-surface p {
             font-size:
-              clamp(25px, 8vw, 39px);
+              clamp(
+                25px,
+                8vw,
+                39px
+              );
           }
 
           .an-concept-portal
@@ -1165,8 +1330,9 @@ export default function ArcheNovaConceptPortal() {
           }
         }
 
+
         /* ==================================================
-           14 / SMALL MOBILE
+           13 / SMALL MOBILE
         ================================================== */
 
         @media (max-width: 430px) {
@@ -1176,14 +1342,16 @@ export default function ArcheNovaConceptPortal() {
               22px
               14px
               15px;
-
-            border-radius: 22px;
           }
 
           .an-concept-portal
           .an-concept-portal__statement h2 {
             font-size:
-              clamp(35px, 10.8vw, 46px);
+              clamp(
+                35px,
+                10.8vw,
+                46px
+              );
           }
 
           .an-concept-portal
@@ -1197,18 +1365,18 @@ export default function ArcheNovaConceptPortal() {
           }
 
           .an-concept-portal__closing-surface {
-            width: calc(100% - 24px);
+            width:
+              calc(100% - 24px);
 
             padding:
               34px
               18px;
-
-            border-radius: 22px;
           }
         }
 
+
         /* ==================================================
-           15 / REDUCED MOTION
+           14 / REDUCED MOTION
         ================================================== */
 
         @media (
@@ -1216,19 +1384,23 @@ export default function ArcheNovaConceptPortal() {
           reduce
         ) {
           .an-concept-portal
-          .an-concept-portal__surface,
-          .an-concept-portal
           .an-concept-portal__enter,
+
           .an-concept-portal
           .an-concept-portal__close,
+
           .an-concept-portal__return,
+
           .an-concept-portal
           .an-concept-portal__opened {
-            animation: none !important;
-            transition: none !important;
+            animation:
+              none !important;
+
+            transition:
+              none !important;
           }
         }
       `}</style>
-    </>
+    </Fragment>
   );
 }
