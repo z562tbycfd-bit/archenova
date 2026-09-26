@@ -916,8 +916,12 @@ export default function ArcheNovaConceptPortal() {
         ================================================== */
 
         .an-concept-portal__content {
-          display: contents;
-        }
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
 
         /* ==================================================
            12 / CLOSING
