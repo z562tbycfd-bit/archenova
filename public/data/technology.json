@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-09-25T22:03:17.522Z",
+  "updated": "2026-09-26T01:16:16.006Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+      "url": "https://www.statnews.com/2026/09/25/trump-administration-cancel-spending-hhs-programs/?utm_campaign=rss",
+      "summary": "President Trump is canceling nearly $1 billion in spending approved by Congress, and most of the cuts are focused on HHS programs that serve refugees and unaccompanied minors.",
+      "ts": 1790384618000,
+      "publishedAt": "2026-09-26T01:03:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, Boeing to Provide Update on Starliner Development",
+      "url": "https://www.nasa.gov/news-release/nasa-boeing-to-provide-update-on-starliner-development/",
+      "summary": "During a news conference at 3 p.m. EDT on Monday, Sept. 28, NASA and Boeing leadership will discuss Starliner’s development and plans for regular crew flights to and from the International Space Station. Learn where to w…",
+      "ts": 1790374010000,
+      "publishedAt": "2026-09-25T22:06:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes San Marino Signing the Artemis Accords  ",
+      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/",
+      "summary": "The Republic of San Marino became the 76th signatory to the Artemis Accords during a ceremony in the city of Rimini on Friday with NASA and U.S. Department of State officials present. “San Marino joins a growing coalitio…",
+      "ts": 1790365983000,
+      "publishedAt": "2026-09-25T19:53:03.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Tests Dual Mode Propulsion CubeSat Ahead of Launch",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-tests-dual-mode-propulsion-cubesat-ahead-of-launch/",
+      "summary": "Spacecraft propulsion traditionally relies on volatile fuels and separate, bulky systems for different types of maneuvering in space. NASA is working to change that paradigm. Engineers at NASA’s Marshall Space Flight Cen…",
+      "ts": 1790364970000,
+      "publishedAt": "2026-09-25T19:36:10.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "OpenAI",
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -39,6 +75,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "2026-2027 DWU: Middle School Design Challenge",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-middle-school-design-challenge/",
+      "summary": "2026-2027 DWU: Middle School Design Challenge Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ National Airspace System (NA…",
+      "ts": 1790356851000,
+      "publishedAt": "2026-09-25T17:20:51.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "2026-2027 DWU: High School Engineering Challenge",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "summary": "2026-2027 DWU: High School Engineering Challenge Challenge Materials Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ Natio…",
+      "ts": 1790356782000,
+      "publishedAt": "2026-09-25T17:19:42.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Stroke Remodels Tumor Microenvironment to Promote Glioma Growth",
       "url": "https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/",
@@ -48,6 +102,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Hubble Spots Chaotic Secret in Galaxy",
+      "url": "https://www.nasa.gov/image-article/hubble-spots-chaotic-secret-in-galaxy/",
+      "summary": "A chaotic secret hides within this seemingly serene image of spiral galaxy NGC 4698 taken by NASA’s Hubble Space Telescope and released on Sept. 18, 2026. As a spiral galaxy like our own Milky Way galaxy, NGC 4698 has sp…",
+      "ts": 1790351650000,
+      "publishedAt": "2026-09-25T15:54:10.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Lilly wins approval for once-weekly insulin shot",
       "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss",
@@ -55,6 +118,15 @@
       "ts": 1790349910000,
       "publishedAt": "2026-09-25T15:25:10.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "TB 26-07 Aluminum Alloy 2219 Material Guidance",
+      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-07-aluminum-alloy-2219-material-guidance/",
+      "summary": "For more information, contact Donald S. Parker, Kennedy Space Center, donald.s.parker@nasa.gov Download the PDF version Improper casting and forging processes in the manufacture of aluminum alloy 2219 can lead to microst…",
+      "ts": 1790347551000,
+      "publishedAt": "2026-09-25T14:45:51.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -738,78 +810,6 @@
       "summary": "Klomp, a behind-the-scenes HHS power player, is likely to be confirmed as second-in-command to RFK Jr.",
       "ts": 1790267892000,
       "publishedAt": "2026-09-24T16:38:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Practicing for Safe Landings on the Moon and Beyond",
-      "url": "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/",
-      "summary": "In this Aug. 27, 2026, image, an Alta-X drone flies an advanced guidance and navigation system known as the Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) experiment near NASA’s Armstrong Flight Re…",
-      "ts": 1790267359000,
-      "publishedAt": "2026-09-24T16:29:19.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "True or false on space industry trends with Pacôme Révillon",
-      "url": "https://spacenews.com/true-or-false-on-space-industry-trends-with-pacome-revillon/",
-      "summary": "In this episode, SpaceNews’ Mike Gruss and Novaspace CEO Pacôme Révillon look at what to expect from the space industry in the next year by playing a game of true […] The post True or false on space industry trends with …",
-      "ts": 1790265102000,
-      "publishedAt": "2026-09-24T15:51:42.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
-      "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
-      "summary": "Like tendrils on a vine, lava spreads out from the northern crater of Krasheninnikov, a volcano pair on the Pacific coast of Russia’s Kamchatka Peninsula. On July 30, 2025, an 8.8-magnitude earthquake had struck in the n…",
-      "ts": 1790264837000,
-      "publishedAt": "2026-09-24T15:47:17.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Moog Completes ISO Class 8 Clean Room at Niagara Falls Facility to Expand Thruster Production",
-      "url": "https://spacenews.com/moog-completes-iso-class-8-clean-room-at-niagara-falls-facility-to-expand-thruster-production/",
-      "summary": "East Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B) announced the completion and commissioning of a new ISO Class 8 certified clean room at its Niagara Falls facility. This […] The post Moog Completes ISO Class 8 Clean R…",
-      "ts": 1790262328000,
-      "publishedAt": "2026-09-24T15:05:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Indonesian ruling against ‘patent evergreening’ by pharma industry sends critical message, patient advocates say",
-      "url": "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/?utm_campaign=rss",
-      "summary": "A recent court decision in Indonesia sends an important message to other countries to challenge the pharma industry's use of \"patent evergreening,\" patient advocates say.",
-      "ts": 1790261874000,
-      "publishedAt": "2026-09-24T14:57:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-      "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not…",
-      "ts": 1790258450000,
-      "publishedAt": "2026-09-24T14:00:50.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Study Human Health, Performance During Crew-13 Mission",
-      "url": "https://www.nasa.gov/humans-in-space/nasa-to-study-human-health-performance-during-crew-13-mission/",
-      "summary": "During NASA’s SpaceX Crew‑13 mission aboard the International Space Station, astronauts will support a series of biomedical and human performance investigations, including a new collaborative effort to study how spacefli…",
-      "ts": 1790258028000,
-      "publishedAt": "2026-09-24T13:53:48.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Kyverna’s cell therapy shows lasting autoimmune benefit",
-      "url": "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss",
-      "summary": "Kyverna Therapeutics is one step closer to launching the first cell therapy for an autoimmune disease, with new data in hand showing many patients remained off of other therapies a…",
-      "ts": 1790257930000,
-      "publishedAt": "2026-09-24T13:52:10.000Z",
       "categoryId": "bio"
     }
   ],

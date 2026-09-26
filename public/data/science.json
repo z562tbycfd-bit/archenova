@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-25T22:03:15.033Z",
+  "updated": "2026-09-26T01:16:13.635Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate crisis is affecting children's nutrition",
+      "url": "https://phys.org/news/2026-09-climate-crisis-affecting-children-nutrition.html",
+      "summary": "Wildfires, floods and other extreme weather events are no longer the only ways climate change affects children around the world. Increasingly, it also affects their diets. Droughts reduce agricultural production, floods …",
+      "ts": 1790380801000,
+      "publishedAt": "2026-09-26T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Manipulation of ferromagnetism with a light-driven nonlinear Edelstein-Zeeman field",
+      "url": "https://www.nature.com/articles/s41467-026-77965-4",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Emergent charge crystallization and frustration in a particle anti-spin ice",
+      "url": "https://www.nature.com/articles/s41467-026-77905-2",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Breaking and entering: How parasites prepare host cells for invasion",
@@ -775,30 +799,6 @@
       "title": "Relative periodic orbits in spatially extended Kolmogorov turbulence: from global to localized recurrence",
       "url": "https://arxiv.org/abs/2609.28981",
       "summary": "arXiv:2609.28981v1 Announce Type: new Abstract: Recurrent invariant solutions provide a dynamical framework for interpreting turbulence, but their computation becomes increasingly difficult in spatially extended flows, w…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Breakdown of Axis Separability and Structured Inversion in Finite-Domain Normalized Position Measurements: A Quadrant Photodetector Case Study",
-      "url": "https://arxiv.org/abs/2609.29009",
-      "summary": "arXiv:2609.29009v1 Announce Type: new Abstract: Finite-domain normalized spatial measurements combine an incident field, geometric support, local response, and channel weighting. These operations can break an otherwise s…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Glassy dynamics of metropolitan human mobility frozen near the gravitational equilibrium",
-      "url": "https://arxiv.org/abs/2609.29057",
-      "summary": "arXiv:2609.29057v1 Announce Type: new Abstract: This research establishes a connection between macroscopic urban commuting flows and thermal equilibrium. Using mobility data from around 30 million records across six Japa…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topology of bound states in the continuum from the angular structure of leading radiation",
-      "url": "https://arxiv.org/abs/2609.29074",
-      "summary": "arXiv:2609.29074v1 Announce Type: new Abstract: We show that the angular structure of the leading radiation associated with a bound state in the continuum (BIC) directly encodes topology, identifies the critical conditio…",
       "ts": 1790308800000,
       "publishedAt": "2026-09-25T04:00:00.000Z"
     }
