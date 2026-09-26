@@ -9,18 +9,14 @@ import CivilizationSpacePortal from "../components/CivilizationSpacePortal";
 import ArcheNovaValleyPortal from "../components/ArcheNovaValleyPortal";
 import WorkModelsPortal from "../components/WorkModelsPortal";
 
-import ArcheNovaWorldGallery from "../components/home/ArcheNovaWorldGallery";
-
-import ArcheNovaCivilizationPrelude from "../components/home/ArcheNovaCivilizationPrelude";
-
-import ArcheNovaIdealUserPrelude from "../components/home/ArcheNovaIdealUserPrelude";
+import ArcheNovaConceptPortal from "../components/home/ArcheNovaConceptPortal";
 
 import {
   ArcheNovaHorizon,
   ArcheNovaStillness,
 } from "../components/home/ArcheNovaCivilizationJourney";
 
-/** HOME only. All visual rules live in app/globals.css. */
+/** HOME only. All global HOME visual rules live in app/globals.css. */
 export default function HomePage() {
   return (
     <main
@@ -31,59 +27,62 @@ export default function HomePage() {
       <HomeSectionPager />
 
       {/* ==================================================
-          00 — FOUNDATIONAL PURPOSE
-          Scroll-driven civilization introduction.
+          00 — ARCHENOVA CONCEPT
+
+          Closed:
+            One quiet Concept entrance.
+
+          Open:
+            Purpose
+              ↓
+            Ideal User / Human Agency
+              ↓
+            ArcheNova World
+
+          The three original environments are mounted only
+          while ArcheNova Concept is open.
       ================================================== */}
 
-      <ArcheNovaCivilizationPrelude />
+      <ArcheNovaConceptPortal />
 
-      <ArcheNovaIdealUserPrelude />
-
-       {/* ==================================================
-    01 — CIVILIZATION DIGITAL TWIN
-================================================== */}
-<section
-  id="archenova-civilization-digital-twin"
-  data-home-section
-  className="an-home-2026__section an-civilization-twin-visual"
-  aria-label="ArcheNova Civilization Digital Twin"
->
-  <div className="an-home-2026__glass an-civilization-twin-visual__surface">
-    <img
-      src="/images/archenova-civilization-digital-twin.jpeg"
-      alt="Conceptual visualization of the ArcheNova civilization digital twin integrating planetary systems, cities, infrastructure, energy, biological environments, data, and interconnected models."
-      className="an-civilization-twin-visual__image"
-      loading="eager"
-      decoding="async"
-      draggable={false}
-    />
-  </div>
-</section>
+      
 
       {/* ==================================================
           02 — THE HORIZON
-          Existing section: unchanged.
       ================================================== */}
 
       <ArcheNovaHorizon />
 
       {/* ==================================================
-          03 — THE ARCHENOVA WORLD
-          Existing section: unchanged.
+          01 — CIVILIZATION DIGITAL TWIN
       ================================================== */}
 
-      <ArcheNovaWorldGallery />
+      <section
+        id="archenova-civilization-digital-twin"
+        data-home-section
+        className="an-home-2026__section an-civilization-twin-visual"
+        aria-label="ArcheNova Civilization Digital Twin"
+      >
+        <div className="an-home-2026__glass an-civilization-twin-visual__surface">
+          <img
+            src="/images/archenova-civilization-digital-twin.jpeg"
+            alt="Conceptual visualization of the ArcheNova civilization digital twin integrating planetary systems, cities, infrastructure, energy, biological environments, data, and interconnected models."
+            className="an-civilization-twin-visual__image"
+            loading="eager"
+            decoding="async"
+            draggable={false}
+          />
+        </div>
+      </section>
 
       {/* ==================================================
-          04 — THE STILLNESS
-          Existing section: unchanged.
+          03 — THE STILLNESS
       ================================================== */}
 
       <ArcheNovaStillness />
 
       {/* ==================================================
-          05 — MAP
-          Existing section: unchanged.
+          04 — MAP
       ================================================== */}
 
       <section
@@ -98,8 +97,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          07 — TODAY'S INQUIRY
-          Existing section: unchanged.
+          05 — TODAY'S INQUIRY
       ================================================== */}
 
       <section
@@ -114,8 +112,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          08 — HUMANITY RESPONSIBILITY
-          Existing section: unchanged.
+          06 — HUMANITY RESPONSIBILITY
       ================================================== */}
 
       <section
@@ -130,8 +127,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          10 — WORK MODELS
-          Existing section: unchanged.
+          07 — WORK MODELS
       ================================================== */}
 
       <section
@@ -146,8 +142,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          11 — CIVILIZATION SPACE
-          Existing section: unchanged.
+          08 — CIVILIZATION SPACE
       ================================================== */}
 
       <section
@@ -162,8 +157,7 @@ export default function HomePage() {
       </section>
 
       {/* ==================================================
-          12 — ARCHENOVA VALLEY
-          Existing section: unchanged.
+          09 — ARCHENOVA VALLEY
       ================================================== */}
 
       <section
