@@ -65317,6 +65317,316 @@ main#home-top.an-home-2026
 
 
 
+/* ==========================================================
+   ARCHENOVA CONCEPT
+   SCROLL CHAPTER GEOMETRY — FINAL GUARANTEE
+
+   Purpose / Ideal User use a long scroll section while
+   their visual frame moves through:
+
+   START
+   → FIXED
+   → END
+
+   Keep this block at the END of globals.css.
+========================================================== */
+
+
+/* ==========================================================
+   01 / PURPOSE
+   5 chapters = 500svh
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude.an-civilization-purpose {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+
+  height: 500svh !important;
+  min-height: 500svh !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+
+  background: transparent !important;
+}
+
+
+/* ==========================================================
+   02 / PURPOSE FRAME
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__frame {
+  display: flex !important;
+
+  align-items: stretch !important;
+  justify-content: center !important;
+
+  width: 100% !important;
+
+  height: 100svh !important;
+  min-height: 100svh !important;
+  max-height: 100svh !important;
+
+  margin: 0 !important;
+
+  padding:
+    clamp(12px, 2vw, 24px)
+    !important;
+}
+
+
+/* START */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--start {
+  position: absolute !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+
+  z-index: 20 !important;
+}
+
+
+/* FIXED */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--fixed {
+  position: fixed !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+
+  z-index: 20 !important;
+}
+
+
+/* END */
+
+main.an-home-2026
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--end {
+  position: absolute !important;
+
+  top: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+
+  z-index: 20 !important;
+}
+
+
+/* ==========================================================
+   03 / IDEAL USER / PRELUDE
+   Dynamic number of chapters
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user.an-ideal-user {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+
+  height:
+    calc(
+      var(--an-ideal-user-count, 1)
+      * 100svh
+    )
+    !important;
+
+  min-height:
+    calc(
+      var(--an-ideal-user-count, 1)
+      * 100svh
+    )
+    !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+
+  background: transparent !important;
+}
+
+
+/* ==========================================================
+   04 / IDEAL USER FRAME
+========================================================== */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__frame {
+  display: flex !important;
+
+  align-items: stretch !important;
+  justify-content: center !important;
+
+  width: 100% !important;
+
+  height: 100svh !important;
+  min-height: 100svh !important;
+  max-height: 100svh !important;
+
+  margin: 0 !important;
+
+  padding:
+    clamp(12px, 2vw, 24px)
+    !important;
+}
+
+
+/* START */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__frame--start {
+  position: absolute !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+
+  z-index: 20 !important;
+}
+
+
+/* FIXED */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__frame--fixed {
+  position: fixed !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+
+  z-index: 20 !important;
+}
+
+
+/* END */
+
+main.an-home-2026
+#archenova-ideal-user
+.an-ideal-user__frame--end {
+  position: absolute !important;
+
+  top: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+
+  z-index: 20 !important;
+}
+
+
+/* ==========================================================
+   05 / PREVENT HOME GENERIC SECTION GEOMETRY
+   FROM TURNING THESE INTO NORMAL LONG CONTENT BLOCKS
+========================================================== */
+
+main.an-home-2026
+> #archenova-civilization-prelude[data-home-section],
+
+main.an-home-2026
+> #archenova-ideal-user[data-home-section] {
+  justify-content: initial !important;
+
+  overflow: visible !important;
+}
+
+
+/* ==========================================================
+   06 / MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  main.an-home-2026
+  #archenova-civilization-prelude
+  .an-civilization-purpose__frame,
+
+  main.an-home-2026
+  #archenova-ideal-user
+  .an-ideal-user__frame {
+    width: 100% !important;
+
+    height: 100svh !important;
+    min-height: 100svh !important;
+    max-height: 100svh !important;
+
+    padding:
+      max(
+        8px,
+        env(safe-area-inset-top)
+      )
+      max(
+        8px,
+        env(safe-area-inset-right)
+      )
+      max(
+        8px,
+        env(safe-area-inset-bottom)
+      )
+      max(
+        8px,
+        env(safe-area-inset-left)
+      )
+      !important;
+  }
+
+}
+
+
+/* ==========================================================
+   07 / CRITICAL
+   Do not create containing blocks around FIXED frames.
+
+   These sections and their immediate frame path must not
+   receive transform/filter/perspective/contain.
+========================================================== */
+
+main.an-home-2026
+#archenova-civilization-prelude,
+
+main.an-home-2026
+#archenova-ideal-user {
+  transform: none !important;
+
+  filter: none !important;
+
+  perspective: none !important;
+
+  contain: none !important;
+}
+
+
+
+
+
+
+
 
 
 

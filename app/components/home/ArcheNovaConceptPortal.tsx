@@ -122,15 +122,6 @@ export default function ArcheNovaConceptPortal() {
           ================================================ */}
 
           <header className="an-concept-portal__header">
-            <div className="an-concept-portal__identity">
-              <span className="an-concept-portal__eyebrow">
-                ARCHENOVA CONCEPT
-              </span>
-
-              <span className="an-concept-portal__principle">
-                PURPOSE · HUMAN AGENCY · WORLD
-              </span>
-            </div>
 
             {isOpen && (
               <button
@@ -165,7 +156,7 @@ export default function ArcheNovaConceptPortal() {
           <div className="an-concept-portal__body">
             <div className="an-concept-portal__statement">
               <span className="an-concept-portal__index">
-                00 / CONCEPT
+                ARCHENOVA CONCEPT
               </span>
 
               <h2 id="an-concept-title">
