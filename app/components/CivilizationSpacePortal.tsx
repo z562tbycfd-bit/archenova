@@ -16,73 +16,49 @@ import {
 
    HOME
    └─ Civilization Space
-      ├─ 01 Library
+      ├─ Library
       │     ↓
       │   /civilization-library
       │
-      ├─ 02 Intelligence
+      ├─ Intelligence
       │     ↓
       │   /civilization-intelligence
       │
-      └─ 03 Experience
+      └─ Experience
             ↓
           /civilization-experience
 
-   ARCHITECTURE
+   DESIGN PRINCIPLE
 
-   Civilization Space
-     ↓
-   One active entrance frame
-     ↓
-   Navigation outside the entrance frame
+   One Civilization Space.
+   One entrance visible at a time.
+   One sentence inside each entrance.
 
-   ENTRANCES
+   The sentence itself is the entrance.
 
-     01 Library
-     02 Intelligence
-     03 Experience
-
-   IMPORTANT
-
-   - The three entrances are NOT displayed side-by-side.
-   - Only one entrance frame is visible at a time.
-   - All three entrance frames use exactly the same geometry.
-   - Arrow / dot navigation changes the active frame.
-   - Horizontal swipe changes the frame.
-   - Vertical scrolling remains available to HOME.
-   - Destination applications remain independent.
-   - This component is only the Civilization Space portal.
+   Navigation geometry is aligned with WorkModelsPortal.
 ========================================================== */
 
 const CIVILIZATION_SPACES = [
   {
     id: "library",
-    number: "01",
     name: "Library",
-    principle: "Preserve",
-    system: "Civilization Memory",
-    description:
-      "Preserving knowledge across generations.",
+    sentence:
+      "Preserve what civilization has learned, so knowledge can endure beyond the present.",
     href: "/civilization-library",
   },
   {
     id: "intelligence",
-    number: "02",
     name: "Intelligence",
-    principle: "Understand",
-    system: "Civilization Intelligence",
-    description:
-      "Turning signals into civilizational understanding.",
+    sentence:
+      "Understand what civilization is becoming, by turning signals into knowledge and knowledge into meaning.",
     href: "/civilization-intelligence",
   },
   {
     id: "experience",
-    number: "03",
     name: "Experience",
-    principle: "Experience",
-    system: "Civilization Experience",
-    description:
-      "Exploring civilization as a living possibility.",
+    sentence:
+      "Experience what civilization may become, by entering the possibilities that knowledge makes reachable.",
     href: "/civilization-experience",
   },
 ] as const;
@@ -97,26 +73,9 @@ type CivilizationSpace =
 
 /* ==========================================================
    ICONS
-========================================================== */
 
-function ArrowIcon() {
-  return (
-    <svg
-      viewBox="0 0 20 20"
-      fill="none"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path
-        d="m7 4 6 6-6 6"
-        stroke="currentColor"
-        strokeWidth="1.25"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
+   Geometry intentionally matches WorkModelsPortal.tsx.
+========================================================== */
 
 function ArrowLeftIcon() {
   return (
@@ -157,161 +116,17 @@ function ArrowRightIcon() {
 }
 
 /* ==========================================================
-   01 / LIBRARY VISUAL
+   CIVILIZATION ENTRANCE
 
-   Memory
-   Accumulation
-   Continuity
-   Time
-========================================================== */
-
-function LibraryVisual() {
-  return (
-    <div
-      className={[
-        "cs-entrance-visual",
-        "cs-entrance-visual--library",
-      ].join(" ")}
-      aria-hidden="true"
-    >
-      <span className="cs-library-field" />
-
-      <span className="cs-library-line cs-library-line--1" />
-      <span className="cs-library-line cs-library-line--2" />
-      <span className="cs-library-line cs-library-line--3" />
-      <span className="cs-library-line cs-library-line--4" />
-      <span className="cs-library-line cs-library-line--5" />
-      <span className="cs-library-line cs-library-line--6" />
-      <span className="cs-library-line cs-library-line--7" />
-      <span className="cs-library-line cs-library-line--8" />
-      <span className="cs-library-line cs-library-line--9" />
-
-      <span className="cs-library-axis" />
-
-      <span className="cs-library-point cs-library-point--1" />
-      <span className="cs-library-point cs-library-point--2" />
-      <span className="cs-library-point cs-library-point--3" />
-      <span className="cs-library-point cs-library-point--4" />
-      <span className="cs-library-point cs-library-point--5" />
-
-      <span className="cs-library-depth cs-library-depth--1" />
-      <span className="cs-library-depth cs-library-depth--2" />
-      <span className="cs-library-depth cs-library-depth--3" />
-    </div>
-  );
-}
-
-/* ==========================================================
-   02 / INTELLIGENCE VISUAL
-
-   Signal
-   Relation
-   Reasoning
-   Synthesis
-========================================================== */
-
-function IntelligenceVisual() {
-  return (
-    <div
-      className={[
-        "cs-entrance-visual",
-        "cs-entrance-visual--intelligence",
-      ].join(" ")}
-      aria-hidden="true"
-    >
-      <span className="cs-intelligence-field" />
-
-      <span className="cs-intelligence-orbit cs-intelligence-orbit--1" />
-      <span className="cs-intelligence-orbit cs-intelligence-orbit--2" />
-      <span className="cs-intelligence-orbit cs-intelligence-orbit--3" />
-      <span className="cs-intelligence-orbit cs-intelligence-orbit--4" />
-      <span className="cs-intelligence-orbit cs-intelligence-orbit--5" />
-
-      <span className="cs-intelligence-axis cs-intelligence-axis--1" />
-      <span className="cs-intelligence-axis cs-intelligence-axis--2" />
-      <span className="cs-intelligence-axis cs-intelligence-axis--3" />
-      <span className="cs-intelligence-axis cs-intelligence-axis--4" />
-
-      <span className="cs-intelligence-node cs-intelligence-node--1" />
-      <span className="cs-intelligence-node cs-intelligence-node--2" />
-      <span className="cs-intelligence-node cs-intelligence-node--3" />
-      <span className="cs-intelligence-node cs-intelligence-node--4" />
-      <span className="cs-intelligence-node cs-intelligence-node--5" />
-      <span className="cs-intelligence-node cs-intelligence-node--6" />
-      <span className="cs-intelligence-node cs-intelligence-node--7" />
-      <span className="cs-intelligence-node cs-intelligence-node--8" />
-
-      <span className="cs-intelligence-core">
-        <span />
-      </span>
-    </div>
-  );
-}
-
-/* ==========================================================
-   03 / EXPERIENCE VISUAL
-
-   Horizon
-   Possibility
-   Exploration
-   Reachability
-========================================================== */
-
-function ExperienceVisual() {
-  return (
-    <div
-      className={[
-        "cs-entrance-visual",
-        "cs-entrance-visual--experience",
-      ].join(" ")}
-      aria-hidden="true"
-    >
-      <span className="cs-experience-field" />
-
-      <span className="cs-experience-horizon cs-experience-horizon--1" />
-      <span className="cs-experience-horizon cs-experience-horizon--2" />
-      <span className="cs-experience-horizon cs-experience-horizon--3" />
-      <span className="cs-experience-horizon cs-experience-horizon--4" />
-      <span className="cs-experience-horizon cs-experience-horizon--5" />
-
-      <span className="cs-experience-arc cs-experience-arc--1" />
-      <span className="cs-experience-arc cs-experience-arc--2" />
-      <span className="cs-experience-arc cs-experience-arc--3" />
-      <span className="cs-experience-arc cs-experience-arc--4" />
-
-      <span className="cs-experience-path" />
-
-      <span className="cs-experience-origin" />
-      <span className="cs-experience-destination" />
-    </div>
-  );
-}
-
-/* ==========================================================
-   SPACE VISUAL
-========================================================== */
-
-function SpaceVisual({
-  id,
-}: {
-  id: CivilizationSpace["id"];
-}) {
-  if (id === "library") {
-    return <LibraryVisual />;
-  }
-
-  if (id === "intelligence") {
-    return <IntelligenceVisual />;
-  }
-
-  return <ExperienceVisual />;
-}
-
-/* ==========================================================
-   ONE CIVILIZATION ENTRANCE
-
-   This component always occupies the exact same physical
-   frame regardless of which Civilization Space is active.
+   IMPORTANT:
+   - One sentence only.
+   - No title.
+   - No number.
+   - No principle.
+   - No system label.
+   - No internal CTA.
+   - No decorative diagram.
+   - The entire sentence surface is the link.
 ========================================================== */
 
 function CivilizationEntrance({
@@ -328,61 +143,15 @@ function CivilizationEntrance({
       ].join(" ")}
       aria-label={`Enter ${space.name}`}
     >
-      <div
-        className="cs-entrance__reflection"
-        aria-hidden="true"
-      />
+      <span className="cs-entrance__ambient" aria-hidden="true" />
 
-      <div
-        className="cs-entrance__edge"
-        aria-hidden="true"
-      />
+      <span className="cs-entrance__reflection" aria-hidden="true" />
 
-      {/* ================================================
-          FRAME HEADER
-      ================================================ */}
+      <span className="cs-entrance__edge" aria-hidden="true" />
 
-      <header className="cs-entrance__header">
-        <span className="cs-entrance__number">
-          {space.number}
-        </span>
-
-        <span className="cs-entrance__principle">
-          {space.principle}
-        </span>
-      </header>
-
-      {/* ================================================
-          CIVILIZATION VISUAL
-      ================================================ */}
-
-      <SpaceVisual id={space.id} />
-
-      {/* ================================================
-          COPY
-      ================================================ */}
-
-      <div className="cs-entrance__copy">
-        <span className="cs-entrance__system">
-          {space.system}
-        </span>
-
-        <h3>{space.name}</h3>
-
-        <p>{space.description}</p>
-      </div>
-
-      {/* ================================================
-          ENTER
-      ================================================ */}
-
-      <footer className="cs-entrance__footer">
-        <span>Enter Space</span>
-
-        <span className="cs-entrance__arrow">
-          <ArrowIcon />
-        </span>
-      </footer>
+      <p className="cs-entrance__sentence">
+        {space.sentence}
+      </p>
     </Link>
   );
 }
@@ -440,7 +209,7 @@ export default function CivilizationSpacePortal() {
   }, []);
 
   /* ========================================================
-     KEYBOARD NAVIGATION
+     KEYBOARD
   ======================================================== */
 
   const handleStageKeyDown = useCallback(
@@ -501,15 +270,16 @@ export default function CivilizationSpacePortal() {
     );
 
   /* ========================================================
-     TOUCH SWIPE
+     TOUCH
 
      Horizontal:
        Change Civilization Space.
 
      Vertical:
-       Remains available to HOME / browser.
+       Remains available to HOME.
 
-     Interactive elements retain their normal behavior.
+     The entrance itself is a Link, so normal taps remain
+     navigation gestures.
   ======================================================== */
 
   const handleTouchStart =
@@ -596,6 +366,12 @@ export default function CivilizationSpacePortal() {
           return;
         }
 
+        /*
+         * The sentence surface itself is a Link.
+         * A swipe beginning directly on the link is left
+         * untouched so that browser link semantics remain
+         * predictable.
+         */
         const target = event.target;
 
         if (
@@ -686,7 +462,7 @@ export default function CivilizationSpacePortal() {
         </header>
 
         {/* ==================================================
-            HEADING / COUNTER
+            HEADING
         ================================================== */}
 
         <div className="an-civilization-space-portal__heading">
@@ -694,12 +470,6 @@ export default function CivilizationSpacePortal() {
             <h2 id="civilization-space-title">
               Civilization Space.
             </h2>
-
-            <p>
-              Preserve what civilization knows.
-              Understand what civilization is becoming.
-              Experience what civilization may become.
-            </p>
           </div>
 
           <span
@@ -717,12 +487,9 @@ export default function CivilizationSpacePortal() {
         </div>
 
         {/* ==================================================
-            ONE ACTIVE ENTRANCE FRAME
+            ACTIVE ENTRANCE
 
-            Library / Intelligence / Experience each own
-            one independent frame.
-
-            Only the selected frame is rendered here.
+            The small frame contains one sentence only.
         ================================================== */}
 
         <div
@@ -752,7 +519,7 @@ export default function CivilizationSpacePortal() {
         {/* ==================================================
             NAVIGATION
 
-            Navigation exists outside the entrance frame.
+            Dimensions match WorkModelsPortal.
         ================================================== */}
 
         <nav
@@ -820,7 +587,7 @@ export default function CivilizationSpacePortal() {
         </nav>
       </div>
 
-      <style jsx>{`
+      <style jsx global>{`
         /* ==================================================
            01 / ROOT
         ================================================== */
@@ -858,9 +625,10 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           02 / CIVILIZATION SPACE OUTER SURFACE
+           02 / OUTER CIVILIZATION SPACE
         ================================================== */
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__surface {
           position: relative;
           isolation: isolate;
@@ -872,7 +640,10 @@ export default function CivilizationSpacePortal() {
           min-width: 0;
 
           min-height:
-            min(760px, 82svh);
+            min(
+              760px,
+              82svh
+            );
 
           padding:
             clamp(
@@ -978,12 +749,16 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           03 / AMBIENT CIVILIZATION SPACE
+           03 / AMBIENT
         ================================================== */
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__ambient,
+        .an-civilization-space-portal
         .an-civilization-space-portal__grid,
+        .an-civilization-space-portal
         .an-civilization-space-portal__reflection,
+        .an-civilization-space-portal
         .an-civilization-space-portal__orbit {
           position: absolute;
           inset: 0;
@@ -991,6 +766,7 @@ export default function CivilizationSpacePortal() {
           pointer-events: none;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__ambient {
           z-index: -5;
 
@@ -1027,6 +803,7 @@ export default function CivilizationSpacePortal() {
             );
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__grid {
           z-index: -4;
 
@@ -1079,7 +856,6 @@ export default function CivilizationSpacePortal() {
               rgba(
                 0,
                 0,
-                0,
                 0.58
               )
               43%,
@@ -1087,6 +863,7 @@ export default function CivilizationSpacePortal() {
             );
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__reflection {
           z-index: -1;
 
@@ -1108,6 +885,7 @@ export default function CivilizationSpacePortal() {
           opacity: 0.52;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__orbit {
           z-index: -3;
 
@@ -1117,8 +895,9 @@ export default function CivilizationSpacePortal() {
           opacity: 0.15;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__orbit
-          span {
+        span {
           position: absolute;
 
           width:
@@ -1145,8 +924,9 @@ export default function CivilizationSpacePortal() {
             rotate(-6deg);
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__orbit
-          span:nth-child(2) {
+        span:nth-child(2) {
           width:
             min(
               60vw,
@@ -1157,8 +937,9 @@ export default function CivilizationSpacePortal() {
             rotate(8deg);
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__orbit
-          span:nth-child(3) {
+        span:nth-child(3) {
           width:
             min(
               45vw,
@@ -1173,6 +954,7 @@ export default function CivilizationSpacePortal() {
            04 / HEADER
         ================================================== */
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__header {
           position: relative;
           z-index: 4;
@@ -1186,6 +968,7 @@ export default function CivilizationSpacePortal() {
           gap: 24px;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__identity {
           display: flex;
           flex-direction: column;
@@ -1193,6 +976,7 @@ export default function CivilizationSpacePortal() {
           gap: 7px;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__eyebrow {
           color:
             rgba(
@@ -1210,6 +994,7 @@ export default function CivilizationSpacePortal() {
             0.22em;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__principle {
           color:
             rgba(
@@ -1231,6 +1016,7 @@ export default function CivilizationSpacePortal() {
            05 / HEADING
         ================================================== */
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__heading {
           position: relative;
           z-index: 4;
@@ -1263,11 +1049,15 @@ export default function CivilizationSpacePortal() {
             );
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__intro {
           display: grid;
 
           grid-template-columns:
-            minmax(0, 1.1fr)
+            minmax(
+              0,
+              1.1fr
+            )
             minmax(
               260px,
               0.9fr
@@ -1285,8 +1075,9 @@ export default function CivilizationSpacePortal() {
             );
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__intro
-          h2 {
+        h2 {
           margin: 0;
 
           color:
@@ -1311,8 +1102,9 @@ export default function CivilizationSpacePortal() {
             -0.058em;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__intro
-          p {
+        p {
           max-width: 500px;
 
           margin: 0;
@@ -1336,6 +1128,7 @@ export default function CivilizationSpacePortal() {
           line-height: 1.82;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__counter {
           flex: 0 0 auto;
 
@@ -1346,7 +1139,7 @@ export default function CivilizationSpacePortal() {
               255,
               255,
               255,
-              0.42
+              0.52
             );
 
           font-size: 11px;
@@ -1361,17 +1154,14 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           06 / ACTIVE ENTRANCE STAGE
-
-           This is the one shared physical envelope.
-
-           Library / Intelligence / Experience are rendered
-           one at a time inside exactly this geometry.
+           06 / ENTRANCE STAGE
         ================================================== */
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__stage {
           position: relative;
           z-index: 3;
+          isolation: isolate;
 
           display: flex;
           flex: 1 1 auto;
@@ -1390,11 +1180,13 @@ export default function CivilizationSpacePortal() {
             0 auto;
 
           padding:
+            17px
             clamp(
               12px,
-              1.5vw,
-              18px
-            );
+              2vw,
+              24px
+            )
+            12px;
 
           overflow: hidden;
 
@@ -1410,17 +1202,17 @@ export default function CivilizationSpacePortal() {
               255,
               255,
               255,
-              0.075
+              0.085
             );
 
-          border-radius: 24px;
+          border-radius: 22px;
 
           background:
             rgba(
               0,
               0,
               0,
-              0.075
+              0.095
             );
 
           box-shadow:
@@ -1430,10 +1222,11 @@ export default function CivilizationSpacePortal() {
                 255,
                 255,
                 255,
-                0.016
+                0.018
               );
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__stage:focus-visible {
           outline:
             1px solid
@@ -1441,7 +1234,7 @@ export default function CivilizationSpacePortal() {
               255,
               255,
               255,
-              0.34
+              0.42
             );
 
           outline-offset: -3px;
@@ -1449,16 +1242,17 @@ export default function CivilizationSpacePortal() {
 
         /* ==================================================
            07 / ACTIVE FRAME
-
-           The key on this element forces a clean entrance
-           transition whenever the selected space changes.
         ================================================== */
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__active-frame {
           position: relative;
 
           display: flex;
           flex: 1 1 auto;
+
+          align-items: center;
+          justify-content: center;
 
           width: 100%;
           min-width: 0;
@@ -1493,68 +1287,49 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           08 / SHARED ENTRANCE FRAME
+           08 / SMALL ENTRANCE
 
-           Every Civilization Space uses this exact geometry.
+           Only one sentence exists inside this frame.
 
-           There are three independent conceptual frames,
-           but only the selected one exists visually at once.
+           The sentence is not accompanied by:
+             title
+             number
+             category
+             CTA
+             arrow
+             illustration
+
+           The entire surface is the entrance.
         ================================================== */
 
+        .an-civilization-space-portal
         .cs-entrance {
           position: relative;
           isolation: isolate;
 
-          display: grid;
-          flex: 1 1 auto;
+          display: flex;
 
-          grid-template-columns:
-            minmax(
-              0,
-              1.05fr
-            )
-            minmax(
-              260px,
-              0.95fr
+          align-items: center;
+          justify-content: center;
+
+          width:
+            min(
+              100%,
+              820px
             );
-
-          grid-template-rows:
-            auto
-            minmax(
-              0,
-              1fr
-            )
-            auto;
-
-          grid-template-areas:
-            "header header"
-            "visual copy"
-            "visual footer";
-
-          column-gap:
-            clamp(
-              36px,
-              6vw,
-              100px
-            );
-
-          width: 100%;
-          min-width: 0;
 
           min-height:
             clamp(
-              390px,
-              45vh,
-              500px
+              210px,
+              29vh,
+              300px
             );
-
-          height: 100%;
 
           padding:
             clamp(
-              24px,
-              3vw,
-              46px
+              34px,
+              5vw,
+              72px
             );
 
           overflow: hidden;
@@ -1569,29 +1344,29 @@ export default function CivilizationSpacePortal() {
               255,
               255,
               255,
-              0.067
+              0.072
             );
 
           border-radius: 21px;
 
           background:
             radial-gradient(
-              ellipse at 35% 44%,
+              ellipse at 50% 50%,
               rgba(
                 255,
                 255,
                 255,
-                0.032
+                0.027
               ),
-              transparent 46%
+              transparent 57%
             ),
             linear-gradient(
-              150deg,
+              145deg,
               rgba(
-                15,
                 16,
-                18,
-                0.14
+                17,
+                19,
+                0.135
               ),
               rgba(
                 5,
@@ -1604,7 +1379,7 @@ export default function CivilizationSpacePortal() {
                 0,
                 0,
                 0,
-                0.16
+                0.15
               )
             );
 
@@ -1623,7 +1398,7 @@ export default function CivilizationSpacePortal() {
                 255,
                 255,
                 255,
-                0.023
+                0.025
               );
 
           transition:
@@ -1631,40 +1406,43 @@ export default function CivilizationSpacePortal() {
             background 420ms ease;
         }
 
+        .an-civilization-space-portal
         .cs-entrance::before {
           content: "";
 
           position: absolute;
-          z-index: -1;
+          z-index: -2;
 
           inset: 0;
 
           pointer-events: none;
 
-          border-radius: inherit;
-
           background:
-            linear-gradient(
-              180deg,
+            radial-gradient(
+              circle at 50% 50%,
               rgba(
                 255,
                 255,
                 255,
-                0.021
+                0.022
               ),
-              transparent 27%
+              transparent 46%
             );
 
-          opacity: 0.72;
+          opacity: 0;
+
+          transition:
+            opacity 500ms ease;
         }
 
+        .an-civilization-space-portal
         .cs-entrance::after {
           content: "";
 
           position: absolute;
 
-          left: 8%;
-          right: 8%;
+          left: 12%;
+          right: 12%;
           bottom: 0;
 
           height: 1px;
@@ -1679,7 +1457,7 @@ export default function CivilizationSpacePortal() {
                 255,
                 255,
                 255,
-                0.13
+                0.15
               ),
               transparent
             );
@@ -1690,34 +1468,36 @@ export default function CivilizationSpacePortal() {
             opacity 420ms ease;
         }
 
+        .an-civilization-space-portal
         .cs-entrance:hover,
+        .an-civilization-space-portal
         .cs-entrance:focus-visible {
           border-color:
             rgba(
               255,
               255,
               255,
-              0.14
+              0.15
             );
 
           background:
             radial-gradient(
-              ellipse at 35% 44%,
+              ellipse at 50% 50%,
               rgba(
                 255,
                 255,
                 255,
-                0.043
+                0.04
               ),
-              transparent 48%
+              transparent 59%
             ),
             linear-gradient(
-              150deg,
+              145deg,
               rgba(
                 18,
                 19,
                 21,
-                0.18
+                0.17
               ),
               rgba(
                 6,
@@ -1730,16 +1510,23 @@ export default function CivilizationSpacePortal() {
                 0,
                 0,
                 0,
-                0.19
+                0.18
               )
             );
         }
 
+        .an-civilization-space-portal
+        .cs-entrance:hover::before,
+        .an-civilization-space-portal
+        .cs-entrance:focus-visible::before,
+        .an-civilization-space-portal
         .cs-entrance:hover::after,
+        .an-civilization-space-portal
         .cs-entrance:focus-visible::after {
           opacity: 1;
         }
 
+        .an-civilization-space-portal
         .cs-entrance:focus-visible {
           outline:
             1px solid
@@ -1747,769 +1534,146 @@ export default function CivilizationSpacePortal() {
               255,
               255,
               255,
-              0.32
+              0.34
             );
 
           outline-offset: -4px;
         }
 
-        .cs-entrance__reflection {
+        /* ==================================================
+           09 / ENTRANCE AMBIENT MATERIAL
+        ================================================== */
+
+        .an-civilization-space-portal
+        .cs-entrance__ambient,
+        .an-civilization-space-portal
+        .cs-entrance__reflection,
+        .an-civilization-space-portal
+        .cs-entrance__edge {
           position: absolute;
-          z-index: -1;
+
+          pointer-events: none;
+        }
+
+        .an-civilization-space-portal
+        .cs-entrance__ambient {
+          z-index: -3;
 
           inset: 0;
 
-          pointer-events: none;
-
           background:
-            linear-gradient(
-              126deg,
-              transparent 8%,
-              transparent 28%,
+            radial-gradient(
+              ellipse at 50% 52%,
               rgba(
                 255,
                 255,
                 255,
-                0.018
-              )
-              42%,
-              transparent 58%
+                0.026
+              ),
+              transparent 55%
             );
-
-          opacity: 0.7;
         }
 
-        .cs-entrance__edge {
-          position: absolute;
-          z-index: 0;
-
-          top: 12%;
-          bottom: 12%;
-
-          left: 0;
-
-          width: 1px;
-
-          pointer-events: none;
-
+        .an-civilization-space-portal
+        .cs-entrance--library
+        .cs-entrance__ambient {
           background:
             linear-gradient(
+              180deg,
               transparent,
               rgba(
                 255,
                 255,
                 255,
-                0.085
+                0.012
               ),
               transparent
-            );
-
-          opacity: 0;
-
-          transition:
-            opacity 420ms ease;
-        }
-
-        .cs-entrance:hover
-          .cs-entrance__edge,
-        .cs-entrance:focus-visible
-          .cs-entrance__edge {
-          opacity: 1;
-        }
-
-        /* ==================================================
-           09 / ENTRANCE HEADER
-        ================================================== */
-
-        .cs-entrance__header {
-          position: relative;
-          z-index: 3;
-
-          grid-area: header;
-
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          gap: 16px;
-
-          min-height: 18px;
-        }
-
-        .cs-entrance__number {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.28
-            );
-
-          font-size: 8px;
-          font-weight: 500;
-          line-height: 1;
-
-          letter-spacing:
-            0.18em;
-
-          font-variant-numeric:
-            tabular-nums;
-        }
-
-        .cs-entrance__principle {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.5
-            );
-
-          font-size: 8px;
-          font-weight: 500;
-          line-height: 1;
-
-          letter-spacing:
-            0.2em;
-
-          text-transform:
-            uppercase;
-        }
-
-        /* ==================================================
-           10 / SHARED VISUAL ENVELOPE
-        ================================================== */
-
-        .cs-entrance-visual {
-          position: relative;
-
-          grid-area: visual;
-
-          align-self: stretch;
-
-          width: 100%;
-          min-width: 0;
-
-          min-height: 0;
-
-          margin:
-            clamp(
-              26px,
-              4vh,
-              42px
-            )
-            0
-            0;
-
-          overflow: hidden;
-
-          opacity: 0.72;
-
-          transition:
-            opacity 500ms ease;
-        }
-
-        .cs-entrance:hover
-          .cs-entrance-visual,
-        .cs-entrance:focus-visible
-          .cs-entrance-visual {
-          opacity: 1;
-        }
-
-        /* ==================================================
-           11 / LIBRARY
-        ================================================== */
-
-        .cs-entrance-visual--library {
-          perspective: 800px;
-        }
-
-        .cs-library-field {
-          position: absolute;
-
-          inset:
-            5%
-            7%;
-
-          background:
+            ),
             repeating-linear-gradient(
               180deg,
               transparent 0,
-              transparent 28px,
-              rgba(
-                255,
-                255,
-                255,
-                0.038
-              )
-              29px,
-              transparent 30px
-            );
-
-          -webkit-mask-image:
-            linear-gradient(
-              90deg,
-              transparent,
-              black 14%,
-              black 86%,
-              transparent
-            );
-
-          mask-image:
-            linear-gradient(
-              90deg,
-              transparent,
-              black 14%,
-              black 86%,
-              transparent
-            );
-
-          opacity: 0.52;
-        }
-
-        .cs-library-line {
-          position: absolute;
-
-          height: 1px;
-
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(
-                255,
-                255,
-                255,
-                0.15
-              )
-              18%,
-              rgba(
-                255,
-                255,
-                255,
-                0.15
-              )
-              82%,
-              transparent
-            );
-        }
-
-        .cs-library-line--1 {
-          top: 8%;
-          left: 17%;
-          right: 17%;
-        }
-
-        .cs-library-line--2 {
-          top: 18%;
-          left: 10%;
-          right: 10%;
-        }
-
-        .cs-library-line--3 {
-          top: 29%;
-          left: 19%;
-          right: 8%;
-        }
-
-        .cs-library-line--4 {
-          top: 40%;
-          left: 7%;
-          right: 18%;
-        }
-
-        .cs-library-line--5 {
-          top: 51%;
-          left: 15%;
-          right: 11%;
-        }
-
-        .cs-library-line--6 {
-          top: 62%;
-          left: 9%;
-          right: 21%;
-        }
-
-        .cs-library-line--7 {
-          top: 73%;
-          left: 18%;
-          right: 9%;
-        }
-
-        .cs-library-line--8 {
-          top: 84%;
-          left: 11%;
-          right: 15%;
-        }
-
-        .cs-library-line--9 {
-          top: 94%;
-          left: 20%;
-          right: 20%;
-        }
-
-        .cs-library-axis {
-          position: absolute;
-
-          top: 2%;
-          bottom: 2%;
-
-          left: 50%;
-
-          width: 1px;
-
-          background:
-            linear-gradient(
-              transparent,
-              rgba(
-                255,
-                255,
-                255,
-                0.04
-              )
-              10%,
-              rgba(
-                255,
-                255,
-                255,
-                0.19
-              )
-              50%,
-              rgba(
-                255,
-                255,
-                255,
-                0.04
-              )
-              90%,
-              transparent
-            );
-        }
-
-        .cs-library-point {
-          position: absolute;
-
-          left: 50%;
-
-          width: 5px;
-          height: 5px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.56
-            );
-
-          box-shadow:
-            0 0 22px
-            rgba(
-              255,
-              255,
-              255,
-              0.14
-            );
-
-          transform:
-            translate(
-              -50%,
-              -50%
-            );
-        }
-
-        .cs-library-point--1 {
-          top: 8%;
-        }
-
-        .cs-library-point--2 {
-          top: 29%;
-        }
-
-        .cs-library-point--3 {
-          top: 51%;
-        }
-
-        .cs-library-point--4 {
-          top: 73%;
-        }
-
-        .cs-library-point--5 {
-          top: 94%;
-        }
-
-        .cs-library-depth {
-          position: absolute;
-
-          top: 50%;
-
-          width: 36%;
-          height: 76%;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.035
-            );
-
-          transform:
-            translateY(-50%)
-            skewY(-5deg);
-        }
-
-        .cs-library-depth--1 {
-          left: 10%;
-        }
-
-        .cs-library-depth--2 {
-          right: 10%;
-
-          transform:
-            translateY(-50%)
-            skewY(5deg);
-        }
-
-        .cs-library-depth--3 {
-          left: 31%;
-
-          width: 38%;
-
-          opacity: 0.48;
-
-          transform:
-            translateY(-50%);
-        }
-
-        /* ==================================================
-           12 / INTELLIGENCE
-        ================================================== */
-
-        .cs-entrance-visual--intelligence {
-          display: grid;
-          place-items: center;
-        }
-
-        .cs-intelligence-field {
-          position: absolute;
-
-          left: 50%;
-          top: 50%;
-
-          width: 80%;
-
-          aspect-ratio:
-            1 / 1;
-
-          transform:
-            translate(
-              -50%,
-              -50%
-            );
-
-          border-radius: 50%;
-
-          background:
-            radial-gradient(
-              circle,
-              rgba(
-                255,
-                255,
-                255,
-                0.052
-              ),
+              transparent 32px,
               rgba(
                 255,
                 255,
                 255,
                 0.012
               )
-              34%,
-              transparent 68%
-            );
-
-          opacity: 0.9;
-        }
-
-        .cs-intelligence-orbit {
-          position: absolute;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.085
-            );
-
-          border-radius: 50%;
-        }
-
-        .cs-intelligence-orbit--1 {
-          width: 88%;
-          aspect-ratio:
-            2.25 / 1;
-
-          transform:
-            rotate(-9deg);
-        }
-
-        .cs-intelligence-orbit--2 {
-          width: 72%;
-          aspect-ratio:
-            1.8 / 1;
-
-          transform:
-            rotate(18deg);
-        }
-
-        .cs-intelligence-orbit--3 {
-          width: 55%;
-          aspect-ratio:
-            1 / 1;
-        }
-
-        .cs-intelligence-orbit--4 {
-          width: 35%;
-          aspect-ratio:
-            1 / 1;
-
-          border-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.105
+              33px,
+              transparent 34px
             );
         }
 
-        .cs-intelligence-orbit--5 {
-          width: 18%;
-          aspect-ratio:
-            1 / 1;
-
-          border-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.13
-            );
-        }
-
-        .cs-intelligence-axis {
-          position: absolute;
-
-          width: 82%;
-          height: 1px;
-
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(
-                255,
-                255,
-                255,
-                0.085
-              ),
-              transparent
-            );
-        }
-
-        .cs-intelligence-axis--1 {
-          transform:
-            rotate(0deg);
-        }
-
-        .cs-intelligence-axis--2 {
-          transform:
-            rotate(31deg);
-        }
-
-        .cs-intelligence-axis--3 {
-          transform:
-            rotate(-31deg);
-        }
-
-        .cs-intelligence-axis--4 {
-          transform:
-            rotate(90deg);
-        }
-
-        .cs-intelligence-core {
-          position: absolute;
-
-          display: grid;
-          place-items: center;
-
-          width: 14px;
-          height: 14px;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.42
-            );
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.06
-            );
-
-          box-shadow:
-            0 0 34px
-            rgba(
-              255,
-              255,
-              255,
-              0.14
-            );
-        }
-
-        .cs-intelligence-core
-          span {
-          width: 3px;
-          height: 3px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.72
-            );
-        }
-
-        .cs-intelligence-node {
-          position: absolute;
-
-          width: 4px;
-          height: 4px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.45
-            );
-
-          box-shadow:
-            0 0 12px
-            rgba(
-              255,
-              255,
-              255,
-              0.08
-            );
-        }
-
-        .cs-intelligence-node--1 {
-          top: 16%;
-          left: 26%;
-        }
-
-        .cs-intelligence-node--2 {
-          top: 25%;
-          right: 14%;
-        }
-
-        .cs-intelligence-node--3 {
-          bottom: 20%;
-          left: 18%;
-        }
-
-        .cs-intelligence-node--4 {
-          bottom: 14%;
-          right: 28%;
-        }
-
-        .cs-intelligence-node--5 {
-          top: 48%;
-          right: 7%;
-        }
-
-        .cs-intelligence-node--6 {
-          top: 54%;
-          left: 7%;
-        }
-
-        .cs-intelligence-node--7 {
-          top: 8%;
-          left: 52%;
-        }
-
-        .cs-intelligence-node--8 {
-          bottom: 7%;
-          left: 48%;
-        }
-
-        /* ==================================================
-           13 / EXPERIENCE
-        ================================================== */
-
-        .cs-entrance-visual--experience {
-          perspective: 800px;
-        }
-
-        .cs-experience-field {
-          position: absolute;
-
-          left: 50%;
-          bottom: -82%;
-
-          width: 128%;
-
-          aspect-ratio:
-            1 / 1;
-
-          transform:
-            translateX(-50%);
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.065
-            );
-
-          border-radius: 50%;
-
+        .an-civilization-space-portal
+        .cs-entrance--intelligence
+        .cs-entrance__ambient {
           background:
             radial-gradient(
-              circle at 50% 0%,
+              circle at center,
               rgba(
                 255,
                 255,
                 255,
                 0.04
               ),
-              transparent 45%
+              rgba(
+                255,
+                255,
+                255,
+                0.008
+              )
+              28%,
+              transparent 62%
             );
         }
 
-        .cs-experience-horizon {
-          position: absolute;
+        .an-civilization-space-portal
+        .cs-entrance--experience
+        .cs-entrance__ambient {
+          background:
+            radial-gradient(
+              ellipse at 50% 115%,
+              rgba(
+                255,
+                255,
+                255,
+                0.045
+              ),
+              transparent 52%
+            );
+        }
+
+        .an-civilization-space-portal
+        .cs-entrance__reflection {
+          z-index: -1;
+
+          inset: 0;
+
+          background:
+            linear-gradient(
+              124deg,
+              transparent 7%,
+              transparent 31%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              )
+              44%,
+              transparent 59%
+            );
+
+          opacity: 0.62;
+        }
+
+        .an-civilization-space-portal
+        .cs-entrance__edge {
+          z-index: 0;
+
+          left: 10%;
+          right: 10%;
+          top: 0;
 
           height: 1px;
 
@@ -2521,204 +1685,29 @@ export default function CivilizationSpacePortal() {
                 255,
                 255,
                 255,
-                0.13
+                0.09
               ),
               transparent
             );
-        }
 
-        .cs-experience-horizon--1 {
-          top: 23%;
-          left: 5%;
-          right: 5%;
-        }
-
-        .cs-experience-horizon--2 {
-          top: 37%;
-          left: 10%;
-          right: 10%;
-        }
-
-        .cs-experience-horizon--3 {
-          top: 51%;
-          left: 16%;
-          right: 16%;
-        }
-
-        .cs-experience-horizon--4 {
-          top: 65%;
-          left: 23%;
-          right: 23%;
-        }
-
-        .cs-experience-horizon--5 {
-          top: 79%;
-          left: 31%;
-          right: 31%;
-        }
-
-        .cs-experience-arc {
-          position: absolute;
-
-          left: 50%;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.075
-            );
-
-          border-radius: 50%;
-
-          transform:
-            translateX(-50%);
-        }
-
-        .cs-experience-arc--1 {
-          top: 0;
-
-          width: 88%;
-          height: 98%;
-        }
-
-        .cs-experience-arc--2 {
-          top: 10%;
-
-          width: 68%;
-          height: 82%;
-        }
-
-        .cs-experience-arc--3 {
-          top: 21%;
-
-          width: 48%;
-          height: 62%;
-        }
-
-        .cs-experience-arc--4 {
-          top: 32%;
-
-          width: 28%;
-          height: 42%;
-        }
-
-        .cs-experience-path {
-          position: absolute;
-
-          left: 50%;
-          top: 23%;
-
-          width: 1px;
-          height: 59%;
-
-          background:
-            linear-gradient(
-              rgba(
-                255,
-                255,
-                255,
-                0.18
-              ),
-              rgba(
-                255,
-                255,
-                255,
-                0.025
-              )
-            );
-
-          transform:
-            translateX(-50%);
-        }
-
-        .cs-experience-origin,
-        .cs-experience-destination {
-          position: absolute;
-
-          top: 44%;
-
-          width: 5px;
-          height: 5px;
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.48
-            );
-        }
-
-        .cs-experience-origin {
-          left: 18%;
-        }
-
-        .cs-experience-destination {
-          right: 18%;
-
-          box-shadow:
-            0 0 30px
-            rgba(
-              255,
-              255,
-              255,
-              0.18
-            );
+          opacity: 0.45;
         }
 
         /* ==================================================
-           14 / COPY
+           10 / THE ONE SENTENCE
         ================================================== */
 
-        .cs-entrance__copy {
+        .an-civilization-space-portal
+        .cs-entrance__sentence {
           position: relative;
           z-index: 3;
 
-          grid-area: copy;
-
-          align-self: end;
-
-          padding-top:
-            clamp(
-              30px,
-              6vh,
-              70px
-            );
-        }
-
-        .cs-entrance__system {
-          display: block;
-
-          margin:
-            0
-            0
-            13px;
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.28
+          width:
+            min(
+              100%,
+              760px
             );
 
-          font-size: 7px;
-          font-weight: 500;
-          line-height: 1.2;
-
-          letter-spacing:
-            0.19em;
-
-          text-transform:
-            uppercase;
-        }
-
-        .cs-entrance__copy h3 {
           margin: 0;
 
           color:
@@ -2726,150 +1715,30 @@ export default function CivilizationSpacePortal() {
               255,
               255,
               255,
-              0.93
+              0.78
             );
 
           font-size:
             clamp(
-              34px,
-              4vw,
-              56px
+              20px,
+              2.15vw,
+              32px
             );
 
           font-weight: 300;
-          line-height: 0.96;
+
+          line-height: 1.48;
 
           letter-spacing:
-            -0.055em;
-        }
+            -0.028em;
 
-        .cs-entrance__copy p {
-          max-width: 31em;
+          text-align: center;
 
-          margin:
-            18px
-            0
-            0;
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.36
-            );
-
-          font-size:
-            clamp(
-              10px,
-              0.82vw,
-              12px
-            );
-
-          font-weight: 400;
-          line-height: 1.7;
-        }
-
-        /* ==================================================
-           15 / ENTER SPACE
-        ================================================== */
-
-        .cs-entrance__footer {
-          position: relative;
-          z-index: 3;
-
-          grid-area: footer;
-
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          gap: 18px;
-
-          align-self: end;
-
-          margin-top:
-            clamp(
-              22px,
-              3vh,
-              34px
-            );
-
-          padding-top: 16px;
-
-          border-top:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.045
-            );
-        }
-
-        .cs-entrance__footer
-          > span:first-child {
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.36
-            );
-
-          font-size: 7px;
-          font-weight: 500;
-          line-height: 1;
-
-          letter-spacing:
-            0.19em;
-
-          text-transform:
-            uppercase;
+          text-wrap: balance;
 
           transition:
-            color 300ms ease;
-        }
-
-        .cs-entrance__arrow {
-          display: grid;
-          place-items: center;
-
-          width: 34px;
-          height: 34px;
-
-          border:
-            1px solid
-            rgba(
-              255,
-              255,
-              255,
-              0.075
-            );
-
-          border-radius: 50%;
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.008
-            );
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.46
-            );
-
-          transition:
-            border-color 300ms ease,
-            background 300ms ease,
-            color 300ms ease,
-            transform 400ms
+            color 420ms ease,
+            transform 520ms
               cubic-bezier(
                 0.22,
                 1,
@@ -2878,67 +1747,42 @@ export default function CivilizationSpacePortal() {
               );
         }
 
-        .cs-entrance__arrow svg {
-          width: 14px;
-          height: 14px;
-        }
-
+        .an-civilization-space-portal
         .cs-entrance:hover
-          .cs-entrance__footer
-          > span:first-child,
+        .cs-entrance__sentence,
+        .an-civilization-space-portal
         .cs-entrance:focus-visible
-          .cs-entrance__footer
-          > span:first-child {
+        .cs-entrance__sentence {
           color:
             rgba(
               255,
               255,
               255,
-              0.66
-            );
-        }
-
-        .cs-entrance:hover
-          .cs-entrance__arrow,
-        .cs-entrance:focus-visible
-          .cs-entrance__arrow {
-          border-color:
-            rgba(
-              255,
-              255,
-              255,
-              0.18
-            );
-
-          background:
-            rgba(
-              255,
-              255,
-              255,
-              0.025
-            );
-
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.9
+              0.96
             );
 
           transform:
-            translateX(3px);
+            translateY(-2px);
         }
 
         /* ==================================================
-           16 / NAVIGATION
+           11 / NAVIGATION
 
-           Navigation remains OUTSIDE the entrance frame.
+           EXACT WORKMODELS GEOMETRY
+
+           navigation min-height : 55px
+           dot                   : 34 x 38px
+           inactive line         : 16 x 2px
+           active line           : 25 x 2px
+           arrow button          : 52 x 42px
+           arrow SVG             : 38 x 16px
+           arrow gap             : 12px
         ================================================== */
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__navigation {
           position: relative;
-          z-index: 4;
+          z-index: 20;
 
           display: flex;
           flex: 0 0 auto;
@@ -2954,16 +1798,17 @@ export default function CivilizationSpacePortal() {
               1100px
             );
 
-          min-height: 54px;
+          min-height: 55px;
 
           margin:
             0 auto;
 
-          padding-top: 11px;
+          padding-top: 12px;
 
           background: transparent;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__pagination {
           display: flex;
           align-items: center;
@@ -2971,6 +1816,7 @@ export default function CivilizationSpacePortal() {
           gap: 4px;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__dot {
           display: grid;
           place-items: center;
@@ -2989,8 +1835,9 @@ export default function CivilizationSpacePortal() {
           cursor: pointer;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__dot
-          span {
+        span {
           width: 16px;
           height: 2px;
 
@@ -3009,8 +1856,9 @@ export default function CivilizationSpacePortal() {
             background 180ms ease;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__dot.is-active
-          span {
+        span {
           width: 25px;
 
           background:
@@ -3022,6 +1870,7 @@ export default function CivilizationSpacePortal() {
             );
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__arrows {
           display: flex;
           align-items: center;
@@ -3029,6 +1878,7 @@ export default function CivilizationSpacePortal() {
           gap: 12px;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__nav-arrow {
           display: grid;
           place-items: center;
@@ -3038,12 +1888,6 @@ export default function CivilizationSpacePortal() {
 
           padding: 0;
 
-          border: 0;
-          border-radius: 0;
-
-          background:
-            transparent;
-
           color:
             rgba(
               255,
@@ -3052,25 +1896,35 @@ export default function CivilizationSpacePortal() {
               0.88
             );
 
+          background:
+            transparent;
+
+          border: 0;
+          border-radius: 0;
+
           cursor: pointer;
 
           transition:
             opacity 180ms ease;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__nav-arrow
-          svg {
+        svg {
           width: 38px;
           height: 16px;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__nav-arrow:disabled {
           opacity: 0.22;
 
           cursor: default;
         }
 
+        .an-civilization-space-portal
         .an-civilization-space-portal__dot:focus-visible,
+        .an-civilization-space-portal
         .an-civilization-space-portal__nav-arrow:focus-visible {
           outline:
             2px solid
@@ -3085,12 +1939,11 @@ export default function CivilizationSpacePortal() {
         }
 
         /* ==================================================
-           17 / TABLET
+           12 / TABLET
         ================================================== */
 
-        @media (
-          max-width: 980px
-        ) {
+        @media (max-width: 980px) {
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro {
             grid-template-columns:
               minmax(
@@ -3105,35 +1958,22 @@ export default function CivilizationSpacePortal() {
             gap: 36px;
           }
 
+          .an-civilization-space-portal
           .cs-entrance {
-            grid-template-columns:
-              minmax(
-                0,
-                1fr
-              )
-              minmax(
-                220px,
-                0.85fr
+            width:
+              min(
+                100%,
+                760px
               );
-
-            column-gap: 34px;
           }
         }
 
         /* ==================================================
-           18 / MOBILE
-
-           Same architecture:
-             one frame
-             one active space
-             navigation outside
-
-           No 3-card stack.
+           13 / MOBILE
         ================================================== */
 
-        @media (
-          max-width: 768px
-        ) {
+        @media (max-width: 768px) {
+          .an-civilization-space-portal
           .an-civilization-space-portal__surface {
             min-height:
               min(
@@ -3149,10 +1989,12 @@ export default function CivilizationSpacePortal() {
             border-radius: 24px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__eyebrow {
             font-size: 8px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__principle {
             margin-top: 1px;
 
@@ -3162,6 +2004,7 @@ export default function CivilizationSpacePortal() {
               0.13em;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__heading {
             display: block;
 
@@ -3169,12 +2012,14 @@ export default function CivilizationSpacePortal() {
             margin-bottom: 16px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro {
             display: block;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro
-            h2 {
+          h2 {
             font-size:
               clamp(
                 31px,
@@ -3183,8 +2028,9 @@ export default function CivilizationSpacePortal() {
               );
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro
-            p {
+          p {
             max-width: 31em;
 
             margin-top: 13px;
@@ -3193,6 +2039,7 @@ export default function CivilizationSpacePortal() {
             line-height: 1.62;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__counter {
             display: block;
 
@@ -3203,153 +2050,139 @@ export default function CivilizationSpacePortal() {
             font-size: 10px;
           }
 
+          /* ================================================
+             SAME STAGE MATERIAL AS WORKMODELS MOBILE
+          ================================================ */
+
+          .an-civilization-space-portal
           .an-civilization-space-portal__stage {
             flex: 1 1 auto;
 
             width: 100%;
             min-height: 0;
+            max-height: 100%;
 
             padding:
-              9px;
+              12px
+              8px
+              8px;
 
-            border-radius: 18px;
+            overflow: hidden;
+
+            border-radius: 17px;
+
+            overscroll-behavior:
+              contain;
+
+            touch-action:
+              pan-y;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__active-frame {
             min-height: 0;
           }
 
+          .an-civilization-space-portal
           .cs-entrance {
-            grid-template-columns:
-              1fr;
+            width: 100%;
 
-            grid-template-rows:
-              auto
-              minmax(
-                105px,
-                1fr
-              )
-              auto
-              auto;
-
-            grid-template-areas:
-              "header"
-              "visual"
-              "copy"
-              "footer";
-
-            min-height: 0;
-            height: 100%;
+            min-height:
+              clamp(
+                180px,
+                27svh,
+                250px
+              );
 
             padding:
-              18px;
+              clamp(
+                27px,
+                7vw,
+                42px
+              )
+              clamp(
+                21px,
+                6vw,
+                34px
+              );
 
             border-radius: 16px;
           }
 
-          .cs-entrance-visual {
-            min-height: 105px;
+          .an-civilization-space-portal
+          .cs-entrance__sentence {
+            width:
+              min(
+                100%,
+                520px
+              );
 
-            margin:
-              12px
-              0
-              10px;
-          }
-
-          .cs-entrance__copy {
-            align-self: auto;
-
-            padding-top: 0;
-          }
-
-          .cs-entrance__system {
-            margin-bottom: 8px;
-
-            font-size: 6.5px;
-          }
-
-          .cs-entrance__copy
-            h3 {
             font-size:
               clamp(
-                27px,
-                8.2vw,
-                34px
+                17px,
+                5.25vw,
+                23px
               );
+
+            line-height: 1.48;
+
+            letter-spacing:
+              -0.025em;
           }
 
-          .cs-entrance__copy
-            p {
-            margin-top: 10px;
+          /* ================================================
+             WORKMODELS MOBILE NAVIGATION HEIGHT
+          ================================================ */
 
-            font-size: 9.5px;
-            line-height: 1.58;
-          }
-
-          .cs-entrance__footer {
-            margin-top: 11px;
-
-            padding-top: 10px;
-          }
-
-          .cs-entrance__arrow {
-            width: 30px;
-            height: 30px;
-          }
-
+          .an-civilization-space-portal
           .an-civilization-space-portal__navigation {
-            min-height: 47px;
+            flex: 0 0 auto;
 
-            padding-top: 7px;
+            min-height: 51px;
+
+            padding-top: 9px;
           }
 
-          .an-civilization-space-portal__dot {
-            width: 29px;
-            height: 32px;
-          }
-
-          .an-civilization-space-portal__nav-arrow {
-            width: 44px;
-            height: 38px;
-          }
-
-          .an-civilization-space-portal__nav-arrow
-            svg {
-            width: 32px;
-          }
-
+          .an-civilization-space-portal
           .an-civilization-space-portal__grid {
             background-size:
               54px 54px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__orbit {
             opacity: 0.12;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__orbit
-            span {
+          span {
             width: 150vw;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__orbit
-            span:nth-child(2) {
+          span:nth-child(2) {
             width: 122vw;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__orbit
-            span:nth-child(3) {
+          span:nth-child(3) {
             width: 94vw;
           }
         }
 
         /* ==================================================
-           19 / SMALL MOBILE
+           14 / SMALL MOBILE
+
+           Matches WorkModels:
+             arrow width 44px
+             svg width 32px
         ================================================== */
 
-        @media (
-          max-width: 430px
-        ) {
+        @media (max-width: 430px) {
+          .an-civilization-space-portal
           .an-civilization-space-portal__surface {
             padding:
               22px
@@ -3359,13 +2192,15 @@ export default function CivilizationSpacePortal() {
             border-radius: 22px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__heading {
             margin-top: 21px;
             margin-bottom: 14px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro
-            h2 {
+          h2 {
             font-size:
               clamp(
                 29px,
@@ -3374,71 +2209,71 @@ export default function CivilizationSpacePortal() {
               );
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro
-            p {
+          p {
             margin-top: 11px;
 
             font-size: 9.5px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__counter {
             margin-top: 12px;
 
             font-size: 9px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__stage {
-            padding: 7px;
+            padding:
+              10px
+              6px
+              7px;
           }
 
+          .an-civilization-space-portal
           .cs-entrance {
-            padding: 16px;
+            min-height: 170px;
+
+            padding:
+              25px
+              20px;
           }
 
-          .cs-entrance-visual {
-            min-height: 96px;
+          .an-civilization-space-portal
+          .cs-entrance__sentence {
+            font-size:
+              clamp(
+                16px,
+                5vw,
+                20px
+              );
 
-            margin-top: 9px;
-            margin-bottom: 8px;
+            line-height: 1.5;
           }
 
-          .cs-entrance__copy
-            h3 {
-            font-size: 27px;
-          }
-
-          .cs-entrance__copy
-            p {
-            font-size: 9px;
-          }
-
-          .cs-entrance__footer
-            > span:first-child {
-            font-size: 6.5px;
-          }
-
-          .an-civilization-space-portal__navigation {
-            min-height: 43px;
-          }
-
+          .an-civilization-space-portal
           .an-civilization-space-portal__nav-arrow {
-            width: 40px;
+            width: 44px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__nav-arrow
-            svg {
-            width: 29px;
+          svg {
+            width: 32px;
           }
         }
 
         /* ==================================================
-           20 / SHORT MOBILE VIEWPORT
+           15 / SHORT MOBILE
         ================================================== */
 
         @media
           (max-width: 768px)
           and (max-height: 720px) {
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__surface {
             min-height: 610px;
 
@@ -3446,93 +2281,87 @@ export default function CivilizationSpacePortal() {
             padding-bottom: 10px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__heading {
             margin-top: 16px;
             margin-bottom: 11px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro
-            h2 {
+          h2 {
             font-size: 32px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__intro
-            p {
+          p {
             margin-top: 8px;
 
             line-height: 1.45;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__counter {
             margin-top: 8px;
           }
 
+          .an-civilization-space-portal
           .an-civilization-space-portal__stage {
-            padding: 6px;
+            padding-top: 8px;
+            padding-bottom: 6px;
           }
 
+          .an-civilization-space-portal
           .cs-entrance {
-            padding: 14px;
+            min-height: 145px;
 
-            grid-template-rows:
-              auto
-              minmax(
-                82px,
-                1fr
-              )
-              auto
-              auto;
+            padding:
+              22px
+              20px;
           }
 
-          .cs-entrance-visual {
-            min-height: 82px;
-
-            margin-top: 6px;
-            margin-bottom: 6px;
-          }
-
-          .cs-entrance__system {
-            margin-bottom: 6px;
-          }
-
-          .cs-entrance__copy
-            h3 {
-            font-size: 25px;
-          }
-
-          .cs-entrance__copy
-            p {
-            margin-top: 7px;
+          .an-civilization-space-portal
+          .cs-entrance__sentence {
+            font-size:
+              clamp(
+                15px,
+                4.7vw,
+                19px
+              );
 
             line-height: 1.45;
           }
 
-          .cs-entrance__footer {
-            margin-top: 7px;
-
-            padding-top: 8px;
-          }
-
+          /*
+           * WorkModels short-mobile navigation geometry.
+           */
+          .an-civilization-space-portal
           .an-civilization-space-portal__navigation {
-            min-height: 38px;
+            min-height: 46px;
 
-            padding-top: 4px;
+            padding-top: 5px;
           }
         }
 
         /* ==================================================
-           21 / REDUCED MOTION
+           16 / REDUCED MOTION
         ================================================== */
 
         @media (
           prefers-reduced-motion:
           reduce
         ) {
+          .an-civilization-space-portal
           .an-civilization-space-portal__active-frame,
+          .an-civilization-space-portal
           .cs-entrance,
+          .an-civilization-space-portal
           .cs-entrance *,
+          .an-civilization-space-portal
           .an-civilization-space-portal__dot
-            span,
+          span,
+          .an-civilization-space-portal
           .an-civilization-space-portal__nav-arrow {
             animation:
               none !important;
