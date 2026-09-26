@@ -19,33 +19,39 @@ type ChapterTarget = {
 };
 
 /* ==========================================================
-   CHAPTERS
+   HOME ENVIRONMENTS
+
+   ARCHENOVA CONCEPT
+      ├─ Foundational Purpose
+      ├─ Ideal User / Human Agency
+      └─ ArcheNova World
+         ↓
+      These remain internal to the Concept environment.
+      They are NOT separate HOME pager targets.
 
    MAP
-   → HORIZON
-   → ARCHENOVA WORLD
-   → STILLNESS
-   → FOUNDER
    → INQUIRY
    → PERMANENT INQUIRY
-   → WORKS
    → MODELS
    → CIVILIZATION
    → VALLEY
+
+   IMPORTANT
+
+   HomeSectionPager navigates only the major HOME
+   environments.
+
+   ArcheNova Concept is therefore represented by ONE
+   navigation target regardless of whether its internal
+   content is expanded or collapsed.
 ========================================================== */
 
 const CHAPTER_TARGETS: readonly ChapterTarget[] = [
   {
-  id: "archenova-civilization-prelude",
-  mark: "✦",
-  title: "PURPOSE",
-  subtitle: "A Digital Twin of Civilization.",
-},
-  {
-    id: "archenova-world",
-    mark: "❂",
-    title: "ARCHENOVA WORLD",
-    subtitle: "Imagine what we can build.",
+    id: "archenova-concept",
+    mark: "✦",
+    title: "CONCEPT",
+    subtitle: "What is ArcheNova?",
   },
   {
     id: "archenova-search-section",
@@ -67,13 +73,13 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
   },
   {
     id: "work-models",
-    mark: "⏣",
+    mark: "⎅",
     title: "MODELS",
     subtitle: "What can we imagine?",
   },
   {
     id: "civilization-space",
-    mark: "⧫",
+    mark: "❂",
     title: "CIVILIZATION",
     subtitle: "What can we build?",
   },
@@ -90,16 +96,22 @@ const CHAPTER_TARGETS: readonly ChapterTarget[] = [
 ========================================================== */
 
 function scrollToChapter(id: string) {
-  const element = document.getElementById(id);
+  const element =
+    document.getElementById(id);
 
   if (!element) return;
 
-  const reducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)",
-  ).matches;
+  const reducedMotion =
+    window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
 
   element.scrollIntoView({
-    behavior: reducedMotion ? "auto" : "smooth",
+    behavior:
+      reducedMotion
+        ? "auto"
+        : "smooth",
+
     block: "start",
   });
 }
@@ -109,92 +121,148 @@ function scrollToChapter(id: string) {
 ========================================================== */
 
 export default function HomeSectionPager() {
-  const [activeId, setActiveId] = useState<string>(
-    CHAPTER_TARGETS[0].id,
-  );
+  const [activeId, setActiveId] =
+    useState<string>(
+      CHAPTER_TARGETS[0].id,
+    );
 
-  const activeIdRef = useRef<string>(
-    CHAPTER_TARGETS[0].id,
-  );
+  const activeIdRef =
+    useRef<string>(
+      CHAPTER_TARGETS[0].id,
+    );
 
-  const targets = useMemo(
-    () => CHAPTER_TARGETS,
-    [],
-  );
+  const targets =
+    useMemo(
+      () => CHAPTER_TARGETS,
+      [],
+    );
 
   useEffect(() => {
-    activeIdRef.current = activeId;
+    activeIdRef.current =
+      activeId;
   }, [activeId]);
 
   /* ========================================================
      ACTIVE SECTION DETECTION
+
+     Only IDs explicitly declared in CHAPTER_TARGETS are
+     observed.
+
+     Therefore internal Concept environments do not become
+     independent HOME navigation destinations.
   ======================================================== */
 
   useEffect(() => {
     const elements = targets
       .map((target) =>
-        document.getElementById(target.id),
+        document.getElementById(
+          target.id,
+        ),
       )
       .filter(
-        (element): element is HTMLElement =>
+        (
+          element,
+        ): element is HTMLElement =>
           Boolean(element),
       );
 
-    if (elements.length === 0) return;
+    if (elements.length === 0) {
+      return;
+    }
 
-    const ratios = new Map<string, number>();
+    const ratios =
+      new Map<string, number>();
 
-    elements.forEach((element) => {
-      ratios.set(element.id, 0);
-    });
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          ratios.set(
-            entry.target.id,
-            entry.isIntersecting
-              ? entry.intersectionRatio
-              : 0,
-          );
-        });
-
-        let strongestId = activeIdRef.current;
-        let strongestRatio = 0;
-
-        targets.forEach((target) => {
-          const ratio = ratios.get(target.id) ?? 0;
-
-          if (ratio > strongestRatio) {
-            strongestRatio = ratio;
-            strongestId = target.id;
-          }
-        });
-
-        if (strongestRatio <= 0) return;
-
-        if (strongestId !== activeIdRef.current) {
-          activeIdRef.current = strongestId;
-          setActiveId(strongestId);
-        }
-      },
-      {
-        threshold: [
-          0.05,
-          0.12,
-          0.2,
-          0.32,
-          0.45,
-          0.6,
-          0.75,
-        ],
-        rootMargin: "-5% 0px -5% 0px",
+    elements.forEach(
+      (element) => {
+        ratios.set(
+          element.id,
+          0,
+        );
       },
     );
 
-    elements.forEach((element) => {
-      observer.observe(element);
-    });
+    const observer =
+      new IntersectionObserver(
+        (entries) => {
+          entries.forEach(
+            (entry) => {
+              ratios.set(
+                entry.target.id,
+
+                entry.isIntersecting
+                  ? entry.intersectionRatio
+                  : 0,
+              );
+            },
+          );
+
+          let strongestId =
+            activeIdRef.current;
+
+          let strongestRatio = 0;
+
+          targets.forEach(
+            (target) => {
+              const ratio =
+                ratios.get(
+                  target.id,
+                ) ?? 0;
+
+              if (
+                ratio >
+                strongestRatio
+              ) {
+                strongestRatio =
+                  ratio;
+
+                strongestId =
+                  target.id;
+              }
+            },
+          );
+
+          if (
+            strongestRatio <= 0
+          ) {
+            return;
+          }
+
+          if (
+            strongestId !==
+            activeIdRef.current
+          ) {
+            activeIdRef.current =
+              strongestId;
+
+            setActiveId(
+              strongestId,
+            );
+          }
+        },
+        {
+          threshold: [
+            0.05,
+            0.12,
+            0.2,
+            0.32,
+            0.45,
+            0.6,
+            0.75,
+          ],
+
+          rootMargin:
+            "-5% 0px -5% 0px",
+        },
+      );
+
+    elements.forEach(
+      (element) => {
+        observer.observe(
+          element,
+        );
+      },
+    );
 
     return () => {
       observer.disconnect();
@@ -205,15 +273,24 @@ export default function HomeSectionPager() {
      CURRENT POSITION
   ======================================================== */
 
-  const currentIndex = targets.findIndex(
-    (target) => target.id === activeId,
-  );
+  const currentIndex =
+    targets.findIndex(
+      (target) =>
+        target.id === activeId,
+    );
 
   const safeCurrentIndex =
-    currentIndex >= 0 ? currentIndex : 0;
+    currentIndex >= 0
+      ? currentIndex
+      : 0;
 
   const previousTarget =
-    targets[Math.max(0, safeCurrentIndex - 1)];
+    targets[
+      Math.max(
+        0,
+        safeCurrentIndex - 1,
+      )
+    ];
 
   const nextTarget =
     targets[
@@ -223,10 +300,12 @@ export default function HomeSectionPager() {
       )
     ];
 
-  const isFirst = safeCurrentIndex === 0;
+  const isFirst =
+    safeCurrentIndex === 0;
 
   const isLast =
-    safeCurrentIndex === targets.length - 1;
+    safeCurrentIndex ===
+    targets.length - 1;
 
   /* ========================================================
      UI
@@ -237,17 +316,25 @@ export default function HomeSectionPager() {
       className="chapter-navigator"
       aria-label="ArcheNova HOME navigation"
     >
+      {/* ====================================================
+          PREVIOUS
+      ==================================================== */}
+
       <button
         type="button"
         className={[
           "chapter-nav-arrow",
-          isFirst ? "is-edge" : "",
+          isFirst
+            ? "is-edge"
+            : "",
         ]
           .filter(Boolean)
           .join(" ")}
         onClick={() => {
           if (!isFirst) {
-            scrollToChapter(previousTarget.id);
+            scrollToChapter(
+              previousTarget.id,
+            );
           }
         }}
         aria-label={
@@ -260,57 +347,87 @@ export default function HomeSectionPager() {
         ↑
       </button>
 
+      {/* ====================================================
+          HOME ENVIRONMENT LIST
+      ==================================================== */}
+
       <div className="chapter-nav-list">
-        {targets.map((target) => {
-          const active = activeId === target.id;
+        {targets.map(
+          (target) => {
+            const active =
+              activeId ===
+              target.id;
 
-          return (
-            <button
-              key={target.id}
-              type="button"
-              className={[
-                "chapter-nav-item",
-                active ? "active" : "",
-              ]
-                .filter(Boolean)
-                .join(" ")}
-              onClick={() => {
-                scrollToChapter(target.id);
-              }}
-              aria-label={`Go to ${target.title}`}
-              aria-current={
-                active ? "page" : undefined
-              }
-              title={`${target.title} · ${target.subtitle}`}
-            >
-              <span
-                className="chapter-nav-mark"
-                aria-hidden="true"
+            return (
+              <button
+                key={target.id}
+                type="button"
+                className={[
+                  "chapter-nav-item",
+                  active
+                    ? "active"
+                    : "",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
+                onClick={() => {
+                  scrollToChapter(
+                    target.id,
+                  );
+                }}
+                aria-label={
+                  `Go to ${target.title}`
+                }
+                aria-current={
+                  active
+                    ? "page"
+                    : undefined
+                }
+                title={
+                  `${target.title} · ${target.subtitle}`
+                }
               >
-                {target.mark}
-              </span>
+                <span
+                  className="chapter-nav-mark"
+                  aria-hidden="true"
+                >
+                  {target.mark}
+                </span>
 
-              <span className="chapter-nav-copy">
-                <strong>{target.title}</strong>
+                <span className="chapter-nav-copy">
+                  <strong>
+                    {target.title}
+                  </strong>
 
-                <small>{target.subtitle}</small>
-              </span>
-            </button>
-          );
-        })}
+                  <small>
+                    {target.subtitle}
+                  </small>
+                </span>
+              </button>
+            );
+          },
+        )}
       </div>
+
+      {/* ====================================================
+          NEXT
+      ==================================================== */}
 
       <button
         type="button"
         className={[
           "chapter-nav-arrow",
-          isLast ? "is-edge" : "",
+          isLast
+            ? "is-edge"
+            : "",
         ]
           .filter(Boolean)
           .join(" ")}
         onClick={() => {
           if (!isLast) {
-            scrollToChapter(nextTarget.id);
+            scrollToChapter(
+              nextTarget.id,
+            );
           }
         }}
         aria-label={

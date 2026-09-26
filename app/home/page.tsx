@@ -27,23 +27,22 @@ export default function HomePage() {
       <HomeSectionPager />
 
       {/* ==================================================
-          00 — ARCHENOVA CONCEPT
+    00 — ARCHENOVA CONCEPT
 
-          Closed:
-            One quiet Concept entrance.
+    HOME section owns the single visible glass.
+    ArcheNovaConceptPortal itself remains transparent.
+================================================== */}
 
-          Open:
-            Purpose
-              ↓
-            Ideal User / Human Agency
-              ↓
-            ArcheNova World
-
-          The three original environments are mounted only
-          while ArcheNova Concept is open.
-      ================================================== */}
-
-      <ArcheNovaConceptPortal />
+<section
+  id="archenova-concept"
+  data-home-section
+  className="home-page twin-page arche-nova-concept-page an-home-2026__section"
+  aria-label="ArcheNova Concept"
+>
+  <div className="an-home-2026__glass">
+    <ArcheNovaConceptPortal />
+  </div>
+</section>
 
       
 
