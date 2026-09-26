@@ -96,6 +96,11 @@ const PROFILES: readonly Profile[] = [
 const PROFILE_COUNT =
   PROFILES.length;
 
+type FramePosition =
+  | "start"
+  | "fixed"
+  | "end";
+
 function clamp(
   value: number,
   min: number,
@@ -107,12 +112,58 @@ function clamp(
   );
 }
 
+function getFrameStyle(
+  position: FramePosition,
+): CSSProperties {
+  const common: CSSProperties = {
+    left: 0,
+    right: 0,
+    width: "100%",
+    height: "100svh",
+    minHeight: "100svh",
+    maxHeight: "100svh",
+    opacity: 1,
+    visibility: "visible",
+  };
+
+  if (position === "fixed") {
+    return {
+      ...common,
+      position: "fixed",
+      top: 0,
+      bottom: "auto",
+      zIndex: 40,
+    };
+  }
+
+  if (position === "end") {
+    return {
+      ...common,
+      position: "absolute",
+      top: "auto",
+      bottom: 0,
+      zIndex: 1,
+    };
+  }
+
+  return {
+    ...common,
+    position: "absolute",
+    top: 0,
+    bottom: "auto",
+    zIndex: 1,
+  };
+}
+
 export default function ArcheNovaIdealUserPrelude() {
   const sectionRef =
     useRef<HTMLElement | null>(null);
 
   const [activeIndex, setActiveIndex] =
     useState(0);
+
+  const [framePosition, setFramePosition] =
+    useState<FramePosition>("start");
 
   useEffect(() => {
     const section =
@@ -121,7 +172,12 @@ export default function ArcheNovaIdealUserPrelude() {
     if (!section) return;
 
     let animationFrame = 0;
+
     let lastIndex = -1;
+
+    let lastPosition:
+      | FramePosition
+      | null = null;
 
     const update = () => {
       const rect =
@@ -130,17 +186,28 @@ export default function ArcheNovaIdealUserPrelude() {
       const viewportHeight =
         window.innerHeight;
 
-      /*
-       * The complete section remains the scroll territory.
-       *
-       * The visual frame itself remains one persistent
-       * sticky viewport frame for all profiles.
-       */
+      const frameHeight =
+        viewportHeight;
+
       const travel =
         Math.max(
           1,
-          rect.height - viewportHeight,
+          rect.height - frameHeight,
         );
+
+      let nextPosition:
+        FramePosition;
+
+      if (rect.top >= 0) {
+        nextPosition = "start";
+      } else if (
+        rect.bottom <=
+        frameHeight
+      ) {
+        nextPosition = "end";
+      } else {
+        nextPosition = "fixed";
+      }
 
       const travelled =
         clamp(
@@ -149,10 +216,6 @@ export default function ArcheNovaIdealUserPrelude() {
           travel,
         );
 
-      /*
-       * Divide the complete scroll journey
-       * into equal profile territories.
-       */
       const progress =
         travel > 0
           ? travelled / travel
@@ -167,6 +230,18 @@ export default function ArcheNovaIdealUserPrelude() {
           0,
           PROFILE_COUNT - 1,
         );
+
+      if (
+        nextPosition !==
+        lastPosition
+      ) {
+        lastPosition =
+          nextPosition;
+
+        setFramePosition(
+          nextPosition,
+        );
+      }
 
       if (
         nextIndex !==
@@ -227,51 +302,22 @@ export default function ArcheNovaIdealUserPrelude() {
         } as CSSProperties
       }
     >
-      {/* ==================================================
-          ONE PERSISTENT VIEWPORT FRAME
-
-          No:
-          - start state
-          - fixed state
-          - end state
-          - position switching
-          - z-index switching
-
-          The same frame and the same glass remain alive
-          throughout the complete profile journey.
-      ================================================== */}
-
       <div
-        className="an-ideal-user__frame"
-        style={
-          {
-            position: "sticky",
-            top: 0,
-            left: 0,
-            right: 0,
-
-            width: "100%",
-
-            height: "100svh",
-            minHeight: "100svh",
-            maxHeight: "100svh",
-
-            opacity: 1,
-            visibility: "visible",
-
-            zIndex: 40,
-          } as CSSProperties
+        className={[
+          "an-ideal-user__frame",
+          `an-ideal-user__frame--${framePosition}`,
+        ].join(" ")}
+        data-frame-position={
+          framePosition
         }
+        style={getFrameStyle(
+          framePosition,
+        )}
       >
         <div className="an-ideal-user__glass">
-          {/* ==============================================
-              SAME ARTICLE DOM
-
-              No profile key.
-              React updates only its content.
-          ============================================== */}
-
-          <article className="an-ideal-user__chapter">
+          <article
+  className="an-ideal-user__chapter"
+>
             <h2 className="an-ideal-user__title">
               {profile.title}
             </h2>

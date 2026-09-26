@@ -86,6 +86,11 @@ const CHAPTERS: readonly Chapter[] = [
 
 const CHAPTER_COUNT = CHAPTERS.length;
 
+type FramePosition =
+  | "start"
+  | "fixed"
+  | "end";
+
 function clamp(
   value: number,
   min: number,
@@ -97,6 +102,49 @@ function clamp(
   );
 }
 
+function getFrameStyle(
+  position: FramePosition,
+): CSSProperties {
+  const common: CSSProperties = {
+    left: 0,
+    right: 0,
+    width: "100%",
+    height: "100svh",
+    minHeight: "100svh",
+    maxHeight: "100svh",
+    opacity: 1,
+    visibility: "visible",
+  };
+
+  if (position === "fixed") {
+    return {
+      ...common,
+      position: "fixed",
+      top: 0,
+      bottom: "auto",
+      zIndex: 40,
+    };
+  }
+
+  if (position === "end") {
+    return {
+      ...common,
+      position: "absolute",
+      top: "auto",
+      bottom: 0,
+      zIndex: 1,
+    };
+  }
+
+  return {
+    ...common,
+    position: "absolute",
+    top: 0,
+    bottom: "auto",
+    zIndex: 1,
+  };
+}
+
 export default function ArcheNovaCivilizationPrelude() {
   const sectionRef =
     useRef<HTMLElement | null>(null);
@@ -104,14 +152,21 @@ export default function ArcheNovaCivilizationPrelude() {
   const [activeIndex, setActiveIndex] =
     useState(0);
 
+  const [framePosition, setFramePosition] =
+    useState<FramePosition>("start");
+
   useEffect(() => {
-    const section =
-      sectionRef.current;
+    const section = sectionRef.current;
 
     if (!section) return;
 
     let animationFrame = 0;
+
     let lastIndex = -1;
+
+    let lastPosition:
+      | FramePosition
+      | null = null;
 
     const update = () => {
       const rect =
@@ -120,19 +175,40 @@ export default function ArcheNovaCivilizationPrelude() {
       const viewportHeight =
         window.innerHeight;
 
-      /*
-       * The section is the complete scroll territory.
-       *
-       * The visual frame itself remains one persistent
-       * sticky viewport frame for the entire journey.
-       *
-       * Only the active chapter changes.
-       */
+      const frameHeight =
+        viewportHeight;
+
       const travel =
         Math.max(
           1,
-          rect.height - viewportHeight,
+          rect.height - frameHeight,
         );
+
+      let nextPosition:
+        FramePosition;
+
+      /*
+       * BEFORE / AT START
+       */
+      if (rect.top >= 0) {
+        nextPosition = "start";
+      }
+
+      /*
+       * AFTER / AT END
+       */
+      else if (
+        rect.bottom <= frameHeight
+      ) {
+        nextPosition = "end";
+      }
+
+      /*
+       * INSIDE SCROLL JOURNEY
+       */
+      else {
+        nextPosition = "fixed";
+      }
 
       const travelled =
         clamp(
@@ -142,8 +218,8 @@ export default function ArcheNovaCivilizationPrelude() {
         );
 
       /*
-       * Divide the complete scroll journey
-       * into equal chapter territories.
+       * Divide the COMPLETE scroll journey
+       * into five equal chapter territories.
        */
       const progress =
         travel > 0
@@ -159,6 +235,18 @@ export default function ArcheNovaCivilizationPrelude() {
           0,
           CHAPTER_COUNT - 1,
         );
+
+      if (
+        nextPosition !==
+        lastPosition
+      ) {
+        lastPosition =
+          nextPosition;
+
+        setFramePosition(
+          nextPosition,
+        );
+      }
 
       if (
         nextIndex !==
@@ -205,62 +293,28 @@ export default function ArcheNovaCivilizationPrelude() {
           position: "relative",
           display: "block",
           width: "100%",
-
-          height:
-            `${CHAPTER_COUNT * 100}svh`,
-
-          minHeight:
-            `${CHAPTER_COUNT * 100}svh`,
-
+          height: `${CHAPTER_COUNT * 100}svh`,
+          minHeight: `${CHAPTER_COUNT * 100}svh`,
           overflow: "visible",
         } as CSSProperties
       }
     >
-      {/* ==================================================
-          ONE PERSISTENT VIEWPORT FRAME
-
-          No:
-          - start state
-          - fixed state
-          - end state
-          - position switching
-          - z-index switching
-
-          The same frame and the same glass remain alive
-          throughout the complete chapter journey.
-      ================================================== */}
-
       <div
-        className="an-civilization-purpose__frame"
-        style={
-          {
-            position: "sticky",
-            top: 0,
-            left: 0,
-            right: 0,
-
-            width: "100%",
-
-            height: "100svh",
-            minHeight: "100svh",
-            maxHeight: "100svh",
-
-            opacity: 1,
-            visibility: "visible",
-
-            zIndex: 40,
-          } as CSSProperties
+        className={[
+          "an-civilization-purpose__frame",
+          `an-civilization-purpose__frame--${framePosition}`,
+        ].join(" ")}
+        data-frame-position={
+          framePosition
         }
+        style={getFrameStyle(
+          framePosition,
+        )}
       >
         <div className="an-civilization-purpose__glass">
-          {/* ==============================================
-              SAME ARTICLE DOM
-
-              No chapter key.
-              React updates only its content.
-          ============================================== */}
-
-          <article className="an-civilization-purpose__chapter">
+          <article
+  className="an-civilization-purpose__chapter"
+>
             <h2 className="an-civilization-purpose__title">
               {chapter.title}
             </h2>
