@@ -64219,46 +64219,6 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   07 / PURPOSE STACKING
-   CRITICAL CHANGE
-
-   START / END must NOT remain on z-index 40.
-
-   Only the genuinely viewport-fixed state is allowed
-   above the HOME flow.
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-> .an-civilization-purpose__frame[data-frame-position="start"] {
-  z-index:
-    1 !important;
-}
-
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-> .an-civilization-purpose__frame[data-frame-position="fixed"] {
-  z-index:
-    40 !important;
-
-  opacity:
-    1 !important;
-
-  visibility:
-    visible !important;
-}
-
-
-main#home-top.an-home-2026
-> #archenova-civilization-prelude
-> .an-civilization-purpose__frame[data-frame-position="end"] {
-  z-index:
-    1 !important;
-}
-
-
-/* ==========================================================
    08 / PURPOSE GLASS
 ========================================================== */
 
@@ -64434,41 +64394,6 @@ main#home-top.an-home-2026
 
   content-visibility:
     visible !important;
-}
-
-
-/* ==========================================================
-   11 / IDEAL USER STACKING
-   SAME FIX AS PURPOSE
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-> .an-ideal-user__frame[data-frame-position="start"] {
-  z-index:
-    1 !important;
-}
-
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-> .an-ideal-user__frame[data-frame-position="fixed"] {
-  z-index:
-    40 !important;
-
-  opacity:
-    1 !important;
-
-  visibility:
-    visible !important;
-}
-
-
-main#home-top.an-home-2026
-> #archenova-ideal-user
-> .an-ideal-user__frame[data-frame-position="end"] {
-  z-index:
-    1 !important;
 }
 
 

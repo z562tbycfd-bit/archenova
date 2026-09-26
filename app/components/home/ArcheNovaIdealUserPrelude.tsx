@@ -124,7 +124,6 @@ function getFrameStyle(
     maxHeight: "100svh",
     opacity: 1,
     visibility: "visible",
-    zIndex: 40,
   };
 
   if (position === "fixed") {
@@ -133,6 +132,7 @@ function getFrameStyle(
       position: "fixed",
       top: 0,
       bottom: "auto",
+      zIndex: 40,
     };
   }
 
@@ -142,6 +142,7 @@ function getFrameStyle(
       position: "absolute",
       top: "auto",
       bottom: 0,
+      zIndex: 1,
     };
   }
 
@@ -150,6 +151,7 @@ function getFrameStyle(
     position: "absolute",
     top: 0,
     bottom: "auto",
+    zIndex: 1,
   };
 }
 
@@ -314,9 +316,8 @@ export default function ArcheNovaIdealUserPrelude() {
       >
         <div className="an-ideal-user__glass">
           <article
-            key={profile.number}
-            className="an-ideal-user__chapter"
-          >
+  className="an-ideal-user__chapter"
+>
             <h2 className="an-ideal-user__title">
               {profile.title}
             </h2>

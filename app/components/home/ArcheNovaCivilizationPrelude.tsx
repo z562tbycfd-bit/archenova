@@ -114,7 +114,6 @@ function getFrameStyle(
     maxHeight: "100svh",
     opacity: 1,
     visibility: "visible",
-    zIndex: 40,
   };
 
   if (position === "fixed") {
@@ -123,6 +122,7 @@ function getFrameStyle(
       position: "fixed",
       top: 0,
       bottom: "auto",
+      zIndex: 40,
     };
   }
 
@@ -132,6 +132,7 @@ function getFrameStyle(
       position: "absolute",
       top: "auto",
       bottom: 0,
+      zIndex: 1,
     };
   }
 
@@ -140,6 +141,7 @@ function getFrameStyle(
     position: "absolute",
     top: 0,
     bottom: "auto",
+    zIndex: 1,
   };
 }
 
@@ -311,9 +313,8 @@ export default function ArcheNovaCivilizationPrelude() {
       >
         <div className="an-civilization-purpose__glass">
           <article
-            key={chapter.number}
-            className="an-civilization-purpose__chapter"
-          >
+  className="an-civilization-purpose__chapter"
+>
             <h2 className="an-civilization-purpose__title">
               {chapter.title}
             </h2>
