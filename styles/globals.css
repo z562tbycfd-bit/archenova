@@ -65328,120 +65328,91 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   ARCHENOVA CONCEPT + WORLD
-   VISUAL STABILITY PATCH
+   ARCHENOVA CONCEPT
+   FINAL MATERIAL UNIFICATION
    ----------------------------------------------------------
-   PURPOSE / PRELUDE ARE INTENTIONALLY UNTOUCHED.
-
-   Fix:
-   1. Concept glass is too visually thin.
-   2. World Gallery must not flicker during scroll.
+   PURPOSE / PRELUDE / WORLD SCROLL LOGIC UNTOUCHED
 ========================================================== */
 
 
 /* ==========================================================
-   01 / CONCEPT
-   RESTORE DENSE SMOKED-BLACK OPTICAL GLASS
+   01 / CONCEPT COVER + CONCEPT END
+   SAME MATERIAL AS EXISTING HOME GLASS
 ========================================================== */
 
 main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal {
-  /*
-   * IMPORTANT:
-   * The black density now belongs to the section itself.
-   *
-   * Do not depend on the page behind the glass to make
-   * Concept appear dark.
-   */
-  background:
-    radial-gradient(
-      ellipse at 50% 0%,
-      rgba(255, 255, 255, 0.030) 0%,
-      rgba(255, 255, 255, 0.010) 25%,
-      rgba(255, 255, 255, 0.000) 54%
-    ),
-    linear-gradient(
-      145deg,
-      rgba(17, 18, 20, 0.88) 0%,
-      rgba(8, 9, 11, 0.92) 48%,
-      rgba(2, 3, 4, 0.95) 100%
-    ) !important;
+> #archenova-concept.an-concept-portal,
 
-  border:
-    1px solid
-    rgba(255, 255, 255, 0.070) !important;
-
-  box-shadow:
-    inset 0 1px 0
-      rgba(255, 255, 255, 0.045),
-    inset 0 -1px 0
-      rgba(255, 255, 255, 0.012) !important;
-
-  -webkit-backdrop-filter:
-    blur(22px)
-    saturate(104%) !important;
-
-  backdrop-filter:
-    blur(22px)
-    saturate(104%) !important;
-
-  opacity:
-    1 !important;
-
-  visibility:
-    visible !important;
-}
-
-
-/* ==========================================================
-   02 / CONCEPT MATERIAL MUST NEVER CHANGE BY STATE
-========================================================== */
+main#home-top.an-home-2026
+> #archenova-concept.an-concept-portal--closed,
 
 main#home-top.an-home-2026
 > #archenova-concept.an-concept-portal--open,
 
 main#home-top.an-home-2026
-> #archenova-concept.an-concept-portal--closed {
+> #archenova-concept-end {
   background:
     radial-gradient(
-      ellipse at 50% 0%,
-      rgba(255, 255, 255, 0.030) 0%,
-      rgba(255, 255, 255, 0.010) 25%,
-      rgba(255, 255, 255, 0.000) 54%
+      circle at 50% 0%,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 24%,
+      transparent 52%
     ),
     linear-gradient(
       145deg,
-      rgba(17, 18, 20, 0.88) 0%,
-      rgba(8, 9, 11, 0.92) 48%,
-      rgba(2, 3, 4, 0.95) 100%
+      rgba(15, 16, 18, 0.20) 0%,
+      rgba(7, 8, 10, 0.24) 48%,
+      rgba(0, 0, 0, 0.30) 100%
     ) !important;
 
-  opacity:
-    1 !important;
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065) !important;
 
-  visibility:
-    visible !important;
+  border-radius:
+    30px !important;
+
+  outline:
+    0 !important;
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(106%) !important;
+
+  backdrop-filter:
+    blur(22px)
+    saturate(106%) !important;
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.040),
+    inset 0 -1px 0
+      rgba(255, 255, 255, 0.010) !important;
 }
 
 
 /* ==========================================================
-   03 / CONCEPT INNER SURFACE
-   NO SECOND TRANSPARENT MATERIAL
+   02 / CONCEPT INTERNAL SURFACES
+   OUTER SECTION OWNS THE ONLY GLASS
 ========================================================== */
 
 main#home-top.an-home-2026
 > #archenova-concept
-> .an-concept-portal__surface {
+> .an-concept-portal__surface,
+
+main#home-top.an-home-2026
+> #archenova-concept-end
+.an-concept-portal__closing-surface {
   background:
     transparent !important;
 
   background-image:
     none !important;
 
-  opacity:
-    1 !important;
-
   border:
+    0 !important;
+
+  outline:
     0 !important;
 
   box-shadow:
@@ -65456,247 +65427,37 @@ main#home-top.an-home-2026
 
 
 /* ==========================================================
-   04 / CONCEPT DECORATION
-   KEEP OPTICS QUIET
+   03 / CONCEPT COVER + END
+   NO SECOND PSEUDO FRAME
 ========================================================== */
 
 main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__ambient {
-  opacity:
-    0.44 !important;
-}
-
+> #archenova-concept::before,
 
 main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__grid {
-  opacity:
-    0.075 !important;
-}
-
+> #archenova-concept::after,
 
 main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__reflection {
-  opacity:
-    0.32 !important;
-}
-
+> #archenova-concept-end::before,
 
 main#home-top.an-home-2026
-#archenova-concept
-.an-concept-portal__axis {
-  opacity:
-    0.13 !important;
-}
-
-
-/* ==========================================================
-   05 / WORLD GALLERY ROOT
-   CREATE ONE STABLE COMPOSITING SURFACE
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery {
-  position:
-    relative !important;
-
-  isolation:
-    isolate !important;
-
-  z-index:
-    1 !important;
+> #archenova-concept-end::after {
+  content:
+    none !important;
 
   display:
-    block !important;
-
-  width:
-    100% !important;
-
-  height:
-    auto !important;
-
-  min-height:
-    100svh !important;
-
-  max-height:
     none !important;
 
-  opacity:
-    1 !important;
+  border:
+    0 !important;
 
-  visibility:
-    visible !important;
-
-  overflow:
-    hidden !important;
-
-  /*
-   * IMPORTANT:
-   * World owns an opaque-enough base.
-   *
-   * This prevents fixed/pinned content from the previous
-   * Concept environments becoming optically visible through
-   * World during compositor transitions.
-   */
-  background:
-    radial-gradient(
-      ellipse at 50% 8%,
-      rgba(255, 255, 255, 0.022) 0%,
-      transparent 42%
-    ),
-    linear-gradient(
-      145deg,
-      rgba(14, 15, 17, 0.94) 0%,
-      rgba(6, 7, 9, 0.96) 52%,
-      rgba(1, 2, 3, 0.98) 100%
-    ) !important;
-
-  transform:
-    translateZ(0) !important;
-
-  -webkit-transform:
-    translateZ(0) !important;
-
-  backface-visibility:
-    hidden !important;
-
-  -webkit-backface-visibility:
-    hidden !important;
-
-  /*
-   * Do NOT use content-visibility:auto here.
-   */
-  content-visibility:
-    visible !important;
-
-  contain:
+  box-shadow:
     none !important;
 }
 
 
 /* ==========================================================
-   06 / WORLD ROOT MUST NEVER PARTICIPATE IN REVEAL
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery,
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery.is-visible,
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery.is-revealed,
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery[data-visible="true"] {
-  opacity:
-    1 !important;
-
-  visibility:
-    visible !important;
-}
-
-
-/* ==========================================================
-   07 / NEVER ANIMATE THE WORLD SECTION ITSELF
-   ----------------------------------------------------------
-   Individual cards/images may keep their own animation.
-   The complete section must remain stable.
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery {
-  transition:
-    none !important;
-
-  animation:
-    none !important;
-}
-
-
-/* ==========================================================
-   08 / WORLD PSEUDO LAYERS
-   DO NOT FLASH BETWEEN COMPOSITOR STATES
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery::before,
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery::after {
-  backface-visibility:
-    hidden !important;
-
-  -webkit-backface-visibility:
-    hidden !important;
-
-  pointer-events:
-    none !important;
-}
-
-
-/* ==========================================================
-   09 / WORLD DIRECT CHILDREN
-   KEEP CONTENT IN THE SAME COMPOSITING CONTEXT
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery
-> * {
-  position:
-    relative;
-
-  z-index:
-    1;
-
-  backface-visibility:
-    hidden;
-
-  -webkit-backface-visibility:
-    hidden;
-}
-
-
-/* ==========================================================
-   10 / WORLD IMAGES
-   PREVENT IMAGE-LAYER FLASH
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world.an-world-gallery
-img {
-  backface-visibility:
-    hidden !important;
-
-  -webkit-backface-visibility:
-    hidden !important;
-
-  transform:
-    translateZ(0);
-
-  -webkit-transform:
-    translateZ(0);
-}
-
-
-/* ==========================================================
-   11 / DO NOT ALLOW OLD HOME RULES TO FADE WORLD ROOT
-========================================================== */
-
-main#home-top.an-home-2026
-> #archenova-world[data-home-section] {
-  opacity:
-    1 !important;
-
-  visibility:
-    visible !important;
-
-  content-visibility:
-    visible !important;
-}
-
-
-/* ==========================================================
-   12 / MOBILE CONCEPT
+   04 / MOBILE
 ========================================================== */
 
 @media (max-width: 768px) {
@@ -65705,58 +65466,67 @@ main#home-top.an-home-2026
   > #archenova-concept.an-concept-portal,
 
   main#home-top.an-home-2026
+  > #archenova-concept.an-concept-portal--closed,
+
+  main#home-top.an-home-2026
   > #archenova-concept.an-concept-portal--open,
 
   main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal--closed {
+  > #archenova-concept-end {
     background:
       radial-gradient(
-        ellipse at 50% 0%,
-        rgba(255, 255, 255, 0.026) 0%,
-        rgba(255, 255, 255, 0.008) 24%,
-        transparent 52%
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.020) 0%,
+        rgba(255, 255, 255, 0.006) 24%,
+        transparent 50%
       ),
       linear-gradient(
         145deg,
-        rgba(16, 17, 19, 0.90) 0%,
-        rgba(7, 8, 10, 0.94) 50%,
-        rgba(1, 2, 3, 0.97) 100%
+        rgba(13, 14, 16, 0.16) 0%,
+        rgba(6, 7, 9, 0.20) 50%,
+        rgba(0, 0, 0, 0.26) 100%
       ) !important;
+
+    border:
+      1px solid
+      rgba(255, 255,255, 0.060) !important;
+
+    border-radius:
+      26px !important;
 
     -webkit-backdrop-filter:
       blur(18px)
-      saturate(102%) !important;
+      saturate(104%) !important;
 
     backdrop-filter:
       blur(18px)
-      saturate(102%) !important;
-  }
+      saturate(104%) !important;
 
-
-  main#home-top.an-home-2026
-  > #archenova-world.an-world-gallery {
-    background:
-      linear-gradient(
-        145deg,
-        rgba(12, 13, 15, 0.96),
-        rgba(3, 4, 6, 0.985)
-      ) !important;
+    box-shadow:
+      inset 0 1px 0
+        rgba(255, 255, 255, 0.035),
+      inset 0 -1px 0
+        rgba(255, 255, 255, 0.008) !important;
   }
 }
 
 
 /* ==========================================================
-   13 / SMALL MOBILE
+   05 / SMALL MOBILE
 ========================================================== */
 
 @media (max-width: 430px) {
 
   main#home-top.an-home-2026
-  > #archenova-concept.an-concept-portal {
+  > #archenova-concept,
+
+  main#home-top.an-home-2026
+  > #archenova-concept-end {
     border-radius:
       22px !important;
   }
 }
+
 
 
 
