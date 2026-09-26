@@ -13,38 +13,46 @@ import ArcheNovaWorldGallery from "./ArcheNovaWorldGallery";
 /* ==========================================================
    ARCHENOVA CONCEPT
 
-   PURPOSE
-   ----------------------------------------------------------
-   Concept is not a dashboard.
+   HOME
+   └─ ArcheNova Concept
+      │
+      ├─ Purpose
+      │    └─ ArcheNovaCivilizationPrelude
+      │
+      ├─ Human Agency
+      │    └─ ArcheNovaIdealUserPrelude
+      │
+      └─ World
+           └─ ArcheNovaWorldGallery
 
-   It is the conceptual entrance to ArcheNova:
-
-   PURPOSE
-   → HUMAN AGENCY
-   → WORLD
-
-   ARCHITECTURE
-   ----------------------------------------------------------
    CLOSED
-
-   main
-   └─ #archenova-concept
+   ----------------------------------------------------------
+   One quiet HOME entrance.
 
    OPEN
+   ----------------------------------------------------------
+   Purpose / Human Agency / World are mounted in their
+   original form as direct siblings beneath HOME.
 
-   main
-   ├─ #archenova-concept
-   ├─ #archenova-civilization-prelude
-   ├─ #archenova-ideal-user
-   ├─ #archenova-world
-   └─ #archenova-concept-end
+   DOM WHEN OPEN
+   ----------------------------------------------------------
+   <main>
+     #archenova-concept
+     #archenova-civilization-prelude
+     #archenova-ideal-user
+     #archenova-world
+     #archenova-concept-end
+   </main>
 
    IMPORTANT
    ----------------------------------------------------------
-   - No wrapper surrounds expanded Concept environments.
-   - Purpose preserves its own scroll architecture.
-   - Ideal User preserves its own scroll architecture.
-   - World preserves its natural document flow.
+   - Existing Concept components remain unchanged.
+   - Closed content is removed from the DOM.
+   - No wrapper surrounds the scroll-driven environments.
+   - Purpose keeps its original chapter architecture.
+   - Human Agency keeps its original chapter architecture.
+   - World keeps its natural document flow.
+   - data-home-section remains on existing components.
    - HomeSectionPager exposes Concept as one major target.
    - Visual styling belongs in globals.css.
 ========================================================== */
@@ -65,11 +73,13 @@ export default function ArcheNovaConceptPortal() {
   /* ========================================================
      CLOSE
 
-     Collapse the Concept environments first.
+     Expanded sections are removed first.
 
      Two animation frames allow React and the browser to
-     commit the new document geometry before scrolling back
+     commit the collapsed document geometry before returning
      to the Concept entrance.
+
+     Reduced-motion preference is respected.
   ======================================================== */
 
   const closeConcept =
@@ -121,10 +131,13 @@ export default function ArcheNovaConceptPortal() {
       >
         <div className="an-concept-portal__surface">
           {/* ================================================
-              QUIET OPTICAL FIELD
+              AMBIENT ARCHITECTURE
 
               Decorative only.
-              No second glass surface.
+
+              These elements belong only to the Concept
+              entrance and never surround the expanded
+              scroll-driven environments.
           ================================================ */}
 
           <div
@@ -133,69 +146,139 @@ export default function ArcheNovaConceptPortal() {
           />
 
           <div
+            className="an-concept-portal__grid"
+            aria-hidden="true"
+          />
+
+          <div
             className="an-concept-portal__reflection"
             aria-hidden="true"
           />
+
+          <div
+            className="an-concept-portal__axis"
+            aria-hidden="true"
+          >
+            <span />
+            <span />
+            <span />
+          </div>
 
           {/* ================================================
               HEADER
           ================================================ */}
 
           <header className="an-concept-portal__header">
-            <span className="an-concept-portal__eyebrow">
-              ARCHENOVA CONCEPT
-            </span>
+            <div className="an-concept-portal__identity">
+              <span className="an-concept-portal__eyebrow">
+                ARCHENOVA CONCEPT
+              </span>
 
-            <span className="an-concept-portal__count">
-              01 — 03
-            </span>
+              <span className="an-concept-portal__principle">
+                PURPOSE · HUMAN AGENCY · WORLD
+              </span>
+            </div>
+
+            {isOpen && (
+              <button
+                type="button"
+                className="an-concept-portal__close"
+                onClick={closeConcept}
+                aria-label="Close ArcheNova Concept"
+              >
+                <span>
+                  CLOSE
+                </span>
+
+                <svg
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M4 10H16M10 4L16 10L10 16"
+                    stroke="currentColor"
+                    strokeWidth="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            )}
           </header>
 
           {/* ================================================
-              CENTRAL IDEA
-
-              One statement only.
-              No index.
-              No explanatory paragraph.
-              No duplicate description.
+              CENTRAL STATEMENT
           ================================================ */}
 
           <div className="an-concept-portal__body">
-            <h2 id="an-concept-title">
-              Why ArcheNova exists,
-              <br />
-              who it serves,
-              <br />
-              and what it seeks to build.
-            </h2>
+            <div className="an-concept-portal__statement">
+              <span className="an-concept-portal__index">
+                00 / CONCEPT
+              </span>
+
+              <h2 id="an-concept-title">
+                The ideas behind
+                <br />
+                ArcheNova.
+              </h2>
+
+              <p>
+                Why it exists. Who it is for.
+                <br />
+                What kind of world it seeks to examine.
+              </p>
+            </div>
+
+            {/* ==============================================
+                CONCEPT ARCHITECTURE
+
+                Orientation only.
+                These are not separate navigation controls.
+            ============================================== */}
+
+            <div
+              className="an-concept-portal__architecture"
+              aria-label="ArcheNova Concept structure"
+            >
+              <div
+                className="an-concept-portal__architecture-line"
+                aria-hidden="true"
+              />
+
+              <div className="an-concept-portal__architecture-items">
+                <span>
+                  <small>
+                    01
+                  </small>
+
+                  PURPOSE
+                </span>
+
+                <span>
+                  <small>
+                    02
+                  </small>
+
+                  HUMAN AGENCY
+                </span>
+
+                <span>
+                  <small>
+                    03
+                  </small>
+
+                  WORLD
+                </span>
+              </div>
+            </div>
           </div>
 
           {/* ================================================
-              CONCEPT STRUCTURE
-
-              This is orientation, not navigation.
+              CONTROL
           ================================================ */}
 
-          <div
-            className="an-concept-portal__structure"
-            aria-label="ArcheNova Concept structure"
-          >
-            <span>PURPOSE</span>
-
-            <i aria-hidden="true" />
-
-            <span>HUMAN AGENCY</span>
-
-            <i aria-hidden="true" />
-
-            <span>WORLD</span>
-          </div>
-
-          {/* ================================================
-              PRIMARY CONTROL
-          ================================================ */}
-
-          <footer className="an-concept-portal__footer">
+          <div className="an-concept-portal__footer">
             {!isOpen ? (
               <button
                 type="button"
@@ -222,77 +305,88 @@ export default function ArcheNovaConceptPortal() {
                 </svg>
               </button>
             ) : (
-              <>
-                <div
-                  className="an-concept-portal__opened"
-                  role="status"
-                  aria-live="polite"
-                >
-                  CONCEPT OPEN
-                </div>
+              <div
+                className="an-concept-portal__opened"
+                role="status"
+                aria-live="polite"
+              >
+                <span>
+                  CONCEPT ENVIRONMENT OPEN
+                </span>
 
-                <button
-                  type="button"
-                  className="an-concept-portal__close"
-                  onClick={closeConcept}
-                  aria-label="Close ArcheNova Concept"
-                >
-                  <span>
-                    CLOSE
-                  </span>
-
-                  <svg
-                    viewBox="0 0 42 16"
-                    fill="none"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M41 8H2M2 8L9 1M2 8L9 15"
-                      stroke="currentColor"
-                      strokeWidth="1"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </button>
-              </>
+                <span aria-hidden="true">
+                  ↓
+                </span>
+              </div>
             )}
-          </footer>
+          </div>
         </div>
       </section>
 
       {/* ====================================================
-          02 / EXPANDED CONCEPT
+          02 / CONCEPT ENVIRONMENTS
 
-          CRITICAL:
-          Fragment only.
+          CRITICAL ARCHITECTURE
+          ----------------------------------------------------
+          There is intentionally NO DOM wrapper here.
 
-          These sections remain direct siblings beneath
-          main.an-home-2026.
+          Fragment produces:
+
+          <main>
+            #archenova-concept
+            #archenova-civilization-prelude
+            #archenova-ideal-user
+            #archenova-world
+            #archenova-concept-end
+          </main>
+
+          This preserves the original relationship between
+          HOME and each expanded Concept environment.
       ==================================================== */}
 
       {isOpen && (
         <Fragment>
           {/* ================================================
               01 / PURPOSE
+
+              Existing component keeps:
+              - its own data-home-section
+              - scroll-driven chapters
+              - START / FIXED / END behavior
           ================================================ */}
 
           <ArcheNovaCivilizationPrelude />
 
           {/* ================================================
               02 / HUMAN AGENCY
+
+              Existing component keeps:
+              - its own data-home-section
+              - dynamic chapter count
+              - START / FIXED / END behavior
           ================================================ */}
 
           <ArcheNovaIdealUserPrelude />
 
           {/* ================================================
               03 / WORLD
+
+              Existing component keeps:
+              - its own data-home-section
+              - natural document height
+              - exhibition interaction
+              - reveal behavior
           ================================================ */}
 
           <ArcheNovaWorldGallery />
 
           {/* ================================================
-              04 / CONCEPT END
+              04 / END OF CONCEPT
+
+              A quiet terminus for the Concept journey.
+
+              It remains a HOME section but is intentionally
+              not a HomeSectionPager target.
           ================================================ */}
 
           <section
@@ -310,18 +404,18 @@ export default function ArcheNovaConceptPortal() {
               </span>
 
               <p id="an-concept-end-title">
-                Purpose defines direction.
+                Purpose becomes direction.
                 <br />
-                Human agency gives it meaning.
+                Direction becomes architecture.
                 <br />
-                The world makes it real.
+                Architecture becomes possibility.
               </p>
 
               <button
                 type="button"
-                className="an-concept-portal__return"
                 onClick={closeConcept}
-                aria-label="Close ArcheNova Concept and return to the Concept entrance"
+                className="an-concept-portal__return"
+                aria-label="Close ArcheNova Concept and return to its entrance"
               >
                 <svg
                   viewBox="0 0 42 16"
@@ -329,7 +423,7 @@ export default function ArcheNovaConceptPortal() {
                   aria-hidden="true"
                 >
                   <path
-                    d="M41 8H2M2 8L9 1M2 8L9 15"
+                    d="M1 8H40M40 8L33 1M40 8L33 15"
                     stroke="currentColor"
                     strokeWidth="1"
                     strokeLinecap="round"
@@ -338,7 +432,7 @@ export default function ArcheNovaConceptPortal() {
                 </svg>
 
                 <span>
-                  RETURN TO CONCEPT
+                  CLOSE CONCEPT
                 </span>
               </button>
             </div>
