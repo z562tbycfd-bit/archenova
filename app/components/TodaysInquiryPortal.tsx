@@ -94,8 +94,18 @@ export default function TodaysInquiryPortal() {
 
               <div className="ti-home__system">
 
-                <span className="ti-home__system-mode">
+                <div className="ti-home__system-name">
+                  <span className="ti-home__system-point" />
+
+                  <span>
+                    <small>
                   SCIENTIFIC DOCUMENT
+                  </small>
+                  </span>
+                </div>
+
+                <span className="ti-home__system-mode">
+                  REALITY CONTACT
                 </span>
 
               </div>
