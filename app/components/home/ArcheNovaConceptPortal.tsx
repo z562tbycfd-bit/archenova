@@ -274,50 +274,6 @@ export default function ArcheNovaConceptPortal() {
 
           <ArcheNovaWorldGallery />
 
-          {/* ================================================
-              03 / END OF CONCEPT
-          ================================================ */}
-
-          <section
-            id="archenova-concept-end"
-            data-home-section
-            className={[
-              "an-home-2026__section",
-              "an-concept-portal__closing",
-            ].join(" ")}
-            aria-label="End of ArcheNova Concept"
-          >
-            <div className="an-concept-portal__closing-surface">
-              <span className="an-concept-portal__closing-eyebrow">
-                ARCHENOVA CONCEPT
-              </span>
-
-              <button
-                type="button"
-                onClick={closeConcept}
-                className="an-concept-portal__return"
-                aria-label="Close ArcheNova Concept and return to its entrance"
-              >
-                <svg
-                  viewBox="0 0 42 16"
-                  fill="none"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M1 8H40M40 8L33 1M40 8L33 15"
-                    stroke="currentColor"
-                    strokeWidth="1"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-
-                <span>
-                  CLOSE CONCEPT
-                </span>
-              </button>
-            </div>
-          </section>
         </Fragment>
       )}
 
