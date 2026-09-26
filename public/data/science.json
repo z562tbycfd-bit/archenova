@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-09-26T10:38:39.963Z",
+  "updated": "2026-09-26T16:55:31.261Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A real-time look inside spacecraft heat shields during extreme heat conditions",
+      "url": "https://phys.org/news/2026-09-real-spacecraft-shields-extreme-conditions.html",
+      "summary": "When a spacecraft reenters Earth's atmosphere at hypersonic velocities, its protective heat shield faces extreme conditions, including temperatures beyond 3,000 degrees Fahrenheit (1,650 degrees Celsius). To survive, the…",
+      "ts": 1790438401000,
+      "publishedAt": "2026-09-26T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crop protection: A new method for understanding insect sexual communication",
+      "url": "https://phys.org/news/2026-09-crop-method-insect-sexual-communication.html",
+      "summary": "A team of INRAE scientists, in collaboration with Université Côte d'Azur and Nanjing Agricultural University in China, has used an innovative AI-based method to identify the sex pheromone of the lily moth1 and the olfact…",
+      "ts": 1790434801000,
+      "publishedAt": "2026-09-26T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lead isotopes trace Malawi's mysterious copper ingot hoard to Congo's Kipushi mine",
+      "url": "https://phys.org/news/2026-09-isotopes-malawi-mysterious-copper-ingot.html",
+      "summary": "In 1967, a Malawian farmer stumbled upon a hidden hoard of eight copper ingots buried beneath a tree. Now, more than half a century later, scientists have traced the metal to its source: a copper mine nearly 800 km (500 …",
+      "ts": 1790430002000,
+      "publishedAt": "2026-09-26T13:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular 'self-destruct' switch discovered: How stressed cells decide between survival and death",
+      "url": "https://phys.org/news/2026-09-molecular-destruct-stressed-cells-survival.html",
+      "summary": "A new study from Ben-Gurion University of the Negev (BGU) has identified a molecular switch that controls whether stressed human cells activate a survival mechanism or trigger programmed cell death (apoptosis). The findi…",
+      "ts": 1790424007000,
+      "publishedAt": "2026-09-26T12:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Digital textbooks significantly boost students' intrinsic learning motivation",
+      "url": "https://phys.org/news/2026-09-digital-textbooks-significantly-boost-students.html",
+      "summary": "A research team from The Education University of Hong Kong (EdUHK) and East China Normal University (ECNU) has published a meta-analysis demonstrating the impact of digital textbooks (DTs) on student motivation. Synthesi…",
+      "ts": 1790424005000,
+      "publishedAt": "2026-09-26T12:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Millions in the US Northeast brace for a powerful storm",
@@ -52,6 +92,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Efficient transport kinetics of indirect excitons in van der Waals heterostructure",
+      "url": "https://www.nature.com/articles/s41467-026-77967-2",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Manipulation of ferromagnetism with a light-driven nonlinear Edelstein-Zeeman field",
       "url": "https://www.nature.com/articles/s41467-026-77965-4",
       "summary": "",
@@ -62,6 +110,38 @@
       "source": "Nature Communications",
       "title": "Branched-type nanocluster-junction fluorofluidic-gels for interface-adaptive thermal conduction and mechanical resistance",
       "url": "https://www.nature.com/articles/s41467-026-78046-2",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "<i>Alteromonas macleodii</i> breaches the diatom frustule triggering protoplast emergence and programmed necrosis-like death in <i>Thalassiosira rotula</i>",
+      "url": "https://www.nature.com/articles/s41467-026-78079-7",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Microglia regulate nucleus accumbens synaptic development and circuit function underlying threat avoidance behaviors in mice",
+      "url": "https://www.nature.com/articles/s41467-026-77487-z",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "PARP10 condensation inhibits viral replication via targeting NAD<sup>+</sup> homeostasis",
+      "url": "https://www.nature.com/articles/s41467-026-78058-y",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Early insights into predicted efficacy of Ebola monoclonal antibodies for the 2026 Bundibugyo virus disease outbreak",
+      "url": "https://www.nature.com/articles/s41467-026-78077-9",
       "summary": "",
       "ts": 1790380800000,
       "publishedAt": "2026-09-26T00:00:00.000Z"
@@ -719,86 +799,6 @@
       "title": "A Dosage $\\times$ Precision Framework for Instructional Effectiveness: Propositions, Boundary Conditions, and an Illustrative Case from Solid-State Physics",
       "url": "https://arxiv.org/abs/2609.28516",
       "summary": "arXiv:2609.28516v1 Announce Type: new Abstract: We propose that instructional effectiveness may depend on an interaction between two design dimensions: dosage---the total duration of student-centered active learning allo…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Price of Removing the Scaffolding: Maxwell wrote something about Amp`ere that years later would be done to him",
-      "url": "https://arxiv.org/abs/2609.28525",
-      "summary": "arXiv:2609.28525v1 Announce Type: new Abstract: In the history of physics, the name scaffolding has been given to whatever served to raise a theory and is afterwards removed because, it is said, it is no longer needed. T…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HClimRep-Ocean: A Global Ocean Emulator on an Unstructured Mesh",
-      "url": "https://arxiv.org/abs/2609.28601",
-      "summary": "arXiv:2609.28601v1 Announce Type: new Abstract: Machine-learning (ML) emulators for atmospheric processes have advanced rapidly in recent years, transforming weather forecasting. Although early ML ocean forecasting model…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "General model for shear stress and surface pressure distributions for flow over spheres",
-      "url": "https://arxiv.org/abs/2609.28658",
-      "summary": "arXiv:2609.28658v1 Announce Type: new Abstract: A general physics-based model for the distribution of shear stress and surface pressure is developed for laminar flow over spheres. Although integral coefficients have been…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cross-geometry transfer and model collapse in point cloud calorimeter shower generation",
-      "url": "https://arxiv.org/abs/2609.28661",
-      "summary": "arXiv:2609.28661v1 Announce Type: new Abstract: Particle shower simulation is a major computational cost in high-energy physics. Monte Carlo methods such as Geant4 are accurate but expensive, while most machine learning …",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vectorpotential-based Beam Current Sensors: Applications for Mu2e, and Picosecond Bunch Substructure",
-      "url": "https://arxiv.org/abs/2609.28663",
-      "summary": "arXiv:2609.28663v1 Announce Type: new Abstract: We report on a new beam current monitor system based on work originally done to develop timing planes for future collider detectors. In contrast to sensors based on wall cu…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Consistent lattice Boltzmann model with body force and heat source for compressible flows of generic fluids",
-      "url": "https://arxiv.org/abs/2609.28679",
-      "summary": "arXiv:2609.28679v1 Announce Type: new Abstract: This work presents a consistent formulation of body-force and heat-source terms within a double-distribution-function lattice Boltzmann framework for simulating compressibl…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A general no-go theorem for loss-free optical torque, and its enantiomer-differential escape route",
-      "url": "https://arxiv.org/abs/2609.28696",
-      "summary": "arXiv:2609.28696v1 Announce Type: new Abstract: We show that an isotropic, lossless dipolar particle, locally embedded in a homogeneous, lossless host, cannot experience axial optical torque under any illumination, in an…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pauli exclusion as a necessary condition for the existence of the H$_2$ + H$^{\\bullet}$ atom transfer barrier",
-      "url": "https://arxiv.org/abs/2609.28711",
-      "summary": "arXiv:2609.28711v1 Announce Type: new Abstract: The transition state barrier is a foundational concept in chemical kinetics, yet its physical origin is seldom investigated. In this study we analyze the barrier to hydroge…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AI-Accelerated Gyrokinetic Predictions of Turbulent Transport for Stellarator Design Optimization and Experimental Planning",
-      "url": "https://arxiv.org/abs/2609.28730",
-      "summary": "arXiv:2609.28730v1 Announce Type: new Abstract: Previous work built AI-based surrogates for a nonlinear gyrokinetic simulation code with the goal of using them for fast, direct calculations of turbulent ion heat flux in …",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conditional preservation of chimera states under equitable network coarse-graining",
-      "url": "https://arxiv.org/abs/2609.28733",
-      "summary": "arXiv:2609.28733v1 Announce Type: new Abstract: Chimera states, characterized by the coexistence of coherent and incoherent dynamics in networks of coupled oscillators, are among the most intriguing collective phenomena …",
       "ts": 1790308800000,
       "publishedAt": "2026-09-25T04:00:00.000Z"
     }

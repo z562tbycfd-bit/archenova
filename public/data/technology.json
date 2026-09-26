@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-26T10:38:46.438Z",
+  "updated": "2026-09-26T16:55:33.040Z",
   "items": [
     {
       "source": "United Nations News",
@@ -10,6 +10,15 @@
       "ts": 1790424000000,
       "publishedAt": "2026-09-26T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I worked on the CDC investigation of the anthrax letters. 25 years later, are we ready for the next biothreat?",
+      "url": "https://www.statnews.com/2026/09/26/anthrax-letters-25th-anniversary-cdc-investigation-new-biothreats-ai/?utm_campaign=rss",
+      "summary": "“We’ve come a long way since the fall of 2001, but we find ourselves with recent widening gaps in public health readiness and mitigation,” writes Daniel B. Jernigan.",
+      "ts": 1790420400000,
+      "publishedAt": "2026-09-26T11:00:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "NASA",
@@ -802,15 +811,6 @@
       "ts": 1790275158000,
       "publishedAt": "2026-09-24T18:39:18.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Travel",
-      "url": "https://www.nasa.gov/centers-and-facilities/nssc/travel/",
-      "summary": "The NSSC provides travel reimbursement services for all authorized Agency travel including: domestic, foreign, local, ETDY, and Change of Station (COS). References Federal Travel Regulations (FTR) Traveler Extended TDY a…",
-      "ts": 1790273174000,
-      "publishedAt": "2026-09-24T18:06:14.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
