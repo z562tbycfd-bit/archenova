@@ -92,22 +92,6 @@ export default function TodaysInquiryPortal() {
 
             <header className="ti-home__header">
 
-              <div className="ti-home__system">
-
-                <div className="ti-home__system-name">
-                  <span className="ti-home__system-point" />
-
-                  <span>
-                    ARCHENOVA
-                  </span>
-                </div>
-
-                <span className="ti-home__system-mode">
-                  REALITY CONTACT
-                </span>
-
-              </div>
-
 
               <div className="ti-home__header-axis">
 
