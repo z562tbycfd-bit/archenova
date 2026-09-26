@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-26T16:55:31.261Z",
+  "updated": "2026-09-26T19:35:39.345Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Pumpkin-derived enzyme weakens peanut proteins' binding to allergy antibodies in lab tests",
+      "url": "https://phys.org/news/2026-09-pumpkin-derived-enzyme-weakens-peanut.html",
+      "summary": "Peanut allergy is one of the most serious food allergies and can lead to sudden, life-threatening reactions. Researchers from Wroclaw University of Environmental and Life Sciences, in collaboration with Wroclaw Medical U…",
+      "ts": 1790449201000,
+      "publishedAt": "2026-09-26T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineers teach spacecraft to 'dream' their way to the space station",
+      "url": "https://phys.org/news/2026-09-spacecraft-space-station.html",
+      "summary": "Docking with the ISS may seem simple. However, actually doing so shows how difficult orbital mechanics can be. It's like traveling down a highway at 28,000 km/hr (17,000 mph) and parallel parking in an open garage on a m…",
+      "ts": 1790445601000,
+      "publishedAt": "2026-09-26T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sparse layers of 10-nanometer silver particles boost CO production from CO₂",
+      "url": "https://phys.org/news/2026-09-sparse-layers-nanometer-silver-particles.html",
+      "summary": "Electrolysis can reduce CO2 to CO, a raw material for chemical products such as fuels. Within the GreenQUEST project, an international team led by HZB chemist Prashanth Menezes has systematically investigated catalyst la…",
+      "ts": 1790442001000,
+      "publishedAt": "2026-09-26T17:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A real-time look inside spacecraft heat shields during extreme heat conditions",
@@ -102,6 +126,14 @@
       "source": "Nature Communications",
       "title": "Manipulation of ferromagnetism with a light-driven nonlinear Edelstein-Zeeman field",
       "url": "https://www.nature.com/articles/s41467-026-77965-4",
+      "summary": "",
+      "ts": 1790380800000,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Global spatiotemporal dynamics of mortality from carbapenem-resistant Gram-negative infections over the past three decades",
+      "url": "https://www.nature.com/articles/s41467-026-77197-6",
       "summary": "",
       "ts": 1790380800000,
       "publishedAt": "2026-09-26T00:00:00.000Z"
@@ -769,38 +801,6 @@
       "summary": "A bacterial infection is suspected of killing hundreds of baby whales in the southern Argentine region of Patagonia, a marine mammal expert told AFP on Thursday.",
       "ts": 1790323801000,
       "publishedAt": "2026-09-25T08:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "It's been an intense hurricane season in the Pacific and there's still a long way to go",
-      "url": "https://phys.org/news/2026-09-intense-hurricane-season-pacific.html",
-      "summary": "It's already been an intense hurricane season in the Pacific Ocean—and there's still quite a ways to go.",
-      "ts": 1790322142000,
-      "publishedAt": "2026-09-25T07:42:22.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Cosmic lockdown: How the environment can isolate quantum fields",
-      "url": "https://phys.org/news/2026-09-cosmic-lockdown-environment-isolate-quantum.html",
-      "summary": "A simplified cosmological model suggests that decoherence can suppress quantum tunneling, effectively locking fields into the vacuum state they have reached.",
-      "ts": 1790308801000,
-      "publishedAt": "2026-09-25T04:00:01.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting Aristarchus's method to estimate the ratio of the distances from Earth to the Sun and the Moon",
-      "url": "https://arxiv.org/abs/2609.28513",
-      "summary": "arXiv:2609.28513v1 Announce Type: new Abstract: In this article we revisit Aristarchus' ancient experiment to determine the ratios between the Earth-Moon and Earth-Sun distances. We present here the construction of a sim…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Dosage $\\times$ Precision Framework for Instructional Effectiveness: Propositions, Boundary Conditions, and an Illustrative Case from Solid-State Physics",
-      "url": "https://arxiv.org/abs/2609.28516",
-      "summary": "arXiv:2609.28516v1 Announce Type: new Abstract: We propose that instructional effectiveness may depend on an interaction between two design dimensions: dosage---the total duration of student-centered active learning allo…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z"
     }
   ],
   "sources": [

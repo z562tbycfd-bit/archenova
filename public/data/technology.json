@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-26T16:55:33.040Z",
+  "updated": "2026-09-26T19:35:41.043Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "Lavrov issues call for new Eurasian ‘security architecture’",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168457",
+      "summary": "Russia's Foreign Minister, Sergey Lavrov, accused Western countries of destabilising the world through “force and double standards” in his address to the UN General Assembly on Saturday, vowing that Moscow's “special mil…",
+      "ts": 1790424000000,
+      "publishedAt": "2026-09-26T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Safeguard the postwar order,’ China tells UN General Assembly",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168456",
+      "summary": "China's Vice President, Han Zheng, urged the world to defend the postwar international order on Saturday, telling the UN General Assembly that geopolitical conflicts, widening development gaps and mounting global challen…",
+      "ts": 1790424000000,
+      "publishedAt": "2026-09-26T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Countries adopt global blueprint to tackle fast-evolving crime in digital age",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168455",
+      "summary": "Countries adopted on Saturday a new global blueprint for tackling rapidly evolving forms of crime, as the UN’s largest gathering on crime prevention and criminal justice opened in Abu Dhabi with a call for stronger inter…",
+      "ts": 1790424000000,
+      "publishedAt": "2026-09-26T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "United Nations News",
       "title": "The Takeaway: UN General Assembly debate Day 4",
@@ -783,33 +810,6 @@
       "summary": "JNC is using BioProcess International 2026 to spotlight Cellufine and its emerging MLP chromatography media, developed to address purification challenges posed by viral vectors, vaccines, and other increasingly large and…",
       "ts": 1790279339000,
       "publishedAt": "2026-09-24T19:48:59.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Intense Media Pressure an Emerging Challenge in CHO Business",
-      "url": "https://www.genengnews.com/topics/bioprocessing/intense-media-pressure-an-emerging-challenge-in-cho-business/",
-      "summary": "Process intensification and the adoption of continuous-mode manufacturing has increased the consumption of culture media. Managing these ever-growing culture volumes in a cost and space efficient manner has become a majo…",
-      "ts": 1790279271000,
-      "publishedAt": "2026-09-24T19:47:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "The FDA’s Overton era, and dispatches from Shanghai",
-      "url": "https://www.statnews.com/2026/09/24/chronicling-chinese-drug-development-from-shanghai-readout-loud/?utm_campaign=rss",
-      "summary": "The Readout LOUD is going international this week with a dispatch from Shanghai, along with notes on the FDA's Overton era.",
-      "ts": 1790278238000,
-      "publishedAt": "2026-09-24T19:30:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Altruist Biologics’ Suzhou Site Receives EMA GMP Certification",
-      "url": "https://www.genengnews.com/topics/bioprocessing/altruist-biologics-suzhou-site-receives-ema-gmp-certification/",
-      "summary": "The company’s Quality Risk Management framework enabled proactive identification of compliance risks, reduced uncertainties associated with cross-regional technology transfer, and provided greater predictability as thera…",
-      "ts": 1790275158000,
-      "publishedAt": "2026-09-24T18:39:18.000Z",
       "categoryId": "bio"
     }
   ],
