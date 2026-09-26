@@ -13,27 +13,61 @@ import ArcheNovaWorldGallery from "./ArcheNovaWorldGallery";
 /* ==========================================================
    ARCHENOVA CONCEPT
 
-   A quiet entrance to the conceptual foundation of ArcheNova.
+   HOME
+   └─ ArcheNova Concept
+      │
+      ├─ Purpose
+      │    └─ ArcheNovaCivilizationPrelude
+      │
+      ├─ Human Agency
+      │    └─ ArcheNovaIdealUserPrelude
+      │
+      └─ World
+           └─ ArcheNovaWorldGallery
 
-   PURPOSE
-   → HUMAN AGENCY
-   → WORLD
+   CLOSED
+   - Only the Concept entrance exists.
+   - Concept content is removed from the DOM.
+
+   OPEN
+   - Purpose / Human Agency / World are mounted.
+   - They remain DOM siblings of the Concept entrance.
+   - No wrapper is placed around the scroll-driven sections.
 
    IMPORTANT
-   - No wrapper around expanded environments.
-   - Existing scroll-driven sections remain direct HOME
-     descendants in the rendered DOM.
-   - Visual styling belongs to globals.css.
+   - Purpose keeps its 500svh scroll architecture.
+   - Ideal User keeps its dynamic chapter height.
+   - START / FIXED / END remain viewport-based.
+   - data-home-section remains on the existing components.
+   - HomeSectionPager still exposes Concept as one target only.
+   - All visual CSS belongs in globals.css.
 ========================================================== */
 
 export default function ArcheNovaConceptPortal() {
   const [isOpen, setIsOpen] =
     useState(false);
 
+  /* ========================================================
+     OPEN
+  ======================================================== */
+
   const openConcept =
     useCallback(() => {
       setIsOpen(true);
     }, []);
+
+  /* ========================================================
+     CLOSE
+
+     Wait until the expanded Concept sections have actually
+     been removed from layout before returning to the
+     Concept entrance.
+
+     Double requestAnimationFrame gives React/layout one
+     frame to commit the collapsed document geometry.
+
+     Reduced-motion preference is respected.
+  ======================================================== */
 
   const closeConcept =
     useCallback(() => {
@@ -67,7 +101,15 @@ export default function ArcheNovaConceptPortal() {
   return (
     <Fragment>
       {/* ====================================================
-          CONCEPT ENTRANCE
+          01 / CONCEPT ENTRANCE
+
+          This is the only Concept target exposed to
+          HomeSectionPager.
+
+          The expanded environments below retain their own
+          IDs and data-home-section attributes, but the
+          pager ignores them because it uses its explicit
+          CHAPTER_TARGETS list.
       ==================================================== */}
 
       <section
@@ -86,7 +128,11 @@ export default function ArcheNovaConceptPortal() {
       >
         <div className="an-concept-portal__surface">
           {/* ================================================
-              QUIET AMBIENT LAYER
+              AMBIENT ARCHITECTURE
+
+              Decorative only.
+              These elements remain inside the Concept
+              entrance and never wrap the fixed descendants.
           ================================================ */}
 
           <div
@@ -95,25 +141,64 @@ export default function ArcheNovaConceptPortal() {
           />
 
           <div
+            className="an-concept-portal__grid"
+            aria-hidden="true"
+          />
+
+          <div
             className="an-concept-portal__reflection"
             aria-hidden="true"
           />
+
+          <div
+            className="an-concept-portal__axis"
+            aria-hidden="true"
+          >
+            <span />
+            <span />
+            <span />
+          </div>
 
           {/* ================================================
               HEADER
           ================================================ */}
 
           <header className="an-concept-portal__header">
-            <span className="an-concept-portal__eyebrow">
-              ARCHENOVA CONCEPT
-            </span>
+            <div className="an-concept-portal__identity">
+              <span className="an-concept-portal__eyebrow">
+                ARCHENOVA CONCEPT
+              </span>
 
-            <span
-              className="an-concept-portal__count"
-              aria-hidden="true"
-            >
-              01 — 03
-            </span>
+              <span className="an-concept-portal__principle">
+                PURPOSE · HUMAN AGENCY · WORLD
+              </span>
+            </div>
+
+            {isOpen && (
+              <button
+                type="button"
+                className="an-concept-portal__close"
+                onClick={closeConcept}
+                aria-label="Close ArcheNova Concept"
+                aria-expanded="true"
+              >
+                <span>CLOSE</span>
+
+                <svg
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M4 10H16M10 4L16 10L10 16"
+                    stroke="currentColor"
+                    strokeWidth="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            )}
           </header>
 
           {/* ================================================
@@ -121,38 +206,54 @@ export default function ArcheNovaConceptPortal() {
           ================================================ */}
 
           <div className="an-concept-portal__body">
-            <h2 id="an-concept-title">
-              Why ArcheNova exists,
-              <br />
-              who it is for,
-              <br />
-              and the world it seeks
-              <br />
-              to understand.
-            </h2>
-          </div>
+            <div className="an-concept-portal__statement">
+              <span className="an-concept-portal__index">
+                00 / CONCEPT
+              </span>
 
-          {/* ================================================
-              CONCEPT STRUCTURE
-          ================================================ */}
+              <h2 id="an-concept-title">
+                The ideas behind
+                <br />
+                ArcheNova.
+              </h2>
 
-          <div className="an-concept-portal__structure">
-            <span>PURPOSE</span>
+              <p>
+                Why it exists. Who it is for.
+                <br />
+                What kind of world it seeks to examine.
+              </p>
+            </div>
 
-            <i aria-hidden="true" />
+            <div
+              className="an-concept-portal__architecture"
+              aria-hidden="true"
+            >
+              <div className="an-concept-portal__architecture-line" />
 
-            <span>HUMAN AGENCY</span>
+              <div className="an-concept-portal__architecture-items">
+                <span>
+                  <small>01</small>
+                  PURPOSE
+                </span>
 
-            <i aria-hidden="true" />
+                <span>
+                  <small>02</small>
+                  HUMAN AGENCY
+                </span>
 
-            <span>WORLD</span>
+                <span>
+                  <small>03</small>
+                  WORLD
+                </span>
+              </div>
+            </div>
           </div>
 
           {/* ================================================
               CONTROL
           ================================================ */}
 
-          <footer className="an-concept-portal__footer">
+          <div className="an-concept-portal__footer">
             {!isOpen ? (
               <button
                 type="button"
@@ -179,57 +280,87 @@ export default function ArcheNovaConceptPortal() {
                 </svg>
               </button>
             ) : (
-              <>
-                <span className="an-concept-portal__opened">
-                  CONCEPT OPEN
+              <div
+                className="an-concept-portal__opened"
+                role="status"
+                aria-live="polite"
+              >
+                <span>
+                  CONCEPT ENVIRONMENT OPEN
                 </span>
 
-                <button
-                  type="button"
-                  className="an-concept-portal__close"
-                  onClick={closeConcept}
-                  aria-expanded="true"
-                  aria-label="Close ArcheNova Concept"
-                >
-                  <span>CLOSE</span>
-
-                  <svg
-                    viewBox="0 0 42 16"
-                    fill="none"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M1 8H40M40 8L33 1M40 8L33 15"
-                      stroke="currentColor"
-                      strokeWidth="1"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </button>
-              </>
+                <span aria-hidden="true">
+                  ↓
+                </span>
+              </div>
             )}
-          </footer>
+          </div>
         </div>
       </section>
 
       {/* ====================================================
-          EXPANDED CONCEPT
+          02 / CONCEPT ENVIRONMENTS
 
-          Fragment only:
-          no DOM wrapper around the fixed scroll environments.
+          CRITICAL ARCHITECTURE
+
+          There is intentionally NO DOM wrapper here.
+
+          Because this component itself is rendered directly
+          under <main>, React Fragment produces:
+
+          <main>
+            #archenova-concept
+            #archenova-civilization-prelude
+            #archenova-ideal-user
+            #archenova-world
+            .an-concept-portal__closing
+          </main>
+
+          This restores the original HOME relationship and
+          prevents a Concept wrapper from interfering with
+          position: fixed.
       ==================================================== */}
 
       {isOpen && (
         <Fragment>
+          {/* ================================================
+              01 / PURPOSE
+
+              Existing:
+              - 500svh
+              - START / FIXED / END
+              - five scroll-driven chapters
+          ================================================ */}
+
           <ArcheNovaCivilizationPrelude />
 
+          {/* ================================================
+              02 / HUMAN AGENCY
+
+              Existing:
+              - dynamic chapter count
+              - START / FIXED / END
+              - scroll-driven chapter switching
+          ================================================ */}
+
           <ArcheNovaIdealUserPrelude />
+
+          {/* ================================================
+              03 / WORLD
+
+              Existing:
+              - natural document height
+              - exhibition interaction
+              - independent reveal behavior
+          ================================================ */}
 
           <ArcheNovaWorldGallery />
 
           {/* ================================================
-              CONCEPT END
+              04 / END OF CONCEPT
+
+              This remains a HOME section, but it is not a
+              HomeSectionPager target.
           ================================================ */}
 
           <section
@@ -247,17 +378,17 @@ export default function ArcheNovaConceptPortal() {
               </span>
 
               <p>
-                Purpose.
+                Purpose becomes direction.
                 <br />
-                Human agency.
+                Direction becomes architecture.
                 <br />
-                World.
+                Architecture becomes possibility.
               </p>
 
               <button
                 type="button"
-                className="an-concept-portal__return"
                 onClick={closeConcept}
+                className="an-concept-portal__return"
                 aria-label="Close ArcheNova Concept and return to its entrance"
               >
                 <svg

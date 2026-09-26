@@ -65309,6 +65309,366 @@ main.an-home-2026
 
 /* ==========================================================
    ARCHENOVA CONCEPT
+   RESTORE SCROLL-DRIVEN PURPOSE / IDEAL USER JOURNEYS
+
+   ArcheNovaCivilizationPrelude and ArcheNovaIdealUserPrelude
+   calculate their active chapter from:
+
+   section height - viewport height
+
+   After nesting them inside ArcheNova Concept they are no
+   longer direct children of main.an-home-2026.
+
+   Restore their original long-scroll geometry here.
+========================================================== */
+
+
+/* ==========================================================
+   01 / PURPOSE
+   5 CHAPTERS
+========================================================== */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-civilization-prelude {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  /*
+   * Five chapters need five viewport intervals.
+   *
+   * The JS uses:
+   * travel = sectionHeight - viewportHeight
+   *
+   * 500svh therefore gives approximately four viewport
+   * lengths of actual chapter-changing travel:
+   *
+   * 500svh - 100svh = 400svh
+   *
+   * 01 → 02 → 03 → 04 → 05
+   */
+  min-height: 500svh !important;
+  height: 500svh !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  transform: none !important;
+}
+
+
+/* ==========================================================
+   02 / PURPOSE FRAME
+
+   Preserve one viewport-sized visual frame while the
+   parent section provides the scroll distance.
+========================================================== */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-civilization-prelude
+.an-civilization-purpose__frame {
+  width: 100% !important;
+
+  min-height: 100svh !important;
+  height: 100svh !important;
+  max-height: 100svh !important;
+}
+
+
+/* START */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--start {
+  position: absolute !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+}
+
+
+/* FIXED */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--fixed {
+  position: fixed !important;
+
+  z-index: 20 !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+}
+
+
+/* END */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-civilization-prelude
+.an-civilization-purpose__frame--end {
+  position: absolute !important;
+
+  top: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+
+/* ==========================================================
+   03 / IDEAL USER PRELUDE
+   6 CHAPTERS
+========================================================== */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-ideal-user {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  /*
+   * Six chapters.
+   *
+   * 600svh - 100svh
+   * = 500svh active scroll travel.
+   *
+   * 01 → 02 → 03 → 04 → 05 → 06
+   */
+  min-height: 600svh !important;
+  height: 600svh !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+
+  background: transparent !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  transform: none !important;
+}
+
+
+/* ==========================================================
+   04 / IDEAL USER FRAME
+========================================================== */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-ideal-user
+.an-ideal-user__frame {
+  width: 100% !important;
+
+  min-height: 100svh !important;
+  height: 100svh !important;
+  max-height: 100svh !important;
+}
+
+
+/* START */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-ideal-user
+.an-ideal-user__frame--start {
+  position: absolute !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+}
+
+
+/* FIXED */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-ideal-user
+.an-ideal-user__frame--fixed {
+  position: fixed !important;
+
+  z-index: 20 !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: 0 !important;
+}
+
+
+/* END */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-ideal-user
+.an-ideal-user__frame--end {
+  position: absolute !important;
+
+  top: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+
+/* ==========================================================
+   05 / GLASS WIDTH
+
+   Preserve the existing Prelude visual surfaces.
+   Do not introduce another Concept card around them.
+========================================================== */
+
+main.an-home-2026
+.an-concept-portal__content
+.an-civilization-purpose__glass,
+
+main.an-home-2026
+.an-concept-portal__content
+.an-ideal-user__glass {
+  box-sizing: border-box;
+
+  width: 100%;
+
+  min-width: 0;
+}
+
+
+/* ==========================================================
+   06 / WORLD GALLERY
+
+   World Gallery is editorial content, not a scroll-driven
+   fixed chapter sequence. Keep its natural document height.
+========================================================== */
+
+main.an-home-2026
+.an-concept-portal__content
+#archenova-world {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  min-height: 100svh !important;
+  height: auto !important;
+  max-height: none !important;
+
+  overflow: visible !important;
+}
+
+
+/* ==========================================================
+   07 / MOBILE
+
+   Use dynamic viewport units where available so Safari
+   browser chrome does not distort the chapter geometry.
+========================================================== */
+
+@media (max-width: 700px) {
+
+  main.an-home-2026
+  .an-concept-portal__content
+  #archenova-civilization-prelude {
+    min-height: 500svh !important;
+    height: 500svh !important;
+  }
+
+  main.an-home-2026
+  .an-concept-portal__content
+  #archenova-ideal-user {
+    min-height: 600svh !important;
+    height: 600svh !important;
+  }
+
+  main.an-home-2026
+  .an-concept-portal__content
+  .an-civilization-purpose__frame,
+
+  main.an-home-2026
+  .an-concept-portal__content
+  .an-ideal-user__frame {
+    min-height: 100svh !important;
+    height: 100svh !important;
+    max-height: 100svh !important;
+  }
+}
+
+
+/* ==========================================================
+   08 / FINAL GUARANTEE
+
+   The nested chapter sections must never inherit the
+   ordinary 100svh HOME-section geometry.
+========================================================== */
+
+main.an-home-2026
+.an-concept-portal__content
+:is(
+  #archenova-civilization-prelude,
+  #archenova-ideal-user
+) {
+  scroll-snap-align: none !important;
+  scroll-snap-stop: normal !important;
+
+  content-visibility: visible !important;
+
+  contain: none !important;
+
+  will-change: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA CONCEPT
    SCROLL-DRIVEN CHAPTER COMPATIBILITY
    ----------------------------------------------------------
    PURPOSES and IDEAL USER use viewport-fixed chapter frames.
@@ -65721,6 +66081,16 @@ main#home-top.an-home-2026
   }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
