@@ -292,14 +292,6 @@ export default function ArcheNovaConceptPortal() {
                 ARCHENOVA CONCEPT
               </span>
 
-              <p>
-                Purpose becomes direction.
-                <br />
-                Direction becomes architecture.
-                <br />
-                Architecture becomes possibility.
-              </p>
-
               <button
                 type="button"
                 onClick={closeConcept}

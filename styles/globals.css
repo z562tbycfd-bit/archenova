@@ -60628,46 +60628,6 @@ main.an-home-2026
 
 
 /* ==========================================================
-   03 / SCROLL POSITION — EXISTING WORKING BEHAVIOR
-========================================================== */
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--start {
-  position: absolute !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-}
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--fixed {
-  position: fixed !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-
-  z-index: 20 !important;
-}
-
-main.an-home-2026
-#archenova-civilization-prelude
-.an-civilization-purpose__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-}
-
-
-/* ==========================================================
   04 / SINGLE GLASS — WORLD-MATCHED SURFACE
 
   Match WORLD:
@@ -62286,50 +62246,6 @@ and
 }
 
 
-/* BEFORE PIN */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__frame--start {
-  position: absolute !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-}
-
-
-/* PINNED */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__frame--fixed {
-  position: fixed !important;
-
-  z-index: 20 !important;
-
-  top: 0 !important;
-  right: 0 !important;
-  bottom: auto !important;
-  left: 0 !important;
-}
-
-
-/* AFTER PIN */
-
-.archenova-twin-home
-#archenova-ideal-user
-.an-ideal-user__frame--end {
-  position: absolute !important;
-
-  top: auto !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-}
-
-
 /* ==========================================================
    SINGLE OPTICAL GLASS
    ----------------------------------------------------------
@@ -63119,81 +63035,6 @@ main.an-home-2026
 
   backdrop-filter:
     none !important;
-}
-
-
-/* ==========================================================
-   04 / START
-========================================================== */
-
-main.an-home-2026
-#archenova-ideal-user
-.an-ideal-user__frame--start {
-  position:
-    absolute !important;
-
-  top:
-    0 !important;
-
-  right:
-    0 !important;
-
-  bottom:
-    auto !important;
-
-  left:
-    0 !important;
-}
-
-
-/* ==========================================================
-   05 / FIXED
-========================================================== */
-
-main.an-home-2026
-#archenova-ideal-user
-.an-ideal-user__frame--fixed {
-  position:
-    fixed !important;
-
-  top:
-    0 !important;
-
-  right:
-    0 !important;
-
-  bottom:
-    auto !important;
-
-  left:
-    0 !important;
-
-  z-index:
-    20 !important;
-}
-
-
-/* ==========================================================
-   06 / END
-========================================================== */
-
-main.an-home-2026
-#archenova-ideal-user
-.an-ideal-user__frame--end {
-  position:
-    absolute !important;
-
-  top:
-    auto !important;
-
-  right:
-    0 !important;
-
-  bottom:
-    0 !important;
-
-  left:
-    0 !important;
 }
 
 
