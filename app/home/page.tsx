@@ -28,21 +28,9 @@ export default function HomePage() {
 
       {/* ==================================================
     00 — ARCHENOVA CONCEPT
-
-    HOME section owns the single visible glass.
-    ArcheNovaConceptPortal itself remains transparent.
 ================================================== */}
 
-<section
-  id="archenova-concept"
-  data-home-section
-  className="home-page twin-page arche-nova-concept-page an-home-2026__section"
-  aria-label="ArcheNova Concept"
->
-  <div className="an-home-2026__glass">
-    <ArcheNovaConceptPortal />
-  </div>
-</section>
+<ArcheNovaConceptPortal />
 
       
 
