@@ -28,6 +28,7 @@ import ArcheNovaWorldGallery from "./ArcheNovaWorldGallery";
    - Closed content is removed from the DOM.
    - No wrapper surrounds the expanded environments.
    - No duplicate inner glass card.
+   - Opening Concept does not change entrance material.
    - Purpose / Ideal User keep viewport-based scrolling.
    - World keeps its original HOME relationship.
 ========================================================== */
@@ -73,19 +74,19 @@ export default function ArcheNovaConceptPortal() {
   return (
     <Fragment>
       {/* ====================================================
-          CONCEPT ENTRANCE
+          01 / CONCEPT ENTRANCE
+
+          IMPORTANT:
+          The className never changes between OPEN/CLOSED.
+
+          This prevents opening Concept from changing the
+          HOME glass material through state-specific CSS.
       ==================================================== */}
 
       <section
         id="archenova-concept"
         data-home-section
-        className={[
-          "an-home-2026__section",
-          "an-concept-portal",
-          isOpen
-            ? "an-concept-portal--open"
-            : "an-concept-portal--closed",
-        ].join(" ")}
+        className="an-home-2026__section an-concept-portal"
         aria-labelledby="an-concept-title"
       >
         <div className="an-concept-portal__surface">
@@ -122,13 +123,13 @@ export default function ArcheNovaConceptPortal() {
           ================================================ */}
 
           <header className="an-concept-portal__header">
-
             {isOpen && (
               <button
                 type="button"
                 className="an-concept-portal__close"
                 onClick={closeConcept}
                 aria-label="Close ArcheNova Concept"
+                aria-expanded="true"
               >
                 <span>CLOSE</span>
 
@@ -207,7 +208,7 @@ export default function ArcheNovaConceptPortal() {
                 type="button"
                 className="an-concept-portal__enter"
                 onClick={openConcept}
-                aria-expanded={false}
+                aria-expanded="false"
               >
                 <span>
                   EXPLORE CONCEPT
@@ -247,14 +248,22 @@ export default function ArcheNovaConceptPortal() {
       </section>
 
       {/* ====================================================
-          EXPANDED CONCEPT
+          02 / EXPANDED CONCEPT
 
-          IMPORTANT:
-          No DOM wrapper is used here.
+          CRITICAL:
+          Fragment only.
 
-          When ArcheNovaConceptPortal itself is rendered
-          directly under <main>, these environments also
-          become direct children of <main>.
+          No:
+          - div wrapper
+          - transform
+          - filter
+          - backdrop-filter
+          - contain
+          - overflow clipping
+
+          Therefore Purpose / Ideal User remain direct
+          children of HOME and their position: fixed frames
+          continue to use the viewport.
       ==================================================== */}
 
       {isOpen && (
@@ -266,7 +275,7 @@ export default function ArcheNovaConceptPortal() {
           <ArcheNovaWorldGallery />
 
           {/* ================================================
-              END OF CONCEPT
+              03 / END OF CONCEPT
           ================================================ */}
 
           <section
@@ -325,12 +334,11 @@ export default function ArcheNovaConceptPortal() {
            ARCHENOVA CONCEPT
            VISUAL SYSTEM
 
-           IMPORTANT:
-           #archenova-concept is the HOME glass.
-           .an-concept-portal__surface is layout only.
+           SCOPE:
+           Concept entrance + Concept ending only.
 
-           This preserves the original visual composition
-           without creating a second glass frame.
+           Purpose / Ideal User / World are intentionally
+           NOT targeted here.
         ================================================== */
 
 
@@ -338,13 +346,13 @@ export default function ArcheNovaConceptPortal() {
            01 / ROOT
         ================================================== */
 
-        .an-concept-portal,
-        .an-concept-portal * {
+        #archenova-concept,
+        #archenova-concept * {
           box-sizing: border-box;
           min-width: 0;
         }
 
-        .an-concept-portal {
+        #archenova-concept.an-concept-portal {
           position: relative;
 
           display: flex;
@@ -354,7 +362,11 @@ export default function ArcheNovaConceptPortal() {
           width: 100%;
           min-width: 0;
 
-          color: rgba(255, 255, 255, 0.94);
+          opacity: 1;
+          visibility: visible;
+
+          color:
+            rgba(255, 255, 255, 0.94);
 
           font-family:
             -apple-system,
@@ -364,36 +376,36 @@ export default function ArcheNovaConceptPortal() {
             Arial,
             sans-serif;
 
-          -webkit-font-smoothing: antialiased;
-          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing:
+            antialiased;
+
+          text-rendering:
+            optimizeLegibility;
         }
 
 
         /* ==================================================
            02 / SURFACE
 
-           Layout surface only.
+           Layout only.
 
-           REMOVED:
-           - border
-           - background
-           - backdrop-filter
-           - box-shadow
-           - border-radius
+           The visible glass belongs to #archenova-concept
+           through globals.css.
 
-           Therefore the HOME section remains the single
-           visible glass frame.
+           No second glass is created here.
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__surface {
           position: relative;
+
           isolation: isolate;
 
           display: flex;
           flex-direction: column;
 
-          width: min(100%, 1180px);
+          width:
+            min(100%, 1180px);
 
           min-height:
             min(760px, 82svh);
@@ -405,49 +417,73 @@ export default function ArcheNovaConceptPortal() {
 
           overflow: hidden;
 
+          opacity: 1;
+          visibility: visible;
+
           border: 0;
           border-radius: 0;
 
-          background: transparent;
+          background:
+            transparent;
 
-          -webkit-backdrop-filter: none;
-          backdrop-filter: none;
+          -webkit-backdrop-filter:
+            none;
 
-          box-shadow: none;
+          backdrop-filter:
+            none;
+
+          box-shadow:
+            none;
         }
 
 
         /* ==================================================
            03 / AMBIENT
+
+           State-independent.
+           EXPLORE does not alter these values.
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__ambient,
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__grid,
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__reflection,
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__axis {
           position: absolute;
+
           inset: 0;
 
           pointer-events: none;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__ambient {
           z-index: -5;
+
+          opacity: 1;
 
           background:
             radial-gradient(
               circle at 50% 48%,
-              rgba(255, 255, 255, 0.027),
+              rgba(
+                255,
+                255,
+                255,
+                0.027
+              ),
               transparent 31%
             );
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__grid {
           z-index: -4;
 
@@ -455,12 +491,24 @@ export default function ArcheNovaConceptPortal() {
 
           background-image:
             linear-gradient(
-              rgba(255, 255, 255, 0.024) 1px,
+              rgba(
+                255,
+                255,
+                255,
+                0.024
+              )
+              1px,
               transparent 1px
             ),
             linear-gradient(
               90deg,
-              rgba(255, 255, 255, 0.024) 1px,
+              rgba(
+                255,
+                255,
+                255,
+                0.024
+              )
+              1px,
               transparent 1px
             );
 
@@ -471,7 +519,13 @@ export default function ArcheNovaConceptPortal() {
             radial-gradient(
               ellipse at center,
               #000 0%,
-              rgba(0, 0, 0, 0.52) 43%,
+              rgba(
+                0,
+                0,
+                0,
+                0.52
+              )
+              43%,
               transparent 80%
             );
 
@@ -479,12 +533,19 @@ export default function ArcheNovaConceptPortal() {
             radial-gradient(
               ellipse at center,
               #000 0%,
-              rgba(0, 0, 0, 0.52) 43%,
+              rgba(
+                0,
+                0,
+                0,
+                0.52
+              )
+              43%,
               transparent 80%
             );
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__reflection {
           z-index: -2;
 
@@ -495,7 +556,13 @@ export default function ArcheNovaConceptPortal() {
               117deg,
               transparent 0%,
               transparent 36%,
-              rgba(255, 255, 255, 0.018) 47%,
+              rgba(
+                255,
+                255,
+                255,
+                0.018
+              )
+              47%,
               transparent 59%
             );
         }
@@ -505,7 +572,7 @@ export default function ArcheNovaConceptPortal() {
            04 / AXIS
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__axis {
           z-index: -3;
 
@@ -515,19 +582,27 @@ export default function ArcheNovaConceptPortal() {
           opacity: 0.18;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__axis span {
           position: absolute;
 
           border:
             1px solid
-            rgba(255, 255, 255, 0.035);
+            rgba(
+              255,
+              255,
+              255,
+              0.035
+            );
 
           border-radius: 50%;
         }
 
-        .an-concept-portal
-        .an-concept-portal__axis span:nth-child(1) {
+
+        #archenova-concept
+        .an-concept-portal__axis
+        span:nth-child(1) {
           width:
             min(74vw, 980px);
 
@@ -538,8 +613,10 @@ export default function ArcheNovaConceptPortal() {
             rotate(-7deg);
         }
 
-        .an-concept-portal
-        .an-concept-portal__axis span:nth-child(2) {
+
+        #archenova-concept
+        .an-concept-portal__axis
+        span:nth-child(2) {
           width:
             min(57vw, 760px);
 
@@ -550,8 +627,10 @@ export default function ArcheNovaConceptPortal() {
             rotate(8deg);
         }
 
-        .an-concept-portal
-        .an-concept-portal__axis span:nth-child(3) {
+
+        #archenova-concept
+        .an-concept-portal__axis
+        span:nth-child(3) {
           width:
             min(38vw, 520px);
 
@@ -567,52 +646,26 @@ export default function ArcheNovaConceptPortal() {
            05 / HEADER
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__header {
           position: relative;
+
           z-index: 5;
 
           display: flex;
-          flex: 0 0 auto;
 
-          align-items: flex-start;
-          justify-content: space-between;
+          flex:
+            0 0 auto;
+
+          align-items:
+            flex-start;
+
+          justify-content:
+            flex-end;
 
           gap: 24px;
-        }
 
-        .an-concept-portal
-        .an-concept-portal__identity {
-          display: flex;
-          flex-direction: column;
-
-          gap: 7px;
-        }
-
-        .an-concept-portal
-        .an-concept-portal__eyebrow {
-          color:
-            rgba(255, 255, 255, 0.76);
-
-          font-size: 9px;
-          font-weight: 650;
-          line-height: 1;
-
-          letter-spacing:
-            0.22em;
-        }
-
-        .an-concept-portal
-        .an-concept-portal__principle {
-          color:
-            rgba(255, 255, 255, 0.3);
-
-          font-size: 8px;
-          font-weight: 500;
-          line-height: 1.4;
-
-          letter-spacing:
-            0.17em;
+          width: 100%;
         }
 
 
@@ -620,9 +673,10 @@ export default function ArcheNovaConceptPortal() {
            06 / CLOSE
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__close {
           display: flex;
+
           align-items: center;
 
           gap: 10px;
@@ -634,7 +688,12 @@ export default function ArcheNovaConceptPortal() {
             10px 8px;
 
           color:
-            rgba(255, 255, 255, 0.5);
+            rgba(
+              255,
+              255,
+              255,
+              0.5
+            );
 
           border: 0;
           border-radius: 0;
@@ -642,7 +701,8 @@ export default function ArcheNovaConceptPortal() {
           background:
             transparent;
 
-          box-shadow: none;
+          box-shadow:
+            none;
 
           font: inherit;
 
@@ -656,16 +716,19 @@ export default function ArcheNovaConceptPortal() {
             color 220ms ease;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__close span {
           font-size: 8px;
+
           font-weight: 600;
 
           letter-spacing:
             0.18em;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__close svg {
           width: 17px;
           height: 17px;
@@ -674,10 +737,16 @@ export default function ArcheNovaConceptPortal() {
             rotate(-90deg);
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__close:hover {
           color:
-            rgba(255, 255, 255, 0.94);
+            rgba(
+              255,
+              255,
+              255,
+              0.94
+            );
         }
 
 
@@ -685,19 +754,23 @@ export default function ArcheNovaConceptPortal() {
            07 / BODY
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__body {
           position: relative;
+
           z-index: 3;
 
           display: grid;
-          flex: 1 1 auto;
+
+          flex:
+            1 1 auto;
 
           grid-template-columns:
             minmax(0, 1.2fr)
             minmax(280px, 0.8fr);
 
-          align-items: center;
+          align-items:
+            center;
 
           gap:
             clamp(
@@ -720,34 +793,51 @@ export default function ArcheNovaConceptPortal() {
             );
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__statement {
           width: 100%;
-          max-width: 720px;
+
+          max-width:
+            720px;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__index {
           display: block;
 
-          margin-bottom: 22px;
+          margin-bottom:
+            22px;
 
           color:
-            rgba(255, 255, 255, 0.3);
+            rgba(
+              255,
+              255,
+              255,
+              0.3
+            );
 
           font-size: 9px;
+
           font-weight: 500;
 
           letter-spacing:
             0.16em;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__statement h2 {
           margin: 0;
 
           color:
-            rgba(255, 255, 255, 0.95);
+            rgba(
+              255,
+              255,
+              255,
+              0.95
+            );
 
           font-size:
             clamp(
@@ -757,13 +847,15 @@ export default function ArcheNovaConceptPortal() {
             );
 
           font-weight: 300;
+
           line-height: 0.98;
 
           letter-spacing:
             -0.06em;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__statement p {
           margin:
             clamp(
@@ -775,7 +867,12 @@ export default function ArcheNovaConceptPortal() {
             0;
 
           color:
-            rgba(255, 255, 255, 0.4);
+            rgba(
+              255,
+              255,
+              255,
+              0.4
+            );
 
           font-size:
             clamp(
@@ -785,6 +882,7 @@ export default function ArcheNovaConceptPortal() {
             );
 
           font-weight: 400;
+
           line-height: 1.8;
         }
 
@@ -793,19 +891,27 @@ export default function ArcheNovaConceptPortal() {
            08 / CONCEPT ARCHITECTURE
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__architecture {
           display: flex;
-          align-items: stretch;
 
-          min-height: 210px;
+          align-items:
+            stretch;
+
+          min-height:
+            210px;
 
           border: 0;
-          background: transparent;
-          box-shadow: none;
+
+          background:
+            transparent;
+
+          box-shadow:
+            none;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__architecture-line {
           width: 1px;
 
@@ -838,39 +944,59 @@ export default function ArcheNovaConceptPortal() {
             );
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__architecture-items {
           display: flex;
+
           flex: 1;
-          flex-direction: column;
+
+          flex-direction:
+            column;
 
           justify-content:
             space-between;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__architecture-items span {
           display: flex;
-          align-items: baseline;
+
+          align-items:
+            baseline;
 
           gap: 16px;
 
           color:
-            rgba(255, 255, 255, 0.48);
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
 
           font-size: 9px;
+
           font-weight: 600;
 
           letter-spacing:
             0.15em;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__architecture-items small {
           color:
-            rgba(255, 255, 255, 0.22);
+            rgba(
+              255,
+              255,
+              255,
+              0.22
+            );
 
           font-size: 8px;
+
           font-weight: 500;
         }
 
@@ -879,24 +1005,34 @@ export default function ArcheNovaConceptPortal() {
            09 / FOOTER
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__footer {
           position: relative;
+
           z-index: 5;
 
           display: flex;
-          flex: 0 0 auto;
 
-          align-items: center;
-          justify-content: flex-end;
+          flex:
+            0 0 auto;
 
-          min-height: 52px;
+          align-items:
+            center;
+
+          justify-content:
+            flex-end;
+
+          min-height:
+            52px;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__enter {
           display: flex;
-          align-items: center;
+
+          align-items:
+            center;
 
           gap: 18px;
 
@@ -906,15 +1042,22 @@ export default function ArcheNovaConceptPortal() {
             10px 0;
 
           color:
-            rgba(255, 255, 255, 0.72);
+            rgba(
+              255,
+              255,
+              255,
+              0.72
+            );
 
           border: 0;
+
           border-radius: 0;
 
           background:
             transparent;
 
-          box-shadow: none;
+          box-shadow:
+            none;
 
           font: inherit;
 
@@ -931,57 +1074,81 @@ export default function ArcheNovaConceptPortal() {
             );
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__enter span {
           font-size: 9px;
+
           font-weight: 650;
 
           letter-spacing:
             0.18em;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__enter svg {
           width: 42px;
+
           height: 16px;
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__enter:hover {
           gap: 27px;
 
           color:
-            rgba(255, 255, 255, 1);
+            rgba(
+              255,
+              255,
+              255,
+              1
+            );
         }
 
-        .an-concept-portal
+
+        #archenova-concept
         .an-concept-portal__opened {
           display: flex;
-          align-items: center;
+
+          align-items:
+            center;
 
           gap: 16px;
 
           color:
-            rgba(255, 255, 255, 0.31);
+            rgba(
+              255,
+              255,
+              255,
+              0.31
+            );
 
           animation:
             an-concept-control-enter
             500ms ease both;
         }
 
-        .an-concept-portal
-        .an-concept-portal__opened span:first-child {
+
+        #archenova-concept
+        .an-concept-portal__opened
+        span:first-child {
           font-size: 8px;
+
           font-weight: 600;
 
           letter-spacing:
             0.16em;
         }
 
-        .an-concept-portal
-        .an-concept-portal__opened span:last-child {
+
+        #archenova-concept
+        .an-concept-portal__opened
+        span:last-child {
           font-size: 14px;
         }
+
 
         @keyframes an-concept-control-enter {
           from {
@@ -998,16 +1165,21 @@ export default function ArcheNovaConceptPortal() {
            10 / FOCUS
         ================================================== */
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__enter:focus-visible,
 
-        .an-concept-portal
+        #archenova-concept
         .an-concept-portal__close:focus-visible,
 
         .an-concept-portal__return:focus-visible {
           outline:
             1px solid
-            rgba(255, 255, 255, 0.7);
+            rgba(
+              255,
+              255,
+              255,
+              0.7
+            );
 
           outline-offset:
             5px;
@@ -1015,19 +1187,21 @@ export default function ArcheNovaConceptPortal() {
 
 
         /* ==================================================
-           11 / CLOSING SECTION
+           11 / CLOSING
 
-           The HOME section itself owns any global HOME glass.
-           Therefore closing-surface does NOT add a second
-           framed glass card.
+           No inner glass.
         ================================================== */
 
         .an-concept-portal__closing {
           position: relative;
 
           display: flex;
-          align-items: center;
-          justify-content: center;
+
+          align-items:
+            center;
+
+          justify-content:
+            center;
 
           width: 100%;
 
@@ -1035,12 +1209,18 @@ export default function ArcheNovaConceptPortal() {
             100svh;
         }
 
+
         .an-concept-portal__closing-surface {
           display: flex;
-          flex-direction: column;
 
-          align-items: center;
-          justify-content: center;
+          flex-direction:
+            column;
+
+          align-items:
+            center;
+
+          justify-content:
+            center;
 
           width:
             min(100%, 1080px);
@@ -1056,6 +1236,7 @@ export default function ArcheNovaConceptPortal() {
             );
 
           border: 0;
+
           border-radius: 0;
 
           background:
@@ -1067,29 +1248,45 @@ export default function ArcheNovaConceptPortal() {
           backdrop-filter:
             none;
 
-          box-shadow: none;
+          box-shadow:
+            none;
 
-          text-align: center;
+          text-align:
+            center;
         }
 
+
         .an-concept-portal__closing-eyebrow {
-          margin-bottom: 38px;
+          margin-bottom:
+            38px;
 
           color:
-            rgba(255, 255, 255, 0.3);
+            rgba(
+              255,
+              255,
+              255,
+              0.3
+            );
 
           font-size: 8px;
+
           font-weight: 600;
 
           letter-spacing:
             0.2em;
         }
 
+
         .an-concept-portal__closing-surface p {
           margin: 0;
 
           color:
-            rgba(255, 255, 255, 0.78);
+            rgba(
+              255,
+              255,
+              255,
+              0.78
+            );
 
           font-size:
             clamp(
@@ -1099,15 +1296,19 @@ export default function ArcheNovaConceptPortal() {
             );
 
           font-weight: 300;
+
           line-height: 1.3;
 
           letter-spacing:
             -0.04em;
         }
 
+
         .an-concept-portal__return {
           display: flex;
-          align-items: center;
+
+          align-items:
+            center;
 
           gap: 16px;
 
@@ -1122,15 +1323,22 @@ export default function ArcheNovaConceptPortal() {
             10px 0;
 
           color:
-            rgba(255, 255, 255, 0.48);
+            rgba(
+              255,
+              255,
+              255,
+              0.48
+            );
 
           border: 0;
+
           border-radius: 0;
 
           background:
             transparent;
 
-          box-shadow: none;
+          box-shadow:
+            none;
 
           font: inherit;
 
@@ -1141,6 +1349,7 @@ export default function ArcheNovaConceptPortal() {
             gap 320ms ease;
         }
 
+
         .an-concept-portal__return svg {
           width: 36px;
 
@@ -1148,19 +1357,27 @@ export default function ArcheNovaConceptPortal() {
             rotate(180deg);
         }
 
+
         .an-concept-portal__return span {
           font-size: 8px;
+
           font-weight: 600;
 
           letter-spacing:
             0.17em;
         }
 
+
         .an-concept-portal__return:hover {
           gap: 23px;
 
           color:
-            rgba(255, 255, 255, 0.9);
+            rgba(
+              255,
+              255,
+              255,
+              0.9
+            );
         }
 
 
@@ -1169,7 +1386,7 @@ export default function ArcheNovaConceptPortal() {
         ================================================== */
 
         @media (max-width: 768px) {
-          .an-concept-portal
+          #archenova-concept
           .an-concept-portal__surface {
             width: 100%;
 
@@ -1182,6 +1399,7 @@ export default function ArcheNovaConceptPortal() {
               18px;
 
             border: 0;
+
             border-radius: 0;
 
             background:
@@ -1191,26 +1409,19 @@ export default function ArcheNovaConceptPortal() {
               none;
           }
 
-          .an-concept-portal
-          .an-concept-portal__eyebrow {
-            font-size: 8px;
-          }
 
-          .an-concept-portal
-          .an-concept-portal__principle {
-            font-size: 7px;
-
-            letter-spacing:
-              0.13em;
-          }
-
-          .an-concept-portal
+          #archenova-concept
           .an-concept-portal__body {
             display: flex;
-            flex-direction: column;
 
-            align-items: stretch;
-            justify-content: center;
+            flex-direction:
+              column;
+
+            align-items:
+              stretch;
+
+            justify-content:
+              center;
 
             gap: 46px;
 
@@ -1220,14 +1431,18 @@ export default function ArcheNovaConceptPortal() {
               38px;
           }
 
-          .an-concept-portal
-          .an-concept-portal__index {
-            margin-bottom: 17px;
 
-            font-size: 8px;
+          #archenova-concept
+          .an-concept-portal__index {
+            margin-bottom:
+              17px;
+
+            font-size:
+              8px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__statement h2 {
             font-size:
               clamp(
@@ -1237,47 +1452,67 @@ export default function ArcheNovaConceptPortal() {
               );
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__statement p {
-            margin-top: 23px;
+            margin-top:
+              23px;
 
-            font-size: 10px;
-            line-height: 1.65;
+            font-size:
+              10px;
+
+            line-height:
+              1.65;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__architecture {
-            min-height: 116px;
+            min-height:
+              116px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__architecture-line {
-            margin-right: 20px;
+            margin-right:
+              20px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__architecture-items span {
-            font-size: 8px;
+            font-size:
+              8px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__footer {
-            min-height: 46px;
+            min-height:
+              46px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__enter span {
-            font-size: 8px;
+            font-size:
+              8px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__enter svg {
-            width: 35px;
+            width:
+              35px;
           }
+
 
           .an-concept-portal__closing-surface {
             width:
-              calc(100% - 32px);
+              calc(
+                100% - 32px
+              );
 
             min-height:
               68svh;
@@ -1285,16 +1520,8 @@ export default function ArcheNovaConceptPortal() {
             padding:
               40px
               24px;
-
-            border: 0;
-            border-radius: 0;
-
-            background:
-              transparent;
-
-            box-shadow:
-              none;
           }
+
 
           .an-concept-portal__closing-surface p {
             font-size:
@@ -1305,18 +1532,24 @@ export default function ArcheNovaConceptPortal() {
               );
           }
 
-          .an-concept-portal
-          .an-concept-portal__axis span:nth-child(1) {
+
+          #archenova-concept
+          .an-concept-portal__axis
+          span:nth-child(1) {
             width: 150vw;
           }
 
-          .an-concept-portal
-          .an-concept-portal__axis span:nth-child(2) {
+
+          #archenova-concept
+          .an-concept-portal__axis
+          span:nth-child(2) {
             width: 118vw;
           }
 
-          .an-concept-portal
-          .an-concept-portal__axis span:nth-child(3) {
+
+          #archenova-concept
+          .an-concept-portal__axis
+          span:nth-child(3) {
             width: 88vw;
           }
         }
@@ -1327,7 +1560,7 @@ export default function ArcheNovaConceptPortal() {
         ================================================== */
 
         @media (max-width: 430px) {
-          .an-concept-portal
+          #archenova-concept
           .an-concept-portal__surface {
             padding:
               22px
@@ -1335,7 +1568,8 @@ export default function ArcheNovaConceptPortal() {
               15px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__statement h2 {
             font-size:
               clamp(
@@ -1345,19 +1579,25 @@ export default function ArcheNovaConceptPortal() {
               );
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__architecture {
-            min-height: 104px;
+            min-height:
+              104px;
           }
 
-          .an-concept-portal
+
+          #archenova-concept
           .an-concept-portal__close span {
             display: none;
           }
 
+
           .an-concept-portal__closing-surface {
             width:
-              calc(100% - 24px);
+              calc(
+                100% - 24px
+              );
 
             padding:
               34px
@@ -1374,15 +1614,15 @@ export default function ArcheNovaConceptPortal() {
           prefers-reduced-motion:
           reduce
         ) {
-          .an-concept-portal
+          #archenova-concept
           .an-concept-portal__enter,
 
-          .an-concept-portal
+          #archenova-concept
           .an-concept-portal__close,
 
           .an-concept-portal__return,
 
-          .an-concept-portal
+          #archenova-concept
           .an-concept-portal__opened {
             animation:
               none !important;
