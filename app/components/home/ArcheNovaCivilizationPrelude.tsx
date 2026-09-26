@@ -1,6 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+} from "react";
 
 type Chapter = {
   number: string;
@@ -81,16 +86,70 @@ const CHAPTERS: readonly Chapter[] = [
 
 const CHAPTER_COUNT = CHAPTERS.length;
 
-type FramePosition = "start" | "fixed" | "end";
+type FramePosition =
+  | "start"
+  | "fixed"
+  | "end";
 
-function clamp(value: number, min: number, max: number) {
-  return Math.min(max, Math.max(min, value));
+function clamp(
+  value: number,
+  min: number,
+  max: number,
+) {
+  return Math.min(
+    max,
+    Math.max(min, value),
+  );
+}
+
+function getFrameStyle(
+  position: FramePosition,
+): CSSProperties {
+  const common: CSSProperties = {
+    left: 0,
+    right: 0,
+    width: "100%",
+    height: "100svh",
+    minHeight: "100svh",
+    maxHeight: "100svh",
+    opacity: 1,
+    visibility: "visible",
+    zIndex: 40,
+  };
+
+  if (position === "fixed") {
+    return {
+      ...common,
+      position: "fixed",
+      top: 0,
+      bottom: "auto",
+    };
+  }
+
+  if (position === "end") {
+    return {
+      ...common,
+      position: "absolute",
+      top: "auto",
+      bottom: 0,
+    };
+  }
+
+  return {
+    ...common,
+    position: "absolute",
+    top: 0,
+    bottom: "auto",
+  };
 }
 
 export default function ArcheNovaCivilizationPrelude() {
-  const sectionRef = useRef<HTMLElement | null>(null);
+  const sectionRef =
+    useRef<HTMLElement | null>(null);
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] =
+    useState(0);
+
   const [framePosition, setFramePosition] =
     useState<FramePosition>("start");
 
@@ -100,55 +159,125 @@ export default function ArcheNovaCivilizationPrelude() {
     if (!section) return;
 
     let animationFrame = 0;
+
     let lastIndex = -1;
-    let lastPosition: FramePosition | null = null;
+
+    let lastPosition:
+      | FramePosition
+      | null = null;
 
     const update = () => {
-      const rect = section.getBoundingClientRect();
-      const viewportHeight = window.innerHeight;
+      const rect =
+        section.getBoundingClientRect();
 
-      const frameHeight = viewportHeight;
-      const travel = Math.max(1, rect.height - frameHeight);
+      const viewportHeight =
+        window.innerHeight;
 
-      let nextPosition: FramePosition;
+      const frameHeight =
+        viewportHeight;
 
+      const travel =
+        Math.max(
+          1,
+          rect.height - frameHeight,
+        );
+
+      let nextPosition:
+        FramePosition;
+
+      /*
+       * BEFORE / AT START
+       */
       if (rect.top >= 0) {
         nextPosition = "start";
-      } else if (rect.bottom <= frameHeight) {
+      }
+
+      /*
+       * AFTER / AT END
+       */
+      else if (
+        rect.bottom <= frameHeight
+      ) {
         nextPosition = "end";
-      } else {
+      }
+
+      /*
+       * INSIDE SCROLL JOURNEY
+       */
+      else {
         nextPosition = "fixed";
       }
 
-      const travelled = clamp(-rect.top, 0, travel);
+      const travelled =
+        clamp(
+          -rect.top,
+          0,
+          travel,
+        );
 
-      const nextIndex = clamp(
-        Math.floor((travelled / travel) * CHAPTER_COUNT),
-        0,
-        CHAPTER_COUNT - 1
-      );
+      /*
+       * Divide the COMPLETE scroll journey
+       * into five equal chapter territories.
+       */
+      const progress =
+        travel > 0
+          ? travelled / travel
+          : 0;
 
-      if (nextPosition !== lastPosition) {
-        lastPosition = nextPosition;
-        setFramePosition(nextPosition);
+      const nextIndex =
+        clamp(
+          Math.floor(
+            progress *
+              CHAPTER_COUNT,
+          ),
+          0,
+          CHAPTER_COUNT - 1,
+        );
+
+      if (
+        nextPosition !==
+        lastPosition
+      ) {
+        lastPosition =
+          nextPosition;
+
+        setFramePosition(
+          nextPosition,
+        );
       }
 
-      if (nextIndex !== lastIndex) {
-        lastIndex = nextIndex;
-        setActiveIndex(nextIndex);
+      if (
+        nextIndex !==
+        lastIndex
+      ) {
+        lastIndex =
+          nextIndex;
+
+        setActiveIndex(
+          nextIndex,
+        );
       }
 
-      animationFrame = window.requestAnimationFrame(update);
+      animationFrame =
+        window.requestAnimationFrame(
+          update,
+        );
     };
 
-    animationFrame = window.requestAnimationFrame(update);
+    animationFrame =
+      window.requestAnimationFrame(
+        update,
+      );
 
     return () => {
-      window.cancelAnimationFrame(animationFrame);
+      window.cancelAnimationFrame(
+        animationFrame,
+      );
     };
   }, []);
 
-  const chapter = CHAPTERS[activeIndex];
+  const chapter =
+    CHAPTERS[activeIndex];
 
   return (
     <section
@@ -157,19 +286,34 @@ export default function ArcheNovaCivilizationPrelude() {
       data-home-section
       className="an-civilization-purpose"
       aria-label="ArcheNova foundational purpose"
+      style={
+        {
+          position: "relative",
+          display: "block",
+          width: "100%",
+          height: `${CHAPTER_COUNT * 100}svh`,
+          minHeight: `${CHAPTER_COUNT * 100}svh`,
+          overflow: "visible",
+        } as CSSProperties
+      }
     >
       <div
         className={[
           "an-civilization-purpose__frame",
           `an-civilization-purpose__frame--${framePosition}`,
         ].join(" ")}
+        data-frame-position={
+          framePosition
+        }
+        style={getFrameStyle(
+          framePosition,
+        )}
       >
         <div className="an-civilization-purpose__glass">
           <article
             key={chapter.number}
             className="an-civilization-purpose__chapter"
           >
-
             <h2 className="an-civilization-purpose__title">
               {chapter.title}
             </h2>
@@ -189,7 +333,10 @@ export default function ArcheNovaCivilizationPrelude() {
               activeIndex + 1
             } of ${CHAPTER_COUNT}`}
           >
-            {chapter.number} / 05
+            {chapter.number} /{" "}
+            {String(
+              CHAPTER_COUNT,
+            ).padStart(2, "0")}
           </p>
         </div>
       </div>

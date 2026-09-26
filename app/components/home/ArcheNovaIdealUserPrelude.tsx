@@ -1,6 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+} from "react";
 
 type Profile = {
   number: string;
@@ -23,7 +28,6 @@ const PROFILES: readonly Profile[] = [
     closing:
       "Think across systems. Question across generations.",
   },
-
   {
     number: "02",
     title: "For Those Who See the Connections.",
@@ -36,7 +40,6 @@ const PROFILES: readonly Profile[] = [
     closing:
       "Civilization is not a collection of isolated systems.",
   },
-
   {
     number: "03",
     title: "For Those Building Beyond the Obvious.",
@@ -50,7 +53,6 @@ const PROFILES: readonly Profile[] = [
     closing:
       "Explore the architecture before committing to the structure.",
   },
-
   {
     number: "04",
     title: "For Those Who Treat Civilization as Designable.",
@@ -64,7 +66,6 @@ const PROFILES: readonly Profile[] = [
     closing:
       "Civilization can be studied as an evolving design space.",
   },
-
   {
     number: "05",
     title: "For Quiet, High-Agency Explorers.",
@@ -78,7 +79,6 @@ const PROFILES: readonly Profile[] = [
     closing:
       "Enter to investigate, not merely to consume.",
   },
-
   {
     number: "06",
     title: "Not Every Environment Must Serve Everyone.",
@@ -93,76 +93,186 @@ const PROFILES: readonly Profile[] = [
   },
 ];
 
-type FramePosition = "start" | "fixed" | "end";
+const PROFILE_COUNT =
+  PROFILES.length;
 
-function clamp(value: number, min: number, max: number) {
-  return Math.min(max, Math.max(min, value));
+type FramePosition =
+  | "start"
+  | "fixed"
+  | "end";
+
+function clamp(
+  value: number,
+  min: number,
+  max: number,
+) {
+  return Math.min(
+    max,
+    Math.max(min, value),
+  );
+}
+
+function getFrameStyle(
+  position: FramePosition,
+): CSSProperties {
+  const common: CSSProperties = {
+    left: 0,
+    right: 0,
+    width: "100%",
+    height: "100svh",
+    minHeight: "100svh",
+    maxHeight: "100svh",
+    opacity: 1,
+    visibility: "visible",
+    zIndex: 40,
+  };
+
+  if (position === "fixed") {
+    return {
+      ...common,
+      position: "fixed",
+      top: 0,
+      bottom: "auto",
+    };
+  }
+
+  if (position === "end") {
+    return {
+      ...common,
+      position: "absolute",
+      top: "auto",
+      bottom: 0,
+    };
+  }
+
+  return {
+    ...common,
+    position: "absolute",
+    top: 0,
+    bottom: "auto",
+  };
 }
 
 export default function ArcheNovaIdealUserPrelude() {
-  const sectionRef = useRef<HTMLElement | null>(null);
+  const sectionRef =
+    useRef<HTMLElement | null>(null);
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] =
+    useState(0);
+
   const [framePosition, setFramePosition] =
     useState<FramePosition>("start");
 
-  const profileCount = PROFILES.length;
-
   useEffect(() => {
-    const section = sectionRef.current;
+    const section =
+      sectionRef.current;
 
     if (!section) return;
 
     let animationFrame = 0;
+
     let lastIndex = -1;
-    let lastPosition: FramePosition | null = null;
+
+    let lastPosition:
+      | FramePosition
+      | null = null;
 
     const update = () => {
-      const rect = section.getBoundingClientRect();
-      const viewportHeight = window.innerHeight;
+      const rect =
+        section.getBoundingClientRect();
 
-      const frameHeight = viewportHeight;
-      const travel = Math.max(1, rect.height - frameHeight);
+      const viewportHeight =
+        window.innerHeight;
 
-      let nextPosition: FramePosition;
+      const frameHeight =
+        viewportHeight;
+
+      const travel =
+        Math.max(
+          1,
+          rect.height - frameHeight,
+        );
+
+      let nextPosition:
+        FramePosition;
 
       if (rect.top >= 0) {
         nextPosition = "start";
-      } else if (rect.bottom <= frameHeight) {
+      } else if (
+        rect.bottom <=
+        frameHeight
+      ) {
         nextPosition = "end";
       } else {
         nextPosition = "fixed";
       }
 
-      const travelled = clamp(-rect.top, 0, travel);
+      const travelled =
+        clamp(
+          -rect.top,
+          0,
+          travel,
+        );
 
-      const nextIndex = clamp(
-        Math.floor((travelled / travel) * profileCount),
-        0,
-        profileCount - 1
+      const progress =
+        travel > 0
+          ? travelled / travel
+          : 0;
+
+      const nextIndex =
+        clamp(
+          Math.floor(
+            progress *
+              PROFILE_COUNT,
+          ),
+          0,
+          PROFILE_COUNT - 1,
+        );
+
+      if (
+        nextPosition !==
+        lastPosition
+      ) {
+        lastPosition =
+          nextPosition;
+
+        setFramePosition(
+          nextPosition,
+        );
+      }
+
+      if (
+        nextIndex !==
+        lastIndex
+      ) {
+        lastIndex =
+          nextIndex;
+
+        setActiveIndex(
+          nextIndex,
+        );
+      }
+
+      animationFrame =
+        window.requestAnimationFrame(
+          update,
+        );
+    };
+
+    animationFrame =
+      window.requestAnimationFrame(
+        update,
       );
 
-      if (nextPosition !== lastPosition) {
-        lastPosition = nextPosition;
-        setFramePosition(nextPosition);
-      }
-
-      if (nextIndex !== lastIndex) {
-        lastIndex = nextIndex;
-        setActiveIndex(nextIndex);
-      }
-
-      animationFrame = window.requestAnimationFrame(update);
-    };
-
-    animationFrame = window.requestAnimationFrame(update);
-
     return () => {
-      window.cancelAnimationFrame(animationFrame);
+      window.cancelAnimationFrame(
+        animationFrame,
+      );
     };
-  }, [profileCount]);
+  }, []);
 
-  const profile = PROFILES[activeIndex];
+  const profile =
+    PROFILES[activeIndex];
 
   return (
     <section
@@ -173,8 +283,21 @@ export default function ArcheNovaIdealUserPrelude() {
       aria-label="Who ArcheNova is for"
       style={
         {
-          "--an-ideal-user-count": profileCount,
-        } as React.CSSProperties
+          "--an-ideal-user-count":
+            PROFILE_COUNT,
+
+          position: "relative",
+          display: "block",
+          width: "100%",
+
+          height:
+            `${PROFILE_COUNT * 100}svh`,
+
+          minHeight:
+            `${PROFILE_COUNT * 100}svh`,
+
+          overflow: "visible",
+        } as CSSProperties
       }
     >
       <div
@@ -182,13 +305,18 @@ export default function ArcheNovaIdealUserPrelude() {
           "an-ideal-user__frame",
           `an-ideal-user__frame--${framePosition}`,
         ].join(" ")}
+        data-frame-position={
+          framePosition
+        }
+        style={getFrameStyle(
+          framePosition,
+        )}
       >
         <div className="an-ideal-user__glass">
           <article
             key={profile.number}
             className="an-ideal-user__chapter"
           >
-
             <h2 className="an-ideal-user__title">
               {profile.title}
             </h2>
@@ -206,10 +334,12 @@ export default function ArcheNovaIdealUserPrelude() {
             className="an-ideal-user__position"
             aria-label={`Section ${
               activeIndex + 1
-            } of ${profileCount}`}
+            } of ${PROFILE_COUNT}`}
           >
             {profile.number} /{" "}
-            {String(profileCount).padStart(2, "0")}
+            {String(
+              PROFILE_COUNT,
+            ).padStart(2, "0")}
           </p>
         </div>
       </div>
