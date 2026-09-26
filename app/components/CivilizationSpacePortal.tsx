@@ -1128,29 +1128,55 @@ export default function CivilizationSpacePortal() {
         }
 
         .an-civilization-space-portal
-        .an-civilization-space-portal__counter {
-          flex: 0 0 auto;
+.an-civilization-space-portal__counter {
+  position: absolute;
 
-          padding-bottom: 4px;
+  left:
+    max(
+      0px,
+      calc(
+        (100% - 1100px) / 2
+      )
+    );
 
-          color:
-            rgba(
-              255,
-              255,
-              255,
-              0.52
-            );
+  bottom:
+    calc(
+      -1 *
+      clamp(
+        20px,
+        3vh,
+        34px
+      )
+      - 22px
+    );
 
-          font-size: 11px;
-          font-weight: 500;
-          line-height: 1;
+  z-index: 8;
 
-          letter-spacing:
-            0.12em;
+  display: block;
 
-          font-variant-numeric:
-            tabular-nums;
-        }
+  margin: 0;
+  padding: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.52
+    );
+
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1;
+
+  letter-spacing:
+    0.12em;
+
+  font-variant-numeric:
+    tabular-nums;
+
+  pointer-events: none;
+}
 
         /* ==================================================
            06 / UNIFIED ENTRANCE FRAME
