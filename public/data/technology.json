@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-09-27T07:45:31.482Z",
+  "updated": "2026-09-27T13:37:49.024Z",
   "items": [
     {
       "source": "United Nations News",
@@ -10,6 +10,15 @@
       "ts": 1790510400000,
       "publishedAt": "2026-09-27T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 27 – Andromeda Before and After Photoshop",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/",
+      "summary": "APOD Science APOD APOD: 2026 September 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1790481900000,
+      "publishedAt": "2026-09-27T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "United Nations News",
@@ -802,15 +811,6 @@
       "ts": 1790303640000,
       "publishedAt": "2026-09-25T02:34:00.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "APOE4 Linked to Potentially Reversible Mechanisms of Brain Blood Vessel Damage in Alzheimer’s",
-      "url": "https://www.genengnews.com/topics/translational-medicine/apoe4-linked-to-potentially-reversible-mechanisms-of-brain-blood-vessel-damage-in-alzheimers/",
-      "summary": "Two studies reveal how APOE4, a major genetic risk factor for Alzheimer’s, disrupts brain blood vessels and promotes abnormal protein accumulation, pointing to potentially reversible disease mechanisms. The post APOE4 Li…",
-      "ts": 1790285448000,
-      "publishedAt": "2026-09-24T21:30:48.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

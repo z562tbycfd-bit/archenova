@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-09-27T07:45:28.528Z",
+  "updated": "2026-09-27T13:37:45.511Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "DNA reveals chemosynthesis genes in bacteria living on coral reef fish gills",
+      "url": "https://phys.org/news/2026-09-dna-reveals-chemosynthesis-genes-bacteria.html",
+      "summary": "Chemosynthetic bacteria have been documented in various marine environments and in association with invertebrate hosts such as annelid worms and mollusks, but their presence in fish appears to be a new discovery. The fin…",
+      "ts": 1790510405000,
+      "publishedAt": "2026-09-27T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Powerful storm pummels Northeast US with rain, high winds",
+      "url": "https://phys.org/news/2026-09-powerful-storm-pummels-northeast-high.html",
+      "summary": "Heavy rain and strong winds battered the northeastern United States on Sunday as an unusually powerful autumn storm intensified, leaving tens of thousands without power. U.S. media reported one person dead.",
+      "ts": 1790505601000,
+      "publishedAt": "2026-09-27T10:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Why AI has trouble predicting the fury of hurricane intensity",
@@ -783,22 +799,6 @@
       "title": "Modular and integrable cryogen-free dilution refrigerator",
       "url": "http://link.aps.org/doi/10.1103/lpcw-bm1q",
       "summary": "Author(s): Xiang Guan, Pei Liu, De Ming Wang, Yong Jie Xie, Yu Qun Xu, Jie Fan, Zhong Qing Ji, Yi Rong Jin, and Haifeng Yu We have developed two modular dilution refrigerators with a cooling power on the order of 1 mW at…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Analytical framework for controlling antenna performance using near-zero-index metamaterials",
-      "url": "http://link.aps.org/doi/10.1103/cxrs-z168",
-      "summary": "Author(s): Amir Jafargholi and Romain Fleury In the antenna community, there has always been a fundamental question: how can we control antenna behavior, e.g., resonant frequency, bandwidth, and mutual coupling in an arr…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Momentum-selective coupling-driven transport behavior in two-dimensional Janus multiferroic ${\\text{InCrS}}_{3}$",
-      "url": "http://link.aps.org/doi/10.1103/y3b3-jr2s",
-      "summary": "Author(s): Kexin Song, Chun-Sheng Liu, Shaohui Yu, Xiaohong Zheng, Hua Hao, and Weiyang Wang Two-dimensional (2D) multiferroic materials with polarization-tunable electronic properties provide unprecedented opportunities…",
       "ts": 1790330400000,
       "publishedAt": "2026-09-25T10:00:00.000Z"
     }
