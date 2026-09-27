@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-27T13:37:45.511Z",
+  "updated": "2026-09-27T18:06:40.098Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Finding homes for whales and dolphins when parks close isn't easy—sea sanctuaries aren't the answer",
+      "url": "https://phys.org/news/2026-09-homes-whales-dolphins-isnt-easy.html",
+      "summary": "When Marineland Canada in Niagara Falls, Ontario, closed in September 2024, it had no regular income to support the care of the 30 belugas and four dolphins housed there. To ensure their welfare, the Association of Zoos …",
+      "ts": 1790532006000,
+      "publishedAt": "2026-09-27T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can Bionic Reading really help you read faster? Scientists put it to the test",
+      "url": "https://phys.org/news/2026-09-bionic-faster-scientists.html",
+      "summary": "Bionic Reading is a method of bolding certain letters in words that is purported to facilitate reading speed and comprehension. The idea is that guiding the eyes to focus on highlighted initial letters lets the brain com…",
+      "ts": 1790530801000,
+      "publishedAt": "2026-09-27T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soil protection measures can make agri-photovoltaics more sustainable",
+      "url": "https://phys.org/news/2026-09-soil-agri-photovoltaics-sustainable.html",
+      "summary": "Agri-photovoltaics combines electricity generation and agriculture on the same land—to ensure this works well in the long term, it is worth taking a closer look at the soil. Researchers at the Leibniz Centre for Agricult…",
+      "ts": 1790528401000,
+      "publishedAt": "2026-09-27T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More moral language doesn't always mean more engagement online",
+      "url": "https://phys.org/news/2026-09-moral-language-doesnt-engagement-online.html",
+      "summary": "Moral language—words and phrases that express ideas about right and wrong, virtues, fairness, harm and social obligations—is widely used in social media posts and other online content. Posts containing moral language som…",
+      "ts": 1790525401000,
+      "publishedAt": "2026-09-27T16:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How has evolution shaped men's and women's minds? A new book tells an outdated story",
+      "url": "https://phys.org/news/2026-09-evolution-men-women-minds-outdated.html",
+      "summary": "Psychologist Steve Stewart-Williams' third book about evolutionary psychology, a controversial field often drawn on (and distorted) by the manosphere, is A Billion Years of Sex Differences: How Evolution Shaped the Minds…",
+      "ts": 1790524801000,
+      "publishedAt": "2026-09-27T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Waste bulrush transformed into copper-enhanced material for dye removal from wastewater",
+      "url": "https://phys.org/news/2026-09-bulrush-copper-material-dye-wastewater.html",
+      "summary": "Industrial activities such as textile manufacturing, paper production, leather processing and food processing can generate wastewater containing synthetic dyes. Because many synthetic dyes are chemically stable, difficul…",
+      "ts": 1790519405000,
+      "publishedAt": "2026-09-27T14:30:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers discover a radio galaxy with evidence of four separate jet outbursts",
+      "url": "https://phys.org/news/2026-09-astronomers-radio-galaxy-evidence-jet.html",
+      "summary": "Astronomers have identified what may be the first example of a new class of radio galaxy, one whose central black hole appears to have launched powerful jets on four separate occasions. High-resolution observations with …",
+      "ts": 1790518805000,
+      "publishedAt": "2026-09-27T14:20:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "DNA reveals chemosynthesis genes in bacteria living on coral reef fish gills",
@@ -743,62 +799,6 @@
       "title": "Radiative Corrections to Inverse Beta Decay: Precision Analysis for Reactor Neutrinos",
       "url": "http://link.aps.org/doi/10.1103/zbcz-nkpd",
       "summary": "Author(s): Oleksandr Tomalak We present a complete calculation of radiative corrections to the inverse beta decay reaction, ${\\overline{ν}}_{e}+p→{e}^{+}+n$, at reactor antineutrino energies using heavy-baryon chiral per…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Probing the Color-Octet Mechanism via Dihadron Fragmentation in ${χ}_{b}$ Decays",
-      "url": "http://link.aps.org/doi/10.1103/ntf8-k9rh",
-      "summary": "Author(s): Zhi-Guo He, Guanghui Li, Yu-Jie Tian, Xin-Kai Wen, and Bin Yan The color-octet (CO) mechanism is a cornerstone of nonrelativistic QCD, yet knowledge of its long-distance matrix elements remains limited, preven…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Magnetic-Field-Calibration-Free Determination of the Hyperfine Constant $A$ in Ultracold Fermi Gases of $^{40}\\mathrm{K}$",
-      "url": "http://link.aps.org/doi/10.1103/7sjf-yj2z",
-      "summary": "Author(s): Yajing Yang, Biao Shan, Yuhang Zhao, Jiahui Shen, Zhuxiong Ye, Liangchao Chen, Zengming Meng, Pengjun Wang, Wei Han, Jing Zhang, and Lianghui Huang Hyperfine constant $A$ is a key parameter of the hyperfine st…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Bound States in the Continuum for High-$Q$ Light Emission in Photonic-Phononic Nonlocal Metasurfaces",
-      "url": "http://link.aps.org/doi/10.1103/fhx1-953m",
-      "summary": "Author(s): Soheil Farazi and Srinivas Tadigadapa Thermal radiation is inherently broadband and incoherent, limiting its utility in applications requiring spectral selectivity such as molecular spectroscopy and free-space…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Protection of Unconventional Superconductivity from Disorder",
-      "url": "http://link.aps.org/doi/10.1103/3cn5-hb8z",
-      "summary": "Author(s): Sofie Castro Holbæk, Morten H. Christensen, Andreas Kreisel, and Brian M. Andersen Several realizations of d-wave superconductivity on the Lieb and kagome lattices exhibit remarkably weak Tc-suppression, resem…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Evolution of Electron Spin Resonance through a Metallic Quantum Critical Phase Diagram",
-      "url": "http://link.aps.org/doi/10.1103/y227-dk8f",
-      "summary": "Author(s): Marc Scheffler, Jörg Sichelschmidt, Conrad Clauss, Mojtaba Javaheri Rahim, Boris I. Kochelaev, Cornelius Krellner, Christoph Geibel, Frank Steglich, and Martin Dressel Using multiple antennae and their resonan…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Ring States in a Delicate Topological Insulator",
-      "url": "http://link.aps.org/doi/10.1103/7ts9-mxcy",
-      "summary": "Author(s): C. Tornow, J. Rupprecht, P. Engeler, U. Drechsler, K.-E. Huhtinen, C. Devescovi, and S. D. Huber A delicate topological insulator realized in a silicon phononic metamaterial shows ring states induced by strong…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Modular and integrable cryogen-free dilution refrigerator",
-      "url": "http://link.aps.org/doi/10.1103/lpcw-bm1q",
-      "summary": "Author(s): Xiang Guan, Pei Liu, De Ming Wang, Yong Jie Xie, Yu Qun Xu, Jie Fan, Zhong Qing Ji, Yi Rong Jin, and Haifeng Yu We have developed two modular dilution refrigerators with a cooling power on the order of 1 mW at…",
       "ts": 1790330400000,
       "publishedAt": "2026-09-25T10:00:00.000Z"
     }
