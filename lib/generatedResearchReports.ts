@@ -1,6 +1,62 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "bio-the-takeaway-un-general-assembly-debate-day-5",
+    "title": "The Takeaway: UN General Assembly debate Day 5",
+    "category": "Bio",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168462",
+    "summary": "From artificial intelligence to migration, some of the forces reshaping the twenty-first century took centre stage at the UN General Assembly on Saturday. Leaders wrestled with a common dilemma: how to harness profound t…",
+    "coreInsight": "The Takeaway: UN General Assembly debate Day 5 indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "From artificial intelligence to migration, some of the forces reshaping the twenty-first century took centre stage at the UN General Assembly on Saturday. Leaders wrestled with a common dilemma: how to harness profound t…",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.1,
+      "engineering": 8.5,
+      "economic": 8.8,
+      "civilization": 9.6,
+      "overall": 9,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1790510400000
+  },
+  {
     "slug": "ai-why-ai-has-trouble-predicting-the-fury-of-hurricane-intensity",
     "title": "Why AI has trouble predicting the fury of hurricane intensity",
     "category": "AI",
@@ -4138,61 +4194,6 @@ export const generatedResearchReports =
     "ts": 1790337600000
   },
   {
-    "slug": "bio-live-six-years-on-from-covid-19-is-the-world-ready-for-the-next-pandemic",
-    "title": "LIVE: Six years on from COVID-19, is the world ready for the next pandemic?",
-    "category": "Bio",
-    "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168437",
-    "summary": "COVID-19 killed millions, shattered health systems and brought the global economy to a virtual standstill. World leaders are meeting Friday to review the lessons learned and cement a new approach to prevention and prepar…",
-    "coreInsight": "LIVE: Six years on from COVID-19, is the world ready for the next pandemic? indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "COVID-19 killed millions, shattered health systems and brought the global economy to a virtual standstill. World leaders are meeting Friday to review the lessons learned and cement a new approach to prevention and prepar…",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1790337600000
-  },
-  {
     "slug": "ai-postselected-criticality-in-measurement-induced-phase-transitions",
     "title": "Postselected Criticality in Measurement-Induced Phase Transitions",
     "category": "AI",
@@ -5961,14 +5962,14 @@ export const archeNovaTopSignals =
     "ts": 1790337600000
   },
   {
-    "slug": "bio-canada-urges-stronger-partnerships-as-global-order-faces-rupture",
-    "title": "Canada urges stronger partnerships as global order faces ‘rupture’",
+    "slug": "bio-the-takeaway-un-general-assembly-debate-day-5",
+    "title": "The Takeaway: UN General Assembly debate Day 5",
     "category": "Bio",
     "source": "United Nations News",
-    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168461",
-    "summary": "Canada’s Foreign Minister Anita Anand warned the UN General Assembly on Saturday that the international order has entered an era of profound disruption, calling for stronger multilateral cooperation and new partnerships …",
-    "coreInsight": "Canada urges stronger partnerships as global order faces ‘rupture’ indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "Canada’s Foreign Minister Anita Anand warned the UN General Assembly on Saturday that the international order has entered an era of profound disruption, calling for stronger multilateral cooperation and new partnerships …",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168462",
+    "summary": "From artificial intelligence to migration, some of the forces reshaping the twenty-first century took centre stage at the UN General Assembly on Saturday. Leaders wrestled with a common dilemma: how to harness profound t…",
+    "coreInsight": "The Takeaway: UN General Assembly debate Day 5 indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "From artificial intelligence to migration, some of the forces reshaping the twenty-first century took centre stage at the UN General Assembly on Saturday. Leaders wrestled with a common dilemma: how to harness profound t…",
     "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
     "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
@@ -6014,7 +6015,7 @@ export const archeNovaTopSignals =
       "overall": 9,
       "classification": "Biological Capability Signal"
     },
-    "ts": 1790424000000
+    "ts": 1790510400000
   },
   {
     "slug": "space-engineers-teach-spacecraft-to-dream-their-way-to-the-space-station",
@@ -6533,6 +6534,64 @@ export const archeNovaWatchlist =
     "rank": 8
   },
   {
+    "slug": "bio-the-takeaway-un-general-assembly-debate-day-5",
+    "title": "The Takeaway: UN General Assembly debate Day 5",
+    "category": "Bio",
+    "source": "United Nations News",
+    "originalUrl": "https://news.un.org/feed/view/en/story/2026/09/1168462",
+    "summary": "From artificial intelligence to migration, some of the forces reshaping the twenty-first century took centre stage at the UN General Assembly on Saturday. Leaders wrestled with a common dilemma: how to harness profound t…",
+    "coreInsight": "The Takeaway: UN General Assembly debate Day 5 indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "From artificial intelligence to migration, some of the forces reshaping the twenty-first century took centre stage at the UN General Assembly on Saturday. Leaders wrestled with a common dilemma: how to harness profound t…",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.1,
+      "engineering": 8.5,
+      "economic": 8.8,
+      "civilization": 9.6,
+      "overall": 9,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1790510400000,
+    "trend": "Stable",
+    "rank": 9
+  },
+  {
     "slug": "space-engineers-teach-spacecraft-to-dream-their-way-to-the-space-station",
     "title": "Engineers teach spacecraft to 'dream' their way to the space station",
     "category": "Space",
@@ -6587,7 +6646,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790445601000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "ai-crop-protection-a-new-method-for-understanding-insect-sexual-communication",
@@ -6645,7 +6704,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790434801000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "bio-canada-urges-stronger-partnerships-as-global-order-faces-rupture",
@@ -6703,7 +6762,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790424000000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "bio-lavrov-issues-call-for-new-eurasian-security-architecture",
@@ -6761,7 +6820,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790424000000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "space-nasa-boeing-to-provide-update-on-starliner-development",
@@ -6818,7 +6877,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790374010000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "space-nasa-welcomes-san-marino-signing-the-artemis-accords",
@@ -6875,7 +6934,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790365983000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "space-nasa-tests-dual-mode-propulsion-cubesat-ahead-of-launch",
@@ -6932,7 +6991,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790364970000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "space-hubble-spots-chaotic-secret-in-galaxy",
@@ -6989,7 +7048,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790351650000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "space-tb-26-07-aluminum-alloy-2219-material-guidance",
@@ -7046,7 +7105,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790347551000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "space-bound-states-in-the-continuum-for-high-q-light-emission-in-photonic-phononic-non",
@@ -7103,7 +7162,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1790330400000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 19
   },
   {
     "slug": "bio-new-crispr-based-tool-enables-genome-wide-mutagenesis-of-bacteriophages",
@@ -7160,63 +7219,6 @@ export const archeNovaWatchlist =
       "classification": "Biological Capability Signal"
     },
     "ts": 1790326858000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "energy-a-library-of-bacteria-killing-viruses-harnessing-the-power-of-phages",
-    "title": "A 'library' of bacteria-killing viruses: Harnessing the power of phages",
-    "category": "Energy",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-09-library-bacteria-viruses-harnessing-power.html",
-    "summary": "An estimated 38 trillion bacteria live in the human body—and only a small fraction are harmful to our health. However, the harmful ones can cause serious illness, especially when they develop resistance to antibiotics.",
-    "coreInsight": "A 'library' of bacteria-killing viruses: Harnessing the power of phages indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "An estimated 38 trillion bacteria live in the human body—and only a small fraction are harmful to our health. However, the harmful ones can cause serious illness, especially when they develop resistance to antibiotics.",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1790390401000,
     "trend": "Stable",
     "rank": 20
   }

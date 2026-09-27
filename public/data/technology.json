@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-09-27T01:09:27.951Z",
+  "updated": "2026-09-27T07:45:31.482Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "The Takeaway: UN General Assembly debate Day 5",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168462",
+      "summary": "From artificial intelligence to migration, some of the forces reshaping the twenty-first century took centre stage at the UN General Assembly on Saturday. Leaders wrestled with a common dilemma: how to harness profound t…",
+      "ts": 1790510400000,
+      "publishedAt": "2026-09-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "United Nations News",
       "title": "Canada urges stronger partnerships as global order faces ‘rupture’",
@@ -802,15 +811,6 @@
       "ts": 1790285448000,
       "publishedAt": "2026-09-24T21:30:48.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Welcomes Côte d’Ivoire as Newest Artemis Accords Signatory",
-      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-cote-divoire-as-newest-artemis-accords-signatory/",
-      "summary": "Côte d’Ivoire signed the Artemis Accords on Thursday, becoming the 75th signatory and marking a major milestone for this growing coalition. With the signing ceremony in the nation’s largest city, Abidjan, Côte d’Ivoire j…",
-      "ts": 1790285237000,
-      "publishedAt": "2026-09-24T21:27:17.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
