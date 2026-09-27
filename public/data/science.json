@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-09-27T18:06:40.098Z",
+  "updated": "2026-09-27T21:53:25.907Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Who is responsible for limiting global warming to 1.5°?",
+      "url": "https://phys.org/news/2026-09-responsible-limiting-global.html",
+      "summary": "Even if industry rapidly becomes more sustainable, households will still need to change their lifestyles to meet climate targets. Industrial ecologist Stephanie Cap warns that households cannot do this alone: Businesses …",
+      "ts": 1790542801000,
+      "publishedAt": "2026-09-27T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan's 2011 tsunami sparked fish hybridization, but species boundaries largely held",
+      "url": "https://phys.org/news/2026-09-japan-tsunami-fish-hybridization-species.html",
+      "summary": "How are species boundaries maintained in the face of environmental disturbance? This is not only a fundamental question in evolutionary biology but also an increasingly important one as human activities and climate chang…",
+      "ts": 1790539201000,
+      "publishedAt": "2026-09-27T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why volcanic crystals are black boxes for tracking magma's journey to the Earth's surface",
+      "url": "https://phys.org/news/2026-09-volcanic-crystals-black-tracking-magma.html",
+      "summary": "When we think of a volcanic eruption, rivers of glowing lava or giant columns of ash come to mind. But beneath Earth's surface, a more complex story is unfolding. Magma deep within volcanoes is more than molten rock. It …",
+      "ts": 1790535601000,
+      "publishedAt": "2026-09-27T19:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Finding homes for whales and dolphins when parks close isn't easy—sea sanctuaries aren't the answer",
@@ -775,30 +799,6 @@
       "title": "Nulling Baryonic Feedback in Weak Lensing Surveys Using Cross-Correlations with Fast Radio Bursts",
       "url": "http://link.aps.org/doi/10.1103/ms7q-gw8d",
       "summary": "Author(s): Calvin Leung, Josh Borrow, Kiyoshi W. Masui, Shion Andrew, Kai-Feng Chen, Joop Schaye, and Matthieu Schaller Baryonic feedback is a leading contaminant in studying dark matter using cosmic shear. This has mean…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "From the Gravitational Compton Amplitude to Black Hole Perturbation Theory",
-      "url": "http://link.aps.org/doi/10.1103/f939-mjhj",
-      "summary": "Author(s): N. Emil J. Bjerrum-Bohr, Gang Chen, Carl Jordan Eriksen, and Nabha Shah We employ a single worldline effective field theory in a Schwarzschild-Tangherlini background to compute the gravitational Compton amplit…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Combination of ATLAS and CMS Searches for Higgs Boson Pair Production at $\\sqrt{s}=13\\text{ }\\text{ }\\mathrm{TeV}$",
-      "url": "http://link.aps.org/doi/10.1103/27s7-2frt",
-      "summary": "Author(s): G. Aad et al. (ATLAS Collaboration†[\"id\", \"col1\"], CMS Collaboration) First combination of searches for Higgs boson pair production from two CERN collaborations on this important standard model process provide…",
-      "ts": 1790330400000,
-      "publishedAt": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Radiative Corrections to Inverse Beta Decay: Precision Analysis for Reactor Neutrinos",
-      "url": "http://link.aps.org/doi/10.1103/zbcz-nkpd",
-      "summary": "Author(s): Oleksandr Tomalak We present a complete calculation of radiative corrections to the inverse beta decay reaction, ${\\overline{ν}}_{e}+p→{e}^{+}+n$, at reactor antineutrino energies using heavy-baryon chiral per…",
       "ts": 1790330400000,
       "publishedAt": "2026-09-25T10:00:00.000Z"
     }
