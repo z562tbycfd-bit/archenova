@@ -1,7 +1,169 @@
 {
   "ok": true,
-  "updated": "2026-09-28T06:25:49.872Z",
+  "updated": "2026-09-28T15:04:14.656Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Space is everyone’s business: Economist Enterprise’s 4th annual Space Economy Summit returns to Orlando",
+      "url": "https://spacenews.com/space-is-everyones-business-economist-enterprises-4th-annual-space-economy-summit-returns-to-orlando/",
+      "summary": "ORLANDO, FL — September 28th, 2026 — Space is rapidly becoming a practical business tool for industries far beyond aerospace, as satellite intelligence, resilient connectivity and other space-enabled technologies create …",
+      "ts": 1790607441000,
+      "publishedAt": "2026-09-28T14:57:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA ORBIT Challenge 2027",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-orbit-challenge-2027/",
+      "summary": "The NASA ORBIT (Opportunities in Research, Business, Innovation, and Technology for the Workforce) Challenge invites university and community college students nationwide to work with real NASA intellectual property and m…",
+      "ts": 1790607399000,
+      "publishedAt": "2026-09-28T14:56:39.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: It really is bleak out there, and list prices matter",
+      "url": "https://www.statnews.com/2026/09/28/health-insurance-premiums-soar-2027-quorum-health-nonprofit-conversion/?utm_campaign=rss",
+      "summary": "Health insurance premiums are skyrocketing, private equity hospital chain goes nonprofit, and more from STAT's Health Care Inc.",
+      "ts": 1790607321000,
+      "publishedAt": "2026-09-28T14:55:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AbbVie wins FDA nod for Parkinson’s pill",
+      "url": "https://www.statnews.com/2026/09/28/biotech-news-abbvie-wins-fda-nod-for-parkinsons-pill/?utm_campaign=rss",
+      "summary": "The FDA has approved AbbVie’s once-daily Parkinson’s pill for sales, based on a late-stage study that showed the drug helped improve symptoms.",
+      "ts": 1790602832000,
+      "publishedAt": "2026-09-28T13:40:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about GLP-1s becoming lifestyle drugs, a setback for Merck and Daiichi, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/28/glp1-lifestyle-drug-marketing-merck-daiichi-lung-cancer-setback/?utm_campaign=rss",
+      "summary": "Once promoted as tools to address obesity as a medical issue, GLP-1 drugs are increasingly being marketed as a way to look and feel better",
+      "ts": 1790600812000,
+      "publishedAt": "2026-09-28T13:06:52.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Contractor to Civil Servant: NASA Welcomes Kristie Foster",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-kristie-foster/",
+      "summary": "Kristie Foster paved her road to becoming a NASA civil servant with literal miles of dedication. Her work at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, supports NASA’s mission to return American a…",
+      "ts": 1790600400000,
+      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Trump uses ‘contested’ power to cut more funding to HHS",
+      "url": "https://www.statnews.com/2026/09/28/health-news-trump-uses-contested-power-to-cut-more-funding-to-hhs/?utm_campaign=rss",
+      "summary": "Late Friday night, the Trump administration clawed back nearly $1 billion in spending approved by Congress, targeting several HHS programs focused on immigrants and diversity",
+      "ts": 1790598157000,
+      "publishedAt": "2026-09-28T12:22:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Who’s liable when AI agents go rogue? Over the past few months, a cascade of cyber…",
+      "ts": 1790597400000,
+      "publishedAt": "2026-09-28T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "One geology step closer to the Moon ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/One_geology_step_closer_to_the_Moon",
+      "summary": "As we prepare to return to the Moon, Europe’s leading geology training for astronauts PANGAEA celebrates its 10th anniversary turning extraordinary places on Earth into classrooms for space exploration.",
+      "ts": 1790596980000,
+      "publishedAt": "2026-09-28T12:03:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Agile Space Industries Expands Leadership Structure to Support Next Phase of Growth",
+      "url": "https://spacenews.com/agile-space-industries-expands-leadership-structure-to-support-next-phase-of-growth/",
+      "summary": "DURANGO, Colo., Sept. 28, 2026 – Agile Space Industries today announced that Jason Wright will join the company as President in early October, strengthening Agile’s operational leadership as the company […] The post Agil…",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 September 28 – Cosmic Latte: The Average Color of the Universe",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/",
+      "summary": "APOD Science APOD APOD: 2026 September 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1790594067000,
+      "publishedAt": "2026-09-28T11:14:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Regional Cooperation Drives Progress in the Peaceful Uses of Nuclear Technology",
+      "url": "http://www.iaea.org/newscenter/news/regional-cooperation-drives-progress-in-the-peaceful-uses-of-nuclear-technology",
+      "summary": "",
+      "ts": 1790592895000,
+      "publishedAt": "2026-09-28T10:54:55.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
+      "summary": "The idea of humans and robots working side-by-side in space was once the stuff of science fiction, but with NASA launching increasingly complex missions deeper into space, human-robot collaboration could become reality. …",
+      "ts": 1790589600000,
+      "publishedAt": "2026-09-28T10:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Viral Protein Helps Self-Amplifying RNA Overcome Cellular Defenses",
+      "url": "https://www.genengnews.com/topics/omics/viral-protein-helps-self-amplifying-rna-overcome-cellular-defenses/",
+      "summary": "Adding a viral protein, NoV B2, helped self-amplifying RNA overcome cellular defenses and produce more target protein without diminishing immune stimulation, potentially enabling future vaccines to use lower doses. The p…",
+      "ts": 1790586043000,
+      "publishedAt": "2026-09-28T09:00:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Once described as obesity medicines for ‘patients,’ GLP-1s are increasingly lifestyle drugs for ‘customers’",
+      "url": "https://www.statnews.com/2026/09/28/glp1-marketing-shift-obesity-medicine-weight-loss-drug/?utm_campaign=rss",
+      "summary": "Blockbuster GLP-1 drugs have transformed the lives of millions of people. Lately, they’re undergoing a makeover of their own.",
+      "ts": 1790584200000,
+      "publishedAt": "2026-09-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: AI is eroding the barriers that kept biological weapons rare",
+      "url": "https://www.statnews.com/2026/09/28/ai-bioweapons-pathogens-guardrails-policy-warning/?utm_campaign=rss",
+      "summary": "“Defenses against AI-created bioweapons will take years to build. We don’t have years to spare,” writes Ashish Jha.",
+      "ts": 1790584200000,
+      "publishedAt": "2026-09-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I discovered a new structure in the heart — just by looking closely",
+      "url": "https://www.statnews.com/2026/09/28/heart-structure-left-atrial-septal-pouch-lasp-anatomy-discovery/?utm_campaign=rss",
+      "summary": "Our finding was remarkable because it had remained hidden within one of the best-studied organs in medical history.",
+      "ts": 1790584200000,
+      "publishedAt": "2026-09-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Who’s liable when AI agents go rogue?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cy…",
+      "ts": 1790582782000,
+      "publishedAt": "2026-09-28T08:06:22.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "Uncovering the Valleys Hidden Below Greenland’s Ice",
@@ -648,168 +810,6 @@
       "summary": "A CRISPR-based method for disrupting genes across bacteriophage genomes has been developed, creating a faster route to uncover gene functions and engineer phages for potential therapeutic and biotechnology applications. …",
       "ts": 1790326858000,
       "publishedAt": "2026-09-25T09:00:58.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Young organs may not be a fountain of youth for recipients",
-      "url": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
-      "summary": "Around this time last year I was attending an aging conference in Manchester, listening to a talk about fly aging, when my phone started pinging. News outlets were reporting that a hot mic had caught Russia’s and China’s…",
-      "ts": 1790326800000,
-      "publishedAt": "2026-09-25T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA and the EU partner with Museo Galileo on new exhibition",
-      "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_and_the_EU_partner_with_Museo_Galileo_on_new_exhibition",
-      "summary": "The European Space Agency (ESA), Italy’s Museo Galileo - Institute and Museum of the History of Science, and the European Commission (EC) have partnered to uncover the surprising and far-reaching connections between the …",
-      "ts": 1790326800000,
-      "publishedAt": "2026-09-25T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "How Big Tobacco flooded the FDA with public comments to kill a menthol cigarette ban",
-      "url": "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/?utm_campaign=rss",
-      "summary": "Virtually all of the 175,000 public comments on a 2022 FDA proposal to ban menthol cigarettes were form letters, most echoing tobacco industry talking points.",
-      "ts": 1790325000000,
-      "publishedAt": "2026-09-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "At least five candidates vie to become the next WHO leader, as questions over U.S. role loom",
-      "url": "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/?utm_campaign=rss",
-      "summary": "At least five candidates are in the running to become the next director-general of the WHO, a job that will come with extraordinary challenges.",
-      "ts": 1790325000000,
-      "publishedAt": "2026-09-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The head of Kennedy’s new autism project has roots in Iraq War, Sesame Street",
-      "url": "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss",
-      "summary": "Advanced Research Projects Agency for Health is planning a total-lifespan research project on autism: A Q&A with its leader, Russell Shilling.",
-      "ts": 1790325000000,
-      "publishedAt": "2026-09-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: RFK Jr.’s use of the National Center for Health Statistics will add confusion to measles deaths count",
-      "url": "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/?utm_campaign=rss",
-      "summary": "“A discrepancy between how federal and state public health officials determine measles deaths will only increase public confusion,” write Denys T. Lau and Jennifer D. Schoendorf.",
-      "ts": 1790325000000,
-      "publishedAt": "2026-09-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The ‘died with’ vs. ‘died of’ measles discussion misses something very important",
-      "url": "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/?utm_campaign=rss",
-      "summary": "“Arguing over whether someone died ‘with’ or ‘of’ a disease gets us stuck on the last thing that happened.” write two Unbiased Science scientists.",
-      "ts": 1790325000000,
-      "publishedAt": "2026-09-25T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Venetian Lagoon",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Venetian_Lagoon",
-      "summary": "Image: This image of the Venetian Lagoon in northern Italy was acquired by the IRIDE satellites on 17 May 2026.",
-      "ts": 1790323200000,
-      "publishedAt": "2026-09-25T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Türkiye Protects its Citrus Harvests with Nuclear Science",
-      "url": "http://www.iaea.org/newscenter/news/turkiye-protects-its-citrus-harvests-with-nuclear-science",
-      "summary": "",
-      "ts": 1790316000000,
-      "publishedAt": "2026-09-25T06:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 September 25 – Globular Star Cluster Omega Centauri",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-25-globular-star-cluster-omega-centauri/",
-      "summary": "APOD Science APOD APOD: 2026 September 25 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1790309100000,
-      "publishedAt": "2026-09-25T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Explosive Intensification for Hurricane Polo",
-      "url": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/",
-      "summary": "Several ingredients came together off the Pacific coast of Mexico to generate one of the strongest storms the eastern Pacific basin has ever seen.",
-      "ts": 1790308860000,
-      "publishedAt": "2026-09-25T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scarlet Fever Dynamics in 19th and 20th Century London",
-      "url": "https://arxiv.org/abs/2609.28545",
-      "summary": "arXiv:2609.28545v1 Announce Type: new Abstract: Weekly scarlet fever (SF) mortality records for London, UK, from 1842 to 1939, together with notified case records from 1901 to 1939, reveal a strong annual epidemic patter…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Predator self limitation controls pattern formation in a predator prey system with additional food: a Turing Hopf analysis",
-      "url": "https://arxiv.org/abs/2609.29052",
-      "summary": "arXiv:2609.29052v1 Announce Type: new Abstract: Supplying a released predator with additional, non reproducing food is a standard lever in augmentative biological control, with a known drawback with nothing limiting the …",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ProteoEM: probabilistic protein abundance estimation from iterative affinity traces",
-      "url": "https://arxiv.org/abs/2609.29155",
-      "summary": "arXiv:2609.29155v1 Announce Type: new Abstract: Single-molecule affinity mapping enables molecular-level measurement of proteins and proteoforms, but imperfect and nonspecific probe binding makes individual affinity trac…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PRAXIS-VirtualCell: A Programmable and Trustworthy Framework for Agentic Virtual Cell Experiments",
-      "url": "https://arxiv.org/abs/2609.29221",
-      "summary": "arXiv:2609.29221v1 Announce Type: new Abstract: Virtual cells are evolving from single-task predictive models toward programmable biological simulation systems, yet heterogeneous data, models, and validation evidence sti…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mathematical Modelling of Within-Host HIV Dynamics with Cytotoxic Immune Response and Antiretroviral Therapy",
-      "url": "https://arxiv.org/abs/2609.29972",
-      "summary": "arXiv:2609.29972v1 Announce Type: new Abstract: We develop and analyse a mechanistic ODE model of within-host HIV dynamics that includes uninfected CD4$^+$ T cells, latently and productively infected cells, free virions,…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Spiking Neural Network Model of Elementary Self-Consciousness via Endogenous Default Mode Network Dynamics",
-      "url": "https://arxiv.org/abs/2609.29984",
-      "summary": "arXiv:2609.29984v1 Announce Type: new Abstract: Understanding the neurobiological mechanisms underlying self-referential cognition and baseline self-consciousness remains a fundamental challenge in computational neurosci…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EMMA: an R/Bioconductor package to automate tracking of metadata in functional enrichment analyses",
-      "url": "https://arxiv.org/abs/2609.30013",
-      "summary": "arXiv:2609.30013v1 Announce Type: new Abstract: Summary: Functional enrichment analysis (FEA) is a widely used approach for interpreting high-throughput omics data. However, essential methodological details, such as soft…",
-      "ts": 1790308800000,
-      "publishedAt": "2026-09-25T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
