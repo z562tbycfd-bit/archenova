@@ -1,7 +1,133 @@
 {
   "ok": true,
-  "updated": "2026-09-28T15:04:14.656Z",
+  "updated": "2026-09-28T21:39:33.797Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Risk from toxic metals can persist months after wildfires, Maui study finds",
+      "url": "https://www.statnews.com/2026/09/28/hawaii-wildfire-air-quality-risk-study/?utm_campaign=rss",
+      "summary": "Post-wildfire air quality needs to be monitored long term, suggests a study finding Maui residents had high levels of toxic metals months later.",
+      "ts": 1790629629000,
+      "publishedAt": "2026-09-28T21:07:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Merck discontinues a crucial antibiotic despite concerns over superbug resistance",
+      "url": "https://www.statnews.com/pharmalot/2026/09/28/merck-discontinues-antibiotic-recarbrio-in-u-s-despite-superbug-concerns/?utm_campaign=rss",
+      "summary": "Merck discontinued Recarbio, an important antibiotic in the U.S., despite concerns over resistance to superbugs.",
+      "ts": 1790628343000,
+      "publishedAt": "2026-09-28T20:45:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Antibody Blocks T Cell Infiltration and Limits Neurodegeneration in Alzheimer’s Mice",
+      "url": "https://www.genengnews.com/topics/translational-medicine/antibody-blocks-t-cell-infiltration-and-limits-neurodegeneration-in-alzheimers-mice/",
+      "summary": "Researchers developed a potential antibody-based approach to reducing neurodegeneration in tauopathies, with studies showing that in a mouse Alzheimer’s model anti-CXCR3-treated animals retained more brain tissue and had…",
+      "ts": 1790623987000,
+      "publishedAt": "2026-09-28T19:33:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
+      "url": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+      "summary": "On Monday, NASA and Boeing provided an update on the company’s Starliner spacecraft, including adding additional crew missions and certifying a new rocket for crew transportation to low Earth orbit. “We are living throug…",
+      "ts": 1790623617000,
+      "publishedAt": "2026-09-28T19:26:57.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Armstrong Celebrates 80 Years of Flight Innovation",
+      "url": "https://www.nasa.gov/news-release/nasa-armstrong-celebrates-80-years-of-flight-innovation/",
+      "summary": "On Sept. 30, 1946, five National Advisory Committee of Aeronautics (NACA) engineers arrived at Muroc Army Airfield in California’s high desert to achieve supersonic flight for the first time. In less than two years, NACA…",
+      "ts": 1790623201000,
+      "publishedAt": "2026-09-28T19:20:01.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Trump administration asks Supreme Court to allow transgender medical care restrictions in prison",
+      "url": "https://www.statnews.com/2026/09/28/trump-administration-supreme-court-transgender-medical-care-restrictions-prison/?utm_campaign=rss",
+      "summary": "The Trump administration asked the Supreme Court on Monday to let it enforce, for now, restrictions on gender-affirming care in federal prison.",
+      "ts": 1790618151000,
+      "publishedAt": "2026-09-28T17:55:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Highlights Lessons Learned From Swift Boost Mission",
+      "url": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+      "summary": "A commercial mission to boost NASA’s Swift observatory concluded without raising the spacecraft’s orbit, but the agency and industry vendor gained valuable experience that will benefit future in-space servicing programs.",
+      "ts": 1790617473000,
+      "publishedAt": "2026-09-28T17:44:33.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "When can we say AI made a scientific discovery?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molec…",
+      "ts": 1790614996000,
+      "publishedAt": "2026-09-28T17:03:16.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Celebrates as Artemis Accords Surpasses 75 Signatories ",
+      "url": "https://www.nasa.gov/news-release/nasa-celebrates-as-artemis-accords-surpasses-75-signatories/",
+      "summary": "Marking a significant expansion in the number of signatories to the Artemis Accords, NASA welcomed Albania, Croatia, Côte d’Ivoire, and San Marino, bringing total participation to 76 countries. “Our momentum reflects a g…",
+      "ts": 1790612805000,
+      "publishedAt": "2026-09-28T16:26:45.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Meet NASA’s Artemis II Crew During Houston Public Event",
+      "url": "https://www.nasa.gov/news-release/meet-nasas-artemis-ii-crew-during-houston-public-event/",
+      "summary": "Editor’s Note: This advisory was updated on Sept. 28, 2026, with ticketing information for the public. The four astronauts of NASA’s Artemis II mission will participate in an event hosted by industry and community partne…",
+      "ts": 1790612200000,
+      "publishedAt": "2026-09-28T16:16:40.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "What You Need to Know About NASA’s SpaceX Crew-13 Mission",
+      "url": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-13-mission/",
+      "summary": "Four crew members are set to launch to the International Space Station as part of NASA’s SpaceX Crew-13 mission to perform research, technology demonstrations, and maintenance aboard the orbiting laboratory.",
+      "ts": 1790611749000,
+      "publishedAt": "2026-09-28T16:09:09.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Scientists Observe Enzymes Breaking Down DNA in Real Time",
+      "url": "https://www.genengnews.com/topics/omics/scientists-observe-enzymes-breaking-down-dna-in-real-time/",
+      "summary": "The research may be useful for the development of DNA-based therapeutics and gene-delivery systems. Packaging genetic material into structures that restrict nuclease access could potentially increase its resistance to de…",
+      "ts": 1790609434000,
+      "publishedAt": "2026-09-28T15:30:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Space Station View of Earth at Night",
+      "url": "https://www.nasa.gov/image-article/space-station-view-of-earth-at-night/",
+      "summary": "This nighttime view of the United States, dotted with city lights looking toward New York City (center), was taken at approximately 3:40 a.m. local time on Sept. 8, 2026, from the International Space Station as it orbite…",
+      "ts": 1790608896000,
+      "publishedAt": "2026-09-28T15:21:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Successful Earth flyby improves Juice’s course to Jupiter",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter",
+      "summary": "The European Space Agency’s Jupiter Icy Moons Explorer (Juice) skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of our home planet to alter its route to Jupiter using very little fuel.",
+      "ts": 1790607600000,
+      "publishedAt": "2026-09-28T15:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Space is everyone’s business: Economist Enterprise’s 4th annual Space Economy Summit returns to Orlando",
@@ -93,6 +219,51 @@
       "categoryId": "space"
     },
     {
+      "source": "United Nations News",
+      "title": "World News in Brief: Refugee funding, US migration policy triggers ‘cascade’ of rights violations, world forests report, restorative justice in Colombia",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168467",
+      "summary": "Support for water and sanitation at the biggest camp in the world for Syrian refugees is under threat from a lack of funding – combined with the impact of climate change – the UN Children’s Fund, UNICEF, said on Monday.",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Ambassadors meet as West Bank tensions rise, Gaza plan stalls",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168464",
+      "summary": "The Security Council met Monday morning with prospects for peace in the Middle East under strain on two fronts. In the West Bank, settler violence and settlement expansion are raising fears for a two-State solution. In G…",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: World leaders take stock of global fight against racism",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168463",
+      "summary": "World leaders are meeting in the General Assembly to assess how far the world has come in combating racism and how far it still has to go. The Durban Declaration and Programme of Action, the most comprehensive framework …",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo Ebola emergency: Calls grow for urgent humanitarian access",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168465",
+      "summary": "Aid teams trying to keep deadly Ebola disease from spreading in the Democratic Republic of the Congo (DRC) are increasingly concerned about ongoing fighting and violence that has forced thousands of people to flee a disp…",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Technical Cooperation Showcases Results at 70th IAEA General Conference",
+      "url": "http://www.iaea.org/news/photoessay/tc-showcases-results-iaeagc-70",
+      "summary": "",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NASA",
       "title": "APOD: 2026 September 28 – Cosmic Latte: The Average Color of the Universe",
       "url": "https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/",
@@ -165,13 +336,13 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "NASA",
-      "title": "Uncovering the Valleys Hidden Below Greenland’s Ice",
-      "url": "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/",
-      "summary": "A new map of the terrain beneath the Greenland Ice Sheet links hundreds of valleys that previous maps missed or left fragmented.",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z",
-      "categoryId": "space"
+      "source": "OpenAI",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "ts": 1790578800000,
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "arXiv q-bio",
@@ -343,6 +514,33 @@
       "ts": 1790568000000,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Uncovering the Valleys Hidden Below Greenland’s Ice",
+      "url": "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/",
+      "summary": "A new map of the terrain beneath the Greenland Ice Sheet links hundreds of valleys that previous maps missed or left fragmented.",
+      "ts": 1790568000000,
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about…",
+      "ts": 1790553600000,
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "ts": 1790553600000,
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "Genetic Engineering News",
@@ -612,204 +810,6 @@
       "summary": "President Trump’s nominee to lead the FDA was grilled by senators on hot button topics like China, vaccines, and abortion access",
       "ts": 1790343130000,
       "publishedAt": "2026-09-25T13:32:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 21-25 Sep 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_21-25_Sep_2026",
-      "summary": "Week in images: 21-25 Sep 2026 Discover our week through the lens",
-      "ts": 1790341800000,
-      "publishedAt": "2026-09-25T13:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Federal judge rolls back landmark disability protections",
-      "url": "https://www.statnews.com/2026/09/25/health-news-federal-judge-rolls-back-landmark-disability-protections/?utm_campaign=rss",
-      "summary": "The Justice Department said in June that it would no longer enforce laws that prioritized people with disabilities living and receiving services in their communities, rather than in nursing homes…",
-      "ts": 1790340835000,
-      "publishedAt": "2026-09-25T12:53:55.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Three Earth Explorer candidates go forward",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Three_Earth_Explorer_candidates_go_forward",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/03/advancing_earth_science/26001430-2-eng-GB/Advancing_Earth_science_card_full.png\" alt=\"Advancing Earth science\">",
-      "ts": 1790338800000,
-      "publishedAt": "2026-09-25T12:20:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US governme…",
-      "ts": 1790338200000,
-      "publishedAt": "2026-09-25T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA and Inter-American Development Bank Sign Partnership Agreement on Nuclear Energy for Development",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-and-inter-american-development-bank-sign-partnership-agreement-on-nuclear-energy-for-development",
-      "summary": "",
-      "ts": 1790337721000,
-      "publishedAt": "2026-09-25T12:02:01.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Haiti at ‘watershed moment’, Prime Minister tells UN, urging full backing for security force",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168453",
-      "summary": "Haiti is at a “watershed moment” in its struggle against gang violence and needs sustained international support alongside stronger national security institutions, Prime Minister Alix Didier Fils-Aimé told the UN General…",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Pakistan’s Sharif warns any diversion of Indus waters will be ‘treated as an act of war’",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168452",
-      "summary": "Pakistani Prime Minister Shehbaz Sharif told the UN General Assembly on Friday that any attempt by India to stop, impede or divert Pakistan’s share of the Indus River waters “will be treated as an act of war”.",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN voices grave concern as fighting spreads across northern Ethiopia",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168450",
-      "summary": "The UN said on Friday it remains gravely concerned by the continued deterioration of the security situation across northern Ethiopia, as fighting spreads across multiple fronts and increasingly disrupts humanitarian oper…",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Tuvalu urges decisive global action as rising seas threaten its future",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168449",
-      "summary": "Climate change remains the greatest existential threat to Tuvalu, Prime Minister Feleti Teo told the UN General Assembly on Friday, warning that the pace and scale of international action are still falling far short of w…",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: West Bank demolitions accelerate, urgent support for Sudan,  Haiti diplacement, AI hub to boost gender equality",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168447",
-      "summary": "The situation in the occupied West Bank continues to deteriorate, the UN human rights office has said, pointing to the “mass destruction” of Palestinian villages and forcible transfer of residents in Msafer Yatta, South …",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘No one speaks on behalf of Lebanon’: PM Salam asserts State authority at UN",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168444",
-      "summary": "Lebanon’s Prime Minister, Nawaf Salam, has stressed that decisions over war and peace, and control of weapons, must rest solely with the State and its constitutional institutions.",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Invest with Iraq’: PM sets out vision for new economic future",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168443",
-      "summary": "Iraq’s Prime Minister, Ali Faleh Al-Zaidi, said his country aims to exert its influence as an active economic power in the region, and as a bridge for dialogue and cooperation between its peoples.",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Nepal PM urges climate justice after ‘Himalayan tsunami’ devastates country",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168441",
-      "summary": "Nepal’s Prime Minister Balendra Shah brought a stark warning from the Himalayas to the UN General Assembly on Thursday, saying catastrophic floods that killed at least 1,400 people in his country laid bare the human cost…",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Africa needs its own AI solutions, not borrowed ones, says expert",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168440",
-      "summary": "Africa should focus its use of technology on solving its own real challenges rather than copying the systems and priorities of other parts of the world.",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan’s farmers are ready to return – private investment could get them there",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168439",
-      "summary": "The war in Sudan has devastated the economy and agricultural production, but a UN-backed plan aims to mobilise private sector investment to help farmers return to their fields.",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Rising tide of forced displacement",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168438",
-      "summary": "At a time when war, climate crises and man-made disasters continue to displace millions around the world, the UN High Commissioner for Refugees briefed the Security Council on Friday.",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "LIVE: Six years on from COVID-19, is the world ready for the next pandemic?",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168437",
-      "summary": "COVID-19 killed millions, shattered health systems and brought the global economy to a virtual standstill. World leaders are meeting Friday to review the lessons learned and cement a new approach to prevention and prepar…",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Yemen violence deepens concerns over child hunger crisis",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168436",
-      "summary": "Aid agencies in Yemen highlighted the growing hunger emergency sparked by renewed fighting between Houthi opposition forces and Government troops, after mobile health clinics reported that hundreds of children displaced …",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Australia urges global cooperation on climate, AI checks and international law",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168435",
-      "summary": "Australian Prime Minister Anthony Albanese underlined the need for countries to work together to address the climate crisis, emerging technologies such as AI, and the breakdown of international rules, at the United Natio…",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "The Takeaway: UN General Assembly debate Day 3",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168434",
-      "summary": "As the high-level debate enters a fourth day, The Takeaway looks back at key highlights on Thursday, with Israeli and Palestinian leaders presenting divergent views on the Middle East conflict and their counterparts from…",
-      "ts": 1790337600000,
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will foc…",
-      "ts": 1790327785000,
-      "publishedAt": "2026-09-25T09:16:25.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New CRISPR-Based Tool Enables Genome-Wide Mutagenesis of Bacteriophages",
-      "url": "https://www.genengnews.com/topics/genome-editing/new-crispr-based-tool-enables-genome-wide-mutagenesis-of-bacteriophages/",
-      "summary": "A CRISPR-based method for disrupting genes across bacteriophage genomes has been developed, creating a faster route to uncover gene functions and engineer phages for potential therapeutic and biotechnology applications. …",
-      "ts": 1790326858000,
-      "publishedAt": "2026-09-25T09:00:58.000Z",
       "categoryId": "bio"
     }
   ],
