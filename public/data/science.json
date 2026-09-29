@@ -1,7 +1,159 @@
 {
   "ok": true,
-  "updated": "2026-09-28T21:39:30.408Z",
+  "updated": "2026-09-29T01:33:55.299Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study across 40 countries: Political activism linked to representation",
+      "url": "https://phys.org/news/2026-09-countries-political-linked-representation.html",
+      "summary": "Not happy with the election result? Don't worry. Election Day is not the only opportunity to influence politics.",
+      "ts": 1790643601000,
+      "publishedAt": "2026-09-29T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How Bolsonaro's statements destroyed the rainforest",
+      "url": "https://phys.org/news/2026-09-bolsonaro-statements-destroyed-rainforest.html",
+      "summary": "Former Brazilian President Jair Bolsonaro contributed to deforestation through statements opposing forest conservation, according to an international study led by the University of Bonn. The study found that destruction …",
+      "ts": 1790641201000,
+      "publishedAt": "2026-09-29T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When microbial DNA is scarce, new profiling method helps separate genuine signals from contamination",
+      "url": "https://phys.org/news/2026-09-microbial-dna-scarce-profiling-method.html",
+      "summary": "In acute, life-threatening infections, rapidly characterizing the microorganisms in a patient sample can help guide diagnosis and treatment. Computational methods known as taxonomic profilers can analyze metagenome seque…",
+      "ts": 1790640001000,
+      "publishedAt": "2026-09-29T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dopamine-based nanotubes combine heat, electrical stimulation and antioxidant release for first time",
+      "url": "https://phys.org/news/2026-09-dopamine-based-nanotubes-combine-electrical.html",
+      "summary": "The research group at the Istituto Italiano di Tecnologia in Pontedera (Pisa), led by Gianni Ciofani, has developed new organic nanoparticles that combine multiple therapeutic functions in a single material for the first…",
+      "ts": 1790638808000,
+      "publishedAt": "2026-09-28T23:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Party leaders widening Washington's political chasm",
+      "url": "https://phys.org/news/2026-09-party-leaders-widening-washington-political.html",
+      "summary": "Most of the polarization currently roiling Congress comes from political parties rather than individual politicians, a study co-authored by University of Miami Business School associate professor Chad Kendall finds.",
+      "ts": 1790638801000,
+      "publishedAt": "2026-09-28T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plasma treatment helps reveal how molecular coatings dope silicon",
+      "url": "https://phys.org/news/2026-09-plasma-treatment-reveal-molecular-coatings.html",
+      "summary": "Controlling dopant concentration near the silicon surface is increasingly important for ultrashallow junctions and nanoscale devices. Mixed monolayer doping (MMLD) offers a surface-chemistry-based approach in which dopan…",
+      "ts": 1790637604000,
+      "publishedAt": "2026-09-28T23:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two-color glowing molecule could make wind tunnel tests more accurate",
+      "url": "https://phys.org/news/2026-09-molecule-tunnel-accurate.html",
+      "summary": "Most sensors can measure only one thing at a time, like a thermometer for temperature or a pressure gauge for pressure. Measuring two properties accurately from the same surface at the same moment usually means using two…",
+      "ts": 1790637602000,
+      "publishedAt": "2026-09-28T23:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Espionage boosted East Germany's economic output by 7.4%",
+      "url": "https://phys.org/news/2026-09-espionage-boosted-east-germany-economic.html",
+      "summary": "East Germany's espionage activities in the West boosted the country's economic output by 7.4%. Value added in manufacturing alone increased by 22.3% through industrial espionage, equivalent to 20.2 billion East German ma…",
+      "ts": 1790636407000,
+      "publishedAt": "2026-09-28T23:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hydrogen's distant glow opens new way to investigate dark energy",
+      "url": "https://phys.org/news/2026-09-hydrogen-distant-dark-energy.html",
+      "summary": "The Canadian Hydrogen Intensity Mapping Experiment (CHIME) has shown for the first time that it can detect the faint glow of hydrogen gas from deep in the universe's past using only its own data.",
+      "ts": 1790636404000,
+      "publishedAt": "2026-09-28T23:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI news coverage reveals hierarchy of innovators, regulators and overlooked regions",
+      "url": "https://phys.org/news/2026-09-ai-news-coverage-reveals-hierarchy.html",
+      "summary": "Analyzing more than 43,000 English-language newspaper articles, a new study reveals a highly stratified narrative about AI in which the news media allocate authority unequally, reinforcing the technology's prominent role…",
+      "ts": 1790635205000,
+      "publishedAt": "2026-09-28T22:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Assembly pathway reveals how bacteria build protein coils that extend in acid",
+      "url": "https://phys.org/news/2026-09-pathway-reveals-bacteria-protein-acid.html",
+      "summary": "The assembly pathway behind refractile-body proteins may have finally been resolved, researchers from Science Tokyo report. Using genetic engineering and several techniques for analyzing protein structure, they investiga…",
+      "ts": 1790635201000,
+      "publishedAt": "2026-09-28T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Avian odysseys: Tracking raptor migrations from Europe to Africa",
+      "url": "https://phys.org/news/2026-09-avian-odysseys-tracking-raptor-migrations.html",
+      "summary": "At the southwest tip of Sweden, the Falsterbo Peninsula stretches into the Baltic Sea, creating a natural bottleneck for hundreds of millions of birds traveling south for the winter each year. Falsterbo is particularly k…",
+      "ts": 1790634006000,
+      "publishedAt": "2026-09-28T22:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "European rivers are improving, but not fast enough to meet 2030 goals",
+      "url": "https://phys.org/news/2026-09-european-rivers-fast-goals.html",
+      "summary": "The quality of European rivers has improved in recent years, but not at the pace required to meet the environmental targets set for 2030. This is one of the main conclusions of a study led by researchers María Pachés Gin…",
+      "ts": 1790634001000,
+      "publishedAt": "2026-09-28T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experimental evidence of altermagnetism in a layered material opens a promising path toward future spintronics",
+      "url": "https://phys.org/news/2026-09-experimental-evidence-altermagnetism-layered-material.html",
+      "summary": "To build the ultrafast computers of the future, scientists are looking beyond the electrical charge of electrons to another property: their spin. While conventional hardware relies on the movement of charge to process da…",
+      "ts": 1790633401000,
+      "publishedAt": "2026-09-28T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Exposed ends and bends attract DNA-cutting enzymes, live imaging reveals",
+      "url": "https://phys.org/news/2026-09-exposed-dna-enzymes-imaging-reveals.html",
+      "summary": "Researchers at the Nano Life Science Institute (WPI-NanoLSI) at Kanazawa University have directly visualized how enzymes find and break DNA molecules in real time. Using high-speed atomic force microscopy, the team follo…",
+      "ts": 1790632817000,
+      "publishedAt": "2026-09-28T22:00:17.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Subjective and objective difficulty of English texts are related—but not the same",
+      "url": "https://phys.org/news/2026-09-subjective-difficulty-english-texts.html",
+      "summary": "Evaluating the difficulty of English texts used in educational materials and language assessments is a central concern in English language education. Traditionally, researchers have relied on objective measures of text d…",
+      "ts": 1790632813000,
+      "publishedAt": "2026-09-28T22:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Meteor hit Oklahoma 100 million years later than previously thought",
+      "url": "https://phys.org/news/2026-09-meteor-oklahoma-million-years-previously.html",
+      "summary": "Researchers at The University of Texas at Austin have rewritten a small part of Oklahoma's geologic history with global implications for ancient life. Below the surface of the small town of Ames, Oklahoma, a meteor impac…",
+      "ts": 1790632201000,
+      "publishedAt": "2026-09-28T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uncovering species–specific chemical sensitivity by focusing on mammalian hormone receptor evolution",
+      "url": "https://phys.org/news/2026-09-uncovering-speciesspecific-chemical-sensitivity-focusing.html",
+      "summary": "Chemicals affect biological species in different ways, posing a major challenge for assessing environmental chemical risks. However, the mechanisms behind these differences have remained largely unknown.",
+      "ts": 1790631605000,
+      "publishedAt": "2026-09-28T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mapping the 'social network' of proteins in the cell to understand how genes shape living things",
+      "url": "https://phys.org/news/2026-09-social-network-proteins-cell-genes.html",
+      "summary": "One of biology's fundamental questions is how our genes shape who we are. Adrian Serohijos and Stephen Michnick, professors in the Department of Biochemistry and Molecular Medicine at Université de Montréal's Faculty of …",
+      "ts": 1790631602000,
+      "publishedAt": "2026-09-28T21:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Changing climate may influence risks from deadly rodent-borne diseases",
@@ -459,6 +611,46 @@
       "publishedAt": "2026-09-28T11:00:04.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Erratum: Programmable Quantum Anomalous Hall Insulator in Twisted Crystalline Flatbands [Phys. Rev. X <b>16</b>, 011015 (2026)]",
+      "url": "http://link.aps.org/doi/10.1103/xyq4-kr2k",
+      "summary": "Author(s): Wenxuan Wang, Yijie Wang, Zaizhe Zhang, Zihao Huo, Gengdong Zhou, Shu Zhang, Kenji Watanabe, Takashi Taniguchi, Xiaoxia Yang, Qing Dai, X. C. Xie, Kaihui Liu, Zhida Song, and Xiaobo Lu [Phys. Rev. X 16, 039901…",
+      "ts": 1790589600000,
+      "publishedAt": "2026-09-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simultaneous detection, demodulation, and angle-of-arrival determination of communication signals using a dual-ladder Rydberg receiver",
+      "url": "http://link.aps.org/doi/10.1103/nvd9-9zs1",
+      "summary": "Author(s): Stone B. Oliver, Samuel Berweger, Eugeniy E. Mikhailov, Dixith Manchaiah, Nikunjkumar Prajapati, Christopher L. Holloway, and Matthew T. Simons In a typical Rydberg mixer, modulated communication signals are d…",
+      "ts": 1790589600000,
+      "publishedAt": "2026-09-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Designing lattice proteins with variational quantum algorithms",
+      "url": "http://link.aps.org/doi/10.1103/kpf7-fx7t",
+      "summary": "Author(s): Hanna Linn, Lucas Knuthson, Anders Irbäck, Sandipan Mohanty, Laura García-Álvarez, and Göran Johansson Quantum heuristics have shown promise in solving various optimization problems, including lattice protein …",
+      "ts": 1790589600000,
+      "publishedAt": "2026-09-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Multislice hollow ptychography for simultaneous atomic-layer-resolved three-dimensional structural imaging and spectroscopy",
+      "url": "http://link.aps.org/doi/10.1103/by27-b9mc",
+      "summary": "Author(s): Yu Lei and Peng Wang Electron-matter interactions produce elastic and inelastic scattering, forming the basis for imaging and spectroscopy in electron microscopy. However, integrating electron energy-loss spec…",
+      "ts": 1790589600000,
+      "publishedAt": "2026-09-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Two-photon-excited fluorescence spectroscopy of Rb atoms in a magneto-optical trap",
+      "url": "http://link.aps.org/doi/10.1103/c8gq-zp19",
+      "summary": "Author(s): Alan McLean, Christian Drago, Daniel Podos, Chengyi Luo, Caleb Brzezinski, Ting-Wei Hsu, J. E. Sipe, and Ralph Jimenez We report the results of two-photon-excited fluorescence (TPEF) measurements of the $5{S}_…",
+      "ts": 1790589600000,
+      "publishedAt": "2026-09-28T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Atom-Photon Entanglement with a Single Trapped Cesium Atom",
       "url": "http://link.aps.org/doi/10.1103/tjrz-slnm",
@@ -539,46 +731,6 @@
       "publishedAt": "2026-09-28T10:00:00.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Erratum: Programmable Quantum Anomalous Hall Insulator in Twisted Crystalline Flatbands [Phys. Rev. X <b>16</b>, 011015 (2026)]",
-      "url": "http://link.aps.org/doi/10.1103/xyq4-kr2k",
-      "summary": "Author(s): Wenxuan Wang, Yijie Wang, Zaizhe Zhang, Zihao Huo, Gengdong Zhou, Shu Zhang, Kenji Watanabe, Takashi Taniguchi, Xiaoxia Yang, Qing Dai, X. C. Xie, Kaihui Liu, Zhida Song, and Xiaobo Lu [Phys. Rev. X 16, 039901…",
-      "ts": 1790589600000,
-      "publishedAt": "2026-09-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Simultaneous detection, demodulation, and angle-of-arrival determination of communication signals using a dual-ladder Rydberg receiver",
-      "url": "http://link.aps.org/doi/10.1103/nvd9-9zs1",
-      "summary": "Author(s): Stone B. Oliver, Samuel Berweger, Eugeniy E. Mikhailov, Dixith Manchaiah, Nikunjkumar Prajapati, Christopher L. Holloway, and Matthew T. Simons In a typical Rydberg mixer, modulated communication signals are d…",
-      "ts": 1790589600000,
-      "publishedAt": "2026-09-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Designing lattice proteins with variational quantum algorithms",
-      "url": "http://link.aps.org/doi/10.1103/kpf7-fx7t",
-      "summary": "Author(s): Hanna Linn, Lucas Knuthson, Anders Irbäck, Sandipan Mohanty, Laura García-Álvarez, and Göran Johansson Quantum heuristics have shown promise in solving various optimization problems, including lattice protein …",
-      "ts": 1790589600000,
-      "publishedAt": "2026-09-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Multislice hollow ptychography for simultaneous atomic-layer-resolved three-dimensional structural imaging and spectroscopy",
-      "url": "http://link.aps.org/doi/10.1103/by27-b9mc",
-      "summary": "Author(s): Yu Lei and Peng Wang Electron-matter interactions produce elastic and inelastic scattering, forming the basis for imaging and spectroscopy in electron microscopy. However, integrating electron energy-loss spec…",
-      "ts": 1790589600000,
-      "publishedAt": "2026-09-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Two-photon-excited fluorescence spectroscopy of Rb atoms in a magneto-optical trap",
-      "url": "http://link.aps.org/doi/10.1103/c8gq-zp19",
-      "summary": "Author(s): Alan McLean, Christian Drago, Daniel Podos, Chengyi Luo, Caleb Brzezinski, Ting-Wei Hsu, J. E. Sipe, and Ralph Jimenez We report the results of two-photon-excited fluorescence (TPEF) measurements of the $5{S}_…",
-      "ts": 1790589600000,
-      "publishedAt": "2026-09-28T10:00:00.000Z"
-    },
-    {
       "source": "Phys.org",
       "title": "The herring fishery that took 400 years to rebound—and what it teaches us today",
       "url": "https://phys.org/news/2026-09-herring-fishery-years-rebound-today.html",
@@ -647,158 +799,6 @@
       "title": "Multidimensional Political Attitudes and Polarization Across 141 Countries",
       "url": "https://arxiv.org/abs/2609.30320",
       "summary": "arXiv:2609.30320v1 Announce Type: new Abstract: Societies worldwide are described as increasingly polarized, yet issue polarization -- how divided a society is over political positions -- has been measured almost entirel…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comment on \"Note on the start-up of Couette flow for viscoelastic fluids\" [Phys. Fluids 35, 113108 (2023)]",
-      "url": "https://arxiv.org/abs/2609.30359",
-      "summary": "arXiv:2609.30359v1 Announce Type: new Abstract: I show that the initial conditions imposed by Balan [Phys.\\ Fluids \\textbf{35}, 113108 (2023)] are incompatible with a nonzero retardation time, so that the problem solved …",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Point-cloud generative models for fast calorimeter simulation across particles and geometries",
-      "url": "https://arxiv.org/abs/2609.30403",
-      "summary": "arXiv:2609.30403v1 Announce Type: new Abstract: Detailed Geant4 simulation of calorimeter showers is the largest single computing cost of collider experiments, and the High-Luminosity LHC will need about ten times more s…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Understanding Perturbed Parameter Ensemble Sensitivities Using A Contrastive Learning Approach",
-      "url": "https://arxiv.org/abs/2609.30420",
-      "summary": "arXiv:2609.30420v1 Announce Type: new Abstract: Perturbed parameter ensembles (PPEs) reveal how physics parameters affect climate simulations, but interpreting parameter sensitivities across multivariate, spatially struc…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demonstration of H-mode Error Field Identification in a Single Discharge via Island Healing",
-      "url": "https://arxiv.org/abs/2609.30452",
-      "summary": "arXiv:2609.30452v1 Announce Type: new Abstract: Non-disruptive compass scan error field identification via island healing is demonstrated on KSTAR in a single H-mode discharge. This method can allow for up to a 75% reduc…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward Actionable Predictability of Tropical Mesoscale Convective Systems through Large-scale Recurrent Environments in Northern South America",
-      "url": "https://arxiv.org/abs/2609.30485",
-      "summary": "arXiv:2609.30485v1 Announce Type: new Abstract: Mesoscale convective systems (MCSs) produce much of the extreme precipitation, floods, and landslides that affect northern South America (NOSA), yet remain difficult to ant…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Skyrmion topology of scalar waves in real and momentum space",
-      "url": "https://arxiv.org/abs/2609.30512",
-      "summary": "arXiv:2609.30512v1 Announce Type: new Abstract: Generalizations of magnetic skyrmions to the context of other areas of physics, such as plasmonics, optics (including microcavity polaritons) and even water waves have beco…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy-selective control of noise-assisted multipulsing by weak optical seeding in the dissipative-soliton-resonance regime",
-      "url": "https://arxiv.org/abs/2609.30522",
-      "summary": "arXiv:2609.30522v1 Announce Type: new Abstract: We study pulse-number selection in a stochastic cubic--quintic complex Ginzburg--Landau model of a weakly seeded, normal-dispersion laser in the dissipative-soliton-resonan…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual Laser and Shadow Particle Image Velocimetry for Multiscale Fluid-Structure Interactions",
-      "url": "https://arxiv.org/abs/2609.30584",
-      "summary": "arXiv:2609.30584v1 Announce Type: new Abstract: Experimental Fluid-Structure Interaction (FSI) often involves phenomena that occur simultaneously across vastly different spatial and temporal scales. For example, the sepa…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weather and Climate Without Fluid Mechanics",
-      "url": "https://arxiv.org/abs/2609.30589",
-      "summary": "arXiv:2609.30589v1 Announce Type: new Abstract: Even if it were possible, attempting to model the motion of a fluid in a pipe by tracking each individual molecule would be an extraordinary waste of computation. The emerg…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MBFormer: Microbubble Transformer for 3D Time-Series Da-ta Processing to Improve Bound Bubble Detection in Nonde-structive Ultrasound Molecular Imaging",
-      "url": "https://arxiv.org/abs/2609.30618",
-      "summary": "arXiv:2609.30618v1 Announce Type: new Abstract: Development of nondestructive ultrasound molecular imaging (UMI) is essential for early cancer detection through real-time screening using clinical ultrasound systems. Curr…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 2D autocorrelation-based frequency estimator reflecting spatial tissue distribution to improve Ultrasound H-scan tissue characterization",
-      "url": "https://arxiv.org/abs/2609.30686",
-      "summary": "arXiv:2609.30686v1 Announce Type: new Abstract: H-scan is a promising quantitative ultrasound technique that estimates the frequency content of backscattered signals and maps the estimated frequencies onto a red/blue col…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Particle Trajectories Beneath Fully Nonlinear Waves Generated by Horizontal Seabed Motion",
-      "url": "https://arxiv.org/abs/2609.30687",
-      "summary": "arXiv:2609.30687v1 Announce Type: new Abstract: We investigate fully nonlinear water waves and fluid-particle dynamics generated by the horizontal motion of a seabed obstacle with prescribed time-dependent velocity. The …",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Limits of Univariate Deep Learning for Significant Wave Height Forecasting",
-      "url": "https://arxiv.org/abs/2609.30688",
-      "summary": "arXiv:2609.30688v1 Announce Type: new Abstract: This study conducts a systematic hyperparameter search across five deep learning architectures, DLinear, LSTM, PatchTST, ResAttLstm, and Mamba2, and nine context lengths (1…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Recent advances in poled lithium niobate",
-      "url": "https://arxiv.org/abs/2609.30736",
-      "summary": "arXiv:2609.30736v1 Announce Type: new Abstract: Lithium niobate is a versatile material for both classical and quantum photonics, recognized for its outstanding electro-optic and nonlinear optical properties. Through a p…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Spin-Orbit Coupling in Algebraic Diagrammatic Construction Theory: A State-Interaction Approach",
-      "url": "https://arxiv.org/abs/2609.30772",
-      "summary": "arXiv:2609.30772v1 Announce Type: new Abstract: Spin-orbit coupling and electron correlation play important roles in a broad range of chemical and physical phenomena. In this work, we systematically assess the performanc…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parnassus for the CLD Detector: A Generative Machine-Learning Surrogate for Detector Simulation and Reconstruction at the FCC-ee",
-      "url": "https://arxiv.org/abs/2609.30775",
-      "summary": "arXiv:2609.30775v1 Announce Type: new Abstract: Detector simulation and event reconstruction will be computationally expensive for future $e^+e^-$ collider programs and are currently critical bottlenecks for accurate fea…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FSSDataBase: a reconstructable dataset of simulated frequency-selective surface structures and scattering responses",
-      "url": "https://arxiv.org/abs/2609.30787",
-      "summary": "arXiv:2609.30787v1 Announce Type: new Abstract: Data-driven design of frequency-selective surfaces (FSSs) requires reusable datasets that link structural geometry to electromagnetic response under documented simulation c…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "$U(1)$ Gauge-Equivariant Representation Learning of Bloch States",
-      "url": "https://arxiv.org/abs/2609.30845",
-      "summary": "arXiv:2609.30845v1 Announce Type: new Abstract: Representation learning, or featurization, of mean-field Bloch states provides an important route for incorporating electronic information into machine-learning models of f…",
-      "ts": 1790568000000,
-      "publishedAt": "2026-09-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observing Phase Space Evolution During Unimolecular Decay",
-      "url": "https://arxiv.org/abs/2609.30869",
-      "summary": "arXiv:2609.30869v1 Announce Type: new Abstract: Direct time-resolved observation of large amplitude dynamics during ground state statistical unimolecular decay remains an experimental challenge. Here, an experimental Tim…",
       "ts": 1790568000000,
       "publishedAt": "2026-09-28T04:00:00.000Z"
     }

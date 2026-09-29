@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-09-28T21:39:33.797Z",
+  "updated": "2026-09-29T01:33:58.482Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "October’s Night Sky Notes: Spooky Stargazing",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/spooky-stargazing/",
+      "summary": "The Ghoul Located within the constellation Perseus lies a star called Algol, also known as ‘Demon Star’ or ‘The Ghoul’. You can spot this star during the autumn months, along with Cassiopeia and Andromeda in the northeas…",
+      "ts": 1790635736000,
+      "publishedAt": "2026-09-28T22:48:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border cross…",
+      "ts": 1790633827000,
+      "publishedAt": "2026-09-28T22:17:07.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Tool Helps Link BRSK1 Variants to Neurodevelopmental Disorder",
+      "url": "https://www.genengnews.com/topics/omics/ai-tool-helps-link-brsk1-variants-to-neurodevelopmental-disorder/",
+      "summary": "AI-assisted genomic analysis was combined with human genetics and fruit fly experiments to link reduced BRSK1 function to a variable neurodevelopmental disorder. The post AI Tool Helps Link <i>BRSK1</i> Variants to Neuro…",
+      "ts": 1790633612000,
+      "publishedAt": "2026-09-28T22:13:32.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Risk from toxic metals can persist months after wildfires, Maui study finds",
@@ -220,6 +247,60 @@
     },
     {
       "source": "United Nations News",
+      "title": "The Takeaway Day 6: General Debate ends with call to turn words into action",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168478",
+      "summary": "After six days of speeches from the UN General Assembly podium, one word rose above all others: peace. This final edition of The Takeaway distils the messages he said reverberated through the Assembly Hall and looks at w…",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN leaders renew push to defeat racism, 25 years after Durban",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168477",
+      "summary": "“No country is free of racism.” That warning from US youth activist Marley Dias set the tone on Monday as UN Member States reinvigorated global efforts against racism, discrimination and xenophobia with a new declaration…",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DPR Korea tells UN its nuclear status is ‘irreversible’, rejects outside pressure",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168476",
+      "summary": "The Democratic People’s Republic of Korea (DPRK) told the UN General Assembly on Monday that its status as a nuclear-armed State was irreversible, arguing that its military capabilities were necessary to safeguard the co…",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Ballot must replace the bullets’, South Sudan tells General Assembly ahead of elections",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168475",
+      "summary": "South Sudan remains committed to holding general elections in December to conclude its transition period, the country’s Permanent Representative to the United Nations Cecilia Adout Majok Adeng, told the General Assembly …",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan tells UN: No imposed solutions to country’s conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168474",
+      "summary": "Sudan’s Foreign Minister addressed the UN General Assembly on Monday in place of de facto head of state General Abdel Fattah al-Burhan, whose visa application was rejected by Washington.",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "From energy crisis to energy transition: How renewables are reshaping energy security",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168473",
+      "summary": "The continuing conflict in the Middle East is disrupting global energy markets and pushing up fuel prices, with knock-on effects far beyond the region.",
+      "ts": 1790596800000,
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World News in Brief: Refugee funding, US migration policy triggers ‘cascade’ of rights violations, world forests report, restorative justice in Colombia",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168467",
       "summary": "Support for water and sanitation at the biggest camp in the world for Syrian refugees is under threat from a lack of funding – combined with the impact of climate change – the UN Children’s Fund, UNICEF, said on Monday.",
@@ -240,7 +321,7 @@
       "source": "United Nations News",
       "title": "LIVE: World leaders take stock of global fight against racism",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168463",
-      "summary": "World leaders are meeting in the General Assembly to assess how far the world has come in combating racism and how far it still has to go. The Durban Declaration and Programme of Action, the most comprehensive framework …",
+      "summary": "World leaders met in the General Assembly Monday to assess how far the world has come in combating racism and how far it still has to go. The Durban Declaration and Programme of Action, the most comprehensive framework o…",
       "ts": 1790596800000,
       "publishedAt": "2026-09-28T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -729,87 +810,6 @@
       "summary": "With an eye toward pandemic preparedness, a U.N.-backed agency has signed sub-licensing deals related to generic versions of a Roche influenza treatment.",
       "ts": 1790358604000,
       "publishedAt": "2026-09-25T17:50:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "2026-2027 DWU: Middle School Design Challenge",
-      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-middle-school-design-challenge/",
-      "summary": "2026-2027 DWU: Middle School Design Challenge Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ National Airspace System (NA…",
-      "ts": 1790356851000,
-      "publishedAt": "2026-09-25T17:20:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "2026-2027 DWU: High School Engineering Challenge",
-      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-      "summary": "2026-2027 DWU: High School Engineering Challenge Challenge Materials Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ Natio…",
-      "ts": 1790356782000,
-      "publishedAt": "2026-09-25T17:19:42.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Stroke Remodels Tumor Microenvironment to Promote Glioma Growth",
-      "url": "https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/",
-      "summary": "A study in mouse and human models showed how stroke promotes glioma growth by remodeling the tumor microenvironment, with the emergence of a distinct population of tumor-associated astrocytes with reduced Ca2+ activity, …",
-      "ts": 1790354274000,
-      "publishedAt": "2026-09-25T16:37:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Spots Chaotic Secret in Galaxy",
-      "url": "https://www.nasa.gov/image-article/hubble-spots-chaotic-secret-in-galaxy/",
-      "summary": "A chaotic secret hides within this seemingly serene image of spiral galaxy NGC 4698 taken by NASA’s Hubble Space Telescope and released on Sept. 18, 2026. As a spiral galaxy like our own Milky Way galaxy, NGC 4698 has sp…",
-      "ts": 1790351650000,
-      "publishedAt": "2026-09-25T15:54:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lilly wins approval for once-weekly insulin shot",
-      "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss",
-      "summary": "The FDA approved Eli Lilly’s Onswik, a once-weekly basal insulin for adults with type 2 diabetes, offering patients an alternative to daily long-acting insulin injections.",
-      "ts": 1790349910000,
-      "publishedAt": "2026-09-25T15:25:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "TB 26-07 Aluminum Alloy 2219 Material Guidance",
-      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-07-aluminum-alloy-2219-material-guidance/",
-      "summary": "For more information, contact Donald S. Parker, Kennedy Space Center, donald.s.parker@nasa.gov Download the PDF version Improper casting and forging processes in the manufacture of aluminum alloy 2219 can lead to microst…",
-      "ts": 1790347551000,
-      "publishedAt": "2026-09-25T14:45:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: FDA commissioner nominee Heidi Overton is ignoring the science on abortion drug",
-      "url": "https://www.statnews.com/2026/09/25/heidi-overton-confirmation-hearing-mifepristone-abortion-evasive/?utm_campaign=rss",
-      "summary": "“With this latest appointment, mifepristone has a new boss but an old problem,” writes Julie F. Kay, founder and CEO of Reproductive Futures.",
-      "ts": 1790347178000,
-      "publishedAt": "2026-09-25T14:39:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1790343498000,
-      "publishedAt": "2026-09-25T13:38:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a reticent FDA commish nominee, a Novo deal, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss",
-      "summary": "President Trump’s nominee to lead the FDA was grilled by senators on hot button topics like China, vaccines, and abortion access",
-      "ts": 1790343130000,
-      "publishedAt": "2026-09-25T13:32:10.000Z",
       "categoryId": "bio"
     }
   ],
