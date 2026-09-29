@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-09-29T15:28:07.912Z",
+  "updated": "2026-09-29T20:30:28.972Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: PhRMA taps Eric Cantor as new CEO",
+      "url": "https://www.statnews.com/2026/09/29/eric-cantor-named-phrma-ceo/?utm_campaign=rss",
+      "summary": "Eric Cantor, a former GOP House majority leader, is taking the helm of PhRMA at a challenging time for the industry.",
+      "ts": 1790704589000,
+      "publishedAt": "2026-09-29T17:56:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Beam Therapeutics sues Chinese biotech, VC-backed startup, alleging theft of intellectual property",
+      "url": "https://www.statnews.com/2026/09/29/beam-therapeutics-yoltech-serapha-gene-editing-lawsuit/?utm_campaign=rss",
+      "summary": "The gene-editing company Beam Therapeutics is alleging that one of its scientists stole intellectual property and used it to co-found a Chinese company that made a deal with VC firms.",
+      "ts": 1790704481000,
+      "publishedAt": "2026-09-29T17:54:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Terran Orbital Names Jamin Brown Chief Operating Officer",
+      "url": "https://spacenews.com/terran-orbital-names-jamin-brown-chief-operating-officer/",
+      "summary": "IRVINE, Calif. – Sept. 29, 2026 – Terran Orbital, a Lockheed Martin company and a global leader in satellite-based solutions primarily serving the aerospace and defense industries, today announced the […] The post Terran…",
+      "ts": 1790703740000,
+      "publishedAt": "2026-09-29T17:42:20.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Ginkgo Datapoints, Apheris Announce Founding Members of Antibody Developability Consortium",
+      "url": "https://www.genengnews.com/topics/bioprocessing/ginkgo-datapoints-apheris-announce-founding-members-of-antibody-developability-consortium/",
+      "summary": "The consortium aims to address antibody development bottlenecks by creating standardized datasets and AI models that support earlier risk detection and more informed candidate selection. The post Ginkgo Datapoints, Apher…",
+      "ts": 1790702475000,
+      "publishedAt": "2026-09-29T17:21:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Overton won’t get a vote before midterms",
+      "url": "https://www.statnews.com/2026/09/29/heidi-overton-fda-commissioner-vote-midterms-health-care-policy/?utm_campaign=rss",
+      "summary": "Health department nominees await Senate votes, and we map out what the elections mean for healthy policy.",
+      "ts": 1790698483000,
+      "publishedAt": "2026-09-29T16:14:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How Cells Respond Differently to a Cancer-Causing Gene",
+      "url": "https://www.genengnews.com/topics/cancer/how-cells-respond-differently-to-a-cancer-causing-gene/",
+      "summary": "Chemotherapies frequently cause cancer cells to enter senescence, but do not fully eliminate these cells. Therefore, it is useful to target these therapy-induced senescent cells with senolytics that eliminate them. The p…",
+      "ts": 1790695415000,
+      "publishedAt": "2026-09-29T15:23:35.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Current Challenges in CAR T Manufacturing",
@@ -84,6 +138,60 @@
       "categoryId": "bio"
     },
     {
+      "source": "United Nations News",
+      "title": "Funding cuts put 8.3 million refugees at risk of losing vital assistance",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168486",
+      "summary": "Haji Mohammad Shafi spent 44 years in Pakistan before he was forced to leave. He sold everything he owned and returned to Afghanistan with his five children, arriving with almost nothing.",
+      "ts": 1790683200000,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Clean your plate – to reduce food loss and waste",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168485",
+      "summary": "Food waste is helping to fuel global warming, one half-eaten sandwich at a time.",
+      "ts": 1790683200000,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: Weighing nuclear risks amid rising tensions and war",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168483",
+      "summary": "Amid rising tensions, extreme weather impacts and strikes on nuclear infrastructure in war-torn Iran and Ukraine, UN Member States are returning to the core issue of disarmament on Tuesday, closing out the General Assemb…",
+      "ts": 1790683200000,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: DRC peace deals fail to halt fighting as Ebola deepens crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168482",
+      "summary": "The Security Council met in New York on the Democratic Republic of the Congo (DRC) Tuesday, where clashes between Government forces and M23 rebels continue in the east despite a series of peace agreements. Ambassadors ar…",
+      "ts": 1790683200000,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DRC: Early access to care and oxygen decisive for Ebola patients’ survival – WHO",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168481",
+      "summary": "In the Democratic Republic of the Congo (DRC), health workers fighting the country’s largest-ever Ebola outbreak are struggling to overcome critical challenges to patient care, the UN World Health Organization (WHO) warn…",
+      "ts": 1790683200000,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Yemen escalation fuels fears of further cholera, measles spread",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168480",
+      "summary": "Heavy fighting in Yemen is fuelling concerns of an uptick in cholera, measles and other preventable diseases, as overcrowding at displacement sites threatens to overwhelm the limited healthcare services still open.",
+      "ts": 1790683200000,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: UniQure’s gene therapy continues to slow Huntington’s progression after four years",
       "url": "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/?utm_campaign=rss",
@@ -117,6 +225,24 @@
       "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. Bu…",
       "ts": 1790678625000,
       "publishedAt": "2026-09-29T10:43:45.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "ts": 1790676000000,
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "ts": 1790676000000,
+      "publishedAt": "2026-09-29T10:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -682,132 +808,6 @@
       "title": "Intrinsic Brain Networks Underlying the Experience and Expression of Subclinical Anxiety",
       "url": "https://arxiv.org/abs/2605.00465",
       "summary": "arXiv:2605.00465v3 Announce Type: replace Abstract: Anxiety encompasses behavioral, physiological, and subjective components that do not always align, yet it remains unclear whether these dimensions are supported by dist…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "VibeProteinBench: An Evaluation Benchmark for Language-interfaced Vibe Protein Design",
-      "url": "https://arxiv.org/abs/2605.10978",
-      "summary": "arXiv:2605.10978v4 Announce Type: replace Abstract: Protein design aims to compose amino-acid sequences that fold into stable three-dimensional structures while satisfying targeted functional properties. The field is inc…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fixed point compositionality via low-rank gluing rules in inhibition-dominated threshold-linear networks",
-      "url": "https://arxiv.org/abs/2606.07336",
-      "summary": "arXiv:2606.07336v2 Announce Type: replace Abstract: Brains routinely generate highly flexible and complex behaviors on a relatively stable structure and limited resources. A key mechanism underlying this ability is compo…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Perceived vertical and eye level as one orientation order parameter: a closed-form account of the Li-Matin rules for egocentric space",
-      "url": "https://arxiv.org/abs/2607.19681",
-      "summary": "arXiv:2607.19681v2 Announce Type: replace Abstract: Li and Matin (2005a, 2005b) reported three regularities of the induced visually-perceived vertical (VPV): a roll-tilted line shifts the perceived vertical approximately…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Interpretable Tumor Microenvironment Representations by Fitting Pan-Cancer Cell State-Niche Correlation",
-      "url": "https://arxiv.org/abs/2608.26208",
-      "summary": "arXiv:2608.26208v2 Announce Type: replace Abstract: In the tumor microenvironment, a cell's state is influenced by cell-cell interactions (CCIs) with neighboring cells in its niches. Identifying dysregulated CCIs that ar…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PocketVE: Stable and Property-Guided Structure-Based Drug Design with Variance-Exploding Diffusion",
-      "url": "https://arxiv.org/abs/2609.08101",
-      "summary": "arXiv:2609.08101v3 Announce Type: replace Abstract: Protein-conditioned 3D molecule generation is a central challenge in structure-based drug design, requiring a balance between pocket compatibility, molecular properties…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Co-folding with a Soup of Representations",
-      "url": "https://arxiv.org/abs/2609.15552",
-      "summary": "arXiv:2609.15552v2 Announce Type: replace Abstract: Co-folding models such as AlphaFold3, Protenix, ESMFold2, and OpenDDE have advanced rapidly, yet no single model consistently performs best across all biomolecular comp…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Predator self limitation controls pattern formation in a predator prey system with additional food: a Turing Hopf analysis",
-      "url": "https://arxiv.org/abs/2609.29052",
-      "summary": "arXiv:2609.29052v2 Announce Type: replace Abstract: Supplying a released predator with additional, non reproducing food is a standard lever in augmentative biological control, with a known drawback with nothing limiting …",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ProteoEM: probabilistic protein abundance estimation from iterative affinity traces",
-      "url": "https://arxiv.org/abs/2609.29155",
-      "summary": "arXiv:2609.29155v2 Announce Type: replace Abstract: Single-molecule affinity mapping enables measurement of individual proteins and proteoforms, but imperfect and nonspecific probe binding means that affinity traces may …",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Localized time-frequency representation learning for bioacoustic classification in complex soundscapes",
-      "url": "https://arxiv.org/abs/2502.13440",
-      "summary": "arXiv:2502.13440v2 Announce Type: replace-cross Abstract: Prevailing bioacoustic classifiers assign species labels to fixed time-frequency windows rather than to individual vocalizations. When multiple vocalizations occu…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Epidemic spread: limiting contacts to regular circles is not necessarily the safest option",
-      "url": "https://arxiv.org/abs/2507.10257",
-      "summary": "arXiv:2507.10257v3 Announce Type: replace-cross Abstract: When a new infectious disease (or a new strain of an existing one) emerges, as in the recent COVID-19 pandemic, different types of mobility restrictions are consi…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Determining a parabolic-elliptic-elliptic system by boundary observation of its non-negative solutions under chemotaxis background",
-      "url": "https://arxiv.org/abs/2509.04850",
-      "summary": "arXiv:2509.04850v2 Announce Type: replace-cross Abstract: This paper addresses a profoundly challenging inverse problem that has remained largely unexplored due to its mathematical complexity: the unique identification o…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "What your brain activity says about you: A review of neuropsychiatric disorders identified in resting-state and sleep EEG data",
-      "url": "https://arxiv.org/abs/2510.04984",
-      "summary": "arXiv:2510.04984v2 Announce Type: replace-cross Abstract: Electroencephalogram monitoring devices and online data repositories hold large amounts of data from individuals participating in research and medical studies wit…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scaling Vision Transformers for Functional MRI with Flat Maps",
-      "url": "https://arxiv.org/abs/2510.13768",
-      "summary": "arXiv:2510.13768v3 Announce Type: replace-cross Abstract: We study the problem of training self-supervised foundation models for functional MRI. Our main contributions are: (1) we introduce a new model family (CortexMAE)…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Expectation-enforcing strategies for repeated games",
-      "url": "https://arxiv.org/abs/2511.19828",
-      "summary": "arXiv:2511.19828v2 Announce Type: replace-cross Abstract: Originating in evolutionary game theory, the class of \"zero-determinant\" strategies enables a player to unilaterally enforce linear payoff relationships in simple…",
       "ts": 1790654400000,
       "publishedAt": "2026-09-29T04:00:00.000Z",
       "categoryId": "bio"
