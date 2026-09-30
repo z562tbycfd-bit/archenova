@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-09-29T20:30:28.972Z",
+  "updated": "2026-09-30T00:07:16.331Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: At MAHA Summit, a grassroots movement goes corporate",
+      "url": "https://www.statnews.com/2026/09/29/maha-summit-washington-dc-2026-corporate-interests-swamp-grassroots/?utm_campaign=rss",
+      "summary": "Federal officials and health care executives rubbed elbows at the ritzy MAHA Summit, causing some supporters to question what MAHA has become.",
+      "ts": 1790722005000,
+      "publishedAt": "2026-09-29T22:46:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Merck, SciBrunch Launch Up-to-$2.13B Collaboration to Develop Preclinical KRAS-Inhibiting Molecular Glue",
+      "url": "https://www.genengnews.com/topics/cancer/merck-scibrunch-launch-up-to-2-13b-collaboration-to-develop-preclinical-kras-inhibiting-molecular-glue/",
+      "summary": "Merck agreed to pay SciBrunch up to $2.13 billion consisting of $400 million upfront and the remainder in payments tied to achieving milestones across multiple indications. The post Merck, SciBrunch Launch Up-to-$2.13B C…",
+      "ts": 1790719303000,
+      "publishedAt": "2026-09-29T22:01:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lawmakers urge Trump to rethink new rule that could restrict imported meds from Canada and overseas",
+      "url": "https://www.statnews.com/pharmalot/2026/09/29/lawmakers-urge-trump-rethink-new-rule-that-could-restrict-imported-medicines/?utm_campaign=rss",
+      "summary": "Some lawmakers are urging the Trump administration to rethink a pending rule that may prevent Americans from obtaining medicines from licensed international pharmacies.",
+      "ts": 1790714500000,
+      "publishedAt": "2026-09-29T20:41:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Defense Satcom Service Revenues to Surpass $22.6B by 2035",
+      "url": "https://spacenews.com/commercial-defense-satcom-service-revenues-to-surpass-22-6b-by-2035/",
+      "summary": "Paris, France | September 2026 — Novaspace’s Satellite Communications for Defense and Security, 2nd Edition highlights a defense Satcom market poised for rapid growth. By 2035, commercial satellite service revenues […] T…",
+      "ts": 1790713927000,
+      "publishedAt": "2026-09-29T20:32:07.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: PhRMA taps Eric Cantor as new CEO",
@@ -139,6 +175,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "World News in Brief: Deadly Myanmar strikes as Malaysia begins deportations, new emergency funding released, Gaza and West Bank update",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168488",
+      "summary": "The UN chief on Tuesday strongly condemned an airstrike that reportedly killed at least 50 people at a market in Myanmar’s Rakhine state and called for those responsible to be held to account.",
+      "ts": 1790683200000,
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Funding cuts put 8.3 million refugees at risk of losing vital assistance",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168486",
       "summary": "Haji Mohammad Shafi spent 44 years in Pakistan before he was forced to leave. He sold everything he owned and returned to Afghanistan with his five children, arriving with almost nothing.",
@@ -229,18 +274,18 @@
     },
     {
       "source": "OpenAI",
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "ts": 1790676000000,
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
       "ts": 1790676000000,
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "categoryId": "ai-compute"
@@ -763,51 +808,6 @@
       "title": "Automated Lesion Segmentation of Stroke MRI Using nnU-Net: A Comprehensive External Validation Across Acute and Chronic Lesions",
       "url": "https://arxiv.org/abs/2601.08701",
       "summary": "arXiv:2601.08701v2 Announce Type: replace Abstract: Accurate and generalisable segmentation of stroke lesions from magnetic resonance imaging (MRI) is essential for advancing clinical research, prognostic modelling, and …",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "All-Atom GPCR-Ligand Dynamics Simulation via a Residual Latent Flow Mode",
-      "url": "https://arxiv.org/abs/2602.03902",
-      "summary": "arXiv:2602.03902v2 Announce Type: replace Abstract: G-protein-coupled receptors (GPCRs), which are targeted by over one-third of approved drugs, undergo intricate conformational transitions to transduce signals. While Mo…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Toward Robust, Reproducible, and Widely Accessible Intracranial Speech Brain-Computer Interfaces: A Comprehensive Narrative Review of Neural Mechanisms, Hardware, Algorithms, Evaluation, Clinical Pathways and Future Directions",
-      "url": "https://arxiv.org/abs/2603.12279",
-      "summary": "arXiv:2603.12279v3 Announce Type: replace Abstract: Intracranial language brain-computer interfaces (BCIs) are a promising route for restoring communication in people with severe motor and speech impairments, but clinica…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bounding Transient Moments for a Class of Stochastic Reaction Networks Using Kolmogorov's Backward Equation",
-      "url": "https://arxiv.org/abs/2604.03794",
-      "summary": "arXiv:2604.03794v2 Announce Type: replace Abstract: Stochastic chemical reaction networks (SRNs) in cellular systems are commonly modeled as continuous-time Markov chains (CTMCs) describing the dynamics of molecular copy…",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Generation time in a discrete epidemic model with asymptomatic carriers: beyond geometric waiting times",
-      "url": "https://arxiv.org/abs/2604.07309",
-      "summary": "arXiv:2604.07309v4 Announce Type: replace Abstract: We study the random times between successive cases in a transmission chain of infectious diseases with asymptomatic carriers. We derive the probability distribution of …",
-      "ts": 1790654400000,
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Intrinsic Brain Networks Underlying the Experience and Expression of Subclinical Anxiety",
-      "url": "https://arxiv.org/abs/2605.00465",
-      "summary": "arXiv:2605.00465v3 Announce Type: replace Abstract: Anxiety encompasses behavioral, physiological, and subjective components that do not always align, yet it remains unclear whether these dimensions are supported by dist…",
       "ts": 1790654400000,
       "publishedAt": "2026-09-29T04:00:00.000Z",
       "categoryId": "bio"
