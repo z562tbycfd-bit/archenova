@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-09-30T06:22:21.361Z",
+  "updated": "2026-09-30T13:24:21.499Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Quantum Space Executes Launch Processing Agreement with All Points Logistics for Prime Mission",
+      "url": "https://spacenews.com/quantum-space-executes-launch-processing-agreement-with-all-points-logistics-for-prime-mission/",
+      "summary": "ROCKVILLE, Md. and MERRITT ISLAND, Fla. — September 30, 2026 — Quantum Space, LLC (the “Company” or “Quantum Space”), a company developing the next generation of advanced maneuverable spacecraft for […] The post Quantum …",
+      "ts": 1790773200000,
+      "publishedAt": "2026-09-30T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+      "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s …",
+      "ts": 1790770200000,
+      "publishedAt": "2026-09-30T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Malaysia: UN agency urges safeguards after refugees returned to Myanmar",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168491",
+      "summary": "The UN refugee agency, UNHCHR, has voiced concern over Malaysia’s decision to return 1,476 people to Myanmar amid an ongoing civil war and a dire human rights and humanitarian situation.",
+      "ts": 1790769600000,
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Lebanon: one in five children goes to bed hungry, says UNICEF",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168490",
+      "summary": "Four in five households in Lebanon struggle to afford basic necessities today, with children increasingly going without food, missing school and being pushed into work as conflict compounds years of economic crisis. \"I w…",
+      "ts": 1790769600000,
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "CDC measles death count still lags Pennsylvania’s",
+      "url": "https://www.statnews.com/2026/09/30/health-news-cdc-measles-death-count-still-lags-pennsylvania/?utm_campaign=rss",
+      "summary": "Pennsylvania officials count four measles-related deaths this year. The CDC only counts two.",
+      "ts": 1790769552000,
+      "publishedAt": "2026-09-30T11:59:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures ab…",
+      "ts": 1790764830000,
+      "publishedAt": "2026-09-30T10:40:30.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: America’s biotech race with China must be won at home",
+      "url": "https://www.statnews.com/2026/09/30/china-america-biotech-race-security/?utm_campaign=rss",
+      "summary": "“The surest way to secure our biotech lead is to build up our own capabilities,” write Gary Locke and Patrick McHenry.",
+      "ts": 1790757000000,
+      "publishedAt": "2026-09-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Kratom and 7-OH should be regulated, experts agree. They’re split on how",
+      "url": "https://www.statnews.com/2026/09/30/dea-proposal-7-oh-kratom-schedule-1-drug/?utm_campaign=rss",
+      "summary": "Kratom has skirted regulation for decades, but newer, highly concentrated 7-OH products have renewed interest in safeguards.",
+      "ts": 1790757000000,
+      "publishedAt": "2026-09-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: What to think about those mice with half-human brains",
+      "url": "https://www.statnews.com/2026/09/30/xeno-mice-human-brains-cortex-research-ethics/?utm_campaign=rss",
+      "summary": "New research involving giving mice a human cell-based cortex brings to mind “Flowers for Algernon” and “Pinky and the Brain,” writes STAT Lab Dish columnist Paul Knoepfler.",
+      "ts": 1790757000000,
+      "publishedAt": "2026-09-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Science begins for Smile",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
+      "summary": "On 23 September, the European-Chinese Smile mission was declared ready to start revealing how Earth responds to the wind of charged particles from the Sun. This follows a busy in-space commissioning period since the spac…",
+      "ts": 1790751900000,
+      "publishedAt": "2026-09-30T07:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 September 30 – Arp 78: Peculiar Galaxy in Aries",
@@ -480,6 +570,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Lise Meitner Programme Advances Women’s Nuclear Careers through Visit to the Russian Federation",
+      "url": "http://www.iaea.org/newscenter/news/iaea-lise-meitner-programme-advances-womens-nuclear-careers-through-visit-to-the-russian-federation",
+      "summary": "",
+      "ts": 1790740800000,
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "AI and Proteomics Accelerate VAV1 Molecular Glue Discovery",
       "url": "https://www.genengnews.com/topics/drug-discovery/ai-and-proteomics-accelerate-vav1-molecular-glue-discovery/",
@@ -712,105 +811,6 @@
       "ts": 1790683361000,
       "publishedAt": "2026-09-29T12:02:41.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Deadly Myanmar strikes as Malaysia begins deportations, new emergency funding released, Gaza and West Bank update",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168488",
-      "summary": "The UN chief on Tuesday strongly condemned an airstrike that reportedly killed at least 50 people at a market in Myanmar’s Rakhine state and called for those responsible to be held to account.",
-      "ts": 1790683200000,
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Funding cuts put 8.3 million refugees at risk of losing vital assistance",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168486",
-      "summary": "Haji Mohammad Shafi spent 44 years in Pakistan before he was forced to leave. He sold everything he owned and returned to Afghanistan with his five children, arriving with almost nothing.",
-      "ts": 1790683200000,
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Clean your plate – to reduce food loss and waste",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168485",
-      "summary": "Food waste is helping to fuel global warming, one half-eaten sandwich at a time.",
-      "ts": 1790683200000,
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "LIVE: Weighing nuclear risks amid rising tensions and war",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168483",
-      "summary": "Amid rising tensions, extreme weather impacts and strikes on nuclear infrastructure in war-torn Iran and Ukraine, UN Member States are returning to the core issue of disarmament on Tuesday, closing out the General Assemb…",
-      "ts": 1790683200000,
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: DRC peace deals fail to halt fighting as Ebola deepens crisis",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168482",
-      "summary": "The Security Council met in New York on the Democratic Republic of the Congo (DRC) Tuesday, where clashes between Government forces and M23 rebels continue in the east despite a series of peace agreements. Ambassadors ar…",
-      "ts": 1790683200000,
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DRC: Early access to care and oxygen decisive for Ebola patients’ survival – WHO",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168481",
-      "summary": "In the Democratic Republic of the Congo (DRC), health workers fighting the country’s largest-ever Ebola outbreak are struggling to overcome critical challenges to patient care, the UN World Health Organization (WHO) warn…",
-      "ts": 1790683200000,
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Yemen escalation fuels fears of further cholera, measles spread",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168480",
-      "summary": "Heavy fighting in Yemen is fuelling concerns of an uptick in cholera, measles and other preventable diseases, as overcrowding at displacement sites threatens to overwhelm the limited healthcare services still open.",
-      "ts": 1790683200000,
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: UniQure’s gene therapy continues to slow Huntington’s progression after four years",
-      "url": "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/?utm_campaign=rss",
-      "summary": "UniQure's gene therapy continues to slow Huntington's progression after four years. But the magnitude of the benefit waned compared to a similar analysis from a year ago.",
-      "ts": 1790679900000,
-      "publishedAt": "2026-09-29T11:05:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
-      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
-      "summary": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal …",
-      "ts": 1790679600000,
-      "publishedAt": "2026-09-29T11:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "If AI cannot be trusted in a classroom, why should it be trusted in orbit?",
-      "url": "https://spacenews.com/if-ai-cannot-be-trusted-in-a-classroom-why-should-it-be-trusted-in-orbit/",
-      "summary": "On September 9, 2026, Evan Hubinger, Anthropic’s alignment science lead, said on social media that he personally believed there was a greater than 10% chance that artificial intelligence could kill […] The post If AI can…",
-      "ts": 1790679600000,
-      "publishedAt": "2026-09-29T11:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Making AI an asset, not an expense",
-      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
-      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. Bu…",
-      "ts": 1790678625000,
-      "publishedAt": "2026-09-29T10:43:45.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

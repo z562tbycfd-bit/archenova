@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-09-30T06:22:18.913Z",
+  "updated": "2026-09-30T13:24:19.382Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New satellite tool to help communities better prepare for Bushfire season",
+      "url": "https://phys.org/news/2026-09-satellite-tool-communities-bushfire-season.html",
+      "summary": "As the weather starts to warm in Australia, people are beginning to look ahead to the wildfire season.",
+      "ts": 1790774408000,
+      "publishedAt": "2026-09-30T13:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser-made muons produce first images of dense objects",
+      "url": "https://phys.org/news/2026-09-laser-muons-images-dense.html",
+      "summary": "Muons are constantly being created as cosmic rays collide with molecules in Earth's upper atmosphere. With their ability to penetrate far into dense, solid materials, these cosmic muons are often used to image the inside…",
+      "ts": 1790774401000,
+      "publishedAt": "2026-09-30T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unlocking the cell's supply chain: How cholesterol keeps cellular recycling centers running",
+      "url": "https://phys.org/news/2026-09-cell-chain-cholesterol-cellular-recycling.html",
+      "summary": "Mention cholesterol, and most people will think of clogged arteries or health warnings. But inside the microscopic universe of the human cell, cholesterol has a drastically different job description as an indispensable c…",
+      "ts": 1790774223000,
+      "publishedAt": "2026-09-30T13:17:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The north pole of Mars is less dusty than scientists thought",
+      "url": "https://phys.org/news/2026-09-north-pole-mars-dusty-scientists.html",
+      "summary": "Although Mars may have once resembled Earth, the rocky red planet now appears far from hospitable. Still, certain details—such as ice-bound water—pique researchers' curiosity. As on Earth, ice on Mars contains valuable r…",
+      "ts": 1790773222000,
+      "publishedAt": "2026-09-30T13:00:22.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Starship's first orbital flight put its heat shield to the test",
+      "url": "https://phys.org/news/2026-09-starship-orbital-flight-shield.html",
+      "summary": "SpaceX's Starship, the most powerful launch vehicle ever developed, reached Earth orbit for the first time on Sept. 28, 2026. This mission, the rocket's 14th test flight, also marked the first time that Starship deployed…",
+      "ts": 1790773217000,
+      "publishedAt": "2026-09-30T13:00:17.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Exhaling may speed up reaction times",
+      "url": "https://www.sciencenews.org/article/reaction-times-sync-breathing-brain",
+      "summary": "Scientists testing potential treatments for sleep apnea made an unexpected discovery. How quickly people react may depend on whether they’re breathing in or out.",
+      "ts": 1790773200000,
+      "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More cats: The key to happy countries?",
+      "url": "https://phys.org/news/2026-09-cats-key-happy-countries.html",
+      "summary": "National happiness is influenced by complex relationships beyond basic economic factors, according to a study by Javier I. Borráz-León of the Secretariat of Science, Humanities, Technology, and Innovation in Mexico City …",
+      "ts": 1790772015000,
+      "publishedAt": "2026-09-30T12:40:15.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Kamchatka's giant earthquake sent a smaller tsunami across the Pacific",
+      "url": "https://phys.org/news/2026-09-kamchatka-giant-earthquake-smaller-tsunami.html",
+      "summary": "In 2025, along parts of Kamchatka's coast in Russia, a magnitude 8.8 earthquake caused a tsunami to surge nearly 20 meters (65 feet) above sea level. Yet across the Pacific, its waves were much smaller than those produce…",
+      "ts": 1790772005000,
+      "publishedAt": "2026-09-30T12:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Co-design with the community? Study provides insights on building trust",
+      "url": "https://phys.org/news/2026-09-community-insights.html",
+      "summary": "Co-design projects give stakeholders a seat at the table, including them as members of the design team, but few studies have evaluated whether they feel heard. A participant satisfaction study found that how and when peo…",
+      "ts": 1790770807000,
+      "publishedAt": "2026-09-30T12:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "E. coli survives longer in poultry-amended Georgia onion soils, two-year study finds",
+      "url": "https://phys.org/news/2026-09-coli-survives-longer-poultry-amended.html",
+      "summary": "New research suggests that poultry litter-based soil amendments and weather conditions, particularly extreme weather events, may influence how long bacteria survive in agricultural soils used to grow sweet onions. The fi…",
+      "ts": 1790769609000,
+      "publishedAt": "2026-09-30T12:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New simulations connect the first stars to cosmic fingerprints still visible today",
+      "url": "https://phys.org/news/2026-09-simulations-stars-cosmic-fingerprints-visible.html",
+      "summary": "Researchers have used some of the most detailed simulations yet of the early universe to investigate how the first stars and galaxies formed. Led by researchers at the University of Bath in the U.K., alongside collaborat…",
+      "ts": 1790769606000,
+      "publishedAt": "2026-09-30T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "After 20 years, jet diffusion wakes detected in quark-gluon plasmas",
+      "url": "https://phys.org/news/2026-09-years-jet-diffusion-quark-gluon.html",
+      "summary": "Boats passing over smooth water form a pair of diffusion wakes behind them veering off at a certain angle. Turbulence occurs along the line directly behind the boat, but the two diffusion waves are at a theoretical angle…",
+      "ts": 1790768407000,
+      "publishedAt": "2026-09-30T11:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Who decides what time it is? The politics behind contested clocks",
+      "url": "https://phys.org/news/2026-09-politics-contested-clocks.html",
+      "summary": "Despite contentious local debates about time zones and seasonal shifts, University of Queensland research shows there is no official global time zone system.",
+      "ts": 1790768401000,
+      "publishedAt": "2026-09-30T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gene-silencing technology to protect forests from invasive pests",
+      "url": "https://phys.org/news/2026-09-gene-silencing-technology-forests-invasive.html",
+      "summary": "A University of Kentucky forest entomologist is advancing a pest-control approach designed to target destructive forest beetles while minimizing effects on surrounding wildlife.",
+      "ts": 1790767201000,
+      "publishedAt": "2026-09-30T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wild crabapples have genetic potential to improve domestic varieties",
+      "url": "https://phys.org/news/2026-09-wild-crabapples-genetic-potential-domestic.html",
+      "summary": "A bad apple doesn't always ruin the bunch. In fact, it might make the bunch a little stronger. A new study published in Horticulture Research by Ben Mansfeld, an assistant professor of biology in Arts & Sciences at Washi…",
+      "ts": 1790766010000,
+      "publishedAt": "2026-09-30T11:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineered nanostructured surfaces could offer a new way to limit marine biofouling",
+      "url": "https://phys.org/news/2026-09-nanostructured-surfaces-limit-marine-biofouling.html",
+      "summary": "Researchers at Sultan Qaboos University have developed engineered surfaces that combine microscopic patterns with zinc oxide nanorods to reduce the attachment of bacteria and microalgae—a process that contributes to biof…",
+      "ts": 1790766001000,
+      "publishedAt": "2026-09-30T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Snakes' appearances linked to how scary or appealing people find them",
+      "url": "https://phys.org/news/2026-09-snakes-linked-scary-appealing-people.html",
+      "summary": "Snakes can elicit a wide range of human responses, including fear, disgust, awe and admiration. Past studies suggest that both humans and nonhuman primates, such as monkeys and apes, tend to quickly notice snakes in thei…",
+      "ts": 1790764801000,
+      "publishedAt": "2026-09-30T10:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One-third of world population exposed to harmful air pollution: Monitor",
+      "url": "https://phys.org/news/2026-09-world-population-exposed-air-pollution.html",
+      "summary": "Heat waves and wildfires combined with human-caused emissions this year to expose one-third of the world's population to extremely high levels of ozone pollution, a European Union report said Wednesday.",
+      "ts": 1790756401000,
+      "publishedAt": "2026-09-30T08:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Paw-fect candidate: Australia finds new koala rescue dog",
@@ -655,150 +799,6 @@
       "title": "Adaptive Expansions of the Optimized Effective Potential in Physically Motivated Response Spaces",
       "url": "https://arxiv.org/abs/2609.37166",
       "summary": "arXiv:2609.37166v1 Announce Type: new Abstract: The optimized effective potential (OEP) method provides an exact framework for incorporating orbital-dependent exchange within Kohn-Sham (KS) density-functional theory (DFT…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probabilistic Symbolic-Distillation Model of Droplet Collision for Spray Simulation at High Ambient Pressures",
-      "url": "https://arxiv.org/abs/2609.37202",
-      "summary": "arXiv:2609.37202v1 Announce Type: new Abstract: Droplet collision governs droplet population dynamics in many chemical engineering processes, such as spray drying, spray cooling, agricultural spraying, and combustion. Ex…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite-Horizon Triggering Cores of Earthquake Sequences",
-      "url": "https://arxiv.org/abs/2609.37213",
-      "summary": "arXiv:2609.37213v1 Announce Type: new Abstract: Models of triggered seismicity commonly aggregate the contributions of all past earthquakes into a total predicted rate. This aggregation does not distinguish a forecast do…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cold atmospheric plasma decontaminates Arabidopsis thaliana seeds and remodels seedling fungal microbiota",
-      "url": "https://arxiv.org/abs/2609.37222",
-      "summary": "arXiv:2609.37222v1 Announce Type: new Abstract: Seed-associated microorganisms influence seed quality, seedling establishment, and plant health and also constitute a major source of seed-borne pathogens. Cold atmospheric…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser-Polarization Dependence of Betatron X-Ray Production and Angular Collection in Laser-Wakefield Acceleration",
-      "url": "https://arxiv.org/abs/2609.37228",
-      "summary": "arXiv:2609.37228v1 Announce Type: new Abstract: Laser polarization affects both the production of betatron x rays and their angular distribution, which together determine the photon yield collected within a fixed angular…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photonic sequential logic circuits for stateful intelligence",
-      "url": "https://arxiv.org/abs/2609.37235",
-      "summary": "arXiv:2609.37235v1 Announce Type: new Abstract: By virtue of its high energy efficiency and ultra-low latency, optical computing is regarded as a highly promising computing paradigm in the post-Moore era. However, constr…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Silicon nitride nanophotonics for low-redundancy 3D convolution",
-      "url": "https://arxiv.org/abs/2609.37246",
-      "summary": "arXiv:2609.37246v1 Announce Type: new Abstract: Three-dimensional (3D) convolution extracts correlations in high-dimensional data, but overlapping receptive fields introduce substantial redundant data movement. Here, we …",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vortex rings as hydrodynamic dispersants for mitigating underwater oil spills",
-      "url": "https://arxiv.org/abs/2609.37256",
-      "summary": "arXiv:2609.37256v1 Announce Type: new Abstract: The usage of chemical dispersant to promote the breakup of oil droplets remains one of the crucial response strategy towards controlling the rapidly rising droplets during …",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rectification of plasma-powered active matter into macroscopic work",
-      "url": "https://arxiv.org/abs/2609.37257",
-      "summary": "arXiv:2609.37257v1 Announce Type: new Abstract: Plasmas sustain strong energy and momentum flux, yet this activity is typically treated as a dissipative loss channel rather than a usable resource, and its conversion into…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scanless quantum Fourier-transform mid-infrared spectroscopy for solids and surface analysis",
-      "url": "https://arxiv.org/abs/2609.37281",
-      "summary": "arXiv:2609.37281v1 Announce Type: new Abstract: Quantum infrared (IR) spectroscopy is a novel technique based on nonlinear interferometry and quantum sensing with undetected photons. In this approach, spectrally far-sepa…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ionization-Driven Dehydrogenation and Molecular Growth in Gas-Phase Adamantane Clusters",
-      "url": "https://arxiv.org/abs/2609.37385",
-      "summary": "arXiv:2609.37385v1 Announce Type: new Abstract: We investigate fragmentation and molecular growth induced by keV ions in initially neutral gas-phase adamantane clusters, the simplest diamondoid molecule (Ad, C$_{10}$H$_{…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-Controlled Chern transfer and Flat Band Reconstruction in distorted kagome lattices",
-      "url": "https://arxiv.org/abs/2609.37404",
-      "summary": "arXiv:2609.37404v1 Announce Type: new Abstract: Flat band formation and nontrivial topology are central manifestations of kagome electronic structure, yet they are commonly discussed in idealized lattice geometries. In d…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global Phase Locking in Superradiant Chorus Emissions",
-      "url": "https://arxiv.org/abs/2609.37409",
-      "summary": "arXiv:2609.37409v1 Announce Type: new Abstract: Coherent wave amplification in inhomogeneous systems is usually described in terms of resonance and nonlinear phase locking, but these local phase conditions do not determi…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative Interleaved-Pulse Acquisition Extends the Range of Isotope-Ratio Measurements in ToF-SIMS",
-      "url": "https://arxiv.org/abs/2609.37413",
-      "summary": "arXiv:2609.37413v1 Announce Type: new Abstract: Isotope ratios underpin tracer studies of transport in oxides, battery materials, and biological systems, yet time-of-flight secondary ion mass spectrometry (ToF-SIMS) stru…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Convergent representations of elastic-wave structure emerge across deliberately distinct seismic training routes",
-      "url": "https://arxiv.org/abs/2609.37462",
-      "summary": "arXiv:2609.37462v1 Announce Type: new Abstract: Elastic-wave propagation connects laboratory fracture with earthquakes, raising the prospect of seismic models that reuse waveform structure across physical scales. Here we…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Does High Signal-to-Noise Ratio Identify Better Training Data for Seismic Deep Learning?",
-      "url": "https://arxiv.org/abs/2609.37463",
-      "summary": "arXiv:2609.37463v1 Announce Type: new Abstract: Hard signal-to-noise ratio (SNR) screening removes weak seismic records, but does retaining clearer waveforms improve learning enough to compensate for the discarded data? …",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An autonomous approach to model daytime behavior of sub-ionospheric VLF signals over short and medium propagation paths in India",
-      "url": "https://arxiv.org/abs/2609.37486",
-      "summary": "arXiv:2609.37486v1 Announce Type: new Abstract: We present an autonomous model to simulate the daytime variation of sub-ionospheric Very Low Frequency (VLF) signal amplitude, beginning with the computation of the D-regio…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-Parameter Error Mitigation in Parametric Down-Conversion via SU(1, 1) Composite Segmentation",
-      "url": "https://arxiv.org/abs/2609.37514",
-      "summary": "arXiv:2609.37514v1 Announce Type: new Abstract: Spontaneous parametric down-conversion is a primary resource for generating non-classical light, yet phase mismatch fluctuations from temperature drift, angular misalignmen…",
-      "ts": 1790740800000,
-      "publishedAt": "2026-09-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cultural, Structural, and Mediated Routes to Polarization in a Nonlinear Mean-Field Model",
-      "url": "https://arxiv.org/abs/2609.37521",
-      "summary": "arXiv:2609.37521v1 Announce Type: new Abstract: Collective polarization can arise through mechanisms acting at different stages of social communication, but similar polarized outcomes need not imply dynamically equivalen…",
       "ts": 1790740800000,
       "publishedAt": "2026-09-30T04:00:00.000Z"
     }
