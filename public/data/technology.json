@@ -1,7 +1,133 @@
 {
   "ok": true,
-  "updated": "2026-09-30T13:24:21.499Z",
+  "updated": "2026-09-30T18:53:04.569Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genome-Wide Analysis Identifies BACH2 as Potential Fetal Hemoglobin Activation Target",
+      "url": "https://www.genengnews.com/topics/omics/genome-wide-analysis-identifies-bach2-as-potential-fetal-hemoglobin-activation-target/",
+      "summary": "This pathway, which the authors dub the “BACH2-NRF2 axis,” is independent of the well-known BCL11A transcription regulator, the target of the approved cell therapy Casgevy for sickle cell disease (SCD). The post Genome-W…",
+      "ts": 1790794125000,
+      "publishedAt": "2026-09-30T18:48:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, International Partners Advance Work on Space Crops",
+      "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasa-international-partners-advance-work-on-space-crops/",
+      "summary": "NASA, CSA (Canadian Space Agency), and the German Aerospace Center signed a joint statement of intent to begin coordinated, preparatory work toward an Earth-based demonstrator to learn how to grow crops on the Moon.",
+      "ts": 1790793500000,
+      "publishedAt": "2026-09-30T18:38:20.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Star Trails",
+      "url": "https://www.nasa.gov/image-article/star-trails/",
+      "summary": "This long-duration image shows star trails above Earth and the blue lights of fishing boats and the yellow lights of Indonesian cities stretching below the International Space Station as it orbited 258 miles above the Ba…",
+      "ts": 1790790650000,
+      "publishedAt": "2026-09-30T17:50:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "summary": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA …",
+      "ts": 1790787621000,
+      "publishedAt": "2026-09-30T17:00:21.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Advancing Brain Organoids from Research Models to Scalable Platforms",
+      "url": "https://www.genengnews.com/multimedia/webinars/advancing-brain-organoids-from-research-models-to-scalable-platforms/",
+      "summary": "In this GEN webinar, Joseph Shultz (VP of technical development and manufacturing, Ottimo Pharma) and Imroz Ghangas (VP of commercial sales, Asimov) discuss strategies for achieving high-performing clonal titers and adva…",
+      "ts": 1790784336000,
+      "publishedAt": "2026-09-30T16:05:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "U.S. poised to boot legal immigrants from Medicaid, including refugees and sex-trafficking victims",
+      "url": "https://www.statnews.com/2026/09/30/legal-immigrants-risk-losing-medicaid-coverage-trump/?utm_campaign=rss",
+      "summary": "Hundreds of thousands of immigrants with legal status, including refugees and sex-trafficking victims, are at risk of losing government health coverage starting Oct. 1.",
+      "ts": 1790783406000,
+      "publishedAt": "2026-09-30T15:50:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "summary": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment.…",
+      "ts": 1790780400000,
+      "publishedAt": "2026-09-30T15:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NaviGate successfully demonstrates onboard precise orbit determination aboard D-Orbit’s ION Satellite Carrier",
+      "url": "https://spacenews.com/navigate-successfully-demonstrates-onboard-precise-orbit-determination-aboard-d-orbits-ion-satellite-carrier/",
+      "summary": "ROME, 30/09/2026 – NaviGate, an Italian space technology company spun out of Sapienza University of Rome, has successfully completed the in-orbit demonstration (IoD) of NaviCode Caravel, its autonomous onboard precise [……",
+      "ts": 1790780400000,
+      "publishedAt": "2026-09-30T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What health tech leaders are talking about in Washington policy circles",
+      "url": "https://www.statnews.com/2026/09/30/health-tech-policy-conversations-washington-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of AI Prognosis: Dispatches from Health Datapalooza and MAHA Institute Open Data Summit, and other health AI news.",
+      "ts": 1790779075000,
+      "publishedAt": "2026-09-30T14:37:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly’s Zepbound combined with amylin drug led to significant weight loss in mid-stage trial",
+      "url": "https://www.statnews.com/2026/09/30/eli-lilly-zepbound-amylin-combination-drug-study/?utm_campaign=rss",
+      "summary": "An investigational combination therapy from Eli Lilly led to significant weight loss in a mid-stage study, but high discontinuation rates raise questions about tolerability.",
+      "ts": 1790777700000,
+      "publishedAt": "2026-09-30T14:15:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Rural MAHA followers say Trump hasn’t improved health of their communities, poll finds",
+      "url": "https://www.statnews.com/2026/09/30/rural-maha-followers-poll-trump-hasnt-improved-community-health/?utm_campaign=rss",
+      "summary": "About half of rural voters identify with MAHA movement, but most said President Trump’s health care policies have not benefited their communities, according to a new poll.",
+      "ts": 1790777569000,
+      "publishedAt": "2026-09-30T14:12:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Microbiome Patterns Vary Among Individuals with Different Cancer Types and Onset Age",
+      "url": "https://www.genengnews.com/topics/cancer/microbiome-patterns-vary-among-individuals-with-different-cancer-types-and-onset-age/",
+      "summary": "Researchers analyzing pre-treatment stool samples from 1,364 cancer patients across cancer types, stages, and treatments discovered that adults aged 50 years or younger with colorectal and breast cancers have distinct gu…",
+      "ts": 1790776405000,
+      "publishedAt": "2026-09-30T13:53:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Three biotech updates, including accusations of theft and and a new lobbying leader",
+      "url": "https://www.statnews.com/2026/09/30/biotech-news-updates-accusations-of-theft-new-phrma-guy/?utm_campaign=rss",
+      "summary": "Beam Therapeutics has filed a lawsuit alleging one of its former scientists stole intellectual property and used it to co-found a Chinese company that recently made a deal with prominent VC…",
+      "ts": 1790775567000,
+      "publishedAt": "2026-09-30T13:39:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Beam suing over IP theft, a Trump rule on importing meds, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/09/30/beam-sues-over-trade-secret-theft-trump-drug-import-rule/?utm_campaign=rss",
+      "summary": "Gene-editing company Beam Therapeutics is alleging that one of its scientists stole intellectual property and used it to co-found a Chinese company",
+      "ts": 1790775350000,
+      "publishedAt": "2026-09-30T13:35:50.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Quantum Space Executes Launch Processing Agreement with All Points Logistics for Prime Mission",
@@ -22,16 +148,43 @@
     },
     {
       "source": "United Nations News",
-      "title": "Malaysia: UN agency urges safeguards after refugees returned to Myanmar",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168491",
-      "summary": "The UN refugee agency, UNHCHR, has voiced concern over Malaysia’s decision to return 1,476 people to Myanmar amid an ongoing civil war and a dire human rights and humanitarian situation.",
+      "title": "Could a new global panel defuse inequality’s ‘ticking time bomb’?",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168489",
+      "summary": "What if the world tackled inequality with the same kind of scientific firepower it has brought to the climate crisis?",
       "ts": 1790769600000,
       "publishedAt": "2026-09-30T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
-      "title": "Lebanon: one in five children goes to bed hungry, says UNICEF",
+      "title": "Somali families face renewed violence amid worsening hunger crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168495",
+      "summary": "Children have been killed and injured in fresh fighting in Baidoa, in Somalia’s South West State, where families were already facing severe hunger and other overlapping crises.",
+      "ts": 1790769600000,
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Homicides fall as organised crime grows more profitable – and networked",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168493",
+      "summary": "Homicide rates are falling across much of the world, but organised crime is on the rise in many regions as criminal networks diversify into trafficking, migrant smuggling, and the exploitation of natural resources, a new…",
+      "ts": 1790769600000,
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Malaysia: UN agency urges safeguards after refugees returned to Myanmar",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168491",
+      "summary": "The UN refugee agency, UNHCR, has voiced concern over Malaysia’s decision to return 1,476 people to Myanmar amid an ongoing civil war and a dire human rights and humanitarian situation.",
+      "ts": 1790769600000,
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Lebanon: One in five children goes to bed hungry, says UNICEF",
       "url": "https://news.un.org/feed/view/en/story/2026/09/1168490",
       "summary": "Four in five households in Lebanon struggle to afford basic necessities today, with children increasingly going without food, missing school and being pushed into work as conflict compounds years of economic crisis. \"I w…",
       "ts": 1790769600000,
@@ -54,6 +207,33 @@
       "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures ab…",
       "ts": 1790764830000,
       "publishedAt": "2026-09-30T10:40:30.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA SMR School in the Russian Federation Offers Insights into Operating Technologies",
+      "url": "http://www.iaea.org/newscenter/news/iaea-smr-school-in-the-russian-federation-offers-insights-into-operating-technologies",
+      "summary": "",
+      "ts": 1790764812000,
+      "publishedAt": "2026-09-30T10:40:12.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "ts": 1790764200000,
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "ts": 1790762400000,
+      "publishedAt": "2026-09-30T10:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -631,186 +811,6 @@
       "ts": 1790715324000,
       "publishedAt": "2026-09-29T20:55:24.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lawmakers urge Trump to rethink new rule that could restrict imported meds from Canada and overseas",
-      "url": "https://www.statnews.com/pharmalot/2026/09/29/lawmakers-urge-trump-rethink-new-rule-that-could-restrict-imported-medicines/?utm_campaign=rss",
-      "summary": "Some lawmakers are urging the Trump administration to rethink a pending rule that may prevent Americans from obtaining medicines from licensed international pharmacies.",
-      "ts": 1790714500000,
-      "publishedAt": "2026-09-29T20:41:40.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Commercial Defense Satcom Service Revenues to Surpass $22.6B by 2035",
-      "url": "https://spacenews.com/commercial-defense-satcom-service-revenues-to-surpass-22-6b-by-2035/",
-      "summary": "Paris, France | September 2026 — Novaspace’s Satellite Communications for Defense and Security, 2nd Edition highlights a defense Satcom market poised for rapid growth. By 2035, commercial satellite service revenues […] T…",
-      "ts": 1790713927000,
-      "publishedAt": "2026-09-29T20:32:07.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Adds Blue Origin New Glenn 9×4 to Launch Services Contract",
-      "url": "https://www.nasa.gov/news-release/nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract/",
-      "summary": "In accordance with a contract on-ramp clause, NASA has added Blue Origin’s New Glenn 9×4 launch service to the NASA Launch Services (NLS) II contract. The New Glenn 9×4 launch service will be available to NASA’s Launch S…",
-      "ts": 1790712481000,
-      "publishedAt": "2026-09-29T20:08:01.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Sets Crew-13 Launch, Docking Coverage",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-crew-13-launch-docking-coverage/",
-      "summary": "NASA will provide live coverage of prelaunch, launch, and docking activities for the agency’s SpaceX Crew‑13 mission to the International Space Station. Live coverage will stream through a variety of platforms. Learn whe…",
-      "ts": 1790708234000,
-      "publishedAt": "2026-09-29T18:57:14.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: PhRMA taps Eric Cantor as new CEO",
-      "url": "https://www.statnews.com/2026/09/29/eric-cantor-named-phrma-ceo/?utm_campaign=rss",
-      "summary": "Eric Cantor, a former GOP House majority leader, is taking the helm of PhRMA at a challenging time for the industry.",
-      "ts": 1790704589000,
-      "publishedAt": "2026-09-29T17:56:29.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Beam Therapeutics sues Chinese biotech, VC-backed startup, alleging theft of intellectual property",
-      "url": "https://www.statnews.com/2026/09/29/beam-therapeutics-yoltech-serapha-gene-editing-lawsuit/?utm_campaign=rss",
-      "summary": "The gene-editing company Beam Therapeutics is alleging that one of its scientists stole intellectual property and used it to co-found a Chinese company that made a deal with VC firms.",
-      "ts": 1790704481000,
-      "publishedAt": "2026-09-29T17:54:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Terran Orbital Names Jamin Brown Chief Operating Officer",
-      "url": "https://spacenews.com/terran-orbital-names-jamin-brown-chief-operating-officer/",
-      "summary": "IRVINE, Calif. – Sept. 29, 2026 – Terran Orbital, a Lockheed Martin company and a global leader in satellite-based solutions primarily serving the aerospace and defense industries, today announced the […] The post Terran…",
-      "ts": 1790703740000,
-      "publishedAt": "2026-09-29T17:42:20.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Ginkgo Datapoints, Apheris Announce Founding Members of Antibody Developability Consortium",
-      "url": "https://www.genengnews.com/topics/bioprocessing/ginkgo-datapoints-apheris-announce-founding-members-of-antibody-developability-consortium/",
-      "summary": "The consortium aims to address antibody development bottlenecks by creating standardized datasets and AI models that support earlier risk detection and more informed candidate selection. The post Ginkgo Datapoints, Apher…",
-      "ts": 1790702475000,
-      "publishedAt": "2026-09-29T17:21:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Overton won’t get a vote before midterms",
-      "url": "https://www.statnews.com/2026/09/29/heidi-overton-fda-commissioner-vote-midterms-health-care-policy/?utm_campaign=rss",
-      "summary": "Health department nominees await Senate votes, and we map out what the elections mean for healthy policy.",
-      "ts": 1790698483000,
-      "publishedAt": "2026-09-29T16:14:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Crew-13 Rocket and Spacecraft at Launch Pad",
-      "url": "https://www.nasa.gov/image-article/crew-13-rocket-and-spacecraft-at-launch-pad/",
-      "summary": "Ahead of NASA’s SpaceX Crew-13 mission launch, a SpaceX Falcon 9 rocket and Dragon spacecraft are vertical at the launch pad of Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida in this Sept. 27, 2…",
-      "ts": 1790695916000,
-      "publishedAt": "2026-09-29T15:31:56.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "How Cells Respond Differently to a Cancer-Causing Gene",
-      "url": "https://www.genengnews.com/topics/cancer/how-cells-respond-differently-to-a-cancer-causing-gene/",
-      "summary": "Chemotherapies frequently cause cancer cells to enter senescence, but do not fully eliminate these cells. Therefore, it is useful to target these therapy-induced senescent cells with senolytics that eliminate them. The p…",
-      "ts": 1790695415000,
-      "publishedAt": "2026-09-29T15:23:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Current Challenges in CAR T Manufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/current-challenges-in-car-t-manufacturing/",
-      "summary": "Predictive cell intelligence can be used to reveal cellular states and emerging cellular trajectories earlier in the manufacturing process and to support more informed bioprocessing decisions. The post Current Challenges…",
-      "ts": 1790694810000,
-      "publishedAt": "2026-09-29T15:13:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Opens Applications for Second Season of ORBIT Student Challenge",
-      "url": "https://www.nasa.gov/learning-resources/research-program-for-students/",
-      "summary": "Following a successful inaugural year of ingenuity and career building, NASA ORBIT (Opportunities in Research, Business, Innovation, and Technology) has officially returned for a second season to bring university and col…",
-      "ts": 1790694675000,
-      "publishedAt": "2026-09-29T15:11:15.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Anthropic joins ARPA-H clinical AI moonshot, will hold closed-door health care event",
-      "url": "https://www.statnews.com/2026/09/29/anthropic-joins-arpa-h-clinical-ai-moonshot-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Oura delays IPO plans, Anthropic joins an clinical AI effort by ARPA-H, and MAHA's health data goals.",
-      "ts": 1790692344000,
-      "publishedAt": "2026-09-29T14:32:24.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NSTGRO 2026",
-      "url": "https://www.nasa.gov/directorates/stmd/space-tech-research-grants/nstgro/nstgro-2026/",
-      "summary": "NSTGRO Homepage Omar AlyousefUniversity Of MemphisPolycatenated Architected Materials (PAM) for Origami-Inspired Space Docking Ports Cade ArmstrongUniversity Of Texas at AustinIntelligent Multi-Agent Constellations for C…",
-      "ts": 1790691608000,
-      "publishedAt": "2026-09-29T14:20:08.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Under the Microscope: NASA-Made Material for Moon Manufacturing",
-      "url": "https://www.nasa.gov/image-article/nasa-made-material-moon-manufacturing/",
-      "summary": "Photos taken using a microscope reveal the colorful, kaleidoscope-like crystal structure of a new NASA-made material that could be used for manufacturing during future space missions. Developed at NASA’s Glenn Research C…",
-      "ts": 1790690400000,
-      "publishedAt": "2026-09-29T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AstraZeneca invests $2 billion in Summit Therapeutics",
-      "url": "https://www.statnews.com/2026/09/29/biotech-news-astrazeneca-invests-2-billion-in-summit-therapeautics/?utm_campaign=rss",
-      "summary": "AstraZeneca is teaming up with Summit Therapeutics to test its PD-1/VEGF bispecific ivonescimab alongside AstraZeneca’s antibody-drug conjugates.",
-      "ts": 1790689971000,
-      "publishedAt": "2026-09-29T13:52:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Novo licensing a Chinese obesity pill, Merck pulling an antibiotic, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/?utm_campaign=rss",
-      "summary": "Novo has agreed to pay up to $2.6 billion to license an experimental, weekly weight loss pill from China’s Hengrui Pharma",
-      "ts": 1790688306000,
-      "publishedAt": "2026-09-29T13:25:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: climate tech companies to watch and AI’s discovery problem",
-      "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet near…",
-      "ts": 1790683800000,
-      "publishedAt": "2026-09-29T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Researchers slow neurodegeneration in mice by barring T cells from the brain",
-      "url": "https://www.statnews.com/2026/09/29/health-news-researchers-slow-neurodegeneration-in-mice-t-cells/?utm_campaign=rss",
-      "summary": "A new study in mice led by Washington University in St. Louis researchers suggests that stopping certain immune cells from entering the brain could limit neurodegeneration.",
-      "ts": 1790683361000,
-      "publishedAt": "2026-09-29T12:02:41.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
