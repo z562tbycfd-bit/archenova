@@ -1,7 +1,115 @@
 {
   "ok": true,
-  "updated": "2026-10-01T16:06:29.353Z",
+  "updated": "2026-10-01T21:38:18.529Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare Advantage plans shift more costs onto seniors in 2027",
+      "url": "https://www.statnews.com/2026/10/01/medicare-advantage-plans-have-higher-deductibles-fewer-benefits-in-2027/?utm_campaign=rss",
+      "summary": "Premiums are stable, but Medicare Advantage plans are making big changes that could make care more expensive for patients.",
+      "ts": 1790889241000,
+      "publishedAt": "2026-10-01T21:14:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+      "summary": "NASA selected 16 companies to provide Enterprise Logistics Support Services under new agreements that will standardize requirements, improve reporting, and streamline the management of costs and resources. The $1.4 billi…",
+      "ts": 1790886867000,
+      "publishedAt": "2026-10-01T20:34:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Mitochondrial Transporter Connects Body Clock and Diet to Fat Burning",
+      "url": "https://www.genengnews.com/topics/translational-medicine/mitochondrial-transporter-connects-body-clock-and-diet-to-fat-burning/",
+      "summary": "Researchers found that SLC25A34, a little-studied protein in the mitochondria of fat cells, acts as a switch that connects the body clock, temperature, and diet to how fat cells store and spend energy. The post Mitochond…",
+      "ts": 1790884527000,
+      "publishedAt": "2026-10-01T19:55:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Talus Bio’s Structure-Free AI Model Targets Unstructured Proteins in Their Native Cellular Context",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/talus-bios-structure-free-ai-model-targets-unstructured-proteins-in-their-native-cellular-context/",
+      "summary": "Intrinsically disordered proteins have resisted structure-based drug discovery because they lack a stable fold to model. Talus Bio's structure-free AI model sidesteps that limitation, targeting these proteins in their na…",
+      "ts": 1790880330000,
+      "publishedAt": "2026-10-01T18:45:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SpaceX Crew-13 Launches",
+      "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
+      "summary": "In this Oct. 1, 2026, photo, a SpaceX Falcon 9 rocket and Dragon spacecraft launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The spacecraft is carrying NASA astronauts Jessica Watkins…",
+      "ts": 1790877938000,
+      "publishedAt": "2026-10-01T18:05:38.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Top journal’s special issue on women’s health casts spotlight on menopause and pain",
+      "url": "https://www.statnews.com/2026/10/01/womens-health-issues-academic-journal-science-special-edition/?utm_campaign=rss",
+      "summary": "\"Highlighting a ton of open questions\": Top journal's special issue on women's health examines the latest discoveries on chronic pain and menopause.",
+      "ts": 1790877600000,
+      "publishedAt": "2026-10-01T18:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "ts": 1790874000000,
+      "publishedAt": "2026-10-01T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "What’s Up: October 2026 Skywatching Tips from NASA",
+      "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+      "summary": "A Meteor Shower and the Moon Near the Pleiades See Saturn at opposition, catch the Orionid meteor shower, and watch the Moon pass close to the Pleiades, also known as the Seven Sisters. Skywatching Highlights Transcript …",
+      "ts": 1790873890000,
+      "publishedAt": "2026-10-01T16:58:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Mistrust in science and a juicy gene-editing lawsuit",
+      "url": "https://www.statnews.com/2026/10/01/readout-loud-podcast-trust-in-science-gene-editing-lawsuit/?utm_campaign=rss",
+      "summary": "Why have so many Americans lost trust in science? And what's the deal with a new gene-editing lawsuit? Find out on this week's episode of \"The Readout LOUD\" podcast.",
+      "ts": 1790872271000,
+      "publishedAt": "2026-10-01T16:31:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "As CDC redesigns annual health survey, it removes questions about disabilities",
+      "url": "https://www.statnews.com/2026/10/01/cdc-health-survey-redesign-removes-questions-about-disabilities/?utm_campaign=rss",
+      "summary": "Proposed changes to the federal government’s health survey would undercount Americans with disabilities, advocates say.",
+      "ts": 1790871316000,
+      "publishedAt": "2026-10-01T16:15:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "ts": 1790870400000,
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
+      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+      "summary": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space…",
+      "ts": 1790870364000,
+      "publishedAt": "2026-10-01T15:59:24.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: A journey to witness China’s biotech boom up close",
@@ -10,6 +118,24 @@
       "ts": 1790868133000,
       "publishedAt": "2026-10-01T15:22:13.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "World Space Week 2026 Celebrates the “Rocket Revolution” ",
+      "url": "https://spacenews.com/world-space-week-2026-celebrates-the-rocket-revolution/",
+      "summary": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidly-growing space economy and enabled new uses […] The post Wo…",
+      "ts": 1790867203000,
+      "publishedAt": "2026-10-01T15:06:43.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rethinking risk with electronics for space",
+      "url": "https://spacenews.com/rethinking-risk-with-electronics-for-space/",
+      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Ken Stoler, the space business development lead for Arrow. They discuss how spacecraft designers and operators have changed their attitudes toward risk, […] The post Ret…",
+      "ts": 1790866294000,
+      "publishedAt": "2026-10-01T14:51:34.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -21,6 +147,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "SpaceNews",
+      "title": "LMT Group and Novaspace partner to develop strategy for 5G/6G satellite communications hub in Latvia",
+      "url": "https://spacenews.com/lmt-group-and-novaspace-partner-to-develop-strategy-for-5g-6g-satellite-communications-hub-in-latvia/",
+      "summary": "Noordwijk, the Netherlands | September 22, 2026 – During the international Industry Space Days 2026 event at the European Space Agency’s ESTEC facility in Noordwijk, the Netherlands, the Latvian Mobile Telephone […] The …",
+      "ts": 1790865651000,
+      "publishedAt": "2026-10-01T14:40:51.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: A major insurer on how it may replicate Medicare’s chronic-care experiment",
       "url": "https://www.statnews.com/2026/10/01/major-insurer-on-medicare-access-model-health-tech/?utm_campaign=rss",
@@ -28,6 +163,15 @@
       "ts": 1790863371000,
       "publishedAt": "2026-10-01T14:02:51.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Provides Crash Course on Planet-Shattering Collisions",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+      "summary": "In the early history of our solar system, scientists theorize that a Mars-sized object called Theia smashed into the infant Earth, vaporizing massive amounts of rock and blasting it into space. Some of that material coal…",
+      "ts": 1790863200000,
+      "publishedAt": "2026-10-01T14:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -57,6 +201,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "SpaceNews",
+      "title": "China launches Guowang, Yaogan-40 satellites, sets up busy Q4 manifest",
+      "url": "https://spacenews.com/china-launches-guowang-yaogan-40-satellites-sets-up-busy-q4-manifest/",
+      "summary": "HELSINKI — China completed its ninth and tenth launches of September, sending Guowang and Yaogan satellites into orbit, ahead of an intense finish to the year. A Long March 8A […] The post China launches Guowang, Yaogan-…",
+      "ts": 1790858792000,
+      "publishedAt": "2026-10-01T12:46:32.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "ESA",
       "title": "What happened this month at the European Space Agency? (September 2026)",
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
@@ -73,6 +226,60 @@
       "ts": 1790856600000,
       "publishedAt": "2026-10-01T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN Member States weigh latest Security Council veto, this time on Iran",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168505",
+      "summary": "The General Assembly met on Thursday to examine the Security Council’s latest veto, cast by China and Russia over a United States-backed sanctions panel of experts on Iran nuclear facilities.",
+      "ts": 1790856000000,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "No more execution attempts on Christa Pike: UN rights chief",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168504",
+      "summary": "The UN human rights chief and nine independent rights experts on Thursday called on authorities in Tennessee not to pursue any further attempts to execute Christa Pike, saying her case highlights multiple concerns surrou…",
+      "ts": 1790856000000,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Marshall Islands nuclear legacy, FlyDubai attack condemned, Ukraine update, breast cancer treatment expanded in West Bank",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168503",
+      "summary": "The enduring radioactive legacy of US nuclear bomb testing in the Marshall Islands took centre stage at the Human Rights Council on Thursday.",
+      "ts": 1790856000000,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Women are not victims’: Türk calls for women to be at the heart of peace and security",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168502",
+      "summary": "Women must be at the centre of efforts to prevent conflict and build lasting peace, UN High Commissioner for Human Rights Volker Türk said on Thursday.",
+      "ts": 1790856000000,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nepal floods threaten jobs and livelihoods beyond disaster zone: ILO",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168500",
+      "summary": "The deadly flash floods in northern Nepal have severely disrupted employment and livelihoods, with wider impacts beyond communities that were directly affected, the International Labour Organization (ILO) said in a preli…",
+      "ts": 1790856000000,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola response faces setback as transit centre burns down in DR Congo camp",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168499",
+      "summary": "The enormous challenge of halting the spread of Ebola in the Democratic Republic of the Congo (DRC) just became even harder after a key transit centre for patients requiring treatment burned down in Ituri province.",
+      "ts": 1790856000000,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -181,6 +388,24 @@
       "ts": 1790835387000,
       "publishedAt": "2026-10-01T06:16:27.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 1 – Harvest Moon with Erupting Mount Etna",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+      "summary": "APOD Science APOD APOD: 2026 October 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
+      "ts": 1790827500000,
+      "publishedAt": "2026-10-01T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "An Agricultural “Island” in the Saskatchewan River Delta",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta/",
+      "summary": "Surrounded by wetlands, Manitoba’s northernmost farmland near The Pas turns from green to brown over the 2026 growing season.",
+      "ts": 1790827200000,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -570,246 +795,21 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "ts": 1790812800000,
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Cell",
       "title": "Glioma margins gain a third dimension before surgery ends",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01071-8?rss=yes",
       "summary": "In this issue of Cell, Liu et al. introduce ULTRA, which combines rapid tissue clearing, single-channel stimulated Raman scattering, and AI to generate cell-resolved three-dimensional virtual histology of intact glioma s…",
       "ts": 1790812800000,
       "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "Taking the heat: Breaking the temperature limits of eukaryotic life",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01075-5?rss=yes",
-      "summary": "What’s the highest temperature at which complex life can grow? It’s an old question. Here, Rappaport and colleagues describe a thermophilic amoeba that breaks the previous record, which was set at ∼60°C, and suggest the …",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "Mitochondria before we knew them",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01072-X?rss=yes",
-      "summary": "In this issue of Cell, Chen et al. chart mitochondrial proteome diversity across eukaryotes, revealing an unexpectedly complex ancestral proteome alongside extensive lineage-specific innovation. Their broad phylogenetic …",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "Decoding mitochondrial proteomes of diverse eukaryotes",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01076-7?rss=yes",
-      "summary": "Our textbook view of mitochondria, which has been shaped by studies in animals and yeast, fails to do justice to the organelle’s broader eukaryotic diversity. While most mitochondria retain a tiny genome, the overwhelmin…",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "Mitochondrial proteome of Acanthamoeba delineates aerobic and anaerobic pathways dynamically regulated by oxygen",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01067-6?rss=yes",
-      "summary": "The complete mitochondrial proteome of Acanthamoeba castellanii—an infectious amoeba that causes blindness—catalogs 1,122 proteins, with over a third having no human or yeast counterpart, including potential drug candida…",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "A high-confidence plant mitochondrial proteome via protein correlation profiling",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01000-7?rss=yes",
-      "summary": "A high-confidence mitochondrial proteome inventory of Arabidopsis thaliana (AtMitoCarta) is defined using serial enrichment of mitochondria, mass spectrometry, and protein correlation profiling.",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "Comparative analysis of mitochondrial proteomes across the tree of life",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01002-0?rss=yes",
-      "summary": "Comparative analysis of experimentally defined and computationally predicted mitoproteomes prioritizes candidate targets for protozoan diseases and predicts an ancestral mitochondrion with aerobic and anaerobic capacitie…",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "Acanthamoeba ATP synthase structure reveals the TCA cycle is tethered to OXPHOS",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01068-8?rss=yes",
-      "summary": "Acanthamoeba castellanii, a pathogenic amoeba, belongs to an evolutionary branch distinctly removed from humans and fungi. Cryo-EM of the organism’s ATP synthase enzyme using raw mitochondrial lysates reveals an unexpect…",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 5016–5021: Fantastic Minerals and How To Detect Them",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them/",
-      "summary": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, Sept. 18, 2026 Curiosity surprised us at the beginning of the week with a change in rock texture — instead of the …",
-      "ts": 1790811467000,
-      "publishedAt": "2026-09-30T23:37:47.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump’s watered-down Medicare drug pricing rule saves 96% less than initial proposal",
-      "url": "https://www.statnews.com/2026/09/30/trump-final-globe-rule-will-save-medicare-much-less-money-on-drugs/?utm_campaign=rss",
-      "summary": "WASHINGTON — The Trump administration published a final rule aimed at lowering Medicare prices for drugs administered in doctor offices. It applies to only four companies. The Global Benchmark for…",
-      "ts": 1790810109000,
-      "publishedAt": "2026-09-30T23:15:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: UnitedHealth investor lawsuit moves forward on allegations it ‘manufactured earnings’ to hide declining profits ",
-      "url": "https://www.statnews.com/2026/09/30/unitedhealth-investor-lawsuit-moves-forward-allegations-of-manufactured-earnings-to-hide-declining-profits/?utm_campaign=rss",
-      "summary": "An investor lawsuit against UnitedHealth Group will move forward after a federal judge declined the company’s motion to dismiss allegations.",
-      "ts": 1790808054000,
-      "publishedAt": "2026-09-30T22:40:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Help Overlap Zoo Reveal Cosmic Dust",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/help-overlap-zoo-reveal-cosmic-dust/",
-      "summary": "Galaxies, vast collections of billions of stars, gas, and dust held together by gravity, are scattered across the immensity of space. But every so often, a coincidence occurs: Two galaxies line up from our point of view …",
-      "ts": 1790803173000,
-      "publishedAt": "2026-09-30T21:19:33.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Adds New Science Investigations for Moon Base",
-      "url": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
-      "summary": "Editor’s note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload. NASA selected three new scientific investigations and their payload suites to advance our knowledge of the Moon and hel…",
-      "ts": 1790802683000,
-      "publishedAt": "2026-09-30T21:11:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Contract to Develop 5G Communications for Moon",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-contract-to-develop-5g-communications-for-moon/",
-      "summary": "NASA has awarded Modulate Space Corporation a contract to develop key elements of a 5G communications system for use on the lunar surface with built-in Wi-Fi 6, for NASA’s Glenn Research Center in Cleveland. This acceler…",
-      "ts": 1790800886000,
-      "publishedAt": "2026-09-30T20:41:26.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: HHS announces new efforts to speed up, expand clinical trials with AI",
-      "url": "https://www.statnews.com/2026/09/30/hhs-arpa-h-clinical-trials-artificial-intelligence-surpass-program/?utm_campaign=rss",
-      "summary": "Federal health officials want to speed up clinical research to compete with countries like China.",
-      "ts": 1790798955000,
-      "publishedAt": "2026-09-30T20:09:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Autism Target Discovered in Endothelial Cells in Genetic Deletion Mouse Model",
-      "url": "https://www.genengnews.com/topics/translational-medicine/autism-target-discovered-in-endothelial-cells-in-genetic-deletion-mouse-model/",
-      "summary": "Researchers reversed certain behavioral symptoms in a 16p11.2 deletion mouse model of autism spectrum disorder by activating the P2Y2 receptor in endothelial cells of brain blood vessels, which increased blood flow in th…",
-      "ts": 1790798302000,
-      "publishedAt": "2026-09-30T19:58:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Designing Peptide Screens to Generate Knowledge, Not Just Hits",
-      "url": "https://www.genengnews.com/topics/drug-discovery/designing-peptide-screens-to-generate-knowledge-not-just-hits/",
-      "summary": "The strongest binder from a primary screen is not necessarily the best drug starting point. Peptide discovery campaigns should capture molecular architecture, biological context, time, and developability from the outset.…",
-      "ts": 1790797989000,
-      "publishedAt": "2026-09-30T19:53:09.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "MRSA Exploits Kidney’s Inner Environment to Persist and Spread",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/mrsa-exploits-kidneys-inner-environment-to-persist-and-spread/",
-      "summary": "New research reveals how MRSA exploits the kidney’s hyperosmotic inner medulla to evade immune defenses, establish a persistent reservoir, and spread, while suggesting potential therapeutic strategies to limit infection.…",
-      "ts": 1790794913000,
-      "publishedAt": "2026-09-30T19:01:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genome-Wide Analysis Identifies BACH2 as Potential Fetal Hemoglobin Activation Target",
-      "url": "https://www.genengnews.com/topics/omics/genome-wide-analysis-identifies-bach2-as-potential-fetal-hemoglobin-activation-target/",
-      "summary": "This pathway, which the authors dub the “BACH2-NRF2 axis,” is independent of the well-known BCL11A transcription regulator, the target of the approved cell therapy Casgevy for sickle cell disease (SCD). The post Genome-W…",
-      "ts": 1790794125000,
-      "publishedAt": "2026-09-30T18:48:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA, International Partners Advance Work on Space Crops",
-      "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasa-international-partners-advance-work-on-space-crops/",
-      "summary": "NASA, CSA (Canadian Space Agency), and the German Aerospace Center signed a joint statement of intent to begin coordinated, preparatory work toward an Earth-based demonstrator to learn how to grow crops on the Moon.",
-      "ts": 1790793500000,
-      "publishedAt": "2026-09-30T18:38:20.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Star Trails",
-      "url": "https://www.nasa.gov/image-article/star-trails/",
-      "summary": "This long-duration image shows star trails above Earth and the blue lights of fishing boats and the yellow lights of Indonesian cities stretching below the International Space Station as it orbited 258 miles above the Ba…",
-      "ts": 1790790650000,
-      "publishedAt": "2026-09-30T17:50:50.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
-      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
-      "summary": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA …",
-      "ts": 1790787621000,
-      "publishedAt": "2026-09-30T17:00:21.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Advancing Brain Organoids from Research Models to Scalable Platforms",
-      "url": "https://www.genengnews.com/multimedia/webinars/advancing-brain-organoids-from-research-models-to-scalable-platforms/",
-      "summary": "In this GEN webinar, our expert panelists will discuss some of the scientific and practical barriers that are facing brain organoid research and strategies for improving organoid-to-organoid and experiment-to-experiment …",
-      "ts": 1790784336000,
-      "publishedAt": "2026-09-30T16:05:36.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "U.S. poised to boot legal immigrants from Medicaid, including refugees and sex-trafficking victims",
-      "url": "https://www.statnews.com/2026/09/30/legal-immigrants-risk-losing-medicaid-coverage-trump/?utm_campaign=rss",
-      "summary": "Hundreds of thousands of immigrants with legal status, including refugees and sex-trafficking victims, are at risk of losing government health coverage starting Oct. 1.",
-      "ts": 1790783406000,
-      "publishedAt": "2026-09-30T15:50:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-      "summary": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment.…",
-      "ts": 1790780400000,
-      "publishedAt": "2026-09-30T15:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NaviGate successfully demonstrates onboard precise orbit determination aboard D-Orbit’s ION Satellite Carrier",
-      "url": "https://spacenews.com/navigate-successfully-demonstrates-onboard-precise-orbit-determination-aboard-d-orbits-ion-satellite-carrier/",
-      "summary": "ROME, 30/09/2026 – NaviGate, an Italian space technology company spun out of Sapienza University of Rome, has successfully completed the in-orbit demonstration (IoD) of NaviCode Caravel, its autonomous onboard precise [……",
-      "ts": 1790780400000,
-      "publishedAt": "2026-09-30T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What health tech leaders are talking about in Washington policy circles",
-      "url": "https://www.statnews.com/2026/09/30/health-tech-policy-conversations-washington-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of AI Prognosis: Dispatches from Health Datapalooza and MAHA Institute Open Data Summit, and other health AI news.",
-      "ts": 1790779075000,
-      "publishedAt": "2026-09-30T14:37:55.000Z",
       "categoryId": "bio"
     }
   ],
