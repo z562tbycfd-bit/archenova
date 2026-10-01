@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-09-30T22:50:57.560Z",
+  "updated": "2026-10-01T01:51:14.239Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Celebrity Traitors: Research suggests that some contestants will find the game tougher than it looks",
+      "url": "https://phys.org/news/2026-09-celebrity-traitors-contestants-game-tougher.html",
+      "summary": "\"The Traitors\" has become essential viewing for millions of fans. The TV game show, in which a group of \"faithfuls\" try to identify a smaller number of hidden traitors, is all about truth and lies.",
+      "ts": 1790814001000,
+      "publishedAt": "2026-10-01T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fine-tuning cobalt for cleaner chemical transformations",
+      "url": "https://phys.org/news/2026-09-fine-tuning-cobalt-cleaner-chemical.html",
+      "summary": "Finding alternatives to precious metals in chemical manufacturing may be less like sourcing a substitute and more like tuning an instrument already in hand.",
+      "ts": 1790811601000,
+      "publishedAt": "2026-09-30T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacteria can make plant-based foods healthier for humans and animals",
+      "url": "https://phys.org/news/2026-09-bacteria-based-foods-healthier-humans.html",
+      "summary": "New research from the DTU National Food Institute and Aarhus University shows that microorganisms can be used to specifically alter the amino acid composition of plant-based foods, making them more nutritious and therefo…",
+      "ts": 1790810407000,
+      "publishedAt": "2026-09-30T23:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some Ukrainian refugees struggle to rebuild their careers after arriving in Canada",
+      "url": "https://phys.org/news/2026-09-ukrainian-refugees-struggle-rebuild-careers.html",
+      "summary": "The Russian invasion of Ukraine continues into 2026, with millions of Ukrainians displaced around the world. Many arrived in host countries with professional experience, degrees and specialized skills. Yet displacement o…",
+      "ts": 1790810401000,
+      "publishedAt": "2026-09-30T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists develop 'floating scarecrow' to protect threatened seabirds",
+      "url": "https://phys.org/news/2026-09-scientists-scarecrow-threatened-seabirds.html",
+      "summary": "New research has shown that a \"floating scarecrow\" developed by U.K.-based scientists and a repurposed bird-scaring kite can help save threatened seabirds from getting caught in fishing nets.",
+      "ts": 1790809802000,
+      "publishedAt": "2026-09-30T23:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Community-led archaeology project uncovers a major monastery of medieval Scotland",
+      "url": "https://phys.org/news/2026-09-community-archaeology-uncovers-major-monastery.html",
+      "summary": "Community-led archaeology has uncovered the remains of an early medieval monastery in Argyll, western Scotland, identifying it as the high-ranking ecclesiastical center of Lios Mòr, previously known only from historical …",
+      "ts": 1790809206000,
+      "publishedAt": "2026-09-30T23:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Devastating year for Switzerland's glaciers after extreme heat and low snow",
+      "url": "https://phys.org/news/2026-09-devastating-year-switzerland-glaciers-extreme.html",
+      "summary": "Switzerland's glaciers lost more than 5% of their ice volume in 2026. Although melt rates did not quite reach the record levels of 2022, glacier thickness decreased by an average of 2.5 to 4 meters (8 to 13 feet) this ye…",
+      "ts": 1790809201000,
+      "publishedAt": "2026-09-30T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Confronting demons: How acoustic and AI technology brought ancient Etruscan tombs back to life",
@@ -745,62 +801,6 @@
       "summary": "Author(s): Alexander Mikhalychev and Alex Ulyanenkov We propose a method of spatial resolution enhancement in metrology (thermometry, magnetometry, pH estimation, and similar methods) using blinking fluorescent nanosenso…",
       "ts": 1790762400000,
       "publishedAt": "2026-09-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Obstacles to continuous quantum error correction via parity measurements",
-      "url": "http://link.aps.org/doi/10.1103/8bkm-b48b",
-      "summary": "Author(s): Anton Halaski and Christiane P. Koch Time-continuous quantum error correction, necessary to protect quantum information under time-dependent Hamiltonians, relies on weak continuous syndrome measurements. Imple…",
-      "ts": 1790762400000,
-      "publishedAt": "2026-09-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Hot-carrier distribution spectroscopy by transconductance in two-dimensional field-effect transistors",
-      "url": "http://link.aps.org/doi/10.1103/fm13-kghl",
-      "summary": "Author(s): Katsunori Wakabayashi The transconductance ${g}_{m}=d{I}_{D}/d{V}_{G}$ of a field-effect transistor (FET) is conventionally read as a proxy for carrier density. We show that it is instead a spectroscopic probe…",
-      "ts": 1790762400000,
-      "publishedAt": "2026-09-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Damping dynamics of the centroid oscillation of a relativistic laser pulse in a plasma channel",
-      "url": "http://link.aps.org/doi/10.1103/79h1-q62n",
-      "summary": "Author(s): Yuhui Xia, Zhenan Wang, Ziyao Tang, Jianghao Hu, Xinyang Liu, Letian Liu, Laifu Man, Zhuo Pan, Di Wu, Jacob R. Pierce, Xueqing Yan, Chen Lin, and Xinlu Xu The centroid oscillation of an offset laser pulse prop…",
-      "ts": 1790762400000,
-      "publishedAt": "2026-09-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "<i>In situ</i> differentiable complex-field calibration for high-fidelity Hamiltonian evaluation in spatial photonic Ising machines",
-      "url": "http://link.aps.org/doi/10.1103/dgf5-pcc1",
-      "summary": "Author(s): Haijun Zhou, Maolin Wang, Qin Luo, Hengyang Li, Yu Xiao, Xiahui Tang, Yingxiong Qin, Lin Wu, and Gang Xu Spatial photonic Ising machines (SPIMs) exploit free-space Fourier propagation to perform parallel optic…",
-      "ts": 1790762400000,
-      "publishedAt": "2026-09-30T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "One-third of world population exposed to harmful air pollution: Monitor",
-      "url": "https://phys.org/news/2026-09-world-population-exposed-air-pollution.html",
-      "summary": "Heat waves and wildfires combined with human-caused emissions this year to expose one-third of the world's population to extremely high levels of ozone pollution, a European Union report said Wednesday.",
-      "ts": 1790756401000,
-      "publishedAt": "2026-09-30T08:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Paw-fect candidate: Australia finds new koala rescue dog",
-      "url": "https://phys.org/news/2026-09-paw-fect-candidate-australia-koala.html",
-      "summary": "The hunt is over: After trawling through dozens of applications, an Australian animal welfare group has found a successor to a hero hound credited with saving more than 100 koalas from fires.",
-      "ts": 1790748746000,
-      "publishedAt": "2026-09-30T06:12:26.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Insects are essential to vertebrate life—as food, shelter and medicine",
-      "url": "https://phys.org/news/2026-09-insects-essential-vertebrate-life-food.html",
-      "summary": "While insects provide an essential food source for many vertebrate species, they're more than just a protein-laden snack. Chimpanzees use them to sterilize wounds, and herons use them as fishing bait. Sloths rely on moth…",
-      "ts": 1790741401000,
-      "publishedAt": "2026-09-30T04:10:01.000Z"
     }
   ],
   "sources": [
