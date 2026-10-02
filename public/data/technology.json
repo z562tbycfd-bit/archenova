@@ -1,7 +1,124 @@
 {
   "ok": true,
-  "updated": "2026-10-02T15:30:10.827Z",
+  "updated": "2026-10-02T20:27:07.658Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "NIH rolling out streamlined website to help public find information more easily",
+      "url": "https://www.statnews.com/2026/10/02/nih-launching-streamlined-website-to-help-public-find-information/?utm_campaign=rss",
+      "summary": "The redesign is intended to streamline what was a sprawling and fractured information ecosystem, requiring users to understand NIH's organizational structure",
+      "ts": 1790971147000,
+      "publishedAt": "2026-10-02T19:59:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Christina Koch to Join NFL Fans in Philadelphia",
+      "url": "https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/",
+      "summary": "As part of NASA’s ongoing Inspiration Tour, NASA astronaut Christina Koch will highlight America’s strengths in space exploration and aeronautics innovation at the Philadelphia Eagles vs. Los Angeles Rams game in Philade…",
+      "ts": 1790970894000,
+      "publishedAt": "2026-10-02T19:54:54.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission",
+      "url": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+      "summary": "NASA’s SpaceX Crew-12 mission is ending, with the crew scheduled to return in early October. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut An…",
+      "ts": 1790969400000,
+      "publishedAt": "2026-10-02T19:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Neurons Involved in Generating Anxiety After Cannabinoid Drug Exposure Identified in Mice",
+      "url": "https://www.genengnews.com/topics/translational-medicine/neurons-involved-in-generating-anxiety-after-cannabinoid-drug-exposure-identified-in-mice/",
+      "summary": "Working with mice, scientists have for the first time identified a set of neurons in the brain that play a role in generating anxiety after exposure to cannabinoid drugs, especially under stressful conditions. The post N…",
+      "ts": 1790969194000,
+      "publishedAt": "2026-10-02T19:26:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s DAVINCI Probe Can Stand the Heat",
+      "url": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/",
+      "summary": "The engineering development unit for NASA’s DAVINCI (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging) probe is photographed prior to a major thermal evaluation. The DAVINCI team put the yoga ba…",
+      "ts": 1790967636000,
+      "publishedAt": "2026-10-02T19:00:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "FDA to Highlight Aging, Longevity Medicine in Planned FARS Update",
+      "url": "https://www.genengnews.com/topics/translational-medicine/fda-to-highlight-aging-longevity-medicine-in-planned-fars-update/",
+      "summary": "FDA Chief Scientist Steven Kozlowski, MD, said the updated FARS would come out early in FY 2027 but offered no further specifics on timing. The post FDA to Highlight Aging, Longevity Medicine in Planned FARS Update appea…",
+      "ts": 1790966354000,
+      "publishedAt": "2026-10-02T18:39:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "La NASA abre solicitudes para próxima promoción de directores de vuelo",
+      "url": "https://www.nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo/",
+      "summary": "Lee esta nota de prensa en inglés aquí. La NASA busca líderes para uno de los puestos más prestigiosos de la Tierra en el ámbito de los vuelos espaciales tripulados: director de vuelo en el control de misión del Centro E…",
+      "ts": 1790958985000,
+      "publishedAt": "2026-10-02T16:36:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Campaign Explores Clouds Spawned by Wildfires",
+      "url": "https://science.nasa.gov/earth/natural-disasters/wildfires/nasa-campaign-explores-clouds-spawned-by-wildfires/",
+      "summary": "The Wildhorse grass fire in eastern Idaho erupted with a massive pulse of smoke. No one had expected it, but the wildfire had launched what’s known as a pyrocumulonimbus cloud, or pyroCb. It was an elusive weather phenom…",
+      "ts": 1790958897000,
+      "publishedAt": "2026-10-02T16:34:57.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "ts": 1790957700000,
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+      "summary": "Groundbreaking tests at NASA’s Langley Research Center in Hampton, Virginia, are paving the way for new wind tunnel capabilities for designing the aircraft technologies of the future. In a first-of-its-kind test in NASA …",
+      "ts": 1790957455000,
+      "publishedAt": "2026-10-02T16:10:55.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "What it’s like to wait for the call from the Nobel Prize committee",
+      "url": "https://www.statnews.com/2026/10/02/nobel-prize-2026-geneticist-mary-claire-king-long-waiting-not-getting-winner-call/?utm_campaign=rss",
+      "summary": "Ahead of this year's Nobel Prize announcements, STAT chatted with Mary-Claire King, who discovered the BRCA cancer mutations and is frequently mentioned in prize predictions.",
+      "ts": 1790957231000,
+      "publishedAt": "2026-10-02T16:07:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Opens Applications for Next Class of Flight Directors",
+      "url": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
+      "summary": "NASA is seeking leaders for one of the most esteemed positions on Earth for human spaceflight: flight director in mission control at the agency’s Johnson Space Center in Houston. This role is critical to advancing Americ…",
+      "ts": 1790956166000,
+      "publishedAt": "2026-10-02T15:49:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+      "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI in…",
+      "ts": 1790956144000,
+      "publishedAt": "2026-10-02T15:49:04.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Access to addiction meds for young people has improved — but retention hasn’t",
@@ -73,6 +190,42 @@
       "ts": 1790943000000,
       "publishedAt": "2026-10-02T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Global life expectancy bounces back to near pre-pandemic levels, WHO says",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168515",
+      "summary": "People around the world are living longer again, with global life expectancy almost fully recovered from the disruption of the COVID-19 pandemic, the World Health Organization (WHO) said on Friday.",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine war ‘a human rights catastrophe’ that must end, says Türk",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168513",
+      "summary": "The war in Ukraine is a human rights catastrophe that is “growing and intensifying by the week” and threatening an even greater disaster across the region, UN High Commissioner for Human Rights Volker Türk said on Friday…",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Collective action needed to tackle global information crisis, UN-led dialogue hears",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168512",
+      "summary": "Governments, UN entities, civil society, media, academia and the private sector have called for stronger cooperation and practical action to respond to a rapidly changing global information landscape.",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Cycle of violence continues in Haiti, seafarer deaths off Somalia, food insecurity in the Middle East",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168511",
+      "summary": "Haitians remain in the grip of lethal gang violence as it continues to “adapt and expand”, the UN’s top rights official, Volker Türk, said on Friday.",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -208,6 +361,24 @@
       "ts": 1790920800000,
       "publishedAt": "2026-10-02T06:00:00.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+      "summary": "What does it take to image hundreds of nebulas? Today’s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore!",
+      "ts": 1790913900000,
+      "publishedAt": "2026-10-02T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Rains Swamp the Gandak River",
+      "url": "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/",
+      "summary": "After days of torrential rain, the river rose to record-breaking levels in parts of Nepal and India.",
+      "ts": 1790913660000,
+      "publishedAt": "2026-10-02T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -624,6 +795,15 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "ts": 1790899200000,
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NVIDIA",
       "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
@@ -631,186 +811,6 @@
       "ts": 1790898253000,
       "publishedAt": "2026-10-01T23:44:13.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare Advantage plans shift more costs onto seniors in 2027",
-      "url": "https://www.statnews.com/2026/10/01/medicare-advantage-plans-have-higher-deductibles-fewer-benefits-in-2027/?utm_campaign=rss",
-      "summary": "Premiums are stable, but Medicare Advantage plans are making big changes that could make care more expensive for patients.",
-      "ts": 1790889241000,
-      "publishedAt": "2026-10-01T21:14:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Enterprise Logistics Support Services Agreements",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
-      "summary": "NASA selected 16 companies to provide Enterprise Logistics Support Services under new agreements that will standardize requirements, improve reporting, and streamline the management of costs and resources. The $1.4 billi…",
-      "ts": 1790886867000,
-      "publishedAt": "2026-10-01T20:34:27.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Mitochondrial Transporter Connects Body Clock and Diet to Fat Burning",
-      "url": "https://www.genengnews.com/topics/translational-medicine/mitochondrial-transporter-connects-body-clock-and-diet-to-fat-burning/",
-      "summary": "Researchers found that SLC25A34, a little-studied protein in the mitochondria of fat cells, acts as a switch that connects the body clock, temperature, and diet to how fat cells store and spend energy. The post Mitochond…",
-      "ts": 1790884527000,
-      "publishedAt": "2026-10-01T19:55:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Talus Bio’s Structure-Free AI Model Targets Unstructured Proteins in Their Native Cellular Context",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/talus-bios-structure-free-ai-model-targets-unstructured-proteins-in-their-native-cellular-context/",
-      "summary": "Intrinsically disordered proteins have resisted structure-based drug discovery because they lack a stable fold to model. Talus Bio's structure-free AI model sidesteps that limitation, targeting these proteins in their na…",
-      "ts": 1790880330000,
-      "publishedAt": "2026-10-01T18:45:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SpaceX Crew-13 Launches",
-      "url": "https://www.nasa.gov/image-article/nasas-spacex-crew-13-launches/",
-      "summary": "In this Oct. 1, 2026, photo, a SpaceX Falcon 9 rocket and Dragon spacecraft launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The spacecraft is carrying NASA astronauts Jessica Watkins…",
-      "ts": 1790877938000,
-      "publishedAt": "2026-10-01T18:05:38.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Top journal’s special issue on women’s health casts spotlight on menopause and pain",
-      "url": "https://www.statnews.com/2026/10/01/womens-health-issues-academic-journal-science-special-edition/?utm_campaign=rss",
-      "summary": "\"Highlighting a ton of open questions\": Top journal's special issue on women's health examines the latest discoveries on chronic pain and menopause.",
-      "ts": 1790877600000,
-      "publishedAt": "2026-10-01T18:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "ts": 1790874000000,
-      "publishedAt": "2026-10-01T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "What’s Up: October 2026 Skywatching Tips from NASA",
-      "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
-      "summary": "A Meteor Shower and the Moon Near the Pleiades See Saturn at opposition, catch the Orionid meteor shower, and watch the Moon pass close to the Pleiades, also known as the Seven Sisters. Skywatching Highlights Transcript …",
-      "ts": 1790873890000,
-      "publishedAt": "2026-10-01T16:58:10.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Mistrust in science and a juicy gene-editing lawsuit",
-      "url": "https://www.statnews.com/2026/10/01/readout-loud-podcast-trust-in-science-gene-editing-lawsuit/?utm_campaign=rss",
-      "summary": "Why have so many Americans lost trust in science? And what's the deal with a new gene-editing lawsuit? Find out on this week's episode of \"The Readout LOUD\" podcast.",
-      "ts": 1790872271000,
-      "publishedAt": "2026-10-01T16:31:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "As CDC redesigns annual health survey, it removes questions about disabilities",
-      "url": "https://www.statnews.com/2026/10/01/cdc-health-survey-redesign-removes-questions-about-disabilities/?utm_campaign=rss",
-      "summary": "Proposed changes to the federal government’s health survey would undercount Americans with disabilities, advocates say.",
-      "ts": 1790871316000,
-      "publishedAt": "2026-10-01T16:15:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "ts": 1790870400000,
-      "publishedAt": "2026-10-01T16:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
-      "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
-      "summary": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space…",
-      "ts": 1790870364000,
-      "publishedAt": "2026-10-01T15:59:24.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A journey to witness China’s biotech boom up close",
-      "url": "https://www.statnews.com/2026/10/01/biotech-news-journey-to-witness-chinas-biotech-boom-up-close/?utm_campaign=rss",
-      "summary": "Chinese-designed drugs now account for roughly half the global pipeline. STAT's Jason Mast traveled to Shanghai to get an up-close look at the competition that's making American's nervous.",
-      "ts": 1790868133000,
-      "publishedAt": "2026-10-01T15:22:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "World Space Week 2026 Celebrates the “Rocket Revolution” ",
-      "url": "https://spacenews.com/world-space-week-2026-celebrates-the-rocket-revolution/",
-      "summary": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidly-growing space economy and enabled new uses […] The post Wo…",
-      "ts": 1790867203000,
-      "publishedAt": "2026-10-01T15:06:43.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Juice’s September 2026 Earth flyby: the movie",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Juice_s_September_2026_Earth_flyby_the_movie",
-      "summary": "Video: 00:00:48 On 28 September 2026, ESA’s Jupiter Icy Moons Explorer (Juice) successfully completed a gravity assist flyby of Earth. Flight controllers guided the spacecraft close to our home planet to increase its vel…",
-      "ts": 1790866800000,
-      "publishedAt": "2026-10-01T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rethinking risk with electronics for space",
-      "url": "https://spacenews.com/rethinking-risk-with-electronics-for-space/",
-      "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Ken Stoler, the space business development lead for Arrow. They discuss how spacecraft designers and operators have changed their attitudes toward risk, […] The post Ret…",
-      "ts": 1790866294000,
-      "publishedAt": "2026-10-01T14:51:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: MAHA goes corporate",
-      "url": "https://www.statnews.com/2026/10/01/maha-goes-corporate-trump-waters-down-medicare-drug-pricing-model/?utm_campaign=rss",
-      "summary": "Health care companies dominate the MAHA Summit, and a look at Trump's watered down effort to lower Medicare drug prices.",
-      "ts": 1790866021000,
-      "publishedAt": "2026-10-01T14:47:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "LMT Group and Novaspace partner to develop strategy for 5G/6G satellite communications hub in Latvia",
-      "url": "https://spacenews.com/lmt-group-and-novaspace-partner-to-develop-strategy-for-5g-6g-satellite-communications-hub-in-latvia/",
-      "summary": "Noordwijk, the Netherlands | September 22, 2026 – During the international Industry Space Days 2026 event at the European Space Agency’s ESTEC facility in Noordwijk, the Netherlands, the Latvian Mobile Telephone […] The …",
-      "ts": 1790865651000,
-      "publishedAt": "2026-10-01T14:40:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA at the 77th International Astronautical Congress",
-      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_the_77th_International_Astronautical_Congress",
-      "summary": "The European Space Agency (ESA) will participate in the 77th International Astronautical Congress (IAC), which opens on Monday 5 October and runs until Friday 9 October in Antalya, Türkiye. More than 6 000 participants a…",
-      "ts": 1790864400000,
-      "publishedAt": "2026-10-01T14:20:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A major insurer on how it may replicate Medicare’s chronic-care experiment",
-      "url": "https://www.statnews.com/2026/10/01/major-insurer-on-medicare-access-model-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: A California insurer on how it may replicate Medicare's tech-enabled chronic-care experiment.",
-      "ts": 1790863371000,
-      "publishedAt": "2026-10-01T14:02:51.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
