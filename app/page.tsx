@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 import {
@@ -11,25 +12,25 @@ import {
 
 /* ==========================================================
    ARCHENOVA — CIVILIZATION GATE
-
-   Refined edition based on the existing design.
+   CIVILIZATION TWIN GALLERY
 
    PRESERVED
-   - Cinematic background video and poster fallback
+   - Cinematic background video
+   - Poster fallback
    - Ambient gravitational structure
-   - Three automatically rotating story chapters
-   - Manual chapter selection
-   - Translucent story panel
-   - Existing entrance and X destinations
-   - Existing visual language and animations
+   - Three rotating story chapters
+   - Manual story selection
+   - /home entrance
+   - X destination
+   - Reduced-motion support
 
-   REFINED
-   - Less text
-   - More balanced whitespace
-   - Less crowded mobile composition
-   - Responsive full-screen layout
-   - Natural scrolling only when the available height
-     cannot accommodate the content without clipping
+   EVOLVED
+   - Centered museum-like composition
+   - Civilization Twin artwork
+   - Founder's Digital Twin statement
+   - Unified transparent optical glass
+   - Transparent ENTER ARCHENOVA
+   - Desktop / tablet / mobile optimization
 ========================================================== */
 
 type CinematicState =
@@ -41,9 +42,9 @@ const STORY = [
   {
     number: "01",
     title: "ORIGIN",
-    subtitle: "Gravity & Quantum",
+    subtitle: "Reality & Understanding",
     description:
-      "Discover the principles that shape possibility.",
+      "Begin with reality. Understand the systems that shape civilization.",
   },
   {
     number: "02",
@@ -85,39 +86,45 @@ export default function GatePage() {
     setStoryPaused,
   ] = useState(false);
 
-  const failCinematic = useCallback(() => {
-    setCinematicState("failed");
-    videoRef.current?.pause();
-  }, []);
+  const failCinematic =
+    useCallback(() => {
+      setCinematicState("failed");
+      videoRef.current?.pause();
+    }, []);
 
   /* ========================================================
-     ACCESSIBILITY / REDUCED MOTION
+     REDUCED MOTION
   ======================================================== */
 
   useEffect(() => {
-    const media = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    );
+    const media =
+      window.matchMedia(
+        "(prefers-reduced-motion: reduce)",
+      );
 
     const update = () => {
-      setReducedMotion(media.matches);
+      setReducedMotion(
+        media.matches,
+      );
     };
 
     update();
 
-    media.addEventListener("change", update);
+    media.addEventListener(
+      "change",
+      update,
+    );
 
     return () => {
-      media.removeEventListener("change", update);
+      media.removeEventListener(
+        "change",
+        update,
+      );
     };
   }, []);
 
   /* ========================================================
-     VIDEO PLAYBACK / FALLBACK
-
-     The existing video remains the background.
-     The poster remains visible until playback begins,
-     or whenever video playback fails.
+     CINEMATIC BACKGROUND
   ======================================================== */
 
   useEffect(() => {
@@ -126,36 +133,46 @@ export default function GatePage() {
       return;
     }
 
-    if (cinematicState === "failed") {
+    if (
+      cinematicState ===
+      "failed"
+    ) {
       return;
     }
 
-    const video = videoRef.current;
+    const video =
+      videoRef.current;
 
     if (!video) {
       return;
     }
 
-    const timeout = window.setTimeout(() => {
-      setCinematicState((current) =>
-        current === "playing"
-          ? current
-          : "failed",
-      );
-    }, 6000);
+    const timeout =
+      window.setTimeout(() => {
+        setCinematicState(
+          (current) =>
+            current ===
+            "playing"
+              ? current
+              : "failed",
+        );
+      }, 6000);
 
-    const attemptPlayback = async () => {
-      try {
-        await video.play();
-      } catch {
-        failCinematic();
-      }
-    };
+    const attemptPlayback =
+      async () => {
+        try {
+          await video.play();
+        } catch {
+          failCinematic();
+        }
+      };
 
     void attemptPlayback();
 
     return () => {
-      window.clearTimeout(timeout);
+      window.clearTimeout(
+        timeout,
+      );
     };
   }, [
     cinematicState,
@@ -168,33 +185,45 @@ export default function GatePage() {
   ======================================================== */
 
   useEffect(() => {
-    if (reducedMotion || storyPaused) {
+    if (
+      reducedMotion ||
+      storyPaused
+    ) {
       return;
     }
 
-    const interval = window.setInterval(() => {
-      setActiveStory(
-        (current) => (current + 1) % STORY.length,
-      );
-    }, 5200);
+    const interval =
+      window.setInterval(() => {
+        setActiveStory(
+          (current) =>
+            (current + 1) %
+            STORY.length,
+        );
+      }, 5200);
 
     return () => {
-      window.clearInterval(interval);
+      window.clearInterval(
+        interval,
+      );
     };
-  }, [reducedMotion, storyPaused]);
+  }, [
+    reducedMotion,
+    storyPaused,
+  ]);
 
-  const selectStory = useCallback(
-    (index: number) => {
-      setActiveStory(index);
-      setStoryPaused(true);
-    },
-    [],
-  );
+  const selectStory =
+    useCallback(
+      (index: number) => {
+        setActiveStory(index);
+        setStoryPaused(true);
+      },
+      [],
+    );
 
   return (
     <main className="an-gate">
       {/* ====================================================
-          FULL-SCREEN CINEMATIC BACKGROUND
+          CINEMATIC BACKGROUND
       ==================================================== */}
 
       <div
@@ -204,12 +233,14 @@ export default function GatePage() {
         <div className="an-gate__poster" />
 
         {!reducedMotion &&
-          cinematicState !== "failed" && (
+          cinematicState !==
+            "failed" && (
             <video
               ref={videoRef}
               className={[
                 "an-gate__video",
-                cinematicState === "playing"
+                cinematicState ===
+                "playing"
                   ? "is-playing"
                   : "",
               ]
@@ -222,9 +253,13 @@ export default function GatePage() {
               preload="metadata"
               poster="/images/archenova-gate-poster.jpg"
               onPlaying={() => {
-                setCinematicState("playing");
+                setCinematicState(
+                  "playing",
+                );
               }}
-              onError={failCinematic}
+              onError={
+                failCinematic
+              }
             >
               <source
                 src="/videos/archenova-cosmos.mp4"
@@ -258,176 +293,330 @@ export default function GatePage() {
       </div>
 
       {/* ====================================================
-          MAIN VIEWPORT
+          CIVILIZATION GATE
       ==================================================== */}
 
       <section
         className="an-gate__viewport"
         aria-labelledby="an-gate-title"
       >
-        {/* HEADER */}
+        {/* ==================================================
+            HEADER
+        ================================================== */}
 
         <header className="an-gate__header">
-          <div className="an-gate__brand">
-            
-            <div className="an-gate__brand-copy">
+          <div className="an-gate__brand-copy">
+            <small>
+              FROM FIRST PRINCIPLES
+              TO CIVILIZATION
+            </small>
+          </div>
 
-              <small>
-                FROM FIRST PRINCIPLES TO CIVILIZATION
-              </small>
-            </div>
+          <div
+            className="an-gate__edition"
+            aria-label="ArcheNova Civilization Twin"
+          >
+            <span className="an-gate__edition-dot" />
+
+            <span>
+              CIVILIZATION TWIN
+            </span>
           </div>
         </header>
 
-        {/* CENTRAL STORY */}
+        {/* ==================================================
+            CENTRAL GALLERY
+        ================================================== */}
 
-        <div className="an-gate__main">
-          <div className="an-gate__intro">
-            <div className="an-gate__eyebrow">
-              <span />
+        <div className="an-gate__gallery">
+          {/* ================================================
+              IDENTITY / JOURNEY
+          ================================================ */}
 
-              <p>
-                FOUNDER-LED
-                <br className="an-gate__mobile-break" />
-                {" "}
-                CIVILIZATION DESIGN
-              </p>
-
-              <span />
-            </div>
-
-            <h1
-              id="an-gate-title"
-              className="an-gate__title"
-            >
-              Arche<span>Nova</span>
-            </h1>
-
-            <p className="an-gate__headline">
-              Where understanding becomes
-              <br />
-              enduring structure.
-            </p>
-
-            <p className="an-gate__introduction">
-              From fundamental science to
-              engineering, governance, and lasting value.
-            </p>
-          </div>
-
-          {/* LIVING CHAPTER */}
-
-          <div
-            className="an-gate__story"
-            aria-label="ArcheNova's conceptual journey"
-          >
-            <div className="an-gate__story-topline">
-              <span>THE ARCHENOVA JOURNEY</span>
-
-              <span>
-                {STORY[activeStory].number}
-                {" / "}
-                03
-              </span>
-            </div>
-
-            <div className="an-gate__story-body">
-              <div
-                key={activeStory}
-                className="an-gate__story-content"
-              >
-                <span className="an-gate__story-kicker">
-                  {STORY[activeStory].title}
-                </span>
-
-                <h2>
-                  {STORY[activeStory].subtitle}
-                </h2>
+          <div className="an-gate__main">
+            <div className="an-gate__intro">
+              <div className="an-gate__eyebrow">
+                <span />
 
                 <p>
-                  {STORY[activeStory].description}
+                  FOUNDER-LED
+                  <br className="an-gate__mobile-break" />
+                  {" "}
+                  CIVILIZATION DESIGN
                 </p>
+
+                <span />
+              </div>
+
+              <h1
+                id="an-gate-title"
+                className="an-gate__title"
+              >
+                Arche<span>Nova</span>
+              </h1>
+
+              <p className="an-gate__headline">
+                Designing the structures
+                <br />
+                through which civilization
+                endures.
+              </p>
+
+              <p className="an-gate__introduction">
+                From fundamental science
+                to engineering,
+                institutional design,
+                and lasting human value.
+              </p>
+            </div>
+
+            {/* ==============================================
+                JOURNEY
+            ============================================== */}
+
+            <div
+              className="an-gate__story an-optical-glass"
+              aria-label="ArcheNova's conceptual journey"
+            >
+              <div className="an-gate__story-topline">
+                <span>
+                  THE ARCHENOVA STORY
+                </span>
+
+                <span>
+                  {
+                    STORY[
+                      activeStory
+                    ].number
+                  }
+                  {" / "}
+                  03
+                </span>
+              </div>
+
+              <div className="an-gate__story-body">
+                <div
+                  key={
+                    activeStory
+                  }
+                  className="an-gate__story-content"
+                >
+                  <span className="an-gate__story-kicker">
+                    {
+                      STORY[
+                        activeStory
+                      ].title
+                    }
+                  </span>
+
+                  <h2>
+                    {
+                      STORY[
+                        activeStory
+                      ].subtitle
+                    }
+                  </h2>
+
+                  <p>
+                    {
+                      STORY[
+                        activeStory
+                      ].description
+                    }
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="an-gate__story-navigation"
+                aria-label="Choose a story chapter"
+              >
+                {STORY.map(
+                  (
+                    chapter,
+                    index,
+                  ) => (
+                    <button
+                      key={
+                        chapter.number
+                      }
+                      type="button"
+                      className={[
+                        "an-gate__story-step",
+                        activeStory ===
+                        index
+                          ? "is-active"
+                          : "",
+                      ]
+                        .filter(
+                          Boolean,
+                        )
+                        .join(" ")}
+                      onClick={() => {
+                        selectStory(
+                          index,
+                        );
+                      }}
+                      aria-label={`Show ${chapter.subtitle}`}
+                      aria-pressed={
+                        activeStory ===
+                        index
+                      }
+                    >
+                      <span className="an-gate__story-step-number">
+                        {
+                          chapter.number
+                        }
+                      </span>
+
+                      <span className="an-gate__story-step-track">
+                        <span />
+                      </span>
+                    </button>
+                  ),
+                )}
               </div>
             </div>
 
-            <div
-              className="an-gate__story-navigation"
-              aria-label="Choose a story chapter"
-            >
-              {STORY.map((chapter, index) => (
-                <button
-                  key={chapter.number}
-                  type="button"
-                  className={[
-                    "an-gate__story-step",
-                    activeStory === index
-                      ? "is-active"
-                      : "",
-                  ]
-                    .filter(Boolean)
-                    .join(" ")}
-                  onClick={() => {
-                    selectStory(index);
-                  }}
-                  aria-label={`Show ${chapter.subtitle}`}
-                  aria-pressed={activeStory === index}
-                >
-                  <span className="an-gate__story-step-number">
-                    {chapter.number}
-                  </span>
+            {/* ==============================================
+                ACTIONS
+            ============================================== */}
 
-                  <span className="an-gate__story-step-track">
-                    <span />
-                  </span>
-                </button>
-              ))}
+            <div className="an-gate__actions">
+              <Link
+                href="/home"
+                className="an-gate__enter an-optical-glass"
+              >
+                <span>
+                  ARCHENOVA SPACE
+                </span>
+
+                <span
+                  className="an-gate__enter-arrow"
+                  aria-hidden="true"
+                >
+                  ↗
+                </span>
+              </Link>
+
+              <a
+                href="https://x.com/ArcheNova_X"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="an-gate__external an-optical-glass"
+              >
+                <span>
+                  EXPLORE ON X
+                </span>
+
+                <span
+                  aria-hidden="true"
+                >
+                  ↗
+                </span>
+              </a>
             </div>
           </div>
 
-          {/* ACTIONS */}
+          {/* ================================================
+              CIVILIZATION TWIN ART EXHIBITION
+          ================================================ */}
 
-          <div className="an-gate__actions">
-            <Link
-              href="/home"
-              className="an-gate__enter"
-            >
-              <span>ENTER ARCHENOVA</span>
+          <aside
+            className="an-gate__exhibition"
+            aria-label="ArcheNova Civilization Twin artwork"
+          >
+            <figure className="an-gate__artwork an-optical-glass">
+              <div className="an-gate__artwork-top">
+                <span>
+                  ARCHENOVA
+                  {" · "}
+                  CIVILIZATION
+                </span>
 
-              <span
-                className="an-gate__enter-arrow"
-                aria-hidden="true"
-              >
-                ↗
-              </span>
-            </Link>
+              </div>
 
-            <a
-              href="https://x.com/ArcheNova_X"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="an-gate__external"
-            >
-              <span>EXPLORE ON X</span>
+              <div className="an-gate__artwork-window">
+                <Image
+                  src="/images/IMG_2667.jpeg"
+                  alt="Conceptual artwork representing ArcheNova as an evolving digital twin for civilization design, connecting humanity, Earth, scientific systems, technological infrastructure, and possible civilizations."
+                  fill
+                  priority
+                  sizes="(max-width: 700px) 92vw, (max-width: 900px) 72vw, (max-width: 1180px) 42vw, 520px"
+                  className="an-gate__artwork-image"
+                />
 
-              <span aria-hidden="true">
-                ↗
-              </span>
-            </a>
-          </div>
+                <div
+                  className="an-gate__artwork-light"
+                  aria-hidden="true"
+                />
+
+                <div
+                  className="an-gate__artwork-edge"
+                  aria-hidden="true"
+                />
+              </div>
+
+              <figcaption className="an-gate__artwork-caption">
+                <div className="an-gate__artwork-index">
+                  <span>
+                    FOUNDER&apos;S
+                    DIGITAL TWIN
+                  </span>
+
+                  <span>
+                    CIVILIZATION DESIGN
+                  </span>
+                </div>
+
+                <h2>
+                  A living digital twin
+                  for civilization design.
+                </h2>
+
+                <p>
+                  ArcheNova is the
+                  founder&apos;s evolving
+                  digital twin—connecting
+                  scientific understanding,
+                  technological capability,
+                  and civilization systems
+                  toward responsible and
+                  enduring progress.
+                </p>
+
+                <div className="an-gate__artwork-principle">
+                  <span>
+                    SCIENCE
+                  </span>
+
+                  <i />
+
+                  <span>
+                    CAPABILITY
+                  </span>
+
+                  <i />
+
+                  <span>
+                    CIVILIZATION
+                  </span>
+                </div>
+              </figcaption>
+            </figure>
+          </aside>
         </div>
 
-        {/* FOOTER */}
+        {/* ==================================================
+            FOOTER
+        ================================================== */}
 
         <footer className="an-gate__footer">
-          <span>
-            PHYSICS
-            <i aria-hidden="true" />
-            ENGINEERING
-            <i aria-hidden="true" />
-            CIVILIZATION
+          <span className="an-gate__footer-right">
+            All rights reserved.
           </span>
 
-          <span className="an-gate__footer-right">
+          <span className="an-gate__footer-left">
             REALITY RETAINS VETO
           </span>
         </footer>
@@ -435,7 +624,7 @@ export default function GatePage() {
 
       <style jsx global>{`
         /* ==================================================
-           ROOT / FULL VIEWPORT
+           FOUNDATION
         ================================================== */
 
         .an-gate,
@@ -443,6 +632,12 @@ export default function GatePage() {
         .an-gate *::before,
         .an-gate *::after {
           box-sizing: border-box;
+        }
+
+        html,
+        body {
+          margin: 0;
+          padding: 0;
         }
 
         .an-gate {
@@ -467,11 +662,16 @@ export default function GatePage() {
           font-family:
             -apple-system,
             BlinkMacSystemFont,
+            "SF Pro Display",
+            "SF Pro Text",
             "Segoe UI",
             sans-serif;
 
-          -webkit-font-smoothing: antialiased;
-          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing:
+            antialiased;
+
+          text-rendering:
+            optimizeLegibility;
         }
 
         .an-gate a {
@@ -483,17 +683,139 @@ export default function GatePage() {
         }
 
         /* ==================================================
-           FULL-SCREEN CINEMA
+           OPTICAL GLASS
+
+           One transparent material language shared by:
+           - Journey
+           - Enter ArcheNova
+           - Explore on X
+           - Civilization artwork
+        ================================================== */
+
+        .an-optical-glass {
+          position: relative;
+          isolation: isolate;
+
+          background:
+            radial-gradient(
+              circle at 18% 0%,
+              rgba(
+                255,
+                255,
+                255,
+                .080
+              ),
+              transparent 38%
+            ),
+            linear-gradient(
+              145deg,
+              rgba(
+                255,
+                255,
+                255,
+                .065
+              ) 0%,
+              rgba(
+                255,
+                255,
+                255,
+                .025
+              ) 44%,
+              rgba(
+                255,
+                255,
+                255,
+                .009
+              ) 100%
+            );
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              .13
+            );
+
+          -webkit-backdrop-filter:
+            blur(28px)
+            saturate(112%);
+
+          backdrop-filter:
+            blur(28px)
+            saturate(112%);
+
+          box-shadow:
+            inset 0 1px 0
+              rgba(
+                255,
+                255,
+                255,
+                .11
+              ),
+            inset 0 -1px 0
+              rgba(
+                255,
+                255,
+                255,
+                .018
+              ),
+            0 28px 90px
+              rgba(
+                0,
+                0,
+                0,
+                .15
+              );
+        }
+
+        .an-optical-glass::before {
+          content: "";
+
+          position: absolute;
+          inset: 0;
+
+          z-index: -1;
+
+          border-radius: inherit;
+
+          pointer-events: none;
+
+          background:
+            linear-gradient(
+              115deg,
+              rgba(
+                255,
+                255,
+                255,
+                .060
+              ),
+              transparent 21%,
+              transparent 76%,
+              rgba(
+                255,
+                255,
+                255,
+                .018
+              )
+            );
+        }
+
+        /* ==================================================
+           CINEMATIC BACKGROUND
         ================================================== */
 
         .an-gate__cinema {
-          position: absolute;
+          position: fixed;
           inset: 0;
+
           z-index: -3;
 
           overflow: hidden;
 
           background: #020304;
+
           pointer-events: none;
         }
 
@@ -515,7 +837,7 @@ export default function GatePage() {
             center center / cover
             no-repeat;
 
-          opacity: 0.72;
+          opacity: .72;
         }
 
         .an-gate__video {
@@ -528,11 +850,16 @@ export default function GatePage() {
 
           transition:
             opacity 1.5s
-            cubic-bezier(.22, 1, .36, 1);
+            cubic-bezier(
+              .22,
+              1,
+              .36,
+              1
+            );
         }
 
         .an-gate__video.is-playing {
-          opacity: 0.74;
+          opacity: .69;
         }
 
         .an-gate__cinema-shade {
@@ -542,16 +869,16 @@ export default function GatePage() {
           background:
             linear-gradient(
               90deg,
-              rgba(0, 0, 0, .80),
-              rgba(0, 0, 0, .45) 48%,
-              rgba(0, 0, 0, .69)
+              rgba(0, 0, 0, .70),
+              rgba(0, 0, 0, .30) 50%,
+              rgba(0, 0, 0, .58)
             ),
             linear-gradient(
               180deg,
-              rgba(0, 0, 0, .45),
-              rgba(0, 0, 0, .06) 30%,
-              rgba(0, 0, 0, .15) 65%,
-              rgba(0, 0, 0, .82)
+              rgba(0, 0, 0, .42),
+              rgba(0, 0, 0, .08) 30%,
+              rgba(0, 0, 0, .18) 68%,
+              rgba(0, 0, 0, .80)
             );
         }
 
@@ -561,10 +888,10 @@ export default function GatePage() {
 
           background:
             radial-gradient(
-              ellipse at 50% 45%,
-              transparent 15%,
-              rgba(0, 0, 0, .28) 55%,
-              rgba(0, 0, 0, .75) 100%
+              ellipse at 50% 44%,
+              transparent 13%,
+              rgba(0, 0, 0, .20) 56%,
+              rgba(0, 0, 0, .72) 100%
             );
         }
 
@@ -572,39 +899,53 @@ export default function GatePage() {
           position: absolute;
           inset: 0;
 
-          opacity: .12;
+          opacity: .08;
 
           background-image:
             radial-gradient(
               circle,
-              rgba(255, 255, 255, .35) 0 .45px,
-              transparent .8px
+              rgba(
+                255,
+                255,
+                255,
+                .34
+              ) 0 .42px,
+              transparent .78px
             );
 
-          background-size: 67px 67px;
+          background-size:
+            71px 71px;
         }
 
         /* ==================================================
-           LIVING COSMOS — ORIGINAL VISUAL PRESERVED
+           AMBIENT COSMOS
         ================================================== */
 
         .an-gate__cosmos {
-          position: absolute;
+          position: fixed;
+
           z-index: -1;
 
           top: 50%;
-          right: -9%;
-
-          width: min(64vw, 850px);
-          aspect-ratio: 1;
-
-          transform: translateY(-50%);
+          left: 50%;
 
           display: grid;
           place-items: center;
 
+          width:
+            min(70vw, 920px);
+
+          aspect-ratio: 1;
+
+          transform:
+            translate(
+              -50%,
+              -50%
+            );
+
+          opacity: .23;
+
           pointer-events: none;
-          opacity: .42;
         }
 
         .an-gate__cosmos-halo {
@@ -616,8 +957,18 @@ export default function GatePage() {
           background:
             radial-gradient(
               circle,
-              rgba(214, 233, 246, .075),
-              rgba(165, 195, 216, .025) 35%,
+              rgba(
+                214,
+                233,
+                246,
+                .075
+              ),
+              rgba(
+                165,
+                195,
+                216,
+                .025
+              ) 35%,
               transparent 68%
             );
 
@@ -625,31 +976,41 @@ export default function GatePage() {
 
           animation:
             an-cosmos-breathe
-            12s ease-in-out infinite;
+            12s ease-in-out
+            infinite;
         }
 
         .an-gate__orbit {
           position: absolute;
 
-          border: 1px solid
-            rgba(233, 243, 250, .16);
+          border:
+            1px solid
+            rgba(
+              233,
+              243,
+              250,
+              .15
+            );
 
           border-radius: 50%;
         }
 
         .an-gate__orbit--one {
           width: 76%;
+
           aspect-ratio: 1;
 
           animation:
             an-orbit-rotate
-            85s linear infinite;
+            85s linear
+            infinite;
         }
 
         .an-gate__orbit--one::before {
           content: "";
 
           position: absolute;
+
           top: 0;
           left: 50%;
 
@@ -659,38 +1020,63 @@ export default function GatePage() {
           border-radius: 50%;
 
           background:
-            rgba(245, 250, 253, .85);
+            rgba(
+              245,
+              250,
+              253,
+              .85
+            );
 
           box-shadow:
-            0 0 18px rgba(239, 248, 253, .6);
+            0 0 18px
+            rgba(
+              239,
+              248,
+              253,
+              .6
+            );
         }
 
         .an-gate__orbit--two {
           width: 89%;
           height: 31%;
 
-          transform: rotate(-25deg);
+          transform:
+            rotate(-25deg);
 
           border-color:
-            rgba(233, 243, 250, .13);
+            rgba(
+              233,
+              243,
+              250,
+              .13
+            );
 
           animation:
             an-orbit-tilt
-            19s ease-in-out infinite;
+            19s ease-in-out
+            infinite;
         }
 
         .an-gate__orbit--three {
           width: 35%;
           height: 84%;
 
-          transform: rotate(31deg);
+          transform:
+            rotate(31deg);
 
           border-color:
-            rgba(233, 243, 250, .1);
+            rgba(
+              233,
+              243,
+              250,
+              .10
+            );
 
           animation:
             an-orbit-vertical
-            25s ease-in-out infinite;
+            25s ease-in-out
+            infinite;
         }
 
         .an-gate__cosmos-core {
@@ -698,68 +1084,129 @@ export default function GatePage() {
           place-items: center;
 
           width: 16%;
+
           aspect-ratio: 1;
 
-          border: 1px solid
-            rgba(242, 248, 252, .3);
+          border:
+            1px solid
+            rgba(
+              242,
+              248,
+              252,
+              .30
+            );
 
           border-radius: 50%;
 
           background:
             radial-gradient(
               circle,
-              rgba(235, 246, 252, .13),
-              rgba(5, 8, 12, .9) 38%,
+              rgba(
+                235,
+                246,
+                252,
+                .13
+              ),
+              rgba(
+                5,
+                8,
+                12,
+                .90
+              ) 38%,
               #000 75%
             );
 
           box-shadow:
-            0 0 35px rgba(229, 241, 250, .08),
-            inset 0 0 20px rgba(0, 0, 0, .8);
+            0 0 35px
+              rgba(
+                229,
+                241,
+                250,
+                .08
+              ),
+            inset 0 0 20px
+              rgba(
+                0,
+                0,
+                0,
+                .8
+              );
 
           animation:
             an-core-breathe
-            9s ease-in-out infinite;
+            9s ease-in-out
+            infinite;
         }
 
         .an-gate__cosmos-core span {
           width: 14%;
+
           aspect-ratio: 1;
 
           border-radius: 50%;
 
           background:
-            rgba(246, 251, 253, .9);
+            rgba(
+              246,
+              251,
+              253,
+              .90
+            );
 
           box-shadow:
-            0 0 12px rgba(239, 248, 253, .8),
-            0 0 35px rgba(239, 248, 253, .3);
+            0 0 12px
+              rgba(
+                239,
+                248,
+                253,
+                .8
+              ),
+            0 0 35px
+              rgba(
+                239,
+                248,
+                253,
+                .3
+              );
         }
 
         /* ==================================================
-           VIEWPORT STRUCTURE
-
-           Full available width and height.
-           No fixed-height content frame.
+           VIEWPORT
         ================================================== */
 
         .an-gate__viewport {
           position: relative;
 
           display: grid;
+
           grid-template-rows:
-            auto minmax(0, 1fr) auto;
+            auto 1fr auto;
 
           width: 100%;
+
           min-width: 0;
 
           min-height: 100vh;
           min-height: 100svh;
 
           padding:
-            max(24px, env(safe-area-inset-top))
-            clamp(24px, 5.5vw, 96px)
-            max(20px, env(safe-area-inset-bottom));
+            max(
+              25px,
+              env(
+                safe-area-inset-top
+              )
+            )
+            clamp(
+              24px,
+              4vw,
+              74px
+            )
+            max(
+              21px,
+              env(
+                safe-area-inset-bottom
+              )
+            );
         }
 
         /* ==================================================
@@ -768,165 +1215,222 @@ export default function GatePage() {
 
         .an-gate__header {
           position: relative;
-          z-index: 5;
+
+          z-index: 10;
 
           display: flex;
-          align-items: center;
-          justify-content: space-between;
 
-          gap: 20px;
-          width: 100%;
-          min-width: 0;
-        }
-
-        .an-gate__brand {
-          display: flex;
           align-items: center;
 
-          gap: 12px;
-          min-width: 0;
+          justify-content:
+            space-between;
+
+          gap: 24px;
+
+          width: min(
+            100%,
+            1440px
+          );
+
+          margin-inline: auto;
         }
 
-        .an-gate__brand-mark {
-          display: grid;
-          place-items: center;
-
-          width: 35px;
-          height: 35px;
-          flex: 0 0 35px;
-
-          border: 1px solid
-            rgba(245, 249, 252, .17);
-
-          border-radius: 50%;
-
-          background:
-            rgba(13, 17, 21, .42);
-
+        .an-gate__brand-copy small,
+        .an-gate__edition {
           color:
-            rgba(246, 250, 253, .9);
-
-          font-size: 12px;
-          font-weight: 300;
-
-          backdrop-filter: blur(16px);
-          -webkit-backdrop-filter: blur(16px);
-        }
-
-        .an-gate__brand-copy {
-          display: flex;
-          flex-direction: column;
-
-          gap: 5px;
-          min-width: 0;
-        }
-
-        .an-gate__brand-copy strong {
-          color: rgba(250, 252, 253, .9);
-
-          font-size: 10px;
-          font-weight: 650;
-          letter-spacing: .23em;
-        }
-
-        .an-gate__brand-copy small {
-          color: rgba(232, 241, 247, .45);
+            rgba(
+              235,
+              243,
+              248,
+              .52
+            );
 
           font-size: 7px;
-          font-weight: 500;
-          letter-spacing: .13em;
+
+          font-weight: 570;
+
+          letter-spacing:
+            .17em;
         }
 
-        .an-gate__header-status {
+        .an-gate__edition {
           display: flex;
+
           align-items: center;
 
           gap: 9px;
 
-          color: rgba(233, 242, 248, .55);
-
-          font-size: 8px;
-          font-weight: 550;
-          letter-spacing: .17em;
-
           white-space: nowrap;
         }
 
-        .an-gate__status-dot {
-          width: 5px;
-          height: 5px;
-          flex: 0 0 5px;
+        .an-gate__edition-dot {
+          width: 4px;
+          height: 4px;
+
+          flex: 0 0 4px;
 
           border-radius: 50%;
 
-          background: rgba(240, 249, 253, .8);
+          background:
+            rgba(
+              246,
+              250,
+              253,
+              .82
+            );
 
           box-shadow:
-            0 0 12px rgba(233, 245, 252, .3);
+            0 0 14px
+            rgba(
+              246,
+              250,
+              253,
+              .26
+            );
 
           animation:
             an-status-breathe
-            6s ease-in-out infinite;
+            6s ease-in-out
+            infinite;
         }
 
         /* ==================================================
-           MAIN CONTENT
+           CENTRAL GALLERY
 
-           Vertical rhythm adapts to the screen height.
+           Both columns are centered as one museum object.
+        ================================================== */
+
+        .an-gate__gallery {
+          position: relative;
+
+          z-index: 4;
+
+          display: grid;
+
+          grid-template-columns:
+            minmax(420px, 640px)
+            minmax(390px, 540px);
+
+          align-items: center;
+
+          justify-content: center;
+
+          gap:
+            clamp(
+              48px,
+              5vw,
+              92px
+            );
+
+          width: min(
+            100%,
+            1320px
+          );
+
+          margin-inline: auto;
+
+          padding:
+            clamp(
+              42px,
+              5svh,
+              76px
+            )
+            0;
+        }
+
+        /* ==================================================
+           IDENTITY
         ================================================== */
 
         .an-gate__main {
-          position: relative;
-          z-index: 4;
-
           display: flex;
+
           flex-direction: column;
-          align-items: flex-start;
-          justify-content: center;
 
-          gap: clamp(17px, 2.7svh, 34px);
+          align-items: center;
 
-          width: min(100%, 760px);
+          gap:
+            clamp(
+              22px,
+              2.8svh,
+              36px
+            );
+
+          width: 100%;
+
           min-width: 0;
 
-          padding:
-            clamp(24px, 4.5svh, 65px) 0;
+          margin-inline: auto;
+
+          text-align: center;
         }
 
         .an-gate__intro {
+          display: flex;
+
+          flex-direction: column;
+
+          align-items: center;
+
           width: 100%;
 
           animation:
             an-intro-appear
-            1.4s cubic-bezier(.22, 1, .36, 1)
+            1.35s
+            cubic-bezier(
+              .22,
+              1,
+              .36,
+              1
+            )
             both;
         }
 
         .an-gate__eyebrow {
           display: flex;
+
           align-items: center;
+
+          justify-content: center;
 
           gap: 12px;
         }
 
         .an-gate__eyebrow > span {
-          width: 23px;
+          width: 22px;
+
           height: 1px;
-          flex: 0 0 23px;
+
+          flex: 0 0 22px;
 
           background:
-            rgba(233, 243, 250, .35);
+            rgba(
+              238,
+              246,
+              251,
+              .34
+            );
         }
 
         .an-gate__eyebrow p {
           margin: 0;
 
-          color: rgba(229, 240, 247, .57);
+          color:
+            rgba(
+              233,
+              242,
+              248,
+              .60
+            );
 
-          font-size: 9px;
+          font-size: 8px;
+
           font-weight: 600;
+
           line-height: 1.6;
-          letter-spacing: .22em;
+
+          letter-spacing:
+            .22em;
         }
 
         .an-gate__mobile-break {
@@ -935,116 +1439,194 @@ export default function GatePage() {
 
         .an-gate__title {
           margin:
-            clamp(14px, 2.2svh, 27px)
+            clamp(
+              15px,
+              2.2svh,
+              28px
+            )
             0 0;
 
-          color: rgba(250, 252, 253, .98);
+          color:
+            rgba(
+              251,
+              252,
+              253,
+              .98
+            );
 
           font-size:
-            clamp(70px, 10.2vw, 150px);
+            clamp(
+              68px,
+              7.7vw,
+              126px
+            );
 
-          font-weight: 230;
-          line-height: .93;
-          letter-spacing: -.078em;
+          font-weight: 220;
+
+          line-height: .92;
+
+          letter-spacing:
+            -.078em;
 
           white-space: nowrap;
 
+          text-align: center;
+
           text-shadow:
-            0 0 65px rgba(220, 239, 251, .055);
+            0 0 70px
+            rgba(
+              220,
+              239,
+              251,
+              .06
+            );
         }
 
         .an-gate__title span {
-          color: rgba(224, 237, 245, .82);
+          color:
+            rgba(
+              225,
+              237,
+              245,
+              .82
+            );
         }
 
         .an-gate__headline {
           margin:
-            clamp(16px, 2.5svh, 27px)
+            clamp(
+              18px,
+              2.4svh,
+              28px
+            )
             0 0;
 
-          color: rgba(244, 249, 252, .89);
+          color:
+            rgba(
+              247,
+              250,
+              252,
+              .91
+            );
 
           font-size:
-            clamp(21px, 2.45vw, 34px);
+            clamp(
+              22px,
+              2vw,
+              34px
+            );
 
-          font-weight: 300;
-          line-height: 1.3;
-          letter-spacing: -.035em;
+          font-weight: 290;
+
+          line-height: 1.28;
+
+          letter-spacing:
+            -.038em;
+
+          text-align: center;
         }
 
         .an-gate__introduction {
-          width: min(100%, 460px);
+          width: min(
+            100%,
+            480px
+          );
 
-          margin: 12px 0 0;
+          margin:
+            13px auto 0;
 
-          color: rgba(222, 234, 242, .61);
+          color:
+            rgba(
+              225,
+              235,
+              242,
+              .61
+            );
 
           font-size:
-            clamp(12px, 1vw, 14px);
+            clamp(
+              11px,
+              .9vw,
+              14px
+            );
 
           font-weight: 350;
-          line-height: 1.7;
+
+          line-height: 1.75;
+
+          text-align: center;
         }
 
         /* ==================================================
-           TRANSLUCENT STORY PANEL
+           JOURNEY GLASS
         ================================================== */
 
         .an-gate__story {
-          width: min(100%, 510px);
+          width: min(
+            100%,
+            510px
+          );
+
+          margin-inline: auto;
 
           padding:
-            clamp(16px, 1.9vw, 23px);
-
-          border: 1px solid
-            rgba(236, 245, 251, .13);
-
-          border-radius: 20px;
-
-          background:
-            linear-gradient(
-              145deg,
-              rgba(22, 28, 34, .49),
-              rgba(3, 5, 8, .37)
+            clamp(
+              17px,
+              1.7vw,
+              23px
             );
 
-          box-shadow:
-            inset 0 1px 0
-              rgba(255, 255, 255, .035),
-            0 20px 65px
-              rgba(0, 0, 0, .16);
+          border-radius: 22px;
 
-          backdrop-filter: blur(24px);
-          -webkit-backdrop-filter: blur(24px);
+          text-align: left;
 
           animation:
             an-panel-appear
-            1.4s .25s
-            cubic-bezier(.22, 1, .36, 1)
+            1.4s .20s
+            cubic-bezier(
+              .22,
+              1,
+              .36,
+              1
+            )
             both;
         }
 
         .an-gate__story-topline {
           display: flex;
+
           align-items: center;
-          justify-content: space-between;
+
+          justify-content:
+            space-between;
 
           gap: 16px;
 
-          color: rgba(232, 242, 249, .49);
+          color:
+            rgba(
+              235,
+              243,
+              248,
+              .50
+            );
 
-          font-size: 8px;
+          font-size: 7px;
+
           font-weight: 600;
-          letter-spacing: .18em;
+
+          letter-spacing:
+            .18em;
         }
 
         .an-gate__story-body {
           display: flex;
+
           align-items: center;
 
-          min-height: 100px;
+          min-height: 98px;
 
-          padding: 14px 0 11px;
+          padding:
+            14px 0 10px;
         }
 
         .an-gate__story-content {
@@ -1052,29 +1634,57 @@ export default function GatePage() {
 
           animation:
             an-story-appear
-            .7s cubic-bezier(.22, 1, .36, 1)
+            .7s
+            cubic-bezier(
+              .22,
+              1,
+              .36,
+              1
+            )
             both;
         }
 
         .an-gate__story-kicker {
-          color: rgba(226, 240, 249, .46);
+          color:
+            rgba(
+              229,
+              239,
+              246,
+              .46
+            );
 
-          font-size: 8px;
+          font-size: 7px;
+
           font-weight: 650;
-          letter-spacing: .23em;
+
+          letter-spacing:
+            .23em;
         }
 
         .an-gate__story-content h2 {
           margin: 7px 0 0;
 
-          color: rgba(248, 251, 253, .96);
+          color:
+            rgba(
+              250,
+              252,
+              253,
+              .96
+            );
 
           font-size:
-            clamp(20px, 1.9vw, 27px);
+            clamp(
+              20px,
+              1.65vw,
+              27px
+            );
 
-          font-weight: 350;
-          line-height: 1.25;
-          letter-spacing: -.035em;
+          font-weight: 340;
+
+          line-height: 1.24;
+
+          letter-spacing:
+            -.035em;
         }
 
         .an-gate__story-content p {
@@ -1082,10 +1692,17 @@ export default function GatePage() {
 
           margin: 7px 0 0;
 
-          color: rgba(226, 237, 244, .59);
+          color:
+            rgba(
+              228,
+              237,
+              243,
+              .59
+            );
 
-          font-size: 11px;
-          line-height: 1.6;
+          font-size: 10px;
+
+          line-height: 1.65;
         }
 
         /* ==================================================
@@ -1094,36 +1711,52 @@ export default function GatePage() {
 
         .an-gate__story-navigation {
           display: grid;
+
           grid-template-columns:
-            repeat(3, minmax(0, 1fr));
+            repeat(
+              3,
+              minmax(0, 1fr)
+            );
 
           gap: 11px;
         }
 
         .an-gate__story-step {
           display: flex;
+
           flex-direction: column;
 
           gap: 8px;
 
           min-width: 0;
+
           min-height: 29px;
 
           padding: 5px 0;
 
           border: 0;
+
           background: transparent;
 
-          color: rgba(230, 241, 248, .39);
+          color:
+            rgba(
+              230,
+              241,
+              248,
+              .39
+            );
 
           cursor: pointer;
+
           text-align: left;
 
-          -webkit-tap-highlight-color: transparent;
+          -webkit-tap-highlight-color:
+            transparent;
         }
 
         .an-gate__story-step-number {
           font-size: 8px;
+
           letter-spacing: .1em;
 
           transition:
@@ -1134,41 +1767,80 @@ export default function GatePage() {
           display: block;
 
           width: 100%;
+
           height: 1px;
 
           overflow: hidden;
 
           background:
-            rgba(232, 243, 250, .16);
+            rgba(
+              232,
+              243,
+              250,
+              .16
+            );
         }
 
         .an-gate__story-step-track span {
           display: block;
 
           width: 100%;
+
           height: 100%;
 
           background:
-            rgba(244, 250, 253, .9);
+            rgba(
+              247,
+              251,
+              253,
+              .92
+            );
 
-          transform: scaleX(0);
-          transform-origin: left center;
+          transform:
+            scaleX(0);
+
+          transform-origin:
+            left center;
+
+          transition:
+            transform .45s
+            cubic-bezier(
+              .22,
+              1,
+              .36,
+              1
+            );
         }
 
         .an-gate__story-step.is-active {
-          color: rgba(247, 251, 253, .94);
+          color:
+            rgba(
+              247,
+              251,
+              253,
+              .94
+            );
         }
 
         .an-gate__story-step.is-active
-        .an-gate__story-step-track span {
-          transform: scaleX(1);
+        .an-gate__story-step-track
+        span {
+          transform:
+            scaleX(1);
         }
 
         .an-gate__story-step:focus-visible {
-          outline: 1px solid
-            rgba(245, 250, 253, .55);
+          outline:
+            1px solid
+            rgba(
+              245,
+              250,
+              253,
+              .55
+            );
 
           outline-offset: 5px;
+
           border-radius: 3px;
         }
 
@@ -1178,35 +1850,61 @@ export default function GatePage() {
 
         .an-gate__actions {
           display: flex;
+
           align-items: center;
+
+          justify-content: center;
+
           flex-wrap: wrap;
 
           gap: 12px;
+
           width: 100%;
 
           animation:
             an-panel-appear
-            1.4s .45s
-            cubic-bezier(.22, 1, .36, 1)
+            1.4s .38s
+            cubic-bezier(
+              .22,
+              1,
+              .36,
+              1
+            )
             both;
         }
 
         .an-gate__enter,
         .an-gate__external {
           display: inline-flex;
-          align-items: center;
-          justify-content: space-between;
 
-          gap: 28px;
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          gap: 27px;
 
           min-height: 49px;
-          padding: 0 21px;
+
+          padding:
+            0 21px;
 
           border-radius: 999px;
 
-          font-size: 9px;
+          color:
+            rgba(
+              248,
+              251,
+              253,
+              .92
+            );
+
+          font-size: 8px;
+
           font-weight: 650;
-          letter-spacing: .15em;
+
+          letter-spacing:
+            .15em;
 
           white-space: nowrap;
 
@@ -1218,55 +1916,488 @@ export default function GatePage() {
             box-shadow .3s ease;
         }
 
+        /* ==================================================
+           ENTER ARCHENOVA
+           TRANSPARENT GLASS — NO WHITE FILL
+        ================================================== */
+
         .an-gate__enter {
           min-width: 218px;
 
-          border: 1px solid
-            rgba(250, 252, 253, .64);
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              .16
+            );
 
           background:
-            rgba(244, 249, 252, .93);
+            radial-gradient(
+              circle at 20% 0%,
+              rgba(
+                255,
+                255,
+                255,
+                .085
+              ),
+              transparent 40%
+            ),
+            linear-gradient(
+              145deg,
+              rgba(
+                255,
+                255,
+                255,
+                .075
+              ),
+              rgba(
+                255,
+                255,
+                255,
+                .025
+              ) 48%,
+              rgba(
+                255,
+                255,
+                255,
+                .010
+              )
+            );
 
-          color: #070a0d;
+          color:
+            rgba(
+              248,
+              251,
+              253,
+              .95
+            );
+
+          -webkit-backdrop-filter:
+            blur(28px)
+            saturate(112%);
+
+          backdrop-filter:
+            blur(28px)
+            saturate(112%);
 
           box-shadow:
-            0 10px 36px
-            rgba(0, 0, 0, .18);
+            inset 0 1px 0
+              rgba(
+                255,
+                255,
+                255,
+                .11
+              ),
+            inset 0 -1px 0
+              rgba(
+                255,
+                255,
+                255,
+                .018
+              ),
+            0 20px 60px
+              rgba(
+                0,
+                0,
+                0,
+                .14
+              );
         }
 
         .an-gate__enter-arrow {
           font-size: 17px;
+
           font-weight: 350;
+
           line-height: 1;
         }
 
         .an-gate__external {
           min-width: 166px;
 
-          border: 1px solid
-            rgba(235, 245, 251, .19);
-
-          background:
-            rgba(10, 14, 18, .35);
-
           color:
-            rgba(237, 245, 250, .76);
-
-          backdrop-filter: blur(18px);
-          -webkit-backdrop-filter: blur(18px);
+            rgba(
+              240,
+              246,
+              250,
+              .80
+            );
         }
 
-        .an-gate__external > span:last-child {
+        .an-gate__external
+        > span:last-child {
           font-size: 15px;
+
           font-weight: 350;
         }
 
         .an-gate__enter:focus-visible,
         .an-gate__external:focus-visible {
-          outline: 2px solid
-            rgba(247, 251, 253, .85);
+          outline:
+            2px solid
+            rgba(
+              247,
+              251,
+              253,
+              .85
+            );
 
           outline-offset: 4px;
+        }
+
+        /* ==================================================
+           ART EXHIBITION
+        ================================================== */
+
+        .an-gate__exhibition {
+          display: flex;
+
+          align-items: center;
+
+          justify-content: center;
+
+          width: 100%;
+
+          min-width: 0;
+
+          animation:
+            an-artwork-appear
+            1.7s .18s
+            cubic-bezier(
+              .22,
+              1,
+              .36,
+              1
+            )
+            both;
+        }
+
+        .an-gate__artwork {
+          width: min(
+            100%,
+            540px
+          );
+
+          margin: 0 auto;
+
+          padding:
+            clamp(
+              12px,
+              1.15vw,
+              17px
+            );
+
+          border-radius: 30px;
+        }
+
+        .an-gate__artwork-top {
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          gap: 16px;
+
+          min-height: 31px;
+
+          padding:
+            0 5px 10px;
+
+          color:
+            rgba(
+              238,
+              245,
+              249,
+              .47
+            );
+
+          font-size: 6px;
+
+          font-weight: 600;
+
+          letter-spacing:
+            .18em;
+        }
+
+        .an-gate__artwork-window {
+          position: relative;
+
+          width: 100%;
+
+          aspect-ratio:
+            1120 / 1408;
+
+          overflow: hidden;
+
+          border:
+            1px solid
+            rgba(
+              255,
+              255,
+              255,
+              .14
+            );
+
+          border-radius: 20px;
+
+          background:
+            rgba(
+              255,
+              255,
+              255,
+              .018
+            );
+
+          box-shadow:
+            inset 0 1px 0
+              rgba(
+                255,
+                255,
+                255,
+                .09
+              ),
+            0 20px 70px
+              rgba(
+                0,
+                0,
+                0,
+                .16
+              );
+        }
+
+        .an-gate__artwork-image {
+          object-fit: contain;
+
+          object-position:
+            center center;
+
+          transform: none;
+
+          filter:
+            saturate(.96)
+            contrast(1.01)
+            brightness(.96);
+        }
+
+        .an-gate__artwork-light {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: 2;
+
+          pointer-events: none;
+
+          background:
+            linear-gradient(
+              115deg,
+              rgba(
+                255,
+                255,
+                255,
+                .11
+              ) 0%,
+              rgba(
+                255,
+                255,
+                255,
+                .025
+              ) 16%,
+              transparent 33%,
+              transparent 72%,
+              rgba(
+                255,
+                255,
+                255,
+                .025
+              ) 100%
+            );
+
+          mix-blend-mode:
+            screen;
+
+          opacity: .42;
+        }
+
+        .an-gate__artwork-edge {
+          position: absolute;
+
+          inset: 0;
+
+          z-index: 3;
+
+          border-radius: inherit;
+
+          pointer-events: none;
+
+          box-shadow:
+            inset 0 0 0 1px
+              rgba(
+                255,
+                255,
+                255,
+                .025
+              ),
+            inset 0 22px 50px
+              rgba(
+                255,
+                255,
+                255,
+                .018
+              );
+        }
+
+        /* ==================================================
+           ARTWORK CAPTION
+        ================================================== */
+
+        .an-gate__artwork-caption {
+          padding:
+            clamp(
+              20px,
+              2vw,
+              29px
+            )
+            clamp(
+              7px,
+              .7vw,
+              12px
+            )
+            clamp(
+              7px,
+              .7vw,
+              12px
+            );
+
+          text-align: left;
+        }
+
+        .an-gate__artwork-index {
+          display: flex;
+
+          align-items: center;
+
+          justify-content:
+            space-between;
+
+          gap: 16px;
+
+          color:
+            rgba(
+              233,
+              242,
+              248,
+              .45
+            );
+
+          font-size: 6px;
+
+          font-weight: 650;
+
+          letter-spacing:
+            .18em;
+        }
+
+        .an-gate__artwork-caption h2 {
+          max-width: 450px;
+
+          margin:
+            13px 0 0;
+
+          color:
+            rgba(
+              250,
+              252,
+              253,
+              .96
+            );
+
+          font-size:
+            clamp(
+              21px,
+              1.7vw,
+              30px
+            );
+
+          font-weight: 300;
+
+          line-height: 1.25;
+
+          letter-spacing:
+            -.035em;
+        }
+
+        .an-gate__artwork-caption p {
+          max-width: 475px;
+
+          margin:
+            11px 0 0;
+
+          color:
+            rgba(
+              228,
+              237,
+              243,
+              .59
+            );
+
+          font-size:
+            clamp(
+              9px,
+              .68vw,
+              11px
+            );
+
+          font-weight: 350;
+
+          line-height: 1.72;
+        }
+
+        .an-gate__artwork-principle {
+          display: flex;
+
+          align-items: center;
+
+          gap: 10px;
+
+          margin-top: 17px;
+
+          color:
+            rgba(
+              237,
+              244,
+              249,
+              .43
+            );
+
+          font-size: 6px;
+
+          font-weight: 600;
+
+          letter-spacing:
+            .15em;
+        }
+
+        .an-gate__artwork-principle i {
+          width: 3px;
+
+          height: 3px;
+
+          flex: 0 0 3px;
+
+          border-radius: 50%;
+
+          background:
+            rgba(
+              240,
+              247,
+              251,
+              .38
+            );
         }
 
         /* ==================================================
@@ -1275,29 +2406,56 @@ export default function GatePage() {
 
         .an-gate__footer {
           position: relative;
+
           z-index: 5;
 
           display: flex;
+
           align-items: center;
-          justify-content: space-between;
+
+          justify-content:
+            space-between;
 
           gap: 20px;
-          width: 100%;
+
+          width: min(
+            100%,
+            1440px
+          );
+
+          margin-inline: auto;
 
           padding-top: 13px;
 
-          border-top: 1px solid
-            rgba(239, 247, 252, .11);
+          border-top:
+            1px solid
+            rgba(
+              239,
+              247,
+              252,
+              .11
+            );
 
-          color: rgba(230, 240, 247, .43);
+          color:
+            rgba(
+              230,
+              240,
+              247,
+              .43
+            );
 
-          font-size: 8px;
+          font-size: 7px;
+
           font-weight: 550;
-          letter-spacing: .15em;
+
+          letter-spacing:
+            .15em;
         }
 
-        .an-gate__footer > span:first-child {
+        .an-gate__footer
+        > span:first-child {
           display: flex;
+
           align-items: center;
 
           gap: 12px;
@@ -1307,12 +2465,18 @@ export default function GatePage() {
           display: inline-block;
 
           width: 3px;
+
           height: 3px;
 
           border-radius: 50%;
 
           background:
-            rgba(239, 247, 252, .4);
+            rgba(
+              239,
+              247,
+              252,
+              .40
+            );
         }
 
         .an-gate__footer-right {
@@ -1320,51 +2484,61 @@ export default function GatePage() {
         }
 
         /* ==================================================
-           ANIMATIONS — ORIGINAL BEHAVIOR PRESERVED
+           ANIMATIONS
         ================================================== */
 
         @keyframes an-cosmos-breathe {
           0%,
           100% {
             opacity: .45;
-            transform: scale(.93);
+
+            transform:
+              scale(.93);
           }
 
           50% {
             opacity: .9;
-            transform: scale(1.06);
+
+            transform:
+              scale(1.06);
           }
         }
 
         @keyframes an-orbit-rotate {
           from {
-            transform: rotate(0deg);
+            transform:
+              rotate(0deg);
           }
 
           to {
-            transform: rotate(360deg);
+            transform:
+              rotate(360deg);
           }
         }
 
         @keyframes an-orbit-tilt {
           0%,
           100% {
-            transform: rotate(-25deg);
+            transform:
+              rotate(-25deg);
           }
 
           50% {
-            transform: rotate(-8deg);
+            transform:
+              rotate(-8deg);
           }
         }
 
         @keyframes an-orbit-vertical {
           0%,
           100% {
-            transform: rotate(31deg);
+            transform:
+              rotate(31deg);
           }
 
           50% {
-            transform: rotate(48deg);
+            transform:
+              rotate(48deg);
           }
         }
 
@@ -1372,12 +2546,16 @@ export default function GatePage() {
           0%,
           100% {
             opacity: .65;
-            transform: scale(.94);
+
+            transform:
+              scale(.94);
           }
 
           50% {
             opacity: 1;
-            transform: scale(1.07);
+
+            transform:
+              scale(1.07);
           }
         }
 
@@ -1395,40 +2573,84 @@ export default function GatePage() {
         @keyframes an-intro-appear {
           from {
             opacity: 0;
-            transform: translateY(20px);
-            filter: blur(5px);
+
+            transform:
+              translateY(20px);
+
+            filter:
+              blur(5px);
           }
 
           to {
             opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
+
+            transform:
+              translateY(0);
+
+            filter:
+              blur(0);
           }
         }
 
         @keyframes an-panel-appear {
           from {
             opacity: 0;
-            transform: translateY(14px);
+
+            transform:
+              translateY(14px);
           }
 
           to {
             opacity: 1;
-            transform: translateY(0);
+
+            transform:
+              translateY(0);
           }
         }
 
         @keyframes an-story-appear {
           from {
             opacity: 0;
-            transform: translateY(7px);
-            filter: blur(3px);
+
+            transform:
+              translateY(7px);
+
+            filter:
+              blur(3px);
           }
 
           to {
             opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
+
+            transform:
+              translateY(0);
+
+            filter:
+              blur(0);
+          }
+        }
+
+        @keyframes an-artwork-appear {
+          from {
+            opacity: 0;
+
+            transform:
+              translateY(24px)
+              scale(.985);
+
+            filter:
+              blur(7px);
+          }
+
+          to {
+            opacity: 1;
+
+            transform:
+              translateY(0)
+              scale(1);
+
+            filter:
+              blur(0);
           }
         }
 
@@ -1436,219 +2658,458 @@ export default function GatePage() {
            DESKTOP HOVER
         ================================================== */
 
-        @media (hover: hover) and (pointer: fine) {
-          .an-gate__enter:hover {
-            transform: translateY(-2px);
+        @media
+          (hover: hover)
+          and
+          (pointer: fine) {
 
-            background: #fff;
+          .an-gate__enter:hover {
+            transform:
+              translateY(-2px);
+
+            border-color:
+              rgba(
+                255,
+                255,
+                255,
+                .27
+              );
+
+            background:
+              radial-gradient(
+                circle at 20% 0%,
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .12
+                ),
+                transparent 42%
+              ),
+              linear-gradient(
+                145deg,
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .10
+                ),
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .035
+                ) 50%,
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .014
+                )
+              );
+
+            color: #fff;
 
             box-shadow:
-              0 15px 42px
-              rgba(239, 247, 252, .12);
+              inset 0 1px 0
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .15
+                ),
+              0 24px 72px
+                rgba(
+                  0,
+                  0,
+                  0,
+                  .17
+                );
           }
 
           .an-gate__external:hover {
-            transform: translateY(-2px);
+            transform:
+              translateY(-2px);
 
             border-color:
-              rgba(239, 247, 252, .35);
+              rgba(
+                255,
+                255,
+                255,
+                .24
+              );
 
             background:
-              rgba(24, 31, 38, .54);
+              radial-gradient(
+                circle at 20% 0%,
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .10
+                ),
+                transparent 42%
+              ),
+              linear-gradient(
+                145deg,
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .085
+                ),
+                rgba(
+                  255,
+                  255,
+                  255,
+                  .026
+                )
+              );
 
             color: #fff;
           }
 
           .an-gate__story-step:hover {
-            color: rgba(247, 251, 253, .86);
+            color:
+              rgba(
+                247,
+                251,
+                253,
+                .86
+              );
+          }
+
+          .an-gate__artwork {
+            transition:
+              transform .7s
+              cubic-bezier(
+                .22,
+                1,
+                .36,
+                1
+              ),
+              border-color .7s ease;
+          }
+
+          .an-gate__artwork:hover {
+            transform:
+              translateY(-3px);
+
+            border-color:
+              rgba(
+                255,
+                255,
+                255,
+                .18
+              );
           }
         }
 
         /* ==================================================
-           TABLET
+           MID-SIZE DESKTOP
         ================================================== */
 
-        @media (max-width: 1024px) {
-          .an-gate__cosmos {
-            right: -24%;
-            width: min(86vw, 760px);
-            opacity: .29;
-          }
+        @media (max-width: 1180px) {
+          .an-gate__gallery {
+            grid-template-columns:
+              minmax(360px, 1fr)
+              minmax(330px, .82fr);
 
-          .an-gate__main {
-            width: min(100%, 700px);
+            gap:
+              clamp(
+                32px,
+                4vw,
+                52px
+              );
+
+            width: min(
+              100%,
+              1060px
+            );
           }
 
           .an-gate__title {
             font-size:
-              clamp(70px, 11.5vw, 116px);
+              clamp(
+                64px,
+                8.8vw,
+                104px
+              );
+          }
+
+          .an-gate__artwork {
+            width: min(
+              100%,
+              480px
+            );
+          }
+
+          .an-gate__cosmos {
+            width:
+              min(
+                86vw,
+                760px
+              );
+
+            opacity: .19;
+          }
+        }
+
+        /* ==================================================
+           TABLET / VERTICAL GALLERY
+        ================================================== */
+
+        @media (max-width: 900px) {
+          .an-gate__gallery {
+            grid-template-columns:
+              minmax(0, 1fr);
+
+            gap: 56px;
+
+            width: min(
+              100%,
+              700px
+            );
+
+            padding:
+              58px 0;
+          }
+
+          .an-gate__main {
+            width: min(
+              100%,
+              620px
+            );
+
+            margin-inline: auto;
+          }
+
+          .an-gate__exhibition {
+            justify-content:
+              center;
+          }
+
+          .an-gate__artwork {
+            width: min(
+              100%,
+              560px
+            );
+          }
+
+          .an-gate__cosmos {
+            top: 28%;
+
+            width:
+              min(
+                100vw,
+                680px
+              );
+
+            opacity: .17;
           }
         }
 
         /* ==================================================
            MOBILE
-
-           Full device width.
-           Full visible viewport when content fits.
-           Natural scrolling when the device is shorter.
         ================================================== */
 
         @media (max-width: 700px) {
           .an-gate__viewport {
-            min-height: 100vh;
+            display: block;
+
             min-height: 100svh;
 
             padding:
-              max(18px, env(safe-area-inset-top))
-              22px
-              max(17px, env(safe-area-inset-bottom));
+              max(
+                18px,
+                env(
+                  safe-area-inset-top
+                )
+              )
+              18px
+              max(
+                17px,
+                env(
+                  safe-area-inset-bottom
+                )
+              );
+          }
+
+          .an-gate__header {
+            margin-bottom: 26px;
+          }
+
+          .an-gate__brand-copy small,
+          .an-gate__edition {
+            font-size: 5px;
+
+            letter-spacing:
+              .12em;
+          }
+
+          .an-gate__edition {
+            gap: 6px;
           }
 
           .an-gate__cinema-shade {
             background:
               linear-gradient(
                 180deg,
-                rgba(0, 0, 0, .70),
-                rgba(0, 0, 0, .44) 25%,
-                rgba(0, 0, 0, .64) 65%,
-                rgba(0, 0, 0, .88)
+                rgba(
+                  0,
+                  0,
+                  0,
+                  .68
+                ),
+                rgba(
+                  0,
+                  0,
+                  0,
+                  .40
+                ) 22%,
+                rgba(
+                  0,
+                  0,
+                  0,
+                  .52
+                ) 58%,
+                rgba(
+                  0,
+                  0,
+                  0,
+                  .84
+                )
               );
           }
 
-          .an-gate__poster {
-            background-position: center;
-          }
-
-          .an-gate__video {
-            object-position: center;
-          }
-
           .an-gate__cosmos {
-            top: 39%;
-            right: 50%;
+            top: 24%;
 
-            width: min(105vw, 540px);
+            left: 50%;
+
+            width:
+              min(
+                112vw,
+                560px
+              );
 
             transform:
-              translate(50%, -50%);
+              translate(
+                -50%,
+                -50%
+              );
 
-            opacity: .22;
+            opacity: .14;
           }
 
-          .an-gate__brand {
-            gap: 9px;
-          }
+          .an-gate__gallery {
+            display: flex;
 
-          .an-gate__brand-mark {
-            width: 30px;
-            height: 30px;
-            flex-basis: 30px;
+            flex-direction: column;
 
-            font-size: 10px;
-          }
+            align-items: center;
 
-          .an-gate__brand-copy strong {
-            font-size: 8px;
-            letter-spacing: .16em;
-          }
+            gap: 46px;
 
-          .an-gate__brand-copy small {
-            font-size: 5px;
-            letter-spacing: .07em;
-          }
+            width: 100%;
 
-          .an-gate__header-status {
-            gap: 6px;
-            font-size: 0;
-          }
-
-          .an-gate__status-dot {
-            width: 5px;
-            height: 5px;
+            padding:
+              27px 0 45px;
           }
 
           .an-gate__main {
             align-items: center;
 
-            gap: clamp(15px, 2.6svh, 24px);
+            gap:
+              clamp(
+                20px,
+                3svh,
+                28px
+              );
 
             width: 100%;
-
-            padding:
-              clamp(19px, 3.5svh, 38px)
-              0
-              clamp(18px, 3svh, 32px);
 
             text-align: center;
           }
 
           .an-gate__intro {
-            display: flex;
-            flex-direction: column;
             align-items: center;
           }
 
           .an-gate__eyebrow {
-            justify-content: center;
+            justify-content:
+              center;
+
             gap: 9px;
           }
 
-          .an-gate__eyebrow > span {
+          .an-gate__eyebrow
+          > span {
             width: 15px;
+
             flex-basis: 15px;
           }
 
           .an-gate__eyebrow p {
             font-size: 7px;
-            letter-spacing: .16em;
+
+            letter-spacing:
+              .16em;
           }
 
           .an-gate__title {
-            margin-top:
-              clamp(12px, 2svh, 19px);
+            margin-top: 15px;
 
             font-size:
-              clamp(53px, 15.5vw, 94px);
+              clamp(
+                54px,
+                15.5vw,
+                94px
+              );
 
-            letter-spacing: -.075em;
+            letter-spacing:
+              -.075em;
           }
 
           .an-gate__headline {
-            margin-top:
-              clamp(13px, 2svh, 20px);
+            margin-top: 17px;
 
             font-size:
-              clamp(19px, 5.2vw, 28px);
+              clamp(
+                20px,
+                5.4vw,
+                29px
+              );
 
-            line-height: 1.36;
+            line-height: 1.34;
           }
 
           .an-gate__introduction {
-            max-width: 340px;
+            max-width: 350px;
 
             margin-top: 10px;
 
             font-size: 11px;
-            line-height: 1.65;
+
+            line-height: 1.68;
           }
 
           .an-gate__story {
-            width: min(100%, 410px);
+            width: min(
+              100%,
+              420px
+            );
 
-            padding: 16px 18px;
+            padding:
+              17px 18px;
 
-            border-radius: 18px;
+            border-radius: 20px;
 
             text-align: left;
           }
 
-          .an-gate__story-topline {
-            font-size: 7px;
-          }
-
           .an-gate__story-body {
-            min-height: 92px;
-            padding: 12px 0 9px;
+            min-height: 91px;
           }
 
           .an-gate__story-content h2 {
@@ -1660,19 +3121,96 @@ export default function GatePage() {
           }
 
           .an-gate__actions {
-            justify-content: center;
-            width: min(100%, 410px);
+            justify-content:
+              center;
+
+            width: min(
+              100%,
+              420px
+            );
           }
 
-          .an-gate__enter,
-          .an-gate__external {
-            min-height: 46px;
-            font-size: 8px;
+          /* ================================================
+             MOBILE ART EXHIBITION
+          ================================================ */
+
+          .an-gate__exhibition {
+            width: 100%;
+          }
+
+          .an-gate__artwork {
+            width: min(
+              100%,
+              520px
+            );
+
+            padding: 10px;
+
+            border-radius: 25px;
+          }
+
+          .an-gate__artwork-top {
+            min-height: 28px;
+
+            padding:
+              0 4px 9px;
+
+            font-size: 5px;
+          }
+
+          .an-gate__artwork-window {
+            border-radius: 17px;
+          }
+
+          .an-gate__artwork-caption {
+            padding:
+              22px 9px 10px;
+
+            text-align: left;
+          }
+
+          .an-gate__artwork-index {
+            font-size: 5px;
+          }
+
+          .an-gate__artwork-caption h2 {
+            max-width: 360px;
+
+            margin-top: 12px;
+
+            font-size:
+              clamp(
+                23px,
+                6vw,
+                29px
+              );
+          }
+
+          .an-gate__artwork-caption p {
+            max-width: 420px;
+
+            font-size: 10px;
+
+            line-height: 1.7;
+          }
+
+          .an-gate__artwork-principle {
+            flex-wrap: wrap;
+
+            margin-top: 16px;
+
+            font-size: 5px;
           }
 
           .an-gate__footer {
-            justify-content: center;
-            font-size: 7px;
+            justify-content:
+              center;
+
+            width: 100%;
+
+            padding-top: 16px;
+
+            font-size: 6px;
           }
 
           .an-gate__footer-right {
@@ -1686,26 +3224,50 @@ export default function GatePage() {
 
         @media (max-width: 430px) {
           .an-gate__viewport {
-            padding-right: 17px;
-            padding-left: 17px;
+            padding-right: 14px;
+
+            padding-left: 14px;
           }
 
-          .an-gate__main {
-            gap: clamp(13px, 2.3svh, 19px);
+          .an-gate__header {
+            margin-bottom: 21px;
+          }
+
+          .an-gate__gallery {
+            padding-top: 22px;
+
+            gap: 39px;
           }
 
           .an-gate__title {
             font-size:
-              clamp(49px, 15.5vw, 67px);
+              clamp(
+                49px,
+                15.5vw,
+                67px
+              );
+          }
+
+          .an-gate__headline {
+            font-size:
+              clamp(
+                19px,
+                5.6vw,
+                24px
+              );
           }
 
           .an-gate__introduction {
             max-width: 320px;
+
             font-size: 10px;
           }
 
           .an-gate__story {
-            padding: 15px 16px;
+            padding:
+              15px 16px;
+
+            border-radius: 18px;
           }
 
           .an-gate__story-body {
@@ -1719,28 +3281,52 @@ export default function GatePage() {
           .an-gate__enter,
           .an-gate__external {
             width: 100%;
+
             min-width: 0;
 
-            justify-content: center;
+            justify-content:
+              center;
+
             gap: 20px;
           }
 
           .an-gate__enter {
-            justify-content: space-between;
+            justify-content:
+              space-between;
+          }
+
+          .an-gate__artwork {
+            border-radius: 22px;
+          }
+
+          .an-gate__artwork-window {
+            border-radius: 15px;
+          }
+
+          .an-gate__artwork-caption h2 {
+            font-size: 22px;
           }
         }
 
         /* ==================================================
-           SHORT SCREENS
+           SHORT DESKTOP SCREENS
 
-           Tighten spacing without hiding content.
+           Preserve all content.
+           Allow natural scrolling instead of clipping.
         ================================================== */
 
-        @media (max-height: 740px) {
+        @media
+          (min-width: 901px)
+          and
+          (max-height: 780px) {
+
+          .an-gate__gallery {
+            padding:
+              30px 0;
+          }
+
           .an-gate__main {
-            padding-top: 18px;
-            padding-bottom: 18px;
-            gap: 15px;
+            gap: 17px;
           }
 
           .an-gate__title {
@@ -1756,51 +3342,37 @@ export default function GatePage() {
           }
 
           .an-gate__story-body {
-            min-height: 80px;
-            padding-top: 9px;
-            padding-bottom: 7px;
-          }
-        }
+            min-height: 76px;
 
-        /* ==================================================
-           VERY SHORT MOBILE SCREENS
-
-           Preserve all content and both navigation links.
-           Scrolling is preferable to clipping.
-        ================================================== */
-
-        @media (max-width: 700px) and (max-height: 620px) {
-          .an-gate__viewport {
-            padding-top:
-              max(12px, env(safe-area-inset-top));
-
-            padding-bottom:
-              max(12px, env(safe-area-inset-bottom));
+            padding:
+              9px 0 7px;
           }
 
-          .an-gate__main {
-            gap: 12px;
-            padding: 15px 0;
+          .an-gate__artwork {
+            width: min(
+              100%,
+              430px
+            );
           }
 
-          .an-gate__title {
-            margin-top: 10px;
+          .an-gate__artwork-caption {
+            padding-top: 15px;
           }
 
-          .an-gate__headline {
-            margin-top: 10px;
+          .an-gate__artwork-caption h2 {
+            margin-top: 9px;
+
+            font-size: 21px;
           }
 
-          .an-gate__story {
-            padding: 12px 15px;
+          .an-gate__artwork-caption p {
+            margin-top: 7px;
+
+            line-height: 1.55;
           }
 
-          .an-gate__story-body {
-            min-height: 74px;
-          }
-
-          .an-gate__footer {
-            padding-top: 10px;
+          .an-gate__artwork-principle {
+            margin-top: 11px;
           }
         }
 
@@ -1808,34 +3380,48 @@ export default function GatePage() {
            REDUCED MOTION
         ================================================== */
 
-        @media (prefers-reduced-motion: reduce) {
+        @media
+          (prefers-reduced-motion:
+            reduce) {
+
           .an-gate__video {
-            display: none !important;
+            display:
+              none !important;
           }
 
           .an-gate__cosmos *,
-          .an-gate__status-dot,
+          .an-gate__edition-dot,
           .an-gate__intro,
           .an-gate__story,
           .an-gate__story-content,
-          .an-gate__actions {
-            animation: none !important;
+          .an-gate__actions,
+          .an-gate__exhibition {
+            animation:
+              none !important;
           }
 
           .an-gate__intro,
           .an-gate__story,
           .an-gate__story-content,
-          .an-gate__actions {
-            opacity: 1 !important;
-            transform: none !important;
-            filter: none !important;
+          .an-gate__actions,
+          .an-gate__exhibition {
+            opacity:
+              1 !important;
+
+            transform:
+              none !important;
+
+            filter:
+              none !important;
           }
 
           .an-gate__video,
           .an-gate__enter,
           .an-gate__external,
-          .an-gate__story-step {
-            transition: none !important;
+          .an-gate__story-step,
+          .an-gate__artwork {
+            transition:
+              none !important;
           }
         }
       `}</style>
