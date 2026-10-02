@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-10-01T21:38:16.066Z",
+  "updated": "2026-10-02T01:22:48.219Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Anti-Kasha fluorescence and persistent room-temperature phosphorescence from a nearly flat non-symmetric polycyclic hydrocarbon",
+      "url": "https://www.nature.com/articles/s41467-026-78107-6",
+      "summary": "",
+      "ts": 1790899200000,
+      "publishedAt": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Counteranions reshape molecular packing to tune magnetism in copper complexes",
+      "url": "https://phys.org/news/2026-10-counteranions-reshape-molecular-tune-magnetism.html",
+      "summary": "Magnetic properties in molecular materials depend not only on the molecular components themselves but also on their solid-state organization. In charged π-electronic systems, electrostatic and dispersion forces can organ…",
+      "ts": 1790898001000,
+      "publishedAt": "2026-10-01T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Learning to speak elephant: Choruses of rumbles help groups coordinate",
+      "url": "https://phys.org/news/2026-10-elephant-choruses-rumbles-groups.html",
+      "summary": "Choruses of African elephant rumbles appear to become more similar in certain situations, including reuniting or coordinating what to do next. Now, new research published in Scientific Reports provides evidence that elep…",
+      "ts": 1790896801000,
+      "publishedAt": "2026-10-01T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Camelina genome analysis reveals how wild relatives could expand crop breeding options",
+      "url": "https://phys.org/news/2026-10-camelina-genome-analysis-reveals-wild.html",
+      "summary": "Camelina is a relatively new oilseed gaining interest for its potential use in food, livestock feed and renewable fuel markets. A newly published research paper provides insights into the camelina genome that could give …",
+      "ts": 1790895601000,
+      "publishedAt": "2026-10-01T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ions help electrons hop through porous material with potential for brain-inspired computing",
+      "url": "https://phys.org/news/2026-10-ions-electrons-porous-material-potential.html",
+      "summary": "Next-generation computing technologies could be one step closer to emulating how neurons respond and communicate with each other, thanks to research examining how electrons and ions move through materials.",
+      "ts": 1790894401000,
+      "publishedAt": "2026-10-01T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Five new species of freshwater mussels in southern US uncovered by researchers",
+      "url": "https://phys.org/news/2026-10-species-freshwater-mussels-southern-uncovered.html",
+      "summary": "A new research paper published in Zootaxa describes five new species of freshwater mussels in the southern U.S., providing the scientific foundation for protecting the most imperiled group of animals in North America.",
+      "ts": 1790893801000,
+      "publishedAt": "2026-10-01T22:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bridging generations: Early findings suggest shared spaces may benefit both children and nursing home residents",
+      "url": "https://phys.org/news/2026-10-bridging-generations-early-spaces-benefit.html",
+      "summary": "It was the first day of school, and the kids at the Logan Intergenerational Family Education Center were not going to wait a second longer. Normally, the hordes of elementary schoolers would take turns chattering down th…",
+      "ts": 1790893206000,
+      "publishedAt": "2026-10-01T22:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mining fragmented microbial DNA identifies candidates for anticancer testing",
+      "url": "https://phys.org/news/2026-10-fragmented-microbial-dna-candidates-anticancer.html",
+      "summary": "Researchers have developed a practical strategy for recovering biosynthetic information from fragmented metagenomic data. Through this work, the researchers identified and prioritized promising natural-product candidates…",
+      "ts": 1790893201000,
+      "publishedAt": "2026-10-01T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Small protein helps amplify cell signals from receptors targeted by many medicines",
+      "url": "https://phys.org/news/2026-10-small-protein-amplify-cell-receptors.html",
+      "summary": "A small protein known as p11 may play a much broader role in cellular signaling than previously thought. Researchers at Karolinska institutet have now shown that p11 interacts with numerous receptors targeted by commonly…",
+      "ts": 1790892601000,
+      "publishedAt": "2026-10-01T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Where the waters meet: Connecting global limits and river basin management",
+      "url": "https://phys.org/news/2026-10-global-limits-river-basin.html",
+      "summary": "Human activity and climate change are putting growing pressure on water resources, disrupting the predictability of the water cycle and changing the availability and quality of freshwater. IIASA researchers and partners …",
+      "ts": 1790892018000,
+      "publishedAt": "2026-10-01T22:00:18.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Webb provides crash course on planet-shattering collisions",
+      "url": "https://phys.org/news/2026-10-webb-planet-shattering-collisions.html",
+      "summary": "In the early history of our solar system, scientists theorize that a Mars-sized object called Theia smashed into the infant Earth, vaporizing massive amounts of rock and blasting it into space. Some of that material coal…",
+      "ts": 1790892013000,
+      "publishedAt": "2026-10-01T22:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New method generates nearly indistinguishable photons for quantum communication",
+      "url": "https://phys.org/news/2026-10-method-generates-indistinguishable-photons-quantum.html",
+      "summary": "Working in close collaboration, researchers from Paderborn University, the University of Basel and Ruhr University Bochum have made a breakthrough in quantum communication. In their recently published paper in the journa…",
+      "ts": 1790890810000,
+      "publishedAt": "2026-10-01T21:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Artisans turn old São Paulo subway construction uniforms into backpacks",
+      "url": "https://phys.org/news/2026-10-artisans-paulo-subway-uniforms-backpacks.html",
+      "summary": "Corporate uniforms, advertising banners and industrial technical fabrics almost always end up in landfills at the end of their \"life cycles,\" even when they are still in good condition. To address this issue, Ciclou, a s…",
+      "ts": 1790890805000,
+      "publishedAt": "2026-10-01T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Yosemite toad killer may be hiding in their own homes",
+      "url": "https://phys.org/news/2026-10-yosemite-toad-killer-homes.html",
+      "summary": "UCLA biologists have found the hiding place of a silent killer stalking threatened Yosemite toads: their own burrows. The Batrachochytrium dendrobatidis (Bd) fungus decimating amphibian populations around the world has l…",
+      "ts": 1790890801000,
+      "publishedAt": "2026-10-01T21:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI method predicts retention times of small molecules more reliably",
@@ -687,118 +799,6 @@
       "title": "Packaged DNA genome sets the long-range electrostatic anisotropy of a virus",
       "url": "https://arxiv.org/abs/2609.38429",
       "summary": "arXiv:2609.38429v1 Announce Type: new Abstract: Viruses are among the most highly charged objects in biology, and electrostatic interactions permeate nearly every stage of their life cycle. At the same time, an empty ico…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Pre-trained Variational Autoencoder for Gyrokinetic Plasma Turbulence Surrogate Modeling",
-      "url": "https://arxiv.org/abs/2609.38438",
-      "summary": "arXiv:2609.38438v1 Announce Type: new Abstract: Machine learning surrogate models offer a promising path toward accelerating plasma turbulence simulations. We present PreVAE-Turb, a surrogate modeling framework that leve…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stable and Interpretable Multi-Mode Rheological Universal Differential Equations (mmRUDEs) for Data-Driven Constitutive Modeling",
-      "url": "https://arxiv.org/abs/2609.38470",
-      "summary": "arXiv:2609.38470v1 Announce Type: new Abstract: The Rheological Universal Differential Equation (RUDE) framework embeds neural networks within a frame-indifferent tensorial constitutive backbone and so enables data-drive…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Machine-Learned Interatomic Potential Free-Energy Surface for the First Step of MIL-101(Cr) Secondary Building Unit Formation",
-      "url": "https://arxiv.org/abs/2609.38518",
-      "summary": "arXiv:2609.38518v1 Announce Type: new Abstract: Metal-organic framework (MOF) self-assembly mechanisms remain poorly characterized because ab initio molecular dynamics (AIMD) are accurate but too computationally expensiv…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonreciprocal Polychromatic Radiation from a Dual Electric-Magnetic Space-Time-Modulated Meta-Transceiver",
-      "url": "https://arxiv.org/abs/2609.38542",
-      "summary": "arXiv:2609.38542v1 Announce Type: new Abstract: Time-modulated metasurfaces offer a magnet-free route to nonreciprocal wave control, but existing realizations modulate only the electric response of the structure, and pro…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Methodological Changes to the Attention ResUNet Hourly Precipitation Postprocessor",
-      "url": "https://arxiv.org/abs/2609.38609",
-      "summary": "arXiv:2609.38609v1 Announce Type: new Abstract: This note is a technical companion to a previously published preprint describing an Attention Residual U-Net that postprocesses deterministic forecasts from The Weather Com…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Liquid xenon positron target flow optimizations",
-      "url": "https://arxiv.org/abs/2609.38614",
-      "summary": "arXiv:2609.38614v1 Announce Type: new Abstract: In a previous work, we explored liquid xenon (LXe)-based positron targets as an alternative to conventional high-Z metallic targets for high energy physics applications. In…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Directional Control of Droplet Motion via Geometric Gating",
-      "url": "https://arxiv.org/abs/2609.38654",
-      "summary": "arXiv:2609.38654v1 Announce Type: new Abstract: We explore new methods for inducing the movement of water droplets on elastomeric substrates, such as polydimethylsiloxane (PDMS). Our approach builds upon the well-known p…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-verifying time-resolved multicomponent gas analysis from raw sensor signals",
-      "url": "https://arxiv.org/abs/2609.38663",
-      "summary": "arXiv:2609.38663v1 Announce Type: new Abstract: Gas sensor arrays can estimate the composition of gas mixtures from their response patterns. However, when a sensor is used outside the laboratory, the true gas concentrati…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear quantum effects enhance diffusion in supercooled ammonia through accelerated pyramidal inversion",
-      "url": "https://arxiv.org/abs/2609.38688",
-      "summary": "arXiv:2609.38688v1 Announce Type: new Abstract: In liquid ammonia, an imbalance between available hydrogen-bond donor and acceptor sites limits water-like tetrahedral connectivity, leaving sparse and short-lived associat…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Metaphotonics for High-Harmonic Generation",
-      "url": "https://arxiv.org/abs/2609.38727",
-      "summary": "arXiv:2609.38727v1 Announce Type: new Abstract: We summarise the recent advances on the generation of high-order harmonics in optical metaphotonic structures such as isolated resonators and metasurfaces. In such subwavel…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Separated flows over swept wings across transitional Reynolds numbers",
-      "url": "https://arxiv.org/abs/2609.38732",
-      "summary": "arXiv:2609.38732v1 Announce Type: new Abstract: We explore the effect of wing sweep on the interaction between leading-edge separation and tip vortex for a finite wing with sweep angles $\\Lambda=0^\\circ$ to $45^\\circ$, s…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Visual Understanding of Circular Dichroism Spectroscopy: The Case of Interacting Chromophores",
-      "url": "https://arxiv.org/abs/2609.38750",
-      "summary": "arXiv:2609.38750v1 Announce Type: new Abstract: Exciton coupling shapes the photophysical and chiroptical properties of molecular aggregates, but a microscopic, real-space understanding of how intermolecular interactions…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long-term Variations of Cyclone-Influenced Exchange Flows in the Coastal Arctic in 2000-2025",
-      "url": "https://arxiv.org/abs/2609.38763",
-      "summary": "arXiv:2609.38763v1 Announce Type: new Abstract: Summertime synoptic weather regulates Arctic land-ocean exchange through meteorological tides during the ice-free period, when the predominantly easterly regime of the Beau…",
-      "ts": 1790827200000,
-      "publishedAt": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kilopixel Performance of the Kinetic Inductance Detectors for the Terahertz Intensity Mapper",
-      "url": "https://arxiv.org/abs/2609.38769",
-      "summary": "arXiv:2609.38769v1 Announce Type: new Abstract: We characterize a flight-grade array of lumped-element kinetic inductance detectors (LEKIDs) developed for the long-wavelength module of the Terahertz Intensity Mapper (TIM…",
       "ts": 1790827200000,
       "publishedAt": "2026-10-01T04:00:00.000Z"
     }

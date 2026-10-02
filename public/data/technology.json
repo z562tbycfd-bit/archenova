@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-10-01T21:38:18.529Z",
+  "updated": "2026-10-02T01:22:51.738Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Proteomics Maps Eye-Infecting Acanthamoeba Mitochondria Across Oxygen Levels",
+      "url": "https://www.genengnews.com/topics/omics/proteomics-maps-eye-infecting-acanthamoeba-mitochondria-across-oxygen-levels/",
+      "summary": "A new catalog of 1,122 mitochondrial proteins reveals how Acanthamoeba adapts to oxygen loss—and may highlight possible targets for treating sight-threatening infections. The post Proteomics Maps Eye-Infecting <i>Acantha…",
+      "ts": 1790901211000,
+      "publishedAt": "2026-10-02T00:33:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "10 Things: Movie Night",
+      "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
+      "summary": "Join Us for Movie Night with NASA NASA’s mission is to pioneer the future in space exploration and scientific discovery. NASA+ documentaries allow you to come along for the ride. It’s free. It’s on demand. And no subscri…",
+      "ts": 1790900736000,
+      "publishedAt": "2026-10-02T00:25:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the c…",
+      "ts": 1790898253000,
+      "publishedAt": "2026-10-01T23:44:13.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Medicare Advantage plans shift more costs onto seniors in 2027",
@@ -783,33 +810,6 @@
       "summary": "arXiv:2607.21561v2 Announce Type: replace-cross Abstract: Molecular graph encoding often relies on a single, static structure, ignoring the thermodynamic ensemble of molecules that are present in solution. Here, we intro…",
       "ts": 1790827200000,
       "publishedAt": "2026-10-01T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Galileo Space Is Building Satellites That Turn Signals Into Answers in Orbit",
-      "url": "https://spacenews.com/galileo-space-is-building-satellites-that-turn-signals-into-answers-in-orbit/",
-      "summary": "Galileo Space is building satellites designed to turn signals into answers in orbit. Modern defense and commercial operations need fast answers about what is happening and where. Existing systems can […] The post Galileo…",
-      "ts": 1790814248000,
-      "publishedAt": "2026-10-01T00:24:08.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Cell",
-      "title": "Glioma margins gain a third dimension before surgery ends",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01071-8?rss=yes",
-      "summary": "In this issue of Cell, Liu et al. introduce ULTRA, which combines rapid tissue clearing, single-channel stimulated Raman scattering, and AI to generate cell-resolved three-dimensional virtual histology of intact glioma s…",
-      "ts": 1790812800000,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
       "categoryId": "bio"
     }
   ],
