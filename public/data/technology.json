@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-10-02T08:05:43.569Z",
+  "updated": "2026-10-02T15:30:10.827Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Access to addiction meds for young people has improved — but retention hasn’t",
+      "url": "https://www.statnews.com/2026/10/02/youth-opioid-treatment-retention-study-barriers-to-care/?utm_campaign=rss",
+      "summary": "Only a small fraction of young people with opioid use disorder receive addiction medications, and few stay on them for long, a study finds.",
+      "ts": 1790953200000,
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "An Ebola treatment center was burned down as the death toll in Congo passes 4,000",
+      "url": "https://www.statnews.com/2026/10/02/ebola-outbreak-congo-4000-deaths/?utm_campaign=rss",
+      "summary": "Congo's Ebola outbreak has killed more than 4,000 people, authorities said, as they struggle to contain what has become the fastest-growing Ebola outbreak in history.",
+      "ts": 1790951100000,
+      "publishedAt": "2026-10-02T14:25:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lilly bypasses Australian pharmacies with DTC model",
+      "url": "https://www.statnews.com/2026/10/02/biotech-news-lilly-bypasses-australian-phramacies-with-dtc-model/?utm_campaign=rss",
+      "summary": "Eli Lilly is launching LillyDirect to deliver Mounjaro straight to Australian patients’ doors — and local doctors and pharmacists aren’t thrilled.",
+      "ts": 1790949511000,
+      "publishedAt": "2026-10-02T13:58:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1790947202000,
+      "publishedAt": "2026-10-02T13:20:02.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about the 340B drug pilot program, an obesity drug disappointment, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/?utm_campaign=rss",
+      "summary": "The U.S. approved 10 drugmakers to participate in a 340B pilot program that will allow them to offer rebates, instead of upfront discounts, to certain providers",
+      "ts": 1790946676000,
+      "publishedAt": "2026-10-02T13:11:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 28 Sep - 2 Oct 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_28_Sep_-_2_Oct_2026",
+      "summary": "Week in images: 28 Sep - 2 Oct 2026 Discover our week through the lens",
+      "ts": 1790946600000,
+      "publishedAt": "2026-10-02T13:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Com…",
+      "ts": 1790946039000,
+      "publishedAt": "2026-10-02T13:00:39.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a biological de-aging contest and why LLMs don’t reason",
+      "url": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —J…",
+      "ts": 1790943000000,
+      "publishedAt": "2026-10-02T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Escalating fighting in Yemen deepens food security crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168509",
+      "summary": "Renewed conflict in Yemen has triggered a surge in hunger that could have consequences in the wider region and beyond, the World Food Programme (WFP) warned on Friday.",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza: WHO appeals for massive aid influx ahead of winter",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168508",
+      "summary": "Repeated delays in bringing lifesaving medicines, prosthetics and more from Israel into Gaza risk having devastating consequences on Palestinians who urgently need them in the war-torn enclave, the UN World Health Organi…",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘I have not lost my dreams’: Refugee education funding cuts threaten millions",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168506",
+      "summary": "A teenage girl who fled war-torn Sudan for neighbouring Egypt and hopes to pursue a technology degree is an example of why countries must ensure that young refugees can continue to learn.",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "How big is Pennsylvania’s measles outbreak? ",
+      "url": "https://www.statnews.com/2026/10/02/health-news-how-big-is-pennsylvania-measles-outbreak/?utm_campaign=rss",
+      "summary": "News of a fifth measles death in Pennsylvania underscores a longstanding issue about the disease. The full scope of the outbreak — in the state and in the country —…",
+      "ts": 1790942023000,
+      "publishedAt": "2026-10-02T11:53:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Beyond the airlock - Sophie Adenot's three spacewalks",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Beyond_the_airlock_-_Sophie_Adenot_s_three_spacewalks",
+      "summary": "Video: 00:08:40 For ESA astronaut Sophie Adenot, her first steps into space were only the beginning. In less than 15 days, she performed three extravehicular activities, or EVAs, spending 19 hours and 42 minutes outside …",
+      "ts": 1790935200000,
+      "publishedAt": "2026-10-02T10:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A new contest pits competitors against each other in a race to biological youth",
+      "url": "https://www.technologyreview.com/2026/10/02/1145610/younger-contest-race-to-biological-youth/",
+      "summary": "This week, I officially signed up for an unusual competition. One that rewards competitors for getting younger. I recently turned 40, and I don’t need reminding that both time and my chronological age only tick forward. …",
+      "ts": 1790931600000,
+      "publishedAt": "2026-10-02T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Typhoon Surigae",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Typhoon_Surigae",
+      "summary": "Image: This false-colour, polarised image from Copernicus Sentinel-1 shows us the surface of the sea beneath the clouds, as seen by the satellite’s radar instrument. The sea conditions reflect the strong winds as Typhoon…",
+      "ts": 1790931600000,
+      "publishedAt": "2026-10-02T09:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 369 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-369-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1790930700000,
+      "publishedAt": "2026-10-02T08:45:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: NIH awarded all its grant funding, but delayed and opaque decisions stymied researchers",
+      "url": "https://www.statnews.com/2026/10/02/nih-grant-funding-fy2026-analysis/?utm_campaign=rss",
+      "summary": "The NIH continued reducing grants involving health disparities, race, and ethnicity but made little progress toward other administration priorities in the 2026 fiscal year.",
+      "ts": 1790929800000,
+      "publishedAt": "2026-10-02T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The law has to catch up on orphan-designated drugs with multiple uses",
+      "url": "https://www.statnews.com/2026/10/02/340b-policy-orphan-designated-drugs-pharmacy-losses-hrsa-congress/?utm_campaign=rss",
+      "summary": "The law has to catch up on the 340B drug discount program, writes a pharmacist.",
+      "ts": 1790929800000,
+      "publishedAt": "2026-10-02T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I treated heat stroke at the NYC Marathon. Marathons need to prepare for a climate-changed world",
+      "url": "https://www.statnews.com/2026/10/02/marathons-climate-change-extreme-heat-medical-planning/?utm_campaign=rss",
+      "summary": "A doctor’s request to marathons: Let’s make evidence-based medical plans — especially for extreme heat.",
+      "ts": 1790929800000,
+      "publishedAt": "2026-10-02T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Don’t be fooled—LLMs don’t reason",
+      "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+      "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked s…",
+      "ts": 1790928000000,
+      "publishedAt": "2026-10-02T08:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Jammertest pumps up the jam in Norway",
+      "url": "https://www.esa.int/Applications/Satellite_navigation/Jammertest_pumps_up_the_jam_in_Norway",
+      "summary": "Every September, for one week, the airwaves above the Arctic island of Andøya, Norway, become some of the most heavily attacked in the world. For a good reason: Jammertest. From the small village of Bleik, 69 degrees nor…",
+      "ts": 1790924700000,
+      "publishedAt": "2026-10-02T07:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Mexico Strengthens Expertise for Long-Term Nuclear Power Plant Operation",
+      "url": "http://www.iaea.org/newscenter/news/mexico-strengthens-expertise-for-long-term-nuclear-power-plant-operation",
+      "summary": "An IAEA training course held at Mexico’s only nuclear power plant, Laguna Verde, brought together 30 national nuclear professionals for training tailored to the plant’s needs.",
+      "ts": 1790920830000,
+      "publishedAt": "2026-10-02T06:00:30.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
+      "url": "http://www.iaea.org/newscenter/multimedia/videos/iaea-medical-assistance-supports-ukraines-nuclear-workers",
+      "summary": "",
+      "ts": 1790920800000,
+      "publishedAt": "2026-10-02T06:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Field closure, ice neurons, and when a dendrite is a motif",
@@ -603,213 +810,6 @@
       "summary": "In this edition of STAT Health Tech: A California insurer on how it may replicate Medicare's tech-enabled chronic-care experiment.",
       "ts": 1790863371000,
       "publishedAt": "2026-10-01T14:02:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Provides Crash Course on Planet-Shattering Collisions",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
-      "summary": "In the early history of our solar system, scientists theorize that a Mars-sized object called Theia smashed into the infant Earth, vaporizing massive amounts of rock and blasting it into space. Some of that material coal…",
-      "ts": 1790863200000,
-      "publishedAt": "2026-10-01T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a plan to lower Medicare drug prices, a Lilly obesity drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss",
-      "summary": "A final Medicare rule aimed at lowering prices for doctor-administered drugs applies to only four companies and saves 96% less than the initial proposal",
-      "ts": 1790861218000,
-      "publishedAt": "2026-10-01T13:26:58.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Fall Into 25 New Games on GeForce NOW This October",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
-      "summary": "Spooky season is streaming in. Alongside falling leaves, pumpkin spice and everything nice, 25 new games are joining GeForce NOW throughout October, including six ready to play this week. From a new CONTROL Resonant rewa…",
-      "ts": 1790859654000,
-      "publishedAt": "2026-10-01T13:00:54.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
-      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-      "summary": "AI factories are built by the megawatt, even by the gigawatt. Each megawatt factory costs roughly $60 million, and AI factory operators will only commit capital on that scale with a clear view of the return on investment…",
-      "ts": 1790859649000,
-      "publishedAt": "2026-10-01T13:00:49.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "China launches Guowang, Yaogan-40 satellites, sets up busy Q4 manifest",
-      "url": "https://spacenews.com/china-launches-guowang-yaogan-40-satellites-sets-up-busy-q4-manifest/",
-      "summary": "HELSINKI — China completed its ninth and tenth launches of September, sending Guowang and Yaogan satellites into orbit, ahead of an intense finish to the year. A Long March 8A […] The post China launches Guowang, Yaogan-…",
-      "ts": 1790858792000,
-      "publishedAt": "2026-10-01T12:46:32.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "What happened this month at the European Space Agency? (September 2026)",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
-      "summary": "Video: 00:03:32 September was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo sepa…",
-      "ts": 1790857800000,
-      "publishedAt": "2026-10-01T12:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
-      "url": "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain …",
-      "ts": 1790856600000,
-      "publishedAt": "2026-10-01T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN Member States weigh latest Security Council veto, this time on Iran",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168505",
-      "summary": "The General Assembly met on Thursday to examine the Security Council’s latest veto, cast by China and Russia over a United States-backed sanctions panel of experts on Iran nuclear facilities.",
-      "ts": 1790856000000,
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "No more execution attempts on Christa Pike: UN rights chief",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168504",
-      "summary": "The UN human rights chief and nine independent rights experts on Thursday called on authorities in Tennessee not to pursue any further attempts to execute Christa Pike, saying her case highlights multiple concerns surrou…",
-      "ts": 1790856000000,
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Marshall Islands nuclear legacy, FlyDubai attack condemned, Ukraine update, breast cancer treatment expanded in West Bank",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168503",
-      "summary": "The enduring radioactive legacy of US nuclear bomb testing in the Marshall Islands took centre stage at the Human Rights Council on Thursday.",
-      "ts": 1790856000000,
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Women are not victims’: Türk calls for women to be at the heart of peace and security",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168502",
-      "summary": "Women must be at the centre of efforts to prevent conflict and build lasting peace, UN High Commissioner for Human Rights Volker Türk said on Thursday.",
-      "ts": 1790856000000,
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Nepal floods threaten jobs and livelihoods beyond disaster zone: ILO",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168500",
-      "summary": "The deadly flash floods in northern Nepal have severely disrupted employment and livelihoods, with wider impacts beyond communities that were directly affected, the International Labour Organization (ILO) said in a preli…",
-      "ts": 1790856000000,
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ebola response faces setback as transit centre burns down in DR Congo camp",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168499",
-      "summary": "The enormous challenge of halting the spread of Ebola in the Democratic Republic of the Congo (DRC) just became even harder after a key transit centre for patients requiring treatment burned down in Ituri province.",
-      "ts": 1790856000000,
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Trump administration appeals ruling blocking limits on international student visas",
-      "url": "https://www.statnews.com/2026/10/01/health-news-trump-administration-appeals-ruling-blocking-student-visa-limits/?utm_campaign=rss",
-      "summary": "DHS has appealed a court ruling blocking it from restricting how long international students and postdoctoral researchers can remain in the U.S.",
-      "ts": 1790855422000,
-      "publishedAt": "2026-10-01T11:50:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "An AI “mind-reading” tool can reconstruct what you’re looking at from a brain scan",
-      "url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
-      "summary": "A new AI tool can guess what you’re looking at just by analyzing your brain scans—and re-create that image with remarkable precision. It can go the other way, too, and predict a person’s brain activity based on what they…",
-      "ts": 1790850744000,
-      "publishedAt": "2026-10-01T10:32:24.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Invivyd’s pursuit of a Covid vaccine alternative gets a lift, but an FDA hurdle may await",
-      "url": "https://www.statnews.com/2026/10/01/invivyds-covid-antibody-development/?utm_campaign=rss",
-      "summary": "The small biotech company Invivyd is developing an injectable, low-dose monoclonal antibody to protect against Covid.",
-      "ts": 1790850600000,
-      "publishedAt": "2026-10-01T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why a Huntington’s patient isn’t fazed by the waning effect of UniQure’s gene therapy",
-      "url": "https://www.statnews.com/2026/10/01/huntingtons-disease-uniqure-drug-study-results-patients/?utm_campaign=rss",
-      "summary": "Questions about the durability of an experimental Huntington's disease therapy matter to Wall Street. They matter less to those directly affected by the disease.",
-      "ts": 1790850600000,
-      "publishedAt": "2026-10-01T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How smaller, distributed batteries could help the grid",
-      "url": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
-      "summary": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstac…",
-      "ts": 1790848800000,
-      "publishedAt": "2026-10-01T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In Shanghai’s ‘Science City,’ China’s ascendant biotechs make their pitch to the world",
-      "url": "https://www.statnews.com/2026/10/01/china-biotech-boom-jefferies-conference-shanghai/?utm_campaign=rss",
-      "summary": "A small conference with big ambitions mirrors the rapid growth of Chinese biotech, invites comparisons to U.S. biotech gathering also known for deal-making.",
-      "ts": 1790843400000,
-      "publishedAt": "2026-10-01T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Can a top Republican from a bygone political era fix pharma’s woes in Washington?",
-      "url": "https://www.statnews.com/2026/10/01/eric-cantor-phrma-populist-drug-policy/?utm_campaign=rss",
-      "summary": "In Washington, Eric Cantor will confront bipartisan backlash over rising health care costs.",
-      "ts": 1790843400000,
-      "publishedAt": "2026-10-01T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Two key Senate health committees face major shake-ups",
-      "url": "https://www.statnews.com/2026/10/01/midterm-election-health-care-policy-impact-senate-republican-turnover/?utm_campaign=rss",
-      "summary": "Senate committees that handle important health care matters are about to see major GOP turnover. Here's what that means.",
-      "ts": 1790843400000,
-      "publishedAt": "2026-10-01T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I studied GLP-1 use in children. The results are reassuring",
-      "url": "https://www.statnews.com/2026/10/01/glp-1-weight-loss-drugs-children-research-obesity-disease/?utm_campaign=rss",
-      "summary": "“Intervening in childhood could save children from decades of irreversible damage,” a transplant surgeon writes of GLP-1 weight loss drugs.",
-      "ts": 1790843400000,
-      "publishedAt": "2026-10-01T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Claude analyzed my genome in 30 minutes. Now we need standards for the results",
-      "url": "https://www.statnews.com/2026/10/01/claude-ai-genome-analysis-standards-ethics/?utm_campaign=rss",
-      "summary": "In 2009, analyzing Euan Ashley’s whole genome took 30 people and almost a year. In 2026, he writes, Claude did it in 30 minutes for about $5.",
-      "ts": 1790843400000,
-      "publishedAt": "2026-10-01T08:30:00.000Z",
       "categoryId": "bio"
     }
   ],
