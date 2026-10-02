@@ -498,23 +498,7 @@ export default function GatePage() {
                   ↗
                 </span>
               </Link>
-
-              <a
-                href="https://x.com/ArcheNova_X"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="an-gate__external an-optical-glass"
-              >
-                <span>
-                  EXPLORE ON X
-                </span>
-
-                <span
-                  aria-hidden="true"
-                >
-                  ↗
-                </span>
-              </a>
+              
             </div>
           </div>
 
@@ -613,7 +597,7 @@ export default function GatePage() {
 
         <footer className="an-gate__footer">
           <span className="an-gate__footer-right">
-            All rights reserved.
+            All RIGHTS RESERVED
           </span>
 
           <span className="an-gate__footer-left">
