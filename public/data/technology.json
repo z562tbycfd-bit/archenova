@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-02T20:27:07.658Z",
+  "updated": "2026-10-03T00:14:18.321Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Watching Cancer Proteins in Real Time, with Help from Rare Earth Elements",
+      "url": "https://www.genengnews.com/topics/translational-medicine/watching-cancer-proteins-in-real-time-with-help-from-rare-earth-elements/",
+      "summary": "A long-duration single-molecule imaging platform from the Broad Institute and MIT has revealed unexpected stability in homodimers of HER3, one of the most enigmatic members of the ErbB receptor family. The post Watching …",
+      "ts": 1790973878000,
+      "publishedAt": "2026-10-02T20:44:38.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "NIH rolling out streamlined website to help public find information more easily",
@@ -49,9 +58,9 @@
     },
     {
       "source": "Genetic Engineering News",
-      "title": "FDA to Highlight Aging, Longevity Medicine in Planned FARS Update",
+      "title": "FDA to Highlight Aging, Longevity Medicine in Planned FARS Updates",
       "url": "https://www.genengnews.com/topics/translational-medicine/fda-to-highlight-aging-longevity-medicine-in-planned-fars-update/",
-      "summary": "FDA Chief Scientist Steven Kozlowski, MD, said the updated FARS would come out early in FY 2027 but offered no further specifics on timing. The post FDA to Highlight Aging, Longevity Medicine in Planned FARS Update appea…",
+      "summary": "FDA Chief Scientist Steven Kozlowski, MD, said the updated FARS would come out early in FY 2027 but offered no further specifics on timing. The post FDA to Highlight Aging, Longevity Medicine in Planned FARS Updates appe…",
       "ts": 1790966354000,
       "publishedAt": "2026-10-02T18:39:14.000Z",
       "categoryId": "bio"
@@ -190,6 +199,15 @@
       "ts": 1790943000000,
       "publishedAt": "2026-10-02T12:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Money alone won’t get us there’: UN steps up aid for 12 forgotten crises",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168516",
+      "summary": "Getting aid to people in the world’s most neglected emergencies takes more than money. It takes open roads, open borders and leaders willing to help it reach those in dire need.",
+      "ts": 1790942400000,
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1790900736000,
       "publishedAt": "2026-10-02T00:25:36.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "ts": 1790899200000,
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the c…",
-      "ts": 1790898253000,
-      "publishedAt": "2026-10-01T23:44:13.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

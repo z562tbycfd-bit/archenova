@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-10-02T20:27:03.943Z",
+  "updated": "2026-10-03T00:14:16.302Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Team selected for NASA program to explore potential lunar cave",
+      "url": "https://phys.org/news/2026-10-team-nasa-explore-potential-lunar.html",
+      "summary": "NASA has selected a Planetary Science Institute–led proposal to investigate whether a potentially large underground cave extends beyond the opening of a lunar pit. Such a cave may one day provide a safe haven for astrona…",
+      "ts": 1790983206000,
+      "publishedAt": "2026-10-02T23:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Changes to platinum surface chemistry boost solar hydrogen production in organic photocatalysts",
+      "url": "https://phys.org/news/2026-10-platinum-surface-chemistry-boost-solar.html",
+      "summary": "Researchers from the LIMNO laboratory at EPFL have uncovered how different halides modify the surface chemistry of organic semiconductor nanoparticle photocatalysts. By controlling these phenomena, they have significantl…",
+      "ts": 1790979601000,
+      "publishedAt": "2026-10-02T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers turn America's scattered local laws into a free searchable database covering all 50 states",
+      "url": "https://phys.org/news/2026-10-america-local-laws-free-searchable.html",
+      "summary": "America is a nation of local laws—millions of them. From noise ordinances and construction codes to rules about fishing licenses and roadside mango peddling, every town, city and county has its own set of regulations and…",
+      "ts": 1790977209000,
+      "publishedAt": "2026-10-02T21:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Marine biologists discover new plankton off Oregon coast",
+      "url": "https://phys.org/news/2026-10-marine-biologists-plankton-oregon-coast.html",
+      "summary": "Nearly every morning when she was a doctoral student in the College of Arts and Sciences (CAS), Nicole Nakata, Ph.D. '23 (biology), would cross the street from the Oregon Institute of Marine Biology (OIMB) in Charleston,…",
+      "ts": 1790976002000,
+      "publishedAt": "2026-10-02T21:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mowing less, spraying smarter give pollinators a boost",
+      "url": "https://phys.org/news/2026-10-spraying-smarter-pollinators-boost.html",
+      "summary": "Roadsides may not look like wildlife habitat, but a few simple changes to how they are maintained could turn them into much better places for pollinators. A new uOttawa-led study found that reducing mowing and herbicide …",
+      "ts": 1790974804000,
+      "publishedAt": "2026-10-02T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover first type I superconductor that breaks time-reversal symmetry",
+      "url": "https://phys.org/news/2026-10-scientists-superconductor-reversal-symmetry.html",
+      "summary": "Superconductors are materials that conduct electricity with no resistance and expel magnetic fields when cooled to ultralow temperatures. And depending on their quantum structure, they can also showcase strange propertie…",
+      "ts": 1790974801000,
+      "publishedAt": "2026-10-02T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "On complex political issues, most Americans take shortcuts to simplicity",
+      "url": "https://phys.org/news/2026-10-complex-political-issues-americans-shortcuts.html",
+      "summary": "A core assumption in any democracy is that citizens with access to information will make reasoned decisions on political candidates and policy issues. But a new study by UC Berkeley social scientists finds that Americans…",
+      "ts": 1790973602000,
+      "publishedAt": "2026-10-02T20:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "American beech trees may carry genetic resistance to deadly leaf disease",
@@ -743,62 +799,6 @@
       "title": "Weather Jiu-Jitsu: Exploring the Feasibility of Control Paradigms in Weather Foundation Models",
       "url": "https://arxiv.org/abs/2610.00792",
       "summary": "arXiv:2610.00792v1 Announce Type: new Abstract: Weather Jiu-Jitsu is a control paradigm for extreme climatological events, inspired by chaos theory. As a proposition, small, precise, targeted, and cost-inexpensive pertur…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Gain Layer Doping Concentration on the Performance of 4H-SiC LGADs",
-      "url": "https://arxiv.org/abs/2610.00824",
-      "summary": "arXiv:2610.00824v1 Announce Type: new Abstract: Gain layer doping concentration determines the electric field profile in a low gain avalanche detector (LGAD) and is therefore the primary design parameter. This work repor…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite Element Simulation of Microwave Technologies for PowderBased Volumetric Additive Manufacturing Processes",
-      "url": "https://arxiv.org/abs/2610.00842",
-      "summary": "arXiv:2610.00842v1 Announce Type: new Abstract: Volumetric additive manufacturing (VAM) is a promising field of advanced manufacturing which reduces production times of conventional 3D printing while retaining applicatio…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Is Your AI Fast Enough to Run a Fusion Reactor?",
-      "url": "https://arxiv.org/abs/2610.00845",
-      "summary": "arXiv:2610.00845v1 Announce Type: new Abstract: Machine learning models are increasingly used in feedback control loops for nuclear fusion, where inference speed and predictable timing are critical. We summarize lessons …",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Energy-Force Weighting to Primal-Dual Optimization of Machine-Learned Interatomic Potentials",
-      "url": "https://arxiv.org/abs/2610.00876",
-      "summary": "arXiv:2610.00876v1 Announce Type: new Abstract: Machine-learned interatomic potentials are commonly fitted by weighted-sum scalarization, which combines energy and force errors in a single loss. A nominal weight, however…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transport Impacts of Resonant Island Chains in Fusion Plasmas",
-      "url": "https://arxiv.org/abs/2610.00919",
-      "summary": "arXiv:2610.00919v1 Announce Type: new Abstract: Magnetic field-line transport in magnetically confined plasmas is commonly modeled as diffusion through stochastic magnetic layers generated by resonant perturbations. Howe…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automated Many-Body Simulations of Strongly Correlated Systems Using a Correlation-Aware Agentic Framework",
-      "url": "https://arxiv.org/abs/2610.00943",
-      "summary": "arXiv:2610.00943v1 Announce Type: new Abstract: We present CAFES, a correlation-aware agentic framework for electronic-structure simulations of strongly correlated systems. CAFES addresses two challenges: the fragmented …",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Recent increase in near-perpendicular tropical cyclone landfall fraction projected to emerge under high-emissions warming",
-      "url": "https://arxiv.org/abs/2610.00975",
-      "summary": "arXiv:2610.00975v1 Announce Type: new Abstract: Tropical cyclone landfall angle strongly modulates storm-surge potential, but how it changes with climate remains unknown. From 1980 to 2024, the global fraction of near-pe…",
       "ts": 1790913600000,
       "publishedAt": "2026-10-02T04:00:00.000Z"
     }
