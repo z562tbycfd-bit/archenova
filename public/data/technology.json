@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-03T12:18:42.151Z",
+  "updated": "2026-10-03T17:03:01.808Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "Uganda’s UN-supported wildlife forensics lab turns ivory seizures into convictions",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168469",
+      "summary": "The package originated in Entebbe, Uganda, bound for Cairo, containing 10 kilograms of thumb-sized pieces that could have been either bone or elephant ivory.",
+      "ts": 1791028800000,
+      "publishedAt": "2026-10-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
@@ -801,15 +810,6 @@
       "summary": "arXiv:2609.28597v2 Announce Type: replace-cross Abstract: Rooted phylogenetic networks are widely used to represent the evolution of species that have undergone reticulate processes. However, these networks can be highly…",
       "ts": 1790913600000,
       "publishedAt": "2026-10-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Proteomics Maps Eye-Infecting Acanthamoeba Mitochondria Across Oxygen Levels",
-      "url": "https://www.genengnews.com/topics/omics/proteomics-maps-eye-infecting-acanthamoeba-mitochondria-across-oxygen-levels/",
-      "summary": "A new catalog of 1,122 mitochondrial proteins reveals how Acanthamoeba adapts to oxygen loss—and may highlight possible targets for treating sight-threatening infections. The post Proteomics Maps Eye-Infecting <i>Acantha…",
-      "ts": 1790901211000,
-      "publishedAt": "2026-10-02T00:33:31.000Z",
       "categoryId": "bio"
     }
   ],
