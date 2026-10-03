@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-03T17:02:58.796Z",
+  "updated": "2026-10-03T20:44:47.920Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Today's emissions choices could limit Antarctic ice loss and sea-level rise for coastal communities",
+      "url": "https://phys.org/news/2026-10-today-emissions-choices-limit-antarctic.html",
+      "summary": "Cutting greenhouse gas emissions now may limit how much ice Antarctica loses this century and reduce the sea-level rise facing coastal communities, according to findings from a new study.",
+      "ts": 1791057601000,
+      "publishedAt": "2026-10-03T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New reactor design improves plastic feedstock synthesis using oxygen and electricity",
+      "url": "https://phys.org/news/2026-09-reactor-plastic-feedstock-synthesis-oxygen.html",
+      "summary": "A \"hidden variable\" that can determine the success or failure of a chemical reaction has been found in the immediate vicinity of electrodes.",
+      "ts": 1791055201000,
+      "publishedAt": "2026-10-03T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Recovery after intimate partner violence: New study reveals what works",
+      "url": "https://phys.org/news/2026-09-recovery-intimate-partner-violence-reveals.html",
+      "summary": "Violence in the home can range from intimidation to physical abuse. When it occurs there, we refer to it as domestic violence. Every year, more than 1 million people in the Netherlands age 16 and older experience domesti…",
+      "ts": 1791050401000,
+      "publishedAt": "2026-10-03T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reading hidden topology in light, even when energy leaks away",
+      "url": "https://phys.org/news/2026-10-hidden-topology-energy-leaks.html",
+      "summary": "When I explain topology to students, I start with a knot in a rope. You can stretch it, twist it or shake it, but the knot stays until you cut the rope. Physicists have found that some materials and devices carry similar…",
+      "ts": 1791049201000,
+      "publishedAt": "2026-10-03T17:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Q&A: An Earth-like planet with two suns?",
@@ -134,6 +166,14 @@
       "source": "Nature Communications",
       "title": "Thermally programmed disassembly and reconstruction of 2D polymer platelets via melting-governed crystallization-driven self-assembly",
       "url": "https://www.nature.com/articles/s41467-026-77973-4",
+      "summary": "",
+      "ts": 1790985600000,
+      "publishedAt": "2026-10-03T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Sustainability cost of defect engineering in color centers for quantum communications",
+      "url": "https://www.nature.com/articles/s41467-026-78261-x",
       "summary": "",
       "ts": 1790985600000,
       "publishedAt": "2026-10-03T00:00:00.000Z"
@@ -761,46 +801,6 @@
       "summary": "Author(s): Yapeng Dou, Yihua Zhong, Lingli Ba, Jianmin Zhao, Dongyang Wang, Quan Li, Junliang Yang, and Quanlong Yang Active control of chiroptical responses in metasurfaces is critical for advancing photonic spin-select…",
       "ts": 1790935200000,
       "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Optically induced thermal demagnetization and switching of antiferromagnetic domains in NiO and CoO thin films",
-      "url": "http://link.aps.org/doi/10.1103/jsdr-j4h6",
-      "summary": "Author(s): Maciej Dąbrowski, Tong Wu, Connor R. J. Sait, Jia Xu, Paul S. Keatley, Yizheng Wu, Robert J. Hicken, and Olena Gomonay Antiferromagnets are promising for fast, energy-efficient, high-density memory technologie…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Mid-infrared single-pixel imaging with a large-area GaAs sensor",
-      "url": "http://link.aps.org/doi/10.1103/6slr-r94y",
-      "summary": "Author(s): Huijie Ma, Ziyu He, Jianan Fang, Yanan Li, Ruiyang Qin, Wen Zhang, Jixi Zhang, Min Peng, Zhuohang Wei, Kun Huang, and Heping Zeng Nondegenerate two-photon absorption (ND-TPA) detection has emerged as a highly …",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Single-spin nitrogen-vacancy hybrid magnetometer with enhanced static field sensitivity",
-      "url": "http://link.aps.org/doi/10.1103/z5x1-9rng",
-      "summary": "Author(s): Vinaya K. Kavatamane, Dewen Duan, Hadi Zadeh-Haghighi, Manh-Huong Phan, and Gopalakrishnan Balasubramanian Precision sensing and imaging of weak static magnetic fields are crucial for a variety of emerging nan…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Europe's hottest summer caused record heat stress: Monitor",
-      "url": "https://phys.org/news/2026-10-europe-hottest-summer-stress.html",
-      "summary": "A record 52% of Europe was exposed to intense heat stress during the exceptionally hot summer that seared the continent this year, the EU's climate monitor said Friday.",
-      "ts": 1790926802000,
-      "publishedAt": "2026-10-02T07:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Return of swarming moth spectacle has Australia in a flutter",
-      "url": "https://phys.org/news/2026-10-swarming-moth-spectacle-australia-flutter.html",
-      "summary": "Moth swarms so thick they can blot out the stars are fluttering across Australia, heralding a migratory spectacle unseen since the creature's brush with extinction nearly 10 years ago.",
-      "ts": 1790923201000,
-      "publishedAt": "2026-10-02T06:40:01.000Z"
     }
   ],
   "sources": [
