@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-03T20:44:47.920Z",
+  "updated": "2026-10-03T23:35:10.874Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Feeling secure in a group may help dissenters make stronger arguments",
+      "url": "https://phys.org/news/2026-09-group-dissenters-stronger-arguments.html",
+      "summary": "When everyone in a meeting voices the same opinion, an organization can miss important warning signs and new ideas. A research team from KAIST suggests that when members feel securely accepted within their group, they ca…",
+      "ts": 1791061206000,
+      "publishedAt": "2026-10-03T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How can the same El Niño cause drought in one part of the world and floods in another?",
+      "url": "https://phys.org/news/2026-09-el-nio-drought-world.html",
+      "summary": "The Pacific Ocean is warming unusually quickly, and this year's El Niño has already surpassed previous records. Forecasters expect it to strengthen even further before approaching its usual peak around December.",
+      "ts": 1791061201000,
+      "publishedAt": "2026-10-03T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Today's emissions choices could limit Antarctic ice loss and sea-level rise for coastal communities",
@@ -783,22 +799,6 @@
       "title": "Nature Is Stingy: Universality of Scrooge Ensembles in Quantum Many-Body Systems",
       "url": "http://link.aps.org/doi/10.1103/tb52-jxmx",
       "summary": "Author(s): Wai-Keong Mok, Tobias Haug, Wen Wei Ho, and John Preskill Researchers introduce Scrooge k-designs to quantify how constrained quantum systems achieve universal randomness and deep thermalization. [Phys. Rev. X…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Observation of spin-dependent transient hybrid skin-topological effect",
-      "url": "http://link.aps.org/doi/10.1103/gdpz-tdbz",
-      "summary": "Author(s): Zeheng Huang, Mian Peng, Aowei Yang, Yongzhi Tian, Qiang Wei, and Gang Chen Unlike the conventional non-Hermitian skin effect (NHSE) that localizes bulk wave functions to the boundary, the hybrid skin-topologi…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Dual-modulation-driven triple state control of optical chirality in a heterostructure metasurface",
-      "url": "http://link.aps.org/doi/10.1103/3wlv-dmd4",
-      "summary": "Author(s): Yapeng Dou, Yihua Zhong, Lingli Ba, Jianmin Zhao, Dongyang Wang, Quan Li, Junliang Yang, and Quanlong Yang Active control of chiroptical responses in metasurfaces is critical for advancing photonic spin-select…",
       "ts": 1790935200000,
       "publishedAt": "2026-10-02T10:00:00.000Z"
     }
