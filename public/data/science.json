@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-10-03T00:14:16.302Z",
+  "updated": "2026-10-03T06:09:55.148Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why tenants choose to move out in connection with renovation",
+      "url": "https://phys.org/news/2026-10-tenants-renovation.html",
+      "summary": "One in three tenants who moved out of a municipal rental apartment in Gothenburg in connection with renovation said the renovation was a main reason for their decision, and many of them moved out even before construction…",
+      "ts": 1790991601000,
+      "publishedAt": "2026-10-03T01:40:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Thermally programmed disassembly and reconstruction of 2D polymer platelets via melting-governed crystallization-driven self-assembly",
+      "url": "https://www.nature.com/articles/s41467-026-77973-4",
+      "summary": "",
+      "ts": 1790985600000,
+      "publishedAt": "2026-10-03T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Monolithic three-dimensionally integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing",
+      "url": "https://www.nature.com/articles/s41467-026-78364-5",
+      "summary": "",
+      "ts": 1790985600000,
+      "publishedAt": "2026-10-03T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Team selected for NASA program to explore potential lunar cave",
@@ -775,30 +799,6 @@
       "title": "On the spectra of strong turbulence on water surfaces",
       "url": "https://arxiv.org/abs/2610.00777",
       "summary": "arXiv:2610.00777v1 Announce Type: new Abstract: Here, I give a brief history of the theory, with twists and turns, and list possible predictions for the spectra of the direct cascade of gravity waves on the water. The de…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Can we create a `race to the top' for weather forecasts to inform smallholder farmer decisions?",
-      "url": "https://arxiv.org/abs/2610.00782",
-      "summary": "arXiv:2610.00782v1 Announce Type: new Abstract: Artificial-intelligence weather prediction (AIWP) models have made it possible to produce high-quality tailored forecasts with limited computational resources. This advance…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scalar mixing by stagnation points on solid surfaces",
-      "url": "https://arxiv.org/abs/2610.00790",
-      "summary": "arXiv:2610.00790v1 Announce Type: new Abstract: Recent advances have linked mixing in porous media to the deformation of infinitesimal fluid elements. However, these Lagrangian frameworks generally neglect or simplify in…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weather Jiu-Jitsu: Exploring the Feasibility of Control Paradigms in Weather Foundation Models",
-      "url": "https://arxiv.org/abs/2610.00792",
-      "summary": "arXiv:2610.00792v1 Announce Type: new Abstract: Weather Jiu-Jitsu is a control paradigm for extreme climatological events, inspired by chaos theory. As a proposition, small, precise, targeted, and cost-inexpensive pertur…",
       "ts": 1790913600000,
       "publishedAt": "2026-10-02T04:00:00.000Z"
     }

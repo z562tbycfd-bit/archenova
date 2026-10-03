@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-03T00:14:18.321Z",
+  "updated": "2026-10-03T06:09:58.325Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
+      "summary": "APOD Science APOD APOD: 2026 October 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
+      "ts": 1791000300000,
+      "publishedAt": "2026-10-03T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Watching Cancer Proteins in Real Time, with Help from Rare Earth Elements",
@@ -802,15 +811,6 @@
       "ts": 1790901211000,
       "publishedAt": "2026-10-02T00:33:31.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "10 Things: Movie Night",
-      "url": "https://science.nasa.gov/solar-system/10-things-movie-night/",
-      "summary": "Join Us for Movie Night with NASA NASA’s mission is to pioneer the future in space exploration and scientific discovery. NASA+ documentaries allow you to come along for the ride. It’s free. It’s on demand. And no subscri…",
-      "ts": 1790900736000,
-      "publishedAt": "2026-10-02T00:25:36.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
