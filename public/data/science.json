@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-10-04T15:46:10.205Z",
+  "updated": "2026-10-04T19:18:34.597Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Taste shapes support for climate-friendly school meals",
+      "url": "https://phys.org/news/2026-10-climate-friendly-school-meals.html",
+      "summary": "Students in a new study were neither clearly positive nor negative about more climate-friendly school meals. Whether the food tasted good, was filling and felt familiar played an important role. Students were somewhat mo…",
+      "ts": 1791139201000,
+      "publishedAt": "2026-10-04T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One giant clam contains a month‑by‑month diary of the Great Barrier Reef's climate 200 years ago",
+      "url": "https://phys.org/news/2026-09-giant-clam-monthbymonth-diary-great.html",
+      "summary": "When you swim through the azure waters of the Great Barrier Reef, there is one creature on the seafloor that's almost impossible to miss: the giant clam. Its huge, fluted shell frames a soft mantle shimmering with electr…",
+      "ts": 1791136801000,
+      "publishedAt": "2026-10-04T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden X-ray phase revealed in likely neutron star merger",
+      "url": "https://phys.org/news/2026-09-hidden-ray-phase-revealed-neutron.html",
+      "summary": "An international team of astronomers, including researchers from the Department of Physics and the Hong Kong Institute for Astronomy and Astrophysics (HKIAA) at The University of Hong Kong (HKU), has discovered a previou…",
+      "ts": 1791133202000,
+      "publishedAt": "2026-10-04T17:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat-trapping gas once frozen in Arctic ground is slowly leaking and warming the planet",
+      "url": "https://phys.org/news/2026-10-gas-frozen-arctic-ground-slowly.html",
+      "summary": "As Ted Schuur stepped along the edges of Smith Lake, a bubble surfaced from the muck underfoot. And then another. They're bubbles of methane, a potent heat-trapping gas made from decomposing plants and animals that had o…",
+      "ts": 1791130801000,
+      "publishedAt": "2026-10-04T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How Enceladus' ocean spray becomes chemically diverse ice grains",
+      "url": "https://phys.org/news/2026-09-enceladus-ocean-spray-chemically-diverse.html",
+      "summary": "Saturn's icy moon Enceladus hides a global ocean beneath its frozen surface. From fractures near its south pole, material from this ocean is ejected into space as a plume of water vapor and ice particles. These particles…",
+      "ts": 1791129601000,
+      "publishedAt": "2026-10-04T16:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New research shows steep and continuing decline in prison population in the US",
@@ -761,46 +801,6 @@
       "summary": "Aurochs, the ancient ancestors of modern cattle, once roamed large parts of Europe, Asia and northern Africa. New research by an international team led by Lund University indicates that multiple factors contributed to th…",
       "ts": 1790946084000,
       "publishedAt": "2026-10-02T13:01:24.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Will AI make corporate communication sound the same?",
-      "url": "https://phys.org/news/2026-10-ai-corporate-communication.html",
-      "summary": "Companies that use AI tools to write their earnings presentations are sounding increasingly alike, a new study finds.",
-      "ts": 1790946062000,
-      "publishedAt": "2026-10-02T13:01:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Nepal disaster highlights risks for NZ mountains",
-      "url": "https://phys.org/news/2026-10-nepal-disaster-highlights-nz-mountains.html",
-      "summary": "Te Whare Wānanga o Waitaha | University of Canterbury (UC) School of Earth and Environment senior lecturer Dr. Robinson was part of an international research team investigating the Aug. 26 disaster, when a massive rock a…",
-      "ts": 1790944805000,
-      "publishedAt": "2026-10-02T12:40:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Astronomers discover the lowest-mass double neutron star system to date",
-      "url": "https://phys.org/news/2026-09-astronomers-lowest-mass-neutron-star.html",
-      "summary": "Neutron stars, the extremely dense remains of massive stars that exploded at the end of their lives, are widely studied astrophysical objects. Some of these stars, known as pulsars, spin and send out beams of radio waves…",
-      "ts": 1790943608000,
-      "publishedAt": "2026-10-02T12:20:08.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How deep do AI relationships really go? Attachment theory expert explains",
-      "url": "https://phys.org/news/2026-10-deep-ai-relationships-theory-expert.html",
-      "summary": "Attachment is the term psychologists use for the most significant relationships that hold people's lives together. But what makes an attachment relationship different from all others? According to the pioneering American…",
-      "ts": 1790943602000,
-      "publishedAt": "2026-10-02T12:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bushfire simulation reveals green strategy that could cut Australia's fire threat",
-      "url": "https://phys.org/news/2026-10-bushfire-simulation-reveals-green-strategy.html",
-      "summary": "New modeling shows irrigating low-flammability vegetation substantially reduces the predicted spread and intensity of wildfires, which could give communities critical extra preparation time, according to a University of …",
-      "ts": 1790942401000,
-      "publishedAt": "2026-10-02T12:00:01.000Z"
     }
   ],
   "sources": [

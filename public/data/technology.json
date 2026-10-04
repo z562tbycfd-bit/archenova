@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-04T15:46:13.666Z",
+  "updated": "2026-10-04T19:18:36.934Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Trump announces $90 payments for seniors’ Medicare premium costs ahead of midterm elections",
+      "url": "https://www.statnews.com/2026/10/04/trump-announces-90-dollar-payments-for-medicare-premiums/?utm_campaign=rss",
+      "summary": "President Trump is promising more payments to voters just ahead of the Nov. 3 midterm elections — this time for seniors' Medicare Part B premiums",
+      "ts": 1791133092000,
+      "publishedAt": "2026-10-04T16:58:12.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
@@ -799,15 +808,6 @@
       "title": "Two base rates, two weights: base-rate neglect has a second axis",
       "url": "https://arxiv.org/abs/2608.05658",
       "summary": "arXiv:2608.05658v3 Announce Type: replace-cross Abstract: Base-rate neglect is usually treated as one mistake: giving the prior too little weight. But turning co-occurrences into a judgment means correcting for two base …",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pheno-GS: Phenoscape-scale Geodesic Sinkhorn",
-      "url": "https://arxiv.org/abs/2609.27633",
-      "summary": "arXiv:2609.27633v2 Announce Type: replace-cross Abstract: High-throughput single-cell data is now collected across large patient cohorts. Understanding patient-level heterogeneity from cellular-level data motivates pheno…",
       "ts": 1790913600000,
       "publishedAt": "2026-10-02T04:00:00.000Z",
       "categoryId": "bio"
