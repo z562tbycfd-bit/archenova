@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-10-04T10:59:50.038Z",
+  "updated": "2026-10-04T15:46:10.205Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New research shows steep and continuing decline in prison population in the US",
+      "url": "https://phys.org/news/2026-09-steep-decline-prison-population.html",
+      "summary": "The U.S. prison population is declining at an accelerating rate, and prison admission rates are predicted to fall an additional 50% within the next two decades, according to new research from University at Albany profess…",
+      "ts": 1791124201000,
+      "publishedAt": "2026-10-04T14:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Inka scattered sacred coca leaves over sacrificed llamas, excavation suggests",
+      "url": "https://phys.org/news/2026-09-inka-sacred-coca-sacrificed-llamas.html",
+      "summary": "Deep in Peru's Acarí Valley lie the ruins of Tambo Viejo, an Inka provincial center where excavations have uncovered tasseled sacrificial llamas and brightly adorned guinea pigs. But save for a few seeds and some stored …",
+      "ts": 1791121201000,
+      "publishedAt": "2026-10-04T13:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Giant fluctuations of focused light reveal hidden correlations in opaque materials",
+      "url": "https://phys.org/news/2026-09-giant-fluctuations-focused-reveal-hidden.html",
+      "summary": "When light travels through a strongly scattering material, such as biological tissue or other disordered opaque media, it follows many different paths and produces a seemingly random speckle pattern. Wavefront shaping ma…",
+      "ts": 1791115201000,
+      "publishedAt": "2026-10-04T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hungary's dwindling paprika producers battle to save signature spice",
+      "url": "https://phys.org/news/2026-10-hungary-dwindling-paprika-signature-spice.html",
+      "summary": "Working from before dawn until midnight, farmers Nikoletta Pajsan Nagy and Laszlo Pajsan fought Europe's driest summer ever to save their red pepper harvest in Hungary.",
+      "ts": 1791112807000,
+      "publishedAt": "2026-10-04T11:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cry for help as French-Swiss lake dries up",
+      "url": "https://phys.org/news/2026-10-cry-french-swiss-lake-dries.html",
+      "summary": "The picturesque Lac des Brenets between France and Switzerland has dried up after a record-breaking hot summer, leaving locals crying out for help to save the lake.",
+      "ts": 1791111699000,
+      "publishedAt": "2026-10-04T11:01:39.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Cities keep shelling out taxpayer money for sports stadiums, yet the economics almost never makes sense",
@@ -761,46 +801,6 @@
       "summary": "New modeling shows irrigating low-flammability vegetation substantially reduces the predicted spread and intensity of wildfires, which could give communities critical extra preparation time, according to a University of …",
       "ts": 1790942401000,
       "publishedAt": "2026-10-02T12:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study links hurricane exposure to higher eviction risk for renters",
-      "url": "https://phys.org/news/2026-10-links-hurricane-exposure-higher-eviction.html",
-      "summary": "Hurricanes can displace renters even when their homes suffer no damage, according to new research led by Rowan University urban planner Qian He.",
-      "ts": 1790941207000,
-      "publishedAt": "2026-10-02T11:40:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The economy is resilient: Why do many Americans feel differently? An expert explains",
-      "url": "https://phys.org/news/2026-10-economy-resilient-americans-differently-expert.html",
-      "summary": "Even as the Federal Reserve moves to raise interest rates for the first time in three years, many of the metrics that economists rely on to gauge the overall health of the economy—like jobs reports, the unemployment rate…",
-      "ts": 1790940007000,
-      "publishedAt": "2026-10-02T11:20:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Q&A: How can marketers use AI effectively—without losing human judgment?",
-      "url": "https://phys.org/news/2026-10-qa-ai-effectively-human-judgment.html",
-      "summary": "As marketers increasingly turn to artificial intelligence (AI) tools to create content and improve the efficiency of their workflows, a new study by a Penn State researcher and collaborators proposes an approach to deplo…",
-      "ts": 1790938808000,
-      "publishedAt": "2026-10-02T11:00:08.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Fast Solidification of a Gravity-Stretched Liquid Jet",
-      "url": "http://link.aps.org/doi/10.1103/yh2j-b3wq",
-      "summary": "Author(s): JS. Smink, CW. Visser, and H. Lhuissier A new technique for generating solid fibers from a liquid jet is easier to model—and thus easier to control—than past methods. [Phys. Rev. Lett. 137, 144004] Published F…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Radiowave-Induced Resistance Oscillations",
-      "url": "http://link.aps.org/doi/10.1103/5h4n-1nzb",
-      "summary": "Author(s): E. Bell, A. Zhakenuly, C. Hnatovsky, K. W. Baldwin, L. N. Pfeiffer, K. W. West, S. Studenikin, and M. A. Zudov Microwave-induced resistance oscillations (MIROs) occur when a two-dimensional electron gas is sub…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
     }
   ],
   "sources": [
