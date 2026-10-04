@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-10-04T04:53:46.327Z",
+  "updated": "2026-10-04T10:59:50.038Z",
   "items": [
     {
       "source": "Phys.org",
@@ -9,6 +9,30 @@
       "summary": "Americans are crazy about sports. But whether that passion requires taxpayers to subsidize new facilities every time leagues and franchises ask for them needs rigorous scrutiny.",
       "ts": 1791073801000,
       "publishedAt": "2026-10-04T00:30:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Multivalent antiviral conjugates enhance activity against Influenza via cross-linking viruses",
+      "url": "https://www.nature.com/articles/s41467-026-78126-3",
+      "summary": "",
+      "ts": 1791072000000,
+      "publishedAt": "2026-10-04T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A family of small proteins links c-di-GMP riboswitch signaling with sporulation in <i>Clostridioides difficile</i>",
+      "url": "https://www.nature.com/articles/s41467-026-78452-6",
+      "summary": "",
+      "ts": 1791072000000,
+      "publishedAt": "2026-10-04T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A <i>CCL21</i>&#xa0;gene-modified dendritic cell vaccine combined with pembrolizumab in advanced non-small cell lung cancer: a phase I trial",
+      "url": "https://www.nature.com/articles/s41467-026-78130-7",
+      "summary": "",
+      "ts": 1791072000000,
+      "publishedAt": "2026-10-04T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -775,30 +799,6 @@
       "title": "Radiowave-Induced Resistance Oscillations",
       "url": "http://link.aps.org/doi/10.1103/5h4n-1nzb",
       "summary": "Author(s): E. Bell, A. Zhakenuly, C. Hnatovsky, K. W. Baldwin, L. N. Pfeiffer, K. W. West, S. Studenikin, and M. A. Zudov Microwave-induced resistance oscillations (MIROs) occur when a two-dimensional electron gas is sub…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Flavor-Polarized Chern Insulator in the Half-Filled Rhombohedral Graphene Moiré Superlattice",
-      "url": "http://link.aps.org/doi/10.1103/h96k-q32d",
-      "summary": "Author(s): Zaizhe Zhang, Xi Chen, Kenji Watanabe, Takashi Taniguchi, Zhida Song, and Xiaobo Lu At an even filling, a rhombohedral octalayer graphene moiré superlattice with electric-field-tunable chirality hosts a robust…",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Erratum: Temperature Dependence of $ρ$- and ${a}_{1}$-Meson Masses and Mixing of Vector and Axial-Vector Correlators [Phys. Rev. Lett. <b>88</b>, 042002 (2002)]",
-      "url": "http://link.aps.org/doi/10.1103/6rnw-w6t1",
-      "summary": "Author(s): Michael Urban, Michael Buballa, and Jochen Wambach [Phys. Rev. Lett. 137, 149901] Published Fri Oct 02, 2026",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Topological Mixed States: Phases of Matter from Axiomatic Approaches",
-      "url": "http://link.aps.org/doi/10.1103/3bpt-f9pd",
-      "summary": "Author(s): Tai-Hsuan Yang, Bowen Shi, and Jong Yeon Lee A quantum information framework classifies mixed-state topological phases for open quantum systems, introducing phase invariants based on an information convex set,…",
       "ts": 1790935200000,
       "publishedAt": "2026-10-02T10:00:00.000Z"
     }

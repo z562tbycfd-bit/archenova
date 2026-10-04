@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-10-04T04:53:49.104Z",
+  "updated": "2026-10-04T10:59:53.373Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
+      "summary": "APOD Science APOD APOD: 2026 October 4 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph…",
+      "ts": 1791086700000,
+      "publishedAt": "2026-10-04T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "United Nations News",
       "title": "Uganda’s UN-supported wildlife forensics lab turns ivory seizures into convictions",
@@ -799,15 +808,6 @@
       "title": "Pheno-GS: Phenoscape-scale Geodesic Sinkhorn",
       "url": "https://arxiv.org/abs/2609.27633",
       "summary": "arXiv:2609.27633v2 Announce Type: replace-cross Abstract: High-throughput single-cell data is now collected across large patient cohorts. Understanding patient-level heterogeneity from cellular-level data motivates pheno…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Characterisations of Planar Galled Networks",
-      "url": "https://arxiv.org/abs/2609.28597",
-      "summary": "arXiv:2609.28597v2 Announce Type: replace-cross Abstract: Rooted phylogenetic networks are widely used to represent the evolution of species that have undergone reticulate processes. However, these networks can be highly…",
       "ts": 1790913600000,
       "publishedAt": "2026-10-02T04:00:00.000Z",
       "categoryId": "bio"
