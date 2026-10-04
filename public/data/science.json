@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-10-04T19:18:34.597Z",
+  "updated": "2026-10-04T22:52:30.012Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nanoneedle arrays map RNA in fresh tissue without sequencing or amplification",
+      "url": "https://phys.org/news/2026-09-nanoneedle-arrays-rna-fresh-tissue.html",
+      "summary": "Recently, spatial omics has become a powerful tool, enabling researchers to see not only what molecules are present in a tissue, but also where they are located and how they are organized across cells, tissue structures …",
+      "ts": 1791147606000,
+      "publishedAt": "2026-10-04T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Informal businesses belong in entrepreneurial ecosystems, review argues",
+      "url": "https://phys.org/news/2026-09-businesses-entrepreneurial-ecosystems.html",
+      "summary": "A systematic review of informal businesses published in the International Journal of Entrepreneurship and Small Business argues that they should be treated as part of the larger entrepreneurial ecosystem rather than as a…",
+      "ts": 1791147601000,
+      "publishedAt": "2026-10-04T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Too many males to choose from can overwhelm female frogs—and change who gets to mate",
+      "url": "https://phys.org/news/2026-10-males-overwhelm-female-frogs.html",
+      "summary": "If you've ever felt overwhelmed by menu options at a restaurant, cereal varieties at the grocery store or potential partners while scrolling through dating apps, you've experienced choice overload.",
+      "ts": 1791145201000,
+      "publishedAt": "2026-10-04T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gamma-ray search sets new limits on dark matter annihilation in the inner Milky Way",
+      "url": "https://phys.org/news/2026-09-gamma-ray-limits-dark-annihilation.html",
+      "summary": "Dark matter could be a type of matter in the universe that does not emit, absorb or reflect detectable light and appears to interact very weakly with regular matter. Although physicists have observed gravitational effect…",
+      "ts": 1791141601000,
+      "publishedAt": "2026-10-04T19:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Taste shapes support for climate-friendly school meals",
@@ -769,38 +801,6 @@
       "summary": "Birds calling back and forth in the morning make up one of the defining sounds of tropical forests. We're likely to assume that hearing or seeing more types of birds indicates a healthy forest.",
       "ts": 1790948414000,
       "publishedAt": "2026-10-02T13:40:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Two active magma reservoirs may lie beneath Masaya volcano, near 2 million people",
-      "url": "https://phys.org/news/2026-10-magma-reservoirs-beneath-masaya-volcano.html",
-      "summary": "Masaya volcano in Nicaragua sits within 13 miles (21 kilometers) of 2 million people and is a popular tourist destination due to its lava lake. Penn State researchers recently found evidence of two new magma sources unde…",
-      "ts": 1790948406000,
-      "publishedAt": "2026-10-02T13:40:06.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rethinking smart cities: An open-source tool for urban data collection",
-      "url": "https://phys.org/news/2026-10-rethinking-smart-cities-source-tool.html",
-      "summary": "A large part of urban planning involves navigating how people experience a place. That kind of insight can require collecting data at a level of detail that large-scale datasets cannot provide.",
-      "ts": 1790947217000,
-      "publishedAt": "2026-10-02T13:20:17.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A laser that stays locked without active control",
-      "url": "https://phys.org/news/2026-10-laser-stays.html",
-      "summary": "EPFL researchers have developed a chip-based laser that keeps a very stable frequency across its tested operating range, without needing active electronic control. Their research is published in the journal Nature Photon…",
-      "ts": 1790947202000,
-      "publishedAt": "2026-10-02T13:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The vanishing of aurochs: Genetic evidence reveals multiple stressors at the same time",
-      "url": "https://phys.org/news/2026-10-aurochs-genetic-evidence-reveals-multiple.html",
-      "summary": "Aurochs, the ancient ancestors of modern cattle, once roamed large parts of Europe, Asia and northern Africa. New research by an international team led by Lund University indicates that multiple factors contributed to th…",
-      "ts": 1790946084000,
-      "publishedAt": "2026-10-02T13:01:24.000Z"
     }
   ],
   "sources": [
