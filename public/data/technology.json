@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-10-05T08:35:41.641Z",
+  "updated": "2026-10-05T18:05:02.351Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Prices, prices, prices",
+      "url": "https://www.statnews.com/2026/10/05/health-care-prices-make-care-insurance-expensive-health-care-inc/?utm_campaign=rss",
+      "summary": "Why is health insurance so expensive? Read the latest stort in STAT's \"Out of Pocket, Out of Reach\" series to find out.",
+      "ts": 1791218288000,
+      "publishedAt": "2026-10-05T16:38:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Utah plows ahead with more health AI pilots for prescriptions, women’s health",
+      "url": "https://www.statnews.com/2026/10/05/utah-expands-health-ai-sandbox-picks-third-party-auditors/?utm_campaign=rss",
+      "summary": "Utah plans to allow an AI product to evaluate patients and write new drug prescriptions without prior human review.",
+      "ts": 1791216014000,
+      "publishedAt": "2026-10-05T16:00:14.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "HORIBA Expands Customer-Focused Solutions with New East Coast Analytical Solution Plaza",
+      "url": "https://www.genengnews.com/topics/bioprocessing/horiba-expands-customer-focused-solutions-with-new-east-coast-analytical-solution-plaza/",
+      "summary": "HORIBA recently unveiled an Applications Solutions Plaza (ASP) at its Piscataway, New Jersey facility. The ASP allows customers to bring samples for testing or receive on-site demonstrations using modular, laboratory set…",
+      "ts": 1791215302000,
+      "publishedAt": "2026-10-05T15:48:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Connecting AI agents to enterprise knowledge",
+      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+      "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in …",
+      "ts": 1791215272000,
+      "publishedAt": "2026-10-05T15:47:52.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "ts": 1791212400000,
+      "publishedAt": "2026-10-05T15:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lilly’s Jaypirca approved as first-line CLL therapy",
+      "url": "https://www.statnews.com/2026/10/05/biotech-news-lilly-jaypirca-approved-as-first-line-cll-therapy/?utm_campaign=rss",
+      "summary": "Eli Lilly’s Jaypirca has won FDA approval for previously untreated chronic lymphocytic leukemia and small lymphocytic lymphoma.",
+      "ts": 1791208541000,
+      "publishedAt": "2026-10-05T13:55:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Bringing predictive analytics to the agentic AI era ",
+      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own c…",
+      "ts": 1791206972000,
+      "publishedAt": "2026-10-05T13:29:32.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "2026 Nobel Prize for Physiology and Medicine Goes to Optogenetics, Light-Gated Ion Channels",
+      "url": "https://www.genengnews.com/topics/translational-medicine/2026-nobel-prize-for-physiology-and-medicine-goes-to-optogenetics-light-gated-ion-channels/",
+      "summary": "Today, the 2026 Nobel Prize for Physiology and Medicine has been awarded to Karl Deisseroth, MD, PhD, Peter Hegemann, PhD, and Georg Nagel, PhD, for their discoveries of light-gated ion channels and optogenetics. The pos…",
+      "ts": 1791206662000,
+      "publishedAt": "2026-10-05T13:24:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Vaxcyte pneumococcal shot, increasing pharma M&A, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/?utm_campaign=rss",
+      "summary": "Vaxcyte said its pneumococcal vaccine hit the primary endpoints in a Phase 3 clinical trial, setting up a competition with Pfizer and Merck",
+      "ts": 1791205803000,
+      "publishedAt": "2026-10-05T13:10:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+      "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+      "summary": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms wi…",
+      "ts": 1791205257000,
+      "publishedAt": "2026-10-05T13:00:57.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Vaxcyte claims success in bid to beat Pfizer and Merck in lucrative vaccine market",
+      "url": "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/?utm_campaign=rss",
+      "summary": "Vaxcyte said its experimental pneumococcal vaccine hit the primary endpoints in a Phase 3 clinical trial, setting up the biotech to compete with Pfizer and Merck.",
+      "ts": 1791202751000,
+      "publishedAt": "2026-10-05T12:19:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI’s popularity paradox and EmTech Future 2026",
+      "url": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. People really hate AI, so why can’t they get enough? —Will Douglas Heaven Over the…",
+      "ts": 1791202200000,
+      "publishedAt": "2026-10-05T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Could we one day vaccinate against every cancer?",
+      "url": "https://www.statnews.com/2026/10/05/health-news-could-we-one-day-vaccinate-against-every-cancer/?utm_campaign=rss",
+      "summary": "What science says so far about which cancers can be beat by vaccines — and which will require more creative approaches.",
+      "ts": 1791201651000,
+      "publishedAt": "2026-10-05T12:00:51.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Extreme heat making pregnancy a ‘new fault line’ in climate crisis",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168522",
+      "summary": "Pregnancy and childbirth have become a “new fault line in the global climate crisis” as extreme heat worsens, the head of the UN climate action body (UNFCCC) warned on Monday, calling for maternal and newborn health to b…",
+      "ts": 1791201600000,
+      "publishedAt": "2026-10-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "ICC unseals four arrest warrants over Taliban persecution of women and girls",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168521",
+      "summary": "The International Criminal Court (ICC) has made public four arrest warrants against senior Taliban figures, accusing them of persecuting women and girls in Afghanistan, which amounts to a crime against humanity.",
+      "ts": 1791201600000,
+      "publishedAt": "2026-10-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN upholds housing as a human right on World Habitat Day",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168520",
+      "summary": "Representatives from governments, civil society and academia meeting in Muscat, Oman on Monday called for urgent action to address a global housing crisis affecting nearly 3.4 billion people.",
+      "ts": 1791201600000,
+      "publishedAt": "2026-10-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Driver killed in aerial attack on aid trucks in South Kordofan",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168519",
+      "summary": "The World Food Programme (WFP) has strongly condemned a deadly airstrike on two clearly marked aid trucks in South Kordofan, Sudan, this past weekend.",
+      "ts": 1791201600000,
+      "publishedAt": "2026-10-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "One day behind bars: Students and incarcerated women break prison stigma in Thailand",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168518",
+      "summary": "“Your mind follows the thread, one by one, row by row. You know? It’s like meditation. I don’t like machines.”",
+      "ts": 1791201600000,
+      "publishedAt": "2026-10-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Report Finds Japan's Monitoring of ALPS Treated Water Accurate and Reliable",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-finds-japans-monitoring-of-alps-treated-water-accurate-and-reliable",
+      "summary": "",
+      "ts": 1791198545000,
+      "publishedAt": "2026-10-05T11:09:05.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Tritium Level Far Below Japan’s Operational Limit in 24th Batch of ALPS Treated Water, IAEA Confirms",
+      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-24th-batch-of-alps-treated-water-iaea-confirms",
+      "summary": "",
+      "ts": 1791198367000,
+      "publishedAt": "2026-10-05T11:06:07.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Launches Research Project on Spent Fuel Characterization",
+      "url": "http://www.iaea.org/newscenter/news/iaea-launches-research-project-on-spent-fuel-characterization",
+      "summary": "",
+      "ts": 1791194784000,
+      "publishedAt": "2026-10-05T10:06:24.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics",
+      "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/?utm_campaign=rss",
+      "summary": "Karl Deisseroth, Peter Hegemann, and Georg Nagel are the joint recipients of the 2026 Nobel Prize in Physiology or Medicine “for their discoveries concerning light-gated ion channels and optogenetics,\" the…",
+      "ts": 1791194411000,
+      "publishedAt": "2026-10-05T10:00:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "ts": 1791194400000,
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Are stem cells the next peptides? These advocates think RFK Jr. could make it happen",
@@ -31,7 +238,7 @@
     },
     {
       "source": "STAT",
-      "title": "Hospital and pharmaceutical prices are smothering America’s businesses",
+      "title": "STAT+: Hospital and pharmaceutical prices are smothering America’s businesses",
       "url": "https://www.statnews.com/2026/10/05/hospital-bills-drug-prices-insurance-premiums-spiral-part-5-out-of-pocket-series/?utm_campaign=rss",
       "summary": "Workers and employers are drowning in their health insurance premiums. The reason for that deluge: the health care industry’s high and inscrutable prices.",
       "ts": 1791189000000,
@@ -55,6 +262,15 @@
       "ts": 1791187200000,
       "publishedAt": "2026-10-05T08:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Launches First National Water Quality and Isotope Hydrology Atlas for the Central African Republic",
+      "url": "http://www.iaea.org/newscenter/news/iaea-launches-first-national-water-quality-and-isotope-hydrology-atlas-for-the-central-african-republic",
+      "summary": "",
+      "ts": 1791184113000,
+      "publishedAt": "2026-10-05T07:08:33.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -408,6 +624,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "United Nations News",
+      "title": "Beyond the Moon: Space Week around the world",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168517",
+      "summary": "Right after the Soviet Union launched Sputnik in 1957, UNOOSA, the UN Office for Outer Space Affairs, was established and has since been monitoring developments across more than 77 successful lunar missions and other jou…",
+      "ts": 1791115200000,
+      "publishedAt": "2026-10-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘He felt heard’: How a film brought a UN report to life in Xochimilco",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168492",
+      "summary": "A documentary drawn from United Nations University research was screened at the COP30 climate conference and film festivals across Europe. Its most important journey, though, was the one back to the Mexico City canals wh…",
+      "ts": 1791115200000,
+      "publishedAt": "2026-10-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "NASA",
       "title": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
@@ -415,6 +649,15 @@
       "ts": 1791086700000,
       "publishedAt": "2026-10-04T04:05:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Rotting food waste emits 5 times more greenhouse gases than planes",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168507",
+      "summary": "Rotting food waste is causing up to 10 per cent of total global greenhouse gas emissions – five times more than the entire aviation sector, the UN’s environment agency warned this week.",
+      "ts": 1791028800000,
+      "publishedAt": "2026-10-03T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -568,249 +811,6 @@
       "ts": 1790953200000,
       "publishedAt": "2026-10-02T15:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "An Ebola treatment center was burned down as the death toll in Congo passes 4,000",
-      "url": "https://www.statnews.com/2026/10/02/ebola-outbreak-congo-4000-deaths/?utm_campaign=rss",
-      "summary": "Congo's Ebola outbreak has killed more than 4,000 people, authorities said, as they struggle to contain what has become the fastest-growing Ebola outbreak in history.",
-      "ts": 1790951100000,
-      "publishedAt": "2026-10-02T14:25:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lilly bypasses Australian pharmacies with DTC model",
-      "url": "https://www.statnews.com/2026/10/02/biotech-news-lilly-bypasses-australian-phramacies-with-dtc-model/?utm_campaign=rss",
-      "summary": "Eli Lilly is launching LillyDirect to deliver Mounjaro straight to Australian patients’ doors — and local doctors and pharmacists aren’t thrilled.",
-      "ts": 1790949511000,
-      "publishedAt": "2026-10-02T13:58:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1790947202000,
-      "publishedAt": "2026-10-02T13:20:02.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about the 340B drug pilot program, an obesity drug disappointment, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/?utm_campaign=rss",
-      "summary": "The U.S. approved 10 drugmakers to participate in a 340B pilot program that will allow them to offer rebates, instead of upfront discounts, to certain providers",
-      "ts": 1790946676000,
-      "publishedAt": "2026-10-02T13:11:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 28 Sep - 2 Oct 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_28_Sep_-_2_Oct_2026",
-      "summary": "Week in images: 28 Sep - 2 Oct 2026 Discover our week through the lens",
-      "ts": 1790946600000,
-      "publishedAt": "2026-10-02T13:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Com…",
-      "ts": 1790946039000,
-      "publishedAt": "2026-10-02T13:00:39.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a biological de-aging contest and why LLMs don’t reason",
-      "url": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —J…",
-      "ts": 1790943000000,
-      "publishedAt": "2026-10-02T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Money alone won’t get us there’: UN steps up aid for 12 forgotten crises",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168516",
-      "summary": "Getting aid to people in the world’s most neglected emergencies takes more than money. It takes open roads, open borders and leaders willing to help it reach those in dire need.",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Global life expectancy bounces back to near pre-pandemic levels, WHO says",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168515",
-      "summary": "People around the world are living longer again, with global life expectancy almost fully recovered from the disruption of the COVID-19 pandemic, the World Health Organization (WHO) said on Friday.",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ukraine war ‘a human rights catastrophe’ that must end, says Türk",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168513",
-      "summary": "The war in Ukraine is a human rights catastrophe that is “growing and intensifying by the week” and threatening an even greater disaster across the region, UN High Commissioner for Human Rights Volker Türk said on Friday…",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Collective action needed to tackle global information crisis, UN-led dialogue hears",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168512",
-      "summary": "Governments, UN entities, civil society, media, academia and the private sector have called for stronger cooperation and practical action to respond to a rapidly changing global information landscape.",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Cycle of violence continues in Haiti, seafarer deaths off Somalia, food insecurity in the Middle East",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168511",
-      "summary": "Haitians remain in the grip of lethal gang violence as it continues to “adapt and expand”, the UN’s top rights official, Volker Türk, said on Friday.",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Escalating fighting in Yemen deepens food security crisis",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168509",
-      "summary": "Renewed conflict in Yemen has triggered a surge in hunger that could have consequences in the wider region and beyond, the World Food Programme (WFP) warned on Friday.",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza: WHO appeals for massive aid influx ahead of winter",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168508",
-      "summary": "Repeated delays in bringing lifesaving medicines, prosthetics and more from Israel into Gaza risk having devastating consequences on Palestinians who urgently need them in the war-torn enclave, the UN World Health Organi…",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘I have not lost my dreams’: Refugee education funding cuts threaten millions",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168506",
-      "summary": "A teenage girl who fled war-torn Sudan for neighbouring Egypt and hopes to pursue a technology degree is an example of why countries must ensure that young refugees can continue to learn.",
-      "ts": 1790942400000,
-      "publishedAt": "2026-10-02T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "How big is Pennsylvania’s measles outbreak? ",
-      "url": "https://www.statnews.com/2026/10/02/health-news-how-big-is-pennsylvania-measles-outbreak/?utm_campaign=rss",
-      "summary": "News of a fifth measles death in Pennsylvania underscores a longstanding issue about the disease. The full scope of the outbreak — in the state and in the country —…",
-      "ts": 1790942023000,
-      "publishedAt": "2026-10-02T11:53:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Beyond the airlock - Sophie Adenot's three spacewalks",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Beyond_the_airlock_-_Sophie_Adenot_s_three_spacewalks",
-      "summary": "Video: 00:08:40 For ESA astronaut Sophie Adenot, her first steps into space were only the beginning. In less than 15 days, she performed three extravehicular activities, or EVAs, spending 19 hours and 42 minutes outside …",
-      "ts": 1790935200000,
-      "publishedAt": "2026-10-02T10:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A new contest pits competitors against each other in a race to biological youth",
-      "url": "https://www.technologyreview.com/2026/10/02/1145610/younger-contest-race-to-biological-youth/",
-      "summary": "This week, I officially signed up for an unusual competition. One that rewards competitors for getting younger. I recently turned 40, and I don’t need reminding that both time and my chronological age only tick forward. …",
-      "ts": 1790931600000,
-      "publishedAt": "2026-10-02T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Typhoon Surigae",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Typhoon_Surigae",
-      "summary": "Image: This false-colour, polarised image from Copernicus Sentinel-1 shows us the surface of the sea beneath the clouds, as seen by the satellite’s radar instrument. The sea conditions reflect the strong winds as Typhoon…",
-      "ts": 1790931600000,
-      "publishedAt": "2026-10-02T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 369 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-369-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1790930700000,
-      "publishedAt": "2026-10-02T08:45:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: NIH awarded all its grant funding, but delayed and opaque decisions stymied researchers",
-      "url": "https://www.statnews.com/2026/10/02/nih-grant-funding-fy2026-analysis/?utm_campaign=rss",
-      "summary": "The NIH continued reducing grants involving health disparities, race, and ethnicity but made little progress toward other administration priorities in the 2026 fiscal year.",
-      "ts": 1790929800000,
-      "publishedAt": "2026-10-02T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The law has to catch up on orphan-designated drugs with multiple uses",
-      "url": "https://www.statnews.com/2026/10/02/340b-policy-orphan-designated-drugs-pharmacy-losses-hrsa-congress/?utm_campaign=rss",
-      "summary": "The law has to catch up on the 340B drug discount program, writes a pharmacist.",
-      "ts": 1790929800000,
-      "publishedAt": "2026-10-02T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I treated heat stroke at the NYC Marathon. Marathons need to prepare for a climate-changed world",
-      "url": "https://www.statnews.com/2026/10/02/marathons-climate-change-extreme-heat-medical-planning/?utm_campaign=rss",
-      "summary": "A doctor’s request to marathons: Let’s make evidence-based medical plans — especially for extreme heat.",
-      "ts": 1790929800000,
-      "publishedAt": "2026-10-02T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Don’t be fooled—LLMs don’t reason",
-      "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-      "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked s…",
-      "ts": 1790928000000,
-      "publishedAt": "2026-10-02T08:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Jammertest pumps up the jam in Norway",
-      "url": "https://www.esa.int/Applications/Satellite_navigation/Jammertest_pumps_up_the_jam_in_Norway",
-      "summary": "Every September, for one week, the airwaves above the Arctic island of Andøya, Norway, become some of the most heavily attacked in the world. For a good reason: Jammertest. From the small village of Bleik, 69 degrees nor…",
-      "ts": 1790924700000,
-      "publishedAt": "2026-10-02T07:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Mexico Strengthens Expertise for Long-Term Nuclear Power Plant Operation",
-      "url": "http://www.iaea.org/newscenter/news/mexico-strengthens-expertise-for-long-term-nuclear-power-plant-operation",
-      "summary": "An IAEA training course held at Mexico’s only nuclear power plant, Laguna Verde, brought together 30 national nuclear professionals for training tailored to the plant’s needs.",
-      "ts": 1790920830000,
-      "publishedAt": "2026-10-02T06:00:30.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
-      "url": "http://www.iaea.org/newscenter/multimedia/videos/iaea-medical-assistance-supports-ukraines-nuclear-workers",
-      "summary": "",
-      "ts": 1790920800000,
-      "publishedAt": "2026-10-02T06:00:00.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
