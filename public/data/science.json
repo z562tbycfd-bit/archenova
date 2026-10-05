@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-10-04T22:52:30.012Z",
+  "updated": "2026-10-05T01:43:11.966Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nature-strip gardens are a paradise for pollinators in your street",
+      "url": "https://phys.org/news/2026-09-nature-gardens-paradise-pollinators-street.html",
+      "summary": "In front of most Australian houses, between the sidewalk and the road, runs a strip of land most people never really think about. In Australia, it's called the nature strip, but it goes by other names in other regions, i…",
+      "ts": 1791160201000,
+      "publishedAt": "2026-10-05T00:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A climate threat may lurk beneath Antarctica's last great unknown",
+      "url": "https://phys.org/news/2026-09-climate-threat-lurk-beneath-antarctica.html",
+      "summary": "A region of Antarctica with some of the greatest potential to reshape the natural world and human society is also the least scientifically understood and explored.",
+      "ts": 1791154801000,
+      "publishedAt": "2026-10-04T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Nanoneedle arrays map RNA in fresh tissue without sequencing or amplification",
@@ -785,22 +801,6 @@
       "summary": "The success of a large-scale recovery program for wētāpunga/Little Barrier giant wētā, New Zealand's heaviest insect, has been officially documented in the New Zealand Journal of Zoology.",
       "ts": 1790949601000,
       "publishedAt": "2026-10-02T14:00:01.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "Are hypernovas real?",
-      "url": "https://www.sciencenews.org/article/hypernovas-real-elements-space",
-      "summary": "Uneven supernova explosions may explain the unusual mix of elements in Milky Way stars once thought to be evidence of hypernovas.",
-      "ts": 1790949600000,
-      "publishedAt": "2026-10-02T14:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Birdsong tells only part of a forest's story: Evolutionary trees reveal the rest",
-      "url": "https://phys.org/news/2026-10-birdsong-forest-story-evolutionary-trees.html",
-      "summary": "Birds calling back and forth in the morning make up one of the defining sounds of tropical forests. We're likely to assume that hearing or seeing more types of birds indicates a healthy forest.",
-      "ts": 1790948414000,
-      "publishedAt": "2026-10-02T13:40:14.000Z"
     }
   ],
   "sources": [

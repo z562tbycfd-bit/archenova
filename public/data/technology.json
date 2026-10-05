@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-10-04T22:52:34.322Z",
+  "updated": "2026-10-05T01:43:14.344Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 5022-5028: Cashing in at Cache Creek",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/",
+      "summary": "Written by Lucy Thompson, Senior Research Scientist, University of New Brunswick, Canada Earth planning date: Friday, Sept. 25, 2026 Before we landed, the area of Gale crater that we planned to explore was divided up int…",
+      "ts": 1791148387000,
+      "publishedAt": "2026-10-04T21:13:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+      "url": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+      "summary": "“I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’” That’s how Richard Spolzino describes the thing he’s chasing. Not a title, not a specific mission, not even NASA itself, just the abili…",
+      "ts": 1791141059000,
+      "publishedAt": "2026-10-04T19:10:59.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Trump announces $90 payments for seniors’ Medicare premium costs ahead of midterm elections",
@@ -790,24 +808,6 @@
       "title": "Validation of a Computational Respiratory System Model for Mechanical Ventilation",
       "url": "https://arxiv.org/abs/2607.06210",
       "summary": "arXiv:2607.06210v2 Announce Type: replace-cross Abstract: Computational modeling and simulation have emerged as powerful tools for assessing medical device performance and safety, particularly in silico clinical trials (…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rapid quantitative chemical composition mapping using model-based MRI reconstruction with field inhomogeneity correction",
-      "url": "https://arxiv.org/abs/2607.24441",
-      "summary": "arXiv:2607.24441v3 Announce Type: replace-cross Abstract: Magnetic resonance spectroscopic imaging methods are particularly attractive for chemical engineering applications, including the monitoring of chemical reactions…",
-      "ts": 1790913600000,
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Two base rates, two weights: base-rate neglect has a second axis",
-      "url": "https://arxiv.org/abs/2608.05658",
-      "summary": "arXiv:2608.05658v3 Announce Type: replace-cross Abstract: Base-rate neglect is usually treated as one mistake: giving the prior too little weight. But turning co-occurrences into a judgment means correcting for two base …",
       "ts": 1790913600000,
       "publishedAt": "2026-10-02T04:00:00.000Z",
       "categoryId": "bio"
